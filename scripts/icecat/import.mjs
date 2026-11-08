@@ -114,7 +114,7 @@ async function phaseSheets() {
   const defs = must(await db.from('spec_definitions').select('id, key, data_type').eq('category_id', cat.id), 'spec defs')
   const defByKey = Object.fromEntries(defs.map((d) => [d.key, d]))
 
-  const sheets = await pool(todo, 4, async (t) => ({ id: t.external_id, data: await fetchSheet(t.external_id) }))
+  const sheets = await pool(todo, 8, async (t) => ({ id: t.external_id, data: await fetchSheet(t.external_id) }))
   const models = new Map()
   const marks = []
   const unnamed = []
@@ -213,9 +213,10 @@ async function phaseSheets() {
 
   // отметки в журнале позиций
   const now = new Date().toISOString()
-  for (const mk of marks) {
-    must(await db.from('source_items').update({ status: mk.status, note: mk.note ?? null, fetched_at: now,
-      product_id: mk.slug ? productIdBySlug[mk.slug] ?? null : null }).eq('source', 'icecat').eq('external_id', mk.id), 'mark')
+  const rows = marks.map((mk) => ({ source: 'icecat', external_id: String(mk.id), category_key: CATEGORY, status: mk.status,
+    note: mk.note ?? null, fetched_at: now, product_id: mk.slug ? productIdBySlug[mk.slug] ?? null : null }))
+  for (let i = 0; i < rows.length; i += 500) {
+    must(await db.from('source_items').upsert(rows.slice(i, i + 500), { onConflict: 'source,external_id' }), 'marks')
   }
   // SKU без названия, ждавшие свою модель: если основа артикула теперь известна — в очередь снова
   const learned = [...models.values()].filter((g) => g.stem).map((g) => `stem:${g.brandSlug}:${g.stem}`)
