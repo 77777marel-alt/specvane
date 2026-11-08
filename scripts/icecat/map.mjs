@@ -139,25 +139,56 @@ export function mapSmartphone(data) {
 }
 
 const slugify = (s) =>
-  s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/\+/g, '-plus').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+  s.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\+/g, '-plus').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+
+/** Похоже на артикул, а не на название (SM-F766BDBGEUB, 6936520852376, MYEX3QL/A). */
+export const isCode = (s) => {
+  const t = String(s ?? '').trim()
+  if (!t) return true
+  if (/^\d{6,}$/.test(t)) return true
+  return !/\s/.test(t) && t.length >= 7 && /\d/.test(t) && t === t.toUpperCase() && /[A-Z]/.test(t)
+}
+const clean = (s) => String(s ?? '').replace(/\bsmartphones?\b/gi, '').replace(/\s+/g, ' ').trim()
+
+/** Семейства по умолчанию, если Icecat не указал (Samsung «S25 FE» → «Galaxy S25 FE»). */
+const DEFAULT_FAMILY = {
+  samsung: [/^(S|A|Z|M|F|XCover)\s?\d/i, 'Galaxy'],
+  apple: [/^\d/, 'iPhone'],
+  google: [/^\d/, 'Pixel'],
+}
+
+/** Основа артикула модели — по ней склеиваем SKU без названия (Samsung SM-F766B… → SM-F766). */
+export function codeStem(brandSlug, ...codes) {
+  for (const c of codes) {
+    const t = String(c ?? '').toUpperCase()
+    if (brandSlug === 'samsung') { const m = /^(SM-[A-Z]\d{3})/.exec(t); if (m) return m[1] }
+  }
+  return null
+}
 
 /**
- * Модель (одна карточка на сайте) из SKU Icecat: бренд + семейство + серия («Galaxy» + «S22»).
- * Цвет/память/артикул — варианты одной модели.
+ * Модель (одна карточка на сайте) из SKU Icecat: семейство + серия/название («Galaxy» + «S22»).
+ * Цвет/память/артикул — варианты одной модели. Если названия нет (только артикул) — name=null,
+ * тогда импорт пробует найти модель по основе артикула (stem).
  */
 export function modelOf(data) {
   const gi = data.GeneralInfo ?? {}
-  const brand = String(gi.Brand ?? '').trim()
-  const family = String(gi.ProductFamily?.Value ?? '').trim()
-  const series = String(gi.ProductSeries?.Value ?? '').trim()
-  let name = [family, series].filter(Boolean).join(' ')
-  if (!series) {
-    // запасной вариант: международный заголовок без бренда и артикула
-    const t = String(gi.TitleInfo?.GeneratedIntTitle ?? gi.Title ?? '')
-    name = t.replace(new RegExp(`^${brand}\\s+`, 'i'), '').replace(String(gi.ProductName ?? ''), '').trim() || String(gi.ProductName ?? '')
+  const brand = clean(gi.Brand)
+  if (!brand) return null
+  const brandSlug = slugify(brand)
+  let family = clean(gi.ProductFamily?.Value)
+  const series = clean(gi.ProductSeries?.Value)
+  const pname = clean(gi.ProductName)
+  let base = [series, pname].find((x) => x && !isCode(x)) ?? ''
+  if (base && family && base.toLowerCase().startsWith(family.toLowerCase())) family = ''
+  if (base && !family) {
+    const d = DEFAULT_FAMILY[brandSlug]
+    if (d && d[0].test(base)) family = d[1]
   }
-  if (!brand || !name) return null
-  return { brand, brandSlug: slugify(brand), name, slug: slugify(`${brand} ${name}`) }
+  if (base.toLowerCase().startsWith(brand.toLowerCase() + ' ')) base = base.slice(brand.length + 1)
+  const name = base ? clean([family, base].filter(Boolean).join(' ')) : null
+  const stem = codeStem(brandSlug, gi.ProductName, gi.BrandPartCode)
+  return { brand, brandSlug, name, slug: name ? slugify(`${brand} ${name}`) : null, stem }
 }
 
 /** ДД-ММ-ГГГГ → ГГГГ-ММ-ДД */

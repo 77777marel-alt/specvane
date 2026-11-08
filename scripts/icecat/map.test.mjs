@@ -1,7 +1,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
-import { mapSmartphone, modelOf, releaseDate, images, gtins, slugify } from './map.mjs'
+import { mapSmartphone, modelOf, releaseDate, images, gtins, slugify, isCode } from './map.mjs'
 
 const s22 = JSON.parse(readFileSync(new URL('./fixture-s22.json', import.meta.url)))
 
@@ -35,7 +35,7 @@ test('характеристики Galaxy S22', () => {
 })
 
 test('модель и варианты', () => {
-  assert.deepEqual(modelOf(s22), { brand: 'Samsung', brandSlug: 'samsung', name: 'Galaxy S22', slug: 'samsung-galaxy-s22' })
+  assert.deepEqual(modelOf(s22), { brand: 'Samsung', brandSlug: 'samsung', name: 'Galaxy S22', slug: 'samsung-galaxy-s22', stem: 'SM-S901' })
   assert.equal(releaseDate(s22), '2022-01-17')
   assert.deepEqual(gtins(s22), ['8806092878488', '8806092878495'])
   assert.equal(images(s22).length, 2)
@@ -56,4 +56,20 @@ test('единицы памяти MB/TB', () => {
   const s = mapSmartphone(d)
   assert.equal(s.ram, 4)
   assert.equal(s.storage, 1024)
+})
+
+const gi = (o) => ({ GeneralInfo: o })
+test('названия моделей из реальных случаев Icecat', () => {
+  // семейство есть, серии нет, название в ProductName
+  assert.equal(modelOf(gi({ Brand: 'Samsung', ProductFamily: { Value: 'Galaxy' }, ProductName: 'A27 5G', BrandPartCode: 'SM-A276BZKBEEE' })).name, 'Galaxy A27 5G')
+  // семейства нет — подставляем Galaxy
+  assert.equal(modelOf(gi({ Brand: 'Samsung', ProductSeries: { Value: 'S25 FE' }, ProductName: 'SM-S731B' })).slug, 'samsung-galaxy-s25-fe')
+  // только артикул — без названия, но с основой артикула
+  const m = modelOf(gi({ Brand: 'Samsung', ProductName: 'SM-F766BDBGEUB smartphone', BrandPartCode: 'SM-F766BDBGEUB' }))
+  assert.equal(m.name, null); assert.equal(m.stem, 'SM-F766')
+  // ProductName уже содержит семейство
+  assert.equal(modelOf(gi({ Brand: 'Samsung', ProductFamily: { Value: 'Galaxy' }, ProductName: 'Galaxy A16' })).name, 'Galaxy A16')
+  // Honor без семейства
+  assert.equal(modelOf(gi({ Brand: 'Honor', ProductName: '200 5G', BrandPartCode: '6936520852376' })).slug, 'honor-200-5g')
+  assert.equal(isCode('SM-F766BDBGEUB'), true); assert.equal(isCode('A27 5G'), false); assert.equal(isCode('6936520852376'), true)
 })

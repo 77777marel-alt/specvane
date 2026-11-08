@@ -25,7 +25,7 @@ const env = (k, d) => process.env[k] ?? d
 const CATEGORY = 'smartphones'
 const ICECAT_CATID = '1893'
 const USER = env('ICECAT_USER', 'specvane')
-const MAX = Number(env('MAX_PRODUCTS', '300'))
+const MAX = Number(env('MAX_PRODUCTS', '1500'))
 const INDEX = env('INDEX', 'on_market')
 const DRY = env('DRY_RUN') === '1'
 const UA = 'SpecvaneImporter/1.0 (+https://specvane.com)'
@@ -115,18 +115,44 @@ async function phaseSheets() {
   const sheets = await pool(todo, 4, async (t) => ({ id: t.external_id, data: await fetchSheet(t.external_id) }))
   const models = new Map()
   const marks = []
+  const unnamed = []
   for (const { id, data } of sheets) {
     if (!data || data._error) { marks.push({ id, status: 'error', note: data?._error ?? 'empty' }); continue }
     if (String(data.GeneralInfo?.Category?.CategoryID) !== ICECAT_CATID) { marks.push({ id, status: 'skipped', note: 'not smartphone' }); continue }
     const m = modelOf(data)
-    if (!m) { marks.push({ id, status: 'skipped', note: 'no model name' }); continue }
+    if (!m) { marks.push({ id, status: 'skipped', note: 'no brand' }); continue }
+    if (!m.name) {
+      // только артикул: ищем модель по основе артикула (сначала в этой пачке, потом в базе)
+      if (!m.stem) { marks.push({ id, status: 'skipped', note: 'no model name' }); continue }
+      unnamed.push({ id, data, m }); continue
+    }
+    addSku(m, id, data)
+    marks.push({ id, status: 'imported', slug: m.slug })
+  }
+  function addSku(m, id, data) {
     const specs = mapSmartphone(data)
     const colour = (data.FeaturesGroups ?? []).flatMap((g) => g.Features ?? []).find((f) => String(f.Feature?.ID) === '1766')?.RawValue ?? null
     const sku = { icecat_id: Number(id), part: data.GeneralInfo?.BrandPartCode ?? null, code: data.GeneralInfo?.ProductName ?? null,
       gtins: gtins(data), ram: specs.ram, storage: specs.storage, colour, release: releaseDate(data), images: images(data), specs }
     if (!models.has(m.slug)) models.set(m.slug, { ...m, skus: [] })
-    models.get(m.slug).skus.push(sku)
-    marks.push({ id, status: 'imported', slug: m.slug })
+    const g = models.get(m.slug)
+    if (!g.stem && m.stem) g.stem = m.stem
+    g.skus.push(sku)
+  }
+
+  // SKU без названия → модель с той же основой артикула
+  const stemSlug = new Map([...models.values()].filter((g) => g.stem).map((g) => [`${g.brandSlug}:${g.stem}`, g.slug]))
+  for (const u of unnamed) {
+    const key = `${u.m.brandSlug}:${u.m.stem}`
+    let slug = stemSlug.get(key)
+    let name = slug ? models.get(slug).name : null
+    if (!slug) {
+      const hit = (await db.from('product_identifiers').select('products!inner(slug, name)').eq('kind', 'sku').eq('value', key).maybeSingle()).data
+      if (hit) { slug = hit.products.slug; name = hit.products.name }
+    }
+    if (!slug) { marks.push({ id: u.id, status: 'skipped', note: `stem:${key}` }); continue }
+    addSku({ ...u.m, name, slug }, u.id, u.data)
+    marks.push({ id: u.id, status: 'imported', slug })
   }
   log(`Моделей в пачке: ${models.size}`)
   if (DRY) { for (const [slug, m] of models) log(slug, m.skus.length, 'SKU'); return { models: models.size, skus: sheets.length } }
@@ -174,7 +200,7 @@ async function phaseSheets() {
       { product_id: prod.id, kind: 'icecat', value: String(s.icecat_id), country: '' },
       ...s.gtins.map((g) => ({ product_id: prod.id, kind: 'gtin', value: g, country: '' })),
       ...(s.part ? [{ product_id: prod.id, kind: 'mpn', value: s.part, country: '' }] : []),
-    ])
+    ]).concat(m.stem ? [{ product_id: prod.id, kind: 'sku', value: `${m.brandSlug}:${m.stem}`, country: '' }] : [])
     must(await db.from('product_identifiers').upsert(ids, { onConflict: 'kind,value,country', ignoreDuplicates: true }), 'identifiers')
     log(`✓ ${m.brand} ${m.name}: ${filled.length} характеристик, ${imgs.length} фото, ${vlist.length} вариантов, ${status}`)
   }
@@ -185,6 +211,9 @@ async function phaseSheets() {
     must(await db.from('source_items').update({ status: mk.status, note: mk.note ?? null, fetched_at: now,
       product_id: mk.slug ? productIdBySlug[mk.slug] ?? null : null }).eq('source', 'icecat').eq('external_id', mk.id), 'mark')
   }
+  // SKU без названия, ждавшие свою модель: если основа артикула теперь известна — в очередь снова
+  const learned = [...models.values()].filter((g) => g.stem).map((g) => `stem:${g.brandSlug}:${g.stem}`)
+  if (learned.length) must(await db.from('source_items').update({ status: 'new' }).eq('source', 'icecat').eq('status', 'skipped').in('note', learned), 'reopen')
   return { models: models.size, skus: sheets.length }
 }
 
