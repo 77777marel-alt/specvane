@@ -33,7 +33,13 @@ const UA = 'SpecvaneImporter/1.0 (+https://specvane.com)'
 const log = (...a) => console.log(new Date().toISOString().slice(11, 19), ...a)
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 
-const db = createClient(env('SUPABASE_URL'), env('SUPABASE_SERVICE_ROLE_KEY'), { auth: { persistSession: false } })
+// запросы к базе с повтором при обрыве связи
+const retryFetch = async (url, opts) => {
+  for (let a = 1; ; a++) {
+    try { return await fetch(url, opts) } catch (e) { if (a >= 4) throw e; await sleep(3000 * a) }
+  }
+}
+const db = createClient(env('SUPABASE_URL'), env('SUPABASE_SERVICE_ROLE_KEY'), { auth: { persistSession: false }, global: { fetch: retryFetch } })
 const must = ({ data, error }, what) => { if (error) throw new Error(`${what}: ${error.message}`); return data }
 
 // ---------- фаза A: индекс ----------
@@ -80,7 +86,9 @@ async function phaseIndex() {
 async function fetchSheet(id) {
   const url = `https://live.icecat.biz/api?UserName=${encodeURIComponent(USER)}&Language=en&icecat_id=${id}`
   for (let attempt = 1; attempt <= 3; attempt++) {
-    const r = await fetch(url, { headers: { 'User-Agent': UA } })
+    let r
+    try { r = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(30000) }) }
+    catch { await sleep(2000 * attempt); continue }   // обрыв связи — повторяем
     if (r.ok) return (await r.json()).data
     if (r.status === 404 || r.status === 403) return { _error: `HTTP ${r.status}` }
     await sleep(1000 * attempt)
@@ -234,7 +242,9 @@ async function main() {
     const changed = env('SKIP_INDEX') === '1' ? 0 : await phaseIndex()
     const r = { models: 0, skus: 0 }
     for (let done = 0; done < MAX; ) {
-      const part = await phaseSheets()
+      let part
+      try { part = await phaseSheets() }
+      catch (e) { log('Пачка прервана, сохраняем сделанное:', String(e).slice(0, 300)); break }
       r.models += part.models; r.skus += part.skus; done += part.skus
       if (!part.skus || env('SEED_ICECAT_IDS')) break
     }
