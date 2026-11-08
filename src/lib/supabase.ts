@@ -9,8 +9,9 @@ let client: SupabaseClient | null | undefined
  */
 export function db(): SupabaseClient | null {
   if (client !== undefined) return client
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL
-  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+  // Ключ читается только на сервере, поэтому без префикса NEXT_PUBLIC_ (в браузер не попадает).
+  const url = process.env.SUPABASE_URL ?? process.env.NEXT_PUBLIC_SUPABASE_URL
+  const key = process.env.SUPABASE_ANON_KEY ?? process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
   client = url && key ? createClient(url, key, { auth: { persistSession: false } }) : null
   return client
 }
