@@ -132,7 +132,7 @@ async function phaseSheets() {
   const defs = must(await db.from('spec_definitions').select('id, key, data_type').eq('category_id', cat.id), 'spec defs')
   const defByKey = Object.fromEntries(defs.map((d) => [d.key, d]))
 
-  const sheets = await pool(todo, 8, async (t) => ({ id: t.external_id, data: await fetchSheet(t.external_id) }))
+  const sheets = await pool(todo, 12, async (t) => ({ id: t.external_id, data: await fetchSheet(t.external_id) }))
   const models = new Map()
   const marks = []
   const unnamed = []
@@ -266,8 +266,10 @@ async function main() {
       if (!part.skus || env('SEED_ICECAT_IDS')) break
     }
     if (!DRY) {
-      const { data: pairs, error } = await db.rpc('rebuild_comparisons', { p_category: CATEGORY, p_per: 5 })
-      if (error) log('Сравнения: ошибка', error.message); else log('Сравнений A vs B:', pairs)
+      if (env('REBUILD') !== '0') {
+        const { data: pairs, error } = await db.rpc('rebuild_comparisons', { p_category: CATEGORY, p_per: 5 })
+        if (error) log('Сравнения: ошибка', error.message); else log('Сравнений A vs B:', pairs)
+      }
       // категория появляется на сайте, когда в ней есть опубликованные модели
       const cat = must(await db.from('categories').select('id, is_active').eq('key', CATEGORY).single(), 'category')
       const { count } = await db.from('products').select('id', { count: 'exact', head: true }).eq('category_id', cat.id).eq('is_indexable', true)

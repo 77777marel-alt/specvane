@@ -4,15 +4,15 @@ name: Import Icecat
 
 on:
   schedule:
-    - cron: '17 2 * * *'   # каждый день 02:17 UTC
+    - cron: '17 */6 * * *'   # каждые 6 часов (репозиторий публичный — минуты Actions без лимита)
   workflow_dispatch:
     inputs:
       categories:
         description: 'Категории через пробел'
         default: 'smartphones headphones laptops tvs tablets smartwatches monitors speakers cameras projectors graphics-cards game-consoles washing-machines tumble-dryers fridges coffee-machines'
       max_products:
-        description: 'Сколько карточек загрузить за запуск (на категорию)'
-        default: '1500'
+        description: 'Порция карточек на категорию за круг'
+        default: '1000'
       seed_ids:
         description: 'Только эти Icecat ID через запятую (необязательно)'
         default: ''
@@ -30,7 +30,7 @@ concurrency:
 jobs:
   import:
     runs-on: ubuntu-latest
-    timeout-minutes: 150
+    timeout-minutes: 345
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -47,13 +47,17 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
       - name: Import
         run: |
-          first=1
-          for c in $CATS; do
-            if [ "$first" = 1 ]; then SI="$SKIP_INDEX"; else SI=1; fi
-            echo "::group::$c"
-            CATEGORY=$c SKIP_INDEX=$SI node scripts/icecat/import.mjs || echo "::warning::Импорт $c завершился с ошибкой"
-            echo "::endgroup::"
-            first=0
+          # по кругу: каждая категория получает порцию, пока не кончится время (~4 ч 50 мин), потом сравнения и IndexNow
+          start=$(date +%s); first=1
+          for pass in 1 2 3 4 5 6 7 8 9 10; do
+            for c in $CATS; do
+              if [ $(( $(date +%s) - start )) -gt 17400 ]; then echo "Время вышло"; break 2; fi
+              if [ "$first" = 1 ]; then SI="$SKIP_INDEX"; else SI=1; fi
+              echo "::group::$c (круг $pass)"
+              CATEGORY=$c SKIP_INDEX=$SI REBUILD=0 node scripts/icecat/import.mjs || echo "::warning::Импорт $c завершился с ошибкой"
+              echo "::endgroup::"
+              first=0
+            done
           done
         env:
           SUPABASE_URL: https://kjjffgjsgizozleflbhw.supabase.co
@@ -61,12 +65,19 @@ jobs:
           ICECAT_API_TOKEN: ${{ secrets.ICECAT_API_TOKEN }}
           ICECAT_USER: specvane
           CATS: ${{ github.event.inputs.categories || 'smartphones headphones laptops tvs tablets smartwatches monitors speakers cameras projectors graphics-cards game-consoles washing-machines tumble-dryers fridges coffee-machines' }}
-          MAX_PRODUCTS: ${{ github.event.inputs.max_products || '1500' }}
+          MAX_PRODUCTS: ${{ github.event.inputs.max_products || '1000' }}
           SEED_ICECAT_IDS: ${{ github.event.inputs.seed_ids || '' }}
           SKIP_INDEX: ${{ github.event.inputs.skip_index || '0' }}
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+      - name: Comparisons
+        if: ${{ always() && github.event.inputs.dry_run != '1' }}
+        run: node scripts/icecat/rebuild.mjs
+        env:
+          SUPABASE_URL: https://kjjffgjsgizozleflbhw.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          CATS: ${{ github.event.inputs.categories || 'smartphones headphones laptops tvs tablets smartwatches monitors speakers cameras projectors graphics-cards game-consoles washing-machines tumble-dryers fridges coffee-machines' }}
       - name: IndexNow
-        if: ${{ github.event.inputs.dry_run != '1' }}
+        if: ${{ always() && github.event.inputs.dry_run != '1' }}
         run: node scripts/indexnow.mjs
         env:
           SUPABASE_URL: https://kjjffgjsgizozleflbhw.supabase.co
