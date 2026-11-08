@@ -234,6 +234,10 @@ async function main() {
       r.models += part.models; r.skus += part.skus; done += part.skus
       if (!part.skus || env('SEED_ICECAT_IDS')) break
     }
+    if (!DRY) {
+      const { data: pairs, error } = await db.rpc('rebuild_comparisons', { p_category: CATEGORY, p_per: 5 })
+      if (error) log('Сравнения: ошибка', error.message); else log('Сравнений A vs B:', pairs)
+    }
     if (run) must(await db.from('feed_runs').update({ status: 'ok', finished_at: new Date().toISOString(),
       items_seen: r.skus, items_new: changed, items_updated: r.models }).eq('id', run.id), 'run ok')
     log('Готово:', r)

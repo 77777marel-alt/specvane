@@ -1,10 +1,10 @@
 'use client'
 import { useEffect, useState } from 'react'
 import { usePathname } from 'next/navigation'
-import { IconGlobe, IconGrid, IconHome, IconSearch } from './icons'
+import { IconCompare, IconGlobe, IconGrid, IconHome, IconSearch } from './icons'
 
-type Item = { href: string; label: string; icon: 'home' | 'grid' | 'globe' }
-const ICONS = { home: IconHome, grid: IconGrid, globe: IconGlobe }
+type Item = { href: string; label: string; icon: 'home' | 'grid' | 'globe' | 'compare' }
+const ICONS = { home: IconHome, grid: IconGrid, globe: IconGlobe, compare: IconCompare }
 
 /**
  * Нижнее меню на телефоне (правило Максима): 4–5 кнопок, центр — главное действие (поиск).

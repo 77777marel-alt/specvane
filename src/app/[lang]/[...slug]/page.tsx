@@ -5,13 +5,15 @@ import { notFound } from 'next/navigation'
 import { isLocale, type Locale } from '@/lib/i18n/config'
 import { getDict } from '@/lib/i18n'
 import { INFO_PAGES, resolveSlug, sectionHref, type InfoPage } from '@/lib/routes'
-import { getCategory, getCategoryProducts, getProduct } from '@/lib/catalog'
+import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons } from '@/lib/catalog'
+import { permanentRedirect } from 'next/navigation'
 import { number } from '@/lib/format'
 import { alternates } from '@/lib/seo'
 import { previewProducts, previewChooseIf, CHIPS, tx } from '@/lib/preview'
 import { ProductView } from '@/components/views/ProductView'
 import { CompareView } from '@/components/views/CompareView'
 import { CategoryView } from '@/components/views/CategoryView'
+import { Breadcrumbs } from '@/components/Breadcrumbs'
 
 const PREVIEW = 'design-preview'
 
@@ -31,6 +33,21 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/[...slug]'
     const t = getDict(lang)
     const robots = key === 'privacy' || key === 'cookies' || key === 'legal-notice' ? { index: false, follow: true } : undefined
     return { title: `${t.info[key].title} · Specvane`, alternates: alternates(lang, (l: Locale) => sectionHref(l, key)), robots }
+  }
+  if (key === 'compare') {
+    const t = getDict(lang)
+    if (slug.length === 1) return { title: `${t.nav.compare} · Specvane`, alternates: alternates(lang, (l) => sectionHref(l, 'compare')) }
+    const c = await getComparison(lang, slug[1])
+    if (!c) return {}
+    const [a, b] = c.items
+    const title = `${a.brand} ${a.name} ${t.ui.vs} ${b.brand} ${b.name}`
+    const pair = c.canonical.split('/').pop()!
+    return {
+      title: `${title}: ${t.ui.allSpecs} · Specvane`,
+      description: `${title} — ${a.keySpecs.slice(0, 3).map((k) => k.display).join(', ')} ${t.ui.vs} ${b.keySpecs.slice(0, 3).map((k) => k.display).join(', ')}.`,
+      alternates: alternates(lang, (l) => `${sectionHref(l, 'compare')}/${pair}`),
+      robots: c.known ? undefined : { index: false, follow: true },
+    }
   }
   if (!key && slug.length <= 2) {
     const cat = await getCategory(lang, slug[0])
@@ -74,6 +91,33 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
     )
   }
 
+  if (key === 'compare' && slug.length <= 2) {
+    const home = { name: t.ui.home, href: `/${lang}` }
+    const section = { name: t.nav.compare, href: sectionHref(lang, 'compare') }
+    if (slug.length === 1) {
+      const top = await getTopComparisons(lang, 90)
+      return (
+        <>
+          <Breadcrumbs items={[home, section]} />
+          <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{t.nav.compare}</h1>
+          <ul className="mt-6 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            {top.map((c) => (
+              <li key={c.href}><a href={c.href} className="block rounded-xl border border-border px-4 py-3 text-sm font-medium hover:border-accent">{c.name}</a></li>
+            ))}
+          </ul>
+        </>
+      )
+    }
+    const c = await getComparison(lang, slug[1])
+    if (!c) notFound()
+    if (c.known && c.canonical !== `${sectionHref(lang, 'compare')}/${slug[1]}`) permanentRedirect(c.canonical)
+    const [a, b] = c.items
+    return (
+      <CompareView lang={lang} t={t} items={c.items}
+        crumbs={[home, { name: c.cat.name, href: `/${lang}/${c.cat.slug}` }, { name: `${a.name} ${t.ui.vs} ${b.name}`, href: c.canonical }]} />
+    )
+  }
+
   if (!key && slug.length <= 2) {
     const cat = await getCategory(lang, slug[0])
     if (cat) {
@@ -95,7 +139,7 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
         return (
           <>
             <ProductView lang={lang} t={t} p={p} crumbs={[home, catCrumb, { name: `${p.brand} ${p.name}`, href: p.href }]}
-              compareLinks={[]} variants={variants} gallery={p.images}
+              compareLinks={await getCompareLinks(lang, p.slug)} variants={variants} gallery={p.images}
               attribution={p.source === 'icecat' ? `Database Right data-sheet ${year} Icecat. All rights reserved. Data provided “as is” without warranty.` : undefined} />
             <ProductJsonLd name={`${p.brand} ${p.name}`} brand={p.brand} image={p.images} url={p.href} />
           </>

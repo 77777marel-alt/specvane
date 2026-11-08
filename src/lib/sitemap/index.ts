@@ -4,7 +4,7 @@ import { INFO_PAGES, sectionHref } from '@/lib/routes'
 import { SITE_URL } from '@/lib/site'
 import { db } from '@/lib/supabase'
 import { cacheLife } from 'next/cache'
-import { getIndexableProducts } from '@/lib/catalog'
+import { getIndexableProducts, getIndexableComparisons } from '@/lib/catalog'
 
 // Индекс + отдельные файлы по языку и типу: pages-de-1.xml, products-de-1.xml…
 // В файлах только адреса и lastmod, без alternates (hreflang — в <head> страниц).
@@ -41,6 +41,8 @@ export async function listFiles(): Promise<string[]> {
     const n = Math.ceil((await getIndexableProducts(c.key)).length / PER_FILE)
     for (const l of LOCALES) for (let i = 1; i <= n; i++) if (c.slugs[l]) files.push(`products-${c.key}-${l}-${i}.xml`)
   }
+  const nc = Math.ceil((await getIndexableComparisons()).length / PER_FILE)
+  for (const l of LOCALES) for (let i = 1; i <= nc; i++) files.push(`comparisons-${l}-${i}.xml`)
   return files
 }
 
@@ -51,6 +53,14 @@ export async function entriesFor(file: string): Promise<Entry[] | null> {
     if (!isLocale(lang)) return null
     const cats = (await categories()).filter((c) => c.slugs[lang])
     return [...staticPages(lang), ...cats.map((c) => ({ loc: `${SITE_URL}/${lang}/${c.slugs[lang]}` }))]
+  }
+  const cm = /^comparisons-([a-z]{2}(?:-[a-z]{2})?)-(\d+)\.xml$/.exec(file)
+  if (cm) {
+    const [, lang, n] = cm
+    if (!isLocale(lang)) return null
+    const part = (await getIndexableComparisons()).slice((Number(n) - 1) * PER_FILE, Number(n) * PER_FILE)
+    if (!part.length) return null
+    return part.map((c) => ({ loc: `${SITE_URL}${sectionHref(lang, 'compare')}/${c.a}-vs-${c.b}`, lastmod: c.updated.slice(0, 10) }))
   }
   const m = /^products-([a-z0-9-]+?)-([a-z]{2}(?:-[a-z]{2})?)-(\d+)\.xml$/.exec(file)
   if (!m) return null

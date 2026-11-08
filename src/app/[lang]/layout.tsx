@@ -6,6 +6,7 @@ import { SITE_NAME, SITE_URL } from '@/lib/site'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { BottomNav } from '@/components/BottomNav'
+import { sectionHref } from '@/lib/routes'
 import { themeScript } from '@/components/theme-script'
 import '../globals.css'
 
@@ -43,7 +44,7 @@ export default async function RootLayout({ children, params }: LayoutProps<'/[la
         <BottomNav
           searchLabel={t.ui.searchLabel}
           left={[{ href: `/${lang}`, label: t.ui.home, icon: 'home' }, { href: `/${lang}#categories`, label: t.ui.categories, icon: 'grid' }]}
-          right={[{ href: '#languages', label: t.nav.language, icon: 'globe' }]}
+          right={[{ href: sectionHref(lang, 'compare'), label: t.nav.compare, icon: 'compare' }, { href: '#languages', label: t.nav.language, icon: 'globe' }]}
         />
       </body>
     </html>

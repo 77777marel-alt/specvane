@@ -4,6 +4,7 @@ import { db } from './supabase'
 import { LOCALES, MARKETS, type Locale } from './i18n/config'
 import { getDict } from './i18n'
 import { number } from './format'
+import { sectionHref } from './routes'
 import type { ProductCardData, ProductView, SpecGroup, SpecValue } from './types'
 
 // Каталог из Supabase. Все функции кешируются (каталог меняется ночным импортом).
@@ -152,6 +153,98 @@ export async function getIndexableProducts(categoryKey: string): Promise<{ slug:
     const { data } = await s.from('products').select('slug, updated_at, categories!inner(key)').eq('categories.key', categoryKey)
       .eq('status', 'active').eq('is_indexable', true).order('id').range(from, from + 999)
     out.push(...(data ?? []).map((r) => ({ slug: r.slug, updated: r.updated_at })))
+    if (!data || data.length < 1000) break
+  }
+  return out
+}
+
+// ---------- сравнения ----------
+
+export type CompareLink = { name: string; href: string }
+
+async function categoryById(lang: Locale, id: number): Promise<Category | null> {
+  'use cache'
+  cacheLife('days'); cacheTag('categories')
+  const s = db()
+  if (!s) return null
+  const { data } = await s.from('category_i18n').select('slug').eq('category_id', id).eq('lang', lang).maybeSingle()
+  return data ? getCategory(lang, data.slug) : null
+}
+
+/** Ссылки «Сравнить с…» для страницы модели. */
+export async function getCompareLinks(lang: Locale, productSlug: string, limit = 8): Promise<CompareLink[]> {
+  'use cache'
+  cacheLife('days'); cacheTag('comparisons')
+  const s = db()
+  if (!s) return []
+  const { data: p } = await s.from('products').select('id').eq('slug', productSlug).maybeSingle()
+  if (!p) return []
+  const { data } = await s.from('comparisons')
+    .select('relevance, a:products!comparisons_product_a_fkey(slug, name, brands(name)), b:products!comparisons_product_b_fkey(slug, name, brands(name))')
+    .or(`product_a.eq.${p.id},product_b.eq.${p.id}`).order('relevance', { ascending: false }).limit(limit)
+  type Side = { slug: string; name: string; brands: { name: string } }
+  return ((data ?? []) as unknown as { a: Side; b: Side }[]).map(({ a, b }) => ({
+    name: `${a.brands.name} ${a.name} vs ${b.brands.name} ${b.name}`,
+    href: compareHref(lang, a.slug, b.slug),
+  }))
+}
+
+export function compareHref(lang: Locale, a: string, b: string) {
+  return `${sectionHref(lang, 'compare')}/${a}-vs-${b}`
+}
+
+/** Пара по адресу «a-vs-b». Возвращает обе модели и канонический порядок (как в базе). */
+export async function getComparison(lang: Locale, pairSlug: string) {
+  'use cache'
+  cacheLife('days'); cacheTag('comparisons')
+  const s = db()
+  if (!s) return null
+  const parts = pairSlug.split('-vs-')
+  for (let i = 1; i < parts.length; i++) {
+    const a = parts.slice(0, i).join('-vs-'), b = parts.slice(i).join('-vs-')
+    const { data } = await s.from('products').select('id, slug, category_id').in('slug', [a, b]).eq('status', 'active')
+    if (!data || data.length !== 2 || data[0].category_id !== data[1].category_id) continue
+    const [pa, pb] = data[0].id < data[1].id ? data : [data[1], data[0]]
+    const { data: c } = await s.from('comparisons').select('id').eq('product_a', pa.id).eq('product_b', pb.id).maybeSingle()
+    const cat = await categoryById(lang, pa.category_id)
+    if (!cat) return null
+    const [x, y] = await Promise.all([getProduct(lang, cat, pa.slug), getProduct(lang, cat, pb.slug)])
+    if (!x || !y) return null
+    // порядок как в адресе (первая — та, что указана первой), канонический — как в базе
+    const ordered = a === pa.slug ? [x, y] : [y, x]
+    return { cat, items: ordered, known: !!c, canonical: compareHref(lang, pa.slug, pb.slug) }
+  }
+  return null
+}
+
+/** Популярные сравнения (для раздела «Сравнения»). */
+export async function getTopComparisons(lang: Locale, limit = 60): Promise<CompareLink[]> {
+  'use cache'
+  cacheLife('days'); cacheTag('comparisons')
+  const s = db()
+  if (!s) return []
+  const { data } = await s.from('comparisons')
+    .select('a:products!comparisons_product_a_fkey(slug, name, release_date, brands(name)), b:products!comparisons_product_b_fkey(slug, name, brands(name))')
+    .order('relevance', { ascending: false }).limit(limit * 3)
+  type Side = { slug: string; name: string; release_date?: string; brands: { name: string } }
+  return ((data ?? []) as unknown as { a: Side; b: Side }[])
+    .sort((x, y) => String(y.a.release_date).localeCompare(String(x.a.release_date)))
+    .slice(0, limit)
+    .map(({ a, b }) => ({ name: `${a.brands.name} ${a.name} vs ${b.brands.name} ${b.name}`, href: compareHref(lang, a.slug, b.slug) }))
+}
+
+/** Все открытые пары (для sitemap). */
+export async function getIndexableComparisons(): Promise<{ a: string; b: string; updated: string }[]> {
+  'use cache'
+  cacheLife('hours'); cacheTag('comparisons')
+  const s = db()
+  if (!s) return []
+  const out: { a: string; b: string; updated: string }[] = []
+  for (let from = 0; ; from += 1000) {
+    const { data } = await s.from('comparisons').select('updated_at, a:products!comparisons_product_a_fkey(slug), b:products!comparisons_product_b_fkey(slug)')
+      .order('id').range(from, from + 999)
+    type R = { updated_at: string; a: { slug: string }; b: { slug: string } }
+    out.push(...((data ?? []) as unknown as R[]).map((r) => ({ a: r.a.slug, b: r.b.slug, updated: r.updated_at })))
     if (!data || data.length < 1000) break
   }
   return out

@@ -2,6 +2,7 @@ import Link from 'next/link'
 import type { Locale } from '@/lib/i18n/config'
 import type { Dict } from '@/lib/i18n'
 import { Logo } from './Logo'
+import { sectionHref } from '@/lib/routes'
 import { LangSwitcher } from './LangSwitcher'
 import { ThemeToggle } from './ThemeToggle'
 import { SearchBox } from './SearchBox'
@@ -14,7 +15,10 @@ export function Header({ lang, t }: { lang: Locale; t: Dict }) {
           <Logo className="h-8 w-8" />
           <span className="text-[17px]">Specvane</span>
         </Link>
-        {/* Меню разделов (сравнения, подборки, новинки, гиды) появится на этапе 1, когда у разделов будут страницы. */}
+        <nav aria-label={t.nav.menu} className="hidden shrink-0 gap-4 text-sm text-muted lg:flex">
+          <Link href={`/${lang}#categories`} className="hover:text-fg">{t.nav.categories}</Link>
+          <Link href={sectionHref(lang, 'compare')} className="hover:text-fg">{t.nav.compare}</Link>
+        </nav>
         <div className="mx-auto hidden w-full max-w-md md:block">
           <SearchBox lang={lang} placeholder={t.ui.searchPlaceholder} label={t.ui.searchLabel} empty={t.ui.noResults} />
         </div>
