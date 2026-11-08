@@ -30,6 +30,8 @@ const INDEX = env('INDEX', 'on_market')
 const DRY = env('DRY_RUN') === '1'
 const UA = 'SpecvaneImporter/1.0 (+https://specvane.com)'
 
+// продавцы восстановленной техники — не производители, не публикуем
+const REFURB = /(refurb|upcycle|renew|recommerce|swappie|back ?market|reboxed|second ?hand|gebraucht)/i
 const log = (...a) => console.log(new Date().toISOString().slice(11, 19), ...a)
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 
@@ -132,6 +134,7 @@ async function phaseSheets() {
     if (String(data.GeneralInfo?.Category?.CategoryID) !== ICECAT_CATID) { marks.push({ id, status: 'skipped', note: 'not smartphone' }); continue }
     const m = modelOf(data)
     if (!m) { marks.push({ id, status: 'skipped', note: 'no brand' }); continue }
+    if (REFURB.test(m.brand)) { marks.push({ id, status: 'skipped', note: 'refurbisher' }); continue }
     if (!m.name && !m.stem) { marks.push({ id, status: 'skipped', note: 'no model name' }); continue }
     if (m.stem) {
       // одна основа артикула = одна модель: модель из базы важнее, затем первая в пачке

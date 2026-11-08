@@ -63,3 +63,7 @@ body { background: var(--bg); color: var(--fg); font-family: var(--font-sans); }
 /* Цифры одинаковой ширины — колонки характеристик и цен не «прыгают» */
 .num { font-variant-numeric: tabular-nums; font-feature-settings: "tnum"; }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
+
+/* горизонтальные ряды кнопок без видимой полосы прокрутки */
+.no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }

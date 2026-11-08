@@ -17,6 +17,7 @@ export const IconArrow = ({ className }: P) => base(<path d="M5 12h14M13 6l6 6-6
 export const IconChevron = ({ className }: P) => base(<path d="m9 6 6 6-6 6" />, className)
 export const IconExternal = ({ className }: P) => base(<><path d="M14 4h6v6M20 4l-9 9" /><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" /></>, className)
 export const IconProjector = ({ className }: P) => base(<><rect x="2.5" y="7" width="19" height="10" rx="2.5" /><circle cx="15.5" cy="12" r="2.6" /><path d="M5.5 10.5h4M5.5 13.5h3M5 17v2M19 17v2" /></>, className)
+export const IconImage = ({ className }: P) => base(<><rect x="3.5" y="4.5" width="17" height="15" rx="2" /><circle cx="9" cy="9.5" r="1.6" /><path d="m4 17 5-5 3.5 3.5L15 13l5 5" /></>, className)
 export const IconHeadphones = ({ className }: P) => base(<><path d="M4 15v-3a8 8 0 0 1 16 0v3" /><rect x="3" y="14" width="4.5" height="6.5" rx="1.5" /><rect x="16.5" y="14" width="4.5" height="6.5" rx="1.5" /></>, className)
 export const IconPhone = ({ className }: P) => base(<><rect x="6.5" y="2.5" width="11" height="19" rx="2.5" /><path d="M10.5 18.5h3" /></>, className)
 export const IconLaptop = ({ className }: P) => base(<><rect x="4.5" y="5" width="15" height="10" rx="1.5" /><path d="M2.5 18.5h19" /></>, className)
