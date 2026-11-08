@@ -42,8 +42,12 @@ export const ja: Dict = {
     ] },
     contact: { title: 'お問い合わせ', body: ['メール：info@specvane.com', '英語・ドイツ語・ギリシャ語・ロシア語で対応しています。'] },
     'legal-notice': { title: '運営者情報', body: [
-      '運営：MAXWEBCREATIVE, Maxim Marinin（個人事業主）, Fylis 274, 11253 Athens, Greece',
+      '運営者：Maxim Marinin（個人事業主、MAXWEBCREATIVE）',
+      '所在地：Fylis 274, 11253 Athens, Greece',
+      'VAT番号（ΑΦΜ）：EL121431246',
+      'ギリシャ商業登記（ΓΕΜΗ）：147291450000',
       'メール：info@specvane.com',
+      'コンテンツ責任者：Maxim Marinin',
     ] },
   },
   common: { updated: '更新日', notFound: 'ページが見つかりません', backHome: 'ホームに戻る' },

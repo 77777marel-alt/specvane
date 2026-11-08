@@ -42,8 +42,12 @@ export const sv: Dict = {
     ] },
     contact: { title: 'Kontakt', body: ['E-post: info@specvane.com', 'Vi svarar på engelska, tyska, grekiska och ryska.'] },
     'legal-notice': { title: 'Juridisk information', body: [
-      'Specvane drivs av MAXWEBCREATIVE, Maxim Marinin (enskild näringsidkare), Fylis 274, 11253 Aten, Grekland.',
+      'Tjänsteleverantör: Maxim Marinin (enskild näringsidkare, MAXWEBCREATIVE)',
+      'Adress: Fylis 274, 11253 Aten, Grekland',
+      'Momsregistreringsnummer (ΑΦΜ): EL121431246',
+      'Greklands allmänna handelsregister (ΓΕΜΗ): 147291450000',
       'E-post: info@specvane.com',
+      'Ansvarig för innehållet: Maxim Marinin.',
     ] },
   },
   common: { updated: 'Uppdaterad', notFound: 'Sidan hittades inte', backHome: 'Till startsidan' },

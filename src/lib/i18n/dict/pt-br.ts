@@ -42,8 +42,12 @@ export const ptBr: Dict = {
     ] },
     contact: { title: 'Contato', body: ['E-mail: info@specvane.com', 'Respondemos em inglês, alemão, grego e russo.'] },
     'legal-notice': { title: 'Aviso legal', body: [
-      'O Specvane é operado por MAXWEBCREATIVE, Maxim Marinin (empresário individual), Fylis 274, 11253 Atenas, Grécia.',
+      'Responsável: Maxim Marinin (empresário individual, MAXWEBCREATIVE)',
+      'Endereço: Fylis 274, 11253 Atenas, Grécia',
+      'Número de IVA da UE (ΑΦΜ): EL121431246',
+      'Registro Geral do Comércio da Grécia (ΓΕΜΗ): 147291450000',
       'E-mail: info@specvane.com',
+      'Responsável pelo conteúdo: Maxim Marinin.',
     ] },
   },
   common: { updated: 'Atualizado', notFound: 'Página não encontrada', backHome: 'Voltar ao início' },

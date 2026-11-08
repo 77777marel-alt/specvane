@@ -42,8 +42,12 @@ export const nl: Dict = {
     ] },
     contact: { title: 'Contact', body: ['E-mail: info@specvane.com', 'We antwoorden in het Engels, Duits, Grieks en Russisch.'] },
     'legal-notice': { title: 'Colofon', body: [
-      'Specvane wordt beheerd door MAXWEBCREATIVE, Maxim Marinin (eenmanszaak), Fylis 274, 11253 Athene, Griekenland.',
+      'Dienstverlener: Maxim Marinin (eenmanszaak, MAXWEBCREATIVE)',
+      'Adres: Fylis 274, 11253 Athene, Griekenland',
+      'Btw-nummer (ΑΦΜ): EL121431246',
+      'Algemeen Handelsregister van Griekenland (ΓΕΜΗ): 147291450000',
       'E-mail: info@specvane.com',
+      'Verantwoordelijk voor de inhoud: Maxim Marinin.',
     ] },
   },
   common: { updated: 'Bijgewerkt', notFound: 'Pagina niet gevonden', backHome: 'Terug naar home' },
