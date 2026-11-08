@@ -73,3 +73,12 @@ test('названия моделей из реальных случаев Iceca
   assert.equal(modelOf(gi({ Brand: 'Honor', ProductName: '200 5G', BrandPartCode: '6936520852376' })).slug, 'honor-200-5g')
   assert.equal(isCode('SM-F766BDBGEUB'), true); assert.equal(isCode('A27 5G'), false); assert.equal(isCode('6936520852376'), true)
 })
+
+test('мусор в названиях', () => {
+  assert.equal(modelOf(gi({ Brand: 'Samsung', ProductFamily: { Value: 'Galaxy' }, ProductName: 'GALAXY A27 5G 8/256GB AKILLI TELEFON MAVI' })).name, 'Galaxy A27 5G')
+  assert.equal(modelOf(gi({ Brand: 'Samsung', ProductFamily: { Value: 'Galaxy' }, ProductSeries: { Value: 'Z Flip7 (Samsung.com Only)' } })).name, 'Galaxy Z Flip7')
+  // «Z Flip 7» и «Z Flip7» склеиваются по основе артикула в import.mjs
+  assert.equal(modelOf(gi({ Brand: 'Samsung', ProductFamily: { Value: 'Galaxy' }, ProductSeries: { Value: 'Z Flip 7' }, ProductName: 'SM-F766B' })).stem, 'SM-F766')
+  assert.equal(modelOf(gi({ Brand: 'Samsung', ProductFamily: { Value: 'Galaxy' }, ProductSeries: { Value: 'Z Flip7' } })).slug, 'samsung-galaxy-z-flip7')
+  assert.equal(modelOf(gi({ Brand: 'Honor', ProductName: '200 5G' })).slug, 'honor-200-5g')
+})

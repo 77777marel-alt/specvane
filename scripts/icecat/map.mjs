@@ -141,6 +141,8 @@ export function mapSmartphone(data) {
 const slugify = (s) =>
   s.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\+/g, '-plus').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
 
+export const modelSlug = (brand, name) => slugify(`${brand} ${name}`)
+
 /** Похоже на артикул, а не на название (SM-F766BDBGEUB, 6936520852376, MYEX3QL/A). */
 export const isCode = (s) => {
   const t = String(s ?? '').trim()
@@ -149,6 +151,20 @@ export const isCode = (s) => {
   return !/\s/.test(t) && t.length >= 7 && /\d/.test(t) && t === t.toUpperCase() && /[A-Z]/.test(t)
 }
 const clean = (s) => String(s ?? '').replace(/\bsmartphones?\b/gi, '').replace(/\s+/g, ' ').trim()
+
+/** Убираем мусор продавцов из названия: «(Samsung.com Only)», «8/256GB AKILLI TELEFON MAVI», капслок. */
+export function tidyName(s) {
+  let t = clean(s)
+    .replace(/\([^)]*\)/g, ' ')
+    .replace(/\b\d+\s*(GB|TB)?\s*\/\s*\d+\s*(GB|TB)\b.*$/i, ' ')
+    .replace(/\b\d+\s*(GB|TB)\b.*$/i, ' ')
+    .replace(/\s+/g, ' ').trim()
+  if (t && t === t.toUpperCase() && /[A-Z]{4,}/.test(t)) {
+    // КАПСЛОК → «Galaxy A27 5G»: слова с цифрами и короткие аббревиатуры оставляем как есть
+    t = t.split(' ').map((w) => (/\d/.test(w) || w.length <= 3 ? w : w[0] + w.slice(1).toLowerCase())).join(' ')
+  }
+  return t
+}
 
 /** Семейства по умолчанию, если Icecat не указал (Samsung «S25 FE» → «Galaxy S25 FE»). */
 const DEFAULT_FAMILY = {
@@ -176,10 +192,10 @@ export function modelOf(data) {
   const brand = clean(gi.Brand)
   if (!brand) return null
   const brandSlug = slugify(brand)
-  let family = clean(gi.ProductFamily?.Value)
+  let family = tidyName(gi.ProductFamily?.Value)
   const series = clean(gi.ProductSeries?.Value)
   const pname = clean(gi.ProductName)
-  let base = [series, pname].find((x) => x && !isCode(x)) ?? ''
+  let base = tidyName([series, pname].find((x) => x && !isCode(x)) ?? '')
   if (base && family && base.toLowerCase().startsWith(family.toLowerCase())) family = ''
   if (base && !family) {
     const d = DEFAULT_FAMILY[brandSlug]
@@ -188,7 +204,7 @@ export function modelOf(data) {
   if (base.toLowerCase().startsWith(brand.toLowerCase() + ' ')) base = base.slice(brand.length + 1)
   const name = base ? clean([family, base].filter(Boolean).join(' ')) : null
   const stem = codeStem(brandSlug, gi.ProductName, gi.BrandPartCode)
-  return { brand, brandSlug, name, slug: name ? slugify(`${brand} ${name}`) : null, stem }
+  return { brand, brandSlug, name, slug: name ? modelSlug(brand, name) : null, stem }
 }
 
 /** ДД-ММ-ГГГГ → ГГГГ-ММ-ДД */

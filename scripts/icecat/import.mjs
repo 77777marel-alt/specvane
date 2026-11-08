@@ -25,7 +25,7 @@ const env = (k, d) => process.env[k] ?? d
 const CATEGORY = 'smartphones'
 const ICECAT_CATID = '1893'
 const USER = env('ICECAT_USER', 'specvane')
-const MAX = Number(env('MAX_PRODUCTS', '1500'))
+const MAX = Number(env('MAX_PRODUCTS', '5000'))
 const INDEX = env('INDEX', 'on_market')
 const DRY = env('DRY_RUN') === '1'
 const UA = 'SpecvaneImporter/1.0 (+https://specvane.com)'
@@ -49,10 +49,12 @@ async function phaseIndex() {
   const rows = new Map()
   for await (const line of rl) {
     const cols = line.split('\t')
-    if (!head) { head = Object.fromEntries(cols.map((c, i) => [c.trim().toLowerCase(), i])); continue }
+    if (!head) { head = Object.fromEntries(cols.map((c, i) => [c.trim().toLowerCase(), i])); log('Колонки индекса:', Object.keys(head).join(', ')); continue }
     total++
     if (cols[head.catid] !== ICECAT_CATID) continue
     if ((cols[head.quality] ?? '').toUpperCase() === 'REMOVED') continue
+    // «Limited» — карточка закрыта брендом для Open Icecat (live API отдаёт 404)
+    if (head.limited != null && /^(1|y|yes|true)$/i.test((cols[head.limited] ?? '').trim())) continue
     const id = cols[head.product_id]
     if (id && !rows.has(id)) rows.set(id, cols[head.updated] ?? '')
   }
@@ -103,7 +105,7 @@ async function phaseSheets() {
       { onConflict: 'source,external_id' }), 'seed')
   } else {
     todo = must(await db.from('source_items').select('external_id').eq('source', 'icecat').eq('status', 'new')
-      .order('updated', { ascending: false }).limit(MAX), 'todo')
+      .order('updated', { ascending: false }).limit(Math.min(MAX, 1000)), 'todo')
   }
   log(`Карточек к загрузке: ${todo.length}`)
   if (!todo.length) return { models: 0, skus: 0 }
@@ -116,15 +118,24 @@ async function phaseSheets() {
   const models = new Map()
   const marks = []
   const unnamed = []
+  const stemCache = new Map()
   for (const { id, data } of sheets) {
     if (!data || data._error) { marks.push({ id, status: 'error', note: data?._error ?? 'empty' }); continue }
     if (String(data.GeneralInfo?.Category?.CategoryID) !== ICECAT_CATID) { marks.push({ id, status: 'skipped', note: 'not smartphone' }); continue }
     const m = modelOf(data)
     if (!m) { marks.push({ id, status: 'skipped', note: 'no brand' }); continue }
-    if (!m.name) {
-      // только артикул: ищем модель по основе артикула (сначала в этой пачке, потом в базе)
-      if (!m.stem) { marks.push({ id, status: 'skipped', note: 'no model name' }); continue }
-      unnamed.push({ id, data, m }); continue
+    if (!m.name && !m.stem) { marks.push({ id, status: 'skipped', note: 'no model name' }); continue }
+    if (m.stem) {
+      // одна основа артикула = одна модель: модель из базы важнее, затем первая в пачке
+      const key = `${m.brandSlug}:${m.stem}`
+      if (!stemCache.has(key)) {
+        const hit = (await db.from('product_identifiers').select('products!inner(slug, name)').eq('kind', 'sku').eq('value', key).maybeSingle()).data
+        stemCache.set(key, hit ? { slug: hit.products.slug, name: hit.products.name } : null)
+      }
+      const known = stemCache.get(key)
+      if (known) { addSku({ ...m, ...known }, id, data); marks.push({ id, status: 'imported', slug: known.slug }); continue }
+      if (!m.name) { unnamed.push({ id, data, m }); continue }
+      stemCache.set(key, { slug: m.slug, name: m.name })
     }
     addSku(m, id, data)
     marks.push({ id, status: 'imported', slug: m.slug })
@@ -141,16 +152,11 @@ async function phaseSheets() {
   }
 
   // SKU без названия → модель с той же основой артикула
-  const stemSlug = new Map([...models.values()].filter((g) => g.stem).map((g) => [`${g.brandSlug}:${g.stem}`, g.slug]))
   for (const u of unnamed) {
     const key = `${u.m.brandSlug}:${u.m.stem}`
-    let slug = stemSlug.get(key)
-    let name = slug ? models.get(slug).name : null
-    if (!slug) {
-      const hit = (await db.from('product_identifiers').select('products!inner(slug, name)').eq('kind', 'sku').eq('value', key).maybeSingle()).data
-      if (hit) { slug = hit.products.slug; name = hit.products.name }
-    }
-    if (!slug) { marks.push({ id: u.id, status: 'skipped', note: `stem:${key}` }); continue }
+    const known = stemCache.get(key)
+    if (!known) { marks.push({ id: u.id, status: 'skipped', note: `stem:${key}` }); continue }
+    const { slug, name } = known
     addSku({ ...u.m, name, slug }, u.id, u.data)
     marks.push({ id: u.id, status: 'imported', slug })
   }
@@ -222,7 +228,12 @@ async function main() {
   const run = DRY ? null : must(await db.from('feed_runs').insert({ feed_id: feed.id }).select('id').single(), 'run')
   try {
     const changed = env('SKIP_INDEX') === '1' ? 0 : await phaseIndex()
-    const r = await phaseSheets()
+    const r = { models: 0, skus: 0 }
+    for (let done = 0; done < MAX; ) {
+      const part = await phaseSheets()
+      r.models += part.models; r.skus += part.skus; done += part.skus
+      if (!part.skus || env('SEED_ICECAT_IDS')) break
+    }
     if (run) must(await db.from('feed_runs').update({ status: 'ok', finished_at: new Date().toISOString(),
       items_seen: r.skus, items_new: changed, items_updated: r.models }).eq('id', run.id), 'run ok')
     log('Готово:', r)
