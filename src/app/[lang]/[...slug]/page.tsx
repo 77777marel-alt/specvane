@@ -14,6 +14,8 @@ import { ProductView } from '@/components/views/ProductView'
 import { CompareView } from '@/components/views/CompareView'
 import { CategoryView } from '@/components/views/CategoryView'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
+import { ComparePicker } from '@/components/compare/ComparePicker'
+import { CompareTray } from '@/components/compare/CompareTray'
 
 const PREVIEW = 'design-preview'
 
@@ -100,11 +102,15 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
         <>
           <Breadcrumbs items={[home, section]} />
           <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{t.nav.compare}</h1>
-          <ul className="mt-6 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-6 max-w-2xl">
+            <ComparePicker lang={lang} base={sectionHref(lang, 'compare')} s={t.ui} />
+          </div>
+          <ul className="mt-8 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
             {top.map((c) => (
               <li key={c.href}><a href={c.href} className="block rounded-xl border border-border px-4 py-3 text-sm font-medium hover:border-accent">{c.name}</a></li>
             ))}
           </ul>
+          <CompareTray s={t.ui} />
         </>
       )
     }

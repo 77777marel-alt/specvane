@@ -11,15 +11,15 @@ export async function GET(req: NextRequest) {
   const like = `%${q.replace(/[%_\\]/g, (m) => '\\' + m)}%`
   const { data } = await s
     .from('products')
-    .select('slug, name, brands!inner(name), categories!inner(category_i18n!inner(slug, name, lang))')
+    .select('slug, name, brands!inner(name), categories!inner(key, category_i18n!inner(slug, name, lang))')
     .eq('categories.category_i18n.lang', lang)
     .eq('is_indexable', true)
     .or(`name.ilike.${like}`)
     .limit(8)
-  type Row = { slug: string; name: string; brands: { name: string }; categories: { category_i18n: { slug: string; name: string }[] } }
+  type Row = { slug: string; name: string; brands: { name: string }; categories: { key: string; category_i18n: { slug: string; name: string }[] } }
   const hits = ((data ?? []) as unknown as Row[]).map((r) => {
     const c = r.categories.category_i18n[0]
-    return { name: r.name, brand: r.brands.name, href: `/${lang}/${c.slug}/${r.slug}`, category: c.name }
+    return { name: r.name, brand: r.brands.name, href: `/${lang}/${c.slug}/${r.slug}`, category: c.name, slug: r.slug, cat: r.categories.key }
   })
   return NextResponse.json({ hits }, { headers: { 'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=3600' } })
 }

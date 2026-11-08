@@ -9,7 +9,7 @@ on:
     inputs:
       categories:
         description: 'Категории через пробел'
-        default: 'smartphones headphones laptops tvs tablets smartwatches monitors speakers'
+        default: 'smartphones headphones laptops tvs tablets smartwatches monitors speakers cameras projectors graphics-cards game-consoles washing-machines tumble-dryers fridges coffee-machines'
       max_products:
         description: 'Сколько карточек загрузить за запуск (на категорию)'
         default: '1500'
@@ -60,7 +60,7 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           ICECAT_API_TOKEN: ${{ secrets.ICECAT_API_TOKEN }}
           ICECAT_USER: specvane
-          CATS: ${{ github.event.inputs.categories || 'smartphones headphones laptops tvs tablets smartwatches monitors speakers' }}
+          CATS: ${{ github.event.inputs.categories || 'smartphones headphones laptops tvs tablets smartwatches monitors speakers cameras projectors graphics-cards game-consoles washing-machines tumble-dryers fridges coffee-machines' }}
           MAX_PRODUCTS: ${{ github.event.inputs.max_products || '1500' }}
           SEED_ICECAT_IDS: ${{ github.event.inputs.seed_ids || '' }}
           SKIP_INDEX: ${{ github.event.inputs.skip_index || '0' }}

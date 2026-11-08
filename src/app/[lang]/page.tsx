@@ -28,6 +28,7 @@ const TILES = [
   ['monitors', IconMonitor], ['consoles', IconGamepad], ['speakers', IconSpeaker], ['cameras', IconCamera],
   ['projectors', IconProjector], ['appliances', IconAppliance],
 ] as const
+const APPLIANCES = ['washing-machines', 'tumble-dryers', 'fridges', 'coffee-machines']
 const DB_KEY: Record<string, string> = { phones: 'smartphones', watches: 'smartwatches', cpus: 'processors', gpus: 'graphics-cards', consoles: 'game-consoles', appliances: 'home-appliances' }
 
 export default async function Home({ params }: PageProps<'/[lang]'>) {
@@ -36,6 +37,9 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
   const t = getDict(lang)
   const live = await getCategories(lang)
   const liveByKey = new Map(live.map((c) => [c.key, c]))
+  // бытовая техника: вместо одной плитки «скоро» — живые подкатегории (стиральные машины, холодильники…)
+  const appliances = APPLIANCES.filter((k) => liveByKey.has(k)).map((k) => [k, IconAppliance] as const)
+  const tiles = TILES.flatMap((tile) => (tile[0] === 'appliances' && appliances.length ? appliances : [tile]))
   return (
     <>
       <section className="relative py-10 md:py-20">
@@ -50,12 +54,12 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
       <section id="categories" aria-labelledby="cats" className="py-4">
         <h2 id="cats" className="mb-4 text-xl font-semibold">{t.home.categoriesTitle}</h2>
         <ul className="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-7">
-          {TILES.map(([key, Icon]) => {
+          {tiles.map(([key, Icon]) => {
             const c = liveByKey.get(DB_KEY[key] ?? key)
             const inner = (
               <>
                 <Icon className="h-7 w-7 text-accent" />
-                <span className="mt-3 font-medium">{c?.name ?? t.cats[key]}</span>
+                <span className="mt-3 font-medium">{c?.name ?? t.cats[key as keyof typeof t.cats]}</span>
                 {!c && <span className="mt-0.5 text-xs text-muted">{t.cats.soon}</span>}
               </>
             )
