@@ -4,6 +4,7 @@
 import { createClient } from '@supabase/supabase-js'
 import { flatFeatures, slugify } from './map.mjs'
 import { CATEGORIES, LANGS } from './categories.mjs'
+import { AUTO_CATIDS } from './auto-list.mjs'
 
 const env = (k, d) => process.env[k] ?? d
 const UA = 'SpecvaneImporter/1.0 (+https://specvane.com)'
@@ -11,7 +12,7 @@ const log = (...a) => console.log(new Date().toISOString().slice(11, 19), ...a)
 const db = createClient(env('SUPABASE_URL'), env('SUPABASE_SERVICE_ROLE_KEY'), { auth: { persistSession: false } })
 const must = ({ data, error }, what) => { if (error) throw new Error(`${what}: ${error.message}`); return data }
 const ICECAT_LANG = { en: 'en', de: 'de', fr: 'fr', it: 'it', es: 'es', nl: 'nl', pl: 'pl', sv: 'sv', 'pt-br': 'BR', ja: 'ja' }
-const MANUAL = new Set(['1893', ...Object.values(CATEGORIES).map((c) => c.catid)])
+const MANUAL = new Set(['1893', ...Object.values(CATEGORIES).flatMap((c) => [].concat(c.catid))])
 
 // служебные признаки: упаковка, логистика, сертификаты — не характеристики товара
 const SKIP = /package|packag|pallet|master \(|carton|warranty|certific|complian|country of origin|harmonized|commodity|ECCN|GTIN|EAN|UPC|quantity|box contents|quick start|manual|safety|sustainab|bundled|trial|cables included|declaration|RoHS|REACH|label|logo|operating (temperature|relative)|storage (temperature|relative)|altitude|shipping|product colou?r|^colou?r/i
@@ -32,17 +33,25 @@ const groupsOf = (data) => {
 }
 const isNum = (v) => v !== '' && Number.isFinite(Number(String(v).replace(',', '.')))
 
+// список из auto-list.mjs → отмечаем выбранными (разведка должна была их найти)
+if (AUTO_CATIDS.length) must(await db.from('icecat_categories').update({ selected: true }).in('catid', AUTO_CATIDS), 'select')
 const todo = must(await db.from('icecat_categories').select('catid, name_en, sample_ids, sku_count').eq('selected', true).is('category_key', null), 'todo')
 log(`К настройке: ${todo.length}`)
 const usedSlugs = new Set((must(await db.from('category_i18n').select('lang, slug'), 'slugs')).map((r) => `${r.lang}:${r.slug}`))
 const usedKeys = new Set((must(await db.from('categories').select('key'), 'keys')).map((r) => r.key))
 
-for (const ic of todo) {
-  if (MANUAL.has(ic.catid)) { log(`${ic.catid}: настроена вручную — пропуск`); continue }
+async function pool(items, n, fn) {
+  let k = 0
+  await Promise.all(Array.from({ length: n }, async () => { while (k < items.length) { const it = items[k++]; try { await fn(it) } catch (e) { log(`${it.catid}: ошибка — ${e.message}`) } } }))
+}
+
+// по 6 категорий параллельно: каждая — ~80 запросов к Icecat
+await pool(todo, 6, async (ic) => {
+  if (MANUAL.has(ic.catid)) { log(`${ic.catid}: настроена вручную — пропуск`); return }
   // проба: до 30 открытых карточек
   const samples = []
   for (const id of ic.sample_ids) { if (samples.length >= 30) break; const d = await sheet(id); if (d) samples.push({ id, d }) }
-  if (samples.length < 5) { log(`${ic.catid} ${ic.name_en}: мало открытых карточек (${samples.length}) — пропуск`); continue }
+  if (samples.length < 5) { log(`${ic.catid} ${ic.name_en}: мало открытых карточек (${samples.length}) — пропуск`); return }
 
   const stats = new Map()
   let order = 0
@@ -56,7 +65,7 @@ for (const ic of todo) {
     }
   }
   const pick = [...stats.values()].filter((s) => s.n >= samples.length * 0.35).sort((a, b) => b.n - a.n).slice(0, 28).sort((a, b) => a.order - b.order)
-  if (pick.length < 6) { log(`${ic.catid} ${ic.name_en}: мало общих признаков (${pick.length}) — пропуск`); continue }
+  if (pick.length < 6) { log(`${ic.catid} ${ic.name_en}: мало общих признаков (${pick.length}) — пропуск`); return }
   for (const s of pick) {
     const vals = [...s.vals]
     s.type = vals.every((v) => v === 'Y' || v === 'N') ? 'bool' : vals.every(isNum) ? 'number' : 'text'
@@ -109,4 +118,4 @@ for (const ic of todo) {
   })), 'labels')
   must(await db.from('icecat_categories').update({ category_key: key, updated_at: new Date().toISOString() }).eq('catid', ic.catid), 'mark')
   log(`✓ ${ic.catid} ${nameEn} → ${key}: ${pick.length} характеристик (${samples.length} карточек в пробе), ${ic.sku_count} позиций`)
-}
+})

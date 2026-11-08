@@ -498,7 +498,7 @@ Object.assign(CATEGORIES, {
     ],
   },
   'game-consoles': {
-    catid: '2837', sort: 100, min: 6, codeAsName: false,
+    catid: ['2837', '1060'], // портативные + домашние консоли sort: 100, min: 6, codeAsName: false,
     i18n: { en: ['game-consoles', 'Game consoles'], de: ['spielkonsolen', 'Spielkonsolen'], fr: ['consoles', 'Consoles de jeux'], it: ['console', 'Console'], es: ['consolas', 'Consolas'], nl: ['spelcomputers', 'Spelcomputers'], pl: ['konsole', 'Konsole'], sv: ['spelkonsoler', 'Spelkonsoler'], 'pt-br': ['consoles', 'Consoles'], ja: ['game-consoles', 'ゲーム機'] },
     specs: [
       s('platform', 'performance', 'text', null, null, true, true, [75, /^platform$/i]),
@@ -551,7 +551,7 @@ Object.assign(CATEGORIES, {
     ],
   },
   fridges: {
-    catid: '1873', sort: 160, min: 8, codeAsName: true,
+    catid: ['1873', '1911', '1912'], // холодильники с морозилкой: обычные, комби, Side-by-Side sort: 160, min: 8, codeAsName: true,
     i18n: { en: ['fridges', 'Fridge freezers'], de: ['kuehl-gefrierkombinationen', 'Kühl-Gefrierkombinationen'], fr: ['refrigerateurs-congelateurs', 'Réfrigérateurs-congélateurs'], it: ['frigoriferi-combinati', 'Frigoriferi combinati'], es: ['frigorificos-combi', 'Frigoríficos combi'], nl: ['koel-vriescombinaties', 'Koel-vriescombinaties'], pl: ['lodowki', 'Lodówki z zamrażarką'], sv: ['kyl-frys', 'Kyl-frys'], 'pt-br': ['geladeiras', 'Geladeiras'], ja: ['fridges', '冷蔵庫'] },
     specs: [
       s('total_capacity', 'capacity', 'number', 'L', true, true, true, [2475, /^total gross capacity$|^total net capacity$/i]),

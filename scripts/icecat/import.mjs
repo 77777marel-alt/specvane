@@ -49,11 +49,11 @@ const must = ({ data, error }, what) => { if (error) throw new Error(`${what}: $
 const AUTO = must(await db.from('categories').select('key, icecat_catid').eq('auto', true).not('icecat_catid', 'is', null), 'auto cats')
 const AUTO_CFG = AUTO.find((a) => a.key === CATEGORY) ?? null
 if (CATEGORY !== 'smartphones' && !CFG && !AUTO_CFG) throw new Error(`Неизвестная категория: ${CATEGORY}`)
-const ICECAT_CATID = CFG?.catid ?? AUTO_CFG?.icecat_catid ?? '1893'
+const ICECAT_CATIDS = [].concat(CFG?.catid ?? AUTO_CFG?.icecat_catid ?? '1893')
 let autoDefs = null // для автокатегорий маппинг строится по характеристикам из базы
 const mapSpecs = CFG ? (d) => mapByConfig(CFG, d) : AUTO_CFG ? (d) => mapAuto(autoDefs, d) : mapSmartphone
 // индекс Icecat качаем один раз и раскладываем позиции по всем нашим категориям
-const CAT_BY_ICECAT = { '1893': 'smartphones', ...Object.fromEntries(Object.entries(CATEGORIES).map(([k, c]) => [c.catid, k])),
+const CAT_BY_ICECAT = { '1893': 'smartphones', ...Object.fromEntries(Object.entries(CATEGORIES).flatMap(([k, c]) => [].concat(c.catid).map((id) => [id, k]))),
   ...Object.fromEntries(AUTO.map((a) => [a.icecat_catid, a.key])) }
 
 // ---------- фаза A: индекс ----------
@@ -146,7 +146,7 @@ async function phaseSheets() {
   const stemCache = new Map()
   for (const { id, data } of sheets) {
     if (!data || data._error) { marks.push({ id, status: 'error', note: data?._error ?? 'empty' }); continue }
-    if (String(data.GeneralInfo?.Category?.CategoryID) !== ICECAT_CATID) { marks.push({ id, status: 'skipped', note: `not ${CATEGORY}` }); continue }
+    if (!ICECAT_CATIDS.includes(String(data.GeneralInfo?.Category?.CategoryID))) { marks.push({ id, status: 'skipped', note: `not ${CATEGORY}` }); continue }
     const m = modelOf(data, { families: CATEGORY === 'smartphones' })
     // ТВ/мониторы: модель обычно только артикулом (QE55Q60DAUXXU) — его и ищут, берём как название
     if (m && !m.name && (CFG?.codeAsName || AUTO_CFG)) {
