@@ -1,0 +1,38 @@
+name: Import official specs
+
+on:
+  push:
+    branches: [main]
+    paths: ['data/official/**', 'scripts/official/**']
+  workflow_dispatch:
+    inputs:
+      category:
+        description: 'Категория (имя файла в data/official)'
+        default: 'smartphones'
+
+concurrency:
+  group: import-icecat
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --omit=dev --ignore-scripts
+      - name: Import
+        env:
+          SUPABASE_URL: https://kjjffgjsgizozleflbhw.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          CATEGORY: ${{ inputs.category || 'smartphones' }}
+        run: node scripts/official/import.mjs
+      - name: IndexNow
+        run: node scripts/indexnow.mjs
+        env:
+          SUPABASE_URL: https://kjjffgjsgizozleflbhw.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}

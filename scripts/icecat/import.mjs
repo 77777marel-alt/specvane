@@ -170,7 +170,7 @@ async function phaseSheets() {
     const brand = must(await db.from('brands').select('id').eq('slug', m.brandSlug).single(), 'brand id')
 
     // существующая модель: объединяем варианты
-    const existing = (await db.from('products').select('id, variants').eq('slug', m.slug).maybeSingle()).data
+    const existing = (await db.from('products').select('id, variants, data_source, status').eq('slug', m.slug).maybeSingle()).data
     const variants = new Map((existing?.variants ?? []).map((v) => [v.icecat_id, v]))
     for (const s of m.skus) variants.set(s.icecat_id, { icecat_id: s.icecat_id, part: s.part, gtins: s.gtins, ram: s.ram, storage: s.storage, colour: s.colour })
     const vlist = [...variants.values()].sort((a, b) => (a.storage ?? 1e9) - (b.storage ?? 1e9))
@@ -182,7 +182,7 @@ async function phaseSheets() {
     const filled = Object.entries(specs).filter(([k, v]) => v != null && defByKey[k])
     const imgs = base.find((s) => s.images.length)?.images ?? []
     const release = m.skus.map((s) => s.release).filter(Boolean).sort()[0] ?? null
-    const status = filled.length >= cat.min_specs_to_publish && imgs.length ? 'active' : 'draft'
+    const status = (filled.length >= cat.min_specs_to_publish && imgs.length) || (existing?.data_source === 'official' && existing.status === 'active') ? 'active' : 'draft'
 
     const row = { category_id: cat.id, brand_id: brand.id, slug: m.slug, name: m.name, model_number: base[0].code,
       release_date: release, status, is_indexable: status === 'active', spec_count: filled.length, specs_hash: hash(specs), data_source: 'icecat', variants: vlist }
@@ -195,7 +195,10 @@ async function phaseSheets() {
       value_num: typeof v === 'number' ? v : null, value_bool: typeof v === 'boolean' ? v : null, value_text: typeof v === 'string' ? v : null,
       updated_at: new Date().toISOString(),
     }))
-    if (specRows.length) must(await db.from('product_specs').upsert(specRows, { onConflict: 'product_id,spec_id' }), 'specs')
+    // официальные значения производителя не перезаписываем
+    const official = new Set((must(await db.from('product_specs').select('spec_id').eq('product_id', prod.id).like('source', 'official:%'), 'official specs') ?? []).map((r) => r.spec_id))
+    const toWrite = specRows.filter((r) => !official.has(r.spec_id))
+    if (toWrite.length) must(await db.from('product_specs').upsert(toWrite, { onConflict: 'product_id,spec_id' }), 'specs')
 
     // фото (заменяем набор фото из Icecat целиком)
     must(await db.from('product_images').delete().eq('product_id', prod.id).eq('source', 'icecat'), 'del images')
