@@ -47,3 +47,9 @@ jobs:
           SEED_ICECAT_IDS: ${{ github.event.inputs.seed_ids || '' }}
           SKIP_INDEX: ${{ github.event.inputs.skip_index || '0' }}
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+      - name: IndexNow
+        if: ${{ github.event.inputs.dry_run != '1' }}
+        run: node scripts/indexnow.mjs
+        env:
+          SUPABASE_URL: https://kjjffgjsgizozleflbhw.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
