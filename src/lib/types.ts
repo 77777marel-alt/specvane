@@ -14,6 +14,9 @@ export type PricePoint = { day: string; price: number }
 export type ProductCardData = {
   slug: string; href: string; name: string; brand: string; image?: string | null
   price?: number | null; currency: string; keySpecs: SpecValue[]; verdict?: string
+  /** значения для фильтров: v — сырое, d — для показа */
+  facets?: Record<string, { v: number | boolean | string | null; d: string }>
+  release?: string | null
 }
 export type ProductView = ProductCardData & {
   category: { name: string; href: string }

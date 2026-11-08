@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation'
 import { isLocale, type Locale } from '@/lib/i18n/config'
 import { getDict } from '@/lib/i18n'
 import { INFO_PAGES, resolveSlug, sectionHref, type InfoPage } from '@/lib/routes'
-import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons } from '@/lib/catalog'
+import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs } from '@/lib/catalog'
 import { permanentRedirect } from 'next/navigation'
 import { number } from '@/lib/format'
 import { alternates } from '@/lib/seo'
@@ -128,7 +128,9 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
         const count = new Map<string, number>()
         items.forEach((i) => count.set(i.brand, (count.get(i.brand) ?? 0) + 1))
         const brands = [...count.keys()].sort((a, b) => count.get(b)! - count.get(a)!)
-        return <CategoryView lang={lang} t={t} title={cat.name} items={items} chips={[]} brands={brands} crumbs={[home, catCrumb]} />
+        const filters = await getFilterDefs(lang, cat)
+        return <CategoryView lang={lang} t={t} title={cat.name} items={items} brands={brands} crumbs={[home, catCrumb]}
+          browser={{ filters, compare: { cat: cat.key, base: sectionHref(lang, 'compare') } }} />
       }
       const p = await getProduct(lang, cat, slug[1])
       if (p) {
@@ -140,6 +142,7 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
           <>
             <ProductView lang={lang} t={t} p={p} crumbs={[home, catCrumb, { name: `${p.brand} ${p.name}`, href: p.href }]}
               compareLinks={await getCompareLinks(lang, p.slug)} variants={variants} gallery={p.images}
+              compare={{ cat: cat.key, base: sectionHref(lang, 'compare') }}
               attribution={p.source === 'icecat' ? `Database Right data-sheet ${year} Icecat. All rights reserved. Data provided “as is” without warranty.` : undefined} />
             <ProductJsonLd name={`${p.brand} ${p.name}`} brand={p.brand} image={p.images} url={p.href} />
           </>

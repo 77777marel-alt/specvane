@@ -3,11 +3,13 @@ import type { Locale } from '@/lib/i18n/config'
 import type { ProductCardData } from '@/lib/types'
 import { money } from '@/lib/format'
 import { ProductImage } from './ProductImage'
+import { CompareToggle } from '../compare/CompareToggle'
+import type { CompareItem } from '@/lib/compare-store'
 
 /** Карточка товара: вся карточка — одна ссылка (фото, название, характеристики). */
-export function ProductCard({ lang, p }: { lang: Locale; p: ProductCardData }) {
+export function ProductCard({ lang, p, compare }: { lang: Locale; p: ProductCardData; compare?: { item: CompareItem; label: string; active: string } }) {
   return (
-    <article className="group h-full">
+    <article className="group relative h-full">
       <Link href={p.href} className="flex h-full flex-col rounded-2xl border border-border p-3 transition hover:border-accent/40 hover:shadow-card focus-visible:outline-2 focus-visible:outline-accent">
         <ProductImage src={p.image} alt={`${p.brand} ${p.name}`} className="transition-transform group-hover:scale-[1.02]" />
         <div className="mt-3 flex-1">
@@ -22,6 +24,11 @@ export function ProductCard({ lang, p }: { lang: Locale; p: ProductCardData }) {
         </div>
         {p.price != null && <div className="num mt-3 text-lg font-bold">{money(lang, p.price, p.currency)}</div>}
       </Link>
+      {compare && (
+        <div className="absolute right-5 top-5">
+          <CompareToggle item={compare.item} label={compare.label} active={compare.active} />
+        </div>
+      )}
     </article>
   )
 }

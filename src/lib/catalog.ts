@@ -11,7 +11,7 @@ import type { ProductCardData, ProductView, SpecGroup, SpecValue } from './types
 // Данные Icecat здесь только показываются — в генеративный ИИ они не передаются (лицензия OCL §10).
 
 export type Category = { id: number; key: string; slug: string; name: string; slugs: Partial<Record<Locale, string>> }
-type Def = { id: number; key: string; group: string; type: string; unit: string | null; hib: boolean | null; isKey: boolean; sort: number; label: string }
+type Def = { id: number; key: string; group: string; type: string; unit: string | null; hib: boolean | null; isKey: boolean; isFilter: boolean; sort: number; label: string }
 
 export async function getCategory(lang: Locale, slug: string): Promise<Category | null> {
   'use cache'
@@ -30,12 +30,12 @@ async function getDefs(categoryId: number, lang: Locale): Promise<{ defs: Def[];
   cacheLife('days'); cacheTag('specs')
   const s = db()!
   const [d, g] = await Promise.all([
-    s.from('spec_definitions').select('id, key, group_key, data_type, unit, higher_is_better, is_key_spec, sort, spec_definition_i18n(lang, label)').eq('category_id', categoryId).order('sort'),
+    s.from('spec_definitions').select('id, key, group_key, data_type, unit, higher_is_better, is_key_spec, is_filter, sort, spec_definition_i18n(lang, label)').eq('category_id', categoryId).order('sort'),
     s.from('spec_group_i18n').select('group_key, label').eq('lang', lang),
   ])
-  type Row = { id: number; key: string; group_key: string; data_type: string; unit: string | null; higher_is_better: boolean | null; is_key_spec: boolean; sort: number; spec_definition_i18n: { lang: string; label: string }[] }
+  type Row = { id: number; key: string; group_key: string; data_type: string; unit: string | null; higher_is_better: boolean | null; is_key_spec: boolean; is_filter: boolean; sort: number; spec_definition_i18n: { lang: string; label: string }[] }
   const defs = ((d.data ?? []) as Row[]).map((r) => ({
-    id: r.id, key: r.key, group: r.group_key, type: r.data_type, unit: r.unit, hib: r.higher_is_better, isKey: r.is_key_spec, sort: r.sort,
+    id: r.id, key: r.key, group: r.group_key, type: r.data_type, unit: r.unit, hib: r.higher_is_better, isKey: r.is_key_spec, isFilter: r.is_filter, sort: r.sort,
     label: r.spec_definition_i18n.find((x) => x.lang === lang)?.label ?? r.spec_definition_i18n.find((x) => x.lang === 'en')?.label ?? r.key,
   }))
   return { defs, groups: Object.fromEntries((g.data ?? []).map((r) => [r.group_key, r.label])) }
@@ -71,7 +71,19 @@ function specValues(lang: Locale, defs: Def[], rows: SpecRow[]): SpecValue[] {
   return out
 }
 
-const CARD_KEYS = ['display_size', 'chipset', 'ram', 'main_camera', 'battery']
+/** Главные характеристики для карточки: смартфоны — проверенный набор, остальные — is_key_spec из базы. */
+const PHONE_CARD_KEYS = ['display_size', 'chipset', 'ram', 'main_camera', 'battery']
+const cardKeys = (defs: Def[]) => {
+  const keys = defs.filter((d) => d.isKey).map((d) => d.key)
+  return PHONE_CARD_KEYS.every((k) => keys.includes(k)) ? PHONE_CARD_KEYS : keys
+}
+
+export type FilterDef = { key: string; label: string; type: string; hib: boolean | null }
+/** Характеристики-фильтры категории (для панели фильтров). */
+export async function getFilterDefs(lang: Locale, cat: Category): Promise<FilterDef[]> {
+  const { defs } = await getDefs(cat.id, lang)
+  return defs.filter((d) => d.isFilter).map((d) => ({ key: d.key, label: d.label, type: d.type, hib: d.hib }))
+}
 
 /** Все активные модели категории (для списка, альтернатив и sitemap). */
 export async function getCategoryProducts(lang: Locale, cat: Category): Promise<(ProductCardData & { release: string | null })[]> {
@@ -80,7 +92,8 @@ export async function getCategoryProducts(lang: Locale, cat: Category): Promise<
   const s = db()
   if (!s) return []
   const { defs } = await getDefs(cat.id, lang)
-  const cardDefs = defs.filter((d) => CARD_KEYS.includes(d.key))
+  const CARD_KEYS = cardKeys(defs)
+  const cardDefs = defs.filter((d) => CARD_KEYS.includes(d.key) || d.isFilter)
   const { data } = await s.from('products')
     .select('slug, name, release_date, brands!inner(name), product_images(url, sort), product_specs(spec_id, value_num, value_bool, value_text)')
     .eq('category_id', cat.id).eq('status', 'active')
@@ -96,6 +109,7 @@ export async function getCategoryProducts(lang: Locale, cat: Category): Promise<
       image: [...p.product_images].sort((a, b) => a.sort - b.sort)[0]?.url ?? null,
       price: null, currency, release: p.release_date,
       keySpecs: CARD_KEYS.map((k) => specs.find((x) => x.key === k)).filter(Boolean) as SpecValue[],
+      facets: Object.fromEntries(specs.filter((x) => defs.find((d) => d.key === x.key)?.isFilter).map((x) => [x.key, { v: x.value, d: x.display }])),
     }
   })
 }

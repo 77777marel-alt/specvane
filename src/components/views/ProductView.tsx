@@ -5,6 +5,8 @@ import { date } from '@/lib/format'
 import { Breadcrumbs, type Crumb } from '../Breadcrumbs'
 import { IconChevron } from '../icons'
 import { Gallery } from '../product/Gallery'
+import { CompareToggle } from '../compare/CompareToggle'
+import { CompareTray } from '../compare/CompareTray'
 import { KeySpecs } from '../product/KeySpecs'
 import { PriceBox } from '../product/PriceBox'
 import { ProsCons } from '../product/ProsCons'
@@ -14,9 +16,9 @@ import { SpecTable } from '../product/SpecTable'
 import { ProductCard } from '../product/ProductCard'
 
 /** Страница товара. Верх: фото, название, вердикт, лучшая цена, 3–5 ключевых цифр (ТЗ). */
-export function ProductView({ lang, t, p, crumbs, compareLinks, variants, gallery, attribution }:
+export function ProductView({ lang, t, p, crumbs, compareLinks, variants, gallery, attribution, compare }:
   { lang: Locale; t: Dict; p: P; crumbs: Crumb[]; compareLinks: { name: string; href: string }[]
-    variants?: string[]; gallery?: string[]; attribution?: string }) {
+    variants?: string[]; gallery?: string[]; attribution?: string; compare?: { cat: string; base: string } }) {
   const keySpecs = p.keySpecs
   return (
     <>
@@ -34,6 +36,10 @@ export function ProductView({ lang, t, p, crumbs, compareLinks, variants, galler
               </ul>
             )}
           </div>
+          {compare && (
+            <CompareToggle variant="button" label={t.ui.addCompare} active={t.ui.inCompare}
+              item={{ slug: p.slug, name: `${p.brand} ${p.name}`, brand: p.brand, image: p.image, cat: compare.cat, base: compare.base }} />
+          )}
           <PriceBox lang={lang} t={t} offers={p.offers} />
           <KeySpecs specs={keySpecs} title={t.ui.keySpecs} />
         </div>
@@ -80,6 +86,7 @@ export function ProductView({ lang, t, p, crumbs, compareLinks, variants, galler
           </div>
         </section>
       )}
+      {compare && <CompareTray s={t.ui} />}
     </>
   )
 }
