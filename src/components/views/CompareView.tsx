@@ -59,7 +59,7 @@ export function CompareView({ lang, t, items, crumbs, chooseIf, title }:
         const adv = chooseIf ?? items.map((_, i) => groups.flatMap((g) => g.rows).filter((r) => {
           if (r.higherIsBetter == null) return false
           const v = r.values.map((x) => (typeof x.value === 'number' ? x.value : typeof x.value === 'boolean' ? Number(x.value) : NaN))
-          if (v.some(Number.isNaN) || v[0] === v[1]) return false
+          if (v.some(Number.isNaN) || v[0] === v[1] || r.values[0].display === r.values[1].display) return false
           return r.higherIsBetter ? v[i] > v[1 - i] : v[i] < v[1 - i]
         }).map((r) => `${r.label}: ${r.values[i].display} ${t.ui.vs} ${r.values[1 - i].display}`))
         if (!adv.some((a) => a.length)) return null

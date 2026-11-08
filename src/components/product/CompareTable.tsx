@@ -17,7 +17,7 @@ export function CompareTable({ cols, groups, labels }: {
   const best = (row: (typeof groups)[number]['rows'][number]) => {
     if (row.higherIsBetter == null) return -1
     const nums = row.values.map((v) => (typeof v.value === 'number' ? v.value : typeof v.value === 'boolean' ? Number(v.value) : NaN))
-    if (nums.some(Number.isNaN)) return -1
+    if (nums.some(Number.isNaN) || new Set(row.values.map((v) => v.display)).size === 1) return -1
     const target = row.higherIsBetter ? Math.max(...nums) : Math.min(...nums)
     return nums.filter((n) => n === target).length === 1 ? nums.indexOf(target) : -1
   }
