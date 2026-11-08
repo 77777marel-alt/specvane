@@ -60,6 +60,12 @@ export const en = {
     speakers: "Speakers",
     cameras: "Cameras",
     watches: "Smartwatches",
+    tablets: "Tablets",
+    cpus: "Processors (CPU)",
+    gpus: "Graphics cards (GPU)",
+    monitors: "Monitors",
+    consoles: "Game consoles",
+    appliances: "Home appliances",
     soon: "Soon",
   },
   ui: {

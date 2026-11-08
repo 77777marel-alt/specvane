@@ -59,6 +59,12 @@ export const nl: Dict = {
     speakers: "Speakers",
     cameras: "Camera’s",
     watches: "Smartwatches",
+    tablets: "Tablets",
+    cpus: "Processors (CPU)",
+    gpus: "Videokaarten (GPU)",
+    monitors: "Monitoren",
+    consoles: "Gameconsoles",
+    appliances: "Huishoudapparaten",
     soon: "Binnenkort",
   },
   ui: {

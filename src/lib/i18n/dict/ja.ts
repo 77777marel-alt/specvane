@@ -59,6 +59,12 @@ export const ja: Dict = {
     speakers: "スピーカー",
     cameras: "カメラ",
     watches: "スマートウォッチ",
+    tablets: "タブレット",
+    cpus: "CPU",
+    gpus: "グラフィックボード",
+    monitors: "モニター",
+    consoles: "ゲーム機",
+    appliances: "家電",
     soon: "近日公開",
   },
   ui: {

@@ -59,6 +59,12 @@ export const ptBr: Dict = {
     speakers: "Caixas de som",
     cameras: "Câmeras",
     watches: "Smartwatches",
+    tablets: "Tablets",
+    cpus: "Processadores (CPU)",
+    gpus: "Placas de vídeo (GPU)",
+    monitors: "Monitores",
+    consoles: "Consoles",
+    appliances: "Eletrodomésticos",
     soon: "Em breve",
   },
   ui: {

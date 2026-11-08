@@ -6,7 +6,7 @@ import { getDict } from '@/lib/i18n'
 import { getCategories } from '@/lib/data'
 import { alternates } from '@/lib/seo'
 import { SearchBox } from '@/components/SearchBox'
-import { IconCamera, IconHeadphones, IconLaptop, IconPhone, IconProjector, IconSpeaker, IconTv, IconWatch } from '@/components/icons'
+import { IconAppliance, IconCamera, IconCpu, IconGamepad, IconGpu, IconHeadphones, IconLaptop, IconMonitor, IconPhone, IconProjector, IconSpeaker, IconTablet, IconTv, IconWatch } from '@/components/icons'
 
 export async function generateMetadata({ params }: PageProps<'/[lang]'>): Promise<Metadata> {
   const { lang } = await params
@@ -20,12 +20,15 @@ export async function generateMetadata({ params }: PageProps<'/[lang]'>): Promis
   }
 }
 
-// Плитки категорий из ТЗ; ссылкой становятся, когда категория включена в базе.
+// Плитки категорий в порядке спроса в поиске (исследование 08.11.2026, docs: claude/categories-priority.md).
+// Ссылкой становятся, когда категория включена в базе.
 const TILES = [
-  ['phones', IconPhone], ['laptops', IconLaptop], ['tvs', IconTv], ['projectors', IconProjector],
-  ['headphones', IconHeadphones], ['speakers', IconSpeaker], ['cameras', IconCamera], ['watches', IconWatch],
+  ['phones', IconPhone], ['laptops', IconLaptop], ['headphones', IconHeadphones], ['tvs', IconTv],
+  ['tablets', IconTablet], ['cpus', IconCpu], ['gpus', IconGpu], ['watches', IconWatch],
+  ['monitors', IconMonitor], ['consoles', IconGamepad], ['speakers', IconSpeaker], ['cameras', IconCamera],
+  ['projectors', IconProjector], ['appliances', IconAppliance],
 ] as const
-const DB_KEY: Record<string, string> = { phones: 'smartphones', tvs: 'tvs', watches: 'smartwatches' }
+const DB_KEY: Record<string, string> = { phones: 'smartphones', watches: 'smartwatches', cpus: 'processors', gpus: 'graphics-cards', consoles: 'game-consoles', appliances: 'home-appliances' }
 
 export default async function Home({ params }: PageProps<'/[lang]'>) {
   const { lang } = await params
@@ -46,7 +49,7 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
 
       <section id="categories" aria-labelledby="cats" className="py-4">
         <h2 id="cats" className="mb-4 text-xl font-semibold">{t.home.categoriesTitle}</h2>
-        <ul className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+        <ul className="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-7">
           {TILES.map(([key, Icon]) => {
             const c = liveByKey.get(DB_KEY[key] ?? key)
             const inner = (

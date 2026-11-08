@@ -59,6 +59,12 @@ export const es: Dict = {
     speakers: "Altavoces",
     cameras: "Cámaras",
     watches: "Relojes inteligentes",
+    tablets: "Tablets",
+    cpus: "Procesadores (CPU)",
+    gpus: "Tarjetas gráficas (GPU)",
+    monitors: "Monitores",
+    consoles: "Consolas",
+    appliances: "Electrodomésticos",
     soon: "Pronto",
   },
   ui: {

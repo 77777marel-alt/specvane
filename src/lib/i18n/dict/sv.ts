@@ -59,6 +59,12 @@ export const sv: Dict = {
     speakers: "Högtalare",
     cameras: "Kameror",
     watches: "Smartklockor",
+    tablets: "Surfplattor",
+    cpus: "Processorer (CPU)",
+    gpus: "Grafikkort (GPU)",
+    monitors: "Skärmar",
+    consoles: "Spelkonsoler",
+    appliances: "Vitvaror",
     soon: "Snart",
   },
   ui: {
