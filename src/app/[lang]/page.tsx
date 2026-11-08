@@ -76,6 +76,23 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
         </ul>
       </section>
 
+      {(() => {
+        // все остальные включённые категории (автоматические из Icecat и др.) — компактным списком
+        const shown = new Set(tiles.map(([k]) => DB_KEY[k] ?? k))
+        const rest = live.filter((c) => !shown.has(c.key)).sort((a, b) => a.name.localeCompare(b.name, lang))
+        if (!rest.length) return null
+        return (
+          <section aria-labelledby="allcats" className="py-6">
+            <h2 id="allcats" className="mb-3 text-lg font-semibold">{t.ui.categories}</h2>
+            <ul className="columns-2 gap-x-6 text-sm sm:columns-3 lg:columns-4">
+              {rest.map((c) => (
+                <li key={c.key} className="break-inside-avoid py-1"><Link href={`/${lang}/${c.slug}`} className="hover:text-accent hover:underline">{c.name}</Link></li>
+              ))}
+            </ul>
+          </section>
+        )
+      })()}
+
       <section className="grid gap-4 py-12 md:grid-cols-3">
         {[t.home.how1, t.home.how2, t.home.how3].map((s, i) => (
           <div key={i} className="rounded-2xl border border-border p-5">

@@ -9,7 +9,7 @@ on:
     inputs:
       categories:
         description: 'Категории через пробел'
-        default: 'smartphones headphones laptops tvs tablets smartwatches monitors speakers cameras projectors graphics-cards game-consoles washing-machines tumble-dryers fridges coffee-machines'
+        default: 'all'
       max_products:
         description: 'Порция карточек на категорию за круг'
         default: '1000'
@@ -41,13 +41,17 @@ jobs:
       - run: node --test scripts/icecat/map.test.mjs scripts/icecat/categories.test.mjs
       - name: Categories
         if: ${{ github.event.inputs.dry_run != '1' }}
-        run: node scripts/icecat/sync-categories.mjs
+        run: |
+          node scripts/icecat/sync-categories.mjs
+          node scripts/icecat/auto-setup.mjs
         env:
           SUPABASE_URL: https://kjjffgjsgizozleflbhw.supabase.co
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
       - name: Import
         run: |
           # по кругу: каждая категория получает порцию, пока не кончится время (~4 ч 50 мин), потом сравнения и IndexNow
+          if [ "$CATS_IN" = all ]; then CATS=$(node scripts/icecat/list-cats.mjs); else CATS="$CATS_IN"; fi
+          echo "Категории: $CATS"
           start=$(date +%s); first=1
           for pass in 1 2 3 4 5 6 7 8 9 10; do
             for c in $CATS; do
@@ -64,18 +68,20 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           ICECAT_API_TOKEN: ${{ secrets.ICECAT_API_TOKEN }}
           ICECAT_USER: specvane
-          CATS: ${{ github.event.inputs.categories || 'smartphones headphones laptops tvs tablets smartwatches monitors speakers cameras projectors graphics-cards game-consoles washing-machines tumble-dryers fridges coffee-machines' }}
+          CATS_IN: ${{ github.event.inputs.categories || 'all' }}
           MAX_PRODUCTS: ${{ github.event.inputs.max_products || '1000' }}
           SEED_ICECAT_IDS: ${{ github.event.inputs.seed_ids || '' }}
           SKIP_INDEX: ${{ github.event.inputs.skip_index || '0' }}
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
       - name: Comparisons
         if: ${{ always() && github.event.inputs.dry_run != '1' }}
-        run: node scripts/icecat/rebuild.mjs
+        run: |
+          if [ "$CATS_IN" = all ]; then export CATS=$(node scripts/icecat/list-cats.mjs); else export CATS="$CATS_IN"; fi
+          node scripts/icecat/rebuild.mjs
         env:
           SUPABASE_URL: https://kjjffgjsgizozleflbhw.supabase.co
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-          CATS: ${{ github.event.inputs.categories || 'smartphones headphones laptops tvs tablets smartwatches monitors speakers cameras projectors graphics-cards game-consoles washing-machines tumble-dryers fridges coffee-machines' }}
+          CATS_IN: ${{ github.event.inputs.categories || 'all' }}
       - name: IndexNow
         if: ${{ always() && github.event.inputs.dry_run != '1' }}
         run: node scripts/indexnow.mjs

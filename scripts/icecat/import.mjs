@@ -20,16 +20,11 @@ import { createInterface } from 'node:readline'
 import { Readable } from 'node:stream'
 import { createHash } from 'node:crypto'
 import { mapSmartphone, modelOf, releaseDate, images, gtins, modelSlug } from './map.mjs'
-import { CATEGORIES, mapByConfig } from './categories.mjs'
+import { CATEGORIES, mapByConfig, mapAuto } from './categories.mjs'
 
 const env = (k, d) => process.env[k] ?? d
 const CATEGORY = process.env.CATEGORY || 'smartphones'
 const CFG = CATEGORIES[CATEGORY] ?? null
-if (CATEGORY !== 'smartphones' && !CFG) throw new Error(`Неизвестная категория: ${CATEGORY}`)
-const ICECAT_CATID = CFG?.catid ?? '1893'
-const mapSpecs = CFG ? (d) => mapByConfig(CFG, d) : mapSmartphone
-// индекс Icecat качаем один раз и раскладываем позиции по всем нашим категориям
-const CAT_BY_ICECAT = { '1893': 'smartphones', ...Object.fromEntries(Object.entries(CATEGORIES).map(([k, c]) => [c.catid, k])) }
 const USER = env('ICECAT_USER', 'specvane')
 const MAX = Number(env('MAX_PRODUCTS', '5000'))
 const INDEX = env('INDEX', 'on_market')
@@ -49,6 +44,17 @@ const retryFetch = async (url, opts) => {
 }
 const db = createClient(env('SUPABASE_URL'), env('SUPABASE_SERVICE_ROLE_KEY'), { auth: { persistSession: false }, global: { fetch: retryFetch } })
 const must = ({ data, error }, what) => { if (error) throw new Error(`${what}: ${error.message}`); return data }
+
+// автокатегории (auto-setup.mjs) хранятся в базе: ID категории Icecat и ключ сайта
+const AUTO = must(await db.from('categories').select('key, icecat_catid').eq('auto', true).not('icecat_catid', 'is', null), 'auto cats')
+const AUTO_CFG = AUTO.find((a) => a.key === CATEGORY) ?? null
+if (CATEGORY !== 'smartphones' && !CFG && !AUTO_CFG) throw new Error(`Неизвестная категория: ${CATEGORY}`)
+const ICECAT_CATID = CFG?.catid ?? AUTO_CFG?.icecat_catid ?? '1893'
+let autoDefs = null // для автокатегорий маппинг строится по характеристикам из базы
+const mapSpecs = CFG ? (d) => mapByConfig(CFG, d) : AUTO_CFG ? (d) => mapAuto(autoDefs, d) : mapSmartphone
+// индекс Icecat качаем один раз и раскладываем позиции по всем нашим категориям
+const CAT_BY_ICECAT = { '1893': 'smartphones', ...Object.fromEntries(Object.entries(CATEGORIES).map(([k, c]) => [c.catid, k])),
+  ...Object.fromEntries(AUTO.map((a) => [a.icecat_catid, a.key])) }
 
 // ---------- фаза A: индекс ----------
 async function phaseIndex() {
@@ -130,6 +136,7 @@ async function phaseSheets() {
 
   const cat = must(await db.from('categories').select('id, min_specs_to_publish').eq('key', CATEGORY).single(), 'category')
   const defs = must(await db.from('spec_definitions').select('id, key, data_type').eq('category_id', cat.id), 'spec defs')
+  autoDefs = defs
   const defByKey = Object.fromEntries(defs.map((d) => [d.key, d]))
 
   const sheets = await pool(todo, 12, async (t) => ({ id: t.external_id, data: await fetchSheet(t.external_id) }))
@@ -142,7 +149,7 @@ async function phaseSheets() {
     if (String(data.GeneralInfo?.Category?.CategoryID) !== ICECAT_CATID) { marks.push({ id, status: 'skipped', note: `not ${CATEGORY}` }); continue }
     const m = modelOf(data, { families: CATEGORY === 'smartphones' })
     // ТВ/мониторы: модель обычно только артикулом (QE55Q60DAUXXU) — его и ищут, берём как название
-    if (m && !m.name && CFG?.codeAsName) {
+    if (m && !m.name && (CFG?.codeAsName || AUTO_CFG)) {
       const code = String(data.GeneralInfo?.BrandPartCode || data.GeneralInfo?.ProductName || '').trim()
       if (code) { m.name = code; m.slug = modelSlug(m.brand, code) }
     }

@@ -611,3 +611,15 @@ export function mapByConfig(cfg, data) {
   }
   return out
 }
+
+/** Автокатегория: характеристики с ключом f<ID признака Icecat>, тип — из базы. */
+export function mapAuto(defs, data) {
+  const byId = new Map(flatFeatures(data).map((f) => [f.id, f]))
+  const out = {}
+  for (const d of defs) {
+    if (!/^f\d+$/.test(d.key)) continue
+    const f = byId.get(Number(d.key.slice(1)))
+    out[d.key] = d.data_type === 'number' ? num(f) : d.data_type === 'bool' ? yn(f) : txt(f)
+  }
+  return out
+}

@@ -1,0 +1,31 @@
+# Разведка всех категорий Open Icecat → таблица icecat_categories (запуск вручную).
+name: Discover Icecat categories
+
+on:
+  workflow_dispatch:
+    inputs:
+      top:
+        description: 'Сколько крупнейших категорий проверить'
+        default: '700'
+      min_skus:
+        description: 'Минимум позиций в категории'
+        default: '150'
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --omit=dev --ignore-scripts
+      - run: node scripts/icecat/discover.mjs
+        env:
+          SUPABASE_URL: https://kjjffgjsgizozleflbhw.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ICECAT_API_TOKEN: ${{ secrets.ICECAT_API_TOKEN }}
+          TOP: ${{ github.event.inputs.top || '700' }}
+          MIN_SKUS: ${{ github.event.inputs.min_skus || '150' }}

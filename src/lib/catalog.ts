@@ -15,7 +15,7 @@ type Def = { id: number; key: string; group: string; type: string; unit: string 
 
 export async function getCategory(lang: Locale, slug: string): Promise<Category | null> {
   'use cache'
-  cacheLife('days'); cacheTag('categories')
+  cacheLife('hours'); cacheTag('categories')
   const s = db()
   if (!s) return null
   const { data } = await s.from('category_i18n').select('category_id, slug, name, categories!inner(key)').eq('lang', lang).eq('slug', slug).maybeSingle()
@@ -27,7 +27,7 @@ export async function getCategory(lang: Locale, slug: string): Promise<Category 
 
 async function getDefs(categoryId: number, lang: Locale): Promise<{ defs: Def[]; groups: Record<string, string> }> {
   'use cache'
-  cacheLife('days'); cacheTag('specs')
+  cacheLife('hours'); cacheTag('specs')
   const s = db()!
   const [d, g] = await Promise.all([
     s.from('spec_definitions').select('id, key, group_key, data_type, unit, higher_is_better, is_key_spec, is_filter, sort, spec_definition_i18n(lang, label)').eq('category_id', categoryId).order('sort'),
@@ -88,7 +88,7 @@ export async function getFilterDefs(lang: Locale, cat: Category): Promise<Filter
 /** Все активные модели категории (для списка, альтернатив и sitemap). */
 export async function getCategoryProducts(lang: Locale, cat: Category): Promise<(ProductCardData & { release: string | null })[]> {
   'use cache'
-  cacheLife('days'); cacheTag('products')
+  cacheLife('hours'); cacheTag('products')
   const s = db()
   if (!s) return []
   const { defs } = await getDefs(cat.id, lang)
@@ -116,7 +116,7 @@ export async function getCategoryProducts(lang: Locale, cat: Category): Promise<
 
 export async function getProduct(lang: Locale, cat: Category, slug: string): Promise<(ProductView & { images: string[]; source: string; variants: { ram: number | null; storage: number | null; colour: string | null }[] }) | null> {
   'use cache'
-  cacheLife('days'); cacheTag('products')
+  cacheLife('hours'); cacheTag('products')
   const s = db()
   if (!s) return null
   const { data } = await s.from('products')
@@ -178,7 +178,7 @@ export type CompareLink = { name: string; href: string }
 
 async function categoryById(lang: Locale, id: number): Promise<Category | null> {
   'use cache'
-  cacheLife('days'); cacheTag('categories')
+  cacheLife('hours'); cacheTag('categories')
   const s = db()
   if (!s) return null
   const { data } = await s.from('category_i18n').select('slug').eq('category_id', id).eq('lang', lang).maybeSingle()
@@ -188,7 +188,7 @@ async function categoryById(lang: Locale, id: number): Promise<Category | null> 
 /** Ссылки «Сравнить с…» для страницы модели. */
 export async function getCompareLinks(lang: Locale, productSlug: string, limit = 8): Promise<CompareLink[]> {
   'use cache'
-  cacheLife('days'); cacheTag('comparisons')
+  cacheLife('hours'); cacheTag('comparisons')
   const s = db()
   if (!s) return []
   const { data: p } = await s.from('products').select('id').eq('slug', productSlug).maybeSingle()
@@ -210,7 +210,7 @@ export function compareHref(lang: Locale, a: string, b: string) {
 /** Пара по адресу «a-vs-b». Возвращает обе модели и канонический порядок (как в базе). */
 export async function getComparison(lang: Locale, pairSlug: string) {
   'use cache'
-  cacheLife('days'); cacheTag('comparisons')
+  cacheLife('hours'); cacheTag('comparisons')
   const s = db()
   if (!s) return null
   const parts = pairSlug.split('-vs-')
@@ -234,7 +234,7 @@ export async function getComparison(lang: Locale, pairSlug: string) {
 /** Популярные сравнения (для раздела «Сравнения»). */
 export async function getTopComparisons(lang: Locale, limit = 60): Promise<CompareLink[]> {
   'use cache'
-  cacheLife('days'); cacheTag('comparisons')
+  cacheLife('hours'); cacheTag('comparisons')
   const s = db()
   if (!s) return []
   const { data } = await s.from('comparisons')
