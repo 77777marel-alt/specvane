@@ -3,7 +3,8 @@ import type { Dict } from '@/lib/i18n'
 import type { ProductView as P } from '@/lib/types'
 import { date } from '@/lib/format'
 import { Breadcrumbs, type Crumb } from '../Breadcrumbs'
-import { ProductImage } from '../product/ProductImage'
+import { IconChevron } from '../icons'
+import { Gallery } from '../product/Gallery'
 import { KeySpecs } from '../product/KeySpecs'
 import { PriceBox } from '../product/PriceBox'
 import { ProsCons } from '../product/ProsCons'
@@ -21,16 +22,7 @@ export function ProductView({ lang, t, p, crumbs, compareLinks, variants, galler
     <>
       <Breadcrumbs items={crumbs} />
       <div className="grid gap-6 lg:grid-cols-[1fr_1.1fr] lg:gap-10">
-        <div>
-          <ProductImage src={p.image} alt={`${p.brand} ${p.name}`} />
-          {gallery && gallery.length > 1 && (
-            <ul className="mt-2 grid grid-cols-5 gap-2">
-              {gallery.slice(1, 6).map((g, i) => (
-                <li key={g}><ProductImage src={g} alt={`${p.brand} ${p.name} — ${i + 2}`} ratio="aspect-square" /></li>
-              ))}
-            </ul>
-          )}
-        </div>
+        <Gallery images={gallery && gallery.length ? gallery : p.image ? [p.image] : []} alt={`${p.brand} ${p.name}`} />
         <div className="space-y-5">
           <div>
             <div className="text-sm text-muted">{p.brand}{p.releaseDate && <> · {t.ui.released} {date(lang, p.releaseDate)}</>}</div>
@@ -66,8 +58,14 @@ export function ProductView({ lang, t, p, crumbs, compareLinks, variants, galler
           {compareLinks.length > 0 && (
             <section className="rounded-2xl border border-border p-4">
               <h2 className="mb-2 font-semibold">{t.ui.compareWith}</h2>
-              <ul className="space-y-1.5 text-sm">
-                {compareLinks.map((c) => <li key={c.href}><a href={c.href} className="text-accent hover:underline">{c.name}</a></li>)}
+              <ul className="space-y-2 text-sm">
+                {compareLinks.map((c) => (
+                  <li key={c.href}>
+                    <a href={c.href} className="flex min-h-11 items-center justify-between gap-2 rounded-xl border border-border px-3 py-2 font-medium hover:border-accent hover:text-accent">
+                      <span>{c.name}</span><IconChevron className="h-4 w-4 shrink-0 text-muted" />
+                    </a>
+                  </li>
+                ))}
               </ul>
             </section>
           )}

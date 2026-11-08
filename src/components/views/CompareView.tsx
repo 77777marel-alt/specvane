@@ -34,9 +34,11 @@ export function CompareView({ lang, t, items, crumbs, chooseIf, title }:
           const o = best(p)
           return (
             <div key={p.slug} className="rounded-2xl border border-border p-3">
-              <ProductImage src={p.image} alt={`${p.brand} ${p.name}`} ratio="aspect-[4/3] md:aspect-[16/7]" />
-              <div className="mt-3 text-xs text-muted">{p.brand}</div>
-              <a href={p.href} className="font-semibold hover:text-accent">{p.name}</a>
+              <a href={p.href} className="group block">
+                <ProductImage src={p.image} alt={`${p.brand} ${p.name}`} ratio="aspect-[4/3] md:aspect-[16/7]" className="transition-transform group-hover:scale-[1.02]" />
+                <div className="mt-3 text-xs text-muted">{p.brand}</div>
+                <div className="font-semibold group-hover:text-accent">{p.name}</div>
+              </a>
               {o ? (
                 <a href={o.url} rel="sponsored nofollow noopener" target="_blank"
                   className="num mt-3 flex h-10 items-center justify-center rounded-xl bg-accent text-sm font-semibold text-accent-fg">

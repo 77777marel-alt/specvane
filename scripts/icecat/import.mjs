@@ -19,11 +19,17 @@ import { createGunzip } from 'node:zlib'
 import { createInterface } from 'node:readline'
 import { Readable } from 'node:stream'
 import { createHash } from 'node:crypto'
-import { mapSmartphone, modelOf, releaseDate, images, gtins } from './map.mjs'
+import { mapSmartphone, modelOf, releaseDate, images, gtins, modelSlug } from './map.mjs'
+import { CATEGORIES, mapByConfig } from './categories.mjs'
 
 const env = (k, d) => process.env[k] ?? d
-const CATEGORY = 'smartphones'
-const ICECAT_CATID = '1893'
+const CATEGORY = process.env.CATEGORY || 'smartphones'
+const CFG = CATEGORIES[CATEGORY] ?? null
+if (CATEGORY !== 'smartphones' && !CFG) throw new Error(`Неизвестная категория: ${CATEGORY}`)
+const ICECAT_CATID = CFG?.catid ?? '1893'
+const mapSpecs = CFG ? (d) => mapByConfig(CFG, d) : mapSmartphone
+// индекс Icecat качаем один раз и раскладываем позиции по всем нашим категориям
+const CAT_BY_ICECAT = { '1893': 'smartphones', ...Object.fromEntries(Object.entries(CATEGORIES).map(([k, c]) => [c.catid, k])) }
 const USER = env('ICECAT_USER', 'specvane')
 const MAX = Number(env('MAX_PRODUCTS', '5000'))
 const INDEX = env('INDEX', 'on_market')
@@ -59,14 +65,16 @@ async function phaseIndex() {
     const cols = line.split('\t')
     if (!head) { head = Object.fromEntries(cols.map((c, i) => [c.trim().toLowerCase(), i])); log('Колонки индекса:', Object.keys(head).join(', ')); continue }
     total++
-    if (cols[head.catid] !== ICECAT_CATID) continue
+    const ck = CAT_BY_ICECAT[cols[head.catid]]
+    if (!ck) continue
     if ((cols[head.quality] ?? '').toUpperCase() === 'REMOVED') continue
     // «Limited» — карточка закрыта брендом для Open Icecat (live API отдаёт 404)
     if (head.limited != null && /^(1|y|yes|true)$/i.test((cols[head.limited] ?? '').trim())) continue
     const id = cols[head.product_id]
-    if (id && !rows.has(id)) rows.set(id, cols[head.updated] ?? '')
+    if (id && !rows.has(id)) rows.set(id, [cols[head.updated] ?? '', ck])
   }
-  log(`Строк в индексе: ${total}, смартфонов: ${rows.size}`)
+  const per = {}; for (const [, [, ck]] of rows) per[ck] = (per[ck] ?? 0) + 1
+  log(`Строк в индексе: ${total}, наших категорий:`, JSON.stringify(per))
 
   // что уже знаем
   const known = new Map()
@@ -75,8 +83,8 @@ async function phaseIndex() {
     part.forEach((r) => known.set(r.external_id, r.updated))
     if (part.length < 1000) break
   }
-  const changed = [...rows].filter(([id, upd]) => known.get(id) !== upd)
-    .map(([id, upd]) => ({ source: 'icecat', external_id: id, category_key: CATEGORY, updated: upd, status: 'new' }))
+  const changed = [...rows].filter(([id, [upd]]) => known.get(id) !== upd)
+    .map(([id, [upd, ck]]) => ({ source: 'icecat', external_id: id, category_key: ck, updated: upd, status: 'new' }))
   log(`Новых/изменённых: ${changed.length}`)
   if (!DRY) for (let i = 0; i < changed.length; i += 500) {
     must(await db.from('source_items').upsert(changed.slice(i, i + 500), { onConflict: 'source,external_id' }), 'upsert source_items')
@@ -114,7 +122,7 @@ async function phaseSheets() {
     if (!DRY) must(await db.from('source_items').upsert(todo.map((t) => ({ source: 'icecat', external_id: t.external_id, category_key: CATEGORY, status: 'new' })),
       { onConflict: 'source,external_id' }), 'seed')
   } else {
-    todo = must(await db.from('source_items').select('external_id').eq('source', 'icecat').eq('status', 'new')
+    todo = must(await db.from('source_items').select('external_id').eq('source', 'icecat').eq('category_key', CATEGORY).eq('status', 'new')
       .order('updated', { ascending: false }).limit(Math.min(MAX, 1000)), 'todo')
   }
   log(`Карточек к загрузке: ${todo.length}`)
@@ -131,8 +139,13 @@ async function phaseSheets() {
   const stemCache = new Map()
   for (const { id, data } of sheets) {
     if (!data || data._error) { marks.push({ id, status: 'error', note: data?._error ?? 'empty' }); continue }
-    if (String(data.GeneralInfo?.Category?.CategoryID) !== ICECAT_CATID) { marks.push({ id, status: 'skipped', note: 'not smartphone' }); continue }
-    const m = modelOf(data)
+    if (String(data.GeneralInfo?.Category?.CategoryID) !== ICECAT_CATID) { marks.push({ id, status: 'skipped', note: `not ${CATEGORY}` }); continue }
+    const m = modelOf(data, { families: CATEGORY === 'smartphones' })
+    // ТВ/мониторы: модель обычно только артикулом (QE55Q60DAUXXU) — его и ищут, берём как название
+    if (m && !m.name && CFG?.codeAsName) {
+      const code = String(data.GeneralInfo?.BrandPartCode || data.GeneralInfo?.ProductName || '').trim()
+      if (code) { m.name = code; m.slug = modelSlug(m.brand, code) }
+    }
     if (!m) { marks.push({ id, status: 'skipped', note: 'no brand' }); continue }
     if (REFURB.test(m.brand)) { marks.push({ id, status: 'skipped', note: 'refurbisher' }); continue }
     if (!m.name && !m.stem) { marks.push({ id, status: 'skipped', note: 'no model name' }); continue }
@@ -152,7 +165,7 @@ async function phaseSheets() {
     marks.push({ id, status: 'imported', slug: m.slug })
   }
   function addSku(m, id, data) {
-    const specs = mapSmartphone(data)
+    const specs = mapSpecs(data)
     const colour = (data.FeaturesGroups ?? []).flatMap((g) => g.Features ?? []).find((f) => String(f.Feature?.ID) === '1766')?.RawValue ?? null
     const sku = { icecat_id: Number(id), part: data.GeneralInfo?.BrandPartCode ?? null, code: data.GeneralInfo?.ProductName ?? null,
       gtins: gtins(data), ram: specs.ram, storage: specs.storage, colour, release: releaseDate(data), images: images(data), specs }
@@ -254,6 +267,11 @@ async function main() {
     if (!DRY) {
       const { data: pairs, error } = await db.rpc('rebuild_comparisons', { p_category: CATEGORY, p_per: 5 })
       if (error) log('Сравнения: ошибка', error.message); else log('Сравнений A vs B:', pairs)
+      // категория появляется на сайте, когда в ней есть опубликованные модели
+      const cat = must(await db.from('categories').select('id, is_active').eq('key', CATEGORY).single(), 'category')
+      const { count } = await db.from('products').select('id', { count: 'exact', head: true }).eq('category_id', cat.id).eq('is_indexable', true)
+      if (count > 0 && !cat.is_active) { must(await db.from('categories').update({ is_active: true }).eq('id', cat.id), 'activate'); log('Категория включена на сайте') }
+      log(`Опубликовано моделей в категории: ${count}`)
     }
     if (run) must(await db.from('feed_runs').update({ status: 'ok', finished_at: new Date().toISOString(),
       items_seen: r.skus, items_new: changed, items_updated: r.models }).eq('id', run.id), 'run ok')

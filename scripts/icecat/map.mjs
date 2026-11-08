@@ -187,7 +187,7 @@ export function codeStem(brandSlug, ...codes) {
  * Цвет/память/артикул — варианты одной модели. Если названия нет (только артикул) — name=null,
  * тогда импорт пробует найти модель по основе артикула (stem).
  */
-export function modelOf(data) {
+export function modelOf(data, { families = true } = {}) {
   const gi = data.GeneralInfo ?? {}
   const brand = clean(gi.Brand)
   if (!brand) return null
@@ -197,7 +197,7 @@ export function modelOf(data) {
   const pname = clean(gi.ProductName)
   let base = tidyName([series, pname].find((x) => x && !isCode(x)) ?? '')
   if (base && family && base.toLowerCase().startsWith(family.toLowerCase())) family = ''
-  if (base && !family) {
+  if (base && !family && families) {
     const d = DEFAULT_FAMILY[brandSlug]
     if (d && d[0].test(base)) family = d[1]
   }

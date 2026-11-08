@@ -7,9 +7,12 @@ on:
     - cron: '17 2 * * *'   # каждый день 02:17 UTC
   workflow_dispatch:
     inputs:
+      categories:
+        description: 'Категории через пробел'
+        default: 'smartphones headphones laptops tvs tablets smartwatches monitors speakers'
       max_products:
-        description: 'Сколько карточек загрузить за запуск'
-        default: '5000'
+        description: 'Сколько карточек загрузить за запуск (на категорию)'
+        default: '1500'
       seed_ids:
         description: 'Только эти Icecat ID через запятую (необязательно)'
         default: ''
@@ -27,7 +30,7 @@ concurrency:
 jobs:
   import:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -35,15 +38,30 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci --omit=dev --ignore-scripts
-      - run: node --test scripts/icecat/map.test.mjs
+      - run: node --test scripts/icecat/map.test.mjs scripts/icecat/categories.test.mjs
+      - name: Categories
+        if: ${{ github.event.inputs.dry_run != '1' }}
+        run: node scripts/icecat/sync-categories.mjs
+        env:
+          SUPABASE_URL: https://kjjffgjsgizozleflbhw.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
       - name: Import
-        run: node scripts/icecat/import.mjs
+        run: |
+          first=1
+          for c in $CATS; do
+            if [ "$first" = 1 ]; then SI="$SKIP_INDEX"; else SI=1; fi
+            echo "::group::$c"
+            CATEGORY=$c SKIP_INDEX=$SI node scripts/icecat/import.mjs || echo "::warning::Импорт $c завершился с ошибкой"
+            echo "::endgroup::"
+            first=0
+          done
         env:
           SUPABASE_URL: https://kjjffgjsgizozleflbhw.supabase.co
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           ICECAT_API_TOKEN: ${{ secrets.ICECAT_API_TOKEN }}
           ICECAT_USER: specvane
-          MAX_PRODUCTS: ${{ github.event.inputs.max_products || '5000' }}
+          CATS: ${{ github.event.inputs.categories || 'smartphones headphones laptops tvs tablets smartwatches monitors speakers' }}
+          MAX_PRODUCTS: ${{ github.event.inputs.max_products || '1500' }}
           SEED_ICECAT_IDS: ${{ github.event.inputs.seed_ids || '' }}
           SKIP_INDEX: ${{ github.event.inputs.skip_index || '0' }}
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}

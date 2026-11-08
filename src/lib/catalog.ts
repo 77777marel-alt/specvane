@@ -46,7 +46,7 @@ const YEARS: Partial<Record<Locale, string>> = { en: 'years', de: 'Jahre', fr: '
 function display(lang: Locale, def: Def, v: number | boolean | string, yes: string, no: string): string {
   if (typeof v === 'boolean') return v ? yes : no
   if (typeof v === 'string') return v
-  const n = number(lang, v, v < 10 && def.unit !== 'GB' ? 1 : 0)
+  const n = number(lang, v, v < 10 && def.unit !== 'GB' ? (def.unit === 'kg' ? 2 : 1) : 0)
   switch (def.unit) {
     case 'in': return `${n}″`
     case '×': return `${n}×`
