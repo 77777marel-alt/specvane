@@ -185,7 +185,7 @@ async function phaseSheets() {
     const status = filled.length >= cat.min_specs_to_publish && imgs.length ? 'active' : 'draft'
 
     const row = { category_id: cat.id, brand_id: brand.id, slug: m.slug, name: m.name, model_number: base[0].code,
-      release_date: release, status, spec_count: filled.length, specs_hash: hash(specs), data_source: 'icecat', variants: vlist }
+      release_date: release, status, is_indexable: status === 'active', spec_count: filled.length, specs_hash: hash(specs), data_source: 'icecat', variants: vlist }
     const prod = must(await db.from('products').upsert(row, { onConflict: 'slug' }).select('id').single(), `product ${m.slug}`)
     productIdBySlug[m.slug] = prod.id
 

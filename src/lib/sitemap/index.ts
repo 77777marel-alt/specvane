@@ -2,6 +2,9 @@ import 'server-only'
 import { LOCALES, isLocale, type Locale } from '@/lib/i18n/config'
 import { INFO_PAGES, sectionHref } from '@/lib/routes'
 import { SITE_URL } from '@/lib/site'
+import { db } from '@/lib/supabase'
+import { cacheLife } from 'next/cache'
+import { getIndexableProducts } from '@/lib/catalog'
 
 // Индекс + отдельные файлы по языку и типу: pages-de-1.xml, products-de-1.xml…
 // В файлах только адреса и lastmod, без alternates (hreflang — в <head> страниц).
@@ -16,18 +19,49 @@ function staticPages(lang: Locale): Entry[] {
   return [{ loc: `${SITE_URL}/${lang}` }, ...indexable.map((p) => ({ loc: SITE_URL + sectionHref(lang, p) }))]
 }
 
+/** Активные категории и их адреса на каждом языке. */
+async function categories(): Promise<{ key: string; slugs: Record<string, string> }[]> {
+  'use cache'
+  cacheLife('hours')
+  const s = db()
+  if (!s) return []
+  const { data } = await s.from('category_i18n').select('lang, slug, categories!inner(key)')
+  const m = new Map<string, Record<string, string>>()
+  for (const r of data ?? []) {
+    const key = (r.categories as unknown as { key: string }).key
+    if (!m.has(key)) m.set(key, {})
+    m.get(key)![r.lang] = r.slug
+  }
+  return [...m].map(([key, slugs]) => ({ key, slugs }))
+}
+
 export async function listFiles(): Promise<string[]> {
-  // Этап 1+: добавить products/comparisons/collections с подсчётом страниц из базы (is_indexable).
-  return LOCALES.map((l) => `pages-${l}-1.xml`)
+  const files = LOCALES.map((l) => `pages-${l}-1.xml`)
+  for (const c of await categories()) {
+    const n = Math.ceil((await getIndexableProducts(c.key)).length / PER_FILE)
+    for (const l of LOCALES) for (let i = 1; i <= n; i++) if (c.slugs[l]) files.push(`products-${c.key}-${l}-${i}.xml`)
+  }
+  return files
 }
 
 export async function entriesFor(file: string): Promise<Entry[] | null> {
-  const m = /^(pages|products|comparisons|collections)-([a-z]{2}(?:-[a-z]{2})?)-(\d+)\.xml$/.exec(file)
+  const pm = /^pages-([a-z]{2}(?:-[a-z]{2})?)-1\.xml$/.exec(file)
+  if (pm) {
+    const lang = pm[1]
+    if (!isLocale(lang)) return null
+    const cats = (await categories()).filter((c) => c.slugs[lang])
+    return [...staticPages(lang), ...cats.map((c) => ({ loc: `${SITE_URL}/${lang}/${c.slugs[lang]}` }))]
+  }
+  const m = /^products-([a-z0-9-]+?)-([a-z]{2}(?:-[a-z]{2})?)-(\d+)\.xml$/.exec(file)
   if (!m) return null
-  const [, type, lang, n] = m
+  const [, key, lang, n] = m
   if (!isLocale(lang)) return null
-  if (type === 'pages') return Number(n) === 1 ? staticPages(lang) : null
-  return null
+  const cat = (await categories()).find((c) => c.key === key)
+  if (!cat?.slugs[lang]) return null
+  const all = await getIndexableProducts(key)
+  const part = all.slice((Number(n) - 1) * PER_FILE, Number(n) * PER_FILE)
+  if (!part.length) return null
+  return part.map((p) => ({ loc: `${SITE_URL}/${lang}/${cat.slugs[lang]}/${p.slug}`, lastmod: p.updated.slice(0, 10) }))
 }
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')

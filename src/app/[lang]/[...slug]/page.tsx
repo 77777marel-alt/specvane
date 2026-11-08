@@ -5,7 +5,8 @@ import { notFound } from 'next/navigation'
 import { isLocale, type Locale } from '@/lib/i18n/config'
 import { getDict } from '@/lib/i18n'
 import { INFO_PAGES, resolveSlug, sectionHref, type InfoPage } from '@/lib/routes'
-import { getCategoryBySlug } from '@/lib/data'
+import { getCategory, getCategoryProducts, getProduct } from '@/lib/catalog'
+import { number } from '@/lib/format'
 import { alternates } from '@/lib/seo'
 import { previewProducts, previewChooseIf, CHIPS, tx } from '@/lib/preview'
 import { ProductView } from '@/components/views/ProductView'
@@ -31,9 +32,25 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/[...slug]'
     const robots = key === 'privacy' || key === 'cookies' || key === 'legal-notice' ? { index: false, follow: true } : undefined
     return { title: `${t.info[key].title} · Specvane`, alternates: alternates(lang, (l: Locale) => sectionHref(l, key)), robots }
   }
-  if (slug.length === 1 && !key) {
-    const cat = await getCategoryBySlug(lang, slug[0])
-    if (cat) return { title: `${cat.name} · Specvane`, robots: { index: false, follow: true } } // включим индексацию на этапе 1
+  if (!key && slug.length <= 2) {
+    const cat = await getCategory(lang, slug[0])
+    if (!cat) return {}
+    const path = (l: Locale) => (cat.slugs[l] ? `/${l}/${[cat.slugs[l], ...slug.slice(1)].join('/')}` : null)
+    const t = getDict(lang)
+    if (slug.length === 1) {
+      const items = await getCategoryProducts(lang, cat)
+      return { title: `${cat.name}: ${t.ui.allSpecs} · Specvane`, description: `${cat.name} — ${items.length} ${t.ui.compare.toLowerCase()}`,
+        alternates: alternates(lang, path) }
+    }
+    const p = await getProduct(lang, cat, slug[1])
+    if (!p) return {}
+    const ks = p.keySpecs.slice(0, 5).map((k) => `${k.label} ${k.display}`).join(', ')
+    return {
+      title: `${p.brand} ${p.name}: ${t.ui.allSpecs} · Specvane`,
+      description: `${p.brand} ${p.name} — ${ks}.`,
+      alternates: alternates(lang, path),
+      openGraph: { title: `${p.brand} ${p.name}`, images: p.image ? [{ url: p.image }] : undefined },
+    }
   }
   return {}
 }
@@ -57,15 +74,33 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
     )
   }
 
-  if (slug.length === 1 && !key) {
-    const cat = await getCategoryBySlug(lang, slug[0])
+  if (!key && slug.length <= 2) {
+    const cat = await getCategory(lang, slug[0])
     if (cat) {
-      return (
-        <section className="py-12">
-          <h1 className="text-3xl font-bold">{cat.name}</h1>
-          <p className="mt-4 text-muted">{t.home.comingSoon}</p>
-        </section>
-      )
+      const home = { name: t.ui.home, href: `/${lang}` }
+      const catCrumb = { name: cat.name, href: `/${lang}/${cat.slug}` }
+      if (slug.length === 1) {
+        const items = await getCategoryProducts(lang, cat)
+        const count = new Map<string, number>()
+        items.forEach((i) => count.set(i.brand, (count.get(i.brand) ?? 0) + 1))
+        const brands = [...count.keys()].sort((a, b) => count.get(b)! - count.get(a)!)
+        return <CategoryView lang={lang} t={t} title={cat.name} items={items} chips={[]} brands={brands} crumbs={[home, catCrumb]} />
+      }
+      const p = await getProduct(lang, cat, slug[1])
+      if (p) {
+        const gb = (v: number | null) => (v == null ? '' : v >= 1024 ? `${number(lang, v / 1024)} TB` : `${number(lang, v)} GB`)
+        const variants = [...new Set(p.variants.filter((v) => v.storage).sort((a, b) => (a.storage ?? 0) - (b.storage ?? 0))
+          .map((v) => (v.ram ? `${gb(v.ram)} / ${gb(v.storage)}` : gb(v.storage))))]
+        const year = new Date().getFullYear()
+        return (
+          <>
+            <ProductView lang={lang} t={t} p={p} crumbs={[home, catCrumb, { name: `${p.brand} ${p.name}`, href: p.href }]}
+              compareLinks={[]} variants={variants} gallery={p.images}
+              attribution={p.source === 'icecat' ? `Database Right data-sheet ${year} Icecat. All rights reserved. Data provided “as is” without warranty.` : undefined} />
+            <ProductJsonLd name={`${p.brand} ${p.name}`} brand={p.brand} image={p.images} url={p.href} />
+          </>
+        )
+      }
     }
   }
 
@@ -107,4 +142,10 @@ function Preview({ lang, view }: { lang: Locale; view: string }) {
       {body}
     </>
   )
+}
+
+/** Разметка Product без цен и оценок (их пока нет — не выдумываем). */
+function ProductJsonLd({ name, brand, image, url }: { name: string; brand: string; image: string[]; url: string }) {
+  const ld = { '@context': 'https://schema.org', '@type': 'Product', name, brand: { '@type': 'Brand', name: brand }, image: image.slice(0, 3), url: `https://specvane.com${url}` }
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
 }

@@ -13,19 +13,34 @@ import { SpecTable } from '../product/SpecTable'
 import { ProductCard } from '../product/ProductCard'
 
 /** Страница товара. Верх: фото, название, вердикт, лучшая цена, 3–5 ключевых цифр (ТЗ). */
-export function ProductView({ lang, t, p, crumbs, compareLinks }:
-  { lang: Locale; t: Dict; p: P; crumbs: Crumb[]; compareLinks: { name: string; href: string }[] }) {
+export function ProductView({ lang, t, p, crumbs, compareLinks, variants, gallery, attribution }:
+  { lang: Locale; t: Dict; p: P; crumbs: Crumb[]; compareLinks: { name: string; href: string }[]
+    variants?: string[]; gallery?: string[]; attribution?: string }) {
   const keySpecs = p.keySpecs
   return (
     <>
       <Breadcrumbs items={crumbs} />
       <div className="grid gap-6 lg:grid-cols-[1fr_1.1fr] lg:gap-10">
-        <ProductImage src={p.image} alt={`${p.brand} ${p.name}`} />
+        <div>
+          <ProductImage src={p.image} alt={`${p.brand} ${p.name}`} />
+          {gallery && gallery.length > 1 && (
+            <ul className="mt-2 grid grid-cols-5 gap-2">
+              {gallery.slice(1, 6).map((g, i) => (
+                <li key={g}><ProductImage src={g} alt={`${p.brand} ${p.name} — ${i + 2}`} ratio="aspect-square" /></li>
+              ))}
+            </ul>
+          )}
+        </div>
         <div className="space-y-5">
           <div>
             <div className="text-sm text-muted">{p.brand}{p.releaseDate && <> · {t.ui.released} {date(lang, p.releaseDate)}</>}</div>
             <h1 className="mt-1 text-3xl font-bold tracking-tight md:text-4xl">{p.brand} {p.name}</h1>
-            <p className="mt-3 text-lg"><span className="font-semibold">{t.ui.whoFor}:</span> <span className="text-muted">{p.whoFor}</span></p>
+            {p.whoFor && <p className="mt-3 text-lg"><span className="font-semibold">{t.ui.whoFor}:</span> <span className="text-muted">{p.whoFor}</span></p>}
+            {variants && variants.length > 0 && (
+              <ul className="mt-3 flex flex-wrap gap-1.5 text-sm">
+                {variants.map((v) => <li key={v} className="num rounded-md border border-border px-2 py-0.5">{v}</li>)}
+              </ul>
+            )}
           </div>
           <PriceBox lang={lang} t={t} offers={p.offers} />
           <KeySpecs specs={keySpecs} title={t.ui.keySpecs} />
@@ -34,15 +49,18 @@ export function ProductView({ lang, t, p, crumbs, compareLinks }:
 
       <div className="mt-10 grid gap-10 lg:grid-cols-[1fr_20rem]">
         <div className="space-y-10">
-          <section aria-labelledby="verdict" className="space-y-3">
-            <h2 id="verdict" className="text-xl font-semibold">{t.ui.verdict}</h2>
-            {p.verdict && <p className="leading-relaxed">{p.verdict}</p>}
-            <ProsCons t={t} pros={p.pros} cons={p.cons} />
-          </section>
-          <OfferList lang={lang} t={t} offers={p.offers} />
+          {(p.verdict || p.pros.length > 0) && (
+            <section aria-labelledby="verdict" className="space-y-3">
+              <h2 id="verdict" className="text-xl font-semibold">{t.ui.verdict}</h2>
+              {p.verdict && <p className="leading-relaxed">{p.verdict}</p>}
+              <ProsCons t={t} pros={p.pros} cons={p.cons} />
+            </section>
+          )}
+          {p.offers.length > 0 && <OfferList lang={lang} t={t} offers={p.offers} />}
           <PriceHistory lang={lang} t={t} points={p.priceHistory} currency={p.currency} />
           <SpecTable groups={p.specGroups} title={t.ui.allSpecs} />
           <p className="text-xs text-muted">{t.ui.source} {t.common.updated}: {date(lang, p.updatedAt)}</p>
+          {attribution && <p className="text-xs text-muted">{attribution}</p>}
         </div>
         <aside className="space-y-4 lg:sticky lg:top-24 lg:self-start">
           {compareLinks.length > 0 && (
