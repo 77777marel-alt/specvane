@@ -126,7 +126,7 @@ export async function getProduct(lang: Locale, cat: Category, slug: string): Pro
 
   // альтернативы: ближайшие по дате выхода модели той же категории
   const all = await getCategoryProducts(lang, cat)
-  const t0 = p.release_date ? Date.parse(p.release_date) : Date.now()
+  const t0 = p.release_date ? Date.parse(p.release_date) : 0
   const alternatives = all.filter((x) => x.slug !== p.slug)
     .sort((a, b) => Math.abs((a.release ? Date.parse(a.release) : 0) - t0) - Math.abs((b.release ? Date.parse(b.release) : 0) - t0))
     .slice(0, 4)

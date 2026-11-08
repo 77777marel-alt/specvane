@@ -135,7 +135,7 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
         const gb = (v: number | null) => (v == null ? '' : v >= 1024 ? `${number(lang, v / 1024)} TB` : `${number(lang, v)} GB`)
         const variants = [...new Set(p.variants.filter((v) => v.storage).sort((a, b) => (a.storage ?? 0) - (b.storage ?? 0))
           .map((v) => (v.ram ? `${gb(v.ram)} / ${gb(v.storage)}` : gb(v.storage))))]
-        const year = new Date().getFullYear()
+        const year = (p.updatedAt ?? '').slice(0, 4) || '2026'
         return (
           <>
             <ProductView lang={lang} t={t} p={p} crumbs={[home, catCrumb, { name: `${p.brand} ${p.name}`, href: p.href }]}
