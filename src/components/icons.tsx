@@ -1,0 +1,26 @@
+// Набор простых иконок (свои, обводка 1.8px). aria-hidden — подпись даёт текст рядом.
+type P = { className?: string }
+const base = (d: React.ReactNode, className = 'h-5 w-5') => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className={className}>{d}</svg>
+)
+export const IconHome = ({ className }: P) => base(<><path d="M3 10.5 12 3l9 7.5" /><path d="M5 9.5V21h14V9.5" /></>, className)
+export const IconGrid = ({ className }: P) => base(<><rect x="3.5" y="3.5" width="7" height="7" rx="1.5" /><rect x="13.5" y="3.5" width="7" height="7" rx="1.5" /><rect x="3.5" y="13.5" width="7" height="7" rx="1.5" /><rect x="13.5" y="13.5" width="7" height="7" rx="1.5" /></>, className)
+export const IconSearch = ({ className }: P) => base(<><circle cx="11" cy="11" r="6.5" /><path d="m20 20-4.2-4.2" /></>, className)
+export const IconCompare = ({ className }: P) => base(<><rect x="3.5" y="4" width="7" height="16" rx="1.5" /><rect x="13.5" y="4" width="7" height="16" rx="1.5" /></>, className)
+export const IconTrophy = ({ className }: P) => base(<><path d="M8 4h8v5a4 4 0 0 1-8 0z" /><path d="M8 6H5a3 3 0 0 0 3 4M16 6h3a3 3 0 0 1-3 4M12 13v4M8.5 20h7" /></>, className)
+export const IconGlobe = ({ className }: P) => base(<><circle cx="12" cy="12" r="8.5" /><path d="M3.5 12h17M12 3.5c2.5 2.6 2.5 14.4 0 17M12 3.5c-2.5 2.6-2.5 14.4 0 17" /></>, className)
+export const IconSun = ({ className }: P) => base(<><circle cx="12" cy="12" r="4" /><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4" /></>, className)
+export const IconMoon = ({ className }: P) => base(<path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z" />, className)
+export const IconCheck = ({ className }: P) => base(<path d="m5 12.5 4.5 4.5L19 7.5" />, className)
+export const IconMinus = ({ className }: P) => base(<path d="M6 12h12" />, className)
+export const IconArrow = ({ className }: P) => base(<path d="M5 12h14M13 6l6 6-6 6" />, className)
+export const IconChevron = ({ className }: P) => base(<path d="m9 6 6 6-6 6" />, className)
+export const IconExternal = ({ className }: P) => base(<><path d="M14 4h6v6M20 4l-9 9" /><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" /></>, className)
+export const IconProjector = ({ className }: P) => base(<><rect x="2.5" y="7" width="19" height="10" rx="2.5" /><circle cx="15.5" cy="12" r="2.6" /><path d="M5.5 10.5h4M5.5 13.5h3M5 17v2M19 17v2" /></>, className)
+export const IconHeadphones = ({ className }: P) => base(<><path d="M4 15v-3a8 8 0 0 1 16 0v3" /><rect x="3" y="14" width="4.5" height="6.5" rx="1.5" /><rect x="16.5" y="14" width="4.5" height="6.5" rx="1.5" /></>, className)
+export const IconPhone = ({ className }: P) => base(<><rect x="6.5" y="2.5" width="11" height="19" rx="2.5" /><path d="M10.5 18.5h3" /></>, className)
+export const IconLaptop = ({ className }: P) => base(<><rect x="4.5" y="5" width="15" height="10" rx="1.5" /><path d="M2.5 18.5h19" /></>, className)
+export const IconTv = ({ className }: P) => base(<><rect x="2.5" y="4.5" width="19" height="12.5" rx="1.5" /><path d="M8.5 20.5h7M12 17v3.5" /></>, className)
+export const IconWatch = ({ className }: P) => base(<><rect x="6.5" y="6.5" width="11" height="11" rx="3" /><path d="M9 6.5 9.8 3h4.4l.8 3.5M9 17.5l.8 3.5h4.4l.8-3.5M12 10v2.2l1.4 1.2" /></>, className)
+export const IconSpeaker = ({ className }: P) => base(<><rect x="5.5" y="2.5" width="13" height="19" rx="2" /><circle cx="12" cy="14.5" r="3.5" /><circle cx="12" cy="7" r="1.2" /></>, className)
+export const IconCamera = ({ className }: P) => base(<><path d="M3 8.5A1.5 1.5 0 0 1 4.5 7h3l1.5-2.5h6L16.5 7h3A1.5 1.5 0 0 1 21 8.5v10a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 18.5z" /><circle cx="12" cy="13.5" r="3.6" /></>, className)

@@ -5,6 +5,8 @@ import { isLocale } from '@/lib/i18n/config'
 import { getDict } from '@/lib/i18n'
 import { getCategories } from '@/lib/data'
 import { alternates } from '@/lib/seo'
+import { SearchBox } from '@/components/SearchBox'
+import { IconCamera, IconHeadphones, IconLaptop, IconPhone, IconProjector, IconSpeaker, IconTv, IconWatch } from '@/components/icons'
 
 export async function generateMetadata({ params }: PageProps<'/[lang]'>): Promise<Metadata> {
   const { lang } = await params
@@ -18,48 +20,66 @@ export async function generateMetadata({ params }: PageProps<'/[lang]'>): Promis
   }
 }
 
+// Плитки категорий из ТЗ; ссылкой становятся, когда категория включена в базе.
+const TILES = [
+  ['phones', IconPhone], ['laptops', IconLaptop], ['tvs', IconTv], ['projectors', IconProjector],
+  ['headphones', IconHeadphones], ['speakers', IconSpeaker], ['cameras', IconCamera], ['watches', IconWatch],
+] as const
+const DB_KEY: Record<string, string> = { phones: 'smartphones', tvs: 'tvs', watches: 'smartwatches' }
+
 export default async function Home({ params }: PageProps<'/[lang]'>) {
   const { lang } = await params
   if (!isLocale(lang)) notFound()
   const t = getDict(lang)
-  const categories = await getCategories(lang)
+  const live = await getCategories(lang)
+  const liveByKey = new Map(live.map((c) => [c.key, c]))
   return (
     <>
-      <section className="py-12 md:py-20">
-        <h1 className="max-w-3xl text-4xl font-bold tracking-tight md:text-5xl">{t.home.h1}</h1>
+      <section className="relative py-10 md:py-20">
+        <div aria-hidden="true" className="pointer-events-none absolute left-1/2 top-0 -z-10 h-full w-screen -translate-x-1/2 bg-[radial-gradient(50%_70%_at_25%_0%,var(--accent-soft),transparent)]" />
+        <h1 className="max-w-3xl text-4xl font-bold tracking-tight md:text-6xl md:leading-[1.05]">{t.home.h1}</h1>
         <p className="mt-4 max-w-2xl text-lg text-muted">{t.home.lead}</p>
+        <div className="mt-8 hidden max-w-2xl md:block">
+          <SearchBox lang={lang} variant="hero" placeholder={t.ui.searchPlaceholder} label={t.ui.searchLabel} empty={t.ui.noResults} />
+        </div>
       </section>
 
-      <section aria-labelledby="cats" className="py-6">
+      <section id="categories" aria-labelledby="cats" className="py-4">
         <h2 id="cats" className="mb-4 text-xl font-semibold">{t.home.categoriesTitle}</h2>
-        {categories.length === 0 ? (
-          <p className="rounded-lg border border-border bg-surface p-4 text-muted">{t.home.comingSoon}</p>
-        ) : (
-          <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
-            {categories.map((c) => (
-              <li key={c.key}>
-                <Link href={`/${lang}/${c.slug}`} className="block rounded-lg border border-border p-4 font-medium hover:border-accent">
-                  {c.name}
-                </Link>
+        <ul className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+          {TILES.map(([key, Icon]) => {
+            const c = liveByKey.get(DB_KEY[key] ?? key)
+            const inner = (
+              <>
+                <Icon className="h-7 w-7 text-accent" />
+                <span className="mt-3 font-medium">{c?.name ?? t.cats[key]}</span>
+                {!c && <span className="mt-0.5 text-xs text-muted">{t.cats.soon}</span>}
+              </>
+            )
+            return (
+              <li key={key}>
+                {c ? (
+                  <Link href={`/${lang}/${c.slug}`} className="flex h-full flex-col rounded-2xl border border-border p-4 transition-shadow hover:border-accent hover:shadow-card">{inner}</Link>
+                ) : (
+                  <div className="flex h-full flex-col rounded-2xl border border-dashed border-border p-4 opacity-80">{inner}</div>
+                )}
               </li>
-            ))}
-          </ul>
-        )}
+            )
+          })}
+        </ul>
       </section>
 
-      <section className="grid gap-6 py-10 md:grid-cols-2">
-        <div>
-          <h2 className="mb-3 text-xl font-semibold">{t.home.howTitle}</h2>
-          <ol className="list-decimal space-y-2 pl-5 text-muted">
-            <li>{t.home.how1}</li>
-            <li>{t.home.how2}</li>
-            <li>{t.home.how3}</li>
-          </ol>
-        </div>
-        <div className="rounded-lg border border-border bg-surface p-5">
-          <h2 className="mb-2 text-xl font-semibold">{t.home.honestTitle}</h2>
-          <p className="text-muted">{t.home.honest}</p>
-        </div>
+      <section className="grid gap-4 py-12 md:grid-cols-3">
+        {[t.home.how1, t.home.how2, t.home.how3].map((s, i) => (
+          <div key={i} className="rounded-2xl border border-border p-5">
+            <div className="num flex h-8 w-8 items-center justify-center rounded-full bg-accent-soft font-semibold text-accent">{i + 1}</div>
+            <p className="mt-3 text-muted">{s}</p>
+          </div>
+        ))}
+      </section>
+      <section className="rounded-2xl bg-surface p-6 md:p-8">
+        <h2 className="text-xl font-semibold">{t.home.honestTitle}</h2>
+        <p className="mt-2 max-w-3xl text-muted">{t.home.honest}</p>
       </section>
     </>
   )

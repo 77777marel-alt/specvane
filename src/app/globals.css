@@ -1,38 +1,65 @@
 @import "tailwindcss";
 
-/* Цвета — токены; тёмная тема по настройке системы */
+/* Тема: системная по умолчанию; ручной выбор — атрибут data-theme на <html> (см. ThemeScript). */
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
 :root {
   --bg: #ffffff;
-  --surface: #f5f6f8;
-  --fg: #111318;
-  --muted: #5b6270;
-  --border: #e3e6eb;
+  --surface: #f4f6f9;
+  --surface-2: #eaeef4;
+  --fg: #0f1217;
+  --muted: #5a6272;
+  --border: #e2e6ec;
   --accent: #2f5bea;
+  --accent-soft: #e8eefe;
   --accent-fg: #ffffff;
+  --good: #11845b;
+  --good-soft: #e3f5ec;
+  --bad: #c43d3d;
+  --bad-soft: #fbe9e9;
+  --warn: #b26a00;
+  --shadow: 0 1px 2px rgb(15 18 23 / 6%), 0 4px 16px rgb(15 18 23 / 6%);
+  color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0d0f13;
-    --surface: #161a20;
-    --fg: #eceef2;
-    --muted: #9aa2b1;
-    --border: #262b34;
-    --accent: #6d8dff;
-    --accent-fg: #0d0f13;
+  :root:not([data-theme=light]) {
+    --bg: #0c0e12; --surface: #151920; --surface-2: #1d222b; --fg: #eceef3; --muted: #9aa3b4;
+    --border: #262c37; --accent: #7092ff; --accent-soft: #1b2442; --accent-fg: #0c0e12;
+    --good: #3ccf8e; --good-soft: #10291f; --bad: #ff7b7b; --bad-soft: #2e1717; --warn: #f0b44c;
+    --shadow: 0 1px 2px rgb(0 0 0 / 40%), 0 6px 20px rgb(0 0 0 / 35%);
+    color-scheme: dark;
   }
+}
+:root[data-theme=dark] {
+  --bg: #0c0e12; --surface: #151920; --surface-2: #1d222b; --fg: #eceef3; --muted: #9aa3b4;
+  --border: #262c37; --accent: #7092ff; --accent-soft: #1b2442; --accent-fg: #0c0e12;
+  --good: #3ccf8e; --good-soft: #10291f; --bad: #ff7b7b; --bad-soft: #2e1717; --warn: #f0b44c;
+  --shadow: 0 1px 2px rgb(0 0 0 / 40%), 0 6px 20px rgb(0 0 0 / 35%);
+  color-scheme: dark;
 }
 
 @theme inline {
   --color-bg: var(--bg);
   --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
   --color-fg: var(--fg);
   --color-muted: var(--muted);
   --color-border: var(--border);
   --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
   --color-accent-fg: var(--accent-fg);
+  --color-good: var(--good);
+  --color-good-soft: var(--good-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-warn: var(--warn);
+  --shadow-card: var(--shadow);
   --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Noto Sans JP", sans-serif;
 }
 
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: 4.5rem; }
 body { background: var(--bg); color: var(--fg); font-family: var(--font-sans); }
-:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+/* Цифры одинаковой ширины — колонки характеристик и цен не «прыгают» */
+.num { font-variant-numeric: tabular-nums; font-feature-settings: "tnum"; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
