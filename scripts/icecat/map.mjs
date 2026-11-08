@@ -1,0 +1,180 @@
+// Маппинг карточки Open Icecat (live JSON API) → характеристики Specvane (категория smartphones).
+// Чистые функции без сети — покрыты тестами (map.test.mjs).
+// ВАЖНО (лицензия Open Icecat OCL §10): эти данные показываем как таблицу/фото, но НЕ передаём в генеративный ИИ.
+
+/** Признаки Icecat по ID (глобальные) с запасным поиском по названию. */
+const F = {
+  displaySize: [944, /^display diagonal$/i],
+  displayMarketing: [46952, /display technology marketing name/i],
+  panelType: [15285, /^panel type$/i],
+  resolution: [1585, /^display resolution$/i],
+  refresh: [7450, /maximum refresh rate/i],
+  brightness: [1389, /^display brightness$/i],
+  cpuFamily: [2196, /^processor family$/i],
+  cpuModel: [47, /^processor model$/i],
+  cpuCores: [6089, /^processor cores$/i],
+  ram: [7861, /^RAM capacity$/i],
+  storage: [8730, /^internal storage capacity$/i],
+  cardSlot: [null, /memory card slot|compatible memory cards|maximum memory card size/i],
+  mainCam: [12435, /^rear camera resolution \(numeric\)$/i],
+  opticalZoom: [74, /^optical zoom$/i],
+  frontCam: [12437, /^front camera resolution \(numeric\)$/i],
+  videoRes: [1597, /^video capture resolution \(max\)$/i],
+  videoFps: [7515, /^maximum frame rate$/i],
+  battery: [909, /^battery capacity$/i],
+  wiredPower: [null, /^(fast )?charging power$|^maximum charging power$|^wired charging power$/i],
+  wirelessPower: [null, /^wireless charging power$/i],
+  weight: [94, /^weight$/i],
+  depth: [1650, /^depth$/i],
+  ip: [7900, /international protection \(ip\) code/i],
+  network: [40629, /^mobile network generation$/i],
+  simType: [9166, /^SIM card type$/i],
+  nfc: [10157, /near field communication/i],
+  wifi: [24993, /^top wi-fi standard$/i],
+  bt: [1208, /^bluetooth version$/i],
+  usbType: [1742, /^USB connector type$/i],
+  usbVer: [8541, /^USB version$/i],
+  headphone: [4163, /^headphone connectivity$/i],
+  os: [3233, /^operating system installed$/i],
+}
+
+/** Все признаки карточки плоским списком: { id, name, raw, unit } */
+export function flatFeatures(data) {
+  const out = []
+  for (const g of data?.FeaturesGroups ?? []) {
+    for (const f of g.Features ?? []) {
+      out.push({
+        id: Number(f.Feature?.ID),
+        name: String(f.Feature?.Name?.Value ?? ''),
+        raw: f.RawValue == null ? '' : String(f.RawValue),
+        unit: String(f.Feature?.Measure?.Signs?._ ?? f.Feature?.Measure?.Sign ?? ''),
+      })
+    }
+  }
+  return out
+}
+
+function pick(feats, [id, re]) {
+  return feats.find((f) => id != null && f.id === id) ?? feats.find((f) => re.test(f.name)) ?? null
+}
+const num = (f) => {
+  if (!f || f.raw === '') return null
+  const n = Number(String(f.raw).replace(',', '.'))
+  return Number.isFinite(n) ? n : null
+}
+const yn = (f) => (!f || f.raw === '' ? null : f.raw === 'Y' ? true : f.raw === 'N' ? false : null)
+const txt = (f) => (f && f.raw.trim() ? f.raw.trim() : null)
+
+/** Объём памяти в ГБ с учётом единицы (MB/TB). */
+function gb(f) {
+  const n = num(f)
+  if (n == null) return null
+  const u = f.unit.toUpperCase()
+  if (u === 'MB') return Math.round((n / 1024) * 100) / 100
+  if (u === 'TB') return n * 1024
+  return n
+}
+
+const RES_NAMES = { '7680x4320': '8K', '3840x2160': '4K', '2560x1440': 'QHD', '1920x1080': 'Full HD', '1280x720': 'HD' }
+function resolution(raw) {
+  const m = /(\d+)\s*x\s*(\d+)/i.exec(raw ?? '')
+  return m ? { w: +m[1], h: +m[2], text: `${m[1]} × ${m[2]}` } : null
+}
+
+/** Карточка Icecat → { key: value } для 30 характеристик смартфона (null = нет данных). */
+export function mapSmartphone(data) {
+  const fs = flatFeatures(data)
+  const g = (k) => pick(fs, F[k])
+  const s = {}
+
+  s.display_size = num(g('displaySize'))
+  s.display_type = txt(g('displayMarketing')) ?? txt(g('panelType'))
+  s.display_resolution = resolution(txt(g('resolution')))?.text ?? null
+  s.refresh_rate = num(g('refresh'))
+  s.peak_brightness = num(g('brightness'))
+
+  const fam = txt(g('cpuFamily'))
+  const mdl = txt(g('cpuModel'))
+  s.chipset = fam && mdl ? (mdl.toLowerCase().includes(fam.toLowerCase()) ? mdl : `${fam} ${mdl}`) : (mdl ?? fam)
+  s.cpu_cores = num(g('cpuCores'))
+  s.ram = gb(g('ram'))
+  s.storage = gb(g('storage'))
+  const card = g('cardSlot')
+  s.expandable_storage = card ? (card.raw === 'N' ? false : true) : null
+
+  s.main_camera = num(g('mainCam'))
+  s.ultrawide_camera = null // Icecat не помечает, какая из задних камер — сверхширокая
+  s.optical_zoom = num(g('opticalZoom'))
+  s.front_camera = num(g('frontCam'))
+  const vr = resolution(txt(g('videoRes')))
+  const fps = num(g('videoFps'))
+  s.video_max = vr ? `${RES_NAMES[`${vr.w}x${vr.h}`] ?? vr.text}${fps ? ` @ ${fps} fps` : ''}` : null
+
+  s.battery = num(g('battery'))
+  s.wired_charging = num(g('wiredPower'))
+  s.wireless_charging = num(g('wirelessPower'))
+
+  s.weight = num(g('weight'))
+  s.thickness = num(g('depth'))
+  s.ip_rating = txt(g('ip'))
+
+  const net = txt(g('network'))
+  s.five_g = net ? /5G/i.test(net) : null
+  const sim = txt(g('simType'))
+  s.esim = sim ? /eSIM/i.test(sim) : null
+  s.nfc = yn(g('nfc'))
+  s.wifi = txt(g('wifi'))
+  s.bluetooth = txt(g('bt'))
+  const ut = txt(g('usbType'))
+  const uv = txt(g('usbVer'))
+  s.usb = ut ? (uv ? `${ut} (${uv})` : ut) : null
+  const hp = txt(g('headphone'))
+  s.headphone_jack = hp ? /3\.5/.test(hp) : null
+  s.os = txt(g('os'))
+  s.os_updates = null // в Icecat нет; дополняем с официальных сайтов (шаг 5)
+
+  // мусорные значения (0, отрицательные) считаем отсутствием
+  for (const k of Object.keys(s)) if (typeof s[k] === 'number' && !(s[k] > 0)) s[k] = null
+  return s
+}
+
+const slugify = (s) =>
+  s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/\+/g, '-plus').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+
+/**
+ * Модель (одна карточка на сайте) из SKU Icecat: бренд + семейство + серия («Galaxy» + «S22»).
+ * Цвет/память/артикул — варианты одной модели.
+ */
+export function modelOf(data) {
+  const gi = data.GeneralInfo ?? {}
+  const brand = String(gi.Brand ?? '').trim()
+  const family = String(gi.ProductFamily?.Value ?? '').trim()
+  const series = String(gi.ProductSeries?.Value ?? '').trim()
+  let name = [family, series].filter(Boolean).join(' ')
+  if (!series) {
+    // запасной вариант: международный заголовок без бренда и артикула
+    const t = String(gi.TitleInfo?.GeneratedIntTitle ?? gi.Title ?? '')
+    name = t.replace(new RegExp(`^${brand}\\s+`, 'i'), '').replace(String(gi.ProductName ?? ''), '').trim() || String(gi.ProductName ?? '')
+  }
+  if (!brand || !name) return null
+  return { brand, brandSlug: slugify(brand), name, slug: slugify(`${brand} ${name}`) }
+}
+
+/** ДД-ММ-ГГГГ → ГГГГ-ММ-ДД */
+export function releaseDate(data) {
+  const m = /^(\d{2})-(\d{2})-(\d{4})$/.exec(String(data.GeneralInfo?.ReleaseDate ?? ''))
+  return m ? `${m[3]}-${m[2]}-${m[1]}` : null
+}
+
+export function images(data, max = 6) {
+  return (data.Gallery ?? [])
+    .map((g) => g.Pic500x500 || g.Pic || null)
+    .filter((u) => typeof u === 'string' && u.startsWith('https://'))
+    .slice(0, max)
+}
+
+export function gtins(data) {
+  return (data.GeneralInfo?.GTIN ?? []).map(String).filter((g) => /^\d{8,14}$/.test(g))
+}
+
+export { slugify }

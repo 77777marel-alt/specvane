@@ -1,0 +1,49 @@
+# Ночной импорт смартфонов из Open Icecat → Supabase (этап 1, шаг 4).
+# Секреты репозитория (вводит Максим): SUPABASE_SERVICE_ROLE_KEY, ICECAT_API_TOKEN.
+name: Import Icecat
+
+on:
+  schedule:
+    - cron: '17 2 * * *'   # каждый день 02:17 UTC
+  workflow_dispatch:
+    inputs:
+      max_products:
+        description: 'Сколько карточек загрузить за запуск'
+        default: '300'
+      seed_ids:
+        description: 'Только эти Icecat ID через запятую (необязательно)'
+        default: ''
+      skip_index:
+        description: 'Не качать индекс (1 = да)'
+        default: '0'
+      dry_run:
+        description: 'Пробный запуск без записи в базу (1 = да)'
+        default: '0'
+
+concurrency:
+  group: import-icecat
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --omit=dev --ignore-scripts
+      - run: node --test scripts/icecat/map.test.mjs
+      - name: Import
+        run: node scripts/icecat/import.mjs
+        env:
+          SUPABASE_URL: https://kjjffgjsgizozleflbhw.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ICECAT_API_TOKEN: ${{ secrets.ICECAT_API_TOKEN }}
+          ICECAT_USER: specvane
+          MAX_PRODUCTS: ${{ github.event.inputs.max_products || '300' }}
+          SEED_ICECAT_IDS: ${{ github.event.inputs.seed_ids || '' }}
+          SKIP_INDEX: ${{ github.event.inputs.skip_index || '0' }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}

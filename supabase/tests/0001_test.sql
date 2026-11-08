@@ -39,7 +39,7 @@ reset role;
 
 set local role service_role;
 do $$ declare v_n int; begin
-  select count(*) into v_n from public.feeds; assert v_n = 1, 'service_role cannot read feeds';
+  select count(*) into v_n from public.feeds where name = 'awin-test'; assert v_n = 1, 'service_role cannot read feeds';
 end $$;
 reset role;
 select 'ALL TESTS PASSED' as result;
