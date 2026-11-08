@@ -188,7 +188,8 @@ async function phaseSheets() {
   if (DRY) { for (const [slug, m] of models) log(slug, m.skus.length, 'SKU'); return { models: models.size, skus: sheets.length } }
 
   const productIdBySlug = {}
-  for (const m of models.values()) {
+  // модели пишем параллельно (6 потоков): каждая — несколько запросов к базе, по одной было очень медленно
+  await pool([...models.values()], 6, async (m) => {
     // бренд
     must(await db.from('brands').upsert({ slug: m.brandSlug, name: m.brand }, { onConflict: 'slug', ignoreDuplicates: true }), 'brand')
     const brand = must(await db.from('brands').select('id').eq('slug', m.brandSlug).single(), 'brand id')
@@ -236,7 +237,7 @@ async function phaseSheets() {
     ]).concat(m.stem ? [{ product_id: prod.id, kind: 'sku', value: `${m.brandSlug}:${m.stem}`, country: '' }] : [])
     must(await db.from('product_identifiers').upsert(ids, { onConflict: 'kind,value,country', ignoreDuplicates: true }), 'identifiers')
     log(`✓ ${m.brand} ${m.name}: ${filled.length} характеристик, ${imgs.length} фото, ${vlist.length} вариантов, ${status}`)
-  }
+  })
 
   // отметки в журнале позиций
   const now = new Date().toISOString()

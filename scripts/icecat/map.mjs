@@ -158,6 +158,7 @@ export function tidyName(s) {
     .replace(/\([^)]*\)/g, ' ')
     .replace(/\b\d+\s*(GB|TB)?\s*\/\s*\d+\s*(GB|TB)\b.*$/i, ' ')
     .replace(/\b\d+\s*(GB|TB)\b.*$/i, ' ')
+    .replace(/\s+\d{2,}(-\d+){2,}\s*$/, ' ')   // хвост-артикул «40-45-5590»
     .replace(/\s+/g, ' ').trim()
   if (t && t === t.toUpperCase() && /[A-Z]{4,}/.test(t)) {
     // КАПСЛОК → «Galaxy A27 5G»: слова с цифрами и короткие аббревиатуры оставляем как есть
