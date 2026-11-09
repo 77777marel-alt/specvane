@@ -22,11 +22,11 @@ import { SpecTable } from '../product/SpecTable'
 import { ProductCard } from '../product/ProductCard'
 
 /** Страница товара. Верх: фото, название, вердикт, лучшая цена, 3–5 ключевых цифр (ТЗ). */
-export function ProductView({ lang, t, p, crumbs, compareLinks, variants, gallery, attribution, compare, positions, prevGen, cost, better, cross, credits }:
+export function ProductView({ lang, t, p, crumbs, compareLinks, variants, gallery, attribution, compare, positions, prevGen, cost, better, cross, credits, extra }:
   { lang: Locale; t: Dict; p: P; crumbs: Crumb[]; compareLinks: { name: string; href: string }[]
     variants?: string[]; gallery?: string[]; attribution?: string; compare?: { cat: string; base: string }; positions?: SpecPosition[]
     prevGen?: { name: string; href: string; specs: SpecValue[] } | null; cost?: CostInput | null
-    better?: (ProductCardData & { why: string })[]; cross?: { cat: string; links: { name: string; href: string }[] }[]; credits?: { author: string; license: string; file: string }[] }) {
+    better?: (ProductCardData & { why: string })[]; cross?: { cat: string; links: { name: string; href: string }[] }[]; credits?: { author: string; license: string; file: string }[]; extra?: { title: string; links: { name: string; href: string }[] } }) {
   const keySpecs = p.keySpecs
   return (
     <>
@@ -89,6 +89,17 @@ export function ProductView({ lang, t, p, crumbs, compareLinks, variants, galler
                       <span>{c.name}</span><IconChevron className="h-4 w-4 shrink-0 text-muted" />
                     </a>
                   </li>
+                ))}
+              </ul>
+            </section>
+          )}
+          {extra && (
+            <section className="rounded-2xl border border-border p-4">
+              <h2 className="mb-2 font-semibold">{extra.title}</h2>
+              <ul className="space-y-2 text-sm">
+                {extra.links.map((c) => (
+                  <li key={c.href}><a href={c.href} className="flex min-h-11 items-center justify-between gap-2 rounded-xl border border-border px-3 py-2 font-medium hover:border-accent hover:text-accent">
+                    <span>{c.name}</span><IconChevron className="h-4 w-4 shrink-0 text-muted" /></a></li>
                 ))}
               </ul>
             </section>

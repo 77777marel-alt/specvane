@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation'
 import { isLocale, type Locale } from '@/lib/i18n/config'
 import { getDict } from '@/lib/i18n'
 import { INFO_PAGES, resolveSlug, sectionHref, type InfoPage } from '@/lib/routes'
-import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions, getPrevGeneration, getBest, getBestSpecs, getBetterAlternatives, getCrossLinks, getTrends } from '@/lib/catalog'
+import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions, getPrevGeneration, getBest, getBestSpecs, getBetterAlternatives, getCrossLinks, getTrends, getCategoryByKey } from '@/lib/catalog'
 import { permanentRedirect } from 'next/navigation'
 import { number, fill } from '@/lib/format'
 import { alternates } from '@/lib/seo'
@@ -18,9 +18,45 @@ import { getCategories } from '@/lib/data'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { costInput } from '@/lib/costs'
 import { ComparePicker } from '@/components/compare/ComparePicker'
+import { APPLIANCES, errorBrands, errorCode, errorCodes, hasErrors, ERROR_LANGS, slugify, isAppliance, type Appliance } from '@/lib/errors'
+import { ErrorsBrand, ErrorsCode, ErrorsIndex } from '@/components/views/ErrorsView'
 import { CompareTray } from '@/components/compare/CompareTray'
 
 const PREVIEW = 'design-preview'
+
+
+// ---------- коды ошибок: /<lang>/<error-codes>/<категория>/<бренд>/<код> ----------
+async function applianceOf(lang: Locale, seg: string): Promise<{ key: Appliance; name: string; slug: string; href: string | null } | null> {
+  for (const key of Object.keys(APPLIANCES) as Appliance[]) {
+    const cat = await getCategoryByKey(lang, key)
+    const slug = cat?.slug ?? key
+    if (slug === seg) return { key, name: cat?.name ?? key, slug, href: cat ? `/${lang}/${cat.slug}` : null }
+  }
+  return null
+}
+const singular = (t: ReturnType<typeof getDict>, a: Appliance) => (a === 'dishwashers' ? t.ui.errDishwasher : t.ui.errWasher)
+async function errorsMeta(lang: Locale, slug: string[]): Promise<Metadata> {
+  const t = getDict(lang)
+  if (!hasErrors(lang)) return {}
+  const alt = (...rest: string[]) => alternates(lang, (l) => (ERROR_LANGS.includes(l) ? sectionHref(l, 'errors', ...rest) : null))
+  if (slug.length === 1) return { title: `${t.ui.errTitle} · Specvane`, description: t.ui.errLead, alternates: alt() }
+  const ap = await applianceOf(lang, slug[1])
+  if (!ap) return {}
+  if (slug.length === 3) {
+    const codes = errorCodes(lang, ap.key, slug[2])
+    if (!codes.length) return {}
+    const title = fill(t.ui.errBrandTitle, { brand: codes[0].brand, appliance: singular(t, ap.key) })
+    return { title: `${title} · Specvane`, description: codes.slice(0, 8).map((c) => `${c.code}: ${c.title}`).join('; ').slice(0, 300), alternates: alt(slug[1], slug[2]) }
+  }
+  if (slug.length === 4) {
+    const r = errorCode(lang, ap.key, slug[2], slug[3])
+    if (!r) return {}
+    const title = fill(t.ui.errCodeTitle, { brand: r.item.brand, appliance: singular(t, ap.key), code: r.item.code })
+    return { title: `${title}: ${r.item.title} · Specvane`, description: `${r.item.title}. ${r.item.causes[0] ?? ''} ${r.item.steps[0] ?? ''}`.slice(0, 300),
+      alternates: alt(slug[1], slug[2], r.item.slug) }
+  }
+  return {}
+}
 
 const isInfo = (k: string | null): k is InfoPage => !!k && (INFO_PAGES as readonly string[]).includes(k)
 
@@ -39,6 +75,7 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/[...slug]'
     const robots = key === 'privacy' || key === 'cookies' || key === 'legal-notice' ? { index: false, follow: true } : undefined
     return { title: `${t.info[key].title} · Specvane`, alternates: alternates(lang, (l: Locale) => sectionHref(l, key)), robots }
   }
+  if (key === 'errors') return errorsMeta(lang, slug)
   if (key === 'best') {
     const t = getDict(lang)
     if (slug.length === 1) return { title: `${t.ui.bestIndexTitle} · Specvane`, alternates: alternates(lang, (l) => sectionHref(l, 'best')) }
@@ -107,6 +144,37 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
         ))}
       </article>
     )
+  }
+
+  if (key === 'errors' && hasErrors(lang) && slug.length === 2) permanentRedirect(sectionHref(lang, 'errors'))
+  if (key === 'errors' && hasErrors(lang) && slug.length <= 4) {
+    const home = { name: t.ui.home, href: `/${lang}` }
+    const section = { name: t.ui.errTitle, href: sectionHref(lang, 'errors') }
+    if (slug.length === 1) {
+      const groups = await Promise.all((Object.keys(APPLIANCES) as Appliance[]).map(async (a) => {
+        const cat = await getCategoryByKey(lang, a)
+        const seg = cat?.slug ?? a
+        return { name: cat?.name ?? a, brands: errorBrands(a).map((b) => ({ brand: b.brand, n: b.n, href: sectionHref(lang, 'errors', seg, b.slug) })) }
+      }))
+      return <ErrorsIndex t={t} crumbs={[home, section]} groups={groups} />
+    }
+    const ap = await applianceOf(lang, slug[1])
+    if (!ap) notFound()
+    const base = sectionHref(lang, 'errors', ap.slug, slug[2])
+    const codes = errorCodes(lang, ap.key, slug[2])
+    if (!codes.length) notFound()
+    const brand = codes[0].brand
+    const brandTitle = fill(t.ui.errBrandTitle, { brand, appliance: singular(t, ap.key) })
+    const brandCrumb = { name: brandTitle, href: base }
+    if (slug.length === 3) return <ErrorsBrand t={t} crumbs={[home, section, brandCrumb]} title={brandTitle} codes={codes} base={base} />
+    const r = errorCode(lang, ap.key, slug[2], slug[3])
+    if (!r) notFound()
+    if (r.item.slug !== slug[3]) permanentRedirect(`${base}/${r.item.slug}`)
+    const cat = await getCategoryByKey(lang, ap.key)
+    const models = cat ? (await getCategoryProducts(lang, cat)).filter((p) => p.brand === brand && p.image).slice(0, 4) : []
+    const title = fill(t.ui.errCodeTitle, { brand, appliance: singular(t, ap.key), code: r.item.code })
+    return <ErrorsCode lang={lang} t={t} crumbs={[home, section, brandCrumb, { name: r.item.code, href: `${base}/${r.item.slug}` }]}
+      title={title} item={r.item} others={r.others} base={base} models={models} catHref={ap.href} />
   }
 
   if (key === 'best' && slug.length <= 3) {
@@ -193,7 +261,8 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
         const filters = await getFilterDefs(lang, cat)
         const tops = (await getBestSpecs(lang, cat)).map((x) => ({ label: x.label, href: sectionHref(lang, 'best', cat.slug, x.slug) }))
         return <CategoryView lang={lang} t={t} title={cat.name} items={items} brands={brands} crumbs={[home, catCrumb]} tops={tops} trends={await getTrends(lang, cat)}
-          browser={{ filters, compare: { cat: cat.key, base: sectionHref(lang, 'compare') } }} />
+          browser={{ filters, compare: { cat: cat.key, base: sectionHref(lang, 'compare') } }}
+          extra={hasErrors(lang) && isAppliance(cat.key) ? { label: t.ui.errTitle, href: sectionHref(lang, 'errors') } : undefined} />
       }
       const p = await getProduct(lang, cat, slug[1])
       if (p) {
@@ -210,6 +279,8 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
               cost={costInput(lang, cat.key, p.specGroups.flatMap((g) => g.specs))}
               better={await getBetterAlternatives(lang, cat, { slug: p.slug, release: p.releaseDate, keySpecs: p.keySpecs })}
               cross={await getCrossLinks(lang, cat, { slug: p.slug, brand: p.brand })}
+              extra={hasErrors(lang) && isAppliance(cat.key) && errorCodes(lang, cat.key, slugify(p.brand)).length
+                ? { title: t.ui.errTitle, links: [{ name: fill(t.ui.errBrandTitle, { brand: p.brand, appliance: cat.key === 'dishwashers' ? t.ui.errDishwasher : t.ui.errWasher }), href: sectionHref(lang, 'errors', cat.slug, slugify(p.brand)) }] } : undefined}
               prevGen={await getPrevGeneration(lang, cat, p.brand, p.name).then((g) => g && { name: `${g.brand} ${g.name}`, href: g.href, specs: g.specGroups.flatMap((x) => x.specs) })}
               attribution={p.source === 'icecat' ? `Database Right data-sheet ${year} Icecat. All rights reserved. Data provided “as is” without warranty.` : undefined} />
             <ProductJsonLd name={`${p.brand} ${p.name}`} brand={p.brand} image={p.images} url={p.href} />

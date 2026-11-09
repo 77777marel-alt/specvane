@@ -4,7 +4,8 @@ import { INFO_PAGES, sectionHref } from '@/lib/routes'
 import { SITE_URL } from '@/lib/site'
 import { db } from '@/lib/supabase'
 import { cacheLife } from 'next/cache'
-import { getIndexableProducts, getIndexableComparisons, getCategory, getBestSpecs } from '@/lib/catalog'
+import { getIndexableProducts, getIndexableComparisons, getCategory, getBestSpecs, getCategoryByKey } from '@/lib/catalog'
+import { APPLIANCES, errorBrands, errorCodes, hasErrors, type Appliance } from '@/lib/errors'
 
 // Индекс + отдельные файлы по языку и типу: pages-de-1.xml, products-de-1.xml…
 // В файлах только адреса и lastmod, без alternates (hreflang — в <head> страниц).
@@ -59,7 +60,19 @@ export async function entriesFor(file: string): Promise<Entry[] | null> {
       if (!cat) continue
       for (const sp of await getBestSpecs(lang, cat)) best.push({ loc: `${SITE_URL}${sectionHref(lang, 'best', cat.slug, sp.slug)}` })
     }
-    return [...staticPages(lang), ...cats.map((c) => ({ loc: `${SITE_URL}/${lang}/${c.slugs[lang]}` })), ...best]
+    // коды ошибок техники — только на языках с переводом
+    const errors: Entry[] = []
+    if (hasErrors(lang)) {
+      errors.push({ loc: `${SITE_URL}${sectionHref(lang, 'errors')}` })
+      for (const a of Object.keys(APPLIANCES) as Appliance[]) {
+        const seg = (await getCategoryByKey(lang, a))?.slug ?? a
+        for (const b of errorBrands(a)) {
+          errors.push({ loc: `${SITE_URL}${sectionHref(lang, 'errors', seg, b.slug)}` })
+          for (const c of errorCodes(lang, a, b.slug)) errors.push({ loc: `${SITE_URL}${sectionHref(lang, 'errors', seg, b.slug, c.slug)}` })
+        }
+      }
+    }
+    return [...staticPages(lang), ...cats.map((c) => ({ loc: `${SITE_URL}/${lang}/${c.slugs[lang]}` })), ...best, ...errors]
   }
   const cm = /^comparisons-([a-z]{2}(?:-[a-z]{2})?)-(\d+)\.xml$/.exec(file)
   if (cm) {

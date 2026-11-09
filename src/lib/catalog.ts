@@ -522,3 +522,13 @@ export async function getHomeShowcase(lang: Locale) {
   }
   return out
 }
+
+/** Категория по ключу (smartphones, dishwashers…) на нужном языке. */
+export async function getCategoryByKey(lang: Locale, key: string): Promise<Category | null> {
+  'use cache'
+  cacheLife('hours'); cacheTag('categories')
+  const s = db()
+  if (!s) return null
+  const { data } = await s.from('categories').select('id').eq('key', key).maybeSingle()
+  return data ? categoryById(lang, data.id) : null
+}
