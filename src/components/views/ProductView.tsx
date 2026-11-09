@@ -5,6 +5,8 @@ import { date } from '@/lib/format'
 import { Breadcrumbs, type Crumb } from '../Breadcrumbs'
 import { IconChevron } from '../icons'
 import { Gallery } from '../product/Gallery'
+import { SpecPositions } from '../charts/SpecPositions'
+import type { SpecPosition } from '@/lib/catalog'
 import { CompareToggle } from '../compare/CompareToggle'
 import { CompareTray } from '../compare/CompareTray'
 import { KeySpecs } from '../product/KeySpecs'
@@ -16,9 +18,9 @@ import { SpecTable } from '../product/SpecTable'
 import { ProductCard } from '../product/ProductCard'
 
 /** Страница товара. Верх: фото, название, вердикт, лучшая цена, 3–5 ключевых цифр (ТЗ). */
-export function ProductView({ lang, t, p, crumbs, compareLinks, variants, gallery, attribution, compare }:
+export function ProductView({ lang, t, p, crumbs, compareLinks, variants, gallery, attribution, compare, positions }:
   { lang: Locale; t: Dict; p: P; crumbs: Crumb[]; compareLinks: { name: string; href: string }[]
-    variants?: string[]; gallery?: string[]; attribution?: string; compare?: { cat: string; base: string } }) {
+    variants?: string[]; gallery?: string[]; attribution?: string; compare?: { cat: string; base: string }; positions?: SpecPosition[] }) {
   const keySpecs = p.keySpecs
   return (
     <>
@@ -56,6 +58,7 @@ export function ProductView({ lang, t, p, crumbs, compareLinks, variants, galler
           )}
           {p.offers.length > 0 && <OfferList lang={lang} t={t} offers={p.offers} />}
           <PriceHistory lang={lang} t={t} points={p.priceHistory} currency={p.currency} />
+          {positions && <SpecPositions items={positions} title={t.ui.positionTitle} betterThan={t.ui.betterThan} />}
           <SpecTable groups={p.specGroups} title={t.ui.allSpecs} />
           <p className="text-xs text-muted">{t.ui.source} {t.common.updated}: {date(lang, p.updatedAt)}</p>
           {attribution && <p className="text-xs text-muted">{attribution}</p>}

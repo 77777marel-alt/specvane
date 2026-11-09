@@ -21,6 +21,16 @@ export function CompareTable({ cols, groups, labels }: {
     const target = row.higherIsBetter ? Math.max(...nums) : Math.min(...nums)
     return nums.filter((n) => n === target).length === 1 ? nums.indexOf(target) : -1
   }
+  // насколько лучшее значение лучше другого: «+38%», «−12%» (только для двух моделей и положительных чисел)
+  const diff = (row: (typeof groups)[number]['rows'][number]) => {
+    if (row.values.length !== 2 || row.higherIsBetter == null) return null
+    const [x, y] = row.values.map((v) => (typeof v.value === 'number' ? v.value : NaN))
+    if (!(x > 0 && y > 0) || x === y) return null
+    const hi = Math.max(x, y), lo = Math.min(x, y)
+    const pct = row.higherIsBetter ? Math.round(((hi - lo) / lo) * 100) : Math.round(((hi - lo) / hi) * 100)
+    if (pct < 1) return null
+    return row.higherIsBetter ? (pct >= 100 ? `×${(hi / lo).toFixed(1)}` : `+${pct}%`) : `−${pct}%`
+  }
   const differs = (row: (typeof groups)[number]['rows'][number]) => new Set(row.values.map((v) => v.display)).size > 1
   const template = `minmax(8rem,1.1fr) repeat(${cols.length}, minmax(7.5rem,1fr))`
   return (
@@ -54,6 +64,7 @@ export function CompareTable({ cols, groups, labels }: {
                     {r.values.map((v, i) => (
                       <div key={i} role="cell" className={`num px-3 py-2.5 ${i === b ? 'bg-good-soft font-semibold text-good' : ''}`}>
                         {v.display}{i === b && <span className="sr-only"> ({labels.better})</span>}
+                        {i === b && diff(r) && <span className="ms-1.5 rounded-md bg-good/15 px-1.5 py-0.5 text-xs">{diff(r)}</span>}
                       </div>
                     ))}
                   </div>

@@ -5,10 +5,12 @@ import { fill, money } from '@/lib/format'
 import { Breadcrumbs, type Crumb } from '../Breadcrumbs'
 import { ProductImage } from '../product/ProductImage'
 import { CompareTable } from '../product/CompareTable'
+import { Radar } from '../charts/Radar'
 
 /** Сравнение A vs B: карточки сверху, итог «берите A, если… / B, если…», таблица с подсветкой. */
-export function CompareView({ lang, t, items, crumbs, chooseIf, title }:
-  { lang: Locale; t: Dict; items: P[]; crumbs: Crumb[]; chooseIf?: string[][]; title?: string }) {
+export function CompareView({ lang, t, items, crumbs, chooseIf, title, radar }:
+  { lang: Locale; t: Dict; items: P[]; crumbs: Crumb[]; chooseIf?: string[][]; title?: string
+    radar?: { axes: string[]; series: { name: string; values: number[] }[] } }) {
   // строки — объединение характеристик обеих моделей по ключу, в порядке групп
   const find = (it: P, key: string) => it.specGroups.flatMap((g) => g.specs).find((x) => x.key === key)
   const order: { group: string; key: string; label: string; hib?: boolean | null }[] = []
@@ -77,6 +79,8 @@ export function CompareView({ lang, t, items, crumbs, chooseIf, title }:
           </section>
         )
       })()}
+
+      {radar && <div className="mt-10"><Radar axes={radar.axes} series={radar.series} title={t.ui.radarTitle} note={t.ui.radarNote} /></div>}
 
       <section aria-labelledby="table" className="mt-10">
         <h2 id="table" className="mb-3 text-xl font-semibold">{t.ui.allSpecs}</h2>

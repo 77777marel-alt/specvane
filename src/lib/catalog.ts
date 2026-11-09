@@ -114,6 +114,45 @@ export async function getCategoryProducts(lang: Locale, cat: Category): Promise<
   })
 }
 
+type Stats = { n: number; pct: number[]; hist: number[]; lo: number | null; hi: number | null }
+async function getSpecStats(categoryId: number): Promise<Record<number, Stats>> {
+  'use cache'
+  cacheLife('hours'); cacheTag('stats')
+  const s = db()
+  if (!s) return {}
+  const { data } = await s.from('spec_stats').select('spec_id, n, pct, hist, lo, hi').eq('category_id', categoryId)
+  return Object.fromEntries((data ?? []).map((r) => [r.spec_id as number, { n: r.n, pct: r.pct, hist: r.hist, lo: r.lo, hi: r.hi } as Stats]))
+}
+
+export type SpecPosition = {
+  key: string; label: string; display: string
+  /** лучше, чем у N% моделей категории (0..100) */
+  better: number
+  /** гистограмма значений категории и где на ней эта модель (0..1); по оси — от худшего к лучшему */
+  hist: number[]; at: number; n: number
+}
+
+/** Положение модели среди всех моделей категории по числовым характеристикам (из нашей статистики, без ИИ). */
+export async function getPositions(lang: Locale, cat: Category, specs: SpecValue[], max = 8): Promise<SpecPosition[]> {
+  const [{ defs }, stats] = await Promise.all([getDefs(cat.id, lang), getSpecStats(cat.id)])
+  const out: (SpecPosition & { isKey: boolean; sort: number })[] = []
+  for (const sv of specs) {
+    const d = defs.find((x) => x.key === sv.key)
+    const st = d && stats[d.id]
+    if (!d || !st || d.hib == null || typeof sv.value !== 'number' || st.n < 20) continue
+    const v = sv.value
+    const below = st.pct.filter((q) => q < v).length, above = st.pct.filter((q) => q > v).length
+    const better = Math.round(((d.hib ? below : above) / st.pct.length) * 100)
+    const lo = st.lo ?? st.pct[0], hi = st.hi ?? st.pct[st.pct.length - 1]
+    let at = hi > lo ? Math.min(1, Math.max(0, (v - lo) / (hi - lo))) : 0.5
+    let hist = st.hist
+    if (!d.hib) { at = 1 - at; hist = [...hist].reverse() } // ось всегда «хуже → лучше»
+    out.push({ key: d.key, label: d.label, display: sv.display, better, hist, at, n: st.n, isKey: d.isKey, sort: d.sort })
+  }
+  return out.sort((a, b) => Number(b.isKey) - Number(a.isKey) || a.sort - b.sort).slice(0, max)
+    .map(({ isKey: _k, sort: _s, ...p }) => p)
+}
+
 export async function getProduct(lang: Locale, cat: Category, slug: string): Promise<(ProductView & { images: string[]; source: string; variants: { ram: number | null; storage: number | null; colour: string | null }[] }) | null> {
   'use cache'
   cacheLife('hours'); cacheTag('products')

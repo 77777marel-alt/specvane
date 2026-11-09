@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation'
 import { isLocale, type Locale } from '@/lib/i18n/config'
 import { getDict } from '@/lib/i18n'
 import { INFO_PAGES, resolveSlug, sectionHref, type InfoPage } from '@/lib/routes'
-import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs } from '@/lib/catalog'
+import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions } from '@/lib/catalog'
 import { permanentRedirect } from 'next/navigation'
 import { number } from '@/lib/format'
 import { alternates } from '@/lib/seo'
@@ -118,8 +118,13 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
     if (!c) notFound()
     if (c.known && c.canonical !== `${sectionHref(lang, 'compare')}/${slug[1]}`) permanentRedirect(c.canonical)
     const [a, b] = c.items
+    // радар: оси — характеристики, по которым есть место в категории у обеих моделей
+    const [pa, pb] = await Promise.all(c.items.map((it) => getPositions(lang, c.cat, it.specGroups.flatMap((g) => g.specs), 30)))
+    const axes = pa.filter((x) => pb.some((y) => y.key === x.key)).slice(0, 8)
+    const radar = axes.length >= 3 ? { axes: axes.map((x) => x.label),
+      series: [a, b].map((it, k) => ({ name: `${it.brand} ${it.name}`, values: axes.map((x) => (k ? pb : pa).find((y) => y.key === x.key)!.better) })) } : undefined
     return (
-      <CompareView lang={lang} t={t} items={c.items}
+      <CompareView lang={lang} t={t} items={c.items} radar={radar}
         crumbs={[home, { name: c.cat.name, href: `/${lang}/${c.cat.slug}` }, { name: `${a.name} ${t.ui.vs} ${b.name}`, href: c.canonical }]} />
     )
   }
@@ -149,6 +154,7 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
             <ProductView lang={lang} t={t} p={p} crumbs={[home, catCrumb, { name: `${p.brand} ${p.name}`, href: p.href }]}
               compareLinks={await getCompareLinks(lang, p.slug)} variants={variants} gallery={p.images}
               compare={{ cat: cat.key, base: sectionHref(lang, 'compare') }}
+              positions={await getPositions(lang, cat, p.specGroups.flatMap((g) => g.specs))}
               attribution={p.source === 'icecat' ? `Database Right data-sheet ${year} Icecat. All rights reserved. Data provided “as is” without warranty.` : undefined} />
             <ProductJsonLd name={`${p.brand} ${p.name}`} brand={p.brand} image={p.images} url={p.href} />
           </>
