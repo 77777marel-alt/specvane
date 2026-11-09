@@ -128,8 +128,13 @@ async function phaseSheets() {
     if (!DRY) must(await db.from('source_items').upsert(todo.map((t) => ({ source: 'icecat', external_id: t.external_id, category_key: CATEGORY, status: 'new' })),
       { onConflict: 'source,external_id' }), 'seed')
   } else {
-    todo = must(await db.from('source_items').select('external_id').eq('source', 'icecat').eq('category_key', CATEGORY).eq('status', 'new')
-      .order('updated', { ascending: false }).limit(Math.min(MAX, 1000)), 'todo')
+    // сначала самые новые товары: ID Icecat растут со временем, 9-значные — это 2025–2026 годы
+    // (текстом сравниваем только ID одной длины, поэтому сначала 9-значные, потом остальные)
+    const lim = Math.min(MAX, 1000)
+    const q = () => db.from('source_items').select('external_id').eq('source', 'icecat').eq('category_key', CATEGORY).eq('status', 'new')
+    todo = must(await q().like('external_id', '_________').order('external_id', { ascending: false }).limit(lim), 'todo new')
+    if (todo.length < lim) todo = todo.concat(must(await q().not('external_id', 'like', '_________')
+      .order('external_id', { ascending: false }).limit(lim - todo.length), 'todo old'))
   }
   log(`Карточек к загрузке: ${todo.length}`)
   if (!todo.length) return { models: 0, skus: 0 }
