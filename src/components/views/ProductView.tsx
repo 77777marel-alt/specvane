@@ -22,17 +22,24 @@ import { SpecTable } from '../product/SpecTable'
 import { ProductCard } from '../product/ProductCard'
 
 /** Страница товара. Верх: фото, название, вердикт, лучшая цена, 3–5 ключевых цифр (ТЗ). */
-export function ProductView({ lang, t, p, crumbs, compareLinks, variants, gallery, attribution, compare, positions, prevGen, cost, better, cross }:
+export function ProductView({ lang, t, p, crumbs, compareLinks, variants, gallery, attribution, compare, positions, prevGen, cost, better, cross, credits }:
   { lang: Locale; t: Dict; p: P; crumbs: Crumb[]; compareLinks: { name: string; href: string }[]
     variants?: string[]; gallery?: string[]; attribution?: string; compare?: { cat: string; base: string }; positions?: SpecPosition[]
     prevGen?: { name: string; href: string; specs: SpecValue[] } | null; cost?: CostInput | null
-    better?: (ProductCardData & { why: string })[]; cross?: { cat: string; links: { name: string; href: string }[] }[] }) {
+    better?: (ProductCardData & { why: string })[]; cross?: { cat: string; links: { name: string; href: string }[] }[]; credits?: { author: string; license: string; file: string }[] }) {
   const keySpecs = p.keySpecs
   return (
     <>
       <Breadcrumbs items={crumbs} />
       <div className="grid gap-6 lg:grid-cols-[1fr_1.1fr] lg:gap-10">
         <Gallery images={gallery && gallery.length ? gallery : p.image ? [p.image] : []} alt={`${p.brand} ${p.name}`} />
+        {credits && credits.length > 0 && (
+          <p className="mt-2 text-xs text-muted">
+            {credits.map((c, i) => (
+              <span key={c.file}>{i > 0 && ', '}<a href={c.file} rel="nofollow noopener" target="_blank" className="underline hover:text-accent">{c.author}</a>, {c.license}</span>
+            ))} · Wikimedia Commons
+          </p>
+        )}
         <div className="space-y-5">
           <div>
             <div className="text-sm text-muted">{p.brand}{p.releaseDate && <> · {t.ui.released} {date(lang, p.releaseDate)}</>}</div>

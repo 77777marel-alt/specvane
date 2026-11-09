@@ -204,7 +204,7 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
         return (
           <>
             <ProductView lang={lang} t={t} p={p} crumbs={[home, catCrumb, { name: `${p.brand} ${p.name}`, href: p.href }]}
-              compareLinks={await getCompareLinks(lang, p.slug)} variants={variants} gallery={p.images}
+              compareLinks={await getCompareLinks(lang, p.slug)} variants={variants} gallery={p.images} credits={p.credits}
               compare={{ cat: cat.key, base: sectionHref(lang, 'compare') }}
               positions={await getPositions(lang, cat, p.specGroups.flatMap((g) => g.specs))}
               cost={costInput(lang, cat.key, p.specGroups.flatMap((g) => g.specs))}

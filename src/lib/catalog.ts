@@ -111,7 +111,7 @@ export async function getCategoryProducts(lang: Locale, cat: Category): Promise<
       keySpecs: CARD_KEYS.map((k) => specs.find((x) => x.key === k)).filter(Boolean) as SpecValue[],
       facets: Object.fromEntries(specs.filter((x) => defs.find((d) => d.key === x.key)?.isFilter).map((x) => [x.key, { v: x.value, d: x.display }])),
     }
-  })
+  }).sort((a, b) => Number(!a.image) - Number(!b.image)) // модели без фото — в конец списка (порядок внутри сохраняется)
 }
 
 /** Предыдущее поколение той же линейки: «Galaxy S24 Ultra» → «Galaxy S23 Ultra», «iPhone 17 Pro» → «iPhone 16 Pro». */
@@ -235,17 +235,17 @@ export async function getPositions(lang: Locale, cat: Category, specs: SpecValue
     .map(({ isKey: _k, sort: _s, ...p }) => p)
 }
 
-export async function getProduct(lang: Locale, cat: Category, slug: string): Promise<(ProductView & { images: string[]; source: string; variants: { ram: number | null; storage: number | null; colour: string | null }[] }) | null> {
+export async function getProduct(lang: Locale, cat: Category, slug: string): Promise<(ProductView & { images: string[]; credits: { author: string; license: string; file: string }[]; source: string; variants: { ram: number | null; storage: number | null; colour: string | null }[] }) | null> {
   'use cache'
   cacheLife('hours'); cacheTag('products')
   const s = db()
   if (!s) return null
   const { data } = await s.from('products')
-    .select('id, slug, name, release_date, updated_at, data_source, variants, brands!inner(name), product_images(url, sort), product_specs(spec_id, value_num, value_bool, value_text)')
+    .select('id, slug, name, release_date, updated_at, data_source, variants, brands!inner(name), product_images(url, sort, source, source_ref), product_specs(spec_id, value_num, value_bool, value_text)')
     .eq('category_id', cat.id).eq('slug', slug).eq('status', 'active').maybeSingle()
   if (!data) return null
   type Row = { slug: string; name: string; release_date: string | null; updated_at: string; data_source: string; variants: { ram: number | null; storage: number | null; colour: string | null }[]
-    brands: { name: string }; product_images: { url: string; sort: number }[]; product_specs: SpecRow[] }
+    brands: { name: string }; product_images: { url: string; sort: number; source?: string; source_ref?: string | null }[]; product_specs: SpecRow[] }
   const p = data as unknown as Row
   const { defs, groups } = await getDefs(cat.id, lang)
   const specs = specValues(lang, defs, p.product_specs)
@@ -257,7 +257,13 @@ export async function getProduct(lang: Locale, cat: Category, slug: string): Pro
     if (!g) specGroups.push((g = { name: groups[d.group] ?? d.group, specs: [] }))
     g.specs.push(v)
   }
-  const images = [...p.product_images].sort((a, b) => a.sort - b.sort).map((i) => i.url)
+  const sortedImgs = [...p.product_images].sort((a, b) => a.sort - b.sort)
+  const images = sortedImgs.map((i) => i.url)
+  // фото с Wikimedia Commons: «Автор · Лицензия · ссылка на файл» — показываем подпись (условие лицензии)
+  const credits = sortedImgs.filter((i) => i.source === 'wikimedia' && i.source_ref).map((i) => {
+    const [author, license, file] = i.source_ref!.split(' · ')
+    return { author, license, file }
+  })
 
   // альтернативы: ближайшие по дате выхода модели той же категории
   const all = await getCategoryProducts(lang, cat)
@@ -267,7 +273,7 @@ export async function getProduct(lang: Locale, cat: Category, slug: string): Pro
     .slice(0, 4)
 
   return {
-    slug: p.slug, href: `/${lang}/${cat.slug}/${p.slug}`, name: p.name, brand: p.brands.name, image: images[0] ?? null, images,
+    slug: p.slug, href: `/${lang}/${cat.slug}/${p.slug}`, name: p.name, brand: p.brands.name, image: images[0] ?? null, images, credits,
     price: null, currency: MARKETS[lang].currency,
     keySpecs: defs.filter((d) => d.isKey).map((d) => specs.find((x) => x.key === d.key)).filter(Boolean) as SpecValue[],
     category: { name: cat.name, href: `/${lang}/${cat.slug}` },
