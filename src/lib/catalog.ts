@@ -197,7 +197,7 @@ export async function getCompareLinks(lang: Locale, productSlug: string, limit =
     .select('relevance, a:products!comparisons_product_a_fkey(slug, name, brands(name)), b:products!comparisons_product_b_fkey(slug, name, brands(name))')
     .or(`product_a.eq.${p.id},product_b.eq.${p.id}`).order('relevance', { ascending: false }).limit(limit)
   type Side = { slug: string; name: string; brands: { name: string } }
-  return ((data ?? []) as unknown as { a: Side; b: Side }[]).map(({ a, b }) => ({
+  return ((data ?? []) as unknown as { a: Side; b: Side }[]).filter((r) => r.a && r.b).map(({ a, b }) => ({
     name: `${a.brands.name} ${a.name} vs ${b.brands.name} ${b.name}`,
     href: compareHref(lang, a.slug, b.slug),
   }))
@@ -242,6 +242,7 @@ export async function getTopComparisons(lang: Locale, limit = 60): Promise<Compa
     .order('relevance', { ascending: false }).limit(limit * 3)
   type Side = { slug: string; name: string; release_date?: string; brands: { name: string } }
   return ((data ?? []) as unknown as { a: Side; b: Side }[])
+    .filter((r) => r.a && r.b)
     .sort((x, y) => String(y.a.release_date).localeCompare(String(x.a.release_date)))
     .slice(0, limit)
     .map(({ a, b }) => ({ name: `${a.brands.name} ${a.name} vs ${b.brands.name} ${b.name}`, href: compareHref(lang, a.slug, b.slug) }))
@@ -258,7 +259,8 @@ export async function getIndexableComparisons(): Promise<{ a: string; b: string;
     const { data } = await s.from('comparisons').select('updated_at, a:products!comparisons_product_a_fkey(slug), b:products!comparisons_product_b_fkey(slug)')
       .order('id').range(from, from + 999)
     type R = { updated_at: string; a: { slug: string }; b: { slug: string } }
-    out.push(...((data ?? []) as unknown as R[]).map((r) => ({ a: r.a.slug, b: r.b.slug, updated: r.updated_at })))
+    // модель могла уйти из каталога (скрыта RLS) — такую пару пропускаем
+    out.push(...((data ?? []) as unknown as R[]).filter((r) => r.a && r.b).map((r) => ({ a: r.a.slug, b: r.b.slug, updated: r.updated_at })))
     if (!data || data.length < 1000) break
   }
   return out
