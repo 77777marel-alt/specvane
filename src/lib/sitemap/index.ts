@@ -4,7 +4,7 @@ import { INFO_PAGES, sectionHref } from '@/lib/routes'
 import { SITE_URL } from '@/lib/site'
 import { db } from '@/lib/supabase'
 import { cacheLife } from 'next/cache'
-import { getIndexableProducts, getIndexableComparisons } from '@/lib/catalog'
+import { getIndexableProducts, getIndexableComparisons, getCategory, getBestSpecs } from '@/lib/catalog'
 
 // Индекс + отдельные файлы по языку и типу: pages-de-1.xml, products-de-1.xml…
 // В файлах только адреса и lastmod, без alternates (hreflang — в <head> страниц).
@@ -52,7 +52,14 @@ export async function entriesFor(file: string): Promise<Entry[] | null> {
     const lang = pm[1]
     if (!isLocale(lang)) return null
     const cats = (await categories()).filter((c) => c.slugs[lang])
-    return [...staticPages(lang), ...cats.map((c) => ({ loc: `${SITE_URL}/${lang}/${c.slugs[lang]}` }))]
+    // страницы «Топ-N по характеристике» для каждой категории + их индекс
+    const best: Entry[] = [{ loc: `${SITE_URL}${sectionHref(lang, 'best')}` }]
+    for (const c of cats) {
+      const cat = await getCategory(lang, c.slugs[lang]!)
+      if (!cat) continue
+      for (const sp of await getBestSpecs(lang, cat)) best.push({ loc: `${SITE_URL}${sectionHref(lang, 'best', cat.slug, sp.slug)}` })
+    }
+    return [...staticPages(lang), ...cats.map((c) => ({ loc: `${SITE_URL}/${lang}/${c.slugs[lang]}` })), ...best]
   }
   const cm = /^comparisons-([a-z]{2}(?:-[a-z]{2})?)-(\d+)\.xml$/.exec(file)
   if (cm) {

@@ -7,8 +7,8 @@ import { ProductCard } from '../product/ProductCard'
 import { CategoryBrowser } from './CategoryBrowser'
 
 /** Категория: заголовок, фильтры человеческим языком (чипы), сортировка, сетка карточек. */
-export function CategoryView({ lang, t, title, intro, items, crumbs, brands, browser }:
-  { lang: Locale; t: Dict; title: string; intro?: string; items: ProductCardData[]; chips?: string[]; crumbs: Crumb[]; brands?: string[]
+export function CategoryView({ lang, t, title, intro, items, crumbs, brands, browser, tops }:
+  { lang: Locale; t: Dict; title: string; intro?: string; items: ProductCardData[]; chips?: string[]; crumbs: Crumb[]; brands?: string[]; tops?: { label: string; href: string }[]
     browser?: { filters: { key: string; label: string; type: string; hib: boolean | null }[]; compare: { cat: string; base: string } } }) {
   return (
     <>
@@ -20,6 +20,12 @@ export function CategoryView({ lang, t, title, intro, items, crumbs, brands, bro
         </div>
         {!browser && <span className="num text-sm text-muted">{fill(t.ui.models, { n: items.length })}</span>}
       </div>
+      {tops && tops.length > 0 && (
+        <nav className="-mx-4 mt-3 flex items-center gap-2 overflow-x-auto px-4 no-scrollbar" aria-label={t.ui.bestIndexTitle}>
+          <span className="shrink-0 text-sm text-muted">{t.ui.bestIndexTitle}:</span>
+          {tops.map((x) => <a key={x.href} href={x.href} className="shrink-0 rounded-full bg-surface px-3 py-1 text-sm hover:text-accent">{x.label}</a>)}
+        </nav>
+      )}
       {browser ? (
         <CategoryBrowser lang={lang} items={items} filters={browser.filters} brands={brands ?? []} compare={browser.compare}
           s={{ ...t.ui, models: t.ui.models }} />

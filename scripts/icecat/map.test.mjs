@@ -31,7 +31,7 @@ test('характеристики Galaxy S22', () => {
   assert.equal(s.os, 'Android 12')
   assert.equal(s.expandable_storage, null) // нет данных — не «нет слота»
   assert.equal(s.wireless_charging, null) // только «да», без ватт
-  assert.equal(Object.keys(s).length, 30)
+  assert.equal(Object.keys(s).length, 32) // 30 из 0002 + ширина и высота
 })
 
 test('модель и варианты', () => {

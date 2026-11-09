@@ -6,11 +6,19 @@ import { Breadcrumbs, type Crumb } from '../Breadcrumbs'
 import { ProductImage } from '../product/ProductImage'
 import { CompareTable } from '../product/CompareTable'
 import { Radar } from '../charts/Radar'
+import { GainLose } from '../charts/GainLose'
+import { WeightScore } from '../charts/WeightScore'
+import { SizeOverlay } from '../charts/SizeOverlay'
 
 /** Сравнение A vs B: карточки сверху, итог «берите A, если… / B, если…», таблица с подсветкой. */
 export function CompareView({ lang, t, items, crumbs, chooseIf, title, radar }:
   { lang: Locale; t: Dict; items: P[]; crumbs: Crumb[]; chooseIf?: string[][]; title?: string
     radar?: { axes: string[]; series: { name: string; values: number[] }[] } }) {
+  // размеры в масштабе: ширина × высота (мм) у обеих моделей
+  const dim = (it: P, k: string) => { const v = it.specGroups.flatMap((g) => g.specs).find((x) => x.key === k)?.value; return typeof v === 'number' ? v : null }
+  const sizes = items.map((it) => ({ name: `${it.brand} ${it.name}`, w: dim(it, 'width'), h: dim(it, 'height') }))
+  const size = items.length === 2 && sizes.every((x) => x.w && x.h)
+    ? <div className="mt-6"><SizeOverlay items={sizes as { name: string; w: number; h: number }[]} title={t.ui.sizeTitle} note={t.ui.sizeNote} /></div> : null
   // строки — объединение характеристик обеих моделей по ключу, в порядке групп
   const find = (it: P, key: string) => it.specGroups.flatMap((g) => g.specs).find((x) => x.key === key)
   const order: { group: string; key: string; label: string; hib?: boolean | null }[] = []
@@ -80,7 +88,14 @@ export function CompareView({ lang, t, items, crumbs, chooseIf, title, radar }:
         )
       })()}
 
-      {radar && <div className="mt-10"><Radar axes={radar.axes} series={radar.series} title={t.ui.radarTitle} note={t.ui.radarNote} /></div>}
+      {items.length === 2 && (
+        <div className="mt-10">
+          <GainLose rows={groups.flatMap((g) => g.rows)} from={`${items[0].brand} ${items[0].name}`} to={`${items[1].brand} ${items[1].name}`} s={t.ui} />
+        </div>
+      )}
+      {radar && <div className="mt-6"><Radar axes={radar.axes} series={radar.series} title={t.ui.radarTitle} note={t.ui.radarNote} /></div>}
+      {radar && <div className="mt-6"><WeightScore axes={radar.axes} series={radar.series} s={t.ui} /></div>}
+      {size}
 
       <section aria-labelledby="table" className="mt-10">
         <h2 id="table" className="mb-3 text-xl font-semibold">{t.ui.allSpecs}</h2>

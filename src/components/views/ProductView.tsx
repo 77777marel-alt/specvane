@@ -6,6 +6,10 @@ import { Breadcrumbs, type Crumb } from '../Breadcrumbs'
 import { IconChevron } from '../icons'
 import { Gallery } from '../product/Gallery'
 import { SpecPositions } from '../charts/SpecPositions'
+import { GenChanges } from '../charts/GenChanges'
+import { CostBox } from '../charts/CostBox'
+import type { RunningCost } from '@/lib/costs'
+import type { SpecValue } from '@/lib/types'
 import type { SpecPosition } from '@/lib/catalog'
 import { CompareToggle } from '../compare/CompareToggle'
 import { CompareTray } from '../compare/CompareTray'
@@ -18,9 +22,10 @@ import { SpecTable } from '../product/SpecTable'
 import { ProductCard } from '../product/ProductCard'
 
 /** Страница товара. Верх: фото, название, вердикт, лучшая цена, 3–5 ключевых цифр (ТЗ). */
-export function ProductView({ lang, t, p, crumbs, compareLinks, variants, gallery, attribution, compare, positions }:
+export function ProductView({ lang, t, p, crumbs, compareLinks, variants, gallery, attribution, compare, positions, prevGen, cost }:
   { lang: Locale; t: Dict; p: P; crumbs: Crumb[]; compareLinks: { name: string; href: string }[]
-    variants?: string[]; gallery?: string[]; attribution?: string; compare?: { cat: string; base: string }; positions?: SpecPosition[] }) {
+    variants?: string[]; gallery?: string[]; attribution?: string; compare?: { cat: string; base: string }; positions?: SpecPosition[]
+    prevGen?: { name: string; href: string; specs: SpecValue[] } | null; cost?: RunningCost | null }) {
   const keySpecs = p.keySpecs
   return (
     <>
@@ -59,6 +64,8 @@ export function ProductView({ lang, t, p, crumbs, compareLinks, variants, galler
           {p.offers.length > 0 && <OfferList lang={lang} t={t} offers={p.offers} />}
           <PriceHistory lang={lang} t={t} points={p.priceHistory} currency={p.currency} />
           {positions && <SpecPositions items={positions} title={t.ui.positionTitle} betterThan={t.ui.betterThan} />}
+          {cost && <CostBox c={cost} s={t.ui} />}
+          {prevGen && <GenChanges prev={prevGen.specs} prevName={prevGen.name} prevHref={prevGen.href} cur={p.specGroups.flatMap((g) => g.specs)} title={t.ui.genTitle} />}
           <SpecTable groups={p.specGroups} title={t.ui.allSpecs} />
           <p className="text-xs text-muted">{t.ui.source} {t.common.updated}: {date(lang, p.updatedAt)}</p>
           {attribution && <p className="text-xs text-muted">{attribution}</p>}

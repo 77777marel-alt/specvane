@@ -114,6 +114,57 @@ export async function getCategoryProducts(lang: Locale, cat: Category): Promise<
   })
 }
 
+/** Предыдущее поколение той же линейки: «Galaxy S24 Ultra» → «Galaxy S23 Ultra», «iPhone 17 Pro» → «iPhone 16 Pro». */
+export async function getPrevGeneration(lang: Locale, cat: Category, brand: string, name: string) {
+  const m = /^(.*?)(\d{1,4})(\D.*)?$/.exec(name)
+  if (!m) return null
+  const gen = Number(m[2])
+  if (!(gen > 1)) return null
+  const target = `${m[1]}${gen - 1}${m[3] ?? ''}`.toLowerCase()
+  const all = await getCategoryProducts(lang, cat)
+  const prev = all.find((x) => x.brand === brand && x.name.toLowerCase() === target)
+  return prev ? getProduct(lang, cat, prev.slug) : null
+}
+
+/** Характеристики, по которым есть страницы «Топ-N по …» (числовые, с направлением, данные у ≥30 моделей). */
+export async function getBestSpecs(lang: Locale, cat: Category): Promise<{ key: string; label: string; slug: string }[]> {
+  const [{ defs }, stats] = await Promise.all([getDefs(cat.id, lang), getSpecStats(cat.id)])
+  return defs.filter((d) => d.type === 'number' && d.hib != null && (d.isKey || d.isFilter) && (stats[d.id]?.n ?? 0) >= 30)
+    .sort((a, b) => Number(b.isKey) - Number(a.isKey) || a.sort - b.sort).slice(0, 6)
+    .map((d) => ({ key: d.key, label: d.label, slug: d.key.replace(/_/g, '-') }))
+}
+
+/** Топ-20 моделей категории по характеристике: сначала модели последних 3 лет. */
+export async function getBest(lang: Locale, cat: Category, specSlug: string): Promise<{ label: string; total: number; items: (ProductCardData & { value: string })[] } | null> {
+  'use cache'
+  cacheLife('hours'); cacheTag('products')
+  const s = db()
+  if (!s) return null
+  const spec = (await getBestSpecs(lang, cat)).find((x) => x.slug === specSlug)
+  if (!spec) return null
+  const { defs } = await getDefs(cat.id, lang)
+  const d = defs.find((x) => x.key === spec.key)!
+  const stats = await getSpecStats(cat.id)
+  const since = new Date(Date.now() - 3 * 365 * 86400e3).toISOString().slice(0, 10)
+  const q = (recent: boolean) => {
+    let x = s.from('product_specs').select('value_num, products!inner(slug, name, release_date, status, category_id, brands!inner(name), product_images(url, sort))')
+      .eq('spec_id', d.id).eq('products.category_id', cat.id).eq('products.status', 'active').not('value_num', 'is', null)
+    if (recent) x = x.gte('products.release_date', since)
+    return x.order('value_num', { ascending: !d.hib }).limit(20)
+  }
+  let { data } = await q(true)
+  if (!data || data.length < 10) data = (await q(false)).data
+  type R = { value_num: number; products: { slug: string; name: string; release_date: string | null; brands: { name: string }; product_images: { url: string; sort: number }[] } }
+  const t = getDict(lang)
+  const currency = MARKETS[lang].currency
+  const items = ((data ?? []) as unknown as R[]).map((r) => ({
+    slug: r.products.slug, href: `/${lang}/${cat.slug}/${r.products.slug}`, name: r.products.name, brand: r.products.brands.name,
+    image: [...r.products.product_images].sort((a, b) => a.sort - b.sort)[0]?.url ?? null, price: null, currency, keySpecs: [],
+    value: display(lang, d, Number(r.value_num), t.ui.yes, t.ui.no),
+  }))
+  return { label: spec.label, total: stats[d.id]?.n ?? items.length, items }
+}
+
 type Stats = { n: number; pct: number[]; hist: number[]; lo: number | null; hi: number | null }
 async function getSpecStats(categoryId: number): Promise<Record<number, Stats>> {
   'use cache'

@@ -5,15 +5,18 @@ import { notFound } from 'next/navigation'
 import { isLocale, type Locale } from '@/lib/i18n/config'
 import { getDict } from '@/lib/i18n'
 import { INFO_PAGES, resolveSlug, sectionHref, type InfoPage } from '@/lib/routes'
-import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions } from '@/lib/catalog'
+import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions, getPrevGeneration, getBest, getBestSpecs } from '@/lib/catalog'
 import { permanentRedirect } from 'next/navigation'
-import { number } from '@/lib/format'
+import { number, fill } from '@/lib/format'
 import { alternates } from '@/lib/seo'
 import { previewProducts, previewChooseIf, CHIPS, tx } from '@/lib/preview'
 import { ProductView } from '@/components/views/ProductView'
 import { CompareView } from '@/components/views/CompareView'
 import { CategoryView } from '@/components/views/CategoryView'
+import { BestView } from '@/components/views/BestView'
+import { getCategories } from '@/lib/data'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
+import { runningCost } from '@/lib/costs'
 import { ComparePicker } from '@/components/compare/ComparePicker'
 import { CompareTray } from '@/components/compare/CompareTray'
 
@@ -30,11 +33,21 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/[...slug]'
   const { lang, slug } = await params
   if (!isLocale(lang)) return {}
   if (slug[0] === PREVIEW) return { title: `${getDict(lang).ui.previewTitle} · Specvane`, robots: { index: false, follow: false } }
-  const key = slug.length === 1 ? resolveSlug(lang, slug[0]) : null
-  if (isInfo(key)) {
+  const key = resolveSlug(lang, slug[0])
+  if (slug.length === 1 && isInfo(key)) {
     const t = getDict(lang)
     const robots = key === 'privacy' || key === 'cookies' || key === 'legal-notice' ? { index: false, follow: true } : undefined
     return { title: `${t.info[key].title} · Specvane`, alternates: alternates(lang, (l: Locale) => sectionHref(l, key)), robots }
+  }
+  if (key === 'best') {
+    const t = getDict(lang)
+    if (slug.length === 1) return { title: `${t.ui.bestIndexTitle} · Specvane`, alternates: alternates(lang, (l) => sectionHref(l, 'best')) }
+    const cat = slug.length === 3 ? await getCategory(lang, slug[1]) : null
+    const b = cat && await getBest(lang, cat, slug[2])
+    if (!cat || !b) return {}
+    const title = fill(t.ui.bestTitle, { category: cat.name, n: b.items.length, spec: b.label })
+    return { title: `${title} · Specvane`, description: fill(t.ui.bestDesc, { n: b.items.length, spec: b.label, total: b.total }),
+      alternates: alternates(lang, (l) => (cat.slugs[l] ? sectionHref(l, 'best', cat.slugs[l]!, slug[2]) : null)) }
   }
   if (key === 'compare') {
     const t = getDict(lang)
@@ -93,6 +106,42 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
     )
   }
 
+  if (key === 'best' && slug.length <= 3) {
+    const home = { name: t.ui.home, href: `/${lang}` }
+    const section = { name: t.ui.bestIndexTitle, href: sectionHref(lang, 'best') }
+    if (slug.length === 1) {
+      // индекс: все категории и их «топы»
+      const cats = await Promise.all((await getCategories(lang)).map(async (c) => {
+        const cat = await getCategory(lang, c.slug)
+        return cat ? { cat, specs: await getBestSpecs(lang, cat) } : null
+      }))
+      return (
+        <>
+          <Breadcrumbs items={[home, section]} />
+          <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{t.ui.bestIndexTitle}</h1>
+          <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {cats.filter((x) => x && x.specs.length).map((x) => (
+              <section key={x!.cat.key} className="rounded-2xl border border-border p-4">
+                <h2 className="mb-2 font-semibold"><a href={`/${lang}/${x!.cat.slug}`} className="hover:text-accent">{x!.cat.name}</a></h2>
+                <ul className="space-y-1 text-sm">
+                  {x!.specs.map((sp) => <li key={sp.slug}><a href={sectionHref(lang, 'best', x!.cat.slug, sp.slug)} className="text-accent hover:underline">{sp.label}</a></li>)}
+                </ul>
+              </section>
+            ))}
+          </div>
+        </>
+      )
+    }
+    const cat = slug.length === 3 ? await getCategory(lang, slug[1]) : null
+    const b = cat && await getBest(lang, cat, slug[2])
+    if (!cat || !b || !b.items.length) notFound()
+    const title = fill(t.ui.bestTitle, { category: cat.name, n: b.items.length, spec: b.label })
+    const more = (await getBestSpecs(lang, cat)).filter((x) => x.slug !== slug[2])
+      .map((x) => ({ label: fill(t.ui.bestTitle, { category: cat.name, n: 20, spec: x.label }), href: sectionHref(lang, 'best', cat.slug, x.slug) }))
+    return <BestView lang={lang} t={t} title={title} desc={fill(t.ui.bestDesc, { n: b.items.length, spec: b.label, total: b.total })} items={b.items} more={more}
+      crumbs={[home, section, { name: cat.name, href: `/${lang}/${cat.slug}` }, { name: b.label, href: sectionHref(lang, 'best', cat.slug, slug[2]) }]} />
+  }
+
   if (key === 'compare' && slug.length <= 2) {
     const home = { name: t.ui.home, href: `/${lang}` }
     const section = { name: t.nav.compare, href: sectionHref(lang, 'compare') }
@@ -140,7 +189,8 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
         items.forEach((i) => count.set(i.brand, (count.get(i.brand) ?? 0) + 1))
         const brands = [...count.keys()].sort((a, b) => count.get(b)! - count.get(a)!)
         const filters = await getFilterDefs(lang, cat)
-        return <CategoryView lang={lang} t={t} title={cat.name} items={items} brands={brands} crumbs={[home, catCrumb]}
+        const tops = (await getBestSpecs(lang, cat)).map((x) => ({ label: x.label, href: sectionHref(lang, 'best', cat.slug, x.slug) }))
+        return <CategoryView lang={lang} t={t} title={cat.name} items={items} brands={brands} crumbs={[home, catCrumb]} tops={tops}
           browser={{ filters, compare: { cat: cat.key, base: sectionHref(lang, 'compare') } }} />
       }
       const p = await getProduct(lang, cat, slug[1])
@@ -155,6 +205,8 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
               compareLinks={await getCompareLinks(lang, p.slug)} variants={variants} gallery={p.images}
               compare={{ cat: cat.key, base: sectionHref(lang, 'compare') }}
               positions={await getPositions(lang, cat, p.specGroups.flatMap((g) => g.specs))}
+              cost={runningCost(lang, cat.key, p.specGroups.flatMap((g) => g.specs))}
+              prevGen={await getPrevGeneration(lang, cat, p.brand, p.name).then((g) => g && { name: `${g.brand} ${g.name}`, href: g.href, specs: g.specGroups.flatMap((x) => x.specs) })}
               attribution={p.source === 'icecat' ? `Database Right data-sheet ${year} Icecat. All rights reserved. Data provided “as is” without warranty.` : undefined} />
             <ProductJsonLd name={`${p.brand} ${p.name}`} brand={p.brand} image={p.images} url={p.href} />
           </>

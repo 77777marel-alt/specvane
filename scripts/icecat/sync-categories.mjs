@@ -34,6 +34,13 @@ try {
   const extra = ALL_LANGS.filter((l) => !LANGS.includes(l) && categoryI18n('smartphones', l))
   must(await db.from('category_i18n').upsert(extra.map((lang) => ({ category_id: cat.id, lang, slug: categoryI18n('smartphones', lang)[0], name: categoryI18n('smartphones', lang)[1] })),
     { onConflict: 'category_id,lang' }), 'smartphones i18n')
+  // ширина и высота (для сравнения размеров в масштабе) — добавлены 09.11.2026, в 0002 их нет
+  const dims = must(await db.from('spec_definitions').upsert([
+    { category_id: cat.id, key: 'width', group_key: 'body', data_type: 'number', unit: 'mm', higher_is_better: null, is_key_spec: false, is_filter: false, sort: 202 },
+    { category_id: cat.id, key: 'height', group_key: 'body', data_type: 'number', unit: 'mm', higher_is_better: null, is_key_spec: false, is_filter: false, sort: 204 },
+  ], { onConflict: 'category_id,key' }).select('id, key'), 'smartphones dims')
+  must(await db.from('spec_definition_i18n').upsert(dims.flatMap((d) => LANGS.map((lang) => ({ spec_id: d.id, lang, label: labelFor(d.key, lang) }))),
+    { onConflict: 'spec_id,lang' }), 'dims labels')
   const defs = must(await db.from('spec_definitions').select('id, key').eq('category_id', cat.id), 'smartphones defs')
   must(await db.from('spec_definition_i18n').upsert(defs.flatMap((d) => extra.map((lang) => ({ spec_id: d.id, lang, label: labelFor(d.key, lang) }))),
     { onConflict: 'spec_id,lang' }), 'smartphones labels')

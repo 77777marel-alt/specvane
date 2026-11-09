@@ -26,6 +26,8 @@ const F = {
   wirelessPower: [null, /^wireless charging power$/i],
   weight: [94, /^weight$/i],
   depth: [1650, /^depth$/i],
+  width: [1649, /^width$/i],
+  height: [1464, /^height$/i],
   ip: [7900, /international protection \(ip\) code/i],
   network: [40629, /^mobile network generation$/i],
   simType: [9166, /^SIM card type$/i],
@@ -116,6 +118,8 @@ export function mapSmartphone(data) {
 
   s.weight = num(g('weight'))
   s.thickness = num(g('depth'))
+  s.width = num(g('width'))
+  s.height = num(g('height'))
   s.ip_rating = txt(g('ip'))
 
   const net = txt(g('network'))
