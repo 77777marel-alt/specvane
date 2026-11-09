@@ -29,6 +29,11 @@ const USER = env('ICECAT_USER', 'specvane')
 const MAX = Number(env('MAX_PRODUCTS', '5000'))
 const INDEX = env('INDEX', 'on_market')
 const DRY = env('DRY_RUN') === '1'
+// Потолки под бесплатную базу (500 МБ): популярная техника — больше, остальное — меньше
+const PRIORITY = new Set(['smartphones', 'tablets', 'laptops', 'tvs', 'monitors', 'headphones', 'smartwatches', 'cameras', 'game-consoles',
+  'speakers', 'power-banks', 'projectors', 'washing-machines', 'fridges', 'dishwashers', 'tumble-dryers', 'coffee-machines', 'mice', 'keyboards'])
+const CAP = Number(env('CAP_PRIORITY', '4000')), CAP_OTHER = Number(env('CAP_OTHER', '1000')), CAP_TOTAL = Number(env('CAP_TOTAL', '55000'))
+const QUEUE_PER_CAT = Number(env('QUEUE_PER_CAT', '3000'))
 const UA = 'SpecvaneImporter/1.0 (+https://specvane.com)'
 
 // продавцы восстановленной техники — не производители, не публикуем
@@ -83,13 +88,17 @@ async function phaseIndex() {
   log(`Строк в индексе: ${total}, наших категорий:`, JSON.stringify(per))
 
   // что уже знаем
-  const known = new Map()
+  const known = new Map(), pending = {}
   for (let from = 0; ; from += 1000) {
-    const part = must(await db.from('source_items').select('external_id, updated').eq('source', 'icecat').range(from, from + 999), 'source_items')
-    part.forEach((r) => known.set(r.external_id, r.updated))
+    const part = must(await db.from('source_items').select('external_id, updated, status, category_key').eq('source', 'icecat').range(from, from + 999), 'source_items')
+    part.forEach((r) => { known.set(r.external_id, r.updated); if (r.status === 'new') pending[r.category_key] = (pending[r.category_key] ?? 0) + 1 })
     if (part.length < 1000) break
   }
-  const changed = [...rows].filter(([id, [upd]]) => known.get(id) !== upd)
+  // бесплатная база Supabase — 500 МБ: в очередь кладём только самые новые позиции каждой категории
+  const fresh = {}
+  for (const [id, [, ck]] of rows) if (!known.has(id)) (fresh[ck] ??= Object.assign([], { ck })).push(id)
+  const allow = new Set(Object.values(fresh).flatMap((ids) => ids.sort((a, b) => Number(b) - Number(a)).slice(0, Math.max(0, QUEUE_PER_CAT - (pending[ids.ck] ?? 0)))))
+  const changed = [...rows].filter(([id, [upd]]) => (known.has(id) ? known.get(id) !== upd : allow.has(id)))
     .map(([id, [upd, ck]]) => ({ source: 'icecat', external_id: id, category_key: ck, updated: upd, status: 'new' }))
   log(`Новых/изменённых: ${changed.length}`)
   if (!DRY) for (let i = 0; i < changed.length; i += 500) {
@@ -270,11 +279,18 @@ async function main() {
   try {
     const changed = env('SKIP_INDEX') === '1' ? 0 : await phaseIndex()
     const r = { models: 0, skus: 0 }
-    for (let done = 0; done < MAX; ) {
+    const capOf = PRIORITY.has(CATEGORY) ? CAP : CAP_OTHER
+    const catRow = must(await db.from('categories').select('id').eq('key', CATEGORY).single(), 'category')
+    const { count: inCat } = await db.from('products').select('id', { count: 'exact', head: true }).eq('category_id', catRow.id)
+    const { count: inAll } = await db.from('products').select('id', { count: 'exact', head: true })
+    let room = Math.min(capOf - (inCat ?? 0), CAP_TOTAL - (inAll ?? 0))
+    log(`Моделей: в категории ${inCat} (потолок ${capOf}), всего ${inAll} (потолок ${CAP_TOTAL})`)
+    if (room <= 0 && !env('SEED_ICECAT_IDS')) log('Потолок достигнут — новые карточки не качаем')
+    for (let done = 0; done < MAX && (room > 0 || env('SEED_ICECAT_IDS')); ) {
       let part
       try { part = await phaseSheets() }
       catch (e) { log('Пачка прервана, сохраняем сделанное:', String(e).slice(0, 300)); break }
-      r.models += part.models; r.skus += part.skus; done += part.skus
+      r.models += part.models; r.skus += part.skus; done += part.skus; room -= part.models
       if (!part.skus || env('SEED_ICECAT_IDS')) break
     }
     if (!DRY) {
