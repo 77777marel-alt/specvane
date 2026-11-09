@@ -55,7 +55,7 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/[...slug]'
     const c = await getComparison(lang, slug[1])
     if (!c) return {}
     const [a, b] = c.items
-    const title = `${a.brand} ${a.name} ${t.ui.vs} ${b.brand} ${b.name}`
+    const title = c.items.map((x) => `${x.brand} ${x.name}`).join(` ${t.ui.vs} `)
     const pair = c.canonical.split('/').pop()!
     return {
       title: `${title}: ${t.ui.allSpecs} · Specvane`,
@@ -169,15 +169,14 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
     const c = await getComparison(lang, slug[1])
     if (!c) notFound()
     if (c.known && c.canonical !== `${sectionHref(lang, 'compare')}/${slug[1]}`) permanentRedirect(c.canonical)
-    const [a, b] = c.items
     // радар: оси — характеристики, по которым есть место в категории у обеих моделей
-    const [pa, pb] = await Promise.all(c.items.map((it) => getPositions(lang, c.cat, it.specGroups.flatMap((g) => g.specs), 30)))
-    const axes = pa.filter((x) => pb.some((y) => y.key === x.key)).slice(0, 8)
+    const pos = await Promise.all(c.items.map((it) => getPositions(lang, c.cat, it.specGroups.flatMap((g) => g.specs), 30)))
+    const axes = pos[0].filter((x) => pos.every((p) => p.some((y) => y.key === x.key))).slice(0, 8)
     const radar = axes.length >= 3 ? { axes: axes.map((x) => x.label),
-      series: [a, b].map((it, k) => ({ name: `${it.brand} ${it.name}`, values: axes.map((x) => (k ? pb : pa).find((y) => y.key === x.key)!.better) })) } : undefined
+      series: c.items.map((it, k) => ({ name: `${it.brand} ${it.name}`, values: axes.map((x) => pos[k].find((y) => y.key === x.key)!.better) })) } : undefined
     return (
       <CompareView lang={lang} t={t} items={c.items} radar={radar}
-        crumbs={[home, { name: c.cat.name, href: `/${lang}/${c.cat.slug}` }, { name: `${a.name} ${t.ui.vs} ${b.name}`, href: c.canonical }]} />
+        crumbs={[home, { name: c.cat.name, href: `/${lang}/${c.cat.slug}` }, { name: c.items.map((x) => x.name).join(` ${t.ui.vs} `), href: c.canonical }]} />
     )
   }
 

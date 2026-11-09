@@ -39,7 +39,7 @@ export function CompareView({ lang, t, items, crumbs, chooseIf, title, radar }:
       <h1 className="text-3xl font-bold tracking-tight md:text-4xl">
         {title ?? items.map((i) => `${i.brand} ${i.name}`).join(` ${t.ui.vs} `)}
       </h1>
-      <div className="mt-6 grid grid-cols-2 gap-3">
+      <div className={`mt-6 grid gap-3 ${items.length > 2 ? 'grid-cols-2 md:grid-cols-4' : 'grid-cols-2'}`}>
         {items.map((p) => {
           const o = best(p)
           return (
@@ -66,12 +66,12 @@ export function CompareView({ lang, t, items, crumbs, chooseIf, title, radar }:
 
       {(() => {
         // Где каждая модель лучше — прямо из цифр таблицы (без сочинённого текста)
-        const adv = chooseIf ?? items.map((_, i) => groups.flatMap((g) => g.rows).filter((r) => {
+        const adv = chooseIf ?? (items.length !== 2 ? [] : items.map((_, i) => groups.flatMap((g) => g.rows).filter((r) => {
           if (r.higherIsBetter == null) return false
           const v = r.values.map((x) => (typeof x.value === 'number' ? x.value : typeof x.value === 'boolean' ? Number(x.value) : NaN))
           if (v.some(Number.isNaN) || v[0] === v[1] || r.values[0].display === r.values[1].display) return false
           return r.higherIsBetter ? v[i] > v[1 - i] : v[i] < v[1 - i]
-        }).map((r) => `${r.label}: ${r.values[i].display} ${t.ui.vs} ${r.values[1 - i].display}`))
+        }).map((r) => `${r.label}: ${r.values[i].display} ${t.ui.vs} ${r.values[1 - i].display}`)))
         if (!adv.some((a) => a.length)) return null
         return (
           <section aria-labelledby="choose" className="mt-8 grid gap-3 md:grid-cols-2">

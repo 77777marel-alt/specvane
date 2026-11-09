@@ -14,7 +14,7 @@ export function Radar({ axes, series, title, note }: {
     return [C + Math.cos(a) * (R * v) / 100, C + Math.sin(a) * (R * v) / 100]
   }
   const poly = (vals: number[]) => vals.map((v, i) => pt(i, Math.max(4, v)).join(',')).join(' ')
-  const colors = ['var(--accent)', '#f59e0b']
+  const colors = ['var(--accent)', '#f59e0b', '#10b981', '#e11d48']
   return (
     <section aria-labelledby="radar" className="rounded-2xl border border-border p-4">
       <h2 id="radar" className="text-xl font-semibold">{title}</h2>

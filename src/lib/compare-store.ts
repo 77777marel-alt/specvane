@@ -1,4 +1,4 @@
-// Выбор моделей для сравнения (до 2, одна категория). Хранится в браузере, общий для всех вкладок/страниц.
+// Выбор моделей для сравнения (до 4, одна категория). Хранится в браузере, общий для всех вкладок/страниц.
 export type CompareItem = { slug: string; name: string; brand: string; image?: string | null; cat: string; base: string }
 
 const KEY = 'sv-compare'
@@ -31,7 +31,7 @@ export const compareStore = {
     const cur = read()
     if (cur.some((x) => x.slug === item.slug)) return write(cur.filter((x) => x.slug !== item.slug))
     const same = cur.filter((x) => x.cat === item.cat) // другая категория — начинаем заново
-    write([...same, item].slice(-2))
+    write([...same, item].slice(-4))
   },
   remove: (slug: string) => write(read().filter((x) => x.slug !== slug)),
   clear: () => write([]),

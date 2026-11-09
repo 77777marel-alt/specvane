@@ -8,21 +8,21 @@ type Strings = { compareNow: string; pickOneMore: string; clearAll: string; remo
 export function CompareTray({ s }: { s: Strings }) {
   const items = useSyncExternalStore(compareStore.subscribe, compareStore.get, compareStore.getServer)
   if (!items.length) return null
-  const ready = items.length === 2
-  const href = ready ? `${items[0].base}/${items[0].slug}-vs-${items[1].slug}` : undefined
+  const ready = items.length >= 2
+  const href = ready ? `${items[0].base}/${items.map((x) => x.slug).join('-vs-')}` : undefined
   return (
     <div className="fixed inset-x-0 bottom-[4.5rem] z-40 px-3 md:bottom-4" role="region" aria-label={s.compareNow}>
       <div className="mx-auto flex max-w-3xl items-center gap-2 rounded-2xl border border-border bg-bg/95 p-2 shadow-card backdrop-blur">
         <ul className="flex min-w-0 flex-1 items-center gap-2">
           {items.map((it, i) => (
             <li key={it.slug} className="flex min-w-0 flex-1 items-center gap-2">
-              {i === 1 && <span className="text-xs text-muted">{s.vs}</span>}
+              {i > 0 && <span className="hidden text-xs text-muted sm:inline">{s.vs}</span>}
               <div className="flex min-w-0 flex-1 items-center gap-2 rounded-xl bg-surface px-2 py-1.5">
                 {it.image ? (
                   // eslint-disable-next-line @next/next/no-img-element -- миниатюра с CDN Icecat
                   <img src={it.image} alt="" className="h-8 w-8 shrink-0 object-contain mix-blend-multiply dark:mix-blend-normal" referrerPolicy="no-referrer" />
                 ) : <span className="h-8 w-8 shrink-0 rounded-lg bg-surface-2" />}
-                <span className="truncate text-sm font-medium">{it.name}</span>
+                <span className={`truncate text-sm font-medium ${items.length > 2 ? 'hidden md:inline' : ''}`}>{it.name}</span>
                 <button type="button" onClick={() => compareStore.remove(it.slug)} aria-label={`${s.remove}: ${it.name}`}
                   className="ms-auto flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-muted hover:bg-bg hover:text-fg">×</button>
               </div>

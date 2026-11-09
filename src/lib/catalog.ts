@@ -335,6 +335,17 @@ export async function getComparison(lang: Locale, pairSlug: string) {
   const s = db()
   if (!s) return null
   const parts = pairSlug.split('-vs-')
+  // 3–4 модели: «a-vs-b-vs-c» — собирается посетителем, в индекс не идёт (только пары)
+  if (parts.length >= 3 && parts.length <= 4 && new Set(parts).size === parts.length) {
+    const { data } = await s.from('products').select('id, slug, category_id').in('slug', parts).eq('status', 'active')
+    if (data && data.length === parts.length && data.every((d) => d.category_id === data[0].category_id)) {
+      const cat = await categoryById(lang, data[0].category_id)
+      if (!cat) return null
+      const items = await Promise.all(parts.map((sl) => getProduct(lang, cat, sl)))
+      if (items.some((x) => !x)) return null
+      return { cat, items: items as NonNullable<(typeof items)[number]>[], known: false, canonical: `${sectionHref(lang, 'compare')}/${parts.join('-vs-')}` }
+    }
+  }
   for (let i = 1; i < parts.length; i++) {
     const a = parts.slice(0, i).join('-vs-'), b = parts.slice(i).join('-vs-')
     const { data } = await s.from('products').select('id, slug, category_id').in('slug', [a, b]).eq('status', 'active')
