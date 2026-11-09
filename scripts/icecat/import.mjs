@@ -32,7 +32,7 @@ const DRY = env('DRY_RUN') === '1'
 // Потолки под бесплатную базу (500 МБ): популярная техника — больше, остальное — меньше
 const PRIORITY = new Set(['smartphones', 'tablets', 'laptops', 'tvs', 'monitors', 'headphones', 'smartwatches', 'cameras', 'game-consoles',
   'speakers', 'power-banks', 'projectors', 'washing-machines', 'fridges', 'dishwashers', 'tumble-dryers', 'coffee-machines', 'mice', 'keyboards'])
-const CAP = Number(env('CAP_PRIORITY', '4000')), CAP_OTHER = Number(env('CAP_OTHER', '1000')), CAP_TOTAL = Number(env('CAP_TOTAL', '55000'))
+const CAP = Number(env('CAP_PRIORITY', '4000')), CAP_OTHER = Number(env('CAP_OTHER', '1000')), CAP_TOTAL = Number(env('CAP_TOTAL', '90000')), DB_MAX_MB = Number(env('DB_MAX_MB', '440'))
 const QUEUE_PER_CAT = Number(env('QUEUE_PER_CAT', '3000'))
 const UA = 'SpecvaneImporter/1.0 (+https://specvane.com)'
 
@@ -284,13 +284,17 @@ async function main() {
     const { count: inCat } = await db.from('products').select('id', { count: 'exact', head: true }).eq('category_id', catRow.id)
     const { count: inAll } = await db.from('products').select('id', { count: 'exact', head: true })
     let room = Math.min(capOf - (inCat ?? 0), CAP_TOTAL - (inAll ?? 0))
-    log(`Моделей: в категории ${inCat} (потолок ${capOf}), всего ${inAll} (потолок ${CAP_TOTAL})`)
+    // главный предохранитель: реальный размер базы (бесплатно — 500 МБ)
+    const { data: mb } = await db.rpc('db_size_mb')
+    if (typeof mb === 'number' && mb >= DB_MAX_MB) room = 0
+    log(`Моделей: в категории ${inCat} (потолок ${capOf}), всего ${inAll} (потолок ${CAP_TOTAL}), база ${mb ?? '?'} МБ из ${DB_MAX_MB}`)
     if (room <= 0 && !env('SEED_ICECAT_IDS')) log('Потолок достигнут — новые карточки не качаем')
     for (let done = 0; done < MAX && (room > 0 || env('SEED_ICECAT_IDS')); ) {
       let part
       try { part = await phaseSheets() }
       catch (e) { log('Пачка прервана, сохраняем сделанное:', String(e).slice(0, 300)); break }
       r.models += part.models; r.skus += part.skus; done += part.skus; room -= part.models
+      const { data: now } = await db.rpc('db_size_mb'); if (typeof now === 'number' && now >= DB_MAX_MB) { log(`База ${now} МБ — стоп`); break }
       if (!part.skus || env('SEED_ICECAT_IDS')) break
     }
     if (!DRY) {
