@@ -151,6 +151,8 @@ export const ar: Dict = {
     radarNote: "الترتيب بين جميع طرازات الفئة: كلما ابتعد عن المركز كان أفضل.",
     trendTitle: "كيف تغيّرت المواصفات عبر السنين",
     trendNote: "القيمة النموذجية (الوسيط) للطرازات الصادرة في كل عام.",
+    popularCompare: "مقارنات شائعة",
+    seeAll: "الكل",
     sortName: "الاسم أ–ي",
     sortHigh: "{label}: الأعلى",
     sortLow: "{label}: الأدنى",

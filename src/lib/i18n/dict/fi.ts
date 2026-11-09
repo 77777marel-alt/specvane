@@ -151,6 +151,8 @@ export const fi: Dict = {
     radarNote: "Sijoitus kaikkien luokan mallien joukossa: mitä ulompana, sitä parempi.",
     trendTitle: "Miten ominaisuudet ovat muuttuneet vuosittain",
     trendNote: "Kunkin vuoden mallien tyypillinen arvo (mediaani).",
+    popularCompare: "Suositut vertailut",
+    seeAll: "Kaikki",
     sortName: "Nimi A–Ö",
     sortHigh: "{label}: suurin",
     sortLow: "{label}: pienin",

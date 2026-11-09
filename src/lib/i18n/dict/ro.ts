@@ -151,6 +151,8 @@ export const ro: Dict = {
     radarNote: "Poziția între toate modelele din categorie: cu cât mai spre exterior, cu atât mai bine.",
     trendTitle: "Cum s-au schimbat specificațiile de la an la an",
     trendNote: "Valoarea tipică (mediana) a modelelor lansate în fiecare an.",
+    popularCompare: "Comparații populare",
+    seeAll: "Toate",
     sortName: "Nume A–Z",
     sortHigh: "{label}: cel mai mare",
     sortLow: "{label}: cel mai mic",

@@ -151,6 +151,8 @@ export const pl: Dict = {
     radarNote: "Pozycja wśród wszystkich modeli w kategorii: im dalej od środka, tym lepiej.",
     trendTitle: "Jak zmieniały się parametry z roku na rok",
     trendNote: "Typowa wartość (mediana) modeli wydanych w danym roku.",
+    popularCompare: "Popularne porównania",
+    seeAll: "Wszystkie",
     sortName: 'Nazwa A–Z',
     sortHigh: '{label}: od najwyższej',
     sortLow: '{label}: od najniższej',

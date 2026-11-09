@@ -3,7 +3,7 @@ import { cacheLife, cacheTag } from 'next/cache'
 import { db } from './supabase'
 import { LOCALES, MARKETS, type Locale } from './i18n/config'
 import { getDict } from './i18n'
-import { number } from './format'
+import { fill, number } from './format'
 import { sectionHref } from './routes'
 import type { ProductCardData, ProductView, SpecGroup, SpecValue } from './types'
 
@@ -459,4 +459,57 @@ export async function getTrends(lang: Locale, cat: Category) {
     if (years.length >= 3 && years.at(-1)!.v !== years[0].v) out.push({ key: f.key, label: f.label, hib: f.hib, years })
   }
   return out.sort((a, b) => b.years.reduce((s, y) => s + y.n, 0) - a.years.reduce((s, y) => s + y.n, 0)).slice(0, 4)
+}
+
+/** Бренды, по которым чаще всего ищут сравнения: их пары и модели поднимаем на главной. */
+const POPULAR_BRANDS = new Set(['Apple', 'Samsung', 'Google', 'Xiaomi', 'OnePlus', 'Sony', 'LG', 'Lenovo', 'HP', 'Dell', 'ASUS', 'Acer', 'Microsoft',
+  'Huawei', 'Honor', 'Motorola', 'Nothing', 'Bose', 'JBL', 'Garmin', 'Philips', 'TCL', 'Hisense', 'MSI', 'Oppo', 'vivo', 'realme', 'Sennheiser', 'Amazfit'])
+
+/**
+ * Главная: по популярным категориям — новинки с фото, самые «искомые» пары сравнения
+ * (известные бренды, свежие модели) и ссылки на топы по характеристикам. Всё — внутренние ссылки для людей и Google.
+ */
+export async function getHomeShowcase(lang: Locale) {
+  'use cache'
+  cacheLife('hours'); cacheTag('products'); cacheTag('comparisons')
+  const s = db()
+  if (!s) return []
+  const t = getDict(lang)
+  const keys = ['smartphones', 'laptops', 'tablets', 'headphones', 'tvs', 'smartwatches']
+  const { data: rows } = await s.from('categories').select('id, key').in('key', keys).eq('is_active', true)
+  const since = Date.now() - 548 * 86400e3 // ~18 месяцев
+  const out = []
+  for (const key of keys) {
+    const row = (rows ?? []).find((r) => r.key === key)
+    if (!row) continue
+    const cat = await categoryById(lang, row.id)
+    if (!cat) continue
+    const all = await getCategoryProducts(lang, cat)
+    const withImg = all.filter((p) => p.image)
+    // новинки: свежие модели с фото, известные бренды вперёд, не больше 2 моделей одного бренда
+    const perBrand = new Map<string, number>()
+    const fresh = [...withImg].sort((a, b) => Number(POPULAR_BRANDS.has(b.brand)) - Number(POPULAR_BRANDS.has(a.brand))
+      || String(b.release ?? '').localeCompare(String(a.release ?? '')))
+      .filter((p) => { const n = perBrand.get(p.brand) ?? 0; if (n >= 2) return false; perBrand.set(p.brand, n + 1); return true })
+      .slice(0, 4)
+    // пары: из готовых сравнений категории — известные бренды и свежие модели выше
+    const bySlug = new Map(all.map((p) => [p.slug, p]))
+    const { data: pairs } = await s.from('comparisons')
+      .select('relevance, a:products!comparisons_product_a_fkey!inner(slug, category_id), b:products!comparisons_product_b_fkey!inner(slug)')
+      .eq('a.category_id', cat.id).order('relevance', { ascending: false }).limit(300)
+    type Pr = { relevance: number; a: { slug: string }; b: { slug: string } }
+    const score = (x: (typeof all)[number]) => (POPULAR_BRANDS.has(x.brand) ? 2 : 0) + (x.release && Date.parse(x.release) > since ? 1 : 0) + (x.image ? 1 : 0)
+    const seen = new Set<string>()
+    const compares = ((pairs ?? []) as unknown as Pr[])
+      .map((r) => ({ a: bySlug.get(r.a.slug), b: bySlug.get(r.b.slug) }))
+      .filter((r): r is { a: (typeof all)[number]; b: (typeof all)[number] } => !!r.a && !!r.b)
+      .sort((x, y) => score(y.a) + score(y.b) - score(x.a) - score(x.b))
+      .filter((r) => { const k = r.a.slug, m = r.b.slug; if (seen.has(k) || seen.has(m)) return false; seen.add(k); seen.add(m); return true })
+      .slice(0, 4)
+      .map((r) => ({ name: `${r.a.brand} ${r.a.name} vs ${r.b.brand} ${r.b.name}`, href: compareHref(lang, r.a.slug, r.b.slug) }))
+    const best = (await getBestSpecs(lang, cat)).slice(0, 3)
+      .map((x) => ({ name: fill(t.ui.bestTitle, { category: cat.name, n: 20, spec: x.label }), href: sectionHref(lang, 'best', cat.slug, x.slug) }))
+    out.push({ key, name: cat.name, href: `/${lang}/${cat.slug}`, fresh, compares, best })
+  }
+  return out
 }

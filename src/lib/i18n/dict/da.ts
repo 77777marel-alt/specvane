@@ -151,6 +151,8 @@ export const da: Dict = {
     radarNote: "Placering blandt alle modeller i kategorien: længere ude = bedre.",
     trendTitle: "Sådan har specifikationerne ændret sig over årene",
     trendNote: "Typisk værdi (median) for modeller udgivet hvert år.",
+    popularCompare: "Populære sammenligninger",
+    seeAll: "Alle",
     sortName: "Navn A–Å",
     sortHigh: "{label}: højeste",
     sortLow: "{label}: laveste",

@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation'
 import { isLocale } from '@/lib/i18n/config'
 import { getDict } from '@/lib/i18n'
 import { getCategories } from '@/lib/data'
+import { getHomeShowcase } from '@/lib/catalog'
+import { ProductCard } from '@/components/product/ProductCard'
 import { alternates } from '@/lib/seo'
 import { SearchBox } from '@/components/SearchBox'
 import { IconAppliance, IconCamera, IconCpu, IconGamepad, IconGpu, IconHeadphones, IconLaptop, IconMonitor, IconPhone, IconProjector, IconSpeaker, IconTablet, IconTv, IconWatch } from '@/components/icons'
@@ -35,7 +37,7 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
   const { lang } = await params
   if (!isLocale(lang)) notFound()
   const t = getDict(lang)
-  const live = await getCategories(lang)
+  const [live, showcase] = await Promise.all([getCategories(lang), getHomeShowcase(lang)])
   const liveByKey = new Map(live.map((c) => [c.key, c]))
   // бытовая техника: вместо одной плитки «скоро» — живые подкатегории (стиральные машины, холодильники…)
   const appliances = APPLIANCES.filter((k) => liveByKey.has(k)).map((k) => [k, IconAppliance] as const)
@@ -75,6 +77,47 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
           })}
         </ul>
       </section>
+
+      {showcase.some((c) => c.compares.length) && (
+        <section aria-labelledby="popcmp" className="py-8">
+          <h2 id="popcmp" className="mb-4 text-xl font-semibold">{t.ui.popularCompare}</h2>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {showcase.filter((c) => c.compares.length).map((c) => (
+              <div key={c.key} className="rounded-2xl border border-border p-4">
+                <h3 className="mb-2 text-sm font-semibold text-muted">{c.name}</h3>
+                <ul className="space-y-1.5 text-sm">
+                  {c.compares.map((x) => (
+                    <li key={x.href}><Link href={x.href} className="line-clamp-2 font-medium hover:text-accent hover:underline">{x.name}</Link></li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {showcase.filter((c) => c.fresh.length >= 2).map((c) => (
+        <section key={c.key} aria-labelledby={`new-${c.key}`} className="py-6">
+          <div className="mb-3 flex items-baseline justify-between gap-3">
+            <h2 id={`new-${c.key}`} className="text-xl font-semibold">{c.name} · {t.nav.new}</h2>
+            <Link href={c.href} className="shrink-0 text-sm font-medium text-accent hover:underline">{t.ui.seeAll} →</Link>
+          </div>
+          <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
+            {c.fresh.map((p) => <ProductCard key={p.slug} lang={lang} p={p} />)}
+          </div>
+        </section>
+      ))}
+
+      {showcase.some((c) => c.best.length) && (
+        <section aria-labelledby="tops" className="py-8">
+          <h2 id="tops" className="mb-4 text-xl font-semibold">{t.ui.bestIndexTitle}</h2>
+          <ul className="grid gap-2 text-sm sm:grid-cols-2 lg:grid-cols-3">
+            {showcase.flatMap((c) => c.best).map((x) => (
+              <li key={x.href}><Link href={x.href} className="flex min-h-11 items-center rounded-xl border border-border px-3 py-2 hover:border-accent hover:text-accent">{x.name}</Link></li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {(() => {
         // все остальные включённые категории (автоматические из Icecat и др.) — компактным списком

@@ -151,6 +151,8 @@ export const fr: Dict = {
     radarNote: "Classement parmi tous les modèles de la catégorie : plus c’est à l’extérieur, mieux c’est.",
     trendTitle: "L’évolution des caractéristiques par année",
     trendNote: "Valeur typique (médiane) des modèles sortis chaque année.",
+    popularCompare: "Comparatifs populaires",
+    seeAll: "Tout voir",
     sortName: 'Nom A–Z',
     sortHigh: '{label} : du plus élevé',
     sortLow: '{label} : du plus bas',

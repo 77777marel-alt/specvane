@@ -151,6 +151,8 @@ export const ja: Dict = {
     radarNote: "カテゴリー内の全モデル中の順位：外側ほど優れています。",
     trendTitle: "年ごとのスペックの変化",
     trendNote: "各年に発売されたモデルの代表値（中央値）。",
+    popularCompare: "人気の比較",
+    seeAll: "すべて",
     sortName: '名前順',
     sortHigh: '{label}：高い順',
     sortLow: '{label}：低い順',

@@ -151,6 +151,8 @@ export const cs: Dict = {
     radarNote: "Pořadí mezi všemi modely v kategorii: čím dál od středu, tím lépe.",
     trendTitle: "Jak se parametry měnily v čase",
     trendNote: "Typická hodnota (medián) modelů vydaných v daném roce.",
+    popularCompare: "Oblíbená srovnání",
+    seeAll: "Vše",
     sortName: "Název A–Z",
     sortHigh: "{label}: nejvyšší",
     sortLow: "{label}: nejnižší",

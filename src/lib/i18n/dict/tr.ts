@@ -151,6 +151,8 @@ export const tr: Dict = {
     radarNote: "Kategorideki tüm modeller arasındaki sıralama: dışa doğru = daha iyi.",
     trendTitle: "Özellikler yıllara göre nasıl değişti",
     trendNote: "Her yıl çıkan modellerin tipik değeri (medyan).",
+    popularCompare: "Popüler karşılaştırmalar",
+    seeAll: "Tümü",
     sortName: "Ada göre A–Z",
     sortHigh: "{label}: en yüksek",
     sortLow: "{label}: en düşük",

@@ -151,6 +151,8 @@ export const nl: Dict = {
     radarNote: "Positie tussen alle modellen in de categorie: verder naar buiten = beter.",
     trendTitle: "Hoe de specificaties per jaar veranderden",
     trendNote: "Typische waarde (mediaan) van modellen uit elk jaar.",
+    popularCompare: "Populaire vergelijkingen",
+    seeAll: "Alles",
     sortName: 'Naam A–Z',
     sortHigh: '{label}: hoogste eerst',
     sortLow: '{label}: laagste eerst',

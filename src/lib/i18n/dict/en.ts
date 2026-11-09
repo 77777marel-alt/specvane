@@ -152,6 +152,8 @@ export const en = {
     radarNote: "Rank among all models in the category: further out = better.",
     trendTitle: "How specs changed by year",
     trendNote: "Typical value (median) among models released each year.",
+    popularCompare: "Popular comparisons",
+    seeAll: "All",
     sortName: 'Name A–Z',
     sortHigh: '{label}: highest',
     sortLow: '{label}: lowest',
