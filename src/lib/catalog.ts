@@ -461,6 +461,7 @@ export async function getTrends(lang: Locale, cat: Category) {
   return out.sort((a, b) => b.years.reduce((s, y) => s + y.n, 0) - a.years.reduce((s, y) => s + y.n, 0)).slice(0, 4)
 }
 
+const TOP_BRANDS = new Set(['Apple', 'Samsung', 'Google', 'Xiaomi', 'Sony', 'OnePlus', 'Lenovo', 'Dell', 'HP', 'ASUS', 'Bose', 'LG'])
 /** Бренды, по которым чаще всего ищут сравнения: их пары и модели поднимаем на главной. */
 const POPULAR_BRANDS = new Set(['Apple', 'Samsung', 'Google', 'Xiaomi', 'OnePlus', 'Sony', 'LG', 'Lenovo', 'HP', 'Dell', 'ASUS', 'Acer', 'Microsoft',
   'Huawei', 'Honor', 'Motorola', 'Nothing', 'Bose', 'JBL', 'Garmin', 'Philips', 'TCL', 'Hisense', 'MSI', 'Oppo', 'vivo', 'realme', 'Sennheiser', 'Amazfit'])
@@ -488,7 +489,8 @@ export async function getHomeShowcase(lang: Locale) {
     const withImg = all.filter((p) => p.image)
     // новинки: свежие модели с фото, известные бренды вперёд, не больше 2 моделей одного бренда
     const perBrand = new Map<string, number>()
-    const fresh = [...withImg].sort((a, b) => Number(POPULAR_BRANDS.has(b.brand)) - Number(POPULAR_BRANDS.has(a.brand))
+    const known = (p: (typeof all)[number]) => (TOP_BRANDS.has(p.brand) ? 2 : POPULAR_BRANDS.has(p.brand) ? 1 : 0) - (p.name.length > 28 ? 1 : 0)
+    const fresh = [...withImg].sort((a, b) => known(b) - known(a)
       || String(b.release ?? '').localeCompare(String(a.release ?? '')))
       .filter((p) => { const n = perBrand.get(p.brand) ?? 0; if (n >= 2) return false; perBrand.set(p.brand, n + 1); return true })
       .slice(0, 4)
@@ -496,14 +498,21 @@ export async function getHomeShowcase(lang: Locale) {
     const bySlug = new Map(all.map((p) => [p.slug, p]))
     const { data: pairs } = await s.from('comparisons')
       .select('relevance, a:products!comparisons_product_a_fkey!inner(slug, category_id), b:products!comparisons_product_b_fkey!inner(slug)')
-      .eq('a.category_id', cat.id).order('relevance', { ascending: false }).limit(300)
+      .eq('a.category_id', cat.id).order('relevance', { ascending: false }).limit(1000)
     type Pr = { relevance: number; a: { slug: string }; b: { slug: string } }
-    const score = (x: (typeof all)[number]) => (POPULAR_BRANDS.has(x.brand) ? 2 : 0) + (x.release && Date.parse(x.release) > since ? 1 : 0) + (x.image ? 1 : 0)
+    // известность модели: топ-бренд, свежесть, фото, короткое «человеческое» имя (без артикулов вроде 16-ap1504na)
+    const score = (x: (typeof all)[number]) => (TOP_BRANDS.has(x.brand) ? 3 : POPULAR_BRANDS.has(x.brand) ? 2 : 0)
+      + (x.release && Date.parse(x.release) > since ? 1 : 0) + (x.image ? 1 : -3)
+      - (x.name.length > 28 ? 2 : 0) - (/\d{2,}-\w*\d|\s-\s|\b[A-Z0-9]{8,}\b/.test(x.name) ? 3 : 0)
+    // пара: разные бренды интереснее; варианты одной модели (5G / Wi-Fi) — неинтересны
+    const base = (n: string) => n.replace(/\s+(5G|4G|LTE|Wi-?Fi|Cellular)\b.*$/i, '').trim()
+    const pairScore = (a: (typeof all)[number], b: (typeof all)[number]) => score(a) + score(b)
+      + (a.brand !== b.brand ? 2 : 0) - (base(a.name) === base(b.name) ? 6 : 0)
     const seen = new Set<string>()
     const compares = ((pairs ?? []) as unknown as Pr[])
       .map((r) => ({ a: bySlug.get(r.a.slug), b: bySlug.get(r.b.slug) }))
       .filter((r): r is { a: (typeof all)[number]; b: (typeof all)[number] } => !!r.a && !!r.b)
-      .sort((x, y) => score(y.a) + score(y.b) - score(x.a) - score(x.b))
+      .sort((x, y) => pairScore(y.a, y.b) - pairScore(x.a, x.b))
       .filter((r) => { const k = r.a.slug, m = r.b.slug; if (seen.has(k) || seen.has(m)) return false; seen.add(k); seen.add(m); return true })
       .slice(0, 4)
       .map((r) => ({ name: `${r.a.brand} ${r.a.name} vs ${r.b.brand} ${r.b.name}`, href: compareHref(lang, r.a.slug, r.b.slug) }))
