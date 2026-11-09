@@ -128,7 +128,7 @@ export function CategoryBrowser({ lang, items, filters, brands, s, compare }:
         if (f.type === 'bool') {
           const on = bools.includes(f.key)
           return (
-            <button key={f.key} type="button" aria-pressed={on} className={`${chip(on)} w-full text-left`}
+            <button key={f.key} type="button" aria-pressed={on} className={`${chip(on)} w-full text-start`}
               onClick={() => { setBools(toggle(bools, f.key)); setLimit(PAGE) }}>
               {f.label}: {s.yesOnly}
             </button>
@@ -155,7 +155,7 @@ export function CategoryBrowser({ lang, items, filters, brands, s, compare }:
   return (
     <div className="mt-5 lg:grid lg:grid-cols-[16rem_1fr] lg:gap-8">
       <aside className="hidden lg:block">
-        <div className="sticky top-20 max-h-[calc(100vh-6rem)] overflow-y-auto pr-1 no-scrollbar">
+        <div className="sticky top-20 max-h-[calc(100vh-6rem)] overflow-y-auto pe-1 no-scrollbar">
           <h2 className="mb-3 font-semibold">{s.filters}</h2>
           {panel}
         </div>
@@ -167,7 +167,7 @@ export function CategoryBrowser({ lang, items, filters, brands, s, compare }:
             {s.filters}{active > 0 && <span className="num rounded-full bg-accent px-1.5 text-xs text-accent-fg">{active}</span>}
           </button>
           <span className="num text-sm text-muted">{fill(s.models, { n: shown.length })}</span>
-          <label className="ml-auto flex items-center gap-2 text-sm">
+          <label className="ms-auto flex items-center gap-2 text-sm">
             <span className="hidden text-muted sm:inline">{s.sort}</span>
             <select value={sort} onChange={(e) => setSort(e.target.value)} className="h-10 max-w-[12rem] rounded-xl border border-border bg-bg px-2 text-sm">
               {sorts.map((o) => <option key={o.id} value={o.id}>{o.label}</option>)}

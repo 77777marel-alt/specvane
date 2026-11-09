@@ -46,14 +46,14 @@ export function Gallery({ images, alt }: { images: string[]; alt: string }) {
         {n > 1 && (
           <>
             <button type="button" onClick={() => go(-1)} aria-label="←"
-              className="absolute left-2 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-border bg-bg/90 shadow-card transition hover:border-accent md:opacity-0 md:group-hover:opacity-100 md:focus-visible:opacity-100">
+              className="absolute start-2 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-border bg-bg/90 shadow-card transition hover:border-accent md:opacity-0 md:group-hover:opacity-100 md:focus-visible:opacity-100">
               <IconChevron className="h-5 w-5 rotate-180" />
             </button>
             <button type="button" onClick={() => go(1)} aria-label="→"
-              className="absolute right-2 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-border bg-bg/90 shadow-card transition hover:border-accent md:opacity-0 md:group-hover:opacity-100 md:focus-visible:opacity-100">
+              className="absolute end-2 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-border bg-bg/90 shadow-card transition hover:border-accent md:opacity-0 md:group-hover:opacity-100 md:focus-visible:opacity-100">
               <IconChevron className="h-5 w-5" />
             </button>
-            <div className="num absolute bottom-2 right-3 rounded-full bg-bg/80 px-2 py-0.5 text-xs text-muted">{cur + 1} / {n}</div>
+            <div className="num absolute bottom-2 end-3 rounded-full bg-bg/80 px-2 py-0.5 text-xs text-muted">{cur + 1} / {n}</div>
           </>
         )}
       </div>

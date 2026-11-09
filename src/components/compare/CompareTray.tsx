@@ -24,7 +24,7 @@ export function CompareTray({ s }: { s: Strings }) {
                 ) : <span className="h-8 w-8 shrink-0 rounded-lg bg-surface-2" />}
                 <span className="truncate text-sm font-medium">{it.name}</span>
                 <button type="button" onClick={() => compareStore.remove(it.slug)} aria-label={`${s.remove}: ${it.name}`}
-                  className="ml-auto flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-muted hover:bg-bg hover:text-fg">×</button>
+                  className="ms-auto flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-muted hover:bg-bg hover:text-fg">×</button>
               </div>
             </li>
           ))}

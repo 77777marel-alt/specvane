@@ -22,7 +22,7 @@ export function Header({ lang, t }: { lang: Locale; t: Dict }) {
         <div className="mx-auto hidden w-full max-w-md md:block">
           <SearchBox lang={lang} placeholder={t.ui.searchPlaceholder} label={t.ui.searchLabel} empty={t.ui.noResults} />
         </div>
-        <div className="ml-auto flex items-center gap-2 md:ml-0">
+        <div className="ms-auto flex items-center gap-2 md:ms-0">
           <ThemeToggle labels={{ theme: t.ui.theme, light: t.ui.themeLight, dark: t.ui.themeDark, system: t.ui.themeSystem }} />
           <div className="hidden md:block"><LangSwitcher lang={lang} label={t.nav.language} /></div>
         </div>

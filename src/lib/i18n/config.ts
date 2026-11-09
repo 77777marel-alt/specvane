@@ -1,5 +1,7 @@
 // Языки и рынки Specvane. Добавить язык = добавить строку сюда + словарь в ./dict.
-export const LOCALES = ['en', 'de', 'fr', 'it', 'es', 'nl', 'pl', 'sv', 'pt-br', 'ja'] as const
+export const LOCALES = ['en', 'de', 'fr', 'it', 'es', 'nl', 'pl', 'sv', 'pt-br', 'ja', 'tr', 'el', 'cs', 'ro', 'da', 'fi', 'nb', 'ru', 'uk', 'ar'] as const
+/** языки с письмом справа налево */
+export const RTL: readonly string[] = ['ar']
 export type Locale = (typeof LOCALES)[number]
 export const DEFAULT_LOCALE: Locale = 'en'
 
@@ -37,6 +39,17 @@ export const MARKETS: Record<Locale, Market> = {
   sv: { hreflang: 'sv', nativeName: 'Svenska', currency: 'SEK', defaultCountry: 'SE', amazon: [{ domain: 'amazon.se', countries: ['SE'] }] },
   'pt-br': { hreflang: 'pt-BR', nativeName: 'Português (Brasil)', currency: 'BRL', defaultCountry: 'BR', amazon: [{ domain: 'amazon.com.br', countries: ['BR'] }] },
   ja: { hreflang: 'ja', nativeName: '日本語', currency: 'JPY', defaultCountry: 'JP', amazon: [{ domain: 'amazon.co.jp', countries: ['JP'] }] },
+  // волна 2 (09.11.2026). Где своего Amazon нет — ближайший, который доставляет в страну; позже местные магазины (Awin и др.)
+  tr: { hreflang: 'tr', nativeName: 'Türkçe', currency: 'TRY', defaultCountry: 'TR', amazon: [{ domain: 'amazon.com.tr', countries: ['TR'] }] },
+  el: { hreflang: 'el', nativeName: 'Ελληνικά', currency: 'EUR', defaultCountry: 'GR', amazon: [{ domain: 'amazon.de', countries: ['GR', 'CY'] }] },
+  cs: { hreflang: 'cs', nativeName: 'Čeština', currency: 'CZK', defaultCountry: 'CZ', amazon: [{ domain: 'amazon.de', countries: ['CZ'] }] },
+  ro: { hreflang: 'ro', nativeName: 'Română', currency: 'RON', defaultCountry: 'RO', amazon: [{ domain: 'amazon.de', countries: ['RO', 'MD'] }] },
+  da: { hreflang: 'da', nativeName: 'Dansk', currency: 'DKK', defaultCountry: 'DK', amazon: [{ domain: 'amazon.de', countries: ['DK'] }] },
+  fi: { hreflang: 'fi', nativeName: 'Suomi', currency: 'EUR', defaultCountry: 'FI', amazon: [{ domain: 'amazon.de', countries: ['FI'] }] },
+  nb: { hreflang: 'nb', nativeName: 'Norsk', currency: 'NOK', defaultCountry: 'NO', amazon: [{ domain: 'amazon.se', countries: ['NO'] }] },
+  ru: { hreflang: 'ru', nativeName: 'Русский', currency: 'EUR', defaultCountry: 'DE', amazon: [{ domain: 'amazon.de', countries: ['DE', 'AT', 'CY', 'LV', 'EE', 'LT'] }] },
+  uk: { hreflang: 'uk', nativeName: 'Українська', currency: 'UAH', defaultCountry: 'UA', amazon: [{ domain: 'amazon.pl', countries: ['UA', 'PL'] }] },
+  ar: { hreflang: 'ar', nativeName: 'العربية', currency: 'AED', defaultCountry: 'AE', amazon: [{ domain: 'amazon.ae', countries: ['AE'] }, { domain: 'amazon.sa', countries: ['SA'] }, { domain: 'amazon.eg', countries: ['EG'] }] },
 }
 
 /** Магазин Amazon для кнопки «Купить» по стране посетителя (заголовок Vercel). */

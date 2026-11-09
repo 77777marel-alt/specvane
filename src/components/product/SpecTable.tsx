@@ -7,11 +7,11 @@ export function SpecTable({ groups, title }: { groups: SpecGroup[]; title: strin
       <div className="overflow-hidden rounded-2xl border border-border">
         {groups.map((g) => (
           <table key={g.name} className="w-full text-sm">
-            <caption className="bg-surface px-4 py-2 text-left text-xs font-semibold uppercase tracking-wide text-muted">{g.name}</caption>
+            <caption className="bg-surface px-4 py-2 text-start text-xs font-semibold uppercase tracking-wide text-muted">{g.name}</caption>
             <tbody className="divide-y divide-border">
               {g.specs.map((s) => (
                 <tr key={s.key}>
-                  <th scope="row" className="w-1/2 px-4 py-2.5 text-left font-normal text-muted">{s.label}</th>
+                  <th scope="row" className="w-1/2 px-4 py-2.5 text-start font-normal text-muted">{s.label}</th>
                   <td className="num px-4 py-2.5 font-medium">{s.display}</td>
                 </tr>
               ))}

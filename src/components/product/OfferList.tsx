@@ -20,7 +20,7 @@ export function OfferList({ lang, t, offers }: { lang: Locale; t: Dict; offers: 
                   {i === 0 && o.inStock && <span className="rounded-full bg-accent-soft px-2 py-0.5 font-medium text-accent">{t.ui.bestPrice}</span>}
                 </span>
               </span>
-              <span className="num shrink-0 whitespace-nowrap text-right text-base font-semibold">{o.price != null ? money(lang, o.price, o.currency) : '—'}</span>
+              <span className="num shrink-0 whitespace-nowrap text-end text-base font-semibold">{o.price != null ? money(lang, o.price, o.currency) : '—'}</span>
               <IconChevron className="h-4 w-4 text-muted" />
             </a>
           </li>

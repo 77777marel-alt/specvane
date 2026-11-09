@@ -27,7 +27,7 @@ export function CompareTable({ cols, groups, labels }: {
     <div>
       <label className="mb-3 inline-flex cursor-pointer items-center gap-2 text-sm">
         <input type="checkbox" checked={onlyDiff} onChange={(e) => setOnlyDiff(e.target.checked)} className="peer sr-only" />
-        <span className="relative h-6 w-10 rounded-full bg-surface-2 transition-colors after:absolute after:left-0.5 after:top-0.5 after:h-5 after:w-5 after:rounded-full after:bg-bg after:shadow after:transition-transform peer-checked:bg-accent peer-checked:after:translate-x-4 peer-focus-visible:outline-2 peer-focus-visible:outline-accent" />
+        <span className="relative h-6 w-10 rounded-full bg-surface-2 transition-colors after:absolute after:start-0.5 after:top-0.5 after:h-5 after:w-5 after:rounded-full after:bg-bg after:shadow after:transition-transform peer-checked:bg-accent peer-checked:after:translate-x-4 peer-focus-visible:outline-2 peer-focus-visible:outline-accent" />
         {labels.onlyDiff}
       </label>
       <div className="overflow-x-auto rounded-2xl border border-border" role="table">

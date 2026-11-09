@@ -11,7 +11,17 @@ import { pl } from './dict/pl'
 import { sv } from './dict/sv'
 import { ptBr } from './dict/pt-br'
 import { ja } from './dict/ja'
+import { tr } from './dict/tr'
+import { el } from './dict/el'
+import { cs } from './dict/cs'
+import { ro } from './dict/ro'
+import { da } from './dict/da'
+import { fi } from './dict/fi'
+import { nb } from './dict/nb'
+import { ru } from './dict/ru'
+import { uk } from './dict/uk'
+import { ar } from './dict/ar'
 
-const DICTS: Record<Locale, Dict> = { en, de, fr, it, es, nl, pl, sv, 'pt-br': ptBr, ja }
+const DICTS: Record<Locale, Dict> = { en, de, fr, it, es, nl, pl, sv, 'pt-br': ptBr, ja, tr, el, cs, ro, da, fi, nb, ru, uk, ar }
 export const getDict = (l: Locale): Dict => DICTS[l]
 export type { Dict }

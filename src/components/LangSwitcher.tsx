@@ -13,7 +13,7 @@ export function LangSwitcher({ lang, label }: { lang: Locale; label: string }) {
         <span className="sr-only">{label}: </span>
         {MARKETS[lang].nativeName}
       </summary>
-      <ul className="absolute right-0 z-40 mt-2 w-56 rounded-xl border border-border bg-bg p-1 shadow-card">
+      <ul className="absolute end-0 z-40 mt-2 w-56 rounded-xl border border-border bg-bg p-1 shadow-card">
         {LOCALES.map((l) => (
           <li key={l}>
             <a href={translatePath(path, lang, l)} hrefLang={MARKETS[l].hreflang} lang={MARKETS[l].hreflang}

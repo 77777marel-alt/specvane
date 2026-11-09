@@ -29,6 +29,17 @@ test('ТВ: запасной признак частоты, разрешение
 })
 
 test('подписи есть на всех языках', () => {
-  for (const [k, v] of Object.entries(LABELS)) assert.equal(v.length, LANGS.length, k)
+  for (const [k, v] of Object.entries(LABELS)) assert.equal(v.length, LANGS.length, k) // 10 базовых языков; новые — в i18n-extra.json
   for (const c of Object.values(CATEGORIES)) for (const l of LANGS) assert.ok(c.i18n[l]?.[0]?.match(/^[a-z0-9-]+$/), l)
+})
+
+test('новые языки: подписи всех характеристик, групп и названия категорий', async () => {
+  const { EXTRA_LANGS } = await import('./categories.mjs')
+  const { labelFor, groupLabel, categoryI18n } = await import('./labels.mjs')
+  const { readFileSync } = await import('node:fs')
+  const extra = JSON.parse(readFileSync(new URL('./i18n-extra.json', import.meta.url), 'utf8'))
+  for (const [key, c] of Object.entries(CATEGORIES)) for (const l of EXTRA_LANGS) {
+    const ci = categoryI18n(key, l); assert.ok(ci && /^[a-z0-9-]+$/.test(ci[0]), `${key}/${l}`)
+    for (const sp of c.specs) { assert.ok(extra.labels[sp.key]?.[l], `${sp.key}/${l}`); assert.ok(labelFor(sp.key, l)); assert.ok(groupLabel(sp.group, l)) }
+  }
 })

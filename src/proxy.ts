@@ -12,7 +12,8 @@ function pickLocale(req: NextRequest): string {
     const tag = part.split(';')[0].trim()
     if (!tag) continue
     if (tag.startsWith('pt')) return tag === 'pt-br' || tag === 'pt' ? 'pt-br' : DEFAULT_LOCALE
-    const base = tag.split('-')[0]
+    let base = tag.split('-')[0]
+    if (base === 'no' || base === 'nn') base = 'nb' // норвежский: браузеры шлют no / nb / nn
     if (isLocale(base)) return base
   }
   return DEFAULT_LOCALE

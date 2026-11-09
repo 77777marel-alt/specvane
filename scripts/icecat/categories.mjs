@@ -5,7 +5,10 @@
 
 import { flatFeatures } from './map.mjs'
 
-export const LANGS = ['en', 'de', 'fr', 'it', 'es', 'nl', 'pl', 'sv', 'pt-br', 'ja']
+export const LANGS = ['en', 'de', 'fr', 'it', 'es', 'nl', 'pl', 'sv', 'pt-br', 'ja'] // порядок подписей в массивах LABELS
+// волна 2 языков (09.11.2026): подписи — в i18n-extra.json, у автокатегорий — от Icecat
+export const EXTRA_LANGS = ['tr', 'el', 'cs', 'ro', 'da', 'fi', 'nb', 'ru', 'uk', 'ar']
+export const ALL_LANGS = [...LANGS, ...EXTRA_LANGS]
 
 // ---------- преобразования значений ----------
 const num = (f) => {

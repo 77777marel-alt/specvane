@@ -1,0 +1,2948 @@
+{
+ "labels": {
+  "wearing_style": {
+   "tr": "Kullanım şekli",
+   "el": "Τύπος εφαρμογής",
+   "cs": "Způsob nošení",
+   "ro": "Mod de purtare",
+   "da": "Bæremåde",
+   "fi": "Käyttötapa",
+   "nb": "Bæremåte",
+   "ru": "Тип ношения",
+   "uk": "Тип носіння",
+   "ar": "طريقة الارتداء"
+  },
+  "ear_coupling": {
+   "tr": "Akustik tasarım",
+   "el": "Ακουστική σχεδίαση",
+   "cs": "Akustická konstrukce",
+   "ro": "Tip construcție acustică",
+   "da": "Akustisk design",
+   "fi": "Akustinen rakenne",
+   "nb": "Akustisk design",
+   "ru": "Акустическое оформление",
+   "uk": "Акустичне оформлення",
+   "ar": "التصميم الصوتي"
+  },
+  "connection": {
+   "tr": "Bağlantı",
+   "el": "Σύνδεση",
+   "cs": "Připojení",
+   "ro": "Conectare",
+   "da": "Tilslutning",
+   "fi": "Liitäntä",
+   "nb": "Tilkobling",
+   "ru": "Подключение",
+   "uk": "Підключення",
+   "ar": "الاتصال"
+  },
+  "anc": {
+   "tr": "Aktif gürültü engelleme",
+   "el": "Ενεργή ακύρωση θορύβου",
+   "cs": "Aktivní potlačení hluku",
+   "ro": "Anulare activă a zgomotului",
+   "da": "Aktiv støjreduktion",
+   "fi": "Aktiivinen melunvaimennus",
+   "nb": "Aktiv støydemping",
+   "ru": "Активное шумоподавление",
+   "uk": "Активне шумозаглушення",
+   "ar": "إلغاء الضوضاء النشط"
+  },
+  "driver_size": {
+   "tr": "Sürücü boyutu",
+   "el": "Μέγεθος μεγαφώνου",
+   "cs": "Velikost měniče",
+   "ro": "Dimensiune difuzor",
+   "da": "Driverstørrelse",
+   "fi": "Elementin koko",
+   "nb": "Elementstørrelse",
+   "ru": "Размер динамика",
+   "uk": "Розмір динаміка",
+   "ar": "حجم وحدة الصوت"
+  },
+  "frequency_range": {
+   "tr": "Frekans aralığı",
+   "el": "Απόκριση συχνοτήτων",
+   "cs": "Frekvenční rozsah",
+   "ro": "Răspuns în frecvență",
+   "da": "Frekvensområde",
+   "fi": "Taajuusalue",
+   "nb": "Frekvensområde",
+   "ru": "Диапазон частот",
+   "uk": "Діапазон частот",
+   "ar": "نطاق التردد"
+  },
+  "impedance": {
+   "tr": "Empedans",
+   "el": "Σύνθετη αντίσταση",
+   "cs": "Impedance",
+   "ro": "Impedanță",
+   "da": "Impedans",
+   "fi": "Impedanssi",
+   "nb": "Impedans",
+   "ru": "Импеданс",
+   "uk": "Імпеданс",
+   "ar": "المعاوقة"
+  },
+  "sensitivity": {
+   "tr": "Hassasiyet",
+   "el": "Ευαισθησία",
+   "cs": "Citlivost",
+   "ro": "Sensibilitate",
+   "da": "Følsomhed",
+   "fi": "Herkkyys",
+   "nb": "Følsomhet",
+   "ru": "Чувствительность",
+   "uk": "Чутливість",
+   "ar": "الحساسية"
+  },
+  "microphone": {
+   "tr": "Mikrofon",
+   "el": "Μικρόφωνο",
+   "cs": "Mikrofon",
+   "ro": "Microfon",
+   "da": "Mikrofon",
+   "fi": "Mikrofoni",
+   "nb": "Mikrofon",
+   "ru": "Микрофон",
+   "uk": "Мікрофон",
+   "ar": "الميكروفون"
+  },
+  "battery_life": {
+   "tr": "Pil ömrü",
+   "el": "Διάρκεια μπαταρίας",
+   "cs": "Výdrž baterie",
+   "ro": "Autonomie baterie",
+   "da": "Batteritid",
+   "fi": "Akunkesto",
+   "nb": "Batteritid",
+   "ru": "Время работы от батареи",
+   "uk": "Час роботи від батареї",
+   "ar": "عمر البطارية"
+  },
+  "charging_time": {
+   "tr": "Şarj süresi",
+   "el": "Χρόνος φόρτισης",
+   "cs": "Doba nabíjení",
+   "ro": "Timp de încărcare",
+   "da": "Opladningstid",
+   "fi": "Latausaika",
+   "nb": "Ladetid",
+   "ru": "Время зарядки",
+   "uk": "Час заряджання",
+   "ar": "مدة الشحن"
+  },
+  "fast_charging": {
+   "tr": "Hızlı şarj",
+   "el": "Γρήγορη φόρτιση",
+   "cs": "Rychlé nabíjení",
+   "ro": "Încărcare rapidă",
+   "da": "Hurtigopladning",
+   "fi": "Pikalataus",
+   "nb": "Hurtiglading",
+   "ru": "Быстрая зарядка",
+   "uk": "Швидке заряджання",
+   "ar": "الشحن السريع"
+  },
+  "wireless_charging_support": {
+   "tr": "Kablosuz şarj",
+   "el": "Ασύρματη φόρτιση",
+   "cs": "Bezdrátové nabíjení",
+   "ro": "Încărcare wireless",
+   "da": "Trådløs opladning",
+   "fi": "Langaton lataus",
+   "nb": "Trådløs lading",
+   "ru": "Беспроводная зарядка",
+   "uk": "Бездротове заряджання",
+   "ar": "الشحن اللاسلكي"
+  },
+  "multipoint": {
+   "tr": "Eşzamanlı cihaz",
+   "el": "Ταυτόχρονες συσκευές",
+   "cs": "Současně připojená zařízení",
+   "ro": "Dispozitive simultane",
+   "da": "Samtidige enheder",
+   "fi": "Samanaikaiset laitteet",
+   "nb": "Samtidige enheter",
+   "ru": "Одновременное подключение",
+   "uk": "Одночасне підключення",
+   "ar": "أجهزة متصلة في آن واحد"
+  },
+  "foldable": {
+   "tr": "Katlanabilir",
+   "el": "Αναδιπλούμενος σχεδιασμός",
+   "cs": "Skládací",
+   "ro": "Pliabil",
+   "da": "Foldbar",
+   "fi": "Taitettava",
+   "nb": "Sammenleggbar",
+   "ru": "Складная конструкция",
+   "uk": "Складна конструкція",
+   "ar": "قابلة للطي"
+  },
+  "resolution_class": {
+   "tr": "Çözünürlük sınıfı",
+   "el": "Κατηγορία ανάλυσης",
+   "cs": "Třída rozlišení",
+   "ro": "Clasă rezoluție",
+   "da": "Opløsningsklasse",
+   "fi": "Resoluutioluokka",
+   "nb": "Oppløsningsklasse",
+   "ru": "Класс разрешения",
+   "uk": "Клас роздільної здатності",
+   "ar": "فئة الدقة"
+  },
+  "hdr": {
+   "tr": "HDR formatları",
+   "el": "Μορφές HDR",
+   "cs": "Formáty HDR",
+   "ro": "Formate HDR",
+   "da": "HDR-formater",
+   "fi": "HDR-formaatit",
+   "nb": "HDR-formater",
+   "ru": "Форматы HDR",
+   "uk": "Формати HDR",
+   "ar": "صيغ HDR"
+  },
+  "dolby_vision": {
+   "tr": "Dolby Vision",
+   "el": "Dolby Vision",
+   "cs": "Dolby Vision",
+   "ro": "Dolby Vision",
+   "da": "Dolby Vision",
+   "fi": "Dolby Vision",
+   "nb": "Dolby Vision",
+   "ru": "Dolby Vision",
+   "uk": "Dolby Vision",
+   "ar": "Dolby Vision"
+  },
+  "picture_processor": {
+   "tr": "Görüntü işlemcisi",
+   "el": "Επεξεργαστής εικόνας",
+   "cs": "Obrazový procesor",
+   "ro": "Procesor de imagine",
+   "da": "Billedprocessor",
+   "fi": "Kuvaprosessori",
+   "nb": "Bildeprosessor",
+   "ru": "Процессор изображения",
+   "uk": "Процесор зображення",
+   "ar": "معالج الصورة"
+  },
+  "speaker_power": {
+   "tr": "Hoparlör gücü",
+   "el": "Ισχύς ηχείων",
+   "cs": "Výkon reproduktorů",
+   "ro": "Putere boxe",
+   "da": "Højttalereffekt",
+   "fi": "Kaiuttimien teho",
+   "nb": "Høyttalereffekt",
+   "ru": "Мощность динамиков",
+   "uk": "Потужність динаміків",
+   "ar": "قدرة السماعات"
+  },
+  "audio_channels": {
+   "tr": "Ses kanalları",
+   "el": "Κανάλια ήχου",
+   "cs": "Zvukové kanály",
+   "ro": "Canale audio",
+   "da": "Lydkanaler",
+   "fi": "Äänikanavat",
+   "nb": "Lydkanaler",
+   "ru": "Аудиоканалы",
+   "uk": "Аудіоканали",
+   "ar": "قنوات الصوت"
+  },
+  "smart_tv": {
+   "tr": "Smart TV",
+   "el": "Smart TV",
+   "cs": "Smart TV",
+   "ro": "Smart TV",
+   "da": "Smart TV",
+   "fi": "Smart TV",
+   "nb": "Smart TV",
+   "ru": "Smart TV",
+   "uk": "Smart TV",
+   "ar": "Smart TV"
+  },
+  "hdmi_ports": {
+   "tr": "HDMI girişleri",
+   "el": "Θύρες HDMI",
+   "cs": "Porty HDMI",
+   "ro": "Porturi HDMI",
+   "da": "HDMI-indgange",
+   "fi": "HDMI-liitännät",
+   "nb": "HDMI-innganger",
+   "ru": "Порты HDMI",
+   "uk": "Порти HDMI",
+   "ar": "منافذ HDMI"
+  },
+  "hdmi_version": {
+   "tr": "HDMI sürümü",
+   "el": "Έκδοση HDMI",
+   "cs": "Verze HDMI",
+   "ro": "Versiune HDMI",
+   "da": "HDMI-version",
+   "fi": "HDMI-versio",
+   "nb": "HDMI-versjon",
+   "ru": "Версия HDMI",
+   "uk": "Версія HDMI",
+   "ar": "إصدار HDMI"
+  },
+  "earc": {
+   "tr": "eARC",
+   "el": "eARC",
+   "cs": "eARC",
+   "ro": "eARC",
+   "da": "eARC",
+   "fi": "eARC",
+   "nb": "eARC",
+   "ru": "eARC",
+   "uk": "eARC",
+   "ar": "eARC"
+  },
+  "freesync": {
+   "tr": "AMD FreeSync",
+   "el": "AMD FreeSync",
+   "cs": "AMD FreeSync",
+   "ro": "AMD FreeSync",
+   "da": "AMD FreeSync",
+   "fi": "AMD FreeSync",
+   "nb": "AMD FreeSync",
+   "ru": "AMD FreeSync",
+   "uk": "AMD FreeSync",
+   "ar": "AMD FreeSync"
+  },
+  "gsync": {
+   "tr": "NVIDIA G-SYNC",
+   "el": "NVIDIA G-SYNC",
+   "cs": "NVIDIA G-SYNC",
+   "ro": "NVIDIA G-SYNC",
+   "da": "NVIDIA G-SYNC",
+   "fi": "NVIDIA G-SYNC",
+   "nb": "NVIDIA G-SYNC",
+   "ru": "NVIDIA G-SYNC",
+   "uk": "NVIDIA G-SYNC",
+   "ar": "NVIDIA G-SYNC"
+  },
+  "energy_class": {
+   "tr": "Enerji sınıfı",
+   "el": "Ενεργειακή κλάση",
+   "cs": "Energetická třída",
+   "ro": "Clasă energetică",
+   "da": "Energiklasse",
+   "fi": "Energialuokka",
+   "nb": "Energiklasse",
+   "ru": "Класс энергопотребления",
+   "uk": "Клас енергоспоживання",
+   "ar": "فئة الطاقة"
+  },
+  "power_typical": {
+   "tr": "Güç tüketimi",
+   "el": "Κατανάλωση ενέργειας",
+   "cs": "Spotřeba energie",
+   "ro": "Consum de energie",
+   "da": "Strømforbrug",
+   "fi": "Virrankulutus",
+   "nb": "Strømforbruk",
+   "ru": "Энергопотребление",
+   "uk": "Енергоспоживання",
+   "ar": "استهلاك الطاقة"
+  },
+  "weight_kg": {
+   "tr": "Ağırlık",
+   "el": "Βάρος",
+   "cs": "Hmotnost",
+   "ro": "Greutate",
+   "da": "Vægt",
+   "fi": "Paino",
+   "nb": "Vekt",
+   "ru": "Вес",
+   "uk": "Вага",
+   "ar": "الوزن"
+  },
+  "depth_mm": {
+   "tr": "Derinlik",
+   "el": "Βάθος",
+   "cs": "Hloubka",
+   "ro": "Adâncime",
+   "da": "Dybde",
+   "fi": "Syvyys",
+   "nb": "Dybde",
+   "ru": "Глубина",
+   "uk": "Глибина",
+   "ar": "العمق"
+  },
+  "vesa": {
+   "tr": "VESA montaj",
+   "el": "Βάση VESA",
+   "cs": "Uchycení VESA",
+   "ro": "Montare VESA",
+   "da": "VESA-beslag",
+   "fi": "VESA-kiinnitys",
+   "nb": "VESA-feste",
+   "ru": "Крепление VESA",
+   "uk": "Кріплення VESA",
+   "ar": "تثبيت VESA"
+  },
+  "touchscreen": {
+   "tr": "Dokunmatik ekran",
+   "el": "Οθόνη αφής",
+   "cs": "Dotykový displej",
+   "ro": "Ecran tactil",
+   "da": "Berøringsskærm",
+   "fi": "Kosketusnäyttö",
+   "nb": "Berøringsskjerm",
+   "ru": "Сенсорный экран",
+   "uk": "Сенсорний екран",
+   "ar": "شاشة لمس"
+  },
+  "cpu": {
+   "tr": "İşlemci",
+   "el": "Επεξεργαστής",
+   "cs": "Procesor",
+   "ro": "Procesor",
+   "da": "Processor",
+   "fi": "Prosessori",
+   "nb": "Prosessor",
+   "ru": "Процессор",
+   "uk": "Процесор",
+   "ar": "المعالج"
+  },
+  "cpu_threads": {
+   "tr": "İşlemci iş parçacığı",
+   "el": "Νήματα επεξεργαστή",
+   "cs": "Počet vláken",
+   "ro": "Fire de execuție",
+   "da": "Processortråde",
+   "fi": "Säikeet",
+   "nb": "Prosessortråder",
+   "ru": "Потоки процессора",
+   "uk": "Потоки процесора",
+   "ar": "خيوط المعالج"
+  },
+  "cpu_boost": {
+   "tr": "Turbo frekans",
+   "el": "Μέγιστη συχνότητα (Boost)",
+   "cs": "Frekvence Boost",
+   "ro": "Frecvență Boost",
+   "da": "Boost-frekvens",
+   "fi": "Boost-kellotaajuus",
+   "nb": "Boost-frekvens",
+   "ru": "Частота Turbo",
+   "uk": "Частота Turbo",
+   "ar": "تردد التعزيز"
+  },
+  "ram_type": {
+   "tr": "Bellek tipi",
+   "el": "Τύπος μνήμης",
+   "cs": "Typ paměti",
+   "ro": "Tip memorie",
+   "da": "Hukommelsestype",
+   "fi": "Muistityyppi",
+   "nb": "Minnetype",
+   "ru": "Тип памяти",
+   "uk": "Тип пам'яті",
+   "ar": "نوع الذاكرة"
+  },
+  "storage_type": {
+   "tr": "Depolama tipi",
+   "el": "Τύπος αποθήκευσης",
+   "cs": "Typ úložiště",
+   "ro": "Tip stocare",
+   "da": "Lagertype",
+   "fi": "Tallennustilan tyyppi",
+   "nb": "Lagringstype",
+   "ru": "Тип накопителя",
+   "uk": "Тип накопичувача",
+   "ar": "نوع التخزين"
+  },
+  "gpu": {
+   "tr": "Ekran kartı",
+   "el": "Κάρτα γραφικών",
+   "cs": "Grafická karta",
+   "ro": "Placă video",
+   "da": "Grafikkort",
+   "fi": "Näytönohjain",
+   "nb": "Grafikkort",
+   "ru": "Видеокарта",
+   "uk": "Відеокарта",
+   "ar": "بطاقة الرسومات"
+  },
+  "discrete_gpu": {
+   "tr": "Harici ekran kartı",
+   "el": "Αυτόνομη κάρτα γραφικών",
+   "cs": "Dedikovaná grafika",
+   "ro": "Placă video dedicată",
+   "da": "Dedikeret grafikkort",
+   "fi": "Erillinen näytönohjain",
+   "nb": "Dedikert grafikkort",
+   "ru": "Дискретная видеокарта",
+   "uk": "Дискретна відеокарта",
+   "ar": "بطاقة رسومات منفصلة"
+  },
+  "battery_wh": {
+   "tr": "Pil kapasitesi",
+   "el": "Χωρητικότητα μπαταρίας",
+   "cs": "Kapacita baterie",
+   "ro": "Capacitate baterie",
+   "da": "Batterikapacitet",
+   "fi": "Akun kapasiteetti",
+   "nb": "Batterikapasitet",
+   "ru": "Ёмкость аккумулятора",
+   "uk": "Ємність акумулятора",
+   "ar": "سعة البطارية"
+  },
+  "adapter_power": {
+   "tr": "Şarj adaptörü",
+   "el": "Τροφοδοτικό",
+   "cs": "Napájecí adaptér",
+   "ro": "Alimentator",
+   "da": "Strømforsyning",
+   "fi": "Virtalähde",
+   "nb": "Strømadapter",
+   "ru": "Блок питания",
+   "uk": "Блок живлення",
+   "ar": "محول الطاقة"
+  },
+  "keyboard_backlit": {
+   "tr": "Aydınlatmalı klavye",
+   "el": "Φωτιζόμενο πληκτρολόγιο",
+   "cs": "Podsvícená klávesnice",
+   "ro": "Tastatură iluminată",
+   "da": "Baggrundsbelyst tastatur",
+   "fi": "Taustavalaistu näppäimistö",
+   "nb": "Bakgrunnsbelyst tastatur",
+   "ru": "Подсветка клавиатуры",
+   "uk": "Підсвічування клавіатури",
+   "ar": "لوحة مفاتيح بإضاءة خلفية"
+  },
+  "fingerprint": {
+   "tr": "Parmak izi okuyucu",
+   "el": "Αναγνώστης δακτυλικών αποτυπωμάτων",
+   "cs": "Čtečka otisků prstů",
+   "ro": "Cititor de amprentă",
+   "da": "Fingeraftrykslæser",
+   "fi": "Sormenjälkitunnistin",
+   "nb": "Fingeravtrykksleser",
+   "ru": "Сканер отпечатков пальцев",
+   "uk": "Сканер відбитків пальців",
+   "ar": "قارئ بصمة الإصبع"
+  },
+  "cellular": {
+   "tr": "Mobil ağ",
+   "el": "Δίκτυο κινητής",
+   "cs": "Mobilní síť",
+   "ro": "Rețea mobilă",
+   "da": "Mobilnetværk",
+   "fi": "Mobiiliverkko",
+   "nb": "Mobilnett",
+   "ru": "Мобильная связь",
+   "uk": "Мобільний зв'язок",
+   "ar": "شبكة الجوال"
+  },
+  "always_on": {
+   "tr": "Always-on ekran",
+   "el": "Always-on οθόνη",
+   "cs": "Always-on displej",
+   "ro": "Ecran Always-on",
+   "da": "Always-on-skærm",
+   "fi": "Always-on-näyttö",
+   "nb": "Always-on-skjerm",
+   "ru": "Always-on Display",
+   "uk": "Always-on Display",
+   "ar": "شاشة دائمة التشغيل"
+  },
+  "case_size": {
+   "tr": "Kasa boyutu",
+   "el": "Μέγεθος κάσας",
+   "cs": "Velikost pouzdra",
+   "ro": "Dimensiune carcasă",
+   "da": "Kassestørrelse",
+   "fi": "Kotelon koko",
+   "nb": "Kassestørrelse",
+   "ru": "Размер корпуса",
+   "uk": "Розмір корпусу",
+   "ar": "حجم الهيكل"
+  },
+  "case_material": {
+   "tr": "Kasa malzemesi",
+   "el": "Υλικό κάσας",
+   "cs": "Materiál pouzdra",
+   "ro": "Material carcasă",
+   "da": "Kassemateriale",
+   "fi": "Kotelon materiaali",
+   "nb": "Kassemateriale",
+   "ru": "Материал корпуса",
+   "uk": "Матеріал корпусу",
+   "ar": "مادة الهيكل"
+  },
+  "water_resistance": {
+   "tr": "Su geçirmezlik",
+   "el": "Αντοχή στο νερό",
+   "cs": "Voděodolnost",
+   "ro": "Rezistență la apă",
+   "da": "Vandtæthed",
+   "fi": "Vedenkestävyys",
+   "nb": "Vanntetthet",
+   "ru": "Водозащита",
+   "uk": "Водозахист",
+   "ar": "مقاومة الماء"
+  },
+  "gps": {
+   "tr": "GPS",
+   "el": "GPS",
+   "cs": "GPS",
+   "ro": "GPS",
+   "da": "GPS",
+   "fi": "GPS",
+   "nb": "GPS",
+   "ru": "GPS",
+   "uk": "GPS",
+   "ar": "GPS"
+  },
+  "lte": {
+   "tr": "LTE (eSIM)",
+   "el": "LTE (eSIM)",
+   "cs": "LTE (eSIM)",
+   "ro": "LTE (eSIM)",
+   "da": "LTE (eSIM)",
+   "fi": "LTE (eSIM)",
+   "nb": "LTE (eSIM)",
+   "ru": "LTE (eSIM)",
+   "uk": "LTE (eSIM)",
+   "ar": "LTE (eSIM)"
+  },
+  "heart_rate": {
+   "tr": "Nabız ölçer",
+   "el": "Μέτρηση καρδιακών παλμών",
+   "cs": "Měření tepu",
+   "ro": "Monitorizare puls",
+   "da": "Pulsmåler",
+   "fi": "Sykemittari",
+   "nb": "Pulsmåler",
+   "ru": "Пульсометр",
+   "uk": "Пульсометр",
+   "ar": "مراقبة نبض القلب"
+  },
+  "spo2": {
+   "tr": "Kan oksijeni (SpO2)",
+   "el": "Οξυγόνο αίματος (SpO2)",
+   "cs": "Okysličení krve (SpO2)",
+   "ro": "Oxigen în sânge (SpO2)",
+   "da": "Iltmætning (SpO2)",
+   "fi": "Veren happitaso (SpO2)",
+   "nb": "Oksygen i blodet (SpO2)",
+   "ru": "Кислород в крови (SpO2)",
+   "uk": "Кисень у крові (SpO2)",
+   "ar": "أكسجين الدم (SpO2)"
+  },
+  "ecg": {
+   "tr": "EKG",
+   "el": "ΗΚΓ",
+   "cs": "EKG",
+   "ro": "ECG",
+   "da": "EKG",
+   "fi": "EKG",
+   "nb": "EKG",
+   "ru": "ЭКГ",
+   "uk": "ЕКГ",
+   "ar": "تخطيط القلب (ECG)"
+  },
+  "fall_detection": {
+   "tr": "Düşme algılama",
+   "el": "Ανίχνευση πτώσης",
+   "cs": "Detekce pádu",
+   "ro": "Detectare cădere",
+   "da": "Faldregistrering",
+   "fi": "Kaatumisen tunnistus",
+   "nb": "Fallregistrering",
+   "ru": "Обнаружение падения",
+   "uk": "Виявлення падіння",
+   "ar": "اكتشاف السقوط"
+  },
+  "response_time": {
+   "tr": "Tepki süresi",
+   "el": "Χρόνος απόκρισης",
+   "cs": "Doba odezvy",
+   "ro": "Timp de răspuns",
+   "da": "Responstid",
+   "fi": "Vasteaika",
+   "nb": "Responstid",
+   "ru": "Время отклика",
+   "uk": "Час відгуку",
+   "ar": "زمن الاستجابة"
+  },
+  "contrast": {
+   "tr": "Kontrast oranı",
+   "el": "Λόγος αντίθεσης",
+   "cs": "Kontrastní poměr",
+   "ro": "Raport de contrast",
+   "da": "Kontrastforhold",
+   "fi": "Kontrastisuhde",
+   "nb": "Kontrastforhold",
+   "ru": "Контрастность",
+   "uk": "Контрастність",
+   "ar": "نسبة التباين"
+  },
+  "aspect_ratio": {
+   "tr": "En-boy oranı",
+   "el": "Αναλογία διαστάσεων",
+   "cs": "Poměr stran",
+   "ro": "Raport de aspect",
+   "da": "Billedformat",
+   "fi": "Kuvasuhde",
+   "nb": "Bildeformat",
+   "ru": "Соотношение сторон",
+   "uk": "Співвідношення сторін",
+   "ar": "نسبة العرض إلى الارتفاع"
+  },
+  "curved": {
+   "tr": "Kavisli ekran",
+   "el": "Κυρτή οθόνη",
+   "cs": "Zakřivený displej",
+   "ro": "Ecran curbat",
+   "da": "Buet skærm",
+   "fi": "Kaareva näyttö",
+   "nb": "Buet skjerm",
+   "ru": "Изогнутый экран",
+   "uk": "Вигнутий екран",
+   "ar": "شاشة منحنية"
+  },
+  "srgb": {
+   "tr": "sRGB kapsamı",
+   "el": "Κάλυψη sRGB",
+   "cs": "Pokrytí sRGB",
+   "ro": "Acoperire sRGB",
+   "da": "sRGB-dækning",
+   "fi": "sRGB-kattavuus",
+   "nb": "sRGB-dekning",
+   "ru": "Охват sRGB",
+   "uk": "Охоплення sRGB",
+   "ar": "تغطية sRGB"
+  },
+  "hdr_support": {
+   "tr": "HDR",
+   "el": "HDR",
+   "cs": "HDR",
+   "ro": "HDR",
+   "da": "HDR",
+   "fi": "HDR",
+   "nb": "HDR",
+   "ru": "HDR",
+   "uk": "HDR",
+   "ar": "HDR"
+  },
+  "displayport": {
+   "tr": "DisplayPort sürümü",
+   "el": "Έκδοση DisplayPort",
+   "cs": "Verze DisplayPort",
+   "ro": "Versiune DisplayPort",
+   "da": "DisplayPort-version",
+   "fi": "DisplayPort-versio",
+   "nb": "DisplayPort-versjon",
+   "ru": "Версия DisplayPort",
+   "uk": "Версія DisplayPort",
+   "ar": "إصدار DisplayPort"
+  },
+  "speakers": {
+   "tr": "Dahili hoparlör",
+   "el": "Ενσωματωμένα ηχεία",
+   "cs": "Vestavěné reproduktory",
+   "ro": "Boxe integrate",
+   "da": "Indbyggede højttalere",
+   "fi": "Sisäänrakennetut kaiuttimet",
+   "nb": "Innebygde høyttalere",
+   "ru": "Встроенные динамики",
+   "uk": "Вбудовані динаміки",
+   "ar": "سماعات مدمجة"
+  },
+  "height_adjust": {
+   "tr": "Yükseklik ayarı",
+   "el": "Ρύθμιση ύψους",
+   "cs": "Nastavení výšky",
+   "ro": "Reglaj înălțime",
+   "da": "Højdejustering",
+   "fi": "Korkeussäätö",
+   "nb": "Høydejustering",
+   "ru": "Регулировка высоты",
+   "uk": "Регулювання висоти",
+   "ar": "ضبط الارتفاع"
+  },
+  "speaker_type": {
+   "tr": "Hoparlör tipi",
+   "el": "Τύπος ηχείου",
+   "cs": "Typ reproduktoru",
+   "ro": "Tip boxă",
+   "da": "Højttalertype",
+   "fi": "Kaiuttimen tyyppi",
+   "nb": "Høyttalertype",
+   "ru": "Тип колонки",
+   "uk": "Тип колонки",
+   "ar": "نوع السماعة"
+  },
+  "drivers": {
+   "tr": "Sürücü sayısı",
+   "el": "Αριθμός μεγαφώνων",
+   "cs": "Počet měničů",
+   "ro": "Număr difuzoare",
+   "da": "Antal drivere",
+   "fi": "Elementtien määrä",
+   "nb": "Antall elementer",
+   "ru": "Количество динамиков",
+   "uk": "Кількість динаміків",
+   "ar": "عدد وحدات الصوت"
+  },
+  "airplay": {
+   "tr": "AirPlay",
+   "el": "AirPlay",
+   "cs": "AirPlay",
+   "ro": "AirPlay",
+   "da": "AirPlay",
+   "fi": "AirPlay",
+   "nb": "AirPlay",
+   "ru": "AirPlay",
+   "uk": "AirPlay",
+   "ar": "AirPlay"
+  },
+  "wifi_support": {
+   "tr": "Wi-Fi",
+   "el": "Wi-Fi",
+   "cs": "Wi-Fi",
+   "ro": "Wi-Fi",
+   "da": "Wi-Fi",
+   "fi": "Wi-Fi",
+   "nb": "Wi-Fi",
+   "ru": "Wi-Fi",
+   "uk": "Wi-Fi",
+   "ar": "Wi-Fi"
+  },
+  "handsfree": {
+   "tr": "Handsfree görüşme",
+   "el": "Κλήσεις hands-free",
+   "cs": "Handsfree hovory",
+   "ro": "Apeluri hands-free",
+   "da": "Håndfri opkald",
+   "fi": "Handsfree-puhelut",
+   "nb": "Håndfrie samtaler",
+   "ru": "Громкая связь",
+   "uk": "Гучний зв'язок",
+   "ar": "مكالمات بدون استخدام اليدين"
+  },
+  "ip_rating": {
+   "tr": "Su ve toz koruması (IP)",
+   "el": "Αντοχή σε νερό & σκόνη (IP)",
+   "cs": "Odolnost proti vodě a prachu (IP)",
+   "ro": "Rezistență la apă și praf (IP)",
+   "da": "Vand- og støvtæthed (IP)",
+   "fi": "Vesi- ja pölytiiviys (IP)",
+   "nb": "Vann- og støvtetthet (IP)",
+   "ru": "Защита от воды и пыли (IP)",
+   "uk": "Захист від води та пилу (IP)",
+   "ar": "مقاومة الماء والغبار (IP)"
+  },
+  "bluetooth": {
+   "tr": "Bluetooth",
+   "el": "Bluetooth",
+   "cs": "Bluetooth",
+   "ro": "Bluetooth",
+   "da": "Bluetooth",
+   "fi": "Bluetooth",
+   "nb": "Bluetooth",
+   "ru": "Bluetooth",
+   "uk": "Bluetooth",
+   "ar": "Bluetooth"
+  },
+  "camera_type": {
+   "tr": "Fotoğraf makinesi tipi",
+   "el": "Τύπος φωτογραφικής μηχανής",
+   "cs": "Typ fotoaparátu",
+   "ro": "Tip aparat foto",
+   "da": "Kameratype",
+   "fi": "Kameratyyppi",
+   "nb": "Kameratype",
+   "ru": "Тип фотоаппарата",
+   "uk": "Тип фотоапарата",
+   "ar": "نوع الكاميرا"
+  },
+  "megapixels": {
+   "tr": "Çözünürlük",
+   "el": "Ανάλυση",
+   "cs": "Rozlišení",
+   "ro": "Rezoluție",
+   "da": "Opløsning",
+   "fi": "Resoluutio",
+   "nb": "Oppløsning",
+   "ru": "Разрешение",
+   "uk": "Роздільна здатність",
+   "ar": "الدقة"
+  },
+  "sensor_type": {
+   "tr": "Sensör tipi",
+   "el": "Τύπος αισθητήρα",
+   "cs": "Typ snímače",
+   "ro": "Tip senzor",
+   "da": "Sensortype",
+   "fi": "Kennon tyyppi",
+   "nb": "Sensortype",
+   "ru": "Тип матрицы",
+   "uk": "Тип матриці",
+   "ar": "نوع المستشعر"
+  },
+  "sensor_format": {
+   "tr": "Sensör formatı",
+   "el": "Μέγεθος αισθητήρα",
+   "cs": "Formát snímače",
+   "ro": "Format senzor",
+   "da": "Sensorformat",
+   "fi": "Kennon koko",
+   "nb": "Sensorformat",
+   "ru": "Формат матрицы",
+   "uk": "Формат матриці",
+   "ar": "حجم المستشعر"
+  },
+  "stabilizer": {
+   "tr": "Görüntü sabitleme",
+   "el": "Σταθεροποίηση εικόνας",
+   "cs": "Stabilizace obrazu",
+   "ro": "Stabilizare imagine",
+   "da": "Billedstabilisering",
+   "fi": "Kuvanvakautus",
+   "nb": "Bildestabilisering",
+   "ru": "Стабилизация изображения",
+   "uk": "Стабілізація зображення",
+   "ar": "تثبيت الصورة"
+  },
+  "iso_max": {
+   "tr": "Maks. ISO",
+   "el": "Μέγ. ISO",
+   "cs": "Max. ISO",
+   "ro": "ISO maxim",
+   "da": "Maks. ISO",
+   "fi": "Maks. ISO",
+   "nb": "Maks. ISO",
+   "ru": "Макс. ISO",
+   "uk": "Макс. ISO",
+   "ar": "أقصى ISO"
+  },
+  "shutter_fastest": {
+   "tr": "En hızlı enstantane",
+   "el": "Ταχύτερη ταχύτητα κλείστρου",
+   "cs": "Nejkratší čas závěrky",
+   "ro": "Viteză maximă obturator",
+   "da": "Hurtigste lukkertid",
+   "fi": "Nopein suljinaika",
+   "nb": "Raskeste lukkertid",
+   "ru": "Мин. выдержка",
+   "uk": "Мін. витримка",
+   "ar": "أسرع سرعة غالق"
+  },
+  "video_resolution": {
+   "tr": "Video çözünürlüğü",
+   "el": "Ανάλυση βίντεο",
+   "cs": "Rozlišení videa",
+   "ro": "Rezoluție video",
+   "da": "Videoopløsning",
+   "fi": "Videon resoluutio",
+   "nb": "Videooppløsning",
+   "ru": "Разрешение видео",
+   "uk": "Роздільна здатність відео",
+   "ar": "دقة الفيديو"
+  },
+  "viewfinder": {
+   "tr": "Vizör",
+   "el": "Σκόπευτρο",
+   "cs": "Hledáček",
+   "ro": "Vizor",
+   "da": "Søger",
+   "fi": "Etsin",
+   "nb": "Søker",
+   "ru": "Видоискатель",
+   "uk": "Видошукач",
+   "ar": "محدد المنظر"
+  },
+  "flip_screen": {
+   "tr": "Döner ekran",
+   "el": "Περιστρεφόμενη οθόνη",
+   "cs": "Výklopný displej",
+   "ro": "Ecran articulat",
+   "da": "Drejeligt display",
+   "fi": "Käännettävä näyttö",
+   "nb": "Vippbar skjerm",
+   "ru": "Поворотный экран",
+   "uk": "Поворотний екран",
+   "ar": "شاشة قابلة للتدوير"
+  },
+  "image_processor": {
+   "tr": "Görüntü işlemcisi",
+   "el": "Επεξεργαστής εικόνας",
+   "cs": "Obrazový procesor",
+   "ro": "Procesor de imagine",
+   "da": "Billedprocessor",
+   "fi": "Kuvaprosessori",
+   "nb": "Bildeprosessor",
+   "ru": "Процессор изображения",
+   "uk": "Процесор зображення",
+   "ar": "معالج الصورة"
+  },
+  "projection_tech": {
+   "tr": "Projeksiyon teknolojisi",
+   "el": "Τεχνολογία προβολής",
+   "cs": "Technologie projekce",
+   "ro": "Tehnologie de proiecție",
+   "da": "Projektionsteknologi",
+   "fi": "Projisointitekniikka",
+   "nb": "Projeksjonsteknologi",
+   "ru": "Технология проекции",
+   "uk": "Технологія проєкції",
+   "ar": "تقنية العرض"
+  },
+  "brightness_lm": {
+   "tr": "Parlaklık",
+   "el": "Φωτεινότητα",
+   "cs": "Svítivost",
+   "ro": "Luminozitate",
+   "da": "Lysstyrke",
+   "fi": "Kirkkaus",
+   "nb": "Lysstyrke",
+   "ru": "Яркость",
+   "uk": "Яскравість",
+   "ar": "السطوع"
+  },
+  "native_resolution": {
+   "tr": "Doğal çözünürlük",
+   "el": "Εγγενής ανάλυση",
+   "cs": "Nativní rozlišení",
+   "ro": "Rezoluție nativă",
+   "da": "Native opløsning",
+   "fi": "Natiivi resoluutio",
+   "nb": "Native oppløsning",
+   "ru": "Нативное разрешение",
+   "uk": "Нативна роздільна здатність",
+   "ar": "الدقة الأصلية"
+  },
+  "light_source": {
+   "tr": "Işık kaynağı",
+   "el": "Πηγή φωτός",
+   "cs": "Zdroj světla",
+   "ro": "Sursă de lumină",
+   "da": "Lyskilde",
+   "fi": "Valonlähde",
+   "nb": "Lyskilde",
+   "ru": "Источник света",
+   "uk": "Джерело світла",
+   "ar": "مصدر الضوء"
+  },
+  "light_life": {
+   "tr": "Işık kaynağı ömrü",
+   "el": "Διάρκεια ζωής πηγής φωτός",
+   "cs": "Životnost zdroje světla",
+   "ro": "Durată de viață sursă de lumină",
+   "da": "Lyskildens levetid",
+   "fi": "Valonlähteen käyttöikä",
+   "nb": "Lyskildens levetid",
+   "ru": "Ресурс источника света",
+   "uk": "Ресурс джерела світла",
+   "ar": "عمر مصدر الضوء"
+  },
+  "throw_ratio": {
+   "tr": "Projeksiyon oranı",
+   "el": "Λόγος προβολής",
+   "cs": "Projekční poměr",
+   "ro": "Raport de proiecție",
+   "da": "Projektionsforhold",
+   "fi": "Heittosuhde",
+   "nb": "Projeksjonsforhold",
+   "ru": "Проекционное отношение",
+   "uk": "Проєкційне відношення",
+   "ar": "نسبة الإسقاط"
+  },
+  "smart_projector": {
+   "tr": "Akıllı projeksiyon",
+   "el": "Smart προβολικό",
+   "cs": "Chytrý projektor",
+   "ro": "Proiector smart",
+   "da": "Smart-projektor",
+   "fi": "Älyprojektori",
+   "nb": "Smart-projektor",
+   "ru": "Смарт-проектор",
+   "uk": "Смарт-проєктор",
+   "ar": "جهاز عرض ذكي"
+  },
+  "noise": {
+   "tr": "Gürültü seviyesi",
+   "el": "Επίπεδο θορύβου",
+   "cs": "Hlučnost",
+   "ro": "Nivel de zgomot",
+   "da": "Støjniveau",
+   "fi": "Melutaso",
+   "nb": "Støynivå",
+   "ru": "Уровень шума",
+   "uk": "Рівень шуму",
+   "ar": "مستوى الضوضاء"
+  },
+  "three_d": {
+   "tr": "3D",
+   "el": "3D",
+   "cs": "3D",
+   "ro": "3D",
+   "da": "3D",
+   "fi": "3D",
+   "nb": "3D",
+   "ru": "3D",
+   "uk": "3D",
+   "ar": "3D"
+  },
+  "gpu_chip": {
+   "tr": "Grafik işlemci",
+   "el": "Επεξεργαστής γραφικών",
+   "cs": "Grafický čip",
+   "ro": "Procesor grafic",
+   "da": "Grafikprocessor",
+   "fi": "Grafiikkapiiri",
+   "nb": "Grafikkprosessor",
+   "ru": "Графический процессор",
+   "uk": "Графічний процесор",
+   "ar": "معالج الرسومات"
+  },
+  "gpu_brand": {
+   "tr": "GPU üreticisi",
+   "el": "Κατασκευαστής GPU",
+   "cs": "Výrobce GPU",
+   "ro": "Producător GPU",
+   "da": "GPU-producent",
+   "fi": "GPU:n valmistaja",
+   "nb": "GPU-produsent",
+   "ru": "Производитель GPU",
+   "uk": "Виробник GPU",
+   "ar": "مصنّع GPU"
+  },
+  "vram": {
+   "tr": "Video belleği",
+   "el": "Μνήμη γραφικών",
+   "cs": "Grafická paměť",
+   "ro": "Memorie video",
+   "da": "Grafikhukommelse",
+   "fi": "Näyttömuisti",
+   "nb": "Grafikkminne",
+   "ru": "Видеопамять",
+   "uk": "Відеопам'ять",
+   "ar": "ذاكرة الفيديو"
+  },
+  "vram_type": {
+   "tr": "Bellek tipi",
+   "el": "Τύπος μνήμης",
+   "cs": "Typ paměti",
+   "ro": "Tip memorie",
+   "da": "Hukommelsestype",
+   "fi": "Muistityyppi",
+   "nb": "Minnetype",
+   "ru": "Тип памяти",
+   "uk": "Тип пам'яті",
+   "ar": "نوع الذاكرة"
+  },
+  "memory_bus": {
+   "tr": "Bellek veri yolu",
+   "el": "Δίαυλος μνήμης",
+   "cs": "Paměťová sběrnice",
+   "ro": "Magistrală memorie",
+   "da": "Hukommelsesbus",
+   "fi": "Muistiväylä",
+   "nb": "Minnebuss",
+   "ru": "Шина памяти",
+   "uk": "Шина пам'яті",
+   "ar": "ناقل الذاكرة"
+  },
+  "gpu_clock": {
+   "tr": "GPU saat hızı",
+   "el": "Συχνότητα GPU",
+   "cs": "Frekvence GPU",
+   "ro": "Frecvență GPU",
+   "da": "GPU-frekvens",
+   "fi": "GPU:n kellotaajuus",
+   "nb": "GPU-frekvens",
+   "ru": "Частота GPU",
+   "uk": "Частота GPU",
+   "ar": "تردد GPU"
+  },
+  "cuda_cores": {
+   "tr": "CUDA çekirdekleri",
+   "el": "Πυρήνες CUDA",
+   "cs": "Jádra CUDA",
+   "ro": "Nuclee CUDA",
+   "da": "CUDA-kerner",
+   "fi": "CUDA-ytimet",
+   "nb": "CUDA-kjerner",
+   "ru": "Ядра CUDA",
+   "uk": "Ядра CUDA",
+   "ar": "أنوية CUDA"
+  },
+  "interface": {
+   "tr": "Arayüz",
+   "el": "Διασύνδεση",
+   "cs": "Rozhraní",
+   "ro": "Interfață",
+   "da": "Interface",
+   "fi": "Liitäntä",
+   "nb": "Grensesnitt",
+   "ru": "Интерфейс",
+   "uk": "Інтерфейс",
+   "ar": "الواجهة"
+  },
+  "directx": {
+   "tr": "DirectX",
+   "el": "DirectX",
+   "cs": "DirectX",
+   "ro": "DirectX",
+   "da": "DirectX",
+   "fi": "DirectX",
+   "nb": "DirectX",
+   "ru": "DirectX",
+   "uk": "DirectX",
+   "ar": "DirectX"
+  },
+  "psu_min": {
+   "tr": "Önerilen güç kaynağı",
+   "el": "Προτεινόμενο τροφοδοτικό",
+   "cs": "Doporučený zdroj",
+   "ro": "Sursă recomandată",
+   "da": "Anbefalet strømforsyning",
+   "fi": "Suositeltu virtalähde",
+   "nb": "Anbefalt strømforsyning",
+   "ru": "Рекомендуемый БП",
+   "uk": "Рекомендований БЖ",
+   "ar": "مزود الطاقة الموصى به"
+  },
+  "power_connectors": {
+   "tr": "Güç konnektörleri",
+   "el": "Βύσματα τροφοδοσίας",
+   "cs": "Napájecí konektory",
+   "ro": "Conectori alimentare",
+   "da": "Strømstik",
+   "fi": "Virtaliittimet",
+   "nb": "Strømkontakter",
+   "ru": "Разъёмы питания",
+   "uk": "Роз'єми живлення",
+   "ar": "موصلات الطاقة"
+  },
+  "card_length": {
+   "tr": "Kart uzunluğu",
+   "el": "Μήκος κάρτας",
+   "cs": "Délka karty",
+   "ro": "Lungime placă",
+   "da": "Kortlængde",
+   "fi": "Kortin pituus",
+   "nb": "Kortlengde",
+   "ru": "Длина видеокарты",
+   "uk": "Довжина відеокарти",
+   "ar": "طول البطاقة"
+  },
+  "fans": {
+   "tr": "Fanlar",
+   "el": "Ανεμιστήρες",
+   "cs": "Ventilátory",
+   "ro": "Ventilatoare",
+   "da": "Blæsere",
+   "fi": "Tuulettimet",
+   "nb": "Vifter",
+   "ru": "Вентиляторы",
+   "uk": "Вентилятори",
+   "ar": "المراوح"
+  },
+  "max_displays": {
+   "tr": "Maks. ekran sayısı",
+   "el": "Μέγ. αριθμός οθονών",
+   "cs": "Max. počet monitorů",
+   "ro": "Nr. maxim de monitoare",
+   "da": "Maks. antal skærme",
+   "fi": "Näyttöjen enimmäismäärä",
+   "nb": "Maks. antall skjermer",
+   "ru": "Макс. число мониторов",
+   "uk": "Макс. кількість моніторів",
+   "ar": "الحد الأقصى للشاشات"
+  },
+  "platform": {
+   "tr": "Platform",
+   "el": "Πλατφόρμα",
+   "cs": "Platforma",
+   "ro": "Platformă",
+   "da": "Platform",
+   "fi": "Alusta",
+   "nb": "Plattform",
+   "ru": "Платформа",
+   "uk": "Платформа",
+   "ar": "المنصة"
+  },
+  "hdmi_out": {
+   "tr": "HDMI çıkışı",
+   "el": "Έξοδος HDMI",
+   "cs": "Výstup HDMI",
+   "ro": "Ieșire HDMI",
+   "da": "HDMI-udgang",
+   "fi": "HDMI-lähtö",
+   "nb": "HDMI-utgang",
+   "ru": "Выход HDMI",
+   "uk": "Вихід HDMI",
+   "ar": "مخرج HDMI"
+  },
+  "loading_type": {
+   "tr": "Yükleme tipi",
+   "el": "Τρόπος φόρτωσης",
+   "cs": "Způsob plnění",
+   "ro": "Tip încărcare",
+   "da": "Påfyldning",
+   "fi": "Täyttötapa",
+   "nb": "Fylling",
+   "ru": "Тип загрузки",
+   "uk": "Тип завантаження",
+   "ar": "طريقة التحميل"
+  },
+  "capacity_kg": {
+   "tr": "Kapasite",
+   "el": "Χωρητικότητα",
+   "cs": "Kapacita",
+   "ro": "Capacitate",
+   "da": "Kapacitet",
+   "fi": "Kapasiteetti",
+   "nb": "Kapasitet",
+   "ru": "Макс. загрузка",
+   "uk": "Макс. завантаження",
+   "ar": "السعة"
+  },
+  "spin_speed": {
+   "tr": "Maks. sıkma devri",
+   "el": "Μέγ. ταχύτητα στυψίματος",
+   "cs": "Max. otáčky odstřeďování",
+   "ro": "Viteză max. de centrifugare",
+   "da": "Maks. centrifugering",
+   "fi": "Maks. linkousnopeus",
+   "nb": "Maks. sentrifugering",
+   "ru": "Макс. скорость отжима",
+   "uk": "Макс. швидкість віджиму",
+   "ar": "أقصى سرعة عصر"
+  },
+  "energy_100": {
+   "tr": "100 döngü başına enerji",
+   "el": "Ενέργεια ανά 100 κύκλους",
+   "cs": "Spotřeba energie na 100 cyklů",
+   "ro": "Energie la 100 cicluri",
+   "da": "Energi pr. 100 cyklusser",
+   "fi": "Energia / 100 jaksoa",
+   "nb": "Energi per 100 sykluser",
+   "ru": "Энергия на 100 циклов",
+   "uk": "Енергія на 100 циклів",
+   "ar": "الطاقة لكل 100 دورة"
+  },
+  "water_cycle": {
+   "tr": "Döngü başına su",
+   "el": "Νερό ανά κύκλο",
+   "cs": "Spotřeba vody na cyklus",
+   "ro": "Apă per ciclu",
+   "da": "Vand pr. cyklus",
+   "fi": "Vesi / jakso",
+   "nb": "Vann per syklus",
+   "ru": "Расход воды за цикл",
+   "uk": "Витрата води за цикл",
+   "ar": "المياه لكل دورة"
+  },
+  "inverter": {
+   "tr": "İnverter motor",
+   "el": "Inverter μοτέρ",
+   "cs": "Invertorový motor",
+   "ro": "Motor inverter",
+   "da": "Invertermotor",
+   "fi": "Invertterimoottori",
+   "nb": "Invertermotor",
+   "ru": "Инверторный двигатель",
+   "uk": "Інверторний двигун",
+   "ar": "محرك إنفرتر"
+  },
+  "wifi_control": {
+   "tr": "Uygulama ile kontrol (Wi-Fi)",
+   "el": "Έλεγχος μέσω εφαρμογής (Wi-Fi)",
+   "cs": "Ovládání aplikací (Wi-Fi)",
+   "ro": "Control din aplicație (Wi-Fi)",
+   "da": "App-styring (Wi-Fi)",
+   "fi": "Sovellusohjaus (Wi-Fi)",
+   "nb": "App-styring (Wi-Fi)",
+   "ru": "Управление через приложение (Wi-Fi)",
+   "uk": "Керування через застосунок (Wi-Fi)",
+   "ar": "التحكم عبر التطبيق (Wi-Fi)"
+  },
+  "auto_dosing": {
+   "tr": "Otomatik dozajlama",
+   "el": "Αυτόματη δοσομέτρηση",
+   "cs": "Automatické dávkování",
+   "ro": "Dozare automată",
+   "da": "Automatisk dosering",
+   "fi": "Automaattinen annostelu",
+   "nb": "Automatisk dosering",
+   "ru": "Автодозирование",
+   "uk": "Автодозування",
+   "ar": "الجرعات التلقائية"
+  },
+  "placement": {
+   "tr": "Kurulum",
+   "el": "Τοποθέτηση",
+   "cs": "Instalace",
+   "ro": "Instalare",
+   "da": "Installation",
+   "fi": "Asennus",
+   "nb": "Installasjon",
+   "ru": "Установка",
+   "uk": "Встановлення",
+   "ar": "التركيب"
+  },
+  "drying_system": {
+   "tr": "Kurutma sistemi",
+   "el": "Σύστημα στεγνώματος",
+   "cs": "Typ sušení",
+   "ro": "Sistem de uscare",
+   "da": "Tørresystem",
+   "fi": "Kuivausjärjestelmä",
+   "nb": "Tørkesystem",
+   "ru": "Тип сушки",
+   "uk": "Тип сушіння",
+   "ar": "نظام التجفيف"
+  },
+  "condensation_class": {
+   "tr": "Yoğuşma sınıfı",
+   "el": "Κλάση συμπύκνωσης",
+   "cs": "Třída kondenzace",
+   "ro": "Clasă de condensare",
+   "da": "Kondenseringsklasse",
+   "fi": "Kondensointiluokka",
+   "nb": "Kondenseringsklasse",
+   "ru": "Класс конденсации",
+   "uk": "Клас конденсації",
+   "ar": "فئة التكثيف"
+  },
+  "cycle_time": {
+   "tr": "Program süresi",
+   "el": "Διάρκεια προγράμματος",
+   "cs": "Délka programu",
+   "ro": "Durată program",
+   "da": "Programvarighed",
+   "fi": "Ohjelman kesto",
+   "nb": "Programvarighet",
+   "ru": "Длительность программы",
+   "uk": "Тривалість програми",
+   "ar": "مدة البرنامج"
+  },
+  "anti_crease": {
+   "tr": "Kırışıklık önleme",
+   "el": "Αντιτσαλακωτικό",
+   "cs": "Proti zmačkání",
+   "ro": "Anti-șifonare",
+   "da": "Antikrøl",
+   "fi": "Rypistymisenesto",
+   "nb": "Antikrøll",
+   "ru": "Защита от сминания",
+   "uk": "Захист від зминання",
+   "ar": "منع التجعد"
+  },
+  "total_capacity": {
+   "tr": "Toplam hacim",
+   "el": "Συνολική χωρητικότητα",
+   "cs": "Celkový objem",
+   "ro": "Capacitate totală",
+   "da": "Samlet volumen",
+   "fi": "Kokonaistilavuus",
+   "nb": "Totalt volum",
+   "ru": "Общий объём",
+   "uk": "Загальний об'єм",
+   "ar": "السعة الإجمالية"
+  },
+  "fridge_capacity": {
+   "tr": "Buzdolabı hacmi",
+   "el": "Χωρητικότητα ψυγείου",
+   "cs": "Objem chladničky",
+   "ro": "Capacitate frigider",
+   "da": "Køleskabsvolumen",
+   "fi": "Jääkaapin tilavuus",
+   "nb": "Kjøleskapsvolum",
+   "ru": "Объём холодильной камеры",
+   "uk": "Об'єм холодильної камери",
+   "ar": "سعة الثلاجة"
+  },
+  "freezer_capacity": {
+   "tr": "Dondurucu hacmi",
+   "el": "Χωρητικότητα καταψύκτη",
+   "cs": "Objem mrazničky",
+   "ro": "Capacitate congelator",
+   "da": "Frysevolumen",
+   "fi": "Pakastimen tilavuus",
+   "nb": "Frysevolum",
+   "ru": "Объём морозильной камеры",
+   "uk": "Об'єм морозильної камери",
+   "ar": "سعة الفريزر"
+  },
+  "freezer_position": {
+   "tr": "Dondurucu konumu",
+   "el": "Θέση καταψύκτη",
+   "cs": "Umístění mrazničky",
+   "ro": "Poziție congelator",
+   "da": "Fryserens placering",
+   "fi": "Pakastimen sijainti",
+   "nb": "Fryserens plassering",
+   "ru": "Расположение морозильной камеры",
+   "uk": "Розташування морозильної камери",
+   "ar": "موضع الفريزر"
+  },
+  "no_frost": {
+   "tr": "No Frost",
+   "el": "No Frost",
+   "cs": "No Frost",
+   "ro": "No Frost",
+   "da": "No Frost",
+   "fi": "No Frost",
+   "nb": "No Frost",
+   "ru": "No Frost",
+   "uk": "No Frost",
+   "ar": "No Frost"
+  },
+  "annual_energy": {
+   "tr": "Yıllık enerji tüketimi",
+   "el": "Ετήσια κατανάλωση ενέργειας",
+   "cs": "Roční spotřeba energie",
+   "ro": "Consum anual de energie",
+   "da": "Årligt energiforbrug",
+   "fi": "Vuotuinen energiankulutus",
+   "nb": "Årlig energiforbruk",
+   "ru": "Годовое энергопотребление",
+   "uk": "Річне енергоспоживання",
+   "ar": "استهلاك الطاقة السنوي"
+  },
+  "climate_class": {
+   "tr": "İklim sınıfı",
+   "el": "Κλιματική κλάση",
+   "cs": "Klimatická třída",
+   "ro": "Clasă climatică",
+   "da": "Klimaklasse",
+   "fi": "Ilmastoluokka",
+   "nb": "Klimaklasse",
+   "ru": "Климатический класс",
+   "uk": "Кліматичний клас",
+   "ar": "الفئة المناخية"
+  },
+  "icemaker": {
+   "tr": "Buz yapıcı",
+   "el": "Παγομηχανή",
+   "cs": "Výrobník ledu",
+   "ro": "Generator de gheață",
+   "da": "Isterningmaskine",
+   "fi": "Jääpalakone",
+   "nb": "Isbitmaskin",
+   "ru": "Ледогенератор",
+   "uk": "Льодогенератор",
+   "ar": "صانعة الثلج"
+  },
+  "coffee_type": {
+   "tr": "Makine tipi",
+   "el": "Τύπος μηχανής",
+   "cs": "Typ kávovaru",
+   "ro": "Tip espressor",
+   "da": "Maskintype",
+   "fi": "Keittimen tyyppi",
+   "nb": "Maskintype",
+   "ru": "Тип кофемашины",
+   "uk": "Тип кавомашини",
+   "ar": "نوع الماكينة"
+  },
+  "pressure": {
+   "tr": "Pompa basıncı",
+   "el": "Πίεση αντλίας",
+   "cs": "Tlak čerpadla",
+   "ro": "Presiune pompă",
+   "da": "Pumpetryk",
+   "fi": "Pumpun paine",
+   "nb": "Pumpetrykk",
+   "ru": "Давление помпы",
+   "uk": "Тиск помпи",
+   "ar": "ضغط المضخة"
+  },
+  "grinder": {
+   "tr": "Dahili öğütücü",
+   "el": "Ενσωματωμένος μύλος",
+   "cs": "Integrovaný mlýnek",
+   "ro": "Râșniță integrată",
+   "da": "Indbygget kaffekværn",
+   "fi": "Sisäänrakennettu mylly",
+   "nb": "Innebygd kaffekvern",
+   "ru": "Встроенная кофемолка",
+   "uk": "Вбудована кавомолка",
+   "ar": "مطحنة مدمجة"
+  },
+  "milk_frother": {
+   "tr": "Süt köpürtücü",
+   "el": "Αφρογαλιέρα",
+   "cs": "Napěňovač mléka",
+   "ro": "Spumare lapte",
+   "da": "Mælkeskummer",
+   "fi": "Maidonvaahdotin",
+   "nb": "Melkeskummer",
+   "ru": "Капучинатор",
+   "uk": "Капучинатор",
+   "ar": "مرغي الحليب"
+  },
+  "water_tank": {
+   "tr": "Su haznesi",
+   "el": "Δοχείο νερού",
+   "cs": "Nádrž na vodu",
+   "ro": "Rezervor de apă",
+   "da": "Vandtank",
+   "fi": "Vesisäiliö",
+   "nb": "Vanntank",
+   "ru": "Резервуар для воды",
+   "uk": "Резервуар для води",
+   "ar": "خزان الماء"
+  },
+  "bean_capacity": {
+   "tr": "Çekirdek haznesi",
+   "el": "Δοχείο κόκκων",
+   "cs": "Zásobník na zrna",
+   "ro": "Recipient boabe",
+   "da": "Bønnebeholder",
+   "fi": "Papusäiliö",
+   "nb": "Bønnebeholder",
+   "ru": "Контейнер для зёрен",
+   "uk": "Контейнер для зерен",
+   "ar": "حاوية حبوب البن"
+  },
+  "cups": {
+   "tr": "Aynı anda fincan",
+   "el": "Φλιτζάνια ταυτόχρονα",
+   "cs": "Šálků najednou",
+   "ro": "Cești simultan",
+   "da": "Kopper ad gangen",
+   "fi": "Kuppeja kerralla",
+   "nb": "Kopper samtidig",
+   "ru": "Чашек одновременно",
+   "uk": "Чашок одночасно",
+   "ar": "عدد الأكواب في المرة"
+  },
+  "power_w": {
+   "tr": "Güç",
+   "el": "Ισχύς",
+   "cs": "Příkon",
+   "ro": "Putere",
+   "da": "Effekt",
+   "fi": "Teho",
+   "nb": "Effekt",
+   "ru": "Мощность",
+   "uk": "Потужність",
+   "ar": "القدرة"
+  },
+  "built_in_display": {
+   "tr": "Ekran",
+   "el": "Οθόνη",
+   "cs": "Displej",
+   "ro": "Ecran",
+   "da": "Skærm",
+   "fi": "Näyttö",
+   "nb": "Skjerm",
+   "ru": "Экран",
+   "uk": "Екран",
+   "ar": "الشاشة"
+  },
+  "display": {
+   "tr": "Ekran",
+   "el": "Οθόνη",
+   "cs": "Displej",
+   "ro": "Ecran",
+   "da": "Skærm",
+   "fi": "Näyttö",
+   "nb": "Skjerm",
+   "ru": "Экран",
+   "uk": "Екран",
+   "ar": "الشاشة"
+  },
+  "performance": {
+   "tr": "Performans",
+   "el": "Επιδόσεις",
+   "cs": "Výkon",
+   "ro": "Performanță",
+   "da": "Ydeevne",
+   "fi": "Suorituskyky",
+   "nb": "Ytelse",
+   "ru": "Производительность",
+   "uk": "Продуктивність",
+   "ar": "الأداء"
+  },
+  "camera": {
+   "tr": "Kameralar",
+   "el": "Κάμερες",
+   "cs": "Fotoaparáty",
+   "ro": "Camere",
+   "da": "Kameraer",
+   "fi": "Kamerat",
+   "nb": "Kameraer",
+   "ru": "Камеры",
+   "uk": "Камери",
+   "ar": "الكاميرات"
+  },
+  "battery": {
+   "tr": "Batarya",
+   "el": "Μπαταρία",
+   "cs": "Baterie",
+   "ro": "Baterie",
+   "da": "Batteri",
+   "fi": "Akku",
+   "nb": "Batteri",
+   "ru": "Аккумулятор",
+   "uk": "Акумулятор",
+   "ar": "البطارية"
+  },
+  "body": {
+   "tr": "Tasarım",
+   "el": "Σχεδίαση",
+   "cs": "Provedení",
+   "ro": "Design",
+   "da": "Design",
+   "fi": "Muotoilu",
+   "nb": "Design",
+   "ru": "Дизайн",
+   "uk": "Дизайн",
+   "ar": "التصميم"
+  },
+  "connectivity": {
+   "tr": "Bağlantı",
+   "el": "Συνδεσιμότητα",
+   "cs": "Konektivita",
+   "ro": "Conectivitate",
+   "da": "Forbindelser",
+   "fi": "Liitettävyys",
+   "nb": "Tilkobling",
+   "ru": "Связь",
+   "uk": "Зв'язок",
+   "ar": "الاتصال"
+  },
+  "software": {
+   "tr": "Yazılım",
+   "el": "Λογισμικό",
+   "cs": "Software",
+   "ro": "Software",
+   "da": "Software",
+   "fi": "Ohjelmisto",
+   "nb": "Programvare",
+   "ru": "Программное обеспечение",
+   "uk": "Програмне забезпечення",
+   "ar": "البرمجيات"
+  },
+  "display_size": {
+   "tr": "Ekran boyutu",
+   "el": "Μέγεθος οθόνης",
+   "cs": "Úhlopříčka displeje",
+   "ro": "Diagonală ecran",
+   "da": "Skærmstørrelse",
+   "fi": "Näytön koko",
+   "nb": "Skjermstørrelse",
+   "ru": "Диагональ экрана",
+   "uk": "Діагональ екрана",
+   "ar": "حجم الشاشة"
+  },
+  "display_type": {
+   "tr": "Ekran tipi",
+   "el": "Τύπος οθόνης",
+   "cs": "Typ displeje",
+   "ro": "Tip ecran",
+   "da": "Skærmtype",
+   "fi": "Näytön tyyppi",
+   "nb": "Skjermtype",
+   "ru": "Тип экрана",
+   "uk": "Тип екрана",
+   "ar": "نوع الشاشة"
+  },
+  "display_resolution": {
+   "tr": "Çözünürlük",
+   "el": "Ανάλυση",
+   "cs": "Rozlišení",
+   "ro": "Rezoluție",
+   "da": "Opløsning",
+   "fi": "Resoluutio",
+   "nb": "Oppløsning",
+   "ru": "Разрешение",
+   "uk": "Роздільна здатність",
+   "ar": "الدقة"
+  },
+  "refresh_rate": {
+   "tr": "Yenileme hızı",
+   "el": "Ρυθμός ανανέωσης",
+   "cs": "Obnovovací frekvence",
+   "ro": "Rată de reîmprospătare",
+   "da": "Opdateringshastighed",
+   "fi": "Virkistystaajuus",
+   "nb": "Oppdateringsfrekvens",
+   "ru": "Частота обновления",
+   "uk": "Частота оновлення",
+   "ar": "معدل التحديث"
+  },
+  "peak_brightness": {
+   "tr": "Tepe parlaklık",
+   "el": "Μέγιστη φωτεινότητα",
+   "cs": "Špičkový jas",
+   "ro": "Luminozitate maximă",
+   "da": "Maks. lysstyrke",
+   "fi": "Huippukirkkaus",
+   "nb": "Maks. lysstyrke",
+   "ru": "Пиковая яркость",
+   "uk": "Пікова яскравість",
+   "ar": "ذروة السطوع"
+  },
+  "chipset": {
+   "tr": "Yonga seti",
+   "el": "Chipset",
+   "cs": "Čipset",
+   "ro": "Chipset",
+   "da": "Chipsæt",
+   "fi": "Piirisarja",
+   "nb": "Brikkesett",
+   "ru": "Чипсет",
+   "uk": "Чипсет",
+   "ar": "الشريحة"
+  },
+  "cpu_cores": {
+   "tr": "İşlemci çekirdeği",
+   "el": "Πυρήνες CPU",
+   "cs": "Počet jader",
+   "ro": "Nuclee CPU",
+   "da": "CPU-kerner",
+   "fi": "Prosessoriytimet",
+   "nb": "CPU-kjerner",
+   "ru": "Ядра процессора",
+   "uk": "Ядра процесора",
+   "ar": "أنوية المعالج"
+  },
+  "ram": {
+   "tr": "RAM",
+   "el": "Μνήμη RAM",
+   "cs": "Operační paměť",
+   "ro": "Memorie RAM",
+   "da": "RAM",
+   "fi": "RAM-muisti",
+   "nb": "RAM",
+   "ru": "Оперативная память",
+   "uk": "Оперативна пам'ять",
+   "ar": "الذاكرة العشوائية (RAM)"
+  },
+  "storage": {
+   "tr": "Dahili hafıza",
+   "el": "Αποθηκευτικός χώρος",
+   "cs": "Úložiště",
+   "ro": "Stocare",
+   "da": "Lagerplads",
+   "fi": "Tallennustila",
+   "nb": "Lagring",
+   "ru": "Встроенная память",
+   "uk": "Вбудована пам'ять",
+   "ar": "مساحة التخزين"
+  },
+  "expandable_storage": {
+   "tr": "Hafıza kartı yuvası",
+   "el": "Υποδοχή κάρτας μνήμης",
+   "cs": "Slot na paměťovou kartu",
+   "ro": "Slot card de memorie",
+   "da": "Hukommelseskortslot",
+   "fi": "Muistikorttipaikka",
+   "nb": "Minnekortspor",
+   "ru": "Слот для карты памяти",
+   "uk": "Слот для карти пам'яті",
+   "ar": "منفذ بطاقة الذاكرة"
+  },
+  "main_camera": {
+   "tr": "Ana kamera",
+   "el": "Κύρια κάμερα",
+   "cs": "Hlavní fotoaparát",
+   "ro": "Cameră principală",
+   "da": "Hovedkamera",
+   "fi": "Pääkamera",
+   "nb": "Hovedkamera",
+   "ru": "Основная камера",
+   "uk": "Основна камера",
+   "ar": "الكاميرا الرئيسية"
+  },
+  "ultrawide_camera": {
+   "tr": "Ultra geniş açı kamera",
+   "el": "Υπερευρυγώνια κάμερα",
+   "cs": "Ultraširokoúhlý fotoaparát",
+   "ro": "Cameră ultra-wide",
+   "da": "Ultravidvinkelkamera",
+   "fi": "Ultralaajakulmakamera",
+   "nb": "Ultravidvinkelkamera",
+   "ru": "Сверхширокоугольная камера",
+   "uk": "Надширококутна камера",
+   "ar": "كاميرا فائقة الاتساع"
+  },
+  "optical_zoom": {
+   "tr": "Optik zoom",
+   "el": "Οπτικό ζουμ",
+   "cs": "Optický zoom",
+   "ro": "Zoom optic",
+   "da": "Optisk zoom",
+   "fi": "Optinen zoom",
+   "nb": "Optisk zoom",
+   "ru": "Оптический зум",
+   "uk": "Оптичний зум",
+   "ar": "التكبير البصري"
+  },
+  "front_camera": {
+   "tr": "Ön kamera",
+   "el": "Μπροστινή κάμερα",
+   "cs": "Přední fotoaparát",
+   "ro": "Cameră frontală",
+   "da": "Frontkamera",
+   "fi": "Etukamera",
+   "nb": "Frontkamera",
+   "ru": "Фронтальная камера",
+   "uk": "Фронтальна камера",
+   "ar": "الكاميرا الأمامية"
+  },
+  "video_max": {
+   "tr": "Video kaydı",
+   "el": "Εγγραφή βίντεο",
+   "cs": "Nahrávání videa",
+   "ro": "Înregistrare video",
+   "da": "Videooptagelse",
+   "fi": "Videokuvaus",
+   "nb": "Videoopptak",
+   "ru": "Запись видео",
+   "uk": "Запис відео",
+   "ar": "تسجيل الفيديو"
+  },
+  "wired_charging": {
+   "tr": "Kablolu şarj",
+   "el": "Ενσύρματη φόρτιση",
+   "cs": "Kabelové nabíjení",
+   "ro": "Încărcare prin cablu",
+   "da": "Kablet opladning",
+   "fi": "Langallinen lataus",
+   "nb": "Kablet lading",
+   "ru": "Проводная зарядка",
+   "uk": "Дротове заряджання",
+   "ar": "الشحن السلكي"
+  },
+  "wireless_charging": {
+   "tr": "Kablosuz şarj",
+   "el": "Ασύρματη φόρτιση",
+   "cs": "Bezdrátové nabíjení",
+   "ro": "Încărcare wireless",
+   "da": "Trådløs opladning",
+   "fi": "Langaton lataus",
+   "nb": "Trådløs lading",
+   "ru": "Беспроводная зарядка",
+   "uk": "Бездротове заряджання",
+   "ar": "الشحن اللاسلكي"
+  },
+  "weight": {
+   "tr": "Ağırlık",
+   "el": "Βάρος",
+   "cs": "Hmotnost",
+   "ro": "Greutate",
+   "da": "Vægt",
+   "fi": "Paino",
+   "nb": "Vekt",
+   "ru": "Вес",
+   "uk": "Вага",
+   "ar": "الوزن"
+  },
+  "thickness": {
+   "tr": "Kalınlık",
+   "el": "Πάχος",
+   "cs": "Tloušťka",
+   "ro": "Grosime",
+   "da": "Tykkelse",
+   "fi": "Paksuus",
+   "nb": "Tykkelse",
+   "ru": "Толщина",
+   "uk": "Товщина",
+   "ar": "السماكة"
+  },
+  "five_g": {
+   "tr": "5G",
+   "el": "5G",
+   "cs": "5G",
+   "ro": "5G",
+   "da": "5G",
+   "fi": "5G",
+   "nb": "5G",
+   "ru": "5G",
+   "uk": "5G",
+   "ar": "5G"
+  },
+  "esim": {
+   "tr": "eSIM",
+   "el": "eSIM",
+   "cs": "eSIM",
+   "ro": "eSIM",
+   "da": "eSIM",
+   "fi": "eSIM",
+   "nb": "eSIM",
+   "ru": "eSIM",
+   "uk": "eSIM",
+   "ar": "eSIM"
+  },
+  "nfc": {
+   "tr": "NFC",
+   "el": "NFC",
+   "cs": "NFC",
+   "ro": "NFC",
+   "da": "NFC",
+   "fi": "NFC",
+   "nb": "NFC",
+   "ru": "NFC",
+   "uk": "NFC",
+   "ar": "NFC"
+  },
+  "wifi": {
+   "tr": "Wi-Fi",
+   "el": "Wi-Fi",
+   "cs": "Wi-Fi",
+   "ro": "Wi-Fi",
+   "da": "Wi-Fi",
+   "fi": "Wi-Fi",
+   "nb": "Wi-Fi",
+   "ru": "Wi-Fi",
+   "uk": "Wi-Fi",
+   "ar": "Wi-Fi"
+  },
+  "usb": {
+   "tr": "USB portu",
+   "el": "Θύρα USB",
+   "cs": "Port USB",
+   "ro": "Port USB",
+   "da": "USB-port",
+   "fi": "USB-liitäntä",
+   "nb": "USB-port",
+   "ru": "Порт USB",
+   "uk": "Порт USB",
+   "ar": "منفذ USB"
+  },
+  "headphone_jack": {
+   "tr": "3,5 mm kulaklık girişi",
+   "el": "Υποδοχή 3,5 mm",
+   "cs": "Jack 3,5 mm",
+   "ro": "Mufă jack 3,5 mm",
+   "da": "3,5 mm-stik",
+   "fi": "3,5 mm:n liitäntä",
+   "nb": "3,5 mm-kontakt",
+   "ru": "Разъём 3,5 мм",
+   "uk": "Роз'єм 3,5 мм",
+   "ar": "مقبس 3.5 مم"
+  },
+  "os": {
+   "tr": "İşletim sistemi",
+   "el": "Λειτουργικό σύστημα",
+   "cs": "Operační systém",
+   "ro": "Sistem de operare",
+   "da": "Styresystem",
+   "fi": "Käyttöjärjestelmä",
+   "nb": "Operativsystem",
+   "ru": "Операционная система",
+   "uk": "Операційна система",
+   "ar": "نظام التشغيل"
+  },
+  "os_updates": {
+   "tr": "Sistem güncellemeleri",
+   "el": "Ενημερώσεις λειτουργικού",
+   "cs": "Aktualizace systému",
+   "ro": "Actualizări de sistem",
+   "da": "Systemopdateringer",
+   "fi": "Järjestelmäpäivitykset",
+   "nb": "Systemoppdateringer",
+   "ru": "Обновления ОС",
+   "uk": "Оновлення ОС",
+   "ar": "تحديثات النظام"
+  }
+ },
+ "groups": {
+  "audio": {
+   "tr": "Ses",
+   "el": "Ήχος",
+   "cs": "Zvuk",
+   "ro": "Sunet",
+   "da": "Lyd",
+   "fi": "Ääni",
+   "nb": "Lyd",
+   "ru": "Звук",
+   "uk": "Звук",
+   "ar": "الصوت"
+  },
+  "picture": {
+   "tr": "Görüntü",
+   "el": "Εικόνα",
+   "cs": "Obraz",
+   "ro": "Imagine",
+   "da": "Billede",
+   "fi": "Kuva",
+   "nb": "Bilde",
+   "ru": "Изображение",
+   "uk": "Зображення",
+   "ar": "الصورة"
+  },
+  "smart": {
+   "tr": "Akıllı özellikler",
+   "el": "Έξυπνες λειτουργίες",
+   "cs": "Chytré funkce",
+   "ro": "Funcții smart",
+   "da": "Smart-funktioner",
+   "fi": "Älytoiminnot",
+   "nb": "Smartfunksjoner",
+   "ru": "Умные функции",
+   "uk": "Розумні функції",
+   "ar": "الميزات الذكية"
+  },
+  "ports": {
+   "tr": "Bağlantı noktaları",
+   "el": "Θύρες",
+   "cs": "Porty",
+   "ro": "Porturi",
+   "da": "Tilslutninger",
+   "fi": "Liitännät",
+   "nb": "Tilkoblinger",
+   "ru": "Разъёмы",
+   "uk": "Роз'єми",
+   "ar": "المنافذ"
+  },
+  "energy": {
+   "tr": "Enerji",
+   "el": "Ενέργεια",
+   "cs": "Energie",
+   "ro": "Energie",
+   "da": "Energi",
+   "fi": "Energia",
+   "nb": "Energi",
+   "ru": "Энергопотребление",
+   "uk": "Енергоспоживання",
+   "ar": "الطاقة"
+  },
+  "health": {
+   "tr": "Sağlık ve fitness",
+   "el": "Υγεία & fitness",
+   "cs": "Zdraví a fitness",
+   "ro": "Sănătate și fitness",
+   "da": "Sundhed og fitness",
+   "fi": "Terveys ja kunto",
+   "nb": "Helse og trening",
+   "ru": "Здоровье и фитнес",
+   "uk": "Здоров'я та фітнес",
+   "ar": "الصحة واللياقة"
+  },
+  "graphics": {
+   "tr": "Grafik",
+   "el": "Γραφικά",
+   "cs": "Grafika",
+   "ro": "Grafică",
+   "da": "Grafik",
+   "fi": "Grafiikka",
+   "nb": "Grafikk",
+   "ru": "Графика",
+   "uk": "Графіка",
+   "ar": "الرسومات"
+  },
+  "capacity": {
+   "tr": "Kapasite",
+   "el": "Χωρητικότητα",
+   "cs": "Kapacita",
+   "ro": "Capacitate",
+   "da": "Kapacitet",
+   "fi": "Tilavuus",
+   "nb": "Kapasitet",
+   "ru": "Вместимость",
+   "uk": "Місткість",
+   "ar": "السعة"
+  },
+  "features": {
+   "tr": "Özellikler",
+   "el": "Λειτουργίες",
+   "cs": "Funkce",
+   "ro": "Funcții",
+   "da": "Funktioner",
+   "fi": "Ominaisuudet",
+   "nb": "Funksjoner",
+   "ru": "Функции",
+   "uk": "Функції",
+   "ar": "الميزات"
+  },
+  "video": {
+   "tr": "Video",
+   "el": "Βίντεο",
+   "cs": "Video",
+   "ro": "Video",
+   "da": "Video",
+   "fi": "Video",
+   "nb": "Video",
+   "ru": "Видео",
+   "uk": "Відео",
+   "ar": "الفيديو"
+  },
+  "memory": {
+   "tr": "Bellek",
+   "el": "Μνήμη",
+   "cs": "Paměť",
+   "ro": "Memorie",
+   "da": "Hukommelse",
+   "fi": "Muisti",
+   "nb": "Minne",
+   "ru": "Память",
+   "uk": "Пам'ять",
+   "ar": "الذاكرة"
+  },
+  "display": {
+   "tr": "Ekran",
+   "el": "Οθόνη",
+   "cs": "Displej",
+   "ro": "Ecran",
+   "da": "Skærm",
+   "fi": "Näyttö",
+   "nb": "Skjerm",
+   "ru": "Экран",
+   "uk": "Екран",
+   "ar": "الشاشة"
+  },
+  "performance": {
+   "tr": "Performans",
+   "el": "Επιδόσεις",
+   "cs": "Výkon",
+   "ro": "Performanță",
+   "da": "Ydeevne",
+   "fi": "Suorituskyky",
+   "nb": "Ytelse",
+   "ru": "Производительность",
+   "uk": "Продуктивність",
+   "ar": "الأداء"
+  },
+  "camera": {
+   "tr": "Kameralar",
+   "el": "Κάμερες",
+   "cs": "Fotoaparáty",
+   "ro": "Camere",
+   "da": "Kameraer",
+   "fi": "Kamerat",
+   "nb": "Kameraer",
+   "ru": "Камеры",
+   "uk": "Камери",
+   "ar": "الكاميرات"
+  },
+  "battery": {
+   "tr": "Batarya ve şarj",
+   "el": "Μπαταρία & φόρτιση",
+   "cs": "Baterie a nabíjení",
+   "ro": "Baterie și încărcare",
+   "da": "Batteri og opladning",
+   "fi": "Akku ja lataus",
+   "nb": "Batteri og lading",
+   "ru": "Аккумулятор и зарядка",
+   "uk": "Акумулятор і заряджання",
+   "ar": "البطارية والشحن"
+  },
+  "body": {
+   "tr": "Tasarım",
+   "el": "Σχεδίαση",
+   "cs": "Provedení",
+   "ro": "Design",
+   "da": "Design",
+   "fi": "Muotoilu",
+   "nb": "Design",
+   "ru": "Дизайн",
+   "uk": "Дизайн",
+   "ar": "التصميم"
+  },
+  "connectivity": {
+   "tr": "Bağlantı",
+   "el": "Συνδεσιμότητα",
+   "cs": "Konektivita",
+   "ro": "Conectivitate",
+   "da": "Forbindelser",
+   "fi": "Liitettävyys",
+   "nb": "Tilkobling",
+   "ru": "Связь",
+   "uk": "Зв'язок",
+   "ar": "الاتصال"
+  },
+  "software": {
+   "tr": "Yazılım",
+   "el": "Λογισμικό",
+   "cs": "Software",
+   "ro": "Software",
+   "da": "Software",
+   "fi": "Ohjelmisto",
+   "nb": "Programvare",
+   "ru": "Программное обеспечение",
+   "uk": "Програмне забезпечення",
+   "ar": "البرمجيات"
+  }
+ },
+ "categories": {
+  "headphones": {
+   "tr": [
+    "kulakliklar",
+    "Kulaklıklar"
+   ],
+   "el": [
+    "akoustika",
+    "Ακουστικά"
+   ],
+   "cs": [
+    "sluchatka",
+    "Sluchátka"
+   ],
+   "ro": [
+    "casti",
+    "Căști"
+   ],
+   "da": [
+    "hovedtelefoner",
+    "Hovedtelefoner"
+   ],
+   "fi": [
+    "kuulokkeet",
+    "Kuulokkeet"
+   ],
+   "nb": [
+    "hodetelefoner",
+    "Hodetelefoner"
+   ],
+   "ru": [
+    "naushniki",
+    "Наушники"
+   ],
+   "uk": [
+    "navushnyky",
+    "Навушники"
+   ],
+   "ar": [
+    "headphones",
+    "سماعات الرأس"
+   ]
+  },
+  "laptops": {
+   "tr": [
+    "dizustu-bilgisayarlar",
+    "Dizüstü bilgisayarlar"
+   ],
+   "el": [
+    "laptop",
+    "Λάπτοπ"
+   ],
+   "cs": [
+    "notebooky",
+    "Notebooky"
+   ],
+   "ro": [
+    "laptopuri",
+    "Laptopuri"
+   ],
+   "da": [
+    "baerbare-computere",
+    "Bærbare computere"
+   ],
+   "fi": [
+    "kannettavat-tietokoneet",
+    "Kannettavat tietokoneet"
+   ],
+   "nb": [
+    "baerbare-pc-er",
+    "Bærbare PC-er"
+   ],
+   "ru": [
+    "noutbuki",
+    "Ноутбуки"
+   ],
+   "uk": [
+    "noutbuky",
+    "Ноутбуки"
+   ],
+   "ar": [
+    "laptops",
+    "أجهزة لابتوب"
+   ]
+  },
+  "tvs": {
+   "tr": [
+    "televizyonlar",
+    "Televizyonlar"
+   ],
+   "el": [
+    "tileoraseis",
+    "Τηλεοράσεις"
+   ],
+   "cs": [
+    "televize",
+    "Televize"
+   ],
+   "ro": [
+    "televizoare",
+    "Televizoare"
+   ],
+   "da": [
+    "fjernsyn",
+    "Fjernsyn"
+   ],
+   "fi": [
+    "televisiot",
+    "Televisiot"
+   ],
+   "nb": [
+    "tv-er",
+    "TV-er"
+   ],
+   "ru": [
+    "televizory",
+    "Телевизоры"
+   ],
+   "uk": [
+    "televizory",
+    "Телевізори"
+   ],
+   "ar": [
+    "tvs",
+    "أجهزة التلفزيون"
+   ]
+  },
+  "tablets": {
+   "tr": [
+    "tabletler",
+    "Tabletler"
+   ],
+   "el": [
+    "tablet",
+    "Tablet"
+   ],
+   "cs": [
+    "tablety",
+    "Tablety"
+   ],
+   "ro": [
+    "tablete",
+    "Tablete"
+   ],
+   "da": [
+    "tablets",
+    "Tablets"
+   ],
+   "fi": [
+    "tabletit",
+    "Tabletit"
+   ],
+   "nb": [
+    "nettbrett",
+    "Nettbrett"
+   ],
+   "ru": [
+    "planshety",
+    "Планшеты"
+   ],
+   "uk": [
+    "planshety",
+    "Планшети"
+   ],
+   "ar": [
+    "tablets",
+    "أجهزة لوحية"
+   ]
+  },
+  "smartwatches": {
+   "tr": [
+    "akilli-saatler",
+    "Akıllı saatler"
+   ],
+   "el": [
+    "smartwatches",
+    "Smartwatches"
+   ],
+   "cs": [
+    "chytre-hodinky",
+    "Chytré hodinky"
+   ],
+   "ro": [
+    "ceasuri-inteligente",
+    "Ceasuri inteligente"
+   ],
+   "da": [
+    "smartwatches",
+    "Smartwatches"
+   ],
+   "fi": [
+    "alykellot",
+    "Älykellot"
+   ],
+   "nb": [
+    "smartklokker",
+    "Smartklokker"
+   ],
+   "ru": [
+    "umnye-chasy",
+    "Умные часы"
+   ],
+   "uk": [
+    "smart-hodynnyky",
+    "Смарт-годинники"
+   ],
+   "ar": [
+    "smartwatches",
+    "ساعات ذكية"
+   ]
+  },
+  "monitors": {
+   "tr": [
+    "monitorler",
+    "Monitörler"
+   ],
+   "el": [
+    "othones-ypologisti",
+    "Οθόνες υπολογιστή"
+   ],
+   "cs": [
+    "monitory",
+    "Monitory"
+   ],
+   "ro": [
+    "monitoare",
+    "Monitoare"
+   ],
+   "da": [
+    "skaerme",
+    "Skærme"
+   ],
+   "fi": [
+    "naytot",
+    "Näytöt"
+   ],
+   "nb": [
+    "skjermer",
+    "Skjermer"
+   ],
+   "ru": [
+    "monitory",
+    "Мониторы"
+   ],
+   "uk": [
+    "monitory",
+    "Монітори"
+   ],
+   "ar": [
+    "monitors",
+    "شاشات الكمبيوتر"
+   ]
+  },
+  "speakers": {
+   "tr": [
+    "hoparlorler",
+    "Hoparlörler"
+   ],
+   "el": [
+    "icheia",
+    "Ηχεία"
+   ],
+   "cs": [
+    "reproduktory",
+    "Reproduktory"
+   ],
+   "ro": [
+    "boxe",
+    "Boxe"
+   ],
+   "da": [
+    "hojttalere",
+    "Højttalere"
+   ],
+   "fi": [
+    "kaiuttimet",
+    "Kaiuttimet"
+   ],
+   "nb": [
+    "hoyttalere",
+    "Høyttalere"
+   ],
+   "ru": [
+    "kolonki",
+    "Колонки"
+   ],
+   "uk": [
+    "kolonky",
+    "Колонки"
+   ],
+   "ar": [
+    "speakers",
+    "مكبرات الصوت"
+   ]
+  },
+  "cameras": {
+   "tr": [
+    "fotograf-makineleri",
+    "Fotoğraf makineleri"
+   ],
+   "el": [
+    "fotografikes-michanes",
+    "Φωτογραφικές μηχανές"
+   ],
+   "cs": [
+    "fotoaparaty",
+    "Fotoaparáty"
+   ],
+   "ro": [
+    "aparate-foto",
+    "Aparate foto"
+   ],
+   "da": [
+    "kameraer",
+    "Kameraer"
+   ],
+   "fi": [
+    "kamerat",
+    "Kamerat"
+   ],
+   "nb": [
+    "kameraer",
+    "Kameraer"
+   ],
+   "ru": [
+    "fotoapparaty",
+    "Фотоаппараты"
+   ],
+   "uk": [
+    "fotoaparaty",
+    "Фотоапарати"
+   ],
+   "ar": [
+    "cameras",
+    "كاميرات"
+   ]
+  },
+  "projectors": {
+   "tr": [
+    "projeksiyon-cihazlari",
+    "Projeksiyon cihazları"
+   ],
+   "el": [
+    "provolika",
+    "Προβολικά"
+   ],
+   "cs": [
+    "projektory",
+    "Projektory"
+   ],
+   "ro": [
+    "videoproiectoare",
+    "Videoproiectoare"
+   ],
+   "da": [
+    "projektorer",
+    "Projektorer"
+   ],
+   "fi": [
+    "projektorit",
+    "Projektorit"
+   ],
+   "nb": [
+    "projektorer",
+    "Projektorer"
+   ],
+   "ru": [
+    "proektory",
+    "Проекторы"
+   ],
+   "uk": [
+    "proektory",
+    "Проєктори"
+   ],
+   "ar": [
+    "projectors",
+    "أجهزة البروجكتور"
+   ]
+  },
+  "graphics-cards": {
+   "tr": [
+    "ekran-kartlari",
+    "Ekran kartları"
+   ],
+   "el": [
+    "kartes-grafikon",
+    "Κάρτες γραφικών"
+   ],
+   "cs": [
+    "graficke-karty",
+    "Grafické karty"
+   ],
+   "ro": [
+    "placi-video",
+    "Plăci video"
+   ],
+   "da": [
+    "grafikkort",
+    "Grafikkort"
+   ],
+   "fi": [
+    "naytonohjaimet",
+    "Näytönohjaimet"
+   ],
+   "nb": [
+    "grafikkort",
+    "Grafikkort"
+   ],
+   "ru": [
+    "videokarty",
+    "Видеокарты"
+   ],
+   "uk": [
+    "videokarty",
+    "Відеокарти"
+   ],
+   "ar": [
+    "graphics-cards",
+    "بطاقات الرسومات"
+   ]
+  },
+  "game-consoles": {
+   "tr": [
+    "oyun-konsollari",
+    "Oyun konsolları"
+   ],
+   "el": [
+    "konsoles-paichnidion",
+    "Κονσόλες παιχνιδιών"
+   ],
+   "cs": [
+    "herni-konzole",
+    "Herní konzole"
+   ],
+   "ro": [
+    "console-jocuri",
+    "Console de jocuri"
+   ],
+   "da": [
+    "spillekonsoller",
+    "Spillekonsoller"
+   ],
+   "fi": [
+    "pelikonsolit",
+    "Pelikonsolit"
+   ],
+   "nb": [
+    "spillkonsoller",
+    "Spillkonsoller"
+   ],
+   "ru": [
+    "igrovye-pristavki",
+    "Игровые приставки"
+   ],
+   "uk": [
+    "ihrovi-prystavky",
+    "Ігрові приставки"
+   ],
+   "ar": [
+    "game-consoles",
+    "أجهزة الألعاب"
+   ]
+  },
+  "washing-machines": {
+   "tr": [
+    "camasir-makineleri",
+    "Çamaşır makineleri"
+   ],
+   "el": [
+    "plyntiria-roychon",
+    "Πλυντήρια ρούχων"
+   ],
+   "cs": [
+    "pracky",
+    "Pračky"
+   ],
+   "ro": [
+    "masini-de-spalat",
+    "Mașini de spălat"
+   ],
+   "da": [
+    "vaskemaskiner",
+    "Vaskemaskiner"
+   ],
+   "fi": [
+    "pyykinpesukoneet",
+    "Pyykinpesukoneet"
+   ],
+   "nb": [
+    "vaskemaskiner",
+    "Vaskemaskiner"
+   ],
+   "ru": [
+    "stiralnye-mashiny",
+    "Стиральные машины"
+   ],
+   "uk": [
+    "pralni-mashyny",
+    "Пральні машини"
+   ],
+   "ar": [
+    "washing-machines",
+    "غسالات الملابس"
+   ]
+  },
+  "tumble-dryers": {
+   "tr": [
+    "kurutma-makineleri",
+    "Kurutma makineleri"
+   ],
+   "el": [
+    "stegnotiria-roychon",
+    "Στεγνωτήρια ρούχων"
+   ],
+   "cs": [
+    "susicky-pradla",
+    "Sušičky prádla"
+   ],
+   "ro": [
+    "uscatoare-de-rufe",
+    "Uscătoare de rufe"
+   ],
+   "da": [
+    "torretumblere",
+    "Tørretumblere"
+   ],
+   "fi": [
+    "kuivausrummut",
+    "Kuivausrummut"
+   ],
+   "nb": [
+    "torketromler",
+    "Tørketromler"
+   ],
+   "ru": [
+    "sushilnye-mashiny",
+    "Сушильные машины"
+   ],
+   "uk": [
+    "sushylni-mashyny",
+    "Сушильні машини"
+   ],
+   "ar": [
+    "tumble-dryers",
+    "مجففات الملابس"
+   ]
+  },
+  "fridges": {
+   "tr": [
+    "buzdolaplari",
+    "Buzdolapları"
+   ],
+   "el": [
+    "psygeiokatapsyktes",
+    "Ψυγειοκαταψύκτες"
+   ],
+   "cs": [
+    "kombinovane-chladnicky",
+    "Kombinované chladničky"
+   ],
+   "ro": [
+    "combine-frigorifice",
+    "Combine frigorifice"
+   ],
+   "da": [
+    "koele-fryseskabe",
+    "Køle-fryseskabe"
+   ],
+   "fi": [
+    "jaakaappipakastimet",
+    "Jääkaappipakastimet"
+   ],
+   "nb": [
+    "kombiskap",
+    "Kombiskap"
+   ],
+   "ru": [
+    "holodilniki",
+    "Холодильники"
+   ],
+   "uk": [
+    "kholodylnyky",
+    "Холодильники"
+   ],
+   "ar": [
+    "fridges",
+    "الثلاجات"
+   ]
+  },
+  "coffee-machines": {
+   "tr": [
+    "kahve-makineleri",
+    "Kahve makineleri"
+   ],
+   "el": [
+    "kafetieres",
+    "Καφετιέρες"
+   ],
+   "cs": [
+    "kavovary",
+    "Kávovary"
+   ],
+   "ro": [
+    "espressoare",
+    "Espressoare"
+   ],
+   "da": [
+    "kaffemaskiner",
+    "Kaffemaskiner"
+   ],
+   "fi": [
+    "kahvinkeittimet",
+    "Kahvinkeittimet"
+   ],
+   "nb": [
+    "kaffemaskiner",
+    "Kaffemaskiner"
+   ],
+   "ru": [
+    "kofemashiny",
+    "Кофемашины"
+   ],
+   "uk": [
+    "kavomashyny",
+    "Кавомашини"
+   ],
+   "ar": [
+    "coffee-machines",
+    "ماكينات القهوة"
+   ]
+  },
+  "smartphones": {
+   "tr": [
+    "akilli-telefonlar",
+    "Akıllı telefonlar"
+   ],
+   "el": [
+    "kinita-tilefona",
+    "Κινητά τηλέφωνα"
+   ],
+   "cs": [
+    "mobilni-telefony",
+    "Mobilní telefony"
+   ],
+   "ro": [
+    "telefoane-mobile",
+    "Telefoane mobile"
+   ],
+   "da": [
+    "smartphones",
+    "Smartphones"
+   ],
+   "fi": [
+    "alypuhelimet",
+    "Älypuhelimet"
+   ],
+   "nb": [
+    "mobiltelefoner",
+    "Mobiltelefoner"
+   ],
+   "ru": [
+    "smartfony",
+    "Смартфоны"
+   ],
+   "uk": [
+    "smartfony",
+    "Смартфони"
+   ],
+   "ar": [
+    "smartphones",
+    "الهواتف الذكية"
+   ]
+  }
+ }
+}

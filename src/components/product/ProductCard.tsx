@@ -25,7 +25,7 @@ export function ProductCard({ lang, p, compare }: { lang: Locale; p: ProductCard
         {p.price != null && <div className="num mt-3 text-lg font-bold">{money(lang, p.price, p.currency)}</div>}
       </Link>
       {compare && (
-        <div className="absolute right-5 top-5">
+        <div className="absolute end-5 top-5">
           <CompareToggle item={compare.item} label={compare.label} active={compare.active} />
         </div>
       )}

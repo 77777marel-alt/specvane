@@ -3,7 +3,7 @@
 // на 10 языках берём у самого Icecat. Категория включается импортом, когда в ней появятся модели.
 import { createClient } from '@supabase/supabase-js'
 import { flatFeatures, slugify } from './map.mjs'
-import { CATEGORIES, LANGS } from './categories.mjs'
+import { CATEGORIES, ALL_LANGS as LANGS } from './categories.mjs'
 import { AUTO_CATIDS } from './auto-list.mjs'
 
 const env = (k, d) => process.env[k] ?? d
@@ -11,7 +11,13 @@ const UA = 'SpecvaneImporter/1.0 (+https://specvane.com)'
 const log = (...a) => console.log(new Date().toISOString().slice(11, 19), ...a)
 const db = createClient(env('SUPABASE_URL'), env('SUPABASE_SERVICE_ROLE_KEY'), { auth: { persistSession: false } })
 const must = ({ data, error }, what) => { if (error) throw new Error(`${what}: ${error.message}`); return data }
-const ICECAT_LANG = { en: 'en', de: 'de', fr: 'fr', it: 'it', es: 'es', nl: 'nl', pl: 'pl', sv: 'sv', 'pt-br': 'BR', ja: 'ja' }
+const ICECAT_LANG = { en: 'en', de: 'de', fr: 'fr', it: 'it', es: 'es', nl: 'nl', pl: 'pl', sv: 'sv', 'pt-br': 'BR', ja: 'ja',
+  tr: 'tr', el: 'el', cs: 'cz', ro: 'ro', da: 'dk', fi: 'fi', nb: 'no', ru: 'ru', uk: 'uk', ar: 'ar' }
+// транслитерация для адресов (кириллица, греческий); арабский и японский — английский адрес
+const TR = Object.fromEntries([...'абвгдеёжзийклмнопрстуфхцчшщъыьэюяіїєґ'].map((c, i) => [c, ['a','b','v','g','d','e','e','zh','z','i','y','k','l','m','n','o','p','r','s','t','u','f','kh','ts','ch','sh','shch','','y','','e','yu','ya','i','yi','ye','g'][i]])
+  .concat([...'αβγδεζηθικλμνξοπρσςτυφχψωάέήίόύώϊϋΐΰ'].map((c, i) => [c, ['a','v','g','d','e','z','i','th','i','k','l','m','n','x','o','p','r','s','s','t','y','f','ch','ps','o','a','e','i','i','o','y','o','i','y','i','y'][i]])))
+const translit = (s) => [...String(s).toLowerCase()].map((c) => TR[c] ?? c).join('')
+const slugFor = (lang, name, nameEn) => (lang === 'ja' || lang === 'ar' ? slugify(nameEn) : slugify(translit(name)) || slugify(nameEn))
 const MANUAL = new Set(['1893', ...Object.values(CATEGORIES).flatMap((c) => [].concat(c.catid))])
 
 // служебные признаки: упаковка, логистика, сертификаты — не характеристики товара
@@ -95,7 +101,7 @@ await pool(todo, 6, async (ic) => {
 
   const i18n = LANGS.map((lang) => {
     const nm = names[lang] ?? nameEn
-    let slug = lang === 'ja' ? slugify(nameEn) : slugify(nm) || slugify(nameEn)
+    let slug = slugFor(lang, nm, nameEn)
     slug = slug.slice(0, 70)
     if (usedSlugs.has(`${lang}:${slug}`)) slug = `${slug}-${ic.catid}`
     usedSlugs.add(`${lang}:${slug}`)
@@ -118,4 +124,36 @@ await pool(todo, 6, async (ic) => {
   })), 'labels')
   must(await db.from('icecat_categories').update({ category_key: key, updated_at: new Date().toISOString() }).eq('catid', ic.catid), 'mark')
   log(`✓ ${ic.catid} ${nameEn} → ${key}: ${pick.length} характеристик (${samples.length} карточек в пробе), ${ic.sku_count} позиций`)
+})
+
+// --- дозаполнение: автокатегории, созданные до появления новых языков, получают названия и подписи на них ---
+const autoCats = must(await db.from('categories').select('id, key, icecat_catid, category_i18n(lang)').eq('auto', true), 'auto list')
+await pool(autoCats.filter((c) => c.category_i18n.length < LANGS.length).map((c) => ({ ...c, catid: c.icecat_catid })), 6, async (c) => {
+  const have = new Set(c.category_i18n.map((r) => r.lang))
+  const missing = LANGS.filter((l) => !have.has(l))
+  const ic = must(await db.from('icecat_categories').select('sample_ids, name_en').eq('catid', c.icecat_catid).single(), 'ic')
+  const defs = must(await db.from('spec_definitions').select('id, key, group_key').eq('category_id', c.id), 'defs')
+  let probe = null
+  for (const id of ic.sample_ids) { const d = await sheet(id); if (d) { probe = id; break } }
+  if (!probe) return
+  const rowsI18n = [], rowsLabels = [], rowsGroups = new Map()
+  for (const lang of missing) {
+    const d = await sheet(probe, ICECAT_LANG[lang]); if (!d) continue
+    const nm = d.GeneralInfo?.Category?.Name?.Value ?? ic.name_en
+    let slug = slugFor(lang, nm, ic.name_en).slice(0, 70)
+    if (usedSlugs.has(`${lang}:${slug}`)) slug = `${slug}-${c.icecat_catid}`
+    usedSlugs.add(`${lang}:${slug}`)
+    rowsI18n.push({ category_id: c.id, lang, slug, name: nm })
+    const byId = new Map(flatFeatures(d).map((f) => [f.id, f.name]))
+    const gs = groupsOf(d)
+    for (const df of defs) {
+      const fid = Number(df.key.slice(1))
+      const label = byId.get(fid); if (label) rowsLabels.push({ spec_id: df.id, lang, label })
+      const g = gs.get(fid); if (g?.gname) rowsGroups.set(`${df.group_key}|${lang}`, { group_key: df.group_key, lang, label: g.gname })
+    }
+  }
+  if (rowsI18n.length) must(await db.from('category_i18n').upsert(rowsI18n, { onConflict: 'category_id,lang' }), 'i18n+')
+  if (rowsLabels.length) must(await db.from('spec_definition_i18n').upsert(rowsLabels, { onConflict: 'spec_id,lang' }), 'labels+')
+  if (rowsGroups.size) must(await db.from('spec_group_i18n').upsert([...rowsGroups.values()], { onConflict: 'group_key,lang' }), 'groups+')
+  log(`+ ${c.key}: языки ${rowsI18n.map((r) => r.lang).join(' ')}`)
 })
