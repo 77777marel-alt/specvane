@@ -16,7 +16,7 @@ import { CategoryView } from '@/components/views/CategoryView'
 import { BestView } from '@/components/views/BestView'
 import { getCategories } from '@/lib/data'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
-import { runningCost } from '@/lib/costs'
+import { costInput } from '@/lib/costs'
 import { ComparePicker } from '@/components/compare/ComparePicker'
 import { CompareTray } from '@/components/compare/CompareTray'
 
@@ -62,6 +62,8 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/[...slug]'
       description: `${title} — ${a.keySpecs.slice(0, 3).map((k) => k.display).join(', ')} ${t.ui.vs} ${b.keySpecs.slice(0, 3).map((k) => k.display).join(', ')}.`,
       alternates: alternates(lang, (l) => `${sectionHref(l, 'compare')}/${pair}`),
       robots: c.known ? undefined : { index: false, follow: true },
+      openGraph: { title, images: [{ url: `/og/${lang}/compare/${pair}.png`, width: 1200, height: 630 }] },
+      twitter: { card: 'summary_large_image' },
     }
   }
   if (!key && slug.length <= 2) {
@@ -81,7 +83,8 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/[...slug]'
       title: `${p.brand} ${p.name}: ${t.ui.allSpecs} · Specvane`,
       description: `${p.brand} ${p.name} — ${ks}.`,
       alternates: alternates(lang, path),
-      openGraph: { title: `${p.brand} ${p.name}`, images: p.image ? [{ url: p.image }] : undefined },
+      openGraph: { title: `${p.brand} ${p.name}`, images: [{ url: `/og/${lang}/p/${cat.slug}/${p.slug}.png`, width: 1200, height: 630 }] },
+      twitter: { card: 'summary_large_image' },
     }
   }
   return {}
@@ -205,7 +208,7 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
               compareLinks={await getCompareLinks(lang, p.slug)} variants={variants} gallery={p.images}
               compare={{ cat: cat.key, base: sectionHref(lang, 'compare') }}
               positions={await getPositions(lang, cat, p.specGroups.flatMap((g) => g.specs))}
-              cost={runningCost(lang, cat.key, p.specGroups.flatMap((g) => g.specs))}
+              cost={costInput(lang, cat.key, p.specGroups.flatMap((g) => g.specs))}
               better={await getBetterAlternatives(lang, cat, { slug: p.slug, release: p.releaseDate, keySpecs: p.keySpecs })}
               prevGen={await getPrevGeneration(lang, cat, p.brand, p.name).then((g) => g && { name: `${g.brand} ${g.name}`, href: g.href, specs: g.specGroups.flatMap((x) => x.specs) })}
               attribution={p.source === 'icecat' ? `Database Right data-sheet ${year} Icecat. All rights reserved. Data provided “as is” without warranty.` : undefined} />

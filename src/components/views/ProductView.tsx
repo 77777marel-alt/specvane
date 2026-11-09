@@ -8,7 +8,7 @@ import { Gallery } from '../product/Gallery'
 import { SpecPositions } from '../charts/SpecPositions'
 import { GenChanges } from '../charts/GenChanges'
 import { CostBox } from '../charts/CostBox'
-import type { RunningCost } from '@/lib/costs'
+import type { CostInput } from '@/lib/costs'
 import type { SpecValue, ProductCardData } from '@/lib/types'
 import type { SpecPosition } from '@/lib/catalog'
 import { CompareToggle } from '../compare/CompareToggle'
@@ -25,7 +25,7 @@ import { ProductCard } from '../product/ProductCard'
 export function ProductView({ lang, t, p, crumbs, compareLinks, variants, gallery, attribution, compare, positions, prevGen, cost, better }:
   { lang: Locale; t: Dict; p: P; crumbs: Crumb[]; compareLinks: { name: string; href: string }[]
     variants?: string[]; gallery?: string[]; attribution?: string; compare?: { cat: string; base: string }; positions?: SpecPosition[]
-    prevGen?: { name: string; href: string; specs: SpecValue[] } | null; cost?: RunningCost | null
+    prevGen?: { name: string; href: string; specs: SpecValue[] } | null; cost?: CostInput | null
     better?: (ProductCardData & { why: string })[] }) {
   const keySpecs = p.keySpecs
   return (
