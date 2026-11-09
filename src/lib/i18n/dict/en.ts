@@ -150,6 +150,8 @@ export const en = {
     betterThan: "Better than {p}% of models in the category",
     radarTitle: "Strengths at a glance",
     radarNote: "Rank among all models in the category: further out = better.",
+    trendTitle: "How specs changed by year",
+    trendNote: "Typical value (median) among models released each year.",
     sortName: 'Name A–Z',
     sortHigh: '{label}: highest',
     sortLow: '{label}: lowest',

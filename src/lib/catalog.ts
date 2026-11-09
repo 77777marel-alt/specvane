@@ -344,7 +344,7 @@ export async function getCrossLinks(lang: Locale, cat: Category, me: { slug: str
     if (!other) continue
     const all = await getCategoryProducts(lang, other)
     const pick = [...all.filter((p) => p.brand === me.brand), ...all.filter((p) => p.brand !== me.brand)].slice(0, 3)
-    if (pick.length) out.push({ cat: other.name, links: pick.map((p) => ({ name: `${p.brand} ${p.name}`, href: compareHref(lang, me.slug, p.slug) })) })
+    if (pick.length) out.push({ cat: other.name, links: pick.map((p) => ({ name: `${p.brand} ${p.name}`, href: compareHref(lang, ...([me.slug, p.slug].sort((u, v) => u.localeCompare(v)) as [string, string])) })) })
   }
   return out
 }
@@ -382,7 +382,7 @@ export async function getComparison(lang: Locale, pairSlug: string) {
       const only = (p: typeof x, other: Set<string>) => ({ ...p, specGroups: p.specGroups.map((g) => ({ ...g, specs: g.specs.filter((v) => other.has(v.key)) })).filter((g) => g.specs.length) })
       const first = data[0].slug === a
       const items = first ? [only(x, ky), only(y, kx)] : [only(y, kx), only(x, ky)]
-      const [pa, pb] = data[0].id < data[1].id ? data : [data[1], data[0]]
+      const [pa, pb] = [...data].sort((u, v) => u.slug.localeCompare(v.slug))
       return { cat: first ? ca : cb, cats: first ? [ca, cb] : [cb, ca], items, cross: true,
         known: x.brand === y.brand && kx.size > 0 && items[0].specGroups.length > 0, canonical: compareHref(lang, pa.slug, pb.slug) }
     }
@@ -432,4 +432,25 @@ export async function getIndexableComparisons(): Promise<{ a: string; b: string;
     if (!data || data.length < 1000) break
   }
   return out
+}
+
+/** Хронология категории: медиана характеристики у моделей каждого года выпуска (только из наших данных). */
+export async function getTrends(lang: Locale, cat: Category) {
+  'use cache'
+  cacheLife('hours'); cacheTag('products')
+  const [items, filters] = await Promise.all([getCategoryProducts(lang, cat), getFilterDefs(lang, cat)])
+  const out: { key: string; label: string; hib: boolean; years: { year: number; n: number; v: number; d: string }[] }[] = []
+  for (const f of filters) {
+    if (f.type !== 'number' || f.hib == null) continue
+    const by = new Map<number, { v: number; d: string }[]>()
+    for (const it of items) {
+      const x = it.facets?.[f.key]; const y = it.release ? Number(it.release.slice(0, 4)) : NaN
+      if (!x || typeof x.v !== 'number' || !(x.v > 0) || !(y >= 2010)) continue
+      by.set(y, [...(by.get(y) ?? []), { v: x.v, d: x.d }])
+    }
+    const years = [...by.entries()].filter(([, l]) => l.length >= 5).sort((a, b) => a[0] - b[0]).slice(-6)
+      .map(([year, l]) => { const s = [...l].sort((a, b) => a.v - b.v); const m = s[Math.floor((s.length - 1) / 2)]; return { year, n: l.length, v: m.v, d: m.d } })
+    if (years.length >= 3 && years.at(-1)!.v !== years[0].v) out.push({ key: f.key, label: f.label, hib: f.hib, years })
+  }
+  return out.sort((a, b) => b.years.reduce((s, y) => s + y.n, 0) - a.years.reduce((s, y) => s + y.n, 0)).slice(0, 4)
 }

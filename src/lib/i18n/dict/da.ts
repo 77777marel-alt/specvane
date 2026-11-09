@@ -149,6 +149,8 @@ export const da: Dict = {
     betterThan: "Bedre end {p} % af modellerne i kategorien",
     radarTitle: "Styrker på et øjeblik",
     radarNote: "Placering blandt alle modeller i kategorien: længere ude = bedre.",
+    trendTitle: "Sådan har specifikationerne ændret sig over årene",
+    trendNote: "Typisk værdi (median) for modeller udgivet hvert år.",
     sortName: "Navn A–Å",
     sortHigh: "{label}: højeste",
     sortLow: "{label}: laveste",

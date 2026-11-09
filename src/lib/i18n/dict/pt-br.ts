@@ -149,6 +149,8 @@ export const ptBr: Dict = {
     betterThan: "Melhor que {p}% dos modelos da categoria",
     radarTitle: "Pontos fortes num relance",
     radarNote: "Posição entre todos os modelos da categoria: quanto mais para fora, melhor.",
+    trendTitle: "Como as especificações mudaram por ano",
+    trendNote: "Valor típico (mediana) dos modelos lançados em cada ano.",
     sortName: 'Nome A–Z',
     sortHigh: '{label}: maior primeiro',
     sortLow: '{label}: menor primeiro',

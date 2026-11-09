@@ -149,6 +149,8 @@ export const cs: Dict = {
     betterThan: "Lepší než {p} % modelů v kategorii",
     radarTitle: "Silné stránky na první pohled",
     radarNote: "Pořadí mezi všemi modely v kategorii: čím dál od středu, tím lépe.",
+    trendTitle: "Jak se parametry měnily v čase",
+    trendNote: "Typická hodnota (medián) modelů vydaných v daném roce.",
     sortName: "Název A–Z",
     sortHigh: "{label}: nejvyšší",
     sortLow: "{label}: nejnižší",

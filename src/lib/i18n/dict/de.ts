@@ -150,6 +150,8 @@ export const de: Dict = {
     betterThan: "Besser als {p} % der Modelle der Kategorie",
     radarTitle: "Stärken auf einen Blick",
     radarNote: "Rang unter allen Modellen der Kategorie: weiter außen = besser.",
+    trendTitle: "Wie sich die Werte über die Jahre verändert haben",
+    trendNote: "Typischer Wert (Median) der Modelle jedes Erscheinungsjahres.",
     sortName: 'Name A–Z',
     sortHigh: '{label}: höchste zuerst',
     sortLow: '{label}: niedrigste zuerst',

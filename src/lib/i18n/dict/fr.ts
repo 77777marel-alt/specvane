@@ -149,6 +149,8 @@ export const fr: Dict = {
     betterThan: "Meilleur que {p} % des modèles de la catégorie",
     radarTitle: "Points forts en un coup d’œil",
     radarNote: "Classement parmi tous les modèles de la catégorie : plus c’est à l’extérieur, mieux c’est.",
+    trendTitle: "L’évolution des caractéristiques par année",
+    trendNote: "Valeur typique (médiane) des modèles sortis chaque année.",
     sortName: 'Nom A–Z',
     sortHigh: '{label} : du plus élevé',
     sortLow: '{label} : du plus bas',

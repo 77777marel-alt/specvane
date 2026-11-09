@@ -149,6 +149,8 @@ export const nb: Dict = {
     betterThan: "Bedre enn {p} % av modellene i kategorien",
     radarTitle: "Styrker med et blikk",
     radarNote: "Plassering blant alle modeller i kategorien: lenger ut = bedre.",
+    trendTitle: "Slik har spesifikasjonene endret seg over årene",
+    trendNote: "Typisk verdi (median) for modeller lansert hvert år.",
     sortName: "Navn A–Å",
     sortHigh: "{label}: høyest",
     sortLow: "{label}: lavest",

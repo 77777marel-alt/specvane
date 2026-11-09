@@ -5,10 +5,12 @@ import { fill } from '@/lib/format'
 import { Breadcrumbs, type Crumb } from '../Breadcrumbs'
 import { ProductCard } from '../product/ProductCard'
 import { CategoryBrowser } from './CategoryBrowser'
+import { Trends } from '../charts/Trends'
 
 /** Категория: заголовок, фильтры человеческим языком (чипы), сортировка, сетка карточек. */
-export function CategoryView({ lang, t, title, intro, items, crumbs, brands, browser, tops }:
+export function CategoryView({ lang, t, title, intro, items, crumbs, brands, browser, tops, trends }:
   { lang: Locale; t: Dict; title: string; intro?: string; items: ProductCardData[]; chips?: string[]; crumbs: Crumb[]; brands?: string[]; tops?: { label: string; href: string }[]
+    trends?: Parameters<typeof Trends>[0]['trends']
     browser?: { filters: { key: string; label: string; type: string; hib: boolean | null }[]; compare: { cat: string; base: string } } }) {
   return (
     <>
@@ -34,6 +36,7 @@ export function CategoryView({ lang, t, title, intro, items, crumbs, brands, bro
           {items.map((p) => <ProductCard key={p.slug} lang={lang} p={p} />)}
         </div>
       )}
+      {trends && <Trends trends={trends} title={t.ui.trendTitle} note={t.ui.trendNote} />}
     </>
   )
 }
