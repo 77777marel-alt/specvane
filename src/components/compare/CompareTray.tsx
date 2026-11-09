@@ -11,7 +11,7 @@ export function CompareTray({ s }: { s: Strings }) {
   const ready = items.length >= 2
   const href = ready ? `${items[0].base}/${items.map((x) => x.slug).join('-vs-')}` : undefined
   return (
-    <div className="fixed inset-x-0 bottom-[4.5rem] z-40 px-3 md:bottom-4" role="region" aria-label={s.compareNow}>
+    <div className="sv-tray fixed inset-x-0 z-40 px-3" role="region" aria-label={s.compareNow}>
       <div className="mx-auto flex max-w-3xl items-center gap-2 rounded-2xl border border-border bg-bg/95 p-2 shadow-card backdrop-blur">
         <ul className="flex min-w-0 flex-1 items-center gap-2">
           {items.map((it, i) => (

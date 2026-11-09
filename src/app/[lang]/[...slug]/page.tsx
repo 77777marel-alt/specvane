@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation'
 import { isLocale, type Locale } from '@/lib/i18n/config'
 import { getDict } from '@/lib/i18n'
 import { INFO_PAGES, resolveSlug, sectionHref, type InfoPage } from '@/lib/routes'
-import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions, getPrevGeneration, getBest, getBestSpecs, getBetterAlternatives } from '@/lib/catalog'
+import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions, getPrevGeneration, getBest, getBestSpecs, getBetterAlternatives, getCrossLinks } from '@/lib/catalog'
 import { permanentRedirect } from 'next/navigation'
 import { number, fill } from '@/lib/format'
 import { alternates } from '@/lib/seo'
@@ -170,13 +170,13 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
     if (!c) notFound()
     if (c.known && c.canonical !== `${sectionHref(lang, 'compare')}/${slug[1]}`) permanentRedirect(c.canonical)
     // радар: оси — характеристики, по которым есть место в категории у обеих моделей
-    const pos = await Promise.all(c.items.map((it) => getPositions(lang, c.cat, it.specGroups.flatMap((g) => g.specs), 30)))
-    const axes = pos[0].filter((x) => pos.every((p) => p.some((y) => y.key === x.key))).slice(0, 8)
+    const pos = 'cross' in c ? [] : await Promise.all(c.items.map((it) => getPositions(lang, c.cat, it.specGroups.flatMap((g) => g.specs), 30)))
+    const axes = (pos[0] ?? []).filter((x) => pos.every((p) => p.some((y) => y.key === x.key))).slice(0, 8)
     const radar = axes.length >= 3 ? { axes: axes.map((x) => x.label),
       series: c.items.map((it, k) => ({ name: `${it.brand} ${it.name}`, values: axes.map((x) => pos[k].find((y) => y.key === x.key)!.better) })) } : undefined
     return (
       <CompareView lang={lang} t={t} items={c.items} radar={radar}
-        crumbs={[home, { name: c.cat.name, href: `/${lang}/${c.cat.slug}` }, { name: c.items.map((x) => x.name).join(` ${t.ui.vs} `), href: c.canonical }]} />
+        crumbs={[home, 'cross' in c ? { name: t.nav.compare, href: sectionHref(lang, 'compare') } : { name: c.cat.name, href: `/${lang}/${c.cat.slug}` }, { name: c.items.map((x) => x.name).join(` ${t.ui.vs} `), href: c.canonical }]} />
     )
   }
 
@@ -209,6 +209,7 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
               positions={await getPositions(lang, cat, p.specGroups.flatMap((g) => g.specs))}
               cost={costInput(lang, cat.key, p.specGroups.flatMap((g) => g.specs))}
               better={await getBetterAlternatives(lang, cat, { slug: p.slug, release: p.releaseDate, keySpecs: p.keySpecs })}
+              cross={await getCrossLinks(lang, cat, { slug: p.slug, brand: p.brand })}
               prevGen={await getPrevGeneration(lang, cat, p.brand, p.name).then((g) => g && { name: `${g.brand} ${g.name}`, href: g.href, specs: g.specGroups.flatMap((x) => x.specs) })}
               attribution={p.source === 'icecat' ? `Database Right data-sheet ${year} Icecat. All rights reserved. Data provided “as is” without warranty.` : undefined} />
             <ProductJsonLd name={`${p.brand} ${p.name}`} brand={p.brand} image={p.images} url={p.href} />

@@ -36,7 +36,7 @@ export default async function RootLayout({ children, params }: LayoutProps<'/[la
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
-      <body className="min-h-dvh overflow-x-clip antialiased">
+      <body className="min-h-dvh overflow-x-clip pb-[calc(4rem+env(safe-area-inset-bottom))] antialiased md:pb-0">
         <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:start-3 focus:top-3 focus:z-50 focus:rounded-lg focus:bg-bg focus:px-3 focus:py-2">Skip to content</a>
         <Header lang={lang} t={t} />
         <main id="main" className="mx-auto max-w-6xl px-4">{children}</main>

@@ -328,6 +328,27 @@ export function compareHref(lang: Locale, a: string, b: string) {
   return `${sectionHref(lang, 'compare')}/${a}-vs-${b}`
 }
 
+/** Пары категорий, которые сравнивают между собой (ключи характеристик у них общие). */
+const CROSS: [string, string][] = [['smartphones', 'tablets'], ['tablets', 'laptops'], ['monitors', 'tvs']]
+export const crossOf = (key: string) => CROSS.flatMap(([a, b]) => (a === key ? [b] : b === key ? [a] : []))
+
+/** «Сравнить с ноутбуком / телевизором…»: по 3 модели из соседней категории — сначала тот же бренд, потом новинки. */
+export async function getCrossLinks(lang: Locale, cat: Category, me: { slug: string; brand: string }) {
+  'use cache'
+  cacheLife('hours'); cacheTag('products')
+  const out: { cat: string; links: CompareLink[] }[] = []
+  for (const key of crossOf(cat.key)) {
+    const s = db(); if (!s) break
+    const { data } = await s.from('categories').select('id').eq('key', key).maybeSingle()
+    const other = data ? await categoryById(lang, data.id) : null
+    if (!other) continue
+    const all = await getCategoryProducts(lang, other)
+    const pick = [...all.filter((p) => p.brand === me.brand), ...all.filter((p) => p.brand !== me.brand)].slice(0, 3)
+    if (pick.length) out.push({ cat: other.name, links: pick.map((p) => ({ name: `${p.brand} ${p.name}`, href: compareHref(lang, me.slug, p.slug) })) })
+  }
+  return out
+}
+
 /** Пара по адресу «a-vs-b». Возвращает обе модели и канонический порядок (как в базе). */
 export async function getComparison(lang: Locale, pairSlug: string) {
   'use cache'
@@ -349,7 +370,22 @@ export async function getComparison(lang: Locale, pairSlug: string) {
   for (let i = 1; i < parts.length; i++) {
     const a = parts.slice(0, i).join('-vs-'), b = parts.slice(i).join('-vs-')
     const { data } = await s.from('products').select('id, slug, category_id').in('slug', [a, b]).eq('status', 'active')
-    if (!data || data.length !== 2 || data[0].category_id !== data[1].category_id) continue
+    if (!data || data.length !== 2) continue
+    if (data[0].category_id !== data[1].category_id) {
+      // между категориями (планшет против ноутбука и т. п.): только общие характеристики
+      const [ca, cb] = await Promise.all(data.map((d) => categoryById(lang, d.category_id)))
+      if (!ca || !cb || !crossOf(ca.key).includes(cb.key)) continue
+      const [x, y] = await Promise.all([getProduct(lang, ca, data[0].slug), getProduct(lang, cb, data[1].slug)])
+      if (!x || !y) return null
+      const keys = (p: typeof x) => new Set(p.specGroups.flatMap((g) => g.specs).map((v) => v.key))
+      const kx = keys(x), ky = keys(y)
+      const only = (p: typeof x, other: Set<string>) => ({ ...p, specGroups: p.specGroups.map((g) => ({ ...g, specs: g.specs.filter((v) => other.has(v.key)) })).filter((g) => g.specs.length) })
+      const first = data[0].slug === a
+      const items = first ? [only(x, ky), only(y, kx)] : [only(y, kx), only(x, ky)]
+      const [pa, pb] = data[0].id < data[1].id ? data : [data[1], data[0]]
+      return { cat: first ? ca : cb, cats: first ? [ca, cb] : [cb, ca], items, cross: true,
+        known: x.brand === y.brand && kx.size > 0 && items[0].specGroups.length > 0, canonical: compareHref(lang, pa.slug, pb.slug) }
+    }
     const [pa, pb] = data[0].id < data[1].id ? data : [data[1], data[0]]
     const { data: c } = await s.from('comparisons').select('id').eq('product_a', pa.id).eq('product_b', pb.id).maybeSingle()
     const cat = await categoryById(lang, pa.category_id)

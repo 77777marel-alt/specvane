@@ -15,12 +15,17 @@ export function BottomNav({ left, right, searchLabel }: { left: Item[]; right: I
   const path = usePathname()
   const [hidden, setHidden] = useState(false)
   useEffect(() => {
-    let y = window.scrollY
+    // Позиция с ограничением: «пружина» iPhone вверху и внизу страницы не должна дёргать меню
+    const pos = () => Math.min(Math.max(window.scrollY, 0), document.documentElement.scrollHeight - window.innerHeight)
+    let y = pos()
     const on = () => {
-      const d = window.scrollY - y
-      if (Math.abs(d) < 8) return
-      setHidden(d > 0 && window.scrollY > 120)
-      y = window.scrollY
+      const now = pos()
+      const d = now - y
+      if (Math.abs(d) < 16) return
+      const h = d > 0 && now > 120
+      setHidden(h)
+      document.documentElement.dataset.nav = h ? 'hidden' : ''
+      y = now
     }
     window.addEventListener('scroll', on, { passive: true })
     return () => window.removeEventListener('scroll', on)
