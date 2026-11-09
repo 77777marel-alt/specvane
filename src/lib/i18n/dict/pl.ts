@@ -113,6 +113,7 @@ export const pl: Dict = {
     sortBright: "Jasność",
     filters: "Filtry",
     addCompare: "Dodaj do porównania",
+    similarBetter: "Podobny, ale lepszy pod względem…",
     gainTitle: "Przejście z {a} na {b}",
     gain: "Zyskujesz",
     lose: "Tracisz",

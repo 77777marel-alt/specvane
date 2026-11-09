@@ -113,6 +113,7 @@ export const fi: Dict = {
     sortBright: "Kirkkaus",
     filters: "Suodattimet",
     addCompare: "Lisää vertailuun",
+    similarBetter: "Samankaltainen, mutta parempi…",
     gainTitle: "Vaihto mallista {a} malliin {b}",
     gain: "Saat",
     lose: "Menetät",

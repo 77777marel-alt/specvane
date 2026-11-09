@@ -113,6 +113,7 @@ export const el: Dict = {
     sortBright: "Φωτεινότητα",
     filters: "Φίλτρα",
     addCompare: "Προσθήκη στη σύγκριση",
+    similarBetter: "Παρόμοιο, αλλά καλύτερο σε…",
     gainTitle: "Αλλαγή από {a} σε {b}",
     gain: "Κερδίζετε",
     lose: "Χάνετε",

@@ -113,6 +113,7 @@ export const ja: Dict = {
     sortBright: "明るさ",
     filters: "絞り込み",
     addCompare: "比較に追加",
+    similarBetter: "似ているが、ここが優れているモデル",
     gainTitle: "{a}から{b}への乗り換え",
     gain: "得られるもの",
     lose: "失うもの",

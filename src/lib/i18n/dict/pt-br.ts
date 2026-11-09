@@ -113,6 +113,7 @@ export const ptBr: Dict = {
     sortBright: "Brilho",
     filters: "Filtros",
     addCompare: "Adicionar à comparação",
+    similarBetter: "Parecido, mas melhor em…",
     gainTitle: "Trocar {a} por {b}",
     gain: "O que você ganha",
     lose: "O que você perde",

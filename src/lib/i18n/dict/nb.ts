@@ -113,6 +113,7 @@ export const nb: Dict = {
     sortBright: "Lysstyrke",
     filters: "Filtre",
     addCompare: "Legg til i sammenligning",
+    similarBetter: "Lignende, men bedre på …",
     gainTitle: "Bytte fra {a} til {b}",
     gain: "Du får",
     lose: "Du mister",

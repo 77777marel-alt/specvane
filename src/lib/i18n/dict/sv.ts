@@ -113,6 +113,7 @@ export const sv: Dict = {
     sortBright: "Ljusstyrka",
     filters: "Filter",
     addCompare: "Lägg till jämförelse",
+    similarBetter: "Liknande, men bättre på …",
     gainTitle: "Byta från {a} till {b}",
     gain: "Du vinner",
     lose: "Du förlorar",

@@ -113,6 +113,7 @@ export const cs: Dict = {
     sortBright: "Jas",
     filters: "Filtry",
     addCompare: "Přidat k porovnání",
+    similarBetter: "Podobný, ale lepší v…",
     gainTitle: "Přechod z {a} na {b}",
     gain: "Získáte",
     lose: "Ztratíte",

@@ -113,6 +113,7 @@ export const tr: Dict = {
     sortBright: "Parlaklık",
     filters: "Filtreler",
     addCompare: "Karşılaştırmaya ekle",
+    similarBetter: "Benzer, ama şu konuda daha iyi…",
     gainTitle: "{a} modelinden {b} modeline geçiş",
     gain: "Kazandıklarınız",
     lose: "Kaybettikleriniz",

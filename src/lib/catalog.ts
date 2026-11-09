@@ -165,6 +165,37 @@ export async function getBest(lang: Locale, cat: Category, specSlug: string): Pr
   return { label: spec.label, total: stats[d.id]?.n ?? items.length, items }
 }
 
+/** «Похожие, но лучше по X»: для главных характеристик — самая похожая модель (того же времени), которая лучше на ≥10%. */
+export async function getBetterAlternatives(lang: Locale, cat: Category, cur: { slug: string; release?: string | null; keySpecs: SpecValue[] }) {
+  const all = await getCategoryProducts(lang, cat)
+  const me = all.find((x) => x.slug === cur.slug) ?? { ...cur, release: cur.release ?? null }
+  const nums = (p: { keySpecs: SpecValue[] }) => Object.fromEntries(p.keySpecs.filter((k) => typeof k.value === 'number' && (k.value as number) > 0).map((k) => [k.key, k.value as number]))
+  const mine = nums(me)
+  const t0 = me.release ? Date.parse(me.release) : null
+  const out: (ProductCardData & { why: string })[] = []
+  for (const k of me.keySpecs) {
+    if (k.higherIsBetter == null || typeof k.value !== 'number' || !(k.value > 0)) continue
+    let best: { p: (typeof all)[number]; d: number; pct: number; disp: string } | null = null
+    for (const p of all) {
+      if (p.slug === me.slug || out.some((o) => o.slug === p.slug)) continue
+      if (t0 && p.release && Math.abs(Date.parse(p.release) - t0) > 400 * 86400e3) continue
+      const v = p.keySpecs.find((x) => x.key === k.key)
+      if (!v || typeof v.value !== 'number') continue
+      const pct = k.higherIsBetter ? (v.value - k.value) / k.value : (k.value - v.value) / k.value
+      if (pct < 0.1) continue
+      const other = nums(p)
+      let d = 0, n = 0
+      for (const [key, x] of Object.entries(mine)) if (key !== k.key && other[key]) { d += Math.abs(Math.log(other[key] / x)); n++ }
+      if (!n) continue
+      d /= n
+      if (!best || d < best.d) best = { p, d, pct, disp: v.display }
+    }
+    if (best && best.d < 0.35) out.push({ ...best.p, why: `${k.label}: ${best.disp} (${k.higherIsBetter ? '+' : '−'}${Math.round(best.pct * 100)}%)` })
+    if (out.length >= 4) break
+  }
+  return out
+}
+
 type Stats = { n: number; pct: number[]; hist: number[]; lo: number | null; hi: number | null }
 async function getSpecStats(categoryId: number): Promise<Record<number, Stats>> {
   'use cache'

@@ -113,6 +113,7 @@ export const uk: Dict = {
     sortBright: "Яскравість",
     filters: "Фільтри",
     addCompare: "Додати до порівняння",
+    similarBetter: "Схожі, але кращі за…",
     gainTitle: "Перехід з {a} на {b}",
     gain: "Що ви отримуєте",
     lose: "Що ви втрачаєте",

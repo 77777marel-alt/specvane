@@ -113,6 +113,7 @@ export const ar: Dict = {
     sortBright: "السطوع",
     filters: "عوامل التصفية",
     addCompare: "أضف إلى المقارنة",
+    similarBetter: "مشابه، لكنه أفضل في…",
     gainTitle: "الانتقال من {a} إلى {b}",
     gain: "ما تكسبه",
     lose: "ما تخسره",

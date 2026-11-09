@@ -113,6 +113,7 @@ export const ro: Dict = {
     sortBright: "Luminozitate",
     filters: "Filtre",
     addCompare: "Adaugă la comparație",
+    similarBetter: "Similar, dar mai bun la…",
     gainTitle: "Trecerea de la {a} la {b}",
     gain: "Ce câștigi",
     lose: "Ce pierzi",

@@ -113,6 +113,7 @@ export const nl: Dict = {
     sortBright: "Helderheid",
     filters: "Filters",
     addCompare: "Toevoegen aan vergelijking",
+    similarBetter: "Vergelijkbaar, maar beter in…",
     gainTitle: "Overstappen van {a} naar {b}",
     gain: "Je wint",
     lose: "Je verliest",

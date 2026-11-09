@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation'
 import { isLocale, type Locale } from '@/lib/i18n/config'
 import { getDict } from '@/lib/i18n'
 import { INFO_PAGES, resolveSlug, sectionHref, type InfoPage } from '@/lib/routes'
-import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions, getPrevGeneration, getBest, getBestSpecs } from '@/lib/catalog'
+import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions, getPrevGeneration, getBest, getBestSpecs, getBetterAlternatives } from '@/lib/catalog'
 import { permanentRedirect } from 'next/navigation'
 import { number, fill } from '@/lib/format'
 import { alternates } from '@/lib/seo'
@@ -206,6 +206,7 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
               compare={{ cat: cat.key, base: sectionHref(lang, 'compare') }}
               positions={await getPositions(lang, cat, p.specGroups.flatMap((g) => g.specs))}
               cost={runningCost(lang, cat.key, p.specGroups.flatMap((g) => g.specs))}
+              better={await getBetterAlternatives(lang, cat, { slug: p.slug, release: p.releaseDate, keySpecs: p.keySpecs })}
               prevGen={await getPrevGeneration(lang, cat, p.brand, p.name).then((g) => g && { name: `${g.brand} ${g.name}`, href: g.href, specs: g.specGroups.flatMap((x) => x.specs) })}
               attribution={p.source === 'icecat' ? `Database Right data-sheet ${year} Icecat. All rights reserved. Data provided “as is” without warranty.` : undefined} />
             <ProductJsonLd name={`${p.brand} ${p.name}`} brand={p.brand} image={p.images} url={p.href} />

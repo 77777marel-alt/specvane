@@ -114,6 +114,7 @@ export const en = {
     sortBright: "Brightness",
     filters: "Filters",
     addCompare: "Add to compare",
+    similarBetter: "Similar, but better at…",
     gainTitle: "Switching from {a} to {b}",
     gain: "You gain",
     lose: "You lose",

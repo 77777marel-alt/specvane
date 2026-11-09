@@ -9,7 +9,7 @@ import { SpecPositions } from '../charts/SpecPositions'
 import { GenChanges } from '../charts/GenChanges'
 import { CostBox } from '../charts/CostBox'
 import type { RunningCost } from '@/lib/costs'
-import type { SpecValue } from '@/lib/types'
+import type { SpecValue, ProductCardData } from '@/lib/types'
 import type { SpecPosition } from '@/lib/catalog'
 import { CompareToggle } from '../compare/CompareToggle'
 import { CompareTray } from '../compare/CompareTray'
@@ -22,10 +22,11 @@ import { SpecTable } from '../product/SpecTable'
 import { ProductCard } from '../product/ProductCard'
 
 /** Страница товара. Верх: фото, название, вердикт, лучшая цена, 3–5 ключевых цифр (ТЗ). */
-export function ProductView({ lang, t, p, crumbs, compareLinks, variants, gallery, attribution, compare, positions, prevGen, cost }:
+export function ProductView({ lang, t, p, crumbs, compareLinks, variants, gallery, attribution, compare, positions, prevGen, cost, better }:
   { lang: Locale; t: Dict; p: P; crumbs: Crumb[]; compareLinks: { name: string; href: string }[]
     variants?: string[]; gallery?: string[]; attribution?: string; compare?: { cat: string; base: string }; positions?: SpecPosition[]
-    prevGen?: { name: string; href: string; specs: SpecValue[] } | null; cost?: RunningCost | null }) {
+    prevGen?: { name: string; href: string; specs: SpecValue[] } | null; cost?: RunningCost | null
+    better?: (ProductCardData & { why: string })[] }) {
   const keySpecs = p.keySpecs
   return (
     <>
@@ -87,6 +88,15 @@ export function ProductView({ lang, t, p, crumbs, compareLinks, variants, galler
           )}
         </aside>
       </div>
+
+      {better && better.length > 0 && (
+        <section aria-labelledby="better" className="mt-12">
+          <h2 id="better" className="mb-4 text-xl font-semibold">{t.ui.similarBetter}</h2>
+          <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
+            {better.map((a) => <ProductCard key={a.slug} lang={lang} p={{ ...a, verdict: a.why }} />)}
+          </div>
+        </section>
+      )}
 
       {p.alternatives.length > 0 && (
         <section aria-labelledby="alt" className="mt-12">

@@ -113,6 +113,7 @@ export const ru: Dict = {
     sortBright: "Яркость",
     filters: "Фильтры",
     addCompare: "Добавить к сравнению",
+    similarBetter: "Похожие, но лучше по…",
     gainTitle: "Переход с {a} на {b}",
     gain: "Что вы получаете",
     lose: "Что вы теряете",

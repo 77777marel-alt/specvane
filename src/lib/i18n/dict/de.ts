@@ -114,6 +114,7 @@ export const de: Dict = {
     sortBright: "Helligkeit",
     filters: "Filter",
     addCompare: "Zum Vergleich",
+    similarBetter: "Ähnlich, aber besser bei …",
     gainTitle: "Wechsel von {a} zu {b}",
     gain: "Sie gewinnen",
     lose: "Sie verlieren",
