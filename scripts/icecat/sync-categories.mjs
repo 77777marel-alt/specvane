@@ -13,10 +13,8 @@ must(await db.from('spec_group_i18n').upsert(
   { onConflict: 'group_key,lang' }), 'groups')
 
 for (const [key, c] of Object.entries(CATEGORIES)) {
-  const existing = (await db.from('categories').select('id').eq('key', key).maybeSingle()).data
-  const cat = existing
-    ? must(await db.from('categories').update({ sort: c.sort, min_specs_to_publish: c.min }).eq('id', existing.id).select('id').single(), 'cat')
-    : must(await db.from('categories').insert({ key, sort: c.sort, min_specs_to_publish: c.min, is_active: false }).select('id').single(), 'cat')
+  try {
+  const cat = must(await db.from('categories').upsert({ key, sort: c.sort, min_specs_to_publish: c.min }, { onConflict: 'key' }).select('id').single(), `cat ${key}`)
   must(await db.from('category_i18n').upsert(LANGS.map((lang) => ({ category_id: cat.id, lang, slug: c.i18n[lang][0], name: c.i18n[lang][1] })),
     { onConflict: 'category_id,lang' }), `i18n ${key}`)
   const defs = must(await db.from('spec_definitions').upsert(c.specs.map((s, i) => ({
@@ -25,4 +23,5 @@ for (const [key, c] of Object.entries(CATEGORIES)) {
   must(await db.from('spec_definition_i18n').upsert(defs.flatMap((d) => LANGS.map((lang) => ({ spec_id: d.id, lang, label: labelFor(d.key, lang) }))),
     { onConflict: 'spec_id,lang' }), `labels ${key}`)
   console.log(`✓ ${key}: ${defs.length} характеристик`)
+  } catch (e) { console.log(`✗ ${key}: ${e.message}`) }
 }

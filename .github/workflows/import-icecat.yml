@@ -41,6 +41,7 @@ jobs:
       - run: node --test scripts/icecat/map.test.mjs scripts/icecat/categories.test.mjs
       - name: Categories
         if: ${{ github.event.inputs.dry_run != '1' }}
+        continue-on-error: true
         run: |
           node scripts/icecat/sync-categories.mjs
           node scripts/icecat/auto-setup.mjs
