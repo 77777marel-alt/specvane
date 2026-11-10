@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation'
 import { isLocale, type Locale } from '@/lib/i18n/config'
 import { getDict } from '@/lib/i18n'
 import { INFO_PAGES, MANUAL_SLUG, resolveSlug, sectionHref, type InfoPage } from '@/lib/routes'
-import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions, getPrevGeneration, getBest, getBestSpecs, getBetterAlternatives, getCrossLinks, getTrends, getCategoryByKey } from '@/lib/catalog'
+import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions, getPrevGeneration, getBest, getBestSpecs, getBetterAlternatives, getCrossLinks, getTrends, getCategoryByKey, getGlossaryLinks } from '@/lib/catalog'
 import { permanentRedirect } from 'next/navigation'
 import { number, fill } from '@/lib/format'
 import { alternates } from '@/lib/seo'
@@ -24,6 +24,7 @@ import { DocsList } from '@/components/product/DocsList'
 import { supportFor } from '@/lib/updates'
 import { TOOLS, toolsText } from '@/lib/tools'
 import { ToolCalc } from '@/components/views/ToolCalc'
+import { glossary, glossaryTerm, GLOSSARY_UI } from '@/lib/glossary'
 import { ProductImage } from '@/components/product/ProductImage'
 import { CompareTray } from '@/components/compare/CompareTray'
 
@@ -81,6 +82,13 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/[...slug]'
     return { title: `${t.info[key].title} · Specvane`, alternates: alternates(lang, (l: Locale) => sectionHref(l, key)), robots }
   }
   if (key === 'errors') return errorsMeta(lang, slug)
+  if (key === 'glossary') {
+    const g = GLOSSARY_UI[lang]
+    if (slug.length === 1) return { title: `${g.title} · Specvane`, description: g.lead, alternates: alternates(lang, (l) => sectionHref(l, 'glossary')) }
+    const term = slug.length === 2 ? glossaryTerm(lang, slug[1]) : undefined
+    if (!term) return {}
+    return { title: `${term.term} — ${g.title} · Specvane`, description: term.short, alternates: alternates(lang, (l) => sectionHref(l, 'glossary', term.slug)) }
+  }
   if (key === 'tools') {
     const tt = toolsText(lang)
     if (slug.length === 1) return { title: `${tt.indexTitle} · Specvane`, description: tt.indexLead, alternates: alternates(lang, (l) => sectionHref(l, 'tools')) }
@@ -164,6 +172,64 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
         {page.body.map((p, i) => (
           <p key={i} className="mb-4 leading-relaxed text-muted">{p}</p>
         ))}
+      </article>
+    )
+  }
+
+  if (key === 'glossary' && slug.length <= 2) {
+    const g = GLOSSARY_UI[lang]
+    const home = { name: t.ui.home, href: `/${lang}` }
+    const section = { name: g.title, href: sectionHref(lang, 'glossary') }
+    const terms = glossary(lang)
+    if (slug.length === 1) {
+      const sorted = [...terms].sort((a, b) => a.term.localeCompare(b.term, lang))
+      return (
+        <>
+          <Breadcrumbs items={[home, section]} />
+          <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{g.title}</h1>
+          <p className="mt-2 max-w-2xl text-muted">{g.lead}</p>
+          <ul className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {sorted.map((x) => (
+              <li key={x.slug}><a href={sectionHref(lang, 'glossary', x.slug)} className="block h-full rounded-2xl border border-border p-4 hover:border-accent">
+                <span className="font-semibold">{x.term}</span><span className="mt-1 block text-sm text-muted line-clamp-2">{x.short}</span></a></li>
+            ))}
+          </ul>
+        </>
+      )
+    }
+    const term = glossaryTerm(lang, slug[1])
+    if (!term) notFound()
+    const links = await getGlossaryLinks(lang, term.specs)
+    const rel = term.related.map((r) => terms.find((x) => x.slug === r)).filter((x) => !!x)
+    const ld = { '@context': 'https://schema.org', '@type': 'DefinedTerm', name: term.term, description: term.short, inDefinedTermSet: { '@type': 'DefinedTermSet', name: g.title } }
+    return (
+      <article className="max-w-3xl">
+        <Breadcrumbs items={[home, section, { name: term.term, href: sectionHref(lang, 'glossary', term.slug) }]} />
+        <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{term.term}</h1>
+        <p className="mt-3 text-lg text-muted">{term.short}</p>
+        <div className="mt-6 space-y-4 leading-relaxed">{term.body.map((p, i) => <p key={i}>{p}</p>)}</div>
+        <section className="mt-6 rounded-2xl bg-good-soft p-4">
+          <h2 className="mb-1 font-semibold text-good">{g.good}</h2>
+          <p>{term.good}</p>
+        </section>
+        {links.length > 0 && (
+          <nav className="mt-8" aria-label={g.best}>
+            <h2 className="mb-3 font-semibold">{g.best}</h2>
+            <ul className="grid gap-2 sm:grid-cols-2">
+              {links.map((x) => <li key={x.href}><a href={x.href} className="flex min-h-11 items-center rounded-xl border border-border px-3 py-2 hover:border-accent hover:text-accent">{x.name} →</a></li>)}
+            </ul>
+          </nav>
+        )}
+        {rel.length > 0 && (
+          <nav className="mt-8" aria-label={g.related}>
+            <h2 className="mb-3 font-semibold">{g.related}</h2>
+            <ul className="flex flex-wrap gap-2">
+              {rel.map((x) => <li key={x!.slug}><a href={sectionHref(lang, 'glossary', x!.slug)} className="inline-flex min-h-11 items-center rounded-xl border border-border px-3 hover:border-accent hover:text-accent">{x!.term}</a></li>)}
+            </ul>
+          </nav>
+        )}
+        <p className="mt-8"><a href={sectionHref(lang, 'glossary')} className="font-medium text-accent hover:underline">← {g.title}</a></p>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       </article>
     )
   }

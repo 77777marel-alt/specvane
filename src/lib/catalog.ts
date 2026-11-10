@@ -539,3 +539,19 @@ export async function getCategoryByKey(lang: Locale, key: string): Promise<Categ
   const { data } = await s.from('categories').select('id').eq('key', key).maybeSingle()
   return data ? categoryById(lang, data.id) : null
 }
+
+/** Словарь: ссылки термина на категории и «топ-20 по характеристике» (только если такая страница есть). */
+export async function getGlossaryLinks(lang: Locale, specs: { cat: string; key?: string }[]): Promise<{ name: string; href: string }[]> {
+  'use cache'
+  cacheLife('hours'); cacheTag('products')
+  const t = getDict(lang)
+  const out: { name: string; href: string }[] = []
+  for (const sp of specs) {
+    const cat = await getCategoryByKey(lang, sp.cat)
+    if (!cat) continue
+    const best = sp.key ? (await getBestSpecs(lang, cat)).find((x) => x.key === sp.key) : undefined
+    if (best) out.push({ name: fill(t.ui.bestTitle, { category: cat.name, n: 20, spec: best.label }), href: sectionHref(lang, 'best', cat.slug, best.slug) })
+    else if (!out.some((x) => x.href === `/${lang}/${cat.slug}`)) out.push({ name: cat.name, href: `/${lang}/${cat.slug}` })
+  }
+  return out
+}

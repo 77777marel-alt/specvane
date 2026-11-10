@@ -7,6 +7,8 @@ import { getCategories } from '@/lib/data'
 import { getHomeShowcase } from '@/lib/catalog'
 import { ProductCard } from '@/components/product/ProductCard'
 import { TOOLS, toolsText } from '@/lib/tools'
+import { glossary, GLOSSARY_UI } from '@/lib/glossary'
+const HOME_TERMS = ['refresh-rate', 'oled', 'hdr', 'ppi', 'mah', 'fast-charging', 'esim', 'ip68-ip-rating', 'ram', 'anc-noise-cancelling', 'megapixels', 'eu-energy-label']
 import { sectionHref } from '@/lib/routes'
 import { alternates } from '@/lib/seo'
 import { SearchBox } from '@/components/SearchBox'
@@ -127,6 +129,16 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
           {TOOLS.map((x) => (
             <li key={x.id}><Link href={sectionHref(lang, 'tools', x.id)} className="flex min-h-11 items-center rounded-xl border border-border px-3 py-2 hover:border-accent hover:text-accent">{toolsText(lang)[x.key].short}</Link></li>
           ))}
+        </ul>
+      </section>
+
+      <section aria-labelledby="glossary" className="py-6">
+        <h2 id="glossary" className="mb-3 text-xl font-semibold"><Link href={sectionHref(lang, 'glossary')} className="hover:text-accent">{GLOSSARY_UI[lang].title}</Link></h2>
+        <ul className="flex flex-wrap gap-2 text-sm">
+          {glossary(lang).filter((x) => HOME_TERMS.includes(x.slug)).map((x) => (
+            <li key={x.slug}><Link href={sectionHref(lang, 'glossary', x.slug)} className="inline-flex min-h-11 items-center rounded-xl border border-border px-3 hover:border-accent hover:text-accent">{x.term}</Link></li>
+          ))}
+          <li><Link href={sectionHref(lang, 'glossary')} className="inline-flex min-h-11 items-center px-3 font-medium text-accent hover:underline">→</Link></li>
         </ul>
       </section>
 

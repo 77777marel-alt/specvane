@@ -7,6 +7,7 @@ import { cacheLife } from 'next/cache'
 import { getIndexableProducts, getIndexableComparisons, getCategory, getBestSpecs, getCategoryByKey } from '@/lib/catalog'
 import { APPLIANCES, errorBrands, errorCodes, hasErrors, type Appliance } from '@/lib/errors'
 import { TOOLS } from '@/lib/tools'
+import { GLOSSARY_SLUGS } from '@/lib/glossary'
 
 // Индекс + отдельные файлы по языку и типу: pages-de-1.xml, products-de-1.xml…
 // В файлах только адреса и lastmod, без alternates (hreflang — в <head> страниц).
@@ -74,7 +75,8 @@ export async function entriesFor(file: string): Promise<Entry[] | null> {
       }
     }
     const tools: Entry[] = [{ loc: `${SITE_URL}${sectionHref(lang, 'tools')}` }, ...TOOLS.map((x) => ({ loc: `${SITE_URL}${sectionHref(lang, 'tools', x.id)}` }))]
-    return [...staticPages(lang), ...cats.map((c) => ({ loc: `${SITE_URL}/${lang}/${c.slugs[lang]}` })), ...best, ...errors, ...tools]
+    const gloss: Entry[] = [{ loc: `${SITE_URL}${sectionHref(lang, 'glossary')}` }, ...GLOSSARY_SLUGS.map((g) => ({ loc: `${SITE_URL}${sectionHref(lang, 'glossary', g)}` }))]
+    return [...staticPages(lang), ...cats.map((c) => ({ loc: `${SITE_URL}/${lang}/${c.slugs[lang]}` })), ...best, ...errors, ...tools, ...gloss]
   }
   const cm = /^comparisons-([a-z]{2}(?:-[a-z]{2})?)-(\d+)\.xml$/.exec(file)
   if (cm) {
