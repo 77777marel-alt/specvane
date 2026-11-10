@@ -1,0 +1,56 @@
+{
+  "indexTitle": "Kalkylatorer",
+  "indexLead": "Gratis, snabba kalkylatorer som svarar på vanliga frågor innan du köper.",
+  "metric": "cm / m",
+  "imperial": "tum / fot",
+  "see": "Se modeller",
+  "tv": {
+    "title": "Vilken tv-storlek för mitt tittaravstånd? Räkna ut tv-storlek",
+    "short": "Tv-storlek efter tittaravstånd",
+    "lead": "Ange hur långt från tv:n du sitter. Vi visar det intervall av skärmstorlekar som biografstandarder rekommenderar (betraktningsvinkel 30° till 40°).",
+    "distance": "Tittaravstånd",
+    "range": "Rekommenderad skärmstorlek",
+    "sizes": "Vanliga storlekar i detta intervall",
+    "note": "Med 4K eller 8K kan du välja den större delen av intervallet. Med Full HD bör du hålla dig till den mindre delen.",
+    "cta": "Tv-apparater"
+  },
+  "projector": {
+    "title": "Räkna ut projektorns avstånd till duken",
+    "short": "Projektorns projektionsavstånd",
+    "lead": "Ange projektionsförhållandet (throw ratio) från projektorns specifikationer och den bildstorlek du vill ha. Vi visar hur långt från duken projektorn måste stå.",
+    "ratio": "Projektionsförhållande",
+    "diagonal": "Bilddiagonal",
+    "aspect": "Bildformat",
+    "distance": "Avstånd från objektiv till duk",
+    "width": "Bildbredd",
+    "height": "Bildhöjd",
+    "note": "Projektionsförhållande = avstånd ÷ bildbredd. Projektorer med zoom har ett intervall, till exempel 1.2–1.5: kontrollera båda värdena.",
+    "cta": "Projektorer"
+  },
+  "ppi": {
+    "title": "Räkna ut pixeltäthet (PPI) för en skärm",
+    "short": "Skärpa på skärmen (PPI)",
+    "lead": "Ange upplösning och diagonal. Vi visar pixeltäthet, pixelstorlek och avståndet från vilket enskilda pixlar inte längre syns.",
+    "width": "Pixlar horisontellt",
+    "height": "Pixlar vertikalt",
+    "diagonal": "Diagonal",
+    "density": "Pixeltäthet",
+    "pitch": "Pixelstorlek",
+    "retina": "Pixlar osynliga från",
+    "note": "Baserat på normal syn (20/20). Ett typiskt avstånd vid skrivbordet är 50–80 cm.",
+    "cta": "Skärmar"
+  },
+  "powerbank": {
+    "title": "Powerbank på flyget: Wh-kalkylator",
+    "short": "Powerbank i handbagaget",
+    "lead": "Flygbolag begränsar powerbanks i wattimmar (Wh), men på förpackningen står oftast mAh. Ange kapaciteten för att se om du får ta med den ombord.",
+    "capacity": "Kapacitet",
+    "voltage": "Cellspänning",
+    "energy": "Energi",
+    "ok": "Tillåten i handbagaget (upp till 100 Wh). Aldrig i incheckat bagage.",
+    "approval": "101–160 Wh: endast med flygbolagets godkännande, oftast högst 2 per passagerare, endast i handbagaget.",
+    "forbidden": "Över 160 Wh: inte tillåten på passagerarflyg.",
+    "note": "Baserat på IATA:s regler som de flesta flygbolag följer; ditt flygbolag kan ha strängare regler. Använd 3.7 V om inte etiketten anger ett annat värde.",
+    "cta": "Powerbanks"
+  }
+}

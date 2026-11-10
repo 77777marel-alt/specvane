@@ -1,0 +1,56 @@
+{
+  "indexTitle": "Rekenhulpen",
+  "indexLead": "Gratis, snelle rekenhulpen die veelgestelde vragen vóór uw aankoop beantwoorden.",
+  "metric": "cm / m",
+  "imperial": "inch / voet",
+  "see": "Bekijk modellen",
+  "tv": {
+    "title": "Welk formaat tv bij welke kijkafstand? Tv-formaat berekenen",
+    "short": "Tv-formaat op basis van kijkafstand",
+    "lead": "Vul in hoe ver u van de tv af zit. Wij tonen het schermformaat dat bioscoopnormen aanbevelen (kijkhoek van 30° tot 40°).",
+    "distance": "Kijkafstand",
+    "range": "Aanbevolen schermformaat",
+    "sizes": "Gangbare formaten in dit bereik",
+    "note": "Bij 4K of 8K kunt u de bovenkant van het bereik kiezen. Bij Full HD blijft u beter aan de onderkant.",
+    "cta": "Televisies"
+  },
+  "projector": {
+    "title": "Projectieafstand berekenen voor een beamer",
+    "short": "Projectieafstand van de beamer",
+    "lead": "Vul de throw ratio uit de specificaties van de beamer en het gewenste beeldformaat in. Wij tonen hoe ver de beamer van het scherm moet staan.",
+    "ratio": "Throw ratio",
+    "diagonal": "Beelddiagonaal",
+    "aspect": "Beeldverhouding",
+    "distance": "Afstand van lens tot scherm",
+    "width": "Beeldbreedte",
+    "height": "Beeldhoogte",
+    "note": "Throw ratio = afstand ÷ beeldbreedte. Beamers met zoom hebben een bereik, bijvoorbeeld 1.2–1.5: controleer beide waarden.",
+    "cta": "Beamers"
+  },
+  "ppi": {
+    "title": "Pixeldichtheid (PPI) van een scherm berekenen",
+    "short": "Scherpte van de monitor (PPI)",
+    "lead": "Vul de resolutie en de diagonaal in. Wij tonen de pixeldichtheid, de pixelgrootte en de afstand waarop losse pixels niet meer zichtbaar zijn.",
+    "width": "Horizontale pixels",
+    "height": "Verticale pixels",
+    "diagonal": "Diagonaal",
+    "density": "Pixeldichtheid",
+    "pitch": "Pixelgrootte",
+    "retina": "Pixels onzichtbaar vanaf",
+    "note": "Gebaseerd op normaal zicht (20/20). Een gebruikelijke afstand aan een bureau is 50–80 cm.",
+    "cta": "Monitoren"
+  },
+  "powerbank": {
+    "title": "Powerbank mee in het vliegtuig: Wh berekenen",
+    "short": "Powerbank in de handbagage",
+    "lead": "Luchtvaartmaatschappijen begrenzen powerbanks in wattuur (Wh), maar op de verpakking staat meestal mAh. Vul de capaciteit in om te zien of u hem mee aan boord mag nemen.",
+    "capacity": "Capaciteit",
+    "voltage": "Celspanning",
+    "energy": "Energie",
+    "ok": "Toegestaan in de handbagage (tot 100 Wh). Nooit in de ingecheckte bagage.",
+    "approval": "101–160 Wh: alleen met toestemming van de luchtvaartmaatschappij, meestal maximaal 2 per passagier, alleen in de handbagage.",
+    "forbidden": "Meer dan 160 Wh: niet toegestaan in passagiersvliegtuigen.",
+    "note": "Gebaseerd op de IATA-regels die de meeste luchtvaartmaatschappijen hanteren; uw maatschappij kan strenger zijn. Gebruik 3.7 V, tenzij op het etiket een andere waarde staat.",
+    "cta": "Powerbanks"
+  }
+}

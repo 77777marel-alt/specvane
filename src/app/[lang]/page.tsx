@@ -6,6 +6,8 @@ import { getDict } from '@/lib/i18n'
 import { getCategories } from '@/lib/data'
 import { getHomeShowcase } from '@/lib/catalog'
 import { ProductCard } from '@/components/product/ProductCard'
+import { TOOLS, toolsText } from '@/lib/tools'
+import { sectionHref } from '@/lib/routes'
 import { alternates } from '@/lib/seo'
 import { SearchBox } from '@/components/SearchBox'
 import { IconAppliance, IconCamera, IconCpu, IconGamepad, IconGpu, IconHeadphones, IconLaptop, IconMonitor, IconPhone, IconProjector, IconSpeaker, IconTablet, IconTv, IconWatch } from '@/components/icons'
@@ -118,6 +120,15 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
           </ul>
         </section>
       )}
+
+      <section aria-labelledby="tools" className="py-6">
+        <h2 id="tools" className="mb-3 text-xl font-semibold"><Link href={sectionHref(lang, 'tools')} className="hover:text-accent">{toolsText(lang).indexTitle}</Link></h2>
+        <ul className="grid gap-2 text-sm sm:grid-cols-2 lg:grid-cols-4">
+          {TOOLS.map((x) => (
+            <li key={x.id}><Link href={sectionHref(lang, 'tools', x.id)} className="flex min-h-11 items-center rounded-xl border border-border px-3 py-2 hover:border-accent hover:text-accent">{toolsText(lang)[x.key].short}</Link></li>
+          ))}
+        </ul>
+      </section>
 
       {(() => {
         // все остальные включённые категории (автоматические из Icecat и др.) — компактным списком

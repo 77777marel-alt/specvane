@@ -1,0 +1,56 @@
+{
+  "indexTitle": "Hesaplama araçları",
+  "indexLead": "Satın almadan önce sık sorulan sorulara hızlıca yanıt veren ücretsiz hesaplama araçları.",
+  "metric": "cm / m",
+  "imperial": "inç / fit",
+  "see": "Modelleri görün",
+  "tv": {
+    "title": "TV boyutu hesaplama: izleme mesafesine göre kaç inç televizyon almalıyım?",
+    "short": "İzleme mesafesine göre TV boyutu",
+    "lead": "Televizyondan ne kadar uzakta oturduğunuzu girin. Sinema standartlarının önerdiği ekran boyutu aralığını (30° ile 40° görüş açısı) gösteriyoruz.",
+    "distance": "İzleme mesafesi",
+    "range": "Önerilen ekran boyutu",
+    "sizes": "Bu aralıktaki yaygın boyutlar",
+    "note": "4K veya 8K'da aralığın büyük ucunu seçebilirsiniz. Full HD'de küçük uçta kalın.",
+    "cta": "Televizyonlar"
+  },
+  "projector": {
+    "title": "Projeksiyon mesafesi hesaplama",
+    "short": "Projeksiyon atış mesafesi",
+    "lead": "Projeksiyon cihazının teknik özelliklerinde yazan atış oranını (throw ratio) ve istediğiniz görüntü boyutunu girin. Cihazın perdeden ne kadar uzakta olması gerektiğini gösteriyoruz.",
+    "ratio": "Atış oranı",
+    "diagonal": "Görüntü köşegeni",
+    "aspect": "En boy oranı",
+    "distance": "Lensten perdeye mesafe",
+    "width": "Görüntü genişliği",
+    "height": "Görüntü yüksekliği",
+    "note": "Atış oranı = mesafe ÷ görüntü genişliği. Zoom özellikli projeksiyonlarda bir aralık bulunur, örneğin 1.2–1.5: her iki değeri de kontrol edin.",
+    "cta": "Projeksiyon cihazları"
+  },
+  "ppi": {
+    "title": "Ekran netliği hesaplama (PPI)",
+    "short": "Monitör netliği (PPI)",
+    "lead": "Çözünürlüğü ve köşegeni girin. Piksel yoğunluğunu, piksel boyutunu ve tek tek piksellerin artık görünmediği mesafeyi gösteriyoruz.",
+    "width": "Yatay piksel",
+    "height": "Dikey piksel",
+    "diagonal": "Köşegen",
+    "density": "Piksel yoğunluğu",
+    "pitch": "Piksel boyutu",
+    "retina": "Piksellerin görünmediği mesafe",
+    "note": "Normal 20/20 görme esas alınmıştır. Tipik masa başı mesafesi 50–80 cm'dir.",
+    "cta": "Monitörler"
+  },
+  "powerbank": {
+    "title": "Uçakta powerbank: Wh hesaplama",
+    "short": "El bagajında powerbank",
+    "lead": "Havayolları powerbankleri watt-saat (Wh) cinsinden sınırlar, ancak kutuda genellikle mAh yazar. Uçağa alıp alamayacağınızı görmek için kapasiteyi girin.",
+    "capacity": "Kapasite",
+    "voltage": "Hücre voltajı",
+    "energy": "Enerji",
+    "ok": "El bagajında izin verilir (100 Wh'ye kadar). Asla kayıtlı bagaja konmaz.",
+    "approval": "101–160 Wh: yalnızca havayolunun onayıyla, genellikle yolcu başına en fazla 2 adet, sadece el bagajında.",
+    "forbidden": "160 Wh üzeri: yolcu uçaklarında izin verilmez.",
+    "note": "Çoğu havayolunun uyguladığı IATA kurallarına dayanır; havayolunuz daha katı olabilir. Etikette başka bir değer yazmıyorsa 3.7 V kullanın.",
+    "cta": "Powerbankler"
+  }
+}

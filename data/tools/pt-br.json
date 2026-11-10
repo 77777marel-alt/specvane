@@ -1,0 +1,56 @@
+{
+  "indexTitle": "Calculadoras",
+  "indexLead": "Calculadoras grátis e rápidas que respondem às dúvidas mais comuns antes da compra.",
+  "metric": "cm / m",
+  "imperial": "polegadas / pés",
+  "see": "Ver modelos",
+  "tv": {
+    "title": "Calculadora de tamanho de TV: qual o tamanho ideal para a distância do sofá?",
+    "short": "Tamanho da TV pela distância",
+    "lead": "Informe a que distância você fica da TV. Mostramos a faixa de tamanho de tela recomendada pelos padrões de cinema (ângulo de visão de 30° a 40°).",
+    "distance": "Distância de visualização",
+    "range": "Tamanho de tela recomendado",
+    "sizes": "Tamanhos comuns nessa faixa",
+    "note": "Com 4K ou 8K, você pode escolher o limite maior da faixa. Com Full HD, fique no limite menor.",
+    "cta": "TVs"
+  },
+  "projector": {
+    "title": "Calculadora de distância do projetor",
+    "short": "Distância de projeção",
+    "lead": "Informe a razão de projeção (throw ratio) que consta nas especificações do projetor e o tamanho de imagem desejado. Mostramos a que distância o projetor deve ficar da tela.",
+    "ratio": "Razão de projeção",
+    "diagonal": "Diagonal da imagem",
+    "aspect": "Proporção da imagem",
+    "distance": "Distância da lente até a tela",
+    "width": "Largura da imagem",
+    "height": "Altura da imagem",
+    "note": "Razão de projeção = distância ÷ largura da imagem. Projetores com zoom têm uma faixa, por exemplo 1.2–1.5: confira os dois valores.",
+    "cta": "Projetores"
+  },
+  "ppi": {
+    "title": "Calculadora de nitidez da tela (PPI)",
+    "short": "Nitidez do monitor (PPI)",
+    "lead": "Informe a resolução e a diagonal. Mostramos a densidade de pixels, o tamanho do pixel e a distância a partir da qual os pixels individuais deixam de ser visíveis.",
+    "width": "Pixels na horizontal",
+    "height": "Pixels na vertical",
+    "diagonal": "Diagonal",
+    "density": "Densidade de pixels",
+    "pitch": "Tamanho do pixel",
+    "retina": "Pixels invisíveis a partir de",
+    "note": "Considera a visão normal 20/20. A distância típica até a tela em uma mesa é de 50–80 cm.",
+    "cta": "Monitores"
+  },
+  "powerbank": {
+    "title": "Power bank no avião: calculadora de Wh",
+    "short": "Power bank na bagagem de mão",
+    "lead": "As companhias aéreas limitam os power banks em watt-hora (Wh), mas a caixa geralmente informa mAh. Digite a capacidade para saber se você pode levá-lo a bordo.",
+    "capacity": "Capacidade",
+    "voltage": "Tensão da célula",
+    "energy": "Energia",
+    "ok": "Permitido na bagagem de mão (até 100 Wh). Nunca na bagagem despachada.",
+    "approval": "101–160 Wh: somente com autorização da companhia aérea, geralmente até 2 por passageiro, apenas na bagagem de mão.",
+    "forbidden": "Acima de 160 Wh: proibido em aviões de passageiros.",
+    "note": "Baseado nas regras da IATA adotadas pela maioria das companhias aéreas; a sua pode ser mais rigorosa. Use 3.7 V, a menos que a etiqueta indique outro valor.",
+    "cta": "Power banks"
+  }
+}

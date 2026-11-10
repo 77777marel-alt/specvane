@@ -1,0 +1,56 @@
+{
+  "indexTitle": "Calcolatori",
+  "indexLead": "Calcolatori gratuiti e veloci che rispondono alle domande più comuni prima dell'acquisto.",
+  "metric": "cm / m",
+  "imperial": "pollici / piedi",
+  "see": "Vedi i modelli",
+  "tv": {
+    "title": "Quanti pollici di TV in base alla distanza? Calcolatore dimensione TV",
+    "short": "Dimensione TV in base alla distanza",
+    "lead": "Inserisci a che distanza ti siedi dal televisore. Ti mostriamo l'intervallo di dimensioni dello schermo consigliato dagli standard cinematografici (angolo di visione da 30° a 40°).",
+    "distance": "Distanza di visione",
+    "range": "Dimensione dello schermo consigliata",
+    "sizes": "Dimensioni comuni in questo intervallo",
+    "note": "Con 4K o 8K puoi scegliere la parte alta dell'intervallo. Con Full HD, resta sulla parte bassa.",
+    "cta": "TV"
+  },
+  "projector": {
+    "title": "Calcolo distanza proiettore: calcolatore della distanza di proiezione",
+    "short": "Distanza di proiezione",
+    "lead": "Inserisci il rapporto di proiezione indicato nelle specifiche del proiettore e la dimensione dell'immagine che desideri. Ti mostriamo a che distanza dallo schermo deve stare il proiettore.",
+    "ratio": "Rapporto di proiezione",
+    "diagonal": "Diagonale dell'immagine",
+    "aspect": "Formato",
+    "distance": "Distanza dall'obiettivo allo schermo",
+    "width": "Larghezza dell'immagine",
+    "height": "Altezza dell'immagine",
+    "note": "Rapporto di proiezione = distanza ÷ larghezza dell'immagine. I proiettori con zoom hanno un intervallo, ad esempio 1.2–1.5: controlla entrambi i valori.",
+    "cta": "Proiettori"
+  },
+  "ppi": {
+    "title": "Calcolo densità di pixel (PPI) dello schermo",
+    "short": "Nitidezza del monitor (PPI)",
+    "lead": "Inserisci la risoluzione e la diagonale. Ti mostriamo la densità di pixel, la dimensione del pixel e la distanza oltre la quale i singoli pixel non sono più visibili.",
+    "width": "Pixel orizzontali",
+    "height": "Pixel verticali",
+    "diagonal": "Diagonale",
+    "density": "Densità di pixel",
+    "pitch": "Dimensione del pixel",
+    "retina": "Pixel invisibili da",
+    "note": "Basato su una vista normale (20/20). Una distanza tipica alla scrivania è di 50–80 cm.",
+    "cta": "Monitor"
+  },
+  "powerbank": {
+    "title": "Power bank in aereo: calcolatore di Wh",
+    "short": "Power bank nel bagaglio a mano",
+    "lead": "Le compagnie aeree limitano i power bank in wattora (Wh), ma sulla confezione di solito sono indicati i mAh. Inserisci la capacità per sapere se puoi portarlo a bordo.",
+    "capacity": "Capacità",
+    "voltage": "Tensione della cella",
+    "energy": "Energia",
+    "ok": "Consentito nel bagaglio a mano (fino a 100 Wh). Mai nel bagaglio da stiva.",
+    "approval": "101–160 Wh: solo con l'approvazione della compagnia aerea, di solito massimo 2 per passeggero, solo nel bagaglio a mano.",
+    "forbidden": "Oltre 160 Wh: non ammesso sugli aerei passeggeri.",
+    "note": "Basato sulle regole IATA adottate dalla maggior parte delle compagnie aeree; la tua compagnia può essere più restrittiva. Usa 3.7 V se l'etichetta non indica un valore diverso.",
+    "cta": "Power bank"
+  }
+}

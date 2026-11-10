@@ -1,0 +1,56 @@
+{
+  "indexTitle": "Calculadoras",
+  "indexLead": "Calculadoras gratuitas y rápidas que responden a las dudas más comunes antes de comprar.",
+  "metric": "cm / m",
+  "imperial": "pulgadas / pies",
+  "see": "Ver modelos",
+  "tv": {
+    "title": "¿Qué tamaño de televisor según la distancia? Calculadora de pulgadas",
+    "short": "Tamaño de TV según la distancia",
+    "lead": "Introduce a qué distancia te sientas del televisor. Te mostramos el rango de tamaño de pantalla que recomiendan los estándares de cine (ángulo de visión de 30° a 40°).",
+    "distance": "Distancia de visionado",
+    "range": "Tamaño de pantalla recomendado",
+    "sizes": "Tamaños habituales en este rango",
+    "note": "Con 4K u 8K puedes elegir la parte alta del rango. Con Full HD, quédate en la parte baja.",
+    "cta": "Televisores"
+  },
+  "projector": {
+    "title": "Calculadora de distancia del proyector",
+    "short": "Distancia de proyección",
+    "lead": "Introduce la relación de proyección que aparece en las especificaciones del proyector y el tamaño de imagen que quieres. Te mostramos a qué distancia de la pantalla debe estar el proyector.",
+    "ratio": "Relación de proyección",
+    "diagonal": "Diagonal de la imagen",
+    "aspect": "Relación de aspecto",
+    "distance": "Distancia del objetivo a la pantalla",
+    "width": "Ancho de la imagen",
+    "height": "Alto de la imagen",
+    "note": "Relación de proyección = distancia ÷ ancho de la imagen. Los proyectores con zoom tienen un rango, por ejemplo 1.2–1.5: comprueba ambos valores.",
+    "cta": "Proyectores"
+  },
+  "ppi": {
+    "title": "Calculadora de densidad de píxeles (PPI) de una pantalla",
+    "short": "Nitidez del monitor (PPI)",
+    "lead": "Introduce la resolución y la diagonal. Te mostramos la densidad de píxeles, el tamaño del píxel y la distancia a partir de la cual ya no se distinguen los píxeles.",
+    "width": "Píxeles horizontales",
+    "height": "Píxeles verticales",
+    "diagonal": "Diagonal",
+    "density": "Densidad de píxeles",
+    "pitch": "Tamaño del píxel",
+    "retina": "Píxeles invisibles desde",
+    "note": "Basado en una visión normal (20/20). La distancia habitual en un escritorio es de 50–80 cm.",
+    "cta": "Monitores"
+  },
+  "powerbank": {
+    "title": "Batería externa en el avión: calculadora de Wh",
+    "short": "Batería externa en equipaje de mano",
+    "lead": "Las aerolíneas limitan las baterías externas en vatios hora (Wh), pero la caja suele indicar mAh. Introduce la capacidad para saber si puedes llevarla a bordo.",
+    "capacity": "Capacidad",
+    "voltage": "Tensión de la celda",
+    "energy": "Energía",
+    "ok": "Permitida en el equipaje de mano (hasta 100 Wh). Nunca en el equipaje facturado.",
+    "approval": "101–160 Wh: solo con la aprobación de la aerolínea, normalmente hasta 2 por pasajero, solo en el equipaje de mano.",
+    "forbidden": "Más de 160 Wh: no permitida en aviones de pasajeros.",
+    "note": "Basado en las normas de la IATA que aplican la mayoría de las aerolíneas; tu aerolínea puede ser más estricta. Usa 3.7 V salvo que la etiqueta indique otro valor.",
+    "cta": "Baterías externas"
+  }
+}

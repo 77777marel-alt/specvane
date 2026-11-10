@@ -1,0 +1,56 @@
+{
+  "indexTitle": "Kalkulačky",
+  "indexLead": "Bezplatné a rychlé kalkulačky, které vám odpoví na časté otázky ještě před nákupem.",
+  "metric": "cm / m",
+  "imperial": "palce / stopy",
+  "see": "Zobrazit modely",
+  "tv": {
+    "title": "Kalkulačka velikosti televize: jakou úhlopříčku zvolit podle vzdálenosti?",
+    "short": "Velikost TV podle vzdálenosti",
+    "lead": "Zadejte, jak daleko od televize sedíte. Ukážeme vám rozsah velikosti obrazovky doporučený kinematografickými standardy (zorný úhel 30° až 40°).",
+    "distance": "Vzdálenost sledování",
+    "range": "Doporučená velikost obrazovky",
+    "sizes": "Běžné velikosti v tomto rozsahu",
+    "note": "U 4K nebo 8K můžete zvolit horní hranici rozsahu. U Full HD zůstaňte u spodní hranice.",
+    "cta": "Televize"
+  },
+  "projector": {
+    "title": "Kalkulačka vzdálenosti projektoru",
+    "short": "Projekční vzdálenost",
+    "lead": "Zadejte projekční poměr (throw ratio) z technických parametrů projektoru a požadovanou velikost obrazu. Ukážeme vám, jak daleko od plátna musí projektor stát.",
+    "ratio": "Projekční poměr",
+    "diagonal": "Úhlopříčka obrazu",
+    "aspect": "Poměr stran",
+    "distance": "Vzdálenost od objektivu k plátnu",
+    "width": "Šířka obrazu",
+    "height": "Výška obrazu",
+    "note": "Projekční poměr = vzdálenost ÷ šířka obrazu. Projektory se zoomem mají rozsah, například 1.2–1.5: zkontrolujte obě hodnoty.",
+    "cta": "Projektory"
+  },
+  "ppi": {
+    "title": "Kalkulačka jemnosti displeje (PPI)",
+    "short": "Jemnost monitoru (PPI)",
+    "lead": "Zadejte rozlišení a úhlopříčku. Ukážeme vám hustotu pixelů, velikost pixelu a vzdálenost, ze které už jednotlivé pixely nejsou vidět.",
+    "width": "Pixely vodorovně",
+    "height": "Pixely svisle",
+    "diagonal": "Úhlopříčka",
+    "density": "Hustota pixelů",
+    "pitch": "Velikost pixelu",
+    "retina": "Pixely neviditelné od",
+    "note": "Vychází z normálního zraku 20/20. Běžná vzdálenost u stolu je 50–80 cm.",
+    "cta": "Monitory"
+  },
+  "powerbank": {
+    "title": "Powerbanka do letadla: kalkulačka Wh",
+    "short": "Powerbanka v příručním zavazadle",
+    "lead": "Letecké společnosti omezují powerbanky ve watthodinách (Wh), na krabici však bývá uvedeno mAh. Zadejte kapacitu a zjistěte, zda ji můžete vzít na palubu.",
+    "capacity": "Kapacita",
+    "voltage": "Napětí článku",
+    "energy": "Energie",
+    "ok": "Povoleno v příručním zavazadle (do 100 Wh). Nikdy v odbaveném zavazadle.",
+    "approval": "101–160 Wh: pouze se souhlasem letecké společnosti, obvykle nejvýše 2 kusy na cestujícího, pouze v příručním zavazadle.",
+    "forbidden": "Nad 160 Wh: v osobních letadlech zakázáno.",
+    "note": "Podle pravidel IATA, která uplatňuje většina leteckých společností; vaše letecká společnost může být přísnější. Použijte 3.7 V, pokud štítek neuvádí jinou hodnotu.",
+    "cta": "Powerbanky"
+  }
+}

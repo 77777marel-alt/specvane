@@ -1,0 +1,56 @@
+{
+  "indexTitle": "Beregnere",
+  "indexLead": "Gratis, hurtige beregnere, der besvarer almindelige spørgsmål, før du køber.",
+  "metric": "cm / m",
+  "imperial": "tommer / fod",
+  "see": "Se modeller",
+  "tv": {
+    "title": "Beregn tv-størrelse: hvor stort et tv skal jeg have til min afstand?",
+    "short": "Tv-størrelse efter afstand",
+    "lead": "Indtast, hvor langt du sidder fra tv'et. Vi viser det interval af skærmstørrelser, som biografstandarder anbefaler (30° til 40° synsvinkel).",
+    "distance": "Afstand til tv'et",
+    "range": "Anbefalet skærmstørrelse",
+    "sizes": "Almindelige størrelser i dette interval",
+    "note": "Med 4K eller 8K kan du vælge den store ende af intervallet. Med Full HD bør du holde dig i den lille ende.",
+    "cta": "Tv"
+  },
+  "projector": {
+    "title": "Beregn projektorafstand",
+    "short": "Projektorens kasteafstand",
+    "lead": "Indtast kasteforholdet (throw ratio) fra projektorens specifikationer og den billedstørrelse, du ønsker. Vi viser, hvor langt projektoren skal stå fra lærredet.",
+    "ratio": "Kasteforhold",
+    "diagonal": "Billeddiagonal",
+    "aspect": "Billedformat",
+    "distance": "Afstand fra linse til lærred",
+    "width": "Billedbredde",
+    "height": "Billedhøjde",
+    "note": "Kasteforhold = afstand ÷ billedbredde. Projektorer med zoom har et interval, fx 1.2–1.5: tjek begge værdier.",
+    "cta": "Projektorer"
+  },
+  "ppi": {
+    "title": "Beregn skærmens skarphed (PPI)",
+    "short": "Skærmens skarphed (PPI)",
+    "lead": "Indtast opløsning og diagonal. Vi viser pixeltæthed, pixelstørrelse og den afstand, hvorfra de enkelte pixels ikke længere kan ses.",
+    "width": "Vandrette pixels",
+    "height": "Lodrette pixels",
+    "diagonal": "Diagonal",
+    "density": "Pixeltæthed",
+    "pitch": "Pixelstørrelse",
+    "retina": "Pixels usynlige fra",
+    "note": "Baseret på normalt 20/20-syn. En typisk afstand ved skrivebordet er 50–80 cm.",
+    "cta": "Skærme"
+  },
+  "powerbank": {
+    "title": "Powerbank i fly: Wh-beregner",
+    "short": "Powerbank i håndbagagen",
+    "lead": "Flyselskaber begrænser powerbanks i watt-timer (Wh), men æsken viser som regel mAh. Indtast kapaciteten for at se, om du må tage den med om bord.",
+    "capacity": "Kapacitet",
+    "voltage": "Cellespænding",
+    "energy": "Energi",
+    "ok": "Tilladt i håndbagagen (op til 100 Wh). Aldrig i indchecket bagage.",
+    "approval": "101–160 Wh: kun med flyselskabets godkendelse, normalt højst 2 pr. passager, kun i håndbagagen.",
+    "forbidden": "Over 160 Wh: ikke tilladt på passagerfly.",
+    "note": "Baseret på IATA-reglerne, som de fleste flyselskaber følger; dit flyselskab kan have strengere regler. Brug 3.7 V, medmindre mærkaten viser en anden værdi.",
+    "cta": "Powerbanks"
+  }
+}

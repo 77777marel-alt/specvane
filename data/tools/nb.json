@@ -1,0 +1,56 @@
+{
+  "indexTitle": "Kalkulatorer",
+  "indexLead": "Gratis og raske kalkulatorer som svarer på vanlige spørsmål før du kjøper.",
+  "metric": "cm / m",
+  "imperial": "tommer / fot",
+  "see": "Se modeller",
+  "tv": {
+    "title": "Kalkulator for TV-størrelse: hvor stor TV ut fra sitteavstand?",
+    "short": "TV-størrelse etter sitteavstand",
+    "lead": "Skriv inn hvor langt unna TV-en du sitter. Vi viser hvilke skjermstørrelser kinostandarder anbefaler (30° til 40° synsvinkel).",
+    "distance": "Sitteavstand",
+    "range": "Anbefalt skjermstørrelse",
+    "sizes": "Vanlige størrelser i dette området",
+    "note": "Med 4K eller 8K kan du velge den største delen av området. Med Full HD bør du holde deg i den minste delen.",
+    "cta": "TV-er"
+  },
+  "projector": {
+    "title": "Kalkulator for projektoravstand",
+    "short": "Projektorens kasteavstand",
+    "lead": "Skriv inn kasteforholdet (throw ratio) fra projektorens spesifikasjoner og ønsket bildestørrelse. Vi viser hvor langt fra lerretet projektoren må stå.",
+    "ratio": "Kasteforhold",
+    "diagonal": "Bildediagonal",
+    "aspect": "Bildeformat",
+    "distance": "Avstand fra linse til lerret",
+    "width": "Bildebredde",
+    "height": "Bildehøyde",
+    "note": "Kasteforhold = avstand ÷ bildebredde. Projektorer med zoom har et område, for eksempel 1.2–1.5: sjekk begge verdiene.",
+    "cta": "Projektorer"
+  },
+  "ppi": {
+    "title": "Kalkulator for skjermskarphet (PPI)",
+    "short": "Skjermskarphet (PPI)",
+    "lead": "Skriv inn oppløsning og diagonal. Vi viser pikseltetthet, pikselstørrelse og avstanden der enkeltpiksler ikke lenger er synlige.",
+    "width": "Horisontale piksler",
+    "height": "Vertikale piksler",
+    "diagonal": "Diagonal",
+    "density": "Pikseltetthet",
+    "pitch": "Pikselstørrelse",
+    "retina": "Piksler usynlige fra",
+    "note": "Basert på normalt 20/20-syn. Vanlig avstand ved skrivebordet er 50–80 cm.",
+    "cta": "Skjermer"
+  },
+  "powerbank": {
+    "title": "Powerbank på fly: Wh-kalkulator",
+    "short": "Powerbank i håndbagasjen",
+    "lead": "Flyselskaper begrenser powerbanker i wattimer (Wh), men esken viser som regel mAh. Skriv inn kapasiteten for å se om du kan ta den med om bord.",
+    "capacity": "Kapasitet",
+    "voltage": "Cellespenning",
+    "energy": "Energi",
+    "ok": "Tillatt i håndbagasjen (opptil 100 Wh). Aldri i innsjekket bagasje.",
+    "approval": "101–160 Wh: kun med flyselskapets godkjenning, vanligvis maks 2 per passasjer, kun i håndbagasjen.",
+    "forbidden": "Over 160 Wh: ikke tillatt på passasjerfly.",
+    "note": "Basert på IATA-reglene som de fleste flyselskaper følger; ditt flyselskap kan ha strengere regler. Bruk 3.7 V med mindre etiketten viser en annen verdi.",
+    "cta": "Powerbanker"
+  }
+}

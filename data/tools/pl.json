@@ -1,0 +1,56 @@
+{
+  "indexTitle": "Kalkulatory",
+  "indexLead": "Darmowe, szybkie kalkulatory, które odpowiadają na typowe pytania przed zakupem.",
+  "metric": "cm / m",
+  "imperial": "cale / stopy",
+  "see": "Zobacz modele",
+  "tv": {
+    "title": "Jaki telewizor do odległości? Kalkulator przekątnej TV",
+    "short": "Rozmiar TV a odległość",
+    "lead": "Wpisz, w jakiej odległości od telewizora się siedzi. Pokazujemy zakres przekątnej ekranu zalecany przez standardy kinowe (kąt widzenia od 30° do 40°).",
+    "distance": "Odległość od ekranu",
+    "range": "Zalecana przekątna ekranu",
+    "sizes": "Popularne rozmiary w tym zakresie",
+    "note": "Przy 4K lub 8K można wybrać górną granicę zakresu. Przy Full HD lepiej pozostać przy dolnej.",
+    "cta": "Telewizory"
+  },
+  "projector": {
+    "title": "Kalkulator odległości projektora od ekranu",
+    "short": "Odległość projekcji",
+    "lead": "Wpisz współczynnik projekcji ze specyfikacji projektora i żądany rozmiar obrazu. Pokazujemy, w jakiej odległości od ekranu musi stać projektor.",
+    "ratio": "Współczynnik projekcji",
+    "diagonal": "Przekątna obrazu",
+    "aspect": "Proporcje obrazu",
+    "distance": "Odległość od obiektywu do ekranu",
+    "width": "Szerokość obrazu",
+    "height": "Wysokość obrazu",
+    "note": "Współczynnik projekcji = odległość ÷ szerokość obrazu. Projektory z zoomem mają zakres, na przykład 1.2–1.5: należy sprawdzić obie wartości.",
+    "cta": "Projektory"
+  },
+  "ppi": {
+    "title": "Kalkulator gęstości pikseli (PPI) ekranu",
+    "short": "Ostrość monitora (PPI)",
+    "lead": "Wpisz rozdzielczość i przekątną. Pokazujemy gęstość pikseli, rozmiar piksela i odległość, z której pojedyncze piksele przestają być widoczne.",
+    "width": "Piksele w poziomie",
+    "height": "Piksele w pionie",
+    "diagonal": "Przekątna",
+    "density": "Gęstość pikseli",
+    "pitch": "Rozmiar piksela",
+    "retina": "Piksele niewidoczne od",
+    "note": "Na podstawie prawidłowej ostrości wzroku (20/20). Typowa odległość przy biurku to 50–80 cm.",
+    "cta": "Monitory"
+  },
+  "powerbank": {
+    "title": "Powerbank w samolocie: kalkulator Wh",
+    "short": "Powerbank w bagażu podręcznym",
+    "lead": "Linie lotnicze ograniczają powerbanki w watogodzinach (Wh), ale na opakowaniu zwykle podane są mAh. Wpisz pojemność, aby sprawdzić, czy można go zabrać na pokład.",
+    "capacity": "Pojemność",
+    "voltage": "Napięcie ogniwa",
+    "energy": "Energia",
+    "ok": "Dozwolony w bagażu podręcznym (do 100 Wh). Nigdy w bagażu rejestrowanym.",
+    "approval": "101–160 Wh: tylko za zgodą linii lotniczej, zwykle maksymalnie 2 na pasażera, wyłącznie w bagażu podręcznym.",
+    "forbidden": "Powyżej 160 Wh: niedozwolony w samolotach pasażerskich.",
+    "note": "Na podstawie przepisów IATA stosowanych przez większość linii lotniczych; Państwa linia może mieć surowsze zasady. Należy przyjąć 3.7 V, chyba że etykieta podaje inną wartość.",
+    "cta": "Powerbanki"
+  }
+}

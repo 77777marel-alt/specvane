@@ -1,0 +1,56 @@
+{
+  "indexTitle": "Rechner",
+  "indexLead": "Kostenlose, schnelle Rechner, die typische Fragen vor dem Kauf beantworten.",
+  "metric": "cm / m",
+  "imperial": "Zoll / Fuß",
+  "see": "Modelle ansehen",
+  "tv": {
+    "title": "Welche Fernsehergröße für welchen Sitzabstand? TV-Größenrechner",
+    "short": "TV-Größe nach Sitzabstand",
+    "lead": "Geben Sie ein, wie weit Sie vom Fernseher entfernt sitzen. Wir zeigen den Bereich der Bildschirmgröße, den Kinostandards empfehlen (30° bis 40° Sichtwinkel).",
+    "distance": "Sitzabstand",
+    "range": "Empfohlene Bildschirmgröße",
+    "sizes": "Gängige Größen in diesem Bereich",
+    "note": "Bei 4K oder 8K können Sie das obere Ende des Bereichs wählen. Bei Full HD bleiben Sie besser am unteren Ende.",
+    "cta": "Fernseher"
+  },
+  "projector": {
+    "title": "Beamer-Abstand berechnen: Projektionsabstand-Rechner",
+    "short": "Projektionsabstand des Beamers",
+    "lead": "Geben Sie das Projektionsverhältnis aus den technischen Daten des Beamers und die gewünschte Bildgröße ein. Wir zeigen, wie weit der Beamer von der Leinwand entfernt stehen muss.",
+    "ratio": "Projektionsverhältnis",
+    "diagonal": "Bilddiagonale",
+    "aspect": "Seitenverhältnis",
+    "distance": "Abstand vom Objektiv zur Leinwand",
+    "width": "Bildbreite",
+    "height": "Bildhöhe",
+    "note": "Projektionsverhältnis = Abstand ÷ Bildbreite. Beamer mit Zoom haben einen Bereich, zum Beispiel 1.2–1.5: Prüfen Sie beide Werte.",
+    "cta": "Beamer"
+  },
+  "ppi": {
+    "title": "Pixeldichte berechnen: PPI-Rechner für Bildschirme",
+    "short": "Bildschärfe des Monitors (PPI)",
+    "lead": "Geben Sie Auflösung und Diagonale ein. Wir zeigen Pixeldichte, Pixelgröße und den Abstand, ab dem einzelne Pixel nicht mehr sichtbar sind.",
+    "width": "Pixel horizontal",
+    "height": "Pixel vertikal",
+    "diagonal": "Diagonale",
+    "density": "Pixeldichte",
+    "pitch": "Pixelgröße",
+    "retina": "Pixel unsichtbar ab",
+    "note": "Bezogen auf normale Sehschärfe (20/20). Ein typischer Abstand am Schreibtisch liegt bei 50–80 cm.",
+    "cta": "Monitore"
+  },
+  "powerbank": {
+    "title": "Powerbank im Flugzeug: Wh-Rechner",
+    "short": "Powerbank im Handgepäck",
+    "lead": "Fluggesellschaften begrenzen Powerbanks in Wattstunden (Wh), auf der Verpackung steht aber meist mAh. Geben Sie die Kapazität ein, um zu sehen, ob Sie sie mit an Bord nehmen dürfen.",
+    "capacity": "Kapazität",
+    "voltage": "Zellspannung",
+    "energy": "Energie",
+    "ok": "Im Handgepäck erlaubt (bis 100 Wh). Niemals im aufgegebenen Gepäck.",
+    "approval": "101–160 Wh: nur mit Genehmigung der Fluggesellschaft, meist bis zu 2 pro Passagier, nur im Handgepäck.",
+    "forbidden": "Über 160 Wh: in Passagierflugzeugen nicht erlaubt.",
+    "note": "Basierend auf den IATA-Regeln, die die meisten Fluggesellschaften anwenden; Ihre Fluggesellschaft kann strenger sein. Verwenden Sie 3.7 V, sofern auf dem Etikett kein anderer Wert steht.",
+    "cta": "Powerbanks"
+  }
+}

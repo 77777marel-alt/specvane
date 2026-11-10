@@ -1,0 +1,56 @@
+{
+  "indexTitle": "Calculatoare",
+  "indexLead": "Calculatoare gratuite și rapide care răspund la întrebările frecvente înainte de cumpărare.",
+  "metric": "cm / m",
+  "imperial": "inchi / picioare",
+  "see": "Vedeți modelele",
+  "tv": {
+    "title": "Calculator diagonală TV: ce diagonală de televizor pentru distanța de vizionare?",
+    "short": "Diagonala TV după distanță",
+    "lead": "Introduceți distanța la care stați față de televizor. Vă arătăm intervalul de dimensiuni ale ecranului recomandat de standardele cinematografice (unghi de vizionare de 30° până la 40°).",
+    "distance": "Distanța de vizionare",
+    "range": "Dimensiunea recomandată a ecranului",
+    "sizes": "Dimensiuni uzuale în acest interval",
+    "note": "La 4K sau 8K puteți alege capătul superior al intervalului. La Full HD, rămâneți la capătul inferior.",
+    "cta": "Televizoare"
+  },
+  "projector": {
+    "title": "Calculator distanță proiector",
+    "short": "Distanța de proiecție",
+    "lead": "Introduceți raportul de proiecție (throw ratio) din specificațiile proiectorului și dimensiunea dorită a imaginii. Vă arătăm la ce distanță de ecran trebuie amplasat proiectorul.",
+    "ratio": "Raport de proiecție",
+    "diagonal": "Diagonala imaginii",
+    "aspect": "Raport de aspect",
+    "distance": "Distanța de la obiectiv la ecran",
+    "width": "Lățimea imaginii",
+    "height": "Înălțimea imaginii",
+    "note": "Raport de proiecție = distanță ÷ lățimea imaginii. Proiectoarele cu zoom au un interval, de exemplu 1.2–1.5: verificați ambele valori.",
+    "cta": "Proiectoare"
+  },
+  "ppi": {
+    "title": "Calculator claritate ecran (PPI)",
+    "short": "Claritatea monitorului (PPI)",
+    "lead": "Introduceți rezoluția și diagonala. Vă arătăm densitatea de pixeli, dimensiunea pixelului și distanța de la care pixelii individuali nu mai sunt vizibili.",
+    "width": "Pixeli pe orizontală",
+    "height": "Pixeli pe verticală",
+    "diagonal": "Diagonală",
+    "density": "Densitatea de pixeli",
+    "pitch": "Dimensiunea pixelului",
+    "retina": "Pixeli invizibili de la",
+    "note": "Pe baza vederii normale 20/20. O distanță obișnuită la birou este de 50–80 cm.",
+    "cta": "Monitoare"
+  },
+  "powerbank": {
+    "title": "Baterie externă în avion: calculator Wh",
+    "short": "Baterie externă în bagajul de mână",
+    "lead": "Companiile aeriene limitează bateriile externe în wați-oră (Wh), dar pe cutie apare de obicei mAh. Introduceți capacitatea pentru a vedea dacă o puteți lua la bord.",
+    "capacity": "Capacitate",
+    "voltage": "Tensiunea celulei",
+    "energy": "Energie",
+    "ok": "Permisă în bagajul de mână (până la 100 Wh). Niciodată în bagajul de cală.",
+    "approval": "101–160 Wh: doar cu aprobarea companiei aeriene, de obicei maximum 2 per pasager, numai în bagajul de mână.",
+    "forbidden": "Peste 160 Wh: interzisă în avioanele de pasageri.",
+    "note": "Pe baza regulilor IATA aplicate de majoritatea companiilor aeriene; compania dumneavoastră poate fi mai strictă. Folosiți 3.7 V, dacă eticheta nu indică altă valoare.",
+    "cta": "Baterii externe"
+  }
+}

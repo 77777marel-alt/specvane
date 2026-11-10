@@ -1,0 +1,56 @@
+{
+  "indexTitle": "Calculateurs",
+  "indexLead": "Des calculateurs gratuits et rapides qui répondent aux questions courantes avant l'achat.",
+  "metric": "cm / m",
+  "imperial": "pouces / pieds",
+  "see": "Voir les modèles",
+  "tv": {
+    "title": "Quelle taille de télé selon la distance ? Calculateur de taille d'écran",
+    "short": "Taille de TV selon la distance",
+    "lead": "Indiquez à quelle distance vous êtes assis du téléviseur. Nous affichons la plage de tailles d'écran recommandée par les normes cinéma (angle de vision de 30° à 40°).",
+    "distance": "Distance de visionnage",
+    "range": "Taille d'écran recommandée",
+    "sizes": "Tailles courantes dans cette plage",
+    "note": "En 4K ou 8K, vous pouvez choisir le haut de la plage. En Full HD, restez plutôt dans le bas.",
+    "cta": "Téléviseurs"
+  },
+  "projector": {
+    "title": "Calcul de la distance de projection d'un vidéoprojecteur",
+    "short": "Distance de projection",
+    "lead": "Indiquez le rapport de projection figurant dans les caractéristiques du vidéoprojecteur et la taille d'image souhaitée. Nous affichons la distance nécessaire entre le projecteur et l'écran.",
+    "ratio": "Rapport de projection",
+    "diagonal": "Diagonale de l'image",
+    "aspect": "Format d'image",
+    "distance": "Distance entre l'objectif et l'écran",
+    "width": "Largeur de l'image",
+    "height": "Hauteur de l'image",
+    "note": "Rapport de projection = distance ÷ largeur de l'image. Les projecteurs avec zoom ont une plage, par exemple 1.2–1.5 : vérifiez les deux valeurs.",
+    "cta": "Vidéoprojecteurs"
+  },
+  "ppi": {
+    "title": "Calculer la densité de pixels (PPI) d'un écran",
+    "short": "Netteté de l'écran (PPI)",
+    "lead": "Indiquez la résolution et la diagonale. Nous affichons la densité de pixels, la taille d'un pixel et la distance à partir de laquelle les pixels ne sont plus visibles.",
+    "width": "Pixels horizontaux",
+    "height": "Pixels verticaux",
+    "diagonal": "Diagonale",
+    "density": "Densité de pixels",
+    "pitch": "Taille d'un pixel",
+    "retina": "Pixels invisibles à partir de",
+    "note": "Basé sur une vue normale (20/20). Au bureau, la distance habituelle est de 50–80 cm.",
+    "cta": "Écrans"
+  },
+  "powerbank": {
+    "title": "Batterie externe en avion : calculateur de Wh",
+    "short": "Batterie externe en bagage cabine",
+    "lead": "Les compagnies aériennes limitent les batteries externes en wattheures (Wh), mais la boîte indique généralement des mAh. Indiquez la capacité pour savoir si vous pouvez l'emporter à bord.",
+    "capacity": "Capacité",
+    "voltage": "Tension de la cellule",
+    "energy": "Énergie",
+    "ok": "Autorisée en bagage cabine (jusqu'à 100 Wh). Jamais en bagage en soute.",
+    "approval": "101–160 Wh : uniquement avec l'accord de la compagnie aérienne, généralement 2 maximum par passager, en bagage cabine uniquement.",
+    "forbidden": "Plus de 160 Wh : interdite à bord des avions de passagers.",
+    "note": "Basé sur les règles IATA appliquées par la plupart des compagnies ; votre compagnie peut être plus stricte. Utilisez 3.7 V sauf si l'étiquette indique une autre valeur.",
+    "cta": "Batteries externes"
+  }
+}

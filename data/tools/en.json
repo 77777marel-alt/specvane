@@ -1,0 +1,56 @@
+{
+  "indexTitle": "Calculators",
+  "indexLead": "Free, quick calculators that answer common questions before you buy.",
+  "metric": "cm / m",
+  "imperial": "inches / feet",
+  "see": "See models",
+  "tv": {
+    "title": "TV size calculator: which screen size for my viewing distance?",
+    "short": "TV size by viewing distance",
+    "lead": "Enter how far you sit from the TV. We show the screen size range recommended by cinema standards (30° to 40° viewing angle).",
+    "distance": "Viewing distance",
+    "range": "Recommended screen size",
+    "sizes": "Common sizes in this range",
+    "note": "With 4K or 8K you can choose the larger end of the range. With Full HD, stay at the smaller end.",
+    "cta": "TVs"
+  },
+  "projector": {
+    "title": "Projector distance calculator",
+    "short": "Projector throw distance",
+    "lead": "Enter the throw ratio from the projector's specifications and the image size you want. We show how far the projector must be from the screen.",
+    "ratio": "Throw ratio",
+    "diagonal": "Image diagonal",
+    "aspect": "Aspect ratio",
+    "distance": "Distance from lens to screen",
+    "width": "Image width",
+    "height": "Image height",
+    "note": "Throw ratio = distance ÷ image width. Projectors with zoom have a range, for example 1.2–1.5: check both values.",
+    "cta": "Projectors"
+  },
+  "ppi": {
+    "title": "Screen sharpness calculator (PPI)",
+    "short": "Monitor sharpness (PPI)",
+    "lead": "Enter the resolution and the diagonal. We show pixel density, pixel size and the distance from which single pixels are no longer visible.",
+    "width": "Horizontal pixels",
+    "height": "Vertical pixels",
+    "diagonal": "Diagonal",
+    "density": "Pixel density",
+    "pitch": "Pixel size",
+    "retina": "Pixels invisible from",
+    "note": "Based on normal 20/20 vision. A typical desk distance is 50–80 cm.",
+    "cta": "Monitors"
+  },
+  "powerbank": {
+    "title": "Power bank on a plane: Wh calculator",
+    "short": "Power bank in hand luggage",
+    "lead": "Airlines limit power banks in watt-hours (Wh), but the box usually shows mAh. Enter the capacity to see whether you can take it on board.",
+    "capacity": "Capacity",
+    "voltage": "Cell voltage",
+    "energy": "Energy",
+    "ok": "Allowed in hand luggage (up to 100 Wh). Never in checked baggage.",
+    "approval": "101–160 Wh: only with the airline's approval, usually up to 2 per passenger, hand luggage only.",
+    "forbidden": "Over 160 Wh: not allowed on passenger planes.",
+    "note": "Based on IATA rules used by most airlines; your airline may be stricter. Use 3.7 V unless the label shows another value.",
+    "cta": "Power banks"
+  }
+}

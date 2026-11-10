@@ -1,0 +1,56 @@
+{
+  "indexTitle": "Laskurit",
+  "indexLead": "Ilmaisia ja nopeita laskureita, jotka vastaavat yleisiin kysymyksiin ennen ostopäätöstä.",
+  "metric": "cm / m",
+  "imperial": "tuumat / jalat",
+  "see": "Katso mallit",
+  "tv": {
+    "title": "Television kokolaskuri: kuinka iso TV katseluetäisyydelle?",
+    "short": "TV:n koko katseluetäisyyden mukaan",
+    "lead": "Syötä, kuinka kaukana istut televisiosta. Näytämme elokuvateatteristandardien suositteleman näyttökoon vaihteluvälin (katselukulma 30°–40°).",
+    "distance": "Katseluetäisyys",
+    "range": "Suositeltu näyttökoko",
+    "sizes": "Yleiset koot tällä välillä",
+    "note": "4K- tai 8K-televisiossa voit valita välin suuremman pään. Full HD -televisiossa kannattaa pysyä pienemmässä päässä.",
+    "cta": "Televisiot"
+  },
+  "projector": {
+    "title": "Projektorin etäisyyslaskuri",
+    "short": "Projektorin heittoetäisyys",
+    "lead": "Syötä projektorin teknisistä tiedoista löytyvä heittosuhde (throw ratio) ja haluamasi kuvakoko. Näytämme, kuinka kaukana valkokankaasta projektorin on oltava.",
+    "ratio": "Heittosuhde",
+    "diagonal": "Kuvan halkaisija",
+    "aspect": "Kuvasuhde",
+    "distance": "Etäisyys linssistä valkokankaaseen",
+    "width": "Kuvan leveys",
+    "height": "Kuvan korkeus",
+    "note": "Heittosuhde = etäisyys ÷ kuvan leveys. Zoomilla varustetuilla projektoreilla on vaihteluväli, esimerkiksi 1.2–1.5: tarkista molemmat arvot.",
+    "cta": "Projektorit"
+  },
+  "ppi": {
+    "title": "Näytön tarkkuuslaskuri (PPI)",
+    "short": "Näytön tarkkuus (PPI)",
+    "lead": "Syötä resoluutio ja halkaisija. Näytämme pikselitiheyden, pikselin koon sekä etäisyyden, josta yksittäiset pikselit eivät enää erotu.",
+    "width": "Vaakapikselit",
+    "height": "Pystypikselit",
+    "diagonal": "Halkaisija",
+    "density": "Pikselitiheys",
+    "pitch": "Pikselin koko",
+    "retina": "Pikselit eivät erotu etäisyydeltä",
+    "note": "Perustuu normaaliin 20/20-näköön. Tyypillinen etäisyys työpöydän ääressä on 50–80 cm.",
+    "cta": "Näytöt"
+  },
+  "powerbank": {
+    "title": "Varavirtalähde lentokoneessa: Wh-laskuri",
+    "short": "Varavirtalähde käsimatkatavaroissa",
+    "lead": "Lentoyhtiöt rajoittavat varavirtalähteitä wattitunteina (Wh), mutta pakkauksessa ilmoitetaan yleensä mAh. Syötä kapasiteetti, niin näet, saatko ottaa sen mukaan koneeseen.",
+    "capacity": "Kapasiteetti",
+    "voltage": "Kennojännite",
+    "energy": "Energia",
+    "ok": "Sallittu käsimatkatavaroissa (enintään 100 Wh). Ei koskaan ruumaan menevissä matkatavaroissa.",
+    "approval": "101–160 Wh: vain lentoyhtiön luvalla, yleensä enintään 2 kpl matkustajaa kohden, vain käsimatkatavaroissa.",
+    "forbidden": "Yli 160 Wh: ei sallittu matkustajakoneissa.",
+    "note": "Perustuu IATA:n sääntöihin, joita useimmat lentoyhtiöt noudattavat; oma lentoyhtiösi voi olla tiukempi. Käytä arvoa 3.7 V, ellei tarrassa ole muuta arvoa.",
+    "cta": "Varavirtalähteet"
+  }
+}

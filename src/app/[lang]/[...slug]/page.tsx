@@ -22,6 +22,8 @@ import { APPLIANCES, errorBrands, errorCode, errorCodes, hasErrors, ERROR_LANGS,
 import { ErrorsBrand, ErrorsCode, ErrorsIndex } from '@/components/views/ErrorsView'
 import { DocsList } from '@/components/product/DocsList'
 import { supportFor } from '@/lib/updates'
+import { TOOLS, toolsText } from '@/lib/tools'
+import { ToolCalc } from '@/components/views/ToolCalc'
 import { ProductImage } from '@/components/product/ProductImage'
 import { CompareTray } from '@/components/compare/CompareTray'
 
@@ -79,6 +81,13 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/[...slug]'
     return { title: `${t.info[key].title} · Specvane`, alternates: alternates(lang, (l: Locale) => sectionHref(l, key)), robots }
   }
   if (key === 'errors') return errorsMeta(lang, slug)
+  if (key === 'tools') {
+    const tt = toolsText(lang)
+    if (slug.length === 1) return { title: `${tt.indexTitle} · Specvane`, description: tt.indexLead, alternates: alternates(lang, (l) => sectionHref(l, 'tools')) }
+    const tool = slug.length === 2 ? TOOLS.find((x) => x.id === slug[1]) : null
+    if (!tool) return {}
+    return { title: `${tt[tool.key].title} · Specvane`, description: tt[tool.key].lead, alternates: alternates(lang, (l) => sectionHref(l, 'tools', tool.id)) }
+  }
   if (key === 'best') {
     const t = getDict(lang)
     if (slug.length === 1) return { title: `${t.ui.bestIndexTitle} · Specvane`, alternates: alternates(lang, (l) => sectionHref(l, 'best')) }
@@ -156,6 +165,50 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
           <p key={i} className="mb-4 leading-relaxed text-muted">{p}</p>
         ))}
       </article>
+    )
+  }
+
+  if (key === 'tools' && slug.length <= 2) {
+    const tt = toolsText(lang)
+    const home = { name: t.ui.home, href: `/${lang}` }
+    const section = { name: tt.indexTitle, href: sectionHref(lang, 'tools') }
+    if (slug.length === 1) {
+      return (
+        <>
+          <Breadcrumbs items={[home, section]} />
+          <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{tt.indexTitle}</h1>
+          <p className="mt-2 max-w-2xl text-muted">{tt.indexLead}</p>
+          <ul className="mt-6 grid gap-3 sm:grid-cols-2">
+            {TOOLS.map((x) => (
+              <li key={x.id}><a href={sectionHref(lang, 'tools', x.id)} className="block h-full rounded-2xl border border-border p-4 hover:border-accent">
+                <span className="font-semibold">{tt[x.key].short}</span><span className="mt-1 block text-sm text-muted line-clamp-2">{tt[x.key].lead}</span></a></li>
+            ))}
+          </ul>
+        </>
+      )
+    }
+    const tool = TOOLS.find((x) => x.id === slug[1])
+    if (!tool) notFound()
+    const cat = await getCategoryByKey(lang, tool.cat)
+    const tx = tt[tool.key]
+    return (
+      <>
+        <Breadcrumbs items={[home, section, { name: tx.short, href: sectionHref(lang, 'tools', tool.id) }]} />
+        <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{tx.title}</h1>
+        <p className="mt-2 max-w-2xl text-muted">{tx.lead}</p>
+        <section className="mt-6 max-w-3xl rounded-2xl border border-border p-4 md:p-6">
+          <ToolCalc tool={tool.key} t={tt} lang={lang} imperialDefault={lang === 'en'} />
+        </section>
+        {cat && <p className="mt-4"><a href={`/${lang}/${cat.slug}`} className="font-medium text-accent hover:underline">{tx.cta}: {cat.name} →</a></p>}
+        <nav className="mt-10" aria-label={tt.indexTitle}>
+          <h2 className="mb-3 font-semibold">{tt.indexTitle}</h2>
+          <ul className="flex flex-wrap gap-2">
+            {TOOLS.filter((x) => x.id !== tool.id).map((x) => (
+              <li key={x.id}><a href={sectionHref(lang, 'tools', x.id)} className="inline-flex min-h-11 items-center rounded-xl border border-border px-3 hover:border-accent hover:text-accent">{tt[x.key].short}</a></li>
+            ))}
+          </ul>
+        </nav>
+      </>
     )
   }
 
@@ -299,7 +352,8 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
         const tops = (await getBestSpecs(lang, cat)).map((x) => ({ label: x.label, href: sectionHref(lang, 'best', cat.slug, x.slug) }))
         return <CategoryView lang={lang} t={t} title={cat.name} items={items} brands={brands} crumbs={[home, catCrumb]} tops={tops} trends={await getTrends(lang, cat)}
           browser={{ filters, compare: { cat: cat.key, base: sectionHref(lang, 'compare') } }}
-          extra={hasErrors(lang) && isAppliance(cat.key) ? { label: t.ui.errTitle, href: sectionHref(lang, 'errors') } : undefined} />
+          extra={hasErrors(lang) && isAppliance(cat.key) ? { label: t.ui.errTitle, href: sectionHref(lang, 'errors') }
+            : TOOLS.find((x) => x.cat === cat.key) ? { label: toolsText(lang)[TOOLS.find((x) => x.cat === cat.key)!.key].short, href: sectionHref(lang, 'tools', TOOLS.find((x) => x.cat === cat.key)!.id) } : undefined} />
       }
       const p = await getProduct(lang, cat, slug[1])
       if (p) {
