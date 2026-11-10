@@ -555,3 +555,62 @@ export async function getGlossaryLinks(lang: Locale, specs: { cat: string; key?:
   }
   return out
 }
+
+// ---------- бренды категории: «Бренд A или бренд B» (таблицы brand_stats / brand_spec_stats, миграция 0012) ----------
+export type BrandRow = { id: number; slug: string; name: string; n: number; recent: number; newest: string | null }
+
+/** Бренды категории с ≥5 моделями — по числу моделей. */
+export async function getCategoryBrands(cat: Category): Promise<BrandRow[]> {
+  'use cache'
+  cacheLife('hours'); cacheTag('products')
+  const s = db()
+  if (!s) return []
+  const { data } = await s.from('brand_stats').select('n, n_recent, newest, brands!inner(id, slug, name)').eq('category_id', cat.id).order('n', { ascending: false }).limit(60)
+  type R = { n: number; n_recent: number; newest: string | null; brands: { id: number; slug: string; name: string } }
+  return ((data ?? []) as unknown as R[]).map((r) => ({ id: r.brands.id, slug: r.brands.slug, name: r.brands.name, n: r.n, recent: r.n_recent, newest: r.newest }))
+}
+
+/** Популярные пары брендов категории (топ-5 по числу моделей) — для ссылок и sitemap. */
+export async function getBrandPairs(lang: Locale, cat: Category, top = 5): Promise<{ a: BrandRow; b: BrandRow; href: string }[]> {
+  const list = (await getCategoryBrands(cat)).slice(0, top)
+  const out: { a: BrandRow; b: BrandRow; href: string }[] = []
+  for (let i = 0; i < list.length; i++) for (let j = i + 1; j < list.length; j++) {
+    const [a, b] = [list[i], list[j]].sort((x, y) => x.slug.localeCompare(y.slug))
+    out.push({ a, b, href: sectionHref(lang, 'brands', cat.slug, `${a.slug}-vs-${b.slug}`) })
+  }
+  return out
+}
+
+export type BrandVsRow = { key: string; label: string; a: { med: string; top: string } | null; b: { med: string; top: string } | null; win: 'a' | 'b' | null }
+/** Сравнение двух брендов по медиане и лучшим 10 % моделей. */
+export async function getBrandVs(lang: Locale, cat: Category, aSlug: string, bSlug: string) {
+  'use cache'
+  cacheLife('hours'); cacheTag('products')
+  const s = db()
+  if (!s) return null
+  const brands = await getCategoryBrands(cat)
+  const a = brands.find((x) => x.slug === aSlug), b = brands.find((x) => x.slug === bSlug)
+  if (!a || !b) return null
+  const [{ defs }, st] = await Promise.all([getDefs(cat.id, lang), s.from('brand_spec_stats').select('brand_id, spec_id, n, med, top').eq('category_id', cat.id).in('brand_id', [a.id, b.id])])
+  type R = { brand_id: number; spec_id: number; n: number; med: number; top: number }
+  const rows = (st.data ?? []) as R[]
+  const t = getDict(lang)
+  const fmt = (d: Def, v: number) => display(lang, d, Math.round(v * 100) / 100, t.ui.yes, t.ui.no)
+  const out: BrandVsRow[] = []
+  let wa = 0, wb = 0
+  for (const d of defs.filter((x) => x.type === 'number' && x.hib != null).sort((x, y) => Number(y.isKey) - Number(x.isKey) || x.sort - y.sort)) {
+    const ra = rows.find((r) => r.brand_id === a.id && r.spec_id === d.id), rb = rows.find((r) => r.brand_id === b.id && r.spec_id === d.id)
+    if (!ra && !rb) continue
+    let win: 'a' | 'b' | null = null
+    if (ra && rb) {
+      const diff = (ra.med - rb.med) / Math.max(Math.abs(ra.med), Math.abs(rb.med), 1e-9)
+      if (Math.abs(diff) >= 0.03) win = (diff > 0) === d.hib ? 'a' : 'b'
+      if (win === 'a') wa++; else if (win === 'b') wb++
+    }
+    out.push({ key: d.key, label: d.label, a: ra ? { med: fmt(d, ra.med), top: fmt(d, ra.top) } : null, b: rb ? { med: fmt(d, rb.med), top: fmt(d, rb.top) } : null, win })
+    if (out.length >= 14) break
+  }
+  const both = out.filter((r) => r.a && r.b).length
+  const all = await getCategoryProducts(lang, cat)
+  return { a, b, rows: out, both, wa, wb, latestA: all.filter((p) => p.brand === a.name).slice(0, 4), latestB: all.filter((p) => p.brand === b.name).slice(0, 4) }
+}

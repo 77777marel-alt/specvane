@@ -4,7 +4,7 @@ import { INFO_PAGES, sectionHref } from '@/lib/routes'
 import { SITE_URL } from '@/lib/site'
 import { db } from '@/lib/supabase'
 import { cacheLife } from 'next/cache'
-import { getIndexableProducts, getIndexableComparisons, getCategory, getBestSpecs, getCategoryByKey } from '@/lib/catalog'
+import { getIndexableProducts, getIndexableComparisons, getCategory, getBestSpecs, getCategoryByKey, getBrandPairs } from '@/lib/catalog'
 import { APPLIANCES, applianceName, isThinCode, errorBrands, errorCodes, hasErrors, type Appliance } from '@/lib/errors'
 import { TOOLS } from '@/lib/tools'
 import { GLOSSARY_SLUGS } from '@/lib/glossary'
@@ -62,6 +62,11 @@ export async function entriesFor(file: string): Promise<Entry[] | null> {
       const cat = await getCategory(lang, c.slugs[lang]!)
       if (!cat) continue
       for (const sp of await getBestSpecs(lang, cat)) best.push({ loc: `${SITE_URL}${sectionHref(lang, 'best', cat.slug, sp.slug)}` })
+      // сравнения брендов: только основные категории (с гидами) и топ-6 брендов — волнами, без массы тонких страниц
+      if (GUIDE_CATS.includes(cat.key)) {
+        const pairs = await getBrandPairs(lang, cat, 6)
+        if (pairs.length) best.push({ loc: `${SITE_URL}${sectionHref(lang, 'brands', cat.slug)}` }, ...pairs.map((x) => ({ loc: `${SITE_URL}${x.href}` })))
+      }
     }
     // коды ошибок техники — только на языках с переводом
     const errors: Entry[] = []

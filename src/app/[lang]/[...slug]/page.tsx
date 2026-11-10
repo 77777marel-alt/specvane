@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation'
 import { isLocale, LOCALES, type Locale } from '@/lib/i18n/config'
 import { getDict } from '@/lib/i18n'
 import { INFO_PAGES, MANUAL_SLUG, SLUGS, resolveSlug, sectionHref, type InfoPage } from '@/lib/routes'
-import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions, getPrevGeneration, getBest, getBestSpecs, getBetterAlternatives, getCrossLinks, getTrends, getCategoryByKey, getGlossaryLinks } from '@/lib/catalog'
+import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions, getPrevGeneration, getBest, getBestSpecs, getBetterAlternatives, getCrossLinks, getTrends, getCategoryByKey, getGlossaryLinks, getCategoryBrands, getBrandPairs, getBrandVs } from '@/lib/catalog'
 import { permanentRedirect } from 'next/navigation'
 import { number, fill } from '@/lib/format'
 import { alternates } from '@/lib/seo'
@@ -25,6 +25,8 @@ import { supportFor } from '@/lib/updates'
 import { TOOLS, toolsText } from '@/lib/tools'
 import { ToolCalc } from '@/components/views/ToolCalc'
 import { glossary, glossaryTerm, GLOSSARY_UI } from '@/lib/glossary'
+import { brandsText } from '@/lib/brands'
+import { ProductCard } from '@/components/product/ProductCard'
 import { guides, guideFor, GUIDE_CATS, GUIDE_UI, type Guide } from '@/lib/guides'
 import { ProductImage } from '@/components/product/ProductImage'
 import { CompareTray } from '@/components/compare/CompareTray'
@@ -96,6 +98,21 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/[...slug]'
     return { title: `${t.info[key].title} · Specvane`, alternates: alternates(lang, (l: Locale) => sectionHref(l, key)), robots }
   }
   if (key === 'errors') return errorsMeta(lang, slug)
+  if (key === 'brands' && (slug.length === 2 || slug.length === 3)) {
+    const cat = await getCategory(lang, slug[1])
+    if (!cat) return {}
+    const bt = brandsText(lang)
+    const alt = (...rest: string[]) => alternates(lang, (l) => (cat.slugs[l] ? sectionHref(l, 'brands', cat.slugs[l]!, ...rest) : null))
+    if (slug.length === 2) return { title: `${fill(bt.indexTitle, { category: cat.name })} · Specvane`, description: bt.indexLead, alternates: alt() }
+    const m = slug[2].match(/^(.+?)-vs-(.+)$/)
+    const v = m ? await getBrandVs(lang, cat, m[1], m[2]) : null
+    if (!v) return {}
+    const top = (await getBrandPairs(lang, cat, 6)).some((x) => x.a.slug === v.a.slug && x.b.slug === v.b.slug)
+    const index = top && v.both >= 3 && GUIDE_CATS.includes(cat.key)
+    return { title: `${fill(bt.vsTitle, { a: v.a.name, b: v.b.name, category: cat.name })} · Specvane`,
+      description: fill(bt.vsLead, { a: v.a.name, b: v.b.name, m: v.both, na: v.a.recent || v.a.n, nb: v.b.recent || v.b.n }).slice(0, 300),
+      alternates: alt(slug[2]), robots: index ? undefined : { index: false, follow: true } }
+  }
   if (key === 'guides') {
     const g = GUIDE_UI[lang]
     if (slug.length === 1) return { title: `${g.title} · Specvane`, description: g.lead, alternates: alternates(lang, (l) => sectionHref(l, 'guides')) }
@@ -194,6 +211,80 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
         {page.body.map((p, i) => (
           <p key={i} className="mb-4 leading-relaxed text-muted">{p}</p>
         ))}
+      </article>
+    )
+  }
+
+  if (key === 'brands' && (slug.length === 2 || slug.length === 3)) {
+    const cat = await getCategory(lang, slug[1])
+    if (!cat) notFound()
+    const bt = brandsText(lang)
+    const home = { name: t.ui.home, href: `/${lang}` }
+    const catCrumb = { name: cat.name, href: `/${lang}/${cat.slug}` }
+    const idx = { name: bt.section, href: sectionHref(lang, 'brands', cat.slug) }
+    const pairs = await getBrandPairs(lang, cat, 6)
+    const pairLinks = (skip?: string) => pairs.filter((x) => x.href !== skip).slice(0, 15).map((x) => (
+      <li key={x.href}><a href={x.href} className="inline-flex min-h-11 items-center rounded-xl border border-border px-3 hover:border-accent hover:text-accent">{x.a.name} vs {x.b.name}</a></li>
+    ))
+    if (slug.length === 2) {
+      const brands = await getCategoryBrands(cat)
+      if (brands.length < 2) notFound()
+      return (
+        <>
+          <Breadcrumbs items={[home, catCrumb, idx]} />
+          <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{fill(bt.indexTitle, { category: cat.name })}</h1>
+          <p className="mt-2 max-w-2xl text-muted">{bt.indexLead}</p>
+          <h2 className="mb-3 mt-8 text-xl font-semibold">{bt.pairs}</h2>
+          <ul className="flex flex-wrap gap-2">{pairLinks()}</ul>
+          <h2 className="mb-3 mt-8 text-xl font-semibold">{bt.brandsList}</h2>
+          <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            {brands.map((b) => <li key={b.slug} className="flex items-center justify-between rounded-xl border border-border px-3 py-2"><span className="font-medium">{b.name}</span><span className="text-sm text-muted">{fill(bt.models, { n: b.n })}{b.newest ? ` · ${b.newest.slice(0, 4)}` : ''}</span></li>)}
+          </ul>
+        </>
+      )
+    }
+    const m = slug[2].match(/^(.+?)-vs-(.+)$/)
+    if (!m) notFound()
+    if (m[1] > m[2]) permanentRedirect(sectionHref(lang, 'brands', cat.slug, `${m[2]}-vs-${m[1]}`))
+    const v = await getBrandVs(lang, cat, m[1], m[2])
+    if (!v) notFound()
+    const { a, b } = v
+    const summary = v.wa === v.wb ? fill(bt.tie, { a: a.name, b: b.name, n: v.wa }) : fill(bt.ahead, { brand: v.wa > v.wb ? a.name : b.name, n: Math.max(v.wa, v.wb), m: v.both })
+    const cell = (x: { med: string; top: string } | null, win: boolean) => (
+      <td className={`px-3 py-2 align-top ${win ? 'bg-good-soft font-semibold text-good' : ''}`}>{x ? <><span className="num">{x.med}</span><span className="block text-xs text-muted">{bt.best}: <span className="num">{x.top}</span></span></> : '—'}</td>
+    )
+    const g = guideFor(lang, cat.key)
+    return (
+      <article>
+        <Breadcrumbs items={[home, catCrumb, idx, { name: `${a.name} vs ${b.name}`, href: sectionHref(lang, 'brands', cat.slug, slug[2]) }]} />
+        <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{fill(bt.vsTitle, { a: a.name, b: b.name, category: cat.name })}</h1>
+        <p className="mt-2 max-w-3xl text-muted">{fill(bt.vsLead, { a: a.name, b: b.name, m: v.both, na: a.recent || a.n, nb: b.recent || b.n })}</p>
+        <p className="mt-4 inline-block rounded-xl bg-surface px-4 py-3 text-lg font-semibold">{summary}</p>
+        <div className="mt-6 overflow-x-auto rounded-2xl border border-border">
+          <table className="w-full text-sm">
+            <thead className="bg-surface text-start"><tr><th className="px-3 py-2 text-start">{bt.spec}</th><th className="px-3 py-2 text-start">{a.name}</th><th className="px-3 py-2 text-start">{b.name}</th></tr></thead>
+            <tbody>
+              <tr className="border-t border-border"><td className="px-3 py-2">{bt.catalog}</td><td className="num px-3 py-2">{a.n}</td><td className="num px-3 py-2">{b.n}</td></tr>
+              <tr className="border-t border-border"><td className="px-3 py-2">{bt.newest}</td><td className="num px-3 py-2">{a.newest?.slice(0, 4) ?? '—'}</td><td className="num px-3 py-2">{b.newest?.slice(0, 4) ?? '—'}</td></tr>
+              {v.rows.map((r) => <tr key={r.key} className="border-t border-border"><td className="px-3 py-2">{r.label}<span className="block text-xs text-muted">{bt.typical}</span></td>{cell(r.a, r.win === 'a')}{cell(r.b, r.win === 'b')}</tr>)}
+            </tbody>
+          </table>
+        </div>
+        <p className="mt-3 max-w-3xl text-sm text-muted">{bt.method}</p>
+        {[[a, v.latestA], [b, v.latestB]].map(([br, items]) => (items as typeof v.latestA).length > 0 && (
+          <section key={(br as typeof a).slug} className="mt-8">
+            <h2 className="mb-3 text-xl font-semibold">{fill(bt.latest, { brand: (br as typeof a).name })}</h2>
+            <ul className="grid grid-cols-2 gap-3 md:grid-cols-4">{(items as typeof v.latestA).map((p) => <li key={p.slug}><ProductCard lang={lang} p={p} /></li>)}</ul>
+          </section>
+        ))}
+        <nav className="mt-8" aria-label={bt.pairs}>
+          <h2 className="mb-3 font-semibold">{bt.pairs}</h2>
+          <ul className="flex flex-wrap gap-2">{pairLinks(sectionHref(lang, 'brands', cat.slug, slug[2]))}</ul>
+        </nav>
+        <p className="mt-6 flex flex-wrap gap-x-4 gap-y-1">
+          <a href={`/${lang}/${cat.slug}`} className="font-medium text-accent hover:underline">{fill(bt.seeAll, { category: cat.name })} →</a>
+          {g && <a href={sectionHref(lang, 'guides', cat.slug)} className="font-medium text-accent hover:underline">{g.title} →</a>}
+        </p>
       </article>
     )
   }
@@ -528,6 +619,7 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
           browser={{ filters, compare: { cat: cat.key, base: sectionHref(lang, 'compare') } }}
           extra={[
             guideFor(lang, cat.key) && { label: GUIDE_UI[lang].one + ': ' + cat.name, href: sectionHref(lang, 'guides', cat.slug) },
+            (await getCategoryBrands(cat)).length >= 2 && { label: brandsText(lang).section, href: sectionHref(lang, 'brands', cat.slug) },
             hasErrors(lang) && isAppliance(cat.key) && { label: t.ui.errTitle, href: sectionHref(lang, 'errors') },
             TOOLS.find((x) => x.cat === cat.key) && { label: toolsText(lang)[TOOLS.find((x) => x.cat === cat.key)!.key].short, href: sectionHref(lang, 'tools', TOOLS.find((x) => x.cat === cat.key)!.id) },
           ].filter((x): x is { label: string; href: string } => !!x)} />
