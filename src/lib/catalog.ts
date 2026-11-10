@@ -235,17 +235,17 @@ export async function getPositions(lang: Locale, cat: Category, specs: SpecValue
     .map(({ isKey: _k, sort: _s, ...p }) => p)
 }
 
-export async function getProduct(lang: Locale, cat: Category, slug: string): Promise<(ProductView & { images: string[]; credits: { author: string; license: string; file: string }[]; source: string; variants: { ram: number | null; storage: number | null; colour: string | null }[] }) | null> {
+export async function getProduct(lang: Locale, cat: Category, slug: string): Promise<(ProductView & { images: string[]; docs: { kind: string; url: string }[]; credits: { author: string; license: string; file: string }[]; source: string; variants: { ram: number | null; storage: number | null; colour: string | null }[] }) | null> {
   'use cache'
   cacheLife('hours'); cacheTag('products')
   const s = db()
   if (!s) return null
   const { data } = await s.from('products')
-    .select('id, slug, name, release_date, updated_at, data_source, variants, brands!inner(name), product_images(url, sort, source, source_ref), product_specs(spec_id, value_num, value_bool, value_text)')
+    .select('id, slug, name, release_date, updated_at, data_source, variants, brands!inner(name), product_images(url, sort, source, source_ref), product_documents(kind, url, lang, title), product_specs(spec_id, value_num, value_bool, value_text)')
     .eq('category_id', cat.id).eq('slug', slug).eq('status', 'active').maybeSingle()
   if (!data) return null
   type Row = { slug: string; name: string; release_date: string | null; updated_at: string; data_source: string; variants: { ram: number | null; storage: number | null; colour: string | null }[]
-    brands: { name: string }; product_images: { url: string; sort: number; source?: string; source_ref?: string | null }[]; product_specs: SpecRow[] }
+    brands: { name: string }; product_images: { url: string; sort: number; source?: string; source_ref?: string | null }[]; product_documents?: { kind: string; url: string; lang: string | null; title: string | null }[] | null; product_specs: SpecRow[] }
   const p = data as unknown as Row
   const { defs, groups } = await getDefs(cat.id, lang)
   const specs = specValues(lang, defs, p.product_specs)
@@ -257,6 +257,13 @@ export async function getProduct(lang: Locale, cat: Category, slug: string): Pro
     if (!g) specGroups.push((g = { name: groups[d.group] ?? d.group, specs: [] }))
     g.specs.push(v)
   }
+  // документы: на каждый вид — файл на языке страницы, иначе английский, иначе любой
+  const ORDER = ['manual', 'energy_label', 'product_fiche', 'brochure']
+  const docs = ORDER.flatMap((kind) => {
+    const all = (p.product_documents ?? []).filter((d) => d.kind === kind)
+    const pick = all.find((d) => d.lang && lang.startsWith(d.lang.slice(0, 2))) ?? all.find((d) => !d.lang || d.lang.startsWith('en')) ?? all[0]
+    return pick ? [{ kind, url: pick.url }] : []
+  })
   const sortedImgs = [...p.product_images].sort((a, b) => a.sort - b.sort)
   const images = sortedImgs.map((i) => i.url)
   // фото с Wikimedia Commons: «Автор · Лицензия · ссылка на файл» — показываем подпись (условие лицензии)
@@ -273,7 +280,7 @@ export async function getProduct(lang: Locale, cat: Category, slug: string): Pro
     .slice(0, 4)
 
   return {
-    slug: p.slug, href: `/${lang}/${cat.slug}/${p.slug}`, name: p.name, brand: p.brands.name, image: images[0] ?? null, images, credits,
+    slug: p.slug, href: `/${lang}/${cat.slug}/${p.slug}`, name: p.name, brand: p.brands.name, image: images[0] ?? null, images, credits, docs,
     price: null, currency: MARKETS[lang].currency,
     keySpecs: defs.filter((d) => d.isKey).map((d) => specs.find((x) => x.key === d.key)).filter(Boolean) as SpecValue[],
     category: { name: cat.name, href: `/${lang}/${cat.slug}` },

@@ -48,6 +48,14 @@ jobs:
         env:
           SUPABASE_URL: https://kjjffgjsgizozleflbhw.supabase.co
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      - name: Documents
+        if: ${{ github.event.inputs.dry_run != '1' }}
+        continue-on-error: true
+        timeout-minutes: 25
+        run: node scripts/icecat/backfill-docs.mjs
+        env:
+          SUPABASE_URL: https://kjjffgjsgizozleflbhw.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
       - name: Import
         run: |
           # по кругу: каждая категория получает порцию, пока не кончится время (~4 ч 50 мин), потом сравнения и IndexNow

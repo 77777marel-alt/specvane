@@ -3,6 +3,8 @@
 import { LOCALES, type Locale } from './i18n/config'
 
 export const SECTIONS = ['compare', 'best', 'brands', 'new', 'alternatives', 'guides', 'errors'] as const
+/** Подстраница модели «Инструкция и документы»: /<lang>/<категория>/<модель>/<это слово> */
+export const MANUAL_SLUG: Record<string, string> = {"en": "manual", "de": "bedienungsanleitung", "fr": "notice", "it": "manuale", "es": "manual", "nl": "handleiding", "pl": "instrukcja", "sv": "bruksanvisning", "pt-br": "manual", "ja": "manual", "tr": "kullanim-kilavuzu", "el": "egcheiridio", "cs": "navod", "ro": "manual", "da": "brugsanvisning", "fi": "kayttoohje", "nb": "bruksanvisning", "ru": "instrukciya", "uk": "instruktsiya", "ar": "dalil"}
 export const INFO_PAGES = ['about', 'how-we-make-money', 'privacy', 'cookies', 'contact', 'legal-notice'] as const
 export type Section = (typeof SECTIONS)[number]
 export type InfoPage = (typeof INFO_PAGES)[number]

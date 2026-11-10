@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { isLocale, type Locale } from '@/lib/i18n/config'
 import { getDict } from '@/lib/i18n'
-import { INFO_PAGES, resolveSlug, sectionHref, type InfoPage } from '@/lib/routes'
+import { INFO_PAGES, MANUAL_SLUG, resolveSlug, sectionHref, type InfoPage } from '@/lib/routes'
 import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions, getPrevGeneration, getBest, getBestSpecs, getBetterAlternatives, getCrossLinks, getTrends, getCategoryByKey } from '@/lib/catalog'
 import { permanentRedirect } from 'next/navigation'
 import { number, fill } from '@/lib/format'
@@ -20,6 +20,9 @@ import { costInput } from '@/lib/costs'
 import { ComparePicker } from '@/components/compare/ComparePicker'
 import { APPLIANCES, errorBrands, errorCode, errorCodes, hasErrors, ERROR_LANGS, slugify, isAppliance, type Appliance } from '@/lib/errors'
 import { ErrorsBrand, ErrorsCode, ErrorsIndex } from '@/components/views/ErrorsView'
+import { DocsList } from '@/components/product/DocsList'
+import { supportFor } from '@/lib/updates'
+import { ProductImage } from '@/components/product/ProductImage'
 import { CompareTray } from '@/components/compare/CompareTray'
 
 const PREVIEW = 'design-preview'
@@ -102,6 +105,16 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/[...slug]'
       openGraph: { title, images: [{ url: `/og/${lang}/compare/${pair}.png`, width: 1200, height: 630 }] },
       twitter: { card: 'summary_large_image' },
     }
+  }
+  if (!key && slug.length === 3 && slug[2] === MANUAL_SLUG[lang]) {
+    const cat = await getCategory(lang, slug[0])
+    const p = cat && await getProduct(lang, cat, slug[1])
+    if (!cat || !p || !p.docs.length) return {}
+    const t = getDict(lang)
+    const name = `${p.brand} ${p.name}`
+    const title = fill(p.docs.some((d) => d.kind === 'manual') ? t.ui.manualPageTitle : t.ui.docsPageTitle, { name })
+    return { title: `${title} · Specvane`, description: fill(t.ui.docsLead, { name }),
+      alternates: alternates(lang, (l) => (cat.slugs[l] ? `/${l}/${cat.slugs[l]}/${p.slug}/${MANUAL_SLUG[l]}` : null)) }
   }
   if (!key && slug.length <= 2) {
     const cat = await getCategory(lang, slug[0])
@@ -248,6 +261,30 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
     )
   }
 
+  if (!key && slug.length === 3 && slug[2] === MANUAL_SLUG[lang]) {
+    const cat = await getCategory(lang, slug[0])
+    const p = cat && await getProduct(lang, cat, slug[1])
+    if (!cat || !p || !p.docs.length) notFound()
+    const name = `${p.brand} ${p.name}`
+    const title = fill(p.docs.some((d) => d.kind === 'manual') ? t.ui.manualPageTitle : t.ui.docsPageTitle, { name })
+    return (
+      <>
+        <Breadcrumbs items={[{ name: t.ui.home, href: `/${lang}` }, { name: cat.name, href: `/${lang}/${cat.slug}` }, { name, href: p.href }, { name: t.ui.docsTitle, href: `${p.href}/${MANUAL_SLUG[lang]}` }]} />
+        <div className="grid gap-6 md:grid-cols-[14rem_1fr] md:items-start">
+          <a href={p.href} className="block rounded-2xl border border-border p-3"><ProductImage src={p.image} alt={name} /></a>
+          <div>
+            <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{title}</h1>
+            <p className="mt-2 text-muted">{fill(t.ui.docsLead, { name })}</p>
+            <div className="mt-5"><DocsList t={t} docs={p.docs} big /></div>
+            <p className="mt-3 text-xs text-muted">{t.ui.docsNote}</p>
+            <ul className="mt-6 flex flex-wrap gap-1.5">{p.keySpecs.slice(0, 6).map((k) => <li key={k.key} className="num rounded-md bg-surface px-2 py-1 text-sm">{k.label}: {k.display}</li>)}</ul>
+            <a href={p.href} className="mt-4 inline-block font-medium text-accent hover:underline">{t.ui.allSpecs} →</a>
+          </div>
+        </div>
+      </>
+    )
+  }
+
   if (!key && slug.length <= 2) {
     const cat = await getCategory(lang, slug[0])
     if (cat) {
@@ -274,6 +311,8 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
           <>
             <ProductView lang={lang} t={t} p={p} crumbs={[home, catCrumb, { name: `${p.brand} ${p.name}`, href: p.href }]}
               compareLinks={await getCompareLinks(lang, p.slug)} variants={variants} gallery={p.images} credits={p.credits}
+              support={cat.key === 'smartphones' || cat.key === 'tablets' ? supportFor(p.brand, p.name, p.releaseDate ?? null) : null}
+              docs={p.docs} docsHref={p.docs.length ? `${p.href}/${MANUAL_SLUG[lang]}` : undefined}
               compare={{ cat: cat.key, base: sectionHref(lang, 'compare') }}
               positions={await getPositions(lang, cat, p.specGroups.flatMap((g) => g.specs))}
               cost={costInput(lang, cat.key, p.specGroups.flatMap((g) => g.specs))}

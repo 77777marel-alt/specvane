@@ -19,7 +19,7 @@ import { createGunzip } from 'node:zlib'
 import { createInterface } from 'node:readline'
 import { Readable } from 'node:stream'
 import { createHash } from 'node:crypto'
-import { mapSmartphone, modelOf, releaseDate, images, gtins, modelSlug } from './map.mjs'
+import { mapSmartphone, modelOf, releaseDate, images, documents, gtins, modelSlug } from './map.mjs'
 import { CATEGORIES, mapByConfig, mapAuto } from './categories.mjs'
 
 const env = (k, d) => process.env[k] ?? d
@@ -89,8 +89,12 @@ async function phaseIndex() {
 
   // что уже знаем
   const known = new Map(), pending = {}
-  for (let from = 0; ; from += 1000) {
-    const part = must(await db.from('source_items').select('external_id, updated, status, category_key').eq('source', 'icecat').range(from, from + 999), 'source_items')
+  // постранично С ПОРЯДКОМ (keyset по external_id): без order Postgres отдаёт страницы вразнобой,
+  // часть строк «теряется», и они заново попадают в очередь (так очередь разрасталась до 800 тыс.)
+  for (let last = ''; ; ) {
+    const part = must(await db.from('source_items').select('external_id, updated, status, category_key').eq('source', 'icecat')
+      .gt('external_id', last).order('external_id').limit(1000), 'source_items')
+    if (part.length) last = part[part.length - 1].external_id
     part.forEach((r) => { known.set(r.external_id, r.updated); if (r.status === 'new') pending[r.category_key] = (pending[r.category_key] ?? 0) + 1 })
     if (part.length < 1000) break
   }
@@ -189,7 +193,7 @@ async function phaseSheets() {
     const specs = mapSpecs(data)
     const colour = (data.FeaturesGroups ?? []).flatMap((g) => g.Features ?? []).find((f) => String(f.Feature?.ID) === '1766')?.RawValue ?? null
     const sku = { icecat_id: Number(id), part: data.GeneralInfo?.BrandPartCode ?? null, code: data.GeneralInfo?.ProductName ?? null,
-      gtins: gtins(data), ram: specs.ram, storage: specs.storage, colour, release: releaseDate(data), images: images(data), specs }
+      gtins: gtins(data), ram: specs.ram, storage: specs.storage, colour, release: releaseDate(data), images: images(data), docs: documents(data), specs }
     if (!models.has(m.slug)) models.set(m.slug, { ...m, skus: [] })
     const g = models.get(m.slug)
     if (!g.stem && m.stem) g.stem = m.stem
@@ -249,6 +253,10 @@ async function phaseSheets() {
     // фото (заменяем набор фото из Icecat целиком)
     must(await db.from('product_images').delete().eq('product_id', prod.id).eq('source', 'icecat'), 'del images')
     if (imgs.length) must(await db.from('product_images').insert(imgs.map((url, i) => ({ product_id: prod.id, url, source: 'icecat', source_ref: String(base[0].icecat_id), sort: i }))), 'images')
+    // документы модели (инструкция, брошюра, этикетка ЕС) — со всех SKU, без повторов
+    const docs = [...new Map(m.skus.flatMap((x) => x.docs ?? []).map((d) => [d.url, d])).values()].slice(0, 12)
+    if (docs.length) await db.from('product_documents').upsert(docs.map((d) => ({ product_id: prod.id, ...d })), { onConflict: 'product_id,url', ignoreDuplicates: true })
+    await db.from('products').update({ docs_checked_at: new Date().toISOString() }).eq('id', prod.id)
 
     // идентификаторы (чужие совпадения пропускаем)
     const ids = m.skus.flatMap((s) => [

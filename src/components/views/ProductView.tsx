@@ -13,6 +13,9 @@ import type { SpecValue, ProductCardData } from '@/lib/types'
 import type { SpecPosition } from '@/lib/catalog'
 import { CompareToggle } from '../compare/CompareToggle'
 import { CompareTray } from '../compare/CompareTray'
+import { DocsList } from '../product/DocsList'
+import { UpdatesBox } from '../product/UpdatesBox'
+import type { Support } from '@/lib/updates'
 import { KeySpecs } from '../product/KeySpecs'
 import { PriceBox } from '../product/PriceBox'
 import { ProsCons } from '../product/ProsCons'
@@ -22,11 +25,11 @@ import { SpecTable } from '../product/SpecTable'
 import { ProductCard } from '../product/ProductCard'
 
 /** Страница товара. Верх: фото, название, вердикт, лучшая цена, 3–5 ключевых цифр (ТЗ). */
-export function ProductView({ lang, t, p, crumbs, compareLinks, variants, gallery, attribution, compare, positions, prevGen, cost, better, cross, credits, extra }:
+export function ProductView({ lang, t, p, crumbs, compareLinks, variants, gallery, attribution, compare, positions, prevGen, cost, better, cross, credits, extra, docs, docsHref, support }:
   { lang: Locale; t: Dict; p: P; crumbs: Crumb[]; compareLinks: { name: string; href: string }[]
     variants?: string[]; gallery?: string[]; attribution?: string; compare?: { cat: string; base: string }; positions?: SpecPosition[]
     prevGen?: { name: string; href: string; specs: SpecValue[] } | null; cost?: CostInput | null
-    better?: (ProductCardData & { why: string })[]; cross?: { cat: string; links: { name: string; href: string }[] }[]; credits?: { author: string; license: string; file: string }[]; extra?: { title: string; links: { name: string; href: string }[] } }) {
+    better?: (ProductCardData & { why: string })[]; cross?: { cat: string; links: { name: string; href: string }[] }[]; credits?: { author: string; license: string; file: string }[]; extra?: { title: string; links: { name: string; href: string }[] }; docs?: { kind: string; url: string }[]; docsHref?: string; support?: Support | null }) {
   const keySpecs = p.keySpecs
   return (
     <>
@@ -91,6 +94,13 @@ export function ProductView({ lang, t, p, crumbs, compareLinks, variants, galler
                   </li>
                 ))}
               </ul>
+            </section>
+          )}
+          {support && <UpdatesBox lang={lang} t={t} brand={p.brand} s={support} />}
+          {docs && docs.length > 0 && (
+            <section className="rounded-2xl border border-border p-4">
+              <h2 className="mb-2 font-semibold">{docsHref ? <a href={docsHref} className="hover:text-accent">{t.ui.docsTitle}</a> : t.ui.docsTitle}</h2>
+              <DocsList t={t} docs={docs} />
             </section>
           )}
           {extra && (

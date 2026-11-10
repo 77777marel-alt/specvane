@@ -225,6 +225,20 @@ export function images(data, max = 6) {
     .slice(0, max)
 }
 
+/** Документы из Multimedia Icecat: инструкция, брошюра, этикетка и информационный лист ЕС (только https, только PDF/картинки). */
+const DOC_KIND = { 'manual pdf': 'manual', 'user manual': 'manual', manual: 'manual', leaflet: 'brochure', 'eu energy label': 'energy_label', 'eu product fiche': 'product_fiche' }
+export function documents(data) {
+  const seen = new Set()
+  return (data.Multimedia ?? []).flatMap((m) => {
+    const kind = DOC_KIND[String(m.Type ?? '').toLowerCase()]
+    const url = String(m.URL ?? '')
+    if (!kind || !url.startsWith('https://') || seen.has(url) || !/pdf|image/.test(String(m.ContentType ?? ''))) return []
+    seen.add(url)
+    const lang = String(m.Language ?? m.LangId ?? '').toLowerCase().slice(0, 5) || null
+    return [{ kind, url, lang, title: String(m.Description ?? '').slice(0, 200) || null }]
+  })
+}
+
 export function gtins(data) {
   return (data.GeneralInfo?.GTIN ?? []).map(String).filter((g) => /^\d{8,14}$/.test(g))
 }
