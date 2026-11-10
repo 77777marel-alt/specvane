@@ -227,3 +227,15 @@ export const APPLIANCE_NAMES: Partial<Record<Locale, Names>> = {
   ar: { 'washing-machines': { one: 'غسالة ملابس', many: 'غسالات الملابس', slug: 'washing-machines' }, 'dishwashers': { one: 'غسالة صحون', many: 'غسالات الصحون', slug: 'dishwashers' }, 'tumble-dryers': { one: 'مجفف ملابس', many: 'مجففات الملابس', slug: 'tumble-dryers' }, 'fridges': { one: 'ثلاجة', many: 'الثلاجات', slug: 'fridges' }, 'coffee-machines': { one: 'ماكينة قهوة', many: 'ماكينات القهوة', slug: 'coffee-machines' }, 'air-conditioners': { one: 'مكيف هواء', many: 'مكيفات الهواء', slug: 'air-conditioners' }, 'boilers': { one: 'غلاية غاز', many: 'غلايات الغاز', slug: 'boilers' } },
 }
 export const applianceName = (lang: Locale, a: Appliance) => (APPLIANCE_NAMES[lang] ?? APPLIANCE_NAMES.en!)[a]
+
+/** Тонкие страницы кода (тот же текст, что у другого кода бренда, или совсем мало текста) — noindex и не в sitemap, чтобы Google не счёл раздел «массовым тонким контентом». */
+const THIN = new Set<string>()
+for (const a of Object.keys(APPLIANCES) as Appliance[]) {
+  const seen = new Set<string>()
+  for (const e of APPLIANCES[a]) {
+    const sig = `${e.brand}|${e.causes.join('|')}|${e.steps.join('|')}`
+    if (seen.has(sig) || [...e.causes, ...e.steps].join(' ').length < 120) THIN.add(`${a}|${e.brand}|${e.code}`)
+    seen.add(sig)
+  }
+}
+export const isThinCode = (a: Appliance, brand: string, code: string) => THIN.has(`${a}|${brand}|${code}`)

@@ -18,7 +18,7 @@ import { getCategories } from '@/lib/data'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { costInput, defaultTariff } from '@/lib/costs'
 import { ComparePicker } from '@/components/compare/ComparePicker'
-import { APPLIANCES, errorBrands, errorCode, errorCodes, hasErrors, ERROR_LANGS, slugify, isAppliance, applianceName, type Appliance } from '@/lib/errors'
+import { APPLIANCES, errorBrands, errorCode, errorCodes, hasErrors, ERROR_LANGS, slugify, isAppliance, applianceName, isThinCode, type Appliance } from '@/lib/errors'
 import { ErrorsBrand, ErrorsCode, ErrorsIndex } from '@/components/views/ErrorsView'
 import { DocsList } from '@/components/product/DocsList'
 import { supportFor } from '@/lib/updates'
@@ -63,7 +63,7 @@ async function errorsMeta(lang: Locale, slug: string[]): Promise<Metadata> {
     if (!r) return {}
     const title = fill(t.ui.errCodeTitle, { brand: r.item.brand, appliance: singular(t, ap.key, lang), code: r.item.code })
     return { title: `${title}: ${r.item.title} · Specvane`, description: `${r.item.title}. ${r.item.causes[0] ?? ''} ${r.item.steps[0] ?? ''}`.slice(0, 300),
-      alternates: altAp(slug[2], r.item.slug) }
+      alternates: altAp(slug[2], r.item.slug), robots: isThinCode(ap.key, r.item.brand, r.item.code) ? { index: false, follow: true } : undefined }
   }
   return {}
 }
