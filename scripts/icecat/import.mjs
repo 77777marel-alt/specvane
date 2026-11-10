@@ -29,11 +29,11 @@ const USER = env('ICECAT_USER', 'specvane')
 const MAX = Number(env('MAX_PRODUCTS', '5000'))
 const INDEX = env('INDEX', 'on_market')
 const DRY = env('DRY_RUN') === '1'
-// Потолки под бесплатную базу (500 МБ): популярная техника — больше, остальное — меньше
+// Потолки под Supabase Pro (8 ГБ, с ноября 2026): популярная техника — больше, остальное — меньше
 const PRIORITY = new Set(['smartphones', 'tablets', 'laptops', 'tvs', 'monitors', 'headphones', 'smartwatches', 'cameras', 'game-consoles',
   'speakers', 'power-banks', 'projectors', 'washing-machines', 'fridges', 'dishwashers', 'tumble-dryers', 'coffee-machines', 'mice', 'keyboards'])
-const CAP = Number(env('CAP_PRIORITY', '4000')), CAP_OTHER = Number(env('CAP_OTHER', '1000')), CAP_TOTAL = Number(env('CAP_TOTAL', '90000')), DB_MAX_MB = Number(env('DB_MAX_MB', '440'))
-const QUEUE_PER_CAT = Number(env('QUEUE_PER_CAT', '3000'))
+const CAP = Number(env('CAP_PRIORITY', '20000')), CAP_OTHER = Number(env('CAP_OTHER', '5000')), CAP_TOTAL = Number(env('CAP_TOTAL', '400000')), DB_MAX_MB = Number(env('DB_MAX_MB', '7000'))
+const QUEUE_PER_CAT = Number(env('QUEUE_PER_CAT', '20000'))
 const UA = 'SpecvaneImporter/1.0 (+https://specvane.com)'
 
 // продавцы восстановленной техники — не производители, не публикуем
