@@ -111,7 +111,7 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/[...slug]'
     const top = (await getBrandPairs(lang, cat, 6)).some((x) => x.a.slug === v.a.slug && x.b.slug === v.b.slug)
     const index = top && v.both >= 3 && GUIDE_CATS.includes(cat.key)
     return { title: `${fill(bt.vsTitle, { a: v.a.name, b: v.b.name, category: cat.name })} · Specvane`,
-      description: fill(bt.vsLead, { a: v.a.name, b: v.b.name, m: v.both, na: v.a.recent || v.a.n, nb: v.b.recent || v.b.n }).slice(0, 300),
+      description: fill(bt.vsLead, { a: v.a.name, b: v.b.name, m: v.both, na: v.a.recent >= 5 ? v.a.recent : v.a.n, nb: v.b.recent >= 5 ? v.b.recent : v.b.n }).slice(0, 300),
       alternates: alt(slug[2]), robots: index ? undefined : { index: false, follow: true },
       openGraph: { images: [{ url: `/og/${lang}/brands/${cat.slug}/${v.a.slug}-vs-${v.b.slug}.png`, width: 1200, height: 630 }] } }
   }
@@ -260,14 +260,14 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
       <article>
         <Breadcrumbs items={[home, catCrumb, idx, { name: `${a.name} vs ${b.name}`, href: sectionHref(lang, 'brands', cat.slug, slug[2]) }]} />
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{fill(bt.vsTitle, { a: a.name, b: b.name, category: cat.name })}</h1>
-        <p className="mt-2 max-w-3xl text-muted">{fill(bt.vsLead, { a: a.name, b: b.name, m: v.both, na: a.recent || a.n, nb: b.recent || b.n })}</p>
+        <p className="mt-2 max-w-3xl text-muted">{fill(bt.vsLead, { a: a.name, b: b.name, m: v.both, na: a.recent >= 5 ? a.recent : a.n, nb: b.recent >= 5 ? b.recent : b.n })}</p>
         <p className="mt-4 inline-block rounded-xl bg-surface px-4 py-3 text-lg font-semibold">{summary}</p>
         <div className="mt-6 overflow-x-auto rounded-2xl border border-border">
           <table className="w-full text-sm">
             <thead className="bg-surface text-start"><tr><th className="px-3 py-2 text-start">{bt.spec}</th><th className="px-3 py-2 text-start">{a.name}</th><th className="px-3 py-2 text-start">{b.name}</th></tr></thead>
             <tbody>
               <tr className="border-t border-border"><td className="px-3 py-2">{bt.catalog}</td><td className="num px-3 py-2">{a.n}</td><td className="num px-3 py-2">{b.n}</td></tr>
-              <tr className="border-t border-border"><td className="px-3 py-2">{bt.newest}</td><td className="num px-3 py-2">{a.newest?.slice(0, 4) ?? '—'}</td><td className="num px-3 py-2">{b.newest?.slice(0, 4) ?? '—'}</td></tr>
+              {(a.newest || b.newest) && <tr className="border-t border-border"><td className="px-3 py-2">{bt.newest}</td><td className="num px-3 py-2">{a.newest?.slice(0, 4) ?? '—'}</td><td className="num px-3 py-2">{b.newest?.slice(0, 4) ?? '—'}</td></tr>}
               {v.rows.map((r) => <tr key={r.key} className="border-t border-border"><td className="px-3 py-2">{r.label}<span className="block text-xs text-muted">{bt.typical}</span></td>{cell(r.a, r.win === 'a')}{cell(r.b, r.win === 'b')}</tr>)}
             </tbody>
           </table>

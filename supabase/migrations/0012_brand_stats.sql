@@ -60,9 +60,9 @@ begin
   -- модели последних 4 лет; если у бренда их меньше 5 — все модели бренда
   insert into public.brand_spec_stats (category_id, brand_id, spec_id, n, med, top)
   select v_cat, x.brand_id, x.spec_id, count(*)::int,
-         percentile_cont(0.5) within group (order by x.v),
-         case when bool_or(x.hib) then percentile_cont(0.9) within group (order by x.v)
-              else percentile_cont(0.1) within group (order by x.v) end
+         percentile_disc(0.5) within group (order by x.v),
+         case when bool_or(x.hib) then percentile_disc(0.9) within group (order by x.v)
+              else percentile_disc(0.1) within group (order by x.v) end
   from (
     select p.brand_id, s.spec_id, s.value_num::double precision as v, d.higher_is_better as hib
     from public.product_specs s
