@@ -75,6 +75,7 @@ async function errorsMeta(lang: Locale, slug: string[]): Promise<Metadata> {
     if (!r) return {}
     const title = fill(t.ui.errCodeTitle, { brand: r.item.brand, appliance: singular(t, ap.key, lang), code: r.item.code })
     return { title: `${title}: ${r.item.title} · Specvane`, description: `${r.item.title}. ${r.item.causes[0] ?? ''} ${r.item.steps[0] ?? ''}`.slice(0, 300),
+      openGraph: { images: [{ url: `/og/${lang}/error/${ap.key}/${slug[2]}/${r.item.slug}.png`, width: 1200, height: 630 }] },
       alternates: altAp(slug[2], r.item.slug), robots: isThinCode(ap.key, r.item.brand, r.item.code) ? { index: false, follow: true } : undefined }
   }
   return {}
@@ -111,7 +112,8 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/[...slug]'
     const index = top && v.both >= 3 && GUIDE_CATS.includes(cat.key)
     return { title: `${fill(bt.vsTitle, { a: v.a.name, b: v.b.name, category: cat.name })} · Specvane`,
       description: fill(bt.vsLead, { a: v.a.name, b: v.b.name, m: v.both, na: v.a.recent || v.a.n, nb: v.b.recent || v.b.n }).slice(0, 300),
-      alternates: alt(slug[2]), robots: index ? undefined : { index: false, follow: true } }
+      alternates: alt(slug[2]), robots: index ? undefined : { index: false, follow: true },
+      openGraph: { images: [{ url: `/og/${lang}/brands/${cat.slug}/${v.a.slug}-vs-${v.b.slug}.png`, width: 1200, height: 630 }] } }
   }
   if (key === 'guides') {
     const g = GUIDE_UI[lang]
@@ -119,7 +121,7 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/[...slug]'
     const gd = slug.length === 2 ? await guideBySeg(lang, slug[1]) : null
     if (!gd) return {}
     const segs = Object.fromEntries(await Promise.all(LOCALES.map(async (l) => [l, await guideSeg(l, gd.cat)] as const)))
-    return { title: `${gd.title} · Specvane`, description: gd.lead, alternates: alternates(lang, (l) => sectionHref(l, 'guides', segs[l])) }
+    return { title: `${gd.title} · Specvane`, description: gd.lead, alternates: alternates(lang, (l) => sectionHref(l, 'guides', segs[l])), openGraph: { title: gd.title, images: [{ url: `/og/${lang}/guide/${gd.cat}.png`, width: 1200, height: 630 }] } }
   }
   if (key === 'glossary') {
     const g = GLOSSARY_UI[lang]
