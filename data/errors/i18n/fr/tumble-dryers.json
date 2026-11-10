@@ -1,0 +1,1201 @@
+{
+ "Samsung|dC": {
+  "title": "Porte ouverte ou non détectée",
+  "causes": [
+   "La porte n'est pas bien fermée.",
+   "Du linge est coincé dans la porte.",
+   "La sécurité enfants (Child Lock) est activée et la porte a été ouverte."
+  ],
+  "steps": [
+   "Ouvrez la porte et retirez le linge coincé sur le bord.",
+   "Fermez bien la porte jusqu'au clic.",
+   "Vérifiez si la sécurité enfants (Child Lock) est activée.",
+   "Relancez le cycle."
+  ],
+  "technician": "Si le code reste affiché porte bien fermée, le loquet ou le capteur de porte peut être défectueux. Contactez le service après-vente Samsung."
+ },
+ "Samsung|NC": {
+  "title": "Problème de filtre à peluches",
+  "causes": [
+   "Le filtre à peluches est absent, bouché ou mal placé."
+  ],
+  "steps": [
+   "Retirez le filtre à peluches et nettoyez-le.",
+   "Remettez-le bien en place.",
+   "Relancez le cycle."
+  ],
+  "technician": "Si le code revient avec un filtre propre et bien placé, demandez une intervention du service après-vente Samsung."
+ },
+ "Samsung|NC2": {
+  "title": "Problème de couvercle intérieur de l'échangeur thermique",
+  "causes": [
+   "Le couvercle intérieur de l'échangeur thermique est mal monté."
+  ],
+  "steps": [
+   "Éteignez le sèche-linge.",
+   "Vérifiez que le couvercle intérieur de l'échangeur thermique est en place et bien fermé.",
+   "Relancez le cycle."
+  ],
+  "technician": "Si le code persiste après avoir remis le couvercle, contactez le service après-vente Samsung."
+ },
+ "Samsung|5C": {
+  "title": "Problème de vidange",
+  "causes": [
+   "Le tuyau de vidange est plié, abîmé ou gelé.",
+   "Le réservoir d'eau est plein.",
+   "La pompe de vidange ne fonctionne pas."
+  ],
+  "steps": [
+   "Videz le réservoir d'eau et remettez-le en place.",
+   "Vérifiez que le tuyau de vidange n'est ni plié ni abîmé.",
+   "Si le tuyau est gelé, entourez-le d'une serviette imbibée d'eau chaude pendant environ 10 minutes.",
+   "Allumez le sèche-linge et relancez le cycle."
+  ],
+  "technician": "Si le réservoir est vide et le tuyau dégagé mais que le code revient, la pompe peut être défectueuse. Appelez le service après-vente Samsung."
+ },
+ "Samsung|tC": {
+  "title": "Problème de sonde de température d'air",
+  "causes": [
+   "Le filtre à peluches ou l'échangeur thermique est encrassé.",
+   "L'évacuation ou le circuit d'air est obstrué.",
+   "La sonde de température est défectueuse."
+  ],
+  "steps": [
+   "Nettoyez le filtre à peluches.",
+   "Nettoyez l'échangeur thermique si votre modèle en a un.",
+   "Vérifiez que l'évacuation n'est pas obstruée.",
+   "Relancez le cycle."
+  ],
+  "technician": "Si le nettoyage ne fait pas disparaître le code, la sonde doit peut-être être remplacée. Contactez le service après-vente Samsung."
+ },
+ "Samsung|tC5": {
+  "title": "Problème de sonde de température du compresseur",
+  "causes": [
+   "Le filtre à peluches est encrassé.",
+   "Le flux d'air dans le circuit d'évacuation est réduit."
+  ],
+  "steps": [
+   "Attendez 2 à 3 minutes, puis rallumez le sèche-linge.",
+   "Nettoyez le filtre à peluches.",
+   "Vérifiez que le circuit d'évacuation n'est pas obstrué.",
+   "Relancez le cycle."
+  ],
+  "technician": "Si le code revient sans cesse, le système de pompe à chaleur doit être contrôlé par le service après-vente Samsung."
+ },
+ "Samsung|3C": {
+  "title": "Problème de moteur",
+  "causes": [
+   "Le moteur Inverter n'a pas fonctionné normalement."
+  ],
+  "steps": [
+   "Vérifiez que le tambour n'est pas surchargé.",
+   "Relancez le cycle.",
+   "Débranchez le sèche-linge au moins 30 secondes, rebranchez-le et réessayez."
+  ],
+  "technician": "Si le code revient, le moteur ou sa commande doit être vérifié par un technicien. Contactez le service après-vente Samsung."
+ },
+ "Samsung|AC": {
+  "title": "Erreur de communication électronique",
+  "causes": [
+   "Les éléments de commande internes ne communiquent plus entre eux."
+  ],
+  "steps": [
+   "Éteignez le sèche-linge pendant 60 secondes.",
+   "Rallumez-le et relancez le cycle."
+  ],
+  "technician": "Si le code revient, les cartes de commande doivent être vérifiées. Contactez le service après-vente Samsung."
+ },
+ "Samsung|AC6": {
+  "title": "Pas de communication entre la carte principale et la carte Inverter",
+  "causes": [
+   "La carte de commande principale et la carte Inverter ont perdu la communication."
+  ],
+  "steps": [
+   "Relancez le cycle.",
+   "Débranchez le sèche-linge au moins 30 secondes, rebranchez-le et réessayez."
+  ],
+  "technician": "Si le code persiste, un technicien doit vérifier les cartes et le câblage. Contactez le service après-vente Samsung."
+ },
+ "Samsung|HC": {
+  "title": "Surchauffe ou problème de chauffage",
+  "causes": [
+   "Le filtre à peluches ou l'évacuation est bouché, le sèche-linge chauffe donc trop.",
+   "Un disjoncteur a sauté ou la tension est trop basse (modèles électriques)."
+  ],
+  "steps": [
+   "Nettoyez le filtre à peluches.",
+   "Vérifiez que l'évacuation n'est pas obstruée.",
+   "Vérifiez les disjoncteurs de votre logement et réarmez ceux qui ont sauté.",
+   "Relancez le cycle."
+  ],
+  "technician": "Si le code persiste, faites vérifier l'alimentation par un électricien et demandez au service après-vente Samsung de contrôler le système de chauffage."
+ },
+ "Samsung|FC": {
+  "title": "Fréquence d'alimentation incorrecte",
+  "causes": [
+   "La fréquence du réseau électrique ne correspond pas à celle attendue par le sèche-linge."
+  ],
+  "steps": [
+   "Relancez le cycle.",
+   "Vérifiez que le sèche-linge est branché directement sur une prise murale."
+  ],
+  "technician": "Si le code reste affiché, contactez le service après-vente Samsung."
+ },
+ "Samsung|9C1": {
+  "title": "Problème d'alimentation électrique",
+  "causes": [
+   "L'alimentation électrique n'est pas conforme.",
+   "La fiche est mal enfoncée ou desserrée.",
+   "Une rallonge est utilisée."
+  ],
+  "steps": [
+   "Vérifiez que la fiche est bien enfoncée dans la prise.",
+   "Branchez le sèche-linge directement sur une prise murale avec son propre circuit, sans rallonge.",
+   "Relancez le cycle."
+  ],
+  "technician": "Si l'alimentation est correcte et que le code revient, contactez le service après-vente Samsung."
+ },
+ "Samsung|dF": {
+  "title": "Défaut de l'interrupteur de porte",
+  "causes": [
+   "L'interrupteur de porte ou de verrou, ou son câblage, est défectueux."
+  ],
+  "steps": [
+   "Fermez bien la porte et réessayez.",
+   "Débranchez le sèche-linge au moins 30 secondes, rebranchez-le et réessayez."
+  ],
+  "technician": "L'interrupteur de porte doit peut-être être remplacé. Contactez le service après-vente Samsung."
+ },
+ "Samsung|bE": {
+  "title": "Touche bloquée",
+  "causes": [
+   "Une touche du bandeau de commande est coincée ou enfoncée."
+  ],
+  "steps": [
+   "Éteignez le sèche-linge.",
+   "Appuyez sur chaque touche puis relâchez-la, y compris sur les bords, pour débloquer celle qui est coincée.",
+   "Rallumez l'appareil et réessayez."
+  ],
+  "technician": "Si une touche est abîmée ou si le code revient, contactez le service après-vente Samsung."
+ },
+ "Samsung|Clg": {
+  "title": "Évacuation bouchée (résultat du test d'évacuation)",
+  "causes": [
+   "La gaine d'évacuation est bouchée par des peluches ou des débris."
+  ],
+  "steps": [
+   "Nettoyez le filtre à peluches.",
+   "Nettoyez la sortie et la gaine d'évacuation.",
+   "Relancez le test d'obstruction de l'évacuation."
+  ],
+  "technician": "Si l'évacuation est propre et que le résultat ne change pas, contactez le service après-vente Samsung."
+ },
+ "Samsung|dn": {
+  "title": "Téléchargement du logiciel en cours",
+  "causes": [
+   "Le sèche-linge installe une mise à jour du logiciel."
+  ],
+  "steps": [
+   "Ne débranchez pas le sèche-linge et ne coupez pas le courant.",
+   "Patientez. Le sèche-linge redémarre seul une fois la mise à jour terminée."
+  ],
+  "technician": "Si dn est toujours affiché après 24 heures, contactez le service après-vente Samsung."
+ },
+ "Samsung|CL": {
+  "title": "Sécurité enfants (Child Lock) activée",
+  "causes": [
+   "La sécurité enfants (Child Lock) est activée, les touches sont donc désactivées."
+  ],
+  "steps": [
+   "Désactivez la sécurité enfants (Child Lock) avec la combinaison de touches indiquée dans votre notice."
+  ],
+  "technician": "Ce n'est pas une panne. Contactez Samsung uniquement si la sécurité enfants ne se désactive pas."
+ },
+ "Samsung|HC2": {
+  "title": "Erreur d'allumage gaz",
+  "causes": [
+   "Le sèche-linge à gaz n'a pas pu s'allumer."
+  ],
+  "steps": [
+   "Éteignez le sèche-linge pendant 2 à 3 minutes.",
+   "Rallumez-le et relancez le cycle."
+  ],
+  "technician": "Si le code revient, n'utilisez plus le sèche-linge et appelez le service après-vente Samsung. N'intervenez pas vous-même sur les pièces gaz."
+ },
+ "LG|OE": {
+  "title": "Problème de vidange",
+  "causes": [
+   "Le tuyau de vidange est tordu, plié ou bouché.",
+   "L'extrémité du tuyau est placée trop haut ou plonge dans l'eau."
+  ],
+  "steps": [
+   "Redressez le tuyau de vidange.",
+   "Le haut du tuyau ne doit pas dépasser 1 m au-dessus du sol.",
+   "Vérifiez que l'extrémité du tuyau ne trempe pas dans l'eau.",
+   "Redémarrez le sèche-linge."
+  ],
+  "technician": "Si le code revient avec un tuyau dégagé et bien placé, contactez le service après-vente LG."
+ },
+ "LG|d80": {
+  "title": "Flux d'air d'évacuation réduit (obstrué à environ 80 %)",
+  "causes": [
+   "Le filtre à peluches est encrassé.",
+   "La gaine d'évacuation est écrasée, pliée ou trop longue.",
+   "Le clapet de sortie extérieur est bouché."
+  ],
+  "steps": [
+   "Nettoyez le filtre à peluches et rincez-le à l'eau tiède si nécessaire.",
+   "Vérifiez que la gaine derrière le sèche-linge n'est ni pliée ni écrasée.",
+   "Vérifiez que le clapet extérieur s'ouvre complètement et retirez les peluches autour.",
+   "Faites des charges plus petites jusqu'à ce que la gaine soit dégagée."
+  ],
+  "technician": "Si le code reste affiché après le nettoyage, faites appel à un professionnel du nettoyage de gaines ou contactez le service après-vente LG."
+ },
+ "LG|d90": {
+  "title": "Flux d'air d'évacuation réduit (obstrué à environ 90 %)",
+  "causes": [
+   "Le filtre à peluches est encrassé.",
+   "La gaine d'évacuation est écrasée, pliée ou trop longue.",
+   "Le clapet de sortie extérieur est bouché."
+  ],
+  "steps": [
+   "Nettoyez le filtre à peluches et rincez-le à l'eau tiède si nécessaire.",
+   "Vérifiez que la gaine derrière le sèche-linge n'est ni pliée ni écrasée.",
+   "Vérifiez que le clapet extérieur s'ouvre complètement et retirez les peluches autour.",
+   "Faites des charges plus petites jusqu'à ce que la gaine soit dégagée."
+  ],
+  "technician": "Si le code reste affiché après le nettoyage, faites appel à un professionnel du nettoyage de gaines ou contactez le service après-vente LG."
+ },
+ "LG|d95": {
+  "title": "Flux d'air d'évacuation réduit (obstrué à environ 95 %)",
+  "causes": [
+   "Le filtre à peluches est encrassé.",
+   "La gaine d'évacuation est écrasée, pliée ou trop longue.",
+   "Le clapet de sortie extérieur est bouché."
+  ],
+  "steps": [
+   "Nettoyez le filtre à peluches et rincez-le à l'eau tiède si nécessaire.",
+   "Vérifiez que la gaine derrière le sèche-linge n'est ni pliée ni écrasée.",
+   "Vérifiez que le clapet extérieur s'ouvre complètement et retirez les peluches autour.",
+   "Faites des charges plus petites jusqu'à ce que la gaine soit dégagée."
+  ],
+  "technician": "Si le code reste affiché après le nettoyage, faites appel à un professionnel du nettoyage de gaines ou contactez le service après-vente LG."
+ },
+ "LG|FO": {
+  "title": "Filtre à peluches absent",
+  "causes": [
+   "Le filtre à peluches n'est pas bien inséré."
+  ],
+  "steps": [
+   "Retirez le filtre à peluches.",
+   "Remettez-le dans son logement jusqu'à ce qu'il soit bien en place.",
+   "Redémarrez le sèche-linge."
+  ],
+  "technician": "Si FO reste affiché avec un filtre bien placé, le capteur doit peut-être être réparé par le service après-vente LG."
+ },
+ "LG|IF": {
+  "title": "Filtre à peluches intérieur non détecté",
+  "causes": [
+   "L'aimant du filtre à peluches intérieur est absent ou déplacé.",
+   "Le support de l'aimant est abîmé."
+  ],
+  "steps": [
+   "Retirez le filtre à peluches intérieur et vérifiez que son aimant est en place.",
+   "Remettez correctement le filtre.",
+   "Si l'aimant est perdu ou le support cassé, achetez un filtre neuf."
+  ],
+  "technician": "Si l'erreur persiste avec un filtre en bon état, contactez le service après-vente LG."
+ },
+ "LG|nP": {
+  "title": "Pas d'alimentation de la résistance",
+  "causes": [
+   "La prise ne fournit pas la bonne tension.",
+   "Un disjoncteur a sauté."
+  ],
+  "steps": [
+   "Coupez le disjoncteur du sèche-linge pendant au moins 10 secondes, puis réarmez-le.",
+   "Redémarrez le sèche-linge."
+  ],
+  "technician": "S'il ne chauffe toujours pas, faites vérifier la prise par un électricien, puis contactez le service après-vente LG."
+ },
+ "LG|PS": {
+  "title": "Problème d'alimentation électrique",
+  "causes": [
+   "Le cordon d'alimentation est desserré ou la prise n'est pas câblée comme requis."
+  ],
+  "steps": [
+   "Coupez puis réarmez le disjoncteur du sèche-linge (au moins 10 secondes).",
+   "Vérifiez que la fiche est bien enfoncée dans une prise adaptée et reliée à la terre.",
+   "Redémarrez le sèche-linge."
+  ],
+  "technician": "Si le sèche-linge ne chauffe toujours pas, demandez une réparation à LG."
+ },
+ "LG|gAS": {
+  "title": "Problème d'alimentation en gaz",
+  "causes": [
+   "Le robinet d'arrivée de gaz est fermé.",
+   "Le tuyau de gaz est plié."
+  ],
+  "steps": [
+   "Vérifiez que le robinet d'arrivée de gaz est ouvert.",
+   "Vérifiez que le tuyau de gaz n'est pas plié."
+  ],
+  "technician": "Si l'arrivée de gaz est correcte et que le code revient, appelez le service après-vente LG. Ne réparez pas vous-même les pièces gaz."
+ },
+ "LG|CL": {
+  "title": "Sécurité enfants (Child Lock) activée",
+  "causes": [
+   "La sécurité enfants (Child Lock) a été activée et reste active après l'arrêt."
+  ],
+  "steps": [
+   "Allumez le sèche-linge.",
+   "Maintenez la touche Child Lock enfoncée 3 à 5 secondes jusqu'à ce que CL disparaisse."
+  ],
+  "technician": "Ce n'est pas une panne. Contactez LG uniquement si la sécurité enfants ne se désactive pas."
+ },
+ "LG|Add": {
+  "title": "Ajoutez de l'eau pour la vapeur",
+  "causes": [
+   "Le réservoir de vapeur est vide pendant un cycle vapeur."
+  ],
+  "steps": [
+   "Mettez le cycle en pause.",
+   "Remplissez le réservoir de vapeur avec de l'eau du robinet jusqu'au repère MAX.",
+   "Éteignez et rallumez le sèche-linge, choisissez le cycle vapeur et appuyez sur Start."
+  ],
+  "technician": "Si le message reste affiché après le remplissage, contactez le service après-vente LG."
+ },
+ "LG|E13": {
+  "title": "Problème de vidange (eau de condensation)",
+  "causes": [
+   "Le tuyau de vidange est plié, tordu ou bouché.",
+   "Une rallonge de tuyau réduit l'écoulement."
+  ],
+  "steps": [
+   "Vérifiez que le tuyau de vidange n'est ni plié ni bouché.",
+   "Utilisez uniquement le tuyau de vidange LG d'origine, sans rallonge.",
+   "Appuyez sur Start/Pause pour redémarrer."
+  ],
+  "technician": "Si E13 revient, le sèche-linge doit être réparé par le service après-vente LG."
+ },
+ "Bosch|E01": {
+  "title": "Filtre à peluches bouché",
+  "causes": [
+   "Des peluches se sont accumulées sur le filtre.",
+   "Des résidus d'adoucissant bouchent la grille du filtre."
+  ],
+  "steps": [
+   "Retirez le filtre à peluches et videz-le.",
+   "Rincez le filtre à l'eau tiède pour enlever les résidus.",
+   "Séchez-le et remettez-le en place.",
+   "Nettoyez le filtre après chaque cycle."
+  ],
+  "technician": "Si le code reste affiché avec un filtre propre, demandez une intervention du service après-vente Bosch."
+ },
+ "Bosch|E02": {
+  "title": "Filtre à peluches bouché ou défaut du relais de commande",
+  "causes": [
+   "Le filtre à peluches est bouché.",
+   "Sur certains modèles, un défaut de relais de la carte principale."
+  ],
+  "steps": [
+   "Nettoyez le filtre à peluches et rincez-le à l'eau tiède.",
+   "Coupez le courant à la prise ou au disjoncteur pendant 30 secondes, puis redémarrez."
+  ],
+  "technician": "Si le code revient après le nettoyage et une réinitialisation, contactez le service client Bosch."
+ },
+ "Bosch|E03": {
+  "title": "Tuyau de vidange de condensation bouché",
+  "causes": [
+   "Le tuyau de vidange de l'eau de condensation est plié ou bouché."
+  ],
+  "steps": [
+   "Vérifiez que le tuyau de vidange n'est pas plié.",
+   "Détachez avec précaution le tuyau du siphon, puis nettoyez le tuyau et son raccord.",
+   "Remettez le tuyau en place et fixez-le bien."
+  ],
+  "technician": "Si le code revient avec un tuyau dégagé, faites appel à un technicien Bosch."
+ },
+ "Bosch|E04": {
+  "title": "Sèche-linge surchargé",
+  "causes": [
+   "Trop de linge dans le tambour."
+  ],
+  "steps": [
+   "Retirez une partie du linge.",
+   "Laissez environ une main d'espace au-dessus du linge.",
+   "Relancez le programme."
+  ],
+  "technician": "Si le code s'affiche avec une charge normale, contactez le service après-vente Bosch."
+ },
+ "Bosch|E06": {
+  "title": "Défaut du circuit de chauffage",
+  "causes": [
+   "Un défaut dans le circuit de chauffage."
+  ],
+  "steps": [
+   "Éteignez le sèche-linge et débranchez-le.",
+   "N'essayez pas de le réparer vous-même."
+  ],
+  "technician": "Une intervention par un technicien qualifié est nécessaire. Contactez le service client Bosch."
+ },
+ "Bosch|E08": {
+  "title": "Défaut électronique",
+  "causes": [
+   "Un défaut électronique interne."
+  ],
+  "steps": [
+   "Éteignez le sèche-linge.",
+   "Débranchez-le ou coupez le disjoncteur pendant quelques minutes, puis rebranchez-le.",
+   "Si le code revient, n'utilisez plus le sèche-linge."
+  ],
+  "technician": "Seul un technicien agréé peut réparer cette panne. Contactez le service client Bosch."
+ },
+ "Bosch|E09": {
+  "title": "Défaut électronique",
+  "causes": [
+   "Un défaut électronique interne."
+  ],
+  "steps": [
+   "Éteignez le sèche-linge.",
+   "Débranchez-le ou coupez le disjoncteur pendant quelques minutes, puis rebranchez-le.",
+   "Si le code revient, n'utilisez plus le sèche-linge."
+  ],
+  "technician": "Seul un technicien agréé peut réparer cette panne. Contactez le service client Bosch."
+ },
+ "Bosch|E24": {
+  "title": "Défaut électronique",
+  "causes": [
+   "Un défaut électronique interne."
+  ],
+  "steps": [
+   "Éteignez le sèche-linge.",
+   "Débranchez-le ou coupez le disjoncteur pendant quelques minutes, puis rebranchez-le.",
+   "Si le code revient, n'utilisez plus le sèche-linge."
+  ],
+  "technician": "Seul un technicien agréé peut réparer cette panne. Contactez le service client Bosch."
+ },
+ "Bosch|E25": {
+  "title": "Défaut électronique",
+  "causes": [
+   "Un défaut électronique interne."
+  ],
+  "steps": [
+   "Éteignez le sèche-linge.",
+   "Débranchez-le ou coupez le disjoncteur pendant quelques minutes, puis rebranchez-le.",
+   "Si le code revient, n'utilisez plus le sèche-linge."
+  ],
+  "technician": "Seul un technicien agréé peut réparer cette panne. Contactez le service client Bosch."
+ },
+ "Bosch|E28": {
+  "title": "Défaut électronique",
+  "causes": [
+   "Un défaut électronique interne."
+  ],
+  "steps": [
+   "Éteignez le sèche-linge.",
+   "Débranchez-le ou coupez le disjoncteur pendant quelques minutes, puis rebranchez-le.",
+   "Si le code revient, n'utilisez plus le sèche-linge."
+  ],
+  "technician": "Seul un technicien agréé peut réparer cette panne. Contactez le service client Bosch."
+ },
+ "Bosch|E36": {
+  "title": "Défaut électronique",
+  "causes": [
+   "Un défaut électronique interne."
+  ],
+  "steps": [
+   "Éteignez le sèche-linge.",
+   "Débranchez-le ou coupez le disjoncteur pendant quelques minutes, puis rebranchez-le.",
+   "Si le code revient, n'utilisez plus le sèche-linge."
+  ],
+  "technician": "Seul un technicien agréé peut réparer cette panne. Contactez le service client Bosch."
+ },
+ "Bosch|E90": {
+  "title": "Défaut électronique",
+  "causes": [
+   "Un défaut électronique interne."
+  ],
+  "steps": [
+   "Éteignez le sèche-linge.",
+   "Débranchez-le ou coupez le disjoncteur pendant quelques minutes, puis rebranchez-le.",
+   "Si le code revient, n'utilisez plus le sèche-linge."
+  ],
+  "technician": "Seul un technicien agréé peut réparer cette panne. Contactez le service client Bosch."
+ },
+ "Bosch|E12": {
+  "title": "Surchauffe ou calcaire dans la pompe à chaleur",
+  "causes": [
+   "Le flux d'air est réduit et le sèche-linge surchauffe.",
+   "Du calcaire s'est accumulé dans la pompe à chaleur sur certains modèles."
+  ],
+  "steps": [
+   "Nettoyez le filtre à peluches.",
+   "Vérifiez que la sortie d'évacuation extérieure n'est ni bouchée, ni pliée, ni écrasée.",
+   "Relancez le programme."
+  ],
+  "technician": "Si le code revient sans cesse, demandez une intervention du service après-vente Bosch."
+ },
+ "Bosch|E16": {
+  "title": "Porte ouverte pendant le séchage",
+  "causes": [
+   "La porte a été ouverte pendant un cycle."
+  ],
+  "steps": [
+   "Fermez bien la porte.",
+   "Appuyez sur Start pour reprendre le cycle.",
+   "Si besoin, utilisez la sécurité enfants pour empêcher l'ouverture de la porte."
+  ],
+  "technician": "Si E16 s'affiche porte fermée, l'interrupteur de porte peut être défectueux. Faites appel à un technicien Bosch."
+ },
+ "Bosch|E56": {
+  "title": "Problème de capteur d'humidité",
+  "causes": [
+   "Des résidus ou des peluches recouvrent les lamelles du capteur d'humidité dans le tambour."
+  ],
+  "steps": [
+   "Débranchez le sèche-linge.",
+   "Essuyez le capteur d'humidité près du filtre à peluches avec un chiffon doux et un nettoyant doux.",
+   "Retirez tous les résidus, puis redémarrez."
+  ],
+  "technician": "Si le code persiste après le nettoyage, contactez le service client Bosch."
+ },
+ "Bosch|DR": {
+  "title": "Porte mal fermée",
+  "causes": [
+   "La porte n'est pas bien fermée.",
+   "Quelque chose bloque la porte."
+  ],
+  "steps": [
+   "Retirez ce qui est coincé dans la porte.",
+   "Fermez-la bien jusqu'au clic.",
+   "Relancez le cycle."
+  ],
+  "technician": "Si le code persiste, le loquet ou l'interrupteur de porte doit être vérifié par le service après-vente Bosch."
+ },
+ "Bosch|CrE": {
+  "title": "Rappel d'entretien",
+  "causes": [
+   "Le sèche-linge vous rappelle de lancer son programme d'entretien. Ce n'est pas une panne."
+  ],
+  "steps": [
+   "Lancez le programme d'entretien de base décrit dans votre notice."
+  ],
+  "technician": "Inutile, sauf si le rappel ne disparaît pas après le programme d'entretien."
+ },
+ "Miele|F1": {
+  "title": "Court-circuit de la sonde de température du fluide frigorigène",
+  "causes": [
+   "La sonde de température du fluide frigorigène est en court-circuit."
+  ],
+  "steps": [
+   "Notez le code d'erreur.",
+   "Éteignez le sèche-linge et ne l'utilisez plus.",
+   "Demandez une réparation à Miele."
+  ],
+  "technician": "Il s'agit d'une panne technique que vous ne pouvez pas réparer vous-même. Faites appel à un technicien Miele."
+ },
+ "Miele|F2": {
+  "title": "Circuit ouvert de la sonde de température du fluide frigorigène",
+  "causes": [
+   "Le circuit de la sonde de température du fluide frigorigène est interrompu."
+  ],
+  "steps": [
+   "Notez le code d'erreur.",
+   "Éteignez le sèche-linge et ne l'utilisez plus.",
+   "Demandez une réparation à Miele."
+  ],
+  "technician": "Il s'agit d'une panne technique que vous ne pouvez pas réparer vous-même. Faites appel à un technicien Miele."
+ },
+ "Miele|F3": {
+  "title": "Court-circuit de la sonde de température de l'air de séchage",
+  "causes": [
+   "La sonde de température de l'air de séchage est en court-circuit."
+  ],
+  "steps": [
+   "Notez le code d'erreur.",
+   "Éteignez le sèche-linge et ne l'utilisez plus.",
+   "Demandez une réparation à Miele."
+  ],
+  "technician": "Il s'agit d'une panne technique que vous ne pouvez pas réparer vous-même. Faites appel à un technicien Miele."
+ },
+ "Miele|F4": {
+  "title": "Circuit ouvert de la sonde de température de l'air de séchage",
+  "causes": [
+   "Le circuit de la sonde de température de l'air de séchage est interrompu."
+  ],
+  "steps": [
+   "Notez le code d'erreur.",
+   "Éteignez le sèche-linge et ne l'utilisez plus.",
+   "Demandez une réparation à Miele."
+  ],
+  "technician": "Il s'agit d'une panne technique que vous ne pouvez pas réparer vous-même. Faites appel à un technicien Miele."
+ },
+ "Miele|F30": {
+  "title": "Signaux de porte incohérents",
+  "causes": [
+   "La porte et le contact de porte indiquent des états différents."
+  ],
+  "steps": [
+   "Notez le code d'erreur.",
+   "Éteignez le sèche-linge et ne l'utilisez plus.",
+   "Demandez une réparation à Miele."
+  ],
+  "technician": "Il s'agit d'une panne technique que vous ne pouvez pas réparer vous-même. Faites appel à un technicien Miele."
+ },
+ "Miele|F39": {
+  "title": "Défaut du module électronique",
+  "causes": [
+   "Le module électronique présente un défaut."
+  ],
+  "steps": [
+   "Notez le code d'erreur.",
+   "Éteignez le sèche-linge et ne l'utilisez plus.",
+   "Demandez une réparation à Miele."
+  ],
+  "technician": "Il s'agit d'une panne technique que vous ne pouvez pas réparer vous-même. Faites appel à un technicien Miele."
+ },
+ "Miele|F43": {
+  "title": "Type de modèle non programmé",
+  "causes": [
+   "Le type de modèle est absent ou une mauvaise variante est enregistrée dans l'électronique."
+  ],
+  "steps": [
+   "Notez le code d'erreur.",
+   "Éteignez le sèche-linge et ne l'utilisez plus.",
+   "Demandez une réparation à Miele."
+  ],
+  "technician": "Il s'agit d'une panne technique que vous ne pouvez pas réparer vous-même. Faites appel à un technicien Miele."
+ },
+ "Miele|F45": {
+  "title": "Défaut du module électronique",
+  "causes": [
+   "Le module électronique présente un défaut."
+  ],
+  "steps": [
+   "Notez le code d'erreur.",
+   "Éteignez le sèche-linge et ne l'utilisez plus.",
+   "Demandez une réparation à Miele."
+  ],
+  "technician": "Il s'agit d'une panne technique que vous ne pouvez pas réparer vous-même. Faites appel à un technicien Miele."
+ },
+ "Miele|F53": {
+  "title": "Défaut du moteur d'entraînement ou de l'électronique",
+  "causes": [
+   "Le moteur d'entraînement est défectueux.",
+   "Le module électronique présente un défaut."
+  ],
+  "steps": [
+   "Notez le code d'erreur.",
+   "Éteignez le sèche-linge et ne l'utilisez plus.",
+   "Demandez une réparation à Miele."
+  ],
+  "technician": "Il s'agit d'une panne technique que vous ne pouvez pas réparer vous-même. Faites appel à un technicien Miele."
+ },
+ "Miele|F99": {
+  "title": "Panne technique, sèche-linge bloqué",
+  "causes": [
+   "Une panne technique a bloqué le sèche-linge."
+  ],
+  "steps": [
+   "Notez le code d'erreur.",
+   "Éteignez le sèche-linge et ne l'utilisez plus.",
+   "Demandez une réparation à Miele."
+  ],
+  "technician": "Il s'agit d'une panne technique que vous ne pouvez pas réparer vous-même. Faites appel à un technicien Miele."
+ },
+ "Miele|F156": {
+  "title": "Court-circuit de la sonde de fluide frigorigène après le condenseur",
+  "causes": [
+   "La sonde de température du fluide frigorigène située après le condenseur est en court-circuit."
+  ],
+  "steps": [
+   "Notez le code d'erreur.",
+   "Éteignez le sèche-linge et ne l'utilisez plus.",
+   "Demandez une réparation à Miele."
+  ],
+  "technician": "Il s'agit d'une panne technique que vous ne pouvez pas réparer vous-même. Faites appel à un technicien Miele."
+ },
+ "Miele|F206": {
+  "title": "Court-circuit de la sonde de fluide frigorigène après le compresseur",
+  "causes": [
+   "La sonde de température du fluide frigorigène située après le compresseur est en court-circuit."
+  ],
+  "steps": [
+   "Notez le code d'erreur.",
+   "Éteignez le sèche-linge et ne l'utilisez plus.",
+   "Demandez une réparation à Miele."
+  ],
+  "technician": "Il s'agit d'une panne technique que vous ne pouvez pas réparer vous-même. Faites appel à un technicien Miele."
+ },
+ "Miele|F50": {
+  "title": "Surcharge ou défaut logiciel",
+  "causes": [
+   "Le tambour est surchargé.",
+   "Un bug logiciel, souvent juste après l'ouverture de la porte pour ajouter du linge.",
+   "Une panne technique."
+  ],
+  "steps": [
+   "Retirez du linge pour respecter la charge maximale du programme.",
+   "Éteignez le sèche-linge et rallumez-le aussitôt.",
+   "Relancez le programme."
+  ],
+  "technician": "Si F50 revient sans cesse, contactez le service client Miele."
+ },
+ "Miele|F55": {
+  "title": "Linge pas sec après la durée maximale",
+  "causes": [
+   "Le tambour est surchargé.",
+   "Le linge n'a pas été assez essoré dans le lave-linge.",
+   "Les filtres à peluches sont sales."
+  ],
+  "steps": [
+   "Réduisez la charge au maximum prévu pour le programme.",
+   "Essorez le linge à la vitesse la plus élevée adaptée avant le séchage.",
+   "Nettoyez tous les filtres à peluches et séchez-les complètement avant de les remettre.",
+   "Relancez le programme."
+  ],
+  "technician": "Si la panne persiste avec des filtres propres et une charge normale, contactez le service client Miele."
+ },
+ "Miele|F66": {
+  "title": "Flux d'air bloqué (filtres ou ventilation)",
+  "causes": [
+   "Les filtres à peluches ou le filtre de socle sont sales.",
+   "Le filtre de socle est encroûté, abîmé ou déformé.",
+   "Le tambour est surchargé.",
+   "La grille d'aération est bouchée ou la pièce est mal aérée."
+  ],
+  "steps": [
+   "Nettoyez les filtres à peluches et le filtre de socle, puis essorez le filtre de socle à la main.",
+   "Aspirez doucement les peluches sur l'échangeur thermique sans appuyer sur les ailettes.",
+   "Dégagez la grille d'aération sous la porte.",
+   "Réduisez la charge et aérez la pièce pendant le séchage.",
+   "Remplacez le filtre de socle s'il est abîmé."
+  ],
+  "technician": "Si F66 persiste après un nettoyage complet, contactez le service client Miele."
+ },
+ "Miele|noC": {
+  "title": "Pas de connexion Wi-Fi",
+  "causes": [
+   "Miele@home n'est pas configuré.",
+   "Le sèche-linge ne parvient pas à se connecter à votre Wi-Fi."
+  ],
+  "steps": [
+   "Configurez Miele@home si ce n'est pas encore fait.",
+   "Vérifiez que le Wi-Fi est activé et redémarrez la box.",
+   "Si le signal est faible, améliorez-le avec un répéteur.",
+   "Réinitialisez le Wi-Fi du sèche-linge et reconnectez-le."
+  ],
+  "technician": "Il s'agit d'un message de connexion, pas d'une panne du sèche-linge. Contactez Miele s'il ne se connecte toujours pas après ces étapes."
+ },
+ "AEG|E50": {
+  "title": "Moteur en surcharge",
+  "causes": [
+   "Le tambour est surchargé.",
+   "Du linge est coincé dans le tambour.",
+   "Un défaut du moteur ou de l'entraînement."
+  ],
+  "steps": [
+   "Ouvrez la porte et vérifiez qu'aucun article n'est coincé.",
+   "Retirez du linge si la charge est trop importante.",
+   "Fermez la porte et redémarrez.",
+   "Si l'erreur persiste, coupez le courant pendant environ 1 minute, puis redémarrez."
+  ],
+  "technician": "Si E50 revient souvent ou si le tambour ne tourne pas, demandez une réparation à AEG."
+ },
+ "AEG|E40": {
+  "title": "Porte non fermée",
+  "causes": [
+   "Du linge est coincé dans la porte.",
+   "Le joint ou le verrou de porte est sale ou usé.",
+   "Le tambour est surchargé et pousse sur la porte."
+  ],
+  "steps": [
+   "Retirez le linge coincé dans la porte et fermez-la jusqu'au clic.",
+   "Essuyez le joint de porte avec un chiffon humide.",
+   "Brossez les peluches du verrou de porte.",
+   "Réduisez la charge.",
+   "Coupez le courant pendant 30 secondes, puis redémarrez."
+  ],
+  "technician": "Si l'erreur persiste, le verrou ou le capteur de porte peut être défectueux. Demandez une intervention du service après-vente AEG."
+ },
+ "AEG|E20": {
+  "title": "Problème de vidange ou de pompe",
+  "causes": [
+   "Le tuyau de vidange est mal raccordé.",
+   "Le tuyau de vidange est tordu, bouché ou forme une boucle."
+  ],
+  "steps": [
+   "Si vous utilisez une évacuation, vérifiez que le tuyau est bien raccordé.",
+   "Supprimez les torsions, boucles et bouchons du tuyau.",
+   "Coupez le courant pendant 30 secondes, puis redémarrez."
+  ],
+  "technician": "Si l'erreur persiste, faites appel à un technicien agréé AEG."
+ },
+ "AEG|E60": {
+  "title": "Problème de chauffage",
+  "causes": [
+   "Le sèche-linge est encastré dans un meuble sans aération.",
+   "La pièce est trop petite ou pas aérée.",
+   "Le filtre à peluches, le condenseur ou le joint est sale.",
+   "La résistance est défectueuse."
+  ],
+  "steps": [
+   "Laissez de l'espace et de l'air autour du sèche-linge.",
+   "Ouvrez une fenêtre ou une porte pendant le séchage dans une petite pièce.",
+   "Nettoyez le filtre à peluches, le condenseur et le joint de porte.",
+   "Lancez un programme minuté et vérifiez s'il chauffe au bout de 30 minutes."
+  ],
+  "technician": "S'il reste froid, demandez une réparation à AEG."
+ },
+ "AEG|E70": {
+  "title": "Défaut de sonde de température",
+  "causes": [
+   "La sonde de température est défectueuse."
+  ],
+  "steps": [
+   "Débranchez le sèche-linge pendant 2 heures pour le réinitialiser.",
+   "Rebranchez-le et réessayez.",
+   "Si le code revient, n'utilisez plus le sèche-linge et laissez-le débranché."
+  ],
+  "technician": "Contactez AEG en indiquant le code pour une intervention."
+ },
+ "AEG|E80": {
+  "title": "Défaut du sélecteur de programme ou du logiciel",
+  "causes": [
+   "Le sélecteur de programme est entre deux positions.",
+   "Un défaut logiciel."
+  ],
+  "steps": [
+   "Tournez le sélecteur pour qu'il soit bien positionné sur un programme.",
+   "Débranchez le sèche-linge pendant 30 secondes, puis rebranchez-le et redémarrez."
+  ],
+  "technician": "Si E80 persiste, faites appel à un technicien AEG."
+ },
+ "AEG|EH0": {
+  "title": "Problème d'alimentation électrique",
+  "causes": [
+   "La tension est trop basse ou trop élevée.",
+   "L'alimentation est instable."
+  ],
+  "steps": [
+   "Testez la prise avec un autre appareil.",
+   "N'utilisez pas de rallonge.",
+   "Débranchez le sèche-linge pendant 30 secondes, puis redémarrez."
+  ],
+  "technician": "Si un autre appareil ne fonctionne pas non plus, appelez un électricien. Si seul le sèche-linge affiche le code, faites appel à un technicien AEG."
+ },
+ "AEG|EBD": {
+  "title": "Parasites électriques détectés",
+  "causes": [
+   "Des perturbations électriques sur le réseau.",
+   "Mauvaise mise à la terre."
+  ],
+  "steps": [
+   "Essayez le sèche-linge sur une autre prise qui fonctionne.",
+   "Vérifiez que la prise est bien reliée à la terre."
+  ],
+  "technician": "Si le code reste affiché, contactez un centre de service agréé AEG. N'essayez pas de faire vous-même des réparations électriques."
+ },
+ "AEG|CE": {
+  "title": "Défaut électronique",
+  "causes": [
+   "Un défaut dans l'électronique du sèche-linge."
+  ],
+  "steps": [
+   "N'utilisez plus le sèche-linge.",
+   "Débranchez-le et laissez-le débranché."
+  ],
+  "technician": "Faites appel à un technicien agréé AEG pour diagnostiquer l'électronique."
+ },
+ "AEG|C8": {
+  "title": "Défaut de sonde de température",
+  "causes": [
+   "La sonde de température présente un problème."
+  ],
+  "steps": [
+   "N'utilisez plus le sèche-linge.",
+   "Laissez-le débranché jusqu'à ce qu'il ait été vérifié."
+  ],
+  "technician": "Demandez une intervention du service après-vente AEG pour vérifier ou remplacer la sonde."
+ },
+ "AEG|C6": {
+  "title": "Problème de capteur d'humidité",
+  "causes": [
+   "Le sèche-linge n'est pas branché sur une prise reliée à la terre.",
+   "Le système de mesure de l'humidité est défectueux."
+  ],
+  "steps": [
+   "Vérifiez que le sèche-linge est branché sur une prise reliée à la terre.",
+   "Si le cycle dure toujours très longtemps, n'utilisez plus le sèche-linge et débranchez-le."
+  ],
+  "technician": "Si la prise est reliée à la terre et que l'erreur persiste, demandez une réparation à AEG."
+ },
+ "AEG|Err": {
+  "title": "Erreur du réservoir de vapeur (modèles Iron Aid)",
+  "causes": [
+   "Le réservoir d'eau pour la vapeur est presque vide ou vide."
+  ],
+  "steps": [
+   "Remplissez le réservoir de vapeur jusqu'au niveau MAX.",
+   "Relancez le programme."
+  ],
+  "technician": "Si les voyants clignotent encore après le remplissage, n'utilisez plus le sèche-linge et contactez un centre de service AEG."
+ },
+ "Hotpoint|F01": {
+  "title": "Défaut de la carte électronique",
+  "causes": [
+   "Un défaut sur la carte de commande électronique."
+  ],
+  "steps": [
+   "Débranchez le sèche-linge pendant au moins 2 minutes.",
+   "Rebranchez-le, attendez 30 secondes et réessayez."
+  ],
+  "technician": "Si F01 revient après la réinitialisation, appelez le service après-vente Hotpoint pour l'intervention d'un technicien."
+ },
+ "Hotpoint|F02": {
+  "title": "Défaut du circuit moteur",
+  "causes": [
+   "Un défaut dans le circuit du moteur. Le tambour ne tourne que de temps en temps, ou plus du tout."
+  ],
+  "steps": [
+   "Éteignez le sèche-linge et débranchez-le.",
+   "Ne continuez pas à l'utiliser."
+  ],
+  "technician": "Appelez le service après-vente Hotpoint pour l'intervention d'un technicien."
+ },
+ "Hotpoint|F03": {
+  "title": "Défaut de mesure de la température",
+  "causes": [
+   "La sonde de température est défectueuse, le sèche-linge ne chauffe donc pas."
+  ],
+  "steps": [
+   "Éteignez le sèche-linge et débranchez-le."
+  ],
+  "technician": "Appelez le service après-vente Hotpoint pour l'intervention d'un technicien."
+ },
+ "Hotpoint|F05": {
+  "title": "Vidange bouchée ou problème de pompe",
+  "causes": [
+   "Un bouchon dans le filtre de la pompe (s'il y en a un) ou dans le tuyau de vidange.",
+   "Une canalisation d'évacuation bouchée.",
+   "Une pompe en panne."
+  ],
+  "steps": [
+   "Vérifiez et nettoyez le filtre de la pompe si votre modèle en a un.",
+   "Vérifiez que le tuyau de vidange et la canalisation à laquelle il est raccordé ne sont pas bouchés."
+  ],
+  "technician": "Si tout est dégagé et que la panne persiste, la pompe est peut-être en panne. Appelez le service après-vente Hotpoint."
+ },
+ "Hotpoint|F06": {
+  "title": "Défaut du verrou de porte",
+  "causes": [
+   "Quelque chose gêne le verrou de porte.",
+   "Le verrou de porte est défectueux."
+  ],
+  "steps": [
+   "Vérifiez la zone du verrou de porte et retirez les peluches ou objets.",
+   "Fermez bien la porte et réessayez."
+  ],
+  "technician": "Si la panne persiste, appelez le service après-vente Hotpoint."
+ },
+ "Hotpoint|F09": {
+  "title": "Défaut logiciel",
+  "causes": [
+   "Un problème logiciel. Plusieurs voyants peuvent clignoter et aucun programme ne peut être choisi."
+  ],
+  "steps": [
+   "Débranchez le sèche-linge quelques minutes et réessayez."
+  ],
+  "technician": "Appelez le service après-vente Hotpoint pour l'intervention d'un technicien."
+ },
+ "Hotpoint|F11": {
+  "title": "Défaut du circuit de pompe",
+  "causes": [
+   "Le circuit de la pompe est en panne, l'eau n'est donc pas évacuée."
+  ],
+  "steps": [
+   "Videz le bac à eau si votre modèle en a un.",
+   "Éteignez et débranchez le sèche-linge."
+  ],
+  "technician": "Appelez le service après-vente Hotpoint pour l'intervention d'un technicien."
+ },
+ "Hotpoint|F12": {
+  "title": "Défaut de la commande électronique",
+  "causes": [
+   "La commande électronique est défectueuse. Le sèche-linge peut ne pas s'allumer."
+  ],
+  "steps": [
+   "Vérifiez la fiche et la prise.",
+   "Débranchez le sèche-linge quelques minutes et réessayez."
+  ],
+  "technician": "Appelez le service après-vente Hotpoint pour l'intervention d'un technicien."
+ },
+ "Hotpoint|F18": {
+  "title": "Erreur de données internes",
+  "causes": [
+   "Données internes corrompues. Certaines parties de l'écran ou certaines fonctions ne marchent pas."
+  ],
+  "steps": [
+   "Débranchez le sèche-linge pendant au moins 2 minutes.",
+   "Rebranchez-le, attendez 30 secondes et réessayez."
+  ],
+  "technician": "Si F18 persiste après la réinitialisation, appelez le service après-vente Hotpoint."
+ },
+ "Indesit|F02": {
+  "title": "Défaut du circuit moteur",
+  "causes": [
+   "Un défaut dans le circuit du moteur. Le tambour ne tourne que de temps en temps, ou plus du tout."
+  ],
+  "steps": [
+   "Éteignez le sèche-linge et débranchez-le."
+  ],
+  "technician": "Appelez le service après-vente Indesit pour l'intervention d'un technicien."
+ },
+ "Indesit|F03": {
+  "title": "Défaut de mesure de la température",
+  "causes": [
+   "La sonde de température est défectueuse, le sèche-linge ne chauffe donc pas."
+  ],
+  "steps": [
+   "Éteignez le sèche-linge et débranchez-le."
+  ],
+  "technician": "Appelez le service après-vente Indesit pour l'intervention d'un technicien."
+ },
+ "Indesit|F05": {
+  "title": "Vidange bouchée ou problème de pompe",
+  "causes": [
+   "Un bouchon dans le filtre de la pompe (s'il y en a un) ou dans le tuyau de vidange.",
+   "Une pompe en panne."
+  ],
+  "steps": [
+   "Vérifiez et nettoyez le filtre de la pompe si votre modèle en a un.",
+   "Vérifiez que le tuyau de vidange et la canalisation ne sont pas bouchés."
+  ],
+  "technician": "Si tout est dégagé et que la panne persiste, appelez le service après-vente Indesit."
+ },
+ "Indesit|F06": {
+  "title": "Défaut du verrou de porte",
+  "causes": [
+   "Quelque chose gêne le verrou de porte.",
+   "Le verrou de porte est défectueux."
+  ],
+  "steps": [
+   "Vérifiez que rien ne gêne le verrou de porte.",
+   "Fermez bien la porte et réessayez."
+  ],
+  "technician": "Si la panne persiste, appelez le service après-vente Indesit."
+ },
+ "Indesit|F09": {
+  "title": "Défaut logiciel",
+  "causes": [
+   "Un problème logiciel. Plusieurs voyants peuvent clignoter et aucun programme ne peut être choisi."
+  ],
+  "steps": [
+   "Débranchez le sèche-linge quelques minutes et réessayez."
+  ],
+  "technician": "Appelez le service après-vente Indesit pour l'intervention d'un technicien."
+ },
+ "Indesit|F11": {
+  "title": "Défaut du circuit de pompe",
+  "causes": [
+   "Le circuit de la pompe est en panne, l'eau n'est donc pas évacuée."
+  ],
+  "steps": [
+   "Videz le bac à eau si votre modèle en a un.",
+   "Éteignez et débranchez le sèche-linge."
+  ],
+  "technician": "Appelez le service après-vente Indesit pour l'intervention d'un technicien."
+ },
+ "Indesit|F12": {
+  "title": "Défaut de la commande électronique",
+  "causes": [
+   "La commande électronique est défectueuse. Le sèche-linge peut ne pas s'allumer."
+  ],
+  "steps": [
+   "Vérifiez la fiche et la prise.",
+   "Débranchez le sèche-linge quelques minutes et réessayez."
+  ],
+  "technician": "Appelez le service après-vente Indesit pour l'intervention d'un technicien."
+ },
+ "Indesit|F18": {
+  "title": "Erreur de données internes",
+  "causes": [
+   "Données internes corrompues. Certaines parties de l'écran ou certaines fonctions ne marchent pas."
+  ],
+  "steps": [
+   "Débranchez le sèche-linge pendant au moins 2 minutes.",
+   "Rebranchez-le, attendez 30 secondes et réessayez."
+  ],
+  "technician": "Si F18 persiste après la réinitialisation, appelez le service après-vente Indesit."
+ },
+ "Whirlpool|AF": {
+  "title": "Flux d'air réduit",
+  "causes": [
+   "Le filtre à peluches est encrassé.",
+   "La gaine d'évacuation est bouchée, écrasée, pliée ou a trop de coudes."
+  ],
+  "steps": [
+   "Nettoyez le filtre à peluches.",
+   "Vérifiez que la gaine n'est ni bouchée, ni écrasée, ni pliée.",
+   "Touchez n'importe quelle touche pour effacer le code."
+  ],
+  "technician": "Si le code revient sans cesse avec une évacuation propre, demandez une intervention du service après-vente Whirlpool."
+ },
+ "Whirlpool|L2": {
+  "title": "Tension secteur faible ou absente",
+  "causes": [
+   "Un fusible a fondu ou un disjoncteur a sauté.",
+   "Le cordon d'alimentation n'est pas installé correctement."
+  ],
+  "steps": [
+   "Vérifiez vos fusibles et disjoncteurs (les sèche-linge électriques en utilisent deux) et réarmez-les.",
+   "Vérifiez que le cordon est installé comme indiqué dans le guide d'installation.",
+   "Lancez un cycle minuté avec chauffage et redémarrez."
+  ],
+  "technician": "Si L2 persiste, faites vérifier l'alimentation par un électricien qualifié."
+ },
+ "Whirlpool|PF": {
+  "title": "Coupure de courant",
+  "causes": [
+   "Le courant a été coupé pendant le cycle."
+  ],
+  "steps": [
+   "Maintenez Start enfoncé pour reprendre le cycle.",
+   "Ou appuyez sur Power pour effacer l'affichage."
+  ],
+  "technician": "Ce n'est pas une panne. Contactez Whirlpool uniquement si PF s'affiche sans vraie coupure de courant."
+ },
+ "Whirlpool|F1E3": {
+  "title": "Problème d'unité de commande ou de câblage",
+  "causes": [
+   "Un défaut dans l'unité de commande ou son câblage."
+  ],
+  "steps": [
+   "Appuyez sur Power, choisissez un cycle et maintenez Start enfoncé.",
+   "S'il ne démarre pas, débranchez le sèche-linge."
+  ],
+  "technician": "Si le problème persiste, demandez une intervention du service après-vente Whirlpool."
+ },
+ "Whirlpool|Loc": {
+  "title": "Verrouillage des commandes activé",
+  "causes": [
+   "Le verrouillage des commandes a été activé."
+  ],
+  "steps": [
+   "Maintenez Control Lock enfoncé 3 secondes jusqu'à la fin du compte à rebours à l'écran."
+  ],
+  "technician": "Ce n'est pas une panne. Contactez Whirlpool uniquement si le verrouillage ne se désactive pas."
+ },
+ "Whirlpool|LF": {
+  "title": "Filtre à peluches retiré",
+  "causes": [
+   "Le filtre HybridCare n'est pas dans le sèche-linge."
+  ],
+  "steps": [
+   "Remettez le filtre en place.",
+   "Vérifiez que la poignée du filtre est bien enclenchée."
+  ],
+  "technician": "Si LF reste affiché avec le filtre en place, contactez le service après-vente Whirlpool."
+ }
+}

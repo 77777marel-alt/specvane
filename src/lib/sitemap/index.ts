@@ -5,7 +5,7 @@ import { SITE_URL } from '@/lib/site'
 import { db } from '@/lib/supabase'
 import { cacheLife } from 'next/cache'
 import { getIndexableProducts, getIndexableComparisons, getCategory, getBestSpecs, getCategoryByKey } from '@/lib/catalog'
-import { APPLIANCES, errorBrands, errorCodes, hasErrors, type Appliance } from '@/lib/errors'
+import { APPLIANCES, applianceName, errorBrands, errorCodes, hasErrors, type Appliance } from '@/lib/errors'
 import { TOOLS } from '@/lib/tools'
 import { GLOSSARY_SLUGS } from '@/lib/glossary'
 
@@ -67,7 +67,7 @@ export async function entriesFor(file: string): Promise<Entry[] | null> {
     if (hasErrors(lang)) {
       errors.push({ loc: `${SITE_URL}${sectionHref(lang, 'errors')}` })
       for (const a of Object.keys(APPLIANCES) as Appliance[]) {
-        const seg = (await getCategoryByKey(lang, a))?.slug ?? a
+        const seg = (await getCategoryByKey(lang, a))?.slug ?? applianceName(lang, a).slug
         for (const b of errorBrands(a)) {
           errors.push({ loc: `${SITE_URL}${sectionHref(lang, 'errors', seg, b.slug)}` })
           for (const c of errorCodes(lang, a, b.slug)) errors.push({ loc: `${SITE_URL}${sectionHref(lang, 'errors', seg, b.slug, c.slug)}` })

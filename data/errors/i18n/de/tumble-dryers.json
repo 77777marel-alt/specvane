@@ -1,0 +1,1201 @@
+{
+ "Samsung|dC": {
+  "title": "Tür offen oder nicht erkannt",
+  "causes": [
+   "Die Tür ist nicht ganz geschlossen.",
+   "Wäsche ist in der Tür eingeklemmt.",
+   "Die Kindersicherung ist aktiv und die Tür wurde geöffnet."
+  ],
+  "steps": [
+   "Öffnen Sie die Tür und entfernen Sie eingeklemmte Wäsche am Rand.",
+   "Schließen Sie die Tür fest, bis sie einrastet.",
+   "Prüfen Sie, ob die Kindersicherung eingeschaltet ist.",
+   "Starten Sie das Programm erneut."
+  ],
+  "technician": "Bleibt der Code bei richtig geschlossener Tür, kann das Türschloss oder der Türsensor defekt sein. Wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|NC": {
+  "title": "Problem mit dem Flusensieb",
+  "causes": [
+   "Das Flusensieb fehlt, ist verstopft oder sitzt nicht richtig."
+  ],
+  "steps": [
+   "Nehmen Sie das Flusensieb heraus und reinigen Sie es.",
+   "Setzen Sie es wieder ganz ein, sodass es richtig sitzt.",
+   "Starten Sie das Programm neu."
+  ],
+  "technician": "Kommt der Code bei sauberem, richtig eingesetztem Sieb wieder, vereinbaren Sie einen Termin mit dem Samsung Kundendienst."
+ },
+ "Samsung|NC2": {
+  "title": "Problem mit der Innenabdeckung des Wärmetauschers",
+  "causes": [
+   "Die Innenabdeckung des Wärmetauschers sitzt nicht richtig."
+  ],
+  "steps": [
+   "Schalten Sie den Trockner aus.",
+   "Prüfen Sie, ob die Innenabdeckung des Wärmetauschers eingesetzt und richtig verschlossen ist.",
+   "Starten Sie das Programm neu."
+  ],
+  "technician": "Bleibt der Code nach dem erneuten Einsetzen der Abdeckung, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|5C": {
+  "title": "Problem beim Abpumpen",
+  "causes": [
+   "Der Ablaufschlauch ist geknickt, beschädigt oder eingefroren.",
+   "Der Wasserbehälter ist voll.",
+   "Die Ablaufpumpe funktioniert nicht."
+  ],
+  "steps": [
+   "Leeren Sie den Wasserbehälter und setzen Sie ihn wieder ein.",
+   "Prüfen Sie, ob der Ablaufschlauch geknickt oder beschädigt ist.",
+   "Ist der Schlauch eingefroren, wickeln Sie ihn etwa 10 Minuten in ein mit warmem Wasser getränktes Handtuch.",
+   "Schalten Sie den Trockner ein und starten Sie das Programm neu."
+  ],
+  "technician": "Ist der Behälter leer und der Schlauch frei, der Code kommt aber wieder, kann die Pumpe defekt sein. Rufen Sie den Samsung Kundendienst."
+ },
+ "Samsung|tC": {
+  "title": "Problem mit dem Lufttemperatursensor",
+  "causes": [
+   "Flusensieb oder Wärmetauscher ist verstopft.",
+   "Abluft oder Luftweg ist behindert.",
+   "Der Temperatursensor ist defekt."
+  ],
+  "steps": [
+   "Reinigen Sie das Flusensieb.",
+   "Reinigen Sie den Wärmetauscher, falls Ihr Modell einen hat.",
+   "Prüfen Sie Abluftöffnung und Abluftschlauch auf Verstopfungen.",
+   "Starten Sie das Programm neu."
+  ],
+  "technician": "Hilft die Reinigung nicht, muss der Sensor eventuell ersetzt werden. Wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|tC5": {
+  "title": "Problem mit dem Kompressor-Temperatursensor",
+  "causes": [
+   "Das Flusensieb ist verstopft.",
+   "Der Luftstrom durch das Abluftsystem ist behindert."
+  ],
+  "steps": [
+   "Warten Sie 2 bis 3 Minuten und schalten Sie den Trockner wieder ein.",
+   "Reinigen Sie das Flusensieb.",
+   "Prüfen Sie das Abluftsystem auf Verstopfungen.",
+   "Starten Sie das Programm neu."
+  ],
+  "technician": "Kommt der Code immer wieder, muss der Samsung Kundendienst das Wärmepumpensystem prüfen."
+ },
+ "Samsung|3C": {
+  "title": "Problem mit dem Motor",
+  "causes": [
+   "Der Inverter-Motor ist nicht wie erwartet gelaufen."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Trommel nicht überladen ist.",
+   "Starten Sie das Programm neu.",
+   "Ziehen Sie den Netzstecker für mindestens 30 Sekunden, stecken Sie ihn wieder ein und versuchen Sie es erneut."
+  ],
+  "technician": "Kommt der Code wieder, muss ein Techniker den Motor oder seine Steuerung prüfen. Wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|AC": {
+  "title": "Elektronischer Kommunikationsfehler",
+  "causes": [
+   "Interne Steuerteile kommunizieren nicht miteinander."
+  ],
+  "steps": [
+   "Schalten Sie den Trockner für 60 Sekunden aus.",
+   "Schalten Sie ihn wieder ein und starten Sie das Programm neu."
+  ],
+  "technician": "Kommt der Code wieder, müssen die Steuerplatinen geprüft werden. Fordern Sie den Samsung Kundendienst an."
+ },
+ "Samsung|AC6": {
+  "title": "Keine Kommunikation zwischen Hauptplatine und Inverterplatine",
+  "causes": [
+   "Hauptplatine und Inverterplatine haben die Verbindung verloren."
+  ],
+  "steps": [
+   "Starten Sie das Programm neu.",
+   "Ziehen Sie den Netzstecker für mindestens 30 Sekunden, stecken Sie ihn wieder ein und versuchen Sie es erneut."
+  ],
+  "technician": "Bleibt der Code, muss ein Techniker Platinen und Verkabelung prüfen. Wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|HC": {
+  "title": "Überhitzung oder Heizproblem",
+  "causes": [
+   "Flusensieb oder Abluft ist verstopft, der Trockner wird zu heiß.",
+   "Bei Elektromodellen: ausgelöste Sicherung oder zu niedrige Spannung."
+  ],
+  "steps": [
+   "Reinigen Sie das Flusensieb.",
+   "Prüfen Sie die Abluft auf Verstopfungen.",
+   "Prüfen Sie die Sicherungen im Haus und schalten Sie ausgelöste wieder ein.",
+   "Starten Sie das Programm neu."
+  ],
+  "technician": "Bleibt der Code, lassen Sie die Stromversorgung von einer Elektrofachkraft prüfen und vereinbaren Sie einen Termin mit dem Samsung Kundendienst für die Heizung."
+ },
+ "Samsung|FC": {
+  "title": "Falsche Netzfrequenz",
+  "causes": [
+   "Die Netzfrequenz passt nicht zu dem, was der Trockner erwartet."
+  ],
+  "steps": [
+   "Starten Sie das Programm neu.",
+   "Achten Sie darauf, dass der Trockner direkt an einer Wandsteckdose angeschlossen ist."
+  ],
+  "technician": "Bleibt der Code, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|9C1": {
+  "title": "Problem mit der Stromversorgung",
+  "causes": [
+   "Die Stromversorgung ist nicht korrekt.",
+   "Der Stecker ist locker oder nicht ganz eingesteckt.",
+   "Es wird ein Verlängerungskabel verwendet."
+  ],
+  "steps": [
+   "Prüfen Sie, ob der Stecker ganz in der Steckdose steckt.",
+   "Schließen Sie den Trockner ohne Verlängerungskabel direkt an eine Wandsteckdose mit eigenem Stromkreis an.",
+   "Starten Sie das Programm neu."
+  ],
+  "technician": "Ist die Stromversorgung in Ordnung und der Code kommt wieder, fordern Sie den Samsung Kundendienst an."
+ },
+ "Samsung|dF": {
+  "title": "Fehler am Türschalter",
+  "causes": [
+   "Der Tür- oder Verriegelungsschalter oder seine Verkabelung ist defekt."
+  ],
+  "steps": [
+   "Schließen Sie die Tür fest und versuchen Sie es erneut.",
+   "Ziehen Sie den Netzstecker für mindestens 30 Sekunden, stecken Sie ihn wieder ein und versuchen Sie es erneut."
+  ],
+  "technician": "Der Türschalter muss eventuell ersetzt werden. Wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|bE": {
+  "title": "Taste klemmt",
+  "causes": [
+   "Eine Taste am Bedienfeld klemmt oder wird gedrückt gehalten."
+  ],
+  "steps": [
+   "Schalten Sie den Trockner aus.",
+   "Drücken Sie jede Taste einmal und lassen Sie sie los, auch an den Rändern, um eine klemmende Taste zu lösen.",
+   "Schalten Sie ein und versuchen Sie es erneut."
+  ],
+  "technician": "Ist eine Taste beschädigt oder kommt der Code wieder, fordern Sie den Samsung Kundendienst an."
+ },
+ "Samsung|Clg": {
+  "title": "Abluft verstopft (Ergebnis des Abluft-Tests)",
+  "causes": [
+   "Die Abluftleitung ist durch Flusen oder Schmutz verstopft."
+  ],
+  "steps": [
+   "Reinigen Sie das Flusensieb.",
+   "Reinigen Sie Abluftöffnung und Abluftschlauch.",
+   "Führen Sie den Abluft-Test erneut durch."
+  ],
+  "technician": "Ist die Abluft sauber und das Ergebnis bleibt gleich, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|dn": {
+  "title": "Software-Download läuft",
+  "causes": [
+   "Der Trockner installiert ein Firmware-Update."
+  ],
+  "steps": [
+   "Ziehen Sie nicht den Netzstecker und schalten Sie den Strom nicht ab.",
+   "Warten Sie. Der Trockner startet nach dem Update von selbst neu."
+  ],
+  "technician": "Wird dn nach 24 Stunden noch angezeigt, fordern Sie den Samsung Kundendienst an."
+ },
+ "Samsung|CL": {
+  "title": "Kindersicherung ist aktiv",
+  "causes": [
+   "Die Kindersicherung ist eingeschaltet, die Tasten sind gesperrt."
+  ],
+  "steps": [
+   "Schalten Sie die Kindersicherung mit der Tastenkombination aus Ihrer Bedienungsanleitung aus."
+  ],
+  "technician": "Das ist kein Fehler. Wenden Sie sich nur an Samsung, wenn sich die Kindersicherung nicht ausschalten lässt."
+ },
+ "Samsung|HC2": {
+  "title": "Fehler bei der Gaszündung",
+  "causes": [
+   "Der Gastrockner konnte nicht zünden."
+  ],
+  "steps": [
+   "Schalten Sie den Trockner für 2 bis 3 Minuten aus.",
+   "Schalten Sie ihn ein und starten Sie das Programm neu."
+  ],
+  "technician": "Kommt der Code wieder, benutzen Sie den Trockner nicht mehr und rufen Sie den Samsung Kundendienst. Arbeiten Sie nicht selbst an Gasteilen."
+ },
+ "LG|OE": {
+  "title": "Problem beim Abpumpen",
+  "causes": [
+   "Der Ablaufschlauch ist verdreht, geknickt oder verstopft.",
+   "Das Schlauchende liegt zu hoch oder im Wasser."
+  ],
+  "steps": [
+   "Legen Sie den Ablaufschlauch gerade.",
+   "Der höchste Punkt des Schlauchs sollte nicht höher als 1 m über dem Boden liegen.",
+   "Achten Sie darauf, dass das Schlauchende nicht im Wasser liegt.",
+   "Starten Sie den Trockner neu."
+  ],
+  "technician": "Kommt der Code bei freiem, richtig verlegtem Schlauch wieder, wenden Sie sich an den LG Kundendienst."
+ },
+ "LG|d80": {
+  "title": "Abluftstrom behindert (zu etwa 80 % blockiert)",
+  "causes": [
+   "Das Flusensieb ist verstopft.",
+   "Der Abluftschlauch ist gequetscht, geknickt oder zu lang.",
+   "Die Außenklappe der Abluft ist blockiert."
+  ],
+  "steps": [
+   "Reinigen Sie das Flusensieb und spülen Sie es bei Bedarf mit warmem Wasser aus.",
+   "Prüfen Sie den Schlauch hinter dem Trockner auf Knicke oder Quetschungen.",
+   "Achten Sie darauf, dass sich die Außenklappe ganz öffnet, und entfernen Sie Flusen rundherum.",
+   "Trocknen Sie kleinere Mengen, bis die Leitung frei ist."
+  ],
+  "technician": "Bleibt der Code nach der Reinigung, beauftragen Sie einen Abluftreiniger oder wenden Sie sich an den LG Kundendienst."
+ },
+ "LG|d90": {
+  "title": "Abluftstrom behindert (zu etwa 90 % blockiert)",
+  "causes": [
+   "Das Flusensieb ist verstopft.",
+   "Der Abluftschlauch ist gequetscht, geknickt oder zu lang.",
+   "Die Außenklappe der Abluft ist blockiert."
+  ],
+  "steps": [
+   "Reinigen Sie das Flusensieb und spülen Sie es bei Bedarf mit warmem Wasser aus.",
+   "Prüfen Sie den Schlauch hinter dem Trockner auf Knicke oder Quetschungen.",
+   "Achten Sie darauf, dass sich die Außenklappe ganz öffnet, und entfernen Sie Flusen rundherum.",
+   "Trocknen Sie kleinere Mengen, bis die Leitung frei ist."
+  ],
+  "technician": "Bleibt der Code nach der Reinigung, beauftragen Sie einen Abluftreiniger oder wenden Sie sich an den LG Kundendienst."
+ },
+ "LG|d95": {
+  "title": "Abluftstrom behindert (zu etwa 95 % blockiert)",
+  "causes": [
+   "Das Flusensieb ist verstopft.",
+   "Der Abluftschlauch ist gequetscht, geknickt oder zu lang.",
+   "Die Außenklappe der Abluft ist blockiert."
+  ],
+  "steps": [
+   "Reinigen Sie das Flusensieb und spülen Sie es bei Bedarf mit warmem Wasser aus.",
+   "Prüfen Sie den Schlauch hinter dem Trockner auf Knicke oder Quetschungen.",
+   "Achten Sie darauf, dass sich die Außenklappe ganz öffnet, und entfernen Sie Flusen rundherum.",
+   "Trocknen Sie kleinere Mengen, bis die Leitung frei ist."
+  ],
+  "technician": "Bleibt der Code nach der Reinigung, beauftragen Sie einen Abluftreiniger oder wenden Sie sich an den LG Kundendienst."
+ },
+ "LG|FO": {
+  "title": "Flusensieb nicht eingesetzt",
+  "causes": [
+   "Das Flusensieb ist nicht richtig eingesetzt."
+  ],
+  "steps": [
+   "Nehmen Sie das Flusensieb heraus.",
+   "Schieben Sie es wieder in die Halterung, bis es ganz sitzt.",
+   "Starten Sie den Trockner neu."
+  ],
+  "technician": "Bleibt FO bei richtig eingesetztem Sieb, muss der Sensor eventuell vom LG Kundendienst repariert werden."
+ },
+ "LG|IF": {
+  "title": "Inneres Flusensieb nicht erkannt",
+  "causes": [
+   "Der Magnet im inneren Flusensieb fehlt oder sitzt falsch.",
+   "Die Magnethalterung ist beschädigt."
+  ],
+  "steps": [
+   "Nehmen Sie das innere Flusensieb heraus und prüfen Sie, ob der Magnet an seinem Platz ist.",
+   "Setzen Sie das Sieb richtig wieder ein.",
+   "Ist der Magnet verloren oder die Halterung gebrochen, kaufen Sie ein neues Sieb."
+  ],
+  "technician": "Bleibt der Fehler mit einem einwandfreien Sieb, fordern Sie den LG Kundendienst an."
+ },
+ "LG|nP": {
+  "title": "Keine Stromversorgung zur Heizung",
+  "causes": [
+   "Die Steckdose liefert nicht die richtige Spannung.",
+   "Eine Sicherung hat ausgelöst."
+  ],
+  "steps": [
+   "Schalten Sie die Sicherung des Trockners für mindestens 10 Sekunden aus und dann wieder ein.",
+   "Starten Sie den Trockner neu."
+  ],
+  "technician": "Heizt er immer noch nicht, lassen Sie die Steckdose von einer Elektrofachkraft prüfen und wenden Sie sich dann an den LG Kundendienst."
+ },
+ "LG|PS": {
+  "title": "Problem mit der Stromversorgung",
+  "causes": [
+   "Das Netzkabel ist locker oder die Steckdose ist nicht wie vorgeschrieben angeschlossen."
+  ],
+  "steps": [
+   "Schalten Sie die Sicherung des Trockners für mindestens 10 Sekunden aus und wieder ein.",
+   "Prüfen Sie, ob der Stecker fest in einer passend abgesicherten, geerdeten Steckdose steckt.",
+   "Starten Sie den Trockner neu."
+  ],
+  "technician": "Heizt der Trockner immer noch nicht, fordern Sie eine Reparatur bei LG an."
+ },
+ "LG|gAS": {
+  "title": "Problem mit der Gasversorgung",
+  "causes": [
+   "Das Gasventil ist geschlossen.",
+   "Die Gasleitung ist geknickt."
+  ],
+  "steps": [
+   "Prüfen Sie, ob das Gasventil geöffnet ist.",
+   "Prüfen Sie, ob die Gasleitung geknickt ist."
+  ],
+  "technician": "Ist die Gasversorgung in Ordnung und der Code kommt wieder, rufen Sie den LG Kundendienst. Reparieren Sie Gasteile nicht selbst."
+ },
+ "LG|CL": {
+  "title": "Kindersicherung ist aktiv",
+  "causes": [
+   "Die Kindersicherung wurde eingeschaltet und bleibt auch nach dem Ausschalten aktiv."
+  ],
+  "steps": [
+   "Schalten Sie den Trockner ein.",
+   "Halten Sie die Taste Child Lock (Kindersicherung) 3 bis 5 Sekunden gedrückt, bis CL verschwindet."
+  ],
+  "technician": "Das ist kein Fehler. Wenden Sie sich nur an LG, wenn sich die Kindersicherung nicht ausschalten lässt."
+ },
+ "LG|Add": {
+  "title": "Wasser für Dampf nachfüllen",
+  "causes": [
+   "Der Dampfbehälter ist während eines Dampfprogramms leer."
+  ],
+  "steps": [
+   "Unterbrechen Sie das Programm.",
+   "Füllen Sie den Dampfbehälter mit Leitungswasser bis zur MAX-Markierung.",
+   "Schalten Sie den Trockner aus und wieder ein, wählen Sie das Dampfprogramm und drücken Sie Start."
+  ],
+  "technician": "Bleibt die Meldung nach dem Auffüllen, wenden Sie sich an den LG Kundendienst."
+ },
+ "LG|E13": {
+  "title": "Problem beim Abpumpen (Kondenswasser)",
+  "causes": [
+   "Der Ablaufschlauch ist geknickt, verdreht oder verstopft.",
+   "Eine Schlauchverlängerung verschlechtert den Ablauf."
+  ],
+  "steps": [
+   "Prüfen Sie den Ablaufschlauch auf Knicke und Verstopfungen.",
+   "Verwenden Sie nur den originalen LG Ablaufschlauch ohne Verlängerung.",
+   "Drücken Sie Start/Pause, um neu zu starten."
+  ],
+  "technician": "Kommt E13 wieder, muss der Trockner vom LG Kundendienst repariert werden."
+ },
+ "Bosch|E01": {
+  "title": "Flusensieb verstopft",
+  "causes": [
+   "Am Sieb haben sich Flusen gesammelt.",
+   "Weichspülerreste verstopfen das Gewebe."
+  ],
+  "steps": [
+   "Nehmen Sie das Flusensieb heraus und leeren Sie es.",
+   "Spülen Sie das Sieb unter warmem Wasser ab, um Rückstände zu entfernen.",
+   "Lassen Sie es trocknen und setzen Sie es wieder ein.",
+   "Reinigen Sie das Sieb nach jedem Programm."
+  ],
+  "technician": "Bleibt der Code bei sauberem Sieb, vereinbaren Sie einen Termin mit dem Bosch Kundendienst."
+ },
+ "Bosch|E02": {
+  "title": "Flusensieb verstopft oder Fehler am Steuerrelais",
+  "causes": [
+   "Das Flusensieb ist verstopft.",
+   "Bei manchen Modellen: Fehler an einem Relais der Hauptplatine."
+  ],
+  "steps": [
+   "Reinigen Sie das Flusensieb und spülen Sie es mit warmem Wasser aus.",
+   "Trennen Sie das Gerät für 30 Sekunden vom Strom (Stecker oder Sicherung) und starten Sie neu."
+  ],
+  "technician": "Kommt der Code nach Reinigung und Neustart wieder, wenden Sie sich an den Bosch Kundendienst."
+ },
+ "Bosch|E03": {
+  "title": "Kondenswasser-Ablaufschlauch verstopft",
+  "causes": [
+   "Der Kondenswasser-Ablaufschlauch ist geknickt oder verstopft."
+  ],
+  "steps": [
+   "Prüfen Sie, ob der Ablaufschlauch Knicke hat.",
+   "Lösen Sie den Schlauch vorsichtig vom Siphon und reinigen Sie Schlauch und Anschluss.",
+   "Befestigen Sie den Schlauch wieder sicher."
+  ],
+  "technician": "Kommt der Code bei freiem Schlauch wieder, beauftragen Sie einen Bosch Techniker."
+ },
+ "Bosch|E04": {
+  "title": "Trockner überladen",
+  "causes": [
+   "Zu viel Wäsche in der Trommel."
+  ],
+  "steps": [
+   "Nehmen Sie etwas Wäsche heraus.",
+   "Lassen Sie über der Wäsche etwa eine Handbreit Platz.",
+   "Starten Sie das Programm neu."
+  ],
+  "technician": "Erscheint der Code bei normaler Beladung, wenden Sie sich an den Bosch Kundendienst."
+ },
+ "Bosch|E06": {
+  "title": "Fehler im Heizkreis",
+  "causes": [
+   "Ein Fehler im Heizkreis."
+  ],
+  "steps": [
+   "Schalten Sie den Trockner aus und ziehen Sie den Netzstecker.",
+   "Versuchen Sie nicht, ihn selbst zu reparieren."
+  ],
+  "technician": "Hierfür ist eine Fachkraft nötig. Wenden Sie sich an den Bosch Kundendienst."
+ },
+ "Bosch|E08": {
+  "title": "Fehler in der Elektronik",
+  "causes": [
+   "Ein interner Elektronikfehler."
+  ],
+  "steps": [
+   "Schalten Sie den Trockner aus.",
+   "Ziehen Sie den Netzstecker oder schalten Sie die Sicherung für einige Minuten aus und schließen Sie das Gerät dann wieder an.",
+   "Kommt der Code wieder, benutzen Sie den Trockner nicht mehr."
+  ],
+  "technician": "Das kann nur ein autorisierter Techniker beheben. Wenden Sie sich an den Bosch Kundendienst."
+ },
+ "Bosch|E09": {
+  "title": "Fehler in der Elektronik",
+  "causes": [
+   "Ein interner Elektronikfehler."
+  ],
+  "steps": [
+   "Schalten Sie den Trockner aus.",
+   "Ziehen Sie den Netzstecker oder schalten Sie die Sicherung für einige Minuten aus und schließen Sie das Gerät dann wieder an.",
+   "Kommt der Code wieder, benutzen Sie den Trockner nicht mehr."
+  ],
+  "technician": "Das kann nur ein autorisierter Techniker beheben. Wenden Sie sich an den Bosch Kundendienst."
+ },
+ "Bosch|E24": {
+  "title": "Fehler in der Elektronik",
+  "causes": [
+   "Ein interner Elektronikfehler."
+  ],
+  "steps": [
+   "Schalten Sie den Trockner aus.",
+   "Ziehen Sie den Netzstecker oder schalten Sie die Sicherung für einige Minuten aus und schließen Sie das Gerät dann wieder an.",
+   "Kommt der Code wieder, benutzen Sie den Trockner nicht mehr."
+  ],
+  "technician": "Das kann nur ein autorisierter Techniker beheben. Wenden Sie sich an den Bosch Kundendienst."
+ },
+ "Bosch|E25": {
+  "title": "Fehler in der Elektronik",
+  "causes": [
+   "Ein interner Elektronikfehler."
+  ],
+  "steps": [
+   "Schalten Sie den Trockner aus.",
+   "Ziehen Sie den Netzstecker oder schalten Sie die Sicherung für einige Minuten aus und schließen Sie das Gerät dann wieder an.",
+   "Kommt der Code wieder, benutzen Sie den Trockner nicht mehr."
+  ],
+  "technician": "Das kann nur ein autorisierter Techniker beheben. Wenden Sie sich an den Bosch Kundendienst."
+ },
+ "Bosch|E28": {
+  "title": "Fehler in der Elektronik",
+  "causes": [
+   "Ein interner Elektronikfehler."
+  ],
+  "steps": [
+   "Schalten Sie den Trockner aus.",
+   "Ziehen Sie den Netzstecker oder schalten Sie die Sicherung für einige Minuten aus und schließen Sie das Gerät dann wieder an.",
+   "Kommt der Code wieder, benutzen Sie den Trockner nicht mehr."
+  ],
+  "technician": "Das kann nur ein autorisierter Techniker beheben. Wenden Sie sich an den Bosch Kundendienst."
+ },
+ "Bosch|E36": {
+  "title": "Fehler in der Elektronik",
+  "causes": [
+   "Ein interner Elektronikfehler."
+  ],
+  "steps": [
+   "Schalten Sie den Trockner aus.",
+   "Ziehen Sie den Netzstecker oder schalten Sie die Sicherung für einige Minuten aus und schließen Sie das Gerät dann wieder an.",
+   "Kommt der Code wieder, benutzen Sie den Trockner nicht mehr."
+  ],
+  "technician": "Das kann nur ein autorisierter Techniker beheben. Wenden Sie sich an den Bosch Kundendienst."
+ },
+ "Bosch|E90": {
+  "title": "Fehler in der Elektronik",
+  "causes": [
+   "Ein interner Elektronikfehler."
+  ],
+  "steps": [
+   "Schalten Sie den Trockner aus.",
+   "Ziehen Sie den Netzstecker oder schalten Sie die Sicherung für einige Minuten aus und schließen Sie das Gerät dann wieder an.",
+   "Kommt der Code wieder, benutzen Sie den Trockner nicht mehr."
+  ],
+  "technician": "Das kann nur ein autorisierter Techniker beheben. Wenden Sie sich an den Bosch Kundendienst."
+ },
+ "Bosch|E12": {
+  "title": "Überhitzung oder Kalk in der Wärmepumpe",
+  "causes": [
+   "Der Luftstrom ist behindert und der Trockner überhitzt.",
+   "Bei manchen Modellen: Kalkablagerungen in der Wärmepumpe."
+  ],
+  "steps": [
+   "Reinigen Sie das Flusensieb.",
+   "Prüfen Sie, ob die Abluft außen nicht blockiert, geknickt oder gequetscht ist.",
+   "Starten Sie das Programm neu."
+  ],
+  "technician": "Kommt der Code immer wieder, vereinbaren Sie einen Termin mit dem Bosch Kundendienst."
+ },
+ "Bosch|E16": {
+  "title": "Tür während des Trocknens geöffnet",
+  "causes": [
+   "Die Tür wurde während eines laufenden Programms geöffnet."
+  ],
+  "steps": [
+   "Schließen Sie die Tür fest.",
+   "Drücken Sie Start, um das Programm fortzusetzen.",
+   "Nutzen Sie bei Bedarf die Kindersicherung, damit die Tür nicht geöffnet wird."
+  ],
+  "technician": "Erscheint E16 bei geschlossener Tür, kann der Türschalter defekt sein. Beauftragen Sie einen Bosch Techniker."
+ },
+ "Bosch|E56": {
+  "title": "Problem mit dem Feuchtigkeitssensor",
+  "causes": [
+   "Rückstände oder Flusen auf den Sensorstreifen in der Trommel."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker.",
+   "Wischen Sie den Feuchtigkeitssensor beim Flusensieb mit einem weichen Tuch und mildem Reiniger ab.",
+   "Entfernen Sie alle Rückstände und starten Sie dann neu."
+  ],
+  "technician": "Bleibt der Code nach der Reinigung, wenden Sie sich an den Bosch Kundendienst."
+ },
+ "Bosch|DR": {
+  "title": "Tür nicht richtig geschlossen",
+  "causes": [
+   "Die Tür ist nicht ganz geschlossen.",
+   "Etwas blockiert die Tür."
+  ],
+  "steps": [
+   "Entfernen Sie alles, was in der Tür eingeklemmt ist.",
+   "Schließen Sie die Tür fest, bis sie einrastet.",
+   "Starten Sie das Programm neu."
+  ],
+  "technician": "Bleibt der Code, muss der Bosch Kundendienst Türschloss oder Türschalter prüfen."
+ },
+ "Bosch|CrE": {
+  "title": "Pflegehinweis",
+  "causes": [
+   "Der Trockner erinnert Sie an sein Pflegeprogramm. Das ist kein Fehler."
+  ],
+  "steps": [
+   "Führen Sie das in der Bedienungsanleitung beschriebene Pflegeprogramm durch."
+  ],
+  "technician": "Nicht nötig, außer der Hinweis verschwindet nach dem Pflegeprogramm nicht."
+ },
+ "Miele|F1": {
+  "title": "Kurzschluss am Kältemittel-Temperatursensor",
+  "causes": [
+   "Der Kältemittel-Temperatursensor hat einen Kurzschluss."
+  ],
+  "steps": [
+   "Notieren Sie den Fehlercode.",
+   "Schalten Sie den Trockner aus und benutzen Sie ihn nicht weiter.",
+   "Vereinbaren Sie eine Reparatur bei Miele."
+  ],
+  "technician": "Diesen technischen Fehler können Sie nicht selbst beheben. Beauftragen Sie einen Miele Techniker."
+ },
+ "Miele|F2": {
+  "title": "Unterbrechung am Kältemittel-Temperatursensor",
+  "causes": [
+   "Der Stromkreis zum Kältemittel-Temperatursensor ist unterbrochen."
+  ],
+  "steps": [
+   "Notieren Sie den Fehlercode.",
+   "Schalten Sie den Trockner aus und benutzen Sie ihn nicht weiter.",
+   "Vereinbaren Sie eine Reparatur bei Miele."
+  ],
+  "technician": "Diesen technischen Fehler können Sie nicht selbst beheben. Beauftragen Sie einen Miele Techniker."
+ },
+ "Miele|F3": {
+  "title": "Kurzschluss am Trocknungsluft-Temperatursensor",
+  "causes": [
+   "Der Trocknungsluft-Temperatursensor hat einen Kurzschluss."
+  ],
+  "steps": [
+   "Notieren Sie den Fehlercode.",
+   "Schalten Sie den Trockner aus und benutzen Sie ihn nicht weiter.",
+   "Vereinbaren Sie eine Reparatur bei Miele."
+  ],
+  "technician": "Diesen technischen Fehler können Sie nicht selbst beheben. Beauftragen Sie einen Miele Techniker."
+ },
+ "Miele|F4": {
+  "title": "Unterbrechung am Trocknungsluft-Temperatursensor",
+  "causes": [
+   "Der Stromkreis zum Trocknungsluft-Temperatursensor ist unterbrochen."
+  ],
+  "steps": [
+   "Notieren Sie den Fehlercode.",
+   "Schalten Sie den Trockner aus und benutzen Sie ihn nicht weiter.",
+   "Vereinbaren Sie eine Reparatur bei Miele."
+  ],
+  "technician": "Diesen technischen Fehler können Sie nicht selbst beheben. Beauftragen Sie einen Miele Techniker."
+ },
+ "Miele|F30": {
+  "title": "Türsignale stimmen nicht überein",
+  "causes": [
+   "Tür und Türkontakt melden unterschiedliche Zustände."
+  ],
+  "steps": [
+   "Notieren Sie den Fehlercode.",
+   "Schalten Sie den Trockner aus und benutzen Sie ihn nicht weiter.",
+   "Vereinbaren Sie eine Reparatur bei Miele."
+  ],
+  "technician": "Diesen technischen Fehler können Sie nicht selbst beheben. Beauftragen Sie einen Miele Techniker."
+ },
+ "Miele|F39": {
+  "title": "Fehler im Elektronikmodul",
+  "causes": [
+   "Das Elektronikmodul hat einen Fehler."
+  ],
+  "steps": [
+   "Notieren Sie den Fehlercode.",
+   "Schalten Sie den Trockner aus und benutzen Sie ihn nicht weiter.",
+   "Vereinbaren Sie eine Reparatur bei Miele."
+  ],
+  "technician": "Diesen technischen Fehler können Sie nicht selbst beheben. Beauftragen Sie einen Miele Techniker."
+ },
+ "Miele|F43": {
+  "title": "Gerätetyp nicht programmiert",
+  "causes": [
+   "Der Gerätetyp fehlt oder in der Elektronik ist die falsche Variante eingestellt."
+  ],
+  "steps": [
+   "Notieren Sie den Fehlercode.",
+   "Schalten Sie den Trockner aus und benutzen Sie ihn nicht weiter.",
+   "Vereinbaren Sie eine Reparatur bei Miele."
+  ],
+  "technician": "Diesen technischen Fehler können Sie nicht selbst beheben. Beauftragen Sie einen Miele Techniker."
+ },
+ "Miele|F45": {
+  "title": "Fehler im Elektronikmodul",
+  "causes": [
+   "Das Elektronikmodul hat einen Fehler."
+  ],
+  "steps": [
+   "Notieren Sie den Fehlercode.",
+   "Schalten Sie den Trockner aus und benutzen Sie ihn nicht weiter.",
+   "Vereinbaren Sie eine Reparatur bei Miele."
+  ],
+  "technician": "Diesen technischen Fehler können Sie nicht selbst beheben. Beauftragen Sie einen Miele Techniker."
+ },
+ "Miele|F53": {
+  "title": "Fehler am Antriebsmotor oder in der Elektronik",
+  "causes": [
+   "Der Antriebsmotor ist defekt.",
+   "Das Elektronikmodul hat einen Fehler."
+  ],
+  "steps": [
+   "Notieren Sie den Fehlercode.",
+   "Schalten Sie den Trockner aus und benutzen Sie ihn nicht weiter.",
+   "Vereinbaren Sie eine Reparatur bei Miele."
+  ],
+  "technician": "Diesen technischen Fehler können Sie nicht selbst beheben. Beauftragen Sie einen Miele Techniker."
+ },
+ "Miele|F99": {
+  "title": "Technischer Fehler, Trockner gesperrt",
+  "causes": [
+   "Ein technischer Fehler hat den Trockner gesperrt."
+  ],
+  "steps": [
+   "Notieren Sie den Fehlercode.",
+   "Schalten Sie den Trockner aus und benutzen Sie ihn nicht weiter.",
+   "Vereinbaren Sie eine Reparatur bei Miele."
+  ],
+  "technician": "Diesen technischen Fehler können Sie nicht selbst beheben. Beauftragen Sie einen Miele Techniker."
+ },
+ "Miele|F156": {
+  "title": "Kurzschluss am Kältemittelsensor nach dem Kondensator",
+  "causes": [
+   "Der Kältemittel-Temperatursensor nach dem Kondensator hat einen Kurzschluss."
+  ],
+  "steps": [
+   "Notieren Sie den Fehlercode.",
+   "Schalten Sie den Trockner aus und benutzen Sie ihn nicht weiter.",
+   "Vereinbaren Sie eine Reparatur bei Miele."
+  ],
+  "technician": "Diesen technischen Fehler können Sie nicht selbst beheben. Beauftragen Sie einen Miele Techniker."
+ },
+ "Miele|F206": {
+  "title": "Kurzschluss am Kältemittelsensor nach dem Kompressor",
+  "causes": [
+   "Der Kältemittel-Temperatursensor nach dem Kompressor hat einen Kurzschluss."
+  ],
+  "steps": [
+   "Notieren Sie den Fehlercode.",
+   "Schalten Sie den Trockner aus und benutzen Sie ihn nicht weiter.",
+   "Vereinbaren Sie eine Reparatur bei Miele."
+  ],
+  "technician": "Diesen technischen Fehler können Sie nicht selbst beheben. Beauftragen Sie einen Miele Techniker."
+ },
+ "Miele|F50": {
+  "title": "Überladung oder Softwarefehler",
+  "causes": [
+   "Die Trommel ist überladen.",
+   "Ein Softwarefehler, oft kurz nachdem die Tür zum Nachlegen geöffnet wurde.",
+   "Ein technischer Fehler."
+  ],
+  "steps": [
+   "Nehmen Sie etwas Wäsche heraus, damit die Menge zur Programmgrenze passt.",
+   "Schalten Sie den Trockner aus und sofort wieder ein.",
+   "Starten Sie das Programm neu."
+  ],
+  "technician": "Kommt F50 immer wieder, wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|F55": {
+  "title": "Wäsche nach maximaler Zeit nicht trocken",
+  "causes": [
+   "Die Trommel ist überladen.",
+   "Die Wäsche wurde in der Waschmaschine nicht stark genug geschleudert.",
+   "Die Flusensiebe sind verschmutzt."
+  ],
+  "steps": [
+   "Reduzieren Sie die Beladung auf das Programm-Maximum.",
+   "Schleudern Sie die Wäsche vor dem Trocknen mit der höchsten geeigneten Drehzahl.",
+   "Reinigen Sie alle Flusensiebe und lassen Sie sie vor dem Einsetzen ganz trocknen.",
+   "Starten Sie das Programm erneut."
+  ],
+  "technician": "Bleibt der Fehler bei sauberen Sieben und normaler Beladung, wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|F66": {
+  "title": "Luftstrom blockiert (Siebe oder Belüftung)",
+  "causes": [
+   "Flusensiebe oder Sockelfilter sind verschmutzt.",
+   "Der Sockelfilter ist verkrustet, beschädigt oder verformt.",
+   "Die Trommel ist überladen.",
+   "Das Lüftungsgitter ist blockiert oder der Raum schlecht belüftet."
+  ],
+  "steps": [
+   "Reinigen Sie die Flusensiebe und den Sockelfilter und drücken Sie den Sockelfilter trocken aus.",
+   "Saugen Sie Flusen vorsichtig vom Wärmetauscher ab, ohne auf die Lamellen zu drücken.",
+   "Machen Sie das Lüftungsgitter unter der Tür frei.",
+   "Reduzieren Sie die Beladung und lüften Sie den Raum während des Trocknens.",
+   "Ersetzen Sie einen beschädigten Sockelfilter."
+  ],
+  "technician": "Bleibt F66 nach gründlicher Reinigung, wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|noC": {
+  "title": "Keine WLAN-Verbindung",
+  "causes": [
+   "Miele@home ist nicht eingerichtet.",
+   "Der Trockner erreicht Ihr WLAN nicht."
+  ],
+  "steps": [
+   "Richten Sie Miele@home ein, falls noch nicht geschehen.",
+   "Prüfen Sie, ob das WLAN eingeschaltet ist, und starten Sie den Router neu.",
+   "Verbessern Sie ein schwaches Signal mit einem Repeater.",
+   "Setzen Sie das WLAN des Trockners zurück und verbinden Sie ihn neu."
+  ],
+  "technician": "Das ist eine Verbindungsmeldung, kein Trocknerfehler. Wenden Sie sich an Miele, wenn die Verbindung nach diesen Schritten nicht klappt."
+ },
+ "AEG|E50": {
+  "title": "Motor überlastet",
+  "causes": [
+   "Die Trommel ist überladen.",
+   "Wäsche ist in der Trommel eingeklemmt.",
+   "Ein Fehler an Motor oder Antrieb."
+  ],
+  "steps": [
+   "Öffnen Sie die Tür und prüfen Sie auf eingeklemmte Teile.",
+   "Nehmen Sie etwas Wäsche heraus, wenn die Beladung zu groß ist.",
+   "Schließen Sie die Tür und starten Sie neu.",
+   "Bleibt der Fehler, trennen Sie das Gerät etwa 1 Minute vom Strom und starten Sie dann neu."
+  ],
+  "technician": "Kommt E50 immer wieder oder dreht sich die Trommel nicht, vereinbaren Sie eine Reparatur bei AEG."
+ },
+ "AEG|E40": {
+  "title": "Tür nicht geschlossen",
+  "causes": [
+   "Wäsche ist in der Tür eingeklemmt.",
+   "Türdichtung oder Türschloss ist verschmutzt oder abgenutzt.",
+   "Die Trommel ist überladen und drückt gegen die Tür."
+  ],
+  "steps": [
+   "Entfernen Sie eingeklemmte Wäsche und schließen Sie die Tür, bis sie hörbar einrastet.",
+   "Wischen Sie die Türdichtung mit einem feuchten Tuch ab.",
+   "Bürsten Sie Flusen aus dem Türschloss.",
+   "Reduzieren Sie die Beladung.",
+   "Trennen Sie das Gerät für 30 Sekunden vom Strom und starten Sie neu."
+  ],
+  "technician": "Bleibt der Fehler, kann das Türschloss oder der Türsensor defekt sein. Vereinbaren Sie einen Termin mit dem AEG Kundendienst."
+ },
+ "AEG|E20": {
+  "title": "Problem mit Ablauf oder Pumpe",
+  "causes": [
+   "Der Ablaufschlauch ist nicht richtig angeschlossen.",
+   "Der Ablaufschlauch ist verdreht, verstopft oder bildet eine Schlaufe."
+  ],
+  "steps": [
+   "Wenn Sie einen Abfluss nutzen, prüfen Sie, ob der Schlauch richtig angeschlossen ist.",
+   "Beseitigen Sie Verdrehungen, Schlaufen und Verstopfungen im Schlauch.",
+   "Trennen Sie das Gerät für 30 Sekunden vom Strom und starten Sie neu."
+  ],
+  "technician": "Bleibt der Fehler, beauftragen Sie einen autorisierten AEG Techniker."
+ },
+ "AEG|E60": {
+  "title": "Problem mit der Heizung",
+  "causes": [
+   "Der Trockner ist ohne Belüftung in einen Schrank eingebaut.",
+   "Der Raum ist zu klein oder nicht belüftet.",
+   "Flusensieb, Kondensator oder Dichtung ist verschmutzt.",
+   "Die Heizung ist defekt."
+  ],
+  "steps": [
+   "Sorgen Sie für Platz und Luft rund um den Trockner.",
+   "Öffnen Sie in kleinen Räumen beim Trocknen ein Fenster oder eine Tür.",
+   "Reinigen Sie Flusensieb, Kondensator und Türdichtung.",
+   "Starten Sie ein Zeitprogramm und prüfen Sie nach 30 Minuten, ob es warm ist."
+  ],
+  "technician": "Bleibt er kalt, vereinbaren Sie eine Reparatur bei AEG."
+ },
+ "AEG|E70": {
+  "title": "Fehler am Temperatursensor",
+  "causes": [
+   "Der Temperatursensor ist defekt."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 2 Stunden, um den Trockner zurückzusetzen.",
+   "Stecken Sie ihn wieder ein und versuchen Sie es erneut.",
+   "Kommt der Code wieder, benutzen Sie den Trockner nicht mehr und lassen Sie den Stecker gezogen."
+  ],
+  "technician": "Wenden Sie sich an AEG und nennen Sie den Code für einen Kundendiensttermin."
+ },
+ "AEG|E80": {
+  "title": "Fehler am Programmwähler oder in der Software",
+  "causes": [
+   "Der Programmwähler steht zwischen zwei Positionen.",
+   "Ein Softwarefehler."
+  ],
+  "steps": [
+   "Drehen Sie den Wähler so, dass er genau auf einem Programm steht.",
+   "Ziehen Sie den Netzstecker für 30 Sekunden, stecken Sie ihn wieder ein und starten Sie neu."
+  ],
+  "technician": "Bleibt E80, beauftragen Sie einen AEG Kundendiensttechniker."
+ },
+ "AEG|EH0": {
+  "title": "Problem mit der Stromversorgung",
+  "causes": [
+   "Die Spannung ist zu niedrig oder zu hoch.",
+   "Die Stromversorgung ist instabil."
+  ],
+  "steps": [
+   "Testen Sie die Steckdose mit einem anderen Gerät.",
+   "Verwenden Sie kein Verlängerungskabel.",
+   "Ziehen Sie den Netzstecker für 30 Sekunden und starten Sie dann neu."
+  ],
+  "technician": "Funktioniert auch ein anderes Gerät nicht, rufen Sie eine Elektrofachkraft. Zeigt nur der Trockner den Code, beauftragen Sie einen AEG Techniker."
+ },
+ "AEG|EBD": {
+  "title": "Elektrische Störung erkannt",
+  "causes": [
+   "Elektrische Störungen im Netz.",
+   "Schlechte Erdung."
+  ],
+  "steps": [
+   "Probieren Sie den Trockner an einer anderen, funktionierenden Steckdose.",
+   "Achten Sie darauf, dass die Steckdose richtig geerdet ist."
+  ],
+  "technician": "Bleibt der Code, wenden Sie sich an einen autorisierten AEG Kundendienst. Führen Sie keine Elektroreparaturen selbst durch."
+ },
+ "AEG|CE": {
+  "title": "Fehler in der Elektronik",
+  "causes": [
+   "Ein Fehler in der Elektronik des Trockners."
+  ],
+  "steps": [
+   "Benutzen Sie den Trockner nicht mehr.",
+   "Ziehen Sie den Netzstecker und lassen Sie ihn gezogen."
+  ],
+  "technician": "Beauftragen Sie einen autorisierten AEG Techniker mit der Prüfung der Elektronik."
+ },
+ "AEG|C8": {
+  "title": "Fehler am Temperatursensor",
+  "causes": [
+   "Der Temperatursensor hat ein Problem."
+  ],
+  "steps": [
+   "Benutzen Sie den Trockner nicht mehr.",
+   "Lassen Sie den Netzstecker gezogen, bis er geprüft wurde."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit dem AEG Kundendienst, um den Sensor prüfen oder ersetzen zu lassen."
+ },
+ "AEG|C6": {
+  "title": "Problem mit dem Feuchtigkeitssensor",
+  "causes": [
+   "Der Trockner ist nicht an einer geerdeten Steckdose angeschlossen.",
+   "Das Feuchtemesssystem ist defekt."
+  ],
+  "steps": [
+   "Prüfen Sie, ob der Trockner an einer geerdeten Steckdose angeschlossen ist.",
+   "Läuft das Programm trotzdem sehr lange, benutzen Sie den Trockner nicht mehr und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Ist die Steckdose geerdet und der Fehler bleibt, vereinbaren Sie eine Reparatur bei AEG."
+ },
+ "AEG|Err": {
+  "title": "Fehler am Dampftank (Modelle mit Iron Aid)",
+  "causes": [
+   "Der Wassertank für Dampf ist fast oder ganz leer."
+  ],
+  "steps": [
+   "Füllen Sie den Dampftank bis zur MAX-Markierung.",
+   "Starten Sie das Programm neu."
+  ],
+  "technician": "Blinken die Symbole nach dem Auffüllen weiter, benutzen Sie den Trockner nicht mehr und wenden Sie sich an einen AEG Kundendienst."
+ },
+ "Hotpoint|F02": {
+  "title": "Fehler im Motorstromkreis",
+  "causes": [
+   "Ein Fehler im Motorstromkreis. Die Trommel dreht sich nur ab und zu oder gar nicht."
+  ],
+  "steps": [
+   "Schalten Sie den Trockner aus und ziehen Sie den Netzstecker.",
+   "Benutzen Sie ihn nicht weiter."
+  ],
+  "technician": "Rufen Sie den Hotpoint Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Hotpoint|F03": {
+  "title": "Fehler bei der Temperaturmessung",
+  "causes": [
+   "Der Temperatursensor ist defekt, deshalb heizt der Trockner nicht."
+  ],
+  "steps": [
+   "Schalten Sie den Trockner aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Rufen Sie den Hotpoint Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Hotpoint|F09": {
+  "title": "Softwarefehler",
+  "causes": [
+   "Ein Softwareproblem. Mehrere Leuchten können blinken und kein Programm lässt sich wählen."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für einige Minuten und versuchen Sie es erneut."
+  ],
+  "technician": "Rufen Sie den Hotpoint Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Hotpoint|F11": {
+  "title": "Fehler im Pumpenstromkreis",
+  "causes": [
+   "Der Pumpenstromkreis ist ausgefallen, deshalb wird kein Wasser abgepumpt."
+  ],
+  "steps": [
+   "Leeren Sie den Wasserbehälter, falls Ihr Modell einen hat.",
+   "Schalten Sie den Trockner aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Rufen Sie den Hotpoint Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Hotpoint|F12": {
+  "title": "Fehler in der elektronischen Steuerung",
+  "causes": [
+   "Die elektronische Steuerung ist defekt. Der Trockner lässt sich eventuell nicht einschalten."
+  ],
+  "steps": [
+   "Prüfen Sie Stecker und Steckdose.",
+   "Ziehen Sie den Netzstecker für einige Minuten und versuchen Sie es erneut."
+  ],
+  "technician": "Rufen Sie den Hotpoint Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Hotpoint|F18": {
+  "title": "Interner Datenfehler",
+  "causes": [
+   "Beschädigte interne Daten. Teile der Anzeige oder einige Funktionen arbeiten nicht."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für mindestens 2 Minuten.",
+   "Stecken Sie ihn wieder ein, warten Sie 30 Sekunden und versuchen Sie es erneut."
+  ],
+  "technician": "Bleibt F18 nach dem Zurücksetzen, rufen Sie den Hotpoint Kundendienst."
+ },
+ "Indesit|F02": {
+  "title": "Fehler im Motorstromkreis",
+  "causes": [
+   "Ein Fehler im Motorstromkreis. Die Trommel dreht sich nur ab und zu oder gar nicht."
+  ],
+  "steps": [
+   "Schalten Sie den Trockner aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Rufen Sie den Indesit Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Indesit|F03": {
+  "title": "Fehler bei der Temperaturmessung",
+  "causes": [
+   "Der Temperatursensor ist defekt, deshalb heizt der Trockner nicht."
+  ],
+  "steps": [
+   "Schalten Sie den Trockner aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Rufen Sie den Indesit Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Indesit|F09": {
+  "title": "Softwarefehler",
+  "causes": [
+   "Ein Softwareproblem. Mehrere Leuchten können blinken und kein Programm lässt sich wählen."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für einige Minuten und versuchen Sie es erneut."
+  ],
+  "technician": "Rufen Sie den Indesit Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Indesit|F11": {
+  "title": "Fehler im Pumpenstromkreis",
+  "causes": [
+   "Der Pumpenstromkreis ist ausgefallen, deshalb wird kein Wasser abgepumpt."
+  ],
+  "steps": [
+   "Leeren Sie den Wasserbehälter, falls Ihr Modell einen hat.",
+   "Schalten Sie den Trockner aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Rufen Sie den Indesit Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Indesit|F12": {
+  "title": "Fehler in der elektronischen Steuerung",
+  "causes": [
+   "Die elektronische Steuerung ist defekt. Der Trockner lässt sich eventuell nicht einschalten."
+  ],
+  "steps": [
+   "Prüfen Sie Stecker und Steckdose.",
+   "Ziehen Sie den Netzstecker für einige Minuten und versuchen Sie es erneut."
+  ],
+  "technician": "Rufen Sie den Indesit Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Indesit|F18": {
+  "title": "Interner Datenfehler",
+  "causes": [
+   "Beschädigte interne Daten. Teile der Anzeige oder einige Funktionen arbeiten nicht."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für mindestens 2 Minuten.",
+   "Stecken Sie ihn wieder ein, warten Sie 30 Sekunden und versuchen Sie es erneut."
+  ],
+  "technician": "Bleibt F18 nach dem Zurücksetzen, rufen Sie den Indesit Kundendienst."
+ },
+ "Hotpoint|F01": {
+  "title": "Fehler an der Steuerplatine",
+  "causes": [
+   "Ein Fehler auf der elektronischen Steuerplatine."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für mindestens 2 Minuten.",
+   "Stecken Sie ihn wieder ein, warten Sie 30 Sekunden und versuchen Sie es erneut."
+  ],
+  "technician": "Kommt F01 nach dem Zurücksetzen wieder, rufen Sie den Hotpoint Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Hotpoint|F05": {
+  "title": "Ablauf verstopft oder Problem mit der Pumpe",
+  "causes": [
+   "Eine Verstopfung im Pumpenfilter (falls vorhanden) oder im Ablaufschlauch.",
+   "Ein verstopftes Abflussrohr.",
+   "Eine ausgefallene Pumpe."
+  ],
+  "steps": [
+   "Prüfen und reinigen Sie den Pumpenfilter, falls Ihr Modell einen hat.",
+   "Prüfen Sie den Ablaufschlauch und den angeschlossenen Abfluss auf Verstopfungen."
+  ],
+  "technician": "Ist alles frei und der Fehler bleibt, kann die Pumpe ausgefallen sein. Rufen Sie den Hotpoint Kundendienst."
+ },
+ "Hotpoint|F06": {
+  "title": "Fehler am Türschloss",
+  "causes": [
+   "Etwas blockiert das Türschloss.",
+   "Das Türschloss ist defekt."
+  ],
+  "steps": [
+   "Prüfen Sie den Bereich am Türschloss auf Flusen oder Gegenstände und entfernen Sie sie.",
+   "Schließen Sie die Tür fest und versuchen Sie es erneut."
+  ],
+  "technician": "Bleibt der Fehler, rufen Sie den Hotpoint Kundendienst."
+ },
+ "Indesit|F05": {
+  "title": "Ablauf verstopft oder Problem mit der Pumpe",
+  "causes": [
+   "Eine Verstopfung im Pumpenfilter (falls vorhanden) oder im Ablaufschlauch.",
+   "Eine ausgefallene Pumpe."
+  ],
+  "steps": [
+   "Prüfen und reinigen Sie den Pumpenfilter, falls Ihr Modell einen hat.",
+   "Prüfen Sie Ablaufschlauch und Abfluss auf Verstopfungen."
+  ],
+  "technician": "Ist alles frei und der Fehler bleibt, rufen Sie den Indesit Kundendienst."
+ },
+ "Indesit|F06": {
+  "title": "Fehler am Türschloss",
+  "causes": [
+   "Etwas blockiert das Türschloss.",
+   "Das Türschloss ist defekt."
+  ],
+  "steps": [
+   "Prüfen Sie das Türschloss auf Hindernisse.",
+   "Schließen Sie die Tür fest und versuchen Sie es erneut."
+  ],
+  "technician": "Bleibt der Fehler, rufen Sie den Indesit Kundendienst."
+ },
+ "Whirlpool|AF": {
+  "title": "Luftstrom behindert",
+  "causes": [
+   "Das Flusensieb ist verstopft.",
+   "Die Abluft ist blockiert, gequetscht, geknickt oder hat zu viele Bögen."
+  ],
+  "steps": [
+   "Reinigen Sie das Flusensieb.",
+   "Prüfen Sie die Abluft auf Verstopfungen, Quetschungen oder Knicke.",
+   "Berühren Sie eine beliebige Taste, um den Code zu löschen."
+  ],
+  "technician": "Kommt der Code bei sauberer Abluft immer wieder, vereinbaren Sie einen Termin mit dem Whirlpool Kundendienst."
+ },
+ "Whirlpool|L2": {
+  "title": "Zu niedrige oder keine Netzspannung",
+  "causes": [
+   "Eine Sicherung im Haus ist durchgebrannt oder hat ausgelöst.",
+   "Das Netzkabel ist nicht richtig angeschlossen."
+  ],
+  "steps": [
+   "Prüfen Sie Ihre Sicherungen (Elektrotrockner nutzen zwei) und schalten Sie sie wieder ein.",
+   "Prüfen Sie, ob das Netzkabel wie in der Installationsanleitung beschrieben angeschlossen ist.",
+   "Starten Sie ein beheiztes Zeitprogramm und starten Sie neu."
+  ],
+  "technician": "Bleibt L2, lassen Sie die Stromversorgung von einer Elektrofachkraft prüfen."
+ },
+ "Whirlpool|PF": {
+  "title": "Stromausfall",
+  "causes": [
+   "Die Stromversorgung wurde während des Programms unterbrochen."
+  ],
+  "steps": [
+   "Halten Sie Start gedrückt, um das Programm fortzusetzen.",
+   "Oder drücken Sie Power, um die Anzeige zu löschen."
+  ],
+  "technician": "Kein Fehler. Wenden Sie sich nur an Whirlpool, wenn PF ohne echte Stromausfälle erscheint."
+ },
+ "Whirlpool|F1E3": {
+  "title": "Problem mit Steuereinheit oder Verkabelung",
+  "causes": [
+   "Ein Fehler in der Steuereinheit oder ihrer Verkabelung."
+  ],
+  "steps": [
+   "Drücken Sie Power, wählen Sie ein Programm und halten Sie Start gedrückt.",
+   "Startet er nicht, ziehen Sie den Netzstecker."
+  ],
+  "technician": "Besteht das Problem weiter, vereinbaren Sie einen Termin mit dem Whirlpool Kundendienst."
+ },
+ "Whirlpool|Loc": {
+  "title": "Bediensperre aktiv",
+  "causes": [
+   "Die Bediensperre wurde eingeschaltet."
+  ],
+  "steps": [
+   "Halten Sie Control Lock (Bediensperre) 3 Sekunden gedrückt, bis die Anzeige herunterzählt und erlischt."
+  ],
+  "technician": "Das ist kein Fehler. Wenden Sie sich nur an Whirlpool, wenn sich die Sperre nicht ausschalten lässt."
+ },
+ "Whirlpool|LF": {
+  "title": "Flusensieb entfernt",
+  "causes": [
+   "Der HybridCare-Filter ist nicht im Trockner."
+  ],
+  "steps": [
+   "Setzen Sie den Filter wieder ein.",
+   "Achten Sie darauf, dass der Filtergriff ganz eingerastet ist."
+  ],
+  "technician": "Bleibt LF bei eingesetztem Filter, wenden Sie sich an den Whirlpool Kundendienst."
+ }
+}

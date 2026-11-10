@@ -1,0 +1,2445 @@
+[
+ {
+  "brand": "Vaillant",
+  "code": "F.0",
+  "aliases": [
+   "F0",
+   "F00"
+  ],
+  "title": "Flow temperature sensor open circuit",
+  "causes": [
+   "The flow temperature sensor or its wiring is faulty.",
+   "A loose connection inside the boiler."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code returns, do not try to fix it yourself. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.vaillant.co.uk/service/boiler-fault-codes/"
+ },
+ {
+  "brand": "Vaillant",
+  "code": "F.1",
+  "aliases": [
+   "F1",
+   "F01"
+  ],
+  "title": "Return temperature sensor open circuit",
+  "causes": [
+   "The return temperature sensor or its wiring is faulty.",
+   "A loose connection inside the boiler."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code returns, do not try to fix it yourself. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.vaillant.co.uk/service/boiler-fault-codes/"
+ },
+ {
+  "brand": "Vaillant",
+  "code": "F.10",
+  "aliases": [
+   "F10"
+  ],
+  "title": "Flow temperature sensor short circuit",
+  "causes": [
+   "The flow temperature sensor or its wiring is faulty.",
+   "A loose connection inside the boiler."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code returns, do not try to fix it yourself. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.vaillant.co.uk/service/boiler-fault-codes/"
+ },
+ {
+  "brand": "Vaillant",
+  "code": "F.11",
+  "aliases": [
+   "F11"
+  ],
+  "title": "Return temperature sensor short circuit",
+  "causes": [
+   "The return temperature sensor or its wiring is faulty.",
+   "A loose connection inside the boiler."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code returns, do not try to fix it yourself. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.vaillant.co.uk/service/boiler-fault-codes/"
+ },
+ {
+  "brand": "Vaillant",
+  "code": "F.20",
+  "aliases": [
+   "F20"
+  ],
+  "title": "Safety thermal cut-out has tripped",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.vaillant.co.uk/service/boiler-fault-codes/"
+ },
+ {
+  "brand": "Vaillant",
+  "code": "F.22",
+  "aliases": [
+   "F22"
+  ],
+  "title": "Low water pressure",
+  "causes": [
+   "Water has been lost from the heating system, often after bleeding radiators.",
+   "A small leak somewhere in the pipes or radiators.",
+   "A faulty pressure sensor."
+  ],
+  "steps": [
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If you often need to top up, there may be a leak. Ask an engineer to find it."
+  ],
+  "technician": "If the pressure keeps dropping, a Gas Safe registered engineer (UK) or licensed installer must find the leak; never open the boiler casing yourself.",
+  "source": "https://www.vaillant.co.uk/service/boiler-fault-codes/"
+ },
+ {
+  "brand": "Vaillant",
+  "code": "F.23",
+  "aliases": [
+   "F23"
+  ],
+  "title": "Flow and return temperature difference too large",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.vaillant.co.uk/service/boiler-fault-codes/"
+ },
+ {
+  "brand": "Vaillant",
+  "code": "F.24",
+  "aliases": [
+   "F24"
+  ],
+  "title": "Temperature rising too fast",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.vaillant.co.uk/service/boiler-fault-codes/"
+ },
+ {
+  "brand": "Vaillant",
+  "code": "F.25",
+  "aliases": [
+   "F25"
+  ],
+  "title": "Flue gas temperature too high",
+  "causes": [
+   "A problem with the flue or air supply.",
+   "Poor combustion inside the boiler."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Switch the boiler off at the mains switch.",
+   "Check from outside that the flue terminal is not visibly blocked. Do not touch it.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.vaillant.co.uk/service/boiler-fault-codes/"
+ },
+ {
+  "brand": "Vaillant",
+  "code": "F.27",
+  "aliases": [
+   "F27"
+  ],
+  "title": "Flame detected when burner is off",
+  "causes": [
+   "A fault in the flame sensing circuit.",
+   "A gas valve that is not closing fully."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Switch the boiler off at the mains switch.",
+   "Do not keep resetting. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "This is a safety fault; only a Gas Safe registered engineer (UK) or licensed gas installer may inspect the gas valve and flame sensing parts.",
+  "source": "https://www.vaillant.co.uk/service/boiler-fault-codes/"
+ },
+ {
+  "brand": "Vaillant",
+  "code": "F.28",
+  "aliases": [
+   "F28"
+  ],
+  "title": "Boiler failed to light",
+  "causes": [
+   "No gas reaching the boiler, for example an empty prepayment meter.",
+   "A frozen or blocked condensate pipe.",
+   "A fault with ignition or flame sensing parts."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Check that other gas appliances, such as the hob, are working.",
+   "If you have a prepayment gas meter, make sure it has credit.",
+   "In freezing weather, check the plastic condensate pipe outside. Thaw any ice with warm (not boiling) water.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.vaillant.co.uk/service/boiler-fault-codes/"
+ },
+ {
+  "brand": "Vaillant",
+  "code": "F.29",
+  "aliases": [
+   "F29"
+  ],
+  "title": "Flame lost and boiler could not relight",
+  "causes": [
+   "No gas reaching the boiler, for example an empty prepayment meter.",
+   "A frozen or blocked condensate pipe.",
+   "A fault with ignition or flame sensing parts."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Check that other gas appliances, such as the hob, are working.",
+   "If you have a prepayment gas meter, make sure it has credit.",
+   "In freezing weather, check the plastic condensate pipe outside. Thaw any ice with warm (not boiling) water.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.vaillant.co.uk/service/boiler-fault-codes/"
+ },
+ {
+  "brand": "Vaillant",
+  "code": "F.32",
+  "aliases": [
+   "F32"
+  ],
+  "title": "Fan fault",
+  "causes": [
+   "The fan is not running at the right speed.",
+   "A wiring or control board fault.",
+   "The flue may be blocked."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "Check from outside that nothing is blocking the flue terminal. Do not touch it.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.vaillant.co.uk/service/boiler-fault-codes/"
+ },
+ {
+  "brand": "Vaillant",
+  "code": "F.35",
+  "aliases": [
+   "F35"
+  ],
+  "title": "Air or flue pipe blocked",
+  "causes": [
+   "Something is blocking the flue or air intake.",
+   "Damage to the flue pipework."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Switch the boiler off at the mains switch.",
+   "Look from outside for leaves, nests or snow around the flue terminal, but do not touch or remove the flue.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.vaillant.co.uk/service/boiler-fault-codes/"
+ },
+ {
+  "brand": "Vaillant",
+  "code": "F.54",
+  "aliases": [
+   "F54"
+  ],
+  "title": "Gas supply fault",
+  "causes": [
+   "No gas reaching the boiler, for example an empty prepayment meter.",
+   "A frozen or blocked condensate pipe.",
+   "A fault with ignition or flame sensing parts."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Check that other gas appliances, such as the hob, are working.",
+   "If you have a prepayment gas meter, make sure it has credit.",
+   "In freezing weather, check the plastic condensate pipe outside. Thaw any ice with warm (not boiling) water.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.vaillant.co.uk/service/boiler-fault-codes/"
+ },
+ {
+  "brand": "Vaillant",
+  "code": "F.62",
+  "aliases": [
+   "F62"
+  ],
+  "title": "Gas valve shut-off delay fault",
+  "causes": [
+   "The flame took too long to go out after the burner stopped.",
+   "A gas valve or control fault."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.vaillant.co.uk/service/boiler-fault-codes/"
+ },
+ {
+  "brand": "Vaillant",
+  "code": "F.75",
+  "aliases": [
+   "F75"
+  ],
+  "title": "No pressure rise when the pump starts",
+  "causes": [
+   "Water has been lost from the heating system, often after bleeding radiators.",
+   "A small leak somewhere in the pipes or radiators.",
+   "A faulty pressure sensor."
+  ],
+  "steps": [
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If you often need to top up, there may be a leak. Ask an engineer to find it."
+  ],
+  "technician": "If the pressure keeps dropping, a Gas Safe registered engineer (UK) or licensed installer must find the leak; never open the boiler casing yourself.",
+  "source": "https://www.vaillant.co.uk/service/boiler-fault-codes/"
+ },
+ {
+  "brand": "Vaillant",
+  "code": "F.83",
+  "aliases": [
+   "F83"
+  ],
+  "title": "No temperature rise at burner start",
+  "causes": [
+   "Not enough water in the boiler.",
+   "Air in the system or a sensor fault."
+  ],
+  "steps": [
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.vaillant.co.uk/service/boiler-fault-codes/"
+ },
+ {
+  "brand": "Vaillant",
+  "code": "F.88",
+  "aliases": [
+   "F88"
+  ],
+  "title": "Gas valve electrical connection lost",
+  "causes": [
+   "A loose or damaged connection to the gas valve.",
+   "A control board fault."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Do not try to reach the gas valve. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.vaillant.co.uk/service/boiler-fault-codes/"
+ },
+ {
+  "brand": "Glow-worm",
+  "code": "F.0",
+  "aliases": [
+   "F0",
+   "F00"
+  ],
+  "title": "Flow temperature sensor open circuit",
+  "causes": [
+   "The flow temperature sensor or its wiring is faulty.",
+   "A loose connection inside the boiler."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code returns, do not try to fix it yourself. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.glow-worm.co.uk/homeowner/repairs-and-servicing/boiler-fault-codes/"
+ },
+ {
+  "brand": "Glow-worm",
+  "code": "F.1",
+  "aliases": [
+   "F1",
+   "F01"
+  ],
+  "title": "Return temperature sensor open circuit",
+  "causes": [
+   "The return temperature sensor or its wiring is faulty.",
+   "A loose connection inside the boiler."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code returns, do not try to fix it yourself. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.glow-worm.co.uk/homeowner/repairs-and-servicing/boiler-fault-codes/"
+ },
+ {
+  "brand": "Glow-worm",
+  "code": "F.20",
+  "aliases": [
+   "F20"
+  ],
+  "title": "Safety thermal cut-out has tripped",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.glow-worm.co.uk/homeowner/repairs-and-servicing/boiler-fault-codes/"
+ },
+ {
+  "brand": "Glow-worm",
+  "code": "F.22",
+  "aliases": [
+   "F22",
+   "F9"
+  ],
+  "title": "Low water pressure",
+  "causes": [
+   "Water has been lost from the heating system, often after bleeding radiators.",
+   "A small leak somewhere in the pipes or radiators.",
+   "A faulty pressure sensor."
+  ],
+  "steps": [
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If you often need to top up, there may be a leak. Ask an engineer to find it."
+  ],
+  "technician": "If the pressure keeps dropping, a Gas Safe registered engineer (UK) or licensed installer must find the leak; never open the boiler casing yourself.",
+  "source": "https://www.glow-worm.co.uk/homeowner/repairs-and-servicing/boiler-fault-codes/"
+ },
+ {
+  "brand": "Glow-worm",
+  "code": "F.23",
+  "aliases": [
+   "F23"
+  ],
+  "title": "Flow and return temperature difference too large",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.glow-worm.co.uk/homeowner/repairs-and-servicing/boiler-fault-codes/"
+ },
+ {
+  "brand": "Glow-worm",
+  "code": "F.24",
+  "aliases": [
+   "F24"
+  ],
+  "title": "Temperature rising too fast",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.glow-worm.co.uk/homeowner/repairs-and-servicing/boiler-fault-codes/"
+ },
+ {
+  "brand": "Glow-worm",
+  "code": "F.27",
+  "aliases": [
+   "F27"
+  ],
+  "title": "Flame detected when burner is off",
+  "causes": [
+   "A fault in the flame sensing circuit.",
+   "A gas valve that is not closing fully."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Switch the boiler off at the mains switch.",
+   "Do not keep resetting. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "This is a safety fault; only a Gas Safe registered engineer (UK) or licensed gas installer may inspect the gas valve and flame sensing parts.",
+  "source": "https://www.glow-worm.co.uk/homeowner/repairs-and-servicing/boiler-fault-codes/"
+ },
+ {
+  "brand": "Glow-worm",
+  "code": "F.28",
+  "aliases": [
+   "F28",
+   "F1"
+  ],
+  "title": "Boiler failed to light",
+  "causes": [
+   "No gas reaching the boiler, for example an empty prepayment meter.",
+   "A frozen or blocked condensate pipe.",
+   "A fault with ignition or flame sensing parts."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Check that other gas appliances, such as the hob, are working.",
+   "If you have a prepayment gas meter, make sure it has credit.",
+   "In freezing weather, check the plastic condensate pipe outside. Thaw any ice with warm (not boiling) water.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.glow-worm.co.uk/homeowner/repairs-and-servicing/boiler-fault-codes/"
+ },
+ {
+  "brand": "Glow-worm",
+  "code": "F.29",
+  "aliases": [
+   "F29"
+  ],
+  "title": "Flame lost and boiler could not relight",
+  "causes": [
+   "No gas reaching the boiler, for example an empty prepayment meter.",
+   "A frozen or blocked condensate pipe.",
+   "A fault with ignition or flame sensing parts."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Check that other gas appliances, such as the hob, are working.",
+   "If you have a prepayment gas meter, make sure it has credit.",
+   "In freezing weather, check the plastic condensate pipe outside. Thaw any ice with warm (not boiling) water.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.glow-worm.co.uk/homeowner/repairs-and-servicing/boiler-fault-codes/"
+ },
+ {
+  "brand": "Glow-worm",
+  "code": "F.32",
+  "aliases": [
+   "F32"
+  ],
+  "title": "Fan fault",
+  "causes": [
+   "The fan is not running at the right speed.",
+   "A wiring or control board fault.",
+   "The flue may be blocked."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "Check from outside that nothing is blocking the flue terminal. Do not touch it.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.glow-worm.co.uk/homeowner/repairs-and-servicing/boiler-fault-codes/"
+ },
+ {
+  "brand": "Glow-worm",
+  "code": "F.61",
+  "aliases": [
+   "F61",
+   "F62",
+   "F63",
+   "F64",
+   "F65",
+   "F66",
+   "F67",
+   "F68"
+  ],
+  "title": "Main control board fault",
+  "causes": [
+   "An electronic fault on the main board.",
+   "A problem with the gas valve control circuit."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "If the code stays, do not reset again. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.glow-worm.co.uk/homeowner/advice-knowledge/boiler-fault-codes-and-what-to-do-if-they-occur-2802216.html"
+ },
+ {
+  "brand": "Glow-worm",
+  "code": "F.75",
+  "aliases": [
+   "F75"
+  ],
+  "title": "No pressure rise when the pump starts",
+  "causes": [
+   "Water has been lost from the heating system, often after bleeding radiators.",
+   "A small leak somewhere in the pipes or radiators.",
+   "A faulty pressure sensor."
+  ],
+  "steps": [
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If you often need to top up, there may be a leak. Ask an engineer to find it."
+  ],
+  "technician": "If the pressure keeps dropping, a Gas Safe registered engineer (UK) or licensed installer must find the leak; never open the boiler casing yourself.",
+  "source": "https://www.glow-worm.co.uk/homeowner/repairs-and-servicing/boiler-fault-codes/"
+ },
+ {
+  "brand": "Glow-worm",
+  "code": "F.84",
+  "aliases": [
+   "F84"
+  ],
+  "title": "Flow and return readings do not make sense",
+  "causes": [
+   "Pipework may be crossed or a sensor fitted in the wrong place.",
+   "A sensor fault."
+  ],
+  "steps": [
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If this appeared after new work on the system, contact the installer who did it."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.glow-worm.co.uk/homeowner/repairs-and-servicing/boiler-fault-codes/"
+ },
+ {
+  "brand": "Glow-worm",
+  "code": "F.88",
+  "aliases": [
+   "F88"
+  ],
+  "title": "Gas valve electrical connection lost",
+  "causes": [
+   "A loose or damaged connection to the gas valve.",
+   "A control board fault."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Do not try to reach the gas valve. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.glow-worm.co.uk/homeowner/repairs-and-servicing/boiler-fault-codes/"
+ },
+ {
+  "brand": "Ideal",
+  "code": "L1",
+  "aliases": [],
+  "title": "Flow overheat or no water flow",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://idealheating.com/support/faqs/boiler-fault-codes/flashing-l-and-1-flow-temperature-overheat-or-no-water-flow"
+ },
+ {
+  "brand": "Ideal",
+  "code": "L2",
+  "aliases": [],
+  "title": "Ignition lockout",
+  "causes": [
+   "No gas reaching the boiler, for example an empty prepayment meter.",
+   "A frozen or blocked condensate pipe.",
+   "A fault with ignition or flame sensing parts."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Check that other gas appliances, such as the hob, are working.",
+   "If you have a prepayment gas meter, make sure it has credit.",
+   "In freezing weather, check the plastic condensate pipe outside. Thaw any ice with warm (not boiling) water.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://idealheating.com/support/faqs/p17"
+ },
+ {
+  "brand": "Ideal",
+  "code": "L3",
+  "aliases": [],
+  "title": "No water flow",
+  "causes": [
+   "Low system pressure.",
+   "Air trapped in the radiators.",
+   "A circulation or pump problem."
+  ],
+  "steps": [
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Turn the boiler off and bleed the radiators.",
+   "Check the pressure again, turn the boiler on and reset it.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://idealheating.com/support/faqs/p17"
+ },
+ {
+  "brand": "Ideal",
+  "code": "L5",
+  "aliases": [
+   "LC5"
+  ],
+  "title": "Too many resets in 15 minutes",
+  "causes": [
+   "The reset button was pressed too many times in a short period."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "If a fault code then appears, follow the advice for that code."
+  ],
+  "technician": "If the boiler keeps locking out, a Gas Safe registered engineer (UK) or licensed installer should find the underlying fault.",
+  "source": "https://idealheating.com/support/faqs/p17"
+ },
+ {
+  "brand": "Ideal",
+  "code": "L6",
+  "aliases": [],
+  "title": "False flame lockout",
+  "causes": [
+   "A fault in the flame sensing circuit.",
+   "A gas valve that is not closing fully."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Switch the boiler off at the mains switch.",
+   "Do not keep resetting. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "This is a safety fault; only a Gas Safe registered engineer (UK) or licensed gas installer may inspect the gas valve and flame sensing parts.",
+  "source": "https://idealheating.com/support/faqs/p17"
+ },
+ {
+  "brand": "Ideal",
+  "code": "F1",
+  "aliases": [],
+  "title": "Low water pressure",
+  "causes": [
+   "Water has been lost from the heating system, often after bleeding radiators.",
+   "A small leak somewhere in the pipes or radiators.",
+   "A faulty pressure sensor."
+  ],
+  "steps": [
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If you often need to top up, there may be a leak. Ask an engineer to find it."
+  ],
+  "technician": "If the pressure keeps dropping, a Gas Safe registered engineer (UK) or licensed installer must find the leak; never open the boiler casing yourself.",
+  "source": "https://idealheating.com/support/faqs/p17"
+ },
+ {
+  "brand": "Ideal",
+  "code": "F2",
+  "aliases": [],
+  "title": "Flame loss",
+  "causes": [
+   "No gas reaching the boiler, for example an empty prepayment meter.",
+   "A frozen or blocked condensate pipe.",
+   "A fault with ignition or flame sensing parts."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Check that other gas appliances, such as the hob, are working.",
+   "If you have a prepayment gas meter, make sure it has credit.",
+   "In freezing weather, check the plastic condensate pipe outside. Thaw any ice with warm (not boiling) water.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://idealheating.com/support/faqs/p17"
+ },
+ {
+  "brand": "Ideal",
+  "code": "F3",
+  "aliases": [],
+  "title": "Fan fault",
+  "causes": [
+   "The fan is not running at the right speed.",
+   "A wiring or control board fault.",
+   "The flue may be blocked."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "Check from outside that nothing is blocking the flue terminal. Do not touch it.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://idealheating.com/support/faqs/p17"
+ },
+ {
+  "brand": "Ideal",
+  "code": "F4",
+  "aliases": [
+   "L4"
+  ],
+  "title": "Flow thermistor fault",
+  "causes": [
+   "The flow thermistor (temperature sensor) or its wiring is faulty.",
+   "A loose connection inside the boiler."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code returns, do not try to fix it yourself. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://idealheating.com/support/faqs/p17"
+ },
+ {
+  "brand": "Ideal",
+  "code": "F5",
+  "aliases": [],
+  "title": "Return thermistor fault",
+  "causes": [
+   "The return thermistor (temperature sensor) or its wiring is faulty.",
+   "A loose connection inside the boiler."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code returns, do not try to fix it yourself. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://idealheating.com/support/faqs/p17"
+ },
+ {
+  "brand": "Ideal",
+  "code": "F6",
+  "aliases": [],
+  "title": "Outside sensor fault",
+  "causes": [
+   "The outdoor temperature sensor or its wiring is faulty.",
+   "A loose connection inside the boiler."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code returns, do not try to fix it yourself. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://idealheating.com/support/faqs/p18"
+ },
+ {
+  "brand": "Ideal",
+  "code": "F7",
+  "aliases": [],
+  "title": "Low mains voltage",
+  "causes": [
+   "The electricity supply voltage to the home is too low.",
+   "A wiring fault in the property."
+  ],
+  "steps": [
+   "Check whether other appliances or lights are affected.",
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Ask an electrician or your electricity provider to check the supply."
+  ],
+  "technician": "If the supply is fine, a Gas Safe registered engineer (UK) or licensed installer should test the boiler; mains wiring checks are for a qualified electrician.",
+  "source": "https://idealheating.com/support/faqs/p18"
+ },
+ {
+  "brand": "Ideal",
+  "code": "F0",
+  "aliases": [],
+  "title": "No water flow (thermistor)",
+  "causes": [
+   "Water is not flowing through the boiler.",
+   "A sensor fault."
+  ],
+  "steps": [
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://idealheating.com/support/faqs/p18"
+ },
+ {
+  "brand": "Ideal",
+  "code": "FD",
+  "aliases": [],
+  "title": "No water flow",
+  "causes": [
+   "Low pressure or air in the system.",
+   "The heating pump is not running."
+  ],
+  "steps": [
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Turn the boiler back on and see if the code clears.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://idealheating.com/support/faqs/p18"
+ },
+ {
+  "brand": "Ideal",
+  "code": "FU",
+  "aliases": [],
+  "title": "Flow and return difference too high",
+  "causes": [
+   "Air in the radiators.",
+   "Low pressure or a blockage in the system."
+  ],
+  "steps": [
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Turn the boiler on again.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://idealheating.com/support/faqs/p18"
+ },
+ {
+  "brand": "Worcester Bosch",
+  "code": "EA 227",
+  "aliases": [
+   "EA227",
+   "EA-227",
+   "EA"
+  ],
+  "title": "No burner ignition",
+  "causes": [
+   "No gas reaching the boiler, for example an empty prepayment meter.",
+   "A frozen or blocked condensate pipe.",
+   "A fault with ignition or flame sensing parts."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Check that other gas appliances, such as the hob, are working.",
+   "If you have a prepayment gas meter, make sure it has credit.",
+   "In freezing weather, check the plastic condensate pipe outside. Thaw any ice with warm (not boiling) water.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.worcester-bosch.co.uk/support/literature/download/release/6720814333/34539"
+ },
+ {
+  "brand": "Worcester Bosch",
+  "code": "CE 207",
+  "aliases": [
+   "CE207",
+   "CE-207"
+  ],
+  "title": "Low water pressure",
+  "causes": [
+   "Water has been lost from the heating system, often after bleeding radiators.",
+   "A small leak somewhere in the pipes or radiators.",
+   "A faulty pressure sensor."
+  ],
+  "steps": [
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If you often need to top up, there may be a leak. Ask an engineer to find it."
+  ],
+  "technician": "If the pressure keeps dropping, a Gas Safe registered engineer (UK) or licensed installer must find the leak; never open the boiler casing yourself.",
+  "source": "https://www.worcester-bosch.co.uk/support/literature/download/release/6720814333/34539"
+ },
+ {
+  "brand": "Worcester Bosch",
+  "code": "H07",
+  "aliases": [
+   "H7"
+  ],
+  "title": "Water pressure low (warning)",
+  "causes": [
+   "System pressure has dropped below the normal level."
+  ],
+  "steps": [
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "If you often need to top up, there may be a leak. Ask an engineer to find it."
+  ],
+  "technician": "If the pressure keeps dropping, a Gas Safe registered engineer (UK) or licensed installer must find the leak; never open the boiler casing yourself.",
+  "source": "https://www.worcester-bosch.co.uk/support/literature/download/release/6720814333/34539"
+ },
+ {
+  "brand": "Worcester Bosch",
+  "code": "E9 224",
+  "aliases": [
+   "E9224",
+   "E9-224"
+  ],
+  "title": "Internal safety thermostat too hot",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.worcester-bosch.co.uk/support/literature/download/release/6720814333/34539"
+ },
+ {
+  "brand": "Worcester Bosch",
+  "code": "E9 276",
+  "aliases": [
+   "E9276",
+   "E9-276"
+  ],
+  "title": "Flow temperature too high",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.worcester-bosch.co.uk/support/literature/download/release/6720814333/34539"
+ },
+ {
+  "brand": "Worcester Bosch",
+  "code": "CE 266",
+  "aliases": [
+   "CE266",
+   "CE-266"
+  ],
+  "title": "Unexpected temperature readings, possible low pressure",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.worcester-bosch.co.uk/support/literature/download/release/6720814333/34539"
+ },
+ {
+  "brand": "Worcester Bosch",
+  "code": "Fd 231",
+  "aliases": [
+   "Fd231",
+   "FD 231"
+  ],
+  "title": "Power cut during a lockout",
+  "causes": [
+   "The electricity supply was interrupted while the boiler was locked out."
+  ],
+  "steps": [
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If a different code then appears, follow the advice for that code."
+  ],
+  "technician": "If the boiler will not clear after a reset, a Gas Safe registered engineer should check it.",
+  "source": "https://www.worcester-bosch.co.uk/support/literature/download/release/6720814333/34539"
+ },
+ {
+  "brand": "Worcester Bosch",
+  "code": "A1",
+  "aliases": [],
+  "title": "Pump has run dry",
+  "causes": [
+   "Very low water pressure.",
+   "Air trapped in the pump or system."
+  ],
+  "steps": [
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.worcester-bosch.co.uk/support/literature/download/6720830033"
+ },
+ {
+  "brand": "Worcester Bosch",
+  "code": "C6",
+  "aliases": [],
+  "title": "Fan speed too low",
+  "causes": [
+   "The fan is not running at the right speed.",
+   "A wiring or control board fault.",
+   "The flue may be blocked."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "Check from outside that nothing is blocking the flue terminal. Do not touch it.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.worcester-bosch.co.uk/support/literature/download/6720830033"
+ },
+ {
+  "brand": "Worcester Bosch",
+  "code": "F7",
+  "aliases": [],
+  "title": "Flame still detected after burner off",
+  "causes": [
+   "A fault in the flame sensing circuit.",
+   "A gas valve that is not closing fully."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Switch the boiler off at the mains switch.",
+   "Do not keep resetting. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "This is a safety fault; only a Gas Safe registered engineer (UK) or licensed gas installer may inspect the gas valve and flame sensing parts.",
+  "source": "https://www.worcester-bosch.co.uk/support/literature/download/6720830033"
+ },
+ {
+  "brand": "Worcester Bosch",
+  "code": "2980",
+  "aliases": [],
+  "title": "Serious safety fault",
+  "causes": [
+   "The boiler has detected a safety-related fault."
+  ],
+  "steps": [
+   "Switch the boiler off.",
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Do not try to fix or reset it. Contact a qualified heating engineer straight away."
+  ],
+  "technician": "This is a safety-critical fault and must be dealt with by a Gas Safe registered engineer (UK) or licensed gas installer.",
+  "source": "https://www.worcester-bosch.co.uk/support/literature/download/6721890748"
+ },
+ {
+  "brand": "Junkers/Bosch",
+  "code": "227",
+  "aliases": [
+   "EA 227",
+   "EA-227",
+   "6A-227"
+  ],
+  "title": "Burner did not light after several attempts",
+  "causes": [
+   "No gas reaching the boiler, for example an empty prepayment meter.",
+   "A frozen or blocked condensate pipe.",
+   "A fault with ignition or flame sensing parts."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Check that other gas appliances, such as the hob, are working.",
+   "If you have a prepayment gas meter, make sure it has credit.",
+   "In freezing weather, check the plastic condensate pipe outside. Thaw any ice with warm (not boiling) water.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.bosch-homecomfort.com/de/de/wohngebaeude/service-und-support/bosch-fehlercode-suche/errorcode?query=227"
+ },
+ {
+  "brand": "Junkers/Bosch",
+  "code": "207",
+  "aliases": [
+   "CE 207",
+   "CE-207",
+   "2E-207",
+   "E8-207"
+  ],
+  "title": "Low water pressure",
+  "causes": [
+   "Water has been lost from the heating system, often after bleeding radiators.",
+   "A small leak somewhere in the pipes or radiators.",
+   "A faulty pressure sensor."
+  ],
+  "steps": [
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If you often need to top up, there may be a leak. Ask an engineer to find it."
+  ],
+  "technician": "If the pressure keeps dropping, a Gas Safe registered engineer (UK) or licensed installer must find the leak; never open the boiler casing yourself.",
+  "source": "https://www.bosch-homecomfort.com/de/de/wohngebaeude/service-und-support/bosch-fehlercode-suche/errorcode?query=207"
+ },
+ {
+  "brand": "Junkers/Bosch",
+  "code": "224",
+  "aliases": [
+   "E9 224",
+   "E9-224",
+   "4C-224"
+  ],
+  "title": "Safety temperature limiter tripped",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.bosch-homecomfort.com/de/de/wohngebaeude/service-und-support/bosch-fehlercode-suche/errorcode?query=224"
+ },
+ {
+  "brand": "Junkers/Bosch",
+  "code": "276",
+  "aliases": [
+   "E9 276",
+   "E9-276"
+  ],
+  "title": "Flow temperature too high",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.bosch-homecomfort.com/de/de/wohngebaeude/service-und-support/bosch-fehlercode-suche/errorcode?query=276"
+ },
+ {
+  "brand": "Junkers/Bosch",
+  "code": "231",
+  "aliases": [
+   "Fd 231",
+   "Fd-231",
+   "7C-231"
+  ],
+  "title": "Power cut during a lockout",
+  "causes": [
+   "The electricity supply was interrupted while the boiler was locked out."
+  ],
+  "steps": [
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If a different code then appears, follow the advice for that code."
+  ],
+  "technician": "If it does not clear, a Gas Safe registered engineer (UK) or licensed installer must check the boiler.",
+  "source": "https://www.bosch-homecomfort.com/de/de/wohngebaeude/service-und-support/bosch-fehlercode-suche/errorcode?query=231"
+ },
+ {
+  "brand": "Junkers/Bosch",
+  "code": "232",
+  "aliases": [
+   "D3 232",
+   "D3-232",
+   "8Y-232"
+  ],
+  "title": "Heat demand blocked by external contact",
+  "causes": [
+   "An external controller, such as an underfloor heating limiter, has blocked the boiler.",
+   "A condensate pump safety switch has tripped."
+  ],
+  "steps": [
+   "Wait a few minutes; the boiler may restart by itself.",
+   "Check that the room thermostat and timer are calling for heat.",
+   "If you have a condensate pump, check it is powered and not overflowing.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.bosch-homecomfort.com/de/de/wohngebaeude/service-und-support/bosch-fehlercode-suche/errorcode?query=232"
+ },
+ {
+  "brand": "Junkers/Bosch",
+  "code": "2962",
+  "aliases": [],
+  "title": "No signal from the fan",
+  "causes": [
+   "The fan is not running at the right speed.",
+   "A wiring or control board fault.",
+   "The flue may be blocked."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "Check from outside that nothing is blocking the flue terminal. Do not touch it.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.bosch-homecomfort.com/de/de/wohngebaeude/service-und-support/bosch-fehlercode-suche/errorcode?query=2962"
+ },
+ {
+  "brand": "Baxi",
+  "code": "E133",
+  "aliases": [
+   "E1 33",
+   "133"
+  ],
+  "title": "Frozen or blocked condensate pipe",
+  "causes": [
+   "The outside condensate pipe has frozen in cold weather.",
+   "A blockage in the condensate pipe.",
+   "On some models, a gas supply or ignition problem."
+  ],
+  "steps": [
+   "Switch the boiler off.",
+   "Find the frozen part of the condensate pipe, usually outside or at a bend.",
+   "Warm it with a hot water bottle or pour warm (not boiling) water along it.",
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK)."
+  ],
+  "technician": "If the boiler still will not run after thawing, call a Gas Safe registered engineer (UK) or licensed installer.",
+  "source": "https://www.baxi.co.uk/help-and-advice/how-to-guides/how-to-thaw-a-frozen-boiler-condensate-pipe"
+ },
+ {
+  "brand": "Baxi",
+  "code": "E28",
+  "aliases": [],
+  "title": "Frozen or blocked condensate pipe",
+  "causes": [
+   "The outside condensate pipe has frozen in cold weather.",
+   "A blockage in the condensate pipe.",
+   "On some models, a gas supply or ignition problem."
+  ],
+  "steps": [
+   "Switch the boiler off.",
+   "Find the frozen part of the condensate pipe, usually outside or at a bend.",
+   "Warm it with a hot water bottle or pour warm (not boiling) water along it.",
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK)."
+  ],
+  "technician": "If the boiler still will not run after thawing, call a Gas Safe registered engineer (UK) or licensed installer.",
+  "source": "https://www.baxi.co.uk/help-and-advice/how-to-guides/how-to-thaw-a-frozen-boiler-condensate-pipe"
+ },
+ {
+  "brand": "Baxi",
+  "code": "A.02.06",
+  "aliases": [
+   "A02.06"
+  ],
+  "title": "Low water pressure",
+  "causes": [
+   "Water has been lost from the heating system, often after bleeding radiators.",
+   "A small leak somewhere in the pipes or radiators.",
+   "A faulty pressure sensor."
+  ],
+  "steps": [
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If you often need to top up, there may be a leak. Ask an engineer to find it."
+  ],
+  "technician": "If the pressure keeps dropping, a Gas Safe registered engineer (UK) or licensed installer must find the leak; never open the boiler casing yourself.",
+  "source": "https://www.baxi.co.uk/help-and-advice/how-to-guides/how-to-repressurise-your-boiler-with-digital-pressure-gauge"
+ },
+ {
+  "brand": "Baxi",
+  "code": "H.02.07",
+  "aliases": [
+   "H02.07"
+  ],
+  "title": "Water pressure low (warning)",
+  "causes": [
+   "Water has been lost from the heating system, often after bleeding radiators.",
+   "A small leak somewhere in the pipes or radiators.",
+   "A faulty pressure sensor."
+  ],
+  "steps": [
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If you often need to top up, there may be a leak. Ask an engineer to find it."
+  ],
+  "technician": "If the pressure keeps dropping, a Gas Safe registered engineer (UK) or licensed installer must find the leak; never open the boiler casing yourself.",
+  "source": "https://www.baxi.co.uk/help-and-advice/how-to-guides/how-to-repressurise-your-boiler-with-digital-pressure-gauge"
+ },
+ {
+  "brand": "Potterton",
+  "code": "E133",
+  "aliases": [
+   "E1 33",
+   "133"
+  ],
+  "title": "Frozen or blocked condensate pipe",
+  "causes": [
+   "The outside condensate pipe has frozen in cold weather.",
+   "A blockage in the condensate pipe.",
+   "On some models, a gas supply or ignition problem."
+  ],
+  "steps": [
+   "Switch the boiler off.",
+   "Find the frozen part of the condensate pipe, usually outside or at a bend.",
+   "Warm it with a hot water bottle or pour warm (not boiling) water along it.",
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK)."
+  ],
+  "technician": "If the boiler still will not run after thawing, call a Gas Safe registered engineer (UK) or licensed installer.",
+  "source": "https://www.potterton.co.uk/information-and-advice/winter-advice"
+ },
+ {
+  "brand": "Viessmann",
+  "code": "74",
+  "aliases": [],
+  "title": "Low water pressure",
+  "causes": [
+   "Water has been lost from the heating system, often after bleeding radiators.",
+   "A small leak somewhere in the pipes or radiators.",
+   "A faulty pressure sensor."
+  ],
+  "steps": [
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If you often need to top up, there may be a leak. Ask an engineer to find it."
+  ],
+  "technician": "If the pressure keeps dropping, a Gas Safe registered engineer (UK) or licensed installer must find the leak; never open the boiler casing yourself.",
+  "source": "https://www.viessmann.co.uk/content/dam/public-brands/gb/pdf/instructions/Vitodens%20050%20installation%20instructions.pdf"
+ },
+ {
+  "brand": "Viessmann",
+  "code": "361",
+  "aliases": [],
+  "title": "No flame signal at burner start",
+  "causes": [
+   "No gas reaching the boiler, for example an empty prepayment meter.",
+   "A frozen or blocked condensate pipe.",
+   "A fault with ignition or flame sensing parts."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Check that other gas appliances, such as the hob, are working.",
+   "If you have a prepayment gas meter, make sure it has credit.",
+   "In freezing weather, check the plastic condensate pipe outside. Thaw any ice with warm (not boiling) water.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.viessmann.co.uk/content/dam/public-brands/gb/pdf/instructions/Vitodens%20050%20installation%20instructions.pdf"
+ },
+ {
+  "brand": "Viessmann",
+  "code": "64",
+  "aliases": [],
+  "title": "Flame lost during operation",
+  "causes": [
+   "No gas reaching the boiler, for example an empty prepayment meter.",
+   "A frozen or blocked condensate pipe.",
+   "A fault with ignition or flame sensing parts."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Check that other gas appliances, such as the hob, are working.",
+   "If you have a prepayment gas meter, make sure it has credit.",
+   "In freezing weather, check the plastic condensate pipe outside. Thaw any ice with warm (not boiling) water.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.viessmann.co.uk/content/dam/public-brands/gb/pdf/instructions/Vitodens%20050%20installation%20instructions.pdf"
+ },
+ {
+  "brand": "Viessmann",
+  "code": "62",
+  "aliases": [],
+  "title": "High limit safety cut-out tripped",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.viessmann.co.uk/content/dam/public-brands/gb/pdf/instructions/Vitodens%20050%20installation%20instructions.pdf"
+ },
+ {
+  "brand": "Viessmann",
+  "code": "63",
+  "aliases": [],
+  "title": "Flue gas temperature limiter tripped",
+  "causes": [
+   "Flue gas temperature has gone too high.",
+   "A combustion or flue problem."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Switch the boiler off.",
+   "Check from outside that the flue terminal is not visibly blocked. Do not touch it.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.viessmann.co.uk/content/dam/public-brands/gb/pdf/instructions/Vitodens%20050%20installation%20instructions.pdf"
+ },
+ {
+  "brand": "Viessmann",
+  "code": "71",
+  "aliases": [],
+  "title": "Fan speed too low",
+  "causes": [
+   "The fan is not running at the right speed.",
+   "A wiring or control board fault.",
+   "The flue may be blocked."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "Check from outside that nothing is blocking the flue terminal. Do not touch it.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.viessmann.co.uk/content/dam/public-brands/gb/pdf/instructions/Vitodens%20050%20installation%20instructions.pdf"
+ },
+ {
+  "brand": "Viessmann",
+  "code": "14",
+  "aliases": [
+   "F.14"
+  ],
+  "title": "Outside temperature sensor short circuit",
+  "causes": [
+   "The outside temperature sensor or its wiring is faulty.",
+   "A loose connection inside the boiler."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code returns, do not try to fix it yourself. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.viessmann.co.uk/content/dam/public-brands/gb/pdf/instructions/Vitodens%20050%20installation%20instructions.pdf"
+ },
+ {
+  "brand": "Viessmann",
+  "code": "A4",
+  "aliases": [],
+  "title": "Air in pump or flow too low",
+  "causes": [
+   "Air trapped in the internal pump.",
+   "Water flow through the boiler is below the minimum."
+  ],
+  "steps": [
+   "Let the automatic venting programme finish.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.viessmann.co.uk/en/support/fault-codes.html"
+ },
+ {
+  "brand": "Ariston",
+  "code": "101",
+  "aliases": [],
+  "title": "Overheating",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.ariston.com/it-it/the-comfort-way/consigli-e-soluzioni/codice-errore-caldaia-ariston"
+ },
+ {
+  "brand": "Ariston",
+  "code": "103",
+  "aliases": [
+   "104",
+   "105",
+   "106",
+   "107"
+  ],
+  "title": "Poor water circulation",
+  "causes": [
+   "Air in the system.",
+   "Low pressure or closed valves.",
+   "A pump problem."
+  ],
+  "steps": [
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Make sure the radiator valves are open.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.ariston.com/it-it/the-comfort-way/consigli-e-soluzioni/codice-errore-caldaia-ariston"
+ },
+ {
+  "brand": "Ariston",
+  "code": "108",
+  "aliases": [],
+  "title": "Low water pressure",
+  "causes": [
+   "Water has been lost from the heating system, often after bleeding radiators.",
+   "A small leak somewhere in the pipes or radiators.",
+   "A faulty pressure sensor."
+  ],
+  "steps": [
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If you often need to top up, there may be a leak. Ask an engineer to find it."
+  ],
+  "technician": "If the pressure keeps dropping, a Gas Safe registered engineer (UK) or licensed installer must find the leak; never open the boiler casing yourself.",
+  "source": "https://www.ariston.com/it-it/the-comfort-way/consigli-e-soluzioni/codice-errore-caldaia-ariston"
+ },
+ {
+  "brand": "Ariston",
+  "code": "110",
+  "aliases": [],
+  "title": "Temporary safety shutdown",
+  "causes": [
+   "A temporary condition has made the boiler stop for safety."
+  ],
+  "steps": [
+   "Wait; the boiler should restart by itself once the cause clears.",
+   "If it stays off, switch it off at the mains and contact service."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.ariston.com/it-it/the-comfort-way/consigli-e-soluzioni/codice-errore-caldaia-ariston"
+ },
+ {
+  "brand": "Ariston",
+  "code": "118",
+  "aliases": [],
+  "title": "Primary circuit sensor problem",
+  "causes": [
+   "The primary circuit sensor or its wiring is faulty.",
+   "A loose connection inside the boiler."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code returns, do not try to fix it yourself. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.ariston.com/it-it/the-comfort-way/consigli-e-soluzioni/codice-errore-caldaia-ariston"
+ },
+ {
+  "brand": "Ariston",
+  "code": "201",
+  "aliases": [],
+  "title": "Water circuit sensor fault",
+  "causes": [
+   "The water circuit sensor or its wiring is faulty.",
+   "A loose connection inside the boiler."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code returns, do not try to fix it yourself. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.ariston.com/it-it/the-comfort-way/consigli-e-soluzioni/codice-errore-caldaia-ariston"
+ },
+ {
+  "brand": "Ariston",
+  "code": "304",
+  "aliases": [],
+  "title": "Too many resets",
+  "causes": [
+   "The reset button has been pressed too many times."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Do not keep resetting. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "A Gas Safe registered engineer (UK) or licensed installer should find why the boiler keeps locking out.",
+  "source": "https://www.ariston.com/it-it/the-comfort-way/consigli-e-soluzioni/codice-errore-caldaia-ariston"
+ },
+ {
+  "brand": "Ariston",
+  "code": "305",
+  "aliases": [
+   "306",
+   "307"
+  ],
+  "title": "Main board error",
+  "causes": [
+   "An electronic fault on the main control board."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.ariston.com/it-it/the-comfort-way/consigli-e-soluzioni/codice-errore-caldaia-ariston"
+ },
+ {
+  "brand": "Ariston",
+  "code": "501",
+  "aliases": [],
+  "title": "No flame detected",
+  "causes": [
+   "No gas reaching the boiler, for example an empty prepayment meter.",
+   "A frozen or blocked condensate pipe.",
+   "A fault with ignition or flame sensing parts."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Check that other gas appliances, such as the hob, are working.",
+   "If you have a prepayment gas meter, make sure it has credit.",
+   "In freezing weather, check the plastic condensate pipe outside. Thaw any ice with warm (not boiling) water.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.ariston.com/it-it/the-comfort-way/consigli-e-soluzioni/codice-errore-caldaia-ariston"
+ },
+ {
+  "brand": "Ariston",
+  "code": "601",
+  "aliases": [],
+  "title": "Flue gas exhaust fault",
+  "causes": [
+   "The flue is not clearing combustion gases properly."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Wait a few minutes; the boiler will try again.",
+   "If it locks out again, switch it off and contact a qualified engineer."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.ariston.com/it-it/the-comfort-way/consigli-e-soluzioni/codice-errore-caldaia-ariston"
+ },
+ {
+  "brand": "Ariston",
+  "code": "611",
+  "aliases": [],
+  "title": "Fan fault",
+  "causes": [
+   "The fan is not running at the right speed.",
+   "A wiring or control board fault.",
+   "The flue may be blocked."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "Check from outside that nothing is blocking the flue terminal. Do not touch it.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.ariston.com/it-it/the-comfort-way/consigli-e-soluzioni/codice-errore-caldaia-ariston"
+ },
+ {
+  "brand": "Ariston",
+  "code": "802",
+  "aliases": [],
+  "title": "Automatic combustion calibration failed",
+  "causes": [
+   "The boiler could not complete its self-adjustment of combustion."
+  ],
+  "steps": [
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.ariston.com/it-it/the-comfort-way/consigli-e-soluzioni/codice-errore-caldaia-ariston"
+ },
+ {
+  "brand": "Saunier Duval",
+  "code": "F.22",
+  "aliases": [
+   "F22",
+   "F.022"
+  ],
+  "title": "Low water pressure",
+  "causes": [
+   "Water has been lost from the heating system, often after bleeding radiators.",
+   "A small leak somewhere in the pipes or radiators.",
+   "A faulty pressure sensor."
+  ],
+  "steps": [
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If you often need to top up, there may be a leak. Ask an engineer to find it."
+  ],
+  "technician": "If the pressure keeps dropping, a Gas Safe registered engineer (UK) or licensed installer must find the leak; never open the boiler casing yourself.",
+  "source": "https://www.saunierduval.es/downloads/thelia-condens/thelia-condens-25/thelia-condens-25-manual-de-usuario-1298862.pdf"
+ },
+ {
+  "brand": "Saunier Duval",
+  "code": "F.28",
+  "aliases": [
+   "F28",
+   "F.028"
+  ],
+  "title": "Boiler failed to light",
+  "causes": [
+   "No gas reaching the boiler, for example an empty prepayment meter.",
+   "A frozen or blocked condensate pipe.",
+   "A fault with ignition or flame sensing parts."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Check that other gas appliances, such as the hob, are working.",
+   "If you have a prepayment gas meter, make sure it has credit.",
+   "In freezing weather, check the plastic condensate pipe outside. Thaw any ice with warm (not boiling) water.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.saunierduval.es/downloads/thelia-condens/thelia-condens-25/thelia-condens-25-manual-de-usuario-1298862.pdf"
+ },
+ {
+  "brand": "Saunier Duval",
+  "code": "F.20",
+  "aliases": [
+   "F20"
+  ],
+  "title": "Safety temperature limiter tripped",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.saunierduval.es/downloads/isomax-condens-35/isomax-condens-35-manual-de-instalacion-1295050.pdf"
+ },
+ {
+  "brand": "Saunier Duval",
+  "code": "F.23",
+  "aliases": [
+   "F23"
+  ],
+  "title": "Flow and return temperature difference too large",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.saunierduval.es/downloads/isomax-condens-35/isomax-condens-35-manual-de-instalacion-1295050.pdf"
+ },
+ {
+  "brand": "Saunier Duval",
+  "code": "F.24",
+  "aliases": [
+   "F24"
+  ],
+  "title": "Temperature rising too fast",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.saunierduval.es/downloads/isomax-condens-35/isomax-condens-35-manual-de-instalacion-1295050.pdf"
+ },
+ {
+  "brand": "Saunier Duval",
+  "code": "F.00",
+  "aliases": [
+   "F.0",
+   "F0"
+  ],
+  "title": "Flow temperature sensor open circuit",
+  "causes": [
+   "The flow temperature sensor or its wiring is faulty.",
+   "A loose connection inside the boiler."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code returns, do not try to fix it yourself. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.saunierduval.es/downloads/isomax-condens-35/isomax-condens-35-manual-de-instalacion-1295050.pdf"
+ },
+ {
+  "brand": "Saunier Duval",
+  "code": "F.10",
+  "aliases": [
+   "F10"
+  ],
+  "title": "Flow temperature sensor short circuit",
+  "causes": [
+   "The flow temperature sensor or its wiring is faulty.",
+   "A loose connection inside the boiler."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code returns, do not try to fix it yourself. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.saunierduval.es/downloads/isomax-condens-35/isomax-condens-35-manual-de-instalacion-1295050.pdf"
+ },
+ {
+  "brand": "Immergas",
+  "code": "E01",
+  "aliases": [
+   "01"
+  ],
+  "title": "No ignition lockout",
+  "causes": [
+   "No gas reaching the boiler, for example an empty prepayment meter.",
+   "A frozen or blocked condensate pipe.",
+   "A fault with ignition or flame sensing parts."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Check that other gas appliances, such as the hob, are working.",
+   "If you have a prepayment gas meter, make sure it has credit.",
+   "In freezing weather, check the plastic condensate pipe outside. Thaw any ice with warm (not boiling) water.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.immergas.com/media/Prodotto/63cc199f3fdcb6a15d98c62b/Eolo%20Mythos%20Dom%2010-18-24%201E-NON-CE_1041321_003_00MK4.pdf?ef=_ENG.pdf"
+ },
+ {
+  "brand": "Immergas",
+  "code": "E02",
+  "aliases": [
+   "02"
+  ],
+  "title": "Safety thermostat lockout (overheating)",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.immergas.com/media/Prodotto/63cc199f3fdcb6a15d98c62b/Eolo%20Mythos%20Dom%2010-18-24%201E-NON-CE_1041321_003_00MK4.pdf?ef=_ENG.pdf"
+ },
+ {
+  "brand": "Immergas",
+  "code": "E05",
+  "aliases": [
+   "05"
+  ],
+  "title": "Flow probe fault",
+  "causes": [
+   "The flow temperature probe or its wiring is faulty.",
+   "A loose connection inside the boiler."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code returns, do not try to fix it yourself. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.immergas.com/media/Prodotto/63cc199f3fdcb6a15d98c62b/Eolo%20Mythos%20Dom%2010-18-24%201E-NON-CE_1041321_003_00MK4.pdf?ef=_ENG.pdf"
+ },
+ {
+  "brand": "Immergas",
+  "code": "E06",
+  "aliases": [
+   "06"
+  ],
+  "title": "Hot water probe fault",
+  "causes": [
+   "The hot water temperature probe or its wiring is faulty.",
+   "A loose connection inside the boiler."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code returns, do not try to fix it yourself. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.immergas.com/media/Prodotto/63cc199f3fdcb6a15d98c62b/Eolo%20Mythos%20Dom%2010-18-24%201E-NON-CE_1041321_003_00MK4.pdf?ef=_ENG.pdf"
+ },
+ {
+  "brand": "Immergas",
+  "code": "E10",
+  "aliases": [
+   "10"
+  ],
+  "title": "Insufficient system pressure",
+  "causes": [
+   "Water has been lost from the heating system, often after bleeding radiators.",
+   "A small leak somewhere in the pipes or radiators.",
+   "A faulty pressure sensor."
+  ],
+  "steps": [
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If you often need to top up, there may be a leak. Ask an engineer to find it."
+  ],
+  "technician": "If the pressure keeps dropping, a Gas Safe registered engineer (UK) or licensed installer must find the leak; never open the boiler casing yourself.",
+  "source": "https://www.immergas.com/media/Prodotto/63cc199f3fdcb6a15d98c62b/Eolo%20Mythos%20Dom%2010-18-24%201E-NON-CE_1041321_003_00MK4.pdf?ef=_ENG.pdf"
+ },
+ {
+  "brand": "Immergas",
+  "code": "E11",
+  "aliases": [
+   "11"
+  ],
+  "title": "Flue pressure switch fault",
+  "causes": [
+   "The fan is not running at the right speed.",
+   "A wiring or control board fault.",
+   "The flue may be blocked."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "Check from outside that nothing is blocking the flue terminal. Do not touch it.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.immergas.com/media/Prodotto/63cc199f3fdcb6a15d98c62b/Eolo%20Mythos%20Dom%2010-18-24%201E-NON-CE_1041321_003_00MK4.pdf?ef=_ENG.pdf"
+ },
+ {
+  "brand": "Immergas",
+  "code": "E20",
+  "aliases": [
+   "20"
+  ],
+  "title": "Parasite flame lockout",
+  "causes": [
+   "A fault in the flame sensing circuit.",
+   "A gas valve that is not closing fully."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Switch the boiler off at the mains switch.",
+   "Do not keep resetting. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "This is a safety fault; only a Gas Safe registered engineer (UK) or licensed gas installer may inspect the gas valve and flame sensing parts.",
+  "source": "https://www.immergas.com/media/Prodotto/63cc199f3fdcb6a15d98c62b/Eolo%20Mythos%20Dom%2010-18-24%201E-NON-CE_1041321_003_00MK4.pdf?ef=_ENG.pdf"
+ },
+ {
+  "brand": "Immergas",
+  "code": "E27",
+  "aliases": [
+   "27"
+  ],
+  "title": "Insufficient circulation",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.immergas.com/media/Prodotto/63cc199f3fdcb6a15d98c62b/Eolo%20Mythos%20Dom%2010-18-24%201E-NON-CE_1041321_003_00MK4.pdf?ef=_ENG.pdf"
+ },
+ {
+  "brand": "Immergas",
+  "code": "E37",
+  "aliases": [
+   "37"
+  ],
+  "title": "Low supply voltage",
+  "causes": [
+   "The mains voltage is below the allowed limit."
+  ],
+  "steps": [
+   "Check whether other appliances are affected.",
+   "Wait; the boiler restarts by itself when the voltage is normal.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "If the supply is fine, a Gas Safe registered engineer (UK) or licensed installer should test the boiler; mains wiring checks are for a qualified electrician.",
+  "source": "https://www.immergas.com/media/Prodotto/63cc199f3fdcb6a15d98c62b/Eolo%20Mythos%20Dom%2010-18-24%201E-NON-CE_1041321_003_00MK4.pdf?ef=_ENG.pdf"
+ },
+ {
+  "brand": "Immergas",
+  "code": "E38",
+  "aliases": [
+   "38"
+  ],
+  "title": "Flame signal lost",
+  "causes": [
+   "No gas reaching the boiler, for example an empty prepayment meter.",
+   "A frozen or blocked condensate pipe.",
+   "A fault with ignition or flame sensing parts."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Check that other gas appliances, such as the hob, are working.",
+   "If you have a prepayment gas meter, make sure it has credit.",
+   "In freezing weather, check the plastic condensate pipe outside. Thaw any ice with warm (not boiling) water.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.immergas.com/media/Prodotto/63cc199f3fdcb6a15d98c62b/Eolo%20Mythos%20Dom%2010-18-24%201E-NON-CE_1041321_003_00MK4.pdf?ef=_ENG.pdf"
+ },
+ {
+  "brand": "Immergas",
+  "code": "E43",
+  "aliases": [
+   "43"
+  ],
+  "title": "Lockout after repeated flame loss",
+  "causes": [
+   "No gas reaching the boiler, for example an empty prepayment meter.",
+   "A frozen or blocked condensate pipe.",
+   "A fault with ignition or flame sensing parts."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Check that other gas appliances, such as the hob, are working.",
+   "If you have a prepayment gas meter, make sure it has credit.",
+   "In freezing weather, check the plastic condensate pipe outside. Thaw any ice with warm (not boiling) water.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.immergas.com/media/Prodotto/63cc199f3fdcb6a15d98c62b/Eolo%20Mythos%20Dom%2010-18-24%201E-NON-CE_1041321_003_00MK4.pdf?ef=_ENG.pdf"
+ },
+ {
+  "brand": "Ferroli",
+  "code": "A01",
+  "aliases": [],
+  "title": "No burner ignition",
+  "causes": [
+   "No gas reaching the boiler, for example an empty prepayment meter.",
+   "A frozen or blocked condensate pipe.",
+   "A fault with ignition or flame sensing parts."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Check that other gas appliances, such as the hob, are working.",
+   "If you have a prepayment gas meter, make sure it has credit.",
+   "In freezing weather, check the plastic condensate pipe outside. Thaw any ice with warm (not boiling) water.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.ferroli.co.uk/wp-content/uploads/2016/07/i25_i29_-_ErP_Manual.pdf"
+ },
+ {
+  "brand": "Ferroli",
+  "code": "A02",
+  "aliases": [],
+  "title": "Flame signal with burner off",
+  "causes": [
+   "A fault in the flame sensing circuit.",
+   "A gas valve that is not closing fully."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Switch the boiler off at the mains switch.",
+   "Do not keep resetting. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "This is a safety fault; only a Gas Safe registered engineer (UK) or licensed gas installer may inspect the gas valve and flame sensing parts.",
+  "source": "https://www.ferroli.co.uk/wp-content/uploads/2016/07/i25_i29_-_ErP_Manual.pdf"
+ },
+ {
+  "brand": "Ferroli",
+  "code": "A03",
+  "aliases": [],
+  "title": "Overtemperature protection",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.ferroli.co.uk/wp-content/uploads/2016/07/i25_i29_-_ErP_Manual.pdf"
+ },
+ {
+  "brand": "Ferroli",
+  "code": "F05",
+  "aliases": [],
+  "title": "Air pressure switch did not close",
+  "causes": [
+   "The fan is not running at the right speed.",
+   "A wiring or control board fault.",
+   "The flue may be blocked."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "Check from outside that nothing is blocking the flue terminal. Do not touch it.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.ferroli.co.uk/wp-content/uploads/2016/07/i25_i29_-_ErP_Manual.pdf"
+ },
+ {
+  "brand": "Ferroli",
+  "code": "A06",
+  "aliases": [],
+  "title": "No flame after ignition",
+  "causes": [
+   "No gas reaching the boiler, for example an empty prepayment meter.",
+   "A frozen or blocked condensate pipe.",
+   "A fault with ignition or flame sensing parts."
+  ],
+  "steps": [
+   "If you smell gas, do not reset. Leave the property and call the gas emergency number (0800 111 999 in the UK).",
+   "Check that other gas appliances, such as the hob, are working.",
+   "If you have a prepayment gas meter, make sure it has credit.",
+   "In freezing weather, check the plastic condensate pipe outside. Thaw any ice with warm (not boiling) water.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Any work on the gas or combustion parts must be done by a Gas Safe registered engineer in the UK or a licensed gas installer elsewhere.",
+  "source": "https://www.ferroli.co.uk/wp-content/uploads/2016/07/i25_i29_-_ErP_Manual.pdf"
+ },
+ {
+  "brand": "Ferroli",
+  "code": "F10",
+  "aliases": [],
+  "title": "Flow sensor fault",
+  "causes": [
+   "The flow (delivery) sensor or its wiring is faulty.",
+   "A loose connection inside the boiler."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code returns, do not try to fix it yourself. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.ferroli.co.uk/wp-content/uploads/2016/07/i25_i29_-_ErP_Manual.pdf"
+ },
+ {
+  "brand": "Ferroli",
+  "code": "F11",
+  "aliases": [],
+  "title": "Hot water sensor fault",
+  "causes": [
+   "The hot water sensor or its wiring is faulty.",
+   "A loose connection inside the boiler."
+  ],
+  "steps": [
+   "Switch the boiler off at the mains switch, wait 30 seconds and switch it back on.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code returns, do not try to fix it yourself. Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.ferroli.co.uk/wp-content/uploads/2016/07/i25_i29_-_ErP_Manual.pdf"
+ },
+ {
+  "brand": "Ferroli",
+  "code": "F34",
+  "aliases": [],
+  "title": "Supply voltage too low",
+  "causes": [
+   "The mains voltage is below about 140 V."
+  ],
+  "steps": [
+   "Check whether other appliances are affected.",
+   "Wait; the boiler restarts by itself when the voltage is normal.",
+   "Note the code and contact your installer or the manufacturer's service line."
+  ],
+  "technician": "If the supply is fine, a Gas Safe registered engineer (UK) or licensed installer should test the boiler; mains wiring checks are for a qualified electrician.",
+  "source": "https://www.ferroli.co.uk/wp-content/uploads/2016/07/i25_i29_-_ErP_Manual.pdf"
+ },
+ {
+  "brand": "Ferroli",
+  "code": "F37",
+  "aliases": [],
+  "title": "Incorrect system water pressure",
+  "causes": [
+   "Water has been lost from the heating system, often after bleeding radiators.",
+   "A small leak somewhere in the pipes or radiators.",
+   "A faulty pressure sensor."
+  ],
+  "steps": [
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If you often need to top up, there may be a leak. Ask an engineer to find it."
+  ],
+  "technician": "If the pressure keeps dropping, a Gas Safe registered engineer (UK) or licensed installer must find the leak; never open the boiler casing yourself.",
+  "source": "https://www.ferroli.co.uk/wp-content/uploads/2016/07/i25_i29_-_ErP_Manual.pdf"
+ },
+ {
+  "brand": "Ferroli",
+  "code": "F43",
+  "aliases": [],
+  "title": "Heat exchanger protection",
+  "causes": [
+   "Water is not circulating well through the boiler.",
+   "Closed radiator valves or air in the system.",
+   "Low system pressure or a pump fault."
+  ],
+  "steps": [
+   "Make sure the radiator valves are open.",
+   "Look at the pressure gauge. With the heating cold it should read about 1 to 1.5 bar.",
+   "If the pressure is low, top it up with the filling loop exactly as your user manual shows, then close the loop fully.",
+   "Bleed any radiators that are cold at the top, then check the pressure again.",
+   "Press the reset button once and give the boiler a few minutes to restart.",
+   "If the code comes back after one or two resets, stop resetting and book a repair."
+  ],
+  "technician": "Internal parts must only be checked by a Gas Safe registered engineer (UK) or a licensed heating installer.",
+  "source": "https://www.ferroli.co.uk/wp-content/uploads/2016/07/i25_i29_-_ErP_Manual.pdf"
+ },
+ {
+  "brand": "Navien",
+  "code": "E302",
+  "aliases": [
+   "302"
+  ],
+  "title": "System pressure too low",
+  "causes": [
+   "Water has been lost from the heating system, often after bleeding radiators.",
+   "A small leak somewhere in the pipes or radiators.",
+   "A faulty pressure sensor."
+  ],
+  "steps": [
+   "Look at the pressure gauge or display. It should read 1 to 1.2 bar.",
+   "If it is low, top up with the filling link or loop as shown in your user manual, stopping at 1 to 1.2 bar.",
+   "Do not go above 1.5 bar. If you overfill, bleed a radiator to bring it down.",
+   "If you often need to top up, there may be a leak. Ask an engineer to find it."
+  ],
+  "technician": "If the pressure keeps dropping, a Gas Safe registered engineer (UK) or licensed installer must find the leak; never open the boiler casing yourself.",
+  "source": "https://navien.co.uk/support/faqs/"
+ }
+]

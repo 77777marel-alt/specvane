@@ -1,0 +1,1180 @@
+{
+ "LG|CH00": {
+  "title": "El equipo necesita revisión (error general)",
+  "causes": [
+   "Una fluctuación temporal de la corriente o una perturbación eléctrica.",
+   "Una avería interna que hay que revisar."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si CH00 vuelve tras cortar y restablecer la corriente, solicite un técnico de LG."
+ },
+ "LG|CH01": {
+  "title": "Avería del sensor de temperatura",
+  "causes": [
+   "Un sensor de temperatura o de tubería está averiado o se ha soltado.",
+   "Un error de la placa principal o un breve fallo eléctrico."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo.",
+   "Compruebe si el código ha desaparecido."
+  ],
+  "technician": "Si el código vuelve tras el reinicio, deje de usar el equipo y solicite el servicio técnico de LG. No abra el equipo."
+ },
+ "LG|CH02": {
+  "title": "Avería del sensor de temperatura",
+  "causes": [
+   "Un sensor de temperatura o de tubería está averiado o se ha soltado.",
+   "Un error de la placa principal o un breve fallo eléctrico."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo.",
+   "Compruebe si el código ha desaparecido."
+  ],
+  "technician": "Si el código vuelve tras el reinicio, deje de usar el equipo y solicite el servicio técnico de LG. No abra el equipo."
+ },
+ "LG|CH06": {
+  "title": "Avería del sensor de temperatura",
+  "causes": [
+   "Un sensor de temperatura o de tubería está averiado o se ha soltado.",
+   "Un error de la placa principal o un breve fallo eléctrico."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo.",
+   "Compruebe si el código ha desaparecido."
+  ],
+  "technician": "Si el código vuelve tras el reinicio, deje de usar el equipo y solicite el servicio técnico de LG. No abra el equipo."
+ },
+ "LG|CH21": {
+  "title": "Avería del compresor exterior o de su circuito de control",
+  "causes": [
+   "Un breve problema de corriente.",
+   "Una avería en el compresor, en su circuito de control o en el circuito de protección de la unidad exterior."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código sigue, deje de usar el equipo y solicite un técnico de LG."
+ },
+ "LG|CH26": {
+  "title": "Avería del compresor exterior o de su circuito de control",
+  "causes": [
+   "Un breve problema de corriente.",
+   "Una avería en el compresor, en su circuito de control o en el circuito de protección de la unidad exterior."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código sigue, deje de usar el equipo y solicite un técnico de LG."
+ },
+ "LG|CH04": {
+  "title": "Problema de desagüe o depósito de condensación lleno",
+  "causes": [
+   "El desagüe interior no funciona (equipos de techo).",
+   "En equipos de ventana y portátiles, el depósito de condensación está lleno, a menudo en días húmedos."
+  ],
+  "steps": [
+   "Apague y desenchufe el equipo.",
+   "En equipos de ventana o portátiles, ponga un recipiente de unos 1,5 l bajo la salida de desagüe de la parte trasera inferior y quite el tapón.",
+   "Deje salir el agua y vuelva a colocar el tapón con firmeza.",
+   "Puede conectar una manguera para un desagüe continuo; asegúrese de que el agua no gotea sobre nadie debajo."
+  ],
+  "technician": "Si CH04/FL aparece a menudo incluso con tiempo seco, o en un equipo de techo tras un reinicio, solicite el servicio técnico de LG."
+ },
+ "LG|CH05": {
+  "title": "Error de comunicación entre unidad interior y exterior",
+  "causes": [
+   "Las unidades interior y exterior no se comunican.",
+   "Problema de cableado tras una instalación nueva o un traslado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código sigue tras el reinicio, o el equipo se acaba de instalar o trasladar, solicite el servicio técnico."
+ },
+ "LG|CH07": {
+  "title": "Conflicto de modos de funcionamiento",
+  "causes": [
+   "Dos unidades interiores de un mismo sistema están en modos opuestos (calefacción frente a refrigeración/deshumidificación)."
+  ],
+  "steps": [
+   "Ponga todas las unidades interiores en calefacción, o todas en refrigeración/deshumidificación.",
+   "Los modos de ventilación y purificación de aire pueden funcionar con cualquier modo."
+  ],
+  "technician": "Si el código sigue con todas las unidades en el mismo modo, contacte con el servicio de asistencia de LG."
+ },
+ "LG|CH10": {
+  "title": "Problema del ventilador interior",
+  "causes": [
+   "Suciedad o hielo bloquea el ventilador interior.",
+   "Avería del motor del ventilador."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Quite la suciedad visible de la entrada y la salida de aire. No abra la carcasa.",
+   "Revise los filtros de aire de la unidad interior y límpielos si tienen polvo.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si nada bloquea el ventilador y el código vuelve, solicite el servicio técnico."
+ },
+ "LG|CH67": {
+  "title": "Problema del ventilador exterior",
+  "causes": [
+   "Suciedad o nieve bloquea el ventilador exterior.",
+   "Avería del motor del ventilador exterior."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Retire hojas, nieve u objetos de alrededor de la rejilla de la unidad exterior.",
+   "Asegúrese de que nada bloquea el paso del aire alrededor de la unidad exterior (cajas, plantas, nieve, hojas).",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si nada lo bloquea y el código vuelve, solicite el servicio técnico."
+ },
+ "LG|CH38": {
+  "title": "Falta de refrigerante",
+  "causes": [
+   "La carga de refrigerante es baja, a menudo tras la instalación o un traslado.",
+   "Una conexión de tubería floja o una fuga."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el equipo se instaló o trasladó hace poco, llame al instalador; si no, contacte con el servicio de asistencia de LG si el código vuelve. Solo un técnico puede trabajar con el refrigerante."
+ },
+ "LG|CH54": {
+  "title": "Fase invertida o error de alimentación",
+  "causes": [
+   "Un breve corte de luz o una obra eléctrica reciente.",
+   "El cableado de las fases está invertido."
+  ],
+  "steps": [
+   "Baje y vuelva a subir el interruptor del aire acondicionado en el cuadro eléctrico."
+  ],
+  "technician": "Si el código apareció tras una obra eléctrica, pida a ese electricista que corrija el cableado; si no, solicite el servicio técnico de LG."
+ },
+ "LG|CH61": {
+  "title": "Sobrecalentamiento del equipo",
+  "causes": [
+   "En refrigeración: la unidad exterior está mal ventilada, por ejemplo en un balcón cerrado.",
+   "En calefacción: el filtro interior está obstruido."
+  ],
+  "steps": [
+   "En refrigeración, abra las ventanas o cerramientos cercanos a la unidad exterior y despeje los objetos de alrededor.",
+   "Revise los filtros de aire de la unidad interior y límpielos si tienen polvo.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código sigue tras el reinicio y con mejor ventilación, un técnico debe revisar el equipo."
+ },
+ "LG|CH66": {
+  "title": "Problema de cableado o tuberías entre unidad interior y exterior",
+  "causes": [
+   "Un problema en la línea de comunicación o en la conexión de tuberías entre las unidades."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el equipo se acaba de instalar o trasladar, llame al instalador; si el código sigue, solicite un técnico."
+ },
+ "LG|CH90": {
+  "title": "Protección durante la prueba de funcionamiento",
+  "causes": [
+   "La prueba de funcionamiento detectó un problema, a menudo en las conexiones de las tuberías."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el equipo es nuevo o se ha trasladado, pida al instalador que revise las tuberías; si no, solicite el servicio técnico si sigue."
+ },
+ "LG|CH93": {
+  "title": "Comunicación inestable entre unidad interior y exterior",
+  "causes": [
+   "Comunicación inestable durante la prueba de funcionamiento.",
+   "En modelos más nuevos, la unidad exterior no recibe corriente."
+  ],
+  "steps": [
+   "Compruebe que los dos cables de alimentación están enchufados (los modelos más nuevos tienen uno por unidad).",
+   "Enchufe la unidad exterior directamente a una toma de pared, no a una regleta.",
+   "Asegúrese de que el interruptor del aire acondicionado está subido. Si no se mantiene, no lo siga rearmando.",
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el interruptor sigue saltando o el código sigue, solicite el servicio técnico de LG."
+ },
+ "Samsung|E121": {
+  "title": "Avería del sensor de temperatura ambiente",
+  "causes": [
+   "El sensor de temperatura ambiente interior está averiado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo.",
+   "Anote el código y el número de modelo antes de llamar al servicio técnico."
+  ],
+  "technician": "Esto requiere una reparación autorizada de Samsung; contacte con el servicio técnico de Samsung."
+ },
+ "Samsung|E122": {
+  "title": "Avería del sensor de temperatura del intercambiador de calor",
+  "causes": [
+   "El sensor del intercambiador de calor interior está averiado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo.",
+   "Anote el código y el número de modelo antes de llamar al servicio técnico."
+  ],
+  "technician": "Esto requiere una reparación autorizada de Samsung; contacte con el servicio técnico de Samsung."
+ },
+ "Samsung|E154": {
+  "title": "El ventilador interior no gira",
+  "causes": [
+   "El motor del ventilador interior está en modo de protección, por ejemplo tras una subida de tensión.",
+   "El motor del ventilador o la placa de control está averiado."
+  ],
+  "steps": [
+   "Apague el equipo, espere unos segundos y vuelva a encenderlo.",
+   "Observe si el código vuelve en unos 10 segundos.",
+   "En zonas con subidas de tensión frecuentes, valore instalar un estabilizador de tensión."
+  ],
+  "technician": "Si el código vuelve nada más reiniciar, contacte con el servicio técnico de Samsung."
+ },
+ "Samsung|E163": {
+  "title": "Error de memoria de la placa de control (EEPROM)",
+  "causes": [
+   "Los datos de la memoria de la placa principal son incorrectos o faltan."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo.",
+   "Anote el código y el número de modelo antes de llamar al servicio técnico."
+  ],
+  "technician": "Esto requiere una reparación autorizada de Samsung; contacte con el servicio técnico de Samsung."
+ },
+ "Samsung|CF": {
+  "title": "Aviso de limpieza del filtro",
+  "causes": [
+   "Ha terminado el temporizador de limpieza del filtro."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Saque y limpie los filtros de la unidad interior.",
+   "Vuelva a colocar los filtros y reinicie el indicador del filtro."
+  ],
+  "technician": "Para este aviso no hace falta un técnico."
+ },
+ "Samsung|dF": {
+  "title": "Desescarche en modo calefacción",
+  "causes": [
+   "La unidad exterior está derritiendo el hielo durante la calefacción. Es normal que salga vapor de la unidad exterior."
+  ],
+  "steps": [
+   "Espere; la calefacción se reanuda al terminar el desescarche.",
+   "No hace falta hacer nada."
+  ],
+  "technician": "Llame al servicio técnico solo si el equipo se queda mucho tiempo en desescarche y no calienta."
+ },
+ "Daikin|A1": {
+  "title": "Avería de la placa electrónica de la unidad interior",
+  "causes": [
+   "La placa de control interior tiene una avería."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|A3": {
+  "title": "Problema de control del nivel de desagüe",
+  "causes": [
+   "El agua de condensación no sale de la unidad interior.",
+   "El tubo de desagüe puede estar obstruido."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Compruebe que la manguera de desagüe exterior no está doblada ni obstruida.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|A5": {
+  "title": "Protección antihielo o de alta presión",
+  "causes": [
+   "En refrigeración, la batería interior se enfría demasiado.",
+   "En calefacción, la presión es demasiado alta, a menudo por falta de paso de aire."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Revise los filtros de aire de la unidad interior y límpielos si tienen polvo.",
+   "Compruebe que nada bloquea la entrada o la salida de aire de la unidad interior.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|A6": {
+  "title": "Avería del motor del ventilador interior",
+  "causes": [
+   "El motor del ventilador interior o su control ha fallado o está bloqueado."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Compruebe que no hay nada atascado en la salida de la unidad interior. No abra la carcasa.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|C4": {
+  "title": "Avería del sensor de temperatura de la batería interior",
+  "causes": [
+   "El termistor del tubo de líquido del intercambiador interior está averiado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|C9": {
+  "title": "Avería del sensor de ambiente (aire de aspiración)",
+  "causes": [
+   "El termistor del aire interior está averiado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|E1": {
+  "title": "Avería de la placa electrónica de la unidad exterior",
+  "causes": [
+   "La placa de control exterior tiene una avería."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|E3": {
+  "title": "Ha saltado el presostato de alta presión",
+  "causes": [
+   "La presión del sistema es demasiado alta, a menudo por falta de paso de aire exterior o una batería sucia."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Asegúrese de que nada bloquea el paso del aire alrededor de la unidad exterior (cajas, plantas, nieve, hojas).",
+   "Revise los filtros de aire de la unidad interior y límpielos si tienen polvo.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|E5": {
+  "title": "Sobrecalentamiento o bloqueo del compresor",
+  "causes": [
+   "El compresor inverter se ha sobrecalentado o no arranca."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Asegúrese de que nada bloquea el paso del aire alrededor de la unidad exterior (cajas, plantas, nieve, hojas).",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|E6": {
+  "title": "Sobreintensidad o bloqueo del compresor",
+  "causes": [
+   "El compresor consume demasiada corriente o está atascado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|E7": {
+  "title": "Avería del motor del ventilador exterior",
+  "causes": [
+   "El sistema del motor del ventilador exterior tiene una avería o está bloqueado."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Retire hojas, nieve u objetos de la rejilla de la unidad exterior.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|E8": {
+  "title": "Sobreintensidad del compresor",
+  "causes": [
+   "La corriente de entrada del compresor inverter es demasiado alta."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|F3": {
+  "title": "Temperatura del tubo de descarga demasiado alta",
+  "causes": [
+   "El tubo de descarga del compresor se sobrecalienta, por ejemplo por falta de refrigerante o de paso de aire."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Asegúrese de que nada bloquea el paso del aire alrededor de la unidad exterior (cajas, plantas, nieve, hojas).",
+   "Revise los filtros de aire de la unidad interior y límpielos si tienen polvo.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|F6": {
+  "title": "Presión alta anómala",
+  "causes": [
+   "La presión del refrigerante es demasiado alta, quizá por exceso de carga o por paso de aire bloqueado."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Asegúrese de que nada bloquea el paso del aire alrededor de la unidad exterior (cajas, plantas, nieve, hojas).",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|H6": {
+  "title": "Avería del sensor de posición del compresor",
+  "causes": [
+   "Ha fallado la detección de la posición del rotor del compresor."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|H8": {
+  "title": "Avería del sensor de corriente del compresor",
+  "causes": [
+   "El circuito de corriente de entrada del compresor (CT) tiene una avería."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|H9": {
+  "title": "Avería del sensor de aire exterior",
+  "causes": [
+   "El termistor del aire exterior está averiado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|J3": {
+  "title": "Avería del sensor del tubo de descarga",
+  "causes": [
+   "El termistor del tubo de descarga está averiado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|L4": {
+  "title": "Sobrecalentamiento del disipador del inverter",
+  "causes": [
+   "La aleta de refrigeración del inverter está demasiado caliente, a menudo por paso de aire exterior bloqueado."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Asegúrese de que nada bloquea el paso del aire alrededor de la unidad exterior (cajas, plantas, nieve, hojas).",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|L5": {
+  "title": "Sobreintensidad del inverter",
+  "causes": [
+   "Una sobreintensidad repentina en la salida del inverter, a menudo por un problema del compresor."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|U0": {
+  "title": "Falta de refrigerante",
+  "causes": [
+   "Al sistema le falta refrigerante, normalmente por una fuga."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Revise los filtros de aire de la unidad interior y límpielos si tienen polvo.",
+   "No intente añadir refrigerante usted mismo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|U2": {
+  "title": "Problema de alimentación eléctrica",
+  "causes": [
+   "La tensión de alimentación es anómala o hubo un breve corte de luz."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Daikin|U4": {
+  "title": "Avería de comunicación entre unidad interior y exterior",
+  "causes": [
+   "Se pierden las señales entre la unidad interior y la exterior.",
+   "Un problema de cableado o una avería en cualquiera de las placas."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si el código vuelve tras estas comprobaciones, llame a un técnico del servicio de Daikin; esta avería necesita un diagnóstico profesional."
+ },
+ "Panasonic|H00": {
+  "title": "No hay averías registradas",
+  "causes": [
+   "La memoria de autodiagnóstico no tiene ninguna anomalía registrada."
+  ],
+  "steps": [
+   "No hace falta hacer nada.",
+   "Si el equipo no funciona, revise la alimentación eléctrica y las pilas del mando."
+  ],
+  "technician": "Si el equipo no funciona pero muestra H00, contacte con un técnico del servicio de Panasonic."
+ },
+ "Panasonic|H11": {
+  "title": "Avería de comunicación entre unidad interior y exterior",
+  "causes": [
+   "Las unidades interior y exterior no se comunican."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Panasonic indica que las reparaciones para este código debe hacerlas un técnico cualificado; llame a uno si el código vuelve."
+ },
+ "Panasonic|H12": {
+  "title": "Capacidad de la unidad interior no compatible",
+  "causes": [
+   "La unidad interior no coincide con la capacidad de la unidad exterior; suele ser un problema de instalación."
+  ],
+  "steps": [
+   "Anote el código y el número de modelo antes de llamar al servicio técnico."
+  ],
+  "technician": "Contacte con su instalador o con un técnico de Panasonic para que revise la combinación de unidades."
+ },
+ "Panasonic|H14": {
+  "title": "Avería del sensor de temperatura del aire interior",
+  "causes": [
+   "El sensor del aire de aspiración interior está averiado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Panasonic indica que las reparaciones para este código debe hacerlas un técnico cualificado; llame a uno si el código vuelve."
+ },
+ "Panasonic|H15": {
+  "title": "Avería del sensor de temperatura del compresor",
+  "causes": [
+   "El sensor de temperatura del compresor está averiado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Panasonic indica que las reparaciones para este código debe hacerlas un técnico cualificado; llame a uno si el código vuelve."
+ },
+ "Panasonic|H16": {
+  "title": "Avería del sensor de corriente exterior",
+  "causes": [
+   "El transformador de corriente exterior (CT) está averiado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Panasonic indica que las reparaciones para este código debe hacerlas un técnico cualificado; llame a uno si el código vuelve."
+ },
+ "Panasonic|H19": {
+  "title": "Motor del ventilador interior bloqueado",
+  "causes": [
+   "El motor del ventilador interior está bloqueado o averiado."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Compruebe que no hay nada atrapado en la salida de la unidad interior. No abra la carcasa.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Panasonic indica que las reparaciones para este código debe hacerlas un técnico cualificado; llame a uno si el código vuelve."
+ },
+ "Panasonic|H23": {
+  "title": "Avería del sensor del intercambiador de calor interior",
+  "causes": [
+   "El sensor de temperatura de la batería interior está averiado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Panasonic indica que las reparaciones para este código debe hacerlas un técnico cualificado; llame a uno si el código vuelve."
+ },
+ "Panasonic|H27": {
+  "title": "Avería del sensor de aire exterior",
+  "causes": [
+   "El sensor de temperatura del aire exterior está averiado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Panasonic indica que las reparaciones para este código debe hacerlas un técnico cualificado; llame a uno si el código vuelve."
+ },
+ "Panasonic|H28": {
+  "title": "Avería del sensor del intercambiador de calor exterior",
+  "causes": [
+   "El sensor de temperatura de la batería exterior está averiado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Panasonic indica que las reparaciones para este código debe hacerlas un técnico cualificado; llame a uno si el código vuelve."
+ },
+ "Panasonic|H33": {
+  "title": "Unidades interior y exterior mal conectadas",
+  "causes": [
+   "La conexión entre las unidades es incorrecta; suele ocurrir tras la instalación."
+  ],
+  "steps": [
+   "Anote el código y el número de modelo antes de llamar al servicio técnico."
+  ],
+  "technician": "Pida al instalador o a un técnico de Panasonic que revise el cableado."
+ },
+ "Panasonic|H97": {
+  "title": "Motor del ventilador exterior bloqueado",
+  "causes": [
+   "El ventilador exterior está bloqueado o su motor ha fallado."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Retire hojas, nieve u objetos de alrededor de la rejilla del ventilador exterior.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Panasonic indica que las reparaciones para este código debe hacerlas un técnico cualificado; llame a uno si el código vuelve."
+ },
+ "Panasonic|H98": {
+  "title": "Protección de alta presión interior",
+  "causes": [
+   "La presión es demasiado alta en calefacción, a menudo por un filtro sucio."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Revise los filtros de aire de la unidad interior y límpielos si tienen polvo.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Panasonic indica que las reparaciones para este código debe hacerlas un técnico cualificado; llame a uno si el código vuelve."
+ },
+ "Panasonic|H99": {
+  "title": "Protección antihielo interior",
+  "causes": [
+   "La batería interior se enfrió demasiado en refrigeración, a menudo por un filtro sucio o poco paso de aire."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Revise los filtros de aire de la unidad interior y límpielos si tienen polvo.",
+   "Deje que se derrita el hielo de la batería interior antes de volver a encender.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Panasonic indica que las reparaciones para este código debe hacerlas un técnico cualificado; llame a uno si el código vuelve."
+ },
+ "Panasonic|F11": {
+  "title": "Avería de conmutación de la válvula de 4 vías",
+  "causes": [
+   "La válvula que cambia entre refrigeración y calefacción no funciona."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Panasonic indica que las reparaciones para este código debe hacerlas un técnico cualificado; llame a uno si el código vuelve."
+ },
+ "Panasonic|F91": {
+  "title": "Avería del ciclo de refrigerante",
+  "causes": [
+   "El circuito de refrigerante no funciona bien, a menudo por falta de refrigerante."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Revise los filtros de aire de la unidad interior y límpielos si tienen polvo.",
+   "No intente hacer ningún trabajo con el refrigerante usted mismo."
+  ],
+  "technician": "Panasonic indica que las reparaciones para este código debe hacerlas un técnico cualificado; llame a uno si el código vuelve."
+ },
+ "Panasonic|F93": {
+  "title": "Velocidad anómala del compresor",
+  "causes": [
+   "El compresor funciona a una velocidad anómala."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Panasonic indica que las reparaciones para este código debe hacerlas un técnico cualificado; llame a uno si el código vuelve."
+ },
+ "Panasonic|F95": {
+  "title": "Protección de alta presión exterior en refrigeración",
+  "causes": [
+   "La presión es demasiado alta, a menudo por falta de paso de aire exterior."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Asegúrese de que nada bloquea el paso del aire alrededor de la unidad exterior (cajas, plantas, nieve, hojas).",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Panasonic indica que las reparaciones para este código debe hacerlas un técnico cualificado; llame a uno si el código vuelve."
+ },
+ "Panasonic|F97": {
+  "title": "Protección contra sobrecalentamiento del compresor",
+  "causes": [
+   "El compresor se sobrecalienta."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Asegúrese de que nada bloquea el paso del aire alrededor de la unidad exterior (cajas, plantas, nieve, hojas).",
+   "Revise los filtros de aire de la unidad interior y límpielos si tienen polvo.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Panasonic indica que las reparaciones para este código debe hacerlas un técnico cualificado; llame a uno si el código vuelve."
+ },
+ "Panasonic|F99": {
+  "title": "Pico de corriente continua detectado en la unidad exterior",
+  "causes": [
+   "Se ha detectado un pico de corriente anómalo en la unidad exterior."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Panasonic indica que las reparaciones para este código debe hacerlas un técnico cualificado; llame a uno si el código vuelve."
+ },
+ "Gree|E1": {
+  "title": "Protección de alta presión",
+  "causes": [
+   "Baterías o filtros sucios.",
+   "Una restricción en el sistema o exceso de refrigerante."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Revise los filtros de aire de la unidad interior y límpielos si tienen polvo.",
+   "Asegúrese de que nada bloquea el paso del aire alrededor de la unidad exterior (cajas, plantas, nieve, hojas).",
+   "Compruebe que los dos ventiladores giran con el equipo encendido.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si los filtros y las baterías están limpios, llame a un técnico de climatización para que revise las presiones y el presostato de alta."
+ },
+ "Gree|E3": {
+  "title": "Protección de baja presión",
+  "causes": [
+   "Filtros o baterías sucios.",
+   "Una fuga de refrigerante."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Revise los filtros de aire de la unidad interior y límpielos si tienen polvo.",
+   "Asegúrese de que nada bloquea el paso del aire alrededor de la unidad exterior (cajas, plantas, nieve, hojas)."
+  ],
+  "technician": "Si los filtros y las baterías están limpios, un técnico debe revisar la carga de refrigerante y buscar fugas."
+ },
+ "Gree|E5": {
+  "title": "Protección contra sobreintensidad",
+  "causes": [
+   "La tensión de alimentación es demasiado alta, o baja e inestable."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Un técnico debe revisar y estabilizar la alimentación eléctrica."
+ },
+ "Gree|E7": {
+  "title": "Conflicto de modos",
+  "causes": [
+   "Las unidades interiores conectadas a una misma unidad exterior están en modos distintos."
+  ],
+  "steps": [
+   "Ponga todas las unidades interiores en el mismo modo (todas en refrigeración o todas en calefacción)."
+  ],
+  "technician": "Si el código sigue con todas las unidades en el mismo modo, contacte con un técnico del servicio de Gree."
+ },
+ "Gree|F1": {
+  "title": "Avería del sensor de ambiente interior",
+  "causes": [
+   "El sensor de temperatura ambiente interior está averiado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Las averías de sensores suelen requerir un recambio instalado por un técnico cualificado."
+ },
+ "Gree|F2": {
+  "title": "Avería del sensor de la batería interior",
+  "causes": [
+   "El sensor del evaporador interior está averiado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Las averías de sensores suelen requerir un recambio instalado por un técnico cualificado."
+ },
+ "Gree|F3": {
+  "title": "Avería del sensor de aire exterior",
+  "causes": [
+   "El sensor de temperatura ambiente exterior está averiado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Las averías de sensores suelen requerir un recambio instalado por un técnico cualificado."
+ },
+ "Gree|F4": {
+  "title": "Avería del sensor de la batería exterior",
+  "causes": [
+   "El sensor del tubo exterior está averiado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Las averías de sensores suelen requerir un recambio instalado por un técnico cualificado."
+ },
+ "Gree|F5": {
+  "title": "Avería del sensor de descarga",
+  "causes": [
+   "El sensor de descarga del compresor está averiado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Las averías de sensores suelen requerir un recambio instalado por un técnico cualificado."
+ },
+ "Gree|H1": {
+  "title": "Desescarche",
+  "causes": [
+   "La unidad exterior está desescarchando durante la calefacción. Es un estado normal."
+  ],
+  "steps": [
+   "Espere a que termine el desescarche; la calefacción se reanuda sola."
+  ],
+  "technician": "Llame a un técnico solo si el equipo desescarcha continuamente y no calienta."
+ },
+ "Gree|H5": {
+  "title": "Protección del módulo de potencia (IPM)",
+  "causes": [
+   "El módulo de potencia del inverter se ha detenido por problemas de tensión o de temperatura."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si H5 vuelve, el equipo necesita un servicio técnico profesional."
+ },
+ "Gree|U3": {
+  "title": "Caída de tensión del bus de corriente continua",
+  "causes": [
+   "La tensión continua interna ha bajado, a menudo por problemas de alimentación."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si U3 vuelve, pida a un profesional que revise el equipo y la alimentación."
+ },
+ "Gree|L9": {
+  "title": "Protección eléctrica",
+  "causes": [
+   "Una gran subida de tensión ha activado el modo de protección."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Si L9 vuelve, pida a un profesional que revise el equipo y la alimentación."
+ },
+ "Haier|E1": {
+  "title": "Avería del sensor de temperatura interior (split)",
+  "causes": [
+   "El sensor de temperatura ambiente interior está averiado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Según Haier, este código solo puede resolverlo un técnico del servicio posventa; llame al servicio técnico de Haier."
+ },
+ "Haier|E2": {
+  "title": "Avería del sensor de temperatura del tubo interior (split)",
+  "causes": [
+   "El sensor del tubo de la batería interior está averiado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Según Haier, este código solo puede resolverlo un técnico del servicio posventa; llame al servicio técnico de Haier."
+ },
+ "Haier|E4": {
+  "title": "Avería de la memoria interior (EEPROM) (split)",
+  "causes": [
+   "La memoria de la placa de control interior tiene una avería."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Según Haier, este código solo puede resolverlo un técnico del servicio posventa; llame al servicio técnico de Haier."
+ },
+ "Haier|E5": {
+  "title": "Protección antihielo interior",
+  "causes": [
+   "La batería interior se enfría demasiado, a menudo por poco paso de aire."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Revise los filtros de aire de la unidad interior y límpielos si tienen polvo.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Según Haier, este código solo puede resolverlo un técnico del servicio posventa; llame al servicio técnico de Haier."
+ },
+ "Haier|E7": {
+  "title": "Avería de comunicación entre unidad interior y exterior",
+  "causes": [
+   "Las unidades interior y exterior no se comunican."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Según Haier, este código solo puede resolverlo un técnico del servicio posventa; llame al servicio técnico de Haier."
+ },
+ "Haier|E9": {
+  "title": "Sobrecarga interior en calefacción",
+  "causes": [
+   "La unidad interior se sobrecalienta en modo calefacción, a menudo por un filtro obstruido."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Revise los filtros de aire de la unidad interior y límpielos si tienen polvo.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Según Haier, este código solo puede resolverlo un técnico del servicio posventa; llame al servicio técnico de Haier."
+ },
+ "Haier|E14": {
+  "title": "Avería del motor del ventilador interior",
+  "causes": [
+   "El motor del ventilador interior está averiado o bloqueado."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Según Haier, este código solo puede resolverlo un técnico del servicio posventa; llame al servicio técnico de Haier."
+ },
+ "Haier|F1": {
+  "title": "Protección del módulo de potencia (IPM)",
+  "causes": [
+   "El módulo inverter exterior ha entrado en protección."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Según Haier, este código solo puede resolverlo un técnico del servicio posventa; llame al servicio técnico de Haier."
+ },
+ "Haier|F8": {
+  "title": "Avería del motor de corriente continua del ventilador exterior",
+  "causes": [
+   "El motor del ventilador exterior está averiado o bloqueado."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Asegúrese de que nada bloquea el paso del aire alrededor de la unidad exterior (cajas, plantas, nieve, hojas).",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Según Haier, este código solo puede resolverlo un técnico del servicio posventa; llame al servicio técnico de Haier."
+ },
+ "Haier|F12": {
+  "title": "Avería de la memoria exterior (EEPROM)",
+  "causes": [
+   "La memoria de la placa exterior tiene una avería."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Según Haier, este código solo puede resolverlo un técnico del servicio posventa; llame al servicio técnico de Haier."
+ },
+ "Haier|F13": {
+  "title": "Falta de refrigerante",
+  "causes": [
+   "Al sistema le falta refrigerante, normalmente por una fuga."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "No intente añadir refrigerante usted mismo.",
+   "Anote el código y el número de modelo antes de llamar al servicio técnico."
+  ],
+  "technician": "Según Haier, este código solo puede resolverlo un técnico del servicio posventa; llame al servicio técnico de Haier."
+ },
+ "Haier|F19": {
+  "title": "Tensión de alimentación demasiado alta o demasiado baja",
+  "causes": [
+   "La tensión de red está fuera del rango permitido."
+  ],
+  "steps": [
+   "Apague el equipo con el mando a distancia.",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Según Haier, este código solo puede resolverlo un técnico del servicio posventa; llame al servicio técnico de Haier."
+ },
+ "Haier|F20": {
+  "title": "Protección de alta presión",
+  "causes": [
+   "La presión del sistema es demasiado alta, a menudo por paso de aire exterior bloqueado."
+  ],
+  "steps": [
+   "Apague el equipo.",
+   "Asegúrese de que nada bloquea el paso del aire alrededor de la unidad exterior (cajas, plantas, nieve, hojas).",
+   "Baje el interruptor del aire acondicionado en el cuadro eléctrico o desenchúfelo.",
+   "Espere unos 5 minutos, restablezca la corriente y vuelva a encenderlo."
+  ],
+  "technician": "Según Haier, este código solo puede resolverlo un técnico del servicio posventa; llame al servicio técnico de Haier."
+ },
+ "Haier|FL": {
+  "title": "Depósito de agua lleno (aire acondicionado portátil)",
+  "causes": [
+   "El depósito de agua interno está lleno."
+  ],
+  "steps": [
+   "Apague y desenchufe el equipo.",
+   "Vacíe el agua por la salida de desagüe en un recipiente.",
+   "Vuelva a colocar el tapón de desagüe y encienda el equipo."
+  ],
+  "technician": "Si FL vuelve a aparecer justo después de vaciarlo, contacte con el servicio técnico de Haier."
+ },
+ "Haier|STOP": {
+  "title": "Depósito lleno o flotador atascado (portátil, modelos de 2016 o anteriores)",
+  "causes": [
+   "El depósito de agua está lleno.",
+   "El flotador del depósito está atascado por suciedad."
+  ],
+  "steps": [
+   "Apague y desenchufe el equipo.",
+   "Vacíe el depósito de agua.",
+   "Compruebe que el flotador se mueve libremente y retire la suciedad."
+  ],
+  "technician": "Si STOP sigue con el depósito vacío y el flotador libre, contacte con el servicio técnico de Haier."
+ }
+}

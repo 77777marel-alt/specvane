@@ -1,0 +1,1776 @@
+{
+ "Vaillant|F.0": {
+  "title": "Unterbrechung am Vorlauftemperaturfühler",
+  "causes": [
+   "Der Vorlauftemperaturfühler oder seine Verkabelung ist defekt.",
+   "Eine lockere Verbindung im Inneren des Kessels."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code wieder, versuchen Sie nicht, den Fehler selbst zu beheben. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Vaillant|F.1": {
+  "title": "Unterbrechung am Rücklauftemperaturfühler",
+  "causes": [
+   "Der Rücklauftemperaturfühler oder seine Verkabelung ist defekt.",
+   "Eine lockere Verbindung im Inneren des Kessels."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code wieder, versuchen Sie nicht, den Fehler selbst zu beheben. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Vaillant|F.10": {
+  "title": "Kurzschluss am Vorlauftemperaturfühler",
+  "causes": [
+   "Der Vorlauftemperaturfühler oder seine Verkabelung ist defekt.",
+   "Eine lockere Verbindung im Inneren des Kessels."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code wieder, versuchen Sie nicht, den Fehler selbst zu beheben. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Vaillant|F.11": {
+  "title": "Kurzschluss am Rücklauftemperaturfühler",
+  "causes": [
+   "Der Rücklauftemperaturfühler oder seine Verkabelung ist defekt.",
+   "Eine lockere Verbindung im Inneren des Kessels."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code wieder, versuchen Sie nicht, den Fehler selbst zu beheben. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Vaillant|F.20": {
+  "title": "Sicherheitstemperaturbegrenzer hat ausgelöst",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Vaillant|F.22": {
+  "title": "Zu niedriger Wasserdruck",
+  "causes": [
+   "Die Heizungsanlage hat Wasser verloren, oft nach dem Entlüften der Heizkörper.",
+   "Ein kleines Leck irgendwo in Rohren oder Heizkörpern.",
+   "Ein defekter Drucksensor."
+  ],
+  "steps": [
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Müssen Sie oft nachfüllen, gibt es eventuell ein Leck. Lassen Sie es von einer Fachkraft suchen."
+  ],
+  "technician": "Fällt der Druck immer wieder ab, muss ein zugelassener Fachbetrieb das Leck suchen; öffnen Sie nie selbst das Kesselgehäuse."
+ },
+ "Vaillant|F.23": {
+  "title": "Temperaturdifferenz zwischen Vor- und Rücklauf zu groß",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Vaillant|F.24": {
+  "title": "Temperatur steigt zu schnell",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Vaillant|F.25": {
+  "title": "Abgastemperatur zu hoch",
+  "causes": [
+   "Ein Problem mit der Abgasleitung oder der Luftzufuhr.",
+   "Schlechte Verbrennung im Kessel."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Schalten Sie den Kessel am Hauptschalter aus.",
+   "Prüfen Sie von außen, ob die Abgasmündung sichtbar blockiert ist. Berühren Sie sie nicht.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Vaillant|F.27": {
+  "title": "Flamme erkannt, obwohl der Brenner aus ist",
+  "causes": [
+   "Ein Fehler in der Flammenüberwachung.",
+   "Ein Gasventil, das nicht vollständig schließt."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Schalten Sie den Kessel am Hauptschalter aus.",
+   "Setzen Sie nicht immer wieder zurück. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Das ist ein Sicherheitsfehler; Gasventil und Flammenüberwachung darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Vaillant|F.28": {
+  "title": "Kessel hat nicht gezündet",
+  "causes": [
+   "Am Kessel kommt kein Gas an, zum Beispiel weil das Guthaben am Vorauszahlungszähler aufgebraucht ist.",
+   "Eine gefrorene oder verstopfte Kondensatleitung.",
+   "Ein Fehler an Zündung oder Flammenüberwachung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Prüfen Sie, ob andere Gasgeräte, zum Beispiel der Gasherd, funktionieren.",
+   "Haben Sie einen Gaszähler mit Vorauszahlung, prüfen Sie, ob noch Guthaben vorhanden ist.",
+   "Prüfen Sie bei Frost die Kondensatleitung aus Kunststoff im Freien. Tauen Sie Eis mit warmem (nicht kochendem) Wasser auf.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Vaillant|F.29": {
+  "title": "Flamme erloschen, Kessel konnte nicht wieder zünden",
+  "causes": [
+   "Am Kessel kommt kein Gas an, zum Beispiel weil das Guthaben am Vorauszahlungszähler aufgebraucht ist.",
+   "Eine gefrorene oder verstopfte Kondensatleitung.",
+   "Ein Fehler an Zündung oder Flammenüberwachung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Prüfen Sie, ob andere Gasgeräte, zum Beispiel der Gasherd, funktionieren.",
+   "Haben Sie einen Gaszähler mit Vorauszahlung, prüfen Sie, ob noch Guthaben vorhanden ist.",
+   "Prüfen Sie bei Frost die Kondensatleitung aus Kunststoff im Freien. Tauen Sie Eis mit warmem (nicht kochendem) Wasser auf.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Vaillant|F.32": {
+  "title": "Fehler am Gebläse",
+  "causes": [
+   "Das Gebläse läuft nicht mit der richtigen Drehzahl.",
+   "Ein Fehler in der Verkabelung oder auf der Steuerplatine.",
+   "Die Abgasleitung ist eventuell blockiert."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Prüfen Sie von außen, ob nichts die Abgasmündung blockiert. Berühren Sie sie nicht.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Vaillant|F.35": {
+  "title": "Luft- oder Abgasleitung blockiert",
+  "causes": [
+   "Etwas blockiert die Abgasleitung oder die Luftansaugung.",
+   "Beschädigung der Abgasleitung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Schalten Sie den Kessel am Hauptschalter aus.",
+   "Achten Sie von außen auf Laub, Nester oder Schnee an der Abgasmündung, aber berühren oder entfernen Sie die Abgasleitung nicht.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Vaillant|F.54": {
+  "title": "Fehler in der Gasversorgung",
+  "causes": [
+   "Am Kessel kommt kein Gas an, zum Beispiel weil das Guthaben am Vorauszahlungszähler aufgebraucht ist.",
+   "Eine gefrorene oder verstopfte Kondensatleitung.",
+   "Ein Fehler an Zündung oder Flammenüberwachung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Prüfen Sie, ob andere Gasgeräte, zum Beispiel der Gasherd, funktionieren.",
+   "Haben Sie einen Gaszähler mit Vorauszahlung, prüfen Sie, ob noch Guthaben vorhanden ist.",
+   "Prüfen Sie bei Frost die Kondensatleitung aus Kunststoff im Freien. Tauen Sie Eis mit warmem (nicht kochendem) Wasser auf.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Vaillant|F.62": {
+  "title": "Gasventil schließt verzögert",
+  "causes": [
+   "Die Flamme ist nach dem Abschalten des Brenners zu langsam erloschen.",
+   "Ein Fehler am Gasventil oder an der Steuerung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Vaillant|F.75": {
+  "title": "Kein Druckanstieg beim Pumpenstart",
+  "causes": [
+   "Die Heizungsanlage hat Wasser verloren, oft nach dem Entlüften der Heizkörper.",
+   "Ein kleines Leck irgendwo in Rohren oder Heizkörpern.",
+   "Ein defekter Drucksensor."
+  ],
+  "steps": [
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Müssen Sie oft nachfüllen, gibt es eventuell ein Leck. Lassen Sie es von einer Fachkraft suchen."
+  ],
+  "technician": "Fällt der Druck immer wieder ab, muss ein zugelassener Fachbetrieb das Leck suchen; öffnen Sie nie selbst das Kesselgehäuse."
+ },
+ "Vaillant|F.83": {
+  "title": "Kein Temperaturanstieg beim Brennerstart",
+  "causes": [
+   "Zu wenig Wasser im Kessel.",
+   "Luft in der Anlage oder ein Fühlerfehler."
+  ],
+  "steps": [
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Vaillant|F.88": {
+  "title": "Elektrische Verbindung zum Gasventil unterbrochen",
+  "causes": [
+   "Eine lockere oder beschädigte Verbindung zum Gasventil.",
+   "Ein Fehler auf der Steuerplatine."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Versuchen Sie nicht, an das Gasventil zu gelangen. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Glow-worm|F.0": {
+  "title": "Unterbrechung am Vorlauftemperaturfühler",
+  "causes": [
+   "Der Vorlauftemperaturfühler oder seine Verkabelung ist defekt.",
+   "Eine lockere Verbindung im Inneren des Kessels."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code wieder, versuchen Sie nicht, den Fehler selbst zu beheben. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Glow-worm|F.1": {
+  "title": "Unterbrechung am Rücklauftemperaturfühler",
+  "causes": [
+   "Der Rücklauftemperaturfühler oder seine Verkabelung ist defekt.",
+   "Eine lockere Verbindung im Inneren des Kessels."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code wieder, versuchen Sie nicht, den Fehler selbst zu beheben. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Glow-worm|F.20": {
+  "title": "Sicherheitstemperaturbegrenzer hat ausgelöst",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Glow-worm|F.22": {
+  "title": "Zu niedriger Wasserdruck",
+  "causes": [
+   "Die Heizungsanlage hat Wasser verloren, oft nach dem Entlüften der Heizkörper.",
+   "Ein kleines Leck irgendwo in Rohren oder Heizkörpern.",
+   "Ein defekter Drucksensor."
+  ],
+  "steps": [
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Müssen Sie oft nachfüllen, gibt es eventuell ein Leck. Lassen Sie es von einer Fachkraft suchen."
+  ],
+  "technician": "Fällt der Druck immer wieder ab, muss ein zugelassener Fachbetrieb das Leck suchen; öffnen Sie nie selbst das Kesselgehäuse."
+ },
+ "Glow-worm|F.23": {
+  "title": "Temperaturdifferenz zwischen Vor- und Rücklauf zu groß",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Glow-worm|F.24": {
+  "title": "Temperatur steigt zu schnell",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Glow-worm|F.27": {
+  "title": "Flamme erkannt, obwohl der Brenner aus ist",
+  "causes": [
+   "Ein Fehler in der Flammenüberwachung.",
+   "Ein Gasventil, das nicht vollständig schließt."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Schalten Sie den Kessel am Hauptschalter aus.",
+   "Setzen Sie nicht immer wieder zurück. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Das ist ein Sicherheitsfehler; Gasventil und Flammenüberwachung darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Glow-worm|F.28": {
+  "title": "Kessel hat nicht gezündet",
+  "causes": [
+   "Am Kessel kommt kein Gas an, zum Beispiel weil das Guthaben am Vorauszahlungszähler aufgebraucht ist.",
+   "Eine gefrorene oder verstopfte Kondensatleitung.",
+   "Ein Fehler an Zündung oder Flammenüberwachung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Prüfen Sie, ob andere Gasgeräte, zum Beispiel der Gasherd, funktionieren.",
+   "Haben Sie einen Gaszähler mit Vorauszahlung, prüfen Sie, ob noch Guthaben vorhanden ist.",
+   "Prüfen Sie bei Frost die Kondensatleitung aus Kunststoff im Freien. Tauen Sie Eis mit warmem (nicht kochendem) Wasser auf.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Glow-worm|F.29": {
+  "title": "Flamme erloschen, Kessel konnte nicht wieder zünden",
+  "causes": [
+   "Am Kessel kommt kein Gas an, zum Beispiel weil das Guthaben am Vorauszahlungszähler aufgebraucht ist.",
+   "Eine gefrorene oder verstopfte Kondensatleitung.",
+   "Ein Fehler an Zündung oder Flammenüberwachung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Prüfen Sie, ob andere Gasgeräte, zum Beispiel der Gasherd, funktionieren.",
+   "Haben Sie einen Gaszähler mit Vorauszahlung, prüfen Sie, ob noch Guthaben vorhanden ist.",
+   "Prüfen Sie bei Frost die Kondensatleitung aus Kunststoff im Freien. Tauen Sie Eis mit warmem (nicht kochendem) Wasser auf.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Glow-worm|F.32": {
+  "title": "Fehler am Gebläse",
+  "causes": [
+   "Das Gebläse läuft nicht mit der richtigen Drehzahl.",
+   "Ein Fehler in der Verkabelung oder auf der Steuerplatine.",
+   "Die Abgasleitung ist eventuell blockiert."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Prüfen Sie von außen, ob nichts die Abgasmündung blockiert. Berühren Sie sie nicht.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Glow-worm|F.61": {
+  "title": "Fehler an der Hauptsteuerplatine",
+  "causes": [
+   "Ein Elektronikfehler auf der Hauptplatine.",
+   "Ein Problem im Steuerkreis des Gasventils."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Bleibt der Code, setzen Sie nicht erneut zurück. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Glow-worm|F.75": {
+  "title": "Kein Druckanstieg beim Pumpenstart",
+  "causes": [
+   "Die Heizungsanlage hat Wasser verloren, oft nach dem Entlüften der Heizkörper.",
+   "Ein kleines Leck irgendwo in Rohren oder Heizkörpern.",
+   "Ein defekter Drucksensor."
+  ],
+  "steps": [
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Müssen Sie oft nachfüllen, gibt es eventuell ein Leck. Lassen Sie es von einer Fachkraft suchen."
+  ],
+  "technician": "Fällt der Druck immer wieder ab, muss ein zugelassener Fachbetrieb das Leck suchen; öffnen Sie nie selbst das Kesselgehäuse."
+ },
+ "Glow-worm|F.84": {
+  "title": "Vor- und Rücklaufwerte sind unplausibel",
+  "causes": [
+   "Die Rohre sind eventuell vertauscht oder ein Fühler sitzt an der falschen Stelle.",
+   "Ein Fühlerfehler."
+  ],
+  "steps": [
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Trat der Fehler nach neuen Arbeiten an der Anlage auf, wenden Sie sich an den Installateur, der sie ausgeführt hat."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Glow-worm|F.88": {
+  "title": "Elektrische Verbindung zum Gasventil unterbrochen",
+  "causes": [
+   "Eine lockere oder beschädigte Verbindung zum Gasventil.",
+   "Ein Fehler auf der Steuerplatine."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Versuchen Sie nicht, an das Gasventil zu gelangen. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Ideal|L1": {
+  "title": "Vorlauf überhitzt oder kein Wasserdurchfluss",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Ideal|L2": {
+  "title": "Störabschaltung wegen fehlender Zündung",
+  "causes": [
+   "Am Kessel kommt kein Gas an, zum Beispiel weil das Guthaben am Vorauszahlungszähler aufgebraucht ist.",
+   "Eine gefrorene oder verstopfte Kondensatleitung.",
+   "Ein Fehler an Zündung oder Flammenüberwachung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Prüfen Sie, ob andere Gasgeräte, zum Beispiel der Gasherd, funktionieren.",
+   "Haben Sie einen Gaszähler mit Vorauszahlung, prüfen Sie, ob noch Guthaben vorhanden ist.",
+   "Prüfen Sie bei Frost die Kondensatleitung aus Kunststoff im Freien. Tauen Sie Eis mit warmem (nicht kochendem) Wasser auf.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Ideal|L3": {
+  "title": "Kein Wasserdurchfluss",
+  "causes": [
+   "Zu niedriger Anlagendruck.",
+   "Luft in den Heizkörpern.",
+   "Ein Problem mit Umwälzung oder Pumpe."
+  ],
+  "steps": [
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Schalten Sie den Kessel aus und entlüften Sie die Heizkörper.",
+   "Prüfen Sie den Druck erneut, schalten Sie den Kessel ein und drücken Sie Reset.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Ideal|L5": {
+  "title": "Zu viele Resets innerhalb von 15 Minuten",
+  "causes": [
+   "Die Reset-Taste wurde in kurzer Zeit zu oft gedrückt."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Erscheint dann ein Fehlercode, folgen Sie den Hinweisen zu diesem Code."
+  ],
+  "technician": "Geht der Kessel immer wieder auf Störung, sollte ein zugelassener Fachbetrieb die eigentliche Ursache finden."
+ },
+ "Ideal|L6": {
+  "title": "Störabschaltung wegen Fremdlicht/Fehlflamme",
+  "causes": [
+   "Ein Fehler in der Flammenüberwachung.",
+   "Ein Gasventil, das nicht vollständig schließt."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Schalten Sie den Kessel am Hauptschalter aus.",
+   "Setzen Sie nicht immer wieder zurück. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Das ist ein Sicherheitsfehler; Gasventil und Flammenüberwachung darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Ideal|F1": {
+  "title": "Zu niedriger Wasserdruck",
+  "causes": [
+   "Die Heizungsanlage hat Wasser verloren, oft nach dem Entlüften der Heizkörper.",
+   "Ein kleines Leck irgendwo in Rohren oder Heizkörpern.",
+   "Ein defekter Drucksensor."
+  ],
+  "steps": [
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Müssen Sie oft nachfüllen, gibt es eventuell ein Leck. Lassen Sie es von einer Fachkraft suchen."
+  ],
+  "technician": "Fällt der Druck immer wieder ab, muss ein zugelassener Fachbetrieb das Leck suchen; öffnen Sie nie selbst das Kesselgehäuse."
+ },
+ "Ideal|F2": {
+  "title": "Flammenverlust",
+  "causes": [
+   "Am Kessel kommt kein Gas an, zum Beispiel weil das Guthaben am Vorauszahlungszähler aufgebraucht ist.",
+   "Eine gefrorene oder verstopfte Kondensatleitung.",
+   "Ein Fehler an Zündung oder Flammenüberwachung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Prüfen Sie, ob andere Gasgeräte, zum Beispiel der Gasherd, funktionieren.",
+   "Haben Sie einen Gaszähler mit Vorauszahlung, prüfen Sie, ob noch Guthaben vorhanden ist.",
+   "Prüfen Sie bei Frost die Kondensatleitung aus Kunststoff im Freien. Tauen Sie Eis mit warmem (nicht kochendem) Wasser auf.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Ideal|F3": {
+  "title": "Fehler am Gebläse",
+  "causes": [
+   "Das Gebläse läuft nicht mit der richtigen Drehzahl.",
+   "Ein Fehler in der Verkabelung oder auf der Steuerplatine.",
+   "Die Abgasleitung ist eventuell blockiert."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Prüfen Sie von außen, ob nichts die Abgasmündung blockiert. Berühren Sie sie nicht.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Ideal|F4": {
+  "title": "Fehler am Vorlauf-Thermistor",
+  "causes": [
+   "Der Vorlauf-Thermistor (Temperaturfühler) oder seine Verkabelung ist defekt.",
+   "Eine lockere Verbindung im Inneren des Kessels."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code wieder, versuchen Sie nicht, den Fehler selbst zu beheben. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Ideal|F5": {
+  "title": "Fehler am Rücklauf-Thermistor",
+  "causes": [
+   "Der Rücklauf-Thermistor (Temperaturfühler) oder seine Verkabelung ist defekt.",
+   "Eine lockere Verbindung im Inneren des Kessels."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code wieder, versuchen Sie nicht, den Fehler selbst zu beheben. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Ideal|F6": {
+  "title": "Fehler am Außenfühler",
+  "causes": [
+   "Der Außentemperaturfühler oder seine Verkabelung ist defekt.",
+   "Eine lockere Verbindung im Inneren des Kessels."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code wieder, versuchen Sie nicht, den Fehler selbst zu beheben. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Ideal|F7": {
+  "title": "Zu niedrige Netzspannung",
+  "causes": [
+   "Die Netzspannung im Haus ist zu niedrig.",
+   "Ein Verkabelungsfehler im Gebäude."
+  ],
+  "steps": [
+   "Prüfen Sie, ob auch andere Geräte oder das Licht betroffen sind.",
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Lassen Sie die Stromversorgung von einer Elektrofachkraft oder Ihrem Stromversorger prüfen."
+  ],
+  "technician": "Ist die Stromversorgung in Ordnung, sollte ein zugelassener Fachbetrieb den Kessel prüfen; die Hausverkabelung prüft eine Elektrofachkraft."
+ },
+ "Ideal|F0": {
+  "title": "Kein Wasserdurchfluss (Thermistor)",
+  "causes": [
+   "Durch den Kessel fließt kein Wasser.",
+   "Ein Fühlerfehler."
+  ],
+  "steps": [
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Ideal|FD": {
+  "title": "Kein Wasserdurchfluss",
+  "causes": [
+   "Zu niedriger Druck oder Luft in der Anlage.",
+   "Die Heizungspumpe läuft nicht."
+  ],
+  "steps": [
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Schalten Sie den Kessel wieder ein und prüfen Sie, ob der Code verschwindet.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Ideal|FU": {
+  "title": "Differenz zwischen Vor- und Rücklauf zu hoch",
+  "causes": [
+   "Luft in den Heizkörpern.",
+   "Zu niedriger Druck oder eine Verstopfung in der Anlage."
+  ],
+  "steps": [
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Schalten Sie den Kessel wieder ein.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Worcester Bosch|EA 227": {
+  "title": "Keine Brennerzündung",
+  "causes": [
+   "Am Kessel kommt kein Gas an, zum Beispiel weil das Guthaben am Vorauszahlungszähler aufgebraucht ist.",
+   "Eine gefrorene oder verstopfte Kondensatleitung.",
+   "Ein Fehler an Zündung oder Flammenüberwachung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Prüfen Sie, ob andere Gasgeräte, zum Beispiel der Gasherd, funktionieren.",
+   "Haben Sie einen Gaszähler mit Vorauszahlung, prüfen Sie, ob noch Guthaben vorhanden ist.",
+   "Prüfen Sie bei Frost die Kondensatleitung aus Kunststoff im Freien. Tauen Sie Eis mit warmem (nicht kochendem) Wasser auf.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Worcester Bosch|CE 207": {
+  "title": "Zu niedriger Wasserdruck",
+  "causes": [
+   "Die Heizungsanlage hat Wasser verloren, oft nach dem Entlüften der Heizkörper.",
+   "Ein kleines Leck irgendwo in Rohren oder Heizkörpern.",
+   "Ein defekter Drucksensor."
+  ],
+  "steps": [
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Müssen Sie oft nachfüllen, gibt es eventuell ein Leck. Lassen Sie es von einer Fachkraft suchen."
+  ],
+  "technician": "Fällt der Druck immer wieder ab, muss ein zugelassener Fachbetrieb das Leck suchen; öffnen Sie nie selbst das Kesselgehäuse."
+ },
+ "Worcester Bosch|H07": {
+  "title": "Wasserdruck niedrig (Warnung)",
+  "causes": [
+   "Der Anlagendruck ist unter den Normalwert gefallen."
+  ],
+  "steps": [
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Müssen Sie oft nachfüllen, gibt es eventuell ein Leck. Lassen Sie es von einer Fachkraft suchen."
+  ],
+  "technician": "Fällt der Druck immer wieder ab, muss ein zugelassener Fachbetrieb das Leck suchen; öffnen Sie nie selbst das Kesselgehäuse."
+ },
+ "Worcester Bosch|E9 224": {
+  "title": "Interner Sicherheitstemperaturbegrenzer zu heiß",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Worcester Bosch|E9 276": {
+  "title": "Vorlauftemperatur zu hoch",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Worcester Bosch|CE 266": {
+  "title": "Ungewöhnliche Temperaturwerte, möglicherweise zu niedriger Druck",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Worcester Bosch|Fd 231": {
+  "title": "Stromausfall während einer Störabschaltung",
+  "causes": [
+   "Die Stromversorgung wurde unterbrochen, während der Kessel auf Störung stand."
+  ],
+  "steps": [
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Erscheint dann ein anderer Code, folgen Sie den Hinweisen zu diesem Code."
+  ],
+  "technician": "Lässt sich der Fehler durch einen Reset nicht beheben, sollte ein zugelassener Fachbetrieb den Kessel prüfen."
+ },
+ "Worcester Bosch|A1": {
+  "title": "Pumpe ist trocken gelaufen",
+  "causes": [
+   "Sehr niedriger Wasserdruck.",
+   "Luft in der Pumpe oder in der Anlage."
+  ],
+  "steps": [
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Worcester Bosch|C6": {
+  "title": "Gebläsedrehzahl zu niedrig",
+  "causes": [
+   "Das Gebläse läuft nicht mit der richtigen Drehzahl.",
+   "Ein Fehler in der Verkabelung oder auf der Steuerplatine.",
+   "Die Abgasleitung ist eventuell blockiert."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Prüfen Sie von außen, ob nichts die Abgasmündung blockiert. Berühren Sie sie nicht.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Worcester Bosch|F7": {
+  "title": "Flamme nach Abschalten des Brenners noch erkannt",
+  "causes": [
+   "Ein Fehler in der Flammenüberwachung.",
+   "Ein Gasventil, das nicht vollständig schließt."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Schalten Sie den Kessel am Hauptschalter aus.",
+   "Setzen Sie nicht immer wieder zurück. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Das ist ein Sicherheitsfehler; Gasventil und Flammenüberwachung darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Worcester Bosch|2980": {
+  "title": "Schwerer Sicherheitsfehler",
+  "causes": [
+   "Der Kessel hat einen sicherheitsrelevanten Fehler erkannt."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel aus.",
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Versuchen Sie nicht, den Fehler zu beheben oder zurückzusetzen. Wenden Sie sich sofort an einen zugelassenen Fachbetrieb für Heizungstechnik."
+  ],
+  "technician": "Das ist ein sicherheitskritischer Fehler und muss von einem zugelassenen Fachbetrieb behoben werden."
+ },
+ "Junkers/Bosch|227": {
+  "title": "Brenner hat nach mehreren Versuchen nicht gezündet",
+  "causes": [
+   "Am Kessel kommt kein Gas an, zum Beispiel weil das Guthaben am Vorauszahlungszähler aufgebraucht ist.",
+   "Eine gefrorene oder verstopfte Kondensatleitung.",
+   "Ein Fehler an Zündung oder Flammenüberwachung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Prüfen Sie, ob andere Gasgeräte, zum Beispiel der Gasherd, funktionieren.",
+   "Haben Sie einen Gaszähler mit Vorauszahlung, prüfen Sie, ob noch Guthaben vorhanden ist.",
+   "Prüfen Sie bei Frost die Kondensatleitung aus Kunststoff im Freien. Tauen Sie Eis mit warmem (nicht kochendem) Wasser auf.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Junkers/Bosch|207": {
+  "title": "Zu niedriger Wasserdruck",
+  "causes": [
+   "Die Heizungsanlage hat Wasser verloren, oft nach dem Entlüften der Heizkörper.",
+   "Ein kleines Leck irgendwo in Rohren oder Heizkörpern.",
+   "Ein defekter Drucksensor."
+  ],
+  "steps": [
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Müssen Sie oft nachfüllen, gibt es eventuell ein Leck. Lassen Sie es von einer Fachkraft suchen."
+  ],
+  "technician": "Fällt der Druck immer wieder ab, muss ein zugelassener Fachbetrieb das Leck suchen; öffnen Sie nie selbst das Kesselgehäuse."
+ },
+ "Junkers/Bosch|224": {
+  "title": "Sicherheitstemperaturbegrenzer hat ausgelöst",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Junkers/Bosch|276": {
+  "title": "Vorlauftemperatur zu hoch",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Junkers/Bosch|231": {
+  "title": "Stromausfall während einer Störabschaltung",
+  "causes": [
+   "Die Stromversorgung wurde unterbrochen, während der Kessel auf Störung stand."
+  ],
+  "steps": [
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Erscheint dann ein anderer Code, folgen Sie den Hinweisen zu diesem Code."
+  ],
+  "technician": "Verschwindet der Fehler nicht, muss ein zugelassener Fachbetrieb den Kessel prüfen."
+ },
+ "Junkers/Bosch|232": {
+  "title": "Wärmeanforderung durch externen Kontakt gesperrt",
+  "causes": [
+   "Eine externe Steuerung, zum Beispiel ein Temperaturbegrenzer der Fußbodenheizung, hat den Kessel gesperrt.",
+   "Der Sicherheitsschalter einer Kondensatpumpe hat ausgelöst."
+  ],
+  "steps": [
+   "Warten Sie einige Minuten; der Kessel startet eventuell von selbst neu.",
+   "Prüfen Sie, ob Raumthermostat und Zeitschaltuhr Wärme anfordern.",
+   "Haben Sie eine Kondensatpumpe, prüfen Sie, ob sie Strom hat und nicht überläuft.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Junkers/Bosch|2962": {
+  "title": "Kein Signal vom Gebläse",
+  "causes": [
+   "Das Gebläse läuft nicht mit der richtigen Drehzahl.",
+   "Ein Fehler in der Verkabelung oder auf der Steuerplatine.",
+   "Die Abgasleitung ist eventuell blockiert."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Prüfen Sie von außen, ob nichts die Abgasmündung blockiert. Berühren Sie sie nicht.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Baxi|E133": {
+  "title": "Kondensatleitung gefroren oder verstopft",
+  "causes": [
+   "Die Kondensatleitung im Freien ist bei Kälte eingefroren.",
+   "Eine Verstopfung in der Kondensatleitung.",
+   "Bei manchen Modellen ein Problem mit Gaszufuhr oder Zündung."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel aus.",
+   "Suchen Sie die gefrorene Stelle der Kondensatleitung, meist im Freien oder an einem Bogen.",
+   "Erwärmen Sie sie mit einer Wärmflasche oder gießen Sie warmes (nicht kochendes) Wasser darüber.",
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an."
+  ],
+  "technician": "Läuft der Kessel nach dem Auftauen immer noch nicht, rufen Sie einen zugelassenen Fachbetrieb."
+ },
+ "Baxi|E28": {
+  "title": "Kondensatleitung gefroren oder verstopft",
+  "causes": [
+   "Die Kondensatleitung im Freien ist bei Kälte eingefroren.",
+   "Eine Verstopfung in der Kondensatleitung.",
+   "Bei manchen Modellen ein Problem mit Gaszufuhr oder Zündung."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel aus.",
+   "Suchen Sie die gefrorene Stelle der Kondensatleitung, meist im Freien oder an einem Bogen.",
+   "Erwärmen Sie sie mit einer Wärmflasche oder gießen Sie warmes (nicht kochendes) Wasser darüber.",
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an."
+  ],
+  "technician": "Läuft der Kessel nach dem Auftauen immer noch nicht, rufen Sie einen zugelassenen Fachbetrieb."
+ },
+ "Baxi|A.02.06": {
+  "title": "Zu niedriger Wasserdruck",
+  "causes": [
+   "Die Heizungsanlage hat Wasser verloren, oft nach dem Entlüften der Heizkörper.",
+   "Ein kleines Leck irgendwo in Rohren oder Heizkörpern.",
+   "Ein defekter Drucksensor."
+  ],
+  "steps": [
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Müssen Sie oft nachfüllen, gibt es eventuell ein Leck. Lassen Sie es von einer Fachkraft suchen."
+  ],
+  "technician": "Fällt der Druck immer wieder ab, muss ein zugelassener Fachbetrieb das Leck suchen; öffnen Sie nie selbst das Kesselgehäuse."
+ },
+ "Baxi|H.02.07": {
+  "title": "Wasserdruck niedrig (Warnung)",
+  "causes": [
+   "Die Heizungsanlage hat Wasser verloren, oft nach dem Entlüften der Heizkörper.",
+   "Ein kleines Leck irgendwo in Rohren oder Heizkörpern.",
+   "Ein defekter Drucksensor."
+  ],
+  "steps": [
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Müssen Sie oft nachfüllen, gibt es eventuell ein Leck. Lassen Sie es von einer Fachkraft suchen."
+  ],
+  "technician": "Fällt der Druck immer wieder ab, muss ein zugelassener Fachbetrieb das Leck suchen; öffnen Sie nie selbst das Kesselgehäuse."
+ },
+ "Potterton|E133": {
+  "title": "Kondensatleitung gefroren oder verstopft",
+  "causes": [
+   "Die Kondensatleitung im Freien ist bei Kälte eingefroren.",
+   "Eine Verstopfung in der Kondensatleitung.",
+   "Bei manchen Modellen ein Problem mit Gaszufuhr oder Zündung."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel aus.",
+   "Suchen Sie die gefrorene Stelle der Kondensatleitung, meist im Freien oder an einem Bogen.",
+   "Erwärmen Sie sie mit einer Wärmflasche oder gießen Sie warmes (nicht kochendes) Wasser darüber.",
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an."
+  ],
+  "technician": "Läuft der Kessel nach dem Auftauen immer noch nicht, rufen Sie einen zugelassenen Fachbetrieb."
+ },
+ "Viessmann|74": {
+  "title": "Zu niedriger Wasserdruck",
+  "causes": [
+   "Die Heizungsanlage hat Wasser verloren, oft nach dem Entlüften der Heizkörper.",
+   "Ein kleines Leck irgendwo in Rohren oder Heizkörpern.",
+   "Ein defekter Drucksensor."
+  ],
+  "steps": [
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Müssen Sie oft nachfüllen, gibt es eventuell ein Leck. Lassen Sie es von einer Fachkraft suchen."
+  ],
+  "technician": "Fällt der Druck immer wieder ab, muss ein zugelassener Fachbetrieb das Leck suchen; öffnen Sie nie selbst das Kesselgehäuse."
+ },
+ "Viessmann|361": {
+  "title": "Kein Flammensignal beim Brennerstart",
+  "causes": [
+   "Am Kessel kommt kein Gas an, zum Beispiel weil das Guthaben am Vorauszahlungszähler aufgebraucht ist.",
+   "Eine gefrorene oder verstopfte Kondensatleitung.",
+   "Ein Fehler an Zündung oder Flammenüberwachung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Prüfen Sie, ob andere Gasgeräte, zum Beispiel der Gasherd, funktionieren.",
+   "Haben Sie einen Gaszähler mit Vorauszahlung, prüfen Sie, ob noch Guthaben vorhanden ist.",
+   "Prüfen Sie bei Frost die Kondensatleitung aus Kunststoff im Freien. Tauen Sie Eis mit warmem (nicht kochendem) Wasser auf.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Viessmann|64": {
+  "title": "Flamme im Betrieb erloschen",
+  "causes": [
+   "Am Kessel kommt kein Gas an, zum Beispiel weil das Guthaben am Vorauszahlungszähler aufgebraucht ist.",
+   "Eine gefrorene oder verstopfte Kondensatleitung.",
+   "Ein Fehler an Zündung oder Flammenüberwachung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Prüfen Sie, ob andere Gasgeräte, zum Beispiel der Gasherd, funktionieren.",
+   "Haben Sie einen Gaszähler mit Vorauszahlung, prüfen Sie, ob noch Guthaben vorhanden ist.",
+   "Prüfen Sie bei Frost die Kondensatleitung aus Kunststoff im Freien. Tauen Sie Eis mit warmem (nicht kochendem) Wasser auf.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Viessmann|62": {
+  "title": "Sicherheitstemperaturbegrenzer hat ausgelöst",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Viessmann|63": {
+  "title": "Abgastemperaturbegrenzer hat ausgelöst",
+  "causes": [
+   "Die Abgastemperatur ist zu hoch geworden.",
+   "Ein Problem mit Verbrennung oder Abgasleitung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Schalten Sie den Kessel aus.",
+   "Prüfen Sie von außen, ob die Abgasmündung sichtbar blockiert ist. Berühren Sie sie nicht.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Viessmann|71": {
+  "title": "Gebläsedrehzahl zu niedrig",
+  "causes": [
+   "Das Gebläse läuft nicht mit der richtigen Drehzahl.",
+   "Ein Fehler in der Verkabelung oder auf der Steuerplatine.",
+   "Die Abgasleitung ist eventuell blockiert."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Prüfen Sie von außen, ob nichts die Abgasmündung blockiert. Berühren Sie sie nicht.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Viessmann|14": {
+  "title": "Kurzschluss am Außentemperaturfühler",
+  "causes": [
+   "Der Außentemperaturfühler oder seine Verkabelung ist defekt.",
+   "Eine lockere Verbindung im Inneren des Kessels."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code wieder, versuchen Sie nicht, den Fehler selbst zu beheben. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Viessmann|A4": {
+  "title": "Luft in der Pumpe oder Durchfluss zu gering",
+  "causes": [
+   "Luft in der internen Pumpe.",
+   "Der Wasserdurchfluss durch den Kessel liegt unter dem Minimum."
+  ],
+  "steps": [
+   "Lassen Sie das automatische Entlüftungsprogramm zu Ende laufen.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Ariston|101": {
+  "title": "Überhitzung",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Ariston|103": {
+  "title": "Schlechte Wasserumwälzung",
+  "causes": [
+   "Luft in der Anlage.",
+   "Zu niedriger Druck oder geschlossene Ventile.",
+   "Ein Problem mit der Pumpe."
+  ],
+  "steps": [
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Ariston|108": {
+  "title": "Zu niedriger Wasserdruck",
+  "causes": [
+   "Die Heizungsanlage hat Wasser verloren, oft nach dem Entlüften der Heizkörper.",
+   "Ein kleines Leck irgendwo in Rohren oder Heizkörpern.",
+   "Ein defekter Drucksensor."
+  ],
+  "steps": [
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Müssen Sie oft nachfüllen, gibt es eventuell ein Leck. Lassen Sie es von einer Fachkraft suchen."
+  ],
+  "technician": "Fällt der Druck immer wieder ab, muss ein zugelassener Fachbetrieb das Leck suchen; öffnen Sie nie selbst das Kesselgehäuse."
+ },
+ "Ariston|110": {
+  "title": "Vorübergehende Sicherheitsabschaltung",
+  "causes": [
+   "Ein vorübergehender Zustand hat den Kessel aus Sicherheitsgründen abgeschaltet."
+  ],
+  "steps": [
+   "Warten Sie; der Kessel sollte von selbst neu starten, sobald die Ursache behoben ist.",
+   "Bleibt er aus, schalten Sie ihn am Hauptschalter aus und wenden Sie sich an den Kundendienst."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Ariston|118": {
+  "title": "Problem mit dem Fühler im Primärkreis",
+  "causes": [
+   "Der Fühler im Primärkreis oder seine Verkabelung ist defekt.",
+   "Eine lockere Verbindung im Inneren des Kessels."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code wieder, versuchen Sie nicht, den Fehler selbst zu beheben. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Ariston|201": {
+  "title": "Fehler am Fühler im Wasserkreis",
+  "causes": [
+   "Der Fühler im Wasserkreis oder seine Verkabelung ist defekt.",
+   "Eine lockere Verbindung im Inneren des Kessels."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code wieder, versuchen Sie nicht, den Fehler selbst zu beheben. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Ariston|304": {
+  "title": "Zu viele Resets",
+  "causes": [
+   "Die Reset-Taste wurde zu oft gedrückt."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Setzen Sie nicht immer wieder zurück. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Ein zugelassener Fachbetrieb sollte herausfinden, warum der Kessel immer wieder auf Störung geht."
+ },
+ "Ariston|305": {
+  "title": "Fehler auf der Hauptplatine",
+  "causes": [
+   "Ein Elektronikfehler auf der Hauptsteuerplatine."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Ariston|501": {
+  "title": "Keine Flamme erkannt",
+  "causes": [
+   "Am Kessel kommt kein Gas an, zum Beispiel weil das Guthaben am Vorauszahlungszähler aufgebraucht ist.",
+   "Eine gefrorene oder verstopfte Kondensatleitung.",
+   "Ein Fehler an Zündung oder Flammenüberwachung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Prüfen Sie, ob andere Gasgeräte, zum Beispiel der Gasherd, funktionieren.",
+   "Haben Sie einen Gaszähler mit Vorauszahlung, prüfen Sie, ob noch Guthaben vorhanden ist.",
+   "Prüfen Sie bei Frost die Kondensatleitung aus Kunststoff im Freien. Tauen Sie Eis mit warmem (nicht kochendem) Wasser auf.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Ariston|601": {
+  "title": "Fehler bei der Abgasabführung",
+  "causes": [
+   "Die Abgasleitung führt die Verbrennungsgase nicht richtig ab."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Warten Sie einige Minuten; der Kessel versucht es erneut.",
+   "Geht er erneut auf Störung, schalten Sie ihn aus und wenden Sie sich an einen zugelassenen Fachbetrieb."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Ariston|611": {
+  "title": "Fehler am Gebläse",
+  "causes": [
+   "Das Gebläse läuft nicht mit der richtigen Drehzahl.",
+   "Ein Fehler in der Verkabelung oder auf der Steuerplatine.",
+   "Die Abgasleitung ist eventuell blockiert."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Prüfen Sie von außen, ob nichts die Abgasmündung blockiert. Berühren Sie sie nicht.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Ariston|802": {
+  "title": "Automatische Verbrennungskalibrierung fehlgeschlagen",
+  "causes": [
+   "Der Kessel konnte die automatische Einstellung der Verbrennung nicht abschließen."
+  ],
+  "steps": [
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Saunier Duval|F.22": {
+  "title": "Zu niedriger Wasserdruck",
+  "causes": [
+   "Die Heizungsanlage hat Wasser verloren, oft nach dem Entlüften der Heizkörper.",
+   "Ein kleines Leck irgendwo in Rohren oder Heizkörpern.",
+   "Ein defekter Drucksensor."
+  ],
+  "steps": [
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Müssen Sie oft nachfüllen, gibt es eventuell ein Leck. Lassen Sie es von einer Fachkraft suchen."
+  ],
+  "technician": "Fällt der Druck immer wieder ab, muss ein zugelassener Fachbetrieb das Leck suchen; öffnen Sie nie selbst das Kesselgehäuse."
+ },
+ "Saunier Duval|F.28": {
+  "title": "Kessel hat nicht gezündet",
+  "causes": [
+   "Am Kessel kommt kein Gas an, zum Beispiel weil das Guthaben am Vorauszahlungszähler aufgebraucht ist.",
+   "Eine gefrorene oder verstopfte Kondensatleitung.",
+   "Ein Fehler an Zündung oder Flammenüberwachung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Prüfen Sie, ob andere Gasgeräte, zum Beispiel der Gasherd, funktionieren.",
+   "Haben Sie einen Gaszähler mit Vorauszahlung, prüfen Sie, ob noch Guthaben vorhanden ist.",
+   "Prüfen Sie bei Frost die Kondensatleitung aus Kunststoff im Freien. Tauen Sie Eis mit warmem (nicht kochendem) Wasser auf.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Saunier Duval|F.20": {
+  "title": "Sicherheitstemperaturbegrenzer hat ausgelöst",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Saunier Duval|F.23": {
+  "title": "Temperaturdifferenz zwischen Vor- und Rücklauf zu groß",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Saunier Duval|F.24": {
+  "title": "Temperatur steigt zu schnell",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Saunier Duval|F.00": {
+  "title": "Unterbrechung am Vorlauftemperaturfühler",
+  "causes": [
+   "Der Vorlauftemperaturfühler oder seine Verkabelung ist defekt.",
+   "Eine lockere Verbindung im Inneren des Kessels."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code wieder, versuchen Sie nicht, den Fehler selbst zu beheben. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Saunier Duval|F.10": {
+  "title": "Kurzschluss am Vorlauftemperaturfühler",
+  "causes": [
+   "Der Vorlauftemperaturfühler oder seine Verkabelung ist defekt.",
+   "Eine lockere Verbindung im Inneren des Kessels."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code wieder, versuchen Sie nicht, den Fehler selbst zu beheben. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Immergas|E01": {
+  "title": "Störabschaltung wegen fehlender Zündung",
+  "causes": [
+   "Am Kessel kommt kein Gas an, zum Beispiel weil das Guthaben am Vorauszahlungszähler aufgebraucht ist.",
+   "Eine gefrorene oder verstopfte Kondensatleitung.",
+   "Ein Fehler an Zündung oder Flammenüberwachung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Prüfen Sie, ob andere Gasgeräte, zum Beispiel der Gasherd, funktionieren.",
+   "Haben Sie einen Gaszähler mit Vorauszahlung, prüfen Sie, ob noch Guthaben vorhanden ist.",
+   "Prüfen Sie bei Frost die Kondensatleitung aus Kunststoff im Freien. Tauen Sie Eis mit warmem (nicht kochendem) Wasser auf.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Immergas|E02": {
+  "title": "Störabschaltung durch Sicherheitsthermostat (Überhitzung)",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Immergas|E05": {
+  "title": "Fehler am Vorlauffühler",
+  "causes": [
+   "Der Vorlauffühler oder seine Verkabelung ist defekt.",
+   "Eine lockere Verbindung im Inneren des Kessels."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code wieder, versuchen Sie nicht, den Fehler selbst zu beheben. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Immergas|E06": {
+  "title": "Fehler am Warmwasserfühler",
+  "causes": [
+   "Der Warmwasserfühler oder seine Verkabelung ist defekt.",
+   "Eine lockere Verbindung im Inneren des Kessels."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code wieder, versuchen Sie nicht, den Fehler selbst zu beheben. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Immergas|E10": {
+  "title": "Unzureichender Anlagendruck",
+  "causes": [
+   "Die Heizungsanlage hat Wasser verloren, oft nach dem Entlüften der Heizkörper.",
+   "Ein kleines Leck irgendwo in Rohren oder Heizkörpern.",
+   "Ein defekter Drucksensor."
+  ],
+  "steps": [
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Müssen Sie oft nachfüllen, gibt es eventuell ein Leck. Lassen Sie es von einer Fachkraft suchen."
+  ],
+  "technician": "Fällt der Druck immer wieder ab, muss ein zugelassener Fachbetrieb das Leck suchen; öffnen Sie nie selbst das Kesselgehäuse."
+ },
+ "Immergas|E11": {
+  "title": "Fehler am Abgas-Druckschalter",
+  "causes": [
+   "Das Gebläse läuft nicht mit der richtigen Drehzahl.",
+   "Ein Fehler in der Verkabelung oder auf der Steuerplatine.",
+   "Die Abgasleitung ist eventuell blockiert."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Prüfen Sie von außen, ob nichts die Abgasmündung blockiert. Berühren Sie sie nicht.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Immergas|E20": {
+  "title": "Störabschaltung wegen Fremdflamme",
+  "causes": [
+   "Ein Fehler in der Flammenüberwachung.",
+   "Ein Gasventil, das nicht vollständig schließt."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Schalten Sie den Kessel am Hauptschalter aus.",
+   "Setzen Sie nicht immer wieder zurück. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Das ist ein Sicherheitsfehler; Gasventil und Flammenüberwachung darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Immergas|E27": {
+  "title": "Unzureichende Umwälzung",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Immergas|E37": {
+  "title": "Zu niedrige Netzspannung",
+  "causes": [
+   "Die Netzspannung liegt unter dem zulässigen Grenzwert."
+  ],
+  "steps": [
+   "Prüfen Sie, ob auch andere Geräte betroffen sind.",
+   "Warten Sie; der Kessel startet von selbst neu, sobald die Spannung wieder normal ist.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Ist die Stromversorgung in Ordnung, sollte ein zugelassener Fachbetrieb den Kessel prüfen; die Hausverkabelung prüft eine Elektrofachkraft."
+ },
+ "Immergas|E38": {
+  "title": "Flammensignal verloren",
+  "causes": [
+   "Am Kessel kommt kein Gas an, zum Beispiel weil das Guthaben am Vorauszahlungszähler aufgebraucht ist.",
+   "Eine gefrorene oder verstopfte Kondensatleitung.",
+   "Ein Fehler an Zündung oder Flammenüberwachung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Prüfen Sie, ob andere Gasgeräte, zum Beispiel der Gasherd, funktionieren.",
+   "Haben Sie einen Gaszähler mit Vorauszahlung, prüfen Sie, ob noch Guthaben vorhanden ist.",
+   "Prüfen Sie bei Frost die Kondensatleitung aus Kunststoff im Freien. Tauen Sie Eis mit warmem (nicht kochendem) Wasser auf.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Immergas|E43": {
+  "title": "Störabschaltung nach wiederholtem Flammenverlust",
+  "causes": [
+   "Am Kessel kommt kein Gas an, zum Beispiel weil das Guthaben am Vorauszahlungszähler aufgebraucht ist.",
+   "Eine gefrorene oder verstopfte Kondensatleitung.",
+   "Ein Fehler an Zündung oder Flammenüberwachung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Prüfen Sie, ob andere Gasgeräte, zum Beispiel der Gasherd, funktionieren.",
+   "Haben Sie einen Gaszähler mit Vorauszahlung, prüfen Sie, ob noch Guthaben vorhanden ist.",
+   "Prüfen Sie bei Frost die Kondensatleitung aus Kunststoff im Freien. Tauen Sie Eis mit warmem (nicht kochendem) Wasser auf.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Ferroli|A01": {
+  "title": "Keine Brennerzündung",
+  "causes": [
+   "Am Kessel kommt kein Gas an, zum Beispiel weil das Guthaben am Vorauszahlungszähler aufgebraucht ist.",
+   "Eine gefrorene oder verstopfte Kondensatleitung.",
+   "Ein Fehler an Zündung oder Flammenüberwachung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Prüfen Sie, ob andere Gasgeräte, zum Beispiel der Gasherd, funktionieren.",
+   "Haben Sie einen Gaszähler mit Vorauszahlung, prüfen Sie, ob noch Guthaben vorhanden ist.",
+   "Prüfen Sie bei Frost die Kondensatleitung aus Kunststoff im Freien. Tauen Sie Eis mit warmem (nicht kochendem) Wasser auf.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Ferroli|A02": {
+  "title": "Flammensignal bei ausgeschaltetem Brenner",
+  "causes": [
+   "Ein Fehler in der Flammenüberwachung.",
+   "Ein Gasventil, das nicht vollständig schließt."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Schalten Sie den Kessel am Hauptschalter aus.",
+   "Setzen Sie nicht immer wieder zurück. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Das ist ein Sicherheitsfehler; Gasventil und Flammenüberwachung darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Ferroli|A03": {
+  "title": "Übertemperaturschutz",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Ferroli|F05": {
+  "title": "Luftdruckschalter hat nicht geschlossen",
+  "causes": [
+   "Das Gebläse läuft nicht mit der richtigen Drehzahl.",
+   "Ein Fehler in der Verkabelung oder auf der Steuerplatine.",
+   "Die Abgasleitung ist eventuell blockiert."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Prüfen Sie von außen, ob nichts die Abgasmündung blockiert. Berühren Sie sie nicht.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Ferroli|A06": {
+  "title": "Keine Flamme nach der Zündung",
+  "causes": [
+   "Am Kessel kommt kein Gas an, zum Beispiel weil das Guthaben am Vorauszahlungszähler aufgebraucht ist.",
+   "Eine gefrorene oder verstopfte Kondensatleitung.",
+   "Ein Fehler an Zündung oder Flammenüberwachung."
+  ],
+  "steps": [
+   "Wenn Sie Gas riechen, drücken Sie nicht Reset. Verlassen Sie sofort das Gebäude und rufen Sie von draußen den Gas-Notdienst Ihres Versorgers an.",
+   "Prüfen Sie, ob andere Gasgeräte, zum Beispiel der Gasherd, funktionieren.",
+   "Haben Sie einen Gaszähler mit Vorauszahlung, prüfen Sie, ob noch Guthaben vorhanden ist.",
+   "Prüfen Sie bei Frost die Kondensatleitung aus Kunststoff im Freien. Tauen Sie Eis mit warmem (nicht kochendem) Wasser auf.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Alle Arbeiten an Gas- oder Verbrennungsteilen darf nur ein zugelassener Fachbetrieb ausführen."
+ },
+ "Ferroli|F10": {
+  "title": "Fehler am Vorlauffühler",
+  "causes": [
+   "Der Vorlauffühler oder seine Verkabelung ist defekt.",
+   "Eine lockere Verbindung im Inneren des Kessels."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code wieder, versuchen Sie nicht, den Fehler selbst zu beheben. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Ferroli|F11": {
+  "title": "Fehler am Warmwasserfühler",
+  "causes": [
+   "Der Warmwasserfühler oder seine Verkabelung ist defekt.",
+   "Eine lockere Verbindung im Inneren des Kessels."
+  ],
+  "steps": [
+   "Schalten Sie den Kessel am Hauptschalter aus, warten Sie 30 Sekunden und schalten Sie ihn wieder ein.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code wieder, versuchen Sie nicht, den Fehler selbst zu beheben. Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Ferroli|F34": {
+  "title": "Netzspannung zu niedrig",
+  "causes": [
+   "Die Netzspannung liegt unter etwa 140 V."
+  ],
+  "steps": [
+   "Prüfen Sie, ob auch andere Geräte betroffen sind.",
+   "Warten Sie; der Kessel startet von selbst neu, sobald die Spannung wieder normal ist.",
+   "Notieren Sie den Code und wenden Sie sich an Ihren Installateur oder den Kundendienst des Herstellers."
+  ],
+  "technician": "Ist die Stromversorgung in Ordnung, sollte ein zugelassener Fachbetrieb den Kessel prüfen; die Hausverkabelung prüft eine Elektrofachkraft."
+ },
+ "Ferroli|F37": {
+  "title": "Falscher Wasserdruck in der Anlage",
+  "causes": [
+   "Die Heizungsanlage hat Wasser verloren, oft nach dem Entlüften der Heizkörper.",
+   "Ein kleines Leck irgendwo in Rohren oder Heizkörpern.",
+   "Ein defekter Drucksensor."
+  ],
+  "steps": [
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Müssen Sie oft nachfüllen, gibt es eventuell ein Leck. Lassen Sie es von einer Fachkraft suchen."
+  ],
+  "technician": "Fällt der Druck immer wieder ab, muss ein zugelassener Fachbetrieb das Leck suchen; öffnen Sie nie selbst das Kesselgehäuse."
+ },
+ "Ferroli|F43": {
+  "title": "Schutz des Wärmetauschers",
+  "causes": [
+   "Das Wasser zirkuliert nicht richtig durch den Kessel.",
+   "Geschlossene Heizkörperventile oder Luft in der Anlage.",
+   "Zu niedriger Anlagendruck oder ein Pumpenfehler."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Heizkörperventile geöffnet sind.",
+   "Sehen Sie auf das Manometer. Bei kalter Heizung sollte es etwa 1 bis 1,5 bar anzeigen.",
+   "Ist der Druck zu niedrig, füllen Sie über die Fülleinrichtung genau wie in Ihrer Bedienungsanleitung beschrieben Wasser nach und schließen Sie sie danach vollständig.",
+   "Entlüften Sie Heizkörper, die oben kalt sind, und prüfen Sie danach erneut den Druck.",
+   "Drücken Sie die Reset-Taste (Entstörtaste) einmal und geben Sie dem Kessel einige Minuten für den Neustart.",
+   "Kommt der Code nach ein oder zwei Resets wieder, setzen Sie nicht weiter zurück und vereinbaren Sie eine Reparatur."
+  ],
+  "technician": "Innere Bauteile darf nur ein zugelassener Fachbetrieb prüfen."
+ },
+ "Navien|E302": {
+  "title": "Anlagendruck zu niedrig",
+  "causes": [
+   "Die Heizungsanlage hat Wasser verloren, oft nach dem Entlüften der Heizkörper.",
+   "Ein kleines Leck irgendwo in Rohren oder Heizkörpern.",
+   "Ein defekter Drucksensor."
+  ],
+  "steps": [
+   "Sehen Sie auf Manometer oder Display. Der Druck sollte 1 bis 1,2 bar betragen.",
+   "Ist er zu niedrig, füllen Sie über die Fülleinrichtung wie in Ihrer Bedienungsanleitung beschrieben nach, bis 1 bis 1,2 bar erreicht sind.",
+   "Gehen Sie nicht über 1,5 bar. Haben Sie zu viel nachgefüllt, entlüften Sie einen Heizkörper, um den Druck zu senken.",
+   "Müssen Sie oft nachfüllen, gibt es eventuell ein Leck. Lassen Sie es von einer Fachkraft suchen."
+  ],
+  "technician": "Fällt der Druck immer wieder ab, muss ein zugelassener Fachbetrieb das Leck suchen; öffnen Sie nie selbst das Kesselgehäuse."
+ }
+}

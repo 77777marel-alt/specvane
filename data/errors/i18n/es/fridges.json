@@ -1,0 +1,1196 @@
+{
+ "Samsung|AP": {
+  "title": "Modo de configuración Wi-Fi",
+  "causes": [
+   "El frigorífico funciona como punto de acceso Wi-Fi para configurar SmartThings."
+  ],
+  "steps": [
+   "Termine la configuración en la app SmartThings, o espere. El código desaparece solo."
+  ],
+  "technician": "No es una avería. No hace falta servicio técnico."
+ },
+ "Samsung|21E": {
+  "title": "Error del ventilador del congelador",
+  "causes": [
+   "El ventilador del congelador está bloqueado por hielo, a menudo porque una puerta quedó abierta o la junta no cerraba bien.",
+   "El motor del ventilador se ha averiado."
+  ],
+  "steps": [
+   "Compruebe que la puerta del congelador cierra y que la junta ajusta en todo el contorno.",
+   "No llene demasiado el congelador.",
+   "Si puede, saque los alimentos y deje que el frigorífico se descongele con las puertas abiertas."
+  ],
+  "technician": "Si el código vuelve tras descongelar, el ventilador necesita un técnico de Samsung."
+ },
+ "Samsung|22E": {
+  "title": "Error del ventilador del frigorífico",
+  "causes": [
+   "La puerta del frigorífico estuvo abierta demasiado tiempo y el ventilador se cubrió de hielo."
+  ],
+  "steps": [
+   "Lleve los alimentos a un lugar fresco.",
+   "Desenchufe el frigorífico y deje las puertas abiertas unas horas.",
+   "Vuelva a enchufarlo y cierre las puertas."
+  ],
+  "technician": "Si 22E vuelve, solicite el servicio técnico de Samsung."
+ },
+ "Samsung|41C": {
+  "title": "Avería de Family Hub",
+  "causes": [
+   "Un problema de software en la pantalla Family Hub."
+  ],
+  "steps": [
+   "Instale la última actualización de software.",
+   "Pulse OK la primera vez que aparezca el código tras actualizar."
+  ],
+  "technician": "Si sigue volviendo tras la actualización, solicite el servicio técnico de Samsung."
+ },
+ "Samsung|76C": {
+  "title": "Agua en el compartimento AutoFill",
+  "causes": [
+   "La jarra de agua AutoFill gotea en su compartimento."
+  ],
+  "steps": [
+   "Saque la jarra y seque el compartimento.",
+   "Compruebe que la jarra está bien colocada y no está agrietada."
+  ],
+  "technician": "Si se sigue acumulando agua, contacte con el servicio técnico de Samsung."
+ },
+ "Samsung|85C": {
+  "title": "Tensión de alimentación baja (Family Hub)",
+  "causes": [
+   "Normalmente, un breve corte de luz."
+  ],
+  "steps": [
+   "Mantenga pulsado OK 3 segundos para borrarlo."
+  ],
+  "technician": "Por sí solo no tiene importancia. Contacte con Samsung solo si aparece a menudo."
+ },
+ "Samsung|88 88": {
+  "title": "Fallo de comunicación al arrancar",
+  "causes": [
+   "Hubo una interrupción de corriente mientras el frigorífico arrancaba."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico o baje su interruptor en el cuadro eléctrico durante 60 segundos.",
+   "Restablezca la corriente y compruebe si el código vuelve."
+  ],
+  "technician": "Si el código vuelve tras el reinicio, solicite el servicio técnico de Samsung."
+ },
+ "Samsung|83E": {
+  "title": "Corriente anómala en el compresor",
+  "causes": [
+   "Una subida de tensión o un problema eléctrico."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico o baje su interruptor en el cuadro eléctrico durante 60 segundos.",
+   "Restablezca la corriente y compruebe si el código vuelve."
+  ],
+  "technician": "Si 83E vuelve, solicite el servicio técnico de Samsung."
+ },
+ "Samsung|85E": {
+  "title": "Tensión baja en el compresor",
+  "causes": [
+   "Una bajada de tensión o tensión de red baja."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico o baje su interruptor en el cuadro eléctrico durante 60 segundos.",
+   "Restablezca la corriente y compruebe si el código vuelve."
+  ],
+  "technician": "Si 85E vuelve, haga revisar la instalación eléctrica y solicite el servicio técnico de Samsung."
+ },
+ "Samsung|86E": {
+  "title": "Tensión alta en el compresor",
+  "causes": [
+   "Una subida de tensión, por ejemplo durante una tormenta."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico o baje su interruptor en el cuadro eléctrico durante 60 segundos.",
+   "Restablezca la corriente y compruebe si el código vuelve."
+  ],
+  "technician": "Si 86E vuelve, solicite el servicio técnico de Samsung."
+ },
+ "Samsung|PC ER": {
+  "title": "Error de comunicación interna",
+  "causes": [
+   "Una subida de tensión reciente.",
+   "El conector del cableado de la puerta no está bien conectado."
+  ],
+  "steps": [
+   "Corte la corriente en el enchufe o en el cuadro eléctrico.",
+   "Revise y vuelva a conectar el conector del cableado situado sobre la bisagra de la puerta.",
+   "Restablezca la corriente."
+  ],
+  "technician": "Si el código vuelve, solicite el servicio técnico de Samsung."
+ },
+ "Samsung|OF OF": {
+  "title": "Modo Cooling Off (demostración)",
+  "causes": [
+   "El modo demostración o tienda está activado, a menudo por error. El frigorífico no enfría."
+  ],
+  "steps": [
+   "Mantenga pulsados los dos botones superiores de la izquierda del panel de 5 a 8 segundos hasta oír un pitido.",
+   "En algunos modelos, mantenga pulsado también el botón superior derecho.",
+   "Consulte en su manual la combinación de botones de su modelo."
+  ],
+  "technician": "No hace falta servicio técnico. Es un ajuste, no una avería."
+ },
+ "Samsung|5E": {
+  "title": "Error del sensor de descongelación del frigorífico",
+  "causes": [
+   "El sensor de descongelación del frigorífico está averiado."
+  ],
+  "steps": [
+   "No desenchufe el frigorífico salvo que se lo indiquen.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Solicite el servicio técnico de Samsung para revisar o cambiar el sensor."
+ },
+ "Samsung|8E": {
+  "title": "Error del sensor de la máquina de hielo (congelador)",
+  "causes": [
+   "El sensor de la máquina de hielo del congelador está averiado."
+  ],
+  "steps": [
+   "Apague la máquina de hielo si puede.",
+   "Siga usando el frigorífico con normalidad."
+  ],
+  "technician": "Solicite el servicio técnico de Samsung."
+ },
+ "Samsung|14E": {
+  "title": "Error del sensor de la máquina de hielo",
+  "causes": [
+   "El sensor de la máquina de hielo está averiado."
+  ],
+  "steps": [
+   "Apague la máquina de hielo si puede.",
+   "Siga usando el frigorífico con normalidad."
+  ],
+  "technician": "Solicite el servicio técnico de Samsung."
+ },
+ "Samsung|33E": {
+  "title": "Error del calentador del tubo de hielo",
+  "causes": [
+   "El calentador del tubo de agua de la máquina de hielo está averiado."
+  ],
+  "steps": [
+   "Apague la máquina de hielo si puede."
+  ],
+  "technician": "Solicite el servicio técnico de Samsung."
+ },
+ "Samsung|39E": {
+  "title": "Error de funcionamiento de la máquina de hielo",
+  "causes": [
+   "La máquina de hielo no funciona correctamente."
+  ],
+  "steps": [
+   "Compruebe que la cubeta de hielo está bien colocada.",
+   "Apague la máquina de hielo si puede."
+  ],
+  "technician": "Si el código sigue, solicite el servicio técnico de Samsung."
+ },
+ "Samsung|40E": {
+  "title": "Error del ventilador del compartimento de hielo",
+  "causes": [
+   "El ventilador del compartimento de hielo no funciona, a menudo por el hielo."
+  ],
+  "steps": [
+   "Compruebe que la puerta del compartimento de hielo cierra del todo."
+  ],
+  "technician": "Solicite el servicio técnico de Samsung."
+ },
+ "Samsung|84C": {
+  "title": "Compresor bloqueado",
+  "causes": [
+   "El compresor está bloqueado y no puede arrancar."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico o baje su interruptor en el cuadro eléctrico durante 60 segundos.",
+   "Restablezca la corriente y compruebe si el código vuelve."
+  ],
+  "technician": "Solicite el servicio técnico de Samsung. Esto necesita un técnico."
+ },
+ "LG|CF": {
+  "title": "Error del ventilador del condensador",
+  "causes": [
+   "El ventilador del condensador está bloqueado o no gira, y el compresor trabaja en exceso."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico 60 segundos y enchúfelo a una toma de pared, no a una regleta.",
+   "Compruebe si el código vuelve.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Solicite el servicio técnico de LG. Esto necesita un técnico."
+ },
+ "LG|CO": {
+  "title": "Error de comunicación",
+  "causes": [
+   "La placa principal y la pantalla no se comunican."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico 60 segundos y enchúfelo a una toma de pared, no a una regleta.",
+   "Compruebe si el código vuelve.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Solicite el servicio técnico de LG. Esto necesita un técnico."
+ },
+ "LG|FF": {
+  "title": "Error del ventilador del congelador",
+  "causes": [
+   "El ventilador del congelador está bloqueado, a menudo por hielo, o se ha averiado."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico 60 segundos y enchúfelo a una toma de pared, no a una regleta.",
+   "Compruebe si el código vuelve.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Solicite el servicio técnico de LG. Esto necesita un técnico."
+ },
+ "LG|FS": {
+  "title": "Error del sensor del congelador",
+  "causes": [
+   "El sensor de temperatura del congelador está averiado."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico 60 segundos y enchúfelo a una toma de pared, no a una regleta.",
+   "Compruebe si el código vuelve.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Solicite el servicio técnico de LG. Esto necesita un técnico."
+ },
+ "LG|FU": {
+  "title": "El congelador no enfría lo suficiente",
+  "causes": [
+   "El congelador no llegó a enfriar lo suficiente tras ponerse en marcha.",
+   "Las puertas se abren a menudo o no cierran bien.",
+   "Los alimentos tapan las salidas de aire."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico 60 segundos y enchúfelo a una toma de pared, no a una regleta.",
+   "Ajuste el congelador a -18 °C.",
+   "Aleje los alimentos de las salidas de aire.",
+   "Compruebe las juntas cerrando la puerta sobre una hoja de papel. No debe salir con facilidad.",
+   "Abra las puertas con menos frecuencia."
+  ],
+  "technician": "Si el congelador sigue sin enfriar, solicite el servicio técnico de LG."
+ },
+ "LG|IF": {
+  "title": "Error del ventilador de la máquina de hielo",
+  "causes": [
+   "El ventilador de la máquina de hielo está bloqueado o averiado."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico 60 segundos y enchúfelo a una toma de pared, no a una regleta.",
+   "Compruebe si el código vuelve.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Solicite el servicio técnico de LG. Esto necesita un técnico."
+ },
+ "LG|IS": {
+  "title": "Error del sensor de la máquina de hielo",
+  "causes": [
+   "El sensor de temperatura de la máquina de hielo está averiado."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico 60 segundos y enchúfelo a una toma de pared, no a una regleta.",
+   "Compruebe si el código vuelve.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Solicite el servicio técnico de LG. Esto necesita un técnico."
+ },
+ "LG|It": {
+  "title": "Error del motor de la máquina de hielo",
+  "causes": [
+   "El motor de la máquina de hielo está averiado."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico 60 segundos y enchúfelo a una toma de pared, no a una regleta.",
+   "Compruebe si el código vuelve.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Solicite el servicio técnico de LG. Esto necesita un técnico."
+ },
+ "LG|rS": {
+  "title": "Error del sensor del frigorífico (superior)",
+  "causes": [
+   "El sensor de temperatura superior del frigorífico está averiado."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico 60 segundos y enchúfelo a una toma de pared, no a una regleta.",
+   "Compruebe si el código vuelve.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Solicite el servicio técnico de LG. Esto necesita un técnico."
+ },
+ "LG|r2": {
+  "title": "Error del sensor del frigorífico (inferior)",
+  "causes": [
+   "El sensor de temperatura inferior del frigorífico está averiado."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico 60 segundos y enchúfelo a una toma de pared, no a una regleta.",
+   "Compruebe si el código vuelve.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Solicite el servicio técnico de LG. Esto necesita un técnico."
+ },
+ "LG|dS": {
+  "title": "Error del sensor de descongelación",
+  "causes": [
+   "El sensor de descongelación está averiado y el evaporador puede llenarse de hielo."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico 60 segundos y enchúfelo a una toma de pared, no a una regleta.",
+   "Compruebe si el código vuelve.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Solicite el servicio técnico de LG. Esto necesita un técnico."
+ },
+ "LG|rT": {
+  "title": "Error del sensor de temperatura ambiente",
+  "causes": [
+   "El sensor de temperatura ambiente está averiado."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico 60 segundos y enchúfelo a una toma de pared, no a una regleta.",
+   "Compruebe si el código vuelve.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Solicite el servicio técnico de LG. Esto necesita un técnico."
+ },
+ "LG|dH": {
+  "title": "Fallo de descongelación",
+  "causes": [
+   "El sistema de descongelación no se calentó a tiempo.",
+   "El evaporador está bloqueado por el hielo."
+  ],
+  "steps": [
+   "Saque los alimentos y guárdelos en un lugar fresco.",
+   "Ponga toallas en el suelo delante del frigorífico.",
+   "Desenchufe el frigorífico y deje las puertas abiertas al menos 12 horas para que se derrita el hielo.",
+   "Vuelva a enchufarlo."
+  ],
+  "technician": "A menudo es solo una solución temporal. Si dH vuelve, solicite el servicio técnico de LG."
+ },
+ "LG|SS": {
+  "title": "Error del sensor del depósito de agua",
+  "causes": [
+   "El sensor de temperatura del depósito de agua está averiado."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico 60 segundos y enchúfelo a una toma de pared, no a una regleta.",
+   "Compruebe si el código vuelve.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Solicite el servicio técnico de LG. Esto necesita un técnico."
+ },
+ "LG|rF": {
+  "title": "Error del ventilador del frigorífico",
+  "causes": [
+   "El ventilador del frigorífico está bloqueado o averiado."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico 60 segundos y enchúfelo a una toma de pared, no a una regleta.",
+   "Compruebe si el código vuelve.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Solicite el servicio técnico de LG. Esto necesita un técnico."
+ },
+ "LG|tt": {
+  "title": "Problema con el depósito de agua",
+  "causes": [
+   "El depósito de agua no está puesto o no está bien colocado.",
+   "El sensor del depósito está averiado."
+  ],
+  "steps": [
+   "Saque el depósito de agua y vuelva a colocarlo correctamente.",
+   "Compruebe si el código desaparece."
+  ],
+  "technician": "Si tt sigue con el depósito colocado, solicite el servicio técnico de LG."
+ },
+ "LG|C1": {
+  "title": "Error de comunicación del dispensador",
+  "causes": [
+   "El dispensador y la pantalla no se comunican."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico 60 segundos y enchúfelo a una toma de pared, no a una regleta.",
+   "Compruebe si el código vuelve.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Solicite el servicio técnico de LG. Esto necesita un técnico."
+ },
+ "LG|gF": {
+  "title": "Error del sensor de caudal de agua",
+  "causes": [
+   "La llave de paso del agua está cerrada.",
+   "La manguera de agua está doblada.",
+   "La presión del agua no es la adecuada."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico 60 segundos y enchúfelo a una toma de pared, no a una regleta.",
+   "Espere hasta 5 minutos a que el frigorífico se reinicie.",
+   "Abra del todo la llave de paso del agua.",
+   "Compruebe que la manguera no está doblada.",
+   "Compruebe que la presión del agua coincide con la del manual."
+  ],
+  "technician": "Si el error sigue, solicite el servicio técnico de LG."
+ },
+ "LG|CH": {
+  "title": "Error del sistema de refrigerante (lado de alta presión)",
+  "causes": [
+   "Los sensores leen valores anómalos en el sistema de refrigerante; puede haber una fuga o una válvula averiada."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico 60 segundos y enchúfelo a una toma de pared, no a una regleta.",
+   "Compruebe si el código vuelve.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Solicite el servicio técnico de LG. Esto necesita un técnico."
+ },
+ "LG|CL": {
+  "title": "Error del sistema de refrigerante (lado de baja presión)",
+  "causes": [
+   "Los sensores leen valores anómalos en el sistema de refrigerante; puede haber una fuga o una válvula averiada."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico 60 segundos y enchúfelo a una toma de pared, no a una regleta.",
+   "Compruebe si el código vuelve.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Solicite el servicio técnico de LG. Esto necesita un técnico."
+ },
+ "LG|Lo": {
+  "title": "Habitación demasiado fría",
+  "causes": [
+   "La habitación está por debajo de -10 °C."
+  ],
+  "steps": [
+   "Si es posible, traslade el frigorífico a un lugar más cálido."
+  ],
+  "technician": "No es una avería. Contacte con LG solo si la habitación está templada y Lo sigue apareciendo."
+ },
+ "LG|HI": {
+  "title": "Habitación demasiado caliente",
+  "causes": [
+   "La habitación está por encima de 50 °C."
+  ],
+  "steps": [
+   "Si es posible, traslade el frigorífico a un lugar más fresco.",
+   "Asegúrese de que el aire circula a su alrededor."
+  ],
+  "technician": "No es una avería. Contacte con LG solo si la temperatura de la habitación es normal y HI sigue apareciendo."
+ },
+ "Miele|F0": {
+  "title": "Avería técnica",
+  "causes": [
+   "Se ha detectado una avería técnica interna."
+  ],
+  "steps": [
+   "Anote el código de avería.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos.",
+   "Solicite un técnico de Miele."
+  ],
+  "technician": "Es una avería técnica que usted no puede solucionar. Contacte con el servicio de atención al cliente de Miele."
+ },
+ "Miele|F1": {
+  "title": "Avería técnica",
+  "causes": [
+   "Se ha detectado una avería técnica interna."
+  ],
+  "steps": [
+   "Anote el código de avería.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos.",
+   "Solicite un técnico de Miele."
+  ],
+  "technician": "Es una avería técnica que usted no puede solucionar. Contacte con el servicio de atención al cliente de Miele."
+ },
+ "Miele|F2": {
+  "title": "Avería técnica",
+  "causes": [
+   "Se ha detectado una avería técnica interna."
+  ],
+  "steps": [
+   "Anote el código de avería.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos.",
+   "Solicite un técnico de Miele."
+  ],
+  "technician": "Es una avería técnica que usted no puede solucionar. Contacte con el servicio de atención al cliente de Miele."
+ },
+ "Miele|F3": {
+  "title": "Avería técnica",
+  "causes": [
+   "Se ha detectado una avería técnica interna."
+  ],
+  "steps": [
+   "Anote el código de avería.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos.",
+   "Solicite un técnico de Miele."
+  ],
+  "technician": "Es una avería técnica que usted no puede solucionar. Contacte con el servicio de atención al cliente de Miele."
+ },
+ "Miele|F4": {
+  "title": "Avería técnica",
+  "causes": [
+   "Se ha detectado una avería técnica interna."
+  ],
+  "steps": [
+   "Anote el código de avería.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos.",
+   "Solicite un técnico de Miele."
+  ],
+  "technician": "Es una avería técnica que usted no puede solucionar. Contacte con el servicio de atención al cliente de Miele."
+ },
+ "Miele|F5": {
+  "title": "Avería técnica",
+  "causes": [
+   "Se ha detectado una avería técnica interna."
+  ],
+  "steps": [
+   "Anote el código de avería.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos.",
+   "Solicite un técnico de Miele."
+  ],
+  "technician": "Es una avería técnica que usted no puede solucionar. Contacte con el servicio de atención al cliente de Miele."
+ },
+ "Miele|F114": {
+  "title": "Sensor del evaporador del congelador averiado",
+  "causes": [
+   "El sensor del evaporador de la zona del congelador está averiado."
+  ],
+  "steps": [
+   "Anote el código de avería.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos.",
+   "Solicite un técnico de Miele."
+  ],
+  "technician": "Es una avería técnica que usted no puede solucionar. Contacte con el servicio de atención al cliente de Miele."
+ },
+ "Miele|F120": {
+  "title": "Tensión de red demasiado baja",
+  "causes": [
+   "La tensión de red a veces es demasiado baja o varía mucho."
+  ],
+  "steps": [
+   "Compruebe si otros aparatos también tienen problemas.",
+   "Pida a un electricista cualificado que revise la tensión de su red."
+  ],
+  "technician": "Si la tensión es correcta y F120 sigue, solicite un técnico de Miele."
+ },
+ "Miele|F141": {
+  "title": "Puerta del frigorífico abierta durante 15 minutos",
+  "causes": [
+   "La puerta del compartimento frigorífico lleva 15 minutos abierta."
+  ],
+  "steps": [
+   "Cierre la puerta del frigorífico.",
+   "Compruebe que nada impide que se cierre."
+  ],
+  "technician": "Si F141 aparece con la puerta cerrada, solicite un técnico de Miele."
+ },
+ "Miele|F142": {
+  "title": "Puerta del frigorífico abierta durante 30 minutos",
+  "causes": [
+   "La puerta del compartimento frigorífico lleva unos 30 minutos abierta."
+  ],
+  "steps": [
+   "Cierre la puerta del frigorífico.",
+   "Compruebe que nada impide que se cierre."
+  ],
+  "technician": "Si F142 aparece con la puerta cerrada, solicite un técnico de Miele."
+ },
+ "Miele|F383": {
+  "title": "Avería en la entrada de agua de la máquina de hielo",
+  "causes": [
+   "La manguera de entrada de agua está doblada.",
+   "El filtro de entrada está sucio.",
+   "El depósito de agua no está bien colocado o su flotador está atascado.",
+   "Un error de software."
+  ],
+  "steps": [
+   "Enderece la manguera de agua si está doblada.",
+   "Limpie el filtro de entrada.",
+   "Saque el depósito de agua, limpie debajo y vuelva a introducirlo hasta el fondo.",
+   "Agite el depósito para comprobar que el flotador se mueve libremente.",
+   "Ajuste el congelador a -18 °C durante al menos 48 horas."
+  ],
+  "technician": "Si la avería sigue, contacte con el servicio de atención al cliente de Miele."
+ },
+ "Miele|F384": {
+  "title": "Bloqueo del software",
+  "causes": [
+   "El software del aparato ha dejado de funcionar."
+  ],
+  "steps": [
+   "Desenchufe el aparato unos 2 minutos.",
+   "Vuelva a enchufarlo y enciéndalo.",
+   "Si vuelve a funcionar, restablezca los ajustes de fábrica desde el menú Ajustes."
+  ],
+  "technician": "Si la avería vuelve, contacte con el servicio de atención al cliente de Miele."
+ },
+ "Miele|F385": {
+  "title": "Bloqueo del software",
+  "causes": [
+   "El software del aparato ha dejado de funcionar."
+  ],
+  "steps": [
+   "Desenchufe el aparato unos 2 minutos.",
+   "Vuelva a enchufarlo y enciéndalo.",
+   "Si vuelve a funcionar, restablezca los ajustes de fábrica desde el menú Ajustes."
+  ],
+  "technician": "Si la avería vuelve, contacte con el servicio de atención al cliente de Miele."
+ },
+ "Miele|nA": {
+  "title": "El congelador se calentó demasiado",
+  "causes": [
+   "Un corte de luz o de suministro hizo que el congelador se calentara."
+  ],
+  "steps": [
+   "Mantenga pulsado el botón de alarma para ver la temperatura máxima alcanzada.",
+   "Revise los alimentos. Consuma pronto los descongelados.",
+   "No vuelva a congelar alimentos descongelados salvo que antes los cocine."
+  ],
+  "technician": "No es una avería. Contacte con Miele solo si aparece sin que haya habido un corte de luz."
+ },
+ "AEG|E08": {
+  "title": "Tensión de alimentación baja",
+  "causes": [
+   "La tensión de red ha bajado de 170 V. Así se protege el compresor."
+  ],
+  "steps": [
+   "Compruebe si otros aparatos tienen problemas de corriente.",
+   "Espere a que la alimentación vuelva a la normalidad."
+  ],
+  "technician": "Si E08 sigue apareciendo, haga revisar la instalación y contacte con un técnico autorizado de AEG."
+ },
+ "AEG|E09": {
+  "title": "El congelador no enfría lo suficiente",
+  "causes": [
+   "Normalmente, tras un corte de luz largo."
+  ],
+  "steps": [
+   "Baje la temperatura del congelador o active Super Freeze.",
+   "Mantenga las puertas cerradas hasta que desaparezca el código.",
+   "Consuma o cocine pronto los alimentos descongelados.",
+   "No añada alimentos frescos hasta que desaparezca el código."
+  ],
+  "technician": "Si el código no desaparece, contacte con un técnico autorizado de AEG."
+ },
+ "AEG|E10": {
+  "title": "El frigorífico no enfría lo suficiente",
+  "causes": [
+   "Un corte de luz largo.",
+   "Se metieron alimentos calientes en el frigorífico."
+  ],
+  "steps": [
+   "Baje la temperatura del frigorífico o active Super Cool.",
+   "Mantenga las puertas cerradas.",
+   "Aleje los alimentos de las salidas de aire y del sensor."
+  ],
+  "technician": "Si E10 sigue, solicite una reparación a AEG."
+ },
+ "AEG|E11": {
+  "title": "Frigorífico demasiado frío",
+  "causes": [
+   "Super Cool se ha quedado activado.",
+   "La temperatura está ajustada demasiado baja.",
+   "Las salidas de aire están tapadas."
+  ],
+  "steps": [
+   "Desactive Super Cool.",
+   "Ajuste una temperatura más alta en el frigorífico.",
+   "Asegúrese de que las salidas de aire están despejadas."
+  ],
+  "technician": "Si el código sigue, contacte con un servicio técnico autorizado de AEG."
+ },
+ "AEG|F2": {
+  "title": "Avería del termostato",
+  "causes": [
+   "Un problema con el termostato."
+  ],
+  "steps": [
+   "Anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Solicite un técnico del servicio de AEG e indique el código."
+ },
+ "AEG|F8": {
+  "title": "Avería del sistema de descongelación",
+  "causes": [
+   "Una avería en el sistema de descongelación."
+  ],
+  "steps": [
+   "No intente repararlo usted mismo.",
+   "Anote el modelo y el número de serie."
+  ],
+  "technician": "Solicite un técnico del servicio de AEG e indique el código F8."
+ },
+ "Electrolux|F5": {
+  "title": "Avería del sensor de temperatura",
+  "causes": [
+   "Un sensor de temperatura está defectuoso. F3 y F4 indican el mismo tipo de avería."
+  ],
+  "steps": [
+   "Anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Solicite un técnico del servicio de Electrolux e indique el código."
+ },
+ "Electrolux|E01": {
+  "title": "Aviso de sensor",
+  "causes": [
+   "Un sensor del frigorífico combi tiene un problema."
+  ],
+  "steps": [
+   "Anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Contacte con un servicio técnico autorizado de Electrolux para que le envíen un técnico."
+ },
+ "Electrolux|E02": {
+  "title": "Aviso de sensor",
+  "causes": [
+   "Un sensor del frigorífico combi tiene un problema."
+  ],
+  "steps": [
+   "Anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Contacte con un servicio técnico autorizado de Electrolux para que le envíen un técnico."
+ },
+ "Electrolux|E03": {
+  "title": "Aviso de sensor",
+  "causes": [
+   "Un sensor del frigorífico combi tiene un problema."
+  ],
+  "steps": [
+   "Anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Contacte con un servicio técnico autorizado de Electrolux para que le envíen un técnico."
+ },
+ "Electrolux|E06": {
+  "title": "Aviso de sensor",
+  "causes": [
+   "Un sensor del frigorífico combi tiene un problema."
+  ],
+  "steps": [
+   "Anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Contacte con un servicio técnico autorizado de Electrolux para que le envíen un técnico."
+ },
+ "Electrolux|E07": {
+  "title": "Aviso de sensor",
+  "causes": [
+   "Un sensor del frigorífico combi tiene un problema."
+  ],
+  "steps": [
+   "Anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Contacte con un servicio técnico autorizado de Electrolux para que le envíen un técnico."
+ },
+ "Hotpoint|E0": {
+  "title": "Avería de la máquina de hielo",
+  "causes": [
+   "La máquina de hielo no funciona correctamente (modelos con máquina de hielo)."
+  ],
+  "steps": [
+   "Apague la máquina de hielo si es posible.",
+   "Siga usando el frigorífico con normalidad."
+  ],
+  "technician": "Llame al servicio técnico de Hotpoint para solicitar un técnico."
+ },
+ "Hotpoint|E1": {
+  "title": "Avería del sensor del frigorífico",
+  "causes": [
+   "El sensor de temperatura del frigorífico está averiado."
+  ],
+  "steps": [
+   "Anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Llame al servicio técnico de Hotpoint para solicitar un técnico."
+ },
+ "Hotpoint|E2": {
+  "title": "Avería del sensor del congelador",
+  "causes": [
+   "El sensor de temperatura del congelador está averiado.",
+   "Puede que la temperatura del congelador no sea la correcta."
+  ],
+  "steps": [
+   "Compruebe que los alimentos siguen congelados.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Llame al servicio técnico de Hotpoint para solicitar un técnico."
+ },
+ "Hotpoint|E3": {
+  "title": "Avería del sensor de descongelación",
+  "causes": [
+   "El sensor de descongelación está averiado.",
+   "Un desagüe obstruido también puede afectar a la temperatura."
+  ],
+  "steps": [
+   "Compruebe que el orificio de desagüe de la descongelación y el tubo de desagüe no están obstruidos.",
+   "Elimine con cuidado cualquier obstrucción."
+  ],
+  "technician": "Si la avería continúa, llame al servicio técnico de Hotpoint."
+ },
+ "Hotpoint|E4": {
+  "title": "Avería del sensor de descongelación del frigorífico",
+  "causes": [
+   "El sensor de descongelación del frigorífico está averiado."
+  ],
+  "steps": [
+   "Anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Llame al servicio técnico de Hotpoint para solicitar un técnico."
+ },
+ "Hotpoint|E5": {
+  "title": "Avería del sensor de descongelación del congelador",
+  "causes": [
+   "El sensor de descongelación del congelador está averiado."
+  ],
+  "steps": [
+   "Anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Llame al servicio técnico de Hotpoint para solicitar un técnico."
+ },
+ "Hotpoint|E6": {
+  "title": "Avería de la placa de control o de la pantalla",
+  "causes": [
+   "La placa de control principal o la placa de la pantalla está averiada."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico unos minutos y vuelva a enchufarlo."
+  ],
+  "technician": "Llame al servicio técnico de Hotpoint para solicitar un técnico."
+ },
+ "Hotpoint|E7": {
+  "title": "Avería del sensor de temperatura ambiente",
+  "causes": [
+   "El sensor de temperatura ambiente está averiado."
+  ],
+  "steps": [
+   "Anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Llame al servicio técnico de Hotpoint para solicitar un técnico."
+ },
+ "Hotpoint|E8": {
+  "title": "Avería del sensor de temperatura ambiente",
+  "causes": [
+   "El sensor de temperatura ambiente está averiado."
+  ],
+  "steps": [
+   "Anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Llame al servicio técnico de Hotpoint para solicitar un técnico."
+ },
+ "Hotpoint|E9": {
+  "title": "Alarma de temperatura alta en el congelador",
+  "causes": [
+   "La puerta del congelador se quedó abierta y el congelador se calentó."
+  ],
+  "steps": [
+   "Cierre bien la puerta del congelador.",
+   "Compruebe que nada bloquea la puerta.",
+   "Compruebe si los alimentos se han descongelado."
+  ],
+  "technician": "Si la alarma continúa con la puerta cerrada, llame al servicio técnico de Hotpoint."
+ },
+ "Hotpoint|EE": {
+  "title": "Avería del circuito de la máquina de hielo",
+  "causes": [
+   "Una avería en el circuito de la máquina de hielo (modelos con máquina de hielo)."
+  ],
+  "steps": [
+   "Apague la máquina de hielo si es posible."
+  ],
+  "technician": "Llame al servicio técnico de Hotpoint para solicitar un técnico."
+ },
+ "Indesit|E0": {
+  "title": "Avería de la máquina de hielo",
+  "causes": [
+   "La máquina de hielo no funciona correctamente (modelos con máquina de hielo)."
+  ],
+  "steps": [
+   "Apague la máquina de hielo si es posible.",
+   "Siga usando el frigorífico con normalidad."
+  ],
+  "technician": "Llame al servicio técnico de Indesit para solicitar un técnico."
+ },
+ "Indesit|E1": {
+  "title": "Avería del sensor del frigorífico",
+  "causes": [
+   "El sensor de temperatura del frigorífico está averiado."
+  ],
+  "steps": [
+   "Anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Llame al servicio técnico de Indesit para solicitar un técnico."
+ },
+ "Indesit|E2": {
+  "title": "Avería del sensor del congelador",
+  "causes": [
+   "El sensor de temperatura del congelador está averiado.",
+   "Puede que la temperatura del congelador no sea la correcta."
+  ],
+  "steps": [
+   "Compruebe que los alimentos siguen congelados.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Llame al servicio técnico de Indesit para solicitar un técnico."
+ },
+ "Indesit|E3": {
+  "title": "Avería del sensor de descongelación",
+  "causes": [
+   "El sensor de descongelación está averiado.",
+   "Un desagüe obstruido también puede afectar a la temperatura."
+  ],
+  "steps": [
+   "Compruebe que el orificio de desagüe de la descongelación y el tubo de desagüe no están obstruidos.",
+   "Elimine con cuidado cualquier obstrucción."
+  ],
+  "technician": "Si la avería continúa, llame al servicio técnico de Indesit."
+ },
+ "Indesit|E4": {
+  "title": "Avería del sensor de descongelación del frigorífico",
+  "causes": [
+   "El sensor de descongelación del frigorífico está averiado."
+  ],
+  "steps": [
+   "Anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Llame al servicio técnico de Indesit para solicitar un técnico."
+ },
+ "Indesit|E5": {
+  "title": "Avería del sensor de descongelación del congelador",
+  "causes": [
+   "El sensor de descongelación del congelador está averiado."
+  ],
+  "steps": [
+   "Anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Llame al servicio técnico de Indesit para solicitar un técnico."
+ },
+ "Indesit|E6": {
+  "title": "Avería de la placa de control o de la pantalla",
+  "causes": [
+   "La placa de control principal o la placa de la pantalla está averiada."
+  ],
+  "steps": [
+   "Desenchufe el frigorífico unos minutos y vuelva a enchufarlo."
+  ],
+  "technician": "Llame al servicio técnico de Indesit para solicitar un técnico."
+ },
+ "Indesit|E7": {
+  "title": "Avería del sensor de temperatura ambiente",
+  "causes": [
+   "El sensor de temperatura ambiente está averiado."
+  ],
+  "steps": [
+   "Anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Llame al servicio técnico de Indesit para solicitar un técnico."
+ },
+ "Indesit|E8": {
+  "title": "Avería del sensor de temperatura ambiente",
+  "causes": [
+   "El sensor de temperatura ambiente está averiado."
+  ],
+  "steps": [
+   "Anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "Llame al servicio técnico de Indesit para solicitar un técnico."
+ },
+ "Indesit|E9": {
+  "title": "Alarma de temperatura alta en el congelador",
+  "causes": [
+   "La puerta del congelador se quedó abierta y el congelador se calentó."
+  ],
+  "steps": [
+   "Cierre bien la puerta del congelador.",
+   "Compruebe que nada bloquea la puerta.",
+   "Compruebe si los alimentos se han descongelado."
+  ],
+  "technician": "Si la alarma continúa con la puerta cerrada, llame al servicio técnico de Indesit."
+ },
+ "Indesit|EE": {
+  "title": "Avería del circuito de la máquina de hielo",
+  "causes": [
+   "Una avería en el circuito de la máquina de hielo (modelos con máquina de hielo)."
+  ],
+  "steps": [
+   "Apague la máquina de hielo si es posible."
+  ],
+  "technician": "Llame al servicio técnico de Indesit para solicitar un técnico."
+ },
+ "Whirlpool|F3 E1": {
+  "title": "Avería del sistema (F parpadeando)",
+  "causes": [
+   "El control ha detectado una avería. Whirlpool no ofrece otra solución casera que un reinicio."
+  ],
+  "steps": [
+   "Baje el interruptor del cuadro eléctrico o desenchufe el frigorífico durante un minuto.",
+   "Restablezca la corriente.",
+   "Asegúrese de que la refrigeración está activada.",
+   "Observe durante un minuto si el código vuelve."
+  ],
+  "technician": "Si el código vuelve tras el reinicio, solicite el servicio técnico de Whirlpool."
+ },
+ "Whirlpool|F3 E2": {
+  "title": "Avería del sistema (F parpadeando)",
+  "causes": [
+   "El control ha detectado una avería. Whirlpool no ofrece otra solución casera que un reinicio."
+  ],
+  "steps": [
+   "Baje el interruptor del cuadro eléctrico o desenchufe el frigorífico durante un minuto.",
+   "Restablezca la corriente.",
+   "Asegúrese de que la refrigeración está activada.",
+   "Observe durante un minuto si el código vuelve."
+  ],
+  "technician": "Si el código vuelve tras el reinicio, solicite el servicio técnico de Whirlpool."
+ },
+ "Whirlpool|F6 E1": {
+  "title": "Avería del sistema (F parpadeando)",
+  "causes": [
+   "El control ha detectado una avería. Whirlpool no ofrece otra solución casera que un reinicio."
+  ],
+  "steps": [
+   "Baje el interruptor del cuadro eléctrico o desenchufe el frigorífico durante un minuto.",
+   "Restablezca la corriente.",
+   "Asegúrese de que la refrigeración está activada.",
+   "Observe durante un minuto si el código vuelve."
+  ],
+  "technician": "Si el código vuelve tras el reinicio, solicite el servicio técnico de Whirlpool."
+ },
+ "Whirlpool|F8 E1": {
+  "title": "Avería del sistema (F parpadeando)",
+  "causes": [
+   "El control ha detectado una avería. Whirlpool no ofrece otra solución casera que un reinicio."
+  ],
+  "steps": [
+   "Baje el interruptor del cuadro eléctrico o desenchufe el frigorífico durante un minuto.",
+   "Restablezca la corriente.",
+   "Asegúrese de que la refrigeración está activada.",
+   "Observe durante un minuto si el código vuelve."
+  ],
+  "technician": "Si el código vuelve tras el reinicio, solicite el servicio técnico de Whirlpool."
+ },
+ "Whirlpool|F8 E2": {
+  "title": "Avería del sistema (F parpadeando)",
+  "causes": [
+   "El control ha detectado una avería. Whirlpool no ofrece otra solución casera que un reinicio."
+  ],
+  "steps": [
+   "Baje el interruptor del cuadro eléctrico o desenchufe el frigorífico durante un minuto.",
+   "Restablezca la corriente.",
+   "Asegúrese de que la refrigeración está activada.",
+   "Observe durante un minuto si el código vuelve."
+  ],
+  "technician": "Si el código vuelve tras el reinicio, solicite el servicio técnico de Whirlpool."
+ },
+ "Whirlpool|PO": {
+  "title": "Aviso de corte de corriente",
+  "causes": [
+   "Hubo un corte de luz y el congelador llegó a -8 °C (18 °F) o más."
+  ],
+  "steps": [
+   "Pulse el botón situado bajo la indicación Confirm que parpadea para borrar el aviso.",
+   "Compruebe si los alimentos congelados se han descongelado."
+  ],
+  "technician": "No es una avería. Contacte con Whirlpool solo si PO aparece sin que haya habido un corte de luz."
+ },
+ "Bosch|E02": {
+  "title": "Avería de la máquina de hielo o del sistema de agua",
+  "causes": [
+   "La máquina de hielo está averiada.",
+   "Los controles de hielo y agua no se comunican."
+  ],
+  "steps": [
+   "Baje el interruptor del frigorífico en el cuadro eléctrico durante 30 segundos.",
+   "Vuelva a subirlo y compruebe el código."
+  ],
+  "technician": "Si E02 sigue, contacte con el servicio de atención al cliente de Bosch."
+ },
+ "Bosch|E03": {
+  "title": "Avería del control del dispensador",
+  "causes": [
+   "El panel de control del dispensador tiene una avería."
+  ],
+  "steps": [
+   "Baje el interruptor del frigorífico en el cuadro eléctrico durante 30 segundos.",
+   "Vuelva a subirlo y compruebe el código."
+  ],
+  "technician": "Si E03 sigue, contacte con el servicio de atención al cliente de Bosch."
+ },
+ "Haier|F1": {
+  "title": "Error de sensor",
+  "causes": [
+   "Un sensor de temperatura está averiado."
+  ],
+  "steps": [
+   "Apague y encienda el frigorífico una vez para ver si el código desaparece.",
+   "Si vuelve, anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "El usuario no puede solucionarlo. Contacte con el servicio técnico de Haier para que le envíen un técnico."
+ },
+ "Haier|E0": {
+  "title": "Error de comunicación",
+  "causes": [
+   "Las placas internas no se comunican."
+  ],
+  "steps": [
+   "Apague y encienda el frigorífico una vez para ver si el código desaparece.",
+   "Si vuelve, anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "El usuario no puede solucionarlo. Contacte con el servicio técnico de Haier para que le envíen un técnico."
+ },
+ "Haier|E1": {
+  "title": "Error del ventilador",
+  "causes": [
+   "Un ventilador no funciona."
+  ],
+  "steps": [
+   "Apague y encienda el frigorífico una vez para ver si el código desaparece.",
+   "Si vuelve, anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "El usuario no puede solucionarlo. Contacte con el servicio técnico de Haier para que le envíen un técnico."
+ },
+ "Haier|Er": {
+  "title": "Error de la máquina de hielo",
+  "causes": [
+   "La máquina de hielo está averiada."
+  ],
+  "steps": [
+   "Apague y encienda el frigorífico una vez para ver si el código desaparece.",
+   "Si vuelve, anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "El usuario no puede solucionarlo. Contacte con el servicio técnico de Haier para que le envíen un técnico."
+ },
+ "Haier|Ed": {
+  "title": "Error de descongelación",
+  "causes": [
+   "El sistema de descongelación está averiado."
+  ],
+  "steps": [
+   "Apague y encienda el frigorífico una vez para ver si el código desaparece.",
+   "Si vuelve, anote el código.",
+   "Mantenga las puertas cerradas el mayor tiempo posible para proteger los alimentos."
+  ],
+  "technician": "El usuario no puede solucionarlo. Contacte con el servicio técnico de Haier para que le envíen un técnico."
+ }
+}

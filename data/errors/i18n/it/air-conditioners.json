@@ -1,0 +1,1180 @@
+{
+ "LG|CH00": {
+  "title": "L'unità va controllata (errore generico)",
+  "causes": [
+   "Una fluttuazione temporanea della corrente o un disturbo elettrico.",
+   "Un guasto interno che va controllato."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se CH00 ricompare dopo aver tolto e ridato corrente, richieda un tecnico LG."
+ },
+ "LG|CH01": {
+  "title": "Guasto al sensore di temperatura",
+  "causes": [
+   "Un sensore di temperatura o del tubo è guasto o si è staccato.",
+   "Un errore della scheda principale o un breve disturbo elettrico."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda.",
+   "Verifichi se il codice è scomparso."
+  ],
+  "technician": "Se il codice ricompare dopo il reset, smetta di usare l'unità e prenoti l'assistenza LG. Non apra l'unità."
+ },
+ "LG|CH02": {
+  "title": "Guasto al sensore di temperatura",
+  "causes": [
+   "Un sensore di temperatura o del tubo è guasto o si è staccato.",
+   "Un errore della scheda principale o un breve disturbo elettrico."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda.",
+   "Verifichi se il codice è scomparso."
+  ],
+  "technician": "Se il codice ricompare dopo il reset, smetta di usare l'unità e prenoti l'assistenza LG. Non apra l'unità."
+ },
+ "LG|CH06": {
+  "title": "Guasto al sensore di temperatura",
+  "causes": [
+   "Un sensore di temperatura o del tubo è guasto o si è staccato.",
+   "Un errore della scheda principale o un breve disturbo elettrico."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda.",
+   "Verifichi se il codice è scomparso."
+  ],
+  "technician": "Se il codice ricompare dopo il reset, smetta di usare l'unità e prenoti l'assistenza LG. Non apra l'unità."
+ },
+ "LG|CH21": {
+  "title": "Guasto al compressore esterno o al circuito di pilotaggio",
+  "causes": [
+   "Un breve problema di alimentazione.",
+   "Un guasto al compressore, al suo circuito di pilotaggio o al circuito di protezione nell'unità esterna."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice resta, smetta di usare l'unità e richieda un tecnico LG."
+ },
+ "LG|CH26": {
+  "title": "Guasto al compressore esterno o al circuito di pilotaggio",
+  "causes": [
+   "Un breve problema di alimentazione.",
+   "Un guasto al compressore, al suo circuito di pilotaggio o al circuito di protezione nell'unità esterna."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice resta, smetta di usare l'unità e richieda un tecnico LG."
+ },
+ "LG|CH04": {
+  "title": "Problema di scarico o serbatoio della condensa pieno",
+  "causes": [
+   "Lo scarico interno non funziona (unità a soffitto).",
+   "Nelle unità a finestra e portatili, il serbatoio della condensa è pieno, spesso nei giorni umidi."
+  ],
+  "steps": [
+   "Spenga l'unità e stacchi la spina.",
+   "Nelle unità a finestra o portatili, metta una bacinella da circa 1,5 L sotto il foro di scarico in basso sul retro e tolga il tappo.",
+   "Lasci defluire l'acqua, poi rimonti bene il tappo.",
+   "Può collegare un tubo per lo scarico continuo; si assicuri che l'acqua non goccioli su qualcuno sotto."
+  ],
+  "technician": "Se CH04/FL compare spesso anche con tempo secco, o su un'unità a soffitto dopo un reset, prenoti l'assistenza LG."
+ },
+ "LG|CH05": {
+  "title": "Errore di comunicazione tra unità interna ed esterna",
+  "causes": [
+   "L'unità interna e quella esterna non riescono a comunicare.",
+   "Problema di cablaggio dopo una nuova installazione o uno spostamento."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice resta dopo un reset, o se l'unità è stata appena installata o spostata, richieda l'assistenza."
+ },
+ "LG|CH07": {
+  "title": "Conflitto di modalità di funzionamento",
+  "causes": [
+   "Due unità interne dello stesso impianto sono impostate su modalità opposte (riscaldamento contro raffreddamento/deumidificazione)."
+  ],
+  "steps": [
+   "Imposti tutte le unità interne in riscaldamento, oppure tutte in raffreddamento/deumidificazione.",
+   "Le modalità ventilazione e purificazione dell'aria possono funzionare con qualsiasi modalità."
+  ],
+  "technician": "Se il codice resta con tutte le unità nella stessa modalità, contatti l'assistenza LG."
+ },
+ "LG|CH10": {
+  "title": "Problema alla ventola interna",
+  "causes": [
+   "Detriti o ghiaccio bloccano la ventola interna.",
+   "Guasto al motore della ventola."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Tolga i detriti visibili dalla presa e dall'uscita dell'aria. Non apra l'involucro.",
+   "Controlli i filtri dell'aria dell'unità interna e li pulisca se sono impolverati.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se nulla blocca la ventola e il codice ricompare, richieda l'assistenza."
+ },
+ "LG|CH67": {
+  "title": "Problema alla ventola esterna",
+  "causes": [
+   "Detriti o neve bloccano la ventola esterna.",
+   "Guasto al motore della ventola esterna."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Tolga foglie, neve o oggetti intorno alla griglia dell'unità esterna.",
+   "Si assicuri che nulla ostacoli il flusso d'aria intorno all'unità esterna (scatole, piante, neve, foglie).",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se nulla la blocca e il codice ricompare, richieda l'assistenza."
+ },
+ "LG|CH38": {
+  "title": "Refrigerante insufficiente",
+  "causes": [
+   "La carica di refrigerante è bassa, spesso dopo l'installazione o uno spostamento.",
+   "Un raccordo dei tubi allentato o una perdita."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se l'unità è stata installata o spostata di recente, chiami l'installatore; altrimenti, se il codice ricompare, contatti l'assistenza LG. Gli interventi sul refrigerante spettano solo ai tecnici."
+ },
+ "LG|CH54": {
+  "title": "Inversione di fase o errore di alimentazione",
+  "causes": [
+   "Una breve interruzione di corrente o lavori elettrici recenti.",
+   "Il collegamento delle fasi è invertito."
+  ],
+  "steps": [
+   "Spenga e riaccenda l'interruttore del condizionatore."
+  ],
+  "technician": "Se il codice è comparso dopo lavori elettrici, chieda all'elettricista di correggere il collegamento; altrimenti richieda l'assistenza LG."
+ },
+ "LG|CH61": {
+  "title": "Surriscaldamento dell'unità",
+  "causes": [
+   "In raffreddamento: l'unità esterna è poco ventilata, ad esempio su un balcone chiuso.",
+   "In riscaldamento: il filtro interno è intasato."
+  ],
+  "steps": [
+   "In raffreddamento, apra finestre o vetrate vicino all'unità esterna e liberi lo spazio intorno.",
+   "Controlli i filtri dell'aria dell'unità interna e li pulisca se sono impolverati.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice resta dopo un reset e un miglior flusso d'aria, un tecnico deve ispezionare l'unità."
+ },
+ "LG|CH66": {
+  "title": "Problema di cablaggio o tubazioni tra unità interna ed esterna",
+  "causes": [
+   "Un problema alla linea di comunicazione o al raccordo dei tubi tra le unità."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se l'unità è stata appena installata o spostata, chiami l'installatore; se il codice resta, richieda un tecnico."
+ },
+ "LG|CH90": {
+  "title": "Protezione durante il collaudo",
+  "causes": [
+   "Il collaudo ha rilevato un problema, spesso ai raccordi dei tubi."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se l'unità è nuova o è stata spostata, chieda all'installatore di controllare le tubazioni; altrimenti, se il problema resta, richieda l'assistenza."
+ },
+ "LG|CH93": {
+  "title": "Comunicazione instabile tra unità interna ed esterna",
+  "causes": [
+   "Comunicazione instabile durante il collaudo.",
+   "Sui modelli più recenti, l'unità esterna non è alimentata."
+  ],
+  "steps": [
+   "Verifichi che entrambi i cavi di alimentazione siano collegati (i modelli più recenti ne hanno uno per unità).",
+   "Colleghi l'unità esterna direttamente a una presa a muro, non a una ciabatta.",
+   "Si assicuri che l'interruttore del condizionatore sia acceso. Se non resta acceso, non continui a riarmarlo.",
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se l'interruttore continua a scattare o il codice resta, richieda l'assistenza LG."
+ },
+ "Samsung|E121": {
+  "title": "Guasto al sensore della temperatura ambiente",
+  "causes": [
+   "Il sensore della temperatura ambiente interno è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda.",
+   "Annoti il codice e il numero di modello prima di chiamare l'assistenza."
+  ],
+  "technician": "Serve una riparazione autorizzata Samsung; contatti l'assistenza Samsung."
+ },
+ "Samsung|E122": {
+  "title": "Guasto al sensore di temperatura dello scambiatore di calore",
+  "causes": [
+   "Il sensore dello scambiatore di calore interno è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda.",
+   "Annoti il codice e il numero di modello prima di chiamare l'assistenza."
+  ],
+  "technician": "Serve una riparazione autorizzata Samsung; contatti l'assistenza Samsung."
+ },
+ "Samsung|E154": {
+  "title": "La ventola interna non gira",
+  "causes": [
+   "Il motore della ventola interna è in modalità di protezione, ad esempio dopo uno sbalzo di tensione.",
+   "Il motore della ventola o la scheda di controllo sono guasti."
+  ],
+  "steps": [
+   "Spenga l'unità, attenda qualche secondo e la riaccenda.",
+   "Osservi se il codice ricompare entro circa 10 secondi.",
+   "Nelle zone con sbalzi frequenti, valuti uno stabilizzatore di tensione."
+  ],
+  "technician": "Se il codice ricompare subito dopo il riavvio, contatti l'assistenza Samsung."
+ },
+ "Samsung|E163": {
+  "title": "Errore della memoria della scheda di controllo (EEPROM)",
+  "causes": [
+   "I dati nella memoria della scheda principale sono errati o mancanti."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda.",
+   "Annoti il codice e il numero di modello prima di chiamare l'assistenza."
+  ],
+  "technician": "Serve una riparazione autorizzata Samsung; contatti l'assistenza Samsung."
+ },
+ "Samsung|CF": {
+  "title": "Promemoria pulizia filtri",
+  "causes": [
+   "Il timer per la pulizia dei filtri è scaduto."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Estragga e pulisca i filtri dell'unità interna.",
+   "Rimonti i filtri e azzeri l'indicatore dei filtri."
+  ],
+  "technician": "Per questo promemoria non serve un tecnico."
+ },
+ "Samsung|dF": {
+  "title": "Sbrinamento in modalità riscaldamento",
+  "causes": [
+   "L'unità esterna sta sciogliendo il ghiaccio durante il riscaldamento. Il vapore dall'unità esterna è normale."
+  ],
+  "steps": [
+   "Attenda: il riscaldamento riprende al termine dello sbrinamento.",
+   "Non serve alcun intervento."
+  ],
+  "technician": "Chiami l'assistenza solo se l'unità resta in sbrinamento molto a lungo e non scalda."
+ },
+ "Daikin|A1": {
+  "title": "Guasto alla scheda elettronica dell'unità interna",
+  "causes": [
+   "La scheda di controllo interna è guasta."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|A3": {
+  "title": "Problema al controllo del livello di scarico",
+  "causes": [
+   "L'acqua di condensa non defluisce dall'unità interna.",
+   "Il tubo di scarico potrebbe essere ostruito."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Controlli che il tubo di scarico all'esterno non sia piegato od ostruito.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|A5": {
+  "title": "Protezione antigelo o da alta pressione",
+  "causes": [
+   "In raffreddamento, la batteria interna diventa troppo fredda.",
+   "In riscaldamento, la pressione è troppo alta, spesso per uno scarso flusso d'aria."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Controlli i filtri dell'aria dell'unità interna e li pulisca se sono impolverati.",
+   "Verifichi che nulla ostruisca la presa o l'uscita dell'aria dell'unità interna.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|A6": {
+  "title": "Guasto al motore della ventola interna",
+  "causes": [
+   "Il motore della ventola interna o il suo controllo sono guasti o bloccati."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Verifichi che nulla sia incastrato nell'uscita dell'unità interna. Non apra l'involucro.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|C4": {
+  "title": "Guasto al sensore di temperatura della batteria interna",
+  "causes": [
+   "Il termistore del tubo del liquido sullo scambiatore interno è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|C9": {
+  "title": "Guasto al sensore ambiente (aria aspirata)",
+  "causes": [
+   "Il termistore dell'aria interna è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|E1": {
+  "title": "Guasto alla scheda elettronica dell'unità esterna",
+  "causes": [
+   "La scheda di controllo esterna è guasta."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|E3": {
+  "title": "Intervento del pressostato di alta pressione",
+  "causes": [
+   "La pressione dell'impianto è troppo alta, spesso per uno scarso flusso d'aria esterno o una batteria sporca."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Si assicuri che nulla ostacoli il flusso d'aria intorno all'unità esterna (scatole, piante, neve, foglie).",
+   "Controlli i filtri dell'aria dell'unità interna e li pulisca se sono impolverati.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|E5": {
+  "title": "Surriscaldamento o blocco del compressore",
+  "causes": [
+   "Il compressore inverter si è surriscaldato o non parte."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Si assicuri che nulla ostacoli il flusso d'aria intorno all'unità esterna (scatole, piante, neve, foglie).",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|E6": {
+  "title": "Sovracorrente o blocco del compressore",
+  "causes": [
+   "Il compressore assorbe troppa corrente o è bloccato."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|E7": {
+  "title": "Guasto al motore della ventola esterna",
+  "causes": [
+   "Il sistema del motore della ventola esterna è guasto o bloccato."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Tolga foglie, neve o oggetti dalla griglia dell'unità esterna.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|E8": {
+  "title": "Sovracorrente del compressore",
+  "causes": [
+   "La corrente in ingresso al compressore inverter è troppo alta."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|F3": {
+  "title": "Temperatura del tubo di mandata troppo alta",
+  "causes": [
+   "Il tubo di mandata del compressore si surriscalda, ad esempio per refrigerante insufficiente o scarso flusso d'aria."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Si assicuri che nulla ostacoli il flusso d'aria intorno all'unità esterna (scatole, piante, neve, foglie).",
+   "Controlli i filtri dell'aria dell'unità interna e li pulisca se sono impolverati.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|F6": {
+  "title": "Alta pressione anomala",
+  "causes": [
+   "La pressione del refrigerante è troppo alta, forse per una carica eccessiva o un flusso d'aria ostruito."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Si assicuri che nulla ostacoli il flusso d'aria intorno all'unità esterna (scatole, piante, neve, foglie).",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|H6": {
+  "title": "Guasto al sensore di posizione del compressore",
+  "causes": [
+   "Il rilevamento della posizione del rotore del compressore non funziona."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|H8": {
+  "title": "Guasto al sensore di corrente del compressore",
+  "causes": [
+   "Il circuito di misura della corrente in ingresso al compressore (CT) è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|H9": {
+  "title": "Guasto al sensore dell'aria esterna",
+  "causes": [
+   "Il termistore dell'aria esterna è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|J3": {
+  "title": "Guasto al sensore del tubo di mandata",
+  "causes": [
+   "Il termistore del tubo di mandata è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|L4": {
+  "title": "Surriscaldamento del dissipatore dell'inverter",
+  "causes": [
+   "L'aletta di raffreddamento dell'inverter è troppo calda, spesso per un flusso d'aria esterno ostruito."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Si assicuri che nulla ostacoli il flusso d'aria intorno all'unità esterna (scatole, piante, neve, foglie).",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|L5": {
+  "title": "Sovracorrente dell'inverter",
+  "causes": [
+   "Una sovracorrente improvvisa all'uscita dell'inverter, spesso per un problema al compressore."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|U0": {
+  "title": "Mancanza di refrigerante",
+  "causes": [
+   "L'impianto ha poco refrigerante, di solito per una perdita."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Controlli i filtri dell'aria dell'unità interna e li pulisca se sono impolverati.",
+   "Non provi ad aggiungere refrigerante da solo."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|U2": {
+  "title": "Problema di alimentazione",
+  "causes": [
+   "La tensione di alimentazione è anomala o c'è stata una breve interruzione di corrente."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Daikin|U4": {
+  "title": "Guasto di comunicazione tra unità interna ed esterna",
+  "causes": [
+   "I segnali tra unità interna ed esterna si sono persi.",
+   "Un problema di cablaggio o un guasto su una delle due schede."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se il codice ricompare dopo questi controlli, chiami un tecnico dell'assistenza Daikin; questo guasto richiede una diagnosi professionale."
+ },
+ "Panasonic|H00": {
+  "title": "Nessun guasto memorizzato",
+  "causes": [
+   "La memoria dell'autodiagnosi non ha registrato anomalie."
+  ],
+  "steps": [
+   "Non serve alcun intervento.",
+   "Se l'unità non funziona, controlli l'alimentazione e le pile del telecomando."
+  ],
+  "technician": "Se l'unità non funziona ma mostra H00, contatti un tecnico dell'assistenza Panasonic."
+ },
+ "Panasonic|H11": {
+  "title": "Guasto di comunicazione tra unità interna ed esterna",
+  "causes": [
+   "L'unità interna e quella esterna non riescono a comunicare."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Panasonic raccomanda che le riparazioni per questo codice siano eseguite da un tecnico qualificato; ne chiami uno se il codice ricompare."
+ },
+ "Panasonic|H12": {
+  "title": "Capacità dell'unità interna non compatibile",
+  "causes": [
+   "L'unità interna non corrisponde alla capacità dell'unità esterna, di solito per un problema di installazione."
+  ],
+  "steps": [
+   "Annoti il codice e il numero di modello prima di chiamare l'assistenza."
+  ],
+  "technician": "Contatti l'installatore o un tecnico Panasonic per verificare la combinazione delle unità."
+ },
+ "Panasonic|H14": {
+  "title": "Guasto al sensore della temperatura dell'aria interna",
+  "causes": [
+   "Il sensore dell'aria aspirata interna è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Panasonic raccomanda che le riparazioni per questo codice siano eseguite da un tecnico qualificato; ne chiami uno se il codice ricompare."
+ },
+ "Panasonic|H15": {
+  "title": "Guasto al sensore di temperatura del compressore",
+  "causes": [
+   "Il sensore di temperatura del compressore è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Panasonic raccomanda che le riparazioni per questo codice siano eseguite da un tecnico qualificato; ne chiami uno se il codice ricompare."
+ },
+ "Panasonic|H16": {
+  "title": "Guasto al sensore di corrente esterno",
+  "causes": [
+   "Il trasformatore di corrente (CT) esterno è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Panasonic raccomanda che le riparazioni per questo codice siano eseguite da un tecnico qualificato; ne chiami uno se il codice ricompare."
+ },
+ "Panasonic|H19": {
+  "title": "Motore della ventola interna bloccato",
+  "causes": [
+   "Il motore della ventola interna è bloccato o guasto."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Verifichi che nulla sia rimasto incastrato nell'uscita dell'unità interna. Non apra l'involucro.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Panasonic raccomanda che le riparazioni per questo codice siano eseguite da un tecnico qualificato; ne chiami uno se il codice ricompare."
+ },
+ "Panasonic|H23": {
+  "title": "Guasto al sensore dello scambiatore di calore interno",
+  "causes": [
+   "Il sensore di temperatura della batteria interna è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Panasonic raccomanda che le riparazioni per questo codice siano eseguite da un tecnico qualificato; ne chiami uno se il codice ricompare."
+ },
+ "Panasonic|H27": {
+  "title": "Guasto al sensore dell'aria esterna",
+  "causes": [
+   "Il sensore della temperatura dell'aria esterna è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Panasonic raccomanda che le riparazioni per questo codice siano eseguite da un tecnico qualificato; ne chiami uno se il codice ricompare."
+ },
+ "Panasonic|H28": {
+  "title": "Guasto al sensore dello scambiatore di calore esterno",
+  "causes": [
+   "Il sensore di temperatura della batteria esterna è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Panasonic raccomanda che le riparazioni per questo codice siano eseguite da un tecnico qualificato; ne chiami uno se il codice ricompare."
+ },
+ "Panasonic|H33": {
+  "title": "Unità interna ed esterna collegate in modo errato",
+  "causes": [
+   "Il collegamento tra le unità non è corretto, di solito dopo l'installazione."
+  ],
+  "steps": [
+   "Annoti il codice e il numero di modello prima di chiamare l'assistenza."
+  ],
+  "technician": "Chieda all'installatore o a un tecnico Panasonic di controllare il cablaggio."
+ },
+ "Panasonic|H97": {
+  "title": "Motore della ventola esterna bloccato",
+  "causes": [
+   "La ventola esterna è bloccata o il suo motore è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Tolga foglie, neve o oggetti intorno alla griglia della ventola esterna.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Panasonic raccomanda che le riparazioni per questo codice siano eseguite da un tecnico qualificato; ne chiami uno se il codice ricompare."
+ },
+ "Panasonic|H98": {
+  "title": "Protezione da alta pressione dell'unità interna",
+  "causes": [
+   "La pressione è troppo alta in riscaldamento, spesso per un filtro sporco."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Controlli i filtri dell'aria dell'unità interna e li pulisca se sono impolverati.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Panasonic raccomanda che le riparazioni per questo codice siano eseguite da un tecnico qualificato; ne chiami uno se il codice ricompare."
+ },
+ "Panasonic|H99": {
+  "title": "Protezione antigelo dell'unità interna",
+  "causes": [
+   "La batteria interna si è raffreddata troppo in raffreddamento, spesso per un filtro sporco o uno scarso flusso d'aria."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Controlli i filtri dell'aria dell'unità interna e li pulisca se sono impolverati.",
+   "Lasci sciogliere l'eventuale ghiaccio sulla batteria interna prima di riavviare.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Panasonic raccomanda che le riparazioni per questo codice siano eseguite da un tecnico qualificato; ne chiami uno se il codice ricompare."
+ },
+ "Panasonic|F11": {
+  "title": "Guasto alla commutazione della valvola a 4 vie",
+  "causes": [
+   "La valvola che commuta tra raffreddamento e riscaldamento non funziona."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Panasonic raccomanda che le riparazioni per questo codice siano eseguite da un tecnico qualificato; ne chiami uno se il codice ricompare."
+ },
+ "Panasonic|F91": {
+  "title": "Guasto del ciclo frigorifero",
+  "causes": [
+   "Il circuito del refrigerante non funziona correttamente, spesso per refrigerante insufficiente."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Controlli i filtri dell'aria dell'unità interna e li pulisca se sono impolverati.",
+   "Non tenti alcun intervento sul refrigerante da solo."
+  ],
+  "technician": "Panasonic raccomanda che le riparazioni per questo codice siano eseguite da un tecnico qualificato; ne chiami uno se il codice ricompare."
+ },
+ "Panasonic|F93": {
+  "title": "Velocità del compressore anomala",
+  "causes": [
+   "Il compressore gira a una velocità anomala."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Panasonic raccomanda che le riparazioni per questo codice siano eseguite da un tecnico qualificato; ne chiami uno se il codice ricompare."
+ },
+ "Panasonic|F95": {
+  "title": "Protezione da alta pressione esterna in raffreddamento",
+  "causes": [
+   "La pressione è troppo alta, spesso per uno scarso flusso d'aria esterno."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Si assicuri che nulla ostacoli il flusso d'aria intorno all'unità esterna (scatole, piante, neve, foglie).",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Panasonic raccomanda che le riparazioni per questo codice siano eseguite da un tecnico qualificato; ne chiami uno se il codice ricompare."
+ },
+ "Panasonic|F97": {
+  "title": "Protezione da surriscaldamento del compressore",
+  "causes": [
+   "Il compressore si surriscalda."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Si assicuri che nulla ostacoli il flusso d'aria intorno all'unità esterna (scatole, piante, neve, foglie).",
+   "Controlli i filtri dell'aria dell'unità interna e li pulisca se sono impolverati.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Panasonic raccomanda che le riparazioni per questo codice siano eseguite da un tecnico qualificato; ne chiami uno se il codice ricompare."
+ },
+ "Panasonic|F99": {
+  "title": "Rilevato picco di corrente continua esterno",
+  "causes": [
+   "È stato rilevato un picco di corrente anomalo nell'unità esterna."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Panasonic raccomanda che le riparazioni per questo codice siano eseguite da un tecnico qualificato; ne chiami uno se il codice ricompare."
+ },
+ "Gree|E1": {
+  "title": "Protezione da alta pressione",
+  "causes": [
+   "Batterie o filtri sporchi.",
+   "Una restrizione nell'impianto o troppo refrigerante."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Controlli i filtri dell'aria dell'unità interna e li pulisca se sono impolverati.",
+   "Si assicuri che nulla ostacoli il flusso d'aria intorno all'unità esterna (scatole, piante, neve, foglie).",
+   "Verifichi che entrambe le ventole girino quando l'unità è accesa.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se filtri e batterie sono puliti, chiami un tecnico della climatizzazione per controllare le pressioni e il pressostato di alta pressione."
+ },
+ "Gree|E3": {
+  "title": "Protezione da bassa pressione",
+  "causes": [
+   "Filtri o batterie sporchi.",
+   "Una perdita di refrigerante."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Controlli i filtri dell'aria dell'unità interna e li pulisca se sono impolverati.",
+   "Si assicuri che nulla ostacoli il flusso d'aria intorno all'unità esterna (scatole, piante, neve, foglie)."
+  ],
+  "technician": "Se filtri e batterie sono puliti, un tecnico deve controllare la carica di refrigerante e cercare eventuali perdite."
+ },
+ "Gree|E5": {
+  "title": "Protezione da sovracorrente",
+  "causes": [
+   "La tensione di alimentazione è troppo alta, oppure bassa e instabile."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Un tecnico deve controllare e stabilizzare l'alimentazione elettrica."
+ },
+ "Gree|E7": {
+  "title": "Conflitto di modalità",
+  "causes": [
+   "Le unità interne collegate alla stessa unità esterna sono impostate su modalità diverse."
+  ],
+  "steps": [
+   "Imposti tutte le unità interne sulla stessa modalità (tutte in raffreddamento o tutte in riscaldamento)."
+  ],
+  "technician": "Se il codice resta con tutte le unità nella stessa modalità, contatti un tecnico dell'assistenza Gree."
+ },
+ "Gree|F1": {
+  "title": "Guasto al sensore ambiente interno",
+  "causes": [
+   "Il sensore della temperatura ambiente interna è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "I guasti ai sensori di solito richiedono un ricambio montato da un tecnico qualificato."
+ },
+ "Gree|F2": {
+  "title": "Guasto al sensore della batteria interna",
+  "causes": [
+   "Il sensore dell'evaporatore interno è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "I guasti ai sensori di solito richiedono un ricambio montato da un tecnico qualificato."
+ },
+ "Gree|F3": {
+  "title": "Guasto al sensore dell'aria esterna",
+  "causes": [
+   "Il sensore della temperatura ambiente esterna è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "I guasti ai sensori di solito richiedono un ricambio montato da un tecnico qualificato."
+ },
+ "Gree|F4": {
+  "title": "Guasto al sensore della batteria esterna",
+  "causes": [
+   "Il sensore del tubo esterno è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "I guasti ai sensori di solito richiedono un ricambio montato da un tecnico qualificato."
+ },
+ "Gree|F5": {
+  "title": "Guasto al sensore di mandata",
+  "causes": [
+   "Il sensore di mandata del compressore è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "I guasti ai sensori di solito richiedono un ricambio montato da un tecnico qualificato."
+ },
+ "Gree|H1": {
+  "title": "Sbrinamento",
+  "causes": [
+   "L'unità esterna sta sbrinando durante il riscaldamento. È uno stato normale."
+  ],
+  "steps": [
+   "Attenda la fine dello sbrinamento; il riscaldamento riprende da solo."
+  ],
+  "technician": "Chiami un tecnico solo se l'unità sbrina continuamente e non scalda."
+ },
+ "Gree|H5": {
+  "title": "Protezione del modulo di potenza (IPM)",
+  "causes": [
+   "Il modulo di potenza dell'inverter si è fermato per problemi di tensione o temperatura."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se H5 ricompare, l'unità richiede un intervento professionale."
+ },
+ "Gree|U3": {
+  "title": "Calo di tensione del bus DC",
+  "causes": [
+   "La tensione continua interna è calata, spesso per problemi di alimentazione."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se U3 ricompare, faccia valutare l'unità e l'alimentazione da un professionista."
+ },
+ "Gree|L9": {
+  "title": "Protezione dell'alimentazione",
+  "causes": [
+   "Un forte sbalzo di tensione ha attivato la modalità di protezione."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Se L9 ricompare, faccia valutare l'unità e l'alimentazione da un professionista."
+ },
+ "Haier|E1": {
+  "title": "Guasto al sensore di temperatura interno (split)",
+  "causes": [
+   "Il sensore della temperatura ambiente interno è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Haier indica che questo codice può essere risolto solo da un tecnico dell'assistenza post-vendita; chiami l'assistenza Haier."
+ },
+ "Haier|E2": {
+  "title": "Guasto al sensore di temperatura del tubo interno (split)",
+  "causes": [
+   "Il sensore del tubo della batteria interna è guasto."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Haier indica che questo codice può essere risolto solo da un tecnico dell'assistenza post-vendita; chiami l'assistenza Haier."
+ },
+ "Haier|E4": {
+  "title": "Guasto alla memoria interna (EEPROM) (split)",
+  "causes": [
+   "La memoria della scheda di controllo interna è guasta."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Haier indica che questo codice può essere risolto solo da un tecnico dell'assistenza post-vendita; chiami l'assistenza Haier."
+ },
+ "Haier|E5": {
+  "title": "Protezione antigelo interna",
+  "causes": [
+   "La batteria interna diventa troppo fredda, spesso per uno scarso flusso d'aria."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Controlli i filtri dell'aria dell'unità interna e li pulisca se sono impolverati.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Haier indica che questo codice può essere risolto solo da un tecnico dell'assistenza post-vendita; chiami l'assistenza Haier."
+ },
+ "Haier|E7": {
+  "title": "Guasto di comunicazione tra unità interna ed esterna",
+  "causes": [
+   "L'unità interna e quella esterna non riescono a comunicare."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Haier indica che questo codice può essere risolto solo da un tecnico dell'assistenza post-vendita; chiami l'assistenza Haier."
+ },
+ "Haier|E9": {
+  "title": "Sovraccarico dell'unità interna in riscaldamento",
+  "causes": [
+   "L'unità interna si surriscalda in modalità riscaldamento, spesso per un filtro intasato."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Controlli i filtri dell'aria dell'unità interna e li pulisca se sono impolverati.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Haier indica che questo codice può essere risolto solo da un tecnico dell'assistenza post-vendita; chiami l'assistenza Haier."
+ },
+ "Haier|E14": {
+  "title": "Guasto al motore della ventola interna",
+  "causes": [
+   "Il motore della ventola interna è guasto o bloccato."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Haier indica che questo codice può essere risolto solo da un tecnico dell'assistenza post-vendita; chiami l'assistenza Haier."
+ },
+ "Haier|F1": {
+  "title": "Protezione del modulo di potenza (IPM)",
+  "causes": [
+   "Il modulo inverter esterno è entrato in protezione."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Haier indica che questo codice può essere risolto solo da un tecnico dell'assistenza post-vendita; chiami l'assistenza Haier."
+ },
+ "Haier|F8": {
+  "title": "Guasto al motore DC della ventola esterna",
+  "causes": [
+   "Il motore della ventola esterna è guasto o bloccato."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Si assicuri che nulla ostacoli il flusso d'aria intorno all'unità esterna (scatole, piante, neve, foglie).",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Haier indica che questo codice può essere risolto solo da un tecnico dell'assistenza post-vendita; chiami l'assistenza Haier."
+ },
+ "Haier|F12": {
+  "title": "Guasto alla memoria esterna (EEPROM)",
+  "causes": [
+   "La memoria della scheda esterna è guasta."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Haier indica che questo codice può essere risolto solo da un tecnico dell'assistenza post-vendita; chiami l'assistenza Haier."
+ },
+ "Haier|F13": {
+  "title": "Mancanza di refrigerante",
+  "causes": [
+   "L'impianto ha poco refrigerante, di solito per una perdita."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Non provi ad aggiungere refrigerante da solo.",
+   "Annoti il codice e il numero di modello prima di chiamare l'assistenza."
+  ],
+  "technician": "Haier indica che questo codice può essere risolto solo da un tecnico dell'assistenza post-vendita; chiami l'assistenza Haier."
+ },
+ "Haier|F19": {
+  "title": "Tensione di alimentazione troppo alta o troppo bassa",
+  "causes": [
+   "La tensione di rete è fuori dall'intervallo consentito."
+  ],
+  "steps": [
+   "Spenga l'unità con il telecomando.",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Haier indica che questo codice può essere risolto solo da un tecnico dell'assistenza post-vendita; chiami l'assistenza Haier."
+ },
+ "Haier|F20": {
+  "title": "Protezione da alta pressione",
+  "causes": [
+   "La pressione dell'impianto è troppo alta, spesso per un flusso d'aria esterno ostruito."
+  ],
+  "steps": [
+   "Spenga l'unità.",
+   "Si assicuri che nulla ostacoli il flusso d'aria intorno all'unità esterna (scatole, piante, neve, foglie).",
+   "Spenga l'interruttore del condizionatore o stacchi la spina.",
+   "Attenda circa 5 minuti, poi ripristini la corrente e riaccenda."
+  ],
+  "technician": "Haier indica che questo codice può essere risolto solo da un tecnico dell'assistenza post-vendita; chiami l'assistenza Haier."
+ },
+ "Haier|FL": {
+  "title": "Serbatoio dell'acqua pieno (condizionatore portatile)",
+  "causes": [
+   "Il serbatoio interno dell'acqua è pieno."
+  ],
+  "steps": [
+   "Spenga l'unità e stacchi la spina.",
+   "Scarichi l'acqua dal foro di scarico in una bacinella.",
+   "Rimonti il tappo di scarico e riavvii l'unità."
+  ],
+  "technician": "Se FL ricompare subito dopo lo scarico, contatti l'assistenza Haier."
+ },
+ "Haier|STOP": {
+  "title": "Serbatoio pieno o galleggiante bloccato (condizionatore portatile, 2016 e precedenti)",
+  "causes": [
+   "Il serbatoio dell'acqua è pieno.",
+   "Il galleggiante del serbatoio è bloccato da detriti."
+  ],
+  "steps": [
+   "Spenga l'unità e stacchi la spina.",
+   "Svuoti il serbatoio dell'acqua.",
+   "Verifichi che il galleggiante si muova liberamente e tolga eventuali detriti."
+  ],
+  "technician": "Se STOP resta con il serbatoio vuoto e il galleggiante libero, contatti l'assistenza Haier."
+ }
+}

@@ -1,0 +1,1196 @@
+{
+ "Samsung|AP": {
+  "title": "Modalità di configurazione Wi-Fi",
+  "causes": [
+   "Il frigorifero funziona da punto di accesso Wi-Fi per la configurazione con SmartThings."
+  ],
+  "steps": [
+   "Completi la configurazione nell'app SmartThings oppure attenda. Il codice scompare da solo."
+  ],
+  "technician": "Non è un guasto. Non serve l'assistenza."
+ },
+ "Samsung|21E": {
+  "title": "Errore della ventola del congelatore",
+  "causes": [
+   "La ventola del congelatore è bloccata dal ghiaccio, spesso dopo una porta rimasta aperta o una guarnizione che non chiudeva bene.",
+   "Il motore della ventola è guasto."
+  ],
+  "steps": [
+   "Verifichi che la porta del congelatore si chiuda e che la guarnizione aderisca su tutto il perimetro.",
+   "Non riempia troppo il congelatore.",
+   "Se possibile, sposti gli alimenti e lasci sbrinare il frigorifero con le porte aperte."
+  ],
+  "technician": "Se il codice ricompare dopo lo sbrinamento, la ventola richiede un tecnico Samsung."
+ },
+ "Samsung|22E": {
+  "title": "Errore della ventola del frigorifero",
+  "causes": [
+   "La porta del frigorifero è rimasta aperta troppo a lungo e la ventola si è ghiacciata."
+  ],
+  "steps": [
+   "Sposti gli alimenti in un luogo fresco.",
+   "Stacchi la spina del frigorifero e lasci le porte aperte per qualche ora.",
+   "Reinserisca la spina e chiuda le porte."
+  ],
+  "technician": "Se 22E ricompare, richieda l'assistenza Samsung."
+ },
+ "Samsung|41C": {
+  "title": "Guasto del Family Hub",
+  "causes": [
+   "Un problema software sullo schermo Family Hub."
+  ],
+  "steps": [
+   "Installi l'ultimo aggiornamento software.",
+   "Tocchi OK la prima volta che il codice compare dopo l'aggiornamento."
+  ],
+  "technician": "Se continua a ricomparire dopo l'aggiornamento, richieda l'assistenza Samsung."
+ },
+ "Samsung|76C": {
+  "title": "Acqua nel vano AutoFill",
+  "causes": [
+   "La caraffa AutoFill perde acqua nel suo vano."
+  ],
+  "steps": [
+   "Estragga la caraffa e asciughi il vano.",
+   "Verifichi che la caraffa sia inserita correttamente e non sia incrinata."
+  ],
+  "technician": "Se l'acqua continua ad accumularsi, contatti l'assistenza Samsung."
+ },
+ "Samsung|85C": {
+  "title": "Tensione di alimentazione bassa (Family Hub)",
+  "causes": [
+   "Di solito una breve interruzione di corrente."
+  ],
+  "steps": [
+   "Tenga premuto OK per 3 secondi per cancellarlo."
+  ],
+  "technician": "Di per sé è innocuo. Contatti Samsung solo se compare spesso."
+ },
+ "Samsung|88 88": {
+  "title": "Errore di comunicazione all'avvio",
+  "causes": [
+   "L'alimentazione si è interrotta durante l'avvio del frigorifero."
+  ],
+  "steps": [
+   "Stacchi la spina del frigorifero o spenga il suo interruttore per 60 secondi.",
+   "Ripristini la corrente e verifichi se il codice ricompare."
+  ],
+  "technician": "Se il codice ricompare dopo il reset, richieda l'assistenza Samsung."
+ },
+ "Samsung|83E": {
+  "title": "Corrente anomala del compressore",
+  "causes": [
+   "Uno sbalzo di tensione o un problema elettrico."
+  ],
+  "steps": [
+   "Stacchi la spina del frigorifero o spenga il suo interruttore per 60 secondi.",
+   "Ripristini la corrente e verifichi se il codice ricompare."
+  ],
+  "technician": "Se 83E ricompare, richieda l'assistenza Samsung."
+ },
+ "Samsung|85E": {
+  "title": "Tensione bassa al compressore",
+  "causes": [
+   "Un calo di tensione o una tensione di rete bassa."
+  ],
+  "steps": [
+   "Stacchi la spina del frigorifero o spenga il suo interruttore per 60 secondi.",
+   "Ripristini la corrente e verifichi se il codice ricompare."
+  ],
+  "technician": "Se 85E ricompare, faccia controllare l'alimentazione e richieda l'assistenza Samsung."
+ },
+ "Samsung|86E": {
+  "title": "Tensione alta al compressore",
+  "causes": [
+   "Uno sbalzo di tensione, ad esempio durante un temporale."
+  ],
+  "steps": [
+   "Stacchi la spina del frigorifero o spenga il suo interruttore per 60 secondi.",
+   "Ripristini la corrente e verifichi se il codice ricompare."
+  ],
+  "technician": "Se 86E ricompare, richieda l'assistenza Samsung."
+ },
+ "Samsung|PC ER": {
+  "title": "Errore di comunicazione interna",
+  "causes": [
+   "Un recente sbalzo di tensione.",
+   "Il connettore dei cavi della porta non è collegato correttamente."
+  ],
+  "steps": [
+   "Tolga la corrente dalla spina o dall'interruttore.",
+   "Controlli e ricolleghi il connettore dei cavi sopra la cerniera della porta.",
+   "Ripristini la corrente."
+  ],
+  "technician": "Se il codice ricompare, richieda l'assistenza Samsung."
+ },
+ "Samsung|OF OF": {
+  "title": "Modalità Cooling Off (demo)",
+  "causes": [
+   "È attiva la modalità demo o negozio, spesso per errore. Il frigorifero non raffredda."
+  ],
+  "steps": [
+   "Tenga premuti i due tasti in alto a sinistra del pannello per 5-8 secondi finché non suona.",
+   "Su alcuni modelli tenga premuto anche il tasto in alto a destra.",
+   "Consulti il manuale per la combinazione di tasti del Suo modello."
+  ],
+  "technician": "Non serve l'assistenza. È un'impostazione, non un guasto."
+ },
+ "Samsung|5E": {
+  "title": "Errore del sensore di sbrinamento del frigorifero",
+  "causes": [
+   "Il sensore di sbrinamento del frigorifero è guasto."
+  ],
+  "steps": [
+   "Non stacchi la spina del frigorifero, salvo indicazione contraria.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Richieda l'assistenza Samsung per controllare o sostituire il sensore."
+ },
+ "Samsung|8E": {
+  "title": "Errore del sensore del fabbricatore di ghiaccio (congelatore)",
+  "causes": [
+   "Il sensore del fabbricatore di ghiaccio nel congelatore è guasto."
+  ],
+  "steps": [
+   "Se possibile, spenga il fabbricatore di ghiaccio.",
+   "Continui a usare il frigorifero normalmente."
+  ],
+  "technician": "Richieda l'assistenza Samsung."
+ },
+ "Samsung|14E": {
+  "title": "Errore del sensore del fabbricatore di ghiaccio",
+  "causes": [
+   "Il sensore del fabbricatore di ghiaccio è guasto."
+  ],
+  "steps": [
+   "Se possibile, spenga il fabbricatore di ghiaccio.",
+   "Continui a usare il frigorifero normalmente."
+  ],
+  "technician": "Richieda l'assistenza Samsung."
+ },
+ "Samsung|33E": {
+  "title": "Errore della resistenza del tubo del ghiaccio",
+  "causes": [
+   "La resistenza sul tubo dell'acqua del fabbricatore di ghiaccio è guasta."
+  ],
+  "steps": [
+   "Se possibile, spenga il fabbricatore di ghiaccio."
+  ],
+  "technician": "Richieda l'assistenza Samsung."
+ },
+ "Samsung|39E": {
+  "title": "Errore di funzionamento del fabbricatore di ghiaccio",
+  "causes": [
+   "Il fabbricatore di ghiaccio non funziona correttamente."
+  ],
+  "steps": [
+   "Verifichi che il contenitore del ghiaccio sia inserito correttamente.",
+   "Se possibile, spenga il fabbricatore di ghiaccio."
+  ],
+  "technician": "Se il codice resta, richieda l'assistenza Samsung."
+ },
+ "Samsung|40E": {
+  "title": "Errore della ventola del vano ghiaccio",
+  "causes": [
+   "La ventola del vano ghiaccio non funziona, spesso a causa del ghiaccio."
+  ],
+  "steps": [
+   "Verifichi che lo sportello del vano ghiaccio si chiuda del tutto."
+  ],
+  "technician": "Richieda l'assistenza Samsung."
+ },
+ "Samsung|84C": {
+  "title": "Compressore bloccato",
+  "causes": [
+   "Il compressore è bloccato e non riesce ad avviarsi."
+  ],
+  "steps": [
+   "Stacchi la spina del frigorifero o spenga il suo interruttore per 60 secondi.",
+   "Ripristini la corrente e verifichi se il codice ricompare."
+  ],
+  "technician": "Richieda l'assistenza Samsung. Serve un tecnico."
+ },
+ "LG|CF": {
+  "title": "Errore della ventola del condensatore",
+  "causes": [
+   "La ventola del condensatore è bloccata o ferma, quindi il compressore lavora troppo."
+  ],
+  "steps": [
+   "Stacchi la spina per 60 secondi e la colleghi a una presa a muro, non a una ciabatta.",
+   "Verifichi se il codice ricompare.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Richieda l'assistenza LG. Serve un tecnico."
+ },
+ "LG|CO": {
+  "title": "Errore di comunicazione",
+  "causes": [
+   "La scheda principale e il display non comunicano."
+  ],
+  "steps": [
+   "Stacchi la spina per 60 secondi e la colleghi a una presa a muro, non a una ciabatta.",
+   "Verifichi se il codice ricompare.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Richieda l'assistenza LG. Serve un tecnico."
+ },
+ "LG|FF": {
+  "title": "Errore della ventola del congelatore",
+  "causes": [
+   "La ventola del congelatore è bloccata, spesso dal ghiaccio, o è guasta."
+  ],
+  "steps": [
+   "Stacchi la spina per 60 secondi e la colleghi a una presa a muro, non a una ciabatta.",
+   "Verifichi se il codice ricompare.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Richieda l'assistenza LG. Serve un tecnico."
+ },
+ "LG|FS": {
+  "title": "Errore del sensore del congelatore",
+  "causes": [
+   "Il sensore di temperatura del congelatore è guasto."
+  ],
+  "steps": [
+   "Stacchi la spina per 60 secondi e la colleghi a una presa a muro, non a una ciabatta.",
+   "Verifichi se il codice ricompare.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Richieda l'assistenza LG. Serve un tecnico."
+ },
+ "LG|FU": {
+  "title": "Il congelatore non raffredda abbastanza",
+  "causes": [
+   "Dopo l'avvio il congelatore non ha raggiunto una temperatura abbastanza bassa.",
+   "Porte aperte spesso o che non chiudono bene.",
+   "Le bocchette d'aria sono ostruite dagli alimenti."
+  ],
+  "steps": [
+   "Stacchi la spina per 60 secondi e la colleghi a una presa a muro, non a una ciabatta.",
+   "Imposti il congelatore a -18 °C.",
+   "Tenga gli alimenti lontani dalle bocchette d'aria.",
+   "Controlli le guarnizioni chiudendo la porta su un foglio di carta: non deve sfilarsi facilmente.",
+   "Apra le porte meno spesso."
+  ],
+  "technician": "Se il congelatore ancora non raffredda, richieda l'assistenza LG."
+ },
+ "LG|IF": {
+  "title": "Errore della ventola del fabbricatore di ghiaccio",
+  "causes": [
+   "La ventola del fabbricatore di ghiaccio è bloccata o guasta."
+  ],
+  "steps": [
+   "Stacchi la spina per 60 secondi e la colleghi a una presa a muro, non a una ciabatta.",
+   "Verifichi se il codice ricompare.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Richieda l'assistenza LG. Serve un tecnico."
+ },
+ "LG|IS": {
+  "title": "Errore del sensore del fabbricatore di ghiaccio",
+  "causes": [
+   "Il sensore di temperatura del fabbricatore di ghiaccio è guasto."
+  ],
+  "steps": [
+   "Stacchi la spina per 60 secondi e la colleghi a una presa a muro, non a una ciabatta.",
+   "Verifichi se il codice ricompare.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Richieda l'assistenza LG. Serve un tecnico."
+ },
+ "LG|It": {
+  "title": "Errore del motore del fabbricatore di ghiaccio",
+  "causes": [
+   "Il motore del fabbricatore di ghiaccio è guasto."
+  ],
+  "steps": [
+   "Stacchi la spina per 60 secondi e la colleghi a una presa a muro, non a una ciabatta.",
+   "Verifichi se il codice ricompare.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Richieda l'assistenza LG. Serve un tecnico."
+ },
+ "LG|rS": {
+  "title": "Errore del sensore del frigorifero (superiore)",
+  "causes": [
+   "Il sensore di temperatura superiore del frigorifero è guasto."
+  ],
+  "steps": [
+   "Stacchi la spina per 60 secondi e la colleghi a una presa a muro, non a una ciabatta.",
+   "Verifichi se il codice ricompare.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Richieda l'assistenza LG. Serve un tecnico."
+ },
+ "LG|r2": {
+  "title": "Errore del sensore del frigorifero (inferiore)",
+  "causes": [
+   "Il sensore di temperatura inferiore del frigorifero è guasto."
+  ],
+  "steps": [
+   "Stacchi la spina per 60 secondi e la colleghi a una presa a muro, non a una ciabatta.",
+   "Verifichi se il codice ricompare.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Richieda l'assistenza LG. Serve un tecnico."
+ },
+ "LG|dS": {
+  "title": "Errore del sensore di sbrinamento",
+  "causes": [
+   "Il sensore di sbrinamento è guasto, quindi l'evaporatore può ghiacciarsi."
+  ],
+  "steps": [
+   "Stacchi la spina per 60 secondi e la colleghi a una presa a muro, non a una ciabatta.",
+   "Verifichi se il codice ricompare.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Richieda l'assistenza LG. Serve un tecnico."
+ },
+ "LG|rT": {
+  "title": "Errore del sensore della temperatura ambiente",
+  "causes": [
+   "Il sensore della temperatura ambiente è guasto."
+  ],
+  "steps": [
+   "Stacchi la spina per 60 secondi e la colleghi a una presa a muro, non a una ciabatta.",
+   "Verifichi se il codice ricompare.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Richieda l'assistenza LG. Serve un tecnico."
+ },
+ "LG|dH": {
+  "title": "Sbrinamento non riuscito",
+  "causes": [
+   "Il sistema di sbrinamento non si è scaldato in tempo.",
+   "L'evaporatore è bloccato dal ghiaccio."
+  ],
+  "steps": [
+   "Tolga gli alimenti e li metta in un luogo fresco.",
+   "Metta degli asciugamani sul pavimento davanti al frigorifero.",
+   "Stacchi la spina e lasci le porte aperte per almeno 12 ore per sciogliere il ghiaccio.",
+   "Reinserisca la spina."
+  ],
+  "technician": "Spesso è solo una soluzione temporanea. Se dH ricompare, richieda l'assistenza LG."
+ },
+ "LG|SS": {
+  "title": "Errore del sensore del serbatoio dell'acqua",
+  "causes": [
+   "Il sensore di temperatura del serbatoio dell'acqua è guasto."
+  ],
+  "steps": [
+   "Stacchi la spina per 60 secondi e la colleghi a una presa a muro, non a una ciabatta.",
+   "Verifichi se il codice ricompare.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Richieda l'assistenza LG. Serve un tecnico."
+ },
+ "LG|rF": {
+  "title": "Errore della ventola del frigorifero",
+  "causes": [
+   "La ventola del frigorifero è bloccata o guasta."
+  ],
+  "steps": [
+   "Stacchi la spina per 60 secondi e la colleghi a una presa a muro, non a una ciabatta.",
+   "Verifichi se il codice ricompare.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Richieda l'assistenza LG. Serve un tecnico."
+ },
+ "LG|tt": {
+  "title": "Problema al serbatoio dell'acqua",
+  "causes": [
+   "Il serbatoio dell'acqua manca o non è inserito correttamente.",
+   "Il sensore del serbatoio è guasto."
+  ],
+  "steps": [
+   "Estragga il serbatoio dell'acqua e lo reinserisca correttamente.",
+   "Verifichi se il codice scompare."
+  ],
+  "technician": "Se tt resta con il serbatoio in posizione, richieda l'assistenza LG."
+ },
+ "LG|C1": {
+  "title": "Errore di comunicazione del distributore",
+  "causes": [
+   "Il distributore e il display non comunicano."
+  ],
+  "steps": [
+   "Stacchi la spina per 60 secondi e la colleghi a una presa a muro, non a una ciabatta.",
+   "Verifichi se il codice ricompare.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Richieda l'assistenza LG. Serve un tecnico."
+ },
+ "LG|gF": {
+  "title": "Errore del sensore di flusso dell'acqua",
+  "causes": [
+   "Il rubinetto di alimentazione dell'acqua è chiuso.",
+   "Il tubo dell'acqua è piegato.",
+   "La pressione dell'acqua non è corretta."
+  ],
+  "steps": [
+   "Stacchi la spina per 60 secondi e la colleghi a una presa a muro, non a una ciabatta.",
+   "Attenda fino a 5 minuti che il frigorifero si riavvii.",
+   "Apra del tutto il rubinetto di alimentazione dell'acqua.",
+   "Verifichi che il tubo non sia piegato.",
+   "Confronti la pressione dell'acqua con quella indicata nel manuale."
+  ],
+  "technician": "Se l'errore resta, richieda l'assistenza LG."
+ },
+ "LG|CH": {
+  "title": "Errore del circuito refrigerante (lato alta pressione)",
+  "causes": [
+   "I sensori rilevano valori anomali nel circuito refrigerante, forse una perdita o una valvola guasta."
+  ],
+  "steps": [
+   "Stacchi la spina per 60 secondi e la colleghi a una presa a muro, non a una ciabatta.",
+   "Verifichi se il codice ricompare.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Richieda l'assistenza LG. Serve un tecnico."
+ },
+ "LG|CL": {
+  "title": "Errore del circuito refrigerante (lato bassa pressione)",
+  "causes": [
+   "I sensori rilevano valori anomali nel circuito refrigerante, forse una perdita o una valvola guasta."
+  ],
+  "steps": [
+   "Stacchi la spina per 60 secondi e la colleghi a una presa a muro, non a una ciabatta.",
+   "Verifichi se il codice ricompare.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Richieda l'assistenza LG. Serve un tecnico."
+ },
+ "LG|Lo": {
+  "title": "Ambiente troppo freddo",
+  "causes": [
+   "La temperatura del locale è inferiore a -10 °C."
+  ],
+  "steps": [
+   "Se possibile, sposti il frigorifero in un luogo più caldo."
+  ],
+  "technician": "Non è un guasto. Contatti LG solo se il locale è caldo e Lo resta visualizzato."
+ },
+ "LG|HI": {
+  "title": "Ambiente troppo caldo",
+  "causes": [
+   "La temperatura del locale è superiore a 50 °C."
+  ],
+  "steps": [
+   "Se possibile, sposti il frigorifero in un luogo più fresco.",
+   "Si assicuri che l'aria possa circolare intorno all'apparecchio."
+  ],
+  "technician": "Non è un guasto. Contatti LG solo se la temperatura del locale è normale e HI resta visualizzato."
+ },
+ "Miele|F0": {
+  "title": "Guasto tecnico",
+  "causes": [
+   "È stato rilevato un guasto tecnico interno."
+  ],
+  "steps": [
+   "Annoti il codice di errore.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti.",
+   "Prenoti un tecnico Miele."
+  ],
+  "technician": "È un guasto tecnico che non può risolvere da solo. Contatti il servizio clienti Miele."
+ },
+ "Miele|F1": {
+  "title": "Guasto tecnico",
+  "causes": [
+   "È stato rilevato un guasto tecnico interno."
+  ],
+  "steps": [
+   "Annoti il codice di errore.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti.",
+   "Prenoti un tecnico Miele."
+  ],
+  "technician": "È un guasto tecnico che non può risolvere da solo. Contatti il servizio clienti Miele."
+ },
+ "Miele|F2": {
+  "title": "Guasto tecnico",
+  "causes": [
+   "È stato rilevato un guasto tecnico interno."
+  ],
+  "steps": [
+   "Annoti il codice di errore.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti.",
+   "Prenoti un tecnico Miele."
+  ],
+  "technician": "È un guasto tecnico che non può risolvere da solo. Contatti il servizio clienti Miele."
+ },
+ "Miele|F3": {
+  "title": "Guasto tecnico",
+  "causes": [
+   "È stato rilevato un guasto tecnico interno."
+  ],
+  "steps": [
+   "Annoti il codice di errore.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti.",
+   "Prenoti un tecnico Miele."
+  ],
+  "technician": "È un guasto tecnico che non può risolvere da solo. Contatti il servizio clienti Miele."
+ },
+ "Miele|F4": {
+  "title": "Guasto tecnico",
+  "causes": [
+   "È stato rilevato un guasto tecnico interno."
+  ],
+  "steps": [
+   "Annoti il codice di errore.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti.",
+   "Prenoti un tecnico Miele."
+  ],
+  "technician": "È un guasto tecnico che non può risolvere da solo. Contatti il servizio clienti Miele."
+ },
+ "Miele|F5": {
+  "title": "Guasto tecnico",
+  "causes": [
+   "È stato rilevato un guasto tecnico interno."
+  ],
+  "steps": [
+   "Annoti il codice di errore.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti.",
+   "Prenoti un tecnico Miele."
+  ],
+  "technician": "È un guasto tecnico che non può risolvere da solo. Contatti il servizio clienti Miele."
+ },
+ "Miele|F114": {
+  "title": "Sensore dell'evaporatore del congelatore guasto",
+  "causes": [
+   "Il sensore dell'evaporatore nel vano congelatore è guasto."
+  ],
+  "steps": [
+   "Annoti il codice di errore.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti.",
+   "Prenoti un tecnico Miele."
+  ],
+  "technician": "È un guasto tecnico che non può risolvere da solo. Contatti il servizio clienti Miele."
+ },
+ "Miele|F120": {
+  "title": "Tensione di rete troppo bassa",
+  "causes": [
+   "La tensione di rete a volte è troppo bassa o oscilla molto."
+  ],
+  "steps": [
+   "Verifichi se anche altri elettrodomestici hanno problemi.",
+   "Faccia controllare la tensione di rete da un elettricista qualificato."
+  ],
+  "technician": "Se la tensione è regolare e F120 resta, prenoti un tecnico Miele."
+ },
+ "Miele|F141": {
+  "title": "Porta del frigorifero aperta da 15 minuti",
+  "causes": [
+   "La porta del vano frigorifero è aperta da 15 minuti."
+  ],
+  "steps": [
+   "Chiuda la porta del frigorifero.",
+   "Verifichi che nulla ne impedisca la chiusura."
+  ],
+  "technician": "Se F141 compare con la porta chiusa, prenoti un tecnico Miele."
+ },
+ "Miele|F142": {
+  "title": "Porta del frigorifero aperta da 30 minuti",
+  "causes": [
+   "La porta del vano frigorifero è aperta da circa 30 minuti."
+  ],
+  "steps": [
+   "Chiuda la porta del frigorifero.",
+   "Verifichi che nulla ne impedisca la chiusura."
+  ],
+  "technician": "Se F142 compare con la porta chiusa, prenoti un tecnico Miele."
+ },
+ "Miele|F383": {
+  "title": "Guasto all'ingresso dell'acqua del fabbricatore di ghiaccio",
+  "causes": [
+   "Il tubo di ingresso dell'acqua è piegato.",
+   "Il filtro di ingresso è sporco.",
+   "Il contenitore dell'acqua non è in sede o il suo galleggiante è bloccato.",
+   "Un guasto del software."
+  ],
+  "steps": [
+   "Raddrizzi eventuali pieghe del tubo dell'acqua.",
+   "Pulisca il filtro di ingresso.",
+   "Estragga il contenitore dell'acqua, pulisca sotto e lo reinserisca fino in fondo.",
+   "Scuota il contenitore per verificare che il galleggiante si muova liberamente.",
+   "Imposti il congelatore a -18 °C per almeno 48 ore."
+  ],
+  "technician": "Se il guasto resta, contatti il servizio clienti Miele."
+ },
+ "Miele|F384": {
+  "title": "Blocco del software",
+  "causes": [
+   "Il software dell'apparecchio ha smesso di funzionare."
+  ],
+  "steps": [
+   "Stacchi la spina dell'apparecchio per circa 2 minuti.",
+   "Reinserisca la spina e lo accenda.",
+   "Se torna a funzionare, ripristini le impostazioni di fabbrica dal menu Impostazioni."
+  ],
+  "technician": "Se il guasto ricompare, contatti il servizio clienti Miele."
+ },
+ "Miele|F385": {
+  "title": "Blocco del software",
+  "causes": [
+   "Il software dell'apparecchio ha smesso di funzionare."
+  ],
+  "steps": [
+   "Stacchi la spina dell'apparecchio per circa 2 minuti.",
+   "Reinserisca la spina e lo accenda.",
+   "Se torna a funzionare, ripristini le impostazioni di fabbrica dal menu Impostazioni."
+  ],
+  "technician": "Se il guasto ricompare, contatti il servizio clienti Miele."
+ },
+ "Miele|nA": {
+  "title": "In precedenza il congelatore si è scaldato troppo",
+  "causes": [
+   "Un'interruzione di corrente o dell'alimentazione ha fatto scaldare il congelatore."
+  ],
+  "steps": [
+   "Tenga premuto il tasto dell'allarme per vedere la temperatura massima raggiunta.",
+   "Controlli gli alimenti. Consumi presto quelli scongelati.",
+   "Non ricongeli alimenti scongelati, a meno che non li cucini prima."
+  ],
+  "technician": "Non è un guasto. Contatti Miele solo se compare senza alcuna interruzione di corrente."
+ },
+ "AEG|E08": {
+  "title": "Tensione di alimentazione bassa",
+  "causes": [
+   "La tensione di rete è scesa sotto i 170 V. Questo protegge il compressore."
+  ],
+  "steps": [
+   "Verifichi se altri elettrodomestici hanno problemi di alimentazione.",
+   "Attenda che l'alimentazione torni normale."
+  ],
+  "technician": "Se E08 continua a comparire, faccia controllare l'alimentazione e contatti un tecnico autorizzato AEG."
+ },
+ "AEG|E09": {
+  "title": "Congelatore non abbastanza freddo",
+  "causes": [
+   "Di solito dopo una lunga interruzione di corrente."
+  ],
+  "steps": [
+   "Abbassi l'impostazione del congelatore o attivi Super Freeze.",
+   "Tenga le porte chiuse finché il codice non scompare.",
+   "Consumi o cucini presto gli alimenti scongelati.",
+   "Non aggiunga alimenti freschi finché il codice non è scomparso."
+  ],
+  "technician": "Se il codice resta acceso, contatti un tecnico autorizzato AEG."
+ },
+ "AEG|E10": {
+  "title": "Frigorifero non abbastanza freddo",
+  "causes": [
+   "Una lunga interruzione di corrente.",
+   "Sono stati messi in frigorifero cibi caldi."
+  ],
+  "steps": [
+   "Abbassi l'impostazione del frigorifero o attivi Super Cool.",
+   "Tenga le porte chiuse.",
+   "Tenga gli alimenti lontani dalle bocchette d'aria e dal sensore."
+  ],
+  "technician": "Se E10 resta, prenoti una riparazione AEG."
+ },
+ "AEG|E11": {
+  "title": "Frigorifero troppo freddo",
+  "causes": [
+   "Super Cool è rimasto attivo.",
+   "La temperatura impostata è troppo bassa.",
+   "Le bocchette d'aria sono ostruite."
+  ],
+  "steps": [
+   "Disattivi Super Cool.",
+   "Imposti una temperatura del frigorifero più alta.",
+   "Si assicuri che le bocchette siano libere."
+  ],
+  "technician": "Se il codice resta, contatti un'assistenza autorizzata AEG."
+ },
+ "AEG|F2": {
+  "title": "Guasto al termostato",
+  "causes": [
+   "Un problema al termostato."
+  ],
+  "steps": [
+   "Annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Prenoti un tecnico dell'assistenza AEG e comunichi il codice."
+ },
+ "AEG|F8": {
+  "title": "Guasto al sistema di sbrinamento",
+  "causes": [
+   "Un guasto nel sistema di sbrinamento."
+  ],
+  "steps": [
+   "Non provi a ripararlo da solo.",
+   "Annoti il modello e il numero di serie."
+  ],
+  "technician": "Prenoti un tecnico dell'assistenza AEG e comunichi il codice F8."
+ },
+ "Electrolux|F5": {
+  "title": "Guasto al sensore di temperatura",
+  "causes": [
+   "Un sensore di temperatura è difettoso. F3 e F4 indicano lo stesso tipo di guasto."
+  ],
+  "steps": [
+   "Annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Prenoti un tecnico dell'assistenza Electrolux e comunichi il codice."
+ },
+ "Electrolux|E01": {
+  "title": "Avviso sensore",
+  "causes": [
+   "Un sensore del frigocongelatore ha un problema."
+  ],
+  "steps": [
+   "Annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Contatti un centro di assistenza autorizzato Electrolux per l'intervento di un tecnico."
+ },
+ "Electrolux|E02": {
+  "title": "Avviso sensore",
+  "causes": [
+   "Un sensore del frigocongelatore ha un problema."
+  ],
+  "steps": [
+   "Annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Contatti un centro di assistenza autorizzato Electrolux per l'intervento di un tecnico."
+ },
+ "Electrolux|E03": {
+  "title": "Avviso sensore",
+  "causes": [
+   "Un sensore del frigocongelatore ha un problema."
+  ],
+  "steps": [
+   "Annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Contatti un centro di assistenza autorizzato Electrolux per l'intervento di un tecnico."
+ },
+ "Electrolux|E06": {
+  "title": "Avviso sensore",
+  "causes": [
+   "Un sensore del frigocongelatore ha un problema."
+  ],
+  "steps": [
+   "Annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Contatti un centro di assistenza autorizzato Electrolux per l'intervento di un tecnico."
+ },
+ "Electrolux|E07": {
+  "title": "Avviso sensore",
+  "causes": [
+   "Un sensore del frigocongelatore ha un problema."
+  ],
+  "steps": [
+   "Annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Contatti un centro di assistenza autorizzato Electrolux per l'intervento di un tecnico."
+ },
+ "Hotpoint|E0": {
+  "title": "Guasto al fabbricatore di ghiaccio",
+  "causes": [
+   "Il fabbricatore di ghiaccio non funziona correttamente (modelli con fabbricatore di ghiaccio)."
+  ],
+  "steps": [
+   "Se possibile, spenga il fabbricatore di ghiaccio.",
+   "Continui a usare il frigorifero normalmente."
+  ],
+  "technician": "Chiami l'assistenza Hotpoint per prenotare un tecnico."
+ },
+ "Hotpoint|E1": {
+  "title": "Guasto al sensore del frigorifero",
+  "causes": [
+   "Il sensore di temperatura del frigorifero è guasto."
+  ],
+  "steps": [
+   "Annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Chiami l'assistenza Hotpoint per prenotare un tecnico."
+ },
+ "Hotpoint|E2": {
+  "title": "Guasto al sensore del congelatore",
+  "causes": [
+   "Il sensore di temperatura del congelatore è guasto.",
+   "La temperatura del congelatore potrebbe essere errata."
+  ],
+  "steps": [
+   "Verifichi che gli alimenti siano ancora congelati.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Chiami l'assistenza Hotpoint per prenotare un tecnico."
+ },
+ "Hotpoint|E3": {
+  "title": "Guasto al sensore di sbrinamento",
+  "causes": [
+   "Il sensore di sbrinamento è guasto.",
+   "Anche uno scarico ostruito può influire sulla temperatura."
+  ],
+  "steps": [
+   "Controlli che il foro di scarico dello sbrinamento ed eventuali tubi di scarico non siano ostruiti.",
+   "Elimini con delicatezza eventuali ostruzioni."
+  ],
+  "technician": "Se il guasto continua, chiami l'assistenza Hotpoint."
+ },
+ "Hotpoint|E4": {
+  "title": "Guasto al sensore di sbrinamento del frigorifero",
+  "causes": [
+   "Il sensore di sbrinamento del frigorifero è guasto."
+  ],
+  "steps": [
+   "Annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Chiami l'assistenza Hotpoint per prenotare un tecnico."
+ },
+ "Hotpoint|E5": {
+  "title": "Guasto al sensore di sbrinamento del congelatore",
+  "causes": [
+   "Il sensore di sbrinamento del congelatore è guasto."
+  ],
+  "steps": [
+   "Annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Chiami l'assistenza Hotpoint per prenotare un tecnico."
+ },
+ "Hotpoint|E6": {
+  "title": "Guasto alla scheda di controllo o del display",
+  "causes": [
+   "La scheda di controllo principale o la scheda del display è guasta."
+  ],
+  "steps": [
+   "Stacchi la spina del frigorifero per qualche minuto e la reinserisca."
+  ],
+  "technician": "Chiami l'assistenza Hotpoint per prenotare un tecnico."
+ },
+ "Hotpoint|E7": {
+  "title": "Guasto al sensore della temperatura ambiente",
+  "causes": [
+   "Il sensore della temperatura ambiente è guasto."
+  ],
+  "steps": [
+   "Annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Chiami l'assistenza Hotpoint per prenotare un tecnico."
+ },
+ "Hotpoint|E8": {
+  "title": "Guasto al sensore della temperatura ambiente",
+  "causes": [
+   "Il sensore della temperatura ambiente è guasto."
+  ],
+  "steps": [
+   "Annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Chiami l'assistenza Hotpoint per prenotare un tecnico."
+ },
+ "Hotpoint|E9": {
+  "title": "Allarme di alta temperatura del congelatore",
+  "causes": [
+   "La porta del congelatore è rimasta aperta e il congelatore si è scaldato."
+  ],
+  "steps": [
+   "Chiuda bene la porta del congelatore.",
+   "Verifichi che nulla blocchi la porta.",
+   "Verifichi se gli alimenti si sono scongelati."
+  ],
+  "technician": "Se l'allarme continua con la porta chiusa, chiami l'assistenza Hotpoint."
+ },
+ "Hotpoint|EE": {
+  "title": "Guasto al circuito del fabbricatore di ghiaccio",
+  "causes": [
+   "Un guasto nel circuito del fabbricatore di ghiaccio (modelli con fabbricatore di ghiaccio)."
+  ],
+  "steps": [
+   "Se possibile, spenga il fabbricatore di ghiaccio."
+  ],
+  "technician": "Chiami l'assistenza Hotpoint per prenotare un tecnico."
+ },
+ "Indesit|E0": {
+  "title": "Guasto al fabbricatore di ghiaccio",
+  "causes": [
+   "Il fabbricatore di ghiaccio non funziona correttamente (modelli con fabbricatore di ghiaccio)."
+  ],
+  "steps": [
+   "Se possibile, spenga il fabbricatore di ghiaccio.",
+   "Continui a usare il frigorifero normalmente."
+  ],
+  "technician": "Chiami l'assistenza Indesit per prenotare un tecnico."
+ },
+ "Indesit|E1": {
+  "title": "Guasto al sensore del frigorifero",
+  "causes": [
+   "Il sensore di temperatura del frigorifero è guasto."
+  ],
+  "steps": [
+   "Annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Chiami l'assistenza Indesit per prenotare un tecnico."
+ },
+ "Indesit|E2": {
+  "title": "Guasto al sensore del congelatore",
+  "causes": [
+   "Il sensore di temperatura del congelatore è guasto.",
+   "La temperatura del congelatore potrebbe essere errata."
+  ],
+  "steps": [
+   "Verifichi che gli alimenti siano ancora congelati.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Chiami l'assistenza Indesit per prenotare un tecnico."
+ },
+ "Indesit|E3": {
+  "title": "Guasto al sensore di sbrinamento",
+  "causes": [
+   "Il sensore di sbrinamento è guasto.",
+   "Anche uno scarico ostruito può influire sulla temperatura."
+  ],
+  "steps": [
+   "Controlli che il foro di scarico dello sbrinamento ed eventuali tubi di scarico non siano ostruiti.",
+   "Elimini con delicatezza eventuali ostruzioni."
+  ],
+  "technician": "Se il guasto continua, chiami l'assistenza Indesit."
+ },
+ "Indesit|E4": {
+  "title": "Guasto al sensore di sbrinamento del frigorifero",
+  "causes": [
+   "Il sensore di sbrinamento del frigorifero è guasto."
+  ],
+  "steps": [
+   "Annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Chiami l'assistenza Indesit per prenotare un tecnico."
+ },
+ "Indesit|E5": {
+  "title": "Guasto al sensore di sbrinamento del congelatore",
+  "causes": [
+   "Il sensore di sbrinamento del congelatore è guasto."
+  ],
+  "steps": [
+   "Annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Chiami l'assistenza Indesit per prenotare un tecnico."
+ },
+ "Indesit|E6": {
+  "title": "Guasto alla scheda di controllo o del display",
+  "causes": [
+   "La scheda di controllo principale o la scheda del display è guasta."
+  ],
+  "steps": [
+   "Stacchi la spina del frigorifero per qualche minuto e la reinserisca."
+  ],
+  "technician": "Chiami l'assistenza Indesit per prenotare un tecnico."
+ },
+ "Indesit|E7": {
+  "title": "Guasto al sensore della temperatura ambiente",
+  "causes": [
+   "Il sensore della temperatura ambiente è guasto."
+  ],
+  "steps": [
+   "Annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Chiami l'assistenza Indesit per prenotare un tecnico."
+ },
+ "Indesit|E8": {
+  "title": "Guasto al sensore della temperatura ambiente",
+  "causes": [
+   "Il sensore della temperatura ambiente è guasto."
+  ],
+  "steps": [
+   "Annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Chiami l'assistenza Indesit per prenotare un tecnico."
+ },
+ "Indesit|E9": {
+  "title": "Allarme di alta temperatura del congelatore",
+  "causes": [
+   "La porta del congelatore è rimasta aperta e il congelatore si è scaldato."
+  ],
+  "steps": [
+   "Chiuda bene la porta del congelatore.",
+   "Verifichi che nulla blocchi la porta.",
+   "Verifichi se gli alimenti si sono scongelati."
+  ],
+  "technician": "Se l'allarme continua con la porta chiusa, chiami l'assistenza Indesit."
+ },
+ "Indesit|EE": {
+  "title": "Guasto al circuito del fabbricatore di ghiaccio",
+  "causes": [
+   "Un guasto nel circuito del fabbricatore di ghiaccio (modelli con fabbricatore di ghiaccio)."
+  ],
+  "steps": [
+   "Se possibile, spenga il fabbricatore di ghiaccio."
+  ],
+  "technician": "Chiami l'assistenza Indesit per prenotare un tecnico."
+ },
+ "Whirlpool|F3 E1": {
+  "title": "Guasto di sistema (F lampeggiante)",
+  "causes": [
+   "Il controllo ha rilevato un guasto. Whirlpool non indica soluzioni fai da te oltre al reset."
+  ],
+  "steps": [
+   "Spenga l'interruttore o stacchi la spina del frigorifero per un minuto.",
+   "Ripristini la corrente.",
+   "Si assicuri che il raffreddamento sia attivo.",
+   "Osservi per un minuto se il codice ricompare."
+  ],
+  "technician": "Se il codice ricompare dopo il reset, prenoti l'assistenza Whirlpool."
+ },
+ "Whirlpool|F3 E2": {
+  "title": "Guasto di sistema (F lampeggiante)",
+  "causes": [
+   "Il controllo ha rilevato un guasto. Whirlpool non indica soluzioni fai da te oltre al reset."
+  ],
+  "steps": [
+   "Spenga l'interruttore o stacchi la spina del frigorifero per un minuto.",
+   "Ripristini la corrente.",
+   "Si assicuri che il raffreddamento sia attivo.",
+   "Osservi per un minuto se il codice ricompare."
+  ],
+  "technician": "Se il codice ricompare dopo il reset, prenoti l'assistenza Whirlpool."
+ },
+ "Whirlpool|F6 E1": {
+  "title": "Guasto di sistema (F lampeggiante)",
+  "causes": [
+   "Il controllo ha rilevato un guasto. Whirlpool non indica soluzioni fai da te oltre al reset."
+  ],
+  "steps": [
+   "Spenga l'interruttore o stacchi la spina del frigorifero per un minuto.",
+   "Ripristini la corrente.",
+   "Si assicuri che il raffreddamento sia attivo.",
+   "Osservi per un minuto se il codice ricompare."
+  ],
+  "technician": "Se il codice ricompare dopo il reset, prenoti l'assistenza Whirlpool."
+ },
+ "Whirlpool|F8 E1": {
+  "title": "Guasto di sistema (F lampeggiante)",
+  "causes": [
+   "Il controllo ha rilevato un guasto. Whirlpool non indica soluzioni fai da te oltre al reset."
+  ],
+  "steps": [
+   "Spenga l'interruttore o stacchi la spina del frigorifero per un minuto.",
+   "Ripristini la corrente.",
+   "Si assicuri che il raffreddamento sia attivo.",
+   "Osservi per un minuto se il codice ricompare."
+  ],
+  "technician": "Se il codice ricompare dopo il reset, prenoti l'assistenza Whirlpool."
+ },
+ "Whirlpool|F8 E2": {
+  "title": "Guasto di sistema (F lampeggiante)",
+  "causes": [
+   "Il controllo ha rilevato un guasto. Whirlpool non indica soluzioni fai da te oltre al reset."
+  ],
+  "steps": [
+   "Spenga l'interruttore o stacchi la spina del frigorifero per un minuto.",
+   "Ripristini la corrente.",
+   "Si assicuri che il raffreddamento sia attivo.",
+   "Osservi per un minuto se il codice ricompare."
+  ],
+  "technician": "Se il codice ricompare dopo il reset, prenoti l'assistenza Whirlpool."
+ },
+ "Whirlpool|PO": {
+  "title": "Avviso di interruzione di corrente",
+  "causes": [
+   "La corrente si è interrotta e il congelatore ha raggiunto -8 °C (18 °F) o più."
+  ],
+  "steps": [
+   "Prema il tasto sotto la scritta lampeggiante Confirm per cancellare l'avviso.",
+   "Controlli se gli alimenti surgelati si sono scongelati."
+  ],
+  "technician": "Non è un guasto. Contatti Whirlpool solo se PO compare senza una vera interruzione di corrente."
+ },
+ "Bosch|E02": {
+  "title": "Guasto al fabbricatore di ghiaccio o all'impianto dell'acqua",
+  "causes": [
+   "Il fabbricatore di ghiaccio è guasto.",
+   "I comandi del ghiaccio e dell'acqua non comunicano."
+  ],
+  "steps": [
+   "Spenga l'interruttore del frigorifero per 30 secondi.",
+   "Lo riaccenda e controlli il codice."
+  ],
+  "technician": "Se E02 resta, contatti l'assistenza clienti Bosch."
+ },
+ "Bosch|E03": {
+  "title": "Guasto al controllo del distributore",
+  "causes": [
+   "Il pannello di controllo del distributore è guasto."
+  ],
+  "steps": [
+   "Spenga l'interruttore del frigorifero per 30 secondi.",
+   "Lo riaccenda e controlli il codice."
+  ],
+  "technician": "Se E03 resta, contatti l'assistenza clienti Bosch."
+ },
+ "Haier|F1": {
+  "title": "Errore del sensore",
+  "causes": [
+   "Un sensore di temperatura è guasto."
+  ],
+  "steps": [
+   "Spenga e riaccenda una volta il frigorifero per vedere se il codice scompare.",
+   "Se ricompare, annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Non è risolvibile dall'utente. Contatti l'assistenza Haier per un tecnico."
+ },
+ "Haier|E0": {
+  "title": "Errore di comunicazione",
+  "causes": [
+   "Le schede interne non comunicano."
+  ],
+  "steps": [
+   "Spenga e riaccenda una volta il frigorifero per vedere se il codice scompare.",
+   "Se ricompare, annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Non è risolvibile dall'utente. Contatti l'assistenza Haier per un tecnico."
+ },
+ "Haier|E1": {
+  "title": "Errore della ventola",
+  "causes": [
+   "Una ventola non funziona."
+  ],
+  "steps": [
+   "Spenga e riaccenda una volta il frigorifero per vedere se il codice scompare.",
+   "Se ricompare, annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Non è risolvibile dall'utente. Contatti l'assistenza Haier per un tecnico."
+ },
+ "Haier|Er": {
+  "title": "Errore del fabbricatore di ghiaccio",
+  "causes": [
+   "Il fabbricatore di ghiaccio è guasto."
+  ],
+  "steps": [
+   "Spenga e riaccenda una volta il frigorifero per vedere se il codice scompare.",
+   "Se ricompare, annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Non è risolvibile dall'utente. Contatti l'assistenza Haier per un tecnico."
+ },
+ "Haier|Ed": {
+  "title": "Errore di sbrinamento",
+  "causes": [
+   "Il sistema di sbrinamento è guasto."
+  ],
+  "steps": [
+   "Spenga e riaccenda una volta il frigorifero per vedere se il codice scompare.",
+   "Se ricompare, annoti il codice.",
+   "Tenga le porte chiuse il più possibile per proteggere gli alimenti."
+  ],
+  "technician": "Non è risolvibile dall'utente. Contatti l'assistenza Haier per un tecnico."
+ }
+}

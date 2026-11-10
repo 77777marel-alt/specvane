@@ -1,0 +1,1776 @@
+{
+ "Vaillant|F.0": {
+  "title": "Sonde de température départ en circuit ouvert",
+  "causes": [
+   "La sonde de température départ ou son câblage est défectueux.",
+   "Une connexion desserrée dans la chaudière."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient, n'essayez pas de réparer vous-même. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Vaillant|F.1": {
+  "title": "Sonde de température retour en circuit ouvert",
+  "causes": [
+   "La sonde de température retour ou son câblage est défectueux.",
+   "Une connexion desserrée dans la chaudière."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient, n'essayez pas de réparer vous-même. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Vaillant|F.10": {
+  "title": "Sonde de température départ en court-circuit",
+  "causes": [
+   "La sonde de température départ ou son câblage est défectueux.",
+   "Une connexion desserrée dans la chaudière."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient, n'essayez pas de réparer vous-même. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Vaillant|F.11": {
+  "title": "Sonde de température retour en court-circuit",
+  "causes": [
+   "La sonde de température retour ou son câblage est défectueux.",
+   "Une connexion desserrée dans la chaudière."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient, n'essayez pas de réparer vous-même. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Vaillant|F.20": {
+  "title": "Le thermostat de sécurité s'est déclenché",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Vaillant|F.22": {
+  "title": "Pression d'eau basse",
+  "causes": [
+   "De l'eau s'est échappée de l'installation de chauffage, souvent après la purge des radiateurs.",
+   "Une petite fuite quelque part dans les tuyaux ou les radiateurs.",
+   "Un capteur de pression défectueux."
+  ],
+  "steps": [
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si vous devez souvent faire l'appoint, il y a peut-être une fuite. Demandez à un professionnel de la trouver."
+  ],
+  "technician": "Si la pression continue de baisser, un professionnel qualifié (PG) doit trouver la fuite ; n'ouvrez jamais vous-même l'habillage de la chaudière."
+ },
+ "Vaillant|F.23": {
+  "title": "Écart de température départ/retour trop important",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Vaillant|F.24": {
+  "title": "La température monte trop vite",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Vaillant|F.25": {
+  "title": "Température des fumées trop élevée",
+  "causes": [
+   "Un problème de conduit de fumées ou d'arrivée d'air.",
+   "Une mauvaise combustion dans la chaudière."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Coupez la chaudière avec l'interrupteur principal.",
+   "Vérifiez depuis l'extérieur que le terminal de la ventouse n'est pas visiblement bouché. N'y touchez pas.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Vaillant|F.27": {
+  "title": "Flamme détectée brûleur éteint",
+  "causes": [
+   "Un défaut dans le circuit de détection de flamme.",
+   "Une vanne gaz qui ne se ferme pas complètement."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Coupez la chaudière avec l'interrupteur principal.",
+   "Ne réarmez pas sans cesse. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "C'est un défaut de sécurité ; seul un professionnel qualifié (PG) peut contrôler la vanne gaz et les pièces de détection de flamme."
+ },
+ "Vaillant|F.28": {
+  "title": "La chaudière ne s'est pas allumée",
+  "causes": [
+   "Le gaz n'arrive pas à la chaudière, par exemple compteur à prépaiement vide.",
+   "Un tuyau d'évacuation des condensats gelé ou bouché.",
+   "Un défaut des pièces d'allumage ou de détection de flamme."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Vérifiez que les autres appareils au gaz, comme la plaque de cuisson, fonctionnent.",
+   "Si vous avez un compteur de gaz à prépaiement, vérifiez qu'il reste du crédit.",
+   "Par temps de gel, vérifiez le tuyau en plastique d'évacuation des condensats à l'extérieur. Faites fondre la glace avec de l'eau tiède (pas bouillante).",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Vaillant|F.29": {
+  "title": "Perte de flamme, la chaudière n'a pas pu se rallumer",
+  "causes": [
+   "Le gaz n'arrive pas à la chaudière, par exemple compteur à prépaiement vide.",
+   "Un tuyau d'évacuation des condensats gelé ou bouché.",
+   "Un défaut des pièces d'allumage ou de détection de flamme."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Vérifiez que les autres appareils au gaz, comme la plaque de cuisson, fonctionnent.",
+   "Si vous avez un compteur de gaz à prépaiement, vérifiez qu'il reste du crédit.",
+   "Par temps de gel, vérifiez le tuyau en plastique d'évacuation des condensats à l'extérieur. Faites fondre la glace avec de l'eau tiède (pas bouillante).",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Vaillant|F.32": {
+  "title": "Défaut du ventilateur",
+  "causes": [
+   "Le ventilateur ne tourne pas à la bonne vitesse.",
+   "Un défaut de câblage ou de carte de commande.",
+   "Le conduit de fumées est peut-être bouché."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Vérifiez depuis l'extérieur que rien ne bouche le terminal de la ventouse. N'y touchez pas.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Vaillant|F.35": {
+  "title": "Conduit d'air ou de fumées bouché",
+  "causes": [
+   "Quelque chose bouche le conduit de fumées ou l'entrée d'air.",
+   "Le conduit de fumées est endommagé."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Coupez la chaudière avec l'interrupteur principal.",
+   "Regardez depuis l'extérieur s'il y a des feuilles, des nids ou de la neige autour du terminal de la ventouse, mais n'y touchez pas et ne le démontez pas.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Vaillant|F.54": {
+  "title": "Défaut d'alimentation en gaz",
+  "causes": [
+   "Le gaz n'arrive pas à la chaudière, par exemple compteur à prépaiement vide.",
+   "Un tuyau d'évacuation des condensats gelé ou bouché.",
+   "Un défaut des pièces d'allumage ou de détection de flamme."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Vérifiez que les autres appareils au gaz, comme la plaque de cuisson, fonctionnent.",
+   "Si vous avez un compteur de gaz à prépaiement, vérifiez qu'il reste du crédit.",
+   "Par temps de gel, vérifiez le tuyau en plastique d'évacuation des condensats à l'extérieur. Faites fondre la glace avec de l'eau tiède (pas bouillante).",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Vaillant|F.62": {
+  "title": "Défaut de délai de fermeture de la vanne gaz",
+  "causes": [
+   "La flamme a mis trop de temps à s'éteindre après l'arrêt du brûleur.",
+   "Un défaut de la vanne gaz ou de la commande."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Vaillant|F.75": {
+  "title": "Pas de hausse de pression au démarrage du circulateur",
+  "causes": [
+   "De l'eau s'est échappée de l'installation de chauffage, souvent après la purge des radiateurs.",
+   "Une petite fuite quelque part dans les tuyaux ou les radiateurs.",
+   "Un capteur de pression défectueux."
+  ],
+  "steps": [
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si vous devez souvent faire l'appoint, il y a peut-être une fuite. Demandez à un professionnel de la trouver."
+  ],
+  "technician": "Si la pression continue de baisser, un professionnel qualifié (PG) doit trouver la fuite ; n'ouvrez jamais vous-même l'habillage de la chaudière."
+ },
+ "Vaillant|F.83": {
+  "title": "Pas de hausse de température au démarrage du brûleur",
+  "causes": [
+   "Pas assez d'eau dans la chaudière.",
+   "De l'air dans l'installation ou une sonde défectueuse."
+  ],
+  "steps": [
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Vaillant|F.88": {
+  "title": "Connexion électrique de la vanne gaz perdue",
+  "causes": [
+   "Une connexion desserrée ou endommagée vers la vanne gaz.",
+   "Un défaut de la carte de commande."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "N'essayez pas d'accéder à la vanne gaz. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Glow-worm|F.0": {
+  "title": "Sonde de température départ en circuit ouvert",
+  "causes": [
+   "La sonde de température départ ou son câblage est défectueux.",
+   "Une connexion desserrée dans la chaudière."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient, n'essayez pas de réparer vous-même. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Glow-worm|F.1": {
+  "title": "Sonde de température retour en circuit ouvert",
+  "causes": [
+   "La sonde de température retour ou son câblage est défectueux.",
+   "Une connexion desserrée dans la chaudière."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient, n'essayez pas de réparer vous-même. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Glow-worm|F.20": {
+  "title": "Le thermostat de sécurité s'est déclenché",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Glow-worm|F.22": {
+  "title": "Pression d'eau basse",
+  "causes": [
+   "De l'eau s'est échappée de l'installation de chauffage, souvent après la purge des radiateurs.",
+   "Une petite fuite quelque part dans les tuyaux ou les radiateurs.",
+   "Un capteur de pression défectueux."
+  ],
+  "steps": [
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si vous devez souvent faire l'appoint, il y a peut-être une fuite. Demandez à un professionnel de la trouver."
+  ],
+  "technician": "Si la pression continue de baisser, un professionnel qualifié (PG) doit trouver la fuite ; n'ouvrez jamais vous-même l'habillage de la chaudière."
+ },
+ "Glow-worm|F.23": {
+  "title": "Écart de température départ/retour trop important",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Glow-worm|F.24": {
+  "title": "La température monte trop vite",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Glow-worm|F.27": {
+  "title": "Flamme détectée brûleur éteint",
+  "causes": [
+   "Un défaut dans le circuit de détection de flamme.",
+   "Une vanne gaz qui ne se ferme pas complètement."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Coupez la chaudière avec l'interrupteur principal.",
+   "Ne réarmez pas sans cesse. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "C'est un défaut de sécurité ; seul un professionnel qualifié (PG) peut contrôler la vanne gaz et les pièces de détection de flamme."
+ },
+ "Glow-worm|F.28": {
+  "title": "La chaudière ne s'est pas allumée",
+  "causes": [
+   "Le gaz n'arrive pas à la chaudière, par exemple compteur à prépaiement vide.",
+   "Un tuyau d'évacuation des condensats gelé ou bouché.",
+   "Un défaut des pièces d'allumage ou de détection de flamme."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Vérifiez que les autres appareils au gaz, comme la plaque de cuisson, fonctionnent.",
+   "Si vous avez un compteur de gaz à prépaiement, vérifiez qu'il reste du crédit.",
+   "Par temps de gel, vérifiez le tuyau en plastique d'évacuation des condensats à l'extérieur. Faites fondre la glace avec de l'eau tiède (pas bouillante).",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Glow-worm|F.29": {
+  "title": "Perte de flamme, la chaudière n'a pas pu se rallumer",
+  "causes": [
+   "Le gaz n'arrive pas à la chaudière, par exemple compteur à prépaiement vide.",
+   "Un tuyau d'évacuation des condensats gelé ou bouché.",
+   "Un défaut des pièces d'allumage ou de détection de flamme."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Vérifiez que les autres appareils au gaz, comme la plaque de cuisson, fonctionnent.",
+   "Si vous avez un compteur de gaz à prépaiement, vérifiez qu'il reste du crédit.",
+   "Par temps de gel, vérifiez le tuyau en plastique d'évacuation des condensats à l'extérieur. Faites fondre la glace avec de l'eau tiède (pas bouillante).",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Glow-worm|F.32": {
+  "title": "Défaut du ventilateur",
+  "causes": [
+   "Le ventilateur ne tourne pas à la bonne vitesse.",
+   "Un défaut de câblage ou de carte de commande.",
+   "Le conduit de fumées est peut-être bouché."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Vérifiez depuis l'extérieur que rien ne bouche le terminal de la ventouse. N'y touchez pas.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Glow-worm|F.61": {
+  "title": "Défaut de la carte de commande principale",
+  "causes": [
+   "Un défaut électronique sur la carte principale.",
+   "Un problème dans le circuit de commande de la vanne gaz."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Si le code reste affiché, ne réarmez plus. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Glow-worm|F.75": {
+  "title": "Pas de hausse de pression au démarrage du circulateur",
+  "causes": [
+   "De l'eau s'est échappée de l'installation de chauffage, souvent après la purge des radiateurs.",
+   "Une petite fuite quelque part dans les tuyaux ou les radiateurs.",
+   "Un capteur de pression défectueux."
+  ],
+  "steps": [
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si vous devez souvent faire l'appoint, il y a peut-être une fuite. Demandez à un professionnel de la trouver."
+  ],
+  "technician": "Si la pression continue de baisser, un professionnel qualifié (PG) doit trouver la fuite ; n'ouvrez jamais vous-même l'habillage de la chaudière."
+ },
+ "Glow-worm|F.84": {
+  "title": "Valeurs départ et retour incohérentes",
+  "causes": [
+   "Les tuyaux sont peut-être inversés ou une sonde est mal placée.",
+   "Une sonde défectueuse."
+  ],
+  "steps": [
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si ce code est apparu après des travaux sur l'installation, contactez l'installateur qui les a réalisés."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Glow-worm|F.88": {
+  "title": "Connexion électrique de la vanne gaz perdue",
+  "causes": [
+   "Une connexion desserrée ou endommagée vers la vanne gaz.",
+   "Un défaut de la carte de commande."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "N'essayez pas d'accéder à la vanne gaz. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Ideal|L1": {
+  "title": "Surchauffe du départ ou absence de circulation d'eau",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Ideal|L2": {
+  "title": "Mise en sécurité pour défaut d'allumage",
+  "causes": [
+   "Le gaz n'arrive pas à la chaudière, par exemple compteur à prépaiement vide.",
+   "Un tuyau d'évacuation des condensats gelé ou bouché.",
+   "Un défaut des pièces d'allumage ou de détection de flamme."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Vérifiez que les autres appareils au gaz, comme la plaque de cuisson, fonctionnent.",
+   "Si vous avez un compteur de gaz à prépaiement, vérifiez qu'il reste du crédit.",
+   "Par temps de gel, vérifiez le tuyau en plastique d'évacuation des condensats à l'extérieur. Faites fondre la glace avec de l'eau tiède (pas bouillante).",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Ideal|L3": {
+  "title": "Pas de circulation d'eau",
+  "causes": [
+   "Une pression d'installation trop basse.",
+   "De l'air bloqué dans les radiateurs.",
+   "Un problème de circulation ou de circulateur."
+  ],
+  "steps": [
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Éteignez la chaudière et purgez les radiateurs.",
+   "Vérifiez de nouveau la pression, rallumez la chaudière et réarmez-la.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Ideal|L5": {
+  "title": "Trop de réarmements en 15 minutes",
+  "causes": [
+   "Le bouton de réarmement a été pressé trop de fois en peu de temps."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Si un code d'erreur apparaît ensuite, suivez les conseils pour ce code."
+  ],
+  "technician": "Si la chaudière se met sans cesse en sécurité, un professionnel qualifié (PG) doit trouver la cause de la panne."
+ },
+ "Ideal|L6": {
+  "title": "Mise en sécurité pour fausse flamme",
+  "causes": [
+   "Un défaut dans le circuit de détection de flamme.",
+   "Une vanne gaz qui ne se ferme pas complètement."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Coupez la chaudière avec l'interrupteur principal.",
+   "Ne réarmez pas sans cesse. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "C'est un défaut de sécurité ; seul un professionnel qualifié (PG) peut contrôler la vanne gaz et les pièces de détection de flamme."
+ },
+ "Ideal|F1": {
+  "title": "Pression d'eau basse",
+  "causes": [
+   "De l'eau s'est échappée de l'installation de chauffage, souvent après la purge des radiateurs.",
+   "Une petite fuite quelque part dans les tuyaux ou les radiateurs.",
+   "Un capteur de pression défectueux."
+  ],
+  "steps": [
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si vous devez souvent faire l'appoint, il y a peut-être une fuite. Demandez à un professionnel de la trouver."
+  ],
+  "technician": "Si la pression continue de baisser, un professionnel qualifié (PG) doit trouver la fuite ; n'ouvrez jamais vous-même l'habillage de la chaudière."
+ },
+ "Ideal|F2": {
+  "title": "Perte de flamme",
+  "causes": [
+   "Le gaz n'arrive pas à la chaudière, par exemple compteur à prépaiement vide.",
+   "Un tuyau d'évacuation des condensats gelé ou bouché.",
+   "Un défaut des pièces d'allumage ou de détection de flamme."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Vérifiez que les autres appareils au gaz, comme la plaque de cuisson, fonctionnent.",
+   "Si vous avez un compteur de gaz à prépaiement, vérifiez qu'il reste du crédit.",
+   "Par temps de gel, vérifiez le tuyau en plastique d'évacuation des condensats à l'extérieur. Faites fondre la glace avec de l'eau tiède (pas bouillante).",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Ideal|F3": {
+  "title": "Défaut du ventilateur",
+  "causes": [
+   "Le ventilateur ne tourne pas à la bonne vitesse.",
+   "Un défaut de câblage ou de carte de commande.",
+   "Le conduit de fumées est peut-être bouché."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Vérifiez depuis l'extérieur que rien ne bouche le terminal de la ventouse. N'y touchez pas.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Ideal|F4": {
+  "title": "Défaut de la sonde départ",
+  "causes": [
+   "La sonde de température départ (thermistance) ou son câblage est défectueux.",
+   "Une connexion desserrée dans la chaudière."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient, n'essayez pas de réparer vous-même. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Ideal|F5": {
+  "title": "Défaut de la sonde retour",
+  "causes": [
+   "La sonde de température retour (thermistance) ou son câblage est défectueux.",
+   "Une connexion desserrée dans la chaudière."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient, n'essayez pas de réparer vous-même. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Ideal|F6": {
+  "title": "Défaut de la sonde extérieure",
+  "causes": [
+   "La sonde de température extérieure ou son câblage est défectueux.",
+   "Une connexion desserrée dans la chaudière."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient, n'essayez pas de réparer vous-même. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Ideal|F7": {
+  "title": "Tension secteur basse",
+  "causes": [
+   "La tension électrique qui alimente le logement est trop basse.",
+   "Un défaut de câblage dans le logement."
+  ],
+  "steps": [
+   "Vérifiez si d'autres appareils ou les éclairages sont touchés.",
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Demandez à un électricien ou à votre fournisseur d'électricité de vérifier l'alimentation."
+  ],
+  "technician": "Si l'alimentation est correcte, un professionnel qualifié (PG) doit tester la chaudière ; les contrôles du câblage électrique relèvent d'un électricien qualifié."
+ },
+ "Ideal|F0": {
+  "title": "Pas de circulation d'eau (thermistance)",
+  "causes": [
+   "L'eau ne circule pas dans la chaudière.",
+   "Une sonde défectueuse."
+  ],
+  "steps": [
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Ideal|FD": {
+  "title": "Pas de circulation d'eau",
+  "causes": [
+   "Une pression basse ou de l'air dans l'installation.",
+   "Le circulateur de chauffage ne tourne pas."
+  ],
+  "steps": [
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Rallumez la chaudière et vérifiez si le code disparaît.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Ideal|FU": {
+  "title": "Écart départ/retour trop élevé",
+  "causes": [
+   "De l'air dans les radiateurs.",
+   "Une pression basse ou une obstruction dans l'installation."
+  ],
+  "steps": [
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Rallumez la chaudière.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Worcester Bosch|EA 227": {
+  "title": "Pas d'allumage du brûleur",
+  "causes": [
+   "Le gaz n'arrive pas à la chaudière, par exemple compteur à prépaiement vide.",
+   "Un tuyau d'évacuation des condensats gelé ou bouché.",
+   "Un défaut des pièces d'allumage ou de détection de flamme."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Vérifiez que les autres appareils au gaz, comme la plaque de cuisson, fonctionnent.",
+   "Si vous avez un compteur de gaz à prépaiement, vérifiez qu'il reste du crédit.",
+   "Par temps de gel, vérifiez le tuyau en plastique d'évacuation des condensats à l'extérieur. Faites fondre la glace avec de l'eau tiède (pas bouillante).",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Worcester Bosch|CE 207": {
+  "title": "Pression d'eau basse",
+  "causes": [
+   "De l'eau s'est échappée de l'installation de chauffage, souvent après la purge des radiateurs.",
+   "Une petite fuite quelque part dans les tuyaux ou les radiateurs.",
+   "Un capteur de pression défectueux."
+  ],
+  "steps": [
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si vous devez souvent faire l'appoint, il y a peut-être une fuite. Demandez à un professionnel de la trouver."
+  ],
+  "technician": "Si la pression continue de baisser, un professionnel qualifié (PG) doit trouver la fuite ; n'ouvrez jamais vous-même l'habillage de la chaudière."
+ },
+ "Worcester Bosch|H07": {
+  "title": "Pression d'eau basse (avertissement)",
+  "causes": [
+   "La pression de l'installation est descendue sous le niveau normal."
+  ],
+  "steps": [
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Si vous devez souvent faire l'appoint, il y a peut-être une fuite. Demandez à un professionnel de la trouver."
+  ],
+  "technician": "Si la pression continue de baisser, un professionnel qualifié (PG) doit trouver la fuite ; n'ouvrez jamais vous-même l'habillage de la chaudière."
+ },
+ "Worcester Bosch|E9 224": {
+  "title": "Thermostat de sécurité interne trop chaud",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Worcester Bosch|E9 276": {
+  "title": "Température départ trop élevée",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Worcester Bosch|CE 266": {
+  "title": "Valeurs de température inattendues, pression peut-être basse",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Worcester Bosch|Fd 231": {
+  "title": "Coupure de courant pendant une mise en sécurité",
+  "causes": [
+   "L'alimentation électrique a été coupée pendant que la chaudière était en sécurité."
+  ],
+  "steps": [
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si un autre code apparaît ensuite, suivez les conseils pour ce code."
+  ],
+  "technician": "Si la chaudière ne repart pas après un réarmement, un professionnel qualifié (PG) doit la contrôler."
+ },
+ "Worcester Bosch|A1": {
+  "title": "Le circulateur a tourné à sec",
+  "causes": [
+   "Une pression d'eau très basse.",
+   "De l'air bloqué dans le circulateur ou l'installation."
+  ],
+  "steps": [
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Worcester Bosch|C6": {
+  "title": "Vitesse du ventilateur trop faible",
+  "causes": [
+   "Le ventilateur ne tourne pas à la bonne vitesse.",
+   "Un défaut de câblage ou de carte de commande.",
+   "Le conduit de fumées est peut-être bouché."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Vérifiez depuis l'extérieur que rien ne bouche le terminal de la ventouse. N'y touchez pas.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Worcester Bosch|F7": {
+  "title": "Flamme toujours détectée après l'arrêt du brûleur",
+  "causes": [
+   "Un défaut dans le circuit de détection de flamme.",
+   "Une vanne gaz qui ne se ferme pas complètement."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Coupez la chaudière avec l'interrupteur principal.",
+   "Ne réarmez pas sans cesse. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "C'est un défaut de sécurité ; seul un professionnel qualifié (PG) peut contrôler la vanne gaz et les pièces de détection de flamme."
+ },
+ "Worcester Bosch|2980": {
+  "title": "Défaut de sécurité grave",
+  "causes": [
+   "La chaudière a détecté un défaut lié à la sécurité."
+  ],
+  "steps": [
+   "Éteignez la chaudière.",
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "N'essayez pas de la réparer ni de la réarmer. Contactez immédiatement un chauffagiste qualifié."
+  ],
+  "technician": "C'est un défaut critique pour la sécurité, qui doit être traité uniquement par un professionnel qualifié (PG)."
+ },
+ "Junkers/Bosch|227": {
+  "title": "Le brûleur ne s'est pas allumé après plusieurs essais",
+  "causes": [
+   "Le gaz n'arrive pas à la chaudière, par exemple compteur à prépaiement vide.",
+   "Un tuyau d'évacuation des condensats gelé ou bouché.",
+   "Un défaut des pièces d'allumage ou de détection de flamme."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Vérifiez que les autres appareils au gaz, comme la plaque de cuisson, fonctionnent.",
+   "Si vous avez un compteur de gaz à prépaiement, vérifiez qu'il reste du crédit.",
+   "Par temps de gel, vérifiez le tuyau en plastique d'évacuation des condensats à l'extérieur. Faites fondre la glace avec de l'eau tiède (pas bouillante).",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Junkers/Bosch|207": {
+  "title": "Pression d'eau basse",
+  "causes": [
+   "De l'eau s'est échappée de l'installation de chauffage, souvent après la purge des radiateurs.",
+   "Une petite fuite quelque part dans les tuyaux ou les radiateurs.",
+   "Un capteur de pression défectueux."
+  ],
+  "steps": [
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si vous devez souvent faire l'appoint, il y a peut-être une fuite. Demandez à un professionnel de la trouver."
+  ],
+  "technician": "Si la pression continue de baisser, un professionnel qualifié (PG) doit trouver la fuite ; n'ouvrez jamais vous-même l'habillage de la chaudière."
+ },
+ "Junkers/Bosch|224": {
+  "title": "Le limiteur de température de sécurité s'est déclenché",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Junkers/Bosch|276": {
+  "title": "Température départ trop élevée",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Junkers/Bosch|231": {
+  "title": "Coupure de courant pendant une mise en sécurité",
+  "causes": [
+   "L'alimentation électrique a été coupée pendant que la chaudière était en sécurité."
+  ],
+  "steps": [
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si un autre code apparaît ensuite, suivez les conseils pour ce code."
+  ],
+  "technician": "Si le défaut ne disparaît pas, un professionnel qualifié (PG) doit contrôler la chaudière."
+ },
+ "Junkers/Bosch|232": {
+  "title": "Demande de chauffage bloquée par un contact externe",
+  "causes": [
+   "Un régulateur externe, comme un limiteur de plancher chauffant, a bloqué la chaudière.",
+   "Le contact de sécurité d'une pompe de relevage des condensats s'est déclenché."
+  ],
+  "steps": [
+   "Attendez quelques minutes ; la chaudière peut redémarrer seule.",
+   "Vérifiez que le thermostat d'ambiance et la programmation demandent du chauffage.",
+   "Si vous avez une pompe de relevage des condensats, vérifiez qu'elle est alimentée et qu'elle ne déborde pas.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Junkers/Bosch|2962": {
+  "title": "Aucun signal du ventilateur",
+  "causes": [
+   "Le ventilateur ne tourne pas à la bonne vitesse.",
+   "Un défaut de câblage ou de carte de commande.",
+   "Le conduit de fumées est peut-être bouché."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Vérifiez depuis l'extérieur que rien ne bouche le terminal de la ventouse. N'y touchez pas.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Baxi|E133": {
+  "title": "Tuyau d'évacuation des condensats gelé ou bouché",
+  "causes": [
+   "Le tuyau extérieur d'évacuation des condensats a gelé par temps froid.",
+   "Une obstruction dans le tuyau d'évacuation des condensats.",
+   "Sur certains modèles, un problème d'alimentation en gaz ou d'allumage."
+  ],
+  "steps": [
+   "Éteignez la chaudière.",
+   "Trouvez la partie gelée du tuyau d'évacuation des condensats, en général à l'extérieur ou dans un coude.",
+   "Réchauffez-la avec une bouillotte ou versez de l'eau tiède (pas bouillante) dessus.",
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur."
+  ],
+  "technician": "Si la chaudière ne fonctionne toujours pas après le dégel, appelez un professionnel qualifié (PG)."
+ },
+ "Baxi|E28": {
+  "title": "Tuyau d'évacuation des condensats gelé ou bouché",
+  "causes": [
+   "Le tuyau extérieur d'évacuation des condensats a gelé par temps froid.",
+   "Une obstruction dans le tuyau d'évacuation des condensats.",
+   "Sur certains modèles, un problème d'alimentation en gaz ou d'allumage."
+  ],
+  "steps": [
+   "Éteignez la chaudière.",
+   "Trouvez la partie gelée du tuyau d'évacuation des condensats, en général à l'extérieur ou dans un coude.",
+   "Réchauffez-la avec une bouillotte ou versez de l'eau tiède (pas bouillante) dessus.",
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur."
+  ],
+  "technician": "Si la chaudière ne fonctionne toujours pas après le dégel, appelez un professionnel qualifié (PG)."
+ },
+ "Baxi|A.02.06": {
+  "title": "Pression d'eau basse",
+  "causes": [
+   "De l'eau s'est échappée de l'installation de chauffage, souvent après la purge des radiateurs.",
+   "Une petite fuite quelque part dans les tuyaux ou les radiateurs.",
+   "Un capteur de pression défectueux."
+  ],
+  "steps": [
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si vous devez souvent faire l'appoint, il y a peut-être une fuite. Demandez à un professionnel de la trouver."
+  ],
+  "technician": "Si la pression continue de baisser, un professionnel qualifié (PG) doit trouver la fuite ; n'ouvrez jamais vous-même l'habillage de la chaudière."
+ },
+ "Baxi|H.02.07": {
+  "title": "Pression d'eau basse (avertissement)",
+  "causes": [
+   "De l'eau s'est échappée de l'installation de chauffage, souvent après la purge des radiateurs.",
+   "Une petite fuite quelque part dans les tuyaux ou les radiateurs.",
+   "Un capteur de pression défectueux."
+  ],
+  "steps": [
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si vous devez souvent faire l'appoint, il y a peut-être une fuite. Demandez à un professionnel de la trouver."
+  ],
+  "technician": "Si la pression continue de baisser, un professionnel qualifié (PG) doit trouver la fuite ; n'ouvrez jamais vous-même l'habillage de la chaudière."
+ },
+ "Potterton|E133": {
+  "title": "Tuyau d'évacuation des condensats gelé ou bouché",
+  "causes": [
+   "Le tuyau extérieur d'évacuation des condensats a gelé par temps froid.",
+   "Une obstruction dans le tuyau d'évacuation des condensats.",
+   "Sur certains modèles, un problème d'alimentation en gaz ou d'allumage."
+  ],
+  "steps": [
+   "Éteignez la chaudière.",
+   "Trouvez la partie gelée du tuyau d'évacuation des condensats, en général à l'extérieur ou dans un coude.",
+   "Réchauffez-la avec une bouillotte ou versez de l'eau tiède (pas bouillante) dessus.",
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur."
+  ],
+  "technician": "Si la chaudière ne fonctionne toujours pas après le dégel, appelez un professionnel qualifié (PG)."
+ },
+ "Viessmann|74": {
+  "title": "Pression d'eau basse",
+  "causes": [
+   "De l'eau s'est échappée de l'installation de chauffage, souvent après la purge des radiateurs.",
+   "Une petite fuite quelque part dans les tuyaux ou les radiateurs.",
+   "Un capteur de pression défectueux."
+  ],
+  "steps": [
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si vous devez souvent faire l'appoint, il y a peut-être une fuite. Demandez à un professionnel de la trouver."
+  ],
+  "technician": "Si la pression continue de baisser, un professionnel qualifié (PG) doit trouver la fuite ; n'ouvrez jamais vous-même l'habillage de la chaudière."
+ },
+ "Viessmann|361": {
+  "title": "Pas de signal de flamme au démarrage du brûleur",
+  "causes": [
+   "Le gaz n'arrive pas à la chaudière, par exemple compteur à prépaiement vide.",
+   "Un tuyau d'évacuation des condensats gelé ou bouché.",
+   "Un défaut des pièces d'allumage ou de détection de flamme."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Vérifiez que les autres appareils au gaz, comme la plaque de cuisson, fonctionnent.",
+   "Si vous avez un compteur de gaz à prépaiement, vérifiez qu'il reste du crédit.",
+   "Par temps de gel, vérifiez le tuyau en plastique d'évacuation des condensats à l'extérieur. Faites fondre la glace avec de l'eau tiède (pas bouillante).",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Viessmann|64": {
+  "title": "Perte de flamme en fonctionnement",
+  "causes": [
+   "Le gaz n'arrive pas à la chaudière, par exemple compteur à prépaiement vide.",
+   "Un tuyau d'évacuation des condensats gelé ou bouché.",
+   "Un défaut des pièces d'allumage ou de détection de flamme."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Vérifiez que les autres appareils au gaz, comme la plaque de cuisson, fonctionnent.",
+   "Si vous avez un compteur de gaz à prépaiement, vérifiez qu'il reste du crédit.",
+   "Par temps de gel, vérifiez le tuyau en plastique d'évacuation des condensats à l'extérieur. Faites fondre la glace avec de l'eau tiède (pas bouillante).",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Viessmann|62": {
+  "title": "Le thermostat limiteur de sécurité s'est déclenché",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Viessmann|63": {
+  "title": "Le limiteur de température des fumées s'est déclenché",
+  "causes": [
+   "La température des fumées est devenue trop élevée.",
+   "Un problème de combustion ou de conduit de fumées."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Éteignez la chaudière.",
+   "Vérifiez depuis l'extérieur que le terminal de la ventouse n'est pas visiblement bouché. N'y touchez pas.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Viessmann|71": {
+  "title": "Vitesse du ventilateur trop faible",
+  "causes": [
+   "Le ventilateur ne tourne pas à la bonne vitesse.",
+   "Un défaut de câblage ou de carte de commande.",
+   "Le conduit de fumées est peut-être bouché."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Vérifiez depuis l'extérieur que rien ne bouche le terminal de la ventouse. N'y touchez pas.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Viessmann|14": {
+  "title": "Sonde de température extérieure en court-circuit",
+  "causes": [
+   "La sonde de température extérieure ou son câblage est défectueux.",
+   "Une connexion desserrée dans la chaudière."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient, n'essayez pas de réparer vous-même. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Viessmann|A4": {
+  "title": "Air dans le circulateur ou débit trop faible",
+  "causes": [
+   "De l'air est bloqué dans le circulateur interne.",
+   "Le débit d'eau dans la chaudière est inférieur au minimum."
+  ],
+  "steps": [
+   "Laissez le programme de dégazage automatique se terminer.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Ariston|101": {
+  "title": "Surchauffe",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Ariston|103": {
+  "title": "Mauvaise circulation de l'eau",
+  "causes": [
+   "De l'air dans l'installation.",
+   "Une pression basse ou des robinets fermés.",
+   "Un problème de circulateur."
+  ],
+  "steps": [
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Ariston|108": {
+  "title": "Pression d'eau basse",
+  "causes": [
+   "De l'eau s'est échappée de l'installation de chauffage, souvent après la purge des radiateurs.",
+   "Une petite fuite quelque part dans les tuyaux ou les radiateurs.",
+   "Un capteur de pression défectueux."
+  ],
+  "steps": [
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si vous devez souvent faire l'appoint, il y a peut-être une fuite. Demandez à un professionnel de la trouver."
+  ],
+  "technician": "Si la pression continue de baisser, un professionnel qualifié (PG) doit trouver la fuite ; n'ouvrez jamais vous-même l'habillage de la chaudière."
+ },
+ "Ariston|110": {
+  "title": "Arrêt de sécurité temporaire",
+  "causes": [
+   "Une situation temporaire a provoqué l'arrêt de la chaudière par sécurité."
+  ],
+  "steps": [
+   "Patientez ; la chaudière doit redémarrer seule une fois la cause disparue.",
+   "Si elle reste arrêtée, coupez-la avec l'interrupteur principal et contactez le service technique."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Ariston|118": {
+  "title": "Problème de sonde du circuit primaire",
+  "causes": [
+   "La sonde du circuit primaire ou son câblage est défectueux.",
+   "Une connexion desserrée dans la chaudière."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient, n'essayez pas de réparer vous-même. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Ariston|201": {
+  "title": "Défaut de sonde du circuit d'eau",
+  "causes": [
+   "La sonde du circuit d'eau ou son câblage est défectueux.",
+   "Une connexion desserrée dans la chaudière."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient, n'essayez pas de réparer vous-même. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Ariston|304": {
+  "title": "Trop de réarmements",
+  "causes": [
+   "Le bouton de réarmement a été pressé trop de fois."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Ne réarmez pas sans cesse. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Un professionnel qualifié (PG) doit trouver pourquoi la chaudière se met sans cesse en sécurité."
+ },
+ "Ariston|305": {
+  "title": "Erreur de la carte principale",
+  "causes": [
+   "Un défaut électronique sur la carte de commande principale."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Ariston|501": {
+  "title": "Aucune flamme détectée",
+  "causes": [
+   "Le gaz n'arrive pas à la chaudière, par exemple compteur à prépaiement vide.",
+   "Un tuyau d'évacuation des condensats gelé ou bouché.",
+   "Un défaut des pièces d'allumage ou de détection de flamme."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Vérifiez que les autres appareils au gaz, comme la plaque de cuisson, fonctionnent.",
+   "Si vous avez un compteur de gaz à prépaiement, vérifiez qu'il reste du crédit.",
+   "Par temps de gel, vérifiez le tuyau en plastique d'évacuation des condensats à l'extérieur. Faites fondre la glace avec de l'eau tiède (pas bouillante).",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Ariston|601": {
+  "title": "Défaut d'évacuation des fumées",
+  "causes": [
+   "Le conduit n'évacue pas correctement les gaz de combustion."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Patientez quelques minutes ; la chaudière va réessayer.",
+   "Si elle se remet en sécurité, éteignez-la et contactez un professionnel qualifié."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Ariston|611": {
+  "title": "Défaut du ventilateur",
+  "causes": [
+   "Le ventilateur ne tourne pas à la bonne vitesse.",
+   "Un défaut de câblage ou de carte de commande.",
+   "Le conduit de fumées est peut-être bouché."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Vérifiez depuis l'extérieur que rien ne bouche le terminal de la ventouse. N'y touchez pas.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Ariston|802": {
+  "title": "Échec de l'étalonnage automatique de la combustion",
+  "causes": [
+   "La chaudière n'a pas pu terminer le réglage automatique de sa combustion."
+  ],
+  "steps": [
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Saunier Duval|F.22": {
+  "title": "Pression d'eau basse",
+  "causes": [
+   "De l'eau s'est échappée de l'installation de chauffage, souvent après la purge des radiateurs.",
+   "Une petite fuite quelque part dans les tuyaux ou les radiateurs.",
+   "Un capteur de pression défectueux."
+  ],
+  "steps": [
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si vous devez souvent faire l'appoint, il y a peut-être une fuite. Demandez à un professionnel de la trouver."
+  ],
+  "technician": "Si la pression continue de baisser, un professionnel qualifié (PG) doit trouver la fuite ; n'ouvrez jamais vous-même l'habillage de la chaudière."
+ },
+ "Saunier Duval|F.28": {
+  "title": "La chaudière ne s'est pas allumée",
+  "causes": [
+   "Le gaz n'arrive pas à la chaudière, par exemple compteur à prépaiement vide.",
+   "Un tuyau d'évacuation des condensats gelé ou bouché.",
+   "Un défaut des pièces d'allumage ou de détection de flamme."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Vérifiez que les autres appareils au gaz, comme la plaque de cuisson, fonctionnent.",
+   "Si vous avez un compteur de gaz à prépaiement, vérifiez qu'il reste du crédit.",
+   "Par temps de gel, vérifiez le tuyau en plastique d'évacuation des condensats à l'extérieur. Faites fondre la glace avec de l'eau tiède (pas bouillante).",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Saunier Duval|F.20": {
+  "title": "Le limiteur de température de sécurité s'est déclenché",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Saunier Duval|F.23": {
+  "title": "Écart de température départ/retour trop important",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Saunier Duval|F.24": {
+  "title": "La température monte trop vite",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Saunier Duval|F.00": {
+  "title": "Sonde de température départ en circuit ouvert",
+  "causes": [
+   "La sonde de température départ ou son câblage est défectueux.",
+   "Une connexion desserrée dans la chaudière."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient, n'essayez pas de réparer vous-même. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Saunier Duval|F.10": {
+  "title": "Sonde de température départ en court-circuit",
+  "causes": [
+   "La sonde de température départ ou son câblage est défectueux.",
+   "Une connexion desserrée dans la chaudière."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient, n'essayez pas de réparer vous-même. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Immergas|E01": {
+  "title": "Mise en sécurité pour absence d'allumage",
+  "causes": [
+   "Le gaz n'arrive pas à la chaudière, par exemple compteur à prépaiement vide.",
+   "Un tuyau d'évacuation des condensats gelé ou bouché.",
+   "Un défaut des pièces d'allumage ou de détection de flamme."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Vérifiez que les autres appareils au gaz, comme la plaque de cuisson, fonctionnent.",
+   "Si vous avez un compteur de gaz à prépaiement, vérifiez qu'il reste du crédit.",
+   "Par temps de gel, vérifiez le tuyau en plastique d'évacuation des condensats à l'extérieur. Faites fondre la glace avec de l'eau tiède (pas bouillante).",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Immergas|E02": {
+  "title": "Mise en sécurité par le thermostat de sécurité (surchauffe)",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Immergas|E05": {
+  "title": "Défaut de la sonde départ",
+  "causes": [
+   "La sonde de température départ ou son câblage est défectueux.",
+   "Une connexion desserrée dans la chaudière."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient, n'essayez pas de réparer vous-même. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Immergas|E06": {
+  "title": "Défaut de la sonde eau chaude sanitaire",
+  "causes": [
+   "La sonde de température d'eau chaude sanitaire ou son câblage est défectueux.",
+   "Une connexion desserrée dans la chaudière."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient, n'essayez pas de réparer vous-même. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Immergas|E10": {
+  "title": "Pression de l'installation insuffisante",
+  "causes": [
+   "De l'eau s'est échappée de l'installation de chauffage, souvent après la purge des radiateurs.",
+   "Une petite fuite quelque part dans les tuyaux ou les radiateurs.",
+   "Un capteur de pression défectueux."
+  ],
+  "steps": [
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si vous devez souvent faire l'appoint, il y a peut-être une fuite. Demandez à un professionnel de la trouver."
+  ],
+  "technician": "Si la pression continue de baisser, un professionnel qualifié (PG) doit trouver la fuite ; n'ouvrez jamais vous-même l'habillage de la chaudière."
+ },
+ "Immergas|E11": {
+  "title": "Défaut du pressostat fumées",
+  "causes": [
+   "Le ventilateur ne tourne pas à la bonne vitesse.",
+   "Un défaut de câblage ou de carte de commande.",
+   "Le conduit de fumées est peut-être bouché."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Vérifiez depuis l'extérieur que rien ne bouche le terminal de la ventouse. N'y touchez pas.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Immergas|E20": {
+  "title": "Mise en sécurité pour flamme parasite",
+  "causes": [
+   "Un défaut dans le circuit de détection de flamme.",
+   "Une vanne gaz qui ne se ferme pas complètement."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Coupez la chaudière avec l'interrupteur principal.",
+   "Ne réarmez pas sans cesse. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "C'est un défaut de sécurité ; seul un professionnel qualifié (PG) peut contrôler la vanne gaz et les pièces de détection de flamme."
+ },
+ "Immergas|E27": {
+  "title": "Circulation insuffisante",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Immergas|E37": {
+  "title": "Tension d'alimentation faible",
+  "causes": [
+   "La tension secteur est sous la limite autorisée."
+  ],
+  "steps": [
+   "Vérifiez si d'autres appareils sont touchés.",
+   "Patientez ; la chaudière redémarre seule quand la tension redevient normale.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Si l'alimentation est correcte, un professionnel qualifié (PG) doit tester la chaudière ; les contrôles du câblage électrique relèvent d'un électricien qualifié."
+ },
+ "Immergas|E38": {
+  "title": "Signal de flamme perdu",
+  "causes": [
+   "Le gaz n'arrive pas à la chaudière, par exemple compteur à prépaiement vide.",
+   "Un tuyau d'évacuation des condensats gelé ou bouché.",
+   "Un défaut des pièces d'allumage ou de détection de flamme."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Vérifiez que les autres appareils au gaz, comme la plaque de cuisson, fonctionnent.",
+   "Si vous avez un compteur de gaz à prépaiement, vérifiez qu'il reste du crédit.",
+   "Par temps de gel, vérifiez le tuyau en plastique d'évacuation des condensats à l'extérieur. Faites fondre la glace avec de l'eau tiède (pas bouillante).",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Immergas|E43": {
+  "title": "Mise en sécurité après plusieurs pertes de flamme",
+  "causes": [
+   "Le gaz n'arrive pas à la chaudière, par exemple compteur à prépaiement vide.",
+   "Un tuyau d'évacuation des condensats gelé ou bouché.",
+   "Un défaut des pièces d'allumage ou de détection de flamme."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Vérifiez que les autres appareils au gaz, comme la plaque de cuisson, fonctionnent.",
+   "Si vous avez un compteur de gaz à prépaiement, vérifiez qu'il reste du crédit.",
+   "Par temps de gel, vérifiez le tuyau en plastique d'évacuation des condensats à l'extérieur. Faites fondre la glace avec de l'eau tiède (pas bouillante).",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Ferroli|A01": {
+  "title": "Pas d'allumage du brûleur",
+  "causes": [
+   "Le gaz n'arrive pas à la chaudière, par exemple compteur à prépaiement vide.",
+   "Un tuyau d'évacuation des condensats gelé ou bouché.",
+   "Un défaut des pièces d'allumage ou de détection de flamme."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Vérifiez que les autres appareils au gaz, comme la plaque de cuisson, fonctionnent.",
+   "Si vous avez un compteur de gaz à prépaiement, vérifiez qu'il reste du crédit.",
+   "Par temps de gel, vérifiez le tuyau en plastique d'évacuation des condensats à l'extérieur. Faites fondre la glace avec de l'eau tiède (pas bouillante).",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Ferroli|A02": {
+  "title": "Signal de flamme brûleur éteint",
+  "causes": [
+   "Un défaut dans le circuit de détection de flamme.",
+   "Une vanne gaz qui ne se ferme pas complètement."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Coupez la chaudière avec l'interrupteur principal.",
+   "Ne réarmez pas sans cesse. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "C'est un défaut de sécurité ; seul un professionnel qualifié (PG) peut contrôler la vanne gaz et les pièces de détection de flamme."
+ },
+ "Ferroli|A03": {
+  "title": "Protection contre la surchauffe",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Ferroli|F05": {
+  "title": "Le pressostat d'air ne s'est pas fermé",
+  "causes": [
+   "Le ventilateur ne tourne pas à la bonne vitesse.",
+   "Un défaut de câblage ou de carte de commande.",
+   "Le conduit de fumées est peut-être bouché."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Vérifiez depuis l'extérieur que rien ne bouche le terminal de la ventouse. N'y touchez pas.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Ferroli|A06": {
+  "title": "Pas de flamme après l'allumage",
+  "causes": [
+   "Le gaz n'arrive pas à la chaudière, par exemple compteur à prépaiement vide.",
+   "Un tuyau d'évacuation des condensats gelé ou bouché.",
+   "Un défaut des pièces d'allumage ou de détection de flamme."
+  ],
+  "steps": [
+   "Si vous sentez une odeur de gaz, ne réarmez pas. Quittez le logement et appelez le numéro d'urgence gaz de votre fournisseur.",
+   "Vérifiez que les autres appareils au gaz, comme la plaque de cuisson, fonctionnent.",
+   "Si vous avez un compteur de gaz à prépaiement, vérifiez qu'il reste du crédit.",
+   "Par temps de gel, vérifiez le tuyau en plastique d'évacuation des condensats à l'extérieur. Faites fondre la glace avec de l'eau tiède (pas bouillante).",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Toute intervention sur les pièces gaz ou de combustion doit être réalisée uniquement par un professionnel qualifié (PG)."
+ },
+ "Ferroli|F10": {
+  "title": "Défaut de la sonde départ",
+  "causes": [
+   "La sonde départ ou son câblage est défectueux.",
+   "Une connexion desserrée dans la chaudière."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient, n'essayez pas de réparer vous-même. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Ferroli|F11": {
+  "title": "Défaut de la sonde eau chaude sanitaire",
+  "causes": [
+   "La sonde d'eau chaude sanitaire ou son câblage est défectueux.",
+   "Une connexion desserrée dans la chaudière."
+  ],
+  "steps": [
+   "Coupez la chaudière avec l'interrupteur principal, attendez 30 secondes et rallumez-la.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient, n'essayez pas de réparer vous-même. Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Ferroli|F34": {
+  "title": "Tension d'alimentation trop basse",
+  "causes": [
+   "La tension secteur est inférieure à environ 140 V."
+  ],
+  "steps": [
+   "Vérifiez si d'autres appareils sont touchés.",
+   "Patientez ; la chaudière redémarre seule quand la tension redevient normale.",
+   "Notez le code et contactez votre installateur ou le service technique du fabricant."
+  ],
+  "technician": "Si l'alimentation est correcte, un professionnel qualifié (PG) doit tester la chaudière ; les contrôles du câblage électrique relèvent d'un électricien qualifié."
+ },
+ "Ferroli|F37": {
+  "title": "Pression d'eau de l'installation incorrecte",
+  "causes": [
+   "De l'eau s'est échappée de l'installation de chauffage, souvent après la purge des radiateurs.",
+   "Une petite fuite quelque part dans les tuyaux ou les radiateurs.",
+   "Un capteur de pression défectueux."
+  ],
+  "steps": [
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si vous devez souvent faire l'appoint, il y a peut-être une fuite. Demandez à un professionnel de la trouver."
+  ],
+  "technician": "Si la pression continue de baisser, un professionnel qualifié (PG) doit trouver la fuite ; n'ouvrez jamais vous-même l'habillage de la chaudière."
+ },
+ "Ferroli|F43": {
+  "title": "Protection de l'échangeur thermique",
+  "causes": [
+   "L'eau ne circule pas bien dans la chaudière.",
+   "Des robinets de radiateur fermés ou de l'air dans l'installation.",
+   "Une pression d'installation trop basse ou une panne du circulateur."
+  ],
+  "steps": [
+   "Vérifiez que les robinets des radiateurs sont ouverts.",
+   "Regardez le manomètre. Chauffage froid, il doit indiquer environ 1 à 1,5 bar.",
+   "Si la pression est basse, faites l'appoint avec le robinet de remplissage exactement comme l'indique votre notice, puis refermez-le complètement.",
+   "Purgez les radiateurs froids en haut, puis vérifiez de nouveau la pression.",
+   "Appuyez une fois sur le bouton de réarmement (reset) et laissez quelques minutes à la chaudière pour redémarrer.",
+   "Si le code revient après un ou deux réarmements, arrêtez de réarmer et demandez une réparation."
+  ],
+  "technician": "Les pièces internes doivent être contrôlées uniquement par un professionnel qualifié (PG)."
+ },
+ "Navien|E302": {
+  "title": "Pression de l'installation trop basse",
+  "causes": [
+   "De l'eau s'est échappée de l'installation de chauffage, souvent après la purge des radiateurs.",
+   "Une petite fuite quelque part dans les tuyaux ou les radiateurs.",
+   "Un capteur de pression défectueux."
+  ],
+  "steps": [
+   "Regardez le manomètre ou l'écran. Il doit indiquer 1 à 1,2 bar.",
+   "Si elle est basse, faites l'appoint avec le robinet de remplissage comme l'indique votre notice, en vous arrêtant à 1 à 1,2 bar.",
+   "Ne dépassez pas 1,5 bar. Si vous avez trop rempli, purgez un radiateur pour faire baisser la pression.",
+   "Si vous devez souvent faire l'appoint, il y a peut-être une fuite. Demandez à un professionnel de la trouver."
+  ],
+  "technician": "Si la pression continue de baisser, un professionnel qualifié (PG) doit trouver la fuite ; n'ouvrez jamais vous-même l'habillage de la chaudière."
+ }
+}

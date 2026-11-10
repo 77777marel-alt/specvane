@@ -1,0 +1,916 @@
+{
+ "Miele|F1": {
+  "title": "Guasto di temperatura (troppo calda o troppo fredda)",
+  "causes": [
+   "La macchina si è surriscaldata.",
+   "Il locale è rimasto a lungo sotto i 10 °C (50 °F) circa."
+  ],
+  "steps": [
+   "Spenga la macchina con il tasto On/Off.",
+   "Se si è surriscaldata, la lasci spenta per circa un'ora perché si raffreddi.",
+   "Se il locale era freddo, lo riscaldi sopra i 15 °C (60 °F) e attenda un po' prima di riutilizzare la macchina.",
+   "Accenda e riprovi."
+  ],
+  "technician": "Se il guasto ricompare dopo il raffreddamento o dopo aver riscaldato il locale, prenoti un intervento dell'assistenza Miele."
+ },
+ "Miele|F2": {
+  "title": "Guasto di temperatura (troppo calda o troppo fredda)",
+  "causes": [
+   "La macchina si è surriscaldata.",
+   "Il locale è rimasto a lungo sotto i 10 °C (50 °F) circa."
+  ],
+  "steps": [
+   "Spenga la macchina con il tasto On/Off.",
+   "Se si è surriscaldata, la lasci spenta per circa un'ora perché si raffreddi.",
+   "Se il locale era freddo, lo riscaldi sopra i 15 °C (60 °F) e attenda un po' prima di riutilizzare la macchina.",
+   "Accenda e riprovi."
+  ],
+  "technician": "Se il guasto ricompare dopo il raffreddamento o dopo aver riscaldato il locale, prenoti un intervento dell'assistenza Miele."
+ },
+ "Miele|F3": {
+  "title": "Guasto di temperatura (troppo calda o troppo fredda)",
+  "causes": [
+   "La macchina si è surriscaldata.",
+   "Il locale è rimasto a lungo sotto i 10 °C (50 °F) circa."
+  ],
+  "steps": [
+   "Spenga la macchina con il tasto On/Off.",
+   "Se si è surriscaldata, la lasci spenta per circa un'ora perché si raffreddi.",
+   "Se il locale era freddo, lo riscaldi sopra i 15 °C (60 °F) e attenda un po' prima di riutilizzare la macchina.",
+   "Accenda e riprovi."
+  ],
+  "technician": "Se il guasto ricompare dopo il raffreddamento o dopo aver riscaldato il locale, prenoti un intervento dell'assistenza Miele."
+ },
+ "Miele|F4": {
+  "title": "Guasto di temperatura (troppo calda o troppo fredda)",
+  "causes": [
+   "La macchina si è surriscaldata.",
+   "Il locale è rimasto a lungo sotto i 10 °C (50 °F) circa."
+  ],
+  "steps": [
+   "Spenga la macchina con il tasto On/Off.",
+   "Se si è surriscaldata, la lasci spenta per circa un'ora perché si raffreddi.",
+   "Se il locale era freddo, lo riscaldi sopra i 15 °C (60 °F) e attenda un po' prima di riutilizzare la macchina.",
+   "Accenda e riprovi."
+  ],
+  "technician": "Se il guasto ricompare dopo il raffreddamento o dopo aver riscaldato il locale, prenoti un intervento dell'assistenza Miele."
+ },
+ "Miele|F80": {
+  "title": "Guasto di temperatura (troppo calda o troppo fredda)",
+  "causes": [
+   "La macchina si è surriscaldata.",
+   "Il locale è rimasto a lungo sotto i 10 °C (50 °F) circa."
+  ],
+  "steps": [
+   "Spenga la macchina con il tasto On/Off.",
+   "Se si è surriscaldata, la lasci spenta per circa un'ora perché si raffreddi.",
+   "Se il locale era freddo, lo riscaldi sopra i 15 °C (60 °F) e attenda un po' prima di riutilizzare la macchina.",
+   "Accenda e riprovi."
+  ],
+  "technician": "Se il guasto ricompare dopo il raffreddamento o dopo aver riscaldato il locale, prenoti un intervento dell'assistenza Miele."
+ },
+ "Miele|F81": {
+  "title": "Guasto di temperatura (troppo calda o troppo fredda)",
+  "causes": [
+   "La macchina si è surriscaldata.",
+   "Il locale è rimasto a lungo sotto i 10 °C (50 °F) circa."
+  ],
+  "steps": [
+   "Spenga la macchina con il tasto On/Off.",
+   "Se si è surriscaldata, la lasci spenta per circa un'ora perché si raffreddi.",
+   "Se il locale era freddo, lo riscaldi sopra i 15 °C (60 °F) e attenda un po' prima di riutilizzare la macchina.",
+   "Accenda e riprovi."
+  ],
+  "technician": "Se il guasto ricompare dopo il raffreddamento o dopo aver riscaldato il locale, prenoti un intervento dell'assistenza Miele."
+ },
+ "Miele|F83": {
+  "title": "Guasto di temperatura (troppo calda o troppo fredda)",
+  "causes": [
+   "La macchina si è surriscaldata.",
+   "Il locale è rimasto a lungo sotto i 10 °C (50 °F) circa."
+  ],
+  "steps": [
+   "Spenga la macchina con il tasto On/Off.",
+   "Se si è surriscaldata, la lasci spenta per circa un'ora perché si raffreddi.",
+   "Se il locale era freddo, lo riscaldi sopra i 15 °C (60 °F) e attenda un po' prima di riutilizzare la macchina.",
+   "Accenda e riprovi."
+  ],
+  "technician": "Se il guasto ricompare dopo il raffreddamento o dopo aver riscaldato il locale, prenoti un intervento dell'assistenza Miele."
+ },
+ "Miele|F0": {
+  "title": "Guasto all'elettronica",
+  "causes": [
+   "Il controllo elettronico della macchina ha un guasto tecnico."
+  ],
+  "steps": [
+   "Non provi a riparare la macchina da solo.",
+   "Annoti il codice e il numero di modello.",
+   "Consulti le istruzioni d'uso del Suo modello."
+  ],
+  "technician": "Questo guasto non è risolvibile dal proprietario. Prenoti un tecnico Miele."
+ },
+ "Miele|F10": {
+  "title": "La macchina non aspira acqua",
+  "causes": [
+   "Il serbatoio dell'acqua non è inserito correttamente.",
+   "Il piccolo filtro sotto il serbatoio dell'acqua è sporco.",
+   "Si sta formando calcare all'interno della macchina."
+  ],
+  "steps": [
+   "Riempia il serbatoio per circa tre quarti con acqua potabile fresca.",
+   "Estragga e reinserisca il serbatoio 10-20 volte, finché non è ben in sede.",
+   "Sulle macchine più recenti, estragga il serbatoio, sviti il tappo sotto e sciacqui il filtro e la guarnizione con sola acqua (senza detersivo).",
+   "Rimonti il filtro con la croce verso l'alto e l'apertura della guarnizione verso il basso, poi avviti bene il tappo.",
+   "Decalcifichi la macchina come descritto nel manuale."
+  ],
+  "technician": "Se la macchina ancora non aspira acqua, contatti l'assistenza Miele."
+ },
+ "Miele|F17": {
+  "title": "La macchina aspira troppa poca acqua",
+  "causes": [
+   "Il serbatoio dell'acqua non è inserito correttamente.",
+   "Il filtro sotto il serbatoio dell'acqua è sporco.",
+   "Si sta formando calcare all'interno della macchina."
+  ],
+  "steps": [
+   "Riempia di nuovo il serbatoio per circa tre quarti con acqua fresca e lo reinserisca.",
+   "Estragga e reinserisca il serbatoio 10-20 volte.",
+   "Sciacqui con sola acqua il filtro di aspirazione sotto il serbatoio e lo rimonti.",
+   "Decalcifichi la macchina seguendo il manuale."
+  ],
+  "technician": "Se F17 continua a ricomparire, contatti l'assistenza Miele."
+ },
+ "Miele|F28": {
+  "title": "Il gruppo caffè non riesce a lavorare il caffè",
+  "causes": [
+   "È stato messo troppo caffè macinato nello scivolo.",
+   "Il canale del macinacaffè è ostruito da residui."
+  ],
+  "steps": [
+   "Spenga la macchina, attenda 2 minuti e la riaccenda.",
+   "Con il caffè macinato, aggiunga una sola dose misurata alla volta (verifichi la misura del dosatore per il Suo modello).",
+   "Aspiri lo scivolo del caffè macinato, se possibile con l'accessorio di aspirazione in dotazione. Lo faccia circa una volta all'anno."
+  ],
+  "technician": "Se il messaggio resta dopo la pulizia, contatti l'assistenza Miele."
+ },
+ "Miele|F73": {
+  "title": "Il gruppo caffè non riesce a tornare in posizione iniziale",
+  "causes": [
+   "Il gruppo caffè è sporco o l'espulsore del caffè è fuori posizione.",
+   "Alcuni caffè macinati hanno molto volume e riempiono troppo il gruppo caffè.",
+   "Su alcuni modelli, la vaschetta raccogligocce è stata tolta mentre il gruppo caffè si muoveva."
+  ],
+  "steps": [
+   "Confermi il messaggio con OK e spenga la macchina.",
+   "Stacchi la spina per 2 minuti, poi la reinserisca.",
+   "Estragga il gruppo caffè e lo sciacqui sotto l'acqua corrente.",
+   "Riporti l'espulsore del caffè nella posizione corretta, chiuda lo sportello senza il gruppo caffè e accenda per resettare l'azionamento.",
+   "Inserisca il gruppo caffè quando il display lo richiede.",
+   "Se succede di nuovo, usi meno caffè o una macinatura più fine."
+  ],
+  "technician": "Se F73 resta dopo il reset e il risciacquo del gruppo caffè, prenoti una riparazione Miele."
+ },
+ "Miele|F74": {
+  "title": "Guasto alla regolazione di una valvola",
+  "causes": [
+   "Si è verificato un guasto durante la regolazione di una valvola.",
+   "Calcare sulla valvola."
+  ],
+  "steps": [
+   "Spenga brevemente la macchina e la riaccenda.",
+   "Se il codice resta, avvii il programma di decalcificazione dal menu Manutenzione e lo lasci terminare.",
+   "Dopo la decalcificazione spenga e riaccenda di nuovo."
+  ],
+  "technician": "Se F74 resta dopo la decalcificazione, contatti l'assistenza Miele."
+ },
+ "Miele|F75": {
+  "title": "Capsula incastrata",
+  "causes": [
+   "Una capsula di caffè è incastrata.",
+   "La capsula non è stata spinta fino in fondo sul piatto capsule e potrebbe essere danneggiata."
+  ],
+  "steps": [
+   "Confermi il messaggio con OK.",
+   "Apra lo sportello, svuoti il contenitore dei fondi e lo rimonti.",
+   "Estragga e rimonti le guide del carosello, poi chiuda lo sportello.",
+   "Se il problema resta, spenga dall'interruttore principale, tolga il contenitore dei fondi, le guide e il piatto capsule e cerchi la capsula incastrata.",
+   "Se la capsula è bloccata più in alto, la liberi con il manico di un cucchiaio di legno. Non infili mai le dita nel gruppo caffè.",
+   "Rimonti le parti e riaccenda."
+  ],
+  "technician": "Se le capsule continuano a incastrarsi, contatti l'assistenza Miele."
+ },
+ "Miele|F76": {
+  "title": "Capsula incastrata",
+  "causes": [
+   "Una capsula di caffè è incastrata.",
+   "La capsula non è stata spinta fino in fondo sul piatto capsule e potrebbe essere danneggiata."
+  ],
+  "steps": [
+   "Confermi il messaggio con OK.",
+   "Apra lo sportello, svuoti il contenitore dei fondi e lo rimonti.",
+   "Estragga e rimonti le guide del carosello, poi chiuda lo sportello.",
+   "Se il problema resta, spenga dall'interruttore principale, tolga il contenitore dei fondi, le guide e il piatto capsule e cerchi la capsula incastrata.",
+   "Se la capsula è bloccata più in alto, la liberi con il manico di un cucchiaio di legno. Non infili mai le dita nel gruppo caffè.",
+   "Rimonti le parti e riaccenda."
+  ],
+  "technician": "Se le capsule continuano a incastrarsi, contatti l'assistenza Miele."
+ },
+ "Miele|F77": {
+  "title": "Guasto di inizializzazione di una valvola",
+  "causes": [
+   "Una valvola non ha completato il controllo di avvio."
+  ],
+  "steps": [
+   "Spenga la macchina e stacchi la spina.",
+   "Attenda un momento, poi reinserisca la spina.",
+   "Accenda e verifichi se il codice è scomparso."
+  ],
+  "technician": "Se F77 continua a comparire, prenoti una riparazione Miele."
+ },
+ "Miele|F226": {
+  "title": "Guasto di inizializzazione di una valvola",
+  "causes": [
+   "Una valvola non ha completato il controllo di avvio."
+  ],
+  "steps": [
+   "Spenga la macchina e stacchi la spina.",
+   "Attenda un momento, poi reinserisca la spina.",
+   "Accenda e verifichi se il codice è scomparso."
+  ],
+  "technician": "Se F226 continua a comparire, prenoti una riparazione Miele."
+ },
+ "Miele|F352": {
+  "title": "Guasto di inizializzazione di una valvola",
+  "causes": [
+   "Una valvola non ha completato il controllo di avvio."
+  ],
+  "steps": [
+   "Spenga la macchina e stacchi la spina.",
+   "Attenda un momento, poi reinserisca la spina.",
+   "Accenda e verifichi se il codice è scomparso."
+  ],
+  "technician": "Se F352 continua a comparire, prenoti una riparazione Miele."
+ },
+ "Miele|F82": {
+  "title": "Manutenzione necessaria (gruppo caffè o calcare)",
+  "causes": [
+   "Il gruppo caffè non è stato pulito abbastanza bene.",
+   "La decalcificazione manuale è stata saltata o eseguita in modo errato.",
+   "L'impostazione della durezza dell'acqua è troppo bassa."
+  ],
+  "steps": [
+   "Estragga il gruppo caffè e lo sciacqui a mano in acqua calda senza detersivo. Lo faccia ogni settimana.",
+   "Elimini i residui di caffè dai filtri del gruppo caffè e aspiri i fondi sparsi all'interno della macchina.",
+   "Esegua una decalcificazione manuale con le pastiglie decalcificanti Miele e segua le indicazioni sul display.",
+   "Imposti la durezza dell'acqua corretta nel menu Impostazioni (in caso di dubbio chieda al Suo gestore idrico)."
+  ],
+  "technician": "Se F82 ricompare dopo pulizia e decalcificazione, contatti l'assistenza Miele."
+ },
+ "Miele|F233": {
+  "title": "Problema all'erogatore centrale o al sensore del bordo tazza",
+  "causes": [
+   "L'unità di erogazione centrale non è assemblata o montata correttamente.",
+   "Il sensore del bordo tazza è guasto."
+  ],
+  "steps": [
+   "Sfili la copertura in acciaio inox e tolga l'unità di erogazione.",
+   "Smonti le parti dell'erogatore, le pulisca se serve e le rimonti in modo che ogni parte sia ben fissata.",
+   "Rimonti l'unità di erogazione e la copertura."
+  ],
+  "technician": "Se il guasto resta, potrebbe essere necessario sostituire il sensore del bordo tazza. Lo ordini tramite l'assistenza Miele."
+ },
+ "Miele|F307": {
+  "title": "Problema alla valvola del latte",
+  "causes": [
+   "La valvola del latte è intasata.",
+   "Il supporto dei condotti del latte non è montato correttamente."
+  ],
+  "steps": [
+   "Apra lo sportello e tolga la copertura della valvola del latte e i condotti del latte come descritto nel manuale.",
+   "Sciacqui bene i tubi del latte sotto l'acqua corrente.",
+   "Tolga il supporto della valvola del latte, lo smonti e pulisca le parti.",
+   "Rimonti il supporto finché non scatta in posizione."
+  ],
+  "technician": "Se F307 resta dopo la pulizia del sistema latte, contatti l'assistenza Miele."
+ },
+ "Miele|Check brew unit": {
+  "title": "Il gruppo caffè non raggiunge la sua posizione",
+  "causes": [
+   "Il gruppo caffè è sporco e non riesce a tornare in posizione iniziale.",
+   "Il caffè è macinato troppo grosso.",
+   "Si usa troppo caffè."
+  ],
+  "steps": [
+   "Prema OK per confermare.",
+   "Estragga il gruppo caffè e lo sciacqui sotto l'acqua corrente senza detersivo.",
+   "Riporti l'espulsore del caffè nella posizione corretta.",
+   "Accenda senza il gruppo caffè per resettare l'azionamento, poi lo inserisca quando richiesto.",
+   "Scelga una macinatura più fine o riduca la quantità di caffè.",
+   "Se il gruppo caffè non si può estrarre, spenga, attenda circa 2 minuti e riaccenda."
+  ],
+  "technician": "Se il messaggio continua a ricomparire, contatti l'assistenza Miele."
+ },
+ "Miele|Descale the appliance": {
+  "title": "È necessaria la decalcificazione manuale",
+  "causes": [
+   "I condotti dell'acqua vanno decalcificati, anche se si usa una cartuccia decalcificante.",
+   "La frequenza dipende dall'uso e dalla durezza dell'acqua."
+  ],
+  "steps": [
+   "Esegua il programma di decalcificazione manuale come descritto nel manuale.",
+   "Usi prodotti decalcificanti Miele.",
+   "Decalcifichi regolarmente in base a quanto usa la macchina e alla durezza dell'acqua."
+  ],
+  "technician": "Se il messaggio resta dopo una decalcificazione completa, contatti l'assistenza Miele."
+ },
+ "Miele|System filling up": {
+  "title": "La macchina non aspira acqua durante il riempimento",
+  "causes": [
+   "Il serbatoio dell'acqua non è inserito bene.",
+   "Il calcare ostruisce i condotti dell'acqua.",
+   "L'impostazione della durezza dell'acqua è errata.",
+   "Il galleggiante sul lato del serbatoio è bloccato."
+  ],
+  "steps": [
+   "Estragga il serbatoio dell'acqua e lo reinserisca con decisione.",
+   "Esegua un ciclo di decalcificazione.",
+   "Verifichi che l'impostazione della durezza corrisponda alla Sua acqua.",
+   "Scuota il serbatoio per verificare che il galleggiante si muova liberamente; se si blocca, pulisca il serbatoio."
+  ],
+  "technician": "Se la macchina ancora non si riempie, prenoti un tecnico Miele."
+ },
+ "Miele|Check water inlet and empty water container": {
+  "title": "Alimentazione idrica non rilevata",
+  "causes": [
+   "Il rubinetto che alimenta la macchina allacciata alla rete idrica è chiuso.",
+   "Il tubo di ingresso dell'acqua è piegato.",
+   "L'interruttore a galleggiante del serbatoio è bloccato."
+  ],
+  "steps": [
+   "Apra la valvola dell'allacciamento idrico.",
+   "Raddrizzi il tubo di ingresso.",
+   "Scuota il serbatoio per verificare che il galleggiante si muova; se non si muove, pulisca il serbatoio."
+  ],
+  "technician": "Se il messaggio resta, contatti l'assistenza Miele."
+ },
+ "De'Longhi|General alarm": {
+  "title": "L'interno della macchina è molto sporco",
+  "causes": [
+   "Si sono accumulati residui di caffè all'interno dell'apparecchio."
+  ],
+  "steps": [
+   "Spenga la macchina e tolga la vaschetta raccogligocce, il contenitore dei fondi e il gruppo caffè (infusore), se il Suo modello lo consente.",
+   "Pulisca accuratamente l'interno della macchina seguendo il manuale d'uso o l'app.",
+   "Rimonti tutte le parti e riaccenda."
+  ],
+  "technician": "Se l'allarme resta dopo una pulizia completa, contatti il servizio clienti De'Longhi."
+ },
+ "De'Longhi|Not enough coffee": {
+  "title": "Chicchi non rilevati",
+  "causes": [
+   "I sensori del livello dei chicchi sono impolverati e non rilevano i chicchi."
+  ],
+  "steps": [
+   "Spenga la macchina.",
+   "Pulisca delicatamente i sensori dei chicchi con un cotton fioc per togliere la polvere.",
+   "Accenda e riprovi."
+  ],
+  "technician": "Se il messaggio continua dopo la pulizia dei sensori, contatti il servizio clienti De'Longhi."
+ },
+ "De'Longhi|Ground too fine": {
+  "title": "Macinatura troppo fine",
+  "causes": [
+   "Il macinacaffè è regolato troppo fine, quindi il caffè scende lentamente o non scende affatto."
+  ],
+  "steps": [
+   "Apra le impostazioni della macchina e usi la funzione di regolazione del macinacaffè.",
+   "Imposti una macinatura leggermente più grossa.",
+   "Prepari qualche caffè per far agire la nuova impostazione."
+  ],
+  "technician": "Se il caffè ancora non scende con una macinatura più grossa, contatti il servizio clienti De'Longhi."
+ },
+ "De'Longhi|Machine too hot": {
+  "title": "La macchina si è surriscaldata",
+  "causes": [
+   "La macchina è stata usata in modo continuo per molto tempo."
+  ],
+  "steps": [
+   "Smetta di preparare bevande.",
+   "Lasci raffreddare la macchina prima di riutilizzarla."
+  ],
+  "technician": "Se il messaggio compare anche dopo che la macchina si è raffreddata, contatti il servizio clienti De'Longhi."
+ },
+ "De'Longhi|Machine cooling fault": {
+  "title": "La macchina non si raffredda correttamente",
+  "causes": [
+   "Un guasto impedisce alla macchina di raffreddarsi correttamente."
+  ],
+  "steps": [
+   "Prema OK per tornare alla schermata iniziale.",
+   "Eviti di preparare più di circa 10 caffè di seguito."
+  ],
+  "technician": "Se il messaggio di guasto continua a ricomparire, contatti il servizio clienti De'Longhi."
+ },
+ "De'Longhi|Water circuit empty": {
+  "title": "Il circuito dell'acqua va riempito",
+  "causes": [
+   "Il circuito interno dell'acqua è vuoto e deve essere caricato."
+  ],
+  "steps": [
+   "Si assicuri che il serbatoio dell'acqua sia pieno e inserito.",
+   "Metta un contenitore da almeno 100 ml sotto l'erogatore di acqua calda/vapore.",
+   "Prema OK. La macchina riempie il circuito e si ferma da sola."
+  ],
+  "technician": "Se il messaggio continua a ricomparire, contatti il servizio clienti De'Longhi."
+ },
+ "De'Longhi|Insert infuser assembly": {
+  "title": "Gruppo caffè non rilevato",
+  "causes": [
+   "L'infusore (gruppo caffè) non è stato rimontato correttamente dopo la pulizia."
+  ],
+  "steps": [
+   "Spenga la macchina.",
+   "Estragga l'infusore e lo reinserisca finché non è completamente in sede.",
+   "Chiuda lo sportello di servizio e accenda."
+  ],
+  "technician": "Se la macchina ancora non rileva l'infusore montato correttamente, contatti il servizio clienti De'Longhi."
+ },
+ "De'Longhi|Descaling needed": {
+  "title": "È necessaria la decalcificazione",
+  "causes": [
+   "Si è accumulato calcare e la macchina va decalcificata."
+  ],
+  "steps": [
+   "Prepari il decalcificante De'Longhi e un contenitore capiente.",
+   "Prema OK per avviare la decalcificazione (circa 45 minuti) e segua le indicazioni.",
+   "Oppure prema ESC per rimandarla."
+  ],
+  "technician": "Se la decalcificazione non si completa, contatti il servizio clienti De'Longhi."
+ },
+ "De'Longhi|Select a milder taste": {
+  "title": "Troppo caffè utilizzato",
+  "causes": [
+   "È stato usato troppo caffè per la bevanda."
+  ],
+  "steps": [
+   "Scelga un'intensità di aroma più leggera.",
+   "Se usa caffè macinato, ne aggiunga meno.",
+   "Prema OK o attenda che il messaggio scompaia."
+  ],
+  "technician": "Se il messaggio compare a ogni bevanda con un'impostazione leggera, contatti il servizio clienti De'Longhi."
+ },
+ "Siemens|Please clean brewing unit, then replace": {
+  "title": "Il gruppo caffè va pulito",
+  "causes": [
+   "Il gruppo caffè è sporco.",
+   "È stato usato troppo caffè macinato.",
+   "Il meccanismo del gruppo caffè è diventato duro."
+  ],
+  "steps": [
+   "Spenga la macchina ed estragga il gruppo caffè.",
+   "Lo sciacqui a mano e lo lasci asciugare, come descritto nel manuale.",
+   "Non usi più di due cucchiai rasi di caffè macinato.",
+   "Rimonti il gruppo caffè finché non si blocca in posizione."
+  ],
+  "technician": "Se il messaggio ricompare subito dopo la pulizia, contatti l'assistenza Siemens."
+ },
+ "Siemens|Please restart appliance": {
+  "title": "La macchina deve essere riavviata",
+  "causes": [
+   "La macchina è troppo calda.",
+   "Il gruppo caffè è sporco."
+  ],
+  "steps": [
+   "Spenga la macchina e la lasci raffreddare.",
+   "Pulisca il gruppo caffè.",
+   "Riaccenda."
+  ],
+  "technician": "Se il messaggio continua a comparire, contatti l'assistenza Siemens."
+ },
+ "Siemens|Descaling insufficient. Repeat process": {
+  "title": "La decalcificazione non è stata efficace",
+  "causes": [
+   "È stato usato un decalcificante sbagliato o in quantità insufficiente.",
+   "Nella macchina c'è molto calcare."
+  ],
+  "steps": [
+   "Usi solo un decalcificante approvato per la macchina, nella giusta quantità.",
+   "Ripeta il programma di decalcificazione."
+  ],
+  "technician": "Se il messaggio resta dopo aver ripetuto la decalcificazione, contatti l'assistenza Siemens."
+ },
+ "Siemens|Please let appliance cool down": {
+  "title": "La macchina è troppo calda",
+  "causes": [
+   "L'apparecchio si è surriscaldato."
+  ],
+  "steps": [
+   "Spenga la macchina.",
+   "Lo lasci spento per circa 30 minuti, poi lo accenda."
+  ],
+  "technician": "Se si surriscalda di nuovo poco dopo, contatti l'assistenza Siemens."
+ },
+ "Siemens|Error - please contact hotline": {
+  "title": "Guasto dell'apparecchio",
+  "causes": [
+   "La macchina ha rilevato un guasto interno."
+  ],
+  "steps": [
+   "Spenga e riaccenda una volta la macchina per vedere se il messaggio scompare.",
+   "Annoti il messaggio esatto e il numero di modello."
+  ],
+  "technician": "Contatti l'assistenza Siemens Elettrodomestici: serve un tecnico."
+ },
+ "Siemens|Refill with still water or change filter": {
+  "title": "Acqua non rilevata",
+  "causes": [
+   "Il serbatoio dell'acqua non è inserito correttamente.",
+   "Nel serbatoio c'è acqua frizzante.",
+   "Il galleggiante nel serbatoio è bloccato.",
+   "Un filtro nuovo non è stato risciacquato, contiene aria o è vecchio."
+  ],
+  "steps": [
+   "Reinserisca correttamente il serbatoio dell'acqua.",
+   "Svuoti il serbatoio e lo riempia con acqua del rubinetto fresca e non gassata.",
+   "Estragga e pulisca il serbatoio in modo che il galleggiante si muova liberamente.",
+   "Tenga il filtro sott'acqua finché non escono più bolle, poi lo rimonti.",
+   "Sostituisca il filtro vecchio con uno nuovo."
+  ],
+  "technician": "Se il messaggio resta con il serbatoio pieno e inserito correttamente, contatti l'assistenza Siemens."
+ },
+ "Siemens|Please empty drip tray": {
+  "title": "Il messaggio della vaschetta raccogligocce resta acceso",
+  "causes": [
+   "La vaschetta è stata svuotata a macchina spenta.",
+   "La vaschetta raccogligocce è sporca."
+  ],
+  "steps": [
+   "Accenda la macchina, poi estragga e reinserisca la vaschetta raccogligocce.",
+   "Pulisca accuratamente la vaschetta raccogligocce."
+  ],
+  "technician": "Se il messaggio resta con la vaschetta pulita e vuota, contatti l'assistenza Siemens."
+ },
+ "Siemens|Please refill bean container": {
+  "title": "I chicchi non arrivano al macinacaffè",
+  "causes": [
+   "I chicchi oleosi si attaccano e non scendono nel macinacaffè."
+  ],
+  "steps": [
+   "Picchietti delicatamente il contenitore dei chicchi.",
+   "Provi un caffè meno oleoso.",
+   "Quando il contenitore è vuoto, lo pulisca con un panno asciutto."
+  ],
+  "technician": "Se il macinacaffè ancora non prende i chicchi, contatti l'assistenza Siemens."
+ },
+ "Siemens|Please insert brewing unit": {
+  "title": "Gruppo caffè non rilevato",
+  "causes": [
+   "Il gruppo caffè o la sua copertura non sono montati correttamente."
+  ],
+  "steps": [
+   "Verifichi che il gruppo caffè sia in sede e bloccato.",
+   "Spinga la leva rossa in alto verso sinistra.",
+   "Rimonti la copertura del gruppo caffè."
+  ],
+  "technician": "Se il messaggio resta con il gruppo montato, contatti l'assistenza Siemens."
+ },
+ "Siemens|Overvoltage or undervoltage": {
+  "title": "Tensione di alimentazione fuori intervallo",
+  "causes": [
+   "La tensione di rete è troppo alta o troppo bassa."
+  ],
+  "steps": [
+   "Usi la macchina solo con una normale alimentazione a 220-240 V.",
+   "Provi un'altra presa, senza prolunga."
+  ],
+  "technician": "Se il messaggio compare con un'alimentazione normale, la faccia controllare da un elettricista o contatti l'assistenza Siemens."
+ },
+ "Siemens|Error in water system. Please restart appliance": {
+  "title": "Errore del circuito dell'acqua",
+  "causes": [
+   "L'apparecchio ha rilevato un guasto nel circuito dell'acqua."
+  ],
+  "steps": [
+   "Stacchi la spina della macchina.",
+   "Attenda circa 10 secondi e reinserisca la spina."
+  ],
+  "technician": "Se l'errore ricompare dopo il riavvio, contatti l'assistenza Siemens."
+ },
+ "Siemens|Please run calc'nClean programme": {
+  "title": "È necessario il programma combinato di decalcificazione e pulizia",
+  "causes": [
+   "C'è ancora calcare anche con acqua filtrata.",
+   "È stato usato un decalcificante sbagliato o in quantità insufficiente.",
+   "Un programma di manutenzione non è stato completato."
+  ],
+  "steps": [
+   "Monti un filtro dell'acqua nuovo e imposti la durezza dell'acqua corretta.",
+   "Usi solo pastiglie decalcificanti adatte. Non usi aceto né acido citrico.",
+   "Esegua fino in fondo il programma completo calc'nClean o il risciacquo speciale."
+  ],
+  "technician": "Se dopo questi passaggi il promemoria compare troppo spesso, contatti l'assistenza Siemens."
+ },
+ "Bosch|E0510": {
+  "title": "Guasto dell'apparecchio",
+  "causes": [
+   "La macchina ha rilevato un guasto interno."
+  ],
+  "steps": [
+   "Segua le eventuali istruzioni mostrate sul display.",
+   "Spenga e riaccenda una volta per vedere se scompare."
+  ],
+  "technician": "Se E0510 resta, prenoti un tecnico Bosch tramite il servizio riparazioni."
+ },
+ "Bosch|12:00": {
+  "title": "Orologio azzerato dopo un'interruzione di corrente",
+  "causes": [
+   "C'è stata un'interruzione di corrente.",
+   "La macchina è stata spenta dalla rete elettrica."
+  ],
+  "steps": [
+   "Verifichi che l'alimentazione funzioni.",
+   "Imposti l'ora corretta come indicato nel manuale d'uso."
+  ],
+  "technician": "Se l'orologio continua ad azzerarsi con un'alimentazione stabile, contatti il servizio clienti Bosch."
+ },
+ "Bosch|Overvoltage or undervoltage": {
+  "title": "Tensione di alimentazione fuori intervallo",
+  "causes": [
+   "La tensione di rete è troppo alta o troppo bassa."
+  ],
+  "steps": [
+   "Provi la macchina su un'altra presa, senza prolunga.",
+   "Chieda al Suo fornitore di energia elettrica informazioni sulla tensione di alimentazione."
+  ],
+  "technician": "Faccia controllare l'alimentazione da un elettricista qualificato; se è regolare, contatti il servizio clienti Bosch."
+ },
+ "Bosch|Leave device to cool": {
+  "title": "La macchina si surriscalda",
+  "causes": [
+   "La macchina non è stata decalcificata abbastanza spesso.",
+   "Si mette più acqua di quella necessaria per le bevande.",
+   "Si usano chicchi di bassa qualità."
+  ],
+  "steps": [
+   "Spenga e lasci riposare la macchina per almeno 30 minuti.",
+   "Decalcifichi la macchina.",
+   "Metta solo l'acqua necessaria.",
+   "Usi chicchi di caffè di buona qualità."
+  ],
+  "technician": "Se il messaggio ricompare, contatti il servizio clienti Bosch o prenoti una riparazione."
+ },
+ "Bosch|Milk container connected?": {
+  "title": "Contenitore del latte non rilevato",
+  "causes": [
+   "Il contenitore è fuori dal raggio del sensore.",
+   "Il sensore non riconosce il materiale del contenitore, ad esempio un cartone."
+  ],
+  "steps": [
+   "Sposti il contenitore verso il bordo destro in modo che il sensore lo rilevi.",
+   "Se richiesto, risponda YES sul display.",
+   "Usi il contenitore del latte fornito con la macchina."
+  ],
+  "technician": "Se il contenitore originale ancora non viene rilevato, contatti il servizio clienti Bosch."
+ },
+ "Bosch|Descaling is required": {
+  "title": "È necessaria la decalcificazione",
+  "causes": [
+   "Si è accumulato calcare, soprattutto nelle zone con acqua dura.",
+   "Impurità nell'acqua non filtrata."
+  ],
+  "steps": [
+   "Decalcifichi con un decalcificante approvato da Bosch.",
+   "Monti un filtro dell'acqua.",
+   "Pulisca e decalcifichi a intervalli regolari."
+  ],
+  "technician": "Se il messaggio continua a comparire dopo la decalcificazione, contatti il servizio clienti Bosch."
+ },
+ "Bosch|Clean brewing unit": {
+  "title": "Il gruppo caffè va pulito",
+  "causes": [
+   "Il gruppo caffè è sporco.",
+   "È stato usato troppo caffè macinato.",
+   "Il meccanismo del gruppo caffè è duro."
+  ],
+  "steps": [
+   "Estragga e pulisca il gruppo caffè come descritto nella guida Bosch.",
+   "Non usi più di due cucchiai rasi di caffè macinato."
+  ],
+  "technician": "Se il messaggio ricompare subito dopo la pulizia, contatti il servizio clienti Bosch."
+ },
+ "Bosch|Fill bean container": {
+  "title": "I chicchi non arrivano al macinacaffè",
+  "causes": [
+   "I chicchi oleosi si attaccano e non scendono nel macinacaffè."
+  ],
+  "steps": [
+   "Picchietti leggermente il contenitore dei chicchi.",
+   "Provi un altro chicco, meno oleoso.",
+   "Svuoti il contenitore e lo pulisca con un panno asciutto."
+  ],
+  "technician": "Se il messaggio resta con il contenitore pieno, contatti il servizio clienti Bosch."
+ },
+ "Bosch|Empty drip tray": {
+  "title": "Il messaggio della vaschetta raccogligocce resta acceso",
+  "causes": [
+   "La vaschetta raccogligocce è sporca e bagnata.",
+   "La vaschetta è stata svuotata a macchina spenta, quindi non è stata rilevata."
+  ],
+  "steps": [
+   "Estragga la vaschetta raccogligocce, la pulisca e la asciughi.",
+   "Accenda la macchina.",
+   "Estragga la vaschetta e la reinserisca a macchina accesa."
+  ],
+  "technician": "Se il messaggio resta con la vaschetta pulita e vuota, contatti il servizio clienti Bosch."
+ },
+ "Jura|Error 2": {
+  "title": "Riscaldamento bloccato dopo l'esposizione al freddo",
+  "causes": [
+   "La macchina è rimasta in un locale freddo, ad esempio di notte con il riscaldamento spento."
+  ],
+  "steps": [
+   "Sposti la macchina in un locale caldo.",
+   "Per accelerare, riempia il serbatoio con acqua tiepida.",
+   "Riaccenda la macchina ogni 5-10 minuti; possono servire fino a 30 minuti."
+  ],
+  "technician": "Se Error 2 compare durante il giorno dopo che la macchina ha già fatto caffè, serve una riparazione in un'officina JURA."
+ },
+ "Jura|Error 5": {
+  "title": "Macchina troppo fredda per scaldare",
+  "causes": [
+   "La macchina è rimasta a lungo al freddo, quindi il riscaldamento è disattivato per sicurezza."
+  ],
+  "steps": [
+   "Lasci che la macchina raggiunga la temperatura ambiente.",
+   "La riaccenda."
+  ],
+  "technician": "Se l'errore resta a temperatura ambiente normale, contatti l'assistenza clienti JURA."
+ },
+ "Jura|Error 8": {
+  "title": "Zona di infusione ostruita",
+  "causes": [
+   "Il setaccio metallico rotondo nella zona di infusione è intasato dal caffè."
+  ],
+  "steps": [
+   "Spenga la macchina e stacchi la spina.",
+   "Tolga la vaschetta raccogligocce e il contenitore dei fondi.",
+   "Pulisca il setaccio metallico rotondo nella zona di infusione con un panno asciutto.",
+   "Colleghi la spina, accenda ed esegua un ciclo di pulizia con una pastiglia JURA. Se serve, lo ripeta."
+  ],
+  "technician": "Se Error 8 resta dopo la pulizia, contatti il servizio clienti JURA."
+ },
+ "Philips|01": {
+  "title": "Imbuto del caffè ostruito",
+  "causes": [
+   "Il caffè macinato si è accumulato e ha ostruito l'imbuto del caffè."
+  ],
+  "steps": [
+   "Spenga la macchina ed estragga il gruppo caffè.",
+   "Liberi l'imbuto con il manico di un cucchiaio.",
+   "Rimonti il gruppo caffè e accenda.",
+   "Regoli il macinacaffè su una macinatura più grossa."
+  ],
+  "technician": "Se il codice ricompare dopo aver liberato l'imbuto, contatti Philips Consumer Care."
+ },
+ "Philips|03": {
+  "title": "Problema al gruppo caffè",
+  "causes": [
+   "Il gruppo caffè è intasato o non è lubrificato."
+  ],
+  "steps": [
+   "Spenga la macchina ed estragga il gruppo caffè.",
+   "Sciacqui il gruppo caffè sotto il rubinetto.",
+   "Lo lubrifichi come mostrato nel video Philips.",
+   "Lo reinserisca finché non scatta e accenda."
+  ],
+  "technician": "Se l'errore resta dopo pulizia e lubrificazione, contatti Philips Consumer Care."
+ },
+ "Philips|04": {
+  "title": "Gruppo caffè non posizionato correttamente",
+  "causes": [
+   "Il gruppo caffè non è bloccato in posizione."
+  ],
+  "steps": [
+   "Spenga la macchina.",
+   "Estragga il gruppo caffè, lo sciacqui e lo rimonti finché non sente uno scatto.",
+   "Accenda la macchina."
+  ],
+  "technician": "Se il gruppo caffè non si blocca, contatti Philips Consumer Care."
+ },
+ "Philips|05": {
+  "title": "Aria od ostruzione nel circuito dell'acqua",
+  "causes": [
+   "C'è aria intrappolata nel circuito dell'acqua.",
+   "Ci sono chicchi o particelle nel vano del serbatoio dell'acqua.",
+   "Il filtro dell'acqua è nuovo e non preparato, oppure è intasato.",
+   "Il calcare ostruisce il circuito."
+  ],
+  "steps": [
+   "Spenga, estragga il serbatoio dell'acqua e controlli che nel vano non ci siano chicchi o frammenti.",
+   "Accenda ed eroghi 2-3 tazze di acqua calda.",
+   "Tolga il filtro AquaClean/Brita e riprovi; poi lo prepari o lo sostituisca.",
+   "Sciacqui il gruppo caffè.",
+   "Se il problema sparisce dopo qualche ora di spegnimento, decalcifichi con il decalcificante Philips/Saeco."
+  ],
+  "technician": "Se il codice 05 continua a ricomparire, contatti Philips Consumer Care."
+ },
+ "Philips|11": {
+  "title": "La macchina si sta adattando alla temperatura ambiente",
+  "causes": [
+   "La macchina deve adattarsi alla temperatura del locale."
+  ],
+  "steps": [
+   "Lasci la macchina a temperatura ambiente per un po' di tempo.",
+   "La spenga e la riaccenda."
+  ],
+  "technician": "Se il codice non scompare, contatti Philips Consumer Care."
+ },
+ "Philips|14": {
+  "title": "Macchina surriscaldata",
+  "causes": [
+   "La macchina è diventata troppo calda."
+  ],
+  "steps": [
+   "Spenga la macchina.",
+   "Attenda circa 60 minuti prima di riaccenderla."
+  ],
+  "technician": "Se si surriscalda di nuovo, contatti Philips Consumer Care."
+ },
+ "Philips|19": {
+  "title": "La macchina si sta adattando dopo il trasporto",
+  "causes": [
+   "La macchina sta passando dalla temperatura di trasporto alla temperatura ambiente."
+  ],
+  "steps": [
+   "Lasci che la macchina raggiunga la temperatura ambiente.",
+   "La spenga per 30 minuti, poi la accenda."
+  ],
+  "technician": "Se il codice resta a temperatura ambiente, contatti Philips Consumer Care."
+ },
+ "Nespresso|Error alarm": {
+  "title": "Guasto della macchina (Lattissima One)",
+  "causes": [
+   "La macchina ha rilevato un guasto e si spegne da sola."
+  ],
+  "steps": [
+   "Spenga la macchina e stacchi la spina per un breve periodo.",
+   "Reinserisca la spina e riprovi una volta."
+  ],
+  "technician": "Se tutti i tasti lampeggiano di nuovo, la macchina va riparata. Contatti Nespresso."
+ },
+ "Nespresso|Descaling alert": {
+  "title": "È necessaria la decalcificazione (Lattissima One)",
+  "causes": [
+   "La macchina ha raggiunto il limite di utilizzo previsto per la decalcificazione."
+  ],
+  "steps": [
+   "Decalcifichi la macchina con il decalcificante Nespresso, seguendo la sezione sulla decalcificazione del manuale."
+  ],
+  "technician": "Se l'avviso resta acceso dopo una decalcificazione completa, contatti Nespresso."
+ },
+ "Nespresso|Clean alert": {
+  "title": "Il sistema latte va pulito (Lattissima One)",
+  "causes": [
+   "Il sistema latte deve essere pulito."
+  ],
+  "steps": [
+   "Smonti il sistema latte.",
+   "Lavi le parti nel cestello superiore della lavastoviglie o a mano, come descritto nel manuale.",
+   "Lo rimonti."
+  ],
+  "technician": "Se l'avviso resta acceso dopo la pulizia, contatti Nespresso."
+ },
+ "Krups|Descaling alert": {
+  "title": "È necessaria la decalcificazione",
+  "causes": [
+   "La macchina ha conteggiato abbastanza utilizzi di acqua calda e vapore da richiedere la decalcificazione."
+  ],
+  "steps": [
+   "Esegua il programma di decalcificazione quando compare l'avviso.",
+   "Usi il decalcificante consigliato da Krups."
+  ],
+  "technician": "Se l'avviso continua a comparire subito dopo la decalcificazione, contatti il servizio clienti Krups."
+ },
+ "Krups|Cleaning alert": {
+  "title": "Il circuito del caffè va pulito",
+  "causes": [
+   "Dopo un certo numero di caffè, il circuito del caffè deve essere sgrassato."
+  ],
+  "steps": [
+   "Avvii il programma di pulizia appena compare l'avviso.",
+   "Usi le pastiglie detergenti consigliate da Krups."
+  ],
+  "technician": "Se il programma di pulizia non parte o non termina, contatti il servizio clienti Krups."
+ },
+ "Melitta|System error": {
+  "title": "Guasto del software",
+  "causes": [
+   "Il software della macchina ha un guasto."
+  ],
+  "steps": [
+   "Spenga la macchina con il tasto On/Off.",
+   "La riaccenda."
+  ],
+  "technician": "Se System error resta dopo il riavvio, contatti l'assistenza telefonica Melitta."
+ }
+}

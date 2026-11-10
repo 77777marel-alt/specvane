@@ -1,0 +1,1196 @@
+{
+ "Samsung|AP": {
+  "title": "WLAN-Einrichtungsmodus",
+  "causes": [
+   "Der Kühlschrank arbeitet als WLAN-Zugangspunkt für die Einrichtung mit SmartThings."
+  ],
+  "steps": [
+   "Schließen Sie die Einrichtung in der SmartThings App ab oder warten Sie. Der Code verschwindet von selbst."
+  ],
+  "technician": "Das ist kein Fehler. Kein Kundendienst nötig."
+ },
+ "Samsung|21E": {
+  "title": "Fehler am Gefrierraum-Lüfter",
+  "causes": [
+   "Der Lüfter im Gefrierraum ist vereist, oft weil eine Tür offen stand oder die Dichtung nicht abgedichtet hat.",
+   "Der Lüftermotor ist ausgefallen."
+  ],
+  "steps": [
+   "Prüfen Sie, ob die Gefrierraumtür schließt und die Dichtung rundum anliegt.",
+   "Überfüllen Sie den Gefrierraum nicht.",
+   "Wenn möglich, räumen Sie die Lebensmittel aus und lassen Sie das Gerät bei offenen Türen abtauen."
+  ],
+  "technician": "Kommt der Code nach dem Abtauen wieder, muss ein Samsung Techniker den Lüfter prüfen."
+ },
+ "Samsung|22E": {
+  "title": "Fehler am Kühlraum-Lüfter",
+  "causes": [
+   "Die Kühlschranktür stand zu lange offen und der Lüfter ist vereist."
+  ],
+  "steps": [
+   "Bringen Sie die Lebensmittel an einen kühlen Ort.",
+   "Ziehen Sie den Netzstecker und lassen Sie die Türen einige Stunden offen.",
+   "Stecken Sie den Stecker wieder ein und schließen Sie die Türen."
+  ],
+  "technician": "Kommt 22E wieder, fordern Sie den Samsung Kundendienst an."
+ },
+ "Samsung|41C": {
+  "title": "Fehler am Family Hub",
+  "causes": [
+   "Ein Softwareproblem am Family Hub Bildschirm."
+  ],
+  "steps": [
+   "Installieren Sie das neueste Software-Update.",
+   "Tippen Sie auf OK, wenn der Code nach dem Update zum ersten Mal erscheint."
+  ],
+  "technician": "Kommt er nach dem Update immer wieder, fordern Sie den Samsung Kundendienst an."
+ },
+ "Samsung|76C": {
+  "title": "Wasser im AutoFill-Fach",
+  "causes": [
+   "Die AutoFill-Wasserkanne leckt in ihr Fach."
+  ],
+  "steps": [
+   "Nehmen Sie die Kanne heraus und trocknen Sie das Fach.",
+   "Prüfen Sie, ob die Kanne richtig sitzt und keine Risse hat."
+  ],
+  "technician": "Sammelt sich weiter Wasser, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|85C": {
+  "title": "Niedrige Netzspannung (Family Hub)",
+  "causes": [
+   "Meist ein kurzer Stromausfall."
+  ],
+  "steps": [
+   "Halten Sie OK 3 Sekunden gedrückt, um die Meldung zu löschen."
+  ],
+  "technician": "Für sich allein harmlos. Wenden Sie sich nur an Samsung, wenn die Meldung oft erscheint."
+ },
+ "Samsung|88 88": {
+  "title": "Kommunikationsfehler beim Start",
+  "causes": [
+   "Die Stromversorgung wurde unterbrochen, während der Kühlschrank startete."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker oder schalten Sie die Sicherung für 60 Sekunden aus.",
+   "Stellen Sie den Strom wieder her und prüfen Sie, ob der Code zurückkommt."
+  ],
+  "technician": "Kommt der Code nach dem Zurücksetzen wieder, fordern Sie den Samsung Kundendienst an."
+ },
+ "Samsung|83E": {
+  "title": "Ungewöhnlicher Kompressorstrom",
+  "causes": [
+   "Eine Überspannung oder ein elektrisches Problem."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker oder schalten Sie die Sicherung für 60 Sekunden aus.",
+   "Stellen Sie den Strom wieder her und prüfen Sie, ob der Code zurückkommt."
+  ],
+  "technician": "Kommt 83E wieder, fordern Sie den Samsung Kundendienst an."
+ },
+ "Samsung|85E": {
+  "title": "Zu niedrige Spannung am Kompressor",
+  "causes": [
+   "Ein Spannungseinbruch oder zu niedrige Netzspannung."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker oder schalten Sie die Sicherung für 60 Sekunden aus.",
+   "Stellen Sie den Strom wieder her und prüfen Sie, ob der Code zurückkommt."
+  ],
+  "technician": "Kommt 85E wieder, lassen Sie die Stromversorgung prüfen und fordern Sie den Samsung Kundendienst an."
+ },
+ "Samsung|86E": {
+  "title": "Zu hohe Spannung am Kompressor",
+  "causes": [
+   "Eine Überspannung, zum Beispiel bei einem Gewitter."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker oder schalten Sie die Sicherung für 60 Sekunden aus.",
+   "Stellen Sie den Strom wieder her und prüfen Sie, ob der Code zurückkommt."
+  ],
+  "technician": "Kommt 86E wieder, fordern Sie den Samsung Kundendienst an."
+ },
+ "Samsung|PC ER": {
+  "title": "Interner Kommunikationsfehler",
+  "causes": [
+   "Eine kürzliche Überspannung.",
+   "Der Kabelstecker an der Tür ist nicht richtig verbunden."
+  ],
+  "steps": [
+   "Schalten Sie den Strom am Stecker oder an der Sicherung ab.",
+   "Prüfen Sie den Kabelstecker über dem Türscharnier und verbinden Sie ihn neu.",
+   "Stellen Sie den Strom wieder her."
+  ],
+  "technician": "Kommt der Code wieder, fordern Sie den Samsung Kundendienst an."
+ },
+ "Samsung|OF OF": {
+  "title": "Kühlung aus (Demo-Modus)",
+  "causes": [
+   "Der Demo- oder Ausstellungsmodus ist eingeschaltet, oft versehentlich. Der Kühlschrank kühlt nicht."
+  ],
+  "steps": [
+   "Halten Sie die beiden oberen Tasten links am Bedienfeld 5 bis 8 Sekunden gedrückt, bis ein Ton erklingt.",
+   "Bei manchen Modellen halten Sie zusätzlich die obere rechte Taste gedrückt.",
+   "Die Tastenkombination für Ihr Modell finden Sie in der Bedienungsanleitung."
+  ],
+  "technician": "Kein Kundendienst nötig. Das ist eine Einstellung, kein Fehler."
+ },
+ "Samsung|5E": {
+  "title": "Fehler am Abtausensor des Kühlraums",
+  "causes": [
+   "Der Abtausensor im Kühlraum ist defekt."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker nur, wenn Sie dazu aufgefordert werden.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Fordern Sie den Samsung Kundendienst an, um den Sensor prüfen oder ersetzen zu lassen."
+ },
+ "Samsung|8E": {
+  "title": "Fehler am Eisbereiter-Sensor (Gefrierraum)",
+  "causes": [
+   "Der Eisbereiter-Sensor im Gefrierraum ist defekt."
+  ],
+  "steps": [
+   "Schalten Sie den Eisbereiter aus, wenn möglich.",
+   "Nutzen Sie den Kühlschrank wie gewohnt weiter."
+  ],
+  "technician": "Fordern Sie den Samsung Kundendienst an."
+ },
+ "Samsung|14E": {
+  "title": "Fehler am Eisbereiter-Sensor",
+  "causes": [
+   "Der Eisbereiter-Sensor ist defekt."
+  ],
+  "steps": [
+   "Schalten Sie den Eisbereiter aus, wenn möglich.",
+   "Nutzen Sie den Kühlschrank wie gewohnt weiter."
+  ],
+  "technician": "Fordern Sie den Samsung Kundendienst an."
+ },
+ "Samsung|33E": {
+  "title": "Fehler an der Heizung der Eisbereiter-Leitung",
+  "causes": [
+   "Die Heizung an der Wasserleitung des Eisbereiters ist defekt."
+  ],
+  "steps": [
+   "Schalten Sie den Eisbereiter aus, wenn möglich."
+  ],
+  "technician": "Fordern Sie den Samsung Kundendienst an."
+ },
+ "Samsung|39E": {
+  "title": "Funktionsfehler am Eisbereiter",
+  "causes": [
+   "Der Eisbereiter arbeitet nicht richtig."
+  ],
+  "steps": [
+   "Prüfen Sie, ob der Eisbehälter richtig sitzt.",
+   "Schalten Sie den Eisbereiter aus, wenn möglich."
+  ],
+  "technician": "Bleibt der Code, fordern Sie den Samsung Kundendienst an."
+ },
+ "Samsung|40E": {
+  "title": "Fehler am Lüfter im Eisfach",
+  "causes": [
+   "Der Lüfter im Eisfach arbeitet nicht, oft wegen Eis."
+  ],
+  "steps": [
+   "Prüfen Sie, ob die Tür des Eisfachs ganz schließt."
+  ],
+  "technician": "Fordern Sie den Samsung Kundendienst an."
+ },
+ "Samsung|84C": {
+  "title": "Kompressor blockiert",
+  "causes": [
+   "Der Kompressor ist blockiert und kann nicht anlaufen."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker oder schalten Sie die Sicherung für 60 Sekunden aus.",
+   "Stellen Sie den Strom wieder her und prüfen Sie, ob der Code zurückkommt."
+  ],
+  "technician": "Fordern Sie den Samsung Kundendienst an. Hierfür ist ein Techniker nötig."
+ },
+ "LG|CF": {
+  "title": "Fehler am Kondensatorlüfter",
+  "causes": [
+   "Der Kondensatorlüfter ist blockiert oder läuft nicht, sodass der Kompressor überlastet wird."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 60 Sekunden und stecken Sie ihn in eine Wandsteckdose, nicht in eine Steckdosenleiste.",
+   "Prüfen Sie, ob der Code zurückkommt.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Fordern Sie den LG Kundendienst an. Hierfür ist ein Techniker nötig."
+ },
+ "LG|CO": {
+  "title": "Kommunikationsfehler",
+  "causes": [
+   "Hauptplatine und Anzeige kommunizieren nicht miteinander."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 60 Sekunden und stecken Sie ihn in eine Wandsteckdose, nicht in eine Steckdosenleiste.",
+   "Prüfen Sie, ob der Code zurückkommt.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Fordern Sie den LG Kundendienst an. Hierfür ist ein Techniker nötig."
+ },
+ "LG|FF": {
+  "title": "Fehler am Gefrierraum-Lüfter",
+  "causes": [
+   "Der Lüfter im Gefrierraum ist blockiert, oft durch Eis, oder ausgefallen."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 60 Sekunden und stecken Sie ihn in eine Wandsteckdose, nicht in eine Steckdosenleiste.",
+   "Prüfen Sie, ob der Code zurückkommt.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Fordern Sie den LG Kundendienst an. Hierfür ist ein Techniker nötig."
+ },
+ "LG|FS": {
+  "title": "Fehler am Gefrierraum-Sensor",
+  "causes": [
+   "Der Temperatursensor im Gefrierraum ist defekt."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 60 Sekunden und stecken Sie ihn in eine Wandsteckdose, nicht in eine Steckdosenleiste.",
+   "Prüfen Sie, ob der Code zurückkommt.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Fordern Sie den LG Kundendienst an. Hierfür ist ein Techniker nötig."
+ },
+ "LG|IF": {
+  "title": "Fehler am Eisbereiter-Lüfter",
+  "causes": [
+   "Der Lüfter des Eisbereiters ist blockiert oder defekt."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 60 Sekunden und stecken Sie ihn in eine Wandsteckdose, nicht in eine Steckdosenleiste.",
+   "Prüfen Sie, ob der Code zurückkommt.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Fordern Sie den LG Kundendienst an. Hierfür ist ein Techniker nötig."
+ },
+ "LG|IS": {
+  "title": "Fehler am Eisbereiter-Sensor",
+  "causes": [
+   "Der Temperatursensor des Eisbereiters ist defekt."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 60 Sekunden und stecken Sie ihn in eine Wandsteckdose, nicht in eine Steckdosenleiste.",
+   "Prüfen Sie, ob der Code zurückkommt.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Fordern Sie den LG Kundendienst an. Hierfür ist ein Techniker nötig."
+ },
+ "LG|It": {
+  "title": "Fehler am Eisbereiter-Motor",
+  "causes": [
+   "Der Motor des Eisbereiters ist defekt."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 60 Sekunden und stecken Sie ihn in eine Wandsteckdose, nicht in eine Steckdosenleiste.",
+   "Prüfen Sie, ob der Code zurückkommt.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Fordern Sie den LG Kundendienst an. Hierfür ist ein Techniker nötig."
+ },
+ "LG|rS": {
+  "title": "Fehler am Kühlraum-Sensor (oben)",
+  "causes": [
+   "Der obere Temperatursensor im Kühlraum ist defekt."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 60 Sekunden und stecken Sie ihn in eine Wandsteckdose, nicht in eine Steckdosenleiste.",
+   "Prüfen Sie, ob der Code zurückkommt.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Fordern Sie den LG Kundendienst an. Hierfür ist ein Techniker nötig."
+ },
+ "LG|r2": {
+  "title": "Fehler am Kühlraum-Sensor (unten)",
+  "causes": [
+   "Der untere Temperatursensor im Kühlraum ist defekt."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 60 Sekunden und stecken Sie ihn in eine Wandsteckdose, nicht in eine Steckdosenleiste.",
+   "Prüfen Sie, ob der Code zurückkommt.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Fordern Sie den LG Kundendienst an. Hierfür ist ein Techniker nötig."
+ },
+ "LG|dS": {
+  "title": "Fehler am Abtausensor",
+  "causes": [
+   "Der Abtausensor ist defekt, daher kann der Verdampfer vereisen."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 60 Sekunden und stecken Sie ihn in eine Wandsteckdose, nicht in eine Steckdosenleiste.",
+   "Prüfen Sie, ob der Code zurückkommt.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Fordern Sie den LG Kundendienst an. Hierfür ist ein Techniker nötig."
+ },
+ "LG|rT": {
+  "title": "Fehler am Raumtemperatursensor",
+  "causes": [
+   "Der Sensor für die Umgebungstemperatur ist defekt."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 60 Sekunden und stecken Sie ihn in eine Wandsteckdose, nicht in eine Steckdosenleiste.",
+   "Prüfen Sie, ob der Code zurückkommt.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Fordern Sie den LG Kundendienst an. Hierfür ist ein Techniker nötig."
+ },
+ "LG|SS": {
+  "title": "Fehler am Wassertank-Sensor",
+  "causes": [
+   "Der Temperatursensor des Wassertanks ist defekt."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 60 Sekunden und stecken Sie ihn in eine Wandsteckdose, nicht in eine Steckdosenleiste.",
+   "Prüfen Sie, ob der Code zurückkommt.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Fordern Sie den LG Kundendienst an. Hierfür ist ein Techniker nötig."
+ },
+ "LG|rF": {
+  "title": "Fehler am Kühlraum-Lüfter",
+  "causes": [
+   "Der Lüfter im Kühlraum ist blockiert oder defekt."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 60 Sekunden und stecken Sie ihn in eine Wandsteckdose, nicht in eine Steckdosenleiste.",
+   "Prüfen Sie, ob der Code zurückkommt.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Fordern Sie den LG Kundendienst an. Hierfür ist ein Techniker nötig."
+ },
+ "LG|C1": {
+  "title": "Kommunikationsfehler am Spender",
+  "causes": [
+   "Spender und Anzeige kommunizieren nicht miteinander."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 60 Sekunden und stecken Sie ihn in eine Wandsteckdose, nicht in eine Steckdosenleiste.",
+   "Prüfen Sie, ob der Code zurückkommt.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Fordern Sie den LG Kundendienst an. Hierfür ist ein Techniker nötig."
+ },
+ "LG|CH": {
+  "title": "Fehler im Kältekreislauf (Hochdruckseite)",
+  "causes": [
+   "Sensoren messen ungewöhnliche Werte im Kältekreislauf, möglicherweise ein Leck oder ein defektes Ventil."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 60 Sekunden und stecken Sie ihn in eine Wandsteckdose, nicht in eine Steckdosenleiste.",
+   "Prüfen Sie, ob der Code zurückkommt.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Fordern Sie den LG Kundendienst an. Hierfür ist ein Techniker nötig."
+ },
+ "LG|CL": {
+  "title": "Fehler im Kältekreislauf (Niederdruckseite)",
+  "causes": [
+   "Sensoren messen ungewöhnliche Werte im Kältekreislauf, möglicherweise ein Leck oder ein defektes Ventil."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 60 Sekunden und stecken Sie ihn in eine Wandsteckdose, nicht in eine Steckdosenleiste.",
+   "Prüfen Sie, ob der Code zurückkommt.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Fordern Sie den LG Kundendienst an. Hierfür ist ein Techniker nötig."
+ },
+ "LG|FU": {
+  "title": "Gefrierraum kühlt nicht genug",
+  "causes": [
+   "Der Gefrierraum ist nach dem Start nicht kalt genug geworden.",
+   "Die Türen wurden oft geöffnet oder dichten nicht.",
+   "Lüftungsöffnungen sind durch Lebensmittel verdeckt."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 60 Sekunden und stecken Sie ihn in eine Wandsteckdose, nicht in eine Steckdosenleiste.",
+   "Stellen Sie den Gefrierraum auf -18 °C ein.",
+   "Halten Sie Lebensmittel von den Lüftungsöffnungen fern.",
+   "Prüfen Sie die Türdichtungen, indem Sie die Tür über einem Blatt Papier schließen. Es sollte sich nicht leicht herausziehen lassen.",
+   "Öffnen Sie die Türen seltener."
+  ],
+  "technician": "Kühlt der Gefrierraum immer noch nicht, fordern Sie den LG Kundendienst an."
+ },
+ "LG|dH": {
+  "title": "Abtaufehler",
+  "causes": [
+   "Das Abtausystem ist nicht rechtzeitig warm geworden.",
+   "Der Verdampfer ist durch Eis blockiert."
+  ],
+  "steps": [
+   "Nehmen Sie die Lebensmittel heraus und lagern Sie sie kühl.",
+   "Legen Sie Handtücher vor den Kühlschrank auf den Boden.",
+   "Ziehen Sie den Netzstecker und lassen Sie die Türen mindestens 12 Stunden offen, damit das Eis schmilzt.",
+   "Stecken Sie den Stecker wieder ein."
+  ],
+  "technician": "Das hilft oft nur vorübergehend. Kommt dH wieder, fordern Sie den LG Kundendienst an."
+ },
+ "LG|tt": {
+  "title": "Problem mit dem Wassertank",
+  "causes": [
+   "Der Wassertank fehlt oder sitzt nicht richtig.",
+   "Der Tanksensor ist defekt."
+  ],
+  "steps": [
+   "Nehmen Sie den Wassertank heraus und setzen Sie ihn richtig wieder ein.",
+   "Prüfen Sie, ob der Code verschwindet."
+  ],
+  "technician": "Bleibt tt bei eingesetztem Tank, fordern Sie den LG Kundendienst an."
+ },
+ "LG|gF": {
+  "title": "Fehler am Wasserdurchflusssensor",
+  "causes": [
+   "Der Wasserhahn für die Zuleitung ist geschlossen.",
+   "Der Wasserschlauch ist geknickt.",
+   "Der Wasserdruck stimmt nicht."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 60 Sekunden und stecken Sie ihn in eine Wandsteckdose, nicht in eine Steckdosenleiste.",
+   "Warten Sie bis zu 5 Minuten, bis der Kühlschrank neu gestartet ist.",
+   "Öffnen Sie den Wasserhahn der Zuleitung ganz.",
+   "Prüfen Sie, ob der Schlauch geknickt ist.",
+   "Vergleichen Sie Ihren Wasserdruck mit den Angaben in der Bedienungsanleitung."
+  ],
+  "technician": "Bleibt der Fehler, fordern Sie den LG Kundendienst an."
+ },
+ "LG|Lo": {
+  "title": "Raum zu kalt",
+  "causes": [
+   "Der Raum ist kälter als -10 °C."
+  ],
+  "steps": [
+   "Stellen Sie den Kühlschrank wenn möglich an einen wärmeren Ort."
+  ],
+  "technician": "Kein Fehler. Wenden Sie sich nur an LG, wenn der Raum warm ist und Lo trotzdem angezeigt wird."
+ },
+ "LG|HI": {
+  "title": "Raum zu heiß",
+  "causes": [
+   "Der Raum ist heißer als 50 °C."
+  ],
+  "steps": [
+   "Stellen Sie den Kühlschrank wenn möglich an einen kühleren Ort.",
+   "Achten Sie darauf, dass rundherum Luft zirkulieren kann."
+  ],
+  "technician": "Kein Fehler. Wenden Sie sich nur an LG, wenn die Raumtemperatur normal ist und HI trotzdem angezeigt wird."
+ },
+ "Miele|F0": {
+  "title": "Technischer Fehler",
+  "causes": [
+   "Ein interner technischer Fehler wurde erkannt."
+  ],
+  "steps": [
+   "Notieren Sie den Fehlercode.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen.",
+   "Beauftragen Sie einen Miele Techniker."
+  ],
+  "technician": "Diesen technischen Fehler können Sie nicht selbst beheben. Wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|F1": {
+  "title": "Technischer Fehler",
+  "causes": [
+   "Ein interner technischer Fehler wurde erkannt."
+  ],
+  "steps": [
+   "Notieren Sie den Fehlercode.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen.",
+   "Beauftragen Sie einen Miele Techniker."
+  ],
+  "technician": "Diesen technischen Fehler können Sie nicht selbst beheben. Wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|F2": {
+  "title": "Technischer Fehler",
+  "causes": [
+   "Ein interner technischer Fehler wurde erkannt."
+  ],
+  "steps": [
+   "Notieren Sie den Fehlercode.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen.",
+   "Beauftragen Sie einen Miele Techniker."
+  ],
+  "technician": "Diesen technischen Fehler können Sie nicht selbst beheben. Wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|F3": {
+  "title": "Technischer Fehler",
+  "causes": [
+   "Ein interner technischer Fehler wurde erkannt."
+  ],
+  "steps": [
+   "Notieren Sie den Fehlercode.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen.",
+   "Beauftragen Sie einen Miele Techniker."
+  ],
+  "technician": "Diesen technischen Fehler können Sie nicht selbst beheben. Wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|F4": {
+  "title": "Technischer Fehler",
+  "causes": [
+   "Ein interner technischer Fehler wurde erkannt."
+  ],
+  "steps": [
+   "Notieren Sie den Fehlercode.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen.",
+   "Beauftragen Sie einen Miele Techniker."
+  ],
+  "technician": "Diesen technischen Fehler können Sie nicht selbst beheben. Wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|F5": {
+  "title": "Technischer Fehler",
+  "causes": [
+   "Ein interner technischer Fehler wurde erkannt."
+  ],
+  "steps": [
+   "Notieren Sie den Fehlercode.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen.",
+   "Beauftragen Sie einen Miele Techniker."
+  ],
+  "technician": "Diesen technischen Fehler können Sie nicht selbst beheben. Wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|F114": {
+  "title": "Verdampfersensor im Gefrierbereich defekt",
+  "causes": [
+   "Der Verdampfersensor im Gefrierbereich ist defekt."
+  ],
+  "steps": [
+   "Notieren Sie den Fehlercode.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen.",
+   "Beauftragen Sie einen Miele Techniker."
+  ],
+  "technician": "Diesen technischen Fehler können Sie nicht selbst beheben. Wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|F120": {
+  "title": "Netzspannung zu niedrig",
+  "causes": [
+   "Die Netzspannung ist zeitweise zu niedrig oder schwankt stark."
+  ],
+  "steps": [
+   "Prüfen Sie, ob auch andere Geräte Probleme haben.",
+   "Lassen Sie Ihre Netzspannung von einer Elektrofachkraft prüfen."
+  ],
+  "technician": "Ist die Spannung in Ordnung und F120 bleibt, beauftragen Sie einen Miele Techniker."
+ },
+ "Miele|F141": {
+  "title": "Kühlraumtür seit 15 Minuten offen",
+  "causes": [
+   "Die Tür des Kühlbereichs ist seit 15 Minuten offen."
+  ],
+  "steps": [
+   "Schließen Sie die Kühlschranktür.",
+   "Prüfen Sie, ob etwas das Schließen verhindert."
+  ],
+  "technician": "Erscheint F141 bei geschlossener Tür, beauftragen Sie einen Miele Techniker."
+ },
+ "Miele|F142": {
+  "title": "Kühlraumtür seit 30 Minuten offen",
+  "causes": [
+   "Die Tür des Kühlbereichs ist seit etwa 30 Minuten offen."
+  ],
+  "steps": [
+   "Schließen Sie die Kühlschranktür.",
+   "Prüfen Sie, ob etwas das Schließen verhindert."
+  ],
+  "technician": "Erscheint F142 bei geschlossener Tür, beauftragen Sie einen Miele Techniker."
+ },
+ "Miele|F383": {
+  "title": "Fehler beim Wasserzulauf des Eisbereiters",
+  "causes": [
+   "Der Zulaufschlauch ist geknickt.",
+   "Das Zulaufsieb ist verschmutzt.",
+   "Der Wasserbehälter sitzt nicht richtig oder sein Schwimmer klemmt.",
+   "Ein Softwarefehler."
+  ],
+  "steps": [
+   "Beseitigen Sie Knicke im Wasserschlauch.",
+   "Reinigen Sie das Zulaufsieb.",
+   "Nehmen Sie den Wasserbehälter heraus, reinigen Sie darunter und schieben Sie ihn ganz wieder ein.",
+   "Schütteln Sie den Behälter, um zu prüfen, ob sich der Schwimmer frei bewegt.",
+   "Stellen Sie den Gefrierbereich für mindestens 48 Stunden auf -18 °C ein."
+  ],
+  "technician": "Bleibt der Fehler, wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|F384": {
+  "title": "Softwareabsturz",
+  "causes": [
+   "Die Gerätesoftware arbeitet nicht mehr."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für etwa 2 Minuten.",
+   "Stecken Sie ihn wieder ein und schalten Sie das Gerät ein.",
+   "Funktioniert es wieder, stellen Sie im Menü Einstellungen die Werkseinstellungen wieder her."
+  ],
+  "technician": "Kommt der Fehler wieder, wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|F385": {
+  "title": "Softwareabsturz",
+  "causes": [
+   "Die Gerätesoftware arbeitet nicht mehr."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für etwa 2 Minuten.",
+   "Stecken Sie ihn wieder ein und schalten Sie das Gerät ein.",
+   "Funktioniert es wieder, stellen Sie im Menü Einstellungen die Werkseinstellungen wieder her."
+  ],
+  "technician": "Kommt der Fehler wieder, wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|nA": {
+  "title": "Gefrierbereich war zwischenzeitlich zu warm",
+  "causes": [
+   "Ein Stromausfall oder eine Unterbrechung der Versorgung hat den Gefrierbereich erwärmt."
+  ],
+  "steps": [
+   "Halten Sie die Alarmtaste gedrückt, um die höchste erreichte Temperatur zu sehen.",
+   "Prüfen Sie die Lebensmittel. Verbrauchen Sie aufgetaute Lebensmittel bald.",
+   "Frieren Sie aufgetaute Lebensmittel nicht wieder ein, außer Sie garen sie vorher."
+  ],
+  "technician": "Kein Fehler. Wenden Sie sich nur an Miele, wenn die Meldung ohne Stromausfall erscheint."
+ },
+ "AEG|E08": {
+  "title": "Niedrige Netzspannung",
+  "causes": [
+   "Die Netzspannung ist unter 170 V gefallen. Das schützt den Kompressor."
+  ],
+  "steps": [
+   "Prüfen Sie, ob andere Geräte Stromprobleme haben.",
+   "Warten Sie, bis die Versorgung wieder normal ist."
+  ],
+  "technician": "Erscheint E08 immer wieder, lassen Sie die Stromversorgung prüfen und wenden Sie sich an einen autorisierten AEG Techniker."
+ },
+ "AEG|E09": {
+  "title": "Gefrierraum nicht kalt genug",
+  "causes": [
+   "Meist nach einem langen Stromausfall."
+  ],
+  "steps": [
+   "Stellen Sie den Gefrierraum kälter ein oder schalten Sie Super Freeze (Schnellgefrieren) ein.",
+   "Halten Sie die Türen geschlossen, bis der Code verschwindet.",
+   "Verbrauchen oder garen Sie aufgetaute Lebensmittel bald.",
+   "Legen Sie keine frischen Lebensmittel hinein, bis der Code verschwunden ist."
+  ],
+  "technician": "Bleibt der Code, wenden Sie sich an einen autorisierten AEG Techniker."
+ },
+ "AEG|E10": {
+  "title": "Kühlraum nicht kalt genug",
+  "causes": [
+   "Ein langer Stromausfall.",
+   "Warme Speisen wurden in den Kühlschrank gestellt."
+  ],
+  "steps": [
+   "Stellen Sie den Kühlraum kälter ein oder schalten Sie Super Cool (Schnellkühlen) ein.",
+   "Halten Sie die Türen geschlossen.",
+   "Halten Sie Lebensmittel von Lüftungsöffnungen und Sensor fern."
+  ],
+  "technician": "Bleibt E10, vereinbaren Sie eine Reparatur bei AEG."
+ },
+ "AEG|E11": {
+  "title": "Kühlraum zu kalt",
+  "causes": [
+   "Super Cool ist dauerhaft eingeschaltet.",
+   "Die Temperatur ist zu niedrig eingestellt.",
+   "Lüftungsöffnungen sind verdeckt."
+  ],
+  "steps": [
+   "Schalten Sie Super Cool aus.",
+   "Stellen Sie eine wärmere Kühlraumtemperatur ein.",
+   "Achten Sie darauf, dass die Lüftungsöffnungen frei sind."
+  ],
+  "technician": "Bleibt der Code, wenden Sie sich an einen autorisierten AEG Kundendienst."
+ },
+ "AEG|F2": {
+  "title": "Fehler am Thermostat",
+  "causes": [
+   "Ein Problem mit dem Thermostat."
+  ],
+  "steps": [
+   "Notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Beauftragen Sie einen AEG Kundendiensttechniker und nennen Sie den Code."
+ },
+ "AEG|F8": {
+  "title": "Fehler im Abtausystem",
+  "causes": [
+   "Ein Fehler im Abtausystem."
+  ],
+  "steps": [
+   "Versuchen Sie nicht, ihn selbst zu reparieren.",
+   "Notieren Sie Modell- und Seriennummer."
+  ],
+  "technician": "Beauftragen Sie einen AEG Kundendiensttechniker und nennen Sie F8."
+ },
+ "Electrolux|F5": {
+  "title": "Fehler am Temperatursensor",
+  "causes": [
+   "Ein Temperatursensor ist defekt. F3 und F4 weisen auf dieselbe Art von Fehler hin."
+  ],
+  "steps": [
+   "Notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Beauftragen Sie einen Electrolux Kundendiensttechniker und nennen Sie den Code."
+ },
+ "Electrolux|E01": {
+  "title": "Sensorwarnung",
+  "causes": [
+   "Ein Sensor in der Kühl-Gefrier-Kombination hat ein Problem."
+  ],
+  "steps": [
+   "Notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Wenden Sie sich für einen Technikerbesuch an einen autorisierten Electrolux Kundendienst."
+ },
+ "Electrolux|E02": {
+  "title": "Sensorwarnung",
+  "causes": [
+   "Ein Sensor in der Kühl-Gefrier-Kombination hat ein Problem."
+  ],
+  "steps": [
+   "Notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Wenden Sie sich für einen Technikerbesuch an einen autorisierten Electrolux Kundendienst."
+ },
+ "Electrolux|E03": {
+  "title": "Sensorwarnung",
+  "causes": [
+   "Ein Sensor in der Kühl-Gefrier-Kombination hat ein Problem."
+  ],
+  "steps": [
+   "Notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Wenden Sie sich für einen Technikerbesuch an einen autorisierten Electrolux Kundendienst."
+ },
+ "Electrolux|E06": {
+  "title": "Sensorwarnung",
+  "causes": [
+   "Ein Sensor in der Kühl-Gefrier-Kombination hat ein Problem."
+  ],
+  "steps": [
+   "Notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Wenden Sie sich für einen Technikerbesuch an einen autorisierten Electrolux Kundendienst."
+ },
+ "Electrolux|E07": {
+  "title": "Sensorwarnung",
+  "causes": [
+   "Ein Sensor in der Kühl-Gefrier-Kombination hat ein Problem."
+  ],
+  "steps": [
+   "Notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Wenden Sie sich für einen Technikerbesuch an einen autorisierten Electrolux Kundendienst."
+ },
+ "Hotpoint|E0": {
+  "title": "Fehler am Eisbereiter",
+  "causes": [
+   "Der Eisbereiter arbeitet nicht richtig (Modelle mit Eisbereiter)."
+  ],
+  "steps": [
+   "Schalten Sie den Eisbereiter aus, wenn möglich.",
+   "Nutzen Sie den Kühlschrank wie gewohnt weiter."
+  ],
+  "technician": "Rufen Sie den Hotpoint Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Hotpoint|E1": {
+  "title": "Fehler am Kühlraum-Sensor",
+  "causes": [
+   "Der Temperatursensor im Kühlraum ist defekt."
+  ],
+  "steps": [
+   "Notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Rufen Sie den Hotpoint Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Hotpoint|E2": {
+  "title": "Fehler am Gefrierraum-Sensor",
+  "causes": [
+   "Der Temperatursensor im Gefrierraum ist defekt.",
+   "Die Temperatur im Gefrierraum kann falsch sein."
+  ],
+  "steps": [
+   "Prüfen Sie, ob die Lebensmittel noch gefroren sind.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Rufen Sie den Hotpoint Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Hotpoint|E3": {
+  "title": "Fehler am Abtausensor",
+  "causes": [
+   "Der Abtausensor ist defekt.",
+   "Auch ein verstopfter Ablauf kann die Temperatur beeinflussen."
+  ],
+  "steps": [
+   "Prüfen Sie das Tauwasser-Abflussloch und gegebenenfalls das Ablaufrohr auf Verstopfungen.",
+   "Beseitigen Sie Verstopfungen vorsichtig."
+  ],
+  "technician": "Besteht der Fehler weiter, rufen Sie den Hotpoint Kundendienst."
+ },
+ "Hotpoint|E4": {
+  "title": "Fehler am Abtausensor des Kühlraums",
+  "causes": [
+   "Der Abtausensor im Kühlraum ist defekt."
+  ],
+  "steps": [
+   "Notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Rufen Sie den Hotpoint Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Hotpoint|E5": {
+  "title": "Fehler am Abtausensor des Gefrierraums",
+  "causes": [
+   "Der Abtausensor im Gefrierraum ist defekt."
+  ],
+  "steps": [
+   "Notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Rufen Sie den Hotpoint Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Hotpoint|E6": {
+  "title": "Fehler an Steuer- oder Anzeigeplatine",
+  "causes": [
+   "Die Hauptsteuerplatine oder die Anzeigeplatine ist defekt."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für einige Minuten und stecken Sie ihn wieder ein."
+  ],
+  "technician": "Rufen Sie den Hotpoint Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Hotpoint|E7": {
+  "title": "Fehler am Raumtemperatursensor",
+  "causes": [
+   "Der Sensor für die Umgebungstemperatur ist defekt."
+  ],
+  "steps": [
+   "Notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Rufen Sie den Hotpoint Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Hotpoint|E8": {
+  "title": "Fehler am Raumtemperatursensor",
+  "causes": [
+   "Der Sensor für die Umgebungstemperatur ist defekt."
+  ],
+  "steps": [
+   "Notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Rufen Sie den Hotpoint Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Hotpoint|E9": {
+  "title": "Temperaturalarm im Gefrierraum",
+  "causes": [
+   "Die Gefrierraumtür stand offen und der Gefrierraum hat sich erwärmt."
+  ],
+  "steps": [
+   "Schließen Sie die Gefrierraumtür richtig.",
+   "Prüfen Sie, ob etwas die Tür blockiert.",
+   "Prüfen Sie, ob Lebensmittel aufgetaut sind."
+  ],
+  "technician": "Bleibt der Alarm bei geschlossener Tür, rufen Sie den Hotpoint Kundendienst."
+ },
+ "Hotpoint|EE": {
+  "title": "Fehler im Stromkreis des Eisbereiters",
+  "causes": [
+   "Ein Fehler im Stromkreis des Eisbereiters (Modelle mit Eisbereiter)."
+  ],
+  "steps": [
+   "Schalten Sie den Eisbereiter aus, wenn möglich."
+  ],
+  "technician": "Rufen Sie den Hotpoint Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Indesit|E0": {
+  "title": "Fehler am Eisbereiter",
+  "causes": [
+   "Der Eisbereiter arbeitet nicht richtig (Modelle mit Eisbereiter)."
+  ],
+  "steps": [
+   "Schalten Sie den Eisbereiter aus, wenn möglich.",
+   "Nutzen Sie den Kühlschrank wie gewohnt weiter."
+  ],
+  "technician": "Rufen Sie den Indesit Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Indesit|E1": {
+  "title": "Fehler am Kühlraum-Sensor",
+  "causes": [
+   "Der Temperatursensor im Kühlraum ist defekt."
+  ],
+  "steps": [
+   "Notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Rufen Sie den Indesit Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Indesit|E2": {
+  "title": "Fehler am Gefrierraum-Sensor",
+  "causes": [
+   "Der Temperatursensor im Gefrierraum ist defekt.",
+   "Die Temperatur im Gefrierraum kann falsch sein."
+  ],
+  "steps": [
+   "Prüfen Sie, ob die Lebensmittel noch gefroren sind.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Rufen Sie den Indesit Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Indesit|E3": {
+  "title": "Fehler am Abtausensor",
+  "causes": [
+   "Der Abtausensor ist defekt.",
+   "Auch ein verstopfter Ablauf kann die Temperatur beeinflussen."
+  ],
+  "steps": [
+   "Prüfen Sie das Tauwasser-Abflussloch und gegebenenfalls das Ablaufrohr auf Verstopfungen.",
+   "Beseitigen Sie Verstopfungen vorsichtig."
+  ],
+  "technician": "Besteht der Fehler weiter, rufen Sie den Indesit Kundendienst."
+ },
+ "Indesit|E4": {
+  "title": "Fehler am Abtausensor des Kühlraums",
+  "causes": [
+   "Der Abtausensor im Kühlraum ist defekt."
+  ],
+  "steps": [
+   "Notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Rufen Sie den Indesit Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Indesit|E5": {
+  "title": "Fehler am Abtausensor des Gefrierraums",
+  "causes": [
+   "Der Abtausensor im Gefrierraum ist defekt."
+  ],
+  "steps": [
+   "Notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Rufen Sie den Indesit Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Indesit|E6": {
+  "title": "Fehler an Steuer- oder Anzeigeplatine",
+  "causes": [
+   "Die Hauptsteuerplatine oder die Anzeigeplatine ist defekt."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für einige Minuten und stecken Sie ihn wieder ein."
+  ],
+  "technician": "Rufen Sie den Indesit Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Indesit|E7": {
+  "title": "Fehler am Raumtemperatursensor",
+  "causes": [
+   "Der Sensor für die Umgebungstemperatur ist defekt."
+  ],
+  "steps": [
+   "Notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Rufen Sie den Indesit Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Indesit|E8": {
+  "title": "Fehler am Raumtemperatursensor",
+  "causes": [
+   "Der Sensor für die Umgebungstemperatur ist defekt."
+  ],
+  "steps": [
+   "Notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Rufen Sie den Indesit Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Indesit|E9": {
+  "title": "Temperaturalarm im Gefrierraum",
+  "causes": [
+   "Die Gefrierraumtür stand offen und der Gefrierraum hat sich erwärmt."
+  ],
+  "steps": [
+   "Schließen Sie die Gefrierraumtür richtig.",
+   "Prüfen Sie, ob etwas die Tür blockiert.",
+   "Prüfen Sie, ob Lebensmittel aufgetaut sind."
+  ],
+  "technician": "Bleibt der Alarm bei geschlossener Tür, rufen Sie den Indesit Kundendienst."
+ },
+ "Indesit|EE": {
+  "title": "Fehler im Stromkreis des Eisbereiters",
+  "causes": [
+   "Ein Fehler im Stromkreis des Eisbereiters (Modelle mit Eisbereiter)."
+  ],
+  "steps": [
+   "Schalten Sie den Eisbereiter aus, wenn möglich."
+  ],
+  "technician": "Rufen Sie den Indesit Kundendienst und vereinbaren Sie einen Technikertermin."
+ },
+ "Whirlpool|F3 E1": {
+  "title": "Systemfehler (blinkendes F)",
+  "causes": [
+   "Die Steuerung hat einen Fehler erkannt. Whirlpool nennt außer einem Neustart keine Lösung für zu Hause."
+  ],
+  "steps": [
+   "Schalten Sie die Sicherung aus oder ziehen Sie den Netzstecker für eine Minute.",
+   "Stellen Sie den Strom wieder her.",
+   "Achten Sie darauf, dass die Kühlung eingeschaltet ist.",
+   "Beobachten Sie eine Minute lang, ob der Code zurückkommt."
+  ],
+  "technician": "Kommt der Code nach dem Neustart wieder, vereinbaren Sie einen Termin mit dem Whirlpool Kundendienst."
+ },
+ "Whirlpool|F3 E2": {
+  "title": "Systemfehler (blinkendes F)",
+  "causes": [
+   "Die Steuerung hat einen Fehler erkannt. Whirlpool nennt außer einem Neustart keine Lösung für zu Hause."
+  ],
+  "steps": [
+   "Schalten Sie die Sicherung aus oder ziehen Sie den Netzstecker für eine Minute.",
+   "Stellen Sie den Strom wieder her.",
+   "Achten Sie darauf, dass die Kühlung eingeschaltet ist.",
+   "Beobachten Sie eine Minute lang, ob der Code zurückkommt."
+  ],
+  "technician": "Kommt der Code nach dem Neustart wieder, vereinbaren Sie einen Termin mit dem Whirlpool Kundendienst."
+ },
+ "Whirlpool|F6 E1": {
+  "title": "Systemfehler (blinkendes F)",
+  "causes": [
+   "Die Steuerung hat einen Fehler erkannt. Whirlpool nennt außer einem Neustart keine Lösung für zu Hause."
+  ],
+  "steps": [
+   "Schalten Sie die Sicherung aus oder ziehen Sie den Netzstecker für eine Minute.",
+   "Stellen Sie den Strom wieder her.",
+   "Achten Sie darauf, dass die Kühlung eingeschaltet ist.",
+   "Beobachten Sie eine Minute lang, ob der Code zurückkommt."
+  ],
+  "technician": "Kommt der Code nach dem Neustart wieder, vereinbaren Sie einen Termin mit dem Whirlpool Kundendienst."
+ },
+ "Whirlpool|F8 E1": {
+  "title": "Systemfehler (blinkendes F)",
+  "causes": [
+   "Die Steuerung hat einen Fehler erkannt. Whirlpool nennt außer einem Neustart keine Lösung für zu Hause."
+  ],
+  "steps": [
+   "Schalten Sie die Sicherung aus oder ziehen Sie den Netzstecker für eine Minute.",
+   "Stellen Sie den Strom wieder her.",
+   "Achten Sie darauf, dass die Kühlung eingeschaltet ist.",
+   "Beobachten Sie eine Minute lang, ob der Code zurückkommt."
+  ],
+  "technician": "Kommt der Code nach dem Neustart wieder, vereinbaren Sie einen Termin mit dem Whirlpool Kundendienst."
+ },
+ "Whirlpool|F8 E2": {
+  "title": "Systemfehler (blinkendes F)",
+  "causes": [
+   "Die Steuerung hat einen Fehler erkannt. Whirlpool nennt außer einem Neustart keine Lösung für zu Hause."
+  ],
+  "steps": [
+   "Schalten Sie die Sicherung aus oder ziehen Sie den Netzstecker für eine Minute.",
+   "Stellen Sie den Strom wieder her.",
+   "Achten Sie darauf, dass die Kühlung eingeschaltet ist.",
+   "Beobachten Sie eine Minute lang, ob der Code zurückkommt."
+  ],
+  "technician": "Kommt der Code nach dem Neustart wieder, vereinbaren Sie einen Termin mit dem Whirlpool Kundendienst."
+ },
+ "Whirlpool|PO": {
+  "title": "Stromausfall-Warnung",
+  "causes": [
+   "Der Strom fiel aus und der Gefrierraum hat sich auf -8 °C (18 °F) oder mehr erwärmt."
+  ],
+  "steps": [
+   "Drücken Sie die Taste unter der blinkenden Beschriftung Confirm (Bestätigen), um die Warnung zu löschen.",
+   "Prüfen Sie Tiefkühlware auf Antauen."
+  ],
+  "technician": "Kein Fehler. Wenden Sie sich nur an Whirlpool, wenn PO ohne echten Stromausfall erscheint."
+ },
+ "Bosch|E02": {
+  "title": "Fehler am Eisbereiter oder Wassersystem",
+  "causes": [
+   "Der Eisbereiter ist defekt.",
+   "Die Steuerungen für Eis und Wasser kommunizieren nicht miteinander."
+  ],
+  "steps": [
+   "Schalten Sie die Sicherung des Kühlschranks für 30 Sekunden aus.",
+   "Schalten Sie sie wieder ein und prüfen Sie den Code."
+  ],
+  "technician": "Bleibt E02, wenden Sie sich an den Bosch Kundendienst."
+ },
+ "Bosch|E03": {
+  "title": "Fehler an der Spendersteuerung",
+  "causes": [
+   "Das Bedienfeld des Spenders hat einen Fehler."
+  ],
+  "steps": [
+   "Schalten Sie die Sicherung des Kühlschranks für 30 Sekunden aus.",
+   "Schalten Sie sie wieder ein und prüfen Sie den Code."
+  ],
+  "technician": "Bleibt E03, wenden Sie sich an den Bosch Kundendienst."
+ },
+ "Haier|F1": {
+  "title": "Sensorfehler",
+  "causes": [
+   "Ein Temperatursensor ist defekt."
+  ],
+  "steps": [
+   "Schalten Sie den Kühlschrank einmal aus und wieder ein, um zu sehen, ob der Code verschwindet.",
+   "Kommt er wieder, notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Das können Sie nicht selbst beheben. Fordern Sie beim Haier Kundendienst einen Techniker an."
+ },
+ "Haier|E0": {
+  "title": "Kommunikationsfehler",
+  "causes": [
+   "Interne Platinen kommunizieren nicht miteinander."
+  ],
+  "steps": [
+   "Schalten Sie den Kühlschrank einmal aus und wieder ein, um zu sehen, ob der Code verschwindet.",
+   "Kommt er wieder, notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Das können Sie nicht selbst beheben. Fordern Sie beim Haier Kundendienst einen Techniker an."
+ },
+ "Haier|E1": {
+  "title": "Lüfterfehler",
+  "causes": [
+   "Ein Lüfter arbeitet nicht."
+  ],
+  "steps": [
+   "Schalten Sie den Kühlschrank einmal aus und wieder ein, um zu sehen, ob der Code verschwindet.",
+   "Kommt er wieder, notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Das können Sie nicht selbst beheben. Fordern Sie beim Haier Kundendienst einen Techniker an."
+ },
+ "Haier|Er": {
+  "title": "Fehler am Eisbereiter",
+  "causes": [
+   "Der Eisbereiter ist defekt."
+  ],
+  "steps": [
+   "Schalten Sie den Kühlschrank einmal aus und wieder ein, um zu sehen, ob der Code verschwindet.",
+   "Kommt er wieder, notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Das können Sie nicht selbst beheben. Fordern Sie beim Haier Kundendienst einen Techniker an."
+ },
+ "Haier|Ed": {
+  "title": "Abtaufehler",
+  "causes": [
+   "Das Abtausystem ist defekt."
+  ],
+  "steps": [
+   "Schalten Sie den Kühlschrank einmal aus und wieder ein, um zu sehen, ob der Code verschwindet.",
+   "Kommt er wieder, notieren Sie den Code.",
+   "Halten Sie die Türen möglichst geschlossen, um die Lebensmittel zu schützen."
+  ],
+  "technician": "Das können Sie nicht selbst beheben. Fordern Sie beim Haier Kundendienst einen Techniker an."
+ }
+}

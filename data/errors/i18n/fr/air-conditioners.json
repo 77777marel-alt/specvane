@@ -1,0 +1,1180 @@
+{
+ "LG|CH00": {
+  "title": "L'appareil doit être vérifié (erreur générale)",
+  "causes": [
+   "Une variation de courant ou une perturbation électrique passagère.",
+   "Une panne interne qui doit être vérifiée."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si CH00 revient après la remise sous tension, demandez l'intervention d'un technicien LG."
+ },
+ "LG|CH01": {
+  "title": "Défaut de sonde de température",
+  "causes": [
+   "Une sonde de température ou de tuyauterie est défectueuse ou s'est détachée.",
+   "Une erreur de la carte principale ou une brève anomalie électrique."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez.",
+   "Vérifiez si le code a disparu."
+  ],
+  "technician": "Si le code revient après une réinitialisation, n'utilisez plus l'appareil et demandez une intervention du service après-vente LG. N'ouvrez pas l'appareil."
+ },
+ "LG|CH02": {
+  "title": "Défaut de sonde de température",
+  "causes": [
+   "Une sonde de température ou de tuyauterie est défectueuse ou s'est détachée.",
+   "Une erreur de la carte principale ou une brève anomalie électrique."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez.",
+   "Vérifiez si le code a disparu."
+  ],
+  "technician": "Si le code revient après une réinitialisation, n'utilisez plus l'appareil et demandez une intervention du service après-vente LG. N'ouvrez pas l'appareil."
+ },
+ "LG|CH06": {
+  "title": "Défaut de sonde de température",
+  "causes": [
+   "Une sonde de température ou de tuyauterie est défectueuse ou s'est détachée.",
+   "Une erreur de la carte principale ou une brève anomalie électrique."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez.",
+   "Vérifiez si le code a disparu."
+  ],
+  "technician": "Si le code revient après une réinitialisation, n'utilisez plus l'appareil et demandez une intervention du service après-vente LG. N'ouvrez pas l'appareil."
+ },
+ "LG|CH21": {
+  "title": "Défaut du compresseur ou du circuit de commande de l'unité extérieure",
+  "causes": [
+   "Un bref problème de courant.",
+   "Un défaut du compresseur, de son circuit de commande ou de son circuit de protection dans l'unité extérieure."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code persiste, n'utilisez plus l'appareil et demandez l'intervention d'un technicien LG."
+ },
+ "LG|CH26": {
+  "title": "Défaut du compresseur ou du circuit de commande de l'unité extérieure",
+  "causes": [
+   "Un bref problème de courant.",
+   "Un défaut du compresseur, de son circuit de commande ou de son circuit de protection dans l'unité extérieure."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code persiste, n'utilisez plus l'appareil et demandez l'intervention d'un technicien LG."
+ },
+ "LG|CH04": {
+  "title": "Problème d'évacuation ou bac à condensats plein",
+  "causes": [
+   "L'évacuation intérieure ne fonctionne pas (unités de plafond).",
+   "Sur les climatiseurs de fenêtre et mobiles, le bac à condensats est plein, souvent par temps humide."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil.",
+   "Sur les climatiseurs de fenêtre ou mobiles, placez un récipient d'environ 1,5 L sous l'orifice d'évacuation en bas à l'arrière et retirez le bouchon.",
+   "Laissez l'eau s'écouler, puis remettez bien le bouchon.",
+   "Vous pouvez raccorder un tuyau pour une évacuation continue ; vérifiez que l'eau ne goutte sur personne en dessous."
+  ],
+  "technician": "Si CH04/FL apparaît souvent même par temps sec, ou sur une unité de plafond après une réinitialisation, demandez une intervention du service après-vente LG."
+ },
+ "LG|CH05": {
+  "title": "Erreur de communication entre unités intérieure et extérieure",
+  "causes": [
+   "Les unités intérieure et extérieure ne communiquent pas.",
+   "Un problème de câblage après une nouvelle installation ou un déménagement."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code reste affiché après une réinitialisation, ou si l'appareil vient d'être installé ou déplacé, demandez une intervention."
+ },
+ "LG|CH07": {
+  "title": "Conflit de modes de fonctionnement",
+  "causes": [
+   "Deux unités intérieures d'un même système sont réglées sur des modes opposés (chauffage contre froid/déshumidification)."
+  ],
+  "steps": [
+   "Réglez toutes les unités intérieures sur chauffage, ou toutes sur froid/déshumidification.",
+   "Les modes ventilation et purification d'air peuvent fonctionner avec n'importe quel mode."
+  ],
+  "technician": "Si le code reste affiché avec toutes les unités sur le même mode, contactez l'assistance LG."
+ },
+ "LG|CH10": {
+  "title": "Problème de ventilateur intérieur",
+  "causes": [
+   "Des débris ou de la glace bloquent le ventilateur intérieur.",
+   "Un défaut du moteur du ventilateur."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Retirez les débris visibles à l'entrée et à la sortie d'air. N'ouvrez pas le boîtier.",
+   "Vérifiez les filtres à air de l'unité intérieure et nettoyez-les s'ils sont poussiéreux.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si rien ne bloque le ventilateur et que le code revient, demandez une intervention."
+ },
+ "LG|CH67": {
+  "title": "Problème de ventilateur extérieur",
+  "causes": [
+   "Des débris ou de la neige bloquent le ventilateur extérieur.",
+   "Un défaut du moteur du ventilateur extérieur."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Retirez les feuilles, la neige ou les objets autour de la grille de l'unité extérieure.",
+   "Vérifiez que rien ne gêne la circulation d'air autour de l'unité extérieure (cartons, plantes, neige, feuilles).",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si rien ne le bloque et que le code revient, demandez une intervention."
+ },
+ "LG|CH38": {
+  "title": "Manque de fluide frigorigène",
+  "causes": [
+   "La charge en fluide frigorigène est faible, souvent après une installation ou un déménagement.",
+   "Un raccord de tuyau desserré ou une fuite."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si l'appareil a été installé ou déplacé récemment, appelez l'installateur ; sinon, contactez l'assistance LG si le code revient. Toute intervention sur le fluide frigorigène est réservée aux techniciens."
+ },
+ "LG|CH54": {
+  "title": "Inversion de phase ou erreur d'alimentation",
+  "causes": [
+   "Une brève coupure de courant ou des travaux électriques récents.",
+   "Le câblage des phases est inversé."
+  ],
+  "steps": [
+   "Coupez le disjoncteur du climatiseur, puis réarmez-le."
+  ],
+  "technician": "Si le code est apparu après des travaux électriques, demandez à l'électricien de corriger le câblage ; sinon, contactez le service après-vente LG."
+ },
+ "LG|CH61": {
+  "title": "Surchauffe de l'appareil",
+  "causes": [
+   "En mode froid : l'unité extérieure est mal ventilée, par exemple sur un balcon fermé.",
+   "En mode chauffage : le filtre intérieur est encrassé."
+  ],
+  "steps": [
+   "En mode froid, ouvrez les fenêtres ou les protections près de l'unité extérieure et dégagez ce qui l'encombre.",
+   "Vérifiez les filtres à air de l'unité intérieure et nettoyez-les s'ils sont poussiéreux.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code persiste après une réinitialisation et une meilleure circulation d'air, un technicien doit examiner l'appareil."
+ },
+ "LG|CH66": {
+  "title": "Problème de câblage ou de tuyauterie entre unités intérieure et extérieure",
+  "causes": [
+   "Un problème de ligne de communication ou de raccord de tuyauterie entre les unités."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si l'appareil vient d'être installé ou déplacé, appelez l'installateur ; si le code persiste, demandez l'intervention d'un technicien."
+ },
+ "LG|CH90": {
+  "title": "Protection pendant l'essai de fonctionnement",
+  "causes": [
+   "L'essai de fonctionnement a détecté un problème, souvent au niveau des raccords de tuyauterie."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si l'appareil est neuf ou a été déplacé, demandez à l'installateur de vérifier la tuyauterie ; sinon, demandez une intervention si le problème persiste."
+ },
+ "LG|CH93": {
+  "title": "Communication instable entre unités intérieure et extérieure",
+  "causes": [
+   "Communication instable pendant l'essai de fonctionnement.",
+   "Sur les modèles récents, l'unité extérieure n'est pas alimentée."
+  ],
+  "steps": [
+   "Vérifiez que les deux cordons d'alimentation sont branchés (les modèles récents en ont un par unité).",
+   "Branchez l'unité extérieure directement sur une prise murale, pas sur une multiprise.",
+   "Vérifiez que le disjoncteur du climatiseur est enclenché. S'il ne reste pas enclenché, ne le réarmez pas sans cesse.",
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le disjoncteur saute encore ou si le code persiste, contactez le service après-vente LG."
+ },
+ "Samsung|E121": {
+  "title": "Défaut de sonde de température ambiante",
+  "causes": [
+   "La sonde de température ambiante intérieure est défectueuse."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez.",
+   "Notez le code et le numéro de votre modèle avant d'appeler le service après-vente."
+  ],
+  "technician": "Une réparation agréée Samsung est nécessaire ; contactez le service après-vente Samsung."
+ },
+ "Samsung|E122": {
+  "title": "Défaut de la sonde de température de l'échangeur thermique",
+  "causes": [
+   "La sonde de l'échangeur thermique intérieur est défectueuse."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez.",
+   "Notez le code et le numéro de votre modèle avant d'appeler le service après-vente."
+  ],
+  "technician": "Une réparation agréée Samsung est nécessaire ; contactez le service après-vente Samsung."
+ },
+ "Samsung|E154": {
+  "title": "Le ventilateur intérieur ne tourne pas",
+  "causes": [
+   "Le moteur du ventilateur intérieur est en mode protection, par exemple après une surtension.",
+   "Le moteur du ventilateur ou la carte de commande est défectueux."
+  ],
+  "steps": [
+   "Éteignez l'appareil, attendez quelques secondes et rallumez-le.",
+   "Observez si le code revient dans les 10 secondes environ.",
+   "Si les surtensions sont fréquentes chez vous, envisagez un stabilisateur de tension."
+  ],
+  "technician": "Si le code revient juste après le redémarrage, contactez le service après-vente Samsung."
+ },
+ "Samsung|E163": {
+  "title": "Erreur de mémoire (EEPROM) de la carte de commande",
+  "causes": [
+   "Les données de la mémoire de la carte principale sont erronées ou manquantes."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez.",
+   "Notez le code et le numéro de votre modèle avant d'appeler le service après-vente."
+  ],
+  "technician": "Une réparation agréée Samsung est nécessaire ; contactez le service après-vente Samsung."
+ },
+ "Samsung|CF": {
+  "title": "Rappel de nettoyage du filtre",
+  "causes": [
+   "La minuterie de nettoyage du filtre est arrivée à échéance."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Retirez et nettoyez les filtres de l'unité intérieure.",
+   "Remettez les filtres et réinitialisez l'indicateur de filtre."
+  ],
+  "technician": "Aucun technicien n'est nécessaire pour ce rappel."
+ },
+ "Samsung|dF": {
+  "title": "Dégivrage en mode chauffage",
+  "causes": [
+   "L'unité extérieure fait fondre la glace pendant le chauffage. La vapeur qui sort de l'unité extérieure est normale."
+  ],
+  "steps": [
+   "Patientez ; le chauffage reprend à la fin du dégivrage.",
+   "Aucune action n'est nécessaire."
+  ],
+  "technician": "Appelez le service après-vente seulement si l'appareil reste très longtemps en dégivrage et ne chauffe pas."
+ },
+ "Daikin|A1": {
+  "title": "Défaut de la carte électronique de l'unité intérieure",
+  "causes": [
+   "La carte de commande intérieure présente un défaut."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|A3": {
+  "title": "Problème de contrôle du niveau d'évacuation",
+  "causes": [
+   "L'eau de condensation ne s'évacue pas de l'unité intérieure.",
+   "Le tuyau d'évacuation est peut-être bouché."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez à l'extérieur que le tuyau d'évacuation n'est ni plié ni bouché.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|A5": {
+  "title": "Protection antigel ou haute pression",
+  "causes": [
+   "En mode froid, la batterie intérieure devient trop froide.",
+   "En mode chauffage, la pression est trop élevée, souvent à cause d'une mauvaise circulation d'air."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez les filtres à air de l'unité intérieure et nettoyez-les s'ils sont poussiéreux.",
+   "Vérifiez que rien ne bloque l'entrée ou la sortie d'air de l'unité intérieure.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|A6": {
+  "title": "Défaut du moteur du ventilateur intérieur",
+  "causes": [
+   "Le moteur du ventilateur intérieur ou sa commande est en panne ou bloqué."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez que rien n'est coincé dans la sortie d'air de l'unité intérieure. N'ouvrez pas le boîtier.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|C4": {
+  "title": "Défaut de la sonde de température de la batterie intérieure",
+  "causes": [
+   "La thermistance du tuyau liquide sur l'échangeur thermique intérieur est défectueuse."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|C9": {
+  "title": "Défaut de la sonde d'ambiance (air aspiré)",
+  "causes": [
+   "La thermistance d'air intérieur est défectueuse."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|E1": {
+  "title": "Défaut de la carte électronique de l'unité extérieure",
+  "causes": [
+   "La carte de commande extérieure présente un défaut."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|E3": {
+  "title": "Le pressostat haute pression s'est déclenché",
+  "causes": [
+   "La pression du système est trop élevée, souvent à cause d'une mauvaise circulation d'air à l'extérieur ou d'une batterie sale."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez que rien ne gêne la circulation d'air autour de l'unité extérieure (cartons, plantes, neige, feuilles).",
+   "Vérifiez les filtres à air de l'unité intérieure et nettoyez-les s'ils sont poussiéreux.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|E5": {
+  "title": "Surchauffe ou blocage du compresseur",
+  "causes": [
+   "Le compresseur Inverter a surchauffé ou ne démarre pas."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez que rien ne gêne la circulation d'air autour de l'unité extérieure (cartons, plantes, neige, feuilles).",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|E6": {
+  "title": "Surintensité ou blocage du compresseur",
+  "causes": [
+   "Le compresseur consomme trop de courant ou est bloqué."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|E7": {
+  "title": "Défaut du moteur du ventilateur extérieur",
+  "causes": [
+   "Le système du moteur du ventilateur extérieur présente un défaut ou est bloqué."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Retirez les feuilles, la neige ou les objets de la grille de l'unité extérieure.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|E8": {
+  "title": "Surintensité du compresseur",
+  "causes": [
+   "Le courant d'entrée du compresseur Inverter est trop élevé."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|F3": {
+  "title": "Température du tuyau de refoulement trop élevée",
+  "causes": [
+   "Le tuyau de refoulement du compresseur surchauffe, par exemple par manque de fluide frigorigène ou mauvaise circulation d'air."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez que rien ne gêne la circulation d'air autour de l'unité extérieure (cartons, plantes, neige, feuilles).",
+   "Vérifiez les filtres à air de l'unité intérieure et nettoyez-les s'ils sont poussiéreux.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|F6": {
+  "title": "Haute pression anormale",
+  "causes": [
+   "La pression du fluide frigorigène est trop élevée, peut-être à cause d'une surcharge ou d'une circulation d'air bloquée."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez que rien ne gêne la circulation d'air autour de l'unité extérieure (cartons, plantes, neige, feuilles).",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|H6": {
+  "title": "Défaut du capteur de position du compresseur",
+  "causes": [
+   "La détection de position du rotor du compresseur a échoué."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|H8": {
+  "title": "Défaut du capteur de courant du compresseur",
+  "causes": [
+   "Le circuit de mesure du courant d'entrée du compresseur (CT) présente un défaut."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|H9": {
+  "title": "Défaut de la sonde d'air extérieur",
+  "causes": [
+   "La thermistance d'air extérieur est défectueuse."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|J3": {
+  "title": "Défaut de la sonde du tuyau de refoulement",
+  "causes": [
+   "La thermistance du tuyau de refoulement est défectueuse."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|L4": {
+  "title": "Surchauffe du dissipateur de l'Inverter",
+  "causes": [
+   "L'ailette de refroidissement de l'Inverter est trop chaude, souvent à cause d'une circulation d'air bloquée à l'extérieur."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez que rien ne gêne la circulation d'air autour de l'unité extérieure (cartons, plantes, neige, feuilles).",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|L5": {
+  "title": "Surintensité de l'Inverter",
+  "causes": [
+   "Une surintensité soudaine en sortie de l'Inverter, souvent due à un problème de compresseur."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|U0": {
+  "title": "Manque de fluide frigorigène",
+  "causes": [
+   "Le système manque de fluide frigorigène, généralement à cause d'une fuite."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez les filtres à air de l'unité intérieure et nettoyez-les s'ils sont poussiéreux.",
+   "N'essayez pas d'ajouter du fluide frigorigène vous-même."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|U2": {
+  "title": "Problème d'alimentation électrique",
+  "causes": [
+   "La tension d'alimentation est anormale ou il y a eu une brève coupure de courant."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Daikin|U4": {
+  "title": "Défaut de communication entre unités intérieure et extérieure",
+  "causes": [
+   "Les signaux entre les unités intérieure et extérieure sont perdus.",
+   "Un problème de câblage ou une panne sur l'une des cartes."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si le code revient après ces vérifications, appelez un technicien Daikin ; cette panne nécessite un diagnostic professionnel."
+ },
+ "Panasonic|H00": {
+  "title": "Aucune panne enregistrée",
+  "causes": [
+   "La mémoire d'autodiagnostic n'a enregistré aucune anomalie."
+  ],
+  "steps": [
+   "Aucune action n'est nécessaire.",
+   "Si l'appareil ne fonctionne pas, vérifiez l'alimentation et les piles de la télécommande."
+  ],
+  "technician": "Si l'appareil ne fonctionne pas mais affiche H00, contactez un technicien Panasonic."
+ },
+ "Panasonic|H11": {
+  "title": "Défaut de communication entre unités intérieure et extérieure",
+  "causes": [
+   "Les unités intérieure et extérieure ne communiquent pas."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Panasonic recommande de confier les réparations liées à ce code à un technicien qualifié ; appelez-en un si le code revient."
+ },
+ "Panasonic|H12": {
+  "title": "Puissance de l'unité intérieure incompatible",
+  "causes": [
+   "L'unité intérieure ne correspond pas à la puissance de l'unité extérieure, en général un problème d'installation."
+  ],
+  "steps": [
+   "Notez le code et le numéro de votre modèle avant d'appeler le service après-vente."
+  ],
+  "technician": "Contactez votre installateur ou un technicien Panasonic pour vérifier la combinaison des unités."
+ },
+ "Panasonic|H14": {
+  "title": "Défaut de la sonde de température d'air intérieur",
+  "causes": [
+   "La sonde d'air aspiré intérieur est défectueuse."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Panasonic recommande de confier les réparations liées à ce code à un technicien qualifié ; appelez-en un si le code revient."
+ },
+ "Panasonic|H15": {
+  "title": "Défaut de la sonde de température du compresseur",
+  "causes": [
+   "La sonde de température du compresseur est défectueuse."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Panasonic recommande de confier les réparations liées à ce code à un technicien qualifié ; appelez-en un si le code revient."
+ },
+ "Panasonic|H16": {
+  "title": "Défaut du capteur de courant extérieur",
+  "causes": [
+   "Le transformateur de courant extérieur (CT) est défectueux."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Panasonic recommande de confier les réparations liées à ce code à un technicien qualifié ; appelez-en un si le code revient."
+ },
+ "Panasonic|H19": {
+  "title": "Moteur du ventilateur intérieur bloqué",
+  "causes": [
+   "Le moteur du ventilateur intérieur est bloqué ou défectueux."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez que rien n'est coincé dans la sortie d'air de l'unité intérieure. N'ouvrez pas le boîtier.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Panasonic recommande de confier les réparations liées à ce code à un technicien qualifié ; appelez-en un si le code revient."
+ },
+ "Panasonic|H23": {
+  "title": "Défaut de la sonde de l'échangeur thermique intérieur",
+  "causes": [
+   "La sonde de température de la batterie intérieure est défectueuse."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Panasonic recommande de confier les réparations liées à ce code à un technicien qualifié ; appelez-en un si le code revient."
+ },
+ "Panasonic|H27": {
+  "title": "Défaut de la sonde d'air extérieur",
+  "causes": [
+   "La sonde de température d'air extérieur est défectueuse."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Panasonic recommande de confier les réparations liées à ce code à un technicien qualifié ; appelez-en un si le code revient."
+ },
+ "Panasonic|H28": {
+  "title": "Défaut de la sonde de l'échangeur thermique extérieur",
+  "causes": [
+   "La sonde de température de la batterie extérieure est défectueuse."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Panasonic recommande de confier les réparations liées à ce code à un technicien qualifié ; appelez-en un si le code revient."
+ },
+ "Panasonic|H33": {
+  "title": "Unités intérieure et extérieure mal raccordées",
+  "causes": [
+   "Le raccordement entre les unités est incorrect, en général après l'installation."
+  ],
+  "steps": [
+   "Notez le code et le numéro de votre modèle avant d'appeler le service après-vente."
+  ],
+  "technician": "Demandez à l'installateur ou à un technicien Panasonic de vérifier le câblage."
+ },
+ "Panasonic|H97": {
+  "title": "Moteur du ventilateur extérieur bloqué",
+  "causes": [
+   "Le ventilateur extérieur est bloqué ou son moteur est en panne."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Retirez les feuilles, la neige ou les objets autour de la grille du ventilateur extérieur.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Panasonic recommande de confier les réparations liées à ce code à un technicien qualifié ; appelez-en un si le code revient."
+ },
+ "Panasonic|H98": {
+  "title": "Protection haute pression intérieure",
+  "causes": [
+   "La pression est trop élevée en mode chauffage, souvent à cause d'un filtre sale."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez les filtres à air de l'unité intérieure et nettoyez-les s'ils sont poussiéreux.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Panasonic recommande de confier les réparations liées à ce code à un technicien qualifié ; appelez-en un si le code revient."
+ },
+ "Panasonic|H99": {
+  "title": "Protection antigel intérieure",
+  "causes": [
+   "La batterie intérieure est devenue trop froide en mode froid, souvent à cause d'un filtre sale ou d'un faible débit d'air."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez les filtres à air de l'unité intérieure et nettoyez-les s'ils sont poussiéreux.",
+   "Laissez fondre la glace sur la batterie intérieure avant de redémarrer.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Panasonic recommande de confier les réparations liées à ce code à un technicien qualifié ; appelez-en un si le code revient."
+ },
+ "Panasonic|F11": {
+  "title": "Défaut de commutation de la vanne 4 voies",
+  "causes": [
+   "La vanne qui bascule entre froid et chauffage ne fonctionne pas."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Panasonic recommande de confier les réparations liées à ce code à un technicien qualifié ; appelez-en un si le code revient."
+ },
+ "Panasonic|F91": {
+  "title": "Défaut du cycle frigorifique",
+  "causes": [
+   "Le circuit frigorifique ne fonctionne pas correctement, souvent par manque de fluide frigorigène."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez les filtres à air de l'unité intérieure et nettoyez-les s'ils sont poussiéreux.",
+   "N'intervenez jamais vous-même sur le fluide frigorigène."
+  ],
+  "technician": "Panasonic recommande de confier les réparations liées à ce code à un technicien qualifié ; appelez-en un si le code revient."
+ },
+ "Panasonic|F93": {
+  "title": "Vitesse anormale du compresseur",
+  "causes": [
+   "Le compresseur tourne à une vitesse anormale."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Panasonic recommande de confier les réparations liées à ce code à un technicien qualifié ; appelez-en un si le code revient."
+ },
+ "Panasonic|F95": {
+  "title": "Protection haute pression extérieure en mode froid",
+  "causes": [
+   "La pression est trop élevée, souvent à cause d'une mauvaise circulation d'air à l'extérieur."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez que rien ne gêne la circulation d'air autour de l'unité extérieure (cartons, plantes, neige, feuilles).",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Panasonic recommande de confier les réparations liées à ce code à un technicien qualifié ; appelez-en un si le code revient."
+ },
+ "Panasonic|F97": {
+  "title": "Protection contre la surchauffe du compresseur",
+  "causes": [
+   "Le compresseur surchauffe."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez que rien ne gêne la circulation d'air autour de l'unité extérieure (cartons, plantes, neige, feuilles).",
+   "Vérifiez les filtres à air de l'unité intérieure et nettoyez-les s'ils sont poussiéreux.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Panasonic recommande de confier les réparations liées à ce code à un technicien qualifié ; appelez-en un si le code revient."
+ },
+ "Panasonic|F99": {
+  "title": "Pic de courant continu détecté à l'extérieur",
+  "causes": [
+   "Un pic de courant anormal a été détecté dans l'unité extérieure."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Panasonic recommande de confier les réparations liées à ce code à un technicien qualifié ; appelez-en un si le code revient."
+ },
+ "Gree|E1": {
+  "title": "Protection haute pression",
+  "causes": [
+   "Les batteries ou les filtres sont sales.",
+   "Une obstruction dans le système ou trop de fluide frigorigène."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez les filtres à air de l'unité intérieure et nettoyez-les s'ils sont poussiéreux.",
+   "Vérifiez que rien ne gêne la circulation d'air autour de l'unité extérieure (cartons, plantes, neige, feuilles).",
+   "Vérifiez que les deux ventilateurs tournent quand l'appareil est en marche.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si les filtres et les batteries sont propres, appelez un frigoriste pour vérifier les pressions et le pressostat haute pression."
+ },
+ "Gree|E3": {
+  "title": "Protection basse pression",
+  "causes": [
+   "Les filtres ou les batteries sont sales.",
+   "Une fuite de fluide frigorigène."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez les filtres à air de l'unité intérieure et nettoyez-les s'ils sont poussiéreux.",
+   "Vérifiez que rien ne gêne la circulation d'air autour de l'unité extérieure (cartons, plantes, neige, feuilles)."
+  ],
+  "technician": "Si les filtres et les batteries sont propres, un technicien doit vérifier la charge en fluide frigorigène et rechercher les fuites."
+ },
+ "Gree|E5": {
+  "title": "Protection contre les surintensités",
+  "causes": [
+   "La tension d'alimentation est trop élevée, ou basse et instable."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Un technicien doit vérifier et stabiliser l'alimentation électrique."
+ },
+ "Gree|E7": {
+  "title": "Conflit de modes",
+  "causes": [
+   "Les unités intérieures raccordées à une même unité extérieure sont réglées sur des modes différents."
+  ],
+  "steps": [
+   "Réglez toutes les unités intérieures sur le même mode (toutes en froid ou toutes en chauffage)."
+  ],
+  "technician": "Si le code reste affiché avec toutes les unités sur le même mode, contactez un technicien Gree."
+ },
+ "Gree|F1": {
+  "title": "Défaut de la sonde d'ambiance intérieure",
+  "causes": [
+   "La sonde de température ambiante intérieure est défectueuse."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Les défauts de sonde nécessitent en général une pièce de rechange posée par un technicien qualifié."
+ },
+ "Gree|F2": {
+  "title": "Défaut de la sonde de la batterie intérieure",
+  "causes": [
+   "La sonde de l'évaporateur intérieur est défectueuse."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Les défauts de sonde nécessitent en général une pièce de rechange posée par un technicien qualifié."
+ },
+ "Gree|F3": {
+  "title": "Défaut de la sonde d'air extérieur",
+  "causes": [
+   "La sonde de température ambiante extérieure est défectueuse."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Les défauts de sonde nécessitent en général une pièce de rechange posée par un technicien qualifié."
+ },
+ "Gree|F4": {
+  "title": "Défaut de la sonde de la batterie extérieure",
+  "causes": [
+   "La sonde du tube extérieur est défectueuse."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Les défauts de sonde nécessitent en général une pièce de rechange posée par un technicien qualifié."
+ },
+ "Gree|F5": {
+  "title": "Défaut de la sonde de refoulement",
+  "causes": [
+   "La sonde de refoulement du compresseur est défectueuse."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Les défauts de sonde nécessitent en général une pièce de rechange posée par un technicien qualifié."
+ },
+ "Gree|H1": {
+  "title": "Dégivrage en cours",
+  "causes": [
+   "L'unité extérieure dégivre pendant le chauffage. C'est un fonctionnement normal."
+  ],
+  "steps": [
+   "Attendez la fin du dégivrage ; le chauffage reprend tout seul."
+  ],
+  "technician": "Appelez un technicien seulement si l'appareil dégivre sans arrêt et ne chauffe pas."
+ },
+ "Gree|H5": {
+  "title": "Protection du module de puissance (IPM)",
+  "causes": [
+   "Le module de puissance de l'Inverter s'est arrêté à cause d'un problème de tension ou de température."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si H5 revient, l'appareil doit être révisé par un professionnel."
+ },
+ "Gree|U3": {
+  "title": "Chute de tension du bus continu",
+  "causes": [
+   "La tension continue interne a chuté, souvent à cause de problèmes d'alimentation."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si U3 revient, faites examiner l'appareil et l'alimentation par un professionnel."
+ },
+ "Gree|L9": {
+  "title": "Protection de l'alimentation",
+  "causes": [
+   "Une forte surtension a déclenché le mode protection."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Si L9 revient, faites examiner l'appareil et l'alimentation par un professionnel."
+ },
+ "Haier|E1": {
+  "title": "Défaut de la sonde de température intérieure (split)",
+  "causes": [
+   "La sonde de température ambiante intérieure est défectueuse."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Selon Haier, ce code ne peut être réparé que par un technicien du service après-vente ; appelez le service après-vente Haier."
+ },
+ "Haier|E2": {
+  "title": "Défaut de la sonde de température du tuyau intérieur (split)",
+  "causes": [
+   "La sonde du tuyau de la batterie intérieure est défectueuse."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Selon Haier, ce code ne peut être réparé que par un technicien du service après-vente ; appelez le service après-vente Haier."
+ },
+ "Haier|E4": {
+  "title": "Défaut de mémoire (EEPROM) intérieure (split)",
+  "causes": [
+   "La mémoire de la carte de commande intérieure présente un défaut."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Selon Haier, ce code ne peut être réparé que par un technicien du service après-vente ; appelez le service après-vente Haier."
+ },
+ "Haier|E5": {
+  "title": "Protection antigel intérieure",
+  "causes": [
+   "La batterie intérieure devient trop froide, souvent à cause d'un faible débit d'air."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez les filtres à air de l'unité intérieure et nettoyez-les s'ils sont poussiéreux.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Selon Haier, ce code ne peut être réparé que par un technicien du service après-vente ; appelez le service après-vente Haier."
+ },
+ "Haier|E7": {
+  "title": "Défaut de communication entre unités intérieure et extérieure",
+  "causes": [
+   "Les unités intérieure et extérieure ne communiquent pas."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Selon Haier, ce code ne peut être réparé que par un technicien du service après-vente ; appelez le service après-vente Haier."
+ },
+ "Haier|E9": {
+  "title": "Surcharge intérieure en mode chauffage",
+  "causes": [
+   "L'unité intérieure surchauffe en mode chauffage, souvent à cause d'un filtre encrassé."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez les filtres à air de l'unité intérieure et nettoyez-les s'ils sont poussiéreux.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Selon Haier, ce code ne peut être réparé que par un technicien du service après-vente ; appelez le service après-vente Haier."
+ },
+ "Haier|E14": {
+  "title": "Défaut du moteur du ventilateur intérieur",
+  "causes": [
+   "Le moteur du ventilateur intérieur est défectueux ou bloqué."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Selon Haier, ce code ne peut être réparé que par un technicien du service après-vente ; appelez le service après-vente Haier."
+ },
+ "Haier|F1": {
+  "title": "Protection du module de puissance (IPM)",
+  "causes": [
+   "Le module Inverter extérieur s'est mis en protection."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Selon Haier, ce code ne peut être réparé que par un technicien du service après-vente ; appelez le service après-vente Haier."
+ },
+ "Haier|F8": {
+  "title": "Défaut du moteur de ventilateur DC extérieur",
+  "causes": [
+   "Le moteur du ventilateur extérieur est défectueux ou bloqué."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez que rien ne gêne la circulation d'air autour de l'unité extérieure (cartons, plantes, neige, feuilles).",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Selon Haier, ce code ne peut être réparé que par un technicien du service après-vente ; appelez le service après-vente Haier."
+ },
+ "Haier|F12": {
+  "title": "Défaut de mémoire (EEPROM) extérieure",
+  "causes": [
+   "La mémoire de la carte extérieure présente un défaut."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Selon Haier, ce code ne peut être réparé que par un technicien du service après-vente ; appelez le service après-vente Haier."
+ },
+ "Haier|F13": {
+  "title": "Manque de fluide frigorigène",
+  "causes": [
+   "Le système manque de fluide frigorigène, généralement à cause d'une fuite."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "N'essayez pas d'ajouter du fluide frigorigène vous-même.",
+   "Notez le code et le numéro de votre modèle avant d'appeler le service après-vente."
+  ],
+  "technician": "Selon Haier, ce code ne peut être réparé que par un technicien du service après-vente ; appelez le service après-vente Haier."
+ },
+ "Haier|F19": {
+  "title": "Tension d'alimentation trop élevée ou trop basse",
+  "causes": [
+   "La tension secteur est en dehors de la plage autorisée."
+  ],
+  "steps": [
+   "Éteignez l'appareil avec la télécommande.",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Selon Haier, ce code ne peut être réparé que par un technicien du service après-vente ; appelez le service après-vente Haier."
+ },
+ "Haier|F20": {
+  "title": "Protection haute pression",
+  "causes": [
+   "La pression du système est trop élevée, souvent à cause d'une circulation d'air bloquée à l'extérieur."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez que rien ne gêne la circulation d'air autour de l'unité extérieure (cartons, plantes, neige, feuilles).",
+   "Coupez le disjoncteur du climatiseur ou débranchez-le.",
+   "Attendez environ 5 minutes, puis remettez le courant et rallumez."
+  ],
+  "technician": "Selon Haier, ce code ne peut être réparé que par un technicien du service après-vente ; appelez le service après-vente Haier."
+ },
+ "Haier|FL": {
+  "title": "Réservoir d'eau plein (climatiseur mobile)",
+  "causes": [
+   "Le réservoir d'eau interne est plein."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil.",
+   "Videz l'eau par l'orifice d'évacuation dans un récipient.",
+   "Remettez le bouchon d'évacuation et redémarrez l'appareil."
+  ],
+  "technician": "Si FL réapparaît juste après la vidange, contactez le service après-vente Haier."
+ },
+ "Haier|STOP": {
+  "title": "Réservoir plein ou flotteur bloqué (climatiseur mobile, 2016 et avant)",
+  "causes": [
+   "Le réservoir d'eau est plein.",
+   "Le flotteur du réservoir est bloqué par des débris."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil.",
+   "Videz le réservoir d'eau.",
+   "Vérifiez que le flotteur bouge librement et retirez les débris."
+  ],
+  "technician": "Si STOP reste affiché avec un réservoir vide et un flotteur libre, contactez le service après-vente Haier."
+ }
+}

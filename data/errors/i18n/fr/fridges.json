@@ -1,0 +1,1196 @@
+{
+ "Samsung|AP": {
+  "title": "Mode de configuration Wi-Fi",
+  "causes": [
+   "Le réfrigérateur sert de point d'accès Wi-Fi pour la configuration SmartThings."
+  ],
+  "steps": [
+   "Terminez la configuration dans l'application SmartThings, ou patientez. Le code disparaît tout seul."
+  ],
+  "technician": "Ce n'est pas une panne. Aucune intervention n'est nécessaire."
+ },
+ "Samsung|21E": {
+  "title": "Erreur du ventilateur du congélateur",
+  "causes": [
+   "Le ventilateur du congélateur est pris dans la glace, souvent après une porte restée ouverte ou un joint qui ne fermait pas bien.",
+   "Le moteur du ventilateur est en panne."
+  ],
+  "steps": [
+   "Vérifiez que la porte du congélateur se ferme et que le joint est étanche sur tout le tour.",
+   "Ne surchargez pas le congélateur.",
+   "Si possible, sortez les aliments et laissez le réfrigérateur dégivrer portes ouvertes."
+  ],
+  "technician": "Si le code revient après le dégivrage, le ventilateur doit être vérifié par un technicien Samsung."
+ },
+ "Samsung|22E": {
+  "title": "Erreur du ventilateur du réfrigérateur",
+  "causes": [
+   "La porte du réfrigérateur est restée ouverte trop longtemps et le ventilateur a givré."
+  ],
+  "steps": [
+   "Mettez les aliments dans un endroit frais.",
+   "Débranchez le réfrigérateur et laissez les portes ouvertes pendant quelques heures.",
+   "Rebranchez-le et fermez les portes."
+  ],
+  "technician": "Si 22E revient, contactez le service après-vente Samsung."
+ },
+ "Samsung|41C": {
+  "title": "Défaut Family Hub",
+  "causes": [
+   "Un problème logiciel sur l'écran Family Hub."
+  ],
+  "steps": [
+   "Installez la dernière mise à jour du logiciel.",
+   "Appuyez sur OK la première fois que le code apparaît après la mise à jour."
+  ],
+  "technician": "S'il revient toujours après la mise à jour, contactez le service après-vente Samsung."
+ },
+ "Samsung|76C": {
+  "title": "Eau dans le compartiment AutoFill",
+  "causes": [
+   "La carafe AutoFill fuit dans son compartiment."
+  ],
+  "steps": [
+   "Retirez la carafe et séchez le compartiment.",
+   "Vérifiez que la carafe est bien en place et qu'elle n'est pas fissurée."
+  ],
+  "technician": "Si de l'eau s'accumule encore, contactez le service après-vente Samsung."
+ },
+ "Samsung|85C": {
+  "title": "Tension d'alimentation faible (Family Hub)",
+  "causes": [
+   "Le plus souvent, une courte coupure de courant."
+  ],
+  "steps": [
+   "Maintenez OK enfoncé 3 secondes pour l'effacer."
+  ],
+  "technician": "Sans gravité en soi. Contactez Samsung uniquement s'il apparaît souvent."
+ },
+ "Samsung|88 88": {
+  "title": "Défaut de communication au démarrage",
+  "causes": [
+   "Le courant a été perturbé pendant le démarrage du réfrigérateur."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur ou coupez son disjoncteur pendant 60 secondes.",
+   "Remettez le courant et vérifiez si le code revient."
+  ],
+  "technician": "Si le code revient après une réinitialisation, contactez le service après-vente Samsung."
+ },
+ "Samsung|83E": {
+  "title": "Courant anormal du compresseur",
+  "causes": [
+   "Une surtension ou un problème électrique."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur ou coupez son disjoncteur pendant 60 secondes.",
+   "Remettez le courant et vérifiez si le code revient."
+  ],
+  "technician": "Si 83E revient, contactez le service après-vente Samsung."
+ },
+ "Samsung|85E": {
+  "title": "Tension basse du compresseur",
+  "causes": [
+   "Une baisse de tension ou une tension secteur trop faible."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur ou coupez son disjoncteur pendant 60 secondes.",
+   "Remettez le courant et vérifiez si le code revient."
+  ],
+  "technician": "Si 85E revient, faites vérifier l'alimentation et contactez le service après-vente Samsung."
+ },
+ "Samsung|86E": {
+  "title": "Tension élevée du compresseur",
+  "causes": [
+   "Une surtension, par exemple pendant un orage."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur ou coupez son disjoncteur pendant 60 secondes.",
+   "Remettez le courant et vérifiez si le code revient."
+  ],
+  "technician": "Si 86E revient, contactez le service après-vente Samsung."
+ },
+ "Samsung|PC ER": {
+  "title": "Erreur de communication interne",
+  "causes": [
+   "Une surtension récente.",
+   "Le connecteur de câblage de la porte est mal branché."
+  ],
+  "steps": [
+   "Coupez le courant à la prise ou au disjoncteur.",
+   "Vérifiez et rebranchez le connecteur de câblage au-dessus de la charnière de la porte.",
+   "Remettez le courant."
+  ],
+  "technician": "Si le code revient, contactez le service après-vente Samsung."
+ },
+ "Samsung|OF OF": {
+  "title": "Mode Cooling Off (démonstration)",
+  "causes": [
+   "Le mode démonstration ou magasin est activé, souvent par erreur. Le réfrigérateur ne refroidit pas."
+  ],
+  "steps": [
+   "Maintenez enfoncées les deux touches du haut à gauche du bandeau pendant 5 à 8 secondes jusqu'au bip.",
+   "Sur certains modèles, maintenez aussi la touche en haut à droite.",
+   "Consultez votre notice pour la combinaison de touches de votre modèle."
+  ],
+  "technician": "Aucune intervention nécessaire. C'est un réglage, pas une panne."
+ },
+ "Samsung|5E": {
+  "title": "Erreur de la sonde de dégivrage du réfrigérateur",
+  "causes": [
+   "La sonde de dégivrage du réfrigérateur est défectueuse."
+  ],
+  "steps": [
+   "Ne débranchez pas le réfrigérateur sauf si on vous le demande.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Demandez au service après-vente Samsung de vérifier ou remplacer la sonde."
+ },
+ "Samsung|8E": {
+  "title": "Erreur de capteur de la machine à glaçons (congélateur)",
+  "causes": [
+   "Le capteur de la machine à glaçons dans le congélateur est défectueux."
+  ],
+  "steps": [
+   "Désactivez la machine à glaçons si possible.",
+   "Continuez à utiliser le réfrigérateur normalement."
+  ],
+  "technician": "Contactez le service après-vente Samsung."
+ },
+ "Samsung|14E": {
+  "title": "Erreur de capteur de la machine à glaçons",
+  "causes": [
+   "Le capteur de la machine à glaçons est défectueux."
+  ],
+  "steps": [
+   "Désactivez la machine à glaçons si possible.",
+   "Continuez à utiliser le réfrigérateur normalement."
+  ],
+  "technician": "Contactez le service après-vente Samsung."
+ },
+ "Samsung|33E": {
+  "title": "Erreur de la résistance du tuyau d'eau à glaçons",
+  "causes": [
+   "La résistance du tuyau d'eau de la machine à glaçons est défectueuse."
+  ],
+  "steps": [
+   "Désactivez la machine à glaçons si possible."
+  ],
+  "technician": "Contactez le service après-vente Samsung."
+ },
+ "Samsung|39E": {
+  "title": "Erreur de fonctionnement de la machine à glaçons",
+  "causes": [
+   "La machine à glaçons ne fonctionne pas correctement."
+  ],
+  "steps": [
+   "Vérifiez que le bac à glaçons est bien en place.",
+   "Désactivez la machine à glaçons si possible."
+  ],
+  "technician": "Si le code reste affiché, contactez le service après-vente Samsung."
+ },
+ "Samsung|40E": {
+  "title": "Erreur du ventilateur du compartiment à glaçons",
+  "causes": [
+   "Le ventilateur du compartiment à glaçons ne fonctionne pas, souvent à cause du givre."
+  ],
+  "steps": [
+   "Vérifiez que la porte du compartiment à glaçons se ferme complètement."
+  ],
+  "technician": "Contactez le service après-vente Samsung."
+ },
+ "Samsung|84C": {
+  "title": "Compresseur bloqué",
+  "causes": [
+   "Le compresseur est bloqué et ne peut pas démarrer."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur ou coupez son disjoncteur pendant 60 secondes.",
+   "Remettez le courant et vérifiez si le code revient."
+  ],
+  "technician": "Contactez le service après-vente Samsung. L'intervention d'un technicien est nécessaire."
+ },
+ "LG|CF": {
+  "title": "Erreur du ventilateur du condenseur",
+  "causes": [
+   "Le ventilateur du condenseur est bloqué ou ne tourne pas, le compresseur force donc trop."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur pendant 60 secondes et branchez-le sur une prise murale, pas sur une multiprise.",
+   "Vérifiez si le code revient.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez le service après-vente LG. L'intervention d'un technicien est nécessaire."
+ },
+ "LG|CO": {
+  "title": "Erreur de communication",
+  "causes": [
+   "La carte principale et l'écran ne communiquent pas."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur pendant 60 secondes et branchez-le sur une prise murale, pas sur une multiprise.",
+   "Vérifiez si le code revient.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez le service après-vente LG. L'intervention d'un technicien est nécessaire."
+ },
+ "LG|FF": {
+  "title": "Erreur du ventilateur du congélateur",
+  "causes": [
+   "Le ventilateur du congélateur est bloqué, souvent par du givre, ou il est en panne."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur pendant 60 secondes et branchez-le sur une prise murale, pas sur une multiprise.",
+   "Vérifiez si le code revient.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez le service après-vente LG. L'intervention d'un technicien est nécessaire."
+ },
+ "LG|FS": {
+  "title": "Erreur de sonde du congélateur",
+  "causes": [
+   "La sonde de température du congélateur est défectueuse."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur pendant 60 secondes et branchez-le sur une prise murale, pas sur une multiprise.",
+   "Vérifiez si le code revient.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez le service après-vente LG. L'intervention d'un technicien est nécessaire."
+ },
+ "LG|FU": {
+  "title": "Le congélateur ne refroidit pas assez",
+  "causes": [
+   "Le congélateur n'est pas devenu assez froid après la mise en marche.",
+   "Les portes sont ouvertes souvent ou ne ferment pas bien.",
+   "Des aliments bouchent les grilles d'aération."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur pendant 60 secondes et branchez-le sur une prise murale, pas sur une multiprise.",
+   "Réglez le congélateur sur -18 °C.",
+   "Éloignez les aliments des grilles d'aération.",
+   "Vérifiez les joints en fermant la porte sur une feuille de papier. Elle ne doit pas glisser facilement.",
+   "Ouvrez les portes moins souvent."
+  ],
+  "technician": "Si le congélateur ne refroidit toujours pas, contactez le service après-vente LG."
+ },
+ "LG|IF": {
+  "title": "Erreur du ventilateur de la machine à glaçons",
+  "causes": [
+   "Le ventilateur de la machine à glaçons est bloqué ou défectueux."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur pendant 60 secondes et branchez-le sur une prise murale, pas sur une multiprise.",
+   "Vérifiez si le code revient.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez le service après-vente LG. L'intervention d'un technicien est nécessaire."
+ },
+ "LG|IS": {
+  "title": "Erreur de capteur de la machine à glaçons",
+  "causes": [
+   "La sonde de température de la machine à glaçons est défectueuse."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur pendant 60 secondes et branchez-le sur une prise murale, pas sur une multiprise.",
+   "Vérifiez si le code revient.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez le service après-vente LG. L'intervention d'un technicien est nécessaire."
+ },
+ "LG|It": {
+  "title": "Erreur du moteur de la machine à glaçons",
+  "causes": [
+   "Le moteur de la machine à glaçons est défectueux."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur pendant 60 secondes et branchez-le sur une prise murale, pas sur une multiprise.",
+   "Vérifiez si le code revient.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez le service après-vente LG. L'intervention d'un technicien est nécessaire."
+ },
+ "LG|rS": {
+  "title": "Erreur de sonde du réfrigérateur (haut)",
+  "causes": [
+   "La sonde de température supérieure du réfrigérateur est défectueuse."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur pendant 60 secondes et branchez-le sur une prise murale, pas sur une multiprise.",
+   "Vérifiez si le code revient.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez le service après-vente LG. L'intervention d'un technicien est nécessaire."
+ },
+ "LG|r2": {
+  "title": "Erreur de sonde du réfrigérateur (bas)",
+  "causes": [
+   "La sonde de température inférieure du réfrigérateur est défectueuse."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur pendant 60 secondes et branchez-le sur une prise murale, pas sur une multiprise.",
+   "Vérifiez si le code revient.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez le service après-vente LG. L'intervention d'un technicien est nécessaire."
+ },
+ "LG|dS": {
+  "title": "Erreur de sonde de dégivrage",
+  "causes": [
+   "La sonde de dégivrage est défectueuse, l'évaporateur risque donc de givrer."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur pendant 60 secondes et branchez-le sur une prise murale, pas sur une multiprise.",
+   "Vérifiez si le code revient.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez le service après-vente LG. L'intervention d'un technicien est nécessaire."
+ },
+ "LG|rT": {
+  "title": "Erreur de sonde de température ambiante",
+  "causes": [
+   "La sonde de température ambiante est défectueuse."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur pendant 60 secondes et branchez-le sur une prise murale, pas sur une multiprise.",
+   "Vérifiez si le code revient.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez le service après-vente LG. L'intervention d'un technicien est nécessaire."
+ },
+ "LG|dH": {
+  "title": "Échec du dégivrage",
+  "causes": [
+   "Le système de dégivrage n'a pas chauffé à temps.",
+   "L'évaporateur est bloqué par la glace."
+  ],
+  "steps": [
+   "Sortez les aliments et mettez-les dans un endroit frais.",
+   "Posez des serviettes au sol devant le réfrigérateur.",
+   "Débranchez le réfrigérateur et laissez les portes ouvertes au moins 12 heures pour faire fondre la glace.",
+   "Rebranchez-le."
+  ],
+  "technician": "C'est souvent une solution temporaire. Si dH revient, contactez le service après-vente LG."
+ },
+ "LG|SS": {
+  "title": "Erreur de sonde du réservoir d'eau",
+  "causes": [
+   "La sonde de température du réservoir d'eau est défectueuse."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur pendant 60 secondes et branchez-le sur une prise murale, pas sur une multiprise.",
+   "Vérifiez si le code revient.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez le service après-vente LG. L'intervention d'un technicien est nécessaire."
+ },
+ "LG|rF": {
+  "title": "Erreur du ventilateur du réfrigérateur",
+  "causes": [
+   "Le ventilateur du réfrigérateur est bloqué ou défectueux."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur pendant 60 secondes et branchez-le sur une prise murale, pas sur une multiprise.",
+   "Vérifiez si le code revient.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez le service après-vente LG. L'intervention d'un technicien est nécessaire."
+ },
+ "LG|tt": {
+  "title": "Problème de réservoir d'eau",
+  "causes": [
+   "Le réservoir d'eau est absent ou mal placé.",
+   "Le capteur du réservoir est défectueux."
+  ],
+  "steps": [
+   "Retirez le réservoir d'eau et remettez-le correctement.",
+   "Vérifiez si le code disparaît."
+  ],
+  "technician": "Si tt reste affiché avec le réservoir en place, contactez le service après-vente LG."
+ },
+ "LG|C1": {
+  "title": "Erreur de communication du distributeur",
+  "causes": [
+   "Le distributeur et l'écran ne communiquent pas."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur pendant 60 secondes et branchez-le sur une prise murale, pas sur une multiprise.",
+   "Vérifiez si le code revient.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez le service après-vente LG. L'intervention d'un technicien est nécessaire."
+ },
+ "LG|gF": {
+  "title": "Erreur du capteur de débit d'eau",
+  "causes": [
+   "Le robinet d'arrivée d'eau est fermé.",
+   "Le tuyau d'eau est plié.",
+   "La pression d'eau n'est pas correcte."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur pendant 60 secondes et branchez-le sur une prise murale, pas sur une multiprise.",
+   "Attendez jusqu'à 5 minutes que le réfrigérateur redémarre.",
+   "Ouvrez complètement le robinet d'arrivée d'eau.",
+   "Vérifiez que le tuyau n'est pas plié.",
+   "Comparez la pression de votre eau avec celle indiquée dans la notice."
+  ],
+  "technician": "Si l'erreur persiste, contactez le service après-vente LG."
+ },
+ "LG|CH": {
+  "title": "Erreur du circuit frigorifique (côté haute pression)",
+  "causes": [
+   "Les capteurs relèvent des valeurs anormales dans le circuit frigorifique, peut-être une fuite ou une vanne défectueuse."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur pendant 60 secondes et branchez-le sur une prise murale, pas sur une multiprise.",
+   "Vérifiez si le code revient.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez le service après-vente LG. L'intervention d'un technicien est nécessaire."
+ },
+ "LG|CL": {
+  "title": "Erreur du circuit frigorifique (côté basse pression)",
+  "causes": [
+   "Les capteurs relèvent des valeurs anormales dans le circuit frigorifique, peut-être une fuite ou une vanne défectueuse."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur pendant 60 secondes et branchez-le sur une prise murale, pas sur une multiprise.",
+   "Vérifiez si le code revient.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez le service après-vente LG. L'intervention d'un technicien est nécessaire."
+ },
+ "LG|Lo": {
+  "title": "Pièce trop froide",
+  "causes": [
+   "La pièce est à moins de -10 °C."
+  ],
+  "steps": [
+   "Si possible, installez le réfrigérateur dans un endroit plus chaud."
+  ],
+  "technician": "Ce n'est pas une panne. Contactez LG uniquement si la pièce est chaude et que Lo reste affiché."
+ },
+ "LG|HI": {
+  "title": "Pièce trop chaude",
+  "causes": [
+   "La pièce est à plus de 50 °C."
+  ],
+  "steps": [
+   "Si possible, installez le réfrigérateur dans un endroit plus frais.",
+   "Laissez l'air circuler autour de l'appareil."
+  ],
+  "technician": "Ce n'est pas une panne. Contactez LG uniquement si la température de la pièce est normale et que HI reste affiché."
+ },
+ "Miele|F0": {
+  "title": "Panne technique",
+  "causes": [
+   "Une panne technique interne a été détectée."
+  ],
+  "steps": [
+   "Notez le code d'erreur.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments.",
+   "Faites appel à un technicien Miele."
+  ],
+  "technician": "Il s'agit d'une panne technique que vous ne pouvez pas réparer vous-même. Contactez le service client Miele."
+ },
+ "Miele|F1": {
+  "title": "Panne technique",
+  "causes": [
+   "Une panne technique interne a été détectée."
+  ],
+  "steps": [
+   "Notez le code d'erreur.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments.",
+   "Faites appel à un technicien Miele."
+  ],
+  "technician": "Il s'agit d'une panne technique que vous ne pouvez pas réparer vous-même. Contactez le service client Miele."
+ },
+ "Miele|F2": {
+  "title": "Panne technique",
+  "causes": [
+   "Une panne technique interne a été détectée."
+  ],
+  "steps": [
+   "Notez le code d'erreur.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments.",
+   "Faites appel à un technicien Miele."
+  ],
+  "technician": "Il s'agit d'une panne technique que vous ne pouvez pas réparer vous-même. Contactez le service client Miele."
+ },
+ "Miele|F3": {
+  "title": "Panne technique",
+  "causes": [
+   "Une panne technique interne a été détectée."
+  ],
+  "steps": [
+   "Notez le code d'erreur.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments.",
+   "Faites appel à un technicien Miele."
+  ],
+  "technician": "Il s'agit d'une panne technique que vous ne pouvez pas réparer vous-même. Contactez le service client Miele."
+ },
+ "Miele|F4": {
+  "title": "Panne technique",
+  "causes": [
+   "Une panne technique interne a été détectée."
+  ],
+  "steps": [
+   "Notez le code d'erreur.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments.",
+   "Faites appel à un technicien Miele."
+  ],
+  "technician": "Il s'agit d'une panne technique que vous ne pouvez pas réparer vous-même. Contactez le service client Miele."
+ },
+ "Miele|F5": {
+  "title": "Panne technique",
+  "causes": [
+   "Une panne technique interne a été détectée."
+  ],
+  "steps": [
+   "Notez le code d'erreur.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments.",
+   "Faites appel à un technicien Miele."
+  ],
+  "technician": "Il s'agit d'une panne technique que vous ne pouvez pas réparer vous-même. Contactez le service client Miele."
+ },
+ "Miele|F114": {
+  "title": "Sonde de l'évaporateur du congélateur défectueuse",
+  "causes": [
+   "La sonde de l'évaporateur dans la partie congélateur est défectueuse."
+  ],
+  "steps": [
+   "Notez le code d'erreur.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments.",
+   "Faites appel à un technicien Miele."
+  ],
+  "technician": "Il s'agit d'une panne technique que vous ne pouvez pas réparer vous-même. Contactez le service client Miele."
+ },
+ "Miele|F120": {
+  "title": "Tension secteur trop basse",
+  "causes": [
+   "La tension secteur est parfois trop basse ou varie beaucoup."
+  ],
+  "steps": [
+   "Vérifiez si d'autres appareils ont aussi des problèmes.",
+   "Faites vérifier la tension secteur par un électricien qualifié."
+  ],
+  "technician": "Si la tension est correcte et que F120 persiste, faites appel à un technicien Miele."
+ },
+ "Miele|F141": {
+  "title": "Porte du réfrigérateur ouverte depuis 15 minutes",
+  "causes": [
+   "La porte du compartiment réfrigérateur est ouverte depuis 15 minutes."
+  ],
+  "steps": [
+   "Fermez la porte du réfrigérateur.",
+   "Vérifiez que rien ne l'empêche de se fermer."
+  ],
+  "technician": "Si F141 s'affiche porte fermée, faites appel à un technicien Miele."
+ },
+ "Miele|F142": {
+  "title": "Porte du réfrigérateur ouverte depuis 30 minutes",
+  "causes": [
+   "La porte du compartiment réfrigérateur est ouverte depuis environ 30 minutes."
+  ],
+  "steps": [
+   "Fermez la porte du réfrigérateur.",
+   "Vérifiez que rien ne l'empêche de se fermer."
+  ],
+  "technician": "Si F142 s'affiche porte fermée, faites appel à un technicien Miele."
+ },
+ "Miele|F383": {
+  "title": "Défaut d'arrivée d'eau de la machine à glaçons",
+  "causes": [
+   "Le tuyau d'arrivée d'eau est plié.",
+   "Le filtre d'arrivée est sale.",
+   "Le réservoir d'eau est mal placé ou son flotteur est bloqué.",
+   "Un défaut logiciel."
+  ],
+  "steps": [
+   "Redressez le tuyau d'eau s'il est plié.",
+   "Nettoyez le filtre d'arrivée.",
+   "Retirez le réservoir d'eau, nettoyez en dessous et remettez-le bien au fond.",
+   "Secouez le réservoir pour vérifier que le flotteur bouge librement.",
+   "Réglez le congélateur sur -18 °C pendant au moins 48 heures."
+  ],
+  "technician": "Si la panne persiste, contactez le service client Miele."
+ },
+ "Miele|F384": {
+  "title": "Plantage du logiciel",
+  "causes": [
+   "Le logiciel de l'appareil a cessé de fonctionner."
+  ],
+  "steps": [
+   "Débranchez l'appareil pendant environ 2 minutes.",
+   "Rebranchez-le et allumez-le.",
+   "S'il fonctionne de nouveau, rétablissez les réglages d'usine dans le menu Réglages."
+  ],
+  "technician": "Si la panne revient, contactez le service client Miele."
+ },
+ "Miele|F385": {
+  "title": "Plantage du logiciel",
+  "causes": [
+   "Le logiciel de l'appareil a cessé de fonctionner."
+  ],
+  "steps": [
+   "Débranchez l'appareil pendant environ 2 minutes.",
+   "Rebranchez-le et allumez-le.",
+   "S'il fonctionne de nouveau, rétablissez les réglages d'usine dans le menu Réglages."
+  ],
+  "technician": "Si la panne revient, contactez le service client Miele."
+ },
+ "Miele|nA": {
+  "title": "Le congélateur a trop chauffé auparavant",
+  "causes": [
+   "Une coupure ou interruption de courant a laissé le congélateur se réchauffer."
+  ],
+  "steps": [
+   "Maintenez la touche d'alarme enfoncée pour voir la température la plus haute atteinte.",
+   "Vérifiez les aliments. Consommez rapidement les aliments décongelés.",
+   "Ne recongelez pas les aliments décongelés, sauf si vous les cuisez d'abord."
+  ],
+  "technician": "Ce n'est pas une panne. Contactez Miele uniquement s'il apparaît sans coupure de courant."
+ },
+ "AEG|E08": {
+  "title": "Tension d'alimentation faible",
+  "causes": [
+   "La tension secteur est descendue sous 170 V. Cela protège le compresseur."
+  ],
+  "steps": [
+   "Vérifiez si d'autres appareils ont des problèmes de courant.",
+   "Attendez que l'alimentation redevienne normale."
+  ],
+  "technician": "Si E08 apparaît encore, faites vérifier l'alimentation et contactez un technicien agréé AEG."
+ },
+ "AEG|E09": {
+  "title": "Le congélateur n'est pas assez froid",
+  "causes": [
+   "Le plus souvent après une longue coupure de courant."
+  ],
+  "steps": [
+   "Baissez le réglage du congélateur ou activez Super Freeze.",
+   "Gardez les portes fermées jusqu'à ce que le code disparaisse.",
+   "Consommez ou cuisez rapidement les aliments décongelés.",
+   "N'ajoutez pas d'aliments frais tant que le code est affiché."
+  ],
+  "technician": "Si le code reste affiché, contactez un technicien agréé AEG."
+ },
+ "AEG|E10": {
+  "title": "Le réfrigérateur n'est pas assez froid",
+  "causes": [
+   "Une longue coupure de courant.",
+   "Des aliments chauds ont été mis au réfrigérateur."
+  ],
+  "steps": [
+   "Baissez le réglage du réfrigérateur ou activez Super Cool.",
+   "Gardez les portes fermées.",
+   "Éloignez les aliments des grilles d'aération et de la sonde."
+  ],
+  "technician": "Si E10 persiste, demandez une réparation à AEG."
+ },
+ "AEG|E11": {
+  "title": "Réfrigérateur trop froid",
+  "causes": [
+   "Super Cool est resté activé.",
+   "La température est réglée trop basse.",
+   "Les grilles d'aération sont bouchées."
+  ],
+  "steps": [
+   "Désactivez Super Cool.",
+   "Réglez une température moins froide pour le réfrigérateur.",
+   "Vérifiez que les grilles d'aération sont dégagées."
+  ],
+  "technician": "Si le code persiste, contactez un service après-vente agréé AEG."
+ },
+ "AEG|F2": {
+  "title": "Défaut du thermostat",
+  "causes": [
+   "Un problème de thermostat."
+  ],
+  "steps": [
+   "Notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Faites appel à un technicien AEG en indiquant le code."
+ },
+ "AEG|F8": {
+  "title": "Défaut du système de dégivrage",
+  "causes": [
+   "Un défaut dans le système de dégivrage."
+  ],
+  "steps": [
+   "N'essayez pas de le réparer vous-même.",
+   "Notez le modèle et le numéro de série."
+  ],
+  "technician": "Faites appel à un technicien AEG en indiquant le code F8."
+ },
+ "Electrolux|F5": {
+  "title": "Défaut de sonde de température",
+  "causes": [
+   "Une sonde de température est défectueuse. F3 et F4 indiquent le même type de panne."
+  ],
+  "steps": [
+   "Notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Faites appel à un technicien Electrolux en indiquant le code."
+ },
+ "Electrolux|E01": {
+  "title": "Alerte de capteur",
+  "causes": [
+   "Un capteur du réfrigérateur-congélateur présente un problème."
+  ],
+  "steps": [
+   "Notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez un centre de service agréé Electrolux pour l'intervention d'un technicien."
+ },
+ "Electrolux|E02": {
+  "title": "Alerte de capteur",
+  "causes": [
+   "Un capteur du réfrigérateur-congélateur présente un problème."
+  ],
+  "steps": [
+   "Notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez un centre de service agréé Electrolux pour l'intervention d'un technicien."
+ },
+ "Electrolux|E03": {
+  "title": "Alerte de capteur",
+  "causes": [
+   "Un capteur du réfrigérateur-congélateur présente un problème."
+  ],
+  "steps": [
+   "Notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez un centre de service agréé Electrolux pour l'intervention d'un technicien."
+ },
+ "Electrolux|E06": {
+  "title": "Alerte de capteur",
+  "causes": [
+   "Un capteur du réfrigérateur-congélateur présente un problème."
+  ],
+  "steps": [
+   "Notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez un centre de service agréé Electrolux pour l'intervention d'un technicien."
+ },
+ "Electrolux|E07": {
+  "title": "Alerte de capteur",
+  "causes": [
+   "Un capteur du réfrigérateur-congélateur présente un problème."
+  ],
+  "steps": [
+   "Notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Contactez un centre de service agréé Electrolux pour l'intervention d'un technicien."
+ },
+ "Hotpoint|E0": {
+  "title": "Défaut de la machine à glaçons",
+  "causes": [
+   "La machine à glaçons ne fonctionne pas correctement (modèles avec machine à glaçons)."
+  ],
+  "steps": [
+   "Désactivez la machine à glaçons si possible.",
+   "Continuez à utiliser le réfrigérateur normalement."
+  ],
+  "technician": "Appelez le service après-vente Hotpoint pour l'intervention d'un technicien."
+ },
+ "Hotpoint|E1": {
+  "title": "Défaut de sonde du réfrigérateur",
+  "causes": [
+   "La sonde de température du réfrigérateur est défectueuse."
+  ],
+  "steps": [
+   "Notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Appelez le service après-vente Hotpoint pour l'intervention d'un technicien."
+ },
+ "Hotpoint|E2": {
+  "title": "Défaut de sonde du congélateur",
+  "causes": [
+   "La sonde de température du congélateur est défectueuse.",
+   "La température du congélateur peut être incorrecte."
+  ],
+  "steps": [
+   "Vérifiez que les aliments sont toujours congelés.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Appelez le service après-vente Hotpoint pour l'intervention d'un technicien."
+ },
+ "Hotpoint|E3": {
+  "title": "Défaut de sonde de dégivrage",
+  "causes": [
+   "La sonde de dégivrage est défectueuse.",
+   "Une évacuation bouchée peut aussi fausser la température."
+  ],
+  "steps": [
+   "Vérifiez que l'orifice d'évacuation de l'eau de dégivrage et le tuyau d'évacuation ne sont pas bouchés.",
+   "Débouchez-les délicatement si nécessaire."
+  ],
+  "technician": "Si la panne persiste, appelez le service après-vente Hotpoint."
+ },
+ "Hotpoint|E4": {
+  "title": "Défaut de sonde de dégivrage du réfrigérateur",
+  "causes": [
+   "La sonde de dégivrage du réfrigérateur est défectueuse."
+  ],
+  "steps": [
+   "Notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Appelez le service après-vente Hotpoint pour l'intervention d'un technicien."
+ },
+ "Hotpoint|E5": {
+  "title": "Défaut de sonde de dégivrage du congélateur",
+  "causes": [
+   "La sonde de dégivrage du congélateur est défectueuse."
+  ],
+  "steps": [
+   "Notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Appelez le service après-vente Hotpoint pour l'intervention d'un technicien."
+ },
+ "Hotpoint|E6": {
+  "title": "Défaut de la carte de commande ou d'affichage",
+  "causes": [
+   "La carte de commande principale ou la carte d'affichage est défectueuse."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur quelques minutes, puis rebranchez-le."
+  ],
+  "technician": "Appelez le service après-vente Hotpoint pour l'intervention d'un technicien."
+ },
+ "Hotpoint|E7": {
+  "title": "Défaut de sonde de température ambiante",
+  "causes": [
+   "La sonde de température ambiante est défectueuse."
+  ],
+  "steps": [
+   "Notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Appelez le service après-vente Hotpoint pour l'intervention d'un technicien."
+ },
+ "Hotpoint|E8": {
+  "title": "Défaut de sonde de température ambiante",
+  "causes": [
+   "La sonde de température ambiante est défectueuse."
+  ],
+  "steps": [
+   "Notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Appelez le service après-vente Hotpoint pour l'intervention d'un technicien."
+ },
+ "Hotpoint|E9": {
+  "title": "Alarme de température élevée du congélateur",
+  "causes": [
+   "La porte du congélateur est restée ouverte et le congélateur s'est réchauffé."
+  ],
+  "steps": [
+   "Fermez bien la porte du congélateur.",
+   "Vérifiez que rien ne bloque la porte.",
+   "Vérifiez si des aliments ont décongelé."
+  ],
+  "technician": "Si l'alarme continue porte fermée, appelez le service après-vente Hotpoint."
+ },
+ "Hotpoint|EE": {
+  "title": "Défaut du circuit de la machine à glaçons",
+  "causes": [
+   "Un défaut dans le circuit de la machine à glaçons (modèles avec machine à glaçons)."
+  ],
+  "steps": [
+   "Désactivez la machine à glaçons si possible."
+  ],
+  "technician": "Appelez le service après-vente Hotpoint pour l'intervention d'un technicien."
+ },
+ "Indesit|E0": {
+  "title": "Défaut de la machine à glaçons",
+  "causes": [
+   "La machine à glaçons ne fonctionne pas correctement (modèles avec machine à glaçons)."
+  ],
+  "steps": [
+   "Désactivez la machine à glaçons si possible.",
+   "Continuez à utiliser le réfrigérateur normalement."
+  ],
+  "technician": "Appelez le service après-vente Indesit pour l'intervention d'un technicien."
+ },
+ "Indesit|E1": {
+  "title": "Défaut de sonde du réfrigérateur",
+  "causes": [
+   "La sonde de température du réfrigérateur est défectueuse."
+  ],
+  "steps": [
+   "Notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Appelez le service après-vente Indesit pour l'intervention d'un technicien."
+ },
+ "Indesit|E2": {
+  "title": "Défaut de sonde du congélateur",
+  "causes": [
+   "La sonde de température du congélateur est défectueuse.",
+   "La température du congélateur peut être incorrecte."
+  ],
+  "steps": [
+   "Vérifiez que les aliments sont toujours congelés.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Appelez le service après-vente Indesit pour l'intervention d'un technicien."
+ },
+ "Indesit|E3": {
+  "title": "Défaut de sonde de dégivrage",
+  "causes": [
+   "La sonde de dégivrage est défectueuse.",
+   "Une évacuation bouchée peut aussi fausser la température."
+  ],
+  "steps": [
+   "Vérifiez que l'orifice d'évacuation de l'eau de dégivrage et le tuyau d'évacuation ne sont pas bouchés.",
+   "Débouchez-les délicatement si nécessaire."
+  ],
+  "technician": "Si la panne persiste, appelez le service après-vente Indesit."
+ },
+ "Indesit|E4": {
+  "title": "Défaut de sonde de dégivrage du réfrigérateur",
+  "causes": [
+   "La sonde de dégivrage du réfrigérateur est défectueuse."
+  ],
+  "steps": [
+   "Notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Appelez le service après-vente Indesit pour l'intervention d'un technicien."
+ },
+ "Indesit|E5": {
+  "title": "Défaut de sonde de dégivrage du congélateur",
+  "causes": [
+   "La sonde de dégivrage du congélateur est défectueuse."
+  ],
+  "steps": [
+   "Notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Appelez le service après-vente Indesit pour l'intervention d'un technicien."
+ },
+ "Indesit|E6": {
+  "title": "Défaut de la carte de commande ou d'affichage",
+  "causes": [
+   "La carte de commande principale ou la carte d'affichage est défectueuse."
+  ],
+  "steps": [
+   "Débranchez le réfrigérateur quelques minutes, puis rebranchez-le."
+  ],
+  "technician": "Appelez le service après-vente Indesit pour l'intervention d'un technicien."
+ },
+ "Indesit|E7": {
+  "title": "Défaut de sonde de température ambiante",
+  "causes": [
+   "La sonde de température ambiante est défectueuse."
+  ],
+  "steps": [
+   "Notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Appelez le service après-vente Indesit pour l'intervention d'un technicien."
+ },
+ "Indesit|E8": {
+  "title": "Défaut de sonde de température ambiante",
+  "causes": [
+   "La sonde de température ambiante est défectueuse."
+  ],
+  "steps": [
+   "Notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Appelez le service après-vente Indesit pour l'intervention d'un technicien."
+ },
+ "Indesit|E9": {
+  "title": "Alarme de température élevée du congélateur",
+  "causes": [
+   "La porte du congélateur est restée ouverte et le congélateur s'est réchauffé."
+  ],
+  "steps": [
+   "Fermez bien la porte du congélateur.",
+   "Vérifiez que rien ne bloque la porte.",
+   "Vérifiez si des aliments ont décongelé."
+  ],
+  "technician": "Si l'alarme continue porte fermée, appelez le service après-vente Indesit."
+ },
+ "Indesit|EE": {
+  "title": "Défaut du circuit de la machine à glaçons",
+  "causes": [
+   "Un défaut dans le circuit de la machine à glaçons (modèles avec machine à glaçons)."
+  ],
+  "steps": [
+   "Désactivez la machine à glaçons si possible."
+  ],
+  "technician": "Appelez le service après-vente Indesit pour l'intervention d'un technicien."
+ },
+ "Whirlpool|F3 E1": {
+  "title": "Panne du système (F clignotant)",
+  "causes": [
+   "La commande a détecté une panne. Whirlpool ne propose pas d'autre solution à domicile qu'une réinitialisation."
+  ],
+  "steps": [
+   "Coupez le disjoncteur ou débranchez le réfrigérateur pendant une minute.",
+   "Remettez le courant.",
+   "Vérifiez que le refroidissement est activé.",
+   "Observez pendant une minute si le code revient."
+  ],
+  "technician": "Si le code revient après la réinitialisation, demandez une intervention du service après-vente Whirlpool."
+ },
+ "Whirlpool|F3 E2": {
+  "title": "Panne du système (F clignotant)",
+  "causes": [
+   "La commande a détecté une panne. Whirlpool ne propose pas d'autre solution à domicile qu'une réinitialisation."
+  ],
+  "steps": [
+   "Coupez le disjoncteur ou débranchez le réfrigérateur pendant une minute.",
+   "Remettez le courant.",
+   "Vérifiez que le refroidissement est activé.",
+   "Observez pendant une minute si le code revient."
+  ],
+  "technician": "Si le code revient après la réinitialisation, demandez une intervention du service après-vente Whirlpool."
+ },
+ "Whirlpool|F6 E1": {
+  "title": "Panne du système (F clignotant)",
+  "causes": [
+   "La commande a détecté une panne. Whirlpool ne propose pas d'autre solution à domicile qu'une réinitialisation."
+  ],
+  "steps": [
+   "Coupez le disjoncteur ou débranchez le réfrigérateur pendant une minute.",
+   "Remettez le courant.",
+   "Vérifiez que le refroidissement est activé.",
+   "Observez pendant une minute si le code revient."
+  ],
+  "technician": "Si le code revient après la réinitialisation, demandez une intervention du service après-vente Whirlpool."
+ },
+ "Whirlpool|F8 E1": {
+  "title": "Panne du système (F clignotant)",
+  "causes": [
+   "La commande a détecté une panne. Whirlpool ne propose pas d'autre solution à domicile qu'une réinitialisation."
+  ],
+  "steps": [
+   "Coupez le disjoncteur ou débranchez le réfrigérateur pendant une minute.",
+   "Remettez le courant.",
+   "Vérifiez que le refroidissement est activé.",
+   "Observez pendant une minute si le code revient."
+  ],
+  "technician": "Si le code revient après la réinitialisation, demandez une intervention du service après-vente Whirlpool."
+ },
+ "Whirlpool|F8 E2": {
+  "title": "Panne du système (F clignotant)",
+  "causes": [
+   "La commande a détecté une panne. Whirlpool ne propose pas d'autre solution à domicile qu'une réinitialisation."
+  ],
+  "steps": [
+   "Coupez le disjoncteur ou débranchez le réfrigérateur pendant une minute.",
+   "Remettez le courant.",
+   "Vérifiez que le refroidissement est activé.",
+   "Observez pendant une minute si le code revient."
+  ],
+  "technician": "Si le code revient après la réinitialisation, demandez une intervention du service après-vente Whirlpool."
+ },
+ "Whirlpool|PO": {
+  "title": "Alerte de coupure de courant",
+  "causes": [
+   "Le courant a été coupé et le congélateur est monté à -8 °C (18 °F) ou plus."
+  ],
+  "steps": [
+   "Appuyez sur la touche sous l'indication Confirm qui clignote pour effacer l'alerte.",
+   "Vérifiez si les aliments congelés ont décongelé."
+  ],
+  "technician": "Ce n'est pas une panne. Contactez Whirlpool uniquement si PO apparaît sans vraie coupure de courant."
+ },
+ "Bosch|E02": {
+  "title": "Défaut de la machine à glaçons ou du circuit d'eau",
+  "causes": [
+   "La machine à glaçons est défectueuse.",
+   "Les commandes de glace et d'eau ne communiquent pas."
+  ],
+  "steps": [
+   "Coupez le disjoncteur du réfrigérateur pendant 30 secondes.",
+   "Remettez le courant et vérifiez le code."
+  ],
+  "technician": "Si E02 persiste, contactez le service client Bosch."
+ },
+ "Bosch|E03": {
+  "title": "Défaut de commande du distributeur",
+  "causes": [
+   "Le bandeau de commande du distributeur présente un défaut."
+  ],
+  "steps": [
+   "Coupez le disjoncteur du réfrigérateur pendant 30 secondes.",
+   "Remettez le courant et vérifiez le code."
+  ],
+  "technician": "Si E03 persiste, contactez le service client Bosch."
+ },
+ "Haier|F1": {
+  "title": "Erreur de sonde",
+  "causes": [
+   "Une sonde de température est défectueuse."
+  ],
+  "steps": [
+   "Éteignez puis rallumez le réfrigérateur une fois pour voir si le code disparaît.",
+   "S'il revient, notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Vous ne pouvez pas réparer cette panne vous-même. Contactez le service après-vente Haier pour l'intervention d'un technicien."
+ },
+ "Haier|E0": {
+  "title": "Erreur de communication",
+  "causes": [
+   "Les cartes internes ne communiquent pas."
+  ],
+  "steps": [
+   "Éteignez puis rallumez le réfrigérateur une fois pour voir si le code disparaît.",
+   "S'il revient, notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Vous ne pouvez pas réparer cette panne vous-même. Contactez le service après-vente Haier pour l'intervention d'un technicien."
+ },
+ "Haier|E1": {
+  "title": "Erreur de ventilateur",
+  "causes": [
+   "Un ventilateur ne fonctionne pas."
+  ],
+  "steps": [
+   "Éteignez puis rallumez le réfrigérateur une fois pour voir si le code disparaît.",
+   "S'il revient, notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Vous ne pouvez pas réparer cette panne vous-même. Contactez le service après-vente Haier pour l'intervention d'un technicien."
+ },
+ "Haier|Er": {
+  "title": "Erreur de la machine à glaçons",
+  "causes": [
+   "La machine à glaçons est défectueuse."
+  ],
+  "steps": [
+   "Éteignez puis rallumez le réfrigérateur une fois pour voir si le code disparaît.",
+   "S'il revient, notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Vous ne pouvez pas réparer cette panne vous-même. Contactez le service après-vente Haier pour l'intervention d'un technicien."
+ },
+ "Haier|Ed": {
+  "title": "Erreur de dégivrage",
+  "causes": [
+   "Le système de dégivrage est défectueux."
+  ],
+  "steps": [
+   "Éteignez puis rallumez le réfrigérateur une fois pour voir si le code disparaît.",
+   "S'il revient, notez le code.",
+   "Gardez les portes fermées autant que possible pour protéger les aliments."
+  ],
+  "technician": "Vous ne pouvez pas réparer cette panne vous-même. Contactez le service après-vente Haier pour l'intervention d'un technicien."
+ }
+}

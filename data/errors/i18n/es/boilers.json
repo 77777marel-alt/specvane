@@ -1,0 +1,1776 @@
+{
+ "Vaillant|F.0": {
+  "title": "Circuito abierto en el sensor de temperatura de impulsión",
+  "causes": [
+   "El sensor de temperatura de impulsión o su cableado está averiado.",
+   "Una conexión floja dentro de la caldera."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve, no intente repararlo usted mismo. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Vaillant|F.1": {
+  "title": "Circuito abierto en el sensor de temperatura de retorno",
+  "causes": [
+   "El sensor de temperatura de retorno o su cableado está averiado.",
+   "Una conexión floja dentro de la caldera."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve, no intente repararlo usted mismo. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Vaillant|F.10": {
+  "title": "Cortocircuito en el sensor de temperatura de impulsión",
+  "causes": [
+   "El sensor de temperatura de impulsión o su cableado está averiado.",
+   "Una conexión floja dentro de la caldera."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve, no intente repararlo usted mismo. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Vaillant|F.11": {
+  "title": "Cortocircuito en el sensor de temperatura de retorno",
+  "causes": [
+   "El sensor de temperatura de retorno o su cableado está averiado.",
+   "Una conexión floja dentro de la caldera."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve, no intente repararlo usted mismo. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Vaillant|F.20": {
+  "title": "Ha saltado el limitador térmico de seguridad",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Vaillant|F.22": {
+  "title": "Presión de agua baja",
+  "causes": [
+   "Se ha perdido agua de la instalación de calefacción, a menudo tras purgar los radiadores.",
+   "Una pequeña fuga en alguna tubería o radiador.",
+   "Un sensor de presión averiado."
+  ],
+  "steps": [
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si tiene que rellenar a menudo, puede haber una fuga. Pida a un técnico que la localice."
+  ],
+  "technician": "Si la presión sigue bajando, un instalador autorizado debe localizar la fuga; nunca abra usted mismo la carcasa de la caldera."
+ },
+ "Vaillant|F.23": {
+  "title": "Diferencia excesiva entre la temperatura de impulsión y la de retorno",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Vaillant|F.24": {
+  "title": "La temperatura sube demasiado rápido",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Vaillant|F.25": {
+  "title": "Temperatura de los gases de combustión demasiado alta",
+  "causes": [
+   "Un problema en la chimenea o en la entrada de aire.",
+   "Una mala combustión dentro de la caldera."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Apague la caldera con el interruptor general.",
+   "Compruebe desde fuera que el terminal de la chimenea no está visiblemente obstruido. No lo toque.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Vaillant|F.27": {
+  "title": "Se detecta llama con el quemador apagado",
+  "causes": [
+   "Una avería en el circuito de detección de llama.",
+   "Una válvula de gas que no cierra del todo."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Apague la caldera con el interruptor general.",
+   "No siga rearmando. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Es una avería de seguridad; solo un instalador de gas autorizado puede revisar la válvula de gas y las piezas de detección de llama."
+ },
+ "Vaillant|F.28": {
+  "title": "La caldera no ha podido encenderse",
+  "causes": [
+   "No llega gas a la caldera, por ejemplo porque el contador de prepago se ha quedado sin saldo.",
+   "Un tubo de condensados congelado u obstruido.",
+   "Una avería en las piezas de encendido o de detección de llama."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Compruebe que otros aparatos de gas, como la placa de cocina, funcionan.",
+   "Si tiene un contador de gas de prepago, asegúrese de que tiene saldo.",
+   "Con heladas, revise el tubo de plástico de condensados del exterior. Derrita el hielo con agua tibia (no hirviendo).",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Vaillant|F.29": {
+  "title": "Se perdió la llama y la caldera no pudo volver a encenderse",
+  "causes": [
+   "No llega gas a la caldera, por ejemplo porque el contador de prepago se ha quedado sin saldo.",
+   "Un tubo de condensados congelado u obstruido.",
+   "Una avería en las piezas de encendido o de detección de llama."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Compruebe que otros aparatos de gas, como la placa de cocina, funcionan.",
+   "Si tiene un contador de gas de prepago, asegúrese de que tiene saldo.",
+   "Con heladas, revise el tubo de plástico de condensados del exterior. Derrita el hielo con agua tibia (no hirviendo).",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Vaillant|F.32": {
+  "title": "Avería del ventilador",
+  "causes": [
+   "El ventilador no gira a la velocidad correcta.",
+   "Una avería en el cableado o en la placa de control.",
+   "Puede que la chimenea esté obstruida."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Compruebe desde fuera que nada obstruye el terminal de la chimenea. No lo toque.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Vaillant|F.35": {
+  "title": "Conducto de aire o de humos obstruido",
+  "causes": [
+   "Algo obstruye la chimenea o la toma de aire.",
+   "Daños en los conductos de humos."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Apague la caldera con el interruptor general.",
+   "Mire desde fuera si hay hojas, nidos o nieve alrededor del terminal de la chimenea, pero no toque ni desmonte la chimenea.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Vaillant|F.54": {
+  "title": "Avería en el suministro de gas",
+  "causes": [
+   "No llega gas a la caldera, por ejemplo porque el contador de prepago se ha quedado sin saldo.",
+   "Un tubo de condensados congelado u obstruido.",
+   "Una avería en las piezas de encendido o de detección de llama."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Compruebe que otros aparatos de gas, como la placa de cocina, funcionan.",
+   "Si tiene un contador de gas de prepago, asegúrese de que tiene saldo.",
+   "Con heladas, revise el tubo de plástico de condensados del exterior. Derrita el hielo con agua tibia (no hirviendo).",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Vaillant|F.62": {
+  "title": "Avería por retardo en el cierre de la válvula de gas",
+  "causes": [
+   "La llama tardó demasiado en apagarse tras detenerse el quemador.",
+   "Una avería en la válvula de gas o en el control."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Vaillant|F.75": {
+  "title": "La presión no sube al arrancar la bomba",
+  "causes": [
+   "Se ha perdido agua de la instalación de calefacción, a menudo tras purgar los radiadores.",
+   "Una pequeña fuga en alguna tubería o radiador.",
+   "Un sensor de presión averiado."
+  ],
+  "steps": [
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si tiene que rellenar a menudo, puede haber una fuga. Pida a un técnico que la localice."
+  ],
+  "technician": "Si la presión sigue bajando, un instalador autorizado debe localizar la fuga; nunca abra usted mismo la carcasa de la caldera."
+ },
+ "Vaillant|F.83": {
+  "title": "La temperatura no sube al encender el quemador",
+  "causes": [
+   "No hay suficiente agua en la caldera.",
+   "Aire en la instalación o una avería de un sensor."
+  ],
+  "steps": [
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Vaillant|F.88": {
+  "title": "Se ha perdido la conexión eléctrica de la válvula de gas",
+  "causes": [
+   "Una conexión floja o dañada en la válvula de gas.",
+   "Una avería de la placa de control."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "No intente acceder a la válvula de gas. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Glow-worm|F.0": {
+  "title": "Circuito abierto en el sensor de temperatura de impulsión",
+  "causes": [
+   "El sensor de temperatura de impulsión o su cableado está averiado.",
+   "Una conexión floja dentro de la caldera."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve, no intente repararlo usted mismo. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Glow-worm|F.1": {
+  "title": "Circuito abierto en el sensor de temperatura de retorno",
+  "causes": [
+   "El sensor de temperatura de retorno o su cableado está averiado.",
+   "Una conexión floja dentro de la caldera."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve, no intente repararlo usted mismo. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Glow-worm|F.20": {
+  "title": "Ha saltado el limitador térmico de seguridad",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Glow-worm|F.22": {
+  "title": "Presión de agua baja",
+  "causes": [
+   "Se ha perdido agua de la instalación de calefacción, a menudo tras purgar los radiadores.",
+   "Una pequeña fuga en alguna tubería o radiador.",
+   "Un sensor de presión averiado."
+  ],
+  "steps": [
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si tiene que rellenar a menudo, puede haber una fuga. Pida a un técnico que la localice."
+  ],
+  "technician": "Si la presión sigue bajando, un instalador autorizado debe localizar la fuga; nunca abra usted mismo la carcasa de la caldera."
+ },
+ "Glow-worm|F.23": {
+  "title": "Diferencia excesiva entre la temperatura de impulsión y la de retorno",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Glow-worm|F.24": {
+  "title": "La temperatura sube demasiado rápido",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Glow-worm|F.27": {
+  "title": "Se detecta llama con el quemador apagado",
+  "causes": [
+   "Una avería en el circuito de detección de llama.",
+   "Una válvula de gas que no cierra del todo."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Apague la caldera con el interruptor general.",
+   "No siga rearmando. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Es una avería de seguridad; solo un instalador de gas autorizado puede revisar la válvula de gas y las piezas de detección de llama."
+ },
+ "Glow-worm|F.28": {
+  "title": "La caldera no ha podido encenderse",
+  "causes": [
+   "No llega gas a la caldera, por ejemplo porque el contador de prepago se ha quedado sin saldo.",
+   "Un tubo de condensados congelado u obstruido.",
+   "Una avería en las piezas de encendido o de detección de llama."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Compruebe que otros aparatos de gas, como la placa de cocina, funcionan.",
+   "Si tiene un contador de gas de prepago, asegúrese de que tiene saldo.",
+   "Con heladas, revise el tubo de plástico de condensados del exterior. Derrita el hielo con agua tibia (no hirviendo).",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Glow-worm|F.29": {
+  "title": "Se perdió la llama y la caldera no pudo volver a encenderse",
+  "causes": [
+   "No llega gas a la caldera, por ejemplo porque el contador de prepago se ha quedado sin saldo.",
+   "Un tubo de condensados congelado u obstruido.",
+   "Una avería en las piezas de encendido o de detección de llama."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Compruebe que otros aparatos de gas, como la placa de cocina, funcionan.",
+   "Si tiene un contador de gas de prepago, asegúrese de que tiene saldo.",
+   "Con heladas, revise el tubo de plástico de condensados del exterior. Derrita el hielo con agua tibia (no hirviendo).",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Glow-worm|F.32": {
+  "title": "Avería del ventilador",
+  "causes": [
+   "El ventilador no gira a la velocidad correcta.",
+   "Una avería en el cableado o en la placa de control.",
+   "Puede que la chimenea esté obstruida."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Compruebe desde fuera que nada obstruye el terminal de la chimenea. No lo toque.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Glow-worm|F.61": {
+  "title": "Avería de la placa de control principal",
+  "causes": [
+   "Una avería electrónica en la placa principal.",
+   "Un problema en el circuito de control de la válvula de gas."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Si el código sigue, no vuelva a rearmar. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Glow-worm|F.75": {
+  "title": "La presión no sube al arrancar la bomba",
+  "causes": [
+   "Se ha perdido agua de la instalación de calefacción, a menudo tras purgar los radiadores.",
+   "Una pequeña fuga en alguna tubería o radiador.",
+   "Un sensor de presión averiado."
+  ],
+  "steps": [
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si tiene que rellenar a menudo, puede haber una fuga. Pida a un técnico que la localice."
+  ],
+  "technician": "Si la presión sigue bajando, un instalador autorizado debe localizar la fuga; nunca abra usted mismo la carcasa de la caldera."
+ },
+ "Glow-worm|F.84": {
+  "title": "Las lecturas de impulsión y retorno no son coherentes",
+  "causes": [
+   "Puede que las tuberías estén cruzadas o que un sensor esté colocado en un lugar incorrecto.",
+   "Una avería de un sensor."
+  ],
+  "steps": [
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si apareció tras una obra reciente en la instalación, contacte con el instalador que la hizo."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Glow-worm|F.88": {
+  "title": "Se ha perdido la conexión eléctrica de la válvula de gas",
+  "causes": [
+   "Una conexión floja o dañada en la válvula de gas.",
+   "Una avería de la placa de control."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "No intente acceder a la válvula de gas. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Ideal|L1": {
+  "title": "Sobrecalentamiento de impulsión o sin circulación de agua",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Ideal|L2": {
+  "title": "Bloqueo por fallo de encendido",
+  "causes": [
+   "No llega gas a la caldera, por ejemplo porque el contador de prepago se ha quedado sin saldo.",
+   "Un tubo de condensados congelado u obstruido.",
+   "Una avería en las piezas de encendido o de detección de llama."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Compruebe que otros aparatos de gas, como la placa de cocina, funcionan.",
+   "Si tiene un contador de gas de prepago, asegúrese de que tiene saldo.",
+   "Con heladas, revise el tubo de plástico de condensados del exterior. Derrita el hielo con agua tibia (no hirviendo).",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Ideal|L3": {
+  "title": "Sin circulación de agua",
+  "causes": [
+   "Presión baja en la instalación.",
+   "Aire atrapado en los radiadores.",
+   "Un problema de circulación o de la bomba."
+  ],
+  "steps": [
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Apague la caldera y purgue los radiadores.",
+   "Vuelva a comprobar la presión, encienda la caldera y rearme.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Ideal|L5": {
+  "title": "Demasiados rearmes en 15 minutos",
+  "causes": [
+   "Se ha pulsado el botón de rearme demasiadas veces en poco tiempo."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Si después aparece un código de avería, siga las indicaciones para ese código."
+  ],
+  "technician": "Si la caldera sigue bloqueándose, un instalador autorizado debe localizar la avería de fondo."
+ },
+ "Ideal|L6": {
+  "title": "Bloqueo por llama falsa",
+  "causes": [
+   "Una avería en el circuito de detección de llama.",
+   "Una válvula de gas que no cierra del todo."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Apague la caldera con el interruptor general.",
+   "No siga rearmando. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Es una avería de seguridad; solo un instalador de gas autorizado puede revisar la válvula de gas y las piezas de detección de llama."
+ },
+ "Ideal|F1": {
+  "title": "Presión de agua baja",
+  "causes": [
+   "Se ha perdido agua de la instalación de calefacción, a menudo tras purgar los radiadores.",
+   "Una pequeña fuga en alguna tubería o radiador.",
+   "Un sensor de presión averiado."
+  ],
+  "steps": [
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si tiene que rellenar a menudo, puede haber una fuga. Pida a un técnico que la localice."
+  ],
+  "technician": "Si la presión sigue bajando, un instalador autorizado debe localizar la fuga; nunca abra usted mismo la carcasa de la caldera."
+ },
+ "Ideal|F2": {
+  "title": "Pérdida de llama",
+  "causes": [
+   "No llega gas a la caldera, por ejemplo porque el contador de prepago se ha quedado sin saldo.",
+   "Un tubo de condensados congelado u obstruido.",
+   "Una avería en las piezas de encendido o de detección de llama."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Compruebe que otros aparatos de gas, como la placa de cocina, funcionan.",
+   "Si tiene un contador de gas de prepago, asegúrese de que tiene saldo.",
+   "Con heladas, revise el tubo de plástico de condensados del exterior. Derrita el hielo con agua tibia (no hirviendo).",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Ideal|F3": {
+  "title": "Avería del ventilador",
+  "causes": [
+   "El ventilador no gira a la velocidad correcta.",
+   "Una avería en el cableado o en la placa de control.",
+   "Puede que la chimenea esté obstruida."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Compruebe desde fuera que nada obstruye el terminal de la chimenea. No lo toque.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Ideal|F4": {
+  "title": "Avería del termistor de impulsión",
+  "causes": [
+   "El termistor de impulsión (sensor de temperatura) o su cableado está averiado.",
+   "Una conexión floja dentro de la caldera."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve, no intente repararlo usted mismo. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Ideal|F5": {
+  "title": "Avería del termistor de retorno",
+  "causes": [
+   "El termistor de retorno (sensor de temperatura) o su cableado está averiado.",
+   "Una conexión floja dentro de la caldera."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve, no intente repararlo usted mismo. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Ideal|F6": {
+  "title": "Avería del sensor exterior",
+  "causes": [
+   "El sensor de temperatura exterior o su cableado está averiado.",
+   "Una conexión floja dentro de la caldera."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve, no intente repararlo usted mismo. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Ideal|F7": {
+  "title": "Tensión de red baja",
+  "causes": [
+   "La tensión del suministro eléctrico de la vivienda es demasiado baja.",
+   "Una avería en el cableado de la vivienda."
+  ],
+  "steps": [
+   "Compruebe si otros aparatos o las luces están afectados.",
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pida a un electricista o a su compañía eléctrica que revise el suministro."
+  ],
+  "technician": "Si el suministro es correcto, un instalador autorizado debe revisar la caldera; la revisión del cableado eléctrico corresponde a un electricista cualificado."
+ },
+ "Ideal|F0": {
+  "title": "Sin circulación de agua (termistor)",
+  "causes": [
+   "El agua no circula por la caldera.",
+   "Una avería de un sensor."
+  ],
+  "steps": [
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Ideal|FD": {
+  "title": "Sin circulación de agua",
+  "causes": [
+   "Presión baja o aire en la instalación.",
+   "La bomba de calefacción no funciona."
+  ],
+  "steps": [
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Vuelva a encender la caldera y compruebe si el código desaparece.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Ideal|FU": {
+  "title": "Diferencia excesiva entre impulsión y retorno",
+  "causes": [
+   "Aire en los radiadores.",
+   "Presión baja o una obstrucción en la instalación."
+  ],
+  "steps": [
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Vuelva a encender la caldera.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Worcester Bosch|EA 227": {
+  "title": "El quemador no se enciende",
+  "causes": [
+   "No llega gas a la caldera, por ejemplo porque el contador de prepago se ha quedado sin saldo.",
+   "Un tubo de condensados congelado u obstruido.",
+   "Una avería en las piezas de encendido o de detección de llama."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Compruebe que otros aparatos de gas, como la placa de cocina, funcionan.",
+   "Si tiene un contador de gas de prepago, asegúrese de que tiene saldo.",
+   "Con heladas, revise el tubo de plástico de condensados del exterior. Derrita el hielo con agua tibia (no hirviendo).",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Worcester Bosch|CE 207": {
+  "title": "Presión de agua baja",
+  "causes": [
+   "Se ha perdido agua de la instalación de calefacción, a menudo tras purgar los radiadores.",
+   "Una pequeña fuga en alguna tubería o radiador.",
+   "Un sensor de presión averiado."
+  ],
+  "steps": [
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si tiene que rellenar a menudo, puede haber una fuga. Pida a un técnico que la localice."
+  ],
+  "technician": "Si la presión sigue bajando, un instalador autorizado debe localizar la fuga; nunca abra usted mismo la carcasa de la caldera."
+ },
+ "Worcester Bosch|H07": {
+  "title": "Presión de agua baja (aviso)",
+  "causes": [
+   "La presión de la instalación ha bajado del nivel normal."
+  ],
+  "steps": [
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Si tiene que rellenar a menudo, puede haber una fuga. Pida a un técnico que la localice."
+  ],
+  "technician": "Si la presión sigue bajando, un instalador autorizado debe localizar la fuga; nunca abra usted mismo la carcasa de la caldera."
+ },
+ "Worcester Bosch|E9 224": {
+  "title": "Termostato de seguridad interno demasiado caliente",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Worcester Bosch|E9 276": {
+  "title": "Temperatura de impulsión demasiado alta",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Worcester Bosch|CE 266": {
+  "title": "Lecturas de temperatura anómalas, posible presión baja",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Worcester Bosch|Fd 231": {
+  "title": "Corte de corriente durante un bloqueo",
+  "causes": [
+   "Se cortó el suministro eléctrico mientras la caldera estaba bloqueada."
+  ],
+  "steps": [
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si después aparece otro código, siga las indicaciones para ese código."
+  ],
+  "technician": "Si la caldera no se desbloquea tras un rearme, debe revisarla un instalador autorizado."
+ },
+ "Worcester Bosch|A1": {
+  "title": "La bomba ha funcionado en seco",
+  "causes": [
+   "Presión de agua muy baja.",
+   "Aire atrapado en la bomba o en la instalación."
+  ],
+  "steps": [
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Worcester Bosch|C6": {
+  "title": "Velocidad del ventilador demasiado baja",
+  "causes": [
+   "El ventilador no gira a la velocidad correcta.",
+   "Una avería en el cableado o en la placa de control.",
+   "Puede que la chimenea esté obstruida."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Compruebe desde fuera que nada obstruye el terminal de la chimenea. No lo toque.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Worcester Bosch|F7": {
+  "title": "Se sigue detectando llama tras apagar el quemador",
+  "causes": [
+   "Una avería en el circuito de detección de llama.",
+   "Una válvula de gas que no cierra del todo."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Apague la caldera con el interruptor general.",
+   "No siga rearmando. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Es una avería de seguridad; solo un instalador de gas autorizado puede revisar la válvula de gas y las piezas de detección de llama."
+ },
+ "Worcester Bosch|2980": {
+  "title": "Avería grave de seguridad",
+  "causes": [
+   "La caldera ha detectado una avería relacionada con la seguridad."
+  ],
+  "steps": [
+   "Apague la caldera.",
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "No intente repararla ni rearmarla. Contacte de inmediato con un técnico de calefacción cualificado."
+  ],
+  "technician": "Es una avería crítica para la seguridad y debe atenderla un instalador de gas autorizado."
+ },
+ "Junkers/Bosch|227": {
+  "title": "El quemador no se encendió tras varios intentos",
+  "causes": [
+   "No llega gas a la caldera, por ejemplo porque el contador de prepago se ha quedado sin saldo.",
+   "Un tubo de condensados congelado u obstruido.",
+   "Una avería en las piezas de encendido o de detección de llama."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Compruebe que otros aparatos de gas, como la placa de cocina, funcionan.",
+   "Si tiene un contador de gas de prepago, asegúrese de que tiene saldo.",
+   "Con heladas, revise el tubo de plástico de condensados del exterior. Derrita el hielo con agua tibia (no hirviendo).",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Junkers/Bosch|207": {
+  "title": "Presión de agua baja",
+  "causes": [
+   "Se ha perdido agua de la instalación de calefacción, a menudo tras purgar los radiadores.",
+   "Una pequeña fuga en alguna tubería o radiador.",
+   "Un sensor de presión averiado."
+  ],
+  "steps": [
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si tiene que rellenar a menudo, puede haber una fuga. Pida a un técnico que la localice."
+  ],
+  "technician": "Si la presión sigue bajando, un instalador autorizado debe localizar la fuga; nunca abra usted mismo la carcasa de la caldera."
+ },
+ "Junkers/Bosch|224": {
+  "title": "Ha saltado el limitador de temperatura de seguridad",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Junkers/Bosch|276": {
+  "title": "Temperatura de impulsión demasiado alta",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Junkers/Bosch|231": {
+  "title": "Corte de corriente durante un bloqueo",
+  "causes": [
+   "Se cortó el suministro eléctrico mientras la caldera estaba bloqueada."
+  ],
+  "steps": [
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si después aparece otro código, siga las indicaciones para ese código."
+  ],
+  "technician": "Si no desaparece, un instalador autorizado debe revisar la caldera."
+ },
+ "Junkers/Bosch|232": {
+  "title": "Demanda de calor bloqueada por un contacto externo",
+  "causes": [
+   "Un control externo, como un limitador de suelo radiante, ha bloqueado la caldera.",
+   "Ha saltado el interruptor de seguridad de una bomba de condensados."
+  ],
+  "steps": [
+   "Espere unos minutos; puede que la caldera vuelva a arrancar sola.",
+   "Compruebe que el termostato de ambiente y el programador están pidiendo calor.",
+   "Si tiene una bomba de condensados, compruebe que tiene corriente y que no se desborda.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Junkers/Bosch|2962": {
+  "title": "No hay señal del ventilador",
+  "causes": [
+   "El ventilador no gira a la velocidad correcta.",
+   "Una avería en el cableado o en la placa de control.",
+   "Puede que la chimenea esté obstruida."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Compruebe desde fuera que nada obstruye el terminal de la chimenea. No lo toque.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Baxi|E133": {
+  "title": "Tubo de condensados congelado u obstruido",
+  "causes": [
+   "El tubo de condensados exterior se ha congelado por el frío.",
+   "Una obstrucción en el tubo de condensados.",
+   "En algunos modelos, un problema de suministro de gas o de encendido."
+  ],
+  "steps": [
+   "Apague la caldera.",
+   "Localice la parte congelada del tubo de condensados, normalmente en el exterior o en un codo.",
+   "Caliéntela con una bolsa de agua caliente o eche agua tibia (no hirviendo) a lo largo del tubo.",
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora."
+  ],
+  "technician": "Si la caldera sigue sin funcionar tras descongelar el tubo, llame a un instalador autorizado."
+ },
+ "Baxi|E28": {
+  "title": "Tubo de condensados congelado u obstruido",
+  "causes": [
+   "El tubo de condensados exterior se ha congelado por el frío.",
+   "Una obstrucción en el tubo de condensados.",
+   "En algunos modelos, un problema de suministro de gas o de encendido."
+  ],
+  "steps": [
+   "Apague la caldera.",
+   "Localice la parte congelada del tubo de condensados, normalmente en el exterior o en un codo.",
+   "Caliéntela con una bolsa de agua caliente o eche agua tibia (no hirviendo) a lo largo del tubo.",
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora."
+  ],
+  "technician": "Si la caldera sigue sin funcionar tras descongelar el tubo, llame a un instalador autorizado."
+ },
+ "Baxi|A.02.06": {
+  "title": "Presión de agua baja",
+  "causes": [
+   "Se ha perdido agua de la instalación de calefacción, a menudo tras purgar los radiadores.",
+   "Una pequeña fuga en alguna tubería o radiador.",
+   "Un sensor de presión averiado."
+  ],
+  "steps": [
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si tiene que rellenar a menudo, puede haber una fuga. Pida a un técnico que la localice."
+  ],
+  "technician": "Si la presión sigue bajando, un instalador autorizado debe localizar la fuga; nunca abra usted mismo la carcasa de la caldera."
+ },
+ "Baxi|H.02.07": {
+  "title": "Presión de agua baja (aviso)",
+  "causes": [
+   "Se ha perdido agua de la instalación de calefacción, a menudo tras purgar los radiadores.",
+   "Una pequeña fuga en alguna tubería o radiador.",
+   "Un sensor de presión averiado."
+  ],
+  "steps": [
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si tiene que rellenar a menudo, puede haber una fuga. Pida a un técnico que la localice."
+  ],
+  "technician": "Si la presión sigue bajando, un instalador autorizado debe localizar la fuga; nunca abra usted mismo la carcasa de la caldera."
+ },
+ "Potterton|E133": {
+  "title": "Tubo de condensados congelado u obstruido",
+  "causes": [
+   "El tubo de condensados exterior se ha congelado por el frío.",
+   "Una obstrucción en el tubo de condensados.",
+   "En algunos modelos, un problema de suministro de gas o de encendido."
+  ],
+  "steps": [
+   "Apague la caldera.",
+   "Localice la parte congelada del tubo de condensados, normalmente en el exterior o en un codo.",
+   "Caliéntela con una bolsa de agua caliente o eche agua tibia (no hirviendo) a lo largo del tubo.",
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora."
+  ],
+  "technician": "Si la caldera sigue sin funcionar tras descongelar el tubo, llame a un instalador autorizado."
+ },
+ "Viessmann|74": {
+  "title": "Presión de agua baja",
+  "causes": [
+   "Se ha perdido agua de la instalación de calefacción, a menudo tras purgar los radiadores.",
+   "Una pequeña fuga en alguna tubería o radiador.",
+   "Un sensor de presión averiado."
+  ],
+  "steps": [
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si tiene que rellenar a menudo, puede haber una fuga. Pida a un técnico que la localice."
+  ],
+  "technician": "Si la presión sigue bajando, un instalador autorizado debe localizar la fuga; nunca abra usted mismo la carcasa de la caldera."
+ },
+ "Viessmann|361": {
+  "title": "No hay señal de llama al encender el quemador",
+  "causes": [
+   "No llega gas a la caldera, por ejemplo porque el contador de prepago se ha quedado sin saldo.",
+   "Un tubo de condensados congelado u obstruido.",
+   "Una avería en las piezas de encendido o de detección de llama."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Compruebe que otros aparatos de gas, como la placa de cocina, funcionan.",
+   "Si tiene un contador de gas de prepago, asegúrese de que tiene saldo.",
+   "Con heladas, revise el tubo de plástico de condensados del exterior. Derrita el hielo con agua tibia (no hirviendo).",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Viessmann|64": {
+  "title": "Pérdida de llama durante el funcionamiento",
+  "causes": [
+   "No llega gas a la caldera, por ejemplo porque el contador de prepago se ha quedado sin saldo.",
+   "Un tubo de condensados congelado u obstruido.",
+   "Una avería en las piezas de encendido o de detección de llama."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Compruebe que otros aparatos de gas, como la placa de cocina, funcionan.",
+   "Si tiene un contador de gas de prepago, asegúrese de que tiene saldo.",
+   "Con heladas, revise el tubo de plástico de condensados del exterior. Derrita el hielo con agua tibia (no hirviendo).",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Viessmann|62": {
+  "title": "Ha saltado el limitador de seguridad de temperatura máxima",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Viessmann|63": {
+  "title": "Ha saltado el limitador de temperatura de los gases de combustión",
+  "causes": [
+   "La temperatura de los gases de combustión ha subido demasiado.",
+   "Un problema de combustión o de la chimenea."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Apague la caldera.",
+   "Compruebe desde fuera que el terminal de la chimenea no está visiblemente obstruido. No lo toque.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Viessmann|71": {
+  "title": "Velocidad del ventilador demasiado baja",
+  "causes": [
+   "El ventilador no gira a la velocidad correcta.",
+   "Una avería en el cableado o en la placa de control.",
+   "Puede que la chimenea esté obstruida."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Compruebe desde fuera que nada obstruye el terminal de la chimenea. No lo toque.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Viessmann|14": {
+  "title": "Cortocircuito en el sensor de temperatura exterior",
+  "causes": [
+   "El sensor de temperatura exterior o su cableado está averiado.",
+   "Una conexión floja dentro de la caldera."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve, no intente repararlo usted mismo. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Viessmann|A4": {
+  "title": "Aire en la bomba o caudal demasiado bajo",
+  "causes": [
+   "Aire atrapado en la bomba interna.",
+   "El caudal de agua por la caldera está por debajo del mínimo."
+  ],
+  "steps": [
+   "Deje que termine el programa automático de purgado.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Ariston|101": {
+  "title": "Sobrecalentamiento",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Ariston|103": {
+  "title": "Mala circulación del agua",
+  "causes": [
+   "Aire en la instalación.",
+   "Presión baja o llaves cerradas.",
+   "Un problema de la bomba."
+  ],
+  "steps": [
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Ariston|108": {
+  "title": "Presión de agua baja",
+  "causes": [
+   "Se ha perdido agua de la instalación de calefacción, a menudo tras purgar los radiadores.",
+   "Una pequeña fuga en alguna tubería o radiador.",
+   "Un sensor de presión averiado."
+  ],
+  "steps": [
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si tiene que rellenar a menudo, puede haber una fuga. Pida a un técnico que la localice."
+  ],
+  "technician": "Si la presión sigue bajando, un instalador autorizado debe localizar la fuga; nunca abra usted mismo la carcasa de la caldera."
+ },
+ "Ariston|110": {
+  "title": "Parada temporal de seguridad",
+  "causes": [
+   "Una situación temporal ha hecho que la caldera se detenga por seguridad."
+  ],
+  "steps": [
+   "Espere; la caldera debería volver a arrancar sola cuando desaparezca la causa.",
+   "Si sigue parada, apáguela con el interruptor general y contacte con el servicio técnico."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Ariston|118": {
+  "title": "Problema con el sensor del circuito primario",
+  "causes": [
+   "El sensor del circuito primario o su cableado está averiado.",
+   "Una conexión floja dentro de la caldera."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve, no intente repararlo usted mismo. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Ariston|201": {
+  "title": "Avería del sensor del circuito de agua",
+  "causes": [
+   "El sensor del circuito de agua o su cableado está averiado.",
+   "Una conexión floja dentro de la caldera."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve, no intente repararlo usted mismo. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Ariston|304": {
+  "title": "Demasiados rearmes",
+  "causes": [
+   "Se ha pulsado el botón de rearme demasiadas veces."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "No siga rearmando. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Un instalador autorizado debe averiguar por qué la caldera se sigue bloqueando."
+ },
+ "Ariston|305": {
+  "title": "Error de la placa principal",
+  "causes": [
+   "Una avería electrónica en la placa de control principal."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Ariston|501": {
+  "title": "No se detecta llama",
+  "causes": [
+   "No llega gas a la caldera, por ejemplo porque el contador de prepago se ha quedado sin saldo.",
+   "Un tubo de condensados congelado u obstruido.",
+   "Una avería en las piezas de encendido o de detección de llama."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Compruebe que otros aparatos de gas, como la placa de cocina, funcionan.",
+   "Si tiene un contador de gas de prepago, asegúrese de que tiene saldo.",
+   "Con heladas, revise el tubo de plástico de condensados del exterior. Derrita el hielo con agua tibia (no hirviendo).",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Ariston|601": {
+  "title": "Avería en la evacuación de los gases de combustión",
+  "causes": [
+   "La chimenea no evacua bien los gases de combustión."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Espere unos minutos; la caldera lo volverá a intentar.",
+   "Si vuelve a bloquearse, apáguela y contacte con un técnico cualificado."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Ariston|611": {
+  "title": "Avería del ventilador",
+  "causes": [
+   "El ventilador no gira a la velocidad correcta.",
+   "Una avería en el cableado o en la placa de control.",
+   "Puede que la chimenea esté obstruida."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Compruebe desde fuera que nada obstruye el terminal de la chimenea. No lo toque.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Ariston|802": {
+  "title": "Ha fallado la calibración automática de la combustión",
+  "causes": [
+   "La caldera no pudo completar el ajuste automático de la combustión."
+  ],
+  "steps": [
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Saunier Duval|F.22": {
+  "title": "Presión de agua baja",
+  "causes": [
+   "Se ha perdido agua de la instalación de calefacción, a menudo tras purgar los radiadores.",
+   "Una pequeña fuga en alguna tubería o radiador.",
+   "Un sensor de presión averiado."
+  ],
+  "steps": [
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si tiene que rellenar a menudo, puede haber una fuga. Pida a un técnico que la localice."
+  ],
+  "technician": "Si la presión sigue bajando, un instalador autorizado debe localizar la fuga; nunca abra usted mismo la carcasa de la caldera."
+ },
+ "Saunier Duval|F.28": {
+  "title": "La caldera no ha podido encenderse",
+  "causes": [
+   "No llega gas a la caldera, por ejemplo porque el contador de prepago se ha quedado sin saldo.",
+   "Un tubo de condensados congelado u obstruido.",
+   "Una avería en las piezas de encendido o de detección de llama."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Compruebe que otros aparatos de gas, como la placa de cocina, funcionan.",
+   "Si tiene un contador de gas de prepago, asegúrese de que tiene saldo.",
+   "Con heladas, revise el tubo de plástico de condensados del exterior. Derrita el hielo con agua tibia (no hirviendo).",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Saunier Duval|F.20": {
+  "title": "Ha saltado el limitador de temperatura de seguridad",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Saunier Duval|F.23": {
+  "title": "Diferencia excesiva entre la temperatura de impulsión y la de retorno",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Saunier Duval|F.24": {
+  "title": "La temperatura sube demasiado rápido",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Saunier Duval|F.00": {
+  "title": "Circuito abierto en el sensor de temperatura de impulsión",
+  "causes": [
+   "El sensor de temperatura de impulsión o su cableado está averiado.",
+   "Una conexión floja dentro de la caldera."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve, no intente repararlo usted mismo. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Saunier Duval|F.10": {
+  "title": "Cortocircuito en el sensor de temperatura de impulsión",
+  "causes": [
+   "El sensor de temperatura de impulsión o su cableado está averiado.",
+   "Una conexión floja dentro de la caldera."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve, no intente repararlo usted mismo. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Immergas|E01": {
+  "title": "Bloqueo por falta de encendido",
+  "causes": [
+   "No llega gas a la caldera, por ejemplo porque el contador de prepago se ha quedado sin saldo.",
+   "Un tubo de condensados congelado u obstruido.",
+   "Una avería en las piezas de encendido o de detección de llama."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Compruebe que otros aparatos de gas, como la placa de cocina, funcionan.",
+   "Si tiene un contador de gas de prepago, asegúrese de que tiene saldo.",
+   "Con heladas, revise el tubo de plástico de condensados del exterior. Derrita el hielo con agua tibia (no hirviendo).",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Immergas|E02": {
+  "title": "Bloqueo por termostato de seguridad (sobrecalentamiento)",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Immergas|E05": {
+  "title": "Avería de la sonda de impulsión",
+  "causes": [
+   "La sonda de temperatura de impulsión o su cableado está averiado.",
+   "Una conexión floja dentro de la caldera."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve, no intente repararlo usted mismo. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Immergas|E06": {
+  "title": "Avería de la sonda de agua caliente sanitaria",
+  "causes": [
+   "La sonda de temperatura del agua caliente sanitaria o su cableado está averiado.",
+   "Una conexión floja dentro de la caldera."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve, no intente repararlo usted mismo. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Immergas|E10": {
+  "title": "Presión de la instalación insuficiente",
+  "causes": [
+   "Se ha perdido agua de la instalación de calefacción, a menudo tras purgar los radiadores.",
+   "Una pequeña fuga en alguna tubería o radiador.",
+   "Un sensor de presión averiado."
+  ],
+  "steps": [
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si tiene que rellenar a menudo, puede haber una fuga. Pida a un técnico que la localice."
+  ],
+  "technician": "Si la presión sigue bajando, un instalador autorizado debe localizar la fuga; nunca abra usted mismo la carcasa de la caldera."
+ },
+ "Immergas|E11": {
+  "title": "Avería del presostato de humos",
+  "causes": [
+   "El ventilador no gira a la velocidad correcta.",
+   "Una avería en el cableado o en la placa de control.",
+   "Puede que la chimenea esté obstruida."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Compruebe desde fuera que nada obstruye el terminal de la chimenea. No lo toque.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Immergas|E20": {
+  "title": "Bloqueo por llama parásita",
+  "causes": [
+   "Una avería en el circuito de detección de llama.",
+   "Una válvula de gas que no cierra del todo."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Apague la caldera con el interruptor general.",
+   "No siga rearmando. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Es una avería de seguridad; solo un instalador de gas autorizado puede revisar la válvula de gas y las piezas de detección de llama."
+ },
+ "Immergas|E27": {
+  "title": "Circulación insuficiente",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Immergas|E37": {
+  "title": "Tensión de alimentación baja",
+  "causes": [
+   "La tensión de red está por debajo del límite permitido."
+  ],
+  "steps": [
+   "Compruebe si otros aparatos están afectados.",
+   "Espere; la caldera vuelve a arrancar sola cuando la tensión es normal.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Si el suministro es correcto, un instalador autorizado debe revisar la caldera; la revisión del cableado eléctrico corresponde a un electricista cualificado."
+ },
+ "Immergas|E38": {
+  "title": "Se ha perdido la señal de llama",
+  "causes": [
+   "No llega gas a la caldera, por ejemplo porque el contador de prepago se ha quedado sin saldo.",
+   "Un tubo de condensados congelado u obstruido.",
+   "Una avería en las piezas de encendido o de detección de llama."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Compruebe que otros aparatos de gas, como la placa de cocina, funcionan.",
+   "Si tiene un contador de gas de prepago, asegúrese de que tiene saldo.",
+   "Con heladas, revise el tubo de plástico de condensados del exterior. Derrita el hielo con agua tibia (no hirviendo).",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Immergas|E43": {
+  "title": "Bloqueo tras pérdidas de llama repetidas",
+  "causes": [
+   "No llega gas a la caldera, por ejemplo porque el contador de prepago se ha quedado sin saldo.",
+   "Un tubo de condensados congelado u obstruido.",
+   "Una avería en las piezas de encendido o de detección de llama."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Compruebe que otros aparatos de gas, como la placa de cocina, funcionan.",
+   "Si tiene un contador de gas de prepago, asegúrese de que tiene saldo.",
+   "Con heladas, revise el tubo de plástico de condensados del exterior. Derrita el hielo con agua tibia (no hirviendo).",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Ferroli|A01": {
+  "title": "El quemador no se enciende",
+  "causes": [
+   "No llega gas a la caldera, por ejemplo porque el contador de prepago se ha quedado sin saldo.",
+   "Un tubo de condensados congelado u obstruido.",
+   "Una avería en las piezas de encendido o de detección de llama."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Compruebe que otros aparatos de gas, como la placa de cocina, funcionan.",
+   "Si tiene un contador de gas de prepago, asegúrese de que tiene saldo.",
+   "Con heladas, revise el tubo de plástico de condensados del exterior. Derrita el hielo con agua tibia (no hirviendo).",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Ferroli|A02": {
+  "title": "Señal de llama con el quemador apagado",
+  "causes": [
+   "Una avería en el circuito de detección de llama.",
+   "Una válvula de gas que no cierra del todo."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Apague la caldera con el interruptor general.",
+   "No siga rearmando. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Es una avería de seguridad; solo un instalador de gas autorizado puede revisar la válvula de gas y las piezas de detección de llama."
+ },
+ "Ferroli|A03": {
+  "title": "Protección contra sobretemperatura",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Ferroli|F05": {
+  "title": "El presostato de aire no se ha cerrado",
+  "causes": [
+   "El ventilador no gira a la velocidad correcta.",
+   "Una avería en el cableado o en la placa de control.",
+   "Puede que la chimenea esté obstruida."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Compruebe desde fuera que nada obstruye el terminal de la chimenea. No lo toque.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Ferroli|A06": {
+  "title": "No hay llama tras el encendido",
+  "causes": [
+   "No llega gas a la caldera, por ejemplo porque el contador de prepago se ha quedado sin saldo.",
+   "Un tubo de condensados congelado u obstruido.",
+   "Una avería en las piezas de encendido o de detección de llama."
+  ],
+  "steps": [
+   "Si huele a gas, no rearme la caldera. Salga de la vivienda y llame al teléfono de urgencias de gas de su distribuidora.",
+   "Compruebe que otros aparatos de gas, como la placa de cocina, funcionan.",
+   "Si tiene un contador de gas de prepago, asegúrese de que tiene saldo.",
+   "Con heladas, revise el tubo de plástico de condensados del exterior. Derrita el hielo con agua tibia (no hirviendo).",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Cualquier trabajo en las piezas de gas o de combustión debe hacerlo un instalador de gas autorizado."
+ },
+ "Ferroli|F10": {
+  "title": "Avería del sensor de impulsión",
+  "causes": [
+   "El sensor de impulsión o su cableado está averiado.",
+   "Una conexión floja dentro de la caldera."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve, no intente repararlo usted mismo. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Ferroli|F11": {
+  "title": "Avería del sensor de agua caliente sanitaria",
+  "causes": [
+   "El sensor de agua caliente sanitaria o su cableado está averiado.",
+   "Una conexión floja dentro de la caldera."
+  ],
+  "steps": [
+   "Apague la caldera con el interruptor general, espere 30 segundos y vuelva a encenderla.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve, no intente repararlo usted mismo. Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Ferroli|F34": {
+  "title": "Tensión de alimentación demasiado baja",
+  "causes": [
+   "La tensión de red está por debajo de unos 140 V."
+  ],
+  "steps": [
+   "Compruebe si otros aparatos están afectados.",
+   "Espere; la caldera vuelve a arrancar sola cuando la tensión es normal.",
+   "Anote el código y contacte con su instalador o con el servicio técnico del fabricante."
+  ],
+  "technician": "Si el suministro es correcto, un instalador autorizado debe revisar la caldera; la revisión del cableado eléctrico corresponde a un electricista cualificado."
+ },
+ "Ferroli|F37": {
+  "title": "Presión de agua de la instalación incorrecta",
+  "causes": [
+   "Se ha perdido agua de la instalación de calefacción, a menudo tras purgar los radiadores.",
+   "Una pequeña fuga en alguna tubería o radiador.",
+   "Un sensor de presión averiado."
+  ],
+  "steps": [
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si tiene que rellenar a menudo, puede haber una fuga. Pida a un técnico que la localice."
+  ],
+  "technician": "Si la presión sigue bajando, un instalador autorizado debe localizar la fuga; nunca abra usted mismo la carcasa de la caldera."
+ },
+ "Ferroli|F43": {
+  "title": "Protección del intercambiador de calor",
+  "causes": [
+   "El agua no circula bien por la caldera.",
+   "Llaves de radiador cerradas o aire en la instalación.",
+   "Presión baja en la instalación o una avería de la bomba."
+  ],
+  "steps": [
+   "Asegúrese de que las llaves de los radiadores están abiertas.",
+   "Mire el manómetro. Con la calefacción en frío debe marcar entre 1 y 1,5 bar aproximadamente.",
+   "Si la presión es baja, rellene con la llave de llenado exactamente como indica su manual de usuario y después ciérrela del todo.",
+   "Purgue los radiadores que estén fríos por arriba y vuelva a comprobar la presión.",
+   "Pulse una vez el botón de rearme y deje a la caldera unos minutos para que vuelva a arrancar.",
+   "Si el código vuelve tras uno o dos rearmes, no siga rearmando y solicite una reparación."
+  ],
+  "technician": "Solo un instalador autorizado de calefacción debe revisar las piezas internas."
+ },
+ "Navien|E302": {
+  "title": "Presión de la instalación demasiado baja",
+  "causes": [
+   "Se ha perdido agua de la instalación de calefacción, a menudo tras purgar los radiadores.",
+   "Una pequeña fuga en alguna tubería o radiador.",
+   "Un sensor de presión averiado."
+  ],
+  "steps": [
+   "Mire el manómetro o la pantalla. Debe marcar entre 1 y 1,2 bar.",
+   "Si es baja, rellene con la llave de llenado como indica su manual de usuario y pare al llegar a 1–1,2 bar.",
+   "No supere 1,5 bar. Si se pasa, purgue un radiador para bajarla.",
+   "Si tiene que rellenar a menudo, puede haber una fuga. Pida a un técnico que la localice."
+  ],
+  "technician": "Si la presión sigue bajando, un instalador autorizado debe localizar la fuga; nunca abra usted mismo la carcasa de la caldera."
+ }
+}

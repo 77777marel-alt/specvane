@@ -1,0 +1,1201 @@
+{
+ "Samsung|dC": {
+  "title": "Sportello aperto o non rilevato",
+  "causes": [
+   "Lo sportello non è chiuso del tutto.",
+   "Alcuni capi sono rimasti incastrati nello sportello.",
+   "Il blocco bambini (Child Lock) è attivo ed è stato aperto lo sportello."
+  ],
+  "steps": [
+   "Apra lo sportello e tolga i capi rimasti sul bordo.",
+   "Chiuda bene lo sportello finché non scatta.",
+   "Verifichi se il blocco bambini (Child Lock) è attivo.",
+   "Riavvii il ciclo."
+  ],
+  "technician": "Se il codice resta con lo sportello ben chiuso, la chiusura o il sensore dello sportello potrebbero essere guasti. Contatti l'assistenza Samsung."
+ },
+ "Samsung|NC": {
+  "title": "Problema al filtro lanugine",
+  "causes": [
+   "Il filtro lanugine manca, è intasato o non è inserito correttamente."
+  ],
+  "steps": [
+   "Estragga il filtro lanugine e lo pulisca.",
+   "Lo reinserisca fino in fondo, in posizione corretta.",
+   "Riavvii il ciclo."
+  ],
+  "technician": "Se il codice ricompare con il filtro pulito e montato bene, prenoti un intervento dell'assistenza Samsung."
+ },
+ "Samsung|NC2": {
+  "title": "Problema al coperchio interno dello scambiatore di calore",
+  "causes": [
+   "Il coperchio interno dello scambiatore di calore non è montato correttamente."
+  ],
+  "steps": [
+   "Spenga l'asciugatrice.",
+   "Verifichi che il coperchio interno dello scambiatore sia al suo posto e ben chiuso.",
+   "Riavvii il ciclo."
+  ],
+  "technician": "Se il codice resta dopo aver rimontato il coperchio, contatti l'assistenza Samsung."
+ },
+ "Samsung|5C": {
+  "title": "Problema di scarico",
+  "causes": [
+   "Il tubo di scarico è piegato, danneggiato o congelato.",
+   "Il serbatoio dell'acqua è pieno.",
+   "La pompa di scarico non funziona."
+  ],
+  "steps": [
+   "Svuoti il serbatoio dell'acqua e lo rimetta a posto.",
+   "Verifichi che il tubo di scarico non sia piegato o danneggiato.",
+   "Se il tubo è congelato, lo avvolga per circa 10 minuti in un asciugamano imbevuto di acqua calda.",
+   "Accenda l'asciugatrice e riavvii il ciclo."
+  ],
+  "technician": "Se il serbatoio è vuoto e il tubo è libero ma il codice ricompare, la pompa potrebbe essere guasta. Chiami l'assistenza Samsung."
+ },
+ "Samsung|tC": {
+  "title": "Problema al sensore della temperatura dell'aria",
+  "causes": [
+   "Il filtro lanugine o lo scambiatore di calore sono intasati.",
+   "Lo sfiato o il passaggio dell'aria è ostruito.",
+   "Il sensore di temperatura è guasto."
+  ],
+  "steps": [
+   "Pulisca il filtro lanugine.",
+   "Pulisca lo scambiatore di calore, se il Suo modello ne ha uno.",
+   "Controlli che lo sfiato o lo scarico dell'aria non siano ostruiti.",
+   "Riavvii il ciclo."
+  ],
+  "technician": "Se la pulizia non elimina il codice, potrebbe essere necessario sostituire il sensore. Contatti l'assistenza Samsung."
+ },
+ "Samsung|tC5": {
+  "title": "Problema al sensore di temperatura del compressore",
+  "causes": [
+   "Il filtro lanugine è intasato.",
+   "Il flusso d'aria nel sistema di sfiato è ostruito."
+  ],
+  "steps": [
+   "Attenda 2-3 minuti, poi riaccenda l'asciugatrice.",
+   "Pulisca il filtro lanugine.",
+   "Controlli che il sistema di sfiato non sia ostruito.",
+   "Riavvii il ciclo."
+  ],
+  "technician": "Se il codice continua a ricomparire, il sistema a pompa di calore deve essere controllato dall'assistenza Samsung."
+ },
+ "Samsung|3C": {
+  "title": "Problema al motore",
+  "causes": [
+   "Il motore inverter non ha funzionato come previsto."
+  ],
+  "steps": [
+   "Si assicuri che il cestello non sia sovraccarico.",
+   "Riavvii il ciclo.",
+   "Stacchi la spina per almeno 30 secondi, la reinserisca e riprovi."
+  ],
+  "technician": "Se il codice ricompare, il motore o il suo controllo richiedono un tecnico. Contatti l'assistenza Samsung."
+ },
+ "Samsung|AC": {
+  "title": "Errore di comunicazione elettronica",
+  "causes": [
+   "Le parti di controllo interne non comunicano tra loro."
+  ],
+  "steps": [
+   "Spenga l'asciugatrice per 60 secondi.",
+   "La riaccenda e riavvii il ciclo."
+  ],
+  "technician": "Se il codice ricompare, le schede di controllo vanno verificate. Richieda l'assistenza Samsung."
+ },
+ "Samsung|AC6": {
+  "title": "Scheda principale e scheda inverter non comunicano",
+  "causes": [
+   "La scheda di controllo principale e la scheda inverter hanno perso la comunicazione."
+  ],
+  "steps": [
+   "Riavvii il ciclo.",
+   "Stacchi la spina per almeno 30 secondi, la reinserisca e riprovi."
+  ],
+  "technician": "Se il codice resta, un tecnico deve controllare le schede e i cablaggi. Contatti l'assistenza Samsung."
+ },
+ "Samsung|HC": {
+  "title": "Surriscaldamento o problema di riscaldamento",
+  "causes": [
+   "Il filtro lanugine o lo sfiato sono ostruiti e l'asciugatrice si scalda troppo.",
+   "Un interruttore scattato o una tensione bassa nei modelli elettrici."
+  ],
+  "steps": [
+   "Pulisca il filtro lanugine.",
+   "Controlli che lo sfiato non sia ostruito.",
+   "Controlli gli interruttori di casa e riarmi quelli scattati.",
+   "Riavvii il ciclo."
+  ],
+  "technician": "Se il codice continua, faccia controllare l'alimentazione da un elettricista e prenoti l'assistenza Samsung per il sistema di riscaldamento."
+ },
+ "Samsung|FC": {
+  "title": "Frequenza di alimentazione errata",
+  "causes": [
+   "La frequenza della rete elettrica non corrisponde a quella prevista dall'asciugatrice."
+  ],
+  "steps": [
+   "Riavvii il ciclo.",
+   "Si assicuri che l'asciugatrice sia collegata direttamente a una presa a muro."
+  ],
+  "technician": "Se il codice resta, contatti l'assistenza Samsung."
+ },
+ "Samsung|9C1": {
+  "title": "Problema di alimentazione",
+  "causes": [
+   "L'alimentazione elettrica non è corretta.",
+   "La spina è allentata o non inserita del tutto.",
+   "Si sta usando una prolunga."
+  ],
+  "steps": [
+   "Verifichi che la spina sia inserita fino in fondo nella presa.",
+   "Colleghi l'asciugatrice direttamente a una presa a muro su un circuito dedicato, senza prolunga.",
+   "Riavvii il ciclo."
+  ],
+  "technician": "Se l'alimentazione è corretta e il codice ricompare, richieda l'assistenza Samsung."
+ },
+ "Samsung|dF": {
+  "title": "Guasto all'interruttore dello sportello",
+  "causes": [
+   "L'interruttore dello sportello o della serratura, o il relativo cablaggio, è guasto."
+  ],
+  "steps": [
+   "Chiuda bene lo sportello e riprovi.",
+   "Stacchi la spina per almeno 30 secondi, la reinserisca e riprovi."
+  ],
+  "technician": "Potrebbe essere necessario sostituire il gruppo interruttore dello sportello. Contatti l'assistenza Samsung."
+ },
+ "Samsung|bE": {
+  "title": "Tasto bloccato",
+  "causes": [
+   "Un tasto del pannello di controllo è incastrato o premuto."
+  ],
+  "steps": [
+   "Spenga l'asciugatrice.",
+   "Prema e rilasci ogni tasto, compresi i bordi, per sbloccare quello incastrato.",
+   "Accenda e riprovi."
+  ],
+  "technician": "Se un tasto è danneggiato o il codice ricompare, richieda l'assistenza Samsung."
+ },
+ "Samsung|Clg": {
+  "title": "Sfiato intasato (esito del test dello sfiato)",
+  "causes": [
+   "Lo sfiato di scarico è ostruito da lanugine o detriti."
+  ],
+  "steps": [
+   "Pulisca il filtro lanugine.",
+   "Pulisca lo sfiato e il condotto di scarico.",
+   "Ripeta il test di ostruzione dello sfiato."
+  ],
+  "technician": "Se lo sfiato è pulito e l'esito non cambia, contatti l'assistenza Samsung."
+ },
+ "Samsung|dn": {
+  "title": "Download del software in corso",
+  "causes": [
+   "L'asciugatrice sta installando un aggiornamento del firmware."
+  ],
+  "steps": [
+   "Non stacchi la spina e non tolga la corrente.",
+   "Attenda. L'asciugatrice si riavvia da sola al termine dell'aggiornamento."
+  ],
+  "technician": "Se dopo 24 ore è ancora visualizzato dn, richieda l'assistenza Samsung."
+ },
+ "Samsung|CL": {
+  "title": "Blocco bambini attivo",
+  "causes": [
+   "È stato attivato il blocco bambini (Child Lock), quindi i tasti sono disattivati."
+  ],
+  "steps": [
+   "Disattivi il blocco bambini con la combinazione di tasti indicata nel manuale."
+  ],
+  "technician": "Non è un guasto. Contatti Samsung solo se il blocco bambini non si disattiva."
+ },
+ "Samsung|HC2": {
+  "title": "Errore di accensione del gas",
+  "causes": [
+   "L'asciugatrice a gas non è riuscita ad accendersi."
+  ],
+  "steps": [
+   "Spenga l'asciugatrice per 2-3 minuti.",
+   "La riaccenda e riavvii il ciclo."
+  ],
+  "technician": "Se il codice ricompare, smetta di usare l'asciugatrice e chiami l'assistenza Samsung. Non intervenga da solo sulle parti del gas."
+ },
+ "LG|OE": {
+  "title": "Problema di scarico",
+  "causes": [
+   "Il tubo di scarico è attorcigliato, piegato o ostruito.",
+   "L'estremità del tubo è troppo in alto o è immersa nell'acqua."
+  ],
+  "steps": [
+   "Raddrizzi il tubo di scarico.",
+   "Tenga la parte più alta del tubo a non più di 1 m dal pavimento.",
+   "Si assicuri che l'estremità del tubo non sia immersa nell'acqua.",
+   "Riavvii l'asciugatrice."
+  ],
+  "technician": "Se il codice ricompare con il tubo libero e posizionato correttamente, contatti l'assistenza LG."
+ },
+ "LG|d80": {
+  "title": "Flusso d'aria di scarico ostruito (circa all'80%)",
+  "causes": [
+   "Il filtro lanugine è intasato.",
+   "Il condotto di scarico è schiacciato, piegato o troppo lungo.",
+   "La valvola dello sfiato esterno è bloccata."
+  ],
+  "steps": [
+   "Pulisca il filtro lanugine e, se serve, lo sciacqui con acqua calda.",
+   "Controlli che il condotto dietro l'asciugatrice non sia piegato o schiacciato.",
+   "Si assicuri che la valvola dello sfiato esterno si apra del tutto e tolga la lanugine intorno.",
+   "Usi carichi più piccoli finché il condotto non è stato liberato."
+  ],
+  "technician": "Se il codice resta dopo la pulizia, si rivolga a una ditta di pulizia condotti o contatti l'assistenza LG."
+ },
+ "LG|d90": {
+  "title": "Flusso d'aria di scarico ostruito (circa al 90%)",
+  "causes": [
+   "Il filtro lanugine è intasato.",
+   "Il condotto di scarico è schiacciato, piegato o troppo lungo.",
+   "La valvola dello sfiato esterno è bloccata."
+  ],
+  "steps": [
+   "Pulisca il filtro lanugine e, se serve, lo sciacqui con acqua calda.",
+   "Controlli che il condotto dietro l'asciugatrice non sia piegato o schiacciato.",
+   "Si assicuri che la valvola dello sfiato esterno si apra del tutto e tolga la lanugine intorno.",
+   "Usi carichi più piccoli finché il condotto non è stato liberato."
+  ],
+  "technician": "Se il codice resta dopo la pulizia, si rivolga a una ditta di pulizia condotti o contatti l'assistenza LG."
+ },
+ "LG|d95": {
+  "title": "Flusso d'aria di scarico ostruito (circa al 95%)",
+  "causes": [
+   "Il filtro lanugine è intasato.",
+   "Il condotto di scarico è schiacciato, piegato o troppo lungo.",
+   "La valvola dello sfiato esterno è bloccata."
+  ],
+  "steps": [
+   "Pulisca il filtro lanugine e, se serve, lo sciacqui con acqua calda.",
+   "Controlli che il condotto dietro l'asciugatrice non sia piegato o schiacciato.",
+   "Si assicuri che la valvola dello sfiato esterno si apra del tutto e tolga la lanugine intorno.",
+   "Usi carichi più piccoli finché il condotto non è stato liberato."
+  ],
+  "technician": "Se il codice resta dopo la pulizia, si rivolga a una ditta di pulizia condotti o contatti l'assistenza LG."
+ },
+ "LG|FO": {
+  "title": "Filtro lanugine non inserito",
+  "causes": [
+   "Il filtro lanugine non è inserito correttamente."
+  ],
+  "steps": [
+   "Estragga il filtro lanugine.",
+   "Lo reinserisca nella sua sede finché non è completamente in posizione.",
+   "Riavvii l'asciugatrice."
+  ],
+  "technician": "Se FO resta con il filtro montato correttamente, il sensore potrebbe dover essere riparato dall'assistenza LG."
+ },
+ "LG|IF": {
+  "title": "Filtro lanugine interno non rilevato",
+  "causes": [
+   "Il magnete del filtro lanugine interno manca o è fuori posto.",
+   "Il supporto del magnete è danneggiato."
+  ],
+  "steps": [
+   "Estragga il filtro lanugine interno e verifichi che il magnete sia al suo posto.",
+   "Rimonti correttamente il filtro.",
+   "Se il magnete è perso o il supporto è rotto, acquisti un filtro nuovo."
+  ],
+  "technician": "Se l'errore resta con un filtro in buono stato, richieda l'assistenza LG."
+ },
+ "LG|nP": {
+  "title": "Nessuna alimentazione alla resistenza",
+  "causes": [
+   "La presa non fornisce la tensione corretta.",
+   "È scattato un interruttore."
+  ],
+  "steps": [
+   "Spenga l'interruttore dell'asciugatrice per almeno 10 secondi, poi lo riaccenda.",
+   "Riavvii l'asciugatrice."
+  ],
+  "technician": "Se ancora non scalda, faccia controllare la presa da un elettricista e poi contatti l'assistenza LG."
+ },
+ "LG|PS": {
+  "title": "Problema di alimentazione",
+  "causes": [
+   "Il cavo di alimentazione è allentato o la presa non è cablata come richiesto."
+  ],
+  "steps": [
+   "Riarmi l'interruttore dell'asciugatrice dopo almeno 10 secondi.",
+   "Verifichi che la spina sia ben inserita in una presa con messa a terra e di portata adeguata.",
+   "Riavvii l'asciugatrice."
+  ],
+  "technician": "Se l'asciugatrice ancora non scalda, richieda una riparazione a LG."
+ },
+ "LG|gAS": {
+  "title": "Problema di alimentazione del gas",
+  "causes": [
+   "La valvola di alimentazione del gas è chiusa.",
+   "Il tubo del gas è piegato."
+  ],
+  "steps": [
+   "Verifichi che la valvola del gas sia aperta.",
+   "Verifichi che il tubo del gas non sia piegato."
+  ],
+  "technician": "Se l'alimentazione del gas è regolare e il codice ricompare, chiami l'assistenza LG. Non ripari da solo le parti del gas."
+ },
+ "LG|CL": {
+  "title": "Blocco bambini attivo",
+  "causes": [
+   "Il blocco bambini (Child Lock) è stato attivato e resta attivo anche dopo lo spegnimento."
+  ],
+  "steps": [
+   "Accenda l'asciugatrice.",
+   "Tenga premuto il tasto Child Lock per 3-5 secondi finché CL non scompare."
+  ],
+  "technician": "Non è un guasto. Contatti LG solo se il blocco bambini non si disattiva."
+ },
+ "LG|Add": {
+  "title": "Aggiungere acqua per il vapore",
+  "causes": [
+   "Il serbatoio del vapore è vuoto durante un ciclo a vapore."
+  ],
+  "steps": [
+   "Metta in pausa il ciclo.",
+   "Riempia il serbatoio del vapore con acqua del rubinetto fino alla linea MAX.",
+   "Spenga e riaccenda l'asciugatrice, scelga il ciclo a vapore e prema Start."
+  ],
+  "technician": "Se il messaggio resta dopo il riempimento, contatti l'assistenza LG."
+ },
+ "LG|E13": {
+  "title": "Problema di scarico (condensa)",
+  "causes": [
+   "Il tubo di scarico è piegato, attorcigliato o ostruito.",
+   "Una prolunga del tubo riduce lo scarico."
+  ],
+  "steps": [
+   "Controlli che il tubo di scarico non sia piegato od ostruito.",
+   "Usi solo il tubo di scarico originale LG, senza prolunghe.",
+   "Prema Start/Pause per riavviare."
+  ],
+  "technician": "Se E13 ricompare, l'asciugatrice deve essere riparata dall'assistenza LG."
+ },
+ "Bosch|E01": {
+  "title": "Filtro lanugine intasato",
+  "causes": [
+   "Si è accumulata lanugine sul filtro.",
+   "Residui di ammorbidente intasano la rete."
+  ],
+  "steps": [
+   "Estragga e svuoti il filtro lanugine.",
+   "Sciacqui il filtro sotto acqua calda per eliminare i residui.",
+   "Lo asciughi e lo rimonti.",
+   "Pulisca il filtro dopo ogni ciclo."
+  ],
+  "technician": "Se il codice resta con il filtro pulito, prenoti un intervento dell'assistenza Bosch."
+ },
+ "Bosch|E02": {
+  "title": "Filtro lanugine intasato o guasto al relè di controllo",
+  "causes": [
+   "Il filtro lanugine è intasato.",
+   "Su alcuni modelli, un guasto a un relè della scheda principale."
+  ],
+  "steps": [
+   "Pulisca il filtro lanugine e lo sciacqui con acqua calda.",
+   "Tolga la corrente dalla spina o dall'interruttore per 30 secondi, poi riavvii."
+  ],
+  "technician": "Se il codice ricompare dopo la pulizia e il reset, contatti il servizio clienti Bosch."
+ },
+ "Bosch|E03": {
+  "title": "Tubo di scarico della condensa ostruito",
+  "causes": [
+   "Il tubo di scarico della condensa è piegato o ostruito."
+  ],
+  "steps": [
+   "Verifichi che il tubo di scarico non abbia pieghe.",
+   "Stacchi con cura il tubo dal sifone e pulisca il tubo e il raccordo.",
+   "Rimonti saldamente il tubo."
+  ],
+  "technician": "Se il codice ricompare con il tubo libero, prenoti un tecnico Bosch."
+ },
+ "Bosch|E04": {
+  "title": "Asciugatrice sovraccarica",
+  "causes": [
+   "Troppa biancheria nel cestello."
+  ],
+  "steps": [
+   "Tolga un po' di biancheria.",
+   "Lasci circa una mano di spazio sopra i capi.",
+   "Riavvii il programma."
+  ],
+  "technician": "Se il codice compare con un carico normale, contatti l'assistenza Bosch."
+ },
+ "Bosch|E06": {
+  "title": "Guasto al circuito di riscaldamento",
+  "causes": [
+   "Un guasto nel circuito di riscaldamento."
+  ],
+  "steps": [
+   "Spenga l'asciugatrice e stacchi la spina.",
+   "Non provi a ripararla da solo."
+  ],
+  "technician": "Serve un tecnico qualificato. Contatti il servizio clienti Bosch."
+ },
+ "Bosch|E08": {
+  "title": "Guasto all'elettronica",
+  "causes": [
+   "Un guasto elettronico interno."
+  ],
+  "steps": [
+   "Spenga l'asciugatrice.",
+   "Stacchi la spina o spenga l'interruttore per qualche minuto, poi ricolleghi.",
+   "Se il codice ricompare, smetta di usare l'asciugatrice."
+  ],
+  "technician": "Solo un tecnico autorizzato può risolvere il problema. Contatti il servizio clienti Bosch."
+ },
+ "Bosch|E09": {
+  "title": "Guasto all'elettronica",
+  "causes": [
+   "Un guasto elettronico interno."
+  ],
+  "steps": [
+   "Spenga l'asciugatrice.",
+   "Stacchi la spina o spenga l'interruttore per qualche minuto, poi ricolleghi.",
+   "Se il codice ricompare, smetta di usare l'asciugatrice."
+  ],
+  "technician": "Solo un tecnico autorizzato può risolvere il problema. Contatti il servizio clienti Bosch."
+ },
+ "Bosch|E24": {
+  "title": "Guasto all'elettronica",
+  "causes": [
+   "Un guasto elettronico interno."
+  ],
+  "steps": [
+   "Spenga l'asciugatrice.",
+   "Stacchi la spina o spenga l'interruttore per qualche minuto, poi ricolleghi.",
+   "Se il codice ricompare, smetta di usare l'asciugatrice."
+  ],
+  "technician": "Solo un tecnico autorizzato può risolvere il problema. Contatti il servizio clienti Bosch."
+ },
+ "Bosch|E25": {
+  "title": "Guasto all'elettronica",
+  "causes": [
+   "Un guasto elettronico interno."
+  ],
+  "steps": [
+   "Spenga l'asciugatrice.",
+   "Stacchi la spina o spenga l'interruttore per qualche minuto, poi ricolleghi.",
+   "Se il codice ricompare, smetta di usare l'asciugatrice."
+  ],
+  "technician": "Solo un tecnico autorizzato può risolvere il problema. Contatti il servizio clienti Bosch."
+ },
+ "Bosch|E28": {
+  "title": "Guasto all'elettronica",
+  "causes": [
+   "Un guasto elettronico interno."
+  ],
+  "steps": [
+   "Spenga l'asciugatrice.",
+   "Stacchi la spina o spenga l'interruttore per qualche minuto, poi ricolleghi.",
+   "Se il codice ricompare, smetta di usare l'asciugatrice."
+  ],
+  "technician": "Solo un tecnico autorizzato può risolvere il problema. Contatti il servizio clienti Bosch."
+ },
+ "Bosch|E36": {
+  "title": "Guasto all'elettronica",
+  "causes": [
+   "Un guasto elettronico interno."
+  ],
+  "steps": [
+   "Spenga l'asciugatrice.",
+   "Stacchi la spina o spenga l'interruttore per qualche minuto, poi ricolleghi.",
+   "Se il codice ricompare, smetta di usare l'asciugatrice."
+  ],
+  "technician": "Solo un tecnico autorizzato può risolvere il problema. Contatti il servizio clienti Bosch."
+ },
+ "Bosch|E90": {
+  "title": "Guasto all'elettronica",
+  "causes": [
+   "Un guasto elettronico interno."
+  ],
+  "steps": [
+   "Spenga l'asciugatrice.",
+   "Stacchi la spina o spenga l'interruttore per qualche minuto, poi ricolleghi.",
+   "Se il codice ricompare, smetta di usare l'asciugatrice."
+  ],
+  "technician": "Solo un tecnico autorizzato può risolvere il problema. Contatti il servizio clienti Bosch."
+ },
+ "Bosch|E12": {
+  "title": "Surriscaldamento o calcare nella pompa di calore",
+  "causes": [
+   "Il flusso d'aria è ostruito e l'asciugatrice si surriscalda.",
+   "Su alcuni modelli, accumulo di calcare nella pompa di calore."
+  ],
+  "steps": [
+   "Pulisca il filtro lanugine.",
+   "Verifichi che lo sfiato esterno non sia ostruito, piegato o schiacciato.",
+   "Riavvii il programma."
+  ],
+  "technician": "Se il codice continua a ricomparire, prenoti un intervento dell'assistenza Bosch."
+ },
+ "Bosch|E16": {
+  "title": "Sportello aperto durante l'asciugatura",
+  "causes": [
+   "Lo sportello è stato aperto mentre un ciclo era in corso."
+  ],
+  "steps": [
+   "Chiuda bene lo sportello.",
+   "Prema Start per riprendere il ciclo.",
+   "Se serve, usi il blocco bambini per impedire l'apertura dello sportello."
+  ],
+  "technician": "Se E16 compare con lo sportello chiuso, l'interruttore dello sportello potrebbe essere guasto. Prenoti un tecnico Bosch."
+ },
+ "Bosch|E56": {
+  "title": "Problema al sensore di umidità",
+  "causes": [
+   "Residui o lanugine sulle strisce del sensore di umidità nel cestello."
+  ],
+  "steps": [
+   "Stacchi la spina dell'asciugatrice.",
+   "Pulisca il sensore di umidità vicino al filtro lanugine con un panno morbido e un detergente delicato.",
+   "Elimini ogni residuo, poi riavvii."
+  ],
+  "technician": "Se il codice resta dopo la pulizia, contatti il servizio clienti Bosch."
+ },
+ "Bosch|DR": {
+  "title": "Sportello non chiuso correttamente",
+  "causes": [
+   "Lo sportello non è chiuso del tutto.",
+   "Qualcosa impedisce la chiusura dello sportello."
+  ],
+  "steps": [
+   "Tolga ciò che è rimasto incastrato nello sportello.",
+   "Lo chiuda bene finché non scatta.",
+   "Riavvii il ciclo."
+  ],
+  "technician": "Se il codice resta, la chiusura o l'interruttore dello sportello devono essere controllati dall'assistenza Bosch."
+ },
+ "Bosch|CrE": {
+  "title": "Promemoria manutenzione",
+  "causes": [
+   "L'asciugatrice ricorda di eseguire il programma di manutenzione. Non è un guasto."
+  ],
+  "steps": [
+   "Esegua il programma di manutenzione base descritto nel manuale."
+  ],
+  "technician": "Non necessario, a meno che il promemoria non scompaia dopo il programma di manutenzione."
+ },
+ "Miele|F1": {
+  "title": "Cortocircuito del sensore di temperatura del refrigerante",
+  "causes": [
+   "Il sensore di temperatura del refrigerante è in cortocircuito."
+  ],
+  "steps": [
+   "Annoti il codice di errore.",
+   "Spenga l'asciugatrice e non continui a usarla.",
+   "Prenoti una riparazione con Miele."
+  ],
+  "technician": "È un guasto tecnico che non può risolvere da solo. Prenoti un tecnico Miele."
+ },
+ "Miele|F2": {
+  "title": "Circuito aperto del sensore di temperatura del refrigerante",
+  "causes": [
+   "Il circuito del sensore di temperatura del refrigerante è interrotto."
+  ],
+  "steps": [
+   "Annoti il codice di errore.",
+   "Spenga l'asciugatrice e non continui a usarla.",
+   "Prenoti una riparazione con Miele."
+  ],
+  "technician": "È un guasto tecnico che non può risolvere da solo. Prenoti un tecnico Miele."
+ },
+ "Miele|F3": {
+  "title": "Cortocircuito del sensore di temperatura dell'aria di asciugatura",
+  "causes": [
+   "Il sensore di temperatura dell'aria di asciugatura è in cortocircuito."
+  ],
+  "steps": [
+   "Annoti il codice di errore.",
+   "Spenga l'asciugatrice e non continui a usarla.",
+   "Prenoti una riparazione con Miele."
+  ],
+  "technician": "È un guasto tecnico che non può risolvere da solo. Prenoti un tecnico Miele."
+ },
+ "Miele|F4": {
+  "title": "Circuito aperto del sensore di temperatura dell'aria di asciugatura",
+  "causes": [
+   "Il circuito del sensore di temperatura dell'aria di asciugatura è interrotto."
+  ],
+  "steps": [
+   "Annoti il codice di errore.",
+   "Spenga l'asciugatrice e non continui a usarla.",
+   "Prenoti una riparazione con Miele."
+  ],
+  "technician": "È un guasto tecnico che non può risolvere da solo. Prenoti un tecnico Miele."
+ },
+ "Miele|F30": {
+  "title": "Segnali dello sportello non coerenti",
+  "causes": [
+   "Lo sportello e il contatto dello sportello segnalano stati diversi."
+  ],
+  "steps": [
+   "Annoti il codice di errore.",
+   "Spenga l'asciugatrice e non continui a usarla.",
+   "Prenoti una riparazione con Miele."
+  ],
+  "technician": "È un guasto tecnico che non può risolvere da solo. Prenoti un tecnico Miele."
+ },
+ "Miele|F39": {
+  "title": "Guasto al modulo elettronico",
+  "causes": [
+   "Il modulo elettronico è guasto."
+  ],
+  "steps": [
+   "Annoti il codice di errore.",
+   "Spenga l'asciugatrice e non continui a usarla.",
+   "Prenoti una riparazione con Miele."
+  ],
+  "technician": "È un guasto tecnico che non può risolvere da solo. Prenoti un tecnico Miele."
+ },
+ "Miele|F43": {
+  "title": "Tipo di modello non programmato",
+  "causes": [
+   "Il tipo di modello manca o nell'elettronica è impostata la variante sbagliata."
+  ],
+  "steps": [
+   "Annoti il codice di errore.",
+   "Spenga l'asciugatrice e non continui a usarla.",
+   "Prenoti una riparazione con Miele."
+  ],
+  "technician": "È un guasto tecnico che non può risolvere da solo. Prenoti un tecnico Miele."
+ },
+ "Miele|F45": {
+  "title": "Guasto al modulo elettronico",
+  "causes": [
+   "Il modulo elettronico è guasto."
+  ],
+  "steps": [
+   "Annoti il codice di errore.",
+   "Spenga l'asciugatrice e non continui a usarla.",
+   "Prenoti una riparazione con Miele."
+  ],
+  "technician": "È un guasto tecnico che non può risolvere da solo. Prenoti un tecnico Miele."
+ },
+ "Miele|F53": {
+  "title": "Guasto al motore di trazione o all'elettronica",
+  "causes": [
+   "Il motore di trazione è difettoso.",
+   "Il modulo elettronico è guasto."
+  ],
+  "steps": [
+   "Annoti il codice di errore.",
+   "Spenga l'asciugatrice e non continui a usarla.",
+   "Prenoti una riparazione con Miele."
+  ],
+  "technician": "È un guasto tecnico che non può risolvere da solo. Prenoti un tecnico Miele."
+ },
+ "Miele|F99": {
+  "title": "Guasto tecnico, asciugatrice disattivata",
+  "causes": [
+   "Un guasto tecnico ha disattivato l'asciugatrice."
+  ],
+  "steps": [
+   "Annoti il codice di errore.",
+   "Spenga l'asciugatrice e non continui a usarla.",
+   "Prenoti una riparazione con Miele."
+  ],
+  "technician": "È un guasto tecnico che non può risolvere da solo. Prenoti un tecnico Miele."
+ },
+ "Miele|F156": {
+  "title": "Cortocircuito del sensore del refrigerante dopo il condensatore",
+  "causes": [
+   "Il sensore di temperatura del refrigerante dopo il condensatore è in cortocircuito."
+  ],
+  "steps": [
+   "Annoti il codice di errore.",
+   "Spenga l'asciugatrice e non continui a usarla.",
+   "Prenoti una riparazione con Miele."
+  ],
+  "technician": "È un guasto tecnico che non può risolvere da solo. Prenoti un tecnico Miele."
+ },
+ "Miele|F206": {
+  "title": "Cortocircuito del sensore del refrigerante dopo il compressore",
+  "causes": [
+   "Il sensore di temperatura del refrigerante dopo il compressore è in cortocircuito."
+  ],
+  "steps": [
+   "Annoti il codice di errore.",
+   "Spenga l'asciugatrice e non continui a usarla.",
+   "Prenoti una riparazione con Miele."
+  ],
+  "technician": "È un guasto tecnico che non può risolvere da solo. Prenoti un tecnico Miele."
+ },
+ "Miele|F50": {
+  "title": "Sovraccarico o errore del software",
+  "causes": [
+   "Il cestello è sovraccarico.",
+   "Un errore del software, spesso subito dopo aver aperto lo sportello per aggiungere biancheria.",
+   "Un guasto tecnico."
+  ],
+  "steps": [
+   "Tolga un po' di biancheria in modo che il carico rientri nel limite del programma.",
+   "Spenga l'asciugatrice e la riaccenda subito.",
+   "Riavvii il programma."
+  ],
+  "technician": "Se F50 continua a ricomparire, contatti il servizio clienti Miele."
+ },
+ "Miele|F55": {
+  "title": "Biancheria non asciutta dopo il tempo massimo",
+  "causes": [
+   "Il cestello è sovraccarico.",
+   "La biancheria non è stata centrifugata abbastanza in lavatrice.",
+   "I filtri lanugine sono sporchi."
+  ],
+  "steps": [
+   "Riduca il carico al massimo previsto dal programma.",
+   "Prima di asciugare, centrifughi la biancheria alla velocità più alta adatta.",
+   "Pulisca tutti i filtri lanugine e li asciughi bene prima di rimontarli.",
+   "Ripeta il programma."
+  ],
+  "technician": "Se il problema resta con filtri puliti e un carico normale, contatti il servizio clienti Miele."
+ },
+ "Miele|F66": {
+  "title": "Flusso d'aria ostruito (filtri o ventilazione)",
+  "causes": [
+   "I filtri lanugine o il filtro dello zoccolo sono sporchi.",
+   "Il filtro dello zoccolo è incrostato, danneggiato o deformato.",
+   "Il cestello è sovraccarico.",
+   "La griglia di ventilazione è ostruita o il locale è poco aerato."
+  ],
+  "steps": [
+   "Pulisca i filtri lanugine e il filtro dello zoccolo, poi strizzi il filtro dello zoccolo.",
+   "Aspiri delicatamente la lanugine dallo scambiatore di calore senza premere sulle lamelle.",
+   "Liberi la griglia di ventilazione sotto lo sportello.",
+   "Riduca il carico e arieggi il locale durante l'asciugatura.",
+   "Sostituisca il filtro dello zoccolo se è danneggiato."
+  ],
+  "technician": "Se F66 resta dopo una pulizia accurata, contatti il servizio clienti Miele."
+ },
+ "Miele|noC": {
+  "title": "Nessuna connessione Wi-Fi",
+  "causes": [
+   "Miele@home non è configurato.",
+   "L'asciugatrice non riesce a raggiungere la rete Wi-Fi."
+  ],
+  "steps": [
+   "Configuri Miele@home, se non lo ha ancora fatto.",
+   "Verifichi che il Wi-Fi sia attivo e riavvii il router.",
+   "Se il segnale è debole, lo migliori con un ripetitore.",
+   "Reimposti il Wi-Fi dell'asciugatrice e lo ricolleghi."
+  ],
+  "technician": "È un messaggio di connessione, non un guasto dell'asciugatrice. Contatti Miele se non riesce a collegarsi dopo questi passaggi."
+ },
+ "AEG|E50": {
+  "title": "Motore sovraccarico",
+  "causes": [
+   "Il cestello è sovraccarico.",
+   "Della biancheria è rimasta bloccata nel cestello.",
+   "Un guasto al motore o alla trasmissione."
+  ],
+  "steps": [
+   "Apra lo sportello e verifichi che nulla sia bloccato.",
+   "Tolga un po' di biancheria se il carico è eccessivo.",
+   "Chiuda lo sportello e riavvii.",
+   "Se resta, tolga la corrente per circa 1 minuto, poi riavvii."
+  ],
+  "technician": "Se E50 ricompare spesso o il cestello non gira, prenoti una riparazione AEG."
+ },
+ "AEG|E40": {
+  "title": "Sportello non chiuso",
+  "causes": [
+   "Della biancheria è incastrata nello sportello.",
+   "La guarnizione o la serratura dello sportello sono sporche o usurate.",
+   "Il cestello è sovraccarico e spinge sullo sportello."
+  ],
+  "steps": [
+   "Tolga i capi incastrati nello sportello e lo chiuda finché non scatta.",
+   "Pulisca la guarnizione dello sportello con un panno umido.",
+   "Spazzoli via la lanugine dalla serratura dello sportello.",
+   "Riduca il carico.",
+   "Tolga la corrente per 30 secondi, poi riavvii."
+  ],
+  "technician": "Se l'errore resta, la serratura o il sensore dello sportello potrebbero essere guasti. Prenoti un intervento dell'assistenza AEG."
+ },
+ "AEG|E20": {
+  "title": "Problema di scarico o della pompa",
+  "causes": [
+   "Il tubo di scarico non è collegato correttamente.",
+   "Il tubo di scarico è attorcigliato, ostruito o forma un'ansa."
+  ],
+  "steps": [
+   "Se usa uno scarico, verifichi che il tubo sia collegato correttamente.",
+   "Elimini torsioni, anse e ostruzioni dal tubo.",
+   "Tolga la corrente per 30 secondi, poi riavvii."
+  ],
+  "technician": "Se l'errore resta, prenoti un tecnico autorizzato AEG."
+ },
+ "AEG|E60": {
+  "title": "Problema di riscaldamento",
+  "causes": [
+   "L'asciugatrice è incassata in un mobile senza ventilazione.",
+   "Il locale è troppo piccolo o non aerato.",
+   "Il filtro lanugine, il condensatore o la guarnizione sono sporchi.",
+   "La resistenza è guasta."
+  ],
+  "steps": [
+   "Si assicuri che l'asciugatrice abbia spazio e aria intorno.",
+   "In un locale piccolo, apra una finestra o una porta durante l'asciugatura.",
+   "Pulisca il filtro lanugine, il condensatore e la guarnizione dello sportello.",
+   "Avvii un programma a tempo e verifichi se dopo 30 minuti è caldo."
+  ],
+  "technician": "Se è ancora freddo, prenoti una riparazione AEG."
+ },
+ "AEG|E70": {
+  "title": "Guasto al sensore di temperatura",
+  "causes": [
+   "Il sensore di temperatura è guasto."
+  ],
+  "steps": [
+   "Stacchi la spina per 2 ore per resettare l'asciugatrice.",
+   "Reinserisca la spina e riprovi.",
+   "Se il codice ricompare, smetta di usare l'asciugatrice e la lasci scollegata."
+  ],
+  "technician": "Contatti AEG e comunichi il codice per un intervento di assistenza."
+ },
+ "AEG|E80": {
+  "title": "Guasto al selettore dei programmi o al software",
+  "causes": [
+   "La manopola dei programmi è tra due posizioni.",
+   "Un guasto del software."
+  ],
+  "steps": [
+   "Ruoti la manopola in modo che sia esattamente su un programma.",
+   "Stacchi la spina per 30 secondi, poi la reinserisca e riavvii."
+  ],
+  "technician": "Se E80 resta, prenoti un tecnico dell'assistenza AEG."
+ },
+ "AEG|EH0": {
+  "title": "Problema di alimentazione",
+  "causes": [
+   "La tensione è troppo bassa o troppo alta.",
+   "L'alimentazione è instabile."
+  ],
+  "steps": [
+   "Provi la presa con un altro elettrodomestico.",
+   "Non usi prolunghe.",
+   "Stacchi la spina per 30 secondi, poi riavvii."
+  ],
+  "technician": "Se anche l'altro elettrodomestico non funziona, chiami un elettricista. Se il codice compare solo sull'asciugatrice, prenoti un tecnico AEG."
+ },
+ "AEG|EBD": {
+  "title": "Rilevati disturbi elettrici",
+  "causes": [
+   "Interferenze elettriche sull'alimentazione.",
+   "Messa a terra insufficiente."
+  ],
+  "steps": [
+   "Provi l'asciugatrice in un'altra presa funzionante.",
+   "Si assicuri che la presa abbia una messa a terra corretta."
+  ],
+  "technician": "Se il codice resta, contatti un centro di assistenza autorizzato AEG. Non tenti riparazioni elettriche da solo."
+ },
+ "AEG|CE": {
+  "title": "Guasto all'elettronica",
+  "causes": [
+   "Un guasto nell'elettronica dell'asciugatrice."
+  ],
+  "steps": [
+   "Smetta di usare l'asciugatrice.",
+   "Stacchi la spina e la lasci scollegata."
+  ],
+  "technician": "Prenoti un tecnico autorizzato AEG per la diagnosi dell'elettronica."
+ },
+ "AEG|C8": {
+  "title": "Guasto al sensore di temperatura",
+  "causes": [
+   "Il sensore di temperatura ha un problema."
+  ],
+  "steps": [
+   "Smetta di usare l'asciugatrice.",
+   "La lasci scollegata finché non è stata controllata."
+  ],
+  "technician": "Prenoti un intervento dell'assistenza AEG per controllare o sostituire il sensore."
+ },
+ "AEG|C6": {
+  "title": "Problema al sensore di umidità",
+  "causes": [
+   "L'asciugatrice non è collegata a una presa con messa a terra.",
+   "Il sistema di misura dell'umidità è guasto."
+  ],
+  "steps": [
+   "Verifichi che l'asciugatrice sia collegata a una presa con messa a terra.",
+   "Se il ciclo dura ancora molto a lungo, smetta di usare l'asciugatrice e stacchi la spina."
+  ],
+  "technician": "Se la presa ha la messa a terra e l'errore resta, prenoti una riparazione AEG."
+ },
+ "AEG|Err": {
+  "title": "Errore del serbatoio del vapore (modelli Iron Aid)",
+  "causes": [
+   "L'acqua nel serbatoio del vapore è scarsa o assente."
+  ],
+  "steps": [
+   "Riempia il serbatoio del vapore fino al livello MAX.",
+   "Riavvii il programma."
+  ],
+  "technician": "Se le icone continuano a lampeggiare dopo il riempimento, smetta di usare l'asciugatrice e contatti un centro di assistenza AEG."
+ },
+ "Hotpoint|F01": {
+  "title": "Guasto alla scheda elettronica",
+  "causes": [
+   "Un guasto alla scheda di controllo elettronica."
+  ],
+  "steps": [
+   "Stacchi la spina per almeno 2 minuti.",
+   "La reinserisca, attenda 30 secondi e riprovi."
+  ],
+  "technician": "Se F01 ricompare dopo il reset, chiami l'assistenza Hotpoint per prenotare un tecnico."
+ },
+ "Hotpoint|F02": {
+  "title": "Guasto al circuito del motore",
+  "causes": [
+   "Un guasto al circuito del motore. Il cestello gira solo a tratti o non gira affatto."
+  ],
+  "steps": [
+   "Spenga l'asciugatrice e stacchi la spina.",
+   "Non continui a usarla."
+  ],
+  "technician": "Chiami l'assistenza Hotpoint per prenotare un tecnico."
+ },
+ "Hotpoint|F03": {
+  "title": "Guasto alla rilevazione della temperatura",
+  "causes": [
+   "Il sensore di temperatura è guasto, quindi l'asciugatrice non scalda."
+  ],
+  "steps": [
+   "Spenga l'asciugatrice e stacchi la spina."
+  ],
+  "technician": "Chiami l'assistenza Hotpoint per prenotare un tecnico."
+ },
+ "Hotpoint|F05": {
+  "title": "Scarico ostruito o problema alla pompa",
+  "causes": [
+   "Un'ostruzione nel filtro della pompa (se presente) o nel tubo di scarico.",
+   "Un tubo di scarico domestico ostruito.",
+   "Una pompa guasta."
+  ],
+  "steps": [
+   "Controlli e pulisca il filtro della pompa, se il Suo modello ne ha uno.",
+   "Controlli che il tubo di scarico e l'impianto a cui è collegato non siano ostruiti."
+  ],
+  "technician": "Se tutto è libero e il guasto resta, la pompa potrebbe essere guasta. Chiami l'assistenza Hotpoint."
+ },
+ "Hotpoint|F06": {
+  "title": "Guasto alla serratura dello sportello",
+  "causes": [
+   "Qualcosa ostruisce la serratura dello sportello.",
+   "La serratura dello sportello è guasta."
+  ],
+  "steps": [
+   "Controlli la zona della serratura e rimuova lanugine o oggetti.",
+   "Chiuda bene lo sportello e riprovi."
+  ],
+  "technician": "Se il guasto resta, chiami l'assistenza Hotpoint."
+ },
+ "Hotpoint|F09": {
+  "title": "Guasto del software",
+  "causes": [
+   "Un problema del software. Possono lampeggiare più spie e non si può scegliere alcun programma."
+  ],
+  "steps": [
+   "Stacchi la spina per qualche minuto e riprovi."
+  ],
+  "technician": "Chiami l'assistenza Hotpoint per prenotare un tecnico."
+ },
+ "Hotpoint|F11": {
+  "title": "Guasto al circuito della pompa",
+  "causes": [
+   "Il circuito della pompa è guasto, quindi l'acqua non viene pompata fuori."
+  ],
+  "steps": [
+   "Svuoti il contenitore dell'acqua, se il Suo modello ne ha uno.",
+   "Spenga l'asciugatrice e stacchi la spina."
+  ],
+  "technician": "Chiami l'assistenza Hotpoint per prenotare un tecnico."
+ },
+ "Hotpoint|F12": {
+  "title": "Guasto al controllo elettronico",
+  "causes": [
+   "Il controllo elettronico è guasto. L'asciugatrice potrebbe non accendersi."
+  ],
+  "steps": [
+   "Controlli la spina e la presa.",
+   "Stacchi la spina per qualche minuto e riprovi."
+  ],
+  "technician": "Chiami l'assistenza Hotpoint per prenotare un tecnico."
+ },
+ "Hotpoint|F18": {
+  "title": "Errore dei dati interni",
+  "causes": [
+   "Dati interni danneggiati. Alcune parti del display o alcune funzioni non funzionano."
+  ],
+  "steps": [
+   "Stacchi la spina per almeno 2 minuti.",
+   "La reinserisca, attenda 30 secondi e riprovi."
+  ],
+  "technician": "Se F18 resta dopo il reset, chiami l'assistenza Hotpoint."
+ },
+ "Indesit|F02": {
+  "title": "Guasto al circuito del motore",
+  "causes": [
+   "Un guasto al circuito del motore. Il cestello gira solo a tratti o non gira affatto."
+  ],
+  "steps": [
+   "Spenga l'asciugatrice e stacchi la spina."
+  ],
+  "technician": "Chiami l'assistenza Indesit per prenotare un tecnico."
+ },
+ "Indesit|F03": {
+  "title": "Guasto alla rilevazione della temperatura",
+  "causes": [
+   "Il sensore di temperatura è guasto, quindi l'asciugatrice non scalda."
+  ],
+  "steps": [
+   "Spenga l'asciugatrice e stacchi la spina."
+  ],
+  "technician": "Chiami l'assistenza Indesit per prenotare un tecnico."
+ },
+ "Indesit|F05": {
+  "title": "Scarico ostruito o problema alla pompa",
+  "causes": [
+   "Un'ostruzione nel filtro della pompa (se presente) o nel tubo di scarico.",
+   "Una pompa guasta."
+  ],
+  "steps": [
+   "Controlli e pulisca il filtro della pompa, se il Suo modello ne ha uno.",
+   "Controlli che il tubo di scarico e l'impianto non siano ostruiti."
+  ],
+  "technician": "Se tutto è libero e il guasto resta, chiami l'assistenza Indesit."
+ },
+ "Indesit|F06": {
+  "title": "Guasto alla serratura dello sportello",
+  "causes": [
+   "Qualcosa ostruisce la serratura dello sportello.",
+   "La serratura dello sportello è guasta."
+  ],
+  "steps": [
+   "Controlli che la serratura dello sportello non sia ostruita.",
+   "Chiuda bene lo sportello e riprovi."
+  ],
+  "technician": "Se il guasto resta, chiami l'assistenza Indesit."
+ },
+ "Indesit|F09": {
+  "title": "Guasto del software",
+  "causes": [
+   "Un problema del software. Possono lampeggiare più spie e non si può scegliere alcun programma."
+  ],
+  "steps": [
+   "Stacchi la spina per qualche minuto e riprovi."
+  ],
+  "technician": "Chiami l'assistenza Indesit per prenotare un tecnico."
+ },
+ "Indesit|F11": {
+  "title": "Guasto al circuito della pompa",
+  "causes": [
+   "Il circuito della pompa è guasto, quindi l'acqua non viene pompata fuori."
+  ],
+  "steps": [
+   "Svuoti il contenitore dell'acqua, se il Suo modello ne ha uno.",
+   "Spenga l'asciugatrice e stacchi la spina."
+  ],
+  "technician": "Chiami l'assistenza Indesit per prenotare un tecnico."
+ },
+ "Indesit|F12": {
+  "title": "Guasto al controllo elettronico",
+  "causes": [
+   "Il controllo elettronico è guasto. L'asciugatrice potrebbe non accendersi."
+  ],
+  "steps": [
+   "Controlli la spina e la presa.",
+   "Stacchi la spina per qualche minuto e riprovi."
+  ],
+  "technician": "Chiami l'assistenza Indesit per prenotare un tecnico."
+ },
+ "Indesit|F18": {
+  "title": "Errore dei dati interni",
+  "causes": [
+   "Dati interni danneggiati. Alcune parti del display o alcune funzioni non funzionano."
+  ],
+  "steps": [
+   "Stacchi la spina per almeno 2 minuti.",
+   "La reinserisca, attenda 30 secondi e riprovi."
+  ],
+  "technician": "Se F18 resta dopo il reset, chiami l'assistenza Indesit."
+ },
+ "Whirlpool|AF": {
+  "title": "Flusso d'aria ostruito",
+  "causes": [
+   "Il filtro lanugine è intasato.",
+   "Lo sfiato è ostruito, schiacciato, piegato o ha troppe curve."
+  ],
+  "steps": [
+   "Pulisca il filtro lanugine.",
+   "Controlli che lo sfiato non sia ostruito, schiacciato o piegato.",
+   "Tocchi un tasto qualsiasi per cancellare il codice."
+  ],
+  "technician": "Se il codice continua a ricomparire con lo sfiato pulito, prenoti l'assistenza Whirlpool."
+ },
+ "Whirlpool|L2": {
+  "title": "Tensione di rete bassa o assente",
+  "causes": [
+   "È saltato un fusibile di casa o è scattato un interruttore.",
+   "Il cavo di alimentazione non è installato correttamente."
+  ],
+  "steps": [
+   "Controlli fusibili e interruttori (le asciugatrici elettriche ne usano due) e li riarmi.",
+   "Verifichi che il cavo di alimentazione sia installato come descritto nella guida di installazione.",
+   "Avvii un ciclo a tempo con riscaldamento e riavvii."
+  ],
+  "technician": "Se L2 resta, faccia controllare l'alimentazione da un elettricista qualificato."
+ },
+ "Whirlpool|PF": {
+  "title": "Interruzione di corrente",
+  "causes": [
+   "La corrente si è interrotta durante il ciclo."
+  ],
+  "steps": [
+   "Tenga premuto Start per riprendere il ciclo.",
+   "Oppure prema Power per cancellare il display."
+  ],
+  "technician": "Non è un guasto. Contatti Whirlpool solo se PF compare senza vere interruzioni di corrente."
+ },
+ "Whirlpool|F1E3": {
+  "title": "Problema all'unità di controllo o al cablaggio",
+  "causes": [
+   "Un guasto all'unità di controllo o al suo cablaggio."
+  ],
+  "steps": [
+   "Prema Power, scelga un ciclo e tenga premuto Start.",
+   "Se non parte, stacchi la spina dell'asciugatrice."
+  ],
+  "technician": "Se il problema continua, prenoti l'assistenza Whirlpool."
+ },
+ "Whirlpool|Loc": {
+  "title": "Blocco comandi attivo",
+  "causes": [
+   "È stato attivato il blocco comandi."
+  ],
+  "steps": [
+   "Tenga premuto Control Lock per 3 secondi finché il display non termina il conto alla rovescia e si azzera."
+  ],
+  "technician": "Non è un guasto. Contatti Whirlpool solo se il blocco non si disattiva."
+ },
+ "Whirlpool|LF": {
+  "title": "Filtro lanugine rimosso",
+  "causes": [
+   "Il filtro HybridCare non è nell'asciugatrice."
+  ],
+  "steps": [
+   "Rimetta il filtro.",
+   "Si assicuri che la maniglia del filtro sia completamente in sede."
+  ],
+  "technician": "Se LF resta con il filtro inserito, contatti l'assistenza Whirlpool."
+ }
+}

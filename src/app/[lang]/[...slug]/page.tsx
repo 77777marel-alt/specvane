@@ -18,7 +18,7 @@ import { getCategories } from '@/lib/data'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { costInput } from '@/lib/costs'
 import { ComparePicker } from '@/components/compare/ComparePicker'
-import { APPLIANCES, errorBrands, errorCode, errorCodes, hasErrors, ERROR_LANGS, slugify, isAppliance, type Appliance } from '@/lib/errors'
+import { APPLIANCES, errorBrands, errorCode, errorCodes, hasErrors, ERROR_LANGS, slugify, isAppliance, applianceName, type Appliance } from '@/lib/errors'
 import { ErrorsBrand, ErrorsCode, ErrorsIndex } from '@/components/views/ErrorsView'
 import { DocsList } from '@/components/product/DocsList'
 import { supportFor } from '@/lib/updates'
@@ -35,12 +35,13 @@ const PREVIEW = 'design-preview'
 async function applianceOf(lang: Locale, seg: string): Promise<{ key: Appliance; name: string; slug: string; href: string | null } | null> {
   for (const key of Object.keys(APPLIANCES) as Appliance[]) {
     const cat = await getCategoryByKey(lang, key)
-    const slug = cat?.slug ?? key
-    if (slug === seg) return { key, name: cat?.name ?? key, slug, href: cat ? `/${lang}/${cat.slug}` : null }
+    const n = applianceName(lang, key)
+    const slug = cat?.slug ?? n.slug
+    if (slug === seg) return { key, name: cat?.name ?? n.many, slug, href: cat ? `/${lang}/${cat.slug}` : null }
   }
   return null
 }
-const singular = (t: ReturnType<typeof getDict>, a: Appliance) => (a === 'dishwashers' ? t.ui.errDishwasher : t.ui.errWasher)
+const singular = (_t: ReturnType<typeof getDict>, a: Appliance, lang: Locale) => applianceName(lang, a).one
 async function errorsMeta(lang: Locale, slug: string[]): Promise<Metadata> {
   const t = getDict(lang)
   if (!hasErrors(lang)) return {}
@@ -48,18 +49,21 @@ async function errorsMeta(lang: Locale, slug: string[]): Promise<Metadata> {
   if (slug.length === 1) return { title: `${t.ui.errTitle} · Specvane`, description: t.ui.errLead, alternates: alt() }
   const ap = await applianceOf(lang, slug[1])
   if (!ap) return {}
+  // адрес раздела техники свой в каждом языке — для hreflang берём сегмент нужного языка
+  const segs = Object.fromEntries(await Promise.all(ERROR_LANGS.map(async (l) => [l, (await getCategoryByKey(l, ap.key))?.slug ?? applianceName(l, ap.key).slug] as const)))
+  const altAp = (...rest: string[]) => alternates(lang, (l) => (ERROR_LANGS.includes(l) ? sectionHref(l, 'errors', segs[l], ...rest) : null))
   if (slug.length === 3) {
     const codes = errorCodes(lang, ap.key, slug[2])
     if (!codes.length) return {}
-    const title = fill(t.ui.errBrandTitle, { brand: codes[0].brand, appliance: singular(t, ap.key) })
-    return { title: `${title} · Specvane`, description: codes.slice(0, 8).map((c) => `${c.code}: ${c.title}`).join('; ').slice(0, 300), alternates: alt(slug[1], slug[2]) }
+    const title = fill(t.ui.errBrandTitle, { brand: codes[0].brand, appliance: singular(t, ap.key, lang) })
+    return { title: `${title} · Specvane`, description: codes.slice(0, 8).map((c) => `${c.code}: ${c.title}`).join('; ').slice(0, 300), alternates: altAp(slug[2]) }
   }
   if (slug.length === 4) {
     const r = errorCode(lang, ap.key, slug[2], slug[3])
     if (!r) return {}
-    const title = fill(t.ui.errCodeTitle, { brand: r.item.brand, appliance: singular(t, ap.key), code: r.item.code })
+    const title = fill(t.ui.errCodeTitle, { brand: r.item.brand, appliance: singular(t, ap.key, lang), code: r.item.code })
     return { title: `${title}: ${r.item.title} · Specvane`, description: `${r.item.title}. ${r.item.causes[0] ?? ''} ${r.item.steps[0] ?? ''}`.slice(0, 300),
-      alternates: alt(slug[1], slug[2], r.item.slug) }
+      alternates: altAp(slug[2], r.item.slug) }
   }
   return {}
 }
@@ -285,8 +289,8 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
     if (slug.length === 1) {
       const groups = await Promise.all((Object.keys(APPLIANCES) as Appliance[]).map(async (a) => {
         const cat = await getCategoryByKey(lang, a)
-        const seg = cat?.slug ?? a
-        return { name: cat?.name ?? a, brands: errorBrands(a).map((b) => ({ brand: b.brand, n: b.n, href: sectionHref(lang, 'errors', seg, b.slug) })) }
+        const seg = cat?.slug ?? applianceName(lang, a).slug
+        return { name: cat?.name ?? applianceName(lang, a).many, brands: errorBrands(a).map((b) => ({ brand: b.brand, n: b.n, href: sectionHref(lang, 'errors', seg, b.slug) })) }
       }))
       return <ErrorsIndex t={t} crumbs={[home, section]} groups={groups} />
     }
@@ -296,7 +300,7 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
     const codes = errorCodes(lang, ap.key, slug[2])
     if (!codes.length) notFound()
     const brand = codes[0].brand
-    const brandTitle = fill(t.ui.errBrandTitle, { brand, appliance: singular(t, ap.key) })
+    const brandTitle = fill(t.ui.errBrandTitle, { brand, appliance: singular(t, ap.key, lang) })
     const brandCrumb = { name: brandTitle, href: base }
     if (slug.length === 3) return <ErrorsBrand t={t} crumbs={[home, section, brandCrumb]} title={brandTitle} codes={codes} base={base} />
     const r = errorCode(lang, ap.key, slug[2], slug[3])
@@ -304,7 +308,7 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
     if (r.item.slug !== slug[3]) permanentRedirect(`${base}/${r.item.slug}`)
     const cat = await getCategoryByKey(lang, ap.key)
     const models = cat ? (await getCategoryProducts(lang, cat)).filter((p) => p.brand === brand && p.image).slice(0, 4) : []
-    const title = fill(t.ui.errCodeTitle, { brand, appliance: singular(t, ap.key), code: r.item.code })
+    const title = fill(t.ui.errCodeTitle, { brand, appliance: singular(t, ap.key, lang), code: r.item.code })
     return <ErrorsCode lang={lang} t={t} crumbs={[home, section, brandCrumb, { name: r.item.code, href: `${base}/${r.item.slug}` }]}
       title={title} item={r.item} others={r.others} base={base} models={models} catHref={ap.href} />
   }
@@ -439,7 +443,7 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
               better={await getBetterAlternatives(lang, cat, { slug: p.slug, release: p.releaseDate, keySpecs: p.keySpecs })}
               cross={await getCrossLinks(lang, cat, { slug: p.slug, brand: p.brand })}
               extra={hasErrors(lang) && isAppliance(cat.key) && errorCodes(lang, cat.key, slugify(p.brand)).length
-                ? { title: t.ui.errTitle, links: [{ name: fill(t.ui.errBrandTitle, { brand: p.brand, appliance: cat.key === 'dishwashers' ? t.ui.errDishwasher : t.ui.errWasher }), href: sectionHref(lang, 'errors', cat.slug, slugify(p.brand)) }] } : undefined}
+                ? { title: t.ui.errTitle, links: [{ name: fill(t.ui.errBrandTitle, { brand: p.brand, appliance: applianceName(lang, cat.key).one }), href: sectionHref(lang, 'errors', cat.slug, slugify(p.brand)) }] } : undefined}
               prevGen={await getPrevGeneration(lang, cat, p.brand, p.name).then((g) => g && { name: `${g.brand} ${g.name}`, href: g.href, specs: g.specGroups.flatMap((x) => x.specs) })}
               attribution={p.source === 'icecat' ? `Database Right data-sheet ${year} Icecat. All rights reserved. Data provided “as is” without warranty.` : undefined} />
             <ProductJsonLd name={`${p.brand} ${p.name}`} brand={p.brand} image={p.images} url={p.href} />

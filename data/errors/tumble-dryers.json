@@ -1,0 +1,1632 @@
+[
+  {
+    "brand": "Samsung",
+    "code": "dC",
+    "aliases": [
+      "dE"
+    ],
+    "title": "Door open or not detected",
+    "causes": [
+      "The door is not fully shut.",
+      "Clothes are caught in the door.",
+      "Child Lock is on and the door was opened."
+    ],
+    "steps": [
+      "Open the door and remove any clothes caught at the edge.",
+      "Close the door firmly until it latches.",
+      "Check whether Child Lock is switched on.",
+      "Start the cycle again."
+    ],
+    "technician": "If the code stays with the door properly closed, the latch or door sensor may be faulty. Contact Samsung service.",
+    "source": "https://www.samsung.com/uk/support/home-appliances/check-the-information-codes-of-the-dryer/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "NC",
+    "aliases": [
+      "NC1"
+    ],
+    "title": "Lint filter problem",
+    "causes": [
+      "The lint filter is missing, blocked or not seated correctly."
+    ],
+    "steps": [
+      "Remove the lint filter and clean it.",
+      "Refit it fully so it sits correctly.",
+      "Restart the cycle."
+    ],
+    "technician": "If the code returns with a clean, correctly fitted filter, book a Samsung service visit.",
+    "source": "https://www.samsung.com/uk/support/home-appliances/check-the-information-codes-of-the-dryer/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "NC2",
+    "aliases": [],
+    "title": "Heat exchanger inner cover problem",
+    "causes": [
+      "The inner cover of the heat exchanger is not fitted correctly."
+    ],
+    "steps": [
+      "Switch the dryer off.",
+      "Check that the heat exchanger inner cover is in place and closed properly.",
+      "Restart the cycle."
+    ],
+    "technician": "If the code persists after refitting the cover, contact Samsung service.",
+    "source": "https://www.samsung.com/uk/support/home-appliances/check-the-information-codes-of-the-dryer/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "5C",
+    "aliases": [
+      "5E"
+    ],
+    "title": "Drainage problem",
+    "causes": [
+      "The drain hose is bent, damaged or frozen.",
+      "The water tank is full.",
+      "The drain pump is not working."
+    ],
+    "steps": [
+      "Empty the water tank and refit it.",
+      "Check that the drain hose is not kinked or damaged.",
+      "If the hose is frozen, wrap it in a towel soaked in warm water for about 10 minutes.",
+      "Switch the dryer on and restart the cycle."
+    ],
+    "technician": "If the tank is empty and the hose is clear but the code returns, the pump may be faulty. Call Samsung service.",
+    "source": "https://www.samsung.com/uk/support/home-appliances/check-the-information-codes-of-the-dryer/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "tC",
+    "aliases": [
+      "tE"
+    ],
+    "title": "Air temperature sensor problem",
+    "causes": [
+      "Lint filter or heat exchanger is clogged.",
+      "The vent or airflow path is restricted.",
+      "The temperature sensor is faulty."
+    ],
+    "steps": [
+      "Clean the lint filter.",
+      "Clean the heat exchanger if your model has one.",
+      "Check the vent or exhaust for blockages.",
+      "Restart the cycle."
+    ],
+    "technician": "If cleaning does not clear the code, the sensor may need replacing. Contact Samsung service.",
+    "source": "https://www.samsung.com/uk/support/home-appliances/check-the-information-codes-of-the-dryer/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "tC5",
+    "aliases": [
+      "tE5"
+    ],
+    "title": "Compressor temperature sensor problem",
+    "causes": [
+      "The lint screen is clogged.",
+      "Airflow through the vent system is restricted."
+    ],
+    "steps": [
+      "Wait 2 to 3 minutes, then switch the dryer on again.",
+      "Clean the lint screen.",
+      "Check the vent system for blockages.",
+      "Restart the cycle."
+    ],
+    "technician": "If the code keeps coming back, the heat pump system needs checking by Samsung service.",
+    "source": "https://www.samsung.com/uk/support/home-appliances/check-the-information-codes-of-the-dryer/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "3C",
+    "aliases": [
+      "3E"
+    ],
+    "title": "Motor problem",
+    "causes": [
+      "The inverter motor did not run as expected."
+    ],
+    "steps": [
+      "Make sure the drum is not overloaded.",
+      "Restart the cycle.",
+      "Unplug the dryer for at least 30 seconds, plug it back in and try again."
+    ],
+    "technician": "If the code returns, the motor or its control needs a technician. Contact Samsung service.",
+    "source": "https://www.samsung.com/uk/support/home-appliances/check-the-information-codes-of-the-dryer/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "AC",
+    "aliases": [
+      "AE"
+    ],
+    "title": "Electronic communication error",
+    "causes": [
+      "Internal control parts are not communicating with each other."
+    ],
+    "steps": [
+      "Switch the dryer off for 60 seconds.",
+      "Switch it back on and restart the cycle."
+    ],
+    "technician": "If the code returns, the control boards need checking. Request Samsung service.",
+    "source": "https://www.samsung.com/uk/support/home-appliances/check-the-information-codes-of-the-dryer/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "AC6",
+    "aliases": [
+      "AE6"
+    ],
+    "title": "Main board and inverter board not communicating",
+    "causes": [
+      "The main control board and inverter board lost communication."
+    ],
+    "steps": [
+      "Restart the cycle.",
+      "Unplug the dryer for at least 30 seconds, plug it back in and try again."
+    ],
+    "technician": "If the code persists, a technician needs to check the boards and wiring. Contact Samsung service.",
+    "source": "https://www.samsung.com/uk/support/home-appliances/check-the-information-codes-of-the-dryer/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "HC",
+    "aliases": [
+      "HE"
+    ],
+    "title": "Overheating or heating problem",
+    "causes": [
+      "Lint filter or vent is blocked, so the dryer runs too hot.",
+      "A tripped breaker or low voltage on electric models."
+    ],
+    "steps": [
+      "Clean the lint filter.",
+      "Check the vent for blockages.",
+      "Check your home's breakers and reset any that have tripped.",
+      "Restart the cycle."
+    ],
+    "technician": "If the code continues, have an electrician check the supply and book Samsung service for the heating system.",
+    "source": "https://www.samsung.com/uk/support/home-appliances/check-the-information-codes-of-the-dryer/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "FC",
+    "aliases": [
+      "FE"
+    ],
+    "title": "Wrong power supply frequency",
+    "causes": [
+      "The mains power frequency does not match what the dryer expects."
+    ],
+    "steps": [
+      "Restart the cycle.",
+      "Make sure the dryer is plugged directly into a wall socket."
+    ],
+    "technician": "If the code stays, contact Samsung service.",
+    "source": "https://www.samsung.com/uk/support/home-appliances/check-the-information-codes-of-the-dryer/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "9C1",
+    "aliases": [
+      "9E1"
+    ],
+    "title": "Power supply problem",
+    "causes": [
+      "The power supply is not correct.",
+      "The plug is loose or not fully in.",
+      "An extension lead is being used."
+    ],
+    "steps": [
+      "Check the plug is pushed fully into the socket.",
+      "Plug the dryer directly into a wall socket on its own circuit, without an extension lead.",
+      "Restart the cycle."
+    ],
+    "technician": "If the supply is fine and the code returns, request Samsung service.",
+    "source": "https://www.samsung.com/uk/support/home-appliances/check-the-information-codes-of-the-dryer/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "dF",
+    "aliases": [],
+    "title": "Door switch fault",
+    "causes": [
+      "The door or lock switch, or its wiring, is faulty."
+    ],
+    "steps": [
+      "Close the door firmly and try again.",
+      "Unplug the dryer for at least 30 seconds, plug it back in and try again."
+    ],
+    "technician": "The door switch assembly may need replacing. Contact Samsung service.",
+    "source": "https://www.samsung.com/uk/support/home-appliances/check-the-information-codes-of-the-dryer/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "bE",
+    "aliases": [],
+    "title": "Button stuck",
+    "causes": [
+      "A control panel button is jammed or held down."
+    ],
+    "steps": [
+      "Switch the dryer off.",
+      "Press and release every button, including the edges, to free a stuck one.",
+      "Switch on and try again."
+    ],
+    "technician": "If a button is damaged or the code returns, request Samsung service.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10001006/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "Clg",
+    "aliases": [],
+    "title": "Vent clogged (vent test result)",
+    "causes": [
+      "The exhaust vent is blocked by lint or debris."
+    ],
+    "steps": [
+      "Clean the lint filter.",
+      "Clean the exhaust vent and duct.",
+      "Run the vent blockage test again."
+    ],
+    "technician": "If the vent is clean and the result stays the same, contact Samsung service.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10001006/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "dn",
+    "aliases": [],
+    "title": "Software download in progress",
+    "causes": [
+      "The dryer is installing a firmware update."
+    ],
+    "steps": [
+      "Do not unplug the dryer or switch off the power.",
+      "Wait. The dryer restarts by itself when the update is done."
+    ],
+    "technician": "If dn is still shown after 24 hours, request Samsung service.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10001006/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "CL",
+    "aliases": [],
+    "title": "Child Lock is on",
+    "causes": [
+      "Child Lock has been switched on, so buttons are disabled."
+    ],
+    "steps": [
+      "Turn off Child Lock using the button combination in your manual."
+    ],
+    "technician": "This is not a fault. Contact Samsung only if Child Lock cannot be switched off.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10001006/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "HC2",
+    "aliases": [],
+    "title": "Gas ignition error",
+    "causes": [
+      "The gas dryer could not ignite."
+    ],
+    "steps": [
+      "Switch the dryer off for 2 to 3 minutes.",
+      "Switch it on and restart the cycle."
+    ],
+    "technician": "If the code returns, stop using the dryer and call Samsung service. Do not work on gas parts yourself.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10001006/"
+  },
+  {
+    "brand": "LG",
+    "code": "OE",
+    "aliases": [],
+    "title": "Drain problem",
+    "causes": [
+      "The drain hose is twisted, kinked or blocked.",
+      "The hose end is set too high or is under water."
+    ],
+    "steps": [
+      "Straighten the drain hose.",
+      "Keep the top of the hose no higher than 1 m from the floor.",
+      "Make sure the hose end is not sitting in water.",
+      "Restart the dryer."
+    ],
+    "technician": "If the code returns with a clear, correctly placed hose, contact LG service.",
+    "source": "https://www.lg.com/us/support/help-library/lg-dryer-error-code-list--20154710772482"
+  },
+  {
+    "brand": "LG",
+    "code": "d80",
+    "aliases": [],
+    "title": "Exhaust airflow restricted (about 80% blocked)",
+    "causes": [
+      "The lint filter is clogged.",
+      "The exhaust duct is crushed, kinked or too long.",
+      "The outside vent flap is blocked."
+    ],
+    "steps": [
+      "Clean the lint filter and rinse it with warm water if needed.",
+      "Check the duct behind the dryer for kinks or crushing.",
+      "Make sure the outside vent flap opens fully and remove lint around it.",
+      "Use smaller loads until the duct is cleared."
+    ],
+    "technician": "If the code stays after cleaning, hire a duct cleaner or contact LG service.",
+    "source": "https://www.lg.com/us/support/help-library/lg-dryer-error-code-list--20154710772482"
+  },
+  {
+    "brand": "LG",
+    "code": "d90",
+    "aliases": [],
+    "title": "Exhaust airflow restricted (about 90% blocked)",
+    "causes": [
+      "The lint filter is clogged.",
+      "The exhaust duct is crushed, kinked or too long.",
+      "The outside vent flap is blocked."
+    ],
+    "steps": [
+      "Clean the lint filter and rinse it with warm water if needed.",
+      "Check the duct behind the dryer for kinks or crushing.",
+      "Make sure the outside vent flap opens fully and remove lint around it.",
+      "Use smaller loads until the duct is cleared."
+    ],
+    "technician": "If the code stays after cleaning, hire a duct cleaner or contact LG service.",
+    "source": "https://www.lg.com/us/support/help-library/lg-dryer-error-code-list--20154710772482"
+  },
+  {
+    "brand": "LG",
+    "code": "d95",
+    "aliases": [],
+    "title": "Exhaust airflow restricted (about 95% blocked)",
+    "causes": [
+      "The lint filter is clogged.",
+      "The exhaust duct is crushed, kinked or too long.",
+      "The outside vent flap is blocked."
+    ],
+    "steps": [
+      "Clean the lint filter and rinse it with warm water if needed.",
+      "Check the duct behind the dryer for kinks or crushing.",
+      "Make sure the outside vent flap opens fully and remove lint around it.",
+      "Use smaller loads until the duct is cleared."
+    ],
+    "technician": "If the code stays after cleaning, hire a duct cleaner or contact LG service.",
+    "source": "https://www.lg.com/us/support/help-library/lg-dryer-error-code-list--20154710772482"
+  },
+  {
+    "brand": "LG",
+    "code": "FO",
+    "aliases": [],
+    "title": "Lint filter not in place",
+    "causes": [
+      "The lint filter is not inserted correctly."
+    ],
+    "steps": [
+      "Take the lint filter out.",
+      "Push it back into its housing until it sits fully.",
+      "Restart the dryer."
+    ],
+    "technician": "If FO stays with the filter correctly fitted, the sensor may need repair by LG service.",
+    "source": "https://www.lg.com/us/support/help-library/lg-dryer-error-code-list--20154710772482"
+  },
+  {
+    "brand": "LG",
+    "code": "IF",
+    "aliases": [],
+    "title": "Inner lint filter not detected",
+    "causes": [
+      "The magnet in the inner lint filter is missing or out of place.",
+      "The magnet holder is damaged."
+    ],
+    "steps": [
+      "Remove the inner lint filter and check that its magnet is in place.",
+      "Refit the filter correctly.",
+      "If the magnet is lost or the holder is broken, buy a new filter."
+    ],
+    "technician": "If the error remains with a good filter, request LG service.",
+    "source": "https://www.lg.com/us/support/help-library/lg-dryer-error-code-list--20154710772482"
+  },
+  {
+    "brand": "LG",
+    "code": "nP",
+    "aliases": [],
+    "title": "No power to the heater",
+    "causes": [
+      "The socket is not giving the correct voltage.",
+      "A breaker has tripped."
+    ],
+    "steps": [
+      "Switch off the dryer's breaker for at least 10 seconds, then switch it back on.",
+      "Restart the dryer."
+    ],
+    "technician": "If it still does not heat, have an electrician check the socket and then contact LG service.",
+    "source": "https://www.lg.com/us/support/help-library/lg-dryer-error-code-list--20154710772482"
+  },
+  {
+    "brand": "LG",
+    "code": "PS",
+    "aliases": [],
+    "title": "Power supply problem",
+    "causes": [
+      "The power cord is loose or the outlet is not wired as required."
+    ],
+    "steps": [
+      "Reset the dryer's breaker for at least 10 seconds.",
+      "Check that the plug is firmly in a correctly rated, grounded socket.",
+      "Restart the dryer."
+    ],
+    "technician": "If the dryer still does not heat, request a repair from LG.",
+    "source": "https://www.lg.com/us/support/help-library/lg-dryer-error-code-list--20154710772482"
+  },
+  {
+    "brand": "LG",
+    "code": "gAS",
+    "aliases": [],
+    "title": "Gas supply problem",
+    "causes": [
+      "The gas supply valve is closed.",
+      "The gas line is kinked."
+    ],
+    "steps": [
+      "Check that the gas supply valve is open.",
+      "Check that the gas line is not kinked."
+    ],
+    "technician": "If gas supply is fine and the code returns, call LG service. Do not repair gas parts yourself.",
+    "source": "https://www.lg.com/us/support/help-library/lg-dryer-error-code-list--20154710772482"
+  },
+  {
+    "brand": "LG",
+    "code": "CL",
+    "aliases": [],
+    "title": "Child Lock is on",
+    "causes": [
+      "Child Lock was switched on and stays on after power off."
+    ],
+    "steps": [
+      "Switch the dryer on.",
+      "Press and hold the Child Lock button for 3 to 5 seconds until CL disappears."
+    ],
+    "technician": "This is not a fault. Contact LG only if Child Lock will not switch off.",
+    "source": "https://www.lg.com/us/support/help-library/lg-dryer-error-code-list--20154710772482"
+  },
+  {
+    "brand": "LG",
+    "code": "Add",
+    "aliases": [],
+    "title": "Add water for steam",
+    "causes": [
+      "The steam feeder is empty during a steam cycle."
+    ],
+    "steps": [
+      "Pause the cycle.",
+      "Fill the steam feeder with tap water up to the MAX line.",
+      "Switch the dryer off and on, choose the steam cycle and press Start."
+    ],
+    "technician": "If the message stays after filling, contact LG service.",
+    "source": "https://www.lg.com/us/support/help-library/lg-dryer-error-code-list--20154710772482"
+  },
+  {
+    "brand": "LG",
+    "code": "E13",
+    "aliases": [],
+    "title": "Drain problem (condensate)",
+    "causes": [
+      "The drain hose is kinked, twisted or blocked.",
+      "An extension hose reduces drainage."
+    ],
+    "steps": [
+      "Check the drain hose for kinks and blockages.",
+      "Use only the original LG drain hose, without an extension.",
+      "Press Start/Pause to restart."
+    ],
+    "technician": "If E13 comes back, the dryer needs repair by LG service.",
+    "source": "https://www.lg.com/us/support/help-library/lg-dryer-error-code-list--20154710772482"
+  },
+  {
+    "brand": "Bosch",
+    "code": "E01",
+    "aliases": [],
+    "title": "Fluff filter blocked",
+    "causes": [
+      "Fluff has built up on the filter.",
+      "Fabric softener residue is clogging the mesh."
+    ],
+    "steps": [
+      "Remove and empty the fluff filter.",
+      "Rinse the filter under warm water to remove residue.",
+      "Dry it and refit it.",
+      "Clean the filter after every cycle."
+    ],
+    "technician": "If the code stays with a clean filter, book a Bosch service visit.",
+    "source": "https://www.bosch-home.com/mt/service/get-support/dryer-errors-seo-update"
+  },
+  {
+    "brand": "Bosch",
+    "code": "E02",
+    "aliases": [],
+    "title": "Fluff filter blocked or control relay fault",
+    "causes": [
+      "The fluff filter is blocked.",
+      "On some models, a main board relay fault."
+    ],
+    "steps": [
+      "Clean the fluff filter and rinse it with warm water.",
+      "Switch off power at the plug or breaker for 30 seconds, then restart."
+    ],
+    "technician": "If the code returns after cleaning and a reset, contact Bosch customer service.",
+    "source": "https://www.bosch-home.com/us/owner-support/dryers/error-codes"
+  },
+  {
+    "brand": "Bosch",
+    "code": "E03",
+    "aliases": [],
+    "title": "Condensation drain hose blocked",
+    "causes": [
+      "The condensate drain hose is kinked or blocked."
+    ],
+    "steps": [
+      "Check that the drain hose has no kinks.",
+      "Carefully remove the hose from the siphon and clean the hose and its connection.",
+      "Refit the hose securely."
+    ],
+    "technician": "If the code returns with a clear hose, book a Bosch engineer.",
+    "source": "https://www.bosch-home.com/mt/service/get-support/dryer-errors-seo-update"
+  },
+  {
+    "brand": "Bosch",
+    "code": "E04",
+    "aliases": [],
+    "title": "Dryer overloaded",
+    "causes": [
+      "Too much laundry in the drum."
+    ],
+    "steps": [
+      "Remove some laundry.",
+      "Leave about a hand's width of space above the clothes.",
+      "Restart the programme."
+    ],
+    "technician": "If the code shows with a normal load, contact Bosch service.",
+    "source": "https://www.bosch-home.com/us/owner-support/dryers/error-codes"
+  },
+  {
+    "brand": "Bosch",
+    "code": "E06",
+    "aliases": [],
+    "title": "Heating circuit fault",
+    "causes": [
+      "A fault in the heating circuit."
+    ],
+    "steps": [
+      "Switch the dryer off and unplug it.",
+      "Do not try to repair it yourself."
+    ],
+    "technician": "This needs a qualified engineer. Contact Bosch customer service.",
+    "source": "https://www.bosch-home.com/mt/service/get-support/dryer-errors-seo-update"
+  },
+  {
+    "brand": "Bosch",
+    "code": "E08",
+    "aliases": [],
+    "title": "Electronics fault",
+    "causes": [
+      "An internal electronic fault."
+    ],
+    "steps": [
+      "Switch off the dryer.",
+      "Unplug it or switch off the breaker for a few minutes, then reconnect.",
+      "If the code returns, stop using the dryer."
+    ],
+    "technician": "Only an authorised engineer can fix this. Contact Bosch customer service.",
+    "source": "https://www.bosch-home.com/mt/service/get-support/dryer-errors-seo-update"
+  },
+  {
+    "brand": "Bosch",
+    "code": "E09",
+    "aliases": [],
+    "title": "Electronics fault",
+    "causes": [
+      "An internal electronic fault."
+    ],
+    "steps": [
+      "Switch off the dryer.",
+      "Unplug it or switch off the breaker for a few minutes, then reconnect.",
+      "If the code returns, stop using the dryer."
+    ],
+    "technician": "Only an authorised engineer can fix this. Contact Bosch customer service.",
+    "source": "https://www.bosch-home.com/mt/service/get-support/dryer-errors-seo-update"
+  },
+  {
+    "brand": "Bosch",
+    "code": "E24",
+    "aliases": [],
+    "title": "Electronics fault",
+    "causes": [
+      "An internal electronic fault."
+    ],
+    "steps": [
+      "Switch off the dryer.",
+      "Unplug it or switch off the breaker for a few minutes, then reconnect.",
+      "If the code returns, stop using the dryer."
+    ],
+    "technician": "Only an authorised engineer can fix this. Contact Bosch customer service.",
+    "source": "https://www.bosch-home.com/mt/service/get-support/dryer-errors-seo-update"
+  },
+  {
+    "brand": "Bosch",
+    "code": "E25",
+    "aliases": [],
+    "title": "Electronics fault",
+    "causes": [
+      "An internal electronic fault."
+    ],
+    "steps": [
+      "Switch off the dryer.",
+      "Unplug it or switch off the breaker for a few minutes, then reconnect.",
+      "If the code returns, stop using the dryer."
+    ],
+    "technician": "Only an authorised engineer can fix this. Contact Bosch customer service.",
+    "source": "https://www.bosch-home.com/mt/service/get-support/dryer-errors-seo-update"
+  },
+  {
+    "brand": "Bosch",
+    "code": "E28",
+    "aliases": [],
+    "title": "Electronics fault",
+    "causes": [
+      "An internal electronic fault."
+    ],
+    "steps": [
+      "Switch off the dryer.",
+      "Unplug it or switch off the breaker for a few minutes, then reconnect.",
+      "If the code returns, stop using the dryer."
+    ],
+    "technician": "Only an authorised engineer can fix this. Contact Bosch customer service.",
+    "source": "https://www.bosch-home.com/mt/service/get-support/dryer-errors-seo-update"
+  },
+  {
+    "brand": "Bosch",
+    "code": "E36",
+    "aliases": [],
+    "title": "Electronics fault",
+    "causes": [
+      "An internal electronic fault."
+    ],
+    "steps": [
+      "Switch off the dryer.",
+      "Unplug it or switch off the breaker for a few minutes, then reconnect.",
+      "If the code returns, stop using the dryer."
+    ],
+    "technician": "Only an authorised engineer can fix this. Contact Bosch customer service.",
+    "source": "https://www.bosch-home.com/us/owner-support/dryers/error-codes"
+  },
+  {
+    "brand": "Bosch",
+    "code": "E90",
+    "aliases": [],
+    "title": "Electronics fault",
+    "causes": [
+      "An internal electronic fault."
+    ],
+    "steps": [
+      "Switch off the dryer.",
+      "Unplug it or switch off the breaker for a few minutes, then reconnect.",
+      "If the code returns, stop using the dryer."
+    ],
+    "technician": "Only an authorised engineer can fix this. Contact Bosch customer service.",
+    "source": "https://www.bosch-home.com/mt/service/get-support/dryer-errors-seo-update"
+  },
+  {
+    "brand": "Bosch",
+    "code": "E12",
+    "aliases": [],
+    "title": "Overheating or heat pump limescale",
+    "causes": [
+      "Airflow is restricted and the dryer overheats.",
+      "Limescale build-up in the heat pump on some models."
+    ],
+    "steps": [
+      "Clean the lint filter.",
+      "Check the external vent is not blocked, bent or crushed.",
+      "Restart the programme."
+    ],
+    "technician": "If the code keeps returning, book a Bosch service visit.",
+    "source": "https://www.bosch-home.com/us/owner-support/dryers/error-codes"
+  },
+  {
+    "brand": "Bosch",
+    "code": "E16",
+    "aliases": [],
+    "title": "Door opened during drying",
+    "causes": [
+      "The door was opened while a cycle was running."
+    ],
+    "steps": [
+      "Close the door firmly.",
+      "Press Start to resume the cycle.",
+      "Use the child lock if needed to stop the door being opened."
+    ],
+    "technician": "If E16 appears with the door closed, the door switch may be faulty. Book a Bosch engineer.",
+    "source": "https://www.bosch-home.co.uk/customer-service/get-support/tumble-dryers/e16"
+  },
+  {
+    "brand": "Bosch",
+    "code": "E56",
+    "aliases": [],
+    "title": "Moisture sensor problem",
+    "causes": [
+      "Residue or lint on the moisture sensor strips in the drum."
+    ],
+    "steps": [
+      "Unplug the dryer.",
+      "Wipe the moisture sensor near the lint filter with a soft cloth and mild cleaner.",
+      "Remove any residue, then restart."
+    ],
+    "technician": "If the code persists after cleaning, contact Bosch customer service.",
+    "source": "https://www.bosch-home.com/us/owner-support/dryers/error-codes"
+  },
+  {
+    "brand": "Bosch",
+    "code": "DR",
+    "aliases": [],
+    "title": "Door not closed properly",
+    "causes": [
+      "The door is not fully shut.",
+      "Something is blocking the door."
+    ],
+    "steps": [
+      "Remove anything caught in the door.",
+      "Close it firmly until it latches.",
+      "Restart the cycle."
+    ],
+    "technician": "If the code persists, the latch or door switch needs checking by Bosch service.",
+    "source": "https://www.bosch-home.com/us/owner-support/dryers/error-codes"
+  },
+  {
+    "brand": "Bosch",
+    "code": "CrE",
+    "aliases": [],
+    "title": "Care reminder",
+    "causes": [
+      "The dryer is reminding you to run its care programme. It is not a fault."
+    ],
+    "steps": [
+      "Run the basic care programme described in your manual."
+    ],
+    "technician": "Not needed unless the reminder will not clear after the care programme.",
+    "source": "https://www.bosch-home.com/us/owner-support/dryers/error-codes"
+  },
+  {
+    "brand": "Miele",
+    "code": "F1",
+    "aliases": [],
+    "title": "Refrigerant temperature sensor short circuit",
+    "causes": [
+      "The refrigerant temperature sensor has short-circuited."
+    ],
+    "steps": [
+      "Note the fault code.",
+      "Switch the dryer off and do not keep using it.",
+      "Book a repair with Miele."
+    ],
+    "technician": "This is a technical fault you cannot fix yourself. Book a Miele technician.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/tumble_dryer-1242/all/fault_f1-90283476363"
+  },
+  {
+    "brand": "Miele",
+    "code": "F2",
+    "aliases": [],
+    "title": "Refrigerant temperature sensor open circuit",
+    "causes": [
+      "The circuit to the refrigerant temperature sensor is broken."
+    ],
+    "steps": [
+      "Note the fault code.",
+      "Switch the dryer off and do not keep using it.",
+      "Book a repair with Miele."
+    ],
+    "technician": "This is a technical fault you cannot fix yourself. Book a Miele technician.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/tumble_dryer-1242/all/fault_f2-91861928203"
+  },
+  {
+    "brand": "Miele",
+    "code": "F3",
+    "aliases": [],
+    "title": "Drying air temperature sensor short circuit",
+    "causes": [
+      "The drying air temperature sensor has short-circuited."
+    ],
+    "steps": [
+      "Note the fault code.",
+      "Switch the dryer off and do not keep using it.",
+      "Book a repair with Miele."
+    ],
+    "technician": "This is a technical fault you cannot fix yourself. Book a Miele technician.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/tumble_dryer-1242/all/fault_f3-91862218507"
+  },
+  {
+    "brand": "Miele",
+    "code": "F4",
+    "aliases": [],
+    "title": "Drying air temperature sensor open circuit",
+    "causes": [
+      "The circuit to the drying air temperature sensor is broken."
+    ],
+    "steps": [
+      "Note the fault code.",
+      "Switch the dryer off and do not keep using it.",
+      "Book a repair with Miele."
+    ],
+    "technician": "This is a technical fault you cannot fix yourself. Book a Miele technician.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/tumble_dryer-1242/all/fault_f4-91862458251"
+  },
+  {
+    "brand": "Miele",
+    "code": "F30",
+    "aliases": [],
+    "title": "Door signal mismatch",
+    "causes": [
+      "The door and the door contact report different states."
+    ],
+    "steps": [
+      "Note the fault code.",
+      "Switch the dryer off and do not keep using it.",
+      "Book a repair with Miele."
+    ],
+    "technician": "This is a technical fault you cannot fix yourself. Book a Miele technician.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/tumble_dryer-1242/all/fault_f30-91862749835"
+  },
+  {
+    "brand": "Miele",
+    "code": "F39",
+    "aliases": [],
+    "title": "Electronic module fault",
+    "causes": [
+      "The electronic module has a fault."
+    ],
+    "steps": [
+      "Note the fault code.",
+      "Switch the dryer off and do not keep using it.",
+      "Book a repair with Miele."
+    ],
+    "technician": "This is a technical fault you cannot fix yourself. Book a Miele technician.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/tumble_dryer-1242/all/fault_f39-91863922827"
+  },
+  {
+    "brand": "Miele",
+    "code": "F43",
+    "aliases": [],
+    "title": "Model type not programmed",
+    "causes": [
+      "The model type is missing or the wrong variant is set in the electronics."
+    ],
+    "steps": [
+      "Note the fault code.",
+      "Switch the dryer off and do not keep using it.",
+      "Book a repair with Miele."
+    ],
+    "technician": "This is a technical fault you cannot fix yourself. Book a Miele technician.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/tumble_dryer-1242/all/fault_f43-91864972683"
+  },
+  {
+    "brand": "Miele",
+    "code": "F45",
+    "aliases": [],
+    "title": "Electronic module fault",
+    "causes": [
+      "The electronic module has a fault."
+    ],
+    "steps": [
+      "Note the fault code.",
+      "Switch the dryer off and do not keep using it.",
+      "Book a repair with Miele."
+    ],
+    "technician": "This is a technical fault you cannot fix yourself. Book a Miele technician.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/tumble_dryer-1242/all/fault_f45-91865578123"
+  },
+  {
+    "brand": "Miele",
+    "code": "F53",
+    "aliases": [],
+    "title": "Drive motor or electronics fault",
+    "causes": [
+      "The drive motor is defective.",
+      "The electronic module has a fault."
+    ],
+    "steps": [
+      "Note the fault code.",
+      "Switch the dryer off and do not keep using it.",
+      "Book a repair with Miele."
+    ],
+    "technician": "This is a technical fault you cannot fix yourself. Book a Miele technician.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/tumble_dryer-1242/all/fault_f53-91867542283"
+  },
+  {
+    "brand": "Miele",
+    "code": "F99",
+    "aliases": [],
+    "title": "Technical fault, dryer disabled",
+    "causes": [
+      "A technical fault has disabled the dryer."
+    ],
+    "steps": [
+      "Note the fault code.",
+      "Switch the dryer off and do not keep using it.",
+      "Book a repair with Miele."
+    ],
+    "technician": "This is a technical fault you cannot fix yourself. Book a Miele technician.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/tumble_dryer-1242/all/fault_f99-91869110923"
+  },
+  {
+    "brand": "Miele",
+    "code": "F156",
+    "aliases": [],
+    "title": "Refrigerant sensor after condenser short circuit",
+    "causes": [
+      "The refrigerant temperature sensor after the condenser has short-circuited."
+    ],
+    "steps": [
+      "Note the fault code.",
+      "Switch the dryer off and do not keep using it.",
+      "Book a repair with Miele."
+    ],
+    "technician": "This is a technical fault you cannot fix yourself. Book a Miele technician.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/tumble_dryer-1242/all/fault_f156-91871645323"
+  },
+  {
+    "brand": "Miele",
+    "code": "F206",
+    "aliases": [],
+    "title": "Refrigerant sensor after compressor short circuit",
+    "causes": [
+      "The refrigerant temperature sensor after the compressor has short-circuited."
+    ],
+    "steps": [
+      "Note the fault code.",
+      "Switch the dryer off and do not keep using it.",
+      "Book a repair with Miele."
+    ],
+    "technician": "This is a technical fault you cannot fix yourself. Book a Miele technician.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/tumble_dryer-1242/all/fault_f206-91875197323"
+  },
+  {
+    "brand": "Miele",
+    "code": "F50",
+    "aliases": [],
+    "title": "Overload or software fault",
+    "causes": [
+      "The drum is overloaded.",
+      "A software glitch, often shortly after the door was opened to add laundry.",
+      "A technical fault."
+    ],
+    "steps": [
+      "Take some laundry out so the load matches the programme limit.",
+      "Switch the dryer off and straight back on.",
+      "Restart the programme."
+    ],
+    "technician": "If F50 keeps coming back, contact Miele Customer Service.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/tumble_dryer-1242/all/fault_f50-91860607627"
+  },
+  {
+    "brand": "Miele",
+    "code": "F55",
+    "aliases": [],
+    "title": "Laundry not dry after maximum time",
+    "causes": [
+      "The drum is overloaded.",
+      "Laundry was not spun fast enough in the washer.",
+      "The fluff filters are dirty."
+    ],
+    "steps": [
+      "Reduce the load to the programme maximum.",
+      "Spin laundry at the highest suitable speed before drying.",
+      "Clean all fluff filters and dry them fully before refitting.",
+      "Run the programme again."
+    ],
+    "technician": "If the fault persists with clean filters and a normal load, contact Miele Customer Service.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/tumble_dryer-1242/all/fault_f55-91860611595"
+  },
+  {
+    "brand": "Miele",
+    "code": "F66",
+    "aliases": [],
+    "title": "Airflow blocked (filters or ventilation)",
+    "causes": [
+      "Fluff filters or the plinth filter are dirty.",
+      "The plinth filter is crusted, damaged or misshapen.",
+      "The drum is overloaded.",
+      "The vent grille is blocked or the room is poorly ventilated."
+    ],
+    "steps": [
+      "Clean the fluff filters and the plinth filter, then squeeze the plinth filter dry.",
+      "Gently vacuum fluff from the heat exchanger without pressing on the fins.",
+      "Clear the ventilation grille under the door.",
+      "Reduce the load and air the room while drying.",
+      "Replace a damaged plinth filter."
+    ],
+    "technician": "If F66 remains after thorough cleaning, contact Miele Customer Service.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/tumble_dryer-1242/all/fault_f66-91861736203"
+  },
+  {
+    "brand": "Miele",
+    "code": "noC",
+    "aliases": [],
+    "title": "No Wi-Fi connection",
+    "causes": [
+      "Miele@home is not set up.",
+      "The dryer cannot reach your Wi-Fi."
+    ],
+    "steps": [
+      "Set up Miele@home if not done yet.",
+      "Check that Wi-Fi is on and restart the router.",
+      "Improve signal with a repeater if it is weak.",
+      "Reset the dryer's Wi-Fi and connect it again."
+    ],
+    "technician": "This is a connection message, not a dryer fault. Contact Miele if it cannot connect after these steps.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/tumble_dryer-1242/all/noc_on_the_display-149499830283"
+  },
+  {
+    "brand": "AEG",
+    "code": "E50",
+    "aliases": [
+      "E5E"
+    ],
+    "title": "Motor overloaded",
+    "causes": [
+      "The drum is overloaded.",
+      "Laundry is trapped in the drum.",
+      "A motor or drive fault."
+    ],
+    "steps": [
+      "Open the door and check for trapped items.",
+      "Remove some laundry if the load is too big.",
+      "Close the door and restart.",
+      "If it remains, switch off power for about 1 minute, then restart."
+    ],
+    "technician": "If E50 comes back repeatedly or the drum will not turn, book an AEG repair.",
+    "source": "https://support.aeg.co.uk/support-articles/article/tumble-dryer-displays-error-message-e50"
+  },
+  {
+    "brand": "AEG",
+    "code": "E40",
+    "aliases": [],
+    "title": "Door not closed",
+    "causes": [
+      "Laundry is caught in the door.",
+      "The door seal or lock is dirty or worn.",
+      "The drum is overloaded and pushes on the door."
+    ],
+    "steps": [
+      "Remove clothes caught in the door and close it until it clicks.",
+      "Wipe the door seal with a damp cloth.",
+      "Brush fluff out of the door lock.",
+      "Reduce the load.",
+      "Switch off power for 30 seconds, then restart."
+    ],
+    "technician": "If the error persists, the lock or door sensor may be faulty. Book an AEG service visit.",
+    "source": "https://support.aeg.co.uk/support-articles/article/tumble-dryer-displays-error-message-e40-e45"
+  },
+  {
+    "brand": "AEG",
+    "code": "E20",
+    "aliases": [
+      "C2"
+    ],
+    "title": "Drainage or pump problem",
+    "causes": [
+      "The drain hose is not connected properly.",
+      "The drain hose is twisted, blocked or looped."
+    ],
+    "steps": [
+      "If you use a drain, check the hose is connected correctly.",
+      "Remove twists, loops and blockages from the hose.",
+      "Switch off power for 30 seconds, then restart."
+    ],
+    "technician": "If the error persists, book an authorised AEG engineer.",
+    "source": "https://support.aeg.co.uk/support-articles/article/tumble-dryer-displays-error-message-e20-c2-or-emits-2-beeps-2-flashes"
+  },
+  {
+    "brand": "AEG",
+    "code": "E60",
+    "aliases": [],
+    "title": "Heating problem",
+    "causes": [
+      "The dryer is built into a cabinet with no ventilation.",
+      "The room is too small or not ventilated.",
+      "Fluff filter, condenser or seal is dirty.",
+      "The heater is faulty."
+    ],
+    "steps": [
+      "Make sure the dryer has space and air around it.",
+      "Open a window or door while drying in a small room.",
+      "Clean the fluff filter, condenser and door seal.",
+      "Run a timed programme and check if it is warm after 30 minutes."
+    ],
+    "technician": "If it is still cold, book an AEG repair.",
+    "source": "https://support.aeg.co.uk/support-articles/article/tumble-dryer-displays-error-message-e60"
+  },
+  {
+    "brand": "AEG",
+    "code": "E70",
+    "aliases": [],
+    "title": "Temperature sensor fault",
+    "causes": [
+      "The temperature sensor is faulty."
+    ],
+    "steps": [
+      "Unplug the dryer for 2 hours to reset it.",
+      "Plug it back in and try again.",
+      "If the code returns, stop using the dryer and keep it unplugged."
+    ],
+    "technician": "Contact AEG and quote the code for a service visit.",
+    "source": "https://support.aeg.co.uk/support-articles/article/tumble-dryer-displays-error-code-e70"
+  },
+  {
+    "brand": "AEG",
+    "code": "E80",
+    "aliases": [],
+    "title": "Programme selector or software fault",
+    "causes": [
+      "The programme dial is between two positions.",
+      "A software fault."
+    ],
+    "steps": [
+      "Turn the dial so it sits fully on one programme.",
+      "Unplug the dryer for 30 seconds, then plug back in and restart."
+    ],
+    "technician": "If E80 remains, book an AEG service engineer.",
+    "source": "https://support.aeg.co.uk/support-articles/article/tumble-dryer-displays-error-message-e80"
+  },
+  {
+    "brand": "AEG",
+    "code": "EH0",
+    "aliases": [
+      "EHO"
+    ],
+    "title": "Power supply problem",
+    "causes": [
+      "Voltage is too low or too high.",
+      "The supply is unstable."
+    ],
+    "steps": [
+      "Test the socket with another appliance.",
+      "Do not use an extension lead.",
+      "Unplug the dryer for 30 seconds, then restart."
+    ],
+    "technician": "If another appliance also fails, call an electrician. If only the dryer shows the code, book an AEG technician.",
+    "source": "https://support.aeg.co.uk/support-articles/article/tumble-dryer-displays-error-message-eho-eh0"
+  },
+  {
+    "brand": "AEG",
+    "code": "EBD",
+    "aliases": [
+      "EHD"
+    ],
+    "title": "Electrical noise detected",
+    "causes": [
+      "Electrical interference on the supply.",
+      "Poor earthing."
+    ],
+    "steps": [
+      "Try the dryer in a different, working socket.",
+      "Make sure the socket is properly earthed."
+    ],
+    "technician": "If the code stays, contact an authorised AEG service centre. Do not attempt electrical repairs yourself.",
+    "source": "https://support.aeg.co.uk/support-articles/article/tumble-dryer-displays-error-code-ebd"
+  },
+  {
+    "brand": "AEG",
+    "code": "CE",
+    "aliases": [
+      "CF"
+    ],
+    "title": "Electronics fault",
+    "causes": [
+      "A fault in the dryer's electronics."
+    ],
+    "steps": [
+      "Stop using the dryer.",
+      "Unplug it and leave it unplugged."
+    ],
+    "technician": "Book an authorised AEG engineer to diagnose the electronics.",
+    "source": "https://support.aeg.co.uk/support-articles/article/tumble-dryer-displays-error-message-ce-cf"
+  },
+  {
+    "brand": "AEG",
+    "code": "C8",
+    "aliases": [],
+    "title": "Temperature sensor fault",
+    "causes": [
+      "The temperature sensor has a problem."
+    ],
+    "steps": [
+      "Stop using the dryer.",
+      "Unplug it until it has been checked."
+    ],
+    "technician": "Book an AEG service visit to replace or check the sensor.",
+    "source": "https://support.aeg.co.uk/support-articles/article/tumble-dryer-displays-error-message-c8"
+  },
+  {
+    "brand": "AEG",
+    "code": "C6",
+    "aliases": [],
+    "title": "Moisture sensor problem",
+    "causes": [
+      "The dryer is not plugged into an earthed socket.",
+      "The moisture measuring system is faulty."
+    ],
+    "steps": [
+      "Check that the dryer is plugged into an earthed socket.",
+      "If the cycle still runs very long, stop using the dryer and unplug it."
+    ],
+    "technician": "If the socket is earthed and the error remains, book an AEG repair.",
+    "source": "https://support.aeg.co.uk/support-articles/article/tumble-dryer-displays-error-message-c6"
+  },
+  {
+    "brand": "AEG",
+    "code": "Err",
+    "aliases": [],
+    "title": "Steam tank error (Iron Aid models)",
+    "causes": [
+      "The steam water tank is low or empty."
+    ],
+    "steps": [
+      "Fill the steam tank up to the MAX level.",
+      "Restart the programme."
+    ],
+    "technician": "If the icons keep flashing after filling, stop using the dryer and contact an AEG service centre.",
+    "source": "https://support.aeg.co.uk/support-articles/article/iron-aid-tumble-dryer-error-message-err"
+  },
+  {
+    "brand": "Hotpoint",
+    "code": "F01",
+    "aliases": [],
+    "title": "Circuit board fault",
+    "causes": [
+      "A fault on the electronic control board."
+    ],
+    "steps": [
+      "Unplug the dryer for at least 2 minutes.",
+      "Plug it back in, wait 30 seconds and try again."
+    ],
+    "technician": "If F01 returns after the reset, call Hotpoint service to book an engineer.",
+    "source": "https://www.hotpoint.co.uk/service/tumble-dryer-repair/error-codes"
+  },
+  {
+    "brand": "Hotpoint",
+    "code": "F02",
+    "aliases": [],
+    "title": "Motor circuit fault",
+    "causes": [
+      "A fault in the motor circuit. The drum turns only now and then or not at all."
+    ],
+    "steps": [
+      "Switch the dryer off and unplug it.",
+      "Do not keep using it."
+    ],
+    "technician": "Call Hotpoint service to book an engineer.",
+    "source": "https://www.hotpoint.co.uk/service/tumble-dryer-repair/error-codes"
+  },
+  {
+    "brand": "Hotpoint",
+    "code": "F03",
+    "aliases": [],
+    "title": "Temperature sensing fault",
+    "causes": [
+      "The temperature sensor is faulty, so the dryer does not heat."
+    ],
+    "steps": [
+      "Switch the dryer off and unplug it."
+    ],
+    "technician": "Call Hotpoint service to book an engineer.",
+    "source": "https://www.hotpoint.co.uk/service/tumble-dryer-repair/error-codes"
+  },
+  {
+    "brand": "Hotpoint",
+    "code": "F05",
+    "aliases": [],
+    "title": "Blocked drain or pump problem",
+    "causes": [
+      "A blockage in the pump filter (if fitted) or drain hose.",
+      "A blocked waste pipe.",
+      "A failed pump."
+    ],
+    "steps": [
+      "Check and clean the pump filter if your model has one.",
+      "Check the drain hose and the plumbing it connects to for blockages."
+    ],
+    "technician": "If everything is clear and the fault remains, the pump may have failed. Call Hotpoint service.",
+    "source": "https://www.hotpoint.co.uk/service/tumble-dryer-repair/error-codes"
+  },
+  {
+    "brand": "Hotpoint",
+    "code": "F06",
+    "aliases": [],
+    "title": "Door lock fault",
+    "causes": [
+      "Something is obstructing the door lock.",
+      "The door lock is faulty."
+    ],
+    "steps": [
+      "Check the door lock area for fluff or objects and clear them.",
+      "Close the door firmly and try again."
+    ],
+    "technician": "If the fault remains, call Hotpoint service.",
+    "source": "https://www.hotpoint.co.uk/service/tumble-dryer-repair/error-codes"
+  },
+  {
+    "brand": "Hotpoint",
+    "code": "F09",
+    "aliases": [],
+    "title": "Software fault",
+    "causes": [
+      "A software problem. Several lights may flash and no programme can be chosen."
+    ],
+    "steps": [
+      "Unplug the dryer for a few minutes and try again."
+    ],
+    "technician": "Call Hotpoint service to book an engineer.",
+    "source": "https://www.hotpoint.co.uk/service/tumble-dryer-repair/error-codes"
+  },
+  {
+    "brand": "Hotpoint",
+    "code": "F11",
+    "aliases": [],
+    "title": "Pump circuit fault",
+    "causes": [
+      "The pump circuit has failed, so water is not pumped out."
+    ],
+    "steps": [
+      "Empty the water container if your model has one.",
+      "Switch off and unplug the dryer."
+    ],
+    "technician": "Call Hotpoint service to book an engineer.",
+    "source": "https://www.hotpoint.co.uk/service/tumble-dryer-repair/error-codes"
+  },
+  {
+    "brand": "Hotpoint",
+    "code": "F12",
+    "aliases": [],
+    "title": "Electronic control fault",
+    "causes": [
+      "The electronic control is faulty. The dryer may not switch on."
+    ],
+    "steps": [
+      "Check the plug and socket.",
+      "Unplug the dryer for a few minutes and try again."
+    ],
+    "technician": "Call Hotpoint service to book an engineer.",
+    "source": "https://www.hotpoint.co.uk/service/tumble-dryer-repair/error-codes"
+  },
+  {
+    "brand": "Hotpoint",
+    "code": "F18",
+    "aliases": [],
+    "title": "Internal data error",
+    "causes": [
+      "Corrupted internal data. Some display parts or functions do not work."
+    ],
+    "steps": [
+      "Unplug the dryer for at least 2 minutes.",
+      "Plug it back in, wait 30 seconds and try again."
+    ],
+    "technician": "If F18 remains after the reset, call Hotpoint service.",
+    "source": "https://www.hotpoint.co.uk/service/tumble-dryer-repair/error-codes"
+  },
+  {
+    "brand": "Indesit",
+    "code": "F02",
+    "aliases": [],
+    "title": "Motor circuit fault",
+    "causes": [
+      "A fault in the motor circuit. The drum turns only now and then or not at all."
+    ],
+    "steps": [
+      "Switch the dryer off and unplug it."
+    ],
+    "technician": "Call Indesit service to book an engineer.",
+    "source": "https://indesitservice.co.uk/tumble-dryer-repair/error-codes"
+  },
+  {
+    "brand": "Indesit",
+    "code": "F03",
+    "aliases": [],
+    "title": "Temperature sensing fault",
+    "causes": [
+      "The temperature sensor is faulty, so the dryer does not heat."
+    ],
+    "steps": [
+      "Switch the dryer off and unplug it."
+    ],
+    "technician": "Call Indesit service to book an engineer.",
+    "source": "https://indesitservice.co.uk/tumble-dryer-repair/error-codes"
+  },
+  {
+    "brand": "Indesit",
+    "code": "F05",
+    "aliases": [],
+    "title": "Blocked drain or pump problem",
+    "causes": [
+      "A blockage in the pump filter (if fitted) or drain hose.",
+      "A failed pump."
+    ],
+    "steps": [
+      "Check and clean the pump filter if your model has one.",
+      "Check the drain hose and plumbing for blockages."
+    ],
+    "technician": "If everything is clear and the fault remains, call Indesit service.",
+    "source": "https://indesitservice.co.uk/tumble-dryer-repair/error-codes"
+  },
+  {
+    "brand": "Indesit",
+    "code": "F06",
+    "aliases": [],
+    "title": "Door lock fault",
+    "causes": [
+      "Something is obstructing the door lock.",
+      "The door lock is faulty."
+    ],
+    "steps": [
+      "Check the door lock for obstructions.",
+      "Close the door firmly and try again."
+    ],
+    "technician": "If the fault remains, call Indesit service.",
+    "source": "https://indesitservice.co.uk/tumble-dryer-repair/error-codes"
+  },
+  {
+    "brand": "Indesit",
+    "code": "F09",
+    "aliases": [],
+    "title": "Software fault",
+    "causes": [
+      "A software problem. Several lights may flash and no programme can be chosen."
+    ],
+    "steps": [
+      "Unplug the dryer for a few minutes and try again."
+    ],
+    "technician": "Call Indesit service to book an engineer.",
+    "source": "https://indesitservice.co.uk/tumble-dryer-repair/error-codes"
+  },
+  {
+    "brand": "Indesit",
+    "code": "F11",
+    "aliases": [],
+    "title": "Pump circuit fault",
+    "causes": [
+      "The pump circuit has failed, so water is not pumped out."
+    ],
+    "steps": [
+      "Empty the water container if your model has one.",
+      "Switch off and unplug the dryer."
+    ],
+    "technician": "Call Indesit service to book an engineer.",
+    "source": "https://indesitservice.co.uk/tumble-dryer-repair/error-codes"
+  },
+  {
+    "brand": "Indesit",
+    "code": "F12",
+    "aliases": [],
+    "title": "Electronic control fault",
+    "causes": [
+      "The electronic control is faulty. The dryer may not switch on."
+    ],
+    "steps": [
+      "Check the plug and socket.",
+      "Unplug the dryer for a few minutes and try again."
+    ],
+    "technician": "Call Indesit service to book an engineer.",
+    "source": "https://indesitservice.co.uk/tumble-dryer-repair/error-codes"
+  },
+  {
+    "brand": "Indesit",
+    "code": "F18",
+    "aliases": [],
+    "title": "Internal data error",
+    "causes": [
+      "Corrupted internal data. Some display parts or functions do not work."
+    ],
+    "steps": [
+      "Unplug the dryer for at least 2 minutes.",
+      "Plug it back in, wait 30 seconds and try again."
+    ],
+    "technician": "If F18 remains after the reset, call Indesit service.",
+    "source": "https://indesitservice.co.uk/tumble-dryer-repair/error-codes"
+  },
+  {
+    "brand": "Whirlpool",
+    "code": "AF",
+    "aliases": [
+      "F4E3",
+      "F4 E3"
+    ],
+    "title": "Restricted airflow",
+    "causes": [
+      "The lint screen is clogged.",
+      "The vent is blocked, crushed, kinked or has too many bends."
+    ],
+    "steps": [
+      "Clean the lint screen.",
+      "Check the vent for blockages, crushing or kinks.",
+      "Touch any key to clear the code."
+    ],
+    "technician": "If the code keeps coming back with a clean vent, schedule Whirlpool service.",
+    "source": "https://producthelp.whirlpool.com/Laundry/Dryers/Product_Info/Dryer_Product_Assistance/Error_Codes_in_Dryers"
+  },
+  {
+    "brand": "Whirlpool",
+    "code": "L2",
+    "aliases": [],
+    "title": "Low or no line voltage",
+    "causes": [
+      "A household fuse has blown or a breaker has tripped.",
+      "The power cord is not installed correctly."
+    ],
+    "steps": [
+      "Check your fuses and breakers (electric dryers use two) and reset them.",
+      "Check the power cord is installed as described in the installation guide.",
+      "Run a timed heated cycle and restart."
+    ],
+    "technician": "If L2 stays, have a qualified electrician check the supply.",
+    "source": "https://producthelp.whirlpool.com/Laundry/Dryers/Product_Info/Dryer_Product_Assistance/Error_Codes_in_Dryers"
+  },
+  {
+    "brand": "Whirlpool",
+    "code": "PF",
+    "aliases": [],
+    "title": "Power failure",
+    "causes": [
+      "Power was interrupted during the cycle."
+    ],
+    "steps": [
+      "Press and hold Start to resume the cycle.",
+      "Or press Power to clear the display."
+    ],
+    "technician": "Not a fault. Contact Whirlpool only if PF appears without real power cuts.",
+    "source": "https://producthelp.whirlpool.com/Laundry/Dryers/Product_Info/Dryer_Product_Assistance/Error_Codes_in_Dryers"
+  },
+  {
+    "brand": "Whirlpool",
+    "code": "F1E3",
+    "aliases": [
+      "F1 E3"
+    ],
+    "title": "Control unit or wiring problem",
+    "causes": [
+      "A fault in the control unit or its wiring."
+    ],
+    "steps": [
+      "Press Power, choose a cycle and press and hold Start.",
+      "If it does not start, unplug the dryer."
+    ],
+    "technician": "If the problem continues, schedule Whirlpool service.",
+    "source": "https://producthelp.whirlpool.com/Laundry/Dryers/Dryer/Error_Codes/Starts_with_F/F1E3_-_Error_Code_-_Dryer"
+  },
+  {
+    "brand": "Whirlpool",
+    "code": "Loc",
+    "aliases": [
+      "Lc"
+    ],
+    "title": "Control lock on",
+    "causes": [
+      "The control lock has been switched on."
+    ],
+    "steps": [
+      "Touch and hold Control Lock for 3 seconds until the display counts down and clears."
+    ],
+    "technician": "This is not a fault. Contact Whirlpool only if the lock will not turn off.",
+    "source": "https://producthelp.whirlpool.com/Laundry/Dryers/HybridCare_Dryer/Error_Codes/Loc_or_Lc_-_Error_Code_-_HybridCare_Dryer"
+  },
+  {
+    "brand": "Whirlpool",
+    "code": "LF",
+    "aliases": [],
+    "title": "Lint filter removed",
+    "causes": [
+      "The HybridCare filter is not in the dryer."
+    ],
+    "steps": [
+      "Put the filter back in.",
+      "Make sure the filter handle is fully seated."
+    ],
+    "technician": "If LF stays with the filter in place, contact Whirlpool service.",
+    "source": "https://producthelp.whirlpool.com/Laundry/Dryers/HybridCare_Dryer/Error_Codes/LF_-_Error_Code_-_HybridCare_Dryer"
+  }
+]

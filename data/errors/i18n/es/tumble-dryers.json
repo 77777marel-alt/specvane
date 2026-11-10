@@ -1,0 +1,1201 @@
+{
+ "Samsung|dC": {
+  "title": "Puerta abierta o no detectada",
+  "causes": [
+   "La puerta no está bien cerrada.",
+   "Hay ropa atrapada en la puerta.",
+   "El bloqueo infantil (Child Lock) está activado y se abrió la puerta."
+  ],
+  "steps": [
+   "Abra la puerta y retire la ropa atrapada en el borde.",
+   "Cierre la puerta con firmeza hasta que encaje.",
+   "Compruebe si el Child Lock está activado.",
+   "Vuelva a iniciar el ciclo."
+  ],
+  "technician": "Si el código sigue con la puerta bien cerrada, el cierre o el sensor de la puerta puede estar averiado. Contacte con el servicio técnico de Samsung."
+ },
+ "Samsung|NC": {
+  "title": "Problema con el filtro de pelusas",
+  "causes": [
+   "El filtro de pelusas falta, está obstruido o no está bien colocado."
+  ],
+  "steps": [
+   "Saque el filtro de pelusas y límpielo.",
+   "Vuelva a colocarlo hasta el fondo para que encaje bien.",
+   "Reinicie el ciclo."
+  ],
+  "technician": "Si el código vuelve con el filtro limpio y bien colocado, solicite una visita del servicio técnico de Samsung."
+ },
+ "Samsung|NC2": {
+  "title": "Problema con la tapa interior del intercambiador de calor",
+  "causes": [
+   "La tapa interior del intercambiador de calor no está bien colocada."
+  ],
+  "steps": [
+   "Apague la secadora.",
+   "Compruebe que la tapa interior del intercambiador de calor está en su sitio y bien cerrada.",
+   "Reinicie el ciclo."
+  ],
+  "technician": "Si el código sigue tras volver a colocar la tapa, contacte con el servicio técnico de Samsung."
+ },
+ "Samsung|5C": {
+  "title": "Problema de desagüe",
+  "causes": [
+   "La manguera de desagüe está doblada, dañada o congelada.",
+   "El depósito de agua está lleno.",
+   "La bomba de desagüe no funciona."
+  ],
+  "steps": [
+   "Vacíe el depósito de agua y vuelva a colocarlo.",
+   "Compruebe que la manguera de desagüe no está doblada ni dañada.",
+   "Si la manguera está congelada, envuélvala unos 10 minutos en una toalla empapada en agua tibia.",
+   "Encienda la secadora y reinicie el ciclo."
+  ],
+  "technician": "Si el depósito está vacío y la manguera libre pero el código vuelve, la bomba puede estar averiada. Llame al servicio técnico de Samsung."
+ },
+ "Samsung|tC": {
+  "title": "Problema con el sensor de temperatura del aire",
+  "causes": [
+   "El filtro de pelusas o el intercambiador de calor está obstruido.",
+   "La salida de aire o el paso del aire está limitado.",
+   "El sensor de temperatura está averiado."
+  ],
+  "steps": [
+   "Limpie el filtro de pelusas.",
+   "Limpie el intercambiador de calor si su modelo lo tiene.",
+   "Compruebe que la salida de aire no está obstruida.",
+   "Reinicie el ciclo."
+  ],
+  "technician": "Si la limpieza no elimina el código, puede que haya que cambiar el sensor. Contacte con el servicio técnico de Samsung."
+ },
+ "Samsung|tC5": {
+  "title": "Problema con el sensor de temperatura del compresor",
+  "causes": [
+   "El filtro de pelusas está obstruido.",
+   "El paso de aire por el sistema de evacuación está limitado."
+  ],
+  "steps": [
+   "Espere de 2 a 3 minutos y vuelva a encender la secadora.",
+   "Limpie el filtro de pelusas.",
+   "Compruebe que el sistema de evacuación no está obstruido.",
+   "Reinicie el ciclo."
+  ],
+  "technician": "Si el código sigue volviendo, el servicio técnico de Samsung debe revisar el sistema de bomba de calor."
+ },
+ "Samsung|3C": {
+  "title": "Problema del motor",
+  "causes": [
+   "El motor inverter no funcionó como debía."
+  ],
+  "steps": [
+   "Asegúrese de que el tambor no está sobrecargado.",
+   "Reinicie el ciclo.",
+   "Desenchufe la secadora al menos 30 segundos, vuelva a enchufarla e inténtelo de nuevo."
+  ],
+  "technician": "Si el código vuelve, un técnico debe revisar el motor o su control. Contacte con el servicio técnico de Samsung."
+ },
+ "Samsung|AC": {
+  "title": "Error de comunicación electrónica",
+  "causes": [
+   "Las piezas internas de control no se comunican entre sí."
+  ],
+  "steps": [
+   "Apague la secadora durante 60 segundos.",
+   "Vuelva a encenderla y reinicie el ciclo."
+  ],
+  "technician": "Si el código vuelve, hay que revisar las placas de control. Solicite el servicio técnico de Samsung."
+ },
+ "Samsung|AC6": {
+  "title": "La placa principal y la placa inverter no se comunican",
+  "causes": [
+   "La placa de control principal y la placa inverter han perdido la comunicación."
+  ],
+  "steps": [
+   "Reinicie el ciclo.",
+   "Desenchufe la secadora al menos 30 segundos, vuelva a enchufarla e inténtelo de nuevo."
+  ],
+  "technician": "Si el código sigue, un técnico debe revisar las placas y el cableado. Contacte con el servicio técnico de Samsung."
+ },
+ "Samsung|HC": {
+  "title": "Sobrecalentamiento o problema de calentamiento",
+  "causes": [
+   "El filtro de pelusas o la salida de aire está obstruido y la secadora se calienta demasiado.",
+   "Un interruptor del cuadro eléctrico ha saltado o hay baja tensión (modelos eléctricos)."
+  ],
+  "steps": [
+   "Limpie el filtro de pelusas.",
+   "Compruebe que la salida de aire no está obstruida.",
+   "Revise el cuadro eléctrico de su casa y vuelva a subir los interruptores que hayan saltado.",
+   "Reinicie el ciclo."
+  ],
+  "technician": "Si el código continúa, pida a un electricista que revise la instalación y solicite el servicio técnico de Samsung para el sistema de calentamiento."
+ },
+ "Samsung|FC": {
+  "title": "Frecuencia de la corriente incorrecta",
+  "causes": [
+   "La frecuencia de la red eléctrica no coincide con la que espera la secadora."
+  ],
+  "steps": [
+   "Reinicie el ciclo.",
+   "Asegúrese de que la secadora está enchufada directamente a un enchufe de pared."
+  ],
+  "technician": "Si el código sigue, contacte con el servicio técnico de Samsung."
+ },
+ "Samsung|9C1": {
+  "title": "Problema de alimentación eléctrica",
+  "causes": [
+   "La alimentación eléctrica no es correcta.",
+   "El enchufe está flojo o no está metido del todo.",
+   "Se está usando un alargador."
+  ],
+  "steps": [
+   "Compruebe que el enchufe está metido del todo en la toma.",
+   "Enchufe la secadora directamente a una toma de pared con su propio circuito, sin alargador.",
+   "Reinicie el ciclo."
+  ],
+  "technician": "Si la alimentación es correcta y el código vuelve, solicite el servicio técnico de Samsung."
+ },
+ "Samsung|dF": {
+  "title": "Avería del interruptor de la puerta",
+  "causes": [
+   "El interruptor de la puerta o del cierre, o su cableado, está averiado."
+  ],
+  "steps": [
+   "Cierre la puerta con firmeza e inténtelo de nuevo.",
+   "Desenchufe la secadora al menos 30 segundos, vuelva a enchufarla e inténtelo de nuevo."
+  ],
+  "technician": "Puede que haya que cambiar el conjunto del interruptor de la puerta. Contacte con el servicio técnico de Samsung."
+ },
+ "Samsung|bE": {
+  "title": "Botón atascado",
+  "causes": [
+   "Un botón del panel de control está atascado o pulsado."
+  ],
+  "steps": [
+   "Apague la secadora.",
+   "Pulse y suelte todos los botones, también por los bordes, para liberar el que esté atascado.",
+   "Enciéndala e inténtelo de nuevo."
+  ],
+  "technician": "Si un botón está dañado o el código vuelve, solicite el servicio técnico de Samsung."
+ },
+ "Samsung|Clg": {
+  "title": "Conducto de salida obstruido (resultado de la prueba)",
+  "causes": [
+   "El conducto de salida está obstruido por pelusa o suciedad."
+  ],
+  "steps": [
+   "Limpie el filtro de pelusas.",
+   "Limpie la salida de aire y el conducto.",
+   "Vuelva a hacer la prueba de obstrucción del conducto."
+  ],
+  "technician": "Si el conducto está limpio y el resultado no cambia, contacte con el servicio técnico de Samsung."
+ },
+ "Samsung|dn": {
+  "title": "Descarga de software en curso",
+  "causes": [
+   "La secadora está instalando una actualización de firmware."
+  ],
+  "steps": [
+   "No desenchufe la secadora ni corte la corriente.",
+   "Espere. La secadora se reinicia sola cuando termina la actualización."
+  ],
+  "technician": "Si dn sigue apareciendo después de 24 horas, solicite el servicio técnico de Samsung."
+ },
+ "Samsung|CL": {
+  "title": "Child Lock activado",
+  "causes": [
+   "Se ha activado el bloqueo infantil (Child Lock) y los botones no responden."
+  ],
+  "steps": [
+   "Desactive el Child Lock con la combinación de botones que indica su manual."
+  ],
+  "technician": "No es una avería. Contacte con Samsung solo si no puede desactivar el Child Lock."
+ },
+ "Samsung|HC2": {
+  "title": "Error de encendido del gas",
+  "causes": [
+   "La secadora de gas no ha podido encenderse."
+  ],
+  "steps": [
+   "Apague la secadora de 2 a 3 minutos.",
+   "Enciéndala y reinicie el ciclo."
+  ],
+  "technician": "Si el código vuelve, deje de usar la secadora y llame al servicio técnico de Samsung. No manipule usted mismo las piezas de gas."
+ },
+ "LG|OE": {
+  "title": "Problema de desagüe",
+  "causes": [
+   "La manguera de desagüe está retorcida, doblada u obstruida.",
+   "El extremo de la manguera está demasiado alto o sumergido en agua."
+  ],
+  "steps": [
+   "Estire la manguera de desagüe.",
+   "La parte más alta de la manguera no debe superar 1 m desde el suelo.",
+   "Asegúrese de que el extremo de la manguera no está metido en agua.",
+   "Reinicie la secadora."
+  ],
+  "technician": "Si el código vuelve con la manguera libre y bien colocada, contacte con el servicio técnico de LG."
+ },
+ "LG|d80": {
+  "title": "Salida de aire limitada (obstruida en torno al 80 %)",
+  "causes": [
+   "El filtro de pelusas está obstruido.",
+   "El conducto de salida está aplastado, doblado o es demasiado largo.",
+   "La rejilla exterior de salida está bloqueada."
+  ],
+  "steps": [
+   "Limpie el filtro de pelusas y, si hace falta, aclárelo con agua tibia.",
+   "Compruebe que el conducto detrás de la secadora no está doblado ni aplastado.",
+   "Asegúrese de que la rejilla exterior se abre del todo y quite la pelusa de alrededor.",
+   "Seque cargas más pequeñas hasta que el conducto esté despejado."
+  ],
+  "technician": "Si el código sigue tras la limpieza, contrate a un profesional de limpieza de conductos o contacte con el servicio técnico de LG."
+ },
+ "LG|d90": {
+  "title": "Salida de aire limitada (obstruida en torno al 90 %)",
+  "causes": [
+   "El filtro de pelusas está obstruido.",
+   "El conducto de salida está aplastado, doblado o es demasiado largo.",
+   "La rejilla exterior de salida está bloqueada."
+  ],
+  "steps": [
+   "Limpie el filtro de pelusas y, si hace falta, aclárelo con agua tibia.",
+   "Compruebe que el conducto detrás de la secadora no está doblado ni aplastado.",
+   "Asegúrese de que la rejilla exterior se abre del todo y quite la pelusa de alrededor.",
+   "Seque cargas más pequeñas hasta que el conducto esté despejado."
+  ],
+  "technician": "Si el código sigue tras la limpieza, contrate a un profesional de limpieza de conductos o contacte con el servicio técnico de LG."
+ },
+ "LG|d95": {
+  "title": "Salida de aire limitada (obstruida en torno al 95 %)",
+  "causes": [
+   "El filtro de pelusas está obstruido.",
+   "El conducto de salida está aplastado, doblado o es demasiado largo.",
+   "La rejilla exterior de salida está bloqueada."
+  ],
+  "steps": [
+   "Limpie el filtro de pelusas y, si hace falta, aclárelo con agua tibia.",
+   "Compruebe que el conducto detrás de la secadora no está doblado ni aplastado.",
+   "Asegúrese de que la rejilla exterior se abre del todo y quite la pelusa de alrededor.",
+   "Seque cargas más pequeñas hasta que el conducto esté despejado."
+  ],
+  "technician": "Si el código sigue tras la limpieza, contrate a un profesional de limpieza de conductos o contacte con el servicio técnico de LG."
+ },
+ "LG|FO": {
+  "title": "Filtro de pelusas no colocado",
+  "causes": [
+   "El filtro de pelusas no está bien insertado."
+  ],
+  "steps": [
+   "Saque el filtro de pelusas.",
+   "Vuelva a introducirlo en su alojamiento hasta que encaje del todo.",
+   "Reinicie la secadora."
+  ],
+  "technician": "Si FO sigue con el filtro bien colocado, puede que el servicio técnico de LG tenga que reparar el sensor."
+ },
+ "LG|IF": {
+  "title": "Filtro de pelusas interior no detectado",
+  "causes": [
+   "El imán del filtro de pelusas interior falta o está fuera de su sitio.",
+   "El soporte del imán está dañado."
+  ],
+  "steps": [
+   "Saque el filtro de pelusas interior y compruebe que el imán está en su sitio.",
+   "Vuelva a colocar el filtro correctamente.",
+   "Si el imán se ha perdido o el soporte está roto, compre un filtro nuevo."
+  ],
+  "technician": "Si el error sigue con un filtro en buen estado, solicite el servicio técnico de LG."
+ },
+ "LG|nP": {
+  "title": "El calentador no recibe corriente",
+  "causes": [
+   "El enchufe no da la tensión correcta.",
+   "Ha saltado un interruptor del cuadro eléctrico."
+  ],
+  "steps": [
+   "Baje el interruptor de la secadora en el cuadro eléctrico al menos 10 segundos y vuelva a subirlo.",
+   "Reinicie la secadora."
+  ],
+  "technician": "Si sigue sin calentar, pida a un electricista que revise el enchufe y luego contacte con el servicio técnico de LG."
+ },
+ "LG|PS": {
+  "title": "Problema de alimentación eléctrica",
+  "causes": [
+   "El cable de alimentación está flojo o la toma no tiene el cableado necesario."
+  ],
+  "steps": [
+   "Baje y suba el interruptor de la secadora en el cuadro eléctrico, esperando al menos 10 segundos.",
+   "Compruebe que el enchufe está bien metido en una toma adecuada y con toma de tierra.",
+   "Reinicie la secadora."
+  ],
+  "technician": "Si la secadora sigue sin calentar, solicite una reparación a LG."
+ },
+ "LG|gAS": {
+  "title": "Problema de suministro de gas",
+  "causes": [
+   "La llave de paso del gas está cerrada.",
+   "El tubo de gas está doblado."
+  ],
+  "steps": [
+   "Compruebe que la llave de paso del gas está abierta.",
+   "Compruebe que el tubo de gas no está doblado."
+  ],
+  "technician": "Si el suministro de gas es correcto y el código vuelve, llame al servicio técnico de LG. No repare usted mismo las piezas de gas."
+ },
+ "LG|CL": {
+  "title": "Child Lock activado",
+  "causes": [
+   "Se activó el bloqueo infantil (Child Lock) y sigue activo tras apagar la secadora."
+  ],
+  "steps": [
+   "Encienda la secadora.",
+   "Mantenga pulsado el botón Child Lock de 3 a 5 segundos hasta que desaparezca CL."
+  ],
+  "technician": "No es una avería. Contacte con LG solo si no puede desactivar el Child Lock."
+ },
+ "LG|Add": {
+  "title": "Añada agua para el vapor",
+  "causes": [
+   "El depósito de vapor está vacío durante un ciclo de vapor."
+  ],
+  "steps": [
+   "Pause el ciclo.",
+   "Llene el depósito de vapor con agua del grifo hasta la línea MAX.",
+   "Apague y encienda la secadora, elija el ciclo de vapor y pulse Start."
+  ],
+  "technician": "Si el mensaje sigue tras llenar el depósito, contacte con el servicio técnico de LG."
+ },
+ "LG|E13": {
+  "title": "Problema de desagüe (agua condensada)",
+  "causes": [
+   "La manguera de desagüe está doblada, retorcida u obstruida.",
+   "Una manguera alargadora reduce el desagüe."
+  ],
+  "steps": [
+   "Compruebe que la manguera de desagüe no está doblada ni obstruida.",
+   "Use solo la manguera de desagüe original de LG, sin alargador.",
+   "Pulse Start/Pause para reiniciar."
+  ],
+  "technician": "Si E13 vuelve, la secadora necesita una reparación del servicio técnico de LG."
+ },
+ "Bosch|E01": {
+  "title": "Filtro de pelusas obstruido",
+  "causes": [
+   "Se ha acumulado pelusa en el filtro.",
+   "Restos de suavizante obstruyen la malla."
+  ],
+  "steps": [
+   "Saque el filtro de pelusas y vacíelo.",
+   "Aclare el filtro con agua tibia para quitar los restos.",
+   "Séquelo y vuelva a colocarlo.",
+   "Limpie el filtro después de cada ciclo."
+  ],
+  "technician": "Si el código sigue con el filtro limpio, solicite una visita del servicio técnico de Bosch."
+ },
+ "Bosch|E02": {
+  "title": "Filtro de pelusas obstruido o avería del relé de control",
+  "causes": [
+   "El filtro de pelusas está obstruido.",
+   "En algunos modelos, una avería de un relé de la placa principal."
+  ],
+  "steps": [
+   "Limpie el filtro de pelusas y aclárelo con agua tibia.",
+   "Corte la corriente en el enchufe o en el cuadro eléctrico durante 30 segundos y reinicie."
+  ],
+  "technician": "Si el código vuelve tras la limpieza y el reinicio, contacte con el servicio de atención al cliente de Bosch."
+ },
+ "Bosch|E03": {
+  "title": "Manguera de desagüe del agua condensada obstruida",
+  "causes": [
+   "La manguera de desagüe del agua condensada está doblada u obstruida."
+  ],
+  "steps": [
+   "Compruebe que la manguera de desagüe no está doblada.",
+   "Retire con cuidado la manguera del sifón y limpie la manguera y su conexión.",
+   "Vuelva a conectar la manguera de forma segura."
+  ],
+  "technician": "Si el código vuelve con la manguera libre, solicite un técnico de Bosch."
+ },
+ "Bosch|E04": {
+  "title": "Secadora sobrecargada",
+  "causes": [
+   "Hay demasiada ropa en el tambor."
+  ],
+  "steps": [
+   "Saque parte de la ropa.",
+   "Deje un espacio de un palmo aproximadamente por encima de la ropa.",
+   "Reinicie el programa."
+  ],
+  "technician": "Si el código aparece con una carga normal, contacte con el servicio técnico de Bosch."
+ },
+ "Bosch|E06": {
+  "title": "Avería del circuito de calentamiento",
+  "causes": [
+   "Una avería en el circuito de calentamiento."
+  ],
+  "steps": [
+   "Apague la secadora y desenchúfela.",
+   "No intente repararla usted mismo."
+  ],
+  "technician": "Esto requiere un técnico cualificado. Contacte con el servicio de atención al cliente de Bosch."
+ },
+ "Bosch|E08": {
+  "title": "Avería electrónica",
+  "causes": [
+   "Una avería electrónica interna."
+  ],
+  "steps": [
+   "Apague la secadora.",
+   "Desenchúfela o baje el interruptor del cuadro eléctrico unos minutos y vuelva a conectarla.",
+   "Si el código vuelve, deje de usar la secadora."
+  ],
+  "technician": "Solo un técnico autorizado puede repararlo. Contacte con el servicio de atención al cliente de Bosch."
+ },
+ "Bosch|E09": {
+  "title": "Avería electrónica",
+  "causes": [
+   "Una avería electrónica interna."
+  ],
+  "steps": [
+   "Apague la secadora.",
+   "Desenchúfela o baje el interruptor del cuadro eléctrico unos minutos y vuelva a conectarla.",
+   "Si el código vuelve, deje de usar la secadora."
+  ],
+  "technician": "Solo un técnico autorizado puede repararlo. Contacte con el servicio de atención al cliente de Bosch."
+ },
+ "Bosch|E24": {
+  "title": "Avería electrónica",
+  "causes": [
+   "Una avería electrónica interna."
+  ],
+  "steps": [
+   "Apague la secadora.",
+   "Desenchúfela o baje el interruptor del cuadro eléctrico unos minutos y vuelva a conectarla.",
+   "Si el código vuelve, deje de usar la secadora."
+  ],
+  "technician": "Solo un técnico autorizado puede repararlo. Contacte con el servicio de atención al cliente de Bosch."
+ },
+ "Bosch|E25": {
+  "title": "Avería electrónica",
+  "causes": [
+   "Una avería electrónica interna."
+  ],
+  "steps": [
+   "Apague la secadora.",
+   "Desenchúfela o baje el interruptor del cuadro eléctrico unos minutos y vuelva a conectarla.",
+   "Si el código vuelve, deje de usar la secadora."
+  ],
+  "technician": "Solo un técnico autorizado puede repararlo. Contacte con el servicio de atención al cliente de Bosch."
+ },
+ "Bosch|E28": {
+  "title": "Avería electrónica",
+  "causes": [
+   "Una avería electrónica interna."
+  ],
+  "steps": [
+   "Apague la secadora.",
+   "Desenchúfela o baje el interruptor del cuadro eléctrico unos minutos y vuelva a conectarla.",
+   "Si el código vuelve, deje de usar la secadora."
+  ],
+  "technician": "Solo un técnico autorizado puede repararlo. Contacte con el servicio de atención al cliente de Bosch."
+ },
+ "Bosch|E36": {
+  "title": "Avería electrónica",
+  "causes": [
+   "Una avería electrónica interna."
+  ],
+  "steps": [
+   "Apague la secadora.",
+   "Desenchúfela o baje el interruptor del cuadro eléctrico unos minutos y vuelva a conectarla.",
+   "Si el código vuelve, deje de usar la secadora."
+  ],
+  "technician": "Solo un técnico autorizado puede repararlo. Contacte con el servicio de atención al cliente de Bosch."
+ },
+ "Bosch|E90": {
+  "title": "Avería electrónica",
+  "causes": [
+   "Una avería electrónica interna."
+  ],
+  "steps": [
+   "Apague la secadora.",
+   "Desenchúfela o baje el interruptor del cuadro eléctrico unos minutos y vuelva a conectarla.",
+   "Si el código vuelve, deje de usar la secadora."
+  ],
+  "technician": "Solo un técnico autorizado puede repararlo. Contacte con el servicio de atención al cliente de Bosch."
+ },
+ "Bosch|E12": {
+  "title": "Sobrecalentamiento o cal en la bomba de calor",
+  "causes": [
+   "El paso de aire está limitado y la secadora se sobrecalienta.",
+   "En algunos modelos, acumulación de cal en la bomba de calor."
+  ],
+  "steps": [
+   "Limpie el filtro de pelusas.",
+   "Compruebe que la salida de aire exterior no está obstruida, doblada ni aplastada.",
+   "Reinicie el programa."
+  ],
+  "technician": "Si el código sigue volviendo, solicite una visita del servicio técnico de Bosch."
+ },
+ "Bosch|E16": {
+  "title": "Puerta abierta durante el secado",
+  "causes": [
+   "Se abrió la puerta con un ciclo en marcha."
+  ],
+  "steps": [
+   "Cierre la puerta con firmeza.",
+   "Pulse Start para continuar el ciclo.",
+   "Si hace falta, use el bloqueo infantil para que no se abra la puerta."
+  ],
+  "technician": "Si E16 aparece con la puerta cerrada, el interruptor de la puerta puede estar averiado. Solicite un técnico de Bosch."
+ },
+ "Bosch|E56": {
+  "title": "Problema con el sensor de humedad",
+  "causes": [
+   "Restos o pelusa en las tiras del sensor de humedad del tambor."
+  ],
+  "steps": [
+   "Desenchufe la secadora.",
+   "Limpie el sensor de humedad, junto al filtro de pelusas, con un paño suave y un limpiador neutro.",
+   "Quite cualquier resto y reinicie."
+  ],
+  "technician": "Si el código sigue tras la limpieza, contacte con el servicio de atención al cliente de Bosch."
+ },
+ "Bosch|DR": {
+  "title": "Puerta mal cerrada",
+  "causes": [
+   "La puerta no está bien cerrada.",
+   "Algo impide cerrar la puerta."
+  ],
+  "steps": [
+   "Retire lo que haya quedado atrapado en la puerta.",
+   "Ciérrela con firmeza hasta que encaje.",
+   "Reinicie el ciclo."
+  ],
+  "technician": "Si el código sigue, el servicio técnico de Bosch debe revisar el cierre o el interruptor de la puerta."
+ },
+ "Bosch|CrE": {
+  "title": "Aviso de mantenimiento",
+  "causes": [
+   "La secadora le recuerda que debe hacer el programa de mantenimiento. No es una avería."
+  ],
+  "steps": [
+   "Haga el programa de mantenimiento básico que describe su manual."
+  ],
+  "technician": "No hace falta, salvo que el aviso no desaparezca tras el programa de mantenimiento."
+ },
+ "Miele|F1": {
+  "title": "Cortocircuito en el sensor de temperatura del refrigerante",
+  "causes": [
+   "El sensor de temperatura del refrigerante ha hecho cortocircuito."
+  ],
+  "steps": [
+   "Anote el código de avería.",
+   "Apague la secadora y no siga usándola.",
+   "Solicite una reparación a Miele."
+  ],
+  "technician": "Es una avería técnica que usted no puede solucionar. Solicite un técnico de Miele."
+ },
+ "Miele|F2": {
+  "title": "Circuito abierto en el sensor de temperatura del refrigerante",
+  "causes": [
+   "El circuito del sensor de temperatura del refrigerante está interrumpido."
+  ],
+  "steps": [
+   "Anote el código de avería.",
+   "Apague la secadora y no siga usándola.",
+   "Solicite una reparación a Miele."
+  ],
+  "technician": "Es una avería técnica que usted no puede solucionar. Solicite un técnico de Miele."
+ },
+ "Miele|F3": {
+  "title": "Cortocircuito en el sensor de temperatura del aire de secado",
+  "causes": [
+   "El sensor de temperatura del aire de secado ha hecho cortocircuito."
+  ],
+  "steps": [
+   "Anote el código de avería.",
+   "Apague la secadora y no siga usándola.",
+   "Solicite una reparación a Miele."
+  ],
+  "technician": "Es una avería técnica que usted no puede solucionar. Solicite un técnico de Miele."
+ },
+ "Miele|F4": {
+  "title": "Circuito abierto en el sensor de temperatura del aire de secado",
+  "causes": [
+   "El circuito del sensor de temperatura del aire de secado está interrumpido."
+  ],
+  "steps": [
+   "Anote el código de avería.",
+   "Apague la secadora y no siga usándola.",
+   "Solicite una reparación a Miele."
+  ],
+  "technician": "Es una avería técnica que usted no puede solucionar. Solicite un técnico de Miele."
+ },
+ "Miele|F30": {
+  "title": "Señales de la puerta no coinciden",
+  "causes": [
+   "La puerta y el contacto de la puerta indican estados distintos."
+  ],
+  "steps": [
+   "Anote el código de avería.",
+   "Apague la secadora y no siga usándola.",
+   "Solicite una reparación a Miele."
+  ],
+  "technician": "Es una avería técnica que usted no puede solucionar. Solicite un técnico de Miele."
+ },
+ "Miele|F39": {
+  "title": "Avería del módulo electrónico",
+  "causes": [
+   "El módulo electrónico tiene una avería."
+  ],
+  "steps": [
+   "Anote el código de avería.",
+   "Apague la secadora y no siga usándola.",
+   "Solicite una reparación a Miele."
+  ],
+  "technician": "Es una avería técnica que usted no puede solucionar. Solicite un técnico de Miele."
+ },
+ "Miele|F43": {
+  "title": "Tipo de modelo no programado",
+  "causes": [
+   "Falta el tipo de modelo o la electrónica tiene configurada una variante incorrecta."
+  ],
+  "steps": [
+   "Anote el código de avería.",
+   "Apague la secadora y no siga usándola.",
+   "Solicite una reparación a Miele."
+  ],
+  "technician": "Es una avería técnica que usted no puede solucionar. Solicite un técnico de Miele."
+ },
+ "Miele|F45": {
+  "title": "Avería del módulo electrónico",
+  "causes": [
+   "El módulo electrónico tiene una avería."
+  ],
+  "steps": [
+   "Anote el código de avería.",
+   "Apague la secadora y no siga usándola.",
+   "Solicite una reparación a Miele."
+  ],
+  "technician": "Es una avería técnica que usted no puede solucionar. Solicite un técnico de Miele."
+ },
+ "Miele|F53": {
+  "title": "Avería del motor de accionamiento o de la electrónica",
+  "causes": [
+   "El motor de accionamiento está defectuoso.",
+   "El módulo electrónico tiene una avería."
+  ],
+  "steps": [
+   "Anote el código de avería.",
+   "Apague la secadora y no siga usándola.",
+   "Solicite una reparación a Miele."
+  ],
+  "technician": "Es una avería técnica que usted no puede solucionar. Solicite un técnico de Miele."
+ },
+ "Miele|F99": {
+  "title": "Avería técnica, secadora bloqueada",
+  "causes": [
+   "Una avería técnica ha bloqueado la secadora."
+  ],
+  "steps": [
+   "Anote el código de avería.",
+   "Apague la secadora y no siga usándola.",
+   "Solicite una reparación a Miele."
+  ],
+  "technician": "Es una avería técnica que usted no puede solucionar. Solicite un técnico de Miele."
+ },
+ "Miele|F156": {
+  "title": "Cortocircuito en el sensor de refrigerante tras el condensador",
+  "causes": [
+   "El sensor de temperatura del refrigerante situado tras el condensador ha hecho cortocircuito."
+  ],
+  "steps": [
+   "Anote el código de avería.",
+   "Apague la secadora y no siga usándola.",
+   "Solicite una reparación a Miele."
+  ],
+  "technician": "Es una avería técnica que usted no puede solucionar. Solicite un técnico de Miele."
+ },
+ "Miele|F206": {
+  "title": "Cortocircuito en el sensor de refrigerante tras el compresor",
+  "causes": [
+   "El sensor de temperatura del refrigerante situado tras el compresor ha hecho cortocircuito."
+  ],
+  "steps": [
+   "Anote el código de avería.",
+   "Apague la secadora y no siga usándola.",
+   "Solicite una reparación a Miele."
+  ],
+  "technician": "Es una avería técnica que usted no puede solucionar. Solicite un técnico de Miele."
+ },
+ "Miele|F50": {
+  "title": "Sobrecarga o error de software",
+  "causes": [
+   "El tambor está sobrecargado.",
+   "Un fallo de software, a menudo poco después de abrir la puerta para añadir ropa.",
+   "Una avería técnica."
+  ],
+  "steps": [
+   "Saque parte de la ropa para respetar la carga máxima del programa.",
+   "Apague la secadora y vuelva a encenderla enseguida.",
+   "Reinicie el programa."
+  ],
+  "technician": "Si F50 sigue volviendo, contacte con el servicio de atención al cliente de Miele."
+ },
+ "Miele|F55": {
+  "title": "La ropa no se seca en el tiempo máximo",
+  "causes": [
+   "El tambor está sobrecargado.",
+   "La ropa no se centrifugó lo suficiente en la lavadora.",
+   "Los filtros de pelusas están sucios."
+  ],
+  "steps": [
+   "Reduzca la carga al máximo del programa.",
+   "Centrifugue la ropa a la velocidad más alta adecuada antes de secarla.",
+   "Limpie todos los filtros de pelusas y séquelos bien antes de volver a colocarlos.",
+   "Vuelva a poner el programa."
+  ],
+  "technician": "Si la avería sigue con los filtros limpios y una carga normal, contacte con el servicio de atención al cliente de Miele."
+ },
+ "Miele|F66": {
+  "title": "Paso de aire bloqueado (filtros o ventilación)",
+  "causes": [
+   "Los filtros de pelusas o el filtro del zócalo están sucios.",
+   "El filtro del zócalo está endurecido, dañado o deformado.",
+   "El tambor está sobrecargado.",
+   "La rejilla de ventilación está tapada o la habitación está mal ventilada."
+  ],
+  "steps": [
+   "Limpie los filtros de pelusas y el filtro del zócalo, y escurra bien este último.",
+   "Aspire con cuidado la pelusa del intercambiador de calor sin presionar las láminas.",
+   "Despeje la rejilla de ventilación bajo la puerta.",
+   "Reduzca la carga y ventile la habitación durante el secado.",
+   "Cambie el filtro del zócalo si está dañado."
+  ],
+  "technician": "Si F66 sigue tras una limpieza a fondo, contacte con el servicio de atención al cliente de Miele."
+ },
+ "Miele|noC": {
+  "title": "Sin conexión Wi-Fi",
+  "causes": [
+   "Miele@home no está configurado.",
+   "La secadora no llega a su red Wi-Fi."
+  ],
+  "steps": [
+   "Configure Miele@home si aún no lo ha hecho.",
+   "Compruebe que el Wi-Fi está activado y reinicie el router.",
+   "Si la señal es débil, mejórela con un repetidor.",
+   "Restablezca el Wi-Fi de la secadora y vuelva a conectarla."
+  ],
+  "technician": "Es un mensaje de conexión, no una avería de la secadora. Contacte con Miele si no logra conectarla tras estos pasos."
+ },
+ "AEG|E50": {
+  "title": "Motor sobrecargado",
+  "causes": [
+   "El tambor está sobrecargado.",
+   "Hay ropa atascada en el tambor.",
+   "Una avería del motor o de la transmisión."
+  ],
+  "steps": [
+   "Abra la puerta y compruebe si hay prendas atascadas.",
+   "Saque parte de la ropa si la carga es excesiva.",
+   "Cierre la puerta y reinicie.",
+   "Si sigue, corte la corriente durante 1 minuto aproximadamente y reinicie."
+  ],
+  "technician": "Si E50 vuelve una y otra vez o el tambor no gira, solicite una reparación a AEG."
+ },
+ "AEG|E40": {
+  "title": "Puerta no cerrada",
+  "causes": [
+   "Hay ropa atrapada en la puerta.",
+   "La junta o el cierre de la puerta está sucio o desgastado.",
+   "El tambor está sobrecargado y empuja la puerta."
+  ],
+  "steps": [
+   "Retire la ropa atrapada en la puerta y ciérrela hasta oír un clic.",
+   "Limpie la junta de la puerta con un paño húmedo.",
+   "Quite la pelusa del cierre de la puerta con un cepillo.",
+   "Reduzca la carga.",
+   "Corte la corriente durante 30 segundos y reinicie."
+  ],
+  "technician": "Si el error sigue, el cierre o el sensor de la puerta puede estar averiado. Solicite una visita del servicio técnico de AEG."
+ },
+ "AEG|E20": {
+  "title": "Problema de desagüe o de la bomba",
+  "causes": [
+   "La manguera de desagüe no está bien conectada.",
+   "La manguera de desagüe está retorcida, obstruida o forma un bucle."
+  ],
+  "steps": [
+   "Si usa un desagüe, compruebe que la manguera está bien conectada.",
+   "Elimine torsiones, bucles y obstrucciones de la manguera.",
+   "Corte la corriente durante 30 segundos y reinicie."
+  ],
+  "technician": "Si el error sigue, solicite un técnico autorizado de AEG."
+ },
+ "AEG|E60": {
+  "title": "Problema de calentamiento",
+  "causes": [
+   "La secadora está encastrada en un mueble sin ventilación.",
+   "La habitación es demasiado pequeña o no está ventilada.",
+   "El filtro de pelusas, el condensador o la junta están sucios.",
+   "El calentador está averiado."
+  ],
+  "steps": [
+   "Asegúrese de que la secadora tiene espacio y aire a su alrededor.",
+   "Abra una ventana o una puerta mientras seca en una habitación pequeña.",
+   "Limpie el filtro de pelusas, el condensador y la junta de la puerta.",
+   "Ponga un programa por tiempo y compruebe si está caliente a los 30 minutos."
+  ],
+  "technician": "Si sigue fría, solicite una reparación a AEG."
+ },
+ "AEG|E70": {
+  "title": "Avería del sensor de temperatura",
+  "causes": [
+   "El sensor de temperatura está averiado."
+  ],
+  "steps": [
+   "Desenchufe la secadora durante 2 horas para reiniciarla.",
+   "Vuelva a enchufarla e inténtelo de nuevo.",
+   "Si el código vuelve, deje de usar la secadora y manténgala desenchufada."
+  ],
+  "technician": "Contacte con AEG e indique el código para solicitar una visita técnica."
+ },
+ "AEG|E80": {
+  "title": "Avería del selector de programas o del software",
+  "causes": [
+   "El mando de programas está entre dos posiciones.",
+   "Un error de software."
+  ],
+  "steps": [
+   "Gire el mando hasta que quede bien en un programa.",
+   "Desenchufe la secadora 30 segundos, vuelva a enchufarla y reinicie."
+  ],
+  "technician": "Si E80 sigue, solicite un técnico del servicio de AEG."
+ },
+ "AEG|EH0": {
+  "title": "Problema de alimentación eléctrica",
+  "causes": [
+   "La tensión es demasiado baja o demasiado alta.",
+   "La alimentación es inestable."
+  ],
+  "steps": [
+   "Pruebe el enchufe con otro aparato.",
+   "No use alargador.",
+   "Desenchufe la secadora 30 segundos y reinicie."
+  ],
+  "technician": "Si otro aparato también falla, llame a un electricista. Si solo la secadora muestra el código, solicite un técnico de AEG."
+ },
+ "AEG|EBD": {
+  "title": "Interferencias eléctricas detectadas",
+  "causes": [
+   "Interferencias eléctricas en la red.",
+   "Toma de tierra deficiente."
+  ],
+  "steps": [
+   "Pruebe la secadora en otro enchufe que funcione.",
+   "Asegúrese de que el enchufe tiene una toma de tierra correcta."
+  ],
+  "technician": "Si el código sigue, contacte con un servicio técnico autorizado de AEG. No intente hacer reparaciones eléctricas usted mismo."
+ },
+ "AEG|CE": {
+  "title": "Avería electrónica",
+  "causes": [
+   "Una avería en la electrónica de la secadora."
+  ],
+  "steps": [
+   "Deje de usar la secadora.",
+   "Desenchúfela y manténgala desenchufada."
+  ],
+  "technician": "Solicite un técnico autorizado de AEG para diagnosticar la electrónica."
+ },
+ "AEG|C8": {
+  "title": "Avería del sensor de temperatura",
+  "causes": [
+   "El sensor de temperatura tiene un problema."
+  ],
+  "steps": [
+   "Deje de usar la secadora.",
+   "Manténgala desenchufada hasta que la revisen."
+  ],
+  "technician": "Solicite una visita del servicio técnico de AEG para revisar o cambiar el sensor."
+ },
+ "AEG|C6": {
+  "title": "Problema con el sensor de humedad",
+  "causes": [
+   "La secadora no está enchufada a una toma con tierra.",
+   "El sistema de medición de humedad está averiado."
+  ],
+  "steps": [
+   "Compruebe que la secadora está enchufada a una toma con tierra.",
+   "Si el ciclo sigue durando mucho, deje de usar la secadora y desenchúfela."
+  ],
+  "technician": "Si la toma tiene tierra y el error sigue, solicite una reparación a AEG."
+ },
+ "AEG|Err": {
+  "title": "Error del depósito de vapor (modelos Iron Aid)",
+  "causes": [
+   "El depósito de agua para el vapor tiene poca agua o está vacío."
+  ],
+  "steps": [
+   "Llene el depósito de vapor hasta el nivel MAX.",
+   "Reinicie el programa."
+  ],
+  "technician": "Si los iconos siguen parpadeando tras llenarlo, deje de usar la secadora y contacte con un servicio técnico de AEG."
+ },
+ "Hotpoint|F01": {
+  "title": "Avería de la placa electrónica",
+  "causes": [
+   "Una avería en la placa electrónica de control."
+  ],
+  "steps": [
+   "Desenchufe la secadora al menos 2 minutos.",
+   "Vuelva a enchufarla, espere 30 segundos e inténtelo de nuevo."
+  ],
+  "technician": "Si F01 vuelve tras el reinicio, llame al servicio técnico de Hotpoint para solicitar un técnico."
+ },
+ "Hotpoint|F02": {
+  "title": "Avería del circuito del motor",
+  "causes": [
+   "Una avería en el circuito del motor. El tambor gira solo a ratos o no gira."
+  ],
+  "steps": [
+   "Apague la secadora y desenchúfela.",
+   "No siga usándola."
+  ],
+  "technician": "Llame al servicio técnico de Hotpoint para solicitar un técnico."
+ },
+ "Hotpoint|F03": {
+  "title": "Avería de la detección de temperatura",
+  "causes": [
+   "El sensor de temperatura está averiado y la secadora no calienta."
+  ],
+  "steps": [
+   "Apague la secadora y desenchúfela."
+  ],
+  "technician": "Llame al servicio técnico de Hotpoint para solicitar un técnico."
+ },
+ "Hotpoint|F05": {
+  "title": "Desagüe obstruido o problema de la bomba",
+  "causes": [
+   "Una obstrucción en el filtro de la bomba (si lo hay) o en la manguera de desagüe.",
+   "Un tubo de desagüe obstruido.",
+   "Una bomba averiada."
+  ],
+  "steps": [
+   "Revise y limpie el filtro de la bomba si su modelo lo tiene.",
+   "Compruebe que la manguera de desagüe y la tubería a la que se conecta no están obstruidas."
+  ],
+  "technician": "Si todo está despejado y la avería sigue, la bomba puede estar averiada. Llame al servicio técnico de Hotpoint."
+ },
+ "Hotpoint|F06": {
+  "title": "Avería del cierre de la puerta",
+  "causes": [
+   "Algo obstruye el cierre de la puerta.",
+   "El cierre de la puerta está averiado."
+  ],
+  "steps": [
+   "Revise la zona del cierre por si hay pelusa u objetos y retírelos.",
+   "Cierre la puerta con firmeza e inténtelo de nuevo."
+  ],
+  "technician": "Si la avería sigue, llame al servicio técnico de Hotpoint."
+ },
+ "Hotpoint|F09": {
+  "title": "Error de software",
+  "causes": [
+   "Un problema de software. Pueden parpadear varias luces y no se puede elegir ningún programa."
+  ],
+  "steps": [
+   "Desenchufe la secadora unos minutos e inténtelo de nuevo."
+  ],
+  "technician": "Llame al servicio técnico de Hotpoint para solicitar un técnico."
+ },
+ "Hotpoint|F11": {
+  "title": "Avería del circuito de la bomba",
+  "causes": [
+   "El circuito de la bomba ha fallado y no se evacua el agua."
+  ],
+  "steps": [
+   "Vacíe el depósito de agua si su modelo lo tiene.",
+   "Apague y desenchufe la secadora."
+  ],
+  "technician": "Llame al servicio técnico de Hotpoint para solicitar un técnico."
+ },
+ "Hotpoint|F12": {
+  "title": "Avería del control electrónico",
+  "causes": [
+   "El control electrónico está averiado. Puede que la secadora no se encienda."
+  ],
+  "steps": [
+   "Revise el enchufe y la toma de corriente.",
+   "Desenchufe la secadora unos minutos e inténtelo de nuevo."
+  ],
+  "technician": "Llame al servicio técnico de Hotpoint para solicitar un técnico."
+ },
+ "Hotpoint|F18": {
+  "title": "Error de datos internos",
+  "causes": [
+   "Datos internos dañados. Algunas partes de la pantalla o algunas funciones no funcionan."
+  ],
+  "steps": [
+   "Desenchufe la secadora al menos 2 minutos.",
+   "Vuelva a enchufarla, espere 30 segundos e inténtelo de nuevo."
+  ],
+  "technician": "Si F18 sigue tras el reinicio, llame al servicio técnico de Hotpoint."
+ },
+ "Indesit|F02": {
+  "title": "Avería del circuito del motor",
+  "causes": [
+   "Una avería en el circuito del motor. El tambor gira solo a ratos o no gira."
+  ],
+  "steps": [
+   "Apague la secadora y desenchúfela."
+  ],
+  "technician": "Llame al servicio técnico de Indesit para solicitar un técnico."
+ },
+ "Indesit|F03": {
+  "title": "Avería de la detección de temperatura",
+  "causes": [
+   "El sensor de temperatura está averiado y la secadora no calienta."
+  ],
+  "steps": [
+   "Apague la secadora y desenchúfela."
+  ],
+  "technician": "Llame al servicio técnico de Indesit para solicitar un técnico."
+ },
+ "Indesit|F05": {
+  "title": "Desagüe obstruido o problema de la bomba",
+  "causes": [
+   "Una obstrucción en el filtro de la bomba (si lo hay) o en la manguera de desagüe.",
+   "Una bomba averiada."
+  ],
+  "steps": [
+   "Revise y limpie el filtro de la bomba si su modelo lo tiene.",
+   "Compruebe que la manguera de desagüe y la tubería no están obstruidas."
+  ],
+  "technician": "Si todo está despejado y la avería sigue, llame al servicio técnico de Indesit."
+ },
+ "Indesit|F06": {
+  "title": "Avería del cierre de la puerta",
+  "causes": [
+   "Algo obstruye el cierre de la puerta.",
+   "El cierre de la puerta está averiado."
+  ],
+  "steps": [
+   "Compruebe que nada obstruye el cierre de la puerta.",
+   "Cierre la puerta con firmeza e inténtelo de nuevo."
+  ],
+  "technician": "Si la avería sigue, llame al servicio técnico de Indesit."
+ },
+ "Indesit|F09": {
+  "title": "Error de software",
+  "causes": [
+   "Un problema de software. Pueden parpadear varias luces y no se puede elegir ningún programa."
+  ],
+  "steps": [
+   "Desenchufe la secadora unos minutos e inténtelo de nuevo."
+  ],
+  "technician": "Llame al servicio técnico de Indesit para solicitar un técnico."
+ },
+ "Indesit|F11": {
+  "title": "Avería del circuito de la bomba",
+  "causes": [
+   "El circuito de la bomba ha fallado y no se evacua el agua."
+  ],
+  "steps": [
+   "Vacíe el depósito de agua si su modelo lo tiene.",
+   "Apague y desenchufe la secadora."
+  ],
+  "technician": "Llame al servicio técnico de Indesit para solicitar un técnico."
+ },
+ "Indesit|F12": {
+  "title": "Avería del control electrónico",
+  "causes": [
+   "El control electrónico está averiado. Puede que la secadora no se encienda."
+  ],
+  "steps": [
+   "Revise el enchufe y la toma de corriente.",
+   "Desenchufe la secadora unos minutos e inténtelo de nuevo."
+  ],
+  "technician": "Llame al servicio técnico de Indesit para solicitar un técnico."
+ },
+ "Indesit|F18": {
+  "title": "Error de datos internos",
+  "causes": [
+   "Datos internos dañados. Algunas partes de la pantalla o algunas funciones no funcionan."
+  ],
+  "steps": [
+   "Desenchufe la secadora al menos 2 minutos.",
+   "Vuelva a enchufarla, espere 30 segundos e inténtelo de nuevo."
+  ],
+  "technician": "Si F18 sigue tras el reinicio, llame al servicio técnico de Indesit."
+ },
+ "Whirlpool|AF": {
+  "title": "Paso de aire limitado",
+  "causes": [
+   "El filtro de pelusas está obstruido.",
+   "El conducto de salida está obstruido, aplastado, doblado o tiene demasiados codos."
+  ],
+  "steps": [
+   "Limpie el filtro de pelusas.",
+   "Compruebe que el conducto no está obstruido, aplastado ni doblado.",
+   "Toque cualquier tecla para borrar el código."
+  ],
+  "technician": "Si el código sigue volviendo con el conducto limpio, solicite el servicio técnico de Whirlpool."
+ },
+ "Whirlpool|L2": {
+  "title": "Tensión de red baja o nula",
+  "causes": [
+   "Se ha fundido un fusible o ha saltado un interruptor del cuadro eléctrico.",
+   "El cable de alimentación no está bien instalado."
+  ],
+  "steps": [
+   "Revise los fusibles y los interruptores (las secadoras eléctricas usan dos) y rearme los que hayan saltado.",
+   "Compruebe que el cable de alimentación está instalado como indica la guía de instalación.",
+   "Ponga un ciclo con calor por tiempo y reinicie."
+  ],
+  "technician": "Si L2 sigue, pida a un electricista cualificado que revise la instalación."
+ },
+ "Whirlpool|PF": {
+  "title": "Corte de corriente",
+  "causes": [
+   "Se cortó la corriente durante el ciclo."
+  ],
+  "steps": [
+   "Mantenga pulsado Start para continuar el ciclo.",
+   "O pulse Power para borrar la pantalla."
+  ],
+  "technician": "No es una avería. Contacte con Whirlpool solo si PF aparece sin que haya habido cortes de luz."
+ },
+ "Whirlpool|F1E3": {
+  "title": "Problema de la unidad de control o del cableado",
+  "causes": [
+   "Una avería en la unidad de control o en su cableado."
+  ],
+  "steps": [
+   "Pulse Power, elija un ciclo y mantenga pulsado Start.",
+   "Si no arranca, desenchufe la secadora."
+  ],
+  "technician": "Si el problema continúa, solicite el servicio técnico de Whirlpool."
+ },
+ "Whirlpool|Loc": {
+  "title": "Bloqueo de controles activado",
+  "causes": [
+   "Se ha activado el bloqueo de controles."
+  ],
+  "steps": [
+   "Mantenga pulsado Control Lock 3 segundos hasta que la pantalla haga la cuenta atrás y se borre."
+  ],
+  "technician": "No es una avería. Contacte con Whirlpool solo si el bloqueo no se desactiva."
+ },
+ "Whirlpool|LF": {
+  "title": "Filtro de pelusas retirado",
+  "causes": [
+   "El filtro HybridCare no está en la secadora."
+  ],
+  "steps": [
+   "Vuelva a colocar el filtro.",
+   "Asegúrese de que el asa del filtro está bien encajada."
+  ],
+  "technician": "Si LF sigue con el filtro colocado, contacte con el servicio técnico de Whirlpool."
+ }
+}

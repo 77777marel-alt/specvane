@@ -1,0 +1,1618 @@
+[
+  {
+    "brand": "Samsung",
+    "code": "AP",
+    "aliases": [],
+    "title": "Wi-Fi setup mode",
+    "causes": [
+      "The fridge is acting as a Wi-Fi access point for SmartThings setup."
+    ],
+    "steps": [
+      "Finish the setup in the SmartThings app, or wait. The code clears by itself."
+    ],
+    "technician": "This is not a fault. No service is needed.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10007315/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "21E",
+    "aliases": [],
+    "title": "Freezer fan error",
+    "causes": [
+      "The freezer fan is frozen in ice, often after a door was left open or a gasket did not seal.",
+      "The fan motor has failed."
+    ],
+    "steps": [
+      "Check that the freezer door closes and the gasket seals all round.",
+      "Do not overpack the freezer.",
+      "If you can, move food out and let the fridge defrost with the doors open."
+    ],
+    "technician": "If the code returns after defrosting, the fan needs a Samsung technician.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10007315/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "22E",
+    "aliases": [
+      "22C"
+    ],
+    "title": "Fridge fan error",
+    "causes": [
+      "The fridge door was left open too long and the fan iced up."
+    ],
+    "steps": [
+      "Move food to a cool place.",
+      "Unplug the fridge and leave the doors open for a few hours.",
+      "Plug it back in and close the doors."
+    ],
+    "technician": "If 22E comes back, request Samsung service.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10007315/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "41C",
+    "aliases": [],
+    "title": "Family Hub fault",
+    "causes": [
+      "A software issue on the Family Hub screen."
+    ],
+    "steps": [
+      "Install the latest software update.",
+      "Tap OK the first time the code appears after updating."
+    ],
+    "technician": "If it keeps returning after the update, request Samsung service.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10007315/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "76C",
+    "aliases": [],
+    "title": "Water in AutoFill compartment",
+    "causes": [
+      "The AutoFill water pitcher is leaking into its compartment."
+    ],
+    "steps": [
+      "Remove the pitcher and dry the compartment.",
+      "Check the pitcher is seated correctly and not cracked."
+    ],
+    "technician": "If water keeps collecting, contact Samsung service.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10007315/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "85C",
+    "aliases": [],
+    "title": "Low supply voltage (Family Hub)",
+    "causes": [
+      "Usually a short power cut."
+    ],
+    "steps": [
+      "Press and hold OK for 3 seconds to clear it."
+    ],
+    "technician": "Harmless on its own. Contact Samsung only if it appears often.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10007315/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "88 88",
+    "aliases": [],
+    "title": "Communication fault at start-up",
+    "causes": [
+      "Power was disrupted while the fridge was starting up."
+    ],
+    "steps": [
+      "Unplug the fridge or switch off its breaker for 60 seconds.",
+      "Restore power and check whether the code comes back."
+    ],
+    "technician": "If the code returns after a reset, request Samsung service.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10007315/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "83E",
+    "aliases": [],
+    "title": "Compressor abnormal current",
+    "causes": [
+      "A power surge or electrical problem."
+    ],
+    "steps": [
+      "Unplug the fridge or switch off its breaker for 60 seconds.",
+      "Restore power and check whether the code comes back."
+    ],
+    "technician": "If 83E returns, request Samsung service.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10007315/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "85E",
+    "aliases": [],
+    "title": "Compressor low voltage",
+    "causes": [
+      "A brown-out or low mains voltage."
+    ],
+    "steps": [
+      "Unplug the fridge or switch off its breaker for 60 seconds.",
+      "Restore power and check whether the code comes back."
+    ],
+    "technician": "If 85E returns, have the supply checked and request Samsung service.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10007315/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "86E",
+    "aliases": [],
+    "title": "Compressor high voltage",
+    "causes": [
+      "A power surge, for example during a storm."
+    ],
+    "steps": [
+      "Unplug the fridge or switch off its breaker for 60 seconds.",
+      "Restore power and check whether the code comes back."
+    ],
+    "technician": "If 86E returns, request Samsung service.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10007315/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "PC ER",
+    "aliases": [
+      "PC CH"
+    ],
+    "title": "Internal communication error",
+    "causes": [
+      "A recent power surge.",
+      "The door wiring connector is not connected properly."
+    ],
+    "steps": [
+      "Switch off power at the plug or breaker.",
+      "Check and reconnect the wiring connector above the door hinge.",
+      "Restore power."
+    ],
+    "technician": "If the code returns, request Samsung service.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10007315/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "OF OF",
+    "aliases": [
+      "O FF",
+      "OFF OFF"
+    ],
+    "title": "Cooling Off (demo) mode",
+    "causes": [
+      "Demo or shop mode is switched on, often by accident. The fridge does not cool."
+    ],
+    "steps": [
+      "Press and hold the top two buttons on the left of the panel for 5 to 8 seconds until it chimes.",
+      "On some models, also hold the top right button.",
+      "Check your manual for your model's button combination."
+    ],
+    "technician": "No service needed. This is a setting, not a fault.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10007315/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "5E",
+    "aliases": [],
+    "title": "Fridge defrost sensor error",
+    "causes": [
+      "The fridge defrost sensor is faulty."
+    ],
+    "steps": [
+      "Do not unplug the fridge unless told to.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Request Samsung service to replace or check the sensor.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10007315/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "8E",
+    "aliases": [],
+    "title": "Ice maker sensor error (freezer)",
+    "causes": [
+      "The ice maker sensor in the freezer is faulty."
+    ],
+    "steps": [
+      "Switch off the ice maker if you can.",
+      "Keep using the fridge as normal."
+    ],
+    "technician": "Request Samsung service.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10007315/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "14E",
+    "aliases": [],
+    "title": "Ice maker sensor error",
+    "causes": [
+      "The ice maker sensor is faulty."
+    ],
+    "steps": [
+      "Switch off the ice maker if you can.",
+      "Keep using the fridge as normal."
+    ],
+    "technician": "Request Samsung service.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10007315/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "33E",
+    "aliases": [],
+    "title": "Ice pipe heater error",
+    "causes": [
+      "The heater on the ice maker water pipe is faulty."
+    ],
+    "steps": [
+      "Switch off the ice maker if you can."
+    ],
+    "technician": "Request Samsung service.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10007315/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "39E",
+    "aliases": [
+      "39C"
+    ],
+    "title": "Ice maker function error",
+    "causes": [
+      "The ice maker is not working correctly."
+    ],
+    "steps": [
+      "Check the ice bucket is seated correctly.",
+      "Switch off the ice maker if you can."
+    ],
+    "technician": "If the code stays, request Samsung service.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10007315/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "40E",
+    "aliases": [
+      "40C"
+    ],
+    "title": "Ice room fan error",
+    "causes": [
+      "The fan in the ice compartment is not working, often due to ice."
+    ],
+    "steps": [
+      "Check the ice compartment door closes fully."
+    ],
+    "technician": "Request Samsung service.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10007315/"
+  },
+  {
+    "brand": "Samsung",
+    "code": "84C",
+    "aliases": [],
+    "title": "Compressor lock",
+    "causes": [
+      "The compressor is locked and cannot start."
+    ],
+    "steps": [
+      "Unplug the fridge or switch off its breaker for 60 seconds.",
+      "Restore power and check whether the code comes back."
+    ],
+    "technician": "Request Samsung service. This needs a technician.",
+    "source": "https://www.samsung.com/us/support/troubleshoot/TSG10007315/"
+  },
+  {
+    "brand": "LG",
+    "code": "CF",
+    "aliases": [],
+    "title": "Condenser fan error",
+    "causes": [
+      "The condenser fan is blocked or not running, so the compressor overworks."
+    ],
+    "steps": [
+      "Unplug the fridge for 60 seconds and plug it into a wall socket, not a power strip.",
+      "Check if the code comes back.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Request LG service. This needs a technician.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "CO",
+    "aliases": [],
+    "title": "Communication error",
+    "causes": [
+      "The main board and display are not communicating."
+    ],
+    "steps": [
+      "Unplug the fridge for 60 seconds and plug it into a wall socket, not a power strip.",
+      "Check if the code comes back.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Request LG service. This needs a technician.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "FF",
+    "aliases": [],
+    "title": "Freezer fan error",
+    "causes": [
+      "The freezer fan is blocked, often by ice, or has failed."
+    ],
+    "steps": [
+      "Unplug the fridge for 60 seconds and plug it into a wall socket, not a power strip.",
+      "Check if the code comes back.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Request LG service. This needs a technician.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "FS",
+    "aliases": [],
+    "title": "Freezer sensor error",
+    "causes": [
+      "The freezer temperature sensor is faulty."
+    ],
+    "steps": [
+      "Unplug the fridge for 60 seconds and plug it into a wall socket, not a power strip.",
+      "Check if the code comes back.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Request LG service. This needs a technician.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "FU",
+    "aliases": [],
+    "title": "Freezer not cooling enough",
+    "causes": [
+      "The freezer did not get cold enough after starting.",
+      "Doors opened often or not sealing.",
+      "Vents are blocked by food."
+    ],
+    "steps": [
+      "Unplug the fridge for 60 seconds and plug it into a wall socket, not a power strip.",
+      "Set the freezer to -18 °C.",
+      "Keep food away from the air vents.",
+      "Check the door seals by closing the door on a sheet of paper. It should not slide out easily.",
+      "Open the doors less often."
+    ],
+    "technician": "If the freezer still does not cool, request LG service.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "IF",
+    "aliases": [],
+    "title": "Ice maker fan error",
+    "causes": [
+      "The ice maker fan is blocked or faulty."
+    ],
+    "steps": [
+      "Unplug the fridge for 60 seconds and plug it into a wall socket, not a power strip.",
+      "Check if the code comes back.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Request LG service. This needs a technician.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "IS",
+    "aliases": [],
+    "title": "Ice maker sensor error",
+    "causes": [
+      "The ice maker temperature sensor is faulty."
+    ],
+    "steps": [
+      "Unplug the fridge for 60 seconds and plug it into a wall socket, not a power strip.",
+      "Check if the code comes back.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Request LG service. This needs a technician.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "It",
+    "aliases": [],
+    "title": "Ice maker motor error",
+    "causes": [
+      "The ice maker motor is faulty."
+    ],
+    "steps": [
+      "Unplug the fridge for 60 seconds and plug it into a wall socket, not a power strip.",
+      "Check if the code comes back.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Request LG service. This needs a technician.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "rS",
+    "aliases": [],
+    "title": "Fridge sensor error (upper)",
+    "causes": [
+      "The upper fridge temperature sensor is faulty."
+    ],
+    "steps": [
+      "Unplug the fridge for 60 seconds and plug it into a wall socket, not a power strip.",
+      "Check if the code comes back.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Request LG service. This needs a technician.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "r2",
+    "aliases": [],
+    "title": "Fridge sensor error (lower)",
+    "causes": [
+      "The lower fridge temperature sensor is faulty."
+    ],
+    "steps": [
+      "Unplug the fridge for 60 seconds and plug it into a wall socket, not a power strip.",
+      "Check if the code comes back.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Request LG service. This needs a technician.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "dS",
+    "aliases": [],
+    "title": "Defrost sensor error",
+    "causes": [
+      "The defrost sensor is faulty, so the evaporator may ice up."
+    ],
+    "steps": [
+      "Unplug the fridge for 60 seconds and plug it into a wall socket, not a power strip.",
+      "Check if the code comes back.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Request LG service. This needs a technician.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "rT",
+    "aliases": [],
+    "title": "Room temperature sensor error",
+    "causes": [
+      "The ambient temperature sensor is faulty."
+    ],
+    "steps": [
+      "Unplug the fridge for 60 seconds and plug it into a wall socket, not a power strip.",
+      "Check if the code comes back.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Request LG service. This needs a technician.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "dH",
+    "aliases": [
+      "FdH",
+      "dHF"
+    ],
+    "title": "Defrost failure",
+    "causes": [
+      "The defrost system did not warm up in time.",
+      "The evaporator is blocked by ice."
+    ],
+    "steps": [
+      "Remove food and put it somewhere cool.",
+      "Put towels on the floor in front of the fridge.",
+      "Unplug the fridge and leave the doors open for at least 12 hours to melt the ice.",
+      "Plug it back in."
+    ],
+    "technician": "This is often only a temporary fix. If dH returns, request LG service.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "SS",
+    "aliases": [],
+    "title": "Water tank sensor error",
+    "causes": [
+      "The water tank temperature sensor is faulty."
+    ],
+    "steps": [
+      "Unplug the fridge for 60 seconds and plug it into a wall socket, not a power strip.",
+      "Check if the code comes back.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Request LG service. This needs a technician.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "rF",
+    "aliases": [],
+    "title": "Fridge fan error",
+    "causes": [
+      "The fridge fan is blocked or faulty."
+    ],
+    "steps": [
+      "Unplug the fridge for 60 seconds and plug it into a wall socket, not a power strip.",
+      "Check if the code comes back.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Request LG service. This needs a technician.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "tt",
+    "aliases": [],
+    "title": "Water tank problem",
+    "causes": [
+      "The water tank is missing or not seated correctly.",
+      "The tank sensor is faulty."
+    ],
+    "steps": [
+      "Remove the water tank and refit it correctly.",
+      "Check if the code clears."
+    ],
+    "technician": "If tt remains with the tank in place, request LG service.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "C1",
+    "aliases": [],
+    "title": "Dispenser communication error",
+    "causes": [
+      "The dispenser and display are not communicating."
+    ],
+    "steps": [
+      "Unplug the fridge for 60 seconds and plug it into a wall socket, not a power strip.",
+      "Check if the code comes back.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Request LG service. This needs a technician.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "gF",
+    "aliases": [],
+    "title": "Water flow sensor error",
+    "causes": [
+      "The water supply tap is closed.",
+      "The water hose is kinked.",
+      "Water pressure is wrong."
+    ],
+    "steps": [
+      "Unplug the fridge for 60 seconds and plug it into a wall socket, not a power strip.",
+      "Wait up to 5 minutes for the fridge to restart.",
+      "Open the water supply tap fully.",
+      "Check the hose is not kinked.",
+      "Check your water pressure against the manual."
+    ],
+    "technician": "If the error persists, request LG service.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "CH",
+    "aliases": [],
+    "title": "Refrigerant system error (high pressure side)",
+    "causes": [
+      "Sensors read abnormal values in the refrigerant system, possibly a leak or faulty valve."
+    ],
+    "steps": [
+      "Unplug the fridge for 60 seconds and plug it into a wall socket, not a power strip.",
+      "Check if the code comes back.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Request LG service. This needs a technician.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "CL",
+    "aliases": [],
+    "title": "Refrigerant system error (low pressure side)",
+    "causes": [
+      "Sensors read abnormal values in the refrigerant system, possibly a leak or faulty valve."
+    ],
+    "steps": [
+      "Unplug the fridge for 60 seconds and plug it into a wall socket, not a power strip.",
+      "Check if the code comes back.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Request LG service. This needs a technician.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "Lo",
+    "aliases": [],
+    "title": "Room too cold",
+    "causes": [
+      "The room is colder than -10 °C."
+    ],
+    "steps": [
+      "Move the fridge to a warmer place if possible."
+    ],
+    "technician": "Not a fault. Contact LG only if the room is warm and Lo still shows.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "LG",
+    "code": "HI",
+    "aliases": [],
+    "title": "Room too hot",
+    "causes": [
+      "The room is hotter than 50 °C."
+    ],
+    "steps": [
+      "Move the fridge to a cooler place if possible.",
+      "Make sure air can flow around it."
+    ],
+    "technician": "Not a fault. Contact LG only if the room is normal and HI still shows.",
+    "source": "https://www.lg.com/us/support/help-library/lg-refrigerator-digital-and-analog-error-codes--20154835849096"
+  },
+  {
+    "brand": "Miele",
+    "code": "F0",
+    "aliases": [],
+    "title": "Technical fault",
+    "causes": [
+      "An internal technical fault was detected."
+    ],
+    "steps": [
+      "Note the fault code.",
+      "Keep the doors closed as much as possible to protect the food.",
+      "Book a Miele technician."
+    ],
+    "technician": "This is a technical fault you cannot fix yourself. Contact Miele Customer Service.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/cooling_and_freezing-1237/all/fault_f0-91879640459"
+  },
+  {
+    "brand": "Miele",
+    "code": "F1",
+    "aliases": [],
+    "title": "Technical fault",
+    "causes": [
+      "An internal technical fault was detected."
+    ],
+    "steps": [
+      "Note the fault code.",
+      "Keep the doors closed as much as possible to protect the food.",
+      "Book a Miele technician."
+    ],
+    "technician": "This is a technical fault you cannot fix yourself. Contact Miele Customer Service.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/cooling_and_freezing-1237/all/fault_f1-91931688075"
+  },
+  {
+    "brand": "Miele",
+    "code": "F2",
+    "aliases": [],
+    "title": "Technical fault",
+    "causes": [
+      "An internal technical fault was detected."
+    ],
+    "steps": [
+      "Note the fault code.",
+      "Keep the doors closed as much as possible to protect the food.",
+      "Book a Miele technician."
+    ],
+    "technician": "This is a technical fault you cannot fix yourself. Contact Miele Customer Service.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/cooling_and_freezing-1237/all/fault_f2-91931692427"
+  },
+  {
+    "brand": "Miele",
+    "code": "F3",
+    "aliases": [],
+    "title": "Technical fault",
+    "causes": [
+      "An internal technical fault was detected."
+    ],
+    "steps": [
+      "Note the fault code.",
+      "Keep the doors closed as much as possible to protect the food.",
+      "Book a Miele technician."
+    ],
+    "technician": "This is a technical fault you cannot fix yourself. Contact Miele Customer Service.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/cooling_and_freezing-1237/all/fault_f3-91931980939"
+  },
+  {
+    "brand": "Miele",
+    "code": "F4",
+    "aliases": [],
+    "title": "Technical fault",
+    "causes": [
+      "An internal technical fault was detected."
+    ],
+    "steps": [
+      "Note the fault code.",
+      "Keep the doors closed as much as possible to protect the food.",
+      "Book a Miele technician."
+    ],
+    "technician": "This is a technical fault you cannot fix yourself. Contact Miele Customer Service.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/cooling_and_freezing-1237/all/fault_f4-91932217099"
+  },
+  {
+    "brand": "Miele",
+    "code": "F5",
+    "aliases": [],
+    "title": "Technical fault",
+    "causes": [
+      "An internal technical fault was detected."
+    ],
+    "steps": [
+      "Note the fault code.",
+      "Keep the doors closed as much as possible to protect the food.",
+      "Book a Miele technician."
+    ],
+    "technician": "This is a technical fault you cannot fix yourself. Contact Miele Customer Service.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/cooling_and_freezing-1237/all/fault_f5-91932440459"
+  },
+  {
+    "brand": "Miele",
+    "code": "F114",
+    "aliases": [],
+    "title": "Freezer evaporator sensor faulty",
+    "causes": [
+      "The evaporator sensor in the freezer section is faulty."
+    ],
+    "steps": [
+      "Note the fault code.",
+      "Keep the doors closed as much as possible to protect the food.",
+      "Book a Miele technician."
+    ],
+    "technician": "This is a technical fault you cannot fix yourself. Contact Miele Customer Service.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/cooling_and_freezing-1237/all/fault_f114-154717870987"
+  },
+  {
+    "brand": "Miele",
+    "code": "F120",
+    "aliases": [],
+    "title": "Mains voltage too low",
+    "causes": [
+      "The mains voltage is sometimes too low or fluctuates a lot."
+    ],
+    "steps": [
+      "Check whether other appliances also have problems.",
+      "Have a qualified electrician check your mains voltage."
+    ],
+    "technician": "If the voltage is fine and F120 remains, book a Miele technician.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/cooling_and_freezing-1237/all/fault_f120-91932707595"
+  },
+  {
+    "brand": "Miele",
+    "code": "F141",
+    "aliases": [],
+    "title": "Fridge door open for 15 minutes",
+    "causes": [
+      "The fridge compartment door has been open for 15 minutes."
+    ],
+    "steps": [
+      "Close the fridge door.",
+      "Check that nothing stops it closing."
+    ],
+    "technician": "If F141 shows with the door shut, book a Miele technician.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/cooling_and_freezing-1237/all/fault_f141-91932997387"
+  },
+  {
+    "brand": "Miele",
+    "code": "F142",
+    "aliases": [],
+    "title": "Fridge door open for 30 minutes",
+    "causes": [
+      "The fridge compartment door has been open for about 30 minutes."
+    ],
+    "steps": [
+      "Close the fridge door.",
+      "Check that nothing stops it closing."
+    ],
+    "technician": "If F142 shows with the door shut, book a Miele technician.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/cooling_and_freezing-1237/all/fault_f142-91933337995"
+  },
+  {
+    "brand": "Miele",
+    "code": "F383",
+    "aliases": [],
+    "title": "Ice maker water inlet fault",
+    "causes": [
+      "The water inlet hose is kinked.",
+      "The inlet filter is dirty.",
+      "The water container is not seated or its float is stuck.",
+      "A software fault."
+    ],
+    "steps": [
+      "Straighten any kink in the water hose.",
+      "Clean the inlet filter.",
+      "Remove the water container, clean under it and push it fully back in.",
+      "Shake the container to check the float moves freely.",
+      "Set the freezer to -18 °C for at least 48 hours."
+    ],
+    "technician": "If the fault stays, contact Miele Customer Service.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/cooling_and_freezing-1237/all/fault_f383-154717868683"
+  },
+  {
+    "brand": "Miele",
+    "code": "F384",
+    "aliases": [],
+    "title": "Software crash",
+    "causes": [
+      "The appliance software has stopped working."
+    ],
+    "steps": [
+      "Unplug the appliance for about 2 minutes.",
+      "Plug it back in and switch it on.",
+      "If it works again, restore factory settings from the Settings menu."
+    ],
+    "technician": "If the fault returns, contact Miele Customer Service.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/cooling_and_freezing-1237/all/fault_f384f385-104665531787"
+  },
+  {
+    "brand": "Miele",
+    "code": "F385",
+    "aliases": [],
+    "title": "Software crash",
+    "causes": [
+      "The appliance software has stopped working."
+    ],
+    "steps": [
+      "Unplug the appliance for about 2 minutes.",
+      "Plug it back in and switch it on.",
+      "If it works again, restore factory settings from the Settings menu."
+    ],
+    "technician": "If the fault returns, contact Miele Customer Service.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/cooling_and_freezing-1237/all/fault_f384f385-104665531787"
+  },
+  {
+    "brand": "Miele",
+    "code": "nA",
+    "aliases": [],
+    "title": "Freezer got too warm earlier",
+    "causes": [
+      "A power cut or supply interruption let the freezer warm up."
+    ],
+    "steps": [
+      "Hold the alarm button to see the highest temperature reached.",
+      "Check the food. Use thawed food soon.",
+      "Do not refreeze thawed food unless you cook it first."
+    ],
+    "technician": "Not a fault. Contact Miele only if it appears without any power cut.",
+    "source": "https://www.miele.co.uk/support/customer-assistance/cooling_and_freezing-1237/all/na_on_the_temperature_display-168898834827"
+  },
+  {
+    "brand": "AEG",
+    "code": "E08",
+    "aliases": [],
+    "title": "Low supply voltage",
+    "causes": [
+      "The mains voltage has dropped below 170 V. This protects the compressor."
+    ],
+    "steps": [
+      "Check whether other appliances have power problems.",
+      "Wait for the supply to return to normal."
+    ],
+    "technician": "If E08 keeps appearing, have the supply checked and contact an authorised AEG technician.",
+    "source": "https://support.aeg.co.uk/support-articles/article/fridge-freezer-shows-code-e08?locale=en-GB"
+  },
+  {
+    "brand": "AEG",
+    "code": "E09",
+    "aliases": [],
+    "title": "Freezer not cold enough",
+    "causes": [
+      "Usually after a long power cut."
+    ],
+    "steps": [
+      "Lower the freezer setting or switch on Super Freeze.",
+      "Keep the doors closed until the code clears.",
+      "Use or cook any thawed food soon.",
+      "Do not add fresh food until the code has gone."
+    ],
+    "technician": "If the code stays on, contact an authorised AEG technician.",
+    "source": "https://support.aeg.co.uk/support-articles/article/fridge-freezer-shows-code-e09?locale=en-GB"
+  },
+  {
+    "brand": "AEG",
+    "code": "E10",
+    "aliases": [],
+    "title": "Fridge not cold enough",
+    "causes": [
+      "A long power cut.",
+      "Hot food was put in the fridge."
+    ],
+    "steps": [
+      "Lower the fridge setting or switch on Super Cool.",
+      "Keep the doors closed.",
+      "Keep food away from the air vents and the sensor."
+    ],
+    "technician": "If E10 persists, book an AEG repair.",
+    "source": "https://support.aeg.co.uk/support-articles/article/fridge-freezer-shows-code-e10"
+  },
+  {
+    "brand": "AEG",
+    "code": "E11",
+    "aliases": [],
+    "title": "Fridge too cold",
+    "causes": [
+      "Super Cool is left on.",
+      "The temperature is set too low.",
+      "Air vents are blocked."
+    ],
+    "steps": [
+      "Switch off Super Cool.",
+      "Set a warmer fridge temperature.",
+      "Make sure the vents are clear."
+    ],
+    "technician": "If the code persists, contact an authorised AEG service.",
+    "source": "https://support.aeg.co.uk/support-articles/article/fridge-freezer-shows-code-e11?locale=en-GB"
+  },
+  {
+    "brand": "AEG",
+    "code": "F2",
+    "aliases": [],
+    "title": "Thermostat fault",
+    "causes": [
+      "A problem with the thermostat."
+    ],
+    "steps": [
+      "Note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Book an AEG service engineer and quote the code.",
+    "source": "https://support.aeg.co.uk/support-articles/article/fridge-freezer-shows-f2-on-the-display?locale=en-GB"
+  },
+  {
+    "brand": "AEG",
+    "code": "F8",
+    "aliases": [],
+    "title": "Defrost system fault",
+    "causes": [
+      "A fault in the defrost system."
+    ],
+    "steps": [
+      "Do not try to repair it yourself.",
+      "Note the model and serial number."
+    ],
+    "technician": "Book an AEG service engineer and quote F8.",
+    "source": "https://support.aeg.co.uk/support-articles/article/fridge-freezer-shows-f8-on-the-display?locale=en-GB"
+  },
+  {
+    "brand": "Electrolux",
+    "code": "F5",
+    "aliases": [],
+    "title": "Temperature sensor fault",
+    "causes": [
+      "A temperature sensor is defective. F3 and F4 point to the same type of fault."
+    ],
+    "steps": [
+      "Note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Book an Electrolux service engineer and quote the code.",
+    "source": "https://support.electrolux.co.uk/support-articles/article/fridge-freezer-shows-f5-on-the-display"
+  },
+  {
+    "brand": "Electrolux",
+    "code": "E01",
+    "aliases": [],
+    "title": "Sensor warning",
+    "causes": [
+      "A sensor in the fridge freezer has a problem."
+    ],
+    "steps": [
+      "Note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Contact an authorised Electrolux service centre for an engineer visit.",
+    "source": "https://support.electrolux.co.uk/support-articles/article/fridge-freezer-shows-code-e01-e02-e03-e06-e07-on-the-display"
+  },
+  {
+    "brand": "Electrolux",
+    "code": "E02",
+    "aliases": [],
+    "title": "Sensor warning",
+    "causes": [
+      "A sensor in the fridge freezer has a problem."
+    ],
+    "steps": [
+      "Note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Contact an authorised Electrolux service centre for an engineer visit.",
+    "source": "https://support.electrolux.co.uk/support-articles/article/fridge-freezer-shows-code-e01-e02-e03-e06-e07-on-the-display"
+  },
+  {
+    "brand": "Electrolux",
+    "code": "E03",
+    "aliases": [],
+    "title": "Sensor warning",
+    "causes": [
+      "A sensor in the fridge freezer has a problem."
+    ],
+    "steps": [
+      "Note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Contact an authorised Electrolux service centre for an engineer visit.",
+    "source": "https://support.electrolux.co.uk/support-articles/article/fridge-freezer-shows-code-e01-e02-e03-e06-e07-on-the-display"
+  },
+  {
+    "brand": "Electrolux",
+    "code": "E06",
+    "aliases": [],
+    "title": "Sensor warning",
+    "causes": [
+      "A sensor in the fridge freezer has a problem."
+    ],
+    "steps": [
+      "Note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Contact an authorised Electrolux service centre for an engineer visit.",
+    "source": "https://support.electrolux.co.uk/support-articles/article/fridge-freezer-shows-code-e01-e02-e03-e06-e07-on-the-display"
+  },
+  {
+    "brand": "Electrolux",
+    "code": "E07",
+    "aliases": [],
+    "title": "Sensor warning",
+    "causes": [
+      "A sensor in the fridge freezer has a problem."
+    ],
+    "steps": [
+      "Note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Contact an authorised Electrolux service centre for an engineer visit.",
+    "source": "https://support.electrolux.co.uk/support-articles/article/fridge-freezer-shows-code-e01-e02-e03-e06-e07-on-the-display"
+  },
+  {
+    "brand": "Hotpoint",
+    "code": "E0",
+    "aliases": [],
+    "title": "Ice maker fault",
+    "causes": [
+      "The ice maker is not working correctly (models with ice maker)."
+    ],
+    "steps": [
+      "Switch off the ice maker if possible.",
+      "Keep using the fridge as normal."
+    ],
+    "technician": "Call Hotpoint service to book an engineer.",
+    "source": "https://www.hotpoint.co.uk/service/fridge-freezer-repair/error-codes"
+  },
+  {
+    "brand": "Hotpoint",
+    "code": "E1",
+    "aliases": [],
+    "title": "Fridge sensor fault",
+    "causes": [
+      "The fridge temperature sensor is faulty."
+    ],
+    "steps": [
+      "Note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Call Hotpoint service to book an engineer.",
+    "source": "https://www.hotpoint.co.uk/service/fridge-freezer-repair/error-codes"
+  },
+  {
+    "brand": "Hotpoint",
+    "code": "E2",
+    "aliases": [],
+    "title": "Freezer sensor fault",
+    "causes": [
+      "The freezer temperature sensor is faulty.",
+      "The freezer temperature may be wrong."
+    ],
+    "steps": [
+      "Check the food is still frozen.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Call Hotpoint service to book an engineer.",
+    "source": "https://www.hotpoint.co.uk/service/fridge-freezer-repair/error-codes"
+  },
+  {
+    "brand": "Hotpoint",
+    "code": "E3",
+    "aliases": [],
+    "title": "Defrost sensor fault",
+    "causes": [
+      "The defrost sensor is faulty.",
+      "A blocked drain can also affect temperature."
+    ],
+    "steps": [
+      "Check the defrost drain hole and any drain pipe for blockages.",
+      "Clear any blockage gently."
+    ],
+    "technician": "If the fault continues, call Hotpoint service.",
+    "source": "https://www.hotpoint.co.uk/service/fridge-freezer-repair/error-codes"
+  },
+  {
+    "brand": "Hotpoint",
+    "code": "E4",
+    "aliases": [],
+    "title": "Fridge defrost sensor fault",
+    "causes": [
+      "The fridge defrost sensor is faulty."
+    ],
+    "steps": [
+      "Note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Call Hotpoint service to book an engineer.",
+    "source": "https://www.hotpoint.co.uk/service/fridge-freezer-repair/error-codes"
+  },
+  {
+    "brand": "Hotpoint",
+    "code": "E5",
+    "aliases": [],
+    "title": "Freezer defrost sensor fault",
+    "causes": [
+      "The freezer defrost sensor is faulty."
+    ],
+    "steps": [
+      "Note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Call Hotpoint service to book an engineer.",
+    "source": "https://www.hotpoint.co.uk/service/fridge-freezer-repair/error-codes"
+  },
+  {
+    "brand": "Hotpoint",
+    "code": "E6",
+    "aliases": [],
+    "title": "Control or display board fault",
+    "causes": [
+      "The main control board or display board is faulty."
+    ],
+    "steps": [
+      "Unplug the fridge for a few minutes and plug it back in."
+    ],
+    "technician": "Call Hotpoint service to book an engineer.",
+    "source": "https://www.hotpoint.co.uk/service/fridge-freezer-repair/error-codes"
+  },
+  {
+    "brand": "Hotpoint",
+    "code": "E7",
+    "aliases": [],
+    "title": "Room temperature sensor fault",
+    "causes": [
+      "The ambient temperature sensor is faulty."
+    ],
+    "steps": [
+      "Note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Call Hotpoint service to book an engineer.",
+    "source": "https://www.hotpoint.co.uk/service/fridge-freezer-repair/error-codes"
+  },
+  {
+    "brand": "Hotpoint",
+    "code": "E8",
+    "aliases": [],
+    "title": "Room temperature sensor fault",
+    "causes": [
+      "The ambient temperature sensor is faulty."
+    ],
+    "steps": [
+      "Note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Call Hotpoint service to book an engineer.",
+    "source": "https://www.hotpoint.co.uk/service/fridge-freezer-repair/error-codes"
+  },
+  {
+    "brand": "Hotpoint",
+    "code": "E9",
+    "aliases": [],
+    "title": "Freezer high temperature alarm",
+    "causes": [
+      "The freezer door was left open and the freezer warmed up."
+    ],
+    "steps": [
+      "Close the freezer door properly.",
+      "Check nothing blocks the door.",
+      "Check whether food has thawed."
+    ],
+    "technician": "If the alarm continues with the door shut, call Hotpoint service.",
+    "source": "https://www.hotpoint.co.uk/service/fridge-freezer-repair/error-codes"
+  },
+  {
+    "brand": "Hotpoint",
+    "code": "EE",
+    "aliases": [],
+    "title": "Ice maker circuit fault",
+    "causes": [
+      "A fault in the ice maker circuit (models with ice maker)."
+    ],
+    "steps": [
+      "Switch off the ice maker if possible."
+    ],
+    "technician": "Call Hotpoint service to book an engineer.",
+    "source": "https://www.hotpoint.co.uk/service/fridge-freezer-repair/error-codes"
+  },
+  {
+    "brand": "Indesit",
+    "code": "E0",
+    "aliases": [],
+    "title": "Ice maker fault",
+    "causes": [
+      "The ice maker is not working correctly (models with ice maker)."
+    ],
+    "steps": [
+      "Switch off the ice maker if possible.",
+      "Keep using the fridge as normal."
+    ],
+    "technician": "Call Indesit service to book an engineer.",
+    "source": "https://indesitservice.co.uk/fridge-repair/error-codes"
+  },
+  {
+    "brand": "Indesit",
+    "code": "E1",
+    "aliases": [],
+    "title": "Fridge sensor fault",
+    "causes": [
+      "The fridge temperature sensor is faulty."
+    ],
+    "steps": [
+      "Note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Call Indesit service to book an engineer.",
+    "source": "https://indesitservice.co.uk/fridge-repair/error-codes"
+  },
+  {
+    "brand": "Indesit",
+    "code": "E2",
+    "aliases": [],
+    "title": "Freezer sensor fault",
+    "causes": [
+      "The freezer temperature sensor is faulty.",
+      "The freezer temperature may be wrong."
+    ],
+    "steps": [
+      "Check the food is still frozen.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Call Indesit service to book an engineer.",
+    "source": "https://indesitservice.co.uk/fridge-repair/error-codes"
+  },
+  {
+    "brand": "Indesit",
+    "code": "E3",
+    "aliases": [],
+    "title": "Defrost sensor fault",
+    "causes": [
+      "The defrost sensor is faulty.",
+      "A blocked drain can also affect temperature."
+    ],
+    "steps": [
+      "Check the defrost drain hole and any drain pipe for blockages.",
+      "Clear any blockage gently."
+    ],
+    "technician": "If the fault continues, call Indesit service.",
+    "source": "https://indesitservice.co.uk/fridge-repair/error-codes"
+  },
+  {
+    "brand": "Indesit",
+    "code": "E4",
+    "aliases": [],
+    "title": "Fridge defrost sensor fault",
+    "causes": [
+      "The fridge defrost sensor is faulty."
+    ],
+    "steps": [
+      "Note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Call Indesit service to book an engineer.",
+    "source": "https://indesitservice.co.uk/fridge-repair/error-codes"
+  },
+  {
+    "brand": "Indesit",
+    "code": "E5",
+    "aliases": [],
+    "title": "Freezer defrost sensor fault",
+    "causes": [
+      "The freezer defrost sensor is faulty."
+    ],
+    "steps": [
+      "Note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Call Indesit service to book an engineer.",
+    "source": "https://indesitservice.co.uk/fridge-repair/error-codes"
+  },
+  {
+    "brand": "Indesit",
+    "code": "E6",
+    "aliases": [],
+    "title": "Control or display board fault",
+    "causes": [
+      "The main control board or display board is faulty."
+    ],
+    "steps": [
+      "Unplug the fridge for a few minutes and plug it back in."
+    ],
+    "technician": "Call Indesit service to book an engineer.",
+    "source": "https://indesitservice.co.uk/fridge-repair/error-codes"
+  },
+  {
+    "brand": "Indesit",
+    "code": "E7",
+    "aliases": [],
+    "title": "Room temperature sensor fault",
+    "causes": [
+      "The ambient temperature sensor is faulty."
+    ],
+    "steps": [
+      "Note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Call Indesit service to book an engineer.",
+    "source": "https://indesitservice.co.uk/fridge-repair/error-codes"
+  },
+  {
+    "brand": "Indesit",
+    "code": "E8",
+    "aliases": [],
+    "title": "Room temperature sensor fault",
+    "causes": [
+      "The ambient temperature sensor is faulty."
+    ],
+    "steps": [
+      "Note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Call Indesit service to book an engineer.",
+    "source": "https://indesitservice.co.uk/fridge-repair/error-codes"
+  },
+  {
+    "brand": "Indesit",
+    "code": "E9",
+    "aliases": [],
+    "title": "Freezer high temperature alarm",
+    "causes": [
+      "The freezer door was left open and the freezer warmed up."
+    ],
+    "steps": [
+      "Close the freezer door properly.",
+      "Check nothing blocks the door.",
+      "Check whether food has thawed."
+    ],
+    "technician": "If the alarm continues with the door shut, call Indesit service.",
+    "source": "https://indesitservice.co.uk/fridge-repair/error-codes"
+  },
+  {
+    "brand": "Indesit",
+    "code": "EE",
+    "aliases": [],
+    "title": "Ice maker circuit fault",
+    "causes": [
+      "A fault in the ice maker circuit (models with ice maker)."
+    ],
+    "steps": [
+      "Switch off the ice maker if possible."
+    ],
+    "technician": "Call Indesit service to book an engineer.",
+    "source": "https://indesitservice.co.uk/fridge-repair/error-codes"
+  },
+  {
+    "brand": "Whirlpool",
+    "code": "F3 E1",
+    "aliases": [],
+    "title": "System fault (flashing F)",
+    "causes": [
+      "The control has detected a fault. Whirlpool does not give a home fix beyond a reset."
+    ],
+    "steps": [
+      "Turn off the breaker or unplug the fridge for one minute.",
+      "Restore power.",
+      "Make sure cooling is switched on.",
+      "Watch for one minute to see if the code returns."
+    ],
+    "technician": "If the code returns after the reset, schedule Whirlpool service.",
+    "source": "https://producthelp.whirlpool.com/Refrigeration/Full-Size_Refrigerators/French_Door_Bottom_Freezer_Refrigerator/Control_Concerns/Error_Codes%2C_Blinking%2C_Flashing_Lights/F_Codes/F3_E1_Error_Code_-_Refrigerator"
+  },
+  {
+    "brand": "Whirlpool",
+    "code": "F3 E2",
+    "aliases": [],
+    "title": "System fault (flashing F)",
+    "causes": [
+      "The control has detected a fault. Whirlpool does not give a home fix beyond a reset."
+    ],
+    "steps": [
+      "Turn off the breaker or unplug the fridge for one minute.",
+      "Restore power.",
+      "Make sure cooling is switched on.",
+      "Watch for one minute to see if the code returns."
+    ],
+    "technician": "If the code returns after the reset, schedule Whirlpool service.",
+    "source": "https://producthelp.whirlpool.com/Refrigeration/Full-Size_Refrigerators/French_Door_Bottom_Freezer_Refrigerator/Control_Concerns/Error_Codes%2C_Blinking%2C_Flashing_Lights/F_Codes/F3_E2_Error_Code_-_Refrigerator"
+  },
+  {
+    "brand": "Whirlpool",
+    "code": "F6 E1",
+    "aliases": [],
+    "title": "System fault (flashing F)",
+    "causes": [
+      "The control has detected a fault. Whirlpool does not give a home fix beyond a reset."
+    ],
+    "steps": [
+      "Turn off the breaker or unplug the fridge for one minute.",
+      "Restore power.",
+      "Make sure cooling is switched on.",
+      "Watch for one minute to see if the code returns."
+    ],
+    "technician": "If the code returns after the reset, schedule Whirlpool service.",
+    "source": "https://producthelp.whirlpool.com/Refrigeration/Full-Size_Refrigerators/French_Door_Bottom_Freezer_Refrigerator/Control_Concerns/Error_Codes%2C_Blinking%2C_Flashing_Lights/F_Codes/F6_E1_Error_Code_-_Refrigerator"
+  },
+  {
+    "brand": "Whirlpool",
+    "code": "F8 E1",
+    "aliases": [],
+    "title": "System fault (flashing F)",
+    "causes": [
+      "The control has detected a fault. Whirlpool does not give a home fix beyond a reset."
+    ],
+    "steps": [
+      "Turn off the breaker or unplug the fridge for one minute.",
+      "Restore power.",
+      "Make sure cooling is switched on.",
+      "Watch for one minute to see if the code returns."
+    ],
+    "technician": "If the code returns after the reset, schedule Whirlpool service.",
+    "source": "https://producthelp.whirlpool.com/Refrigeration/Full-Size_Refrigerators/French_Door_Bottom_Freezer_Refrigerator/Control_Concerns/Error_Codes%2C_Blinking%2C_Flashing_Lights/F_Codes/F8_E1_Error_Code_-_Refrigerator"
+  },
+  {
+    "brand": "Whirlpool",
+    "code": "F8 E2",
+    "aliases": [],
+    "title": "System fault (flashing F)",
+    "causes": [
+      "The control has detected a fault. Whirlpool does not give a home fix beyond a reset."
+    ],
+    "steps": [
+      "Turn off the breaker or unplug the fridge for one minute.",
+      "Restore power.",
+      "Make sure cooling is switched on.",
+      "Watch for one minute to see if the code returns."
+    ],
+    "technician": "If the code returns after the reset, schedule Whirlpool service.",
+    "source": "https://producthelp.whirlpool.com/Refrigeration/Full-Size_Refrigerators/French_Door_Bottom_Freezer_Refrigerator/Control_Concerns/Error_Codes%2C_Blinking%2C_Flashing_Lights/F_Codes/F8_E2_Error_Code_-_Refrigerator"
+  },
+  {
+    "brand": "Whirlpool",
+    "code": "PO",
+    "aliases": [],
+    "title": "Power outage alert",
+    "causes": [
+      "Power was cut and the freezer warmed to -8 °C (18 °F) or higher."
+    ],
+    "steps": [
+      "Press the button under the blinking Confirm label to clear the alert.",
+      "Check frozen food for thawing."
+    ],
+    "technician": "Not a fault. Contact Whirlpool only if PO appears without a real power cut.",
+    "source": "https://producthelp.whirlpool.com/Refrigeration/Full-Size_Refrigerators/French_Door_Bottom_Freezer_Refrigerator/Control_Concerns/Error_Codes,_Blinking,_Flashing_Lights/Blinking_Lights/PO_Error_Code_-_Refrigerator"
+  },
+  {
+    "brand": "Bosch",
+    "code": "E02",
+    "aliases": [],
+    "title": "Ice maker or water system fault",
+    "causes": [
+      "The ice maker is faulty.",
+      "The ice and water controls are not communicating."
+    ],
+    "steps": [
+      "Switch off the fridge's breaker for 30 seconds.",
+      "Switch it back on and check the code."
+    ],
+    "technician": "If E02 remains, contact Bosch customer support.",
+    "source": "https://www.bosch-home.com/us/owner-support/error-codes/refrigeration"
+  },
+  {
+    "brand": "Bosch",
+    "code": "E03",
+    "aliases": [],
+    "title": "Dispenser control fault",
+    "causes": [
+      "The dispenser control panel has a fault."
+    ],
+    "steps": [
+      "Switch off the fridge's breaker for 30 seconds.",
+      "Switch it back on and check the code."
+    ],
+    "technician": "If E03 remains, contact Bosch customer support.",
+    "source": "https://www.bosch-home.com/us/owner-support/error-codes/refrigeration"
+  },
+  {
+    "brand": "Haier",
+    "code": "F1",
+    "aliases": [],
+    "title": "Sensor error",
+    "causes": [
+      "A temperature sensor is faulty."
+    ],
+    "steps": [
+      "Switch the fridge off and on once to see if the code clears.",
+      "If it returns, note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Users cannot fix this. Contact Haier service for a technician.",
+    "source": "https://www.haier.com/ae/service-support/self-service/20160216_82973.shtml"
+  },
+  {
+    "brand": "Haier",
+    "code": "E0",
+    "aliases": [],
+    "title": "Communication error",
+    "causes": [
+      "Internal boards are not communicating."
+    ],
+    "steps": [
+      "Switch the fridge off and on once to see if the code clears.",
+      "If it returns, note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Users cannot fix this. Contact Haier service for a technician.",
+    "source": "https://www.haier.com/ae/service-support/self-service/20160216_82973.shtml"
+  },
+  {
+    "brand": "Haier",
+    "code": "E1",
+    "aliases": [],
+    "title": "Fan error",
+    "causes": [
+      "A fan is not working."
+    ],
+    "steps": [
+      "Switch the fridge off and on once to see if the code clears.",
+      "If it returns, note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Users cannot fix this. Contact Haier service for a technician.",
+    "source": "https://www.haier.com/ae/service-support/self-service/20160216_82973.shtml"
+  },
+  {
+    "brand": "Haier",
+    "code": "Er",
+    "aliases": [],
+    "title": "Ice maker error",
+    "causes": [
+      "The ice maker is faulty."
+    ],
+    "steps": [
+      "Switch the fridge off and on once to see if the code clears.",
+      "If it returns, note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Users cannot fix this. Contact Haier service for a technician.",
+    "source": "https://www.haier.com/ae/service-support/self-service/20160216_82973.shtml"
+  },
+  {
+    "brand": "Haier",
+    "code": "Ed",
+    "aliases": [],
+    "title": "Defrost error",
+    "causes": [
+      "The defrost system is faulty."
+    ],
+    "steps": [
+      "Switch the fridge off and on once to see if the code clears.",
+      "If it returns, note the code.",
+      "Keep the doors closed as much as possible to protect the food."
+    ],
+    "technician": "Users cannot fix this. Contact Haier service for a technician.",
+    "source": "https://www.haier.com/ae/service-support/self-service/20160216_82973.shtml"
+  }
+]
