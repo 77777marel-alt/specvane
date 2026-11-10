@@ -2,9 +2,9 @@
 // Разделы с адресами на языке страны берутся из lib/routes.ts. Этап 0: инфо-страницы и категории.
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { isLocale, type Locale } from '@/lib/i18n/config'
+import { isLocale, LOCALES, type Locale } from '@/lib/i18n/config'
 import { getDict } from '@/lib/i18n'
-import { INFO_PAGES, MANUAL_SLUG, resolveSlug, sectionHref, type InfoPage } from '@/lib/routes'
+import { INFO_PAGES, MANUAL_SLUG, SLUGS, resolveSlug, sectionHref, type InfoPage } from '@/lib/routes'
 import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions, getPrevGeneration, getBest, getBestSpecs, getBetterAlternatives, getCrossLinks, getTrends, getCategoryByKey, getGlossaryLinks } from '@/lib/catalog'
 import { permanentRedirect } from 'next/navigation'
 import { number, fill } from '@/lib/format'
@@ -25,11 +25,21 @@ import { supportFor } from '@/lib/updates'
 import { TOOLS, toolsText } from '@/lib/tools'
 import { ToolCalc } from '@/components/views/ToolCalc'
 import { glossary, glossaryTerm, GLOSSARY_UI } from '@/lib/glossary'
+import { guides, guideFor, GUIDE_CATS, GUIDE_UI, type Guide } from '@/lib/guides'
 import { ProductImage } from '@/components/product/ProductImage'
 import { CompareTray } from '@/components/compare/CompareTray'
 
 const PREVIEW = 'design-preview'
 
+
+// ---------- гиды «Как выбрать»: /<lang>/<guides>/<адрес категории> ----------
+async function guideSeg(lang: Locale, cat: string): Promise<string> {
+  return (await getCategoryByKey(lang, cat))?.slug ?? (isAppliance(cat) ? applianceName(lang, cat).slug : cat)
+}
+async function guideBySeg(lang: Locale, seg: string): Promise<Guide | null> {
+  for (const c of GUIDE_CATS) if ((await guideSeg(lang, c)) === seg) return guideFor(lang, c) ?? null
+  return null
+}
 
 // ---------- коды ошибок: /<lang>/<error-codes>/<категория>/<бренд>/<код> ----------
 async function applianceOf(lang: Locale, seg: string): Promise<{ key: Appliance; name: string; slug: string; href: string | null } | null> {
@@ -86,6 +96,14 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/[...slug]'
     return { title: `${t.info[key].title} · Specvane`, alternates: alternates(lang, (l: Locale) => sectionHref(l, key)), robots }
   }
   if (key === 'errors') return errorsMeta(lang, slug)
+  if (key === 'guides') {
+    const g = GUIDE_UI[lang]
+    if (slug.length === 1) return { title: `${g.title} · Specvane`, description: g.lead, alternates: alternates(lang, (l) => sectionHref(l, 'guides')) }
+    const gd = slug.length === 2 ? await guideBySeg(lang, slug[1]) : null
+    if (!gd) return {}
+    const segs = Object.fromEntries(await Promise.all(LOCALES.map(async (l) => [l, await guideSeg(l, gd.cat)] as const)))
+    return { title: `${gd.title} · Specvane`, description: gd.lead, alternates: alternates(lang, (l) => sectionHref(l, 'guides', segs[l])) }
+  }
   if (key === 'glossary') {
     const g = GLOSSARY_UI[lang]
     if (slug.length === 1) return { title: `${g.title} · Specvane`, description: g.lead, alternates: alternates(lang, (l) => sectionHref(l, 'glossary')) }
@@ -176,6 +194,90 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
         {page.body.map((p, i) => (
           <p key={i} className="mb-4 leading-relaxed text-muted">{p}</p>
         ))}
+      </article>
+    )
+  }
+
+  if (key === 'guides' && slug.length <= 2) {
+    const g = GUIDE_UI[lang]
+    const home = { name: t.ui.home, href: `/${lang}` }
+    const section = { name: g.title, href: sectionHref(lang, 'guides') }
+    if (slug.length === 1) {
+      const list = await Promise.all(guides(lang).map(async (x) => ({ ...x, href: sectionHref(lang, 'guides', await guideSeg(lang, x.cat)) })))
+      return (
+        <>
+          <Breadcrumbs items={[home, section]} />
+          <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{g.title}</h1>
+          <p className="mt-2 max-w-2xl text-muted">{g.lead}</p>
+          <ul className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {list.map((x) => (
+              <li key={x.cat}><a href={x.href} className="block h-full rounded-2xl border border-border p-4 hover:border-accent">
+                <span className="font-semibold">{x.title}</span><span className="mt-1 block text-sm text-muted line-clamp-2">{x.lead}</span></a></li>
+            ))}
+          </ul>
+        </>
+      )
+    }
+    const gd = await guideBySeg(lang, slug[1])
+    if (!gd) notFound()
+    const cat = await getCategoryByKey(lang, gd.cat)
+    const best = gd.specs.length ? (await getGlossaryLinks(lang, gd.specs.map((k) => ({ cat: gd.cat, key: k })))).filter((x) => x.href.includes(`/${SLUGS[lang].best}/`)) : []
+    const terms = glossary(lang).filter((x) => gd.glossary.includes(x.slug))
+    const tool = TOOLS.find((x) => x.cat === gd.cat)
+    const more = [
+      cat && { name: `${g.all}: ${cat.name}`, href: `/${lang}/${cat.slug}` },
+      tool && { name: toolsText(lang)[tool.key].short, href: sectionHref(lang, 'tools', tool.id) },
+      isAppliance(gd.cat) && { name: t.ui.errTitle, href: sectionHref(lang, 'errors') },
+    ].filter((x): x is { name: string; href: string } => !!x)
+    const ld = [
+      { '@context': 'https://schema.org', '@type': 'Article', headline: gd.title, description: gd.lead, inLanguage: lang, dateModified: '2026-11-11', publisher: { '@type': 'Organization', name: 'Specvane' } },
+      { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: gd.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
+    ]
+    return (
+      <article className="max-w-3xl">
+        <Breadcrumbs items={[home, section, { name: gd.title, href: sectionHref(lang, 'guides', slug[1]) }]} />
+        <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{gd.title}</h1>
+        <p className="mt-3 text-lg text-muted">{gd.lead}</p>
+        {more.length > 0 && <ul className="mt-4 flex flex-wrap gap-2">{more.map((x) => <li key={x.href}><a href={x.href} className="inline-flex min-h-11 items-center rounded-xl border border-border px-3 text-sm font-medium hover:border-accent hover:text-accent">{x.name} →</a></li>)}</ul>}
+        {gd.sections.map((sec, i) => (
+          <section key={i} className="mt-8">
+            <h2 className="mb-3 text-xl font-semibold">{sec.h}</h2>
+            <div className="space-y-4 leading-relaxed">{sec.p.map((p, j) => <p key={j}>{p}</p>)}</div>
+          </section>
+        ))}
+        <div className="mt-8 grid gap-4 md:grid-cols-2">
+          <section className="rounded-2xl bg-good-soft p-4">
+            <h2 className="mb-2 font-semibold text-good">{g.checklist}</h2>
+            <ul className="list-disc space-y-1 ps-5">{gd.checklist.map((c, i) => <li key={i}>{c}</li>)}</ul>
+          </section>
+          <section className="rounded-2xl bg-bad-soft p-4">
+            <h2 className="mb-2 font-semibold text-bad">{g.mistakes}</h2>
+            <ul className="list-disc space-y-1 ps-5">{gd.mistakes.map((c, i) => <li key={i}>{c}</li>)}</ul>
+          </section>
+        </div>
+        {best.length > 0 && (
+          <nav className="mt-8" aria-label={g.best}>
+            <h2 className="mb-3 text-xl font-semibold">{g.best}</h2>
+            <ul className="grid gap-2 sm:grid-cols-2">{best.map((x) => <li key={x.href}><a href={x.href} className="flex min-h-11 items-center rounded-xl border border-border px-3 py-2 hover:border-accent hover:text-accent">{x.name} →</a></li>)}</ul>
+          </nav>
+        )}
+        <section className="mt-8">
+          <h2 className="mb-3 text-xl font-semibold">{g.faq}</h2>
+          <div className="space-y-2">{gd.faq.map((f, i) => (
+            <details key={i} className="rounded-xl border border-border p-3" open={i === 0}>
+              <summary className="cursor-pointer font-medium">{f.q}</summary>
+              <p className="mt-2 leading-relaxed text-muted">{f.a}</p>
+            </details>
+          ))}</div>
+        </section>
+        {terms.length > 0 && (
+          <nav className="mt-8" aria-label={g.terms}>
+            <h2 className="mb-3 font-semibold">{g.terms}</h2>
+            <ul className="flex flex-wrap gap-2">{terms.map((x) => <li key={x.slug}><a href={sectionHref(lang, 'glossary', x.slug)} className="inline-flex min-h-11 items-center rounded-xl border border-border px-3 hover:border-accent hover:text-accent">{x.term}</a></li>)}</ul>
+          </nav>
+        )}
+        <p className="mt-8"><a href={sectionHref(lang, 'guides')} className="font-medium text-accent hover:underline">← {g.title}</a></p>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       </article>
     )
   }
@@ -424,8 +526,11 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
         const tops = (await getBestSpecs(lang, cat)).map((x) => ({ label: x.label, href: sectionHref(lang, 'best', cat.slug, x.slug) }))
         return <CategoryView lang={lang} t={t} title={cat.name} items={items} brands={brands} crumbs={[home, catCrumb]} tops={tops} trends={await getTrends(lang, cat)}
           browser={{ filters, compare: { cat: cat.key, base: sectionHref(lang, 'compare') } }}
-          extra={hasErrors(lang) && isAppliance(cat.key) ? { label: t.ui.errTitle, href: sectionHref(lang, 'errors') }
-            : TOOLS.find((x) => x.cat === cat.key) ? { label: toolsText(lang)[TOOLS.find((x) => x.cat === cat.key)!.key].short, href: sectionHref(lang, 'tools', TOOLS.find((x) => x.cat === cat.key)!.id) } : undefined} />
+          extra={[
+            guideFor(lang, cat.key) && { label: GUIDE_UI[lang].one + ': ' + cat.name, href: sectionHref(lang, 'guides', cat.slug) },
+            hasErrors(lang) && isAppliance(cat.key) && { label: t.ui.errTitle, href: sectionHref(lang, 'errors') },
+            TOOLS.find((x) => x.cat === cat.key) && { label: toolsText(lang)[TOOLS.find((x) => x.cat === cat.key)!.key].short, href: sectionHref(lang, 'tools', TOOLS.find((x) => x.cat === cat.key)!.id) },
+          ].filter((x): x is { label: string; href: string } => !!x)} />
       }
       const p = await getProduct(lang, cat, slug[1])
       if (p) {

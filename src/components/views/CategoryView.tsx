@@ -11,7 +11,7 @@ import { Trends } from '../charts/Trends'
 export function CategoryView({ lang, t, title, intro, items, crumbs, brands, browser, tops, trends, extra }:
   { lang: Locale; t: Dict; title: string; intro?: string; items: ProductCardData[]; chips?: string[]; crumbs: Crumb[]; brands?: string[]; tops?: { label: string; href: string }[]
     trends?: Parameters<typeof Trends>[0]['trends']
-    extra?: { label: string; href: string }
+    extra?: { label: string; href: string }[]
     browser?: { filters: { key: string; label: string; type: string; hib: boolean | null }[]; compare: { cat: string; base: string } } }) {
   return (
     <>
@@ -23,7 +23,7 @@ export function CategoryView({ lang, t, title, intro, items, crumbs, brands, bro
         </div>
         {!browser && <span className="num text-sm text-muted">{fill(t.ui.models, { n: items.length })}</span>}
       </div>
-      {extra && <p className="mt-2 text-sm"><a href={extra.href} className="font-medium text-accent hover:underline">{extra.label} →</a></p>}
+      {extra && extra.length > 0 && <p className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm">{extra.map((x) => <a key={x.href} href={x.href} className="font-medium text-accent hover:underline">{x.label} →</a>)}</p>}
       {tops && tops.length > 0 && (
         <nav className="-mx-4 mt-3 flex items-center gap-2 overflow-x-auto px-4 no-scrollbar" aria-label={t.ui.bestIndexTitle}>
           <span className="shrink-0 text-sm text-muted">{t.ui.bestIndexTitle}:</span>

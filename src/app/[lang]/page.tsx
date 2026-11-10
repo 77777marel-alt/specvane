@@ -8,6 +8,7 @@ import { getHomeShowcase } from '@/lib/catalog'
 import { ProductCard } from '@/components/product/ProductCard'
 import { TOOLS, toolsText } from '@/lib/tools'
 import { glossary, GLOSSARY_UI } from '@/lib/glossary'
+import { GUIDE_UI } from '@/lib/guides'
 const HOME_TERMS = ['refresh-rate', 'oled', 'hdr', 'ppi', 'mah', 'fast-charging', 'esim', 'ip68-ip-rating', 'ram', 'anc-noise-cancelling', 'megapixels', 'eu-energy-label']
 import { sectionHref } from '@/lib/routes'
 import { alternates } from '@/lib/seo'
@@ -130,6 +131,11 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
             <li key={x.id}><Link href={sectionHref(lang, 'tools', x.id)} className="flex min-h-11 items-center rounded-xl border border-border px-3 py-2 hover:border-accent hover:text-accent">{toolsText(lang)[x.key].short}</Link></li>
           ))}
         </ul>
+      </section>
+
+      <section aria-labelledby="guides" className="py-6">
+        <h2 id="guides" className="mb-3 text-xl font-semibold"><Link href={sectionHref(lang, 'guides')} className="hover:text-accent">{GUIDE_UI[lang].title}</Link></h2>
+        <p className="max-w-2xl text-muted">{GUIDE_UI[lang].lead} <Link href={sectionHref(lang, 'guides')} className="font-medium text-accent hover:underline">→</Link></p>
       </section>
 
       <section aria-labelledby="glossary" className="py-6">

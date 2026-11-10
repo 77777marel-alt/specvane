@@ -8,6 +8,7 @@ import { getIndexableProducts, getIndexableComparisons, getCategory, getBestSpec
 import { APPLIANCES, applianceName, isThinCode, errorBrands, errorCodes, hasErrors, type Appliance } from '@/lib/errors'
 import { TOOLS } from '@/lib/tools'
 import { GLOSSARY_SLUGS } from '@/lib/glossary'
+import { GUIDE_CATS } from '@/lib/guides'
 
 // Индекс + отдельные файлы по языку и типу: pages-de-1.xml, products-de-1.xml…
 // В файлах только адреса и lastmod, без alternates (hreflang — в <head> страниц).
@@ -76,7 +77,9 @@ export async function entriesFor(file: string): Promise<Entry[] | null> {
     }
     const tools: Entry[] = [{ loc: `${SITE_URL}${sectionHref(lang, 'tools')}` }, ...TOOLS.map((x) => ({ loc: `${SITE_URL}${sectionHref(lang, 'tools', x.id)}` }))]
     const gloss: Entry[] = [{ loc: `${SITE_URL}${sectionHref(lang, 'glossary')}` }, ...GLOSSARY_SLUGS.map((g) => ({ loc: `${SITE_URL}${sectionHref(lang, 'glossary', g)}` }))]
-    return [...staticPages(lang), ...cats.map((c) => ({ loc: `${SITE_URL}/${lang}/${c.slugs[lang]}` })), ...best, ...errors, ...tools, ...gloss]
+    const guidesE: Entry[] = [{ loc: `${SITE_URL}${sectionHref(lang, 'guides')}` }]
+    for (const c of GUIDE_CATS) guidesE.push({ loc: `${SITE_URL}${sectionHref(lang, 'guides', (await getCategoryByKey(lang, c))?.slug ?? (c in APPLIANCES ? applianceName(lang, c as Appliance).slug : c))}` })
+    return [...staticPages(lang), ...guidesE, ...cats.map((c) => ({ loc: `${SITE_URL}/${lang}/${c.slugs[lang]}` })), ...best, ...errors, ...tools, ...gloss]
   }
   const cm = /^comparisons-([a-z]{2}(?:-[a-z]{2})?)-(\d+)\.xml$/.exec(file)
   if (cm) {
