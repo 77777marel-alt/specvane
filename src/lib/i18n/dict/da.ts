@@ -154,7 +154,7 @@ export const da: Dict = {
     popularCompare: "Populære sammenligninger",
     seeAll: "Alle",
     errTitle: "Fejlkoder",
-    errLead: "Hvad fejlkoder på vaskemaskiner og opvaskemaskiner betyder, og hvad du sikkert kan gøre selv.",
+    errLead: "Hvad fejlkoder på vaskemaskiner, opvaskemaskiner, tørretumblere, køleskabe, kaffemaskiner, aircondition og gasfyr betyder – og hvad du selv kan gøre sikkert.",
     errBrandTitle: "{brand} {appliance}: fejlkoder",
     errCodeTitle: "{brand} {appliance} fejl {code}",
     errCauses: "Mulige årsager",

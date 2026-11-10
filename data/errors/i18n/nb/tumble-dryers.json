@@ -1,0 +1,1201 @@
+{
+ "Samsung|dC": {
+  "title": "Døren er åpen eller registreres ikke",
+  "causes": [
+   "Døren er ikke helt lukket.",
+   "Tøy sitter fast i døren.",
+   "Barnesikringen er på, og døren ble åpnet."
+  ],
+  "steps": [
+   "Åpne døren og fjern tøy som sitter fast i kanten.",
+   "Lukk døren godt til den smekker i lås.",
+   "Sjekk om barnesikringen er slått på.",
+   "Start programmet på nytt."
+  ],
+  "technician": "Hvis koden står selv om døren er ordentlig lukket, kan låsen eller dørsensoren være defekt. Kontakt Samsung-service."
+ },
+ "Samsung|NC": {
+  "title": "Problem med lofilteret",
+  "causes": [
+   "Lofilteret mangler, er tett eller sitter ikke riktig."
+  ],
+  "steps": [
+   "Ta ut lofilteret og rengjør det.",
+   "Sett det helt inn igjen slik at det sitter riktig.",
+   "Start programmet på nytt."
+  ],
+  "technician": "Hvis koden kommer tilbake med et rent og riktig montert filter, bestill et servicebesøk fra Samsung."
+ },
+ "Samsung|NC2": {
+  "title": "Problem med det indre dekselet på varmeveksleren",
+  "causes": [
+   "Det indre dekselet på varmeveksleren er ikke riktig montert."
+  ],
+  "steps": [
+   "Slå av tørketrommelen.",
+   "Sjekk at det indre dekselet på varmeveksleren er på plass og ordentlig lukket.",
+   "Start programmet på nytt."
+  ],
+  "technician": "Hvis koden vedvarer etter at du har satt dekselet på plass igjen, kontakt Samsung-service."
+ },
+ "Samsung|5C": {
+  "title": "Problem med tømmingen",
+  "causes": [
+   "Avløpsslangen er bøyd, skadet eller frosset.",
+   "Vannbeholderen er full.",
+   "Tømmepumpen fungerer ikke."
+  ],
+  "steps": [
+   "Tøm vannbeholderen og sett den på plass igjen.",
+   "Sjekk at avløpsslangen ikke har en knekk eller er skadet.",
+   "Hvis slangen er frosset, pakk den inn i et håndkle dynket i varmt vann i omtrent 10 minutter.",
+   "Slå på tørketrommelen og start programmet på nytt."
+  ],
+  "technician": "Hvis beholderen er tom og slangen er fri, men koden kommer tilbake, kan pumpen være defekt. Kontakt Samsung-service."
+ },
+ "Samsung|tC": {
+  "title": "Problem med lufttemperatursensoren",
+  "causes": [
+   "Lofilteret eller varmeveksleren er tett.",
+   "Ventilasjonen eller luftveien er begrenset.",
+   "Temperatursensoren er defekt."
+  ],
+  "steps": [
+   "Rengjør lofilteret.",
+   "Rengjør varmeveksleren hvis modellen din har en.",
+   "Sjekk ventilasjonen eller avtrekket for tetninger.",
+   "Start programmet på nytt."
+  ],
+  "technician": "Hvis rengjøring ikke fjerner koden, må sensoren kanskje byttes. Kontakt Samsung-service."
+ },
+ "Samsung|tC5": {
+  "title": "Problem med temperatursensoren på kompressoren",
+  "causes": [
+   "Lofilteret er tett.",
+   "Luftstrømmen gjennom ventilasjonssystemet er begrenset."
+  ],
+  "steps": [
+   "Vent 2 til 3 minutter, og slå på tørketrommelen igjen.",
+   "Rengjør lofilteret.",
+   "Sjekk ventilasjonssystemet for tetninger.",
+   "Start programmet på nytt."
+  ],
+  "technician": "Hvis koden fortsetter å komme tilbake, må varmepumpesystemet sjekkes av Samsung-service."
+ },
+ "Samsung|3C": {
+  "title": "Problem med motoren",
+  "causes": [
+   "Invertermotoren gikk ikke som forventet."
+  ],
+  "steps": [
+   "Sørg for at trommelen ikke er overfylt.",
+   "Start programmet på nytt.",
+   "Trekk ut støpselet til tørketrommelen i minst 30 sekunder, sett det i igjen og prøv på nytt."
+  ],
+  "technician": "Hvis koden kommer tilbake, må motoren eller styringen sjekkes av en tekniker. Kontakt Samsung-service."
+ },
+ "Samsung|AC": {
+  "title": "Elektronisk kommunikasjonsfeil",
+  "causes": [
+   "Interne styredeler kommuniserer ikke med hverandre."
+  ],
+  "steps": [
+   "Slå av tørketrommelen i 60 sekunder.",
+   "Slå den på igjen og start programmet på nytt."
+  ],
+  "technician": "Hvis koden kommer tilbake, må styrekortene sjekkes. Bestill Samsung-service."
+ },
+ "Samsung|AC6": {
+  "title": "Hovedkortet og inverterkortet kommuniserer ikke",
+  "causes": [
+   "Hovedstyrekortet og inverterkortet mistet kommunikasjonen."
+  ],
+  "steps": [
+   "Start programmet på nytt.",
+   "Trekk ut støpselet til tørketrommelen i minst 30 sekunder, sett det i igjen og prøv på nytt."
+  ],
+  "technician": "Hvis koden vedvarer, må en tekniker sjekke kortene og ledningene. Kontakt Samsung-service."
+ },
+ "Samsung|HC": {
+  "title": "Overoppheting eller problem med oppvarmingen",
+  "causes": [
+   "Lofilteret eller ventilasjonen er tett, så tørketrommelen blir for varm.",
+   "En sikring som har gått, eller lav spenning på elektriske modeller."
+  ],
+  "steps": [
+   "Rengjør lofilteret.",
+   "Sjekk ventilasjonen for tetninger.",
+   "Sjekk sikringene i boligen og tilbakestill dem som har gått.",
+   "Start programmet på nytt."
+  ],
+  "technician": "Hvis koden fortsetter, la en elektriker sjekke strømforsyningen og bestill Samsung-service for varmesystemet."
+ },
+ "Samsung|FC": {
+  "title": "Feil frekvens i strømforsyningen",
+  "causes": [
+   "Frekvensen i strømnettet stemmer ikke med det tørketrommelen forventer."
+  ],
+  "steps": [
+   "Start programmet på nytt.",
+   "Sørg for at tørketrommelen er koblet direkte til en stikkontakt i veggen."
+  ],
+  "technician": "Hvis koden står, kontakt Samsung-service."
+ },
+ "Samsung|9C1": {
+  "title": "Problem med strømforsyningen",
+  "causes": [
+   "Strømforsyningen er ikke riktig.",
+   "Støpselet er løst eller ikke satt helt inn.",
+   "Det brukes en skjøteledning."
+  ],
+  "steps": [
+   "Sjekk at støpselet er satt helt inn i stikkontakten.",
+   "Koble tørketrommelen direkte til en stikkontakt i veggen på egen kurs, uten skjøteledning.",
+   "Start programmet på nytt."
+  ],
+  "technician": "Hvis strømforsyningen er i orden og koden kommer tilbake, bestill Samsung-service."
+ },
+ "Samsung|dF": {
+  "title": "Feil på dørbryteren",
+  "causes": [
+   "Dørbryteren eller låsebryteren, eller ledningene til dem, er defekt."
+  ],
+  "steps": [
+   "Lukk døren godt og prøv igjen.",
+   "Trekk ut støpselet til tørketrommelen i minst 30 sekunder, sett det i igjen og prøv på nytt."
+  ],
+  "technician": "Dørbryteren må kanskje byttes. Kontakt Samsung-service."
+ },
+ "Samsung|bE": {
+  "title": "En knapp sitter fast",
+  "causes": [
+   "En knapp på kontrollpanelet sitter fast eller holdes inne."
+  ],
+  "steps": [
+   "Slå av tørketrommelen.",
+   "Trykk inn og slipp hver knapp, også kantene, for å løsne en som sitter fast.",
+   "Slå på og prøv igjen."
+  ],
+  "technician": "Hvis en knapp er skadet eller koden kommer tilbake, bestill Samsung-service."
+ },
+ "Samsung|Clg": {
+  "title": "Ventilasjonen er tett (resultat av ventilasjonstesten)",
+  "causes": [
+   "Avtrekket er tett av lo eller rester."
+  ],
+  "steps": [
+   "Rengjør lofilteret.",
+   "Rengjør avtrekket og kanalen.",
+   "Kjør testen for tett ventilasjon på nytt."
+  ],
+  "technician": "Hvis ventilasjonen er ren og resultatet er det samme, kontakt Samsung-service."
+ },
+ "Samsung|dn": {
+  "title": "Programvarenedlasting pågår",
+  "causes": [
+   "Tørketrommelen installerer en fastvareoppdatering."
+  ],
+  "steps": [
+   "Ikke trekk ut støpselet eller slå av strømmen.",
+   "Vent. Tørketrommelen starter på nytt av seg selv når oppdateringen er ferdig."
+  ],
+  "technician": "Hvis dn fortsatt vises etter 24 timer, bestill Samsung-service."
+ },
+ "Samsung|CL": {
+  "title": "Barnesikringen er på",
+  "causes": [
+   "Barnesikringen er slått på, så knappene er deaktivert."
+  ],
+  "steps": [
+   "Slå av barnesikringen med tastekombinasjonen i bruksanvisningen."
+  ],
+  "technician": "Dette er ikke en feil. Kontakt Samsung bare hvis barnesikringen ikke kan slås av."
+ },
+ "Samsung|HC2": {
+  "title": "Feil ved gasstenning",
+  "causes": [
+   "Den gassdrevne tørketrommelen klarte ikke å tenne."
+  ],
+  "steps": [
+   "Slå av tørketrommelen i 2 til 3 minutter.",
+   "Slå den på og start programmet på nytt."
+  ],
+  "technician": "Hvis koden kommer tilbake, slutt å bruke tørketrommelen og kontakt Samsung-service. Ikke arbeid med gassdeler selv."
+ },
+ "LG|OE": {
+  "title": "Problem med tømmingen",
+  "causes": [
+   "Avløpsslangen er vridd, har en knekk eller er tett.",
+   "Enden av slangen står for høyt eller ligger under vann."
+  ],
+  "steps": [
+   "Rett ut avløpsslangen.",
+   "Hold toppen av slangen maks. 1 m over gulvet.",
+   "Sørg for at enden av slangen ikke står i vann.",
+   "Start tørketrommelen på nytt."
+  ],
+  "technician": "Hvis koden kommer tilbake selv om slangen er fri og riktig plassert, kontakt LG-service."
+ },
+ "LG|d80": {
+  "title": "Begrenset luftstrøm i avtrekket (omtrent 80 % tett)",
+  "causes": [
+   "Lofilteret er tett.",
+   "Avtrekkskanalen er klemt, har en knekk eller er for lang.",
+   "Ventilklaffen utendørs er blokkert."
+  ],
+  "steps": [
+   "Rengjør lofilteret og skyll det i varmt vann om nødvendig.",
+   "Sjekk kanalen bak tørketrommelen for knekk eller klemming.",
+   "Sørg for at ventilklaffen utendørs åpner seg helt, og fjern lo rundt den.",
+   "Tørk mindre laster til kanalen er rengjort."
+  ],
+  "technician": "Hvis koden står etter rengjøring, få en kanalrenser eller kontakt LG-service."
+ },
+ "LG|d90": {
+  "title": "Begrenset luftstrøm i avtrekket (omtrent 90 % tett)",
+  "causes": [
+   "Lofilteret er tett.",
+   "Avtrekkskanalen er klemt, har en knekk eller er for lang.",
+   "Ventilklaffen utendørs er blokkert."
+  ],
+  "steps": [
+   "Rengjør lofilteret og skyll det i varmt vann om nødvendig.",
+   "Sjekk kanalen bak tørketrommelen for knekk eller klemming.",
+   "Sørg for at ventilklaffen utendørs åpner seg helt, og fjern lo rundt den.",
+   "Tørk mindre laster til kanalen er rengjort."
+  ],
+  "technician": "Hvis koden står etter rengjøring, få en kanalrenser eller kontakt LG-service."
+ },
+ "LG|d95": {
+  "title": "Begrenset luftstrøm i avtrekket (omtrent 95 % tett)",
+  "causes": [
+   "Lofilteret er tett.",
+   "Avtrekkskanalen er klemt, har en knekk eller er for lang.",
+   "Ventilklaffen utendørs er blokkert."
+  ],
+  "steps": [
+   "Rengjør lofilteret og skyll det i varmt vann om nødvendig.",
+   "Sjekk kanalen bak tørketrommelen for knekk eller klemming.",
+   "Sørg for at ventilklaffen utendørs åpner seg helt, og fjern lo rundt den.",
+   "Tørk mindre laster til kanalen er rengjort."
+  ],
+  "technician": "Hvis koden står etter rengjøring, få en kanalrenser eller kontakt LG-service."
+ },
+ "LG|FO": {
+  "title": "Lofilteret er ikke på plass",
+  "causes": [
+   "Lofilteret er ikke satt riktig inn."
+  ],
+  "steps": [
+   "Ta ut lofilteret.",
+   "Skyv det tilbake i holderen til det sitter helt inne.",
+   "Start tørketrommelen på nytt."
+  ],
+  "technician": "Hvis FO står selv om filteret er riktig montert, må sensoren kanskje repareres av LG-service."
+ },
+ "LG|IF": {
+  "title": "Det indre lofilteret registreres ikke",
+  "causes": [
+   "Magneten i det indre lofilteret mangler eller sitter feil.",
+   "Magnetholderen er skadet."
+  ],
+  "steps": [
+   "Ta ut det indre lofilteret og sjekk at magneten sitter på plass.",
+   "Sett filteret riktig på plass igjen.",
+   "Hvis magneten er borte eller holderen er ødelagt, kjøp et nytt filter."
+  ],
+  "technician": "Hvis feilen står med et filter i god stand, bestill LG-service."
+ },
+ "LG|nP": {
+  "title": "Ingen strøm til varmeelementet",
+  "causes": [
+   "Stikkontakten gir ikke riktig spenning.",
+   "En sikring har gått."
+  ],
+  "steps": [
+   "Slå av sikringen til tørketrommelen i minst 10 sekunder, og slå den på igjen.",
+   "Start tørketrommelen på nytt."
+  ],
+  "technician": "Hvis den fortsatt ikke varmer, la en elektriker sjekke stikkontakten og kontakt deretter LG-service."
+ },
+ "LG|PS": {
+  "title": "Problem med strømforsyningen",
+  "causes": [
+   "Strømledningen er løs, eller stikkontakten er ikke koblet som påkrevd."
+  ],
+  "steps": [
+   "Tilbakestill sikringen til tørketrommelen i minst 10 sekunder.",
+   "Sjekk at støpselet sitter godt i en jordet stikkontakt med riktig merkeverdi.",
+   "Start tørketrommelen på nytt."
+  ],
+  "technician": "Hvis tørketrommelen fortsatt ikke varmer, bestill en reparasjon fra LG."
+ },
+ "LG|gAS": {
+  "title": "Problem med gasstilførselen",
+  "causes": [
+   "Gassventilen er stengt.",
+   "Gassledningen har en knekk."
+  ],
+  "steps": [
+   "Sjekk at gassventilen er åpen.",
+   "Sjekk at gassledningen ikke har en knekk."
+  ],
+  "technician": "Hvis gasstilførselen er i orden og koden kommer tilbake, kontakt LG-service. Ikke reparer gassdeler selv."
+ },
+ "LG|CL": {
+  "title": "Barnesikringen er på",
+  "causes": [
+   "Barnesikringen ble slått på og forblir på etter at strømmen er slått av."
+  ],
+  "steps": [
+   "Slå på tørketrommelen.",
+   "Trykk og hold knappen for barnesikring i 3 til 5 sekunder til CL forsvinner."
+  ],
+  "technician": "Dette er ikke en feil. Kontakt LG bare hvis barnesikringen ikke lar seg slå av."
+ },
+ "LG|Add": {
+  "title": "Fyll på vann til damp",
+  "causes": [
+   "Dampbeholderen er tom under et dampprogram."
+  ],
+  "steps": [
+   "Sett programmet på pause.",
+   "Fyll dampbeholderen med vann fra springen opp til MAX-streken.",
+   "Slå tørketrommelen av og på, velg dampprogrammet og trykk Start."
+  ],
+  "technician": "Hvis meldingen står etter påfylling, kontakt LG-service."
+ },
+ "LG|E13": {
+  "title": "Problem med tømmingen (kondensvann)",
+  "causes": [
+   "Avløpsslangen har en knekk, er vridd eller tett.",
+   "En skjøteslange reduserer tømmingen."
+  ],
+  "steps": [
+   "Sjekk avløpsslangen for knekk og tetninger.",
+   "Bruk bare den originale avløpsslangen fra LG, uten skjøteslange.",
+   "Trykk Start/Pause for å starte på nytt."
+  ],
+  "technician": "Hvis E13 kommer tilbake, må tørketrommelen repareres av LG-service."
+ },
+ "Bosch|E01": {
+  "title": "Lofilteret er tett",
+  "causes": [
+   "Det har samlet seg lo på filteret.",
+   "Rester av tøymykner tetter nettingen."
+  ],
+  "steps": [
+   "Ta ut og tøm lofilteret.",
+   "Skyll filteret under varmt vann for å fjerne rester.",
+   "Tørk det og sett det på plass igjen.",
+   "Rengjør filteret etter hvert program."
+  ],
+  "technician": "Hvis koden står med rent filter, bestill et servicebesøk fra Bosch."
+ },
+ "Bosch|E02": {
+  "title": "Lofilteret er tett eller feil på styrereleet",
+  "causes": [
+   "Lofilteret er tett.",
+   "På enkelte modeller en feil på et relé på hovedkortet."
+  ],
+  "steps": [
+   "Rengjør lofilteret og skyll det i varmt vann.",
+   "Slå av strømmen ved støpselet eller sikringen i 30 sekunder, og start på nytt."
+  ],
+  "technician": "Hvis koden kommer tilbake etter rengjøring og tilbakestilling, kontakt Bosch kundeservice."
+ },
+ "Bosch|E03": {
+  "title": "Kondensvannslangen er tett",
+  "causes": [
+   "Avløpsslangen for kondensvann har en knekk eller er tett."
+  ],
+  "steps": [
+   "Sjekk at avløpsslangen ikke har knekk.",
+   "Ta forsiktig slangen ut av vannlåsen, og rengjør slangen og tilkoblingen.",
+   "Fest slangen godt igjen."
+  ],
+  "technician": "Hvis koden kommer tilbake selv om slangen er fri, bestill en tekniker fra Bosch."
+ },
+ "Bosch|E04": {
+  "title": "Tørketrommelen er overfylt",
+  "causes": [
+   "For mye tøy i trommelen."
+  ],
+  "steps": [
+   "Ta ut litt tøy.",
+   "La det være omtrent en håndsbredd med plass over tøyet.",
+   "Start programmet på nytt."
+  ],
+  "technician": "Hvis koden vises med en normal last, kontakt Bosch-service."
+ },
+ "Bosch|E06": {
+  "title": "Feil i varmekretsen",
+  "causes": [
+   "En feil i varmekretsen."
+  ],
+  "steps": [
+   "Slå av tørketrommelen og trekk ut støpselet.",
+   "Ikke prøv å reparere den selv."
+  ],
+  "technician": "Dette krever en kvalifisert tekniker. Kontakt Bosch kundeservice."
+ },
+ "Bosch|E08": {
+  "title": "Feil i elektronikken",
+  "causes": [
+   "En intern elektronisk feil."
+  ],
+  "steps": [
+   "Slå av tørketrommelen.",
+   "Trekk ut støpselet eller slå av sikringen i noen minutter, og koble til igjen.",
+   "Hvis koden kommer tilbake, slutt å bruke tørketrommelen."
+  ],
+  "technician": "Bare en autorisert tekniker kan rette dette. Kontakt Bosch kundeservice."
+ },
+ "Bosch|E09": {
+  "title": "Feil i elektronikken",
+  "causes": [
+   "En intern elektronisk feil."
+  ],
+  "steps": [
+   "Slå av tørketrommelen.",
+   "Trekk ut støpselet eller slå av sikringen i noen minutter, og koble til igjen.",
+   "Hvis koden kommer tilbake, slutt å bruke tørketrommelen."
+  ],
+  "technician": "Bare en autorisert tekniker kan rette dette. Kontakt Bosch kundeservice."
+ },
+ "Bosch|E24": {
+  "title": "Feil i elektronikken",
+  "causes": [
+   "En intern elektronisk feil."
+  ],
+  "steps": [
+   "Slå av tørketrommelen.",
+   "Trekk ut støpselet eller slå av sikringen i noen minutter, og koble til igjen.",
+   "Hvis koden kommer tilbake, slutt å bruke tørketrommelen."
+  ],
+  "technician": "Bare en autorisert tekniker kan rette dette. Kontakt Bosch kundeservice."
+ },
+ "Bosch|E25": {
+  "title": "Feil i elektronikken",
+  "causes": [
+   "En intern elektronisk feil."
+  ],
+  "steps": [
+   "Slå av tørketrommelen.",
+   "Trekk ut støpselet eller slå av sikringen i noen minutter, og koble til igjen.",
+   "Hvis koden kommer tilbake, slutt å bruke tørketrommelen."
+  ],
+  "technician": "Bare en autorisert tekniker kan rette dette. Kontakt Bosch kundeservice."
+ },
+ "Bosch|E28": {
+  "title": "Feil i elektronikken",
+  "causes": [
+   "En intern elektronisk feil."
+  ],
+  "steps": [
+   "Slå av tørketrommelen.",
+   "Trekk ut støpselet eller slå av sikringen i noen minutter, og koble til igjen.",
+   "Hvis koden kommer tilbake, slutt å bruke tørketrommelen."
+  ],
+  "technician": "Bare en autorisert tekniker kan rette dette. Kontakt Bosch kundeservice."
+ },
+ "Bosch|E36": {
+  "title": "Feil i elektronikken",
+  "causes": [
+   "En intern elektronisk feil."
+  ],
+  "steps": [
+   "Slå av tørketrommelen.",
+   "Trekk ut støpselet eller slå av sikringen i noen minutter, og koble til igjen.",
+   "Hvis koden kommer tilbake, slutt å bruke tørketrommelen."
+  ],
+  "technician": "Bare en autorisert tekniker kan rette dette. Kontakt Bosch kundeservice."
+ },
+ "Bosch|E90": {
+  "title": "Feil i elektronikken",
+  "causes": [
+   "En intern elektronisk feil."
+  ],
+  "steps": [
+   "Slå av tørketrommelen.",
+   "Trekk ut støpselet eller slå av sikringen i noen minutter, og koble til igjen.",
+   "Hvis koden kommer tilbake, slutt å bruke tørketrommelen."
+  ],
+  "technician": "Bare en autorisert tekniker kan rette dette. Kontakt Bosch kundeservice."
+ },
+ "Bosch|E12": {
+  "title": "Overoppheting eller kalk i varmepumpen",
+  "causes": [
+   "Luftstrømmen er begrenset, og tørketrommelen blir overopphetet.",
+   "Kalkavleiringer i varmepumpen på enkelte modeller."
+  ],
+  "steps": [
+   "Rengjør lofilteret.",
+   "Sjekk at avtrekket utendørs ikke er blokkert, bøyd eller klemt.",
+   "Start programmet på nytt."
+  ],
+  "technician": "Hvis koden fortsetter å komme tilbake, bestill et servicebesøk fra Bosch."
+ },
+ "Bosch|E16": {
+  "title": "Døren ble åpnet under tørking",
+  "causes": [
+   "Døren ble åpnet mens et program var i gang."
+  ],
+  "steps": [
+   "Lukk døren godt.",
+   "Trykk Start for å fortsette programmet.",
+   "Bruk barnesikringen om nødvendig for å hindre at døren åpnes."
+  ],
+  "technician": "Hvis E16 vises med lukket dør, kan dørbryteren være defekt. Bestill en tekniker fra Bosch."
+ },
+ "Bosch|E56": {
+  "title": "Problem med fuktsensoren",
+  "causes": [
+   "Rester eller lo på fuktsensorstripene i trommelen."
+  ],
+  "steps": [
+   "Trekk ut støpselet til tørketrommelen.",
+   "Tørk av fuktsensoren ved lofilteret med en myk klut og et mildt rengjøringsmiddel.",
+   "Fjern rester og start på nytt."
+  ],
+  "technician": "Hvis koden vedvarer etter rengjøring, kontakt Bosch kundeservice."
+ },
+ "Bosch|DR": {
+  "title": "Døren er ikke ordentlig lukket",
+  "causes": [
+   "Døren er ikke helt lukket.",
+   "Noe blokkerer døren."
+  ],
+  "steps": [
+   "Fjern det som sitter fast i døren.",
+   "Lukk den godt til den smekker i lås.",
+   "Start programmet på nytt."
+  ],
+  "technician": "Hvis koden vedvarer, må låsen eller dørbryteren sjekkes av Bosch-service."
+ },
+ "Bosch|CrE": {
+  "title": "Påminnelse om vedlikehold",
+  "causes": [
+   "Tørketrommelen minner deg på å kjøre vedlikeholdsprogrammet. Det er ikke en feil."
+  ],
+  "steps": [
+   "Kjør det grunnleggende vedlikeholdsprogrammet som er beskrevet i bruksanvisningen."
+  ],
+  "technician": "Ikke nødvendig, med mindre påminnelsen ikke forsvinner etter vedlikeholdsprogrammet."
+ },
+ "Miele|F1": {
+  "title": "Kortslutning i temperatursensoren for kjølemiddel",
+  "causes": [
+   "Temperatursensoren for kjølemiddel er kortsluttet."
+  ],
+  "steps": [
+   "Noter feilkoden.",
+   "Slå av tørketrommelen og ikke fortsett å bruke den.",
+   "Bestill en reparasjon hos Miele."
+  ],
+  "technician": "Dette er en teknisk feil du ikke kan rette selv. Bestill en Miele-tekniker."
+ },
+ "Miele|F2": {
+  "title": "Brudd i kretsen til temperatursensoren for kjølemiddel",
+  "causes": [
+   "Kretsen til temperatursensoren for kjølemiddel er brutt."
+  ],
+  "steps": [
+   "Noter feilkoden.",
+   "Slå av tørketrommelen og ikke fortsett å bruke den.",
+   "Bestill en reparasjon hos Miele."
+  ],
+  "technician": "Dette er en teknisk feil du ikke kan rette selv. Bestill en Miele-tekniker."
+ },
+ "Miele|F3": {
+  "title": "Kortslutning i temperatursensoren for tørkeluft",
+  "causes": [
+   "Temperatursensoren for tørkeluften er kortsluttet."
+  ],
+  "steps": [
+   "Noter feilkoden.",
+   "Slå av tørketrommelen og ikke fortsett å bruke den.",
+   "Bestill en reparasjon hos Miele."
+  ],
+  "technician": "Dette er en teknisk feil du ikke kan rette selv. Bestill en Miele-tekniker."
+ },
+ "Miele|F4": {
+  "title": "Brudd i kretsen til temperatursensoren for tørkeluft",
+  "causes": [
+   "Kretsen til temperatursensoren for tørkeluften er brutt."
+  ],
+  "steps": [
+   "Noter feilkoden.",
+   "Slå av tørketrommelen og ikke fortsett å bruke den.",
+   "Bestill en reparasjon hos Miele."
+  ],
+  "technician": "Dette er en teknisk feil du ikke kan rette selv. Bestill en Miele-tekniker."
+ },
+ "Miele|F30": {
+  "title": "Uoverensstemmelse i dørsignalet",
+  "causes": [
+   "Døren og dørkontakten melder ulik status."
+  ],
+  "steps": [
+   "Noter feilkoden.",
+   "Slå av tørketrommelen og ikke fortsett å bruke den.",
+   "Bestill en reparasjon hos Miele."
+  ],
+  "technician": "Dette er en teknisk feil du ikke kan rette selv. Bestill en Miele-tekniker."
+ },
+ "Miele|F39": {
+  "title": "Feil på elektronikkmodulen",
+  "causes": [
+   "Elektronikkmodulen har en feil."
+  ],
+  "steps": [
+   "Noter feilkoden.",
+   "Slå av tørketrommelen og ikke fortsett å bruke den.",
+   "Bestill en reparasjon hos Miele."
+  ],
+  "technician": "Dette er en teknisk feil du ikke kan rette selv. Bestill en Miele-tekniker."
+ },
+ "Miele|F43": {
+  "title": "Modelltypen er ikke programmert",
+  "causes": [
+   "Modelltypen mangler, eller feil variant er satt i elektronikken."
+  ],
+  "steps": [
+   "Noter feilkoden.",
+   "Slå av tørketrommelen og ikke fortsett å bruke den.",
+   "Bestill en reparasjon hos Miele."
+  ],
+  "technician": "Dette er en teknisk feil du ikke kan rette selv. Bestill en Miele-tekniker."
+ },
+ "Miele|F45": {
+  "title": "Feil på elektronikkmodulen",
+  "causes": [
+   "Elektronikkmodulen har en feil."
+  ],
+  "steps": [
+   "Noter feilkoden.",
+   "Slå av tørketrommelen og ikke fortsett å bruke den.",
+   "Bestill en reparasjon hos Miele."
+  ],
+  "technician": "Dette er en teknisk feil du ikke kan rette selv. Bestill en Miele-tekniker."
+ },
+ "Miele|F53": {
+  "title": "Feil på drivmotoren eller elektronikken",
+  "causes": [
+   "Drivmotoren er defekt.",
+   "Elektronikkmodulen har en feil."
+  ],
+  "steps": [
+   "Noter feilkoden.",
+   "Slå av tørketrommelen og ikke fortsett å bruke den.",
+   "Bestill en reparasjon hos Miele."
+  ],
+  "technician": "Dette er en teknisk feil du ikke kan rette selv. Bestill en Miele-tekniker."
+ },
+ "Miele|F99": {
+  "title": "Teknisk feil, tørketrommelen er deaktivert",
+  "causes": [
+   "En teknisk feil har deaktivert tørketrommelen."
+  ],
+  "steps": [
+   "Noter feilkoden.",
+   "Slå av tørketrommelen og ikke fortsett å bruke den.",
+   "Bestill en reparasjon hos Miele."
+  ],
+  "technician": "Dette er en teknisk feil du ikke kan rette selv. Bestill en Miele-tekniker."
+ },
+ "Miele|F156": {
+  "title": "Kortslutning i kjølemiddelsensoren etter kondensatoren",
+  "causes": [
+   "Temperatursensoren for kjølemiddel etter kondensatoren er kortsluttet."
+  ],
+  "steps": [
+   "Noter feilkoden.",
+   "Slå av tørketrommelen og ikke fortsett å bruke den.",
+   "Bestill en reparasjon hos Miele."
+  ],
+  "technician": "Dette er en teknisk feil du ikke kan rette selv. Bestill en Miele-tekniker."
+ },
+ "Miele|F206": {
+  "title": "Kortslutning i kjølemiddelsensoren etter kompressoren",
+  "causes": [
+   "Temperatursensoren for kjølemiddel etter kompressoren er kortsluttet."
+  ],
+  "steps": [
+   "Noter feilkoden.",
+   "Slå av tørketrommelen og ikke fortsett å bruke den.",
+   "Bestill en reparasjon hos Miele."
+  ],
+  "technician": "Dette er en teknisk feil du ikke kan rette selv. Bestill en Miele-tekniker."
+ },
+ "Miele|F50": {
+  "title": "Overbelastning eller programvarefeil",
+  "causes": [
+   "Trommelen er overfylt.",
+   "En programvarefeil, ofte kort tid etter at døren ble åpnet for å legge i mer tøy.",
+   "En teknisk feil."
+  ],
+  "steps": [
+   "Ta ut litt tøy slik at lasten passer til programmets grense.",
+   "Slå av tørketrommelen og slå den straks på igjen.",
+   "Start programmet på nytt."
+  ],
+  "technician": "Hvis F50 fortsetter å komme tilbake, kontakt Miele kundeservice."
+ },
+ "Miele|F55": {
+  "title": "Tøyet er ikke tørt etter maksimal tid",
+  "causes": [
+   "Trommelen er overfylt.",
+   "Tøyet ble ikke sentrifugert hardt nok i vaskemaskinen.",
+   "Lofiltrene er skitne."
+  ],
+  "steps": [
+   "Reduser lasten til maksimum for programmet.",
+   "Sentrifuger tøyet med høyeste egnede turtall før tørking.",
+   "Rengjør alle lofiltre og la dem tørke helt før du setter dem på plass.",
+   "Kjør programmet på nytt."
+  ],
+  "technician": "Hvis feilen vedvarer med rene filtre og normal last, kontakt Miele kundeservice."
+ },
+ "Miele|F66": {
+  "title": "Luftstrømmen er blokkert (filtre eller ventilasjon)",
+  "causes": [
+   "Lofiltrene eller sokkelfilteret er skitne.",
+   "Sokkelfilteret er skorpete, skadet eller deformert.",
+   "Trommelen er overfylt.",
+   "Ventilasjonsristen er blokkert, eller rommet er dårlig ventilert."
+  ],
+  "steps": [
+   "Rengjør lofiltrene og sokkelfilteret, og klem sokkelfilteret tørt.",
+   "Støvsug forsiktig lo fra varmeveksleren uten å trykke på lamellene.",
+   "Rydd ventilasjonsristen under døren.",
+   "Reduser lasten og luft ut i rommet mens du tørker.",
+   "Bytt et skadet sokkelfilter."
+  ],
+  "technician": "Hvis F66 står etter grundig rengjøring, kontakt Miele kundeservice."
+ },
+ "Miele|noC": {
+  "title": "Ingen Wi-Fi-tilkobling",
+  "causes": [
+   "Miele@home er ikke satt opp.",
+   "Tørketrommelen når ikke Wi-Fi-nettet ditt."
+  ],
+  "steps": [
+   "Sett opp Miele@home hvis du ikke har gjort det ennå.",
+   "Sjekk at Wi-Fi er på, og start ruteren på nytt.",
+   "Forbedre signalet med en repeater hvis det er svakt.",
+   "Tilbakestill Wi-Fi på tørketrommelen og koble den til på nytt."
+  ],
+  "technician": "Dette er en tilkoblingsmelding, ikke en feil på tørketrommelen. Kontakt Miele hvis den ikke kobler seg til etter disse trinnene."
+ },
+ "AEG|E50": {
+  "title": "Motoren er overbelastet",
+  "causes": [
+   "Trommelen er overfylt.",
+   "Tøy sitter fast i trommelen.",
+   "En feil på motoren eller drivverket."
+  ],
+  "steps": [
+   "Åpne døren og sjekk om noe sitter fast.",
+   "Ta ut litt tøy hvis lasten er for stor.",
+   "Lukk døren og start på nytt.",
+   "Hvis den står, slå av strømmen i omtrent 1 minutt og start på nytt."
+  ],
+  "technician": "Hvis E50 kommer tilbake gang på gang eller trommelen ikke går rundt, bestill en reparasjon fra AEG."
+ },
+ "AEG|E40": {
+  "title": "Døren er ikke lukket",
+  "causes": [
+   "Tøy sitter fast i døren.",
+   "Dørpakningen eller låsen er skitten eller slitt.",
+   "Trommelen er overfylt og presser på døren."
+  ],
+  "steps": [
+   "Fjern tøy som sitter fast i døren, og lukk den til den klikker.",
+   "Tørk av dørpakningen med en fuktig klut.",
+   "Børst lo ut av dørlåsen.",
+   "Reduser lasten.",
+   "Slå av strømmen i 30 sekunder, og start på nytt."
+  ],
+  "technician": "Hvis feilen vedvarer, kan låsen eller dørsensoren være defekt. Bestill et servicebesøk fra AEG."
+ },
+ "AEG|E20": {
+  "title": "Problem med tømmingen eller pumpen",
+  "causes": [
+   "Avløpsslangen er ikke ordentlig tilkoblet.",
+   "Avløpsslangen er vridd, tett eller ligger i løkker."
+  ],
+  "steps": [
+   "Hvis du bruker avløp, sjekk at slangen er riktig tilkoblet.",
+   "Fjern vridninger, løkker og tetninger fra slangen.",
+   "Slå av strømmen i 30 sekunder, og start på nytt."
+  ],
+  "technician": "Hvis feilen vedvarer, bestill en autorisert AEG-tekniker."
+ },
+ "AEG|E60": {
+  "title": "Problem med oppvarmingen",
+  "causes": [
+   "Tørketrommelen er bygd inn i et skap uten ventilasjon.",
+   "Rommet er for lite eller ikke ventilert.",
+   "Lofilteret, kondensatoren eller pakningen er skitten.",
+   "Varmeelementet er defekt."
+  ],
+  "steps": [
+   "Sørg for at tørketrommelen har plass og luft rundt seg.",
+   "Åpne et vindu eller en dør når du tørker i et lite rom.",
+   "Rengjør lofilteret, kondensatoren og dørpakningen.",
+   "Kjør et tidsstyrt program og sjekk om den er varm etter 30 minutter."
+  ],
+  "technician": "Hvis den fortsatt er kald, bestill en reparasjon fra AEG."
+ },
+ "AEG|E70": {
+  "title": "Feil på temperatursensoren",
+  "causes": [
+   "Temperatursensoren er defekt."
+  ],
+  "steps": [
+   "Trekk ut støpselet til tørketrommelen i 2 timer for å tilbakestille den.",
+   "Sett i støpselet igjen og prøv på nytt.",
+   "Hvis koden kommer tilbake, slutt å bruke tørketrommelen og la støpselet være ute."
+  ],
+  "technician": "Kontakt AEG og oppgi koden for å få et servicebesøk."
+ },
+ "AEG|E80": {
+  "title": "Feil på programvelgeren eller programvaren",
+  "causes": [
+   "Programvelgeren står mellom to posisjoner.",
+   "En programvarefeil."
+  ],
+  "steps": [
+   "Vri velgeren slik at den står helt på ett program.",
+   "Trekk ut støpselet til tørketrommelen i 30 sekunder, sett det i igjen og start på nytt."
+  ],
+  "technician": "Hvis E80 står, bestill en servicetekniker fra AEG."
+ },
+ "AEG|EH0": {
+  "title": "Problem med strømforsyningen",
+  "causes": [
+   "Spenningen er for lav eller for høy.",
+   "Strømforsyningen er ustabil."
+  ],
+  "steps": [
+   "Test stikkontakten med et annet apparat.",
+   "Ikke bruk skjøteledning.",
+   "Trekk ut støpselet til tørketrommelen i 30 sekunder, og start på nytt."
+  ],
+  "technician": "Hvis også et annet apparat svikter, kontakt en elektriker. Hvis bare tørketrommelen viser koden, bestill en tekniker fra AEG."
+ },
+ "AEG|EBD": {
+  "title": "Elektrisk støy registrert",
+  "causes": [
+   "Elektrisk støy i strømforsyningen.",
+   "Dårlig jording."
+  ],
+  "steps": [
+   "Prøv tørketrommelen i en annen stikkontakt som virker.",
+   "Sørg for at stikkontakten er ordentlig jordet."
+  ],
+  "technician": "Hvis koden står, kontakt et autorisert AEG-serviceverksted. Ikke prøv å utføre elektriske reparasjoner selv."
+ },
+ "AEG|CE": {
+  "title": "Feil i elektronikken",
+  "causes": [
+   "En feil i elektronikken til tørketrommelen."
+  ],
+  "steps": [
+   "Slutt å bruke tørketrommelen.",
+   "Trekk ut støpselet og la det være ute."
+  ],
+  "technician": "Bestill en autorisert AEG-tekniker for å feilsøke elektronikken."
+ },
+ "AEG|C8": {
+  "title": "Feil på temperatursensoren",
+  "causes": [
+   "Temperatursensoren har et problem."
+  ],
+  "steps": [
+   "Slutt å bruke tørketrommelen.",
+   "La støpselet være ute til den er sjekket."
+  ],
+  "technician": "Bestill et servicebesøk fra AEG for å bytte eller sjekke sensoren."
+ },
+ "AEG|C6": {
+  "title": "Problem med fuktsensoren",
+  "causes": [
+   "Tørketrommelen er ikke koblet til en jordet stikkontakt.",
+   "Systemet som måler fuktighet, er defekt."
+  ],
+  "steps": [
+   "Sjekk at tørketrommelen er koblet til en jordet stikkontakt.",
+   "Hvis programmet fortsatt varer svært lenge, slutt å bruke tørketrommelen og trekk ut støpselet."
+  ],
+  "technician": "Hvis stikkontakten er jordet og feilen står, bestill en reparasjon fra AEG."
+ },
+ "AEG|Err": {
+  "title": "Feil på dampbeholderen (modeller med Iron Aid)",
+  "causes": [
+   "Vannbeholderen for damp er nesten eller helt tom."
+  ],
+  "steps": [
+   "Fyll dampbeholderen opp til MAX-nivået.",
+   "Start programmet på nytt."
+  ],
+  "technician": "Hvis symbolene fortsetter å blinke etter påfylling, slutt å bruke tørketrommelen og kontakt et AEG-serviceverksted."
+ },
+ "Hotpoint|F01": {
+  "title": "Feil på kretskortet",
+  "causes": [
+   "En feil på det elektroniske styrekortet."
+  ],
+  "steps": [
+   "Trekk ut støpselet til tørketrommelen i minst 2 minutter.",
+   "Sett i støpselet igjen, vent 30 sekunder og prøv på nytt."
+  ],
+  "technician": "Hvis F01 kommer tilbake etter tilbakestillingen, kontakt Hotpoint-service for å bestille en tekniker."
+ },
+ "Hotpoint|F02": {
+  "title": "Feil i motorkretsen",
+  "causes": [
+   "En feil i motorkretsen. Trommelen går bare innimellom eller ikke i det hele tatt."
+  ],
+  "steps": [
+   "Slå av tørketrommelen og trekk ut støpselet.",
+   "Ikke fortsett å bruke den."
+  ],
+  "technician": "Kontakt Hotpoint-service for å bestille en tekniker."
+ },
+ "Hotpoint|F03": {
+  "title": "Feil i temperaturmålingen",
+  "causes": [
+   "Temperatursensoren er defekt, så tørketrommelen varmer ikke."
+  ],
+  "steps": [
+   "Slå av tørketrommelen og trekk ut støpselet."
+  ],
+  "technician": "Kontakt Hotpoint-service for å bestille en tekniker."
+ },
+ "Hotpoint|F05": {
+  "title": "Tett avløp eller problem med pumpen",
+  "causes": [
+   "En tetning i pumpefilteret (hvis montert) eller avløpsslangen.",
+   "Et tett avløpsrør.",
+   "En defekt pumpe."
+  ],
+  "steps": [
+   "Sjekk og rengjør pumpefilteret hvis modellen din har et.",
+   "Sjekk avløpsslangen og røret den er koblet til, for tetninger."
+  ],
+  "technician": "Hvis alt er fritt og feilen står, kan pumpen ha sviktet. Kontakt Hotpoint-service."
+ },
+ "Hotpoint|F06": {
+  "title": "Feil på dørlåsen",
+  "causes": [
+   "Noe blokkerer dørlåsen.",
+   "Dørlåsen er defekt."
+  ],
+  "steps": [
+   "Sjekk området ved dørlåsen for lo eller gjenstander, og fjern dem.",
+   "Lukk døren godt og prøv igjen."
+  ],
+  "technician": "Hvis feilen står, kontakt Hotpoint-service."
+ },
+ "Hotpoint|F09": {
+  "title": "Programvarefeil",
+  "causes": [
+   "Et programvareproblem. Flere lamper kan blinke, og du kan ikke velge program."
+  ],
+  "steps": [
+   "Trekk ut støpselet til tørketrommelen i noen minutter og prøv igjen."
+  ],
+  "technician": "Kontakt Hotpoint-service for å bestille en tekniker."
+ },
+ "Hotpoint|F11": {
+  "title": "Feil i pumpekretsen",
+  "causes": [
+   "Pumpekretsen har sviktet, så vannet pumpes ikke ut."
+  ],
+  "steps": [
+   "Tøm vannbeholderen hvis modellen din har en.",
+   "Slå av tørketrommelen og trekk ut støpselet."
+  ],
+  "technician": "Kontakt Hotpoint-service for å bestille en tekniker."
+ },
+ "Hotpoint|F12": {
+  "title": "Feil i den elektroniske styringen",
+  "causes": [
+   "Den elektroniske styringen er defekt. Tørketrommelen slår seg kanskje ikke på."
+  ],
+  "steps": [
+   "Sjekk støpselet og stikkontakten.",
+   "Trekk ut støpselet til tørketrommelen i noen minutter og prøv igjen."
+  ],
+  "technician": "Kontakt Hotpoint-service for å bestille en tekniker."
+ },
+ "Hotpoint|F18": {
+  "title": "Intern datafeil",
+  "causes": [
+   "Ødelagte interne data. Deler av displayet eller enkelte funksjoner virker ikke."
+  ],
+  "steps": [
+   "Trekk ut støpselet til tørketrommelen i minst 2 minutter.",
+   "Sett i støpselet igjen, vent 30 sekunder og prøv på nytt."
+  ],
+  "technician": "Hvis F18 står etter tilbakestillingen, kontakt Hotpoint-service."
+ },
+ "Indesit|F02": {
+  "title": "Feil i motorkretsen",
+  "causes": [
+   "En feil i motorkretsen. Trommelen går bare innimellom eller ikke i det hele tatt."
+  ],
+  "steps": [
+   "Slå av tørketrommelen og trekk ut støpselet."
+  ],
+  "technician": "Kontakt Indesit-service for å bestille en tekniker."
+ },
+ "Indesit|F03": {
+  "title": "Feil i temperaturmålingen",
+  "causes": [
+   "Temperatursensoren er defekt, så tørketrommelen varmer ikke."
+  ],
+  "steps": [
+   "Slå av tørketrommelen og trekk ut støpselet."
+  ],
+  "technician": "Kontakt Indesit-service for å bestille en tekniker."
+ },
+ "Indesit|F05": {
+  "title": "Tett avløp eller problem med pumpen",
+  "causes": [
+   "En tetning i pumpefilteret (hvis montert) eller avløpsslangen.",
+   "En defekt pumpe."
+  ],
+  "steps": [
+   "Sjekk og rengjør pumpefilteret hvis modellen din har et.",
+   "Sjekk avløpsslangen og avløpsrøret for tetninger."
+  ],
+  "technician": "Hvis alt er fritt og feilen står, kontakt Indesit-service."
+ },
+ "Indesit|F06": {
+  "title": "Feil på dørlåsen",
+  "causes": [
+   "Noe blokkerer dørlåsen.",
+   "Dørlåsen er defekt."
+  ],
+  "steps": [
+   "Sjekk at ingenting blokkerer dørlåsen.",
+   "Lukk døren godt og prøv igjen."
+  ],
+  "technician": "Hvis feilen står, kontakt Indesit-service."
+ },
+ "Indesit|F09": {
+  "title": "Programvarefeil",
+  "causes": [
+   "Et programvareproblem. Flere lamper kan blinke, og du kan ikke velge program."
+  ],
+  "steps": [
+   "Trekk ut støpselet til tørketrommelen i noen minutter og prøv igjen."
+  ],
+  "technician": "Kontakt Indesit-service for å bestille en tekniker."
+ },
+ "Indesit|F11": {
+  "title": "Feil i pumpekretsen",
+  "causes": [
+   "Pumpekretsen har sviktet, så vannet pumpes ikke ut."
+  ],
+  "steps": [
+   "Tøm vannbeholderen hvis modellen din har en.",
+   "Slå av tørketrommelen og trekk ut støpselet."
+  ],
+  "technician": "Kontakt Indesit-service for å bestille en tekniker."
+ },
+ "Indesit|F12": {
+  "title": "Feil i den elektroniske styringen",
+  "causes": [
+   "Den elektroniske styringen er defekt. Tørketrommelen slår seg kanskje ikke på."
+  ],
+  "steps": [
+   "Sjekk støpselet og stikkontakten.",
+   "Trekk ut støpselet til tørketrommelen i noen minutter og prøv igjen."
+  ],
+  "technician": "Kontakt Indesit-service for å bestille en tekniker."
+ },
+ "Indesit|F18": {
+  "title": "Intern datafeil",
+  "causes": [
+   "Ødelagte interne data. Deler av displayet eller enkelte funksjoner virker ikke."
+  ],
+  "steps": [
+   "Trekk ut støpselet til tørketrommelen i minst 2 minutter.",
+   "Sett i støpselet igjen, vent 30 sekunder og prøv på nytt."
+  ],
+  "technician": "Hvis F18 står etter tilbakestillingen, kontakt Indesit-service."
+ },
+ "Whirlpool|AF": {
+  "title": "Begrenset luftstrøm",
+  "causes": [
+   "Lofilteret er tett.",
+   "Ventilasjonen er tett, klemt, har en knekk eller for mange bøyer."
+  ],
+  "steps": [
+   "Rengjør lofilteret.",
+   "Sjekk ventilasjonen for tetninger, klemming eller knekk.",
+   "Trykk på en hvilken som helst knapp for å fjerne koden."
+  ],
+  "technician": "Hvis koden fortsetter å komme tilbake med ren ventilasjon, bestill Whirlpool-service."
+ },
+ "Whirlpool|L2": {
+  "title": "Lav eller ingen nettspenning",
+  "causes": [
+   "En sikring i boligen har gått.",
+   "Strømledningen er ikke riktig installert."
+  ],
+  "steps": [
+   "Sjekk sikringene (elektriske tørketromler bruker to) og tilbakestill dem.",
+   "Sjekk at strømledningen er installert som beskrevet i installasjonsveiledningen.",
+   "Kjør et tidsstyrt program med varme og start på nytt."
+  ],
+  "technician": "Hvis L2 står, la en kvalifisert elektriker sjekke strømforsyningen."
+ },
+ "Whirlpool|PF": {
+  "title": "Strømbrudd",
+  "causes": [
+   "Strømmen ble brutt under programmet."
+  ],
+  "steps": [
+   "Trykk og hold Start for å fortsette programmet.",
+   "Eller trykk Power for å fjerne meldingen i displayet."
+  ],
+  "technician": "Ikke en feil. Kontakt Whirlpool bare hvis PF vises uten at det har vært strømbrudd."
+ },
+ "Whirlpool|F1E3": {
+  "title": "Problem med styreenheten eller ledningene",
+  "causes": [
+   "En feil i styreenheten eller ledningene til den."
+  ],
+  "steps": [
+   "Trykk Power, velg et program og trykk og hold Start.",
+   "Hvis den ikke starter, trekk ut støpselet."
+  ],
+  "technician": "Hvis problemet fortsetter, bestill Whirlpool-service."
+ },
+ "Whirlpool|Loc": {
+  "title": "Kontrollås er på",
+  "causes": [
+   "Kontrollåsen er slått på."
+  ],
+  "steps": [
+   "Trykk og hold Control Lock i 3 sekunder til displayet teller ned og blir tomt."
+  ],
+  "technician": "Dette er ikke en feil. Kontakt Whirlpool bare hvis låsen ikke lar seg slå av."
+ },
+ "Whirlpool|LF": {
+  "title": "Lofilteret er tatt ut",
+  "causes": [
+   "HybridCare-filteret er ikke i tørketrommelen."
+  ],
+  "steps": [
+   "Sett filteret tilbake.",
+   "Sørg for at filterhåndtaket sitter helt på plass."
+  ],
+  "technician": "Hvis LF står selv om filteret er på plass, kontakt Whirlpool-service."
+ }
+}

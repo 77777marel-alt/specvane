@@ -154,7 +154,7 @@ export const ro: Dict = {
     popularCompare: "Comparații populare",
     seeAll: "Toate",
     errTitle: "Coduri de eroare",
-    errLead: "Ce înseamnă codurile de eroare ale mașinilor de spălat rufe și vase și ce puteți face singur în siguranță.",
+    errLead: "Ce înseamnă codurile de eroare ale mașinilor de spălat, mașinilor de spălat vase, uscătoarelor, frigiderelor, espressoarelor, aparatelor de aer condiționat și centralelor termice și ce puteți face singur în siguranță.",
     errBrandTitle: "{brand} {appliance}: coduri de eroare",
     errCodeTitle: "{brand} {appliance} eroare {code}",
     errCauses: "Cauze posibile",

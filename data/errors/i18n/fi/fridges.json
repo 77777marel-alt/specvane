@@ -1,0 +1,1196 @@
+{
+ "Samsung|AP": {
+  "title": "Wi-Fi-asetustila",
+  "causes": [
+   "Jääkaappi toimii Wi-Fi-tukiasemana SmartThings-käyttöönottoa varten."
+  ],
+  "steps": [
+   "Viimeistele käyttöönotto SmartThings-sovelluksessa tai odota. Koodi poistuu itsestään."
+  ],
+  "technician": "Kyseessä ei ole vika. Huoltoa ei tarvita."
+ },
+ "Samsung|21E": {
+  "title": "Pakastimen tuulettimen virhe",
+  "causes": [
+   "Pakastimen tuuletin on jäätynyt, usein kun ovi on jäänyt auki tai tiiviste ei ole tiivistänyt.",
+   "Tuulettimen moottori on rikki."
+  ],
+  "steps": [
+   "Tarkista, että pakastimen ovi sulkeutuu ja tiiviste tiivistää joka puolelta.",
+   "Älä täytä pakastinta liian täyteen.",
+   "Jos mahdollista, siirrä ruoat pois ja anna jääkaapin sulaa ovet auki."
+  ],
+  "technician": "Jos koodi palaa sulatuksen jälkeen, tuuletin vaatii Samsungin huoltoasentajan."
+ },
+ "Samsung|22E": {
+  "title": "Jääkaapin tuulettimen virhe",
+  "causes": [
+   "Jääkaapin ovi oli liian kauan auki, ja tuuletin jäätyi."
+  ],
+  "steps": [
+   "Siirrä ruoat viileään paikkaan.",
+   "Irrota jääkaapin pistoke ja jätä ovet auki muutamaksi tunniksi.",
+   "Kytke pistoke takaisin ja sulje ovet."
+  ],
+  "technician": "Jos 22E palaa, pyydä Samsungin huoltoa."
+ },
+ "Samsung|41C": {
+  "title": "Family Hub -vika",
+  "causes": [
+   "Ohjelmisto-ongelma Family Hub -näytössä."
+  ],
+  "steps": [
+   "Asenna uusin ohjelmistopäivitys.",
+   "Napauta OK, kun koodi näkyy ensimmäisen kerran päivityksen jälkeen."
+  ],
+  "technician": "Jos koodi palaa yhä päivityksen jälkeen, pyydä Samsungin huoltoa."
+ },
+ "Samsung|76C": {
+  "title": "Vettä AutoFill-lokerossa",
+  "causes": [
+   "AutoFill-vesikannu vuotaa lokeroonsa."
+  ],
+  "steps": [
+   "Ota kannu pois ja kuivaa lokero.",
+   "Tarkista, että kannu on oikein paikallaan eikä se ole haljennut."
+  ],
+  "technician": "Jos vettä kertyy edelleen, ota yhteys Samsungin huoltoon."
+ },
+ "Samsung|85C": {
+  "title": "Alhainen syöttöjännite (Family Hub)",
+  "causes": [
+   "Yleensä lyhyt sähkökatko."
+  ],
+  "steps": [
+   "Poista koodi pitämällä OK-painiketta painettuna 3 sekuntia."
+  ],
+  "technician": "Yksittäisenä vaaraton. Ota yhteys Samsungiin vain, jos koodi näkyy usein."
+ },
+ "Samsung|88 88": {
+  "title": "Tiedonsiirtovika käynnistyksessä",
+  "causes": [
+   "Sähkönsyötössä oli häiriö jääkaapin käynnistyessä."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke tai katkaise sen sulake 60 sekunniksi.",
+   "Palauta virta ja tarkista, palaako koodi."
+  ],
+  "technician": "Jos koodi palaa nollauksen jälkeen, pyydä Samsungin huoltoa."
+ },
+ "Samsung|83E": {
+  "title": "Kompressorin poikkeava virta",
+  "causes": [
+   "Jännitepiikki tai sähköongelma."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke tai katkaise sen sulake 60 sekunniksi.",
+   "Palauta virta ja tarkista, palaako koodi."
+  ],
+  "technician": "Jos 83E palaa, pyydä Samsungin huoltoa."
+ },
+ "Samsung|85E": {
+  "title": "Kompressorin alhainen jännite",
+  "causes": [
+   "Jännitteen notkahdus tai alhainen verkkojännite."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke tai katkaise sen sulake 60 sekunniksi.",
+   "Palauta virta ja tarkista, palaako koodi."
+  ],
+  "technician": "Jos 85E palaa, tarkistuta sähkönsyöttö ja pyydä Samsungin huoltoa."
+ },
+ "Samsung|86E": {
+  "title": "Kompressorin korkea jännite",
+  "causes": [
+   "Jännitepiikki esimerkiksi ukkosmyrskyn aikana."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke tai katkaise sen sulake 60 sekunniksi.",
+   "Palauta virta ja tarkista, palaako koodi."
+  ],
+  "technician": "Jos 86E palaa, pyydä Samsungin huoltoa."
+ },
+ "Samsung|PC ER": {
+  "title": "Sisäinen tiedonsiirtovirhe",
+  "causes": [
+   "Äskettäinen jännitepiikki.",
+   "Oven johdotuksen liitin ei ole kunnolla kiinni."
+  ],
+  "steps": [
+   "Katkaise virta pistorasiasta tai sulakkeesta.",
+   "Tarkista oven saranan yläpuolella oleva johdotuksen liitin ja kytke se uudelleen.",
+   "Palauta virta."
+  ],
+  "technician": "Jos koodi palaa, pyydä Samsungin huoltoa."
+ },
+ "Samsung|OF OF": {
+  "title": "Cooling Off -tila (esittelytila)",
+  "causes": [
+   "Esittely- tai myymälätila on päällä, usein vahingossa. Jääkaappi ei jäähdytä."
+  ],
+  "steps": [
+   "Pidä paneelin vasemman reunan kahta ylintä painiketta painettuna 5–8 sekuntia, kunnes kuuluu merkkiääni.",
+   "Joissakin malleissa pidä painettuna myös oikeaa ylintä painiketta.",
+   "Tarkista mallisi painikeyhdistelmä käyttöohjeesta."
+  ],
+  "technician": "Huoltoa ei tarvita. Kyseessä on asetus, ei vika."
+ },
+ "Samsung|5E": {
+  "title": "Jääkaapin sulatusanturin virhe",
+  "causes": [
+   "Jääkaapin sulatusanturi on viallinen."
+  ],
+  "steps": [
+   "Älä irrota jääkaapin pistoketta, ellei sitä erikseen neuvota.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Pyydä Samsungin huoltoa vaihtamaan tai tarkistamaan anturi."
+ },
+ "Samsung|8E": {
+  "title": "Jääpalakoneen anturin virhe (pakastin)",
+  "causes": [
+   "Pakastimen jääpalakoneen anturi on viallinen."
+  ],
+  "steps": [
+   "Kytke jääpalakone pois päältä, jos mahdollista.",
+   "Jatka jääkaapin käyttöä normaalisti."
+  ],
+  "technician": "Pyydä Samsungin huoltoa."
+ },
+ "Samsung|14E": {
+  "title": "Jääpalakoneen anturin virhe",
+  "causes": [
+   "Jääpalakoneen anturi on viallinen."
+  ],
+  "steps": [
+   "Kytke jääpalakone pois päältä, jos mahdollista.",
+   "Jatka jääkaapin käyttöä normaalisti."
+  ],
+  "technician": "Pyydä Samsungin huoltoa."
+ },
+ "Samsung|33E": {
+  "title": "Jääputken lämmittimen virhe",
+  "causes": [
+   "Jääpalakoneen vesiputken lämmitin on viallinen."
+  ],
+  "steps": [
+   "Kytke jääpalakone pois päältä, jos mahdollista."
+  ],
+  "technician": "Pyydä Samsungin huoltoa."
+ },
+ "Samsung|39E": {
+  "title": "Jääpalakoneen toimintavirhe",
+  "causes": [
+   "Jääpalakone ei toimi oikein."
+  ],
+  "steps": [
+   "Tarkista, että jääsäiliö on oikein paikallaan.",
+   "Kytke jääpalakone pois päältä, jos mahdollista."
+  ],
+  "technician": "Jos koodi ei poistu, pyydä Samsungin huoltoa."
+ },
+ "Samsung|40E": {
+  "title": "Jäälokeron tuulettimen virhe",
+  "causes": [
+   "Jäälokeron tuuletin ei toimi, usein jään vuoksi."
+  ],
+  "steps": [
+   "Tarkista, että jäälokeron ovi sulkeutuu kokonaan."
+  ],
+  "technician": "Pyydä Samsungin huoltoa."
+ },
+ "Samsung|84C": {
+  "title": "Kompressori lukittunut",
+  "causes": [
+   "Kompressori on lukittunut eikä käynnisty."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke tai katkaise sen sulake 60 sekunniksi.",
+   "Palauta virta ja tarkista, palaako koodi."
+  ],
+  "technician": "Pyydä Samsungin huoltoa. Korjaus vaatii huoltoasentajan."
+ },
+ "LG|CF": {
+  "title": "Lauhduttimen tuulettimen virhe",
+  "causes": [
+   "Lauhduttimen tuuletin on tukossa tai ei käy, joten kompressori ylikuormittuu."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke 60 sekunniksi ja kytke se suoraan seinäpistorasiaan, ei jatkojohtoon.",
+   "Tarkista, palaako koodi.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Pyydä LG:n huoltoa. Korjaus vaatii huoltoasentajan."
+ },
+ "LG|CO": {
+  "title": "Tiedonsiirtovirhe",
+  "causes": [
+   "Pääpiirilevy ja näyttö eivät saa yhteyttä toisiinsa."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke 60 sekunniksi ja kytke se suoraan seinäpistorasiaan, ei jatkojohtoon.",
+   "Tarkista, palaako koodi.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Pyydä LG:n huoltoa. Korjaus vaatii huoltoasentajan."
+ },
+ "LG|FF": {
+  "title": "Pakastimen tuulettimen virhe",
+  "causes": [
+   "Pakastimen tuuletin on tukossa, usein jään vuoksi, tai rikki."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke 60 sekunniksi ja kytke se suoraan seinäpistorasiaan, ei jatkojohtoon.",
+   "Tarkista, palaako koodi.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Pyydä LG:n huoltoa. Korjaus vaatii huoltoasentajan."
+ },
+ "LG|FS": {
+  "title": "Pakastimen anturin virhe",
+  "causes": [
+   "Pakastimen lämpötila-anturi on viallinen."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke 60 sekunniksi ja kytke se suoraan seinäpistorasiaan, ei jatkojohtoon.",
+   "Tarkista, palaako koodi.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Pyydä LG:n huoltoa. Korjaus vaatii huoltoasentajan."
+ },
+ "LG|FU": {
+  "title": "Pakastin ei jäähdytä tarpeeksi",
+  "causes": [
+   "Pakastin ei kylmennyt tarpeeksi käynnistyksen jälkeen.",
+   "Ovia on avattu usein, tai ne eivät tiivisty.",
+   "Ruoat tukkivat ilmanvaihtoaukot."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke 60 sekunniksi ja kytke se suoraan seinäpistorasiaan, ei jatkojohtoon.",
+   "Aseta pakastimen lämpötilaksi -18 °C.",
+   "Pidä ruoat erillään ilmanvaihtoaukoista.",
+   "Tarkista oven tiivisteet sulkemalla ovi paperiarkin päälle. Paperin ei pitäisi liukua helposti ulos.",
+   "Avaa ovia harvemmin."
+  ],
+  "technician": "Jos pakastin ei vieläkään jäähdytä, pyydä LG:n huoltoa."
+ },
+ "LG|IF": {
+  "title": "Jääpalakoneen tuulettimen virhe",
+  "causes": [
+   "Jääpalakoneen tuuletin on tukossa tai viallinen."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke 60 sekunniksi ja kytke se suoraan seinäpistorasiaan, ei jatkojohtoon.",
+   "Tarkista, palaako koodi.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Pyydä LG:n huoltoa. Korjaus vaatii huoltoasentajan."
+ },
+ "LG|IS": {
+  "title": "Jääpalakoneen anturin virhe",
+  "causes": [
+   "Jääpalakoneen lämpötila-anturi on viallinen."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke 60 sekunniksi ja kytke se suoraan seinäpistorasiaan, ei jatkojohtoon.",
+   "Tarkista, palaako koodi.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Pyydä LG:n huoltoa. Korjaus vaatii huoltoasentajan."
+ },
+ "LG|It": {
+  "title": "Jääpalakoneen moottorin virhe",
+  "causes": [
+   "Jääpalakoneen moottori on viallinen."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke 60 sekunniksi ja kytke se suoraan seinäpistorasiaan, ei jatkojohtoon.",
+   "Tarkista, palaako koodi.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Pyydä LG:n huoltoa. Korjaus vaatii huoltoasentajan."
+ },
+ "LG|rS": {
+  "title": "Jääkaapin anturin virhe (ylempi)",
+  "causes": [
+   "Jääkaapin ylempi lämpötila-anturi on viallinen."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke 60 sekunniksi ja kytke se suoraan seinäpistorasiaan, ei jatkojohtoon.",
+   "Tarkista, palaako koodi.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Pyydä LG:n huoltoa. Korjaus vaatii huoltoasentajan."
+ },
+ "LG|r2": {
+  "title": "Jääkaapin anturin virhe (alempi)",
+  "causes": [
+   "Jääkaapin alempi lämpötila-anturi on viallinen."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke 60 sekunniksi ja kytke se suoraan seinäpistorasiaan, ei jatkojohtoon.",
+   "Tarkista, palaako koodi.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Pyydä LG:n huoltoa. Korjaus vaatii huoltoasentajan."
+ },
+ "LG|dS": {
+  "title": "Sulatusanturin virhe",
+  "causes": [
+   "Sulatusanturi on viallinen, joten höyrystin voi jäätyä."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke 60 sekunniksi ja kytke se suoraan seinäpistorasiaan, ei jatkojohtoon.",
+   "Tarkista, palaako koodi.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Pyydä LG:n huoltoa. Korjaus vaatii huoltoasentajan."
+ },
+ "LG|rT": {
+  "title": "Huoneenlämpöanturin virhe",
+  "causes": [
+   "Ympäristön lämpötila-anturi on viallinen."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke 60 sekunniksi ja kytke se suoraan seinäpistorasiaan, ei jatkojohtoon.",
+   "Tarkista, palaako koodi.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Pyydä LG:n huoltoa. Korjaus vaatii huoltoasentajan."
+ },
+ "LG|dH": {
+  "title": "Sulatus epäonnistui",
+  "causes": [
+   "Sulatusjärjestelmä ei lämmennyt ajoissa.",
+   "Jää tukkii höyrystimen."
+  ],
+  "steps": [
+   "Ota ruoat pois ja siirrä ne viileään paikkaan.",
+   "Aseta pyyhkeitä lattialle jääkaapin eteen.",
+   "Irrota jääkaapin pistoke ja jätä ovet auki vähintään 12 tunniksi, jotta jää sulaa.",
+   "Kytke pistoke takaisin."
+  ],
+  "technician": "Tämä on usein vain väliaikainen ratkaisu. Jos dH palaa, pyydä LG:n huoltoa."
+ },
+ "LG|SS": {
+  "title": "Vesisäiliön anturin virhe",
+  "causes": [
+   "Vesisäiliön lämpötila-anturi on viallinen."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke 60 sekunniksi ja kytke se suoraan seinäpistorasiaan, ei jatkojohtoon.",
+   "Tarkista, palaako koodi.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Pyydä LG:n huoltoa. Korjaus vaatii huoltoasentajan."
+ },
+ "LG|rF": {
+  "title": "Jääkaapin tuulettimen virhe",
+  "causes": [
+   "Jääkaapin tuuletin on tukossa tai viallinen."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke 60 sekunniksi ja kytke se suoraan seinäpistorasiaan, ei jatkojohtoon.",
+   "Tarkista, palaako koodi.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Pyydä LG:n huoltoa. Korjaus vaatii huoltoasentajan."
+ },
+ "LG|tt": {
+  "title": "Vesisäiliön ongelma",
+  "causes": [
+   "Vesisäiliö puuttuu tai ei ole oikein paikallaan.",
+   "Säiliön anturi on viallinen."
+  ],
+  "steps": [
+   "Ota vesisäiliö pois ja aseta se oikein takaisin.",
+   "Tarkista, poistuuko koodi."
+  ],
+  "technician": "Jos tt ei poistu, vaikka säiliö on paikallaan, pyydä LG:n huoltoa."
+ },
+ "LG|C1": {
+  "title": "Annostelijan tiedonsiirtovirhe",
+  "causes": [
+   "Annostelija ja näyttö eivät saa yhteyttä toisiinsa."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke 60 sekunniksi ja kytke se suoraan seinäpistorasiaan, ei jatkojohtoon.",
+   "Tarkista, palaako koodi.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Pyydä LG:n huoltoa. Korjaus vaatii huoltoasentajan."
+ },
+ "LG|gF": {
+  "title": "Virtausanturin virhe",
+  "causes": [
+   "Vedensyötön hana on kiinni.",
+   "Vesiletku on taittunut.",
+   "Vedenpaine on väärä."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke 60 sekunniksi ja kytke se suoraan seinäpistorasiaan, ei jatkojohtoon.",
+   "Odota enintään 5 minuuttia, että jääkaappi käynnistyy uudelleen.",
+   "Avaa vedensyötön hana kokonaan.",
+   "Tarkista, ettei letku ole taittunut.",
+   "Vertaa vedenpainetta käyttöohjeen arvoihin."
+  ],
+  "technician": "Jos virhe ei poistu, pyydä LG:n huoltoa."
+ },
+ "LG|CH": {
+  "title": "Kylmäainejärjestelmän virhe (korkeapainepuoli)",
+  "causes": [
+   "Anturit mittaavat kylmäainejärjestelmässä poikkeavia arvoja, mahdollisesti vuodon tai viallisen venttiilin vuoksi."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke 60 sekunniksi ja kytke se suoraan seinäpistorasiaan, ei jatkojohtoon.",
+   "Tarkista, palaako koodi.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Pyydä LG:n huoltoa. Korjaus vaatii huoltoasentajan."
+ },
+ "LG|CL": {
+  "title": "Kylmäainejärjestelmän virhe (matalapainepuoli)",
+  "causes": [
+   "Anturit mittaavat kylmäainejärjestelmässä poikkeavia arvoja, mahdollisesti vuodon tai viallisen venttiilin vuoksi."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke 60 sekunniksi ja kytke se suoraan seinäpistorasiaan, ei jatkojohtoon.",
+   "Tarkista, palaako koodi.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Pyydä LG:n huoltoa. Korjaus vaatii huoltoasentajan."
+ },
+ "LG|Lo": {
+  "title": "Huone liian kylmä",
+  "causes": [
+   "Huoneen lämpötila on alle -10 °C."
+  ],
+  "steps": [
+   "Siirrä jääkaappi lämpimämpään paikkaan, jos mahdollista."
+  ],
+  "technician": "Kyseessä ei ole vika. Ota yhteys LG:hen vain, jos huone on lämmin ja Lo näkyy edelleen."
+ },
+ "LG|HI": {
+  "title": "Huone liian kuuma",
+  "causes": [
+   "Huoneen lämpötila on yli 50 °C."
+  ],
+  "steps": [
+   "Siirrä jääkaappi viileämpään paikkaan, jos mahdollista.",
+   "Varmista, että ilma pääsee kiertämään sen ympärillä."
+  ],
+  "technician": "Kyseessä ei ole vika. Ota yhteys LG:hen vain, jos huoneen lämpötila on normaali ja HI näkyy edelleen."
+ },
+ "Miele|F0": {
+  "title": "Tekninen vika",
+  "causes": [
+   "Havaittiin sisäinen tekninen vika."
+  ],
+  "steps": [
+   "Kirjoita vikakoodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi.",
+   "Tilaa Mielen huoltoasentaja."
+  ],
+  "technician": "Kyseessä on tekninen vika, jota et voi korjata itse. Ota yhteys Mielen asiakaspalveluun."
+ },
+ "Miele|F1": {
+  "title": "Tekninen vika",
+  "causes": [
+   "Havaittiin sisäinen tekninen vika."
+  ],
+  "steps": [
+   "Kirjoita vikakoodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi.",
+   "Tilaa Mielen huoltoasentaja."
+  ],
+  "technician": "Kyseessä on tekninen vika, jota et voi korjata itse. Ota yhteys Mielen asiakaspalveluun."
+ },
+ "Miele|F2": {
+  "title": "Tekninen vika",
+  "causes": [
+   "Havaittiin sisäinen tekninen vika."
+  ],
+  "steps": [
+   "Kirjoita vikakoodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi.",
+   "Tilaa Mielen huoltoasentaja."
+  ],
+  "technician": "Kyseessä on tekninen vika, jota et voi korjata itse. Ota yhteys Mielen asiakaspalveluun."
+ },
+ "Miele|F3": {
+  "title": "Tekninen vika",
+  "causes": [
+   "Havaittiin sisäinen tekninen vika."
+  ],
+  "steps": [
+   "Kirjoita vikakoodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi.",
+   "Tilaa Mielen huoltoasentaja."
+  ],
+  "technician": "Kyseessä on tekninen vika, jota et voi korjata itse. Ota yhteys Mielen asiakaspalveluun."
+ },
+ "Miele|F4": {
+  "title": "Tekninen vika",
+  "causes": [
+   "Havaittiin sisäinen tekninen vika."
+  ],
+  "steps": [
+   "Kirjoita vikakoodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi.",
+   "Tilaa Mielen huoltoasentaja."
+  ],
+  "technician": "Kyseessä on tekninen vika, jota et voi korjata itse. Ota yhteys Mielen asiakaspalveluun."
+ },
+ "Miele|F5": {
+  "title": "Tekninen vika",
+  "causes": [
+   "Havaittiin sisäinen tekninen vika."
+  ],
+  "steps": [
+   "Kirjoita vikakoodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi.",
+   "Tilaa Mielen huoltoasentaja."
+  ],
+  "technician": "Kyseessä on tekninen vika, jota et voi korjata itse. Ota yhteys Mielen asiakaspalveluun."
+ },
+ "Miele|F114": {
+  "title": "Pakastimen höyrystinanturi viallinen",
+  "causes": [
+   "Pakastinosan höyrystinanturi on viallinen."
+  ],
+  "steps": [
+   "Kirjoita vikakoodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi.",
+   "Tilaa Mielen huoltoasentaja."
+  ],
+  "technician": "Kyseessä on tekninen vika, jota et voi korjata itse. Ota yhteys Mielen asiakaspalveluun."
+ },
+ "Miele|F120": {
+  "title": "Verkkojännite liian alhainen",
+  "causes": [
+   "Verkkojännite on ajoittain liian alhainen tai vaihtelee paljon."
+  ],
+  "steps": [
+   "Tarkista, onko myös muissa laitteissa ongelmia.",
+   "Pyydä pätevää sähköasentajaa tarkistamaan verkkojännite."
+  ],
+  "technician": "Jos jännite on kunnossa ja F120 ei poistu, tilaa Mielen huoltoasentaja."
+ },
+ "Miele|F141": {
+  "title": "Jääkaapin ovi auki 15 minuuttia",
+  "causes": [
+   "Jääkaappiosan ovi on ollut auki 15 minuuttia."
+  ],
+  "steps": [
+   "Sulje jääkaapin ovi.",
+   "Tarkista, ettei mikään estä oven sulkeutumista."
+  ],
+  "technician": "Jos F141 näkyy oven ollessa kiinni, tilaa Mielen huoltoasentaja."
+ },
+ "Miele|F142": {
+  "title": "Jääkaapin ovi auki 30 minuuttia",
+  "causes": [
+   "Jääkaappiosan ovi on ollut auki noin 30 minuuttia."
+  ],
+  "steps": [
+   "Sulje jääkaapin ovi.",
+   "Tarkista, ettei mikään estä oven sulkeutumista."
+  ],
+  "technician": "Jos F142 näkyy oven ollessa kiinni, tilaa Mielen huoltoasentaja."
+ },
+ "Miele|F383": {
+  "title": "Jääpalakoneen veden tulon vika",
+  "causes": [
+   "Tulovesiletku on taittunut.",
+   "Tulovesisuodatin on likainen.",
+   "Vesisäiliö ei ole paikallaan, tai sen uimuri on juuttunut.",
+   "Ohjelmistovika."
+  ],
+  "steps": [
+   "Suorista vesiletkun mahdollinen taitos.",
+   "Puhdista tulovesisuodatin.",
+   "Ota vesisäiliö pois, puhdista sen alta ja työnnä se kokonaan takaisin.",
+   "Ravista säiliötä ja tarkista, että uimuri liikkuu vapaasti.",
+   "Aseta pakastimen lämpötilaksi -18 °C vähintään 48 tunniksi."
+  ],
+  "technician": "Jos vika ei poistu, ota yhteys Mielen asiakaspalveluun."
+ },
+ "Miele|F384": {
+  "title": "Ohjelmiston kaatuminen",
+  "causes": [
+   "Laitteen ohjelmisto on lakannut toimimasta."
+  ],
+  "steps": [
+   "Irrota laitteen pistoke noin 2 minuutiksi.",
+   "Kytke pistoke takaisin ja käynnistä laite.",
+   "Jos laite toimii taas, palauta tehdasasetukset Asetukset-valikosta."
+  ],
+  "technician": "Jos vika palaa, ota yhteys Mielen asiakaspalveluun."
+ },
+ "Miele|F385": {
+  "title": "Ohjelmiston kaatuminen",
+  "causes": [
+   "Laitteen ohjelmisto on lakannut toimimasta."
+  ],
+  "steps": [
+   "Irrota laitteen pistoke noin 2 minuutiksi.",
+   "Kytke pistoke takaisin ja käynnistä laite.",
+   "Jos laite toimii taas, palauta tehdasasetukset Asetukset-valikosta."
+  ],
+  "technician": "Jos vika palaa, ota yhteys Mielen asiakaspalveluun."
+ },
+ "Miele|nA": {
+  "title": "Pakastin on aiemmin lämmennyt liikaa",
+  "causes": [
+   "Sähkökatko tai syöttökatkos päästi pakastimen lämpenemään."
+  ],
+  "steps": [
+   "Näet korkeimman saavutetun lämpötilan pitämällä hälytyspainiketta painettuna.",
+   "Tarkista ruoat. Käytä sulaneet ruoat pian.",
+   "Älä pakasta sulaneita ruokia uudelleen, ellet kypsennä niitä ensin."
+  ],
+  "technician": "Kyseessä ei ole vika. Ota yhteys Mieleen vain, jos ilmoitus näkyy ilman sähkökatkoa."
+ },
+ "AEG|E08": {
+  "title": "Alhainen syöttöjännite",
+  "causes": [
+   "Verkkojännite on laskenut alle 170 V:n. Tämä suojaa kompressoria."
+  ],
+  "steps": [
+   "Tarkista, onko muissa laitteissa sähköongelmia.",
+   "Odota, että sähkönsyöttö palaa normaaliksi."
+  ],
+  "technician": "Jos E08 näkyy toistuvasti, tarkistuta sähkönsyöttö ja ota yhteys AEG:n valtuuttamaan huoltoasentajaan."
+ },
+ "AEG|E09": {
+  "title": "Pakastin ei ole tarpeeksi kylmä",
+  "causes": [
+   "Yleensä pitkän sähkökatkon jälkeen."
+  ],
+  "steps": [
+   "Laske pakastimen lämpötila-asetusta tai kytke Super Freeze päälle.",
+   "Pidä ovet kiinni, kunnes koodi poistuu.",
+   "Käytä tai kypsennä sulaneet ruoat pian.",
+   "Älä lisää tuoreita ruokia ennen kuin koodi on poistunut."
+  ],
+  "technician": "Jos koodi ei poistu, ota yhteys AEG:n valtuuttamaan huoltoasentajaan."
+ },
+ "AEG|E10": {
+  "title": "Jääkaappi ei ole tarpeeksi kylmä",
+  "causes": [
+   "Pitkä sähkökatko.",
+   "Jääkaappiin on laitettu kuumaa ruokaa."
+  ],
+  "steps": [
+   "Laske jääkaapin lämpötila-asetusta tai kytke Super Cool päälle.",
+   "Pidä ovet kiinni.",
+   "Pidä ruoat erillään ilmanvaihtoaukoista ja anturista."
+  ],
+  "technician": "Jos E10 ei poistu, tilaa korjaus AEG:ltä."
+ },
+ "AEG|E11": {
+  "title": "Jääkaappi liian kylmä",
+  "causes": [
+   "Super Cool on jäänyt päälle.",
+   "Lämpötila on asetettu liian alhaiseksi.",
+   "Ilmanvaihtoaukot ovat tukossa."
+  ],
+  "steps": [
+   "Kytke Super Cool pois päältä.",
+   "Aseta jääkaapille lämpimämpi lämpötila.",
+   "Varmista, että ilmanvaihtoaukot ovat vapaat."
+  ],
+  "technician": "Jos koodi ei poistu, ota yhteys AEG:n valtuutettuun huoltoon."
+ },
+ "AEG|F2": {
+  "title": "Termostaatin vika",
+  "causes": [
+   "Ongelma termostaatissa."
+  ],
+  "steps": [
+   "Kirjoita koodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Tilaa AEG:n huoltoasentaja ja ilmoita koodi."
+ },
+ "AEG|F8": {
+  "title": "Sulatusjärjestelmän vika",
+  "causes": [
+   "Vika sulatusjärjestelmässä."
+  ],
+  "steps": [
+   "Älä yritä korjata sitä itse.",
+   "Kirjoita muistiin malli ja sarjanumero."
+  ],
+  "technician": "Tilaa AEG:n huoltoasentaja ja ilmoita koodi F8."
+ },
+ "Electrolux|F5": {
+  "title": "Lämpötila-anturin vika",
+  "causes": [
+   "Lämpötila-anturi on viallinen. F3 ja F4 viittaavat samantyyppiseen vikaan."
+  ],
+  "steps": [
+   "Kirjoita koodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Tilaa Electroluxin huoltoasentaja ja ilmoita koodi."
+ },
+ "Electrolux|E01": {
+  "title": "Anturivaroitus",
+  "causes": [
+   "Jääkaappipakastimen anturissa on ongelma."
+  ],
+  "steps": [
+   "Kirjoita koodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Ota yhteys Electroluxin valtuutettuun huoltoliikkeeseen huoltokäynnin sopimiseksi."
+ },
+ "Electrolux|E02": {
+  "title": "Anturivaroitus",
+  "causes": [
+   "Jääkaappipakastimen anturissa on ongelma."
+  ],
+  "steps": [
+   "Kirjoita koodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Ota yhteys Electroluxin valtuutettuun huoltoliikkeeseen huoltokäynnin sopimiseksi."
+ },
+ "Electrolux|E03": {
+  "title": "Anturivaroitus",
+  "causes": [
+   "Jääkaappipakastimen anturissa on ongelma."
+  ],
+  "steps": [
+   "Kirjoita koodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Ota yhteys Electroluxin valtuutettuun huoltoliikkeeseen huoltokäynnin sopimiseksi."
+ },
+ "Electrolux|E06": {
+  "title": "Anturivaroitus",
+  "causes": [
+   "Jääkaappipakastimen anturissa on ongelma."
+  ],
+  "steps": [
+   "Kirjoita koodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Ota yhteys Electroluxin valtuutettuun huoltoliikkeeseen huoltokäynnin sopimiseksi."
+ },
+ "Electrolux|E07": {
+  "title": "Anturivaroitus",
+  "causes": [
+   "Jääkaappipakastimen anturissa on ongelma."
+  ],
+  "steps": [
+   "Kirjoita koodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Ota yhteys Electroluxin valtuutettuun huoltoliikkeeseen huoltokäynnin sopimiseksi."
+ },
+ "Hotpoint|E0": {
+  "title": "Jääpalakoneen vika",
+  "causes": [
+   "Jääpalakone ei toimi oikein (jääpalakoneella varustetut mallit)."
+  ],
+  "steps": [
+   "Kytke jääpalakone pois päältä, jos mahdollista.",
+   "Jatka jääkaapin käyttöä normaalisti."
+  ],
+  "technician": "Ota yhteys Hotpointin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Hotpoint|E1": {
+  "title": "Jääkaapin anturin vika",
+  "causes": [
+   "Jääkaapin lämpötila-anturi on viallinen."
+  ],
+  "steps": [
+   "Kirjoita koodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Ota yhteys Hotpointin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Hotpoint|E2": {
+  "title": "Pakastimen anturin vika",
+  "causes": [
+   "Pakastimen lämpötila-anturi on viallinen.",
+   "Pakastimen lämpötila voi olla väärä."
+  ],
+  "steps": [
+   "Tarkista, että ruoat ovat yhä jäässä.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Ota yhteys Hotpointin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Hotpoint|E3": {
+  "title": "Sulatusanturin vika",
+  "causes": [
+   "Sulatusanturi on viallinen.",
+   "Tukossa oleva sulatusveden poisto voi myös vaikuttaa lämpötilaan."
+  ],
+  "steps": [
+   "Tarkista, ettei sulatusveden poistoaukossa tai poistoputkessa ole tukoksia.",
+   "Poista mahdollinen tukos varovasti."
+  ],
+  "technician": "Jos vika jatkuu, ota yhteys Hotpointin huoltoon."
+ },
+ "Hotpoint|E4": {
+  "title": "Jääkaapin sulatusanturin vika",
+  "causes": [
+   "Jääkaapin sulatusanturi on viallinen."
+  ],
+  "steps": [
+   "Kirjoita koodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Ota yhteys Hotpointin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Hotpoint|E5": {
+  "title": "Pakastimen sulatusanturin vika",
+  "causes": [
+   "Pakastimen sulatusanturi on viallinen."
+  ],
+  "steps": [
+   "Kirjoita koodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Ota yhteys Hotpointin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Hotpoint|E6": {
+  "title": "Ohjaus- tai näyttökortin vika",
+  "causes": [
+   "Pääohjauskortti tai näyttökortti on viallinen."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke muutamaksi minuutiksi ja kytke se takaisin."
+  ],
+  "technician": "Ota yhteys Hotpointin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Hotpoint|E7": {
+  "title": "Huoneenlämpöanturin vika",
+  "causes": [
+   "Ympäristön lämpötila-anturi on viallinen."
+  ],
+  "steps": [
+   "Kirjoita koodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Ota yhteys Hotpointin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Hotpoint|E8": {
+  "title": "Huoneenlämpöanturin vika",
+  "causes": [
+   "Ympäristön lämpötila-anturi on viallinen."
+  ],
+  "steps": [
+   "Kirjoita koodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Ota yhteys Hotpointin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Hotpoint|E9": {
+  "title": "Pakastimen korkean lämpötilan hälytys",
+  "causes": [
+   "Pakastimen ovi jäi auki, ja pakastin lämpeni."
+  ],
+  "steps": [
+   "Sulje pakastimen ovi kunnolla.",
+   "Tarkista, ettei mikään estä ovea.",
+   "Tarkista, ovatko ruoat sulaneet."
+  ],
+  "technician": "Jos hälytys jatkuu oven ollessa kiinni, ota yhteys Hotpointin huoltoon."
+ },
+ "Hotpoint|EE": {
+  "title": "Jääpalakoneen piirin vika",
+  "causes": [
+   "Vika jääpalakoneen piirissä (jääpalakoneella varustetut mallit)."
+  ],
+  "steps": [
+   "Kytke jääpalakone pois päältä, jos mahdollista."
+  ],
+  "technician": "Ota yhteys Hotpointin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Indesit|E0": {
+  "title": "Jääpalakoneen vika",
+  "causes": [
+   "Jääpalakone ei toimi oikein (jääpalakoneella varustetut mallit)."
+  ],
+  "steps": [
+   "Kytke jääpalakone pois päältä, jos mahdollista.",
+   "Jatka jääkaapin käyttöä normaalisti."
+  ],
+  "technician": "Ota yhteys Indesitin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Indesit|E1": {
+  "title": "Jääkaapin anturin vika",
+  "causes": [
+   "Jääkaapin lämpötila-anturi on viallinen."
+  ],
+  "steps": [
+   "Kirjoita koodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Ota yhteys Indesitin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Indesit|E2": {
+  "title": "Pakastimen anturin vika",
+  "causes": [
+   "Pakastimen lämpötila-anturi on viallinen.",
+   "Pakastimen lämpötila voi olla väärä."
+  ],
+  "steps": [
+   "Tarkista, että ruoat ovat yhä jäässä.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Ota yhteys Indesitin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Indesit|E3": {
+  "title": "Sulatusanturin vika",
+  "causes": [
+   "Sulatusanturi on viallinen.",
+   "Tukossa oleva sulatusveden poisto voi myös vaikuttaa lämpötilaan."
+  ],
+  "steps": [
+   "Tarkista, ettei sulatusveden poistoaukossa tai poistoputkessa ole tukoksia.",
+   "Poista mahdollinen tukos varovasti."
+  ],
+  "technician": "Jos vika jatkuu, ota yhteys Indesitin huoltoon."
+ },
+ "Indesit|E4": {
+  "title": "Jääkaapin sulatusanturin vika",
+  "causes": [
+   "Jääkaapin sulatusanturi on viallinen."
+  ],
+  "steps": [
+   "Kirjoita koodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Ota yhteys Indesitin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Indesit|E5": {
+  "title": "Pakastimen sulatusanturin vika",
+  "causes": [
+   "Pakastimen sulatusanturi on viallinen."
+  ],
+  "steps": [
+   "Kirjoita koodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Ota yhteys Indesitin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Indesit|E6": {
+  "title": "Ohjaus- tai näyttökortin vika",
+  "causes": [
+   "Pääohjauskortti tai näyttökortti on viallinen."
+  ],
+  "steps": [
+   "Irrota jääkaapin pistoke muutamaksi minuutiksi ja kytke se takaisin."
+  ],
+  "technician": "Ota yhteys Indesitin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Indesit|E7": {
+  "title": "Huoneenlämpöanturin vika",
+  "causes": [
+   "Ympäristön lämpötila-anturi on viallinen."
+  ],
+  "steps": [
+   "Kirjoita koodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Ota yhteys Indesitin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Indesit|E8": {
+  "title": "Huoneenlämpöanturin vika",
+  "causes": [
+   "Ympäristön lämpötila-anturi on viallinen."
+  ],
+  "steps": [
+   "Kirjoita koodi muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Ota yhteys Indesitin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Indesit|E9": {
+  "title": "Pakastimen korkean lämpötilan hälytys",
+  "causes": [
+   "Pakastimen ovi jäi auki, ja pakastin lämpeni."
+  ],
+  "steps": [
+   "Sulje pakastimen ovi kunnolla.",
+   "Tarkista, ettei mikään estä ovea.",
+   "Tarkista, ovatko ruoat sulaneet."
+  ],
+  "technician": "Jos hälytys jatkuu oven ollessa kiinni, ota yhteys Indesitin huoltoon."
+ },
+ "Indesit|EE": {
+  "title": "Jääpalakoneen piirin vika",
+  "causes": [
+   "Vika jääpalakoneen piirissä (jääpalakoneella varustetut mallit)."
+  ],
+  "steps": [
+   "Kytke jääpalakone pois päältä, jos mahdollista."
+  ],
+  "technician": "Ota yhteys Indesitin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Whirlpool|F3 E1": {
+  "title": "Järjestelmävika (vilkkuva F)",
+  "causes": [
+   "Ohjaus on havainnut vian. Whirlpool ei tarjoa kotona tehtävää korjausta nollauksen lisäksi."
+  ],
+  "steps": [
+   "Katkaise virta sulakkeesta tai irrota jääkaapin pistoke minuutiksi.",
+   "Palauta virta.",
+   "Varmista, että jäähdytys on kytketty päälle.",
+   "Seuraa minuutin ajan, palaako koodi."
+  ],
+  "technician": "Jos koodi palaa nollauksen jälkeen, tilaa Whirlpoolin huolto."
+ },
+ "Whirlpool|F3 E2": {
+  "title": "Järjestelmävika (vilkkuva F)",
+  "causes": [
+   "Ohjaus on havainnut vian. Whirlpool ei tarjoa kotona tehtävää korjausta nollauksen lisäksi."
+  ],
+  "steps": [
+   "Katkaise virta sulakkeesta tai irrota jääkaapin pistoke minuutiksi.",
+   "Palauta virta.",
+   "Varmista, että jäähdytys on kytketty päälle.",
+   "Seuraa minuutin ajan, palaako koodi."
+  ],
+  "technician": "Jos koodi palaa nollauksen jälkeen, tilaa Whirlpoolin huolto."
+ },
+ "Whirlpool|F6 E1": {
+  "title": "Järjestelmävika (vilkkuva F)",
+  "causes": [
+   "Ohjaus on havainnut vian. Whirlpool ei tarjoa kotona tehtävää korjausta nollauksen lisäksi."
+  ],
+  "steps": [
+   "Katkaise virta sulakkeesta tai irrota jääkaapin pistoke minuutiksi.",
+   "Palauta virta.",
+   "Varmista, että jäähdytys on kytketty päälle.",
+   "Seuraa minuutin ajan, palaako koodi."
+  ],
+  "technician": "Jos koodi palaa nollauksen jälkeen, tilaa Whirlpoolin huolto."
+ },
+ "Whirlpool|F8 E1": {
+  "title": "Järjestelmävika (vilkkuva F)",
+  "causes": [
+   "Ohjaus on havainnut vian. Whirlpool ei tarjoa kotona tehtävää korjausta nollauksen lisäksi."
+  ],
+  "steps": [
+   "Katkaise virta sulakkeesta tai irrota jääkaapin pistoke minuutiksi.",
+   "Palauta virta.",
+   "Varmista, että jäähdytys on kytketty päälle.",
+   "Seuraa minuutin ajan, palaako koodi."
+  ],
+  "technician": "Jos koodi palaa nollauksen jälkeen, tilaa Whirlpoolin huolto."
+ },
+ "Whirlpool|F8 E2": {
+  "title": "Järjestelmävika (vilkkuva F)",
+  "causes": [
+   "Ohjaus on havainnut vian. Whirlpool ei tarjoa kotona tehtävää korjausta nollauksen lisäksi."
+  ],
+  "steps": [
+   "Katkaise virta sulakkeesta tai irrota jääkaapin pistoke minuutiksi.",
+   "Palauta virta.",
+   "Varmista, että jäähdytys on kytketty päälle.",
+   "Seuraa minuutin ajan, palaako koodi."
+  ],
+  "technician": "Jos koodi palaa nollauksen jälkeen, tilaa Whirlpoolin huolto."
+ },
+ "Whirlpool|PO": {
+  "title": "Sähkökatkoilmoitus",
+  "causes": [
+   "Sähköt katkesivat, ja pakastin lämpeni -8 °C:seen (18 °F) tai lämpimämmäksi."
+  ],
+  "steps": [
+   "Poista ilmoitus painamalla vilkkuvan Confirm-tekstin alla olevaa painiketta.",
+   "Tarkista, ovatko pakasteet sulaneet."
+  ],
+  "technician": "Kyseessä ei ole vika. Ota yhteys Whirlpooliin vain, jos PO näkyy ilman todellista sähkökatkoa."
+ },
+ "Bosch|E02": {
+  "title": "Jääpalakoneen tai vesijärjestelmän vika",
+  "causes": [
+   "Jääpalakone on viallinen.",
+   "Jää- ja vesiohjaimet eivät saa yhteyttä toisiinsa."
+  ],
+  "steps": [
+   "Katkaise jääkaapin sulake 30 sekunniksi.",
+   "Kytke se takaisin ja tarkista koodi."
+  ],
+  "technician": "Jos E02 ei poistu, ota yhteys Boschin asiakastukeen."
+ },
+ "Bosch|E03": {
+  "title": "Annostelijan ohjauksen vika",
+  "causes": [
+   "Annostelijan ohjauspaneelissa on vika."
+  ],
+  "steps": [
+   "Katkaise jääkaapin sulake 30 sekunniksi.",
+   "Kytke se takaisin ja tarkista koodi."
+  ],
+  "technician": "Jos E03 ei poistu, ota yhteys Boschin asiakastukeen."
+ },
+ "Haier|F1": {
+  "title": "Anturivirhe",
+  "causes": [
+   "Lämpötila-anturi on viallinen."
+  ],
+  "steps": [
+   "Sammuta jääkaappi ja käynnistä se kerran uudelleen nähdäksesi, poistuuko koodi.",
+   "Jos koodi palaa, kirjoita se muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Käyttäjä ei voi korjata tätä itse. Ota yhteys Haierin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Haier|E0": {
+  "title": "Tiedonsiirtovirhe",
+  "causes": [
+   "Sisäiset piirilevyt eivät saa yhteyttä toisiinsa."
+  ],
+  "steps": [
+   "Sammuta jääkaappi ja käynnistä se kerran uudelleen nähdäksesi, poistuuko koodi.",
+   "Jos koodi palaa, kirjoita se muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Käyttäjä ei voi korjata tätä itse. Ota yhteys Haierin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Haier|E1": {
+  "title": "Tuulettimen virhe",
+  "causes": [
+   "Tuuletin ei toimi."
+  ],
+  "steps": [
+   "Sammuta jääkaappi ja käynnistä se kerran uudelleen nähdäksesi, poistuuko koodi.",
+   "Jos koodi palaa, kirjoita se muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Käyttäjä ei voi korjata tätä itse. Ota yhteys Haierin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Haier|Er": {
+  "title": "Jääpalakoneen virhe",
+  "causes": [
+   "Jääpalakone on viallinen."
+  ],
+  "steps": [
+   "Sammuta jääkaappi ja käynnistä se kerran uudelleen nähdäksesi, poistuuko koodi.",
+   "Jos koodi palaa, kirjoita se muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Käyttäjä ei voi korjata tätä itse. Ota yhteys Haierin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Haier|Ed": {
+  "title": "Sulatusvirhe",
+  "causes": [
+   "Sulatusjärjestelmä on viallinen."
+  ],
+  "steps": [
+   "Sammuta jääkaappi ja käynnistä se kerran uudelleen nähdäksesi, poistuuko koodi.",
+   "Jos koodi palaa, kirjoita se muistiin.",
+   "Pidä ovet mahdollisimman paljon kiinni ruokien suojaamiseksi."
+  ],
+  "technician": "Käyttäjä ei voi korjata tätä itse. Ota yhteys Haierin huoltoon ja tilaa huoltoasentaja."
+ }
+}

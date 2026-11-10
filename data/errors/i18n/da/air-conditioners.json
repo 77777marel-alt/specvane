@@ -1,0 +1,1180 @@
+{
+ "LG|CH00": {
+  "title": "Enheden skal efterses (generel fejl)",
+  "causes": [
+   "En midlertidig spændingsudsving eller elektrisk forstyrrelse.",
+   "En intern fejl, der skal tjekkes."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer CH00 igen efter en nulstilling af strømmen, så bestil en LG-tekniker."
+ },
+ "LG|CH01": {
+  "title": "Fejl i temperatursensoren",
+  "causes": [
+   "En temperatur- eller rørsensor er defekt eller har løsnet sig.",
+   "En fejl i hovedprintet eller et kort elektrisk udfald."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd.",
+   "Tjek, om koden er forsvundet."
+  ],
+  "technician": "Kommer koden igen efter en nulstilling, så stop med at bruge enheden, og bestil LG service. Åbn ikke enheden."
+ },
+ "LG|CH02": {
+  "title": "Fejl i temperatursensoren",
+  "causes": [
+   "En temperatur- eller rørsensor er defekt eller har løsnet sig.",
+   "En fejl i hovedprintet eller et kort elektrisk udfald."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd.",
+   "Tjek, om koden er forsvundet."
+  ],
+  "technician": "Kommer koden igen efter en nulstilling, så stop med at bruge enheden, og bestil LG service. Åbn ikke enheden."
+ },
+ "LG|CH06": {
+  "title": "Fejl i temperatursensoren",
+  "causes": [
+   "En temperatur- eller rørsensor er defekt eller har løsnet sig.",
+   "En fejl i hovedprintet eller et kort elektrisk udfald."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd.",
+   "Tjek, om koden er forsvundet."
+  ],
+  "technician": "Kommer koden igen efter en nulstilling, så stop med at bruge enheden, og bestil LG service. Åbn ikke enheden."
+ },
+ "LG|CH21": {
+  "title": "Fejl i udedelens kompressor eller drivkredsløb",
+  "causes": [
+   "Et kortvarigt problem med strømmen.",
+   "En fejl i kompressoren, dens drivkredsløb eller beskyttelseskredsløb i udedelen."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Fortsætter koden, så stop med at bruge enheden, og bestil en LG-tekniker."
+ },
+ "LG|CH26": {
+  "title": "Fejl i udedelens kompressor eller drivkredsløb",
+  "causes": [
+   "Et kortvarigt problem med strømmen.",
+   "En fejl i kompressoren, dens drivkredsløb eller beskyttelseskredsløb i udedelen."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Fortsætter koden, så stop med at bruge enheden, og bestil en LG-tekniker."
+ },
+ "LG|CH04": {
+  "title": "Problem med afløbet, eller kondensbeholderen er fuld",
+  "causes": [
+   "Indedelens afløb virker ikke (loftsenheder).",
+   "På vindues- og mobile enheder er kondensbeholderen fuld, ofte på fugtige dage."
+  ],
+  "steps": [
+   "Sluk enheden, og tag stikket ud.",
+   "På vindues- eller mobile enheder: stil en bakke på cirka 1,5 liter under afløbsstudsen nederst bagpå, og tag afløbsproppen af.",
+   "Lad vandet løbe ud, og sæt proppen godt på igen.",
+   "Du kan montere en afløbsslange, så vandet løber ud hele tiden; sørg for, at vandet ikke drypper ned på nogen nedenunder."
+  ],
+  "technician": "Vises CH04/FL ofte, selv i tørt vejr, eller på en loftsenhed efter en nulstilling, så bestil LG service."
+ },
+ "LG|CH05": {
+  "title": "Kommunikationsfejl mellem inde- og udedel",
+  "causes": [
+   "Inde- og udedelen kan ikke kommunikere.",
+   "Problem med ledningerne efter en ny installation eller flytning."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Bliver koden ved efter en nulstilling, eller er enheden lige blevet installeret eller flyttet, så bestil service."
+ },
+ "LG|CH07": {
+  "title": "Konflikt mellem driftstilstande",
+  "causes": [
+   "To indedele på samme system er indstillet til modsatte tilstande (varme mod køl/affugtning)."
+  ],
+  "steps": [
+   "Indstil alle indedele til varme eller alle til køl/affugtning.",
+   "Ventilator- og luftrensningstilstand kan køre sammen med alle tilstande."
+  ],
+  "technician": "Bliver koden ved, selvom alle enheder er i samme tilstand, så kontakt LG support."
+ },
+ "LG|CH10": {
+  "title": "Problem med indedelens ventilator",
+  "causes": [
+   "Snavs eller is blokerer indedelens ventilator.",
+   "Fejl i ventilatormotoren."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Fjern synligt snavs fra luftindtag og luftudtag. Åbn ikke kabinettet.",
+   "Tjek indedelens luftfiltre, og rengør dem, hvis de er støvede.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Blokerer intet ventilatoren, og kommer koden igen, så bestil service."
+ },
+ "LG|CH67": {
+  "title": "Problem med udedelens ventilator",
+  "causes": [
+   "Snavs eller sne blokerer udedelens ventilator.",
+   "Fejl i udedelens ventilatormotor."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Fjern blade, sne eller genstande omkring udedelens gitter.",
+   "Sørg for, at intet blokerer luftstrømmen omkring udedelen (kasser, planter, sne, blade).",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Blokerer intet, og kommer koden igen, så bestil service."
+ },
+ "LG|CH38": {
+  "title": "For lidt kølemiddel",
+  "causes": [
+   "Kølemiddelfyldningen er lav, ofte efter installation eller flytning.",
+   "En løs rørforbindelse eller en lækage."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Er enheden for nylig installeret eller flyttet, så ring til installatøren; ellers kontakt LG support, hvis koden kommer igen. Arbejde med kølemiddel må kun udføres af teknikere."
+ },
+ "LG|CH54": {
+  "title": "Omvendt fase eller fejl i strømforsyningen",
+  "causes": [
+   "En kort strømafbrydelse eller nyligt udført el-arbejde.",
+   "Faserne er forbundet omvendt."
+  ],
+  "steps": [
+   "Slå klimaanlæggets afbryder fra og til igen."
+  ],
+  "technician": "Begyndte koden efter el-arbejde, så bed den elektriker om at rette ledningsføringen; ellers bestil LG service."
+ },
+ "LG|CH61": {
+  "title": "Enheden overopheder",
+  "causes": [
+   "Ved køling: udedelen har dårlig ventilation, fx på en lukket altan.",
+   "Ved opvarmning: indedelens filter er tilstoppet."
+  ],
+  "steps": [
+   "Ved køling: åbn vinduer eller skærme ved udedelen, og ryd omkring den.",
+   "Tjek indedelens luftfiltre, og rengør dem, hvis de er støvede.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Fortsætter koden efter en nulstilling og bedre luftstrøm, skal en tekniker efterse enheden."
+ },
+ "LG|CH66": {
+  "title": "Problem med ledninger eller rør mellem inde- og udedel",
+  "causes": [
+   "Et problem med kommunikationsledningen eller en rørforbindelse mellem enhederne."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Er enheden lige blevet installeret eller flyttet, så ring til installatøren; fortsætter koden, så bestil en tekniker."
+ },
+ "LG|CH90": {
+  "title": "Beskyttelse under testkørsel",
+  "causes": [
+   "Testkørslen registrerede et problem, ofte med rørforbindelserne."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Er enheden ny eller flyttet, så bed installatøren om at tjekke rørene; ellers bestil service, hvis det fortsætter."
+ },
+ "LG|CH93": {
+  "title": "Ustabil kommunikation mellem inde- og udedel",
+  "causes": [
+   "Ustabil kommunikation under testkørslen.",
+   "På nyere modeller har udedelen ingen strøm."
+  ],
+  "steps": [
+   "Tjek, at begge netledninger er sat i (nyere modeller har én pr. enhed).",
+   "Sæt udedelen direkte i en stikkontakt i væggen, ikke en stikdåse.",
+   "Sørg for, at klimaanlæggets afbryder er slået til. Bliver den ikke ved med at være slået til, så bliv ikke ved med at slå den til igen.",
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Slår afbryderen fra igen og igen, eller fortsætter koden, så bestil LG service."
+ },
+ "Samsung|E121": {
+  "title": "Fejl i rumtemperatursensoren",
+  "causes": [
+   "Indedelens rumtemperatursensor er defekt."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd.",
+   "Skriv koden og dit modelnummer ned, før du ringer til service."
+  ],
+  "technician": "Det kræver en autoriseret Samsung-reparation; kontakt Samsung service."
+ },
+ "Samsung|E122": {
+  "title": "Fejl i varmevekslerens temperatursensor",
+  "causes": [
+   "Sensoren i indedelens varmeveksler er defekt."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd.",
+   "Skriv koden og dit modelnummer ned, før du ringer til service."
+  ],
+  "technician": "Det kræver en autoriseret Samsung-reparation; kontakt Samsung service."
+ },
+ "Samsung|E154": {
+  "title": "Indedelens ventilator drejer ikke",
+  "causes": [
+   "Indedelens ventilatormotor er i beskyttelsestilstand, fx efter en spændingsspids.",
+   "Ventilatormotoren eller styreprintet er defekt."
+  ],
+  "steps": [
+   "Sluk enheden, vent et par sekunder, og tænd igen.",
+   "Hold øje med, om koden kommer igen inden for cirka 10 sekunder.",
+   "I områder med hyppige spændingsspidser kan du overveje en spændingsstabilisator."
+  ],
+  "technician": "Kommer koden igen lige efter genstart, så kontakt Samsung service."
+ },
+ "Samsung|E163": {
+  "title": "Hukommelsesfejl i styreprintet (EEPROM)",
+  "causes": [
+   "Data i hovedprintets hukommelse er forkerte eller mangler."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd.",
+   "Skriv koden og dit modelnummer ned, før du ringer til service."
+  ],
+  "technician": "Det kræver en autoriseret Samsung-reparation; kontakt Samsung service."
+ },
+ "Samsung|CF": {
+  "title": "Påmindelse om rengøring af filter",
+  "causes": [
+   "Timeren for filterrengøring er udløbet."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Tag indedelens filtre ud, og rengør dem.",
+   "Sæt filtrene i igen, og nulstil filterindikatoren."
+  ],
+  "technician": "Der er ikke brug for en tekniker ved denne påmindelse."
+ },
+ "Samsung|dF": {
+  "title": "Afrimning i varmetilstand",
+  "causes": [
+   "Udedelen smelter is under opvarmningen. Damp fra udedelen er normalt."
+  ],
+  "steps": [
+   "Vent; opvarmningen fortsætter, når afrimningen er slut.",
+   "Du skal ikke gøre noget."
+  ],
+  "technician": "Ring kun til service, hvis enheden bliver i afrimning meget længe og ikke varmer."
+ },
+ "Daikin|A1": {
+  "title": "Fejl i indedelens printkort",
+  "causes": [
+   "Indedelens styreprint har en fejl."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|A3": {
+  "title": "Problem med styringen af afløbsniveauet",
+  "causes": [
+   "Kondensvandet løber ikke ud af indedelen.",
+   "Afløbsrøret kan være stoppet."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Tjek afløbsslangen udenfor for knæk eller tilstopning.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|A5": {
+  "title": "Frostbeskyttelse eller højtryksbeskyttelse",
+  "causes": [
+   "Ved køling bliver indedelens spiral for kold.",
+   "Ved opvarmning er trykket for højt, ofte på grund af dårlig luftstrøm."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Tjek indedelens luftfiltre, og rengør dem, hvis de er støvede.",
+   "Tjek, at intet blokerer indedelens luftindtag eller luftudtag.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|A6": {
+  "title": "Fejl i indedelens ventilatormotor",
+  "causes": [
+   "Indedelens ventilatormotor eller dens styring er defekt eller blokeret."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Tjek, at intet sidder fast i indedelens luftudtag. Åbn ikke kabinettet.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|C4": {
+  "title": "Fejl i temperatursensoren på indedelens spiral",
+  "causes": [
+   "Termistoren på væskerøret i indedelens varmeveksler er defekt."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|C9": {
+  "title": "Fejl i rumsensoren (indsugningsluft)",
+  "causes": [
+   "Indedelens lufttermistor er defekt."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|E1": {
+  "title": "Fejl i udedelens printkort",
+  "causes": [
+   "Udedelens styreprint har en fejl."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|E3": {
+  "title": "Højtrykspressostaten er udløst",
+  "causes": [
+   "Trykket i systemet er for højt, ofte på grund af dårlig luftstrøm ude eller en snavset spiral."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Sørg for, at intet blokerer luftstrømmen omkring udedelen (kasser, planter, sne, blade).",
+   "Tjek indedelens luftfiltre, og rengør dem, hvis de er støvede.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|E5": {
+  "title": "Kompressoren er overophedet eller blokeret",
+  "causes": [
+   "Inverterkompressoren er overophedet eller vil ikke køre."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Sørg for, at intet blokerer luftstrømmen omkring udedelen (kasser, planter, sne, blade).",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|E6": {
+  "title": "Overstrøm i kompressoren, eller kompressoren er blokeret",
+  "causes": [
+   "Kompressoren trækker for meget strøm eller sidder fast."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|E7": {
+  "title": "Fejl i udedelens ventilatormotor",
+  "causes": [
+   "Udedelens ventilatormotorsystem har en fejl eller er blokeret."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Fjern blade, sne eller genstande fra udedelens gitter.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|E8": {
+  "title": "Overstrøm i kompressoren",
+  "causes": [
+   "Inverterkompressorens indgangsstrøm er for høj."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|F3": {
+  "title": "For høj temperatur i trykrøret",
+  "causes": [
+   "Kompressorens trykrør bliver overophedet, fx på grund af for lidt kølemiddel eller dårlig luftstrøm."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Sørg for, at intet blokerer luftstrømmen omkring udedelen (kasser, planter, sne, blade).",
+   "Tjek indedelens luftfiltre, og rengør dem, hvis de er støvede.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|F6": {
+  "title": "Unormalt højt tryk",
+  "causes": [
+   "Kølemiddeltrykket er for højt, muligvis på grund af overfyldning eller blokeret luftstrøm."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Sørg for, at intet blokerer luftstrømmen omkring udedelen (kasser, planter, sne, blade).",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|H6": {
+  "title": "Fejl i kompressorens positionssensor",
+  "causes": [
+   "Registreringen af kompressorrotorens position er svigtet."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|H8": {
+  "title": "Fejl i kompressorens strømsensor",
+  "causes": [
+   "Kredsløbet for kompressorens indgangsstrøm (CT) har en fejl."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|H9": {
+  "title": "Fejl i udeluftsensoren",
+  "causes": [
+   "Termistoren for udeluften er defekt."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|J3": {
+  "title": "Fejl i trykrørets sensor",
+  "causes": [
+   "Trykrørets termistor er defekt."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|L4": {
+  "title": "Inverterens køleplade overopheder",
+  "causes": [
+   "Inverterens køleribbe er for varm, ofte på grund af blokeret luftstrøm ved udedelen."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Sørg for, at intet blokerer luftstrømmen omkring udedelen (kasser, planter, sne, blade).",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|L5": {
+  "title": "Overstrøm i inverteren",
+  "causes": [
+   "En pludselig overstrøm på inverterens udgang, ofte på grund af et problem med kompressoren."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|U0": {
+  "title": "Mangel på kølemiddel",
+  "causes": [
+   "Systemet har for lidt kølemiddel, som regel på grund af en lækage."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Tjek indedelens luftfiltre, og rengør dem, hvis de er støvede.",
+   "Prøv ikke selv at påfylde kølemiddel."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|U2": {
+  "title": "Problem med strømforsyningen",
+  "causes": [
+   "Forsyningsspændingen er unormal, eller der var en kort strømafbrydelse."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Daikin|U4": {
+  "title": "Kommunikationsfejl mellem inde- og udedel",
+  "causes": [
+   "Signalerne mellem inde- og udedelen er gået tabt.",
+   "Et problem med ledningerne eller en fejl i et af printkortene."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer koden igen efter disse tjek, så ring til en Daikin-servicetekniker; denne fejl kræver professionel fejlfinding."
+ },
+ "Panasonic|H00": {
+  "title": "Ingen fejl gemt",
+  "causes": [
+   "Selvdiagnosens hukommelse har ikke registreret nogen unormalitet."
+  ],
+  "steps": [
+   "Du skal ikke gøre noget.",
+   "Virker enheden ikke, så tjek strømforsyningen og batterierne i fjernbetjeningen."
+  ],
+  "technician": "Kører enheden ikke, men viser H00, så kontakt en Panasonic-servicetekniker."
+ },
+ "Panasonic|H11": {
+  "title": "Kommunikationsfejl mellem inde- og udedel",
+  "causes": [
+   "Inde- og udedelen kan ikke kommunikere."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Panasonic anbefaler, at reparationer ved denne kode udføres af en kvalificeret servicetekniker; ring til en, hvis koden kommer igen."
+ },
+ "Panasonic|H12": {
+  "title": "Indedelens kapacitet passer ikke",
+  "causes": [
+   "Indedelen passer ikke til udedelens kapacitet, som regel et installationsproblem."
+  ],
+  "steps": [
+   "Skriv koden og dit modelnummer ned, før du ringer til service."
+  ],
+  "technician": "Kontakt din installatør eller en Panasonic-tekniker for at få kombinationen af enheder tjekket."
+ },
+ "Panasonic|H14": {
+  "title": "Fejl i indedelens lufttemperatursensor",
+  "causes": [
+   "Sensoren for indsugningsluft i indedelen er defekt."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Panasonic anbefaler, at reparationer ved denne kode udføres af en kvalificeret servicetekniker; ring til en, hvis koden kommer igen."
+ },
+ "Panasonic|H15": {
+  "title": "Fejl i kompressorens temperatursensor",
+  "causes": [
+   "Kompressorens temperatursensor er defekt."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Panasonic anbefaler, at reparationer ved denne kode udføres af en kvalificeret servicetekniker; ring til en, hvis koden kommer igen."
+ },
+ "Panasonic|H16": {
+  "title": "Fejl i udedelens strømsensor",
+  "causes": [
+   "Udedelens strømtransformer (CT) er defekt."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Panasonic anbefaler, at reparationer ved denne kode udføres af en kvalificeret servicetekniker; ring til en, hvis koden kommer igen."
+ },
+ "Panasonic|H19": {
+  "title": "Indedelens ventilatormotor er blokeret",
+  "causes": [
+   "Indedelens ventilatormotor er blokeret eller defekt."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Tjek, at intet sidder fast i indedelens luftudtag. Åbn ikke kabinettet.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Panasonic anbefaler, at reparationer ved denne kode udføres af en kvalificeret servicetekniker; ring til en, hvis koden kommer igen."
+ },
+ "Panasonic|H23": {
+  "title": "Fejl i sensoren i indedelens varmeveksler",
+  "causes": [
+   "Temperatursensoren på indedelens spiral er defekt."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Panasonic anbefaler, at reparationer ved denne kode udføres af en kvalificeret servicetekniker; ring til en, hvis koden kommer igen."
+ },
+ "Panasonic|H27": {
+  "title": "Fejl i udeluftsensoren",
+  "causes": [
+   "Udedelens lufttemperatursensor er defekt."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Panasonic anbefaler, at reparationer ved denne kode udføres af en kvalificeret servicetekniker; ring til en, hvis koden kommer igen."
+ },
+ "Panasonic|H28": {
+  "title": "Fejl i sensoren i udedelens varmeveksler",
+  "causes": [
+   "Temperatursensoren på udedelens spiral er defekt."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Panasonic anbefaler, at reparationer ved denne kode udføres af en kvalificeret servicetekniker; ring til en, hvis koden kommer igen."
+ },
+ "Panasonic|H33": {
+  "title": "Inde- og udedel er forbundet forkert",
+  "causes": [
+   "Forbindelsen mellem enhederne er forkert, som regel efter installationen."
+  ],
+  "steps": [
+   "Skriv koden og dit modelnummer ned, før du ringer til service."
+  ],
+  "technician": "Bed installatøren eller en Panasonic-tekniker om at tjekke ledningerne."
+ },
+ "Panasonic|H97": {
+  "title": "Udedelens ventilatormotor er blokeret",
+  "causes": [
+   "Udedelens ventilator er blokeret, eller dens motor er defekt."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Fjern blade, sne eller genstande omkring udedelens ventilatorgitter.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Panasonic anbefaler, at reparationer ved denne kode udføres af en kvalificeret servicetekniker; ring til en, hvis koden kommer igen."
+ },
+ "Panasonic|H98": {
+  "title": "Højtryksbeskyttelse i indedelen",
+  "causes": [
+   "Trykket er for højt ved opvarmning, ofte på grund af et snavset filter."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Tjek indedelens luftfiltre, og rengør dem, hvis de er støvede.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Panasonic anbefaler, at reparationer ved denne kode udføres af en kvalificeret servicetekniker; ring til en, hvis koden kommer igen."
+ },
+ "Panasonic|H99": {
+  "title": "Frostbeskyttelse i indedelen",
+  "causes": [
+   "Indedelens spiral blev for kold ved køling, ofte på grund af et snavset filter eller lav luftstrøm."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Tjek indedelens luftfiltre, og rengør dem, hvis de er støvede.",
+   "Lad eventuel is på indedelens spiral smelte, før du genstarter.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Panasonic anbefaler, at reparationer ved denne kode udføres af en kvalificeret servicetekniker; ring til en, hvis koden kommer igen."
+ },
+ "Panasonic|F11": {
+  "title": "Fejl i omskiftningen af 4-vejsventilen",
+  "causes": [
+   "Ventilen, der skifter mellem køling og opvarmning, virker ikke."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Panasonic anbefaler, at reparationer ved denne kode udføres af en kvalificeret servicetekniker; ring til en, hvis koden kommer igen."
+ },
+ "Panasonic|F91": {
+  "title": "Fejl i kølekredsløbet",
+  "causes": [
+   "Kølekredsløbet virker ikke korrekt, ofte på grund af for lidt kølemiddel."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Tjek indedelens luftfiltre, og rengør dem, hvis de er støvede.",
+   "Forsøg ikke selv at arbejde med kølemidlet."
+  ],
+  "technician": "Panasonic anbefaler, at reparationer ved denne kode udføres af en kvalificeret servicetekniker; ring til en, hvis koden kommer igen."
+ },
+ "Panasonic|F93": {
+  "title": "Unormal kompressorhastighed",
+  "causes": [
+   "Kompressoren kører med en unormal hastighed."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Panasonic anbefaler, at reparationer ved denne kode udføres af en kvalificeret servicetekniker; ring til en, hvis koden kommer igen."
+ },
+ "Panasonic|F95": {
+  "title": "Højtryksbeskyttelse i udedelen ved køling",
+  "causes": [
+   "Trykket er for højt, ofte på grund af dårlig luftstrøm ved udedelen."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Sørg for, at intet blokerer luftstrømmen omkring udedelen (kasser, planter, sne, blade).",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Panasonic anbefaler, at reparationer ved denne kode udføres af en kvalificeret servicetekniker; ring til en, hvis koden kommer igen."
+ },
+ "Panasonic|F97": {
+  "title": "Overophedningsbeskyttelse af kompressoren",
+  "causes": [
+   "Kompressoren bliver overophedet."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Sørg for, at intet blokerer luftstrømmen omkring udedelen (kasser, planter, sne, blade).",
+   "Tjek indedelens luftfiltre, og rengør dem, hvis de er støvede.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Panasonic anbefaler, at reparationer ved denne kode udføres af en kvalificeret servicetekniker; ring til en, hvis koden kommer igen."
+ },
+ "Panasonic|F99": {
+  "title": "DC-spids registreret i udedelen",
+  "causes": [
+   "Der er registreret en unormal strømspids i udedelen."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Panasonic anbefaler, at reparationer ved denne kode udføres af en kvalificeret servicetekniker; ring til en, hvis koden kommer igen."
+ },
+ "Gree|E1": {
+  "title": "Højtryksbeskyttelse",
+  "causes": [
+   "Snavsede spiraler eller filtre.",
+   "En forsnævring i systemet eller for meget kølemiddel."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Tjek indedelens luftfiltre, og rengør dem, hvis de er støvede.",
+   "Sørg for, at intet blokerer luftstrømmen omkring udedelen (kasser, planter, sne, blade).",
+   "Tjek, at begge ventilatorer kører, når enheden er tændt.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Er filtre og spiraler rene, så ring til en kølemontør for at få tjekket trykket og højtrykspressostaten."
+ },
+ "Gree|E3": {
+  "title": "Lavtryksbeskyttelse",
+  "causes": [
+   "Snavsede filtre eller spiraler.",
+   "En lækage af kølemiddel."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Tjek indedelens luftfiltre, og rengør dem, hvis de er støvede.",
+   "Sørg for, at intet blokerer luftstrømmen omkring udedelen (kasser, planter, sne, blade)."
+  ],
+  "technician": "Er filtre og spiraler rene, skal en tekniker tjekke kølemiddelfyldningen og lede efter lækager."
+ },
+ "Gree|E5": {
+  "title": "Overstrømsbeskyttelse",
+  "causes": [
+   "Forsyningsspændingen er for høj eller lav og ustabil."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "En tekniker bør tjekke og stabilisere strømforsyningen."
+ },
+ "Gree|E7": {
+  "title": "Konflikt mellem tilstande",
+  "causes": [
+   "Indedele, der er tilsluttet samme udedel, er indstillet til forskellige tilstande."
+  ],
+  "steps": [
+   "Indstil alle indedele til samme tilstand (alle køl eller alle varme)."
+  ],
+  "technician": "Bliver koden ved, selvom alle enheder er i samme tilstand, så kontakt en Gree-servicetekniker."
+ },
+ "Gree|F1": {
+  "title": "Fejl i indedelens rumsensor",
+  "causes": [
+   "Indedelens sensor for omgivelsestemperatur er defekt."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Sensorfejl kræver som regel en ny reservedel monteret af en kvalificeret tekniker."
+ },
+ "Gree|F2": {
+  "title": "Fejl i sensoren på indedelens spiral",
+  "causes": [
+   "Indedelens fordampersensor er defekt."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Sensorfejl kræver som regel en ny reservedel monteret af en kvalificeret tekniker."
+ },
+ "Gree|F3": {
+  "title": "Fejl i udeluftsensoren",
+  "causes": [
+   "Udedelens sensor for omgivelsestemperatur er defekt."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Sensorfejl kræver som regel en ny reservedel monteret af en kvalificeret tekniker."
+ },
+ "Gree|F4": {
+  "title": "Fejl i sensoren på udedelens spiral",
+  "causes": [
+   "Udedelens rørsensor er defekt."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Sensorfejl kræver som regel en ny reservedel monteret af en kvalificeret tekniker."
+ },
+ "Gree|F5": {
+  "title": "Fejl i trykrørets sensor",
+  "causes": [
+   "Kompressorens trykrørssensor er defekt."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Sensorfejl kræver som regel en ny reservedel monteret af en kvalificeret tekniker."
+ },
+ "Gree|H1": {
+  "title": "Afrimning",
+  "causes": [
+   "Udedelen afrimer under opvarmningen. Det er en normal status."
+  ],
+  "steps": [
+   "Vent, til afrimningen er færdig; opvarmningen fortsætter af sig selv."
+  ],
+  "technician": "Ring kun til en tekniker, hvis enheden afrimer hele tiden og ikke varmer."
+ },
+ "Gree|H5": {
+  "title": "Beskyttelse af effektmodulet (IPM)",
+  "causes": [
+   "Inverterens effektmodul stoppede på grund af problemer med spænding eller temperatur."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer H5 igen, skal enheden have professionel service."
+ },
+ "Gree|U3": {
+  "title": "Fald i DC-busspændingen",
+  "causes": [
+   "Den interne DC-spænding faldt, ofte på grund af problemer med forsyningen."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer U3 igen, så få en fagmand til at vurdere enheden og forsyningen."
+ },
+ "Gree|L9": {
+  "title": "Strømbeskyttelse",
+  "causes": [
+   "En stor spændingsspids udløste beskyttelsestilstanden."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Kommer L9 igen, så få en fagmand til at vurdere enheden og forsyningen."
+ },
+ "Haier|E1": {
+  "title": "Fejl i indedelens temperatursensor (splitanlæg)",
+  "causes": [
+   "Indedelens rumtemperatursensor er defekt."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Ifølge Haier kan denne kode kun rettes af en servicetekniker fra eftersalgsservice; ring til Haier service."
+ },
+ "Haier|E2": {
+  "title": "Fejl i indedelens rørtemperatursensor (splitanlæg)",
+  "causes": [
+   "Sensoren på indedelens spiralrør er defekt."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Ifølge Haier kan denne kode kun rettes af en servicetekniker fra eftersalgsservice; ring til Haier service."
+ },
+ "Haier|E4": {
+  "title": "Hukommelsesfejl i indedelen (EEPROM) (splitanlæg)",
+  "causes": [
+   "Hukommelsen i indedelens styreprint har en fejl."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Ifølge Haier kan denne kode kun rettes af en servicetekniker fra eftersalgsservice; ring til Haier service."
+ },
+ "Haier|E5": {
+  "title": "Frostbeskyttelse i indedelen",
+  "causes": [
+   "Indedelens spiral bliver for kold, ofte på grund af lav luftstrøm."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Tjek indedelens luftfiltre, og rengør dem, hvis de er støvede.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Ifølge Haier kan denne kode kun rettes af en servicetekniker fra eftersalgsservice; ring til Haier service."
+ },
+ "Haier|E7": {
+  "title": "Kommunikationsfejl mellem inde- og udedel",
+  "causes": [
+   "Inde- og udedelen kan ikke kommunikere."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Ifølge Haier kan denne kode kun rettes af en servicetekniker fra eftersalgsservice; ring til Haier service."
+ },
+ "Haier|E9": {
+  "title": "Overbelastning af indedelen ved opvarmning",
+  "causes": [
+   "Indedelen bliver overophedet i varmetilstand, ofte på grund af et tilstoppet filter."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Tjek indedelens luftfiltre, og rengør dem, hvis de er støvede.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Ifølge Haier kan denne kode kun rettes af en servicetekniker fra eftersalgsservice; ring til Haier service."
+ },
+ "Haier|E14": {
+  "title": "Fejl i indedelens ventilatormotor",
+  "causes": [
+   "Indedelens ventilatormotor er defekt eller blokeret."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Ifølge Haier kan denne kode kun rettes af en servicetekniker fra eftersalgsservice; ring til Haier service."
+ },
+ "Haier|F1": {
+  "title": "Beskyttelse af effektmodulet (IPM)",
+  "causes": [
+   "Udedelens invertermodul er gået i beskyttelse."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Ifølge Haier kan denne kode kun rettes af en servicetekniker fra eftersalgsservice; ring til Haier service."
+ },
+ "Haier|F8": {
+  "title": "Fejl i udedelens DC-ventilatormotor",
+  "causes": [
+   "Udedelens ventilatormotor er defekt eller blokeret."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Sørg for, at intet blokerer luftstrømmen omkring udedelen (kasser, planter, sne, blade).",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Ifølge Haier kan denne kode kun rettes af en servicetekniker fra eftersalgsservice; ring til Haier service."
+ },
+ "Haier|F12": {
+  "title": "Hukommelsesfejl i udedelen (EEPROM)",
+  "causes": [
+   "Hukommelsen i udedelens printkort har en fejl."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Ifølge Haier kan denne kode kun rettes af en servicetekniker fra eftersalgsservice; ring til Haier service."
+ },
+ "Haier|F13": {
+  "title": "Mangel på kølemiddel",
+  "causes": [
+   "Systemet har for lidt kølemiddel, som regel på grund af en lækage."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Prøv ikke selv at påfylde kølemiddel.",
+   "Skriv koden og dit modelnummer ned, før du ringer til service."
+  ],
+  "technician": "Ifølge Haier kan denne kode kun rettes af en servicetekniker fra eftersalgsservice; ring til Haier service."
+ },
+ "Haier|F19": {
+  "title": "Forsyningsspændingen er for høj eller for lav",
+  "causes": [
+   "Netspændingen er uden for det tilladte område."
+  ],
+  "steps": [
+   "Sluk enheden med fjernbetjeningen.",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Ifølge Haier kan denne kode kun rettes af en servicetekniker fra eftersalgsservice; ring til Haier service."
+ },
+ "Haier|F20": {
+  "title": "Højtryksbeskyttelse",
+  "causes": [
+   "Trykket i systemet er for højt, ofte på grund af blokeret luftstrøm ved udedelen."
+  ],
+  "steps": [
+   "Sluk enheden.",
+   "Sørg for, at intet blokerer luftstrømmen omkring udedelen (kasser, planter, sne, blade).",
+   "Slå klimaanlæggets afbryder fra, eller tag stikket ud.",
+   "Vent cirka 5 minutter, slå strømmen til igen, og tænd."
+  ],
+  "technician": "Ifølge Haier kan denne kode kun rettes af en servicetekniker fra eftersalgsservice; ring til Haier service."
+ },
+ "Haier|FL": {
+  "title": "Vandbeholderen er fuld (mobilt klimaanlæg)",
+  "causes": [
+   "Den interne vandbeholder er fuld."
+  ],
+  "steps": [
+   "Sluk enheden, og tag stikket ud.",
+   "Tøm vandet ud fra afløbsstudsen i en bakke.",
+   "Sæt afløbsproppen i igen, og genstart enheden."
+  ],
+  "technician": "Vises FL igen lige efter tømning, så kontakt Haier service."
+ },
+ "Haier|STOP": {
+  "title": "Beholderen er fuld, eller svømmeren sidder fast (mobilt klimaanlæg, 2016 og ældre)",
+  "causes": [
+   "Vandbeholderen er fuld.",
+   "Beholderens svømmer sidder fast på grund af snavs."
+  ],
+  "steps": [
+   "Sluk enheden, og tag stikket ud.",
+   "Tøm vandbeholderen.",
+   "Tjek, at svømmeren bevæger sig frit, og fjern eventuelt snavs."
+  ],
+  "technician": "Bliver STOP ved med tom beholder og fri svømmer, så kontakt Haier service."
+ }
+}

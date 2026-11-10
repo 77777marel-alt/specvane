@@ -1,0 +1,1196 @@
+{
+ "Samsung|AP": {
+  "title": "Oppsettmodus for Wi-Fi",
+  "causes": [
+   "Kjøleskapet fungerer som Wi-Fi-tilgangspunkt for oppsett i SmartThings."
+  ],
+  "steps": [
+   "Fullfør oppsettet i SmartThings-appen, eller vent. Koden forsvinner av seg selv."
+  ],
+  "technician": "Dette er ikke en feil. Det er ikke behov for service."
+ },
+ "Samsung|21E": {
+  "title": "Feil på viften i fryseren",
+  "causes": [
+   "Viften i fryseren har frosset fast i is, ofte etter at en dør har stått åpen eller en pakning ikke har tettet.",
+   "Viftemotoren har sviktet."
+  ],
+  "steps": [
+   "Sjekk at frysedøren lukkes og at pakningen tetter hele veien rundt.",
+   "Ikke fyll fryseren for tett.",
+   "Hvis du kan, flytt maten og la kjøleskapet avrime med dørene åpne."
+  ],
+  "technician": "Hvis koden kommer tilbake etter avriming, må viften sjekkes av en Samsung-tekniker."
+ },
+ "Samsung|22E": {
+  "title": "Feil på viften i kjøleskapet",
+  "causes": [
+   "Kjøleskapsdøren sto åpen for lenge, og viften har ist ned."
+  ],
+  "steps": [
+   "Flytt maten til et kjølig sted.",
+   "Trekk ut støpselet til kjøleskapet og la dørene stå åpne i noen timer.",
+   "Sett i støpselet igjen og lukk dørene."
+  ],
+  "technician": "Hvis 22E kommer tilbake, bestill Samsung-service."
+ },
+ "Samsung|41C": {
+  "title": "Feil på Family Hub",
+  "causes": [
+   "Et programvareproblem på Family Hub-skjermen."
+  ],
+  "steps": [
+   "Installer den nyeste programvareoppdateringen.",
+   "Trykk OK første gang koden vises etter oppdateringen."
+  ],
+  "technician": "Hvis den fortsetter å komme tilbake etter oppdateringen, bestill Samsung-service."
+ },
+ "Samsung|76C": {
+  "title": "Vann i AutoFill-rommet",
+  "causes": [
+   "AutoFill-vannkannen lekker ned i rommet sitt."
+  ],
+  "steps": [
+   "Ta ut kannen og tørk rommet.",
+   "Sjekk at kannen sitter riktig og ikke har sprekker."
+  ],
+  "technician": "Hvis det fortsetter å samle seg vann, kontakt Samsung-service."
+ },
+ "Samsung|85C": {
+  "title": "Lav nettspenning (Family Hub)",
+  "causes": [
+   "Som regel et kort strømbrudd."
+  ],
+  "steps": [
+   "Trykk og hold OK i 3 sekunder for å fjerne den."
+  ],
+  "technician": "Ufarlig i seg selv. Kontakt Samsung bare hvis den vises ofte."
+ },
+ "Samsung|88 88": {
+  "title": "Kommunikasjonsfeil ved oppstart",
+  "causes": [
+   "Strømmen ble forstyrret mens kjøleskapet startet opp."
+  ],
+  "steps": [
+   "Trekk ut støpselet eller slå av sikringen til kjøleskapet i 60 sekunder.",
+   "Slå på strømmen igjen og se om koden kommer tilbake."
+  ],
+  "technician": "Hvis koden kommer tilbake etter en tilbakestilling, bestill Samsung-service."
+ },
+ "Samsung|83E": {
+  "title": "Unormal strøm i kompressoren",
+  "causes": [
+   "Et strømstøt eller et elektrisk problem."
+  ],
+  "steps": [
+   "Trekk ut støpselet eller slå av sikringen til kjøleskapet i 60 sekunder.",
+   "Slå på strømmen igjen og se om koden kommer tilbake."
+  ],
+  "technician": "Hvis 83E kommer tilbake, bestill Samsung-service."
+ },
+ "Samsung|85E": {
+  "title": "Lav spenning til kompressoren",
+  "causes": [
+   "Spenningsfall eller lav nettspenning."
+  ],
+  "steps": [
+   "Trekk ut støpselet eller slå av sikringen til kjøleskapet i 60 sekunder.",
+   "Slå på strømmen igjen og se om koden kommer tilbake."
+  ],
+  "technician": "Hvis 85E kommer tilbake, få strømforsyningen sjekket og bestill Samsung-service."
+ },
+ "Samsung|86E": {
+  "title": "Høy spenning til kompressoren",
+  "causes": [
+   "Et strømstøt, for eksempel under tordenvær."
+  ],
+  "steps": [
+   "Trekk ut støpselet eller slå av sikringen til kjøleskapet i 60 sekunder.",
+   "Slå på strømmen igjen og se om koden kommer tilbake."
+  ],
+  "technician": "Hvis 86E kommer tilbake, bestill Samsung-service."
+ },
+ "Samsung|PC ER": {
+  "title": "Intern kommunikasjonsfeil",
+  "causes": [
+   "Et nylig strømstøt.",
+   "Ledningskontakten i døren er ikke ordentlig tilkoblet."
+  ],
+  "steps": [
+   "Slå av strømmen ved støpselet eller sikringen.",
+   "Sjekk og koble til ledningskontakten over dørhengselen på nytt.",
+   "Slå på strømmen igjen."
+  ],
+  "technician": "Hvis koden kommer tilbake, bestill Samsung-service."
+ },
+ "Samsung|OF OF": {
+  "title": "Cooling Off-modus (demomodus)",
+  "causes": [
+   "Demo- eller butikkmodus er slått på, ofte ved et uhell. Kjøleskapet kjøler ikke."
+  ],
+  "steps": [
+   "Trykk og hold de to øverste knappene til venstre på panelet i 5 til 8 sekunder til det piper.",
+   "På enkelte modeller holder du også inne knappen øverst til høyre.",
+   "Se i bruksanvisningen for tastekombinasjonen for din modell."
+  ],
+  "technician": "Ikke behov for service. Dette er en innstilling, ikke en feil."
+ },
+ "Samsung|5E": {
+  "title": "Feil på avrimingssensoren i kjøleskapet",
+  "causes": [
+   "Avrimingssensoren i kjøleskapet er defekt."
+  ],
+  "steps": [
+   "Ikke trekk ut støpselet til kjøleskapet med mindre du blir bedt om det.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Bestill Samsung-service for å bytte eller sjekke sensoren."
+ },
+ "Samsung|8E": {
+  "title": "Feil på sensoren til ismaskinen (fryser)",
+  "causes": [
+   "Sensoren til ismaskinen i fryseren er defekt."
+  ],
+  "steps": [
+   "Slå av ismaskinen hvis du kan.",
+   "Fortsett å bruke kjøleskapet som vanlig."
+  ],
+  "technician": "Bestill Samsung-service."
+ },
+ "Samsung|14E": {
+  "title": "Feil på sensoren til ismaskinen",
+  "causes": [
+   "Sensoren til ismaskinen er defekt."
+  ],
+  "steps": [
+   "Slå av ismaskinen hvis du kan.",
+   "Fortsett å bruke kjøleskapet som vanlig."
+  ],
+  "technician": "Bestill Samsung-service."
+ },
+ "Samsung|33E": {
+  "title": "Feil på varmeelementet i isrøret",
+  "causes": [
+   "Varmeelementet på vannrøret til ismaskinen er defekt."
+  ],
+  "steps": [
+   "Slå av ismaskinen hvis du kan."
+  ],
+  "technician": "Bestill Samsung-service."
+ },
+ "Samsung|39E": {
+  "title": "Funksjonsfeil på ismaskinen",
+  "causes": [
+   "Ismaskinen fungerer ikke som den skal."
+  ],
+  "steps": [
+   "Sjekk at isbeholderen sitter riktig.",
+   "Slå av ismaskinen hvis du kan."
+  ],
+  "technician": "Hvis koden står, bestill Samsung-service."
+ },
+ "Samsung|40E": {
+  "title": "Feil på viften i isrommet",
+  "causes": [
+   "Viften i isrommet virker ikke, ofte på grunn av is."
+  ],
+  "steps": [
+   "Sjekk at døren til isrommet lukkes helt."
+  ],
+  "technician": "Bestill Samsung-service."
+ },
+ "Samsung|84C": {
+  "title": "Kompressoren er låst",
+  "causes": [
+   "Kompressoren er låst og kan ikke starte."
+  ],
+  "steps": [
+   "Trekk ut støpselet eller slå av sikringen til kjøleskapet i 60 sekunder.",
+   "Slå på strømmen igjen og se om koden kommer tilbake."
+  ],
+  "technician": "Bestill Samsung-service. Dette krever en tekniker."
+ },
+ "LG|CF": {
+  "title": "Feil på kondensatorviften",
+  "causes": [
+   "Kondensatorviften er blokkert eller går ikke, så kompressoren overbelastes."
+  ],
+  "steps": [
+   "Trekk ut støpselet til kjøleskapet i 60 sekunder, og koble det til en stikkontakt i veggen, ikke et grenuttak.",
+   "Se om koden kommer tilbake.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Bestill LG-service. Dette krever en tekniker."
+ },
+ "LG|CO": {
+  "title": "Kommunikasjonsfeil",
+  "causes": [
+   "Hovedkortet og displayet kommuniserer ikke."
+  ],
+  "steps": [
+   "Trekk ut støpselet til kjøleskapet i 60 sekunder, og koble det til en stikkontakt i veggen, ikke et grenuttak.",
+   "Se om koden kommer tilbake.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Bestill LG-service. Dette krever en tekniker."
+ },
+ "LG|FF": {
+  "title": "Feil på viften i fryseren",
+  "causes": [
+   "Viften i fryseren er blokkert, ofte av is, eller har sviktet."
+  ],
+  "steps": [
+   "Trekk ut støpselet til kjøleskapet i 60 sekunder, og koble det til en stikkontakt i veggen, ikke et grenuttak.",
+   "Se om koden kommer tilbake.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Bestill LG-service. Dette krever en tekniker."
+ },
+ "LG|FS": {
+  "title": "Feil på frysersensoren",
+  "causes": [
+   "Temperatursensoren i fryseren er defekt."
+  ],
+  "steps": [
+   "Trekk ut støpselet til kjøleskapet i 60 sekunder, og koble det til en stikkontakt i veggen, ikke et grenuttak.",
+   "Se om koden kommer tilbake.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Bestill LG-service. Dette krever en tekniker."
+ },
+ "LG|FU": {
+  "title": "Fryseren kjøler ikke nok",
+  "causes": [
+   "Fryseren ble ikke kald nok etter oppstart.",
+   "Dørene åpnes ofte eller tetter ikke.",
+   "Luftventilene er blokkert av mat."
+  ],
+  "steps": [
+   "Trekk ut støpselet til kjøleskapet i 60 sekunder, og koble det til en stikkontakt i veggen, ikke et grenuttak.",
+   "Still fryseren på -18 °C.",
+   "Hold maten unna luftventilene.",
+   "Sjekk dørpakningene ved å lukke døren over et ark. Det skal ikke være lett å dra ut.",
+   "Åpne dørene sjeldnere."
+  ],
+  "technician": "Hvis fryseren fortsatt ikke kjøler, bestill LG-service."
+ },
+ "LG|IF": {
+  "title": "Feil på viften til ismaskinen",
+  "causes": [
+   "Viften til ismaskinen er blokkert eller defekt."
+  ],
+  "steps": [
+   "Trekk ut støpselet til kjøleskapet i 60 sekunder, og koble det til en stikkontakt i veggen, ikke et grenuttak.",
+   "Se om koden kommer tilbake.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Bestill LG-service. Dette krever en tekniker."
+ },
+ "LG|IS": {
+  "title": "Feil på sensoren til ismaskinen",
+  "causes": [
+   "Temperatursensoren til ismaskinen er defekt."
+  ],
+  "steps": [
+   "Trekk ut støpselet til kjøleskapet i 60 sekunder, og koble det til en stikkontakt i veggen, ikke et grenuttak.",
+   "Se om koden kommer tilbake.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Bestill LG-service. Dette krever en tekniker."
+ },
+ "LG|It": {
+  "title": "Feil på motoren til ismaskinen",
+  "causes": [
+   "Motoren til ismaskinen er defekt."
+  ],
+  "steps": [
+   "Trekk ut støpselet til kjøleskapet i 60 sekunder, og koble det til en stikkontakt i veggen, ikke et grenuttak.",
+   "Se om koden kommer tilbake.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Bestill LG-service. Dette krever en tekniker."
+ },
+ "LG|rS": {
+  "title": "Feil på kjøleskapssensoren (øvre)",
+  "causes": [
+   "Den øvre temperatursensoren i kjøleskapet er defekt."
+  ],
+  "steps": [
+   "Trekk ut støpselet til kjøleskapet i 60 sekunder, og koble det til en stikkontakt i veggen, ikke et grenuttak.",
+   "Se om koden kommer tilbake.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Bestill LG-service. Dette krever en tekniker."
+ },
+ "LG|r2": {
+  "title": "Feil på kjøleskapssensoren (nedre)",
+  "causes": [
+   "Den nedre temperatursensoren i kjøleskapet er defekt."
+  ],
+  "steps": [
+   "Trekk ut støpselet til kjøleskapet i 60 sekunder, og koble det til en stikkontakt i veggen, ikke et grenuttak.",
+   "Se om koden kommer tilbake.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Bestill LG-service. Dette krever en tekniker."
+ },
+ "LG|dS": {
+  "title": "Feil på avrimingssensoren",
+  "causes": [
+   "Avrimingssensoren er defekt, så fordamperen kan fryse til."
+  ],
+  "steps": [
+   "Trekk ut støpselet til kjøleskapet i 60 sekunder, og koble det til en stikkontakt i veggen, ikke et grenuttak.",
+   "Se om koden kommer tilbake.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Bestill LG-service. Dette krever en tekniker."
+ },
+ "LG|rT": {
+  "title": "Feil på romtemperatursensoren",
+  "causes": [
+   "Sensoren for omgivelsestemperatur er defekt."
+  ],
+  "steps": [
+   "Trekk ut støpselet til kjøleskapet i 60 sekunder, og koble det til en stikkontakt i veggen, ikke et grenuttak.",
+   "Se om koden kommer tilbake.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Bestill LG-service. Dette krever en tekniker."
+ },
+ "LG|dH": {
+  "title": "Avrimingen mislyktes",
+  "causes": [
+   "Avrimingssystemet ble ikke varmt nok i tide.",
+   "Fordamperen er blokkert av is."
+  ],
+  "steps": [
+   "Ta ut maten og legg den et kjølig sted.",
+   "Legg håndklær på gulvet foran kjøleskapet.",
+   "Trekk ut støpselet og la dørene stå åpne i minst 12 timer slik at isen smelter.",
+   "Sett i støpselet igjen."
+  ],
+  "technician": "Dette er ofte bare en midlertidig løsning. Hvis dH kommer tilbake, bestill LG-service."
+ },
+ "LG|SS": {
+  "title": "Feil på sensoren til vanntanken",
+  "causes": [
+   "Temperatursensoren til vanntanken er defekt."
+  ],
+  "steps": [
+   "Trekk ut støpselet til kjøleskapet i 60 sekunder, og koble det til en stikkontakt i veggen, ikke et grenuttak.",
+   "Se om koden kommer tilbake.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Bestill LG-service. Dette krever en tekniker."
+ },
+ "LG|rF": {
+  "title": "Feil på viften i kjøleskapet",
+  "causes": [
+   "Viften i kjøleskapet er blokkert eller defekt."
+  ],
+  "steps": [
+   "Trekk ut støpselet til kjøleskapet i 60 sekunder, og koble det til en stikkontakt i veggen, ikke et grenuttak.",
+   "Se om koden kommer tilbake.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Bestill LG-service. Dette krever en tekniker."
+ },
+ "LG|tt": {
+  "title": "Problem med vanntanken",
+  "causes": [
+   "Vanntanken mangler eller sitter ikke riktig.",
+   "Sensoren til tanken er defekt."
+  ],
+  "steps": [
+   "Ta ut vanntanken og sett den riktig på plass igjen.",
+   "Se om koden forsvinner."
+  ],
+  "technician": "Hvis tt står selv om tanken er på plass, bestill LG-service."
+ },
+ "LG|C1": {
+  "title": "Kommunikasjonsfeil i dispenseren",
+  "causes": [
+   "Dispenseren og displayet kommuniserer ikke."
+  ],
+  "steps": [
+   "Trekk ut støpselet til kjøleskapet i 60 sekunder, og koble det til en stikkontakt i veggen, ikke et grenuttak.",
+   "Se om koden kommer tilbake.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Bestill LG-service. Dette krever en tekniker."
+ },
+ "LG|gF": {
+  "title": "Feil på vannmengdesensoren",
+  "causes": [
+   "Kranen til vanntilførselen er stengt.",
+   "Vannslangen har en knekk.",
+   "Vanntrykket er feil."
+  ],
+  "steps": [
+   "Trekk ut støpselet til kjøleskapet i 60 sekunder, og koble det til en stikkontakt i veggen, ikke et grenuttak.",
+   "Vent opptil 5 minutter til kjøleskapet har startet på nytt.",
+   "Åpne kranen til vanntilførselen helt.",
+   "Sjekk at slangen ikke har en knekk.",
+   "Sammenlign vanntrykket ditt med det som står i bruksanvisningen."
+  ],
+  "technician": "Hvis feilen vedvarer, bestill LG-service."
+ },
+ "LG|CH": {
+  "title": "Feil i kjølesystemet (høytrykkssiden)",
+  "causes": [
+   "Sensorene leser unormale verdier i kjølesystemet, muligens en lekkasje eller en defekt ventil."
+  ],
+  "steps": [
+   "Trekk ut støpselet til kjøleskapet i 60 sekunder, og koble det til en stikkontakt i veggen, ikke et grenuttak.",
+   "Se om koden kommer tilbake.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Bestill LG-service. Dette krever en tekniker."
+ },
+ "LG|CL": {
+  "title": "Feil i kjølesystemet (lavtrykkssiden)",
+  "causes": [
+   "Sensorene leser unormale verdier i kjølesystemet, muligens en lekkasje eller en defekt ventil."
+  ],
+  "steps": [
+   "Trekk ut støpselet til kjøleskapet i 60 sekunder, og koble det til en stikkontakt i veggen, ikke et grenuttak.",
+   "Se om koden kommer tilbake.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Bestill LG-service. Dette krever en tekniker."
+ },
+ "LG|Lo": {
+  "title": "Rommet er for kaldt",
+  "causes": [
+   "Rommet er kaldere enn -10 °C."
+  ],
+  "steps": [
+   "Flytt kjøleskapet til et varmere sted hvis mulig."
+  ],
+  "technician": "Ikke en feil. Kontakt LG bare hvis rommet er varmt og Lo fortsatt vises."
+ },
+ "LG|HI": {
+  "title": "Rommet er for varmt",
+  "causes": [
+   "Rommet er varmere enn 50 °C."
+  ],
+  "steps": [
+   "Flytt kjøleskapet til et kjøligere sted hvis mulig.",
+   "Sørg for at luften kan sirkulere rundt det."
+  ],
+  "technician": "Ikke en feil. Kontakt LG bare hvis rommet har normal temperatur og HI fortsatt vises."
+ },
+ "Miele|F0": {
+  "title": "Teknisk feil",
+  "causes": [
+   "Det ble registrert en intern teknisk feil."
+  ],
+  "steps": [
+   "Noter feilkoden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten.",
+   "Bestill en Miele-tekniker."
+  ],
+  "technician": "Dette er en teknisk feil du ikke kan rette selv. Kontakt Miele kundeservice."
+ },
+ "Miele|F1": {
+  "title": "Teknisk feil",
+  "causes": [
+   "Det ble registrert en intern teknisk feil."
+  ],
+  "steps": [
+   "Noter feilkoden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten.",
+   "Bestill en Miele-tekniker."
+  ],
+  "technician": "Dette er en teknisk feil du ikke kan rette selv. Kontakt Miele kundeservice."
+ },
+ "Miele|F2": {
+  "title": "Teknisk feil",
+  "causes": [
+   "Det ble registrert en intern teknisk feil."
+  ],
+  "steps": [
+   "Noter feilkoden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten.",
+   "Bestill en Miele-tekniker."
+  ],
+  "technician": "Dette er en teknisk feil du ikke kan rette selv. Kontakt Miele kundeservice."
+ },
+ "Miele|F3": {
+  "title": "Teknisk feil",
+  "causes": [
+   "Det ble registrert en intern teknisk feil."
+  ],
+  "steps": [
+   "Noter feilkoden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten.",
+   "Bestill en Miele-tekniker."
+  ],
+  "technician": "Dette er en teknisk feil du ikke kan rette selv. Kontakt Miele kundeservice."
+ },
+ "Miele|F4": {
+  "title": "Teknisk feil",
+  "causes": [
+   "Det ble registrert en intern teknisk feil."
+  ],
+  "steps": [
+   "Noter feilkoden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten.",
+   "Bestill en Miele-tekniker."
+  ],
+  "technician": "Dette er en teknisk feil du ikke kan rette selv. Kontakt Miele kundeservice."
+ },
+ "Miele|F5": {
+  "title": "Teknisk feil",
+  "causes": [
+   "Det ble registrert en intern teknisk feil."
+  ],
+  "steps": [
+   "Noter feilkoden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten.",
+   "Bestill en Miele-tekniker."
+  ],
+  "technician": "Dette er en teknisk feil du ikke kan rette selv. Kontakt Miele kundeservice."
+ },
+ "Miele|F114": {
+  "title": "Fordampersensoren i fryseren er defekt",
+  "causes": [
+   "Fordampersensoren i fryseavdelingen er defekt."
+  ],
+  "steps": [
+   "Noter feilkoden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten.",
+   "Bestill en Miele-tekniker."
+  ],
+  "technician": "Dette er en teknisk feil du ikke kan rette selv. Kontakt Miele kundeservice."
+ },
+ "Miele|F120": {
+  "title": "For lav nettspenning",
+  "causes": [
+   "Nettspenningen er tidvis for lav eller svinger mye."
+  ],
+  "steps": [
+   "Sjekk om andre apparater også har problemer.",
+   "La en kvalifisert elektriker sjekke nettspenningen."
+  ],
+  "technician": "Hvis spenningen er i orden og F120 står, bestill en Miele-tekniker."
+ },
+ "Miele|F141": {
+  "title": "Kjøleskapsdøren har stått åpen i 15 minutter",
+  "causes": [
+   "Døren til kjøleavdelingen har stått åpen i 15 minutter."
+  ],
+  "steps": [
+   "Lukk kjøleskapsdøren.",
+   "Sjekk at ingenting hindrer den i å lukkes."
+  ],
+  "technician": "Hvis F141 vises med lukket dør, bestill en Miele-tekniker."
+ },
+ "Miele|F142": {
+  "title": "Kjøleskapsdøren har stått åpen i 30 minutter",
+  "causes": [
+   "Døren til kjøleavdelingen har stått åpen i omtrent 30 minutter."
+  ],
+  "steps": [
+   "Lukk kjøleskapsdøren.",
+   "Sjekk at ingenting hindrer den i å lukkes."
+  ],
+  "technician": "Hvis F142 vises med lukket dør, bestill en Miele-tekniker."
+ },
+ "Miele|F383": {
+  "title": "Feil på vanninntaket til ismaskinen",
+  "causes": [
+   "Tilløpsslangen for vann har en knekk.",
+   "Innløpsfilteret er skittent.",
+   "Vannbeholderen sitter ikke på plass, eller flottøren sitter fast.",
+   "En programvarefeil."
+  ],
+  "steps": [
+   "Rett ut eventuelle knekker på vannslangen.",
+   "Rengjør innløpsfilteret.",
+   "Ta ut vannbeholderen, rengjør under den og skyv den helt inn igjen.",
+   "Rist beholderen for å sjekke at flottøren beveger seg fritt.",
+   "Still fryseren på -18 °C i minst 48 timer."
+  ],
+  "technician": "Hvis feilen står, kontakt Miele kundeservice."
+ },
+ "Miele|F384": {
+  "title": "Programvarekrasj",
+  "causes": [
+   "Programvaren i apparatet har sluttet å virke."
+  ],
+  "steps": [
+   "Trekk ut støpselet til apparatet i omtrent 2 minutter.",
+   "Sett i støpselet igjen og slå det på.",
+   "Hvis det virker igjen, gjenopprett fabrikkinnstillingene fra Innstillinger-menyen."
+  ],
+  "technician": "Hvis feilen kommer tilbake, kontakt Miele kundeservice."
+ },
+ "Miele|F385": {
+  "title": "Programvarekrasj",
+  "causes": [
+   "Programvaren i apparatet har sluttet å virke."
+  ],
+  "steps": [
+   "Trekk ut støpselet til apparatet i omtrent 2 minutter.",
+   "Sett i støpselet igjen og slå det på.",
+   "Hvis det virker igjen, gjenopprett fabrikkinnstillingene fra Innstillinger-menyen."
+  ],
+  "technician": "Hvis feilen kommer tilbake, kontakt Miele kundeservice."
+ },
+ "Miele|nA": {
+  "title": "Fryseren ble for varm tidligere",
+  "causes": [
+   "Et strømbrudd eller avbrudd i strømforsyningen gjorde at fryseren ble varmere."
+  ],
+  "steps": [
+   "Hold inne alarmknappen for å se den høyeste temperaturen som ble nådd.",
+   "Sjekk maten. Bruk opptint mat snart.",
+   "Ikke frys opptint mat på nytt med mindre du tilbereder den først."
+  ],
+  "technician": "Ikke en feil. Kontakt Miele bare hvis den vises uten at det har vært strømbrudd."
+ },
+ "AEG|E08": {
+  "title": "Lav nettspenning",
+  "causes": [
+   "Nettspenningen har falt under 170 V. Dette beskytter kompressoren."
+  ],
+  "steps": [
+   "Sjekk om andre apparater har problemer med strømmen.",
+   "Vent til strømforsyningen er normal igjen."
+  ],
+  "technician": "Hvis E08 fortsetter å vises, få strømforsyningen sjekket og kontakt en autorisert AEG-tekniker."
+ },
+ "AEG|E09": {
+  "title": "Fryseren er ikke kald nok",
+  "causes": [
+   "Som regel etter et langt strømbrudd."
+  ],
+  "steps": [
+   "Still fryseren kaldere eller slå på Super Freeze.",
+   "Hold dørene lukket til koden forsvinner.",
+   "Bruk eller tilbered opptint mat snart.",
+   "Ikke legg inn ny mat før koden er borte."
+  ],
+  "technician": "Hvis koden blir stående, kontakt en autorisert AEG-tekniker."
+ },
+ "AEG|E10": {
+  "title": "Kjøleskapet er ikke kaldt nok",
+  "causes": [
+   "Et langt strømbrudd.",
+   "Det ble satt varm mat inn i kjøleskapet."
+  ],
+  "steps": [
+   "Still kjøleskapet kaldere eller slå på Super Cool.",
+   "Hold dørene lukket.",
+   "Hold maten unna luftventilene og sensoren."
+  ],
+  "technician": "Hvis E10 vedvarer, bestill en reparasjon fra AEG."
+ },
+ "AEG|E11": {
+  "title": "Kjøleskapet er for kaldt",
+  "causes": [
+   "Super Cool står på.",
+   "Temperaturen er stilt for lavt.",
+   "Luftventilene er blokkert."
+  ],
+  "steps": [
+   "Slå av Super Cool.",
+   "Still inn en varmere temperatur i kjøleskapet.",
+   "Sørg for at ventilene er frie."
+  ],
+  "technician": "Hvis koden vedvarer, kontakt autorisert AEG-service."
+ },
+ "AEG|F2": {
+  "title": "Feil på termostaten",
+  "causes": [
+   "Et problem med termostaten."
+  ],
+  "steps": [
+   "Noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Bestill en servicetekniker fra AEG og oppgi koden."
+ },
+ "AEG|F8": {
+  "title": "Feil i avrimingssystemet",
+  "causes": [
+   "En feil i avrimingssystemet."
+  ],
+  "steps": [
+   "Ikke prøv å reparere den selv.",
+   "Noter modell- og serienummeret."
+  ],
+  "technician": "Bestill en servicetekniker fra AEG og oppgi F8."
+ },
+ "Electrolux|F5": {
+  "title": "Feil på temperatursensoren",
+  "causes": [
+   "En temperatursensor er defekt. F3 og F4 viser til samme type feil."
+  ],
+  "steps": [
+   "Noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Bestill en servicetekniker fra Electrolux og oppgi koden."
+ },
+ "Electrolux|E01": {
+  "title": "Sensoradvarsel",
+  "causes": [
+   "En sensor i kombiskapet har et problem."
+  ],
+  "steps": [
+   "Noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Kontakt et autorisert Electrolux-serviceverksted for å få besøk av en tekniker."
+ },
+ "Electrolux|E02": {
+  "title": "Sensoradvarsel",
+  "causes": [
+   "En sensor i kombiskapet har et problem."
+  ],
+  "steps": [
+   "Noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Kontakt et autorisert Electrolux-serviceverksted for å få besøk av en tekniker."
+ },
+ "Electrolux|E03": {
+  "title": "Sensoradvarsel",
+  "causes": [
+   "En sensor i kombiskapet har et problem."
+  ],
+  "steps": [
+   "Noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Kontakt et autorisert Electrolux-serviceverksted for å få besøk av en tekniker."
+ },
+ "Electrolux|E06": {
+  "title": "Sensoradvarsel",
+  "causes": [
+   "En sensor i kombiskapet har et problem."
+  ],
+  "steps": [
+   "Noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Kontakt et autorisert Electrolux-serviceverksted for å få besøk av en tekniker."
+ },
+ "Electrolux|E07": {
+  "title": "Sensoradvarsel",
+  "causes": [
+   "En sensor i kombiskapet har et problem."
+  ],
+  "steps": [
+   "Noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Kontakt et autorisert Electrolux-serviceverksted for å få besøk av en tekniker."
+ },
+ "Hotpoint|E0": {
+  "title": "Feil på ismaskinen",
+  "causes": [
+   "Ismaskinen fungerer ikke som den skal (modeller med ismaskin)."
+  ],
+  "steps": [
+   "Slå av ismaskinen hvis mulig.",
+   "Fortsett å bruke kjøleskapet som vanlig."
+  ],
+  "technician": "Kontakt Hotpoint-service for å bestille en tekniker."
+ },
+ "Hotpoint|E1": {
+  "title": "Feil på kjøleskapssensoren",
+  "causes": [
+   "Temperatursensoren i kjøleskapet er defekt."
+  ],
+  "steps": [
+   "Noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Kontakt Hotpoint-service for å bestille en tekniker."
+ },
+ "Hotpoint|E2": {
+  "title": "Feil på frysersensoren",
+  "causes": [
+   "Temperatursensoren i fryseren er defekt.",
+   "Temperaturen i fryseren kan være feil."
+  ],
+  "steps": [
+   "Sjekk at maten fortsatt er frossen.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Kontakt Hotpoint-service for å bestille en tekniker."
+ },
+ "Hotpoint|E3": {
+  "title": "Feil på avrimingssensoren",
+  "causes": [
+   "Avrimingssensoren er defekt.",
+   "Et tett avløp kan også påvirke temperaturen."
+  ],
+  "steps": [
+   "Sjekk avrimingshullet og eventuelt avløpsrør for tetninger.",
+   "Fjern tetningen forsiktig."
+  ],
+  "technician": "Hvis feilen fortsetter, kontakt Hotpoint-service."
+ },
+ "Hotpoint|E4": {
+  "title": "Feil på avrimingssensoren i kjøleskapet",
+  "causes": [
+   "Avrimingssensoren i kjøleskapet er defekt."
+  ],
+  "steps": [
+   "Noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Kontakt Hotpoint-service for å bestille en tekniker."
+ },
+ "Hotpoint|E5": {
+  "title": "Feil på avrimingssensoren i fryseren",
+  "causes": [
+   "Avrimingssensoren i fryseren er defekt."
+  ],
+  "steps": [
+   "Noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Kontakt Hotpoint-service for å bestille en tekniker."
+ },
+ "Hotpoint|E6": {
+  "title": "Feil på styrekortet eller displaykortet",
+  "causes": [
+   "Hovedstyrekortet eller displaykortet er defekt."
+  ],
+  "steps": [
+   "Trekk ut støpselet til kjøleskapet i noen minutter, og sett det i igjen."
+  ],
+  "technician": "Kontakt Hotpoint-service for å bestille en tekniker."
+ },
+ "Hotpoint|E7": {
+  "title": "Feil på romtemperatursensoren",
+  "causes": [
+   "Sensoren for omgivelsestemperatur er defekt."
+  ],
+  "steps": [
+   "Noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Kontakt Hotpoint-service for å bestille en tekniker."
+ },
+ "Hotpoint|E8": {
+  "title": "Feil på romtemperatursensoren",
+  "causes": [
+   "Sensoren for omgivelsestemperatur er defekt."
+  ],
+  "steps": [
+   "Noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Kontakt Hotpoint-service for å bestille en tekniker."
+ },
+ "Hotpoint|E9": {
+  "title": "Alarm for høy temperatur i fryseren",
+  "causes": [
+   "Frysedøren ble stående åpen, og fryseren ble varm."
+  ],
+  "steps": [
+   "Lukk frysedøren ordentlig.",
+   "Sjekk at ingenting blokkerer døren.",
+   "Sjekk om maten har tint."
+  ],
+  "technician": "Hvis alarmen fortsetter med lukket dør, kontakt Hotpoint-service."
+ },
+ "Hotpoint|EE": {
+  "title": "Feil i kretsen til ismaskinen",
+  "causes": [
+   "En feil i kretsen til ismaskinen (modeller med ismaskin)."
+  ],
+  "steps": [
+   "Slå av ismaskinen hvis mulig."
+  ],
+  "technician": "Kontakt Hotpoint-service for å bestille en tekniker."
+ },
+ "Indesit|E0": {
+  "title": "Feil på ismaskinen",
+  "causes": [
+   "Ismaskinen fungerer ikke som den skal (modeller med ismaskin)."
+  ],
+  "steps": [
+   "Slå av ismaskinen hvis mulig.",
+   "Fortsett å bruke kjøleskapet som vanlig."
+  ],
+  "technician": "Kontakt Indesit-service for å bestille en tekniker."
+ },
+ "Indesit|E1": {
+  "title": "Feil på kjøleskapssensoren",
+  "causes": [
+   "Temperatursensoren i kjøleskapet er defekt."
+  ],
+  "steps": [
+   "Noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Kontakt Indesit-service for å bestille en tekniker."
+ },
+ "Indesit|E2": {
+  "title": "Feil på frysersensoren",
+  "causes": [
+   "Temperatursensoren i fryseren er defekt.",
+   "Temperaturen i fryseren kan være feil."
+  ],
+  "steps": [
+   "Sjekk at maten fortsatt er frossen.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Kontakt Indesit-service for å bestille en tekniker."
+ },
+ "Indesit|E3": {
+  "title": "Feil på avrimingssensoren",
+  "causes": [
+   "Avrimingssensoren er defekt.",
+   "Et tett avløp kan også påvirke temperaturen."
+  ],
+  "steps": [
+   "Sjekk avrimingshullet og eventuelt avløpsrør for tetninger.",
+   "Fjern tetningen forsiktig."
+  ],
+  "technician": "Hvis feilen fortsetter, kontakt Indesit-service."
+ },
+ "Indesit|E4": {
+  "title": "Feil på avrimingssensoren i kjøleskapet",
+  "causes": [
+   "Avrimingssensoren i kjøleskapet er defekt."
+  ],
+  "steps": [
+   "Noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Kontakt Indesit-service for å bestille en tekniker."
+ },
+ "Indesit|E5": {
+  "title": "Feil på avrimingssensoren i fryseren",
+  "causes": [
+   "Avrimingssensoren i fryseren er defekt."
+  ],
+  "steps": [
+   "Noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Kontakt Indesit-service for å bestille en tekniker."
+ },
+ "Indesit|E6": {
+  "title": "Feil på styrekortet eller displaykortet",
+  "causes": [
+   "Hovedstyrekortet eller displaykortet er defekt."
+  ],
+  "steps": [
+   "Trekk ut støpselet til kjøleskapet i noen minutter, og sett det i igjen."
+  ],
+  "technician": "Kontakt Indesit-service for å bestille en tekniker."
+ },
+ "Indesit|E7": {
+  "title": "Feil på romtemperatursensoren",
+  "causes": [
+   "Sensoren for omgivelsestemperatur er defekt."
+  ],
+  "steps": [
+   "Noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Kontakt Indesit-service for å bestille en tekniker."
+ },
+ "Indesit|E8": {
+  "title": "Feil på romtemperatursensoren",
+  "causes": [
+   "Sensoren for omgivelsestemperatur er defekt."
+  ],
+  "steps": [
+   "Noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Kontakt Indesit-service for å bestille en tekniker."
+ },
+ "Indesit|E9": {
+  "title": "Alarm for høy temperatur i fryseren",
+  "causes": [
+   "Frysedøren ble stående åpen, og fryseren ble varm."
+  ],
+  "steps": [
+   "Lukk frysedøren ordentlig.",
+   "Sjekk at ingenting blokkerer døren.",
+   "Sjekk om maten har tint."
+  ],
+  "technician": "Hvis alarmen fortsetter med lukket dør, kontakt Indesit-service."
+ },
+ "Indesit|EE": {
+  "title": "Feil i kretsen til ismaskinen",
+  "causes": [
+   "En feil i kretsen til ismaskinen (modeller med ismaskin)."
+  ],
+  "steps": [
+   "Slå av ismaskinen hvis mulig."
+  ],
+  "technician": "Kontakt Indesit-service for å bestille en tekniker."
+ },
+ "Whirlpool|F3 E1": {
+  "title": "Systemfeil (blinkende F)",
+  "causes": [
+   "Styringen har registrert en feil. Whirlpool oppgir ingen hjemmeløsning utover en tilbakestilling."
+  ],
+  "steps": [
+   "Slå av sikringen eller trekk ut støpselet til kjøleskapet i ett minutt.",
+   "Slå på strømmen igjen.",
+   "Sørg for at kjølingen er slått på.",
+   "Følg med i ett minutt for å se om koden kommer tilbake."
+  ],
+  "technician": "Hvis koden kommer tilbake etter tilbakestillingen, bestill Whirlpool-service."
+ },
+ "Whirlpool|F3 E2": {
+  "title": "Systemfeil (blinkende F)",
+  "causes": [
+   "Styringen har registrert en feil. Whirlpool oppgir ingen hjemmeløsning utover en tilbakestilling."
+  ],
+  "steps": [
+   "Slå av sikringen eller trekk ut støpselet til kjøleskapet i ett minutt.",
+   "Slå på strømmen igjen.",
+   "Sørg for at kjølingen er slått på.",
+   "Følg med i ett minutt for å se om koden kommer tilbake."
+  ],
+  "technician": "Hvis koden kommer tilbake etter tilbakestillingen, bestill Whirlpool-service."
+ },
+ "Whirlpool|F6 E1": {
+  "title": "Systemfeil (blinkende F)",
+  "causes": [
+   "Styringen har registrert en feil. Whirlpool oppgir ingen hjemmeløsning utover en tilbakestilling."
+  ],
+  "steps": [
+   "Slå av sikringen eller trekk ut støpselet til kjøleskapet i ett minutt.",
+   "Slå på strømmen igjen.",
+   "Sørg for at kjølingen er slått på.",
+   "Følg med i ett minutt for å se om koden kommer tilbake."
+  ],
+  "technician": "Hvis koden kommer tilbake etter tilbakestillingen, bestill Whirlpool-service."
+ },
+ "Whirlpool|F8 E1": {
+  "title": "Systemfeil (blinkende F)",
+  "causes": [
+   "Styringen har registrert en feil. Whirlpool oppgir ingen hjemmeløsning utover en tilbakestilling."
+  ],
+  "steps": [
+   "Slå av sikringen eller trekk ut støpselet til kjøleskapet i ett minutt.",
+   "Slå på strømmen igjen.",
+   "Sørg for at kjølingen er slått på.",
+   "Følg med i ett minutt for å se om koden kommer tilbake."
+  ],
+  "technician": "Hvis koden kommer tilbake etter tilbakestillingen, bestill Whirlpool-service."
+ },
+ "Whirlpool|F8 E2": {
+  "title": "Systemfeil (blinkende F)",
+  "causes": [
+   "Styringen har registrert en feil. Whirlpool oppgir ingen hjemmeløsning utover en tilbakestilling."
+  ],
+  "steps": [
+   "Slå av sikringen eller trekk ut støpselet til kjøleskapet i ett minutt.",
+   "Slå på strømmen igjen.",
+   "Sørg for at kjølingen er slått på.",
+   "Følg med i ett minutt for å se om koden kommer tilbake."
+  ],
+  "technician": "Hvis koden kommer tilbake etter tilbakestillingen, bestill Whirlpool-service."
+ },
+ "Whirlpool|PO": {
+  "title": "Varsel om strømbrudd",
+  "causes": [
+   "Strømmen gikk, og temperaturen i fryseren steg til -8 °C (18 °F) eller høyere."
+  ],
+  "steps": [
+   "Trykk på knappen under den blinkende Confirm-teksten for å fjerne varselet.",
+   "Sjekk om frossenmaten har tint."
+  ],
+  "technician": "Ikke en feil. Kontakt Whirlpool bare hvis PO vises uten at det har vært strømbrudd."
+ },
+ "Bosch|E02": {
+  "title": "Feil på ismaskinen eller vannsystemet",
+  "causes": [
+   "Ismaskinen er defekt.",
+   "Styringen for is og vann kommuniserer ikke."
+  ],
+  "steps": [
+   "Slå av sikringen til kjøleskapet i 30 sekunder.",
+   "Slå den på igjen og sjekk koden."
+  ],
+  "technician": "Hvis E02 står, kontakt Bosch kundeservice."
+ },
+ "Bosch|E03": {
+  "title": "Feil på styringen til dispenseren",
+  "causes": [
+   "Kontrollpanelet til dispenseren har en feil."
+  ],
+  "steps": [
+   "Slå av sikringen til kjøleskapet i 30 sekunder.",
+   "Slå den på igjen og sjekk koden."
+  ],
+  "technician": "Hvis E03 står, kontakt Bosch kundeservice."
+ },
+ "Haier|F1": {
+  "title": "Sensorfeil",
+  "causes": [
+   "En temperatursensor er defekt."
+  ],
+  "steps": [
+   "Slå kjøleskapet av og på én gang for å se om koden forsvinner.",
+   "Hvis den kommer tilbake, noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Dette kan du ikke rette selv. Kontakt Haier-service for å få en tekniker."
+ },
+ "Haier|E0": {
+  "title": "Kommunikasjonsfeil",
+  "causes": [
+   "Interne kretskort kommuniserer ikke."
+  ],
+  "steps": [
+   "Slå kjøleskapet av og på én gang for å se om koden forsvinner.",
+   "Hvis den kommer tilbake, noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Dette kan du ikke rette selv. Kontakt Haier-service for å få en tekniker."
+ },
+ "Haier|E1": {
+  "title": "Viftefeil",
+  "causes": [
+   "En vifte fungerer ikke."
+  ],
+  "steps": [
+   "Slå kjøleskapet av og på én gang for å se om koden forsvinner.",
+   "Hvis den kommer tilbake, noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Dette kan du ikke rette selv. Kontakt Haier-service for å få en tekniker."
+ },
+ "Haier|Er": {
+  "title": "Feil på ismaskinen",
+  "causes": [
+   "Ismaskinen er defekt."
+  ],
+  "steps": [
+   "Slå kjøleskapet av og på én gang for å se om koden forsvinner.",
+   "Hvis den kommer tilbake, noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Dette kan du ikke rette selv. Kontakt Haier-service for å få en tekniker."
+ },
+ "Haier|Ed": {
+  "title": "Feil på avrimingen",
+  "causes": [
+   "Avrimingssystemet er defekt."
+  ],
+  "steps": [
+   "Slå kjøleskapet av og på én gang for å se om koden forsvinner.",
+   "Hvis den kommer tilbake, noter koden.",
+   "Hold dørene lukket så mye som mulig for å beskytte maten."
+  ],
+  "technician": "Dette kan du ikke rette selv. Kontakt Haier-service for å få en tekniker."
+ }
+}

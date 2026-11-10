@@ -1,0 +1,1776 @@
+{
+ "Vaillant|F.0": {
+  "title": "Menoveden lämpötila-anturin piiri katkennut",
+  "causes": [
+   "Menoveden lämpötila-anturi tai sen johdotus on viallinen.",
+   "Löysä liitos kattilan sisällä."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa, älä yritä korjata vikaa itse. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Vaillant|F.1": {
+  "title": "Paluuveden lämpötila-anturin piiri katkennut",
+  "causes": [
+   "Paluuveden lämpötila-anturi tai sen johdotus on viallinen.",
+   "Löysä liitos kattilan sisällä."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa, älä yritä korjata vikaa itse. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Vaillant|F.10": {
+  "title": "Menoveden lämpötila-anturin oikosulku",
+  "causes": [
+   "Menoveden lämpötila-anturi tai sen johdotus on viallinen.",
+   "Löysä liitos kattilan sisällä."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa, älä yritä korjata vikaa itse. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Vaillant|F.11": {
+  "title": "Paluuveden lämpötila-anturin oikosulku",
+  "causes": [
+   "Paluuveden lämpötila-anturi tai sen johdotus on viallinen.",
+   "Löysä liitos kattilan sisällä."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa, älä yritä korjata vikaa itse. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Vaillant|F.20": {
+  "title": "Ylikuumenemissuoja on lauennut",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Vaillant|F.22": {
+  "title": "Alhainen vedenpaine",
+  "causes": [
+   "Lämmitysjärjestelmästä on hävinnyt vettä, usein patterien ilmauksen jälkeen.",
+   "Pieni vuoto jossain putkissa tai pattereissa.",
+   "Viallinen paineanturi."
+  ],
+  "steps": [
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos joudut lisäämään vettä usein, järjestelmässä voi olla vuoto. Pyydä asentajaa paikantamaan se."
+  ],
+  "technician": "Jos paine laskee jatkuvasti, valtuutetun kaasuasentajan on paikannettava vuoto; älä koskaan avaa kattilan koteloa itse."
+ },
+ "Vaillant|F.23": {
+  "title": "Meno- ja paluuveden lämpötilaero liian suuri",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Vaillant|F.24": {
+  "title": "Lämpötila nousee liian nopeasti",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Vaillant|F.25": {
+  "title": "Savukaasujen lämpötila liian korkea",
+  "causes": [
+   "Ongelma savukaasuputkessa tai palamisilman syötössä.",
+   "Huono palaminen kattilan sisällä."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Sammuta kattila pääkytkimestä.",
+   "Tarkista ulkopuolelta, ettei savukaasupääte ole näkyvästi tukossa. Älä koske siihen.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Vaillant|F.27": {
+  "title": "Liekki havaittu polttimen ollessa sammuksissa",
+  "causes": [
+   "Vika liekinvalvontapiirissä.",
+   "Kaasuventtiili ei sulkeudu kokonaan."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Sammuta kattila pääkytkimestä.",
+   "Älä jatka kuittaamista. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kyseessä on turvallisuusvika; kaasuventtiilin ja liekinvalvonnan osat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Vaillant|F.28": {
+  "title": "Kattila ei syttynyt",
+  "causes": [
+   "Kattilaan ei tule kaasua, esimerkiksi ennakkomaksumittarin saldo on loppunut.",
+   "Kondenssivesiputki on jäätynyt tai tukossa.",
+   "Vika sytytyksen tai liekinvalvonnan osissa."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Tarkista, toimivatko muut kaasulaitteet, kuten liesi.",
+   "Jos sinulla on ennakkomaksullinen kaasumittari, varmista, että siinä on saldoa.",
+   "Tarkista pakkasella ulkona oleva muovinen kondenssivesiputki. Sulata jää lämpimällä (ei kiehuvalla) vedellä.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Vaillant|F.29": {
+  "title": "Liekki sammui, eikä kattila syttynyt uudelleen",
+  "causes": [
+   "Kattilaan ei tule kaasua, esimerkiksi ennakkomaksumittarin saldo on loppunut.",
+   "Kondenssivesiputki on jäätynyt tai tukossa.",
+   "Vika sytytyksen tai liekinvalvonnan osissa."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Tarkista, toimivatko muut kaasulaitteet, kuten liesi.",
+   "Jos sinulla on ennakkomaksullinen kaasumittari, varmista, että siinä on saldoa.",
+   "Tarkista pakkasella ulkona oleva muovinen kondenssivesiputki. Sulata jää lämpimällä (ei kiehuvalla) vedellä.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Vaillant|F.32": {
+  "title": "Puhaltimen vika",
+  "causes": [
+   "Puhallin ei käy oikealla nopeudella.",
+   "Johdotus- tai ohjauskorttivika.",
+   "Savukaasuputki voi olla tukossa."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Tarkista ulkopuolelta, ettei mikään tuki savukaasupäätettä. Älä koske siihen.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Vaillant|F.35": {
+  "title": "Ilma- tai savukaasuputki tukossa",
+  "causes": [
+   "Jokin tukkii savukaasuputken tai palamisilman sisääntulon.",
+   "Savukaasuputkisto on vaurioitunut."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Sammuta kattila pääkytkimestä.",
+   "Katso ulkopuolelta, onko savukaasupäätteen ympärillä lehtiä, pesiä tai lunta, mutta älä koske savukaasuputkeen tai irrota sitä.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Vaillant|F.54": {
+  "title": "Kaasunsyötön vika",
+  "causes": [
+   "Kattilaan ei tule kaasua, esimerkiksi ennakkomaksumittarin saldo on loppunut.",
+   "Kondenssivesiputki on jäätynyt tai tukossa.",
+   "Vika sytytyksen tai liekinvalvonnan osissa."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Tarkista, toimivatko muut kaasulaitteet, kuten liesi.",
+   "Jos sinulla on ennakkomaksullinen kaasumittari, varmista, että siinä on saldoa.",
+   "Tarkista pakkasella ulkona oleva muovinen kondenssivesiputki. Sulata jää lämpimällä (ei kiehuvalla) vedellä.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Vaillant|F.62": {
+  "title": "Kaasuventtiilin sulkuviiveen vika",
+  "causes": [
+   "Liekin sammuminen kesti liian kauan polttimen pysähdyttyä.",
+   "Kaasuventtiilin tai ohjauksen vika."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Vaillant|F.75": {
+  "title": "Paine ei nouse pumpun käynnistyessä",
+  "causes": [
+   "Lämmitysjärjestelmästä on hävinnyt vettä, usein patterien ilmauksen jälkeen.",
+   "Pieni vuoto jossain putkissa tai pattereissa.",
+   "Viallinen paineanturi."
+  ],
+  "steps": [
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos joudut lisäämään vettä usein, järjestelmässä voi olla vuoto. Pyydä asentajaa paikantamaan se."
+  ],
+  "technician": "Jos paine laskee jatkuvasti, valtuutetun kaasuasentajan on paikannettava vuoto; älä koskaan avaa kattilan koteloa itse."
+ },
+ "Vaillant|F.83": {
+  "title": "Lämpötila ei nouse polttimen käynnistyessä",
+  "causes": [
+   "Kattilassa ei ole tarpeeksi vettä.",
+   "Järjestelmässä on ilmaa, tai anturi on viallinen."
+  ],
+  "steps": [
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Vaillant|F.88": {
+  "title": "Kaasuventtiilin sähköliitäntä katkennut",
+  "causes": [
+   "Kaasuventtiilin liitäntä on löysä tai vaurioitunut.",
+   "Ohjauskortin vika."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Älä yritä päästä käsiksi kaasuventtiiliin. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Glow-worm|F.0": {
+  "title": "Menoveden lämpötila-anturin piiri katkennut",
+  "causes": [
+   "Menoveden lämpötila-anturi tai sen johdotus on viallinen.",
+   "Löysä liitos kattilan sisällä."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa, älä yritä korjata vikaa itse. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Glow-worm|F.1": {
+  "title": "Paluuveden lämpötila-anturin piiri katkennut",
+  "causes": [
+   "Paluuveden lämpötila-anturi tai sen johdotus on viallinen.",
+   "Löysä liitos kattilan sisällä."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa, älä yritä korjata vikaa itse. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Glow-worm|F.20": {
+  "title": "Ylikuumenemissuoja on lauennut",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Glow-worm|F.22": {
+  "title": "Alhainen vedenpaine",
+  "causes": [
+   "Lämmitysjärjestelmästä on hävinnyt vettä, usein patterien ilmauksen jälkeen.",
+   "Pieni vuoto jossain putkissa tai pattereissa.",
+   "Viallinen paineanturi."
+  ],
+  "steps": [
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos joudut lisäämään vettä usein, järjestelmässä voi olla vuoto. Pyydä asentajaa paikantamaan se."
+  ],
+  "technician": "Jos paine laskee jatkuvasti, valtuutetun kaasuasentajan on paikannettava vuoto; älä koskaan avaa kattilan koteloa itse."
+ },
+ "Glow-worm|F.23": {
+  "title": "Meno- ja paluuveden lämpötilaero liian suuri",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Glow-worm|F.24": {
+  "title": "Lämpötila nousee liian nopeasti",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Glow-worm|F.27": {
+  "title": "Liekki havaittu polttimen ollessa sammuksissa",
+  "causes": [
+   "Vika liekinvalvontapiirissä.",
+   "Kaasuventtiili ei sulkeudu kokonaan."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Sammuta kattila pääkytkimestä.",
+   "Älä jatka kuittaamista. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kyseessä on turvallisuusvika; kaasuventtiilin ja liekinvalvonnan osat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Glow-worm|F.28": {
+  "title": "Kattila ei syttynyt",
+  "causes": [
+   "Kattilaan ei tule kaasua, esimerkiksi ennakkomaksumittarin saldo on loppunut.",
+   "Kondenssivesiputki on jäätynyt tai tukossa.",
+   "Vika sytytyksen tai liekinvalvonnan osissa."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Tarkista, toimivatko muut kaasulaitteet, kuten liesi.",
+   "Jos sinulla on ennakkomaksullinen kaasumittari, varmista, että siinä on saldoa.",
+   "Tarkista pakkasella ulkona oleva muovinen kondenssivesiputki. Sulata jää lämpimällä (ei kiehuvalla) vedellä.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Glow-worm|F.29": {
+  "title": "Liekki sammui, eikä kattila syttynyt uudelleen",
+  "causes": [
+   "Kattilaan ei tule kaasua, esimerkiksi ennakkomaksumittarin saldo on loppunut.",
+   "Kondenssivesiputki on jäätynyt tai tukossa.",
+   "Vika sytytyksen tai liekinvalvonnan osissa."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Tarkista, toimivatko muut kaasulaitteet, kuten liesi.",
+   "Jos sinulla on ennakkomaksullinen kaasumittari, varmista, että siinä on saldoa.",
+   "Tarkista pakkasella ulkona oleva muovinen kondenssivesiputki. Sulata jää lämpimällä (ei kiehuvalla) vedellä.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Glow-worm|F.32": {
+  "title": "Puhaltimen vika",
+  "causes": [
+   "Puhallin ei käy oikealla nopeudella.",
+   "Johdotus- tai ohjauskorttivika.",
+   "Savukaasuputki voi olla tukossa."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Tarkista ulkopuolelta, ettei mikään tuki savukaasupäätettä. Älä koske siihen.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Glow-worm|F.61": {
+  "title": "Pääohjauskortin vika",
+  "causes": [
+   "Elektroniikkavika pääpiirilevyssä.",
+   "Ongelma kaasuventtiilin ohjauspiirissä."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Jos koodi ei poistu, älä kuittaa uudelleen. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Glow-worm|F.75": {
+  "title": "Paine ei nouse pumpun käynnistyessä",
+  "causes": [
+   "Lämmitysjärjestelmästä on hävinnyt vettä, usein patterien ilmauksen jälkeen.",
+   "Pieni vuoto jossain putkissa tai pattereissa.",
+   "Viallinen paineanturi."
+  ],
+  "steps": [
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos joudut lisäämään vettä usein, järjestelmässä voi olla vuoto. Pyydä asentajaa paikantamaan se."
+  ],
+  "technician": "Jos paine laskee jatkuvasti, valtuutetun kaasuasentajan on paikannettava vuoto; älä koskaan avaa kattilan koteloa itse."
+ },
+ "Glow-worm|F.84": {
+  "title": "Meno- ja paluuveden lukemat ovat epäloogiset",
+  "causes": [
+   "Putket voivat olla kytketty ristiin, tai anturi on asennettu väärään paikkaan.",
+   "Anturivika."
+  ],
+  "steps": [
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi ilmestyi järjestelmään tehtyjen uusien töiden jälkeen, ota yhteys työn tehneeseen asentajaan."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Glow-worm|F.88": {
+  "title": "Kaasuventtiilin sähköliitäntä katkennut",
+  "causes": [
+   "Kaasuventtiilin liitäntä on löysä tai vaurioitunut.",
+   "Ohjauskortin vika."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Älä yritä päästä käsiksi kaasuventtiiliin. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Ideal|L1": {
+  "title": "Menoveden ylikuumeneminen tai ei vedenvirtausta",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Ideal|L2": {
+  "title": "Sytytyksen vikalukitus",
+  "causes": [
+   "Kattilaan ei tule kaasua, esimerkiksi ennakkomaksumittarin saldo on loppunut.",
+   "Kondenssivesiputki on jäätynyt tai tukossa.",
+   "Vika sytytyksen tai liekinvalvonnan osissa."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Tarkista, toimivatko muut kaasulaitteet, kuten liesi.",
+   "Jos sinulla on ennakkomaksullinen kaasumittari, varmista, että siinä on saldoa.",
+   "Tarkista pakkasella ulkona oleva muovinen kondenssivesiputki. Sulata jää lämpimällä (ei kiehuvalla) vedellä.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Ideal|L3": {
+  "title": "Ei vedenvirtausta",
+  "causes": [
+   "Järjestelmän paine on alhainen.",
+   "Pattereihin on jäänyt ilmaa.",
+   "Kierto- tai pumppuongelma."
+  ],
+  "steps": [
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Sammuta kattila ja ilmaa patterit.",
+   "Tarkista paine uudelleen, käynnistä kattila ja kuittaa vika.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Ideal|L5": {
+  "title": "Liian monta kuittausta 15 minuutissa",
+  "causes": [
+   "Kuittauspainiketta painettiin liian monta kertaa lyhyessä ajassa."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Jos sen jälkeen näkyy vikakoodi, noudata kyseisen koodin ohjeita."
+  ],
+  "technician": "Jos kattila menee toistuvasti vikalukitukseen, valtuutetun kaasuasentajan tulee selvittää taustalla oleva vika."
+ },
+ "Ideal|L6": {
+  "title": "Virheellisen liekin vikalukitus",
+  "causes": [
+   "Vika liekinvalvontapiirissä.",
+   "Kaasuventtiili ei sulkeudu kokonaan."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Sammuta kattila pääkytkimestä.",
+   "Älä jatka kuittaamista. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kyseessä on turvallisuusvika; kaasuventtiilin ja liekinvalvonnan osat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Ideal|F1": {
+  "title": "Alhainen vedenpaine",
+  "causes": [
+   "Lämmitysjärjestelmästä on hävinnyt vettä, usein patterien ilmauksen jälkeen.",
+   "Pieni vuoto jossain putkissa tai pattereissa.",
+   "Viallinen paineanturi."
+  ],
+  "steps": [
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos joudut lisäämään vettä usein, järjestelmässä voi olla vuoto. Pyydä asentajaa paikantamaan se."
+  ],
+  "technician": "Jos paine laskee jatkuvasti, valtuutetun kaasuasentajan on paikannettava vuoto; älä koskaan avaa kattilan koteloa itse."
+ },
+ "Ideal|F2": {
+  "title": "Liekin menetys",
+  "causes": [
+   "Kattilaan ei tule kaasua, esimerkiksi ennakkomaksumittarin saldo on loppunut.",
+   "Kondenssivesiputki on jäätynyt tai tukossa.",
+   "Vika sytytyksen tai liekinvalvonnan osissa."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Tarkista, toimivatko muut kaasulaitteet, kuten liesi.",
+   "Jos sinulla on ennakkomaksullinen kaasumittari, varmista, että siinä on saldoa.",
+   "Tarkista pakkasella ulkona oleva muovinen kondenssivesiputki. Sulata jää lämpimällä (ei kiehuvalla) vedellä.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Ideal|F3": {
+  "title": "Puhaltimen vika",
+  "causes": [
+   "Puhallin ei käy oikealla nopeudella.",
+   "Johdotus- tai ohjauskorttivika.",
+   "Savukaasuputki voi olla tukossa."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Tarkista ulkopuolelta, ettei mikään tuki savukaasupäätettä. Älä koske siihen.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Ideal|F4": {
+  "title": "Menoveden termistorin vika",
+  "causes": [
+   "Menoveden termistori (lämpötila-anturi) tai sen johdotus on viallinen.",
+   "Löysä liitos kattilan sisällä."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa, älä yritä korjata vikaa itse. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Ideal|F5": {
+  "title": "Paluuveden termistorin vika",
+  "causes": [
+   "Paluuveden termistori (lämpötila-anturi) tai sen johdotus on viallinen.",
+   "Löysä liitos kattilan sisällä."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa, älä yritä korjata vikaa itse. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Ideal|F6": {
+  "title": "Ulkoanturin vika",
+  "causes": [
+   "Ulkolämpötila-anturi tai sen johdotus on viallinen.",
+   "Löysä liitos kattilan sisällä."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa, älä yritä korjata vikaa itse. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Ideal|F7": {
+  "title": "Alhainen verkkojännite",
+  "causes": [
+   "Kodin sähkönsyötön jännite on liian alhainen.",
+   "Kiinteistön johdotuksessa on vika."
+  ],
+  "steps": [
+   "Tarkista, vaikuttaako ongelma muihin laitteisiin tai valoihin.",
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Pyydä sähköasentajaa tai sähköyhtiötä tarkistamaan sähkönsyöttö."
+  ],
+  "technician": "Jos sähkönsyöttö on kunnossa, valtuutetun kaasuasentajan tulee tarkistaa kattila; sähköverkon johdotuksen tarkistukset kuuluvat pätevälle sähköasentajalle."
+ },
+ "Ideal|F0": {
+  "title": "Ei vedenvirtausta (termistori)",
+  "causes": [
+   "Vesi ei virtaa kattilan läpi.",
+   "Anturivika."
+  ],
+  "steps": [
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Ideal|FD": {
+  "title": "Ei vedenvirtausta",
+  "causes": [
+   "Alhainen paine tai ilmaa järjestelmässä.",
+   "Lämmityspumppu ei käy."
+  ],
+  "steps": [
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Käynnistä kattila uudelleen ja katso, poistuuko koodi.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Ideal|FU": {
+  "title": "Meno- ja paluuveden ero liian suuri",
+  "causes": [
+   "Ilmaa pattereissa.",
+   "Alhainen paine tai tukos järjestelmässä."
+  ],
+  "steps": [
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Käynnistä kattila uudelleen.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Worcester Bosch|EA 227": {
+  "title": "Poltin ei syty",
+  "causes": [
+   "Kattilaan ei tule kaasua, esimerkiksi ennakkomaksumittarin saldo on loppunut.",
+   "Kondenssivesiputki on jäätynyt tai tukossa.",
+   "Vika sytytyksen tai liekinvalvonnan osissa."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Tarkista, toimivatko muut kaasulaitteet, kuten liesi.",
+   "Jos sinulla on ennakkomaksullinen kaasumittari, varmista, että siinä on saldoa.",
+   "Tarkista pakkasella ulkona oleva muovinen kondenssivesiputki. Sulata jää lämpimällä (ei kiehuvalla) vedellä.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Worcester Bosch|CE 207": {
+  "title": "Alhainen vedenpaine",
+  "causes": [
+   "Lämmitysjärjestelmästä on hävinnyt vettä, usein patterien ilmauksen jälkeen.",
+   "Pieni vuoto jossain putkissa tai pattereissa.",
+   "Viallinen paineanturi."
+  ],
+  "steps": [
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos joudut lisäämään vettä usein, järjestelmässä voi olla vuoto. Pyydä asentajaa paikantamaan se."
+  ],
+  "technician": "Jos paine laskee jatkuvasti, valtuutetun kaasuasentajan on paikannettava vuoto; älä koskaan avaa kattilan koteloa itse."
+ },
+ "Worcester Bosch|H07": {
+  "title": "Alhainen vedenpaine (varoitus)",
+  "causes": [
+   "Järjestelmän paine on laskenut normaalitason alapuolelle."
+  ],
+  "steps": [
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Jos joudut lisäämään vettä usein, järjestelmässä voi olla vuoto. Pyydä asentajaa paikantamaan se."
+  ],
+  "technician": "Jos paine laskee jatkuvasti, valtuutetun kaasuasentajan on paikannettava vuoto; älä koskaan avaa kattilan koteloa itse."
+ },
+ "Worcester Bosch|E9 224": {
+  "title": "Sisäinen turvatermostaatti liian kuuma",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Worcester Bosch|E9 276": {
+  "title": "Menoveden lämpötila liian korkea",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Worcester Bosch|CE 266": {
+  "title": "Odottamattomia lämpötilalukemia, mahdollisesti alhainen paine",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Worcester Bosch|Fd 231": {
+  "title": "Sähkökatko vikalukituksen aikana",
+  "causes": [
+   "Sähkönsyöttö katkesi kattilan ollessa vikalukituksessa."
+  ],
+  "steps": [
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos sen jälkeen näkyy toinen koodi, noudata kyseisen koodin ohjeita."
+  ],
+  "technician": "Jos kattilan vika ei poistu kuittauksen jälkeen, valtuutetun kaasuasentajan tulee tarkistaa se."
+ },
+ "Worcester Bosch|A1": {
+  "title": "Pumppu on käynyt kuivana",
+  "causes": [
+   "Hyvin alhainen vedenpaine.",
+   "Pumppuun tai järjestelmään on jäänyt ilmaa."
+  ],
+  "steps": [
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Worcester Bosch|C6": {
+  "title": "Puhaltimen nopeus liian alhainen",
+  "causes": [
+   "Puhallin ei käy oikealla nopeudella.",
+   "Johdotus- tai ohjauskorttivika.",
+   "Savukaasuputki voi olla tukossa."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Tarkista ulkopuolelta, ettei mikään tuki savukaasupäätettä. Älä koske siihen.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Worcester Bosch|F7": {
+  "title": "Liekki havaitaan yhä polttimen sammuttua",
+  "causes": [
+   "Vika liekinvalvontapiirissä.",
+   "Kaasuventtiili ei sulkeudu kokonaan."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Sammuta kattila pääkytkimestä.",
+   "Älä jatka kuittaamista. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kyseessä on turvallisuusvika; kaasuventtiilin ja liekinvalvonnan osat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Worcester Bosch|2980": {
+  "title": "Vakava turvallisuusvika",
+  "causes": [
+   "Kattila on havainnut turvallisuuteen liittyvän vian."
+  ],
+  "steps": [
+   "Sammuta kattila.",
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Älä yritä korjata tai kuitata vikaa. Ota heti yhteys pätevään lämmitysasentajaan."
+  ],
+  "technician": "Kyseessä on turvallisuuden kannalta kriittinen vika, jonka saa hoitaa vain valtuutettu kaasuasentaja."
+ },
+ "Junkers/Bosch|227": {
+  "title": "Poltin ei syttynyt useista yrityksistä huolimatta",
+  "causes": [
+   "Kattilaan ei tule kaasua, esimerkiksi ennakkomaksumittarin saldo on loppunut.",
+   "Kondenssivesiputki on jäätynyt tai tukossa.",
+   "Vika sytytyksen tai liekinvalvonnan osissa."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Tarkista, toimivatko muut kaasulaitteet, kuten liesi.",
+   "Jos sinulla on ennakkomaksullinen kaasumittari, varmista, että siinä on saldoa.",
+   "Tarkista pakkasella ulkona oleva muovinen kondenssivesiputki. Sulata jää lämpimällä (ei kiehuvalla) vedellä.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Junkers/Bosch|207": {
+  "title": "Alhainen vedenpaine",
+  "causes": [
+   "Lämmitysjärjestelmästä on hävinnyt vettä, usein patterien ilmauksen jälkeen.",
+   "Pieni vuoto jossain putkissa tai pattereissa.",
+   "Viallinen paineanturi."
+  ],
+  "steps": [
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos joudut lisäämään vettä usein, järjestelmässä voi olla vuoto. Pyydä asentajaa paikantamaan se."
+  ],
+  "technician": "Jos paine laskee jatkuvasti, valtuutetun kaasuasentajan on paikannettava vuoto; älä koskaan avaa kattilan koteloa itse."
+ },
+ "Junkers/Bosch|224": {
+  "title": "Turvalämpötilan rajoitin lauennut",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Junkers/Bosch|276": {
+  "title": "Menoveden lämpötila liian korkea",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Junkers/Bosch|231": {
+  "title": "Sähkökatko vikalukituksen aikana",
+  "causes": [
+   "Sähkönsyöttö katkesi kattilan ollessa vikalukituksessa."
+  ],
+  "steps": [
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos sen jälkeen näkyy toinen koodi, noudata kyseisen koodin ohjeita."
+  ],
+  "technician": "Jos vika ei poistu, valtuutetun kaasuasentajan on tarkistettava kattila."
+ },
+ "Junkers/Bosch|232": {
+  "title": "Lämmöntarve estetty ulkoisella koskettimella",
+  "causes": [
+   "Ulkoinen säädin, kuten lattialämmityksen rajoitin, on estänyt kattilan toiminnan.",
+   "Kondenssivesipumpun turvakytkin on lauennut."
+  ],
+  "steps": [
+   "Odota muutama minuutti; kattila voi käynnistyä uudelleen itsestään.",
+   "Tarkista, että huonetermostaatti ja ajastin pyytävät lämpöä.",
+   "Jos sinulla on kondenssivesipumppu, tarkista, että se saa virtaa eikä tulvi yli.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Junkers/Bosch|2962": {
+  "title": "Ei signaalia puhaltimesta",
+  "causes": [
+   "Puhallin ei käy oikealla nopeudella.",
+   "Johdotus- tai ohjauskorttivika.",
+   "Savukaasuputki voi olla tukossa."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Tarkista ulkopuolelta, ettei mikään tuki savukaasupäätettä. Älä koske siihen.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Baxi|E133": {
+  "title": "Kondenssivesiputki jäätynyt tai tukossa",
+  "causes": [
+   "Ulkona oleva kondenssivesiputki on jäätynyt kylmällä säällä.",
+   "Tukos kondenssivesiputkessa.",
+   "Joissakin malleissa kaasunsyötön tai sytytyksen ongelma."
+  ],
+  "steps": [
+   "Sammuta kattila.",
+   "Etsi kondenssivesiputken jäätynyt kohta, yleensä ulkona tai mutkassa.",
+   "Lämmitä sitä kuumavesipullolla tai kaada sen päälle lämmintä (ei kiehuvaa) vettä.",
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112."
+  ],
+  "technician": "Jos kattila ei vieläkään toimi sulatuksen jälkeen, ota yhteys valtuutettuun kaasuasentajaan."
+ },
+ "Baxi|E28": {
+  "title": "Kondenssivesiputki jäätynyt tai tukossa",
+  "causes": [
+   "Ulkona oleva kondenssivesiputki on jäätynyt kylmällä säällä.",
+   "Tukos kondenssivesiputkessa.",
+   "Joissakin malleissa kaasunsyötön tai sytytyksen ongelma."
+  ],
+  "steps": [
+   "Sammuta kattila.",
+   "Etsi kondenssivesiputken jäätynyt kohta, yleensä ulkona tai mutkassa.",
+   "Lämmitä sitä kuumavesipullolla tai kaada sen päälle lämmintä (ei kiehuvaa) vettä.",
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112."
+  ],
+  "technician": "Jos kattila ei vieläkään toimi sulatuksen jälkeen, ota yhteys valtuutettuun kaasuasentajaan."
+ },
+ "Baxi|A.02.06": {
+  "title": "Alhainen vedenpaine",
+  "causes": [
+   "Lämmitysjärjestelmästä on hävinnyt vettä, usein patterien ilmauksen jälkeen.",
+   "Pieni vuoto jossain putkissa tai pattereissa.",
+   "Viallinen paineanturi."
+  ],
+  "steps": [
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos joudut lisäämään vettä usein, järjestelmässä voi olla vuoto. Pyydä asentajaa paikantamaan se."
+  ],
+  "technician": "Jos paine laskee jatkuvasti, valtuutetun kaasuasentajan on paikannettava vuoto; älä koskaan avaa kattilan koteloa itse."
+ },
+ "Baxi|H.02.07": {
+  "title": "Alhainen vedenpaine (varoitus)",
+  "causes": [
+   "Lämmitysjärjestelmästä on hävinnyt vettä, usein patterien ilmauksen jälkeen.",
+   "Pieni vuoto jossain putkissa tai pattereissa.",
+   "Viallinen paineanturi."
+  ],
+  "steps": [
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos joudut lisäämään vettä usein, järjestelmässä voi olla vuoto. Pyydä asentajaa paikantamaan se."
+  ],
+  "technician": "Jos paine laskee jatkuvasti, valtuutetun kaasuasentajan on paikannettava vuoto; älä koskaan avaa kattilan koteloa itse."
+ },
+ "Potterton|E133": {
+  "title": "Kondenssivesiputki jäätynyt tai tukossa",
+  "causes": [
+   "Ulkona oleva kondenssivesiputki on jäätynyt kylmällä säällä.",
+   "Tukos kondenssivesiputkessa.",
+   "Joissakin malleissa kaasunsyötön tai sytytyksen ongelma."
+  ],
+  "steps": [
+   "Sammuta kattila.",
+   "Etsi kondenssivesiputken jäätynyt kohta, yleensä ulkona tai mutkassa.",
+   "Lämmitä sitä kuumavesipullolla tai kaada sen päälle lämmintä (ei kiehuvaa) vettä.",
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112."
+  ],
+  "technician": "Jos kattila ei vieläkään toimi sulatuksen jälkeen, ota yhteys valtuutettuun kaasuasentajaan."
+ },
+ "Viessmann|74": {
+  "title": "Alhainen vedenpaine",
+  "causes": [
+   "Lämmitysjärjestelmästä on hävinnyt vettä, usein patterien ilmauksen jälkeen.",
+   "Pieni vuoto jossain putkissa tai pattereissa.",
+   "Viallinen paineanturi."
+  ],
+  "steps": [
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos joudut lisäämään vettä usein, järjestelmässä voi olla vuoto. Pyydä asentajaa paikantamaan se."
+  ],
+  "technician": "Jos paine laskee jatkuvasti, valtuutetun kaasuasentajan on paikannettava vuoto; älä koskaan avaa kattilan koteloa itse."
+ },
+ "Viessmann|361": {
+  "title": "Ei liekkisignaalia polttimen käynnistyessä",
+  "causes": [
+   "Kattilaan ei tule kaasua, esimerkiksi ennakkomaksumittarin saldo on loppunut.",
+   "Kondenssivesiputki on jäätynyt tai tukossa.",
+   "Vika sytytyksen tai liekinvalvonnan osissa."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Tarkista, toimivatko muut kaasulaitteet, kuten liesi.",
+   "Jos sinulla on ennakkomaksullinen kaasumittari, varmista, että siinä on saldoa.",
+   "Tarkista pakkasella ulkona oleva muovinen kondenssivesiputki. Sulata jää lämpimällä (ei kiehuvalla) vedellä.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Viessmann|64": {
+  "title": "Liekki sammui käytön aikana",
+  "causes": [
+   "Kattilaan ei tule kaasua, esimerkiksi ennakkomaksumittarin saldo on loppunut.",
+   "Kondenssivesiputki on jäätynyt tai tukossa.",
+   "Vika sytytyksen tai liekinvalvonnan osissa."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Tarkista, toimivatko muut kaasulaitteet, kuten liesi.",
+   "Jos sinulla on ennakkomaksullinen kaasumittari, varmista, että siinä on saldoa.",
+   "Tarkista pakkasella ulkona oleva muovinen kondenssivesiputki. Sulata jää lämpimällä (ei kiehuvalla) vedellä.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Viessmann|62": {
+  "title": "Ylälämpötilan turvakatkaisin lauennut",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Viessmann|63": {
+  "title": "Savukaasujen lämpötilan rajoitin lauennut",
+  "causes": [
+   "Savukaasujen lämpötila on noussut liian korkeaksi.",
+   "Palamisen tai savukaasuputken ongelma."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Sammuta kattila.",
+   "Tarkista ulkopuolelta, ettei savukaasupääte ole näkyvästi tukossa. Älä koske siihen.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Viessmann|71": {
+  "title": "Puhaltimen nopeus liian alhainen",
+  "causes": [
+   "Puhallin ei käy oikealla nopeudella.",
+   "Johdotus- tai ohjauskorttivika.",
+   "Savukaasuputki voi olla tukossa."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Tarkista ulkopuolelta, ettei mikään tuki savukaasupäätettä. Älä koske siihen.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Viessmann|14": {
+  "title": "Ulkolämpötila-anturin oikosulku",
+  "causes": [
+   "Ulkolämpötila-anturi tai sen johdotus on viallinen.",
+   "Löysä liitos kattilan sisällä."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa, älä yritä korjata vikaa itse. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Viessmann|A4": {
+  "title": "Ilmaa pumpussa tai virtaus liian pieni",
+  "causes": [
+   "Sisäiseen pumppuun on jäänyt ilmaa.",
+   "Vedenvirtaus kattilan läpi on alle vähimmäistason."
+  ],
+  "steps": [
+   "Anna automaattisen ilmausohjelman suorittaa loppuun.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Ariston|101": {
+  "title": "Ylikuumeneminen",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Ariston|103": {
+  "title": "Heikko vedenkierto",
+  "causes": [
+   "Ilmaa järjestelmässä.",
+   "Alhainen paine tai suljetut venttiilit.",
+   "Pumpun ongelma."
+  ],
+  "steps": [
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Ariston|108": {
+  "title": "Alhainen vedenpaine",
+  "causes": [
+   "Lämmitysjärjestelmästä on hävinnyt vettä, usein patterien ilmauksen jälkeen.",
+   "Pieni vuoto jossain putkissa tai pattereissa.",
+   "Viallinen paineanturi."
+  ],
+  "steps": [
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos joudut lisäämään vettä usein, järjestelmässä voi olla vuoto. Pyydä asentajaa paikantamaan se."
+  ],
+  "technician": "Jos paine laskee jatkuvasti, valtuutetun kaasuasentajan on paikannettava vuoto; älä koskaan avaa kattilan koteloa itse."
+ },
+ "Ariston|110": {
+  "title": "Tilapäinen turvasammutus",
+  "causes": [
+   "Tilapäinen tila on pysäyttänyt kattilan turvallisuussyistä."
+  ],
+  "steps": [
+   "Odota; kattilan pitäisi käynnistyä itsestään, kun syy poistuu.",
+   "Jos kattila ei käynnisty, sammuta se pääkytkimestä ja ota yhteys huoltoon."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Ariston|118": {
+  "title": "Ensiöpiirin anturin ongelma",
+  "causes": [
+   "Ensiöpiirin anturi tai sen johdotus on viallinen.",
+   "Löysä liitos kattilan sisällä."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa, älä yritä korjata vikaa itse. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Ariston|201": {
+  "title": "Vesipiirin anturin vika",
+  "causes": [
+   "Vesipiirin anturi tai sen johdotus on viallinen.",
+   "Löysä liitos kattilan sisällä."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa, älä yritä korjata vikaa itse. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Ariston|304": {
+  "title": "Liian monta kuittausta",
+  "causes": [
+   "Kuittauspainiketta on painettu liian monta kertaa."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Älä jatka kuittaamista. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Valtuutetun kaasuasentajan tulee selvittää, miksi kattila menee toistuvasti vikalukitukseen."
+ },
+ "Ariston|305": {
+  "title": "Pääpiirilevyn virhe",
+  "causes": [
+   "Elektroniikkavika pääohjauskortissa."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Ariston|501": {
+  "title": "Liekkiä ei havaittu",
+  "causes": [
+   "Kattilaan ei tule kaasua, esimerkiksi ennakkomaksumittarin saldo on loppunut.",
+   "Kondenssivesiputki on jäätynyt tai tukossa.",
+   "Vika sytytyksen tai liekinvalvonnan osissa."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Tarkista, toimivatko muut kaasulaitteet, kuten liesi.",
+   "Jos sinulla on ennakkomaksullinen kaasumittari, varmista, että siinä on saldoa.",
+   "Tarkista pakkasella ulkona oleva muovinen kondenssivesiputki. Sulata jää lämpimällä (ei kiehuvalla) vedellä.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Ariston|601": {
+  "title": "Savukaasujen poiston vika",
+  "causes": [
+   "Savukaasuputki ei poista palokaasuja kunnolla."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Odota muutama minuutti; kattila yrittää uudelleen.",
+   "Jos kattila menee uudelleen vikalukitukseen, sammuta se ja ota yhteys pätevään asentajaan."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Ariston|611": {
+  "title": "Puhaltimen vika",
+  "causes": [
+   "Puhallin ei käy oikealla nopeudella.",
+   "Johdotus- tai ohjauskorttivika.",
+   "Savukaasuputki voi olla tukossa."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Tarkista ulkopuolelta, ettei mikään tuki savukaasupäätettä. Älä koske siihen.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Ariston|802": {
+  "title": "Automaattinen palamisen kalibrointi epäonnistui",
+  "causes": [
+   "Kattila ei pystynyt suorittamaan palamisen itsesäätöä loppuun."
+  ],
+  "steps": [
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Saunier Duval|F.22": {
+  "title": "Alhainen vedenpaine",
+  "causes": [
+   "Lämmitysjärjestelmästä on hävinnyt vettä, usein patterien ilmauksen jälkeen.",
+   "Pieni vuoto jossain putkissa tai pattereissa.",
+   "Viallinen paineanturi."
+  ],
+  "steps": [
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos joudut lisäämään vettä usein, järjestelmässä voi olla vuoto. Pyydä asentajaa paikantamaan se."
+  ],
+  "technician": "Jos paine laskee jatkuvasti, valtuutetun kaasuasentajan on paikannettava vuoto; älä koskaan avaa kattilan koteloa itse."
+ },
+ "Saunier Duval|F.28": {
+  "title": "Kattila ei syttynyt",
+  "causes": [
+   "Kattilaan ei tule kaasua, esimerkiksi ennakkomaksumittarin saldo on loppunut.",
+   "Kondenssivesiputki on jäätynyt tai tukossa.",
+   "Vika sytytyksen tai liekinvalvonnan osissa."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Tarkista, toimivatko muut kaasulaitteet, kuten liesi.",
+   "Jos sinulla on ennakkomaksullinen kaasumittari, varmista, että siinä on saldoa.",
+   "Tarkista pakkasella ulkona oleva muovinen kondenssivesiputki. Sulata jää lämpimällä (ei kiehuvalla) vedellä.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Saunier Duval|F.20": {
+  "title": "Turvalämpötilan rajoitin lauennut",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Saunier Duval|F.23": {
+  "title": "Meno- ja paluuveden lämpötilaero liian suuri",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Saunier Duval|F.24": {
+  "title": "Lämpötila nousee liian nopeasti",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Saunier Duval|F.00": {
+  "title": "Menoveden lämpötila-anturin piiri katkennut",
+  "causes": [
+   "Menoveden lämpötila-anturi tai sen johdotus on viallinen.",
+   "Löysä liitos kattilan sisällä."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa, älä yritä korjata vikaa itse. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Saunier Duval|F.10": {
+  "title": "Menoveden lämpötila-anturin oikosulku",
+  "causes": [
+   "Menoveden lämpötila-anturi tai sen johdotus on viallinen.",
+   "Löysä liitos kattilan sisällä."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa, älä yritä korjata vikaa itse. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Immergas|E01": {
+  "title": "Vikalukitus: ei sytytystä",
+  "causes": [
+   "Kattilaan ei tule kaasua, esimerkiksi ennakkomaksumittarin saldo on loppunut.",
+   "Kondenssivesiputki on jäätynyt tai tukossa.",
+   "Vika sytytyksen tai liekinvalvonnan osissa."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Tarkista, toimivatko muut kaasulaitteet, kuten liesi.",
+   "Jos sinulla on ennakkomaksullinen kaasumittari, varmista, että siinä on saldoa.",
+   "Tarkista pakkasella ulkona oleva muovinen kondenssivesiputki. Sulata jää lämpimällä (ei kiehuvalla) vedellä.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Immergas|E02": {
+  "title": "Turvatermostaatin vikalukitus (ylikuumeneminen)",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Immergas|E05": {
+  "title": "Menoveden anturin vika",
+  "causes": [
+   "Menoveden lämpötila-anturi tai sen johdotus on viallinen.",
+   "Löysä liitos kattilan sisällä."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa, älä yritä korjata vikaa itse. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Immergas|E06": {
+  "title": "Käyttöveden anturin vika",
+  "causes": [
+   "Lämpimän käyttöveden lämpötila-anturi tai sen johdotus on viallinen.",
+   "Löysä liitos kattilan sisällä."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa, älä yritä korjata vikaa itse. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Immergas|E10": {
+  "title": "Järjestelmän paine riittämätön",
+  "causes": [
+   "Lämmitysjärjestelmästä on hävinnyt vettä, usein patterien ilmauksen jälkeen.",
+   "Pieni vuoto jossain putkissa tai pattereissa.",
+   "Viallinen paineanturi."
+  ],
+  "steps": [
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos joudut lisäämään vettä usein, järjestelmässä voi olla vuoto. Pyydä asentajaa paikantamaan se."
+  ],
+  "technician": "Jos paine laskee jatkuvasti, valtuutetun kaasuasentajan on paikannettava vuoto; älä koskaan avaa kattilan koteloa itse."
+ },
+ "Immergas|E11": {
+  "title": "Savukaasujen painekytkimen vika",
+  "causes": [
+   "Puhallin ei käy oikealla nopeudella.",
+   "Johdotus- tai ohjauskorttivika.",
+   "Savukaasuputki voi olla tukossa."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Tarkista ulkopuolelta, ettei mikään tuki savukaasupäätettä. Älä koske siihen.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Immergas|E20": {
+  "title": "Hajaliekin vikalukitus",
+  "causes": [
+   "Vika liekinvalvontapiirissä.",
+   "Kaasuventtiili ei sulkeudu kokonaan."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Sammuta kattila pääkytkimestä.",
+   "Älä jatka kuittaamista. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kyseessä on turvallisuusvika; kaasuventtiilin ja liekinvalvonnan osat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Immergas|E27": {
+  "title": "Riittämätön vedenkierto",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Immergas|E37": {
+  "title": "Alhainen syöttöjännite",
+  "causes": [
+   "Verkkojännite on sallitun rajan alapuolella."
+  ],
+  "steps": [
+   "Tarkista, vaikuttaako ongelma muihin laitteisiin.",
+   "Odota; kattila käynnistyy itsestään, kun jännite on normaali.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Jos sähkönsyöttö on kunnossa, valtuutetun kaasuasentajan tulee tarkistaa kattila; sähköverkon johdotuksen tarkistukset kuuluvat pätevälle sähköasentajalle."
+ },
+ "Immergas|E38": {
+  "title": "Liekkisignaali menetetty",
+  "causes": [
+   "Kattilaan ei tule kaasua, esimerkiksi ennakkomaksumittarin saldo on loppunut.",
+   "Kondenssivesiputki on jäätynyt tai tukossa.",
+   "Vika sytytyksen tai liekinvalvonnan osissa."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Tarkista, toimivatko muut kaasulaitteet, kuten liesi.",
+   "Jos sinulla on ennakkomaksullinen kaasumittari, varmista, että siinä on saldoa.",
+   "Tarkista pakkasella ulkona oleva muovinen kondenssivesiputki. Sulata jää lämpimällä (ei kiehuvalla) vedellä.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Immergas|E43": {
+  "title": "Vikalukitus toistuvan liekin menetyksen jälkeen",
+  "causes": [
+   "Kattilaan ei tule kaasua, esimerkiksi ennakkomaksumittarin saldo on loppunut.",
+   "Kondenssivesiputki on jäätynyt tai tukossa.",
+   "Vika sytytyksen tai liekinvalvonnan osissa."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Tarkista, toimivatko muut kaasulaitteet, kuten liesi.",
+   "Jos sinulla on ennakkomaksullinen kaasumittari, varmista, että siinä on saldoa.",
+   "Tarkista pakkasella ulkona oleva muovinen kondenssivesiputki. Sulata jää lämpimällä (ei kiehuvalla) vedellä.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Ferroli|A01": {
+  "title": "Poltin ei syty",
+  "causes": [
+   "Kattilaan ei tule kaasua, esimerkiksi ennakkomaksumittarin saldo on loppunut.",
+   "Kondenssivesiputki on jäätynyt tai tukossa.",
+   "Vika sytytyksen tai liekinvalvonnan osissa."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Tarkista, toimivatko muut kaasulaitteet, kuten liesi.",
+   "Jos sinulla on ennakkomaksullinen kaasumittari, varmista, että siinä on saldoa.",
+   "Tarkista pakkasella ulkona oleva muovinen kondenssivesiputki. Sulata jää lämpimällä (ei kiehuvalla) vedellä.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Ferroli|A02": {
+  "title": "Liekkisignaali polttimen ollessa sammuksissa",
+  "causes": [
+   "Vika liekinvalvontapiirissä.",
+   "Kaasuventtiili ei sulkeudu kokonaan."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Sammuta kattila pääkytkimestä.",
+   "Älä jatka kuittaamista. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kyseessä on turvallisuusvika; kaasuventtiilin ja liekinvalvonnan osat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Ferroli|A03": {
+  "title": "Ylilämpösuojaus",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Ferroli|F05": {
+  "title": "Ilmanpainekytkin ei sulkeutunut",
+  "causes": [
+   "Puhallin ei käy oikealla nopeudella.",
+   "Johdotus- tai ohjauskorttivika.",
+   "Savukaasuputki voi olla tukossa."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Tarkista ulkopuolelta, ettei mikään tuki savukaasupäätettä. Älä koske siihen.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Ferroli|A06": {
+  "title": "Ei liekkiä sytytyksen jälkeen",
+  "causes": [
+   "Kattilaan ei tule kaasua, esimerkiksi ennakkomaksumittarin saldo on loppunut.",
+   "Kondenssivesiputki on jäätynyt tai tukossa.",
+   "Vika sytytyksen tai liekinvalvonnan osissa."
+  ],
+  "steps": [
+   "Jos haistat kaasua, älä kuittaa vikaa. Poistu rakennuksesta ja soita hätänumeroon 112.",
+   "Tarkista, toimivatko muut kaasulaitteet, kuten liesi.",
+   "Jos sinulla on ennakkomaksullinen kaasumittari, varmista, että siinä on saldoa.",
+   "Tarkista pakkasella ulkona oleva muovinen kondenssivesiputki. Sulata jää lämpimällä (ei kiehuvalla) vedellä.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Kaikki kaasu- ja palamisosiin kohdistuvat työt saa tehdä vain valtuutettu kaasuasentaja."
+ },
+ "Ferroli|F10": {
+  "title": "Menoveden anturin vika",
+  "causes": [
+   "Menoveden anturi tai sen johdotus on viallinen.",
+   "Löysä liitos kattilan sisällä."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa, älä yritä korjata vikaa itse. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Ferroli|F11": {
+  "title": "Käyttöveden anturin vika",
+  "causes": [
+   "Lämpimän käyttöveden anturi tai sen johdotus on viallinen.",
+   "Löysä liitos kattilan sisällä."
+  ],
+  "steps": [
+   "Sammuta kattila pääkytkimestä, odota 30 sekuntia ja käynnistä se uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa, älä yritä korjata vikaa itse. Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Ferroli|F34": {
+  "title": "Syöttöjännite liian alhainen",
+  "causes": [
+   "Verkkojännite on alle noin 140 V."
+  ],
+  "steps": [
+   "Tarkista, vaikuttaako ongelma muihin laitteisiin.",
+   "Odota; kattila käynnistyy itsestään, kun jännite on normaali.",
+   "Kirjoita koodi muistiin ja ota yhteys asentajaasi tai valmistajan huoltopalveluun."
+  ],
+  "technician": "Jos sähkönsyöttö on kunnossa, valtuutetun kaasuasentajan tulee tarkistaa kattila; sähköverkon johdotuksen tarkistukset kuuluvat pätevälle sähköasentajalle."
+ },
+ "Ferroli|F37": {
+  "title": "Virheellinen järjestelmän vedenpaine",
+  "causes": [
+   "Lämmitysjärjestelmästä on hävinnyt vettä, usein patterien ilmauksen jälkeen.",
+   "Pieni vuoto jossain putkissa tai pattereissa.",
+   "Viallinen paineanturi."
+  ],
+  "steps": [
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos joudut lisäämään vettä usein, järjestelmässä voi olla vuoto. Pyydä asentajaa paikantamaan se."
+  ],
+  "technician": "Jos paine laskee jatkuvasti, valtuutetun kaasuasentajan on paikannettava vuoto; älä koskaan avaa kattilan koteloa itse."
+ },
+ "Ferroli|F43": {
+  "title": "Lämmönvaihtimen suojaus",
+  "causes": [
+   "Vesi ei kierrä kunnolla kattilan läpi.",
+   "Patteriventtiilit ovat kiinni, tai järjestelmässä on ilmaa.",
+   "Järjestelmän paine on alhainen, tai pumpussa on vika."
+  ],
+  "steps": [
+   "Varmista, että patteriventtiilit ovat auki.",
+   "Katso painemittaria. Lämmityksen ollessa kylmä sen pitäisi näyttää noin 1–1,5 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöventtiilin kautta täsmälleen käyttöohjeen mukaisesti ja sulje venttiili sitten kokonaan.",
+   "Ilmaa patterit, jotka ovat yläosastaan kylmiä, ja tarkista paine uudelleen.",
+   "Paina kuittauspainiketta (reset) kerran ja anna kattilalle muutama minuutti aikaa käynnistyä uudelleen.",
+   "Jos koodi palaa yhden tai kahden kuittauksen jälkeen, lopeta kuittaaminen ja tilaa korjaus."
+  ],
+  "technician": "Sisäosat saa tarkistaa vain valtuutettu kaasuasentaja."
+ },
+ "Navien|E302": {
+  "title": "Järjestelmän paine liian alhainen",
+  "causes": [
+   "Lämmitysjärjestelmästä on hävinnyt vettä, usein patterien ilmauksen jälkeen.",
+   "Pieni vuoto jossain putkissa tai pattereissa.",
+   "Viallinen paineanturi."
+  ],
+  "steps": [
+   "Katso painemittaria tai näyttöä. Sen pitäisi näyttää 1–1,2 baaria.",
+   "Jos paine on alhainen, lisää vettä täyttöliitännän tai -venttiilin kautta käyttöohjeen mukaisesti ja lopeta, kun paine on 1–1,2 baaria.",
+   "Älä ylitä 1,5 baaria. Jos täytät liikaa, laske painetta ilmaamalla patteri.",
+   "Jos joudut lisäämään vettä usein, järjestelmässä voi olla vuoto. Pyydä asentajaa paikantamaan se."
+  ],
+  "technician": "Jos paine laskee jatkuvasti, valtuutetun kaasuasentajan on paikannettava vuoto; älä koskaan avaa kattilan koteloa itse."
+ }
+}

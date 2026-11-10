@@ -1,0 +1,1196 @@
+{
+ "Samsung|AP": {
+  "title": "Mod de configurare Wi-Fi",
+  "causes": [
+   "Frigiderul funcționează ca punct de acces Wi-Fi pentru configurarea SmartThings."
+  ],
+  "steps": [
+   "Finalizați configurarea în aplicația SmartThings sau așteptați. Codul dispare singur."
+  ],
+  "technician": "Aceasta nu este o defecțiune. Nu este necesar service."
+ },
+ "Samsung|21E": {
+  "title": "Eroare la ventilatorul congelatorului",
+  "causes": [
+   "Ventilatorul congelatorului este prins în gheață, adesea după ce o ușă a rămas deschisă sau o garnitură nu a etanșat.",
+   "Motorul ventilatorului s-a defectat."
+  ],
+  "steps": [
+   "Verificați dacă ușa congelatorului se închide și dacă garnitura etanșează de jur împrejur.",
+   "Nu supraîncărcați congelatorul.",
+   "Dacă puteți, scoateți alimentele și lăsați frigiderul să se dezghețe cu ușile deschise."
+  ],
+  "technician": "Dacă codul revine după dezghețare, ventilatorul are nevoie de un tehnician Samsung."
+ },
+ "Samsung|22E": {
+  "title": "Eroare la ventilatorul frigiderului",
+  "causes": [
+   "Ușa frigiderului a rămas deschisă prea mult și ventilatorul a înghețat."
+  ],
+  "steps": [
+   "Mutați alimentele într-un loc răcoros.",
+   "Scoateți frigiderul din priză și lăsați ușile deschise câteva ore.",
+   "Conectați-l din nou la priză și închideți ușile."
+  ],
+  "technician": "Dacă 22E revine, solicitați service Samsung."
+ },
+ "Samsung|41C": {
+  "title": "Defecțiune Family Hub",
+  "causes": [
+   "O problemă de software la ecranul Family Hub."
+  ],
+  "steps": [
+   "Instalați cea mai recentă actualizare de software.",
+   "Atingeți OK prima dată când apare codul după actualizare."
+  ],
+  "technician": "Dacă revine mereu după actualizare, solicitați service Samsung."
+ },
+ "Samsung|76C": {
+  "title": "Apă în compartimentul AutoFill",
+  "causes": [
+   "Recipientul de apă AutoFill curge în compartimentul său."
+  ],
+  "steps": [
+   "Scoateți recipientul și uscați compartimentul.",
+   "Verificați dacă recipientul este așezat corect și nu este fisurat."
+  ],
+  "technician": "Dacă se adună în continuare apă, contactați service-ul Samsung."
+ },
+ "Samsung|85C": {
+  "title": "Tensiune de alimentare scăzută (Family Hub)",
+  "causes": [
+   "De obicei, o pană de curent scurtă."
+  ],
+  "steps": [
+   "Țineți apăsat OK 3 secunde pentru a-l șterge."
+  ],
+  "technician": "Inofensiv în sine. Contactați Samsung doar dacă apare des."
+ },
+ "Samsung|88 88": {
+  "title": "Eroare de comunicare la pornire",
+  "causes": [
+   "Alimentarea a fost întreruptă în timp ce frigiderul pornea."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză sau opriți-i siguranța pentru 60 de secunde.",
+   "Restabiliți alimentarea și verificați dacă codul revine."
+  ],
+  "technician": "Dacă codul revine după o resetare, solicitați service Samsung."
+ },
+ "Samsung|83E": {
+  "title": "Curent anormal la compresor",
+  "causes": [
+   "Un supravoltaj sau o problemă electrică."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză sau opriți-i siguranța pentru 60 de secunde.",
+   "Restabiliți alimentarea și verificați dacă codul revine."
+  ],
+  "technician": "Dacă 83E revine, solicitați service Samsung."
+ },
+ "Samsung|85E": {
+  "title": "Tensiune scăzută la compresor",
+  "causes": [
+   "O cădere de tensiune sau tensiune de rețea scăzută."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză sau opriți-i siguranța pentru 60 de secunde.",
+   "Restabiliți alimentarea și verificați dacă codul revine."
+  ],
+  "technician": "Dacă 85E revine, cereți verificarea alimentării și solicitați service Samsung."
+ },
+ "Samsung|86E": {
+  "title": "Tensiune ridicată la compresor",
+  "causes": [
+   "Un supravoltaj, de exemplu în timpul unei furtuni."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză sau opriți-i siguranța pentru 60 de secunde.",
+   "Restabiliți alimentarea și verificați dacă codul revine."
+  ],
+  "technician": "Dacă 86E revine, solicitați service Samsung."
+ },
+ "Samsung|PC ER": {
+  "title": "Eroare internă de comunicare",
+  "causes": [
+   "Un supravoltaj recent.",
+   "Conectorul cablajului ușii nu este conectat corect."
+  ],
+  "steps": [
+   "Opriți alimentarea de la priză sau de la siguranță.",
+   "Verificați și reconectați conectorul cablajului de deasupra balamalei ușii.",
+   "Restabiliți alimentarea."
+  ],
+  "technician": "Dacă codul revine, solicitați service Samsung."
+ },
+ "Samsung|OF OF": {
+  "title": "Mod Cooling Off (demonstrativ)",
+  "causes": [
+   "Modul demonstrativ sau de magazin este activat, adesea din greșeală. Frigiderul nu răcește."
+  ],
+  "steps": [
+   "Țineți apăsate cele două butoane de sus din stânga panoului 5–8 secunde, până se aude un semnal sonor.",
+   "La unele modele, țineți apăsat și butonul din dreapta sus.",
+   "Consultați manualul pentru combinația de butoane a modelului dumneavoastră."
+  ],
+  "technician": "Nu este necesar service. Aceasta este o setare, nu o defecțiune."
+ },
+ "Samsung|5E": {
+  "title": "Eroare la senzorul de dezghețare al frigiderului",
+  "causes": [
+   "Senzorul de dezghețare al frigiderului este defect."
+  ],
+  "steps": [
+   "Nu scoateți frigiderul din priză decât dacă vi se cere.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Solicitați service Samsung pentru înlocuirea sau verificarea senzorului."
+ },
+ "Samsung|8E": {
+  "title": "Eroare la senzorul aparatului de gheață (congelator)",
+  "causes": [
+   "Senzorul aparatului de gheață din congelator este defect."
+  ],
+  "steps": [
+   "Opriți aparatul de gheață, dacă puteți.",
+   "Continuați să folosiți frigiderul normal."
+  ],
+  "technician": "Solicitați service Samsung."
+ },
+ "Samsung|14E": {
+  "title": "Eroare la senzorul aparatului de gheață",
+  "causes": [
+   "Senzorul aparatului de gheață este defect."
+  ],
+  "steps": [
+   "Opriți aparatul de gheață, dacă puteți.",
+   "Continuați să folosiți frigiderul normal."
+  ],
+  "technician": "Solicitați service Samsung."
+ },
+ "Samsung|33E": {
+  "title": "Eroare la rezistența conductei de gheață",
+  "causes": [
+   "Rezistența de pe conducta de apă a aparatului de gheață este defectă."
+  ],
+  "steps": [
+   "Opriți aparatul de gheață, dacă puteți."
+  ],
+  "technician": "Solicitați service Samsung."
+ },
+ "Samsung|39E": {
+  "title": "Eroare de funcționare a aparatului de gheață",
+  "causes": [
+   "Aparatul de gheață nu funcționează corect."
+  ],
+  "steps": [
+   "Verificați dacă recipientul pentru gheață este așezat corect.",
+   "Opriți aparatul de gheață, dacă puteți."
+  ],
+  "technician": "Dacă codul rămâne, solicitați service Samsung."
+ },
+ "Samsung|40E": {
+  "title": "Eroare la ventilatorul compartimentului de gheață",
+  "causes": [
+   "Ventilatorul din compartimentul de gheață nu funcționează, adesea din cauza gheții."
+  ],
+  "steps": [
+   "Verificați dacă ușa compartimentului de gheață se închide complet."
+  ],
+  "technician": "Solicitați service Samsung."
+ },
+ "Samsung|84C": {
+  "title": "Compresor blocat",
+  "causes": [
+   "Compresorul este blocat și nu poate porni."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză sau opriți-i siguranța pentru 60 de secunde.",
+   "Restabiliți alimentarea și verificați dacă codul revine."
+  ],
+  "technician": "Solicitați service Samsung. Este nevoie de un tehnician."
+ },
+ "LG|CF": {
+  "title": "Eroare la ventilatorul condensatorului",
+  "causes": [
+   "Ventilatorul condensatorului este blocat sau nu funcționează, așa că compresorul este suprasolicitat."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză pentru 60 de secunde și conectați-l la o priză de perete, nu la un prelungitor multiplu.",
+   "Verificați dacă codul revine.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Solicitați service LG. Este nevoie de un tehnician."
+ },
+ "LG|CO": {
+  "title": "Eroare de comunicare",
+  "causes": [
+   "Placa principală și afișajul nu comunică."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză pentru 60 de secunde și conectați-l la o priză de perete, nu la un prelungitor multiplu.",
+   "Verificați dacă codul revine.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Solicitați service LG. Este nevoie de un tehnician."
+ },
+ "LG|FF": {
+  "title": "Eroare la ventilatorul congelatorului",
+  "causes": [
+   "Ventilatorul congelatorului este blocat, adesea de gheață, sau s-a defectat."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză pentru 60 de secunde și conectați-l la o priză de perete, nu la un prelungitor multiplu.",
+   "Verificați dacă codul revine.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Solicitați service LG. Este nevoie de un tehnician."
+ },
+ "LG|FS": {
+  "title": "Eroare la senzorul congelatorului",
+  "causes": [
+   "Senzorul de temperatură al congelatorului este defect."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză pentru 60 de secunde și conectați-l la o priză de perete, nu la un prelungitor multiplu.",
+   "Verificați dacă codul revine.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Solicitați service LG. Este nevoie de un tehnician."
+ },
+ "LG|FU": {
+  "title": "Congelatorul nu răcește suficient",
+  "causes": [
+   "Congelatorul nu s-a răcit suficient după pornire.",
+   "Ușile sunt deschise des sau nu etanșează.",
+   "Orificiile de ventilație sunt blocate de alimente."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză pentru 60 de secunde și conectați-l la o priză de perete, nu la un prelungitor multiplu.",
+   "Setați congelatorul la -18 °C.",
+   "Țineți alimentele departe de orificiile de ventilație.",
+   "Verificați garniturile ușilor închizând ușa peste o foaie de hârtie. Aceasta nu ar trebui să alunece ușor.",
+   "Deschideți ușile mai rar."
+  ],
+  "technician": "Dacă congelatorul tot nu răcește, solicitați service LG."
+ },
+ "LG|IF": {
+  "title": "Eroare la ventilatorul aparatului de gheață",
+  "causes": [
+   "Ventilatorul aparatului de gheață este blocat sau defect."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză pentru 60 de secunde și conectați-l la o priză de perete, nu la un prelungitor multiplu.",
+   "Verificați dacă codul revine.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Solicitați service LG. Este nevoie de un tehnician."
+ },
+ "LG|IS": {
+  "title": "Eroare la senzorul aparatului de gheață",
+  "causes": [
+   "Senzorul de temperatură al aparatului de gheață este defect."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză pentru 60 de secunde și conectați-l la o priză de perete, nu la un prelungitor multiplu.",
+   "Verificați dacă codul revine.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Solicitați service LG. Este nevoie de un tehnician."
+ },
+ "LG|It": {
+  "title": "Eroare la motorul aparatului de gheață",
+  "causes": [
+   "Motorul aparatului de gheață este defect."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză pentru 60 de secunde și conectați-l la o priză de perete, nu la un prelungitor multiplu.",
+   "Verificați dacă codul revine.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Solicitați service LG. Este nevoie de un tehnician."
+ },
+ "LG|rS": {
+  "title": "Eroare la senzorul frigiderului (sus)",
+  "causes": [
+   "Senzorul de temperatură de sus al frigiderului este defect."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză pentru 60 de secunde și conectați-l la o priză de perete, nu la un prelungitor multiplu.",
+   "Verificați dacă codul revine.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Solicitați service LG. Este nevoie de un tehnician."
+ },
+ "LG|r2": {
+  "title": "Eroare la senzorul frigiderului (jos)",
+  "causes": [
+   "Senzorul de temperatură de jos al frigiderului este defect."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză pentru 60 de secunde și conectați-l la o priză de perete, nu la un prelungitor multiplu.",
+   "Verificați dacă codul revine.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Solicitați service LG. Este nevoie de un tehnician."
+ },
+ "LG|dS": {
+  "title": "Eroare la senzorul de dezghețare",
+  "causes": [
+   "Senzorul de dezghețare este defect, așa că vaporizatorul poate îngheța."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză pentru 60 de secunde și conectați-l la o priză de perete, nu la un prelungitor multiplu.",
+   "Verificați dacă codul revine.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Solicitați service LG. Este nevoie de un tehnician."
+ },
+ "LG|rT": {
+  "title": "Eroare la senzorul de temperatură a camerei",
+  "causes": [
+   "Senzorul de temperatură ambiantă este defect."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză pentru 60 de secunde și conectați-l la o priză de perete, nu la un prelungitor multiplu.",
+   "Verificați dacă codul revine.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Solicitați service LG. Este nevoie de un tehnician."
+ },
+ "LG|dH": {
+  "title": "Dezghețarea a eșuat",
+  "causes": [
+   "Sistemul de dezghețare nu s-a încălzit la timp.",
+   "Vaporizatorul este blocat de gheață."
+  ],
+  "steps": [
+   "Scoateți alimentele și puneți-le într-un loc răcoros.",
+   "Puneți prosoape pe podea în fața frigiderului.",
+   "Scoateți frigiderul din priză și lăsați ușile deschise cel puțin 12 ore, ca să se topească gheața.",
+   "Conectați-l din nou la priză."
+  ],
+  "technician": "Adesea aceasta este doar o soluție temporară. Dacă dH revine, solicitați service LG."
+ },
+ "LG|SS": {
+  "title": "Eroare la senzorul rezervorului de apă",
+  "causes": [
+   "Senzorul de temperatură al rezervorului de apă este defect."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză pentru 60 de secunde și conectați-l la o priză de perete, nu la un prelungitor multiplu.",
+   "Verificați dacă codul revine.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Solicitați service LG. Este nevoie de un tehnician."
+ },
+ "LG|rF": {
+  "title": "Eroare la ventilatorul frigiderului",
+  "causes": [
+   "Ventilatorul frigiderului este blocat sau defect."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză pentru 60 de secunde și conectați-l la o priză de perete, nu la un prelungitor multiplu.",
+   "Verificați dacă codul revine.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Solicitați service LG. Este nevoie de un tehnician."
+ },
+ "LG|tt": {
+  "title": "Problemă la rezervorul de apă",
+  "causes": [
+   "Rezervorul de apă lipsește sau nu este așezat corect.",
+   "Senzorul rezervorului este defect."
+  ],
+  "steps": [
+   "Scoateți rezervorul de apă și montați-l corect la loc.",
+   "Verificați dacă codul dispare."
+  ],
+  "technician": "Dacă tt rămâne cu rezervorul la locul lui, solicitați service LG."
+ },
+ "LG|C1": {
+  "title": "Eroare de comunicare a dozatorului",
+  "causes": [
+   "Dozatorul și afișajul nu comunică."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză pentru 60 de secunde și conectați-l la o priză de perete, nu la un prelungitor multiplu.",
+   "Verificați dacă codul revine.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Solicitați service LG. Este nevoie de un tehnician."
+ },
+ "LG|gF": {
+  "title": "Eroare la senzorul de debit al apei",
+  "causes": [
+   "Robinetul de alimentare cu apă este închis.",
+   "Furtunul de apă este îndoit.",
+   "Presiunea apei nu este corectă."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză pentru 60 de secunde și conectați-l la o priză de perete, nu la un prelungitor multiplu.",
+   "Așteptați până la 5 minute ca frigiderul să repornească.",
+   "Deschideți complet robinetul de alimentare cu apă.",
+   "Verificați ca furtunul să nu fie îndoit.",
+   "Comparați presiunea apei cu valorile din manual."
+  ],
+  "technician": "Dacă eroarea persistă, solicitați service LG."
+ },
+ "LG|CH": {
+  "title": "Eroare a sistemului frigorific (partea de presiune înaltă)",
+  "causes": [
+   "Senzorii citesc valori anormale în sistemul frigorific, posibil o scurgere sau o supapă defectă."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză pentru 60 de secunde și conectați-l la o priză de perete, nu la un prelungitor multiplu.",
+   "Verificați dacă codul revine.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Solicitați service LG. Este nevoie de un tehnician."
+ },
+ "LG|CL": {
+  "title": "Eroare a sistemului frigorific (partea de presiune joasă)",
+  "causes": [
+   "Senzorii citesc valori anormale în sistemul frigorific, posibil o scurgere sau o supapă defectă."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză pentru 60 de secunde și conectați-l la o priză de perete, nu la un prelungitor multiplu.",
+   "Verificați dacă codul revine.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Solicitați service LG. Este nevoie de un tehnician."
+ },
+ "LG|Lo": {
+  "title": "Camera este prea rece",
+  "causes": [
+   "În cameră sunt sub -10 °C."
+  ],
+  "steps": [
+   "Mutați frigiderul într-un loc mai cald, dacă este posibil."
+  ],
+  "technician": "Nu este o defecțiune. Contactați LG doar dacă în cameră este cald și Lo este încă afișat."
+ },
+ "LG|HI": {
+  "title": "Camera este prea caldă",
+  "causes": [
+   "În cameră sunt peste 50 °C."
+  ],
+  "steps": [
+   "Mutați frigiderul într-un loc mai răcoros, dacă este posibil.",
+   "Asigurați-vă că aerul poate circula în jurul lui."
+  ],
+  "technician": "Nu este o defecțiune. Contactați LG doar dacă temperatura camerei este normală și HI este încă afișat."
+ },
+ "Miele|F0": {
+  "title": "Defecțiune tehnică",
+  "causes": [
+   "A fost detectată o defecțiune tehnică internă."
+  ],
+  "steps": [
+   "Notați codul de eroare.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele.",
+   "Programați un tehnician Miele."
+  ],
+  "technician": "Aceasta este o defecțiune tehnică pe care nu o puteți remedia singur. Contactați serviciul clienți Miele."
+ },
+ "Miele|F1": {
+  "title": "Defecțiune tehnică",
+  "causes": [
+   "A fost detectată o defecțiune tehnică internă."
+  ],
+  "steps": [
+   "Notați codul de eroare.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele.",
+   "Programați un tehnician Miele."
+  ],
+  "technician": "Aceasta este o defecțiune tehnică pe care nu o puteți remedia singur. Contactați serviciul clienți Miele."
+ },
+ "Miele|F2": {
+  "title": "Defecțiune tehnică",
+  "causes": [
+   "A fost detectată o defecțiune tehnică internă."
+  ],
+  "steps": [
+   "Notați codul de eroare.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele.",
+   "Programați un tehnician Miele."
+  ],
+  "technician": "Aceasta este o defecțiune tehnică pe care nu o puteți remedia singur. Contactați serviciul clienți Miele."
+ },
+ "Miele|F3": {
+  "title": "Defecțiune tehnică",
+  "causes": [
+   "A fost detectată o defecțiune tehnică internă."
+  ],
+  "steps": [
+   "Notați codul de eroare.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele.",
+   "Programați un tehnician Miele."
+  ],
+  "technician": "Aceasta este o defecțiune tehnică pe care nu o puteți remedia singur. Contactați serviciul clienți Miele."
+ },
+ "Miele|F4": {
+  "title": "Defecțiune tehnică",
+  "causes": [
+   "A fost detectată o defecțiune tehnică internă."
+  ],
+  "steps": [
+   "Notați codul de eroare.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele.",
+   "Programați un tehnician Miele."
+  ],
+  "technician": "Aceasta este o defecțiune tehnică pe care nu o puteți remedia singur. Contactați serviciul clienți Miele."
+ },
+ "Miele|F5": {
+  "title": "Defecțiune tehnică",
+  "causes": [
+   "A fost detectată o defecțiune tehnică internă."
+  ],
+  "steps": [
+   "Notați codul de eroare.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele.",
+   "Programați un tehnician Miele."
+  ],
+  "technician": "Aceasta este o defecțiune tehnică pe care nu o puteți remedia singur. Contactați serviciul clienți Miele."
+ },
+ "Miele|F114": {
+  "title": "Senzorul vaporizatorului congelatorului este defect",
+  "causes": [
+   "Senzorul vaporizatorului din compartimentul congelator este defect."
+  ],
+  "steps": [
+   "Notați codul de eroare.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele.",
+   "Programați un tehnician Miele."
+  ],
+  "technician": "Aceasta este o defecțiune tehnică pe care nu o puteți remedia singur. Contactați serviciul clienți Miele."
+ },
+ "Miele|F120": {
+  "title": "Tensiunea de rețea este prea mică",
+  "causes": [
+   "Tensiunea de rețea este uneori prea mică sau variază mult."
+  ],
+  "steps": [
+   "Verificați dacă și alte aparate au probleme.",
+   "Cereți unui electrician calificat să verifice tensiunea de rețea."
+  ],
+  "technician": "Dacă tensiunea este în regulă și F120 rămâne, programați un tehnician Miele."
+ },
+ "Miele|F141": {
+  "title": "Ușa frigiderului este deschisă de 15 minute",
+  "causes": [
+   "Ușa compartimentului frigider este deschisă de 15 minute."
+  ],
+  "steps": [
+   "Închideți ușa frigiderului.",
+   "Verificați să nu împiedice nimic închiderea ei."
+  ],
+  "technician": "Dacă F141 apare cu ușa închisă, programați un tehnician Miele."
+ },
+ "Miele|F142": {
+  "title": "Ușa frigiderului este deschisă de 30 de minute",
+  "causes": [
+   "Ușa compartimentului frigider este deschisă de aproximativ 30 de minute."
+  ],
+  "steps": [
+   "Închideți ușa frigiderului.",
+   "Verificați să nu împiedice nimic închiderea ei."
+  ],
+  "technician": "Dacă F142 apare cu ușa închisă, programați un tehnician Miele."
+ },
+ "Miele|F383": {
+  "title": "Defecțiune la alimentarea cu apă a aparatului de gheață",
+  "causes": [
+   "Furtunul de alimentare cu apă este îndoit.",
+   "Filtrul de alimentare este murdar.",
+   "Recipientul de apă nu este așezat corect sau plutitorul său este blocat.",
+   "O defecțiune de software."
+  ],
+  "steps": [
+   "Îndreptați eventualele îndoituri ale furtunului de apă.",
+   "Curățați filtrul de alimentare.",
+   "Scoateți recipientul de apă, curățați sub el și împingeți-l complet la loc.",
+   "Scuturați recipientul pentru a verifica dacă plutitorul se mișcă liber.",
+   "Setați congelatorul la -18 °C pentru cel puțin 48 de ore."
+  ],
+  "technician": "Dacă defecțiunea rămâne, contactați serviciul clienți Miele."
+ },
+ "Miele|F384": {
+  "title": "Blocare de software",
+  "causes": [
+   "Software-ul aparatului a încetat să funcționeze."
+  ],
+  "steps": [
+   "Scoateți aparatul din priză pentru aproximativ 2 minute.",
+   "Conectați-l din nou la priză și porniți-l.",
+   "Dacă funcționează din nou, restabiliți setările din fabrică din meniul Setări."
+  ],
+  "technician": "Dacă defecțiunea revine, contactați serviciul clienți Miele."
+ },
+ "Miele|F385": {
+  "title": "Blocare de software",
+  "causes": [
+   "Software-ul aparatului a încetat să funcționeze."
+  ],
+  "steps": [
+   "Scoateți aparatul din priză pentru aproximativ 2 minute.",
+   "Conectați-l din nou la priză și porniți-l.",
+   "Dacă funcționează din nou, restabiliți setările din fabrică din meniul Setări."
+  ],
+  "technician": "Dacă defecțiunea revine, contactați serviciul clienți Miele."
+ },
+ "Miele|nA": {
+  "title": "Congelatorul s-a încălzit prea mult anterior",
+  "causes": [
+   "O pană de curent sau o întrerupere a alimentării a lăsat congelatorul să se încălzească."
+  ],
+  "steps": [
+   "Țineți apăsat butonul de alarmă pentru a vedea temperatura maximă atinsă.",
+   "Verificați alimentele. Consumați curând alimentele decongelate.",
+   "Nu recongelați alimentele decongelate decât dacă le gătiți mai întâi."
+  ],
+  "technician": "Nu este o defecțiune. Contactați Miele doar dacă apare fără nicio pană de curent."
+ },
+ "AEG|E08": {
+  "title": "Tensiune de alimentare scăzută",
+  "causes": [
+   "Tensiunea de rețea a scăzut sub 170 V. Aceasta protejează compresorul."
+  ],
+  "steps": [
+   "Verificați dacă și alte aparate au probleme de alimentare.",
+   "Așteptați ca alimentarea să revină la normal."
+  ],
+  "technician": "Dacă E08 apare în continuare, cereți verificarea alimentării și contactați un tehnician autorizat AEG."
+ },
+ "AEG|E09": {
+  "title": "Congelatorul nu este suficient de rece",
+  "causes": [
+   "De obicei, după o pană de curent lungă."
+  ],
+  "steps": [
+   "Reduceți setarea congelatorului sau activați Super Freeze.",
+   "Țineți ușile închise până dispare codul.",
+   "Consumați sau gătiți curând alimentele decongelate.",
+   "Nu adăugați alimente proaspete până nu dispare codul."
+  ],
+  "technician": "Dacă codul rămâne afișat, contactați un tehnician autorizat AEG."
+ },
+ "AEG|E10": {
+  "title": "Frigiderul nu este suficient de rece",
+  "causes": [
+   "O pană de curent lungă.",
+   "Au fost puse alimente fierbinți în frigider."
+  ],
+  "steps": [
+   "Reduceți setarea frigiderului sau activați Super Cool.",
+   "Țineți ușile închise.",
+   "Țineți alimentele departe de orificiile de ventilație și de senzor."
+  ],
+  "technician": "Dacă E10 persistă, programați o reparație AEG."
+ },
+ "AEG|E11": {
+  "title": "Frigiderul este prea rece",
+  "causes": [
+   "Super Cool a rămas activat.",
+   "Temperatura este setată prea jos.",
+   "Orificiile de ventilație sunt blocate."
+  ],
+  "steps": [
+   "Dezactivați Super Cool.",
+   "Setați o temperatură mai ridicată pentru frigider.",
+   "Asigurați-vă că orificiile de ventilație sunt libere."
+  ],
+  "technician": "Dacă codul persistă, contactați un service autorizat AEG."
+ },
+ "AEG|F2": {
+  "title": "Defecțiune la termostat",
+  "causes": [
+   "O problemă la termostat."
+  ],
+  "steps": [
+   "Notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Programați un tehnician de service AEG și comunicați codul."
+ },
+ "AEG|F8": {
+  "title": "Defecțiune la sistemul de dezghețare",
+  "causes": [
+   "O defecțiune la sistemul de dezghețare."
+  ],
+  "steps": [
+   "Nu încercați să-l reparați singur.",
+   "Notați modelul și numărul de serie."
+  ],
+  "technician": "Programați un tehnician de service AEG și comunicați codul F8."
+ },
+ "Electrolux|F5": {
+  "title": "Defecțiune la senzorul de temperatură",
+  "causes": [
+   "Un senzor de temperatură este defect. F3 și F4 indică același tip de defecțiune."
+  ],
+  "steps": [
+   "Notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Programați un tehnician de service Electrolux și comunicați codul."
+ },
+ "Electrolux|E01": {
+  "title": "Avertizare senzor",
+  "causes": [
+   "Un senzor al combinei frigorifice are o problemă."
+  ],
+  "steps": [
+   "Notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Contactați un centru de service autorizat Electrolux pentru vizita unui tehnician."
+ },
+ "Electrolux|E02": {
+  "title": "Avertizare senzor",
+  "causes": [
+   "Un senzor al combinei frigorifice are o problemă."
+  ],
+  "steps": [
+   "Notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Contactați un centru de service autorizat Electrolux pentru vizita unui tehnician."
+ },
+ "Electrolux|E03": {
+  "title": "Avertizare senzor",
+  "causes": [
+   "Un senzor al combinei frigorifice are o problemă."
+  ],
+  "steps": [
+   "Notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Contactați un centru de service autorizat Electrolux pentru vizita unui tehnician."
+ },
+ "Electrolux|E06": {
+  "title": "Avertizare senzor",
+  "causes": [
+   "Un senzor al combinei frigorifice are o problemă."
+  ],
+  "steps": [
+   "Notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Contactați un centru de service autorizat Electrolux pentru vizita unui tehnician."
+ },
+ "Electrolux|E07": {
+  "title": "Avertizare senzor",
+  "causes": [
+   "Un senzor al combinei frigorifice are o problemă."
+  ],
+  "steps": [
+   "Notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Contactați un centru de service autorizat Electrolux pentru vizita unui tehnician."
+ },
+ "Hotpoint|E0": {
+  "title": "Defecțiune la aparatul de gheață",
+  "causes": [
+   "Aparatul de gheață nu funcționează corect (modele cu aparat de gheață)."
+  ],
+  "steps": [
+   "Opriți aparatul de gheață, dacă este posibil.",
+   "Continuați să folosiți frigiderul normal."
+  ],
+  "technician": "Sunați la service-ul Hotpoint pentru a programa un tehnician."
+ },
+ "Hotpoint|E1": {
+  "title": "Defecțiune la senzorul frigiderului",
+  "causes": [
+   "Senzorul de temperatură al frigiderului este defect."
+  ],
+  "steps": [
+   "Notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Sunați la service-ul Hotpoint pentru a programa un tehnician."
+ },
+ "Hotpoint|E2": {
+  "title": "Defecțiune la senzorul congelatorului",
+  "causes": [
+   "Senzorul de temperatură al congelatorului este defect.",
+   "Temperatura congelatorului poate fi greșită."
+  ],
+  "steps": [
+   "Verificați dacă alimentele sunt încă congelate.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Sunați la service-ul Hotpoint pentru a programa un tehnician."
+ },
+ "Hotpoint|E3": {
+  "title": "Defecțiune la senzorul de dezghețare",
+  "causes": [
+   "Senzorul de dezghețare este defect.",
+   "O scurgere înfundată poate afecta și temperatura."
+  ],
+  "steps": [
+   "Verificați dacă orificiul de scurgere a apei de la dezghețare și eventuala țeavă de scurgere sunt înfundate.",
+   "Îndepărtați ușor orice blocaj."
+  ],
+  "technician": "Dacă defecțiunea continuă, sunați la service-ul Hotpoint."
+ },
+ "Hotpoint|E4": {
+  "title": "Defecțiune la senzorul de dezghețare al frigiderului",
+  "causes": [
+   "Senzorul de dezghețare al frigiderului este defect."
+  ],
+  "steps": [
+   "Notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Sunați la service-ul Hotpoint pentru a programa un tehnician."
+ },
+ "Hotpoint|E5": {
+  "title": "Defecțiune la senzorul de dezghețare al congelatorului",
+  "causes": [
+   "Senzorul de dezghețare al congelatorului este defect."
+  ],
+  "steps": [
+   "Notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Sunați la service-ul Hotpoint pentru a programa un tehnician."
+ },
+ "Hotpoint|E6": {
+  "title": "Defecțiune la placa de comandă sau la placa afișajului",
+  "causes": [
+   "Placa principală de comandă sau placa afișajului este defectă."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză pentru câteva minute și conectați-l din nou."
+  ],
+  "technician": "Sunați la service-ul Hotpoint pentru a programa un tehnician."
+ },
+ "Hotpoint|E7": {
+  "title": "Defecțiune la senzorul de temperatură a camerei",
+  "causes": [
+   "Senzorul de temperatură ambiantă este defect."
+  ],
+  "steps": [
+   "Notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Sunați la service-ul Hotpoint pentru a programa un tehnician."
+ },
+ "Hotpoint|E8": {
+  "title": "Defecțiune la senzorul de temperatură a camerei",
+  "causes": [
+   "Senzorul de temperatură ambiantă este defect."
+  ],
+  "steps": [
+   "Notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Sunați la service-ul Hotpoint pentru a programa un tehnician."
+ },
+ "Hotpoint|E9": {
+  "title": "Alarmă de temperatură ridicată în congelator",
+  "causes": [
+   "Ușa congelatorului a rămas deschisă și congelatorul s-a încălzit."
+  ],
+  "steps": [
+   "Închideți corect ușa congelatorului.",
+   "Verificați să nu blocheze nimic ușa.",
+   "Verificați dacă alimentele s-au decongelat."
+  ],
+  "technician": "Dacă alarma continuă cu ușa închisă, sunați la service-ul Hotpoint."
+ },
+ "Hotpoint|EE": {
+  "title": "Defecțiune la circuitul aparatului de gheață",
+  "causes": [
+   "O defecțiune la circuitul aparatului de gheață (modele cu aparat de gheață)."
+  ],
+  "steps": [
+   "Opriți aparatul de gheață, dacă este posibil."
+  ],
+  "technician": "Sunați la service-ul Hotpoint pentru a programa un tehnician."
+ },
+ "Indesit|E0": {
+  "title": "Defecțiune la aparatul de gheață",
+  "causes": [
+   "Aparatul de gheață nu funcționează corect (modele cu aparat de gheață)."
+  ],
+  "steps": [
+   "Opriți aparatul de gheață, dacă este posibil.",
+   "Continuați să folosiți frigiderul normal."
+  ],
+  "technician": "Sunați la service-ul Indesit pentru a programa un tehnician."
+ },
+ "Indesit|E1": {
+  "title": "Defecțiune la senzorul frigiderului",
+  "causes": [
+   "Senzorul de temperatură al frigiderului este defect."
+  ],
+  "steps": [
+   "Notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Sunați la service-ul Indesit pentru a programa un tehnician."
+ },
+ "Indesit|E2": {
+  "title": "Defecțiune la senzorul congelatorului",
+  "causes": [
+   "Senzorul de temperatură al congelatorului este defect.",
+   "Temperatura congelatorului poate fi greșită."
+  ],
+  "steps": [
+   "Verificați dacă alimentele sunt încă congelate.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Sunați la service-ul Indesit pentru a programa un tehnician."
+ },
+ "Indesit|E3": {
+  "title": "Defecțiune la senzorul de dezghețare",
+  "causes": [
+   "Senzorul de dezghețare este defect.",
+   "O scurgere înfundată poate afecta și temperatura."
+  ],
+  "steps": [
+   "Verificați dacă orificiul de scurgere a apei de la dezghețare și eventuala țeavă de scurgere sunt înfundate.",
+   "Îndepărtați ușor orice blocaj."
+  ],
+  "technician": "Dacă defecțiunea continuă, sunați la service-ul Indesit."
+ },
+ "Indesit|E4": {
+  "title": "Defecțiune la senzorul de dezghețare al frigiderului",
+  "causes": [
+   "Senzorul de dezghețare al frigiderului este defect."
+  ],
+  "steps": [
+   "Notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Sunați la service-ul Indesit pentru a programa un tehnician."
+ },
+ "Indesit|E5": {
+  "title": "Defecțiune la senzorul de dezghețare al congelatorului",
+  "causes": [
+   "Senzorul de dezghețare al congelatorului este defect."
+  ],
+  "steps": [
+   "Notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Sunați la service-ul Indesit pentru a programa un tehnician."
+ },
+ "Indesit|E6": {
+  "title": "Defecțiune la placa de comandă sau la placa afișajului",
+  "causes": [
+   "Placa principală de comandă sau placa afișajului este defectă."
+  ],
+  "steps": [
+   "Scoateți frigiderul din priză pentru câteva minute și conectați-l din nou."
+  ],
+  "technician": "Sunați la service-ul Indesit pentru a programa un tehnician."
+ },
+ "Indesit|E7": {
+  "title": "Defecțiune la senzorul de temperatură a camerei",
+  "causes": [
+   "Senzorul de temperatură ambiantă este defect."
+  ],
+  "steps": [
+   "Notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Sunați la service-ul Indesit pentru a programa un tehnician."
+ },
+ "Indesit|E8": {
+  "title": "Defecțiune la senzorul de temperatură a camerei",
+  "causes": [
+   "Senzorul de temperatură ambiantă este defect."
+  ],
+  "steps": [
+   "Notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Sunați la service-ul Indesit pentru a programa un tehnician."
+ },
+ "Indesit|E9": {
+  "title": "Alarmă de temperatură ridicată în congelator",
+  "causes": [
+   "Ușa congelatorului a rămas deschisă și congelatorul s-a încălzit."
+  ],
+  "steps": [
+   "Închideți corect ușa congelatorului.",
+   "Verificați să nu blocheze nimic ușa.",
+   "Verificați dacă alimentele s-au decongelat."
+  ],
+  "technician": "Dacă alarma continuă cu ușa închisă, sunați la service-ul Indesit."
+ },
+ "Indesit|EE": {
+  "title": "Defecțiune la circuitul aparatului de gheață",
+  "causes": [
+   "O defecțiune la circuitul aparatului de gheață (modele cu aparat de gheață)."
+  ],
+  "steps": [
+   "Opriți aparatul de gheață, dacă este posibil."
+  ],
+  "technician": "Sunați la service-ul Indesit pentru a programa un tehnician."
+ },
+ "Whirlpool|F3 E1": {
+  "title": "Defecțiune de sistem (F intermitent)",
+  "causes": [
+   "Sistemul de comandă a detectat o defecțiune. Whirlpool nu oferă o soluție la domiciliu în afară de resetare."
+  ],
+  "steps": [
+   "Opriți siguranța sau scoateți frigiderul din priză pentru un minut.",
+   "Restabiliți alimentarea.",
+   "Asigurați-vă că răcirea este pornită.",
+   "Urmăriți timp de un minut dacă codul revine."
+  ],
+  "technician": "Dacă codul revine după resetare, programați service Whirlpool."
+ },
+ "Whirlpool|F3 E2": {
+  "title": "Defecțiune de sistem (F intermitent)",
+  "causes": [
+   "Sistemul de comandă a detectat o defecțiune. Whirlpool nu oferă o soluție la domiciliu în afară de resetare."
+  ],
+  "steps": [
+   "Opriți siguranța sau scoateți frigiderul din priză pentru un minut.",
+   "Restabiliți alimentarea.",
+   "Asigurați-vă că răcirea este pornită.",
+   "Urmăriți timp de un minut dacă codul revine."
+  ],
+  "technician": "Dacă codul revine după resetare, programați service Whirlpool."
+ },
+ "Whirlpool|F6 E1": {
+  "title": "Defecțiune de sistem (F intermitent)",
+  "causes": [
+   "Sistemul de comandă a detectat o defecțiune. Whirlpool nu oferă o soluție la domiciliu în afară de resetare."
+  ],
+  "steps": [
+   "Opriți siguranța sau scoateți frigiderul din priză pentru un minut.",
+   "Restabiliți alimentarea.",
+   "Asigurați-vă că răcirea este pornită.",
+   "Urmăriți timp de un minut dacă codul revine."
+  ],
+  "technician": "Dacă codul revine după resetare, programați service Whirlpool."
+ },
+ "Whirlpool|F8 E1": {
+  "title": "Defecțiune de sistem (F intermitent)",
+  "causes": [
+   "Sistemul de comandă a detectat o defecțiune. Whirlpool nu oferă o soluție la domiciliu în afară de resetare."
+  ],
+  "steps": [
+   "Opriți siguranța sau scoateți frigiderul din priză pentru un minut.",
+   "Restabiliți alimentarea.",
+   "Asigurați-vă că răcirea este pornită.",
+   "Urmăriți timp de un minut dacă codul revine."
+  ],
+  "technician": "Dacă codul revine după resetare, programați service Whirlpool."
+ },
+ "Whirlpool|F8 E2": {
+  "title": "Defecțiune de sistem (F intermitent)",
+  "causes": [
+   "Sistemul de comandă a detectat o defecțiune. Whirlpool nu oferă o soluție la domiciliu în afară de resetare."
+  ],
+  "steps": [
+   "Opriți siguranța sau scoateți frigiderul din priză pentru un minut.",
+   "Restabiliți alimentarea.",
+   "Asigurați-vă că răcirea este pornită.",
+   "Urmăriți timp de un minut dacă codul revine."
+  ],
+  "technician": "Dacă codul revine după resetare, programați service Whirlpool."
+ },
+ "Whirlpool|PO": {
+  "title": "Alertă de pană de curent",
+  "causes": [
+   "Curentul s-a întrerupt, iar congelatorul s-a încălzit la -8 °C (18 °F) sau mai mult."
+  ],
+  "steps": [
+   "Apăsați butonul de sub eticheta Confirm care clipește pentru a șterge alerta.",
+   "Verificați dacă alimentele congelate s-au decongelat."
+  ],
+  "technician": "Nu este o defecțiune. Contactați Whirlpool doar dacă PO apare fără o pană de curent reală."
+ },
+ "Bosch|E02": {
+  "title": "Defecțiune la aparatul de gheață sau la sistemul de apă",
+  "causes": [
+   "Aparatul de gheață este defect.",
+   "Comenzile pentru gheață și apă nu comunică."
+  ],
+  "steps": [
+   "Opriți siguranța frigiderului pentru 30 de secunde.",
+   "Porniți-o din nou și verificați codul."
+  ],
+  "technician": "Dacă E02 rămâne, contactați asistența clienți Bosch."
+ },
+ "Bosch|E03": {
+  "title": "Defecțiune la comanda dozatorului",
+  "causes": [
+   "Panoul de comandă al dozatorului are o defecțiune."
+  ],
+  "steps": [
+   "Opriți siguranța frigiderului pentru 30 de secunde.",
+   "Porniți-o din nou și verificați codul."
+  ],
+  "technician": "Dacă E03 rămâne, contactați asistența clienți Bosch."
+ },
+ "Haier|F1": {
+  "title": "Eroare de senzor",
+  "causes": [
+   "Un senzor de temperatură este defect."
+  ],
+  "steps": [
+   "Opriți și porniți frigiderul o dată pentru a vedea dacă codul dispare.",
+   "Dacă revine, notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Utilizatorii nu pot remedia această problemă. Contactați service-ul Haier pentru un tehnician."
+ },
+ "Haier|E0": {
+  "title": "Eroare de comunicare",
+  "causes": [
+   "Plăcile interne nu comunică."
+  ],
+  "steps": [
+   "Opriți și porniți frigiderul o dată pentru a vedea dacă codul dispare.",
+   "Dacă revine, notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Utilizatorii nu pot remedia această problemă. Contactați service-ul Haier pentru un tehnician."
+ },
+ "Haier|E1": {
+  "title": "Eroare la ventilator",
+  "causes": [
+   "Un ventilator nu funcționează."
+  ],
+  "steps": [
+   "Opriți și porniți frigiderul o dată pentru a vedea dacă codul dispare.",
+   "Dacă revine, notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Utilizatorii nu pot remedia această problemă. Contactați service-ul Haier pentru un tehnician."
+ },
+ "Haier|Er": {
+  "title": "Eroare la aparatul de gheață",
+  "causes": [
+   "Aparatul de gheață este defect."
+  ],
+  "steps": [
+   "Opriți și porniți frigiderul o dată pentru a vedea dacă codul dispare.",
+   "Dacă revine, notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Utilizatorii nu pot remedia această problemă. Contactați service-ul Haier pentru un tehnician."
+ },
+ "Haier|Ed": {
+  "title": "Eroare la dezghețare",
+  "causes": [
+   "Sistemul de dezghețare este defect."
+  ],
+  "steps": [
+   "Opriți și porniți frigiderul o dată pentru a vedea dacă codul dispare.",
+   "Dacă revine, notați codul.",
+   "Țineți ușile închise cât mai mult posibil pentru a proteja alimentele."
+  ],
+  "technician": "Utilizatorii nu pot remedia această problemă. Contactați service-ul Haier pentru un tehnician."
+ }
+}

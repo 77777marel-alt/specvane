@@ -1,0 +1,1201 @@
+{
+ "Samsung|dC": {
+  "title": "Luckan är öppen eller känns inte av",
+  "causes": [
+   "Luckan är inte helt stängd.",
+   "Kläder har fastnat i luckan.",
+   "Barnlåset är på och luckan öppnades."
+  ],
+  "steps": [
+   "Öppna luckan och ta bort kläder som har fastnat vid kanten.",
+   "Stäng luckan ordentligt tills den går i lås.",
+   "Kontrollera om barnlåset är på.",
+   "Starta programmet igen."
+  ],
+  "technician": "Om koden finns kvar fast luckan är ordentligt stängd kan spärren eller luckans sensor vara trasig. Kontakta Samsungs service."
+ },
+ "Samsung|NC": {
+  "title": "Problem med luddfiltret",
+  "causes": [
+   "Luddfiltret saknas, är igensatt eller sitter inte korrekt."
+  ],
+  "steps": [
+   "Ta ut luddfiltret och rengör det.",
+   "Sätt tillbaka det helt så att det sitter korrekt.",
+   "Starta om programmet."
+  ],
+  "technician": "Om koden kommer tillbaka fast filtret är rent och korrekt isatt, boka ett servicebesök hos Samsung."
+ },
+ "Samsung|NC2": {
+  "title": "Problem med värmeväxlarens innerlock",
+  "causes": [
+   "Värmeväxlarens innerlock sitter inte korrekt."
+  ],
+  "steps": [
+   "Stäng av torktumlaren.",
+   "Kontrollera att värmeväxlarens innerlock sitter på plats och är ordentligt stängt.",
+   "Starta om programmet."
+  ],
+  "technician": "Om koden kvarstår efter att du har satt tillbaka locket, kontakta Samsungs service."
+ },
+ "Samsung|5C": {
+  "title": "Problem med tömningen",
+  "causes": [
+   "Tömningsslangen är böjd, skadad eller frusen.",
+   "Vattenbehållaren är full.",
+   "Tömningspumpen fungerar inte."
+  ],
+  "steps": [
+   "Töm vattenbehållaren och sätt tillbaka den.",
+   "Kontrollera att tömningsslangen inte är vikt eller skadad.",
+   "Om slangen är frusen, linda in den i en handduk indränkt i varmt vatten i ungefär 10 minuter.",
+   "Slå på torktumlaren och starta om programmet."
+  ],
+  "technician": "Om behållaren är tom och slangen fri men koden kommer tillbaka kan pumpen vara trasig. Kontakta Samsungs service."
+ },
+ "Samsung|tC": {
+  "title": "Problem med lufttemperaturgivaren",
+  "causes": [
+   "Luddfiltret eller värmeväxlaren är igensatt.",
+   "Ventilationen eller luftflödet är begränsat.",
+   "Temperaturgivaren är trasig."
+  ],
+  "steps": [
+   "Rengör luddfiltret.",
+   "Rengör värmeväxlaren om din modell har en.",
+   "Kontrollera att ventilationen eller utblåset inte är igensatt.",
+   "Starta om programmet."
+  ],
+  "technician": "Om rengöring inte får bort koden kan givaren behöva bytas. Kontakta Samsungs service."
+ },
+ "Samsung|tC5": {
+  "title": "Problem med kompressorns temperaturgivare",
+  "causes": [
+   "Luddsilen är igensatt.",
+   "Luftflödet genom ventilationssystemet är begränsat."
+  ],
+  "steps": [
+   "Vänta 2–3 minuter och slå sedan på torktumlaren igen.",
+   "Rengör luddsilen.",
+   "Kontrollera att ventilationssystemet inte är igensatt.",
+   "Starta om programmet."
+  ],
+  "technician": "Om koden fortsätter att komma tillbaka behöver värmepumpssystemet kontrolleras av Samsungs service."
+ },
+ "Samsung|3C": {
+  "title": "Problem med motorn",
+  "causes": [
+   "Invertermotorn gick inte som förväntat."
+  ],
+  "steps": [
+   "Se till att trumman inte är överlastad.",
+   "Starta om programmet.",
+   "Dra ur torktumlarens kontakt i minst 30 sekunder, sätt i den igen och försök igen."
+  ],
+  "technician": "Om koden kommer tillbaka behöver motorn eller dess styrning en tekniker. Kontakta Samsungs service."
+ },
+ "Samsung|AC": {
+  "title": "Elektroniskt kommunikationsfel",
+  "causes": [
+   "Interna styrdelar kommunicerar inte med varandra."
+  ],
+  "steps": [
+   "Stäng av torktumlaren i 60 sekunder.",
+   "Slå på den igen och starta om programmet."
+  ],
+  "technician": "Om koden kommer tillbaka behöver styrkorten kontrolleras. Beställ service från Samsung."
+ },
+ "Samsung|AC6": {
+  "title": "Huvudkortet och inverterkortet kommunicerar inte",
+  "causes": [
+   "Huvudstyrkortet och inverterkortet har tappat kommunikationen."
+  ],
+  "steps": [
+   "Starta om programmet.",
+   "Dra ur torktumlarens kontakt i minst 30 sekunder, sätt i den igen och försök igen."
+  ],
+  "technician": "Om koden kvarstår behöver en tekniker kontrollera korten och ledningarna. Kontakta Samsungs service."
+ },
+ "Samsung|HC": {
+  "title": "Överhettning eller problem med uppvärmningen",
+  "causes": [
+   "Luddfiltret eller ventilationen är igensatt, så torktumlaren blir för varm.",
+   "En säkring som har löst ut eller låg spänning på elmodeller."
+  ],
+  "steps": [
+   "Rengör luddfiltret.",
+   "Kontrollera att ventilationen inte är igensatt.",
+   "Kontrollera säkringarna i bostaden och återställ dem som har löst ut.",
+   "Starta om programmet."
+  ],
+  "technician": "Om koden finns kvar, låt en elektriker kontrollera elnätet och boka Samsungs service för värmesystemet."
+ },
+ "Samsung|FC": {
+  "title": "Fel frekvens i elnätet",
+  "causes": [
+   "Nätfrekvensen stämmer inte med vad torktumlaren förväntar sig."
+  ],
+  "steps": [
+   "Starta om programmet.",
+   "Se till att torktumlaren är ansluten direkt till ett vägguttag."
+  ],
+  "technician": "Om koden finns kvar, kontakta Samsungs service."
+ },
+ "Samsung|9C1": {
+  "title": "Problem med strömförsörjningen",
+  "causes": [
+   "Strömförsörjningen är inte korrekt.",
+   "Kontakten sitter löst eller inte helt i.",
+   "En förlängningssladd används."
+  ],
+  "steps": [
+   "Kontrollera att kontakten är helt intryckt i uttaget.",
+   "Anslut torktumlaren direkt till ett vägguttag på en egen grupp, utan förlängningssladd.",
+   "Starta om programmet."
+  ],
+  "technician": "Om elen är i ordning och koden kommer tillbaka, beställ service från Samsung."
+ },
+ "Samsung|dF": {
+  "title": "Fel på luckbrytaren",
+  "causes": [
+   "Luckans brytare eller låsbrytare, eller dess ledningar, är trasig."
+  ],
+  "steps": [
+   "Stäng luckan ordentligt och försök igen.",
+   "Dra ur torktumlarens kontakt i minst 30 sekunder, sätt i den igen och försök igen."
+  ],
+  "technician": "Luckbrytaren kan behöva bytas. Kontakta Samsungs service."
+ },
+ "Samsung|bE": {
+  "title": "En knapp har fastnat",
+  "causes": [
+   "En knapp på kontrollpanelen har fastnat eller hålls nedtryckt."
+  ],
+  "steps": [
+   "Stäng av torktumlaren.",
+   "Tryck på och släpp varje knapp, även vid kanterna, så att en knapp som har fastnat lossnar.",
+   "Slå på och försök igen."
+  ],
+  "technician": "Om en knapp är skadad eller koden kommer tillbaka, beställ service från Samsung."
+ },
+ "Samsung|Clg": {
+  "title": "Igensatt ventilation (resultat av ventilationstest)",
+  "causes": [
+   "Frånluftsutblåset är igensatt av ludd eller skräp."
+  ],
+  "steps": [
+   "Rengör luddfiltret.",
+   "Rengör frånluftsutblåset och kanalen.",
+   "Kör testet för igensatt ventilation igen."
+  ],
+  "technician": "Om ventilationen är ren och resultatet är detsamma, kontakta Samsungs service."
+ },
+ "Samsung|dn": {
+  "title": "Programvara laddas ner",
+  "causes": [
+   "Torktumlaren installerar en uppdatering av den inbyggda programvaran."
+  ],
+  "steps": [
+   "Dra inte ur torktumlarens kontakt och bryt inte strömmen.",
+   "Vänta. Torktumlaren startar om av sig själv när uppdateringen är klar."
+  ],
+  "technician": "Om dn fortfarande visas efter 24 timmar, beställ service från Samsung."
+ },
+ "Samsung|CL": {
+  "title": "Barnlåset är på",
+  "causes": [
+   "Barnlåset har slagits på, så knapparna är avaktiverade."
+  ],
+  "steps": [
+   "Stäng av barnlåset med knappkombinationen i bruksanvisningen."
+  ],
+  "technician": "Detta är inget fel. Kontakta Samsung bara om barnlåset inte går att stänga av."
+ },
+ "Samsung|HC2": {
+  "title": "Fel vid gaständning",
+  "causes": [
+   "Den gasdrivna torktumlaren kunde inte tända."
+  ],
+  "steps": [
+   "Stäng av torktumlaren i 2–3 minuter.",
+   "Slå på den och starta om programmet."
+  ],
+  "technician": "Om koden kommer tillbaka, sluta använda torktumlaren och kontakta Samsungs service. Arbeta inte själv med gasdelar."
+ },
+ "LG|OE": {
+  "title": "Problem med tömningen",
+  "causes": [
+   "Tömningsslangen är vriden, vikt eller igensatt.",
+   "Slangens ände sitter för högt eller ligger under vatten."
+  ],
+  "steps": [
+   "Räta ut tömningsslangen.",
+   "Slangens högsta punkt får inte sitta högre än 1 m från golvet.",
+   "Se till att slangens ände inte ligger i vatten.",
+   "Starta om torktumlaren."
+  ],
+  "technician": "Om koden kommer tillbaka fast slangen är fri och korrekt placerad, kontakta LG:s service."
+ },
+ "LG|d80": {
+  "title": "Begränsat luftflöde i utblåset (ca 80 % igensatt)",
+  "causes": [
+   "Luddfiltret är igensatt.",
+   "Frånluftskanalen är klämd, vikt eller för lång.",
+   "Ventilationsluckan utomhus är blockerad."
+  ],
+  "steps": [
+   "Rengör luddfiltret och skölj det med varmt vatten vid behov.",
+   "Kontrollera att kanalen bakom torktumlaren inte är vikt eller klämd.",
+   "Se till att ventilationsluckan utomhus öppnas helt och ta bort ludd runt den.",
+   "Torka mindre mängder tills kanalen har rensats."
+  ],
+  "technician": "Om koden finns kvar efter rengöring, anlita en firma för kanalrengöring eller kontakta LG:s service."
+ },
+ "LG|d90": {
+  "title": "Begränsat luftflöde i utblåset (ca 90 % igensatt)",
+  "causes": [
+   "Luddfiltret är igensatt.",
+   "Frånluftskanalen är klämd, vikt eller för lång.",
+   "Ventilationsluckan utomhus är blockerad."
+  ],
+  "steps": [
+   "Rengör luddfiltret och skölj det med varmt vatten vid behov.",
+   "Kontrollera att kanalen bakom torktumlaren inte är vikt eller klämd.",
+   "Se till att ventilationsluckan utomhus öppnas helt och ta bort ludd runt den.",
+   "Torka mindre mängder tills kanalen har rensats."
+  ],
+  "technician": "Om koden finns kvar efter rengöring, anlita en firma för kanalrengöring eller kontakta LG:s service."
+ },
+ "LG|d95": {
+  "title": "Begränsat luftflöde i utblåset (ca 95 % igensatt)",
+  "causes": [
+   "Luddfiltret är igensatt.",
+   "Frånluftskanalen är klämd, vikt eller för lång.",
+   "Ventilationsluckan utomhus är blockerad."
+  ],
+  "steps": [
+   "Rengör luddfiltret och skölj det med varmt vatten vid behov.",
+   "Kontrollera att kanalen bakom torktumlaren inte är vikt eller klämd.",
+   "Se till att ventilationsluckan utomhus öppnas helt och ta bort ludd runt den.",
+   "Torka mindre mängder tills kanalen har rensats."
+  ],
+  "technician": "Om koden finns kvar efter rengöring, anlita en firma för kanalrengöring eller kontakta LG:s service."
+ },
+ "LG|FO": {
+  "title": "Luddfiltret sitter inte på plats",
+  "causes": [
+   "Luddfiltret är inte korrekt isatt."
+  ],
+  "steps": [
+   "Ta ut luddfiltret.",
+   "Tryck tillbaka det i sitt hus tills det sitter helt.",
+   "Starta om torktumlaren."
+  ],
+  "technician": "Om FO finns kvar fast filtret sitter korrekt kan sensorn behöva repareras av LG:s service."
+ },
+ "LG|IF": {
+  "title": "Det inre luddfiltret känns inte av",
+  "causes": [
+   "Magneten i det inre luddfiltret saknas eller sitter fel.",
+   "Magnethållaren är skadad."
+  ],
+  "steps": [
+   "Ta ut det inre luddfiltret och kontrollera att magneten sitter på plats.",
+   "Sätt tillbaka filtret korrekt.",
+   "Om magneten har tappats bort eller hållaren är trasig, köp ett nytt filter."
+  ],
+  "technician": "Om felet finns kvar fast filtret är i gott skick, beställ service från LG."
+ },
+ "LG|nP": {
+  "title": "Ingen ström till värmeelementet",
+  "causes": [
+   "Uttaget ger inte rätt spänning.",
+   "En säkring har löst ut."
+  ],
+  "steps": [
+   "Slå av torktumlarens säkring i minst 10 sekunder och slå sedan på den igen.",
+   "Starta om torktumlaren."
+  ],
+  "technician": "Om den fortfarande inte värmer, låt en elektriker kontrollera uttaget och kontakta sedan LG:s service."
+ },
+ "LG|PS": {
+  "title": "Problem med strömförsörjningen",
+  "causes": [
+   "Elsladden sitter löst eller uttaget är inte kopplat som det ska."
+  ],
+  "steps": [
+   "Återställ torktumlarens säkring i minst 10 sekunder.",
+   "Kontrollera att kontakten sitter ordentligt i ett jordat uttag med rätt märkning.",
+   "Starta om torktumlaren."
+  ],
+  "technician": "Om torktumlaren fortfarande inte värmer, beställ en reparation från LG."
+ },
+ "LG|gAS": {
+  "title": "Problem med gastillförseln",
+  "causes": [
+   "Gasventilen är stängd.",
+   "Gasledningen är vikt."
+  ],
+  "steps": [
+   "Kontrollera att gasventilen är öppen.",
+   "Kontrollera att gasledningen inte är vikt."
+  ],
+  "technician": "Om gastillförseln är i ordning och koden kommer tillbaka, kontakta LG:s service. Reparera inte gasdelar själv."
+ },
+ "LG|CL": {
+  "title": "Barnlåset är på",
+  "causes": [
+   "Barnlåset slogs på och är kvar även efter att strömmen har brutits."
+  ],
+  "steps": [
+   "Slå på torktumlaren.",
+   "Håll in barnlåsknappen i 3–5 sekunder tills CL försvinner."
+  ],
+  "technician": "Detta är inget fel. Kontakta LG bara om barnlåset inte går att stänga av."
+ },
+ "LG|Add": {
+  "title": "Fyll på vatten för ånga",
+  "causes": [
+   "Ångbehållaren är tom under ett ångprogram."
+  ],
+  "steps": [
+   "Pausa programmet.",
+   "Fyll ångbehållaren med kranvatten upp till MAX-markeringen.",
+   "Stäng av och slå på torktumlaren, välj ångprogrammet och tryck på Start."
+  ],
+  "technician": "Om meddelandet finns kvar efter påfyllning, kontakta LG:s service."
+ },
+ "LG|E13": {
+  "title": "Problem med tömningen (kondensvatten)",
+  "causes": [
+   "Tömningsslangen är vikt, vriden eller igensatt.",
+   "En förlängningsslang försämrar tömningen."
+  ],
+  "steps": [
+   "Kontrollera att tömningsslangen inte är vikt eller igensatt.",
+   "Använd bara LG:s originalslang för tömning, utan förlängning.",
+   "Tryck på Start/Paus för att starta om."
+  ],
+  "technician": "Om E13 kommer tillbaka behöver torktumlaren repareras av LG:s service."
+ },
+ "Bosch|E01": {
+  "title": "Luddfiltret är igensatt",
+  "causes": [
+   "Det har samlats ludd på filtret.",
+   "Rester av sköljmedel sätter igen nätet."
+  ],
+  "steps": [
+   "Ta ut och töm luddfiltret.",
+   "Skölj filtret under varmt vatten för att få bort rester.",
+   "Torka det och sätt tillbaka det.",
+   "Rengör filtret efter varje torkning."
+  ],
+  "technician": "Om koden finns kvar fast filtret är rent, boka ett servicebesök hos Bosch."
+ },
+ "Bosch|E02": {
+  "title": "Luddfiltret är igensatt eller fel på styrreläet",
+  "causes": [
+   "Luddfiltret är igensatt.",
+   "På vissa modeller ett fel i ett relä på huvudkortet."
+  ],
+  "steps": [
+   "Rengör luddfiltret och skölj det med varmt vatten.",
+   "Bryt strömmen vid kontakten eller säkringen i 30 sekunder och starta sedan om."
+  ],
+  "technician": "Om koden kommer tillbaka efter rengöring och återställning, kontakta Boschs kundtjänst."
+ },
+ "Bosch|E03": {
+  "title": "Kondensvattnets tömningsslang är igensatt",
+  "causes": [
+   "Tömningsslangen för kondensvatten är vikt eller igensatt."
+  ],
+  "steps": [
+   "Kontrollera att tömningsslangen inte är vikt.",
+   "Ta försiktigt loss slangen från vattenlåset och rengör slangen och dess anslutning.",
+   "Sätt tillbaka slangen ordentligt."
+  ],
+  "technician": "Om koden kommer tillbaka fast slangen är fri, boka en Bosch-tekniker."
+ },
+ "Bosch|E04": {
+  "title": "Torktumlaren är överlastad",
+  "causes": [
+   "För mycket tvätt i trumman."
+  ],
+  "steps": [
+   "Ta ur lite tvätt.",
+   "Lämna ungefär en handsbredd fritt utrymme ovanför kläderna.",
+   "Starta om programmet."
+  ],
+  "technician": "Om koden visas med normal tvättmängd, kontakta Boschs service."
+ },
+ "Bosch|E06": {
+  "title": "Fel i värmekretsen",
+  "causes": [
+   "Ett fel i värmekretsen."
+  ],
+  "steps": [
+   "Stäng av torktumlaren och dra ur kontakten.",
+   "Försök inte reparera den själv."
+  ],
+  "technician": "Detta kräver en behörig tekniker. Kontakta Boschs kundtjänst."
+ },
+ "Bosch|E08": {
+  "title": "Fel i elektroniken",
+  "causes": [
+   "Ett internt elektroniskt fel."
+  ],
+  "steps": [
+   "Stäng av torktumlaren.",
+   "Dra ur kontakten eller slå av säkringen i några minuter och anslut sedan igen.",
+   "Om koden kommer tillbaka, sluta använda torktumlaren."
+  ],
+  "technician": "Bara en auktoriserad tekniker kan åtgärda detta. Kontakta Boschs kundtjänst."
+ },
+ "Bosch|E09": {
+  "title": "Fel i elektroniken",
+  "causes": [
+   "Ett internt elektroniskt fel."
+  ],
+  "steps": [
+   "Stäng av torktumlaren.",
+   "Dra ur kontakten eller slå av säkringen i några minuter och anslut sedan igen.",
+   "Om koden kommer tillbaka, sluta använda torktumlaren."
+  ],
+  "technician": "Bara en auktoriserad tekniker kan åtgärda detta. Kontakta Boschs kundtjänst."
+ },
+ "Bosch|E24": {
+  "title": "Fel i elektroniken",
+  "causes": [
+   "Ett internt elektroniskt fel."
+  ],
+  "steps": [
+   "Stäng av torktumlaren.",
+   "Dra ur kontakten eller slå av säkringen i några minuter och anslut sedan igen.",
+   "Om koden kommer tillbaka, sluta använda torktumlaren."
+  ],
+  "technician": "Bara en auktoriserad tekniker kan åtgärda detta. Kontakta Boschs kundtjänst."
+ },
+ "Bosch|E25": {
+  "title": "Fel i elektroniken",
+  "causes": [
+   "Ett internt elektroniskt fel."
+  ],
+  "steps": [
+   "Stäng av torktumlaren.",
+   "Dra ur kontakten eller slå av säkringen i några minuter och anslut sedan igen.",
+   "Om koden kommer tillbaka, sluta använda torktumlaren."
+  ],
+  "technician": "Bara en auktoriserad tekniker kan åtgärda detta. Kontakta Boschs kundtjänst."
+ },
+ "Bosch|E28": {
+  "title": "Fel i elektroniken",
+  "causes": [
+   "Ett internt elektroniskt fel."
+  ],
+  "steps": [
+   "Stäng av torktumlaren.",
+   "Dra ur kontakten eller slå av säkringen i några minuter och anslut sedan igen.",
+   "Om koden kommer tillbaka, sluta använda torktumlaren."
+  ],
+  "technician": "Bara en auktoriserad tekniker kan åtgärda detta. Kontakta Boschs kundtjänst."
+ },
+ "Bosch|E36": {
+  "title": "Fel i elektroniken",
+  "causes": [
+   "Ett internt elektroniskt fel."
+  ],
+  "steps": [
+   "Stäng av torktumlaren.",
+   "Dra ur kontakten eller slå av säkringen i några minuter och anslut sedan igen.",
+   "Om koden kommer tillbaka, sluta använda torktumlaren."
+  ],
+  "technician": "Bara en auktoriserad tekniker kan åtgärda detta. Kontakta Boschs kundtjänst."
+ },
+ "Bosch|E90": {
+  "title": "Fel i elektroniken",
+  "causes": [
+   "Ett internt elektroniskt fel."
+  ],
+  "steps": [
+   "Stäng av torktumlaren.",
+   "Dra ur kontakten eller slå av säkringen i några minuter och anslut sedan igen.",
+   "Om koden kommer tillbaka, sluta använda torktumlaren."
+  ],
+  "technician": "Bara en auktoriserad tekniker kan åtgärda detta. Kontakta Boschs kundtjänst."
+ },
+ "Bosch|E12": {
+  "title": "Överhettning eller kalk i värmepumpen",
+  "causes": [
+   "Luftflödet är begränsat och torktumlaren överhettas.",
+   "Kalkavlagringar i värmepumpen på vissa modeller."
+  ],
+  "steps": [
+   "Rengör luddfiltret.",
+   "Kontrollera att den externa ventilationen inte är igensatt, böjd eller klämd.",
+   "Starta om programmet."
+  ],
+  "technician": "Om koden fortsätter att komma tillbaka, boka ett servicebesök hos Bosch."
+ },
+ "Bosch|E16": {
+  "title": "Luckan öppnades under torkningen",
+  "causes": [
+   "Luckan öppnades medan ett program pågick."
+  ],
+  "steps": [
+   "Stäng luckan ordentligt.",
+   "Tryck på Start för att fortsätta programmet.",
+   "Använd barnlåset vid behov så att luckan inte kan öppnas."
+  ],
+  "technician": "Om E16 visas fast luckan är stängd kan luckbrytaren vara trasig. Boka en Bosch-tekniker."
+ },
+ "Bosch|E56": {
+  "title": "Problem med fuktsensorn",
+  "causes": [
+   "Beläggningar eller ludd på fuktsensorns metallremsor i trumman."
+  ],
+  "steps": [
+   "Dra ur torktumlarens kontakt.",
+   "Torka av fuktsensorn nära luddfiltret med en mjuk trasa och milt rengöringsmedel.",
+   "Ta bort beläggningar och starta sedan om."
+  ],
+  "technician": "Om koden kvarstår efter rengöring, kontakta Boschs kundtjänst."
+ },
+ "Bosch|DR": {
+  "title": "Luckan är inte ordentligt stängd",
+  "causes": [
+   "Luckan är inte helt stängd.",
+   "Något blockerar luckan."
+  ],
+  "steps": [
+   "Ta bort det som har fastnat i luckan.",
+   "Stäng den ordentligt tills den går i lås.",
+   "Starta om programmet."
+  ],
+  "technician": "Om koden kvarstår behöver spärren eller luckbrytaren kontrolleras av Boschs service."
+ },
+ "Bosch|CrE": {
+  "title": "Påminnelse om skötsel",
+  "causes": [
+   "Torktumlaren påminner dig om att köra skötselprogrammet. Det är inget fel."
+  ],
+  "steps": [
+   "Kör det grundläggande skötselprogrammet som beskrivs i bruksanvisningen."
+  ],
+  "technician": "Behövs inte, om påminnelsen inte försvinner efter skötselprogrammet."
+ },
+ "Miele|F1": {
+  "title": "Kortslutning i köldmediets temperaturgivare",
+  "causes": [
+   "Köldmediets temperaturgivare har kortslutits."
+  ],
+  "steps": [
+   "Anteckna felkoden.",
+   "Stäng av torktumlaren och fortsätt inte att använda den.",
+   "Boka en reparation hos Miele."
+  ],
+  "technician": "Detta är ett tekniskt fel som du inte kan åtgärda själv. Boka en Miele-tekniker."
+ },
+ "Miele|F2": {
+  "title": "Avbrott i köldmediets temperaturgivare",
+  "causes": [
+   "Kretsen till köldmediets temperaturgivare är bruten."
+  ],
+  "steps": [
+   "Anteckna felkoden.",
+   "Stäng av torktumlaren och fortsätt inte att använda den.",
+   "Boka en reparation hos Miele."
+  ],
+  "technician": "Detta är ett tekniskt fel som du inte kan åtgärda själv. Boka en Miele-tekniker."
+ },
+ "Miele|F3": {
+  "title": "Kortslutning i torkluftens temperaturgivare",
+  "causes": [
+   "Torkluftens temperaturgivare har kortslutits."
+  ],
+  "steps": [
+   "Anteckna felkoden.",
+   "Stäng av torktumlaren och fortsätt inte att använda den.",
+   "Boka en reparation hos Miele."
+  ],
+  "technician": "Detta är ett tekniskt fel som du inte kan åtgärda själv. Boka en Miele-tekniker."
+ },
+ "Miele|F4": {
+  "title": "Avbrott i torkluftens temperaturgivare",
+  "causes": [
+   "Kretsen till torkluftens temperaturgivare är bruten."
+  ],
+  "steps": [
+   "Anteckna felkoden.",
+   "Stäng av torktumlaren och fortsätt inte att använda den.",
+   "Boka en reparation hos Miele."
+  ],
+  "technician": "Detta är ett tekniskt fel som du inte kan åtgärda själv. Boka en Miele-tekniker."
+ },
+ "Miele|F30": {
+  "title": "Luckans signaler stämmer inte överens",
+  "causes": [
+   "Luckan och luckkontakten rapporterar olika lägen."
+  ],
+  "steps": [
+   "Anteckna felkoden.",
+   "Stäng av torktumlaren och fortsätt inte att använda den.",
+   "Boka en reparation hos Miele."
+  ],
+  "technician": "Detta är ett tekniskt fel som du inte kan åtgärda själv. Boka en Miele-tekniker."
+ },
+ "Miele|F39": {
+  "title": "Fel på elektronikmodulen",
+  "causes": [
+   "Elektronikmodulen har ett fel."
+  ],
+  "steps": [
+   "Anteckna felkoden.",
+   "Stäng av torktumlaren och fortsätt inte att använda den.",
+   "Boka en reparation hos Miele."
+  ],
+  "technician": "Detta är ett tekniskt fel som du inte kan åtgärda själv. Boka en Miele-tekniker."
+ },
+ "Miele|F43": {
+  "title": "Modelltypen är inte programmerad",
+  "causes": [
+   "Modelltypen saknas eller fel variant är inställd i elektroniken."
+  ],
+  "steps": [
+   "Anteckna felkoden.",
+   "Stäng av torktumlaren och fortsätt inte att använda den.",
+   "Boka en reparation hos Miele."
+  ],
+  "technician": "Detta är ett tekniskt fel som du inte kan åtgärda själv. Boka en Miele-tekniker."
+ },
+ "Miele|F45": {
+  "title": "Fel på elektronikmodulen",
+  "causes": [
+   "Elektronikmodulen har ett fel."
+  ],
+  "steps": [
+   "Anteckna felkoden.",
+   "Stäng av torktumlaren och fortsätt inte att använda den.",
+   "Boka en reparation hos Miele."
+  ],
+  "technician": "Detta är ett tekniskt fel som du inte kan åtgärda själv. Boka en Miele-tekniker."
+ },
+ "Miele|F53": {
+  "title": "Fel på drivmotorn eller elektroniken",
+  "causes": [
+   "Drivmotorn är defekt.",
+   "Elektronikmodulen har ett fel."
+  ],
+  "steps": [
+   "Anteckna felkoden.",
+   "Stäng av torktumlaren och fortsätt inte att använda den.",
+   "Boka en reparation hos Miele."
+  ],
+  "technician": "Detta är ett tekniskt fel som du inte kan åtgärda själv. Boka en Miele-tekniker."
+ },
+ "Miele|F99": {
+  "title": "Tekniskt fel, torktumlaren är spärrad",
+  "causes": [
+   "Ett tekniskt fel har spärrat torktumlaren."
+  ],
+  "steps": [
+   "Anteckna felkoden.",
+   "Stäng av torktumlaren och fortsätt inte att använda den.",
+   "Boka en reparation hos Miele."
+  ],
+  "technician": "Detta är ett tekniskt fel som du inte kan åtgärda själv. Boka en Miele-tekniker."
+ },
+ "Miele|F156": {
+  "title": "Kortslutning i köldmediegivaren efter kondensorn",
+  "causes": [
+   "Köldmediets temperaturgivare efter kondensorn har kortslutits."
+  ],
+  "steps": [
+   "Anteckna felkoden.",
+   "Stäng av torktumlaren och fortsätt inte att använda den.",
+   "Boka en reparation hos Miele."
+  ],
+  "technician": "Detta är ett tekniskt fel som du inte kan åtgärda själv. Boka en Miele-tekniker."
+ },
+ "Miele|F206": {
+  "title": "Kortslutning i köldmediegivaren efter kompressorn",
+  "causes": [
+   "Köldmediets temperaturgivare efter kompressorn har kortslutits."
+  ],
+  "steps": [
+   "Anteckna felkoden.",
+   "Stäng av torktumlaren och fortsätt inte att använda den.",
+   "Boka en reparation hos Miele."
+  ],
+  "technician": "Detta är ett tekniskt fel som du inte kan åtgärda själv. Boka en Miele-tekniker."
+ },
+ "Miele|F50": {
+  "title": "Överbelastning eller programvarufel",
+  "causes": [
+   "Trumman är överlastad.",
+   "Ett tillfälligt programvarufel, ofta strax efter att luckan öppnats för att lägga i mer tvätt.",
+   "Ett tekniskt fel."
+  ],
+  "steps": [
+   "Ta ur lite tvätt så att mängden stämmer med programmets gräns.",
+   "Stäng av torktumlaren och slå genast på den igen.",
+   "Starta om programmet."
+  ],
+  "technician": "Om F50 fortsätter att komma tillbaka, kontakta Mieles kundtjänst."
+ },
+ "Miele|F55": {
+  "title": "Tvätten är inte torr efter maximal tid",
+  "causes": [
+   "Trumman är överlastad.",
+   "Tvätten centrifugerades inte tillräckligt snabbt i tvättmaskinen.",
+   "Luddfiltren är smutsiga."
+  ],
+  "steps": [
+   "Minska tvättmängden till programmets maxgräns.",
+   "Centrifugera tvätten med högsta lämpliga varvtal före torkning.",
+   "Rengör alla luddfilter och låt dem torka helt innan du sätter tillbaka dem.",
+   "Kör programmet igen."
+  ],
+  "technician": "Om felet kvarstår med rena filter och normal tvättmängd, kontakta Mieles kundtjänst."
+ },
+ "Miele|F66": {
+  "title": "Blockerat luftflöde (filter eller ventilation)",
+  "causes": [
+   "Luddfiltren eller sockelfiltret är smutsiga.",
+   "Sockelfiltret är igenkorkat, skadat eller deformerat.",
+   "Trumman är överlastad.",
+   "Ventilationsgallret är blockerat eller rummet är dåligt ventilerat."
+  ],
+  "steps": [
+   "Rengör luddfiltren och sockelfiltret och krama sedan ur sockelfiltret.",
+   "Dammsug försiktigt bort ludd från värmeväxlaren utan att trycka på lamellerna.",
+   "Rensa ventilationsgallret under luckan.",
+   "Minska tvättmängden och vädra rummet medan du torkar.",
+   "Byt ut ett skadat sockelfilter."
+  ],
+  "technician": "Om F66 finns kvar efter noggrann rengöring, kontakta Mieles kundtjänst."
+ },
+ "Miele|noC": {
+  "title": "Ingen Wi-Fi-anslutning",
+  "causes": [
+   "Miele@home är inte konfigurerat.",
+   "Torktumlaren når inte ditt Wi-Fi."
+  ],
+  "steps": [
+   "Konfigurera Miele@home om du inte redan har gjort det.",
+   "Kontrollera att Wi-Fi är på och starta om routern.",
+   "Förbättra signalen med en repeater om den är svag.",
+   "Återställ torktumlarens Wi-Fi och anslut den igen."
+  ],
+  "technician": "Detta är ett anslutningsmeddelande, inte ett fel på torktumlaren. Kontakta Miele om den inte kan ansluta efter dessa steg."
+ },
+ "AEG|E50": {
+  "title": "Motorn är överbelastad",
+  "causes": [
+   "Trumman är överlastad.",
+   "Tvätt har fastnat i trumman.",
+   "Ett fel i motorn eller drivningen."
+  ],
+  "steps": [
+   "Öppna luckan och kontrollera om något har fastnat.",
+   "Ta ur lite tvätt om mängden är för stor.",
+   "Stäng luckan och starta om.",
+   "Om felet finns kvar, bryt strömmen i ungefär 1 minut och starta sedan om."
+  ],
+  "technician": "Om E50 kommer tillbaka gång på gång eller trumman inte snurrar, boka en reparation hos AEG."
+ },
+ "AEG|E40": {
+  "title": "Luckan är inte stängd",
+  "causes": [
+   "Tvätt har fastnat i luckan.",
+   "Luckans tätning eller lås är smutsigt eller slitet.",
+   "Trumman är överlastad och trycker på luckan."
+  ],
+  "steps": [
+   "Ta bort kläder som har fastnat i luckan och stäng den tills det klickar.",
+   "Torka av luckans tätning med en fuktig trasa.",
+   "Borsta bort ludd från luckans lås.",
+   "Minska tvättmängden.",
+   "Bryt strömmen i 30 sekunder och starta sedan om."
+  ],
+  "technician": "Om felet kvarstår kan låset eller luckans sensor vara trasig. Boka ett servicebesök hos AEG."
+ },
+ "AEG|E20": {
+  "title": "Problem med tömningen eller pumpen",
+  "causes": [
+   "Tömningsslangen är inte ordentligt ansluten.",
+   "Tömningsslangen är vriden, igensatt eller har en ögla."
+  ],
+  "steps": [
+   "Om du tömmer till ett avlopp, kontrollera att slangen är korrekt ansluten.",
+   "Ta bort vridningar, öglor och stopp från slangen.",
+   "Bryt strömmen i 30 sekunder och starta sedan om."
+  ],
+  "technician": "Om felet kvarstår, boka en auktoriserad AEG-tekniker."
+ },
+ "AEG|E60": {
+  "title": "Problem med uppvärmningen",
+  "causes": [
+   "Torktumlaren är inbyggd i ett skåp utan ventilation.",
+   "Rummet är för litet eller inte ventilerat.",
+   "Luddfiltret, kondensorn eller tätningen är smutsig.",
+   "Värmeelementet är trasigt."
+  ],
+  "steps": [
+   "Se till att torktumlaren har utrymme och luft runt sig.",
+   "Öppna ett fönster eller en dörr medan du torkar i ett litet rum.",
+   "Rengör luddfiltret, kondensorn och luckans tätning.",
+   "Kör ett tidsprogram och kontrollera om det är varmt efter 30 minuter."
+  ],
+  "technician": "Om den fortfarande är kall, boka en reparation hos AEG."
+ },
+ "AEG|E70": {
+  "title": "Fel på temperaturgivaren",
+  "causes": [
+   "Temperaturgivaren är trasig."
+  ],
+  "steps": [
+   "Dra ur torktumlarens kontakt i 2 timmar för att återställa den.",
+   "Sätt i kontakten igen och försök igen.",
+   "Om koden kommer tillbaka, sluta använda torktumlaren och låt kontakten vara urdragen."
+  ],
+  "technician": "Kontakta AEG och uppge koden för ett servicebesök."
+ },
+ "AEG|E80": {
+  "title": "Fel på programväljaren eller programvaran",
+  "causes": [
+   "Programvredet står mellan två lägen.",
+   "Ett programvarufel."
+  ],
+  "steps": [
+   "Vrid vredet så att det står helt på ett program.",
+   "Dra ur torktumlarens kontakt i 30 sekunder, sätt sedan i den igen och starta om."
+  ],
+  "technician": "Om E80 finns kvar, boka en servicetekniker från AEG."
+ },
+ "AEG|EH0": {
+  "title": "Problem med strömförsörjningen",
+  "causes": [
+   "Spänningen är för låg eller för hög.",
+   "Strömförsörjningen är instabil."
+  ],
+  "steps": [
+   "Testa uttaget med en annan apparat.",
+   "Använd inte förlängningssladd.",
+   "Dra ur torktumlarens kontakt i 30 sekunder och starta sedan om."
+  ],
+  "technician": "Om även en annan apparat krånglar, kontakta en elektriker. Om bara torktumlaren visar koden, boka en AEG-tekniker."
+ },
+ "AEG|EBD": {
+  "title": "Elektriska störningar upptäckta",
+  "causes": [
+   "Elektriska störningar i elnätet.",
+   "Dålig jordning."
+  ],
+  "steps": [
+   "Prova torktumlaren i ett annat uttag som fungerar.",
+   "Se till att uttaget är ordentligt jordat."
+  ],
+  "technician": "Om koden finns kvar, kontakta en auktoriserad AEG-serviceverkstad. Försök inte göra elektriska reparationer själv."
+ },
+ "AEG|CE": {
+  "title": "Fel i elektroniken",
+  "causes": [
+   "Ett fel i torktumlarens elektronik."
+  ],
+  "steps": [
+   "Sluta använda torktumlaren.",
+   "Dra ur kontakten och låt den vara urdragen."
+  ],
+  "technician": "Boka en auktoriserad AEG-tekniker för felsökning av elektroniken."
+ },
+ "AEG|C8": {
+  "title": "Fel på temperaturgivaren",
+  "causes": [
+   "Temperaturgivaren har ett problem."
+  ],
+  "steps": [
+   "Sluta använda torktumlaren.",
+   "Låt kontakten vara urdragen tills den har kontrollerats."
+  ],
+  "technician": "Boka ett servicebesök hos AEG för att byta eller kontrollera givaren."
+ },
+ "AEG|C6": {
+  "title": "Problem med fuktsensorn",
+  "causes": [
+   "Torktumlaren är inte ansluten till ett jordat uttag.",
+   "Systemet för fuktmätning är trasigt."
+  ],
+  "steps": [
+   "Kontrollera att torktumlaren är ansluten till ett jordat uttag.",
+   "Om programmet fortfarande tar mycket lång tid, sluta använda torktumlaren och dra ur kontakten."
+  ],
+  "technician": "Om uttaget är jordat och felet finns kvar, boka en reparation hos AEG."
+ },
+ "AEG|Err": {
+  "title": "Fel på ångbehållaren (modeller med Iron Aid)",
+  "causes": [
+   "Ångbehållaren har lite vatten eller är tom."
+  ],
+  "steps": [
+   "Fyll ångbehållaren upp till MAX-nivån.",
+   "Starta om programmet."
+  ],
+  "technician": "Om symbolerna fortsätter att blinka efter påfyllning, sluta använda torktumlaren och kontakta en AEG-serviceverkstad."
+ },
+ "Hotpoint|F01": {
+  "title": "Fel på kretskortet",
+  "causes": [
+   "Ett fel på det elektroniska styrkortet."
+  ],
+  "steps": [
+   "Dra ur torktumlarens kontakt i minst 2 minuter.",
+   "Sätt i kontakten igen, vänta 30 sekunder och försök igen."
+  ],
+  "technician": "Om F01 kommer tillbaka efter återställningen, kontakta Hotpoints service och boka en tekniker."
+ },
+ "Hotpoint|F02": {
+  "title": "Fel i motorkretsen",
+  "causes": [
+   "Ett fel i motorkretsen. Trumman snurrar bara då och då eller inte alls."
+  ],
+  "steps": [
+   "Stäng av torktumlaren och dra ur kontakten.",
+   "Fortsätt inte att använda den."
+  ],
+  "technician": "Kontakta Hotpoints service och boka en tekniker."
+ },
+ "Hotpoint|F03": {
+  "title": "Fel i temperaturmätningen",
+  "causes": [
+   "Temperaturgivaren är trasig, så torktumlaren värmer inte."
+  ],
+  "steps": [
+   "Stäng av torktumlaren och dra ur kontakten."
+  ],
+  "technician": "Kontakta Hotpoints service och boka en tekniker."
+ },
+ "Hotpoint|F05": {
+  "title": "Igensatt avlopp eller problem med pumpen",
+  "causes": [
+   "Ett stopp i pumpfiltret (om sådant finns) eller tömningsslangen.",
+   "Ett igensatt avloppsrör.",
+   "En trasig pump."
+  ],
+  "steps": [
+   "Kontrollera och rengör pumpfiltret om din modell har ett.",
+   "Kontrollera att tömningsslangen och avloppet den är ansluten till inte är igensatta."
+  ],
+  "technician": "Om allt är fritt och felet finns kvar kan pumpen ha gått sönder. Kontakta Hotpoints service."
+ },
+ "Hotpoint|F06": {
+  "title": "Fel på luckans lås",
+  "causes": [
+   "Något blockerar luckans lås.",
+   "Luckans lås är trasigt."
+  ],
+  "steps": [
+   "Kontrollera om det finns ludd eller föremål vid luckans lås och ta bort dem.",
+   "Stäng luckan ordentligt och försök igen."
+  ],
+  "technician": "Om felet finns kvar, kontakta Hotpoints service."
+ },
+ "Hotpoint|F09": {
+  "title": "Programvarufel",
+  "causes": [
+   "Ett problem med programvaran. Flera lampor kan blinka och inget program kan väljas."
+  ],
+  "steps": [
+   "Dra ur torktumlarens kontakt i några minuter och försök igen."
+  ],
+  "technician": "Kontakta Hotpoints service och boka en tekniker."
+ },
+ "Hotpoint|F11": {
+  "title": "Fel i pumpkretsen",
+  "causes": [
+   "Pumpkretsen har gått sönder, så vattnet pumpas inte ut."
+  ],
+  "steps": [
+   "Töm vattenbehållaren om din modell har en.",
+   "Stäng av torktumlaren och dra ur kontakten."
+  ],
+  "technician": "Kontakta Hotpoints service och boka en tekniker."
+ },
+ "Hotpoint|F12": {
+  "title": "Fel i den elektroniska styrningen",
+  "causes": [
+   "Den elektroniska styrningen är trasig. Torktumlaren kanske inte går att slå på."
+  ],
+  "steps": [
+   "Kontrollera kontakten och uttaget.",
+   "Dra ur torktumlarens kontakt i några minuter och försök igen."
+  ],
+  "technician": "Kontakta Hotpoints service och boka en tekniker."
+ },
+ "Hotpoint|F18": {
+  "title": "Internt datafel",
+  "causes": [
+   "Skadade interna data. Vissa delar av displayen eller vissa funktioner fungerar inte."
+  ],
+  "steps": [
+   "Dra ur torktumlarens kontakt i minst 2 minuter.",
+   "Sätt i kontakten igen, vänta 30 sekunder och försök igen."
+  ],
+  "technician": "Om F18 finns kvar efter återställningen, kontakta Hotpoints service."
+ },
+ "Indesit|F02": {
+  "title": "Fel i motorkretsen",
+  "causes": [
+   "Ett fel i motorkretsen. Trumman snurrar bara då och då eller inte alls."
+  ],
+  "steps": [
+   "Stäng av torktumlaren och dra ur kontakten."
+  ],
+  "technician": "Kontakta Indesits service och boka en tekniker."
+ },
+ "Indesit|F03": {
+  "title": "Fel i temperaturmätningen",
+  "causes": [
+   "Temperaturgivaren är trasig, så torktumlaren värmer inte."
+  ],
+  "steps": [
+   "Stäng av torktumlaren och dra ur kontakten."
+  ],
+  "technician": "Kontakta Indesits service och boka en tekniker."
+ },
+ "Indesit|F05": {
+  "title": "Igensatt avlopp eller problem med pumpen",
+  "causes": [
+   "Ett stopp i pumpfiltret (om sådant finns) eller tömningsslangen.",
+   "En trasig pump."
+  ],
+  "steps": [
+   "Kontrollera och rengör pumpfiltret om din modell har ett.",
+   "Kontrollera att tömningsslangen och avloppet inte är igensatta."
+  ],
+  "technician": "Om allt är fritt och felet finns kvar, kontakta Indesits service."
+ },
+ "Indesit|F06": {
+  "title": "Fel på luckans lås",
+  "causes": [
+   "Något blockerar luckans lås.",
+   "Luckans lås är trasigt."
+  ],
+  "steps": [
+   "Kontrollera att inget blockerar luckans lås.",
+   "Stäng luckan ordentligt och försök igen."
+  ],
+  "technician": "Om felet finns kvar, kontakta Indesits service."
+ },
+ "Indesit|F09": {
+  "title": "Programvarufel",
+  "causes": [
+   "Ett problem med programvaran. Flera lampor kan blinka och inget program kan väljas."
+  ],
+  "steps": [
+   "Dra ur torktumlarens kontakt i några minuter och försök igen."
+  ],
+  "technician": "Kontakta Indesits service och boka en tekniker."
+ },
+ "Indesit|F11": {
+  "title": "Fel i pumpkretsen",
+  "causes": [
+   "Pumpkretsen har gått sönder, så vattnet pumpas inte ut."
+  ],
+  "steps": [
+   "Töm vattenbehållaren om din modell har en.",
+   "Stäng av torktumlaren och dra ur kontakten."
+  ],
+  "technician": "Kontakta Indesits service och boka en tekniker."
+ },
+ "Indesit|F12": {
+  "title": "Fel i den elektroniska styrningen",
+  "causes": [
+   "Den elektroniska styrningen är trasig. Torktumlaren kanske inte går att slå på."
+  ],
+  "steps": [
+   "Kontrollera kontakten och uttaget.",
+   "Dra ur torktumlarens kontakt i några minuter och försök igen."
+  ],
+  "technician": "Kontakta Indesits service och boka en tekniker."
+ },
+ "Indesit|F18": {
+  "title": "Internt datafel",
+  "causes": [
+   "Skadade interna data. Vissa delar av displayen eller vissa funktioner fungerar inte."
+  ],
+  "steps": [
+   "Dra ur torktumlarens kontakt i minst 2 minuter.",
+   "Sätt i kontakten igen, vänta 30 sekunder och försök igen."
+  ],
+  "technician": "Om F18 finns kvar efter återställningen, kontakta Indesits service."
+ },
+ "Whirlpool|AF": {
+  "title": "Begränsat luftflöde",
+  "causes": [
+   "Luddsilen är igensatt.",
+   "Ventilationen är igensatt, klämd, vikt eller har för många böjar."
+  ],
+  "steps": [
+   "Rengör luddsilen.",
+   "Kontrollera att ventilationen inte är igensatt, klämd eller vikt.",
+   "Tryck på valfri knapp för att ta bort koden."
+  ],
+  "technician": "Om koden fortsätter att komma tillbaka fast ventilationen är ren, boka service hos Whirlpool."
+ },
+ "Whirlpool|L2": {
+  "title": "Låg eller ingen nätspänning",
+  "causes": [
+   "En säkring i bostaden har gått eller löst ut.",
+   "Elsladden är inte korrekt installerad."
+  ],
+  "steps": [
+   "Kontrollera dina säkringar (eltorktumlare använder två) och återställ dem.",
+   "Kontrollera att elsladden är installerad enligt installationsanvisningen.",
+   "Kör ett tidsprogram med värme och starta om."
+  ],
+  "technician": "Om L2 finns kvar, låt en behörig elektriker kontrollera elnätet."
+ },
+ "Whirlpool|PF": {
+  "title": "Strömavbrott",
+  "causes": [
+   "Strömmen bröts under programmet."
+  ],
+  "steps": [
+   "Håll in Start för att fortsätta programmet.",
+   "Eller tryck på Power för att rensa displayen."
+  ],
+  "technician": "Inget fel. Kontakta Whirlpool bara om PF visas utan att strömmen verkligen har gått."
+ },
+ "Whirlpool|F1E3": {
+  "title": "Problem med styrenheten eller ledningarna",
+  "causes": [
+   "Ett fel i styrenheten eller dess ledningar."
+  ],
+  "steps": [
+   "Tryck på Power, välj ett program och håll in Start.",
+   "Om den inte startar, dra ur torktumlarens kontakt."
+  ],
+  "technician": "Om problemet fortsätter, boka service hos Whirlpool."
+ },
+ "Whirlpool|Loc": {
+  "title": "Knapplåset är på",
+  "causes": [
+   "Knapplåset har slagits på."
+  ],
+  "steps": [
+   "Håll in Control Lock i 3 sekunder tills displayen räknar ned och släcks."
+  ],
+  "technician": "Detta är inget fel. Kontakta Whirlpool bara om låset inte går att stänga av."
+ },
+ "Whirlpool|LF": {
+  "title": "Luddfiltret är borttaget",
+  "causes": [
+   "HybridCare-filtret sitter inte i torktumlaren."
+  ],
+  "steps": [
+   "Sätt tillbaka filtret.",
+   "Se till att filtrets handtag sitter helt på plats."
+  ],
+  "technician": "Om LF finns kvar fast filtret sitter på plats, kontakta Whirlpools service."
+ }
+}

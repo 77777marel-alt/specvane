@@ -1,0 +1,1180 @@
+{
+ "LG|CH00": {
+  "title": "Unitatea trebuie verificată (eroare generală)",
+  "causes": [
+   "O fluctuație temporară de tensiune sau o perturbare electrică.",
+   "O defecțiune internă care trebuie verificată."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă CH00 revine după resetarea alimentării, solicitați un tehnician LG."
+ },
+ "LG|CH01": {
+  "title": "Defecțiune la senzorul de temperatură",
+  "causes": [
+   "Un senzor de temperatură sau de conductă este defect ori s-a desprins.",
+   "O eroare a plăcii principale sau o scurtă perturbare electrică."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou.",
+   "Verificați dacă codul a dispărut."
+  ],
+  "technician": "Dacă codul revine după resetare, nu mai folosiți unitatea și programați service LG. Nu deschideți unitatea."
+ },
+ "LG|CH02": {
+  "title": "Defecțiune la senzorul de temperatură",
+  "causes": [
+   "Un senzor de temperatură sau de conductă este defect ori s-a desprins.",
+   "O eroare a plăcii principale sau o scurtă perturbare electrică."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou.",
+   "Verificați dacă codul a dispărut."
+  ],
+  "technician": "Dacă codul revine după resetare, nu mai folosiți unitatea și programați service LG. Nu deschideți unitatea."
+ },
+ "LG|CH06": {
+  "title": "Defecțiune la senzorul de temperatură",
+  "causes": [
+   "Un senzor de temperatură sau de conductă este defect ori s-a desprins.",
+   "O eroare a plăcii principale sau o scurtă perturbare electrică."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou.",
+   "Verificați dacă codul a dispărut."
+  ],
+  "technician": "Dacă codul revine după resetare, nu mai folosiți unitatea și programați service LG. Nu deschideți unitatea."
+ },
+ "LG|CH21": {
+  "title": "Defecțiune la compresorul exterior sau la circuitul de comandă",
+  "causes": [
+   "O problemă scurtă de alimentare.",
+   "O defecțiune la compresor, la circuitul său de comandă sau la circuitul de protecție din unitatea exterioară."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul persistă, nu mai folosiți unitatea și solicitați un tehnician LG."
+ },
+ "LG|CH26": {
+  "title": "Defecțiune la compresorul exterior sau la circuitul de comandă",
+  "causes": [
+   "O problemă scurtă de alimentare.",
+   "O defecțiune la compresor, la circuitul său de comandă sau la circuitul de protecție din unitatea exterioară."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul persistă, nu mai folosiți unitatea și solicitați un tehnician LG."
+ },
+ "LG|CH04": {
+  "title": "Problemă la evacuare sau rezervor de condens plin",
+  "causes": [
+   "Evacuarea din unitatea interioară nu funcționează (unități de tavan).",
+   "La unitățile de fereastră și portabile, rezervorul de condens este plin, adesea în zilele umede."
+  ],
+  "steps": [
+   "Opriți unitatea și scoateți-o din priză.",
+   "La unitățile de fereastră sau portabile, puneți un vas de aproximativ 1,5 l sub orificiul de evacuare din partea de jos, din spate, și scoateți dopul.",
+   "Lăsați apa să se scurgă, apoi puneți dopul la loc, bine fixat.",
+   "Puteți monta un furtun de evacuare pentru scurgere continuă; asigurați-vă că apa nu picură pe cineva dedesubt."
+  ],
+  "technician": "Dacă CH04/FL apare des chiar și pe vreme uscată sau la o unitate de tavan după resetare, programați service LG."
+ },
+ "LG|CH05": {
+  "title": "Eroare de comunicare între unitatea interioară și cea exterioară",
+  "causes": [
+   "Unitatea interioară și cea exterioară nu pot comunica.",
+   "Problemă de cablaj după o instalare nouă sau o mutare."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul rămâne după resetare sau unitatea tocmai a fost instalată ori mutată, solicitați service."
+ },
+ "LG|CH07": {
+  "title": "Conflict între modurile de funcționare",
+  "causes": [
+   "Două unități interioare din același sistem sunt setate pe moduri opuse (încălzire vs răcire/dezumidificare)."
+  ],
+  "steps": [
+   "Setați toate unitățile interioare pe încălzire sau toate pe răcire/dezumidificare.",
+   "Modurile de ventilare și purificare a aerului pot funcționa cu orice mod."
+  ],
+  "technician": "Dacă codul rămâne cu toate unitățile pe același mod, contactați asistența LG."
+ },
+ "LG|CH10": {
+  "title": "Problemă la ventilatorul interior",
+  "causes": [
+   "Resturi sau gheață blochează ventilatorul interior.",
+   "Defecțiune la motorul ventilatorului."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Îndepărtați resturile vizibile de la intrarea și ieșirea aerului. Nu deschideți carcasa.",
+   "Verificați filtrele de aer ale unității interioare și curățați-le dacă sunt prăfuite.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă nimic nu blochează ventilatorul și codul revine, solicitați service."
+ },
+ "LG|CH67": {
+  "title": "Problemă la ventilatorul exterior",
+  "causes": [
+   "Resturi sau zăpadă blochează ventilatorul exterior.",
+   "Defecțiune la motorul ventilatorului exterior."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Îndepărtați frunzele, zăpada sau obiectele din jurul grilei unității exterioare.",
+   "Asigurați-vă că nimic nu blochează circulația aerului în jurul unității exterioare (cutii, plante, zăpadă, frunze).",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă nimic nu îl blochează și codul revine, solicitați service."
+ },
+ "LG|CH38": {
+  "title": "Agent frigorific insuficient",
+  "causes": [
+   "Cantitatea de agent frigorific este scăzută, adesea după instalare sau mutare.",
+   "O conexiune de conductă slăbită sau o scurgere."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă unitatea a fost instalată sau mutată recent, sunați instalatorul; altfel, contactați asistența LG dacă codul revine. Lucrările cu agent frigorific sunt doar pentru tehnicieni."
+ },
+ "LG|CH54": {
+  "title": "Eroare de inversare a fazelor sau de alimentare",
+  "causes": [
+   "O pană de curent scurtă sau lucrări electrice recente.",
+   "Cablajul fazelor este inversat."
+  ],
+  "steps": [
+   "Opriți și porniți din nou siguranța aparatului de aer condiționat."
+  ],
+  "technician": "Dacă codul a apărut după lucrări electrice, cereți electricianului respectiv să corecteze cablajul; altfel, solicitați service LG."
+ },
+ "LG|CH61": {
+  "title": "Unitatea se supraîncălzește",
+  "causes": [
+   "La răcire: unitatea exterioară este slab ventilată, de exemplu pe un balcon închis.",
+   "La încălzire: filtrul interior este înfundat."
+  ],
+  "steps": [
+   "La răcire, deschideți ferestrele sau plasele din apropierea unității exterioare și eliberați spațiul din jurul ei.",
+   "Verificați filtrele de aer ale unității interioare și curățați-le dacă sunt prăfuite.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul persistă după resetare și îmbunătățirea circulației aerului, un tehnician trebuie să verifice unitatea."
+ },
+ "LG|CH66": {
+  "title": "Problemă de cablaj sau de conducte între unitatea interioară și cea exterioară",
+  "causes": [
+   "O problemă la linia de comunicare sau la conexiunea conductelor dintre unități."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă unitatea tocmai a fost instalată sau mutată, sunați instalatorul; dacă codul persistă, solicitați un tehnician."
+ },
+ "LG|CH90": {
+  "title": "Protecție în timpul testului de funcționare",
+  "causes": [
+   "Testul de funcționare a detectat o problemă, adesea la conexiunile conductelor."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă unitatea este nouă sau a fost mutată, cereți instalatorului să verifice conductele; altfel, solicitați service dacă persistă."
+ },
+ "LG|CH93": {
+  "title": "Comunicare instabilă între unitatea interioară și cea exterioară",
+  "causes": [
+   "Comunicare instabilă în timpul testului de funcționare.",
+   "La modelele mai noi, unitatea exterioară nu are alimentare."
+  ],
+  "steps": [
+   "Verificați dacă ambele cabluri de alimentare sunt conectate (modelele mai noi au câte unul pentru fiecare unitate).",
+   "Conectați unitatea exterioară direct la o priză de perete, nu la un prelungitor multiplu.",
+   "Asigurați-vă că siguranța aparatului de aer condiționat este pornită. Dacă nu rămâne pornită, nu o mai rearmați în continuu.",
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă siguranța se declanșează mereu sau codul persistă, solicitați service LG."
+ },
+ "Samsung|E121": {
+  "title": "Defecțiune la senzorul de temperatură a camerei",
+  "causes": [
+   "Senzorul de temperatură a camerei din unitatea interioară este defect."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou.",
+   "Notați codul și numărul modelului înainte de a suna la service."
+  ],
+  "technician": "Este necesară o reparație autorizată Samsung; contactați service-ul Samsung."
+ },
+ "Samsung|E122": {
+  "title": "Defecțiune la senzorul de temperatură al schimbătorului de căldură",
+  "causes": [
+   "Senzorul schimbătorului de căldură interior este defect."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou.",
+   "Notați codul și numărul modelului înainte de a suna la service."
+  ],
+  "technician": "Este necesară o reparație autorizată Samsung; contactați service-ul Samsung."
+ },
+ "Samsung|E154": {
+  "title": "Ventilatorul interior nu se rotește",
+  "causes": [
+   "Motorul ventilatorului interior este în modul de protecție, de exemplu după un supravoltaj.",
+   "Motorul ventilatorului sau placa de comandă este defectă."
+  ],
+  "steps": [
+   "Opriți unitatea, așteptați câteva secunde și porniți-o din nou.",
+   "Urmăriți dacă codul revine în aproximativ 10 secunde.",
+   "În zonele cu supravoltaje frecvente, luați în considerare un stabilizator de tensiune."
+  ],
+  "technician": "Dacă codul revine imediat după repornire, contactați service-ul Samsung."
+ },
+ "Samsung|E163": {
+  "title": "Eroare de memorie a plăcii de comandă (EEPROM)",
+  "causes": [
+   "Datele din memoria plăcii principale sunt greșite sau lipsesc."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou.",
+   "Notați codul și numărul modelului înainte de a suna la service."
+  ],
+  "technician": "Este necesară o reparație autorizată Samsung; contactați service-ul Samsung."
+ },
+ "Samsung|CF": {
+  "title": "Memento pentru curățarea filtrului",
+  "causes": [
+   "Temporizatorul pentru curățarea filtrului a expirat."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Scoateți și curățați filtrele unității interioare.",
+   "Montați la loc filtrele și resetați indicatorul de filtru."
+  ],
+  "technician": "Nu este nevoie de tehnician pentru acest memento."
+ },
+ "Samsung|dF": {
+  "title": "Dezghețare în modul de încălzire",
+  "causes": [
+   "Unitatea exterioară topește gheața în timpul încălzirii. Aburul care iese din unitatea exterioară este normal."
+  ],
+  "steps": [
+   "Așteptați; încălzirea se reia după terminarea dezghețării.",
+   "Nu este necesară nicio acțiune."
+  ],
+  "technician": "Sunați la service doar dacă unitatea rămâne foarte mult timp în dezghețare și nu încălzește."
+ },
+ "Daikin|A1": {
+  "title": "Defecțiune la placa electronică a unității interioare",
+  "causes": [
+   "Placa de comandă interioară are o defecțiune."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|A3": {
+  "title": "Problemă la controlul nivelului de condens",
+  "causes": [
+   "Apa de condens nu se evacuează din unitatea interioară.",
+   "Țeava de evacuare poate fi înfundată."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Verificați dacă furtunul de evacuare de afară este îndoit sau înfundat.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|A5": {
+  "title": "Protecție la îngheț sau la presiune ridicată",
+  "causes": [
+   "La răcire, bateria interioară se răcește prea mult.",
+   "La încălzire, presiunea este prea mare, adesea din cauza unei circulații slabe a aerului."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Verificați filtrele de aer ale unității interioare și curățați-le dacă sunt prăfuite.",
+   "Verificați să nu blocheze nimic intrarea sau ieșirea aerului unității interioare.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|A6": {
+  "title": "Defecțiune la motorul ventilatorului interior",
+  "causes": [
+   "Motorul ventilatorului interior sau comanda acestuia s-a defectat ori este blocat."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Verificați să nu fie nimic prins în ieșirea aerului unității interioare. Nu deschideți carcasa.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|C4": {
+  "title": "Defecțiune la senzorul de temperatură al bateriei interioare",
+  "causes": [
+   "Termistorul de pe conducta de lichid a schimbătorului de căldură interior este defect."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|C9": {
+  "title": "Defecțiune la senzorul camerei (aerul aspirat)",
+  "causes": [
+   "Termistorul de aer interior este defect."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|E1": {
+  "title": "Defecțiune la placa electronică a unității exterioare",
+  "causes": [
+   "Placa de comandă exterioară are o defecțiune."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|E3": {
+  "title": "Presostatul de presiune înaltă s-a declanșat",
+  "causes": [
+   "Presiunea din sistem este prea mare, adesea din cauza circulației slabe a aerului în exterior sau a unei baterii murdare."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Asigurați-vă că nimic nu blochează circulația aerului în jurul unității exterioare (cutii, plante, zăpadă, frunze).",
+   "Verificați filtrele de aer ale unității interioare și curățați-le dacă sunt prăfuite.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|E5": {
+  "title": "Compresorul este supraîncălzit sau blocat",
+  "causes": [
+   "Compresorul inverter s-a supraîncălzit sau nu pornește."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Asigurați-vă că nimic nu blochează circulația aerului în jurul unității exterioare (cutii, plante, zăpadă, frunze).",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|E6": {
+  "title": "Supracurent la compresor sau compresor blocat",
+  "causes": [
+   "Compresorul consumă prea mult curent sau este blocat."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|E7": {
+  "title": "Defecțiune la motorul ventilatorului exterior",
+  "causes": [
+   "Sistemul motorului ventilatorului exterior are o defecțiune sau este blocat."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Îndepărtați frunzele, zăpada sau obiectele de pe grila unității exterioare.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|E8": {
+  "title": "Supracurent la compresor",
+  "causes": [
+   "Curentul de intrare al compresorului inverter este prea mare."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|F3": {
+  "title": "Temperatura conductei de refulare este prea mare",
+  "causes": [
+   "Conducta de refulare a compresorului se supraîncălzește, de exemplu din cauza lipsei de agent frigorific sau a circulației slabe a aerului."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Asigurați-vă că nimic nu blochează circulația aerului în jurul unității exterioare (cutii, plante, zăpadă, frunze).",
+   "Verificați filtrele de aer ale unității interioare și curățați-le dacă sunt prăfuite.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|F6": {
+  "title": "Presiune înaltă anormală",
+  "causes": [
+   "Presiunea agentului frigorific este prea mare, posibil din cauza încărcării excesive sau a blocării circulației aerului."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Asigurați-vă că nimic nu blochează circulația aerului în jurul unității exterioare (cutii, plante, zăpadă, frunze).",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|H6": {
+  "title": "Defecțiune la senzorul de poziție al compresorului",
+  "causes": [
+   "Detectarea poziției rotorului compresorului a eșuat."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|H8": {
+  "title": "Defecțiune la senzorul de curent al compresorului",
+  "causes": [
+   "Circuitul de curent de intrare (CT) al compresorului are o defecțiune."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|H9": {
+  "title": "Defecțiune la senzorul de aer exterior",
+  "causes": [
+   "Termistorul de aer exterior este defect."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|J3": {
+  "title": "Defecțiune la senzorul conductei de refulare",
+  "causes": [
+   "Termistorul conductei de refulare este defect."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|L4": {
+  "title": "Radiatorul invertorului se supraîncălzește",
+  "causes": [
+   "Radiatorul de răcire al invertorului este prea fierbinte, adesea din cauza blocării circulației aerului în exterior."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Asigurați-vă că nimic nu blochează circulația aerului în jurul unității exterioare (cutii, plante, zăpadă, frunze).",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|L5": {
+  "title": "Supracurent la invertor",
+  "causes": [
+   "Un supracurent brusc la ieșirea invertorului, adesea din cauza unei probleme la compresor."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|U0": {
+  "title": "Lipsă de agent frigorific",
+  "causes": [
+   "Sistemul are prea puțin agent frigorific, de obicei din cauza unei scurgeri."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Verificați filtrele de aer ale unității interioare și curățați-le dacă sunt prăfuite.",
+   "Nu încercați să adăugați singur agent frigorific."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|U2": {
+  "title": "Problemă de alimentare electrică",
+  "causes": [
+   "Tensiunea de alimentare este anormală sau a fost o pană de curent scurtă."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Daikin|U4": {
+  "title": "Defecțiune de comunicare între unitatea interioară și cea exterioară",
+  "causes": [
+   "Semnalele dintre unitatea interioară și cea exterioară se pierd.",
+   "O problemă de cablaj sau o defecțiune la una dintre plăci."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă codul revine după aceste verificări, sunați un tehnician de service Daikin; această defecțiune necesită un diagnostic profesional."
+ },
+ "Panasonic|H00": {
+  "title": "Nicio defecțiune memorată",
+  "causes": [
+   "Memoria de autodiagnosticare nu are nicio anomalie înregistrată."
+  ],
+  "steps": [
+   "Nu este necesară nicio acțiune.",
+   "Dacă unitatea nu funcționează, verificați alimentarea și bateriile telecomenzii."
+  ],
+  "technician": "Dacă unitatea nu funcționează, dar afișează H00, contactați un tehnician de service Panasonic."
+ },
+ "Panasonic|H11": {
+  "title": "Defecțiune de comunicare între unitatea interioară și cea exterioară",
+  "causes": [
+   "Unitatea interioară și cea exterioară nu pot comunica."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Panasonic recomandă ca reparațiile pentru acest cod să fie făcute de un tehnician de service calificat; sunați unul dacă codul revine."
+ },
+ "Panasonic|H12": {
+  "title": "Nepotrivire de capacitate a unității interioare",
+  "causes": [
+   "Unitatea interioară nu corespunde capacității unității exterioare, de obicei o problemă de instalare."
+  ],
+  "steps": [
+   "Notați codul și numărul modelului înainte de a suna la service."
+  ],
+  "technician": "Contactați instalatorul sau un tehnician Panasonic pentru verificarea combinației de unități."
+ },
+ "Panasonic|H14": {
+  "title": "Defecțiune la senzorul de temperatură a aerului interior",
+  "causes": [
+   "Senzorul de aer aspirat din interior este defect."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Panasonic recomandă ca reparațiile pentru acest cod să fie făcute de un tehnician de service calificat; sunați unul dacă codul revine."
+ },
+ "Panasonic|H15": {
+  "title": "Defecțiune la senzorul de temperatură al compresorului",
+  "causes": [
+   "Senzorul de temperatură al compresorului este defect."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Panasonic recomandă ca reparațiile pentru acest cod să fie făcute de un tehnician de service calificat; sunați unul dacă codul revine."
+ },
+ "Panasonic|H16": {
+  "title": "Defecțiune la senzorul de curent exterior",
+  "causes": [
+   "Transformatorul de curent (CT) exterior este defect."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Panasonic recomandă ca reparațiile pentru acest cod să fie făcute de un tehnician de service calificat; sunați unul dacă codul revine."
+ },
+ "Panasonic|H19": {
+  "title": "Motorul ventilatorului interior este blocat",
+  "causes": [
+   "Motorul ventilatorului interior este blocat sau defect."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Verificați să nu fie nimic prins în ieșirea aerului unității interioare. Nu deschideți carcasa.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Panasonic recomandă ca reparațiile pentru acest cod să fie făcute de un tehnician de service calificat; sunați unul dacă codul revine."
+ },
+ "Panasonic|H23": {
+  "title": "Defecțiune la senzorul schimbătorului de căldură interior",
+  "causes": [
+   "Senzorul de temperatură al bateriei interioare este defect."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Panasonic recomandă ca reparațiile pentru acest cod să fie făcute de un tehnician de service calificat; sunați unul dacă codul revine."
+ },
+ "Panasonic|H27": {
+  "title": "Defecțiune la senzorul de aer exterior",
+  "causes": [
+   "Senzorul de temperatură a aerului exterior este defect."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Panasonic recomandă ca reparațiile pentru acest cod să fie făcute de un tehnician de service calificat; sunați unul dacă codul revine."
+ },
+ "Panasonic|H28": {
+  "title": "Defecțiune la senzorul schimbătorului de căldură exterior",
+  "causes": [
+   "Senzorul de temperatură al bateriei exterioare este defect."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Panasonic recomandă ca reparațiile pentru acest cod să fie făcute de un tehnician de service calificat; sunați unul dacă codul revine."
+ },
+ "Panasonic|H33": {
+  "title": "Unitățile interioară și exterioară sunt conectate greșit",
+  "causes": [
+   "Conexiunea dintre unități este incorectă, de obicei după instalare."
+  ],
+  "steps": [
+   "Notați codul și numărul modelului înainte de a suna la service."
+  ],
+  "technician": "Cereți instalatorului sau unui tehnician Panasonic să verifice cablajul."
+ },
+ "Panasonic|H97": {
+  "title": "Motorul ventilatorului exterior este blocat",
+  "causes": [
+   "Ventilatorul exterior este blocat sau motorul său s-a defectat."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Îndepărtați frunzele, zăpada sau obiectele din jurul grilei ventilatorului exterior.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Panasonic recomandă ca reparațiile pentru acest cod să fie făcute de un tehnician de service calificat; sunați unul dacă codul revine."
+ },
+ "Panasonic|H98": {
+  "title": "Protecție la presiune ridicată în unitatea interioară",
+  "causes": [
+   "Presiunea este prea mare la încălzire, adesea din cauza unui filtru murdar."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Verificați filtrele de aer ale unității interioare și curățați-le dacă sunt prăfuite.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Panasonic recomandă ca reparațiile pentru acest cod să fie făcute de un tehnician de service calificat; sunați unul dacă codul revine."
+ },
+ "Panasonic|H99": {
+  "title": "Protecție la îngheț în unitatea interioară",
+  "causes": [
+   "Bateria interioară s-a răcit prea mult la răcire, adesea din cauza unui filtru murdar sau a unui flux de aer slab."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Verificați filtrele de aer ale unității interioare și curățați-le dacă sunt prăfuite.",
+   "Lăsați gheața de pe bateria interioară să se topească înainte de a reporni.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Panasonic recomandă ca reparațiile pentru acest cod să fie făcute de un tehnician de service calificat; sunați unul dacă codul revine."
+ },
+ "Panasonic|F11": {
+  "title": "Defecțiune la comutarea vanei cu 4 căi",
+  "causes": [
+   "Vana care comută între răcire și încălzire nu funcționează."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Panasonic recomandă ca reparațiile pentru acest cod să fie făcute de un tehnician de service calificat; sunați unul dacă codul revine."
+ },
+ "Panasonic|F91": {
+  "title": "Defecțiune a ciclului frigorific",
+  "causes": [
+   "Circuitul frigorific nu funcționează corect, adesea din cauza lipsei de agent frigorific."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Verificați filtrele de aer ale unității interioare și curățați-le dacă sunt prăfuite.",
+   "Nu încercați singur nicio intervenție la agentul frigorific."
+  ],
+  "technician": "Panasonic recomandă ca reparațiile pentru acest cod să fie făcute de un tehnician de service calificat; sunați unul dacă codul revine."
+ },
+ "Panasonic|F93": {
+  "title": "Turația compresorului este anormală",
+  "causes": [
+   "Compresorul funcționează la o turație anormală."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Panasonic recomandă ca reparațiile pentru acest cod să fie făcute de un tehnician de service calificat; sunați unul dacă codul revine."
+ },
+ "Panasonic|F95": {
+  "title": "Protecție la presiune ridicată în unitatea exterioară la răcire",
+  "causes": [
+   "Presiunea este prea mare, adesea din cauza circulației slabe a aerului în exterior."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Asigurați-vă că nimic nu blochează circulația aerului în jurul unității exterioare (cutii, plante, zăpadă, frunze).",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Panasonic recomandă ca reparațiile pentru acest cod să fie făcute de un tehnician de service calificat; sunați unul dacă codul revine."
+ },
+ "Panasonic|F97": {
+  "title": "Protecție la supraîncălzirea compresorului",
+  "causes": [
+   "Compresorul se supraîncălzește."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Asigurați-vă că nimic nu blochează circulația aerului în jurul unității exterioare (cutii, plante, zăpadă, frunze).",
+   "Verificați filtrele de aer ale unității interioare și curățați-le dacă sunt prăfuite.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Panasonic recomandă ca reparațiile pentru acest cod să fie făcute de un tehnician de service calificat; sunați unul dacă codul revine."
+ },
+ "Panasonic|F99": {
+  "title": "Vârf de curent continuu detectat în unitatea exterioară",
+  "causes": [
+   "A fost detectat un vârf anormal de curent în unitatea exterioară."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Panasonic recomandă ca reparațiile pentru acest cod să fie făcute de un tehnician de service calificat; sunați unul dacă codul revine."
+ },
+ "Gree|E1": {
+  "title": "Protecție la presiune ridicată",
+  "causes": [
+   "Baterii sau filtre murdare.",
+   "O restricție în sistem sau prea mult agent frigorific."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Verificați filtrele de aer ale unității interioare și curățați-le dacă sunt prăfuite.",
+   "Asigurați-vă că nimic nu blochează circulația aerului în jurul unității exterioare (cutii, plante, zăpadă, frunze).",
+   "Verificați dacă ambele ventilatoare funcționează când unitatea este pornită.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă filtrele și bateriile sunt curate, sunați un tehnician de climatizare pentru a verifica presiunile și presostatul de presiune înaltă."
+ },
+ "Gree|E3": {
+  "title": "Protecție la presiune scăzută",
+  "causes": [
+   "Filtre sau baterii murdare.",
+   "O scurgere de agent frigorific."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Verificați filtrele de aer ale unității interioare și curățați-le dacă sunt prăfuite.",
+   "Asigurați-vă că nimic nu blochează circulația aerului în jurul unității exterioare (cutii, plante, zăpadă, frunze)."
+  ],
+  "technician": "Dacă filtrele și bateriile sunt curate, un tehnician trebuie să verifice încărcarea cu agent frigorific și să caute scurgeri."
+ },
+ "Gree|E5": {
+  "title": "Protecție la supracurent",
+  "causes": [
+   "Tensiunea de alimentare este prea mare sau prea mică și instabilă."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Un tehnician ar trebui să verifice și să stabilizeze alimentarea electrică."
+ },
+ "Gree|E7": {
+  "title": "Conflict de moduri",
+  "causes": [
+   "Unitățile interioare conectate la aceeași unitate exterioară sunt setate pe moduri diferite."
+  ],
+  "steps": [
+   "Setați toate unitățile interioare pe același mod (toate pe răcire sau toate pe încălzire)."
+  ],
+  "technician": "Dacă codul rămâne cu toate unitățile pe același mod, contactați un tehnician de service Gree."
+ },
+ "Gree|F1": {
+  "title": "Defecțiune la senzorul de cameră din interior",
+  "causes": [
+   "Senzorul de temperatură ambiantă din interior este defect."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Defecțiunile senzorilor necesită de obicei o piesă de schimb montată de un tehnician calificat."
+ },
+ "Gree|F2": {
+  "title": "Defecțiune la senzorul bateriei interioare",
+  "causes": [
+   "Senzorul vaporizatorului interior este defect."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Defecțiunile senzorilor necesită de obicei o piesă de schimb montată de un tehnician calificat."
+ },
+ "Gree|F3": {
+  "title": "Defecțiune la senzorul de aer exterior",
+  "causes": [
+   "Senzorul de temperatură ambiantă din exterior este defect."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Defecțiunile senzorilor necesită de obicei o piesă de schimb montată de un tehnician calificat."
+ },
+ "Gree|F4": {
+  "title": "Defecțiune la senzorul bateriei exterioare",
+  "causes": [
+   "Senzorul de conductă exterior este defect."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Defecțiunile senzorilor necesită de obicei o piesă de schimb montată de un tehnician calificat."
+ },
+ "Gree|F5": {
+  "title": "Defecțiune la senzorul de refulare",
+  "causes": [
+   "Senzorul de refulare al compresorului este defect."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Defecțiunile senzorilor necesită de obicei o piesă de schimb montată de un tehnician calificat."
+ },
+ "Gree|H1": {
+  "title": "Dezghețare",
+  "causes": [
+   "Unitatea exterioară se dezgheață în timpul încălzirii. Aceasta este o stare normală."
+  ],
+  "steps": [
+   "Așteptați terminarea dezghețării; încălzirea se reia singură."
+  ],
+  "technician": "Sunați un tehnician doar dacă unitatea se dezgheață în permanență și nu încălzește."
+ },
+ "Gree|H5": {
+  "title": "Protecția modulului de putere (IPM)",
+  "causes": [
+   "Modulul de putere al invertorului s-a oprit din cauza unor probleme de tensiune sau temperatură."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă H5 revine, unitatea are nevoie de service profesional."
+ },
+ "Gree|U3": {
+  "title": "Cădere de tensiune pe magistrala de curent continuu",
+  "causes": [
+   "Tensiunea internă de curent continuu a scăzut, adesea din cauza unor probleme de alimentare."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă U3 revine, cereți unui profesionist să evalueze unitatea și alimentarea."
+ },
+ "Gree|L9": {
+  "title": "Protecție la alimentare",
+  "causes": [
+   "Un supravoltaj mare a declanșat modul de protecție."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Dacă L9 revine, cereți unui profesionist să evalueze unitatea și alimentarea."
+ },
+ "Haier|E1": {
+  "title": "Defecțiune la senzorul de temperatură interior (unitate split)",
+  "causes": [
+   "Senzorul de temperatură a camerei din unitatea interioară este defect."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Haier precizează că acest cod poate fi remediat doar de un tehnician de service post-vânzare; sunați la service-ul Haier."
+ },
+ "Haier|E2": {
+  "title": "Defecțiune la senzorul de temperatură al conductei interioare (unitate split)",
+  "causes": [
+   "Senzorul de pe conducta bateriei interioare este defect."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Haier precizează că acest cod poate fi remediat doar de un tehnician de service post-vânzare; sunați la service-ul Haier."
+ },
+ "Haier|E4": {
+  "title": "Defecțiune la memoria (EEPROM) unității interioare (unitate split)",
+  "causes": [
+   "Memoria plăcii de comandă interioare are o defecțiune."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Haier precizează că acest cod poate fi remediat doar de un tehnician de service post-vânzare; sunați la service-ul Haier."
+ },
+ "Haier|E5": {
+  "title": "Protecție anti-îngheț în unitatea interioară",
+  "causes": [
+   "Bateria interioară se răcește prea mult, adesea din cauza unui flux de aer slab."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Verificați filtrele de aer ale unității interioare și curățați-le dacă sunt prăfuite.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Haier precizează că acest cod poate fi remediat doar de un tehnician de service post-vânzare; sunați la service-ul Haier."
+ },
+ "Haier|E7": {
+  "title": "Defecțiune de comunicare între unitatea interioară și cea exterioară",
+  "causes": [
+   "Unitatea interioară și cea exterioară nu pot comunica."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Haier precizează că acest cod poate fi remediat doar de un tehnician de service post-vânzare; sunați la service-ul Haier."
+ },
+ "Haier|E9": {
+  "title": "Suprasarcină a unității interioare la încălzire",
+  "causes": [
+   "Unitatea interioară se supraîncălzește în modul de încălzire, adesea din cauza unui filtru înfundat."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Verificați filtrele de aer ale unității interioare și curățați-le dacă sunt prăfuite.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Haier precizează că acest cod poate fi remediat doar de un tehnician de service post-vânzare; sunați la service-ul Haier."
+ },
+ "Haier|E14": {
+  "title": "Defecțiune la motorul ventilatorului interior",
+  "causes": [
+   "Motorul ventilatorului interior este defect sau blocat."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Haier precizează că acest cod poate fi remediat doar de un tehnician de service post-vânzare; sunați la service-ul Haier."
+ },
+ "Haier|F1": {
+  "title": "Protecția modulului de putere (IPM)",
+  "causes": [
+   "Modulul invertor exterior a intrat în protecție."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Haier precizează că acest cod poate fi remediat doar de un tehnician de service post-vânzare; sunați la service-ul Haier."
+ },
+ "Haier|F8": {
+  "title": "Defecțiune la motorul de curent continuu al ventilatorului exterior",
+  "causes": [
+   "Motorul ventilatorului exterior este defect sau blocat."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Asigurați-vă că nimic nu blochează circulația aerului în jurul unității exterioare (cutii, plante, zăpadă, frunze).",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Haier precizează că acest cod poate fi remediat doar de un tehnician de service post-vânzare; sunați la service-ul Haier."
+ },
+ "Haier|F12": {
+  "title": "Defecțiune la memoria (EEPROM) unității exterioare",
+  "causes": [
+   "Memoria plăcii exterioare are o defecțiune."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Haier precizează că acest cod poate fi remediat doar de un tehnician de service post-vânzare; sunați la service-ul Haier."
+ },
+ "Haier|F13": {
+  "title": "Lipsă de agent frigorific",
+  "causes": [
+   "Sistemul are prea puțin agent frigorific, de obicei din cauza unei scurgeri."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Nu încercați să adăugați singur agent frigorific.",
+   "Notați codul și numărul modelului înainte de a suna la service."
+  ],
+  "technician": "Haier precizează că acest cod poate fi remediat doar de un tehnician de service post-vânzare; sunați la service-ul Haier."
+ },
+ "Haier|F19": {
+  "title": "Tensiunea de alimentare este prea mare sau prea mică",
+  "causes": [
+   "Tensiunea de rețea este în afara intervalului permis."
+  ],
+  "steps": [
+   "Opriți unitatea din telecomandă.",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Haier precizează că acest cod poate fi remediat doar de un tehnician de service post-vânzare; sunați la service-ul Haier."
+ },
+ "Haier|F20": {
+  "title": "Protecție la presiune ridicată",
+  "causes": [
+   "Presiunea din sistem este prea mare, adesea din cauza blocării circulației aerului în exterior."
+  ],
+  "steps": [
+   "Opriți unitatea.",
+   "Asigurați-vă că nimic nu blochează circulația aerului în jurul unității exterioare (cutii, plante, zăpadă, frunze).",
+   "Opriți siguranța aparatului de aer condiționat sau scoateți-l din priză.",
+   "Așteptați aproximativ 5 minute, apoi restabiliți alimentarea și porniți din nou."
+  ],
+  "technician": "Haier precizează că acest cod poate fi remediat doar de un tehnician de service post-vânzare; sunați la service-ul Haier."
+ },
+ "Haier|FL": {
+  "title": "Rezervorul de apă este plin (aer condiționat portabil)",
+  "causes": [
+   "Rezervorul intern de apă este plin."
+  ],
+  "steps": [
+   "Opriți unitatea și scoateți-o din priză.",
+   "Scurgeți apa prin orificiul de evacuare într-un vas.",
+   "Puneți la loc dopul de evacuare și reporniți unitatea."
+  ],
+  "technician": "Dacă FL apare din nou imediat după golire, contactați service-ul Haier."
+ },
+ "Haier|STOP": {
+  "title": "Rezervor plin sau plutitor blocat (aer condiționat portabil, modele din 2016 și mai vechi)",
+  "causes": [
+   "Rezervorul de apă este plin.",
+   "Plutitorul rezervorului este blocat de resturi."
+  ],
+  "steps": [
+   "Opriți unitatea și scoateți-o din priză.",
+   "Goliți rezervorul de apă.",
+   "Verificați dacă plutitorul se mișcă liber și îndepărtați eventualele resturi."
+  ],
+  "technician": "Dacă STOP rămâne cu rezervorul gol și plutitorul liber, contactați service-ul Haier."
+ }
+}

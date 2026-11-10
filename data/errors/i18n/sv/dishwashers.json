@@ -1,0 +1,1034 @@
+{
+ "Bosch|E09": {
+  "title": "Fel på uppvärmningen",
+  "causes": [
+   "Ett fel i värmedelen av cirkulationspumpen (värmepumpen)."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen med säkringen eller jordfelsbrytaren i 30 sekunder.",
+   "Slå på igen och starta ett program."
+  ],
+  "technician": "Om koden kommer tillbaka, kontakta Boschs service."
+ },
+ "Bosch|E12": {
+  "title": "Kalkavlagringar på värmepumpen",
+  "causes": [
+   "Kalk har byggts upp på värmepumpen, ofta i områden med hårt vatten."
+  ],
+  "steps": [
+   "Kör ett avkalkningsprogram med avkalkningsmedel för diskmaskiner.",
+   "Fyll på regenereringssalt om din modell har avhärdare.",
+   "Avkalka regelbundet om du har hårt vatten."
+  ],
+  "technician": "Om koden finns kvar efter avkalkning, kontakta Boschs service."
+ },
+ "Bosch|E14": {
+  "title": "Problem med vattenpåfyllningen (flödesmätare)",
+  "causes": [
+   "Flödesmätaren har gått sönder eller så fylls diskmaskinen inte på korrekt."
+  ],
+  "steps": [
+   "Kontrollera att vattenkranen under diskbänken är helt öppen.",
+   "Slå av säkringen i 30 sekunder och försök igen."
+  ],
+  "technician": "Bosch rekommenderar att du kontaktar service vid den här koden."
+ },
+ "Bosch|E15": {
+  "title": "Vatten i bottentråget (läckageskyddet aktiverat)",
+  "causes": [
+   "Det har samlats vatten i diskmaskinens botten.",
+   "En läcka från en slang, en tätning eller en inre del.",
+   "För mycket lödder, till exempel från vanligt diskmedel."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten.",
+   "Stäng vattenkranen till diskmaskinen.",
+   "Torka upp vatten från golvet."
+  ],
+  "technician": "Bosch rekommenderar att du stänger av vattnet och kontaktar service. En dold läcka måste hittas och åtgärdas."
+ },
+ "Bosch|E16": {
+  "title": "Vattnet kanske inte kommer in",
+  "causes": [
+   "Inloppsslangen är vikt eller skadad."
+  ],
+  "steps": [
+   "Kontrollera att inloppsslangen inte är böjd, klämd eller skadad.",
+   "Se till att vattenkranen är öppen."
+  ],
+  "technician": "Om koden finns kvar, kontakta Boschs service."
+ },
+ "Bosch|E17": {
+  "title": "Vattnet kanske inte kommer in",
+  "causes": [
+   "Inloppsslangen är vikt eller skadad."
+  ],
+  "steps": [
+   "Kontrollera att inloppsslangen inte är böjd, klämd eller skadad.",
+   "Se till att vattenkranen är öppen."
+  ],
+  "technician": "Om koden finns kvar, kontakta Boschs service."
+ },
+ "Bosch|E18": {
+  "title": "För låg vattennivå",
+  "causes": [
+   "Vattenkranen är stängd eller delvis stängd.",
+   "Inloppsslangen är vikt.",
+   "Lågt vattenflöde."
+  ],
+  "steps": [
+   "Se till att vattentillförseln är helt påslagen.",
+   "Kontrollera att inloppsslangen inte är vikt eller skadad.",
+   "Kontrollera flödet: kranen ska ge ungefär 10 liter per minut."
+  ],
+  "technician": "Om vattentillförseln är i ordning och koden kommer tillbaka, kontakta Boschs service."
+ },
+ "Bosch|E19": {
+  "title": "Fel i kretsen för diskmedelsdoseringen",
+  "causes": [
+   "Ett elektriskt fel i kretsen för diskmedelsdoseringen."
+  ],
+  "steps": [
+   "Slå av säkringen i 30 sekunder och slå sedan på igen."
+  ],
+  "technician": "Om koden kommer tillbaka, kontakta Boschs service."
+ },
+ "Bosch|E22": {
+  "title": "Filtret är igensatt",
+  "causes": [
+   "Matrester blockerar filtret."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen.",
+   "Ta ut den nedre korgen och lyft ur filtret.",
+   "Skölj filtret under rinnande vatten med en mjuk borste och milt diskmedel.",
+   "Sätt tillbaka filtret tills det låses fast."
+  ],
+  "technician": "Behövs oftast inte. Om koden finns kvar efter rengöring, kontakta Boschs service."
+ },
+ "Bosch|E23": {
+  "title": "Tömningspumpen är blockerad eller trasig",
+  "causes": [
+   "Tömningspumpen är igensatt eller har gått sönder."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten.",
+   "Rengör filtret och kontrollera om det finns löst skräp i sumpen."
+  ],
+  "technician": "Bosch rekommenderar att du kontaktar service vid den här koden."
+ },
+ "Bosch|E24": {
+  "title": "Töms inte – tömningsslangen eller filtret är igensatt",
+  "causes": [
+   "Tömningsslangen är vikt eller igensatt.",
+   "Filtret är igensatt.",
+   "En ny avfallskvarn eller vattenlås har fortfarande kvar sin blindplugg."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten.",
+   "Kontrollera att tömningsslangen inte är vikt.",
+   "Rengör filtren och se till att pumplocket under filtret sitter på plats.",
+   "Om diskmaskinen är ansluten till en avfallskvarn eller ett nytt vattenlås, kontrollera att blindpluggen har tagits bort."
+  ],
+  "technician": "Om vattnet fortfarande inte töms ut, kontakta Boschs service."
+ },
+ "Bosch|E25": {
+  "title": "Tömningspumpen är blockerad eller pumplocket sitter löst",
+  "causes": [
+   "Glasskärvor, kärnor eller annat skräp blockerar tömningspumpen.",
+   "Pumplocket sitter löst eller saknas."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten.",
+   "Ta ut den nedre korgen och filtren.",
+   "Ös ur stående vatten med en kopp eller svamp.",
+   "Lossa det vita pumplocket (en sked kan hjälpa) och ta bort skräp. Se upp för vassa glasbitar.",
+   "Sätt tillbaka locket tills det klickar och sätt sedan tillbaka filtren."
+  ],
+  "technician": "Om koden kommer tillbaka efter rengöring, kontakta Boschs service."
+ },
+ "Bosch|E27": {
+  "title": "För låg nätspänning",
+  "causes": [
+   "Spänningen i bostadens elnät är för låg. Själva diskmaskinen är inte trasig."
+  ],
+  "steps": [
+   "Slå av säkringen i 30 sekunder och slå sedan på igen."
+  ],
+  "technician": "Om det händer igen, låt en elektriker kontrollera spänningen i elnätet."
+ },
+ "Siemens|E08": {
+  "title": "För låg vattennivå under disken",
+  "causes": [
+   "Skålar eller kastruller har vält och samlar vatten.",
+   "Disk blockerar vatteninsuget."
+  ],
+  "steps": [
+   "Kontrollera disken och vänd skålar och kastruller upp och ned.",
+   "Se till att inget blockerar spolarmarna eller insuget."
+  ],
+  "technician": "Om det upprepas, kontakta Siemens service."
+ },
+ "Siemens|E09": {
+  "title": "Fel i värmesystemet",
+  "causes": [
+   "Ett fel i värmesystemet."
+  ],
+  "steps": [
+   "Stäng av, vänta några minuter och slå på igen."
+  ],
+  "technician": "Kontakta Siemens service och uppge koden."
+ },
+ "Siemens|E12": {
+  "title": "Värmeelementet är täckt av kalk eller smuts",
+  "causes": [
+   "Kalk eller smuts på värmeelementet."
+  ],
+  "steps": [
+   "Kör ett avkalkningsprogram enligt bruksanvisningen.",
+   "Rengör filtren."
+  ],
+  "technician": "Om koden finns kvar efter avkalkning, kontakta Siemens service."
+ },
+ "Siemens|E14": {
+  "title": "Fel vid påfyllning – vattenskyddet är aktivt",
+  "causes": [
+   "Ett problem med vattentillförseln eller påfyllningssystemet."
+  ],
+  "steps": [
+   "Kontrollera att vattenkranen är öppen.",
+   "Kontrollera att inloppsslangen inte är vikt."
+  ],
+  "technician": "Om det upprepas, kontakta Siemens service."
+ },
+ "Siemens|E15": {
+  "title": "Vatten i botten (vattenskyddet aktiverat)",
+  "causes": [
+   "Det har samlats vatten i diskmaskinens bottentråg."
+  ],
+  "steps": [
+   "Stäng vattenkranen.",
+   "Stäng av diskmaskinen.",
+   "Torka upp vatten från golvet."
+  ],
+  "technician": "Siemens avråder från att reparera detta själv. Kontakta Siemens service."
+ },
+ "Siemens|E16": {
+  "title": "Fel vid påfyllning eller vatteninflöde",
+  "causes": [
+   "Ett problem med påfyllningssystemet eller vatteninflödet."
+  ],
+  "steps": [
+   "Stäng kranen.",
+   "Kontrollera att inloppsslangen inte är vikt och öppna sedan kranen igen."
+  ],
+  "technician": "Om det händer ofta behöver apparaten en tekniker. Kontakta Siemens service."
+ },
+ "Siemens|E18": {
+  "title": "Fel vid vatteninloppet",
+  "causes": [
+   "Inloppsslangen är böjd.",
+   "Kranen är stängd, har fastnat eller är igenkalkad.",
+   "Inloppsfiltret är igensatt."
+  ],
+  "steps": [
+   "Se till att kranen är helt öppen.",
+   "Kontrollera att inloppsslangen inte är vikt.",
+   "Stäng av, stäng kranen, ta loss slangen och rengör filtret. Sätt sedan tillbaka allt och kontrollera att det inte läcker."
+  ],
+  "technician": "Om vattenflödet är lågt, kontakta en rörmokare. Om det upprepas, kontakta Siemens service."
+ },
+ "Siemens|E22": {
+  "title": "Filtren är smutsiga eller igensatta",
+  "causes": [
+   "Matrester sätter igen filtersystemet."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen.",
+   "Ta ut filtren och skölj dem rena.",
+   "Sätt tillbaka filtren korrekt."
+  ],
+  "technician": "Behövs oftast inte."
+ },
+ "Siemens|E23": {
+  "title": "Fel på tömningspumpen",
+  "causes": [
+   "Ett fel på avloppspumpen."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten."
+  ],
+  "technician": "Enligt Siemens kan bara deras service åtgärda detta. Kontakta dem och uppge koden."
+ },
+ "Siemens|E24": {
+  "title": "Töms inte – troligen igensatt pump eller slang",
+  "causes": [
+   "Tömningspumpen eller avloppsvägen är igensatt."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten.",
+   "Rengör filtren och kontrollera om det finns skräp vid pumpen.",
+   "Kontrollera att tömningsslangen inte är vikt."
+  ],
+  "technician": "Om problemet kvarstår, stäng kranen och kontakta Siemens service."
+ },
+ "Siemens|E25": {
+  "title": "Tömningspumpen är blockerad",
+  "causes": [
+   "Skräp som glas eller kärnor blockerar tömningspumpen."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten.",
+   "Ta ut filtren och ös ur stående vatten.",
+   "Ta bort pumplocket och rensa försiktigt bort skräp – se upp för vassa glasbitar.",
+   "Sätt tillbaka locket och filtren."
+  ],
+  "technician": "Om problemet kvarstår, stäng kranen och kontakta Siemens service."
+ },
+ "Siemens|E27": {
+  "title": "Låg nätspänning",
+  "causes": [
+   "Spänningen i elnätet är för låg. Själva apparaten är inte trasig."
+  ],
+  "steps": [
+   "Stäng av och slå på igen senare."
+  ],
+  "technician": "Låt en elektriker kontrollera elnätet. Om det upprepas, kontakta Siemens service."
+ },
+ "Samsung|4C": {
+  "title": "Lite eller inget vatten kommer in",
+  "causes": [
+   "Vattenventilen är stängd.",
+   "Vattnet är avstängt.",
+   "Inloppsslangen eller ventilen är frusen eller igensatt."
+  ],
+  "steps": [
+   "Kontrollera att vattenventilen är helt öppen.",
+   "Kontrollera att det kommer vatten ur andra kranar.",
+   "Kontrollera att inloppsslangen inte är vikt eller igensatt."
+  ],
+  "technician": "Om vattnet fortfarande inte kommer in, kontakta Samsungs service."
+ },
+ "Samsung|5C": {
+  "title": "Vattnet töms inte ut",
+  "causes": [
+   "Avloppet eller anslutningen till diskbänken är igensatt.",
+   "Filtret är igensatt.",
+   "Tömningsslangen är vikt."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten.",
+   "Rengör silfiltret i botten.",
+   "Kontrollera att tömningsslangen och anslutningen till diskbänken inte är vikta eller igensatta."
+  ],
+  "technician": "Om vattnet fortfarande inte töms ut, kontakta Samsungs service."
+ },
+ "Samsung|5C2": {
+  "title": "Tömningspumpen stannar",
+  "causes": [
+   "Skräp blockerar tömningspumpen."
+  ],
+  "steps": [
+   "Avbryt programmet för att tömma ut vattnet.",
+   "Stäng av diskmaskinen och dra ur kontakten.",
+   "Ta ut den nedre korgen och filtret och kontrollera om det finns skräp i sumpen."
+  ],
+  "technician": "Om pumpen fortfarande stannar, kontakta Samsungs service."
+ },
+ "Samsung|LC": {
+  "title": "Läcka upptäckt",
+  "causes": [
+   "Vatten läcker runt luckan eller ner i botten.",
+   "Vanligt diskmedel har använts i stället för maskindiskmedel.",
+   "Vatten tränger tillbaka från diskhon eller avfallskvarnen."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen.",
+   "Använd bara maskindiskmedel.",
+   "Rengör luckans tätning och luckans nederkant.",
+   "Kontrollera om det finns vatten under diskmaskinen och torka upp det.",
+   "Kontrollera att vatten inte tränger tillbaka i diskhons avlopp."
+  ],
+  "technician": "Om det fortsätter att läcka, stäng av vattentillförseln och kontakta Samsungs service."
+ },
+ "Samsung|OC": {
+  "title": "Överfyllning eller för mycket lödder",
+  "causes": [
+   "För mycket lödder från tvättmedlet.",
+   "Ett igensatt filter.",
+   "Tömningsslangen är vikt."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen.",
+   "Kontrollera att du använder rätt maskindiskmedel och rätt mängd.",
+   "Rengör filtret och ta bort stående vatten från botten.",
+   "Kontrollera att tömningsslangen inte är vikt."
+  ],
+  "technician": "Om diskmaskinen fortsätter att fyllas på, stäng av vattentillförseln och kontakta Samsungs service."
+ },
+ "Samsung|HC": {
+  "title": "Problem med uppvärmningen (för varmt)",
+  "causes": [
+   "Det inkommande vattnet är mycket varmt.",
+   "Filtren är smutsiga, så vattnet cirkulerar dåligt."
+  ],
+  "steps": [
+   "Stäng av i minst 5 minuter.",
+   "Rengör filtren.",
+   "Kör ett normalt program med tom diskmaskin och diskmedel."
+  ],
+  "technician": "Om koden kommer tillbaka, kontakta Samsungs service."
+ },
+ "Samsung|tC": {
+  "title": "Problem med temperaturgivaren",
+  "causes": [
+   "Diskmaskinen upptäckte ett fel i temperaturmätningen."
+  ],
+  "steps": [
+   "Stäng av vid vägguttaget eller säkringen i minst 5 minuter.",
+   "Slå på och kör ett normalprogram."
+  ],
+  "technician": "Om koden kommer tillbaka, kontakta Samsungs service."
+ },
+ "Samsung|DC": {
+  "title": "Luckan är inte stängd",
+  "causes": [
+   "Luckan har inte gått i lås.",
+   "Ett redskap eller en tallrik sticker ut och blockerar luckan."
+  ],
+  "steps": [
+   "Tryck in föremål som sticker ut.",
+   "Rengör området runt luckans spärr.",
+   "Stäng luckan ordentligt.",
+   "Stäng av i 30 sekunder och slå sedan på igen."
+  ],
+  "technician": "Om luckan inte går i lås, kontakta Samsungs service."
+ },
+ "Samsung|3C": {
+  "title": "Diskpumpen går inte",
+  "causes": [
+   "Diskmaskinen fylls på men diskmotorn startar inte."
+  ],
+  "steps": [
+   "Stäng av i en minut och försök sedan igen."
+  ],
+  "technician": "Om det fortfarande inte spolar, kontakta Samsungs service."
+ },
+ "Samsung|PC": {
+  "title": "Startar inte med Zone Wash eller Half Load",
+  "causes": [
+   "Ett fel kopplat till funktionen Zone Wash eller Half Load."
+  ],
+  "steps": [
+   "Stäng av i minst 30 sekunder.",
+   "Stäng av Zone Wash eller Half Load och kör ett normalprogram."
+  ],
+  "technician": "Om koden kommer tillbaka, kontakta Samsungs service."
+ },
+ "Samsung|9C1": {
+  "title": "Spänningsskyddsläge",
+  "causes": [
+   "Ett kort strömavbrott, en spänningstopp eller en säkring som har löst ut."
+  ],
+  "steps": [
+   "Kontrollera kontakten och uttaget.",
+   "Stäng av vid vägguttaget eller säkringen i minst 1 minut och försök sedan igen.",
+   "Använd ett eget uttag utan förlängningssladdar eller adaptrar."
+  ],
+  "technician": "Om det fortsätter att hända, låt en elektriker kontrollera elnätet."
+ },
+ "Samsung|AC": {
+  "title": "Startar men kör inte",
+  "causes": [
+   "Ett internt fel i styrningen."
+  ],
+  "steps": [
+   "Stäng av vid vägguttaget eller säkringen.",
+   "Vänta 1 minut, slå på och försök igen."
+  ],
+  "technician": "Om koden kommer tillbaka, kontakta Samsungs service."
+ },
+ "Samsung|6C1": {
+  "title": "Problem med diskmedelsdoseringen",
+  "causes": [
+   "Doseringsmotorn fungerar inte normalt.",
+   "En tablett har fastnat i doseringsfacket."
+  ],
+  "steps": [
+   "Dra ur diskmaskinens kontakt i 5 minuter.",
+   "Kontrollera att ingen tablett har fastnat i doseringsfacket."
+  ],
+  "technician": "Om koden kommer tillbaka, kontakta Samsungs service."
+ },
+ "LG|AE": {
+  "title": "Läcka eller överfyllning upptäckt",
+  "causes": [
+   "Det kom in för mycket vatten, eller så hittades en läcka.",
+   "Vanligt diskmedel gav för mycket lödder.",
+   "Diskmaskinen står inte plant."
+  ],
+  "steps": [
+   "Använd bara maskindiskmedel.",
+   "Placera stora tallrikar och kastruller med ovansidan nedåt.",
+   "Kontrollera att diskmaskinen står plant."
+  ],
+  "technician": "Om det inte läcker men koden finns kvar, bryt strömmen och beställ service från LG. Dra inte ut en inbyggd maskin själv."
+ },
+ "LG|IE": {
+  "title": "Det kommer in för lite vatten",
+  "causes": [
+   "Vattnet är avstängt i bostaden.",
+   "Inloppsslangen är böjd eller klämd.",
+   "Inloppsventilen eller ventilen under diskbänken är stängd."
+  ],
+  "steps": [
+   "Kontrollera att det kommer vatten ur andra kranar.",
+   "Räta ut inloppsslangen och ta bort det som trycker på den.",
+   "Öppna ventilen under diskbänken, särskilt efter installation eller flytt."
+  ],
+  "technician": "Om det fortsätter, kontakta installatören eller LG:s service."
+ },
+ "LG|OE": {
+  "title": "Töms inte",
+  "causes": [
+   "Filtret är igensatt.",
+   "Tömningsslangen är böjd eller klämd."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och vänta 30 minuter så att den svalnar.",
+   "Ta ut den nedre korgen, vrid ut filtret och skölj det.",
+   "Sätt tillbaka filtret tills det klickar.",
+   "Räta ut tömningsslangen."
+  ],
+  "technician": "Om vatten fortsätter att stå ovanför filtret, beställ service från LG."
+ },
+ "LG|bE": {
+  "title": "För mycket lödder",
+  "causes": [
+   "Vanligt diskmedel har använts.",
+   "För mycket tvättmedel."
+  ],
+  "steps": [
+   "Använd bara maskindiskmedel, och mindre mängd.",
+   "Torka bort löddret och kör ett sköljprogram utan diskmedel."
+  ],
+  "technician": "Om bE visas utan lödder, beställ service från LG."
+ },
+ "LG|nE": {
+  "title": "Problem med spolpumpen (Vario)",
+  "causes": [
+   "Pumphjulet snurrar inte normalt.",
+   "Disk ligger an mot spolsystemet."
+  ],
+  "steps": [
+   "Flytta om disken så att inget blockerar spolarmarna.",
+   "Starta om programmet."
+  ],
+  "technician": "Om koden kvarstår, beställ service från LG."
+ },
+ "LG|HE": {
+  "title": "Vattnet värms inte",
+  "causes": [
+   "Ett fel på värmeelementet."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten."
+  ],
+  "technician": "LG rekommenderar att du beställer service."
+ },
+ "LG|tE": {
+  "title": "Fel på temperaturgivaren",
+  "causes": [
+   "Dålig kontakt eller en trasig temperaturgivare."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten."
+  ],
+  "technician": "LG rekommenderar att du beställer service."
+ },
+ "LG|LE": {
+  "title": "Fel på diskmotorn",
+  "causes": [
+   "Diskmotorn fungerar inte som den ska."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten."
+  ],
+  "technician": "LG rekommenderar att du beställer service."
+ },
+ "LG|PE": {
+  "title": "Fel på nivåsensorn (äldre modeller)",
+  "causes": [
+   "Ett fel i nivåsensorn."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten."
+  ],
+  "technician": "LG rekommenderar att du beställer service."
+ },
+ "LG|F37": {
+  "title": "Den automatiska lucköppningen fungerar inte",
+  "causes": [
+   "Något blockerar luckan.",
+   "Ett fel i delarna för automatisk öppning."
+  ],
+  "steps": [
+   "Ta bort det som står nära luckan och starta om."
+  ],
+  "technician": "Om det fortsätter, beställ service från LG."
+ },
+ "AEG|i10": {
+  "title": "Vatten fylls inte på",
+  "causes": [
+   "Vattenkranen är stängd.",
+   "Vattentrycket är för lågt.",
+   "Inloppsslangen är vikt.",
+   "Filtret i inloppsslangen är igensatt."
+  ],
+  "steps": [
+   "Öppna vattenkranen.",
+   "Kontrollera att inloppsslangen inte är vikt eller böjd.",
+   "Stäng av diskmaskinen och dra ur kontakten, stäng kranen, ta loss slangen och rengör dess filter.",
+   "Sätt tillbaka slangen handfast, öppna kranen och kör ett program."
+  ],
+  "technician": "Om det fortsätter, kontakta en auktoriserad serviceverkstad."
+ },
+ "AEG|i20": {
+  "title": "Töms inte",
+  "causes": [
+   "Avloppsanslutningen eller vattenlåset under diskbänken är igensatt.",
+   "Filtret eller sumpen är igensatt.",
+   "Tömningsslangen är vikt, för lång eller monterad på fel höjd.",
+   "Blindpluggen i vattenlåset togs inte bort vid installationen."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten.",
+   "Rengör filtret och sumpen.",
+   "Kontrollera att tömningsslangen inte är vikt eller vriden.",
+   "Kontrollera att vattenlåsets anslutning är fri (och att blindpluggen är borttagen efter en ny installation).",
+   "Sätt i kontakten och kör ett program."
+  ],
+  "technician": "Om vattnet fortfarande inte töms ut, kontakta en auktoriserad serviceverkstad."
+ },
+ "AEG|i30": {
+  "title": "Läcka upptäckt (översvämningsskydd)",
+  "causes": [
+   "Översvämningsskyddet hittade vatten i botten."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten.",
+   "Stäng vattenkranen.",
+   "Torka upp vatten från golvet."
+  ],
+  "technician": "Boka en reparation för att hitta och åtgärda läckan."
+ },
+ "AEG|i40": {
+  "title": "Problem med nivåsensorn (trycksensorn)",
+  "causes": [
+   "Vattennivån kan inte mätas korrekt."
+  ],
+  "steps": [
+   "Stäng av vid uttaget i ungefär en minut och starta sedan om."
+  ],
+  "technician": "Om koden kommer tillbaka, boka en reparation."
+ },
+ "AEG|i50": {
+  "title": "Fel på diskmotorn eller cirkulationspumpen",
+  "causes": [
+   "Ett fel i diskmotorn, cirkulationspumpen eller dess styrning."
+  ],
+  "steps": [
+   "Stäng av vid uttaget i ungefär en minut och starta sedan om."
+  ],
+  "technician": "Om koden kommer tillbaka, boka en reparation."
+ },
+ "AEG|i60": {
+  "title": "Fel på uppvärmningen",
+  "causes": [
+   "Vattnet värms inte som förväntat."
+  ],
+  "steps": [
+   "Stäng av vid uttaget i ungefär en minut och starta sedan om."
+  ],
+  "technician": "Om koden kommer tillbaka, boka en reparation."
+ },
+ "AEG|iF0": {
+  "title": "Problem med nivåregleringen",
+  "causes": [
+   "Påfyllningsnivån är fel eller onormal."
+  ],
+  "steps": [
+   "Kontrollera att vattenkranen är helt öppen.",
+   "Rengör filtren.",
+   "Stäng av vid uttaget i ungefär en minut och starta sedan om."
+  ],
+  "technician": "Om koden kommer tillbaka, boka en reparation."
+ },
+ "Hotpoint|F01": {
+  "title": "Översvämningsskyddet har löst ut",
+  "causes": [
+   "Vatten i botten har fått översvämningsskyddets flottör att lösa ut.",
+   "En läcka eller en trasig flottörbrytare."
+  ],
+  "steps": [
+   "Stäng av och slå på diskmaskinen för att återställa den.",
+   "Stäng vattenkranen om det finns vatten på golvet."
+  ],
+  "technician": "Om koden kommer tillbaka, boka en Hotpoint-tekniker."
+ },
+ "Hotpoint|F02": {
+  "title": "Fel på påfyllningsventilen",
+  "causes": [
+   "Påfyllningsventilen släpper in vatten när den inte borde, eller har gått sönder."
+  ],
+  "steps": [
+   "Kontrollera att tömningsslangen inte ligger på golvet.",
+   "Stäng vattenkranen om vatten fortsätter att komma in."
+  ],
+  "technician": "Boka en Hotpoint-tekniker."
+ },
+ "Hotpoint|F03": {
+  "title": "Fel vid tömning / tömningen tog för lång tid",
+  "causes": [
+   "Tömningsslangen eller avloppet under diskbänken är igensatt.",
+   "Tömningspumpen är blockerad eller trasig."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten.",
+   "Rengör filtren.",
+   "Kontrollera att tömningsslangen och avloppet under diskbänken inte är igensatta."
+  ],
+  "technician": "Om felet fortsätter, boka en tekniker."
+ },
+ "Hotpoint|F04": {
+  "title": "Fel på temperaturgivaren",
+  "causes": [
+   "Ett fel i termostaten eller temperaturgivaren."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Hotpoint-tekniker."
+ },
+ "Hotpoint|F06": {
+  "title": "Påfyllningen tog för lång tid",
+  "causes": [
+   "Kranen är stängd eller delvis stängd.",
+   "Lågt vattentryck.",
+   "Påfyllningsslangen är vikt eller dess filter är igensatt."
+  ],
+  "steps": [
+   "Se till att kranen är helt öppen.",
+   "Kontrollera att påfyllningsslangen inte är vikt eller klämd.",
+   "Kontrollera att vattentrycket är normalt."
+  ],
+  "technician": "Om felet fortsätter, boka en tekniker."
+ },
+ "Hotpoint|F08": {
+  "title": "Vattenuppvärmningen tog för lång tid",
+  "causes": [
+   "Kalk, för mycket lödder, fel inställning för vattenhårdhet eller ett fel i uppvärmningen."
+  ],
+  "steps": [
+   "Kontrollera inställningen för vattenhårdhet.",
+   "Använd rätt mängd diskmedel."
+  ],
+  "technician": "Boka en Hotpoint-tekniker."
+ },
+ "Hotpoint|F10": {
+  "title": "Fel på värmeelementet",
+  "causes": [
+   "Värmekretsen är bruten eller elementet har gått sönder."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Hotpoint-tekniker."
+ },
+ "Hotpoint|F11": {
+  "title": "Fel på diskpumpen",
+  "causes": [
+   "Diskpumpen har gått sönder, kärvat eller blockeras av skräp."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten.",
+   "Rengör filtren."
+  ],
+  "technician": "Boka en Hotpoint-tekniker."
+ },
+ "Hotpoint|F12": {
+  "title": "Huvudkortet och displayen kommunicerar inte",
+  "causes": [
+   "Ett fel i ledningsdragningen eller displayen."
+  ],
+  "steps": [
+   "Dra ur diskmaskinens kontakt i 2 minuter, sätt sedan i den och testa."
+  ],
+  "technician": "Om felet kvarstår, boka en tekniker."
+ },
+ "Hotpoint|F13": {
+  "title": "Fel på huvudkortet",
+  "causes": [
+   "Huvudstyrkortet har gått sönder."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Hotpoint-tekniker."
+ },
+ "Indesit|F01": {
+  "title": "Översvämningsskyddet har löst ut",
+  "causes": [
+   "Vatten i botten har fått översvämningsskyddet att lösa ut."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten.",
+   "Stäng vattenkranen och torka upp vatten."
+  ],
+  "technician": "Boka en Indesit-tekniker."
+ },
+ "Indesit|F02": {
+  "title": "Fel på påfyllningsventilen",
+  "causes": [
+   "Påfyllningsventilen har gått sönder."
+  ],
+  "steps": [
+   "Stäng vattenkranen om vatten fortsätter att komma in.",
+   "Stäng av diskmaskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Indesit-tekniker."
+ },
+ "Indesit|F03": {
+  "title": "Fel vid tömning / tömningen tog för lång tid",
+  "causes": [
+   "Ett stopp i tömningsslangen eller avloppet under diskbänken."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten.",
+   "Rengör filtren.",
+   "Kontrollera att tömningsslangen och avloppet under diskbänken inte är igensatta."
+  ],
+  "technician": "Om felet fortsätter, boka en tekniker."
+ },
+ "Indesit|F04": {
+  "title": "Fel på temperaturgivaren",
+  "causes": [
+   "Ett fel i termostaten eller temperaturgivaren."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Indesit-tekniker."
+ },
+ "Indesit|F06": {
+  "title": "Påfyllningen tog för lång tid",
+  "causes": [
+   "Kranen är inte helt öppen.",
+   "Lågt vattentryck.",
+   "Påfyllningsslangen är begränsad."
+  ],
+  "steps": [
+   "Se till att kranen är helt öppen.",
+   "Kontrollera att påfyllningsslangen inte är vikt eller klämd.",
+   "Kontrollera att vattentrycket är normalt."
+  ],
+  "technician": "Om felet fortsätter, boka en tekniker."
+ },
+ "Indesit|F08": {
+  "title": "Vattenuppvärmningen tog för lång tid",
+  "causes": [
+   "Temperaturen nåddes inte i tid."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Indesit-tekniker."
+ },
+ "Indesit|F10": {
+  "title": "Fel på värmeelementet",
+  "causes": [
+   "Ett fel i värmeelementet."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Indesit-tekniker."
+ },
+ "Indesit|F11": {
+  "title": "Fel på diskpumpen",
+  "causes": [
+   "Diskpumpen har gått sönder."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Indesit-tekniker."
+ },
+ "Indesit|F12": {
+  "title": "Huvudkortet och displayen kommunicerar inte",
+  "causes": [
+   "Ett kommunikationsfel mellan styrkorten."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Indesit-tekniker."
+ },
+ "Indesit|F13": {
+  "title": "Fel på huvudkortet",
+  "causes": [
+   "Huvudstyrkortet har gått sönder."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Indesit-tekniker."
+ },
+ "Beko|E:01": {
+  "title": "Vattenöverflöde eller läcka",
+  "causes": [
+   "Det kommer in för mycket vatten i diskmaskinen.",
+   "En läcka inne i maskinen."
+  ],
+  "steps": [
+   "Låt diskmaskinen köra sin säkerhetstömning.",
+   "Om koden försvinner behöver du inte göra något.",
+   "Om den finns kvar, stäng av, dra ur kontakten och stäng vattenkranen."
+  ],
+  "technician": "Om E:01 finns kvar är felet permanent. Kontakta Bekos service."
+ },
+ "Beko|E:02": {
+  "title": "Vattentillförseln är avbruten",
+  "causes": [
+   "Vattnet är avstängt i ledningen.",
+   "Inloppskranen är stängd."
+  ],
+  "steps": [
+   "Se till att vattenkranen är öppen.",
+   "Programmet väntar och kontrollerar om det finns vatten. Det fortsätter när vattnet rinner."
+  ],
+  "technician": "Om vattnet är påslaget och koden finns kvar, kontakta Bekos service."
+ },
+ "Miele|F11": {
+  "title": "Vattnet pumpas inte ut",
+  "causes": [
+   "Backventilen eller tömningspumpens lock sitter inte korrekt.",
+   "Tömningspumpen är blockerad av skräp."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och dra ur kontakten.",
+   "Ta ut den nedre spolarmen (om sådan finns) och filterkombinationen.",
+   "Ös ur stående vatten med en liten kopp.",
+   "Ta av pumplocket / backventilen, skölj det och ta bort skräp. Se upp för glassplitter.",
+   "Kontrollera att pumphjulet går att snurra för hand, sätt tillbaka locket tills det klickar och sätt sedan tillbaka filtren."
+  ],
+  "technician": "Om F11 kvarstår, kontakta Mieles service."
+ },
+ "Miele|F12": {
+  "title": "Vatteninloppet är igensatt eller begränsat",
+  "causes": [
+   "Avstängningsventilen är inte öppen.",
+   "Inloppsfiltret är smutsigt.",
+   "Inloppsslangen är vikt.",
+   "Vattentrycket är under 0,5 bar."
+  ],
+  "steps": [
+   "Öppna avstängningsventilen helt.",
+   "Stäng av och dra ur kontakten, stäng avstängningsventilen, skruva loss inloppsventilen och rengör det lilla filtret. Lägg aldrig ventilhuset i vatten – det innehåller en elektrisk del.",
+   "Sätt tillbaka filtret och ventilen, öppna sedan avstängningsventilen långsamt och kontrollera att det inte droppar.",
+   "Räta ut eventuella veck på slangen."
+  ],
+  "technician": "Om trycket är för lågt, kontakta en rörmokare. Om felet kvarstår, kontakta Mieles service."
+ },
+ "Miele|F13": {
+  "title": "Vatteninloppet är igensatt eller begränsat",
+  "causes": [
+   "Avstängningsventilen är stängd.",
+   "Inloppsfiltret är smutsigt.",
+   "Inloppsslangen är vikt.",
+   "Vattentrycket är under 0,5 bar."
+  ],
+  "steps": [
+   "Öppna avstängningsventilen helt.",
+   "Stäng av och dra ur kontakten, stäng avstängningsventilen och rengör inloppsfiltret. Doppa inte ventilhuset i vatten.",
+   "Sätt tillbaka allt, öppna avstängningsventilen långsamt och kontrollera att det inte läcker.",
+   "Räta ut eventuella veck på slangen."
+  ],
+  "technician": "Om trycket är för lågt, kontakta en rörmokare. Om felet kvarstår, kontakta Mieles service."
+ },
+ "Miele|F14": {
+  "title": "Fel på cirkulationspumpen eller vatteninsuget",
+  "causes": [
+   "Cirkulationspumpen har torkat ut och fastnat efter ett långt uppehåll.",
+   "Ett tekniskt fel i en nivåbrytare."
+  ],
+  "steps": [
+   "Ta ut den nedre spolarmen och filterkombinationen.",
+   "Häll i 1 liter varmt vatten (högst 75 °C) med några droppar spolglans och vänta 5 minuter.",
+   "Sätt tillbaka filtren och spolarmen och starta om. Upprepa 2–3 gånger vid behov.",
+   "Annars stänger du av, väntar några sekunder, slår på och startar om."
+  ],
+  "technician": "Om F14 kvarstår, kontakta Mieles service."
+ },
+ "Miele|F15": {
+  "title": "Vatteninloppet är igensatt eller begränsat",
+  "causes": [
+   "Avstängningsventilen är stängd.",
+   "Inloppsfiltret är smutsigt.",
+   "Inloppsslangen är vikt.",
+   "Vattentrycket är under 0,5 bar."
+  ],
+  "steps": [
+   "Öppna avstängningsventilen helt.",
+   "Stäng av och dra ur kontakten, stäng avstängningsventilen och rengör inloppsfiltret. Doppa inte ventilhuset i vatten.",
+   "Sätt tillbaka allt, öppna avstängningsventilen långsamt och kontrollera att det inte läcker.",
+   "Räta ut eventuella veck på slangen."
+  ],
+  "technician": "Om trycket är för lågt, kontakta en rörmokare. Om felet kvarstår, kontakta Mieles service."
+ },
+ "Miele|F18": {
+  "title": "Vatteninloppsventilen är defekt",
+  "causes": [
+   "Vatteninloppsventilen har gått sönder."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen och stäng avstängningsventilen."
+  ],
+  "technician": "Enligt Miele kan du inte åtgärda detta själv. Boka en Miele-tekniker."
+ },
+ "Miele|F24": {
+  "title": "Fel på värmereläet",
+  "causes": [
+   "Ett kontaktfel i värmereläet."
+  ],
+  "steps": [
+   "Stäng av diskmaskinen."
+  ],
+  "technician": "Enligt Miele kan du inte åtgärda detta själv. Boka en Miele-tekniker."
+ },
+ "Miele|F70": {
+  "title": "Waterproof-systemet (läckageskydd) har aktiverats",
+  "causes": [
+   "Läckageskyddet har löst ut. Programmet stannar och tömningspumpen går."
+  ],
+  "steps": [
+   "Stäng avstängningsventilen.",
+   "Stäng av diskmaskinen och dra ur kontakten.",
+   "Vänta tills tömningspumpen stannar."
+  ],
+  "technician": "Kontakta Mieles service för att hitta och åtgärda orsaken."
+ },
+ "Miele|F78": {
+  "title": "Cirkulationspumpen är blockerad",
+  "causes": [
+   "Pumpen har torkat ut och fastnat efter veckor eller månader utan användning, eller vid första användningen.",
+   "Mer sällan ett tekniskt fel."
+  ],
+  "steps": [
+   "Ta ut den nedre spolarmen och filterkombinationen.",
+   "Häll i 1 liter varmt vatten (högst 75 °C) med 3–5 droppar spolglans och vänta 5 minuter.",
+   "Sätt tillbaka filtren plant och spolarmen och starta sedan om. Upprepa 2–3 gånger vid behov."
+  ],
+  "technician": "Om F78 kvarstår, kontakta Mieles service."
+ }
+}

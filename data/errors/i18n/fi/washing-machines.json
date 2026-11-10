@@ -1,0 +1,1167 @@
+{
+ "Bosch|E16": {
+  "title": "Luukku ei ole kiinni",
+  "causes": [
+   "Luukku ei ole kunnolla kiinni.",
+   "Pyykkiä on jäänyt luukun ja tiivisteen väliin."
+  ],
+  "steps": [
+   "Avaa luukku ja tarkista, ettei kumitiivisteeseen ole jäänyt vaatteita.",
+   "Sulje luukku tiukasti, kunnes se napsahtaa.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi ei poistu, vaikka luukku on tiukasti kiinni, luukun lukko voi olla viallinen. Tilaa Boschin huoltokäynti."
+ },
+ "Bosch|E17": {
+  "title": "Veden täyttyminen kesti liian kauan",
+  "causes": [
+   "Vesihana on kiinni tai vain osittain auki.",
+   "Tulovesiletku on taittunut.",
+   "Kodin vedenpaine on alhainen."
+  ],
+  "steps": [
+   "Tarkista, että koneen vesihana on kokonaan auki.",
+   "Varmista, ettei tulovesiletku ole taittunut tai litistynyt.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos hana on auki ja koodi palaa, ota yhteys Boschin huoltoon. Tuloventtiili tai AquaStop-letku voi vaatia tarkistusta."
+ },
+ "Bosch|E18": {
+  "title": "Vesi ei poistu",
+  "causes": [
+   "Poistopumppu tai pumpun suodatin on tukossa.",
+   "Poistoletku on taittunut tai tukossa.",
+   "Pumppuun on juuttunut pieniä esineitä (kolikoita, nappeja)."
+  ],
+  "steps": [
+   "Sammuta kone, irrota pistoke ja sulje vesihana.",
+   "Anna kuuman veden jäähtyä ennen kuin aloitat.",
+   "Aseta matala astia ja pyyhkeitä pumpun luukun alle, tyhjennä vesi hätätyhjennysletkulla ja puhdista sitten pumpun suodatin.",
+   "Tarkista, ettei poistoletkussa ole taitoksia tai tukoksia, ja suorista se.",
+   "Kiinnitä suodatin tiukasti takaisin, kytke pistoke ja käynnistä tyhjennys- tai linkousohjelma."
+  ],
+  "technician": "Jos vesi ei poistu vieläkään suodattimen ja letkun puhdistuksen jälkeen, poistopumppu on todennäköisesti viallinen. Ota yhteys huoltoon."
+ },
+ "Bosch|E19": {
+  "title": "Veden lämpeneminen kesti liian kauan",
+  "causes": [
+   "Kone ei saavuttanut asetettua pesulämpötilaa sallitussa ajassa.",
+   "Yleensä vika lämmitysjärjestelmässä."
+  ],
+  "steps": [
+   "Sammuta kone ja käynnistä se uudelleen, ja käynnistä sitten ohjelma uudelleen."
+  ],
+  "technician": "Boschin mukaan käyttäjä ei voi korjata tätä vikaa itse. Tilaa huoltokäynti, jos vika toistuu."
+ },
+ "Bosch|E20": {
+  "title": "Lämmitys kytkeytyi päälle väärään aikaan",
+  "causes": [
+   "Kone havaitsi lämmityksen odottamattomaan aikaan.",
+   "Vika elektroniikassa tai lämmityksen ohjauksessa."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke hetkeksi.",
+   "Kytke pistoke takaisin ja käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi palaa, lopeta koneen käyttö ja ota yhteys Boschin huoltoon."
+ },
+ "Bosch|E23": {
+  "title": "AquaStop-vuotosuoja lauennut",
+  "causes": [
+   "Koneen pohjalle on kertynyt vettä.",
+   "Vuoto koneen sisällä tai AquaStop-letkussa."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke.",
+   "Sulje vesihana.",
+   "Pyyhi lattialta mahdollinen vesi."
+  ],
+  "technician": "Boschin mukaan käyttäjä ei voi korjata tätä itse. Pidä hana kiinni ja tilaa huoltokäynti."
+ },
+ "Bosch|E25": {
+  "title": "Sameusanturin (veden kirkkauden) vika",
+  "causes": [
+   "Veden likaisuutta mittaavassa anturissa on ongelma."
+  ],
+  "steps": [
+   "Sammuta kone ja käynnistä se uudelleen, ja käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi palaa, pyydä Boschin huoltoa tarkistamaan anturi."
+ },
+ "Bosch|E26": {
+  "title": "Vedenpinta-anturin (paineanturin) vika",
+  "causes": [
+   "Rummun vedenpintaa mittaava analoginen paineanturi on viallinen."
+  ],
+  "steps": [
+   "Sammuta kone ja käynnistä se uudelleen, ja käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Boschin mukaan tämä vika vaatii huoltokäynnin."
+ },
+ "Bosch|F27": {
+  "title": "Paineanturin vika",
+  "causes": [
+   "Paineanturi ei toimi oikein."
+  ],
+  "steps": [
+   "Sammuta kone ja käynnistä se uudelleen, ja käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi palaa, ota yhteys Boschin huoltoon."
+ },
+ "Bosch|E28": {
+  "title": "Virtausanturin vika",
+  "causes": [
+   "Tulevan veden määrää mittaava anturi ilmoittaa ongelmasta."
+  ],
+  "steps": [
+   "Tarkista, että vesihana on kokonaan auki.",
+   "Sammuta kone ja käynnistä se uudelleen, ja käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi palaa, ota yhteys Boschin huoltoon."
+ },
+ "Samsung|4C": {
+  "title": "Vettä ei tule koneeseen",
+  "causes": [
+   "Vesihana on kiinni.",
+   "Tulovesiletku on tukossa, taittunut tai jäätynyt.",
+   "Vedenpaine on liian alhainen.",
+   "Kuuma- ja kylmävesiletkut on kytketty vääriin hanoihin.",
+   "Letkun liitännän verkkosuodatin on likainen."
+  ],
+  "steps": [
+   "Avaa vesihana kokonaan.",
+   "Tarkista, ettei tulovesiletkussa ole taitoksia, tukoksia tai jäätä.",
+   "Tarkista, että kuuma- ja kylmävesiletkut on kytketty oikeisiin hanoihin.",
+   "Sulje hana, kierrä letku irti, puhdista pieni verkkosuodatin ja kiinnitä se takaisin.",
+   "Odota 3 minuuttia (painikkeet lukittuvat tämän koodin jälkeen) ja käynnistä sitten uudelleen."
+  ],
+  "technician": "Jos vettä ei tule vieläkään, vaikka hana on auki ja suodatin puhdas, ota yhteys Samsungin huoltoon."
+ },
+ "Samsung|4C2": {
+  "title": "Tulovesi on liian kuumaa",
+  "causes": [
+   "Kylmävesiletku on kytketty kuumavesihanaan tai se ei ole tiukasti kiinni kylmävesihanassa."
+  ],
+  "steps": [
+   "Varmista, että kylmävesiletku on kytketty tiukasti kylmävesihanaan.",
+   "Sammuta kone, käynnistä se uudelleen ja käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi näkyy edelleen, vaikka liitännät ovat oikein, ota yhteys Samsungin huoltoon."
+ },
+ "Samsung|5C": {
+  "title": "Vesi ei poistu",
+  "causes": [
+   "Poistoletku on tukossa, taittunut tai jäätynyt.",
+   "Poistoletku on asennettu väärin.",
+   "Roskasuodatin on tukossa."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke.",
+   "Tarkista, että poistoletku on suora eikä tukossa tai jäätynyt.",
+   "Aseta lattialle pyyhkeitä ja matala astia, tyhjennä vesi ja puhdista koneen etuosan roskasuodatin.",
+   "Kiinnitä suodatin tiukasti takaisin, kytke pistoke ja kokeile tyhjennystä tai linkousta."
+  ],
+  "technician": "Jos vesi ei poistu vieläkään, poistopumppu voi olla viallinen. Ota yhteys Samsungin huoltoon."
+ },
+ "Samsung|dC": {
+  "title": "Luukku auki tai ei kunnolla kiinni",
+  "causes": [
+   "Kone käynnistettiin luukku auki.",
+   "Pyykkiä on jäänyt luukkuun."
+  ],
+  "steps": [
+   "Avaa luukku ja poista tiivisteeseen jääneet vaatteet.",
+   "Sulje luukku tiukasti ja käynnistä uudelleen."
+  ],
+  "technician": "Jos koodi ei poistu, vaikka luukku on kiinni, luukun lukko voi olla viallinen. Ota yhteys Samsungin huoltoon."
+ },
+ "Samsung|dC1": {
+  "title": "Luukun lukko ei lukitu tai avaudu",
+  "causes": [
+   "Luukun päälukko ei toimi odotetusti."
+  ],
+  "steps": [
+   "Sammuta kone, odota hetki ja käynnistä se uudelleen.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos vika toistuu, luukun lukko on tarkistettava huollossa."
+ },
+ "Samsung|OC": {
+  "title": "Liikaa vettä (ylivuoto)",
+  "causes": [
+   "Kone havaitsi liian korkean vedenpinnan."
+  ],
+  "steps": [
+   "Anna koneen suorittaa tyhjennys ja linkous loppuun.",
+   "Käynnistä ohjelma uudelleen, kun linkous on päättynyt.",
+   "Käytä oikea määrä pesuainetta, jotta vaahtoa ei muodostu liikaa."
+  ],
+  "technician": "Jos koodi palaa joka pesussa, ota yhteys Samsungin huoltoon. Vesiventtiili tai vedenpinta-anturi voi olla viallinen."
+ },
+ "Samsung|Ub": {
+  "title": "Epätasainen kuorma, linkous ei onnistu",
+  "causes": [
+   "Pyykit ovat kasautuneet rummun toiselle puolelle.",
+   "Rummussa on vain yksi painava vaatekappale.",
+   "Kone ei ole vaakatasossa tai tukevasti paikallaan."
+  ],
+  "steps": [
+   "Keskeytä ohjelma ja levitä pyykit tasaisesti.",
+   "Lisää muutama vaatekappale, jos peset vain yhtä painavaa vaatetta.",
+   "Varmista, että kone seisoo vaakasuorassa tukevalla lattialla.",
+   "Käynnistä linkous uudelleen."
+  ],
+  "technician": "Jos vika ilmenee tavallisilla, tasaisilla täytöillä, koneen kuluneet osat voi olla syytä tarkistaa."
+ },
+ "Samsung|LC": {
+  "title": "Poistoletkun ongelma / vuoto havaittu",
+  "causes": [
+   "Poistoletkun pää on lattialla.",
+   "Poistoletku on tukossa."
+  ],
+  "steps": [
+   "Sammuta kone.",
+   "Varmista, että poistoletkun pää on ylhäällä eikä lattialla.",
+   "Tarkista, ettei letkussa ole tukoksia.",
+   "Pyyhi vesi pois ja käynnistä uudelleen."
+  ],
+  "technician": "Jos vettä vuotaa edelleen tai koodi palaa, ota yhteys Samsungin huoltoon."
+ },
+ "Samsung|3C": {
+  "title": "Rummun moottorin ongelma",
+  "causes": [
+   "Moottori ei toimi odotetusti."
+  ],
+  "steps": [
+   "Sammuta kone, odota minuutti ja käynnistä se uudelleen.",
+   "Tarkista, ettei täyttö ole liian suuri, ja käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi palaa, moottori tai sen ohjaus on tarkistettava huollossa."
+ },
+ "Samsung|AC": {
+  "title": "Piirilevyjen välinen tiedonsiirtovika",
+  "causes": [
+   "Pää- ja apuohjauskortti eivät saa yhteyttä toisiinsa."
+  ],
+  "steps": [
+   "Sammuta kone ja käynnistä se uudelleen.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi palaa yhä uudelleen, ota yhteys Samsungin huoltoon."
+ },
+ "Samsung|HC": {
+  "title": "Lämmitysjärjestelmän vika (liian kuuma)",
+  "causes": [
+   "Kone havaitsi lämmityksessä ylilämpöongelman."
+  ],
+  "steps": [
+   "Sammuta kone ja käynnistä se uudelleen.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi palaa, älä käytä kuumia ohjelmia ja ota yhteys Samsungin huoltoon."
+ },
+ "Samsung|1C": {
+  "title": "Vedenpinta-anturin vika",
+  "causes": [
+   "Vedenpintaa mittaava anturi ei toimi oikein."
+  ],
+  "steps": [
+   "Sammuta kone ja käynnistä se uudelleen.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi palaa, ota yhteys Samsungin huoltoon."
+ },
+ "Samsung|UC": {
+  "title": "Sähkönsyötön ongelma (jännite liian alhainen tai epävakaa)",
+  "causes": [
+   "Verkkojännite on alhainen tai epävakaa.",
+   "Lyhyt sähkökatko.",
+   "Löysä pistoke tai jatkojohto."
+  ],
+  "steps": [
+   "Tarkista, että pistoke on painettu tiukasti pistorasiaan.",
+   "Vältä jatkojohtoja ja adaptereita.",
+   "Odota, että sähkönsyöttö vakiintuu, ja käynnistä sitten uudelleen."
+  ],
+  "technician": "Jos vika toistuu usein, pyydä sähköasentajaa tarkistamaan sähkönsyöttö. Jos syöttö on kunnossa, ota yhteys Samsungin huoltoon."
+ },
+ "Samsung|8C": {
+  "title": "Tärinäanturin vika",
+  "causes": [
+   "Epätasapainon havaitseva anturi ei toimi oikein."
+  ],
+  "steps": [
+   "Sammuta kone ja käynnistä se uudelleen.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi palaa, ota yhteys Samsungin huoltoon."
+ },
+ "Samsung|ddC": {
+  "title": "Add Door -luukku avattu ilman uudelleenkäynnistystä",
+  "causes": [
+   "Pieni Add Door (AddWash) -luukku avattiin, ja kone odottaa."
+  ],
+  "steps": [
+   "Sulje Add Door -luukku kunnolla.",
+   "Jatka pitämällä Start/Pause-painiketta painettuna."
+  ],
+  "technician": "Ei yleensä tarpeen. Jos Add Door -luukku ei pysy kiinni, ota yhteys Samsungin huoltoon."
+ },
+ "LG|OE": {
+  "title": "Vesi ei poistu",
+  "causes": [
+   "Poistoletku on taittunut tai tukossa.",
+   "Poistopumpun suodatin on tukossa.",
+   "Liikaa vaahtoa liiallisesta pesuaineesta."
+  ],
+  "steps": [
+   "Tarkista koneen takana oleva poistoletku ja suorista mahdolliset taitokset.",
+   "Käynnistä pelkkä linkous ja kuuntele, kuuluuko pumpusta huminaa.",
+   "Irrota pesukoneen pistoke. Aseta astia poistopumpun kannen alle, tyhjennä vesi pienellä tyhjennysletkulla ja puhdista sitten pumpun suodatin.",
+   "Sulje tyhjennysletkun korkki tiukasti ja kiinnitä suodatin takaisin.",
+   "Käytä ensi kerralla vähemmän pesuainetta ja käynnistä Tub Clean -ohjelma."
+  ],
+  "technician": "Jos koodi palaa suodattimen ja letkun puhdistuksen jälkeen, pyydä LG:n huoltoa. Pumppu voi olla viallinen."
+ },
+ "LG|IE": {
+  "title": "Vesi ei täyty ajoissa",
+  "causes": [
+   "Hana on kiinni tai vesi on katkaistu.",
+   "Tulovesiletku on taittunut tai irti.",
+   "Tulovesisuodatin on tukossa.",
+   "Putket tai letkut ovat jäätyneet kylmällä säällä."
+  ],
+  "steps": [
+   "Varmista, että hana on kokonaan auki ja letku on kytketty.",
+   "Suorista taittunut tai litistynyt letku.",
+   "Sulje hana, irrota letku, puhdista tulovesisuodatin ja kiinnitä letku takaisin.",
+   "Pakkasella sulata hana ja letku lämpimällä (ei kiehuvalla) vedellä."
+  ],
+  "technician": "Jos vesi ei vieläkään virtaa, tuloventtiili voi olla viallinen. Pyydä huoltoa."
+ },
+ "LG|UE": {
+  "title": "Epätasainen kuorma",
+  "causes": [
+   "Pyykit ovat kasautuneet toiselle puolelle.",
+   "Täyttö on liian suuri tai liian pieni.",
+   "Isoja tai vedenpitäviä tekstiilejä.",
+   "Pesukone ei ole vaakatasossa."
+  ],
+  "steps": [
+   "Keskeytä pesukone ja levitä pyykit tasaisesti.",
+   "Täytä rumpu noin kahteen kolmasosaan.",
+   "Pese isot tekstiilit, kuten peitot, niille sopivalla ohjelmalla ja keskinopealla linkouksella.",
+   "Säädä pesukone vaakasuoraan säätöjalkojen avulla."
+  ],
+  "technician": "Jos vika ilmenee tavallisilla, tasaisilla täytöillä tasaisella lattialla, pyydä huoltoa."
+ },
+ "LG|LE": {
+  "title": "Moottori lukittunut, rumpu ei pyöri",
+  "causes": [
+   "Pesukone on ylitäytetty.",
+   "Kolikko tai pieni esine jumittaa rumpua."
+  ],
+  "steps": [
+   "Irrota pesukoneen pistoke ja odota 5 minuuttia.",
+   "Poista osa pyykeistä täytön pienentämiseksi.",
+   "Tarkista virta katkaistuna, ettei rummussa ole kolikoita tai pieniä esineitä, ja poista ne.",
+   "Kytke pistoke ja yritä uudelleen."
+  ],
+  "technician": "Jos LE näkyy yhä, irrota pesukoneen pistoke ja ota yhteys LG:n huoltoon."
+ },
+ "LG|dE": {
+  "title": "Luukku ei ole kiinni",
+  "causes": [
+   "Pyykkiä on jäänyt luukun ja tiivisteen väliin.",
+   "Luukku ei ole täysin kiinni."
+  ],
+  "steps": [
+   "Avaa luukku, irrota väliin jääneet vaatteet ja sulje luukku tiukasti.",
+   "Nollaus: irrota pesukoneen pistoke, pidä Start/Pause-painiketta painettuna 5 sekuntia, kytke pistoke takaisin ja yritä uudelleen."
+  ],
+  "technician": "Jos koodi ei poistu, pyydä LG:n huoltoa."
+ },
+ "LG|dE2": {
+  "title": "Luukku kiinni, mutta ei lukittunut",
+  "causes": [
+   "Rumpu on ylitäytetty.",
+   "Luukun tiivisteeseen on jäänyt jotain.",
+   "Luukun salpa on taipunut tai rikki."
+  ],
+  "steps": [
+   "Poista luukkua estävät esineet ja pienennä tarvittaessa täyttöä.",
+   "Avaa ja sulje luukku uudelleen.",
+   "Nollaa pesukone irrottamalla pistoke hetkeksi."
+  ],
+  "technician": "Jos lukko ei vieläkään lukitu, luukun salpa tai lukko on korjattava. Pyydä huoltoa."
+ },
+ "LG|CE": {
+  "title": "Moottorin ylivirta",
+  "causes": [
+   "Moottoripiirissä on liikaa virtaa esimerkiksi oikosulun, löysän liitännän tai jännitepiikin vuoksi."
+  ],
+  "steps": [
+   "Irrota pesukoneen pistoke 10 sekunniksi.",
+   "Kytke pistoke takaisin ja käynnistä ohjelma."
+  ],
+  "technician": "Jos CE palaa, sulje hana, irrota pesukoneen pistoke ja järjestä korjaus."
+ },
+ "LG|FE": {
+  "title": "Liikaa vettä (ylitäyttö)",
+  "causes": [
+   "Koneeseen tulee ylimääräistä vettä esimerkiksi pesuainelokeron kautta."
+  ],
+  "steps": [
+   "Tarkista, valuuko pesuainelokeron läpi vettä.",
+   "Irrota pesukoneen pistoke 60 sekunniksi ja käynnistä uudelleen.",
+   "Käynnistä lyhyt ohjelma ja katso, poistuuko vesi."
+  ],
+  "technician": "Jos FE näkyy edelleen, vesiventtiili tai anturi on tarkistettava. Pyydä huoltoa."
+ },
+ "LG|PE": {
+  "title": "Vedenpinta-anturin vika",
+  "causes": [
+   "Vedenpinta-anturi ei toimi kunnolla."
+  ],
+  "steps": [
+   "Irrota pesukoneen pistoke 10 sekunniksi.",
+   "Kytke pistoke takaisin ja käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos PE palaa, järjestä korjaus."
+ },
+ "LG|AE": {
+  "title": "Pesukoneen sisällä havaittu vuoto",
+  "causes": [
+   "Koneen sisällä vuotaa vettä.",
+   "Vaurioitunut tai löysä tulovesiletku.",
+   "Viallinen vuotosuojakytkin."
+  ],
+  "steps": [
+   "Tarkista, ettei tulovesiletkussa ole viiltoja tai löysiä liitäntöjä.",
+   "Irrota pesukoneen pistoke 60 sekunniksi ja käynnistä uudelleen."
+  ],
+  "technician": "Jos AE näkyy edelleen, sulje hana ja tilaa huoltokäynti."
+ },
+ "LG|tE": {
+  "title": "Lämmityksen / lämpötila-anturin virhe",
+  "causes": [
+   "Yleensä viallinen lämpötila-anturi (termistori)."
+  ],
+  "steps": [
+   "Irrota pesukoneen pistoke 10 sekunniksi ja kytke se sitten takaisin.",
+   "Valitse \"ei linkousta\" veden tyhjentämiseksi ja käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos tE palaa, sulje hanat, irrota pesukoneen pistoke ja järjestä huolto."
+ },
+ "LG|Sud": {
+  "title": "Liikaa vaahtoa",
+  "causes": [
+   "Liikaa pesuainetta.",
+   "Käytössä muu kuin HE-pesuaine tai väärä pesuainetyyppi."
+  ],
+  "steps": [
+   "Anna pesukoneen suorittaa vaahdonpoistovaihe loppuun.",
+   "Käytä ensi kerralla vähemmän pesuainetta ja vain vähävaahtoista (HE) pesuainetta.",
+   "Laita pesujauhe tai pesukapselit käyttöohjeen osoittamaan paikkaan, ei nestemäisen pesuaineen kuppiin."
+  ],
+  "technician": "Ei yleensä tarpeen. Jos koodi näkyy hyvin pienelläkin pesuainemäärällä, pyydä huoltoa."
+ },
+ "LG|PF": {
+  "title": "Sähkökatko ohjelman aikana",
+  "causes": [
+   "Sähköt katkesivat pesukoneen ollessa käynnissä."
+  ],
+  "steps": [
+   "Irrota pesukoneen pistoke tai katkaise sen sulake.",
+   "Pidä Start/Pause-painiketta painettuna 5 sekuntia, kun pistoke on irti.",
+   "Palauta virta ja käynnistä ohjelma."
+  ],
+  "technician": "Jos PF näkyy yhä ilman sähkökatkoja, järjestä korjaus."
+ },
+ "LG|FF": {
+  "title": "Vesi jäätynyt pesukoneessa",
+  "causes": [
+   "Lämpötila koneen sisällä laski pakkasen puolelle, ja letkuissa tai altaassa oleva vesi jäätyi."
+  ],
+  "steps": [
+   "Ota pyykit pois.",
+   "Kaada rumpuun lämmintä vettä (noin 50–60 °C, ei koskaan kiehuvaa) ja odota 1–2 tuntia.",
+   "Tyhjennä vesi tyhjennysletkun kautta ja sulje letkun korkki.",
+   "Sulata jäätyneet tulovesiletkut lämpimässä vedessä, kiinnitä ne takaisin ja käynnistä huuhteluohjelma."
+  ],
+  "technician": "Jos FF näkyy, vaikka ei ole kylmä, pyydä huoltoa."
+ },
+ "Siemens|E16": {
+  "title": "Luukku ei ole lukittunut",
+  "causes": [
+   "Pyykkiä on jäänyt luukkuun.",
+   "Luukku ei ole kunnolla kiinni."
+  ],
+  "steps": [
+   "Avaa luukku ja sulje se uudelleen tiukasti.",
+   "Poista tarvittaessa muutama vaatekappale ja paina luukku kiinni.",
+   "Paina Start-painiketta uudelleen tai sammuta kone, käynnistä se ja käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos luukku ei lukitu, ota yhteys Siemensin huoltoon."
+ },
+ "Siemens|E17": {
+  "title": "Veden täyttyminen kesti liian kauan",
+  "causes": [
+   "Alhainen vedenpaine.",
+   "Tulovesiletkun suodatin on tukossa.",
+   "AquaStop-letku on tukossa."
+  ],
+  "steps": [
+   "Tarkista, että hana on kokonaan auki.",
+   "Tarkista virtaus: kokonaan auki olevasta hanasta pitäisi tulla noin 10 litraa minuutissa.",
+   "Sulje hana ja puhdista tulovesiletkun suodatin.",
+   "Varmista, ettei letku ole taittunut."
+  ],
+  "technician": "Jos paine on liian alhainen, ota yhteys putkiasentajaan. Jos vedensyöttö on kunnossa, ota yhteys Siemensin huoltoon."
+ },
+ "Siemens|E18": {
+  "title": "Vesi ei poistu",
+  "causes": [
+   "Pumpun suodatin on tukossa.",
+   "Poistoletku on tukossa tai taittunut."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke. Anna kuuman veden jäähtyä.",
+   "Aseta pyyhkeitä ja matala astia suodatinluukun alle ja tyhjennä vesi.",
+   "Puhdista pumpun suodatin ja kiinnitä se tiukasti takaisin.",
+   "Suorista poistoletku ja tarkista, ettei siinä ole tukoksia."
+  ],
+  "technician": "Jos vesi ei vieläkään poistu, ota yhteys Siemensin huoltoon."
+ },
+ "Siemens|E19": {
+  "title": "Veden lämpeneminen kesti liian kauan",
+  "causes": [
+   "Vika lämmitysjärjestelmässä."
+  ],
+  "steps": [
+   "Sammuta kone ja käynnistä se uudelleen, ja käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Siemensin mukaan käyttäjä ei voi korjata tätä itse. Tilaa huoltokäynti."
+ },
+ "Siemens|E20": {
+  "title": "Odottamaton lämmitys",
+  "causes": [
+   "Lämmitys havaittiin, vaikka sen pitäisi olla pois päältä."
+  ],
+  "steps": [
+   "Sammuta kone ja käynnistä se uudelleen."
+  ],
+  "technician": "Jos vika jatkuu, tilaa Siemensin huoltokäynti."
+ },
+ "Siemens|E23": {
+  "title": "Vuoto – vettä pohjalla",
+  "causes": [
+   "Kone vuotaa, tai pohjalevylle on kertynyt vettä."
+  ],
+  "steps": [
+   "Sulje vesihana heti.",
+   "Sammuta kone ja irrota pistoke.",
+   "Pyyhi vesi lattialta."
+  ],
+  "technician": "Ota yhteys Siemensin huoltoon vuodon paikantamiseksi ja korjaamiseksi."
+ },
+ "Siemens|E25": {
+  "title": "Sameusanturin vika",
+  "causes": [
+   "Veden kirkkautta mittaava anturi on viallinen."
+  ],
+  "steps": [
+   "Sammuta kone ja käynnistä se uudelleen."
+  ],
+  "technician": "Tilaa Siemensin huoltokäynti."
+ },
+ "Siemens|E26": {
+  "title": "Vedenpinta-anturin vika",
+  "causes": [
+   "Analoginen paineanturi on viallinen."
+  ],
+  "steps": [
+   "Sammuta kone ja käynnistä se uudelleen."
+  ],
+  "technician": "Tilaa Siemensin huoltokäynti."
+ },
+ "Siemens|E29": {
+  "title": "Veden tulon ongelma",
+  "causes": [
+   "Alhainen vedenpaine tai tukossa oleva tulosuodatin tai AquaStop-letku."
+  ],
+  "steps": [
+   "Tarkista, että hana on kokonaan auki ja virtaus on noin 10 litraa minuutissa.",
+   "Sulje hana ja puhdista tulovesiletkun suodatin.",
+   "Varmista, ettei letku ole taittunut."
+  ],
+  "technician": "Jos vedensyöttö on kunnossa ja koodi palaa, ota yhteys Siemensin huoltoon."
+ },
+ "Siemens|E32": {
+  "title": "Epätasainen kuorma – linkous pysähtyi",
+  "causes": [
+   "Pyykit ovat jakautuneet rumpuun epätasaisesti. Kyseessä ei ole vika."
+  ],
+  "steps": [
+   "Levitä isot ja pienet vaatteet tasaisesti rumpuun.",
+   "Käynnistä linkous uudelleen."
+  ],
+  "technician": "Ei tarpeen, ellei näin käy jokaisella tavallisella täytöllä."
+ },
+ "Siemens|E33": {
+  "title": "Liikaa vaahtoa",
+  "causes": [
+   "Liikaa pesuainetta, etenkin pehmeällä vedellä tai vähän likaisella pyykillä."
+  ],
+  "steps": [
+   "Käytä ensi kerralla vähemmän pesuainetta.",
+   "Poista vaahto käynnistämällä huuhteluohjelma."
+  ],
+  "technician": "Ei yleensä tarpeen."
+ },
+ "Siemens|E34": {
+  "title": "Luukku ei ole lukittunut",
+  "causes": [
+   "Luukku ei ole täysin kiinni, usein koska rumpu on hyvin täynnä.",
+   "Jokin vaatekappale on jäänyt luukun ja rungon väliin."
+  ],
+  "steps": [
+   "Tarkista, ettei luukkuun ole jäänyt vaatteita.",
+   "Sulje luukku, kunnes se napsahtaa.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos luukku ei vieläkään lukitu, ota yhteys Siemensin huoltoon."
+ },
+ "AEG|E10": {
+  "title": "Vedensyötön ongelma",
+  "causes": [
+   "Vedensyöttö on rajoittunut tai katkennut, esimerkiksi hana on kiinni tai letku taittunut."
+  ],
+  "steps": [
+   "Tarkista, että vesihana on kokonaan auki.",
+   "Varmista, ettei tulovesiletku ole taittunut tai litistynyt.",
+   "Nollaus: katkaise virta pistorasiasta noin minuutiksi, kytke se takaisin ja käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi palaa heti tai kone ei vieläkään täyty vedellä, tilaa korjaus."
+ },
+ "AEG|E20": {
+  "title": "Veden poiston ongelma",
+  "causes": [
+   "Poistopumpun suodatin tai poistoletku on tukossa."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke. Anna kuuman veden jäähtyä.",
+   "Tyhjennä vesi astiaan ja puhdista poistopumpun suodatin.",
+   "Tarkista, ettei poistoletku ole taittunut tai tukossa.",
+   "Kytke pistoke ja käynnistä tyhjennys tai linkous."
+  ],
+  "technician": "Jos vesi ei vieläkään poistu, tilaa korjaus."
+ },
+ "AEG|E30": {
+  "title": "Vedenpaineen (vedenpinnan) anturin ongelma",
+  "causes": [
+   "Vedenpintaa mittaavassa anturissa on vika, tai liiallinen vaahto vääristää lukemaa."
+  ],
+  "steps": [
+   "Katkaise virta pistorasiasta noin minuutiksi ja kytke se sitten takaisin.",
+   "Käytä oikea määrä pesuainetta."
+  ],
+  "technician": "Jos koodi palaa, tilaa korjaus."
+ },
+ "AEG|E40": {
+  "title": "Luukun lukon ongelma",
+  "causes": [
+   "Luukku ei ole kunnolla kiinni, tai luukun lukossa on vika."
+  ],
+  "steps": [
+   "Avaa luukku, tarkista, ettei tiivisteeseen ole jäänyt mitään, ja sulje luukku tiukasti.",
+   "Katkaise virta pistorasiasta noin minuutiksi ja käynnistä sitten uudelleen."
+  ],
+  "technician": "Jos luukku ei vieläkään lukitu, tilaa korjaus."
+ },
+ "AEG|E50": {
+  "title": "Moottorin ongelma",
+  "causes": [
+   "Vika moottorissa tai voimansiirrossa."
+  ],
+  "steps": [
+   "Katkaise virta pistorasiasta noin minuutiksi ja käynnistä sitten uudelleen."
+  ],
+  "technician": "Jos rumpu ei vieläkään pyöri, tilaa korjaus."
+ },
+ "AEG|E60": {
+  "title": "Lämmityksen ongelma",
+  "causes": [
+   "Vika lämmitysvastuksessa tai lämpötila-anturissa."
+  ],
+  "steps": [
+   "Katkaise virta pistorasiasta noin minuutiksi ja käynnistä sitten uudelleen."
+  ],
+  "technician": "Jos koodi palaa, tilaa korjaus."
+ },
+ "AEG|EF0": {
+  "title": "Varoitus: vuoto, liikaa vaahtoa tai epätasainen kuorma",
+  "causes": [
+   "Koneen sisällä vuotaa vettä.",
+   "Liikaa pesuainevaahtoa.",
+   "Epätasainen kuorma."
+  ],
+  "steps": [
+   "Sammuta kone, irrota pistoke ja tarkista, onko lattialla vettä.",
+   "Jos vuotoa ei ole, käytä vähemmän pesuainetta ja levitä pyykit tasaisesti.",
+   "Käynnistä uudelleen, kun vaahto on laskeutunut."
+  ],
+  "technician": "Jos huomaat vuodon tai koodi palaa yhä, sulje hana ja tilaa korjaus."
+ },
+ "AEG|EH0": {
+  "title": "Sähkönsyötön ongelma",
+  "causes": [
+   "Verkkojännite on epäsäännöllinen tai epävakaa."
+  ],
+  "steps": [
+   "Kytke kone suoraan pistorasiaan ilman jatkojohtoja.",
+   "Katkaise virta noin minuutiksi ja kytke se sitten takaisin."
+  ],
+  "technician": "Jos vika toistuu, pyydä sähköasentajaa tarkistamaan sähkönsyöttö."
+ },
+ "Hotpoint|F01": {
+  "title": "Elektroniikkapiirilevyn vika",
+  "causes": [
+   "Vika ohjauskortissa. Osa toiminnoista tai kaikki toiminnot eivät toimi."
+  ],
+  "steps": [
+   "Irrota koneen pistoke vähintään 2 minuutiksi.",
+   "Kytke pistoke, odota 30 sekuntia ja yritä uudelleen."
+  ],
+  "technician": "Jos vika ei poistu, tilaa Hotpointin huoltoasentaja."
+ },
+ "Hotpoint|F02": {
+  "title": "Moottoripiirin vika",
+  "causes": [
+   "Vika moottoripiirissä. Rumpu pyörii katkonaisesti tai ei lainkaan."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke."
+  ],
+  "technician": "Tilaa Hotpointin huoltoasentaja."
+ },
+ "Hotpoint|F03": {
+  "title": "Lämpötila-anturin vika",
+  "causes": [
+   "Lämpötilaa mittaava piiri on viallinen, joten kone ei lämmitä vettä."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke."
+  ],
+  "technician": "Tilaa Hotpointin huoltoasentaja."
+ },
+ "Hotpoint|F05": {
+  "title": "Poisto tukossa tai pumpun ongelma",
+  "causes": [
+   "Pumpun suodatin, poistoletku tai pesualtaan alla oleva viemäriputki on tukossa.",
+   "Poistopumppu on rikki."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke. Anna kuuman veden jäähtyä.",
+   "Jos mallissasi on pumpun suodatin, tyhjennä vesi astiaan ja puhdista suodatin.",
+   "Tarkista, ettei poistoletkussa tai pesualtaan alla olevassa putkessa ole tukoksia.",
+   "Kytke pistoke ja kokeile tyhjennystä tai linkousta."
+  ],
+  "technician": "Jos vesi ei vieläkään poistu, pumppu on todennäköisesti rikki. Tilaa huoltoasentaja."
+ },
+ "Hotpoint|F06": {
+  "title": "Luukun lukon vika",
+  "causes": [
+   "Luukun lukko on jumissa tai viallinen."
+  ],
+  "steps": [
+   "Tarkista, ettei luukun tai lukon alueella ole esteitä.",
+   "Sulje luukku tiukasti ja käynnistä uudelleen.",
+   "Tarkista Hotpointin turvallisuustiedotteiden sivu – osa luukkujen lukoista on takaisinkutsun piirissä."
+  ],
+  "technician": "Jos vika jatkuu, tilaa huoltoasentaja."
+ },
+ "Hotpoint|F07": {
+  "title": "Lämmityspiirin / ohjauskortin vika",
+  "causes": [
+   "Vika lämmityspiirissä tai ohjauskortissa. Pesu keskeytyy, ja pumppu voi jäädä käyntiin."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke."
+  ],
+  "technician": "Tilaa Hotpointin huoltoasentaja."
+ },
+ "Hotpoint|F08": {
+  "title": "Lämmitysvastuksen vika",
+  "causes": [
+   "Lämmitysvastus on viallinen, joten ohjelma keskeytyy kesken pesun."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke."
+  ],
+  "technician": "Tilaa Hotpointin huoltoasentaja."
+ },
+ "Hotpoint|F09": {
+  "title": "Ohjelmistovika",
+  "causes": [
+   "Ohjelmisto-ongelma. Merkkivalot vilkkuvat, eikä ohjelmaa voi valita."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke."
+  ],
+  "technician": "Tilaa Hotpointin huoltoasentaja."
+ },
+ "Hotpoint|F11": {
+  "title": "Poistopumpun piirin vika",
+  "causes": [
+   "Vika pumppupiirissä. Vesi jää rumpuun."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke.",
+   "Älä avaa luukkua, kun rummussa on vettä."
+  ],
+  "technician": "Tilaa Hotpointin huoltoasentaja."
+ },
+ "Hotpoint|F12": {
+  "title": "Elektronisen ohjauksen vika",
+  "causes": [
+   "Vika ohjauksessa. Kone ei käynnisty."
+  ],
+  "steps": [
+   "Tarkista toisella laitteella, että pistoke ja pistorasia toimivat."
+  ],
+  "technician": "Tilaa Hotpointin huoltoasentaja."
+ },
+ "Hotpoint|F15": {
+  "title": "Lämmityksen ohjauksen vika",
+  "causes": [
+   "Vika lämmityksen ohjauksessa. Vesi ei lämpene tai pesu keskeytyy."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke."
+  ],
+  "technician": "Tilaa Hotpointin huoltoasentaja."
+ },
+ "Hotpoint|F18": {
+  "title": "Sisäinen datavirhe",
+  "causes": [
+   "Sisäinen dataongelma. Osa näytön toiminnoista tai kaikki toiminnot eivät toimi."
+  ],
+  "steps": [
+   "Irrota koneen pistoke vähintään 2 minuutiksi.",
+   "Kytke pistoke, odota 30 sekuntia ja yritä uudelleen."
+  ],
+  "technician": "Jos vika ei poistu, tilaa Hotpointin huoltoasentaja."
+ },
+ "Indesit|F01": {
+  "title": "Elektroniikkapiirilevyn vika",
+  "causes": [
+   "Vika ohjauskortissa. Osaa toiminnoista tai mitään toimintoa ei voi valita."
+  ],
+  "steps": [
+   "Irrota koneen pistoke vähintään 2 minuutiksi.",
+   "Kytke pistoke, odota 30 sekuntia ja yritä uudelleen."
+  ],
+  "technician": "Jos vika ei poistu, tilaa Indesitin huoltoasentaja."
+ },
+ "Indesit|F02": {
+  "title": "Moottoripiirin vika",
+  "causes": [
+   "Vika moottoripiirissä. Rumpu pyörii katkonaisesti tai ei lainkaan."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke."
+  ],
+  "technician": "Tilaa Indesitin huoltoasentaja."
+ },
+ "Indesit|F03": {
+  "title": "Lämpötila-anturin vika",
+  "causes": [
+   "Lämpötilaa mittaava piiri on viallinen, joten kone ei lämmitä vettä."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke."
+  ],
+  "technician": "Tilaa Indesitin huoltoasentaja."
+ },
+ "Indesit|F05": {
+  "title": "Poisto tukossa tai pumpun ongelma",
+  "causes": [
+   "Pumpun suodatin, poistoletku tai pesualtaan alla oleva viemäriputki on tukossa.",
+   "Poistopumppu on rikki."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke. Anna kuuman veden jäähtyä.",
+   "Jos mallissasi on pumpun suodatin, tyhjennä vesi astiaan ja puhdista suodatin.",
+   "Tarkista, ettei poistoletkussa tai pesualtaan alla olevassa putkessa ole tukoksia.",
+   "Kytke pistoke ja kokeile tyhjennystä tai linkousta."
+  ],
+  "technician": "Jos vesi ei vieläkään poistu, pumppu on todennäköisesti rikki. Tilaa huoltoasentaja."
+ },
+ "Indesit|F06": {
+  "title": "Luukun lukon vika",
+  "causes": [
+   "Luukun lukko on jumissa tai viallinen."
+  ],
+  "steps": [
+   "Tarkista, ettei luukun tai lukon alueella ole esteitä.",
+   "Sulje luukku tiukasti ja käynnistä uudelleen.",
+   "Tarkista valmistajan turvallisuustiedote – osa luukkujen lukoista on takaisinkutsun piirissä."
+  ],
+  "technician": "Jos vika jatkuu, tilaa huoltoasentaja."
+ },
+ "Indesit|F07": {
+  "title": "Lämmityspiirin / ohjauskortin vika",
+  "causes": [
+   "Vika lämmityspiirissä tai ohjauskortissa. Pesu keskeytyy, ja pumppu voi jäädä käyntiin."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke."
+  ],
+  "technician": "Tilaa Indesitin huoltoasentaja."
+ },
+ "Indesit|F08": {
+  "title": "Lämmitysvastuksen vika",
+  "causes": [
+   "Lämmitysvastus on viallinen, joten ohjelma keskeytyy kesken pesun."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke."
+  ],
+  "technician": "Tilaa Indesitin huoltoasentaja."
+ },
+ "Indesit|F09": {
+  "title": "Ohjelmistovika",
+  "causes": [
+   "Ohjelmisto-ongelma. Merkkivalot vilkkuvat, eikä ohjelmaa voi valita."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke."
+  ],
+  "technician": "Tilaa Indesitin huoltoasentaja."
+ },
+ "Indesit|F11": {
+  "title": "Poistopumpun piirin vika",
+  "causes": [
+   "Vika pumppupiirissä. Vesi jää rumpuun."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke.",
+   "Älä avaa luukkua, kun rummussa on vettä."
+  ],
+  "technician": "Tilaa Indesitin huoltoasentaja."
+ },
+ "Indesit|F12": {
+  "title": "Elektronisen ohjauksen vika",
+  "causes": [
+   "Vika ohjauksessa. Kone ei käynnisty."
+  ],
+  "steps": [
+   "Tarkista toisella laitteella, että pistoke ja pistorasia toimivat."
+  ],
+  "technician": "Tilaa Indesitin huoltoasentaja."
+ },
+ "Indesit|F15": {
+  "title": "Lämmityksen ohjauksen vika",
+  "causes": [
+   "Vika lämmityksen ohjauksessa. Vesi ei lämpene tai pesu keskeytyy."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke."
+  ],
+  "technician": "Tilaa Indesitin huoltoasentaja."
+ },
+ "Indesit|F18": {
+  "title": "Sisäinen datavirhe",
+  "causes": [
+   "Sisäinen dataongelma. Osa näytön toiminnoista tai kaikki toiminnot eivät toimi."
+  ],
+  "steps": [
+   "Irrota koneen pistoke vähintään 2 minuutiksi.",
+   "Kytke pistoke, odota 30 sekuntia ja yritä uudelleen."
+  ],
+  "technician": "Jos vika ei poistu, tilaa Indesitin huoltoasentaja."
+ },
+ "Beko|E5": {
+  "title": "Pumpun suodatin voi olla tukossa (veden poiston ongelma)",
+  "causes": [
+   "Pumpun suodatin on tukossa, joten vesi ei pääse poistumaan."
+  ],
+  "steps": [
+   "Sammuta kone ja irrota pistoke. Anna kuuman veden jäähtyä.",
+   "Tyhjennä jäljellä oleva vesi astiaan ja puhdista pumpun suodatin.",
+   "Kiinnitä suodatin tiukasti takaisin ja käynnistä linkous."
+  ],
+  "technician": "Jos ongelma jatkuu, ota yhteys Bekon huoltoon."
+ },
+ "Beko|E8": {
+  "title": "Vettä ei tule koneeseen",
+  "causes": [
+   "Hana on kiinni tai vedenjakelu on katkaistu.",
+   "Tulovesiletku on taittunut tai löysällä.",
+   "Etuosan suodatinkansi ei ole kiinni ja lukittuna."
+  ],
+  "steps": [
+   "Avaa hana ja tarkista, että vesijohdosta tulee vettä.",
+   "Tarkista tulovesiletkun liitäntä ja suorista mahdolliset taitokset.",
+   "Varmista, että etukansi on suljettu ja lukittu.",
+   "Käynnistä kone uudelleen."
+  ],
+  "technician": "Jos ongelma jatkuu, ota yhteys Bekon huoltoon."
+ },
+ "Beko|E12": {
+  "title": "Koneen sisällä voi olla vettä (vuoto)",
+  "causes": [
+   "Koneen sisälle on kertynyt vettä, mahdollisesti vuodon vuoksi."
+  ],
+  "steps": [
+   "Irrota koneen pistoke.",
+   "Pyyhi koneen alta mahdollinen vesi.",
+   "Kytke pistoke ja käynnistä lyhyt ohjelma koneen toimintaa seuraten."
+  ],
+  "technician": "Jos letkusta vuotaa vettä tai koodi palaa, sulje hanat ja ota yhteys Bekon huoltoon."
+ },
+ "Beko|E17": {
+  "title": "Liikaa vaahtoa",
+  "causes": [
+   "Liikaa pesuainetta täyttöön nähden.",
+   "Pesuaine on laitettu väärään lokeroon tai sitä on säilytetty huonosti."
+  ],
+  "steps": [
+   "Annostele pesuaine täytön koon ja likaisuuden mukaan.",
+   "Käytä vähemmän pesuainetta hyvin imukykyisille tekstiileille.",
+   "Käynnistä rummunpuhdistusohjelma (tai Puuvilla 90 °C) tyhjällä rummulla."
+  ],
+  "technician": "Jos ongelma jatkuu, ota yhteys Bekon huoltoon."
+ },
+ "Beko|E18": {
+  "title": "Epätasainen kuorma – linkous ei käynnistynyt",
+  "causes": [
+   "Liian vähän pyykkiä, tai pyykit ovat kasautuneet toiselle puolelle."
+  ],
+  "steps": [
+   "Lisää vaatteita, jos täyttö on hyvin pieni.",
+   "Levitä pyykit tasaisesti käsin.",
+   "Käynnistä linkous uudelleen."
+  ],
+  "technician": "Ei yleensä tarpeen."
+ },
+ "Beko|E27": {
+  "title": "Veden poiston ongelma",
+  "causes": [
+   "Poistoletkua ei ole kytketty oikein."
+  ],
+  "steps": [
+   "Tarkista poistoletkun liitäntä viemäriin.",
+   "Varmista, ettei letku ole taittunut tai tukossa."
+  ],
+  "technician": "Jos ongelma jatkuu, ota yhteys Bekon huoltoon."
+ },
+ "Beko|E29": {
+  "title": "Itsesuojaustila (syöttöongelma)",
+  "causes": [
+   "Ongelma verkkojännitteessä tai vedenpaineessa."
+  ],
+  "steps": [
+   "Peruuta ohjelma kääntämällä ohjelmanvalitsin toiseen ohjelmaan.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos ongelma jatkuu, ota yhteys Bekon huoltoon."
+ },
+ "Miele|F10": {
+  "title": "Veden tulo tukossa tai rajoittunut",
+  "causes": [
+   "Sulkuventtiili (hana) on kiinni.",
+   "Tulovesisuodatin on likainen.",
+   "Tulovesiletku on taittunut.",
+   "Vedenpaine on liian alhainen."
+  ],
+  "steps": [
+   "Pysäytä ohjelma ja avaa hana kokonaan.",
+   "Sulje hana, kierrä tulovesiletku irti, ota pieni suodatin pois, puhdista se ja aseta se takaisin.",
+   "Kiinnitä letku takaisin, avaa hana ja tarkista, ettei liitoksesta tipu vettä.",
+   "Suorista letkun mahdolliset taitokset.",
+   "Tarkista virtaus: 15 sekunnissa pitäisi tulla vähintään 5 litraa."
+  ],
+  "technician": "Jos paine on liian alhainen, ota yhteys putkiasentajaan. Jos letku on vaurioitunut, Mielen huolto voi vaihtaa sen."
+ },
+ "Miele|F11": {
+  "title": "Veden poisto rajoittunut",
+  "causes": [
+   "Poistoletkun pää on yli 1 metrin korkeudella.",
+   "Poistoletku on taittunut.",
+   "Poistosuodatin tai pumppu on tukossa esimerkiksi nappien tai kolikoiden vuoksi."
+  ],
+  "steps": [
+   "Sammuta kone. Anna kuuman veden jäähtyä palovammojen välttämiseksi.",
+   "Laske poistoletkun pää enintään 1 metrin korkeudelle ja poista taitokset.",
+   "Avaa poistopumpun luukku, aseta astia alle ja kierrä poistosuodatinta hitaasti auki, jotta vesi pääsee valumaan.",
+   "Puhdista suodatin, tarkista, että pumpun siipipyörä pyörii vapaasti, ja kierrä suodatin tiukasti takaisin."
+  ],
+  "technician": "Jos vika jatkuu, ota yhteys Mielen huoltoon."
+ },
+ "Miele|F15": {
+  "title": "Kuuman veden tulo tukossa tai rajoittunut",
+  "causes": [
+   "Kuumavesihana ei ole kokonaan auki.",
+   "Kuuman veden tulosuodatin on likainen.",
+   "Kuuman veden paine on liian alhainen."
+  ],
+  "steps": [
+   "Avaa kuumavesihana kokonaan ja käynnistä uudelleen.",
+   "Sulje hana, kierrä kuumavesiletku irti, puhdista pieni suodatin ja kiinnitä letku takaisin.",
+   "Tarkista virtaus: vähintään 5 litraa 15 sekunnissa."
+  ],
+  "technician": "Jos paine on liian alhainen eikä sitä voi nostaa, ota yhteys putkiasentajaan tai Mielen huoltoon."
+ },
+ "Miele|F20": {
+  "title": "Lämmityksen vika",
+  "causes": [
+   "Asetettua lämpötilaa ei saavutettu ajoissa (Thermostop).",
+   "Tekninen vika lämmitysjärjestelmässä."
+  ],
+  "steps": [
+   "Katkaise virta pistorasiasta ja irrota pistoke tai katkaise virta sulakkeesta.",
+   "Odota vähintään 2 minuuttia.",
+   "Kytke virta takaisin, käynnistä kone ja käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos F20 palaa, ota yhteys Mielen huoltoon."
+ },
+ "Miele|F34": {
+  "title": "Luukkua ei voitu lukita",
+  "causes": [
+   "Rumpu on ylitäytetty.",
+   "Tekninen vika lukossa."
+  ],
+  "steps": [
+   "Ota osa pyykeistä pois, jotta täyttö on sallitun rajan sisällä.",
+   "Sammuta kone ja käynnistä se uudelleen.",
+   "Irrota tarvittaessa pistoke vähintään 2 minuutiksi, kytke se takaisin ja käynnistä kone."
+  ],
+  "technician": "Jos vika palaa, ota yhteys Mielen huoltoon."
+ },
+ "Miele|F35": {
+  "title": "Luukun lukitusta ei voitu avata",
+  "causes": [
+   "Tekninen vika luukun lukossa."
+  ],
+  "steps": [
+   "Katkaise virta pistorasiasta ja irrota pistoke tai katkaise virta sulakkeesta.",
+   "Odota vähintään 2 minuuttia, kytke virta takaisin ja käynnistä kone."
+  ],
+  "technician": "Jos luukku ei vieläkään aukea, ota yhteys Mielen huoltoon. Älä avaa luukkua väkisin."
+ },
+ "Miele|Waterproof system activated": {
+  "title": "Vuotosuoja lauennut",
+  "causes": [
+   "Koneen sisältä on havaittu vettä vuodon vuoksi."
+  ],
+  "steps": [
+   "Irrota koneen pistoke.",
+   "Sulje vesihana.",
+   "Pyyhi vesi lattialta.",
+   "Älä käytä konetta ennen kuin se on korjattu."
+  ],
+  "technician": "Mielen mukaan vuodon saa korjata vain Mielen huolto. Älä yritä korjata sitä itse."
+ }
+}

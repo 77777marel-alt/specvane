@@ -1,0 +1,1180 @@
+{
+ "LG|CH00": {
+  "title": "Enheten må undersøkes (generell feil)",
+  "causes": [
+   "En midlertidig svingning i strømmen eller en elektrisk forstyrrelse.",
+   "En intern feil som må sjekkes."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis CH00 kommer tilbake etter at strømmen er slått av og på, bestill en LG-tekniker."
+ },
+ "LG|CH01": {
+  "title": "Feil på temperatursensoren",
+  "causes": [
+   "En temperatursensor eller rørsensor er defekt eller har løsnet.",
+   "En feil på hovedkortet eller en kort elektrisk forstyrrelse."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten.",
+   "Sjekk om koden er borte."
+  ],
+  "technician": "Hvis koden kommer tilbake etter en tilbakestilling, slutt å bruke enheten og bestill LG-service. Ikke åpne enheten."
+ },
+ "LG|CH02": {
+  "title": "Feil på temperatursensoren",
+  "causes": [
+   "En temperatursensor eller rørsensor er defekt eller har løsnet.",
+   "En feil på hovedkortet eller en kort elektrisk forstyrrelse."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten.",
+   "Sjekk om koden er borte."
+  ],
+  "technician": "Hvis koden kommer tilbake etter en tilbakestilling, slutt å bruke enheten og bestill LG-service. Ikke åpne enheten."
+ },
+ "LG|CH06": {
+  "title": "Feil på temperatursensoren",
+  "causes": [
+   "En temperatursensor eller rørsensor er defekt eller har løsnet.",
+   "En feil på hovedkortet eller en kort elektrisk forstyrrelse."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten.",
+   "Sjekk om koden er borte."
+  ],
+  "technician": "Hvis koden kommer tilbake etter en tilbakestilling, slutt å bruke enheten og bestill LG-service. Ikke åpne enheten."
+ },
+ "LG|CH21": {
+  "title": "Feil på kompressoren eller drivkretsen i utedelen",
+  "causes": [
+   "Et kort problem med strømmen.",
+   "En feil på kompressoren, drivkretsen eller beskyttelseskretsen i utedelen."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden vedvarer, slutt å bruke enheten og bestill en LG-tekniker."
+ },
+ "LG|CH26": {
+  "title": "Feil på kompressoren eller drivkretsen i utedelen",
+  "causes": [
+   "Et kort problem med strømmen.",
+   "En feil på kompressoren, drivkretsen eller beskyttelseskretsen i utedelen."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden vedvarer, slutt å bruke enheten og bestill en LG-tekniker."
+ },
+ "LG|CH04": {
+  "title": "Problem med avløpet eller full kondensvannstank",
+  "causes": [
+   "Avløpet i innedelen fungerer ikke (takmonterte enheter).",
+   "På vindus- og mobile enheter er kondensvanntanken full, ofte på fuktige dager."
+  ],
+  "steps": [
+   "Slå av enheten og trekk ut støpselet.",
+   "På vindus- eller mobile enheter setter du en balje på omtrent 1,5 l under avløpsåpningen nederst bak og tar av avløpskorken.",
+   "La vannet renne ut, og sett korken godt på plass igjen.",
+   "Du kan montere en avløpsslange for kontinuerlig tømming; sørg for at det ikke drypper vann på noen under."
+  ],
+  "technician": "Hvis CH04/FL vises ofte selv i tørt vær, eller på en takmontert enhet etter en tilbakestilling, bestill LG-service."
+ },
+ "LG|CH05": {
+  "title": "Kommunikasjonsfeil mellom innedel og utedel",
+  "causes": [
+   "Innedelen og utedelen kan ikke kommunisere.",
+   "Ledningsproblem etter ny installasjon eller flytting."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden står etter en tilbakestilling, eller enheten nettopp er installert eller flyttet, bestill service."
+ },
+ "LG|CH07": {
+  "title": "Konflikt mellom driftsmoduser",
+  "causes": [
+   "To innedeler i samme system står i motsatte moduser (varme mot kjøling/avfukting)."
+  ],
+  "steps": [
+   "Sett alle innedelene på varme, eller alle på kjøling/avfukting.",
+   "Vifte- og luftrensingsmodus kan kjøres sammen med alle moduser."
+  ],
+  "technician": "Hvis koden står selv om alle enhetene er i samme modus, kontakt LG kundeservice."
+ },
+ "LG|CH10": {
+  "title": "Problem med viften i innedelen",
+  "causes": [
+   "Rester eller is blokkerer viften i innedelen.",
+   "Feil på viftemotoren."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Fjern synlige rester fra luftinntaket og luftutløpet. Ikke åpne kabinettet.",
+   "Sjekk luftfiltrene i innedelen og rengjør dem hvis de er støvete.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis ingenting blokkerer viften og koden kommer tilbake, bestill service."
+ },
+ "LG|CH67": {
+  "title": "Problem med viften i utedelen",
+  "causes": [
+   "Rester eller snø blokkerer viften i utedelen.",
+   "Feil på viftemotoren i utedelen."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Fjern løv, snø eller gjenstander rundt gitteret på utedelen.",
+   "Sørg for at ingenting blokkerer luftstrømmen rundt utedelen (esker, planter, snø, løv).",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis ingenting blokkerer den og koden kommer tilbake, bestill service."
+ },
+ "LG|CH38": {
+  "title": "For lite kjølemiddel",
+  "causes": [
+   "Mengden kjølemiddel er lav, ofte etter installasjon eller flytting.",
+   "En løs rørkobling eller lekkasje."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis enheten nylig er installert eller flyttet, kontakt installatøren; ellers kontakt LG kundeservice hvis koden kommer tilbake. Arbeid med kjølemiddel skal bare utføres av teknikere."
+ },
+ "LG|CH54": {
+  "title": "Feil fasefølge eller feil i strømforsyningen",
+  "causes": [
+   "Et kort strømbrudd eller nylig elektrisk arbeid.",
+   "Fasene er koblet i feil rekkefølge."
+  ],
+  "steps": [
+   "Slå sikringen til varmepumpen av og på igjen."
+  ],
+  "technician": "Hvis koden kom etter elektrisk arbeid, be elektrikeren rette opp tilkoblingen; ellers bestill LG-service."
+ },
+ "LG|CH61": {
+  "title": "Enheten er overopphetet",
+  "causes": [
+   "Ved kjøling: utedelen har dårlig ventilasjon, for eksempel på en innglasset balkong.",
+   "Ved oppvarming: filteret i innedelen er tett."
+  ],
+  "steps": [
+   "Ved kjøling åpner du vinduer eller skjermer nær utedelen og rydder rundt den.",
+   "Sjekk luftfiltrene i innedelen og rengjør dem hvis de er støvete.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden vedvarer etter en tilbakestilling og bedre luftstrøm, må en tekniker undersøke enheten."
+ },
+ "LG|CH66": {
+  "title": "Problem med ledninger eller rør mellom innedel og utedel",
+  "causes": [
+   "Et problem med kommunikasjonsledningen eller rørkoblingen mellom enhetene."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis enheten nettopp er installert eller flyttet, kontakt installatøren; hvis koden vedvarer, bestill en tekniker."
+ },
+ "LG|CH90": {
+  "title": "Beskyttelse under testkjøring",
+  "causes": [
+   "Testkjøringen oppdaget et problem, ofte med rørkoblingene."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis enheten er ny eller flyttet, be installatøren sjekke rørene; ellers bestill service hvis det vedvarer."
+ },
+ "LG|CH93": {
+  "title": "Ustabil kommunikasjon mellom innedel og utedel",
+  "causes": [
+   "Ustabil kommunikasjon under testkjøringen.",
+   "På nyere modeller har utedelen ikke strøm."
+  ],
+  "steps": [
+   "Sjekk at begge strømledningene er koblet til (nyere modeller har én per enhet).",
+   "Koble utedelen direkte til en stikkontakt i veggen, ikke et grenuttak.",
+   "Sørg for at sikringen til anlegget er på. Hvis den ikke blir stående på, ikke fortsett å slå den på igjen.",
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis sikringen fortsetter å gå eller koden vedvarer, bestill LG-service."
+ },
+ "Samsung|E121": {
+  "title": "Feil på romtemperatursensoren",
+  "causes": [
+   "Romtemperatursensoren i innedelen er defekt."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten.",
+   "Skriv ned koden og modellnummeret før du kontakter service."
+  ],
+  "technician": "Dette krever en autorisert reparasjon fra Samsung; kontakt Samsung-service."
+ },
+ "Samsung|E122": {
+  "title": "Feil på temperatursensoren i varmeveksleren",
+  "causes": [
+   "Sensoren i varmeveksleren i innedelen er defekt."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten.",
+   "Skriv ned koden og modellnummeret før du kontakter service."
+  ],
+  "technician": "Dette krever en autorisert reparasjon fra Samsung; kontakt Samsung-service."
+ },
+ "Samsung|E154": {
+  "title": "Viften i innedelen går ikke rundt",
+  "causes": [
+   "Viftemotoren i innedelen er i beskyttelsesmodus, for eksempel etter et spenningsstøt.",
+   "Viftemotoren eller styrekortet er defekt."
+  ],
+  "steps": [
+   "Slå av enheten, vent noen sekunder og slå på igjen.",
+   "Følg med på om koden kommer tilbake innen omtrent 10 sekunder.",
+   "I områder med hyppige strømstøt bør du vurdere en spenningsstabilisator."
+  ],
+  "technician": "Hvis koden kommer tilbake rett etter omstart, kontakt Samsung-service."
+ },
+ "Samsung|E163": {
+  "title": "Minnefeil på styrekortet (EEPROM)",
+  "causes": [
+   "Data i minnet på hovedkortet er feil eller mangler."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten.",
+   "Skriv ned koden og modellnummeret før du kontakter service."
+  ],
+  "technician": "Dette krever en autorisert reparasjon fra Samsung; kontakt Samsung-service."
+ },
+ "Samsung|CF": {
+  "title": "Påminnelse om rengjøring av filter",
+  "causes": [
+   "Tidtakeren for filterrengjøring har gått ut."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Ta ut og rengjør filtrene i innedelen.",
+   "Sett filtrene på plass igjen og tilbakestill filterindikatoren."
+  ],
+  "technician": "Det er ikke behov for tekniker for denne påminnelsen."
+ },
+ "Samsung|dF": {
+  "title": "Avriming i varmemodus",
+  "causes": [
+   "Utedelen smelter is under oppvarming. Damp fra utedelen er normalt."
+  ],
+  "steps": [
+   "Vent; oppvarmingen fortsetter når avrimingen er ferdig.",
+   "Du trenger ikke gjøre noe."
+  ],
+  "technician": "Kontakt service bare hvis enheten blir stående i avriming svært lenge og ikke varmer."
+ },
+ "Daikin|A1": {
+  "title": "Feil på kretskortet i innedelen",
+  "causes": [
+   "Styrekortet i innedelen har en feil."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|A3": {
+  "title": "Problem med nivåkontrollen for avløp",
+  "causes": [
+   "Kondensvann renner ikke ut av innedelen.",
+   "Avløpsrøret kan være tett."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sjekk avløpsslangen utendørs for knekk eller tetninger.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|A5": {
+  "title": "Beskyttelse mot frysing eller høyt trykk",
+  "causes": [
+   "Ved kjøling blir batteriet i innedelen for kaldt.",
+   "Ved oppvarming er trykket for høyt, ofte på grunn av dårlig luftstrøm."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sjekk luftfiltrene i innedelen og rengjør dem hvis de er støvete.",
+   "Sjekk at ingenting blokkerer luftinntaket eller luftutløpet på innedelen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|A6": {
+  "title": "Feil på viftemotoren i innedelen",
+  "causes": [
+   "Viftemotoren i innedelen eller styringen av den har sviktet eller er blokkert."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sjekk at ingenting sitter fast i utløpet på innedelen. Ikke åpne kabinettet.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|C4": {
+  "title": "Feil på temperatursensoren i batteriet i innedelen",
+  "causes": [
+   "Termistoren på væskerøret i varmeveksleren i innedelen er defekt."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|C9": {
+  "title": "Feil på romsensoren (inntaksluft)",
+  "causes": [
+   "Lufttermistoren i innedelen er defekt."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|E1": {
+  "title": "Feil på kretskortet i utedelen",
+  "causes": [
+   "Styrekortet i utedelen har en feil."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|E3": {
+  "title": "Høytrykksbryteren er utløst",
+  "causes": [
+   "Trykket i systemet er for høyt, ofte på grunn av dårlig luftstrøm ved utedelen eller et skittent batteri."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sørg for at ingenting blokkerer luftstrømmen rundt utedelen (esker, planter, snø, løv).",
+   "Sjekk luftfiltrene i innedelen og rengjør dem hvis de er støvete.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|E5": {
+  "title": "Kompressoren er overopphetet eller låst",
+  "causes": [
+   "Inverterkompressoren er overopphetet eller vil ikke gå."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sørg for at ingenting blokkerer luftstrømmen rundt utedelen (esker, planter, snø, løv).",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|E6": {
+  "title": "Overstrøm i kompressoren eller kompressoren er låst",
+  "causes": [
+   "Kompressoren trekker for mye strøm eller sitter fast."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|E7": {
+  "title": "Feil på viftemotoren i utedelen",
+  "causes": [
+   "Viftemotorsystemet i utedelen har en feil eller er blokkert."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Fjern løv, snø eller gjenstander fra gitteret på utedelen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|E8": {
+  "title": "Overstrøm i kompressoren",
+  "causes": [
+   "Inngangsstrømmen til inverterkompressoren er for høy."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|F3": {
+  "title": "For høy temperatur i trykkrøret",
+  "causes": [
+   "Trykkrøret fra kompressoren blir overopphetet, for eksempel på grunn av lite kjølemiddel eller dårlig luftstrøm."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sørg for at ingenting blokkerer luftstrømmen rundt utedelen (esker, planter, snø, løv).",
+   "Sjekk luftfiltrene i innedelen og rengjør dem hvis de er støvete.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|F6": {
+  "title": "Unormalt høyt trykk",
+  "causes": [
+   "Trykket i kjølemiddelet er for høyt, muligens på grunn av overfylling eller blokkert luftstrøm."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sørg for at ingenting blokkerer luftstrømmen rundt utedelen (esker, planter, snø, løv).",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|H6": {
+  "title": "Feil på posisjonssensoren i kompressoren",
+  "causes": [
+   "Registreringen av rotorposisjonen i kompressoren har sviktet."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|H8": {
+  "title": "Feil på strømsensoren i kompressoren",
+  "causes": [
+   "Kretsen for inngangsstrøm (CT) til kompressoren har en feil."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|H9": {
+  "title": "Feil på uteluftsensoren",
+  "causes": [
+   "Termistoren for uteluft er defekt."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|J3": {
+  "title": "Feil på sensoren i trykkrøret",
+  "causes": [
+   "Termistoren i trykkrøret er defekt."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|L4": {
+  "title": "Kjøleribben i inverteren er overopphetet",
+  "causes": [
+   "Kjøleribben i inverteren er for varm, ofte fordi luftstrømmen ved utedelen er blokkert."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sørg for at ingenting blokkerer luftstrømmen rundt utedelen (esker, planter, snø, løv).",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|L5": {
+  "title": "Overstrøm i inverteren",
+  "causes": [
+   "En plutselig overstrøm på utgangen av inverteren, ofte på grunn av et problem med kompressoren."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|U0": {
+  "title": "Mangel på kjølemiddel",
+  "causes": [
+   "Systemet har for lite kjølemiddel, som regel på grunn av en lekkasje."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sjekk luftfiltrene i innedelen og rengjør dem hvis de er støvete.",
+   "Ikke prøv å fylle på kjølemiddel selv."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|U2": {
+  "title": "Problem med strømforsyningen",
+  "causes": [
+   "Spenningen i strømforsyningen er unormal, eller det har vært et kort strømbrudd."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Daikin|U4": {
+  "title": "Kommunikasjonsfeil mellom innedel og utedel",
+  "causes": [
+   "Signalene mellom innedelen og utedelen har falt ut.",
+   "Et ledningsproblem eller en feil på et av kortene."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis koden kommer tilbake etter disse kontrollene, kontakt en servicetekniker fra Daikin; denne feilen krever profesjonell feilsøking."
+ },
+ "Panasonic|H00": {
+  "title": "Ingen lagret feil",
+  "causes": [
+   "Selvdiagnoseminnet har ikke registrert noen avvik."
+  ],
+  "steps": [
+   "Du trenger ikke gjøre noe.",
+   "Hvis enheten ikke fungerer, sjekk strømforsyningen og batteriene i fjernkontrollen."
+  ],
+  "technician": "Hvis enheten ikke går, men viser H00, kontakt en servicetekniker fra Panasonic."
+ },
+ "Panasonic|H11": {
+  "title": "Kommunikasjonsfeil mellom innedel og utedel",
+  "causes": [
+   "Innedelen og utedelen kan ikke kommunisere."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Panasonic anbefaler at reparasjoner ved denne koden utføres av en kvalifisert servicetekniker; kontakt en hvis koden kommer tilbake."
+ },
+ "Panasonic|H12": {
+  "title": "Innedelen har feil kapasitet",
+  "causes": [
+   "Innedelen passer ikke til kapasiteten til utedelen, som regel et installasjonsproblem."
+  ],
+  "steps": [
+   "Skriv ned koden og modellnummeret før du kontakter service."
+  ],
+  "technician": "Kontakt installatøren eller en Panasonic-tekniker for å sjekke kombinasjonen av enheter."
+ },
+ "Panasonic|H14": {
+  "title": "Feil på lufttemperatursensoren i innedelen",
+  "causes": [
+   "Sensoren for inntaksluft i innedelen er defekt."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Panasonic anbefaler at reparasjoner ved denne koden utføres av en kvalifisert servicetekniker; kontakt en hvis koden kommer tilbake."
+ },
+ "Panasonic|H15": {
+  "title": "Feil på temperatursensoren i kompressoren",
+  "causes": [
+   "Temperatursensoren i kompressoren er defekt."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Panasonic anbefaler at reparasjoner ved denne koden utføres av en kvalifisert servicetekniker; kontakt en hvis koden kommer tilbake."
+ },
+ "Panasonic|H16": {
+  "title": "Feil på strømsensoren i utedelen",
+  "causes": [
+   "Strømtransformatoren (CT) i utedelen er defekt."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Panasonic anbefaler at reparasjoner ved denne koden utføres av en kvalifisert servicetekniker; kontakt en hvis koden kommer tilbake."
+ },
+ "Panasonic|H19": {
+  "title": "Viftemotoren i innedelen er låst",
+  "causes": [
+   "Viftemotoren i innedelen er låst eller defekt."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sjekk at ingenting har satt seg fast i utløpet på innedelen. Ikke åpne kabinettet.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Panasonic anbefaler at reparasjoner ved denne koden utføres av en kvalifisert servicetekniker; kontakt en hvis koden kommer tilbake."
+ },
+ "Panasonic|H23": {
+  "title": "Feil på sensoren i varmeveksleren i innedelen",
+  "causes": [
+   "Temperatursensoren i batteriet i innedelen er defekt."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Panasonic anbefaler at reparasjoner ved denne koden utføres av en kvalifisert servicetekniker; kontakt en hvis koden kommer tilbake."
+ },
+ "Panasonic|H27": {
+  "title": "Feil på uteluftsensoren",
+  "causes": [
+   "Lufttemperatursensoren i utedelen er defekt."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Panasonic anbefaler at reparasjoner ved denne koden utføres av en kvalifisert servicetekniker; kontakt en hvis koden kommer tilbake."
+ },
+ "Panasonic|H28": {
+  "title": "Feil på sensoren i varmeveksleren i utedelen",
+  "causes": [
+   "Temperatursensoren i batteriet i utedelen er defekt."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Panasonic anbefaler at reparasjoner ved denne koden utføres av en kvalifisert servicetekniker; kontakt en hvis koden kommer tilbake."
+ },
+ "Panasonic|H33": {
+  "title": "Innedelen og utedelen er feil tilkoblet",
+  "causes": [
+   "Tilkoblingen mellom enhetene er feil, som regel etter installasjon."
+  ],
+  "steps": [
+   "Skriv ned koden og modellnummeret før du kontakter service."
+  ],
+  "technician": "Be installatøren eller en Panasonic-tekniker sjekke ledningene."
+ },
+ "Panasonic|H97": {
+  "title": "Viftemotoren i utedelen er låst",
+  "causes": [
+   "Viften i utedelen er blokkert, eller motoren har sviktet."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Fjern løv, snø eller gjenstander rundt viftegitteret på utedelen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Panasonic anbefaler at reparasjoner ved denne koden utføres av en kvalifisert servicetekniker; kontakt en hvis koden kommer tilbake."
+ },
+ "Panasonic|H98": {
+  "title": "Høytrykksbeskyttelse i innedelen",
+  "causes": [
+   "Trykket er for høyt ved oppvarming, ofte på grunn av et skittent filter."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sjekk luftfiltrene i innedelen og rengjør dem hvis de er støvete.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Panasonic anbefaler at reparasjoner ved denne koden utføres av en kvalifisert servicetekniker; kontakt en hvis koden kommer tilbake."
+ },
+ "Panasonic|H99": {
+  "title": "Frostbeskyttelse i innedelen",
+  "causes": [
+   "Batteriet i innedelen ble for kaldt ved kjøling, ofte på grunn av et skittent filter eller lav luftstrøm."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sjekk luftfiltrene i innedelen og rengjør dem hvis de er støvete.",
+   "La eventuell is på batteriet i innedelen smelte før du starter på nytt.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Panasonic anbefaler at reparasjoner ved denne koden utføres av en kvalifisert servicetekniker; kontakt en hvis koden kommer tilbake."
+ },
+ "Panasonic|F11": {
+  "title": "Feil ved omkobling av 4-veisventilen",
+  "causes": [
+   "Ventilen som skifter mellom kjøling og oppvarming, fungerer ikke."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Panasonic anbefaler at reparasjoner ved denne koden utføres av en kvalifisert servicetekniker; kontakt en hvis koden kommer tilbake."
+ },
+ "Panasonic|F91": {
+  "title": "Feil i kjølekretsen",
+  "causes": [
+   "Kjølekretsen fungerer ikke som den skal, ofte på grunn av lite kjølemiddel."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sjekk luftfiltrene i innedelen og rengjør dem hvis de er støvete.",
+   "Ikke prøv å utføre noe arbeid med kjølemiddel selv."
+  ],
+  "technician": "Panasonic anbefaler at reparasjoner ved denne koden utføres av en kvalifisert servicetekniker; kontakt en hvis koden kommer tilbake."
+ },
+ "Panasonic|F93": {
+  "title": "Unormalt turtall i kompressoren",
+  "causes": [
+   "Kompressoren går med unormalt turtall."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Panasonic anbefaler at reparasjoner ved denne koden utføres av en kvalifisert servicetekniker; kontakt en hvis koden kommer tilbake."
+ },
+ "Panasonic|F95": {
+  "title": "Høytrykksbeskyttelse i utedelen ved kjøling",
+  "causes": [
+   "Trykket er for høyt, ofte på grunn av dårlig luftstrøm ved utedelen."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sørg for at ingenting blokkerer luftstrømmen rundt utedelen (esker, planter, snø, løv).",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Panasonic anbefaler at reparasjoner ved denne koden utføres av en kvalifisert servicetekniker; kontakt en hvis koden kommer tilbake."
+ },
+ "Panasonic|F97": {
+  "title": "Overopphetingsbeskyttelse for kompressoren",
+  "causes": [
+   "Kompressoren blir overopphetet."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sørg for at ingenting blokkerer luftstrømmen rundt utedelen (esker, planter, snø, løv).",
+   "Sjekk luftfiltrene i innedelen og rengjør dem hvis de er støvete.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Panasonic anbefaler at reparasjoner ved denne koden utføres av en kvalifisert servicetekniker; kontakt en hvis koden kommer tilbake."
+ },
+ "Panasonic|F99": {
+  "title": "DC-strømtopp registrert i utedelen",
+  "causes": [
+   "Det ble registrert en unormal strømtopp i utedelen."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Panasonic anbefaler at reparasjoner ved denne koden utføres av en kvalifisert servicetekniker; kontakt en hvis koden kommer tilbake."
+ },
+ "Gree|E1": {
+  "title": "Høytrykksbeskyttelse",
+  "causes": [
+   "Skitne batterier eller filtre.",
+   "En innsnevring i systemet eller for mye kjølemiddel."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sjekk luftfiltrene i innedelen og rengjør dem hvis de er støvete.",
+   "Sørg for at ingenting blokkerer luftstrømmen rundt utedelen (esker, planter, snø, løv).",
+   "Sjekk at begge viftene går når enheten er på.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis filtre og batterier er rene, kontakt en kuldetekniker for å sjekke trykket og høytrykksbryteren."
+ },
+ "Gree|E3": {
+  "title": "Lavtrykksbeskyttelse",
+  "causes": [
+   "Skitne filtre eller batterier.",
+   "En lekkasje av kjølemiddel."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sjekk luftfiltrene i innedelen og rengjør dem hvis de er støvete.",
+   "Sørg for at ingenting blokkerer luftstrømmen rundt utedelen (esker, planter, snø, løv)."
+  ],
+  "technician": "Hvis filtre og batterier er rene, må en tekniker sjekke mengden kjølemiddel og lete etter lekkasjer."
+ },
+ "Gree|E5": {
+  "title": "Overstrømsbeskyttelse",
+  "causes": [
+   "Nettspenningen er for høy, eller lav og ustabil."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "En tekniker bør sjekke og stabilisere strømforsyningen."
+ },
+ "Gree|E7": {
+  "title": "Moduskonflikt",
+  "causes": [
+   "Innedeler som er koblet til samme utedel, står i ulike moduser."
+  ],
+  "steps": [
+   "Sett alle innedelene i samme modus (alle på kjøling eller alle på varme)."
+  ],
+  "technician": "Hvis koden står selv om alle enhetene er i samme modus, kontakt en servicetekniker fra Gree."
+ },
+ "Gree|F1": {
+  "title": "Feil på romsensoren i innedelen",
+  "causes": [
+   "Sensoren for omgivelsestemperatur i innedelen er defekt."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Sensorfeil krever vanligvis en ny del montert av en kvalifisert tekniker."
+ },
+ "Gree|F2": {
+  "title": "Feil på batterisensoren i innedelen",
+  "causes": [
+   "Fordampersensoren i innedelen er defekt."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Sensorfeil krever vanligvis en ny del montert av en kvalifisert tekniker."
+ },
+ "Gree|F3": {
+  "title": "Feil på uteluftsensoren",
+  "causes": [
+   "Sensoren for utetemperatur er defekt."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Sensorfeil krever vanligvis en ny del montert av en kvalifisert tekniker."
+ },
+ "Gree|F4": {
+  "title": "Feil på batterisensoren i utedelen",
+  "causes": [
+   "Rørsensoren i utedelen er defekt."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Sensorfeil krever vanligvis en ny del montert av en kvalifisert tekniker."
+ },
+ "Gree|F5": {
+  "title": "Feil på trykkrørsensoren",
+  "causes": [
+   "Sensoren i trykkrøret fra kompressoren er defekt."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Sensorfeil krever vanligvis en ny del montert av en kvalifisert tekniker."
+ },
+ "Gree|H1": {
+  "title": "Avriming",
+  "causes": [
+   "Utedelen avrimer under oppvarming. Dette er normal drift."
+  ],
+  "steps": [
+   "Vent til avrimingen er ferdig; oppvarmingen fortsetter av seg selv."
+  ],
+  "technician": "Kontakt en tekniker bare hvis enheten avrimer hele tiden og ikke varmer."
+ },
+ "Gree|H5": {
+  "title": "Beskyttelse av effektmodulen (IPM)",
+  "causes": [
+   "Effektmodulen i inverteren stoppet på grunn av problemer med spenning eller temperatur."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis H5 kommer tilbake, trenger enheten profesjonell service."
+ },
+ "Gree|U3": {
+  "title": "Spenningsfall i DC-bussen",
+  "causes": [
+   "Den interne likespenningen falt, ofte på grunn av problemer med strømforsyningen."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis U3 kommer tilbake, la en fagperson vurdere enheten og strømforsyningen."
+ },
+ "Gree|L9": {
+  "title": "Strømbeskyttelse",
+  "causes": [
+   "Et kraftig strømstøt utløste beskyttelsesmodus."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Hvis L9 kommer tilbake, la en fagperson vurdere enheten og strømforsyningen."
+ },
+ "Haier|E1": {
+  "title": "Feil på temperatursensoren i innedelen (splittanlegg)",
+  "causes": [
+   "Romtemperatursensoren i innedelen er defekt."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Ifølge Haier kan denne koden bare rettes av en servicetekniker; kontakt Haier-service."
+ },
+ "Haier|E2": {
+  "title": "Feil på rørtemperatursensoren i innedelen (splittanlegg)",
+  "causes": [
+   "Rørsensoren i batteriet i innedelen er defekt."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Ifølge Haier kan denne koden bare rettes av en servicetekniker; kontakt Haier-service."
+ },
+ "Haier|E4": {
+  "title": "Minnefeil (EEPROM) i innedelen (splittanlegg)",
+  "causes": [
+   "Minnet på styrekortet i innedelen har en feil."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Ifølge Haier kan denne koden bare rettes av en servicetekniker; kontakt Haier-service."
+ },
+ "Haier|E5": {
+  "title": "Frostbeskyttelse i innedelen",
+  "causes": [
+   "Batteriet i innedelen blir for kaldt, ofte på grunn av lav luftstrøm."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sjekk luftfiltrene i innedelen og rengjør dem hvis de er støvete.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Ifølge Haier kan denne koden bare rettes av en servicetekniker; kontakt Haier-service."
+ },
+ "Haier|E7": {
+  "title": "Kommunikasjonsfeil mellom innedel og utedel",
+  "causes": [
+   "Innedelen og utedelen kan ikke kommunisere."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Ifølge Haier kan denne koden bare rettes av en servicetekniker; kontakt Haier-service."
+ },
+ "Haier|E9": {
+  "title": "Overbelastning i innedelen ved oppvarming",
+  "causes": [
+   "Innedelen blir overopphetet i varmemodus, ofte på grunn av et tett filter."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sjekk luftfiltrene i innedelen og rengjør dem hvis de er støvete.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Ifølge Haier kan denne koden bare rettes av en servicetekniker; kontakt Haier-service."
+ },
+ "Haier|E14": {
+  "title": "Feil på viftemotoren i innedelen",
+  "causes": [
+   "Viftemotoren i innedelen er defekt eller blokkert."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Ifølge Haier kan denne koden bare rettes av en servicetekniker; kontakt Haier-service."
+ },
+ "Haier|F1": {
+  "title": "Beskyttelse av effektmodulen (IPM)",
+  "causes": [
+   "Invertermodulen i utedelen har gått i beskyttelsesmodus."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Ifølge Haier kan denne koden bare rettes av en servicetekniker; kontakt Haier-service."
+ },
+ "Haier|F8": {
+  "title": "Feil på DC-viftemotoren i utedelen",
+  "causes": [
+   "Viftemotoren i utedelen er defekt eller blokkert."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sørg for at ingenting blokkerer luftstrømmen rundt utedelen (esker, planter, snø, løv).",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Ifølge Haier kan denne koden bare rettes av en servicetekniker; kontakt Haier-service."
+ },
+ "Haier|F12": {
+  "title": "Minnefeil (EEPROM) i utedelen",
+  "causes": [
+   "Minnet på kretskortet i utedelen har en feil."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Ifølge Haier kan denne koden bare rettes av en servicetekniker; kontakt Haier-service."
+ },
+ "Haier|F13": {
+  "title": "Mangel på kjølemiddel",
+  "causes": [
+   "Systemet har for lite kjølemiddel, som regel på grunn av en lekkasje."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Ikke prøv å fylle på kjølemiddel selv.",
+   "Skriv ned koden og modellnummeret før du kontakter service."
+  ],
+  "technician": "Ifølge Haier kan denne koden bare rettes av en servicetekniker; kontakt Haier-service."
+ },
+ "Haier|F19": {
+  "title": "Nettspenningen er for høy eller for lav",
+  "causes": [
+   "Nettspenningen er utenfor tillatt område."
+  ],
+  "steps": [
+   "Slå av enheten med fjernkontrollen.",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Ifølge Haier kan denne koden bare rettes av en servicetekniker; kontakt Haier-service."
+ },
+ "Haier|F20": {
+  "title": "Høytrykksbeskyttelse",
+  "causes": [
+   "Trykket i systemet er for høyt, ofte fordi luftstrømmen ved utedelen er blokkert."
+  ],
+  "steps": [
+   "Slå av enheten.",
+   "Sørg for at ingenting blokkerer luftstrømmen rundt utedelen (esker, planter, snø, løv).",
+   "Slå av sikringen til varmepumpen eller trekk ut støpselet.",
+   "Vent omtrent 5 minutter, slå på strømmen igjen og start enheten."
+  ],
+  "technician": "Ifølge Haier kan denne koden bare rettes av en servicetekniker; kontakt Haier-service."
+ },
+ "Haier|FL": {
+  "title": "Vanntanken er full (mobil aircondition)",
+  "causes": [
+   "Det interne vannreservoaret er fullt."
+  ],
+  "steps": [
+   "Slå av enheten og trekk ut støpselet.",
+   "Tøm vannet fra avløpsåpningen ned i en balje.",
+   "Sett avløpspluggen på plass igjen og start enheten på nytt."
+  ],
+  "technician": "Hvis FL vises igjen rett etter tømming, kontakt Haier-service."
+ },
+ "Haier|STOP": {
+  "title": "Tanken er full eller flottøren sitter fast (mobil aircondition, 2016 og eldre)",
+  "causes": [
+   "Vannbeholderen er full.",
+   "Flottøren i tanken sitter fast på grunn av rester."
+  ],
+  "steps": [
+   "Slå av enheten og trekk ut støpselet.",
+   "Tøm vanntanken.",
+   "Sjekk at flottøren beveger seg fritt, og fjern eventuelle rester."
+  ],
+  "technician": "Hvis STOP står med tom tank og flottøren går fritt, kontakt Haier-service."
+ }
+}

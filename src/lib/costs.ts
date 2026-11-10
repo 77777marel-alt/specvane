@@ -34,3 +34,9 @@ export function costInput(lang: Locale, category: string, specs: SpecValue[]): C
   if (category === 'projectors' && n('power_typical')) return { ...base, mode: 'power', watts: n('power_typical')!, hours: 2, days: 365, basis: 'costBasisTv' }
   return null
 }
+
+/** Цена кВт·ч по умолчанию для языка (страна рынка) — для калькулятора стоимости электричества. */
+export function defaultTariff(lang: Locale): { tariff: number; currency: string } {
+  const m = MARKETS[lang]
+  return { tariff: TARIFF[m.defaultCountry] ?? 0.3, currency: m.currency }
+}

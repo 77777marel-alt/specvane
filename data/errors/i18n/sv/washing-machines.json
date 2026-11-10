@@ -1,0 +1,1167 @@
+{
+ "Bosch|E16": {
+  "title": "Luckan är inte stängd",
+  "causes": [
+   "Luckan är inte helt stängd.",
+   "Tvätt har fastnat mellan luckan och tätningen."
+  ],
+  "steps": [
+   "Öppna luckan och kontrollera att inga kläder har fastnat i gummitätningen.",
+   "Stäng luckan ordentligt tills det klickar.",
+   "Starta programmet igen."
+  ],
+  "technician": "Om koden finns kvar fast luckan är ordentligt stängd kan luckans lås vara trasigt. Boka ett servicebesök hos Bosch."
+ },
+ "Bosch|E17": {
+  "title": "Vattenpåfyllningen tog för lång tid",
+  "causes": [
+   "Vattenkranen är stängd eller bara delvis öppen.",
+   "Inloppsslangen är vikt.",
+   "Lågt vattentryck i bostaden."
+  ],
+  "steps": [
+   "Kontrollera att kranen till maskinen är helt öppen.",
+   "Se till att inloppsslangen inte är böjd eller klämd.",
+   "Starta om programmet."
+  ],
+  "technician": "Om kranen är öppen och koden kommer tillbaka, kontakta Boschs service. Inloppsventilen eller AquaStop-slangen kan behöva kontrolleras."
+ },
+ "Bosch|E18": {
+  "title": "Vattnet töms inte ut",
+  "causes": [
+   "Tömningspumpen eller pumpfiltret är igensatt.",
+   "Tömningsslangen är vikt eller igensatt.",
+   "Små föremål (mynt, knappar) har fastnat i pumpen."
+  ],
+  "steps": [
+   "Stäng av maskinen, dra ur kontakten och stäng vattenkranen.",
+   "Låt varmt vatten svalna innan du börjar.",
+   "Ställ ett lågt kärl och handdukar under pumpluckan, töm ut vattnet med nödtömningsslangen och rengör sedan pumpfiltret.",
+   "Kontrollera att tömningsslangen inte är vikt eller igensatt och räta ut den.",
+   "Sätt tillbaka filtret ordentligt, sätt i kontakten och kör ett tömnings- eller centrifugeringsprogram."
+  ],
+  "technician": "Om vattnet fortfarande inte töms ut efter att du har rengjort filtret och slangen är tömningspumpen troligen trasig. Kontakta en tekniker."
+ },
+ "Bosch|E19": {
+  "title": "Vattenuppvärmningen tog för lång tid",
+  "causes": [
+   "Maskinen nådde inte den inställda tvättemperaturen inom den tillåtna tiden.",
+   "Oftast ett fel i värmesystemet."
+  ],
+  "steps": [
+   "Stäng av och slå på maskinen igen och starta sedan om programmet."
+  ],
+  "technician": "Enligt Bosch kan felet inte åtgärdas av användaren. Boka ett servicebesök om det kommer tillbaka."
+ },
+ "Bosch|E20": {
+  "title": "Uppvärmningen slogs på när den inte borde",
+  "causes": [
+   "Maskinen upptäckte uppvärmning vid en oväntad tidpunkt.",
+   "Ett fel i elektroniken eller värmestyrningen."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten en kort stund.",
+   "Sätt i kontakten igen och starta om programmet."
+  ],
+  "technician": "Om koden kommer tillbaka, sluta använda maskinen och kontakta Boschs service."
+ },
+ "Bosch|E23": {
+  "title": "AquaStop-läckageskyddet har löst ut",
+  "causes": [
+   "Det har samlats vatten i maskinens botten.",
+   "En läcka inne i maskinen eller från AquaStop-slangen."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten.",
+   "Stäng vattenkranen.",
+   "Torka upp vatten från golvet."
+  ],
+  "technician": "Enligt Bosch kan detta inte åtgärdas av användaren. Håll kranen stängd och boka ett servicebesök."
+ },
+ "Bosch|E25": {
+  "title": "Fel på grumlighetssensorn (vattnets klarhet)",
+  "causes": [
+   "Det är problem med sensorn som känner av hur smutsigt vattnet är."
+  ],
+  "steps": [
+   "Stäng av och slå på maskinen igen och starta om programmet."
+  ],
+  "technician": "Om koden kommer tillbaka, kontakta Boschs service för kontroll av sensorn."
+ },
+ "Bosch|E26": {
+  "title": "Fel på nivåsensorn (trycksensorn)",
+  "causes": [
+   "Den analoga trycksensorn som mäter vattennivån i trumman är trasig."
+  ],
+  "steps": [
+   "Stäng av och slå på maskinen igen och starta om programmet."
+  ],
+  "technician": "Enligt Bosch kräver felet ett servicebesök."
+ },
+ "Bosch|F27": {
+  "title": "Fel på trycksensorn",
+  "causes": [
+   "Trycksensorn fungerar inte som den ska."
+  ],
+  "steps": [
+   "Stäng av och slå på maskinen igen och starta om programmet."
+  ],
+  "technician": "Om koden kommer tillbaka, kontakta Boschs service."
+ },
+ "Bosch|E28": {
+  "title": "Fel på flödessensorn",
+  "causes": [
+   "Sensorn som mäter inkommande vatten rapporterar ett problem."
+  ],
+  "steps": [
+   "Kontrollera att vattenkranen är helt öppen.",
+   "Stäng av och slå på maskinen igen och starta om programmet."
+  ],
+  "technician": "Om koden kommer tillbaka, kontakta Boschs service."
+ },
+ "Samsung|4C": {
+  "title": "Inget vatten kommer in",
+  "causes": [
+   "Vattenkranen är stängd.",
+   "Inloppsslangen är igensatt, vikt eller frusen.",
+   "Vattentrycket är för lågt.",
+   "Slangarna för varmt och kallt vatten är kopplade till fel kranar.",
+   "Silfiltret vid slangens inlopp är smutsigt."
+  ],
+  "steps": [
+   "Öppna vattenkranen helt.",
+   "Kontrollera att inloppsslangen inte är vikt, igensatt eller frusen.",
+   "Kontrollera att slangarna för varmt och kallt vatten går till rätt kranar.",
+   "Stäng kranen, skruva loss slangen och rengör det lilla silfiltret. Sätt sedan tillbaka det.",
+   "Vänta 3 minuter (knapparna är låsta efter den här koden) och starta sedan om."
+  ],
+  "technician": "Om vattnet fortfarande inte kommer in fast kranen är öppen och filtret rent, kontakta Samsungs service."
+ },
+ "Samsung|4C2": {
+  "title": "Inkommande vatten är för varmt",
+  "causes": [
+   "Kallvattenslangen är kopplad till en varmvattenkran eller sitter inte ordentligt fast på kallvattenkranen."
+  ],
+  "steps": [
+   "Se till att kallvattenslangen sitter ordentligt fast på kallvattenkranen.",
+   "Stäng av och slå på maskinen igen och starta om."
+  ],
+  "technician": "Om koden finns kvar fast anslutningarna är rätt, kontakta Samsungs service."
+ },
+ "Samsung|5C": {
+  "title": "Vattnet töms inte ut",
+  "causes": [
+   "Tömningsslangen är igensatt, vikt eller frusen.",
+   "Tömningsslangen är felaktigt monterad.",
+   "Skräpfiltret är igensatt."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten.",
+   "Kontrollera att tömningsslangen är rak och inte igensatt eller frusen.",
+   "Lägg ut handdukar och ett lågt tråg, töm ut vattnet och rengör skräpfiltret på framsidan.",
+   "Sätt tillbaka filtret ordentligt, sätt i kontakten och prova tömning eller centrifugering."
+  ],
+  "technician": "Om vattnet fortfarande inte töms ut kan tömningspumpen vara trasig. Kontakta Samsungs service."
+ },
+ "Samsung|dC": {
+  "title": "Luckan är öppen eller inte ordentligt stängd",
+  "causes": [
+   "Maskinen startades med öppen lucka.",
+   "Tvätt har fastnat i luckan."
+  ],
+  "steps": [
+   "Öppna luckan och ta bort kläder som har fastnat i tätningen.",
+   "Stäng luckan ordentligt och starta om."
+  ],
+  "technician": "Om koden finns kvar fast luckan är stängd kan luckans lås vara trasigt. Kontakta Samsungs service."
+ },
+ "Samsung|dC1": {
+  "title": "Luckans lås låser eller låser inte upp",
+  "causes": [
+   "Luckans huvudlås fungerar inte som det ska."
+  ],
+  "steps": [
+   "Stäng av maskinen, vänta en stund och slå på den igen.",
+   "Starta om programmet."
+  ],
+  "technician": "Om det händer igen behöver luckans lås kontrolleras av service."
+ },
+ "Samsung|OC": {
+  "title": "För mycket vatten (överfyllning)",
+  "causes": [
+   "Maskinen upptäckte för hög vattennivå."
+  ],
+  "steps": [
+   "Låt maskinen tömma och centrifugera klart.",
+   "Starta om programmet när centrifugeringen är klar.",
+   "Använd rätt mängd tvättmedel för att undvika för mycket lödder."
+  ],
+  "technician": "Om koden kommer tillbaka vid varje tvätt, kontakta Samsungs service. Vattenventilen eller nivåsensorn kan vara trasig."
+ },
+ "Samsung|Ub": {
+  "title": "Obalanserad tvätt, kan inte centrifugera",
+  "causes": [
+   "Tvätten har samlats på ena sidan av trumman.",
+   "Det ligger bara ett tungt plagg i trumman.",
+   "Maskinen står inte plant eller stabilt."
+  ],
+  "steps": [
+   "Pausa maskinen och fördela tvätten jämnt.",
+   "Lägg i några fler plagg om du bara tvättar ett tungt plagg.",
+   "Se till att maskinen står plant på ett stadigt golv.",
+   "Starta centrifugeringen igen."
+  ],
+  "technician": "Om det händer med normala, jämna tvättmängder kan maskinen behöva kontrolleras för slitna delar."
+ },
+ "Samsung|LC": {
+  "title": "Problem med tömningsslangen / läcka upptäckt",
+  "causes": [
+   "Tömningsslangens ände ligger på golvet.",
+   "Tömningsslangen är igensatt."
+  ],
+  "steps": [
+   "Stäng av maskinen.",
+   "Se till att tömningsslangens ände sitter högt upp och inte ligger på golvet.",
+   "Kontrollera att slangen inte är igensatt.",
+   "Torka upp vattnet och starta om."
+  ],
+  "technician": "Om det fortsätter att läcka eller koden kommer tillbaka, kontakta Samsungs service."
+ },
+ "Samsung|3C": {
+  "title": "Problem med trummotorn",
+  "causes": [
+   "Motorn går inte som den ska."
+  ],
+  "steps": [
+   "Stäng av maskinen, vänta en minut och slå på den igen.",
+   "Kontrollera att tvättmängden inte är för stor och starta sedan om programmet."
+  ],
+  "technician": "Om koden kommer tillbaka behöver motorn eller dess styrning kontrolleras av service."
+ },
+ "Samsung|AC": {
+  "title": "Kommunikationsfel mellan kretskorten",
+  "causes": [
+   "Huvudkortet och styrkortet kommunicerar inte med varandra."
+  ],
+  "steps": [
+   "Stäng av maskinen och slå sedan på den igen.",
+   "Starta om programmet."
+  ],
+  "technician": "Om koden fortsätter att komma tillbaka, kontakta Samsungs service."
+ },
+ "Samsung|HC": {
+  "title": "Fel i värmesystemet (för varmt)",
+  "causes": [
+   "Maskinen upptäckte ett problem med för hög temperatur vid uppvärmningen."
+  ],
+  "steps": [
+   "Stäng av och slå på maskinen igen.",
+   "Starta om programmet."
+  ],
+  "technician": "Om koden kommer tillbaka, sluta använda varma program och kontakta Samsungs service."
+ },
+ "Samsung|1C": {
+  "title": "Fel på nivåsensorn",
+  "causes": [
+   "Sensorn som mäter vattennivån fungerar inte som den ska."
+  ],
+  "steps": [
+   "Stäng av och slå på maskinen igen.",
+   "Starta om programmet."
+  ],
+  "technician": "Om koden kommer tillbaka, kontakta Samsungs service."
+ },
+ "Samsung|UC": {
+  "title": "Problem med strömförsörjningen (för låg eller ojämn spänning)",
+  "causes": [
+   "Låg eller ojämn nätspänning.",
+   "Ett kort strömavbrott.",
+   "Lös kontakt eller förlängningssladd."
+  ],
+  "steps": [
+   "Kontrollera att kontakten sitter ordentligt i vägguttaget.",
+   "Undvik förlängningssladdar och adaptrar.",
+   "Vänta tills strömmen har stabiliserats och starta sedan om."
+  ],
+  "technician": "Om det händer ofta, be en elektriker kontrollera elnätet. Kontakta Samsungs service om elen är i ordning."
+ },
+ "Samsung|8C": {
+  "title": "Fel på vibrationssensorn",
+  "causes": [
+   "Sensorn som känner av obalans fungerar inte som den ska."
+  ],
+  "steps": [
+   "Stäng av och slå på maskinen igen.",
+   "Starta om programmet."
+  ],
+  "technician": "Om koden kommer tillbaka, kontakta Samsungs service."
+ },
+ "Samsung|ddC": {
+  "title": "Add Door öppnades utan omstart",
+  "causes": [
+   "Den lilla Add Door-luckan (AddWash) öppnades och maskinen väntar."
+  ],
+  "steps": [
+   "Stäng Add Door ordentligt.",
+   "Håll in Start/Paus för att fortsätta."
+  ],
+  "technician": "Behövs normalt inte. Om Add Door inte förblir stängd, kontakta Samsungs service."
+ },
+ "LG|OE": {
+  "title": "Vattnet töms inte ut",
+  "causes": [
+   "Tömningsslangen är vikt eller igensatt.",
+   "Tömningspumpens filter är igensatt.",
+   "För mycket lödder på grund av för mycket tvättmedel."
+  ],
+  "steps": [
+   "Kontrollera tömningsslangen bakom maskinen och räta ut eventuella veck.",
+   "Kör ett program med bara centrifugering och lyssna efter pumpens surrande.",
+   "Dra ur kontakten. Ställ ett kärl under tömningspumpens lock, töm ut vattnet med det lilla tömningsröret och rengör sedan pumpfiltret.",
+   "Stäng tömningsrörets lock ordentligt och sätt tillbaka filtret.",
+   "Använd mindre tvättmedel nästa gång och kör Tub Clean."
+  ],
+  "technician": "Om koden kommer tillbaka efter att du har rengjort filtret och slangen, beställ service från LG. Pumpen kan vara trasig."
+ },
+ "LG|IE": {
+  "title": "Vattnet fylls inte på i tid",
+  "causes": [
+   "Kranen är stängd eller vattnet är avstängt.",
+   "Inloppsslangen är vikt eller lossnad.",
+   "Inloppsfiltret är igensatt.",
+   "Frusna rör eller slangar vid kall väderlek."
+  ],
+  "steps": [
+   "Se till att kranen är helt öppen och att slangen är ansluten.",
+   "Räta ut slangar som är vikta eller klämda.",
+   "Stäng kranen, ta loss slangen och rengör inloppsfiltret. Sätt sedan tillbaka allt.",
+   "Vid minusgrader, tina kranen och slangen med varmt (inte kokande) vatten."
+  ],
+  "technician": "Om vattnet fortfarande inte rinner in kan inloppsventilen vara trasig. Beställ service."
+ },
+ "LG|UE": {
+  "title": "Obalanserad tvätt",
+  "causes": [
+   "Tvätten har samlats på ena sidan.",
+   "För stor eller för liten tvättmängd.",
+   "Skrymmande eller vattentäta plagg.",
+   "Tvättmaskinen står inte plant."
+  ],
+  "steps": [
+   "Pausa tvättmaskinen och fördela tvätten jämnt.",
+   "Fyll trumman till ungefär två tredjedelar.",
+   "Tvätta skrymmande saker som täcken på rätt program med medelhög centrifugering.",
+   "Ställ tvättmaskinen plant genom att justera fötterna."
+  ],
+  "technician": "Om det händer med normala, jämna tvättmängder på ett plant golv, beställ service."
+ },
+ "LG|LE": {
+  "title": "Motorn är blockerad, trumman snurrar inte",
+  "causes": [
+   "Tvättmaskinen är överlastad.",
+   "Ett mynt eller litet föremål blockerar trumman."
+  ],
+  "steps": [
+   "Dra ur kontakten och vänta 5 minuter.",
+   "Ta ur lite tvätt för att minska mängden.",
+   "Kontrollera med strömmen avstängd om det finns mynt eller små föremål i trumman och ta bort dem.",
+   "Sätt i kontakten och försök igen."
+  ],
+  "technician": "Om LE fortsätter att visas, dra ur kontakten och kontakta LG:s service."
+ },
+ "LG|dE": {
+  "title": "Luckan är inte stängd",
+  "causes": [
+   "Tvätt har fastnat mellan luckan och tätningen.",
+   "Luckan är inte helt stängd."
+  ],
+  "steps": [
+   "Öppna luckan, frigör kläder som har fastnat och stäng den ordentligt.",
+   "Återställning: dra ur kontakten, håll in Start/Paus i 5 sekunder, sätt i kontakten igen och försök igen."
+  ],
+  "technician": "Om koden finns kvar, beställ service från LG."
+ },
+ "LG|dE2": {
+  "title": "Luckan är stängd men inte låst",
+  "causes": [
+   "Trumman är överlastad.",
+   "Något har fastnat i luckans tätning.",
+   "Luckans spärr är böjd eller trasig."
+  ],
+  "steps": [
+   "Ta bort det som blockerar luckan och minska tvättmängden vid behov.",
+   "Öppna och stäng luckan igen.",
+   "Återställ tvättmaskinen genom att dra ur kontakten en kort stund."
+  ],
+  "technician": "Om låset fortfarande inte går i lås behöver luckans spärr eller lås repareras. Beställ service."
+ },
+ "LG|CE": {
+  "title": "Överström i motorn",
+  "causes": [
+   "För hög ström i motorkretsen, till exempel på grund av kortslutning, lös anslutning eller spänningstopp."
+  ],
+  "steps": [
+   "Dra ur kontakten i 10 sekunder.",
+   "Sätt i kontakten igen och kör ett program."
+  ],
+  "technician": "Om CE kommer tillbaka, stäng kranen, dra ur kontakten och ordna en reparation."
+ },
+ "LG|FE": {
+  "title": "För mycket vatten (överfyllning)",
+  "causes": [
+   "Det kommer in extra vatten, till exempel genom tvättmedelsfacket."
+  ],
+  "steps": [
+   "Kontrollera om vatten rinner genom tvättmedelsfacket.",
+   "Dra ur kontakten i 60 sekunder och starta om.",
+   "Kör ett kort program och se om vattnet töms ut."
+  ],
+  "technician": "Om FE finns kvar behöver vattenventilen eller sensorn kontrolleras. Beställ service."
+ },
+ "LG|PE": {
+  "title": "Fel på nivåsensorn",
+  "causes": [
+   "Nivåsensorn fungerar inte som den ska."
+  ],
+  "steps": [
+   "Dra ur kontakten i 10 sekunder.",
+   "Sätt i kontakten igen och starta om programmet."
+  ],
+  "technician": "Om PE kommer tillbaka, ordna en reparation."
+ },
+ "LG|AE": {
+  "title": "Läcka upptäckt inne i tvättmaskinen",
+  "causes": [
+   "Vatten läcker inne i maskinen.",
+   "En skadad eller lös inloppsslang.",
+   "En trasig säkerhetsbrytare för läckage."
+  ],
+  "steps": [
+   "Kontrollera att inloppsslangen inte har skador eller lösa anslutningar.",
+   "Dra ur kontakten i 60 sekunder och starta om."
+  ],
+  "technician": "Om AE finns kvar, stäng kranen och boka ett servicebesök."
+ },
+ "LG|tE": {
+  "title": "Fel på uppvärmningen / temperaturgivaren",
+  "causes": [
+   "Oftast en trasig temperaturgivare (termistor)."
+  ],
+  "steps": [
+   "Dra ur kontakten i 10 sekunder och sätt sedan i den igen.",
+   "Välj ingen centrifugering för att tömma ut vattnet och starta sedan om programmet."
+  ],
+  "technician": "Om tE kommer tillbaka, stäng kranarna, dra ur kontakten och ordna service."
+ },
+ "LG|Sud": {
+  "title": "För mycket lödder",
+  "causes": [
+   "För mycket tvättmedel.",
+   "Tvättmedel som inte är HE eller av fel typ."
+  ],
+  "steps": [
+   "Låt tvättmaskinen slutföra sin löddersänkande rutin.",
+   "Använd mindre tvättmedel nästa gång, och bara lågskummande (HE) tvättmedel.",
+   "Lägg pulver eller kapslar där bruksanvisningen anger, inte i koppen för flytande tvättmedel."
+  ],
+  "technician": "Behövs oftast inte. Om koden visas trots mycket lite tvättmedel, beställ service."
+ },
+ "LG|PF": {
+  "title": "Strömavbrott under ett program",
+  "causes": [
+   "Strömmen bröts medan tvättmaskinen var igång."
+  ],
+  "steps": [
+   "Dra ur kontakten eller slå av säkringen för tvättmaskinen.",
+   "Håll in Start/Paus i 5 sekunder medan kontakten är urdragen.",
+   "Slå på strömmen igen och kör ett program."
+  ],
+  "technician": "Om PF fortsätter att visas utan strömavbrott, ordna en reparation."
+ },
+ "LG|FF": {
+  "title": "Fruset vatten i tvättmaskinen",
+  "causes": [
+   "Temperaturen inuti sjönk under noll och vattnet i slangarna eller karet frös."
+  ],
+  "steps": [
+   "Ta ur tvätten.",
+   "Häll varmt vatten (ca 50–60 °C, aldrig kokande) i trumman och vänta 1–2 timmar.",
+   "Töm ut vattnet genom tömningsröret och sätt tillbaka locket.",
+   "Tina frusna inloppsslangar i varmt vatten, sätt sedan tillbaka dem och kör en sköljning."
+  ],
+  "technician": "Om FF visas fast det inte är kallt, beställ service."
+ },
+ "Siemens|E16": {
+  "title": "Luckan är inte låst",
+  "causes": [
+   "Tvätt har fastnat i luckan.",
+   "Luckan är inte ordentligt stängd."
+  ],
+  "steps": [
+   "Öppna luckan och stäng den igen ordentligt.",
+   "Ta vid behov ur några plagg och tryck igen luckan.",
+   "Tryck på Start igen, eller stäng av och slå på maskinen och starta om."
+  ],
+  "technician": "Om luckan inte låses, kontakta Siemens service."
+ },
+ "Siemens|E17": {
+  "title": "Vattenpåfyllningen tog för lång tid",
+  "causes": [
+   "Lågt vattentryck.",
+   "Ett igensatt filter i tilloppsslangen.",
+   "En igensatt AquaStop-slang."
+  ],
+  "steps": [
+   "Kontrollera att kranen är helt öppen.",
+   "Kontrollera flödet: en helt öppen kran ska ge ungefär 10 liter per minut.",
+   "Stäng kranen och rengör filtret i tilloppsslangen.",
+   "Se till att slangen inte är vikt."
+  ],
+  "technician": "Om trycket är för lågt, kontakta en rörmokare. Om vattentillförseln är i ordning, kontakta Siemens service."
+ },
+ "Siemens|E18": {
+  "title": "Vattnet töms inte ut",
+  "causes": [
+   "Pumpfiltret är igensatt.",
+   "Tömningsslangen är igensatt eller vikt."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten. Låt varmt vatten svalna.",
+   "Lägg handdukar och ett lågt kärl under filterluckan och töm ut vattnet.",
+   "Rengör pumpfiltret och sätt tillbaka det ordentligt.",
+   "Räta ut tömningsslangen och kontrollera att den inte är igensatt."
+  ],
+  "technician": "Om vattnet fortfarande inte töms ut, kontakta Siemens service."
+ },
+ "Siemens|E19": {
+  "title": "Vattenuppvärmningen tog för lång tid",
+  "causes": [
+   "Ett fel i värmesystemet."
+  ],
+  "steps": [
+   "Stäng av och slå på maskinen igen och starta om."
+  ],
+  "technician": "Enligt Siemens kan användaren inte åtgärda detta. Boka ett servicebesök."
+ },
+ "Siemens|E20": {
+  "title": "Oväntad uppvärmning",
+  "causes": [
+   "Uppvärmning upptäcktes när den borde vara avstängd."
+  ],
+  "steps": [
+   "Stäng av och slå på maskinen igen."
+  ],
+  "technician": "Om felet kvarstår, boka ett servicebesök hos Siemens."
+ },
+ "Siemens|E23": {
+  "title": "Läcka – vatten i botten",
+  "causes": [
+   "Maskinen läcker, eller det har samlats vatten i bottenplattan."
+  ],
+  "steps": [
+   "Stäng vattenkranen direkt.",
+   "Stäng av maskinen och dra ur kontakten.",
+   "Torka upp vattnet från golvet."
+  ],
+  "technician": "Kontakta Siemens service för att hitta och åtgärda läckan."
+ },
+ "Siemens|E25": {
+  "title": "Fel på grumlighetssensorn",
+  "causes": [
+   "Sensorn för vattnets klarhet är trasig."
+  ],
+  "steps": [
+   "Stäng av och slå på maskinen igen."
+  ],
+  "technician": "Boka ett servicebesök hos Siemens."
+ },
+ "Siemens|E26": {
+  "title": "Fel på nivåsensorn",
+  "causes": [
+   "Den analoga trycksensorn är trasig."
+  ],
+  "steps": [
+   "Stäng av och slå på maskinen igen."
+  ],
+  "technician": "Boka ett servicebesök hos Siemens."
+ },
+ "Siemens|E29": {
+  "title": "Problem med vatteninloppet",
+  "causes": [
+   "Lågt vattentryck eller ett igensatt tilloppsfilter eller AquaStop-slang."
+  ],
+  "steps": [
+   "Kontrollera att kranen är helt öppen och att flödet är ungefär 10 liter per minut.",
+   "Stäng kranen och rengör filtret i tilloppsslangen.",
+   "Se till att slangen inte är vikt."
+  ],
+  "technician": "Om vattentillförseln är i ordning och koden kommer tillbaka, kontakta Siemens service."
+ },
+ "Siemens|E32": {
+  "title": "Obalanserad tvätt – centrifugeringen stoppad",
+  "causes": [
+   "Tvätten är ojämnt fördelad i trumman. Detta är inget fel."
+  ],
+  "steps": [
+   "Fördela stora och små plagg jämnt i trumman.",
+   "Kör centrifugeringen igen."
+  ],
+  "technician": "Behövs inte, om det inte händer med varje normal tvättmängd."
+ },
+ "Siemens|E33": {
+  "title": "För mycket lödder",
+  "causes": [
+   "För mycket tvättmedel, särskilt med mjukt vatten eller lätt smutsig tvätt."
+  ],
+  "steps": [
+   "Använd mindre tvättmedel nästa gång.",
+   "Kör en sköljning för att få bort löddret."
+  ],
+  "technician": "Behövs oftast inte."
+ },
+ "Siemens|E34": {
+  "title": "Luckan är inte låst",
+  "causes": [
+   "Luckan är inte helt stängd, ofta för att trumman är mycket full.",
+   "Ett plagg har fastnat mellan luckan och maskinen."
+  ],
+  "steps": [
+   "Kontrollera att inga kläder har fastnat i luckan.",
+   "Stäng luckan tills det klickar.",
+   "Starta om programmet."
+  ],
+  "technician": "Om luckan fortfarande inte låses, kontakta Siemens service."
+ },
+ "AEG|E10": {
+  "title": "Problem med vattentillförseln",
+  "causes": [
+   "Vattentillförseln är begränsad eller avstängd, till exempel på grund av en stängd kran eller vikt slang."
+  ],
+  "steps": [
+   "Kontrollera att vattenkranen är helt öppen.",
+   "Se till att inloppsslangen inte är vikt eller klämd.",
+   "Återställning: stäng av vid uttaget i ungefär en minut, slå sedan på igen och starta om."
+  ],
+  "technician": "Om koden kommer tillbaka direkt, eller om maskinen fortfarande inte fylls på, boka en reparation."
+ },
+ "AEG|E20": {
+  "title": "Problem med tömningen",
+  "causes": [
+   "Igensatt filter i tömningspumpen eller igensatt tömningsslang."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten. Låt varmt vatten svalna.",
+   "Töm ut vattnet i ett kärl och rengör tömningspumpens filter.",
+   "Kontrollera att tömningsslangen inte är vikt eller igensatt.",
+   "Sätt i kontakten och kör tömning eller centrifugering."
+  ],
+  "technician": "Om vattnet fortfarande inte töms ut, boka en reparation."
+ },
+ "AEG|E30": {
+  "title": "Problem med nivåsensorn (trycksensorn)",
+  "causes": [
+   "Sensorn som mäter vattennivån har ett fel, eller så påverkar för mycket lödder mätningen."
+  ],
+  "steps": [
+   "Stäng av vid uttaget i ungefär en minut och slå sedan på igen.",
+   "Använd rätt mängd tvättmedel."
+  ],
+  "technician": "Om koden kommer tillbaka, boka en reparation."
+ },
+ "AEG|E40": {
+  "title": "Problem med luckans lås",
+  "causes": [
+   "Luckan är inte ordentligt stängd, eller så har luckans lås ett fel."
+  ],
+  "steps": [
+   "Öppna luckan, kontrollera att inget har fastnat i tätningen och stäng den ordentligt.",
+   "Stäng av vid uttaget i ungefär en minut och starta sedan om."
+  ],
+  "technician": "Om luckan fortfarande inte låses, boka en reparation."
+ },
+ "AEG|E50": {
+  "title": "Problem med motorn",
+  "causes": [
+   "Ett fel i motorn eller drivsystemet."
+  ],
+  "steps": [
+   "Stäng av vid uttaget i ungefär en minut och starta sedan om."
+  ],
+  "technician": "Om trumman fortfarande inte snurrar, boka en reparation."
+ },
+ "AEG|E60": {
+  "title": "Problem med uppvärmningen",
+  "causes": [
+   "Ett fel i värmeelementet eller temperaturgivaren."
+  ],
+  "steps": [
+   "Stäng av vid uttaget i ungefär en minut och starta sedan om."
+  ],
+  "technician": "Om koden kommer tillbaka, boka en reparation."
+ },
+ "AEG|EF0": {
+  "title": "Varning: läcka, för mycket lödder eller obalanserad tvätt",
+  "causes": [
+   "Vatten läcker inne i maskinen.",
+   "För mycket lödder från tvättmedlet.",
+   "Obalanserad tvätt."
+  ],
+  "steps": [
+   "Stäng av maskinen, dra ur kontakten och kontrollera om det finns vatten på golvet.",
+   "Om det inte läcker, använd mindre tvättmedel och fördela tvätten jämnt.",
+   "Starta om när löddret har lagt sig."
+  ],
+  "technician": "Om du ser en läcka eller koden fortsätter att komma tillbaka, stäng kranen och boka en reparation."
+ },
+ "AEG|EH0": {
+  "title": "Problem med strömförsörjningen",
+  "causes": [
+   "Nätspänningen är ojämn eller instabil."
+  ],
+  "steps": [
+   "Anslut maskinen direkt till ett vägguttag, utan förlängningssladdar.",
+   "Stäng av i ungefär en minut och slå sedan på igen."
+  ],
+  "technician": "Om det fortsätter att hända, be en elektriker kontrollera elnätet."
+ },
+ "Hotpoint|F01": {
+  "title": "Fel på det elektroniska kretskortet",
+  "causes": [
+   "Ett fel på styrkortet. Vissa eller alla funktioner fungerar inte."
+  ],
+  "steps": [
+   "Dra ur kontakten i minst 2 minuter.",
+   "Sätt i kontakten, vänta 30 sekunder och försök igen."
+  ],
+  "technician": "Om felet finns kvar, boka en Hotpoint-tekniker."
+ },
+ "Hotpoint|F02": {
+  "title": "Fel i motorkretsen",
+  "causes": [
+   "Ett fel i motorkretsen. Trumman snurrar ryckigt eller inte alls."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Hotpoint-tekniker."
+ },
+ "Hotpoint|F03": {
+  "title": "Fel på temperaturgivaren",
+  "causes": [
+   "Kretsen för temperaturmätning är trasig, så maskinen värmer inte."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Hotpoint-tekniker."
+ },
+ "Hotpoint|F05": {
+  "title": "Igensatt avlopp eller problem med pumpen",
+  "causes": [
+   "Ett igensatt pumpfilter, avloppsslang eller avlopp under diskbänken.",
+   "En trasig tömningspump."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten. Låt varmt vatten svalna.",
+   "Om din modell har ett pumpfilter, töm ut vattnet i ett kärl och rengör filtret.",
+   "Kontrollera att avloppsslangen och röret under diskbänken inte är igensatta.",
+   "Sätt i kontakten och prova tömning eller centrifugering."
+  ],
+  "technician": "Om vattnet fortfarande inte töms ut har pumpen troligen gått sönder. Boka en tekniker."
+ },
+ "Hotpoint|F06": {
+  "title": "Fel på luckans lås",
+  "causes": [
+   "Luckans lås är blockerat eller trasigt."
+  ],
+  "steps": [
+   "Kontrollera att inget är i vägen vid luckan och låset.",
+   "Stäng luckan ordentligt och starta om.",
+   "Läs Hotpoints sida med säkerhetsmeddelanden – vissa lucklås omfattas av återkallelse."
+  ],
+  "technician": "Om felet kvarstår, boka en tekniker."
+ },
+ "Hotpoint|F07": {
+  "title": "Fel i värmekretsen / kretskortet",
+  "causes": [
+   "Ett fel i värmekretsen eller styrkortet. Tvätten pausas och pumpen kan fortsätta gå."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Hotpoint-tekniker."
+ },
+ "Hotpoint|F08": {
+  "title": "Fel på värmeelementet",
+  "causes": [
+   "Värmeelementet är trasigt, så programmet pausas mitt i tvätten."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Hotpoint-tekniker."
+ },
+ "Hotpoint|F09": {
+  "title": "Programvarufel",
+  "causes": [
+   "Ett problem med programvaran. Lamporna blinkar och inget program kan väljas."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Hotpoint-tekniker."
+ },
+ "Hotpoint|F11": {
+  "title": "Fel i tömningspumpens krets",
+  "causes": [
+   "Ett fel i pumpkretsen. Vattnet blir kvar i trumman."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten.",
+   "Öppna inte luckan när det finns vatten i trumman."
+  ],
+  "technician": "Boka en Hotpoint-tekniker."
+ },
+ "Hotpoint|F12": {
+  "title": "Fel i den elektroniska styrningen",
+  "causes": [
+   "Ett fel i styrningen. Maskinen går inte att slå på."
+  ],
+  "steps": [
+   "Kontrollera att kontakten och uttaget fungerar med en annan apparat."
+  ],
+  "technician": "Boka en Hotpoint-tekniker."
+ },
+ "Hotpoint|F15": {
+  "title": "Fel i styrningen av värmeelementet",
+  "causes": [
+   "Ett fel i styrningen av värmeelementet. Vattnet värms inte eller tvätten pausas."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Hotpoint-tekniker."
+ },
+ "Hotpoint|F18": {
+  "title": "Internt datafel",
+  "causes": [
+   "Ett internt dataproblem. Vissa eller alla displayfunktioner fungerar inte."
+  ],
+  "steps": [
+   "Dra ur kontakten i minst 2 minuter.",
+   "Sätt i kontakten, vänta 30 sekunder och försök igen."
+  ],
+  "technician": "Om felet finns kvar, boka en Hotpoint-tekniker."
+ },
+ "Indesit|F01": {
+  "title": "Fel på det elektroniska kretskortet",
+  "causes": [
+   "Ett fel på styrkortet. Vissa eller alla funktioner går inte att välja."
+  ],
+  "steps": [
+   "Dra ur kontakten i minst 2 minuter.",
+   "Sätt i kontakten, vänta 30 sekunder och försök igen."
+  ],
+  "technician": "Om felet finns kvar, boka en Indesit-tekniker."
+ },
+ "Indesit|F02": {
+  "title": "Fel i motorkretsen",
+  "causes": [
+   "Ett fel i motorkretsen. Trumman snurrar ryckigt eller inte alls."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Indesit-tekniker."
+ },
+ "Indesit|F03": {
+  "title": "Fel på temperaturgivaren",
+  "causes": [
+   "Kretsen för temperaturmätning är trasig, så maskinen värmer inte."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Indesit-tekniker."
+ },
+ "Indesit|F05": {
+  "title": "Igensatt avlopp eller problem med pumpen",
+  "causes": [
+   "Ett igensatt pumpfilter, avloppsslang eller avlopp under diskbänken.",
+   "En trasig tömningspump."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten. Låt varmt vatten svalna.",
+   "Om din modell har ett pumpfilter, töm ut vattnet i ett kärl och rengör filtret.",
+   "Kontrollera att avloppsslangen och röret under diskbänken inte är igensatta.",
+   "Sätt i kontakten och prova tömning eller centrifugering."
+  ],
+  "technician": "Om vattnet fortfarande inte töms ut har pumpen troligen gått sönder. Boka en tekniker."
+ },
+ "Indesit|F06": {
+  "title": "Fel på luckans lås",
+  "causes": [
+   "Luckans lås är blockerat eller trasigt."
+  ],
+  "steps": [
+   "Kontrollera att inget är i vägen vid luckan och låset.",
+   "Stäng luckan ordentligt och starta om.",
+   "Läs märkets säkerhetsmeddelanden – vissa lucklås omfattas av återkallelse."
+  ],
+  "technician": "Om felet kvarstår, boka en tekniker."
+ },
+ "Indesit|F07": {
+  "title": "Fel i värmekretsen / kretskortet",
+  "causes": [
+   "Ett fel i värmekretsen eller styrkortet. Tvätten pausas och pumpen kan fortsätta gå."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Indesit-tekniker."
+ },
+ "Indesit|F08": {
+  "title": "Fel på värmeelementet",
+  "causes": [
+   "Värmeelementet är trasigt, så programmet pausas mitt i tvätten."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Indesit-tekniker."
+ },
+ "Indesit|F09": {
+  "title": "Programvarufel",
+  "causes": [
+   "Ett problem med programvaran. Lamporna blinkar och inget program kan väljas."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Indesit-tekniker."
+ },
+ "Indesit|F11": {
+  "title": "Fel i tömningspumpens krets",
+  "causes": [
+   "Ett fel i pumpkretsen. Vattnet blir kvar i trumman."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten.",
+   "Öppna inte luckan när det finns vatten i trumman."
+  ],
+  "technician": "Boka en Indesit-tekniker."
+ },
+ "Indesit|F12": {
+  "title": "Fel i den elektroniska styrningen",
+  "causes": [
+   "Ett fel i styrningen. Maskinen går inte att slå på."
+  ],
+  "steps": [
+   "Kontrollera att kontakten och uttaget fungerar med en annan apparat."
+  ],
+  "technician": "Boka en Indesit-tekniker."
+ },
+ "Indesit|F15": {
+  "title": "Fel i styrningen av värmeelementet",
+  "causes": [
+   "Ett fel i styrningen av värmeelementet. Vattnet värms inte eller tvätten pausas."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten."
+  ],
+  "technician": "Boka en Indesit-tekniker."
+ },
+ "Indesit|F18": {
+  "title": "Internt datafel",
+  "causes": [
+   "Ett internt dataproblem. Vissa eller alla displayfunktioner fungerar inte."
+  ],
+  "steps": [
+   "Dra ur kontakten i minst 2 minuter.",
+   "Sätt i kontakten, vänta 30 sekunder och försök igen."
+  ],
+  "technician": "Om felet finns kvar, boka en Indesit-tekniker."
+ },
+ "Beko|E5": {
+  "title": "Pumpfiltret kan vara igensatt (problem med tömningen)",
+  "causes": [
+   "Pumpfiltret är igensatt, så vattnet kan inte tömmas ut."
+  ],
+  "steps": [
+   "Stäng av maskinen och dra ur kontakten. Låt varmt vatten svalna.",
+   "Töm ut det kvarvarande vattnet i ett kärl och rengör pumpfiltret.",
+   "Sätt tillbaka filtret ordentligt och kör en centrifugering."
+  ],
+  "technician": "Om problemet fortsätter, kontakta Bekos service."
+ },
+ "Beko|E8": {
+  "title": "Inget vatten kommer in",
+  "causes": [
+   "Kranen är stängd eller vattnet är avstängt.",
+   "Inloppsslangen är vikt eller lös.",
+   "Det främre filterlocket är inte stängt och låst."
+  ],
+  "steps": [
+   "Öppna kranen och kontrollera att det finns vatten i ledningen.",
+   "Kontrollera inloppsslangens anslutning och räta ut eventuella veck.",
+   "Se till att det främre locket är stängt och låst.",
+   "Kör maskinen igen."
+  ],
+  "technician": "Om problemet fortsätter, kontakta Bekos service."
+ },
+ "Beko|E12": {
+  "title": "Det kan finnas vatten inne i maskinen (läcka)",
+  "causes": [
+   "Det har samlats vatten inne i maskinen, kanske på grund av en läcka."
+  ],
+  "steps": [
+   "Dra ur kontakten.",
+   "Torka upp vatten under maskinen.",
+   "Sätt i kontakten och kör ett kort program medan du håller uppsikt."
+  ],
+  "technician": "Om vatten läcker från en slang eller koden kommer tillbaka, stäng kranarna och kontakta Bekos service."
+ },
+ "Beko|E17": {
+  "title": "För mycket lödder",
+  "causes": [
+   "För mycket tvättmedel i förhållande till tvättmängden.",
+   "Tvättmedlet har hamnat i fel fack eller förvarats dåligt."
+  ],
+  "steps": [
+   "Anpassa mängden tvättmedel efter tvättmängden och hur smutsig tvätten är.",
+   "Använd mindre tvättmedel för mycket uppsugande textilier.",
+   "Kör programmet för trumrengöring (eller Bomull 90 °C) med tom trumma."
+  ],
+  "technician": "Om problemet fortsätter, kontakta Bekos service."
+ },
+ "Beko|E18": {
+  "title": "Obalanserad tvätt – centrifugeringen startade inte",
+  "causes": [
+   "För lite tvätt, eller tvätten har samlats på ena sidan."
+  ],
+  "steps": [
+   "Lägg i fler plagg om tvättmängden är mycket liten.",
+   "Fördela tvätten jämnt för hand.",
+   "Kör centrifugeringen igen."
+  ],
+  "technician": "Behövs oftast inte."
+ },
+ "Beko|E27": {
+  "title": "Problem med tömningen",
+  "causes": [
+   "Tömningsslangen är inte korrekt ansluten."
+  ],
+  "steps": [
+   "Kontrollera tömningsslangens anslutning till avloppet.",
+   "Se till att slangen inte är vikt eller igensatt."
+  ],
+  "technician": "Om problemet fortsätter, kontakta Bekos service."
+ },
+ "Beko|E29": {
+  "title": "Självskyddsläge (problem med tillförseln)",
+  "causes": [
+   "Ett problem med nätspänningen eller vattentrycket."
+  ],
+  "steps": [
+   "Avbryt programmet genom att vrida programväljaren till ett annat program.",
+   "Starta programmet igen."
+  ],
+  "technician": "Om problemet fortsätter, kontakta Bekos service."
+ },
+ "Miele|F10": {
+  "title": "Vatteninloppet är igensatt eller begränsat",
+  "causes": [
+   "Avstängningsventilen (kranen) är stängd.",
+   "Inloppsfiltret är smutsigt.",
+   "Inloppsslangen är vikt.",
+   "Vattentrycket är för lågt."
+  ],
+  "steps": [
+   "Avbryt programmet och öppna kranen helt.",
+   "Stäng kranen, skruva loss inloppsslangen, ta ut det lilla filtret, rengör det och sätt tillbaka det.",
+   "Sätt tillbaka slangen, öppna kranen och kontrollera att det inte droppar.",
+   "Räta ut eventuella veck på slangen.",
+   "Kontrollera flödet: minst 5 liter ska rinna ut på 15 sekunder."
+  ],
+  "technician": "Om trycket är för lågt, kontakta en rörmokare. Om slangen är skadad kan Mieles service byta den."
+ },
+ "Miele|F11": {
+  "title": "Tömningen är begränsad",
+  "causes": [
+   "Tömningsslangens ände sitter högre än 1 meter.",
+   "Tömningsslangen är vikt.",
+   "Tömningsfiltret eller pumpen är blockerad av föremål som knappar eller mynt."
+  ],
+  "steps": [
+   "Stäng av maskinen. Låt varmt vatten svalna så att du inte skållar dig.",
+   "Sänk tömningsslangens ände till högst 1 meter och ta bort veck.",
+   "Öppna luckan till tömningspumpen, ställ ett kärl under och skruva långsamt loss tömningsfiltret så att vattnet rinner ut.",
+   "Rengör filtret, kontrollera att pumphjulet snurrar fritt och skruva sedan tillbaka filtret ordentligt."
+  ],
+  "technician": "Om felet kvarstår, kontakta Mieles service."
+ },
+ "Miele|F15": {
+  "title": "Varmvatteninloppet är igensatt eller begränsat",
+  "causes": [
+   "Varmvattenkranen är inte helt öppen.",
+   "Varmvatteninloppets filter är smutsigt.",
+   "Varmvattentrycket är för lågt."
+  ],
+  "steps": [
+   "Öppna varmvattenkranen helt och starta om.",
+   "Stäng kranen, skruva loss varmvattenslangen, rengör det lilla filtret och sätt tillbaka det.",
+   "Kontrollera flödet: minst 5 liter på 15 sekunder."
+  ],
+  "technician": "Om trycket är för lågt och inte går att höja, kontakta en rörmokare eller Mieles service."
+ },
+ "Miele|F20": {
+  "title": "Fel på uppvärmningen",
+  "causes": [
+   "Den inställda temperaturen nåddes inte i tid (Thermostop).",
+   "Ett tekniskt fel i värmesystemet."
+  ],
+  "steps": [
+   "Stäng av vid vägguttaget och dra ur kontakten, eller slå av säkringen.",
+   "Vänta minst 2 minuter.",
+   "Anslut igen, slå på och starta om programmet."
+  ],
+  "technician": "Om F20 kommer tillbaka, kontakta Mieles service."
+ },
+ "Miele|F34": {
+  "title": "Luckan kunde inte låsas",
+  "causes": [
+   "Trumman är överlastad.",
+   "Ett tekniskt fel i låset."
+  ],
+  "steps": [
+   "Ta ur lite tvätt så att mängden håller sig inom gränsen.",
+   "Stäng av och slå på igen.",
+   "Dra vid behov ur kontakten i minst 2 minuter, anslut sedan igen och slå på."
+  ],
+  "technician": "Om felet kommer tillbaka, kontakta Mieles service."
+ },
+ "Miele|F35": {
+  "title": "Luckan kunde inte låsas upp",
+  "causes": [
+   "Ett tekniskt fel i luckans lås."
+  ],
+  "steps": [
+   "Stäng av vid vägguttaget och dra ur kontakten, eller slå av säkringen.",
+   "Vänta minst 2 minuter, anslut sedan igen och slå på."
+  ],
+  "technician": "Om luckan fortfarande inte går att öppna, kontakta Mieles service. Bänd inte upp luckan."
+ },
+ "Miele|Waterproof system activated": {
+  "title": "Läckageskyddet har löst ut",
+  "causes": [
+   "Vatten har upptäckts inne i maskinen på grund av en läcka."
+  ],
+  "steps": [
+   "Dra ur kontakten.",
+   "Stäng vattenkranen.",
+   "Torka upp vattnet på golvet.",
+   "Använd inte maskinen förrän den har reparerats."
+  ],
+  "technician": "Enligt Miele måste läckan repareras av Mieles service. Försök inte åtgärda den själv."
+ }
+}

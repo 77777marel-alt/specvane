@@ -154,7 +154,7 @@ export const ja: Dict = {
     popularCompare: "人気の比較",
     seeAll: "すべて",
     errTitle: "エラーコード",
-    errLead: "洗濯機と食洗機のエラーコードの意味と、自分で安全にできる対処。",
+    errLead: "洗濯機、食器洗い乾燥機、衣類乾燥機、冷蔵庫、コーヒーメーカー、エアコン、ガスボイラーのエラーコードの意味と、自分で安全にできる対処法。",
     errBrandTitle: "{brand} {appliance}：エラーコード",
     errCodeTitle: "{brand} {appliance} エラー {code}",
     errCauses: "考えられる原因",

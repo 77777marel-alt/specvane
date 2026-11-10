@@ -1,0 +1,1201 @@
+{
+ "Samsung|dC": {
+  "title": "Lågen er åben eller registreres ikke",
+  "causes": [
+   "Lågen er ikke helt lukket.",
+   "Tøj sidder i klemme i lågen.",
+   "Børnesikringen er slået til, og lågen blev åbnet."
+  ],
+  "steps": [
+   "Åbn lågen, og fjern tøj, der sidder i klemme ved kanten.",
+   "Luk lågen godt, til den går i lås.",
+   "Tjek, om børnesikringen er slået til.",
+   "Start programmet igen."
+  ],
+  "technician": "Bliver koden ved, selvom lågen er lukket ordentligt, kan låsen eller lågesensoren være defekt. Kontakt Samsung service."
+ },
+ "Samsung|NC": {
+  "title": "Problem med fnugfilteret",
+  "causes": [
+   "Fnugfilteret mangler, er stoppet eller sidder ikke korrekt."
+  ],
+  "steps": [
+   "Tag fnugfilteret ud, og rengør det.",
+   "Sæt det helt på plads, så det sidder korrekt.",
+   "Genstart programmet."
+  ],
+  "technician": "Kommer koden igen med et rent, korrekt monteret filter, så bestil et servicebesøg hos Samsung."
+ },
+ "Samsung|NC2": {
+  "title": "Problem med varmevekslerens inderdæksel",
+  "causes": [
+   "Varmevekslerens inderdæksel er ikke monteret korrekt."
+  ],
+  "steps": [
+   "Sluk tørretumbleren.",
+   "Tjek, at varmevekslerens inderdæksel sidder på plads og er lukket ordentligt.",
+   "Genstart programmet."
+  ],
+  "technician": "Fortsætter koden, efter at dækslet er sat på igen, så kontakt Samsung service."
+ },
+ "Samsung|5C": {
+  "title": "Problem med afløbet",
+  "causes": [
+   "Afløbsslangen er bøjet, beskadiget eller frosset.",
+   "Vandbeholderen er fuld.",
+   "Afløbspumpen virker ikke."
+  ],
+  "steps": [
+   "Tøm vandbeholderen, og sæt den på plads igen.",
+   "Tjek, at afløbsslangen ikke er knækket eller beskadiget.",
+   "Er slangen frosset, så vikl den ind i et håndklæde vædet i varmt vand i cirka 10 minutter.",
+   "Tænd tørretumbleren, og genstart programmet."
+  ],
+  "technician": "Er beholderen tom og slangen fri, men kommer koden igen, kan pumpen være defekt. Ring til Samsung service."
+ },
+ "Samsung|tC": {
+  "title": "Problem med lufttemperatursensoren",
+  "causes": [
+   "Fnugfilteret eller varmeveksleren er stoppet.",
+   "Udluftningen eller luftvejen er begrænset.",
+   "Temperatursensoren er defekt."
+  ],
+  "steps": [
+   "Rengør fnugfilteret.",
+   "Rengør varmeveksleren, hvis din model har en.",
+   "Tjek udluftningen eller aftrækket for tilstopning.",
+   "Genstart programmet."
+  ],
+  "technician": "Forsvinder koden ikke efter rengøring, skal sensoren måske udskiftes. Kontakt Samsung service."
+ },
+ "Samsung|tC5": {
+  "title": "Problem med kompressorens temperatursensor",
+  "causes": [
+   "Fnugfilteret er stoppet.",
+   "Luftstrømmen gennem udluftningssystemet er begrænset."
+  ],
+  "steps": [
+   "Vent 2 til 3 minutter, og tænd derefter tørretumbleren igen.",
+   "Rengør fnugfilteret.",
+   "Tjek udluftningssystemet for tilstopning.",
+   "Genstart programmet."
+  ],
+  "technician": "Bliver koden ved med at komme igen, skal varmepumpesystemet tjekkes af Samsung service."
+ },
+ "Samsung|3C": {
+  "title": "Problem med motoren",
+  "causes": [
+   "Invertermotoren kørte ikke som forventet."
+  ],
+  "steps": [
+   "Sørg for, at tromlen ikke er overfyldt.",
+   "Genstart programmet.",
+   "Tag stikket ud af tørretumbleren i mindst 30 sekunder, sæt det i igen, og prøv igen."
+  ],
+  "technician": "Kommer koden igen, skal motoren eller dens styring tjekkes af en tekniker. Kontakt Samsung service."
+ },
+ "Samsung|AC": {
+  "title": "Elektronisk kommunikationsfejl",
+  "causes": [
+   "De interne styredele kommunikerer ikke med hinanden."
+  ],
+  "steps": [
+   "Sluk tørretumbleren i 60 sekunder.",
+   "Tænd den igen, og genstart programmet."
+  ],
+  "technician": "Kommer koden igen, skal printkortene tjekkes. Bestil Samsung service."
+ },
+ "Samsung|AC6": {
+  "title": "Hovedprintet og inverterprintet kommunikerer ikke",
+  "causes": [
+   "Hovedprintet og inverterprintet har mistet forbindelsen."
+  ],
+  "steps": [
+   "Genstart programmet.",
+   "Tag stikket ud af tørretumbleren i mindst 30 sekunder, sæt det i igen, og prøv igen."
+  ],
+  "technician": "Fortsætter koden, skal en tekniker tjekke printkort og ledninger. Kontakt Samsung service."
+ },
+ "Samsung|HC": {
+  "title": "Overophedning eller problem med opvarmningen",
+  "causes": [
+   "Fnugfilteret eller udluftningen er stoppet, så tørretumbleren bliver for varm.",
+   "En udløst afbryder eller lav spænding på elektriske modeller."
+  ],
+  "steps": [
+   "Rengør fnugfilteret.",
+   "Tjek udluftningen for tilstopning.",
+   "Tjek boligens afbrydere, og slå dem til igen, hvis de er slået fra.",
+   "Genstart programmet."
+  ],
+  "technician": "Fortsætter koden, så få en elektriker til at tjekke forsyningen, og bestil Samsung service til varmesystemet."
+ },
+ "Samsung|FC": {
+  "title": "Forkert frekvens i strømforsyningen",
+  "causes": [
+   "Netfrekvensen passer ikke til det, tørretumbleren forventer."
+  ],
+  "steps": [
+   "Genstart programmet.",
+   "Sørg for, at tørretumbleren er sat direkte i en stikkontakt i væggen."
+  ],
+  "technician": "Bliver koden ved, så kontakt Samsung service."
+ },
+ "Samsung|9C1": {
+  "title": "Problem med strømforsyningen",
+  "causes": [
+   "Strømforsyningen er ikke korrekt.",
+   "Stikket sidder løst eller ikke helt inde.",
+   "Der bruges en forlængerledning."
+  ],
+  "steps": [
+   "Tjek, at stikket sidder helt inde i stikkontakten.",
+   "Sæt tørretumbleren direkte i en stikkontakt i væggen på sin egen gruppe uden forlængerledning.",
+   "Genstart programmet."
+  ],
+  "technician": "Er forsyningen i orden, og kommer koden igen, så bestil Samsung service."
+ },
+ "Samsung|dF": {
+  "title": "Fejl i lågekontakten",
+  "causes": [
+   "Låge- eller låsekontakten eller dens ledninger er defekte."
+  ],
+  "steps": [
+   "Luk lågen godt, og prøv igen.",
+   "Tag stikket ud af tørretumbleren i mindst 30 sekunder, sæt det i igen, og prøv igen."
+  ],
+  "technician": "Lågekontakten skal måske udskiftes. Kontakt Samsung service."
+ },
+ "Samsung|bE": {
+  "title": "En knap sidder fast",
+  "causes": [
+   "En knap på betjeningspanelet sidder fast eller er trykket ned."
+  ],
+  "steps": [
+   "Sluk tørretumbleren.",
+   "Tryk på alle knapper, og slip dem igen – også ved kanterne – så en fastsiddende knap frigøres.",
+   "Tænd, og prøv igen."
+  ],
+  "technician": "Er en knap beskadiget, eller kommer koden igen, så bestil Samsung service."
+ },
+ "Samsung|Clg": {
+  "title": "Udluftningen er stoppet (resultat af udluftningstest)",
+  "causes": [
+   "Aftrækket er blokeret af fnug eller rester."
+  ],
+  "steps": [
+   "Rengør fnugfilteret.",
+   "Rengør aftrækket og aftræksrøret.",
+   "Kør testen for tilstoppet udluftning igen."
+  ],
+  "technician": "Er aftrækket rent, og er resultatet det samme, så kontakt Samsung service."
+ },
+ "Samsung|dn": {
+  "title": "Softwaredownload i gang",
+  "causes": [
+   "Tørretumbleren installerer en firmwareopdatering."
+  ],
+  "steps": [
+   "Tag ikke stikket ud af tørretumbleren, og slå ikke strømmen fra.",
+   "Vent. Tørretumbleren genstarter selv, når opdateringen er færdig."
+  ],
+  "technician": "Vises dn stadig efter 24 timer, så bestil Samsung service."
+ },
+ "Samsung|CL": {
+  "title": "Børnesikringen er slået til",
+  "causes": [
+   "Børnesikringen er slået til, så knapperne er deaktiveret."
+  ],
+  "steps": [
+   "Slå børnesikringen fra med den knapkombination, der står i manualen."
+  ],
+  "technician": "Det er ikke en fejl. Kontakt kun Samsung, hvis børnesikringen ikke kan slås fra."
+ },
+ "Samsung|HC2": {
+  "title": "Fejl i gastændingen",
+  "causes": [
+   "Gastørretumbleren kunne ikke tænde."
+  ],
+  "steps": [
+   "Sluk tørretumbleren i 2 til 3 minutter.",
+   "Tænd den, og genstart programmet."
+  ],
+  "technician": "Kommer koden igen, så stop med at bruge tørretumbleren, og ring til Samsung service. Arbejd ikke selv på gasdele."
+ },
+ "LG|OE": {
+  "title": "Problem med afløbet",
+  "causes": [
+   "Afløbsslangen er snoet, knækket eller stoppet.",
+   "Slangens ende sidder for højt eller ligger under vand."
+  ],
+  "steps": [
+   "Ret afløbsslangen ud.",
+   "Slangens øverste punkt må højst være 1 m over gulvet.",
+   "Sørg for, at slangens ende ikke ligger i vand.",
+   "Genstart tørretumbleren."
+  ],
+  "technician": "Kommer koden igen med en fri og korrekt placeret slange, så kontakt LG service."
+ },
+ "LG|d80": {
+  "title": "Begrænset luftstrøm i aftrækket (ca. 80 % blokeret)",
+  "causes": [
+   "Fnugfilteret er stoppet.",
+   "Aftræksrøret er klemt, knækket eller for langt.",
+   "Spjældet i den udvendige udluftning er blokeret."
+  ],
+  "steps": [
+   "Rengør fnugfilteret, og skyl det om nødvendigt i varmt vand.",
+   "Tjek aftræksrøret bag tørretumbleren for knæk eller klemninger.",
+   "Sørg for, at det udvendige spjæld åbner helt, og fjern fnug omkring det.",
+   "Brug mindre fyldninger, indtil røret er renset."
+  ],
+  "technician": "Bliver koden ved efter rengøring, så få en fagmand til at rense røret, eller kontakt LG service."
+ },
+ "LG|d90": {
+  "title": "Begrænset luftstrøm i aftrækket (ca. 90 % blokeret)",
+  "causes": [
+   "Fnugfilteret er stoppet.",
+   "Aftræksrøret er klemt, knækket eller for langt.",
+   "Spjældet i den udvendige udluftning er blokeret."
+  ],
+  "steps": [
+   "Rengør fnugfilteret, og skyl det om nødvendigt i varmt vand.",
+   "Tjek aftræksrøret bag tørretumbleren for knæk eller klemninger.",
+   "Sørg for, at det udvendige spjæld åbner helt, og fjern fnug omkring det.",
+   "Brug mindre fyldninger, indtil røret er renset."
+  ],
+  "technician": "Bliver koden ved efter rengøring, så få en fagmand til at rense røret, eller kontakt LG service."
+ },
+ "LG|d95": {
+  "title": "Begrænset luftstrøm i aftrækket (ca. 95 % blokeret)",
+  "causes": [
+   "Fnugfilteret er stoppet.",
+   "Aftræksrøret er klemt, knækket eller for langt.",
+   "Spjældet i den udvendige udluftning er blokeret."
+  ],
+  "steps": [
+   "Rengør fnugfilteret, og skyl det om nødvendigt i varmt vand.",
+   "Tjek aftræksrøret bag tørretumbleren for knæk eller klemninger.",
+   "Sørg for, at det udvendige spjæld åbner helt, og fjern fnug omkring det.",
+   "Brug mindre fyldninger, indtil røret er renset."
+  ],
+  "technician": "Bliver koden ved efter rengøring, så få en fagmand til at rense røret, eller kontakt LG service."
+ },
+ "LG|FO": {
+  "title": "Fnugfilteret sidder ikke på plads",
+  "causes": [
+   "Fnugfilteret er ikke sat korrekt i."
+  ],
+  "steps": [
+   "Tag fnugfilteret ud.",
+   "Skub det tilbage i holderen, til det sidder helt på plads.",
+   "Genstart tørretumbleren."
+  ],
+  "technician": "Bliver FO ved, selvom filteret sidder korrekt, skal sensoren måske repareres af LG service."
+ },
+ "LG|IF": {
+  "title": "Det indre fnugfilter registreres ikke",
+  "causes": [
+   "Magneten i det indre fnugfilter mangler eller sidder forkert.",
+   "Magnetholderen er beskadiget."
+  ],
+  "steps": [
+   "Tag det indre fnugfilter ud, og tjek, at magneten sidder på plads.",
+   "Sæt filteret korrekt i igen.",
+   "Er magneten væk, eller er holderen i stykker, så køb et nyt filter."
+  ],
+  "technician": "Bliver fejlen ved med et filter i god stand, så bestil LG service."
+ },
+ "LG|nP": {
+  "title": "Ingen strøm til varmelegemet",
+  "causes": [
+   "Stikkontakten giver ikke den rigtige spænding.",
+   "En afbryder er slået fra."
+  ],
+  "steps": [
+   "Slå tørretumblerens afbryder fra i mindst 10 sekunder, og slå den til igen.",
+   "Genstart tørretumbleren."
+  ],
+  "technician": "Varmer den stadig ikke, så få en elektriker til at tjekke stikkontakten, og kontakt derefter LG service."
+ },
+ "LG|PS": {
+  "title": "Problem med strømforsyningen",
+  "causes": [
+   "Netledningen sidder løst, eller stikkontakten er ikke installeret som krævet."
+  ],
+  "steps": [
+   "Slå tørretumblerens afbryder fra og til igen efter mindst 10 sekunder.",
+   "Tjek, at stikket sidder godt fast i en korrekt dimensioneret stikkontakt med jord.",
+   "Genstart tørretumbleren."
+  ],
+  "technician": "Varmer tørretumbleren stadig ikke, så bestil en reparation hos LG."
+ },
+ "LG|gAS": {
+  "title": "Problem med gasforsyningen",
+  "causes": [
+   "Gasventilen er lukket.",
+   "Gasledningen er knækket."
+  ],
+  "steps": [
+   "Tjek, at gasventilen er åben.",
+   "Tjek, at gasledningen ikke er knækket."
+  ],
+  "technician": "Er gasforsyningen i orden, og kommer koden igen, så ring til LG service. Reparér ikke selv gasdele."
+ },
+ "LG|CL": {
+  "title": "Børnesikringen er slået til",
+  "causes": [
+   "Børnesikringen blev slået til og forbliver slået til, efter at strømmen er slået fra."
+  ],
+  "steps": [
+   "Tænd tørretumbleren.",
+   "Hold knappen til børnesikring inde i 3 til 5 sekunder, til CL forsvinder."
+  ],
+  "technician": "Det er ikke en fejl. Kontakt kun LG, hvis børnesikringen ikke kan slås fra."
+ },
+ "LG|Add": {
+  "title": "Påfyld vand til damp",
+  "causes": [
+   "Dampbeholderen er tom under et dampprogram."
+  ],
+  "steps": [
+   "Sæt programmet på pause.",
+   "Fyld dampbeholderen med vand fra hanen op til MAX-stregen.",
+   "Sluk og tænd tørretumbleren, vælg dampprogrammet, og tryk på Start."
+  ],
+  "technician": "Bliver meddelelsen ved efter påfyldning, så kontakt LG service."
+ },
+ "LG|E13": {
+  "title": "Problem med afløbet (kondensvand)",
+  "causes": [
+   "Afløbsslangen er knækket, snoet eller stoppet.",
+   "En forlængerslange forringer afløbet."
+  ],
+  "steps": [
+   "Tjek afløbsslangen for knæk og tilstopning.",
+   "Brug kun den originale LG-afløbsslange uden forlængelse.",
+   "Tryk på Start/Pause for at genstarte."
+  ],
+  "technician": "Kommer E13 igen, skal tørretumbleren repareres af LG service."
+ },
+ "Bosch|E01": {
+  "title": "Fnugfilteret er stoppet",
+  "causes": [
+   "Der har samlet sig fnug på filteret.",
+   "Rester fra skyllemiddel tilstopper nettet."
+  ],
+  "steps": [
+   "Tag fnugfilteret ud, og tøm det.",
+   "Skyl filteret under varmt vand for at fjerne rester.",
+   "Tør det, og sæt det på plads igen.",
+   "Rengør filteret efter hvert program."
+  ],
+  "technician": "Bliver koden ved med et rent filter, så bestil et servicebesøg hos Bosch."
+ },
+ "Bosch|E02": {
+  "title": "Fnugfilteret er stoppet, eller der er fejl i styrerelæet",
+  "causes": [
+   "Fnugfilteret er stoppet.",
+   "På nogle modeller en fejl i et relæ på hovedprintet."
+  ],
+  "steps": [
+   "Rengør fnugfilteret, og skyl det i varmt vand.",
+   "Slå strømmen fra ved stikket eller afbryderen i 30 sekunder, og genstart."
+  ],
+  "technician": "Kommer koden igen efter rengøring og nulstilling, så kontakt Bosch kundeservice."
+ },
+ "Bosch|E03": {
+  "title": "Kondensafløbsslangen er stoppet",
+  "causes": [
+   "Kondensafløbsslangen er knækket eller stoppet."
+  ],
+  "steps": [
+   "Tjek, at afløbsslangen ikke har knæk.",
+   "Tag forsigtigt slangen af vandlåsen, og rengør slangen og dens tilslutning.",
+   "Sæt slangen godt fast igen."
+  ],
+  "technician": "Kommer koden igen med en fri slange, så bestil en Bosch-tekniker."
+ },
+ "Bosch|E04": {
+  "title": "Tørretumbleren er overfyldt",
+  "causes": [
+   "For meget vasketøj i tromlen."
+  ],
+  "steps": [
+   "Tag noget vasketøj ud.",
+   "Lad der være cirka en håndsbredde fri plads over tøjet.",
+   "Genstart programmet."
+  ],
+  "technician": "Vises koden med en normal fyldning, så kontakt Bosch service."
+ },
+ "Bosch|E06": {
+  "title": "Fejl i varmekredsløbet",
+  "causes": [
+   "En fejl i varmekredsløbet."
+  ],
+  "steps": [
+   "Sluk tørretumbleren, og tag stikket ud.",
+   "Prøv ikke at reparere den selv."
+  ],
+  "technician": "Det kræver en kvalificeret tekniker. Kontakt Bosch kundeservice."
+ },
+ "Bosch|E08": {
+  "title": "Fejl i elektronikken",
+  "causes": [
+   "En intern elektronisk fejl."
+  ],
+  "steps": [
+   "Sluk tørretumbleren.",
+   "Tag stikket ud, eller slå afbryderen fra i et par minutter, og tilslut igen.",
+   "Kommer koden igen, så stop med at bruge tørretumbleren."
+  ],
+  "technician": "Kun en autoriseret tekniker kan rette dette. Kontakt Bosch kundeservice."
+ },
+ "Bosch|E09": {
+  "title": "Fejl i elektronikken",
+  "causes": [
+   "En intern elektronisk fejl."
+  ],
+  "steps": [
+   "Sluk tørretumbleren.",
+   "Tag stikket ud, eller slå afbryderen fra i et par minutter, og tilslut igen.",
+   "Kommer koden igen, så stop med at bruge tørretumbleren."
+  ],
+  "technician": "Kun en autoriseret tekniker kan rette dette. Kontakt Bosch kundeservice."
+ },
+ "Bosch|E24": {
+  "title": "Fejl i elektronikken",
+  "causes": [
+   "En intern elektronisk fejl."
+  ],
+  "steps": [
+   "Sluk tørretumbleren.",
+   "Tag stikket ud, eller slå afbryderen fra i et par minutter, og tilslut igen.",
+   "Kommer koden igen, så stop med at bruge tørretumbleren."
+  ],
+  "technician": "Kun en autoriseret tekniker kan rette dette. Kontakt Bosch kundeservice."
+ },
+ "Bosch|E25": {
+  "title": "Fejl i elektronikken",
+  "causes": [
+   "En intern elektronisk fejl."
+  ],
+  "steps": [
+   "Sluk tørretumbleren.",
+   "Tag stikket ud, eller slå afbryderen fra i et par minutter, og tilslut igen.",
+   "Kommer koden igen, så stop med at bruge tørretumbleren."
+  ],
+  "technician": "Kun en autoriseret tekniker kan rette dette. Kontakt Bosch kundeservice."
+ },
+ "Bosch|E28": {
+  "title": "Fejl i elektronikken",
+  "causes": [
+   "En intern elektronisk fejl."
+  ],
+  "steps": [
+   "Sluk tørretumbleren.",
+   "Tag stikket ud, eller slå afbryderen fra i et par minutter, og tilslut igen.",
+   "Kommer koden igen, så stop med at bruge tørretumbleren."
+  ],
+  "technician": "Kun en autoriseret tekniker kan rette dette. Kontakt Bosch kundeservice."
+ },
+ "Bosch|E36": {
+  "title": "Fejl i elektronikken",
+  "causes": [
+   "En intern elektronisk fejl."
+  ],
+  "steps": [
+   "Sluk tørretumbleren.",
+   "Tag stikket ud, eller slå afbryderen fra i et par minutter, og tilslut igen.",
+   "Kommer koden igen, så stop med at bruge tørretumbleren."
+  ],
+  "technician": "Kun en autoriseret tekniker kan rette dette. Kontakt Bosch kundeservice."
+ },
+ "Bosch|E90": {
+  "title": "Fejl i elektronikken",
+  "causes": [
+   "En intern elektronisk fejl."
+  ],
+  "steps": [
+   "Sluk tørretumbleren.",
+   "Tag stikket ud, eller slå afbryderen fra i et par minutter, og tilslut igen.",
+   "Kommer koden igen, så stop med at bruge tørretumbleren."
+  ],
+  "technician": "Kun en autoriseret tekniker kan rette dette. Kontakt Bosch kundeservice."
+ },
+ "Bosch|E12": {
+  "title": "Overophedning eller kalk i varmepumpen",
+  "causes": [
+   "Luftstrømmen er begrænset, og tørretumbleren bliver overophedet.",
+   "Kalkaflejringer i varmepumpen på nogle modeller."
+  ],
+  "steps": [
+   "Rengør fnugfilteret.",
+   "Tjek, at den udvendige udluftning ikke er blokeret, bøjet eller klemt.",
+   "Genstart programmet."
+  ],
+  "technician": "Bliver koden ved med at komme igen, så bestil et servicebesøg hos Bosch."
+ },
+ "Bosch|E16": {
+  "title": "Lågen blev åbnet under tørringen",
+  "causes": [
+   "Lågen blev åbnet, mens et program kørte."
+  ],
+  "steps": [
+   "Luk lågen godt.",
+   "Tryk på Start for at fortsætte programmet.",
+   "Brug om nødvendigt børnesikringen, så lågen ikke kan åbnes."
+  ],
+  "technician": "Vises E16 med lukket låge, kan lågekontakten være defekt. Bestil en Bosch-tekniker."
+ },
+ "Bosch|E56": {
+  "title": "Problem med fugtsensoren",
+  "causes": [
+   "Rester eller fnug på fugtsensorens metalstrimler i tromlen."
+  ],
+  "steps": [
+   "Tag stikket ud af tørretumbleren.",
+   "Tør fugtsensoren ved fnugfilteret af med en blød klud og et mildt rengøringsmiddel.",
+   "Fjern eventuelle rester, og genstart."
+  ],
+  "technician": "Fortsætter koden efter rengøring, så kontakt Bosch kundeservice."
+ },
+ "Bosch|DR": {
+  "title": "Lågen er ikke lukket ordentligt",
+  "causes": [
+   "Lågen er ikke helt lukket.",
+   "Noget blokerer lågen."
+  ],
+  "steps": [
+   "Fjern det, der sidder i klemme i lågen.",
+   "Luk den godt, til den går i lås.",
+   "Genstart programmet."
+  ],
+  "technician": "Fortsætter koden, skal låsen eller lågekontakten tjekkes af Bosch service."
+ },
+ "Bosch|CrE": {
+  "title": "Påmindelse om vedligeholdelse",
+  "causes": [
+   "Tørretumbleren minder dig om at køre vedligeholdelsesprogrammet. Det er ikke en fejl."
+  ],
+  "steps": [
+   "Kør det grundlæggende vedligeholdelsesprogram, der er beskrevet i manualen."
+  ],
+  "technician": "Ikke nødvendigt, medmindre påmindelsen ikke forsvinder efter vedligeholdelsesprogrammet."
+ },
+ "Miele|F1": {
+  "title": "Kortslutning i kølemidlets temperatursensor",
+  "causes": [
+   "Kølemidlets temperatursensor er kortsluttet."
+  ],
+  "steps": [
+   "Notér fejlkoden.",
+   "Sluk tørretumbleren, og brug den ikke mere.",
+   "Bestil en reparation hos Miele."
+  ],
+  "technician": "Det er en teknisk fejl, som du ikke kan rette selv. Bestil en Miele-tekniker."
+ },
+ "Miele|F2": {
+  "title": "Afbrydelse i kølemidlets temperatursensor",
+  "causes": [
+   "Kredsløbet til kølemidlets temperatursensor er afbrudt."
+  ],
+  "steps": [
+   "Notér fejlkoden.",
+   "Sluk tørretumbleren, og brug den ikke mere.",
+   "Bestil en reparation hos Miele."
+  ],
+  "technician": "Det er en teknisk fejl, som du ikke kan rette selv. Bestil en Miele-tekniker."
+ },
+ "Miele|F3": {
+  "title": "Kortslutning i temperatursensoren for tørreluften",
+  "causes": [
+   "Temperatursensoren for tørreluften er kortsluttet."
+  ],
+  "steps": [
+   "Notér fejlkoden.",
+   "Sluk tørretumbleren, og brug den ikke mere.",
+   "Bestil en reparation hos Miele."
+  ],
+  "technician": "Det er en teknisk fejl, som du ikke kan rette selv. Bestil en Miele-tekniker."
+ },
+ "Miele|F4": {
+  "title": "Afbrydelse i temperatursensoren for tørreluften",
+  "causes": [
+   "Kredsløbet til temperatursensoren for tørreluften er afbrudt."
+  ],
+  "steps": [
+   "Notér fejlkoden.",
+   "Sluk tørretumbleren, og brug den ikke mere.",
+   "Bestil en reparation hos Miele."
+  ],
+  "technician": "Det er en teknisk fejl, som du ikke kan rette selv. Bestil en Miele-tekniker."
+ },
+ "Miele|F30": {
+  "title": "Uoverensstemmelse i lågesignalet",
+  "causes": [
+   "Lågen og lågekontakten melder forskellig status."
+  ],
+  "steps": [
+   "Notér fejlkoden.",
+   "Sluk tørretumbleren, og brug den ikke mere.",
+   "Bestil en reparation hos Miele."
+  ],
+  "technician": "Det er en teknisk fejl, som du ikke kan rette selv. Bestil en Miele-tekniker."
+ },
+ "Miele|F39": {
+  "title": "Fejl i elektronikmodulet",
+  "causes": [
+   "Elektronikmodulet har en fejl."
+  ],
+  "steps": [
+   "Notér fejlkoden.",
+   "Sluk tørretumbleren, og brug den ikke mere.",
+   "Bestil en reparation hos Miele."
+  ],
+  "technician": "Det er en teknisk fejl, som du ikke kan rette selv. Bestil en Miele-tekniker."
+ },
+ "Miele|F43": {
+  "title": "Modeltypen er ikke programmeret",
+  "causes": [
+   "Modeltypen mangler, eller der er indstillet en forkert variant i elektronikken."
+  ],
+  "steps": [
+   "Notér fejlkoden.",
+   "Sluk tørretumbleren, og brug den ikke mere.",
+   "Bestil en reparation hos Miele."
+  ],
+  "technician": "Det er en teknisk fejl, som du ikke kan rette selv. Bestil en Miele-tekniker."
+ },
+ "Miele|F45": {
+  "title": "Fejl i elektronikmodulet",
+  "causes": [
+   "Elektronikmodulet har en fejl."
+  ],
+  "steps": [
+   "Notér fejlkoden.",
+   "Sluk tørretumbleren, og brug den ikke mere.",
+   "Bestil en reparation hos Miele."
+  ],
+  "technician": "Det er en teknisk fejl, som du ikke kan rette selv. Bestil en Miele-tekniker."
+ },
+ "Miele|F53": {
+  "title": "Fejl i drivmotoren eller elektronikken",
+  "causes": [
+   "Drivmotoren er defekt.",
+   "Elektronikmodulet har en fejl."
+  ],
+  "steps": [
+   "Notér fejlkoden.",
+   "Sluk tørretumbleren, og brug den ikke mere.",
+   "Bestil en reparation hos Miele."
+  ],
+  "technician": "Det er en teknisk fejl, som du ikke kan rette selv. Bestil en Miele-tekniker."
+ },
+ "Miele|F99": {
+  "title": "Teknisk fejl, tørretumbleren er spærret",
+  "causes": [
+   "En teknisk fejl har spærret tørretumbleren."
+  ],
+  "steps": [
+   "Notér fejlkoden.",
+   "Sluk tørretumbleren, og brug den ikke mere.",
+   "Bestil en reparation hos Miele."
+  ],
+  "technician": "Det er en teknisk fejl, som du ikke kan rette selv. Bestil en Miele-tekniker."
+ },
+ "Miele|F156": {
+  "title": "Kortslutning i kølemiddelsensoren efter kondensatoren",
+  "causes": [
+   "Kølemidlets temperatursensor efter kondensatoren er kortsluttet."
+  ],
+  "steps": [
+   "Notér fejlkoden.",
+   "Sluk tørretumbleren, og brug den ikke mere.",
+   "Bestil en reparation hos Miele."
+  ],
+  "technician": "Det er en teknisk fejl, som du ikke kan rette selv. Bestil en Miele-tekniker."
+ },
+ "Miele|F206": {
+  "title": "Kortslutning i kølemiddelsensoren efter kompressoren",
+  "causes": [
+   "Kølemidlets temperatursensor efter kompressoren er kortsluttet."
+  ],
+  "steps": [
+   "Notér fejlkoden.",
+   "Sluk tørretumbleren, og brug den ikke mere.",
+   "Bestil en reparation hos Miele."
+  ],
+  "technician": "Det er en teknisk fejl, som du ikke kan rette selv. Bestil en Miele-tekniker."
+ },
+ "Miele|F50": {
+  "title": "Overbelastning eller softwarefejl",
+  "causes": [
+   "Tromlen er overfyldt.",
+   "En softwarefejl, ofte kort efter at lågen blev åbnet for at lægge mere tøj i.",
+   "En teknisk fejl."
+  ],
+  "steps": [
+   "Tag noget vasketøj ud, så fyldningen passer til programmets grænse.",
+   "Sluk tørretumbleren, og tænd den med det samme igen.",
+   "Genstart programmet."
+  ],
+  "technician": "Bliver F50 ved med at komme igen, så kontakt Miele kundeservice."
+ },
+ "Miele|F55": {
+  "title": "Vasketøjet er ikke tørt efter maksimal tid",
+  "causes": [
+   "Tromlen er overfyldt.",
+   "Vasketøjet blev ikke centrifugeret hurtigt nok i vaskemaskinen.",
+   "Fnugfiltrene er snavsede."
+  ],
+  "steps": [
+   "Reducér fyldningen til programmets maksimum.",
+   "Centrifugér vasketøjet ved den højeste egnede hastighed før tørring.",
+   "Rengør alle fnugfiltre, og lad dem tørre helt, før du sætter dem i igen.",
+   "Kør programmet igen."
+  ],
+  "technician": "Fortsætter fejlen med rene filtre og en normal fyldning, så kontakt Miele kundeservice."
+ },
+ "Miele|F66": {
+  "title": "Luftstrømmen er blokeret (filtre eller ventilation)",
+  "causes": [
+   "Fnugfiltrene eller soklens filter er snavsede.",
+   "Soklens filter er skorpet, beskadiget eller deformeret.",
+   "Tromlen er overfyldt.",
+   "Ventilationsristen er blokeret, eller rummet er dårligt ventileret."
+  ],
+  "steps": [
+   "Rengør fnugfiltrene og soklens filter, og pres soklens filter tørt.",
+   "Støvsug forsigtigt fnug fra varmeveksleren uden at trykke på lamellerne.",
+   "Gør ventilationsristen under lågen fri.",
+   "Reducér fyldningen, og luft ud i rummet under tørringen.",
+   "Udskift et beskadiget soklefilter."
+  ],
+  "technician": "Bliver F66 ved efter grundig rengøring, så kontakt Miele kundeservice."
+ },
+ "Miele|noC": {
+  "title": "Ingen wi-fi-forbindelse",
+  "causes": [
+   "Miele@home er ikke sat op.",
+   "Tørretumbleren kan ikke nå dit wi-fi."
+  ],
+  "steps": [
+   "Sæt Miele@home op, hvis det ikke er gjort endnu.",
+   "Tjek, at wi-fi er tændt, og genstart routeren.",
+   "Forbedr signalet med en repeater, hvis det er svagt.",
+   "Nulstil tørretumblerens wi-fi, og forbind den igen."
+  ],
+  "technician": "Det er en meddelelse om forbindelsen, ikke en fejl i tørretumbleren. Kontakt Miele, hvis den ikke kan forbinde efter disse trin."
+ },
+ "AEG|E50": {
+  "title": "Motoren er overbelastet",
+  "causes": [
+   "Tromlen er overfyldt.",
+   "Vasketøj sidder fast i tromlen.",
+   "En fejl i motoren eller drevet."
+  ],
+  "steps": [
+   "Åbn lågen, og tjek for ting, der sidder fast.",
+   "Tag noget vasketøj ud, hvis fyldningen er for stor.",
+   "Luk lågen, og genstart.",
+   "Fortsætter det, så slå strømmen fra i cirka 1 minut, og genstart."
+  ],
+  "technician": "Kommer E50 igen og igen, eller drejer tromlen ikke, så bestil en reparation hos AEG."
+ },
+ "AEG|E40": {
+  "title": "Lågen er ikke lukket",
+  "causes": [
+   "Vasketøj sidder i klemme i lågen.",
+   "Lågepakningen eller låsen er snavset eller slidt.",
+   "Tromlen er overfyldt og trykker på lågen."
+  ],
+  "steps": [
+   "Fjern tøj, der sidder i klemme i lågen, og luk den, til den klikker.",
+   "Tør lågepakningen af med en fugtig klud.",
+   "Børst fnug ud af lågelåsen.",
+   "Reducér fyldningen.",
+   "Slå strømmen fra i 30 sekunder, og genstart."
+  ],
+  "technician": "Fortsætter fejlen, kan låsen eller lågesensoren være defekt. Bestil et servicebesøg hos AEG."
+ },
+ "AEG|E20": {
+  "title": "Problem med afløbet eller pumpen",
+  "causes": [
+   "Afløbsslangen er ikke tilsluttet korrekt.",
+   "Afløbsslangen er snoet, stoppet eller lagt i en løkke."
+  ],
+  "steps": [
+   "Bruger du afløb, så tjek, at slangen er tilsluttet korrekt.",
+   "Fjern snoninger, løkker og tilstopning fra slangen.",
+   "Slå strømmen fra i 30 sekunder, og genstart."
+  ],
+  "technician": "Fortsætter fejlen, så bestil en autoriseret AEG-tekniker."
+ },
+ "AEG|E60": {
+  "title": "Problem med opvarmningen",
+  "causes": [
+   "Tørretumbleren er bygget ind i et skab uden ventilation.",
+   "Rummet er for lille eller ikke ventileret.",
+   "Fnugfilteret, kondensatoren eller pakningen er snavset.",
+   "Varmelegemet er defekt."
+  ],
+  "steps": [
+   "Sørg for, at der er plads og luft omkring tørretumbleren.",
+   "Åbn et vindue eller en dør under tørringen i et lille rum.",
+   "Rengør fnugfilteret, kondensatoren og lågepakningen.",
+   "Kør et tidsstyret program, og tjek, om den er varm efter 30 minutter."
+  ],
+  "technician": "Er den stadig kold, så bestil en reparation hos AEG."
+ },
+ "AEG|E70": {
+  "title": "Fejl i temperatursensoren",
+  "causes": [
+   "Temperatursensoren er defekt."
+  ],
+  "steps": [
+   "Tag stikket ud af tørretumbleren i 2 timer for at nulstille den.",
+   "Sæt stikket i igen, og prøv igen.",
+   "Kommer koden igen, så stop med at bruge tørretumbleren, og lad stikket være ude."
+  ],
+  "technician": "Kontakt AEG, og oplys koden for at få et servicebesøg."
+ },
+ "AEG|E80": {
+  "title": "Fejl i programvælgeren eller softwaren",
+  "causes": [
+   "Programvælgeren står mellem to positioner.",
+   "En softwarefejl."
+  ],
+  "steps": [
+   "Drej vælgeren, så den står helt på ét program.",
+   "Tag stikket ud af tørretumbleren i 30 sekunder, sæt det i igen, og genstart."
+  ],
+  "technician": "Bliver E80 ved, så bestil en AEG-servicetekniker."
+ },
+ "AEG|EH0": {
+  "title": "Problem med strømforsyningen",
+  "causes": [
+   "Spændingen er for lav eller for høj.",
+   "Forsyningen er ustabil."
+  ],
+  "steps": [
+   "Test stikkontakten med et andet apparat.",
+   "Brug ikke forlængerledning.",
+   "Tag stikket ud af tørretumbleren i 30 sekunder, og genstart."
+  ],
+  "technician": "Svigter et andet apparat også, så ring til en elektriker. Viser kun tørretumbleren koden, så bestil en AEG-tekniker."
+ },
+ "AEG|EBD": {
+  "title": "Elektrisk støj registreret",
+  "causes": [
+   "Elektrisk interferens i forsyningen.",
+   "Dårlig jordforbindelse."
+  ],
+  "steps": [
+   "Prøv tørretumbleren i en anden stikkontakt, der virker.",
+   "Sørg for, at stikkontakten har korrekt jordforbindelse."
+  ],
+  "technician": "Bliver koden ved, så kontakt et autoriseret AEG-serviceværksted. Forsøg ikke selv at lave elektriske reparationer."
+ },
+ "AEG|CE": {
+  "title": "Fejl i elektronikken",
+  "causes": [
+   "En fejl i tørretumblerens elektronik."
+  ],
+  "steps": [
+   "Stop med at bruge tørretumbleren.",
+   "Tag stikket ud, og lad det være ude."
+  ],
+  "technician": "Bestil en autoriseret AEG-tekniker til at fejlfinde elektronikken."
+ },
+ "AEG|C8": {
+  "title": "Fejl i temperatursensoren",
+  "causes": [
+   "Temperatursensoren har et problem."
+  ],
+  "steps": [
+   "Stop med at bruge tørretumbleren.",
+   "Lad stikket være ude, indtil den er blevet tjekket."
+  ],
+  "technician": "Bestil et servicebesøg hos AEG, så sensoren kan tjekkes eller udskiftes."
+ },
+ "AEG|C6": {
+  "title": "Problem med fugtsensoren",
+  "causes": [
+   "Tørretumbleren er ikke sat i en stikkontakt med jord.",
+   "Systemet til fugtmåling er defekt."
+  ],
+  "steps": [
+   "Tjek, at tørretumbleren er sat i en stikkontakt med jord.",
+   "Kører programmet stadig meget længe, så stop med at bruge tørretumbleren, og tag stikket ud."
+  ],
+  "technician": "Har stikkontakten jord, og bliver fejlen ved, så bestil en reparation hos AEG."
+ },
+ "AEG|Err": {
+  "title": "Fejl i dampbeholderen (modeller med Iron Aid)",
+  "causes": [
+   "Vandet i dampbeholderen er lavt, eller beholderen er tom."
+  ],
+  "steps": [
+   "Fyld dampbeholderen op til MAX-niveau.",
+   "Genstart programmet."
+  ],
+  "technician": "Bliver symbolerne ved med at blinke efter påfyldning, så stop med at bruge tørretumbleren, og kontakt et AEG-serviceværksted."
+ },
+ "Hotpoint|F01": {
+  "title": "Fejl i printkortet",
+  "causes": [
+   "En fejl i det elektroniske styreprint."
+  ],
+  "steps": [
+   "Tag stikket ud af tørretumbleren i mindst 2 minutter.",
+   "Sæt stikket i igen, vent 30 sekunder, og prøv igen."
+  ],
+  "technician": "Kommer F01 igen efter nulstillingen, så ring til Hotpoint service og bestil en tekniker."
+ },
+ "Hotpoint|F02": {
+  "title": "Fejl i motorkredsløbet",
+  "causes": [
+   "En fejl i motorkredsløbet. Tromlen drejer kun ind imellem eller slet ikke."
+  ],
+  "steps": [
+   "Sluk tørretumbleren, og tag stikket ud.",
+   "Bliv ikke ved med at bruge den."
+  ],
+  "technician": "Ring til Hotpoint service, og bestil en tekniker."
+ },
+ "Hotpoint|F03": {
+  "title": "Fejl i temperaturmålingen",
+  "causes": [
+   "Temperatursensoren er defekt, så tørretumbleren varmer ikke."
+  ],
+  "steps": [
+   "Sluk tørretumbleren, og tag stikket ud."
+  ],
+  "technician": "Ring til Hotpoint service, og bestil en tekniker."
+ },
+ "Hotpoint|F05": {
+  "title": "Stoppet afløb eller problem med pumpen",
+  "causes": [
+   "En tilstopning i pumpefilteret (hvis det findes) eller afløbsslangen.",
+   "Et stoppet afløbsrør.",
+   "En defekt pumpe."
+  ],
+  "steps": [
+   "Tjek og rengør pumpefilteret, hvis din model har et.",
+   "Tjek afløbsslangen og det afløb, den er tilsluttet, for tilstopning."
+  ],
+  "technician": "Er alt frit, og fortsætter fejlen, kan pumpen være defekt. Ring til Hotpoint service."
+ },
+ "Hotpoint|F06": {
+  "title": "Fejl i lågelåsen",
+  "causes": [
+   "Noget blokerer lågelåsen.",
+   "Lågelåsen er defekt."
+  ],
+  "steps": [
+   "Tjek området ved lågelåsen for fnug eller genstande, og fjern dem.",
+   "Luk lågen godt, og prøv igen."
+  ],
+  "technician": "Fortsætter fejlen, så ring til Hotpoint service."
+ },
+ "Hotpoint|F09": {
+  "title": "Softwarefejl",
+  "causes": [
+   "Et softwareproblem. Flere lamper kan blinke, og der kan ikke vælges et program."
+  ],
+  "steps": [
+   "Tag stikket ud af tørretumbleren i et par minutter, og prøv igen."
+  ],
+  "technician": "Ring til Hotpoint service, og bestil en tekniker."
+ },
+ "Hotpoint|F11": {
+  "title": "Fejl i pumpekredsløbet",
+  "causes": [
+   "Pumpekredsløbet er defekt, så vandet pumpes ikke ud."
+  ],
+  "steps": [
+   "Tøm vandbeholderen, hvis din model har en.",
+   "Sluk tørretumbleren, og tag stikket ud."
+  ],
+  "technician": "Ring til Hotpoint service, og bestil en tekniker."
+ },
+ "Hotpoint|F12": {
+  "title": "Fejl i den elektroniske styring",
+  "causes": [
+   "Den elektroniske styring er defekt. Tørretumbleren kan muligvis ikke tændes."
+  ],
+  "steps": [
+   "Tjek stik og stikkontakt.",
+   "Tag stikket ud af tørretumbleren i et par minutter, og prøv igen."
+  ],
+  "technician": "Ring til Hotpoint service, og bestil en tekniker."
+ },
+ "Hotpoint|F18": {
+  "title": "Intern datafejl",
+  "causes": [
+   "Beskadigede interne data. Nogle dele af displayet eller funktioner virker ikke."
+  ],
+  "steps": [
+   "Tag stikket ud af tørretumbleren i mindst 2 minutter.",
+   "Sæt stikket i igen, vent 30 sekunder, og prøv igen."
+  ],
+  "technician": "Bliver F18 ved efter nulstillingen, så ring til Hotpoint service."
+ },
+ "Indesit|F02": {
+  "title": "Fejl i motorkredsløbet",
+  "causes": [
+   "En fejl i motorkredsløbet. Tromlen drejer kun ind imellem eller slet ikke."
+  ],
+  "steps": [
+   "Sluk tørretumbleren, og tag stikket ud."
+  ],
+  "technician": "Ring til Indesit service, og bestil en tekniker."
+ },
+ "Indesit|F03": {
+  "title": "Fejl i temperaturmålingen",
+  "causes": [
+   "Temperatursensoren er defekt, så tørretumbleren varmer ikke."
+  ],
+  "steps": [
+   "Sluk tørretumbleren, og tag stikket ud."
+  ],
+  "technician": "Ring til Indesit service, og bestil en tekniker."
+ },
+ "Indesit|F05": {
+  "title": "Stoppet afløb eller problem med pumpen",
+  "causes": [
+   "En tilstopning i pumpefilteret (hvis det findes) eller afløbsslangen.",
+   "En defekt pumpe."
+  ],
+  "steps": [
+   "Tjek og rengør pumpefilteret, hvis din model har et.",
+   "Tjek afløbsslangen og afløbet for tilstopning."
+  ],
+  "technician": "Er alt frit, og fortsætter fejlen, så ring til Indesit service."
+ },
+ "Indesit|F06": {
+  "title": "Fejl i lågelåsen",
+  "causes": [
+   "Noget blokerer lågelåsen.",
+   "Lågelåsen er defekt."
+  ],
+  "steps": [
+   "Tjek lågelåsen for forhindringer.",
+   "Luk lågen godt, og prøv igen."
+  ],
+  "technician": "Fortsætter fejlen, så ring til Indesit service."
+ },
+ "Indesit|F09": {
+  "title": "Softwarefejl",
+  "causes": [
+   "Et softwareproblem. Flere lamper kan blinke, og der kan ikke vælges et program."
+  ],
+  "steps": [
+   "Tag stikket ud af tørretumbleren i et par minutter, og prøv igen."
+  ],
+  "technician": "Ring til Indesit service, og bestil en tekniker."
+ },
+ "Indesit|F11": {
+  "title": "Fejl i pumpekredsløbet",
+  "causes": [
+   "Pumpekredsløbet er defekt, så vandet pumpes ikke ud."
+  ],
+  "steps": [
+   "Tøm vandbeholderen, hvis din model har en.",
+   "Sluk tørretumbleren, og tag stikket ud."
+  ],
+  "technician": "Ring til Indesit service, og bestil en tekniker."
+ },
+ "Indesit|F12": {
+  "title": "Fejl i den elektroniske styring",
+  "causes": [
+   "Den elektroniske styring er defekt. Tørretumbleren kan muligvis ikke tændes."
+  ],
+  "steps": [
+   "Tjek stik og stikkontakt.",
+   "Tag stikket ud af tørretumbleren i et par minutter, og prøv igen."
+  ],
+  "technician": "Ring til Indesit service, og bestil en tekniker."
+ },
+ "Indesit|F18": {
+  "title": "Intern datafejl",
+  "causes": [
+   "Beskadigede interne data. Nogle dele af displayet eller funktioner virker ikke."
+  ],
+  "steps": [
+   "Tag stikket ud af tørretumbleren i mindst 2 minutter.",
+   "Sæt stikket i igen, vent 30 sekunder, og prøv igen."
+  ],
+  "technician": "Bliver F18 ved efter nulstillingen, så ring til Indesit service."
+ },
+ "Whirlpool|AF": {
+  "title": "Begrænset luftstrøm",
+  "causes": [
+   "Fnugfilteret er stoppet.",
+   "Udluftningen er blokeret, klemt, knækket eller har for mange bøjninger."
+  ],
+  "steps": [
+   "Rengør fnugfilteret.",
+   "Tjek udluftningen for tilstopning, klemninger eller knæk.",
+   "Tryk på en vilkårlig tast for at fjerne koden."
+  ],
+  "technician": "Bliver koden ved med at komme igen med en ren udluftning, så bestil Whirlpool service."
+ },
+ "Whirlpool|L2": {
+  "title": "Lav eller ingen netspænding",
+  "causes": [
+   "En sikring i boligen er sprunget, eller en afbryder er slået fra.",
+   "Netledningen er ikke installeret korrekt."
+  ],
+  "steps": [
+   "Tjek sikringer og afbrydere (elektriske tørretumblere bruger to), og slå dem til igen.",
+   "Tjek, at netledningen er installeret som beskrevet i installationsvejledningen.",
+   "Kør et tidsstyret program med varme, og genstart."
+  ],
+  "technician": "Bliver L2 ved, så få en autoriseret elektriker til at tjekke forsyningen."
+ },
+ "Whirlpool|PF": {
+  "title": "Strømsvigt",
+  "causes": [
+   "Strømmen blev afbrudt under programmet."
+  ],
+  "steps": [
+   "Hold Start inde for at fortsætte programmet.",
+   "Eller tryk på Power for at rydde displayet."
+  ],
+  "technician": "Ikke en fejl. Kontakt kun Whirlpool, hvis PF vises uden reelle strømafbrydelser."
+ },
+ "Whirlpool|F1E3": {
+  "title": "Problem med styreenheden eller ledningerne",
+  "causes": [
+   "En fejl i styreenheden eller dens ledninger."
+  ],
+  "steps": [
+   "Tryk på Power, vælg et program, og hold Start inde.",
+   "Starter den ikke, så tag stikket ud af tørretumbleren."
+  ],
+  "technician": "Fortsætter problemet, så bestil Whirlpool service."
+ },
+ "Whirlpool|Loc": {
+  "title": "Betjeningslåsen er slået til",
+  "causes": [
+   "Betjeningslåsen er blevet slået til."
+  ],
+  "steps": [
+   "Hold Control Lock inde i 3 sekunder, til displayet tæller ned og bliver tomt."
+  ],
+  "technician": "Det er ikke en fejl. Kontakt kun Whirlpool, hvis låsen ikke kan slås fra."
+ },
+ "Whirlpool|LF": {
+  "title": "Fnugfilteret er taget ud",
+  "causes": [
+   "HybridCare-filteret sidder ikke i tørretumbleren."
+  ],
+  "steps": [
+   "Sæt filteret i igen.",
+   "Sørg for, at filterets håndtag sidder helt på plads."
+  ],
+  "technician": "Bliver LF ved, selvom filteret sidder i, så kontakt Whirlpool service."
+ }
+}

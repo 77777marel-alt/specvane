@@ -29,5 +29,9 @@ export const TOOLS = [
   { id: 'projector-distance', key: 'projector', cat: 'projectors' },
   { id: 'screen-ppi', key: 'ppi', cat: 'monitors' },
   { id: 'power-bank-flight', key: 'powerbank', cat: 'power-banks' },
+  { id: 'air-conditioner-size', key: 'ac', cat: 'air-conditioners' },
+  { id: 'boiler-size', key: 'boiler', cat: 'boilers' },
+  { id: 'household-appliance-size', key: 'household', cat: 'fridges' },
+  { id: 'electricity-cost', key: 'energy', cat: 'washing-machines' },
 ] as const
 export type ToolKey = (typeof TOOLS)[number]['key']

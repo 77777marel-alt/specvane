@@ -154,7 +154,7 @@ export const nb: Dict = {
     popularCompare: "Populære sammenligninger",
     seeAll: "Alle",
     errTitle: "Feilkoder",
-    errLead: "Hva feilkoder på vaskemaskiner og oppvaskmaskiner betyr, og hva du trygt kan gjøre selv.",
+    errLead: "Hva feilkoder på vaskemaskiner, oppvaskmaskiner, tørketromler, kjøleskap, kaffemaskiner, varmepumper og gasskjeler betyr – og hva du trygt kan gjøre selv.",
     errBrandTitle: "{brand} {appliance}: feilkoder",
     errCodeTitle: "{brand} {appliance} feil {code}",
     errCauses: "Mulige årsaker",

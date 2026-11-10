@@ -1,0 +1,1201 @@
+{
+ "Samsung|dC": {
+  "title": "Luukku auki tai sitä ei havaita",
+  "causes": [
+   "Luukku ei ole täysin kiinni.",
+   "Vaatteita on jäänyt luukkuun.",
+   "Lapsilukko on päällä, ja luukku avattiin."
+  ],
+  "steps": [
+   "Avaa luukku ja poista reunaan jääneet vaatteet.",
+   "Sulje luukku tiukasti, kunnes se salpautuu.",
+   "Tarkista, onko lapsilukko päällä.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi ei poistu, vaikka luukku on kunnolla kiinni, salpa tai luukun anturi voi olla viallinen. Ota yhteys Samsungin huoltoon."
+ },
+ "Samsung|NC": {
+  "title": "Nukkasuodattimen ongelma",
+  "causes": [
+   "Nukkasuodatin puuttuu, on tukossa tai ei ole kunnolla paikallaan."
+  ],
+  "steps": [
+   "Irrota nukkasuodatin ja puhdista se.",
+   "Aseta se kokonaan takaisin niin, että se on oikein paikallaan.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi palaa, vaikka suodatin on puhdas ja oikein asennettu, tilaa Samsungin huoltokäynti."
+ },
+ "Samsung|NC2": {
+  "title": "Lämmönvaihtimen sisäkannen ongelma",
+  "causes": [
+   "Lämmönvaihtimen sisäkantta ei ole asennettu oikein."
+  ],
+  "steps": [
+   "Sammuta kuivausrumpu.",
+   "Tarkista, että lämmönvaihtimen sisäkansi on paikallaan ja kunnolla kiinni.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi ei poistu kannen uudelleenasennuksen jälkeen, ota yhteys Samsungin huoltoon."
+ },
+ "Samsung|5C": {
+  "title": "Veden poiston ongelma",
+  "causes": [
+   "Poistoletku on taipunut, vaurioitunut tai jäätynyt.",
+   "Vesisäiliö on täynnä.",
+   "Poistopumppu ei toimi."
+  ],
+  "steps": [
+   "Tyhjennä vesisäiliö ja aseta se takaisin.",
+   "Tarkista, ettei poistoletku ole taittunut tai vaurioitunut.",
+   "Jos letku on jäätynyt, kääri sen ympärille lämpimään veteen kastettu pyyhe noin 10 minuutiksi.",
+   "Käynnistä kuivausrumpu ja käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos säiliö on tyhjä ja letku on auki, mutta koodi palaa, pumppu voi olla viallinen. Ota yhteys Samsungin huoltoon."
+ },
+ "Samsung|tC": {
+  "title": "Ilman lämpötila-anturin ongelma",
+  "causes": [
+   "Nukkasuodatin tai lämmönvaihdin on tukossa.",
+   "Poistoilmaputki tai ilmankierto on rajoittunut.",
+   "Lämpötila-anturi on viallinen."
+  ],
+  "steps": [
+   "Puhdista nukkasuodatin.",
+   "Puhdista lämmönvaihdin, jos mallissasi on sellainen.",
+   "Tarkista, ettei poistoilmaputkessa tai -aukossa ole tukoksia.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos puhdistus ei poista koodia, anturi voi olla vaihdettava. Ota yhteys Samsungin huoltoon."
+ },
+ "Samsung|tC5": {
+  "title": "Kompressorin lämpötila-anturin ongelma",
+  "causes": [
+   "Nukkaverkko on tukossa.",
+   "Ilmanvirtaus poistoilmajärjestelmän läpi on rajoittunut."
+  ],
+  "steps": [
+   "Odota 2–3 minuuttia ja käynnistä kuivausrumpu sitten uudelleen.",
+   "Puhdista nukkaverkko.",
+   "Tarkista, ettei poistoilmajärjestelmässä ole tukoksia.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi palaa yhä uudelleen, Samsungin huollon on tarkistettava lämpöpumppujärjestelmä."
+ },
+ "Samsung|3C": {
+  "title": "Moottorin ongelma",
+  "causes": [
+   "Invertterimoottori ei toiminut odotetusti."
+  ],
+  "steps": [
+   "Varmista, ettei rumpu ole ylitäytetty.",
+   "Käynnistä ohjelma uudelleen.",
+   "Irrota kuivausrummun pistoke vähintään 30 sekunniksi, kytke se takaisin ja yritä uudelleen."
+  ],
+  "technician": "Jos koodi palaa, moottori tai sen ohjaus vaatii huoltoasentajan. Ota yhteys Samsungin huoltoon."
+ },
+ "Samsung|AC": {
+  "title": "Elektroniikan tiedonsiirtovirhe",
+  "causes": [
+   "Sisäiset ohjausosat eivät saa yhteyttä toisiinsa."
+  ],
+  "steps": [
+   "Katkaise kuivausrummun virta 60 sekunniksi.",
+   "Kytke virta takaisin ja käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi palaa, ohjauskortit on tarkistettava. Pyydä Samsungin huoltoa."
+ },
+ "Samsung|AC6": {
+  "title": "Pääpiirilevy ja invertterikortti eivät saa yhteyttä",
+  "causes": [
+   "Pääohjauskortin ja invertterikortin välinen yhteys katkesi."
+  ],
+  "steps": [
+   "Käynnistä ohjelma uudelleen.",
+   "Irrota kuivausrummun pistoke vähintään 30 sekunniksi, kytke se takaisin ja yritä uudelleen."
+  ],
+  "technician": "Jos koodi ei poistu, huoltoasentajan on tarkistettava kortit ja johdotus. Ota yhteys Samsungin huoltoon."
+ },
+ "Samsung|HC": {
+  "title": "Ylikuumeneminen tai lämmityksen ongelma",
+  "causes": [
+   "Nukkasuodatin tai poistoilmaputki on tukossa, joten kuivausrumpu käy liian kuumana.",
+   "Lauennut sulake tai alhainen jännite sähkömalleissa."
+  ],
+  "steps": [
+   "Puhdista nukkasuodatin.",
+   "Tarkista, ettei poistoilmaputkessa ole tukoksia.",
+   "Tarkista kodin sulakkeet ja palauta lauenneet.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi näkyy edelleen, pyydä sähköasentajaa tarkistamaan sähkönsyöttö ja tilaa Samsungin huolto lämmitysjärjestelmän tarkistamiseksi."
+ },
+ "Samsung|FC": {
+  "title": "Väärä sähköverkon taajuus",
+  "causes": [
+   "Verkkovirran taajuus ei vastaa kuivausrummun vaatimaa taajuutta."
+  ],
+  "steps": [
+   "Käynnistä ohjelma uudelleen.",
+   "Varmista, että kuivausrumpu on kytketty suoraan pistorasiaan."
+  ],
+  "technician": "Jos koodi ei poistu, ota yhteys Samsungin huoltoon."
+ },
+ "Samsung|9C1": {
+  "title": "Sähkönsyötön ongelma",
+  "causes": [
+   "Sähkönsyöttö ei ole oikea.",
+   "Pistoke on löysällä tai ei kokonaan pistorasiassa.",
+   "Käytössä on jatkojohto."
+  ],
+  "steps": [
+   "Tarkista, että pistoke on painettu kokonaan pistorasiaan.",
+   "Kytke kuivausrumpu suoraan pistorasiaan, jolla on oma ryhmä, ilman jatkojohtoa.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos sähkönsyöttö on kunnossa ja koodi palaa, pyydä Samsungin huoltoa."
+ },
+ "Samsung|dF": {
+  "title": "Luukun kytkimen vika",
+  "causes": [
+   "Luukun tai lukon kytkin tai sen johdotus on viallinen."
+  ],
+  "steps": [
+   "Sulje luukku tiukasti ja yritä uudelleen.",
+   "Irrota kuivausrummun pistoke vähintään 30 sekunniksi, kytke se takaisin ja yritä uudelleen."
+  ],
+  "technician": "Luukun kytkinyksikkö voi olla vaihdettava. Ota yhteys Samsungin huoltoon."
+ },
+ "Samsung|bE": {
+  "title": "Painike jumissa",
+  "causes": [
+   "Ohjauspaneelin painike on juuttunut tai pohjassa."
+  ],
+  "steps": [
+   "Sammuta kuivausrumpu.",
+   "Paina ja vapauta jokainen painike, myös reunoilta, juuttuneen painikkeen vapauttamiseksi.",
+   "Kytke virta ja yritä uudelleen."
+  ],
+  "technician": "Jos painike on vaurioitunut tai koodi palaa, pyydä Samsungin huoltoa."
+ },
+ "Samsung|Clg": {
+  "title": "Poistoilmaputki tukossa (tukostestin tulos)",
+  "causes": [
+   "Nukka tai roskat tukkivat poistoilmaputken."
+  ],
+  "steps": [
+   "Puhdista nukkasuodatin.",
+   "Puhdista poistoilma-aukko ja -kanava.",
+   "Suorita poistoilmaputken tukostesti uudelleen."
+  ],
+  "technician": "Jos poistoilmaputki on puhdas ja tulos pysyy samana, ota yhteys Samsungin huoltoon."
+ },
+ "Samsung|dn": {
+  "title": "Ohjelmiston lataus käynnissä",
+  "causes": [
+   "Kuivausrumpu asentaa laiteohjelmistopäivitystä."
+  ],
+  "steps": [
+   "Älä irrota kuivausrummun pistoketta tai katkaise virtaa.",
+   "Odota. Kuivausrumpu käynnistyy itsestään uudelleen, kun päivitys on valmis."
+  ],
+  "technician": "Jos dn näkyy edelleen 24 tunnin kuluttua, pyydä Samsungin huoltoa."
+ },
+ "Samsung|CL": {
+  "title": "Lapsilukko on päällä",
+  "causes": [
+   "Lapsilukko on kytketty päälle, joten painikkeet eivät toimi."
+  ],
+  "steps": [
+   "Kytke lapsilukko pois päältä käyttöohjeessa kuvatulla painikeyhdistelmällä."
+  ],
+  "technician": "Kyseessä ei ole vika. Ota yhteys Samsungiin vain, jos lapsilukkoa ei saa pois päältä."
+ },
+ "Samsung|HC2": {
+  "title": "Kaasun sytytysvirhe",
+  "causes": [
+   "Kaasukäyttöinen kuivausrumpu ei syttynyt."
+  ],
+  "steps": [
+   "Katkaise kuivausrummun virta 2–3 minuutiksi.",
+   "Kytke virta ja käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi palaa, lopeta kuivausrummun käyttö ja ota yhteys Samsungin huoltoon. Älä tee itse töitä kaasuosille."
+ },
+ "LG|OE": {
+  "title": "Veden poiston ongelma",
+  "causes": [
+   "Poistoletku on kiertynyt, taittunut tai tukossa.",
+   "Letkun pää on liian korkealla tai veden alla."
+  ],
+  "steps": [
+   "Suorista poistoletku.",
+   "Pidä letkun yläpää enintään 1 metrin korkeudella lattiasta.",
+   "Varmista, ettei letkun pää ole vedessä.",
+   "Käynnistä kuivausrumpu uudelleen."
+  ],
+  "technician": "Jos koodi palaa, vaikka letku on auki ja oikein sijoitettu, ota yhteys LG:n huoltoon."
+ },
+ "LG|d80": {
+  "title": "Poistoilman virtaus rajoittunut (noin 80 % tukossa)",
+  "causes": [
+   "Nukkasuodatin on tukossa.",
+   "Poistoilmakanava on litistynyt, taittunut tai liian pitkä.",
+   "Ulkoseinän poistoilmaläppä on tukossa."
+  ],
+  "steps": [
+   "Puhdista nukkasuodatin ja huuhtele se tarvittaessa lämpimällä vedellä.",
+   "Tarkista, ettei kuivausrummun takana oleva kanava ole taittunut tai litistynyt.",
+   "Varmista, että ulkoseinän poistoilmaläppä aukeaa kokonaan, ja poista sen ympäriltä nukka.",
+   "Kuivaa pienempiä määriä, kunnes kanava on puhdistettu."
+  ],
+  "technician": "Jos koodi ei poistu puhdistuksen jälkeen, tilaa kanavien puhdistus tai ota yhteys LG:n huoltoon."
+ },
+ "LG|d90": {
+  "title": "Poistoilman virtaus rajoittunut (noin 90 % tukossa)",
+  "causes": [
+   "Nukkasuodatin on tukossa.",
+   "Poistoilmakanava on litistynyt, taittunut tai liian pitkä.",
+   "Ulkoseinän poistoilmaläppä on tukossa."
+  ],
+  "steps": [
+   "Puhdista nukkasuodatin ja huuhtele se tarvittaessa lämpimällä vedellä.",
+   "Tarkista, ettei kuivausrummun takana oleva kanava ole taittunut tai litistynyt.",
+   "Varmista, että ulkoseinän poistoilmaläppä aukeaa kokonaan, ja poista sen ympäriltä nukka.",
+   "Kuivaa pienempiä määriä, kunnes kanava on puhdistettu."
+  ],
+  "technician": "Jos koodi ei poistu puhdistuksen jälkeen, tilaa kanavien puhdistus tai ota yhteys LG:n huoltoon."
+ },
+ "LG|d95": {
+  "title": "Poistoilman virtaus rajoittunut (noin 95 % tukossa)",
+  "causes": [
+   "Nukkasuodatin on tukossa.",
+   "Poistoilmakanava on litistynyt, taittunut tai liian pitkä.",
+   "Ulkoseinän poistoilmaläppä on tukossa."
+  ],
+  "steps": [
+   "Puhdista nukkasuodatin ja huuhtele se tarvittaessa lämpimällä vedellä.",
+   "Tarkista, ettei kuivausrummun takana oleva kanava ole taittunut tai litistynyt.",
+   "Varmista, että ulkoseinän poistoilmaläppä aukeaa kokonaan, ja poista sen ympäriltä nukka.",
+   "Kuivaa pienempiä määriä, kunnes kanava on puhdistettu."
+  ],
+  "technician": "Jos koodi ei poistu puhdistuksen jälkeen, tilaa kanavien puhdistus tai ota yhteys LG:n huoltoon."
+ },
+ "LG|FO": {
+  "title": "Nukkasuodatin ei ole paikallaan",
+  "causes": [
+   "Nukkasuodatinta ei ole asetettu oikein."
+  ],
+  "steps": [
+   "Ota nukkasuodatin pois.",
+   "Työnnä se takaisin koteloonsa, kunnes se on kokonaan paikallaan.",
+   "Käynnistä kuivausrumpu uudelleen."
+  ],
+  "technician": "Jos FO ei poistu, vaikka suodatin on oikein paikallaan, anturi voi vaatia korjausta LG:n huollossa."
+ },
+ "LG|IF": {
+  "title": "Sisempää nukkasuodatinta ei havaita",
+  "causes": [
+   "Sisemmän nukkasuodattimen magneetti puuttuu tai on väärässä paikassa.",
+   "Magneetin pidike on vaurioitunut."
+  ],
+  "steps": [
+   "Irrota sisempi nukkasuodatin ja tarkista, että sen magneetti on paikallaan.",
+   "Aseta suodatin oikein takaisin.",
+   "Jos magneetti on kadonnut tai pidike rikki, osta uusi suodatin."
+  ],
+  "technician": "Jos virhe ei poistu, vaikka suodatin on kunnossa, pyydä LG:n huoltoa."
+ },
+ "LG|nP": {
+  "title": "Lämmitysvastus ei saa virtaa",
+  "causes": [
+   "Pistorasian jännite ei ole oikea.",
+   "Sulake on lauennut."
+  ],
+  "steps": [
+   "Katkaise kuivausrummun sulake vähintään 10 sekunniksi ja kytke se sitten takaisin.",
+   "Käynnistä kuivausrumpu uudelleen."
+  ],
+  "technician": "Jos kuivausrumpu ei vieläkään lämpene, pyydä sähköasentajaa tarkistamaan pistorasia ja ota sitten yhteys LG:n huoltoon."
+ },
+ "LG|PS": {
+  "title": "Sähkönsyötön ongelma",
+  "causes": [
+   "Virtajohto on löysällä tai pistorasiaa ei ole kytketty vaatimusten mukaisesti."
+  ],
+  "steps": [
+   "Katkaise kuivausrummun sulake vähintään 10 sekunniksi ja kytke se takaisin.",
+   "Tarkista, että pistoke on tiukasti oikein mitoitetussa, maadoitetussa pistorasiassa.",
+   "Käynnistä kuivausrumpu uudelleen."
+  ],
+  "technician": "Jos kuivausrumpu ei vieläkään lämpene, pyydä korjausta LG:ltä."
+ },
+ "LG|gAS": {
+  "title": "Kaasunsyötön ongelma",
+  "causes": [
+   "Kaasun sulkuventtiili on kiinni.",
+   "Kaasuletku on taittunut."
+  ],
+  "steps": [
+   "Tarkista, että kaasun sulkuventtiili on auki.",
+   "Tarkista, ettei kaasuletku ole taittunut."
+  ],
+  "technician": "Jos kaasunsyöttö on kunnossa ja koodi palaa, ota yhteys LG:n huoltoon. Älä korjaa kaasuosia itse."
+ },
+ "LG|CL": {
+  "title": "Lapsilukko on päällä",
+  "causes": [
+   "Lapsilukko kytkettiin päälle, ja se pysyy päällä myös virran katkaisun jälkeen."
+  ],
+  "steps": [
+   "Kytke kuivausrumpuun virta.",
+   "Pidä Child Lock -painiketta painettuna 3–5 sekuntia, kunnes CL katoaa."
+  ],
+  "technician": "Kyseessä ei ole vika. Ota yhteys LG:hen vain, jos lapsilukkoa ei saa pois päältä."
+ },
+ "LG|Add": {
+  "title": "Lisää vettä höyryä varten",
+  "causes": [
+   "Höyrysäiliö on tyhjä höyryohjelman aikana."
+  ],
+  "steps": [
+   "Keskeytä ohjelma.",
+   "Täytä höyrysäiliö vesijohtovedellä MAX-merkkiin asti.",
+   "Sammuta kuivausrumpu ja käynnistä se uudelleen, valitse höyryohjelma ja paina Start."
+  ],
+  "technician": "Jos viesti ei poistu täytön jälkeen, ota yhteys LG:n huoltoon."
+ },
+ "LG|E13": {
+  "title": "Veden poiston ongelma (kondenssivesi)",
+  "causes": [
+   "Poistoletku on taittunut, kiertynyt tai tukossa.",
+   "Jatkoletku heikentää veden poistoa."
+  ],
+  "steps": [
+   "Tarkista, ettei poistoletkussa ole taitoksia tai tukoksia.",
+   "Käytä vain alkuperäistä LG:n poistoletkua ilman jatkoletkua.",
+   "Käynnistä uudelleen painamalla Start/Pause."
+  ],
+  "technician": "Jos E13 palaa, kuivausrumpu on korjattava LG:n huollossa."
+ },
+ "Bosch|E01": {
+  "title": "Nukkasuodatin tukossa",
+  "causes": [
+   "Suodattimeen on kertynyt nukkaa.",
+   "Huuhteluainejäämät tukkivat suodatinverkon."
+  ],
+  "steps": [
+   "Irrota nukkasuodatin ja tyhjennä se.",
+   "Huuhtele suodatin lämpimän veden alla jäämien poistamiseksi.",
+   "Kuivaa se ja aseta takaisin.",
+   "Puhdista suodatin jokaisen kuivauskerran jälkeen."
+  ],
+  "technician": "Jos koodi ei poistu, vaikka suodatin on puhdas, tilaa Boschin huoltokäynti."
+ },
+ "Bosch|E02": {
+  "title": "Nukkasuodatin tukossa tai ohjausreleen vika",
+  "causes": [
+   "Nukkasuodatin on tukossa.",
+   "Joissakin malleissa vika pääpiirilevyn releessä."
+  ],
+  "steps": [
+   "Puhdista nukkasuodatin ja huuhtele se lämpimällä vedellä.",
+   "Katkaise virta pistorasiasta tai sulakkeesta 30 sekunniksi ja käynnistä sitten uudelleen."
+  ],
+  "technician": "Jos koodi palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Boschin asiakaspalveluun."
+ },
+ "Bosch|E03": {
+  "title": "Kondenssiveden poistoletku tukossa",
+  "causes": [
+   "Kondenssiveden poistoletku on taittunut tai tukossa."
+  ],
+  "steps": [
+   "Tarkista, ettei poistoletkussa ole taitoksia.",
+   "Irrota letku varovasti vesilukosta ja puhdista letku ja sen liitäntä.",
+   "Kiinnitä letku tukevasti takaisin."
+  ],
+  "technician": "Jos koodi palaa, vaikka letku on auki, tilaa Boschin huoltoasentaja."
+ },
+ "Bosch|E04": {
+  "title": "Kuivausrumpu ylitäytetty",
+  "causes": [
+   "Rummussa on liikaa pyykkiä."
+  ],
+  "steps": [
+   "Ota osa pyykeistä pois.",
+   "Jätä vaatteiden yläpuolelle noin kämmenen levyinen tila.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi näkyy tavallisella täytöllä, ota yhteys Boschin huoltoon."
+ },
+ "Bosch|E06": {
+  "title": "Lämmityspiirin vika",
+  "causes": [
+   "Vika lämmityspiirissä."
+  ],
+  "steps": [
+   "Sammuta kuivausrumpu ja irrota pistoke.",
+   "Älä yritä korjata sitä itse."
+  ],
+  "technician": "Korjaus vaatii pätevän huoltoasentajan. Ota yhteys Boschin asiakaspalveluun."
+ },
+ "Bosch|E08": {
+  "title": "Elektroniikkavika",
+  "causes": [
+   "Sisäinen elektroniikkavika."
+  ],
+  "steps": [
+   "Sammuta kuivausrumpu.",
+   "Irrota pistoke tai katkaise virta sulakkeesta muutamaksi minuutiksi ja kytke se sitten takaisin.",
+   "Jos koodi palaa, lopeta kuivausrummun käyttö."
+  ],
+  "technician": "Vain valtuutettu huoltoasentaja voi korjata tämän. Ota yhteys Boschin asiakaspalveluun."
+ },
+ "Bosch|E09": {
+  "title": "Elektroniikkavika",
+  "causes": [
+   "Sisäinen elektroniikkavika."
+  ],
+  "steps": [
+   "Sammuta kuivausrumpu.",
+   "Irrota pistoke tai katkaise virta sulakkeesta muutamaksi minuutiksi ja kytke se sitten takaisin.",
+   "Jos koodi palaa, lopeta kuivausrummun käyttö."
+  ],
+  "technician": "Vain valtuutettu huoltoasentaja voi korjata tämän. Ota yhteys Boschin asiakaspalveluun."
+ },
+ "Bosch|E24": {
+  "title": "Elektroniikkavika",
+  "causes": [
+   "Sisäinen elektroniikkavika."
+  ],
+  "steps": [
+   "Sammuta kuivausrumpu.",
+   "Irrota pistoke tai katkaise virta sulakkeesta muutamaksi minuutiksi ja kytke se sitten takaisin.",
+   "Jos koodi palaa, lopeta kuivausrummun käyttö."
+  ],
+  "technician": "Vain valtuutettu huoltoasentaja voi korjata tämän. Ota yhteys Boschin asiakaspalveluun."
+ },
+ "Bosch|E25": {
+  "title": "Elektroniikkavika",
+  "causes": [
+   "Sisäinen elektroniikkavika."
+  ],
+  "steps": [
+   "Sammuta kuivausrumpu.",
+   "Irrota pistoke tai katkaise virta sulakkeesta muutamaksi minuutiksi ja kytke se sitten takaisin.",
+   "Jos koodi palaa, lopeta kuivausrummun käyttö."
+  ],
+  "technician": "Vain valtuutettu huoltoasentaja voi korjata tämän. Ota yhteys Boschin asiakaspalveluun."
+ },
+ "Bosch|E28": {
+  "title": "Elektroniikkavika",
+  "causes": [
+   "Sisäinen elektroniikkavika."
+  ],
+  "steps": [
+   "Sammuta kuivausrumpu.",
+   "Irrota pistoke tai katkaise virta sulakkeesta muutamaksi minuutiksi ja kytke se sitten takaisin.",
+   "Jos koodi palaa, lopeta kuivausrummun käyttö."
+  ],
+  "technician": "Vain valtuutettu huoltoasentaja voi korjata tämän. Ota yhteys Boschin asiakaspalveluun."
+ },
+ "Bosch|E36": {
+  "title": "Elektroniikkavika",
+  "causes": [
+   "Sisäinen elektroniikkavika."
+  ],
+  "steps": [
+   "Sammuta kuivausrumpu.",
+   "Irrota pistoke tai katkaise virta sulakkeesta muutamaksi minuutiksi ja kytke se sitten takaisin.",
+   "Jos koodi palaa, lopeta kuivausrummun käyttö."
+  ],
+  "technician": "Vain valtuutettu huoltoasentaja voi korjata tämän. Ota yhteys Boschin asiakaspalveluun."
+ },
+ "Bosch|E90": {
+  "title": "Elektroniikkavika",
+  "causes": [
+   "Sisäinen elektroniikkavika."
+  ],
+  "steps": [
+   "Sammuta kuivausrumpu.",
+   "Irrota pistoke tai katkaise virta sulakkeesta muutamaksi minuutiksi ja kytke se sitten takaisin.",
+   "Jos koodi palaa, lopeta kuivausrummun käyttö."
+  ],
+  "technician": "Vain valtuutettu huoltoasentaja voi korjata tämän. Ota yhteys Boschin asiakaspalveluun."
+ },
+ "Bosch|E12": {
+  "title": "Ylikuumeneminen tai kalkkia lämpöpumpussa",
+  "causes": [
+   "Ilmanvirtaus on rajoittunut, ja kuivausrumpu ylikuumenee.",
+   "Joissakin malleissa lämpöpumppuun on kertynyt kalkkia."
+  ],
+  "steps": [
+   "Puhdista nukkasuodatin.",
+   "Tarkista, ettei ulkoinen poistoilmaputki ole tukossa, taipunut tai litistynyt.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi palaa yhä uudelleen, tilaa Boschin huoltokäynti."
+ },
+ "Bosch|E16": {
+  "title": "Luukku avattu kuivauksen aikana",
+  "causes": [
+   "Luukku avattiin ohjelman ollessa käynnissä."
+  ],
+  "steps": [
+   "Sulje luukku tiukasti.",
+   "Jatka ohjelmaa painamalla Start.",
+   "Käytä tarvittaessa lapsilukkoa estämään luukun avaaminen."
+  ],
+  "technician": "Jos E16 näkyy luukun ollessa kiinni, luukun kytkin voi olla viallinen. Tilaa Boschin huoltoasentaja."
+ },
+ "Bosch|E56": {
+  "title": "Kosteusanturin ongelma",
+  "causes": [
+   "Rummun kosteusanturiliuskoissa on jäämiä tai nukkaa."
+  ],
+  "steps": [
+   "Irrota kuivausrummun pistoke.",
+   "Pyyhi nukkasuodattimen lähellä oleva kosteusanturi pehmeällä liinalla ja miedolla puhdistusaineella.",
+   "Poista kaikki jäämät ja käynnistä sitten uudelleen."
+  ],
+  "technician": "Jos koodi ei poistu puhdistuksen jälkeen, ota yhteys Boschin asiakaspalveluun."
+ },
+ "Bosch|DR": {
+  "title": "Luukku ei ole kunnolla kiinni",
+  "causes": [
+   "Luukku ei ole täysin kiinni.",
+   "Jokin estää luukun liikkeen."
+  ],
+  "steps": [
+   "Poista luukkuun jääneet esineet.",
+   "Sulje luukku tiukasti, kunnes se salpautuu.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos koodi ei poistu, Boschin huollon on tarkistettava salpa tai luukun kytkin."
+ },
+ "Bosch|CrE": {
+  "title": "Huoltomuistutus",
+  "causes": [
+   "Kuivausrumpu muistuttaa hoito-ohjelman käynnistämisestä. Kyseessä ei ole vika."
+  ],
+  "steps": [
+   "Käynnistä käyttöohjeessa kuvattu perushoito-ohjelma."
+  ],
+  "technician": "Ei tarpeen, ellei muistutus poistu hoito-ohjelman jälkeen."
+ },
+ "Miele|F1": {
+  "title": "Kylmäaineen lämpötila-anturin oikosulku",
+  "causes": [
+   "Kylmäaineen lämpötila-anturissa on oikosulku."
+  ],
+  "steps": [
+   "Kirjoita vikakoodi muistiin.",
+   "Sammuta kuivausrumpu äläkä jatka sen käyttöä.",
+   "Tilaa korjaus Mieleltä."
+  ],
+  "technician": "Kyseessä on tekninen vika, jota et voi korjata itse. Tilaa Mielen huoltoasentaja."
+ },
+ "Miele|F2": {
+  "title": "Kylmäaineen lämpötila-anturin piiri katkennut",
+  "causes": [
+   "Kylmäaineen lämpötila-anturin virtapiiri on katkennut."
+  ],
+  "steps": [
+   "Kirjoita vikakoodi muistiin.",
+   "Sammuta kuivausrumpu äläkä jatka sen käyttöä.",
+   "Tilaa korjaus Mieleltä."
+  ],
+  "technician": "Kyseessä on tekninen vika, jota et voi korjata itse. Tilaa Mielen huoltoasentaja."
+ },
+ "Miele|F3": {
+  "title": "Kuivausilman lämpötila-anturin oikosulku",
+  "causes": [
+   "Kuivausilman lämpötila-anturissa on oikosulku."
+  ],
+  "steps": [
+   "Kirjoita vikakoodi muistiin.",
+   "Sammuta kuivausrumpu äläkä jatka sen käyttöä.",
+   "Tilaa korjaus Mieleltä."
+  ],
+  "technician": "Kyseessä on tekninen vika, jota et voi korjata itse. Tilaa Mielen huoltoasentaja."
+ },
+ "Miele|F4": {
+  "title": "Kuivausilman lämpötila-anturin piiri katkennut",
+  "causes": [
+   "Kuivausilman lämpötila-anturin virtapiiri on katkennut."
+  ],
+  "steps": [
+   "Kirjoita vikakoodi muistiin.",
+   "Sammuta kuivausrumpu äläkä jatka sen käyttöä.",
+   "Tilaa korjaus Mieleltä."
+  ],
+  "technician": "Kyseessä on tekninen vika, jota et voi korjata itse. Tilaa Mielen huoltoasentaja."
+ },
+ "Miele|F30": {
+  "title": "Luukun signaalien ristiriita",
+  "causes": [
+   "Luukku ja luukun kosketin ilmoittavat eri tilan."
+  ],
+  "steps": [
+   "Kirjoita vikakoodi muistiin.",
+   "Sammuta kuivausrumpu äläkä jatka sen käyttöä.",
+   "Tilaa korjaus Mieleltä."
+  ],
+  "technician": "Kyseessä on tekninen vika, jota et voi korjata itse. Tilaa Mielen huoltoasentaja."
+ },
+ "Miele|F39": {
+  "title": "Elektroniikkamoduulin vika",
+  "causes": [
+   "Elektroniikkamoduulissa on vika."
+  ],
+  "steps": [
+   "Kirjoita vikakoodi muistiin.",
+   "Sammuta kuivausrumpu äläkä jatka sen käyttöä.",
+   "Tilaa korjaus Mieleltä."
+  ],
+  "technician": "Kyseessä on tekninen vika, jota et voi korjata itse. Tilaa Mielen huoltoasentaja."
+ },
+ "Miele|F43": {
+  "title": "Mallityyppiä ei ole ohjelmoitu",
+  "causes": [
+   "Mallityyppi puuttuu, tai elektroniikkaan on asetettu väärä versio."
+  ],
+  "steps": [
+   "Kirjoita vikakoodi muistiin.",
+   "Sammuta kuivausrumpu äläkä jatka sen käyttöä.",
+   "Tilaa korjaus Mieleltä."
+  ],
+  "technician": "Kyseessä on tekninen vika, jota et voi korjata itse. Tilaa Mielen huoltoasentaja."
+ },
+ "Miele|F45": {
+  "title": "Elektroniikkamoduulin vika",
+  "causes": [
+   "Elektroniikkamoduulissa on vika."
+  ],
+  "steps": [
+   "Kirjoita vikakoodi muistiin.",
+   "Sammuta kuivausrumpu äläkä jatka sen käyttöä.",
+   "Tilaa korjaus Mieleltä."
+  ],
+  "technician": "Kyseessä on tekninen vika, jota et voi korjata itse. Tilaa Mielen huoltoasentaja."
+ },
+ "Miele|F53": {
+  "title": "Käyttömoottorin tai elektroniikan vika",
+  "causes": [
+   "Käyttömoottori on viallinen.",
+   "Elektroniikkamoduulissa on vika."
+  ],
+  "steps": [
+   "Kirjoita vikakoodi muistiin.",
+   "Sammuta kuivausrumpu äläkä jatka sen käyttöä.",
+   "Tilaa korjaus Mieleltä."
+  ],
+  "technician": "Kyseessä on tekninen vika, jota et voi korjata itse. Tilaa Mielen huoltoasentaja."
+ },
+ "Miele|F99": {
+  "title": "Tekninen vika, kuivausrumpu poistettu käytöstä",
+  "causes": [
+   "Tekninen vika on estänyt kuivausrummun käytön."
+  ],
+  "steps": [
+   "Kirjoita vikakoodi muistiin.",
+   "Sammuta kuivausrumpu äläkä jatka sen käyttöä.",
+   "Tilaa korjaus Mieleltä."
+  ],
+  "technician": "Kyseessä on tekninen vika, jota et voi korjata itse. Tilaa Mielen huoltoasentaja."
+ },
+ "Miele|F156": {
+  "title": "Lauhduttimen jälkeisen kylmäaineanturin oikosulku",
+  "causes": [
+   "Lauhduttimen jälkeisessä kylmäaineen lämpötila-anturissa on oikosulku."
+  ],
+  "steps": [
+   "Kirjoita vikakoodi muistiin.",
+   "Sammuta kuivausrumpu äläkä jatka sen käyttöä.",
+   "Tilaa korjaus Mieleltä."
+  ],
+  "technician": "Kyseessä on tekninen vika, jota et voi korjata itse. Tilaa Mielen huoltoasentaja."
+ },
+ "Miele|F206": {
+  "title": "Kompressorin jälkeisen kylmäaineanturin oikosulku",
+  "causes": [
+   "Kompressorin jälkeisessä kylmäaineen lämpötila-anturissa on oikosulku."
+  ],
+  "steps": [
+   "Kirjoita vikakoodi muistiin.",
+   "Sammuta kuivausrumpu äläkä jatka sen käyttöä.",
+   "Tilaa korjaus Mieleltä."
+  ],
+  "technician": "Kyseessä on tekninen vika, jota et voi korjata itse. Tilaa Mielen huoltoasentaja."
+ },
+ "Miele|F50": {
+  "title": "Ylikuormitus tai ohjelmistovika",
+  "causes": [
+   "Rumpu on ylitäytetty.",
+   "Ohjelmistohäiriö, usein pian sen jälkeen, kun luukku avattiin pyykin lisäämiseksi.",
+   "Tekninen vika."
+  ],
+  "steps": [
+   "Ota osa pyykeistä pois, jotta täyttö vastaa ohjelman enimmäismäärää.",
+   "Sammuta kuivausrumpu ja käynnistä se heti uudelleen.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos F50 palaa yhä uudelleen, ota yhteys Mielen asiakaspalveluun."
+ },
+ "Miele|F55": {
+  "title": "Pyykki ei kuivunut enimmäisajassa",
+  "causes": [
+   "Rumpu on ylitäytetty.",
+   "Pyykkiä ei lingottu pesukoneessa tarpeeksi suurella nopeudella.",
+   "Nukkasuodattimet ovat likaiset."
+  ],
+  "steps": [
+   "Pienennä täyttö ohjelman enimmäismäärään.",
+   "Linkoa pyykki ennen kuivausta suurimmalla sopivalla nopeudella.",
+   "Puhdista kaikki nukkasuodattimet ja kuivaa ne kokonaan ennen kuin asetat ne takaisin.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos vika jatkuu, vaikka suodattimet ovat puhtaat ja täyttö normaali, ota yhteys Mielen asiakaspalveluun."
+ },
+ "Miele|F66": {
+  "title": "Ilmanvirtaus tukossa (suodattimet tai tuuletus)",
+  "causes": [
+   "Nukkasuodattimet tai sokkelisuodatin ovat likaiset.",
+   "Sokkelisuodatin on kovettunut, vaurioitunut tai muotonsa menettänyt.",
+   "Rumpu on ylitäytetty.",
+   "Tuuletusritilä on tukossa, tai huoneen ilmanvaihto on heikko."
+  ],
+  "steps": [
+   "Puhdista nukkasuodattimet ja sokkelisuodatin ja purista sokkelisuodatin kuivaksi.",
+   "Imuroi nukka varovasti lämmönvaihtimesta painamatta sen lamelleja.",
+   "Puhdista luukun alla oleva tuuletusritilä.",
+   "Pienennä täyttöä ja tuuleta huonetta kuivauksen aikana.",
+   "Vaihda vaurioitunut sokkelisuodatin."
+  ],
+  "technician": "Jos F66 ei poistu perusteellisen puhdistuksen jälkeen, ota yhteys Mielen asiakaspalveluun."
+ },
+ "Miele|noC": {
+  "title": "Ei Wi-Fi-yhteyttä",
+  "causes": [
+   "Miele@home-palvelua ei ole otettu käyttöön.",
+   "Kuivausrumpu ei saa yhteyttä Wi-Fi-verkkoosi."
+  ],
+  "steps": [
+   "Ota Miele@home käyttöön, jos et ole vielä tehnyt sitä.",
+   "Tarkista, että Wi-Fi on päällä, ja käynnistä reititin uudelleen.",
+   "Paranna heikkoa signaalia toistimella.",
+   "Nollaa kuivausrummun Wi-Fi-asetukset ja yhdistä se uudelleen."
+  ],
+  "technician": "Kyseessä on yhteysilmoitus, ei kuivausrummun vika. Ota yhteys Mieleen, jos yhteys ei onnistu näiden vaiheiden jälkeen."
+ },
+ "AEG|E50": {
+  "title": "Moottori ylikuormittunut",
+  "causes": [
+   "Rumpu on ylitäytetty.",
+   "Pyykkiä on juuttunut rumpuun.",
+   "Moottorin tai voimansiirron vika."
+  ],
+  "steps": [
+   "Avaa luukku ja tarkista, onko rumpuun juuttunut esineitä.",
+   "Ota osa pyykeistä pois, jos täyttö on liian suuri.",
+   "Sulje luukku ja käynnistä uudelleen.",
+   "Jos vika ei poistu, katkaise virta noin minuutiksi ja käynnistä sitten uudelleen."
+  ],
+  "technician": "Jos E50 palaa toistuvasti tai rumpu ei pyöri, tilaa korjaus AEG:ltä."
+ },
+ "AEG|E40": {
+  "title": "Luukku ei ole kiinni",
+  "causes": [
+   "Pyykkiä on jäänyt luukkuun.",
+   "Luukun tiiviste tai lukko on likainen tai kulunut.",
+   "Rumpu on ylitäytetty ja painaa luukkua."
+  ],
+  "steps": [
+   "Poista luukkuun jääneet vaatteet ja sulje luukku, kunnes se napsahtaa.",
+   "Pyyhi luukun tiiviste kostealla liinalla.",
+   "Harjaa nukka pois luukun lukosta.",
+   "Pienennä täyttöä.",
+   "Katkaise virta 30 sekunniksi ja käynnistä sitten uudelleen."
+  ],
+  "technician": "Jos virhe ei poistu, lukko tai luukun anturi voi olla viallinen. Tilaa AEG:n huoltokäynti."
+ },
+ "AEG|E20": {
+  "title": "Veden poiston tai pumpun ongelma",
+  "causes": [
+   "Poistoletkua ei ole kytketty kunnolla.",
+   "Poistoletku on kiertynyt, tukossa tai mutkalla."
+  ],
+  "steps": [
+   "Jos käytät viemäriliitäntää, tarkista, että letku on kytketty oikein.",
+   "Poista letkusta kierteet, mutkat ja tukokset.",
+   "Katkaise virta 30 sekunniksi ja käynnistä sitten uudelleen."
+  ],
+  "technician": "Jos virhe ei poistu, tilaa AEG:n valtuuttama huoltoasentaja."
+ },
+ "AEG|E60": {
+  "title": "Lämmityksen ongelma",
+  "causes": [
+   "Kuivausrumpu on asennettu kaappiin ilman tuuletusta.",
+   "Huone on liian pieni tai siinä ei ole ilmanvaihtoa.",
+   "Nukkasuodatin, lauhdutin tai tiiviste on likainen.",
+   "Lämmitysvastus on viallinen."
+  ],
+  "steps": [
+   "Varmista, että kuivausrummun ympärillä on tilaa ja ilmaa.",
+   "Avaa ikkuna tai ovi, kun kuivaat pienessä huoneessa.",
+   "Puhdista nukkasuodatin, lauhdutin ja luukun tiiviste.",
+   "Käynnistä ajastettu ohjelma ja tarkista 30 minuutin kuluttua, onko rumpu lämmin."
+  ],
+  "technician": "Jos se on edelleen kylmä, tilaa korjaus AEG:ltä."
+ },
+ "AEG|E70": {
+  "title": "Lämpötila-anturin vika",
+  "causes": [
+   "Lämpötila-anturi on viallinen."
+  ],
+  "steps": [
+   "Nollaa kuivausrumpu irrottamalla pistoke 2 tunniksi.",
+   "Kytke pistoke takaisin ja yritä uudelleen.",
+   "Jos koodi palaa, lopeta kuivausrummun käyttö ja pidä pistoke irti."
+  ],
+  "technician": "Ota yhteys AEG:hen ja ilmoita koodi huoltokäyntiä varten."
+ },
+ "AEG|E80": {
+  "title": "Ohjelmanvalitsimen tai ohjelmiston vika",
+  "causes": [
+   "Ohjelmanvalitsin on kahden asennon välissä.",
+   "Ohjelmistovika."
+  ],
+  "steps": [
+   "Käännä valitsin niin, että se on kokonaan yhden ohjelman kohdalla.",
+   "Irrota kuivausrummun pistoke 30 sekunniksi, kytke se takaisin ja käynnistä uudelleen."
+  ],
+  "technician": "Jos E80 ei poistu, tilaa AEG:n huoltoasentaja."
+ },
+ "AEG|EH0": {
+  "title": "Sähkönsyötön ongelma",
+  "causes": [
+   "Jännite on liian alhainen tai liian korkea.",
+   "Sähkönsyöttö on epävakaa."
+  ],
+  "steps": [
+   "Kokeile pistorasiaa toisella laitteella.",
+   "Älä käytä jatkojohtoa.",
+   "Irrota kuivausrummun pistoke 30 sekunniksi ja käynnistä sitten uudelleen."
+  ],
+  "technician": "Jos myös toinen laite ei toimi, ota yhteys sähköasentajaan. Jos koodi näkyy vain kuivausrummussa, tilaa AEG:n huoltoasentaja."
+ },
+ "AEG|EBD": {
+  "title": "Sähköhäiriöitä havaittu",
+  "causes": [
+   "Sähköverkossa on häiriöitä.",
+   "Puutteellinen maadoitus."
+  ],
+  "steps": [
+   "Kokeile kuivausrumpua toisessa, toimivassa pistorasiassa.",
+   "Varmista, että pistorasia on asianmukaisesti maadoitettu."
+  ],
+  "technician": "Jos koodi ei poistu, ota yhteys AEG:n valtuutettuun huoltoliikkeeseen. Älä yritä tehdä sähkökorjauksia itse."
+ },
+ "AEG|CE": {
+  "title": "Elektroniikkavika",
+  "causes": [
+   "Vika kuivausrummun elektroniikassa."
+  ],
+  "steps": [
+   "Lopeta kuivausrummun käyttö.",
+   "Irrota pistoke ja pidä se irti."
+  ],
+  "technician": "Tilaa AEG:n valtuuttama huoltoasentaja tutkimaan elektroniikka."
+ },
+ "AEG|C8": {
+  "title": "Lämpötila-anturin vika",
+  "causes": [
+   "Lämpötila-anturissa on ongelma."
+  ],
+  "steps": [
+   "Lopeta kuivausrummun käyttö.",
+   "Pidä pistoke irti, kunnes laite on tarkistettu."
+  ],
+  "technician": "Tilaa AEG:n huoltokäynti anturin tarkistamiseksi tai vaihtamiseksi."
+ },
+ "AEG|C6": {
+  "title": "Kosteusanturin ongelma",
+  "causes": [
+   "Kuivausrumpua ei ole kytketty maadoitettuun pistorasiaan.",
+   "Kosteudenmittausjärjestelmä on viallinen."
+  ],
+  "steps": [
+   "Tarkista, että kuivausrumpu on kytketty maadoitettuun pistorasiaan.",
+   "Jos ohjelma kestää edelleen hyvin kauan, lopeta kuivausrummun käyttö ja irrota pistoke."
+  ],
+  "technician": "Jos pistorasia on maadoitettu ja virhe ei poistu, tilaa korjaus AEG:ltä."
+ },
+ "AEG|Err": {
+  "title": "Höyrysäiliön virhe (Iron Aid -mallit)",
+  "causes": [
+   "Höyryn vesisäiliössä on vähän vettä tai se on tyhjä."
+  ],
+  "steps": [
+   "Täytä höyrysäiliö MAX-tasoon asti.",
+   "Käynnistä ohjelma uudelleen."
+  ],
+  "technician": "Jos kuvakkeet vilkkuvat edelleen täytön jälkeen, lopeta kuivausrummun käyttö ja ota yhteys AEG:n huoltoliikkeeseen."
+ },
+ "Hotpoint|F01": {
+  "title": "Piirilevyn vika",
+  "causes": [
+   "Vika elektronisessa ohjauskortissa."
+  ],
+  "steps": [
+   "Irrota kuivausrummun pistoke vähintään 2 minuutiksi.",
+   "Kytke pistoke takaisin, odota 30 sekuntia ja yritä uudelleen."
+  ],
+  "technician": "Jos F01 palaa nollauksen jälkeen, ota yhteys Hotpointin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Hotpoint|F02": {
+  "title": "Moottoripiirin vika",
+  "causes": [
+   "Vika moottoripiirissä. Rumpu pyörii vain ajoittain tai ei lainkaan."
+  ],
+  "steps": [
+   "Sammuta kuivausrumpu ja irrota pistoke.",
+   "Älä jatka sen käyttöä."
+  ],
+  "technician": "Ota yhteys Hotpointin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Hotpoint|F03": {
+  "title": "Lämpötilan mittauksen vika",
+  "causes": [
+   "Lämpötila-anturi on viallinen, joten kuivausrumpu ei lämpene."
+  ],
+  "steps": [
+   "Sammuta kuivausrumpu ja irrota pistoke."
+  ],
+  "technician": "Ota yhteys Hotpointin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Hotpoint|F05": {
+  "title": "Poisto tukossa tai pumpun ongelma",
+  "causes": [
+   "Tukos pumpun suodattimessa (jos mallissa on) tai poistoletkussa.",
+   "Viemäriputki on tukossa.",
+   "Pumppu on rikki."
+  ],
+  "steps": [
+   "Tarkista ja puhdista pumpun suodatin, jos mallissasi on sellainen.",
+   "Tarkista, ettei poistoletkussa tai siihen liitetyssä viemärissä ole tukoksia."
+  ],
+  "technician": "Jos kaikki on auki ja vika ei poistu, pumppu voi olla rikki. Ota yhteys Hotpointin huoltoon."
+ },
+ "Hotpoint|F06": {
+  "title": "Luukun lukon vika",
+  "causes": [
+   "Jokin estää luukun lukon toiminnan.",
+   "Luukun lukko on viallinen."
+  ],
+  "steps": [
+   "Tarkista, onko luukun lukon alueella nukkaa tai esineitä, ja poista ne.",
+   "Sulje luukku tiukasti ja yritä uudelleen."
+  ],
+  "technician": "Jos vika ei poistu, ota yhteys Hotpointin huoltoon."
+ },
+ "Hotpoint|F09": {
+  "title": "Ohjelmistovika",
+  "causes": [
+   "Ohjelmisto-ongelma. Useat merkkivalot voivat vilkkua, eikä ohjelmaa voi valita."
+  ],
+  "steps": [
+   "Irrota kuivausrummun pistoke muutamaksi minuutiksi ja yritä uudelleen."
+  ],
+  "technician": "Ota yhteys Hotpointin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Hotpoint|F11": {
+  "title": "Pumppupiirin vika",
+  "causes": [
+   "Pumppupiiri on rikki, joten vettä ei pumpata pois."
+  ],
+  "steps": [
+   "Tyhjennä vesisäiliö, jos mallissasi on sellainen.",
+   "Sammuta kuivausrumpu ja irrota pistoke."
+  ],
+  "technician": "Ota yhteys Hotpointin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Hotpoint|F12": {
+  "title": "Elektronisen ohjauksen vika",
+  "causes": [
+   "Elektroninen ohjaus on viallinen. Kuivausrumpu ei ehkä käynnisty."
+  ],
+  "steps": [
+   "Tarkista pistoke ja pistorasia.",
+   "Irrota kuivausrummun pistoke muutamaksi minuutiksi ja yritä uudelleen."
+  ],
+  "technician": "Ota yhteys Hotpointin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Hotpoint|F18": {
+  "title": "Sisäinen datavirhe",
+  "causes": [
+   "Sisäiset tiedot ovat vioittuneet. Osa näytöstä tai toiminnoista ei toimi."
+  ],
+  "steps": [
+   "Irrota kuivausrummun pistoke vähintään 2 minuutiksi.",
+   "Kytke pistoke takaisin, odota 30 sekuntia ja yritä uudelleen."
+  ],
+  "technician": "Jos F18 ei poistu nollauksen jälkeen, ota yhteys Hotpointin huoltoon."
+ },
+ "Indesit|F02": {
+  "title": "Moottoripiirin vika",
+  "causes": [
+   "Vika moottoripiirissä. Rumpu pyörii vain ajoittain tai ei lainkaan."
+  ],
+  "steps": [
+   "Sammuta kuivausrumpu ja irrota pistoke."
+  ],
+  "technician": "Ota yhteys Indesitin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Indesit|F03": {
+  "title": "Lämpötilan mittauksen vika",
+  "causes": [
+   "Lämpötila-anturi on viallinen, joten kuivausrumpu ei lämpene."
+  ],
+  "steps": [
+   "Sammuta kuivausrumpu ja irrota pistoke."
+  ],
+  "technician": "Ota yhteys Indesitin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Indesit|F05": {
+  "title": "Poisto tukossa tai pumpun ongelma",
+  "causes": [
+   "Tukos pumpun suodattimessa (jos mallissa on) tai poistoletkussa.",
+   "Pumppu on rikki."
+  ],
+  "steps": [
+   "Tarkista ja puhdista pumpun suodatin, jos mallissasi on sellainen.",
+   "Tarkista, ettei poistoletkussa tai viemärissä ole tukoksia."
+  ],
+  "technician": "Jos kaikki on auki ja vika ei poistu, ota yhteys Indesitin huoltoon."
+ },
+ "Indesit|F06": {
+  "title": "Luukun lukon vika",
+  "causes": [
+   "Jokin estää luukun lukon toiminnan.",
+   "Luukun lukko on viallinen."
+  ],
+  "steps": [
+   "Tarkista, ettei luukun lukossa ole esteitä.",
+   "Sulje luukku tiukasti ja yritä uudelleen."
+  ],
+  "technician": "Jos vika ei poistu, ota yhteys Indesitin huoltoon."
+ },
+ "Indesit|F09": {
+  "title": "Ohjelmistovika",
+  "causes": [
+   "Ohjelmisto-ongelma. Useat merkkivalot voivat vilkkua, eikä ohjelmaa voi valita."
+  ],
+  "steps": [
+   "Irrota kuivausrummun pistoke muutamaksi minuutiksi ja yritä uudelleen."
+  ],
+  "technician": "Ota yhteys Indesitin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Indesit|F11": {
+  "title": "Pumppupiirin vika",
+  "causes": [
+   "Pumppupiiri on rikki, joten vettä ei pumpata pois."
+  ],
+  "steps": [
+   "Tyhjennä vesisäiliö, jos mallissasi on sellainen.",
+   "Sammuta kuivausrumpu ja irrota pistoke."
+  ],
+  "technician": "Ota yhteys Indesitin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Indesit|F12": {
+  "title": "Elektronisen ohjauksen vika",
+  "causes": [
+   "Elektroninen ohjaus on viallinen. Kuivausrumpu ei ehkä käynnisty."
+  ],
+  "steps": [
+   "Tarkista pistoke ja pistorasia.",
+   "Irrota kuivausrummun pistoke muutamaksi minuutiksi ja yritä uudelleen."
+  ],
+  "technician": "Ota yhteys Indesitin huoltoon ja tilaa huoltoasentaja."
+ },
+ "Indesit|F18": {
+  "title": "Sisäinen datavirhe",
+  "causes": [
+   "Sisäiset tiedot ovat vioittuneet. Osa näytöstä tai toiminnoista ei toimi."
+  ],
+  "steps": [
+   "Irrota kuivausrummun pistoke vähintään 2 minuutiksi.",
+   "Kytke pistoke takaisin, odota 30 sekuntia ja yritä uudelleen."
+  ],
+  "technician": "Jos F18 ei poistu nollauksen jälkeen, ota yhteys Indesitin huoltoon."
+ },
+ "Whirlpool|AF": {
+  "title": "Rajoittunut ilmanvirtaus",
+  "causes": [
+   "Nukkaverkko on tukossa.",
+   "Poistoilmaputki on tukossa, litistynyt, taittunut tai siinä on liikaa mutkia."
+  ],
+  "steps": [
+   "Puhdista nukkaverkko.",
+   "Tarkista, ettei poistoilmaputki ole tukossa, litistynyt tai taittunut.",
+   "Poista koodi koskettamalla mitä tahansa painiketta."
+  ],
+  "technician": "Jos koodi palaa yhä, vaikka poistoilmaputki on puhdas, tilaa Whirlpoolin huolto."
+ },
+ "Whirlpool|L2": {
+  "title": "Verkkojännite alhainen tai puuttuu",
+  "causes": [
+   "Kodin sulake on palanut tai lauennut.",
+   "Virtajohtoa ei ole asennettu oikein."
+  ],
+  "steps": [
+   "Tarkista sulakkeet (sähkökuivausrummuissa niitä on kaksi) ja palauta ne.",
+   "Tarkista, että virtajohto on asennettu asennusohjeen mukaisesti.",
+   "Käynnistä ajastettu lämpöohjelma ja käynnistä uudelleen."
+  ],
+  "technician": "Jos L2 ei poistu, pyydä pätevää sähköasentajaa tarkistamaan sähkönsyöttö."
+ },
+ "Whirlpool|PF": {
+  "title": "Sähkökatko",
+  "causes": [
+   "Sähkönsyöttö katkesi ohjelman aikana."
+  ],
+  "steps": [
+   "Jatka ohjelmaa pitämällä Start-painiketta painettuna.",
+   "Tai tyhjennä näyttö painamalla Power-painiketta."
+  ],
+  "technician": "Kyseessä ei ole vika. Ota yhteys Whirlpooliin vain, jos PF näkyy ilman todellisia sähkökatkoja."
+ },
+ "Whirlpool|F1E3": {
+  "title": "Ohjausyksikön tai johdotuksen ongelma",
+  "causes": [
+   "Vika ohjausyksikössä tai sen johdotuksessa."
+  ],
+  "steps": [
+   "Paina Power-painiketta, valitse ohjelma ja pidä Start-painiketta painettuna.",
+   "Jos ohjelma ei käynnisty, irrota kuivausrummun pistoke."
+  ],
+  "technician": "Jos ongelma jatkuu, tilaa Whirlpoolin huolto."
+ },
+ "Whirlpool|Loc": {
+  "title": "Painikelukitus päällä",
+  "causes": [
+   "Painikelukitus on kytketty päälle."
+  ],
+  "steps": [
+   "Kosketa Control Lock -painiketta ja pidä sitä 3 sekuntia, kunnes näytön lähtölaskenta päättyy ja lukitus poistuu."
+  ],
+  "technician": "Kyseessä ei ole vika. Ota yhteys Whirlpooliin vain, jos lukitusta ei saa pois päältä."
+ },
+ "Whirlpool|LF": {
+  "title": "Nukkasuodatin irrotettu",
+  "causes": [
+   "HybridCare-suodatin ei ole kuivausrummussa."
+  ],
+  "steps": [
+   "Aseta suodatin takaisin.",
+   "Varmista, että suodattimen kahva on kokonaan paikallaan."
+  ],
+  "technician": "Jos LF ei poistu, vaikka suodatin on paikallaan, ota yhteys Whirlpoolin huoltoon."
+ }
+}

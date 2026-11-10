@@ -154,7 +154,7 @@ export const fi: Dict = {
     popularCompare: "Suositut vertailut",
     seeAll: "Kaikki",
     errTitle: "Virhekoodit",
-    errLead: "Mitä pesukoneiden ja astianpesukoneiden virhekoodit tarkoittavat ja mitä voit turvallisesti tehdä itse.",
+    errLead: "Mitä pesukoneiden, astianpesukoneiden, kuivausrumpujen, jääkaappien, kahvikoneiden, ilmalämpöpumppujen ja kaasukattiloiden virhekoodit tarkoittavat ja mitä voit turvallisesti tehdä itse.",
     errBrandTitle: "{brand} {appliance}: virhekoodit",
     errCodeTitle: "{brand} {appliance} virhe {code}",
     errCauses: "Mahdolliset syyt",

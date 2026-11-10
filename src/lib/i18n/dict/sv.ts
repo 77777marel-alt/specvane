@@ -154,7 +154,7 @@ export const sv: Dict = {
     popularCompare: "Populära jämförelser",
     seeAll: "Alla",
     errTitle: "Felkoder",
-    errLead: "Vad felkoder på tvättmaskiner och diskmaskiner betyder och vad du säkert kan göra själv.",
+    errLead: "Vad felkoder på tvättmaskiner, diskmaskiner, torktumlare, kylskåp, kaffemaskiner, luftkonditionering och gaspannor betyder – och vad du själv kan göra på ett säkert sätt.",
     errBrandTitle: "{brand} {appliance}: felkoder",
     errCodeTitle: "{brand} {appliance} fel {code}",
     errCauses: "Möjliga orsaker",

@@ -16,7 +16,7 @@ import { CategoryView } from '@/components/views/CategoryView'
 import { BestView } from '@/components/views/BestView'
 import { getCategories } from '@/lib/data'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
-import { costInput } from '@/lib/costs'
+import { costInput, defaultTariff } from '@/lib/costs'
 import { ComparePicker } from '@/components/compare/ComparePicker'
 import { APPLIANCES, errorBrands, errorCode, errorCodes, hasErrors, ERROR_LANGS, slugify, isAppliance, applianceName, type Appliance } from '@/lib/errors'
 import { ErrorsBrand, ErrorsCode, ErrorsIndex } from '@/components/views/ErrorsView'
@@ -267,9 +267,11 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{tx.title}</h1>
         <p className="mt-2 max-w-2xl text-muted">{tx.lead}</p>
         <section className="mt-6 max-w-3xl rounded-2xl border border-border p-4 md:p-6">
-          <ToolCalc tool={tool.key} t={tt} lang={lang} imperialDefault={lang === 'en'} />
+          <ToolCalc tool={tool.key} t={tt} lang={lang} imperialDefault={lang === 'en'} {...defaultTariff(lang)} />
         </section>
-        {cat && <p className="mt-4"><a href={`/${lang}/${cat.slug}`} className="font-medium text-accent hover:underline">{tx.cta}: {cat.name} →</a></p>}
+        {tool.key === 'ac' || tool.key === 'boiler'
+          ? <p className="mt-4"><a href={sectionHref(lang, 'errors', cat?.slug ?? applianceName(lang, tool.cat as Appliance).slug)} className="font-medium text-accent hover:underline">{tx.cta} →</a></p>
+          : cat && <p className="mt-4"><a href={`/${lang}/${cat.slug}`} className="font-medium text-accent hover:underline">{tx.cta}: {cat.name} →</a></p>}
         <nav className="mt-10" aria-label={tt.indexTitle}>
           <h2 className="mb-3 font-semibold">{tt.indexTitle}</h2>
           <ul className="flex flex-wrap gap-2">

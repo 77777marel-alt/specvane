@@ -1,0 +1,1034 @@
+{
+ "Bosch|E09": {
+  "title": "Fejl i opvarmningen",
+  "causes": [
+   "En fejl i varmedelen af cirkulationspumpen (varmepumpen)."
+  ],
+  "steps": [
+   "Slå opvaskemaskinen fra ved sikringen eller HFI-/gruppeafbryderen i 30 sekunder.",
+   "Slå strømmen til igen, og start et program."
+  ],
+  "technician": "Kommer koden igen, så ring til Bosch service."
+ },
+ "Bosch|E12": {
+  "title": "Kalk på varmepumpen",
+  "causes": [
+   "Der har samlet sig kalk på varmepumpen, ofte i områder med hårdt vand."
+  ],
+  "steps": [
+   "Kør en afkalkning med et afkalkningsmiddel til opvaskemaskiner.",
+   "Hold saltbeholderen fyldt, hvis din model har blødgøringsanlæg.",
+   "Afkalk jævnligt, hvis du har hårdt vand."
+  ],
+  "technician": "Fortsætter koden efter afkalkning, så ring til Bosch service."
+ },
+ "Bosch|E14": {
+  "title": "Problem med vandpåfyldningen (flowmåler)",
+  "causes": [
+   "Flowmåleren er defekt, eller opvaskemaskinen fylder ikke vand korrekt på."
+  ],
+  "steps": [
+   "Tjek, at vandhanen under vasken er helt åben.",
+   "Slå strømmen fra ved afbryderen i 30 sekunder, og prøv igen."
+  ],
+  "technician": "Bosch anbefaler at kontakte service ved denne kode."
+ },
+ "Bosch|E15": {
+  "title": "Vand i bundkarret (lækagebeskyttelse aktiveret)",
+  "causes": [
+   "Der har samlet sig vand i bunden af opvaskemaskinen.",
+   "En lækage fra en slange, en pakning eller en intern del.",
+   "For meget skum, fx fra opvaskemiddel til håndopvask."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud.",
+   "Luk vandhanen til opvaskemaskinen.",
+   "Tør vand op fra gulvet."
+  ],
+  "technician": "Bosch anbefaler at lukke for vandet og ringe til service. En skjult lækage skal findes og udbedres."
+ },
+ "Bosch|E16": {
+  "title": "Der kommer måske ikke vand ind",
+  "causes": [
+   "Tilløbsslangen er knækket eller beskadiget."
+  ],
+  "steps": [
+   "Tjek, at tilløbsslangen ikke er bøjet, klemt eller beskadiget.",
+   "Sørg for, at vandhanen er åben."
+  ],
+  "technician": "Fortsætter koden, så ring til Bosch service."
+ },
+ "Bosch|E17": {
+  "title": "Der kommer måske ikke vand ind",
+  "causes": [
+   "Tilløbsslangen er knækket eller beskadiget."
+  ],
+  "steps": [
+   "Tjek, at tilløbsslangen ikke er bøjet, klemt eller beskadiget.",
+   "Sørg for, at vandhanen er åben."
+  ],
+  "technician": "Fortsætter koden, så ring til Bosch service."
+ },
+ "Bosch|E18": {
+  "title": "For lavt vandniveau",
+  "causes": [
+   "Vandhanen er lukket eller delvist lukket.",
+   "Tilløbsslangen er knækket.",
+   "Lav vandgennemstrømning."
+  ],
+  "steps": [
+   "Sørg for, at der er åbnet helt for vandet.",
+   "Tjek tilløbsslangen for knæk eller skader.",
+   "Tjek gennemstrømningen: hanen bør give cirka 10 liter i minuttet."
+  ],
+  "technician": "Er forsyningen i orden, og kommer koden igen, så ring til Bosch service."
+ },
+ "Bosch|E19": {
+  "title": "Fejl i kredsløbet til doseringsenheden",
+  "causes": [
+   "En elektrisk fejl i kredsløbet til doseringsenheden for opvaskemiddel."
+  ],
+  "steps": [
+   "Slå strømmen fra ved afbryderen i 30 sekunder, og slå den til igen."
+  ],
+  "technician": "Kommer koden igen, så ring til Bosch service."
+ },
+ "Bosch|E22": {
+  "title": "Filteret er stoppet",
+  "causes": [
+   "Madrester blokerer filteret."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen.",
+   "Tag underkurven ud, og løft filteret op.",
+   "Skyl filteret under rindende vand med en blød børste og mild sæbe.",
+   "Sæt filteret på plads igen, til det låser fast."
+  ],
+  "technician": "Normalt ikke nødvendigt. Bliver koden ved efter rengøring, så ring til Bosch service."
+ },
+ "Bosch|E23": {
+  "title": "Afløbspumpen er stoppet eller defekt",
+  "causes": [
+   "Afløbspumpen er tilstoppet eller defekt."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud.",
+   "Rengør filteret, og tjek for løse rester i bundkarret."
+  ],
+  "technician": "Bosch anbefaler at ringe til service ved denne kode."
+ },
+ "Bosch|E24": {
+  "title": "Vandet løber ikke ud – afløbsslange eller filter er stoppet",
+  "causes": [
+   "Afløbsslangen er knækket eller stoppet.",
+   "Filteret er stoppet.",
+   "En ny affaldskværn eller vandlås har stadig blindproppen i."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud.",
+   "Tjek afløbsslangen for knæk.",
+   "Rengør filtrene, og sørg for, at pumpedækslet under filteret sidder på.",
+   "Er opvaskemaskinen tilsluttet en affaldskværn eller en ny vandlås, så tjek, at blindproppen er fjernet."
+  ],
+  "technician": "Løber vandet stadig ikke ud, så ring til Bosch service."
+ },
+ "Bosch|E25": {
+  "title": "Afløbspumpen er blokeret, eller pumpedækslet sidder løst",
+  "causes": [
+   "Glasskår, kerner eller andre rester blokerer afløbspumpen.",
+   "Pumpedækslet sidder løst eller mangler."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud.",
+   "Tag underkurven og filtrene ud.",
+   "Øs stående vand op med en kop eller en svamp.",
+   "Klik det hvide pumpedæksel af (en ske kan hjælpe), og fjern resterne. Pas på skarpe glasskår.",
+   "Sæt dækslet på igen, til det klikker, og sæt filtrene på plads."
+  ],
+  "technician": "Kommer koden igen efter rengøring, så ring til Bosch service."
+ },
+ "Bosch|E27": {
+  "title": "For lav netspænding",
+  "causes": [
+   "Spændingen i boligens strømforsyning er for lav. Selve opvaskemaskinen er ikke defekt."
+  ],
+  "steps": [
+   "Slå strømmen fra ved afbryderen i 30 sekunder, og slå den til igen."
+  ],
+  "technician": "Sker det igen, så få en elektriker til at tjekke forsyningsspændingen."
+ },
+ "Siemens|E08": {
+  "title": "For lavt vandniveau under opvasken",
+  "causes": [
+   "Skåle eller gryder er væltet og holder på vand.",
+   "Service blokerer for vandindtaget."
+  ],
+  "steps": [
+   "Tjek indholdet, og vend skåle og gryder med bunden i vejret.",
+   "Sørg for, at intet blokerer spulearmene eller vandindtaget."
+  ],
+  "technician": "Sker det igen, så kontakt Siemens service."
+ },
+ "Siemens|E09": {
+  "title": "Fejl i varmesystemet",
+  "causes": [
+   "En fejl i varmesystemet."
+  ],
+  "steps": [
+   "Sluk, vent et par minutter, og tænd igen."
+  ],
+  "technician": "Kontakt Siemens service, og oplys koden."
+ },
+ "Siemens|E12": {
+  "title": "Varmelegemet er dækket af kalk eller snavs",
+  "causes": [
+   "Kalk eller snavs på varmelegemet."
+  ],
+  "steps": [
+   "Kør en afkalkning som beskrevet i brugsanvisningen.",
+   "Rengør filtrene."
+  ],
+  "technician": "Fortsætter koden efter afkalkning, så kontakt Siemens service."
+ },
+ "Siemens|E14": {
+  "title": "Fejl i vandpåfyldningen – vandbeskyttelse aktiv",
+  "causes": [
+   "Et problem med vandforsyningen eller påfyldningssystemet."
+  ],
+  "steps": [
+   "Tjek, at vandhanen er åben.",
+   "Tjek, at tilløbsslangen ikke er knækket."
+  ],
+  "technician": "Sker det igen, så kontakt Siemens service."
+ },
+ "Siemens|E15": {
+  "title": "Vand i bunden (vandbeskyttelse aktiveret)",
+  "causes": [
+   "Der har samlet sig vand i bundbakken på opvaskemaskinen."
+  ],
+  "steps": [
+   "Luk vandhanen.",
+   "Sluk opvaskemaskinen.",
+   "Tør vand op fra gulvet."
+  ],
+  "technician": "Siemens fraråder at reparere dette selv. Ring til Siemens service."
+ },
+ "Siemens|E16": {
+  "title": "Fejl i påfyldning eller vandtilløb",
+  "causes": [
+   "Et problem med påfyldningssystemet eller vandtilløbet."
+  ],
+  "steps": [
+   "Luk hanen.",
+   "Tjek tilløbsslangen for knæk, og åbn derefter hanen igen."
+  ],
+  "technician": "Sker det ofte, skal apparatet tjekkes af en tekniker. Kontakt Siemens service."
+ },
+ "Siemens|E18": {
+  "title": "Fejl i vandtilløbet",
+  "causes": [
+   "Tilløbsslangen er bøjet.",
+   "Hanen er lukket, sidder fast eller er tilkalket.",
+   "Tilløbsfilteret er stoppet."
+  ],
+  "steps": [
+   "Sørg for, at hanen er helt åben.",
+   "Tjek tilløbsslangen for knæk.",
+   "Sluk, luk hanen, tag slangen af, og rengør filteret. Sæt den på igen, og tjek for utætheder."
+  ],
+  "technician": "Er vandgennemstrømningen lav, så ring til en VVS-installatør. Sker det igen, så kontakt Siemens service."
+ },
+ "Siemens|E22": {
+  "title": "Filtrene er snavsede eller stoppede",
+  "causes": [
+   "Madrester tilstopper filtersystemet."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen.",
+   "Tag filtrene ud, og skyl dem rene.",
+   "Sæt filtrene korrekt på plads igen."
+  ],
+  "technician": "Normalt ikke nødvendigt."
+ },
+ "Siemens|E23": {
+  "title": "Fejl i afløbspumpen",
+  "causes": [
+   "En fejl i spildevandspumpen."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud."
+  ],
+  "technician": "Ifølge Siemens kan kun deres service rette dette. Kontakt dem, og oplys koden."
+ },
+ "Siemens|E24": {
+  "title": "Vandet løber ikke ud – sandsynligvis stoppet pumpe eller slange",
+  "causes": [
+   "Afløbspumpen eller afløbsvejen er stoppet."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud.",
+   "Rengør filtrene, og tjek for rester ved pumpen.",
+   "Tjek, at afløbsslangen ikke er knækket."
+  ],
+  "technician": "Fortsætter problemet, så luk hanen, og ring til Siemens service."
+ },
+ "Siemens|E25": {
+  "title": "Afløbspumpen er blokeret",
+  "causes": [
+   "Rester som glasskår eller kerner blokerer afløbspumpen."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud.",
+   "Tag filtrene ud, og øs stående vand op.",
+   "Tag pumpedækslet af, og fjern forsigtigt resterne – pas på skarpe glasskår.",
+   "Sæt dækslet og filtrene på plads igen."
+  ],
+  "technician": "Fortsætter problemet, så luk hanen, og ring til Siemens service."
+ },
+ "Siemens|E27": {
+  "title": "Lav netspænding",
+  "causes": [
+   "Forsyningsspændingen er for lav. Selve apparatet er ikke defekt."
+  ],
+  "steps": [
+   "Sluk, og tænd igen senere."
+  ],
+  "technician": "Få en elektriker til at tjekke forsyningen. Sker det igen, så kontakt Siemens service."
+ },
+ "Samsung|4C": {
+  "title": "Der kommer lidt eller intet vand ind",
+  "causes": [
+   "Vandventilen er lukket.",
+   "Vandforsyningen er afbrudt.",
+   "Tilløbsslangen eller ventilen er frosset eller stoppet."
+  ],
+  "steps": [
+   "Tjek, at vandventilen er helt åben.",
+   "Tjek, om der er vand i de andre haner.",
+   "Tjek, at tilløbsslangen ikke er knækket eller stoppet."
+  ],
+  "technician": "Kommer der stadig ikke vand ind, så kontakt Samsung service."
+ },
+ "Samsung|5C": {
+  "title": "Vandet løber ikke ud",
+  "causes": [
+   "Afløbet eller tilslutningen til vasken er stoppet.",
+   "Filteret er stoppet.",
+   "Afløbsslangen er knækket."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud.",
+   "Rengør netfilteret i bunden.",
+   "Tjek afløbsslangen og tilslutningen til vasken for knæk eller tilstopning."
+  ],
+  "technician": "Løber vandet stadig ikke ud, så kontakt Samsung service."
+ },
+ "Samsung|5C2": {
+  "title": "Afløbspumpen går i stå",
+  "causes": [
+   "Rester blokerer afløbspumpen."
+  ],
+  "steps": [
+   "Annullér programmet for at tømme vandet ud.",
+   "Sluk opvaskemaskinen, og tag stikket ud.",
+   "Tag den nederste kurv og filteret ud, og tjek bundkarret for rester."
+  ],
+  "technician": "Går pumpen stadig i stå, så kontakt Samsung service."
+ },
+ "Samsung|LC": {
+  "title": "Lækage registreret",
+  "causes": [
+   "Der lækker vand rundt om lågen eller ned i bunden.",
+   "Der er brugt opvaskemiddel til håndopvask i stedet for maskinopvaskemiddel.",
+   "Vasken eller affaldskværnen løber tilbage."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen.",
+   "Brug kun opvaskemiddel til opvaskemaskiner.",
+   "Rengør lågepakningen og lågens nederste kant.",
+   "Tjek, om der er vand under opvaskemaskinen, og tør det op.",
+   "Tjek, at afløbet i vasken ikke løber tilbage."
+  ],
+  "technician": "Bliver det ved med at lække, så luk for vandforsyningen, og kontakt Samsung service."
+ },
+ "Samsung|OC": {
+  "title": "Overfyldning eller for meget skum",
+  "causes": [
+   "For meget skum fra vaskemidlet.",
+   "Et stoppet filter.",
+   "Afløbsslangen er knækket."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen.",
+   "Tjek, at du bruger det rigtige opvaskemiddel og den rigtige mængde.",
+   "Rengør filteret, og fjern stående vand fra bunden.",
+   "Tjek afløbsslangen for knæk."
+  ],
+  "technician": "Bliver opvaskemaskinen ved med at fylde vand på, så luk for vandforsyningen, og kontakt Samsung service."
+ },
+ "Samsung|HC": {
+  "title": "Problem med opvarmningen (for varmt)",
+  "causes": [
+   "Tilløbsvandet er meget varmt.",
+   "Filtrene er snavsede, så vandet cirkulerer dårligt."
+  ],
+  "steps": [
+   "Sluk i mindst 5 minutter.",
+   "Rengør filtrene.",
+   "Kør et normalt program med tom opvaskemaskine og opvaskemiddel."
+  ],
+  "technician": "Kommer koden igen, så kontakt Samsung service."
+ },
+ "Samsung|tC": {
+  "title": "Problem med temperatursensoren",
+  "causes": [
+   "Opvaskemaskinen registrerede en fejl i temperaturmålingen."
+  ],
+  "steps": [
+   "Sluk ved stikkontakten eller afbryderen i mindst 5 minutter.",
+   "Tænd, og kør et Normal-program."
+  ],
+  "technician": "Kommer koden igen, så kontakt Samsung service."
+ },
+ "Samsung|DC": {
+  "title": "Lågen er ikke lukket",
+  "causes": [
+   "Lågen er ikke gået i lås.",
+   "Et redskab eller en tallerken stikker ud og blokerer lågen."
+  ],
+  "steps": [
+   "Skub ting, der stikker ud, på plads.",
+   "Rengør området ved lågens lås.",
+   "Luk lågen godt.",
+   "Sluk i 30 sekunder, og tænd igen."
+  ],
+  "technician": "Går lågen ikke i lås, så kontakt Samsung service."
+ },
+ "Samsung|3C": {
+  "title": "Vaskepumpen kører ikke",
+  "causes": [
+   "Opvaskemaskinen fylder vand på, men vaskemotoren starter ikke."
+  ],
+  "steps": [
+   "Sluk i et minut, og prøv igen."
+  ],
+  "technician": "Spuler den stadig ikke, så kontakt Samsung service."
+ },
+ "Samsung|PC": {
+  "title": "Starter ikke med Zone Wash eller Half Load",
+  "causes": [
+   "En fejl forbundet med funktionen Zone Wash eller Half Load."
+  ],
+  "steps": [
+   "Sluk i mindst 30 sekunder.",
+   "Slå Zone Wash eller Half Load fra, og kør et Normal-program."
+  ],
+  "technician": "Kommer koden igen, så kontakt Samsung service."
+ },
+ "Samsung|9C1": {
+  "title": "Spændingsbeskyttelse",
+  "causes": [
+   "Et strømblink, en spændingsspids eller en udløst afbryder."
+  ],
+  "steps": [
+   "Tjek stik og stikkontakt.",
+   "Sluk ved stikkontakten eller afbryderen i mindst 1 minut, og prøv igen.",
+   "Brug en separat stikkontakt uden forlængerledning eller adapter."
+  ],
+  "technician": "Sker det igen og igen, så få en elektriker til at tjekke forsyningen."
+ },
+ "Samsung|AC": {
+  "title": "Tænder, men kører ikke",
+  "causes": [
+   "En intern fejl i styringen."
+  ],
+  "steps": [
+   "Sluk ved stikkontakten eller afbryderen.",
+   "Vent 1 minut, tænd, og prøv igen."
+  ],
+  "technician": "Kommer koden igen, så kontakt Samsung service."
+ },
+ "Samsung|6C1": {
+  "title": "Problem med doseringsenheden",
+  "causes": [
+   "Motoren i doseringsenheden virker ikke normalt.",
+   "En tablet sidder fast i doseringsenheden."
+  ],
+  "steps": [
+   "Tag stikket ud af opvaskemaskinen i 5 minutter.",
+   "Tjek, at der ikke sidder en tablet fast i doseringsenheden."
+  ],
+  "technician": "Kommer koden igen, så kontakt Samsung service."
+ },
+ "LG|AE": {
+  "title": "Lækage eller overfyldning registreret",
+  "causes": [
+   "Der kom for meget vand ind, eller der blev fundet en lækage.",
+   "Opvaskemiddel til håndopvask gav for meget skum.",
+   "Opvaskemaskinen står ikke vandret."
+  ],
+  "steps": [
+   "Brug kun opvaskemiddel til opvaskemaskiner.",
+   "Sæt store tallerkener og gryder i med bunden opad.",
+   "Tjek, at opvaskemaskinen står vandret."
+  ],
+  "technician": "Er der ingen lækage, men bliver koden ved, så slå strømmen fra, og bestil LG service. Træk ikke selv en indbygget maskine ud."
+ },
+ "LG|IE": {
+  "title": "Der kommer ikke nok vand ind",
+  "causes": [
+   "Vandet er afbrudt i boligen.",
+   "Tilløbsslangen er bøjet eller klemt.",
+   "Tilløbsventilen eller ventilen under vasken er lukket."
+  ],
+  "steps": [
+   "Tjek, om der er vand i de andre haner.",
+   "Ret tilløbsslangen ud, og fjern det, der trykker på den.",
+   "Åbn ventilen under vasken, især efter installation eller flytning."
+  ],
+  "technician": "Fortsætter det, så kontakt installatøren eller LG service."
+ },
+ "LG|OE": {
+  "title": "Vandet løber ikke ud",
+  "causes": [
+   "Filteret er stoppet.",
+   "Afløbsslangen er bøjet eller klemt."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og vent 30 minutter, til den er kølet af.",
+   "Tag underkurven ud, drej filteret ud, og skyl det.",
+   "Sæt filteret på plads igen, til det klikker.",
+   "Ret afløbsslangen ud."
+  ],
+  "technician": "Bliver vandet ved med at stå over filteret, så bestil LG service."
+ },
+ "LG|bE": {
+  "title": "For meget skum",
+  "causes": [
+   "Der er brugt opvaskemiddel til håndopvask.",
+   "For meget vaskemiddel."
+  ],
+  "steps": [
+   "Brug kun opvaskemiddel til opvaskemaskiner, og brug mindre.",
+   "Tør skummet op, og kør en skylning uden opvaskemiddel."
+  ],
+  "technician": "Vises bE uden skum, så bestil LG service."
+ },
+ "LG|nE": {
+  "title": "Problem med spulepumpen (Vario)",
+  "causes": [
+   "Pumpehjulet drejer ikke normalt.",
+   "Service rører ved spulesystemet."
+  ],
+  "steps": [
+   "Flyt rundt på servicet, så intet blokerer spulearmene.",
+   "Genstart programmet."
+  ],
+  "technician": "Fortsætter koden, så bestil LG service."
+ },
+ "LG|HE": {
+  "title": "Vandet bliver ikke varmt",
+  "causes": [
+   "En fejl i varmelegemet."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud."
+  ],
+  "technician": "LG anbefaler at bestille service."
+ },
+ "LG|tE": {
+  "title": "Fejl i temperatursensoren",
+  "causes": [
+   "Dårlig forbindelse eller en defekt temperatursensor."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud."
+  ],
+  "technician": "LG anbefaler at bestille service."
+ },
+ "LG|LE": {
+  "title": "Fejl i vaskemotoren",
+  "causes": [
+   "Vaskemotoren virker ikke ordentligt."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud."
+  ],
+  "technician": "LG anbefaler at bestille service."
+ },
+ "LG|PE": {
+  "title": "Fejl i vandniveausensoren (ældre modeller)",
+  "causes": [
+   "En fejl i vandniveausensoren."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud."
+  ],
+  "technician": "LG anbefaler at bestille service."
+ },
+ "LG|F37": {
+  "title": "Automatisk lågeåbning virker ikke",
+  "causes": [
+   "Noget blokerer lågen.",
+   "En fejl i delene til automatisk åbning."
+  ],
+  "steps": [
+   "Fjern det, der er tæt på lågen, og genstart."
+  ],
+  "technician": "Fortsætter det, så bestil LG service."
+ },
+ "AEG|i10": {
+  "title": "Fylder ikke vand på",
+  "causes": [
+   "Vandhanen er lukket.",
+   "Vandtrykket er for lavt.",
+   "Tilløbsslangen er knækket.",
+   "Filteret i tilløbsslangen er stoppet."
+  ],
+  "steps": [
+   "Åbn vandhanen.",
+   "Tjek tilløbsslangen for knæk eller bøjninger.",
+   "Sluk opvaskemaskinen, tag stikket ud, luk hanen, tag slangen af, og rengør dens filter.",
+   "Skru slangen fast med håndkraft, åbn hanen, og kør et program."
+  ],
+  "technician": "Fortsætter det, så kontakt et autoriseret serviceværksted."
+ },
+ "AEG|i20": {
+  "title": "Vandet løber ikke ud",
+  "causes": [
+   "Afløbsstudsen eller vandlåsen under vasken er stoppet.",
+   "Filteret eller bundkarret er stoppet.",
+   "Afløbsslangen er knækket, for lang eller monteret i forkert højde.",
+   "Blindproppen blev siddende i vandlåsen efter installationen."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud.",
+   "Rengør filteret og bundkarret.",
+   "Tjek, at afløbsslangen ikke er knækket eller snoet.",
+   "Tjek, at studsen på vandlåsen er fri (og at blindproppen er fjernet efter en ny installation).",
+   "Sæt stikket i, og kør et program."
+  ],
+  "technician": "Løber vandet stadig ikke ud, så kontakt et autoriseret serviceværksted."
+ },
+ "AEG|i30": {
+  "title": "Lækage registreret (anti-oversvømmelse)",
+  "causes": [
+   "Anti-oversvømmelsessystemet fandt vand i bunden."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud.",
+   "Luk vandhanen.",
+   "Tør vand op fra gulvet."
+  ],
+  "technician": "Bestil en reparation, så lækagen kan findes og udbedres."
+ },
+ "AEG|i40": {
+  "title": "Problem med vandniveausensoren (tryksensor)",
+  "causes": [
+   "Vandniveauet kan ikke måles korrekt."
+  ],
+  "steps": [
+   "Sluk ved stikkontakten i cirka et minut, og genstart derefter."
+  ],
+  "technician": "Kommer koden igen, så bestil en reparation."
+ },
+ "AEG|i50": {
+  "title": "Fejl i vaskemotoren eller cirkulationspumpen",
+  "causes": [
+   "En fejl i vaskemotoren, cirkulationspumpen eller deres styring."
+  ],
+  "steps": [
+   "Sluk ved stikkontakten i cirka et minut, og genstart derefter."
+  ],
+  "technician": "Kommer koden igen, så bestil en reparation."
+ },
+ "AEG|i60": {
+  "title": "Fejl i opvarmningen",
+  "causes": [
+   "Vandet bliver ikke varmt som forventet."
+  ],
+  "steps": [
+   "Sluk ved stikkontakten i cirka et minut, og genstart derefter."
+  ],
+  "technician": "Kommer koden igen, så bestil en reparation."
+ },
+ "AEG|iF0": {
+  "title": "Problem med styringen af vandniveauet",
+  "causes": [
+   "Påfyldningsniveauet er forkert eller unormalt."
+  ],
+  "steps": [
+   "Tjek, at vandhanen er helt åben.",
+   "Rengør filtrene.",
+   "Sluk ved stikkontakten i cirka et minut, og genstart derefter."
+  ],
+  "technician": "Kommer koden igen, så bestil en reparation."
+ },
+ "Hotpoint|F01": {
+  "title": "Overløb i anti-oversvømmelsessystemet",
+  "causes": [
+   "Vand i bunden har udløst anti-oversvømmelsessystemets svømmer.",
+   "En lækage eller en defekt svømmerkontakt."
+  ],
+  "steps": [
+   "Sluk og tænd opvaskemaskinen for at nulstille.",
+   "Luk vandhanen, hvis der er vand på gulvet."
+  ],
+  "technician": "Kommer det igen, så bestil en Hotpoint-tekniker."
+ },
+ "Hotpoint|F02": {
+  "title": "Fejl i påfyldningsventilen",
+  "causes": [
+   "Påfyldningsventilen lukker vand ind, når den ikke skal, eller er defekt."
+  ],
+  "steps": [
+   "Tjek, at afløbsslangen ikke ligger på gulvet.",
+   "Luk vandhanen, hvis der bliver ved med at komme vand ind."
+  ],
+  "technician": "Bestil en Hotpoint-tekniker."
+ },
+ "Hotpoint|F03": {
+  "title": "Fejl i udpumpningen / udpumpningen tog for lang tid",
+  "causes": [
+   "Afløbsslangen eller afløbet under vasken er stoppet.",
+   "Afløbspumpen er blokeret eller defekt."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud.",
+   "Rengør filtrene.",
+   "Tjek afløbsslangen og afløbet under vasken for tilstopning."
+  ],
+  "technician": "Fortsætter fejlen, så bestil en tekniker."
+ },
+ "Hotpoint|F04": {
+  "title": "Fejl i temperatursensoren",
+  "causes": [
+   "En fejl i termostaten eller temperatursensoren."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud."
+  ],
+  "technician": "Bestil en Hotpoint-tekniker."
+ },
+ "Hotpoint|F06": {
+  "title": "Påfyldningen tog for lang tid",
+  "causes": [
+   "Hanen er lukket eller delvist lukket.",
+   "Lavt vandtryk.",
+   "Tilløbsslangen er knækket, eller dens filter er stoppet."
+  ],
+  "steps": [
+   "Sørg for, at hanen er helt åben.",
+   "Tjek, at tilløbsslangen ikke er knækket eller klemt.",
+   "Tjek, at vandtrykket er normalt."
+  ],
+  "technician": "Fortsætter fejlen, så bestil en tekniker."
+ },
+ "Hotpoint|F08": {
+  "title": "Vandet var for længe om at blive varmt",
+  "causes": [
+   "Kalk, for meget skum, forkert indstilling af vandets hårdhed eller en fejl i opvarmningen."
+  ],
+  "steps": [
+   "Tjek indstillingen af vandets hårdhed.",
+   "Brug den rigtige mængde opvaskemiddel."
+  ],
+  "technician": "Bestil en Hotpoint-tekniker."
+ },
+ "Hotpoint|F10": {
+  "title": "Fejl i varmelegemet",
+  "causes": [
+   "Varmekredsløbet er afbrudt, eller varmelegemet er defekt."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud."
+  ],
+  "technician": "Bestil en Hotpoint-tekniker."
+ },
+ "Hotpoint|F11": {
+  "title": "Fejl i vaskepumpen",
+  "causes": [
+   "Vaskepumpen er defekt, har sat sig fast eller er blokeret af rester."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud.",
+   "Rengør filtrene."
+  ],
+  "technician": "Bestil en Hotpoint-tekniker."
+ },
+ "Hotpoint|F12": {
+  "title": "Hovedprintet og displayet kommunikerer ikke",
+  "causes": [
+   "En fejl i ledningerne eller displayet."
+  ],
+  "steps": [
+   "Tag stikket ud af opvaskemaskinen i 2 minutter, sæt det i igen, og test."
+  ],
+  "technician": "Fortsætter det, så bestil en tekniker."
+ },
+ "Hotpoint|F13": {
+  "title": "Fejl i hovedprintet",
+  "causes": [
+   "Hovedprintet er defekt."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud."
+  ],
+  "technician": "Bestil en Hotpoint-tekniker."
+ },
+ "Indesit|F01": {
+  "title": "Overløb i anti-oversvømmelsessystemet",
+  "causes": [
+   "Vand i bunden har udløst anti-oversvømmelsessystemet."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud.",
+   "Luk vandhanen, og tør vand op."
+  ],
+  "technician": "Bestil en Indesit-tekniker."
+ },
+ "Indesit|F02": {
+  "title": "Fejl i påfyldningsventilen",
+  "causes": [
+   "Påfyldningsventilen er defekt."
+  ],
+  "steps": [
+   "Luk vandhanen, hvis der bliver ved med at komme vand ind.",
+   "Sluk opvaskemaskinen, og tag stikket ud."
+  ],
+  "technician": "Bestil en Indesit-tekniker."
+ },
+ "Indesit|F03": {
+  "title": "Fejl i udpumpningen / udpumpningen tog for lang tid",
+  "causes": [
+   "En tilstopning i afløbsslangen eller afløbet under vasken."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud.",
+   "Rengør filtrene.",
+   "Tjek afløbsslangen og afløbet under vasken for tilstopning."
+  ],
+  "technician": "Fortsætter fejlen, så bestil en tekniker."
+ },
+ "Indesit|F04": {
+  "title": "Fejl i temperatursensoren",
+  "causes": [
+   "En fejl i termostaten eller temperatursensoren."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud."
+  ],
+  "technician": "Bestil en Indesit-tekniker."
+ },
+ "Indesit|F06": {
+  "title": "Påfyldningen tog for lang tid",
+  "causes": [
+   "Hanen er ikke helt åben.",
+   "Lavt vandtryk.",
+   "Tilløbsslangen er begrænset."
+  ],
+  "steps": [
+   "Sørg for, at hanen er helt åben.",
+   "Tjek, at tilløbsslangen ikke er knækket eller klemt.",
+   "Tjek, at vandtrykket er normalt."
+  ],
+  "technician": "Fortsætter fejlen, så bestil en tekniker."
+ },
+ "Indesit|F08": {
+  "title": "Vandet var for længe om at blive varmt",
+  "causes": [
+   "Temperaturen blev ikke nået i tide."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud."
+  ],
+  "technician": "Bestil en Indesit-tekniker."
+ },
+ "Indesit|F10": {
+  "title": "Fejl i varmelegemet",
+  "causes": [
+   "En fejl i varmelegemet."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud."
+  ],
+  "technician": "Bestil en Indesit-tekniker."
+ },
+ "Indesit|F11": {
+  "title": "Fejl i vaskepumpen",
+  "causes": [
+   "Vaskepumpen er defekt."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud."
+  ],
+  "technician": "Bestil en Indesit-tekniker."
+ },
+ "Indesit|F12": {
+  "title": "Hovedprintet og displayet kommunikerer ikke",
+  "causes": [
+   "En kommunikationsfejl mellem printkortene."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud."
+  ],
+  "technician": "Bestil en Indesit-tekniker."
+ },
+ "Indesit|F13": {
+  "title": "Fejl i hovedprintet",
+  "causes": [
+   "Hovedprintet er defekt."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud."
+  ],
+  "technician": "Bestil en Indesit-tekniker."
+ },
+ "Beko|E:01": {
+  "title": "Vandoverløb eller lækage",
+  "causes": [
+   "Der kommer for meget vand ind i opvaskemaskinen.",
+   "En lækage inde i maskinen."
+  ],
+  "steps": [
+   "Lad opvaskemaskinen gennemføre sin sikkerhedsudpumpning.",
+   "Forsvinder koden, skal du ikke gøre mere.",
+   "Bliver den ved, så sluk, tag stikket ud, og luk vandhanen."
+  ],
+  "technician": "Bliver E:01 stående, er fejlen permanent. Ring til Beko service."
+ },
+ "Beko|E:02": {
+  "title": "Vandforsyningen er afbrudt",
+  "causes": [
+   "Der er lukket for vandet.",
+   "Tilløbshanen er lukket."
+  ],
+  "steps": [
+   "Sørg for, at vandhanen er åben.",
+   "Programmet venter og tjekker, om der er vand. Det fortsætter, når vandet løber."
+  ],
+  "technician": "Er der åbnet for vandet, og bliver koden ved, så ring til Beko service."
+ },
+ "Miele|F11": {
+  "title": "Vandet pumpes ikke ud",
+  "causes": [
+   "Kontraventilen eller pumpedækslet er ikke monteret korrekt.",
+   "Afløbspumpen er blokeret af rester."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og tag stikket ud.",
+   "Tag den nederste spulearm (hvis den findes) og filterkombinationen ud.",
+   "Øs stående vand op med en lille kop.",
+   "Tag pumpedækslet / kontraventilen af, skyl den, og fjern resterne. Pas på glassplinter.",
+   "Tjek, at pumpehjulet kan drejes med hånden, sæt dækslet på, til det klikker, og sæt filtrene på plads igen."
+  ],
+  "technician": "Fortsætter F11, så kontakt Miele service."
+ },
+ "Miele|F12": {
+  "title": "Vandtilløbet er stoppet eller begrænset",
+  "causes": [
+   "Stophanen er ikke åben.",
+   "Tilløbsfilteret er snavset.",
+   "Tilløbsslangen er knækket.",
+   "Vandtrykket er under 0,5 bar."
+  ],
+  "steps": [
+   "Åbn stophanen helt.",
+   "Sluk, tag stikket ud, luk stophanen, skru tilløbsventilen af, og rengør det lille filter. Kom aldrig ventilhuset i vand – det indeholder en elektrisk del.",
+   "Sæt filter og ventil på igen, åbn stophanen langsomt, og tjek for dryp.",
+   "Ret eventuelle knæk på slangen ud."
+  ],
+  "technician": "Er trykket for lavt, så ring til en VVS-installatør. Fortsætter fejlen, så kontakt Miele service."
+ },
+ "Miele|F13": {
+  "title": "Vandtilløbet er stoppet eller begrænset",
+  "causes": [
+   "Stophanen er lukket.",
+   "Tilløbsfilteret er snavset.",
+   "Tilløbsslangen er knækket.",
+   "Vandtrykket er under 0,5 bar."
+  ],
+  "steps": [
+   "Åbn stophanen helt.",
+   "Sluk, tag stikket ud, luk stophanen, og rengør tilløbsfilteret. Dyp ikke ventilhuset i vand.",
+   "Montér igen, åbn stophanen langsomt, og tjek for utætheder.",
+   "Ret eventuelle knæk på slangen ud."
+  ],
+  "technician": "Er trykket for lavt, så ring til en VVS-installatør. Fortsætter fejlen, så kontakt Miele service."
+ },
+ "Miele|F14": {
+  "title": "Fejl i cirkulationspumpen eller vandindtaget",
+  "causes": [
+   "Cirkulationspumpen er tørret ud og har sat sig fast efter en lang pause.",
+   "En teknisk fejl i en niveaukontakt."
+  ],
+  "steps": [
+   "Tag den nederste spulearm og filterkombinationen ud.",
+   "Hæld 1 liter varmt vand (maks. 75 °C) med et par dråber afspændingsmiddel i, og vent 5 minutter.",
+   "Sæt filtre og spulearm på plads igen, og genstart. Gentag 2–3 gange om nødvendigt.",
+   "Ellers sluk, vent et par sekunder, tænd, og genstart."
+  ],
+  "technician": "Fortsætter F14, så kontakt Miele service."
+ },
+ "Miele|F15": {
+  "title": "Vandtilløbet er stoppet eller begrænset",
+  "causes": [
+   "Stophanen er lukket.",
+   "Tilløbsfilteret er snavset.",
+   "Tilløbsslangen er knækket.",
+   "Vandtrykket er under 0,5 bar."
+  ],
+  "steps": [
+   "Åbn stophanen helt.",
+   "Sluk, tag stikket ud, luk stophanen, og rengør tilløbsfilteret. Dyp ikke ventilhuset i vand.",
+   "Montér igen, åbn stophanen langsomt, og tjek for utætheder.",
+   "Ret eventuelle knæk på slangen ud."
+  ],
+  "technician": "Er trykket for lavt, så ring til en VVS-installatør. Fortsætter fejlen, så kontakt Miele service."
+ },
+ "Miele|F18": {
+  "title": "Vandindtagsventilen er defekt",
+  "causes": [
+   "Vandindtagsventilen er gået i stykker."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen, og luk stophanen."
+  ],
+  "technician": "Ifølge Miele kan du ikke selv rette dette. Bestil en Miele-tekniker."
+ },
+ "Miele|F24": {
+  "title": "Fejl i varmerelæet",
+  "causes": [
+   "En kontaktfejl i varmerelæet."
+  ],
+  "steps": [
+   "Sluk opvaskemaskinen."
+  ],
+  "technician": "Ifølge Miele kan du ikke selv rette dette. Bestil en Miele-tekniker."
+ },
+ "Miele|F70": {
+  "title": "Waterproof-systemet (lækagebeskyttelse) er aktiveret",
+  "causes": [
+   "Lækagebeskyttelsen er udløst. Programmet stopper, og afløbspumpen kører."
+  ],
+  "steps": [
+   "Luk stophanen.",
+   "Sluk opvaskemaskinen, og tag stikket ud.",
+   "Vent, til afløbspumpen stopper."
+  ],
+  "technician": "Kontakt Miele service, så årsagen kan findes og udbedres."
+ },
+ "Miele|F78": {
+  "title": "Cirkulationspumpen er blokeret",
+  "causes": [
+   "Pumpen er tørret ud og har sat sig fast efter uger eller måneder uden brug eller ved første brug.",
+   "Sjældnere en teknisk fejl."
+  ],
+  "steps": [
+   "Tag den nederste spulearm og filterkombinationen ud.",
+   "Hæld 1 liter varmt vand (maks. 75 °C) med 3–5 dråber afspændingsmiddel i, og vent 5 minutter.",
+   "Sæt filtrene fladt på plads og spulearmen på igen, og genstart. Gentag 2–3 gange om nødvendigt."
+  ],
+  "technician": "Fortsætter F78, så kontakt Miele service."
+ }
+}

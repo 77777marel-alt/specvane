@@ -1,0 +1,1167 @@
+{
+ "Bosch|E16": {
+  "title": "Ușa nu este închisă",
+  "causes": [
+   "Ușa nu este închisă complet.",
+   "Rufele sunt prinse între ușă și garnitură."
+  ],
+  "steps": [
+   "Deschideți ușa și verificați dacă garnitura de cauciuc are haine prinse.",
+   "Închideți ușa ferm, până se aude un clic.",
+   "Porniți din nou programul."
+  ],
+  "technician": "Dacă codul rămâne și cu ușa bine închisă, încuietoarea ușii poate fi defectă. Programați o vizită de service Bosch."
+ },
+ "Bosch|E17": {
+  "title": "Alimentarea cu apă a durat prea mult",
+  "causes": [
+   "Robinetul de apă este închis sau doar parțial deschis.",
+   "Furtunul de alimentare este îndoit.",
+   "Presiunea apei în locuință este scăzută."
+  ],
+  "steps": [
+   "Verificați dacă robinetul care alimentează mașina este deschis complet.",
+   "Asigurați-vă că furtunul de alimentare nu este îndoit sau strivit.",
+   "Reporniți programul."
+  ],
+  "technician": "Dacă robinetul este deschis și codul revine, sunați la service-ul Bosch. Este posibil ca electrovalva de alimentare sau furtunul AquaStop să trebuiască verificate."
+ },
+ "Bosch|E18": {
+  "title": "Apa nu se evacuează",
+  "causes": [
+   "Pompa de evacuare sau filtrul pompei este înfundat.",
+   "Furtunul de evacuare este îndoit sau înfundat.",
+   "Obiecte mici (monede, nasturi) sunt blocate în pompă."
+  ],
+  "steps": [
+   "Opriți mașina, scoateți-o din priză și închideți robinetul de apă.",
+   "Lăsați apa fierbinte să se răcească înainte de a începe.",
+   "Puneți un recipient plat și prosoape sub capacul pompei, evacuați apa prin furtunul de golire de urgență, apoi curățați filtrul pompei.",
+   "Verificați dacă furtunul de evacuare este îndoit sau înfundat și îndreptați-l.",
+   "Montați la loc ferm filtrul, conectați mașina la priză și porniți un program de evacuare sau de centrifugare."
+  ],
+  "technician": "Dacă apa tot nu se evacuează după curățarea filtrului și a furtunului, pompa de evacuare este probabil defectă. Sunați un tehnician."
+ },
+ "Bosch|E19": {
+  "title": "Încălzirea apei a durat prea mult",
+  "causes": [
+   "Mașina nu a atins temperatura de spălare setată în timpul permis.",
+   "De obicei, o defecțiune a sistemului de încălzire."
+  ],
+  "steps": [
+   "Opriți și reporniți mașina, apoi porniți din nou programul."
+  ],
+  "technician": "Bosch precizează că această defecțiune nu poate fi remediată de utilizator. Programați o vizită de service dacă reapare."
+ },
+ "Bosch|E20": {
+  "title": "Încălzirea a pornit când nu trebuia",
+  "causes": [
+   "Mașina a detectat încălzire într-un moment neașteptat.",
+   "O defecțiune electronică sau a controlului încălzirii."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză pentru scurt timp.",
+   "Conectați-o din nou la priză și reporniți programul."
+  ],
+  "technician": "Dacă codul revine, nu mai folosiți mașina și sunați la service-ul Bosch."
+ },
+ "Bosch|E23": {
+  "title": "Protecția anti-scurgere AquaStop s-a declanșat",
+  "causes": [
+   "S-a adunat apă în baza mașinii.",
+   "O scurgere în interiorul mașinii sau la furtunul AquaStop."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză.",
+   "Închideți robinetul de apă.",
+   "Ștergeți apa de pe podea."
+  ],
+  "technician": "Bosch precizează că aceasta nu poate fi remediată de utilizator. Țineți robinetul închis și programați o vizită de service."
+ },
+ "Bosch|E25": {
+  "title": "Defecțiune la senzorul de turbiditate (limpezimea apei)",
+  "causes": [
+   "Senzorul care verifică cât de murdară este apa are o problemă."
+  ],
+  "steps": [
+   "Opriți și reporniți mașina, apoi porniți din nou programul."
+  ],
+  "technician": "Dacă codul revine, sunați la service-ul Bosch pentru verificarea senzorului."
+ },
+ "Bosch|E26": {
+  "title": "Defecțiune la senzorul de nivel al apei (presostat)",
+  "causes": [
+   "Senzorul analogic de presiune care măsoară nivelul apei din cuvă este defect."
+  ],
+  "steps": [
+   "Opriți și reporniți mașina, apoi porniți din nou programul."
+  ],
+  "technician": "Bosch precizează că această defecțiune necesită o vizită de service."
+ },
+ "Bosch|F27": {
+  "title": "Defecțiune la senzorul de presiune",
+  "causes": [
+   "Senzorul de presiune nu funcționează corect."
+  ],
+  "steps": [
+   "Opriți și reporniți mașina, apoi porniți din nou programul."
+  ],
+  "technician": "Dacă codul revine, sunați la service-ul Bosch."
+ },
+ "Bosch|E28": {
+  "title": "Defecțiune la senzorul de debit al apei",
+  "causes": [
+   "Senzorul care măsoară apa care intră semnalează o problemă."
+  ],
+  "steps": [
+   "Verificați dacă robinetul de apă este deschis complet.",
+   "Opriți și reporniți mașina, apoi porniți din nou programul."
+  ],
+  "technician": "Dacă codul revine, sunați la service-ul Bosch."
+ },
+ "Samsung|4C": {
+  "title": "Nu intră apă",
+  "causes": [
+   "Robinetul de apă este închis.",
+   "Furtunul de alimentare este înfundat, îndoit sau înghețat.",
+   "Presiunea apei este prea mică.",
+   "Furtunurile de apă caldă și rece sunt conectate la robinete greșite.",
+   "Filtrul-sită de la intrarea furtunului este murdar."
+  ],
+  "steps": [
+   "Deschideți complet robinetul de apă.",
+   "Verificați dacă furtunul de alimentare este îndoit, înfundat sau înghețat.",
+   "Verificați dacă furtunurile de apă caldă și rece sunt conectate la robinetele corecte.",
+   "Închideți robinetul, deșurubați furtunul și curățați filtrul-sită mic, apoi montați-l la loc.",
+   "Așteptați 3 minute (butoanele sunt blocate după acest cod), apoi reporniți."
+  ],
+  "technician": "Dacă apa tot nu intră cu robinetul deschis și filtrul curat, contactați service-ul Samsung."
+ },
+ "Samsung|4C2": {
+  "title": "Apa de alimentare este prea fierbinte",
+  "causes": [
+   "Furtunul de apă rece este conectat la un robinet de apă caldă sau nu este bine fixat pe robinetul de apă rece."
+  ],
+  "steps": [
+   "Asigurați-vă că furtunul de apă rece este bine conectat la robinetul de apă rece.",
+   "Opriți și reporniți mașina, apoi porniți din nou programul."
+  ],
+  "technician": "Dacă codul persistă cu conexiunile corecte, contactați service-ul Samsung."
+ },
+ "Samsung|5C": {
+  "title": "Apa nu se evacuează",
+  "causes": [
+   "Furtunul de evacuare este înfundat, îndoit sau înghețat.",
+   "Furtunul de evacuare este montat greșit.",
+   "Filtrul de impurități este înfundat."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză.",
+   "Verificați dacă furtunul de evacuare este drept și nu este înfundat sau înghețat.",
+   "Puneți prosoape și o tavă joasă, apoi evacuați apa și curățați filtrul de impurități din față.",
+   "Montați la loc ferm filtrul, conectați mașina la priză și încercați o evacuare sau o centrifugare."
+  ],
+  "technician": "Dacă apa tot nu se evacuează, pompa de evacuare poate fi defectă. Contactați service-ul Samsung."
+ },
+ "Samsung|dC": {
+  "title": "Ușa este deschisă sau nu este închisă corect",
+  "causes": [
+   "Mașina a fost pornită cu ușa deschisă.",
+   "Rufele sunt prinse în ușă."
+  ],
+  "steps": [
+   "Deschideți ușa și scoateți hainele prinse în garnitură.",
+   "Închideți ușa ferm și reporniți."
+  ],
+  "technician": "Dacă codul rămâne cu ușa închisă, încuietoarea ușii poate fi defectă. Contactați service-ul Samsung."
+ },
+ "Samsung|dC1": {
+  "title": "Încuietoarea ușii nu se blochează sau nu se deblochează",
+  "causes": [
+   "Încuietoarea principală a ușii nu funcționează normal."
+  ],
+  "steps": [
+   "Opriți mașina, așteptați puțin și porniți-o din nou.",
+   "Reporniți ciclul."
+  ],
+  "technician": "Dacă problema se repetă, încuietoarea ușii trebuie verificată de service."
+ },
+ "Samsung|OC": {
+  "title": "Prea multă apă (preaplin)",
+  "causes": [
+   "Mașina a detectat un nivel al apei prea ridicat."
+  ],
+  "steps": [
+   "Lăsați mașina să termine evacuarea și centrifugarea.",
+   "Reporniți ciclul după terminarea centrifugării.",
+   "Folosiți cantitatea corectă de detergent pentru a evita prea multă spumă."
+  ],
+  "technician": "Dacă codul revine la fiecare spălare, contactați service-ul Samsung. Electrovalva sau senzorul de nivel pot fi defecte."
+ },
+ "Samsung|Ub": {
+  "title": "Încărcătură dezechilibrată, centrifugarea nu este posibilă",
+  "causes": [
+   "Rufele sunt adunate într-o parte a tamburului.",
+   "În tambur se află un singur articol greu.",
+   "Mașina nu este la nivel sau stabilă."
+  ],
+  "steps": [
+   "Puneți mașina pe pauză și distribuiți rufele uniform.",
+   "Adăugați încă câteva articole dacă spălați un singur articol greu.",
+   "Asigurați-vă că mașina stă la nivel, pe o podea fermă.",
+   "Reporniți centrifugarea."
+  ],
+  "technician": "Dacă se întâmplă cu încărcături normale și uniforme, mașina poate necesita o verificare a pieselor uzate."
+ },
+ "Samsung|LC": {
+  "title": "Problemă la furtunul de evacuare / scurgere detectată",
+  "causes": [
+   "Capătul furtunului de evacuare stă pe podea.",
+   "Furtunul de evacuare este înfundat."
+  ],
+  "steps": [
+   "Opriți mașina.",
+   "Asigurați-vă că capătul furtunului de evacuare este ridicat și nu stă pe podea.",
+   "Verificați dacă furtunul este înfundat.",
+   "Ștergeți apa și reporniți."
+  ],
+  "technician": "Dacă apa continuă să curgă sau codul revine, contactați service-ul Samsung."
+ },
+ "Samsung|3C": {
+  "title": "Problemă la motorul tamburului",
+  "causes": [
+   "Motorul nu funcționează normal."
+  ],
+  "steps": [
+   "Opriți mașina, așteptați un minut și porniți-o din nou.",
+   "Verificați ca încărcătura să nu fie prea mare, apoi reporniți ciclul."
+  ],
+  "technician": "Dacă codul revine, motorul sau comanda acestuia trebuie verificate de service."
+ },
+ "Samsung|AC": {
+  "title": "Eroare de comunicare între plăcile electronice",
+  "causes": [
+   "Placa de comandă principală și cea secundară nu comunică între ele."
+  ],
+  "steps": [
+   "Opriți mașina, apoi porniți-o din nou.",
+   "Reporniți ciclul."
+  ],
+  "technician": "Dacă codul revine mereu, contactați service-ul Samsung."
+ },
+ "Samsung|HC": {
+  "title": "Defecțiune a sistemului de încălzire (temperatură prea mare)",
+  "causes": [
+   "Mașina a detectat o problemă de încălzire la temperatură ridicată."
+  ],
+  "steps": [
+   "Opriți și reporniți mașina.",
+   "Reporniți ciclul."
+  ],
+  "technician": "Dacă codul revine, nu mai folosiți programele la temperatură ridicată și contactați service-ul Samsung."
+ },
+ "Samsung|1C": {
+  "title": "Defecțiune la senzorul de nivel al apei",
+  "causes": [
+   "Senzorul care măsoară nivelul apei nu funcționează corect."
+  ],
+  "steps": [
+   "Opriți și reporniți mașina.",
+   "Reporniți ciclul."
+  ],
+  "technician": "Dacă codul revine, contactați service-ul Samsung."
+ },
+ "Samsung|UC": {
+  "title": "Problemă de alimentare electrică (tensiune prea mică sau instabilă)",
+  "causes": [
+   "Tensiune de rețea scăzută sau instabilă.",
+   "O pană de curent scurtă.",
+   "Ștecher sau prelungitor slăbit."
+  ],
+  "steps": [
+   "Verificați dacă ștecherul este introdus ferm în priza de perete.",
+   "Evitați prelungitoarele și adaptoarele.",
+   "Așteptați stabilizarea tensiunii, apoi reporniți."
+  ],
+  "technician": "Dacă se întâmplă des, cereți unui electrician să verifice alimentarea. Dacă alimentarea este în regulă, contactați service-ul Samsung."
+ },
+ "Samsung|8C": {
+  "title": "Defecțiune la senzorul de vibrații",
+  "causes": [
+   "Senzorul care detectează dezechilibrul nu funcționează corect."
+  ],
+  "steps": [
+   "Opriți și reporniți mașina.",
+   "Reporniți ciclul."
+  ],
+  "technician": "Dacă codul revine, contactați service-ul Samsung."
+ },
+ "Samsung|ddC": {
+  "title": "Ușa Add Door a fost deschisă fără repornire",
+  "causes": [
+   "Ușa mică Add Door (AddWash) a fost deschisă, iar mașina așteaptă."
+  ],
+  "steps": [
+   "Închideți corect ușa Add Door.",
+   "Țineți apăsat Start/Pauză pentru a continua."
+  ],
+  "technician": "De obicei nu este necesar. Dacă ușa Add Door nu rămâne închisă, contactați service-ul Samsung."
+ },
+ "LG|OE": {
+  "title": "Apa nu se evacuează",
+  "causes": [
+   "Furtunul de evacuare este îndoit sau înfundat.",
+   "Filtrul pompei de evacuare este înfundat.",
+   "Prea multă spumă din cauza excesului de detergent."
+  ],
+  "steps": [
+   "Verificați furtunul de evacuare din spatele mașinii și îndreptați eventualele îndoituri.",
+   "Porniți un ciclu doar de centrifugare și ascultați dacă pompa bâzâie.",
+   "Scoateți mașina din priză. Puneți un recipient sub capacul pompei de evacuare, evacuați apa prin tubul mic de golire, apoi curățați filtrul pompei.",
+   "Închideți bine capacul tubului de golire și montați la loc filtrul.",
+   "Data viitoare folosiți mai puțin detergent și porniți programul Tub Clean."
+  ],
+  "technician": "Dacă codul revine după curățarea filtrului și a furtunului, solicitați service LG. Pompa poate fi defectă."
+ },
+ "LG|IE": {
+  "title": "Apa nu se umple la timp",
+  "causes": [
+   "Robinetul este închis sau apa este oprită.",
+   "Furtunul de alimentare este îndoit sau deconectat.",
+   "Filtrul de alimentare este înfundat.",
+   "Țevi sau furtunuri înghețate pe vreme rece."
+  ],
+  "steps": [
+   "Asigurați-vă că robinetul este deschis complet și furtunul este conectat.",
+   "Îndreptați furtunul dacă este îndoit sau strivit.",
+   "Închideți robinetul, scoateți furtunul și curățați filtrul de alimentare, apoi montați-l la loc.",
+   "Pe ger, dezghețați robinetul și furtunul cu apă caldă (nu clocotită)."
+  ],
+  "technician": "Dacă apa tot nu curge, electrovalva de alimentare poate fi defectă. Solicitați service."
+ },
+ "LG|UE": {
+  "title": "Încărcătură dezechilibrată",
+  "causes": [
+   "Rufele s-au adunat într-o parte.",
+   "Încărcătura este prea mare sau prea mică.",
+   "Articole voluminoase sau impermeabile.",
+   "Mașina de spălat nu este la nivel."
+  ],
+  "steps": [
+   "Puneți mașina de spălat pe pauză și distribuiți rufele uniform.",
+   "Umpleți tamburul cam două treimi.",
+   "Spălați articolele voluminoase, cum ar fi pilotele, pe programul potrivit, cu centrifugare medie.",
+   "Aduceți mașina de spălat la nivel reglând picioarele."
+  ],
+  "technician": "Dacă se întâmplă cu încărcături normale și uniforme, pe o podea plană, solicitați service."
+ },
+ "LG|LE": {
+  "title": "Motor blocat, tamburul nu se rotește",
+  "causes": [
+   "Mașina de spălat este supraîncărcată.",
+   "O monedă sau un obiect mic blochează tamburul."
+  ],
+  "steps": [
+   "Scoateți mașina de spălat din priză și așteptați 5 minute.",
+   "Scoateți o parte din rufe pentru a reduce încărcătura.",
+   "Cu alimentarea oprită, verificați tamburul și scoateți monedele sau obiectele mici.",
+   "Conectați la priză și încercați din nou."
+  ],
+  "technician": "Dacă LE apare în continuare, scoateți mașina de spălat din priză și contactați service-ul LG."
+ },
+ "LG|dE": {
+  "title": "Ușa nu este închisă",
+  "causes": [
+   "Rufele sunt prinse între ușă și garnitură.",
+   "Ușa nu este închisă complet."
+  ],
+  "steps": [
+   "Deschideți ușa, eliberați hainele prinse și închideți-o ferm.",
+   "Resetare: scoateți mașina de spălat din priză, țineți apăsat Start/Pauză 5 secunde, conectați-o din nou și încercați iar."
+  ],
+  "technician": "Dacă codul persistă, solicitați service LG."
+ },
+ "LG|dE2": {
+  "title": "Ușa este închisă, dar nu este blocată",
+  "causes": [
+   "Tamburul este supraîncărcat.",
+   "Ceva este prins în garnitura ușii.",
+   "Închizătorul ușii este îndoit sau rupt."
+  ],
+  "steps": [
+   "Îndepărtați orice blochează ușa și reduceți încărcătura dacă este nevoie.",
+   "Deschideți și închideți din nou ușa.",
+   "Resetați mașina de spălat scoțând-o din priză pentru scurt timp."
+  ],
+  "technician": "Dacă încuietoarea tot nu se cuplează, închizătorul sau încuietoarea ușii trebuie reparate. Solicitați service."
+ },
+ "LG|CE": {
+  "title": "Supracurent la motor",
+  "causes": [
+   "Curent prea mare în circuitul motorului, de exemplu din cauza unui scurtcircuit, a unei conexiuni slăbite sau a unui supravoltaj."
+  ],
+  "steps": [
+   "Scoateți mașina de spălat din priză pentru 10 secunde.",
+   "Conectați-o din nou la priză și porniți un ciclu."
+  ],
+  "technician": "Dacă CE revine, închideți robinetul, scoateți mașina de spălat din priză și programați o reparație."
+ },
+ "LG|FE": {
+  "title": "Prea multă apă (umplere excesivă)",
+  "causes": [
+   "Intră apă în plus, de exemplu prin sertarul de detergent."
+  ],
+  "steps": [
+   "Verificați dacă curge apă prin sertarul de detergent.",
+   "Scoateți mașina de spălat din priză pentru 60 de secunde și reporniți.",
+   "Porniți un program scurt și vedeți dacă apa se evacuează."
+  ],
+  "technician": "Dacă FE persistă, electrovalva sau senzorul trebuie verificate. Solicitați service."
+ },
+ "LG|PE": {
+  "title": "Defecțiune la senzorul de nivel al apei",
+  "causes": [
+   "Senzorul de nivel al apei nu funcționează corect."
+  ],
+  "steps": [
+   "Scoateți mașina de spălat din priză pentru 10 secunde.",
+   "Conectați-o din nou la priză și reporniți ciclul."
+  ],
+  "technician": "Dacă PE revine, programați o reparație."
+ },
+ "LG|AE": {
+  "title": "Scurgere detectată în interiorul mașinii de spălat",
+  "causes": [
+   "Apa curge în interiorul mașinii.",
+   "Un furtun de alimentare deteriorat sau slăbit.",
+   "Un întrerupător de siguranță anti-scurgere defect."
+  ],
+  "steps": [
+   "Verificați dacă furtunul de alimentare are tăieturi sau conexiuni slăbite.",
+   "Scoateți mașina de spălat din priză pentru 60 de secunde și reporniți."
+  ],
+  "technician": "Dacă AE persistă, închideți robinetul și programați o vizită de service."
+ },
+ "LG|tE": {
+  "title": "Eroare de încălzire / a senzorului de temperatură",
+  "causes": [
+   "De obicei, un senzor de temperatură (termistor) defect."
+  ],
+  "steps": [
+   "Scoateți mașina de spălat din priză pentru 10 secunde, apoi conectați-o din nou.",
+   "Selectați fără centrifugare pentru a evacua apa, apoi reporniți ciclul."
+  ],
+  "technician": "Dacă tE revine, închideți robinetele, scoateți mașina de spălat din priză și programați service."
+ },
+ "LG|Sud": {
+  "title": "Prea multă spumă",
+  "causes": [
+   "Prea mult detergent.",
+   "Folosirea unui detergent non-HE sau de tip nepotrivit."
+  ],
+  "steps": [
+   "Lăsați mașina de spălat să termine rutina de reducere a spumei.",
+   "Data viitoare folosiți mai puțin detergent și doar detergent de înaltă eficiență (HE).",
+   "Puneți praful sau capsulele unde indică manualul, nu în recipientul pentru lichid."
+  ],
+  "technician": "De obicei nu este necesar. Dacă apare și cu foarte puțin detergent, solicitați service."
+ },
+ "LG|PF": {
+  "title": "Pană de curent în timpul unui ciclu",
+  "causes": [
+   "Curentul s-a întrerupt în timp ce mașina de spălat funcționa."
+  ],
+  "steps": [
+   "Scoateți mașina de spălat din priză sau opriți siguranța circuitului ei.",
+   "Țineți apăsat Start/Pauză 5 secunde cât timp este scoasă din priză.",
+   "Restabiliți alimentarea și porniți un ciclu."
+  ],
+  "technician": "Dacă PF apare în continuare fără pene de curent, programați o reparație."
+ },
+ "LG|FF": {
+  "title": "Apă înghețată în mașina de spălat",
+  "causes": [
+   "Temperatura din interior a scăzut sub zero, iar apa din furtunuri sau din cuvă a înghețat."
+  ],
+  "steps": [
+   "Scoateți rufele.",
+   "Turnați apă caldă (în jur de 50–60°C, niciodată clocotită) în tambur și așteptați 1–2 ore.",
+   "Evacuați apa prin tubul de golire și puneți capacul la loc.",
+   "Dezghețați furtunurile de alimentare înghețate în apă caldă, apoi montați-le la loc și porniți o clătire."
+  ],
+  "technician": "Dacă FF apare când nu este frig, solicitați service."
+ },
+ "Siemens|E16": {
+  "title": "Ușa nu este blocată",
+  "causes": [
+   "Rufele sunt prinse în ușă.",
+   "Ușa nu este închisă corect."
+  ],
+  "steps": [
+   "Deschideți ușa și închideți-o din nou ferm.",
+   "Dacă este nevoie, scoateți câteva articole și împingeți ușa până se închide.",
+   "Apăsați din nou Start sau opriți și reporniți mașina, apoi reluați programul."
+  ],
+  "technician": "Dacă ușa nu se blochează, sunați la service-ul Siemens."
+ },
+ "Siemens|E17": {
+  "title": "Alimentarea cu apă a durat prea mult",
+  "causes": [
+   "Presiune scăzută a apei.",
+   "Un filtru înfundat în furtunul de alimentare.",
+   "Un furtun AquaStop înfundat."
+  ],
+  "steps": [
+   "Verificați dacă robinetul este deschis complet.",
+   "Verificați debitul: un robinet deschis complet ar trebui să umple aproximativ 10 litri pe minut.",
+   "Închideți robinetul și curățați filtrul din furtunul de alimentare.",
+   "Asigurați-vă că furtunul nu este îndoit."
+  ],
+  "technician": "Dacă presiunea este prea mică, sunați un instalator. Dacă alimentarea este în regulă, sunați la service-ul Siemens."
+ },
+ "Siemens|E18": {
+  "title": "Apa nu se evacuează",
+  "causes": [
+   "Filtrul pompei este înfundat.",
+   "Furtunul de evacuare este înfundat sau îndoit."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză. Lăsați apa fierbinte să se răcească.",
+   "Puneți prosoape și un recipient plat sub capacul filtrului și evacuați apa.",
+   "Curățați filtrul pompei și montați-l la loc ferm.",
+   "Îndreptați furtunul de evacuare și verificați dacă este înfundat."
+  ],
+  "technician": "Dacă apa tot nu se evacuează, sunați la service-ul Siemens."
+ },
+ "Siemens|E19": {
+  "title": "Încălzirea apei a durat prea mult",
+  "causes": [
+   "O defecțiune a sistemului de încălzire."
+  ],
+  "steps": [
+   "Opriți și reporniți mașina, apoi porniți din nou programul."
+  ],
+  "technician": "Siemens precizează că utilizatorul nu poate remedia această problemă. Programați o vizită de service."
+ },
+ "Siemens|E20": {
+  "title": "Încălzire neașteptată",
+  "causes": [
+   "A fost detectată încălzire când aceasta ar trebui să fie oprită."
+  ],
+  "steps": [
+   "Opriți și reporniți mașina."
+  ],
+  "technician": "Dacă persistă, programați o vizită de service Siemens."
+ },
+ "Siemens|E23": {
+  "title": "Scurgere – apă în bază",
+  "causes": [
+   "Mașina are o scurgere sau s-a adunat apă în placa de bază."
+  ],
+  "steps": [
+   "Închideți imediat robinetul de apă.",
+   "Opriți mașina și scoateți-o din priză.",
+   "Ștergeți apa de pe podea."
+  ],
+  "technician": "Sunați la service-ul Siemens pentru a găsi și remedia scurgerea."
+ },
+ "Siemens|E25": {
+  "title": "Defecțiune la senzorul de turbiditate",
+  "causes": [
+   "Senzorul de limpezime a apei este defect."
+  ],
+  "steps": [
+   "Opriți și reporniți mașina."
+  ],
+  "technician": "Programați o vizită de service Siemens."
+ },
+ "Siemens|E26": {
+  "title": "Defecțiune la senzorul de nivel al apei",
+  "causes": [
+   "Senzorul analogic de presiune este defect."
+  ],
+  "steps": [
+   "Opriți și reporniți mașina."
+  ],
+  "technician": "Programați o vizită de service Siemens."
+ },
+ "Siemens|E29": {
+  "title": "Problemă la alimentarea cu apă",
+  "causes": [
+   "Presiune scăzută a apei sau un filtru de alimentare ori un furtun AquaStop înfundat."
+  ],
+  "steps": [
+   "Verificați dacă robinetul este deschis complet și debitul este de aproximativ 10 litri pe minut.",
+   "Închideți robinetul și curățați filtrul din furtunul de alimentare.",
+   "Asigurați-vă că furtunul nu este îndoit."
+  ],
+  "technician": "Dacă alimentarea este în regulă și codul revine, sunați la service-ul Siemens."
+ },
+ "Siemens|E32": {
+  "title": "Încărcătură dezechilibrată – centrifugarea s-a oprit",
+  "causes": [
+   "Rufele sunt distribuite neuniform în tambur. Aceasta nu este o defecțiune."
+  ],
+  "steps": [
+   "Distribuiți uniform articolele mari și mici în tambur.",
+   "Porniți din nou centrifugarea."
+  ],
+  "technician": "Nu este necesar decât dacă se întâmplă la fiecare încărcătură normală."
+ },
+ "Siemens|E33": {
+  "title": "Prea multă spumă",
+  "causes": [
+   "Prea mult detergent, mai ales cu apă moale sau rufe puțin murdare."
+  ],
+  "steps": [
+   "Data viitoare folosiți mai puțin detergent.",
+   "Porniți o clătire pentru a elimina spuma."
+  ],
+  "technician": "De obicei nu este necesar."
+ },
+ "Siemens|E34": {
+  "title": "Ușa nu este blocată",
+  "causes": [
+   "Ușa nu este închisă complet, adesea din cauza unui tambur foarte plin.",
+   "Un articol este prins între ușă și carcasă."
+  ],
+  "steps": [
+   "Verificați dacă sunt haine prinse în ușă.",
+   "Închideți ușa până se aude un clic.",
+   "Reporniți programul."
+  ],
+  "technician": "Dacă ușa tot nu se blochează, sunați la service-ul Siemens."
+ },
+ "AEG|E10": {
+  "title": "Problemă la alimentarea cu apă",
+  "causes": [
+   "Alimentarea cu apă este restricționată sau întreruptă, de exemplu un robinet închis sau un furtun îndoit."
+  ],
+  "steps": [
+   "Verificați dacă robinetul de apă este deschis complet.",
+   "Asigurați-vă că furtunul de alimentare nu este îndoit sau strivit.",
+   "Resetare: opriți de la priză aproximativ un minut, apoi porniți din nou și reluați programul."
+  ],
+  "technician": "Dacă codul revine imediat sau mașina tot nu se umple, programați o reparație."
+ },
+ "AEG|E20": {
+  "title": "Problemă la evacuare",
+  "causes": [
+   "Filtrul pompei de evacuare sau furtunul de evacuare este înfundat."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză. Lăsați apa fierbinte să se răcească.",
+   "Evacuați apa într-un recipient și curățați filtrul pompei de evacuare.",
+   "Verificați ca furtunul de evacuare să nu fie îndoit sau înfundat.",
+   "Conectați la priză și porniți o evacuare sau o centrifugare."
+  ],
+  "technician": "Dacă apa tot nu se evacuează, programați o reparație."
+ },
+ "AEG|E30": {
+  "title": "Problemă la senzorul de presiune (nivel) al apei",
+  "causes": [
+   "Senzorul care măsoară nivelul apei are o defecțiune sau prea multă spumă afectează citirea."
+  ],
+  "steps": [
+   "Opriți de la priză aproximativ un minut, apoi porniți din nou.",
+   "Folosiți cantitatea corectă de detergent."
+  ],
+  "technician": "Dacă codul revine, programați o reparație."
+ },
+ "AEG|E40": {
+  "title": "Problemă la încuietoarea ușii",
+  "causes": [
+   "Ușa nu este închisă corect sau încuietoarea ușii are o defecțiune."
+  ],
+  "steps": [
+   "Deschideți ușa, verificați să nu fie nimic prins în garnitură și închideți-o ferm.",
+   "Opriți de la priză aproximativ un minut, apoi reporniți."
+  ],
+  "technician": "Dacă ușa tot nu se blochează, programați o reparație."
+ },
+ "AEG|E50": {
+  "title": "Problemă la motor",
+  "causes": [
+   "O defecțiune la motor sau la sistemul de antrenare."
+  ],
+  "steps": [
+   "Opriți de la priză aproximativ un minut, apoi reporniți."
+  ],
+  "technician": "Dacă tamburul tot nu se rotește, programați o reparație."
+ },
+ "AEG|E60": {
+  "title": "Problemă la încălzire",
+  "causes": [
+   "O defecțiune la rezistență sau la senzorul de temperatură."
+  ],
+  "steps": [
+   "Opriți de la priză aproximativ un minut, apoi reporniți."
+  ],
+  "technician": "Dacă codul revine, programați o reparație."
+ },
+ "AEG|EF0": {
+  "title": "Avertisment: scurgere, prea multă spumă sau încărcătură dezechilibrată",
+  "causes": [
+   "Apa curge în interiorul mașinii.",
+   "Prea multă spumă de detergent.",
+   "O încărcătură dezechilibrată."
+  ],
+  "steps": [
+   "Opriți mașina, scoateți-o din priză și verificați dacă este apă pe podea.",
+   "Dacă nu există nicio scurgere, folosiți mai puțin detergent și distribuiți încărcătura uniform.",
+   "Reporniți după ce spuma s-a depus."
+  ],
+  "technician": "Dacă observați o scurgere sau codul revine mereu, închideți robinetul și programați o reparație."
+ },
+ "AEG|EH0": {
+  "title": "Problemă de alimentare electrică",
+  "causes": [
+   "Tensiunea de rețea este neregulată sau instabilă."
+  ],
+  "steps": [
+   "Conectați mașina direct la o priză de perete, fără prelungitoare.",
+   "Opriți aproximativ un minut, apoi porniți din nou."
+  ],
+  "technician": "Dacă problema se repetă, cereți unui electrician să verifice alimentarea."
+ },
+ "Hotpoint|F01": {
+  "title": "Defecțiune la placa electronică",
+  "causes": [
+   "O defecțiune la placa de comandă. Unele sau toate funcțiile nu funcționează."
+  ],
+  "steps": [
+   "Scoateți mașina din priză pentru cel puțin 2 minute.",
+   "Conectați-o la priză, așteptați 30 de secunde și încercați din nou."
+  ],
+  "technician": "Dacă defecțiunea persistă, programați un tehnician Hotpoint."
+ },
+ "Hotpoint|F02": {
+  "title": "Defecțiune la circuitul motorului",
+  "causes": [
+   "O defecțiune la circuitul motorului. Tamburul pornește și se oprește sau nu se rotește deloc."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză."
+  ],
+  "technician": "Programați un tehnician Hotpoint."
+ },
+ "Hotpoint|F03": {
+  "title": "Defecțiune la senzorul de temperatură",
+  "causes": [
+   "Circuitul de măsurare a temperaturii este defect, așa că mașina nu încălzește."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză."
+  ],
+  "technician": "Programați un tehnician Hotpoint."
+ },
+ "Hotpoint|F05": {
+  "title": "Evacuare înfundată sau problemă la pompă",
+  "causes": [
+   "Un filtru de pompă, un furtun de evacuare sau o instalație de sub chiuvetă înfundată.",
+   "O pompă de evacuare defectă."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză. Lăsați apa fierbinte să se răcească.",
+   "Dacă modelul dumneavoastră are filtru de pompă, evacuați apa într-un recipient și curățați filtrul.",
+   "Verificați dacă furtunul de evacuare și țeava de sub chiuvetă sunt înfundate.",
+   "Conectați la priză și încercați o evacuare sau o centrifugare."
+  ],
+  "technician": "Dacă apa tot nu se evacuează, pompa s-a defectat probabil. Programați un tehnician."
+ },
+ "Hotpoint|F06": {
+  "title": "Defecțiune la încuietoarea ușii",
+  "causes": [
+   "Încuietoarea ușii este blocată sau defectă."
+  ],
+  "steps": [
+   "Verificați dacă ceva blochează ușa sau zona încuietorii.",
+   "Închideți ușa ferm și reporniți.",
+   "Consultați pagina de notificări de siguranță Hotpoint – unele încuietori de ușă fac obiectul unei rechemări."
+  ],
+  "technician": "Dacă defecțiunea persistă, programați un tehnician."
+ },
+ "Hotpoint|F07": {
+  "title": "Defecțiune la circuitul de încălzire / placa electronică",
+  "causes": [
+   "O defecțiune la circuitul de încălzire sau la placa de comandă. Spălarea se oprește, iar pompa poate continua să funcționeze."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză."
+  ],
+  "technician": "Programați un tehnician Hotpoint."
+ },
+ "Hotpoint|F08": {
+  "title": "Defecțiune la rezistență",
+  "causes": [
+   "Rezistența este defectă, așa că programul se oprește în timpul spălării."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză."
+  ],
+  "technician": "Programați un tehnician Hotpoint."
+ },
+ "Hotpoint|F09": {
+  "title": "Defecțiune de software",
+  "causes": [
+   "O problemă de software. Luminile clipesc și nu se poate alege niciun program."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză."
+  ],
+  "technician": "Programați un tehnician Hotpoint."
+ },
+ "Hotpoint|F11": {
+  "title": "Defecțiune la circuitul pompei de evacuare",
+  "causes": [
+   "O defecțiune la circuitul pompei. Apa rămâne în tambur."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză.",
+   "Nu deschideți ușa cât timp este apă în tambur."
+  ],
+  "technician": "Programați un tehnician Hotpoint."
+ },
+ "Hotpoint|F12": {
+  "title": "Defecțiune la comanda electronică",
+  "causes": [
+   "O defecțiune la comenzi. Mașina nu pornește."
+  ],
+  "steps": [
+   "Verificați dacă ștecherul și priza funcționează cu alt aparat."
+  ],
+  "technician": "Programați un tehnician Hotpoint."
+ },
+ "Hotpoint|F15": {
+  "title": "Defecțiune la comanda rezistenței",
+  "causes": [
+   "O defecțiune la comanda rezistenței. Apa nu se încălzește sau spălarea se oprește."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză."
+  ],
+  "technician": "Programați un tehnician Hotpoint."
+ },
+ "Hotpoint|F18": {
+  "title": "Eroare internă de date",
+  "causes": [
+   "O problemă internă de date. Unele sau toate funcțiile afișajului nu funcționează."
+  ],
+  "steps": [
+   "Scoateți mașina din priză pentru cel puțin 2 minute.",
+   "Conectați-o la priză, așteptați 30 de secunde și încercați din nou."
+  ],
+  "technician": "Dacă persistă, programați un tehnician Hotpoint."
+ },
+ "Indesit|F01": {
+  "title": "Defecțiune la placa electronică",
+  "causes": [
+   "O defecțiune la placa de comandă. Unele sau toate funcțiile nu pot fi selectate."
+  ],
+  "steps": [
+   "Scoateți mașina din priză pentru cel puțin 2 minute.",
+   "Conectați-o la priză, așteptați 30 de secunde și încercați din nou."
+  ],
+  "technician": "Dacă defecțiunea persistă, programați un tehnician Indesit."
+ },
+ "Indesit|F02": {
+  "title": "Defecțiune la circuitul motorului",
+  "causes": [
+   "O defecțiune la circuitul motorului. Tamburul pornește și se oprește sau nu se rotește deloc."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză."
+  ],
+  "technician": "Programați un tehnician Indesit."
+ },
+ "Indesit|F03": {
+  "title": "Defecțiune la senzorul de temperatură",
+  "causes": [
+   "Circuitul de măsurare a temperaturii este defect, așa că mașina nu încălzește."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză."
+  ],
+  "technician": "Programați un tehnician Indesit."
+ },
+ "Indesit|F05": {
+  "title": "Evacuare înfundată sau problemă la pompă",
+  "causes": [
+   "Un filtru de pompă, un furtun de evacuare sau o instalație de sub chiuvetă înfundată.",
+   "O pompă de evacuare defectă."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză. Lăsați apa fierbinte să se răcească.",
+   "Dacă modelul dumneavoastră are filtru de pompă, evacuați apa într-un recipient și curățați-l.",
+   "Verificați dacă furtunul de evacuare și țeava de sub chiuvetă sunt înfundate.",
+   "Conectați la priză și încercați o evacuare sau o centrifugare."
+  ],
+  "technician": "Dacă apa tot nu se evacuează, pompa s-a defectat probabil. Programați un tehnician."
+ },
+ "Indesit|F06": {
+  "title": "Defecțiune la încuietoarea ușii",
+  "causes": [
+   "Încuietoarea ușii este blocată sau defectă."
+  ],
+  "steps": [
+   "Verificați dacă ceva blochează ușa sau zona încuietorii.",
+   "Închideți ușa ferm și reporniți.",
+   "Consultați notificarea de siguranță a mărcii – unele încuietori de ușă fac obiectul unei rechemări."
+  ],
+  "technician": "Dacă defecțiunea persistă, programați un tehnician."
+ },
+ "Indesit|F07": {
+  "title": "Defecțiune la circuitul de încălzire / placa electronică",
+  "causes": [
+   "O defecțiune la circuitul de încălzire sau la placa de comandă. Spălarea se oprește, iar pompa poate continua să funcționeze."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză."
+  ],
+  "technician": "Programați un tehnician Indesit."
+ },
+ "Indesit|F08": {
+  "title": "Defecțiune la rezistență",
+  "causes": [
+   "Rezistența este defectă, așa că programul se oprește în timpul spălării."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză."
+  ],
+  "technician": "Programați un tehnician Indesit."
+ },
+ "Indesit|F09": {
+  "title": "Defecțiune de software",
+  "causes": [
+   "O problemă de software. Luminile clipesc și nu se poate alege niciun program."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză."
+  ],
+  "technician": "Programați un tehnician Indesit."
+ },
+ "Indesit|F11": {
+  "title": "Defecțiune la circuitul pompei de evacuare",
+  "causes": [
+   "O defecțiune la circuitul pompei. Apa rămâne în tambur."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză.",
+   "Nu deschideți ușa cât timp este apă în tambur."
+  ],
+  "technician": "Programați un tehnician Indesit."
+ },
+ "Indesit|F12": {
+  "title": "Defecțiune la comanda electronică",
+  "causes": [
+   "O defecțiune la comenzi. Mașina nu pornește."
+  ],
+  "steps": [
+   "Verificați dacă ștecherul și priza funcționează cu alt aparat."
+  ],
+  "technician": "Programați un tehnician Indesit."
+ },
+ "Indesit|F15": {
+  "title": "Defecțiune la comanda rezistenței",
+  "causes": [
+   "O defecțiune la comanda rezistenței. Apa nu se încălzește sau spălarea se oprește."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză."
+  ],
+  "technician": "Programați un tehnician Indesit."
+ },
+ "Indesit|F18": {
+  "title": "Eroare internă de date",
+  "causes": [
+   "O problemă internă de date. Unele sau toate funcțiile afișajului nu funcționează."
+  ],
+  "steps": [
+   "Scoateți mașina din priză pentru cel puțin 2 minute.",
+   "Conectați-o la priză, așteptați 30 de secunde și încercați din nou."
+  ],
+  "technician": "Dacă persistă, programați un tehnician Indesit."
+ },
+ "Beko|E5": {
+  "title": "Filtrul pompei poate fi înfundat (problemă la evacuare)",
+  "causes": [
+   "Filtrul pompei este înfundat, așa că apa nu se poate evacua."
+  ],
+  "steps": [
+   "Opriți mașina și scoateți-o din priză. Lăsați apa fierbinte să se răcească.",
+   "Evacuați apa rămasă într-un recipient și curățați filtrul pompei.",
+   "Montați la loc ferm filtrul și porniți un ciclu de centrifugare."
+  ],
+  "technician": "Dacă problema continuă, sunați la service-ul Beko."
+ },
+ "Beko|E8": {
+  "title": "Nu intră apă",
+  "causes": [
+   "Robinetul este închis sau apa este oprită în rețea.",
+   "Furtunul de alimentare este îndoit sau slăbit.",
+   "Capacul filtrului din față nu este închis și blocat."
+  ],
+  "steps": [
+   "Deschideți robinetul și verificați dacă există apă în rețea.",
+   "Verificați conexiunea furtunului de alimentare și îndreptați eventualele îndoituri.",
+   "Asigurați-vă că capacul din față este închis și blocat.",
+   "Porniți din nou mașina."
+  ],
+  "technician": "Dacă problema continuă, sunați la service-ul Beko."
+ },
+ "Beko|E12": {
+  "title": "Poate fi apă în interiorul mașinii (scurgere)",
+  "causes": [
+   "S-a adunat apă în interiorul mașinii, posibil din cauza unei scurgeri."
+  ],
+  "steps": [
+   "Scoateți mașina din priză.",
+   "Ștergeți apa de sub mașină.",
+   "Conectați la priză și porniți un ciclu scurt, supraveghindu-l."
+  ],
+  "technician": "Dacă apa curge dintr-un furtun sau codul revine, închideți robinetele și sunați la service-ul Beko."
+ },
+ "Beko|E17": {
+  "title": "Prea multă spumă",
+  "causes": [
+   "Prea mult detergent pentru încărcătură.",
+   "Detergent pus în compartimentul greșit sau păstrat necorespunzător."
+  ],
+  "steps": [
+   "Potriviți doza de detergent cu mărimea încărcăturii și cu gradul de murdărie.",
+   "Folosiți mai puțin detergent pentru țesăturile foarte absorbante.",
+   "Porniți programul de curățare a tamburului (sau Bumbac 90°C) cu tamburul gol."
+  ],
+  "technician": "Dacă problema continuă, sunați la service-ul Beko."
+ },
+ "Beko|E18": {
+  "title": "Încărcătură dezechilibrată – centrifugarea nu a pornit",
+  "causes": [
+   "Prea puține rufe sau rufe adunate într-o parte."
+  ],
+  "steps": [
+   "Adăugați mai multe articole dacă încărcătura este foarte mică.",
+   "Distribuiți rufele uniform cu mâna.",
+   "Porniți din nou centrifugarea."
+  ],
+  "technician": "De obicei nu este necesar."
+ },
+ "Beko|E27": {
+  "title": "Problemă la evacuare",
+  "causes": [
+   "Furtunul de evacuare nu este conectat corect."
+  ],
+  "steps": [
+   "Verificați conexiunea furtunului de evacuare la scurgere.",
+   "Asigurați-vă că furtunul nu este îndoit sau înfundat."
+  ],
+  "technician": "Dacă problema continuă, sunați la service-ul Beko."
+ },
+ "Beko|E29": {
+  "title": "Mod de autoprotecție (problemă de alimentare)",
+  "causes": [
+   "O problemă la tensiunea de rețea sau la presiunea apei."
+  ],
+  "steps": [
+   "Anulați programul rotind selectorul de programe pe alt program.",
+   "Porniți din nou programul."
+  ],
+  "technician": "Dacă problema continuă, sunați la service-ul Beko."
+ },
+ "Miele|F10": {
+  "title": "Alimentarea cu apă este blocată sau restricționată",
+  "causes": [
+   "Robinetul de închidere este închis.",
+   "Filtrul de alimentare este murdar.",
+   "Furtunul de alimentare este îndoit.",
+   "Presiunea apei este prea mică."
+  ],
+  "steps": [
+   "Opriți programul și deschideți complet robinetul.",
+   "Închideți robinetul, deșurubați furtunul de alimentare, scoateți filtrul mic, curățați-l și puneți-l la loc.",
+   "Montați la loc furtunul, deschideți robinetul și verificați dacă picură.",
+   "Îndreptați eventualele îndoituri ale furtunului.",
+   "Verificați debitul: în 15 secunde ar trebui să curgă cel puțin 5 litri."
+  ],
+  "technician": "Dacă presiunea este prea mică, sunați un instalator. Dacă furtunul este deteriorat, service-ul Miele îl poate înlocui."
+ },
+ "Miele|F11": {
+  "title": "Evacuare restricționată",
+  "causes": [
+   "Capătul furtunului de evacuare este mai sus de 1 metru.",
+   "Furtunul de evacuare este îndoit.",
+   "Filtrul de evacuare sau pompa este blocată de obiecte precum nasturi sau monede."
+  ],
+  "steps": [
+   "Opriți mașina. Lăsați apa fierbinte să se răcească pentru a evita opărirea.",
+   "Coborâți capătul furtunului de evacuare la cel mult 1 metru și îndepărtați îndoiturile.",
+   "Deschideți capacul pompei de evacuare, puneți un recipient dedesubt și deșurubați încet filtrul de evacuare pentru a lăsa apa să iasă.",
+   "Curățați filtrul, verificați dacă rotorul pompei se rotește liber, apoi înșurubați bine filtrul la loc."
+  ],
+  "technician": "Dacă defecțiunea persistă, contactați service-ul Miele."
+ },
+ "Miele|F15": {
+  "title": "Alimentarea cu apă caldă este blocată sau restricționată",
+  "causes": [
+   "Robinetul de apă caldă nu este deschis complet.",
+   "Filtrul de alimentare cu apă caldă este murdar.",
+   "Presiunea apei calde este prea mică."
+  ],
+  "steps": [
+   "Deschideți complet robinetul de apă caldă și reporniți.",
+   "Închideți robinetul, deșurubați furtunul de apă caldă, curățați filtrul mic și montați-l la loc.",
+   "Verificați debitul: cel puțin 5 litri în 15 secunde."
+  ],
+  "technician": "Dacă presiunea este prea mică și nu poate fi mărită, contactați un instalator sau service-ul Miele."
+ },
+ "Miele|F20": {
+  "title": "Defecțiune la încălzire",
+  "causes": [
+   "Temperatura setată nu a fost atinsă la timp (Thermostop).",
+   "O defecțiune tehnică a sistemului de încălzire."
+  ],
+  "steps": [
+   "Opriți de la perete și scoateți din priză sau opriți siguranța.",
+   "Așteptați cel puțin 2 minute.",
+   "Reconectați, porniți și reluați programul."
+  ],
+  "technician": "Dacă F20 revine, contactați service-ul Miele."
+ },
+ "Miele|F34": {
+  "title": "Ușa nu a putut fi blocată",
+  "causes": [
+   "Tamburul este supraîncărcat.",
+   "O defecțiune tehnică la încuietoare."
+  ],
+  "steps": [
+   "Scoateți o parte din rufe, astfel încât încărcătura să fie în limita admisă.",
+   "Opriți și porniți din nou.",
+   "Dacă este nevoie, scoateți din priză pentru cel puțin 2 minute, apoi reconectați și porniți."
+  ],
+  "technician": "Dacă defecțiunea revine, contactați service-ul Miele."
+ },
+ "Miele|F35": {
+  "title": "Ușa nu a putut fi deblocată",
+  "causes": [
+   "O defecțiune tehnică la încuietoarea ușii."
+  ],
+  "steps": [
+   "Opriți de la perete și scoateți din priză sau opriți siguranța.",
+   "Așteptați cel puțin 2 minute, apoi reconectați și porniți."
+  ],
+  "technician": "Dacă ușa tot nu se deschide, contactați service-ul Miele. Nu forțați ușa."
+ },
+ "Miele|Waterproof system activated": {
+  "title": "Protecția anti-scurgere s-a declanșat",
+  "causes": [
+   "A fost detectată apă în interiorul mașinii din cauza unei scurgeri."
+  ],
+  "steps": [
+   "Scoateți mașina din priză.",
+   "Închideți robinetul de apă.",
+   "Ștergeți apa de pe podea.",
+   "Nu folosiți mașina până nu este reparată."
+  ],
+  "technician": "Miele precizează că scurgerea trebuie reparată de service-ul Miele. Nu încercați să o reparați singur."
+ }
+}

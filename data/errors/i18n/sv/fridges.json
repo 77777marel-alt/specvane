@@ -1,0 +1,1196 @@
+{
+ "Samsung|AP": {
+  "title": "Konfigurationsläge för Wi-Fi",
+  "causes": [
+   "Kylskåpet fungerar som Wi-Fi-åtkomstpunkt för konfiguration i SmartThings."
+  ],
+  "steps": [
+   "Slutför konfigurationen i SmartThings-appen, eller vänta. Koden försvinner av sig själv."
+  ],
+  "technician": "Detta är inget fel. Ingen service behövs."
+ },
+ "Samsung|21E": {
+  "title": "Fel på frysens fläkt",
+  "causes": [
+   "Frysens fläkt har frusit fast i is, ofta efter att en dörr har stått öppen eller en tätningslist inte har tätat.",
+   "Fläktmotorn har gått sönder."
+  ],
+  "steps": [
+   "Kontrollera att frysdörren stängs och att tätningslisten tätar runt om.",
+   "Packa inte frysen för full.",
+   "Om du kan, flytta ut maten och låt kylskåpet frosta av med dörrarna öppna."
+  ],
+  "technician": "Om koden kommer tillbaka efter avfrostning behöver fläkten åtgärdas av en Samsung-tekniker."
+ },
+ "Samsung|22E": {
+  "title": "Fel på kylskåpets fläkt",
+  "causes": [
+   "Kylskåpsdörren stod öppen för länge och fläkten frös fast."
+  ],
+  "steps": [
+   "Flytta maten till en sval plats.",
+   "Dra ur kylskåpets kontakt och låt dörrarna stå öppna i några timmar.",
+   "Sätt i kontakten igen och stäng dörrarna."
+  ],
+  "technician": "Om 22E kommer tillbaka, beställ service från Samsung."
+ },
+ "Samsung|41C": {
+  "title": "Fel på Family Hub",
+  "causes": [
+   "Ett programvaruproblem på Family Hub-skärmen."
+  ],
+  "steps": [
+   "Installera den senaste programuppdateringen.",
+   "Tryck på OK första gången koden visas efter uppdateringen."
+  ],
+  "technician": "Om det fortsätter att komma tillbaka efter uppdateringen, beställ service från Samsung."
+ },
+ "Samsung|76C": {
+  "title": "Vatten i AutoFill-facket",
+  "causes": [
+   "AutoFill-vattenkannan läcker ner i sitt fack."
+  ],
+  "steps": [
+   "Ta ut kannan och torka facket.",
+   "Kontrollera att kannan sitter korrekt och inte har sprickor."
+  ],
+  "technician": "Om det fortsätter att samlas vatten, kontakta Samsungs service."
+ },
+ "Samsung|85C": {
+  "title": "Låg matningsspänning (Family Hub)",
+  "causes": [
+   "Oftast ett kort strömavbrott."
+  ],
+  "steps": [
+   "Håll in OK i 3 sekunder för att ta bort det."
+  ],
+  "technician": "Ofarligt i sig. Kontakta Samsung bara om det visas ofta."
+ },
+ "Samsung|88 88": {
+  "title": "Kommunikationsfel vid start",
+  "causes": [
+   "Strömmen bröts medan kylskåpet startade."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt eller slå av dess säkring i 60 sekunder.",
+   "Slå på strömmen igen och kontrollera om koden kommer tillbaka."
+  ],
+  "technician": "Om koden kommer tillbaka efter en återställning, beställ service från Samsung."
+ },
+ "Samsung|83E": {
+  "title": "Onormal ström i kompressorn",
+  "causes": [
+   "En spänningstopp eller ett elektriskt problem."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt eller slå av dess säkring i 60 sekunder.",
+   "Slå på strömmen igen och kontrollera om koden kommer tillbaka."
+  ],
+  "technician": "Om 83E kommer tillbaka, beställ service från Samsung."
+ },
+ "Samsung|85E": {
+  "title": "Låg spänning till kompressorn",
+  "causes": [
+   "Ett spänningsfall eller låg nätspänning."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt eller slå av dess säkring i 60 sekunder.",
+   "Slå på strömmen igen och kontrollera om koden kommer tillbaka."
+  ],
+  "technician": "Om 85E kommer tillbaka, låt kontrollera elnätet och beställ service från Samsung."
+ },
+ "Samsung|86E": {
+  "title": "Hög spänning till kompressorn",
+  "causes": [
+   "En spänningstopp, till exempel under ett åskväder."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt eller slå av dess säkring i 60 sekunder.",
+   "Slå på strömmen igen och kontrollera om koden kommer tillbaka."
+  ],
+  "technician": "Om 86E kommer tillbaka, beställ service från Samsung."
+ },
+ "Samsung|PC ER": {
+  "title": "Internt kommunikationsfel",
+  "causes": [
+   "En nylig spänningstopp.",
+   "Dörrens kabelkontakt är inte ordentligt ansluten."
+  ],
+  "steps": [
+   "Bryt strömmen vid kontakten eller säkringen.",
+   "Kontrollera och anslut kabelkontakten ovanför dörrens gångjärn igen.",
+   "Slå på strömmen igen."
+  ],
+  "technician": "Om koden kommer tillbaka, beställ service från Samsung."
+ },
+ "Samsung|OF OF": {
+  "title": "Läget Cooling Off (demoläge)",
+  "causes": [
+   "Demo- eller butiksläget är påslaget, ofta av misstag. Kylskåpet kyler inte."
+  ],
+  "steps": [
+   "Håll in de två översta knapparna till vänster på panelen i 5–8 sekunder tills det hörs en signal.",
+   "På vissa modeller håller du även in den översta knappen till höger.",
+   "Läs i bruksanvisningen vilken knappkombination som gäller för din modell."
+  ],
+  "technician": "Ingen service behövs. Detta är en inställning, inte ett fel."
+ },
+ "Samsung|5E": {
+  "title": "Fel på kylskåpets avfrostningsgivare",
+  "causes": [
+   "Kylskåpets avfrostningsgivare är trasig."
+  ],
+  "steps": [
+   "Dra inte ur kylskåpets kontakt om du inte blir ombedd att göra det.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Beställ service från Samsung för att byta eller kontrollera givaren."
+ },
+ "Samsung|8E": {
+  "title": "Fel på ismaskinens givare (frysen)",
+  "causes": [
+   "Ismaskinens givare i frysen är trasig."
+  ],
+  "steps": [
+   "Stäng av ismaskinen om du kan.",
+   "Fortsätt använda kylskåpet som vanligt."
+  ],
+  "technician": "Beställ service från Samsung."
+ },
+ "Samsung|14E": {
+  "title": "Fel på ismaskinens givare",
+  "causes": [
+   "Ismaskinens givare är trasig."
+  ],
+  "steps": [
+   "Stäng av ismaskinen om du kan.",
+   "Fortsätt använda kylskåpet som vanligt."
+  ],
+  "technician": "Beställ service från Samsung."
+ },
+ "Samsung|33E": {
+  "title": "Fel på värmaren till isröret",
+  "causes": [
+   "Värmaren på ismaskinens vattenrör är trasig."
+  ],
+  "steps": [
+   "Stäng av ismaskinen om du kan."
+  ],
+  "technician": "Beställ service från Samsung."
+ },
+ "Samsung|39E": {
+  "title": "Fel i ismaskinens funktion",
+  "causes": [
+   "Ismaskinen fungerar inte som den ska."
+  ],
+  "steps": [
+   "Kontrollera att isbehållaren sitter korrekt.",
+   "Stäng av ismaskinen om du kan."
+  ],
+  "technician": "Om koden finns kvar, beställ service från Samsung."
+ },
+ "Samsung|40E": {
+  "title": "Fel på fläkten i isfacket",
+  "causes": [
+   "Fläkten i isfacket fungerar inte, ofta på grund av is."
+  ],
+  "steps": [
+   "Kontrollera att isfackets lucka stängs helt."
+  ],
+  "technician": "Beställ service från Samsung."
+ },
+ "Samsung|84C": {
+  "title": "Kompressorn är låst",
+  "causes": [
+   "Kompressorn är låst och kan inte starta."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt eller slå av dess säkring i 60 sekunder.",
+   "Slå på strömmen igen och kontrollera om koden kommer tillbaka."
+  ],
+  "technician": "Beställ service från Samsung. Detta kräver en tekniker."
+ },
+ "LG|CF": {
+  "title": "Fel på kondensorfläkten",
+  "causes": [
+   "Kondensorfläkten är blockerad eller går inte, så kompressorn överbelastas."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt i 60 sekunder och anslut det till ett vägguttag, inte en grenkontakt.",
+   "Kontrollera om koden kommer tillbaka.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Beställ service från LG. Detta kräver en tekniker."
+ },
+ "LG|CO": {
+  "title": "Kommunikationsfel",
+  "causes": [
+   "Huvudkortet och displayen kommunicerar inte."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt i 60 sekunder och anslut det till ett vägguttag, inte en grenkontakt.",
+   "Kontrollera om koden kommer tillbaka.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Beställ service från LG. Detta kräver en tekniker."
+ },
+ "LG|FF": {
+  "title": "Fel på frysens fläkt",
+  "causes": [
+   "Frysens fläkt är blockerad, ofta av is, eller har gått sönder."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt i 60 sekunder och anslut det till ett vägguttag, inte en grenkontakt.",
+   "Kontrollera om koden kommer tillbaka.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Beställ service från LG. Detta kräver en tekniker."
+ },
+ "LG|FS": {
+  "title": "Fel på frysens givare",
+  "causes": [
+   "Frysens temperaturgivare är trasig."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt i 60 sekunder och anslut det till ett vägguttag, inte en grenkontakt.",
+   "Kontrollera om koden kommer tillbaka.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Beställ service från LG. Detta kräver en tekniker."
+ },
+ "LG|FU": {
+  "title": "Frysen kyler inte tillräckligt",
+  "causes": [
+   "Frysen blev inte tillräckligt kall efter starten.",
+   "Dörrarna öppnas ofta eller tätar inte.",
+   "Luftkanalerna är blockerade av mat."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt i 60 sekunder och anslut det till ett vägguttag, inte en grenkontakt.",
+   "Ställ in frysen på -18 °C.",
+   "Håll maten borta från luftkanalerna.",
+   "Kontrollera dörrtätningarna genom att stänga dörren om ett papper. Det ska inte gå lätt att dra ut.",
+   "Öppna dörrarna mer sällan."
+  ],
+  "technician": "Om frysen fortfarande inte kyler, beställ service från LG."
+ },
+ "LG|IF": {
+  "title": "Fel på ismaskinens fläkt",
+  "causes": [
+   "Ismaskinens fläkt är blockerad eller trasig."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt i 60 sekunder och anslut det till ett vägguttag, inte en grenkontakt.",
+   "Kontrollera om koden kommer tillbaka.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Beställ service från LG. Detta kräver en tekniker."
+ },
+ "LG|IS": {
+  "title": "Fel på ismaskinens givare",
+  "causes": [
+   "Ismaskinens temperaturgivare är trasig."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt i 60 sekunder och anslut det till ett vägguttag, inte en grenkontakt.",
+   "Kontrollera om koden kommer tillbaka.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Beställ service från LG. Detta kräver en tekniker."
+ },
+ "LG|It": {
+  "title": "Fel på ismaskinens motor",
+  "causes": [
+   "Ismaskinens motor är trasig."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt i 60 sekunder och anslut det till ett vägguttag, inte en grenkontakt.",
+   "Kontrollera om koden kommer tillbaka.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Beställ service från LG. Detta kräver en tekniker."
+ },
+ "LG|rS": {
+  "title": "Fel på kylskåpets givare (övre)",
+  "causes": [
+   "Kylskåpets övre temperaturgivare är trasig."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt i 60 sekunder och anslut det till ett vägguttag, inte en grenkontakt.",
+   "Kontrollera om koden kommer tillbaka.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Beställ service från LG. Detta kräver en tekniker."
+ },
+ "LG|r2": {
+  "title": "Fel på kylskåpets givare (nedre)",
+  "causes": [
+   "Kylskåpets nedre temperaturgivare är trasig."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt i 60 sekunder och anslut det till ett vägguttag, inte en grenkontakt.",
+   "Kontrollera om koden kommer tillbaka.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Beställ service från LG. Detta kräver en tekniker."
+ },
+ "LG|dS": {
+  "title": "Fel på avfrostningsgivaren",
+  "causes": [
+   "Avfrostningsgivaren är trasig, så förångaren kan frysa igen."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt i 60 sekunder och anslut det till ett vägguttag, inte en grenkontakt.",
+   "Kontrollera om koden kommer tillbaka.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Beställ service från LG. Detta kräver en tekniker."
+ },
+ "LG|rT": {
+  "title": "Fel på rumstemperaturgivaren",
+  "causes": [
+   "Givaren för omgivningstemperatur är trasig."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt i 60 sekunder och anslut det till ett vägguttag, inte en grenkontakt.",
+   "Kontrollera om koden kommer tillbaka.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Beställ service från LG. Detta kräver en tekniker."
+ },
+ "LG|dH": {
+  "title": "Avfrostningen misslyckades",
+  "causes": [
+   "Avfrostningssystemet värmdes inte upp i tid.",
+   "Förångaren är blockerad av is."
+  ],
+  "steps": [
+   "Ta ut maten och lägg den på en sval plats.",
+   "Lägg handdukar på golvet framför kylskåpet.",
+   "Dra ur kylskåpets kontakt och låt dörrarna stå öppna i minst 12 timmar så att isen smälter.",
+   "Sätt i kontakten igen."
+  ],
+  "technician": "Detta är ofta bara en tillfällig lösning. Om dH kommer tillbaka, beställ service från LG."
+ },
+ "LG|SS": {
+  "title": "Fel på vattentankens givare",
+  "causes": [
+   "Vattentankens temperaturgivare är trasig."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt i 60 sekunder och anslut det till ett vägguttag, inte en grenkontakt.",
+   "Kontrollera om koden kommer tillbaka.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Beställ service från LG. Detta kräver en tekniker."
+ },
+ "LG|rF": {
+  "title": "Fel på kylskåpets fläkt",
+  "causes": [
+   "Kylskåpets fläkt är blockerad eller trasig."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt i 60 sekunder och anslut det till ett vägguttag, inte en grenkontakt.",
+   "Kontrollera om koden kommer tillbaka.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Beställ service från LG. Detta kräver en tekniker."
+ },
+ "LG|tt": {
+  "title": "Problem med vattentanken",
+  "causes": [
+   "Vattentanken saknas eller sitter inte korrekt.",
+   "Tankens givare är trasig."
+  ],
+  "steps": [
+   "Ta ut vattentanken och sätt tillbaka den korrekt.",
+   "Kontrollera om koden försvinner."
+  ],
+  "technician": "Om tt finns kvar fast tanken sitter på plats, beställ service från LG."
+ },
+ "LG|C1": {
+  "title": "Kommunikationsfel i dispensern",
+  "causes": [
+   "Dispensern och displayen kommunicerar inte."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt i 60 sekunder och anslut det till ett vägguttag, inte en grenkontakt.",
+   "Kontrollera om koden kommer tillbaka.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Beställ service från LG. Detta kräver en tekniker."
+ },
+ "LG|gF": {
+  "title": "Fel på flödesgivaren",
+  "causes": [
+   "Vattenkranen till tillförseln är stängd.",
+   "Vattenslangen är vikt.",
+   "Vattentrycket är fel."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt i 60 sekunder och anslut det till ett vägguttag, inte en grenkontakt.",
+   "Vänta upp till 5 minuter tills kylskåpet har startat om.",
+   "Öppna vattenkranen till tillförseln helt.",
+   "Kontrollera att slangen inte är vikt.",
+   "Jämför ditt vattentryck med uppgifterna i bruksanvisningen."
+  ],
+  "technician": "Om felet kvarstår, beställ service från LG."
+ },
+ "LG|CH": {
+  "title": "Fel i kylsystemet (högtryckssidan)",
+  "causes": [
+   "Givarna visar onormala värden i kylsystemet, möjligen på grund av en läcka eller en trasig ventil."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt i 60 sekunder och anslut det till ett vägguttag, inte en grenkontakt.",
+   "Kontrollera om koden kommer tillbaka.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Beställ service från LG. Detta kräver en tekniker."
+ },
+ "LG|CL": {
+  "title": "Fel i kylsystemet (lågtryckssidan)",
+  "causes": [
+   "Givarna visar onormala värden i kylsystemet, möjligen på grund av en läcka eller en trasig ventil."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt i 60 sekunder och anslut det till ett vägguttag, inte en grenkontakt.",
+   "Kontrollera om koden kommer tillbaka.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Beställ service från LG. Detta kräver en tekniker."
+ },
+ "LG|Lo": {
+  "title": "Rummet är för kallt",
+  "causes": [
+   "Rummet är kallare än -10 °C."
+  ],
+  "steps": [
+   "Flytta kylskåpet till en varmare plats om det går."
+  ],
+  "technician": "Inget fel. Kontakta LG bara om rummet är varmt och Lo fortfarande visas."
+ },
+ "LG|HI": {
+  "title": "Rummet är för varmt",
+  "causes": [
+   "Rummet är varmare än 50 °C."
+  ],
+  "steps": [
+   "Flytta kylskåpet till en svalare plats om det går.",
+   "Se till att luften kan cirkulera runt det."
+  ],
+  "technician": "Inget fel. Kontakta LG bara om rumstemperaturen är normal och HI fortfarande visas."
+ },
+ "Miele|F0": {
+  "title": "Tekniskt fel",
+  "causes": [
+   "Ett internt tekniskt fel har upptäckts."
+  ],
+  "steps": [
+   "Anteckna felkoden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten.",
+   "Boka en Miele-tekniker."
+  ],
+  "technician": "Detta är ett tekniskt fel som du inte kan åtgärda själv. Kontakta Mieles kundtjänst."
+ },
+ "Miele|F1": {
+  "title": "Tekniskt fel",
+  "causes": [
+   "Ett internt tekniskt fel har upptäckts."
+  ],
+  "steps": [
+   "Anteckna felkoden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten.",
+   "Boka en Miele-tekniker."
+  ],
+  "technician": "Detta är ett tekniskt fel som du inte kan åtgärda själv. Kontakta Mieles kundtjänst."
+ },
+ "Miele|F2": {
+  "title": "Tekniskt fel",
+  "causes": [
+   "Ett internt tekniskt fel har upptäckts."
+  ],
+  "steps": [
+   "Anteckna felkoden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten.",
+   "Boka en Miele-tekniker."
+  ],
+  "technician": "Detta är ett tekniskt fel som du inte kan åtgärda själv. Kontakta Mieles kundtjänst."
+ },
+ "Miele|F3": {
+  "title": "Tekniskt fel",
+  "causes": [
+   "Ett internt tekniskt fel har upptäckts."
+  ],
+  "steps": [
+   "Anteckna felkoden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten.",
+   "Boka en Miele-tekniker."
+  ],
+  "technician": "Detta är ett tekniskt fel som du inte kan åtgärda själv. Kontakta Mieles kundtjänst."
+ },
+ "Miele|F4": {
+  "title": "Tekniskt fel",
+  "causes": [
+   "Ett internt tekniskt fel har upptäckts."
+  ],
+  "steps": [
+   "Anteckna felkoden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten.",
+   "Boka en Miele-tekniker."
+  ],
+  "technician": "Detta är ett tekniskt fel som du inte kan åtgärda själv. Kontakta Mieles kundtjänst."
+ },
+ "Miele|F5": {
+  "title": "Tekniskt fel",
+  "causes": [
+   "Ett internt tekniskt fel har upptäckts."
+  ],
+  "steps": [
+   "Anteckna felkoden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten.",
+   "Boka en Miele-tekniker."
+  ],
+  "technician": "Detta är ett tekniskt fel som du inte kan åtgärda själv. Kontakta Mieles kundtjänst."
+ },
+ "Miele|F114": {
+  "title": "Frysens förångargivare är trasig",
+  "causes": [
+   "Förångargivaren i frysdelen är trasig."
+  ],
+  "steps": [
+   "Anteckna felkoden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten.",
+   "Boka en Miele-tekniker."
+  ],
+  "technician": "Detta är ett tekniskt fel som du inte kan åtgärda själv. Kontakta Mieles kundtjänst."
+ },
+ "Miele|F120": {
+  "title": "För låg nätspänning",
+  "causes": [
+   "Nätspänningen är ibland för låg eller varierar mycket."
+  ],
+  "steps": [
+   "Kontrollera om även andra apparater har problem.",
+   "Låt en behörig elektriker kontrollera nätspänningen."
+  ],
+  "technician": "Om spänningen är i ordning och F120 finns kvar, boka en Miele-tekniker."
+ },
+ "Miele|F141": {
+  "title": "Kylskåpsdörren har stått öppen i 15 minuter",
+  "causes": [
+   "Dörren till kylutrymmet har stått öppen i 15 minuter."
+  ],
+  "steps": [
+   "Stäng kylskåpsdörren.",
+   "Kontrollera att inget hindrar den från att stängas."
+  ],
+  "technician": "Om F141 visas fast dörren är stängd, boka en Miele-tekniker."
+ },
+ "Miele|F142": {
+  "title": "Kylskåpsdörren har stått öppen i 30 minuter",
+  "causes": [
+   "Dörren till kylutrymmet har stått öppen i ungefär 30 minuter."
+  ],
+  "steps": [
+   "Stäng kylskåpsdörren.",
+   "Kontrollera att inget hindrar den från att stängas."
+  ],
+  "technician": "Om F142 visas fast dörren är stängd, boka en Miele-tekniker."
+ },
+ "Miele|F383": {
+  "title": "Fel i ismaskinens vatteninlopp",
+  "causes": [
+   "Vatteninloppsslangen är vikt.",
+   "Inloppsfiltret är smutsigt.",
+   "Vattenbehållaren sitter inte på plats eller dess flottör har fastnat.",
+   "Ett programvarufel."
+  ],
+  "steps": [
+   "Räta ut eventuella veck på vattenslangen.",
+   "Rengör inloppsfiltret.",
+   "Ta ut vattenbehållaren, rengör under den och tryck tillbaka den helt.",
+   "Skaka behållaren för att kontrollera att flottören rör sig fritt.",
+   "Ställ in frysen på -18 °C i minst 48 timmar."
+  ],
+  "technician": "Om felet finns kvar, kontakta Mieles kundtjänst."
+ },
+ "Miele|F384": {
+  "title": "Programvaran har kraschat",
+  "causes": [
+   "Apparatens programvara har slutat fungera."
+  ],
+  "steps": [
+   "Dra ur apparatens kontakt i ungefär 2 minuter.",
+   "Sätt i kontakten igen och slå på apparaten.",
+   "Om den fungerar igen, återställ fabriksinställningarna i menyn Inställningar."
+  ],
+  "technician": "Om felet kommer tillbaka, kontakta Mieles kundtjänst."
+ },
+ "Miele|F385": {
+  "title": "Programvaran har kraschat",
+  "causes": [
+   "Apparatens programvara har slutat fungera."
+  ],
+  "steps": [
+   "Dra ur apparatens kontakt i ungefär 2 minuter.",
+   "Sätt i kontakten igen och slå på apparaten.",
+   "Om den fungerar igen, återställ fabriksinställningarna i menyn Inställningar."
+  ],
+  "technician": "Om felet kommer tillbaka, kontakta Mieles kundtjänst."
+ },
+ "Miele|nA": {
+  "title": "Frysen har tidigare blivit för varm",
+  "causes": [
+   "Ett strömavbrott eller avbrott i matningen gjorde att frysen blev varm."
+  ],
+  "steps": [
+   "Håll in larmknappen för att se den högsta temperaturen som uppnåtts.",
+   "Kontrollera maten. Använd tinad mat snart.",
+   "Frys inte om tinad mat om du inte tillagar den först."
+  ],
+  "technician": "Inget fel. Kontakta Miele bara om meddelandet visas utan att strömmen har gått."
+ },
+ "AEG|E08": {
+  "title": "Låg matningsspänning",
+  "causes": [
+   "Nätspänningen har sjunkit under 170 V. Detta skyddar kompressorn."
+  ],
+  "steps": [
+   "Kontrollera om andra apparater har problem med strömmen.",
+   "Vänta tills strömförsörjningen är normal igen."
+  ],
+  "technician": "Om E08 fortsätter att visas, låt kontrollera elnätet och kontakta en auktoriserad AEG-tekniker."
+ },
+ "AEG|E09": {
+  "title": "Frysen är inte tillräckligt kall",
+  "causes": [
+   "Oftast efter ett långt strömavbrott."
+  ],
+  "steps": [
+   "Sänk frysens inställning eller slå på Super Freeze.",
+   "Håll dörrarna stängda tills koden försvinner.",
+   "Använd eller tillaga tinad mat snart.",
+   "Lägg inte in färsk mat förrän koden har försvunnit."
+  ],
+  "technician": "Om koden finns kvar, kontakta en auktoriserad AEG-tekniker."
+ },
+ "AEG|E10": {
+  "title": "Kylskåpet är inte tillräckligt kallt",
+  "causes": [
+   "Ett långt strömavbrott.",
+   "Varm mat har ställts in i kylskåpet."
+  ],
+  "steps": [
+   "Sänk kylskåpets inställning eller slå på Super Cool.",
+   "Håll dörrarna stängda.",
+   "Håll maten borta från luftkanalerna och givaren."
+  ],
+  "technician": "Om E10 kvarstår, boka en reparation hos AEG."
+ },
+ "AEG|E11": {
+  "title": "Kylskåpet är för kallt",
+  "causes": [
+   "Super Cool har lämnats påslaget.",
+   "Temperaturen är inställd för lågt.",
+   "Luftkanalerna är blockerade."
+  ],
+  "steps": [
+   "Stäng av Super Cool.",
+   "Ställ in en varmare temperatur i kylskåpet.",
+   "Se till att luftkanalerna är fria."
+  ],
+  "technician": "Om koden kvarstår, kontakta en auktoriserad AEG-service."
+ },
+ "AEG|F2": {
+  "title": "Fel på termostaten",
+  "causes": [
+   "Ett problem med termostaten."
+  ],
+  "steps": [
+   "Anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Boka en servicetekniker från AEG och uppge koden."
+ },
+ "AEG|F8": {
+  "title": "Fel i avfrostningssystemet",
+  "causes": [
+   "Ett fel i avfrostningssystemet."
+  ],
+  "steps": [
+   "Försök inte reparera den själv.",
+   "Anteckna modell- och serienumret."
+  ],
+  "technician": "Boka en servicetekniker från AEG och uppge F8."
+ },
+ "Electrolux|F5": {
+  "title": "Fel på temperaturgivaren",
+  "causes": [
+   "En temperaturgivare är defekt. F3 och F4 tyder på samma typ av fel."
+  ],
+  "steps": [
+   "Anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Boka en servicetekniker från Electrolux och uppge koden."
+ },
+ "Electrolux|E01": {
+  "title": "Varning från givare",
+  "causes": [
+   "En givare i kyl-/frysskåpet har ett problem."
+  ],
+  "steps": [
+   "Anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Kontakta en auktoriserad Electrolux-serviceverkstad för ett teknikerbesök."
+ },
+ "Electrolux|E02": {
+  "title": "Varning från givare",
+  "causes": [
+   "En givare i kyl-/frysskåpet har ett problem."
+  ],
+  "steps": [
+   "Anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Kontakta en auktoriserad Electrolux-serviceverkstad för ett teknikerbesök."
+ },
+ "Electrolux|E03": {
+  "title": "Varning från givare",
+  "causes": [
+   "En givare i kyl-/frysskåpet har ett problem."
+  ],
+  "steps": [
+   "Anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Kontakta en auktoriserad Electrolux-serviceverkstad för ett teknikerbesök."
+ },
+ "Electrolux|E06": {
+  "title": "Varning från givare",
+  "causes": [
+   "En givare i kyl-/frysskåpet har ett problem."
+  ],
+  "steps": [
+   "Anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Kontakta en auktoriserad Electrolux-serviceverkstad för ett teknikerbesök."
+ },
+ "Electrolux|E07": {
+  "title": "Varning från givare",
+  "causes": [
+   "En givare i kyl-/frysskåpet har ett problem."
+  ],
+  "steps": [
+   "Anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Kontakta en auktoriserad Electrolux-serviceverkstad för ett teknikerbesök."
+ },
+ "Hotpoint|E0": {
+  "title": "Fel på ismaskinen",
+  "causes": [
+   "Ismaskinen fungerar inte som den ska (modeller med ismaskin)."
+  ],
+  "steps": [
+   "Stäng av ismaskinen om det går.",
+   "Fortsätt använda kylskåpet som vanligt."
+  ],
+  "technician": "Kontakta Hotpoints service och boka en tekniker."
+ },
+ "Hotpoint|E1": {
+  "title": "Fel på kylskåpets givare",
+  "causes": [
+   "Kylskåpets temperaturgivare är trasig."
+  ],
+  "steps": [
+   "Anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Kontakta Hotpoints service och boka en tekniker."
+ },
+ "Hotpoint|E2": {
+  "title": "Fel på frysens givare",
+  "causes": [
+   "Frysens temperaturgivare är trasig.",
+   "Frysens temperatur kan vara fel."
+  ],
+  "steps": [
+   "Kontrollera att maten fortfarande är fryst.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Kontakta Hotpoints service och boka en tekniker."
+ },
+ "Hotpoint|E3": {
+  "title": "Fel på avfrostningsgivaren",
+  "causes": [
+   "Avfrostningsgivaren är trasig.",
+   "Ett igensatt dräneringshål kan också påverka temperaturen."
+  ],
+  "steps": [
+   "Kontrollera att avfrostningens dräneringshål och eventuellt dräneringsrör inte är igensatta.",
+   "Rensa försiktigt bort det som sätter igen."
+  ],
+  "technician": "Om felet fortsätter, kontakta Hotpoints service."
+ },
+ "Hotpoint|E4": {
+  "title": "Fel på kylskåpets avfrostningsgivare",
+  "causes": [
+   "Kylskåpets avfrostningsgivare är trasig."
+  ],
+  "steps": [
+   "Anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Kontakta Hotpoints service och boka en tekniker."
+ },
+ "Hotpoint|E5": {
+  "title": "Fel på frysens avfrostningsgivare",
+  "causes": [
+   "Frysens avfrostningsgivare är trasig."
+  ],
+  "steps": [
+   "Anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Kontakta Hotpoints service och boka en tekniker."
+ },
+ "Hotpoint|E6": {
+  "title": "Fel på styrkortet eller displaykortet",
+  "causes": [
+   "Huvudstyrkortet eller displaykortet är trasigt."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt i några minuter och sätt sedan i den igen."
+  ],
+  "technician": "Kontakta Hotpoints service och boka en tekniker."
+ },
+ "Hotpoint|E7": {
+  "title": "Fel på rumstemperaturgivaren",
+  "causes": [
+   "Givaren för omgivningstemperatur är trasig."
+  ],
+  "steps": [
+   "Anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Kontakta Hotpoints service och boka en tekniker."
+ },
+ "Hotpoint|E8": {
+  "title": "Fel på rumstemperaturgivaren",
+  "causes": [
+   "Givaren för omgivningstemperatur är trasig."
+  ],
+  "steps": [
+   "Anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Kontakta Hotpoints service och boka en tekniker."
+ },
+ "Hotpoint|E9": {
+  "title": "Larm för hög temperatur i frysen",
+  "causes": [
+   "Frysdörren stod öppen och frysen blev varm."
+  ],
+  "steps": [
+   "Stäng frysdörren ordentligt.",
+   "Kontrollera att inget blockerar dörren.",
+   "Kontrollera om maten har tinat."
+  ],
+  "technician": "Om larmet fortsätter fast dörren är stängd, kontakta Hotpoints service."
+ },
+ "Hotpoint|EE": {
+  "title": "Fel i ismaskinens krets",
+  "causes": [
+   "Ett fel i ismaskinens krets (modeller med ismaskin)."
+  ],
+  "steps": [
+   "Stäng av ismaskinen om det går."
+  ],
+  "technician": "Kontakta Hotpoints service och boka en tekniker."
+ },
+ "Indesit|E0": {
+  "title": "Fel på ismaskinen",
+  "causes": [
+   "Ismaskinen fungerar inte som den ska (modeller med ismaskin)."
+  ],
+  "steps": [
+   "Stäng av ismaskinen om det går.",
+   "Fortsätt använda kylskåpet som vanligt."
+  ],
+  "technician": "Kontakta Indesits service och boka en tekniker."
+ },
+ "Indesit|E1": {
+  "title": "Fel på kylskåpets givare",
+  "causes": [
+   "Kylskåpets temperaturgivare är trasig."
+  ],
+  "steps": [
+   "Anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Kontakta Indesits service och boka en tekniker."
+ },
+ "Indesit|E2": {
+  "title": "Fel på frysens givare",
+  "causes": [
+   "Frysens temperaturgivare är trasig.",
+   "Frysens temperatur kan vara fel."
+  ],
+  "steps": [
+   "Kontrollera att maten fortfarande är fryst.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Kontakta Indesits service och boka en tekniker."
+ },
+ "Indesit|E3": {
+  "title": "Fel på avfrostningsgivaren",
+  "causes": [
+   "Avfrostningsgivaren är trasig.",
+   "Ett igensatt dräneringshål kan också påverka temperaturen."
+  ],
+  "steps": [
+   "Kontrollera att avfrostningens dräneringshål och eventuellt dräneringsrör inte är igensatta.",
+   "Rensa försiktigt bort det som sätter igen."
+  ],
+  "technician": "Om felet fortsätter, kontakta Indesits service."
+ },
+ "Indesit|E4": {
+  "title": "Fel på kylskåpets avfrostningsgivare",
+  "causes": [
+   "Kylskåpets avfrostningsgivare är trasig."
+  ],
+  "steps": [
+   "Anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Kontakta Indesits service och boka en tekniker."
+ },
+ "Indesit|E5": {
+  "title": "Fel på frysens avfrostningsgivare",
+  "causes": [
+   "Frysens avfrostningsgivare är trasig."
+  ],
+  "steps": [
+   "Anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Kontakta Indesits service och boka en tekniker."
+ },
+ "Indesit|E6": {
+  "title": "Fel på styrkortet eller displaykortet",
+  "causes": [
+   "Huvudstyrkortet eller displaykortet är trasigt."
+  ],
+  "steps": [
+   "Dra ur kylskåpets kontakt i några minuter och sätt sedan i den igen."
+  ],
+  "technician": "Kontakta Indesits service och boka en tekniker."
+ },
+ "Indesit|E7": {
+  "title": "Fel på rumstemperaturgivaren",
+  "causes": [
+   "Givaren för omgivningstemperatur är trasig."
+  ],
+  "steps": [
+   "Anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Kontakta Indesits service och boka en tekniker."
+ },
+ "Indesit|E8": {
+  "title": "Fel på rumstemperaturgivaren",
+  "causes": [
+   "Givaren för omgivningstemperatur är trasig."
+  ],
+  "steps": [
+   "Anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Kontakta Indesits service och boka en tekniker."
+ },
+ "Indesit|E9": {
+  "title": "Larm för hög temperatur i frysen",
+  "causes": [
+   "Frysdörren stod öppen och frysen blev varm."
+  ],
+  "steps": [
+   "Stäng frysdörren ordentligt.",
+   "Kontrollera att inget blockerar dörren.",
+   "Kontrollera om maten har tinat."
+  ],
+  "technician": "Om larmet fortsätter fast dörren är stängd, kontakta Indesits service."
+ },
+ "Indesit|EE": {
+  "title": "Fel i ismaskinens krets",
+  "causes": [
+   "Ett fel i ismaskinens krets (modeller med ismaskin)."
+  ],
+  "steps": [
+   "Stäng av ismaskinen om det går."
+  ],
+  "technician": "Kontakta Indesits service och boka en tekniker."
+ },
+ "Whirlpool|F3 E1": {
+  "title": "Systemfel (blinkande F)",
+  "causes": [
+   "Styrningen har upptäckt ett fel. Whirlpool anger ingen egen åtgärd utöver en återställning."
+  ],
+  "steps": [
+   "Slå av säkringen eller dra ur kylskåpets kontakt i en minut.",
+   "Slå på strömmen igen.",
+   "Se till att kylningen är påslagen.",
+   "Håll uppsikt i en minut för att se om koden kommer tillbaka."
+  ],
+  "technician": "Om koden kommer tillbaka efter återställningen, boka service hos Whirlpool."
+ },
+ "Whirlpool|F3 E2": {
+  "title": "Systemfel (blinkande F)",
+  "causes": [
+   "Styrningen har upptäckt ett fel. Whirlpool anger ingen egen åtgärd utöver en återställning."
+  ],
+  "steps": [
+   "Slå av säkringen eller dra ur kylskåpets kontakt i en minut.",
+   "Slå på strömmen igen.",
+   "Se till att kylningen är påslagen.",
+   "Håll uppsikt i en minut för att se om koden kommer tillbaka."
+  ],
+  "technician": "Om koden kommer tillbaka efter återställningen, boka service hos Whirlpool."
+ },
+ "Whirlpool|F6 E1": {
+  "title": "Systemfel (blinkande F)",
+  "causes": [
+   "Styrningen har upptäckt ett fel. Whirlpool anger ingen egen åtgärd utöver en återställning."
+  ],
+  "steps": [
+   "Slå av säkringen eller dra ur kylskåpets kontakt i en minut.",
+   "Slå på strömmen igen.",
+   "Se till att kylningen är påslagen.",
+   "Håll uppsikt i en minut för att se om koden kommer tillbaka."
+  ],
+  "technician": "Om koden kommer tillbaka efter återställningen, boka service hos Whirlpool."
+ },
+ "Whirlpool|F8 E1": {
+  "title": "Systemfel (blinkande F)",
+  "causes": [
+   "Styrningen har upptäckt ett fel. Whirlpool anger ingen egen åtgärd utöver en återställning."
+  ],
+  "steps": [
+   "Slå av säkringen eller dra ur kylskåpets kontakt i en minut.",
+   "Slå på strömmen igen.",
+   "Se till att kylningen är påslagen.",
+   "Håll uppsikt i en minut för att se om koden kommer tillbaka."
+  ],
+  "technician": "Om koden kommer tillbaka efter återställningen, boka service hos Whirlpool."
+ },
+ "Whirlpool|F8 E2": {
+  "title": "Systemfel (blinkande F)",
+  "causes": [
+   "Styrningen har upptäckt ett fel. Whirlpool anger ingen egen åtgärd utöver en återställning."
+  ],
+  "steps": [
+   "Slå av säkringen eller dra ur kylskåpets kontakt i en minut.",
+   "Slå på strömmen igen.",
+   "Se till att kylningen är påslagen.",
+   "Håll uppsikt i en minut för att se om koden kommer tillbaka."
+  ],
+  "technician": "Om koden kommer tillbaka efter återställningen, boka service hos Whirlpool."
+ },
+ "Whirlpool|PO": {
+  "title": "Varning för strömavbrott",
+  "causes": [
+   "Strömmen bröts och frysen blev varmare än -8 °C (18 °F)."
+  ],
+  "steps": [
+   "Tryck på knappen under den blinkande texten Confirm för att ta bort varningen.",
+   "Kontrollera om den frysta maten har tinat."
+  ],
+  "technician": "Inget fel. Kontakta Whirlpool bara om PO visas utan att strömmen verkligen har gått."
+ },
+ "Bosch|E02": {
+  "title": "Fel på ismaskinen eller vattensystemet",
+  "causes": [
+   "Ismaskinen är trasig.",
+   "Styrningen för is och vatten kommunicerar inte."
+  ],
+  "steps": [
+   "Slå av kylskåpets säkring i 30 sekunder.",
+   "Slå på den igen och kontrollera koden."
+  ],
+  "technician": "Om E02 finns kvar, kontakta Boschs kundtjänst."
+ },
+ "Bosch|E03": {
+  "title": "Fel i dispenserns styrning",
+  "causes": [
+   "Dispenserns kontrollpanel har ett fel."
+  ],
+  "steps": [
+   "Slå av kylskåpets säkring i 30 sekunder.",
+   "Slå på den igen och kontrollera koden."
+  ],
+  "technician": "Om E03 finns kvar, kontakta Boschs kundtjänst."
+ },
+ "Haier|F1": {
+  "title": "Fel på givare",
+  "causes": [
+   "En temperaturgivare är trasig."
+  ],
+  "steps": [
+   "Stäng av och slå på kylskåpet en gång för att se om koden försvinner.",
+   "Om den kommer tillbaka, anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Användaren kan inte åtgärda detta. Kontakta Haiers service för en tekniker."
+ },
+ "Haier|E0": {
+  "title": "Kommunikationsfel",
+  "causes": [
+   "Interna kretskort kommunicerar inte."
+  ],
+  "steps": [
+   "Stäng av och slå på kylskåpet en gång för att se om koden försvinner.",
+   "Om den kommer tillbaka, anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Användaren kan inte åtgärda detta. Kontakta Haiers service för en tekniker."
+ },
+ "Haier|E1": {
+  "title": "Fel på fläkt",
+  "causes": [
+   "En fläkt fungerar inte."
+  ],
+  "steps": [
+   "Stäng av och slå på kylskåpet en gång för att se om koden försvinner.",
+   "Om den kommer tillbaka, anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Användaren kan inte åtgärda detta. Kontakta Haiers service för en tekniker."
+ },
+ "Haier|Er": {
+  "title": "Fel på ismaskinen",
+  "causes": [
+   "Ismaskinen är trasig."
+  ],
+  "steps": [
+   "Stäng av och slå på kylskåpet en gång för att se om koden försvinner.",
+   "Om den kommer tillbaka, anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Användaren kan inte åtgärda detta. Kontakta Haiers service för en tekniker."
+ },
+ "Haier|Ed": {
+  "title": "Fel vid avfrostning",
+  "causes": [
+   "Avfrostningssystemet är trasigt."
+  ],
+  "steps": [
+   "Stäng av och slå på kylskåpet en gång för att se om koden försvinner.",
+   "Om den kommer tillbaka, anteckna koden.",
+   "Håll dörrarna stängda så mycket som möjligt för att skydda maten."
+  ],
+  "technician": "Användaren kan inte åtgärda detta. Kontakta Haiers service för en tekniker."
+ }
+}

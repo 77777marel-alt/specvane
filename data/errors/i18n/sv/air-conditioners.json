@@ -1,0 +1,1180 @@
+{
+ "LG|CH00": {
+  "title": "Aggregatet behöver kontrolleras (allmänt fel)",
+  "causes": [
+   "En tillfällig spänningsvariation eller elektrisk störning.",
+   "Ett internt fel som behöver kontrolleras."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om CH00 kommer tillbaka efter att strömmen har slagits av och på, beställ en tekniker från LG."
+ },
+ "LG|CH01": {
+  "title": "Fel på temperaturgivaren",
+  "causes": [
+   "En temperatur- eller rörgivare är trasig eller har lossnat.",
+   "Ett fel på huvudkortet eller en kort elektrisk störning."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet.",
+   "Kontrollera om koden har försvunnit."
+  ],
+  "technician": "Om koden kommer tillbaka efter en återställning, sluta använda aggregatet och boka service hos LG. Öppna inte aggregatet."
+ },
+ "LG|CH02": {
+  "title": "Fel på temperaturgivaren",
+  "causes": [
+   "En temperatur- eller rörgivare är trasig eller har lossnat.",
+   "Ett fel på huvudkortet eller en kort elektrisk störning."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet.",
+   "Kontrollera om koden har försvunnit."
+  ],
+  "technician": "Om koden kommer tillbaka efter en återställning, sluta använda aggregatet och boka service hos LG. Öppna inte aggregatet."
+ },
+ "LG|CH06": {
+  "title": "Fel på temperaturgivaren",
+  "causes": [
+   "En temperatur- eller rörgivare är trasig eller har lossnat.",
+   "Ett fel på huvudkortet eller en kort elektrisk störning."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet.",
+   "Kontrollera om koden har försvunnit."
+  ],
+  "technician": "Om koden kommer tillbaka efter en återställning, sluta använda aggregatet och boka service hos LG. Öppna inte aggregatet."
+ },
+ "LG|CH21": {
+  "title": "Fel på kompressorn eller drivkretsen i utomhusdelen",
+  "causes": [
+   "Ett kortvarigt strömproblem.",
+   "Ett fel i kompressorn, dess drivkrets eller skyddskrets i utomhusdelen."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kvarstår, sluta använda aggregatet och beställ en tekniker från LG."
+ },
+ "LG|CH26": {
+  "title": "Fel på kompressorn eller drivkretsen i utomhusdelen",
+  "causes": [
+   "Ett kortvarigt strömproblem.",
+   "Ett fel i kompressorn, dess drivkrets eller skyddskrets i utomhusdelen."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kvarstår, sluta använda aggregatet och beställ en tekniker från LG."
+ },
+ "LG|CH04": {
+  "title": "Problem med dräneringen eller full kondensvattentank",
+  "causes": [
+   "Dräneringen inomhus fungerar inte (takmonterade enheter).",
+   "På fönster- och portabla aggregat är kondensvattentanken full, ofta under fuktiga dagar."
+  ],
+  "steps": [
+   "Stäng av aggregatet och dra ur kontakten.",
+   "På fönster- eller portabla aggregat: ställ ett kärl på ungefär 1,5 liter under dräneringsöppningen längst ned på baksidan och ta bort dräneringslocket.",
+   "Låt vattnet rinna ut och sätt sedan tillbaka locket ordentligt.",
+   "Du kan ansluta en dräneringsslang för kontinuerlig tömning; se till att vattnet inte droppar på någon nedanför."
+  ],
+  "technician": "Om CH04/FL visas ofta även i torrt väder, eller på en takmonterad enhet efter återställning, boka service hos LG."
+ },
+ "LG|CH05": {
+  "title": "Kommunikationsfel mellan inomhus- och utomhusdel",
+  "causes": [
+   "Inomhus- och utomhusdelen kan inte kommunicera.",
+   "Problem med ledningsdragningen efter en ny installation eller flytt."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden finns kvar efter en återställning, eller om aggregatet nyss har installerats eller flyttats, beställ service."
+ },
+ "LG|CH07": {
+  "title": "Konflikt mellan driftlägen",
+  "causes": [
+   "Två inomhusdelar i samma system är inställda på motsatta lägen (värme respektive kyla/avfuktning)."
+  ],
+  "steps": [
+   "Ställ alla inomhusdelar på värme, eller alla på kyla/avfuktning.",
+   "Fläkt- och luftreningsläget kan köras tillsammans med alla lägen."
+  ],
+  "technician": "Om koden finns kvar fast alla enheter står i samma läge, kontakta LG:s support."
+ },
+ "LG|CH10": {
+  "title": "Problem med inomhusfläkten",
+  "causes": [
+   "Skräp eller is blockerar inomhusfläkten.",
+   "Fel på fläktmotorn."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Ta bort synligt skräp från luftintaget och luftutblåset. Öppna inte höljet.",
+   "Kontrollera inomhusdelens luftfilter och rengör dem om de är dammiga.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om inget blockerar fläkten och koden kommer tillbaka, beställ service."
+ },
+ "LG|CH67": {
+  "title": "Problem med utomhusfläkten",
+  "causes": [
+   "Skräp eller snö blockerar utomhusfläkten.",
+   "Fel på utomhusfläktens motor."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Ta bort löv, snö eller föremål runt utomhusdelens galler.",
+   "Se till att inget hindrar luftflödet runt utomhusdelen (lådor, växter, snö, löv).",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om inget blockerar den och koden kommer tillbaka, beställ service."
+ },
+ "LG|CH38": {
+  "title": "Lite köldmedium",
+  "causes": [
+   "Köldmediefyllningen är låg, ofta efter installation eller flytt.",
+   "En lös röranslutning eller en läcka."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om aggregatet nyligen har installerats eller flyttats, kontakta installatören; annars kontakta LG:s support om koden kommer tillbaka. Arbete med köldmedium får bara utföras av tekniker."
+ },
+ "LG|CH54": {
+  "title": "Fel fasföljd eller fel i strömförsörjningen",
+  "causes": [
+   "Ett kort strömavbrott eller nyligen utfört elarbete.",
+   "Faserna är felkopplade."
+  ],
+  "steps": [
+   "Slå av och på luftkonditioneringens säkring."
+  ],
+  "technician": "Om koden började visas efter elarbete, be elektrikern rätta till kopplingen; annars beställ service från LG."
+ },
+ "LG|CH61": {
+  "title": "Aggregatet överhettas",
+  "causes": [
+   "Vid kyla: utomhusdelen är dåligt ventilerad, till exempel på en inglasad balkong.",
+   "Vid värme: inomhusfiltret är igensatt."
+  ],
+  "steps": [
+   "Vid kyla: öppna fönster eller skärmar nära utomhusdelen och ta bort saker runt den.",
+   "Kontrollera inomhusdelens luftfilter och rengör dem om de är dammiga.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kvarstår efter återställning och bättre luftflöde måste en tekniker kontrollera aggregatet."
+ },
+ "LG|CH66": {
+  "title": "Problem med ledningar eller rör mellan inomhus- och utomhusdel",
+  "causes": [
+   "Ett problem med kommunikationsledningen eller röranslutningen mellan enheterna."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om aggregatet nyss har installerats eller flyttats, kontakta installatören; om koden kvarstår, beställ en tekniker."
+ },
+ "LG|CH90": {
+  "title": "Skydd under provkörning",
+  "causes": [
+   "Provkörningen upptäckte ett problem, ofta med röranslutningarna."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om aggregatet är nytt eller har flyttats, be installatören kontrollera rören; annars beställ service om felet kvarstår."
+ },
+ "LG|CH93": {
+  "title": "Instabil kommunikation mellan inomhus- och utomhusdel",
+  "causes": [
+   "Instabil kommunikation under provkörningen.",
+   "På nyare modeller har utomhusdelen ingen ström."
+  ],
+  "steps": [
+   "Kontrollera att båda elsladdarna är anslutna (nyare modeller har en per enhet).",
+   "Anslut utomhusdelen direkt till ett vägguttag, inte en grenkontakt.",
+   "Se till att säkringen för luftkonditioneringen är påslagen. Om den inte förblir påslagen, fortsätt inte att återställa den.",
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om säkringen fortsätter att lösa ut eller koden kvarstår, beställ service från LG."
+ },
+ "Samsung|E121": {
+  "title": "Fel på rumstemperaturgivaren",
+  "causes": [
+   "Inomhusdelens rumstemperaturgivare är trasig."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet.",
+   "Anteckna koden och ditt modellnummer innan du ringer service."
+  ],
+  "technician": "Detta kräver en auktoriserad reparation från Samsung; kontakta Samsungs service."
+ },
+ "Samsung|E122": {
+  "title": "Fel på värmeväxlarens temperaturgivare",
+  "causes": [
+   "Givaren på inomhusdelens värmeväxlare är trasig."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet.",
+   "Anteckna koden och ditt modellnummer innan du ringer service."
+  ],
+  "technician": "Detta kräver en auktoriserad reparation från Samsung; kontakta Samsungs service."
+ },
+ "Samsung|E154": {
+  "title": "Inomhusfläkten snurrar inte",
+  "causes": [
+   "Inomhusfläktens motor är i skyddsläge, till exempel efter en spänningstopp.",
+   "Fläktmotorn eller styrkortet är trasigt."
+  ],
+  "steps": [
+   "Stäng av aggregatet, vänta några sekunder och slå på det igen.",
+   "Håll uppsikt på om koden kommer tillbaka inom ungefär 10 sekunder.",
+   "I områden med täta spänningstoppar kan du överväga en spänningsstabilisator."
+  ],
+  "technician": "Om koden kommer tillbaka direkt efter omstart, kontakta Samsungs service."
+ },
+ "Samsung|E163": {
+  "title": "Fel i styrkortets minne (EEPROM)",
+  "causes": [
+   "Data i huvudkortets minne är felaktiga eller saknas."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet.",
+   "Anteckna koden och ditt modellnummer innan du ringer service."
+  ],
+  "technician": "Detta kräver en auktoriserad reparation från Samsung; kontakta Samsungs service."
+ },
+ "Samsung|CF": {
+  "title": "Påminnelse om filterrengöring",
+  "causes": [
+   "Timern för filterrengöring har löpt ut."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Ta ut och rengör inomhusdelens filter.",
+   "Sätt tillbaka filtren och återställ filterindikatorn."
+  ],
+  "technician": "Ingen tekniker behövs för den här påminnelsen."
+ },
+ "Samsung|dF": {
+  "title": "Avfrostning i värmeläge",
+  "causes": [
+   "Utomhusdelen smälter is under uppvärmningen. Ånga från utomhusdelen är normalt."
+  ],
+  "steps": [
+   "Vänta; uppvärmningen fortsätter när avfrostningen är klar.",
+   "Ingen åtgärd behövs."
+  ],
+  "technician": "Kontakta service bara om aggregatet står i avfrostning mycket länge och inte värmer."
+ },
+ "Daikin|A1": {
+  "title": "Fel på inomhusdelens kretskort",
+  "causes": [
+   "Inomhusdelens styrkort har ett fel."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|A3": {
+  "title": "Problem med dräneringsnivåns styrning",
+  "causes": [
+   "Kondensvattnet töms inte från inomhusdelen.",
+   "Dräneringsröret kan vara igensatt."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Kontrollera att dräneringsslangen utomhus inte är vikt eller igensatt.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|A5": {
+  "title": "Frysskydd eller högtrycksskydd",
+  "causes": [
+   "Vid kyla blir inomhusbatteriet för kallt.",
+   "Vid värme är trycket för högt, ofta på grund av dåligt luftflöde."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Kontrollera inomhusdelens luftfilter och rengör dem om de är dammiga.",
+   "Kontrollera att inget blockerar inomhusdelens luftintag eller luftutblås.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|A6": {
+  "title": "Fel på inomhusfläktens motor",
+  "causes": [
+   "Inomhusfläktens motor eller dess styrning har gått sönder eller är blockerad."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Kontrollera att inget har fastnat i inomhusdelens utblås. Öppna inte höljet.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|C4": {
+  "title": "Fel på inomhusbatteriets temperaturgivare",
+  "causes": [
+   "Vätskerörets termistor på inomhusdelens värmeväxlare är trasig."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|C9": {
+  "title": "Fel på rumsgivaren (insugsluft)",
+  "causes": [
+   "Inomhusdelens lufttermistor är trasig."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|E1": {
+  "title": "Fel på utomhusdelens kretskort",
+  "causes": [
+   "Utomhusdelens styrkort har ett fel."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|E3": {
+  "title": "Högtrycksvakten har löst ut",
+  "causes": [
+   "Trycket i systemet är för högt, ofta på grund av dåligt luftflöde utomhus eller ett smutsigt batteri."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Se till att inget hindrar luftflödet runt utomhusdelen (lådor, växter, snö, löv).",
+   "Kontrollera inomhusdelens luftfilter och rengör dem om de är dammiga.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|E5": {
+  "title": "Kompressorn är överhettad eller låst",
+  "causes": [
+   "Inverterkompressorn har överhettats eller startar inte."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Se till att inget hindrar luftflödet runt utomhusdelen (lådor, växter, snö, löv).",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|E6": {
+  "title": "Överström i kompressorn eller låst kompressor",
+  "causes": [
+   "Kompressorn drar för mycket ström eller har fastnat."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|E7": {
+  "title": "Fel på utomhusfläktens motor",
+  "causes": [
+   "Utomhusfläktens motorsystem har ett fel eller är blockerat."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Ta bort löv, snö eller föremål från utomhusdelens galler.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|E8": {
+  "title": "Överström i kompressorn",
+  "causes": [
+   "Inverterkompressorns ingångsström är för hög."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|F3": {
+  "title": "För hög temperatur i hetgasröret",
+  "causes": [
+   "Kompressorns hetgasrör överhettas, till exempel på grund av lite köldmedium eller dåligt luftflöde."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Se till att inget hindrar luftflödet runt utomhusdelen (lådor, växter, snö, löv).",
+   "Kontrollera inomhusdelens luftfilter och rengör dem om de är dammiga.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|F6": {
+  "title": "Onormalt högt tryck",
+  "causes": [
+   "Köldmedietrycket är för högt, möjligen på grund av överfyllning eller blockerat luftflöde."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Se till att inget hindrar luftflödet runt utomhusdelen (lådor, växter, snö, löv).",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|H6": {
+  "title": "Fel på kompressorns positionsgivare",
+  "causes": [
+   "Detekteringen av kompressorrotorns position har slutat fungera."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|H8": {
+  "title": "Fel på kompressorns strömgivare",
+  "causes": [
+   "Kretsen för kompressorns ingångsström (CT) har ett fel."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|H9": {
+  "title": "Fel på utomhusgivaren",
+  "causes": [
+   "Utomhusluftens termistor är trasig."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|J3": {
+  "title": "Fel på hetgasrörets givare",
+  "causes": [
+   "Hetgasrörets termistor är trasig."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|L4": {
+  "title": "Inverterns kylfläns överhettas",
+  "causes": [
+   "Inverterns kylfläns är för varm, ofta på grund av blockerat luftflöde utomhus."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Se till att inget hindrar luftflödet runt utomhusdelen (lådor, växter, snö, löv).",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|L5": {
+  "title": "Överström i invertern",
+  "causes": [
+   "En plötslig överström vid inverterns utgång, ofta på grund av ett problem med kompressorn."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|U0": {
+  "title": "Brist på köldmedium",
+  "causes": [
+   "Systemet har för lite köldmedium, oftast på grund av en läcka."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Kontrollera inomhusdelens luftfilter och rengör dem om de är dammiga.",
+   "Försök inte fylla på köldmedium själv."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|U2": {
+  "title": "Problem med strömförsörjningen",
+  "causes": [
+   "Matningsspänningen är onormal eller det har varit ett kort strömavbrott."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Daikin|U4": {
+  "title": "Kommunikationsfel mellan inomhus- och utomhusdel",
+  "causes": [
+   "Signalerna mellan inomhus- och utomhusdelen har förlorats.",
+   "Ett problem med ledningarna eller ett fel på något av korten."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om koden kommer tillbaka efter dessa kontroller, kontakta en servicetekniker från Daikin; felet kräver professionell felsökning."
+ },
+ "Panasonic|H00": {
+  "title": "Inget fel lagrat",
+  "causes": [
+   "Självdiagnosminnet har inte registrerat någon avvikelse."
+  ],
+  "steps": [
+   "Ingen åtgärd behövs.",
+   "Om aggregatet inte fungerar, kontrollera strömförsörjningen och fjärrkontrollens batterier."
+  ],
+  "technician": "Om aggregatet inte går men visar H00, kontakta en servicetekniker från Panasonic."
+ },
+ "Panasonic|H11": {
+  "title": "Kommunikationsfel mellan inomhus- och utomhusdel",
+  "causes": [
+   "Inomhus- och utomhusdelen kan inte kommunicera."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Panasonic rekommenderar att reparationer för den här koden utförs av en behörig servicetekniker; kontakta en om koden kommer tillbaka."
+ },
+ "Panasonic|H12": {
+  "title": "Inomhusdelens kapacitet passar inte",
+  "causes": [
+   "Inomhusdelen passar inte utomhusdelens kapacitet, oftast ett installationsfel."
+  ],
+  "steps": [
+   "Anteckna koden och ditt modellnummer innan du ringer service."
+  ],
+  "technician": "Kontakta din installatör eller en Panasonic-tekniker för att kontrollera kombinationen av enheter."
+ },
+ "Panasonic|H14": {
+  "title": "Fel på inomhusdelens lufttemperaturgivare",
+  "causes": [
+   "Inomhusdelens givare för insugsluft är trasig."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Panasonic rekommenderar att reparationer för den här koden utförs av en behörig servicetekniker; kontakta en om koden kommer tillbaka."
+ },
+ "Panasonic|H15": {
+  "title": "Fel på kompressorns temperaturgivare",
+  "causes": [
+   "Kompressorns temperaturgivare är trasig."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Panasonic rekommenderar att reparationer för den här koden utförs av en behörig servicetekniker; kontakta en om koden kommer tillbaka."
+ },
+ "Panasonic|H16": {
+  "title": "Fel på utomhusdelens strömgivare",
+  "causes": [
+   "Utomhusdelens strömtransformator (CT) är trasig."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Panasonic rekommenderar att reparationer för den här koden utförs av en behörig servicetekniker; kontakta en om koden kommer tillbaka."
+ },
+ "Panasonic|H19": {
+  "title": "Inomhusfläktens motor är låst",
+  "causes": [
+   "Inomhusfläktens motor är låst eller trasig."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Kontrollera att inget har fastnat i inomhusdelens utblås. Öppna inte höljet.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Panasonic rekommenderar att reparationer för den här koden utförs av en behörig servicetekniker; kontakta en om koden kommer tillbaka."
+ },
+ "Panasonic|H23": {
+  "title": "Fel på inomhusdelens värmeväxlargivare",
+  "causes": [
+   "Inomhusbatteriets temperaturgivare är trasig."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Panasonic rekommenderar att reparationer för den här koden utförs av en behörig servicetekniker; kontakta en om koden kommer tillbaka."
+ },
+ "Panasonic|H27": {
+  "title": "Fel på utomhusgivaren",
+  "causes": [
+   "Utomhusluftens temperaturgivare är trasig."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Panasonic rekommenderar att reparationer för den här koden utförs av en behörig servicetekniker; kontakta en om koden kommer tillbaka."
+ },
+ "Panasonic|H28": {
+  "title": "Fel på utomhusdelens värmeväxlargivare",
+  "causes": [
+   "Utomhusbatteriets temperaturgivare är trasig."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Panasonic rekommenderar att reparationer för den här koden utförs av en behörig servicetekniker; kontakta en om koden kommer tillbaka."
+ },
+ "Panasonic|H33": {
+  "title": "Inomhus- och utomhusdelen är felaktigt anslutna",
+  "causes": [
+   "Anslutningen mellan enheterna är felaktig, oftast efter installationen."
+  ],
+  "steps": [
+   "Anteckna koden och ditt modellnummer innan du ringer service."
+  ],
+  "technician": "Be installatören eller en Panasonic-tekniker kontrollera ledningarna."
+ },
+ "Panasonic|H97": {
+  "title": "Utomhusfläktens motor är låst",
+  "causes": [
+   "Utomhusfläkten är blockerad eller dess motor har gått sönder."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Ta bort löv, snö eller föremål runt utomhusfläktens galler.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Panasonic rekommenderar att reparationer för den här koden utförs av en behörig servicetekniker; kontakta en om koden kommer tillbaka."
+ },
+ "Panasonic|H98": {
+  "title": "Högtrycksskydd i inomhusdelen",
+  "causes": [
+   "Trycket är för högt vid värme, ofta på grund av ett smutsigt filter."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Kontrollera inomhusdelens luftfilter och rengör dem om de är dammiga.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Panasonic rekommenderar att reparationer för den här koden utförs av en behörig servicetekniker; kontakta en om koden kommer tillbaka."
+ },
+ "Panasonic|H99": {
+  "title": "Frysskydd i inomhusdelen",
+  "causes": [
+   "Inomhusbatteriet blev för kallt vid kyla, ofta på grund av ett smutsigt filter eller lågt luftflöde."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Kontrollera inomhusdelens luftfilter och rengör dem om de är dammiga.",
+   "Låt eventuell is på inomhusbatteriet smälta innan du startar om.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Panasonic rekommenderar att reparationer för den här koden utförs av en behörig servicetekniker; kontakta en om koden kommer tillbaka."
+ },
+ "Panasonic|F11": {
+  "title": "Fel vid omkoppling av 4-vägsventilen",
+  "causes": [
+   "Ventilen som växlar mellan kyla och värme fungerar inte."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Panasonic rekommenderar att reparationer för den här koden utförs av en behörig servicetekniker; kontakta en om koden kommer tillbaka."
+ },
+ "Panasonic|F91": {
+  "title": "Fel i köldmediekretsen",
+  "causes": [
+   "Köldmediekretsen fungerar inte korrekt, ofta på grund av lite köldmedium."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Kontrollera inomhusdelens luftfilter och rengör dem om de är dammiga.",
+   "Försök inte göra något arbete med köldmediet själv."
+  ],
+  "technician": "Panasonic rekommenderar att reparationer för den här koden utförs av en behörig servicetekniker; kontakta en om koden kommer tillbaka."
+ },
+ "Panasonic|F93": {
+  "title": "Onormalt varvtal i kompressorn",
+  "causes": [
+   "Kompressorn går med onormalt varvtal."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Panasonic rekommenderar att reparationer för den här koden utförs av en behörig servicetekniker; kontakta en om koden kommer tillbaka."
+ },
+ "Panasonic|F95": {
+  "title": "Högtrycksskydd i utomhusdelen vid kyla",
+  "causes": [
+   "Trycket är för högt, ofta på grund av dåligt luftflöde utomhus."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Se till att inget hindrar luftflödet runt utomhusdelen (lådor, växter, snö, löv).",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Panasonic rekommenderar att reparationer för den här koden utförs av en behörig servicetekniker; kontakta en om koden kommer tillbaka."
+ },
+ "Panasonic|F97": {
+  "title": "Överhettningsskydd för kompressorn",
+  "causes": [
+   "Kompressorn överhettas."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Se till att inget hindrar luftflödet runt utomhusdelen (lådor, växter, snö, löv).",
+   "Kontrollera inomhusdelens luftfilter och rengör dem om de är dammiga.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Panasonic rekommenderar att reparationer för den här koden utförs av en behörig servicetekniker; kontakta en om koden kommer tillbaka."
+ },
+ "Panasonic|F99": {
+  "title": "DC-strömtopp upptäckt i utomhusdelen",
+  "causes": [
+   "En onormal strömtopp har upptäckts i utomhusdelen."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Panasonic rekommenderar att reparationer för den här koden utförs av en behörig servicetekniker; kontakta en om koden kommer tillbaka."
+ },
+ "Gree|E1": {
+  "title": "Högtrycksskydd",
+  "causes": [
+   "Smutsiga batterier eller filter.",
+   "En strypning i systemet eller för mycket köldmedium."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Kontrollera inomhusdelens luftfilter och rengör dem om de är dammiga.",
+   "Se till att inget hindrar luftflödet runt utomhusdelen (lådor, växter, snö, löv).",
+   "Kontrollera att båda fläktarna går när aggregatet är på.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om filter och batterier är rena, kontakta en kyltekniker som kan kontrollera trycken och högtrycksvakten."
+ },
+ "Gree|E3": {
+  "title": "Lågtrycksskydd",
+  "causes": [
+   "Smutsiga filter eller batterier.",
+   "En köldmedieläcka."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Kontrollera inomhusdelens luftfilter och rengör dem om de är dammiga.",
+   "Se till att inget hindrar luftflödet runt utomhusdelen (lådor, växter, snö, löv)."
+  ],
+  "technician": "Om filter och batterier är rena måste en tekniker kontrollera köldmediefyllningen och leta efter läckor."
+ },
+ "Gree|E5": {
+  "title": "Överströmsskydd",
+  "causes": [
+   "Matningsspänningen är för hög, eller låg och instabil."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "En tekniker bör kontrollera och stabilisera strömförsörjningen."
+ },
+ "Gree|E7": {
+  "title": "Konflikt mellan lägen",
+  "causes": [
+   "Inomhusdelar som är anslutna till samma utomhusdel är inställda på olika lägen."
+  ],
+  "steps": [
+   "Ställ alla inomhusdelar på samma läge (alla på kyla eller alla på värme)."
+  ],
+  "technician": "Om koden finns kvar fast alla enheter står i samma läge, kontakta en servicetekniker från Gree."
+ },
+ "Gree|F1": {
+  "title": "Fel på inomhusdelens rumsgivare",
+  "causes": [
+   "Inomhusdelens givare för omgivningstemperatur är trasig."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Fel på givare kräver oftast en reservdel som monteras av en behörig tekniker."
+ },
+ "Gree|F2": {
+  "title": "Fel på inomhusbatteriets givare",
+  "causes": [
+   "Inomhusdelens förångargivare är trasig."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Fel på givare kräver oftast en reservdel som monteras av en behörig tekniker."
+ },
+ "Gree|F3": {
+  "title": "Fel på utomhusgivaren",
+  "causes": [
+   "Utomhusdelens givare för omgivningstemperatur är trasig."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Fel på givare kräver oftast en reservdel som monteras av en behörig tekniker."
+ },
+ "Gree|F4": {
+  "title": "Fel på utomhusbatteriets givare",
+  "causes": [
+   "Utomhusdelens rörgivare är trasig."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Fel på givare kräver oftast en reservdel som monteras av en behörig tekniker."
+ },
+ "Gree|F5": {
+  "title": "Fel på hetgasgivaren",
+  "causes": [
+   "Kompressorns hetgasgivare är trasig."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Fel på givare kräver oftast en reservdel som monteras av en behörig tekniker."
+ },
+ "Gree|H1": {
+  "title": "Avfrostning",
+  "causes": [
+   "Utomhusdelen avfrostar under uppvärmningen. Detta är ett normalt läge."
+  ],
+  "steps": [
+   "Vänta tills avfrostningen är klar; uppvärmningen fortsätter av sig själv."
+  ],
+  "technician": "Kontakta en tekniker bara om aggregatet avfrostar hela tiden och inte värmer."
+ },
+ "Gree|H5": {
+  "title": "Skydd för effektmodulen (IPM)",
+  "causes": [
+   "Inverterns effektmodul stängdes av på grund av problem med spänning eller temperatur."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om H5 kommer tillbaka behöver aggregatet professionell service."
+ },
+ "Gree|U3": {
+  "title": "Spänningsfall i DC-bussen",
+  "causes": [
+   "Den interna likspänningen sjönk, ofta på grund av problem med strömförsörjningen."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om U3 kommer tillbaka, låt en fackman bedöma aggregatet och strömförsörjningen."
+ },
+ "Gree|L9": {
+  "title": "Strömskydd",
+  "causes": [
+   "En kraftig spänningstopp utlöste skyddsläget."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Om L9 kommer tillbaka, låt en fackman bedöma aggregatet och strömförsörjningen."
+ },
+ "Haier|E1": {
+  "title": "Fel på inomhusdelens temperaturgivare (splitaggregat)",
+  "causes": [
+   "Inomhusdelens rumstemperaturgivare är trasig."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Enligt Haier kan den här koden bara åtgärdas av en servicetekniker; kontakta Haiers service."
+ },
+ "Haier|E2": {
+  "title": "Fel på inomhusdelens rörtemperaturgivare (splitaggregat)",
+  "causes": [
+   "Givaren på inomhusbatteriets rör är trasig."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Enligt Haier kan den här koden bara åtgärdas av en servicetekniker; kontakta Haiers service."
+ },
+ "Haier|E4": {
+  "title": "Fel i inomhusdelens minne (EEPROM) (splitaggregat)",
+  "causes": [
+   "Minnet på inomhusdelens styrkort har ett fel."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Enligt Haier kan den här koden bara åtgärdas av en servicetekniker; kontakta Haiers service."
+ },
+ "Haier|E5": {
+  "title": "Frysskydd i inomhusdelen",
+  "causes": [
+   "Inomhusbatteriet blir för kallt, ofta på grund av lågt luftflöde."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Kontrollera inomhusdelens luftfilter och rengör dem om de är dammiga.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Enligt Haier kan den här koden bara åtgärdas av en servicetekniker; kontakta Haiers service."
+ },
+ "Haier|E7": {
+  "title": "Kommunikationsfel mellan inomhus- och utomhusdel",
+  "causes": [
+   "Inomhus- och utomhusdelen kan inte kommunicera."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Enligt Haier kan den här koden bara åtgärdas av en servicetekniker; kontakta Haiers service."
+ },
+ "Haier|E9": {
+  "title": "Överbelastning i inomhusdelen vid värme",
+  "causes": [
+   "Inomhusdelen överhettas i värmeläge, ofta på grund av ett igensatt filter."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Kontrollera inomhusdelens luftfilter och rengör dem om de är dammiga.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Enligt Haier kan den här koden bara åtgärdas av en servicetekniker; kontakta Haiers service."
+ },
+ "Haier|E14": {
+  "title": "Fel på inomhusfläktens motor",
+  "causes": [
+   "Inomhusfläktens motor är trasig eller blockerad."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Enligt Haier kan den här koden bara åtgärdas av en servicetekniker; kontakta Haiers service."
+ },
+ "Haier|F1": {
+  "title": "Skydd för effektmodulen (IPM)",
+  "causes": [
+   "Utomhusdelens invertermodul har gått i skyddsläge."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Enligt Haier kan den här koden bara åtgärdas av en servicetekniker; kontakta Haiers service."
+ },
+ "Haier|F8": {
+  "title": "Fel på utomhusdelens DC-fläktmotor",
+  "causes": [
+   "Utomhusfläktens motor är trasig eller blockerad."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Se till att inget hindrar luftflödet runt utomhusdelen (lådor, växter, snö, löv).",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Enligt Haier kan den här koden bara åtgärdas av en servicetekniker; kontakta Haiers service."
+ },
+ "Haier|F12": {
+  "title": "Fel i utomhusdelens minne (EEPROM)",
+  "causes": [
+   "Minnet på utomhusdelens kretskort har ett fel."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Enligt Haier kan den här koden bara åtgärdas av en servicetekniker; kontakta Haiers service."
+ },
+ "Haier|F13": {
+  "title": "Brist på köldmedium",
+  "causes": [
+   "Systemet har för lite köldmedium, oftast på grund av en läcka."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Försök inte fylla på köldmedium själv.",
+   "Anteckna koden och ditt modellnummer innan du ringer service."
+  ],
+  "technician": "Enligt Haier kan den här koden bara åtgärdas av en servicetekniker; kontakta Haiers service."
+ },
+ "Haier|F19": {
+  "title": "Matningsspänningen är för hög eller för låg",
+  "causes": [
+   "Nätspänningen ligger utanför det tillåtna området."
+  ],
+  "steps": [
+   "Stäng av aggregatet med fjärrkontrollen.",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Enligt Haier kan den här koden bara åtgärdas av en servicetekniker; kontakta Haiers service."
+ },
+ "Haier|F20": {
+  "title": "Högtrycksskydd",
+  "causes": [
+   "Trycket i systemet är för högt, ofta på grund av blockerat luftflöde utomhus."
+  ],
+  "steps": [
+   "Stäng av aggregatet.",
+   "Se till att inget hindrar luftflödet runt utomhusdelen (lådor, växter, snö, löv).",
+   "Slå av luftkonditioneringens säkring eller dra ur kontakten.",
+   "Vänta ungefär 5 minuter, slå sedan på strömmen igen och starta aggregatet."
+  ],
+  "technician": "Enligt Haier kan den här koden bara åtgärdas av en servicetekniker; kontakta Haiers service."
+ },
+ "Haier|FL": {
+  "title": "Vattentanken är full (portabel AC)",
+  "causes": [
+   "Den inbyggda vattenbehållaren är full."
+  ],
+  "steps": [
+   "Stäng av aggregatet och dra ur kontakten.",
+   "Töm ut vattnet från dräneringsöppningen i ett kärl.",
+   "Sätt tillbaka dräneringspluggen och starta om aggregatet."
+  ],
+  "technician": "Om FL visas igen direkt efter tömning, kontakta Haiers service."
+ },
+ "Haier|STOP": {
+  "title": "Tanken är full eller flottören har fastnat (portabel AC, 2016 och äldre)",
+  "causes": [
+   "Vattenbehållaren är full.",
+   "Tankens flottör har fastnat på grund av skräp."
+  ],
+  "steps": [
+   "Stäng av aggregatet och dra ur kontakten.",
+   "Töm vattentanken.",
+   "Kontrollera att flottören rör sig fritt och ta bort eventuellt skräp."
+  ],
+  "technician": "Om STOP finns kvar fast tanken är tom och flottören rör sig fritt, kontakta Haiers service."
+ }
+}

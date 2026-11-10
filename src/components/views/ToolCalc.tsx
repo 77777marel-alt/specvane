@@ -28,20 +28,12 @@ function Out({ label, value, big }: { label: string; value: string; big?: boolea
   )
 }
 
-export function ToolCalc({ tool, t, lang, imperialDefault }: { tool: ToolKey; t: ToolsText; lang: string; imperialDefault: boolean }) {
+export function ToolCalc({ tool, t, lang, imperialDefault, tariff = 0.3, currency = 'EUR' }: { tool: ToolKey; t: ToolsText; lang: string; imperialDefault: boolean; tariff?: number; currency?: string }) {
   const [imp, setImp] = useState(imperialDefault)
   const f = (n: number, d = 1) => new Intl.NumberFormat(lang, { maximumFractionDigits: d }).format(n)
   const len = (m: number) => (imp ? `${f(m * 3.28084)} ft` : `${f(m, 2)} m`)
   // --- размер телевизора: диагональ = расстояние / 1,6 (угол 30°) … расстояние / 1,2 (угол 40°)
   const [dist, setDist] = useState(imperialDefault ? '8' : '2.5')
-  const toggle = (
-    <div className="mb-4 inline-flex rounded-xl border border-border p-1 text-sm" role="group">
-      {[false, true].map((v) => (
-        <button key={String(v)} type="button" aria-pressed={imp === v} onClick={() => { if (v !== imp) { const d = num(dist); if (d) setDist(String(Math.round((v ? d * 3.28084 : d / 3.28084) * 10) / 10)) } setImp(v) }}
-          className={`rounded-lg px-3 py-1.5 ${imp === v ? 'bg-accent text-accent-fg' : 'text-muted'}`}>{v ? t.imperial : t.metric}</button>
-      ))}
-    </div>
-  )
 
   // --- проектор
   const [ratio, setRatio] = useState('1.5'), [pdiag, setPdiag] = useState('100'), [aspect, setAspect] = useState('16:9')
@@ -49,6 +41,30 @@ export function ToolCalc({ tool, t, lang, imperialDefault }: { tool: ToolKey; t:
   const [pw, setPw] = useState('2560'), [ph, setPh] = useState('1440'), [sd, setSd] = useState('27')
   // --- пауэрбанк
   const [mah, setMah] = useState('20000'), [volt, setVolt] = useState('3.7')
+  // --- кондиционер / котёл / семья / электричество
+  const [area, setArea] = useState(imperialDefault ? '200' : '20'), [ceil, setCeil] = useState(imperialDefault ? '8' : '2.7')
+  const [ins, setIns] = useState<'good' | 'avg' | 'poor'>('avg'), [sun, setSun] = useState(false)
+  const [harea, setHarea] = useState(imperialDefault ? '1000' : '100'), [baths, setBaths] = useState('1')
+  const [people, setPeople] = useState('3')
+  const [watts, setWatts] = useState('100'), [hours, setHours] = useState('4'), [days, setDays] = useState('365'), [price, setPrice] = useState(String(tariff))
+  const money = (n: number) => new Intl.NumberFormat(lang, { style: 'currency', currency, maximumFractionDigits: n < 10 ? 2 : 0 }).format(n)
+  const insSelect = (txt: { insulation: string; insGood: string; insAvg: string; insPoor: string }) => (
+    <label className="block">
+      <span className="mb-1 block text-sm font-medium">{txt.insulation}</span>
+      <select value={ins} onChange={(e) => setIns(e.target.value as 'good' | 'avg' | 'poor')} className="h-12 w-full rounded-xl border border-border bg-bg px-3 text-lg">
+        <option value="good">{txt.insGood}</option><option value="avg">{txt.insAvg}</option><option value="poor">{txt.insPoor}</option>
+      </select>
+    </label>
+  )
+  const sqm = (v: number | null) => (v == null ? null : imp ? v * 0.092903 : v) // ft² → m²
+  const toggle = (
+    <div className="mb-4 inline-flex rounded-xl border border-border p-1 text-sm" role="group">
+      {[false, true].map((v) => (
+        <button key={String(v)} type="button" aria-pressed={imp === v} onClick={() => { if (v !== imp) { const cv = (x: string, k: number, set: (s: string) => void) => { const d = num(x); if (d) set(String(Math.round((v ? d * k : d / k) * 10) / 10)) }; cv(dist, 3.28084, setDist); cv(ceil, 3.28084, setCeil); cv(area, 10.7639, setArea); cv(harea, 10.7639, setHarea) } setImp(v) }}
+          className={`rounded-lg px-3 py-1.5 ${imp === v ? 'bg-accent text-accent-fg' : 'text-muted'}`}>{v ? t.imperial : t.metric}</button>
+      ))}
+    </div>
+  )
 
   if (tool === 'tv') {
     const d = num(dist)
@@ -120,6 +136,101 @@ export function ToolCalc({ tool, t, lang, imperialDefault }: { tool: ToolKey; t:
           </div>
         )}
         <p className="mt-3 text-sm text-muted">{t.ppi.note}</p>
+      </div>
+    )
+  }
+
+  if (tool === 'ac') {
+    // объём комнаты × 30/35/40 Вт на м³ (утепление), +15% солнечная сторона/верхний этаж
+    const a = sqm(num(area)), hgt = num(ceil)
+    const hM = hgt ? (imp ? hgt * 0.3048 : hgt) : null
+    const kw = a && hM ? (a * hM * { good: 30, avg: 35, poor: 40 }[ins] * (sun ? 1.15 : 1)) / 1000 : null
+    const STD = [[2.0, 7000], [2.5, 9000], [3.5, 12000], [5.0, 18000], [6.0, 21000], [7.1, 24000], [8.5, 30000]] as const
+    const pick = kw ? STD.find(([k]) => k >= kw) ?? null : null
+    return (
+      <div>
+        {toggle}
+        <div className="grid gap-3 sm:grid-cols-2">
+          <Field label={t.area} value={area} onChange={setArea} unit={imp ? 'ft²' : 'm²'} />
+          <Field label={t.ac.height} value={ceil} onChange={setCeil} unit={imp ? 'ft' : 'm'} />
+          {insSelect(t.ac)}
+          <label className="flex min-h-12 items-center gap-3 self-end rounded-xl border border-border px-3">
+            <input type="checkbox" checked={sun} onChange={(e) => setSun(e.target.checked)} className="h-5 w-5" /><span>{t.ac.sun}</span>
+          </label>
+        </div>
+        {kw && (
+          <div className="mt-4 grid gap-3 sm:grid-cols-2">
+            <Out big label={t.ac.power} value={`${f(kw, 1)} kW · ${f(Math.round(kw * 3412 / 100) * 100, 0)} BTU/h`} />
+            <Out label={t.ac.sizes} value={pick ? `${f(pick[0], 1)} kW (${f(pick[1], 0)} BTU)` : `> 8,5 kW`} />
+          </div>
+        )}
+        <p className="mt-3 text-sm text-muted">{t.ac.note}</p>
+      </div>
+    )
+  }
+
+  if (tool === 'boiler') {
+    // теплопотери: 50/80/120 Вт на м² по утеплению; ГВС для комби: 1 ванная 24 кВт, 2 — 30, 3+ — 35
+    const a = sqm(num(harea)), b = Math.max(1, Math.round(num(baths) ?? 1))
+    const heat = a ? (a * { good: 50, avg: 80, poor: 120 }[ins]) / 1000 : null
+    const dhw = b >= 3 ? 35 : b === 2 ? 30 : 24
+    const combi = heat ? Math.max(dhw, Math.ceil(heat)) : null
+    return (
+      <div>
+        {toggle}
+        <div className="grid gap-3 sm:grid-cols-3">
+          <Field label={t.areaHome} value={harea} onChange={setHarea} unit={imp ? 'ft²' : 'm²'} />
+          {insSelect(t.boiler)}
+          <Field label={t.boiler.baths} value={baths} onChange={setBaths} step="1" />
+        </div>
+        {heat && combi && (
+          <div className="mt-4 grid gap-3 sm:grid-cols-2">
+            <Out label={t.boiler.heat} value={`${f(heat, 1)} kW`} />
+            <Out big label={t.boiler.combi} value={`${f(combi, 0)} kW`} />
+          </div>
+        )}
+        <p className="mt-3 text-sm text-muted">{t.boiler.note}</p>
+      </div>
+    )
+  }
+
+  if (tool === 'household') {
+    const p = Math.max(1, Math.min(10, Math.round(num(people) ?? 1)))
+    const fr = [100 + 60 * p, 140 + 70 * p].map((x) => Math.round(x / 10) * 10)
+    const wash = p <= 1 ? '5–6' : p === 2 ? '6–7' : p <= 4 ? '7–9' : '9–11'
+    return (
+      <div>
+        <div className="max-w-xs"><Field label={t.household.people} value={people} onChange={setPeople} step="1" /></div>
+        <div className="mt-4 grid gap-3 sm:grid-cols-3">
+          <Out big label={t.household.fridge} value={`${f(fr[0], 0)}–${f(fr[1], 0)} L`} />
+          <Out big label={t.household.washer} value={`${wash} kg`} />
+          <Out label={t.household.dishwasher} value={p <= 2 ? t.household.slim : t.household.full} />
+        </div>
+        <p className="mt-3 text-sm text-muted">{t.household.note}</p>
+      </div>
+    )
+  }
+
+  if (tool === 'energy') {
+    const w = num(watts), h = num(hours), d = num(days), pr = num(price)
+    const kwh = w && h && d ? (w * Math.min(h, 24) * Math.min(d, 366)) / 1000 : null
+    const year = kwh && pr ? kwh * pr : null
+    return (
+      <div>
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          <Field label={t.energy.watts} value={watts} onChange={setWatts} unit="W" />
+          <Field label={t.energy.hours} value={hours} onChange={setHours} />
+          <Field label={t.energy.days} value={days} onChange={setDays} step="1" />
+          <Field label={t.energy.tariff} value={price} onChange={setPrice} unit={currency} />
+        </div>
+        {kwh && year != null && (
+          <div className="mt-4 grid gap-3 sm:grid-cols-3">
+            <Out big label={t.energy.perYear} value={money(year)} />
+            <Out label={t.energy.perMonth} value={money(year / 12)} />
+            <Out label={t.energy.kwh} value={`${f(kwh, 0)} kWh`} />
+          </div>
+        )}
+        <p className="mt-3 text-sm text-muted">{t.energy.note}</p>
       </div>
     )
   }
