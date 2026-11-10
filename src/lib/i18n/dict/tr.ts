@@ -154,7 +154,7 @@ export const tr: Dict = {
     popularCompare: "Popüler karşılaştırmalar",
     seeAll: "Tümü",
     errTitle: "Hata kodları",
-    errLead: "Çamaşır ve bulaşık makinesi hata kodlarının anlamı ve kendiniz güvenle yapabilecekleriniz.",
+    errLead: "Çamaşır, bulaşık ve kurutma makinesi, buzdolabı, kahve makinesi, klima ve kombi hata kodlarının anlamı ve kendiniz güvenle yapabilecekleriniz.",
     errBrandTitle: "{brand} {appliance}: hata kodları",
     errCodeTitle: "{brand} {appliance} hata {code}",
     errCauses: "Olası nedenler",

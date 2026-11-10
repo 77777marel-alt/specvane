@@ -1,0 +1,1167 @@
+{
+ "Bosch|E16": {
+  "title": "Drzwi nie są zamknięte",
+  "causes": [
+   "Drzwi nie są całkowicie zamknięte.",
+   "Pranie zostało przytrzaśnięte między drzwiami a uszczelką."
+  ],
+  "steps": [
+   "Otworzyć drzwi i sprawdzić, czy w gumowej uszczelce nie utknęły ubrania.",
+   "Zamknąć drzwi mocno, aż do kliknięcia.",
+   "Ponownie uruchomić program."
+  ],
+  "technician": "Jeśli kod nie znika przy dobrze zamkniętych drzwiach, blokada drzwi może być uszkodzona. Należy umówić wizytę serwisu Bosch."
+ },
+ "Bosch|E17": {
+  "title": "Napełnianie wodą trwało zbyt długo",
+  "causes": [
+   "Zawór wody jest zakręcony lub tylko częściowo odkręcony.",
+   "Wąż dopływowy jest zagięty.",
+   "Niskie ciśnienie wody w instalacji domowej."
+  ],
+  "steps": [
+   "Sprawdzić, czy zawór doprowadzający wodę do pralki jest całkowicie odkręcony.",
+   "Upewnić się, że wąż dopływowy nie jest zagięty ani zgnieciony.",
+   "Uruchomić program ponownie."
+  ],
+  "technician": "Jeśli zawór jest odkręcony, a kod wraca, należy wezwać serwis Bosch. Konieczne może być sprawdzenie zaworu wlotowego lub węża AquaStop."
+ },
+ "Bosch|E18": {
+  "title": "Woda nie odpływa",
+  "causes": [
+   "Pompa odpływowa lub filtr pompy są zatkane.",
+   "Wąż odpływowy jest zagięty lub zatkany.",
+   "W pompie utknęły drobne przedmioty (monety, guziki)."
+  ],
+  "steps": [
+   "Wyłączyć pralkę, odłączyć ją od prądu i zakręcić zawór wody.",
+   "Przed rozpoczęciem odczekać, aż gorąca woda ostygnie.",
+   "Podstawić płaskie naczynie i ręczniki pod klapkę pompy, spuścić wodę wężykiem awaryjnym, a następnie wyczyścić filtr pompy.",
+   "Sprawdzić, czy wąż odpływowy nie jest zagięty ani zatkany, i wyprostować go.",
+   "Mocno wkręcić filtr, podłączyć pralkę do prądu i uruchomić program odpompowania lub wirowania."
+  ],
+  "technician": "Jeśli po wyczyszczeniu filtra i węża woda nadal nie odpływa, pompa odpływowa jest prawdopodobnie uszkodzona. Należy wezwać serwisanta."
+ },
+ "Bosch|E19": {
+  "title": "Podgrzewanie wody trwało zbyt długo",
+  "causes": [
+   "Pralka nie osiągnęła ustawionej temperatury prania w dozwolonym czasie.",
+   "Zwykle usterka układu grzewczego."
+  ],
+  "steps": [
+   "Wyłączyć i ponownie włączyć pralkę, a następnie uruchomić program od nowa."
+  ],
+  "technician": "Według Bosch tej usterki nie można usunąć samodzielnie. Jeśli kod wraca, należy umówić wizytę serwisu."
+ },
+ "Bosch|E20": {
+  "title": "Grzanie włączyło się, gdy nie powinno",
+  "causes": [
+   "Pralka wykryła grzanie w nieoczekiwanym momencie.",
+   "Usterka elektroniki lub sterowania grzaniem."
+  ],
+  "steps": [
+   "Na krótko wyłączyć pralkę i odłączyć ją od prądu.",
+   "Ponownie podłączyć do prądu i uruchomić program."
+  ],
+  "technician": "Jeśli kod wraca, należy przestać używać pralki i wezwać serwis Bosch."
+ },
+ "Bosch|E23": {
+  "title": "Zadziałało zabezpieczenie przed wyciekiem AquaStop",
+  "causes": [
+   "W podstawie pralki zebrała się woda.",
+   "Wyciek wewnątrz pralki lub z węża AquaStop."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu.",
+   "Zakręcić zawór wody.",
+   "Wytrzeć wodę z podłogi."
+  ],
+  "technician": "Według Bosch nie da się tego naprawić samodzielnie. Zawór należy pozostawić zakręcony i umówić wizytę serwisu."
+ },
+ "Bosch|E25": {
+  "title": "Usterka czujnika mętności (przejrzystości wody)",
+  "causes": [
+   "Czujnik sprawdzający zabrudzenie wody działa nieprawidłowo."
+  ],
+  "steps": [
+   "Wyłączyć i ponownie włączyć pralkę, a następnie uruchomić program od nowa."
+  ],
+  "technician": "Jeśli kod wraca, należy wezwać serwis Bosch w celu sprawdzenia czujnika."
+ },
+ "Bosch|E26": {
+  "title": "Usterka czujnika poziomu wody (ciśnienia)",
+  "causes": [
+   "Analogowy czujnik ciśnienia mierzący poziom wody w bębnie jest uszkodzony."
+  ],
+  "steps": [
+   "Wyłączyć i ponownie włączyć pralkę, a następnie uruchomić program od nowa."
+  ],
+  "technician": "Według Bosch ta usterka wymaga wizyty serwisu."
+ },
+ "Bosch|F27": {
+  "title": "Usterka czujnika ciśnienia",
+  "causes": [
+   "Czujnik ciśnienia nie działa prawidłowo."
+  ],
+  "steps": [
+   "Wyłączyć i ponownie włączyć pralkę, a następnie uruchomić program od nowa."
+  ],
+  "technician": "Jeśli kod wraca, należy wezwać serwis Bosch."
+ },
+ "Bosch|E28": {
+  "title": "Usterka czujnika przepływu wody",
+  "causes": [
+   "Czujnik mierzący dopływ wody zgłasza problem."
+  ],
+  "steps": [
+   "Sprawdzić, czy zawór wody jest całkowicie odkręcony.",
+   "Wyłączyć i ponownie włączyć pralkę, a następnie uruchomić program od nowa."
+  ],
+  "technician": "Jeśli kod wraca, należy wezwać serwis Bosch."
+ },
+ "Samsung|4C": {
+  "title": "Brak dopływu wody",
+  "causes": [
+   "Zawór wody jest zakręcony.",
+   "Wąż dopływowy jest zatkany, zagięty lub zamarznięty.",
+   "Zbyt niskie ciśnienie wody.",
+   "Węże ciepłej i zimnej wody są podłączone do niewłaściwych zaworów.",
+   "Siatkowy filtr na wlocie węża jest zabrudzony."
+  ],
+  "steps": [
+   "Całkowicie odkręcić zawór wody.",
+   "Sprawdzić, czy wąż dopływowy nie jest zagięty, zatkany lub zamarznięty.",
+   "Sprawdzić, czy węże ciepłej i zimnej wody są podłączone do właściwych zaworów.",
+   "Zakręcić zawór, odkręcić wąż, wyczyścić mały filtr siatkowy i zamontować go z powrotem.",
+   "Odczekać 3 minuty (po tym kodzie przyciski są zablokowane), a następnie uruchomić ponownie."
+  ],
+  "technician": "Jeśli przy odkręconym zaworze i czystym filtrze woda nadal nie dopływa, należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|4C2": {
+  "title": "Zbyt gorąca woda zasilająca",
+  "causes": [
+   "Wąż zimnej wody jest podłączony do zaworu ciepłej wody lub nie jest dobrze przykręcony do zaworu zimnej wody."
+  ],
+  "steps": [
+   "Upewnić się, że wąż zimnej wody jest mocno przykręcony do zaworu zimnej wody.",
+   "Wyłączyć i ponownie włączyć pralkę, a następnie uruchomić ją od nowa."
+  ],
+  "technician": "Jeśli kod nie znika mimo prawidłowych podłączeń, należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|5C": {
+  "title": "Woda nie odpływa",
+  "causes": [
+   "Wąż odpływowy jest zatkany, zagięty lub zamarznięty.",
+   "Wąż odpływowy jest nieprawidłowo zamontowany.",
+   "Filtr zanieczyszczeń jest zatkany."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu.",
+   "Sprawdzić, czy wąż odpływowy jest prosty, niezatkany i niezamarznięty.",
+   "Rozłożyć ręczniki i podstawić płaską tackę, a następnie spuścić wodę i wyczyścić filtr zanieczyszczeń z przodu.",
+   "Mocno zamontować filtr, podłączyć pralkę do prądu i spróbować odpompowania lub wirowania."
+  ],
+  "technician": "Jeśli woda nadal nie odpływa, pompa odpływowa może być uszkodzona. Należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|dC": {
+  "title": "Drzwi otwarte lub nieprawidłowo zamknięte",
+  "causes": [
+   "Pralkę uruchomiono przy otwartych drzwiach.",
+   "Pranie zostało przytrzaśnięte w drzwiach."
+  ],
+  "steps": [
+   "Otworzyć drzwi i usunąć ubrania przytrzaśnięte w uszczelce.",
+   "Mocno zamknąć drzwi i uruchomić ponownie."
+  ],
+  "technician": "Jeśli kod nie znika przy zamkniętych drzwiach, blokada drzwi może być uszkodzona. Należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|dC1": {
+  "title": "Blokada drzwi nie blokuje lub nie odblokowuje",
+  "causes": [
+   "Główna blokada drzwi nie działa prawidłowo."
+  ],
+  "steps": [
+   "Wyłączyć pralkę, chwilę odczekać i włączyć ją ponownie.",
+   "Uruchomić cykl ponownie."
+  ],
+  "technician": "Jeśli problem się powtarza, blokada drzwi wymaga sprawdzenia przez serwis."
+ },
+ "Samsung|OC": {
+  "title": "Za dużo wody (przelanie)",
+  "causes": [
+   "Pralka wykryła zbyt wysoki poziom wody."
+  ],
+  "steps": [
+   "Poczekać, aż pralka zakończy odpompowanie i wirowanie.",
+   "Po zakończeniu wirowania uruchomić cykl ponownie.",
+   "Stosować właściwą ilość detergentu, aby uniknąć nadmiaru piany."
+  ],
+  "technician": "Jeśli kod pojawia się przy każdym praniu, należy skontaktować się z serwisem Samsung. Zawór wody lub czujnik poziomu może być uszkodzony."
+ },
+ "Samsung|Ub": {
+  "title": "Niewyważony wsad, brak wirowania",
+  "causes": [
+   "Pranie zbiło się po jednej stronie bębna.",
+   "W bębnie jest tylko jedna ciężka rzecz.",
+   "Pralka nie stoi poziomo lub stabilnie."
+  ],
+  "steps": [
+   "Wstrzymać pralkę i równomiernie rozłożyć pranie.",
+   "Przy praniu jednej ciężkiej rzeczy dołożyć kilka innych.",
+   "Upewnić się, że pralka stoi poziomo na twardym podłożu.",
+   "Ponownie uruchomić wirowanie."
+  ],
+  "technician": "Jeśli dzieje się tak przy zwykłych, równomiernych wsadach, pralka może wymagać sprawdzenia pod kątem zużytych części."
+ },
+ "Samsung|LC": {
+  "title": "Problem z wężem odpływowym / wykryto wyciek",
+  "causes": [
+   "Koniec węża odpływowego leży na podłodze.",
+   "Wąż odpływowy jest zatkany."
+  ],
+  "steps": [
+   "Wyłączyć pralkę.",
+   "Upewnić się, że koniec węża odpływowego jest uniesiony i nie leży na podłodze.",
+   "Sprawdzić, czy wąż nie jest zatkany.",
+   "Wytrzeć wodę i uruchomić ponownie."
+  ],
+  "technician": "Jeśli woda nadal wycieka lub kod wraca, należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|3C": {
+  "title": "Problem z silnikiem bębna",
+  "causes": [
+   "Silnik nie pracuje prawidłowo."
+  ],
+  "steps": [
+   "Wyłączyć pralkę, odczekać minutę i włączyć ją ponownie.",
+   "Sprawdzić, czy wsad nie jest zbyt duży, a następnie uruchomić cykl ponownie."
+  ],
+  "technician": "Jeśli kod wraca, silnik lub jego sterowanie wymaga sprawdzenia przez serwis."
+ },
+ "Samsung|AC": {
+  "title": "Błąd komunikacji między płytkami elektroniki",
+  "causes": [
+   "Główna i pomocnicza płytka sterująca nie komunikują się ze sobą."
+  ],
+  "steps": [
+   "Wyłączyć pralkę, a następnie włączyć ją ponownie.",
+   "Uruchomić cykl ponownie."
+  ],
+  "technician": "Jeśli kod nadal wraca, należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|HC": {
+  "title": "Usterka układu grzewczego (przegrzanie)",
+  "causes": [
+   "Pralka wykryła problem z grzaniem przy wysokiej temperaturze."
+  ],
+  "steps": [
+   "Wyłączyć i ponownie włączyć pralkę.",
+   "Uruchomić cykl ponownie."
+  ],
+  "technician": "Jeśli kod wraca, należy przestać używać programów z wysoką temperaturą i skontaktować się z serwisem Samsung."
+ },
+ "Samsung|1C": {
+  "title": "Usterka czujnika poziomu wody",
+  "causes": [
+   "Czujnik mierzący poziom wody nie działa prawidłowo."
+  ],
+  "steps": [
+   "Wyłączyć i ponownie włączyć pralkę.",
+   "Uruchomić cykl ponownie."
+  ],
+  "technician": "Jeśli kod wraca, należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|UC": {
+  "title": "Problem z zasilaniem (zbyt niskie lub niestabilne napięcie)",
+  "causes": [
+   "Niskie lub niestabilne napięcie w sieci.",
+   "Krótka przerwa w dostawie prądu.",
+   "Luźna wtyczka lub przedłużacz."
+  ],
+  "steps": [
+   "Sprawdzić, czy wtyczka jest mocno wciśnięta w gniazdko ścienne.",
+   "Unikać przedłużaczy i przejściówek.",
+   "Poczekać, aż zasilanie się ustabilizuje, a następnie uruchomić ponownie."
+  ],
+  "technician": "Jeśli zdarza się to często, należy poprosić elektryka o sprawdzenie instalacji. Jeśli zasilanie jest w porządku, należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|8C": {
+  "title": "Usterka czujnika drgań",
+  "causes": [
+   "Czujnik wykrywający niewyważenie nie działa prawidłowo."
+  ],
+  "steps": [
+   "Wyłączyć i ponownie włączyć pralkę.",
+   "Uruchomić cykl ponownie."
+  ],
+  "technician": "Jeśli kod wraca, należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|ddC": {
+  "title": "Otwarto drzwiczki Add Door bez ponownego uruchomienia",
+  "causes": [
+   "Małe drzwiczki Add Door (AddWash) zostały otwarte i pralka czeka."
+  ],
+  "steps": [
+   "Prawidłowo zamknąć drzwiczki Add Door.",
+   "Nacisnąć i przytrzymać Start/Pause, aby kontynuować."
+  ],
+  "technician": "Zwykle nie jest potrzebny. Jeśli drzwiczki Add Door nie chcą pozostać zamknięte, należy skontaktować się z serwisem Samsung."
+ },
+ "LG|OE": {
+  "title": "Woda nie odpływa",
+  "causes": [
+   "Wąż odpływowy jest zagięty lub zatkany.",
+   "Filtr pompy odpływowej jest zatkany.",
+   "Za dużo piany z powodu nadmiaru detergentu."
+  ],
+  "steps": [
+   "Sprawdzić wąż odpływowy za pralką i wyprostować ewentualne zagięcia.",
+   "Uruchomić samo wirowanie i posłuchać, czy pompa buczy.",
+   "Odłączyć pralkę od prądu. Podstawić naczynie pod osłonę pompy odpływowej, spuścić wodę małą rurką spustową, a następnie wyczyścić filtr pompy.",
+   "Szczelnie zamknąć zatyczkę rurki spustowej i zamontować filtr z powrotem.",
+   "Następnym razem użyć mniej detergentu i uruchomić program Tub Clean."
+  ],
+  "technician": "Jeśli kod wraca po wyczyszczeniu filtra i węża, należy zgłosić naprawę w serwisie LG. Pompa może być uszkodzona."
+ },
+ "LG|IE": {
+  "title": "Woda nie napełnia się na czas",
+  "causes": [
+   "Zawór jest zakręcony lub brak wody w instalacji.",
+   "Wąż dopływowy jest zagięty lub odłączony.",
+   "Filtr wlotowy jest zatkany.",
+   "Zamarznięte rury lub węże przy mrozie."
+  ],
+  "steps": [
+   "Upewnić się, że zawór jest całkowicie odkręcony, a wąż podłączony.",
+   "Wyprostować zagięty lub zgnieciony wąż.",
+   "Zakręcić zawór, zdjąć wąż, wyczyścić filtr wlotowy i zamontować go z powrotem.",
+   "Przy mrozie rozmrozić zawór i wąż ciepłą (nie wrzącą) wodą."
+  ],
+  "technician": "Jeśli woda nadal nie płynie, zawór wlotowy może być uszkodzony. Należy zgłosić naprawę w serwisie."
+ },
+ "LG|UE": {
+  "title": "Niewyważony wsad",
+  "causes": [
+   "Pranie zbiło się po jednej stronie.",
+   "Wsad jest zbyt duży lub zbyt mały.",
+   "Duże lub wodoodporne rzeczy.",
+   "Pralka nie stoi poziomo."
+  ],
+  "steps": [
+   "Wstrzymać pralkę i równomiernie rozłożyć pranie.",
+   "Napełnić bęben mniej więcej w dwóch trzecich.",
+   "Duże rzeczy, np. kołdry, prać w odpowiednim programie ze średnimi obrotami wirowania.",
+   "Wypoziomować pralkę, regulując nóżki."
+  ],
+  "technician": "Jeśli dzieje się tak przy zwykłych, równomiernych wsadach na równej podłodze, należy zgłosić naprawę w serwisie."
+ },
+ "LG|LE": {
+  "title": "Silnik zablokowany, bęben się nie obraca",
+  "causes": [
+   "Pralka jest przeładowana.",
+   "Moneta lub mały przedmiot blokuje bęben."
+  ],
+  "steps": [
+   "Odłączyć pralkę od prądu i odczekać 5 minut.",
+   "Wyjąć część prania, aby zmniejszyć wsad.",
+   "Przy wyłączonym zasilaniu sprawdzić, czy w bębnie nie ma monet lub drobnych przedmiotów, i je usunąć.",
+   "Podłączyć do prądu i spróbować ponownie."
+  ],
+  "technician": "Jeśli kod LE nadal się wyświetla, należy odłączyć pralkę od prądu i skontaktować się z serwisem LG."
+ },
+ "LG|dE": {
+  "title": "Drzwi nie są zamknięte",
+  "causes": [
+   "Pranie zostało przytrzaśnięte między drzwiami a uszczelką.",
+   "Drzwi nie są do końca zamknięte."
+  ],
+  "steps": [
+   "Otworzyć drzwi, uwolnić przytrzaśnięte ubrania i mocno je zamknąć.",
+   "Reset: odłączyć pralkę od prądu, przytrzymać Start/Pause przez 5 sekund, ponownie podłączyć i spróbować jeszcze raz."
+  ],
+  "technician": "Jeśli kod nie znika, należy zgłosić naprawę w serwisie LG."
+ },
+ "LG|dE2": {
+  "title": "Drzwi zamknięte, ale niezablokowane",
+  "causes": [
+   "Bęben jest przeładowany.",
+   "Coś utknęło w uszczelce drzwi.",
+   "Zaczep drzwi jest wygięty lub złamany."
+  ],
+  "steps": [
+   "Usunąć to, co blokuje drzwi, i w razie potrzeby zmniejszyć wsad.",
+   "Otworzyć i ponownie zamknąć drzwi.",
+   "Zresetować pralkę, odłączając ją na chwilę od prądu."
+  ],
+  "technician": "Jeśli blokada nadal się nie zamyka, zaczep lub blokada drzwi wymaga naprawy. Należy zgłosić naprawę w serwisie."
+ },
+ "LG|CE": {
+  "title": "Przeciążenie prądowe silnika",
+  "causes": [
+   "Zbyt duży prąd w obwodzie silnika, np. z powodu zwarcia, luźnego połączenia lub skoku napięcia."
+  ],
+  "steps": [
+   "Odłączyć pralkę od prądu na 10 sekund.",
+   "Podłączyć ją ponownie i uruchomić cykl."
+  ],
+  "technician": "Jeśli kod CE wraca, należy zakręcić zawór, odłączyć pralkę od prądu i umówić naprawę."
+ },
+ "LG|FE": {
+  "title": "Za dużo wody (przepełnienie)",
+  "causes": [
+   "Do pralki dostaje się dodatkowa woda, np. przez szufladę na detergent."
+  ],
+  "steps": [
+   "Sprawdzić, czy woda nie płynie przez szufladę na detergent.",
+   "Odłączyć pralkę od prądu na 60 sekund i uruchomić ponownie.",
+   "Uruchomić krótki program i sprawdzić, czy woda odpływa."
+  ],
+  "technician": "Jeśli kod FE nie znika, zawór wody lub czujnik wymaga sprawdzenia. Należy zgłosić naprawę w serwisie."
+ },
+ "LG|PE": {
+  "title": "Usterka czujnika poziomu wody",
+  "causes": [
+   "Czujnik poziomu wody nie działa prawidłowo."
+  ],
+  "steps": [
+   "Odłączyć pralkę od prądu na 10 sekund.",
+   "Podłączyć ją ponownie i uruchomić cykl od nowa."
+  ],
+  "technician": "Jeśli kod PE wraca, należy umówić naprawę."
+ },
+ "LG|AE": {
+  "title": "Wykryto wyciek wewnątrz pralki",
+  "causes": [
+   "Woda wycieka wewnątrz urządzenia.",
+   "Uszkodzony lub luźny wąż dopływowy.",
+   "Uszkodzony wyłącznik bezpieczeństwa wycieku."
+  ],
+  "steps": [
+   "Sprawdzić, czy wąż dopływowy nie jest przecięty, a połączenia nie są luźne.",
+   "Odłączyć pralkę od prądu na 60 sekund i uruchomić ponownie."
+  ],
+  "technician": "Jeśli kod AE nie znika, należy zakręcić zawór i umówić wizytę serwisu."
+ },
+ "LG|tE": {
+  "title": "Błąd grzania / czujnika temperatury",
+  "causes": [
+   "Zwykle uszkodzony czujnik temperatury (termistor)."
+  ],
+  "steps": [
+   "Odłączyć pralkę od prądu na 10 sekund, a następnie podłączyć ją ponownie.",
+   "Wybrać opcję bez wirowania, aby spuścić wodę, a następnie uruchomić cykl ponownie."
+  ],
+  "technician": "Jeśli kod tE wraca, należy zakręcić zawory, odłączyć pralkę od prądu i umówić serwis."
+ },
+ "LG|Sud": {
+  "title": "Za dużo piany",
+  "causes": [
+   "Za dużo detergentu.",
+   "Używanie detergentu innego niż HE lub niewłaściwego rodzaju."
+  ],
+  "steps": [
+   "Poczekać, aż pralka zakończy procedurę redukcji piany.",
+   "Następnym razem użyć mniej detergentu i wyłącznie detergentu o wysokiej wydajności (HE).",
+   "Proszek lub kapsułki umieszczać tam, gdzie wskazuje instrukcja, a nie w pojemniku na płyn."
+  ],
+  "technician": "Zwykle nie jest potrzebny. Jeśli kod pojawia się przy bardzo małej ilości detergentu, należy zgłosić naprawę w serwisie."
+ },
+ "LG|PF": {
+  "title": "Zanik zasilania podczas cyklu",
+  "causes": [
+   "Prąd został odcięty w trakcie pracy pralki."
+  ],
+  "steps": [
+   "Odłączyć pralkę od prądu lub wyłączyć jej bezpiecznik.",
+   "Przy odłączonej pralce przytrzymać Start/Pause przez 5 sekund.",
+   "Przywrócić zasilanie i uruchomić cykl."
+  ],
+  "technician": "Jeśli kod PF pojawia się mimo braku przerw w dostawie prądu, należy umówić naprawę."
+ },
+ "LG|FF": {
+  "title": "Zamarznięta woda w pralce",
+  "causes": [
+   "Temperatura wewnątrz spadła poniżej zera i woda w wężach lub zbiorniku zamarzła."
+  ],
+  "steps": [
+   "Wyjąć pranie.",
+   "Wlać do bębna ciepłą wodę (ok. 50–60°C, nigdy wrzącą) i odczekać 1–2 godziny.",
+   "Spuścić wodę rurką spustową i ponownie ją zamknąć.",
+   "Rozmrozić zamarznięte węże dopływowe w ciepłej wodzie, zamontować je z powrotem i uruchomić płukanie."
+  ],
+  "technician": "Jeśli kod FF pojawia się, gdy nie ma mrozu, należy zgłosić naprawę w serwisie."
+ },
+ "Siemens|E16": {
+  "title": "Drzwi niezablokowane",
+  "causes": [
+   "Pranie zostało przytrzaśnięte w drzwiach.",
+   "Drzwi nie są prawidłowo zamknięte."
+  ],
+  "steps": [
+   "Otworzyć drzwi i ponownie mocno je zamknąć.",
+   "W razie potrzeby wyjąć kilka rzeczy i docisnąć drzwi.",
+   "Ponownie nacisnąć Start lub wyłączyć i włączyć pralkę i uruchomić ją od nowa."
+  ],
+  "technician": "Jeśli drzwi nie chcą się zablokować, należy wezwać serwis Siemens."
+ },
+ "Siemens|E17": {
+  "title": "Napełnianie wodą trwało zbyt długo",
+  "causes": [
+   "Niskie ciśnienie wody.",
+   "Zatkany filtr w wężu dopływowym.",
+   "Zatkany wąż AquaStop."
+  ],
+  "steps": [
+   "Sprawdzić, czy zawór jest całkowicie odkręcony.",
+   "Sprawdzić przepływ: przy całkowicie odkręconym zaworze powinno płynąć ok. 10 litrów na minutę.",
+   "Zakręcić zawór i wyczyścić filtr w wężu dopływowym.",
+   "Upewnić się, że wąż nie jest zagięty."
+  ],
+  "technician": "Jeśli ciśnienie jest zbyt niskie, należy wezwać hydraulika. Jeśli zasilanie wodą jest w porządku, należy wezwać serwis Siemens."
+ },
+ "Siemens|E18": {
+  "title": "Woda nie odpływa",
+  "causes": [
+   "Filtr pompy jest zatkany.",
+   "Wąż odpływowy jest zatkany lub zagięty."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu. Odczekać, aż gorąca woda ostygnie.",
+   "Podłożyć ręczniki i płaskie naczynie pod klapkę filtra i spuścić wodę.",
+   "Wyczyścić filtr pompy i mocno go zamontować.",
+   "Wyprostować wąż odpływowy i sprawdzić, czy nie jest zatkany."
+  ],
+  "technician": "Jeśli woda nadal nie odpływa, należy wezwać serwis Siemens."
+ },
+ "Siemens|E19": {
+  "title": "Podgrzewanie wody trwało zbyt długo",
+  "causes": [
+   "Usterka układu grzewczego."
+  ],
+  "steps": [
+   "Wyłączyć i ponownie włączyć pralkę, a następnie uruchomić ją od nowa."
+  ],
+  "technician": "Według Siemens użytkownik nie może tego naprawić samodzielnie. Należy umówić wizytę serwisu."
+ },
+ "Siemens|E20": {
+  "title": "Nieoczekiwane grzanie",
+  "causes": [
+   "Wykryto grzanie, gdy powinno być wyłączone."
+  ],
+  "steps": [
+   "Wyłączyć i ponownie włączyć urządzenie."
+  ],
+  "technician": "Jeśli problem się utrzymuje, należy umówić wizytę serwisu Siemens."
+ },
+ "Siemens|E23": {
+  "title": "Wyciek – woda w podstawie",
+  "causes": [
+   "Pralka przecieka lub woda zebrała się w misce podstawy."
+  ],
+  "steps": [
+   "Natychmiast zakręcić zawór wody.",
+   "Wyłączyć pralkę i odłączyć ją od prądu.",
+   "Wytrzeć wodę z podłogi."
+  ],
+  "technician": "Należy wezwać serwis Siemens, aby znalazł i usunął wyciek."
+ },
+ "Siemens|E25": {
+  "title": "Usterka czujnika mętności",
+  "causes": [
+   "Czujnik przejrzystości wody jest uszkodzony."
+  ],
+  "steps": [
+   "Wyłączyć i ponownie włączyć urządzenie."
+  ],
+  "technician": "Należy umówić wizytę serwisu Siemens."
+ },
+ "Siemens|E26": {
+  "title": "Usterka czujnika poziomu wody",
+  "causes": [
+   "Analogowy czujnik ciśnienia jest uszkodzony."
+  ],
+  "steps": [
+   "Wyłączyć i ponownie włączyć urządzenie."
+  ],
+  "technician": "Należy umówić wizytę serwisu Siemens."
+ },
+ "Siemens|E29": {
+  "title": "Problem z dopływem wody",
+  "causes": [
+   "Niskie ciśnienie wody lub zatkany filtr dopływowy albo wąż AquaStop."
+  ],
+  "steps": [
+   "Sprawdzić, czy zawór jest całkowicie odkręcony, a przepływ wynosi ok. 10 litrów na minutę.",
+   "Zakręcić zawór i wyczyścić filtr w wężu dopływowym.",
+   "Upewnić się, że wąż nie jest zagięty."
+  ],
+  "technician": "Jeśli zasilanie wodą jest w porządku, a kod wraca, należy wezwać serwis Siemens."
+ },
+ "Siemens|E32": {
+  "title": "Niewyważony wsad – wirowanie przerwane",
+  "causes": [
+   "Pranie jest nierównomiernie rozłożone w bębnie. To nie jest usterka."
+  ],
+  "steps": [
+   "Równomiernie rozłożyć duże i małe rzeczy w bębnie.",
+   "Ponownie uruchomić wirowanie."
+  ],
+  "technician": "Niepotrzebny, chyba że zdarza się to przy każdym zwykłym wsadzie."
+ },
+ "Siemens|E33": {
+  "title": "Za dużo piany",
+  "causes": [
+   "Za dużo detergentu, zwłaszcza przy miękkiej wodzie lub lekko zabrudzonym praniu."
+  ],
+  "steps": [
+   "Następnym razem użyć mniej detergentu.",
+   "Uruchomić płukanie, aby usunąć pianę."
+  ],
+  "technician": "Zwykle nie jest potrzebny."
+ },
+ "Siemens|E34": {
+  "title": "Drzwi niezablokowane",
+  "causes": [
+   "Drzwi nie są do końca zamknięte, często z powodu przepełnionego bębna.",
+   "Jakaś rzecz utknęła między drzwiami a obudową."
+  ],
+  "steps": [
+   "Sprawdzić, czy w drzwiach nie są przytrzaśnięte ubrania.",
+   "Zamknąć drzwi aż do kliknięcia.",
+   "Uruchomić program ponownie."
+  ],
+  "technician": "Jeśli drzwi nadal się nie blokują, należy wezwać serwis Siemens."
+ },
+ "AEG|E10": {
+  "title": "Problem z zasilaniem wodą",
+  "causes": [
+   "Dopływ wody jest ograniczony lub odcięty, np. zakręcony zawór lub zagięty wąż."
+  ],
+  "steps": [
+   "Sprawdzić, czy zawór wody jest całkowicie odkręcony.",
+   "Upewnić się, że wąż dopływowy nie jest zagięty ani zgnieciony.",
+   "Reset: wyłączyć zasilanie w gniazdku na ok. minutę, a następnie włączyć je ponownie i uruchomić od nowa."
+  ],
+  "technician": "Jeśli kod wraca od razu lub pralka nadal nie pobiera wody, należy umówić naprawę."
+ },
+ "AEG|E20": {
+  "title": "Problem z odpompowaniem wody",
+  "causes": [
+   "Zatkany filtr pompy odpływowej lub wąż odpływowy."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu. Odczekać, aż gorąca woda ostygnie.",
+   "Spuścić wodę do naczynia i wyczyścić filtr pompy odpływowej.",
+   "Sprawdzić, czy wąż odpływowy nie jest zagięty ani zatkany.",
+   "Podłączyć do prądu i uruchomić odpompowanie lub wirowanie."
+  ],
+  "technician": "Jeśli woda nadal nie odpływa, należy umówić naprawę."
+ },
+ "AEG|E30": {
+  "title": "Problem z czujnikiem ciśnienia (poziomu) wody",
+  "causes": [
+   "Czujnik mierzący poziom wody jest uszkodzony lub nadmiar piany zakłóca pomiar."
+  ],
+  "steps": [
+   "Wyłączyć zasilanie w gniazdku na ok. minutę, a następnie włączyć je ponownie.",
+   "Stosować właściwą ilość detergentu."
+  ],
+  "technician": "Jeśli kod wraca, należy umówić naprawę."
+ },
+ "AEG|E40": {
+  "title": "Problem z blokadą drzwi",
+  "causes": [
+   "Drzwi nie są prawidłowo zamknięte lub blokada drzwi jest uszkodzona."
+  ],
+  "steps": [
+   "Otworzyć drzwi, sprawdzić, czy nic nie utknęło w uszczelce, i mocno je zamknąć.",
+   "Wyłączyć zasilanie w gniazdku na ok. minutę, a następnie uruchomić ponownie."
+  ],
+  "technician": "Jeśli drzwi nadal się nie blokują, należy umówić naprawę."
+ },
+ "AEG|E50": {
+  "title": "Problem z silnikiem",
+  "causes": [
+   "Usterka silnika lub układu napędowego."
+  ],
+  "steps": [
+   "Wyłączyć zasilanie w gniazdku na ok. minutę, a następnie uruchomić ponownie."
+  ],
+  "technician": "Jeśli bęben nadal się nie obraca, należy umówić naprawę."
+ },
+ "AEG|E60": {
+  "title": "Problem z grzaniem",
+  "causes": [
+   "Usterka grzałki lub czujnika temperatury."
+  ],
+  "steps": [
+   "Wyłączyć zasilanie w gniazdku na ok. minutę, a następnie uruchomić ponownie."
+  ],
+  "technician": "Jeśli kod wraca, należy umówić naprawę."
+ },
+ "AEG|EF0": {
+  "title": "Ostrzeżenie: wyciek, za dużo piany lub niewyważony wsad",
+  "causes": [
+   "Woda wycieka wewnątrz urządzenia.",
+   "Za dużo piany z detergentu.",
+   "Niewyważony wsad."
+  ],
+  "steps": [
+   "Wyłączyć pralkę, odłączyć ją od prądu i sprawdzić, czy na podłodze nie ma wody.",
+   "Jeśli nie ma wycieku, użyć mniej detergentu i równomiernie rozłożyć pranie.",
+   "Uruchomić ponownie, gdy piana opadnie."
+  ],
+  "technician": "Jeśli widać wyciek lub kod ciągle wraca, należy zakręcić zawór i umówić naprawę."
+ },
+ "AEG|EH0": {
+  "title": "Problem z zasilaniem",
+  "causes": [
+   "Napięcie w sieci jest nieregularne lub niestabilne."
+  ],
+  "steps": [
+   "Podłączyć pralkę bezpośrednio do gniazdka ściennego, bez przedłużaczy.",
+   "Wyłączyć na ok. minutę, a następnie włączyć ponownie."
+  ],
+  "technician": "Jeśli problem się powtarza, należy poprosić elektryka o sprawdzenie instalacji."
+ },
+ "Hotpoint|F01": {
+  "title": "Usterka płytki elektroniki",
+  "causes": [
+   "Usterka płytki sterującej. Część lub wszystkie funkcje nie działają."
+  ],
+  "steps": [
+   "Odłączyć pralkę od prądu na co najmniej 2 minuty.",
+   "Podłączyć do prądu, odczekać 30 sekund i spróbować ponownie."
+  ],
+  "technician": "Jeśli usterka nie ustępuje, należy umówić wizytę serwisanta Hotpoint."
+ },
+ "Hotpoint|F02": {
+  "title": "Usterka obwodu silnika",
+  "causes": [
+   "Usterka obwodu silnika. Bęben obraca się z przerwami lub wcale."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Hotpoint."
+ },
+ "Hotpoint|F03": {
+  "title": "Usterka czujnika temperatury",
+  "causes": [
+   "Obwód pomiaru temperatury jest uszkodzony, więc pralka nie grzeje."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Hotpoint."
+ },
+ "Hotpoint|F05": {
+  "title": "Zatkany odpływ lub problem z pompą",
+  "causes": [
+   "Zatkany filtr pompy, wąż odpływowy lub kanalizacja pod zlewem.",
+   "Uszkodzona pompa odpływowa."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu. Odczekać, aż gorąca woda ostygnie.",
+   "Jeśli model ma filtr pompy, spuścić wodę do naczynia i wyczyścić filtr.",
+   "Sprawdzić, czy wąż odpływowy i rura pod zlewem nie są zatkane.",
+   "Podłączyć do prądu i spróbować odpompowania lub wirowania."
+  ],
+  "technician": "Jeśli woda nadal nie odpływa, pompa jest prawdopodobnie uszkodzona. Należy umówić wizytę serwisanta."
+ },
+ "Hotpoint|F06": {
+  "title": "Usterka blokady drzwi",
+  "causes": [
+   "Blokada drzwi jest zablokowana lub uszkodzona."
+  ],
+  "steps": [
+   "Sprawdzić, czy nic nie przeszkadza w okolicy drzwi i blokady.",
+   "Mocno zamknąć drzwi i uruchomić ponownie.",
+   "Sprawdzić stronę z komunikatami bezpieczeństwa Hotpoint – niektóre blokady drzwi są objęte akcją serwisową."
+  ],
+  "technician": "Jeśli usterka nie ustępuje, należy umówić wizytę serwisanta."
+ },
+ "Hotpoint|F07": {
+  "title": "Usterka obwodu grzania / płytki",
+  "causes": [
+   "Usterka obwodu grzania lub płytki sterującej. Pranie zatrzymuje się, a pompa może dalej pracować."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Hotpoint."
+ },
+ "Hotpoint|F08": {
+  "title": "Usterka grzałki",
+  "causes": [
+   "Grzałka jest uszkodzona, więc program zatrzymuje się w trakcie prania."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Hotpoint."
+ },
+ "Hotpoint|F09": {
+  "title": "Błąd oprogramowania",
+  "causes": [
+   "Problem z oprogramowaniem. Kontrolki migają i nie można wybrać żadnego programu."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Hotpoint."
+ },
+ "Hotpoint|F11": {
+  "title": "Usterka obwodu pompy odpływowej",
+  "causes": [
+   "Usterka obwodu pompy. Woda pozostaje w bębnie."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu.",
+   "Nie otwierać drzwi, gdy w bębnie jest woda."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Hotpoint."
+ },
+ "Hotpoint|F12": {
+  "title": "Usterka elektroniki sterującej",
+  "causes": [
+   "Usterka elementów sterujących. Pralka nie włącza się."
+  ],
+  "steps": [
+   "Sprawdzić, czy wtyczka i gniazdko działają z innym urządzeniem."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Hotpoint."
+ },
+ "Hotpoint|F15": {
+  "title": "Usterka sterowania grzałką",
+  "causes": [
+   "Usterka sterowania grzałką. Woda się nie nagrzewa lub pranie się zatrzymuje."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Hotpoint."
+ },
+ "Hotpoint|F18": {
+  "title": "Wewnętrzny błąd danych",
+  "causes": [
+   "Wewnętrzny problem z danymi. Część lub wszystkie funkcje wyświetlacza nie działają."
+  ],
+  "steps": [
+   "Odłączyć pralkę od prądu na co najmniej 2 minuty.",
+   "Podłączyć do prądu, odczekać 30 sekund i spróbować ponownie."
+  ],
+  "technician": "Jeśli problem nie ustępuje, należy umówić wizytę serwisanta Hotpoint."
+ },
+ "Indesit|F01": {
+  "title": "Usterka płytki elektroniki",
+  "causes": [
+   "Usterka płytki sterującej. Części lub wszystkich funkcji nie można wybrać."
+  ],
+  "steps": [
+   "Odłączyć pralkę od prądu na co najmniej 2 minuty.",
+   "Podłączyć do prądu, odczekać 30 sekund i spróbować ponownie."
+  ],
+  "technician": "Jeśli usterka nie ustępuje, należy umówić wizytę serwisanta Indesit."
+ },
+ "Indesit|F02": {
+  "title": "Usterka obwodu silnika",
+  "causes": [
+   "Usterka obwodu silnika. Bęben obraca się z przerwami lub wcale."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Indesit."
+ },
+ "Indesit|F03": {
+  "title": "Usterka czujnika temperatury",
+  "causes": [
+   "Obwód pomiaru temperatury jest uszkodzony, więc pralka nie grzeje."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Indesit."
+ },
+ "Indesit|F05": {
+  "title": "Zatkany odpływ lub problem z pompą",
+  "causes": [
+   "Zatkany filtr pompy, wąż odpływowy lub kanalizacja pod zlewem.",
+   "Uszkodzona pompa odpływowa."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu. Odczekać, aż gorąca woda ostygnie.",
+   "Jeśli model ma filtr pompy, spuścić wodę do naczynia i wyczyścić go.",
+   "Sprawdzić, czy wąż odpływowy i rura pod zlewem nie są zatkane.",
+   "Podłączyć do prądu i spróbować odpompowania lub wirowania."
+  ],
+  "technician": "Jeśli woda nadal nie odpływa, pompa jest prawdopodobnie uszkodzona. Należy umówić wizytę serwisanta."
+ },
+ "Indesit|F06": {
+  "title": "Usterka blokady drzwi",
+  "causes": [
+   "Blokada drzwi jest zablokowana lub uszkodzona."
+  ],
+  "steps": [
+   "Sprawdzić, czy nic nie przeszkadza w okolicy drzwi i blokady.",
+   "Mocno zamknąć drzwi i uruchomić ponownie.",
+   "Sprawdzić komunikaty bezpieczeństwa producenta – niektóre blokady drzwi są objęte akcją serwisową."
+  ],
+  "technician": "Jeśli usterka nie ustępuje, należy umówić wizytę serwisanta."
+ },
+ "Indesit|F07": {
+  "title": "Usterka obwodu grzania / płytki",
+  "causes": [
+   "Usterka obwodu grzania lub płytki sterującej. Pranie zatrzymuje się, a pompa może dalej pracować."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Indesit."
+ },
+ "Indesit|F08": {
+  "title": "Usterka grzałki",
+  "causes": [
+   "Grzałka jest uszkodzona, więc program zatrzymuje się w trakcie prania."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Indesit."
+ },
+ "Indesit|F09": {
+  "title": "Błąd oprogramowania",
+  "causes": [
+   "Problem z oprogramowaniem. Kontrolki migają i nie można wybrać żadnego programu."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Indesit."
+ },
+ "Indesit|F11": {
+  "title": "Usterka obwodu pompy odpływowej",
+  "causes": [
+   "Usterka obwodu pompy. Woda pozostaje w bębnie."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu.",
+   "Nie otwierać drzwi, gdy w bębnie jest woda."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Indesit."
+ },
+ "Indesit|F12": {
+  "title": "Usterka elektroniki sterującej",
+  "causes": [
+   "Usterka elementów sterujących. Pralka nie włącza się."
+  ],
+  "steps": [
+   "Sprawdzić, czy wtyczka i gniazdko działają z innym urządzeniem."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Indesit."
+ },
+ "Indesit|F15": {
+  "title": "Usterka sterowania grzałką",
+  "causes": [
+   "Usterka sterowania grzałką. Woda się nie nagrzewa lub pranie się zatrzymuje."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Indesit."
+ },
+ "Indesit|F18": {
+  "title": "Wewnętrzny błąd danych",
+  "causes": [
+   "Wewnętrzny problem z danymi. Część lub wszystkie funkcje wyświetlacza nie działają."
+  ],
+  "steps": [
+   "Odłączyć pralkę od prądu na co najmniej 2 minuty.",
+   "Podłączyć do prądu, odczekać 30 sekund i spróbować ponownie."
+  ],
+  "technician": "Jeśli problem nie ustępuje, należy umówić wizytę serwisanta Indesit."
+ },
+ "Beko|E5": {
+  "title": "Możliwy zatkany filtr pompy (problem z odpływem)",
+  "causes": [
+   "Filtr pompy jest zatkany, więc woda nie może odpłynąć."
+  ],
+  "steps": [
+   "Wyłączyć pralkę i odłączyć ją od prądu. Odczekać, aż gorąca woda ostygnie.",
+   "Spuścić pozostałą wodę do naczynia i wyczyścić filtr pompy.",
+   "Mocno zamontować filtr i uruchomić wirowanie."
+  ],
+  "technician": "Jeśli problem się utrzymuje, należy wezwać serwis Beko."
+ },
+ "Beko|E8": {
+  "title": "Brak dopływu wody",
+  "causes": [
+   "Zawór jest zakręcony lub jest przerwa w dostawie wody.",
+   "Wąż dopływowy jest zagięty lub luźny.",
+   "Przednia osłona filtra nie jest zamknięta i zablokowana."
+  ],
+  "steps": [
+   "Odkręcić zawór i sprawdzić, czy w instalacji jest woda.",
+   "Sprawdzić podłączenie węża dopływowego i wyprostować zagięcia.",
+   "Upewnić się, że przednia osłona jest zamknięta i zablokowana.",
+   "Uruchomić pralkę ponownie."
+  ],
+  "technician": "Jeśli problem się utrzymuje, należy wezwać serwis Beko."
+ },
+ "Beko|E12": {
+  "title": "Możliwa woda wewnątrz pralki (wyciek)",
+  "causes": [
+   "Wewnątrz pralki zebrała się woda, prawdopodobnie z powodu wycieku."
+  ],
+  "steps": [
+   "Odłączyć urządzenie od prądu.",
+   "Wytrzeć wodę pod pralką.",
+   "Podłączyć do prądu i uruchomić krótki cykl, obserwując pralkę."
+  ],
+  "technician": "Jeśli woda wycieka z węża lub kod wraca, należy zakręcić zawory i wezwać serwis Beko."
+ },
+ "Beko|E17": {
+  "title": "Za dużo piany",
+  "causes": [
+   "Za dużo detergentu w stosunku do wsadu.",
+   "Detergent wsypano do niewłaściwej komory lub był źle przechowywany."
+  ],
+  "steps": [
+   "Dobrać dawkę detergentu do wielkości wsadu i stopnia zabrudzenia.",
+   "Przy bardzo chłonnych tkaninach użyć mniej detergentu.",
+   "Uruchomić program czyszczenia bębna (lub Bawełna 90°C) z pustym bębnem."
+  ],
+  "technician": "Jeśli problem się utrzymuje, należy wezwać serwis Beko."
+ },
+ "Beko|E18": {
+  "title": "Niewyważony wsad – wirowanie się nie rozpoczęło",
+  "causes": [
+   "Za mało prania lub pranie zbite po jednej stronie."
+  ],
+  "steps": [
+   "Dołożyć więcej rzeczy, jeśli wsad jest bardzo mały.",
+   "Ręcznie równomiernie rozłożyć pranie.",
+   "Ponownie uruchomić wirowanie."
+  ],
+  "technician": "Zwykle nie jest potrzebny."
+ },
+ "Beko|E27": {
+  "title": "Problem z odpompowaniem wody",
+  "causes": [
+   "Wąż odpływowy jest nieprawidłowo podłączony."
+  ],
+  "steps": [
+   "Sprawdzić podłączenie węża odpływowego do odpływu.",
+   "Upewnić się, że wąż nie jest zagięty ani zatkany."
+  ],
+  "technician": "Jeśli problem się utrzymuje, należy wezwać serwis Beko."
+ },
+ "Beko|E29": {
+  "title": "Tryb samoochrony (problem z zasilaniem)",
+  "causes": [
+   "Problem z napięciem w sieci lub ciśnieniem wody."
+  ],
+  "steps": [
+   "Anulować program, przekręcając pokrętło na inny program.",
+   "Ponownie uruchomić program."
+  ],
+  "technician": "Jeśli problem się utrzymuje, należy wezwać serwis Beko."
+ },
+ "Miele|F10": {
+  "title": "Zablokowany lub ograniczony dopływ wody",
+  "causes": [
+   "Zawór odcinający (kran) jest zakręcony.",
+   "Filtr wlotowy jest zabrudzony.",
+   "Wąż dopływowy jest zagięty.",
+   "Zbyt niskie ciśnienie wody."
+  ],
+  "steps": [
+   "Zatrzymać program i całkowicie odkręcić zawór.",
+   "Zakręcić zawór, odkręcić wąż dopływowy, wyjąć mały filtr, wyczyścić go i włożyć z powrotem.",
+   "Zamontować wąż, odkręcić zawór i sprawdzić, czy nic nie kapie.",
+   "Wyprostować zagięcia węża.",
+   "Sprawdzić przepływ: w ciągu 15 sekund powinno wypłynąć co najmniej 5 litrów."
+  ],
+  "technician": "Jeśli ciśnienie jest zbyt niskie, należy wezwać hydraulika. Jeśli wąż jest uszkodzony, serwis Miele może go wymienić."
+ },
+ "Miele|F11": {
+  "title": "Ograniczony odpływ",
+  "causes": [
+   "Koniec węża odpływowego jest wyżej niż 1 metr.",
+   "Wąż odpływowy jest zagięty.",
+   "Filtr odpływowy lub pompa są zablokowane przez przedmioty, np. guziki lub monety."
+  ],
+  "steps": [
+   "Wyłączyć pralkę. Odczekać, aż gorąca woda ostygnie, aby uniknąć poparzenia.",
+   "Obniżyć koniec węża odpływowego do maks. 1 metra i usunąć zagięcia.",
+   "Otworzyć klapkę pompy odpływowej, podstawić naczynie i powoli odkręcić filtr odpływowy, aby spuścić wodę.",
+   "Wyczyścić filtr, sprawdzić, czy wirnik pompy obraca się swobodnie, a następnie mocno wkręcić filtr."
+  ],
+  "technician": "Jeśli usterka nie ustępuje, należy skontaktować się z serwisem Miele."
+ },
+ "Miele|F15": {
+  "title": "Zablokowany lub ograniczony dopływ ciepłej wody",
+  "causes": [
+   "Zawór ciepłej wody nie jest całkowicie odkręcony.",
+   "Filtr wlotowy ciepłej wody jest zabrudzony.",
+   "Zbyt niskie ciśnienie ciepłej wody."
+  ],
+  "steps": [
+   "Całkowicie odkręcić zawór ciepłej wody i uruchomić ponownie.",
+   "Zakręcić zawór, odkręcić wąż ciepłej wody, wyczyścić mały filtr i zamontować go z powrotem.",
+   "Sprawdzić przepływ: co najmniej 5 litrów w ciągu 15 sekund."
+  ],
+  "technician": "Jeśli ciśnienie jest zbyt niskie i nie da się go zwiększyć, należy skontaktować się z hydraulikiem lub serwisem Miele."
+ },
+ "Miele|F20": {
+  "title": "Usterka grzania",
+  "causes": [
+   "Ustawiona temperatura nie została osiągnięta na czas (Thermostop).",
+   "Usterka techniczna układu grzewczego."
+  ],
+  "steps": [
+   "Wyłączyć urządzenie przy gniazdku i wyjąć wtyczkę albo wyłączyć bezpiecznik.",
+   "Odczekać co najmniej 2 minuty.",
+   "Ponownie podłączyć, włączyć i uruchomić program od nowa."
+  ],
+  "technician": "Jeśli kod F20 wraca, należy skontaktować się z serwisem Miele."
+ },
+ "Miele|F34": {
+  "title": "Nie udało się zablokować drzwi",
+  "causes": [
+   "Bęben jest przeładowany.",
+   "Usterka techniczna blokady."
+  ],
+  "steps": [
+   "Wyjąć część prania, aby wsad mieścił się w limicie.",
+   "Wyłączyć i ponownie włączyć.",
+   "W razie potrzeby odłączyć od prądu na co najmniej 2 minuty, a następnie podłączyć i włączyć."
+  ],
+  "technician": "Jeśli usterka wraca, należy skontaktować się z serwisem Miele."
+ },
+ "Miele|F35": {
+  "title": "Nie udało się odblokować drzwi",
+  "causes": [
+   "Usterka techniczna blokady drzwi."
+  ],
+  "steps": [
+   "Wyłączyć urządzenie przy gniazdku i wyjąć wtyczkę albo wyłączyć bezpiecznik.",
+   "Odczekać co najmniej 2 minuty, a następnie podłączyć i włączyć."
+  ],
+  "technician": "Jeśli drzwi nadal się nie otwierają, należy skontaktować się z serwisem Miele. Nie otwierać drzwi na siłę."
+ },
+ "Miele|Waterproof system activated": {
+  "title": "Zadziałało zabezpieczenie przed wyciekiem",
+  "causes": [
+   "Wewnątrz pralki wykryto wodę z powodu wycieku."
+  ],
+  "steps": [
+   "Odłączyć urządzenie od prądu.",
+   "Zakręcić zawór wody.",
+   "Wytrzeć wodę z podłogi.",
+   "Nie używać pralki do czasu naprawy."
+  ],
+  "technician": "Według Miele wyciek musi naprawić serwis Miele. Nie próbować naprawiać go samodzielnie."
+ }
+}

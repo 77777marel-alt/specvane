@@ -1,0 +1,1776 @@
+{
+ "Vaillant|F.0": {
+  "title": "Circuito aberto no sensor de temperatura de ida",
+  "causes": [
+   "O sensor de temperatura de ida ou a fiação dele está com defeito.",
+   "Um mau contato dentro da caldeira."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar, não tente resolver sozinho. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Vaillant|F.1": {
+  "title": "Circuito aberto no sensor de temperatura de retorno",
+  "causes": [
+   "O sensor de temperatura de retorno ou a fiação dele está com defeito.",
+   "Um mau contato dentro da caldeira."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar, não tente resolver sozinho. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Vaillant|F.10": {
+  "title": "Curto-circuito no sensor de temperatura de ida",
+  "causes": [
+   "O sensor de temperatura de ida ou a fiação dele está com defeito.",
+   "Um mau contato dentro da caldeira."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar, não tente resolver sozinho. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Vaillant|F.11": {
+  "title": "Curto-circuito no sensor de temperatura de retorno",
+  "causes": [
+   "O sensor de temperatura de retorno ou a fiação dele está com defeito.",
+   "Um mau contato dentro da caldeira."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar, não tente resolver sozinho. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Vaillant|F.20": {
+  "title": "O limitador térmico de segurança desarmou",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Vaillant|F.22": {
+  "title": "Pressão da água baixa",
+  "causes": [
+   "O sistema de aquecimento perdeu água, geralmente depois de sangrar os radiadores.",
+   "Um pequeno vazamento em algum ponto dos canos ou radiadores.",
+   "Um sensor de pressão com defeito."
+  ],
+  "steps": [
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se você precisa completar a água com frequência, pode haver um vazamento. Peça a um técnico para localizá-lo."
+  ],
+  "technician": "Se a pressão continuar caindo, um técnico credenciado precisa localizar o vazamento; nunca abra o gabinete da caldeira sozinho."
+ },
+ "Vaillant|F.23": {
+  "title": "Diferença de temperatura entre ida e retorno grande demais",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Vaillant|F.24": {
+  "title": "A temperatura está subindo rápido demais",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Vaillant|F.25": {
+  "title": "Temperatura dos gases de combustão alta demais",
+  "causes": [
+   "Um problema na chaminé ou na entrada de ar.",
+   "Combustão ruim dentro da caldeira."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Desligue a caldeira no interruptor principal.",
+   "Verifique do lado de fora se o terminal da chaminé não está visivelmente bloqueado. Não toque nele.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Vaillant|F.27": {
+  "title": "Chama detectada com o queimador desligado",
+  "causes": [
+   "Uma falha no circuito de detecção de chama.",
+   "Uma válvula de gás que não fecha totalmente."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Desligue a caldeira no interruptor principal.",
+   "Não continue fazendo reset. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Esta é uma falha de segurança; só um técnico credenciado pode inspecionar a válvula de gás e as peças de detecção de chama."
+ },
+ "Vaillant|F.28": {
+  "title": "A caldeira não acendeu",
+  "causes": [
+   "Não chega gás à caldeira, por exemplo um medidor pré-pago sem crédito.",
+   "Um tubo de condensado congelado ou entupido.",
+   "Uma falha nas peças de ignição ou de detecção de chama."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Verifique se outros aparelhos a gás, como o fogão, estão funcionando.",
+   "Se você tem um medidor de gás pré-pago, confira se ele tem crédito.",
+   "Em tempo muito frio, verifique o tubo plástico de condensado do lado de fora. Descongele o gelo com água morna (não fervente).",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Vaillant|F.29": {
+  "title": "A chama apagou e a caldeira não conseguiu reacender",
+  "causes": [
+   "Não chega gás à caldeira, por exemplo um medidor pré-pago sem crédito.",
+   "Um tubo de condensado congelado ou entupido.",
+   "Uma falha nas peças de ignição ou de detecção de chama."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Verifique se outros aparelhos a gás, como o fogão, estão funcionando.",
+   "Se você tem um medidor de gás pré-pago, confira se ele tem crédito.",
+   "Em tempo muito frio, verifique o tubo plástico de condensado do lado de fora. Descongele o gelo com água morna (não fervente).",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Vaillant|F.32": {
+  "title": "Falha no ventilador",
+  "causes": [
+   "O ventilador não está girando na velocidade certa.",
+   "Uma falha na fiação ou na placa de controle.",
+   "A chaminé pode estar bloqueada."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Verifique do lado de fora se nada está bloqueando o terminal da chaminé. Não toque nele.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Vaillant|F.35": {
+  "title": "Tubo de ar ou da chaminé bloqueado",
+  "causes": [
+   "Algo está bloqueando a chaminé ou a entrada de ar.",
+   "Danos na tubulação da chaminé."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Desligue a caldeira no interruptor principal.",
+   "Procure do lado de fora folhas, ninhos ou neve ao redor do terminal da chaminé, mas não toque nem retire a chaminé.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Vaillant|F.54": {
+  "title": "Falha no abastecimento de gás",
+  "causes": [
+   "Não chega gás à caldeira, por exemplo um medidor pré-pago sem crédito.",
+   "Um tubo de condensado congelado ou entupido.",
+   "Uma falha nas peças de ignição ou de detecção de chama."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Verifique se outros aparelhos a gás, como o fogão, estão funcionando.",
+   "Se você tem um medidor de gás pré-pago, confira se ele tem crédito.",
+   "Em tempo muito frio, verifique o tubo plástico de condensado do lado de fora. Descongele o gelo com água morna (não fervente).",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Vaillant|F.62": {
+  "title": "Falha no tempo de fechamento da válvula de gás",
+  "causes": [
+   "A chama demorou demais para apagar depois que o queimador parou.",
+   "Uma falha na válvula de gás ou no controle."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Vaillant|F.75": {
+  "title": "A pressão não sobe quando a bomba liga",
+  "causes": [
+   "O sistema de aquecimento perdeu água, geralmente depois de sangrar os radiadores.",
+   "Um pequeno vazamento em algum ponto dos canos ou radiadores.",
+   "Um sensor de pressão com defeito."
+  ],
+  "steps": [
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se você precisa completar a água com frequência, pode haver um vazamento. Peça a um técnico para localizá-lo."
+  ],
+  "technician": "Se a pressão continuar caindo, um técnico credenciado precisa localizar o vazamento; nunca abra o gabinete da caldeira sozinho."
+ },
+ "Vaillant|F.83": {
+  "title": "A temperatura não sobe quando o queimador acende",
+  "causes": [
+   "Não há água suficiente na caldeira.",
+   "Ar no sistema ou falha em um sensor."
+  ],
+  "steps": [
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Vaillant|F.88": {
+  "title": "Conexão elétrica da válvula de gás perdida",
+  "causes": [
+   "Uma conexão solta ou danificada na válvula de gás.",
+   "Uma falha na placa de controle."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Não tente mexer na válvula de gás. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Glow-worm|F.0": {
+  "title": "Circuito aberto no sensor de temperatura de ida",
+  "causes": [
+   "O sensor de temperatura de ida ou a fiação dele está com defeito.",
+   "Um mau contato dentro da caldeira."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar, não tente resolver sozinho. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Glow-worm|F.1": {
+  "title": "Circuito aberto no sensor de temperatura de retorno",
+  "causes": [
+   "O sensor de temperatura de retorno ou a fiação dele está com defeito.",
+   "Um mau contato dentro da caldeira."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar, não tente resolver sozinho. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Glow-worm|F.20": {
+  "title": "O limitador térmico de segurança desarmou",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Glow-worm|F.22": {
+  "title": "Pressão da água baixa",
+  "causes": [
+   "O sistema de aquecimento perdeu água, geralmente depois de sangrar os radiadores.",
+   "Um pequeno vazamento em algum ponto dos canos ou radiadores.",
+   "Um sensor de pressão com defeito."
+  ],
+  "steps": [
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se você precisa completar a água com frequência, pode haver um vazamento. Peça a um técnico para localizá-lo."
+  ],
+  "technician": "Se a pressão continuar caindo, um técnico credenciado precisa localizar o vazamento; nunca abra o gabinete da caldeira sozinho."
+ },
+ "Glow-worm|F.23": {
+  "title": "Diferença de temperatura entre ida e retorno grande demais",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Glow-worm|F.24": {
+  "title": "A temperatura está subindo rápido demais",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Glow-worm|F.27": {
+  "title": "Chama detectada com o queimador desligado",
+  "causes": [
+   "Uma falha no circuito de detecção de chama.",
+   "Uma válvula de gás que não fecha totalmente."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Desligue a caldeira no interruptor principal.",
+   "Não continue fazendo reset. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Esta é uma falha de segurança; só um técnico credenciado pode inspecionar a válvula de gás e as peças de detecção de chama."
+ },
+ "Glow-worm|F.28": {
+  "title": "A caldeira não acendeu",
+  "causes": [
+   "Não chega gás à caldeira, por exemplo um medidor pré-pago sem crédito.",
+   "Um tubo de condensado congelado ou entupido.",
+   "Uma falha nas peças de ignição ou de detecção de chama."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Verifique se outros aparelhos a gás, como o fogão, estão funcionando.",
+   "Se você tem um medidor de gás pré-pago, confira se ele tem crédito.",
+   "Em tempo muito frio, verifique o tubo plástico de condensado do lado de fora. Descongele o gelo com água morna (não fervente).",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Glow-worm|F.29": {
+  "title": "A chama apagou e a caldeira não conseguiu reacender",
+  "causes": [
+   "Não chega gás à caldeira, por exemplo um medidor pré-pago sem crédito.",
+   "Um tubo de condensado congelado ou entupido.",
+   "Uma falha nas peças de ignição ou de detecção de chama."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Verifique se outros aparelhos a gás, como o fogão, estão funcionando.",
+   "Se você tem um medidor de gás pré-pago, confira se ele tem crédito.",
+   "Em tempo muito frio, verifique o tubo plástico de condensado do lado de fora. Descongele o gelo com água morna (não fervente).",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Glow-worm|F.32": {
+  "title": "Falha no ventilador",
+  "causes": [
+   "O ventilador não está girando na velocidade certa.",
+   "Uma falha na fiação ou na placa de controle.",
+   "A chaminé pode estar bloqueada."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Verifique do lado de fora se nada está bloqueando o terminal da chaminé. Não toque nele.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Glow-worm|F.61": {
+  "title": "Falha na placa de controle principal",
+  "causes": [
+   "Uma falha eletrônica na placa principal.",
+   "Um problema no circuito de controle da válvula de gás."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Se o código continuar, não faça reset novamente. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Glow-worm|F.75": {
+  "title": "A pressão não sobe quando a bomba liga",
+  "causes": [
+   "O sistema de aquecimento perdeu água, geralmente depois de sangrar os radiadores.",
+   "Um pequeno vazamento em algum ponto dos canos ou radiadores.",
+   "Um sensor de pressão com defeito."
+  ],
+  "steps": [
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se você precisa completar a água com frequência, pode haver um vazamento. Peça a um técnico para localizá-lo."
+  ],
+  "technician": "Se a pressão continuar caindo, um técnico credenciado precisa localizar o vazamento; nunca abra o gabinete da caldeira sozinho."
+ },
+ "Glow-worm|F.84": {
+  "title": "As leituras de ida e retorno não fazem sentido",
+  "causes": [
+   "A tubulação pode estar invertida ou um sensor foi instalado no lugar errado.",
+   "Uma falha em um sensor."
+  ],
+  "steps": [
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se isso apareceu depois de um serviço novo no sistema, entre em contato com o instalador que fez o serviço."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Glow-worm|F.88": {
+  "title": "Conexão elétrica da válvula de gás perdida",
+  "causes": [
+   "Uma conexão solta ou danificada na válvula de gás.",
+   "Uma falha na placa de controle."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Não tente mexer na válvula de gás. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Ideal|L1": {
+  "title": "Superaquecimento na ida ou sem fluxo de água",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Ideal|L2": {
+  "title": "Bloqueio por falha de ignição",
+  "causes": [
+   "Não chega gás à caldeira, por exemplo um medidor pré-pago sem crédito.",
+   "Um tubo de condensado congelado ou entupido.",
+   "Uma falha nas peças de ignição ou de detecção de chama."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Verifique se outros aparelhos a gás, como o fogão, estão funcionando.",
+   "Se você tem um medidor de gás pré-pago, confira se ele tem crédito.",
+   "Em tempo muito frio, verifique o tubo plástico de condensado do lado de fora. Descongele o gelo com água morna (não fervente).",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Ideal|L3": {
+  "title": "Sem fluxo de água",
+  "causes": [
+   "Pressão do sistema baixa.",
+   "Ar preso nos radiadores.",
+   "Um problema de circulação ou na bomba."
+  ],
+  "steps": [
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Desligue a caldeira e sangre os radiadores.",
+   "Verifique a pressão novamente, ligue a caldeira e faça o reset.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Ideal|L5": {
+  "title": "Resets demais em 15 minutos",
+  "causes": [
+   "O botão de reset foi pressionado vezes demais em pouco tempo."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Se depois aparecer um código de falha, siga as orientações para esse código."
+  ],
+  "technician": "Se a caldeira continuar bloqueando, um técnico credenciado deve localizar a falha de origem."
+ },
+ "Ideal|L6": {
+  "title": "Bloqueio por chama falsa",
+  "causes": [
+   "Uma falha no circuito de detecção de chama.",
+   "Uma válvula de gás que não fecha totalmente."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Desligue a caldeira no interruptor principal.",
+   "Não continue fazendo reset. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Esta é uma falha de segurança; só um técnico credenciado pode inspecionar a válvula de gás e as peças de detecção de chama."
+ },
+ "Ideal|F1": {
+  "title": "Pressão da água baixa",
+  "causes": [
+   "O sistema de aquecimento perdeu água, geralmente depois de sangrar os radiadores.",
+   "Um pequeno vazamento em algum ponto dos canos ou radiadores.",
+   "Um sensor de pressão com defeito."
+  ],
+  "steps": [
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se você precisa completar a água com frequência, pode haver um vazamento. Peça a um técnico para localizá-lo."
+  ],
+  "technician": "Se a pressão continuar caindo, um técnico credenciado precisa localizar o vazamento; nunca abra o gabinete da caldeira sozinho."
+ },
+ "Ideal|F2": {
+  "title": "Perda de chama",
+  "causes": [
+   "Não chega gás à caldeira, por exemplo um medidor pré-pago sem crédito.",
+   "Um tubo de condensado congelado ou entupido.",
+   "Uma falha nas peças de ignição ou de detecção de chama."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Verifique se outros aparelhos a gás, como o fogão, estão funcionando.",
+   "Se você tem um medidor de gás pré-pago, confira se ele tem crédito.",
+   "Em tempo muito frio, verifique o tubo plástico de condensado do lado de fora. Descongele o gelo com água morna (não fervente).",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Ideal|F3": {
+  "title": "Falha no ventilador",
+  "causes": [
+   "O ventilador não está girando na velocidade certa.",
+   "Uma falha na fiação ou na placa de controle.",
+   "A chaminé pode estar bloqueada."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Verifique do lado de fora se nada está bloqueando o terminal da chaminé. Não toque nele.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Ideal|F4": {
+  "title": "Falha no termistor de ida",
+  "causes": [
+   "O termistor de ida (sensor de temperatura) ou a fiação dele está com defeito.",
+   "Um mau contato dentro da caldeira."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar, não tente resolver sozinho. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Ideal|F5": {
+  "title": "Falha no termistor de retorno",
+  "causes": [
+   "O termistor de retorno (sensor de temperatura) ou a fiação dele está com defeito.",
+   "Um mau contato dentro da caldeira."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar, não tente resolver sozinho. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Ideal|F6": {
+  "title": "Falha no sensor externo",
+  "causes": [
+   "O sensor de temperatura externa ou a fiação dele está com defeito.",
+   "Um mau contato dentro da caldeira."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar, não tente resolver sozinho. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Ideal|F7": {
+  "title": "Tensão da rede elétrica baixa",
+  "causes": [
+   "A tensão da rede elétrica da casa está baixa demais.",
+   "Uma falha na fiação do imóvel."
+  ],
+  "steps": [
+   "Verifique se outros aparelhos ou lâmpadas são afetados.",
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Peça a um eletricista ou à sua distribuidora de energia para verificar a alimentação."
+  ],
+  "technician": "Se a alimentação estiver boa, um técnico credenciado deve testar a caldeira; a verificação da fiação da rede é para um eletricista qualificado."
+ },
+ "Ideal|F0": {
+  "title": "Sem fluxo de água (termistor)",
+  "causes": [
+   "A água não está circulando pela caldeira.",
+   "Uma falha em um sensor."
+  ],
+  "steps": [
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Ideal|FD": {
+  "title": "Sem fluxo de água",
+  "causes": [
+   "Pressão baixa ou ar no sistema.",
+   "A bomba do aquecimento não está funcionando."
+  ],
+  "steps": [
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Ligue a caldeira novamente e veja se o código some.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Ideal|FU": {
+  "title": "Diferença entre ida e retorno alta demais",
+  "causes": [
+   "Ar nos radiadores.",
+   "Pressão baixa ou entupimento no sistema."
+  ],
+  "steps": [
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Ligue a caldeira novamente.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Worcester Bosch|EA 227": {
+  "title": "O queimador não acende",
+  "causes": [
+   "Não chega gás à caldeira, por exemplo um medidor pré-pago sem crédito.",
+   "Um tubo de condensado congelado ou entupido.",
+   "Uma falha nas peças de ignição ou de detecção de chama."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Verifique se outros aparelhos a gás, como o fogão, estão funcionando.",
+   "Se você tem um medidor de gás pré-pago, confira se ele tem crédito.",
+   "Em tempo muito frio, verifique o tubo plástico de condensado do lado de fora. Descongele o gelo com água morna (não fervente).",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Worcester Bosch|CE 207": {
+  "title": "Pressão da água baixa",
+  "causes": [
+   "O sistema de aquecimento perdeu água, geralmente depois de sangrar os radiadores.",
+   "Um pequeno vazamento em algum ponto dos canos ou radiadores.",
+   "Um sensor de pressão com defeito."
+  ],
+  "steps": [
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se você precisa completar a água com frequência, pode haver um vazamento. Peça a um técnico para localizá-lo."
+  ],
+  "technician": "Se a pressão continuar caindo, um técnico credenciado precisa localizar o vazamento; nunca abra o gabinete da caldeira sozinho."
+ },
+ "Worcester Bosch|H07": {
+  "title": "Pressão da água baixa (aviso)",
+  "causes": [
+   "A pressão do sistema caiu abaixo do nível normal."
+  ],
+  "steps": [
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Se você precisa completar a água com frequência, pode haver um vazamento. Peça a um técnico para localizá-lo."
+  ],
+  "technician": "Se a pressão continuar caindo, um técnico credenciado precisa localizar o vazamento; nunca abra o gabinete da caldeira sozinho."
+ },
+ "Worcester Bosch|E9 224": {
+  "title": "Termostato de segurança interno quente demais",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Worcester Bosch|E9 276": {
+  "title": "Temperatura de ida alta demais",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Worcester Bosch|CE 266": {
+  "title": "Leituras de temperatura inesperadas, possível pressão baixa",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Worcester Bosch|Fd 231": {
+  "title": "Queda de energia durante um bloqueio",
+  "causes": [
+   "A alimentação elétrica foi interrompida enquanto a caldeira estava bloqueada."
+  ],
+  "steps": [
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se depois aparecer outro código, siga as orientações para esse código."
+  ],
+  "technician": "Se a caldeira não desbloquear depois de um reset, um técnico credenciado deve verificá-la."
+ },
+ "Worcester Bosch|A1": {
+  "title": "A bomba funcionou a seco",
+  "causes": [
+   "Pressão da água muito baixa.",
+   "Ar preso na bomba ou no sistema."
+  ],
+  "steps": [
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Worcester Bosch|C6": {
+  "title": "Velocidade do ventilador baixa demais",
+  "causes": [
+   "O ventilador não está girando na velocidade certa.",
+   "Uma falha na fiação ou na placa de controle.",
+   "A chaminé pode estar bloqueada."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Verifique do lado de fora se nada está bloqueando o terminal da chaminé. Não toque nele.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Worcester Bosch|F7": {
+  "title": "Chama ainda detectada após desligar o queimador",
+  "causes": [
+   "Uma falha no circuito de detecção de chama.",
+   "Uma válvula de gás que não fecha totalmente."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Desligue a caldeira no interruptor principal.",
+   "Não continue fazendo reset. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Esta é uma falha de segurança; só um técnico credenciado pode inspecionar a válvula de gás e as peças de detecção de chama."
+ },
+ "Worcester Bosch|2980": {
+  "title": "Falha grave de segurança",
+  "causes": [
+   "A caldeira detectou uma falha relacionada à segurança."
+  ],
+  "steps": [
+   "Desligue a caldeira.",
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Não tente consertar nem fazer reset. Entre em contato imediatamente com um técnico de aquecimento qualificado."
+  ],
+  "technician": "Esta é uma falha crítica de segurança e deve ser tratada por um técnico credenciado."
+ },
+ "Junkers/Bosch|227": {
+  "title": "O queimador não acendeu após várias tentativas",
+  "causes": [
+   "Não chega gás à caldeira, por exemplo um medidor pré-pago sem crédito.",
+   "Um tubo de condensado congelado ou entupido.",
+   "Uma falha nas peças de ignição ou de detecção de chama."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Verifique se outros aparelhos a gás, como o fogão, estão funcionando.",
+   "Se você tem um medidor de gás pré-pago, confira se ele tem crédito.",
+   "Em tempo muito frio, verifique o tubo plástico de condensado do lado de fora. Descongele o gelo com água morna (não fervente).",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Junkers/Bosch|207": {
+  "title": "Pressão da água baixa",
+  "causes": [
+   "O sistema de aquecimento perdeu água, geralmente depois de sangrar os radiadores.",
+   "Um pequeno vazamento em algum ponto dos canos ou radiadores.",
+   "Um sensor de pressão com defeito."
+  ],
+  "steps": [
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se você precisa completar a água com frequência, pode haver um vazamento. Peça a um técnico para localizá-lo."
+  ],
+  "technician": "Se a pressão continuar caindo, um técnico credenciado precisa localizar o vazamento; nunca abra o gabinete da caldeira sozinho."
+ },
+ "Junkers/Bosch|224": {
+  "title": "O limitador de temperatura de segurança desarmou",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Junkers/Bosch|276": {
+  "title": "Temperatura de ida alta demais",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Junkers/Bosch|231": {
+  "title": "Queda de energia durante um bloqueio",
+  "causes": [
+   "A alimentação elétrica foi interrompida enquanto a caldeira estava bloqueada."
+  ],
+  "steps": [
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se depois aparecer outro código, siga as orientações para esse código."
+  ],
+  "technician": "Se não normalizar, um técnico credenciado precisa verificar a caldeira."
+ },
+ "Junkers/Bosch|232": {
+  "title": "Demanda de calor bloqueada por contato externo",
+  "causes": [
+   "Um controlador externo, como um limitador de piso aquecido, bloqueou a caldeira.",
+   "O interruptor de segurança de uma bomba de condensado desarmou."
+  ],
+  "steps": [
+   "Aguarde alguns minutos; a caldeira pode reiniciar sozinha.",
+   "Verifique se o termostato ambiente e o timer estão pedindo calor.",
+   "Se você tem uma bomba de condensado, verifique se ela está com energia e não está transbordando.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Junkers/Bosch|2962": {
+  "title": "Sem sinal do ventilador",
+  "causes": [
+   "O ventilador não está girando na velocidade certa.",
+   "Uma falha na fiação ou na placa de controle.",
+   "A chaminé pode estar bloqueada."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Verifique do lado de fora se nada está bloqueando o terminal da chaminé. Não toque nele.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Baxi|E133": {
+  "title": "Tubo de condensado congelado ou entupido",
+  "causes": [
+   "O tubo de condensado externo congelou no tempo frio.",
+   "Um entupimento no tubo de condensado.",
+   "Em alguns modelos, um problema no abastecimento de gás ou na ignição."
+  ],
+  "steps": [
+   "Desligue a caldeira.",
+   "Localize a parte congelada do tubo de condensado, geralmente do lado de fora ou em uma curva.",
+   "Aqueça-a com uma bolsa de água quente ou despeje água morna (não fervente) ao longo dele.",
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás."
+  ],
+  "technician": "Se a caldeira ainda não funcionar depois de descongelar, chame um técnico credenciado."
+ },
+ "Baxi|E28": {
+  "title": "Tubo de condensado congelado ou entupido",
+  "causes": [
+   "O tubo de condensado externo congelou no tempo frio.",
+   "Um entupimento no tubo de condensado.",
+   "Em alguns modelos, um problema no abastecimento de gás ou na ignição."
+  ],
+  "steps": [
+   "Desligue a caldeira.",
+   "Localize a parte congelada do tubo de condensado, geralmente do lado de fora ou em uma curva.",
+   "Aqueça-a com uma bolsa de água quente ou despeje água morna (não fervente) ao longo dele.",
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás."
+  ],
+  "technician": "Se a caldeira ainda não funcionar depois de descongelar, chame um técnico credenciado."
+ },
+ "Baxi|A.02.06": {
+  "title": "Pressão da água baixa",
+  "causes": [
+   "O sistema de aquecimento perdeu água, geralmente depois de sangrar os radiadores.",
+   "Um pequeno vazamento em algum ponto dos canos ou radiadores.",
+   "Um sensor de pressão com defeito."
+  ],
+  "steps": [
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se você precisa completar a água com frequência, pode haver um vazamento. Peça a um técnico para localizá-lo."
+  ],
+  "technician": "Se a pressão continuar caindo, um técnico credenciado precisa localizar o vazamento; nunca abra o gabinete da caldeira sozinho."
+ },
+ "Baxi|H.02.07": {
+  "title": "Pressão da água baixa (aviso)",
+  "causes": [
+   "O sistema de aquecimento perdeu água, geralmente depois de sangrar os radiadores.",
+   "Um pequeno vazamento em algum ponto dos canos ou radiadores.",
+   "Um sensor de pressão com defeito."
+  ],
+  "steps": [
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se você precisa completar a água com frequência, pode haver um vazamento. Peça a um técnico para localizá-lo."
+  ],
+  "technician": "Se a pressão continuar caindo, um técnico credenciado precisa localizar o vazamento; nunca abra o gabinete da caldeira sozinho."
+ },
+ "Potterton|E133": {
+  "title": "Tubo de condensado congelado ou entupido",
+  "causes": [
+   "O tubo de condensado externo congelou no tempo frio.",
+   "Um entupimento no tubo de condensado.",
+   "Em alguns modelos, um problema no abastecimento de gás ou na ignição."
+  ],
+  "steps": [
+   "Desligue a caldeira.",
+   "Localize a parte congelada do tubo de condensado, geralmente do lado de fora ou em uma curva.",
+   "Aqueça-a com uma bolsa de água quente ou despeje água morna (não fervente) ao longo dele.",
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás."
+  ],
+  "technician": "Se a caldeira ainda não funcionar depois de descongelar, chame um técnico credenciado."
+ },
+ "Viessmann|74": {
+  "title": "Pressão da água baixa",
+  "causes": [
+   "O sistema de aquecimento perdeu água, geralmente depois de sangrar os radiadores.",
+   "Um pequeno vazamento em algum ponto dos canos ou radiadores.",
+   "Um sensor de pressão com defeito."
+  ],
+  "steps": [
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se você precisa completar a água com frequência, pode haver um vazamento. Peça a um técnico para localizá-lo."
+  ],
+  "technician": "Se a pressão continuar caindo, um técnico credenciado precisa localizar o vazamento; nunca abra o gabinete da caldeira sozinho."
+ },
+ "Viessmann|361": {
+  "title": "Sem sinal de chama ao acender o queimador",
+  "causes": [
+   "Não chega gás à caldeira, por exemplo um medidor pré-pago sem crédito.",
+   "Um tubo de condensado congelado ou entupido.",
+   "Uma falha nas peças de ignição ou de detecção de chama."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Verifique se outros aparelhos a gás, como o fogão, estão funcionando.",
+   "Se você tem um medidor de gás pré-pago, confira se ele tem crédito.",
+   "Em tempo muito frio, verifique o tubo plástico de condensado do lado de fora. Descongele o gelo com água morna (não fervente).",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Viessmann|64": {
+  "title": "A chama apagou durante o funcionamento",
+  "causes": [
+   "Não chega gás à caldeira, por exemplo um medidor pré-pago sem crédito.",
+   "Um tubo de condensado congelado ou entupido.",
+   "Uma falha nas peças de ignição ou de detecção de chama."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Verifique se outros aparelhos a gás, como o fogão, estão funcionando.",
+   "Se você tem um medidor de gás pré-pago, confira se ele tem crédito.",
+   "Em tempo muito frio, verifique o tubo plástico de condensado do lado de fora. Descongele o gelo com água morna (não fervente).",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Viessmann|62": {
+  "title": "O limitador de segurança de temperatura máxima desarmou",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Viessmann|63": {
+  "title": "O limitador de temperatura dos gases de combustão desarmou",
+  "causes": [
+   "A temperatura dos gases de combustão ficou alta demais.",
+   "Um problema na combustão ou na chaminé."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Desligue a caldeira.",
+   "Verifique do lado de fora se o terminal da chaminé não está visivelmente bloqueado. Não toque nele.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Viessmann|71": {
+  "title": "Velocidade do ventilador baixa demais",
+  "causes": [
+   "O ventilador não está girando na velocidade certa.",
+   "Uma falha na fiação ou na placa de controle.",
+   "A chaminé pode estar bloqueada."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Verifique do lado de fora se nada está bloqueando o terminal da chaminé. Não toque nele.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Viessmann|14": {
+  "title": "Curto-circuito no sensor de temperatura externa",
+  "causes": [
+   "O sensor de temperatura externa ou a fiação dele está com defeito.",
+   "Um mau contato dentro da caldeira."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar, não tente resolver sozinho. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Viessmann|A4": {
+  "title": "Ar na bomba ou fluxo baixo demais",
+  "causes": [
+   "Ar preso na bomba interna.",
+   "O fluxo de água pela caldeira está abaixo do mínimo."
+  ],
+  "steps": [
+   "Deixe o programa automático de purga de ar terminar.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Ariston|101": {
+  "title": "Superaquecimento",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Ariston|103": {
+  "title": "Circulação de água ruim",
+  "causes": [
+   "Ar no sistema.",
+   "Pressão baixa ou registros fechados.",
+   "Um problema na bomba."
+  ],
+  "steps": [
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Confira se os registros dos radiadores estão abertos.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Ariston|108": {
+  "title": "Pressão da água baixa",
+  "causes": [
+   "O sistema de aquecimento perdeu água, geralmente depois de sangrar os radiadores.",
+   "Um pequeno vazamento em algum ponto dos canos ou radiadores.",
+   "Um sensor de pressão com defeito."
+  ],
+  "steps": [
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se você precisa completar a água com frequência, pode haver um vazamento. Peça a um técnico para localizá-lo."
+  ],
+  "technician": "Se a pressão continuar caindo, um técnico credenciado precisa localizar o vazamento; nunca abra o gabinete da caldeira sozinho."
+ },
+ "Ariston|110": {
+  "title": "Desligamento temporário de segurança",
+  "causes": [
+   "Uma condição temporária fez a caldeira parar por segurança."
+  ],
+  "steps": [
+   "Aguarde; a caldeira deve reiniciar sozinha quando a causa desaparecer.",
+   "Se continuar desligada, desligue-a no interruptor principal e entre em contato com a assistência técnica."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Ariston|118": {
+  "title": "Problema no sensor do circuito primário",
+  "causes": [
+   "O sensor do circuito primário ou a fiação dele está com defeito.",
+   "Um mau contato dentro da caldeira."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar, não tente resolver sozinho. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Ariston|201": {
+  "title": "Falha no sensor do circuito de água",
+  "causes": [
+   "O sensor do circuito de água ou a fiação dele está com defeito.",
+   "Um mau contato dentro da caldeira."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar, não tente resolver sozinho. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Ariston|304": {
+  "title": "Resets demais",
+  "causes": [
+   "O botão de reset foi pressionado vezes demais."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Não continue fazendo reset. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Um técnico credenciado deve descobrir por que a caldeira continua bloqueando."
+ },
+ "Ariston|305": {
+  "title": "Erro na placa principal",
+  "causes": [
+   "Uma falha eletrônica na placa de controle principal."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Ariston|501": {
+  "title": "Nenhuma chama detectada",
+  "causes": [
+   "Não chega gás à caldeira, por exemplo um medidor pré-pago sem crédito.",
+   "Um tubo de condensado congelado ou entupido.",
+   "Uma falha nas peças de ignição ou de detecção de chama."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Verifique se outros aparelhos a gás, como o fogão, estão funcionando.",
+   "Se você tem um medidor de gás pré-pago, confira se ele tem crédito.",
+   "Em tempo muito frio, verifique o tubo plástico de condensado do lado de fora. Descongele o gelo com água morna (não fervente).",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Ariston|601": {
+  "title": "Falha na exaustão dos gases de combustão",
+  "causes": [
+   "A chaminé não está eliminando os gases de combustão corretamente."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Aguarde alguns minutos; a caldeira vai tentar novamente.",
+   "Se bloquear de novo, desligue-a e entre em contato com um técnico qualificado."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Ariston|611": {
+  "title": "Falha no ventilador",
+  "causes": [
+   "O ventilador não está girando na velocidade certa.",
+   "Uma falha na fiação ou na placa de controle.",
+   "A chaminé pode estar bloqueada."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Verifique do lado de fora se nada está bloqueando o terminal da chaminé. Não toque nele.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Ariston|802": {
+  "title": "A calibração automática da combustão falhou",
+  "causes": [
+   "A caldeira não conseguiu concluir o autoajuste da combustão."
+  ],
+  "steps": [
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Saunier Duval|F.22": {
+  "title": "Pressão da água baixa",
+  "causes": [
+   "O sistema de aquecimento perdeu água, geralmente depois de sangrar os radiadores.",
+   "Um pequeno vazamento em algum ponto dos canos ou radiadores.",
+   "Um sensor de pressão com defeito."
+  ],
+  "steps": [
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se você precisa completar a água com frequência, pode haver um vazamento. Peça a um técnico para localizá-lo."
+  ],
+  "technician": "Se a pressão continuar caindo, um técnico credenciado precisa localizar o vazamento; nunca abra o gabinete da caldeira sozinho."
+ },
+ "Saunier Duval|F.28": {
+  "title": "A caldeira não acendeu",
+  "causes": [
+   "Não chega gás à caldeira, por exemplo um medidor pré-pago sem crédito.",
+   "Um tubo de condensado congelado ou entupido.",
+   "Uma falha nas peças de ignição ou de detecção de chama."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Verifique se outros aparelhos a gás, como o fogão, estão funcionando.",
+   "Se você tem um medidor de gás pré-pago, confira se ele tem crédito.",
+   "Em tempo muito frio, verifique o tubo plástico de condensado do lado de fora. Descongele o gelo com água morna (não fervente).",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Saunier Duval|F.20": {
+  "title": "O limitador de temperatura de segurança desarmou",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Saunier Duval|F.23": {
+  "title": "Diferença de temperatura entre ida e retorno grande demais",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Saunier Duval|F.24": {
+  "title": "A temperatura está subindo rápido demais",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Saunier Duval|F.00": {
+  "title": "Circuito aberto no sensor de temperatura de ida",
+  "causes": [
+   "O sensor de temperatura de ida ou a fiação dele está com defeito.",
+   "Um mau contato dentro da caldeira."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar, não tente resolver sozinho. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Saunier Duval|F.10": {
+  "title": "Curto-circuito no sensor de temperatura de ida",
+  "causes": [
+   "O sensor de temperatura de ida ou a fiação dele está com defeito.",
+   "Um mau contato dentro da caldeira."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar, não tente resolver sozinho. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Immergas|E01": {
+  "title": "Bloqueio por falta de ignição",
+  "causes": [
+   "Não chega gás à caldeira, por exemplo um medidor pré-pago sem crédito.",
+   "Um tubo de condensado congelado ou entupido.",
+   "Uma falha nas peças de ignição ou de detecção de chama."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Verifique se outros aparelhos a gás, como o fogão, estão funcionando.",
+   "Se você tem um medidor de gás pré-pago, confira se ele tem crédito.",
+   "Em tempo muito frio, verifique o tubo plástico de condensado do lado de fora. Descongele o gelo com água morna (não fervente).",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Immergas|E02": {
+  "title": "Bloqueio pelo termostato de segurança (superaquecimento)",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Immergas|E05": {
+  "title": "Falha na sonda de ida",
+  "causes": [
+   "A sonda de temperatura de ida ou a fiação dela está com defeito.",
+   "Um mau contato dentro da caldeira."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar, não tente resolver sozinho. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Immergas|E06": {
+  "title": "Falha na sonda de água quente",
+  "causes": [
+   "A sonda de temperatura da água quente ou a fiação dela está com defeito.",
+   "Um mau contato dentro da caldeira."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar, não tente resolver sozinho. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Immergas|E10": {
+  "title": "Pressão do sistema insuficiente",
+  "causes": [
+   "O sistema de aquecimento perdeu água, geralmente depois de sangrar os radiadores.",
+   "Um pequeno vazamento em algum ponto dos canos ou radiadores.",
+   "Um sensor de pressão com defeito."
+  ],
+  "steps": [
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se você precisa completar a água com frequência, pode haver um vazamento. Peça a um técnico para localizá-lo."
+  ],
+  "technician": "Se a pressão continuar caindo, um técnico credenciado precisa localizar o vazamento; nunca abra o gabinete da caldeira sozinho."
+ },
+ "Immergas|E11": {
+  "title": "Falha no pressostato da chaminé",
+  "causes": [
+   "O ventilador não está girando na velocidade certa.",
+   "Uma falha na fiação ou na placa de controle.",
+   "A chaminé pode estar bloqueada."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Verifique do lado de fora se nada está bloqueando o terminal da chaminé. Não toque nele.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Immergas|E20": {
+  "title": "Bloqueio por chama parasita",
+  "causes": [
+   "Uma falha no circuito de detecção de chama.",
+   "Uma válvula de gás que não fecha totalmente."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Desligue a caldeira no interruptor principal.",
+   "Não continue fazendo reset. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Esta é uma falha de segurança; só um técnico credenciado pode inspecionar a válvula de gás e as peças de detecção de chama."
+ },
+ "Immergas|E27": {
+  "title": "Circulação insuficiente",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Immergas|E37": {
+  "title": "Tensão de alimentação baixa",
+  "causes": [
+   "A tensão da rede está abaixo do limite permitido."
+  ],
+  "steps": [
+   "Verifique se outros aparelhos são afetados.",
+   "Aguarde; a caldeira reinicia sozinha quando a tensão voltar ao normal.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Se a alimentação estiver boa, um técnico credenciado deve testar a caldeira; a verificação da fiação da rede é para um eletricista qualificado."
+ },
+ "Immergas|E38": {
+  "title": "Sinal de chama perdido",
+  "causes": [
+   "Não chega gás à caldeira, por exemplo um medidor pré-pago sem crédito.",
+   "Um tubo de condensado congelado ou entupido.",
+   "Uma falha nas peças de ignição ou de detecção de chama."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Verifique se outros aparelhos a gás, como o fogão, estão funcionando.",
+   "Se você tem um medidor de gás pré-pago, confira se ele tem crédito.",
+   "Em tempo muito frio, verifique o tubo plástico de condensado do lado de fora. Descongele o gelo com água morna (não fervente).",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Immergas|E43": {
+  "title": "Bloqueio após perdas de chama repetidas",
+  "causes": [
+   "Não chega gás à caldeira, por exemplo um medidor pré-pago sem crédito.",
+   "Um tubo de condensado congelado ou entupido.",
+   "Uma falha nas peças de ignição ou de detecção de chama."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Verifique se outros aparelhos a gás, como o fogão, estão funcionando.",
+   "Se você tem um medidor de gás pré-pago, confira se ele tem crédito.",
+   "Em tempo muito frio, verifique o tubo plástico de condensado do lado de fora. Descongele o gelo com água morna (não fervente).",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Ferroli|A01": {
+  "title": "O queimador não acende",
+  "causes": [
+   "Não chega gás à caldeira, por exemplo um medidor pré-pago sem crédito.",
+   "Um tubo de condensado congelado ou entupido.",
+   "Uma falha nas peças de ignição ou de detecção de chama."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Verifique se outros aparelhos a gás, como o fogão, estão funcionando.",
+   "Se você tem um medidor de gás pré-pago, confira se ele tem crédito.",
+   "Em tempo muito frio, verifique o tubo plástico de condensado do lado de fora. Descongele o gelo com água morna (não fervente).",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Ferroli|A02": {
+  "title": "Sinal de chama com o queimador desligado",
+  "causes": [
+   "Uma falha no circuito de detecção de chama.",
+   "Uma válvula de gás que não fecha totalmente."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Desligue a caldeira no interruptor principal.",
+   "Não continue fazendo reset. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Esta é uma falha de segurança; só um técnico credenciado pode inspecionar a válvula de gás e as peças de detecção de chama."
+ },
+ "Ferroli|A03": {
+  "title": "Proteção contra sobretemperatura",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Ferroli|F05": {
+  "title": "O pressostato de ar não fechou",
+  "causes": [
+   "O ventilador não está girando na velocidade certa.",
+   "Uma falha na fiação ou na placa de controle.",
+   "A chaminé pode estar bloqueada."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Verifique do lado de fora se nada está bloqueando o terminal da chaminé. Não toque nele.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Ferroli|A06": {
+  "title": "Sem chama após a ignição",
+  "causes": [
+   "Não chega gás à caldeira, por exemplo um medidor pré-pago sem crédito.",
+   "Um tubo de condensado congelado ou entupido.",
+   "Uma falha nas peças de ignição ou de detecção de chama."
+  ],
+  "steps": [
+   "Se sentir cheiro de gás, não faça reset. Saia do imóvel e ligue para o serviço de emergência da sua distribuidora de gás.",
+   "Verifique se outros aparelhos a gás, como o fogão, estão funcionando.",
+   "Se você tem um medidor de gás pré-pago, confira se ele tem crédito.",
+   "Em tempo muito frio, verifique o tubo plástico de condensado do lado de fora. Descongele o gelo com água morna (não fervente).",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "Qualquer serviço nas peças de gás ou de combustão deve ser feito por um técnico credenciado."
+ },
+ "Ferroli|F10": {
+  "title": "Falha no sensor de ida",
+  "causes": [
+   "O sensor de ida (fornecimento) ou a fiação dele está com defeito.",
+   "Um mau contato dentro da caldeira."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar, não tente resolver sozinho. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Ferroli|F11": {
+  "title": "Falha no sensor de água quente",
+  "causes": [
+   "O sensor de água quente ou a fiação dele está com defeito.",
+   "Um mau contato dentro da caldeira."
+  ],
+  "steps": [
+   "Desligue a caldeira no interruptor principal, aguarde 30 segundos e ligue novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar, não tente resolver sozinho. Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Ferroli|F34": {
+  "title": "Tensão de alimentação baixa demais",
+  "causes": [
+   "A tensão da rede está abaixo de cerca de 140 V."
+  ],
+  "steps": [
+   "Verifique se outros aparelhos são afetados.",
+   "Aguarde; a caldeira reinicia sozinha quando a tensão voltar ao normal.",
+   "Anote o código e entre em contato com o seu instalador ou com a assistência técnica do fabricante."
+  ],
+  "technician": "Se a alimentação estiver boa, um técnico credenciado deve testar a caldeira; a verificação da fiação da rede é para um eletricista qualificado."
+ },
+ "Ferroli|F37": {
+  "title": "Pressão da água do sistema incorreta",
+  "causes": [
+   "O sistema de aquecimento perdeu água, geralmente depois de sangrar os radiadores.",
+   "Um pequeno vazamento em algum ponto dos canos ou radiadores.",
+   "Um sensor de pressão com defeito."
+  ],
+  "steps": [
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se você precisa completar a água com frequência, pode haver um vazamento. Peça a um técnico para localizá-lo."
+  ],
+  "technician": "Se a pressão continuar caindo, um técnico credenciado precisa localizar o vazamento; nunca abra o gabinete da caldeira sozinho."
+ },
+ "Ferroli|F43": {
+  "title": "Proteção do trocador de calor",
+  "causes": [
+   "A água não está circulando bem pela caldeira.",
+   "Registros dos radiadores fechados ou ar no sistema.",
+   "Pressão do sistema baixa ou falha na bomba."
+  ],
+  "steps": [
+   "Confira se os registros dos radiadores estão abertos.",
+   "Olhe o manômetro. Com o aquecimento frio, ele deve marcar cerca de 1 a 1,5 bar.",
+   "Se a pressão estiver baixa, complete a água pelo registro de enchimento exatamente como o manual do usuário mostra e depois feche totalmente o registro.",
+   "Sangre os radiadores que estiverem frios na parte de cima e verifique a pressão novamente.",
+   "Pressione o botão de reset uma vez e dê alguns minutos para a caldeira reiniciar.",
+   "Se o código voltar depois de um ou dois resets, pare de fazer reset e agende um conserto."
+  ],
+  "technician": "As peças internas só podem ser verificadas por um técnico credenciado."
+ },
+ "Navien|E302": {
+  "title": "Pressão do sistema baixa demais",
+  "causes": [
+   "O sistema de aquecimento perdeu água, geralmente depois de sangrar os radiadores.",
+   "Um pequeno vazamento em algum ponto dos canos ou radiadores.",
+   "Um sensor de pressão com defeito."
+  ],
+  "steps": [
+   "Olhe o manômetro ou o display. Ele deve marcar de 1 a 1,2 bar.",
+   "Se estiver baixa, complete a água pelo registro ou engate de enchimento como mostra o manual do usuário, parando em 1 a 1,2 bar.",
+   "Não passe de 1,5 bar. Se encher demais, sangre um radiador para baixar a pressão.",
+   "Se você precisa completar a água com frequência, pode haver um vazamento. Peça a um técnico para localizá-lo."
+  ],
+  "technician": "Se a pressão continuar caindo, um técnico credenciado precisa localizar o vazamento; nunca abra o gabinete da caldeira sozinho."
+ }
+}

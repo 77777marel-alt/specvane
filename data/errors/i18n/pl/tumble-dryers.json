@@ -1,0 +1,1201 @@
+{
+ "Samsung|dC": {
+  "title": "Drzwi otwarte lub niewykryte",
+  "causes": [
+   "Drzwi nie są do końca zamknięte.",
+   "Ubrania utknęły w drzwiach.",
+   "Blokada rodzicielska jest włączona, a drzwi zostały otwarte."
+  ],
+  "steps": [
+   "Otworzyć drzwi i usunąć ubrania przytrzaśnięte na krawędzi.",
+   "Mocno zamknąć drzwi, aż się zatrzasną.",
+   "Sprawdzić, czy włączona jest blokada rodzicielska (Child Lock).",
+   "Ponownie uruchomić cykl."
+  ],
+  "technician": "Jeśli kod nie znika przy prawidłowo zamkniętych drzwiach, zatrzask lub czujnik drzwi może być uszkodzony. Należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|NC": {
+  "title": "Problem z filtrem kłaczków",
+  "causes": [
+   "Filtra kłaczków brakuje, jest zatkany lub nieprawidłowo osadzony."
+  ],
+  "steps": [
+   "Wyjąć filtr kłaczków i go wyczyścić.",
+   "Włożyć go do końca, aby był prawidłowo osadzony.",
+   "Uruchomić cykl ponownie."
+  ],
+  "technician": "Jeśli kod wraca przy czystym, prawidłowo założonym filtrze, należy umówić wizytę serwisu Samsung."
+ },
+ "Samsung|NC2": {
+  "title": "Problem z wewnętrzną pokrywą wymiennika ciepła",
+  "causes": [
+   "Wewnętrzna pokrywa wymiennika ciepła nie jest prawidłowo założona."
+  ],
+  "steps": [
+   "Wyłączyć suszarkę.",
+   "Sprawdzić, czy wewnętrzna pokrywa wymiennika ciepła jest na miejscu i prawidłowo zamknięta.",
+   "Uruchomić cykl ponownie."
+  ],
+  "technician": "Jeśli kod nie znika po ponownym założeniu pokrywy, należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|5C": {
+  "title": "Problem z odprowadzaniem wody",
+  "causes": [
+   "Wąż odpływowy jest wygięty, uszkodzony lub zamarznięty.",
+   "Zbiornik na wodę jest pełny.",
+   "Pompa odpływowa nie działa."
+  ],
+  "steps": [
+   "Opróżnić zbiornik na wodę i włożyć go z powrotem.",
+   "Sprawdzić, czy wąż odpływowy nie jest zagięty ani uszkodzony.",
+   "Jeśli wąż jest zamarznięty, owinąć go ręcznikiem nasączonym ciepłą wodą na ok. 10 minut.",
+   "Włączyć suszarkę i ponownie uruchomić cykl."
+  ],
+  "technician": "Jeśli zbiornik jest pusty, a wąż drożny, ale kod wraca, pompa może być uszkodzona. Należy wezwać serwis Samsung."
+ },
+ "Samsung|tC": {
+  "title": "Problem z czujnikiem temperatury powietrza",
+  "causes": [
+   "Filtr kłaczków lub wymiennik ciepła jest zatkany.",
+   "Przepływ powietrza przez odpływ lub kanał jest ograniczony.",
+   "Czujnik temperatury jest uszkodzony."
+  ],
+  "steps": [
+   "Wyczyścić filtr kłaczków.",
+   "Wyczyścić wymiennik ciepła, jeśli model go ma.",
+   "Sprawdzić, czy odpływ powietrza lub wylot nie są zatkane.",
+   "Uruchomić cykl ponownie."
+  ],
+  "technician": "Jeśli czyszczenie nie usuwa kodu, czujnik może wymagać wymiany. Należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|tC5": {
+  "title": "Problem z czujnikiem temperatury sprężarki",
+  "causes": [
+   "Sitko filtra kłaczków jest zatkane.",
+   "Przepływ powietrza przez układ wentylacyjny jest ograniczony."
+  ],
+  "steps": [
+   "Odczekać 2–3 minuty, a następnie ponownie włączyć suszarkę.",
+   "Wyczyścić sitko filtra kłaczków.",
+   "Sprawdzić, czy układ wentylacyjny nie jest zatkany.",
+   "Uruchomić cykl ponownie."
+  ],
+  "technician": "Jeśli kod ciągle wraca, układ pompy ciepła wymaga sprawdzenia przez serwis Samsung."
+ },
+ "Samsung|3C": {
+  "title": "Problem z silnikiem",
+  "causes": [
+   "Silnik inwerterowy nie pracował prawidłowo."
+  ],
+  "steps": [
+   "Upewnić się, że bęben nie jest przeładowany.",
+   "Uruchomić cykl ponownie.",
+   "Odłączyć suszarkę od prądu na co najmniej 30 sekund, podłączyć ją ponownie i spróbować jeszcze raz."
+  ],
+  "technician": "Jeśli kod wraca, silnik lub jego sterowanie wymaga serwisanta. Należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|AC": {
+  "title": "Błąd komunikacji elektroniki",
+  "causes": [
+   "Wewnętrzne elementy sterujące nie komunikują się ze sobą."
+  ],
+  "steps": [
+   "Wyłączyć suszarkę na 60 sekund.",
+   "Włączyć ją ponownie i uruchomić cykl od nowa."
+  ],
+  "technician": "Jeśli kod wraca, płytki sterujące wymagają sprawdzenia. Należy zgłosić naprawę w serwisie Samsung."
+ },
+ "Samsung|AC6": {
+  "title": "Brak komunikacji płytki głównej z płytką inwertera",
+  "causes": [
+   "Główna płytka sterująca i płytka inwertera utraciły komunikację."
+  ],
+  "steps": [
+   "Uruchomić cykl ponownie.",
+   "Odłączyć suszarkę od prądu na co najmniej 30 sekund, podłączyć ją ponownie i spróbować jeszcze raz."
+  ],
+  "technician": "Jeśli kod nie znika, serwisant musi sprawdzić płytki i okablowanie. Należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|HC": {
+  "title": "Przegrzanie lub problem z grzaniem",
+  "causes": [
+   "Filtr kłaczków lub odpływ powietrza jest zatkany, więc suszarka się przegrzewa.",
+   "Zadziałanie bezpiecznika lub niskie napięcie w modelach elektrycznych."
+  ],
+  "steps": [
+   "Wyczyścić filtr kłaczków.",
+   "Sprawdzić, czy odpływ powietrza nie jest zatkany.",
+   "Sprawdzić bezpieczniki w domu i włączyć te, które zadziałały.",
+   "Uruchomić cykl ponownie."
+  ],
+  "technician": "Jeśli kod nie znika, należy zlecić elektrykowi sprawdzenie instalacji i umówić serwis Samsung w sprawie układu grzewczego."
+ },
+ "Samsung|FC": {
+  "title": "Nieprawidłowa częstotliwość zasilania",
+  "causes": [
+   "Częstotliwość prądu w sieci nie odpowiada wymaganiom suszarki."
+  ],
+  "steps": [
+   "Uruchomić cykl ponownie.",
+   "Upewnić się, że suszarka jest podłączona bezpośrednio do gniazdka ściennego."
+  ],
+  "technician": "Jeśli kod nie znika, należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|9C1": {
+  "title": "Problem z zasilaniem",
+  "causes": [
+   "Zasilanie jest nieprawidłowe.",
+   "Wtyczka jest luźna lub nie jest do końca włożona.",
+   "Używany jest przedłużacz."
+  ],
+  "steps": [
+   "Sprawdzić, czy wtyczka jest całkowicie wciśnięta w gniazdko.",
+   "Podłączyć suszarkę bezpośrednio do gniazdka ściennego na osobnym obwodzie, bez przedłużacza.",
+   "Uruchomić cykl ponownie."
+  ],
+  "technician": "Jeśli zasilanie jest w porządku, a kod wraca, należy zgłosić naprawę w serwisie Samsung."
+ },
+ "Samsung|dF": {
+  "title": "Usterka wyłącznika drzwi",
+  "causes": [
+   "Wyłącznik drzwi lub blokady albo jego okablowanie jest uszkodzone."
+  ],
+  "steps": [
+   "Mocno zamknąć drzwi i spróbować ponownie.",
+   "Odłączyć suszarkę od prądu na co najmniej 30 sekund, podłączyć ją ponownie i spróbować jeszcze raz."
+  ],
+  "technician": "Zespół wyłącznika drzwi może wymagać wymiany. Należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|bE": {
+  "title": "Zablokowany przycisk",
+  "causes": [
+   "Przycisk panelu sterowania jest zablokowany lub wciśnięty."
+  ],
+  "steps": [
+   "Wyłączyć suszarkę.",
+   "Nacisnąć i zwolnić każdy przycisk, także przy krawędziach, aby uwolnić zablokowany.",
+   "Włączyć i spróbować ponownie."
+  ],
+  "technician": "Jeśli przycisk jest uszkodzony lub kod wraca, należy zgłosić naprawę w serwisie Samsung."
+ },
+ "Samsung|Clg": {
+  "title": "Zatkany odpływ powietrza (wynik testu)",
+  "causes": [
+   "Przewód wylotowy jest zatkany kłaczkami lub zanieczyszczeniami."
+  ],
+  "steps": [
+   "Wyczyścić filtr kłaczków.",
+   "Wyczyścić wylot i przewód wentylacyjny.",
+   "Ponownie uruchomić test zatkania odpływu powietrza."
+  ],
+  "technician": "Jeśli odpływ jest czysty, a wynik się nie zmienia, należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|dn": {
+  "title": "Trwa pobieranie oprogramowania",
+  "causes": [
+   "Suszarka instaluje aktualizację oprogramowania."
+  ],
+  "steps": [
+   "Nie odłączać suszarki od prądu ani nie wyłączać zasilania.",
+   "Poczekać. Suszarka uruchomi się ponownie sama po zakończeniu aktualizacji."
+  ],
+  "technician": "Jeśli po 24 godzinach nadal wyświetla się dn, należy zgłosić naprawę w serwisie Samsung."
+ },
+ "Samsung|CL": {
+  "title": "Blokada rodzicielska jest włączona",
+  "causes": [
+   "Włączono blokadę rodzicielską (Child Lock), więc przyciski są nieaktywne."
+  ],
+  "steps": [
+   "Wyłączyć blokadę rodzicielską kombinacją przycisków podaną w instrukcji."
+  ],
+  "technician": "To nie jest usterka. Z Samsung należy kontaktować się tylko wtedy, gdy blokady nie da się wyłączyć."
+ },
+ "Samsung|HC2": {
+  "title": "Błąd zapłonu gazu",
+  "causes": [
+   "Suszarka gazowa nie mogła się zapalić."
+  ],
+  "steps": [
+   "Wyłączyć suszarkę na 2–3 minuty.",
+   "Włączyć ją i ponownie uruchomić cykl."
+  ],
+  "technician": "Jeśli kod wraca, należy przestać używać suszarki i wezwać serwis Samsung. Nie wolno samodzielnie naprawiać części gazowych."
+ },
+ "LG|OE": {
+  "title": "Problem z odpływem",
+  "causes": [
+   "Wąż odpływowy jest skręcony, zagięty lub zatkany.",
+   "Koniec węża jest zbyt wysoko lub zanurzony w wodzie."
+  ],
+  "steps": [
+   "Wyprostować wąż odpływowy.",
+   "Górna część węża nie powinna być wyżej niż 1 m od podłogi.",
+   "Upewnić się, że koniec węża nie jest zanurzony w wodzie.",
+   "Ponownie uruchomić suszarkę."
+  ],
+  "technician": "Jeśli kod wraca przy drożnym, prawidłowo ułożonym wężu, należy skontaktować się z serwisem LG."
+ },
+ "LG|d80": {
+  "title": "Ograniczony przepływ powietrza wylotowego (zatkanie ok. 80%)",
+  "causes": [
+   "Filtr kłaczków jest zatkany.",
+   "Przewód wylotowy jest zgnieciony, zagięty lub za długi.",
+   "Zewnętrzna klapka wylotu jest zablokowana."
+  ],
+  "steps": [
+   "Wyczyścić filtr kłaczków i w razie potrzeby opłukać go ciepłą wodą.",
+   "Sprawdzić, czy przewód za suszarką nie jest zagięty ani zgnieciony.",
+   "Upewnić się, że zewnętrzna klapka wylotu otwiera się całkowicie, i usunąć kłaczki wokół niej.",
+   "Suszyć mniejsze wsady do czasu udrożnienia przewodu."
+  ],
+  "technician": "Jeśli kod nie znika po czyszczeniu, należy zlecić czyszczenie przewodu fachowcowi lub skontaktować się z serwisem LG."
+ },
+ "LG|d90": {
+  "title": "Ograniczony przepływ powietrza wylotowego (zatkanie ok. 90%)",
+  "causes": [
+   "Filtr kłaczków jest zatkany.",
+   "Przewód wylotowy jest zgnieciony, zagięty lub za długi.",
+   "Zewnętrzna klapka wylotu jest zablokowana."
+  ],
+  "steps": [
+   "Wyczyścić filtr kłaczków i w razie potrzeby opłukać go ciepłą wodą.",
+   "Sprawdzić, czy przewód za suszarką nie jest zagięty ani zgnieciony.",
+   "Upewnić się, że zewnętrzna klapka wylotu otwiera się całkowicie, i usunąć kłaczki wokół niej.",
+   "Suszyć mniejsze wsady do czasu udrożnienia przewodu."
+  ],
+  "technician": "Jeśli kod nie znika po czyszczeniu, należy zlecić czyszczenie przewodu fachowcowi lub skontaktować się z serwisem LG."
+ },
+ "LG|d95": {
+  "title": "Ograniczony przepływ powietrza wylotowego (zatkanie ok. 95%)",
+  "causes": [
+   "Filtr kłaczków jest zatkany.",
+   "Przewód wylotowy jest zgnieciony, zagięty lub za długi.",
+   "Zewnętrzna klapka wylotu jest zablokowana."
+  ],
+  "steps": [
+   "Wyczyścić filtr kłaczków i w razie potrzeby opłukać go ciepłą wodą.",
+   "Sprawdzić, czy przewód za suszarką nie jest zagięty ani zgnieciony.",
+   "Upewnić się, że zewnętrzna klapka wylotu otwiera się całkowicie, i usunąć kłaczki wokół niej.",
+   "Suszyć mniejsze wsady do czasu udrożnienia przewodu."
+  ],
+  "technician": "Jeśli kod nie znika po czyszczeniu, należy zlecić czyszczenie przewodu fachowcowi lub skontaktować się z serwisem LG."
+ },
+ "LG|FO": {
+  "title": "Filtr kłaczków nie jest na miejscu",
+  "causes": [
+   "Filtr kłaczków jest nieprawidłowo włożony."
+  ],
+  "steps": [
+   "Wyjąć filtr kłaczków.",
+   "Wsunąć go z powrotem do gniazda, aż całkowicie się osadzi.",
+   "Ponownie uruchomić suszarkę."
+  ],
+  "technician": "Jeśli kod FO nie znika przy prawidłowo założonym filtrze, czujnik może wymagać naprawy w serwisie LG."
+ },
+ "LG|IF": {
+  "title": "Nie wykryto wewnętrznego filtra kłaczków",
+  "causes": [
+   "Brakuje magnesu w wewnętrznym filtrze kłaczków lub jest przesunięty.",
+   "Uchwyt magnesu jest uszkodzony."
+  ],
+  "steps": [
+   "Wyjąć wewnętrzny filtr kłaczków i sprawdzić, czy magnes jest na miejscu.",
+   "Prawidłowo założyć filtr.",
+   "Jeśli magnes zginął lub uchwyt jest złamany, należy kupić nowy filtr."
+  ],
+  "technician": "Jeśli błąd nie znika przy sprawnym filtrze, należy zgłosić naprawę w serwisie LG."
+ },
+ "LG|nP": {
+  "title": "Brak zasilania grzałki",
+  "causes": [
+   "Gniazdko nie daje prawidłowego napięcia.",
+   "Zadziałał bezpiecznik."
+  ],
+  "steps": [
+   "Wyłączyć bezpiecznik suszarki na co najmniej 10 sekund, a następnie włączyć go ponownie.",
+   "Ponownie uruchomić suszarkę."
+  ],
+  "technician": "Jeśli suszarka nadal nie grzeje, należy zlecić elektrykowi sprawdzenie gniazdka, a następnie skontaktować się z serwisem LG."
+ },
+ "LG|PS": {
+  "title": "Problem z zasilaniem",
+  "causes": [
+   "Przewód zasilający jest luźny lub gniazdko nie jest podłączone zgodnie z wymaganiami."
+  ],
+  "steps": [
+   "Zresetować bezpiecznik suszarki na co najmniej 10 sekund.",
+   "Sprawdzić, czy wtyczka jest mocno włożona do odpowiedniego, uziemionego gniazdka.",
+   "Ponownie uruchomić suszarkę."
+  ],
+  "technician": "Jeśli suszarka nadal nie grzeje, należy zgłosić naprawę w serwisie LG."
+ },
+ "LG|gAS": {
+  "title": "Problem z zasilaniem gazem",
+  "causes": [
+   "Zawór dopływu gazu jest zakręcony.",
+   "Przewód gazowy jest zagięty."
+  ],
+  "steps": [
+   "Sprawdzić, czy zawór dopływu gazu jest odkręcony.",
+   "Sprawdzić, czy przewód gazowy nie jest zagięty."
+  ],
+  "technician": "Jeśli zasilanie gazem jest w porządku, a kod wraca, należy wezwać serwis LG. Nie wolno samodzielnie naprawiać części gazowych."
+ },
+ "LG|CL": {
+  "title": "Blokada rodzicielska jest włączona",
+  "causes": [
+   "Blokada rodzicielska została włączona i pozostaje aktywna po wyłączeniu zasilania."
+  ],
+  "steps": [
+   "Włączyć suszarkę.",
+   "Nacisnąć i przytrzymać przycisk Child Lock przez 3–5 sekund, aż zniknie CL."
+  ],
+  "technician": "To nie jest usterka. Z LG należy kontaktować się tylko wtedy, gdy blokady rodzicielskiej nie da się wyłączyć."
+ },
+ "LG|Add": {
+  "title": "Uzupełnić wodę do pary",
+  "causes": [
+   "Podajnik wody do pary jest pusty podczas cyklu parowego."
+  ],
+  "steps": [
+   "Wstrzymać cykl.",
+   "Napełnić podajnik wody do pary wodą z kranu do oznaczenia MAX.",
+   "Wyłączyć i włączyć suszarkę, wybrać cykl parowy i nacisnąć Start."
+  ],
+  "technician": "Jeśli komunikat nie znika po napełnieniu, należy skontaktować się z serwisem LG."
+ },
+ "LG|E13": {
+  "title": "Problem z odpływem (kondensat)",
+  "causes": [
+   "Wąż odpływowy jest zagięty, skręcony lub zatkany.",
+   "Przedłużka węża ogranicza odpływ."
+  ],
+  "steps": [
+   "Sprawdzić, czy wąż odpływowy nie jest zagięty ani zatkany.",
+   "Używać wyłącznie oryginalnego węża odpływowego LG, bez przedłużki.",
+   "Nacisnąć Start/Pause, aby uruchomić ponownie."
+  ],
+  "technician": "Jeśli kod E13 wraca, suszarka wymaga naprawy w serwisie LG."
+ },
+ "Bosch|E01": {
+  "title": "Zatkany filtr kłaczków",
+  "causes": [
+   "Na filtrze zebrały się kłaczki.",
+   "Resztki płynu do płukania zatykają siatkę."
+  ],
+  "steps": [
+   "Wyjąć i opróżnić filtr kłaczków.",
+   "Opłukać filtr pod ciepłą wodą, aby usunąć osad.",
+   "Osuszyć go i założyć z powrotem.",
+   "Czyścić filtr po każdym cyklu."
+  ],
+  "technician": "Jeśli kod nie znika przy czystym filtrze, należy umówić wizytę serwisu Bosch."
+ },
+ "Bosch|E02": {
+  "title": "Zatkany filtr kłaczków lub usterka przekaźnika sterującego",
+  "causes": [
+   "Filtr kłaczków jest zatkany.",
+   "W niektórych modelach usterka przekaźnika na płytce głównej."
+  ],
+  "steps": [
+   "Wyczyścić filtr kłaczków i opłukać go ciepłą wodą.",
+   "Odłączyć zasilanie wtyczką lub bezpiecznikiem na 30 sekund, a następnie uruchomić ponownie."
+  ],
+  "technician": "Jeśli kod wraca po wyczyszczeniu i resecie, należy skontaktować się z serwisem Bosch."
+ },
+ "Bosch|E03": {
+  "title": "Zatkany wąż odpływu kondensatu",
+  "causes": [
+   "Wąż odpływu kondensatu jest zagięty lub zatkany."
+  ],
+  "steps": [
+   "Sprawdzić, czy wąż odpływowy nie jest zagięty.",
+   "Ostrożnie zdjąć wąż z syfonu i wyczyścić wąż oraz jego przyłącze.",
+   "Pewnie zamocować wąż z powrotem."
+  ],
+  "technician": "Jeśli kod wraca przy drożnym wężu, należy umówić wizytę serwisanta Bosch."
+ },
+ "Bosch|E04": {
+  "title": "Suszarka przeładowana",
+  "causes": [
+   "Za dużo prania w bębnie."
+  ],
+  "steps": [
+   "Wyjąć część prania.",
+   "Zostawić nad ubraniami wolną przestrzeń na szerokość dłoni.",
+   "Uruchomić program ponownie."
+  ],
+  "technician": "Jeśli kod pojawia się przy zwykłym wsadzie, należy skontaktować się z serwisem Bosch."
+ },
+ "Bosch|E06": {
+  "title": "Usterka obwodu grzania",
+  "causes": [
+   "Usterka obwodu grzania."
+  ],
+  "steps": [
+   "Wyłączyć suszarkę i odłączyć ją od prądu.",
+   "Nie próbować naprawiać samodzielnie."
+  ],
+  "technician": "Wymaga to wykwalifikowanego serwisanta. Należy skontaktować się z serwisem Bosch."
+ },
+ "Bosch|E08": {
+  "title": "Usterka elektroniki",
+  "causes": [
+   "Wewnętrzna usterka elektroniki."
+  ],
+  "steps": [
+   "Wyłączyć suszarkę.",
+   "Wyjąć wtyczkę lub wyłączyć bezpiecznik na kilka minut, a następnie ponownie podłączyć.",
+   "Jeśli kod wraca, należy przestać używać suszarki."
+  ],
+  "technician": "Naprawić to może tylko autoryzowany serwisant. Należy skontaktować się z serwisem Bosch."
+ },
+ "Bosch|E09": {
+  "title": "Usterka elektroniki",
+  "causes": [
+   "Wewnętrzna usterka elektroniki."
+  ],
+  "steps": [
+   "Wyłączyć suszarkę.",
+   "Wyjąć wtyczkę lub wyłączyć bezpiecznik na kilka minut, a następnie ponownie podłączyć.",
+   "Jeśli kod wraca, należy przestać używać suszarki."
+  ],
+  "technician": "Naprawić to może tylko autoryzowany serwisant. Należy skontaktować się z serwisem Bosch."
+ },
+ "Bosch|E24": {
+  "title": "Usterka elektroniki",
+  "causes": [
+   "Wewnętrzna usterka elektroniki."
+  ],
+  "steps": [
+   "Wyłączyć suszarkę.",
+   "Wyjąć wtyczkę lub wyłączyć bezpiecznik na kilka minut, a następnie ponownie podłączyć.",
+   "Jeśli kod wraca, należy przestać używać suszarki."
+  ],
+  "technician": "Naprawić to może tylko autoryzowany serwisant. Należy skontaktować się z serwisem Bosch."
+ },
+ "Bosch|E25": {
+  "title": "Usterka elektroniki",
+  "causes": [
+   "Wewnętrzna usterka elektroniki."
+  ],
+  "steps": [
+   "Wyłączyć suszarkę.",
+   "Wyjąć wtyczkę lub wyłączyć bezpiecznik na kilka minut, a następnie ponownie podłączyć.",
+   "Jeśli kod wraca, należy przestać używać suszarki."
+  ],
+  "technician": "Naprawić to może tylko autoryzowany serwisant. Należy skontaktować się z serwisem Bosch."
+ },
+ "Bosch|E28": {
+  "title": "Usterka elektroniki",
+  "causes": [
+   "Wewnętrzna usterka elektroniki."
+  ],
+  "steps": [
+   "Wyłączyć suszarkę.",
+   "Wyjąć wtyczkę lub wyłączyć bezpiecznik na kilka minut, a następnie ponownie podłączyć.",
+   "Jeśli kod wraca, należy przestać używać suszarki."
+  ],
+  "technician": "Naprawić to może tylko autoryzowany serwisant. Należy skontaktować się z serwisem Bosch."
+ },
+ "Bosch|E36": {
+  "title": "Usterka elektroniki",
+  "causes": [
+   "Wewnętrzna usterka elektroniki."
+  ],
+  "steps": [
+   "Wyłączyć suszarkę.",
+   "Wyjąć wtyczkę lub wyłączyć bezpiecznik na kilka minut, a następnie ponownie podłączyć.",
+   "Jeśli kod wraca, należy przestać używać suszarki."
+  ],
+  "technician": "Naprawić to może tylko autoryzowany serwisant. Należy skontaktować się z serwisem Bosch."
+ },
+ "Bosch|E90": {
+  "title": "Usterka elektroniki",
+  "causes": [
+   "Wewnętrzna usterka elektroniki."
+  ],
+  "steps": [
+   "Wyłączyć suszarkę.",
+   "Wyjąć wtyczkę lub wyłączyć bezpiecznik na kilka minut, a następnie ponownie podłączyć.",
+   "Jeśli kod wraca, należy przestać używać suszarki."
+  ],
+  "technician": "Naprawić to może tylko autoryzowany serwisant. Należy skontaktować się z serwisem Bosch."
+ },
+ "Bosch|E12": {
+  "title": "Przegrzanie lub kamień w pompie ciepła",
+  "causes": [
+   "Przepływ powietrza jest ograniczony i suszarka się przegrzewa.",
+   "W niektórych modelach osad kamienia w pompie ciepła."
+  ],
+  "steps": [
+   "Wyczyścić filtr kłaczków.",
+   "Sprawdzić, czy zewnętrzny wylot powietrza nie jest zatkany, zagięty ani zgnieciony.",
+   "Uruchomić program ponownie."
+  ],
+  "technician": "Jeśli kod ciągle wraca, należy umówić wizytę serwisu Bosch."
+ },
+ "Bosch|E16": {
+  "title": "Drzwi otwarte podczas suszenia",
+  "causes": [
+   "Drzwi zostały otwarte w trakcie cyklu."
+  ],
+  "steps": [
+   "Mocno zamknąć drzwi.",
+   "Nacisnąć Start, aby wznowić cykl.",
+   "W razie potrzeby użyć blokady rodzicielskiej, aby uniemożliwić otwieranie drzwi."
+  ],
+  "technician": "Jeśli kod E16 pojawia się przy zamkniętych drzwiach, wyłącznik drzwi może być uszkodzony. Należy umówić wizytę serwisanta Bosch."
+ },
+ "Bosch|E56": {
+  "title": "Problem z czujnikiem wilgotności",
+  "causes": [
+   "Osad lub kłaczki na paskach czujnika wilgotności w bębnie."
+  ],
+  "steps": [
+   "Odłączyć suszarkę od prądu.",
+   "Przetrzeć czujnik wilgotności przy filtrze kłaczków miękką ściereczką z łagodnym środkiem czyszczącym.",
+   "Usunąć osad, a następnie uruchomić ponownie."
+  ],
+  "technician": "Jeśli kod nie znika po wyczyszczeniu, należy skontaktować się z serwisem Bosch."
+ },
+ "Bosch|DR": {
+  "title": "Drzwi nieprawidłowo zamknięte",
+  "causes": [
+   "Drzwi nie są do końca zamknięte.",
+   "Coś blokuje drzwi."
+  ],
+  "steps": [
+   "Usunąć to, co utknęło w drzwiach.",
+   "Mocno je zamknąć, aż się zatrzasną.",
+   "Uruchomić cykl ponownie."
+  ],
+  "technician": "Jeśli kod nie znika, zatrzask lub wyłącznik drzwi wymaga sprawdzenia przez serwis Bosch."
+ },
+ "Bosch|CrE": {
+  "title": "Przypomnienie o pielęgnacji",
+  "causes": [
+   "Suszarka przypomina o uruchomieniu programu pielęgnacyjnego. To nie jest usterka."
+  ],
+  "steps": [
+   "Uruchomić podstawowy program pielęgnacyjny opisany w instrukcji."
+  ],
+  "technician": "Niepotrzebny, chyba że przypomnienie nie znika po programie pielęgnacyjnym."
+ },
+ "Miele|F1": {
+  "title": "Zwarcie czujnika temperatury czynnika chłodniczego",
+  "causes": [
+   "W czujniku temperatury czynnika chłodniczego wystąpiło zwarcie."
+  ],
+  "steps": [
+   "Zanotować kod usterki.",
+   "Wyłączyć suszarkę i jej nie używać.",
+   "Umówić naprawę w Miele."
+  ],
+  "technician": "To usterka techniczna, której nie da się usunąć samodzielnie. Należy umówić wizytę technika Miele."
+ },
+ "Miele|F2": {
+  "title": "Przerwa w obwodzie czujnika temperatury czynnika chłodniczego",
+  "causes": [
+   "Obwód czujnika temperatury czynnika chłodniczego jest przerwany."
+  ],
+  "steps": [
+   "Zanotować kod usterki.",
+   "Wyłączyć suszarkę i jej nie używać.",
+   "Umówić naprawę w Miele."
+  ],
+  "technician": "To usterka techniczna, której nie da się usunąć samodzielnie. Należy umówić wizytę technika Miele."
+ },
+ "Miele|F3": {
+  "title": "Zwarcie czujnika temperatury powietrza suszącego",
+  "causes": [
+   "W czujniku temperatury powietrza suszącego wystąpiło zwarcie."
+  ],
+  "steps": [
+   "Zanotować kod usterki.",
+   "Wyłączyć suszarkę i jej nie używać.",
+   "Umówić naprawę w Miele."
+  ],
+  "technician": "To usterka techniczna, której nie da się usunąć samodzielnie. Należy umówić wizytę technika Miele."
+ },
+ "Miele|F4": {
+  "title": "Przerwa w obwodzie czujnika temperatury powietrza suszącego",
+  "causes": [
+   "Obwód czujnika temperatury powietrza suszącego jest przerwany."
+  ],
+  "steps": [
+   "Zanotować kod usterki.",
+   "Wyłączyć suszarkę i jej nie używać.",
+   "Umówić naprawę w Miele."
+  ],
+  "technician": "To usterka techniczna, której nie da się usunąć samodzielnie. Należy umówić wizytę technika Miele."
+ },
+ "Miele|F30": {
+  "title": "Niezgodność sygnału drzwi",
+  "causes": [
+   "Drzwi i styk drzwi zgłaszają różne stany."
+  ],
+  "steps": [
+   "Zanotować kod usterki.",
+   "Wyłączyć suszarkę i jej nie używać.",
+   "Umówić naprawę w Miele."
+  ],
+  "technician": "To usterka techniczna, której nie da się usunąć samodzielnie. Należy umówić wizytę technika Miele."
+ },
+ "Miele|F39": {
+  "title": "Usterka modułu elektronicznego",
+  "causes": [
+   "Moduł elektroniczny jest uszkodzony."
+  ],
+  "steps": [
+   "Zanotować kod usterki.",
+   "Wyłączyć suszarkę i jej nie używać.",
+   "Umówić naprawę w Miele."
+  ],
+  "technician": "To usterka techniczna, której nie da się usunąć samodzielnie. Należy umówić wizytę technika Miele."
+ },
+ "Miele|F43": {
+  "title": "Nie zaprogramowano typu modelu",
+  "causes": [
+   "W elektronice brakuje typu modelu lub ustawiono niewłaściwy wariant."
+  ],
+  "steps": [
+   "Zanotować kod usterki.",
+   "Wyłączyć suszarkę i jej nie używać.",
+   "Umówić naprawę w Miele."
+  ],
+  "technician": "To usterka techniczna, której nie da się usunąć samodzielnie. Należy umówić wizytę technika Miele."
+ },
+ "Miele|F45": {
+  "title": "Usterka modułu elektronicznego",
+  "causes": [
+   "Moduł elektroniczny jest uszkodzony."
+  ],
+  "steps": [
+   "Zanotować kod usterki.",
+   "Wyłączyć suszarkę i jej nie używać.",
+   "Umówić naprawę w Miele."
+  ],
+  "technician": "To usterka techniczna, której nie da się usunąć samodzielnie. Należy umówić wizytę technika Miele."
+ },
+ "Miele|F53": {
+  "title": "Usterka silnika napędowego lub elektroniki",
+  "causes": [
+   "Silnik napędowy jest uszkodzony.",
+   "Moduł elektroniczny jest uszkodzony."
+  ],
+  "steps": [
+   "Zanotować kod usterki.",
+   "Wyłączyć suszarkę i jej nie używać.",
+   "Umówić naprawę w Miele."
+  ],
+  "technician": "To usterka techniczna, której nie da się usunąć samodzielnie. Należy umówić wizytę technika Miele."
+ },
+ "Miele|F99": {
+  "title": "Usterka techniczna, suszarka zablokowana",
+  "causes": [
+   "Usterka techniczna zablokowała suszarkę."
+  ],
+  "steps": [
+   "Zanotować kod usterki.",
+   "Wyłączyć suszarkę i jej nie używać.",
+   "Umówić naprawę w Miele."
+  ],
+  "technician": "To usterka techniczna, której nie da się usunąć samodzielnie. Należy umówić wizytę technika Miele."
+ },
+ "Miele|F156": {
+  "title": "Zwarcie czujnika czynnika chłodniczego za skraplaczem",
+  "causes": [
+   "W czujniku temperatury czynnika chłodniczego za skraplaczem wystąpiło zwarcie."
+  ],
+  "steps": [
+   "Zanotować kod usterki.",
+   "Wyłączyć suszarkę i jej nie używać.",
+   "Umówić naprawę w Miele."
+  ],
+  "technician": "To usterka techniczna, której nie da się usunąć samodzielnie. Należy umówić wizytę technika Miele."
+ },
+ "Miele|F206": {
+  "title": "Zwarcie czujnika czynnika chłodniczego za sprężarką",
+  "causes": [
+   "W czujniku temperatury czynnika chłodniczego za sprężarką wystąpiło zwarcie."
+  ],
+  "steps": [
+   "Zanotować kod usterki.",
+   "Wyłączyć suszarkę i jej nie używać.",
+   "Umówić naprawę w Miele."
+  ],
+  "technician": "To usterka techniczna, której nie da się usunąć samodzielnie. Należy umówić wizytę technika Miele."
+ },
+ "Miele|F50": {
+  "title": "Przeładowanie lub błąd oprogramowania",
+  "causes": [
+   "Bęben jest przeładowany.",
+   "Chwilowy błąd oprogramowania, często krótko po otwarciu drzwi w celu dołożenia prania.",
+   "Usterka techniczna."
+  ],
+  "steps": [
+   "Wyjąć część prania, aby wsad odpowiadał limitowi programu.",
+   "Wyłączyć suszarkę i od razu włączyć ją ponownie.",
+   "Uruchomić program ponownie."
+  ],
+  "technician": "Jeśli kod F50 ciągle wraca, należy skontaktować się z serwisem Miele."
+ },
+ "Miele|F55": {
+  "title": "Pranie nie jest suche po maksymalnym czasie",
+  "causes": [
+   "Bęben jest przeładowany.",
+   "Pranie nie zostało odwirowane w pralce z wystarczającą prędkością.",
+   "Filtry kłaczków są zabrudzone."
+  ],
+  "steps": [
+   "Zmniejszyć wsad do maksimum dla programu.",
+   "Przed suszeniem odwirować pranie z najwyższą odpowiednią prędkością.",
+   "Wyczyścić wszystkie filtry kłaczków i całkowicie je osuszyć przed założeniem.",
+   "Ponownie uruchomić program."
+  ],
+  "technician": "Jeśli usterka nie ustępuje przy czystych filtrach i zwykłym wsadzie, należy skontaktować się z serwisem Miele."
+ },
+ "Miele|F66": {
+  "title": "Zablokowany przepływ powietrza (filtry lub wentylacja)",
+  "causes": [
+   "Filtry kłaczków lub filtr w cokole są zabrudzone.",
+   "Filtr w cokole jest zaskorupiały, uszkodzony lub zdeformowany.",
+   "Bęben jest przeładowany.",
+   "Kratka wentylacyjna jest zablokowana lub pomieszczenie jest słabo wentylowane."
+  ],
+  "steps": [
+   "Wyczyścić filtry kłaczków i filtr w cokole, a następnie wycisnąć filtr w cokole do sucha.",
+   "Delikatnie odkurzyć kłaczki z wymiennika ciepła, nie naciskając na lamele.",
+   "Udrożnić kratkę wentylacyjną pod drzwiami.",
+   "Zmniejszyć wsad i wietrzyć pomieszczenie podczas suszenia.",
+   "Wymienić uszkodzony filtr w cokole."
+  ],
+  "technician": "Jeśli kod F66 nie znika po dokładnym czyszczeniu, należy skontaktować się z serwisem Miele."
+ },
+ "Miele|noC": {
+  "title": "Brak połączenia Wi-Fi",
+  "causes": [
+   "Miele@home nie jest skonfigurowane.",
+   "Suszarka nie może połączyć się z siecią Wi-Fi."
+  ],
+  "steps": [
+   "Skonfigurować Miele@home, jeśli jeszcze tego nie zrobiono.",
+   "Sprawdzić, czy Wi-Fi jest włączone, i ponownie uruchomić router.",
+   "Przy słabym sygnale wzmocnić go wzmacniaczem.",
+   "Zresetować Wi-Fi suszarki i połączyć ją ponownie."
+  ],
+  "technician": "To komunikat o połączeniu, a nie usterka suszarki. Należy skontaktować się z Miele, jeśli po tych krokach nie da się połączyć."
+ },
+ "AEG|E50": {
+  "title": "Przeciążony silnik",
+  "causes": [
+   "Bęben jest przeładowany.",
+   "Pranie zablokowało się w bębnie.",
+   "Usterka silnika lub napędu."
+  ],
+  "steps": [
+   "Otworzyć drzwi i sprawdzić, czy coś nie utknęło.",
+   "Wyjąć część prania, jeśli wsad jest zbyt duży.",
+   "Zamknąć drzwi i uruchomić ponownie.",
+   "Jeśli problem nie ustępuje, odłączyć zasilanie na ok. 1 minutę, a następnie uruchomić ponownie."
+  ],
+  "technician": "Jeśli kod E50 wielokrotnie wraca lub bęben się nie obraca, należy umówić naprawę w AEG."
+ },
+ "AEG|E40": {
+  "title": "Drzwi nie są zamknięte",
+  "causes": [
+   "Pranie zostało przytrzaśnięte w drzwiach.",
+   "Uszczelka lub blokada drzwi jest zabrudzona lub zużyta.",
+   "Bęben jest przeładowany i naciska na drzwi."
+  ],
+  "steps": [
+   "Usunąć ubrania przytrzaśnięte w drzwiach i zamknąć je aż do kliknięcia.",
+   "Przetrzeć uszczelkę drzwi wilgotną ściereczką.",
+   "Wyczyścić szczoteczką kłaczki z blokady drzwi.",
+   "Zmniejszyć wsad.",
+   "Odłączyć zasilanie na 30 sekund, a następnie uruchomić ponownie."
+  ],
+  "technician": "Jeśli błąd nie ustępuje, blokada lub czujnik drzwi może być uszkodzony. Należy umówić wizytę serwisu AEG."
+ },
+ "AEG|E20": {
+  "title": "Problem z odpływem lub pompą",
+  "causes": [
+   "Wąż odpływowy jest nieprawidłowo podłączony.",
+   "Wąż odpływowy jest skręcony, zatkany lub tworzy pętlę."
+  ],
+  "steps": [
+   "Jeśli używany jest odpływ, sprawdzić, czy wąż jest prawidłowo podłączony.",
+   "Usunąć skręcenia, pętle i zatory z węża.",
+   "Odłączyć zasilanie na 30 sekund, a następnie uruchomić ponownie."
+  ],
+  "technician": "Jeśli błąd nie ustępuje, należy umówić wizytę autoryzowanego serwisanta AEG."
+ },
+ "AEG|E60": {
+  "title": "Problem z grzaniem",
+  "causes": [
+   "Suszarka jest zabudowana w szafce bez wentylacji.",
+   "Pomieszczenie jest za małe lub niewentylowane.",
+   "Filtr kłaczków, skraplacz lub uszczelka jest zabrudzona.",
+   "Grzałka jest uszkodzona."
+  ],
+  "steps": [
+   "Upewnić się, że wokół suszarki jest wolna przestrzeń i dostęp powietrza.",
+   "Podczas suszenia w małym pomieszczeniu otworzyć okno lub drzwi.",
+   "Wyczyścić filtr kłaczków, skraplacz i uszczelkę drzwi.",
+   "Uruchomić program czasowy i sprawdzić, czy po 30 minutach jest ciepło."
+  ],
+  "technician": "Jeśli nadal jest zimno, należy umówić naprawę w AEG."
+ },
+ "AEG|E70": {
+  "title": "Usterka czujnika temperatury",
+  "causes": [
+   "Czujnik temperatury jest uszkodzony."
+  ],
+  "steps": [
+   "Odłączyć suszarkę od prądu na 2 godziny, aby ją zresetować.",
+   "Podłączyć ją ponownie i spróbować jeszcze raz.",
+   "Jeśli kod wraca, należy przestać używać suszarki i pozostawić ją odłączoną od prądu."
+  ],
+  "technician": "Należy skontaktować się z AEG i podać kod, aby umówić wizytę serwisu."
+ },
+ "AEG|E80": {
+  "title": "Usterka wybieraka programów lub oprogramowania",
+  "causes": [
+   "Pokrętło programów jest między dwiema pozycjami.",
+   "Błąd oprogramowania."
+  ],
+  "steps": [
+   "Ustawić pokrętło tak, aby znajdowało się dokładnie na jednym programie.",
+   "Odłączyć suszarkę od prądu na 30 sekund, a następnie podłączyć ją i uruchomić ponownie."
+  ],
+  "technician": "Jeśli kod E80 nie znika, należy umówić wizytę serwisanta AEG."
+ },
+ "AEG|EH0": {
+  "title": "Problem z zasilaniem",
+  "causes": [
+   "Napięcie jest zbyt niskie lub zbyt wysokie.",
+   "Zasilanie jest niestabilne."
+  ],
+  "steps": [
+   "Sprawdzić gniazdko z innym urządzeniem.",
+   "Nie używać przedłużacza.",
+   "Odłączyć suszarkę od prądu na 30 sekund, a następnie uruchomić ponownie."
+  ],
+  "technician": "Jeśli inne urządzenie również nie działa, należy wezwać elektryka. Jeśli kod pokazuje tylko suszarka, należy umówić wizytę technika AEG."
+ },
+ "AEG|EBD": {
+  "title": "Wykryto zakłócenia elektryczne",
+  "causes": [
+   "Zakłócenia elektryczne w sieci zasilającej.",
+   "Słabe uziemienie."
+  ],
+  "steps": [
+   "Podłączyć suszarkę do innego, sprawnego gniazdka.",
+   "Upewnić się, że gniazdko jest prawidłowo uziemione."
+  ],
+  "technician": "Jeśli kod nie znika, należy skontaktować się z autoryzowanym serwisem AEG. Nie próbować samodzielnie wykonywać napraw elektrycznych."
+ },
+ "AEG|CE": {
+  "title": "Usterka elektroniki",
+  "causes": [
+   "Usterka elektroniki suszarki."
+  ],
+  "steps": [
+   "Przestać używać suszarki.",
+   "Odłączyć ją od prądu i pozostawić odłączoną."
+  ],
+  "technician": "Należy umówić wizytę autoryzowanego serwisanta AEG w celu diagnostyki elektroniki."
+ },
+ "AEG|C8": {
+  "title": "Usterka czujnika temperatury",
+  "causes": [
+   "Czujnik temperatury działa nieprawidłowo."
+  ],
+  "steps": [
+   "Przestać używać suszarki.",
+   "Pozostawić urządzenie odłączone od prądu do czasu sprawdzenia."
+  ],
+  "technician": "Należy umówić wizytę serwisu AEG w celu wymiany lub sprawdzenia czujnika."
+ },
+ "AEG|C6": {
+  "title": "Problem z czujnikiem wilgotności",
+  "causes": [
+   "Suszarka nie jest podłączona do uziemionego gniazdka.",
+   "Układ pomiaru wilgotności jest uszkodzony."
+  ],
+  "steps": [
+   "Sprawdzić, czy suszarka jest podłączona do uziemionego gniazdka.",
+   "Jeśli cykl nadal trwa bardzo długo, przestać używać suszarki i odłączyć ją od prądu."
+  ],
+  "technician": "Jeśli gniazdko jest uziemione, a błąd nie znika, należy umówić naprawę w AEG."
+ },
+ "AEG|Err": {
+  "title": "Błąd zbiornika pary (modele Iron Aid)",
+  "causes": [
+   "W zbiorniku wody do pary jest mało wody lub jest pusty."
+  ],
+  "steps": [
+   "Napełnić zbiornik pary do poziomu MAX.",
+   "Uruchomić program ponownie."
+  ],
+  "technician": "Jeśli ikony nadal migają po napełnieniu, należy przestać używać suszarki i skontaktować się z serwisem AEG."
+ },
+ "Hotpoint|F01": {
+  "title": "Usterka płytki elektroniki",
+  "causes": [
+   "Usterka elektronicznej płytki sterującej."
+  ],
+  "steps": [
+   "Odłączyć suszarkę od prądu na co najmniej 2 minuty.",
+   "Podłączyć ją ponownie, odczekać 30 sekund i spróbować jeszcze raz."
+  ],
+  "technician": "Jeśli kod F01 wraca po resecie, należy zadzwonić do serwisu Hotpoint i umówić wizytę serwisanta."
+ },
+ "Hotpoint|F02": {
+  "title": "Usterka obwodu silnika",
+  "causes": [
+   "Usterka obwodu silnika. Bęben obraca się tylko od czasu do czasu lub wcale."
+  ],
+  "steps": [
+   "Wyłączyć suszarkę i odłączyć ją od prądu.",
+   "Nie używać dalej urządzenia."
+  ],
+  "technician": "Należy zadzwonić do serwisu Hotpoint i umówić wizytę serwisanta."
+ },
+ "Hotpoint|F03": {
+  "title": "Usterka pomiaru temperatury",
+  "causes": [
+   "Czujnik temperatury jest uszkodzony, więc suszarka nie grzeje."
+  ],
+  "steps": [
+   "Wyłączyć suszarkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy zadzwonić do serwisu Hotpoint i umówić wizytę serwisanta."
+ },
+ "Hotpoint|F05": {
+  "title": "Zatkany odpływ lub problem z pompą",
+  "causes": [
+   "Zator w filtrze pompy (jeśli jest) lub w wężu odpływowym.",
+   "Zatkana rura kanalizacyjna.",
+   "Uszkodzona pompa."
+  ],
+  "steps": [
+   "Sprawdzić i wyczyścić filtr pompy, jeśli model go ma.",
+   "Sprawdzić, czy wąż odpływowy i podłączona do niego kanalizacja nie są zatkane."
+  ],
+  "technician": "Jeśli wszystko jest drożne, a usterka nie ustępuje, pompa może być uszkodzona. Należy zadzwonić do serwisu Hotpoint."
+ },
+ "Hotpoint|F06": {
+  "title": "Usterka blokady drzwi",
+  "causes": [
+   "Coś blokuje blokadę drzwi.",
+   "Blokada drzwi jest uszkodzona."
+  ],
+  "steps": [
+   "Sprawdzić okolice blokady drzwi pod kątem kłaczków lub przedmiotów i je usunąć.",
+   "Mocno zamknąć drzwi i spróbować ponownie."
+  ],
+  "technician": "Jeśli usterka nie ustępuje, należy zadzwonić do serwisu Hotpoint."
+ },
+ "Hotpoint|F09": {
+  "title": "Błąd oprogramowania",
+  "causes": [
+   "Problem z oprogramowaniem. Może migać kilka kontrolek i nie można wybrać żadnego programu."
+  ],
+  "steps": [
+   "Odłączyć suszarkę od prądu na kilka minut i spróbować ponownie."
+  ],
+  "technician": "Należy zadzwonić do serwisu Hotpoint i umówić wizytę serwisanta."
+ },
+ "Hotpoint|F11": {
+  "title": "Usterka obwodu pompy",
+  "causes": [
+   "Obwód pompy jest uszkodzony, więc woda nie jest odpompowywana."
+  ],
+  "steps": [
+   "Opróżnić pojemnik na wodę, jeśli model go ma.",
+   "Wyłączyć suszarkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy zadzwonić do serwisu Hotpoint i umówić wizytę serwisanta."
+ },
+ "Hotpoint|F12": {
+  "title": "Usterka elektroniki sterującej",
+  "causes": [
+   "Elektronika sterująca jest uszkodzona. Suszarka może się nie włączać."
+  ],
+  "steps": [
+   "Sprawdzić wtyczkę i gniazdko.",
+   "Odłączyć suszarkę od prądu na kilka minut i spróbować ponownie."
+  ],
+  "technician": "Należy zadzwonić do serwisu Hotpoint i umówić wizytę serwisanta."
+ },
+ "Hotpoint|F18": {
+  "title": "Wewnętrzny błąd danych",
+  "causes": [
+   "Uszkodzone dane wewnętrzne. Część wyświetlacza lub funkcji nie działa."
+  ],
+  "steps": [
+   "Odłączyć suszarkę od prądu na co najmniej 2 minuty.",
+   "Podłączyć ją ponownie, odczekać 30 sekund i spróbować jeszcze raz."
+  ],
+  "technician": "Jeśli kod F18 nie znika po resecie, należy zadzwonić do serwisu Hotpoint."
+ },
+ "Indesit|F02": {
+  "title": "Usterka obwodu silnika",
+  "causes": [
+   "Usterka obwodu silnika. Bęben obraca się tylko od czasu do czasu lub wcale."
+  ],
+  "steps": [
+   "Wyłączyć suszarkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy zadzwonić do serwisu Indesit i umówić wizytę serwisanta."
+ },
+ "Indesit|F03": {
+  "title": "Usterka pomiaru temperatury",
+  "causes": [
+   "Czujnik temperatury jest uszkodzony, więc suszarka nie grzeje."
+  ],
+  "steps": [
+   "Wyłączyć suszarkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy zadzwonić do serwisu Indesit i umówić wizytę serwisanta."
+ },
+ "Indesit|F05": {
+  "title": "Zatkany odpływ lub problem z pompą",
+  "causes": [
+   "Zator w filtrze pompy (jeśli jest) lub w wężu odpływowym.",
+   "Uszkodzona pompa."
+  ],
+  "steps": [
+   "Sprawdzić i wyczyścić filtr pompy, jeśli model go ma.",
+   "Sprawdzić, czy wąż odpływowy i kanalizacja nie są zatkane."
+  ],
+  "technician": "Jeśli wszystko jest drożne, a usterka nie ustępuje, należy zadzwonić do serwisu Indesit."
+ },
+ "Indesit|F06": {
+  "title": "Usterka blokady drzwi",
+  "causes": [
+   "Coś blokuje blokadę drzwi.",
+   "Blokada drzwi jest uszkodzona."
+  ],
+  "steps": [
+   "Sprawdzić, czy nic nie blokuje blokady drzwi.",
+   "Mocno zamknąć drzwi i spróbować ponownie."
+  ],
+  "technician": "Jeśli usterka nie ustępuje, należy zadzwonić do serwisu Indesit."
+ },
+ "Indesit|F09": {
+  "title": "Błąd oprogramowania",
+  "causes": [
+   "Problem z oprogramowaniem. Może migać kilka kontrolek i nie można wybrać żadnego programu."
+  ],
+  "steps": [
+   "Odłączyć suszarkę od prądu na kilka minut i spróbować ponownie."
+  ],
+  "technician": "Należy zadzwonić do serwisu Indesit i umówić wizytę serwisanta."
+ },
+ "Indesit|F11": {
+  "title": "Usterka obwodu pompy",
+  "causes": [
+   "Obwód pompy jest uszkodzony, więc woda nie jest odpompowywana."
+  ],
+  "steps": [
+   "Opróżnić pojemnik na wodę, jeśli model go ma.",
+   "Wyłączyć suszarkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy zadzwonić do serwisu Indesit i umówić wizytę serwisanta."
+ },
+ "Indesit|F12": {
+  "title": "Usterka elektroniki sterującej",
+  "causes": [
+   "Elektronika sterująca jest uszkodzona. Suszarka może się nie włączać."
+  ],
+  "steps": [
+   "Sprawdzić wtyczkę i gniazdko.",
+   "Odłączyć suszarkę od prądu na kilka minut i spróbować ponownie."
+  ],
+  "technician": "Należy zadzwonić do serwisu Indesit i umówić wizytę serwisanta."
+ },
+ "Indesit|F18": {
+  "title": "Wewnętrzny błąd danych",
+  "causes": [
+   "Uszkodzone dane wewnętrzne. Część wyświetlacza lub funkcji nie działa."
+  ],
+  "steps": [
+   "Odłączyć suszarkę od prądu na co najmniej 2 minuty.",
+   "Podłączyć ją ponownie, odczekać 30 sekund i spróbować jeszcze raz."
+  ],
+  "technician": "Jeśli kod F18 nie znika po resecie, należy zadzwonić do serwisu Indesit."
+ },
+ "Whirlpool|AF": {
+  "title": "Ograniczony przepływ powietrza",
+  "causes": [
+   "Sitko filtra kłaczków jest zatkane.",
+   "Przewód wylotowy jest zatkany, zgnieciony, zagięty lub ma zbyt wiele kolanek."
+  ],
+  "steps": [
+   "Wyczyścić sitko filtra kłaczków.",
+   "Sprawdzić, czy przewód wylotowy nie jest zatkany, zgnieciony ani zagięty.",
+   "Dotknąć dowolnego przycisku, aby skasować kod."
+  ],
+  "technician": "Jeśli kod ciągle wraca przy czystym przewodzie wylotowym, należy umówić serwis Whirlpool."
+ },
+ "Whirlpool|L2": {
+  "title": "Niskie napięcie lub brak napięcia w sieci",
+  "causes": [
+   "Przepalił się bezpiecznik lub zadziałał wyłącznik w domu.",
+   "Przewód zasilający nie jest prawidłowo zainstalowany."
+  ],
+  "steps": [
+   "Sprawdzić bezpieczniki i wyłączniki (suszarki elektryczne używają dwóch) i je włączyć.",
+   "Sprawdzić, czy przewód zasilający jest zainstalowany zgodnie z instrukcją instalacji.",
+   "Uruchomić czasowy cykl z grzaniem i ponownie uruchomić suszarkę."
+  ],
+  "technician": "Jeśli kod L2 nie znika, należy zlecić wykwalifikowanemu elektrykowi sprawdzenie instalacji."
+ },
+ "Whirlpool|PF": {
+  "title": "Zanik zasilania",
+  "causes": [
+   "Zasilanie zostało przerwane podczas cyklu."
+  ],
+  "steps": [
+   "Nacisnąć i przytrzymać Start, aby wznowić cykl.",
+   "Albo nacisnąć Power, aby wyczyścić wyświetlacz."
+  ],
+  "technician": "To nie jest usterka. Z Whirlpool należy kontaktować się tylko wtedy, gdy PF pojawia się bez rzeczywistych przerw w dostawie prądu."
+ },
+ "Whirlpool|F1E3": {
+  "title": "Problem z modułem sterującym lub okablowaniem",
+  "causes": [
+   "Usterka modułu sterującego lub jego okablowania."
+  ],
+  "steps": [
+   "Nacisnąć Power, wybrać cykl, a następnie nacisnąć i przytrzymać Start.",
+   "Jeśli suszarka się nie uruchamia, odłączyć ją od prądu."
+  ],
+  "technician": "Jeśli problem się utrzymuje, należy umówić serwis Whirlpool."
+ },
+ "Whirlpool|Loc": {
+  "title": "Blokada panelu włączona",
+  "causes": [
+   "Włączono blokadę panelu sterowania."
+  ],
+  "steps": [
+   "Dotknąć i przytrzymać Control Lock przez 3 sekundy, aż wyświetlacz odliczy czas i się wyczyści."
+  ],
+  "technician": "To nie jest usterka. Z Whirlpool należy kontaktować się tylko wtedy, gdy blokady nie da się wyłączyć."
+ },
+ "Whirlpool|LF": {
+  "title": "Filtr kłaczków wyjęty",
+  "causes": [
+   "Filtra HybridCare nie ma w suszarce."
+  ],
+  "steps": [
+   "Włożyć filtr z powrotem.",
+   "Upewnić się, że uchwyt filtra jest całkowicie osadzony."
+  ],
+  "technician": "Jeśli kod LF nie znika przy założonym filtrze, należy skontaktować się z serwisem Whirlpool."
+ }
+}

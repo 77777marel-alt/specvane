@@ -1,0 +1,1776 @@
+{
+ "Vaillant|F.0": {
+  "title": "Przerwa w obwodzie czujnika temperatury zasilania",
+  "causes": [
+   "Czujnik temperatury zasilania lub jego okablowanie jest uszkodzone.",
+   "Luźne połączenie wewnątrz kotła."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca, nie próbować usuwać usterki samodzielnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Vaillant|F.1": {
+  "title": "Przerwa w obwodzie czujnika temperatury powrotu",
+  "causes": [
+   "Czujnik temperatury powrotu lub jego okablowanie jest uszkodzone.",
+   "Luźne połączenie wewnątrz kotła."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca, nie próbować usuwać usterki samodzielnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Vaillant|F.10": {
+  "title": "Zwarcie czujnika temperatury zasilania",
+  "causes": [
+   "Czujnik temperatury zasilania lub jego okablowanie jest uszkodzone.",
+   "Luźne połączenie wewnątrz kotła."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca, nie próbować usuwać usterki samodzielnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Vaillant|F.11": {
+  "title": "Zwarcie czujnika temperatury powrotu",
+  "causes": [
+   "Czujnik temperatury powrotu lub jego okablowanie jest uszkodzone.",
+   "Luźne połączenie wewnątrz kotła."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca, nie próbować usuwać usterki samodzielnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Vaillant|F.20": {
+  "title": "Zadziałał termiczny ogranicznik bezpieczeństwa",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Vaillant|F.22": {
+  "title": "Niskie ciśnienie wody",
+  "causes": [
+   "Z instalacji grzewczej ubyło wody, często po odpowietrzaniu grzejników.",
+   "Niewielki wyciek gdzieś w rurach lub grzejnikach.",
+   "Uszkodzony czujnik ciśnienia."
+  ],
+  "steps": [
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli ciśnienie często trzeba uzupełniać, może występować wyciek. Należy poprosić serwisanta o jego znalezienie."
+  ],
+  "technician": "Jeśli ciśnienie stale spada, wyciek musi znaleźć uprawniony serwisant (z uprawnieniami gazowymi); nigdy nie otwierać samodzielnie obudowy kotła."
+ },
+ "Vaillant|F.23": {
+  "title": "Zbyt duża różnica temperatur zasilania i powrotu",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Vaillant|F.24": {
+  "title": "Zbyt szybki wzrost temperatury",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Vaillant|F.25": {
+  "title": "Zbyt wysoka temperatura spalin",
+  "causes": [
+   "Problem z przewodem spalinowym lub dopływem powietrza.",
+   "Nieprawidłowe spalanie wewnątrz kotła."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Wyłączyć kocioł wyłącznikiem głównym.",
+   "Sprawdzić z zewnątrz, czy wylot przewodu spalinowego nie jest widocznie zablokowany. Nie dotykać go.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Vaillant|F.27": {
+  "title": "Wykryto płomień przy wyłączonym palniku",
+  "causes": [
+   "Usterka obwodu wykrywania płomienia.",
+   "Zawór gazowy, który nie zamyka się całkowicie."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Wyłączyć kocioł wyłącznikiem głównym.",
+   "Nie resetować kotła wielokrotnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "To usterka bezpieczeństwa; zawór gazowy i elementy wykrywania płomienia może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Vaillant|F.28": {
+  "title": "Kocioł nie zapalił się",
+  "causes": [
+   "Gaz nie dociera do kotła, np. wyczerpane środki na liczniku przedpłatowym.",
+   "Zamarznięta lub zatkana rura odprowadzania kondensatu.",
+   "Usterka elementów zapłonu lub wykrywania płomienia."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Sprawdzić, czy inne urządzenia gazowe, np. kuchenka, działają.",
+   "Jeśli gazomierz jest przedpłatowy, upewnić się, że są na nim środki.",
+   "Przy mrozie sprawdzić plastikową rurę odprowadzania kondensatu na zewnątrz. Rozmrozić lód ciepłą (nie wrzącą) wodą.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Vaillant|F.29": {
+  "title": "Utrata płomienia i kocioł nie mógł ponownie się zapalić",
+  "causes": [
+   "Gaz nie dociera do kotła, np. wyczerpane środki na liczniku przedpłatowym.",
+   "Zamarznięta lub zatkana rura odprowadzania kondensatu.",
+   "Usterka elementów zapłonu lub wykrywania płomienia."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Sprawdzić, czy inne urządzenia gazowe, np. kuchenka, działają.",
+   "Jeśli gazomierz jest przedpłatowy, upewnić się, że są na nim środki.",
+   "Przy mrozie sprawdzić plastikową rurę odprowadzania kondensatu na zewnątrz. Rozmrozić lód ciepłą (nie wrzącą) wodą.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Vaillant|F.32": {
+  "title": "Usterka wentylatora",
+  "causes": [
+   "Wentylator nie pracuje z właściwą prędkością.",
+   "Usterka okablowania lub płytki sterującej.",
+   "Przewód spalinowy może być zablokowany."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Sprawdzić z zewnątrz, czy nic nie blokuje wylotu przewodu spalinowego. Nie dotykać go.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Vaillant|F.35": {
+  "title": "Zablokowany przewód powietrzny lub spalinowy",
+  "causes": [
+   "Coś blokuje przewód spalinowy lub wlot powietrza.",
+   "Uszkodzenie przewodów spalinowych."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Wyłączyć kocioł wyłącznikiem głównym.",
+   "Sprawdzić z zewnątrz, czy wokół wylotu przewodu spalinowego nie ma liści, gniazd lub śniegu, ale nie dotykać ani nie zdejmować przewodu.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Vaillant|F.54": {
+  "title": "Usterka zasilania gazem",
+  "causes": [
+   "Gaz nie dociera do kotła, np. wyczerpane środki na liczniku przedpłatowym.",
+   "Zamarznięta lub zatkana rura odprowadzania kondensatu.",
+   "Usterka elementów zapłonu lub wykrywania płomienia."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Sprawdzić, czy inne urządzenia gazowe, np. kuchenka, działają.",
+   "Jeśli gazomierz jest przedpłatowy, upewnić się, że są na nim środki.",
+   "Przy mrozie sprawdzić plastikową rurę odprowadzania kondensatu na zewnątrz. Rozmrozić lód ciepłą (nie wrzącą) wodą.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Vaillant|F.62": {
+  "title": "Usterka opóźnienia zamknięcia zaworu gazowego",
+  "causes": [
+   "Płomień gasł zbyt długo po zatrzymaniu palnika.",
+   "Usterka zaworu gazowego lub sterowania."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Vaillant|F.75": {
+  "title": "Brak wzrostu ciśnienia po uruchomieniu pompy",
+  "causes": [
+   "Z instalacji grzewczej ubyło wody, często po odpowietrzaniu grzejników.",
+   "Niewielki wyciek gdzieś w rurach lub grzejnikach.",
+   "Uszkodzony czujnik ciśnienia."
+  ],
+  "steps": [
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli ciśnienie często trzeba uzupełniać, może występować wyciek. Należy poprosić serwisanta o jego znalezienie."
+  ],
+  "technician": "Jeśli ciśnienie stale spada, wyciek musi znaleźć uprawniony serwisant (z uprawnieniami gazowymi); nigdy nie otwierać samodzielnie obudowy kotła."
+ },
+ "Vaillant|F.83": {
+  "title": "Brak wzrostu temperatury po uruchomieniu palnika",
+  "causes": [
+   "Za mało wody w kotle.",
+   "Powietrze w instalacji lub usterka czujnika."
+  ],
+  "steps": [
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Vaillant|F.88": {
+  "title": "Utracono połączenie elektryczne zaworu gazowego",
+  "causes": [
+   "Luźne lub uszkodzone połączenie z zaworem gazowym.",
+   "Usterka płytki sterującej."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nie próbować sięgać do zaworu gazowego. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Glow-worm|F.0": {
+  "title": "Przerwa w obwodzie czujnika temperatury zasilania",
+  "causes": [
+   "Czujnik temperatury zasilania lub jego okablowanie jest uszkodzone.",
+   "Luźne połączenie wewnątrz kotła."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca, nie próbować usuwać usterki samodzielnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Glow-worm|F.1": {
+  "title": "Przerwa w obwodzie czujnika temperatury powrotu",
+  "causes": [
+   "Czujnik temperatury powrotu lub jego okablowanie jest uszkodzone.",
+   "Luźne połączenie wewnątrz kotła."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca, nie próbować usuwać usterki samodzielnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Glow-worm|F.20": {
+  "title": "Zadziałał termiczny ogranicznik bezpieczeństwa",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Glow-worm|F.22": {
+  "title": "Niskie ciśnienie wody",
+  "causes": [
+   "Z instalacji grzewczej ubyło wody, często po odpowietrzaniu grzejników.",
+   "Niewielki wyciek gdzieś w rurach lub grzejnikach.",
+   "Uszkodzony czujnik ciśnienia."
+  ],
+  "steps": [
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli ciśnienie często trzeba uzupełniać, może występować wyciek. Należy poprosić serwisanta o jego znalezienie."
+  ],
+  "technician": "Jeśli ciśnienie stale spada, wyciek musi znaleźć uprawniony serwisant (z uprawnieniami gazowymi); nigdy nie otwierać samodzielnie obudowy kotła."
+ },
+ "Glow-worm|F.23": {
+  "title": "Zbyt duża różnica temperatur zasilania i powrotu",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Glow-worm|F.24": {
+  "title": "Zbyt szybki wzrost temperatury",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Glow-worm|F.27": {
+  "title": "Wykryto płomień przy wyłączonym palniku",
+  "causes": [
+   "Usterka obwodu wykrywania płomienia.",
+   "Zawór gazowy, który nie zamyka się całkowicie."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Wyłączyć kocioł wyłącznikiem głównym.",
+   "Nie resetować kotła wielokrotnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "To usterka bezpieczeństwa; zawór gazowy i elementy wykrywania płomienia może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Glow-worm|F.28": {
+  "title": "Kocioł nie zapalił się",
+  "causes": [
+   "Gaz nie dociera do kotła, np. wyczerpane środki na liczniku przedpłatowym.",
+   "Zamarznięta lub zatkana rura odprowadzania kondensatu.",
+   "Usterka elementów zapłonu lub wykrywania płomienia."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Sprawdzić, czy inne urządzenia gazowe, np. kuchenka, działają.",
+   "Jeśli gazomierz jest przedpłatowy, upewnić się, że są na nim środki.",
+   "Przy mrozie sprawdzić plastikową rurę odprowadzania kondensatu na zewnątrz. Rozmrozić lód ciepłą (nie wrzącą) wodą.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Glow-worm|F.29": {
+  "title": "Utrata płomienia i kocioł nie mógł ponownie się zapalić",
+  "causes": [
+   "Gaz nie dociera do kotła, np. wyczerpane środki na liczniku przedpłatowym.",
+   "Zamarznięta lub zatkana rura odprowadzania kondensatu.",
+   "Usterka elementów zapłonu lub wykrywania płomienia."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Sprawdzić, czy inne urządzenia gazowe, np. kuchenka, działają.",
+   "Jeśli gazomierz jest przedpłatowy, upewnić się, że są na nim środki.",
+   "Przy mrozie sprawdzić plastikową rurę odprowadzania kondensatu na zewnątrz. Rozmrozić lód ciepłą (nie wrzącą) wodą.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Glow-worm|F.32": {
+  "title": "Usterka wentylatora",
+  "causes": [
+   "Wentylator nie pracuje z właściwą prędkością.",
+   "Usterka okablowania lub płytki sterującej.",
+   "Przewód spalinowy może być zablokowany."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Sprawdzić z zewnątrz, czy nic nie blokuje wylotu przewodu spalinowego. Nie dotykać go.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Glow-worm|F.61": {
+  "title": "Usterka głównej płytki sterującej",
+  "causes": [
+   "Usterka elektroniczna płytki głównej.",
+   "Problem z obwodem sterowania zaworu gazowego."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Jeśli kod nie znika, nie resetować ponownie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Glow-worm|F.75": {
+  "title": "Brak wzrostu ciśnienia po uruchomieniu pompy",
+  "causes": [
+   "Z instalacji grzewczej ubyło wody, często po odpowietrzaniu grzejników.",
+   "Niewielki wyciek gdzieś w rurach lub grzejnikach.",
+   "Uszkodzony czujnik ciśnienia."
+  ],
+  "steps": [
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli ciśnienie często trzeba uzupełniać, może występować wyciek. Należy poprosić serwisanta o jego znalezienie."
+  ],
+  "technician": "Jeśli ciśnienie stale spada, wyciek musi znaleźć uprawniony serwisant (z uprawnieniami gazowymi); nigdy nie otwierać samodzielnie obudowy kotła."
+ },
+ "Glow-worm|F.84": {
+  "title": "Nielogiczne odczyty zasilania i powrotu",
+  "causes": [
+   "Rury mogą być zamienione lub czujnik zamontowany w złym miejscu.",
+   "Usterka czujnika."
+  ],
+  "steps": [
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod pojawił się po nowych pracach przy instalacji, należy skontaktować się z instalatorem, który je wykonał."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Glow-worm|F.88": {
+  "title": "Utracono połączenie elektryczne zaworu gazowego",
+  "causes": [
+   "Luźne lub uszkodzone połączenie z zaworem gazowym.",
+   "Usterka płytki sterującej."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nie próbować sięgać do zaworu gazowego. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ideal|L1": {
+  "title": "Przegrzanie zasilania lub brak przepływu wody",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ideal|L2": {
+  "title": "Blokada zapłonu",
+  "causes": [
+   "Gaz nie dociera do kotła, np. wyczerpane środki na liczniku przedpłatowym.",
+   "Zamarznięta lub zatkana rura odprowadzania kondensatu.",
+   "Usterka elementów zapłonu lub wykrywania płomienia."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Sprawdzić, czy inne urządzenia gazowe, np. kuchenka, działają.",
+   "Jeśli gazomierz jest przedpłatowy, upewnić się, że są na nim środki.",
+   "Przy mrozie sprawdzić plastikową rurę odprowadzania kondensatu na zewnątrz. Rozmrozić lód ciepłą (nie wrzącą) wodą.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ideal|L3": {
+  "title": "Brak przepływu wody",
+  "causes": [
+   "Niskie ciśnienie w instalacji.",
+   "Powietrze uwięzione w grzejnikach.",
+   "Problem z obiegiem lub pompą."
+  ],
+  "steps": [
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Wyłączyć kocioł i odpowietrzyć grzejniki.",
+   "Ponownie sprawdzić ciśnienie, włączyć kocioł i go zresetować.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ideal|L5": {
+  "title": "Zbyt wiele resetów w ciągu 15 minut",
+  "causes": [
+   "Przycisk reset został naciśnięty zbyt wiele razy w krótkim czasie."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Jeśli następnie pojawi się kod usterki, postępować zgodnie z zaleceniami dla tego kodu."
+  ],
+  "technician": "Jeśli kocioł ciągle się blokuje, przyczynę usterki powinien znaleźć uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ideal|L6": {
+  "title": "Blokada z powodu fałszywego płomienia",
+  "causes": [
+   "Usterka obwodu wykrywania płomienia.",
+   "Zawór gazowy, który nie zamyka się całkowicie."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Wyłączyć kocioł wyłącznikiem głównym.",
+   "Nie resetować kotła wielokrotnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "To usterka bezpieczeństwa; zawór gazowy i elementy wykrywania płomienia może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ideal|F1": {
+  "title": "Niskie ciśnienie wody",
+  "causes": [
+   "Z instalacji grzewczej ubyło wody, często po odpowietrzaniu grzejników.",
+   "Niewielki wyciek gdzieś w rurach lub grzejnikach.",
+   "Uszkodzony czujnik ciśnienia."
+  ],
+  "steps": [
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli ciśnienie często trzeba uzupełniać, może występować wyciek. Należy poprosić serwisanta o jego znalezienie."
+  ],
+  "technician": "Jeśli ciśnienie stale spada, wyciek musi znaleźć uprawniony serwisant (z uprawnieniami gazowymi); nigdy nie otwierać samodzielnie obudowy kotła."
+ },
+ "Ideal|F2": {
+  "title": "Utrata płomienia",
+  "causes": [
+   "Gaz nie dociera do kotła, np. wyczerpane środki na liczniku przedpłatowym.",
+   "Zamarznięta lub zatkana rura odprowadzania kondensatu.",
+   "Usterka elementów zapłonu lub wykrywania płomienia."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Sprawdzić, czy inne urządzenia gazowe, np. kuchenka, działają.",
+   "Jeśli gazomierz jest przedpłatowy, upewnić się, że są na nim środki.",
+   "Przy mrozie sprawdzić plastikową rurę odprowadzania kondensatu na zewnątrz. Rozmrozić lód ciepłą (nie wrzącą) wodą.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ideal|F3": {
+  "title": "Usterka wentylatora",
+  "causes": [
+   "Wentylator nie pracuje z właściwą prędkością.",
+   "Usterka okablowania lub płytki sterującej.",
+   "Przewód spalinowy może być zablokowany."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Sprawdzić z zewnątrz, czy nic nie blokuje wylotu przewodu spalinowego. Nie dotykać go.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ideal|F4": {
+  "title": "Usterka termistora zasilania",
+  "causes": [
+   "Termistor zasilania (czujnik temperatury) lub jego okablowanie jest uszkodzone.",
+   "Luźne połączenie wewnątrz kotła."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca, nie próbować usuwać usterki samodzielnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ideal|F5": {
+  "title": "Usterka termistora powrotu",
+  "causes": [
+   "Termistor powrotu (czujnik temperatury) lub jego okablowanie jest uszkodzone.",
+   "Luźne połączenie wewnątrz kotła."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca, nie próbować usuwać usterki samodzielnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ideal|F6": {
+  "title": "Usterka czujnika zewnętrznego",
+  "causes": [
+   "Czujnik temperatury zewnętrznej lub jego okablowanie jest uszkodzone.",
+   "Luźne połączenie wewnątrz kotła."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca, nie próbować usuwać usterki samodzielnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ideal|F7": {
+  "title": "Niskie napięcie w sieci",
+  "causes": [
+   "Napięcie zasilania w domu jest zbyt niskie.",
+   "Usterka instalacji elektrycznej w budynku."
+  ],
+  "steps": [
+   "Sprawdzić, czy problem dotyczy też innych urządzeń lub oświetlenia.",
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Należy poprosić elektryka lub dostawcę energii o sprawdzenie zasilania."
+  ],
+  "technician": "Jeśli zasilanie jest w porządku, kocioł powinien sprawdzić uprawniony serwisant (z uprawnieniami gazowymi); sprawdzenie instalacji elektrycznej należy do wykwalifikowanego elektryka."
+ },
+ "Ideal|F0": {
+  "title": "Brak przepływu wody (termistor)",
+  "causes": [
+   "Woda nie przepływa przez kocioł.",
+   "Usterka czujnika."
+  ],
+  "steps": [
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ideal|FD": {
+  "title": "Brak przepływu wody",
+  "causes": [
+   "Niskie ciśnienie lub powietrze w instalacji.",
+   "Pompa obiegowa ogrzewania nie pracuje."
+  ],
+  "steps": [
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Ponownie włączyć kocioł i sprawdzić, czy kod zniknął.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ideal|FU": {
+  "title": "Zbyt duża różnica zasilania i powrotu",
+  "causes": [
+   "Powietrze w grzejnikach.",
+   "Niskie ciśnienie lub zator w instalacji."
+  ],
+  "steps": [
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Ponownie włączyć kocioł.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Worcester Bosch|EA 227": {
+  "title": "Brak zapłonu palnika",
+  "causes": [
+   "Gaz nie dociera do kotła, np. wyczerpane środki na liczniku przedpłatowym.",
+   "Zamarznięta lub zatkana rura odprowadzania kondensatu.",
+   "Usterka elementów zapłonu lub wykrywania płomienia."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Sprawdzić, czy inne urządzenia gazowe, np. kuchenka, działają.",
+   "Jeśli gazomierz jest przedpłatowy, upewnić się, że są na nim środki.",
+   "Przy mrozie sprawdzić plastikową rurę odprowadzania kondensatu na zewnątrz. Rozmrozić lód ciepłą (nie wrzącą) wodą.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Worcester Bosch|CE 207": {
+  "title": "Niskie ciśnienie wody",
+  "causes": [
+   "Z instalacji grzewczej ubyło wody, często po odpowietrzaniu grzejników.",
+   "Niewielki wyciek gdzieś w rurach lub grzejnikach.",
+   "Uszkodzony czujnik ciśnienia."
+  ],
+  "steps": [
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli ciśnienie często trzeba uzupełniać, może występować wyciek. Należy poprosić serwisanta o jego znalezienie."
+  ],
+  "technician": "Jeśli ciśnienie stale spada, wyciek musi znaleźć uprawniony serwisant (z uprawnieniami gazowymi); nigdy nie otwierać samodzielnie obudowy kotła."
+ },
+ "Worcester Bosch|H07": {
+  "title": "Niskie ciśnienie wody (ostrzeżenie)",
+  "causes": [
+   "Ciśnienie w instalacji spadło poniżej normalnego poziomu."
+  ],
+  "steps": [
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Jeśli ciśnienie często trzeba uzupełniać, może występować wyciek. Należy poprosić serwisanta o jego znalezienie."
+  ],
+  "technician": "Jeśli ciśnienie stale spada, wyciek musi znaleźć uprawniony serwisant (z uprawnieniami gazowymi); nigdy nie otwierać samodzielnie obudowy kotła."
+ },
+ "Worcester Bosch|E9 224": {
+  "title": "Wewnętrzny termostat bezpieczeństwa zbyt gorący",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Worcester Bosch|E9 276": {
+  "title": "Zbyt wysoka temperatura zasilania",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Worcester Bosch|CE 266": {
+  "title": "Nieoczekiwane odczyty temperatury, możliwe niskie ciśnienie",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Worcester Bosch|Fd 231": {
+  "title": "Przerwa w zasilaniu podczas blokady",
+  "causes": [
+   "Zasilanie elektryczne zostało przerwane, gdy kocioł był zablokowany."
+  ],
+  "steps": [
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli następnie pojawi się inny kod, postępować zgodnie z zaleceniami dla tego kodu."
+  ],
+  "technician": "Jeśli kocioł nie odblokowuje się po resecie, powinien go sprawdzić uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Worcester Bosch|A1": {
+  "title": "Pompa pracowała na sucho",
+  "causes": [
+   "Bardzo niskie ciśnienie wody.",
+   "Powietrze uwięzione w pompie lub instalacji."
+  ],
+  "steps": [
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Worcester Bosch|C6": {
+  "title": "Zbyt niska prędkość wentylatora",
+  "causes": [
+   "Wentylator nie pracuje z właściwą prędkością.",
+   "Usterka okablowania lub płytki sterującej.",
+   "Przewód spalinowy może być zablokowany."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Sprawdzić z zewnątrz, czy nic nie blokuje wylotu przewodu spalinowego. Nie dotykać go.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Worcester Bosch|F7": {
+  "title": "Płomień nadal wykrywany po wyłączeniu palnika",
+  "causes": [
+   "Usterka obwodu wykrywania płomienia.",
+   "Zawór gazowy, który nie zamyka się całkowicie."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Wyłączyć kocioł wyłącznikiem głównym.",
+   "Nie resetować kotła wielokrotnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "To usterka bezpieczeństwa; zawór gazowy i elementy wykrywania płomienia może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Worcester Bosch|2980": {
+  "title": "Poważna usterka bezpieczeństwa",
+  "causes": [
+   "Kocioł wykrył usterkę związaną z bezpieczeństwem."
+  ],
+  "steps": [
+   "Wyłączyć kocioł.",
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Nie próbować naprawiać ani resetować kotła. Natychmiast skontaktować się z wykwalifikowanym serwisantem instalacji grzewczych."
+  ],
+  "technician": "To usterka krytyczna dla bezpieczeństwa i musi się nią zająć uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Junkers/Bosch|227": {
+  "title": "Palnik nie zapalił się po kilku próbach",
+  "causes": [
+   "Gaz nie dociera do kotła, np. wyczerpane środki na liczniku przedpłatowym.",
+   "Zamarznięta lub zatkana rura odprowadzania kondensatu.",
+   "Usterka elementów zapłonu lub wykrywania płomienia."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Sprawdzić, czy inne urządzenia gazowe, np. kuchenka, działają.",
+   "Jeśli gazomierz jest przedpłatowy, upewnić się, że są na nim środki.",
+   "Przy mrozie sprawdzić plastikową rurę odprowadzania kondensatu na zewnątrz. Rozmrozić lód ciepłą (nie wrzącą) wodą.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Junkers/Bosch|207": {
+  "title": "Niskie ciśnienie wody",
+  "causes": [
+   "Z instalacji grzewczej ubyło wody, często po odpowietrzaniu grzejników.",
+   "Niewielki wyciek gdzieś w rurach lub grzejnikach.",
+   "Uszkodzony czujnik ciśnienia."
+  ],
+  "steps": [
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli ciśnienie często trzeba uzupełniać, może występować wyciek. Należy poprosić serwisanta o jego znalezienie."
+  ],
+  "technician": "Jeśli ciśnienie stale spada, wyciek musi znaleźć uprawniony serwisant (z uprawnieniami gazowymi); nigdy nie otwierać samodzielnie obudowy kotła."
+ },
+ "Junkers/Bosch|224": {
+  "title": "Zadziałał ogranicznik temperatury bezpieczeństwa",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Junkers/Bosch|276": {
+  "title": "Zbyt wysoka temperatura zasilania",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Junkers/Bosch|231": {
+  "title": "Przerwa w zasilaniu podczas blokady",
+  "causes": [
+   "Zasilanie elektryczne zostało przerwane, gdy kocioł był zablokowany."
+  ],
+  "steps": [
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli następnie pojawi się inny kod, postępować zgodnie z zaleceniami dla tego kodu."
+  ],
+  "technician": "Jeśli kod nie znika, kocioł musi sprawdzić uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Junkers/Bosch|232": {
+  "title": "Zapotrzebowanie na ciepło zablokowane przez styk zewnętrzny",
+  "causes": [
+   "Zewnętrzny sterownik, np. ogranicznik ogrzewania podłogowego, zablokował kocioł.",
+   "Zadziałał wyłącznik bezpieczeństwa pompy kondensatu."
+  ],
+  "steps": [
+   "Odczekać kilka minut; kocioł może uruchomić się ponownie samoczynnie.",
+   "Sprawdzić, czy termostat pokojowy i programator zgłaszają zapotrzebowanie na ciepło.",
+   "Jeśli jest pompa kondensatu, sprawdzić, czy ma zasilanie i czy się nie przelewa.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Junkers/Bosch|2962": {
+  "title": "Brak sygnału z wentylatora",
+  "causes": [
+   "Wentylator nie pracuje z właściwą prędkością.",
+   "Usterka okablowania lub płytki sterującej.",
+   "Przewód spalinowy może być zablokowany."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Sprawdzić z zewnątrz, czy nic nie blokuje wylotu przewodu spalinowego. Nie dotykać go.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Baxi|E133": {
+  "title": "Zamarznięta lub zatkana rura odprowadzania kondensatu",
+  "causes": [
+   "Zewnętrzna rura odprowadzania kondensatu zamarzła podczas mrozu.",
+   "Zator w rurze odprowadzania kondensatu.",
+   "W niektórych modelach problem z zasilaniem gazem lub zapłonem."
+  ],
+  "steps": [
+   "Wyłączyć kocioł.",
+   "Znaleźć zamarzniętą część rury odprowadzania kondensatu, zwykle na zewnątrz lub na zagięciu.",
+   "Ogrzać ją termoforem lub polać wzdłuż ciepłą (nie wrzącą) wodą.",
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992)."
+  ],
+  "technician": "Jeśli kocioł nadal nie pracuje po rozmrożeniu, należy wezwać uprawnionego serwisanta (z uprawnieniami gazowymi)."
+ },
+ "Baxi|E28": {
+  "title": "Zamarznięta lub zatkana rura odprowadzania kondensatu",
+  "causes": [
+   "Zewnętrzna rura odprowadzania kondensatu zamarzła podczas mrozu.",
+   "Zator w rurze odprowadzania kondensatu.",
+   "W niektórych modelach problem z zasilaniem gazem lub zapłonem."
+  ],
+  "steps": [
+   "Wyłączyć kocioł.",
+   "Znaleźć zamarzniętą część rury odprowadzania kondensatu, zwykle na zewnątrz lub na zagięciu.",
+   "Ogrzać ją termoforem lub polać wzdłuż ciepłą (nie wrzącą) wodą.",
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992)."
+  ],
+  "technician": "Jeśli kocioł nadal nie pracuje po rozmrożeniu, należy wezwać uprawnionego serwisanta (z uprawnieniami gazowymi)."
+ },
+ "Baxi|A.02.06": {
+  "title": "Niskie ciśnienie wody",
+  "causes": [
+   "Z instalacji grzewczej ubyło wody, często po odpowietrzaniu grzejników.",
+   "Niewielki wyciek gdzieś w rurach lub grzejnikach.",
+   "Uszkodzony czujnik ciśnienia."
+  ],
+  "steps": [
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli ciśnienie często trzeba uzupełniać, może występować wyciek. Należy poprosić serwisanta o jego znalezienie."
+  ],
+  "technician": "Jeśli ciśnienie stale spada, wyciek musi znaleźć uprawniony serwisant (z uprawnieniami gazowymi); nigdy nie otwierać samodzielnie obudowy kotła."
+ },
+ "Baxi|H.02.07": {
+  "title": "Niskie ciśnienie wody (ostrzeżenie)",
+  "causes": [
+   "Z instalacji grzewczej ubyło wody, często po odpowietrzaniu grzejników.",
+   "Niewielki wyciek gdzieś w rurach lub grzejnikach.",
+   "Uszkodzony czujnik ciśnienia."
+  ],
+  "steps": [
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli ciśnienie często trzeba uzupełniać, może występować wyciek. Należy poprosić serwisanta o jego znalezienie."
+  ],
+  "technician": "Jeśli ciśnienie stale spada, wyciek musi znaleźć uprawniony serwisant (z uprawnieniami gazowymi); nigdy nie otwierać samodzielnie obudowy kotła."
+ },
+ "Potterton|E133": {
+  "title": "Zamarznięta lub zatkana rura odprowadzania kondensatu",
+  "causes": [
+   "Zewnętrzna rura odprowadzania kondensatu zamarzła podczas mrozu.",
+   "Zator w rurze odprowadzania kondensatu.",
+   "W niektórych modelach problem z zasilaniem gazem lub zapłonem."
+  ],
+  "steps": [
+   "Wyłączyć kocioł.",
+   "Znaleźć zamarzniętą część rury odprowadzania kondensatu, zwykle na zewnątrz lub na zagięciu.",
+   "Ogrzać ją termoforem lub polać wzdłuż ciepłą (nie wrzącą) wodą.",
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992)."
+  ],
+  "technician": "Jeśli kocioł nadal nie pracuje po rozmrożeniu, należy wezwać uprawnionego serwisanta (z uprawnieniami gazowymi)."
+ },
+ "Viessmann|74": {
+  "title": "Niskie ciśnienie wody",
+  "causes": [
+   "Z instalacji grzewczej ubyło wody, często po odpowietrzaniu grzejników.",
+   "Niewielki wyciek gdzieś w rurach lub grzejnikach.",
+   "Uszkodzony czujnik ciśnienia."
+  ],
+  "steps": [
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli ciśnienie często trzeba uzupełniać, może występować wyciek. Należy poprosić serwisanta o jego znalezienie."
+  ],
+  "technician": "Jeśli ciśnienie stale spada, wyciek musi znaleźć uprawniony serwisant (z uprawnieniami gazowymi); nigdy nie otwierać samodzielnie obudowy kotła."
+ },
+ "Viessmann|361": {
+  "title": "Brak sygnału płomienia przy uruchomieniu palnika",
+  "causes": [
+   "Gaz nie dociera do kotła, np. wyczerpane środki na liczniku przedpłatowym.",
+   "Zamarznięta lub zatkana rura odprowadzania kondensatu.",
+   "Usterka elementów zapłonu lub wykrywania płomienia."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Sprawdzić, czy inne urządzenia gazowe, np. kuchenka, działają.",
+   "Jeśli gazomierz jest przedpłatowy, upewnić się, że są na nim środki.",
+   "Przy mrozie sprawdzić plastikową rurę odprowadzania kondensatu na zewnątrz. Rozmrozić lód ciepłą (nie wrzącą) wodą.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Viessmann|64": {
+  "title": "Utrata płomienia podczas pracy",
+  "causes": [
+   "Gaz nie dociera do kotła, np. wyczerpane środki na liczniku przedpłatowym.",
+   "Zamarznięta lub zatkana rura odprowadzania kondensatu.",
+   "Usterka elementów zapłonu lub wykrywania płomienia."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Sprawdzić, czy inne urządzenia gazowe, np. kuchenka, działają.",
+   "Jeśli gazomierz jest przedpłatowy, upewnić się, że są na nim środki.",
+   "Przy mrozie sprawdzić plastikową rurę odprowadzania kondensatu na zewnątrz. Rozmrozić lód ciepłą (nie wrzącą) wodą.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Viessmann|62": {
+  "title": "Zadziałał ogranicznik bezpieczeństwa górnej temperatury",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Viessmann|63": {
+  "title": "Zadziałał ogranicznik temperatury spalin",
+  "causes": [
+   "Temperatura spalin jest zbyt wysoka.",
+   "Problem ze spalaniem lub przewodem spalinowym."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Wyłączyć kocioł.",
+   "Sprawdzić z zewnątrz, czy wylot przewodu spalinowego nie jest widocznie zablokowany. Nie dotykać go.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Viessmann|71": {
+  "title": "Zbyt niska prędkość wentylatora",
+  "causes": [
+   "Wentylator nie pracuje z właściwą prędkością.",
+   "Usterka okablowania lub płytki sterującej.",
+   "Przewód spalinowy może być zablokowany."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Sprawdzić z zewnątrz, czy nic nie blokuje wylotu przewodu spalinowego. Nie dotykać go.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Viessmann|14": {
+  "title": "Zwarcie czujnika temperatury zewnętrznej",
+  "causes": [
+   "Czujnik temperatury zewnętrznej lub jego okablowanie jest uszkodzone.",
+   "Luźne połączenie wewnątrz kotła."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca, nie próbować usuwać usterki samodzielnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Viessmann|A4": {
+  "title": "Powietrze w pompie lub zbyt mały przepływ",
+  "causes": [
+   "Powietrze uwięzione w wewnętrznej pompie.",
+   "Przepływ wody przez kocioł jest poniżej minimum."
+  ],
+  "steps": [
+   "Poczekać, aż program automatycznego odpowietrzania się zakończy.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ariston|101": {
+  "title": "Przegrzanie",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ariston|103": {
+  "title": "Słaby obieg wody",
+  "causes": [
+   "Powietrze w instalacji.",
+   "Niskie ciśnienie lub zakręcone zawory.",
+   "Problem z pompą."
+  ],
+  "steps": [
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ariston|108": {
+  "title": "Niskie ciśnienie wody",
+  "causes": [
+   "Z instalacji grzewczej ubyło wody, często po odpowietrzaniu grzejników.",
+   "Niewielki wyciek gdzieś w rurach lub grzejnikach.",
+   "Uszkodzony czujnik ciśnienia."
+  ],
+  "steps": [
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli ciśnienie często trzeba uzupełniać, może występować wyciek. Należy poprosić serwisanta o jego znalezienie."
+  ],
+  "technician": "Jeśli ciśnienie stale spada, wyciek musi znaleźć uprawniony serwisant (z uprawnieniami gazowymi); nigdy nie otwierać samodzielnie obudowy kotła."
+ },
+ "Ariston|110": {
+  "title": "Tymczasowe wyłączenie bezpieczeństwa",
+  "causes": [
+   "Tymczasowy stan spowodował zatrzymanie kotła ze względów bezpieczeństwa."
+  ],
+  "steps": [
+   "Poczekać; kocioł powinien uruchomić się ponownie samoczynnie po ustąpieniu przyczyny.",
+   "Jeśli pozostaje wyłączony, wyłączyć go wyłącznikiem głównym i skontaktować się z serwisem."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ariston|118": {
+  "title": "Problem z czujnikiem obiegu pierwotnego",
+  "causes": [
+   "Czujnik obiegu pierwotnego lub jego okablowanie jest uszkodzone.",
+   "Luźne połączenie wewnątrz kotła."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca, nie próbować usuwać usterki samodzielnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ariston|201": {
+  "title": "Usterka czujnika obiegu wody",
+  "causes": [
+   "Czujnik obiegu wody lub jego okablowanie jest uszkodzone.",
+   "Luźne połączenie wewnątrz kotła."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca, nie próbować usuwać usterki samodzielnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ariston|304": {
+  "title": "Zbyt wiele resetów",
+  "causes": [
+   "Przycisk reset został naciśnięty zbyt wiele razy."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nie resetować kotła wielokrotnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Przyczynę ciągłego blokowania się kotła powinien znaleźć uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ariston|305": {
+  "title": "Błąd płytki głównej",
+  "causes": [
+   "Usterka elektroniczna głównej płytki sterującej."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ariston|501": {
+  "title": "Nie wykryto płomienia",
+  "causes": [
+   "Gaz nie dociera do kotła, np. wyczerpane środki na liczniku przedpłatowym.",
+   "Zamarznięta lub zatkana rura odprowadzania kondensatu.",
+   "Usterka elementów zapłonu lub wykrywania płomienia."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Sprawdzić, czy inne urządzenia gazowe, np. kuchenka, działają.",
+   "Jeśli gazomierz jest przedpłatowy, upewnić się, że są na nim środki.",
+   "Przy mrozie sprawdzić plastikową rurę odprowadzania kondensatu na zewnątrz. Rozmrozić lód ciepłą (nie wrzącą) wodą.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ariston|601": {
+  "title": "Usterka odprowadzania spalin",
+  "causes": [
+   "Przewód spalinowy nie odprowadza prawidłowo spalin."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Odczekać kilka minut; kocioł spróbuje ponownie.",
+   "Jeśli kocioł ponownie się zablokuje, wyłączyć go i skontaktować się z wykwalifikowanym serwisantem."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ariston|611": {
+  "title": "Usterka wentylatora",
+  "causes": [
+   "Wentylator nie pracuje z właściwą prędkością.",
+   "Usterka okablowania lub płytki sterującej.",
+   "Przewód spalinowy może być zablokowany."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Sprawdzić z zewnątrz, czy nic nie blokuje wylotu przewodu spalinowego. Nie dotykać go.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ariston|802": {
+  "title": "Nieudana automatyczna kalibracja spalania",
+  "causes": [
+   "Kocioł nie mógł zakończyć samoregulacji spalania."
+  ],
+  "steps": [
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Saunier Duval|F.22": {
+  "title": "Niskie ciśnienie wody",
+  "causes": [
+   "Z instalacji grzewczej ubyło wody, często po odpowietrzaniu grzejników.",
+   "Niewielki wyciek gdzieś w rurach lub grzejnikach.",
+   "Uszkodzony czujnik ciśnienia."
+  ],
+  "steps": [
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli ciśnienie często trzeba uzupełniać, może występować wyciek. Należy poprosić serwisanta o jego znalezienie."
+  ],
+  "technician": "Jeśli ciśnienie stale spada, wyciek musi znaleźć uprawniony serwisant (z uprawnieniami gazowymi); nigdy nie otwierać samodzielnie obudowy kotła."
+ },
+ "Saunier Duval|F.28": {
+  "title": "Kocioł nie zapalił się",
+  "causes": [
+   "Gaz nie dociera do kotła, np. wyczerpane środki na liczniku przedpłatowym.",
+   "Zamarznięta lub zatkana rura odprowadzania kondensatu.",
+   "Usterka elementów zapłonu lub wykrywania płomienia."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Sprawdzić, czy inne urządzenia gazowe, np. kuchenka, działają.",
+   "Jeśli gazomierz jest przedpłatowy, upewnić się, że są na nim środki.",
+   "Przy mrozie sprawdzić plastikową rurę odprowadzania kondensatu na zewnątrz. Rozmrozić lód ciepłą (nie wrzącą) wodą.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Saunier Duval|F.20": {
+  "title": "Zadziałał ogranicznik temperatury bezpieczeństwa",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Saunier Duval|F.23": {
+  "title": "Zbyt duża różnica temperatur zasilania i powrotu",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Saunier Duval|F.24": {
+  "title": "Zbyt szybki wzrost temperatury",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Saunier Duval|F.00": {
+  "title": "Przerwa w obwodzie czujnika temperatury zasilania",
+  "causes": [
+   "Czujnik temperatury zasilania lub jego okablowanie jest uszkodzone.",
+   "Luźne połączenie wewnątrz kotła."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca, nie próbować usuwać usterki samodzielnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Saunier Duval|F.10": {
+  "title": "Zwarcie czujnika temperatury zasilania",
+  "causes": [
+   "Czujnik temperatury zasilania lub jego okablowanie jest uszkodzone.",
+   "Luźne połączenie wewnątrz kotła."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca, nie próbować usuwać usterki samodzielnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Immergas|E01": {
+  "title": "Blokada z powodu braku zapłonu",
+  "causes": [
+   "Gaz nie dociera do kotła, np. wyczerpane środki na liczniku przedpłatowym.",
+   "Zamarznięta lub zatkana rura odprowadzania kondensatu.",
+   "Usterka elementów zapłonu lub wykrywania płomienia."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Sprawdzić, czy inne urządzenia gazowe, np. kuchenka, działają.",
+   "Jeśli gazomierz jest przedpłatowy, upewnić się, że są na nim środki.",
+   "Przy mrozie sprawdzić plastikową rurę odprowadzania kondensatu na zewnątrz. Rozmrozić lód ciepłą (nie wrzącą) wodą.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Immergas|E02": {
+  "title": "Blokada termostatu bezpieczeństwa (przegrzanie)",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Immergas|E05": {
+  "title": "Usterka sondy zasilania",
+  "causes": [
+   "Sonda temperatury zasilania lub jej okablowanie jest uszkodzone.",
+   "Luźne połączenie wewnątrz kotła."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca, nie próbować usuwać usterki samodzielnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Immergas|E06": {
+  "title": "Usterka sondy ciepłej wody",
+  "causes": [
+   "Sonda temperatury ciepłej wody lub jej okablowanie jest uszkodzone.",
+   "Luźne połączenie wewnątrz kotła."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca, nie próbować usuwać usterki samodzielnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Immergas|E10": {
+  "title": "Niewystarczające ciśnienie w instalacji",
+  "causes": [
+   "Z instalacji grzewczej ubyło wody, często po odpowietrzaniu grzejników.",
+   "Niewielki wyciek gdzieś w rurach lub grzejnikach.",
+   "Uszkodzony czujnik ciśnienia."
+  ],
+  "steps": [
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli ciśnienie często trzeba uzupełniać, może występować wyciek. Należy poprosić serwisanta o jego znalezienie."
+  ],
+  "technician": "Jeśli ciśnienie stale spada, wyciek musi znaleźć uprawniony serwisant (z uprawnieniami gazowymi); nigdy nie otwierać samodzielnie obudowy kotła."
+ },
+ "Immergas|E11": {
+  "title": "Usterka presostatu spalin",
+  "causes": [
+   "Wentylator nie pracuje z właściwą prędkością.",
+   "Usterka okablowania lub płytki sterującej.",
+   "Przewód spalinowy może być zablokowany."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Sprawdzić z zewnątrz, czy nic nie blokuje wylotu przewodu spalinowego. Nie dotykać go.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Immergas|E20": {
+  "title": "Blokada z powodu płomienia pasożytniczego",
+  "causes": [
+   "Usterka obwodu wykrywania płomienia.",
+   "Zawór gazowy, który nie zamyka się całkowicie."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Wyłączyć kocioł wyłącznikiem głównym.",
+   "Nie resetować kotła wielokrotnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "To usterka bezpieczeństwa; zawór gazowy i elementy wykrywania płomienia może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Immergas|E27": {
+  "title": "Niewystarczający obieg",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Immergas|E37": {
+  "title": "Niskie napięcie zasilania",
+  "causes": [
+   "Napięcie w sieci jest poniżej dopuszczalnego limitu."
+  ],
+  "steps": [
+   "Sprawdzić, czy problem dotyczy też innych urządzeń.",
+   "Poczekać; kocioł uruchomi się ponownie samoczynnie, gdy napięcie wróci do normy.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Jeśli zasilanie jest w porządku, kocioł powinien sprawdzić uprawniony serwisant (z uprawnieniami gazowymi); sprawdzenie instalacji elektrycznej należy do wykwalifikowanego elektryka."
+ },
+ "Immergas|E38": {
+  "title": "Utrata sygnału płomienia",
+  "causes": [
+   "Gaz nie dociera do kotła, np. wyczerpane środki na liczniku przedpłatowym.",
+   "Zamarznięta lub zatkana rura odprowadzania kondensatu.",
+   "Usterka elementów zapłonu lub wykrywania płomienia."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Sprawdzić, czy inne urządzenia gazowe, np. kuchenka, działają.",
+   "Jeśli gazomierz jest przedpłatowy, upewnić się, że są na nim środki.",
+   "Przy mrozie sprawdzić plastikową rurę odprowadzania kondensatu na zewnątrz. Rozmrozić lód ciepłą (nie wrzącą) wodą.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Immergas|E43": {
+  "title": "Blokada po wielokrotnej utracie płomienia",
+  "causes": [
+   "Gaz nie dociera do kotła, np. wyczerpane środki na liczniku przedpłatowym.",
+   "Zamarznięta lub zatkana rura odprowadzania kondensatu.",
+   "Usterka elementów zapłonu lub wykrywania płomienia."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Sprawdzić, czy inne urządzenia gazowe, np. kuchenka, działają.",
+   "Jeśli gazomierz jest przedpłatowy, upewnić się, że są na nim środki.",
+   "Przy mrozie sprawdzić plastikową rurę odprowadzania kondensatu na zewnątrz. Rozmrozić lód ciepłą (nie wrzącą) wodą.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ferroli|A01": {
+  "title": "Brak zapłonu palnika",
+  "causes": [
+   "Gaz nie dociera do kotła, np. wyczerpane środki na liczniku przedpłatowym.",
+   "Zamarznięta lub zatkana rura odprowadzania kondensatu.",
+   "Usterka elementów zapłonu lub wykrywania płomienia."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Sprawdzić, czy inne urządzenia gazowe, np. kuchenka, działają.",
+   "Jeśli gazomierz jest przedpłatowy, upewnić się, że są na nim środki.",
+   "Przy mrozie sprawdzić plastikową rurę odprowadzania kondensatu na zewnątrz. Rozmrozić lód ciepłą (nie wrzącą) wodą.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ferroli|A02": {
+  "title": "Sygnał płomienia przy wyłączonym palniku",
+  "causes": [
+   "Usterka obwodu wykrywania płomienia.",
+   "Zawór gazowy, który nie zamyka się całkowicie."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Wyłączyć kocioł wyłącznikiem głównym.",
+   "Nie resetować kotła wielokrotnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "To usterka bezpieczeństwa; zawór gazowy i elementy wykrywania płomienia może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ferroli|A03": {
+  "title": "Zabezpieczenie przed przegrzaniem",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ferroli|F05": {
+  "title": "Presostat powietrza się nie zamknął",
+  "causes": [
+   "Wentylator nie pracuje z właściwą prędkością.",
+   "Usterka okablowania lub płytki sterującej.",
+   "Przewód spalinowy może być zablokowany."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Sprawdzić z zewnątrz, czy nic nie blokuje wylotu przewodu spalinowego. Nie dotykać go.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ferroli|A06": {
+  "title": "Brak płomienia po zapłonie",
+  "causes": [
+   "Gaz nie dociera do kotła, np. wyczerpane środki na liczniku przedpłatowym.",
+   "Zamarznięta lub zatkana rura odprowadzania kondensatu.",
+   "Usterka elementów zapłonu lub wykrywania płomienia."
+  ],
+  "steps": [
+   "Jeśli czuć gaz, nie resetować kotła. Opuścić budynek i zadzwonić na pogotowie gazowe (992).",
+   "Sprawdzić, czy inne urządzenia gazowe, np. kuchenka, działają.",
+   "Jeśli gazomierz jest przedpłatowy, upewnić się, że są na nim środki.",
+   "Przy mrozie sprawdzić plastikową rurę odprowadzania kondensatu na zewnątrz. Rozmrozić lód ciepłą (nie wrzącą) wodą.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Wszelkie prace przy elementach gazowych lub spalania musi wykonywać uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ferroli|F10": {
+  "title": "Usterka czujnika zasilania",
+  "causes": [
+   "Czujnik zasilania (przepływu) lub jego okablowanie jest uszkodzone.",
+   "Luźne połączenie wewnątrz kotła."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca, nie próbować usuwać usterki samodzielnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ferroli|F11": {
+  "title": "Usterka czujnika ciepłej wody",
+  "causes": [
+   "Czujnik ciepłej wody lub jego okablowanie jest uszkodzone.",
+   "Luźne połączenie wewnątrz kotła."
+  ],
+  "steps": [
+   "Wyłączyć kocioł wyłącznikiem głównym, odczekać 30 sekund i włączyć go ponownie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca, nie próbować usuwać usterki samodzielnie. Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Ferroli|F34": {
+  "title": "Zbyt niskie napięcie zasilania",
+  "causes": [
+   "Napięcie w sieci jest poniżej ok. 140 V."
+  ],
+  "steps": [
+   "Sprawdzić, czy problem dotyczy też innych urządzeń.",
+   "Poczekać; kocioł uruchomi się ponownie samoczynnie, gdy napięcie wróci do normy.",
+   "Zanotować kod i skontaktować się z instalatorem lub serwisem producenta."
+  ],
+  "technician": "Jeśli zasilanie jest w porządku, kocioł powinien sprawdzić uprawniony serwisant (z uprawnieniami gazowymi); sprawdzenie instalacji elektrycznej należy do wykwalifikowanego elektryka."
+ },
+ "Ferroli|F37": {
+  "title": "Nieprawidłowe ciśnienie wody w instalacji",
+  "causes": [
+   "Z instalacji grzewczej ubyło wody, często po odpowietrzaniu grzejników.",
+   "Niewielki wyciek gdzieś w rurach lub grzejnikach.",
+   "Uszkodzony czujnik ciśnienia."
+  ],
+  "steps": [
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli ciśnienie często trzeba uzupełniać, może występować wyciek. Należy poprosić serwisanta o jego znalezienie."
+  ],
+  "technician": "Jeśli ciśnienie stale spada, wyciek musi znaleźć uprawniony serwisant (z uprawnieniami gazowymi); nigdy nie otwierać samodzielnie obudowy kotła."
+ },
+ "Ferroli|F43": {
+  "title": "Zabezpieczenie wymiennika ciepła",
+  "causes": [
+   "Woda słabo krąży przez kocioł.",
+   "Zakręcone zawory grzejnikowe lub powietrze w instalacji.",
+   "Niskie ciśnienie w instalacji lub usterka pompy."
+  ],
+  "steps": [
+   "Upewnić się, że zawory grzejnikowe są odkręcone.",
+   "Sprawdzić manometr. Przy zimnej instalacji grzewczej powinien wskazywać ok. 1–1,5 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem napełniającym dokładnie tak, jak pokazuje instrukcja obsługi, a następnie całkowicie zakręcić zawór.",
+   "Odpowietrzyć grzejniki, które są zimne u góry, a następnie ponownie sprawdzić ciśnienie.",
+   "Nacisnąć raz przycisk reset i dać kotłowi kilka minut na ponowne uruchomienie.",
+   "Jeśli kod wraca po jednym lub dwóch resetach, przestać resetować kocioł i umówić naprawę."
+  ],
+  "technician": "Elementy wewnętrzne może sprawdzać wyłącznie uprawniony serwisant (z uprawnieniami gazowymi)."
+ },
+ "Navien|E302": {
+  "title": "Zbyt niskie ciśnienie w instalacji",
+  "causes": [
+   "Z instalacji grzewczej ubyło wody, często po odpowietrzaniu grzejników.",
+   "Niewielki wyciek gdzieś w rurach lub grzejnikach.",
+   "Uszkodzony czujnik ciśnienia."
+  ],
+  "steps": [
+   "Sprawdzić manometr lub wyświetlacz. Powinien wskazywać 1–1,2 bara.",
+   "Jeśli ciśnienie jest niskie, uzupełnić je zaworem lub przewodem napełniającym zgodnie z instrukcją obsługi, zatrzymując się na 1–1,2 bara.",
+   "Nie przekraczać 1,5 bara. W razie przepełnienia odpowietrzyć grzejnik, aby obniżyć ciśnienie.",
+   "Jeśli ciśnienie często trzeba uzupełniać, może występować wyciek. Należy poprosić serwisanta o jego znalezienie."
+  ],
+  "technician": "Jeśli ciśnienie stale spada, wyciek musi znaleźć uprawniony serwisant (z uprawnieniami gazowymi); nigdy nie otwierać samodzielnie obudowy kotła."
+ }
+}

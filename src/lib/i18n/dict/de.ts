@@ -155,7 +155,7 @@ export const de: Dict = {
     popularCompare: "Beliebte Vergleiche",
     seeAll: "Alle",
     errTitle: "Fehlercodes",
-    errLead: "Was Fehlercodes bei Waschmaschinen und Geschirrspülern bedeuten und was Sie selbst sicher tun können.",
+    errLead: "Was Fehlercodes bei Waschmaschinen, Geschirrspülern, Trocknern, Kühlschränken, Kaffeemaschinen, Klimaanlagen und Gasthermen bedeuten – und was Sie selbst sicher tun können.",
     errBrandTitle: "{brand} {appliance}: Fehlercodes",
     errCodeTitle: "{brand} {appliance} Fehler {code}",
     errCauses: "Mögliche Ursachen",

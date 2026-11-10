@@ -1,0 +1,1201 @@
+{
+ "Samsung|dC": {
+  "title": "Kapı açık veya algılanmıyor",
+  "causes": [
+   "Kapı tam olarak kapanmamış.",
+   "Kapıya giysi sıkışmış.",
+   "Çocuk Kilidi açıkken kapı açılmış."
+  ],
+  "steps": [
+   "Kapıyı açın ve kenara sıkışmış giysileri çıkarın.",
+   "Kapıyı mandalı oturana kadar sıkıca kapatın.",
+   "Çocuk Kilidinin açık olup olmadığını kontrol edin.",
+   "Programı yeniden başlatın."
+  ],
+  "technician": "Kapı düzgün kapalıyken kod devam ediyorsa mandal veya kapı sensörü arızalı olabilir. Samsung servisine başvurun."
+ },
+ "Samsung|NC": {
+  "title": "Hav filtresi sorunu",
+  "causes": [
+   "Hav filtresi yerinde değil, tıkalı veya doğru oturmamış."
+  ],
+  "steps": [
+   "Hav filtresini çıkarın ve temizleyin.",
+   "Doğru oturacak şekilde tamamen yerine takın.",
+   "Programı yeniden başlatın."
+  ],
+  "technician": "Filtre temiz ve doğru takılı olduğu hâlde kod tekrar çıkarsa Samsung servisinden randevu alın."
+ },
+ "Samsung|NC2": {
+  "title": "Isı eşanjörü iç kapağı sorunu",
+  "causes": [
+   "Isı eşanjörünün iç kapağı doğru takılmamış."
+  ],
+  "steps": [
+   "Kurutma makinesini kapatın.",
+   "Isı eşanjörü iç kapağının yerinde ve düzgün kapalı olduğunu kontrol edin.",
+   "Programı yeniden başlatın."
+  ],
+  "technician": "Kapağı yeniden taktıktan sonra kod devam ederse Samsung servisine başvurun."
+ },
+ "Samsung|5C": {
+  "title": "Tahliye sorunu",
+  "causes": [
+   "Tahliye hortumu bükülmüş, hasarlı veya donmuş.",
+   "Su haznesi dolu.",
+   "Tahliye pompası çalışmıyor."
+  ],
+  "steps": [
+   "Su haznesini boşaltın ve yerine takın.",
+   "Tahliye hortumunun bükülmediğini veya hasarlı olmadığını kontrol edin.",
+   "Hortum donmuşsa yaklaşık 10 dakika ılık suya batırılmış bir havluyla sarın.",
+   "Kurutma makinesini açın ve programı yeniden başlatın."
+  ],
+  "technician": "Hazne boş ve hortum açık olduğu hâlde kod tekrar çıkarsa pompa arızalı olabilir. Samsung servisini arayın."
+ },
+ "Samsung|tC": {
+  "title": "Hava sıcaklığı sensörü sorunu",
+  "causes": [
+   "Hav filtresi veya ısı eşanjörü tıkanmış.",
+   "Havalandırma veya hava akış yolu kısıtlanmış.",
+   "Sıcaklık sensörü arızalı."
+  ],
+  "steps": [
+   "Hav filtresini temizleyin.",
+   "Modelinizde ısı eşanjörü varsa temizleyin.",
+   "Havalandırma veya hava çıkışında tıkanıklık olup olmadığını kontrol edin.",
+   "Programı yeniden başlatın."
+  ],
+  "technician": "Temizlik kodu gidermiyorsa sensörün değiştirilmesi gerekebilir. Samsung servisine başvurun."
+ },
+ "Samsung|tC5": {
+  "title": "Kompresör sıcaklık sensörü sorunu",
+  "causes": [
+   "Hav süzgeci tıkanmış.",
+   "Havalandırma sistemindeki hava akışı kısıtlanmış."
+  ],
+  "steps": [
+   "2–3 dakika bekleyin, ardından kurutma makinesini yeniden açın.",
+   "Hav süzgecini temizleyin.",
+   "Havalandırma sisteminde tıkanıklık olup olmadığını kontrol edin.",
+   "Programı yeniden başlatın."
+  ],
+  "technician": "Kod tekrar çıkmaya devam ederse ısı pompası sisteminin Samsung servisi tarafından kontrol edilmesi gerekir."
+ },
+ "Samsung|3C": {
+  "title": "Motor sorunu",
+  "causes": [
+   "İnverter motor beklendiği gibi çalışmadı."
+  ],
+  "steps": [
+   "Tamburun aşırı yüklenmediğinden emin olun.",
+   "Programı yeniden başlatın.",
+   "Kurutma makinesinin fişini en az 30 saniye çekin, yeniden takın ve tekrar deneyin."
+  ],
+  "technician": "Kod tekrar çıkarsa motorun veya kontrol ünitesinin bir teknisyen tarafından incelenmesi gerekir. Samsung servisine başvurun."
+ },
+ "Samsung|AC": {
+  "title": "Elektronik iletişim hatası",
+  "causes": [
+   "Dahili kontrol parçaları birbiriyle iletişim kuramıyor."
+  ],
+  "steps": [
+   "Kurutma makinesini 60 saniye kapatın.",
+   "Yeniden açın ve programı yeniden başlatın."
+  ],
+  "technician": "Kod tekrar çıkarsa kontrol kartlarının kontrol edilmesi gerekir. Samsung servisinden destek isteyin."
+ },
+ "Samsung|AC6": {
+  "title": "Ana kart ile inverter kartı iletişim kuramıyor",
+  "causes": [
+   "Ana kontrol kartı ile inverter kartı arasındaki iletişim kesildi."
+  ],
+  "steps": [
+   "Programı yeniden başlatın.",
+   "Kurutma makinesinin fişini en az 30 saniye çekin, yeniden takın ve tekrar deneyin."
+  ],
+  "technician": "Kod devam ederse kartların ve kabloların bir teknisyen tarafından kontrol edilmesi gerekir. Samsung servisine başvurun."
+ },
+ "Samsung|HC": {
+  "title": "Aşırı ısınma veya ısıtma sorunu",
+  "causes": [
+   "Hav filtresi veya havalandırma tıkalı, bu yüzden kurutma makinesi çok ısınıyor.",
+   "Elektrikli modellerde atmış bir sigorta veya düşük voltaj."
+  ],
+  "steps": [
+   "Hav filtresini temizleyin.",
+   "Havalandırmada tıkanıklık olup olmadığını kontrol edin.",
+   "Evinizdeki sigortaları kontrol edin ve atmış olanları yeniden açın.",
+   "Programı yeniden başlatın."
+  ],
+  "technician": "Kod devam ederse elektrik beslemesini bir elektrikçiye kontrol ettirin ve ısıtma sistemi için Samsung servisinden randevu alın."
+ },
+ "Samsung|FC": {
+  "title": "Yanlış elektrik frekansı",
+  "causes": [
+   "Şebeke elektrik frekansı kurutma makinesinin beklediği değerle uyuşmuyor."
+  ],
+  "steps": [
+   "Programı yeniden başlatın.",
+   "Kurutma makinesinin doğrudan duvar prizine takılı olduğundan emin olun."
+  ],
+  "technician": "Kod devam ederse Samsung servisine başvurun."
+ },
+ "Samsung|9C1": {
+  "title": "Elektrik beslemesi sorunu",
+  "causes": [
+   "Elektrik beslemesi doğru değil.",
+   "Fiş gevşek veya tam takılmamış.",
+   "Uzatma kablosu kullanılıyor."
+  ],
+  "steps": [
+   "Fişin prize tamamen takılı olduğunu kontrol edin.",
+   "Kurutma makinesini uzatma kablosu kullanmadan, kendi hattı olan bir duvar prizine doğrudan takın.",
+   "Programı yeniden başlatın."
+  ],
+  "technician": "Elektrik beslemesi sorunsuzsa ve kod tekrar çıkıyorsa Samsung servisinden destek isteyin."
+ },
+ "Samsung|dF": {
+  "title": "Kapı anahtarı arızası",
+  "causes": [
+   "Kapı veya kilit anahtarı ya da kablosu arızalı."
+  ],
+  "steps": [
+   "Kapıyı sıkıca kapatın ve yeniden deneyin.",
+   "Kurutma makinesinin fişini en az 30 saniye çekin, yeniden takın ve tekrar deneyin."
+  ],
+  "technician": "Kapı anahtarı grubunun değiştirilmesi gerekebilir. Samsung servisine başvurun."
+ },
+ "Samsung|bE": {
+  "title": "Tuş sıkışmış",
+  "causes": [
+   "Kontrol panelindeki bir tuş sıkışmış veya basılı kalmış."
+  ],
+  "steps": [
+   "Kurutma makinesini kapatın.",
+   "Sıkışan tuşu kurtarmak için kenarlar dâhil her tuşa basıp bırakın.",
+   "Açın ve yeniden deneyin."
+  ],
+  "technician": "Bir tuş hasarlıysa veya kod tekrar çıkarsa Samsung servisinden destek isteyin."
+ },
+ "Samsung|Clg": {
+  "title": "Havalandırma tıkalı (havalandırma testi sonucu)",
+  "causes": [
+   "Hava çıkış kanalı hav veya artıklarla tıkanmış."
+  ],
+  "steps": [
+   "Hav filtresini temizleyin.",
+   "Hava çıkışını ve kanalı temizleyin.",
+   "Havalandırma tıkanıklık testini yeniden çalıştırın."
+  ],
+  "technician": "Havalandırma temiz olduğu hâlde sonuç aynı kalıyorsa Samsung servisine başvurun."
+ },
+ "Samsung|dn": {
+  "title": "Yazılım indiriliyor",
+  "causes": [
+   "Kurutma makinesi bir yazılım güncellemesi yüklüyor."
+  ],
+  "steps": [
+   "Kurutma makinesinin fişini çekmeyin veya elektriğini kesmeyin.",
+   "Bekleyin. Güncelleme bitince kurutma makinesi kendiliğinden yeniden başlar."
+  ],
+  "technician": "24 saat sonra hâlâ dn görünüyorsa Samsung servisinden destek isteyin."
+ },
+ "Samsung|CL": {
+  "title": "Çocuk Kilidi açık",
+  "causes": [
+   "Çocuk Kilidi açılmış, bu yüzden tuşlar devre dışı."
+  ],
+  "steps": [
+   "Kılavuzunuzdaki tuş kombinasyonunu kullanarak Çocuk Kilidini kapatın."
+  ],
+  "technician": "Bu bir arıza değildir. Yalnızca Çocuk Kilidi kapatılamıyorsa Samsung'a başvurun."
+ },
+ "Samsung|HC2": {
+  "title": "Gaz ateşleme hatası",
+  "causes": [
+   "Gazlı kurutma makinesi ateşleme yapamadı."
+  ],
+  "steps": [
+   "Kurutma makinesini 2–3 dakika kapatın.",
+   "Açın ve programı yeniden başlatın."
+  ],
+  "technician": "Kod tekrar çıkarsa kurutma makinesini kullanmayı bırakın ve Samsung servisini arayın. Gaz parçalarına kendiniz müdahale etmeyin."
+ },
+ "LG|OE": {
+  "title": "Tahliye sorunu",
+  "causes": [
+   "Tahliye hortumu dolanmış, bükülmüş veya tıkalı.",
+   "Hortumun ucu çok yüksekte veya suyun içinde."
+  ],
+  "steps": [
+   "Tahliye hortumunu düzeltin.",
+   "Hortumun en üst noktasının yerden 1 metreden yüksek olmamasını sağlayın.",
+   "Hortumun ucunun suyun içinde durmadığından emin olun.",
+   "Kurutma makinesini yeniden başlatın."
+  ],
+  "technician": "Hortum açık ve doğru yerleştirilmiş olduğu hâlde kod tekrar çıkarsa LG servisine başvurun."
+ },
+ "LG|d80": {
+  "title": "Hava çıkışı kısıtlı (yaklaşık %80 tıkalı)",
+  "causes": [
+   "Hav filtresi tıkanmış.",
+   "Hava çıkış kanalı ezilmiş, bükülmüş veya çok uzun.",
+   "Dış havalandırma kapağı tıkalı."
+  ],
+  "steps": [
+   "Hav filtresini temizleyin ve gerekirse ılık suyla durulayın.",
+   "Kurutma makinesinin arkasındaki kanalda bükülme veya ezilme olup olmadığını kontrol edin.",
+   "Dış havalandırma kapağının tamamen açıldığından emin olun ve çevresindeki havları temizleyin.",
+   "Kanal temizlenene kadar daha küçük yükler kullanın."
+  ],
+  "technician": "Temizlikten sonra kod devam ederse bir kanal temizleme firması çağırın veya LG servisine başvurun."
+ },
+ "LG|d90": {
+  "title": "Hava çıkışı kısıtlı (yaklaşık %90 tıkalı)",
+  "causes": [
+   "Hav filtresi tıkanmış.",
+   "Hava çıkış kanalı ezilmiş, bükülmüş veya çok uzun.",
+   "Dış havalandırma kapağı tıkalı."
+  ],
+  "steps": [
+   "Hav filtresini temizleyin ve gerekirse ılık suyla durulayın.",
+   "Kurutma makinesinin arkasındaki kanalda bükülme veya ezilme olup olmadığını kontrol edin.",
+   "Dış havalandırma kapağının tamamen açıldığından emin olun ve çevresindeki havları temizleyin.",
+   "Kanal temizlenene kadar daha küçük yükler kullanın."
+  ],
+  "technician": "Temizlikten sonra kod devam ederse bir kanal temizleme firması çağırın veya LG servisine başvurun."
+ },
+ "LG|d95": {
+  "title": "Hava çıkışı kısıtlı (yaklaşık %95 tıkalı)",
+  "causes": [
+   "Hav filtresi tıkanmış.",
+   "Hava çıkış kanalı ezilmiş, bükülmüş veya çok uzun.",
+   "Dış havalandırma kapağı tıkalı."
+  ],
+  "steps": [
+   "Hav filtresini temizleyin ve gerekirse ılık suyla durulayın.",
+   "Kurutma makinesinin arkasındaki kanalda bükülme veya ezilme olup olmadığını kontrol edin.",
+   "Dış havalandırma kapağının tamamen açıldığından emin olun ve çevresindeki havları temizleyin.",
+   "Kanal temizlenene kadar daha küçük yükler kullanın."
+  ],
+  "technician": "Temizlikten sonra kod devam ederse bir kanal temizleme firması çağırın veya LG servisine başvurun."
+ },
+ "LG|FO": {
+  "title": "Hav filtresi yerinde değil",
+  "causes": [
+   "Hav filtresi doğru takılmamış."
+  ],
+  "steps": [
+   "Hav filtresini çıkarın.",
+   "Yuvasına tamamen oturana kadar geri itin.",
+   "Kurutma makinesini yeniden başlatın."
+  ],
+  "technician": "Filtre doğru takılı olduğu hâlde FO devam ederse sensörün LG servisi tarafından onarılması gerekebilir."
+ },
+ "LG|IF": {
+  "title": "İç hav filtresi algılanmıyor",
+  "causes": [
+   "İç hav filtresindeki mıknatıs yerinde değil veya kaymış.",
+   "Mıknatıs yuvası hasarlı."
+  ],
+  "steps": [
+   "İç hav filtresini çıkarın ve mıknatısın yerinde olduğunu kontrol edin.",
+   "Filtreyi doğru şekilde yerine takın.",
+   "Mıknatıs kaybolmuşsa veya yuvası kırıksa yeni bir filtre alın."
+  ],
+  "technician": "Filtre sağlam olduğu hâlde hata devam ederse LG servisinden destek isteyin."
+ },
+ "LG|nP": {
+  "title": "Isıtıcıya elektrik gelmiyor",
+  "causes": [
+   "Priz doğru voltajı vermiyor.",
+   "Bir sigorta atmış."
+  ],
+  "steps": [
+   "Kurutma makinesinin sigortasını en az 10 saniye kapatın, ardından yeniden açın.",
+   "Kurutma makinesini yeniden başlatın."
+  ],
+  "technician": "Hâlâ ısıtmıyorsa prizi bir elektrikçiye kontrol ettirin, ardından LG servisine başvurun."
+ },
+ "LG|PS": {
+  "title": "Elektrik beslemesi sorunu",
+  "causes": [
+   "Elektrik kablosu gevşek veya priz gerektiği gibi bağlanmamış."
+  ],
+  "steps": [
+   "Kurutma makinesinin sigortasını en az 10 saniye kapatıp açarak sıfırlayın.",
+   "Fişin uygun değerde, topraklı bir prize sıkıca takılı olduğunu kontrol edin.",
+   "Kurutma makinesini yeniden başlatın."
+  ],
+  "technician": "Kurutma makinesi hâlâ ısıtmıyorsa LG'den onarım isteyin."
+ },
+ "LG|gAS": {
+  "title": "Gaz beslemesi sorunu",
+  "causes": [
+   "Gaz vanası kapalı.",
+   "Gaz hattı bükülmüş."
+  ],
+  "steps": [
+   "Gaz vanasının açık olduğunu kontrol edin.",
+   "Gaz hattının bükülmediğini kontrol edin."
+  ],
+  "technician": "Gaz beslemesi sorunsuzsa ve kod tekrar çıkıyorsa LG servisini arayın. Gaz parçalarını kendiniz onarmayın."
+ },
+ "LG|CL": {
+  "title": "Çocuk Kilidi açık",
+  "causes": [
+   "Çocuk Kilidi açılmış ve elektrik kapatıldıktan sonra da açık kalıyor."
+  ],
+  "steps": [
+   "Kurutma makinesini açın.",
+   "CL kaybolana kadar Çocuk Kilidi tuşunu 3–5 saniye basılı tutun."
+  ],
+  "technician": "Bu bir arıza değildir. Yalnızca Çocuk Kilidi kapanmıyorsa LG'ye başvurun."
+ },
+ "LG|Add": {
+  "title": "Buhar için su ekleyin",
+  "causes": [
+   "Buharlı program sırasında buhar haznesi boş."
+  ],
+  "steps": [
+   "Programı duraklatın.",
+   "Buhar haznesini MAX çizgisine kadar musluk suyuyla doldurun.",
+   "Kurutma makinesini kapatıp açın, buharlı programı seçin ve Start tuşuna basın."
+  ],
+  "technician": "Doldurduktan sonra mesaj devam ederse LG servisine başvurun."
+ },
+ "LG|E13": {
+  "title": "Tahliye sorunu (yoğuşma suyu)",
+  "causes": [
+   "Tahliye hortumu bükülmüş, dolanmış veya tıkalı.",
+   "Uzatma hortumu tahliyeyi azaltıyor."
+  ],
+  "steps": [
+   "Tahliye hortumunda bükülme ve tıkanıklık olup olmadığını kontrol edin.",
+   "Uzatma kullanmadan yalnızca orijinal LG tahliye hortumunu kullanın.",
+   "Yeniden başlatmak için Start/Pause tuşuna basın."
+  ],
+  "technician": "E13 tekrar çıkarsa kurutma makinesinin LG servisi tarafından onarılması gerekir."
+ },
+ "Bosch|E01": {
+  "title": "Hav filtresi tıkalı",
+  "causes": [
+   "Filtrede hav birikmiş.",
+   "Yumuşatıcı kalıntısı filtre ağını tıkıyor."
+  ],
+  "steps": [
+   "Hav filtresini çıkarın ve boşaltın.",
+   "Kalıntıları gidermek için filtreyi ılık suyun altında durulayın.",
+   "Kurulayın ve yerine takın.",
+   "Filtreyi her programdan sonra temizleyin."
+  ],
+  "technician": "Filtre temiz olduğu hâlde kod devam ederse Bosch servisinden randevu alın."
+ },
+ "Bosch|E02": {
+  "title": "Hav filtresi tıkalı veya kontrol rölesi arızası",
+  "causes": [
+   "Hav filtresi tıkalı.",
+   "Bazı modellerde ana kart rölesi arızası."
+  ],
+  "steps": [
+   "Hav filtresini temizleyin ve ılık suyla durulayın.",
+   "Elektriği fişten veya sigortadan 30 saniye kesin, ardından yeniden başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra kod tekrar çıkarsa Bosch müşteri hizmetlerine başvurun."
+ },
+ "Bosch|E03": {
+  "title": "Yoğuşma suyu tahliye hortumu tıkalı",
+  "causes": [
+   "Yoğuşma suyu tahliye hortumu bükülmüş veya tıkalı."
+  ],
+  "steps": [
+   "Tahliye hortumunda bükülme olmadığını kontrol edin.",
+   "Hortumu sifondan dikkatlice çıkarın ve hortumu ve bağlantısını temizleyin.",
+   "Hortumu sağlam şekilde yerine takın."
+  ],
+  "technician": "Hortum açık olduğu hâlde kod tekrar çıkarsa Bosch teknisyeninden randevu alın."
+ },
+ "Bosch|E04": {
+  "title": "Kurutma makinesi aşırı yüklenmiş",
+  "causes": [
+   "Tamburda çok fazla çamaşır var."
+  ],
+  "steps": [
+   "Bir kısım çamaşırı çıkarın.",
+   "Giysilerin üstünde yaklaşık bir el genişliğinde boşluk bırakın.",
+   "Programı yeniden başlatın."
+  ],
+  "technician": "Kod normal bir yükte de görünüyorsa Bosch servisine başvurun."
+ },
+ "Bosch|E06": {
+  "title": "Isıtma devresi arızası",
+  "causes": [
+   "Isıtma devresinde bir arıza var."
+  ],
+  "steps": [
+   "Kurutma makinesini kapatın ve fişini çekin.",
+   "Kendiniz onarmaya çalışmayın."
+  ],
+  "technician": "Bu iş için uzman bir teknisyen gerekir. Bosch müşteri hizmetlerine başvurun."
+ },
+ "Bosch|E08": {
+  "title": "Elektronik arıza",
+  "causes": [
+   "Dahili bir elektronik arıza var."
+  ],
+  "steps": [
+   "Kurutma makinesini kapatın.",
+   "Fişini çekin veya sigortayı birkaç dakika kapatın, ardından yeniden bağlayın.",
+   "Kod tekrar çıkarsa kurutma makinesini kullanmayı bırakın."
+  ],
+  "technician": "Bunu yalnızca yetkili bir teknisyen giderebilir. Bosch müşteri hizmetlerine başvurun."
+ },
+ "Bosch|E09": {
+  "title": "Elektronik arıza",
+  "causes": [
+   "Dahili bir elektronik arıza var."
+  ],
+  "steps": [
+   "Kurutma makinesini kapatın.",
+   "Fişini çekin veya sigortayı birkaç dakika kapatın, ardından yeniden bağlayın.",
+   "Kod tekrar çıkarsa kurutma makinesini kullanmayı bırakın."
+  ],
+  "technician": "Bunu yalnızca yetkili bir teknisyen giderebilir. Bosch müşteri hizmetlerine başvurun."
+ },
+ "Bosch|E24": {
+  "title": "Elektronik arıza",
+  "causes": [
+   "Dahili bir elektronik arıza var."
+  ],
+  "steps": [
+   "Kurutma makinesini kapatın.",
+   "Fişini çekin veya sigortayı birkaç dakika kapatın, ardından yeniden bağlayın.",
+   "Kod tekrar çıkarsa kurutma makinesini kullanmayı bırakın."
+  ],
+  "technician": "Bunu yalnızca yetkili bir teknisyen giderebilir. Bosch müşteri hizmetlerine başvurun."
+ },
+ "Bosch|E25": {
+  "title": "Elektronik arıza",
+  "causes": [
+   "Dahili bir elektronik arıza var."
+  ],
+  "steps": [
+   "Kurutma makinesini kapatın.",
+   "Fişini çekin veya sigortayı birkaç dakika kapatın, ardından yeniden bağlayın.",
+   "Kod tekrar çıkarsa kurutma makinesini kullanmayı bırakın."
+  ],
+  "technician": "Bunu yalnızca yetkili bir teknisyen giderebilir. Bosch müşteri hizmetlerine başvurun."
+ },
+ "Bosch|E28": {
+  "title": "Elektronik arıza",
+  "causes": [
+   "Dahili bir elektronik arıza var."
+  ],
+  "steps": [
+   "Kurutma makinesini kapatın.",
+   "Fişini çekin veya sigortayı birkaç dakika kapatın, ardından yeniden bağlayın.",
+   "Kod tekrar çıkarsa kurutma makinesini kullanmayı bırakın."
+  ],
+  "technician": "Bunu yalnızca yetkili bir teknisyen giderebilir. Bosch müşteri hizmetlerine başvurun."
+ },
+ "Bosch|E36": {
+  "title": "Elektronik arıza",
+  "causes": [
+   "Dahili bir elektronik arıza var."
+  ],
+  "steps": [
+   "Kurutma makinesini kapatın.",
+   "Fişini çekin veya sigortayı birkaç dakika kapatın, ardından yeniden bağlayın.",
+   "Kod tekrar çıkarsa kurutma makinesini kullanmayı bırakın."
+  ],
+  "technician": "Bunu yalnızca yetkili bir teknisyen giderebilir. Bosch müşteri hizmetlerine başvurun."
+ },
+ "Bosch|E90": {
+  "title": "Elektronik arıza",
+  "causes": [
+   "Dahili bir elektronik arıza var."
+  ],
+  "steps": [
+   "Kurutma makinesini kapatın.",
+   "Fişini çekin veya sigortayı birkaç dakika kapatın, ardından yeniden bağlayın.",
+   "Kod tekrar çıkarsa kurutma makinesini kullanmayı bırakın."
+  ],
+  "technician": "Bunu yalnızca yetkili bir teknisyen giderebilir. Bosch müşteri hizmetlerine başvurun."
+ },
+ "Bosch|E12": {
+  "title": "Aşırı ısınma veya ısı pompasında kireç",
+  "causes": [
+   "Hava akışı kısıtlı ve kurutma makinesi aşırı ısınıyor.",
+   "Bazı modellerde ısı pompasında kireç birikmesi."
+  ],
+  "steps": [
+   "Hav filtresini temizleyin.",
+   "Dış havalandırmanın tıkalı, bükülmüş veya ezilmiş olmadığını kontrol edin.",
+   "Programı yeniden başlatın."
+  ],
+  "technician": "Kod tekrar çıkmaya devam ederse Bosch servisinden randevu alın."
+ },
+ "Bosch|E16": {
+  "title": "Kurutma sırasında kapı açıldı",
+  "causes": [
+   "Program çalışırken kapı açıldı."
+  ],
+  "steps": [
+   "Kapıyı sıkıca kapatın.",
+   "Programa devam etmek için Start tuşuna basın.",
+   "Kapının açılmasını önlemek için gerekirse çocuk kilidini kullanın."
+  ],
+  "technician": "E16 kapı kapalıyken görünüyorsa kapı anahtarı arızalı olabilir. Bosch teknisyeninden randevu alın."
+ },
+ "Bosch|E56": {
+  "title": "Nem sensörü sorunu",
+  "causes": [
+   "Tamburdaki nem sensörü şeritlerinde kalıntı veya hav var."
+  ],
+  "steps": [
+   "Kurutma makinesinin fişini çekin.",
+   "Hav filtresinin yakınındaki nem sensörünü yumuşak bir bez ve hafif bir temizleyiciyle silin.",
+   "Kalıntıları temizleyin, ardından yeniden başlatın."
+  ],
+  "technician": "Temizlikten sonra kod devam ederse Bosch müşteri hizmetlerine başvurun."
+ },
+ "Bosch|DR": {
+  "title": "Kapı düzgün kapanmamış",
+  "causes": [
+   "Kapı tam olarak kapanmamış.",
+   "Kapıyı bir şey engelliyor."
+  ],
+  "steps": [
+   "Kapıya sıkışan her şeyi çıkarın.",
+   "Kapıyı mandalı oturana kadar sıkıca kapatın.",
+   "Programı yeniden başlatın."
+  ],
+  "technician": "Kod devam ederse mandalın veya kapı anahtarının Bosch servisi tarafından kontrol edilmesi gerekir."
+ },
+ "Bosch|CrE": {
+  "title": "Bakım hatırlatıcısı",
+  "causes": [
+   "Kurutma makinesi bakım programını çalıştırmanızı hatırlatıyor. Bu bir arıza değildir."
+  ],
+  "steps": [
+   "Kılavuzunuzda anlatılan temel bakım programını çalıştırın."
+  ],
+  "technician": "Bakım programından sonra hatırlatıcı kaybolmadıkça gerekmez."
+ },
+ "Miele|F1": {
+  "title": "Soğutucu akışkan sıcaklık sensöründe kısa devre",
+  "causes": [
+   "Soğutucu akışkan sıcaklık sensöründe kısa devre oluşmuş."
+  ],
+  "steps": [
+   "Arıza kodunu not edin.",
+   "Kurutma makinesini kapatın ve kullanmaya devam etmeyin.",
+   "Miele'den onarım randevusu alın."
+  ],
+  "technician": "Bu, kendiniz gideremeyeceğiniz teknik bir arızadır. Miele teknisyeninden randevu alın."
+ },
+ "Miele|F2": {
+  "title": "Soğutucu akışkan sıcaklık sensöründe açık devre",
+  "causes": [
+   "Soğutucu akışkan sıcaklık sensörüne giden devre kopmuş."
+  ],
+  "steps": [
+   "Arıza kodunu not edin.",
+   "Kurutma makinesini kapatın ve kullanmaya devam etmeyin.",
+   "Miele'den onarım randevusu alın."
+  ],
+  "technician": "Bu, kendiniz gideremeyeceğiniz teknik bir arızadır. Miele teknisyeninden randevu alın."
+ },
+ "Miele|F3": {
+  "title": "Kurutma havası sıcaklık sensöründe kısa devre",
+  "causes": [
+   "Kurutma havası sıcaklık sensöründe kısa devre oluşmuş."
+  ],
+  "steps": [
+   "Arıza kodunu not edin.",
+   "Kurutma makinesini kapatın ve kullanmaya devam etmeyin.",
+   "Miele'den onarım randevusu alın."
+  ],
+  "technician": "Bu, kendiniz gideremeyeceğiniz teknik bir arızadır. Miele teknisyeninden randevu alın."
+ },
+ "Miele|F4": {
+  "title": "Kurutma havası sıcaklık sensöründe açık devre",
+  "causes": [
+   "Kurutma havası sıcaklık sensörüne giden devre kopmuş."
+  ],
+  "steps": [
+   "Arıza kodunu not edin.",
+   "Kurutma makinesini kapatın ve kullanmaya devam etmeyin.",
+   "Miele'den onarım randevusu alın."
+  ],
+  "technician": "Bu, kendiniz gideremeyeceğiniz teknik bir arızadır. Miele teknisyeninden randevu alın."
+ },
+ "Miele|F30": {
+  "title": "Kapı sinyali uyuşmazlığı",
+  "causes": [
+   "Kapı ile kapı kontağı farklı durumlar bildiriyor."
+  ],
+  "steps": [
+   "Arıza kodunu not edin.",
+   "Kurutma makinesini kapatın ve kullanmaya devam etmeyin.",
+   "Miele'den onarım randevusu alın."
+  ],
+  "technician": "Bu, kendiniz gideremeyeceğiniz teknik bir arızadır. Miele teknisyeninden randevu alın."
+ },
+ "Miele|F39": {
+  "title": "Elektronik modül arızası",
+  "causes": [
+   "Elektronik modülde bir arıza var."
+  ],
+  "steps": [
+   "Arıza kodunu not edin.",
+   "Kurutma makinesini kapatın ve kullanmaya devam etmeyin.",
+   "Miele'den onarım randevusu alın."
+  ],
+  "technician": "Bu, kendiniz gideremeyeceğiniz teknik bir arızadır. Miele teknisyeninden randevu alın."
+ },
+ "Miele|F43": {
+  "title": "Model tipi programlanmamış",
+  "causes": [
+   "Elektronikte model tipi eksik veya yanlış varyant ayarlanmış."
+  ],
+  "steps": [
+   "Arıza kodunu not edin.",
+   "Kurutma makinesini kapatın ve kullanmaya devam etmeyin.",
+   "Miele'den onarım randevusu alın."
+  ],
+  "technician": "Bu, kendiniz gideremeyeceğiniz teknik bir arızadır. Miele teknisyeninden randevu alın."
+ },
+ "Miele|F45": {
+  "title": "Elektronik modül arızası",
+  "causes": [
+   "Elektronik modülde bir arıza var."
+  ],
+  "steps": [
+   "Arıza kodunu not edin.",
+   "Kurutma makinesini kapatın ve kullanmaya devam etmeyin.",
+   "Miele'den onarım randevusu alın."
+  ],
+  "technician": "Bu, kendiniz gideremeyeceğiniz teknik bir arızadır. Miele teknisyeninden randevu alın."
+ },
+ "Miele|F53": {
+  "title": "Tahrik motoru veya elektronik arızası",
+  "causes": [
+   "Tahrik motoru arızalı.",
+   "Elektronik modülde bir arıza var."
+  ],
+  "steps": [
+   "Arıza kodunu not edin.",
+   "Kurutma makinesini kapatın ve kullanmaya devam etmeyin.",
+   "Miele'den onarım randevusu alın."
+  ],
+  "technician": "Bu, kendiniz gideremeyeceğiniz teknik bir arızadır. Miele teknisyeninden randevu alın."
+ },
+ "Miele|F99": {
+  "title": "Teknik arıza, kurutma makinesi devre dışı",
+  "causes": [
+   "Teknik bir arıza kurutma makinesini devre dışı bıraktı."
+  ],
+  "steps": [
+   "Arıza kodunu not edin.",
+   "Kurutma makinesini kapatın ve kullanmaya devam etmeyin.",
+   "Miele'den onarım randevusu alın."
+  ],
+  "technician": "Bu, kendiniz gideremeyeceğiniz teknik bir arızadır. Miele teknisyeninden randevu alın."
+ },
+ "Miele|F156": {
+  "title": "Kondenser sonrası soğutucu akışkan sensöründe kısa devre",
+  "causes": [
+   "Kondenserden sonraki soğutucu akışkan sıcaklık sensöründe kısa devre oluşmuş."
+  ],
+  "steps": [
+   "Arıza kodunu not edin.",
+   "Kurutma makinesini kapatın ve kullanmaya devam etmeyin.",
+   "Miele'den onarım randevusu alın."
+  ],
+  "technician": "Bu, kendiniz gideremeyeceğiniz teknik bir arızadır. Miele teknisyeninden randevu alın."
+ },
+ "Miele|F206": {
+  "title": "Kompresör sonrası soğutucu akışkan sensöründe kısa devre",
+  "causes": [
+   "Kompresörden sonraki soğutucu akışkan sıcaklık sensöründe kısa devre oluşmuş."
+  ],
+  "steps": [
+   "Arıza kodunu not edin.",
+   "Kurutma makinesini kapatın ve kullanmaya devam etmeyin.",
+   "Miele'den onarım randevusu alın."
+  ],
+  "technician": "Bu, kendiniz gideremeyeceğiniz teknik bir arızadır. Miele teknisyeninden randevu alın."
+ },
+ "Miele|F50": {
+  "title": "Aşırı yük veya yazılım arızası",
+  "causes": [
+   "Tambur aşırı yüklenmiş.",
+   "Çoğunlukla çamaşır eklemek için kapı açıldıktan kısa süre sonra oluşan bir yazılım aksaklığı.",
+   "Teknik bir arıza."
+  ],
+  "steps": [
+   "Yükün program sınırına uyması için bir kısım çamaşırı çıkarın.",
+   "Kurutma makinesini kapatın ve hemen yeniden açın.",
+   "Programı yeniden başlatın."
+  ],
+  "technician": "F50 tekrar çıkmaya devam ederse Miele Müşteri Hizmetlerine başvurun."
+ },
+ "Miele|F55": {
+  "title": "Azami süreden sonra çamaşır kurumadı",
+  "causes": [
+   "Tambur aşırı yüklenmiş.",
+   "Çamaşır makinesinde çamaşırlar yeterince yüksek devirde sıkılmamış.",
+   "Hav filtreleri kirli."
+  ],
+  "steps": [
+   "Yükü programın azami miktarına indirin.",
+   "Kurutmadan önce çamaşırları uygun olan en yüksek devirde sıkın.",
+   "Tüm hav filtrelerini temizleyin ve yerine takmadan önce tamamen kurutun.",
+   "Programı yeniden çalıştırın."
+  ],
+  "technician": "Filtreler temiz ve yük normal olduğu hâlde arıza devam ederse Miele Müşteri Hizmetlerine başvurun."
+ },
+ "Miele|F66": {
+  "title": "Hava akışı engellenmiş (filtreler veya havalandırma)",
+  "causes": [
+   "Hav filtreleri veya taban filtresi kirli.",
+   "Taban filtresi kabuklanmış, hasarlı veya şekli bozulmuş.",
+   "Tambur aşırı yüklenmiş.",
+   "Havalandırma ızgarası tıkalı veya oda yeterince havalandırılmıyor."
+  ],
+  "steps": [
+   "Hav filtrelerini ve taban filtresini temizleyin, ardından taban filtresini sıkarak suyunu alın.",
+   "Isı eşanjöründeki havları kanatçıklara bastırmadan, nazikçe süpürgeyle çekin.",
+   "Kapının altındaki havalandırma ızgarasını açın.",
+   "Yükü azaltın ve kurutma sırasında odayı havalandırın.",
+   "Hasarlı taban filtresini değiştirin."
+  ],
+  "technician": "İyice temizlendikten sonra F66 devam ederse Miele Müşteri Hizmetlerine başvurun."
+ },
+ "Miele|noC": {
+  "title": "Wi-Fi bağlantısı yok",
+  "causes": [
+   "Miele@home kurulmamış.",
+   "Kurutma makinesi Wi-Fi ağınıza ulaşamıyor."
+  ],
+  "steps": [
+   "Henüz yapmadıysanız Miele@home kurulumunu yapın.",
+   "Wi-Fi'nin açık olduğunu kontrol edin ve modemi yeniden başlatın.",
+   "Sinyal zayıfsa bir sinyal güçlendirici ile iyileştirin.",
+   "Kurutma makinesinin Wi-Fi ayarlarını sıfırlayın ve yeniden bağlayın."
+  ],
+  "technician": "Bu bir bağlantı mesajıdır, kurutma makinesi arızası değildir. Bu adımlardan sonra bağlanamıyorsa Miele'ye başvurun."
+ },
+ "AEG|E50": {
+  "title": "Motor aşırı yüklenmiş",
+  "causes": [
+   "Tambur aşırı yüklenmiş.",
+   "Tamburda çamaşır sıkışmış.",
+   "Motor veya tahrik arızası."
+  ],
+  "steps": [
+   "Kapıyı açın ve sıkışmış parça olup olmadığını kontrol edin.",
+   "Yük çok fazlaysa bir kısım çamaşırı çıkarın.",
+   "Kapıyı kapatın ve yeniden başlatın.",
+   "Devam ederse elektriği yaklaşık 1 dakika kesin, ardından yeniden başlatın."
+  ],
+  "technician": "E50 sürekli tekrar çıkıyorsa veya tambur dönmüyorsa AEG'den onarım randevusu alın."
+ },
+ "AEG|E40": {
+  "title": "Kapı kapalı değil",
+  "causes": [
+   "Kapıya çamaşır sıkışmış.",
+   "Kapı contası veya kilidi kirli ya da aşınmış.",
+   "Tambur aşırı yüklü ve kapıya baskı yapıyor."
+  ],
+  "steps": [
+   "Kapıya sıkışan giysileri çıkarın ve kapıyı klik sesi gelene kadar kapatın.",
+   "Kapı contasını nemli bir bezle silin.",
+   "Kapı kilidindeki havları fırçayla temizleyin.",
+   "Yükü azaltın.",
+   "Elektriği 30 saniye kesin, ardından yeniden başlatın."
+  ],
+  "technician": "Hata devam ederse kilit veya kapı sensörü arızalı olabilir. AEG servisinden randevu alın."
+ },
+ "AEG|E20": {
+  "title": "Tahliye veya pompa sorunu",
+  "causes": [
+   "Tahliye hortumu doğru bağlanmamış.",
+   "Tahliye hortumu dolanmış, tıkalı veya halka yapmış."
+  ],
+  "steps": [
+   "Gider bağlantısı kullanıyorsanız hortumun doğru bağlandığını kontrol edin.",
+   "Hortumdaki dolanma, halka ve tıkanıklıkları giderin.",
+   "Elektriği 30 saniye kesin, ardından yeniden başlatın."
+  ],
+  "technician": "Hata devam ederse yetkili bir AEG teknisyeninden randevu alın."
+ },
+ "AEG|E60": {
+  "title": "Isıtma sorunu",
+  "causes": [
+   "Kurutma makinesi havalandırması olmayan bir dolabın içine yerleştirilmiş.",
+   "Oda çok küçük veya havalandırılmıyor.",
+   "Hav filtresi, kondenser veya conta kirli.",
+   "Isıtıcı arızalı."
+  ],
+  "steps": [
+   "Kurutma makinesinin çevresinde yeterli boşluk ve hava olduğundan emin olun.",
+   "Küçük bir odada kurutma yaparken pencereyi veya kapıyı açın.",
+   "Hav filtresini, kondenseri ve kapı contasını temizleyin.",
+   "Süreli bir program çalıştırın ve 30 dakika sonra ısınıp ısınmadığını kontrol edin."
+  ],
+  "technician": "Hâlâ soğuksa AEG'den onarım randevusu alın."
+ },
+ "AEG|E70": {
+  "title": "Sıcaklık sensörü arızası",
+  "causes": [
+   "Sıcaklık sensörü arızalı."
+  ],
+  "steps": [
+   "Sıfırlamak için kurutma makinesinin fişini 2 saat çekin.",
+   "Fişi yeniden takın ve tekrar deneyin.",
+   "Kod tekrar çıkarsa kurutma makinesini kullanmayı bırakın ve fişini çekili tutun."
+  ],
+  "technician": "AEG'ye başvurun ve servis ziyareti için kodu bildirin."
+ },
+ "AEG|E80": {
+  "title": "Program seçici veya yazılım arızası",
+  "causes": [
+   "Program düğmesi iki konumun arasında kalmış.",
+   "Bir yazılım arızası."
+  ],
+  "steps": [
+   "Düğmeyi tam olarak bir programın üzerine gelecek şekilde çevirin.",
+   "Kurutma makinesinin fişini 30 saniye çekin, ardından yeniden takıp yeniden başlatın."
+  ],
+  "technician": "E80 devam ederse AEG servis teknisyeninden randevu alın."
+ },
+ "AEG|EH0": {
+  "title": "Elektrik beslemesi sorunu",
+  "causes": [
+   "Voltaj çok düşük veya çok yüksek.",
+   "Elektrik beslemesi dengesiz."
+  ],
+  "steps": [
+   "Prizi başka bir cihazla deneyin.",
+   "Uzatma kablosu kullanmayın.",
+   "Kurutma makinesinin fişini 30 saniye çekin, ardından yeniden başlatın."
+  ],
+  "technician": "Başka bir cihaz da çalışmıyorsa bir elektrikçi çağırın. Kodu yalnızca kurutma makinesi veriyorsa AEG teknisyeninden randevu alın."
+ },
+ "AEG|EBD": {
+  "title": "Elektriksel parazit algılandı",
+  "causes": [
+   "Elektrik beslemesinde parazit var.",
+   "Topraklama yetersiz."
+  ],
+  "steps": [
+   "Kurutma makinesini çalışan başka bir prizde deneyin.",
+   "Prizin düzgün topraklandığından emin olun."
+  ],
+  "technician": "Kod devam ederse yetkili bir AEG servisine başvurun. Elektrik onarımlarını kendiniz yapmaya çalışmayın."
+ },
+ "AEG|CE": {
+  "title": "Elektronik arıza",
+  "causes": [
+   "Kurutma makinesinin elektroniğinde bir arıza var."
+  ],
+  "steps": [
+   "Kurutma makinesini kullanmayı bırakın.",
+   "Fişini çekin ve çekili bırakın."
+  ],
+  "technician": "Elektroniğin incelenmesi için yetkili bir AEG teknisyeninden randevu alın."
+ },
+ "AEG|C8": {
+  "title": "Sıcaklık sensörü arızası",
+  "causes": [
+   "Sıcaklık sensöründe bir sorun var."
+  ],
+  "steps": [
+   "Kurutma makinesini kullanmayı bırakın.",
+   "Kontrol edilene kadar fişini çekili tutun."
+  ],
+  "technician": "Sensörün değiştirilmesi veya kontrol edilmesi için AEG servisinden randevu alın."
+ },
+ "AEG|C6": {
+  "title": "Nem sensörü sorunu",
+  "causes": [
+   "Kurutma makinesi topraklı bir prize takılı değil.",
+   "Nem ölçüm sistemi arızalı."
+  ],
+  "steps": [
+   "Kurutma makinesinin topraklı bir prize takılı olduğunu kontrol edin.",
+   "Program hâlâ çok uzun sürüyorsa kurutma makinesini kullanmayı bırakın ve fişini çekin."
+  ],
+  "technician": "Priz topraklı olduğu hâlde hata devam ederse AEG'den onarım randevusu alın."
+ },
+ "AEG|Err": {
+  "title": "Buhar haznesi hatası (Iron Aid modelleri)",
+  "causes": [
+   "Buhar su haznesi azalmış veya boş."
+  ],
+  "steps": [
+   "Buhar haznesini MAX seviyesine kadar doldurun.",
+   "Programı yeniden başlatın."
+  ],
+  "technician": "Doldurduktan sonra simgeler yanıp sönmeye devam ederse kurutma makinesini kullanmayı bırakın ve bir AEG servisine başvurun."
+ },
+ "Hotpoint|F01": {
+  "title": "Elektronik kart arızası",
+  "causes": [
+   "Elektronik kontrol kartında bir arıza var."
+  ],
+  "steps": [
+   "Kurutma makinesinin fişini en az 2 dakika çekin.",
+   "Fişi yeniden takın, 30 saniye bekleyin ve tekrar deneyin."
+  ],
+  "technician": "Sıfırlamadan sonra F01 tekrar çıkarsa teknisyen randevusu için Hotpoint servisini arayın."
+ },
+ "Hotpoint|F02": {
+  "title": "Motor devresi arızası",
+  "causes": [
+   "Motor devresinde bir arıza var. Tambur yalnızca ara sıra dönüyor ya da hiç dönmüyor."
+  ],
+  "steps": [
+   "Kurutma makinesini kapatın ve fişini çekin.",
+   "Kullanmaya devam etmeyin."
+  ],
+  "technician": "Teknisyen randevusu için Hotpoint servisini arayın."
+ },
+ "Hotpoint|F03": {
+  "title": "Sıcaklık algılama arızası",
+  "causes": [
+   "Sıcaklık sensörü arızalı, bu yüzden kurutma makinesi ısıtmıyor."
+  ],
+  "steps": [
+   "Kurutma makinesini kapatın ve fişini çekin."
+  ],
+  "technician": "Teknisyen randevusu için Hotpoint servisini arayın."
+ },
+ "Hotpoint|F05": {
+  "title": "Tahliye tıkalı veya pompa sorunu",
+  "causes": [
+   "Pompa filtresinde (varsa) veya tahliye hortumunda tıkanıklık var.",
+   "Atık su borusu tıkalı.",
+   "Pompa arızalanmış."
+  ],
+  "steps": [
+   "Modelinizde pompa filtresi varsa kontrol edip temizleyin.",
+   "Tahliye hortumunu ve bağlı olduğu tesisatı tıkanıklık açısından kontrol edin."
+  ],
+  "technician": "Her şey açık olduğu hâlde arıza devam ediyorsa pompa arızalanmış olabilir. Hotpoint servisini arayın."
+ },
+ "Hotpoint|F06": {
+  "title": "Kapı kilidi arızası",
+  "causes": [
+   "Kapı kilidini bir şey engelliyor.",
+   "Kapı kilidi arızalı."
+  ],
+  "steps": [
+   "Kapı kilidi bölgesinde hav veya nesne olup olmadığını kontrol edin ve temizleyin.",
+   "Kapıyı sıkıca kapatın ve yeniden deneyin."
+  ],
+  "technician": "Arıza devam ederse Hotpoint servisini arayın."
+ },
+ "Hotpoint|F09": {
+  "title": "Yazılım arızası",
+  "causes": [
+   "Bir yazılım sorunu var. Birkaç ışık yanıp sönebilir ve hiçbir program seçilemez."
+  ],
+  "steps": [
+   "Kurutma makinesinin fişini birkaç dakika çekin ve tekrar deneyin."
+  ],
+  "technician": "Teknisyen randevusu için Hotpoint servisini arayın."
+ },
+ "Hotpoint|F11": {
+  "title": "Pompa devresi arızası",
+  "causes": [
+   "Pompa devresi arızalanmış, bu yüzden su dışarı pompalanmıyor."
+  ],
+  "steps": [
+   "Modelinizde su haznesi varsa boşaltın.",
+   "Kurutma makinesini kapatın ve fişini çekin."
+  ],
+  "technician": "Teknisyen randevusu için Hotpoint servisini arayın."
+ },
+ "Hotpoint|F12": {
+  "title": "Elektronik kontrol arızası",
+  "causes": [
+   "Elektronik kontrol arızalı. Kurutma makinesi açılmayabilir."
+  ],
+  "steps": [
+   "Fişi ve prizi kontrol edin.",
+   "Kurutma makinesinin fişini birkaç dakika çekin ve tekrar deneyin."
+  ],
+  "technician": "Teknisyen randevusu için Hotpoint servisini arayın."
+ },
+ "Hotpoint|F18": {
+  "title": "Dahili veri hatası",
+  "causes": [
+   "Dahili veriler bozulmuş. Ekranın bazı bölümleri veya bazı işlevler çalışmıyor."
+  ],
+  "steps": [
+   "Kurutma makinesinin fişini en az 2 dakika çekin.",
+   "Fişi yeniden takın, 30 saniye bekleyin ve tekrar deneyin."
+  ],
+  "technician": "Sıfırlamadan sonra F18 devam ederse Hotpoint servisini arayın."
+ },
+ "Indesit|F02": {
+  "title": "Motor devresi arızası",
+  "causes": [
+   "Motor devresinde bir arıza var. Tambur yalnızca ara sıra dönüyor ya da hiç dönmüyor."
+  ],
+  "steps": [
+   "Kurutma makinesini kapatın ve fişini çekin."
+  ],
+  "technician": "Teknisyen randevusu için Indesit servisini arayın."
+ },
+ "Indesit|F03": {
+  "title": "Sıcaklık algılama arızası",
+  "causes": [
+   "Sıcaklık sensörü arızalı, bu yüzden kurutma makinesi ısıtmıyor."
+  ],
+  "steps": [
+   "Kurutma makinesini kapatın ve fişini çekin."
+  ],
+  "technician": "Teknisyen randevusu için Indesit servisini arayın."
+ },
+ "Indesit|F05": {
+  "title": "Tahliye tıkalı veya pompa sorunu",
+  "causes": [
+   "Pompa filtresinde (varsa) veya tahliye hortumunda tıkanıklık var.",
+   "Pompa arızalanmış."
+  ],
+  "steps": [
+   "Modelinizde pompa filtresi varsa kontrol edip temizleyin.",
+   "Tahliye hortumunu ve tesisatı tıkanıklık açısından kontrol edin."
+  ],
+  "technician": "Her şey açık olduğu hâlde arıza devam ediyorsa Indesit servisini arayın."
+ },
+ "Indesit|F06": {
+  "title": "Kapı kilidi arızası",
+  "causes": [
+   "Kapı kilidini bir şey engelliyor.",
+   "Kapı kilidi arızalı."
+  ],
+  "steps": [
+   "Kapı kilidini engelleyen bir şey olup olmadığını kontrol edin.",
+   "Kapıyı sıkıca kapatın ve yeniden deneyin."
+  ],
+  "technician": "Arıza devam ederse Indesit servisini arayın."
+ },
+ "Indesit|F09": {
+  "title": "Yazılım arızası",
+  "causes": [
+   "Bir yazılım sorunu var. Birkaç ışık yanıp sönebilir ve hiçbir program seçilemez."
+  ],
+  "steps": [
+   "Kurutma makinesinin fişini birkaç dakika çekin ve tekrar deneyin."
+  ],
+  "technician": "Teknisyen randevusu için Indesit servisini arayın."
+ },
+ "Indesit|F11": {
+  "title": "Pompa devresi arızası",
+  "causes": [
+   "Pompa devresi arızalanmış, bu yüzden su dışarı pompalanmıyor."
+  ],
+  "steps": [
+   "Modelinizde su haznesi varsa boşaltın.",
+   "Kurutma makinesini kapatın ve fişini çekin."
+  ],
+  "technician": "Teknisyen randevusu için Indesit servisini arayın."
+ },
+ "Indesit|F12": {
+  "title": "Elektronik kontrol arızası",
+  "causes": [
+   "Elektronik kontrol arızalı. Kurutma makinesi açılmayabilir."
+  ],
+  "steps": [
+   "Fişi ve prizi kontrol edin.",
+   "Kurutma makinesinin fişini birkaç dakika çekin ve tekrar deneyin."
+  ],
+  "technician": "Teknisyen randevusu için Indesit servisini arayın."
+ },
+ "Indesit|F18": {
+  "title": "Dahili veri hatası",
+  "causes": [
+   "Dahili veriler bozulmuş. Ekranın bazı bölümleri veya bazı işlevler çalışmıyor."
+  ],
+  "steps": [
+   "Kurutma makinesinin fişini en az 2 dakika çekin.",
+   "Fişi yeniden takın, 30 saniye bekleyin ve tekrar deneyin."
+  ],
+  "technician": "Sıfırlamadan sonra F18 devam ederse Indesit servisini arayın."
+ },
+ "Whirlpool|AF": {
+  "title": "Hava akışı kısıtlı",
+  "causes": [
+   "Hav süzgeci tıkanmış.",
+   "Havalandırma tıkalı, ezilmiş, bükülmüş veya çok fazla dirseği var."
+  ],
+  "steps": [
+   "Hav süzgecini temizleyin.",
+   "Havalandırmada tıkanıklık, ezilme veya bükülme olup olmadığını kontrol edin.",
+   "Kodu silmek için herhangi bir tuşa dokunun."
+  ],
+  "technician": "Havalandırma temiz olduğu hâlde kod tekrar çıkmaya devam ederse Whirlpool servisinden randevu alın."
+ },
+ "Whirlpool|L2": {
+  "title": "Şebeke voltajı düşük veya yok",
+  "causes": [
+   "Evdeki bir sigorta yanmış veya bir şalter atmış.",
+   "Elektrik kablosu doğru takılmamış."
+  ],
+  "steps": [
+   "Sigortalarınızı ve şalterlerinizi kontrol edin (elektrikli kurutma makineleri iki tane kullanır) ve sıfırlayın.",
+   "Elektrik kablosunun kurulum kılavuzunda anlatıldığı gibi takıldığını kontrol edin.",
+   "Isıtmalı süreli bir program çalıştırın ve yeniden başlatın."
+  ],
+  "technician": "L2 devam ederse elektrik beslemesini yetkin bir elektrikçiye kontrol ettirin."
+ },
+ "Whirlpool|PF": {
+  "title": "Elektrik kesintisi",
+  "causes": [
+   "Program sırasında elektrik kesildi."
+  ],
+  "steps": [
+   "Programa devam etmek için Start tuşunu basılı tutun.",
+   "Veya ekranı temizlemek için Power tuşuna basın."
+  ],
+  "technician": "Bu bir arıza değildir. Yalnızca gerçek bir elektrik kesintisi olmadan PF görünüyorsa Whirlpool'a başvurun."
+ },
+ "Whirlpool|F1E3": {
+  "title": "Kontrol ünitesi veya kablo sorunu",
+  "causes": [
+   "Kontrol ünitesinde veya kablolarında bir arıza var."
+  ],
+  "steps": [
+   "Power tuşuna basın, bir program seçin ve Start tuşunu basılı tutun.",
+   "Çalışmıyorsa kurutma makinesinin fişini çekin."
+  ],
+  "technician": "Sorun devam ederse Whirlpool servisinden randevu alın."
+ },
+ "Whirlpool|Loc": {
+  "title": "Kontrol kilidi açık",
+  "causes": [
+   "Kontrol kilidi açılmış."
+  ],
+  "steps": [
+   "Ekrandaki geri sayım bitip silinene kadar Control Lock tuşuna 3 saniye basılı tutun."
+  ],
+  "technician": "Bu bir arıza değildir. Yalnızca kilit kapanmıyorsa Whirlpool'a başvurun."
+ },
+ "Whirlpool|LF": {
+  "title": "Hav filtresi çıkarılmış",
+  "causes": [
+   "HybridCare filtresi kurutma makinesinde değil."
+  ],
+  "steps": [
+   "Filtreyi yerine takın.",
+   "Filtre kolunun tamamen oturduğundan emin olun."
+  ],
+  "technician": "Filtre yerindeyken LF devam ederse Whirlpool servisine başvurun."
+ }
+}

@@ -154,7 +154,7 @@ export const es: Dict = {
     popularCompare: "Comparativas populares",
     seeAll: "Ver todo",
     errTitle: "Códigos de error",
-    errLead: "Qué significan los códigos de error de lavadoras y lavavajillas y qué puedes hacer tú mismo con seguridad.",
+    errLead: "Qué significan los códigos de error de lavadoras, lavavajillas, secadoras, frigoríficos, cafeteras, aires acondicionados y calderas de gas, y qué puede hacer usted mismo con seguridad.",
     errBrandTitle: "{brand} {appliance}: códigos de error",
     errCodeTitle: "{brand} {appliance} error {code}",
     errCauses: "Causas posibles",

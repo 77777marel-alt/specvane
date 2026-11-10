@@ -1,0 +1,1167 @@
+{
+ "Bosch|E16": {
+  "title": "Porta não fechada",
+  "causes": [
+   "A porta não está bem fechada.",
+   "Há roupa presa entre a porta e a borracha de vedação."
+  ],
+  "steps": [
+   "Abra a porta e verifique se há roupa presa na borracha de vedação.",
+   "Feche a porta com firmeza até ouvir um clique.",
+   "Inicie o programa novamente."
+  ],
+  "technician": "Se o código continuar com a porta bem fechada, a trava da porta pode estar com defeito. Agende uma visita da assistência técnica Bosch."
+ },
+ "Bosch|E17": {
+  "title": "A água demorou demais para encher",
+  "causes": [
+   "A torneira está fechada ou só parcialmente aberta.",
+   "A mangueira de entrada está dobrada.",
+   "A pressão da água na casa está baixa."
+  ],
+  "steps": [
+   "Verifique se a torneira que alimenta a máquina está totalmente aberta.",
+   "Confira se a mangueira de entrada não está dobrada ou amassada.",
+   "Reinicie o programa."
+  ],
+  "technician": "Se a torneira estiver aberta e o código voltar, chame a assistência técnica Bosch. A válvula de entrada ou a mangueira AquaStop podem precisar de verificação."
+ },
+ "Bosch|E18": {
+  "title": "A água não escoa",
+  "causes": [
+   "A bomba de drenagem ou o filtro da bomba está entupido.",
+   "A mangueira de drenagem está dobrada ou entupida.",
+   "Pequenos objetos (moedas, botões) estão presos na bomba."
+  ],
+  "steps": [
+   "Desligue a máquina, tire da tomada e feche a torneira.",
+   "Se a água estiver quente, espere esfriar antes de começar.",
+   "Coloque um recipiente raso e toalhas sob a tampa da bomba, escoe a água pela mangueira de drenagem de emergência e depois limpe o filtro da bomba.",
+   "Verifique se a mangueira de drenagem está dobrada ou entupida e endireite-a.",
+   "Recoloque o filtro com firmeza, ligue na tomada e rode um programa de drenagem ou centrifugação."
+  ],
+  "technician": "Se ainda não escoar depois de limpar o filtro e a mangueira, a bomba de drenagem provavelmente está com defeito. Chame um técnico."
+ },
+ "Bosch|E19": {
+  "title": "A água demorou demais para aquecer",
+  "causes": [
+   "A máquina não atingiu a temperatura de lavagem definida no tempo previsto.",
+   "Geralmente é uma falha no sistema de aquecimento."
+  ],
+  "steps": [
+   "Desligue e ligue a máquina novamente e reinicie o programa."
+  ],
+  "technician": "Segundo a Bosch, o usuário não consegue resolver essa falha. Agende uma visita técnica se ela voltar."
+ },
+ "Bosch|E20": {
+  "title": "O aquecimento ligou quando não deveria",
+  "causes": [
+   "A máquina detectou aquecimento em um momento inesperado.",
+   "Uma falha eletrônica ou no controle do aquecimento."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada por um curto período.",
+   "Ligue na tomada novamente e reinicie o programa."
+  ],
+  "technician": "Se o código voltar, pare de usar a máquina e chame a assistência técnica Bosch."
+ },
+ "Bosch|E23": {
+  "title": "Proteção contra vazamento AquaStop acionada",
+  "causes": [
+   "Acumulou água na base da máquina.",
+   "Um vazamento dentro da máquina ou na mangueira AquaStop."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada.",
+   "Feche a torneira.",
+   "Seque a água que estiver no chão."
+  ],
+  "technician": "Segundo a Bosch, o usuário não consegue resolver isso. Mantenha a torneira fechada e agende uma visita técnica."
+ },
+ "Bosch|E25": {
+  "title": "Falha no sensor de turbidez (limpeza da água)",
+  "causes": [
+   "O sensor que verifica o quanto a água está suja está com problema."
+  ],
+  "steps": [
+   "Desligue e ligue a máquina novamente e reinicie o programa."
+  ],
+  "technician": "Se o código voltar, chame a assistência técnica Bosch para verificar o sensor."
+ },
+ "Bosch|E26": {
+  "title": "Falha no sensor de nível de água (pressão)",
+  "causes": [
+   "O sensor de pressão analógico que mede o nível de água no cesto está com defeito."
+  ],
+  "steps": [
+   "Desligue e ligue a máquina novamente e reinicie o programa."
+  ],
+  "technician": "Segundo a Bosch, essa falha exige uma visita técnica."
+ },
+ "Bosch|F27": {
+  "title": "Falha no sensor de pressão",
+  "causes": [
+   "O sensor de pressão não está funcionando corretamente."
+  ],
+  "steps": [
+   "Desligue e ligue a máquina novamente e reinicie o programa."
+  ],
+  "technician": "Se o código voltar, chame a assistência técnica Bosch."
+ },
+ "Bosch|E28": {
+  "title": "Falha no sensor de fluxo de água",
+  "causes": [
+   "O sensor que mede a água que entra está indicando um problema."
+  ],
+  "steps": [
+   "Verifique se a torneira está totalmente aberta.",
+   "Desligue e ligue a máquina novamente e reinicie o programa."
+  ],
+  "technician": "Se o código voltar, chame a assistência técnica Bosch."
+ },
+ "Samsung|4C": {
+  "title": "Não está entrando água",
+  "causes": [
+   "A torneira está fechada.",
+   "A mangueira de entrada está entupida, dobrada ou congelada.",
+   "A pressão da água está baixa demais.",
+   "As mangueiras de água quente e fria estão ligadas nas torneiras erradas.",
+   "O filtro de tela na entrada da mangueira está sujo."
+  ],
+  "steps": [
+   "Abra totalmente a torneira.",
+   "Verifique se a mangueira de entrada está dobrada, entupida ou congelada.",
+   "Confira se as mangueiras de água quente e fria estão nas torneiras certas.",
+   "Feche a torneira, desrosqueie a mangueira, limpe o pequeno filtro de tela e recoloque-o.",
+   "Aguarde 3 minutos (os botões ficam bloqueados após esse código) e reinicie."
+  ],
+  "technician": "Se a água ainda não entrar com a torneira aberta e o filtro limpo, entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|4C2": {
+  "title": "Água de entrada quente demais",
+  "causes": [
+   "A mangueira de água fria está ligada a uma torneira de água quente ou não está bem presa à torneira de água fria."
+  ],
+  "steps": [
+   "Confira se a mangueira de água fria está bem presa à torneira de água fria.",
+   "Desligue e ligue a máquina novamente e reinicie."
+  ],
+  "technician": "Se o código continuar com as ligações corretas, entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|5C": {
+  "title": "A água não escoa",
+  "causes": [
+   "A mangueira de drenagem está entupida, dobrada ou congelada.",
+   "A mangueira de drenagem está instalada de forma errada.",
+   "O filtro de resíduos está entupido."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada.",
+   "Verifique se a mangueira de drenagem está reta e não está entupida nem congelada.",
+   "Coloque toalhas e uma bandeja rasa no chão, escoe a água e limpe o filtro de resíduos na parte da frente.",
+   "Recoloque o filtro com firmeza, ligue na tomada e tente uma drenagem ou centrifugação."
+  ],
+  "technician": "Se ainda não escoar, a bomba de drenagem pode estar com defeito. Entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|dC": {
+  "title": "Porta aberta ou mal fechada",
+  "causes": [
+   "A máquina foi iniciada com a porta aberta.",
+   "Há roupa presa na porta."
+  ],
+  "steps": [
+   "Abra a porta e retire as roupas presas na borracha de vedação.",
+   "Feche bem a porta e reinicie."
+  ],
+  "technician": "Se o código continuar com a porta fechada, a trava da porta pode estar com defeito. Entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|dC1": {
+  "title": "A trava da porta não trava ou não destrava",
+  "causes": [
+   "A trava principal da porta não está funcionando como deveria."
+  ],
+  "steps": [
+   "Desligue a máquina, aguarde um momento e ligue novamente.",
+   "Reinicie o ciclo."
+  ],
+  "technician": "Se continuar acontecendo, a trava da porta precisa de uma verificação técnica."
+ },
+ "Samsung|OC": {
+  "title": "Água em excesso (transbordamento)",
+  "causes": [
+   "A máquina detectou um nível de água alto demais."
+  ],
+  "steps": [
+   "Deixe a máquina terminar de escoar e centrifugar.",
+   "Reinicie o ciclo depois que a centrifugação terminar.",
+   "Use a quantidade certa de sabão para evitar espuma em excesso."
+  ],
+  "technician": "Se o código voltar em toda lavagem, entre em contato com a assistência técnica Samsung. A válvula de água ou o sensor de nível podem estar com defeito."
+ },
+ "Samsung|Ub": {
+  "title": "Carga desequilibrada, não consegue centrifugar",
+  "causes": [
+   "A roupa está concentrada em um lado do cesto.",
+   "Há apenas uma peça pesada no cesto.",
+   "A máquina não está nivelada ou estável."
+  ],
+  "steps": [
+   "Pause a máquina e distribua a roupa por igual.",
+   "Se estiver lavando só uma peça pesada, acrescente mais algumas peças.",
+   "Confira se a máquina está nivelada sobre um piso firme.",
+   "Reinicie a centrifugação."
+  ],
+  "technician": "Se acontecer com cargas normais e bem distribuídas, a máquina pode precisar de uma verificação de peças gastas."
+ },
+ "Samsung|LC": {
+  "title": "Problema na mangueira de drenagem / vazamento detectado",
+  "causes": [
+   "A ponta da mangueira de drenagem está no chão.",
+   "A mangueira de drenagem está entupida."
+  ],
+  "steps": [
+   "Desligue a máquina.",
+   "Confira se a ponta da mangueira de drenagem está elevada e não fica no chão.",
+   "Verifique se a mangueira está entupida.",
+   "Seque a água e reinicie."
+  ],
+  "technician": "Se continuar vazando água ou o código voltar, entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|3C": {
+  "title": "Problema no motor do cesto",
+  "causes": [
+   "O motor não está funcionando como deveria."
+  ],
+  "steps": [
+   "Desligue a máquina, aguarde um minuto e ligue novamente.",
+   "Confira se a carga não está grande demais e reinicie o ciclo."
+  ],
+  "technician": "Se o código voltar, o motor ou o controle dele precisa de uma verificação técnica."
+ },
+ "Samsung|AC": {
+  "title": "Falha de comunicação entre placas eletrônicas",
+  "causes": [
+   "A placa principal e a placa secundária não estão se comunicando."
+  ],
+  "steps": [
+   "Desligue a máquina e ligue novamente.",
+   "Reinicie o ciclo."
+  ],
+  "technician": "Se o código continuar voltando, entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|HC": {
+  "title": "Falha no sistema de aquecimento (quente demais)",
+  "causes": [
+   "A máquina detectou um problema de aquecimento com temperatura alta."
+  ],
+  "steps": [
+   "Desligue e ligue a máquina novamente.",
+   "Reinicie o ciclo."
+  ],
+  "technician": "Se o código voltar, pare de usar programas com água quente e entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|1C": {
+  "title": "Falha no sensor de nível de água",
+  "causes": [
+   "O sensor que mede o nível de água não está funcionando corretamente."
+  ],
+  "steps": [
+   "Desligue e ligue a máquina novamente.",
+   "Reinicie o ciclo."
+  ],
+  "technician": "Se o código voltar, entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|UC": {
+  "title": "Problema na alimentação elétrica (tensão baixa ou instável)",
+  "causes": [
+   "Tensão da rede elétrica baixa ou instável.",
+   "Uma queda de energia rápida.",
+   "Plugue ou extensão mal encaixados."
+  ],
+  "steps": [
+   "Confira se o plugue está bem encaixado na tomada da parede.",
+   "Evite extensões e adaptadores.",
+   "Aguarde a energia se estabilizar e reinicie."
+  ],
+  "technician": "Se acontecer com frequência, peça a um eletricista para verificar a instalação. Se a instalação estiver boa, entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|8C": {
+  "title": "Falha no sensor de vibração",
+  "causes": [
+   "O sensor que detecta desequilíbrio não está funcionando corretamente."
+  ],
+  "steps": [
+   "Desligue e ligue a máquina novamente.",
+   "Reinicie o ciclo."
+  ],
+  "technician": "Se o código voltar, entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|ddC": {
+  "title": "Add Door aberta sem reiniciar",
+  "causes": [
+   "A pequena Add Door (AddWash) foi aberta e a máquina está aguardando."
+  ],
+  "steps": [
+   "Feche a Add Door corretamente.",
+   "Mantenha pressionado Start/Pause para continuar."
+  ],
+  "technician": "Normalmente não é necessário. Se a Add Door não ficar fechada, entre em contato com a assistência técnica Samsung."
+ },
+ "LG|OE": {
+  "title": "A água não escoa",
+  "causes": [
+   "A mangueira de drenagem está dobrada ou entupida.",
+   "O filtro da bomba de drenagem está entupido.",
+   "Espuma em excesso por excesso de sabão."
+  ],
+  "steps": [
+   "Verifique a mangueira de drenagem atrás da máquina e endireite as dobras.",
+   "Rode um ciclo só de centrifugação e escute se a bomba faz um zumbido.",
+   "Tire a lavadora da tomada. Coloque um recipiente sob a tampa da bomba de drenagem, escoe a água pelo pequeno tubo de drenagem e depois limpe o filtro da bomba.",
+   "Feche bem a tampa do tubo de drenagem e recoloque o filtro.",
+   "Use menos sabão da próxima vez e rode o Tub Clean."
+  ],
+  "technician": "Se o código voltar depois de limpar o filtro e a mangueira, solicite a assistência técnica LG. A bomba pode estar com defeito."
+ },
+ "LG|IE": {
+  "title": "A água não enche no tempo previsto",
+  "causes": [
+   "A torneira está fechada ou a água está cortada.",
+   "A mangueira de entrada está dobrada ou desconectada.",
+   "O filtro de entrada está entupido.",
+   "Canos ou mangueiras congelados no tempo frio."
+  ],
+  "steps": [
+   "Confira se a torneira está totalmente aberta e a mangueira está conectada.",
+   "Endireite a mangueira se estiver dobrada ou amassada.",
+   "Feche a torneira, retire a mangueira, limpe o filtro de entrada e recoloque.",
+   "Em tempo muito frio, descongele a torneira e a mangueira com água morna (não fervente)."
+  ],
+  "technician": "Se a água ainda não entrar, a válvula de entrada pode estar com defeito. Solicite assistência técnica."
+ },
+ "LG|UE": {
+  "title": "Carga desequilibrada",
+  "causes": [
+   "A roupa se acumulou em um lado.",
+   "Carga grande demais ou pequena demais.",
+   "Peças volumosas ou impermeáveis.",
+   "A lavadora não está nivelada."
+  ],
+  "steps": [
+   "Pause a lavadora e distribua a roupa por igual.",
+   "Encha o cesto até cerca de dois terços.",
+   "Lave peças volumosas, como edredons, no programa certo com centrifugação média.",
+   "Nivele a lavadora ajustando os pés."
+  ],
+  "technician": "Se acontecer com cargas normais e bem distribuídas em piso nivelado, solicite assistência técnica."
+ },
+ "LG|LE": {
+  "title": "Motor travado, o cesto não gira",
+  "causes": [
+   "A lavadora está sobrecarregada.",
+   "Uma moeda ou objeto pequeno está travando o cesto."
+  ],
+  "steps": [
+   "Tire a lavadora da tomada e aguarde 5 minutos.",
+   "Retire parte da roupa para diminuir a carga.",
+   "Com a energia desligada, procure moedas ou objetos pequenos no cesto e retire-os.",
+   "Ligue na tomada e tente novamente."
+  ],
+  "technician": "Se LE continuar aparecendo, tire a lavadora da tomada e entre em contato com a assistência técnica LG."
+ },
+ "LG|dE": {
+  "title": "Porta não fechada",
+  "causes": [
+   "Há roupa presa entre a porta e a borracha de vedação.",
+   "A porta não está totalmente fechada."
+  ],
+  "steps": [
+   "Abra a porta, solte as roupas presas e feche-a com firmeza.",
+   "Reset: tire a lavadora da tomada, mantenha Start/Pause pressionado por 5 segundos, ligue na tomada novamente e tente outra vez."
+  ],
+  "technician": "Se o código continuar, solicite a assistência técnica LG."
+ },
+ "LG|dE2": {
+  "title": "Porta fechada, mas não travada",
+  "causes": [
+   "O cesto está sobrecarregado.",
+   "Há algo preso na borracha de vedação da porta.",
+   "O fecho da porta está torto ou quebrado."
+  ],
+  "steps": [
+   "Retire o que estiver bloqueando a porta e diminua a carga, se necessário.",
+   "Abra e feche a porta novamente.",
+   "Faça um reset na lavadora tirando-a da tomada por um curto período."
+  ],
+  "technician": "Se a trava ainda não engatar, o fecho ou a trava da porta precisa de conserto. Solicite assistência técnica."
+ },
+ "LG|CE": {
+  "title": "Sobrecorrente no motor",
+  "causes": [
+   "Corrente excessiva no circuito do motor, por exemplo por curto-circuito, mau contato ou pico de energia."
+  ],
+  "steps": [
+   "Tire a lavadora da tomada por 10 segundos.",
+   "Ligue na tomada novamente e rode um ciclo."
+  ],
+  "technician": "Se CE voltar, feche a torneira, tire a lavadora da tomada e providencie o conserto."
+ },
+ "LG|FE": {
+  "title": "Água em excesso (enchimento excessivo)",
+  "causes": [
+   "Está entrando água extra, por exemplo pela gaveta de sabão."
+  ],
+  "steps": [
+   "Verifique se está escorrendo água pela gaveta de sabão.",
+   "Tire a lavadora da tomada por 60 segundos e reinicie.",
+   "Rode um programa curto e veja se a água escoa."
+  ],
+  "technician": "Se FE continuar, a válvula de água ou o sensor precisa de verificação. Solicite assistência técnica."
+ },
+ "LG|PE": {
+  "title": "Falha no sensor de nível de água",
+  "causes": [
+   "O sensor de nível de água não está funcionando corretamente."
+  ],
+  "steps": [
+   "Tire a lavadora da tomada por 10 segundos.",
+   "Ligue na tomada novamente e reinicie o ciclo."
+  ],
+  "technician": "Se PE voltar, providencie o conserto."
+ },
+ "LG|AE": {
+  "title": "Vazamento detectado dentro da lavadora",
+  "causes": [
+   "Vazamento de água dentro da máquina.",
+   "Uma mangueira de entrada danificada ou solta.",
+   "Uma falha no interruptor de segurança contra vazamento."
+  ],
+  "steps": [
+   "Verifique se a mangueira de entrada tem cortes ou conexões soltas.",
+   "Tire a lavadora da tomada por 60 segundos e reinicie."
+  ],
+  "technician": "Se AE continuar, feche a torneira e agende uma visita técnica."
+ },
+ "LG|tE": {
+  "title": "Erro de aquecimento / sensor de temperatura",
+  "causes": [
+   "Geralmente é um sensor de temperatura (termistor) com defeito."
+  ],
+  "steps": [
+   "Tire a lavadora da tomada por 10 segundos e ligue novamente.",
+   "Selecione sem centrifugação para escoar a água e reinicie o ciclo."
+  ],
+  "technician": "Se tE voltar, feche as torneiras, tire a lavadora da tomada e providencie assistência técnica."
+ },
+ "LG|Sud": {
+  "title": "Espuma em excesso",
+  "causes": [
+   "Sabão em excesso.",
+   "Uso de sabão que não é HE ou do tipo errado."
+  ],
+  "steps": [
+   "Deixe a lavadora terminar a rotina de redução de espuma.",
+   "Use menos sabão da próxima vez e apenas sabão de alta eficiência (HE).",
+   "Coloque o sabão em pó ou em cápsulas onde o manual indica, não no compartimento de sabão líquido."
+  ],
+  "technician": "Geralmente não é necessário. Se aparecer com muito pouco sabão, solicite assistência técnica."
+ },
+ "LG|PF": {
+  "title": "Queda de energia durante o ciclo",
+  "causes": [
+   "A energia foi cortada com a lavadora em funcionamento."
+  ],
+  "steps": [
+   "Tire a lavadora da tomada ou desligue o disjuntor dela.",
+   "Mantenha Start/Pause pressionado por 5 segundos com a lavadora fora da tomada.",
+   "Restabeleça a energia e rode um ciclo."
+  ],
+  "technician": "Se PF continuar aparecendo sem quedas de energia, providencie o conserto."
+ },
+ "LG|FF": {
+  "title": "Água congelada na lavadora",
+  "causes": [
+   "A temperatura interna caiu abaixo de zero e a água nas mangueiras ou no tanque congelou."
+  ],
+  "steps": [
+   "Retire a roupa.",
+   "Despeje água morna (cerca de 50–60 °C, nunca fervente) no cesto e aguarde 1–2 horas.",
+   "Escoe a água pelo tubo de drenagem e feche a tampa novamente.",
+   "Descongele as mangueiras de entrada em água morna, recoloque-as e rode um enxágue."
+  ],
+  "technician": "Se FF aparecer quando não estiver frio, solicite assistência técnica."
+ },
+ "Siemens|E16": {
+  "title": "Porta não travada",
+  "causes": [
+   "Há roupa presa na porta.",
+   "A porta não está bem fechada."
+  ],
+  "steps": [
+   "Abra a porta e feche-a novamente com firmeza.",
+   "Se necessário, retire algumas peças e empurre a porta até fechar.",
+   "Pressione Start novamente ou desligue, ligue e reinicie."
+  ],
+  "technician": "Se a porta não travar, chame a assistência técnica Siemens."
+ },
+ "Siemens|E17": {
+  "title": "A água demorou demais para encher",
+  "causes": [
+   "Pressão da água baixa.",
+   "Um filtro entupido na mangueira de alimentação.",
+   "Uma mangueira AquaStop entupida."
+  ],
+  "steps": [
+   "Verifique se a torneira está totalmente aberta.",
+   "Verifique a vazão: com a torneira totalmente aberta, devem sair cerca de 10 litros por minuto.",
+   "Feche a torneira e limpe o filtro da mangueira de alimentação.",
+   "Confira se a mangueira não está dobrada."
+  ],
+  "technician": "Se a pressão estiver baixa demais, chame um encanador. Se a alimentação estiver boa, chame a assistência técnica Siemens."
+ },
+ "Siemens|E18": {
+  "title": "A água não escoa",
+  "causes": [
+   "O filtro da bomba está entupido.",
+   "A mangueira de drenagem está entupida ou dobrada."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada. Espere a água quente esfriar.",
+   "Coloque toalhas e um recipiente raso sob a tampa do filtro e escoe a água.",
+   "Limpe o filtro da bomba e recoloque-o com firmeza.",
+   "Endireite a mangueira de drenagem e verifique se está entupida."
+  ],
+  "technician": "Se ainda não escoar, chame a assistência técnica Siemens."
+ },
+ "Siemens|E19": {
+  "title": "A água demorou demais para aquecer",
+  "causes": [
+   "Uma falha no sistema de aquecimento."
+  ],
+  "steps": [
+   "Desligue e ligue a máquina novamente e reinicie."
+  ],
+  "technician": "Segundo a Siemens, o usuário não consegue resolver isso. Agende uma visita técnica."
+ },
+ "Siemens|E20": {
+  "title": "Aquecimento inesperado",
+  "causes": [
+   "Foi detectado aquecimento quando ele deveria estar desligado."
+  ],
+  "steps": [
+   "Desligue e ligue a máquina novamente."
+  ],
+  "technician": "Se persistir, agende uma visita da assistência técnica Siemens."
+ },
+ "Siemens|E23": {
+  "title": "Vazamento – água na base",
+  "causes": [
+   "A máquina está vazando ou acumulou água na base."
+  ],
+  "steps": [
+   "Feche a torneira imediatamente.",
+   "Desligue a máquina e tire da tomada.",
+   "Seque a água do chão."
+  ],
+  "technician": "Chame a assistência técnica Siemens para localizar e consertar o vazamento."
+ },
+ "Siemens|E25": {
+  "title": "Falha no sensor de turbidez",
+  "causes": [
+   "O sensor de limpeza da água está com defeito."
+  ],
+  "steps": [
+   "Desligue e ligue a máquina novamente."
+  ],
+  "technician": "Agende uma visita da assistência técnica Siemens."
+ },
+ "Siemens|E26": {
+  "title": "Falha no sensor de nível de água",
+  "causes": [
+   "O sensor de pressão analógico está com defeito."
+  ],
+  "steps": [
+   "Desligue e ligue a máquina novamente."
+  ],
+  "technician": "Agende uma visita da assistência técnica Siemens."
+ },
+ "Siemens|E29": {
+  "title": "Problema na entrada de água",
+  "causes": [
+   "Pressão da água baixa ou filtro de alimentação ou mangueira AquaStop entupidos."
+  ],
+  "steps": [
+   "Verifique se a torneira está totalmente aberta e se a vazão é de cerca de 10 litros por minuto.",
+   "Feche a torneira e limpe o filtro da mangueira de alimentação.",
+   "Confira se a mangueira não está dobrada."
+  ],
+  "technician": "Se a alimentação estiver boa e o código voltar, chame a assistência técnica Siemens."
+ },
+ "Siemens|E32": {
+  "title": "Carga desequilibrada – centrifugação interrompida",
+  "causes": [
+   "A roupa está mal distribuída no cesto. Isso não é um defeito."
+  ],
+  "steps": [
+   "Distribua as peças grandes e pequenas por igual no cesto.",
+   "Rode a centrifugação novamente."
+  ],
+  "technician": "Não é necessário, a menos que aconteça com toda carga normal."
+ },
+ "Siemens|E33": {
+  "title": "Espuma em excesso",
+  "causes": [
+   "Sabão em excesso, principalmente com água mole ou roupa pouco suja."
+  ],
+  "steps": [
+   "Use menos sabão da próxima vez.",
+   "Rode um enxágue para eliminar a espuma."
+  ],
+  "technician": "Geralmente não é necessário."
+ },
+ "Siemens|E34": {
+  "title": "Porta não travada",
+  "causes": [
+   "A porta não está totalmente fechada, muitas vezes porque o cesto está cheio demais.",
+   "Há uma peça presa entre a porta e o corpo da máquina."
+  ],
+  "steps": [
+   "Verifique se há roupa presa na porta.",
+   "Feche a porta até ouvir um clique.",
+   "Reinicie o programa."
+  ],
+  "technician": "Se a porta ainda não travar, chame a assistência técnica Siemens."
+ },
+ "AEG|E10": {
+  "title": "Problema no abastecimento de água",
+  "causes": [
+   "O abastecimento de água está restrito ou cortado, por exemplo torneira fechada ou mangueira dobrada."
+  ],
+  "steps": [
+   "Verifique se a torneira está totalmente aberta.",
+   "Confira se a mangueira de entrada não está dobrada ou amassada.",
+   "Reset: desligue na tomada por cerca de um minuto, ligue novamente e reinicie."
+  ],
+  "technician": "Se o código voltar imediatamente ou a máquina ainda não encher, agende um conserto."
+ },
+ "AEG|E20": {
+  "title": "Problema de drenagem",
+  "causes": [
+   "Filtro da bomba de drenagem ou mangueira de drenagem entupidos."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada. Espere a água quente esfriar.",
+   "Escoe a água em um recipiente e limpe o filtro da bomba de drenagem.",
+   "Verifique se a mangueira de drenagem não está dobrada ou entupida.",
+   "Ligue na tomada e rode uma drenagem ou centrifugação."
+  ],
+  "technician": "Se a água ainda não escoar, agende um conserto."
+ },
+ "AEG|E30": {
+  "title": "Problema no sensor de pressão (nível) da água",
+  "causes": [
+   "O sensor que mede o nível de água está com falha, ou a espuma em excesso está atrapalhando a leitura."
+  ],
+  "steps": [
+   "Desligue na tomada por cerca de um minuto e ligue novamente.",
+   "Use a quantidade correta de sabão."
+  ],
+  "technician": "Se o código voltar, agende um conserto."
+ },
+ "AEG|E40": {
+  "title": "Problema na trava da porta",
+  "causes": [
+   "A porta não está bem fechada ou a trava da porta está com falha."
+  ],
+  "steps": [
+   "Abra a porta, confira se não há nada preso na borracha de vedação e feche-a com firmeza.",
+   "Desligue na tomada por cerca de um minuto e reinicie."
+  ],
+  "technician": "Se a porta ainda não travar, agende um conserto."
+ },
+ "AEG|E50": {
+  "title": "Problema no motor",
+  "causes": [
+   "Uma falha no motor ou no sistema de tração."
+  ],
+  "steps": [
+   "Desligue na tomada por cerca de um minuto e reinicie."
+  ],
+  "technician": "Se o cesto ainda não girar, agende um conserto."
+ },
+ "AEG|E60": {
+  "title": "Problema de aquecimento",
+  "causes": [
+   "Uma falha na resistência ou no sensor de temperatura."
+  ],
+  "steps": [
+   "Desligue na tomada por cerca de um minuto e reinicie."
+  ],
+  "technician": "Se o código voltar, agende um conserto."
+ },
+ "AEG|EF0": {
+  "title": "Aviso: vazamento, espuma em excesso ou carga desequilibrada",
+  "causes": [
+   "Vazamento de água dentro da máquina.",
+   "Espuma de sabão em excesso.",
+   "Uma carga desequilibrada."
+  ],
+  "steps": [
+   "Desligue a máquina, tire da tomada e verifique se há água no chão.",
+   "Se não houver vazamento, use menos sabão e distribua a carga por igual.",
+   "Reinicie depois que a espuma baixar."
+  ],
+  "technician": "Se você notar um vazamento ou o código continuar voltando, feche a torneira e agende um conserto."
+ },
+ "AEG|EH0": {
+  "title": "Problema na alimentação elétrica",
+  "causes": [
+   "A tensão da rede elétrica está irregular ou instável."
+  ],
+  "steps": [
+   "Ligue a máquina direto em uma tomada de parede, sem extensões.",
+   "Desligue por cerca de um minuto e ligue novamente."
+  ],
+  "technician": "Se continuar acontecendo, peça a um eletricista para verificar a instalação."
+ },
+ "Hotpoint|F01": {
+  "title": "Falha na placa eletrônica",
+  "causes": [
+   "Uma falha na placa de controle. Algumas ou todas as funções não funcionam."
+  ],
+  "steps": [
+   "Tire a máquina da tomada por pelo menos 2 minutos.",
+   "Ligue na tomada, aguarde 30 segundos e tente novamente."
+  ],
+  "technician": "Se a falha continuar, agende um técnico Hotpoint."
+ },
+ "Hotpoint|F02": {
+  "title": "Falha no circuito do motor",
+  "causes": [
+   "Uma falha no circuito do motor. O cesto gira e para ou não gira."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada."
+  ],
+  "technician": "Agende um técnico Hotpoint."
+ },
+ "Hotpoint|F03": {
+  "title": "Falha no sensor de temperatura",
+  "causes": [
+   "O circuito de medição de temperatura está com defeito, então a máquina não aquece."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada."
+  ],
+  "technician": "Agende um técnico Hotpoint."
+ },
+ "Hotpoint|F05": {
+  "title": "Drenagem entupida ou problema na bomba",
+  "causes": [
+   "Filtro da bomba, mangueira de esgoto ou encanamento sob a pia entupidos.",
+   "Uma bomba de drenagem queimada."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada. Espere a água quente esfriar.",
+   "Se o seu modelo tiver filtro da bomba, escoe a água em um recipiente e limpe o filtro.",
+   "Verifique se a mangueira de esgoto e o cano sob a pia estão entupidos.",
+   "Ligue na tomada e tente uma drenagem ou centrifugação."
+  ],
+  "technician": "Se ainda não escoar, a bomba provavelmente queimou. Agende um técnico."
+ },
+ "Hotpoint|F06": {
+  "title": "Falha na trava da porta",
+  "causes": [
+   "A trava da porta está bloqueada ou com defeito."
+  ],
+  "steps": [
+   "Verifique se há algo atrapalhando na porta ou na área da trava.",
+   "Feche bem a porta e reinicie.",
+   "Consulte a página de avisos de segurança da Hotpoint – algumas travas de porta estão em recall."
+  ],
+  "technician": "Se a falha persistir, agende um técnico."
+ },
+ "Hotpoint|F07": {
+  "title": "Falha no circuito de aquecimento / placa",
+  "causes": [
+   "Uma falha no circuito de aquecimento ou na placa de controle. A lavagem pausa e a bomba pode continuar funcionando."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada."
+  ],
+  "technician": "Agende um técnico Hotpoint."
+ },
+ "Hotpoint|F08": {
+  "title": "Falha na resistência",
+  "causes": [
+   "A resistência está com defeito, então o programa pausa no meio da lavagem."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada."
+  ],
+  "technician": "Agende um técnico Hotpoint."
+ },
+ "Hotpoint|F09": {
+  "title": "Falha de software",
+  "causes": [
+   "Um problema de software. As luzes piscam e nenhum programa pode ser escolhido."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada."
+  ],
+  "technician": "Agende um técnico Hotpoint."
+ },
+ "Hotpoint|F11": {
+  "title": "Falha no circuito da bomba de drenagem",
+  "causes": [
+   "Uma falha no circuito da bomba. A água fica no cesto."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada.",
+   "Não abra a porta enquanto houver água no cesto."
+  ],
+  "technician": "Agende um técnico Hotpoint."
+ },
+ "Hotpoint|F12": {
+  "title": "Falha no controle eletrônico",
+  "causes": [
+   "Uma falha nos controles. A máquina não liga."
+  ],
+  "steps": [
+   "Teste o plugue e a tomada com outro aparelho."
+  ],
+  "technician": "Agende um técnico Hotpoint."
+ },
+ "Hotpoint|F15": {
+  "title": "Falha no controle da resistência",
+  "causes": [
+   "Uma falha no controle da resistência. A água não aquece ou a lavagem pausa."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada."
+  ],
+  "technician": "Agende um técnico Hotpoint."
+ },
+ "Hotpoint|F18": {
+  "title": "Erro interno de dados",
+  "causes": [
+   "Um problema interno de dados. Algumas ou todas as funções do display não funcionam."
+  ],
+  "steps": [
+   "Tire a máquina da tomada por pelo menos 2 minutos.",
+   "Ligue na tomada, aguarde 30 segundos e tente novamente."
+  ],
+  "technician": "Se continuar, agende um técnico Hotpoint."
+ },
+ "Indesit|F01": {
+  "title": "Falha na placa eletrônica",
+  "causes": [
+   "Uma falha na placa de controle. Algumas ou todas as funções não podem ser selecionadas."
+  ],
+  "steps": [
+   "Tire a máquina da tomada por pelo menos 2 minutos.",
+   "Ligue na tomada, aguarde 30 segundos e tente novamente."
+  ],
+  "technician": "Se a falha continuar, agende um técnico Indesit."
+ },
+ "Indesit|F02": {
+  "title": "Falha no circuito do motor",
+  "causes": [
+   "Uma falha no circuito do motor. O cesto gira e para ou não gira."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada."
+  ],
+  "technician": "Agende um técnico Indesit."
+ },
+ "Indesit|F03": {
+  "title": "Falha no sensor de temperatura",
+  "causes": [
+   "O circuito de medição de temperatura está com defeito, então a máquina não aquece."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada."
+  ],
+  "technician": "Agende um técnico Indesit."
+ },
+ "Indesit|F05": {
+  "title": "Drenagem entupida ou problema na bomba",
+  "causes": [
+   "Filtro da bomba, mangueira de esgoto ou encanamento sob a pia entupidos.",
+   "Uma bomba de drenagem queimada."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada. Espere a água quente esfriar.",
+   "Se o seu modelo tiver filtro da bomba, escoe a água em um recipiente e limpe o filtro.",
+   "Verifique se a mangueira de esgoto e o cano sob a pia estão entupidos.",
+   "Ligue na tomada e tente uma drenagem ou centrifugação."
+  ],
+  "technician": "Se ainda não escoar, a bomba provavelmente queimou. Agende um técnico."
+ },
+ "Indesit|F06": {
+  "title": "Falha na trava da porta",
+  "causes": [
+   "A trava da porta está bloqueada ou com defeito."
+  ],
+  "steps": [
+   "Verifique se há algo atrapalhando na porta ou na área da trava.",
+   "Feche bem a porta e reinicie.",
+   "Consulte o aviso de segurança da marca – algumas travas de porta estão em recall."
+  ],
+  "technician": "Se a falha persistir, agende um técnico."
+ },
+ "Indesit|F07": {
+  "title": "Falha no circuito de aquecimento / placa",
+  "causes": [
+   "Uma falha no circuito de aquecimento ou na placa de controle. A lavagem pausa e a bomba pode continuar funcionando."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada."
+  ],
+  "technician": "Agende um técnico Indesit."
+ },
+ "Indesit|F08": {
+  "title": "Falha na resistência",
+  "causes": [
+   "A resistência está com defeito, então o programa pausa no meio da lavagem."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada."
+  ],
+  "technician": "Agende um técnico Indesit."
+ },
+ "Indesit|F09": {
+  "title": "Falha de software",
+  "causes": [
+   "Um problema de software. As luzes piscam e nenhum programa pode ser escolhido."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada."
+  ],
+  "technician": "Agende um técnico Indesit."
+ },
+ "Indesit|F11": {
+  "title": "Falha no circuito da bomba de drenagem",
+  "causes": [
+   "Uma falha no circuito da bomba. A água fica no cesto."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada.",
+   "Não abra a porta enquanto houver água no cesto."
+  ],
+  "technician": "Agende um técnico Indesit."
+ },
+ "Indesit|F12": {
+  "title": "Falha no controle eletrônico",
+  "causes": [
+   "Uma falha nos controles. A máquina não liga."
+  ],
+  "steps": [
+   "Teste o plugue e a tomada com outro aparelho."
+  ],
+  "technician": "Agende um técnico Indesit."
+ },
+ "Indesit|F15": {
+  "title": "Falha no controle da resistência",
+  "causes": [
+   "Uma falha no controle da resistência. A água não aquece ou a lavagem pausa."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada."
+  ],
+  "technician": "Agende um técnico Indesit."
+ },
+ "Indesit|F18": {
+  "title": "Erro interno de dados",
+  "causes": [
+   "Um problema interno de dados. Algumas ou todas as funções do display não funcionam."
+  ],
+  "steps": [
+   "Tire a máquina da tomada por pelo menos 2 minutos.",
+   "Ligue na tomada, aguarde 30 segundos e tente novamente."
+  ],
+  "technician": "Se continuar, agende um técnico Indesit."
+ },
+ "Beko|E5": {
+  "title": "O filtro da bomba pode estar entupido (problema de drenagem)",
+  "causes": [
+   "O filtro da bomba está entupido, então a água não consegue escoar."
+  ],
+  "steps": [
+   "Desligue a máquina e tire da tomada. Espere a água quente esfriar.",
+   "Escoe a água restante em um recipiente e limpe o filtro da bomba.",
+   "Recoloque o filtro com firmeza e rode um ciclo de centrifugação."
+  ],
+  "technician": "Se o problema continuar, chame a assistência técnica Beko."
+ },
+ "Beko|E8": {
+  "title": "Não está entrando água",
+  "causes": [
+   "A torneira está fechada ou há falta de água.",
+   "A mangueira de entrada está dobrada ou solta.",
+   "A tampa frontal do filtro não está fechada e travada."
+  ],
+  "steps": [
+   "Abra a torneira e verifique se há água na rede.",
+   "Verifique a conexão da mangueira de entrada e endireite as dobras.",
+   "Confira se a tampa frontal está fechada e travada.",
+   "Ligue a máquina novamente."
+  ],
+  "technician": "Se o problema continuar, chame a assistência técnica Beko."
+ },
+ "Beko|E12": {
+  "title": "Pode haver água dentro da máquina (vazamento)",
+  "causes": [
+   "Acumulou água dentro da máquina, possivelmente por um vazamento."
+  ],
+  "steps": [
+   "Tire a máquina da tomada.",
+   "Seque a água que estiver embaixo da máquina.",
+   "Ligue na tomada e rode um ciclo curto observando a máquina."
+  ],
+  "technician": "Se vazar água de alguma mangueira ou o código voltar, feche as torneiras e chame a assistência técnica Beko."
+ },
+ "Beko|E17": {
+  "title": "Espuma em excesso",
+  "causes": [
+   "Sabão em excesso para a carga.",
+   "Sabão colocado no compartimento errado ou mal armazenado."
+  ],
+  "steps": [
+   "Ajuste a dose de sabão ao tamanho da carga e ao grau de sujeira.",
+   "Use menos sabão para tecidos muito absorventes.",
+   "Rode o programa de limpeza do cesto (ou Algodão 90 °C) com o cesto vazio."
+  ],
+  "technician": "Se o problema continuar, chame a assistência técnica Beko."
+ },
+ "Beko|E18": {
+  "title": "Carga desequilibrada – a centrifugação não começou",
+  "causes": [
+   "Pouca roupa ou roupa acumulada em um lado."
+  ],
+  "steps": [
+   "Acrescente mais peças se a carga for muito pequena.",
+   "Distribua a roupa por igual com as mãos.",
+   "Rode a centrifugação novamente."
+  ],
+  "technician": "Geralmente não é necessário."
+ },
+ "Beko|E27": {
+  "title": "Problema de drenagem",
+  "causes": [
+   "A mangueira de drenagem não está conectada corretamente."
+  ],
+  "steps": [
+   "Verifique a conexão da mangueira de drenagem com o esgoto.",
+   "Confira se a mangueira não está dobrada ou entupida."
+  ],
+  "technician": "Se o problema continuar, chame a assistência técnica Beko."
+ },
+ "Beko|E29": {
+  "title": "Modo de autoproteção (problema de alimentação)",
+  "causes": [
+   "Um problema com a tensão da rede elétrica ou a pressão da água."
+  ],
+  "steps": [
+   "Cancele o programa girando o seletor para outro programa.",
+   "Inicie o programa novamente."
+  ],
+  "technician": "Se o problema continuar, chame a assistência técnica Beko."
+ },
+ "Miele|F10": {
+  "title": "Entrada de água bloqueada ou restrita",
+  "causes": [
+   "O registro (torneira) está fechado.",
+   "O filtro de entrada está sujo.",
+   "A mangueira de entrada está dobrada.",
+   "A pressão da água está baixa demais."
+  ],
+  "steps": [
+   "Pare o programa e abra totalmente a torneira.",
+   "Feche a torneira, desrosqueie a mangueira de entrada, retire o pequeno filtro, limpe-o e recoloque-o.",
+   "Recoloque a mangueira, abra a torneira e verifique se há gotejamento.",
+   "Endireite as dobras da mangueira.",
+   "Verifique a vazão: devem sair pelo menos 5 litros em 15 segundos."
+  ],
+  "technician": "Se a pressão estiver baixa demais, chame um encanador. Se a mangueira estiver danificada, a assistência técnica Miele pode substituí-la."
+ },
+ "Miele|F11": {
+  "title": "Drenagem restrita",
+  "causes": [
+   "A ponta da mangueira de drenagem está a mais de 1 metro de altura.",
+   "A mangueira de drenagem está dobrada.",
+   "O filtro de drenagem ou a bomba está bloqueado por objetos como botões ou moedas."
+  ],
+  "steps": [
+   "Desligue a máquina. Espere a água quente esfriar para evitar queimaduras.",
+   "Abaixe a ponta da mangueira de drenagem para 1 metro ou menos e elimine as dobras.",
+   "Abra a tampa da bomba de drenagem, coloque um recipiente embaixo e desrosqueie devagar o filtro de drenagem para liberar a água.",
+   "Limpe o filtro, confira se o rotor da bomba gira livremente e rosqueie o filtro de volta com firmeza."
+  ],
+  "technician": "Se a falha persistir, entre em contato com a assistência técnica Miele."
+ },
+ "Miele|F15": {
+  "title": "Entrada de água quente bloqueada ou restrita",
+  "causes": [
+   "A torneira de água quente não está totalmente aberta.",
+   "O filtro de entrada de água quente está sujo.",
+   "A pressão da água quente está baixa demais."
+  ],
+  "steps": [
+   "Abra totalmente a torneira de água quente e reinicie.",
+   "Feche a torneira, desrosqueie a mangueira de água quente, limpe o pequeno filtro e recoloque-o.",
+   "Verifique a vazão: pelo menos 5 litros em 15 segundos."
+  ],
+  "technician": "Se a pressão estiver baixa demais e não puder ser aumentada, entre em contato com um encanador ou com a assistência técnica Miele."
+ },
+ "Miele|F20": {
+  "title": "Falha de aquecimento",
+  "causes": [
+   "A temperatura definida não foi atingida a tempo (Thermostop).",
+   "Uma falha técnica no sistema de aquecimento."
+  ],
+  "steps": [
+   "Desligue na parede e tire da tomada, ou desligue o disjuntor.",
+   "Aguarde pelo menos 2 minutos.",
+   "Reconecte, ligue e reinicie o programa."
+  ],
+  "technician": "Se F20 voltar, entre em contato com a assistência técnica Miele."
+ },
+ "Miele|F34": {
+  "title": "Não foi possível travar a porta",
+  "causes": [
+   "O cesto está sobrecarregado.",
+   "Uma falha técnica na trava."
+  ],
+  "steps": [
+   "Retire um pouco de roupa para que a carga fique dentro do limite.",
+   "Desligue e ligue novamente.",
+   "Se necessário, tire da tomada por pelo menos 2 minutos, depois reconecte e ligue."
+  ],
+  "technician": "Se a falha voltar, entre em contato com a assistência técnica Miele."
+ },
+ "Miele|F35": {
+  "title": "Não foi possível destravar a porta",
+  "causes": [
+   "Uma falha técnica na trava da porta."
+  ],
+  "steps": [
+   "Desligue na parede e tire da tomada, ou desligue o disjuntor.",
+   "Aguarde pelo menos 2 minutos, depois reconecte e ligue."
+  ],
+  "technician": "Se a porta ainda não abrir, entre em contato com a assistência técnica Miele. Não force a porta."
+ },
+ "Miele|Waterproof system activated": {
+  "title": "Proteção contra vazamento acionada",
+  "causes": [
+   "Foi detectada água dentro da máquina por causa de um vazamento."
+  ],
+  "steps": [
+   "Tire a máquina da tomada.",
+   "Feche a torneira.",
+   "Seque a água do chão.",
+   "Não use a máquina até que ela seja consertada."
+  ],
+  "technician": "Segundo a Miele, o vazamento deve ser consertado pela assistência técnica Miele. Não tente consertar sozinho."
+ }
+}

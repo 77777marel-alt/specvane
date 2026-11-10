@@ -155,7 +155,7 @@ export const en = {
     popularCompare: "Popular comparisons",
     seeAll: "All",
     errTitle: "Error codes",
-    errLead: "What error codes on washing machines and dishwashers mean and what you can safely do yourself.",
+    errLead: "What error codes on washing machines, dishwashers, dryers, fridges, coffee machines, air conditioners and gas boilers mean — and what you can safely do yourself.",
     errBrandTitle: "{brand} {appliance}: error codes",
     errCodeTitle: "{brand} {appliance} error {code}",
     errCauses: "Possible causes",

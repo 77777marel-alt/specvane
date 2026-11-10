@@ -1,0 +1,1180 @@
+{
+ "LG|CH00": {
+  "title": "O aparelho precisa de inspeção (erro geral)",
+  "causes": [
+   "Uma oscilação temporária de energia ou interferência elétrica.",
+   "Uma falha interna que precisa ser verificada."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se CH00 voltar depois de desligar e religar a energia, solicite um técnico LG."
+ },
+ "LG|CH01": {
+  "title": "Falha no sensor de temperatura",
+  "causes": [
+   "Um sensor de temperatura ou da tubulação está com defeito ou se soltou.",
+   "Um erro na placa principal ou uma falha elétrica momentânea."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente.",
+   "Verifique se o código sumiu."
+  ],
+  "technician": "Se o código voltar depois de um reset, pare de usar o aparelho e agende a assistência técnica LG. Não abra o aparelho."
+ },
+ "LG|CH02": {
+  "title": "Falha no sensor de temperatura",
+  "causes": [
+   "Um sensor de temperatura ou da tubulação está com defeito ou se soltou.",
+   "Um erro na placa principal ou uma falha elétrica momentânea."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente.",
+   "Verifique se o código sumiu."
+  ],
+  "technician": "Se o código voltar depois de um reset, pare de usar o aparelho e agende a assistência técnica LG. Não abra o aparelho."
+ },
+ "LG|CH06": {
+  "title": "Falha no sensor de temperatura",
+  "causes": [
+   "Um sensor de temperatura ou da tubulação está com defeito ou se soltou.",
+   "Um erro na placa principal ou uma falha elétrica momentânea."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente.",
+   "Verifique se o código sumiu."
+  ],
+  "technician": "Se o código voltar depois de um reset, pare de usar o aparelho e agende a assistência técnica LG. Não abra o aparelho."
+ },
+ "LG|CH21": {
+  "title": "Falha no compressor ou no circuito de acionamento da unidade externa",
+  "causes": [
+   "Um problema rápido de energia.",
+   "Uma falha no compressor, no circuito de acionamento ou no circuito de proteção da unidade externa."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código persistir, pare de usar o aparelho e solicite um técnico LG."
+ },
+ "LG|CH26": {
+  "title": "Falha no compressor ou no circuito de acionamento da unidade externa",
+  "causes": [
+   "Um problema rápido de energia.",
+   "Uma falha no compressor, no circuito de acionamento ou no circuito de proteção da unidade externa."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código persistir, pare de usar o aparelho e solicite um técnico LG."
+ },
+ "LG|CH04": {
+  "title": "Problema de drenagem ou reservatório de água condensada cheio",
+  "causes": [
+   "A drenagem interna não está funcionando (aparelhos de teto).",
+   "Nos aparelhos de janela e portáteis, o reservatório de água condensada está cheio, comum em dias úmidos."
+  ],
+  "steps": [
+   "Desligue o aparelho e tire da tomada.",
+   "Nos aparelhos de janela ou portáteis, coloque uma vasilha de cerca de 1,5 L sob a saída de drenagem na parte de trás embaixo e retire a tampa do dreno.",
+   "Deixe a água escoar e recoloque a tampa com firmeza.",
+   "Você pode instalar uma mangueira de drenagem para escoar continuamente; confira se a água não pinga em ninguém embaixo."
+  ],
+  "technician": "Se CH04/FL aparecer com frequência mesmo com tempo seco, ou em um aparelho de teto depois de um reset, agende a assistência técnica LG."
+ },
+ "LG|CH05": {
+  "title": "Erro de comunicação entre unidade interna e externa",
+  "causes": [
+   "As unidades interna e externa não conseguem se comunicar.",
+   "Problema de fiação após uma instalação nova ou mudança."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código continuar depois de um reset, ou se o aparelho acabou de ser instalado ou mudado de lugar, solicite assistência técnica."
+ },
+ "LG|CH07": {
+  "title": "Conflito de modo de operação",
+  "causes": [
+   "Duas unidades internas no mesmo sistema estão em modos opostos (aquecimento x refrigeração/desumidificação)."
+  ],
+  "steps": [
+   "Coloque todas as unidades internas em aquecimento, ou todas em refrigeração/desumidificação.",
+   "Os modos ventilação e purificação de ar funcionam com qualquer modo."
+  ],
+  "technician": "Se o código continuar com todas as unidades no mesmo modo, entre em contato com o suporte LG."
+ },
+ "LG|CH10": {
+  "title": "Problema no ventilador interno",
+  "causes": [
+   "Resíduos ou gelo estão bloqueando o ventilador interno.",
+   "Falha no motor do ventilador."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Retire os resíduos visíveis da entrada e da saída de ar. Não abra o gabinete.",
+   "Verifique os filtros de ar da unidade interna e limpe-os se estiverem empoeirados.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se nada estiver bloqueando o ventilador e o código voltar, solicite assistência técnica."
+ },
+ "LG|CH67": {
+  "title": "Problema no ventilador externo",
+  "causes": [
+   "Resíduos ou neve estão bloqueando o ventilador externo.",
+   "Falha no motor do ventilador externo."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Retire folhas, neve ou objetos ao redor da grade da unidade externa.",
+   "Confira se nada bloqueia o fluxo de ar ao redor da unidade externa (caixas, plantas, neve, folhas).",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se nada estiver bloqueando e o código voltar, solicite assistência técnica."
+ },
+ "LG|CH38": {
+  "title": "Gás refrigerante baixo",
+  "causes": [
+   "A carga de gás refrigerante está baixa, geralmente após a instalação ou uma mudança.",
+   "Uma conexão da tubulação solta ou um vazamento."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o aparelho foi instalado ou mudado de lugar recentemente, chame o instalador; caso contrário, entre em contato com o suporte LG se o código voltar. Serviços com gás refrigerante são só para técnicos."
+ },
+ "LG|CH54": {
+  "title": "Erro de inversão de fase ou de alimentação elétrica",
+  "causes": [
+   "Uma queda de energia rápida ou um serviço elétrico recente.",
+   "A fiação das fases está invertida."
+  ],
+  "steps": [
+   "Desligue e ligue novamente o disjuntor do ar-condicionado."
+  ],
+  "technician": "Se o código começou depois de um serviço elétrico, peça ao eletricista para corrigir a fiação; caso contrário, solicite a assistência técnica LG."
+ },
+ "LG|CH61": {
+  "title": "Aparelho superaquecendo",
+  "causes": [
+   "Na refrigeração: a unidade externa tem pouca ventilação, por exemplo em uma varanda fechada.",
+   "No aquecimento: o filtro interno está entupido."
+  ],
+  "steps": [
+   "Na refrigeração, abra as janelas ou telas perto da unidade externa e retire objetos ao redor dela.",
+   "Verifique os filtros de ar da unidade interna e limpe-os se estiverem empoeirados.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código persistir depois de um reset e de melhorar o fluxo de ar, um técnico precisa inspecionar o aparelho."
+ },
+ "LG|CH66": {
+  "title": "Problema na fiação ou na tubulação entre unidade interna e externa",
+  "causes": [
+   "Um problema na linha de comunicação ou na conexão da tubulação entre as unidades."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o aparelho acabou de ser instalado ou mudado de lugar, chame o instalador; se o código persistir, solicite um técnico."
+ },
+ "LG|CH90": {
+  "title": "Proteção durante o teste de funcionamento",
+  "causes": [
+   "O teste de funcionamento detectou um problema, geralmente nas conexões da tubulação."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o aparelho for novo ou tiver mudado de lugar, peça ao instalador para verificar a tubulação; caso contrário, solicite assistência técnica se persistir."
+ },
+ "LG|CH93": {
+  "title": "Comunicação instável entre unidade interna e externa",
+  "causes": [
+   "Comunicação instável durante o teste de funcionamento.",
+   "Nos modelos mais novos, a unidade externa está sem energia."
+  ],
+  "steps": [
+   "Verifique se os dois cabos de alimentação estão ligados na tomada (os modelos mais novos têm um por unidade).",
+   "Ligue a unidade externa direto em uma tomada de parede, não em um filtro de linha.",
+   "Confira se o disjuntor do ar-condicionado está ligado. Se ele não ficar ligado, não continue rearmando.",
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o disjuntor continuar desarmando ou o código persistir, solicite a assistência técnica LG."
+ },
+ "Samsung|E121": {
+  "title": "Falha no sensor de temperatura ambiente",
+  "causes": [
+   "O sensor de temperatura ambiente interno está com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente.",
+   "Anote o código e o número do modelo antes de chamar a assistência técnica."
+  ],
+  "technician": "Isso exige um conserto autorizado Samsung; entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|E122": {
+  "title": "Falha no sensor de temperatura do trocador de calor",
+  "causes": [
+   "O sensor do trocador de calor interno está com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente.",
+   "Anote o código e o número do modelo antes de chamar a assistência técnica."
+  ],
+  "technician": "Isso exige um conserto autorizado Samsung; entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|E154": {
+  "title": "O ventilador interno não gira",
+  "causes": [
+   "O motor do ventilador interno está em modo de proteção, por exemplo após um pico de tensão.",
+   "O motor do ventilador ou a placa de controle está com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho, aguarde alguns segundos e ligue novamente.",
+   "Observe se o código volta em cerca de 10 segundos.",
+   "Em regiões com picos frequentes, considere usar um estabilizador de tensão."
+  ],
+  "technician": "Se o código voltar logo depois de reiniciar, entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|E163": {
+  "title": "Erro na memória da placa de controle (EEPROM)",
+  "causes": [
+   "Os dados na memória da placa principal estão errados ou faltando."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente.",
+   "Anote o código e o número do modelo antes de chamar a assistência técnica."
+  ],
+  "technician": "Isso exige um conserto autorizado Samsung; entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|CF": {
+  "title": "Lembrete de limpeza do filtro",
+  "causes": [
+   "O temporizador de limpeza do filtro chegou ao fim."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Retire e limpe os filtros da unidade interna.",
+   "Recoloque os filtros e zere o indicador do filtro."
+  ],
+  "technician": "Não é preciso técnico para este lembrete."
+ },
+ "Samsung|dF": {
+  "title": "Degelo no modo aquecimento",
+  "causes": [
+   "A unidade externa está derretendo o gelo durante o aquecimento. É normal sair vapor da unidade externa."
+  ],
+  "steps": [
+   "Aguarde; o aquecimento volta quando o degelo terminar.",
+   "Não é preciso fazer nada."
+  ],
+  "technician": "Só chame a assistência técnica se o aparelho ficar em degelo por muito tempo e não aquecer."
+ },
+ "Daikin|A1": {
+  "title": "Falha na placa eletrônica da unidade interna",
+  "causes": [
+   "A placa de controle interna está com falha."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|A3": {
+  "title": "Problema no controle do nível de drenagem",
+  "causes": [
+   "A água condensada não está escoando da unidade interna.",
+   "O tubo de drenagem pode estar entupido."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Verifique se a mangueira de drenagem do lado de fora está dobrada ou entupida.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|A5": {
+  "title": "Proteção contra congelamento ou alta pressão",
+  "causes": [
+   "Na refrigeração, a serpentina interna está ficando fria demais.",
+   "No aquecimento, a pressão está alta demais, geralmente por fluxo de ar ruim."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Verifique os filtros de ar da unidade interna e limpe-os se estiverem empoeirados.",
+   "Confira se nada bloqueia a entrada ou a saída de ar da unidade interna.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|A6": {
+  "title": "Falha no motor do ventilador interno",
+  "causes": [
+   "O motor do ventilador interno ou o controle dele queimou ou está bloqueado."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Confira se não há nada preso na saída da unidade interna. Não abra o gabinete.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|C4": {
+  "title": "Falha no sensor de temperatura da serpentina interna",
+  "causes": [
+   "O termistor do tubo de líquido no trocador de calor interno está com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|C9": {
+  "title": "Falha no sensor de ambiente (ar de retorno)",
+  "causes": [
+   "O termistor de ar interno está com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|E1": {
+  "title": "Falha na placa eletrônica da unidade externa",
+  "causes": [
+   "A placa de controle externa está com falha."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|E3": {
+  "title": "Pressostato de alta pressão acionado",
+  "causes": [
+   "A pressão do sistema está alta demais, geralmente por fluxo de ar externo ruim ou serpentina suja."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Confira se nada bloqueia o fluxo de ar ao redor da unidade externa (caixas, plantas, neve, folhas).",
+   "Verifique os filtros de ar da unidade interna e limpe-os se estiverem empoeirados.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|E5": {
+  "title": "Superaquecimento ou travamento do compressor",
+  "causes": [
+   "O compressor inverter superaqueceu ou não funciona."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Confira se nada bloqueia o fluxo de ar ao redor da unidade externa (caixas, plantas, neve, folhas).",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|E6": {
+  "title": "Sobrecorrente ou travamento do compressor",
+  "causes": [
+   "O compressor está puxando corrente demais ou está travado."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|E7": {
+  "title": "Falha no motor do ventilador externo",
+  "causes": [
+   "O sistema do motor do ventilador externo está com falha ou bloqueado."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Retire folhas, neve ou objetos da grade da unidade externa.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|E8": {
+  "title": "Sobrecorrente no compressor",
+  "causes": [
+   "A corrente de entrada do compressor inverter está alta demais."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|F3": {
+  "title": "Temperatura do tubo de descarga alta demais",
+  "causes": [
+   "O tubo de descarga do compressor está superaquecendo, por exemplo por falta de gás refrigerante ou fluxo de ar ruim."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Confira se nada bloqueia o fluxo de ar ao redor da unidade externa (caixas, plantas, neve, folhas).",
+   "Verifique os filtros de ar da unidade interna e limpe-os se estiverem empoeirados.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|F6": {
+  "title": "Pressão alta anormal",
+  "causes": [
+   "A pressão do gás refrigerante está alta demais, possivelmente por excesso de carga ou fluxo de ar bloqueado."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Confira se nada bloqueia o fluxo de ar ao redor da unidade externa (caixas, plantas, neve, folhas).",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|H6": {
+  "title": "Falha no sensor de posição do compressor",
+  "causes": [
+   "A detecção da posição do rotor do compressor falhou."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|H8": {
+  "title": "Falha no sensor de corrente do compressor",
+  "causes": [
+   "O circuito de corrente de entrada (CT) do compressor está com falha."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|H9": {
+  "title": "Falha no sensor de ar externo",
+  "causes": [
+   "O termistor de ar externo está com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|J3": {
+  "title": "Falha no sensor do tubo de descarga",
+  "causes": [
+   "O termistor do tubo de descarga está com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|L4": {
+  "title": "Superaquecimento do dissipador do inverter",
+  "causes": [
+   "A aleta de resfriamento do inverter está quente demais, geralmente por fluxo de ar externo bloqueado."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Confira se nada bloqueia o fluxo de ar ao redor da unidade externa (caixas, plantas, neve, folhas).",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|L5": {
+  "title": "Sobrecorrente no inverter",
+  "causes": [
+   "Uma sobrecorrente súbita na saída do inverter, geralmente por um problema no compressor."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|U0": {
+  "title": "Falta de gás refrigerante",
+  "causes": [
+   "O sistema está com pouco gás refrigerante, geralmente por causa de um vazamento."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Verifique os filtros de ar da unidade interna e limpe-os se estiverem empoeirados.",
+   "Não tente colocar gás refrigerante sozinho."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|U2": {
+  "title": "Problema na alimentação elétrica",
+  "causes": [
+   "A tensão de alimentação está anormal ou houve uma queda de energia rápida."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Daikin|U4": {
+  "title": "Falha de comunicação entre unidade interna e externa",
+  "causes": [
+   "Os sinais entre as unidades interna e externa foram perdidos.",
+   "Um problema de fiação ou uma falha em uma das placas."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se o código voltar depois destas verificações, chame um técnico da assistência Daikin; essa falha exige diagnóstico profissional."
+ },
+ "Panasonic|H00": {
+  "title": "Nenhuma falha registrada",
+  "causes": [
+   "A memória de autodiagnóstico não tem nenhuma anomalia registrada."
+  ],
+  "steps": [
+   "Não é preciso fazer nada.",
+   "Se o aparelho não estiver funcionando, verifique a alimentação elétrica e as pilhas do controle remoto."
+  ],
+  "technician": "Se o aparelho não funcionar mas mostrar H00, entre em contato com um técnico da assistência Panasonic."
+ },
+ "Panasonic|H11": {
+  "title": "Falha de comunicação entre unidade interna e externa",
+  "causes": [
+   "As unidades interna e externa não conseguem se comunicar."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "A Panasonic recomenda que os consertos para este código sejam feitos por um técnico qualificado; chame um se o código voltar."
+ },
+ "Panasonic|H12": {
+  "title": "Capacidade da unidade interna incompatível",
+  "causes": [
+   "A unidade interna não corresponde à capacidade da unidade externa, geralmente um problema de instalação."
+  ],
+  "steps": [
+   "Anote o código e o número do modelo antes de chamar a assistência técnica."
+  ],
+  "technician": "Entre em contato com o instalador ou com um técnico Panasonic para verificar a combinação das unidades."
+ },
+ "Panasonic|H14": {
+  "title": "Falha no sensor de temperatura do ar interno",
+  "causes": [
+   "O sensor de ar de entrada interno está com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "A Panasonic recomenda que os consertos para este código sejam feitos por um técnico qualificado; chame um se o código voltar."
+ },
+ "Panasonic|H15": {
+  "title": "Falha no sensor de temperatura do compressor",
+  "causes": [
+   "O sensor de temperatura do compressor está com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "A Panasonic recomenda que os consertos para este código sejam feitos por um técnico qualificado; chame um se o código voltar."
+ },
+ "Panasonic|H16": {
+  "title": "Falha no sensor de corrente externo",
+  "causes": [
+   "O transformador de corrente (CT) externo está com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "A Panasonic recomenda que os consertos para este código sejam feitos por um técnico qualificado; chame um se o código voltar."
+ },
+ "Panasonic|H19": {
+  "title": "Motor do ventilador interno travado",
+  "causes": [
+   "O motor do ventilador interno está travado ou com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Confira se não há nada preso na saída da unidade interna. Não abra o gabinete.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "A Panasonic recomenda que os consertos para este código sejam feitos por um técnico qualificado; chame um se o código voltar."
+ },
+ "Panasonic|H23": {
+  "title": "Falha no sensor do trocador de calor interno",
+  "causes": [
+   "O sensor de temperatura da serpentina interna está com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "A Panasonic recomenda que os consertos para este código sejam feitos por um técnico qualificado; chame um se o código voltar."
+ },
+ "Panasonic|H27": {
+  "title": "Falha no sensor de ar externo",
+  "causes": [
+   "O sensor de temperatura do ar externo está com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "A Panasonic recomenda que os consertos para este código sejam feitos por um técnico qualificado; chame um se o código voltar."
+ },
+ "Panasonic|H28": {
+  "title": "Falha no sensor do trocador de calor externo",
+  "causes": [
+   "O sensor de temperatura da serpentina externa está com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "A Panasonic recomenda que os consertos para este código sejam feitos por um técnico qualificado; chame um se o código voltar."
+ },
+ "Panasonic|H33": {
+  "title": "Unidades interna e externa conectadas incorretamente",
+  "causes": [
+   "A conexão entre as unidades está incorreta, geralmente após a instalação."
+  ],
+  "steps": [
+   "Anote o código e o número do modelo antes de chamar a assistência técnica."
+  ],
+  "technician": "Peça ao instalador ou a um técnico Panasonic para verificar a fiação."
+ },
+ "Panasonic|H97": {
+  "title": "Motor do ventilador externo travado",
+  "causes": [
+   "O ventilador externo está bloqueado ou o motor dele queimou."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Retire folhas, neve ou objetos ao redor da grade do ventilador externo.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "A Panasonic recomenda que os consertos para este código sejam feitos por um técnico qualificado; chame um se o código voltar."
+ },
+ "Panasonic|H98": {
+  "title": "Proteção de alta pressão interna",
+  "causes": [
+   "A pressão está alta demais no aquecimento, geralmente por causa de um filtro sujo."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Verifique os filtros de ar da unidade interna e limpe-os se estiverem empoeirados.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "A Panasonic recomenda que os consertos para este código sejam feitos por um técnico qualificado; chame um se o código voltar."
+ },
+ "Panasonic|H99": {
+  "title": "Proteção contra congelamento interna",
+  "causes": [
+   "A serpentina interna ficou fria demais na refrigeração, geralmente por filtro sujo ou pouco fluxo de ar."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Verifique os filtros de ar da unidade interna e limpe-os se estiverem empoeirados.",
+   "Deixe o gelo na serpentina interna derreter antes de religar.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "A Panasonic recomenda que os consertos para este código sejam feitos por um técnico qualificado; chame um se o código voltar."
+ },
+ "Panasonic|F11": {
+  "title": "Falha na comutação da válvula de 4 vias",
+  "causes": [
+   "A válvula que alterna entre refrigeração e aquecimento não está funcionando."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "A Panasonic recomenda que os consertos para este código sejam feitos por um técnico qualificado; chame um se o código voltar."
+ },
+ "Panasonic|F91": {
+  "title": "Falha no ciclo de refrigeração",
+  "causes": [
+   "O circuito de gás refrigerante não está funcionando corretamente, geralmente por falta de gás refrigerante."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Verifique os filtros de ar da unidade interna e limpe-os se estiverem empoeirados.",
+   "Não faça nenhum serviço com gás refrigerante sozinho."
+  ],
+  "technician": "A Panasonic recomenda que os consertos para este código sejam feitos por um técnico qualificado; chame um se o código voltar."
+ },
+ "Panasonic|F93": {
+  "title": "Velocidade anormal do compressor",
+  "causes": [
+   "O compressor está funcionando em uma velocidade anormal."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "A Panasonic recomenda que os consertos para este código sejam feitos por um técnico qualificado; chame um se o código voltar."
+ },
+ "Panasonic|F95": {
+  "title": "Proteção de alta pressão externa na refrigeração",
+  "causes": [
+   "A pressão está alta demais, geralmente por fluxo de ar externo ruim."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Confira se nada bloqueia o fluxo de ar ao redor da unidade externa (caixas, plantas, neve, folhas).",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "A Panasonic recomenda que os consertos para este código sejam feitos por um técnico qualificado; chame um se o código voltar."
+ },
+ "Panasonic|F97": {
+  "title": "Proteção contra superaquecimento do compressor",
+  "causes": [
+   "O compressor está superaquecendo."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Confira se nada bloqueia o fluxo de ar ao redor da unidade externa (caixas, plantas, neve, folhas).",
+   "Verifique os filtros de ar da unidade interna e limpe-os se estiverem empoeirados.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "A Panasonic recomenda que os consertos para este código sejam feitos por um técnico qualificado; chame um se o código voltar."
+ },
+ "Panasonic|F99": {
+  "title": "Pico de corrente CC detectado na unidade externa",
+  "causes": [
+   "Foi detectado um pico de corrente anormal na unidade externa."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "A Panasonic recomenda que os consertos para este código sejam feitos por um técnico qualificado; chame um se o código voltar."
+ },
+ "Gree|E1": {
+  "title": "Proteção de alta pressão",
+  "causes": [
+   "Serpentinas ou filtros sujos.",
+   "Uma obstrução no sistema ou excesso de gás refrigerante."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Verifique os filtros de ar da unidade interna e limpe-os se estiverem empoeirados.",
+   "Confira se nada bloqueia o fluxo de ar ao redor da unidade externa (caixas, plantas, neve, folhas).",
+   "Verifique se os dois ventiladores funcionam com o aparelho ligado.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se os filtros e as serpentinas estiverem limpos, chame um técnico de climatização para verificar as pressões e o pressostato de alta."
+ },
+ "Gree|E3": {
+  "title": "Proteção de baixa pressão",
+  "causes": [
+   "Filtros ou serpentinas sujos.",
+   "Um vazamento de gás refrigerante."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Verifique os filtros de ar da unidade interna e limpe-os se estiverem empoeirados.",
+   "Confira se nada bloqueia o fluxo de ar ao redor da unidade externa (caixas, plantas, neve, folhas)."
+  ],
+  "technician": "Se os filtros e as serpentinas estiverem limpos, um técnico precisa verificar a carga de gás refrigerante e procurar vazamentos."
+ },
+ "Gree|E5": {
+  "title": "Proteção contra sobrecorrente",
+  "causes": [
+   "A tensão de alimentação está alta demais, ou baixa e instável."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Um técnico deve verificar e estabilizar a alimentação elétrica."
+ },
+ "Gree|E7": {
+  "title": "Conflito de modo",
+  "causes": [
+   "As unidades internas ligadas a uma mesma unidade externa estão em modos diferentes."
+  ],
+  "steps": [
+   "Coloque todas as unidades internas no mesmo modo (todas em refrigeração ou todas em aquecimento)."
+  ],
+  "technician": "Se o código continuar com todas as unidades no mesmo modo, entre em contato com um técnico da assistência Gree."
+ },
+ "Gree|F1": {
+  "title": "Falha no sensor de ambiente interno",
+  "causes": [
+   "O sensor de temperatura ambiente interno está com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Falhas de sensor geralmente exigem uma peça de reposição instalada por um técnico qualificado."
+ },
+ "Gree|F2": {
+  "title": "Falha no sensor da serpentina interna",
+  "causes": [
+   "O sensor do evaporador interno está com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Falhas de sensor geralmente exigem uma peça de reposição instalada por um técnico qualificado."
+ },
+ "Gree|F3": {
+  "title": "Falha no sensor de ar externo",
+  "causes": [
+   "O sensor de temperatura ambiente externo está com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Falhas de sensor geralmente exigem uma peça de reposição instalada por um técnico qualificado."
+ },
+ "Gree|F4": {
+  "title": "Falha no sensor da serpentina externa",
+  "causes": [
+   "O sensor do tubo externo está com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Falhas de sensor geralmente exigem uma peça de reposição instalada por um técnico qualificado."
+ },
+ "Gree|F5": {
+  "title": "Falha no sensor de descarga",
+  "causes": [
+   "O sensor de descarga do compressor está com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Falhas de sensor geralmente exigem uma peça de reposição instalada por um técnico qualificado."
+ },
+ "Gree|H1": {
+  "title": "Degelo",
+  "causes": [
+   "A unidade externa está fazendo degelo durante o aquecimento. Esse é um estado normal."
+  ],
+  "steps": [
+   "Aguarde o degelo terminar; o aquecimento volta sozinho."
+  ],
+  "technician": "Só chame um técnico se o aparelho fizer degelo o tempo todo e não aquecer."
+ },
+ "Gree|H5": {
+  "title": "Proteção do módulo de potência (IPM)",
+  "causes": [
+   "O módulo de potência do inverter parou por problemas de tensão ou temperatura."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se H5 voltar, o aparelho precisa de assistência profissional."
+ },
+ "Gree|U3": {
+  "title": "Queda da tensão do barramento CC",
+  "causes": [
+   "A tensão CC interna caiu, geralmente por problemas na alimentação."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se U3 voltar, peça a um profissional para avaliar o aparelho e a alimentação."
+ },
+ "Gree|L9": {
+  "title": "Proteção de energia",
+  "causes": [
+   "Um grande pico de energia acionou o modo de proteção."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Se L9 voltar, peça a um profissional para avaliar o aparelho e a alimentação."
+ },
+ "Haier|E1": {
+  "title": "Falha no sensor de temperatura interno (split)",
+  "causes": [
+   "O sensor de temperatura ambiente interno está com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Segundo a Haier, este código só pode ser resolvido por um técnico do pós-venda; chame a assistência técnica Haier."
+ },
+ "Haier|E2": {
+  "title": "Falha no sensor de temperatura da tubulação interna (split)",
+  "causes": [
+   "O sensor da tubulação da serpentina interna está com defeito."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Segundo a Haier, este código só pode ser resolvido por um técnico do pós-venda; chame a assistência técnica Haier."
+ },
+ "Haier|E4": {
+  "title": "Falha na memória interna (EEPROM) (split)",
+  "causes": [
+   "A memória da placa de controle interna está com falha."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Segundo a Haier, este código só pode ser resolvido por um técnico do pós-venda; chame a assistência técnica Haier."
+ },
+ "Haier|E5": {
+  "title": "Proteção anticongelamento interna",
+  "causes": [
+   "A serpentina interna está ficando fria demais, geralmente por pouco fluxo de ar."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Verifique os filtros de ar da unidade interna e limpe-os se estiverem empoeirados.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Segundo a Haier, este código só pode ser resolvido por um técnico do pós-venda; chame a assistência técnica Haier."
+ },
+ "Haier|E7": {
+  "title": "Falha de comunicação entre unidade interna e externa",
+  "causes": [
+   "As unidades interna e externa não conseguem se comunicar."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Segundo a Haier, este código só pode ser resolvido por um técnico do pós-venda; chame a assistência técnica Haier."
+ },
+ "Haier|E9": {
+  "title": "Sobrecarga interna no aquecimento",
+  "causes": [
+   "A unidade interna está superaquecendo no modo aquecimento, geralmente por um filtro entupido."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Verifique os filtros de ar da unidade interna e limpe-os se estiverem empoeirados.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Segundo a Haier, este código só pode ser resolvido por um técnico do pós-venda; chame a assistência técnica Haier."
+ },
+ "Haier|E14": {
+  "title": "Falha no motor do ventilador interno",
+  "causes": [
+   "O motor do ventilador interno está com defeito ou bloqueado."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Segundo a Haier, este código só pode ser resolvido por um técnico do pós-venda; chame a assistência técnica Haier."
+ },
+ "Haier|F1": {
+  "title": "Proteção do módulo de potência (IPM)",
+  "causes": [
+   "O módulo inverter externo entrou em proteção."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Segundo a Haier, este código só pode ser resolvido por um técnico do pós-venda; chame a assistência técnica Haier."
+ },
+ "Haier|F8": {
+  "title": "Falha no motor CC do ventilador externo",
+  "causes": [
+   "O motor do ventilador externo está com defeito ou bloqueado."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Confira se nada bloqueia o fluxo de ar ao redor da unidade externa (caixas, plantas, neve, folhas).",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Segundo a Haier, este código só pode ser resolvido por um técnico do pós-venda; chame a assistência técnica Haier."
+ },
+ "Haier|F12": {
+  "title": "Falha na memória externa (EEPROM)",
+  "causes": [
+   "A memória da placa externa está com falha."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Segundo a Haier, este código só pode ser resolvido por um técnico do pós-venda; chame a assistência técnica Haier."
+ },
+ "Haier|F13": {
+  "title": "Falta de gás refrigerante",
+  "causes": [
+   "O sistema está com pouco gás refrigerante, geralmente por causa de um vazamento."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Não tente colocar gás refrigerante sozinho.",
+   "Anote o código e o número do modelo antes de chamar a assistência técnica."
+  ],
+  "technician": "Segundo a Haier, este código só pode ser resolvido por um técnico do pós-venda; chame a assistência técnica Haier."
+ },
+ "Haier|F19": {
+  "title": "Tensão de alimentação alta ou baixa demais",
+  "causes": [
+   "A tensão da rede está fora da faixa permitida."
+  ],
+  "steps": [
+   "Desligue o aparelho pelo controle remoto.",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Segundo a Haier, este código só pode ser resolvido por um técnico do pós-venda; chame a assistência técnica Haier."
+ },
+ "Haier|F20": {
+  "title": "Proteção de alta pressão",
+  "causes": [
+   "A pressão do sistema está alta demais, geralmente por fluxo de ar externo bloqueado."
+  ],
+  "steps": [
+   "Desligue o aparelho.",
+   "Confira se nada bloqueia o fluxo de ar ao redor da unidade externa (caixas, plantas, neve, folhas).",
+   "Desligue o disjuntor do ar-condicionado ou tire-o da tomada.",
+   "Aguarde cerca de 5 minutos, restabeleça a energia e ligue novamente."
+  ],
+  "technician": "Segundo a Haier, este código só pode ser resolvido por um técnico do pós-venda; chame a assistência técnica Haier."
+ },
+ "Haier|FL": {
+  "title": "Reservatório de água cheio (ar-condicionado portátil)",
+  "causes": [
+   "O reservatório interno de água está cheio."
+  ],
+  "steps": [
+   "Desligue o aparelho e tire da tomada.",
+   "Escoe a água pela saída de drenagem em uma vasilha.",
+   "Recoloque o tampão de drenagem e ligue o aparelho novamente."
+  ],
+  "technician": "Se FL aparecer de novo logo depois de escoar, entre em contato com a assistência técnica Haier."
+ },
+ "Haier|STOP": {
+  "title": "Reservatório cheio ou boia presa (ar-condicionado portátil, 2016 ou mais antigo)",
+  "causes": [
+   "O reservatório de água está cheio.",
+   "A boia do reservatório está presa por resíduos."
+  ],
+  "steps": [
+   "Desligue o aparelho e tire da tomada.",
+   "Esvazie o reservatório de água.",
+   "Verifique se a boia se move livremente e retire os resíduos."
+  ],
+  "technician": "Se STOP continuar com o reservatório vazio e a boia livre, entre em contato com a assistência técnica Haier."
+ }
+}

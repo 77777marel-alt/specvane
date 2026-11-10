@@ -154,7 +154,7 @@ export const nl: Dict = {
     popularCompare: "Populaire vergelijkingen",
     seeAll: "Alles",
     errTitle: "Foutcodes",
-    errLead: "Wat foutcodes van wasmachines en vaatwassers betekenen en wat u zelf veilig kunt doen.",
+    errLead: "Wat foutcodes van wasmachines, vaatwassers, drogers, koelkasten, koffiemachines, airco’s en cv-ketels betekenen en wat u zelf veilig kunt doen.",
     errBrandTitle: "{brand} {appliance}: foutcodes",
     errCodeTitle: "{brand} {appliance} fout {code}",
     errCauses: "Mogelijke oorzaken",

@@ -1,0 +1,1180 @@
+{
+ "LG|CH00": {
+  "title": "Ünitenin incelenmesi gerekiyor (genel hata)",
+  "causes": [
+   "Geçici bir elektrik dalgalanması veya elektriksel bozulma.",
+   "Kontrol edilmesi gereken dahili bir arıza."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Elektrik sıfırlamasından sonra CH00 tekrar çıkarsa LG teknisyeni isteyin."
+ },
+ "LG|CH01": {
+  "title": "Sıcaklık sensörü arızası",
+  "causes": [
+   "Bir sıcaklık veya boru sensörü arızalı ya da yerinden çıkmış.",
+   "Ana kart hatası veya kısa süreli bir elektrik aksaklığı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın.",
+   "Kodun kaybolup kaybolmadığını kontrol edin."
+  ],
+  "technician": "Sıfırlamadan sonra kod tekrar çıkarsa üniteyi kullanmayı bırakın ve LG servisinden randevu alın. Üniteyi açmayın."
+ },
+ "LG|CH02": {
+  "title": "Sıcaklık sensörü arızası",
+  "causes": [
+   "Bir sıcaklık veya boru sensörü arızalı ya da yerinden çıkmış.",
+   "Ana kart hatası veya kısa süreli bir elektrik aksaklığı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın.",
+   "Kodun kaybolup kaybolmadığını kontrol edin."
+  ],
+  "technician": "Sıfırlamadan sonra kod tekrar çıkarsa üniteyi kullanmayı bırakın ve LG servisinden randevu alın. Üniteyi açmayın."
+ },
+ "LG|CH06": {
+  "title": "Sıcaklık sensörü arızası",
+  "causes": [
+   "Bir sıcaklık veya boru sensörü arızalı ya da yerinden çıkmış.",
+   "Ana kart hatası veya kısa süreli bir elektrik aksaklığı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın.",
+   "Kodun kaybolup kaybolmadığını kontrol edin."
+  ],
+  "technician": "Sıfırlamadan sonra kod tekrar çıkarsa üniteyi kullanmayı bırakın ve LG servisinden randevu alın. Üniteyi açmayın."
+ },
+ "LG|CH21": {
+  "title": "Dış ünite kompresörü veya sürücü devresi arızası",
+  "causes": [
+   "Kısa süreli bir elektrik sorunu.",
+   "Dış ünitedeki kompresörde, sürücü devresinde veya koruma devresinde bir arıza var."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Kod devam ederse üniteyi kullanmayı bırakın ve LG teknisyeni isteyin."
+ },
+ "LG|CH26": {
+  "title": "Dış ünite kompresörü veya sürücü devresi arızası",
+  "causes": [
+   "Kısa süreli bir elektrik sorunu.",
+   "Dış ünitedeki kompresörde, sürücü devresinde veya koruma devresinde bir arıza var."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Kod devam ederse üniteyi kullanmayı bırakın ve LG teknisyeni isteyin."
+ },
+ "LG|CH04": {
+  "title": "Tahliye sorunu veya yoğuşma suyu haznesi dolu",
+  "causes": [
+   "İç ünitenin tahliyesi çalışmıyor (tavan tipi üniteler).",
+   "Pencere tipi ve portatif ünitelerde yoğuşma suyu haznesi, çoğunlukla nemli günlerde dolmuş."
+  ],
+  "steps": [
+   "Üniteyi kapatın ve fişini çekin.",
+   "Pencere tipi veya portatif ünitelerde, arka alttaki tahliye ağzının altına yaklaşık 1,5 litrelik bir kap koyun ve tahliye kapağını çıkarın.",
+   "Suyun boşalmasını bekleyin, ardından kapağı sıkıca yerine takın.",
+   "Sürekli tahliye için bir tahliye hortumu takabilirsiniz; suyun aşağıdaki kimsenin üzerine damlamadığından emin olun."
+  ],
+  "technician": "CH04/FL kuru havada da sık görünüyorsa veya tavan tipi ünitede sıfırlamadan sonra çıkıyorsa LG servisinden randevu alın."
+ },
+ "LG|CH05": {
+  "title": "İç ünite–dış ünite iletişim hatası",
+  "causes": [
+   "İç ve dış üniteler birbiriyle iletişim kuramıyor.",
+   "Yeni kurulumdan veya taşınmadan sonra kablo sorunu."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Sıfırlamadan sonra kod devam ederse veya ünite yeni kurulduysa ya da taşındıysa servis isteyin."
+ },
+ "LG|CH07": {
+  "title": "Çalışma modu çakışması",
+  "causes": [
+   "Aynı sistemdeki iki iç ünite zıt modlara ayarlanmış (ısıtma ile soğutma/nem alma)."
+  ],
+  "steps": [
+   "Tüm iç üniteleri ısıtmaya veya tümünü soğutma/nem almaya ayarlayın.",
+   "Fan ve hava temizleme modları her modla birlikte çalışabilir."
+  ],
+  "technician": "Tüm üniteler aynı moddayken kod devam ederse LG desteğine başvurun."
+ },
+ "LG|CH10": {
+  "title": "İç ünite fanı sorunu",
+  "causes": [
+   "Artıklar veya buz iç ünite fanını engelliyor.",
+   "Fan motoru arızası."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "Hava girişinde ve çıkışında görünen artıkları temizleyin. Kasayı açmayın.",
+   "İç ünitenin hava filtrelerini kontrol edin ve tozluysa temizleyin.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Fanı engelleyen bir şey yoksa ve kod tekrar çıkıyorsa servis isteyin."
+ },
+ "LG|CH67": {
+  "title": "Dış ünite fanı sorunu",
+  "causes": [
+   "Artıklar veya kar dış ünite fanını engelliyor.",
+   "Dış ünite fan motoru arızası."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "Dış ünite ızgarasının çevresindeki yaprakları, karı veya nesneleri temizleyin.",
+   "Dış ünitenin çevresindeki hava akışını hiçbir şeyin (kutu, bitki, kar, yaprak) engellemediğinden emin olun.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Engelleyen bir şey yoksa ve kod tekrar çıkıyorsa servis isteyin."
+ },
+ "LG|CH38": {
+  "title": "Soğutucu gaz az",
+  "causes": [
+   "Soğutucu gaz miktarı düşük; çoğunlukla kurulumdan veya taşınmadan sonra.",
+   "Gevşek bir boru bağlantısı veya sızıntı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Ünite yakın zamanda kurulduysa veya taşındıysa kurulumu yapanı arayın; aksi hâlde kod tekrar çıkarsa LG desteğine başvurun. Soğutucu gaz işlemleri yalnızca teknisyenler içindir."
+ },
+ "LG|CH54": {
+  "title": "Ters faz veya elektrik beslemesi hatası",
+  "causes": [
+   "Kısa süreli bir elektrik kesintisi veya yakın zamanda yapılmış elektrik işleri.",
+   "Faz kabloları ters bağlanmış."
+  ],
+  "steps": [
+   "Klimanın sigortasını kapatıp yeniden açın."
+  ],
+  "technician": "Kod elektrik işlerinden sonra başladıysa kabloları düzeltmesi için o elektrikçiye başvurun; aksi hâlde LG servisi isteyin."
+ },
+ "LG|CH61": {
+  "title": "Ünite aşırı ısınıyor",
+  "causes": [
+   "Soğutmada: Dış ünite, örneğin kapalı bir balkonda olduğu için iyi havalanmıyor.",
+   "Isıtmada: İç ünite filtresi tıkanmış."
+  ],
+  "steps": [
+   "Soğutmada dış ünitenin yakınındaki pencereleri veya perdeleri açın ve çevresindeki eşyaları kaldırın.",
+   "İç ünitenin hava filtrelerini kontrol edin ve tozluysa temizleyin.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Sıfırlama ve hava akışını iyileştirdikten sonra kod devam ederse ünitenin bir teknisyen tarafından incelenmesi gerekir."
+ },
+ "LG|CH66": {
+  "title": "İç ünite–dış ünite kablo veya boru sorunu",
+  "causes": [
+   "Üniteler arasındaki iletişim hattında veya boru bağlantısında bir sorun var."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Ünite yeni kurulduysa veya taşındıysa kurulumu yapanı arayın; kod devam ederse teknisyen isteyin."
+ },
+ "LG|CH90": {
+  "title": "Test çalıştırması sırasında koruma",
+  "causes": [
+   "Test çalıştırması, çoğunlukla boru bağlantılarıyla ilgili bir sorun tespit etti."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Ünite yeniyse veya taşındıysa boruları kontrol etmesi için kurulumu yapana başvurun; aksi hâlde sorun devam ederse servis isteyin."
+ },
+ "LG|CH93": {
+  "title": "İç ünite–dış ünite iletişimi dengesiz",
+  "causes": [
+   "Test çalıştırması sırasında iletişim dengesiz.",
+   "Yeni modellerde dış üniteye elektrik gelmiyor."
+  ],
+  "steps": [
+   "Her iki elektrik kablosunun da takılı olduğunu kontrol edin (yeni modellerde her ünitenin ayrı kablosu vardır).",
+   "Dış üniteyi çoklu prize değil, doğrudan duvar prizine takın.",
+   "Klima sigortasının açık olduğundan emin olun. Açık kalmıyorsa tekrar tekrar açmaya çalışmayın.",
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Sigorta atmaya devam ederse veya kod devam ederse LG servisi isteyin."
+ },
+ "Samsung|E121": {
+  "title": "Ortam sıcaklığı sensörü arızası",
+  "causes": [
+   "İç ortam sıcaklık sensörü arızalı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın.",
+   "Servisi aramadan önce kodu ve model numaranızı not edin."
+  ],
+  "technician": "Bu, yetkili bir Samsung onarımı gerektirir; Samsung servisine başvurun."
+ },
+ "Samsung|E122": {
+  "title": "Isı eşanjörü sıcaklık sensörü arızası",
+  "causes": [
+   "İç ünitenin ısı eşanjörü sensörü arızalı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın.",
+   "Servisi aramadan önce kodu ve model numaranızı not edin."
+  ],
+  "technician": "Bu, yetkili bir Samsung onarımı gerektirir; Samsung servisine başvurun."
+ },
+ "Samsung|E154": {
+  "title": "İç ünite fanı dönmüyor",
+  "causes": [
+   "İç ünite fan motoru, örneğin bir voltaj dalgalanmasından sonra koruma moduna geçmiş.",
+   "Fan motoru veya kontrol kartı arızalı."
+  ],
+  "steps": [
+   "Üniteyi kapatın, birkaç saniye bekleyin ve yeniden açın.",
+   "Kodun yaklaşık 10 saniye içinde tekrar çıkıp çıkmadığını izleyin.",
+   "Sık dalgalanma olan bölgelerde bir voltaj regülatörü kullanmayı düşünün."
+  ],
+  "technician": "Yeniden başlattıktan hemen sonra kod tekrar çıkarsa Samsung servisine başvurun."
+ },
+ "Samsung|E163": {
+  "title": "Kontrol kartı belleği (EEPROM) hatası",
+  "causes": [
+   "Ana kartın belleğindeki veriler hatalı veya eksik."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın.",
+   "Servisi aramadan önce kodu ve model numaranızı not edin."
+  ],
+  "technician": "Bu, yetkili bir Samsung onarımı gerektirir; Samsung servisine başvurun."
+ },
+ "Samsung|CF": {
+  "title": "Filtre temizleme hatırlatıcısı",
+  "causes": [
+   "Filtre temizleme zamanlayıcısının süresi doldu."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "İç ünitenin filtrelerini çıkarın ve temizleyin.",
+   "Filtreleri yerine takın ve filtre göstergesini sıfırlayın."
+  ],
+  "technician": "Bu hatırlatıcı için teknisyen gerekmez."
+ },
+ "Samsung|dF": {
+  "title": "Isıtma modunda buz çözme",
+  "causes": [
+   "Dış ünite ısıtma sırasında buzu eritiyor. Dış üniteden buhar çıkması normaldir."
+  ],
+  "steps": [
+   "Bekleyin; buz çözme bitince ısıtma devam eder.",
+   "Herhangi bir işlem gerekmez."
+  ],
+  "technician": "Yalnızca ünite çok uzun süre buz çözme modunda kalır ve ısıtmazsa servisi arayın."
+ },
+ "Daikin|A1": {
+  "title": "İç ünite elektronik kart arızası",
+  "causes": [
+   "İç ünitenin kontrol kartında bir arıza var."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|A3": {
+  "title": "Tahliye seviyesi kontrol sorunu",
+  "causes": [
+   "Yoğuşma suyu iç üniteden boşalmıyor.",
+   "Tahliye borusu tıkalı olabilir."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "Dışarıdaki tahliye hortumunda bükülme veya tıkanıklık olup olmadığını kontrol edin.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|A5": {
+  "title": "Donma veya yüksek basınç koruması",
+  "causes": [
+   "Soğutmada iç ünite serpantini çok soğuyor.",
+   "Isıtmada basınç, çoğunlukla zayıf hava akışı nedeniyle çok yüksek."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "İç ünitenin hava filtrelerini kontrol edin ve tozluysa temizleyin.",
+   "İç ünitenin hava girişini veya çıkışını hiçbir şeyin engellemediğini kontrol edin.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|A6": {
+  "title": "İç ünite fan motoru arızası",
+  "causes": [
+   "İç ünite fan motoru veya kontrolü arızalanmış ya da engellenmiş."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "İç ünitenin hava çıkışına bir şey sıkışmadığını kontrol edin. Kasayı açmayın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|C4": {
+  "title": "İç ünite serpantin sıcaklık sensörü arızası",
+  "causes": [
+   "İç ünite ısı eşanjöründeki sıvı borusu termistörü arızalı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|C9": {
+  "title": "Oda (emiş havası) sensörü arızası",
+  "causes": [
+   "İç ortam havası termistörü arızalı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|E1": {
+  "title": "Dış ünite elektronik kart arızası",
+  "causes": [
+   "Dış ünitenin kontrol kartında bir arıza var."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|E3": {
+  "title": "Yüksek basınç anahtarı devreye girdi",
+  "causes": [
+   "Sistem basıncı, çoğunlukla dış ünitede zayıf hava akışı veya kirli serpantin nedeniyle çok yüksek."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "Dış ünitenin çevresindeki hava akışını hiçbir şeyin (kutu, bitki, kar, yaprak) engellemediğinden emin olun.",
+   "İç ünitenin hava filtrelerini kontrol edin ve tozluysa temizleyin.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|E5": {
+  "title": "Kompresör aşırı ısınması veya kilitlenmesi",
+  "causes": [
+   "İnverter kompresör aşırı ısınmış veya çalışmıyor."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "Dış ünitenin çevresindeki hava akışını hiçbir şeyin (kutu, bitki, kar, yaprak) engellemediğinden emin olun.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|E6": {
+  "title": "Kompresörde aşırı akım veya kilitlenme",
+  "causes": [
+   "Kompresör çok fazla akım çekiyor veya sıkışmış."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|E7": {
+  "title": "Dış ünite fan motoru arızası",
+  "causes": [
+   "Dış ünite fan motoru sisteminde bir arıza var veya engellenmiş."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "Dış ünite ızgarasındaki yaprakları, karı veya nesneleri temizleyin.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|E8": {
+  "title": "Kompresörde aşırı akım",
+  "causes": [
+   "İnverter kompresörün giriş akımı çok yüksek."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|F3": {
+  "title": "Basma hattı sıcaklığı çok yüksek",
+  "causes": [
+   "Kompresörün basma hattı, örneğin soğutucu gazın az olması veya zayıf hava akışı nedeniyle aşırı ısınıyor."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "Dış ünitenin çevresindeki hava akışını hiçbir şeyin (kutu, bitki, kar, yaprak) engellemediğinden emin olun.",
+   "İç ünitenin hava filtrelerini kontrol edin ve tozluysa temizleyin.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|F6": {
+  "title": "Anormal yüksek basınç",
+  "causes": [
+   "Soğutucu gaz basıncı, muhtemelen fazla gaz yüklenmesi veya engellenmiş hava akışı nedeniyle çok yüksek."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "Dış ünitenin çevresindeki hava akışını hiçbir şeyin (kutu, bitki, kar, yaprak) engellemediğinden emin olun.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|H6": {
+  "title": "Kompresör konum sensörü arızası",
+  "causes": [
+   "Kompresör rotor konumu algılaması başarısız oldu."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|H8": {
+  "title": "Kompresör akım sensörü arızası",
+  "causes": [
+   "Kompresör giriş akımı (CT) devresinde bir arıza var."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|H9": {
+  "title": "Dış hava sensörü arızası",
+  "causes": [
+   "Dış hava termistörü arızalı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|J3": {
+  "title": "Basma hattı sensörü arızası",
+  "causes": [
+   "Basma hattı termistörü arızalı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|L4": {
+  "title": "İnverter soğutucu bloğu aşırı ısınıyor",
+  "causes": [
+   "İnverter soğutma kanatçığı, çoğunlukla dış ünitedeki hava akışı engellendiği için çok sıcak."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "Dış ünitenin çevresindeki hava akışını hiçbir şeyin (kutu, bitki, kar, yaprak) engellemediğinden emin olun.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|L5": {
+  "title": "İnverterde aşırı akım",
+  "causes": [
+   "İnverter çıkışında, çoğunlukla bir kompresör sorunundan kaynaklanan ani aşırı akım."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|U0": {
+  "title": "Soğutucu gaz eksikliği",
+  "causes": [
+   "Sistemde, genellikle bir sızıntı nedeniyle soğutucu gaz az."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "İç ünitenin hava filtrelerini kontrol edin ve tozluysa temizleyin.",
+   "Soğutucu gazı kendiniz eklemeye çalışmayın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|U2": {
+  "title": "Elektrik beslemesi sorunu",
+  "causes": [
+   "Besleme voltajı anormal veya kısa süreli bir elektrik kesintisi oldu."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Daikin|U4": {
+  "title": "İç ünite–dış ünite iletişim arızası",
+  "causes": [
+   "İç ve dış üniteler arasındaki sinyaller kesiliyor.",
+   "Bir kablo sorunu veya kartlardan birinde arıza."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Bu kontrollerden sonra kod tekrar çıkarsa bir Daikin servis teknisyenini arayın; bu arıza profesyonel teşhis gerektirir."
+ },
+ "Panasonic|H00": {
+  "title": "Kayıtlı arıza yok",
+  "causes": [
+   "Kendi kendine teşhis belleğinde kayıtlı bir anormallik yok."
+  ],
+  "steps": [
+   "Herhangi bir işlem gerekmez.",
+   "Ünite çalışmıyorsa elektrik beslemesini ve kumanda pillerini kontrol edin."
+  ],
+  "technician": "Ünite çalışmıyor ama H00 gösteriyorsa bir Panasonic servis teknisyenine başvurun."
+ },
+ "Panasonic|H11": {
+  "title": "İç ünite–dış ünite iletişim arızası",
+  "causes": [
+   "İç ve dış üniteler birbiriyle iletişim kuramıyor."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Panasonic bu kodla ilgili onarımların yetkin bir servis teknisyeni tarafından yapılmasını öneriyor; kod tekrar çıkarsa bir teknisyen çağırın."
+ },
+ "Panasonic|H12": {
+  "title": "İç ünite kapasite uyumsuzluğu",
+  "causes": [
+   "İç ünite, dış ünitenin kapasitesiyle uyuşmuyor; genellikle bir kurulum sorunu."
+  ],
+  "steps": [
+   "Servisi aramadan önce kodu ve model numaranızı not edin."
+  ],
+  "technician": "Ünite kombinasyonunun kontrolü için kurulumu yapana veya bir Panasonic teknisyenine başvurun."
+ },
+ "Panasonic|H14": {
+  "title": "İç ortam hava sıcaklığı sensörü arızası",
+  "causes": [
+   "İç ünitenin emiş havası sensörü arızalı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Panasonic bu kodla ilgili onarımların yetkin bir servis teknisyeni tarafından yapılmasını öneriyor; kod tekrar çıkarsa bir teknisyen çağırın."
+ },
+ "Panasonic|H15": {
+  "title": "Kompresör sıcaklık sensörü arızası",
+  "causes": [
+   "Kompresör sıcaklık sensörü arızalı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Panasonic bu kodla ilgili onarımların yetkin bir servis teknisyeni tarafından yapılmasını öneriyor; kod tekrar çıkarsa bir teknisyen çağırın."
+ },
+ "Panasonic|H16": {
+  "title": "Dış ünite akım sensörü arızası",
+  "causes": [
+   "Dış ünitenin akım trafosu (CT) arızalı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Panasonic bu kodla ilgili onarımların yetkin bir servis teknisyeni tarafından yapılmasını öneriyor; kod tekrar çıkarsa bir teknisyen çağırın."
+ },
+ "Panasonic|H19": {
+  "title": "İç ünite fan motoru kilitlendi",
+  "causes": [
+   "İç ünite fan motoru kilitlenmiş veya arızalı."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "İç ünitenin hava çıkışına bir şey takılmadığını kontrol edin. Kasayı açmayın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Panasonic bu kodla ilgili onarımların yetkin bir servis teknisyeni tarafından yapılmasını öneriyor; kod tekrar çıkarsa bir teknisyen çağırın."
+ },
+ "Panasonic|H23": {
+  "title": "İç ünite ısı eşanjörü sensörü arızası",
+  "causes": [
+   "İç ünite serpantin sıcaklık sensörü arızalı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Panasonic bu kodla ilgili onarımların yetkin bir servis teknisyeni tarafından yapılmasını öneriyor; kod tekrar çıkarsa bir teknisyen çağırın."
+ },
+ "Panasonic|H27": {
+  "title": "Dış hava sensörü arızası",
+  "causes": [
+   "Dış hava sıcaklığı sensörü arızalı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Panasonic bu kodla ilgili onarımların yetkin bir servis teknisyeni tarafından yapılmasını öneriyor; kod tekrar çıkarsa bir teknisyen çağırın."
+ },
+ "Panasonic|H28": {
+  "title": "Dış ünite ısı eşanjörü sensörü arızası",
+  "causes": [
+   "Dış ünite serpantin sıcaklık sensörü arızalı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Panasonic bu kodla ilgili onarımların yetkin bir servis teknisyeni tarafından yapılmasını öneriyor; kod tekrar çıkarsa bir teknisyen çağırın."
+ },
+ "Panasonic|H33": {
+  "title": "İç ve dış üniteler yanlış bağlanmış",
+  "causes": [
+   "Üniteler arasındaki bağlantı, genellikle kurulumdan sonra, hatalı."
+  ],
+  "steps": [
+   "Servisi aramadan önce kodu ve model numaranızı not edin."
+  ],
+  "technician": "Kabloların kontrolü için kurulumu yapana veya bir Panasonic teknisyenine başvurun."
+ },
+ "Panasonic|H97": {
+  "title": "Dış ünite fan motoru kilitlendi",
+  "causes": [
+   "Dış ünite fanı engellenmiş veya motoru arızalanmış."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "Dış ünite fan ızgarasının çevresindeki yaprakları, karı veya nesneleri temizleyin.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Panasonic bu kodla ilgili onarımların yetkin bir servis teknisyeni tarafından yapılmasını öneriyor; kod tekrar çıkarsa bir teknisyen çağırın."
+ },
+ "Panasonic|H98": {
+  "title": "İç ünite yüksek basınç koruması",
+  "causes": [
+   "Isıtmada basınç, çoğunlukla kirli bir filtre nedeniyle çok yüksek."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "İç ünitenin hava filtrelerini kontrol edin ve tozluysa temizleyin.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Panasonic bu kodla ilgili onarımların yetkin bir servis teknisyeni tarafından yapılmasını öneriyor; kod tekrar çıkarsa bir teknisyen çağırın."
+ },
+ "Panasonic|H99": {
+  "title": "İç ünite donma koruması",
+  "causes": [
+   "Soğutmada iç ünite serpantini, çoğunlukla kirli bir filtre veya düşük hava akışı nedeniyle çok soğudu."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "İç ünitenin hava filtrelerini kontrol edin ve tozluysa temizleyin.",
+   "Yeniden başlatmadan önce iç ünite serpantinindeki buzun erimesini bekleyin.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Panasonic bu kodla ilgili onarımların yetkin bir servis teknisyeni tarafından yapılmasını öneriyor; kod tekrar çıkarsa bir teknisyen çağırın."
+ },
+ "Panasonic|F11": {
+  "title": "4 yollu valf geçiş arızası",
+  "causes": [
+   "Soğutma ile ısıtma arasında geçiş yapan valf çalışmıyor."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Panasonic bu kodla ilgili onarımların yetkin bir servis teknisyeni tarafından yapılmasını öneriyor; kod tekrar çıkarsa bir teknisyen çağırın."
+ },
+ "Panasonic|F91": {
+  "title": "Soğutucu gaz çevrimi arızası",
+  "causes": [
+   "Soğutucu gaz devresi, çoğunlukla gazın az olması nedeniyle düzgün çalışmıyor."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "İç ünitenin hava filtrelerini kontrol edin ve tozluysa temizleyin.",
+   "Soğutucu gazla ilgili hiçbir işlemi kendiniz yapmaya çalışmayın."
+  ],
+  "technician": "Panasonic bu kodla ilgili onarımların yetkin bir servis teknisyeni tarafından yapılmasını öneriyor; kod tekrar çıkarsa bir teknisyen çağırın."
+ },
+ "Panasonic|F93": {
+  "title": "Kompresör hızı anormal",
+  "causes": [
+   "Kompresör anormal bir hızda çalışıyor."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Panasonic bu kodla ilgili onarımların yetkin bir servis teknisyeni tarafından yapılmasını öneriyor; kod tekrar çıkarsa bir teknisyen çağırın."
+ },
+ "Panasonic|F95": {
+  "title": "Soğutmada dış ünite yüksek basınç koruması",
+  "causes": [
+   "Basınç, çoğunlukla dış ünitedeki zayıf hava akışı nedeniyle çok yüksek."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "Dış ünitenin çevresindeki hava akışını hiçbir şeyin (kutu, bitki, kar, yaprak) engellemediğinden emin olun.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Panasonic bu kodla ilgili onarımların yetkin bir servis teknisyeni tarafından yapılmasını öneriyor; kod tekrar çıkarsa bir teknisyen çağırın."
+ },
+ "Panasonic|F97": {
+  "title": "Kompresör aşırı ısınma koruması",
+  "causes": [
+   "Kompresör aşırı ısınıyor."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "Dış ünitenin çevresindeki hava akışını hiçbir şeyin (kutu, bitki, kar, yaprak) engellemediğinden emin olun.",
+   "İç ünitenin hava filtrelerini kontrol edin ve tozluysa temizleyin.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Panasonic bu kodla ilgili onarımların yetkin bir servis teknisyeni tarafından yapılmasını öneriyor; kod tekrar çıkarsa bir teknisyen çağırın."
+ },
+ "Panasonic|F99": {
+  "title": "Dış ünitede DC akım tepesi algılandı",
+  "causes": [
+   "Dış ünitede anormal bir akım tepesi algılandı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Panasonic bu kodla ilgili onarımların yetkin bir servis teknisyeni tarafından yapılmasını öneriyor; kod tekrar çıkarsa bir teknisyen çağırın."
+ },
+ "Gree|E1": {
+  "title": "Yüksek basınç koruması",
+  "causes": [
+   "Serpantinler veya filtreler kirli.",
+   "Sistemde bir daralma veya fazla soğutucu gaz var."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "İç ünitenin hava filtrelerini kontrol edin ve tozluysa temizleyin.",
+   "Dış ünitenin çevresindeki hava akışını hiçbir şeyin (kutu, bitki, kar, yaprak) engellemediğinden emin olun.",
+   "Ünite açıkken her iki fanın da çalıştığını kontrol edin.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Filtreler ve serpantinler temizse basınçların ve yüksek basınç anahtarının kontrolü için bir klima teknisyeni çağırın."
+ },
+ "Gree|E3": {
+  "title": "Düşük basınç koruması",
+  "causes": [
+   "Filtreler veya serpantinler kirli.",
+   "Soğutucu gaz kaçağı."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "İç ünitenin hava filtrelerini kontrol edin ve tozluysa temizleyin.",
+   "Dış ünitenin çevresindeki hava akışını hiçbir şeyin (kutu, bitki, kar, yaprak) engellemediğinden emin olun."
+  ],
+  "technician": "Filtreler ve serpantinler temizse gaz miktarının kontrol edilmesi ve kaçak aranması için bir teknisyen gerekir."
+ },
+ "Gree|E5": {
+  "title": "Aşırı akım koruması",
+  "causes": [
+   "Besleme voltajı çok yüksek ya da düşük ve dengesiz."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Elektrik beslemesinin bir teknisyen tarafından kontrol edilip dengelenmesi gerekir."
+ },
+ "Gree|E7": {
+  "title": "Mod çakışması",
+  "causes": [
+   "Bir dış üniteye bağlı iç üniteler farklı modlara ayarlanmış."
+  ],
+  "steps": [
+   "Tüm iç üniteleri aynı moda ayarlayın (tümü soğutma veya tümü ısıtma)."
+  ],
+  "technician": "Tüm üniteler aynı moddayken kod devam ederse bir Gree servis teknisyenine başvurun."
+ },
+ "Gree|F1": {
+  "title": "İç ortam sensörü arızası",
+  "causes": [
+   "İç ortam sıcaklığı sensörü arızalı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Sensör arızaları genellikle yetkin bir teknisyenin takacağı yedek parça gerektirir."
+ },
+ "Gree|F2": {
+  "title": "İç ünite serpantin sensörü arızası",
+  "causes": [
+   "İç ünite evaporatör sensörü arızalı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Sensör arızaları genellikle yetkin bir teknisyenin takacağı yedek parça gerektirir."
+ },
+ "Gree|F3": {
+  "title": "Dış hava sensörü arızası",
+  "causes": [
+   "Dış ortam sıcaklığı sensörü arızalı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Sensör arızaları genellikle yetkin bir teknisyenin takacağı yedek parça gerektirir."
+ },
+ "Gree|F4": {
+  "title": "Dış ünite serpantin sensörü arızası",
+  "causes": [
+   "Dış ünite boru sensörü arızalı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Sensör arızaları genellikle yetkin bir teknisyenin takacağı yedek parça gerektirir."
+ },
+ "Gree|F5": {
+  "title": "Basma hattı sensörü arızası",
+  "causes": [
+   "Kompresör basma hattı sensörü arızalı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Sensör arızaları genellikle yetkin bir teknisyenin takacağı yedek parça gerektirir."
+ },
+ "Gree|H1": {
+  "title": "Buz çözme",
+  "causes": [
+   "Dış ünite ısıtma sırasında buz çözüyor. Bu normal bir durumdur."
+  ],
+  "steps": [
+   "Buz çözmenin bitmesini bekleyin; ısıtma kendiliğinden devam eder."
+  ],
+  "technician": "Yalnızca ünite sürekli buz çözüyor ve ısıtmıyorsa bir teknisyen çağırın."
+ },
+ "Gree|H5": {
+  "title": "Güç modülü (IPM) koruması",
+  "causes": [
+   "İnverter güç modülü voltaj veya sıcaklık sorunları nedeniyle durdu."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "H5 tekrar çıkarsa ünitenin profesyonel servis alması gerekir."
+ },
+ "Gree|U3": {
+  "title": "DC bara voltajı düştü",
+  "causes": [
+   "Dahili DC voltaj, çoğunlukla elektrik beslemesi sorunları nedeniyle düştü."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "U3 tekrar çıkarsa üniteyi ve elektrik beslemesini bir uzmana inceletin."
+ },
+ "Gree|L9": {
+  "title": "Elektrik koruması",
+  "causes": [
+   "Büyük bir elektrik dalgalanması koruma modunu tetikledi."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "L9 tekrar çıkarsa üniteyi ve elektrik beslemesini bir uzmana inceletin."
+ },
+ "Haier|E1": {
+  "title": "İç ortam sıcaklığı sensörü arızası (split ünite)",
+  "causes": [
+   "İç ortam sıcaklık sensörü arızalı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Haier'e göre bu kod yalnızca satış sonrası servis teknisyeni tarafından giderilebilir; Haier servisini arayın."
+ },
+ "Haier|E2": {
+  "title": "İç ünite boru sıcaklığı sensörü arızası (split ünite)",
+  "causes": [
+   "İç ünite serpantin boru sensörü arızalı."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Haier'e göre bu kod yalnızca satış sonrası servis teknisyeni tarafından giderilebilir; Haier servisini arayın."
+ },
+ "Haier|E4": {
+  "title": "İç ünite bellek (EEPROM) arızası (split ünite)",
+  "causes": [
+   "İç ünite kontrol kartının belleğinde bir arıza var."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Haier'e göre bu kod yalnızca satış sonrası servis teknisyeni tarafından giderilebilir; Haier servisini arayın."
+ },
+ "Haier|E5": {
+  "title": "İç ünite donma önleme koruması",
+  "causes": [
+   "İç ünite serpantini, çoğunlukla düşük hava akışı nedeniyle çok soğuyor."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "İç ünitenin hava filtrelerini kontrol edin ve tozluysa temizleyin.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Haier'e göre bu kod yalnızca satış sonrası servis teknisyeni tarafından giderilebilir; Haier servisini arayın."
+ },
+ "Haier|E7": {
+  "title": "İç ünite–dış ünite iletişim arızası",
+  "causes": [
+   "İç ve dış üniteler birbiriyle iletişim kuramıyor."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Haier'e göre bu kod yalnızca satış sonrası servis teknisyeni tarafından giderilebilir; Haier servisini arayın."
+ },
+ "Haier|E9": {
+  "title": "Isıtmada iç ünite aşırı yükü",
+  "causes": [
+   "İç ünite ısıtma modunda, çoğunlukla tıkalı bir filtre nedeniyle aşırı ısınıyor."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "İç ünitenin hava filtrelerini kontrol edin ve tozluysa temizleyin.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Haier'e göre bu kod yalnızca satış sonrası servis teknisyeni tarafından giderilebilir; Haier servisini arayın."
+ },
+ "Haier|E14": {
+  "title": "İç ünite fan motoru arızası",
+  "causes": [
+   "İç ünite fan motoru arızalı veya engellenmiş."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Haier'e göre bu kod yalnızca satış sonrası servis teknisyeni tarafından giderilebilir; Haier servisini arayın."
+ },
+ "Haier|F1": {
+  "title": "Güç modülü (IPM) koruması",
+  "causes": [
+   "Dış ünite inverter modülü korumaya geçti."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Haier'e göre bu kod yalnızca satış sonrası servis teknisyeni tarafından giderilebilir; Haier servisini arayın."
+ },
+ "Haier|F8": {
+  "title": "Dış ünite DC fan motoru arızası",
+  "causes": [
+   "Dış ünite fan motoru arızalı veya engellenmiş."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "Dış ünitenin çevresindeki hava akışını hiçbir şeyin (kutu, bitki, kar, yaprak) engellemediğinden emin olun.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Haier'e göre bu kod yalnızca satış sonrası servis teknisyeni tarafından giderilebilir; Haier servisini arayın."
+ },
+ "Haier|F12": {
+  "title": "Dış ünite bellek (EEPROM) arızası",
+  "causes": [
+   "Dış ünite kartının belleğinde bir arıza var."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Haier'e göre bu kod yalnızca satış sonrası servis teknisyeni tarafından giderilebilir; Haier servisini arayın."
+ },
+ "Haier|F13": {
+  "title": "Soğutucu gaz eksikliği",
+  "causes": [
+   "Sistemde, genellikle bir sızıntı nedeniyle soğutucu gaz az."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "Soğutucu gazı kendiniz eklemeye çalışmayın.",
+   "Servisi aramadan önce kodu ve model numaranızı not edin."
+  ],
+  "technician": "Haier'e göre bu kod yalnızca satış sonrası servis teknisyeni tarafından giderilebilir; Haier servisini arayın."
+ },
+ "Haier|F19": {
+  "title": "Besleme voltajı çok yüksek veya çok düşük",
+  "causes": [
+   "Şebeke voltajı izin verilen aralığın dışında."
+  ],
+  "steps": [
+   "Üniteyi uzaktan kumandayla kapatın.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Haier'e göre bu kod yalnızca satış sonrası servis teknisyeni tarafından giderilebilir; Haier servisini arayın."
+ },
+ "Haier|F20": {
+  "title": "Yüksek basınç koruması",
+  "causes": [
+   "Sistem basıncı, çoğunlukla dış ünitedeki hava akışı engellendiği için çok yüksek."
+  ],
+  "steps": [
+   "Üniteyi kapatın.",
+   "Dış ünitenin çevresindeki hava akışını hiçbir şeyin (kutu, bitki, kar, yaprak) engellemediğinden emin olun.",
+   "Klimanın sigortasını kapatın veya fişini çekin.",
+   "Yaklaşık 5 dakika bekleyin, ardından elektriği verin ve yeniden açın."
+  ],
+  "technician": "Haier'e göre bu kod yalnızca satış sonrası servis teknisyeni tarafından giderilebilir; Haier servisini arayın."
+ },
+ "Haier|FL": {
+  "title": "Su haznesi dolu (portatif klima)",
+  "causes": [
+   "Dahili su haznesi dolu."
+  ],
+  "steps": [
+   "Üniteyi kapatın ve fişini çekin.",
+   "Suyu tahliye ağzından bir kaba boşaltın.",
+   "Tahliye tıpasını yerine takın ve üniteyi yeniden başlatın."
+  ],
+  "technician": "Boşalttıktan hemen sonra FL yeniden görünürse Haier servisine başvurun."
+ },
+ "Haier|STOP": {
+  "title": "Hazne dolu veya şamandıra sıkışmış (portatif klima, 2016 ve öncesi)",
+  "causes": [
+   "Su haznesi dolu.",
+   "Hazne şamandırası artıklar nedeniyle sıkışmış."
+  ],
+  "steps": [
+   "Üniteyi kapatın ve fişini çekin.",
+   "Su haznesini boşaltın.",
+   "Şamandıranın serbestçe hareket ettiğini kontrol edin ve artıkları temizleyin."
+  ],
+  "technician": "Hazne boş ve şamandıra serbest olduğu hâlde STOP devam ederse Haier servisine başvurun."
+ }
+}

@@ -1,0 +1,1196 @@
+{
+ "Samsung|AP": {
+  "title": "Modo de configuração do Wi-Fi",
+  "causes": [
+   "A geladeira está funcionando como ponto de acesso Wi-Fi para a configuração do SmartThings."
+  ],
+  "steps": [
+   "Conclua a configuração no app SmartThings ou aguarde. O código some sozinho."
+  ],
+  "technician": "Isso não é um defeito. Não é preciso assistência técnica."
+ },
+ "Samsung|21E": {
+  "title": "Erro no ventilador do freezer",
+  "causes": [
+   "O ventilador do freezer está preso no gelo, geralmente depois que uma porta ficou aberta ou uma borracha não vedou.",
+   "O motor do ventilador queimou."
+  ],
+  "steps": [
+   "Verifique se a porta do freezer fecha e se a borracha veda em toda a volta.",
+   "Não encha demais o freezer.",
+   "Se puder, retire os alimentos e deixe a geladeira descongelar com as portas abertas."
+  ],
+  "technician": "Se o código voltar depois de descongelar, o ventilador precisa de um técnico Samsung."
+ },
+ "Samsung|22E": {
+  "title": "Erro no ventilador da geladeira",
+  "causes": [
+   "A porta da geladeira ficou aberta por muito tempo e o ventilador congelou."
+  ],
+  "steps": [
+   "Coloque os alimentos em um lugar fresco.",
+   "Tire a geladeira da tomada e deixe as portas abertas por algumas horas.",
+   "Ligue na tomada novamente e feche as portas."
+  ],
+  "technician": "Se 22E voltar, solicite a assistência técnica Samsung."
+ },
+ "Samsung|41C": {
+  "title": "Falha no Family Hub",
+  "causes": [
+   "Um problema de software na tela do Family Hub."
+  ],
+  "steps": [
+   "Instale a atualização de software mais recente.",
+   "Toque em OK na primeira vez que o código aparecer depois da atualização."
+  ],
+  "technician": "Se continuar voltando depois da atualização, solicite a assistência técnica Samsung."
+ },
+ "Samsung|76C": {
+  "title": "Água no compartimento do AutoFill",
+  "causes": [
+   "A jarra de água do AutoFill está vazando no compartimento."
+  ],
+  "steps": [
+   "Retire a jarra e seque o compartimento.",
+   "Verifique se a jarra está bem encaixada e não está rachada."
+  ],
+  "technician": "Se continuar acumulando água, entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|85C": {
+  "title": "Tensão de alimentação baixa (Family Hub)",
+  "causes": [
+   "Geralmente uma queda de energia rápida."
+  ],
+  "steps": [
+   "Mantenha OK pressionado por 3 segundos para apagar."
+  ],
+  "technician": "Sozinho, é inofensivo. Só entre em contato com a Samsung se aparecer com frequência."
+ },
+ "Samsung|88 88": {
+  "title": "Falha de comunicação na inicialização",
+  "causes": [
+   "A energia foi interrompida enquanto a geladeira estava ligando."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada ou desligue o disjuntor dela por 60 segundos.",
+   "Restabeleça a energia e veja se o código volta."
+  ],
+  "technician": "Se o código voltar depois de um reset, solicite a assistência técnica Samsung."
+ },
+ "Samsung|83E": {
+  "title": "Corrente anormal no compressor",
+  "causes": [
+   "Um pico de energia ou um problema elétrico."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada ou desligue o disjuntor dela por 60 segundos.",
+   "Restabeleça a energia e veja se o código volta."
+  ],
+  "technician": "Se 83E voltar, solicite a assistência técnica Samsung."
+ },
+ "Samsung|85E": {
+  "title": "Tensão baixa no compressor",
+  "causes": [
+   "Uma queda de tensão ou tensão da rede baixa."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada ou desligue o disjuntor dela por 60 segundos.",
+   "Restabeleça a energia e veja se o código volta."
+  ],
+  "technician": "Se 85E voltar, peça uma verificação da instalação elétrica e solicite a assistência técnica Samsung."
+ },
+ "Samsung|86E": {
+  "title": "Tensão alta no compressor",
+  "causes": [
+   "Um pico de energia, por exemplo durante uma tempestade."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada ou desligue o disjuntor dela por 60 segundos.",
+   "Restabeleça a energia e veja se o código volta."
+  ],
+  "technician": "Se 86E voltar, solicite a assistência técnica Samsung."
+ },
+ "Samsung|PC ER": {
+  "title": "Erro de comunicação interna",
+  "causes": [
+   "Um pico de energia recente.",
+   "O conector da fiação da porta não está bem conectado."
+  ],
+  "steps": [
+   "Desligue a energia na tomada ou no disjuntor.",
+   "Verifique e reconecte o conector da fiação acima da dobradiça da porta.",
+   "Restabeleça a energia."
+  ],
+  "technician": "Se o código voltar, solicite a assistência técnica Samsung."
+ },
+ "Samsung|OF OF": {
+  "title": "Modo Cooling Off (demonstração)",
+  "causes": [
+   "O modo de demonstração ou de loja está ativado, muitas vezes por acidente. A geladeira não gela."
+  ],
+  "steps": [
+   "Mantenha pressionados os dois botões superiores do lado esquerdo do painel por 5 a 8 segundos até soar um bipe.",
+   "Em alguns modelos, segure também o botão superior direito.",
+   "Consulte no manual a combinação de botões do seu modelo."
+  ],
+  "technician": "Não é preciso assistência técnica. É uma configuração, não um defeito."
+ },
+ "Samsung|5E": {
+  "title": "Erro no sensor de degelo da geladeira",
+  "causes": [
+   "O sensor de degelo da geladeira está com defeito."
+  ],
+  "steps": [
+   "Não tire a geladeira da tomada, a menos que seja orientado a fazer isso.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Solicite a assistência técnica Samsung para trocar ou verificar o sensor."
+ },
+ "Samsung|8E": {
+  "title": "Erro no sensor da máquina de gelo (freezer)",
+  "causes": [
+   "O sensor da máquina de gelo no freezer está com defeito."
+  ],
+  "steps": [
+   "Desligue a máquina de gelo, se puder.",
+   "Continue usando a geladeira normalmente."
+  ],
+  "technician": "Solicite a assistência técnica Samsung."
+ },
+ "Samsung|14E": {
+  "title": "Erro no sensor da máquina de gelo",
+  "causes": [
+   "O sensor da máquina de gelo está com defeito."
+  ],
+  "steps": [
+   "Desligue a máquina de gelo, se puder.",
+   "Continue usando a geladeira normalmente."
+  ],
+  "technician": "Solicite a assistência técnica Samsung."
+ },
+ "Samsung|33E": {
+  "title": "Erro na resistência do tubo de gelo",
+  "causes": [
+   "A resistência do tubo de água da máquina de gelo está com defeito."
+  ],
+  "steps": [
+   "Desligue a máquina de gelo, se puder."
+  ],
+  "technician": "Solicite a assistência técnica Samsung."
+ },
+ "Samsung|39E": {
+  "title": "Erro de funcionamento da máquina de gelo",
+  "causes": [
+   "A máquina de gelo não está funcionando corretamente."
+  ],
+  "steps": [
+   "Verifique se o recipiente de gelo está bem encaixado.",
+   "Desligue a máquina de gelo, se puder."
+  ],
+  "technician": "Se o código continuar, solicite a assistência técnica Samsung."
+ },
+ "Samsung|40E": {
+  "title": "Erro no ventilador do compartimento de gelo",
+  "causes": [
+   "O ventilador do compartimento de gelo não está funcionando, geralmente por causa de gelo."
+  ],
+  "steps": [
+   "Verifique se a porta do compartimento de gelo fecha totalmente."
+  ],
+  "technician": "Solicite a assistência técnica Samsung."
+ },
+ "Samsung|84C": {
+  "title": "Compressor travado",
+  "causes": [
+   "O compressor está travado e não consegue partir."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada ou desligue o disjuntor dela por 60 segundos.",
+   "Restabeleça a energia e veja se o código volta."
+  ],
+  "technician": "Solicite a assistência técnica Samsung. Isso exige um técnico."
+ },
+ "LG|CF": {
+  "title": "Erro no ventilador do condensador",
+  "causes": [
+   "O ventilador do condensador está bloqueado ou parado, então o compressor trabalha demais."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada por 60 segundos e ligue-a em uma tomada de parede, não em um filtro de linha.",
+   "Veja se o código volta.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Solicite a assistência técnica LG. Isso exige um técnico."
+ },
+ "LG|CO": {
+  "title": "Erro de comunicação",
+  "causes": [
+   "A placa principal e o display não estão se comunicando."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada por 60 segundos e ligue-a em uma tomada de parede, não em um filtro de linha.",
+   "Veja se o código volta.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Solicite a assistência técnica LG. Isso exige um técnico."
+ },
+ "LG|FF": {
+  "title": "Erro no ventilador do freezer",
+  "causes": [
+   "O ventilador do freezer está bloqueado, geralmente por gelo, ou queimou."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada por 60 segundos e ligue-a em uma tomada de parede, não em um filtro de linha.",
+   "Veja se o código volta.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Solicite a assistência técnica LG. Isso exige um técnico."
+ },
+ "LG|FS": {
+  "title": "Erro no sensor do freezer",
+  "causes": [
+   "O sensor de temperatura do freezer está com defeito."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada por 60 segundos e ligue-a em uma tomada de parede, não em um filtro de linha.",
+   "Veja se o código volta.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Solicite a assistência técnica LG. Isso exige um técnico."
+ },
+ "LG|FU": {
+  "title": "O freezer não está gelando o suficiente",
+  "causes": [
+   "O freezer não ficou frio o suficiente depois de ligar.",
+   "As portas são abertas com frequência ou não vedam.",
+   "As saídas de ar estão bloqueadas por alimentos."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada por 60 segundos e ligue-a em uma tomada de parede, não em um filtro de linha.",
+   "Ajuste o freezer para -18 °C.",
+   "Mantenha os alimentos longe das saídas de ar.",
+   "Verifique as borrachas das portas fechando a porta sobre uma folha de papel. Ela não deve sair com facilidade.",
+   "Abra as portas com menos frequência."
+  ],
+  "technician": "Se o freezer ainda não gelar, solicite a assistência técnica LG."
+ },
+ "LG|IF": {
+  "title": "Erro no ventilador da máquina de gelo",
+  "causes": [
+   "O ventilador da máquina de gelo está bloqueado ou com defeito."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada por 60 segundos e ligue-a em uma tomada de parede, não em um filtro de linha.",
+   "Veja se o código volta.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Solicite a assistência técnica LG. Isso exige um técnico."
+ },
+ "LG|IS": {
+  "title": "Erro no sensor da máquina de gelo",
+  "causes": [
+   "O sensor de temperatura da máquina de gelo está com defeito."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada por 60 segundos e ligue-a em uma tomada de parede, não em um filtro de linha.",
+   "Veja se o código volta.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Solicite a assistência técnica LG. Isso exige um técnico."
+ },
+ "LG|It": {
+  "title": "Erro no motor da máquina de gelo",
+  "causes": [
+   "O motor da máquina de gelo está com defeito."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada por 60 segundos e ligue-a em uma tomada de parede, não em um filtro de linha.",
+   "Veja se o código volta.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Solicite a assistência técnica LG. Isso exige um técnico."
+ },
+ "LG|rS": {
+  "title": "Erro no sensor da geladeira (superior)",
+  "causes": [
+   "O sensor de temperatura superior da geladeira está com defeito."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada por 60 segundos e ligue-a em uma tomada de parede, não em um filtro de linha.",
+   "Veja se o código volta.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Solicite a assistência técnica LG. Isso exige um técnico."
+ },
+ "LG|r2": {
+  "title": "Erro no sensor da geladeira (inferior)",
+  "causes": [
+   "O sensor de temperatura inferior da geladeira está com defeito."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada por 60 segundos e ligue-a em uma tomada de parede, não em um filtro de linha.",
+   "Veja se o código volta.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Solicite a assistência técnica LG. Isso exige um técnico."
+ },
+ "LG|dS": {
+  "title": "Erro no sensor de degelo",
+  "causes": [
+   "O sensor de degelo está com defeito, então o evaporador pode congelar."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada por 60 segundos e ligue-a em uma tomada de parede, não em um filtro de linha.",
+   "Veja se o código volta.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Solicite a assistência técnica LG. Isso exige um técnico."
+ },
+ "LG|rT": {
+  "title": "Erro no sensor de temperatura ambiente",
+  "causes": [
+   "O sensor de temperatura ambiente está com defeito."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada por 60 segundos e ligue-a em uma tomada de parede, não em um filtro de linha.",
+   "Veja se o código volta.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Solicite a assistência técnica LG. Isso exige um técnico."
+ },
+ "LG|dH": {
+  "title": "Falha no degelo",
+  "causes": [
+   "O sistema de degelo não aqueceu a tempo.",
+   "O evaporador está bloqueado por gelo."
+  ],
+  "steps": [
+   "Retire os alimentos e coloque-os em um lugar fresco.",
+   "Coloque toalhas no chão na frente da geladeira.",
+   "Tire a geladeira da tomada e deixe as portas abertas por pelo menos 12 horas para derreter o gelo.",
+   "Ligue na tomada novamente."
+  ],
+  "technician": "Muitas vezes isso resolve só temporariamente. Se dH voltar, solicite a assistência técnica LG."
+ },
+ "LG|SS": {
+  "title": "Erro no sensor do reservatório de água",
+  "causes": [
+   "O sensor de temperatura do reservatório de água está com defeito."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada por 60 segundos e ligue-a em uma tomada de parede, não em um filtro de linha.",
+   "Veja se o código volta.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Solicite a assistência técnica LG. Isso exige um técnico."
+ },
+ "LG|rF": {
+  "title": "Erro no ventilador da geladeira",
+  "causes": [
+   "O ventilador da geladeira está bloqueado ou com defeito."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada por 60 segundos e ligue-a em uma tomada de parede, não em um filtro de linha.",
+   "Veja se o código volta.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Solicite a assistência técnica LG. Isso exige um técnico."
+ },
+ "LG|tt": {
+  "title": "Problema no reservatório de água",
+  "causes": [
+   "O reservatório de água está faltando ou mal encaixado.",
+   "O sensor do reservatório está com defeito."
+  ],
+  "steps": [
+   "Retire o reservatório de água e recoloque-o corretamente.",
+   "Veja se o código some."
+  ],
+  "technician": "Se tt continuar com o reservatório no lugar, solicite a assistência técnica LG."
+ },
+ "LG|C1": {
+  "title": "Erro de comunicação do dispenser",
+  "causes": [
+   "O dispenser e o display não estão se comunicando."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada por 60 segundos e ligue-a em uma tomada de parede, não em um filtro de linha.",
+   "Veja se o código volta.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Solicite a assistência técnica LG. Isso exige um técnico."
+ },
+ "LG|gF": {
+  "title": "Erro no sensor de fluxo de água",
+  "causes": [
+   "O registro de abastecimento de água está fechado.",
+   "A mangueira de água está dobrada.",
+   "A pressão da água está incorreta."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada por 60 segundos e ligue-a em uma tomada de parede, não em um filtro de linha.",
+   "Aguarde até 5 minutos para a geladeira reiniciar.",
+   "Abra totalmente o registro de abastecimento de água.",
+   "Verifique se a mangueira não está dobrada.",
+   "Compare a pressão da sua água com a indicada no manual."
+  ],
+  "technician": "Se o erro persistir, solicite a assistência técnica LG."
+ },
+ "LG|CH": {
+  "title": "Erro no sistema de refrigeração (lado de alta pressão)",
+  "causes": [
+   "Os sensores leem valores anormais no sistema de refrigeração, possivelmente um vazamento ou uma válvula com defeito."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada por 60 segundos e ligue-a em uma tomada de parede, não em um filtro de linha.",
+   "Veja se o código volta.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Solicite a assistência técnica LG. Isso exige um técnico."
+ },
+ "LG|CL": {
+  "title": "Erro no sistema de refrigeração (lado de baixa pressão)",
+  "causes": [
+   "Os sensores leem valores anormais no sistema de refrigeração, possivelmente um vazamento ou uma válvula com defeito."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada por 60 segundos e ligue-a em uma tomada de parede, não em um filtro de linha.",
+   "Veja se o código volta.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Solicite a assistência técnica LG. Isso exige um técnico."
+ },
+ "LG|Lo": {
+  "title": "Ambiente frio demais",
+  "causes": [
+   "O ambiente está abaixo de -10 °C."
+  ],
+  "steps": [
+   "Se possível, leve a geladeira para um lugar mais quente."
+  ],
+  "technician": "Não é um defeito. Só entre em contato com a LG se o ambiente estiver quente e Lo continuar aparecendo."
+ },
+ "LG|HI": {
+  "title": "Ambiente quente demais",
+  "causes": [
+   "O ambiente está acima de 50 °C."
+  ],
+  "steps": [
+   "Se possível, leve a geladeira para um lugar mais fresco.",
+   "Confira se o ar consegue circular ao redor dela."
+  ],
+  "technician": "Não é um defeito. Só entre em contato com a LG se o ambiente estiver normal e HI continuar aparecendo."
+ },
+ "Miele|F0": {
+  "title": "Falha técnica",
+  "causes": [
+   "Foi detectada uma falha técnica interna."
+  ],
+  "steps": [
+   "Anote o código de falha.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos.",
+   "Agende um técnico Miele."
+  ],
+  "technician": "Esta é uma falha técnica que você não consegue resolver sozinho. Entre em contato com o atendimento ao cliente Miele."
+ },
+ "Miele|F1": {
+  "title": "Falha técnica",
+  "causes": [
+   "Foi detectada uma falha técnica interna."
+  ],
+  "steps": [
+   "Anote o código de falha.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos.",
+   "Agende um técnico Miele."
+  ],
+  "technician": "Esta é uma falha técnica que você não consegue resolver sozinho. Entre em contato com o atendimento ao cliente Miele."
+ },
+ "Miele|F2": {
+  "title": "Falha técnica",
+  "causes": [
+   "Foi detectada uma falha técnica interna."
+  ],
+  "steps": [
+   "Anote o código de falha.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos.",
+   "Agende um técnico Miele."
+  ],
+  "technician": "Esta é uma falha técnica que você não consegue resolver sozinho. Entre em contato com o atendimento ao cliente Miele."
+ },
+ "Miele|F3": {
+  "title": "Falha técnica",
+  "causes": [
+   "Foi detectada uma falha técnica interna."
+  ],
+  "steps": [
+   "Anote o código de falha.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos.",
+   "Agende um técnico Miele."
+  ],
+  "technician": "Esta é uma falha técnica que você não consegue resolver sozinho. Entre em contato com o atendimento ao cliente Miele."
+ },
+ "Miele|F4": {
+  "title": "Falha técnica",
+  "causes": [
+   "Foi detectada uma falha técnica interna."
+  ],
+  "steps": [
+   "Anote o código de falha.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos.",
+   "Agende um técnico Miele."
+  ],
+  "technician": "Esta é uma falha técnica que você não consegue resolver sozinho. Entre em contato com o atendimento ao cliente Miele."
+ },
+ "Miele|F5": {
+  "title": "Falha técnica",
+  "causes": [
+   "Foi detectada uma falha técnica interna."
+  ],
+  "steps": [
+   "Anote o código de falha.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos.",
+   "Agende um técnico Miele."
+  ],
+  "technician": "Esta é uma falha técnica que você não consegue resolver sozinho. Entre em contato com o atendimento ao cliente Miele."
+ },
+ "Miele|F114": {
+  "title": "Sensor do evaporador do freezer com defeito",
+  "causes": [
+   "O sensor do evaporador na parte do freezer está com defeito."
+  ],
+  "steps": [
+   "Anote o código de falha.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos.",
+   "Agende um técnico Miele."
+  ],
+  "technician": "Esta é uma falha técnica que você não consegue resolver sozinho. Entre em contato com o atendimento ao cliente Miele."
+ },
+ "Miele|F120": {
+  "title": "Tensão da rede elétrica baixa demais",
+  "causes": [
+   "A tensão da rede às vezes fica baixa demais ou oscila muito."
+  ],
+  "steps": [
+   "Verifique se outros aparelhos também estão com problemas.",
+   "Peça a um eletricista qualificado para verificar a tensão da rede."
+  ],
+  "technician": "Se a tensão estiver boa e F120 continuar, agende um técnico Miele."
+ },
+ "Miele|F141": {
+  "title": "Porta da geladeira aberta há 15 minutos",
+  "causes": [
+   "A porta do compartimento da geladeira está aberta há 15 minutos."
+  ],
+  "steps": [
+   "Feche a porta da geladeira.",
+   "Verifique se nada impede que ela feche."
+  ],
+  "technician": "Se F141 aparecer com a porta fechada, agende um técnico Miele."
+ },
+ "Miele|F142": {
+  "title": "Porta da geladeira aberta há 30 minutos",
+  "causes": [
+   "A porta do compartimento da geladeira está aberta há cerca de 30 minutos."
+  ],
+  "steps": [
+   "Feche a porta da geladeira.",
+   "Verifique se nada impede que ela feche."
+  ],
+  "technician": "Se F142 aparecer com a porta fechada, agende um técnico Miele."
+ },
+ "Miele|F383": {
+  "title": "Falha na entrada de água da máquina de gelo",
+  "causes": [
+   "A mangueira de entrada de água está dobrada.",
+   "O filtro de entrada está sujo.",
+   "O reservatório de água não está encaixado ou a boia dele está presa.",
+   "Uma falha de software."
+  ],
+  "steps": [
+   "Endireite as dobras da mangueira de água.",
+   "Limpe o filtro de entrada.",
+   "Retire o reservatório de água, limpe embaixo dele e empurre-o totalmente de volta.",
+   "Agite o reservatório para verificar se a boia se move livremente.",
+   "Ajuste o freezer para -18 °C por pelo menos 48 horas."
+  ],
+  "technician": "Se a falha continuar, entre em contato com o atendimento ao cliente Miele."
+ },
+ "Miele|F384": {
+  "title": "Travamento do software",
+  "causes": [
+   "O software do aparelho parou de funcionar."
+  ],
+  "steps": [
+   "Tire o aparelho da tomada por cerca de 2 minutos.",
+   "Ligue na tomada novamente e ligue o aparelho.",
+   "Se voltar a funcionar, restaure as configurações de fábrica no menu Configurações."
+  ],
+  "technician": "Se a falha voltar, entre em contato com o atendimento ao cliente Miele."
+ },
+ "Miele|F385": {
+  "title": "Travamento do software",
+  "causes": [
+   "O software do aparelho parou de funcionar."
+  ],
+  "steps": [
+   "Tire o aparelho da tomada por cerca de 2 minutos.",
+   "Ligue na tomada novamente e ligue o aparelho.",
+   "Se voltar a funcionar, restaure as configurações de fábrica no menu Configurações."
+  ],
+  "technician": "Se a falha voltar, entre em contato com o atendimento ao cliente Miele."
+ },
+ "Miele|nA": {
+  "title": "O freezer esquentou demais antes",
+  "causes": [
+   "Uma queda de energia ou interrupção no fornecimento deixou o freezer esquentar."
+  ],
+  "steps": [
+   "Mantenha o botão de alarme pressionado para ver a temperatura mais alta atingida.",
+   "Verifique os alimentos. Consuma logo os alimentos descongelados.",
+   "Não congele novamente alimentos descongelados sem antes cozinhá-los."
+  ],
+  "technician": "Não é um defeito. Só entre em contato com a Miele se aparecer sem nenhuma queda de energia."
+ },
+ "AEG|E08": {
+  "title": "Tensão de alimentação baixa",
+  "causes": [
+   "A tensão da rede caiu abaixo de 170 V. Isso protege o compressor."
+  ],
+  "steps": [
+   "Verifique se outros aparelhos estão com problemas de energia.",
+   "Aguarde a alimentação voltar ao normal."
+  ],
+  "technician": "Se E08 continuar aparecendo, peça uma verificação da instalação elétrica e entre em contato com um técnico autorizado AEG."
+ },
+ "AEG|E09": {
+  "title": "O freezer não está frio o suficiente",
+  "causes": [
+   "Geralmente após uma queda de energia longa."
+  ],
+  "steps": [
+   "Abaixe a temperatura do freezer ou ative o Super Freeze.",
+   "Mantenha as portas fechadas até o código sumir.",
+   "Consuma ou cozinhe logo os alimentos descongelados.",
+   "Não coloque alimentos frescos até o código sumir."
+  ],
+  "technician": "Se o código continuar aceso, entre em contato com um técnico autorizado AEG."
+ },
+ "AEG|E10": {
+  "title": "A geladeira não está fria o suficiente",
+  "causes": [
+   "Uma queda de energia longa.",
+   "Foi colocado alimento quente na geladeira."
+  ],
+  "steps": [
+   "Abaixe a temperatura da geladeira ou ative o Super Cool.",
+   "Mantenha as portas fechadas.",
+   "Mantenha os alimentos longe das saídas de ar e do sensor."
+  ],
+  "technician": "Se E10 persistir, agende um conserto AEG."
+ },
+ "AEG|E11": {
+  "title": "Geladeira fria demais",
+  "causes": [
+   "O Super Cool ficou ligado.",
+   "A temperatura está ajustada baixa demais.",
+   "As saídas de ar estão bloqueadas."
+  ],
+  "steps": [
+   "Desative o Super Cool.",
+   "Ajuste uma temperatura mais alta na geladeira.",
+   "Confira se as saídas de ar estão livres."
+  ],
+  "technician": "Se o código persistir, entre em contato com uma assistência técnica autorizada AEG."
+ },
+ "AEG|F2": {
+  "title": "Falha no termostato",
+  "causes": [
+   "Um problema no termostato."
+  ],
+  "steps": [
+   "Anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Agende um técnico da assistência AEG e informe o código."
+ },
+ "AEG|F8": {
+  "title": "Falha no sistema de degelo",
+  "causes": [
+   "Uma falha no sistema de degelo."
+  ],
+  "steps": [
+   "Não tente consertar sozinho.",
+   "Anote o modelo e o número de série."
+  ],
+  "technician": "Agende um técnico da assistência AEG e informe F8."
+ },
+ "Electrolux|F5": {
+  "title": "Falha no sensor de temperatura",
+  "causes": [
+   "Um sensor de temperatura está com defeito. F3 e F4 indicam o mesmo tipo de falha."
+  ],
+  "steps": [
+   "Anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Agende um técnico da assistência Electrolux e informe o código."
+ },
+ "Electrolux|E01": {
+  "title": "Aviso de sensor",
+  "causes": [
+   "Um sensor da geladeira/freezer está com problema."
+  ],
+  "steps": [
+   "Anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Entre em contato com uma assistência técnica autorizada Electrolux para a visita de um técnico."
+ },
+ "Electrolux|E02": {
+  "title": "Aviso de sensor",
+  "causes": [
+   "Um sensor da geladeira/freezer está com problema."
+  ],
+  "steps": [
+   "Anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Entre em contato com uma assistência técnica autorizada Electrolux para a visita de um técnico."
+ },
+ "Electrolux|E03": {
+  "title": "Aviso de sensor",
+  "causes": [
+   "Um sensor da geladeira/freezer está com problema."
+  ],
+  "steps": [
+   "Anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Entre em contato com uma assistência técnica autorizada Electrolux para a visita de um técnico."
+ },
+ "Electrolux|E06": {
+  "title": "Aviso de sensor",
+  "causes": [
+   "Um sensor da geladeira/freezer está com problema."
+  ],
+  "steps": [
+   "Anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Entre em contato com uma assistência técnica autorizada Electrolux para a visita de um técnico."
+ },
+ "Electrolux|E07": {
+  "title": "Aviso de sensor",
+  "causes": [
+   "Um sensor da geladeira/freezer está com problema."
+  ],
+  "steps": [
+   "Anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Entre em contato com uma assistência técnica autorizada Electrolux para a visita de um técnico."
+ },
+ "Hotpoint|E0": {
+  "title": "Falha na máquina de gelo",
+  "causes": [
+   "A máquina de gelo não está funcionando corretamente (modelos com máquina de gelo)."
+  ],
+  "steps": [
+   "Desligue a máquina de gelo, se possível.",
+   "Continue usando a geladeira normalmente."
+  ],
+  "technician": "Ligue para a assistência técnica Hotpoint para agendar um técnico."
+ },
+ "Hotpoint|E1": {
+  "title": "Falha no sensor da geladeira",
+  "causes": [
+   "O sensor de temperatura da geladeira está com defeito."
+  ],
+  "steps": [
+   "Anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Ligue para a assistência técnica Hotpoint para agendar um técnico."
+ },
+ "Hotpoint|E2": {
+  "title": "Falha no sensor do freezer",
+  "causes": [
+   "O sensor de temperatura do freezer está com defeito.",
+   "A temperatura do freezer pode estar errada."
+  ],
+  "steps": [
+   "Verifique se os alimentos continuam congelados.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Ligue para a assistência técnica Hotpoint para agendar um técnico."
+ },
+ "Hotpoint|E3": {
+  "title": "Falha no sensor de degelo",
+  "causes": [
+   "O sensor de degelo está com defeito.",
+   "Um dreno entupido também pode afetar a temperatura."
+  ],
+  "steps": [
+   "Verifique se o furo do dreno de degelo e o tubo de drenagem estão entupidos.",
+   "Desentupa com cuidado."
+  ],
+  "technician": "Se a falha continuar, chame a assistência técnica Hotpoint."
+ },
+ "Hotpoint|E4": {
+  "title": "Falha no sensor de degelo da geladeira",
+  "causes": [
+   "O sensor de degelo da geladeira está com defeito."
+  ],
+  "steps": [
+   "Anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Ligue para a assistência técnica Hotpoint para agendar um técnico."
+ },
+ "Hotpoint|E5": {
+  "title": "Falha no sensor de degelo do freezer",
+  "causes": [
+   "O sensor de degelo do freezer está com defeito."
+  ],
+  "steps": [
+   "Anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Ligue para a assistência técnica Hotpoint para agendar um técnico."
+ },
+ "Hotpoint|E6": {
+  "title": "Falha na placa de controle ou do display",
+  "causes": [
+   "A placa de controle principal ou a placa do display está com defeito."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada por alguns minutos e ligue novamente."
+  ],
+  "technician": "Ligue para a assistência técnica Hotpoint para agendar um técnico."
+ },
+ "Hotpoint|E7": {
+  "title": "Falha no sensor de temperatura ambiente",
+  "causes": [
+   "O sensor de temperatura ambiente está com defeito."
+  ],
+  "steps": [
+   "Anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Ligue para a assistência técnica Hotpoint para agendar um técnico."
+ },
+ "Hotpoint|E8": {
+  "title": "Falha no sensor de temperatura ambiente",
+  "causes": [
+   "O sensor de temperatura ambiente está com defeito."
+  ],
+  "steps": [
+   "Anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Ligue para a assistência técnica Hotpoint para agendar um técnico."
+ },
+ "Hotpoint|E9": {
+  "title": "Alarme de temperatura alta no freezer",
+  "causes": [
+   "A porta do freezer ficou aberta e o freezer esquentou."
+  ],
+  "steps": [
+   "Feche bem a porta do freezer.",
+   "Verifique se nada está bloqueando a porta.",
+   "Verifique se os alimentos descongelaram."
+  ],
+  "technician": "Se o alarme continuar com a porta fechada, chame a assistência técnica Hotpoint."
+ },
+ "Hotpoint|EE": {
+  "title": "Falha no circuito da máquina de gelo",
+  "causes": [
+   "Uma falha no circuito da máquina de gelo (modelos com máquina de gelo)."
+  ],
+  "steps": [
+   "Desligue a máquina de gelo, se possível."
+  ],
+  "technician": "Ligue para a assistência técnica Hotpoint para agendar um técnico."
+ },
+ "Indesit|E0": {
+  "title": "Falha na máquina de gelo",
+  "causes": [
+   "A máquina de gelo não está funcionando corretamente (modelos com máquina de gelo)."
+  ],
+  "steps": [
+   "Desligue a máquina de gelo, se possível.",
+   "Continue usando a geladeira normalmente."
+  ],
+  "technician": "Ligue para a assistência técnica Indesit para agendar um técnico."
+ },
+ "Indesit|E1": {
+  "title": "Falha no sensor da geladeira",
+  "causes": [
+   "O sensor de temperatura da geladeira está com defeito."
+  ],
+  "steps": [
+   "Anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Ligue para a assistência técnica Indesit para agendar um técnico."
+ },
+ "Indesit|E2": {
+  "title": "Falha no sensor do freezer",
+  "causes": [
+   "O sensor de temperatura do freezer está com defeito.",
+   "A temperatura do freezer pode estar errada."
+  ],
+  "steps": [
+   "Verifique se os alimentos continuam congelados.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Ligue para a assistência técnica Indesit para agendar um técnico."
+ },
+ "Indesit|E3": {
+  "title": "Falha no sensor de degelo",
+  "causes": [
+   "O sensor de degelo está com defeito.",
+   "Um dreno entupido também pode afetar a temperatura."
+  ],
+  "steps": [
+   "Verifique se o furo do dreno de degelo e o tubo de drenagem estão entupidos.",
+   "Desentupa com cuidado."
+  ],
+  "technician": "Se a falha continuar, chame a assistência técnica Indesit."
+ },
+ "Indesit|E4": {
+  "title": "Falha no sensor de degelo da geladeira",
+  "causes": [
+   "O sensor de degelo da geladeira está com defeito."
+  ],
+  "steps": [
+   "Anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Ligue para a assistência técnica Indesit para agendar um técnico."
+ },
+ "Indesit|E5": {
+  "title": "Falha no sensor de degelo do freezer",
+  "causes": [
+   "O sensor de degelo do freezer está com defeito."
+  ],
+  "steps": [
+   "Anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Ligue para a assistência técnica Indesit para agendar um técnico."
+ },
+ "Indesit|E6": {
+  "title": "Falha na placa de controle ou do display",
+  "causes": [
+   "A placa de controle principal ou a placa do display está com defeito."
+  ],
+  "steps": [
+   "Tire a geladeira da tomada por alguns minutos e ligue novamente."
+  ],
+  "technician": "Ligue para a assistência técnica Indesit para agendar um técnico."
+ },
+ "Indesit|E7": {
+  "title": "Falha no sensor de temperatura ambiente",
+  "causes": [
+   "O sensor de temperatura ambiente está com defeito."
+  ],
+  "steps": [
+   "Anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Ligue para a assistência técnica Indesit para agendar um técnico."
+ },
+ "Indesit|E8": {
+  "title": "Falha no sensor de temperatura ambiente",
+  "causes": [
+   "O sensor de temperatura ambiente está com defeito."
+  ],
+  "steps": [
+   "Anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "Ligue para a assistência técnica Indesit para agendar um técnico."
+ },
+ "Indesit|E9": {
+  "title": "Alarme de temperatura alta no freezer",
+  "causes": [
+   "A porta do freezer ficou aberta e o freezer esquentou."
+  ],
+  "steps": [
+   "Feche bem a porta do freezer.",
+   "Verifique se nada está bloqueando a porta.",
+   "Verifique se os alimentos descongelaram."
+  ],
+  "technician": "Se o alarme continuar com a porta fechada, chame a assistência técnica Indesit."
+ },
+ "Indesit|EE": {
+  "title": "Falha no circuito da máquina de gelo",
+  "causes": [
+   "Uma falha no circuito da máquina de gelo (modelos com máquina de gelo)."
+  ],
+  "steps": [
+   "Desligue a máquina de gelo, se possível."
+  ],
+  "technician": "Ligue para a assistência técnica Indesit para agendar um técnico."
+ },
+ "Whirlpool|F3 E1": {
+  "title": "Falha no sistema (F piscando)",
+  "causes": [
+   "O controle detectou uma falha. A Whirlpool não indica nenhuma solução caseira além de um reset."
+  ],
+  "steps": [
+   "Desligue o disjuntor ou tire a geladeira da tomada por um minuto.",
+   "Restabeleça a energia.",
+   "Confira se a refrigeração está ligada.",
+   "Observe por um minuto para ver se o código volta."
+  ],
+  "technician": "Se o código voltar depois do reset, agende a assistência técnica Whirlpool."
+ },
+ "Whirlpool|F3 E2": {
+  "title": "Falha no sistema (F piscando)",
+  "causes": [
+   "O controle detectou uma falha. A Whirlpool não indica nenhuma solução caseira além de um reset."
+  ],
+  "steps": [
+   "Desligue o disjuntor ou tire a geladeira da tomada por um minuto.",
+   "Restabeleça a energia.",
+   "Confira se a refrigeração está ligada.",
+   "Observe por um minuto para ver se o código volta."
+  ],
+  "technician": "Se o código voltar depois do reset, agende a assistência técnica Whirlpool."
+ },
+ "Whirlpool|F6 E1": {
+  "title": "Falha no sistema (F piscando)",
+  "causes": [
+   "O controle detectou uma falha. A Whirlpool não indica nenhuma solução caseira além de um reset."
+  ],
+  "steps": [
+   "Desligue o disjuntor ou tire a geladeira da tomada por um minuto.",
+   "Restabeleça a energia.",
+   "Confira se a refrigeração está ligada.",
+   "Observe por um minuto para ver se o código volta."
+  ],
+  "technician": "Se o código voltar depois do reset, agende a assistência técnica Whirlpool."
+ },
+ "Whirlpool|F8 E1": {
+  "title": "Falha no sistema (F piscando)",
+  "causes": [
+   "O controle detectou uma falha. A Whirlpool não indica nenhuma solução caseira além de um reset."
+  ],
+  "steps": [
+   "Desligue o disjuntor ou tire a geladeira da tomada por um minuto.",
+   "Restabeleça a energia.",
+   "Confira se a refrigeração está ligada.",
+   "Observe por um minuto para ver se o código volta."
+  ],
+  "technician": "Se o código voltar depois do reset, agende a assistência técnica Whirlpool."
+ },
+ "Whirlpool|F8 E2": {
+  "title": "Falha no sistema (F piscando)",
+  "causes": [
+   "O controle detectou uma falha. A Whirlpool não indica nenhuma solução caseira além de um reset."
+  ],
+  "steps": [
+   "Desligue o disjuntor ou tire a geladeira da tomada por um minuto.",
+   "Restabeleça a energia.",
+   "Confira se a refrigeração está ligada.",
+   "Observe por um minuto para ver se o código volta."
+  ],
+  "technician": "Se o código voltar depois do reset, agende a assistência técnica Whirlpool."
+ },
+ "Whirlpool|PO": {
+  "title": "Alerta de queda de energia",
+  "causes": [
+   "A energia foi cortada e o freezer esquentou até -8 °C (18 °F) ou mais."
+  ],
+  "steps": [
+   "Pressione o botão sob a indicação Confirm piscando para apagar o alerta.",
+   "Verifique se os alimentos congelados descongelaram."
+  ],
+  "technician": "Não é um defeito. Só entre em contato com a Whirlpool se PO aparecer sem uma queda de energia real."
+ },
+ "Bosch|E02": {
+  "title": "Falha na máquina de gelo ou no sistema de água",
+  "causes": [
+   "A máquina de gelo está com defeito.",
+   "Os controles de gelo e água não estão se comunicando."
+  ],
+  "steps": [
+   "Desligue o disjuntor da geladeira por 30 segundos.",
+   "Ligue novamente e verifique o código."
+  ],
+  "technician": "Se E02 continuar, entre em contato com o suporte ao cliente Bosch."
+ },
+ "Bosch|E03": {
+  "title": "Falha no controle do dispenser",
+  "causes": [
+   "O painel de controle do dispenser está com falha."
+  ],
+  "steps": [
+   "Desligue o disjuntor da geladeira por 30 segundos.",
+   "Ligue novamente e verifique o código."
+  ],
+  "technician": "Se E03 continuar, entre em contato com o suporte ao cliente Bosch."
+ },
+ "Haier|F1": {
+  "title": "Erro de sensor",
+  "causes": [
+   "Um sensor de temperatura está com defeito."
+  ],
+  "steps": [
+   "Desligue e ligue a geladeira uma vez para ver se o código some.",
+   "Se voltar, anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "O usuário não consegue resolver isso. Entre em contato com a assistência técnica Haier para chamar um técnico."
+ },
+ "Haier|E0": {
+  "title": "Erro de comunicação",
+  "causes": [
+   "As placas internas não estão se comunicando."
+  ],
+  "steps": [
+   "Desligue e ligue a geladeira uma vez para ver se o código some.",
+   "Se voltar, anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "O usuário não consegue resolver isso. Entre em contato com a assistência técnica Haier para chamar um técnico."
+ },
+ "Haier|E1": {
+  "title": "Erro no ventilador",
+  "causes": [
+   "Um ventilador não está funcionando."
+  ],
+  "steps": [
+   "Desligue e ligue a geladeira uma vez para ver se o código some.",
+   "Se voltar, anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "O usuário não consegue resolver isso. Entre em contato com a assistência técnica Haier para chamar um técnico."
+ },
+ "Haier|Er": {
+  "title": "Erro na máquina de gelo",
+  "causes": [
+   "A máquina de gelo está com defeito."
+  ],
+  "steps": [
+   "Desligue e ligue a geladeira uma vez para ver se o código some.",
+   "Se voltar, anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "O usuário não consegue resolver isso. Entre em contato com a assistência técnica Haier para chamar um técnico."
+ },
+ "Haier|Ed": {
+  "title": "Erro no degelo",
+  "causes": [
+   "O sistema de degelo está com defeito."
+  ],
+  "steps": [
+   "Desligue e ligue a geladeira uma vez para ver se o código some.",
+   "Se voltar, anote o código.",
+   "Mantenha as portas fechadas o máximo possível para proteger os alimentos."
+  ],
+  "technician": "O usuário não consegue resolver isso. Entre em contato com a assistência técnica Haier para chamar um técnico."
+ }
+}

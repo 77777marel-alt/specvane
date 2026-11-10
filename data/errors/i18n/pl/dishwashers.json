@@ -1,0 +1,1034 @@
+{
+ "Bosch|E09": {
+  "title": "Usterka grzania",
+  "causes": [
+   "Usterka części grzewczej pompy obiegowej (grzewczej)."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę bezpiecznikiem lub wyłącznikiem na 30 sekund.",
+   "Włączyć ponownie i uruchomić program."
+  ],
+  "technician": "Jeśli kod wraca, należy wezwać serwis Bosch."
+ },
+ "Bosch|E12": {
+  "title": "Kamień na pompie grzewczej",
+  "causes": [
+   "Na pompie grzewczej osadził się kamień, często w regionach z twardą wodą."
+  ],
+  "steps": [
+   "Uruchomić cykl odkamieniania ze środkiem do odkamieniania zmywarek.",
+   "Uzupełniać sól zmiękczającą, jeśli model ma zmiękczacz wody.",
+   "Regularnie odkamieniać przy twardej wodzie."
+  ],
+  "technician": "Jeśli kod nie znika po odkamienianiu, należy wezwać serwis Bosch."
+ },
+ "Bosch|E14": {
+  "title": "Problem z napełnianiem wodą (przepływomierz)",
+  "causes": [
+   "Przepływomierz jest uszkodzony lub zmywarka nie napełnia się prawidłowo."
+  ],
+  "steps": [
+   "Sprawdzić, czy zawór wody pod zlewem jest całkowicie odkręcony.",
+   "Wyłączyć wyłącznik na 30 sekund i spróbować ponownie."
+  ],
+  "technician": "Bosch zaleca kontakt z serwisem w przypadku tego kodu."
+ },
+ "Bosch|E15": {
+  "title": "Woda w misce podstawy (zadziałało zabezpieczenie przed wyciekiem)",
+  "causes": [
+   "W podstawie zmywarki zebrała się woda.",
+   "Wyciek z węża, uszczelki lub części wewnętrznej.",
+   "Za dużo piany, np. z płynu do mycia naczyń."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu.",
+   "Zakręcić zawór wody doprowadzający wodę do zmywarki.",
+   "Wytrzeć wodę z podłogi."
+  ],
+  "technician": "Bosch zaleca zakręcenie wody i wezwanie serwisu. Ukryty wyciek trzeba znaleźć i usunąć."
+ },
+ "Bosch|E16": {
+  "title": "Woda może nie dopływać",
+  "causes": [
+   "Wąż dopływowy jest zagięty lub uszkodzony."
+  ],
+  "steps": [
+   "Sprawdzić, czy wąż dopływowy nie jest zagięty, zgnieciony ani uszkodzony.",
+   "Upewnić się, że zawór wody jest odkręcony."
+  ],
+  "technician": "Jeśli kod nie znika, należy wezwać serwis Bosch."
+ },
+ "Bosch|E17": {
+  "title": "Woda może nie dopływać",
+  "causes": [
+   "Wąż dopływowy jest zagięty lub uszkodzony."
+  ],
+  "steps": [
+   "Sprawdzić, czy wąż dopływowy nie jest zagięty, zgnieciony ani uszkodzony.",
+   "Upewnić się, że zawór wody jest odkręcony."
+  ],
+  "technician": "Jeśli kod nie znika, należy wezwać serwis Bosch."
+ },
+ "Bosch|E18": {
+  "title": "Zbyt niski poziom wody",
+  "causes": [
+   "Zawór wody jest zakręcony lub częściowo zakręcony.",
+   "Wąż dopływowy jest zagięty.",
+   "Słaby przepływ wody."
+  ],
+  "steps": [
+   "Upewnić się, że dopływ wody jest całkowicie otwarty.",
+   "Sprawdzić, czy wąż dopływowy nie jest zagięty ani uszkodzony.",
+   "Sprawdzić przepływ: zawór powinien dawać ok. 10 litrów na minutę."
+  ],
+  "technician": "Jeśli zasilanie wodą jest w porządku, a kod wraca, należy wezwać serwis Bosch."
+ },
+ "Bosch|E19": {
+  "title": "Usterka obwodu dozownika detergentu",
+  "causes": [
+   "Usterka elektryczna w obwodzie dozownika detergentu."
+  ],
+  "steps": [
+   "Wyłączyć wyłącznik na 30 sekund, a następnie włączyć go ponownie."
+  ],
+  "technician": "Jeśli kod wraca, należy wezwać serwis Bosch."
+ },
+ "Bosch|E22": {
+  "title": "Zatkany filtr",
+  "causes": [
+   "Resztki jedzenia blokują filtr."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę.",
+   "Wyjąć dolny kosz i wyjąć filtr.",
+   "Opłukać filtr pod bieżącą wodą miękką szczoteczką z łagodnym mydłem.",
+   "Zamontować filtr, aż się zablokuje."
+  ],
+  "technician": "Zwykle nie jest potrzebny. Jeśli kod nie znika po wyczyszczeniu, należy wezwać serwis Bosch."
+ },
+ "Bosch|E23": {
+  "title": "Pompa odpływowa zatkana lub uszkodzona",
+  "causes": [
+   "Pompa odpływowa jest zatkana lub uszkodzona."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu.",
+   "Wyczyścić filtr i sprawdzić, czy w studzience nie ma luźnych zanieczyszczeń."
+  ],
+  "technician": "Bosch zaleca wezwanie serwisu w przypadku tego kodu."
+ },
+ "Bosch|E24": {
+  "title": "Brak odpływu – zatkany wąż odpływowy lub filtr",
+  "causes": [
+   "Wąż odpływowy jest zagięty lub zatkany.",
+   "Filtr jest zatkany.",
+   "Nowy młynek do odpadków lub syfon nadal ma zaślepkę."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu.",
+   "Sprawdzić, czy wąż odpływowy nie jest zagięty.",
+   "Wyczyścić filtry i upewnić się, że osłona pompy pod filtrem jest założona.",
+   "Jeśli zmywarka jest podłączona do młynka do odpadków lub nowego syfonu, sprawdzić, czy usunięto zaślepkę."
+  ],
+  "technician": "Jeśli woda nadal nie odpływa, należy wezwać serwis Bosch."
+ },
+ "Bosch|E25": {
+  "title": "Pompa odpływowa zatkana lub luźna osłona pompy",
+  "causes": [
+   "Potłuczone szkło, pestki lub inne zanieczyszczenia blokują pompę odpływową.",
+   "Osłona pompy jest luźna lub jej brakuje."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu.",
+   "Wyjąć dolny kosz i filtry.",
+   "Wybrać stojącą wodę kubkiem lub gąbką.",
+   "Odpiąć białą osłonę pompy (pomocna jest łyżka) i usunąć zanieczyszczenia. Uważać na ostre szkło.",
+   "Założyć osłonę, aż kliknie, a następnie zamontować filtry."
+  ],
+  "technician": "Jeśli kod wraca po wyczyszczeniu, należy wezwać serwis Bosch."
+ },
+ "Bosch|E27": {
+  "title": "Zbyt niskie napięcie w sieci",
+  "causes": [
+   "Napięcie zasilania w domu jest zbyt niskie. Sama zmywarka nie jest uszkodzona."
+  ],
+  "steps": [
+   "Wyłączyć wyłącznik na 30 sekund, a następnie włączyć go ponownie."
+  ],
+  "technician": "Jeśli sytuacja się powtórzy, należy zlecić elektrykowi sprawdzenie napięcia zasilania."
+ },
+ "Siemens|E08": {
+  "title": "Zbyt niski poziom wody podczas mycia",
+  "causes": [
+   "Miski lub garnki przewróciły się i zbiera się w nich woda.",
+   "Naczynia blokują pobór wody."
+  ],
+  "steps": [
+   "Sprawdzić załadunek i odwrócić miski i garnki dnem do góry.",
+   "Upewnić się, że nic nie blokuje ramion spryskujących ani poboru wody."
+  ],
+  "technician": "Jeśli problem się powtarza, należy skontaktować się z serwisem Siemens."
+ },
+ "Siemens|E09": {
+  "title": "Usterka układu grzewczego",
+  "causes": [
+   "Usterka układu grzewczego."
+  ],
+  "steps": [
+   "Wyłączyć, odczekać kilka minut i włączyć ponownie."
+  ],
+  "technician": "Należy skontaktować się z serwisem Siemens i podać kod."
+ },
+ "Siemens|E12": {
+  "title": "Grzałka pokryta kamieniem lub brudem",
+  "causes": [
+   "Kamień lub brud na grzałce."
+  ],
+  "steps": [
+   "Uruchomić cykl odkamieniania zgodnie z instrukcją obsługi.",
+   "Wyczyścić filtry."
+  ],
+  "technician": "Jeśli kod nie znika po odkamienianiu, należy skontaktować się z serwisem Siemens."
+ },
+ "Siemens|E14": {
+  "title": "Usterka napełniania – aktywne zabezpieczenie wodne",
+  "causes": [
+   "Problem z zasilaniem wodą lub układem napełniania."
+  ],
+  "steps": [
+   "Sprawdzić, czy zawór wody jest odkręcony.",
+   "Sprawdzić, czy wąż dopływowy nie jest zagięty."
+  ],
+  "technician": "Jeśli problem się powtarza, należy skontaktować się z serwisem Siemens."
+ },
+ "Siemens|E15": {
+  "title": "Woda w podstawie (zadziałało zabezpieczenie wodne)",
+  "causes": [
+   "W tacy podstawy zmywarki zebrała się woda."
+  ],
+  "steps": [
+   "Zakręcić zawór wody.",
+   "Wyłączyć zmywarkę.",
+   "Wytrzeć wodę z podłogi."
+  ],
+  "technician": "Siemens odradza samodzielną naprawę. Należy wezwać serwis Siemens."
+ },
+ "Siemens|E16": {
+  "title": "Usterka napełniania lub dopływu wody",
+  "causes": [
+   "Problem z układem napełniania lub dopływem wody."
+  ],
+  "steps": [
+   "Zakręcić zawór.",
+   "Sprawdzić, czy wąż dopływowy nie jest zagięty, a następnie ponownie odkręcić zawór."
+  ],
+  "technician": "Jeśli zdarza się to często, urządzenie wymaga serwisanta. Należy skontaktować się z serwisem Siemens."
+ },
+ "Siemens|E18": {
+  "title": "Usterka dopływu wody",
+  "causes": [
+   "Wąż dopływowy jest wygięty.",
+   "Zawór jest zakręcony, zablokowany lub pokryty kamieniem.",
+   "Filtr wlotowy jest zatkany."
+  ],
+  "steps": [
+   "Upewnić się, że zawór jest całkowicie odkręcony.",
+   "Sprawdzić, czy wąż dopływowy nie jest zagięty.",
+   "Wyłączyć, zakręcić zawór, zdjąć wąż i wyczyścić filtr, a następnie zamontować go i sprawdzić, czy nie ma wycieków."
+  ],
+  "technician": "Jeśli przepływ wody jest słaby, należy wezwać hydraulika. Jeśli problem się powtarza, należy skontaktować się z serwisem Siemens."
+ },
+ "Siemens|E22": {
+  "title": "Zabrudzone lub zatkane filtry",
+  "causes": [
+   "Resztki jedzenia zatykają układ filtrów."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę.",
+   "Wyjąć filtry i dokładnie je opłukać.",
+   "Prawidłowo zamontować filtry."
+  ],
+  "technician": "Zwykle nie jest potrzebny."
+ },
+ "Siemens|E23": {
+  "title": "Usterka pompy odpływowej",
+  "causes": [
+   "Usterka pompy wody brudnej."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu."
+  ],
+  "technician": "Według Siemens usunąć to może tylko serwis producenta. Należy się z nim skontaktować i podać kod."
+ },
+ "Siemens|E24": {
+  "title": "Brak odpływu – prawdopodobnie zatkana pompa lub wąż",
+  "causes": [
+   "Pompa odpływowa lub droga odpływu jest zatkana."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu.",
+   "Wyczyścić filtry i sprawdzić, czy w okolicy pompy nie ma zanieczyszczeń.",
+   "Sprawdzić, czy wąż odpływowy nie jest zagięty."
+  ],
+  "technician": "Jeśli problem się utrzymuje, należy zakręcić zawór i wezwać serwis Siemens."
+ },
+ "Siemens|E25": {
+  "title": "Zatkana pompa odpływowa",
+  "causes": [
+   "Zanieczyszczenia, np. szkło lub pestki, blokują pompę odpływową."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu.",
+   "Wyjąć filtry i wybrać stojącą wodę.",
+   "Zdjąć osłonę pompy i ostrożnie usunąć zanieczyszczenia – uważać na ostre szkło.",
+   "Założyć z powrotem osłonę i filtry."
+  ],
+  "technician": "Jeśli problem się utrzymuje, należy zakręcić zawór i wezwać serwis Siemens."
+ },
+ "Siemens|E27": {
+  "title": "Niskie napięcie w sieci",
+  "causes": [
+   "Napięcie zasilania jest zbyt niskie. Samo urządzenie nie jest uszkodzone."
+  ],
+  "steps": [
+   "Wyłączyć i ponownie włączyć później."
+  ],
+  "technician": "Należy zlecić elektrykowi sprawdzenie instalacji. Jeśli problem się powtarza, należy skontaktować się z serwisem Siemens."
+ },
+ "Samsung|4C": {
+  "title": "Mało wody lub brak dopływu",
+  "causes": [
+   "Zawór wody jest zakręcony.",
+   "Dopływ wody jest odcięty.",
+   "Wąż dopływowy lub zawór jest zamarznięty lub zatkany."
+  ],
+  "steps": [
+   "Sprawdzić, czy zawór wody jest całkowicie odkręcony.",
+   "Sprawdzić, czy woda leci z innych kranów.",
+   "Sprawdzić, czy wąż dopływowy nie jest zagięty ani zatkany."
+  ],
+  "technician": "Jeśli woda nadal nie dopływa, należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|5C": {
+  "title": "Woda nie odpływa",
+  "causes": [
+   "Odpływ lub podłączenie do zlewu jest zatkane.",
+   "Filtr jest zatkany.",
+   "Wąż odpływowy jest zagięty."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu.",
+   "Wyczyścić filtr siatkowy na dnie.",
+   "Sprawdzić, czy wąż odpływowy i podłączenie do zlewu nie są zagięte ani zatkane."
+  ],
+  "technician": "Jeśli woda nadal nie odpływa, należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|5C2": {
+  "title": "Pompa odpływowa staje",
+  "causes": [
+   "Zanieczyszczenia blokują pompę odpływową."
+  ],
+  "steps": [
+   "Anulować cykl, aby odpompować wodę.",
+   "Wyłączyć zmywarkę i odłączyć ją od prądu.",
+   "Wyjąć dolny kosz i filtr oraz sprawdzić, czy w studzience nie ma zanieczyszczeń."
+  ],
+  "technician": "Jeśli pompa nadal staje, należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|LC": {
+  "title": "Wykryto wyciek",
+  "causes": [
+   "Woda wycieka wokół drzwi lub do podstawy.",
+   "Użyto płynu do mycia naczyń zamiast detergentu do zmywarek.",
+   "Zlew lub młynek do odpadków się cofa."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę.",
+   "Używać wyłącznie detergentu do zmywarek.",
+   "Wyczyścić uszczelkę drzwi i dolną krawędź drzwi.",
+   "Sprawdzić, czy pod zmywarką nie ma wody, i ją wytrzeć.",
+   "Sprawdzić, czy odpływ zlewu się nie cofa."
+  ],
+  "technician": "Jeśli woda nadal wycieka, należy zakręcić dopływ wody i skontaktować się z serwisem Samsung."
+ },
+ "Samsung|OC": {
+  "title": "Przepełnienie lub za dużo piany",
+  "causes": [
+   "Za dużo piany z detergentu.",
+   "Zatkany filtr.",
+   "Wąż odpływowy jest zagięty."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę.",
+   "Sprawdzić, czy używany jest właściwy detergent do zmywarek we właściwej ilości.",
+   "Wyczyścić filtr i usunąć stojącą wodę z dna.",
+   "Sprawdzić, czy wąż odpływowy nie jest zagięty."
+  ],
+  "technician": "Jeśli zmywarka nadal pobiera wodę, należy zakręcić dopływ wody i skontaktować się z serwisem Samsung."
+ },
+ "Samsung|HC": {
+  "title": "Problem z grzaniem (przegrzanie)",
+  "causes": [
+   "Woda dopływowa jest bardzo gorąca.",
+   "Filtry są zabrudzone, więc woda słabo krąży."
+  ],
+  "steps": [
+   "Wyłączyć na co najmniej 5 minut.",
+   "Wyczyścić filtry.",
+   "Uruchomić zwykły cykl z pustą zmywarką i detergentem."
+  ],
+  "technician": "Jeśli kod wraca, należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|tC": {
+  "title": "Problem z czujnikiem temperatury",
+  "causes": [
+   "Zmywarka wykryła usterkę pomiaru temperatury."
+  ],
+  "steps": [
+   "Wyłączyć zasilanie przy gniazdku lub wyłącznikiem na co najmniej 5 minut.",
+   "Włączyć i uruchomić cykl Normal."
+  ],
+  "technician": "Jeśli kod wraca, należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|DC": {
+  "title": "Drzwi nie są zamknięte",
+  "causes": [
+   "Drzwi nie są zatrzaśnięte.",
+   "Sztuciec lub naczynie wystaje i blokuje drzwi."
+  ],
+  "steps": [
+   "Wsunąć wystające przedmioty.",
+   "Wyczyścić okolice zatrzasku drzwi.",
+   "Mocno zamknąć drzwi.",
+   "Wyłączyć na 30 sekund, a następnie włączyć ponownie."
+  ],
+  "technician": "Jeśli drzwi nie chcą się zatrzasnąć, należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|3C": {
+  "title": "Pompa myjąca nie pracuje",
+  "causes": [
+   "Zmywarka pobiera wodę, ale silnik myjący się nie uruchamia."
+  ],
+  "steps": [
+   "Wyłączyć na minutę, a następnie spróbować ponownie."
+  ],
+  "technician": "Jeśli nadal nie ma spryskiwania, należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|PC": {
+  "title": "Nie uruchamia się z Zone Wash lub Half Load",
+  "causes": [
+   "Usterka związana z funkcją Zone Wash lub Half Load."
+  ],
+  "steps": [
+   "Wyłączyć na co najmniej 30 sekund.",
+   "Wyłączyć Zone Wash lub Half Load i uruchomić cykl Normal."
+  ],
+  "technician": "Jeśli kod wraca, należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|9C1": {
+  "title": "Tryb ochrony napięciowej",
+  "causes": [
+   "Mignięcie prądu, skok napięcia lub zadziałanie bezpiecznika."
+  ],
+  "steps": [
+   "Sprawdzić wtyczkę i gniazdko.",
+   "Wyłączyć zasilanie przy gniazdku lub wyłącznikiem na co najmniej 1 minutę, a następnie spróbować ponownie.",
+   "Używać osobnego gniazdka bez przedłużaczy i przejściówek."
+  ],
+  "technician": "Jeśli problem się powtarza, należy zlecić elektrykowi sprawdzenie instalacji."
+ },
+ "Samsung|AC": {
+  "title": "Włącza się, ale nie pracuje",
+  "causes": [
+   "Wewnętrzna usterka sterowania."
+  ],
+  "steps": [
+   "Wyłączyć zasilanie przy gniazdku lub wyłącznikiem.",
+   "Odczekać 1 minutę, włączyć i spróbować ponownie."
+  ],
+  "technician": "Jeśli kod wraca, należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|6C1": {
+  "title": "Problem z dozownikiem detergentu",
+  "causes": [
+   "Silnik dozownika nie działa prawidłowo.",
+   "W dozowniku utknęła tabletka."
+  ],
+  "steps": [
+   "Odłączyć zmywarkę od prądu na 5 minut.",
+   "Sprawdzić, czy w dozowniku nie utknęła tabletka."
+  ],
+  "technician": "Jeśli kod wraca, należy skontaktować się z serwisem Samsung."
+ },
+ "LG|AE": {
+  "title": "Wykryto wyciek lub przepełnienie",
+  "causes": [
+   "Dopłynęło za dużo wody lub wykryto wyciek.",
+   "Płyn do mycia naczyń spowodował nadmiar piany.",
+   "Zmywarka nie stoi poziomo."
+  ],
+  "steps": [
+   "Używać wyłącznie detergentu do zmywarek.",
+   "Duże talerze i garnki wkładać dnem do góry.",
+   "Sprawdzić, czy zmywarka stoi poziomo."
+  ],
+  "technician": "Jeśli nie ma wycieku, a kod nie znika, należy wyłączyć zasilanie i zgłosić naprawę w serwisie LG. Nie wysuwać samodzielnie urządzenia do zabudowy."
+ },
+ "LG|IE": {
+  "title": "Za mało dopływającej wody",
+  "causes": [
+   "Przerwa w dostawie wody w domu.",
+   "Wąż dopływowy jest wygięty lub zgnieciony.",
+   "Zawór wlotowy lub zawór pod zlewem jest zakręcony."
+  ],
+  "steps": [
+   "Sprawdzić, czy w innych kranach jest woda.",
+   "Wyprostować wąż dopływowy i usunąć wszystko, co go przygniata.",
+   "Odkręcić zawór pod zlewem, zwłaszcza po instalacji lub przeprowadzce."
+  ],
+  "technician": "Jeśli problem się utrzymuje, należy skontaktować się z instalatorem lub serwisem LG."
+ },
+ "LG|OE": {
+  "title": "Brak odpływu",
+  "causes": [
+   "Filtr jest zatkany.",
+   "Wąż odpływowy jest wygięty lub zgnieciony."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odczekać 30 minut, aż ostygnie.",
+   "Wyjąć dolny kosz, wykręcić filtr i go opłukać.",
+   "Zamontować filtr, aż kliknie.",
+   "Wyprostować wąż odpływowy."
+  ],
+  "technician": "Jeśli nad filtrem nadal stoi woda, należy zgłosić naprawę w serwisie LG."
+ },
+ "LG|bE": {
+  "title": "Za dużo piany",
+  "causes": [
+   "Użyto płynu do mycia naczyń.",
+   "Za dużo detergentu."
+  ],
+  "steps": [
+   "Używać wyłącznie detergentu do zmywarek i w mniejszej ilości.",
+   "Wytrzeć pianę i uruchomić płukanie bez detergentu."
+  ],
+  "technician": "Jeśli kod bE pojawia się bez piany, należy zgłosić naprawę w serwisie LG."
+ },
+ "LG|nE": {
+  "title": "Problem z pompą spryskującą (Vario)",
+  "causes": [
+   "Wirnik nie obraca się prawidłowo.",
+   "Naczynia dotykają układu spryskującego."
+  ],
+  "steps": [
+   "Przełożyć naczynia tak, aby nic nie blokowało ramion spryskujących.",
+   "Uruchomić cykl ponownie."
+  ],
+  "technician": "Jeśli kod nie znika, należy zgłosić naprawę w serwisie LG."
+ },
+ "LG|HE": {
+  "title": "Woda się nie nagrzewa",
+  "causes": [
+   "Usterka grzałki."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu."
+  ],
+  "technician": "LG zaleca zgłoszenie naprawy w serwisie."
+ },
+ "LG|tE": {
+  "title": "Usterka czujnika temperatury",
+  "causes": [
+   "Słaby styk lub uszkodzony czujnik temperatury."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu."
+  ],
+  "technician": "LG zaleca zgłoszenie naprawy w serwisie."
+ },
+ "LG|LE": {
+  "title": "Usterka silnika myjącego",
+  "causes": [
+   "Silnik myjący nie działa prawidłowo."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu."
+  ],
+  "technician": "LG zaleca zgłoszenie naprawy w serwisie."
+ },
+ "LG|PE": {
+  "title": "Usterka czujnika poziomu wody (starsze modele)",
+  "causes": [
+   "Usterka czujnika poziomu wody."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu."
+  ],
+  "technician": "LG zaleca zgłoszenie naprawy w serwisie."
+ },
+ "LG|F37": {
+  "title": "Automatyczne otwieranie drzwi nie działa",
+  "causes": [
+   "Coś blokuje drzwi.",
+   "Usterka elementów automatycznego otwierania."
+  ],
+  "steps": [
+   "Usunąć wszystko, co znajduje się przy drzwiach, i uruchomić ponownie."
+  ],
+  "technician": "Jeśli problem się utrzymuje, należy zgłosić naprawę w serwisie LG."
+ },
+ "AEG|i10": {
+  "title": "Brak napełniania wodą",
+  "causes": [
+   "Zawór wody jest zakręcony.",
+   "Zbyt niskie ciśnienie wody.",
+   "Wąż dopływowy jest zagięty.",
+   "Filtr w wężu dopływowym jest zatkany."
+  ],
+  "steps": [
+   "Odkręcić zawór wody.",
+   "Sprawdzić, czy wąż dopływowy nie jest zagięty ani wygięty.",
+   "Wyłączyć zmywarkę, odłączyć ją od prądu, zakręcić zawór, zdjąć wąż i wyczyścić jego filtr.",
+   "Przykręcić wąż ręcznie, odkręcić zawór i uruchomić program."
+  ],
+  "technician": "Jeśli problem się utrzymuje, należy skontaktować się z autoryzowanym serwisem."
+ },
+ "AEG|i20": {
+  "title": "Brak odpływu",
+  "causes": [
+   "Króciec przy zlewie lub syfon jest zatkany.",
+   "Filtr lub studzienka jest zatkana.",
+   "Wąż odpływowy jest zagięty, za długi lub zamontowany na złej wysokości.",
+   "Po instalacji w syfonie pozostawiono zaślepkę."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu.",
+   "Wyczyścić filtr i studzienkę.",
+   "Sprawdzić, czy wąż odpływowy nie jest zagięty ani skręcony.",
+   "Sprawdzić, czy króciec syfonu jest drożny (i czy po nowej instalacji usunięto zaślepkę).",
+   "Podłączyć do prądu i uruchomić program."
+  ],
+  "technician": "Jeśli woda nadal nie odpływa, należy skontaktować się z autoryzowanym serwisem."
+ },
+ "AEG|i30": {
+  "title": "Wykryto wyciek (ochrona przed zalaniem)",
+  "causes": [
+   "System ochrony przed zalaniem wykrył wodę w podstawie."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu.",
+   "Zakręcić zawór wody.",
+   "Wytrzeć wodę z podłogi."
+  ],
+  "technician": "Należy umówić naprawę, aby znaleźć i usunąć wyciek."
+ },
+ "AEG|i40": {
+  "title": "Problem z czujnikiem poziomu (ciśnienia) wody",
+  "causes": [
+   "Nie można prawidłowo zmierzyć poziomu wody."
+  ],
+  "steps": [
+   "Wyłączyć zasilanie w gniazdku na ok. minutę, a następnie uruchomić ponownie."
+  ],
+  "technician": "Jeśli kod wraca, należy umówić naprawę."
+ },
+ "AEG|i50": {
+  "title": "Usterka silnika myjącego lub pompy obiegowej",
+  "causes": [
+   "Usterka silnika myjącego, pompy obiegowej lub ich sterowania."
+  ],
+  "steps": [
+   "Wyłączyć zasilanie w gniazdku na ok. minutę, a następnie uruchomić ponownie."
+  ],
+  "technician": "Jeśli kod wraca, należy umówić naprawę."
+ },
+ "AEG|i60": {
+  "title": "Usterka grzania",
+  "causes": [
+   "Woda nie nagrzewa się zgodnie z oczekiwaniami."
+  ],
+  "steps": [
+   "Wyłączyć zasilanie w gniazdku na ok. minutę, a następnie uruchomić ponownie."
+  ],
+  "technician": "Jeśli kod wraca, należy umówić naprawę."
+ },
+ "AEG|iF0": {
+  "title": "Problem ze sterowaniem poziomem wody",
+  "causes": [
+   "Poziom napełnienia jest nieprawidłowy lub nietypowy."
+  ],
+  "steps": [
+   "Sprawdzić, czy zawór wody jest całkowicie odkręcony.",
+   "Wyczyścić filtry.",
+   "Wyłączyć zasilanie w gniazdku na ok. minutę, a następnie uruchomić ponownie."
+  ],
+  "technician": "Jeśli kod wraca, należy umówić naprawę."
+ },
+ "Hotpoint|F01": {
+  "title": "Przelew – ochrona przed zalaniem",
+  "causes": [
+   "Woda w podstawie uruchomiła pływak ochrony przed zalaniem.",
+   "Wyciek lub uszkodzony wyłącznik pływakowy."
+  ],
+  "steps": [
+   "Wyłączyć i ponownie włączyć zmywarkę, aby ją zresetować.",
+   "Jeśli na podłodze jest woda, zakręcić zawór wody."
+  ],
+  "technician": "Jeśli kod wraca, należy umówić wizytę serwisanta Hotpoint."
+ },
+ "Hotpoint|F02": {
+  "title": "Usterka zaworu napełniania",
+  "causes": [
+   "Zawór napełniania wpuszcza wodę, gdy nie powinien, lub jest uszkodzony."
+  ],
+  "steps": [
+   "Sprawdzić, czy wąż odpływowy nie leży na podłodze.",
+   "Jeśli woda nadal dopływa, zakręcić zawór wody."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Hotpoint."
+ },
+ "Hotpoint|F03": {
+  "title": "Usterka odpływu / odpompowanie trwało zbyt długo",
+  "causes": [
+   "Wąż odpływowy lub kanalizacja pod zlewem jest zatkana.",
+   "Pompa odpływowa jest zatkana lub uszkodzona."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu.",
+   "Wyczyścić filtry.",
+   "Sprawdzić, czy wąż odpływowy i kanalizacja pod zlewem nie są zatkane."
+  ],
+  "technician": "Jeśli usterka się utrzymuje, należy umówić wizytę serwisanta."
+ },
+ "Hotpoint|F04": {
+  "title": "Usterka czujnika temperatury",
+  "causes": [
+   "Usterka termostatu lub czujnika temperatury."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Hotpoint."
+ },
+ "Hotpoint|F06": {
+  "title": "Napełnianie trwało zbyt długo",
+  "causes": [
+   "Zawór jest zakręcony lub częściowo zakręcony.",
+   "Niskie ciśnienie wody.",
+   "Wąż napełniający jest zagięty lub jego filtr jest zatkany."
+  ],
+  "steps": [
+   "Upewnić się, że zawór jest całkowicie odkręcony.",
+   "Sprawdzić, czy wąż napełniający nie jest zagięty ani zgnieciony.",
+   "Sprawdzić, czy ciśnienie wody jest prawidłowe."
+  ],
+  "technician": "Jeśli usterka się utrzymuje, należy umówić wizytę serwisanta."
+ },
+ "Hotpoint|F08": {
+  "title": "Podgrzewanie wody trwało zbyt długo",
+  "causes": [
+   "Kamień, nadmiar piany, złe ustawienie twardości wody lub usterka grzania."
+  ],
+  "steps": [
+   "Sprawdzić ustawienie twardości wody.",
+   "Stosować właściwą ilość detergentu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Hotpoint."
+ },
+ "Hotpoint|F10": {
+  "title": "Usterka grzałki",
+  "causes": [
+   "Obwód grzania jest przerwany lub grzałka jest uszkodzona."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Hotpoint."
+ },
+ "Hotpoint|F11": {
+  "title": "Usterka pompy myjącej",
+  "causes": [
+   "Pompa myjąca jest uszkodzona, zatarta lub zablokowana przez zanieczyszczenia."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu.",
+   "Wyczyścić filtry."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Hotpoint."
+ },
+ "Hotpoint|F12": {
+  "title": "Brak komunikacji płytki głównej z wyświetlaczem",
+  "causes": [
+   "Usterka okablowania lub wyświetlacza."
+  ],
+  "steps": [
+   "Odłączyć zmywarkę od prądu na 2 minuty, a następnie podłączyć i sprawdzić."
+  ],
+  "technician": "Jeśli problem się utrzymuje, należy umówić wizytę serwisanta."
+ },
+ "Hotpoint|F13": {
+  "title": "Usterka płytki głównej",
+  "causes": [
+   "Główna płytka sterująca jest uszkodzona."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Hotpoint."
+ },
+ "Indesit|F01": {
+  "title": "Przelew – ochrona przed zalaniem",
+  "causes": [
+   "Woda w podstawie uruchomiła system ochrony przed zalaniem."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu.",
+   "Zakręcić zawór wody i wytrzeć wodę."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Indesit."
+ },
+ "Indesit|F02": {
+  "title": "Usterka zaworu napełniania",
+  "causes": [
+   "Zawór napełniania jest uszkodzony."
+  ],
+  "steps": [
+   "Jeśli woda nadal dopływa, zakręcić zawór wody.",
+   "Wyłączyć zmywarkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Indesit."
+ },
+ "Indesit|F03": {
+  "title": "Usterka odpływu / odpompowanie trwało zbyt długo",
+  "causes": [
+   "Zator w wężu odpływowym lub kanalizacji pod zlewem."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu.",
+   "Wyczyścić filtry.",
+   "Sprawdzić, czy wąż odpływowy i kanalizacja pod zlewem nie są zatkane."
+  ],
+  "technician": "Jeśli usterka się utrzymuje, należy umówić wizytę serwisanta."
+ },
+ "Indesit|F04": {
+  "title": "Usterka czujnika temperatury",
+  "causes": [
+   "Usterka termostatu lub czujnika temperatury."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Indesit."
+ },
+ "Indesit|F06": {
+  "title": "Napełnianie trwało zbyt długo",
+  "causes": [
+   "Zawór nie jest całkowicie odkręcony.",
+   "Niskie ciśnienie wody.",
+   "Przepływ w wężu napełniającym jest ograniczony."
+  ],
+  "steps": [
+   "Upewnić się, że zawór jest całkowicie odkręcony.",
+   "Sprawdzić, czy wąż napełniający nie jest zagięty ani zgnieciony.",
+   "Sprawdzić, czy ciśnienie wody jest prawidłowe."
+  ],
+  "technician": "Jeśli usterka się utrzymuje, należy umówić wizytę serwisanta."
+ },
+ "Indesit|F08": {
+  "title": "Podgrzewanie wody trwało zbyt długo",
+  "causes": [
+   "Temperatura nie została osiągnięta na czas."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Indesit."
+ },
+ "Indesit|F10": {
+  "title": "Usterka grzałki",
+  "causes": [
+   "Usterka grzałki."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Indesit."
+ },
+ "Indesit|F11": {
+  "title": "Usterka pompy myjącej",
+  "causes": [
+   "Pompa myjąca jest uszkodzona."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Indesit."
+ },
+ "Indesit|F12": {
+  "title": "Brak komunikacji płytki głównej z wyświetlaczem",
+  "causes": [
+   "Błąd komunikacji między płytkami sterującymi."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Indesit."
+ },
+ "Indesit|F13": {
+  "title": "Usterka płytki głównej",
+  "causes": [
+   "Główna płytka sterująca jest uszkodzona."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Indesit."
+ },
+ "Beko|E:01": {
+  "title": "Przelew lub wyciek wody",
+  "causes": [
+   "Do zmywarki dostaje się za dużo wody.",
+   "Wyciek wewnątrz urządzenia."
+  ],
+  "steps": [
+   "Pozwolić zmywarce wykonać odpompowanie bezpieczeństwa.",
+   "Jeśli kod zniknie, nie trzeba nic robić.",
+   "Jeśli kod pozostaje, wyłączyć zmywarkę, odłączyć ją od prądu i zakręcić zawór wody."
+  ],
+  "technician": "Jeśli kod E:01 nie znika, usterka jest trwała. Należy wezwać serwis Beko."
+ },
+ "Beko|E:02": {
+  "title": "Odcięty dopływ wody",
+  "causes": [
+   "Brak wody w instalacji.",
+   "Zawór dopływowy jest zakręcony."
+  ],
+  "steps": [
+   "Upewnić się, że zawór wody jest odkręcony.",
+   "Program czeka i sprawdza dopływ wody. Będzie kontynuowany, gdy woda zacznie płynąć."
+  ],
+  "technician": "Jeśli woda jest dostępna, a kod nie znika, należy wezwać serwis Beko."
+ },
+ "Miele|F11": {
+  "title": "Woda nie jest odpompowywana",
+  "causes": [
+   "Zawór zwrotny lub osłona pompy odpływowej nie są prawidłowo założone.",
+   "Pompa odpływowa jest zablokowana przez zanieczyszczenia."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i odłączyć ją od prądu.",
+   "Wyjąć dolne ramię spryskujące (jeśli jest) i zestaw filtrów.",
+   "Wybrać stojącą wodę małym kubkiem.",
+   "Zdjąć osłonę pompy / zawór zwrotny, opłukać i usunąć zanieczyszczenia. Uważać na odłamki szkła.",
+   "Sprawdzić, czy wirnik pompy obraca się ręcznie, założyć osłonę, aż kliknie, a następnie zamontować filtry."
+  ],
+  "technician": "Jeśli kod F11 nie znika, należy skontaktować się z serwisem Miele."
+ },
+ "Miele|F12": {
+  "title": "Zablokowany lub ograniczony dopływ wody",
+  "causes": [
+   "Zawór odcinający nie jest odkręcony.",
+   "Filtr wlotowy jest zabrudzony.",
+   "Wąż dopływowy jest zagięty.",
+   "Ciśnienie wody jest niższe niż 0,5 bara."
+  ],
+  "steps": [
+   "Całkowicie odkręcić zawór odcinający.",
+   "Wyłączyć i odłączyć od prądu, zakręcić zawór odcinający, odkręcić zawór wlotowy i wyczyścić mały filtr. Nigdy nie wkładać obudowy zaworu do wody – zawiera element elektryczny.",
+   "Zamontować filtr i zawór, a następnie powoli odkręcić zawór odcinający i sprawdzić, czy nic nie kapie.",
+   "Wyprostować zagięcia węża."
+  ],
+  "technician": "Jeśli ciśnienie jest zbyt niskie, należy wezwać hydraulika. Jeśli usterka nie ustępuje, należy skontaktować się z serwisem Miele."
+ },
+ "Miele|F13": {
+  "title": "Zablokowany lub ograniczony dopływ wody",
+  "causes": [
+   "Zawór odcinający jest zakręcony.",
+   "Filtr wlotowy jest zabrudzony.",
+   "Wąż dopływowy jest zagięty.",
+   "Ciśnienie wody jest niższe niż 0,5 bara."
+  ],
+  "steps": [
+   "Całkowicie odkręcić zawór odcinający.",
+   "Wyłączyć i odłączyć od prądu, zakręcić zawór odcinający i wyczyścić filtr wlotowy. Nie zanurzać obudowy zaworu w wodzie.",
+   "Zamontować, powoli odkręcić zawór odcinający i sprawdzić, czy nie ma wycieków.",
+   "Wyprostować zagięcia węża."
+  ],
+  "technician": "Jeśli ciśnienie jest zbyt niskie, należy wezwać hydraulika. Jeśli usterka nie ustępuje, należy skontaktować się z serwisem Miele."
+ },
+ "Miele|F14": {
+  "title": "Usterka pompy obiegowej lub poboru wody",
+  "causes": [
+   "Pompa obiegowa wyschła i zablokowała się po dłuższej przerwie.",
+   "Usterka techniczna presostatu."
+  ],
+  "steps": [
+   "Wyjąć dolne ramię spryskujące i zestaw filtrów.",
+   "Wlać 1 litr ciepłej wody (maks. 75°C) z kilkoma kroplami płynu nabłyszczającego i odczekać 5 minut.",
+   "Zamontować filtry i ramię spryskujące i uruchomić ponownie. W razie potrzeby powtórzyć 2–3 razy.",
+   "W przeciwnym razie wyłączyć, odczekać kilka sekund, włączyć i uruchomić ponownie."
+  ],
+  "technician": "Jeśli kod F14 nie znika, należy skontaktować się z serwisem Miele."
+ },
+ "Miele|F15": {
+  "title": "Zablokowany lub ograniczony dopływ wody",
+  "causes": [
+   "Zawór odcinający jest zakręcony.",
+   "Filtr wlotowy jest zabrudzony.",
+   "Wąż dopływowy jest zagięty.",
+   "Ciśnienie wody jest niższe niż 0,5 bara."
+  ],
+  "steps": [
+   "Całkowicie odkręcić zawór odcinający.",
+   "Wyłączyć i odłączyć od prądu, zakręcić zawór odcinający i wyczyścić filtr wlotowy. Nie zanurzać obudowy zaworu w wodzie.",
+   "Zamontować, powoli odkręcić zawór odcinający i sprawdzić, czy nie ma wycieków.",
+   "Wyprostować zagięcia węża."
+  ],
+  "technician": "Jeśli ciśnienie jest zbyt niskie, należy wezwać hydraulika. Jeśli usterka nie ustępuje, należy skontaktować się z serwisem Miele."
+ },
+ "Miele|F18": {
+  "title": "Uszkodzony zawór poboru wody",
+  "causes": [
+   "Zawór poboru wody jest uszkodzony."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę i zakręcić zawór odcinający."
+  ],
+  "technician": "Według Miele nie da się tego naprawić samodzielnie. Należy umówić wizytę technika Miele."
+ },
+ "Miele|F24": {
+  "title": "Usterka przekaźnika grzania",
+  "causes": [
+   "Usterka styku w przekaźniku grzania."
+  ],
+  "steps": [
+   "Wyłączyć zmywarkę."
+  ],
+  "technician": "Według Miele nie da się tego naprawić samodzielnie. Należy umówić wizytę technika Miele."
+ },
+ "Miele|F70": {
+  "title": "Zadziałał system Waterproof (ochrona przed wyciekiem)",
+  "causes": [
+   "Zadziałał system ochrony przed wyciekiem. Program się zatrzymuje, a pompa odpływowa pracuje."
+  ],
+  "steps": [
+   "Zakręcić zawór odcinający.",
+   "Wyłączyć zmywarkę i odłączyć ją od prądu.",
+   "Poczekać, aż pompa odpływowa się zatrzyma."
+  ],
+  "technician": "Należy skontaktować się z serwisem Miele, aby znaleźć i usunąć przyczynę."
+ },
+ "Miele|F78": {
+  "title": "Zablokowana pompa obiegowa",
+  "causes": [
+   "Pompa wyschła i zablokowała się po tygodniach lub miesiącach nieużywania albo przy pierwszym użyciu.",
+   "Rzadziej usterka techniczna."
+  ],
+  "steps": [
+   "Wyjąć dolne ramię spryskujące i zestaw filtrów.",
+   "Wlać 1 litr ciepłej wody (maks. 75°C) z 3–5 kroplami płynu nabłyszczającego i odczekać 5 minut.",
+   "Zamontować płasko filtry i ramię spryskujące, a następnie uruchomić ponownie. W razie potrzeby powtórzyć 2–3 razy."
+  ],
+  "technician": "Jeśli kod F78 nie znika, należy skontaktować się z serwisem Miele."
+ }
+}

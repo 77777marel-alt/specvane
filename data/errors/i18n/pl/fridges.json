@@ -1,0 +1,1196 @@
+{
+ "Samsung|AP": {
+  "title": "Tryb konfiguracji Wi-Fi",
+  "causes": [
+   "Lodówka działa jako punkt dostępu Wi-Fi do konfiguracji SmartThings."
+  ],
+  "steps": [
+   "Dokończyć konfigurację w aplikacji SmartThings lub poczekać. Kod zniknie sam."
+  ],
+  "technician": "To nie jest usterka. Serwis nie jest potrzebny."
+ },
+ "Samsung|21E": {
+  "title": "Błąd wentylatora zamrażarki",
+  "causes": [
+   "Wentylator zamrażarki jest zamrożony w lodzie, często po pozostawieniu otwartych drzwi lub nieszczelnej uszczelce.",
+   "Silnik wentylatora jest uszkodzony."
+  ],
+  "steps": [
+   "Sprawdzić, czy drzwi zamrażarki się domykają, a uszczelka przylega na całym obwodzie.",
+   "Nie przepełniać zamrażarki.",
+   "Jeśli to możliwe, wyjąć żywność i rozmrozić lodówkę przy otwartych drzwiach."
+  ],
+  "technician": "Jeśli kod wraca po rozmrożeniu, wentylator wymaga technika Samsung."
+ },
+ "Samsung|22E": {
+  "title": "Błąd wentylatora chłodziarki",
+  "causes": [
+   "Drzwi chłodziarki były zbyt długo otwarte i wentylator oblodził się."
+  ],
+  "steps": [
+   "Przenieść żywność w chłodne miejsce.",
+   "Odłączyć lodówkę od prądu i pozostawić drzwi otwarte na kilka godzin.",
+   "Podłączyć ją ponownie i zamknąć drzwi."
+  ],
+  "technician": "Jeśli kod 22E wraca, należy zgłosić naprawę w serwisie Samsung."
+ },
+ "Samsung|41C": {
+  "title": "Usterka Family Hub",
+  "causes": [
+   "Problem z oprogramowaniem ekranu Family Hub."
+  ],
+  "steps": [
+   "Zainstalować najnowszą aktualizację oprogramowania.",
+   "Za pierwszym razem, gdy kod pojawi się po aktualizacji, dotknąć OK."
+  ],
+  "technician": "Jeśli kod nadal wraca po aktualizacji, należy zgłosić naprawę w serwisie Samsung."
+ },
+ "Samsung|76C": {
+  "title": "Woda w komorze AutoFill",
+  "causes": [
+   "Dzbanek AutoFill przecieka do swojej komory."
+  ],
+  "steps": [
+   "Wyjąć dzbanek i osuszyć komorę.",
+   "Sprawdzić, czy dzbanek jest prawidłowo osadzony i nie jest pęknięty."
+  ],
+  "technician": "Jeśli woda nadal się zbiera, należy skontaktować się z serwisem Samsung."
+ },
+ "Samsung|85C": {
+  "title": "Niskie napięcie zasilania (Family Hub)",
+  "causes": [
+   "Zwykle krótka przerwa w dostawie prądu."
+  ],
+  "steps": [
+   "Nacisnąć i przytrzymać OK przez 3 sekundy, aby skasować kod."
+  ],
+  "technician": "Samo w sobie nieszkodliwe. Z Samsung należy kontaktować się tylko wtedy, gdy pojawia się często."
+ },
+ "Samsung|88 88": {
+  "title": "Błąd komunikacji przy uruchamianiu",
+  "causes": [
+   "Zasilanie zostało zakłócone podczas uruchamiania lodówki."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu lub wyłączyć jej bezpiecznik na 60 sekund.",
+   "Przywrócić zasilanie i sprawdzić, czy kod wraca."
+  ],
+  "technician": "Jeśli kod wraca po resecie, należy zgłosić naprawę w serwisie Samsung."
+ },
+ "Samsung|83E": {
+  "title": "Nieprawidłowy prąd sprężarki",
+  "causes": [
+   "Skok napięcia lub problem elektryczny."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu lub wyłączyć jej bezpiecznik na 60 sekund.",
+   "Przywrócić zasilanie i sprawdzić, czy kod wraca."
+  ],
+  "technician": "Jeśli kod 83E wraca, należy zgłosić naprawę w serwisie Samsung."
+ },
+ "Samsung|85E": {
+  "title": "Niskie napięcie sprężarki",
+  "causes": [
+   "Spadek napięcia lub niskie napięcie w sieci."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu lub wyłączyć jej bezpiecznik na 60 sekund.",
+   "Przywrócić zasilanie i sprawdzić, czy kod wraca."
+  ],
+  "technician": "Jeśli kod 85E wraca, należy zlecić sprawdzenie zasilania i zgłosić naprawę w serwisie Samsung."
+ },
+ "Samsung|86E": {
+  "title": "Wysokie napięcie sprężarki",
+  "causes": [
+   "Skok napięcia, np. podczas burzy."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu lub wyłączyć jej bezpiecznik na 60 sekund.",
+   "Przywrócić zasilanie i sprawdzić, czy kod wraca."
+  ],
+  "technician": "Jeśli kod 86E wraca, należy zgłosić naprawę w serwisie Samsung."
+ },
+ "Samsung|PC ER": {
+  "title": "Wewnętrzny błąd komunikacji",
+  "causes": [
+   "Niedawny skok napięcia.",
+   "Złącze okablowania drzwi nie jest prawidłowo podłączone."
+  ],
+  "steps": [
+   "Odłączyć zasilanie wtyczką lub bezpiecznikiem.",
+   "Sprawdzić i ponownie podłączyć złącze okablowania nad zawiasem drzwi.",
+   "Przywrócić zasilanie."
+  ],
+  "technician": "Jeśli kod wraca, należy zgłosić naprawę w serwisie Samsung."
+ },
+ "Samsung|OF OF": {
+  "title": "Tryb Cooling Off (demo)",
+  "causes": [
+   "Włączony jest tryb demonstracyjny lub sklepowy, często przypadkowo. Lodówka nie chłodzi."
+  ],
+  "steps": [
+   "Nacisnąć i przytrzymać dwa górne przyciski po lewej stronie panelu przez 5–8 sekund, aż rozlegnie się sygnał.",
+   "W niektórych modelach przytrzymać także prawy górny przycisk.",
+   "Sprawdzić w instrukcji kombinację przycisków dla danego modelu."
+  ],
+  "technician": "Serwis nie jest potrzebny. To ustawienie, a nie usterka."
+ },
+ "Samsung|5E": {
+  "title": "Błąd czujnika odszraniania chłodziarki",
+  "causes": [
+   "Czujnik odszraniania chłodziarki jest uszkodzony."
+  ],
+  "steps": [
+   "Nie odłączać lodówki od prądu, chyba że zostanie to zalecone.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie Samsung w celu wymiany lub sprawdzenia czujnika."
+ },
+ "Samsung|8E": {
+  "title": "Błąd czujnika kostkarki (zamrażarka)",
+  "causes": [
+   "Czujnik kostkarki w zamrażarce jest uszkodzony."
+  ],
+  "steps": [
+   "Jeśli to możliwe, wyłączyć kostkarkę.",
+   "Normalnie korzystać z lodówki."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie Samsung."
+ },
+ "Samsung|14E": {
+  "title": "Błąd czujnika kostkarki",
+  "causes": [
+   "Czujnik kostkarki jest uszkodzony."
+  ],
+  "steps": [
+   "Jeśli to możliwe, wyłączyć kostkarkę.",
+   "Normalnie korzystać z lodówki."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie Samsung."
+ },
+ "Samsung|33E": {
+  "title": "Błąd grzałki rurki lodu",
+  "causes": [
+   "Grzałka na rurce doprowadzającej wodę do kostkarki jest uszkodzona."
+  ],
+  "steps": [
+   "Jeśli to możliwe, wyłączyć kostkarkę."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie Samsung."
+ },
+ "Samsung|39E": {
+  "title": "Błąd działania kostkarki",
+  "causes": [
+   "Kostkarka nie działa prawidłowo."
+  ],
+  "steps": [
+   "Sprawdzić, czy pojemnik na lód jest prawidłowo osadzony.",
+   "Jeśli to możliwe, wyłączyć kostkarkę."
+  ],
+  "technician": "Jeśli kod nie znika, należy zgłosić naprawę w serwisie Samsung."
+ },
+ "Samsung|40E": {
+  "title": "Błąd wentylatora komory lodu",
+  "causes": [
+   "Wentylator w komorze lodu nie działa, często z powodu oblodzenia."
+  ],
+  "steps": [
+   "Sprawdzić, czy drzwiczki komory lodu całkowicie się zamykają."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie Samsung."
+ },
+ "Samsung|84C": {
+  "title": "Blokada sprężarki",
+  "causes": [
+   "Sprężarka jest zablokowana i nie może się uruchomić."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu lub wyłączyć jej bezpiecznik na 60 sekund.",
+   "Przywrócić zasilanie i sprawdzić, czy kod wraca."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie Samsung. Wymaga to technika."
+ },
+ "LG|CF": {
+  "title": "Błąd wentylatora skraplacza",
+  "causes": [
+   "Wentylator skraplacza jest zablokowany lub nie pracuje, więc sprężarka jest przeciążona."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu na 60 sekund i podłączyć ją do gniazdka ściennego, a nie do listwy zasilającej.",
+   "Sprawdzić, czy kod wraca.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie LG. Wymaga to technika."
+ },
+ "LG|CO": {
+  "title": "Błąd komunikacji",
+  "causes": [
+   "Płytka główna i wyświetlacz nie komunikują się ze sobą."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu na 60 sekund i podłączyć ją do gniazdka ściennego, a nie do listwy zasilającej.",
+   "Sprawdzić, czy kod wraca.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie LG. Wymaga to technika."
+ },
+ "LG|FF": {
+  "title": "Błąd wentylatora zamrażarki",
+  "causes": [
+   "Wentylator zamrażarki jest zablokowany, często przez lód, lub uszkodzony."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu na 60 sekund i podłączyć ją do gniazdka ściennego, a nie do listwy zasilającej.",
+   "Sprawdzić, czy kod wraca.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie LG. Wymaga to technika."
+ },
+ "LG|FS": {
+  "title": "Błąd czujnika zamrażarki",
+  "causes": [
+   "Czujnik temperatury zamrażarki jest uszkodzony."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu na 60 sekund i podłączyć ją do gniazdka ściennego, a nie do listwy zasilającej.",
+   "Sprawdzić, czy kod wraca.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie LG. Wymaga to technika."
+ },
+ "LG|FU": {
+  "title": "Zamrażarka chłodzi niewystarczająco",
+  "causes": [
+   "Zamrażarka nie schłodziła się wystarczająco po uruchomieniu.",
+   "Drzwi są często otwierane lub nie są szczelne.",
+   "Otwory wentylacyjne są zastawione żywnością."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu na 60 sekund i podłączyć ją do gniazdka ściennego, a nie do listwy zasilającej.",
+   "Ustawić zamrażarkę na -18 °C.",
+   "Nie zastawiać żywnością otworów wentylacyjnych.",
+   "Sprawdzić uszczelki drzwi, zamykając drzwi na kartce papieru. Kartka nie powinna łatwo się wysuwać.",
+   "Rzadziej otwierać drzwi."
+  ],
+  "technician": "Jeśli zamrażarka nadal nie chłodzi, należy zgłosić naprawę w serwisie LG."
+ },
+ "LG|IF": {
+  "title": "Błąd wentylatora kostkarki",
+  "causes": [
+   "Wentylator kostkarki jest zablokowany lub uszkodzony."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu na 60 sekund i podłączyć ją do gniazdka ściennego, a nie do listwy zasilającej.",
+   "Sprawdzić, czy kod wraca.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie LG. Wymaga to technika."
+ },
+ "LG|IS": {
+  "title": "Błąd czujnika kostkarki",
+  "causes": [
+   "Czujnik temperatury kostkarki jest uszkodzony."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu na 60 sekund i podłączyć ją do gniazdka ściennego, a nie do listwy zasilającej.",
+   "Sprawdzić, czy kod wraca.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie LG. Wymaga to technika."
+ },
+ "LG|It": {
+  "title": "Błąd silnika kostkarki",
+  "causes": [
+   "Silnik kostkarki jest uszkodzony."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu na 60 sekund i podłączyć ją do gniazdka ściennego, a nie do listwy zasilającej.",
+   "Sprawdzić, czy kod wraca.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie LG. Wymaga to technika."
+ },
+ "LG|rS": {
+  "title": "Błąd czujnika chłodziarki (górny)",
+  "causes": [
+   "Górny czujnik temperatury chłodziarki jest uszkodzony."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu na 60 sekund i podłączyć ją do gniazdka ściennego, a nie do listwy zasilającej.",
+   "Sprawdzić, czy kod wraca.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie LG. Wymaga to technika."
+ },
+ "LG|r2": {
+  "title": "Błąd czujnika chłodziarki (dolny)",
+  "causes": [
+   "Dolny czujnik temperatury chłodziarki jest uszkodzony."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu na 60 sekund i podłączyć ją do gniazdka ściennego, a nie do listwy zasilającej.",
+   "Sprawdzić, czy kod wraca.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie LG. Wymaga to technika."
+ },
+ "LG|dS": {
+  "title": "Błąd czujnika odszraniania",
+  "causes": [
+   "Czujnik odszraniania jest uszkodzony, więc parownik może się oblodzić."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu na 60 sekund i podłączyć ją do gniazdka ściennego, a nie do listwy zasilającej.",
+   "Sprawdzić, czy kod wraca.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie LG. Wymaga to technika."
+ },
+ "LG|rT": {
+  "title": "Błąd czujnika temperatury otoczenia",
+  "causes": [
+   "Czujnik temperatury otoczenia jest uszkodzony."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu na 60 sekund i podłączyć ją do gniazdka ściennego, a nie do listwy zasilającej.",
+   "Sprawdzić, czy kod wraca.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie LG. Wymaga to technika."
+ },
+ "LG|dH": {
+  "title": "Błąd odszraniania",
+  "causes": [
+   "Układ odszraniania nie nagrzał się na czas.",
+   "Parownik jest zablokowany przez lód."
+  ],
+  "steps": [
+   "Wyjąć żywność i przenieść ją w chłodne miejsce.",
+   "Rozłożyć ręczniki na podłodze przed lodówką.",
+   "Odłączyć lodówkę od prądu i pozostawić drzwi otwarte na co najmniej 12 godzin, aby lód się roztopił.",
+   "Podłączyć ją ponownie do prądu."
+  ],
+  "technician": "Często jest to tylko rozwiązanie tymczasowe. Jeśli kod dH wraca, należy zgłosić naprawę w serwisie LG."
+ },
+ "LG|SS": {
+  "title": "Błąd czujnika zbiornika wody",
+  "causes": [
+   "Czujnik temperatury zbiornika wody jest uszkodzony."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu na 60 sekund i podłączyć ją do gniazdka ściennego, a nie do listwy zasilającej.",
+   "Sprawdzić, czy kod wraca.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie LG. Wymaga to technika."
+ },
+ "LG|rF": {
+  "title": "Błąd wentylatora chłodziarki",
+  "causes": [
+   "Wentylator chłodziarki jest zablokowany lub uszkodzony."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu na 60 sekund i podłączyć ją do gniazdka ściennego, a nie do listwy zasilającej.",
+   "Sprawdzić, czy kod wraca.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie LG. Wymaga to technika."
+ },
+ "LG|tt": {
+  "title": "Problem ze zbiornikiem wody",
+  "causes": [
+   "Brakuje zbiornika wody lub jest nieprawidłowo osadzony.",
+   "Czujnik zbiornika jest uszkodzony."
+  ],
+  "steps": [
+   "Wyjąć zbiornik wody i prawidłowo go założyć.",
+   "Sprawdzić, czy kod zniknął."
+  ],
+  "technician": "Jeśli kod tt nie znika przy założonym zbiorniku, należy zgłosić naprawę w serwisie LG."
+ },
+ "LG|C1": {
+  "title": "Błąd komunikacji dystrybutora",
+  "causes": [
+   "Dystrybutor i wyświetlacz nie komunikują się ze sobą."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu na 60 sekund i podłączyć ją do gniazdka ściennego, a nie do listwy zasilającej.",
+   "Sprawdzić, czy kod wraca.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie LG. Wymaga to technika."
+ },
+ "LG|gF": {
+  "title": "Błąd czujnika przepływu wody",
+  "causes": [
+   "Zawór doprowadzający wodę jest zakręcony.",
+   "Wąż wody jest zagięty.",
+   "Ciśnienie wody jest nieprawidłowe."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu na 60 sekund i podłączyć ją do gniazdka ściennego, a nie do listwy zasilającej.",
+   "Odczekać do 5 minut, aż lodówka się zrestartuje.",
+   "Całkowicie odkręcić zawór doprowadzający wodę.",
+   "Sprawdzić, czy wąż nie jest zagięty.",
+   "Porównać ciśnienie wody z wartościami podanymi w instrukcji."
+  ],
+  "technician": "Jeśli błąd nie ustępuje, należy zgłosić naprawę w serwisie LG."
+ },
+ "LG|CH": {
+  "title": "Błąd układu chłodniczego (strona wysokiego ciśnienia)",
+  "causes": [
+   "Czujniki odczytują nieprawidłowe wartości w układzie chłodniczym, możliwy wyciek lub uszkodzony zawór."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu na 60 sekund i podłączyć ją do gniazdka ściennego, a nie do listwy zasilającej.",
+   "Sprawdzić, czy kod wraca.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie LG. Wymaga to technika."
+ },
+ "LG|CL": {
+  "title": "Błąd układu chłodniczego (strona niskiego ciśnienia)",
+  "causes": [
+   "Czujniki odczytują nieprawidłowe wartości w układzie chłodniczym, możliwy wyciek lub uszkodzony zawór."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu na 60 sekund i podłączyć ją do gniazdka ściennego, a nie do listwy zasilającej.",
+   "Sprawdzić, czy kod wraca.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zgłosić naprawę w serwisie LG. Wymaga to technika."
+ },
+ "LG|Lo": {
+  "title": "Za zimno w pomieszczeniu",
+  "causes": [
+   "W pomieszczeniu jest zimniej niż -10 °C."
+  ],
+  "steps": [
+   "Jeśli to możliwe, przenieść lodówkę w cieplejsze miejsce."
+  ],
+  "technician": "To nie jest usterka. Z LG należy kontaktować się tylko wtedy, gdy w pomieszczeniu jest ciepło, a nadal wyświetla się Lo."
+ },
+ "LG|HI": {
+  "title": "Za gorąco w pomieszczeniu",
+  "causes": [
+   "W pomieszczeniu jest cieplej niż 50 °C."
+  ],
+  "steps": [
+   "Jeśli to możliwe, przenieść lodówkę w chłodniejsze miejsce.",
+   "Zapewnić swobodny przepływ powietrza wokół urządzenia."
+  ],
+  "technician": "To nie jest usterka. Z LG należy kontaktować się tylko wtedy, gdy temperatura w pomieszczeniu jest normalna, a nadal wyświetla się HI."
+ },
+ "Miele|F0": {
+  "title": "Usterka techniczna",
+  "causes": [
+   "Wykryto wewnętrzną usterkę techniczną."
+  ],
+  "steps": [
+   "Zanotować kod usterki.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność.",
+   "Należy umówić wizytę technika Miele."
+  ],
+  "technician": "To usterka techniczna, której nie da się usunąć samodzielnie. Należy skontaktować się z serwisem Miele."
+ },
+ "Miele|F1": {
+  "title": "Usterka techniczna",
+  "causes": [
+   "Wykryto wewnętrzną usterkę techniczną."
+  ],
+  "steps": [
+   "Zanotować kod usterki.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność.",
+   "Należy umówić wizytę technika Miele."
+  ],
+  "technician": "To usterka techniczna, której nie da się usunąć samodzielnie. Należy skontaktować się z serwisem Miele."
+ },
+ "Miele|F2": {
+  "title": "Usterka techniczna",
+  "causes": [
+   "Wykryto wewnętrzną usterkę techniczną."
+  ],
+  "steps": [
+   "Zanotować kod usterki.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność.",
+   "Należy umówić wizytę technika Miele."
+  ],
+  "technician": "To usterka techniczna, której nie da się usunąć samodzielnie. Należy skontaktować się z serwisem Miele."
+ },
+ "Miele|F3": {
+  "title": "Usterka techniczna",
+  "causes": [
+   "Wykryto wewnętrzną usterkę techniczną."
+  ],
+  "steps": [
+   "Zanotować kod usterki.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność.",
+   "Należy umówić wizytę technika Miele."
+  ],
+  "technician": "To usterka techniczna, której nie da się usunąć samodzielnie. Należy skontaktować się z serwisem Miele."
+ },
+ "Miele|F4": {
+  "title": "Usterka techniczna",
+  "causes": [
+   "Wykryto wewnętrzną usterkę techniczną."
+  ],
+  "steps": [
+   "Zanotować kod usterki.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność.",
+   "Należy umówić wizytę technika Miele."
+  ],
+  "technician": "To usterka techniczna, której nie da się usunąć samodzielnie. Należy skontaktować się z serwisem Miele."
+ },
+ "Miele|F5": {
+  "title": "Usterka techniczna",
+  "causes": [
+   "Wykryto wewnętrzną usterkę techniczną."
+  ],
+  "steps": [
+   "Zanotować kod usterki.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność.",
+   "Należy umówić wizytę technika Miele."
+  ],
+  "technician": "To usterka techniczna, której nie da się usunąć samodzielnie. Należy skontaktować się z serwisem Miele."
+ },
+ "Miele|F114": {
+  "title": "Uszkodzony czujnik parownika zamrażarki",
+  "causes": [
+   "Czujnik parownika w komorze zamrażarki jest uszkodzony."
+  ],
+  "steps": [
+   "Zanotować kod usterki.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność.",
+   "Należy umówić wizytę technika Miele."
+  ],
+  "technician": "To usterka techniczna, której nie da się usunąć samodzielnie. Należy skontaktować się z serwisem Miele."
+ },
+ "Miele|F120": {
+  "title": "Zbyt niskie napięcie w sieci",
+  "causes": [
+   "Napięcie w sieci jest czasami zbyt niskie lub mocno się waha."
+  ],
+  "steps": [
+   "Sprawdzić, czy inne urządzenia również mają problemy.",
+   "Należy zlecić wykwalifikowanemu elektrykowi sprawdzenie napięcia w sieci."
+  ],
+  "technician": "Jeśli napięcie jest prawidłowe, a kod F120 nie znika, należy umówić wizytę technika Miele."
+ },
+ "Miele|F141": {
+  "title": "Drzwi chłodziarki otwarte od 15 minut",
+  "causes": [
+   "Drzwi komory chłodziarki są otwarte od 15 minut."
+  ],
+  "steps": [
+   "Zamknąć drzwi chłodziarki.",
+   "Sprawdzić, czy nic nie przeszkadza w ich zamknięciu."
+  ],
+  "technician": "Jeśli kod F141 wyświetla się przy zamkniętych drzwiach, należy umówić wizytę technika Miele."
+ },
+ "Miele|F142": {
+  "title": "Drzwi chłodziarki otwarte od 30 minut",
+  "causes": [
+   "Drzwi komory chłodziarki są otwarte od ok. 30 minut."
+  ],
+  "steps": [
+   "Zamknąć drzwi chłodziarki.",
+   "Sprawdzić, czy nic nie przeszkadza w ich zamknięciu."
+  ],
+  "technician": "Jeśli kod F142 wyświetla się przy zamkniętych drzwiach, należy umówić wizytę technika Miele."
+ },
+ "Miele|F383": {
+  "title": "Usterka dopływu wody do kostkarki",
+  "causes": [
+   "Wąż dopływowy wody jest zagięty.",
+   "Filtr wlotowy jest zabrudzony.",
+   "Pojemnik na wodę nie jest osadzony lub jego pływak się zablokował.",
+   "Błąd oprogramowania."
+  ],
+  "steps": [
+   "Wyprostować zagięcia węża wody.",
+   "Wyczyścić filtr wlotowy.",
+   "Wyjąć pojemnik na wodę, wyczyścić miejsce pod nim i wsunąć go do końca.",
+   "Potrząsnąć pojemnikiem, aby sprawdzić, czy pływak porusza się swobodnie.",
+   "Ustawić zamrażarkę na -18 °C na co najmniej 48 godzin."
+  ],
+  "technician": "Jeśli usterka nie ustępuje, należy skontaktować się z serwisem Miele."
+ },
+ "Miele|F384": {
+  "title": "Awaria oprogramowania",
+  "causes": [
+   "Oprogramowanie urządzenia przestało działać."
+  ],
+  "steps": [
+   "Odłączyć urządzenie od prądu na ok. 2 minuty.",
+   "Podłączyć je ponownie i włączyć.",
+   "Jeśli znów działa, przywrócić ustawienia fabryczne w menu Ustawienia."
+  ],
+  "technician": "Jeśli usterka wraca, należy skontaktować się z serwisem Miele."
+ },
+ "Miele|F385": {
+  "title": "Awaria oprogramowania",
+  "causes": [
+   "Oprogramowanie urządzenia przestało działać."
+  ],
+  "steps": [
+   "Odłączyć urządzenie od prądu na ok. 2 minuty.",
+   "Podłączyć je ponownie i włączyć.",
+   "Jeśli znów działa, przywrócić ustawienia fabryczne w menu Ustawienia."
+  ],
+  "technician": "Jeśli usterka wraca, należy skontaktować się z serwisem Miele."
+ },
+ "Miele|nA": {
+  "title": "Zamrażarka wcześniej się nagrzała",
+  "causes": [
+   "Przerwa w dostawie prądu lub zasilania spowodowała nagrzanie zamrażarki."
+  ],
+  "steps": [
+   "Przytrzymać przycisk alarmu, aby zobaczyć najwyższą osiągniętą temperaturę.",
+   "Sprawdzić żywność. Rozmrożoną żywność szybko zużyć.",
+   "Nie zamrażać ponownie rozmrożonej żywności, chyba że zostanie najpierw ugotowana."
+  ],
+  "technician": "To nie jest usterka. Z Miele należy kontaktować się tylko wtedy, gdy kod pojawia się bez przerwy w dostawie prądu."
+ },
+ "AEG|E08": {
+  "title": "Niskie napięcie zasilania",
+  "causes": [
+   "Napięcie w sieci spadło poniżej 170 V. To chroni sprężarkę."
+  ],
+  "steps": [
+   "Sprawdzić, czy inne urządzenia mają problemy z zasilaniem.",
+   "Poczekać, aż zasilanie wróci do normy."
+  ],
+  "technician": "Jeśli kod E08 ciągle się pojawia, należy zlecić sprawdzenie zasilania i skontaktować się z autoryzowanym technikiem AEG."
+ },
+ "AEG|E09": {
+  "title": "Zamrażarka niewystarczająco zimna",
+  "causes": [
+   "Zwykle po długiej przerwie w dostawie prądu."
+  ],
+  "steps": [
+   "Obniżyć ustawienie temperatury zamrażarki lub włączyć Super Freeze.",
+   "Nie otwierać drzwi, dopóki kod nie zniknie.",
+   "Rozmrożoną żywność szybko zużyć lub ugotować.",
+   "Nie wkładać świeżej żywności, dopóki kod nie zniknie."
+  ],
+  "technician": "Jeśli kod nie znika, należy skontaktować się z autoryzowanym technikiem AEG."
+ },
+ "AEG|E10": {
+  "title": "Chłodziarka niewystarczająco zimna",
+  "causes": [
+   "Długa przerwa w dostawie prądu.",
+   "Do chłodziarki włożono gorące jedzenie."
+  ],
+  "steps": [
+   "Obniżyć ustawienie temperatury chłodziarki lub włączyć Super Cool.",
+   "Nie otwierać drzwi.",
+   "Nie zastawiać żywnością otworów wentylacyjnych ani czujnika."
+  ],
+  "technician": "Jeśli kod E10 nie znika, należy umówić naprawę w AEG."
+ },
+ "AEG|E11": {
+  "title": "Za zimno w chłodziarce",
+  "causes": [
+   "Funkcja Super Cool pozostała włączona.",
+   "Ustawiona temperatura jest zbyt niska.",
+   "Otwory wentylacyjne są zablokowane."
+  ],
+  "steps": [
+   "Wyłączyć Super Cool.",
+   "Ustawić wyższą temperaturę chłodziarki.",
+   "Upewnić się, że otwory wentylacyjne są drożne."
+  ],
+  "technician": "Jeśli kod nie znika, należy skontaktować się z autoryzowanym serwisem AEG."
+ },
+ "AEG|F2": {
+  "title": "Usterka termostatu",
+  "causes": [
+   "Problem z termostatem."
+  ],
+  "steps": [
+   "Zanotować kod.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy umówić wizytę serwisanta AEG i podać kod."
+ },
+ "AEG|F8": {
+  "title": "Usterka układu odszraniania",
+  "causes": [
+   "Usterka układu odszraniania."
+  ],
+  "steps": [
+   "Nie próbować naprawiać samodzielnie.",
+   "Zanotować model i numer seryjny."
+  ],
+  "technician": "Należy umówić wizytę serwisanta AEG i podać kod F8."
+ },
+ "Electrolux|F5": {
+  "title": "Usterka czujnika temperatury",
+  "causes": [
+   "Czujnik temperatury jest uszkodzony. Kody F3 i F4 wskazują na ten sam rodzaj usterki."
+  ],
+  "steps": [
+   "Zanotować kod.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy umówić wizytę serwisanta Electrolux i podać kod."
+ },
+ "Electrolux|E01": {
+  "title": "Ostrzeżenie czujnika",
+  "causes": [
+   "Czujnik w chłodziarko-zamrażarce działa nieprawidłowo."
+  ],
+  "steps": [
+   "Zanotować kod.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy skontaktować się z autoryzowanym serwisem Electrolux w celu umówienia wizyty serwisanta."
+ },
+ "Electrolux|E02": {
+  "title": "Ostrzeżenie czujnika",
+  "causes": [
+   "Czujnik w chłodziarko-zamrażarce działa nieprawidłowo."
+  ],
+  "steps": [
+   "Zanotować kod.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy skontaktować się z autoryzowanym serwisem Electrolux w celu umówienia wizyty serwisanta."
+ },
+ "Electrolux|E03": {
+  "title": "Ostrzeżenie czujnika",
+  "causes": [
+   "Czujnik w chłodziarko-zamrażarce działa nieprawidłowo."
+  ],
+  "steps": [
+   "Zanotować kod.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy skontaktować się z autoryzowanym serwisem Electrolux w celu umówienia wizyty serwisanta."
+ },
+ "Electrolux|E06": {
+  "title": "Ostrzeżenie czujnika",
+  "causes": [
+   "Czujnik w chłodziarko-zamrażarce działa nieprawidłowo."
+  ],
+  "steps": [
+   "Zanotować kod.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy skontaktować się z autoryzowanym serwisem Electrolux w celu umówienia wizyty serwisanta."
+ },
+ "Electrolux|E07": {
+  "title": "Ostrzeżenie czujnika",
+  "causes": [
+   "Czujnik w chłodziarko-zamrażarce działa nieprawidłowo."
+  ],
+  "steps": [
+   "Zanotować kod.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy skontaktować się z autoryzowanym serwisem Electrolux w celu umówienia wizyty serwisanta."
+ },
+ "Hotpoint|E0": {
+  "title": "Usterka kostkarki",
+  "causes": [
+   "Kostkarka nie działa prawidłowo (modele z kostkarką)."
+  ],
+  "steps": [
+   "Jeśli to możliwe, wyłączyć kostkarkę.",
+   "Normalnie korzystać z lodówki."
+  ],
+  "technician": "Należy zadzwonić do serwisu Hotpoint i umówić wizytę serwisanta."
+ },
+ "Hotpoint|E1": {
+  "title": "Usterka czujnika chłodziarki",
+  "causes": [
+   "Czujnik temperatury chłodziarki jest uszkodzony."
+  ],
+  "steps": [
+   "Zanotować kod.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zadzwonić do serwisu Hotpoint i umówić wizytę serwisanta."
+ },
+ "Hotpoint|E2": {
+  "title": "Usterka czujnika zamrażarki",
+  "causes": [
+   "Czujnik temperatury zamrażarki jest uszkodzony.",
+   "Temperatura w zamrażarce może być nieprawidłowa."
+  ],
+  "steps": [
+   "Sprawdzić, czy żywność jest nadal zamrożona.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zadzwonić do serwisu Hotpoint i umówić wizytę serwisanta."
+ },
+ "Hotpoint|E3": {
+  "title": "Usterka czujnika odszraniania",
+  "causes": [
+   "Czujnik odszraniania jest uszkodzony.",
+   "Zatkany odpływ również może wpływać na temperaturę."
+  ],
+  "steps": [
+   "Sprawdzić, czy otwór odpływu wody z odszraniania i rurka odpływowa nie są zatkane.",
+   "Delikatnie usunąć zator."
+  ],
+  "technician": "Jeśli usterka nie ustępuje, należy zadzwonić do serwisu Hotpoint."
+ },
+ "Hotpoint|E4": {
+  "title": "Usterka czujnika odszraniania chłodziarki",
+  "causes": [
+   "Czujnik odszraniania chłodziarki jest uszkodzony."
+  ],
+  "steps": [
+   "Zanotować kod.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zadzwonić do serwisu Hotpoint i umówić wizytę serwisanta."
+ },
+ "Hotpoint|E5": {
+  "title": "Usterka czujnika odszraniania zamrażarki",
+  "causes": [
+   "Czujnik odszraniania zamrażarki jest uszkodzony."
+  ],
+  "steps": [
+   "Zanotować kod.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zadzwonić do serwisu Hotpoint i umówić wizytę serwisanta."
+ },
+ "Hotpoint|E6": {
+  "title": "Usterka płytki sterującej lub wyświetlacza",
+  "causes": [
+   "Główna płytka sterująca lub płytka wyświetlacza jest uszkodzona."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu na kilka minut i podłączyć ją ponownie."
+  ],
+  "technician": "Należy zadzwonić do serwisu Hotpoint i umówić wizytę serwisanta."
+ },
+ "Hotpoint|E7": {
+  "title": "Usterka czujnika temperatury otoczenia",
+  "causes": [
+   "Czujnik temperatury otoczenia jest uszkodzony."
+  ],
+  "steps": [
+   "Zanotować kod.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zadzwonić do serwisu Hotpoint i umówić wizytę serwisanta."
+ },
+ "Hotpoint|E8": {
+  "title": "Usterka czujnika temperatury otoczenia",
+  "causes": [
+   "Czujnik temperatury otoczenia jest uszkodzony."
+  ],
+  "steps": [
+   "Zanotować kod.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zadzwonić do serwisu Hotpoint i umówić wizytę serwisanta."
+ },
+ "Hotpoint|E9": {
+  "title": "Alarm wysokiej temperatury zamrażarki",
+  "causes": [
+   "Drzwi zamrażarki pozostały otwarte i zamrażarka się nagrzała."
+  ],
+  "steps": [
+   "Prawidłowo zamknąć drzwi zamrażarki.",
+   "Sprawdzić, czy nic nie blokuje drzwi.",
+   "Sprawdzić, czy żywność się nie rozmroziła."
+  ],
+  "technician": "Jeśli alarm nie ustępuje przy zamkniętych drzwiach, należy zadzwonić do serwisu Hotpoint."
+ },
+ "Hotpoint|EE": {
+  "title": "Usterka obwodu kostkarki",
+  "causes": [
+   "Usterka obwodu kostkarki (modele z kostkarką)."
+  ],
+  "steps": [
+   "Jeśli to możliwe, wyłączyć kostkarkę."
+  ],
+  "technician": "Należy zadzwonić do serwisu Hotpoint i umówić wizytę serwisanta."
+ },
+ "Indesit|E0": {
+  "title": "Usterka kostkarki",
+  "causes": [
+   "Kostkarka nie działa prawidłowo (modele z kostkarką)."
+  ],
+  "steps": [
+   "Jeśli to możliwe, wyłączyć kostkarkę.",
+   "Normalnie korzystać z lodówki."
+  ],
+  "technician": "Należy zadzwonić do serwisu Indesit i umówić wizytę serwisanta."
+ },
+ "Indesit|E1": {
+  "title": "Usterka czujnika chłodziarki",
+  "causes": [
+   "Czujnik temperatury chłodziarki jest uszkodzony."
+  ],
+  "steps": [
+   "Zanotować kod.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zadzwonić do serwisu Indesit i umówić wizytę serwisanta."
+ },
+ "Indesit|E2": {
+  "title": "Usterka czujnika zamrażarki",
+  "causes": [
+   "Czujnik temperatury zamrażarki jest uszkodzony.",
+   "Temperatura w zamrażarce może być nieprawidłowa."
+  ],
+  "steps": [
+   "Sprawdzić, czy żywność jest nadal zamrożona.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zadzwonić do serwisu Indesit i umówić wizytę serwisanta."
+ },
+ "Indesit|E3": {
+  "title": "Usterka czujnika odszraniania",
+  "causes": [
+   "Czujnik odszraniania jest uszkodzony.",
+   "Zatkany odpływ również może wpływać na temperaturę."
+  ],
+  "steps": [
+   "Sprawdzić, czy otwór odpływu wody z odszraniania i rurka odpływowa nie są zatkane.",
+   "Delikatnie usunąć zator."
+  ],
+  "technician": "Jeśli usterka nie ustępuje, należy zadzwonić do serwisu Indesit."
+ },
+ "Indesit|E4": {
+  "title": "Usterka czujnika odszraniania chłodziarki",
+  "causes": [
+   "Czujnik odszraniania chłodziarki jest uszkodzony."
+  ],
+  "steps": [
+   "Zanotować kod.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zadzwonić do serwisu Indesit i umówić wizytę serwisanta."
+ },
+ "Indesit|E5": {
+  "title": "Usterka czujnika odszraniania zamrażarki",
+  "causes": [
+   "Czujnik odszraniania zamrażarki jest uszkodzony."
+  ],
+  "steps": [
+   "Zanotować kod.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zadzwonić do serwisu Indesit i umówić wizytę serwisanta."
+ },
+ "Indesit|E6": {
+  "title": "Usterka płytki sterującej lub wyświetlacza",
+  "causes": [
+   "Główna płytka sterująca lub płytka wyświetlacza jest uszkodzona."
+  ],
+  "steps": [
+   "Odłączyć lodówkę od prądu na kilka minut i podłączyć ją ponownie."
+  ],
+  "technician": "Należy zadzwonić do serwisu Indesit i umówić wizytę serwisanta."
+ },
+ "Indesit|E7": {
+  "title": "Usterka czujnika temperatury otoczenia",
+  "causes": [
+   "Czujnik temperatury otoczenia jest uszkodzony."
+  ],
+  "steps": [
+   "Zanotować kod.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zadzwonić do serwisu Indesit i umówić wizytę serwisanta."
+ },
+ "Indesit|E8": {
+  "title": "Usterka czujnika temperatury otoczenia",
+  "causes": [
+   "Czujnik temperatury otoczenia jest uszkodzony."
+  ],
+  "steps": [
+   "Zanotować kod.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Należy zadzwonić do serwisu Indesit i umówić wizytę serwisanta."
+ },
+ "Indesit|E9": {
+  "title": "Alarm wysokiej temperatury zamrażarki",
+  "causes": [
+   "Drzwi zamrażarki pozostały otwarte i zamrażarka się nagrzała."
+  ],
+  "steps": [
+   "Prawidłowo zamknąć drzwi zamrażarki.",
+   "Sprawdzić, czy nic nie blokuje drzwi.",
+   "Sprawdzić, czy żywność się nie rozmroziła."
+  ],
+  "technician": "Jeśli alarm nie ustępuje przy zamkniętych drzwiach, należy zadzwonić do serwisu Indesit."
+ },
+ "Indesit|EE": {
+  "title": "Usterka obwodu kostkarki",
+  "causes": [
+   "Usterka obwodu kostkarki (modele z kostkarką)."
+  ],
+  "steps": [
+   "Jeśli to możliwe, wyłączyć kostkarkę."
+  ],
+  "technician": "Należy zadzwonić do serwisu Indesit i umówić wizytę serwisanta."
+ },
+ "Whirlpool|F3 E1": {
+  "title": "Usterka systemu (migające F)",
+  "causes": [
+   "Układ sterowania wykrył usterkę. Whirlpool nie podaje domowego rozwiązania poza resetem."
+  ],
+  "steps": [
+   "Wyłączyć bezpiecznik lub odłączyć lodówkę od prądu na minutę.",
+   "Przywrócić zasilanie.",
+   "Upewnić się, że chłodzenie jest włączone.",
+   "Obserwować przez minutę, czy kod wraca."
+  ],
+  "technician": "Jeśli kod wraca po resecie, należy umówić serwis Whirlpool."
+ },
+ "Whirlpool|F3 E2": {
+  "title": "Usterka systemu (migające F)",
+  "causes": [
+   "Układ sterowania wykrył usterkę. Whirlpool nie podaje domowego rozwiązania poza resetem."
+  ],
+  "steps": [
+   "Wyłączyć bezpiecznik lub odłączyć lodówkę od prądu na minutę.",
+   "Przywrócić zasilanie.",
+   "Upewnić się, że chłodzenie jest włączone.",
+   "Obserwować przez minutę, czy kod wraca."
+  ],
+  "technician": "Jeśli kod wraca po resecie, należy umówić serwis Whirlpool."
+ },
+ "Whirlpool|F6 E1": {
+  "title": "Usterka systemu (migające F)",
+  "causes": [
+   "Układ sterowania wykrył usterkę. Whirlpool nie podaje domowego rozwiązania poza resetem."
+  ],
+  "steps": [
+   "Wyłączyć bezpiecznik lub odłączyć lodówkę od prądu na minutę.",
+   "Przywrócić zasilanie.",
+   "Upewnić się, że chłodzenie jest włączone.",
+   "Obserwować przez minutę, czy kod wraca."
+  ],
+  "technician": "Jeśli kod wraca po resecie, należy umówić serwis Whirlpool."
+ },
+ "Whirlpool|F8 E1": {
+  "title": "Usterka systemu (migające F)",
+  "causes": [
+   "Układ sterowania wykrył usterkę. Whirlpool nie podaje domowego rozwiązania poza resetem."
+  ],
+  "steps": [
+   "Wyłączyć bezpiecznik lub odłączyć lodówkę od prądu na minutę.",
+   "Przywrócić zasilanie.",
+   "Upewnić się, że chłodzenie jest włączone.",
+   "Obserwować przez minutę, czy kod wraca."
+  ],
+  "technician": "Jeśli kod wraca po resecie, należy umówić serwis Whirlpool."
+ },
+ "Whirlpool|F8 E2": {
+  "title": "Usterka systemu (migające F)",
+  "causes": [
+   "Układ sterowania wykrył usterkę. Whirlpool nie podaje domowego rozwiązania poza resetem."
+  ],
+  "steps": [
+   "Wyłączyć bezpiecznik lub odłączyć lodówkę od prądu na minutę.",
+   "Przywrócić zasilanie.",
+   "Upewnić się, że chłodzenie jest włączone.",
+   "Obserwować przez minutę, czy kod wraca."
+  ],
+  "technician": "Jeśli kod wraca po resecie, należy umówić serwis Whirlpool."
+ },
+ "Whirlpool|PO": {
+  "title": "Alert przerwy w zasilaniu",
+  "causes": [
+   "Zasilanie zostało przerwane i zamrażarka nagrzała się do -8 °C (18 °F) lub więcej."
+  ],
+  "steps": [
+   "Nacisnąć przycisk pod migającym napisem Confirm, aby skasować alert.",
+   "Sprawdzić, czy zamrożona żywność się nie rozmroziła."
+  ],
+  "technician": "To nie jest usterka. Z Whirlpool należy kontaktować się tylko wtedy, gdy PO pojawia się bez rzeczywistej przerwy w dostawie prądu."
+ },
+ "Bosch|E02": {
+  "title": "Usterka kostkarki lub układu wody",
+  "causes": [
+   "Kostkarka jest uszkodzona.",
+   "Sterowanie lodem i wodą nie komunikuje się."
+  ],
+  "steps": [
+   "Wyłączyć bezpiecznik lodówki na 30 sekund.",
+   "Włączyć go ponownie i sprawdzić kod."
+  ],
+  "technician": "Jeśli kod E02 nie znika, należy skontaktować się z obsługą klienta Bosch."
+ },
+ "Bosch|E03": {
+  "title": "Usterka sterowania dystrybutorem",
+  "causes": [
+   "Panel sterowania dystrybutora jest uszkodzony."
+  ],
+  "steps": [
+   "Wyłączyć bezpiecznik lodówki na 30 sekund.",
+   "Włączyć go ponownie i sprawdzić kod."
+  ],
+  "technician": "Jeśli kod E03 nie znika, należy skontaktować się z obsługą klienta Bosch."
+ },
+ "Haier|F1": {
+  "title": "Błąd czujnika",
+  "causes": [
+   "Czujnik temperatury jest uszkodzony."
+  ],
+  "steps": [
+   "Wyłączyć i raz ponownie włączyć lodówkę, aby sprawdzić, czy kod zniknie.",
+   "Jeśli kod wraca, zanotować go.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Użytkownik nie może tego naprawić. Należy skontaktować się z serwisem Haier w celu wizyty technika."
+ },
+ "Haier|E0": {
+  "title": "Błąd komunikacji",
+  "causes": [
+   "Wewnętrzne płytki nie komunikują się ze sobą."
+  ],
+  "steps": [
+   "Wyłączyć i raz ponownie włączyć lodówkę, aby sprawdzić, czy kod zniknie.",
+   "Jeśli kod wraca, zanotować go.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Użytkownik nie może tego naprawić. Należy skontaktować się z serwisem Haier w celu wizyty technika."
+ },
+ "Haier|E1": {
+  "title": "Błąd wentylatora",
+  "causes": [
+   "Wentylator nie działa."
+  ],
+  "steps": [
+   "Wyłączyć i raz ponownie włączyć lodówkę, aby sprawdzić, czy kod zniknie.",
+   "Jeśli kod wraca, zanotować go.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Użytkownik nie może tego naprawić. Należy skontaktować się z serwisem Haier w celu wizyty technika."
+ },
+ "Haier|Er": {
+  "title": "Błąd kostkarki",
+  "causes": [
+   "Kostkarka jest uszkodzona."
+  ],
+  "steps": [
+   "Wyłączyć i raz ponownie włączyć lodówkę, aby sprawdzić, czy kod zniknie.",
+   "Jeśli kod wraca, zanotować go.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Użytkownik nie może tego naprawić. Należy skontaktować się z serwisem Haier w celu wizyty technika."
+ },
+ "Haier|Ed": {
+  "title": "Błąd odszraniania",
+  "causes": [
+   "Układ odszraniania jest uszkodzony."
+  ],
+  "steps": [
+   "Wyłączyć i raz ponownie włączyć lodówkę, aby sprawdzić, czy kod zniknie.",
+   "Jeśli kod wraca, zanotować go.",
+   "Jak najrzadziej otwierać drzwi, aby chronić żywność."
+  ],
+  "technician": "Użytkownik nie może tego naprawić. Należy skontaktować się z serwisem Haier w celu wizyty technika."
+ }
+}

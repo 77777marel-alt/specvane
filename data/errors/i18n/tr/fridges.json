@@ -1,0 +1,1196 @@
+{
+ "Samsung|AP": {
+  "title": "Wi-Fi kurulum modu",
+  "causes": [
+   "Buzdolabı, SmartThings kurulumu için Wi-Fi erişim noktası olarak çalışıyor."
+  ],
+  "steps": [
+   "Kurulumu SmartThings uygulamasında tamamlayın veya bekleyin. Kod kendiliğinden kaybolur."
+  ],
+  "technician": "Bu bir arıza değildir. Servis gerekmez."
+ },
+ "Samsung|21E": {
+  "title": "Dondurucu fanı hatası",
+  "causes": [
+   "Dondurucu fanı, çoğunlukla bir kapı açık kaldıktan veya conta sızdırmazlık sağlamadıktan sonra buzla kaplanmış.",
+   "Fan motoru arızalanmış."
+  ],
+  "steps": [
+   "Dondurucu kapısının kapandığını ve contanın her yerde sızdırmazlık sağladığını kontrol edin.",
+   "Dondurucuyu aşırı doldurmayın.",
+   "Mümkünse yiyecekleri çıkarın ve buzdolabının kapıları açık şekilde buzunu çözmesini bekleyin."
+  ],
+  "technician": "Buz çözmeden sonra kod tekrar çıkarsa fanın bir Samsung teknisyeni tarafından incelenmesi gerekir."
+ },
+ "Samsung|22E": {
+  "title": "Buzdolabı fanı hatası",
+  "causes": [
+   "Buzdolabı kapısı çok uzun süre açık kaldı ve fan buzlandı."
+  ],
+  "steps": [
+   "Yiyecekleri serin bir yere taşıyın.",
+   "Buzdolabının fişini çekin ve kapıları birkaç saat açık bırakın.",
+   "Fişi yeniden takın ve kapıları kapatın."
+  ],
+  "technician": "22E tekrar çıkarsa Samsung servisinden destek isteyin."
+ },
+ "Samsung|41C": {
+  "title": "Family Hub arızası",
+  "causes": [
+   "Family Hub ekranında bir yazılım sorunu var."
+  ],
+  "steps": [
+   "En son yazılım güncellemesini yükleyin.",
+   "Güncellemeden sonra kod ilk kez göründüğünde OK'e dokunun."
+  ],
+  "technician": "Güncellemeden sonra tekrar çıkmaya devam ederse Samsung servisinden destek isteyin."
+ },
+ "Samsung|76C": {
+  "title": "AutoFill bölmesinde su var",
+  "causes": [
+   "AutoFill su sürahisi bölmesine su sızdırıyor."
+  ],
+  "steps": [
+   "Sürahiyi çıkarın ve bölmeyi kurulayın.",
+   "Sürahinin doğru oturduğunu ve çatlak olmadığını kontrol edin."
+  ],
+  "technician": "Su birikmeye devam ederse Samsung servisine başvurun."
+ },
+ "Samsung|85C": {
+  "title": "Düşük besleme voltajı (Family Hub)",
+  "causes": [
+   "Genellikle kısa süreli bir elektrik kesintisi."
+  ],
+  "steps": [
+   "Silmek için OK tuşunu 3 saniye basılı tutun."
+  ],
+  "technician": "Tek başına zararsızdır. Yalnızca sık görünüyorsa Samsung'a başvurun."
+ },
+ "Samsung|88 88": {
+  "title": "Açılışta iletişim arızası",
+  "causes": [
+   "Buzdolabı açılırken elektrik kesintiye uğradı."
+  ],
+  "steps": [
+   "Buzdolabının fişini çekin veya sigortasını 60 saniye kapatın.",
+   "Elektriği yeniden verin ve kodun tekrar çıkıp çıkmadığını kontrol edin."
+  ],
+  "technician": "Sıfırlamadan sonra kod tekrar çıkarsa Samsung servisinden destek isteyin."
+ },
+ "Samsung|83E": {
+  "title": "Kompresörde anormal akım",
+  "causes": [
+   "Elektrik dalgalanması veya elektriksel bir sorun."
+  ],
+  "steps": [
+   "Buzdolabının fişini çekin veya sigortasını 60 saniye kapatın.",
+   "Elektriği yeniden verin ve kodun tekrar çıkıp çıkmadığını kontrol edin."
+  ],
+  "technician": "83E tekrar çıkarsa Samsung servisinden destek isteyin."
+ },
+ "Samsung|85E": {
+  "title": "Kompresörde düşük voltaj",
+  "causes": [
+   "Voltaj düşmesi veya düşük şebeke voltajı."
+  ],
+  "steps": [
+   "Buzdolabının fişini çekin veya sigortasını 60 saniye kapatın.",
+   "Elektriği yeniden verin ve kodun tekrar çıkıp çıkmadığını kontrol edin."
+  ],
+  "technician": "85E tekrar çıkarsa elektrik beslemesini kontrol ettirin ve Samsung servisinden destek isteyin."
+ },
+ "Samsung|86E": {
+  "title": "Kompresörde yüksek voltaj",
+  "causes": [
+   "Örneğin fırtına sırasında oluşan bir elektrik dalgalanması."
+  ],
+  "steps": [
+   "Buzdolabının fişini çekin veya sigortasını 60 saniye kapatın.",
+   "Elektriği yeniden verin ve kodun tekrar çıkıp çıkmadığını kontrol edin."
+  ],
+  "technician": "86E tekrar çıkarsa Samsung servisinden destek isteyin."
+ },
+ "Samsung|PC ER": {
+  "title": "Dahili iletişim hatası",
+  "causes": [
+   "Yakın zamanda olmuş bir elektrik dalgalanması.",
+   "Kapı kablo konnektörü düzgün bağlanmamış."
+  ],
+  "steps": [
+   "Elektriği fişten veya sigortadan kesin.",
+   "Kapı menteşesinin üstündeki kablo konnektörünü kontrol edin ve yeniden bağlayın.",
+   "Elektriği yeniden verin."
+  ],
+  "technician": "Kod tekrar çıkarsa Samsung servisinden destek isteyin."
+ },
+ "Samsung|OF OF": {
+  "title": "Cooling Off (demo) modu",
+  "causes": [
+   "Demo veya mağaza modu, çoğunlukla yanlışlıkla açılmış. Buzdolabı soğutmuyor."
+  ],
+  "steps": [
+   "Panelin solundaki üstteki iki tuşu sinyal sesi duyulana kadar 5–8 saniye basılı tutun.",
+   "Bazı modellerde sağ üstteki tuşu da basılı tutun.",
+   "Modelinize ait tuş kombinasyonu için kılavuzunuza bakın."
+  ],
+  "technician": "Servis gerekmez. Bu bir ayardır, arıza değildir."
+ },
+ "Samsung|5E": {
+  "title": "Buzdolabı buz çözme sensörü hatası",
+  "causes": [
+   "Buzdolabı buz çözme sensörü arızalı."
+  ],
+  "steps": [
+   "Size söylenmedikçe buzdolabının fişini çekmeyin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Sensörün değiştirilmesi veya kontrol edilmesi için Samsung servisinden destek isteyin."
+ },
+ "Samsung|8E": {
+  "title": "Buz makinesi sensörü hatası (dondurucu)",
+  "causes": [
+   "Dondurucudaki buz makinesi sensörü arızalı."
+  ],
+  "steps": [
+   "Mümkünse buz makinesini kapatın.",
+   "Buzdolabını normal şekilde kullanmaya devam edin."
+  ],
+  "technician": "Samsung servisinden destek isteyin."
+ },
+ "Samsung|14E": {
+  "title": "Buz makinesi sensörü hatası",
+  "causes": [
+   "Buz makinesi sensörü arızalı."
+  ],
+  "steps": [
+   "Mümkünse buz makinesini kapatın.",
+   "Buzdolabını normal şekilde kullanmaya devam edin."
+  ],
+  "technician": "Samsung servisinden destek isteyin."
+ },
+ "Samsung|33E": {
+  "title": "Buz borusu ısıtıcısı hatası",
+  "causes": [
+   "Buz makinesinin su borusundaki ısıtıcı arızalı."
+  ],
+  "steps": [
+   "Mümkünse buz makinesini kapatın."
+  ],
+  "technician": "Samsung servisinden destek isteyin."
+ },
+ "Samsung|39E": {
+  "title": "Buz makinesi işlev hatası",
+  "causes": [
+   "Buz makinesi düzgün çalışmıyor."
+  ],
+  "steps": [
+   "Buz kovasının doğru oturduğunu kontrol edin.",
+   "Mümkünse buz makinesini kapatın."
+  ],
+  "technician": "Kod devam ederse Samsung servisinden destek isteyin."
+ },
+ "Samsung|40E": {
+  "title": "Buz bölmesi fanı hatası",
+  "causes": [
+   "Buz bölmesindeki fan, çoğunlukla buz nedeniyle çalışmıyor."
+  ],
+  "steps": [
+   "Buz bölmesi kapağının tamamen kapandığını kontrol edin."
+  ],
+  "technician": "Samsung servisinden destek isteyin."
+ },
+ "Samsung|84C": {
+  "title": "Kompresör kilitlendi",
+  "causes": [
+   "Kompresör kilitlenmiş ve çalışamıyor."
+  ],
+  "steps": [
+   "Buzdolabının fişini çekin veya sigortasını 60 saniye kapatın.",
+   "Elektriği yeniden verin ve kodun tekrar çıkıp çıkmadığını kontrol edin."
+  ],
+  "technician": "Samsung servisinden destek isteyin. Bu iş için bir teknisyen gerekir."
+ },
+ "LG|CF": {
+  "title": "Kondenser fanı hatası",
+  "causes": [
+   "Kondenser fanı tıkalı veya çalışmıyor, bu yüzden kompresör aşırı çalışıyor."
+  ],
+  "steps": [
+   "Buzdolabının fişini 60 saniye çekin ve çoklu prize değil, duvar prizine takın.",
+   "Kodun tekrar çıkıp çıkmadığını kontrol edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "LG servisinden destek isteyin. Bu iş için bir teknisyen gerekir."
+ },
+ "LG|CO": {
+  "title": "İletişim hatası",
+  "causes": [
+   "Ana kart ile ekran iletişim kuramıyor."
+  ],
+  "steps": [
+   "Buzdolabının fişini 60 saniye çekin ve çoklu prize değil, duvar prizine takın.",
+   "Kodun tekrar çıkıp çıkmadığını kontrol edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "LG servisinden destek isteyin. Bu iş için bir teknisyen gerekir."
+ },
+ "LG|FF": {
+  "title": "Dondurucu fanı hatası",
+  "causes": [
+   "Dondurucu fanı, çoğunlukla buz nedeniyle tıkanmış veya arızalanmış."
+  ],
+  "steps": [
+   "Buzdolabının fişini 60 saniye çekin ve çoklu prize değil, duvar prizine takın.",
+   "Kodun tekrar çıkıp çıkmadığını kontrol edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "LG servisinden destek isteyin. Bu iş için bir teknisyen gerekir."
+ },
+ "LG|FS": {
+  "title": "Dondurucu sensörü hatası",
+  "causes": [
+   "Dondurucu sıcaklık sensörü arızalı."
+  ],
+  "steps": [
+   "Buzdolabının fişini 60 saniye çekin ve çoklu prize değil, duvar prizine takın.",
+   "Kodun tekrar çıkıp çıkmadığını kontrol edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "LG servisinden destek isteyin. Bu iş için bir teknisyen gerekir."
+ },
+ "LG|FU": {
+  "title": "Dondurucu yeterince soğutmuyor",
+  "causes": [
+   "Dondurucu çalıştırıldıktan sonra yeterince soğumadı.",
+   "Kapılar sık açılıyor veya sızdırmazlık sağlamıyor.",
+   "Hava delikleri yiyeceklerle kapanmış."
+  ],
+  "steps": [
+   "Buzdolabının fişini 60 saniye çekin ve çoklu prize değil, duvar prizine takın.",
+   "Dondurucuyu -18 °C'ye ayarlayın.",
+   "Yiyecekleri hava deliklerinden uzak tutun.",
+   "Kapı contalarını, kapıyı bir kâğıt parçası üzerine kapatarak kontrol edin. Kâğıt kolayca kaymamalıdır.",
+   "Kapıları daha az açın."
+  ],
+  "technician": "Dondurucu hâlâ soğutmuyorsa LG servisinden destek isteyin."
+ },
+ "LG|IF": {
+  "title": "Buz makinesi fanı hatası",
+  "causes": [
+   "Buz makinesi fanı tıkalı veya arızalı."
+  ],
+  "steps": [
+   "Buzdolabının fişini 60 saniye çekin ve çoklu prize değil, duvar prizine takın.",
+   "Kodun tekrar çıkıp çıkmadığını kontrol edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "LG servisinden destek isteyin. Bu iş için bir teknisyen gerekir."
+ },
+ "LG|IS": {
+  "title": "Buz makinesi sensörü hatası",
+  "causes": [
+   "Buz makinesi sıcaklık sensörü arızalı."
+  ],
+  "steps": [
+   "Buzdolabının fişini 60 saniye çekin ve çoklu prize değil, duvar prizine takın.",
+   "Kodun tekrar çıkıp çıkmadığını kontrol edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "LG servisinden destek isteyin. Bu iş için bir teknisyen gerekir."
+ },
+ "LG|It": {
+  "title": "Buz makinesi motoru hatası",
+  "causes": [
+   "Buz makinesi motoru arızalı."
+  ],
+  "steps": [
+   "Buzdolabının fişini 60 saniye çekin ve çoklu prize değil, duvar prizine takın.",
+   "Kodun tekrar çıkıp çıkmadığını kontrol edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "LG servisinden destek isteyin. Bu iş için bir teknisyen gerekir."
+ },
+ "LG|rS": {
+  "title": "Buzdolabı sensörü hatası (üst)",
+  "causes": [
+   "Üst buzdolabı sıcaklık sensörü arızalı."
+  ],
+  "steps": [
+   "Buzdolabının fişini 60 saniye çekin ve çoklu prize değil, duvar prizine takın.",
+   "Kodun tekrar çıkıp çıkmadığını kontrol edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "LG servisinden destek isteyin. Bu iş için bir teknisyen gerekir."
+ },
+ "LG|r2": {
+  "title": "Buzdolabı sensörü hatası (alt)",
+  "causes": [
+   "Alt buzdolabı sıcaklık sensörü arızalı."
+  ],
+  "steps": [
+   "Buzdolabının fişini 60 saniye çekin ve çoklu prize değil, duvar prizine takın.",
+   "Kodun tekrar çıkıp çıkmadığını kontrol edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "LG servisinden destek isteyin. Bu iş için bir teknisyen gerekir."
+ },
+ "LG|dS": {
+  "title": "Buz çözme sensörü hatası",
+  "causes": [
+   "Buz çözme sensörü arızalı, bu yüzden evaporatör buzlanabilir."
+  ],
+  "steps": [
+   "Buzdolabının fişini 60 saniye çekin ve çoklu prize değil, duvar prizine takın.",
+   "Kodun tekrar çıkıp çıkmadığını kontrol edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "LG servisinden destek isteyin. Bu iş için bir teknisyen gerekir."
+ },
+ "LG|rT": {
+  "title": "Ortam sıcaklığı sensörü hatası",
+  "causes": [
+   "Ortam sıcaklığı sensörü arızalı."
+  ],
+  "steps": [
+   "Buzdolabının fişini 60 saniye çekin ve çoklu prize değil, duvar prizine takın.",
+   "Kodun tekrar çıkıp çıkmadığını kontrol edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "LG servisinden destek isteyin. Bu iş için bir teknisyen gerekir."
+ },
+ "LG|dH": {
+  "title": "Buz çözme arızası",
+  "causes": [
+   "Buz çözme sistemi zamanında ısınmadı.",
+   "Evaporatör buzla tıkanmış."
+  ],
+  "steps": [
+   "Yiyecekleri çıkarın ve serin bir yere koyun.",
+   "Buzdolabının önündeki zemine havlu serin.",
+   "Buzun erimesi için buzdolabının fişini çekin ve kapıları en az 12 saat açık bırakın.",
+   "Fişi yeniden takın."
+  ],
+  "technician": "Bu çoğu zaman yalnızca geçici bir çözümdür. dH tekrar çıkarsa LG servisinden destek isteyin."
+ },
+ "LG|SS": {
+  "title": "Su deposu sensörü hatası",
+  "causes": [
+   "Su deposu sıcaklık sensörü arızalı."
+  ],
+  "steps": [
+   "Buzdolabının fişini 60 saniye çekin ve çoklu prize değil, duvar prizine takın.",
+   "Kodun tekrar çıkıp çıkmadığını kontrol edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "LG servisinden destek isteyin. Bu iş için bir teknisyen gerekir."
+ },
+ "LG|rF": {
+  "title": "Buzdolabı fanı hatası",
+  "causes": [
+   "Buzdolabı fanı tıkalı veya arızalı."
+  ],
+  "steps": [
+   "Buzdolabının fişini 60 saniye çekin ve çoklu prize değil, duvar prizine takın.",
+   "Kodun tekrar çıkıp çıkmadığını kontrol edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "LG servisinden destek isteyin. Bu iş için bir teknisyen gerekir."
+ },
+ "LG|tt": {
+  "title": "Su deposu sorunu",
+  "causes": [
+   "Su deposu yerinde değil veya doğru oturmamış.",
+   "Depo sensörü arızalı."
+  ],
+  "steps": [
+   "Su deposunu çıkarın ve doğru şekilde yerine takın.",
+   "Kodun kaybolup kaybolmadığını kontrol edin."
+  ],
+  "technician": "Depo yerindeyken tt devam ederse LG servisinden destek isteyin."
+ },
+ "LG|C1": {
+  "title": "Dağıtıcı iletişim hatası",
+  "causes": [
+   "Dağıtıcı ile ekran iletişim kuramıyor."
+  ],
+  "steps": [
+   "Buzdolabının fişini 60 saniye çekin ve çoklu prize değil, duvar prizine takın.",
+   "Kodun tekrar çıkıp çıkmadığını kontrol edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "LG servisinden destek isteyin. Bu iş için bir teknisyen gerekir."
+ },
+ "LG|gF": {
+  "title": "Su akış sensörü hatası",
+  "causes": [
+   "Su besleme musluğu kapalı.",
+   "Su hortumu bükülmüş.",
+   "Su basıncı uygun değil."
+  ],
+  "steps": [
+   "Buzdolabının fişini 60 saniye çekin ve çoklu prize değil, duvar prizine takın.",
+   "Buzdolabının yeniden başlaması için 5 dakikaya kadar bekleyin.",
+   "Su besleme musluğunu tamamen açın.",
+   "Hortumun bükülmediğini kontrol edin.",
+   "Su basıncınızı kılavuzdaki değerlerle karşılaştırın."
+  ],
+  "technician": "Hata devam ederse LG servisinden destek isteyin."
+ },
+ "LG|CH": {
+  "title": "Soğutucu akışkan sistemi hatası (yüksek basınç tarafı)",
+  "causes": [
+   "Sensörler soğutucu akışkan sisteminde anormal değerler okuyor; olası bir sızıntı veya arızalı valf."
+  ],
+  "steps": [
+   "Buzdolabının fişini 60 saniye çekin ve çoklu prize değil, duvar prizine takın.",
+   "Kodun tekrar çıkıp çıkmadığını kontrol edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "LG servisinden destek isteyin. Bu iş için bir teknisyen gerekir."
+ },
+ "LG|CL": {
+  "title": "Soğutucu akışkan sistemi hatası (düşük basınç tarafı)",
+  "causes": [
+   "Sensörler soğutucu akışkan sisteminde anormal değerler okuyor; olası bir sızıntı veya arızalı valf."
+  ],
+  "steps": [
+   "Buzdolabının fişini 60 saniye çekin ve çoklu prize değil, duvar prizine takın.",
+   "Kodun tekrar çıkıp çıkmadığını kontrol edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "LG servisinden destek isteyin. Bu iş için bir teknisyen gerekir."
+ },
+ "LG|Lo": {
+  "title": "Ortam çok soğuk",
+  "causes": [
+   "Ortam -10 °C'den daha soğuk."
+  ],
+  "steps": [
+   "Mümkünse buzdolabını daha sıcak bir yere taşıyın."
+  ],
+  "technician": "Bu bir arıza değildir. Yalnızca ortam sıcak olduğu hâlde Lo görünmeye devam ediyorsa LG'ye başvurun."
+ },
+ "LG|HI": {
+  "title": "Ortam çok sıcak",
+  "causes": [
+   "Ortam 50 °C'den daha sıcak."
+  ],
+  "steps": [
+   "Mümkünse buzdolabını daha serin bir yere taşıyın.",
+   "Çevresinde hava dolaşabildiğinden emin olun."
+  ],
+  "technician": "Bu bir arıza değildir. Yalnızca ortam normal olduğu hâlde HI görünmeye devam ediyorsa LG'ye başvurun."
+ },
+ "Miele|F0": {
+  "title": "Teknik arıza",
+  "causes": [
+   "Dahili teknik bir arıza tespit edildi."
+  ],
+  "steps": [
+   "Arıza kodunu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun.",
+   "Miele teknisyeninden randevu alın."
+  ],
+  "technician": "Bu, kendiniz gideremeyeceğiniz teknik bir arızadır. Miele Müşteri Hizmetlerine başvurun."
+ },
+ "Miele|F1": {
+  "title": "Teknik arıza",
+  "causes": [
+   "Dahili teknik bir arıza tespit edildi."
+  ],
+  "steps": [
+   "Arıza kodunu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun.",
+   "Miele teknisyeninden randevu alın."
+  ],
+  "technician": "Bu, kendiniz gideremeyeceğiniz teknik bir arızadır. Miele Müşteri Hizmetlerine başvurun."
+ },
+ "Miele|F2": {
+  "title": "Teknik arıza",
+  "causes": [
+   "Dahili teknik bir arıza tespit edildi."
+  ],
+  "steps": [
+   "Arıza kodunu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun.",
+   "Miele teknisyeninden randevu alın."
+  ],
+  "technician": "Bu, kendiniz gideremeyeceğiniz teknik bir arızadır. Miele Müşteri Hizmetlerine başvurun."
+ },
+ "Miele|F3": {
+  "title": "Teknik arıza",
+  "causes": [
+   "Dahili teknik bir arıza tespit edildi."
+  ],
+  "steps": [
+   "Arıza kodunu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun.",
+   "Miele teknisyeninden randevu alın."
+  ],
+  "technician": "Bu, kendiniz gideremeyeceğiniz teknik bir arızadır. Miele Müşteri Hizmetlerine başvurun."
+ },
+ "Miele|F4": {
+  "title": "Teknik arıza",
+  "causes": [
+   "Dahili teknik bir arıza tespit edildi."
+  ],
+  "steps": [
+   "Arıza kodunu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun.",
+   "Miele teknisyeninden randevu alın."
+  ],
+  "technician": "Bu, kendiniz gideremeyeceğiniz teknik bir arızadır. Miele Müşteri Hizmetlerine başvurun."
+ },
+ "Miele|F5": {
+  "title": "Teknik arıza",
+  "causes": [
+   "Dahili teknik bir arıza tespit edildi."
+  ],
+  "steps": [
+   "Arıza kodunu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun.",
+   "Miele teknisyeninden randevu alın."
+  ],
+  "technician": "Bu, kendiniz gideremeyeceğiniz teknik bir arızadır. Miele Müşteri Hizmetlerine başvurun."
+ },
+ "Miele|F114": {
+  "title": "Dondurucu evaporatör sensörü arızalı",
+  "causes": [
+   "Dondurucu bölmesindeki evaporatör sensörü arızalı."
+  ],
+  "steps": [
+   "Arıza kodunu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun.",
+   "Miele teknisyeninden randevu alın."
+  ],
+  "technician": "Bu, kendiniz gideremeyeceğiniz teknik bir arızadır. Miele Müşteri Hizmetlerine başvurun."
+ },
+ "Miele|F120": {
+  "title": "Şebeke voltajı çok düşük",
+  "causes": [
+   "Şebeke voltajı zaman zaman çok düşüyor veya çok dalgalanıyor."
+  ],
+  "steps": [
+   "Diğer cihazlarda da sorun olup olmadığını kontrol edin.",
+   "Şebeke voltajınızı yetkin bir elektrikçiye kontrol ettirin."
+  ],
+  "technician": "Voltaj normalse ve F120 devam ediyorsa Miele teknisyeninden randevu alın."
+ },
+ "Miele|F141": {
+  "title": "Buzdolabı kapısı 15 dakikadır açık",
+  "causes": [
+   "Buzdolabı bölmesinin kapısı 15 dakikadır açık."
+  ],
+  "steps": [
+   "Buzdolabı kapısını kapatın.",
+   "Kapanmasını engelleyen bir şey olmadığını kontrol edin."
+  ],
+  "technician": "Kapı kapalıyken F141 görünüyorsa Miele teknisyeninden randevu alın."
+ },
+ "Miele|F142": {
+  "title": "Buzdolabı kapısı 30 dakikadır açık",
+  "causes": [
+   "Buzdolabı bölmesinin kapısı yaklaşık 30 dakikadır açık."
+  ],
+  "steps": [
+   "Buzdolabı kapısını kapatın.",
+   "Kapanmasını engelleyen bir şey olmadığını kontrol edin."
+  ],
+  "technician": "Kapı kapalıyken F142 görünüyorsa Miele teknisyeninden randevu alın."
+ },
+ "Miele|F383": {
+  "title": "Buz makinesi su girişi arızası",
+  "causes": [
+   "Su giriş hortumu bükülmüş.",
+   "Su giriş filtresi kirli.",
+   "Su kabı yerine oturmamış veya şamandırası sıkışmış.",
+   "Bir yazılım arızası."
+  ],
+  "steps": [
+   "Su hortumundaki bükülmeleri düzeltin.",
+   "Su giriş filtresini temizleyin.",
+   "Su kabını çıkarın, altını temizleyin ve tamamen yerine itin.",
+   "Şamandıranın serbestçe hareket ettiğini kontrol etmek için kabı sallayın.",
+   "Dondurucuyu en az 48 saat boyunca -18 °C'ye ayarlayın."
+  ],
+  "technician": "Arıza devam ederse Miele Müşteri Hizmetlerine başvurun."
+ },
+ "Miele|F384": {
+  "title": "Yazılım çökmesi",
+  "causes": [
+   "Cihaz yazılımı çalışmayı durdurdu."
+  ],
+  "steps": [
+   "Cihazın fişini yaklaşık 2 dakika çekin.",
+   "Fişi yeniden takın ve cihazı açın.",
+   "Yeniden çalışırsa Ayarlar menüsünden fabrika ayarlarını geri yükleyin."
+  ],
+  "technician": "Arıza tekrar ederse Miele Müşteri Hizmetlerine başvurun."
+ },
+ "Miele|F385": {
+  "title": "Yazılım çökmesi",
+  "causes": [
+   "Cihaz yazılımı çalışmayı durdurdu."
+  ],
+  "steps": [
+   "Cihazın fişini yaklaşık 2 dakika çekin.",
+   "Fişi yeniden takın ve cihazı açın.",
+   "Yeniden çalışırsa Ayarlar menüsünden fabrika ayarlarını geri yükleyin."
+  ],
+  "technician": "Arıza tekrar ederse Miele Müşteri Hizmetlerine başvurun."
+ },
+ "Miele|nA": {
+  "title": "Dondurucu daha önce fazla ısındı",
+  "causes": [
+   "Bir elektrik kesintisi veya besleme kesintisi dondurucunun ısınmasına neden oldu."
+  ],
+  "steps": [
+   "Ulaşılan en yüksek sıcaklığı görmek için alarm tuşunu basılı tutun.",
+   "Yiyecekleri kontrol edin. Çözülmüş yiyecekleri kısa sürede tüketin.",
+   "Çözülmüş yiyecekleri önce pişirmeden yeniden dondurmayın."
+  ],
+  "technician": "Bu bir arıza değildir. Yalnızca herhangi bir elektrik kesintisi olmadan görünüyorsa Miele'ye başvurun."
+ },
+ "AEG|E08": {
+  "title": "Düşük besleme voltajı",
+  "causes": [
+   "Şebeke voltajı 170 V'un altına düştü. Bu, kompresörü korur."
+  ],
+  "steps": [
+   "Diğer cihazlarda elektrik sorunu olup olmadığını kontrol edin.",
+   "Elektrik beslemesinin normale dönmesini bekleyin."
+  ],
+  "technician": "E08 görünmeye devam ederse elektrik beslemesini kontrol ettirin ve yetkili bir AEG teknisyenine başvurun."
+ },
+ "AEG|E09": {
+  "title": "Dondurucu yeterince soğuk değil",
+  "causes": [
+   "Genellikle uzun bir elektrik kesintisinden sonra."
+  ],
+  "steps": [
+   "Dondurucu ayarını düşürün veya Super Freeze özelliğini açın.",
+   "Kod kaybolana kadar kapıları kapalı tutun.",
+   "Çözülmüş yiyecekleri kısa sürede tüketin veya pişirin.",
+   "Kod kaybolana kadar taze yiyecek eklemeyin."
+  ],
+  "technician": "Kod devam ederse yetkili bir AEG teknisyenine başvurun."
+ },
+ "AEG|E10": {
+  "title": "Buzdolabı yeterince soğuk değil",
+  "causes": [
+   "Uzun bir elektrik kesintisi.",
+   "Buzdolabına sıcak yiyecek konmuş."
+  ],
+  "steps": [
+   "Buzdolabı ayarını düşürün veya Super Cool özelliğini açın.",
+   "Kapıları kapalı tutun.",
+   "Yiyecekleri hava deliklerinden ve sensörden uzak tutun."
+  ],
+  "technician": "E10 devam ederse AEG'den onarım randevusu alın."
+ },
+ "AEG|E11": {
+  "title": "Buzdolabı çok soğuk",
+  "causes": [
+   "Super Cool açık bırakılmış.",
+   "Sıcaklık çok düşük ayarlanmış.",
+   "Hava delikleri kapanmış."
+  ],
+  "steps": [
+   "Super Cool özelliğini kapatın.",
+   "Buzdolabını daha yüksek bir sıcaklığa ayarlayın.",
+   "Hava deliklerinin açık olduğundan emin olun."
+  ],
+  "technician": "Kod devam ederse yetkili bir AEG servisine başvurun."
+ },
+ "AEG|F2": {
+  "title": "Termostat arızası",
+  "causes": [
+   "Termostatta bir sorun var."
+  ],
+  "steps": [
+   "Kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "AEG servis teknisyeninden randevu alın ve kodu bildirin."
+ },
+ "AEG|F8": {
+  "title": "Buz çözme sistemi arızası",
+  "causes": [
+   "Buz çözme sisteminde bir arıza var."
+  ],
+  "steps": [
+   "Kendiniz onarmaya çalışmayın.",
+   "Model ve seri numarasını not edin."
+  ],
+  "technician": "AEG servis teknisyeninden randevu alın ve F8 kodunu bildirin."
+ },
+ "Electrolux|F5": {
+  "title": "Sıcaklık sensörü arızası",
+  "causes": [
+   "Bir sıcaklık sensörü arızalı. F3 ve F4 aynı tür arızayı gösterir."
+  ],
+  "steps": [
+   "Kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Electrolux servis teknisyeninden randevu alın ve kodu bildirin."
+ },
+ "Electrolux|E01": {
+  "title": "Sensör uyarısı",
+  "causes": [
+   "Buzdolabı-dondurucudaki bir sensörde sorun var."
+  ],
+  "steps": [
+   "Kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Teknisyen ziyareti için yetkili bir Electrolux servisine başvurun."
+ },
+ "Electrolux|E02": {
+  "title": "Sensör uyarısı",
+  "causes": [
+   "Buzdolabı-dondurucudaki bir sensörde sorun var."
+  ],
+  "steps": [
+   "Kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Teknisyen ziyareti için yetkili bir Electrolux servisine başvurun."
+ },
+ "Electrolux|E03": {
+  "title": "Sensör uyarısı",
+  "causes": [
+   "Buzdolabı-dondurucudaki bir sensörde sorun var."
+  ],
+  "steps": [
+   "Kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Teknisyen ziyareti için yetkili bir Electrolux servisine başvurun."
+ },
+ "Electrolux|E06": {
+  "title": "Sensör uyarısı",
+  "causes": [
+   "Buzdolabı-dondurucudaki bir sensörde sorun var."
+  ],
+  "steps": [
+   "Kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Teknisyen ziyareti için yetkili bir Electrolux servisine başvurun."
+ },
+ "Electrolux|E07": {
+  "title": "Sensör uyarısı",
+  "causes": [
+   "Buzdolabı-dondurucudaki bir sensörde sorun var."
+  ],
+  "steps": [
+   "Kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Teknisyen ziyareti için yetkili bir Electrolux servisine başvurun."
+ },
+ "Hotpoint|E0": {
+  "title": "Buz makinesi arızası",
+  "causes": [
+   "Buz makinesi düzgün çalışmıyor (buz makineli modeller)."
+  ],
+  "steps": [
+   "Mümkünse buz makinesini kapatın.",
+   "Buzdolabını normal şekilde kullanmaya devam edin."
+  ],
+  "technician": "Teknisyen randevusu için Hotpoint servisini arayın."
+ },
+ "Hotpoint|E1": {
+  "title": "Buzdolabı sensörü arızası",
+  "causes": [
+   "Buzdolabı sıcaklık sensörü arızalı."
+  ],
+  "steps": [
+   "Kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Teknisyen randevusu için Hotpoint servisini arayın."
+ },
+ "Hotpoint|E2": {
+  "title": "Dondurucu sensörü arızası",
+  "causes": [
+   "Dondurucu sıcaklık sensörü arızalı.",
+   "Dondurucu sıcaklığı yanlış olabilir."
+  ],
+  "steps": [
+   "Yiyeceklerin hâlâ donmuş olduğunu kontrol edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Teknisyen randevusu için Hotpoint servisini arayın."
+ },
+ "Hotpoint|E3": {
+  "title": "Buz çözme sensörü arızası",
+  "causes": [
+   "Buz çözme sensörü arızalı.",
+   "Tıkalı bir gider de sıcaklığı etkileyebilir."
+  ],
+  "steps": [
+   "Buz çözme suyu gider deliğini ve varsa gider borusunu tıkanıklık açısından kontrol edin.",
+   "Tıkanıklığı nazikçe giderin."
+  ],
+  "technician": "Arıza devam ederse Hotpoint servisini arayın."
+ },
+ "Hotpoint|E4": {
+  "title": "Buzdolabı buz çözme sensörü arızası",
+  "causes": [
+   "Buzdolabı buz çözme sensörü arızalı."
+  ],
+  "steps": [
+   "Kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Teknisyen randevusu için Hotpoint servisini arayın."
+ },
+ "Hotpoint|E5": {
+  "title": "Dondurucu buz çözme sensörü arızası",
+  "causes": [
+   "Dondurucu buz çözme sensörü arızalı."
+  ],
+  "steps": [
+   "Kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Teknisyen randevusu için Hotpoint servisini arayın."
+ },
+ "Hotpoint|E6": {
+  "title": "Kontrol veya ekran kartı arızası",
+  "causes": [
+   "Ana kontrol kartı veya ekran kartı arızalı."
+  ],
+  "steps": [
+   "Buzdolabının fişini birkaç dakika çekin ve yeniden takın."
+  ],
+  "technician": "Teknisyen randevusu için Hotpoint servisini arayın."
+ },
+ "Hotpoint|E7": {
+  "title": "Ortam sıcaklığı sensörü arızası",
+  "causes": [
+   "Ortam sıcaklığı sensörü arızalı."
+  ],
+  "steps": [
+   "Kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Teknisyen randevusu için Hotpoint servisini arayın."
+ },
+ "Hotpoint|E8": {
+  "title": "Ortam sıcaklığı sensörü arızası",
+  "causes": [
+   "Ortam sıcaklığı sensörü arızalı."
+  ],
+  "steps": [
+   "Kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Teknisyen randevusu için Hotpoint servisini arayın."
+ },
+ "Hotpoint|E9": {
+  "title": "Dondurucu yüksek sıcaklık alarmı",
+  "causes": [
+   "Dondurucu kapısı açık bırakıldı ve dondurucu ısındı."
+  ],
+  "steps": [
+   "Dondurucu kapısını düzgünce kapatın.",
+   "Kapıyı engelleyen bir şey olmadığını kontrol edin.",
+   "Yiyeceklerin çözülüp çözülmediğini kontrol edin."
+  ],
+  "technician": "Kapı kapalıyken alarm devam ederse Hotpoint servisini arayın."
+ },
+ "Hotpoint|EE": {
+  "title": "Buz makinesi devresi arızası",
+  "causes": [
+   "Buz makinesi devresinde bir arıza var (buz makineli modeller)."
+  ],
+  "steps": [
+   "Mümkünse buz makinesini kapatın."
+  ],
+  "technician": "Teknisyen randevusu için Hotpoint servisini arayın."
+ },
+ "Indesit|E0": {
+  "title": "Buz makinesi arızası",
+  "causes": [
+   "Buz makinesi düzgün çalışmıyor (buz makineli modeller)."
+  ],
+  "steps": [
+   "Mümkünse buz makinesini kapatın.",
+   "Buzdolabını normal şekilde kullanmaya devam edin."
+  ],
+  "technician": "Teknisyen randevusu için Indesit servisini arayın."
+ },
+ "Indesit|E1": {
+  "title": "Buzdolabı sensörü arızası",
+  "causes": [
+   "Buzdolabı sıcaklık sensörü arızalı."
+  ],
+  "steps": [
+   "Kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Teknisyen randevusu için Indesit servisini arayın."
+ },
+ "Indesit|E2": {
+  "title": "Dondurucu sensörü arızası",
+  "causes": [
+   "Dondurucu sıcaklık sensörü arızalı.",
+   "Dondurucu sıcaklığı yanlış olabilir."
+  ],
+  "steps": [
+   "Yiyeceklerin hâlâ donmuş olduğunu kontrol edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Teknisyen randevusu için Indesit servisini arayın."
+ },
+ "Indesit|E3": {
+  "title": "Buz çözme sensörü arızası",
+  "causes": [
+   "Buz çözme sensörü arızalı.",
+   "Tıkalı bir gider de sıcaklığı etkileyebilir."
+  ],
+  "steps": [
+   "Buz çözme suyu gider deliğini ve varsa gider borusunu tıkanıklık açısından kontrol edin.",
+   "Tıkanıklığı nazikçe giderin."
+  ],
+  "technician": "Arıza devam ederse Indesit servisini arayın."
+ },
+ "Indesit|E4": {
+  "title": "Buzdolabı buz çözme sensörü arızası",
+  "causes": [
+   "Buzdolabı buz çözme sensörü arızalı."
+  ],
+  "steps": [
+   "Kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Teknisyen randevusu için Indesit servisini arayın."
+ },
+ "Indesit|E5": {
+  "title": "Dondurucu buz çözme sensörü arızası",
+  "causes": [
+   "Dondurucu buz çözme sensörü arızalı."
+  ],
+  "steps": [
+   "Kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Teknisyen randevusu için Indesit servisini arayın."
+ },
+ "Indesit|E6": {
+  "title": "Kontrol veya ekran kartı arızası",
+  "causes": [
+   "Ana kontrol kartı veya ekran kartı arızalı."
+  ],
+  "steps": [
+   "Buzdolabının fişini birkaç dakika çekin ve yeniden takın."
+  ],
+  "technician": "Teknisyen randevusu için Indesit servisini arayın."
+ },
+ "Indesit|E7": {
+  "title": "Ortam sıcaklığı sensörü arızası",
+  "causes": [
+   "Ortam sıcaklığı sensörü arızalı."
+  ],
+  "steps": [
+   "Kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Teknisyen randevusu için Indesit servisini arayın."
+ },
+ "Indesit|E8": {
+  "title": "Ortam sıcaklığı sensörü arızası",
+  "causes": [
+   "Ortam sıcaklığı sensörü arızalı."
+  ],
+  "steps": [
+   "Kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Teknisyen randevusu için Indesit servisini arayın."
+ },
+ "Indesit|E9": {
+  "title": "Dondurucu yüksek sıcaklık alarmı",
+  "causes": [
+   "Dondurucu kapısı açık bırakıldı ve dondurucu ısındı."
+  ],
+  "steps": [
+   "Dondurucu kapısını düzgünce kapatın.",
+   "Kapıyı engelleyen bir şey olmadığını kontrol edin.",
+   "Yiyeceklerin çözülüp çözülmediğini kontrol edin."
+  ],
+  "technician": "Kapı kapalıyken alarm devam ederse Indesit servisini arayın."
+ },
+ "Indesit|EE": {
+  "title": "Buz makinesi devresi arızası",
+  "causes": [
+   "Buz makinesi devresinde bir arıza var (buz makineli modeller)."
+  ],
+  "steps": [
+   "Mümkünse buz makinesini kapatın."
+  ],
+  "technician": "Teknisyen randevusu için Indesit servisini arayın."
+ },
+ "Whirlpool|F3 E1": {
+  "title": "Sistem arızası (yanıp sönen F)",
+  "causes": [
+   "Kontrol ünitesi bir arıza tespit etti. Whirlpool, sıfırlama dışında evde yapılabilecek bir çözüm sunmuyor."
+  ],
+  "steps": [
+   "Sigortayı kapatın veya buzdolabının fişini bir dakika çekin.",
+   "Elektriği yeniden verin.",
+   "Soğutmanın açık olduğundan emin olun.",
+   "Kodun tekrar çıkıp çıkmadığını bir dakika izleyin."
+  ],
+  "technician": "Sıfırlamadan sonra kod tekrar çıkarsa Whirlpool servisinden randevu alın."
+ },
+ "Whirlpool|F3 E2": {
+  "title": "Sistem arızası (yanıp sönen F)",
+  "causes": [
+   "Kontrol ünitesi bir arıza tespit etti. Whirlpool, sıfırlama dışında evde yapılabilecek bir çözüm sunmuyor."
+  ],
+  "steps": [
+   "Sigortayı kapatın veya buzdolabının fişini bir dakika çekin.",
+   "Elektriği yeniden verin.",
+   "Soğutmanın açık olduğundan emin olun.",
+   "Kodun tekrar çıkıp çıkmadığını bir dakika izleyin."
+  ],
+  "technician": "Sıfırlamadan sonra kod tekrar çıkarsa Whirlpool servisinden randevu alın."
+ },
+ "Whirlpool|F6 E1": {
+  "title": "Sistem arızası (yanıp sönen F)",
+  "causes": [
+   "Kontrol ünitesi bir arıza tespit etti. Whirlpool, sıfırlama dışında evde yapılabilecek bir çözüm sunmuyor."
+  ],
+  "steps": [
+   "Sigortayı kapatın veya buzdolabının fişini bir dakika çekin.",
+   "Elektriği yeniden verin.",
+   "Soğutmanın açık olduğundan emin olun.",
+   "Kodun tekrar çıkıp çıkmadığını bir dakika izleyin."
+  ],
+  "technician": "Sıfırlamadan sonra kod tekrar çıkarsa Whirlpool servisinden randevu alın."
+ },
+ "Whirlpool|F8 E1": {
+  "title": "Sistem arızası (yanıp sönen F)",
+  "causes": [
+   "Kontrol ünitesi bir arıza tespit etti. Whirlpool, sıfırlama dışında evde yapılabilecek bir çözüm sunmuyor."
+  ],
+  "steps": [
+   "Sigortayı kapatın veya buzdolabının fişini bir dakika çekin.",
+   "Elektriği yeniden verin.",
+   "Soğutmanın açık olduğundan emin olun.",
+   "Kodun tekrar çıkıp çıkmadığını bir dakika izleyin."
+  ],
+  "technician": "Sıfırlamadan sonra kod tekrar çıkarsa Whirlpool servisinden randevu alın."
+ },
+ "Whirlpool|F8 E2": {
+  "title": "Sistem arızası (yanıp sönen F)",
+  "causes": [
+   "Kontrol ünitesi bir arıza tespit etti. Whirlpool, sıfırlama dışında evde yapılabilecek bir çözüm sunmuyor."
+  ],
+  "steps": [
+   "Sigortayı kapatın veya buzdolabının fişini bir dakika çekin.",
+   "Elektriği yeniden verin.",
+   "Soğutmanın açık olduğundan emin olun.",
+   "Kodun tekrar çıkıp çıkmadığını bir dakika izleyin."
+  ],
+  "technician": "Sıfırlamadan sonra kod tekrar çıkarsa Whirlpool servisinden randevu alın."
+ },
+ "Whirlpool|PO": {
+  "title": "Elektrik kesintisi uyarısı",
+  "causes": [
+   "Elektrik kesildi ve dondurucu -8 °C (18 °F) veya daha yüksek bir sıcaklığa ısındı."
+  ],
+  "steps": [
+   "Uyarıyı silmek için yanıp sönen Confirm etiketinin altındaki tuşa basın.",
+   "Donmuş yiyeceklerin çözülüp çözülmediğini kontrol edin."
+  ],
+  "technician": "Bu bir arıza değildir. Yalnızca gerçek bir elektrik kesintisi olmadan PO görünüyorsa Whirlpool'a başvurun."
+ },
+ "Bosch|E02": {
+  "title": "Buz makinesi veya su sistemi arızası",
+  "causes": [
+   "Buz makinesi arızalı.",
+   "Buz ve su kontrolleri birbiriyle iletişim kuramıyor."
+  ],
+  "steps": [
+   "Buzdolabının sigortasını 30 saniye kapatın.",
+   "Yeniden açın ve kodu kontrol edin."
+  ],
+  "technician": "E02 devam ederse Bosch müşteri desteğine başvurun."
+ },
+ "Bosch|E03": {
+  "title": "Dağıtıcı kontrol arızası",
+  "causes": [
+   "Dağıtıcı kontrol panelinde bir arıza var."
+  ],
+  "steps": [
+   "Buzdolabının sigortasını 30 saniye kapatın.",
+   "Yeniden açın ve kodu kontrol edin."
+  ],
+  "technician": "E03 devam ederse Bosch müşteri desteğine başvurun."
+ },
+ "Haier|F1": {
+  "title": "Sensör hatası",
+  "causes": [
+   "Bir sıcaklık sensörü arızalı."
+  ],
+  "steps": [
+   "Kodun kaybolup kaybolmadığını görmek için buzdolabını bir kez kapatıp açın.",
+   "Tekrar çıkarsa kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Kullanıcılar bunu gideremez. Teknisyen için Haier servisine başvurun."
+ },
+ "Haier|E0": {
+  "title": "İletişim hatası",
+  "causes": [
+   "Dahili kartlar birbiriyle iletişim kuramıyor."
+  ],
+  "steps": [
+   "Kodun kaybolup kaybolmadığını görmek için buzdolabını bir kez kapatıp açın.",
+   "Tekrar çıkarsa kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Kullanıcılar bunu gideremez. Teknisyen için Haier servisine başvurun."
+ },
+ "Haier|E1": {
+  "title": "Fan hatası",
+  "causes": [
+   "Bir fan çalışmıyor."
+  ],
+  "steps": [
+   "Kodun kaybolup kaybolmadığını görmek için buzdolabını bir kez kapatıp açın.",
+   "Tekrar çıkarsa kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Kullanıcılar bunu gideremez. Teknisyen için Haier servisine başvurun."
+ },
+ "Haier|Er": {
+  "title": "Buz makinesi hatası",
+  "causes": [
+   "Buz makinesi arızalı."
+  ],
+  "steps": [
+   "Kodun kaybolup kaybolmadığını görmek için buzdolabını bir kez kapatıp açın.",
+   "Tekrar çıkarsa kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Kullanıcılar bunu gideremez. Teknisyen için Haier servisine başvurun."
+ },
+ "Haier|Ed": {
+  "title": "Buz çözme hatası",
+  "causes": [
+   "Buz çözme sistemi arızalı."
+  ],
+  "steps": [
+   "Kodun kaybolup kaybolmadığını görmek için buzdolabını bir kez kapatıp açın.",
+   "Tekrar çıkarsa kodu not edin.",
+   "Yiyecekleri korumak için kapıları mümkün olduğunca kapalı tutun."
+  ],
+  "technician": "Kullanıcılar bunu gideremez. Teknisyen için Haier servisine başvurun."
+ }
+}

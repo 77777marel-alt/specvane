@@ -154,7 +154,7 @@ export const fr: Dict = {
     popularCompare: "Comparatifs populaires",
     seeAll: "Tout voir",
     errTitle: "Codes erreur",
-    errLead: "Ce que signifient les codes erreur des lave-linge et lave-vaisselle et ce que vous pouvez faire vous-même en sécurité.",
+    errLead: "Ce que signifient les codes erreur des lave-linge, lave-vaisselle, sèche-linge, réfrigérateurs, machines à café, climatiseurs et chaudières gaz — et ce que vous pouvez faire vous-même en sécurité.",
     errBrandTitle: "{brand} {appliance} : codes erreur",
     errCodeTitle: "{brand} {appliance} erreur {code}",
     errCauses: "Causes possibles",

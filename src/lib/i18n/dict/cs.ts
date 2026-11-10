@@ -154,7 +154,7 @@ export const cs: Dict = {
     popularCompare: "Oblíbená srovnání",
     seeAll: "Vše",
     errTitle: "Chybové kódy",
-    errLead: "Co znamenají chybové kódy praček a myček a co můžete bezpečně udělat sami.",
+    errLead: "Co znamenají chybové kódy praček, myček, sušiček, lednic, kávovarů, klimatizací a plynových kotlů a co můžete bezpečně udělat sami.",
     errBrandTitle: "{brand} {appliance}: chybové kódy",
     errCodeTitle: "{brand} {appliance} chyba {code}",
     errCauses: "Možné příčiny",

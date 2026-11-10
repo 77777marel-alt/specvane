@@ -1,0 +1,1034 @@
+{
+ "Bosch|E09": {
+  "title": "Falha de aquecimento",
+  "causes": [
+   "Uma falha na parte de aquecimento da bomba de circulação (bomba de calor)."
+  ],
+  "steps": [
+   "Desligue a lava-louças no disjuntor por 30 segundos.",
+   "Ligue novamente e inicie um programa."
+  ],
+  "technician": "Se o código voltar, chame a assistência técnica Bosch."
+ },
+ "Bosch|E12": {
+  "title": "Calcário na bomba de aquecimento",
+  "causes": [
+   "Acumulou calcário na bomba de calor, comum em regiões de água dura."
+  ],
+  "steps": [
+   "Rode um ciclo de descalcificação com um descalcificante para lava-louças.",
+   "Mantenha o sal regenerador abastecido se o seu modelo tiver amaciador de água.",
+   "Descalcifique com regularidade se a sua água for dura."
+  ],
+  "technician": "Se o código continuar depois da descalcificação, chame a assistência técnica Bosch."
+ },
+ "Bosch|E14": {
+  "title": "Problema no enchimento de água (medidor de vazão)",
+  "causes": [
+   "O medidor de vazão falhou ou a lava-louças não está enchendo corretamente."
+  ],
+  "steps": [
+   "Verifique se a torneira sob a pia está totalmente aberta.",
+   "Desligue no disjuntor por 30 segundos e tente novamente."
+  ],
+  "technician": "A Bosch recomenda chamar a assistência técnica para este código."
+ },
+ "Bosch|E15": {
+  "title": "Água na bandeja da base (proteção contra vazamento ativada)",
+  "causes": [
+   "Acumulou água na base da lava-louças.",
+   "Um vazamento em uma mangueira, vedação ou peça interna.",
+   "Espuma em excesso, por exemplo por detergente de lavar louça à mão."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada.",
+   "Feche a torneira que alimenta a lava-louças.",
+   "Seque a água que estiver no chão."
+  ],
+  "technician": "A Bosch recomenda fechar a água e chamar a assistência técnica. É preciso localizar e consertar um vazamento oculto."
+ },
+ "Bosch|E16": {
+  "title": "Pode não estar entrando água",
+  "causes": [
+   "A mangueira de entrada está dobrada ou danificada."
+  ],
+  "steps": [
+   "Verifique se a mangueira de entrada não está dobrada, amassada ou danificada.",
+   "Confira se a torneira está aberta."
+  ],
+  "technician": "Se o código continuar, chame a assistência técnica Bosch."
+ },
+ "Bosch|E17": {
+  "title": "Pode não estar entrando água",
+  "causes": [
+   "A mangueira de entrada está dobrada ou danificada."
+  ],
+  "steps": [
+   "Verifique se a mangueira de entrada não está dobrada, amassada ou danificada.",
+   "Confira se a torneira está aberta."
+  ],
+  "technician": "Se o código continuar, chame a assistência técnica Bosch."
+ },
+ "Bosch|E18": {
+  "title": "Nível de água baixo demais",
+  "causes": [
+   "A torneira está fechada ou parcialmente fechada.",
+   "A mangueira de entrada está dobrada.",
+   "Vazão de água baixa."
+  ],
+  "steps": [
+   "Confira se o abastecimento de água está totalmente aberto.",
+   "Verifique se a mangueira de entrada está dobrada ou danificada.",
+   "Verifique a vazão: a torneira deve fornecer cerca de 10 litros por minuto."
+  ],
+  "technician": "Se o abastecimento estiver bom e o código voltar, chame a assistência técnica Bosch."
+ },
+ "Bosch|E19": {
+  "title": "Falha no circuito do dispensador de detergente",
+  "causes": [
+   "Uma falha elétrica no circuito do dispensador de detergente."
+  ],
+  "steps": [
+   "Desligue no disjuntor por 30 segundos e ligue novamente."
+  ],
+  "technician": "Se o código voltar, chame a assistência técnica Bosch."
+ },
+ "Bosch|E22": {
+  "title": "Filtro entupido",
+  "causes": [
+   "Restos de comida estão entupindo o filtro."
+  ],
+  "steps": [
+   "Desligue a lava-louças.",
+   "Retire o cesto inferior e levante o filtro para tirá-lo.",
+   "Enxágue o filtro em água corrente com uma escova macia e sabão neutro.",
+   "Recoloque o filtro até ele travar no lugar."
+  ],
+  "technician": "Geralmente não é necessário. Se o código continuar depois da limpeza, chame a assistência técnica Bosch."
+ },
+ "Bosch|E23": {
+  "title": "Bomba de drenagem entupida ou com defeito",
+  "causes": [
+   "A bomba de drenagem está entupida ou queimou."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada.",
+   "Limpe o filtro e verifique se há resíduos soltos no fundo."
+  ],
+  "technician": "A Bosch recomenda chamar a assistência técnica para este código."
+ },
+ "Bosch|E24": {
+  "title": "Não escoa – mangueira de drenagem ou filtro entupidos",
+  "causes": [
+   "A mangueira de drenagem está dobrada ou entupida.",
+   "O filtro está entupido.",
+   "Um triturador de resíduos ou sifão novo ainda está com o tampão de vedação."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada.",
+   "Verifique se a mangueira de drenagem está dobrada.",
+   "Limpe os filtros e confira se a tampa da bomba sob o filtro está encaixada.",
+   "Se a lava-louças estiver ligada a um triturador de resíduos ou a um sifão novo, confira se o tampão de vedação foi retirado."
+  ],
+  "technician": "Se ainda não escoar, chame a assistência técnica Bosch."
+ },
+ "Bosch|E25": {
+  "title": "Bomba de drenagem entupida ou tampa da bomba solta",
+  "causes": [
+   "Cacos de vidro, sementes ou outros resíduos estão bloqueando a bomba de drenagem.",
+   "A tampa da bomba está solta ou faltando."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada.",
+   "Retire o cesto inferior e os filtros.",
+   "Retire a água parada com uma caneca ou esponja.",
+   "Solte a tampa branca da bomba (uma colher ajuda) e retire os resíduos. Cuidado com cacos de vidro.",
+   "Recoloque a tampa até ouvir um clique e depois recoloque os filtros."
+  ],
+  "technician": "Se o código voltar depois da limpeza, chame a assistência técnica Bosch."
+ },
+ "Bosch|E27": {
+  "title": "Tensão da rede elétrica baixa demais",
+  "causes": [
+   "A tensão da rede elétrica da casa está baixa demais. A lava-louças em si não está com defeito."
+  ],
+  "steps": [
+   "Desligue no disjuntor por 30 segundos e ligue novamente."
+  ],
+  "technician": "Se acontecer novamente, peça a um eletricista para verificar a tensão da rede."
+ },
+ "Siemens|E08": {
+  "title": "Nível de água baixo demais na lavagem",
+  "causes": [
+   "Tigelas ou panelas viraram e estão acumulando água.",
+   "A louça está bloqueando a entrada de água."
+  ],
+  "steps": [
+   "Verifique a carga e vire tigelas e panelas de boca para baixo.",
+   "Confira se nada está bloqueando os braços aspersores ou a entrada de água."
+  ],
+  "technician": "Se repetir, entre em contato com a assistência técnica Siemens."
+ },
+ "Siemens|E09": {
+  "title": "Falha no sistema de aquecimento",
+  "causes": [
+   "Uma falha no sistema de aquecimento."
+  ],
+  "steps": [
+   "Desligue, aguarde alguns minutos e ligue novamente."
+  ],
+  "technician": "Entre em contato com a assistência técnica Siemens e informe o código."
+ },
+ "Siemens|E12": {
+  "title": "Resistência coberta de calcário ou sujeira",
+  "causes": [
+   "Calcário ou sujeira na resistência."
+  ],
+  "steps": [
+   "Rode um ciclo de descalcificação conforme o manual do usuário.",
+   "Limpe os filtros."
+  ],
+  "technician": "Se o código continuar depois da descalcificação, entre em contato com a assistência técnica Siemens."
+ },
+ "Siemens|E14": {
+  "title": "Falha no enchimento – proteção contra água ativada",
+  "causes": [
+   "Um problema no abastecimento de água ou no sistema de enchimento."
+  ],
+  "steps": [
+   "Verifique se a torneira está aberta.",
+   "Verifique se a mangueira de entrada não está dobrada."
+  ],
+  "technician": "Se repetir, entre em contato com a assistência técnica Siemens."
+ },
+ "Siemens|E15": {
+  "title": "Água na base (proteção contra água ativada)",
+  "causes": [
+   "Acumulou água na bandeja da base da lava-louças."
+  ],
+  "steps": [
+   "Feche a torneira.",
+   "Desligue a lava-louças.",
+   "Seque a água que estiver no chão."
+  ],
+  "technician": "A Siemens recomenda não consertar isso sozinho. Chame a assistência técnica Siemens."
+ },
+ "Siemens|E16": {
+  "title": "Falha no enchimento ou na entrada de água",
+  "causes": [
+   "Um problema no sistema de enchimento ou na entrada de água."
+  ],
+  "steps": [
+   "Feche a torneira.",
+   "Verifique se a mangueira de entrada está dobrada e depois abra a torneira novamente."
+  ],
+  "technician": "Se acontecer com frequência, o aparelho precisa de um técnico. Entre em contato com a assistência técnica Siemens."
+ },
+ "Siemens|E18": {
+  "title": "Falha na entrada de água",
+  "causes": [
+   "A mangueira de entrada está dobrada.",
+   "A torneira está fechada, emperrada ou cheia de calcário.",
+   "O filtro de entrada está entupido."
+  ],
+  "steps": [
+   "Confira se a torneira está totalmente aberta.",
+   "Verifique se a mangueira de entrada está dobrada.",
+   "Desligue, feche a torneira, retire a mangueira e limpe o filtro, depois recoloque e verifique se há vazamentos."
+  ],
+  "technician": "Se a vazão de água estiver baixa, chame um encanador. Se repetir, entre em contato com a assistência técnica Siemens."
+ },
+ "Siemens|E22": {
+  "title": "Filtros sujos ou entupidos",
+  "causes": [
+   "Restos de comida estão entupindo o sistema de filtros."
+  ],
+  "steps": [
+   "Desligue a lava-louças.",
+   "Retire os filtros e enxágue-os bem.",
+   "Recoloque os filtros corretamente."
+  ],
+  "technician": "Geralmente não é necessário."
+ },
+ "Siemens|E23": {
+  "title": "Falha na bomba de drenagem",
+  "causes": [
+   "Uma falha na bomba de água servida."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada."
+  ],
+  "technician": "Segundo a Siemens, só a assistência técnica dela pode resolver isso. Entre em contato e informe o código."
+ },
+ "Siemens|E24": {
+  "title": "Não escoa – provavelmente bomba ou mangueira entupidas",
+  "causes": [
+   "A bomba de drenagem ou o caminho de drenagem está entupido."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada.",
+   "Limpe os filtros e verifique se há resíduos na área da bomba.",
+   "Verifique se a mangueira de drenagem não está dobrada."
+  ],
+  "technician": "Se o problema persistir, feche a torneira e chame a assistência técnica Siemens."
+ },
+ "Siemens|E25": {
+  "title": "Bomba de drenagem entupida",
+  "causes": [
+   "Resíduos como vidro ou sementes estão bloqueando a bomba de drenagem."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada.",
+   "Retire os filtros e tire a água parada.",
+   "Retire a tampa da bomba e remova os resíduos com cuidado – atenção aos cacos de vidro.",
+   "Recoloque a tampa e os filtros."
+  ],
+  "technician": "Se o problema persistir, feche a torneira e chame a assistência técnica Siemens."
+ },
+ "Siemens|E27": {
+  "title": "Tensão da rede elétrica baixa",
+  "causes": [
+   "A tensão da alimentação elétrica está baixa demais. O aparelho em si não está com defeito."
+  ],
+  "steps": [
+   "Desligue e ligue novamente mais tarde."
+  ],
+  "technician": "Peça a um eletricista para verificar a instalação. Se voltar a acontecer, entre em contato com a assistência técnica Siemens."
+ },
+ "Samsung|4C": {
+  "title": "Entra pouca ou nenhuma água",
+  "causes": [
+   "O registro de água está fechado.",
+   "O abastecimento de água está cortado.",
+   "A mangueira de entrada ou a válvula está congelada ou entupida."
+  ],
+  "steps": [
+   "Verifique se o registro de água está totalmente aberto.",
+   "Verifique se sai água nas outras torneiras.",
+   "Verifique se a mangueira de entrada não está dobrada ou entupida."
+  ],
+  "technician": "Se a água ainda não entrar, entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|5C": {
+  "title": "A água não escoa",
+  "causes": [
+   "A conexão com o esgoto ou a pia está entupida.",
+   "O filtro está entupido.",
+   "A mangueira de drenagem está dobrada."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada.",
+   "Limpe o filtro de tela no fundo.",
+   "Verifique se a mangueira de drenagem e a conexão com a pia estão dobradas ou entupidas."
+  ],
+  "technician": "Se ainda não escoar, entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|5C2": {
+  "title": "A bomba de drenagem trava",
+  "causes": [
+   "Resíduos estão travando a bomba de drenagem."
+  ],
+  "steps": [
+   "Cancele o ciclo para escoar a água.",
+   "Desligue a lava-louças e tire da tomada.",
+   "Retire o cesto inferior e o filtro e verifique se há resíduos no fundo."
+  ],
+  "technician": "Se a bomba ainda travar, entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|LC": {
+  "title": "Vazamento detectado",
+  "causes": [
+   "Está vazando água ao redor da porta ou na base.",
+   "Foi usado detergente de lavar louça à mão em vez de detergente para lava-louças.",
+   "A pia ou o triturador de resíduos está com refluxo."
+  ],
+  "steps": [
+   "Desligue a lava-louças.",
+   "Use apenas detergente para lava-louças.",
+   "Limpe a borracha de vedação da porta e a borda inferior da porta.",
+   "Verifique se há água embaixo da lava-louças e seque.",
+   "Verifique se o ralo da pia não está com refluxo."
+  ],
+  "technician": "Se continuar vazando água, feche o abastecimento de água e entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|OC": {
+  "title": "Enchimento excessivo ou espuma em excesso",
+  "causes": [
+   "Espuma de sabão em excesso.",
+   "Um filtro entupido.",
+   "A mangueira de drenagem está dobrada."
+  ],
+  "steps": [
+   "Desligue a lava-louças.",
+   "Confira se você está usando o detergente certo para lava-louças e na quantidade certa.",
+   "Limpe o filtro e retire a água parada do fundo.",
+   "Verifique se a mangueira de drenagem está dobrada."
+  ],
+  "technician": "Se a lava-louças continuar enchendo, feche o abastecimento de água e entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|HC": {
+  "title": "Problema de aquecimento (quente demais)",
+  "causes": [
+   "A água de entrada está muito quente.",
+   "Os filtros estão sujos, então a água não circula bem."
+  ],
+  "steps": [
+   "Desligue por pelo menos 5 minutos.",
+   "Limpe os filtros.",
+   "Rode um ciclo normal com a lava-louças vazia e com detergente."
+  ],
+  "technician": "Se o código voltar, entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|tC": {
+  "title": "Problema no sensor de temperatura",
+  "causes": [
+   "A lava-louças detectou uma falha na medição de temperatura."
+  ],
+  "steps": [
+   "Desligue na tomada ou no disjuntor por pelo menos 5 minutos.",
+   "Ligue e rode um ciclo Normal."
+  ],
+  "technician": "Se o código voltar, entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|DC": {
+  "title": "Porta não fechada",
+  "causes": [
+   "A porta não está travada.",
+   "Um talher ou prato está para fora e impede a porta de fechar."
+  ],
+  "steps": [
+   "Empurre para dentro os itens que estiverem para fora.",
+   "Limpe a área do fecho da porta.",
+   "Feche bem a porta.",
+   "Desligue por 30 segundos e ligue novamente."
+  ],
+  "technician": "Se a porta não travar, entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|3C": {
+  "title": "A bomba de lavagem não funciona",
+  "causes": [
+   "A lava-louças enche, mas o motor de lavagem não começa a funcionar."
+  ],
+  "steps": [
+   "Desligue por um minuto e tente novamente."
+  ],
+  "technician": "Se ainda não houver jato de água, entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|PC": {
+  "title": "Não inicia com Zone Wash ou Half Load",
+  "causes": [
+   "Uma falha ligada à função Zone Wash ou Half Load."
+  ],
+  "steps": [
+   "Desligue por pelo menos 30 segundos.",
+   "Desative Zone Wash ou Half Load e rode um ciclo Normal."
+  ],
+  "technician": "Se o código voltar, entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|9C1": {
+  "title": "Modo de proteção contra variação de tensão",
+  "causes": [
+   "Uma oscilação de energia, um pico ou um disjuntor desarmado."
+  ],
+  "steps": [
+   "Verifique o plugue e a tomada.",
+   "Desligue na tomada ou no disjuntor por pelo menos 1 minuto e tente novamente.",
+   "Use uma tomada exclusiva, sem extensões ou adaptadores."
+  ],
+  "technician": "Se continuar acontecendo, peça a um eletricista para verificar a instalação."
+ },
+ "Samsung|AC": {
+  "title": "Liga, mas não funciona",
+  "causes": [
+   "Uma falha interna no controle."
+  ],
+  "steps": [
+   "Desligue na tomada ou no disjuntor.",
+   "Aguarde 1 minuto, ligue e tente novamente."
+  ],
+  "technician": "Se o código voltar, entre em contato com a assistência técnica Samsung."
+ },
+ "Samsung|6C1": {
+  "title": "Problema no dispensador de detergente",
+  "causes": [
+   "O motor do dispensador não está funcionando normalmente.",
+   "Uma pastilha está presa no dispensador."
+  ],
+  "steps": [
+   "Tire a lava-louças da tomada por 5 minutos.",
+   "Verifique se não há nenhuma pastilha presa no dispensador."
+  ],
+  "technician": "Se o código voltar, entre em contato com a assistência técnica Samsung."
+ },
+ "LG|AE": {
+  "title": "Vazamento ou enchimento excessivo detectado",
+  "causes": [
+   "Entrou água demais ou foi detectado um vazamento.",
+   "O detergente de lavar louça à mão causou espuma em excesso.",
+   "A lava-louças não está nivelada."
+  ],
+  "steps": [
+   "Use apenas detergente para lava-louças.",
+   "Coloque pratos grandes e panelas de boca para baixo.",
+   "Verifique se a lava-louças está nivelada."
+  ],
+  "technician": "Se não houver vazamento mas o código continuar, desligue a energia e solicite a assistência técnica LG. Não puxe para fora um aparelho de embutir sozinho."
+ },
+ "LG|IE": {
+  "title": "Não está entrando água suficiente",
+  "causes": [
+   "Falta de água na casa.",
+   "A mangueira de entrada está dobrada ou amassada.",
+   "A válvula de entrada ou o registro sob a pia está fechado."
+  ],
+  "steps": [
+   "Verifique se as outras torneiras têm água.",
+   "Endireite a mangueira de entrada e retire o que estiver pressionando-a.",
+   "Abra o registro sob a pia, principalmente após a instalação ou uma mudança."
+  ],
+  "technician": "Se continuar, entre em contato com o instalador ou com a assistência técnica LG."
+ },
+ "LG|OE": {
+  "title": "Não escoa",
+  "causes": [
+   "O filtro está entupido.",
+   "A mangueira de drenagem está dobrada ou amassada."
+  ],
+  "steps": [
+   "Desligue a lava-louças e aguarde 30 minutos para esfriar.",
+   "Retire o cesto inferior, gire e retire o filtro e enxágue-o.",
+   "Recoloque o filtro até ouvir um clique.",
+   "Endireite a mangueira de drenagem."
+  ],
+  "technician": "Se a água continuar parada acima do filtro, solicite a assistência técnica LG."
+ },
+ "LG|bE": {
+  "title": "Espuma em excesso",
+  "causes": [
+   "Foi usado detergente de lavar louça à mão.",
+   "Sabão em excesso."
+  ],
+  "steps": [
+   "Use apenas detergente para lava-louças e em menor quantidade.",
+   "Retire a espuma e rode um ciclo de enxágue sem detergente."
+  ],
+  "technician": "Se bE aparecer sem espuma, solicite a assistência técnica LG."
+ },
+ "LG|nE": {
+  "title": "Problema na bomba de aspersão (Vario)",
+  "causes": [
+   "O rotor não está girando normalmente.",
+   "A louça está encostando no sistema de aspersão."
+  ],
+  "steps": [
+   "Reorganize a louça para que nada bloqueie os braços aspersores.",
+   "Reinicie o ciclo."
+  ],
+  "technician": "Se o código persistir, solicite a assistência técnica LG."
+ },
+ "LG|HE": {
+  "title": "A água não aquece",
+  "causes": [
+   "Uma falha na resistência."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada."
+  ],
+  "technician": "A LG recomenda solicitar assistência técnica."
+ },
+ "LG|tE": {
+  "title": "Falha no sensor de temperatura",
+  "causes": [
+   "Mau contato ou sensor de temperatura queimado."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada."
+  ],
+  "technician": "A LG recomenda solicitar assistência técnica."
+ },
+ "LG|LE": {
+  "title": "Falha no motor de lavagem",
+  "causes": [
+   "O motor de lavagem não está funcionando corretamente."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada."
+  ],
+  "technician": "A LG recomenda solicitar assistência técnica."
+ },
+ "LG|PE": {
+  "title": "Falha no sensor de nível de água (modelos mais antigos)",
+  "causes": [
+   "Uma falha no sensor de nível de água."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada."
+  ],
+  "technician": "A LG recomenda solicitar assistência técnica."
+ },
+ "LG|F37": {
+  "title": "A abertura automática da porta não funciona",
+  "causes": [
+   "Algo está bloqueando a porta.",
+   "Uma falha nas peças de abertura automática."
+  ],
+  "steps": [
+   "Retire o que estiver perto da porta e reinicie."
+  ],
+  "technician": "Se continuar, solicite a assistência técnica LG."
+ },
+ "AEG|i10": {
+  "title": "Não está enchendo de água",
+  "causes": [
+   "A torneira está fechada.",
+   "A pressão da água está baixa demais.",
+   "A mangueira de entrada está dobrada.",
+   "O filtro da mangueira de entrada está entupido."
+  ],
+  "steps": [
+   "Abra a torneira.",
+   "Verifique se a mangueira de entrada está dobrada ou torcida.",
+   "Desligue a lava-louças, tire da tomada, feche a torneira, retire a mangueira e limpe o filtro dela.",
+   "Recoloque a mangueira apertando com a mão, abra a torneira e rode um programa."
+  ],
+  "technician": "Se continuar, entre em contato com uma assistência técnica autorizada."
+ },
+ "AEG|i20": {
+  "title": "Não escoa",
+  "causes": [
+   "A conexão ou o sifão da pia está entupido.",
+   "O filtro ou o fundo está entupido.",
+   "A mangueira de drenagem está dobrada, comprida demais ou na altura errada.",
+   "Depois da instalação, o tampão de vedação ficou no sifão da pia."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada.",
+   "Limpe o filtro e o fundo.",
+   "Verifique se a mangueira de drenagem não está dobrada ou torcida.",
+   "Verifique se a conexão do sifão da pia está livre (e se o tampão de vedação foi retirado após uma instalação nova).",
+   "Ligue na tomada e rode um programa."
+  ],
+  "technician": "Se ainda não escoar, entre em contato com uma assistência técnica autorizada."
+ },
+ "AEG|i30": {
+  "title": "Vazamento detectado (antitransbordamento)",
+  "causes": [
+   "O sistema antitransbordamento detectou água na base."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada.",
+   "Feche a torneira.",
+   "Seque a água que estiver no chão."
+  ],
+  "technician": "Agende um conserto para localizar e consertar o vazamento."
+ },
+ "AEG|i40": {
+  "title": "Problema no sensor de nível (pressão) da água",
+  "causes": [
+   "O nível de água não pode ser medido corretamente."
+  ],
+  "steps": [
+   "Desligue na tomada por cerca de um minuto e reinicie."
+  ],
+  "technician": "Se o código voltar, agende um conserto."
+ },
+ "AEG|i50": {
+  "title": "Falha no motor de lavagem ou na bomba de circulação",
+  "causes": [
+   "Uma falha no motor de lavagem, na bomba de circulação ou no controle dela."
+  ],
+  "steps": [
+   "Desligue na tomada por cerca de um minuto e reinicie."
+  ],
+  "technician": "Se o código voltar, agende um conserto."
+ },
+ "AEG|i60": {
+  "title": "Falha de aquecimento",
+  "causes": [
+   "A água não está aquecendo como deveria."
+  ],
+  "steps": [
+   "Desligue na tomada por cerca de um minuto e reinicie."
+  ],
+  "technician": "Se o código voltar, agende um conserto."
+ },
+ "AEG|iF0": {
+  "title": "Problema no controle do nível de água",
+  "causes": [
+   "O nível de enchimento está errado ou anormal."
+  ],
+  "steps": [
+   "Verifique se a torneira está totalmente aberta.",
+   "Limpe os filtros.",
+   "Desligue na tomada por cerca de um minuto e reinicie."
+  ],
+  "technician": "Se o código voltar, agende um conserto."
+ },
+ "Hotpoint|F01": {
+  "title": "Transbordamento (antitransbordamento)",
+  "causes": [
+   "A água na base acionou a boia antitransbordamento.",
+   "Um vazamento ou uma boia com defeito."
+  ],
+  "steps": [
+   "Desligue e ligue a lava-louças para fazer o reset.",
+   "Feche a torneira se houver água no chão."
+  ],
+  "technician": "Se voltar, agende um técnico Hotpoint."
+ },
+ "Hotpoint|F02": {
+  "title": "Falha na válvula de entrada de água",
+  "causes": [
+   "A válvula de entrada deixa entrar água quando não deveria ou queimou."
+  ],
+  "steps": [
+   "Verifique se a mangueira de drenagem não está no chão.",
+   "Feche a torneira se continuar entrando água."
+  ],
+  "technician": "Agende um técnico Hotpoint."
+ },
+ "Hotpoint|F03": {
+  "title": "Falha de drenagem / a drenagem demorou demais",
+  "causes": [
+   "A mangueira de drenagem ou o encanamento sob a pia está entupido.",
+   "A bomba de drenagem está entupida ou com defeito."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada.",
+   "Limpe os filtros.",
+   "Verifique se a mangueira de drenagem e o encanamento sob a pia estão entupidos."
+  ],
+  "technician": "Se a falha continuar, agende um técnico."
+ },
+ "Hotpoint|F04": {
+  "title": "Falha no sensor de temperatura",
+  "causes": [
+   "Uma falha no termostato ou no sensor de temperatura."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada."
+  ],
+  "technician": "Agende um técnico Hotpoint."
+ },
+ "Hotpoint|F06": {
+  "title": "O enchimento demorou demais",
+  "causes": [
+   "A torneira está fechada ou parcialmente fechada.",
+   "Pressão da água baixa.",
+   "A mangueira de entrada está dobrada ou o filtro dela está entupido."
+  ],
+  "steps": [
+   "Confira se a torneira está totalmente aberta.",
+   "Verifique se a mangueira de entrada não está dobrada ou amassada.",
+   "Verifique se a pressão da água está normal."
+  ],
+  "technician": "Se a falha continuar, agende um técnico."
+ },
+ "Hotpoint|F08": {
+  "title": "A água demorou demais para aquecer",
+  "causes": [
+   "Calcário, espuma em excesso, ajuste errado da dureza da água ou falha no aquecimento."
+  ],
+  "steps": [
+   "Verifique o ajuste da dureza da água.",
+   "Use a quantidade certa de detergente."
+  ],
+  "technician": "Agende um técnico Hotpoint."
+ },
+ "Hotpoint|F10": {
+  "title": "Falha na resistência",
+  "causes": [
+   "O circuito de aquecimento está aberto ou a resistência queimou."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada."
+  ],
+  "technician": "Agende um técnico Hotpoint."
+ },
+ "Hotpoint|F11": {
+  "title": "Falha na bomba de lavagem",
+  "causes": [
+   "A bomba de lavagem queimou, travou ou está bloqueada por resíduos."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada.",
+   "Limpe os filtros."
+  ],
+  "technician": "Agende um técnico Hotpoint."
+ },
+ "Hotpoint|F12": {
+  "title": "A placa principal e o display não se comunicam",
+  "causes": [
+   "Uma falha na fiação ou no display."
+  ],
+  "steps": [
+   "Tire a lava-louças da tomada por 2 minutos, depois ligue na tomada e teste."
+  ],
+  "technician": "Se persistir, agende um técnico."
+ },
+ "Hotpoint|F13": {
+  "title": "Falha na placa principal",
+  "causes": [
+   "A placa de controle principal queimou."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada."
+  ],
+  "technician": "Agende um técnico Hotpoint."
+ },
+ "Indesit|F01": {
+  "title": "Transbordamento (antitransbordamento)",
+  "causes": [
+   "A água na base acionou o sistema antitransbordamento."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada.",
+   "Feche a torneira e seque a água."
+  ],
+  "technician": "Agende um técnico Indesit."
+ },
+ "Indesit|F02": {
+  "title": "Falha na válvula de entrada de água",
+  "causes": [
+   "A válvula de entrada de água queimou."
+  ],
+  "steps": [
+   "Feche a torneira se continuar entrando água.",
+   "Desligue a lava-louças e tire da tomada."
+  ],
+  "technician": "Agende um técnico Indesit."
+ },
+ "Indesit|F03": {
+  "title": "Falha de drenagem / a drenagem demorou demais",
+  "causes": [
+   "Um entupimento na mangueira de drenagem ou no encanamento sob a pia."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada.",
+   "Limpe os filtros.",
+   "Verifique se a mangueira de drenagem e o encanamento sob a pia estão entupidos."
+  ],
+  "technician": "Se a falha continuar, agende um técnico."
+ },
+ "Indesit|F04": {
+  "title": "Falha no sensor de temperatura",
+  "causes": [
+   "Uma falha no termostato ou no sensor de temperatura."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada."
+  ],
+  "technician": "Agende um técnico Indesit."
+ },
+ "Indesit|F06": {
+  "title": "O enchimento demorou demais",
+  "causes": [
+   "A torneira não está totalmente aberta.",
+   "Pressão da água baixa.",
+   "A mangueira de entrada está obstruída."
+  ],
+  "steps": [
+   "Confira se a torneira está totalmente aberta.",
+   "Verifique se a mangueira de entrada não está dobrada ou amassada.",
+   "Verifique se a pressão da água está normal."
+  ],
+  "technician": "Se a falha continuar, agende um técnico."
+ },
+ "Indesit|F08": {
+  "title": "A água demorou demais para aquecer",
+  "causes": [
+   "A temperatura não foi atingida a tempo."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada."
+  ],
+  "technician": "Agende um técnico Indesit."
+ },
+ "Indesit|F10": {
+  "title": "Falha na resistência",
+  "causes": [
+   "Uma falha na resistência."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada."
+  ],
+  "technician": "Agende um técnico Indesit."
+ },
+ "Indesit|F11": {
+  "title": "Falha na bomba de lavagem",
+  "causes": [
+   "A bomba de lavagem queimou."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada."
+  ],
+  "technician": "Agende um técnico Indesit."
+ },
+ "Indesit|F12": {
+  "title": "A placa principal e o display não se comunicam",
+  "causes": [
+   "Uma falha de comunicação entre as placas de controle."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada."
+  ],
+  "technician": "Agende um técnico Indesit."
+ },
+ "Indesit|F13": {
+  "title": "Falha na placa principal",
+  "causes": [
+   "A placa de controle principal queimou."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada."
+  ],
+  "technician": "Agende um técnico Indesit."
+ },
+ "Beko|E:01": {
+  "title": "Transbordamento ou vazamento de água",
+  "causes": [
+   "Está entrando água demais na lava-louças.",
+   "Um vazamento dentro da máquina."
+  ],
+  "steps": [
+   "Deixe a lava-louças fazer a drenagem de segurança.",
+   "Se o código sumir, não é preciso fazer nada.",
+   "Se continuar, desligue, tire da tomada e feche a torneira."
+  ],
+  "technician": "Se E:01 continuar aceso, a falha é permanente. Chame a assistência técnica Beko."
+ },
+ "Beko|E:02": {
+  "title": "Abastecimento de água cortado",
+  "causes": [
+   "A água da rede está cortada.",
+   "A torneira de entrada está fechada."
+  ],
+  "steps": [
+   "Confira se a torneira está aberta.",
+   "O programa aguarda e verifica se há água. Ele continua assim que a água voltar."
+  ],
+  "technician": "Se houver água e o código continuar, chame a assistência técnica Beko."
+ },
+ "Miele|F11": {
+  "title": "A água não está sendo bombeada para fora",
+  "causes": [
+   "A válvula de retenção ou a tampa da bomba de drenagem não está encaixada corretamente.",
+   "A bomba de drenagem está bloqueada por resíduos."
+  ],
+  "steps": [
+   "Desligue a lava-louças e tire da tomada.",
+   "Retire o braço aspersor inferior (se houver) e o conjunto de filtros.",
+   "Retire a água parada com uma caneca pequena.",
+   "Retire a tampa da bomba / válvula de retenção, enxágue e remova os resíduos. Cuidado com lascas de vidro.",
+   "Confira se o rotor da bomba gira com a mão, recoloque a tampa até ouvir um clique e depois recoloque os filtros."
+  ],
+  "technician": "Se F11 persistir, entre em contato com a assistência técnica Miele."
+ },
+ "Miele|F12": {
+  "title": "Entrada de água bloqueada ou restrita",
+  "causes": [
+   "O registro não está aberto.",
+   "O filtro de entrada está sujo.",
+   "A mangueira de entrada está dobrada.",
+   "A pressão da água está abaixo de 0,5 bar."
+  ],
+  "steps": [
+   "Abra totalmente o registro.",
+   "Desligue e tire da tomada, feche o registro, desrosqueie a válvula de entrada e limpe o pequeno filtro. Nunca coloque o corpo da válvula na água – ele tem uma parte elétrica.",
+   "Recoloque o filtro e a válvula, abra o registro devagar e verifique se há gotejamento.",
+   "Endireite as dobras da mangueira."
+  ],
+  "technician": "Se a pressão estiver baixa demais, chame um encanador. Se a falha persistir, entre em contato com a assistência técnica Miele."
+ },
+ "Miele|F13": {
+  "title": "Entrada de água bloqueada ou restrita",
+  "causes": [
+   "O registro está fechado.",
+   "O filtro de entrada está sujo.",
+   "A mangueira de entrada está dobrada.",
+   "A pressão da água está abaixo de 0,5 bar."
+  ],
+  "steps": [
+   "Abra totalmente o registro.",
+   "Desligue e tire da tomada, feche o registro e limpe o filtro de entrada. Não mergulhe o corpo da válvula na água.",
+   "Recoloque, abra o registro devagar e verifique se há vazamentos.",
+   "Endireite as dobras da mangueira."
+  ],
+  "technician": "Se a pressão estiver baixa demais, chame um encanador. Se a falha persistir, entre em contato com a assistência técnica Miele."
+ },
+ "Miele|F14": {
+  "title": "Falha na bomba de circulação ou na entrada de água",
+  "causes": [
+   "A bomba de circulação secou e travou depois de muito tempo sem uso.",
+   "Uma falha técnica em um pressostato."
+  ],
+  "steps": [
+   "Retire o braço aspersor inferior e o conjunto de filtros.",
+   "Despeje 1 litro de água morna (no máximo 75 °C) com algumas gotas de secante e aguarde 5 minutos.",
+   "Recoloque os filtros e o braço aspersor e reinicie. Repita 2–3 vezes, se necessário.",
+   "Caso contrário, desligue, aguarde alguns segundos, ligue e reinicie."
+  ],
+  "technician": "Se F14 persistir, entre em contato com a assistência técnica Miele."
+ },
+ "Miele|F15": {
+  "title": "Entrada de água bloqueada ou restrita",
+  "causes": [
+   "O registro está fechado.",
+   "O filtro de entrada está sujo.",
+   "A mangueira de entrada está dobrada.",
+   "A pressão da água está abaixo de 0,5 bar."
+  ],
+  "steps": [
+   "Abra totalmente o registro.",
+   "Desligue e tire da tomada, feche o registro e limpe o filtro de entrada. Não mergulhe o corpo da válvula na água.",
+   "Recoloque, abra o registro devagar e verifique se há vazamentos.",
+   "Endireite as dobras da mangueira."
+  ],
+  "technician": "Se a pressão estiver baixa demais, chame um encanador. Se a falha persistir, entre em contato com a assistência técnica Miele."
+ },
+ "Miele|F18": {
+  "title": "Válvula de entrada de água com defeito",
+  "causes": [
+   "A válvula de entrada de água queimou."
+  ],
+  "steps": [
+   "Desligue a lava-louças e feche o registro."
+  ],
+  "technician": "Segundo a Miele, você não consegue resolver isso sozinho. Agende um técnico Miele."
+ },
+ "Miele|F24": {
+  "title": "Falha no relé de aquecimento",
+  "causes": [
+   "Uma falha de contato no relé de aquecimento."
+  ],
+  "steps": [
+   "Desligue a lava-louças."
+  ],
+  "technician": "Segundo a Miele, você não consegue resolver isso sozinho. Agende um técnico Miele."
+ },
+ "Miele|F70": {
+  "title": "Sistema Waterproof (proteção contra vazamento) ativado",
+  "causes": [
+   "O sistema de proteção contra vazamento foi acionado. O programa para e a bomba de drenagem funciona."
+  ],
+  "steps": [
+   "Feche o registro.",
+   "Desligue a lava-louças e tire da tomada.",
+   "Aguarde a bomba de drenagem parar."
+  ],
+  "technician": "Entre em contato com a assistência técnica Miele para localizar e corrigir a causa."
+ },
+ "Miele|F78": {
+  "title": "Bomba de circulação travada",
+  "causes": [
+   "A bomba secou e travou depois de semanas ou meses sem uso, ou no primeiro uso.",
+   "Com menos frequência, uma falha técnica."
+  ],
+  "steps": [
+   "Retire o braço aspersor inferior e o conjunto de filtros.",
+   "Despeje 1 litro de água morna (no máximo 75 °C) com 3–5 gotas de secante e aguarde 5 minutos.",
+   "Recoloque os filtros bem encaixados e o braço aspersor e reinicie. Repita 2–3 vezes, se necessário."
+  ],
+  "technician": "Se F78 persistir, entre em contato com a assistência técnica Miele."
+ }
+}

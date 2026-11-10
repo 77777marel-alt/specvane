@@ -1,0 +1,1196 @@
+{
+ "Samsung|AP": {
+  "title": "Režim nastavení Wi-Fi",
+  "causes": [
+   "Lednice funguje jako přístupový bod Wi-Fi pro nastavení SmartThings."
+  ],
+  "steps": [
+   "Dokončete nastavení v aplikaci SmartThings, nebo počkejte. Kód zmizí sám."
+  ],
+  "technician": "Nejde o závadu. Servis není potřeba."
+ },
+ "Samsung|21E": {
+  "title": "Chyba ventilátoru mrazničky",
+  "causes": [
+   "Ventilátor mrazničky zamrzl v ledu, často poté, co zůstala otevřená dvířka nebo netěsnilo těsnění.",
+   "Motor ventilátoru selhal."
+  ],
+  "steps": [
+   "Zkontrolujte, zda se dvířka mrazničky zavírají a těsnění těsní po celém obvodu.",
+   "Mrazničku nepřeplňujte.",
+   "Pokud můžete, vyndejte potraviny a nechte lednici s otevřenými dvířky odmrazit."
+  ],
+  "technician": "Pokud se kód po odmrazení vrátí, ventilátor potřebuje technika Samsung."
+ },
+ "Samsung|22E": {
+  "title": "Chyba ventilátoru chladničky",
+  "causes": [
+   "Dvířka chladničky zůstala příliš dlouho otevřená a ventilátor namrzl."
+  ],
+  "steps": [
+   "Přesuňte potraviny na chladné místo.",
+   "Odpojte lednici ze zásuvky a nechte dvířka na několik hodin otevřená.",
+   "Znovu ji zapojte a zavřete dvířka."
+  ],
+  "technician": "Pokud se 22E vrátí, objednejte servis Samsung."
+ },
+ "Samsung|41C": {
+  "title": "Závada Family Hub",
+  "causes": [
+   "Problém se softwarem na obrazovce Family Hub."
+  ],
+  "steps": [
+   "Nainstalujte nejnovější aktualizaci softwaru.",
+   "Když se kód po aktualizaci objeví poprvé, klepněte na OK."
+  ],
+  "technician": "Pokud se po aktualizaci stále vrací, objednejte servis Samsung."
+ },
+ "Samsung|76C": {
+  "title": "Voda v přihrádce AutoFill",
+  "causes": [
+   "Konvice AutoFill propouští vodu do své přihrádky."
+  ],
+  "steps": [
+   "Vyjměte konvici a přihrádku vysušte.",
+   "Zkontrolujte, zda je konvice správně usazená a není prasklá."
+  ],
+  "technician": "Pokud se voda stále hromadí, kontaktujte servis Samsung."
+ },
+ "Samsung|85C": {
+  "title": "Nízké napájecí napětí (Family Hub)",
+  "causes": [
+   "Obvykle krátký výpadek proudu."
+  ],
+  "steps": [
+   "Kód vymažete podržením OK na 3 sekundy."
+  ],
+  "technician": "Samo o sobě je neškodné. Samsung kontaktujte jen tehdy, pokud se objevuje často."
+ },
+ "Samsung|88 88": {
+  "title": "Chyba komunikace při spouštění",
+  "causes": [
+   "Během spouštění lednice došlo k výpadku proudu."
+  ],
+  "steps": [
+   "Odpojte lednici ze zásuvky nebo vypněte její jistič na 60 sekund.",
+   "Obnovte napájení a zkontrolujte, zda se kód vrátí."
+  ],
+  "technician": "Pokud se kód po resetu vrátí, objednejte servis Samsung."
+ },
+ "Samsung|83E": {
+  "title": "Neobvyklý proud kompresoru",
+  "causes": [
+   "Přepětí nebo elektrický problém."
+  ],
+  "steps": [
+   "Odpojte lednici ze zásuvky nebo vypněte její jistič na 60 sekund.",
+   "Obnovte napájení a zkontrolujte, zda se kód vrátí."
+  ],
+  "technician": "Pokud se 83E vrátí, objednejte servis Samsung."
+ },
+ "Samsung|85E": {
+  "title": "Nízké napětí kompresoru",
+  "causes": [
+   "Pokles napětí nebo nízké napětí v síti."
+  ],
+  "steps": [
+   "Odpojte lednici ze zásuvky nebo vypněte její jistič na 60 sekund.",
+   "Obnovte napájení a zkontrolujte, zda se kód vrátí."
+  ],
+  "technician": "Pokud se 85E vrátí, nechte zkontrolovat přívod a objednejte servis Samsung."
+ },
+ "Samsung|86E": {
+  "title": "Vysoké napětí kompresoru",
+  "causes": [
+   "Přepětí, například během bouřky."
+  ],
+  "steps": [
+   "Odpojte lednici ze zásuvky nebo vypněte její jistič na 60 sekund.",
+   "Obnovte napájení a zkontrolujte, zda se kód vrátí."
+  ],
+  "technician": "Pokud se 86E vrátí, objednejte servis Samsung."
+ },
+ "Samsung|PC ER": {
+  "title": "Interní chyba komunikace",
+  "causes": [
+   "Nedávné přepětí v síti.",
+   "Konektor kabeláže dvířek není správně připojený."
+  ],
+  "steps": [
+   "Vypněte napájení zástrčkou nebo jističem.",
+   "Zkontrolujte konektor kabeláže nad pantem dvířek a znovu ho připojte.",
+   "Obnovte napájení."
+  ],
+  "technician": "Pokud se kód vrátí, objednejte servis Samsung."
+ },
+ "Samsung|OF OF": {
+  "title": "Režim Cooling Off (předváděcí režim)",
+  "causes": [
+   "Je zapnutý předváděcí režim, často omylem. Lednice nechladí."
+  ],
+  "steps": [
+   "Stiskněte a podržte dvě horní tlačítka vlevo na panelu na 5 až 8 sekund, dokud nezazní tón.",
+   "U některých modelů podržte také pravé horní tlačítko.",
+   "Kombinaci tlačítek pro váš model najdete v návodu."
+  ],
+  "technician": "Servis není potřeba. Jde o nastavení, ne o závadu."
+ },
+ "Samsung|5E": {
+  "title": "Chyba snímače odmrazování chladničky",
+  "causes": [
+   "Snímač odmrazování chladničky je vadný."
+  ],
+  "steps": [
+   "Lednici neodpojujte ze zásuvky, pokud vám to servis neřekne.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Objednejte servis Samsung, aby snímač zkontroloval nebo vyměnil."
+ },
+ "Samsung|8E": {
+  "title": "Chyba snímače výrobníku ledu (mraznička)",
+  "causes": [
+   "Snímač výrobníku ledu v mrazničce je vadný."
+  ],
+  "steps": [
+   "Pokud to jde, vypněte výrobník ledu.",
+   "Lednici dál používejte jako obvykle."
+  ],
+  "technician": "Objednejte servis Samsung."
+ },
+ "Samsung|14E": {
+  "title": "Chyba snímače výrobníku ledu",
+  "causes": [
+   "Snímač výrobníku ledu je vadný."
+  ],
+  "steps": [
+   "Pokud to jde, vypněte výrobník ledu.",
+   "Lednici dál používejte jako obvykle."
+  ],
+  "technician": "Objednejte servis Samsung."
+ },
+ "Samsung|33E": {
+  "title": "Chyba ohřevu potrubí výrobníku ledu",
+  "causes": [
+   "Ohřev na vodním potrubí výrobníku ledu je vadný."
+  ],
+  "steps": [
+   "Pokud to jde, vypněte výrobník ledu."
+  ],
+  "technician": "Objednejte servis Samsung."
+ },
+ "Samsung|39E": {
+  "title": "Chyba funkce výrobníku ledu",
+  "causes": [
+   "Výrobník ledu nefunguje správně."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je zásobník na led správně usazený.",
+   "Pokud to jde, vypněte výrobník ledu."
+  ],
+  "technician": "Pokud kód nezmizí, objednejte servis Samsung."
+ },
+ "Samsung|40E": {
+  "title": "Chyba ventilátoru prostoru na led",
+  "causes": [
+   "Ventilátor v prostoru na led nefunguje, často kvůli ledu."
+  ],
+  "steps": [
+   "Zkontrolujte, zda se dvířka prostoru na led úplně zavírají."
+  ],
+  "technician": "Objednejte servis Samsung."
+ },
+ "Samsung|84C": {
+  "title": "Zablokovaný kompresor",
+  "causes": [
+   "Kompresor je zablokovaný a nemůže se spustit."
+  ],
+  "steps": [
+   "Odpojte lednici ze zásuvky nebo vypněte její jistič na 60 sekund.",
+   "Obnovte napájení a zkontrolujte, zda se kód vrátí."
+  ],
+  "technician": "Objednejte servis Samsung. Je potřeba technik."
+ },
+ "LG|CF": {
+  "title": "Chyba ventilátoru kondenzátoru",
+  "causes": [
+   "Ventilátor kondenzátoru je zablokovaný nebo neběží, takže kompresor je přetížený."
+  ],
+  "steps": [
+   "Odpojte lednici na 60 sekund ze zásuvky a zapojte ji do zásuvky ve zdi, ne do prodlužovací lišty.",
+   "Zkontrolujte, zda se kód vrátí.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Objednejte servis LG. Je potřeba technik."
+ },
+ "LG|CO": {
+  "title": "Chyba komunikace",
+  "causes": [
+   "Hlavní deska a displej spolu nekomunikují."
+  ],
+  "steps": [
+   "Odpojte lednici na 60 sekund ze zásuvky a zapojte ji do zásuvky ve zdi, ne do prodlužovací lišty.",
+   "Zkontrolujte, zda se kód vrátí.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Objednejte servis LG. Je potřeba technik."
+ },
+ "LG|FF": {
+  "title": "Chyba ventilátoru mrazničky",
+  "causes": [
+   "Ventilátor mrazničky je zablokovaný, často ledem, nebo selhal."
+  ],
+  "steps": [
+   "Odpojte lednici na 60 sekund ze zásuvky a zapojte ji do zásuvky ve zdi, ne do prodlužovací lišty.",
+   "Zkontrolujte, zda se kód vrátí.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Objednejte servis LG. Je potřeba technik."
+ },
+ "LG|FS": {
+  "title": "Chyba snímače mrazničky",
+  "causes": [
+   "Snímač teploty mrazničky je vadný."
+  ],
+  "steps": [
+   "Odpojte lednici na 60 sekund ze zásuvky a zapojte ji do zásuvky ve zdi, ne do prodlužovací lišty.",
+   "Zkontrolujte, zda se kód vrátí.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Objednejte servis LG. Je potřeba technik."
+ },
+ "LG|FU": {
+  "title": "Mraznička nechladí dostatečně",
+  "causes": [
+   "Mraznička se po spuštění dostatečně neochladila.",
+   "Dvířka se často otevírají nebo netěsní.",
+   "Větrací otvory blokují potraviny."
+  ],
+  "steps": [
+   "Odpojte lednici na 60 sekund ze zásuvky a zapojte ji do zásuvky ve zdi, ne do prodlužovací lišty.",
+   "Nastavte mrazničku na -18 °C.",
+   "Potraviny nedávejte k větracím otvorům.",
+   "Těsnění dvířek zkontrolujte tak, že dvířka zavřete na list papíru. Neměl by jít snadno vytáhnout.",
+   "Otevírejte dvířka méně často."
+  ],
+  "technician": "Pokud mraznička stále nechladí, objednejte servis LG."
+ },
+ "LG|IF": {
+  "title": "Chyba ventilátoru výrobníku ledu",
+  "causes": [
+   "Ventilátor výrobníku ledu je zablokovaný nebo vadný."
+  ],
+  "steps": [
+   "Odpojte lednici na 60 sekund ze zásuvky a zapojte ji do zásuvky ve zdi, ne do prodlužovací lišty.",
+   "Zkontrolujte, zda se kód vrátí.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Objednejte servis LG. Je potřeba technik."
+ },
+ "LG|IS": {
+  "title": "Chyba snímače výrobníku ledu",
+  "causes": [
+   "Snímač teploty výrobníku ledu je vadný."
+  ],
+  "steps": [
+   "Odpojte lednici na 60 sekund ze zásuvky a zapojte ji do zásuvky ve zdi, ne do prodlužovací lišty.",
+   "Zkontrolujte, zda se kód vrátí.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Objednejte servis LG. Je potřeba technik."
+ },
+ "LG|It": {
+  "title": "Chyba motoru výrobníku ledu",
+  "causes": [
+   "Motor výrobníku ledu je vadný."
+  ],
+  "steps": [
+   "Odpojte lednici na 60 sekund ze zásuvky a zapojte ji do zásuvky ve zdi, ne do prodlužovací lišty.",
+   "Zkontrolujte, zda se kód vrátí.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Objednejte servis LG. Je potřeba technik."
+ },
+ "LG|rS": {
+  "title": "Chyba snímače chladničky (horní)",
+  "causes": [
+   "Horní snímač teploty chladničky je vadný."
+  ],
+  "steps": [
+   "Odpojte lednici na 60 sekund ze zásuvky a zapojte ji do zásuvky ve zdi, ne do prodlužovací lišty.",
+   "Zkontrolujte, zda se kód vrátí.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Objednejte servis LG. Je potřeba technik."
+ },
+ "LG|r2": {
+  "title": "Chyba snímače chladničky (dolní)",
+  "causes": [
+   "Dolní snímač teploty chladničky je vadný."
+  ],
+  "steps": [
+   "Odpojte lednici na 60 sekund ze zásuvky a zapojte ji do zásuvky ve zdi, ne do prodlužovací lišty.",
+   "Zkontrolujte, zda se kód vrátí.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Objednejte servis LG. Je potřeba technik."
+ },
+ "LG|dS": {
+  "title": "Chyba snímače odmrazování",
+  "causes": [
+   "Snímač odmrazování je vadný, takže výparník může namrzat."
+  ],
+  "steps": [
+   "Odpojte lednici na 60 sekund ze zásuvky a zapojte ji do zásuvky ve zdi, ne do prodlužovací lišty.",
+   "Zkontrolujte, zda se kód vrátí.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Objednejte servis LG. Je potřeba technik."
+ },
+ "LG|rT": {
+  "title": "Chyba snímače teploty v místnosti",
+  "causes": [
+   "Snímač okolní teploty je vadný."
+  ],
+  "steps": [
+   "Odpojte lednici na 60 sekund ze zásuvky a zapojte ji do zásuvky ve zdi, ne do prodlužovací lišty.",
+   "Zkontrolujte, zda se kód vrátí.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Objednejte servis LG. Je potřeba technik."
+ },
+ "LG|dH": {
+  "title": "Selhání odmrazování",
+  "causes": [
+   "Systém odmrazování se včas neohřál.",
+   "Výparník je zablokovaný ledem."
+  ],
+  "steps": [
+   "Vyndejte potraviny a dejte je na chladné místo.",
+   "Na podlahu před lednici položte ručníky.",
+   "Odpojte lednici ze zásuvky a nechte dvířka alespoň 12 hodin otevřená, aby led roztál.",
+   "Znovu ji zapojte."
+  ],
+  "technician": "Často jde jen o dočasné řešení. Pokud se dH vrátí, objednejte servis LG."
+ },
+ "LG|SS": {
+  "title": "Chyba snímače nádržky na vodu",
+  "causes": [
+   "Snímač teploty nádržky na vodu je vadný."
+  ],
+  "steps": [
+   "Odpojte lednici na 60 sekund ze zásuvky a zapojte ji do zásuvky ve zdi, ne do prodlužovací lišty.",
+   "Zkontrolujte, zda se kód vrátí.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Objednejte servis LG. Je potřeba technik."
+ },
+ "LG|rF": {
+  "title": "Chyba ventilátoru chladničky",
+  "causes": [
+   "Ventilátor chladničky je zablokovaný nebo vadný."
+  ],
+  "steps": [
+   "Odpojte lednici na 60 sekund ze zásuvky a zapojte ji do zásuvky ve zdi, ne do prodlužovací lišty.",
+   "Zkontrolujte, zda se kód vrátí.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Objednejte servis LG. Je potřeba technik."
+ },
+ "LG|tt": {
+  "title": "Problém s nádržkou na vodu",
+  "causes": [
+   "Nádržka na vodu chybí nebo není správně usazená.",
+   "Snímač nádržky je vadný."
+  ],
+  "steps": [
+   "Vyjměte nádržku na vodu a správně ji nasaďte zpět.",
+   "Zkontrolujte, zda kód zmizí."
+  ],
+  "technician": "Pokud tt nezmizí ani s nasazenou nádržkou, objednejte servis LG."
+ },
+ "LG|C1": {
+  "title": "Chyba komunikace výdejníku",
+  "causes": [
+   "Výdejník a displej spolu nekomunikují."
+  ],
+  "steps": [
+   "Odpojte lednici na 60 sekund ze zásuvky a zapojte ji do zásuvky ve zdi, ne do prodlužovací lišty.",
+   "Zkontrolujte, zda se kód vrátí.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Objednejte servis LG. Je potřeba technik."
+ },
+ "LG|gF": {
+  "title": "Chyba snímače průtoku vody",
+  "causes": [
+   "Kohoutek přívodu vody je zavřený.",
+   "Vodní hadice je zalomená.",
+   "Tlak vody je nesprávný."
+  ],
+  "steps": [
+   "Odpojte lednici na 60 sekund ze zásuvky a zapojte ji do zásuvky ve zdi, ne do prodlužovací lišty.",
+   "Počkejte až 5 minut, než se lednice restartuje.",
+   "Otevřete kohoutek přívodu vody naplno.",
+   "Zkontrolujte, zda hadice není zalomená.",
+   "Porovnejte tlak vody s údaji v návodu."
+  ],
+  "technician": "Pokud chyba trvá, objednejte servis LG."
+ },
+ "LG|CH": {
+  "title": "Chyba chladicího okruhu (vysokotlaká strana)",
+  "causes": [
+   "Snímače v chladicím okruhu naměřily neobvyklé hodnoty, možná kvůli úniku nebo vadnému ventilu."
+  ],
+  "steps": [
+   "Odpojte lednici na 60 sekund ze zásuvky a zapojte ji do zásuvky ve zdi, ne do prodlužovací lišty.",
+   "Zkontrolujte, zda se kód vrátí.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Objednejte servis LG. Je potřeba technik."
+ },
+ "LG|CL": {
+  "title": "Chyba chladicího okruhu (nízkotlaká strana)",
+  "causes": [
+   "Snímače v chladicím okruhu naměřily neobvyklé hodnoty, možná kvůli úniku nebo vadnému ventilu."
+  ],
+  "steps": [
+   "Odpojte lednici na 60 sekund ze zásuvky a zapojte ji do zásuvky ve zdi, ne do prodlužovací lišty.",
+   "Zkontrolujte, zda se kód vrátí.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Objednejte servis LG. Je potřeba technik."
+ },
+ "LG|Lo": {
+  "title": "V místnosti je příliš chladno",
+  "causes": [
+   "V místnosti je chladněji než -10 °C."
+  ],
+  "steps": [
+   "Pokud to jde, přemístěte lednici na teplejší místo."
+  ],
+  "technician": "Nejde o závadu. LG kontaktujte jen tehdy, pokud je v místnosti teplo a stále se zobrazuje Lo."
+ },
+ "LG|HI": {
+  "title": "V místnosti je příliš horko",
+  "causes": [
+   "V místnosti je tepleji než 50 °C."
+  ],
+  "steps": [
+   "Pokud to jde, přemístěte lednici na chladnější místo.",
+   "Zajistěte, aby kolem ní mohl proudit vzduch."
+  ],
+  "technician": "Nejde o závadu. LG kontaktujte jen tehdy, pokud je teplota v místnosti normální a stále se zobrazuje HI."
+ },
+ "Miele|F0": {
+  "title": "Technická závada",
+  "causes": [
+   "Byla zjištěna interní technická závada."
+  ],
+  "steps": [
+   "Poznamenejte si kód závady.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny.",
+   "Objednejte technika Miele."
+  ],
+  "technician": "Jde o technickou závadu, kterou sami neodstraníte. Kontaktujte zákaznický servis Miele."
+ },
+ "Miele|F1": {
+  "title": "Technická závada",
+  "causes": [
+   "Byla zjištěna interní technická závada."
+  ],
+  "steps": [
+   "Poznamenejte si kód závady.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny.",
+   "Objednejte technika Miele."
+  ],
+  "technician": "Jde o technickou závadu, kterou sami neodstraníte. Kontaktujte zákaznický servis Miele."
+ },
+ "Miele|F2": {
+  "title": "Technická závada",
+  "causes": [
+   "Byla zjištěna interní technická závada."
+  ],
+  "steps": [
+   "Poznamenejte si kód závady.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny.",
+   "Objednejte technika Miele."
+  ],
+  "technician": "Jde o technickou závadu, kterou sami neodstraníte. Kontaktujte zákaznický servis Miele."
+ },
+ "Miele|F3": {
+  "title": "Technická závada",
+  "causes": [
+   "Byla zjištěna interní technická závada."
+  ],
+  "steps": [
+   "Poznamenejte si kód závady.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny.",
+   "Objednejte technika Miele."
+  ],
+  "technician": "Jde o technickou závadu, kterou sami neodstraníte. Kontaktujte zákaznický servis Miele."
+ },
+ "Miele|F4": {
+  "title": "Technická závada",
+  "causes": [
+   "Byla zjištěna interní technická závada."
+  ],
+  "steps": [
+   "Poznamenejte si kód závady.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny.",
+   "Objednejte technika Miele."
+  ],
+  "technician": "Jde o technickou závadu, kterou sami neodstraníte. Kontaktujte zákaznický servis Miele."
+ },
+ "Miele|F5": {
+  "title": "Technická závada",
+  "causes": [
+   "Byla zjištěna interní technická závada."
+  ],
+  "steps": [
+   "Poznamenejte si kód závady.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny.",
+   "Objednejte technika Miele."
+  ],
+  "technician": "Jde o technickou závadu, kterou sami neodstraníte. Kontaktujte zákaznický servis Miele."
+ },
+ "Miele|F114": {
+  "title": "Vadný snímač výparníku mrazničky",
+  "causes": [
+   "Snímač výparníku v mrazicí části je vadný."
+  ],
+  "steps": [
+   "Poznamenejte si kód závady.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny.",
+   "Objednejte technika Miele."
+  ],
+  "technician": "Jde o technickou závadu, kterou sami neodstraníte. Kontaktujte zákaznický servis Miele."
+ },
+ "Miele|F120": {
+  "title": "Příliš nízké napětí v síti",
+  "causes": [
+   "Napětí v síti je občas příliš nízké nebo hodně kolísá."
+  ],
+  "steps": [
+   "Zkontrolujte, zda mají problémy i jiné spotřebiče.",
+   "Nechte napětí v síti zkontrolovat kvalifikovaným elektrikářem."
+  ],
+  "technician": "Pokud je napětí v pořádku a F120 nezmizí, objednejte technika Miele."
+ },
+ "Miele|F141": {
+  "title": "Dvířka chladničky otevřená 15 minut",
+  "causes": [
+   "Dvířka chladicího prostoru jsou otevřená 15 minut."
+  ],
+  "steps": [
+   "Zavřete dvířka chladničky.",
+   "Zkontrolujte, zda jim v zavření nic nebrání."
+  ],
+  "technician": "Pokud se F141 zobrazuje při zavřených dvířkách, objednejte technika Miele."
+ },
+ "Miele|F142": {
+  "title": "Dvířka chladničky otevřená 30 minut",
+  "causes": [
+   "Dvířka chladicího prostoru jsou otevřená asi 30 minut."
+  ],
+  "steps": [
+   "Zavřete dvířka chladničky.",
+   "Zkontrolujte, zda jim v zavření nic nebrání."
+  ],
+  "technician": "Pokud se F142 zobrazuje při zavřených dvířkách, objednejte technika Miele."
+ },
+ "Miele|F383": {
+  "title": "Chyba přívodu vody do výrobníku ledu",
+  "causes": [
+   "Přívodní hadice vody je zalomená.",
+   "Přívodní filtr je znečištěný.",
+   "Nádržka na vodu není usazená nebo se zasekl její plovák.",
+   "Chyba softwaru."
+  ],
+  "steps": [
+   "Narovnejte zalomenou vodní hadici.",
+   "Vyčistěte přívodní filtr.",
+   "Vyjměte nádržku na vodu, vyčistěte prostor pod ní a zasuňte ji úplně zpět.",
+   "Zatřeste nádržkou a zkontrolujte, zda se plovák volně pohybuje.",
+   "Nastavte mrazničku alespoň na 48 hodin na -18 °C."
+  ],
+  "technician": "Pokud závada trvá, kontaktujte zákaznický servis Miele."
+ },
+ "Miele|F384": {
+  "title": "Pád softwaru",
+  "causes": [
+   "Software spotřebiče přestal fungovat."
+  ],
+  "steps": [
+   "Odpojte spotřebič ze zásuvky asi na 2 minuty.",
+   "Znovu ho zapojte a zapněte.",
+   "Pokud opět funguje, obnovte v nabídce Nastavení tovární nastavení."
+  ],
+  "technician": "Pokud se závada vrátí, kontaktujte zákaznický servis Miele."
+ },
+ "Miele|F385": {
+  "title": "Pád softwaru",
+  "causes": [
+   "Software spotřebiče přestal fungovat."
+  ],
+  "steps": [
+   "Odpojte spotřebič ze zásuvky asi na 2 minuty.",
+   "Znovu ho zapojte a zapněte.",
+   "Pokud opět funguje, obnovte v nabídce Nastavení tovární nastavení."
+  ],
+  "technician": "Pokud se závada vrátí, kontaktujte zákaznický servis Miele."
+ },
+ "Miele|nA": {
+  "title": "Mraznička se dříve příliš ohřála",
+  "causes": [
+   "Výpadek proudu nebo přerušení napájení způsobilo ohřátí mrazničky."
+  ],
+  "steps": [
+   "Podržením tlačítka alarmu zobrazíte nejvyšší dosaženou teplotu.",
+   "Zkontrolujte potraviny. Rozmražené potraviny brzy spotřebujte.",
+   "Rozmražené potraviny znovu nezmrazujte, pokud je předtím neuvaříte."
+  ],
+  "technician": "Nejde o závadu. Miele kontaktujte jen tehdy, pokud se zobrazuje bez výpadku proudu."
+ },
+ "AEG|E08": {
+  "title": "Nízké napájecí napětí",
+  "causes": [
+   "Napětí v síti kleslo pod 170 V. To chrání kompresor."
+  ],
+  "steps": [
+   "Zkontrolujte, zda mají problémy s napájením i jiné spotřebiče.",
+   "Počkejte, až se napájení vrátí do normálu."
+  ],
+  "technician": "Pokud se E08 stále zobrazuje, nechte zkontrolovat přívod a kontaktujte autorizovaného technika AEG."
+ },
+ "AEG|E09": {
+  "title": "Mraznička není dostatečně studená",
+  "causes": [
+   "Obvykle po dlouhém výpadku proudu."
+  ],
+  "steps": [
+   "Snižte nastavení mrazničky nebo zapněte Super Freeze.",
+   "Nechte dvířka zavřená, dokud kód nezmizí.",
+   "Rozmražené potraviny brzy spotřebujte nebo uvařte.",
+   "Dokud kód nezmizí, nevkládejte čerstvé potraviny."
+  ],
+  "technician": "Pokud kód nezmizí, kontaktujte autorizovaného technika AEG."
+ },
+ "AEG|E10": {
+  "title": "Chladnička není dostatečně studená",
+  "causes": [
+   "Dlouhý výpadek proudu.",
+   "Do chladničky bylo vloženo teplé jídlo."
+  ],
+  "steps": [
+   "Snižte nastavení chladničky nebo zapněte Super Cool.",
+   "Nechte dvířka zavřená.",
+   "Potraviny nedávejte k větracím otvorům ani ke snímači."
+  ],
+  "technician": "Pokud E10 trvá, objednejte opravu AEG."
+ },
+ "AEG|E11": {
+  "title": "Chladnička je příliš studená",
+  "causes": [
+   "Zůstala zapnutá funkce Super Cool.",
+   "Teplota je nastavená příliš nízko.",
+   "Větrací otvory jsou zablokované."
+  ],
+  "steps": [
+   "Vypněte Super Cool.",
+   "Nastavte v chladničce vyšší teplotu.",
+   "Ujistěte se, že větrací otvory jsou volné."
+  ],
+  "technician": "Pokud kód trvá, kontaktujte autorizovaný servis AEG."
+ },
+ "AEG|F2": {
+  "title": "Závada termostatu",
+  "causes": [
+   "Problém s termostatem."
+  ],
+  "steps": [
+   "Poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Objednejte servisního technika AEG a uveďte kód."
+ },
+ "AEG|F8": {
+  "title": "Závada systému odmrazování",
+  "causes": [
+   "Závada v systému odmrazování."
+  ],
+  "steps": [
+   "Nepokoušejte se to opravit sami.",
+   "Poznamenejte si model a výrobní číslo."
+  ],
+  "technician": "Objednejte servisního technika AEG a uveďte F8."
+ },
+ "Electrolux|F5": {
+  "title": "Závada snímače teploty",
+  "causes": [
+   "Snímač teploty je vadný. F3 a F4 ukazují na stejný typ závady."
+  ],
+  "steps": [
+   "Poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Objednejte servisního technika Electrolux a uveďte kód."
+ },
+ "Electrolux|E01": {
+  "title": "Upozornění snímače",
+  "causes": [
+   "Snímač v kombinované chladničce s mrazničkou má problém."
+  ],
+  "steps": [
+   "Poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Kontaktujte autorizované servisní středisko Electrolux kvůli návštěvě technika."
+ },
+ "Electrolux|E02": {
+  "title": "Upozornění snímače",
+  "causes": [
+   "Snímač v kombinované chladničce s mrazničkou má problém."
+  ],
+  "steps": [
+   "Poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Kontaktujte autorizované servisní středisko Electrolux kvůli návštěvě technika."
+ },
+ "Electrolux|E03": {
+  "title": "Upozornění snímače",
+  "causes": [
+   "Snímač v kombinované chladničce s mrazničkou má problém."
+  ],
+  "steps": [
+   "Poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Kontaktujte autorizované servisní středisko Electrolux kvůli návštěvě technika."
+ },
+ "Electrolux|E06": {
+  "title": "Upozornění snímače",
+  "causes": [
+   "Snímač v kombinované chladničce s mrazničkou má problém."
+  ],
+  "steps": [
+   "Poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Kontaktujte autorizované servisní středisko Electrolux kvůli návštěvě technika."
+ },
+ "Electrolux|E07": {
+  "title": "Upozornění snímače",
+  "causes": [
+   "Snímač v kombinované chladničce s mrazničkou má problém."
+  ],
+  "steps": [
+   "Poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Kontaktujte autorizované servisní středisko Electrolux kvůli návštěvě technika."
+ },
+ "Hotpoint|E0": {
+  "title": "Závada výrobníku ledu",
+  "causes": [
+   "Výrobník ledu nefunguje správně (modely s výrobníkem ledu)."
+  ],
+  "steps": [
+   "Pokud to jde, vypněte výrobník ledu.",
+   "Lednici dál používejte jako obvykle."
+  ],
+  "technician": "Zavolejte servis Hotpoint a objednejte technika."
+ },
+ "Hotpoint|E1": {
+  "title": "Závada snímače chladničky",
+  "causes": [
+   "Snímač teploty chladničky je vadný."
+  ],
+  "steps": [
+   "Poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Zavolejte servis Hotpoint a objednejte technika."
+ },
+ "Hotpoint|E2": {
+  "title": "Závada snímače mrazničky",
+  "causes": [
+   "Snímač teploty mrazničky je vadný.",
+   "Teplota v mrazničce může být nesprávná."
+  ],
+  "steps": [
+   "Zkontrolujte, zda jsou potraviny stále zmrazené.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Zavolejte servis Hotpoint a objednejte technika."
+ },
+ "Hotpoint|E3": {
+  "title": "Závada snímače odmrazování",
+  "causes": [
+   "Snímač odmrazování je vadný.",
+   "Teplotu může ovlivnit i ucpaný odtok."
+  ],
+  "steps": [
+   "Zkontrolujte, zda odtokový otvor odmrazování a odtoková trubička nejsou ucpané.",
+   "Ucpání opatrně uvolněte."
+  ],
+  "technician": "Pokud závada trvá, zavolejte servis Hotpoint."
+ },
+ "Hotpoint|E4": {
+  "title": "Závada snímače odmrazování chladničky",
+  "causes": [
+   "Snímač odmrazování chladničky je vadný."
+  ],
+  "steps": [
+   "Poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Zavolejte servis Hotpoint a objednejte technika."
+ },
+ "Hotpoint|E5": {
+  "title": "Závada snímače odmrazování mrazničky",
+  "causes": [
+   "Snímač odmrazování mrazničky je vadný."
+  ],
+  "steps": [
+   "Poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Zavolejte servis Hotpoint a objednejte technika."
+ },
+ "Hotpoint|E6": {
+  "title": "Závada řídicí desky nebo desky displeje",
+  "causes": [
+   "Hlavní řídicí deska nebo deska displeje je vadná."
+  ],
+  "steps": [
+   "Odpojte lednici na několik minut ze zásuvky a znovu ji zapojte."
+  ],
+  "technician": "Zavolejte servis Hotpoint a objednejte technika."
+ },
+ "Hotpoint|E7": {
+  "title": "Závada snímače teploty v místnosti",
+  "causes": [
+   "Snímač okolní teploty je vadný."
+  ],
+  "steps": [
+   "Poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Zavolejte servis Hotpoint a objednejte technika."
+ },
+ "Hotpoint|E8": {
+  "title": "Závada snímače teploty v místnosti",
+  "causes": [
+   "Snímač okolní teploty je vadný."
+  ],
+  "steps": [
+   "Poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Zavolejte servis Hotpoint a objednejte technika."
+ },
+ "Hotpoint|E9": {
+  "title": "Alarm vysoké teploty v mrazničce",
+  "causes": [
+   "Dvířka mrazničky zůstala otevřená a mraznička se ohřála."
+  ],
+  "steps": [
+   "Dvířka mrazničky správně zavřete.",
+   "Zkontrolujte, zda dvířkům nic nepřekáží.",
+   "Zkontrolujte, zda potraviny nerozmrzly."
+  ],
+  "technician": "Pokud alarm trvá i při zavřených dvířkách, zavolejte servis Hotpoint."
+ },
+ "Hotpoint|EE": {
+  "title": "Závada obvodu výrobníku ledu",
+  "causes": [
+   "Závada v obvodu výrobníku ledu (modely s výrobníkem ledu)."
+  ],
+  "steps": [
+   "Pokud to jde, vypněte výrobník ledu."
+  ],
+  "technician": "Zavolejte servis Hotpoint a objednejte technika."
+ },
+ "Indesit|E0": {
+  "title": "Závada výrobníku ledu",
+  "causes": [
+   "Výrobník ledu nefunguje správně (modely s výrobníkem ledu)."
+  ],
+  "steps": [
+   "Pokud to jde, vypněte výrobník ledu.",
+   "Lednici dál používejte jako obvykle."
+  ],
+  "technician": "Zavolejte servis Indesit a objednejte technika."
+ },
+ "Indesit|E1": {
+  "title": "Závada snímače chladničky",
+  "causes": [
+   "Snímač teploty chladničky je vadný."
+  ],
+  "steps": [
+   "Poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Zavolejte servis Indesit a objednejte technika."
+ },
+ "Indesit|E2": {
+  "title": "Závada snímače mrazničky",
+  "causes": [
+   "Snímač teploty mrazničky je vadný.",
+   "Teplota v mrazničce může být nesprávná."
+  ],
+  "steps": [
+   "Zkontrolujte, zda jsou potraviny stále zmrazené.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Zavolejte servis Indesit a objednejte technika."
+ },
+ "Indesit|E3": {
+  "title": "Závada snímače odmrazování",
+  "causes": [
+   "Snímač odmrazování je vadný.",
+   "Teplotu může ovlivnit i ucpaný odtok."
+  ],
+  "steps": [
+   "Zkontrolujte, zda odtokový otvor odmrazování a odtoková trubička nejsou ucpané.",
+   "Ucpání opatrně uvolněte."
+  ],
+  "technician": "Pokud závada trvá, zavolejte servis Indesit."
+ },
+ "Indesit|E4": {
+  "title": "Závada snímače odmrazování chladničky",
+  "causes": [
+   "Snímač odmrazování chladničky je vadný."
+  ],
+  "steps": [
+   "Poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Zavolejte servis Indesit a objednejte technika."
+ },
+ "Indesit|E5": {
+  "title": "Závada snímače odmrazování mrazničky",
+  "causes": [
+   "Snímač odmrazování mrazničky je vadný."
+  ],
+  "steps": [
+   "Poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Zavolejte servis Indesit a objednejte technika."
+ },
+ "Indesit|E6": {
+  "title": "Závada řídicí desky nebo desky displeje",
+  "causes": [
+   "Hlavní řídicí deska nebo deska displeje je vadná."
+  ],
+  "steps": [
+   "Odpojte lednici na několik minut ze zásuvky a znovu ji zapojte."
+  ],
+  "technician": "Zavolejte servis Indesit a objednejte technika."
+ },
+ "Indesit|E7": {
+  "title": "Závada snímače teploty v místnosti",
+  "causes": [
+   "Snímač okolní teploty je vadný."
+  ],
+  "steps": [
+   "Poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Zavolejte servis Indesit a objednejte technika."
+ },
+ "Indesit|E8": {
+  "title": "Závada snímače teploty v místnosti",
+  "causes": [
+   "Snímač okolní teploty je vadný."
+  ],
+  "steps": [
+   "Poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Zavolejte servis Indesit a objednejte technika."
+ },
+ "Indesit|E9": {
+  "title": "Alarm vysoké teploty v mrazničce",
+  "causes": [
+   "Dvířka mrazničky zůstala otevřená a mraznička se ohřála."
+  ],
+  "steps": [
+   "Dvířka mrazničky správně zavřete.",
+   "Zkontrolujte, zda dvířkům nic nepřekáží.",
+   "Zkontrolujte, zda potraviny nerozmrzly."
+  ],
+  "technician": "Pokud alarm trvá i při zavřených dvířkách, zavolejte servis Indesit."
+ },
+ "Indesit|EE": {
+  "title": "Závada obvodu výrobníku ledu",
+  "causes": [
+   "Závada v obvodu výrobníku ledu (modely s výrobníkem ledu)."
+  ],
+  "steps": [
+   "Pokud to jde, vypněte výrobník ledu."
+  ],
+  "technician": "Zavolejte servis Indesit a objednejte technika."
+ },
+ "Whirlpool|F3 E1": {
+  "title": "Systémová závada (blikající F)",
+  "causes": [
+   "Ovládání zjistilo závadu. Whirlpool kromě resetu neuvádí žádné domácí řešení."
+  ],
+  "steps": [
+   "Vypněte jistič nebo odpojte lednici ze zásuvky na jednu minutu.",
+   "Obnovte napájení.",
+   "Ujistěte se, že je chlazení zapnuté.",
+   "Minutu sledujte, zda se kód vrátí."
+  ],
+  "technician": "Pokud se kód po resetu vrátí, objednejte servis Whirlpool."
+ },
+ "Whirlpool|F3 E2": {
+  "title": "Systémová závada (blikající F)",
+  "causes": [
+   "Ovládání zjistilo závadu. Whirlpool kromě resetu neuvádí žádné domácí řešení."
+  ],
+  "steps": [
+   "Vypněte jistič nebo odpojte lednici ze zásuvky na jednu minutu.",
+   "Obnovte napájení.",
+   "Ujistěte se, že je chlazení zapnuté.",
+   "Minutu sledujte, zda se kód vrátí."
+  ],
+  "technician": "Pokud se kód po resetu vrátí, objednejte servis Whirlpool."
+ },
+ "Whirlpool|F6 E1": {
+  "title": "Systémová závada (blikající F)",
+  "causes": [
+   "Ovládání zjistilo závadu. Whirlpool kromě resetu neuvádí žádné domácí řešení."
+  ],
+  "steps": [
+   "Vypněte jistič nebo odpojte lednici ze zásuvky na jednu minutu.",
+   "Obnovte napájení.",
+   "Ujistěte se, že je chlazení zapnuté.",
+   "Minutu sledujte, zda se kód vrátí."
+  ],
+  "technician": "Pokud se kód po resetu vrátí, objednejte servis Whirlpool."
+ },
+ "Whirlpool|F8 E1": {
+  "title": "Systémová závada (blikající F)",
+  "causes": [
+   "Ovládání zjistilo závadu. Whirlpool kromě resetu neuvádí žádné domácí řešení."
+  ],
+  "steps": [
+   "Vypněte jistič nebo odpojte lednici ze zásuvky na jednu minutu.",
+   "Obnovte napájení.",
+   "Ujistěte se, že je chlazení zapnuté.",
+   "Minutu sledujte, zda se kód vrátí."
+  ],
+  "technician": "Pokud se kód po resetu vrátí, objednejte servis Whirlpool."
+ },
+ "Whirlpool|F8 E2": {
+  "title": "Systémová závada (blikající F)",
+  "causes": [
+   "Ovládání zjistilo závadu. Whirlpool kromě resetu neuvádí žádné domácí řešení."
+  ],
+  "steps": [
+   "Vypněte jistič nebo odpojte lednici ze zásuvky na jednu minutu.",
+   "Obnovte napájení.",
+   "Ujistěte se, že je chlazení zapnuté.",
+   "Minutu sledujte, zda se kód vrátí."
+  ],
+  "technician": "Pokud se kód po resetu vrátí, objednejte servis Whirlpool."
+ },
+ "Whirlpool|PO": {
+  "title": "Upozornění na výpadek proudu",
+  "causes": [
+   "Došlo k výpadku proudu a mraznička se ohřála na -8 °C (18 °F) nebo víc."
+  ],
+  "steps": [
+   "Upozornění vymažete stisknutím tlačítka pod blikajícím nápisem Confirm.",
+   "Zkontrolujte, zda zmrazené potraviny nerozmrzají."
+  ],
+  "technician": "Nejde o závadu. Whirlpool kontaktujte jen tehdy, pokud se PO zobrazuje bez skutečného výpadku proudu."
+ },
+ "Bosch|E02": {
+  "title": "Závada výrobníku ledu nebo vodního systému",
+  "causes": [
+   "Výrobník ledu je vadný.",
+   "Ovládání ledu a vody spolu nekomunikují."
+  ],
+  "steps": [
+   "Vypněte jistič lednice na 30 sekund.",
+   "Znovu ho zapněte a zkontrolujte kód."
+  ],
+  "technician": "Pokud E02 nezmizí, kontaktujte zákaznickou podporu Bosch."
+ },
+ "Bosch|E03": {
+  "title": "Závada ovládání výdejníku",
+  "causes": [
+   "Ovládací panel výdejníku je vadný."
+  ],
+  "steps": [
+   "Vypněte jistič lednice na 30 sekund.",
+   "Znovu ho zapněte a zkontrolujte kód."
+  ],
+  "technician": "Pokud E03 nezmizí, kontaktujte zákaznickou podporu Bosch."
+ },
+ "Haier|F1": {
+  "title": "Chyba snímače",
+  "causes": [
+   "Snímač teploty je vadný."
+  ],
+  "steps": [
+   "Jednou lednici vypněte a zapněte a zkontrolujte, zda kód zmizí.",
+   "Pokud se vrátí, poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Uživatel to sám neopraví. Kontaktujte servis Haier kvůli technikovi."
+ },
+ "Haier|E0": {
+  "title": "Chyba komunikace",
+  "causes": [
+   "Vnitřní desky spolu nekomunikují."
+  ],
+  "steps": [
+   "Jednou lednici vypněte a zapněte a zkontrolujte, zda kód zmizí.",
+   "Pokud se vrátí, poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Uživatel to sám neopraví. Kontaktujte servis Haier kvůli technikovi."
+ },
+ "Haier|E1": {
+  "title": "Chyba ventilátoru",
+  "causes": [
+   "Ventilátor nefunguje."
+  ],
+  "steps": [
+   "Jednou lednici vypněte a zapněte a zkontrolujte, zda kód zmizí.",
+   "Pokud se vrátí, poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Uživatel to sám neopraví. Kontaktujte servis Haier kvůli technikovi."
+ },
+ "Haier|Er": {
+  "title": "Chyba výrobníku ledu",
+  "causes": [
+   "Výrobník ledu je vadný."
+  ],
+  "steps": [
+   "Jednou lednici vypněte a zapněte a zkontrolujte, zda kód zmizí.",
+   "Pokud se vrátí, poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Uživatel to sám neopraví. Kontaktujte servis Haier kvůli technikovi."
+ },
+ "Haier|Ed": {
+  "title": "Chyba odmrazování",
+  "causes": [
+   "Systém odmrazování je vadný."
+  ],
+  "steps": [
+   "Jednou lednici vypněte a zapněte a zkontrolujte, zda kód zmizí.",
+   "Pokud se vrátí, poznamenejte si kód.",
+   "Dvířka nechávejte co nejvíc zavřená, abyste ochránili potraviny."
+  ],
+  "technician": "Uživatel to sám neopraví. Kontaktujte servis Haier kvůli technikovi."
+ }
+}

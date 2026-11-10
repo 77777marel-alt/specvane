@@ -154,7 +154,7 @@ export const pl: Dict = {
     popularCompare: "Popularne porównania",
     seeAll: "Wszystkie",
     errTitle: "Kody błędów",
-    errLead: "Co oznaczają kody błędów pralek i zmywarek i co możesz bezpiecznie zrobić sam.",
+    errLead: "Co oznaczają kody błędów pralek, zmywarek, suszarek, lodówek, ekspresów do kawy, klimatyzatorów i kotłów gazowych oraz co można bezpiecznie zrobić samodzielnie.",
     errBrandTitle: "{brand} {appliance}: kody błędów",
     errCodeTitle: "{brand} {appliance} błąd {code}",
     errCauses: "Możliwe przyczyny",

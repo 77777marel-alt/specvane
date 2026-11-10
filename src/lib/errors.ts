@@ -50,6 +50,48 @@ import ruCm from '../../data/errors/i18n/ru/coffee-machines.json'
 import ruAc from '../../data/errors/i18n/ru/air-conditioners.json'
 import ruBo from '../../data/errors/i18n/ru/boilers.json'
 
+import nlW from '../../data/errors/i18n/nl/washing-machines.json'
+import nlD from '../../data/errors/i18n/nl/dishwashers.json'
+import nlTd from '../../data/errors/i18n/nl/tumble-dryers.json'
+import nlFr from '../../data/errors/i18n/nl/fridges.json'
+import nlCm from '../../data/errors/i18n/nl/coffee-machines.json'
+import nlAc from '../../data/errors/i18n/nl/air-conditioners.json'
+import nlBo from '../../data/errors/i18n/nl/boilers.json'
+import plW from '../../data/errors/i18n/pl/washing-machines.json'
+import plD from '../../data/errors/i18n/pl/dishwashers.json'
+import plTd from '../../data/errors/i18n/pl/tumble-dryers.json'
+import plFr from '../../data/errors/i18n/pl/fridges.json'
+import plCm from '../../data/errors/i18n/pl/coffee-machines.json'
+import plAc from '../../data/errors/i18n/pl/air-conditioners.json'
+import plBo from '../../data/errors/i18n/pl/boilers.json'
+import ptbrW from '../../data/errors/i18n/pt-br/washing-machines.json'
+import ptbrD from '../../data/errors/i18n/pt-br/dishwashers.json'
+import ptbrTd from '../../data/errors/i18n/pt-br/tumble-dryers.json'
+import ptbrFr from '../../data/errors/i18n/pt-br/fridges.json'
+import ptbrCm from '../../data/errors/i18n/pt-br/coffee-machines.json'
+import ptbrAc from '../../data/errors/i18n/pt-br/air-conditioners.json'
+import ptbrBo from '../../data/errors/i18n/pt-br/boilers.json'
+import trW from '../../data/errors/i18n/tr/washing-machines.json'
+import trD from '../../data/errors/i18n/tr/dishwashers.json'
+import trTd from '../../data/errors/i18n/tr/tumble-dryers.json'
+import trFr from '../../data/errors/i18n/tr/fridges.json'
+import trCm from '../../data/errors/i18n/tr/coffee-machines.json'
+import trAc from '../../data/errors/i18n/tr/air-conditioners.json'
+import trBo from '../../data/errors/i18n/tr/boilers.json'
+import csW from '../../data/errors/i18n/cs/washing-machines.json'
+import csD from '../../data/errors/i18n/cs/dishwashers.json'
+import csTd from '../../data/errors/i18n/cs/tumble-dryers.json'
+import csFr from '../../data/errors/i18n/cs/fridges.json'
+import csCm from '../../data/errors/i18n/cs/coffee-machines.json'
+import csAc from '../../data/errors/i18n/cs/air-conditioners.json'
+import csBo from '../../data/errors/i18n/cs/boilers.json'
+import ukW from '../../data/errors/i18n/uk/washing-machines.json'
+import ukD from '../../data/errors/i18n/uk/dishwashers.json'
+import ukTd from '../../data/errors/i18n/uk/tumble-dryers.json'
+import ukFr from '../../data/errors/i18n/uk/fridges.json'
+import ukCm from '../../data/errors/i18n/uk/coffee-machines.json'
+import ukAc from '../../data/errors/i18n/uk/air-conditioners.json'
+import ukBo from '../../data/errors/i18n/uk/boilers.json'
 // Коды ошибок техники: факты с официальных страниц производителей, текст — своими словами (data/errors/*.json).
 // Переводы кладутся в data/errors/i18n/<lang>/<appliance>.json — страницы языка появляются, когда перевод есть.
 
@@ -66,6 +108,12 @@ const TRANSLATIONS: Partial<Record<Locale, Record<Appliance, Tr>>> = {
   es: { 'washing-machines': esW, dishwashers: esD, 'tumble-dryers': esTd, 'fridges': esFr, 'coffee-machines': esCm, 'air-conditioners': esAc, 'boilers': esBo },
   el: { 'washing-machines': elW, dishwashers: elD, 'tumble-dryers': elTd, 'fridges': elFr, 'coffee-machines': elCm, 'air-conditioners': elAc, 'boilers': elBo },
   ru: { 'washing-machines': ruW, dishwashers: ruD, 'tumble-dryers': ruTd, 'fridges': ruFr, 'coffee-machines': ruCm, 'air-conditioners': ruAc, 'boilers': ruBo },
+  nl: { 'washing-machines': nlW, 'dishwashers': nlD, 'tumble-dryers': nlTd, 'fridges': nlFr, 'coffee-machines': nlCm, 'air-conditioners': nlAc, 'boilers': nlBo },
+  pl: { 'washing-machines': plW, 'dishwashers': plD, 'tumble-dryers': plTd, 'fridges': plFr, 'coffee-machines': plCm, 'air-conditioners': plAc, 'boilers': plBo },
+  'pt-br': { 'washing-machines': ptbrW, 'dishwashers': ptbrD, 'tumble-dryers': ptbrTd, 'fridges': ptbrFr, 'coffee-machines': ptbrCm, 'air-conditioners': ptbrAc, 'boilers': ptbrBo },
+  tr: { 'washing-machines': trW, 'dishwashers': trD, 'tumble-dryers': trTd, 'fridges': trFr, 'coffee-machines': trCm, 'air-conditioners': trAc, 'boilers': trBo },
+  cs: { 'washing-machines': csW, 'dishwashers': csD, 'tumble-dryers': csTd, 'fridges': csFr, 'coffee-machines': csCm, 'air-conditioners': csAc, 'boilers': csBo },
+  uk: { 'washing-machines': ukW, 'dishwashers': ukD, 'tumble-dryers': ukTd, 'fridges': ukFr, 'coffee-machines': ukCm, 'air-conditioners': ukAc, 'boilers': ukBo },
 }
 export const ERROR_LANGS: Locale[] = ['en', ...(Object.keys(TRANSLATIONS) as Locale[])]
 export const hasErrors = (lang: Locale) => ERROR_LANGS.includes(lang)
@@ -108,5 +156,11 @@ export const APPLIANCE_NAMES: Partial<Record<Locale, Names>> = {
   es: { 'washing-machines': { one: 'lavadora', many: 'Lavadoras', slug: 'lavadoras' }, dishwashers: { one: 'lavavajillas', many: 'Lavavajillas', slug: 'lavavajillas' }, 'tumble-dryers': { one: 'secadora', many: 'Secadoras', slug: 'secadoras' }, fridges: { one: 'frigorífico', many: 'Frigoríficos', slug: 'frigorificos' }, 'coffee-machines': { one: 'cafetera', many: 'Cafeteras', slug: 'cafeteras' }, 'air-conditioners': { one: 'aire acondicionado', many: 'Aires acondicionados', slug: 'aire-acondicionado' }, boilers: { one: 'caldera', many: 'Calderas de gas', slug: 'calderas' } },
   el: { 'washing-machines': { one: 'πλυντήριο ρούχων', many: 'Πλυντήρια ρούχων', slug: 'plyntiria-rouchon' }, dishwashers: { one: 'πλυντήριο πιάτων', many: 'Πλυντήρια πιάτων', slug: 'plyntiria-piaton' }, 'tumble-dryers': { one: 'στεγνωτήριο', many: 'Στεγνωτήρια', slug: 'stegnotiria' }, fridges: { one: 'ψυγείο', many: 'Ψυγεία', slug: 'psygeia' }, 'coffee-machines': { one: 'μηχανή καφέ', many: 'Μηχανές καφέ', slug: 'michanes-kafe' }, 'air-conditioners': { one: 'κλιματιστικό', many: 'Κλιματιστικά', slug: 'klimatistika' }, boilers: { one: 'λέβητας', many: 'Λέβητες αερίου', slug: 'levites' } },
   ru: { 'washing-machines': { one: 'стиральная машина', many: 'Стиральные машины', slug: 'stiralnye-mashiny' }, dishwashers: { one: 'посудомоечная машина', many: 'Посудомоечные машины', slug: 'posudomoechnye-mashiny' }, 'tumble-dryers': { one: 'сушильная машина', many: 'Сушильные машины', slug: 'sushilnye-mashiny' }, fridges: { one: 'холодильник', many: 'Холодильники', slug: 'holodilniki' }, 'coffee-machines': { one: 'кофемашина', many: 'Кофемашины', slug: 'kofemashiny' }, 'air-conditioners': { one: 'кондиционер', many: 'Кондиционеры', slug: 'kondicionery' }, boilers: { one: 'газовый котёл', many: 'Газовые котлы', slug: 'gazovye-kotly' } },
+  nl: { 'washing-machines': { one: 'wasmachine', many: 'Wasmachines', slug: 'wasmachines' }, 'dishwashers': { one: 'vaatwasser', many: 'Vaatwassers', slug: 'vaatwassers' }, 'tumble-dryers': { one: 'droger', many: 'Wasdrogers', slug: 'wasdrogers' }, 'fridges': { one: 'koelkast', many: 'Koelkasten', slug: 'koelkasten' }, 'coffee-machines': { one: 'koffiemachine', many: 'Koffiemachines', slug: 'koffiemachines' }, 'air-conditioners': { one: 'airco', many: 'Airco’s', slug: 'airco' }, 'boilers': { one: 'cv-ketel', many: 'Cv-ketels', slug: 'cv-ketels' } },
+  pl: { 'washing-machines': { one: 'pralka', many: 'Pralki', slug: 'pralki' }, 'dishwashers': { one: 'zmywarka', many: 'Zmywarki', slug: 'zmywarki' }, 'tumble-dryers': { one: 'suszarka', many: 'Suszarki do ubrań', slug: 'suszarki' }, 'fridges': { one: 'lodówka', many: 'Lodówki', slug: 'lodowki' }, 'coffee-machines': { one: 'ekspres do kawy', many: 'Ekspresy do kawy', slug: 'ekspresy-do-kawy' }, 'air-conditioners': { one: 'klimatyzator', many: 'Klimatyzatory', slug: 'klimatyzatory' }, 'boilers': { one: 'kocioł gazowy', many: 'Kotły gazowe', slug: 'kotly-gazowe' } },
+  'pt-br': { 'washing-machines': { one: 'lavadora', many: 'Lavadoras', slug: 'lavadoras' }, 'dishwashers': { one: 'lava-louças', many: 'Lava-louças', slug: 'lava-loucas' }, 'tumble-dryers': { one: 'secadora', many: 'Secadoras', slug: 'secadoras' }, 'fridges': { one: 'geladeira', many: 'Geladeiras', slug: 'geladeiras' }, 'coffee-machines': { one: 'cafeteira', many: 'Cafeteiras', slug: 'cafeteiras' }, 'air-conditioners': { one: 'ar-condicionado', many: 'Ar-condicionado', slug: 'ar-condicionado' }, 'boilers': { one: 'caldeira a gás', many: 'Caldeiras a gás', slug: 'caldeiras' } },
+  tr: { 'washing-machines': { one: 'çamaşır makinesi', many: 'Çamaşır makineleri', slug: 'camasir-makineleri' }, 'dishwashers': { one: 'bulaşık makinesi', many: 'Bulaşık makineleri', slug: 'bulasik-makineleri' }, 'tumble-dryers': { one: 'kurutma makinesi', many: 'Kurutma makineleri', slug: 'kurutma-makineleri' }, 'fridges': { one: 'buzdolabı', many: 'Buzdolapları', slug: 'buzdolaplari' }, 'coffee-machines': { one: 'kahve makinesi', many: 'Kahve makineleri', slug: 'kahve-makineleri' }, 'air-conditioners': { one: 'klima', many: 'Klimalar', slug: 'klimalar' }, 'boilers': { one: 'kombi', many: 'Kombiler', slug: 'kombiler' } },
+  cs: { 'washing-machines': { one: 'pračka', many: 'Pračky', slug: 'pracky' }, 'dishwashers': { one: 'myčka', many: 'Myčky', slug: 'mycky' }, 'tumble-dryers': { one: 'sušička', many: 'Sušičky', slug: 'susicky' }, 'fridges': { one: 'lednice', many: 'Lednice', slug: 'lednice' }, 'coffee-machines': { one: 'kávovar', many: 'Kávovary', slug: 'kavovary' }, 'air-conditioners': { one: 'klimatizace', many: 'Klimatizace', slug: 'klimatizace' }, 'boilers': { one: 'plynový kotel', many: 'Plynové kotle', slug: 'plynove-kotle' } },
+  uk: { 'washing-machines': { one: 'пральна машина', many: 'Пральні машини', slug: 'pralni-mashyny' }, 'dishwashers': { one: 'посудомийна машина', many: 'Посудомийні машини', slug: 'posudomyini-mashyny' }, 'tumble-dryers': { one: 'сушильна машина', many: 'Сушильні машини', slug: 'sushylni-mashyny' }, 'fridges': { one: 'холодильник', many: 'Холодильники', slug: 'kholodylnyky' }, 'coffee-machines': { one: 'кавомашина', many: 'Кавомашини', slug: 'kavomashyny' }, 'air-conditioners': { one: 'кондиціонер', many: 'Кондиціонери', slug: 'kondytsionery' }, 'boilers': { one: 'газовий котел', many: 'Газові котли', slug: 'hazovi-kotly' } },
 }
 export const applianceName = (lang: Locale, a: Appliance) => (APPLIANCE_NAMES[lang] ?? APPLIANCE_NAMES.en!)[a]

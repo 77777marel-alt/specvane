@@ -1,0 +1,1167 @@
+{
+ "Bosch|E16": {
+  "title": "Dvířka nejsou zavřená",
+  "causes": [
+   "Dvířka nejsou úplně zavřená.",
+   "Prádlo je zachycené mezi dvířky a těsněním."
+  ],
+  "steps": [
+   "Otevřete dvířka a zkontrolujte, zda v pryžovém těsnění neuvízlo prádlo.",
+   "Dvířka pevně zavřete, až cvaknou.",
+   "Spusťte program znovu."
+  ],
+  "technician": "Pokud kód nezmizí ani při pevně zavřených dvířkách, může být vadný zámek dvířek. Objednejte servis Bosch."
+ },
+ "Bosch|E17": {
+  "title": "Napouštění vody trvá příliš dlouho",
+  "causes": [
+   "Vodovodní kohoutek je zavřený nebo jen částečně otevřený.",
+   "Přívodní hadice je zalomená.",
+   "V domácnosti je nízký tlak vody."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je kohoutek pro pračku úplně otevřený.",
+   "Ujistěte se, že přívodní hadice není ohnutá ani zmáčknutá.",
+   "Spusťte program znovu."
+  ],
+  "technician": "Pokud je kohoutek otevřený a kód se vrací, zavolejte servis Bosch. Může být nutné zkontrolovat napouštěcí ventil nebo hadici AquaStop."
+ },
+ "Bosch|E18": {
+  "title": "Voda neodtéká",
+  "causes": [
+   "Vypouštěcí čerpadlo nebo filtr čerpadla je ucpaný.",
+   "Odtoková hadice je zalomená nebo ucpaná.",
+   "V čerpadle uvízly drobné předměty (mince, knoflíky)."
+  ],
+  "steps": [
+   "Vypněte pračku, odpojte ji ze zásuvky a zavřete vodovodní kohoutek.",
+   "Než začnete, nechte horkou vodu vychladnout.",
+   "Pod kryt čerpadla dejte plochou nádobu a ručníky, vypusťte vodu nouzovou hadičkou a vyčistěte filtr čerpadla.",
+   "Zkontrolujte, zda odtoková hadice není zalomená nebo ucpaná, a narovnejte ji.",
+   "Filtr pevně nasaďte zpět, zapojte pračku a spusťte vypouštění nebo odstřeďování."
+  ],
+  "technician": "Pokud voda neodtéká ani po vyčištění filtru a hadice, je pravděpodobně vadné vypouštěcí čerpadlo. Zavolejte technika."
+ },
+ "Bosch|E19": {
+  "title": "Ohřev vody trvá příliš dlouho",
+  "causes": [
+   "Pračka nedosáhla nastavené teploty praní v povoleném čase.",
+   "Obvykle jde o závadu topného systému."
+  ],
+  "steps": [
+   "Pračku vypněte a znovu zapněte a spusťte program znovu."
+  ],
+  "technician": "Podle výrobce Bosch tuto závadu uživatel sám neodstraní. Pokud se vrací, objednejte servis."
+ },
+ "Bosch|E20": {
+  "title": "Ohřev se zapnul, když neměl",
+  "causes": [
+   "Pračka zjistila ohřev v neočekávanou chvíli.",
+   "Závada elektroniky nebo řízení ohřevu."
+  ],
+  "steps": [
+   "Pračku na chvíli vypněte a odpojte ze zásuvky.",
+   "Znovu ji zapojte a spusťte program."
+  ],
+  "technician": "Pokud se kód vrátí, pračku nepoužívejte a zavolejte servis Bosch."
+ },
+ "Bosch|E23": {
+  "title": "Zasáhla ochrana proti úniku vody AquaStop",
+  "causes": [
+   "Ve spodní části pračky se nahromadila voda.",
+   "Netěsnost uvnitř pračky nebo hadice AquaStop."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky.",
+   "Zavřete vodovodní kohoutek.",
+   "Vytřete vodu z podlahy."
+  ],
+  "technician": "Podle výrobce Bosch to uživatel sám neodstraní. Nechte kohoutek zavřený a objednejte servis."
+ },
+ "Bosch|E25": {
+  "title": "Závada snímače zakalení (čistoty vody)",
+  "causes": [
+   "Snímač, který měří znečištění vody, má problém."
+  ],
+  "steps": [
+   "Pračku vypněte a znovu zapněte a spusťte program znovu."
+  ],
+  "technician": "Pokud se kód vrátí, zavolejte servis Bosch kvůli kontrole snímače."
+ },
+ "Bosch|E26": {
+  "title": "Závada snímače hladiny (tlaku) vody",
+  "causes": [
+   "Analogový snímač tlaku, který měří hladinu vody v bubnu, je vadný."
+  ],
+  "steps": [
+   "Pračku vypněte a znovu zapněte a spusťte program znovu."
+  ],
+  "technician": "Podle výrobce Bosch tato závada vyžaduje návštěvu servisu."
+ },
+ "Bosch|F27": {
+  "title": "Závada snímače tlaku",
+  "causes": [
+   "Snímač tlaku nefunguje správně."
+  ],
+  "steps": [
+   "Pračku vypněte a znovu zapněte a spusťte program znovu."
+  ],
+  "technician": "Pokud se kód vrátí, zavolejte servis Bosch."
+ },
+ "Bosch|E28": {
+  "title": "Závada průtokoměru vody",
+  "causes": [
+   "Snímač, který měří přitékající vodu, hlásí problém."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je vodovodní kohoutek úplně otevřený.",
+   "Pračku vypněte a znovu zapněte a spusťte program znovu."
+  ],
+  "technician": "Pokud se kód vrátí, zavolejte servis Bosch."
+ },
+ "Samsung|4C": {
+  "title": "Nepřitéká voda",
+  "causes": [
+   "Vodovodní kohoutek je zavřený.",
+   "Přívodní hadice je ucpaná, zalomená nebo zamrzlá.",
+   "Tlak vody je příliš nízký.",
+   "Hadice pro teplou a studenou vodu jsou připojené k nesprávným kohoutkům.",
+   "Sítkový filtr na vstupu hadice je znečištěný."
+  ],
+  "steps": [
+   "Otevřete vodovodní kohoutek naplno.",
+   "Zkontrolujte, zda přívodní hadice není zalomená, ucpaná nebo zamrzlá.",
+   "Zkontrolujte, zda jsou hadice pro teplou a studenou vodu na správných kohoutcích.",
+   "Zavřete kohoutek, odšroubujte hadici, vyčistěte malý sítkový filtr a nasaďte ho zpět.",
+   "Počkejte 3 minuty (po tomto kódu jsou tlačítka zablokovaná) a spusťte program znovu."
+  ],
+  "technician": "Pokud voda nepřitéká ani při otevřeném kohoutku a čistém filtru, kontaktujte servis Samsung."
+ },
+ "Samsung|4C2": {
+  "title": "Přiváděná voda je příliš horká",
+  "causes": [
+   "Přívodní hadice studené vody je připojená ke kohoutku teplé vody nebo není pevně připojená ke studené vodě."
+  ],
+  "steps": [
+   "Ujistěte se, že hadice studené vody je pevně připojená ke kohoutku studené vody.",
+   "Pračku vypněte a znovu zapněte a spusťte program znovu."
+  ],
+  "technician": "Pokud kód trvá i při správném zapojení, kontaktujte servis Samsung."
+ },
+ "Samsung|5C": {
+  "title": "Voda neodtéká",
+  "causes": [
+   "Odtoková hadice je ucpaná, zalomená nebo zamrzlá.",
+   "Odtoková hadice je nesprávně umístěná.",
+   "Filtr nečistot je ucpaný."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky.",
+   "Zkontrolujte, zda je odtoková hadice rovná a není ucpaná ani zamrzlá.",
+   "Položte ručníky a mělkou nádobu, vypusťte vodu a vyčistěte filtr nečistot vpředu.",
+   "Filtr pevně nasaďte zpět, zapojte pračku a zkuste vypouštění nebo odstřeďování."
+  ],
+  "technician": "Pokud voda stále neodtéká, může být vadné vypouštěcí čerpadlo. Kontaktujte servis Samsung."
+ },
+ "Samsung|dC": {
+  "title": "Dvířka jsou otevřená nebo špatně zavřená",
+  "causes": [
+   "Pračka byla spuštěna s otevřenými dvířky.",
+   "Ve dvířkách je zachycené prádlo."
+  ],
+  "steps": [
+   "Otevřete dvířka a vyjměte prádlo zachycené v těsnění.",
+   "Dvířka pevně zavřete a spusťte program znovu."
+  ],
+  "technician": "Pokud kód nezmizí ani při zavřených dvířkách, může být vadný zámek dvířek. Kontaktujte servis Samsung."
+ },
+ "Samsung|dC1": {
+  "title": "Zámek dvířek nezamyká nebo neodemyká",
+  "causes": [
+   "Hlavní zámek dvířek nefunguje podle očekávání."
+  ],
+  "steps": [
+   "Pračku vypněte, chvíli počkejte a znovu ji zapněte.",
+   "Spusťte cyklus znovu."
+  ],
+  "technician": "Pokud se to opakuje, zámek dvířek potřebuje kontrolu v servisu."
+ },
+ "Samsung|OC": {
+  "title": "Příliš mnoho vody (přeplnění)",
+  "causes": [
+   "Pračka zjistila příliš vysokou hladinu vody."
+  ],
+  "steps": [
+   "Nechte pračku dokončit vypouštění a odstřeďování.",
+   "Po skončení odstřeďování spusťte cyklus znovu.",
+   "Dávkujte správné množství pracího prostředku, aby nevznikalo příliš pěny."
+  ],
+  "technician": "Pokud se kód vrací při každém praní, kontaktujte servis Samsung. Může být vadný napouštěcí ventil nebo snímač hladiny."
+ },
+ "Samsung|Ub": {
+  "title": "Nevyvážená náplň, nelze odstřeďovat",
+  "causes": [
+   "Prádlo je nahromaděné na jedné straně bubnu.",
+   "V bubnu je jen jeden těžký kus.",
+   "Pračka nestojí rovně nebo stabilně."
+  ],
+  "steps": [
+   "Pozastavte pračku a rozložte prádlo rovnoměrně.",
+   "Pokud perete jen jeden těžký kus, přidejte několik dalších kusů.",
+   "Ujistěte se, že pračka stojí rovně na pevné podlaze.",
+   "Spusťte odstřeďování znovu."
+  ],
+  "technician": "Pokud se to děje i při běžné, rovnoměrné náplni, pračka může potřebovat kontrolu opotřebených dílů."
+ },
+ "Samsung|LC": {
+  "title": "Problém s odtokovou hadicí / zjištěn únik vody",
+  "causes": [
+   "Konec odtokové hadice leží na podlaze.",
+   "Odtoková hadice je ucpaná."
+  ],
+  "steps": [
+   "Vypněte pračku.",
+   "Ujistěte se, že konec odtokové hadice je vyvýšený a neleží na podlaze.",
+   "Zkontrolujte, zda hadice není ucpaná.",
+   "Vytřete vodu a spusťte program znovu."
+  ],
+  "technician": "Pokud voda dál uniká nebo se kód vrací, kontaktujte servis Samsung."
+ },
+ "Samsung|3C": {
+  "title": "Problém s motorem bubnu",
+  "causes": [
+   "Motor neběží podle očekávání."
+  ],
+  "steps": [
+   "Vypněte pračku, minutu počkejte a znovu ji zapněte.",
+   "Zkontrolujte, zda náplň není příliš velká, a spusťte cyklus znovu."
+  ],
+  "technician": "Pokud se kód vrátí, motor nebo jeho řízení potřebuje kontrolu v servisu."
+ },
+ "Samsung|AC": {
+  "title": "Chyba komunikace mezi řídicími deskami",
+  "causes": [
+   "Hlavní a vedlejší řídicí deska spolu nekomunikují."
+  ],
+  "steps": [
+   "Pračku vypněte a znovu zapněte.",
+   "Spusťte cyklus znovu."
+  ],
+  "technician": "Pokud se kód stále vrací, kontaktujte servis Samsung."
+ },
+ "Samsung|HC": {
+  "title": "Závada topného systému (přehřátí)",
+  "causes": [
+   "Pračka zjistila problém s ohřevem na vysokou teplotu."
+  ],
+  "steps": [
+   "Pračku vypněte a znovu zapněte.",
+   "Spusťte cyklus znovu."
+  ],
+  "technician": "Pokud se kód vrátí, nepoužívejte programy s vysokou teplotou a kontaktujte servis Samsung."
+ },
+ "Samsung|1C": {
+  "title": "Závada snímače hladiny vody",
+  "causes": [
+   "Snímač, který měří hladinu vody, nefunguje správně."
+  ],
+  "steps": [
+   "Pračku vypněte a znovu zapněte.",
+   "Spusťte cyklus znovu."
+  ],
+  "technician": "Pokud se kód vrátí, kontaktujte servis Samsung."
+ },
+ "Samsung|UC": {
+  "title": "Problém s napájením (příliš nízké nebo kolísavé napětí)",
+  "causes": [
+   "Nízké nebo kolísavé napětí v síti.",
+   "Krátký výpadek proudu.",
+   "Uvolněná zástrčka nebo prodlužovací kabel."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je zástrčka pevně zasunutá v zásuvce.",
+   "Nepoužívejte prodlužovací kabely ani adaptéry.",
+   "Počkejte, až se napájení ustálí, a spusťte program znovu."
+  ],
+  "technician": "Pokud se to děje často, nechte přívod zkontrolovat elektrikářem. Je-li přívod v pořádku, kontaktujte servis Samsung."
+ },
+ "Samsung|8C": {
+  "title": "Závada snímače vibrací",
+  "causes": [
+   "Snímač, který zjišťuje nevyváženost, nefunguje správně."
+  ],
+  "steps": [
+   "Pračku vypněte a znovu zapněte.",
+   "Spusťte cyklus znovu."
+  ],
+  "technician": "Pokud se kód vrátí, kontaktujte servis Samsung."
+ },
+ "Samsung|ddC": {
+  "title": "Dvířka Add Door otevřena bez opětovného spuštění",
+  "causes": [
+   "Malá dvířka Add Door (AddWash) byla otevřena a pračka čeká."
+  ],
+  "steps": [
+   "Dvířka Add Door správně zavřete.",
+   "Pro pokračování stiskněte a podržte Start/Pause."
+  ],
+  "technician": "Obvykle není potřeba. Pokud dvířka Add Door nezůstanou zavřená, kontaktujte servis Samsung."
+ },
+ "LG|OE": {
+  "title": "Voda neodtéká",
+  "causes": [
+   "Odtoková hadice je zalomená nebo ucpaná.",
+   "Filtr vypouštěcího čerpadla je ucpaný.",
+   "Příliš mnoho pěny kvůli předávkování pracím prostředkem."
+  ],
+  "steps": [
+   "Zkontrolujte odtokovou hadici za pračkou a narovnejte zalomená místa.",
+   "Spusťte samotné odstřeďování a poslouchejte, zda čerpadlo bzučí.",
+   "Odpojte pračku ze zásuvky. Pod kryt čerpadla dejte nádobu, vypusťte vodu malou vypouštěcí hadičkou a vyčistěte filtr čerpadla.",
+   "Uzávěr vypouštěcí hadičky pevně zavřete a filtr nasaďte zpět.",
+   "Příště použijte méně pracího prostředku a spusťte Tub Clean."
+  ],
+  "technician": "Pokud se kód vrátí po vyčištění filtru a hadice, objednejte servis LG. Může být vadné čerpadlo."
+ },
+ "LG|IE": {
+  "title": "Voda se nenapouští včas",
+  "causes": [
+   "Kohoutek je zavřený nebo je vypnutá voda.",
+   "Přívodní hadice je zalomená nebo odpojená.",
+   "Přívodní filtr je ucpaný.",
+   "Zamrzlé potrubí nebo hadice v mrazivém počasí."
+  ],
+  "steps": [
+   "Ujistěte se, že je kohoutek úplně otevřený a hadice připojená.",
+   "Narovnejte zalomenou nebo zmáčknutou hadici.",
+   "Zavřete kohoutek, sejměte hadici, vyčistěte přívodní filtr a hadici nasaďte zpět.",
+   "V mrazu rozmrazte kohoutek a hadici teplou (ne vroucí) vodou."
+  ],
+  "technician": "Pokud voda stále nepřitéká, může být vadný napouštěcí ventil. Objednejte servis."
+ },
+ "LG|UE": {
+  "title": "Nevyvážená náplň",
+  "causes": [
+   "Prádlo se nahromadilo na jedné straně.",
+   "Náplň je příliš velká nebo příliš malá.",
+   "Objemné nebo nepromokavé kusy.",
+   "Pračka nestojí rovně."
+  ],
+  "steps": [
+   "Pozastavte pračku a rozložte prádlo rovnoměrně.",
+   "Naplňte buben přibližně do dvou třetin.",
+   "Objemné kusy, jako jsou peřiny, perte ve vhodném programu se středními otáčkami.",
+   "Vyrovnejte pračku nastavením nožiček."
+  ],
+  "technician": "Pokud se to děje i při běžné, rovnoměrné náplni na rovné podlaze, objednejte servis."
+ },
+ "LG|LE": {
+  "title": "Motor je zablokovaný, buben se neotáčí",
+  "causes": [
+   "Pračka je přeplněná.",
+   "Buben blokuje mince nebo jiný drobný předmět."
+  ],
+  "steps": [
+   "Odpojte pračku ze zásuvky a počkejte 5 minut.",
+   "Vyjměte část prádla, abyste náplň zmenšili.",
+   "Při vypnutém napájení zkontrolujte buben a odstraňte mince nebo drobné předměty.",
+   "Zapojte pračku a zkuste to znovu."
+  ],
+  "technician": "Pokud se LE stále zobrazuje, odpojte pračku ze zásuvky a kontaktujte servis LG."
+ },
+ "LG|dE": {
+  "title": "Dvířka nejsou zavřená",
+  "causes": [
+   "Prádlo je zachycené mezi dvířky a těsněním.",
+   "Dvířka nejsou úplně zavřená."
+  ],
+  "steps": [
+   "Otevřete dvířka, uvolněte zachycené prádlo a dvířka pevně zavřete.",
+   "Reset: odpojte pračku ze zásuvky, podržte Start/Pause 5 sekund, znovu ji zapojte a zkuste to znovu."
+  ],
+  "technician": "Pokud kód trvá, objednejte servis LG."
+ },
+ "LG|dE2": {
+  "title": "Dvířka zavřená, ale nezamčená",
+  "causes": [
+   "Buben je přeplněný.",
+   "V těsnění dvířek je něco zachycené.",
+   "Západka dvířek je ohnutá nebo zlomená."
+  ],
+  "steps": [
+   "Odstraňte vše, co brání zavření dvířek, a v případě potřeby zmenšete náplň.",
+   "Dvířka znovu otevřete a zavřete.",
+   "Resetujte pračku krátkým odpojením ze zásuvky."
+  ],
+  "technician": "Pokud se zámek stále nezamkne, je nutná oprava západky nebo zámku dvířek. Objednejte servis."
+ },
+ "LG|CE": {
+  "title": "Nadproud motoru",
+  "causes": [
+   "V obvodu motoru teče příliš velký proud, například kvůli zkratu, uvolněnému spoji nebo přepětí."
+  ],
+  "steps": [
+   "Odpojte pračku ze zásuvky na 10 sekund.",
+   "Znovu ji zapojte a spusťte cyklus."
+  ],
+  "technician": "Pokud se CE vrátí, zavřete kohoutek, odpojte pračku ze zásuvky a zajistěte opravu."
+ },
+ "LG|FE": {
+  "title": "Příliš mnoho vody (přeplnění)",
+  "causes": [
+   "Přitéká voda navíc, například přes zásuvku na prací prostředek."
+  ],
+  "steps": [
+   "Zkontrolujte, zda voda neteče přes zásuvku na prací prostředek.",
+   "Odpojte pračku ze zásuvky na 60 sekund a spusťte ji znovu.",
+   "Spusťte krátký program a sledujte, zda voda odtéká."
+  ],
+  "technician": "Pokud FE trvá, je nutné zkontrolovat napouštěcí ventil nebo snímač. Objednejte servis."
+ },
+ "LG|PE": {
+  "title": "Závada snímače hladiny vody",
+  "causes": [
+   "Snímač hladiny vody nefunguje správně."
+  ],
+  "steps": [
+   "Odpojte pračku ze zásuvky na 10 sekund.",
+   "Znovu ji zapojte a spusťte cyklus znovu."
+  ],
+  "technician": "Pokud se PE vrátí, zajistěte opravu."
+ },
+ "LG|AE": {
+  "title": "Zjištěn únik vody uvnitř pračky",
+  "causes": [
+   "Uvnitř pračky uniká voda.",
+   "Poškozená nebo uvolněná přívodní hadice.",
+   "Vadný bezpečnostní spínač proti úniku vody."
+  ],
+  "steps": [
+   "Zkontrolujte, zda přívodní hadice není naříznutá nebo uvolněná.",
+   "Odpojte pračku ze zásuvky na 60 sekund a spusťte ji znovu."
+  ],
+  "technician": "Pokud AE trvá, zavřete kohoutek a objednejte servis."
+ },
+ "LG|tE": {
+  "title": "Chyba ohřevu / snímače teploty",
+  "causes": [
+   "Obvykle jde o vadný snímač teploty (termistor)."
+  ],
+  "steps": [
+   "Odpojte pračku ze zásuvky na 10 sekund a znovu ji zapojte.",
+   "Zvolte program bez odstřeďování, abyste vypustili vodu, a spusťte cyklus znovu."
+  ],
+  "technician": "Pokud se tE vrátí, zavřete kohoutky, odpojte pračku ze zásuvky a zajistěte servis."
+ },
+ "LG|Sud": {
+  "title": "Příliš mnoho pěny",
+  "causes": [
+   "Příliš mnoho pracího prostředku.",
+   "Použití prostředku, který není HE, nebo nevhodného typu prostředku."
+  ],
+  "steps": [
+   "Nechte pračku dokončit postup snižování pěny.",
+   "Příště použijte méně pracího prostředku, a to pouze vysoce účinný (HE).",
+   "Prášek nebo kapsle dávejte tam, kam uvádí návod, ne do přihrádky na tekutý prostředek."
+  ],
+  "technician": "Obvykle není potřeba. Pokud se zobrazuje i při velmi malém množství pracího prostředku, objednejte servis."
+ },
+ "LG|PF": {
+  "title": "Výpadek proudu během cyklu",
+  "causes": [
+   "Během chodu pračky došlo k výpadku proudu."
+  ],
+  "steps": [
+   "Odpojte pračku ze zásuvky nebo vypněte její jistič.",
+   "Když je pračka odpojená, podržte Start/Pause 5 sekund.",
+   "Obnovte napájení a spusťte cyklus."
+  ],
+  "technician": "Pokud se PF objevuje i bez výpadků proudu, zajistěte opravu."
+ },
+ "LG|FF": {
+  "title": "Zamrzlá voda v pračce",
+  "causes": [
+   "Teplota uvnitř klesla pod bod mrazu a voda v hadicích nebo v nádrži zamrzla."
+  ],
+  "steps": [
+   "Vyjměte prádlo.",
+   "Nalijte do bubnu teplou vodu (asi 50–60 °C, nikdy ne vroucí) a počkejte 1–2 hodiny.",
+   "Vypusťte vodu vypouštěcí hadičkou a znovu ji uzavřete.",
+   "Zamrzlé přívodní hadice rozmrazte v teplé vodě, nasaďte je zpět a spusťte máchání."
+  ],
+  "technician": "Pokud se FF zobrazuje, i když není zima, objednejte servis."
+ },
+ "Siemens|E16": {
+  "title": "Dvířka nejsou zamčená",
+  "causes": [
+   "Ve dvířkách je zachycené prádlo.",
+   "Dvířka nejsou správně zavřená."
+  ],
+  "steps": [
+   "Otevřete dvířka a znovu je pevně zavřete.",
+   "V případě potřeby vyjměte několik kusů a dvířka přitlačte.",
+   "Znovu stiskněte Start, případně pračku vypněte, zapněte a spusťte program znovu."
+  ],
+  "technician": "Pokud se dvířka nezamknou, zavolejte servis Siemens."
+ },
+ "Siemens|E17": {
+  "title": "Napouštění vody trvá příliš dlouho",
+  "causes": [
+   "Nízký tlak vody.",
+   "Ucpaný filtr v přívodní hadici.",
+   "Ucpaná hadice AquaStop."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je kohoutek úplně otevřený.",
+   "Zkontrolujte průtok: z naplno otevřeného kohoutku by mělo natéct asi 10 litrů za minutu.",
+   "Zavřete kohoutek a vyčistěte filtr v přívodní hadici.",
+   "Ujistěte se, že hadice není zalomená."
+  ],
+  "technician": "Pokud je tlak příliš nízký, zavolejte instalatéra. Je-li přívod v pořádku, zavolejte servis Siemens."
+ },
+ "Siemens|E18": {
+  "title": "Voda neodtéká",
+  "causes": [
+   "Filtr čerpadla je ucpaný.",
+   "Odtoková hadice je ucpaná nebo zalomená."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky. Nechte horkou vodu vychladnout.",
+   "Pod kryt filtru dejte ručníky a plochou nádobu a vypusťte vodu.",
+   "Vyčistěte filtr čerpadla a pevně ho nasaďte zpět.",
+   "Narovnejte odtokovou hadici a zkontrolujte, zda není ucpaná."
+  ],
+  "technician": "Pokud voda stále neodtéká, zavolejte servis Siemens."
+ },
+ "Siemens|E19": {
+  "title": "Ohřev vody trvá příliš dlouho",
+  "causes": [
+   "Závada topného systému."
+  ],
+  "steps": [
+   "Pračku vypněte a znovu zapněte a spusťte program znovu."
+  ],
+  "technician": "Podle výrobce Siemens to uživatel sám neodstraní. Objednejte servis."
+ },
+ "Siemens|E20": {
+  "title": "Neočekávaný ohřev",
+  "causes": [
+   "Byl zjištěn ohřev, když měl být vypnutý."
+  ],
+  "steps": [
+   "Pračku vypněte a znovu zapněte."
+  ],
+  "technician": "Pokud problém trvá, objednejte servis Siemens."
+ },
+ "Siemens|E23": {
+  "title": "Únik – voda ve spodní části",
+  "causes": [
+   "Pračka netěsní nebo se ve spodní vaně nahromadila voda."
+  ],
+  "steps": [
+   "Ihned zavřete vodovodní kohoutek.",
+   "Vypněte pračku a odpojte ji ze zásuvky.",
+   "Vytřete vodu z podlahy."
+  ],
+  "technician": "Zavolejte servis Siemens, aby únik našel a opravil."
+ },
+ "Siemens|E25": {
+  "title": "Závada snímače zakalení",
+  "causes": [
+   "Snímač čistoty vody je vadný."
+  ],
+  "steps": [
+   "Pračku vypněte a znovu zapněte."
+  ],
+  "technician": "Objednejte servis Siemens."
+ },
+ "Siemens|E26": {
+  "title": "Závada snímače hladiny vody",
+  "causes": [
+   "Analogový snímač tlaku je vadný."
+  ],
+  "steps": [
+   "Pračku vypněte a znovu zapněte."
+  ],
+  "technician": "Objednejte servis Siemens."
+ },
+ "Siemens|E29": {
+  "title": "Problém s přívodem vody",
+  "causes": [
+   "Nízký tlak vody nebo ucpaný přívodní filtr či hadice AquaStop."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je kohoutek úplně otevřený a průtok je asi 10 litrů za minutu.",
+   "Zavřete kohoutek a vyčistěte filtr v přívodní hadici.",
+   "Ujistěte se, že hadice není zalomená."
+  ],
+  "technician": "Pokud je přívod v pořádku a kód se vrací, zavolejte servis Siemens."
+ },
+ "Siemens|E32": {
+  "title": "Nevyvážená náplň – odstřeďování zastaveno",
+  "causes": [
+   "Prádlo je v bubnu rozložené nerovnoměrně. Nejde o závadu."
+  ],
+  "steps": [
+   "Rozložte velké a malé kusy v bubnu rovnoměrně.",
+   "Spusťte odstřeďování znovu."
+  ],
+  "technician": "Není potřeba, pokud se to neděje při každé běžné náplni."
+ },
+ "Siemens|E33": {
+  "title": "Příliš mnoho pěny",
+  "causes": [
+   "Příliš mnoho pracího prostředku, zejména při měkké vodě nebo málo znečištěném prádle."
+  ],
+  "steps": [
+   "Příště použijte méně pracího prostředku.",
+   "Spusťte máchání, aby se pěna odstranila."
+  ],
+  "technician": "Obvykle není potřeba."
+ },
+ "Siemens|E34": {
+  "title": "Dvířka nejsou zamčená",
+  "causes": [
+   "Dvířka nejsou úplně zavřená, často kvůli velmi plnému bubnu.",
+   "Mezi dvířky a tělem pračky uvízl kus prádla."
+  ],
+  "steps": [
+   "Zkontrolujte, zda ve dvířkách není zachycené prádlo.",
+   "Zavřete dvířka, až cvaknou.",
+   "Spusťte program znovu."
+  ],
+  "technician": "Pokud se dvířka stále nezamknou, zavolejte servis Siemens."
+ },
+ "AEG|E10": {
+  "title": "Problém s přívodem vody",
+  "causes": [
+   "Přívod vody je omezený nebo přerušený, například zavřeným kohoutkem nebo zalomenou hadicí."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je vodovodní kohoutek úplně otevřený.",
+   "Ujistěte se, že přívodní hadice není zalomená ani zmáčknutá.",
+   "Reset: vypněte pračku v zásuvce asi na minutu, pak ji zapněte a spusťte program znovu."
+  ],
+  "technician": "Pokud se kód vrátí okamžitě nebo se pračka stále nenapouští, objednejte opravu."
+ },
+ "AEG|E20": {
+  "title": "Problém s vypouštěním",
+  "causes": [
+   "Ucpaný filtr vypouštěcího čerpadla nebo odtoková hadice."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky. Nechte horkou vodu vychladnout.",
+   "Vypusťte vodu do nádoby a vyčistěte filtr vypouštěcího čerpadla.",
+   "Zkontrolujte, zda odtoková hadice není zalomená nebo ucpaná.",
+   "Zapojte spotřebič a spusťte vypouštění nebo odstřeďování."
+  ],
+  "technician": "Pokud voda stále neodtéká, objednejte opravu."
+ },
+ "AEG|E30": {
+  "title": "Problém se snímačem tlaku (hladiny) vody",
+  "causes": [
+   "Snímač, který měří hladinu vody, je vadný, nebo měření ovlivňuje příliš mnoho pěny."
+  ],
+  "steps": [
+   "Vypněte spotřebič v zásuvce asi na minutu a pak ho znovu zapněte.",
+   "Dávkujte správné množství pracího prostředku."
+  ],
+  "technician": "Pokud se kód vrátí, objednejte opravu."
+ },
+ "AEG|E40": {
+  "title": "Problém se zámkem dvířek",
+  "causes": [
+   "Dvířka nejsou správně zavřená, nebo je vadný zámek dvířek."
+  ],
+  "steps": [
+   "Otevřete dvířka, zkontrolujte, zda v těsnění nic neuvízlo, a pevně je zavřete.",
+   "Vypněte spotřebič v zásuvce asi na minutu a pak ho spusťte znovu."
+  ],
+  "technician": "Pokud se dvířka stále nezamknou, objednejte opravu."
+ },
+ "AEG|E50": {
+  "title": "Problém s motorem",
+  "causes": [
+   "Závada motoru nebo pohonu."
+  ],
+  "steps": [
+   "Vypněte spotřebič v zásuvce asi na minutu a pak ho spusťte znovu."
+  ],
+  "technician": "Pokud se buben stále neotáčí, objednejte opravu."
+ },
+ "AEG|E60": {
+  "title": "Problém s ohřevem",
+  "causes": [
+   "Závada topného tělesa nebo snímače teploty."
+  ],
+  "steps": [
+   "Vypněte spotřebič v zásuvce asi na minutu a pak ho spusťte znovu."
+  ],
+  "technician": "Pokud se kód vrátí, objednejte opravu."
+ },
+ "AEG|EF0": {
+  "title": "Upozornění: únik vody, příliš pěny nebo nevyvážená náplň",
+  "causes": [
+   "Uvnitř pračky uniká voda.",
+   "Příliš mnoho pěny z pracího prostředku.",
+   "Nevyvážená náplň."
+  ],
+  "steps": [
+   "Vypněte pračku, odpojte ji ze zásuvky a zkontrolujte, zda na podlaze není voda.",
+   "Pokud nikde neuniká voda, použijte méně pracího prostředku a rozložte náplň rovnoměrně.",
+   "Až pěna opadne, spusťte program znovu."
+  ],
+  "technician": "Pokud vidíte únik vody nebo se kód stále vrací, zavřete kohoutek a objednejte opravu."
+ },
+ "AEG|EH0": {
+  "title": "Problém s napájením",
+  "causes": [
+   "Napětí v síti je nepravidelné nebo kolísavé."
+  ],
+  "steps": [
+   "Zapojte pračku přímo do zásuvky ve zdi, bez prodlužovacích kabelů.",
+   "Vypněte pračku asi na minutu a pak ji znovu zapněte."
+  ],
+  "technician": "Pokud se to opakuje, nechte přívod zkontrolovat elektrikářem."
+ },
+ "Hotpoint|F01": {
+  "title": "Závada elektronické řídicí desky",
+  "causes": [
+   "Závada řídicí desky. Některé nebo všechny funkce nefungují."
+  ],
+  "steps": [
+   "Odpojte pračku ze zásuvky alespoň na 2 minuty.",
+   "Zapojte ji, počkejte 30 sekund a zkuste to znovu."
+  ],
+  "technician": "Pokud závada trvá, objednejte technika Hotpoint."
+ },
+ "Hotpoint|F02": {
+  "title": "Závada obvodu motoru",
+  "causes": [
+   "Závada v obvodu motoru. Buben se střídavě zastavuje a rozbíhá, nebo se neotáčí vůbec."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Hotpoint."
+ },
+ "Hotpoint|F03": {
+  "title": "Závada snímače teploty",
+  "causes": [
+   "Obvod snímání teploty je vadný, proto pračka neohřívá vodu."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Hotpoint."
+ },
+ "Hotpoint|F05": {
+  "title": "Ucpaný odtok nebo problém s čerpadlem",
+  "causes": [
+   "Ucpaný filtr čerpadla, odtoková hadice nebo odpad pod dřezem.",
+   "Vadné vypouštěcí čerpadlo."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky. Nechte horkou vodu vychladnout.",
+   "Pokud má váš model filtr čerpadla, vypusťte vodu do nádoby a filtr vyčistěte.",
+   "Zkontrolujte, zda odtoková hadice a odpadní potrubí pod dřezem nejsou ucpané.",
+   "Zapojte pračku a zkuste vypouštění nebo odstřeďování."
+  ],
+  "technician": "Pokud voda stále neodtéká, čerpadlo je pravděpodobně vadné. Objednejte technika."
+ },
+ "Hotpoint|F06": {
+  "title": "Závada zámku dvířek",
+  "causes": [
+   "Zámek dvířek je zablokovaný nebo vadný."
+  ],
+  "steps": [
+   "Zkontrolujte, zda dvířkům a zámku nic nepřekáží.",
+   "Dvířka pevně zavřete a spusťte program znovu.",
+   "Podívejte se na stránku bezpečnostních upozornění Hotpoint – některé zámky dvířek jsou předmětem svolávací akce."
+  ],
+  "technician": "Pokud závada trvá, objednejte technika."
+ },
+ "Hotpoint|F07": {
+  "title": "Závada obvodu ohřevu / řídicí desky",
+  "causes": [
+   "Závada v obvodu ohřevu nebo na řídicí desce. Praní se přeruší a čerpadlo může dál běžet."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Hotpoint."
+ },
+ "Hotpoint|F08": {
+  "title": "Závada topného tělesa",
+  "causes": [
+   "Topné těleso je vadné, proto se program uprostřed praní přeruší."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Hotpoint."
+ },
+ "Hotpoint|F09": {
+  "title": "Chyba softwaru",
+  "causes": [
+   "Problém se softwarem. Kontrolky blikají a nelze zvolit žádný program."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Hotpoint."
+ },
+ "Hotpoint|F11": {
+  "title": "Závada obvodu vypouštěcího čerpadla",
+  "causes": [
+   "Závada v obvodu čerpadla. Voda zůstává v bubnu."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky.",
+   "Neotevírejte dvířka, dokud je v bubnu voda."
+  ],
+  "technician": "Objednejte technika Hotpoint."
+ },
+ "Hotpoint|F12": {
+  "title": "Závada elektronického ovládání",
+  "causes": [
+   "Závada ovládání. Pračka se nezapne."
+  ],
+  "steps": [
+   "Zkontrolujte, zda zástrčka a zásuvka fungují s jiným spotřebičem."
+  ],
+  "technician": "Objednejte technika Hotpoint."
+ },
+ "Hotpoint|F15": {
+  "title": "Závada řízení topného tělesa",
+  "causes": [
+   "Závada řízení topného tělesa. Voda se neohřívá nebo se praní přeruší."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Hotpoint."
+ },
+ "Hotpoint|F18": {
+  "title": "Interní chyba dat",
+  "causes": [
+   "Interní problém s daty. Některé nebo všechny funkce displeje nefungují."
+  ],
+  "steps": [
+   "Odpojte pračku ze zásuvky alespoň na 2 minuty.",
+   "Zapojte ji, počkejte 30 sekund a zkuste to znovu."
+  ],
+  "technician": "Pokud závada trvá, objednejte technika Hotpoint."
+ },
+ "Indesit|F01": {
+  "title": "Závada elektronické řídicí desky",
+  "causes": [
+   "Závada řídicí desky. Některé nebo všechny funkce nelze zvolit."
+  ],
+  "steps": [
+   "Odpojte pračku ze zásuvky alespoň na 2 minuty.",
+   "Zapojte ji, počkejte 30 sekund a zkuste to znovu."
+  ],
+  "technician": "Pokud závada trvá, objednejte technika Indesit."
+ },
+ "Indesit|F02": {
+  "title": "Závada obvodu motoru",
+  "causes": [
+   "Závada v obvodu motoru. Buben se střídavě zastavuje a rozbíhá, nebo se neotáčí vůbec."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Indesit."
+ },
+ "Indesit|F03": {
+  "title": "Závada snímače teploty",
+  "causes": [
+   "Obvod snímání teploty je vadný, proto pračka neohřívá vodu."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Indesit."
+ },
+ "Indesit|F05": {
+  "title": "Ucpaný odtok nebo problém s čerpadlem",
+  "causes": [
+   "Ucpaný filtr čerpadla, odtoková hadice nebo odpad pod dřezem.",
+   "Vadné vypouštěcí čerpadlo."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky. Nechte horkou vodu vychladnout.",
+   "Pokud má váš model filtr čerpadla, vypusťte vodu do nádoby a vyčistěte ho.",
+   "Zkontrolujte, zda odtoková hadice a potrubí pod dřezem nejsou ucpané.",
+   "Zapojte pračku a zkuste vypouštění nebo odstřeďování."
+  ],
+  "technician": "Pokud voda stále neodtéká, čerpadlo je pravděpodobně vadné. Objednejte technika."
+ },
+ "Indesit|F06": {
+  "title": "Závada zámku dvířek",
+  "causes": [
+   "Zámek dvířek je zablokovaný nebo vadný."
+  ],
+  "steps": [
+   "Zkontrolujte, zda dvířkům a zámku nic nepřekáží.",
+   "Dvířka pevně zavřete a spusťte program znovu.",
+   "Podívejte se na bezpečnostní upozornění výrobce – některé zámky dvířek jsou předmětem svolávací akce."
+  ],
+  "technician": "Pokud závada trvá, objednejte technika."
+ },
+ "Indesit|F07": {
+  "title": "Závada obvodu ohřevu / řídicí desky",
+  "causes": [
+   "Závada obvodu ohřevu nebo řídicí desky. Praní se přeruší a čerpadlo může dál běžet."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Indesit."
+ },
+ "Indesit|F08": {
+  "title": "Závada topného tělesa",
+  "causes": [
+   "Topné těleso je vadné, proto se program uprostřed praní přeruší."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Indesit."
+ },
+ "Indesit|F09": {
+  "title": "Chyba softwaru",
+  "causes": [
+   "Problém se softwarem. Kontrolky blikají a nelze zvolit žádný program."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Indesit."
+ },
+ "Indesit|F11": {
+  "title": "Závada obvodu vypouštěcího čerpadla",
+  "causes": [
+   "Závada v obvodu čerpadla. Voda zůstává v bubnu."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky.",
+   "Neotevírejte dvířka, dokud je v bubnu voda."
+  ],
+  "technician": "Objednejte technika Indesit."
+ },
+ "Indesit|F12": {
+  "title": "Závada elektronického ovládání",
+  "causes": [
+   "Závada ovládání. Pračka se nezapne."
+  ],
+  "steps": [
+   "Zkontrolujte, zda zástrčka a zásuvka fungují s jiným spotřebičem."
+  ],
+  "technician": "Objednejte technika Indesit."
+ },
+ "Indesit|F15": {
+  "title": "Závada řízení topného tělesa",
+  "causes": [
+   "Závada řízení topného tělesa. Voda se neohřívá nebo se praní přeruší."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Indesit."
+ },
+ "Indesit|F18": {
+  "title": "Interní chyba dat",
+  "causes": [
+   "Interní problém s daty. Některé nebo všechny funkce displeje nefungují."
+  ],
+  "steps": [
+   "Odpojte pračku ze zásuvky alespoň na 2 minuty.",
+   "Zapojte ji, počkejte 30 sekund a zkuste to znovu."
+  ],
+  "technician": "Pokud závada trvá, objednejte technika Indesit."
+ },
+ "Beko|E5": {
+  "title": "Filtr čerpadla může být ucpaný (problém s vypouštěním)",
+  "causes": [
+   "Filtr čerpadla je ucpaný, takže voda nemůže odtékat."
+  ],
+  "steps": [
+   "Vypněte pračku a odpojte ji ze zásuvky. Nechte horkou vodu vychladnout.",
+   "Vypusťte zbývající vodu do nádoby a vyčistěte filtr čerpadla.",
+   "Filtr pevně nasaďte zpět a spusťte odstřeďování."
+  ],
+  "technician": "Pokud problém trvá, zavolejte servis Beko."
+ },
+ "Beko|E8": {
+  "title": "Nepřitéká voda",
+  "causes": [
+   "Kohoutek je zavřený nebo je přerušená dodávka vody.",
+   "Přívodní hadice je přehnutá nebo uvolněná.",
+   "Přední kryt filtru není zavřený a zajištěný."
+  ],
+  "steps": [
+   "Otevřete kohoutek a zkontrolujte, zda teče voda z vodovodu.",
+   "Zkontrolujte připojení přívodní hadice a narovnejte přehnutá místa.",
+   "Ujistěte se, že přední kryt je zavřený a zajištěný.",
+   "Spusťte pračku znovu."
+  ],
+  "technician": "Pokud problém trvá, zavolejte servis Beko."
+ },
+ "Beko|E12": {
+  "title": "Uvnitř pračky může být voda (únik)",
+  "causes": [
+   "Uvnitř pračky se nahromadila voda, pravděpodobně kvůli úniku."
+  ],
+  "steps": [
+   "Odpojte spotřebič ze zásuvky.",
+   "Vytřete vodu pod pračkou.",
+   "Zapojte pračku a spusťte krátký cyklus, který budete sledovat."
+  ],
+  "technician": "Pokud z hadice uniká voda nebo se kód vrací, zavřete kohoutky a zavolejte servis Beko."
+ },
+ "Beko|E17": {
+  "title": "Příliš mnoho pěny",
+  "causes": [
+   "Na danou náplň je příliš mnoho pracího prostředku.",
+   "Prací prostředek byl dán do nesprávné přihrádky nebo byl špatně skladován."
+  ],
+  "steps": [
+   "Dávkování pracího prostředku přizpůsobte velikosti náplně a míře znečištění.",
+   "U velmi savých tkanin použijte méně pracího prostředku.",
+   "S prázdným bubnem spusťte program čištění bubnu (nebo Bavlna 90 °C)."
+  ],
+  "technician": "Pokud problém trvá, zavolejte servis Beko."
+ },
+ "Beko|E18": {
+  "title": "Nevyvážená náplň – odstřeďování nezačalo",
+  "causes": [
+   "Příliš málo prádla, nebo je prádlo nahromaděné na jedné straně."
+  ],
+  "steps": [
+   "Pokud je náplň velmi malá, přidejte další kusy.",
+   "Rozložte prádlo rukou rovnoměrně.",
+   "Spusťte odstřeďování znovu."
+  ],
+  "technician": "Obvykle není potřeba."
+ },
+ "Beko|E27": {
+  "title": "Problém s vypouštěním",
+  "causes": [
+   "Odtoková hadice není správně připojená."
+  ],
+  "steps": [
+   "Zkontrolujte připojení odtokové hadice k odpadu.",
+   "Ujistěte se, že hadice není zalomená ani ucpaná."
+  ],
+  "technician": "Pokud problém trvá, zavolejte servis Beko."
+ },
+ "Beko|E29": {
+  "title": "Režim vlastní ochrany (problém s přívodem)",
+  "causes": [
+   "Problém s napětím v síti nebo s tlakem vody."
+  ],
+  "steps": [
+   "Zrušte program otočením voliče programů na jiný program.",
+   "Spusťte program znovu."
+  ],
+  "technician": "Pokud problém trvá, zavolejte servis Beko."
+ },
+ "Miele|F10": {
+  "title": "Přívod vody je ucpaný nebo omezený",
+  "causes": [
+   "Uzavírací ventil (kohoutek) je zavřený.",
+   "Přívodní filtr je znečištěný.",
+   "Přívodní hadice je zalomená.",
+   "Tlak vody je příliš nízký."
+  ],
+  "steps": [
+   "Zastavte program a otevřete kohoutek naplno.",
+   "Zavřete kohoutek, odšroubujte přívodní hadici, vyjměte malý filtr, vyčistěte ho a vraťte zpět.",
+   "Hadici nasaďte zpět, otevřete kohoutek a zkontrolujte, zda nekape.",
+   "Narovnejte zalomená místa na hadici.",
+   "Zkontrolujte průtok: za 15 sekund by mělo vytéct alespoň 5 litrů."
+  ],
+  "technician": "Pokud je tlak příliš nízký, zavolejte instalatéra. Je-li hadice poškozená, servis Miele ji může vyměnit."
+ },
+ "Miele|F11": {
+  "title": "Omezený odtok",
+  "causes": [
+   "Konec odtokové hadice je výš než 1 metr.",
+   "Odtoková hadice je zalomená.",
+   "Vypouštěcí filtr nebo čerpadlo blokují předměty, jako jsou knoflíky nebo mince."
+  ],
+  "steps": [
+   "Vypněte pračku. Nechte horkou vodu vychladnout, abyste se neopařili.",
+   "Snižte konec odtokové hadice na 1 metr nebo níž a odstraňte zalomení.",
+   "Otevřete kryt vypouštěcího čerpadla, podložte nádobu a pomalu vyšroubujte vypouštěcí filtr, aby voda vytekla.",
+   "Vyčistěte filtr, zkontrolujte, zda se oběžné kolo čerpadla volně otáčí, a filtr pevně zašroubujte zpět."
+  ],
+  "technician": "Pokud závada trvá, kontaktujte servis Miele."
+ },
+ "Miele|F15": {
+  "title": "Přívod teplé vody je ucpaný nebo omezený",
+  "causes": [
+   "Kohoutek teplé vody není úplně otevřený.",
+   "Přívodní filtr teplé vody je znečištěný.",
+   "Tlak teplé vody je příliš nízký."
+  ],
+  "steps": [
+   "Otevřete kohoutek teplé vody naplno a spusťte program znovu.",
+   "Zavřete kohoutek, odšroubujte hadici teplé vody, vyčistěte malý filtr a nasaďte ho zpět.",
+   "Zkontrolujte průtok: alespoň 5 litrů za 15 sekund."
+  ],
+  "technician": "Pokud je tlak příliš nízký a nelze ho zvýšit, kontaktujte instalatéra nebo servis Miele."
+ },
+ "Miele|F20": {
+  "title": "Závada ohřevu",
+  "causes": [
+   "Nastavená teplota nebyla dosažena včas (Thermostop).",
+   "Technická závada topného systému."
+  ],
+  "steps": [
+   "Vypněte spotřebič vypínačem a odpojte ho ze zásuvky, nebo vypněte jistič.",
+   "Počkejte alespoň 2 minuty.",
+   "Spotřebič znovu připojte, zapněte a spusťte program znovu."
+  ],
+  "technician": "Pokud se F20 vrátí, kontaktujte servis Miele."
+ },
+ "Miele|F34": {
+  "title": "Dvířka nelze zamknout",
+  "causes": [
+   "Buben je přeplněný.",
+   "Technická závada zámku."
+  ],
+  "steps": [
+   "Vyjměte část prádla, aby náplň nepřekračovala limit.",
+   "Pračku vypněte a znovu zapněte.",
+   "V případě potřeby ji odpojte ze zásuvky alespoň na 2 minuty, pak ji znovu připojte a zapněte."
+  ],
+  "technician": "Pokud se závada vrátí, kontaktujte servis Miele."
+ },
+ "Miele|F35": {
+  "title": "Dvířka nelze odemknout",
+  "causes": [
+   "Technická závada zámku dvířek."
+  ],
+  "steps": [
+   "Vypněte spotřebič vypínačem a odpojte ho ze zásuvky, nebo vypněte jistič.",
+   "Počkejte alespoň 2 minuty, pak pračku znovu připojte a zapněte."
+  ],
+  "technician": "Pokud se dvířka stále neotevřou, kontaktujte servis Miele. Dvířka neotevírejte násilím."
+ },
+ "Miele|Waterproof system activated": {
+  "title": "Zasáhla ochrana proti úniku vody",
+  "causes": [
+   "Uvnitř pračky byla kvůli úniku zjištěna voda."
+  ],
+  "steps": [
+   "Odpojte spotřebič ze zásuvky.",
+   "Zavřete vodovodní kohoutek.",
+   "Vytřete vodu z podlahy.",
+   "Pračku nepoužívejte, dokud nebude opravena."
+  ],
+  "technician": "Podle výrobce Miele musí únik opravit servis Miele. Nezkoušejte ho opravit sami."
+ }
+}

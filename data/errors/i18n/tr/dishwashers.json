@@ -1,0 +1,1034 @@
+{
+ "Bosch|E09": {
+  "title": "Isıtma arızası",
+  "causes": [
+   "Sirkülasyon (ısıtma) pompasının ısıtma kısmında bir arıza var."
+  ],
+  "steps": [
+   "Bulaşık makinesini sigortadan veya şalterden 30 saniye kapatın.",
+   "Yeniden açın ve bir program başlatın."
+  ],
+  "technician": "Kod tekrar çıkarsa Bosch servisini arayın."
+ },
+ "Bosch|E12": {
+  "title": "Isıtma pompasında kireç",
+  "causes": [
+   "Isıtma pompasında, çoğunlukla sert sulu bölgelerde kireç birikmiş."
+  ],
+  "steps": [
+   "Bulaşık makinesi kireç çözücüsüyle bir kireç çözme programı çalıştırın.",
+   "Modelinizde su yumuşatıcı varsa yumuşatma tuzunu eksik etmeyin.",
+   "Suyunuz sertse düzenli olarak kireç çözme yapın."
+  ],
+  "technician": "Kireç çözmeden sonra kod devam ederse Bosch servisini arayın."
+ },
+ "Bosch|E14": {
+  "title": "Su dolum sorunu (debimetre)",
+  "causes": [
+   "Debimetre arızalanmış veya bulaşık makinesi doğru şekilde su almıyor."
+  ],
+  "steps": [
+   "Lavabo altındaki su musluğunun tamamen açık olduğunu kontrol edin.",
+   "Şalterden 30 saniye kapatın ve yeniden deneyin."
+  ],
+  "technician": "Bosch bu kod için servise başvurmanızı öneriyor."
+ },
+ "Bosch|E15": {
+  "title": "Taban haznesinde su var (su kaçağı koruması devrede)",
+  "causes": [
+   "Bulaşık makinesinin tabanında su birikmiş.",
+   "Bir hortumdan, contadan veya iç parçadan sızıntı var.",
+   "Örneğin elde bulaşık deterjanı nedeniyle çok fazla köpük."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin.",
+   "Bulaşık makinesinin su musluğunu kapatın.",
+   "Yerdeki suyu silin."
+  ],
+  "technician": "Bosch suyu kapatıp servisi aramanızı öneriyor. Gizli bir sızıntının bulunup giderilmesi gerekir."
+ },
+ "Bosch|E16": {
+  "title": "Su girmiyor olabilir",
+  "causes": [
+   "Su giriş hortumu bükülmüş veya hasarlı."
+  ],
+  "steps": [
+   "Su giriş hortumunun bükülmediğini, ezilmediğini veya hasarlı olmadığını kontrol edin.",
+   "Su musluğunun açık olduğundan emin olun."
+  ],
+  "technician": "Kod devam ederse Bosch servisini arayın."
+ },
+ "Bosch|E17": {
+  "title": "Su girmiyor olabilir",
+  "causes": [
+   "Su giriş hortumu bükülmüş veya hasarlı."
+  ],
+  "steps": [
+   "Su giriş hortumunun bükülmediğini, ezilmediğini veya hasarlı olmadığını kontrol edin.",
+   "Su musluğunun açık olduğundan emin olun."
+  ],
+  "technician": "Kod devam ederse Bosch servisini arayın."
+ },
+ "Bosch|E18": {
+  "title": "Su seviyesi çok düşük",
+  "causes": [
+   "Su musluğu kapalı veya kısmen kapalı.",
+   "Su giriş hortumu bükülmüş.",
+   "Su akışı düşük."
+  ],
+  "steps": [
+   "Su beslemesinin tamamen açık olduğundan emin olun.",
+   "Su giriş hortumunda bükülme veya hasar olup olmadığını kontrol edin.",
+   "Akışı kontrol edin: Musluk dakikada yaklaşık 10 litre su vermelidir."
+  ],
+  "technician": "Su beslemesi sorunsuzsa ve kod tekrar çıkıyorsa Bosch servisini arayın."
+ },
+ "Bosch|E19": {
+  "title": "Deterjan dağıtıcısı devresi arızası",
+  "causes": [
+   "Deterjan dağıtıcısı devresinde elektriksel bir arıza var."
+  ],
+  "steps": [
+   "Şalterden 30 saniye kapatın, ardından yeniden açın."
+  ],
+  "technician": "Kod tekrar çıkarsa Bosch servisini arayın."
+ },
+ "Bosch|E22": {
+  "title": "Filtre tıkalı",
+  "causes": [
+   "Yemek artıkları filtreyi tıkıyor."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın.",
+   "Alt sepeti çıkarın ve filtreyi yukarı kaldırarak çıkarın.",
+   "Filtreyi akan su altında yumuşak bir fırça ve hafif sabunla durulayın.",
+   "Filtreyi yerine oturana kadar takın."
+  ],
+  "technician": "Genellikle gerekmez. Temizlikten sonra kod devam ederse Bosch servisini arayın."
+ },
+ "Bosch|E23": {
+  "title": "Tahliye pompası tıkalı veya arızalı",
+  "causes": [
+   "Tahliye pompası tıkanmış veya arızalanmış."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin.",
+   "Filtreyi temizleyin ve hazne bölümünde serbest kalmış artık olup olmadığını kontrol edin."
+  ],
+  "technician": "Bosch bu kod için servisi aramanızı öneriyor."
+ },
+ "Bosch|E24": {
+  "title": "Su boşalmıyor – tahliye hortumu veya filtre tıkalı",
+  "causes": [
+   "Tahliye hortumu bükülmüş veya tıkalı.",
+   "Filtre tıkalı.",
+   "Yeni bir çöp öğütücüsünde veya lavabo sifonunda körleme tıpası hâlâ takılı."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin.",
+   "Tahliye hortumunda bükülme olup olmadığını kontrol edin.",
+   "Filtreleri temizleyin ve filtrenin altındaki pompa kapağının takılı olduğundan emin olun.",
+   "Bulaşık makinesi bir çöp öğütücüsüne veya yeni bir lavabo sifonuna bağlıysa körleme tıpasının çıkarıldığını kontrol edin."
+  ],
+  "technician": "Hâlâ su boşalmıyorsa Bosch servisini arayın."
+ },
+ "Bosch|E25": {
+  "title": "Tahliye pompası tıkalı veya pompa kapağı gevşek",
+  "causes": [
+   "Kırık cam, çekirdek veya başka artıklar tahliye pompasını tıkıyor.",
+   "Pompa kapağı gevşek veya yerinde yok."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin.",
+   "Alt sepeti ve filtreleri çıkarın.",
+   "Biriken suyu bir bardak veya süngerle alın.",
+   "Beyaz pompa kapağını yerinden çıkarın (bir kaşık yardımcı olur) ve artıkları temizleyin. Keskin cam parçalarına dikkat edin.",
+   "Kapağı klik sesi gelene kadar yerine takın, ardından filtreleri yerine takın."
+  ],
+  "technician": "Temizlikten sonra kod tekrar çıkarsa Bosch servisini arayın."
+ },
+ "Bosch|E27": {
+  "title": "Şebeke voltajı çok düşük",
+  "causes": [
+   "Evin elektrik voltajı çok düşük. Bulaşık makinesinin kendisi arızalı değil."
+  ],
+  "steps": [
+   "Şalterden 30 saniye kapatın, ardından yeniden açın."
+  ],
+  "technician": "Tekrar olursa besleme voltajını bir elektrikçiye kontrol ettirin."
+ },
+ "Siemens|E08": {
+  "title": "Yıkamada su seviyesi çok düşük",
+  "causes": [
+   "Kâseler veya tencereler devrilmiş ve içlerinde su tutuyor.",
+   "Bulaşıklar su girişini engelliyor."
+  ],
+  "steps": [
+   "Yükü kontrol edin ve kâseleri ve tencereleri ağzı aşağı bakacak şekilde çevirin.",
+   "Püskürtme kollarını veya su girişini hiçbir şeyin engellemediğinden emin olun."
+  ],
+  "technician": "Tekrar ederse Siemens servisine başvurun."
+ },
+ "Siemens|E09": {
+  "title": "Isıtma sistemi arızası",
+  "causes": [
+   "Isıtma sisteminde bir arıza var."
+  ],
+  "steps": [
+   "Kapatın, birkaç dakika bekleyin ve yeniden açın."
+  ],
+  "technician": "Siemens servisine başvurun ve kodu bildirin."
+ },
+ "Siemens|E12": {
+  "title": "Isıtıcı kireç veya kirle kaplanmış",
+  "causes": [
+   "Isıtma elemanında kireç veya kir var."
+  ],
+  "steps": [
+   "Kullanım kılavuzunda anlatıldığı gibi bir kireç çözme programı çalıştırın.",
+   "Filtreleri temizleyin."
+  ],
+  "technician": "Kireç çözmeden sonra kod devam ederse Siemens servisine başvurun."
+ },
+ "Siemens|E14": {
+  "title": "Dolum arızası – su koruması devrede",
+  "causes": [
+   "Su beslemesinde veya dolum sisteminde bir sorun var."
+  ],
+  "steps": [
+   "Su musluğunun açık olduğunu kontrol edin.",
+   "Su giriş hortumunun bükülmediğini kontrol edin."
+  ],
+  "technician": "Tekrar ederse Siemens servisine başvurun."
+ },
+ "Siemens|E15": {
+  "title": "Tabanda su var (su koruması devrede)",
+  "causes": [
+   "Bulaşık makinesinin taban tepsisinde su birikmiş."
+  ],
+  "steps": [
+   "Su musluğunu kapatın.",
+   "Bulaşık makinesini kapatın.",
+   "Yerdeki suyu silin."
+  ],
+  "technician": "Siemens bunu kendiniz onarmamanızı öneriyor. Siemens servisini arayın."
+ },
+ "Siemens|E16": {
+  "title": "Dolum veya su girişi arızası",
+  "causes": [
+   "Dolum sisteminde veya su girişinde bir sorun var."
+  ],
+  "steps": [
+   "Musluğu kapatın.",
+   "Su giriş hortumunda bükülme olup olmadığını kontrol edin, ardından musluğu yeniden açın."
+  ],
+  "technician": "Sık sık oluyorsa cihazın bir teknisyene gösterilmesi gerekir. Siemens servisine başvurun."
+ },
+ "Siemens|E18": {
+  "title": "Su girişi arızası",
+  "causes": [
+   "Su giriş hortumu bükülmüş.",
+   "Musluk kapalı, sıkışmış veya kireç tutmuş.",
+   "Su giriş filtresi tıkanmış."
+  ],
+  "steps": [
+   "Musluğun tamamen açık olduğundan emin olun.",
+   "Su giriş hortumunda bükülme olup olmadığını kontrol edin.",
+   "Cihazı kapatın, musluğu kapatın, hortumu çıkarın ve filtreyi temizleyin, ardından yerine takıp sızıntı olup olmadığını kontrol edin."
+  ],
+  "technician": "Su akışı düşükse bir tesisatçı çağırın. Tekrar ederse Siemens servisine başvurun."
+ },
+ "Siemens|E22": {
+  "title": "Filtreler kirli veya tıkalı",
+  "causes": [
+   "Yemek artıkları filtre sistemini tıkıyor."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın.",
+   "Filtreleri çıkarın ve durulayarak temizleyin.",
+   "Filtreleri doğru şekilde yerine takın."
+  ],
+  "technician": "Genellikle gerekmez."
+ },
+ "Siemens|E23": {
+  "title": "Tahliye pompası arızası",
+  "causes": [
+   "Atık su pompasında bir arıza var."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin."
+  ],
+  "technician": "Siemens'e göre bunu yalnızca kendi servisi giderebilir. Servise başvurun ve kodu bildirin."
+ },
+ "Siemens|E24": {
+  "title": "Su boşalmıyor – muhtemelen pompa veya hortum tıkalı",
+  "causes": [
+   "Tahliye pompası veya tahliye yolu tıkalı."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin.",
+   "Filtreleri temizleyin ve pompa bölgesinde artık olup olmadığını kontrol edin.",
+   "Tahliye hortumunun bükülmediğini kontrol edin."
+  ],
+  "technician": "Sorun devam ederse musluğu kapatın ve Siemens servisini arayın."
+ },
+ "Siemens|E25": {
+  "title": "Tahliye pompası tıkalı",
+  "causes": [
+   "Cam veya çekirdek gibi artıklar tahliye pompasını tıkıyor."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin.",
+   "Filtreleri çıkarın ve biriken suyu alın.",
+   "Pompa kapağını çıkarın ve artıkları dikkatlice temizleyin; keskin cam parçalarına dikkat edin.",
+   "Kapağı ve filtreleri yerine takın."
+  ],
+  "technician": "Sorun devam ederse musluğu kapatın ve Siemens servisini arayın."
+ },
+ "Siemens|E27": {
+  "title": "Şebeke voltajı düşük",
+  "causes": [
+   "Elektrik voltajı çok düşük. Cihazın kendisi arızalı değil."
+  ],
+  "steps": [
+   "Kapatın ve bir süre sonra yeniden açın."
+  ],
+  "technician": "Elektrik tesisatınızı bir elektrikçiye kontrol ettirin. Tekrar ederse Siemens servisine başvurun."
+ },
+ "Samsung|4C": {
+  "title": "Çok az su geliyor veya hiç gelmiyor",
+  "causes": [
+   "Su vanası kapalı.",
+   "Su beslemesi kesik.",
+   "Su giriş hortumu veya valf donmuş ya da tıkalı."
+  ],
+  "steps": [
+   "Su vanasının tamamen açık olduğunu kontrol edin.",
+   "Diğer musluklardan su gelip gelmediğini kontrol edin.",
+   "Su giriş hortumunun bükülmediğini veya tıkalı olmadığını kontrol edin."
+  ],
+  "technician": "Su hâlâ girmiyorsa Samsung servisine başvurun."
+ },
+ "Samsung|5C": {
+  "title": "Su boşalmıyor",
+  "causes": [
+   "Gider veya lavabo bağlantısı tıkalı.",
+   "Filtre tıkanmış.",
+   "Tahliye hortumu bükülmüş."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin.",
+   "Tabandaki tel filtreyi temizleyin.",
+   "Tahliye hortumunu ve lavabo bağlantısını bükülme veya tıkanıklık açısından kontrol edin."
+  ],
+  "technician": "Hâlâ su boşalmıyorsa Samsung servisine başvurun."
+ },
+ "Samsung|5C2": {
+  "title": "Tahliye pompası takılıyor",
+  "causes": [
+   "Artıklar tahliye pompasını sıkıştırıyor."
+  ],
+  "steps": [
+   "Suyu boşaltmak için programı iptal edin.",
+   "Bulaşık makinesini kapatın ve fişini çekin.",
+   "Alt sepeti ve filtreyi çıkarın ve hazne bölümünde artık olup olmadığını kontrol edin."
+  ],
+  "technician": "Pompa hâlâ takılıyorsa Samsung servisine başvurun."
+ },
+ "Samsung|LC": {
+  "title": "Su kaçağı algılandı",
+  "causes": [
+   "Kapının çevresinden veya tabana su sızıyor.",
+   "Bulaşık makinesi deterjanı yerine elde bulaşık deterjanı kullanılmış.",
+   "Lavabo veya çöp öğütücüsü geri tepiyor."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın.",
+   "Yalnızca bulaşık makinesi deterjanı kullanın.",
+   "Kapı contasını ve kapının alt kenarını temizleyin.",
+   "Bulaşık makinesinin altında su olup olmadığını kontrol edin ve silin.",
+   "Lavabo giderinin geri tepmediğini kontrol edin."
+  ],
+  "technician": "Su sızmaya devam ederse su beslemesini kapatın ve Samsung servisine başvurun."
+ },
+ "Samsung|OC": {
+  "title": "Aşırı dolum veya fazla köpük",
+  "causes": [
+   "Deterjan nedeniyle çok fazla köpük.",
+   "Filtre tıkalı.",
+   "Tahliye hortumu bükülmüş."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın.",
+   "Doğru bulaşık makinesi deterjanını doğru miktarda kullandığınızı kontrol edin.",
+   "Filtreyi temizleyin ve tabanda biriken suyu alın.",
+   "Tahliye hortumunda bükülme olup olmadığını kontrol edin."
+  ],
+  "technician": "Bulaşık makinesi su almaya devam ederse su beslemesini kapatın ve Samsung servisine başvurun."
+ },
+ "Samsung|HC": {
+  "title": "Isıtma sorunu (aşırı ısınma)",
+  "causes": [
+   "Gelen su çok sıcak.",
+   "Filtreler kirli, bu yüzden su iyi dolaşmıyor."
+  ],
+  "steps": [
+   "En az 5 dakika kapalı tutun.",
+   "Filtreleri temizleyin.",
+   "Bulaşık makinesi boşken deterjanla normal bir program çalıştırın."
+  ],
+  "technician": "Kod tekrar çıkarsa Samsung servisine başvurun."
+ },
+ "Samsung|tC": {
+  "title": "Sıcaklık sensörü sorunu",
+  "causes": [
+   "Bulaşık makinesi sıcaklık algılamada bir arıza tespit etti."
+  ],
+  "steps": [
+   "Prizden veya şalterden en az 5 dakika kapatın.",
+   "Açın ve Normal programı çalıştırın."
+  ],
+  "technician": "Kod tekrar çıkarsa Samsung servisine başvurun."
+ },
+ "Samsung|DC": {
+  "title": "Kapı kapalı değil",
+  "causes": [
+   "Kapı mandalı oturmamış.",
+   "Bir mutfak gereci veya tabak dışarı taşıyor ve kapıyı engelliyor."
+  ],
+  "steps": [
+   "Dışarı taşan parçaları içeri itin.",
+   "Kapı mandalı bölgesini temizleyin.",
+   "Kapıyı sıkıca kapatın.",
+   "30 saniye kapatın, ardından yeniden açın."
+  ],
+  "technician": "Kapı mandalı oturmuyorsa Samsung servisine başvurun."
+ },
+ "Samsung|3C": {
+  "title": "Yıkama pompası çalışmıyor",
+  "causes": [
+   "Bulaşık makinesi su alıyor ama yıkama motoru çalışmıyor."
+  ],
+  "steps": [
+   "Bir dakika kapatın, ardından yeniden deneyin."
+  ],
+  "technician": "Hâlâ püskürtme yoksa Samsung servisine başvurun."
+ },
+ "Samsung|PC": {
+  "title": "Zone Wash veya Half Load ile çalışmıyor",
+  "causes": [
+   "Zone Wash veya Half Load özelliğiyle ilgili bir arıza."
+  ],
+  "steps": [
+   "En az 30 saniye kapatın.",
+   "Zone Wash veya Half Load özelliğini kapatın ve Normal programı çalıştırın."
+  ],
+  "technician": "Kod tekrar çıkarsa Samsung servisine başvurun."
+ },
+ "Samsung|9C1": {
+  "title": "Voltaj koruma modu",
+  "causes": [
+   "Elektrikte anlık kesinti, dalgalanma veya atmış bir sigorta."
+  ],
+  "steps": [
+   "Fişi ve prizi kontrol edin.",
+   "Prizden veya şalterden en az 1 dakika kapatın, ardından yeniden deneyin.",
+   "Uzatma kablosu veya adaptör olmadan ayrı bir priz kullanın."
+  ],
+  "technician": "Sorun devam ederse elektrik tesisatını bir elektrikçiye kontrol ettirin."
+ },
+ "Samsung|AC": {
+  "title": "Açılıyor ama çalışmıyor",
+  "causes": [
+   "Dahili bir kontrol arızası."
+  ],
+  "steps": [
+   "Prizden veya şalterden kapatın.",
+   "1 dakika bekleyin, açın ve yeniden deneyin."
+  ],
+  "technician": "Kod tekrar çıkarsa Samsung servisine başvurun."
+ },
+ "Samsung|6C1": {
+  "title": "Deterjan dağıtıcısı sorunu",
+  "causes": [
+   "Dağıtıcı motoru normal çalışmıyor.",
+   "Dağıtıcıda bir tablet sıkışmış."
+  ],
+  "steps": [
+   "Bulaşık makinesinin fişini 5 dakika çekin.",
+   "Dağıtıcıda tablet sıkışmadığını kontrol edin."
+  ],
+  "technician": "Kod tekrar çıkarsa Samsung servisine başvurun."
+ },
+ "LG|AE": {
+  "title": "Su kaçağı veya aşırı dolum algılandı",
+  "causes": [
+   "Çok fazla su girdi veya bir sızıntı tespit edildi.",
+   "Elde bulaşık deterjanı fazla köpük oluşturdu.",
+   "Bulaşık makinesi düz durmuyor."
+  ],
+  "steps": [
+   "Yalnızca bulaşık makinesi deterjanı kullanın.",
+   "Büyük tabakları ve tencereleri ağzı aşağı bakacak şekilde yerleştirin.",
+   "Bulaşık makinesinin düz durduğunu kontrol edin."
+  ],
+  "technician": "Sızıntı yok ama kod devam ediyorsa elektriği kesin ve LG servisinden destek isteyin. Ankastre bir cihazı kendiniz yerinden çıkarmayın."
+ },
+ "LG|IE": {
+  "title": "Yeterli su gelmiyor",
+  "causes": [
+   "Evde su kesintisi var.",
+   "Su giriş hortumu bükülmüş veya ezilmiş.",
+   "Su girişi veya lavabo altındaki vana kapalı."
+  ],
+  "steps": [
+   "Diğer musluklardan su gelip gelmediğini kontrol edin.",
+   "Su giriş hortumunu düzeltin ve üzerine baskı yapan her şeyi kaldırın.",
+   "Özellikle kurulumdan veya taşınmadan sonra lavabo altındaki vanayı açın."
+  ],
+  "technician": "Devam ederse kurulumu yapan kişiye veya LG servisine başvurun."
+ },
+ "LG|OE": {
+  "title": "Su boşalmıyor",
+  "causes": [
+   "Filtre tıkanmış.",
+   "Tahliye hortumu bükülmüş veya ezilmiş."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve soğuması için 30 dakika bekleyin.",
+   "Alt sepeti çıkarın, filtreyi çevirerek çıkarın ve durulayın.",
+   "Filtreyi klik sesi gelene kadar yerine takın.",
+   "Tahliye hortumunu düzeltin."
+  ],
+  "technician": "Filtrenin üstünde su birikmeye devam ederse LG servisinden destek isteyin."
+ },
+ "LG|bE": {
+  "title": "Çok fazla köpük",
+  "causes": [
+   "Elde bulaşık deterjanı kullanılmış.",
+   "Çok fazla deterjan."
+  ],
+  "steps": [
+   "Yalnızca bulaşık makinesi deterjanı kullanın ve daha az miktarda koyun.",
+   "Köpüğü silin ve deterjansız bir durulama programı çalıştırın."
+  ],
+  "technician": "Köpük olmadan bE görünüyorsa LG servisinden destek isteyin."
+ },
+ "LG|nE": {
+  "title": "Püskürtme (Vario) pompası sorunu",
+  "causes": [
+   "Pervane normal şekilde dönmüyor.",
+   "Bulaşıklar püskürtme sistemine değiyor."
+  ],
+  "steps": [
+   "Bulaşıkları püskürtme kollarını engellemeyecek şekilde yeniden yerleştirin.",
+   "Programı yeniden başlatın."
+  ],
+  "technician": "Kod devam ederse LG servisinden destek isteyin."
+ },
+ "LG|HE": {
+  "title": "Su ısınmıyor",
+  "causes": [
+   "Isıtıcı arızası."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin."
+  ],
+  "technician": "LG servisten destek istemenizi öneriyor."
+ },
+ "LG|tE": {
+  "title": "Sıcaklık sensörü arızası",
+  "causes": [
+   "Zayıf temas veya arızalı sıcaklık sensörü."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin."
+  ],
+  "technician": "LG servisten destek istemenizi öneriyor."
+ },
+ "LG|LE": {
+  "title": "Yıkama motoru arızası",
+  "causes": [
+   "Yıkama motoru düzgün çalışmıyor."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin."
+  ],
+  "technician": "LG servisten destek istemenizi öneriyor."
+ },
+ "LG|PE": {
+  "title": "Su seviyesi sensörü arızası (eski modeller)",
+  "causes": [
+   "Su seviyesi sensöründe bir arıza var."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin."
+  ],
+  "technician": "LG servisten destek istemenizi öneriyor."
+ },
+ "LG|F37": {
+  "title": "Otomatik kapı açma çalışmıyor",
+  "causes": [
+   "Kapıyı bir şey engelliyor.",
+   "Otomatik açma parçalarında bir arıza var."
+  ],
+  "steps": [
+   "Kapının yakınındaki her şeyi kaldırın ve yeniden başlatın."
+  ],
+  "technician": "Devam ederse LG servisinden destek isteyin."
+ },
+ "AEG|i10": {
+  "title": "Su dolmuyor",
+  "causes": [
+   "Su musluğu kapalı.",
+   "Su basıncı çok düşük.",
+   "Su giriş hortumu bükülmüş.",
+   "Su giriş hortumundaki filtre tıkanmış."
+  ],
+  "steps": [
+   "Su musluğunu açın.",
+   "Su giriş hortumunda bükülme veya kıvrılma olup olmadığını kontrol edin.",
+   "Bulaşık makinesini kapatın ve fişini çekin, musluğu kapatın, hortumu çıkarın ve filtresini temizleyin.",
+   "Hortumu elle sıkarak yerine takın, musluğu açın ve bir program çalıştırın."
+  ],
+  "technician": "Devam ederse yetkili bir servise başvurun."
+ },
+ "AEG|i20": {
+  "title": "Su boşalmıyor",
+  "causes": [
+   "Lavabo bağlantı ağzı veya sifon tıkanmış.",
+   "Filtre veya hazne tıkanmış.",
+   "Tahliye hortumu bükülmüş, çok uzun veya yanlış yükseklikte.",
+   "Kurulumdan sonra lavabo sifonundaki körleme tıpası çıkarılmamış."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin.",
+   "Filtreyi ve hazneyi temizleyin.",
+   "Tahliye hortumunun bükülmediğini veya dolanmadığını kontrol edin.",
+   "Lavabo sifonunun bağlantı ağzının açık olduğunu (ve yeni kurulumdan sonra körleme tıpasının çıkarıldığını) kontrol edin.",
+   "Fişi takın ve bir program çalıştırın."
+  ],
+  "technician": "Hâlâ su boşalmıyorsa yetkili bir servise başvurun."
+ },
+ "AEG|i30": {
+  "title": "Su kaçağı algılandı (taşma önleme)",
+  "causes": [
+   "Taşma önleme sistemi tabanda su tespit etti."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin.",
+   "Su musluğunu kapatın.",
+   "Yerdeki suyu silin."
+  ],
+  "technician": "Sızıntının bulunup giderilmesi için onarım randevusu alın."
+ },
+ "AEG|i40": {
+  "title": "Su seviyesi (basınç) sensörü sorunu",
+  "causes": [
+   "Su seviyesi doğru ölçülemiyor."
+  ],
+  "steps": [
+   "Prizden yaklaşık bir dakika kapatın, ardından yeniden başlatın."
+  ],
+  "technician": "Kod tekrar çıkarsa onarım için randevu alın."
+ },
+ "AEG|i50": {
+  "title": "Yıkama motoru veya sirkülasyon pompası arızası",
+  "causes": [
+   "Yıkama motorunda, sirkülasyon pompasında veya bunların kontrolünde bir arıza var."
+  ],
+  "steps": [
+   "Prizden yaklaşık bir dakika kapatın, ardından yeniden başlatın."
+  ],
+  "technician": "Kod tekrar çıkarsa onarım için randevu alın."
+ },
+ "AEG|i60": {
+  "title": "Isıtma arızası",
+  "causes": [
+   "Su beklendiği gibi ısınmıyor."
+  ],
+  "steps": [
+   "Prizden yaklaşık bir dakika kapatın, ardından yeniden başlatın."
+  ],
+  "technician": "Kod tekrar çıkarsa onarım için randevu alın."
+ },
+ "AEG|iF0": {
+  "title": "Su seviyesi kontrol sorunu",
+  "causes": [
+   "Dolum seviyesi yanlış veya anormal."
+  ],
+  "steps": [
+   "Su musluğunun tamamen açık olduğunu kontrol edin.",
+   "Filtreleri temizleyin.",
+   "Prizden yaklaşık bir dakika kapatın, ardından yeniden başlatın."
+  ],
+  "technician": "Kod tekrar çıkarsa onarım için randevu alın."
+ },
+ "Hotpoint|F01": {
+  "title": "Taşma önleme devreye girdi",
+  "causes": [
+   "Tabandaki su taşma önleme şamandırasını tetikledi.",
+   "Bir sızıntı veya arızalı şamandıra anahtarı."
+  ],
+  "steps": [
+   "Sıfırlamak için bulaşık makinesini kapatıp açın.",
+   "Yerde su varsa su musluğunu kapatın."
+  ],
+  "technician": "Tekrar ederse Hotpoint servisinden teknisyen randevusu alın."
+ },
+ "Hotpoint|F02": {
+  "title": "Su dolum valfi arızası",
+  "causes": [
+   "Dolum valfi gerekmediği hâlde su alıyor veya arızalanmış."
+  ],
+  "steps": [
+   "Tahliye hortumunun yerde durmadığını kontrol edin.",
+   "Su girmeye devam ederse su musluğunu kapatın."
+  ],
+  "technician": "Hotpoint servisinden teknisyen randevusu alın."
+ },
+ "Hotpoint|F03": {
+  "title": "Boşaltma arızası / boşaltma çok uzun sürdü",
+  "causes": [
+   "Tahliye hortumu veya lavabo altı tesisatı tıkalı.",
+   "Tahliye pompası tıkalı veya arızalı."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin.",
+   "Filtreleri temizleyin.",
+   "Tahliye hortumunu ve lavabo altı tesisatını tıkanıklık açısından kontrol edin."
+  ],
+  "technician": "Arıza devam ederse teknisyen randevusu alın."
+ },
+ "Hotpoint|F04": {
+  "title": "Sıcaklık sensörü arızası",
+  "causes": [
+   "Termostatta veya sıcaklık sensöründe bir arıza var."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin."
+  ],
+  "technician": "Hotpoint servisinden teknisyen randevusu alın."
+ },
+ "Hotpoint|F06": {
+  "title": "Dolum çok uzun sürdü",
+  "causes": [
+   "Musluk kapalı veya kısmen kapalı.",
+   "Su basıncı düşük.",
+   "Dolum hortumu bükülmüş veya filtresi tıkanmış."
+  ],
+  "steps": [
+   "Musluğun tamamen açık olduğundan emin olun.",
+   "Dolum hortumunun bükülmediğini veya ezilmediğini kontrol edin.",
+   "Su basıncının normal olduğunu kontrol edin."
+  ],
+  "technician": "Arıza devam ederse teknisyen randevusu alın."
+ },
+ "Hotpoint|F08": {
+  "title": "Suyun ısınması çok uzun sürdü",
+  "causes": [
+   "Kireç, fazla köpük, yanlış su sertliği ayarı veya bir ısıtma arızası."
+  ],
+  "steps": [
+   "Su sertliği ayarını kontrol edin.",
+   "Doğru miktarda deterjan kullanın."
+  ],
+  "technician": "Hotpoint servisinden teknisyen randevusu alın."
+ },
+ "Hotpoint|F10": {
+  "title": "Isıtma elemanı arızası",
+  "causes": [
+   "Isıtma devresi açık veya ısıtma elemanı arızalanmış."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin."
+  ],
+  "technician": "Hotpoint servisinden teknisyen randevusu alın."
+ },
+ "Hotpoint|F11": {
+  "title": "Yıkama pompası arızası",
+  "causes": [
+   "Yıkama pompası arızalanmış, sıkışmış veya artıklar nedeniyle tıkanmış."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin.",
+   "Filtreleri temizleyin."
+  ],
+  "technician": "Hotpoint servisinden teknisyen randevusu alın."
+ },
+ "Hotpoint|F12": {
+  "title": "Ana kart ile ekran iletişim kuramıyor",
+  "causes": [
+   "Bir kablo veya ekran arızası."
+  ],
+  "steps": [
+   "Bulaşık makinesinin fişini 2 dakika çekin, ardından takıp deneyin."
+  ],
+  "technician": "Devam ederse teknisyen randevusu alın."
+ },
+ "Hotpoint|F13": {
+  "title": "Ana kart arızası",
+  "causes": [
+   "Ana kontrol kartı arızalanmış."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin."
+  ],
+  "technician": "Hotpoint servisinden teknisyen randevusu alın."
+ },
+ "Indesit|F01": {
+  "title": "Taşma önleme devreye girdi",
+  "causes": [
+   "Tabandaki su taşma önleme sistemini tetikledi."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin.",
+   "Su musluğunu kapatın ve suyu silin."
+  ],
+  "technician": "Indesit servisinden teknisyen randevusu alın."
+ },
+ "Indesit|F02": {
+  "title": "Su dolum valfi arızası",
+  "causes": [
+   "Su dolum valfi arızalanmış."
+  ],
+  "steps": [
+   "Su girmeye devam ederse su musluğunu kapatın.",
+   "Bulaşık makinesini kapatın ve fişini çekin."
+  ],
+  "technician": "Indesit servisinden teknisyen randevusu alın."
+ },
+ "Indesit|F03": {
+  "title": "Boşaltma arızası / boşaltma çok uzun sürdü",
+  "causes": [
+   "Tahliye hortumunda veya lavabo altı tesisatında tıkanıklık var."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin.",
+   "Filtreleri temizleyin.",
+   "Tahliye hortumunu ve lavabo altı tesisatını tıkanıklık açısından kontrol edin."
+  ],
+  "technician": "Arıza devam ederse teknisyen randevusu alın."
+ },
+ "Indesit|F04": {
+  "title": "Sıcaklık sensörü arızası",
+  "causes": [
+   "Termostatta veya sıcaklık sensöründe bir arıza var."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin."
+  ],
+  "technician": "Indesit servisinden teknisyen randevusu alın."
+ },
+ "Indesit|F06": {
+  "title": "Dolum çok uzun sürdü",
+  "causes": [
+   "Musluk tamamen açık değil.",
+   "Su basıncı düşük.",
+   "Dolum hortumu kısıtlanmış."
+  ],
+  "steps": [
+   "Musluğun tamamen açık olduğundan emin olun.",
+   "Dolum hortumunun bükülmediğini veya ezilmediğini kontrol edin.",
+   "Su basıncının normal olduğunu kontrol edin."
+  ],
+  "technician": "Arıza devam ederse teknisyen randevusu alın."
+ },
+ "Indesit|F08": {
+  "title": "Suyun ısınması çok uzun sürdü",
+  "causes": [
+   "Sıcaklığa zamanında ulaşılamadı."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin."
+  ],
+  "technician": "Indesit servisinden teknisyen randevusu alın."
+ },
+ "Indesit|F10": {
+  "title": "Isıtma elemanı arızası",
+  "causes": [
+   "Isıtma elemanında bir arıza var."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin."
+  ],
+  "technician": "Indesit servisinden teknisyen randevusu alın."
+ },
+ "Indesit|F11": {
+  "title": "Yıkama pompası arızası",
+  "causes": [
+   "Yıkama pompası arızalanmış."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin."
+  ],
+  "technician": "Indesit servisinden teknisyen randevusu alın."
+ },
+ "Indesit|F12": {
+  "title": "Ana kart ile ekran iletişim kuramıyor",
+  "causes": [
+   "Kontrol kartları arasında iletişim arızası var."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin."
+  ],
+  "technician": "Indesit servisinden teknisyen randevusu alın."
+ },
+ "Indesit|F13": {
+  "title": "Ana kart arızası",
+  "causes": [
+   "Ana kontrol kartı arızalanmış."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin."
+  ],
+  "technician": "Indesit servisinden teknisyen randevusu alın."
+ },
+ "Beko|E:01": {
+  "title": "Su taşması veya sızıntı",
+  "causes": [
+   "Bulaşık makinesine çok fazla su giriyor.",
+   "Makinenin içinde bir sızıntı var."
+  ],
+  "steps": [
+   "Bulaşık makinesinin güvenlik boşaltmasını tamamlamasını bekleyin.",
+   "Kod kaybolursa herhangi bir işlem gerekmez.",
+   "Kod devam ederse cihazı kapatın, fişini çekin ve su musluğunu kapatın."
+  ],
+  "technician": "E:01 sürekli görünüyorsa arıza kalıcıdır. Beko servisini arayın."
+ },
+ "Beko|E:02": {
+  "title": "Su beslemesi kesildi",
+  "causes": [
+   "Şebeke suyu kesik.",
+   "Su giriş musluğu kapalı."
+  ],
+  "steps": [
+   "Su musluğunun açık olduğundan emin olun.",
+   "Program bekler ve suyu kontrol eder. Su geldiğinde devam eder."
+  ],
+  "technician": "Su açık olduğu hâlde kod devam ediyorsa Beko servisini arayın."
+ },
+ "Miele|F11": {
+  "title": "Su pompalanıp boşaltılmıyor",
+  "causes": [
+   "Çek valf veya tahliye pompası kapağı doğru takılmamış.",
+   "Tahliye pompası artıklar nedeniyle tıkanmış."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve fişini çekin.",
+   "Alt püskürtme kolunu (varsa) ve filtre grubunu çıkarın.",
+   "Biriken suyu küçük bir bardakla alın.",
+   "Pompa kapağını / çek valfi çıkarın, durulayın ve artıkları temizleyin. Cam kırıklarına dikkat edin.",
+   "Pompa pervanesinin elle döndüğünü kontrol edin, kapağı klik sesi gelene kadar takın, ardından filtreleri yerine takın."
+  ],
+  "technician": "F11 devam ederse Miele servisine başvurun."
+ },
+ "Miele|F12": {
+  "title": "Su girişi tıkalı veya kısıtlı",
+  "causes": [
+   "Ana vana açık değil.",
+   "Su giriş filtresi kirli.",
+   "Su giriş hortumu bükülmüş.",
+   "Su basıncı 0,5 barın altında."
+  ],
+  "steps": [
+   "Ana vanayı tamamen açın.",
+   "Cihazı kapatıp fişini çekin, ana vanayı kapatın, su giriş valfini sökün ve küçük filtreyi temizleyin. Valf gövdesini asla suya sokmayın; içinde elektrikli bir parça vardır.",
+   "Filtreyi ve valfi yerine takın, ardından ana vanayı yavaşça açın ve damlama olup olmadığını kontrol edin.",
+   "Hortumdaki bükülmeleri düzeltin."
+  ],
+  "technician": "Basınç çok düşükse bir tesisatçı çağırın. Arıza devam ederse Miele servisine başvurun."
+ },
+ "Miele|F13": {
+  "title": "Su girişi tıkalı veya kısıtlı",
+  "causes": [
+   "Ana vana kapalı.",
+   "Su giriş filtresi kirli.",
+   "Su giriş hortumu bükülmüş.",
+   "Su basıncı 0,5 barın altında."
+  ],
+  "steps": [
+   "Ana vanayı tamamen açın.",
+   "Cihazı kapatıp fişini çekin, ana vanayı kapatın ve su giriş filtresini temizleyin. Valf gövdesini suya batırmayın.",
+   "Yerine takın, ana vanayı yavaşça yeniden açın ve sızıntı olup olmadığını kontrol edin.",
+   "Hortumdaki bükülmeleri düzeltin."
+  ],
+  "technician": "Basınç çok düşükse bir tesisatçı çağırın. Arıza devam ederse Miele servisine başvurun."
+ },
+ "Miele|F14": {
+  "title": "Sirkülasyon pompası veya su girişi arızası",
+  "causes": [
+   "Sirkülasyon pompası uzun bir kullanılmama süresinden sonra kuruyup sıkışmış.",
+   "Bir seviye anahtarında teknik arıza var."
+  ],
+  "steps": [
+   "Alt püskürtme kolunu ve filtre grubunu çıkarın.",
+   "Birkaç damla parlatıcı eklenmiş 1 litre ılık su (en fazla 75°C) dökün ve 5 dakika bekleyin.",
+   "Filtreleri ve püskürtme kolunu yerine takın ve yeniden başlatın. Gerekirse 2–3 kez tekrarlayın.",
+   "Aksi hâlde cihazı kapatın, birkaç saniye bekleyin, açın ve yeniden başlatın."
+  ],
+  "technician": "F14 devam ederse Miele servisine başvurun."
+ },
+ "Miele|F15": {
+  "title": "Su girişi tıkalı veya kısıtlı",
+  "causes": [
+   "Ana vana kapalı.",
+   "Su giriş filtresi kirli.",
+   "Su giriş hortumu bükülmüş.",
+   "Su basıncı 0,5 barın altında."
+  ],
+  "steps": [
+   "Ana vanayı tamamen açın.",
+   "Cihazı kapatıp fişini çekin, ana vanayı kapatın ve su giriş filtresini temizleyin. Valf gövdesini suya batırmayın.",
+   "Yerine takın, ana vanayı yavaşça yeniden açın ve sızıntı olup olmadığını kontrol edin.",
+   "Hortumdaki bükülmeleri düzeltin."
+  ],
+  "technician": "Basınç çok düşükse bir tesisatçı çağırın. Arıza devam ederse Miele servisine başvurun."
+ },
+ "Miele|F18": {
+  "title": "Su giriş valfi arızalı",
+  "causes": [
+   "Su giriş valfi arızalanmış."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın ve ana vanayı kapatın."
+  ],
+  "technician": "Miele'ye göre bunu kendiniz gideremezsiniz. Miele teknisyeninden randevu alın."
+ },
+ "Miele|F24": {
+  "title": "Isıtma rölesi arızası",
+  "causes": [
+   "Isıtma rölesinde bir kontak arızası var."
+  ],
+  "steps": [
+   "Bulaşık makinesini kapatın."
+  ],
+  "technician": "Miele'ye göre bunu kendiniz gideremezsiniz. Miele teknisyeninden randevu alın."
+ },
+ "Miele|F70": {
+  "title": "Waterproof (su kaçağı koruması) sistemi devreye girdi",
+  "causes": [
+   "Su kaçağı koruma sistemi tetiklendi. Program durur ve tahliye pompası çalışır."
+  ],
+  "steps": [
+   "Ana vanayı kapatın.",
+   "Bulaşık makinesini kapatın ve fişini çekin.",
+   "Tahliye pompasının durmasını bekleyin."
+  ],
+  "technician": "Nedenin bulunup giderilmesi için Miele servisine başvurun."
+ },
+ "Miele|F78": {
+  "title": "Sirkülasyon pompası sıkışmış",
+  "causes": [
+   "Pompa haftalarca veya aylarca kullanılmadıktan sonra ya da ilk kullanımda kuruyup sıkışmış.",
+   "Daha seyrek olarak teknik bir arıza."
+  ],
+  "steps": [
+   "Alt püskürtme kolunu ve filtre grubunu çıkarın.",
+   "3–5 damla parlatıcı eklenmiş 1 litre ılık su (en fazla 75°C) dökün ve 5 dakika bekleyin.",
+   "Filtreleri düz şekilde ve püskürtme kolunu yerine takın, ardından yeniden başlatın. Gerekirse 2–3 kez tekrarlayın."
+  ],
+  "technician": "F78 devam ederse Miele servisine başvurun."
+ }
+}

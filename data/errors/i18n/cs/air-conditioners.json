@@ -1,0 +1,1180 @@
+{
+ "LG|CH00": {
+  "title": "Jednotka potřebuje kontrolu (obecná chyba)",
+  "causes": [
+   "Dočasné kolísání napětí nebo elektrické rušení.",
+   "Interní závada, kterou je nutné zkontrolovat."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se CH00 po resetu napájení vrátí, objednejte technika LG."
+ },
+ "LG|CH01": {
+  "title": "Závada snímače teploty",
+  "causes": [
+   "Snímač teploty nebo snímač potrubí je vadný nebo uvolněný.",
+   "Chyba hlavní desky nebo krátká elektrická porucha."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte.",
+   "Zkontrolujte, zda kód zmizel."
+  ],
+  "technician": "Pokud se kód po resetu vrátí, jednotku nepoužívejte a objednejte servis LG. Jednotku neotevírejte."
+ },
+ "LG|CH02": {
+  "title": "Závada snímače teploty",
+  "causes": [
+   "Snímač teploty nebo snímač potrubí je vadný nebo uvolněný.",
+   "Chyba hlavní desky nebo krátká elektrická porucha."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte.",
+   "Zkontrolujte, zda kód zmizel."
+  ],
+  "technician": "Pokud se kód po resetu vrátí, jednotku nepoužívejte a objednejte servis LG. Jednotku neotevírejte."
+ },
+ "LG|CH06": {
+  "title": "Závada snímače teploty",
+  "causes": [
+   "Snímač teploty nebo snímač potrubí je vadný nebo uvolněný.",
+   "Chyba hlavní desky nebo krátká elektrická porucha."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte.",
+   "Zkontrolujte, zda kód zmizel."
+  ],
+  "technician": "Pokud se kód po resetu vrátí, jednotku nepoužívejte a objednejte servis LG. Jednotku neotevírejte."
+ },
+ "LG|CH21": {
+  "title": "Závada kompresoru nebo obvodu pohonu venkovní jednotky",
+  "causes": [
+   "Krátký problém s napájením.",
+   "Závada kompresoru, jeho obvodu pohonu nebo ochranného obvodu ve venkovní jednotce."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud kód trvá, jednotku nepoužívejte a objednejte technika LG."
+ },
+ "LG|CH26": {
+  "title": "Závada kompresoru nebo obvodu pohonu venkovní jednotky",
+  "causes": [
+   "Krátký problém s napájením.",
+   "Závada kompresoru, jeho obvodu pohonu nebo ochranného obvodu ve venkovní jednotce."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud kód trvá, jednotku nepoužívejte a objednejte technika LG."
+ },
+ "LG|CH04": {
+  "title": "Problém s odvodem vody nebo plná nádržka na kondenzát",
+  "causes": [
+   "Odvod vody z vnitřní jednotky nefunguje (stropní jednotky).",
+   "U okenních a mobilních jednotek je plná nádržka na kondenzát, často ve vlhkých dnech."
+  ],
+  "steps": [
+   "Vypněte jednotku a odpojte ji ze zásuvky.",
+   "U okenních nebo mobilních jednotek dejte pod vypouštěcí otvor vzadu dole nádobu asi na 1,5 l a sejměte vypouštěcí zátku.",
+   "Nechte vodu vytéct a zátku pevně nasaďte zpět.",
+   "Pro trvalý odvod můžete připojit odtokovou hadici; dejte pozor, aby voda nekapala na nikoho pod jednotkou."
+  ],
+  "technician": "Pokud se CH04/FL objevuje často i za suchého počasí, nebo u stropní jednotky po resetu, objednejte servis LG."
+ },
+ "LG|CH05": {
+  "title": "Chyba komunikace mezi vnitřní a venkovní jednotkou",
+  "causes": [
+   "Vnitřní a venkovní jednotka spolu nemohou komunikovat.",
+   "Problém s kabeláží po nové instalaci nebo přemístění."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud kód po resetu nezmizí nebo byla jednotka právě nainstalována či přemístěna, objednejte servis."
+ },
+ "LG|CH07": {
+  "title": "Konflikt provozních režimů",
+  "causes": [
+   "Dvě vnitřní jednotky v jednom systému mají nastavené opačné režimy (topení vs. chlazení/odvlhčování)."
+  ],
+  "steps": [
+   "Nastavte všechny vnitřní jednotky na topení, nebo všechny na chlazení/odvlhčování.",
+   "Režimy ventilátoru a čištění vzduchu mohou běžet s jakýmkoli režimem."
+  ],
+  "technician": "Pokud kód nezmizí, i když jsou všechny jednotky ve stejném režimu, kontaktujte podporu LG."
+ },
+ "LG|CH10": {
+  "title": "Problém s ventilátorem vnitřní jednotky",
+  "causes": [
+   "Ventilátor vnitřní jednotky blokují nečistoty nebo led.",
+   "Závada motoru ventilátoru."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Odstraňte viditelné nečistoty ze sání a výfuku vzduchu. Kryt neotevírejte.",
+   "Zkontrolujte vzduchové filtry vnitřní jednotky, a pokud jsou zaprášené, vyčistěte je.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud ventilátoru nic nebrání a kód se vrací, objednejte servis."
+ },
+ "LG|CH67": {
+  "title": "Problém s ventilátorem venkovní jednotky",
+  "causes": [
+   "Ventilátor venkovní jednotky blokují nečistoty nebo sníh.",
+   "Závada motoru ventilátoru venkovní jednotky."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Odstraňte listí, sníh nebo předměty z okolí mřížky venkovní jednotky.",
+   "Ujistěte se, že proudění vzduchu kolem venkovní jednotky nic nebrání (krabice, rostliny, sníh, listí).",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud mu nic nebrání a kód se vrací, objednejte servis."
+ },
+ "LG|CH38": {
+  "title": "Nedostatek chladiva",
+  "causes": [
+   "Náplň chladiva je nízká, často po instalaci nebo přemístění.",
+   "Uvolněný spoj potrubí nebo únik."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud byla jednotka nedávno nainstalována nebo přemístěna, zavolejte instalační firmu; jinak se při návratu kódu obraťte na podporu LG. Práce s chladivem patří jen technikům."
+ },
+ "LG|CH54": {
+  "title": "Obrácená fáze nebo chyba napájení",
+  "causes": [
+   "Krátký výpadek proudu nebo nedávné elektrikářské práce.",
+   "Fáze jsou zapojené obráceně."
+  ],
+  "steps": [
+   "Vypněte jistič klimatizace a znovu ho zapněte."
+  ],
+  "technician": "Pokud se kód objevil po elektrikářských pracích, požádejte daného elektrikáře o opravu zapojení; jinak objednejte servis LG."
+ },
+ "LG|CH61": {
+  "title": "Přehřátí jednotky",
+  "causes": [
+   "Při chlazení: venkovní jednotka je špatně větraná, například na uzavřeném balkoně.",
+   "Při topení: filtr vnitřní jednotky je ucpaný."
+  ],
+  "steps": [
+   "Při chlazení otevřete okna nebo zástěny u venkovní jednotky a odstraňte kolem ní překážky.",
+   "Zkontrolujte vzduchové filtry vnitřní jednotky, a pokud jsou zaprášené, vyčistěte je.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud kód trvá i po resetu a zlepšení proudění vzduchu, musí jednotku zkontrolovat technik."
+ },
+ "LG|CH66": {
+  "title": "Problém s kabeláží nebo potrubím mezi vnitřní a venkovní jednotkou",
+  "causes": [
+   "Problém s komunikačním vedením nebo spojem potrubí mezi jednotkami."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud byla jednotka právě nainstalována nebo přemístěna, zavolejte instalační firmu; pokud kód trvá, objednejte technika."
+ },
+ "LG|CH90": {
+  "title": "Ochrana během zkušebního provozu",
+  "causes": [
+   "Zkušební provoz zjistil problém, často se spoji potrubí."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud je jednotka nová nebo přemístěná, požádejte instalační firmu o kontrolu potrubí; jinak při přetrvávajícím problému objednejte servis."
+ },
+ "LG|CH93": {
+  "title": "Nestabilní komunikace mezi vnitřní a venkovní jednotkou",
+  "causes": [
+   "Nestabilní komunikace během zkušebního provozu.",
+   "U novějších modelů nemá venkovní jednotka napájení."
+  ],
+  "steps": [
+   "Zkontrolujte, zda jsou zapojené oba napájecí kabely (novější modely mají jeden pro každou jednotku).",
+   "Zapojte venkovní jednotku přímo do zásuvky ve zdi, ne do prodlužovací lišty.",
+   "Ujistěte se, že je jistič klimatizace zapnutý. Pokud nevydrží zapnutý, opakovaně ho nezapínejte.",
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud jistič stále vypíná nebo kód trvá, objednejte servis LG."
+ },
+ "Samsung|E121": {
+  "title": "Závada snímače teploty v místnosti",
+  "causes": [
+   "Snímač teploty v místnosti ve vnitřní jednotce je vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte.",
+   "Než zavoláte servis, zapište si kód a číslo modelu."
+  ],
+  "technician": "Je nutná autorizovaná oprava Samsung; kontaktujte servis Samsung."
+ },
+ "Samsung|E122": {
+  "title": "Závada snímače teploty výměníku tepla",
+  "causes": [
+   "Snímač výměníku tepla vnitřní jednotky je vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte.",
+   "Než zavoláte servis, zapište si kód a číslo modelu."
+  ],
+  "technician": "Je nutná autorizovaná oprava Samsung; kontaktujte servis Samsung."
+ },
+ "Samsung|E154": {
+  "title": "Ventilátor vnitřní jednotky se netočí",
+  "causes": [
+   "Motor ventilátoru vnitřní jednotky je v ochranném režimu, například po přepětí.",
+   "Motor ventilátoru nebo řídicí deska je vadná."
+  ],
+  "steps": [
+   "Vypněte jednotku, počkejte několik sekund a znovu ji zapněte.",
+   "Sledujte, zda se kód do asi 10 sekund vrátí.",
+   "V oblastech s častým přepětím zvažte stabilizátor napětí."
+  ],
+  "technician": "Pokud se kód vrátí hned po restartu, kontaktujte servis Samsung."
+ },
+ "Samsung|E163": {
+  "title": "Chyba paměti řídicí desky (EEPROM)",
+  "causes": [
+   "Data v paměti hlavní desky jsou chybná nebo chybí."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte.",
+   "Než zavoláte servis, zapište si kód a číslo modelu."
+  ],
+  "technician": "Je nutná autorizovaná oprava Samsung; kontaktujte servis Samsung."
+ },
+ "Samsung|CF": {
+  "title": "Připomínka čištění filtru",
+  "causes": [
+   "Časovač čištění filtru vypršel."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Vyjměte a vyčistěte filtry vnitřní jednotky.",
+   "Nasaďte filtry zpět a vynulujte ukazatel filtru."
+  ],
+  "technician": "Kvůli této připomínce není potřeba technik."
+ },
+ "Samsung|dF": {
+  "title": "Odmrazování v režimu topení",
+  "causes": [
+   "Venkovní jednotka během topení rozpouští led. Pára z venkovní jednotky je normální."
+  ],
+  "steps": [
+   "Počkejte; topení po skončení odmrazování pokračuje.",
+   "Není potřeba nic dělat."
+  ],
+  "technician": "Servis volejte jen tehdy, pokud jednotka zůstává v odmrazování velmi dlouho a netopí."
+ },
+ "Daikin|A1": {
+  "title": "Závada řídicí desky vnitřní jednotky",
+  "causes": [
+   "Řídicí deska vnitřní jednotky je vadná."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|A3": {
+  "title": "Problém s řízením hladiny odvodu kondenzátu",
+  "causes": [
+   "Kondenzát z vnitřní jednotky neodtéká.",
+   "Odtoková trubka může být ucpaná."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Zkontrolujte venku, zda odtoková hadice není zalomená nebo ucpaná.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|A5": {
+  "title": "Ochrana proti zamrznutí nebo vysokému tlaku",
+  "causes": [
+   "Při chlazení se výměník vnitřní jednotky příliš ochlazuje.",
+   "Při topení je tlak příliš vysoký, často kvůli slabému proudění vzduchu."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Zkontrolujte vzduchové filtry vnitřní jednotky, a pokud jsou zaprášené, vyčistěte je.",
+   "Zkontrolujte, zda nic neblokuje sání nebo výfuk vzduchu vnitřní jednotky.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|A6": {
+  "title": "Závada motoru ventilátoru vnitřní jednotky",
+  "causes": [
+   "Motor ventilátoru vnitřní jednotky nebo jeho řízení selhalo nebo je zablokované."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Zkontrolujte, zda ve výfuku vnitřní jednotky nic neuvízlo. Kryt neotevírejte.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|C4": {
+  "title": "Závada snímače teploty výměníku vnitřní jednotky",
+  "causes": [
+   "Termistor kapalinového potrubí na výměníku vnitřní jednotky je vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|C9": {
+  "title": "Závada snímače teploty v místnosti (nasávaný vzduch)",
+  "causes": [
+   "Termistor vzduchu ve vnitřní jednotce je vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|E1": {
+  "title": "Závada řídicí desky venkovní jednotky",
+  "causes": [
+   "Řídicí deska venkovní jednotky je vadná."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|E3": {
+  "title": "Zasáhl vysokotlaký spínač",
+  "causes": [
+   "Tlak v systému je příliš vysoký, často kvůli slabému proudění vzduchu venku nebo znečištěnému výměníku."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Ujistěte se, že proudění vzduchu kolem venkovní jednotky nic nebrání (krabice, rostliny, sníh, listí).",
+   "Zkontrolujte vzduchové filtry vnitřní jednotky, a pokud jsou zaprášené, vyčistěte je.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|E5": {
+  "title": "Přehřátí nebo zablokování kompresoru",
+  "causes": [
+   "Invertorový kompresor se přehřál nebo neběží."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Ujistěte se, že proudění vzduchu kolem venkovní jednotky nic nebrání (krabice, rostliny, sníh, listí).",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|E6": {
+  "title": "Nadproud nebo zablokování kompresoru",
+  "causes": [
+   "Kompresor odebírá příliš velký proud nebo je zaseknutý."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|E7": {
+  "title": "Závada motoru ventilátoru venkovní jednotky",
+  "causes": [
+   "Systém motoru ventilátoru venkovní jednotky je vadný nebo zablokovaný."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Odstraňte listí, sníh nebo předměty z mřížky venkovní jednotky.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|E8": {
+  "title": "Nadproud kompresoru",
+  "causes": [
+   "Vstupní proud invertorového kompresoru je příliš vysoký."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|F3": {
+  "title": "Příliš vysoká teplota výtlačného potrubí",
+  "causes": [
+   "Výtlačné potrubí kompresoru se přehřívá, například kvůli nedostatku chladiva nebo slabému proudění vzduchu."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Ujistěte se, že proudění vzduchu kolem venkovní jednotky nic nebrání (krabice, rostliny, sníh, listí).",
+   "Zkontrolujte vzduchové filtry vnitřní jednotky, a pokud jsou zaprášené, vyčistěte je.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|F6": {
+  "title": "Neobvykle vysoký tlak",
+  "causes": [
+   "Tlak chladiva je příliš vysoký, možná kvůli přeplnění nebo zablokovanému proudění vzduchu."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Ujistěte se, že proudění vzduchu kolem venkovní jednotky nic nebrání (krabice, rostliny, sníh, listí).",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|H6": {
+  "title": "Závada snímače polohy kompresoru",
+  "causes": [
+   "Detekce polohy rotoru kompresoru selhala."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|H8": {
+  "title": "Závada snímače proudu kompresoru",
+  "causes": [
+   "Obvod vstupního proudu kompresoru (CT) je vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|H9": {
+  "title": "Závada snímače venkovního vzduchu",
+  "causes": [
+   "Termistor venkovního vzduchu je vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|J3": {
+  "title": "Závada snímače výtlačného potrubí",
+  "causes": [
+   "Termistor výtlačného potrubí je vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|L4": {
+  "title": "Přehřátí chladiče invertoru",
+  "causes": [
+   "Chladicí žebra invertoru jsou příliš horká, často kvůli zablokovanému proudění vzduchu venku."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Ujistěte se, že proudění vzduchu kolem venkovní jednotky nic nebrání (krabice, rostliny, sníh, listí).",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|L5": {
+  "title": "Nadproud invertoru",
+  "causes": [
+   "Náhlý nadproud na výstupu invertoru, často kvůli problému s kompresorem."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|U0": {
+  "title": "Nedostatek chladiva",
+  "causes": [
+   "V systému je málo chladiva, obvykle kvůli úniku."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Zkontrolujte vzduchové filtry vnitřní jednotky, a pokud jsou zaprášené, vyčistěte je.",
+   "Nepokoušejte se chladivo doplňovat sami."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|U2": {
+  "title": "Problém s napájením",
+  "causes": [
+   "Napájecí napětí je neobvyklé nebo došlo ke krátkému výpadku proudu."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Daikin|U4": {
+  "title": "Závada komunikace mezi vnitřní a venkovní jednotkou",
+  "causes": [
+   "Signály mezi vnitřní a venkovní jednotkou se ztrácejí.",
+   "Problém s kabeláží nebo závada jedné z desek."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se kód po těchto kontrolách vrátí, zavolejte servisního technika Daikin; tato závada vyžaduje odbornou diagnostiku."
+ },
+ "Panasonic|H00": {
+  "title": "Žádná uložená závada",
+  "causes": [
+   "V paměti autodiagnostiky není zaznamenána žádná odchylka."
+  ],
+  "steps": [
+   "Není potřeba nic dělat.",
+   "Pokud jednotka nefunguje, zkontrolujte napájení a baterie v dálkovém ovladači."
+  ],
+  "technician": "Pokud jednotka neběží, ale zobrazuje H00, kontaktujte servisního technika Panasonic."
+ },
+ "Panasonic|H11": {
+  "title": "Závada komunikace mezi vnitřní a venkovní jednotkou",
+  "causes": [
+   "Vnitřní a venkovní jednotka spolu nemohou komunikovat."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Panasonic doporučuje, aby opravy u tohoto kódu prováděl kvalifikovaný servisní technik; pokud se kód vrací, zavolejte ho."
+ },
+ "Panasonic|H12": {
+  "title": "Nesoulad výkonu vnitřní jednotky",
+  "causes": [
+   "Vnitřní jednotka neodpovídá výkonu venkovní jednotky, obvykle jde o problém instalace."
+  ],
+  "steps": [
+   "Než zavoláte servis, zapište si kód a číslo modelu."
+  ],
+  "technician": "Kontaktujte instalační firmu nebo technika Panasonic, aby zkontroloval kombinaci jednotek."
+ },
+ "Panasonic|H14": {
+  "title": "Závada snímače teploty vzduchu vnitřní jednotky",
+  "causes": [
+   "Snímač nasávaného vzduchu vnitřní jednotky je vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Panasonic doporučuje, aby opravy u tohoto kódu prováděl kvalifikovaný servisní technik; pokud se kód vrací, zavolejte ho."
+ },
+ "Panasonic|H15": {
+  "title": "Závada snímače teploty kompresoru",
+  "causes": [
+   "Snímač teploty kompresoru je vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Panasonic doporučuje, aby opravy u tohoto kódu prováděl kvalifikovaný servisní technik; pokud se kód vrací, zavolejte ho."
+ },
+ "Panasonic|H16": {
+  "title": "Závada snímače proudu venkovní jednotky",
+  "causes": [
+   "Proudový transformátor (CT) venkovní jednotky je vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Panasonic doporučuje, aby opravy u tohoto kódu prováděl kvalifikovaný servisní technik; pokud se kód vrací, zavolejte ho."
+ },
+ "Panasonic|H19": {
+  "title": "Zablokovaný motor ventilátoru vnitřní jednotky",
+  "causes": [
+   "Motor ventilátoru vnitřní jednotky je zablokovaný nebo vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Zkontrolujte, zda ve výfuku vnitřní jednotky nic neuvízlo. Kryt neotevírejte.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Panasonic doporučuje, aby opravy u tohoto kódu prováděl kvalifikovaný servisní technik; pokud se kód vrací, zavolejte ho."
+ },
+ "Panasonic|H23": {
+  "title": "Závada snímače výměníku tepla vnitřní jednotky",
+  "causes": [
+   "Snímač teploty výměníku vnitřní jednotky je vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Panasonic doporučuje, aby opravy u tohoto kódu prováděl kvalifikovaný servisní technik; pokud se kód vrací, zavolejte ho."
+ },
+ "Panasonic|H27": {
+  "title": "Závada snímače venkovního vzduchu",
+  "causes": [
+   "Snímač teploty venkovního vzduchu je vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Panasonic doporučuje, aby opravy u tohoto kódu prováděl kvalifikovaný servisní technik; pokud se kód vrací, zavolejte ho."
+ },
+ "Panasonic|H28": {
+  "title": "Závada snímače výměníku tepla venkovní jednotky",
+  "causes": [
+   "Snímač teploty výměníku venkovní jednotky je vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Panasonic doporučuje, aby opravy u tohoto kódu prováděl kvalifikovaný servisní technik; pokud se kód vrací, zavolejte ho."
+ },
+ "Panasonic|H33": {
+  "title": "Vnitřní a venkovní jednotka jsou nesprávně propojené",
+  "causes": [
+   "Propojení mezi jednotkami je nesprávné, obvykle po instalaci."
+  ],
+  "steps": [
+   "Než zavoláte servis, zapište si kód a číslo modelu."
+  ],
+  "technician": "Požádejte instalační firmu nebo technika Panasonic o kontrolu kabeláže."
+ },
+ "Panasonic|H97": {
+  "title": "Zablokovaný motor ventilátoru venkovní jednotky",
+  "causes": [
+   "Ventilátor venkovní jednotky je zablokovaný nebo jeho motor selhal."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Odstraňte listí, sníh nebo předměty z okolí mřížky ventilátoru venkovní jednotky.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Panasonic doporučuje, aby opravy u tohoto kódu prováděl kvalifikovaný servisní technik; pokud se kód vrací, zavolejte ho."
+ },
+ "Panasonic|H98": {
+  "title": "Ochrana vnitřní jednotky proti vysokému tlaku",
+  "causes": [
+   "Při topení je tlak příliš vysoký, často kvůli znečištěnému filtru."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Zkontrolujte vzduchové filtry vnitřní jednotky, a pokud jsou zaprášené, vyčistěte je.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Panasonic doporučuje, aby opravy u tohoto kódu prováděl kvalifikovaný servisní technik; pokud se kód vrací, zavolejte ho."
+ },
+ "Panasonic|H99": {
+  "title": "Ochrana vnitřní jednotky proti zamrznutí",
+  "causes": [
+   "Výměník vnitřní jednotky se při chlazení příliš ochladil, často kvůli znečištěnému filtru nebo slabému proudění vzduchu."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Zkontrolujte vzduchové filtry vnitřní jednotky, a pokud jsou zaprášené, vyčistěte je.",
+   "Před opětovným spuštěním nechte led na výměníku vnitřní jednotky roztát.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Panasonic doporučuje, aby opravy u tohoto kódu prováděl kvalifikovaný servisní technik; pokud se kód vrací, zavolejte ho."
+ },
+ "Panasonic|F11": {
+  "title": "Závada přepínání čtyřcestného ventilu",
+  "causes": [
+   "Ventil, který přepíná mezi chlazením a topením, nefunguje."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Panasonic doporučuje, aby opravy u tohoto kódu prováděl kvalifikovaný servisní technik; pokud se kód vrací, zavolejte ho."
+ },
+ "Panasonic|F91": {
+  "title": "Závada chladicího okruhu",
+  "causes": [
+   "Chladicí okruh nefunguje správně, často kvůli nedostatku chladiva."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Zkontrolujte vzduchové filtry vnitřní jednotky, a pokud jsou zaprášené, vyčistěte je.",
+   "S chladivem sami nijak nepracujte."
+  ],
+  "technician": "Panasonic doporučuje, aby opravy u tohoto kódu prováděl kvalifikovaný servisní technik; pokud se kód vrací, zavolejte ho."
+ },
+ "Panasonic|F93": {
+  "title": "Neobvyklé otáčky kompresoru",
+  "causes": [
+   "Kompresor běží s neobvyklými otáčkami."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Panasonic doporučuje, aby opravy u tohoto kódu prováděl kvalifikovaný servisní technik; pokud se kód vrací, zavolejte ho."
+ },
+ "Panasonic|F95": {
+  "title": "Ochrana venkovní jednotky proti vysokému tlaku při chlazení",
+  "causes": [
+   "Tlak je příliš vysoký, často kvůli slabému proudění vzduchu venku."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Ujistěte se, že proudění vzduchu kolem venkovní jednotky nic nebrání (krabice, rostliny, sníh, listí).",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Panasonic doporučuje, aby opravy u tohoto kódu prováděl kvalifikovaný servisní technik; pokud se kód vrací, zavolejte ho."
+ },
+ "Panasonic|F97": {
+  "title": "Ochrana kompresoru proti přehřátí",
+  "causes": [
+   "Kompresor se přehřívá."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Ujistěte se, že proudění vzduchu kolem venkovní jednotky nic nebrání (krabice, rostliny, sníh, listí).",
+   "Zkontrolujte vzduchové filtry vnitřní jednotky, a pokud jsou zaprášené, vyčistěte je.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Panasonic doporučuje, aby opravy u tohoto kódu prováděl kvalifikovaný servisní technik; pokud se kód vrací, zavolejte ho."
+ },
+ "Panasonic|F99": {
+  "title": "Zjištěna špička DC ve venkovní jednotce",
+  "causes": [
+   "Ve venkovní jednotce byla zjištěna neobvyklá proudová špička."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Panasonic doporučuje, aby opravy u tohoto kódu prováděl kvalifikovaný servisní technik; pokud se kód vrací, zavolejte ho."
+ },
+ "Gree|E1": {
+  "title": "Ochrana proti vysokému tlaku",
+  "causes": [
+   "Znečištěné výměníky nebo filtry.",
+   "Zúžení v systému nebo příliš mnoho chladiva."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Zkontrolujte vzduchové filtry vnitřní jednotky, a pokud jsou zaprášené, vyčistěte je.",
+   "Ujistěte se, že proudění vzduchu kolem venkovní jednotky nic nebrání (krabice, rostliny, sníh, listí).",
+   "Zkontrolujte, zda při zapnuté jednotce běží oba ventilátory.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud jsou filtry a výměníky čisté, zavolejte technika klimatizací, aby zkontroloval tlaky a vysokotlaký spínač."
+ },
+ "Gree|E3": {
+  "title": "Ochrana proti nízkému tlaku",
+  "causes": [
+   "Znečištěné filtry nebo výměníky.",
+   "Únik chladiva."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Zkontrolujte vzduchové filtry vnitřní jednotky, a pokud jsou zaprášené, vyčistěte je.",
+   "Ujistěte se, že proudění vzduchu kolem venkovní jednotky nic nebrání (krabice, rostliny, sníh, listí)."
+  ],
+  "technician": "Pokud jsou filtry a výměníky čisté, musí technik zkontrolovat náplň chladiva a hledat úniky."
+ },
+ "Gree|E5": {
+  "title": "Ochrana proti nadproudu",
+  "causes": [
+   "Napájecí napětí je příliš vysoké, nebo nízké a kolísavé."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Technik by měl zkontrolovat a stabilizovat elektrické napájení."
+ },
+ "Gree|E7": {
+  "title": "Konflikt režimů",
+  "causes": [
+   "Vnitřní jednotky připojené k jedné venkovní jednotce mají nastavené různé režimy."
+  ],
+  "steps": [
+   "Nastavte všechny vnitřní jednotky na stejný režim (všechny chlazení, nebo všechny topení)."
+  ],
+  "technician": "Pokud kód nezmizí, i když jsou všechny jednotky ve stejném režimu, kontaktujte servisního technika Gree."
+ },
+ "Gree|F1": {
+  "title": "Závada snímače teploty v místnosti",
+  "causes": [
+   "Snímač okolní teploty vnitřní jednotky je vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Závady snímačů obvykle vyžadují náhradní díl namontovaný kvalifikovaným technikem."
+ },
+ "Gree|F2": {
+  "title": "Závada snímače výměníku vnitřní jednotky",
+  "causes": [
+   "Snímač výparníku vnitřní jednotky je vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Závady snímačů obvykle vyžadují náhradní díl namontovaný kvalifikovaným technikem."
+ },
+ "Gree|F3": {
+  "title": "Závada snímače venkovního vzduchu",
+  "causes": [
+   "Snímač okolní teploty venkovní jednotky je vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Závady snímačů obvykle vyžadují náhradní díl namontovaný kvalifikovaným technikem."
+ },
+ "Gree|F4": {
+  "title": "Závada snímače výměníku venkovní jednotky",
+  "causes": [
+   "Snímač potrubí venkovní jednotky je vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Závady snímačů obvykle vyžadují náhradní díl namontovaný kvalifikovaným technikem."
+ },
+ "Gree|F5": {
+  "title": "Závada snímače výtlaku",
+  "causes": [
+   "Snímač výtlaku kompresoru je vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Závady snímačů obvykle vyžadují náhradní díl namontovaný kvalifikovaným technikem."
+ },
+ "Gree|H1": {
+  "title": "Odmrazování",
+  "causes": [
+   "Venkovní jednotka během topení odmrazuje. Jde o normální stav."
+  ],
+  "steps": [
+   "Počkejte, až odmrazování skončí; topení se obnoví samo."
+  ],
+  "technician": "Technika volejte jen tehdy, pokud jednotka neustále odmrazuje a netopí."
+ },
+ "Gree|H5": {
+  "title": "Ochrana výkonového modulu (IPM)",
+  "causes": [
+   "Výkonový modul invertoru se zastavil kvůli problémům s napětím nebo teplotou."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se H5 vrátí, jednotka potřebuje odborný servis."
+ },
+ "Gree|U3": {
+  "title": "Pokles napětí DC sběrnice",
+  "causes": [
+   "Vnitřní stejnosměrné napětí kleslo, často kvůli problémům s napájením."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se U3 vrátí, nechte jednotku a napájení posoudit odborníkem."
+ },
+ "Gree|L9": {
+  "title": "Ochrana napájení",
+  "causes": [
+   "Velké přepětí aktivovalo ochranný režim."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Pokud se L9 vrátí, nechte jednotku a napájení posoudit odborníkem."
+ },
+ "Haier|E1": {
+  "title": "Závada snímače teploty vnitřní jednotky (split)",
+  "causes": [
+   "Snímač teploty v místnosti ve vnitřní jednotce je vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Podle výrobce Haier tento kód odstraní jen technik poprodejního servisu; zavolejte servis Haier."
+ },
+ "Haier|E2": {
+  "title": "Závada snímače teploty potrubí vnitřní jednotky (split)",
+  "causes": [
+   "Snímač potrubí výměníku vnitřní jednotky je vadný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Podle výrobce Haier tento kód odstraní jen technik poprodejního servisu; zavolejte servis Haier."
+ },
+ "Haier|E4": {
+  "title": "Závada paměti vnitřní jednotky (EEPROM) (split)",
+  "causes": [
+   "Paměť řídicí desky vnitřní jednotky je vadná."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Podle výrobce Haier tento kód odstraní jen technik poprodejního servisu; zavolejte servis Haier."
+ },
+ "Haier|E5": {
+  "title": "Ochrana vnitřní jednotky proti zamrznutí",
+  "causes": [
+   "Výměník vnitřní jednotky se příliš ochlazuje, často kvůli slabému proudění vzduchu."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Zkontrolujte vzduchové filtry vnitřní jednotky, a pokud jsou zaprášené, vyčistěte je.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Podle výrobce Haier tento kód odstraní jen technik poprodejního servisu; zavolejte servis Haier."
+ },
+ "Haier|E7": {
+  "title": "Závada komunikace mezi vnitřní a venkovní jednotkou",
+  "causes": [
+   "Vnitřní a venkovní jednotka spolu nemohou komunikovat."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Podle výrobce Haier tento kód odstraní jen technik poprodejního servisu; zavolejte servis Haier."
+ },
+ "Haier|E9": {
+  "title": "Přetížení vnitřní jednotky při topení",
+  "causes": [
+   "Vnitřní jednotka se v režimu topení přehřívá, často kvůli ucpanému filtru."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Zkontrolujte vzduchové filtry vnitřní jednotky, a pokud jsou zaprášené, vyčistěte je.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Podle výrobce Haier tento kód odstraní jen technik poprodejního servisu; zavolejte servis Haier."
+ },
+ "Haier|E14": {
+  "title": "Závada motoru ventilátoru vnitřní jednotky",
+  "causes": [
+   "Motor ventilátoru vnitřní jednotky je vadný nebo zablokovaný."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Podle výrobce Haier tento kód odstraní jen technik poprodejního servisu; zavolejte servis Haier."
+ },
+ "Haier|F1": {
+  "title": "Ochrana výkonového modulu (IPM)",
+  "causes": [
+   "Invertorový modul venkovní jednotky přešel do ochranného režimu."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Podle výrobce Haier tento kód odstraní jen technik poprodejního servisu; zavolejte servis Haier."
+ },
+ "Haier|F8": {
+  "title": "Závada DC motoru ventilátoru venkovní jednotky",
+  "causes": [
+   "Motor ventilátoru venkovní jednotky je vadný nebo zablokovaný."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Ujistěte se, že proudění vzduchu kolem venkovní jednotky nic nebrání (krabice, rostliny, sníh, listí).",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Podle výrobce Haier tento kód odstraní jen technik poprodejního servisu; zavolejte servis Haier."
+ },
+ "Haier|F12": {
+  "title": "Závada paměti venkovní jednotky (EEPROM)",
+  "causes": [
+   "Paměť desky venkovní jednotky je vadná."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Podle výrobce Haier tento kód odstraní jen technik poprodejního servisu; zavolejte servis Haier."
+ },
+ "Haier|F13": {
+  "title": "Nedostatek chladiva",
+  "causes": [
+   "V systému je málo chladiva, obvykle kvůli úniku."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Nepokoušejte se chladivo doplňovat sami.",
+   "Než zavoláte servis, zapište si kód a číslo modelu."
+  ],
+  "technician": "Podle výrobce Haier tento kód odstraní jen technik poprodejního servisu; zavolejte servis Haier."
+ },
+ "Haier|F19": {
+  "title": "Napájecí napětí příliš vysoké nebo příliš nízké",
+  "causes": [
+   "Napětí v síti je mimo povolený rozsah."
+  ],
+  "steps": [
+   "Vypněte jednotku dálkovým ovladačem.",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Podle výrobce Haier tento kód odstraní jen technik poprodejního servisu; zavolejte servis Haier."
+ },
+ "Haier|F20": {
+  "title": "Ochrana proti vysokému tlaku",
+  "causes": [
+   "Tlak v systému je příliš vysoký, často kvůli zablokovanému proudění vzduchu venku."
+  ],
+  "steps": [
+   "Vypněte jednotku.",
+   "Ujistěte se, že proudění vzduchu kolem venkovní jednotky nic nebrání (krabice, rostliny, sníh, listí).",
+   "Vypněte jistič klimatizace nebo ji odpojte ze zásuvky.",
+   "Počkejte asi 5 minut, pak obnovte napájení a klimatizaci znovu zapněte."
+  ],
+  "technician": "Podle výrobce Haier tento kód odstraní jen technik poprodejního servisu; zavolejte servis Haier."
+ },
+ "Haier|FL": {
+  "title": "Plná nádržka na vodu (mobilní klimatizace)",
+  "causes": [
+   "Vnitřní nádržka na vodu je plná."
+  ],
+  "steps": [
+   "Vypněte jednotku a odpojte ji ze zásuvky.",
+   "Vypusťte vodu z vypouštěcího otvoru do nádoby.",
+   "Nasaďte zpět vypouštěcí zátku a jednotku znovu spusťte."
+  ],
+  "technician": "Pokud se FL objeví znovu hned po vypuštění, kontaktujte servis Haier."
+ },
+ "Haier|STOP": {
+  "title": "Plná nádržka nebo zaseknutý plovák (mobilní klimatizace, 2016 a starší)",
+  "causes": [
+   "Nádržka na vodu je plná.",
+   "Plovák nádržky blokují nečistoty."
+  ],
+  "steps": [
+   "Vypněte jednotku a odpojte ji ze zásuvky.",
+   "Vyprázdněte nádržku na vodu.",
+   "Zkontrolujte, zda se plovák volně pohybuje, a odstraňte nečistoty."
+  ],
+  "technician": "Pokud STOP nezmizí ani s prázdnou nádržkou a volným plovákem, kontaktujte servis Haier."
+ }
+}

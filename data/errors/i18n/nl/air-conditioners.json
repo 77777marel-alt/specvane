@@ -1,0 +1,1180 @@
+{
+ "LG|CH00": {
+  "title": "Apparaat moet worden gecontroleerd (algemene fout)",
+  "causes": [
+   "Een tijdelijke stroomschommeling of elektrische storing.",
+   "Een interne storing die moet worden nagekeken."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt CH00 terug na het resetten van de stroom, vraag dan een LG-monteur aan."
+ },
+ "LG|CH01": {
+  "title": "Storing temperatuursensor",
+  "causes": [
+   "Een temperatuur- of leidingsensor is defect of losgeraakt.",
+   "Een fout op de hoofdprint of een korte elektrische hapering."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in.",
+   "Controleer of de code verdwenen is."
+  ],
+  "technician": "Komt de code terug na een reset, gebruik het apparaat dan niet meer en plan LG-service in. Open het apparaat niet."
+ },
+ "LG|CH02": {
+  "title": "Storing temperatuursensor",
+  "causes": [
+   "Een temperatuur- of leidingsensor is defect of losgeraakt.",
+   "Een fout op de hoofdprint of een korte elektrische hapering."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in.",
+   "Controleer of de code verdwenen is."
+  ],
+  "technician": "Komt de code terug na een reset, gebruik het apparaat dan niet meer en plan LG-service in. Open het apparaat niet."
+ },
+ "LG|CH06": {
+  "title": "Storing temperatuursensor",
+  "causes": [
+   "Een temperatuur- of leidingsensor is defect of losgeraakt.",
+   "Een fout op de hoofdprint of een korte elektrische hapering."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in.",
+   "Controleer of de code verdwenen is."
+  ],
+  "technician": "Komt de code terug na een reset, gebruik het apparaat dan niet meer en plan LG-service in. Open het apparaat niet."
+ },
+ "LG|CH21": {
+  "title": "Storing compressor of aandrijfcircuit buitenunit",
+  "causes": [
+   "Een kort stroomprobleem.",
+   "Een storing in de compressor, het aandrijfcircuit of het beveiligingscircuit in de buitenunit."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Blijft de code staan, gebruik het apparaat dan niet meer en vraag een LG-monteur aan."
+ },
+ "LG|CH26": {
+  "title": "Storing compressor of aandrijfcircuit buitenunit",
+  "causes": [
+   "Een kort stroomprobleem.",
+   "Een storing in de compressor, het aandrijfcircuit of het beveiligingscircuit in de buitenunit."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Blijft de code staan, gebruik het apparaat dan niet meer en vraag een LG-monteur aan."
+ },
+ "LG|CH04": {
+  "title": "Probleem met de afvoer of condenswaterbak vol",
+  "causes": [
+   "De afvoer van de binnenunit werkt niet (plafondunits).",
+   "Bij raam- en mobiele units is de condenswaterbak vol, vaak op vochtige dagen."
+  ],
+  "steps": [
+   "Schakel het apparaat uit en haal de stekker uit het stopcontact.",
+   "Zet bij raam- of mobiele units een bak van ongeveer 1,5 liter onder de afvoeropening onderaan de achterkant en haal de afvoerdop eraf.",
+   "Laat het water weglopen en draai de dop weer stevig vast.",
+   "U kunt een afvoerslang aansluiten om continu af te voeren; zorg dat er geen water op iemand eronder drupt."
+  ],
+  "technician": "Verschijnt CH04/FL vaak, ook bij droog weer, of bij een plafondunit na een reset, plan dan LG-service in."
+ },
+ "LG|CH05": {
+  "title": "Communicatiefout tussen binnen- en buitenunit",
+  "causes": [
+   "De binnen- en buitenunit kunnen niet met elkaar communiceren.",
+   "Probleem met de bedrading na een nieuwe installatie of verplaatsing."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Blijft de code staan na een reset, of is het apparaat net geïnstalleerd of verplaatst, vraag dan service aan."
+ },
+ "LG|CH07": {
+  "title": "Conflict tussen werkstanden",
+  "causes": [
+   "Twee binnenunits op één systeem staan in tegengestelde standen (verwarmen tegenover koelen/drogen)."
+  ],
+  "steps": [
+   "Zet alle binnenunits op verwarmen, of alle op koelen/drogen.",
+   "De standen ventilator en luchtzuivering kunnen met elke stand samen draaien."
+  ],
+  "technician": "Blijft de code staan terwijl alle units in dezelfde stand staan, neem dan contact op met de LG-klantenservice."
+ },
+ "LG|CH10": {
+  "title": "Probleem met de ventilator binnenunit",
+  "causes": [
+   "Vuil of ijs blokkeert de ventilator van de binnenunit.",
+   "Storing ventilatormotor."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Verwijder zichtbaar vuil uit de luchtinlaat en -uitlaat. Open de behuizing niet.",
+   "Controleer de luchtfilters van de binnenunit en maak ze schoon als ze stoffig zijn.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Blokkeert er niets de ventilator en komt de code terug, vraag dan service aan."
+ },
+ "LG|CH67": {
+  "title": "Probleem met de ventilator buitenunit",
+  "causes": [
+   "Vuil of sneeuw blokkeert de ventilator van de buitenunit.",
+   "Storing ventilatormotor buitenunit."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Verwijder bladeren, sneeuw of voorwerpen rond het rooster van de buitenunit.",
+   "Zorg dat niets de luchtstroom rond de buitenunit blokkeert (dozen, planten, sneeuw, bladeren).",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Blokkeert er niets en komt de code terug, vraag dan service aan."
+ },
+ "LG|CH38": {
+  "title": "Te weinig koudemiddel",
+  "causes": [
+   "Er zit te weinig koudemiddel in het systeem, vaak na installatie of verplaatsing.",
+   "Een losse leidingverbinding of een lek."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Is het apparaat onlangs geïnstalleerd of verplaatst, bel dan de installateur; neem anders contact op met de LG-klantenservice als de code terugkomt. Werk aan koudemiddel is alleen voor monteurs."
+ },
+ "LG|CH54": {
+  "title": "Fout fasevolgorde of stroomvoorziening",
+  "causes": [
+   "Een korte stroomstoring of recent elektrisch werk.",
+   "De fasen zijn verkeerd om aangesloten."
+  ],
+  "steps": [
+   "Zet de groep van de airco uit en weer aan."
+  ],
+  "technician": "Begon de code na elektrisch werk, vraag die elektricien dan de bedrading te corrigeren; vraag anders LG-service aan."
+ },
+ "LG|CH61": {
+  "title": "Apparaat raakt oververhit",
+  "causes": [
+   "Bij koelen: de buitenunit wordt slecht geventileerd, bijvoorbeeld op een dicht balkon.",
+   "Bij verwarmen: het filter van de binnenunit is verstopt."
+  ],
+  "steps": [
+   "Open bij koelen ramen of schermen bij de buitenunit en ruim spullen eromheen op.",
+   "Controleer de luchtfilters van de binnenunit en maak ze schoon als ze stoffig zijn.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Blijft de code staan na een reset en een betere luchtstroom, dan moet een monteur het apparaat nakijken."
+ },
+ "LG|CH66": {
+  "title": "Probleem met bedrading of leidingen tussen binnen- en buitenunit",
+  "causes": [
+   "Een probleem met de communicatielijn of leidingverbinding tussen de units."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Is het apparaat net geïnstalleerd of verplaatst, bel dan de installateur; blijft de code staan, vraag dan een monteur aan."
+ },
+ "LG|CH90": {
+  "title": "Beveiliging tijdens testrun",
+  "causes": [
+   "De testrun heeft een probleem gevonden, vaak met de leidingverbindingen."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Is het apparaat nieuw of verplaatst, vraag de installateur dan de leidingen te controleren; vraag anders service aan als het probleem blijft."
+ },
+ "LG|CH93": {
+  "title": "Communicatie tussen binnen- en buitenunit instabiel",
+  "causes": [
+   "Instabiele communicatie tijdens de testrun.",
+   "Bij nieuwere modellen heeft de buitenunit geen stroom."
+  ],
+  "steps": [
+   "Controleer of beide netsnoeren in het stopcontact zitten (nieuwere modellen hebben er één per unit).",
+   "Sluit de buitenunit direct aan op een wandcontactdoos, niet op een stekkerdoos.",
+   "Zorg dat de groep van de airco aan staat. Blijft die niet aan, zet hem dan niet steeds opnieuw aan.",
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Valt de groep steeds uit of blijft de code staan, vraag dan LG-service aan."
+ },
+ "Samsung|E121": {
+  "title": "Storing kamertemperatuursensor",
+  "causes": [
+   "De sensor voor de kamertemperatuur in de binnenunit is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in.",
+   "Noteer de code en uw modelnummer voordat u de service belt."
+  ],
+  "technician": "Hiervoor is een erkende Samsung-reparatie nodig; neem contact op met de Samsung-service."
+ },
+ "Samsung|E122": {
+  "title": "Storing temperatuursensor warmtewisselaar",
+  "causes": [
+   "De sensor van de warmtewisselaar in de binnenunit is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in.",
+   "Noteer de code en uw modelnummer voordat u de service belt."
+  ],
+  "technician": "Hiervoor is een erkende Samsung-reparatie nodig; neem contact op met de Samsung-service."
+ },
+ "Samsung|E154": {
+  "title": "Ventilator binnenunit draait niet",
+  "causes": [
+   "De ventilatormotor van de binnenunit staat in beveiligingsmodus, bijvoorbeeld na een spanningspiek.",
+   "De ventilatormotor of de besturingsprint is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit, wacht een paar seconden en zet het weer aan.",
+   "Let op of de code binnen ongeveer 10 seconden terugkomt.",
+   "Overweeg een spanningsstabilisator in gebieden met veel spanningspieken."
+  ],
+  "technician": "Komt de code direct na het herstarten terug, neem dan contact op met de Samsung-service."
+ },
+ "Samsung|E163": {
+  "title": "Geheugenfout besturingsprint (EEPROM)",
+  "causes": [
+   "Gegevens in het geheugen van de hoofdprint zijn onjuist of ontbreken."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in.",
+   "Noteer de code en uw modelnummer voordat u de service belt."
+  ],
+  "technician": "Hiervoor is een erkende Samsung-reparatie nodig; neem contact op met de Samsung-service."
+ },
+ "Samsung|CF": {
+  "title": "Herinnering filter schoonmaken",
+  "causes": [
+   "De timer voor het schoonmaken van het filter is afgelopen."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Haal de filters van de binnenunit eruit en maak ze schoon.",
+   "Plaats de filters terug en reset de filterindicator."
+  ],
+  "technician": "Voor deze herinnering is geen monteur nodig."
+ },
+ "Samsung|dF": {
+  "title": "Ontdooien in verwarmingsstand",
+  "causes": [
+   "De buitenunit smelt ijs tijdens het verwarmen. Damp uit de buitenunit is normaal."
+  ],
+  "steps": [
+   "Wacht; het verwarmen gaat verder als het ontdooien klaar is.",
+   "U hoeft niets te doen."
+  ],
+  "technician": "Bel alleen de service als het apparaat heel lang blijft ontdooien en niet verwarmt."
+ },
+ "Daikin|A1": {
+  "title": "Storing printplaat binnenunit",
+  "causes": [
+   "De besturingsprint van de binnenunit heeft een storing."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|A3": {
+  "title": "Probleem met de afvoerniveauregeling",
+  "causes": [
+   "Condenswater loopt niet weg uit de binnenunit.",
+   "De afvoerleiding is mogelijk verstopt."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Controleer de afvoerslang buiten op knikken of verstoppingen.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|A5": {
+  "title": "Bevriezings- of hogedrukbeveiliging",
+  "causes": [
+   "Bij koelen wordt de spiraal van de binnenunit te koud.",
+   "Bij verwarmen is de druk te hoog, vaak door een slechte luchtstroom."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Controleer de luchtfilters van de binnenunit en maak ze schoon als ze stoffig zijn.",
+   "Controleer of niets de luchtinlaat of -uitlaat van de binnenunit blokkeert.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|A6": {
+  "title": "Storing ventilatormotor binnenunit",
+  "causes": [
+   "De ventilatormotor van de binnenunit of de aansturing ervan is kapot of geblokkeerd."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Controleer of er niets vastzit in de uitlaat van de binnenunit. Open de behuizing niet.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|C4": {
+  "title": "Storing temperatuursensor spiraal binnenunit",
+  "causes": [
+   "De thermistor op de vloeistofleiding van de warmtewisselaar binnen is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|C9": {
+  "title": "Storing kamersensor (aanzuiglucht)",
+  "causes": [
+   "De luchtthermistor van de binnenunit is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|E1": {
+  "title": "Storing printplaat buitenunit",
+  "causes": [
+   "De besturingsprint van de buitenunit heeft een storing."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|E3": {
+  "title": "Hogedrukschakelaar aangesproken",
+  "causes": [
+   "De systeemdruk is te hoog, vaak door een slechte luchtstroom buiten of een vuile spiraal."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Zorg dat niets de luchtstroom rond de buitenunit blokkeert (dozen, planten, sneeuw, bladeren).",
+   "Controleer de luchtfilters van de binnenunit en maak ze schoon als ze stoffig zijn.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|E5": {
+  "title": "Compressor oververhit of geblokkeerd",
+  "causes": [
+   "De invertercompressor is oververhit of wil niet draaien."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Zorg dat niets de luchtstroom rond de buitenunit blokkeert (dozen, planten, sneeuw, bladeren).",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|E6": {
+  "title": "Overstroom of blokkering compressor",
+  "causes": [
+   "De compressor trekt te veel stroom of zit vast."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|E7": {
+  "title": "Storing ventilatormotor buitenunit",
+  "causes": [
+   "Het systeem van de ventilatormotor buiten heeft een storing of is geblokkeerd."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Verwijder bladeren, sneeuw of voorwerpen van het rooster van de buitenunit.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|E8": {
+  "title": "Overstroom compressor",
+  "causes": [
+   "De ingangsstroom van de invertercompressor is te hoog."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|F3": {
+  "title": "Temperatuur persleiding te hoog",
+  "causes": [
+   "De persleiding van de compressor raakt oververhit, bijvoorbeeld door te weinig koudemiddel of een slechte luchtstroom."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Zorg dat niets de luchtstroom rond de buitenunit blokkeert (dozen, planten, sneeuw, bladeren).",
+   "Controleer de luchtfilters van de binnenunit en maak ze schoon als ze stoffig zijn.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|F6": {
+  "title": "Afwijkend hoge druk",
+  "causes": [
+   "De druk van het koudemiddel is te hoog, mogelijk door te veel koudemiddel of een geblokkeerde luchtstroom."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Zorg dat niets de luchtstroom rond de buitenunit blokkeert (dozen, planten, sneeuw, bladeren).",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|H6": {
+  "title": "Storing positiesensor compressor",
+  "causes": [
+   "De detectie van de rotorpositie van de compressor werkt niet."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|H8": {
+  "title": "Storing stroomsensor compressor",
+  "causes": [
+   "Het circuit voor de ingangsstroom (CT) van de compressor heeft een storing."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|H9": {
+  "title": "Storing buitenluchtsensor",
+  "causes": [
+   "De buitenluchtthermistor is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|J3": {
+  "title": "Storing sensor persleiding",
+  "causes": [
+   "De thermistor van de persleiding is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|L4": {
+  "title": "Koellichaam inverter oververhit",
+  "causes": [
+   "De koelvin van de inverter is te heet, vaak door een geblokkeerde luchtstroom buiten."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Zorg dat niets de luchtstroom rond de buitenunit blokkeert (dozen, planten, sneeuw, bladeren).",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|L5": {
+  "title": "Overstroom inverter",
+  "causes": [
+   "Een plotselinge overstroom aan de uitgang van de inverter, vaak door een probleem met de compressor."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|U0": {
+  "title": "Tekort aan koudemiddel",
+  "causes": [
+   "Het systeem heeft te weinig koudemiddel, meestal door een lek."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Controleer de luchtfilters van de binnenunit en maak ze schoon als ze stoffig zijn.",
+   "Probeer niet zelf koudemiddel bij te vullen."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|U2": {
+  "title": "Probleem met de stroomvoorziening",
+  "causes": [
+   "De netspanning is afwijkend of er was een korte stroomstoring."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Daikin|U4": {
+  "title": "Communicatiestoring tussen binnen- en buitenunit",
+  "causes": [
+   "Signalen tussen de binnen- en buitenunit gaan verloren.",
+   "Een probleem met de bedrading of een storing op een van de printplaten."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt de code na deze controles terug, bel dan een servicemonteur van Daikin; deze storing vraagt om een professionele diagnose."
+ },
+ "Panasonic|H00": {
+  "title": "Geen storing opgeslagen",
+  "causes": [
+   "In het geheugen van de zelfdiagnose is geen afwijking vastgelegd."
+  ],
+  "steps": [
+   "U hoeft niets te doen.",
+   "Werkt het apparaat niet, controleer dan de stroomvoorziening en de batterijen van de afstandsbediening."
+  ],
+  "technician": "Draait het apparaat niet maar toont het H00, neem dan contact op met een servicemonteur van Panasonic."
+ },
+ "Panasonic|H11": {
+  "title": "Communicatiestoring tussen binnen- en buitenunit",
+  "causes": [
+   "De binnen- en buitenunit kunnen niet met elkaar communiceren."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Panasonic raadt aan reparaties voor deze code door een gekwalificeerde servicemonteur te laten uitvoeren; bel er een als de code terugkomt."
+ },
+ "Panasonic|H12": {
+  "title": "Capaciteit binnenunit past niet",
+  "causes": [
+   "De binnenunit past niet bij de capaciteit van de buitenunit, meestal een installatieprobleem."
+  ],
+  "steps": [
+   "Noteer de code en uw modelnummer voordat u de service belt."
+  ],
+  "technician": "Neem contact op met uw installateur of een Panasonic-monteur om de combinatie van units te laten controleren."
+ },
+ "Panasonic|H14": {
+  "title": "Storing luchttemperatuursensor binnenunit",
+  "causes": [
+   "De sensor voor de aangezogen lucht in de binnenunit is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Panasonic raadt aan reparaties voor deze code door een gekwalificeerde servicemonteur te laten uitvoeren; bel er een als de code terugkomt."
+ },
+ "Panasonic|H15": {
+  "title": "Storing temperatuursensor compressor",
+  "causes": [
+   "De temperatuursensor van de compressor is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Panasonic raadt aan reparaties voor deze code door een gekwalificeerde servicemonteur te laten uitvoeren; bel er een als de code terugkomt."
+ },
+ "Panasonic|H16": {
+  "title": "Storing stroomsensor buitenunit",
+  "causes": [
+   "De stroomtransformator (CT) van de buitenunit is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Panasonic raadt aan reparaties voor deze code door een gekwalificeerde servicemonteur te laten uitvoeren; bel er een als de code terugkomt."
+ },
+ "Panasonic|H19": {
+  "title": "Ventilatormotor binnenunit geblokkeerd",
+  "causes": [
+   "De ventilatormotor van de binnenunit zit vast of is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Controleer of er niets klem zit in de uitlaat van de binnenunit. Open de behuizing niet.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Panasonic raadt aan reparaties voor deze code door een gekwalificeerde servicemonteur te laten uitvoeren; bel er een als de code terugkomt."
+ },
+ "Panasonic|H23": {
+  "title": "Storing sensor warmtewisselaar binnenunit",
+  "causes": [
+   "De temperatuursensor van de spiraal in de binnenunit is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Panasonic raadt aan reparaties voor deze code door een gekwalificeerde servicemonteur te laten uitvoeren; bel er een als de code terugkomt."
+ },
+ "Panasonic|H27": {
+  "title": "Storing buitenluchtsensor",
+  "causes": [
+   "De luchttemperatuursensor van de buitenunit is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Panasonic raadt aan reparaties voor deze code door een gekwalificeerde servicemonteur te laten uitvoeren; bel er een als de code terugkomt."
+ },
+ "Panasonic|H28": {
+  "title": "Storing sensor warmtewisselaar buitenunit",
+  "causes": [
+   "De temperatuursensor van de spiraal in de buitenunit is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Panasonic raadt aan reparaties voor deze code door een gekwalificeerde servicemonteur te laten uitvoeren; bel er een als de code terugkomt."
+ },
+ "Panasonic|H33": {
+  "title": "Binnen- en buitenunit verkeerd aangesloten",
+  "causes": [
+   "De verbinding tussen de units is niet correct, meestal na de installatie."
+  ],
+  "steps": [
+   "Noteer de code en uw modelnummer voordat u de service belt."
+  ],
+  "technician": "Vraag de installateur of een Panasonic-monteur de bedrading te controleren."
+ },
+ "Panasonic|H97": {
+  "title": "Ventilatormotor buitenunit geblokkeerd",
+  "causes": [
+   "De buitenventilator is geblokkeerd of de motor ervan is kapot."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Verwijder bladeren, sneeuw of voorwerpen rond het ventilatorrooster van de buitenunit.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Panasonic raadt aan reparaties voor deze code door een gekwalificeerde servicemonteur te laten uitvoeren; bel er een als de code terugkomt."
+ },
+ "Panasonic|H98": {
+  "title": "Hogedrukbeveiliging binnenunit",
+  "causes": [
+   "De druk is te hoog bij verwarmen, vaak door een vuil filter."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Controleer de luchtfilters van de binnenunit en maak ze schoon als ze stoffig zijn.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Panasonic raadt aan reparaties voor deze code door een gekwalificeerde servicemonteur te laten uitvoeren; bel er een als de code terugkomt."
+ },
+ "Panasonic|H99": {
+  "title": "Vorstbeveiliging binnenunit",
+  "causes": [
+   "De spiraal van de binnenunit is te koud geworden bij koelen, vaak door een vuil filter of te weinig luchtstroom."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Controleer de luchtfilters van de binnenunit en maak ze schoon als ze stoffig zijn.",
+   "Laat ijs op de spiraal van de binnenunit smelten voordat u opnieuw start.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Panasonic raadt aan reparaties voor deze code door een gekwalificeerde servicemonteur te laten uitvoeren; bel er een als de code terugkomt."
+ },
+ "Panasonic|F11": {
+  "title": "Storing vierwegklep",
+  "causes": [
+   "De klep die omschakelt tussen koelen en verwarmen werkt niet."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Panasonic raadt aan reparaties voor deze code door een gekwalificeerde servicemonteur te laten uitvoeren; bel er een als de code terugkomt."
+ },
+ "Panasonic|F91": {
+  "title": "Storing koudemiddelcircuit",
+  "causes": [
+   "Het koudemiddelcircuit werkt niet goed, vaak door te weinig koudemiddel."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Controleer de luchtfilters van de binnenunit en maak ze schoon als ze stoffig zijn.",
+   "Voer zelf geen werkzaamheden aan het koudemiddel uit."
+  ],
+  "technician": "Panasonic raadt aan reparaties voor deze code door een gekwalificeerde servicemonteur te laten uitvoeren; bel er een als de code terugkomt."
+ },
+ "Panasonic|F93": {
+  "title": "Afwijkend toerental compressor",
+  "causes": [
+   "De compressor draait op een afwijkend toerental."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Panasonic raadt aan reparaties voor deze code door een gekwalificeerde servicemonteur te laten uitvoeren; bel er een als de code terugkomt."
+ },
+ "Panasonic|F95": {
+  "title": "Hogedrukbeveiliging buitenunit bij koelen",
+  "causes": [
+   "De druk is te hoog, vaak door een slechte luchtstroom buiten."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Zorg dat niets de luchtstroom rond de buitenunit blokkeert (dozen, planten, sneeuw, bladeren).",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Panasonic raadt aan reparaties voor deze code door een gekwalificeerde servicemonteur te laten uitvoeren; bel er een als de code terugkomt."
+ },
+ "Panasonic|F97": {
+  "title": "Oververhittingsbeveiliging compressor",
+  "causes": [
+   "De compressor raakt oververhit."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Zorg dat niets de luchtstroom rond de buitenunit blokkeert (dozen, planten, sneeuw, bladeren).",
+   "Controleer de luchtfilters van de binnenunit en maak ze schoon als ze stoffig zijn.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Panasonic raadt aan reparaties voor deze code door een gekwalificeerde servicemonteur te laten uitvoeren; bel er een als de code terugkomt."
+ },
+ "Panasonic|F99": {
+  "title": "DC-piek in buitenunit gedetecteerd",
+  "causes": [
+   "Er is een afwijkende stroompiek in de buitenunit gedetecteerd."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Panasonic raadt aan reparaties voor deze code door een gekwalificeerde servicemonteur te laten uitvoeren; bel er een als de code terugkomt."
+ },
+ "Gree|E1": {
+  "title": "Hogedrukbeveiliging",
+  "causes": [
+   "Vuile spiralen of filters.",
+   "Een vernauwing in het systeem of te veel koudemiddel."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Controleer de luchtfilters van de binnenunit en maak ze schoon als ze stoffig zijn.",
+   "Zorg dat niets de luchtstroom rond de buitenunit blokkeert (dozen, planten, sneeuw, bladeren).",
+   "Controleer of beide ventilatoren draaien als het apparaat aan staat.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Zijn filters en spiralen schoon, bel dan een klimaattechnisch monteur om de drukken en de hogedrukschakelaar te controleren."
+ },
+ "Gree|E3": {
+  "title": "Lagedrukbeveiliging",
+  "causes": [
+   "Vuile filters of spiralen.",
+   "Een lek in het koudemiddelcircuit."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Controleer de luchtfilters van de binnenunit en maak ze schoon als ze stoffig zijn.",
+   "Zorg dat niets de luchtstroom rond de buitenunit blokkeert (dozen, planten, sneeuw, bladeren)."
+  ],
+  "technician": "Zijn filters en spiralen schoon, dan moet een monteur de hoeveelheid koudemiddel controleren en lekken opsporen."
+ },
+ "Gree|E5": {
+  "title": "Overstroombeveiliging",
+  "causes": [
+   "De netspanning is te hoog, of laag en instabiel."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Een monteur moet de stroomvoorziening controleren en stabiliseren."
+ },
+ "Gree|E7": {
+  "title": "Conflict tussen standen",
+  "causes": [
+   "Binnenunits die op één buitenunit zijn aangesloten, staan in verschillende standen."
+  ],
+  "steps": [
+   "Zet alle binnenunits in dezelfde stand (allemaal koelen of allemaal verwarmen)."
+  ],
+  "technician": "Blijft de code staan terwijl alle units in dezelfde stand staan, neem dan contact op met een servicemonteur van Gree."
+ },
+ "Gree|F1": {
+  "title": "Storing kamersensor binnenunit",
+  "causes": [
+   "De sensor voor de omgevingstemperatuur in de binnenunit is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Bij sensorstoringen moet meestal een nieuw onderdeel worden geplaatst door een gekwalificeerde monteur."
+ },
+ "Gree|F2": {
+  "title": "Storing spiraalsensor binnenunit",
+  "causes": [
+   "De verdampersensor in de binnenunit is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Bij sensorstoringen moet meestal een nieuw onderdeel worden geplaatst door een gekwalificeerde monteur."
+ },
+ "Gree|F3": {
+  "title": "Storing buitenluchtsensor",
+  "causes": [
+   "De sensor voor de buitentemperatuur is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Bij sensorstoringen moet meestal een nieuw onderdeel worden geplaatst door een gekwalificeerde monteur."
+ },
+ "Gree|F4": {
+  "title": "Storing spiraalsensor buitenunit",
+  "causes": [
+   "De leidingsensor van de buitenunit is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Bij sensorstoringen moet meestal een nieuw onderdeel worden geplaatst door een gekwalificeerde monteur."
+ },
+ "Gree|F5": {
+  "title": "Storing perssensor",
+  "causes": [
+   "De perssensor van de compressor is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Bij sensorstoringen moet meestal een nieuw onderdeel worden geplaatst door een gekwalificeerde monteur."
+ },
+ "Gree|H1": {
+  "title": "Ontdooien",
+  "causes": [
+   "De buitenunit ontdooit tijdens het verwarmen. Dit is een normale status."
+  ],
+  "steps": [
+   "Wacht tot het ontdooien klaar is; het verwarmen gaat vanzelf verder."
+  ],
+  "technician": "Bel alleen een monteur als het apparaat steeds ontdooit en niet verwarmt."
+ },
+ "Gree|H5": {
+  "title": "Beveiliging vermogensmodule (IPM)",
+  "causes": [
+   "De vermogensmodule van de inverter is gestopt door problemen met spanning of temperatuur."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt H5 terug, dan heeft het apparaat professionele service nodig."
+ },
+ "Gree|U3": {
+  "title": "Daling DC-busspanning",
+  "causes": [
+   "De interne gelijkspanning is gedaald, vaak door problemen met de stroomvoorziening."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt U3 terug, laat het apparaat en de stroomvoorziening dan beoordelen door een vakman."
+ },
+ "Gree|L9": {
+  "title": "Stroombeveiliging",
+  "causes": [
+   "Een grote stroompiek heeft de beveiligingsmodus geactiveerd."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Komt L9 terug, laat het apparaat en de stroomvoorziening dan beoordelen door een vakman."
+ },
+ "Haier|E1": {
+  "title": "Storing temperatuursensor binnenunit (split-unit)",
+  "causes": [
+   "De sensor voor de kamertemperatuur in de binnenunit is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Volgens Haier kan deze code alleen worden verholpen door een servicemonteur; bel de Haier-service."
+ },
+ "Haier|E2": {
+  "title": "Storing temperatuursensor leiding binnenunit (split-unit)",
+  "causes": [
+   "De leidingsensor van de spiraal in de binnenunit is defect."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Volgens Haier kan deze code alleen worden verholpen door een servicemonteur; bel de Haier-service."
+ },
+ "Haier|E4": {
+  "title": "Geheugenstoring binnenunit (EEPROM) (split-unit)",
+  "causes": [
+   "Het geheugen van de besturingsprint in de binnenunit heeft een storing."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Volgens Haier kan deze code alleen worden verholpen door een servicemonteur; bel de Haier-service."
+ },
+ "Haier|E5": {
+  "title": "Antivriesbeveiliging binnenunit",
+  "causes": [
+   "De spiraal van de binnenunit wordt te koud, vaak door te weinig luchtstroom."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Controleer de luchtfilters van de binnenunit en maak ze schoon als ze stoffig zijn.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Volgens Haier kan deze code alleen worden verholpen door een servicemonteur; bel de Haier-service."
+ },
+ "Haier|E7": {
+  "title": "Communicatiestoring tussen binnen- en buitenunit",
+  "causes": [
+   "De binnen- en buitenunit kunnen niet met elkaar communiceren."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Volgens Haier kan deze code alleen worden verholpen door een servicemonteur; bel de Haier-service."
+ },
+ "Haier|E9": {
+  "title": "Overbelasting binnenunit bij verwarmen",
+  "causes": [
+   "De binnenunit raakt oververhit in de verwarmingsstand, vaak door een verstopt filter."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Controleer de luchtfilters van de binnenunit en maak ze schoon als ze stoffig zijn.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Volgens Haier kan deze code alleen worden verholpen door een servicemonteur; bel de Haier-service."
+ },
+ "Haier|E14": {
+  "title": "Storing ventilatormotor binnenunit",
+  "causes": [
+   "De ventilatormotor van de binnenunit is defect of geblokkeerd."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Volgens Haier kan deze code alleen worden verholpen door een servicemonteur; bel de Haier-service."
+ },
+ "Haier|F1": {
+  "title": "Beveiliging vermogensmodule (IPM)",
+  "causes": [
+   "De invertermodule van de buitenunit is in beveiliging gegaan."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Volgens Haier kan deze code alleen worden verholpen door een servicemonteur; bel de Haier-service."
+ },
+ "Haier|F8": {
+  "title": "Storing DC-ventilatormotor buitenunit",
+  "causes": [
+   "De ventilatormotor van de buitenunit is defect of geblokkeerd."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Zorg dat niets de luchtstroom rond de buitenunit blokkeert (dozen, planten, sneeuw, bladeren).",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Volgens Haier kan deze code alleen worden verholpen door een servicemonteur; bel de Haier-service."
+ },
+ "Haier|F12": {
+  "title": "Geheugenstoring buitenunit (EEPROM)",
+  "causes": [
+   "Het geheugen van de printplaat in de buitenunit heeft een storing."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Volgens Haier kan deze code alleen worden verholpen door een servicemonteur; bel de Haier-service."
+ },
+ "Haier|F13": {
+  "title": "Tekort aan koudemiddel",
+  "causes": [
+   "Het systeem heeft te weinig koudemiddel, meestal door een lek."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Probeer niet zelf koudemiddel bij te vullen.",
+   "Noteer de code en uw modelnummer voordat u de service belt."
+  ],
+  "technician": "Volgens Haier kan deze code alleen worden verholpen door een servicemonteur; bel de Haier-service."
+ },
+ "Haier|F19": {
+  "title": "Netspanning te hoog of te laag",
+  "causes": [
+   "De netspanning valt buiten het toegestane bereik."
+  ],
+  "steps": [
+   "Zet het apparaat uit met de afstandsbediening.",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Volgens Haier kan deze code alleen worden verholpen door een servicemonteur; bel de Haier-service."
+ },
+ "Haier|F20": {
+  "title": "Hogedrukbeveiliging",
+  "causes": [
+   "De systeemdruk is te hoog, vaak door een geblokkeerde luchtstroom buiten."
+  ],
+  "steps": [
+   "Zet het apparaat uit.",
+   "Zorg dat niets de luchtstroom rond de buitenunit blokkeert (dozen, planten, sneeuw, bladeren).",
+   "Zet de groep van de airco uit of haal de stekker eruit.",
+   "Wacht ongeveer 5 minuten, zet de stroom weer aan en schakel het apparaat in."
+  ],
+  "technician": "Volgens Haier kan deze code alleen worden verholpen door een servicemonteur; bel de Haier-service."
+ },
+ "Haier|FL": {
+  "title": "Waterreservoir vol (mobiele airco)",
+  "causes": [
+   "Het interne waterreservoir is vol."
+  ],
+  "steps": [
+   "Schakel het apparaat uit en haal de stekker uit het stopcontact.",
+   "Laat het water via de afvoeropening in een bak lopen.",
+   "Plaats de afvoerdop terug en start het apparaat opnieuw."
+  ],
+  "technician": "Verschijnt FL direct na het aftappen opnieuw, neem dan contact op met de Haier-service."
+ },
+ "Haier|STOP": {
+  "title": "Reservoir vol of vlotter vast (mobiele airco, 2016 en ouder)",
+  "causes": [
+   "Het waterreservoir is vol.",
+   "De vlotter in het reservoir zit vast door vuil."
+  ],
+  "steps": [
+   "Schakel het apparaat uit en haal de stekker uit het stopcontact.",
+   "Leeg het waterreservoir.",
+   "Controleer of de vlotter vrij beweegt en verwijder eventueel vuil."
+  ],
+  "technician": "Blijft STOP staan met een leeg reservoir en een vrije vlotter, neem dan contact op met de Haier-service."
+ }
+}

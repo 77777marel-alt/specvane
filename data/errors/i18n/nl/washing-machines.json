@@ -1,0 +1,1167 @@
+{
+ "Bosch|E16": {
+  "title": "Deur niet gesloten",
+  "causes": [
+   "De deur is niet helemaal dicht.",
+   "Er zit wasgoed klem tussen de deur en de rubberen afdichting."
+  ],
+  "steps": [
+   "Open de deur en controleer de rubberen afdichting op beklemd wasgoed.",
+   "Sluit de deur stevig tot u een klik hoort.",
+   "Start het programma opnieuw."
+  ],
+  "technician": "Blijft de code staan terwijl de deur goed dicht is, dan is het deurslot mogelijk defect. Plan een bezoek van de Bosch-service."
+ },
+ "Bosch|E17": {
+  "title": "Vullen met water duurde te lang",
+  "causes": [
+   "De waterkraan is dicht of maar half open.",
+   "De toevoerslang is geknikt.",
+   "Lage waterdruk in huis."
+  ],
+  "steps": [
+   "Controleer of de kraan van de machine helemaal open staat.",
+   "Zorg dat de toevoerslang niet geknikt of platgedrukt is.",
+   "Start het programma opnieuw."
+  ],
+  "technician": "Staat de kraan open en komt de code terug, bel dan de Bosch-service. Het inlaatventiel of de AquaStop-slang moet mogelijk worden nagekeken."
+ },
+ "Bosch|E18": {
+  "title": "Water pompt niet weg",
+  "causes": [
+   "De afvoerpomp of het pompfilter is verstopt.",
+   "De afvoerslang is geknikt of verstopt.",
+   "Kleine voorwerpen (munten, knopen) zitten vast in de pomp."
+  ],
+  "steps": [
+   "Schakel de machine uit, haal de stekker uit het stopcontact en draai de waterkraan dicht.",
+   "Laat heet water eerst afkoelen.",
+   "Zet een platte bak en handdoeken onder het pompklepje, laat het water weglopen via het noodafvoerslangetje en maak daarna het pompfilter schoon.",
+   "Controleer de afvoerslang op knikken of verstoppingen en leg hem recht.",
+   "Plaats het filter stevig terug, steek de stekker in het stopcontact en start een pomp- of centrifugeerprogramma."
+  ],
+  "technician": "Pompt hij na het schoonmaken van filter en slang nog steeds niet weg, dan is de afvoerpomp waarschijnlijk defect. Bel een monteur."
+ },
+ "Bosch|E19": {
+  "title": "Opwarmen van het water duurde te lang",
+  "causes": [
+   "De machine heeft de ingestelde wastemperatuur niet binnen de toegestane tijd bereikt.",
+   "Meestal een storing in het verwarmingssysteem."
+  ],
+  "steps": [
+   "Zet de machine uit en weer aan en start het programma opnieuw."
+  ],
+  "technician": "Volgens Bosch kunt u deze storing niet zelf verhelpen. Plan een servicebezoek als de code terugkomt."
+ },
+ "Bosch|E20": {
+  "title": "Verwarming ingeschakeld terwijl dat niet mocht",
+  "causes": [
+   "De machine heeft op een onverwacht moment verwarming gedetecteerd.",
+   "Een storing in de elektronica of de verwarmingsregeling."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker even uit het stopcontact.",
+   "Steek de stekker er weer in en start het programma opnieuw."
+  ],
+  "technician": "Komt de code terug, gebruik de machine dan niet meer en bel de Bosch-service."
+ },
+ "Bosch|E23": {
+  "title": "AquaStop-lekbeveiliging geactiveerd",
+  "causes": [
+   "Er staat water in de bodem van de machine.",
+   "Een lek in de machine of in de AquaStop-slang."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact.",
+   "Draai de waterkraan dicht.",
+   "Veeg water op de vloer op."
+  ],
+  "technician": "Volgens Bosch kunt u dit niet zelf verhelpen. Laat de kraan dicht en plan een servicebezoek."
+ },
+ "Bosch|E25": {
+  "title": "Storing troebelheidssensor (helderheid van het water)",
+  "causes": [
+   "De sensor die meet hoe vuil het water is, heeft een probleem."
+  ],
+  "steps": [
+   "Zet de machine uit en weer aan en start het programma opnieuw."
+  ],
+  "technician": "Komt de code terug, laat de sensor dan nakijken door de Bosch-service."
+ },
+ "Bosch|E26": {
+  "title": "Storing waterniveausensor (druksensor)",
+  "causes": [
+   "De analoge druksensor die het waterniveau in de trommel meet, is defect."
+  ],
+  "steps": [
+   "Zet de machine uit en weer aan en start het programma opnieuw."
+  ],
+  "technician": "Volgens Bosch is voor deze storing een servicebezoek nodig."
+ },
+ "Bosch|F27": {
+  "title": "Storing druksensor",
+  "causes": [
+   "De druksensor werkt niet goed."
+  ],
+  "steps": [
+   "Zet de machine uit en weer aan en start het programma opnieuw."
+  ],
+  "technician": "Komt de code terug, bel dan de Bosch-service."
+ },
+ "Bosch|E28": {
+  "title": "Storing waterstroomsensor",
+  "causes": [
+   "De sensor die het binnenkomende water meet, meldt een probleem."
+  ],
+  "steps": [
+   "Controleer of de waterkraan helemaal open staat.",
+   "Zet de machine uit en weer aan en start het programma opnieuw."
+  ],
+  "technician": "Komt de code terug, bel dan de Bosch-service."
+ },
+ "Samsung|4C": {
+  "title": "Er komt geen water binnen",
+  "causes": [
+   "De waterkraan is dicht.",
+   "De toevoerslang is verstopt, geknikt of bevroren.",
+   "De waterdruk is te laag.",
+   "De slangen voor warm en koud water zitten op de verkeerde kranen.",
+   "Het zeeffilter bij de slangaansluiting is vuil."
+  ],
+  "steps": [
+   "Draai de waterkraan helemaal open.",
+   "Controleer de toevoerslang op knikken, verstoppingen of ijs.",
+   "Controleer of de warm- en koudwaterslang op de juiste kranen zitten.",
+   "Draai de kraan dicht, schroef de slang los, maak het kleine zeeffilter schoon en plaats het terug.",
+   "Wacht 3 minuten (na deze code zijn de knoppen vergrendeld) en start dan opnieuw."
+  ],
+  "technician": "Komt er nog steeds geen water binnen met open kraan en schoon filter, neem dan contact op met de Samsung-service."
+ },
+ "Samsung|4C2": {
+  "title": "Toegevoerd water te heet",
+  "causes": [
+   "De koudwaterslang zit op een warmwaterkraan of zit niet stevig vast aan de koudwaterkraan."
+  ],
+  "steps": [
+   "Zorg dat de koudwaterslang stevig op de koudwaterkraan zit.",
+   "Zet de machine uit en weer aan en start opnieuw."
+  ],
+  "technician": "Blijft de code staan terwijl alles goed is aangesloten, neem dan contact op met de Samsung-service."
+ },
+ "Samsung|5C": {
+  "title": "Water pompt niet weg",
+  "causes": [
+   "De afvoerslang is verstopt, geknikt of bevroren.",
+   "De afvoerslang is verkeerd geplaatst.",
+   "Het vuilfilter is verstopt."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact.",
+   "Controleer of de afvoerslang recht ligt en niet verstopt of bevroren is.",
+   "Leg handdoeken en een ondiepe bak neer, laat het water weglopen en maak het vuilfilter aan de voorkant schoon.",
+   "Plaats het filter stevig terug, steek de stekker in het stopcontact en probeer pompen of centrifugeren."
+  ],
+  "technician": "Pompt hij nog steeds niet weg, dan is de afvoerpomp mogelijk defect. Neem contact op met de Samsung-service."
+ },
+ "Samsung|dC": {
+  "title": "Deur open of niet goed gesloten",
+  "causes": [
+   "De machine is gestart terwijl de deur open stond.",
+   "Er zit wasgoed klem in de deur."
+  ],
+  "steps": [
+   "Open de deur en haal wasgoed uit de afdichting.",
+   "Sluit de deur stevig en start opnieuw."
+  ],
+  "technician": "Blijft de code staan terwijl de deur dicht is, dan is het deurslot mogelijk defect. Neem contact op met de Samsung-service."
+ },
+ "Samsung|dC1": {
+  "title": "Deurslot vergrendelt of ontgrendelt niet",
+  "causes": [
+   "Het deurslot werkt niet zoals het hoort."
+  ],
+  "steps": [
+   "Zet de machine uit, wacht even en zet hem weer aan.",
+   "Start het programma opnieuw."
+  ],
+  "technician": "Gebeurt het steeds weer, dan moet het deurslot worden nagekeken."
+ },
+ "Samsung|OC": {
+  "title": "Te veel water (overloop)",
+  "causes": [
+   "De machine heeft een te hoog waterniveau gemeten."
+  ],
+  "steps": [
+   "Laat de machine het pompen en centrifugeren afmaken.",
+   "Start het programma opnieuw nadat het centrifugeren klaar is.",
+   "Gebruik de juiste hoeveelheid wasmiddel om te veel schuim te voorkomen."
+  ],
+  "technician": "Komt de code bij elke was terug, neem dan contact op met de Samsung-service. Het waterventiel of de niveausensor kan defect zijn."
+ },
+ "Samsung|Ub": {
+  "title": "Onbalans, kan niet centrifugeren",
+  "causes": [
+   "Het wasgoed ligt aan één kant van de trommel.",
+   "Er zit maar één zwaar stuk in de trommel.",
+   "De machine staat niet waterpas of niet stabiel."
+  ],
+  "steps": [
+   "Pauzeer de machine en verdeel het wasgoed gelijkmatig.",
+   "Voeg een paar extra stukken toe als u maar één zwaar stuk wast.",
+   "Zorg dat de machine waterpas op een stevige vloer staat.",
+   "Start het centrifugeren opnieuw."
+  ],
+  "technician": "Gebeurt het ook bij een normale, gelijkmatige lading, laat de machine dan nakijken op versleten onderdelen."
+ },
+ "Samsung|LC": {
+  "title": "Probleem met afvoerslang / lek gedetecteerd",
+  "causes": [
+   "Het uiteinde van de afvoerslang ligt op de vloer.",
+   "De afvoerslang is verstopt."
+  ],
+  "steps": [
+   "Schakel de machine uit.",
+   "Zorg dat het uiteinde van de afvoerslang hoog hangt en niet op de vloer ligt.",
+   "Controleer de slang op verstoppingen.",
+   "Veeg het water op en start opnieuw."
+  ],
+  "technician": "Blijft er water lekken of komt de code terug, neem dan contact op met de Samsung-service."
+ },
+ "Samsung|3C": {
+  "title": "Probleem met de trommelmotor",
+  "causes": [
+   "De motor draait niet zoals het hoort."
+  ],
+  "steps": [
+   "Schakel de machine uit, wacht een minuut en schakel hem weer in.",
+   "Controleer of de lading niet te groot is en start het programma opnieuw."
+  ],
+  "technician": "Komt de code terug, dan moeten de motor of de motorsturing worden nagekeken."
+ },
+ "Samsung|AC": {
+  "title": "Communicatiestoring tussen printplaten",
+  "causes": [
+   "De hoofdprintplaat en de tweede printplaat communiceren niet met elkaar."
+  ],
+  "steps": [
+   "Zet de machine uit en daarna weer aan.",
+   "Start het programma opnieuw."
+  ],
+  "technician": "Komt de code steeds terug, neem dan contact op met de Samsung-service."
+ },
+ "Samsung|HC": {
+  "title": "Storing verwarmingssysteem (te heet)",
+  "causes": [
+   "De machine heeft een verwarmingsprobleem met te hoge temperatuur gedetecteerd."
+  ],
+  "steps": [
+   "Zet de machine uit en weer aan.",
+   "Start het programma opnieuw."
+  ],
+  "technician": "Komt de code terug, gebruik dan geen warme programma's meer en neem contact op met de Samsung-service."
+ },
+ "Samsung|1C": {
+  "title": "Storing waterniveausensor",
+  "causes": [
+   "De sensor die het waterniveau meet, werkt niet goed."
+  ],
+  "steps": [
+   "Zet de machine uit en weer aan.",
+   "Start het programma opnieuw."
+  ],
+  "technician": "Komt de code terug, neem dan contact op met de Samsung-service."
+ },
+ "Samsung|UC": {
+  "title": "Probleem met de stroomvoorziening (spanning te laag of instabiel)",
+  "causes": [
+   "Lage of instabiele netspanning.",
+   "Een korte stroomstoring.",
+   "Losse stekker of verlengsnoer."
+  ],
+  "steps": [
+   "Controleer of de stekker stevig in het stopcontact zit.",
+   "Gebruik geen verlengsnoeren of verloopstekkers.",
+   "Wacht tot de stroom stabiel is en start dan opnieuw."
+  ],
+  "technician": "Gebeurt het vaak, laat dan een elektricien de aansluiting controleren. Is de aansluiting in orde, neem dan contact op met de Samsung-service."
+ },
+ "Samsung|8C": {
+  "title": "Storing trillingssensor",
+  "causes": [
+   "De sensor die onbalans meet, werkt niet goed."
+  ],
+  "steps": [
+   "Zet de machine uit en weer aan.",
+   "Start het programma opnieuw."
+  ],
+  "technician": "Komt de code terug, neem dan contact op met de Samsung-service."
+ },
+ "Samsung|ddC": {
+  "title": "Add Door geopend zonder herstart",
+  "causes": [
+   "De kleine Add Door (AddWash) is geopend en de machine wacht."
+  ],
+  "steps": [
+   "Sluit de Add Door goed.",
+   "Houd Start/Pause ingedrukt om verder te gaan."
+  ],
+  "technician": "Normaal niet nodig. Blijft de Add Door niet dicht, neem dan contact op met de Samsung-service."
+ },
+ "LG|OE": {
+  "title": "Water pompt niet weg",
+  "causes": [
+   "De afvoerslang is geknikt of verstopt.",
+   "Het pompfilter is verstopt.",
+   "Te veel schuim door te veel wasmiddel."
+  ],
+  "steps": [
+   "Controleer de afvoerslang achter de machine en haal knikken eruit.",
+   "Start een programma met alleen centrifugeren en luister of de pomp zoemt.",
+   "Haal de stekker van de wasmachine uit het stopcontact. Zet een bak onder het klepje van de afvoerpomp, laat het water weglopen via het kleine afvoerslangetje en maak het pompfilter schoon.",
+   "Sluit het dopje van het afvoerslangetje goed en plaats het filter terug.",
+   "Gebruik de volgende keer minder wasmiddel en start Tub Clean."
+  ],
+  "technician": "Komt de code terug na het schoonmaken van filter en slang, vraag dan LG-service aan. De pomp kan defect zijn."
+ },
+ "LG|IE": {
+  "title": "Water komt niet op tijd binnen",
+  "causes": [
+   "De kraan is dicht of het water is afgesloten.",
+   "De toevoerslang is geknikt of losgeraakt.",
+   "Het inlaatfilter is verstopt.",
+   "Bevroren leidingen of slangen bij koud weer."
+  ],
+  "steps": [
+   "Zorg dat de kraan helemaal open staat en de slang is aangesloten.",
+   "Haal knikken uit de slang en zorg dat hij niet wordt platgedrukt.",
+   "Draai de kraan dicht, maak de slang los, maak het inlaatfilter schoon en plaats alles terug.",
+   "Ontdooi bij vorst de kraan en de slang met warm (niet kokend) water."
+  ],
+  "technician": "Stroomt het water nog steeds niet, dan is het inlaatventiel mogelijk defect. Vraag service aan."
+ },
+ "LG|UE": {
+  "title": "Onbalans",
+  "causes": [
+   "Het wasgoed ligt aan één kant.",
+   "Lading te groot of te klein.",
+   "Volumineuze of waterdichte stukken.",
+   "De wasmachine staat niet waterpas."
+  ],
+  "steps": [
+   "Pauzeer de wasmachine en verdeel het wasgoed gelijkmatig.",
+   "Vul de trommel voor ongeveer twee derde.",
+   "Was grote stukken zoals dekbedden met het juiste programma en een gemiddeld toerental.",
+   "Zet de wasmachine waterpas door de stelvoetjes te verstellen."
+  ],
+  "technician": "Gebeurt het ook bij een normale, gelijkmatige lading op een vlakke vloer, vraag dan service aan."
+ },
+ "LG|LE": {
+  "title": "Motor geblokkeerd, trommel draait niet",
+  "causes": [
+   "De wasmachine is te vol geladen.",
+   "Een munt of klein voorwerp blokkeert de trommel."
+  ],
+  "steps": [
+   "Haal de stekker uit het stopcontact en wacht 5 minuten.",
+   "Haal wat wasgoed eruit om de lading te verkleinen.",
+   "Controleer met de stroom eraf de trommel op munten of kleine voorwerpen en verwijder ze.",
+   "Steek de stekker weer in het stopcontact en probeer het opnieuw."
+  ],
+  "technician": "Blijft LE verschijnen, haal dan de stekker eruit en neem contact op met de LG-service."
+ },
+ "LG|dE": {
+  "title": "Deur niet gesloten",
+  "causes": [
+   "Er zit wasgoed klem tussen de deur en de rubberen afdichting.",
+   "De deur is niet helemaal dicht."
+  ],
+  "steps": [
+   "Open de deur, haal beklemd wasgoed weg en sluit de deur stevig.",
+   "Reset: haal de stekker eruit, houd Start/Pause 5 seconden ingedrukt, steek de stekker er weer in en probeer opnieuw."
+  ],
+  "technician": "Blijft de code staan, vraag dan LG-service aan."
+ },
+ "LG|dE2": {
+  "title": "Deur gesloten maar niet vergrendeld",
+  "causes": [
+   "De trommel is te vol geladen.",
+   "Er zit iets klem in de deurafdichting.",
+   "De deurhaak is verbogen of gebroken."
+  ],
+  "steps": [
+   "Verwijder alles wat de deur blokkeert en verklein zo nodig de lading.",
+   "Open en sluit de deur opnieuw.",
+   "Reset de wasmachine door de stekker even uit het stopcontact te halen."
+  ],
+  "technician": "Vergrendelt het slot nog steeds niet, dan moet de deurhaak of het deurslot worden gerepareerd. Vraag service aan."
+ },
+ "LG|CE": {
+  "title": "Overstroom in de motor",
+  "causes": [
+   "Te veel stroom in het motorcircuit, bijvoorbeeld door kortsluiting, een losse verbinding of een stroompiek."
+  ],
+  "steps": [
+   "Haal de stekker 10 seconden uit het stopcontact.",
+   "Steek de stekker er weer in en start een programma."
+  ],
+  "technician": "Komt CE terug, draai dan de kraan dicht, haal de stekker eruit en laat de machine repareren."
+ },
+ "LG|FE": {
+  "title": "Te veel water (overvulling)",
+  "causes": [
+   "Er komt extra water binnen, bijvoorbeeld via het wasmiddelbakje."
+  ],
+  "steps": [
+   "Controleer of er water door het wasmiddelbakje loopt.",
+   "Haal de stekker 60 seconden uit het stopcontact en start opnieuw.",
+   "Start een kort programma en kijk of het water wegpompt."
+  ],
+  "technician": "Blijft FE staan, dan moeten het waterventiel of de sensor worden nagekeken. Vraag service aan."
+ },
+ "LG|PE": {
+  "title": "Storing waterniveausensor",
+  "causes": [
+   "De waterniveausensor werkt niet goed."
+  ],
+  "steps": [
+   "Haal de stekker 10 seconden uit het stopcontact.",
+   "Steek de stekker er weer in en start het programma opnieuw."
+  ],
+  "technician": "Komt PE terug, laat de machine dan repareren."
+ },
+ "LG|AE": {
+  "title": "Lek gedetecteerd in de wasmachine",
+  "causes": [
+   "Er lekt water in de machine.",
+   "Een beschadigde of losse toevoerslang.",
+   "Een defecte lekbeveiligingsschakelaar."
+  ],
+  "steps": [
+   "Controleer de toevoerslang op scheuren of losse aansluitingen.",
+   "Haal de stekker 60 seconden uit het stopcontact en start opnieuw."
+  ],
+  "technician": "Blijft AE staan, draai dan de kraan dicht en plan een servicebezoek."
+ },
+ "LG|tE": {
+  "title": "Fout verwarming / temperatuursensor",
+  "causes": [
+   "Meestal een defecte temperatuursensor (thermistor)."
+  ],
+  "steps": [
+   "Haal de stekker 10 seconden uit het stopcontact en steek hem er weer in.",
+   "Kies 'niet centrifugeren' om het water weg te pompen en start het programma daarna opnieuw."
+  ],
+  "technician": "Komt tE terug, draai dan de kranen dicht, haal de stekker eruit en vraag service aan."
+ },
+ "LG|Sud": {
+  "title": "Te veel schuim",
+  "causes": [
+   "Te veel wasmiddel.",
+   "Gebruik van niet-HE- of verkeerd wasmiddel."
+  ],
+  "steps": [
+   "Laat de wasmachine het schuimverminderingsprogramma afmaken.",
+   "Gebruik de volgende keer minder wasmiddel, en alleen hoogrendementswasmiddel (HE).",
+   "Doe poeder of pods op de plek die de handleiding aangeeft, niet in het bakje voor vloeibaar wasmiddel."
+  ],
+  "technician": "Meestal niet nodig. Verschijnt het met heel weinig wasmiddel, vraag dan service aan."
+ },
+ "LG|PF": {
+  "title": "Stroomstoring tijdens een programma",
+  "causes": [
+   "De stroom viel uit terwijl de wasmachine draaide."
+  ],
+  "steps": [
+   "Haal de stekker eruit of zet de bijbehorende groep in de meterkast uit.",
+   "Houd Start/Pause 5 seconden ingedrukt terwijl de stekker eruit is.",
+   "Zet de stroom weer aan en start een programma."
+  ],
+  "technician": "Verschijnt PF steeds zonder stroomstoringen, laat de machine dan repareren."
+ },
+ "LG|FF": {
+  "title": "Bevroren water in de wasmachine",
+  "causes": [
+   "De temperatuur binnen is onder het vriespunt gezakt en het water in de slangen of de kuip is bevroren."
+  ],
+  "steps": [
+   "Haal het wasgoed eruit.",
+   "Giet warm water (ongeveer 50–60°C, nooit kokend) in de trommel en wacht 1–2 uur.",
+   "Laat het water weglopen via het afvoerslangetje en sluit het dopje weer.",
+   "Ontdooi bevroren toevoerslangen in warm water, sluit ze weer aan en start een spoelprogramma."
+  ],
+  "technician": "Verschijnt FF terwijl het niet koud is, vraag dan service aan."
+ },
+ "Siemens|E16": {
+  "title": "Deur niet vergrendeld",
+  "causes": [
+   "Er zit wasgoed klem in de deur.",
+   "De deur is niet goed gesloten."
+  ],
+  "steps": [
+   "Open de deur en sluit hem opnieuw stevig.",
+   "Haal zo nodig een paar stukken eruit en duw de deur dicht.",
+   "Druk opnieuw op Start, of zet de machine uit en aan en start opnieuw."
+  ],
+  "technician": "Vergrendelt de deur niet, bel dan de Siemens-service."
+ },
+ "Siemens|E17": {
+  "title": "Vullen met water duurde te lang",
+  "causes": [
+   "Lage waterdruk.",
+   "Een verstopt filter in de toevoerslang.",
+   "Een verstopte AquaStop-slang."
+  ],
+  "steps": [
+   "Controleer of de kraan helemaal open staat.",
+   "Controleer de doorstroming: een volledig open kraan moet ongeveer 10 liter per minuut geven.",
+   "Draai de kraan dicht en maak het filter in de toevoerslang schoon.",
+   "Zorg dat de slang niet geknikt is."
+  ],
+  "technician": "Is de druk te laag, bel dan een loodgieter. Is de toevoer in orde, bel dan de Siemens-service."
+ },
+ "Siemens|E18": {
+  "title": "Water pompt niet weg",
+  "causes": [
+   "Het pompfilter is verstopt.",
+   "De afvoerslang is verstopt of geknikt."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact. Laat heet water afkoelen.",
+   "Leg handdoeken en een platte bak onder het filterklepje en laat het water weglopen.",
+   "Maak het pompfilter schoon en plaats het stevig terug.",
+   "Leg de afvoerslang recht en controleer hem op verstoppingen."
+  ],
+  "technician": "Pompt hij nog steeds niet weg, bel dan de Siemens-service."
+ },
+ "Siemens|E19": {
+  "title": "Opwarmen van het water duurde te lang",
+  "causes": [
+   "Een storing in het verwarmingssysteem."
+  ],
+  "steps": [
+   "Zet de machine uit en weer aan en start opnieuw."
+  ],
+  "technician": "Volgens Siemens kunt u dit niet zelf verhelpen. Plan een servicebezoek."
+ },
+ "Siemens|E20": {
+  "title": "Onverwachte verwarming",
+  "causes": [
+   "Er is verwarming gedetecteerd terwijl die uit had moeten staan."
+  ],
+  "steps": [
+   "Zet de machine uit en weer aan."
+  ],
+  "technician": "Blijft het probleem, plan dan een bezoek van de Siemens-service."
+ },
+ "Siemens|E23": {
+  "title": "Lek – water in de bodem",
+  "causes": [
+   "De machine lekt, of er staat water in de bodemplaat."
+  ],
+  "steps": [
+   "Draai meteen de waterkraan dicht.",
+   "Schakel de machine uit en haal de stekker uit het stopcontact.",
+   "Veeg het water van de vloer op."
+  ],
+  "technician": "Bel de Siemens-service om het lek op te sporen en te verhelpen."
+ },
+ "Siemens|E25": {
+  "title": "Storing troebelheidssensor",
+  "causes": [
+   "De sensor voor de helderheid van het water is defect."
+  ],
+  "steps": [
+   "Zet de machine uit en weer aan."
+  ],
+  "technician": "Plan een bezoek van de Siemens-service."
+ },
+ "Siemens|E26": {
+  "title": "Storing waterniveausensor",
+  "causes": [
+   "De analoge druksensor is defect."
+  ],
+  "steps": [
+   "Zet de machine uit en weer aan."
+  ],
+  "technician": "Plan een bezoek van de Siemens-service."
+ },
+ "Siemens|E29": {
+  "title": "Probleem met de watertoevoer",
+  "causes": [
+   "Lage waterdruk of een verstopt toevoerfilter of verstopte AquaStop-slang."
+  ],
+  "steps": [
+   "Controleer of de kraan helemaal open staat en de doorstroming ongeveer 10 liter per minuut is.",
+   "Draai de kraan dicht en maak het filter in de toevoerslang schoon.",
+   "Zorg dat de slang niet geknikt is."
+  ],
+  "technician": "Is de toevoer in orde en komt de code terug, bel dan de Siemens-service."
+ },
+ "Siemens|E32": {
+  "title": "Onbalans – centrifugeren gestopt",
+  "causes": [
+   "Het wasgoed is ongelijk verdeeld in de trommel. Dit is geen storing."
+  ],
+  "steps": [
+   "Verdeel grote en kleine stukken gelijkmatig in de trommel.",
+   "Start het centrifugeren opnieuw."
+  ],
+  "technician": "Niet nodig, tenzij het bij elke normale lading gebeurt."
+ },
+ "Siemens|E33": {
+  "title": "Te veel schuim",
+  "causes": [
+   "Te veel wasmiddel, vooral bij zacht water of licht vervuild wasgoed."
+  ],
+  "steps": [
+   "Gebruik de volgende keer minder wasmiddel.",
+   "Start een spoelprogramma om het schuim weg te spoelen."
+  ],
+  "technician": "Meestal niet nodig."
+ },
+ "Siemens|E34": {
+  "title": "Deur niet vergrendeld",
+  "causes": [
+   "De deur is niet helemaal dicht, vaak door een erg volle trommel.",
+   "Er zit een stuk klem tussen de deur en de behuizing."
+  ],
+  "steps": [
+   "Controleer of er wasgoed klem zit in de deur.",
+   "Sluit de deur tot u een klik hoort.",
+   "Start het programma opnieuw."
+  ],
+  "technician": "Vergrendelt de deur nog steeds niet, bel dan de Siemens-service."
+ },
+ "AEG|E10": {
+  "title": "Probleem met de watertoevoer",
+  "causes": [
+   "De watertoevoer is beperkt of afgesloten, bijvoorbeeld door een dichte kraan of geknikte slang."
+  ],
+  "steps": [
+   "Controleer of de waterkraan helemaal open staat.",
+   "Zorg dat de toevoerslang niet geknikt of platgedrukt is.",
+   "Reset: zet de machine ongeveer een minuut uit bij het stopcontact, zet hem weer aan en start opnieuw."
+  ],
+  "technician": "Komt de code meteen terug of vult de machine nog steeds niet, laat hem dan repareren."
+ },
+ "AEG|E20": {
+  "title": "Probleem met wegpompen",
+  "causes": [
+   "Verstopt pompfilter of verstopte afvoerslang."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact. Laat heet water afkoelen.",
+   "Laat het water weglopen in een bak en maak het pompfilter schoon.",
+   "Controleer of de afvoerslang niet geknikt of verstopt is.",
+   "Steek de stekker in het stopcontact en start pompen of centrifugeren."
+  ],
+  "technician": "Pompt het water nog steeds niet weg, laat de machine dan repareren."
+ },
+ "AEG|E30": {
+  "title": "Probleem met de waterdruksensor (niveausensor)",
+  "causes": [
+   "De sensor die het waterniveau meet, heeft een storing, of te veel schuim verstoort de meting."
+  ],
+  "steps": [
+   "Zet de machine ongeveer een minuut uit bij het stopcontact en zet hem weer aan.",
+   "Gebruik de juiste hoeveelheid wasmiddel."
+  ],
+  "technician": "Komt de code terug, laat de machine dan repareren."
+ },
+ "AEG|E40": {
+  "title": "Probleem met het deurslot",
+  "causes": [
+   "De deur is niet goed gesloten, of het deurslot heeft een storing."
+  ],
+  "steps": [
+   "Open de deur, controleer of er niets klem zit in de afdichting en sluit de deur stevig.",
+   "Zet de machine ongeveer een minuut uit bij het stopcontact en start daarna opnieuw."
+  ],
+  "technician": "Vergrendelt de deur nog steeds niet, laat de machine dan repareren."
+ },
+ "AEG|E50": {
+  "title": "Probleem met de motor",
+  "causes": [
+   "Een storing in de motor of de aandrijving."
+  ],
+  "steps": [
+   "Zet de machine ongeveer een minuut uit bij het stopcontact en start daarna opnieuw."
+  ],
+  "technician": "Draait de trommel nog steeds niet, laat de machine dan repareren."
+ },
+ "AEG|E60": {
+  "title": "Probleem met de verwarming",
+  "causes": [
+   "Een storing in het verwarmingselement of de temperatuursensor."
+  ],
+  "steps": [
+   "Zet de machine ongeveer een minuut uit bij het stopcontact en start daarna opnieuw."
+  ],
+  "technician": "Komt de code terug, laat de machine dan repareren."
+ },
+ "AEG|EF0": {
+  "title": "Waarschuwing: lek, te veel schuim of onbalans",
+  "causes": [
+   "Er lekt water in de machine.",
+   "Te veel wasmiddelschuim.",
+   "Een ongelijk verdeelde lading."
+  ],
+  "steps": [
+   "Schakel de machine uit, haal de stekker eruit en controleer of er water op de vloer ligt.",
+   "Is er geen lek, gebruik dan minder wasmiddel en verdeel de lading gelijkmatig.",
+   "Start opnieuw als het schuim is gezakt."
+  ],
+  "technician": "Ziet u een lek of komt de code steeds terug, draai dan de kraan dicht en laat de machine repareren."
+ },
+ "AEG|EH0": {
+  "title": "Probleem met de stroomvoorziening",
+  "causes": [
+   "De netspanning is onregelmatig of instabiel."
+  ],
+  "steps": [
+   "Sluit de machine direct aan op een wandcontactdoos, zonder verlengsnoer.",
+   "Zet de machine ongeveer een minuut uit en daarna weer aan."
+  ],
+  "technician": "Gebeurt het steeds weer, laat dan een elektricien de aansluiting controleren."
+ },
+ "Hotpoint|F01": {
+  "title": "Storing elektronische printplaat",
+  "causes": [
+   "Een storing op de besturingsprint. Sommige of alle functies werken niet."
+  ],
+  "steps": [
+   "Haal de stekker minstens 2 minuten uit het stopcontact.",
+   "Steek de stekker erin, wacht 30 seconden en probeer het opnieuw."
+  ],
+  "technician": "Blijft de storing, plan dan een bezoek van een Hotpoint-monteur."
+ },
+ "Hotpoint|F02": {
+  "title": "Storing motorcircuit",
+  "causes": [
+   "Een storing in het motorcircuit. De trommel draait af en toe of helemaal niet."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact."
+  ],
+  "technician": "Plan een bezoek van een Hotpoint-monteur."
+ },
+ "Hotpoint|F03": {
+  "title": "Storing temperatuursensor",
+  "causes": [
+   "Het temperatuurmeetcircuit is defect, waardoor de machine niet verwarmt."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact."
+  ],
+  "technician": "Plan een bezoek van een Hotpoint-monteur."
+ },
+ "Hotpoint|F05": {
+  "title": "Afvoer verstopt of probleem met de pomp",
+  "causes": [
+   "Een verstopt pompfilter, verstopte afvoerslang of verstopte afvoer onder de gootsteen.",
+   "Een kapotte afvoerpomp."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact. Laat heet water afkoelen.",
+   "Heeft uw model een pompfilter, laat het water dan weglopen in een bak en maak het filter schoon.",
+   "Controleer de afvoerslang en de afvoerbuis onder de gootsteen op verstoppingen.",
+   "Steek de stekker in het stopcontact en probeer pompen of centrifugeren."
+  ],
+  "technician": "Pompt hij nog steeds niet weg, dan is de pomp waarschijnlijk kapot. Plan een bezoek van een monteur."
+ },
+ "Hotpoint|F06": {
+  "title": "Storing deurslot",
+  "causes": [
+   "Het deurslot is geblokkeerd of defect."
+  ],
+  "steps": [
+   "Controleer of er iets in de weg zit bij de deur of het slot.",
+   "Sluit de deur stevig en start opnieuw.",
+   "Bekijk de pagina met veiligheidsmeldingen van Hotpoint – sommige deursloten worden teruggeroepen."
+  ],
+  "technician": "Blijft de storing, plan dan een bezoek van een monteur."
+ },
+ "Hotpoint|F07": {
+  "title": "Storing verwarmingscircuit / printplaat",
+  "causes": [
+   "Een storing in het verwarmingscircuit of de besturingsprint. De was pauzeert en de pomp kan blijven draaien."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact."
+  ],
+  "technician": "Plan een bezoek van een Hotpoint-monteur."
+ },
+ "Hotpoint|F08": {
+  "title": "Storing verwarmingselement",
+  "causes": [
+   "Het verwarmingselement is defect, daardoor pauzeert het programma halverwege."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact."
+  ],
+  "technician": "Plan een bezoek van een Hotpoint-monteur."
+ },
+ "Hotpoint|F09": {
+  "title": "Softwarestoring",
+  "causes": [
+   "Een softwareprobleem. Lampjes knipperen en er kan geen programma worden gekozen."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact."
+  ],
+  "technician": "Plan een bezoek van een Hotpoint-monteur."
+ },
+ "Hotpoint|F11": {
+  "title": "Storing pompcircuit",
+  "causes": [
+   "Een storing in het pompcircuit. Het water blijft in de trommel staan."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact.",
+   "Open de deur niet zolang er water in de trommel staat."
+  ],
+  "technician": "Plan een bezoek van een Hotpoint-monteur."
+ },
+ "Hotpoint|F12": {
+  "title": "Storing elektronische besturing",
+  "causes": [
+   "Een storing in de bediening. De machine gaat niet aan."
+  ],
+  "steps": [
+   "Controleer met een ander apparaat of de stekker en het stopcontact werken."
+  ],
+  "technician": "Plan een bezoek van een Hotpoint-monteur."
+ },
+ "Hotpoint|F15": {
+  "title": "Storing verwarmingsregeling",
+  "causes": [
+   "Een storing in de verwarmingsregeling. Het water wordt niet warm of de was pauzeert."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact."
+  ],
+  "technician": "Plan een bezoek van een Hotpoint-monteur."
+ },
+ "Hotpoint|F18": {
+  "title": "Interne gegevensfout",
+  "causes": [
+   "Een intern gegevensprobleem. Sommige of alle displayfuncties werken niet."
+  ],
+  "steps": [
+   "Haal de stekker minstens 2 minuten uit het stopcontact.",
+   "Steek de stekker erin, wacht 30 seconden en probeer het opnieuw."
+  ],
+  "technician": "Blijft het probleem, plan dan een bezoek van een Hotpoint-monteur."
+ },
+ "Indesit|F01": {
+  "title": "Storing elektronische printplaat",
+  "causes": [
+   "Een storing op de besturingsprint. Sommige of alle functies kunnen niet worden gekozen."
+  ],
+  "steps": [
+   "Haal de stekker minstens 2 minuten uit het stopcontact.",
+   "Steek de stekker erin, wacht 30 seconden en probeer het opnieuw."
+  ],
+  "technician": "Blijft de storing, plan dan een bezoek van een Indesit-monteur."
+ },
+ "Indesit|F02": {
+  "title": "Storing motorcircuit",
+  "causes": [
+   "Een storing in het motorcircuit. De trommel draait af en toe of helemaal niet."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact."
+  ],
+  "technician": "Plan een bezoek van een Indesit-monteur."
+ },
+ "Indesit|F03": {
+  "title": "Storing temperatuursensor",
+  "causes": [
+   "Het temperatuurmeetcircuit is defect, waardoor de machine niet verwarmt."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact."
+  ],
+  "technician": "Plan een bezoek van een Indesit-monteur."
+ },
+ "Indesit|F05": {
+  "title": "Afvoer verstopt of probleem met de pomp",
+  "causes": [
+   "Een verstopt pompfilter, verstopte afvoerslang of verstopte afvoer onder de gootsteen.",
+   "Een kapotte afvoerpomp."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact. Laat heet water afkoelen.",
+   "Heeft uw model een pompfilter, laat het water dan weglopen in een bak en maak het filter schoon.",
+   "Controleer de afvoerslang en de afvoerbuis onder de gootsteen op verstoppingen.",
+   "Steek de stekker in het stopcontact en probeer pompen of centrifugeren."
+  ],
+  "technician": "Pompt hij nog steeds niet weg, dan is de pomp waarschijnlijk kapot. Plan een bezoek van een monteur."
+ },
+ "Indesit|F06": {
+  "title": "Storing deurslot",
+  "causes": [
+   "Het deurslot is geblokkeerd of defect."
+  ],
+  "steps": [
+   "Controleer of er iets in de weg zit bij de deur of het slot.",
+   "Sluit de deur stevig en start opnieuw.",
+   "Bekijk de veiligheidsmeldingen van het merk – sommige deursloten worden teruggeroepen."
+  ],
+  "technician": "Blijft de storing, plan dan een bezoek van een monteur."
+ },
+ "Indesit|F07": {
+  "title": "Storing verwarmingscircuit / printplaat",
+  "causes": [
+   "Een storing in het verwarmingscircuit of de besturingsprint. De was pauzeert en de pomp kan blijven draaien."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact."
+  ],
+  "technician": "Plan een bezoek van een Indesit-monteur."
+ },
+ "Indesit|F08": {
+  "title": "Storing verwarmingselement",
+  "causes": [
+   "Het verwarmingselement is defect, daardoor pauzeert het programma halverwege."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact."
+  ],
+  "technician": "Plan een bezoek van een Indesit-monteur."
+ },
+ "Indesit|F09": {
+  "title": "Softwarestoring",
+  "causes": [
+   "Een softwareprobleem. Lampjes knipperen en er kan geen programma worden gekozen."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact."
+  ],
+  "technician": "Plan een bezoek van een Indesit-monteur."
+ },
+ "Indesit|F11": {
+  "title": "Storing pompcircuit",
+  "causes": [
+   "Een storing in het pompcircuit. Het water blijft in de trommel staan."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact.",
+   "Open de deur niet zolang er water in de trommel staat."
+  ],
+  "technician": "Plan een bezoek van een Indesit-monteur."
+ },
+ "Indesit|F12": {
+  "title": "Storing elektronische besturing",
+  "causes": [
+   "Een storing in de bediening. De machine gaat niet aan."
+  ],
+  "steps": [
+   "Controleer met een ander apparaat of de stekker en het stopcontact werken."
+  ],
+  "technician": "Plan een bezoek van een Indesit-monteur."
+ },
+ "Indesit|F15": {
+  "title": "Storing verwarmingsregeling",
+  "causes": [
+   "Een storing in de verwarmingsregeling. Het water wordt niet warm of de was pauzeert."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact."
+  ],
+  "technician": "Plan een bezoek van een Indesit-monteur."
+ },
+ "Indesit|F18": {
+  "title": "Interne gegevensfout",
+  "causes": [
+   "Een intern gegevensprobleem. Sommige of alle displayfuncties werken niet."
+  ],
+  "steps": [
+   "Haal de stekker minstens 2 minuten uit het stopcontact.",
+   "Steek de stekker erin, wacht 30 seconden en probeer het opnieuw."
+  ],
+  "technician": "Blijft het probleem, plan dan een bezoek van een Indesit-monteur."
+ },
+ "Beko|E5": {
+  "title": "Pompfilter mogelijk verstopt (probleem met wegpompen)",
+  "causes": [
+   "Het pompfilter is verstopt, waardoor het water niet weg kan."
+  ],
+  "steps": [
+   "Schakel de machine uit en haal de stekker uit het stopcontact. Laat heet water afkoelen.",
+   "Laat het resterende water weglopen in een bak en maak het pompfilter schoon.",
+   "Plaats het filter stevig terug en start een centrifugeerprogramma."
+  ],
+  "technician": "Blijft het probleem, bel dan de Beko-service."
+ },
+ "Beko|E8": {
+  "title": "Er komt geen water binnen",
+  "causes": [
+   "De kraan is dicht of het water is afgesloten.",
+   "De toevoerslang is geknikt of zit los.",
+   "Het filterklepje aan de voorkant is niet gesloten en vergrendeld."
+  ],
+  "steps": [
+   "Draai de kraan open en controleer of er water uit de leiding komt.",
+   "Controleer de aansluiting van de toevoerslang en haal knikken eruit.",
+   "Zorg dat het klepje aan de voorkant gesloten en vergrendeld is.",
+   "Start de machine opnieuw."
+  ],
+  "technician": "Blijft het probleem, bel dan de Beko-service."
+ },
+ "Beko|E12": {
+  "title": "Mogelijk water in de machine (lek)",
+  "causes": [
+   "Er staat water in de machine, mogelijk door een lek."
+  ],
+  "steps": [
+   "Haal de stekker uit het stopcontact.",
+   "Veeg het water onder de machine op.",
+   "Steek de stekker in het stopcontact en start een kort programma terwijl u meekijkt."
+  ],
+  "technician": "Lekt er water uit een slang of komt de code terug, draai dan de kranen dicht en bel de Beko-service."
+ },
+ "Beko|E17": {
+  "title": "Te veel schuim",
+  "causes": [
+   "Te veel wasmiddel voor de lading.",
+   "Wasmiddel in het verkeerde vakje gedaan of verkeerd bewaard."
+  ],
+  "steps": [
+   "Stem de dosering wasmiddel af op de grootte van de lading en hoe vuil het wasgoed is.",
+   "Gebruik minder wasmiddel bij erg absorberende stoffen.",
+   "Start het programma Drum Cleaning (of Katoen 90°C) met een lege trommel."
+  ],
+  "technician": "Blijft het probleem, bel dan de Beko-service."
+ },
+ "Beko|E18": {
+  "title": "Onbalans – centrifugeren is niet gestart",
+  "causes": [
+   "Te weinig wasgoed, of het wasgoed ligt aan één kant."
+  ],
+  "steps": [
+   "Voeg meer stukken toe als de lading erg klein is.",
+   "Verdeel het wasgoed met de hand gelijkmatig.",
+   "Start het centrifugeren opnieuw."
+  ],
+  "technician": "Meestal niet nodig."
+ },
+ "Beko|E27": {
+  "title": "Probleem met wegpompen",
+  "causes": [
+   "De afvoerslang is niet goed aangesloten."
+  ],
+  "steps": [
+   "Controleer de aansluiting van de afvoerslang op de afvoer.",
+   "Zorg dat de slang niet geknikt of verstopt is."
+  ],
+  "technician": "Blijft het probleem, bel dan de Beko-service."
+ },
+ "Beko|E29": {
+  "title": "Zelfbeschermingsmodus (probleem met de toevoer)",
+  "causes": [
+   "Een probleem met de netspanning of de waterdruk."
+  ],
+  "steps": [
+   "Annuleer het programma door de programmaknop naar een ander programma te draaien.",
+   "Start het programma opnieuw."
+  ],
+  "technician": "Blijft het probleem, bel dan de Beko-service."
+ },
+ "Miele|F10": {
+  "title": "Watertoevoer verstopt of beperkt",
+  "causes": [
+   "De hoofdkraan (kraan) is dicht.",
+   "Het inlaatfilter is vuil.",
+   "De toevoerslang is geknikt.",
+   "De waterdruk is te laag."
+  ],
+  "steps": [
+   "Stop het programma en draai de kraan helemaal open.",
+   "Draai de kraan dicht, schroef de toevoerslang los, haal het kleine filter eruit, maak het schoon en plaats het terug.",
+   "Sluit de slang weer aan, draai de kraan open en controleer of het niet druppelt.",
+   "Haal knikken uit de slang.",
+   "Controleer de doorstroming: in 15 seconden moet er minstens 5 liter uit komen."
+  ],
+  "technician": "Is de druk te laag, bel dan een loodgieter. Is de slang beschadigd, dan kan de Miele-service hem vervangen."
+ },
+ "Miele|F11": {
+  "title": "Afvoer beperkt",
+  "causes": [
+   "Het uiteinde van de afvoerslang zit hoger dan 1 meter.",
+   "De afvoerslang is geknikt.",
+   "Het afvoerfilter of de pomp is verstopt door voorwerpen zoals knopen of munten."
+  ],
+  "steps": [
+   "Schakel de machine uit. Laat heet water afkoelen om brandwonden te voorkomen.",
+   "Breng het uiteinde van de afvoerslang omlaag tot 1 meter of lager en haal knikken eruit.",
+   "Open het klepje van de afvoerpomp, zet er een bak onder en draai het afvoerfilter langzaam los om het water te laten weglopen.",
+   "Maak het filter schoon, controleer of het pompwaaiertje vrij draait en draai het filter weer stevig vast."
+  ],
+  "technician": "Blijft de storing, neem dan contact op met de Miele-service."
+ },
+ "Miele|F15": {
+  "title": "Warmwatertoevoer verstopt of beperkt",
+  "causes": [
+   "De warmwaterkraan staat niet helemaal open.",
+   "Het inlaatfilter voor warm water is vuil.",
+   "De druk van het warme water is te laag."
+  ],
+  "steps": [
+   "Draai de warmwaterkraan helemaal open en start opnieuw.",
+   "Draai de kraan dicht, schroef de warmwaterslang los, maak het kleine filter schoon en plaats het terug.",
+   "Controleer de doorstroming: minstens 5 liter in 15 seconden."
+  ],
+  "technician": "Is de druk te laag en kan die niet omhoog, neem dan contact op met een loodgieter of de Miele-service."
+ },
+ "Miele|F20": {
+  "title": "Storing verwarming",
+  "causes": [
+   "De ingestelde temperatuur is niet op tijd bereikt (Thermostop).",
+   "Een technische storing in het verwarmingssysteem."
+  ],
+  "steps": [
+   "Schakel het apparaat uit bij het stopcontact en haal de stekker eruit, of zet de zekering uit.",
+   "Wacht minstens 2 minuten.",
+   "Sluit het apparaat weer aan, zet het aan en start het programma opnieuw."
+  ],
+  "technician": "Komt F20 terug, neem dan contact op met de Miele-service."
+ },
+ "Miele|F34": {
+  "title": "Deur kon niet worden vergrendeld",
+  "causes": [
+   "De trommel is te vol geladen.",
+   "Een technische storing in het slot."
+  ],
+  "steps": [
+   "Haal wat wasgoed eruit zodat de lading binnen de limiet blijft.",
+   "Zet het apparaat uit en weer aan.",
+   "Haal zo nodig de stekker minstens 2 minuten uit het stopcontact, sluit hem weer aan en zet het apparaat aan."
+  ],
+  "technician": "Komt de storing terug, neem dan contact op met de Miele-service."
+ },
+ "Miele|F35": {
+  "title": "Deur kon niet worden ontgrendeld",
+  "causes": [
+   "Een technische storing in het deurslot."
+  ],
+  "steps": [
+   "Schakel het apparaat uit bij het stopcontact en haal de stekker eruit, of zet de zekering uit.",
+   "Wacht minstens 2 minuten, sluit het apparaat weer aan en zet het aan."
+  ],
+  "technician": "Gaat de deur nog steeds niet open, neem dan contact op met de Miele-service. Forceer de deur niet."
+ },
+ "Miele|Waterproof system activated": {
+  "title": "Lekbeveiliging geactiveerd",
+  "causes": [
+   "Er is water in de machine gedetecteerd door een lek."
+  ],
+  "steps": [
+   "Haal de stekker uit het stopcontact.",
+   "Draai de waterkraan dicht.",
+   "Veeg water op de vloer op.",
+   "Gebruik de machine niet tot hij gerepareerd is."
+  ],
+  "technician": "Volgens Miele moet het lek door de Miele-service worden gerepareerd. Probeer het niet zelf te verhelpen."
+ }
+}

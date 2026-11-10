@@ -1,0 +1,1776 @@
+{
+ "Vaillant|F.0": {
+  "title": "Přerušený obvod snímače teploty výstupní vody",
+  "causes": [
+   "Snímač teploty výstupní vody nebo jeho kabeláž je vadná.",
+   "Uvolněný spoj uvnitř kotle."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód vrátí, nepokoušejte se závadu odstranit sami. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Vaillant|F.1": {
+  "title": "Přerušený obvod snímače teploty vratné vody",
+  "causes": [
+   "Snímač teploty vratné vody nebo jeho kabeláž je vadná.",
+   "Uvolněný spoj uvnitř kotle."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód vrátí, nepokoušejte se závadu odstranit sami. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Vaillant|F.10": {
+  "title": "Zkrat snímače teploty výstupní vody",
+  "causes": [
+   "Snímač teploty výstupní vody nebo jeho kabeláž je vadná.",
+   "Uvolněný spoj uvnitř kotle."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód vrátí, nepokoušejte se závadu odstranit sami. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Vaillant|F.11": {
+  "title": "Zkrat snímače teploty vratné vody",
+  "causes": [
+   "Snímač teploty vratné vody nebo jeho kabeláž je vadná.",
+   "Uvolněný spoj uvnitř kotle."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód vrátí, nepokoušejte se závadu odstranit sami. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Vaillant|F.20": {
+  "title": "Zasáhla bezpečnostní tepelná pojistka",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Vaillant|F.22": {
+  "title": "Nízký tlak vody",
+  "causes": [
+   "Z otopné soustavy ubyla voda, často po odvzdušnění radiátorů.",
+   "Malý únik někde v potrubí nebo radiátorech.",
+   "Vadný snímač tlaku."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud musíte vodu často doplňovat, může jít o únik. Požádejte technika, aby ho našel."
+  ],
+  "technician": "Pokud tlak stále klesá, musí únik najít autorizovaný servisní technik; nikdy sami neotevírejte kryt kotle."
+ },
+ "Vaillant|F.23": {
+  "title": "Příliš velký rozdíl teplot výstupní a vratné vody",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Vaillant|F.24": {
+  "title": "Teplota roste příliš rychle",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Vaillant|F.25": {
+  "title": "Příliš vysoká teplota spalin",
+  "causes": [
+   "Problém s odvodem spalin nebo přívodem vzduchu.",
+   "Špatné spalování uvnitř kotle."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Vypněte kotel hlavním vypínačem.",
+   "Zvenku zkontrolujte, zda koncovka odvodu spalin není viditelně ucpaná. Nedotýkejte se jí.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Vaillant|F.27": {
+  "title": "Plamen zjištěn při vypnutém hořáku",
+  "causes": [
+   "Závada v obvodu snímání plamene.",
+   "Plynový ventil, který se úplně nezavírá."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Vypněte kotel hlavním vypínačem.",
+   "Neresetujte opakovaně. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Jde o bezpečnostní závadu; plynový ventil a díly snímání plamene smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Vaillant|F.28": {
+  "title": "Kotel se nezapálil",
+  "causes": [
+   "Do kotle neproudí plyn, například kvůli vyčerpanému předplacenému plynoměru.",
+   "Zamrzlé nebo ucpané potrubí odvodu kondenzátu.",
+   "Závada dílů zapalování nebo snímání plamene."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Zkontrolujte, zda fungují ostatní plynové spotřebiče, například varná deska.",
+   "Pokud máte předplacený plynoměr, ujistěte se, že má kredit.",
+   "V mrazu zkontrolujte venkovní plastové potrubí odvodu kondenzátu. Led rozmrazte teplou (ne vroucí) vodou.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Vaillant|F.29": {
+  "title": "Plamen zhasl a kotel se nemohl znovu zapálit",
+  "causes": [
+   "Do kotle neproudí plyn, například kvůli vyčerpanému předplacenému plynoměru.",
+   "Zamrzlé nebo ucpané potrubí odvodu kondenzátu.",
+   "Závada dílů zapalování nebo snímání plamene."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Zkontrolujte, zda fungují ostatní plynové spotřebiče, například varná deska.",
+   "Pokud máte předplacený plynoměr, ujistěte se, že má kredit.",
+   "V mrazu zkontrolujte venkovní plastové potrubí odvodu kondenzátu. Led rozmrazte teplou (ne vroucí) vodou.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Vaillant|F.32": {
+  "title": "Závada ventilátoru",
+  "causes": [
+   "Ventilátor neběží se správnými otáčkami.",
+   "Závada kabeláže nebo řídicí desky.",
+   "Odvod spalin může být ucpaný."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Zvenku zkontrolujte, zda koncovce odvodu spalin nic nebrání. Nedotýkejte se jí.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Vaillant|F.35": {
+  "title": "Ucpané potrubí přívodu vzduchu nebo odvodu spalin",
+  "causes": [
+   "Odvod spalin nebo sání vzduchu něco blokuje.",
+   "Poškozené potrubí odvodu spalin."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Vypněte kotel hlavním vypínačem.",
+   "Zvenku se podívejte, zda kolem koncovky odvodu spalin není listí, hnízda nebo sníh, ale odvodu spalin se nedotýkejte ani ho neodstraňujte.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Vaillant|F.54": {
+  "title": "Závada přívodu plynu",
+  "causes": [
+   "Do kotle neproudí plyn, například kvůli vyčerpanému předplacenému plynoměru.",
+   "Zamrzlé nebo ucpané potrubí odvodu kondenzátu.",
+   "Závada dílů zapalování nebo snímání plamene."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Zkontrolujte, zda fungují ostatní plynové spotřebiče, například varná deska.",
+   "Pokud máte předplacený plynoměr, ujistěte se, že má kredit.",
+   "V mrazu zkontrolujte venkovní plastové potrubí odvodu kondenzátu. Led rozmrazte teplou (ne vroucí) vodou.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Vaillant|F.62": {
+  "title": "Závada zpoždění uzavření plynového ventilu",
+  "causes": [
+   "Plamen po zastavení hořáku zhasínal příliš dlouho.",
+   "Závada plynového ventilu nebo řízení."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Vaillant|F.75": {
+  "title": "Po spuštění čerpadla nestoupá tlak",
+  "causes": [
+   "Z otopné soustavy ubyla voda, často po odvzdušnění radiátorů.",
+   "Malý únik někde v potrubí nebo radiátorech.",
+   "Vadný snímač tlaku."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud musíte vodu často doplňovat, může jít o únik. Požádejte technika, aby ho našel."
+  ],
+  "technician": "Pokud tlak stále klesá, musí únik najít autorizovaný servisní technik; nikdy sami neotevírejte kryt kotle."
+ },
+ "Vaillant|F.83": {
+  "title": "Při startu hořáku nestoupá teplota",
+  "causes": [
+   "V kotli není dost vody.",
+   "Vzduch v soustavě nebo závada snímače."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Vaillant|F.88": {
+  "title": "Ztráta elektrického připojení plynového ventilu",
+  "causes": [
+   "Uvolněný nebo poškozený spoj k plynovému ventilu.",
+   "Závada řídicí desky."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Nesnažte se k plynovému ventilu dostat. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Glow-worm|F.0": {
+  "title": "Přerušený obvod snímače teploty výstupní vody",
+  "causes": [
+   "Snímač teploty výstupní vody nebo jeho kabeláž je vadná.",
+   "Uvolněný spoj uvnitř kotle."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód vrátí, nepokoušejte se závadu odstranit sami. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Glow-worm|F.1": {
+  "title": "Přerušený obvod snímače teploty vratné vody",
+  "causes": [
+   "Snímač teploty vratné vody nebo jeho kabeláž je vadná.",
+   "Uvolněný spoj uvnitř kotle."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód vrátí, nepokoušejte se závadu odstranit sami. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Glow-worm|F.20": {
+  "title": "Zasáhla bezpečnostní tepelná pojistka",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Glow-worm|F.22": {
+  "title": "Nízký tlak vody",
+  "causes": [
+   "Z otopné soustavy ubyla voda, často po odvzdušnění radiátorů.",
+   "Malý únik někde v potrubí nebo radiátorech.",
+   "Vadný snímač tlaku."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud musíte vodu často doplňovat, může jít o únik. Požádejte technika, aby ho našel."
+  ],
+  "technician": "Pokud tlak stále klesá, musí únik najít autorizovaný servisní technik; nikdy sami neotevírejte kryt kotle."
+ },
+ "Glow-worm|F.23": {
+  "title": "Příliš velký rozdíl teplot výstupní a vratné vody",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Glow-worm|F.24": {
+  "title": "Teplota roste příliš rychle",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Glow-worm|F.27": {
+  "title": "Plamen zjištěn při vypnutém hořáku",
+  "causes": [
+   "Závada v obvodu snímání plamene.",
+   "Plynový ventil, který se úplně nezavírá."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Vypněte kotel hlavním vypínačem.",
+   "Neresetujte opakovaně. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Jde o bezpečnostní závadu; plynový ventil a díly snímání plamene smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Glow-worm|F.28": {
+  "title": "Kotel se nezapálil",
+  "causes": [
+   "Do kotle neproudí plyn, například kvůli vyčerpanému předplacenému plynoměru.",
+   "Zamrzlé nebo ucpané potrubí odvodu kondenzátu.",
+   "Závada dílů zapalování nebo snímání plamene."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Zkontrolujte, zda fungují ostatní plynové spotřebiče, například varná deska.",
+   "Pokud máte předplacený plynoměr, ujistěte se, že má kredit.",
+   "V mrazu zkontrolujte venkovní plastové potrubí odvodu kondenzátu. Led rozmrazte teplou (ne vroucí) vodou.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Glow-worm|F.29": {
+  "title": "Plamen zhasl a kotel se nemohl znovu zapálit",
+  "causes": [
+   "Do kotle neproudí plyn, například kvůli vyčerpanému předplacenému plynoměru.",
+   "Zamrzlé nebo ucpané potrubí odvodu kondenzátu.",
+   "Závada dílů zapalování nebo snímání plamene."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Zkontrolujte, zda fungují ostatní plynové spotřebiče, například varná deska.",
+   "Pokud máte předplacený plynoměr, ujistěte se, že má kredit.",
+   "V mrazu zkontrolujte venkovní plastové potrubí odvodu kondenzátu. Led rozmrazte teplou (ne vroucí) vodou.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Glow-worm|F.32": {
+  "title": "Závada ventilátoru",
+  "causes": [
+   "Ventilátor neběží se správnými otáčkami.",
+   "Závada kabeláže nebo řídicí desky.",
+   "Odvod spalin může být ucpaný."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Zvenku zkontrolujte, zda koncovce odvodu spalin nic nebrání. Nedotýkejte se jí.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Glow-worm|F.61": {
+  "title": "Závada hlavní řídicí desky",
+  "causes": [
+   "Elektronická závada na hlavní desce.",
+   "Problém s řídicím obvodem plynového ventilu."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Pokud kód nezmizí, znovu neresetujte. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Glow-worm|F.75": {
+  "title": "Po spuštění čerpadla nestoupá tlak",
+  "causes": [
+   "Z otopné soustavy ubyla voda, často po odvzdušnění radiátorů.",
+   "Malý únik někde v potrubí nebo radiátorech.",
+   "Vadný snímač tlaku."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud musíte vodu často doplňovat, může jít o únik. Požádejte technika, aby ho našel."
+  ],
+  "technician": "Pokud tlak stále klesá, musí únik najít autorizovaný servisní technik; nikdy sami neotevírejte kryt kotle."
+ },
+ "Glow-worm|F.84": {
+  "title": "Hodnoty výstupní a vratné vody nedávají smysl",
+  "causes": [
+   "Potrubí může být prohozené nebo je snímač namontovaný na špatném místě.",
+   "Závada snímače."
+  ],
+  "steps": [
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se to objevilo po nových pracích na soustavě, kontaktujte firmu, která je prováděla."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Glow-worm|F.88": {
+  "title": "Ztráta elektrického připojení plynového ventilu",
+  "causes": [
+   "Uvolněný nebo poškozený spoj k plynovému ventilu.",
+   "Závada řídicí desky."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Nesnažte se k plynovému ventilu dostat. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Ideal|L1": {
+  "title": "Přehřátí výstupní vody nebo žádný průtok vody",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Ideal|L2": {
+  "title": "Blokování zapalování",
+  "causes": [
+   "Do kotle neproudí plyn, například kvůli vyčerpanému předplacenému plynoměru.",
+   "Zamrzlé nebo ucpané potrubí odvodu kondenzátu.",
+   "Závada dílů zapalování nebo snímání plamene."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Zkontrolujte, zda fungují ostatní plynové spotřebiče, například varná deska.",
+   "Pokud máte předplacený plynoměr, ujistěte se, že má kredit.",
+   "V mrazu zkontrolujte venkovní plastové potrubí odvodu kondenzátu. Led rozmrazte teplou (ne vroucí) vodou.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Ideal|L3": {
+  "title": "Žádný průtok vody",
+  "causes": [
+   "Nízký tlak v soustavě.",
+   "Vzduch zachycený v radiátorech.",
+   "Problém s oběhem nebo čerpadlem."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Vypněte kotel a odvzdušněte radiátory.",
+   "Znovu zkontrolujte tlak, zapněte kotel a resetujte ho.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Ideal|L5": {
+  "title": "Příliš mnoho resetů během 15 minut",
+  "causes": [
+   "Tlačítko reset bylo v krátké době stisknuto příliš mnohokrát."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Pokud se pak objeví kód závady, postupujte podle pokynů pro daný kód."
+  ],
+  "technician": "Pokud se kotel stále blokuje, měl by skutečnou příčinu najít autorizovaný servisní technik."
+ },
+ "Ideal|L6": {
+  "title": "Blokování kvůli falešnému plameni",
+  "causes": [
+   "Závada v obvodu snímání plamene.",
+   "Plynový ventil, který se úplně nezavírá."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Vypněte kotel hlavním vypínačem.",
+   "Neresetujte opakovaně. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Jde o bezpečnostní závadu; plynový ventil a díly snímání plamene smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Ideal|F1": {
+  "title": "Nízký tlak vody",
+  "causes": [
+   "Z otopné soustavy ubyla voda, často po odvzdušnění radiátorů.",
+   "Malý únik někde v potrubí nebo radiátorech.",
+   "Vadný snímač tlaku."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud musíte vodu často doplňovat, může jít o únik. Požádejte technika, aby ho našel."
+  ],
+  "technician": "Pokud tlak stále klesá, musí únik najít autorizovaný servisní technik; nikdy sami neotevírejte kryt kotle."
+ },
+ "Ideal|F2": {
+  "title": "Ztráta plamene",
+  "causes": [
+   "Do kotle neproudí plyn, například kvůli vyčerpanému předplacenému plynoměru.",
+   "Zamrzlé nebo ucpané potrubí odvodu kondenzátu.",
+   "Závada dílů zapalování nebo snímání plamene."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Zkontrolujte, zda fungují ostatní plynové spotřebiče, například varná deska.",
+   "Pokud máte předplacený plynoměr, ujistěte se, že má kredit.",
+   "V mrazu zkontrolujte venkovní plastové potrubí odvodu kondenzátu. Led rozmrazte teplou (ne vroucí) vodou.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Ideal|F3": {
+  "title": "Závada ventilátoru",
+  "causes": [
+   "Ventilátor neběží se správnými otáčkami.",
+   "Závada kabeláže nebo řídicí desky.",
+   "Odvod spalin může být ucpaný."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Zvenku zkontrolujte, zda koncovce odvodu spalin nic nebrání. Nedotýkejte se jí.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Ideal|F4": {
+  "title": "Závada termistoru výstupní vody",
+  "causes": [
+   "Termistor výstupní vody (snímač teploty) nebo jeho kabeláž je vadná.",
+   "Uvolněný spoj uvnitř kotle."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód vrátí, nepokoušejte se závadu odstranit sami. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Ideal|F5": {
+  "title": "Závada termistoru vratné vody",
+  "causes": [
+   "Termistor vratné vody (snímač teploty) nebo jeho kabeláž je vadná.",
+   "Uvolněný spoj uvnitř kotle."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód vrátí, nepokoušejte se závadu odstranit sami. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Ideal|F6": {
+  "title": "Závada venkovního snímače",
+  "causes": [
+   "Snímač venkovní teploty nebo jeho kabeláž je vadná.",
+   "Uvolněný spoj uvnitř kotle."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód vrátí, nepokoušejte se závadu odstranit sami. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Ideal|F7": {
+  "title": "Nízké napětí v síti",
+  "causes": [
+   "Napájecí napětí v domě je příliš nízké.",
+   "Závada elektroinstalace v objektu."
+  ],
+  "steps": [
+   "Zkontrolujte, zda se to týká i jiných spotřebičů nebo světel.",
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Požádejte elektrikáře nebo dodavatele elektřiny o kontrolu přívodu."
+  ],
+  "technician": "Pokud je přívod v pořádku, měl by kotel otestovat autorizovaný servisní technik; kontrolu elektrické instalace provádí kvalifikovaný elektrikář."
+ },
+ "Ideal|F0": {
+  "title": "Žádný průtok vody (termistor)",
+  "causes": [
+   "Kotlem neproudí voda.",
+   "Závada snímače."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Ideal|FD": {
+  "title": "Žádný průtok vody",
+  "causes": [
+   "Nízký tlak nebo vzduch v soustavě.",
+   "Oběhové čerpadlo topení neběží."
+  ],
+  "steps": [
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Znovu zapněte kotel a zkontrolujte, zda kód zmizí.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Ideal|FU": {
+  "title": "Příliš velký rozdíl výstupní a vratné vody",
+  "causes": [
+   "Vzduch v radiátorech.",
+   "Nízký tlak nebo ucpání v soustavě."
+  ],
+  "steps": [
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Znovu zapněte kotel.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Worcester Bosch|EA 227": {
+  "title": "Hořák se nezapálil",
+  "causes": [
+   "Do kotle neproudí plyn, například kvůli vyčerpanému předplacenému plynoměru.",
+   "Zamrzlé nebo ucpané potrubí odvodu kondenzátu.",
+   "Závada dílů zapalování nebo snímání plamene."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Zkontrolujte, zda fungují ostatní plynové spotřebiče, například varná deska.",
+   "Pokud máte předplacený plynoměr, ujistěte se, že má kredit.",
+   "V mrazu zkontrolujte venkovní plastové potrubí odvodu kondenzátu. Led rozmrazte teplou (ne vroucí) vodou.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Worcester Bosch|CE 207": {
+  "title": "Nízký tlak vody",
+  "causes": [
+   "Z otopné soustavy ubyla voda, často po odvzdušnění radiátorů.",
+   "Malý únik někde v potrubí nebo radiátorech.",
+   "Vadný snímač tlaku."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud musíte vodu často doplňovat, může jít o únik. Požádejte technika, aby ho našel."
+  ],
+  "technician": "Pokud tlak stále klesá, musí únik najít autorizovaný servisní technik; nikdy sami neotevírejte kryt kotle."
+ },
+ "Worcester Bosch|H07": {
+  "title": "Nízký tlak vody (upozornění)",
+  "causes": [
+   "Tlak v soustavě klesl pod normální úroveň."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Pokud musíte vodu často doplňovat, může jít o únik. Požádejte technika, aby ho našel."
+  ],
+  "technician": "Pokud tlak stále klesá, musí únik najít autorizovaný servisní technik; nikdy sami neotevírejte kryt kotle."
+ },
+ "Worcester Bosch|E9 224": {
+  "title": "Vnitřní bezpečnostní termostat je příliš horký",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Worcester Bosch|E9 276": {
+  "title": "Příliš vysoká teplota výstupní vody",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Worcester Bosch|CE 266": {
+  "title": "Neočekávané hodnoty teploty, možný nízký tlak",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Worcester Bosch|Fd 231": {
+  "title": "Výpadek proudu během blokování",
+  "causes": [
+   "Během blokování kotle byl přerušen přívod elektřiny."
+  ],
+  "steps": [
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se pak objeví jiný kód, postupujte podle pokynů pro daný kód."
+  ],
+  "technician": "Pokud kotel po resetu nelze odblokovat, měl by ho zkontrolovat autorizovaný servisní technik."
+ },
+ "Worcester Bosch|A1": {
+  "title": "Čerpadlo běželo nasucho",
+  "causes": [
+   "Velmi nízký tlak vody.",
+   "Vzduch zachycený v čerpadle nebo soustavě."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Worcester Bosch|C6": {
+  "title": "Příliš nízké otáčky ventilátoru",
+  "causes": [
+   "Ventilátor neběží se správnými otáčkami.",
+   "Závada kabeláže nebo řídicí desky.",
+   "Odvod spalin může být ucpaný."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Zvenku zkontrolujte, zda koncovce odvodu spalin nic nebrání. Nedotýkejte se jí.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Worcester Bosch|F7": {
+  "title": "Plamen je detekován i po vypnutí hořáku",
+  "causes": [
+   "Závada v obvodu snímání plamene.",
+   "Plynový ventil, který se úplně nezavírá."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Vypněte kotel hlavním vypínačem.",
+   "Neresetujte opakovaně. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Jde o bezpečnostní závadu; plynový ventil a díly snímání plamene smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Worcester Bosch|2980": {
+  "title": "Vážná bezpečnostní závada",
+  "causes": [
+   "Kotel zjistil závadu související s bezpečností."
+  ],
+  "steps": [
+   "Vypněte kotel.",
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Nepokoušejte se ho opravit ani resetovat. Ihned kontaktujte kvalifikovaného technika topení."
+  ],
+  "technician": "Jde o bezpečnostně kritickou závadu a musí ji řešit autorizovaný servisní technik."
+ },
+ "Junkers/Bosch|227": {
+  "title": "Hořák se nezapálil ani po několika pokusech",
+  "causes": [
+   "Do kotle neproudí plyn, například kvůli vyčerpanému předplacenému plynoměru.",
+   "Zamrzlé nebo ucpané potrubí odvodu kondenzátu.",
+   "Závada dílů zapalování nebo snímání plamene."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Zkontrolujte, zda fungují ostatní plynové spotřebiče, například varná deska.",
+   "Pokud máte předplacený plynoměr, ujistěte se, že má kredit.",
+   "V mrazu zkontrolujte venkovní plastové potrubí odvodu kondenzátu. Led rozmrazte teplou (ne vroucí) vodou.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Junkers/Bosch|207": {
+  "title": "Nízký tlak vody",
+  "causes": [
+   "Z otopné soustavy ubyla voda, často po odvzdušnění radiátorů.",
+   "Malý únik někde v potrubí nebo radiátorech.",
+   "Vadný snímač tlaku."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud musíte vodu často doplňovat, může jít o únik. Požádejte technika, aby ho našel."
+  ],
+  "technician": "Pokud tlak stále klesá, musí únik najít autorizovaný servisní technik; nikdy sami neotevírejte kryt kotle."
+ },
+ "Junkers/Bosch|224": {
+  "title": "Zasáhl bezpečnostní omezovač teploty",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Junkers/Bosch|276": {
+  "title": "Příliš vysoká teplota výstupní vody",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Junkers/Bosch|231": {
+  "title": "Výpadek proudu během blokování",
+  "causes": [
+   "Během blokování kotle byl přerušen přívod elektřiny."
+  ],
+  "steps": [
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se pak objeví jiný kód, postupujte podle pokynů pro daný kód."
+  ],
+  "technician": "Pokud se závada neodstraní, musí kotel zkontrolovat autorizovaný servisní technik."
+ },
+ "Junkers/Bosch|232": {
+  "title": "Požadavek na topení blokuje externí kontakt",
+  "causes": [
+   "Kotel zablokoval externí regulátor, například omezovač podlahového topení.",
+   "Zasáhl bezpečnostní spínač čerpadla kondenzátu."
+  ],
+  "steps": [
+   "Počkejte několik minut; kotel se může spustit sám.",
+   "Zkontrolujte, zda prostorový termostat a časovač požadují topení.",
+   "Pokud máte čerpadlo kondenzátu, zkontrolujte, zda má napájení a nepřetéká.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Junkers/Bosch|2962": {
+  "title": "Žádný signál z ventilátoru",
+  "causes": [
+   "Ventilátor neběží se správnými otáčkami.",
+   "Závada kabeláže nebo řídicí desky.",
+   "Odvod spalin může být ucpaný."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Zvenku zkontrolujte, zda koncovce odvodu spalin nic nebrání. Nedotýkejte se jí.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Baxi|E133": {
+  "title": "Zamrzlé nebo ucpané potrubí odvodu kondenzátu",
+  "causes": [
+   "Venkovní potrubí odvodu kondenzátu v mrazu zamrzlo.",
+   "Ucpání v potrubí odvodu kondenzátu.",
+   "U některých modelů problém s přívodem plynu nebo zapalováním."
+  ],
+  "steps": [
+   "Vypněte kotel.",
+   "Najděte zamrzlou část potrubí odvodu kondenzátu, obvykle venku nebo v ohybu.",
+   "Zahřejte ji termoforem nebo ji polijte teplou (ne vroucí) vodou.",
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239)."
+  ],
+  "technician": "Pokud kotel ani po rozmrazení nefunguje, zavolejte autorizovaného servisního technika."
+ },
+ "Baxi|E28": {
+  "title": "Zamrzlé nebo ucpané potrubí odvodu kondenzátu",
+  "causes": [
+   "Venkovní potrubí odvodu kondenzátu v mrazu zamrzlo.",
+   "Ucpání v potrubí odvodu kondenzátu.",
+   "U některých modelů problém s přívodem plynu nebo zapalováním."
+  ],
+  "steps": [
+   "Vypněte kotel.",
+   "Najděte zamrzlou část potrubí odvodu kondenzátu, obvykle venku nebo v ohybu.",
+   "Zahřejte ji termoforem nebo ji polijte teplou (ne vroucí) vodou.",
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239)."
+  ],
+  "technician": "Pokud kotel ani po rozmrazení nefunguje, zavolejte autorizovaného servisního technika."
+ },
+ "Baxi|A.02.06": {
+  "title": "Nízký tlak vody",
+  "causes": [
+   "Z otopné soustavy ubyla voda, často po odvzdušnění radiátorů.",
+   "Malý únik někde v potrubí nebo radiátorech.",
+   "Vadný snímač tlaku."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud musíte vodu často doplňovat, může jít o únik. Požádejte technika, aby ho našel."
+  ],
+  "technician": "Pokud tlak stále klesá, musí únik najít autorizovaný servisní technik; nikdy sami neotevírejte kryt kotle."
+ },
+ "Baxi|H.02.07": {
+  "title": "Nízký tlak vody (upozornění)",
+  "causes": [
+   "Z otopné soustavy ubyla voda, často po odvzdušnění radiátorů.",
+   "Malý únik někde v potrubí nebo radiátorech.",
+   "Vadný snímač tlaku."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud musíte vodu často doplňovat, může jít o únik. Požádejte technika, aby ho našel."
+  ],
+  "technician": "Pokud tlak stále klesá, musí únik najít autorizovaný servisní technik; nikdy sami neotevírejte kryt kotle."
+ },
+ "Potterton|E133": {
+  "title": "Zamrzlé nebo ucpané potrubí odvodu kondenzátu",
+  "causes": [
+   "Venkovní potrubí odvodu kondenzátu v mrazu zamrzlo.",
+   "Ucpání v potrubí odvodu kondenzátu.",
+   "U některých modelů problém s přívodem plynu nebo zapalováním."
+  ],
+  "steps": [
+   "Vypněte kotel.",
+   "Najděte zamrzlou část potrubí odvodu kondenzátu, obvykle venku nebo v ohybu.",
+   "Zahřejte ji termoforem nebo ji polijte teplou (ne vroucí) vodou.",
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239)."
+  ],
+  "technician": "Pokud kotel ani po rozmrazení nefunguje, zavolejte autorizovaného servisního technika."
+ },
+ "Viessmann|74": {
+  "title": "Nízký tlak vody",
+  "causes": [
+   "Z otopné soustavy ubyla voda, často po odvzdušnění radiátorů.",
+   "Malý únik někde v potrubí nebo radiátorech.",
+   "Vadný snímač tlaku."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud musíte vodu často doplňovat, může jít o únik. Požádejte technika, aby ho našel."
+  ],
+  "technician": "Pokud tlak stále klesá, musí únik najít autorizovaný servisní technik; nikdy sami neotevírejte kryt kotle."
+ },
+ "Viessmann|361": {
+  "title": "Žádný signál plamene při startu hořáku",
+  "causes": [
+   "Do kotle neproudí plyn, například kvůli vyčerpanému předplacenému plynoměru.",
+   "Zamrzlé nebo ucpané potrubí odvodu kondenzátu.",
+   "Závada dílů zapalování nebo snímání plamene."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Zkontrolujte, zda fungují ostatní plynové spotřebiče, například varná deska.",
+   "Pokud máte předplacený plynoměr, ujistěte se, že má kredit.",
+   "V mrazu zkontrolujte venkovní plastové potrubí odvodu kondenzátu. Led rozmrazte teplou (ne vroucí) vodou.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Viessmann|64": {
+  "title": "Ztráta plamene během provozu",
+  "causes": [
+   "Do kotle neproudí plyn, například kvůli vyčerpanému předplacenému plynoměru.",
+   "Zamrzlé nebo ucpané potrubí odvodu kondenzátu.",
+   "Závada dílů zapalování nebo snímání plamene."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Zkontrolujte, zda fungují ostatní plynové spotřebiče, například varná deska.",
+   "Pokud máte předplacený plynoměr, ujistěte se, že má kredit.",
+   "V mrazu zkontrolujte venkovní plastové potrubí odvodu kondenzátu. Led rozmrazte teplou (ne vroucí) vodou.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Viessmann|62": {
+  "title": "Zasáhla bezpečnostní pojistka maximální teploty",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Viessmann|63": {
+  "title": "Zasáhl omezovač teploty spalin",
+  "causes": [
+   "Teplota spalin příliš stoupla.",
+   "Problém se spalováním nebo odvodem spalin."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Vypněte kotel.",
+   "Zvenku zkontrolujte, zda koncovka odvodu spalin není viditelně ucpaná. Nedotýkejte se jí.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Viessmann|71": {
+  "title": "Příliš nízké otáčky ventilátoru",
+  "causes": [
+   "Ventilátor neběží se správnými otáčkami.",
+   "Závada kabeláže nebo řídicí desky.",
+   "Odvod spalin může být ucpaný."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Zvenku zkontrolujte, zda koncovce odvodu spalin nic nebrání. Nedotýkejte se jí.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Viessmann|14": {
+  "title": "Zkrat snímače venkovní teploty",
+  "causes": [
+   "Snímač venkovní teploty nebo jeho kabeláž je vadná.",
+   "Uvolněný spoj uvnitř kotle."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód vrátí, nepokoušejte se závadu odstranit sami. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Viessmann|A4": {
+  "title": "Vzduch v čerpadle nebo příliš nízký průtok",
+  "causes": [
+   "Ve vnitřním čerpadle je zachycený vzduch.",
+   "Průtok vody kotlem je pod minimem."
+  ],
+  "steps": [
+   "Nechte automatický odvzdušňovací program doběhnout.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Ariston|101": {
+  "title": "Přehřátí",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Ariston|103": {
+  "title": "Špatný oběh vody",
+  "causes": [
+   "Vzduch v soustavě.",
+   "Nízký tlak nebo zavřené ventily.",
+   "Problém s čerpadlem."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Ariston|108": {
+  "title": "Nízký tlak vody",
+  "causes": [
+   "Z otopné soustavy ubyla voda, často po odvzdušnění radiátorů.",
+   "Malý únik někde v potrubí nebo radiátorech.",
+   "Vadný snímač tlaku."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud musíte vodu často doplňovat, může jít o únik. Požádejte technika, aby ho našel."
+  ],
+  "technician": "Pokud tlak stále klesá, musí únik najít autorizovaný servisní technik; nikdy sami neotevírejte kryt kotle."
+ },
+ "Ariston|110": {
+  "title": "Dočasné bezpečnostní vypnutí",
+  "causes": [
+   "Dočasný stav způsobil, že se kotel z bezpečnostních důvodů zastavil."
+  ],
+  "steps": [
+   "Počkejte; kotel by se měl po odeznění příčiny spustit sám.",
+   "Pokud zůstane vypnutý, vypněte ho hlavním vypínačem a kontaktujte servis."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Ariston|118": {
+  "title": "Problém se snímačem primárního okruhu",
+  "causes": [
+   "Snímač primárního okruhu nebo jeho kabeláž je vadná.",
+   "Uvolněný spoj uvnitř kotle."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód vrátí, nepokoušejte se závadu odstranit sami. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Ariston|201": {
+  "title": "Závada snímače vodního okruhu",
+  "causes": [
+   "Snímač vodního okruhu nebo jeho kabeláž je vadná.",
+   "Uvolněný spoj uvnitř kotle."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód vrátí, nepokoušejte se závadu odstranit sami. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Ariston|304": {
+  "title": "Příliš mnoho resetů",
+  "causes": [
+   "Tlačítko reset bylo stisknuto příliš mnohokrát."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Neresetujte opakovaně. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Autorizovaný servisní technik by měl zjistit, proč se kotel stále blokuje."
+ },
+ "Ariston|305": {
+  "title": "Chyba hlavní desky",
+  "causes": [
+   "Elektronická závada na hlavní řídicí desce."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Ariston|501": {
+  "title": "Nebyl zjištěn plamen",
+  "causes": [
+   "Do kotle neproudí plyn, například kvůli vyčerpanému předplacenému plynoměru.",
+   "Zamrzlé nebo ucpané potrubí odvodu kondenzátu.",
+   "Závada dílů zapalování nebo snímání plamene."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Zkontrolujte, zda fungují ostatní plynové spotřebiče, například varná deska.",
+   "Pokud máte předplacený plynoměr, ujistěte se, že má kredit.",
+   "V mrazu zkontrolujte venkovní plastové potrubí odvodu kondenzátu. Led rozmrazte teplou (ne vroucí) vodou.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Ariston|601": {
+  "title": "Závada odvodu spalin",
+  "causes": [
+   "Odvod spalin správně neodvádí spaliny."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Počkejte několik minut; kotel to zkusí znovu.",
+   "Pokud se znovu zablokuje, vypněte ho a kontaktujte kvalifikovaného technika."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Ariston|611": {
+  "title": "Závada ventilátoru",
+  "causes": [
+   "Ventilátor neběží se správnými otáčkami.",
+   "Závada kabeláže nebo řídicí desky.",
+   "Odvod spalin může být ucpaný."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Zvenku zkontrolujte, zda koncovce odvodu spalin nic nebrání. Nedotýkejte se jí.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Ariston|802": {
+  "title": "Automatická kalibrace spalování selhala",
+  "causes": [
+   "Kotel nemohl dokončit samočinné seřízení spalování."
+  ],
+  "steps": [
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Saunier Duval|F.22": {
+  "title": "Nízký tlak vody",
+  "causes": [
+   "Z otopné soustavy ubyla voda, často po odvzdušnění radiátorů.",
+   "Malý únik někde v potrubí nebo radiátorech.",
+   "Vadný snímač tlaku."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud musíte vodu často doplňovat, může jít o únik. Požádejte technika, aby ho našel."
+  ],
+  "technician": "Pokud tlak stále klesá, musí únik najít autorizovaný servisní technik; nikdy sami neotevírejte kryt kotle."
+ },
+ "Saunier Duval|F.28": {
+  "title": "Kotel se nezapálil",
+  "causes": [
+   "Do kotle neproudí plyn, například kvůli vyčerpanému předplacenému plynoměru.",
+   "Zamrzlé nebo ucpané potrubí odvodu kondenzátu.",
+   "Závada dílů zapalování nebo snímání plamene."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Zkontrolujte, zda fungují ostatní plynové spotřebiče, například varná deska.",
+   "Pokud máte předplacený plynoměr, ujistěte se, že má kredit.",
+   "V mrazu zkontrolujte venkovní plastové potrubí odvodu kondenzátu. Led rozmrazte teplou (ne vroucí) vodou.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Saunier Duval|F.20": {
+  "title": "Zasáhl bezpečnostní omezovač teploty",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Saunier Duval|F.23": {
+  "title": "Příliš velký rozdíl teplot výstupní a vratné vody",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Saunier Duval|F.24": {
+  "title": "Teplota roste příliš rychle",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Saunier Duval|F.00": {
+  "title": "Přerušený obvod snímače teploty výstupní vody",
+  "causes": [
+   "Snímač teploty výstupní vody nebo jeho kabeláž je vadná.",
+   "Uvolněný spoj uvnitř kotle."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód vrátí, nepokoušejte se závadu odstranit sami. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Saunier Duval|F.10": {
+  "title": "Zkrat snímače teploty výstupní vody",
+  "causes": [
+   "Snímač teploty výstupní vody nebo jeho kabeláž je vadná.",
+   "Uvolněný spoj uvnitř kotle."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód vrátí, nepokoušejte se závadu odstranit sami. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Immergas|E01": {
+  "title": "Blokování kvůli nezapálení",
+  "causes": [
+   "Do kotle neproudí plyn, například kvůli vyčerpanému předplacenému plynoměru.",
+   "Zamrzlé nebo ucpané potrubí odvodu kondenzátu.",
+   "Závada dílů zapalování nebo snímání plamene."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Zkontrolujte, zda fungují ostatní plynové spotřebiče, například varná deska.",
+   "Pokud máte předplacený plynoměr, ujistěte se, že má kredit.",
+   "V mrazu zkontrolujte venkovní plastové potrubí odvodu kondenzátu. Led rozmrazte teplou (ne vroucí) vodou.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Immergas|E02": {
+  "title": "Blokování bezpečnostním termostatem (přehřátí)",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Immergas|E05": {
+  "title": "Závada čidla výstupní vody",
+  "causes": [
+   "Čidlo teploty výstupní vody nebo jeho kabeláž je vadná.",
+   "Uvolněný spoj uvnitř kotle."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód vrátí, nepokoušejte se závadu odstranit sami. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Immergas|E06": {
+  "title": "Závada čidla teplé vody",
+  "causes": [
+   "Čidlo teploty teplé vody nebo jeho kabeláž je vadná.",
+   "Uvolněný spoj uvnitř kotle."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód vrátí, nepokoušejte se závadu odstranit sami. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Immergas|E10": {
+  "title": "Nedostatečný tlak v soustavě",
+  "causes": [
+   "Z otopné soustavy ubyla voda, často po odvzdušnění radiátorů.",
+   "Malý únik někde v potrubí nebo radiátorech.",
+   "Vadný snímač tlaku."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud musíte vodu často doplňovat, může jít o únik. Požádejte technika, aby ho našel."
+  ],
+  "technician": "Pokud tlak stále klesá, musí únik najít autorizovaný servisní technik; nikdy sami neotevírejte kryt kotle."
+ },
+ "Immergas|E11": {
+  "title": "Závada tlakového spínače spalin",
+  "causes": [
+   "Ventilátor neběží se správnými otáčkami.",
+   "Závada kabeláže nebo řídicí desky.",
+   "Odvod spalin může být ucpaný."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Zvenku zkontrolujte, zda koncovce odvodu spalin nic nebrání. Nedotýkejte se jí.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Immergas|E20": {
+  "title": "Blokování kvůli parazitnímu plameni",
+  "causes": [
+   "Závada v obvodu snímání plamene.",
+   "Plynový ventil, který se úplně nezavírá."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Vypněte kotel hlavním vypínačem.",
+   "Neresetujte opakovaně. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Jde o bezpečnostní závadu; plynový ventil a díly snímání plamene smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Immergas|E27": {
+  "title": "Nedostatečný oběh",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Immergas|E37": {
+  "title": "Nízké napájecí napětí",
+  "causes": [
+   "Napětí v síti je pod povoleným limitem."
+  ],
+  "steps": [
+   "Zkontrolujte, zda se to týká i jiných spotřebičů.",
+   "Počkejte; kotel se spustí sám, až bude napětí normální.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Pokud je přívod v pořádku, měl by kotel otestovat autorizovaný servisní technik; kontrolu elektrické instalace provádí kvalifikovaný elektrikář."
+ },
+ "Immergas|E38": {
+  "title": "Ztráta signálu plamene",
+  "causes": [
+   "Do kotle neproudí plyn, například kvůli vyčerpanému předplacenému plynoměru.",
+   "Zamrzlé nebo ucpané potrubí odvodu kondenzátu.",
+   "Závada dílů zapalování nebo snímání plamene."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Zkontrolujte, zda fungují ostatní plynové spotřebiče, například varná deska.",
+   "Pokud máte předplacený plynoměr, ujistěte se, že má kredit.",
+   "V mrazu zkontrolujte venkovní plastové potrubí odvodu kondenzátu. Led rozmrazte teplou (ne vroucí) vodou.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Immergas|E43": {
+  "title": "Blokování po opakované ztrátě plamene",
+  "causes": [
+   "Do kotle neproudí plyn, například kvůli vyčerpanému předplacenému plynoměru.",
+   "Zamrzlé nebo ucpané potrubí odvodu kondenzátu.",
+   "Závada dílů zapalování nebo snímání plamene."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Zkontrolujte, zda fungují ostatní plynové spotřebiče, například varná deska.",
+   "Pokud máte předplacený plynoměr, ujistěte se, že má kredit.",
+   "V mrazu zkontrolujte venkovní plastové potrubí odvodu kondenzátu. Led rozmrazte teplou (ne vroucí) vodou.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Ferroli|A01": {
+  "title": "Hořák se nezapálil",
+  "causes": [
+   "Do kotle neproudí plyn, například kvůli vyčerpanému předplacenému plynoměru.",
+   "Zamrzlé nebo ucpané potrubí odvodu kondenzátu.",
+   "Závada dílů zapalování nebo snímání plamene."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Zkontrolujte, zda fungují ostatní plynové spotřebiče, například varná deska.",
+   "Pokud máte předplacený plynoměr, ujistěte se, že má kredit.",
+   "V mrazu zkontrolujte venkovní plastové potrubí odvodu kondenzátu. Led rozmrazte teplou (ne vroucí) vodou.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Ferroli|A02": {
+  "title": "Signál plamene při vypnutém hořáku",
+  "causes": [
+   "Závada v obvodu snímání plamene.",
+   "Plynový ventil, který se úplně nezavírá."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Vypněte kotel hlavním vypínačem.",
+   "Neresetujte opakovaně. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Jde o bezpečnostní závadu; plynový ventil a díly snímání plamene smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Ferroli|A03": {
+  "title": "Ochrana proti přehřátí",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Ferroli|F05": {
+  "title": "Tlakový spínač vzduchu nesepnul",
+  "causes": [
+   "Ventilátor neběží se správnými otáčkami.",
+   "Závada kabeláže nebo řídicí desky.",
+   "Odvod spalin může být ucpaný."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Zvenku zkontrolujte, zda koncovce odvodu spalin nic nebrání. Nedotýkejte se jí.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Ferroli|A06": {
+  "title": "Žádný plamen po zapálení",
+  "causes": [
+   "Do kotle neproudí plyn, například kvůli vyčerpanému předplacenému plynoměru.",
+   "Zamrzlé nebo ucpané potrubí odvodu kondenzátu.",
+   "Závada dílů zapalování nebo snímání plamene."
+  ],
+  "steps": [
+   "Pokud cítíte plyn, kotel neresetujte. Opusťte objekt a zavolejte plynárenskou pohotovostní linku (1239).",
+   "Zkontrolujte, zda fungují ostatní plynové spotřebiče, například varná deska.",
+   "Pokud máte předplacený plynoměr, ujistěte se, že má kredit.",
+   "V mrazu zkontrolujte venkovní plastové potrubí odvodu kondenzátu. Led rozmrazte teplou (ne vroucí) vodou.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Veškeré práce na plynových nebo spalovacích dílech smí provádět jen autorizovaný servisní technik."
+ },
+ "Ferroli|F10": {
+  "title": "Závada snímače výstupní vody",
+  "causes": [
+   "Snímač výstupní (topné) vody nebo jeho kabeláž je vadná.",
+   "Uvolněný spoj uvnitř kotle."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód vrátí, nepokoušejte se závadu odstranit sami. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Ferroli|F11": {
+  "title": "Závada snímače teplé vody",
+  "causes": [
+   "Snímač teplé vody nebo jeho kabeláž je vadná.",
+   "Uvolněný spoj uvnitř kotle."
+  ],
+  "steps": [
+   "Vypněte kotel hlavním vypínačem, počkejte 30 sekund a znovu ho zapněte.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód vrátí, nepokoušejte se závadu odstranit sami. Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Ferroli|F34": {
+  "title": "Příliš nízké napájecí napětí",
+  "causes": [
+   "Napětí v síti je nižší než asi 140 V."
+  ],
+  "steps": [
+   "Zkontrolujte, zda se to týká i jiných spotřebičů.",
+   "Počkejte; kotel se spustí sám, až bude napětí normální.",
+   "Poznamenejte si kód a kontaktujte firmu, která kotel instalovala, nebo servisní linku výrobce."
+  ],
+  "technician": "Pokud je přívod v pořádku, měl by kotel otestovat autorizovaný servisní technik; kontrolu elektrické instalace provádí kvalifikovaný elektrikář."
+ },
+ "Ferroli|F37": {
+  "title": "Nesprávný tlak vody v soustavě",
+  "causes": [
+   "Z otopné soustavy ubyla voda, často po odvzdušnění radiátorů.",
+   "Malý únik někde v potrubí nebo radiátorech.",
+   "Vadný snímač tlaku."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud musíte vodu často doplňovat, může jít o únik. Požádejte technika, aby ho našel."
+  ],
+  "technician": "Pokud tlak stále klesá, musí únik najít autorizovaný servisní technik; nikdy sami neotevírejte kryt kotle."
+ },
+ "Ferroli|F43": {
+  "title": "Ochrana výměníku tepla",
+  "causes": [
+   "Voda kotlem dobře necirkuluje.",
+   "Zavřené ventily radiátorů nebo vzduch v soustavě.",
+   "Nízký tlak v soustavě nebo závada čerpadla."
+  ],
+  "steps": [
+   "Ujistěte se, že ventily radiátorů jsou otevřené.",
+   "Podívejte se na tlakoměr. Při studené soustavě by měl ukazovat asi 1 až 1,5 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem přesně podle návodu k obsluze a pak ventil úplně zavřete.",
+   "Odvzdušněte radiátory, které jsou nahoře studené, a znovu zkontrolujte tlak.",
+   "Jednou stiskněte tlačítko reset a dejte kotli několik minut na opětovné spuštění.",
+   "Pokud se kód po jednom nebo dvou resetech vrátí, přestaňte resetovat a objednejte opravu."
+  ],
+  "technician": "Vnitřní díly smí kontrolovat jen autorizovaný servisní technik."
+ },
+ "Navien|E302": {
+  "title": "Příliš nízký tlak v soustavě",
+  "causes": [
+   "Z otopné soustavy ubyla voda, často po odvzdušnění radiátorů.",
+   "Malý únik někde v potrubí nebo radiátorech.",
+   "Vadný snímač tlaku."
+  ],
+  "steps": [
+   "Podívejte se na tlakoměr nebo displej. Měl by ukazovat 1 až 1,2 baru.",
+   "Pokud je tlak nízký, doplňte vodu plnicím ventilem podle návodu k obsluze a přestaňte při 1 až 1,2 baru.",
+   "Nepřekračujte 1,5 baru. Pokud soustavu přeplníte, odvzdušněte radiátor, abyste tlak snížili.",
+   "Pokud musíte vodu často doplňovat, může jít o únik. Požádejte technika, aby ho našel."
+  ],
+  "technician": "Pokud tlak stále klesá, musí únik najít autorizovaný servisní technik; nikdy sami neotevírejte kryt kotle."
+ }
+}

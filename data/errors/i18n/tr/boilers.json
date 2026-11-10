@@ -1,0 +1,1776 @@
+{
+ "Vaillant|F.0": {
+  "title": "Gidiş suyu sıcaklık sensöründe açık devre",
+  "causes": [
+   "Gidiş suyu sıcaklık sensörü veya kablosu arızalı.",
+   "Kombinin içinde gevşek bir bağlantı var."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod tekrar çıkarsa kendiniz onarmaya çalışmayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Vaillant|F.1": {
+  "title": "Dönüş suyu sıcaklık sensöründe açık devre",
+  "causes": [
+   "Dönüş suyu sıcaklık sensörü veya kablosu arızalı.",
+   "Kombinin içinde gevşek bir bağlantı var."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod tekrar çıkarsa kendiniz onarmaya çalışmayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Vaillant|F.10": {
+  "title": "Gidiş suyu sıcaklık sensöründe kısa devre",
+  "causes": [
+   "Gidiş suyu sıcaklık sensörü veya kablosu arızalı.",
+   "Kombinin içinde gevşek bir bağlantı var."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod tekrar çıkarsa kendiniz onarmaya çalışmayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Vaillant|F.11": {
+  "title": "Dönüş suyu sıcaklık sensöründe kısa devre",
+  "causes": [
+   "Dönüş suyu sıcaklık sensörü veya kablosu arızalı.",
+   "Kombinin içinde gevşek bir bağlantı var."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod tekrar çıkarsa kendiniz onarmaya çalışmayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Vaillant|F.20": {
+  "title": "Emniyet termostatı devreye girdi",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Vaillant|F.22": {
+  "title": "Su basıncı düşük",
+  "causes": [
+   "Isıtma sisteminden, çoğunlukla peteklerin havası alındıktan sonra su eksilmiş.",
+   "Borularda veya peteklerde bir yerde küçük bir sızıntı var.",
+   "Arızalı bir basınç sensörü."
+  ],
+  "steps": [
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Sık sık su eklemeniz gerekiyorsa bir sızıntı olabilir. Bulması için bir teknisyene başvurun."
+  ],
+  "technician": "Basınç düşmeye devam ederse sızıntıyı yetkili servis bulmalıdır; kombinin kasasını asla kendiniz açmayın."
+ },
+ "Vaillant|F.23": {
+  "title": "Gidiş ve dönüş suyu arasındaki sıcaklık farkı çok büyük",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Vaillant|F.24": {
+  "title": "Sıcaklık çok hızlı yükseliyor",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Vaillant|F.25": {
+  "title": "Baca gazı sıcaklığı çok yüksek",
+  "causes": [
+   "Bacada veya hava beslemesinde bir sorun var.",
+   "Kombinin içinde yanma kötü."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Kombiyi ana şalterden kapatın.",
+   "Baca çıkışının gözle görülür şekilde tıkalı olmadığını dışarıdan kontrol edin. Ona dokunmayın.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Vaillant|F.27": {
+  "title": "Brülör kapalıyken alev algılandı",
+  "causes": [
+   "Alev algılama devresinde bir arıza var.",
+   "Tam kapanmayan bir gaz valfi."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Kombiyi ana şalterden kapatın.",
+   "Sürekli sıfırlamayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Bu bir güvenlik arızasıdır; gaz valfini ve alev algılama parçalarını yalnızca yetkili servis inceleyebilir."
+ },
+ "Vaillant|F.28": {
+  "title": "Kombi ateşlenemedi",
+  "causes": [
+   "Kombiye gaz gelmiyor; örneğin ön ödemeli sayacın kredisi bitmiş.",
+   "Yoğuşma suyu borusu donmuş veya tıkalı.",
+   "Ateşleme veya alev algılama parçalarında bir arıza var."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Ocak gibi diğer gazlı cihazların çalıştığını kontrol edin.",
+   "Ön ödemeli (kartlı) bir gaz sayacınız varsa kredisi olduğundan emin olun.",
+   "Dondurucu havada dışarıdaki plastik yoğuşma suyu borusunu kontrol edin. Buzu ılık (kaynar değil) suyla çözün.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Vaillant|F.29": {
+  "title": "Alev söndü ve kombi yeniden ateşlenemedi",
+  "causes": [
+   "Kombiye gaz gelmiyor; örneğin ön ödemeli sayacın kredisi bitmiş.",
+   "Yoğuşma suyu borusu donmuş veya tıkalı.",
+   "Ateşleme veya alev algılama parçalarında bir arıza var."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Ocak gibi diğer gazlı cihazların çalıştığını kontrol edin.",
+   "Ön ödemeli (kartlı) bir gaz sayacınız varsa kredisi olduğundan emin olun.",
+   "Dondurucu havada dışarıdaki plastik yoğuşma suyu borusunu kontrol edin. Buzu ılık (kaynar değil) suyla çözün.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Vaillant|F.32": {
+  "title": "Fan arızası",
+  "causes": [
+   "Fan doğru hızda çalışmıyor.",
+   "Bir kablo veya kontrol kartı arızası.",
+   "Baca tıkalı olabilir."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Baca çıkışını hiçbir şeyin engellemediğini dışarıdan kontrol edin. Ona dokunmayın.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Vaillant|F.35": {
+  "title": "Hava veya baca borusu tıkalı",
+  "causes": [
+   "Bacayı veya hava girişini bir şey engelliyor.",
+   "Baca borularında hasar var."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Kombiyi ana şalterden kapatın.",
+   "Baca çıkışının çevresinde yaprak, kuş yuvası veya kar olup olmadığına dışarıdan bakın, ancak bacaya dokunmayın veya bacayı sökmeyin.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Vaillant|F.54": {
+  "title": "Gaz beslemesi arızası",
+  "causes": [
+   "Kombiye gaz gelmiyor; örneğin ön ödemeli sayacın kredisi bitmiş.",
+   "Yoğuşma suyu borusu donmuş veya tıkalı.",
+   "Ateşleme veya alev algılama parçalarında bir arıza var."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Ocak gibi diğer gazlı cihazların çalıştığını kontrol edin.",
+   "Ön ödemeli (kartlı) bir gaz sayacınız varsa kredisi olduğundan emin olun.",
+   "Dondurucu havada dışarıdaki plastik yoğuşma suyu borusunu kontrol edin. Buzu ılık (kaynar değil) suyla çözün.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Vaillant|F.62": {
+  "title": "Gaz valfi kapanma gecikmesi arızası",
+  "causes": [
+   "Brülör durduktan sonra alevin sönmesi çok uzun sürdü.",
+   "Bir gaz valfi veya kontrol arızası."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Vaillant|F.75": {
+  "title": "Pompa çalıştığında basınç yükselmiyor",
+  "causes": [
+   "Isıtma sisteminden, çoğunlukla peteklerin havası alındıktan sonra su eksilmiş.",
+   "Borularda veya peteklerde bir yerde küçük bir sızıntı var.",
+   "Arızalı bir basınç sensörü."
+  ],
+  "steps": [
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Sık sık su eklemeniz gerekiyorsa bir sızıntı olabilir. Bulması için bir teknisyene başvurun."
+  ],
+  "technician": "Basınç düşmeye devam ederse sızıntıyı yetkili servis bulmalıdır; kombinin kasasını asla kendiniz açmayın."
+ },
+ "Vaillant|F.83": {
+  "title": "Brülör çalıştığında sıcaklık yükselmiyor",
+  "causes": [
+   "Kombide yeterli su yok.",
+   "Sistemde hava var veya bir sensör arızası."
+  ],
+  "steps": [
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Vaillant|F.88": {
+  "title": "Gaz valfinin elektrik bağlantısı kesildi",
+  "causes": [
+   "Gaz valfine giden bağlantı gevşek veya hasarlı.",
+   "Bir kontrol kartı arızası."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Gaz valfine ulaşmaya çalışmayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Glow-worm|F.0": {
+  "title": "Gidiş suyu sıcaklık sensöründe açık devre",
+  "causes": [
+   "Gidiş suyu sıcaklık sensörü veya kablosu arızalı.",
+   "Kombinin içinde gevşek bir bağlantı var."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod tekrar çıkarsa kendiniz onarmaya çalışmayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Glow-worm|F.1": {
+  "title": "Dönüş suyu sıcaklık sensöründe açık devre",
+  "causes": [
+   "Dönüş suyu sıcaklık sensörü veya kablosu arızalı.",
+   "Kombinin içinde gevşek bir bağlantı var."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod tekrar çıkarsa kendiniz onarmaya çalışmayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Glow-worm|F.20": {
+  "title": "Emniyet termostatı devreye girdi",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Glow-worm|F.22": {
+  "title": "Su basıncı düşük",
+  "causes": [
+   "Isıtma sisteminden, çoğunlukla peteklerin havası alındıktan sonra su eksilmiş.",
+   "Borularda veya peteklerde bir yerde küçük bir sızıntı var.",
+   "Arızalı bir basınç sensörü."
+  ],
+  "steps": [
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Sık sık su eklemeniz gerekiyorsa bir sızıntı olabilir. Bulması için bir teknisyene başvurun."
+  ],
+  "technician": "Basınç düşmeye devam ederse sızıntıyı yetkili servis bulmalıdır; kombinin kasasını asla kendiniz açmayın."
+ },
+ "Glow-worm|F.23": {
+  "title": "Gidiş ve dönüş suyu arasındaki sıcaklık farkı çok büyük",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Glow-worm|F.24": {
+  "title": "Sıcaklık çok hızlı yükseliyor",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Glow-worm|F.27": {
+  "title": "Brülör kapalıyken alev algılandı",
+  "causes": [
+   "Alev algılama devresinde bir arıza var.",
+   "Tam kapanmayan bir gaz valfi."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Kombiyi ana şalterden kapatın.",
+   "Sürekli sıfırlamayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Bu bir güvenlik arızasıdır; gaz valfini ve alev algılama parçalarını yalnızca yetkili servis inceleyebilir."
+ },
+ "Glow-worm|F.28": {
+  "title": "Kombi ateşlenemedi",
+  "causes": [
+   "Kombiye gaz gelmiyor; örneğin ön ödemeli sayacın kredisi bitmiş.",
+   "Yoğuşma suyu borusu donmuş veya tıkalı.",
+   "Ateşleme veya alev algılama parçalarında bir arıza var."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Ocak gibi diğer gazlı cihazların çalıştığını kontrol edin.",
+   "Ön ödemeli (kartlı) bir gaz sayacınız varsa kredisi olduğundan emin olun.",
+   "Dondurucu havada dışarıdaki plastik yoğuşma suyu borusunu kontrol edin. Buzu ılık (kaynar değil) suyla çözün.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Glow-worm|F.29": {
+  "title": "Alev söndü ve kombi yeniden ateşlenemedi",
+  "causes": [
+   "Kombiye gaz gelmiyor; örneğin ön ödemeli sayacın kredisi bitmiş.",
+   "Yoğuşma suyu borusu donmuş veya tıkalı.",
+   "Ateşleme veya alev algılama parçalarında bir arıza var."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Ocak gibi diğer gazlı cihazların çalıştığını kontrol edin.",
+   "Ön ödemeli (kartlı) bir gaz sayacınız varsa kredisi olduğundan emin olun.",
+   "Dondurucu havada dışarıdaki plastik yoğuşma suyu borusunu kontrol edin. Buzu ılık (kaynar değil) suyla çözün.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Glow-worm|F.32": {
+  "title": "Fan arızası",
+  "causes": [
+   "Fan doğru hızda çalışmıyor.",
+   "Bir kablo veya kontrol kartı arızası.",
+   "Baca tıkalı olabilir."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Baca çıkışını hiçbir şeyin engellemediğini dışarıdan kontrol edin. Ona dokunmayın.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Glow-worm|F.61": {
+  "title": "Ana kontrol kartı arızası",
+  "causes": [
+   "Ana kartta elektronik bir arıza var.",
+   "Gaz valfi kontrol devresinde bir sorun var."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Kod devam ederse yeniden sıfırlamayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Glow-worm|F.75": {
+  "title": "Pompa çalıştığında basınç yükselmiyor",
+  "causes": [
+   "Isıtma sisteminden, çoğunlukla peteklerin havası alındıktan sonra su eksilmiş.",
+   "Borularda veya peteklerde bir yerde küçük bir sızıntı var.",
+   "Arızalı bir basınç sensörü."
+  ],
+  "steps": [
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Sık sık su eklemeniz gerekiyorsa bir sızıntı olabilir. Bulması için bir teknisyene başvurun."
+  ],
+  "technician": "Basınç düşmeye devam ederse sızıntıyı yetkili servis bulmalıdır; kombinin kasasını asla kendiniz açmayın."
+ },
+ "Glow-worm|F.84": {
+  "title": "Gidiş ve dönüş değerleri tutarsız",
+  "causes": [
+   "Borular ters bağlanmış veya bir sensör yanlış yere takılmış olabilir.",
+   "Bir sensör arızası."
+  ],
+  "steps": [
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Bu durum sistemde yeni bir işlemden sonra ortaya çıktıysa işi yapan firmaya başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Glow-worm|F.88": {
+  "title": "Gaz valfinin elektrik bağlantısı kesildi",
+  "causes": [
+   "Gaz valfine giden bağlantı gevşek veya hasarlı.",
+   "Bir kontrol kartı arızası."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Gaz valfine ulaşmaya çalışmayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Ideal|L1": {
+  "title": "Gidiş suyunda aşırı ısınma veya su akışı yok",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Ideal|L2": {
+  "title": "Ateşleme kilitlemesi",
+  "causes": [
+   "Kombiye gaz gelmiyor; örneğin ön ödemeli sayacın kredisi bitmiş.",
+   "Yoğuşma suyu borusu donmuş veya tıkalı.",
+   "Ateşleme veya alev algılama parçalarında bir arıza var."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Ocak gibi diğer gazlı cihazların çalıştığını kontrol edin.",
+   "Ön ödemeli (kartlı) bir gaz sayacınız varsa kredisi olduğundan emin olun.",
+   "Dondurucu havada dışarıdaki plastik yoğuşma suyu borusunu kontrol edin. Buzu ılık (kaynar değil) suyla çözün.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Ideal|L3": {
+  "title": "Su akışı yok",
+  "causes": [
+   "Sistem basıncı düşük.",
+   "Peteklerde hava kalmış.",
+   "Bir sirkülasyon veya pompa sorunu."
+  ],
+  "steps": [
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Kombiyi kapatın ve peteklerin havasını alın.",
+   "Basıncı yeniden kontrol edin, kombiyi açın ve sıfırlayın.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Ideal|L5": {
+  "title": "15 dakikada çok fazla sıfırlama",
+  "causes": [
+   "Reset tuşuna kısa sürede çok fazla basıldı."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Ardından bir arıza kodu görünürse o kodla ilgili önerileri izleyin."
+  ],
+  "technician": "Kombi kilitlemeye geçmeye devam ederse asıl arızayı yetkili servis bulmalıdır."
+ },
+ "Ideal|L6": {
+  "title": "Yanlış alev kilitlemesi",
+  "causes": [
+   "Alev algılama devresinde bir arıza var.",
+   "Tam kapanmayan bir gaz valfi."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Kombiyi ana şalterden kapatın.",
+   "Sürekli sıfırlamayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Bu bir güvenlik arızasıdır; gaz valfini ve alev algılama parçalarını yalnızca yetkili servis inceleyebilir."
+ },
+ "Ideal|F1": {
+  "title": "Su basıncı düşük",
+  "causes": [
+   "Isıtma sisteminden, çoğunlukla peteklerin havası alındıktan sonra su eksilmiş.",
+   "Borularda veya peteklerde bir yerde küçük bir sızıntı var.",
+   "Arızalı bir basınç sensörü."
+  ],
+  "steps": [
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Sık sık su eklemeniz gerekiyorsa bir sızıntı olabilir. Bulması için bir teknisyene başvurun."
+  ],
+  "technician": "Basınç düşmeye devam ederse sızıntıyı yetkili servis bulmalıdır; kombinin kasasını asla kendiniz açmayın."
+ },
+ "Ideal|F2": {
+  "title": "Alev kaybı",
+  "causes": [
+   "Kombiye gaz gelmiyor; örneğin ön ödemeli sayacın kredisi bitmiş.",
+   "Yoğuşma suyu borusu donmuş veya tıkalı.",
+   "Ateşleme veya alev algılama parçalarında bir arıza var."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Ocak gibi diğer gazlı cihazların çalıştığını kontrol edin.",
+   "Ön ödemeli (kartlı) bir gaz sayacınız varsa kredisi olduğundan emin olun.",
+   "Dondurucu havada dışarıdaki plastik yoğuşma suyu borusunu kontrol edin. Buzu ılık (kaynar değil) suyla çözün.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Ideal|F3": {
+  "title": "Fan arızası",
+  "causes": [
+   "Fan doğru hızda çalışmıyor.",
+   "Bir kablo veya kontrol kartı arızası.",
+   "Baca tıkalı olabilir."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Baca çıkışını hiçbir şeyin engellemediğini dışarıdan kontrol edin. Ona dokunmayın.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Ideal|F4": {
+  "title": "Gidiş termistörü arızası",
+  "causes": [
+   "Gidiş termistörü (sıcaklık sensörü) veya kablosu arızalı.",
+   "Kombinin içinde gevşek bir bağlantı var."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod tekrar çıkarsa kendiniz onarmaya çalışmayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Ideal|F5": {
+  "title": "Dönüş termistörü arızası",
+  "causes": [
+   "Dönüş termistörü (sıcaklık sensörü) veya kablosu arızalı.",
+   "Kombinin içinde gevşek bir bağlantı var."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod tekrar çıkarsa kendiniz onarmaya çalışmayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Ideal|F6": {
+  "title": "Dış hava sensörü arızası",
+  "causes": [
+   "Dış hava sıcaklık sensörü veya kablosu arızalı.",
+   "Kombinin içinde gevşek bir bağlantı var."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod tekrar çıkarsa kendiniz onarmaya çalışmayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Ideal|F7": {
+  "title": "Şebeke voltajı düşük",
+  "causes": [
+   "Eve gelen elektrik voltajı çok düşük.",
+   "Binada bir elektrik tesisatı arızası."
+  ],
+  "steps": [
+   "Diğer cihazların veya lambaların etkilenip etkilenmediğini kontrol edin.",
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Elektrik beslemesini bir elektrikçiye veya elektrik dağıtım şirketinize kontrol ettirin."
+  ],
+  "technician": "Elektrik beslemesi sorunsuzsa kombiyi yetkili servis test etmelidir; şebeke tesisatı kontrolleri yetkin bir elektrikçinin işidir."
+ },
+ "Ideal|F0": {
+  "title": "Su akışı yok (termistör)",
+  "causes": [
+   "Su kombinin içinden akmıyor.",
+   "Bir sensör arızası."
+  ],
+  "steps": [
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Ideal|FD": {
+  "title": "Su akışı yok",
+  "causes": [
+   "Basınç düşük veya sistemde hava var.",
+   "Kalorifer pompası çalışmıyor."
+  ],
+  "steps": [
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Kombiyi yeniden açın ve kodun kaybolup kaybolmadığına bakın.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Ideal|FU": {
+  "title": "Gidiş ve dönüş farkı çok yüksek",
+  "causes": [
+   "Peteklerde hava var.",
+   "Basınç düşük veya sistemde bir tıkanıklık var."
+  ],
+  "steps": [
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Kombiyi yeniden açın.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Worcester Bosch|EA 227": {
+  "title": "Brülör ateşlenmiyor",
+  "causes": [
+   "Kombiye gaz gelmiyor; örneğin ön ödemeli sayacın kredisi bitmiş.",
+   "Yoğuşma suyu borusu donmuş veya tıkalı.",
+   "Ateşleme veya alev algılama parçalarında bir arıza var."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Ocak gibi diğer gazlı cihazların çalıştığını kontrol edin.",
+   "Ön ödemeli (kartlı) bir gaz sayacınız varsa kredisi olduğundan emin olun.",
+   "Dondurucu havada dışarıdaki plastik yoğuşma suyu borusunu kontrol edin. Buzu ılık (kaynar değil) suyla çözün.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Worcester Bosch|CE 207": {
+  "title": "Su basıncı düşük",
+  "causes": [
+   "Isıtma sisteminden, çoğunlukla peteklerin havası alındıktan sonra su eksilmiş.",
+   "Borularda veya peteklerde bir yerde küçük bir sızıntı var.",
+   "Arızalı bir basınç sensörü."
+  ],
+  "steps": [
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Sık sık su eklemeniz gerekiyorsa bir sızıntı olabilir. Bulması için bir teknisyene başvurun."
+  ],
+  "technician": "Basınç düşmeye devam ederse sızıntıyı yetkili servis bulmalıdır; kombinin kasasını asla kendiniz açmayın."
+ },
+ "Worcester Bosch|H07": {
+  "title": "Su basıncı düşük (uyarı)",
+  "causes": [
+   "Sistem basıncı normal seviyenin altına düştü."
+  ],
+  "steps": [
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Sık sık su eklemeniz gerekiyorsa bir sızıntı olabilir. Bulması için bir teknisyene başvurun."
+  ],
+  "technician": "Basınç düşmeye devam ederse sızıntıyı yetkili servis bulmalıdır; kombinin kasasını asla kendiniz açmayın."
+ },
+ "Worcester Bosch|E9 224": {
+  "title": "Dahili emniyet termostatı çok sıcak",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Worcester Bosch|E9 276": {
+  "title": "Gidiş suyu sıcaklığı çok yüksek",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Worcester Bosch|CE 266": {
+  "title": "Beklenmedik sıcaklık değerleri, olası düşük basınç",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Worcester Bosch|Fd 231": {
+  "title": "Kilitleme sırasında elektrik kesildi",
+  "causes": [
+   "Kombi kilitlemedeyken elektrik beslemesi kesildi."
+  ],
+  "steps": [
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Ardından farklı bir kod görünürse o kodla ilgili önerileri izleyin."
+  ],
+  "technician": "Kombi sıfırlamadan sonra normale dönmüyorsa yetkili servis kontrol etmelidir."
+ },
+ "Worcester Bosch|A1": {
+  "title": "Pompa susuz çalıştı",
+  "causes": [
+   "Su basıncı çok düşük.",
+   "Pompada veya sistemde hava kalmış."
+  ],
+  "steps": [
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Worcester Bosch|C6": {
+  "title": "Fan hızı çok düşük",
+  "causes": [
+   "Fan doğru hızda çalışmıyor.",
+   "Bir kablo veya kontrol kartı arızası.",
+   "Baca tıkalı olabilir."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Baca çıkışını hiçbir şeyin engellemediğini dışarıdan kontrol edin. Ona dokunmayın.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Worcester Bosch|F7": {
+  "title": "Brülör kapandıktan sonra hâlâ alev algılanıyor",
+  "causes": [
+   "Alev algılama devresinde bir arıza var.",
+   "Tam kapanmayan bir gaz valfi."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Kombiyi ana şalterden kapatın.",
+   "Sürekli sıfırlamayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Bu bir güvenlik arızasıdır; gaz valfini ve alev algılama parçalarını yalnızca yetkili servis inceleyebilir."
+ },
+ "Worcester Bosch|2980": {
+  "title": "Ciddi güvenlik arızası",
+  "causes": [
+   "Kombi güvenlikle ilgili bir arıza tespit etti."
+  ],
+  "steps": [
+   "Kombiyi kapatın.",
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Onarmaya veya sıfırlamaya çalışmayın. Hemen yetkin bir ısıtma teknisyenine başvurun."
+  ],
+  "technician": "Bu, güvenlik açısından kritik bir arızadır ve yetkili servis tarafından ele alınmalıdır."
+ },
+ "Junkers/Bosch|227": {
+  "title": "Birkaç denemeden sonra brülör ateşlenmedi",
+  "causes": [
+   "Kombiye gaz gelmiyor; örneğin ön ödemeli sayacın kredisi bitmiş.",
+   "Yoğuşma suyu borusu donmuş veya tıkalı.",
+   "Ateşleme veya alev algılama parçalarında bir arıza var."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Ocak gibi diğer gazlı cihazların çalıştığını kontrol edin.",
+   "Ön ödemeli (kartlı) bir gaz sayacınız varsa kredisi olduğundan emin olun.",
+   "Dondurucu havada dışarıdaki plastik yoğuşma suyu borusunu kontrol edin. Buzu ılık (kaynar değil) suyla çözün.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Junkers/Bosch|207": {
+  "title": "Su basıncı düşük",
+  "causes": [
+   "Isıtma sisteminden, çoğunlukla peteklerin havası alındıktan sonra su eksilmiş.",
+   "Borularda veya peteklerde bir yerde küçük bir sızıntı var.",
+   "Arızalı bir basınç sensörü."
+  ],
+  "steps": [
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Sık sık su eklemeniz gerekiyorsa bir sızıntı olabilir. Bulması için bir teknisyene başvurun."
+  ],
+  "technician": "Basınç düşmeye devam ederse sızıntıyı yetkili servis bulmalıdır; kombinin kasasını asla kendiniz açmayın."
+ },
+ "Junkers/Bosch|224": {
+  "title": "Emniyet sıcaklık sınırlayıcısı devreye girdi",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Junkers/Bosch|276": {
+  "title": "Gidiş suyu sıcaklığı çok yüksek",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Junkers/Bosch|231": {
+  "title": "Kilitleme sırasında elektrik kesildi",
+  "causes": [
+   "Kombi kilitlemedeyken elektrik beslemesi kesildi."
+  ],
+  "steps": [
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Ardından farklı bir kod görünürse o kodla ilgili önerileri izleyin."
+  ],
+  "technician": "Normale dönmezse kombiyi yetkili servis kontrol etmelidir."
+ },
+ "Junkers/Bosch|232": {
+  "title": "Isı talebi harici bir kontak tarafından engellendi",
+  "causes": [
+   "Yerden ısıtma sınırlayıcısı gibi harici bir kontrol cihazı kombiyi engelledi.",
+   "Bir yoğuşma suyu pompasının emniyet anahtarı devreye girdi."
+  ],
+  "steps": [
+   "Birkaç dakika bekleyin; kombi kendiliğinden yeniden başlayabilir.",
+   "Oda termostatının ve zamanlayıcının ısı talep ettiğini kontrol edin.",
+   "Yoğuşma suyu pompanız varsa elektriği olduğunu ve taşmadığını kontrol edin.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Junkers/Bosch|2962": {
+  "title": "Fandan sinyal yok",
+  "causes": [
+   "Fan doğru hızda çalışmıyor.",
+   "Bir kablo veya kontrol kartı arızası.",
+   "Baca tıkalı olabilir."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Baca çıkışını hiçbir şeyin engellemediğini dışarıdan kontrol edin. Ona dokunmayın.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Baxi|E133": {
+  "title": "Yoğuşma suyu borusu donmuş veya tıkalı",
+  "causes": [
+   "Dışarıdaki yoğuşma suyu borusu soğuk havada donmuş.",
+   "Yoğuşma suyu borusunda bir tıkanıklık var.",
+   "Bazı modellerde bir gaz beslemesi veya ateşleme sorunu."
+  ],
+  "steps": [
+   "Kombiyi kapatın.",
+   "Yoğuşma suyu borusunun donmuş kısmını bulun; genellikle dışarıda veya bir dirsektedir.",
+   "Sıcak su torbasıyla ısıtın veya boru boyunca ılık (kaynar değil) su dökün.",
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın."
+  ],
+  "technician": "Buz çözüldükten sonra kombi hâlâ çalışmıyorsa yetkili servisi arayın."
+ },
+ "Baxi|E28": {
+  "title": "Yoğuşma suyu borusu donmuş veya tıkalı",
+  "causes": [
+   "Dışarıdaki yoğuşma suyu borusu soğuk havada donmuş.",
+   "Yoğuşma suyu borusunda bir tıkanıklık var.",
+   "Bazı modellerde bir gaz beslemesi veya ateşleme sorunu."
+  ],
+  "steps": [
+   "Kombiyi kapatın.",
+   "Yoğuşma suyu borusunun donmuş kısmını bulun; genellikle dışarıda veya bir dirsektedir.",
+   "Sıcak su torbasıyla ısıtın veya boru boyunca ılık (kaynar değil) su dökün.",
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın."
+  ],
+  "technician": "Buz çözüldükten sonra kombi hâlâ çalışmıyorsa yetkili servisi arayın."
+ },
+ "Baxi|A.02.06": {
+  "title": "Su basıncı düşük",
+  "causes": [
+   "Isıtma sisteminden, çoğunlukla peteklerin havası alındıktan sonra su eksilmiş.",
+   "Borularda veya peteklerde bir yerde küçük bir sızıntı var.",
+   "Arızalı bir basınç sensörü."
+  ],
+  "steps": [
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Sık sık su eklemeniz gerekiyorsa bir sızıntı olabilir. Bulması için bir teknisyene başvurun."
+  ],
+  "technician": "Basınç düşmeye devam ederse sızıntıyı yetkili servis bulmalıdır; kombinin kasasını asla kendiniz açmayın."
+ },
+ "Baxi|H.02.07": {
+  "title": "Su basıncı düşük (uyarı)",
+  "causes": [
+   "Isıtma sisteminden, çoğunlukla peteklerin havası alındıktan sonra su eksilmiş.",
+   "Borularda veya peteklerde bir yerde küçük bir sızıntı var.",
+   "Arızalı bir basınç sensörü."
+  ],
+  "steps": [
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Sık sık su eklemeniz gerekiyorsa bir sızıntı olabilir. Bulması için bir teknisyene başvurun."
+  ],
+  "technician": "Basınç düşmeye devam ederse sızıntıyı yetkili servis bulmalıdır; kombinin kasasını asla kendiniz açmayın."
+ },
+ "Potterton|E133": {
+  "title": "Yoğuşma suyu borusu donmuş veya tıkalı",
+  "causes": [
+   "Dışarıdaki yoğuşma suyu borusu soğuk havada donmuş.",
+   "Yoğuşma suyu borusunda bir tıkanıklık var.",
+   "Bazı modellerde bir gaz beslemesi veya ateşleme sorunu."
+  ],
+  "steps": [
+   "Kombiyi kapatın.",
+   "Yoğuşma suyu borusunun donmuş kısmını bulun; genellikle dışarıda veya bir dirsektedir.",
+   "Sıcak su torbasıyla ısıtın veya boru boyunca ılık (kaynar değil) su dökün.",
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın."
+  ],
+  "technician": "Buz çözüldükten sonra kombi hâlâ çalışmıyorsa yetkili servisi arayın."
+ },
+ "Viessmann|74": {
+  "title": "Su basıncı düşük",
+  "causes": [
+   "Isıtma sisteminden, çoğunlukla peteklerin havası alındıktan sonra su eksilmiş.",
+   "Borularda veya peteklerde bir yerde küçük bir sızıntı var.",
+   "Arızalı bir basınç sensörü."
+  ],
+  "steps": [
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Sık sık su eklemeniz gerekiyorsa bir sızıntı olabilir. Bulması için bir teknisyene başvurun."
+  ],
+  "technician": "Basınç düşmeye devam ederse sızıntıyı yetkili servis bulmalıdır; kombinin kasasını asla kendiniz açmayın."
+ },
+ "Viessmann|361": {
+  "title": "Brülör çalışırken alev sinyali yok",
+  "causes": [
+   "Kombiye gaz gelmiyor; örneğin ön ödemeli sayacın kredisi bitmiş.",
+   "Yoğuşma suyu borusu donmuş veya tıkalı.",
+   "Ateşleme veya alev algılama parçalarında bir arıza var."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Ocak gibi diğer gazlı cihazların çalıştığını kontrol edin.",
+   "Ön ödemeli (kartlı) bir gaz sayacınız varsa kredisi olduğundan emin olun.",
+   "Dondurucu havada dışarıdaki plastik yoğuşma suyu borusunu kontrol edin. Buzu ılık (kaynar değil) suyla çözün.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Viessmann|64": {
+  "title": "Çalışma sırasında alev söndü",
+  "causes": [
+   "Kombiye gaz gelmiyor; örneğin ön ödemeli sayacın kredisi bitmiş.",
+   "Yoğuşma suyu borusu donmuş veya tıkalı.",
+   "Ateşleme veya alev algılama parçalarında bir arıza var."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Ocak gibi diğer gazlı cihazların çalıştığını kontrol edin.",
+   "Ön ödemeli (kartlı) bir gaz sayacınız varsa kredisi olduğundan emin olun.",
+   "Dondurucu havada dışarıdaki plastik yoğuşma suyu borusunu kontrol edin. Buzu ılık (kaynar değil) suyla çözün.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Viessmann|62": {
+  "title": "Yüksek sıcaklık emniyet kesicisi devreye girdi",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Viessmann|63": {
+  "title": "Baca gazı sıcaklık sınırlayıcısı devreye girdi",
+  "causes": [
+   "Baca gazı sıcaklığı çok yükseldi.",
+   "Bir yanma veya baca sorunu."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Kombiyi kapatın.",
+   "Baca çıkışının gözle görülür şekilde tıkalı olmadığını dışarıdan kontrol edin. Ona dokunmayın.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Viessmann|71": {
+  "title": "Fan hızı çok düşük",
+  "causes": [
+   "Fan doğru hızda çalışmıyor.",
+   "Bir kablo veya kontrol kartı arızası.",
+   "Baca tıkalı olabilir."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Baca çıkışını hiçbir şeyin engellemediğini dışarıdan kontrol edin. Ona dokunmayın.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Viessmann|14": {
+  "title": "Dış hava sıcaklık sensöründe kısa devre",
+  "causes": [
+   "Dış hava sıcaklık sensörü veya kablosu arızalı.",
+   "Kombinin içinde gevşek bir bağlantı var."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod tekrar çıkarsa kendiniz onarmaya çalışmayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Viessmann|A4": {
+  "title": "Pompada hava veya akış çok düşük",
+  "causes": [
+   "Dahili pompada hava kalmış.",
+   "Kombiden geçen su akışı minimum değerin altında."
+  ],
+  "steps": [
+   "Otomatik hava alma programının bitmesini bekleyin.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Ariston|101": {
+  "title": "Aşırı ısınma",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Ariston|103": {
+  "title": "Su sirkülasyonu zayıf",
+  "causes": [
+   "Sistemde hava var.",
+   "Basınç düşük veya vanalar kapalı.",
+   "Bir pompa sorunu."
+  ],
+  "steps": [
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Ariston|108": {
+  "title": "Su basıncı düşük",
+  "causes": [
+   "Isıtma sisteminden, çoğunlukla peteklerin havası alındıktan sonra su eksilmiş.",
+   "Borularda veya peteklerde bir yerde küçük bir sızıntı var.",
+   "Arızalı bir basınç sensörü."
+  ],
+  "steps": [
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Sık sık su eklemeniz gerekiyorsa bir sızıntı olabilir. Bulması için bir teknisyene başvurun."
+  ],
+  "technician": "Basınç düşmeye devam ederse sızıntıyı yetkili servis bulmalıdır; kombinin kasasını asla kendiniz açmayın."
+ },
+ "Ariston|110": {
+  "title": "Geçici güvenlik kapanması",
+  "causes": [
+   "Geçici bir durum, kombinin güvenlik nedeniyle durmasına yol açtı."
+  ],
+  "steps": [
+   "Bekleyin; neden ortadan kalktığında kombi kendiliğinden yeniden başlamalıdır.",
+   "Kapalı kalırsa ana şalterden kapatın ve servise başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Ariston|118": {
+  "title": "Birincil devre sensörü sorunu",
+  "causes": [
+   "Birincil devre sensörü veya kablosu arızalı.",
+   "Kombinin içinde gevşek bir bağlantı var."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod tekrar çıkarsa kendiniz onarmaya çalışmayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Ariston|201": {
+  "title": "Su devresi sensörü arızası",
+  "causes": [
+   "Su devresi sensörü veya kablosu arızalı.",
+   "Kombinin içinde gevşek bir bağlantı var."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod tekrar çıkarsa kendiniz onarmaya çalışmayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Ariston|304": {
+  "title": "Çok fazla sıfırlama",
+  "causes": [
+   "Reset tuşuna çok fazla basıldı."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Sürekli sıfırlamayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Kombinin neden sürekli kilitlemeye geçtiğini yetkili servis bulmalıdır."
+ },
+ "Ariston|305": {
+  "title": "Ana kart hatası",
+  "causes": [
+   "Ana kontrol kartında elektronik bir arıza var."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Ariston|501": {
+  "title": "Alev algılanmadı",
+  "causes": [
+   "Kombiye gaz gelmiyor; örneğin ön ödemeli sayacın kredisi bitmiş.",
+   "Yoğuşma suyu borusu donmuş veya tıkalı.",
+   "Ateşleme veya alev algılama parçalarında bir arıza var."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Ocak gibi diğer gazlı cihazların çalıştığını kontrol edin.",
+   "Ön ödemeli (kartlı) bir gaz sayacınız varsa kredisi olduğundan emin olun.",
+   "Dondurucu havada dışarıdaki plastik yoğuşma suyu borusunu kontrol edin. Buzu ılık (kaynar değil) suyla çözün.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Ariston|601": {
+  "title": "Baca gazı tahliye arızası",
+  "causes": [
+   "Baca yanma gazlarını düzgün tahliye etmiyor."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Birkaç dakika bekleyin; kombi yeniden deneyecektir.",
+   "Yeniden kilitlemeye geçerse kombiyi kapatın ve yetkin bir teknisyene başvurun."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Ariston|611": {
+  "title": "Fan arızası",
+  "causes": [
+   "Fan doğru hızda çalışmıyor.",
+   "Bir kablo veya kontrol kartı arızası.",
+   "Baca tıkalı olabilir."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Baca çıkışını hiçbir şeyin engellemediğini dışarıdan kontrol edin. Ona dokunmayın.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Ariston|802": {
+  "title": "Otomatik yanma kalibrasyonu başarısız oldu",
+  "causes": [
+   "Kombi yanmanın kendi kendine ayarını tamamlayamadı."
+  ],
+  "steps": [
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Saunier Duval|F.22": {
+  "title": "Su basıncı düşük",
+  "causes": [
+   "Isıtma sisteminden, çoğunlukla peteklerin havası alındıktan sonra su eksilmiş.",
+   "Borularda veya peteklerde bir yerde küçük bir sızıntı var.",
+   "Arızalı bir basınç sensörü."
+  ],
+  "steps": [
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Sık sık su eklemeniz gerekiyorsa bir sızıntı olabilir. Bulması için bir teknisyene başvurun."
+  ],
+  "technician": "Basınç düşmeye devam ederse sızıntıyı yetkili servis bulmalıdır; kombinin kasasını asla kendiniz açmayın."
+ },
+ "Saunier Duval|F.28": {
+  "title": "Kombi ateşlenemedi",
+  "causes": [
+   "Kombiye gaz gelmiyor; örneğin ön ödemeli sayacın kredisi bitmiş.",
+   "Yoğuşma suyu borusu donmuş veya tıkalı.",
+   "Ateşleme veya alev algılama parçalarında bir arıza var."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Ocak gibi diğer gazlı cihazların çalıştığını kontrol edin.",
+   "Ön ödemeli (kartlı) bir gaz sayacınız varsa kredisi olduğundan emin olun.",
+   "Dondurucu havada dışarıdaki plastik yoğuşma suyu borusunu kontrol edin. Buzu ılık (kaynar değil) suyla çözün.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Saunier Duval|F.20": {
+  "title": "Emniyet sıcaklık sınırlayıcısı devreye girdi",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Saunier Duval|F.23": {
+  "title": "Gidiş ve dönüş suyu arasındaki sıcaklık farkı çok büyük",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Saunier Duval|F.24": {
+  "title": "Sıcaklık çok hızlı yükseliyor",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Saunier Duval|F.00": {
+  "title": "Gidiş suyu sıcaklık sensöründe açık devre",
+  "causes": [
+   "Gidiş suyu sıcaklık sensörü veya kablosu arızalı.",
+   "Kombinin içinde gevşek bir bağlantı var."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod tekrar çıkarsa kendiniz onarmaya çalışmayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Saunier Duval|F.10": {
+  "title": "Gidiş suyu sıcaklık sensöründe kısa devre",
+  "causes": [
+   "Gidiş suyu sıcaklık sensörü veya kablosu arızalı.",
+   "Kombinin içinde gevşek bir bağlantı var."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod tekrar çıkarsa kendiniz onarmaya çalışmayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Immergas|E01": {
+  "title": "Ateşleme olmadığı için kilitleme",
+  "causes": [
+   "Kombiye gaz gelmiyor; örneğin ön ödemeli sayacın kredisi bitmiş.",
+   "Yoğuşma suyu borusu donmuş veya tıkalı.",
+   "Ateşleme veya alev algılama parçalarında bir arıza var."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Ocak gibi diğer gazlı cihazların çalıştığını kontrol edin.",
+   "Ön ödemeli (kartlı) bir gaz sayacınız varsa kredisi olduğundan emin olun.",
+   "Dondurucu havada dışarıdaki plastik yoğuşma suyu borusunu kontrol edin. Buzu ılık (kaynar değil) suyla çözün.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Immergas|E02": {
+  "title": "Emniyet termostatı kilitlemesi (aşırı ısınma)",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Immergas|E05": {
+  "title": "Gidiş sondası arızası",
+  "causes": [
+   "Gidiş suyu sıcaklık sondası veya kablosu arızalı.",
+   "Kombinin içinde gevşek bir bağlantı var."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod tekrar çıkarsa kendiniz onarmaya çalışmayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Immergas|E06": {
+  "title": "Sıcak su sondası arızası",
+  "causes": [
+   "Sıcak su sıcaklık sondası veya kablosu arızalı.",
+   "Kombinin içinde gevşek bir bağlantı var."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod tekrar çıkarsa kendiniz onarmaya çalışmayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Immergas|E10": {
+  "title": "Sistem basıncı yetersiz",
+  "causes": [
+   "Isıtma sisteminden, çoğunlukla peteklerin havası alındıktan sonra su eksilmiş.",
+   "Borularda veya peteklerde bir yerde küçük bir sızıntı var.",
+   "Arızalı bir basınç sensörü."
+  ],
+  "steps": [
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Sık sık su eklemeniz gerekiyorsa bir sızıntı olabilir. Bulması için bir teknisyene başvurun."
+  ],
+  "technician": "Basınç düşmeye devam ederse sızıntıyı yetkili servis bulmalıdır; kombinin kasasını asla kendiniz açmayın."
+ },
+ "Immergas|E11": {
+  "title": "Baca basınç anahtarı arızası",
+  "causes": [
+   "Fan doğru hızda çalışmıyor.",
+   "Bir kablo veya kontrol kartı arızası.",
+   "Baca tıkalı olabilir."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Baca çıkışını hiçbir şeyin engellemediğini dışarıdan kontrol edin. Ona dokunmayın.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Immergas|E20": {
+  "title": "Parazit alev kilitlemesi",
+  "causes": [
+   "Alev algılama devresinde bir arıza var.",
+   "Tam kapanmayan bir gaz valfi."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Kombiyi ana şalterden kapatın.",
+   "Sürekli sıfırlamayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Bu bir güvenlik arızasıdır; gaz valfini ve alev algılama parçalarını yalnızca yetkili servis inceleyebilir."
+ },
+ "Immergas|E27": {
+  "title": "Sirkülasyon yetersiz",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Immergas|E37": {
+  "title": "Düşük besleme voltajı",
+  "causes": [
+   "Şebeke voltajı izin verilen sınırın altında."
+  ],
+  "steps": [
+   "Diğer cihazların etkilenip etkilenmediğini kontrol edin.",
+   "Bekleyin; voltaj normale döndüğünde kombi kendiliğinden yeniden başlar.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Elektrik beslemesi sorunsuzsa kombiyi yetkili servis test etmelidir; şebeke tesisatı kontrolleri yetkin bir elektrikçinin işidir."
+ },
+ "Immergas|E38": {
+  "title": "Alev sinyali kayboldu",
+  "causes": [
+   "Kombiye gaz gelmiyor; örneğin ön ödemeli sayacın kredisi bitmiş.",
+   "Yoğuşma suyu borusu donmuş veya tıkalı.",
+   "Ateşleme veya alev algılama parçalarında bir arıza var."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Ocak gibi diğer gazlı cihazların çalıştığını kontrol edin.",
+   "Ön ödemeli (kartlı) bir gaz sayacınız varsa kredisi olduğundan emin olun.",
+   "Dondurucu havada dışarıdaki plastik yoğuşma suyu borusunu kontrol edin. Buzu ılık (kaynar değil) suyla çözün.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Immergas|E43": {
+  "title": "Tekrarlanan alev kaybından sonra kilitleme",
+  "causes": [
+   "Kombiye gaz gelmiyor; örneğin ön ödemeli sayacın kredisi bitmiş.",
+   "Yoğuşma suyu borusu donmuş veya tıkalı.",
+   "Ateşleme veya alev algılama parçalarında bir arıza var."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Ocak gibi diğer gazlı cihazların çalıştığını kontrol edin.",
+   "Ön ödemeli (kartlı) bir gaz sayacınız varsa kredisi olduğundan emin olun.",
+   "Dondurucu havada dışarıdaki plastik yoğuşma suyu borusunu kontrol edin. Buzu ılık (kaynar değil) suyla çözün.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Ferroli|A01": {
+  "title": "Brülör ateşlenmiyor",
+  "causes": [
+   "Kombiye gaz gelmiyor; örneğin ön ödemeli sayacın kredisi bitmiş.",
+   "Yoğuşma suyu borusu donmuş veya tıkalı.",
+   "Ateşleme veya alev algılama parçalarında bir arıza var."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Ocak gibi diğer gazlı cihazların çalıştığını kontrol edin.",
+   "Ön ödemeli (kartlı) bir gaz sayacınız varsa kredisi olduğundan emin olun.",
+   "Dondurucu havada dışarıdaki plastik yoğuşma suyu borusunu kontrol edin. Buzu ılık (kaynar değil) suyla çözün.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Ferroli|A02": {
+  "title": "Brülör kapalıyken alev sinyali",
+  "causes": [
+   "Alev algılama devresinde bir arıza var.",
+   "Tam kapanmayan bir gaz valfi."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Kombiyi ana şalterden kapatın.",
+   "Sürekli sıfırlamayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Bu bir güvenlik arızasıdır; gaz valfini ve alev algılama parçalarını yalnızca yetkili servis inceleyebilir."
+ },
+ "Ferroli|A03": {
+  "title": "Aşırı sıcaklık koruması",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Ferroli|F05": {
+  "title": "Hava basınç anahtarı kapanmadı",
+  "causes": [
+   "Fan doğru hızda çalışmıyor.",
+   "Bir kablo veya kontrol kartı arızası.",
+   "Baca tıkalı olabilir."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Baca çıkışını hiçbir şeyin engellemediğini dışarıdan kontrol edin. Ona dokunmayın.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Ferroli|A06": {
+  "title": "Ateşlemeden sonra alev yok",
+  "causes": [
+   "Kombiye gaz gelmiyor; örneğin ön ödemeli sayacın kredisi bitmiş.",
+   "Yoğuşma suyu borusu donmuş veya tıkalı.",
+   "Ateşleme veya alev algılama parçalarında bir arıza var."
+  ],
+  "steps": [
+   "Gaz kokusu alırsanız sıfırlama yapmayın. Binayı terk edin ve doğalgaz acil hattını (187) arayın.",
+   "Ocak gibi diğer gazlı cihazların çalıştığını kontrol edin.",
+   "Ön ödemeli (kartlı) bir gaz sayacınız varsa kredisi olduğundan emin olun.",
+   "Dondurucu havada dışarıdaki plastik yoğuşma suyu borusunu kontrol edin. Buzu ılık (kaynar değil) suyla çözün.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "Gaz veya yanma parçalarıyla ilgili her türlü işlem yetkili servis tarafından yapılmalıdır."
+ },
+ "Ferroli|F10": {
+  "title": "Gidiş sensörü arızası",
+  "causes": [
+   "Gidiş (besleme) sensörü veya kablosu arızalı.",
+   "Kombinin içinde gevşek bir bağlantı var."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod tekrar çıkarsa kendiniz onarmaya çalışmayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Ferroli|F11": {
+  "title": "Sıcak su sensörü arızası",
+  "causes": [
+   "Sıcak su sensörü veya kablosu arızalı.",
+   "Kombinin içinde gevşek bir bağlantı var."
+  ],
+  "steps": [
+   "Kombiyi ana şalterden kapatın, 30 saniye bekleyin ve yeniden açın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod tekrar çıkarsa kendiniz onarmaya çalışmayın. Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Ferroli|F34": {
+  "title": "Besleme voltajı çok düşük",
+  "causes": [
+   "Şebeke voltajı yaklaşık 140 V'un altında."
+  ],
+  "steps": [
+   "Diğer cihazların etkilenip etkilenmediğini kontrol edin.",
+   "Bekleyin; voltaj normale döndüğünde kombi kendiliğinden yeniden başlar.",
+   "Kodu not edin ve kombiyi kuran firmaya veya üreticinin servis hattına başvurun."
+  ],
+  "technician": "Elektrik beslemesi sorunsuzsa kombiyi yetkili servis test etmelidir; şebeke tesisatı kontrolleri yetkin bir elektrikçinin işidir."
+ },
+ "Ferroli|F37": {
+  "title": "Sistem su basıncı hatalı",
+  "causes": [
+   "Isıtma sisteminden, çoğunlukla peteklerin havası alındıktan sonra su eksilmiş.",
+   "Borularda veya peteklerde bir yerde küçük bir sızıntı var.",
+   "Arızalı bir basınç sensörü."
+  ],
+  "steps": [
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Sık sık su eklemeniz gerekiyorsa bir sızıntı olabilir. Bulması için bir teknisyene başvurun."
+  ],
+  "technician": "Basınç düşmeye devam ederse sızıntıyı yetkili servis bulmalıdır; kombinin kasasını asla kendiniz açmayın."
+ },
+ "Ferroli|F43": {
+  "title": "Isı eşanjörü koruması",
+  "causes": [
+   "Su kombinin içinde iyi dolaşmıyor.",
+   "Petek vanaları kapalı veya sistemde hava var.",
+   "Sistem basıncı düşük veya pompa arızası."
+  ],
+  "steps": [
+   "Petek vanalarının açık olduğundan emin olun.",
+   "Basınç göstergesine bakın. Kalorifer soğukken yaklaşık 1–1,5 bar göstermelidir.",
+   "Basınç düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin, ardından musluğu tamamen kapatın.",
+   "Üst kısmı soğuk kalan peteklerin havasını alın, ardından basıncı yeniden kontrol edin.",
+   "Reset (sıfırlama) tuşuna bir kez basın ve kombinin yeniden başlaması için birkaç dakika bekleyin.",
+   "Kod bir veya iki sıfırlamadan sonra tekrar çıkarsa sıfırlamayı bırakın ve onarım için randevu alın."
+  ],
+  "technician": "İç parçalar yalnızca yetkili servis tarafından kontrol edilmelidir."
+ },
+ "Navien|E302": {
+  "title": "Sistem basıncı çok düşük",
+  "causes": [
+   "Isıtma sisteminden, çoğunlukla peteklerin havası alındıktan sonra su eksilmiş.",
+   "Borularda veya peteklerde bir yerde küçük bir sızıntı var.",
+   "Arızalı bir basınç sensörü."
+  ],
+  "steps": [
+   "Basınç göstergesine veya ekrana bakın. 1–1,2 bar göstermelidir.",
+   "Düşükse, kullanım kılavuzunuzda gösterildiği şekilde doldurma musluğundan su ekleyin ve 1–1,2 bar seviyesinde durun.",
+   "1,5 barın üzerine çıkmayın. Fazla doldurursanız basıncı düşürmek için bir peteğin havasını alın.",
+   "Sık sık su eklemeniz gerekiyorsa bir sızıntı olabilir. Bulması için bir teknisyene başvurun."
+  ],
+  "technician": "Basınç düşmeye devam ederse sızıntıyı yetkili servis bulmalıdır; kombinin kasasını asla kendiniz açmayın."
+ }
+}

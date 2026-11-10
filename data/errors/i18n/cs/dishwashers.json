@@ -1,0 +1,1034 @@
+{
+ "Bosch|E09": {
+  "title": "Závada ohřevu",
+  "causes": [
+   "Závada topné části oběhového (topného) čerpadla."
+  ],
+  "steps": [
+   "Vypněte myčku jističem nebo pojistkou na 30 sekund.",
+   "Znovu ji zapněte a spusťte program."
+  ],
+  "technician": "Pokud se kód vrátí, zavolejte servis Bosch."
+ },
+ "Bosch|E12": {
+  "title": "Vodní kámen na topném čerpadle",
+  "causes": [
+   "Na topném čerpadle se usadil vodní kámen, často v oblastech s tvrdou vodou."
+  ],
+  "steps": [
+   "Spusťte odvápňovací cyklus s odvápňovačem pro myčky.",
+   "Pokud má váš model změkčovač vody, pravidelně doplňujte regenerační sůl.",
+   "Při tvrdé vodě myčku pravidelně odvápňujte."
+  ],
+  "technician": "Pokud kód trvá i po odvápnění, zavolejte servis Bosch."
+ },
+ "Bosch|E14": {
+  "title": "Problém s napouštěním vody (průtokoměr)",
+  "causes": [
+   "Průtokoměr selhal nebo se myčka nenapouští správně."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je kohoutek pod dřezem úplně otevřený.",
+   "Vypněte jistič na 30 sekund a zkuste to znovu."
+  ],
+  "technician": "Bosch u tohoto kódu doporučuje kontaktovat servis."
+ },
+ "Bosch|E15": {
+  "title": "Voda ve spodní vaně (aktivována ochrana proti úniku)",
+  "causes": [
+   "Ve spodní části myčky se nahromadila voda.",
+   "Únik z hadice, těsnění nebo vnitřního dílu.",
+   "Příliš mnoho pěny, například z prostředku na ruční mytí nádobí."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky.",
+   "Zavřete kohoutek přívodu vody do myčky.",
+   "Vytřete vodu z podlahy."
+  ],
+  "technician": "Bosch doporučuje zavřít vodu a zavolat servis. Skrytý únik je nutné najít a opravit."
+ },
+ "Bosch|E16": {
+  "title": "Voda možná nepřitéká",
+  "causes": [
+   "Přívodní hadice je zalomená nebo poškozená."
+  ],
+  "steps": [
+   "Zkontrolujte, zda přívodní hadice není ohnutá, zmáčknutá nebo poškozená.",
+   "Ujistěte se, že je vodovodní kohoutek otevřený."
+  ],
+  "technician": "Pokud kód trvá, zavolejte servis Bosch."
+ },
+ "Bosch|E17": {
+  "title": "Voda možná nepřitéká",
+  "causes": [
+   "Přívodní hadice je zalomená nebo poškozená."
+  ],
+  "steps": [
+   "Zkontrolujte, zda přívodní hadice není ohnutá, zmáčknutá nebo poškozená.",
+   "Ujistěte se, že je vodovodní kohoutek otevřený."
+  ],
+  "technician": "Pokud kód trvá, zavolejte servis Bosch."
+ },
+ "Bosch|E18": {
+  "title": "Příliš nízká hladina vody",
+  "causes": [
+   "Vodovodní kohoutek je zavřený nebo částečně zavřený.",
+   "Přívodní hadice je zalomená.",
+   "Nízký průtok vody."
+  ],
+  "steps": [
+   "Ujistěte se, že přívod vody je úplně otevřený.",
+   "Zkontrolujte, zda přívodní hadice není zalomená nebo poškozená.",
+   "Zkontrolujte průtok: z kohoutku by mělo téct asi 10 litrů za minutu."
+  ],
+  "technician": "Pokud je přívod v pořádku a kód se vrací, zavolejte servis Bosch."
+ },
+ "Bosch|E19": {
+  "title": "Závada obvodu dávkovače mycího prostředku",
+  "causes": [
+   "Elektrická závada v obvodu dávkovače mycího prostředku."
+  ],
+  "steps": [
+   "Vypněte jistič na 30 sekund a pak ho znovu zapněte."
+  ],
+  "technician": "Pokud se kód vrátí, zavolejte servis Bosch."
+ },
+ "Bosch|E22": {
+  "title": "Ucpaný filtr",
+  "causes": [
+   "Filtr blokují zbytky jídla."
+  ],
+  "steps": [
+   "Vypněte myčku.",
+   "Vyjměte spodní koš a vytáhněte filtr.",
+   "Opláchněte filtr pod tekoucí vodou s měkkým kartáčkem a jemným mýdlem.",
+   "Filtr nasaďte zpět, až zapadne na místo."
+  ],
+  "technician": "Obvykle není potřeba. Pokud kód po vyčištění nezmizí, zavolejte servis Bosch."
+ },
+ "Bosch|E23": {
+  "title": "Vypouštěcí čerpadlo je ucpané nebo vadné",
+  "causes": [
+   "Vypouštěcí čerpadlo je ucpané nebo selhalo."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky.",
+   "Vyčistěte filtr a zkontrolujte, zda v jímce nejsou volné nečistoty."
+  ],
+  "technician": "Bosch u tohoto kódu doporučuje zavolat servis."
+ },
+ "Bosch|E24": {
+  "title": "Voda neodtéká – ucpaná odtoková hadice nebo filtr",
+  "causes": [
+   "Odtoková hadice je zalomená nebo ucpaná.",
+   "Filtr je ucpaný.",
+   "Nový drtič odpadu nebo sifon dřezu má stále nasazenou záslepku."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky.",
+   "Zkontrolujte, zda odtoková hadice není zalomená.",
+   "Vyčistěte filtry a ujistěte se, že kryt čerpadla pod filtrem je nasazený.",
+   "Pokud je myčka připojená k drtiči odpadu nebo novému sifonu, zkontrolujte, zda byla odstraněna záslepka."
+  ],
+  "technician": "Pokud voda stále neodtéká, zavolejte servis Bosch."
+ },
+ "Bosch|E25": {
+  "title": "Ucpané vypouštěcí čerpadlo nebo uvolněný kryt čerpadla",
+  "causes": [
+   "Vypouštěcí čerpadlo blokují střepy, semínka nebo jiné nečistoty.",
+   "Kryt čerpadla je uvolněný nebo chybí."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky.",
+   "Vyjměte spodní koš a filtry.",
+   "Stojící vodu vyberte hrnkem nebo houbou.",
+   "Uvolněte bílý kryt čerpadla (pomůže lžíce) a odstraňte nečistoty. Pozor na ostré střepy.",
+   "Kryt nasaďte zpět, až cvakne, a vraťte filtry."
+  ],
+  "technician": "Pokud se kód po vyčištění vrátí, zavolejte servis Bosch."
+ },
+ "Bosch|E27": {
+  "title": "Příliš nízké napětí v síti",
+  "causes": [
+   "Napětí v domácí síti je příliš nízké. Myčka sama není vadná."
+  ],
+  "steps": [
+   "Vypněte jistič na 30 sekund a pak ho znovu zapněte."
+  ],
+  "technician": "Pokud se to stane znovu, nechte elektrikáře zkontrolovat napětí v přívodu."
+ },
+ "Siemens|E08": {
+  "title": "Příliš nízká hladina vody při mytí",
+  "causes": [
+   "Misky nebo hrnce se převrátily a zadržují vodu.",
+   "Nádobí blokuje sání vody."
+  ],
+  "steps": [
+   "Zkontrolujte vložené nádobí a misky i hrnce otočte dnem vzhůru.",
+   "Ujistěte se, že nic neblokuje ostřikovací ramena ani sání."
+  ],
+  "technician": "Pokud se to opakuje, kontaktujte servis Siemens."
+ },
+ "Siemens|E09": {
+  "title": "Závada topného systému",
+  "causes": [
+   "Závada topného systému."
+  ],
+  "steps": [
+   "Myčku vypněte, počkejte několik minut a znovu ji zapněte."
+  ],
+  "technician": "Kontaktujte servis Siemens a uveďte kód."
+ },
+ "Siemens|E12": {
+  "title": "Topné těleso je pokryté vodním kamenem nebo nečistotami",
+  "causes": [
+   "Vodní kámen nebo nečistoty na topném tělese."
+  ],
+  "steps": [
+   "Spusťte odvápňovací cyklus podle návodu k obsluze.",
+   "Vyčistěte filtry."
+  ],
+  "technician": "Pokud kód trvá i po odvápnění, kontaktujte servis Siemens."
+ },
+ "Siemens|E14": {
+  "title": "Chyba napouštění – aktivní ochrana proti vodě",
+  "causes": [
+   "Problém s přívodem vody nebo napouštěcím systémem."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je vodovodní kohoutek otevřený.",
+   "Zkontrolujte, zda přívodní hadice není zalomená."
+  ],
+  "technician": "Pokud se to opakuje, kontaktujte servis Siemens."
+ },
+ "Siemens|E15": {
+  "title": "Voda ve spodní části (aktivována ochrana proti vodě)",
+  "causes": [
+   "Ve spodní vaně myčky se nahromadila voda."
+  ],
+  "steps": [
+   "Zavřete vodovodní kohoutek.",
+   "Vypněte myčku.",
+   "Vytřete vodu z podlahy."
+  ],
+  "technician": "Siemens nedoporučuje opravovat to svépomocí. Zavolejte servis Siemens."
+ },
+ "Siemens|E16": {
+  "title": "Chyba napouštění nebo přítoku vody",
+  "causes": [
+   "Problém s napouštěcím systémem nebo přítokem vody."
+  ],
+  "steps": [
+   "Zavřete kohoutek.",
+   "Zkontrolujte, zda přívodní hadice není zalomená, a znovu otevřete kohoutek."
+  ],
+  "technician": "Pokud se to děje často, spotřebič potřebuje technika. Kontaktujte servis Siemens."
+ },
+ "Siemens|E18": {
+  "title": "Chyba přívodu vody",
+  "causes": [
+   "Přívodní hadice je ohnutá.",
+   "Kohoutek je zavřený, zaseknutý nebo zanesený vodním kamenem.",
+   "Přívodní filtr je ucpaný."
+  ],
+  "steps": [
+   "Ujistěte se, že je kohoutek úplně otevřený.",
+   "Zkontrolujte, zda přívodní hadice není zalomená.",
+   "Myčku vypněte, zavřete kohoutek, sejměte hadici a vyčistěte filtr, pak hadici nasaďte zpět a zkontrolujte, zda nic neuniká."
+  ],
+  "technician": "Pokud je průtok vody nízký, zavolejte instalatéra. Pokud se to opakuje, kontaktujte servis Siemens."
+ },
+ "Siemens|E22": {
+  "title": "Filtry jsou znečištěné nebo ucpané",
+  "causes": [
+   "Systém filtrů ucpávají zbytky jídla."
+  ],
+  "steps": [
+   "Vypněte myčku.",
+   "Vyjměte filtry a opláchněte je.",
+   "Filtry správně nasaďte zpět."
+  ],
+  "technician": "Obvykle není potřeba."
+ },
+ "Siemens|E23": {
+  "title": "Závada vypouštěcího čerpadla",
+  "causes": [
+   "Závada čerpadla odpadní vody."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Podle výrobce Siemens to opraví jen jeho servis. Kontaktujte ho a uveďte kód."
+ },
+ "Siemens|E24": {
+  "title": "Voda neodtéká – pravděpodobně ucpané čerpadlo nebo hadice",
+  "causes": [
+   "Vypouštěcí čerpadlo nebo odtoková cesta je ucpaná."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky.",
+   "Vyčistěte filtry a zkontrolujte, zda v oblasti čerpadla nejsou nečistoty.",
+   "Zkontrolujte, zda odtoková hadice není zalomená."
+  ],
+  "technician": "Pokud problém trvá, zavřete kohoutek a zavolejte servis Siemens."
+ },
+ "Siemens|E25": {
+  "title": "Ucpané vypouštěcí čerpadlo",
+  "causes": [
+   "Vypouštěcí čerpadlo blokují nečistoty, například střepy nebo semínka."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky.",
+   "Vyjměte filtry a vyberte stojící vodu.",
+   "Sejměte kryt čerpadla a opatrně odstraňte nečistoty – pozor na ostré střepy.",
+   "Nasaďte zpět kryt a filtry."
+  ],
+  "technician": "Pokud problém trvá, zavřete kohoutek a zavolejte servis Siemens."
+ },
+ "Siemens|E27": {
+  "title": "Nízké napětí v síti",
+  "causes": [
+   "Napětí v síti je příliš nízké. Spotřebič sám není vadný."
+  ],
+  "steps": [
+   "Myčku vypněte a později ji znovu zapněte."
+  ],
+  "technician": "Nechte elektrikáře zkontrolovat přívod. Pokud se to opakuje, kontaktujte servis Siemens."
+ },
+ "Samsung|4C": {
+  "title": "Přitéká málo vody nebo vůbec",
+  "causes": [
+   "Vodní ventil je zavřený.",
+   "Přívod vody je vypnutý.",
+   "Přívodní hadice nebo ventil je zamrzlý nebo ucpaný."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je vodní ventil úplně otevřený.",
+   "Zkontrolujte, zda teče voda z ostatních kohoutků.",
+   "Zkontrolujte, zda přívodní hadice není zalomená nebo ucpaná."
+  ],
+  "technician": "Pokud voda stále nepřitéká, kontaktujte servis Samsung."
+ },
+ "Samsung|5C": {
+  "title": "Voda neodtéká",
+  "causes": [
+   "Odpad nebo připojení k dřezu je ucpané.",
+   "Filtr je ucpaný.",
+   "Odtoková hadice je zalomená."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky.",
+   "Vyčistěte sítkový filtr na dně.",
+   "Zkontrolujte, zda odtoková hadice a připojení k dřezu nejsou zalomené nebo ucpané."
+  ],
+  "technician": "Pokud voda stále neodtéká, kontaktujte servis Samsung."
+ },
+ "Samsung|5C2": {
+  "title": "Vypouštěcí čerpadlo se zastavuje",
+  "causes": [
+   "Vypouštěcí čerpadlo blokují nečistoty."
+  ],
+  "steps": [
+   "Zrušte cyklus, aby se voda vypustila.",
+   "Vypněte myčku a odpojte ji ze zásuvky.",
+   "Vyjměte spodní koš a filtr a zkontrolujte, zda v jímce nejsou nečistoty."
+  ],
+  "technician": "Pokud se čerpadlo stále zastavuje, kontaktujte servis Samsung."
+ },
+ "Samsung|LC": {
+  "title": "Zjištěn únik vody",
+  "causes": [
+   "Voda uniká kolem dvířek nebo do spodní části.",
+   "Místo mycího prostředku do myčky byl použit prostředek na ruční mytí nádobí.",
+   "Voda se vrací z dřezu nebo drtiče odpadu."
+  ],
+  "steps": [
+   "Vypněte myčku.",
+   "Používejte jen mycí prostředek určený do myčky.",
+   "Vyčistěte těsnění dvířek a spodní hranu dvířek.",
+   "Zkontrolujte, zda pod myčkou není voda, a vytřete ji.",
+   "Zkontrolujte, zda se voda nevrací z odpadu dřezu."
+  ],
+  "technician": "Pokud voda dál uniká, zavřete přívod vody a kontaktujte servis Samsung."
+ },
+ "Samsung|OC": {
+  "title": "Přeplnění nebo příliš mnoho pěny",
+  "causes": [
+   "Příliš mnoho pěny z pracího prostředku.",
+   "Ucpaný filtr.",
+   "Odtoková hadice je zalomená."
+  ],
+  "steps": [
+   "Vypněte myčku.",
+   "Zkontrolujte, zda používáte správný mycí prostředek do myčky ve správném množství.",
+   "Vyčistěte filtr a odstraňte stojící vodu ze dna.",
+   "Zkontrolujte, zda odtoková hadice není zalomená."
+  ],
+  "technician": "Pokud se myčka stále napouští, zavřete přívod vody a kontaktujte servis Samsung."
+ },
+ "Samsung|HC": {
+  "title": "Problém s ohřevem (přehřátí)",
+  "causes": [
+   "Přiváděná voda je velmi horká.",
+   "Filtry jsou znečištěné, takže voda dobře necirkuluje."
+  ],
+  "steps": [
+   "Myčku vypněte alespoň na 5 minut.",
+   "Vyčistěte filtry.",
+   "Spusťte běžný cyklus s prázdnou myčkou a mycím prostředkem."
+  ],
+  "technician": "Pokud se kód vrátí, kontaktujte servis Samsung."
+ },
+ "Samsung|tC": {
+  "title": "Problém se snímačem teploty",
+  "causes": [
+   "Myčka zjistila závadu snímání teploty."
+  ],
+  "steps": [
+   "Vypněte myčku vypínačem ve zdi nebo jističem alespoň na 5 minut.",
+   "Zapněte myčku a spusťte cyklus Normal."
+  ],
+  "technician": "Pokud se kód vrátí, kontaktujte servis Samsung."
+ },
+ "Samsung|DC": {
+  "title": "Dvířka nejsou zavřená",
+  "causes": [
+   "Dvířka nejsou zajištěná.",
+   "Příbor nebo nádobí vyčnívá a brání zavření dvířek."
+  ],
+  "steps": [
+   "Zasuňte všechno, co vyčnívá.",
+   "Vyčistěte oblast západky dvířek.",
+   "Dvířka pevně zavřete.",
+   "Vypněte myčku na 30 sekund a pak ji znovu zapněte."
+  ],
+  "technician": "Pokud dvířka nezapadnou, kontaktujte servis Samsung."
+ },
+ "Samsung|3C": {
+  "title": "Mycí čerpadlo neběží",
+  "causes": [
+   "Myčka napouští vodu, ale mycí motor se nespustí."
+  ],
+  "steps": [
+   "Vypněte myčku na minutu a pak to zkuste znovu."
+  ],
+  "technician": "Pokud stále nestříká voda, kontaktujte servis Samsung."
+ },
+ "Samsung|PC": {
+  "title": "Nespustí se se Zone Wash nebo Half Load",
+  "causes": [
+   "Závada související s funkcí Zone Wash nebo Half Load."
+  ],
+  "steps": [
+   "Vypněte myčku alespoň na 30 sekund.",
+   "Vypněte Zone Wash nebo Half Load a spusťte cyklus Normal."
+  ],
+  "technician": "Pokud se kód vrátí, kontaktujte servis Samsung."
+ },
+ "Samsung|9C1": {
+  "title": "Režim ochrany proti napětí",
+  "causes": [
+   "Zakolísání proudu, přepětí nebo vypnutý jistič."
+  ],
+  "steps": [
+   "Zkontrolujte zástrčku a zásuvku.",
+   "Vypněte spotřebič vypínačem ve zdi nebo jističem alespoň na 1 minutu a pak to zkuste znovu.",
+   "Použijte samostatnou zásuvku bez prodlužovacích kabelů a adaptérů."
+  ],
+  "technician": "Pokud se to opakuje, nechte přívod zkontrolovat elektrikářem."
+ },
+ "Samsung|AC": {
+  "title": "Zapne se, ale nespustí",
+  "causes": [
+   "Interní závada ovládání."
+  ],
+  "steps": [
+   "Vypněte myčku vypínačem ve zdi nebo jističem.",
+   "Počkejte 1 minutu, zapněte myčku a zkuste to znovu."
+  ],
+  "technician": "Pokud se kód vrátí, kontaktujte servis Samsung."
+ },
+ "Samsung|6C1": {
+  "title": "Problém s dávkovačem mycího prostředku",
+  "causes": [
+   "Motor dávkovače nefunguje normálně.",
+   "V dávkovači uvízla tableta."
+  ],
+  "steps": [
+   "Odpojte myčku ze zásuvky na 5 minut.",
+   "Zkontrolujte, zda v dávkovači neuvízla tableta."
+  ],
+  "technician": "Pokud se kód vrátí, kontaktujte servis Samsung."
+ },
+ "LG|AE": {
+  "title": "Zjištěn únik vody nebo přeplnění",
+  "causes": [
+   "Přiteklo příliš mnoho vody nebo byl zjištěn únik.",
+   "Prostředek na ruční mytí nádobí vytvořil příliš mnoho pěny.",
+   "Myčka nestojí rovně."
+  ],
+  "steps": [
+   "Používejte jen mycí prostředek určený do myčky.",
+   "Velké talíře a hrnce vkládejte dnem vzhůru.",
+   "Zkontrolujte, zda myčka stojí rovně."
+  ],
+  "technician": "Pokud nikde neuniká voda, ale kód nezmizí, vypněte napájení a objednejte servis LG. Vestavnou myčku sami nevytahujte."
+ },
+ "LG|IE": {
+  "title": "Přitéká málo vody",
+  "causes": [
+   "V domácnosti je přerušená dodávka vody.",
+   "Přívodní hadice je ohnutá nebo zmáčknutá.",
+   "Přívodní ventil nebo ventil pod dřezem je zavřený."
+  ],
+  "steps": [
+   "Zkontrolujte, zda teče voda z ostatních kohoutků.",
+   "Narovnejte přívodní hadici a odstraňte vše, co na ni tlačí.",
+   "Otevřete ventil pod dřezem, zejména po instalaci nebo stěhování."
+  ],
+  "technician": "Pokud problém trvá, kontaktujte instalačního technika nebo servis LG."
+ },
+ "LG|OE": {
+  "title": "Voda neodtéká",
+  "causes": [
+   "Filtr je ucpaný.",
+   "Odtoková hadice je ohnutá nebo zmáčknutá."
+  ],
+  "steps": [
+   "Vypněte myčku a počkejte 30 minut, až vychladne.",
+   "Vyjměte spodní koš, otočením vytáhněte filtr a opláchněte ho.",
+   "Filtr nasaďte zpět, až cvakne.",
+   "Narovnejte odtokovou hadici."
+  ],
+  "technician": "Pokud nad filtrem stále stojí voda, objednejte servis LG."
+ },
+ "LG|bE": {
+  "title": "Příliš mnoho pěny",
+  "causes": [
+   "Byl použit prostředek na ruční mytí nádobí.",
+   "Příliš mnoho pracího prostředku."
+  ],
+  "steps": [
+   "Používejte jen mycí prostředek do myčky, a to v menším množství.",
+   "Setřete pěnu a spusťte oplachovací cyklus bez mycího prostředku."
+  ],
+  "technician": "Pokud se bE zobrazuje bez pěny, objednejte servis LG."
+ },
+ "LG|nE": {
+  "title": "Problém s ostřikovacím čerpadlem (Vario)",
+  "causes": [
+   "Oběžné kolo se neotáčí normálně.",
+   "Nádobí se dotýká ostřikovacího systému."
+  ],
+  "steps": [
+   "Přerovnejte nádobí, aby nic neblokovalo ostřikovací ramena.",
+   "Spusťte cyklus znovu."
+  ],
+  "technician": "Pokud kód trvá, objednejte servis LG."
+ },
+ "LG|HE": {
+  "title": "Voda se neohřívá",
+  "causes": [
+   "Závada topného tělesa."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky."
+  ],
+  "technician": "LG doporučuje objednat servis."
+ },
+ "LG|tE": {
+  "title": "Závada snímače teploty",
+  "causes": [
+   "Špatný kontakt nebo vadný snímač teploty."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky."
+  ],
+  "technician": "LG doporučuje objednat servis."
+ },
+ "LG|LE": {
+  "title": "Závada mycího motoru",
+  "causes": [
+   "Mycí motor nefunguje správně."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky."
+  ],
+  "technician": "LG doporučuje objednat servis."
+ },
+ "LG|PE": {
+  "title": "Závada snímače hladiny vody (starší modely)",
+  "causes": [
+   "Závada snímače hladiny vody."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky."
+  ],
+  "technician": "LG doporučuje objednat servis."
+ },
+ "LG|F37": {
+  "title": "Automatické otevírání dvířek nefunguje",
+  "causes": [
+   "Dvířkům něco překáží.",
+   "Závada dílů automatického otevírání."
+  ],
+  "steps": [
+   "Odstraňte vše v blízkosti dvířek a spusťte program znovu."
+  ],
+  "technician": "Pokud problém trvá, objednejte servis LG."
+ },
+ "AEG|i10": {
+  "title": "Voda se nenapouští",
+  "causes": [
+   "Vodovodní kohoutek je zavřený.",
+   "Tlak vody je příliš nízký.",
+   "Přívodní hadice je zalomená.",
+   "Filtr v přívodní hadici je ucpaný."
+  ],
+  "steps": [
+   "Otevřete vodovodní kohoutek.",
+   "Zkontrolujte, zda přívodní hadice není zalomená nebo ohnutá.",
+   "Vypněte myčku, odpojte ji ze zásuvky, zavřete kohoutek, sejměte hadici a vyčistěte její filtr.",
+   "Hadici rukou pevně nasaďte zpět, otevřete kohoutek a spusťte program."
+  ],
+  "technician": "Pokud problém trvá, kontaktujte autorizované servisní středisko."
+ },
+ "AEG|i20": {
+  "title": "Voda neodtéká",
+  "causes": [
+   "Odpadní nátrubek nebo sifon dřezu je ucpaný.",
+   "Filtr nebo jímka je ucpaná.",
+   "Odtoková hadice je zalomená, příliš dlouhá nebo ve špatné výšce.",
+   "Po instalaci zůstala v sifonu dřezu záslepka."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky.",
+   "Vyčistěte filtr a jímku.",
+   "Zkontrolujte, zda odtoková hadice není zalomená nebo zkroucená.",
+   "Zkontrolujte, zda je nátrubek sifonu průchozí (a zda byla po nové instalaci odstraněna záslepka).",
+   "Zapojte myčku a spusťte program."
+  ],
+  "technician": "Pokud voda stále neodtéká, kontaktujte autorizované servisní středisko."
+ },
+ "AEG|i30": {
+  "title": "Zjištěn únik vody (ochrana proti zaplavení)",
+  "causes": [
+   "Systém ochrany proti zaplavení zjistil vodu ve spodní části."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky.",
+   "Zavřete vodovodní kohoutek.",
+   "Vytřete vodu z podlahy."
+  ],
+  "technician": "Objednejte opravu, aby únik někdo našel a odstranil."
+ },
+ "AEG|i40": {
+  "title": "Problém se snímačem hladiny (tlaku) vody",
+  "causes": [
+   "Hladinu vody nelze správně změřit."
+  ],
+  "steps": [
+   "Vypněte spotřebič v zásuvce asi na minutu a pak ho spusťte znovu."
+  ],
+  "technician": "Pokud se kód vrátí, objednejte opravu."
+ },
+ "AEG|i50": {
+  "title": "Závada mycího motoru nebo oběhového čerpadla",
+  "causes": [
+   "Závada mycího motoru, oběhového čerpadla nebo jejich řízení."
+  ],
+  "steps": [
+   "Vypněte spotřebič v zásuvce asi na minutu a pak ho spusťte znovu."
+  ],
+  "technician": "Pokud se kód vrátí, objednejte opravu."
+ },
+ "AEG|i60": {
+  "title": "Závada ohřevu",
+  "causes": [
+   "Voda se neohřívá podle očekávání."
+  ],
+  "steps": [
+   "Vypněte spotřebič v zásuvce asi na minutu a pak ho spusťte znovu."
+  ],
+  "technician": "Pokud se kód vrátí, objednejte opravu."
+ },
+ "AEG|iF0": {
+  "title": "Problém s řízením hladiny vody",
+  "causes": [
+   "Hladina napouštění je nesprávná nebo neobvyklá."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je vodovodní kohoutek úplně otevřený.",
+   "Vyčistěte filtry.",
+   "Vypněte spotřebič v zásuvce asi na minutu a pak ho spusťte znovu."
+  ],
+  "technician": "Pokud se kód vrátí, objednejte opravu."
+ },
+ "Hotpoint|F01": {
+  "title": "Přetečení – ochrana proti zaplavení",
+  "causes": [
+   "Voda ve spodní části aktivovala plovák ochrany proti zaplavení.",
+   "Únik vody nebo vadný plovákový spínač."
+  ],
+  "steps": [
+   "Pro reset myčku vypněte a znovu zapněte.",
+   "Pokud je na podlaze voda, zavřete vodovodní kohoutek."
+  ],
+  "technician": "Pokud se kód vrátí, objednejte technika Hotpoint."
+ },
+ "Hotpoint|F02": {
+  "title": "Závada napouštěcího ventilu",
+  "causes": [
+   "Napouštěcí ventil pouští vodu, když nemá, nebo selhal."
+  ],
+  "steps": [
+   "Zkontrolujte, zda odtoková hadice neleží na podlaze.",
+   "Pokud voda stále přitéká, zavřete vodovodní kohoutek."
+  ],
+  "technician": "Objednejte technika Hotpoint."
+ },
+ "Hotpoint|F03": {
+  "title": "Chyba vypouštění / vypouštění trvalo příliš dlouho",
+  "causes": [
+   "Odtoková hadice nebo odpad pod dřezem je ucpaný.",
+   "Vypouštěcí čerpadlo je ucpané nebo vadné."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky.",
+   "Vyčistěte filtry.",
+   "Zkontrolujte, zda odtoková hadice a odpad pod dřezem nejsou ucpané."
+  ],
+  "technician": "Pokud závada trvá, objednejte technika."
+ },
+ "Hotpoint|F04": {
+  "title": "Závada snímače teploty",
+  "causes": [
+   "Závada termostatu nebo snímače teploty."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Hotpoint."
+ },
+ "Hotpoint|F06": {
+  "title": "Napouštění trvalo příliš dlouho",
+  "causes": [
+   "Kohoutek je zavřený nebo částečně zavřený.",
+   "Nízký tlak vody.",
+   "Napouštěcí hadice je zalomená nebo je její filtr ucpaný."
+  ],
+  "steps": [
+   "Ujistěte se, že je kohoutek úplně otevřený.",
+   "Zkontrolujte, zda napouštěcí hadice není zalomená ani zmáčknutá.",
+   "Zkontrolujte, zda je tlak vody normální."
+  ],
+  "technician": "Pokud závada trvá, objednejte technika."
+ },
+ "Hotpoint|F08": {
+  "title": "Ohřev vody trvá příliš dlouho",
+  "causes": [
+   "Vodní kámen, příliš mnoho pěny, nesprávné nastavení tvrdosti vody nebo závada ohřevu."
+  ],
+  "steps": [
+   "Zkontrolujte nastavení tvrdosti vody.",
+   "Dávkujte správné množství mycího prostředku."
+  ],
+  "technician": "Objednejte technika Hotpoint."
+ },
+ "Hotpoint|F10": {
+  "title": "Závada topného tělesa",
+  "causes": [
+   "Obvod ohřevu je přerušený nebo topné těleso selhalo."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Hotpoint."
+ },
+ "Hotpoint|F11": {
+  "title": "Závada mycího čerpadla",
+  "causes": [
+   "Mycí čerpadlo selhalo, zadřelo se nebo ho blokují nečistoty."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky.",
+   "Vyčistěte filtry."
+  ],
+  "technician": "Objednejte technika Hotpoint."
+ },
+ "Hotpoint|F12": {
+  "title": "Hlavní deska a displej spolu nekomunikují",
+  "causes": [
+   "Závada kabeláže nebo displeje."
+  ],
+  "steps": [
+   "Odpojte myčku ze zásuvky na 2 minuty, pak ji zapojte a vyzkoušejte."
+  ],
+  "technician": "Pokud problém trvá, objednejte technika."
+ },
+ "Hotpoint|F13": {
+  "title": "Závada hlavní desky",
+  "causes": [
+   "Hlavní řídicí deska selhala."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Hotpoint."
+ },
+ "Indesit|F01": {
+  "title": "Přetečení – ochrana proti zaplavení",
+  "causes": [
+   "Voda ve spodní části aktivovala ochranu proti zaplavení."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky.",
+   "Zavřete vodovodní kohoutek a vytřete vodu."
+  ],
+  "technician": "Objednejte technika Indesit."
+ },
+ "Indesit|F02": {
+  "title": "Závada napouštěcího ventilu",
+  "causes": [
+   "Napouštěcí ventil selhal."
+  ],
+  "steps": [
+   "Pokud voda stále přitéká, zavřete vodovodní kohoutek.",
+   "Vypněte myčku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Indesit."
+ },
+ "Indesit|F03": {
+  "title": "Chyba vypouštění / vypouštění trvalo příliš dlouho",
+  "causes": [
+   "Ucpaná odtoková hadice nebo odpad pod dřezem."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky.",
+   "Vyčistěte filtry.",
+   "Zkontrolujte, zda odtoková hadice a odpad pod dřezem nejsou ucpané."
+  ],
+  "technician": "Pokud závada trvá, objednejte technika."
+ },
+ "Indesit|F04": {
+  "title": "Závada snímače teploty",
+  "causes": [
+   "Závada termostatu nebo snímače teploty."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Indesit."
+ },
+ "Indesit|F06": {
+  "title": "Napouštění trvalo příliš dlouho",
+  "causes": [
+   "Kohoutek není úplně otevřený.",
+   "Nízký tlak vody.",
+   "Průtok napouštěcí hadicí je omezený."
+  ],
+  "steps": [
+   "Ujistěte se, že je kohoutek úplně otevřený.",
+   "Zkontrolujte, zda napouštěcí hadice není zalomená ani zmáčknutá.",
+   "Zkontrolujte, zda je tlak vody normální."
+  ],
+  "technician": "Pokud závada trvá, objednejte technika."
+ },
+ "Indesit|F08": {
+  "title": "Ohřev vody trvá příliš dlouho",
+  "causes": [
+   "Teploty nebylo dosaženo včas."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Indesit."
+ },
+ "Indesit|F10": {
+  "title": "Závada topného tělesa",
+  "causes": [
+   "Závada topného tělesa."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Indesit."
+ },
+ "Indesit|F11": {
+  "title": "Závada mycího čerpadla",
+  "causes": [
+   "Mycí čerpadlo selhalo."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Indesit."
+ },
+ "Indesit|F12": {
+  "title": "Hlavní deska a displej spolu nekomunikují",
+  "causes": [
+   "Chyba komunikace mezi řídicími deskami."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Indesit."
+ },
+ "Indesit|F13": {
+  "title": "Závada hlavní desky",
+  "causes": [
+   "Hlavní řídicí deska selhala."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Objednejte technika Indesit."
+ },
+ "Beko|E:01": {
+  "title": "Přetečení nebo únik vody",
+  "causes": [
+   "Do myčky přitéká příliš mnoho vody.",
+   "Únik vody uvnitř myčky."
+  ],
+  "steps": [
+   "Nechte myčku dokončit bezpečnostní vypouštění.",
+   "Pokud kód zmizí, není potřeba nic dělat.",
+   "Pokud nezmizí, myčku vypněte, odpojte ze zásuvky a zavřete vodovodní kohoutek."
+  ],
+  "technician": "Pokud E:01 nezmizí, jde o trvalou závadu. Zavolejte servis Beko."
+ },
+ "Beko|E:02": {
+  "title": "Přívod vody je přerušený",
+  "causes": [
+   "Dodávka vody z vodovodu je přerušená.",
+   "Přívodní kohoutek je zavřený."
+  ],
+  "steps": [
+   "Ujistěte se, že je vodovodní kohoutek otevřený.",
+   "Program čeká a kontroluje přítok vody. Jakmile voda poteče, pokračuje."
+  ],
+  "technician": "Pokud voda teče a kód nezmizí, zavolejte servis Beko."
+ },
+ "Miele|F11": {
+  "title": "Voda se neodčerpává",
+  "causes": [
+   "Zpětný ventil nebo kryt vypouštěcího čerpadla není správně nasazený.",
+   "Vypouštěcí čerpadlo blokují nečistoty."
+  ],
+  "steps": [
+   "Vypněte myčku a odpojte ji ze zásuvky.",
+   "Vyjměte spodní ostřikovací rameno (je-li) a kombinaci filtrů.",
+   "Stojící vodu vyberte malým hrnkem.",
+   "Sejměte kryt čerpadla / zpětný ventil, opláchněte ho a odstraňte nečistoty. Pozor na střepy skla.",
+   "Zkontrolujte, zda se oběžné kolo čerpadla otáčí rukou, nasaďte kryt, až cvakne, a vraťte filtry."
+  ],
+  "technician": "Pokud F11 trvá, kontaktujte servis Miele."
+ },
+ "Miele|F12": {
+  "title": "Přívod vody je ucpaný nebo omezený",
+  "causes": [
+   "Uzavírací ventil není otevřený.",
+   "Přívodní filtr je znečištěný.",
+   "Přívodní hadice je zalomená.",
+   "Tlak vody je nižší než 0,5 baru."
+  ],
+  "steps": [
+   "Otevřete uzavírací ventil naplno.",
+   "Myčku vypněte a odpojte ze zásuvky, zavřete uzavírací ventil, odšroubujte přívodní ventil a vyčistěte malý filtr. Těleso ventilu nikdy nedávejte do vody – obsahuje elektrickou součást.",
+   "Nasaďte zpět filtr a ventil, pomalu otevřete uzavírací ventil a zkontrolujte, zda nekape.",
+   "Narovnejte zalomená místa na hadici."
+  ],
+  "technician": "Pokud je tlak příliš nízký, zavolejte instalatéra. Pokud závada trvá, kontaktujte servis Miele."
+ },
+ "Miele|F13": {
+  "title": "Přívod vody je ucpaný nebo omezený",
+  "causes": [
+   "Uzavírací ventil je zavřený.",
+   "Přívodní filtr je znečištěný.",
+   "Přívodní hadice je zalomená.",
+   "Tlak vody je nižší než 0,5 baru."
+  ],
+  "steps": [
+   "Otevřete uzavírací ventil naplno.",
+   "Myčku vypněte a odpojte ze zásuvky, zavřete uzavírací ventil a vyčistěte přívodní filtr. Těleso ventilu neponořujte do vody.",
+   "Vše nasaďte zpět, pomalu otevřete uzavírací ventil a zkontrolujte, zda nic neuniká.",
+   "Narovnejte zalomená místa na hadici."
+  ],
+  "technician": "Pokud je tlak příliš nízký, zavolejte instalatéra. Pokud závada trvá, kontaktujte servis Miele."
+ },
+ "Miele|F14": {
+  "title": "Závada oběhového čerpadla nebo přívodu vody",
+  "causes": [
+   "Oběhové čerpadlo po delší přestávce vyschlo a zaseklo se.",
+   "Technická závada hladinového spínače."
+  ],
+  "steps": [
+   "Vyjměte spodní ostřikovací rameno a kombinaci filtrů.",
+   "Nalijte 1 litr teplé vody (max. 75 °C) s několika kapkami leštidla a počkejte 5 minut.",
+   "Nasaďte zpět filtry a ostřikovací rameno a spusťte program znovu. V případě potřeby postup 2–3krát zopakujte.",
+   "Jinak myčku vypněte, počkejte několik sekund, zapněte ji a spusťte program znovu."
+  ],
+  "technician": "Pokud F14 trvá, kontaktujte servis Miele."
+ },
+ "Miele|F15": {
+  "title": "Přívod vody je ucpaný nebo omezený",
+  "causes": [
+   "Uzavírací ventil je zavřený.",
+   "Přívodní filtr je znečištěný.",
+   "Přívodní hadice je zalomená.",
+   "Tlak vody je nižší než 0,5 baru."
+  ],
+  "steps": [
+   "Otevřete uzavírací ventil naplno.",
+   "Myčku vypněte a odpojte ze zásuvky, zavřete uzavírací ventil a vyčistěte přívodní filtr. Těleso ventilu neponořujte do vody.",
+   "Vše nasaďte zpět, pomalu otevřete uzavírací ventil a zkontrolujte, zda nic neuniká.",
+   "Narovnejte zalomená místa na hadici."
+  ],
+  "technician": "Pokud je tlak příliš nízký, zavolejte instalatéra. Pokud závada trvá, kontaktujte servis Miele."
+ },
+ "Miele|F18": {
+  "title": "Vadný napouštěcí ventil",
+  "causes": [
+   "Napouštěcí ventil selhal."
+  ],
+  "steps": [
+   "Vypněte myčku a zavřete uzavírací ventil."
+  ],
+  "technician": "Podle výrobce Miele to sami neopravíte. Objednejte technika Miele."
+ },
+ "Miele|F24": {
+  "title": "Závada relé ohřevu",
+  "causes": [
+   "Chyba kontaktu v relé ohřevu."
+  ],
+  "steps": [
+   "Vypněte myčku."
+  ],
+  "technician": "Podle výrobce Miele to sami neopravíte. Objednejte technika Miele."
+ },
+ "Miele|F70": {
+  "title": "Aktivován systém Waterproof (ochrana proti úniku vody)",
+  "causes": [
+   "Zasáhl systém ochrany proti úniku vody. Program se zastaví a běží vypouštěcí čerpadlo."
+  ],
+  "steps": [
+   "Zavřete uzavírací ventil.",
+   "Vypněte myčku a odpojte ji ze zásuvky.",
+   "Počkejte, až se vypouštěcí čerpadlo zastaví."
+  ],
+  "technician": "Kontaktujte servis Miele, aby příčinu našel a odstranil."
+ },
+ "Miele|F78": {
+  "title": "Oběhové čerpadlo je zablokované",
+  "causes": [
+   "Čerpadlo po týdnech či měsících bez používání nebo při prvním použití vyschlo a zaseklo se.",
+   "Méně často jde o technickou závadu."
+  ],
+  "steps": [
+   "Vyjměte spodní ostřikovací rameno a kombinaci filtrů.",
+   "Nalijte 1 litr teplé vody (max. 75 °C) se 3–5 kapkami leštidla a počkejte 5 minut.",
+   "Filtry nasaďte zpět naplocho, vraťte ostřikovací rameno a spusťte program znovu. V případě potřeby postup 2–3krát zopakujte."
+  ],
+  "technician": "Pokud F78 trvá, kontaktujte servis Miele."
+ }
+}

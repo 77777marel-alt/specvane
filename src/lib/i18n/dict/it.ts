@@ -154,7 +154,7 @@ export const it: Dict = {
     popularCompare: "Confronti più popolari",
     seeAll: "Tutti",
     errTitle: "Codici errore",
-    errLead: "Cosa significano i codici errore di lavatrici e lavastoviglie e cosa puoi fare da solo in sicurezza.",
+    errLead: "Cosa significano i codici errore di lavatrici, lavastoviglie, asciugatrici, frigoriferi, macchine da caffè, condizionatori e caldaie a gas, e cosa si può fare da soli in sicurezza.",
     errBrandTitle: "{brand} {appliance}: codici errore",
     errCodeTitle: "{brand} {appliance} errore {code}",
     errCauses: "Possibili cause",

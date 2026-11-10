@@ -1,0 +1,1201 @@
+{
+ "Samsung|dC": {
+  "title": "Dvířka otevřená nebo nerozpoznaná",
+  "causes": [
+   "Dvířka nejsou úplně zavřená.",
+   "Ve dvířkách je zachycené prádlo.",
+   "Je zapnutý dětský zámek (Child Lock) a dvířka byla otevřena."
+  ],
+  "steps": [
+   "Otevřete dvířka a vyjměte prádlo zachycené na okraji.",
+   "Dvířka pevně zavřete, až zapadnou.",
+   "Zkontrolujte, zda není zapnutý dětský zámek (Child Lock).",
+   "Spusťte cyklus znovu."
+  ],
+  "technician": "Pokud kód nezmizí ani při správně zavřených dvířkách, může být vadná západka nebo snímač dvířek. Kontaktujte servis Samsung."
+ },
+ "Samsung|NC": {
+  "title": "Problém s filtrem vláken",
+  "causes": [
+   "Filtr vláken chybí, je ucpaný nebo není správně usazený."
+  ],
+  "steps": [
+   "Vyjměte filtr vláken a vyčistěte ho.",
+   "Nasaďte ho úplně zpět, aby správně seděl.",
+   "Spusťte cyklus znovu."
+  ],
+  "technician": "Pokud se kód vrací i s čistým a správně nasazeným filtrem, objednejte servis Samsung."
+ },
+ "Samsung|NC2": {
+  "title": "Problém s vnitřním krytem výměníku tepla",
+  "causes": [
+   "Vnitřní kryt výměníku tepla není správně nasazený."
+  ],
+  "steps": [
+   "Vypněte sušičku.",
+   "Zkontrolujte, zda je vnitřní kryt výměníku tepla na místě a správně zavřený.",
+   "Spusťte cyklus znovu."
+  ],
+  "technician": "Pokud kód trvá i po nasazení krytu, kontaktujte servis Samsung."
+ },
+ "Samsung|5C": {
+  "title": "Problém s odvodem vody",
+  "causes": [
+   "Odtoková hadice je ohnutá, poškozená nebo zamrzlá.",
+   "Nádržka na vodu je plná.",
+   "Vypouštěcí čerpadlo nefunguje."
+  ],
+  "steps": [
+   "Vyprázdněte nádržku na vodu a vraťte ji zpět.",
+   "Zkontrolujte, zda odtoková hadice není zalomená nebo poškozená.",
+   "Pokud je hadice zamrzlá, obalte ji asi na 10 minut ručníkem namočeným v teplé vodě.",
+   "Zapněte sušičku a spusťte cyklus znovu."
+  ],
+  "technician": "Pokud je nádržka prázdná a hadice průchozí, ale kód se vrací, může být vadné čerpadlo. Zavolejte servis Samsung."
+ },
+ "Samsung|tC": {
+  "title": "Problém se snímačem teploty vzduchu",
+  "causes": [
+   "Filtr vláken nebo výměník tepla je ucpaný.",
+   "Odvětrání nebo cesta proudění vzduchu je omezená.",
+   "Snímač teploty je vadný."
+  ],
+  "steps": [
+   "Vyčistěte filtr vláken.",
+   "Pokud ho váš model má, vyčistěte výměník tepla.",
+   "Zkontrolujte, zda odvětrání nebo odvod vzduchu nejsou ucpané.",
+   "Spusťte cyklus znovu."
+  ],
+  "technician": "Pokud kód po vyčištění nezmizí, může být nutné vyměnit snímač. Kontaktujte servis Samsung."
+ },
+ "Samsung|tC5": {
+  "title": "Problém se snímačem teploty kompresoru",
+  "causes": [
+   "Sítko na vlákna je ucpané.",
+   "Proudění vzduchu odvětráním je omezené."
+  ],
+  "steps": [
+   "Počkejte 2 až 3 minuty a sušičku znovu zapněte.",
+   "Vyčistěte sítko na vlákna.",
+   "Zkontrolujte, zda odvětrání není ucpané.",
+   "Spusťte cyklus znovu."
+  ],
+  "technician": "Pokud se kód stále vrací, systém tepelného čerpadla musí zkontrolovat servis Samsung."
+ },
+ "Samsung|3C": {
+  "title": "Problém s motorem",
+  "causes": [
+   "Invertorový motor neběžel podle očekávání."
+  ],
+  "steps": [
+   "Ujistěte se, že buben není přeplněný.",
+   "Spusťte cyklus znovu.",
+   "Odpojte sušičku ze zásuvky alespoň na 30 sekund, znovu ji zapojte a zkuste to znovu."
+  ],
+  "technician": "Pokud se kód vrátí, motor nebo jeho řízení potřebuje technika. Kontaktujte servis Samsung."
+ },
+ "Samsung|AC": {
+  "title": "Chyba elektronické komunikace",
+  "causes": [
+   "Vnitřní řídicí díly spolu nekomunikují."
+  ],
+  "steps": [
+   "Vypněte sušičku na 60 sekund.",
+   "Znovu ji zapněte a spusťte cyklus znovu."
+  ],
+  "technician": "Pokud se kód vrátí, je nutné zkontrolovat řídicí desky. Objednejte servis Samsung."
+ },
+ "Samsung|AC6": {
+  "title": "Hlavní deska a deska invertoru spolu nekomunikují",
+  "causes": [
+   "Hlavní řídicí deska a deska invertoru ztratily spojení."
+  ],
+  "steps": [
+   "Spusťte cyklus znovu.",
+   "Odpojte sušičku ze zásuvky alespoň na 30 sekund, znovu ji zapojte a zkuste to znovu."
+  ],
+  "technician": "Pokud kód trvá, desky a kabeláž musí zkontrolovat technik. Kontaktujte servis Samsung."
+ },
+ "Samsung|HC": {
+  "title": "Přehřátí nebo problém s ohřevem",
+  "causes": [
+   "Filtr vláken nebo odvětrání je ucpané, takže sušička se přehřívá.",
+   "Vypnutý jistič nebo nízké napětí u elektrických modelů."
+  ],
+  "steps": [
+   "Vyčistěte filtr vláken.",
+   "Zkontrolujte, zda odvětrání není ucpané.",
+   "Zkontrolujte jističe v domácnosti a vypnuté jističe znovu zapněte.",
+   "Spusťte cyklus znovu."
+  ],
+  "technician": "Pokud kód trvá, nechte přívod zkontrolovat elektrikářem a objednejte servis Samsung kvůli topnému systému."
+ },
+ "Samsung|FC": {
+  "title": "Nesprávná frekvence napájení",
+  "causes": [
+   "Frekvence napětí v síti neodpovídá tomu, co sušička očekává."
+  ],
+  "steps": [
+   "Spusťte cyklus znovu.",
+   "Ujistěte se, že sušička je zapojená přímo do zásuvky ve zdi."
+  ],
+  "technician": "Pokud kód nezmizí, kontaktujte servis Samsung."
+ },
+ "Samsung|9C1": {
+  "title": "Problém s napájením",
+  "causes": [
+   "Napájení není správné.",
+   "Zástrčka je uvolněná nebo není úplně zasunutá.",
+   "Používáte prodlužovací kabel."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je zástrčka úplně zasunutá v zásuvce.",
+   "Zapojte sušičku přímo do zásuvky ve zdi na samostatném okruhu, bez prodlužovacího kabelu.",
+   "Spusťte cyklus znovu."
+  ],
+  "technician": "Pokud je přívod v pořádku a kód se vrací, objednejte servis Samsung."
+ },
+ "Samsung|dF": {
+  "title": "Závada spínače dvířek",
+  "causes": [
+   "Spínač dvířek či zámku nebo jeho kabeláž je vadná."
+  ],
+  "steps": [
+   "Dvířka pevně zavřete a zkuste to znovu.",
+   "Odpojte sušičku ze zásuvky alespoň na 30 sekund, znovu ji zapojte a zkuste to znovu."
+  ],
+  "technician": "Sestavu spínače dvířek může být nutné vyměnit. Kontaktujte servis Samsung."
+ },
+ "Samsung|bE": {
+  "title": "Zaseknuté tlačítko",
+  "causes": [
+   "Tlačítko na ovládacím panelu je zaseknuté nebo stisknuté."
+  ],
+  "steps": [
+   "Vypněte sušičku.",
+   "Stiskněte a uvolněte všechna tlačítka včetně okrajů, abyste zaseknuté uvolnili.",
+   "Zapněte spotřebič a zkuste to znovu."
+  ],
+  "technician": "Pokud je tlačítko poškozené nebo se kód vrací, objednejte servis Samsung."
+ },
+ "Samsung|Clg": {
+  "title": "Ucpané odvětrání (výsledek testu odvětrání)",
+  "causes": [
+   "Odvod vzduchu je ucpaný vlákny nebo nečistotami."
+  ],
+  "steps": [
+   "Vyčistěte filtr vláken.",
+   "Vyčistěte odvod vzduchu a potrubí.",
+   "Spusťte znovu test ucpání odvětrání."
+  ],
+  "technician": "Pokud je odvětrání čisté a výsledek se nemění, kontaktujte servis Samsung."
+ },
+ "Samsung|dn": {
+  "title": "Probíhá stahování softwaru",
+  "causes": [
+   "Sušička instaluje aktualizaci firmwaru."
+  ],
+  "steps": [
+   "Sušičku neodpojujte ze zásuvky ani nevypínejte napájení.",
+   "Počkejte. Po dokončení aktualizace se sušička sama restartuje."
+  ],
+  "technician": "Pokud se dn zobrazuje i po 24 hodinách, objednejte servis Samsung."
+ },
+ "Samsung|CL": {
+  "title": "Dětský zámek (Child Lock) je zapnutý",
+  "causes": [
+   "Byl zapnut dětský zámek (Child Lock), proto jsou tlačítka zablokovaná."
+  ],
+  "steps": [
+   "Vypněte dětský zámek kombinací tlačítek uvedenou v návodu."
+  ],
+  "technician": "Nejde o závadu. Samsung kontaktujte jen tehdy, pokud dětský zámek nelze vypnout."
+ },
+ "Samsung|HC2": {
+  "title": "Chyba zapálení plynu",
+  "causes": [
+   "Plynová sušička se nemohla zapálit."
+  ],
+  "steps": [
+   "Vypněte sušičku na 2 až 3 minuty.",
+   "Zapněte ji a spusťte cyklus znovu."
+  ],
+  "technician": "Pokud se kód vrátí, sušičku nepoužívejte a zavolejte servis Samsung. Na plynových dílech sami nepracujte."
+ },
+ "LG|OE": {
+  "title": "Problém s odvodem vody",
+  "causes": [
+   "Odtoková hadice je zkroucená, zalomená nebo ucpaná.",
+   "Konec hadice je příliš vysoko nebo je ponořený ve vodě."
+  ],
+  "steps": [
+   "Narovnejte odtokovou hadici.",
+   "Nejvyšší bod hadice nesmí být výš než 1 m nad podlahou.",
+   "Ujistěte se, že konec hadice není ponořený ve vodě.",
+   "Spusťte sušičku znovu."
+  ],
+  "technician": "Pokud se kód vrací i s průchozí a správně umístěnou hadicí, kontaktujte servis LG."
+ },
+ "LG|d80": {
+  "title": "Omezené proudění odpadního vzduchu (asi 80 % ucpáno)",
+  "causes": [
+   "Filtr vláken je ucpaný.",
+   "Odvětrávací potrubí je zmáčknuté, zalomené nebo příliš dlouhé.",
+   "Venkovní klapka odvětrání je ucpaná."
+  ],
+  "steps": [
+   "Vyčistěte filtr vláken a v případě potřeby ho opláchněte teplou vodou.",
+   "Zkontrolujte, zda potrubí za sušičkou není zalomené nebo zmáčknuté.",
+   "Ujistěte se, že venkovní klapka odvětrání se úplně otevírá, a odstraňte kolem ní vlákna.",
+   "Dokud potrubí nevyčistíte, sušte menší náplně."
+  ],
+  "technician": "Pokud kód po vyčištění nezmizí, objednejte čištění potrubí nebo kontaktujte servis LG."
+ },
+ "LG|d90": {
+  "title": "Omezené proudění odpadního vzduchu (asi 90 % ucpáno)",
+  "causes": [
+   "Filtr vláken je ucpaný.",
+   "Odvětrávací potrubí je zmáčknuté, zalomené nebo příliš dlouhé.",
+   "Venkovní klapka odvětrání je ucpaná."
+  ],
+  "steps": [
+   "Vyčistěte filtr vláken a v případě potřeby ho opláchněte teplou vodou.",
+   "Zkontrolujte, zda potrubí za sušičkou není zalomené nebo zmáčknuté.",
+   "Ujistěte se, že venkovní klapka odvětrání se úplně otevírá, a odstraňte kolem ní vlákna.",
+   "Dokud potrubí nevyčistíte, sušte menší náplně."
+  ],
+  "technician": "Pokud kód po vyčištění nezmizí, objednejte čištění potrubí nebo kontaktujte servis LG."
+ },
+ "LG|d95": {
+  "title": "Omezené proudění odpadního vzduchu (asi 95 % ucpáno)",
+  "causes": [
+   "Filtr vláken je ucpaný.",
+   "Odvětrávací potrubí je zmáčknuté, zalomené nebo příliš dlouhé.",
+   "Venkovní klapka odvětrání je ucpaná."
+  ],
+  "steps": [
+   "Vyčistěte filtr vláken a v případě potřeby ho opláchněte teplou vodou.",
+   "Zkontrolujte, zda potrubí za sušičkou není zalomené nebo zmáčknuté.",
+   "Ujistěte se, že venkovní klapka odvětrání se úplně otevírá, a odstraňte kolem ní vlákna.",
+   "Dokud potrubí nevyčistíte, sušte menší náplně."
+  ],
+  "technician": "Pokud kód po vyčištění nezmizí, objednejte čištění potrubí nebo kontaktujte servis LG."
+ },
+ "LG|FO": {
+  "title": "Filtr vláken není na místě",
+  "causes": [
+   "Filtr vláken není správně vložený."
+  ],
+  "steps": [
+   "Vyjměte filtr vláken.",
+   "Zasuňte ho zpět do pouzdra, až úplně dosedne.",
+   "Spusťte sušičku znovu."
+  ],
+  "technician": "Pokud FO nezmizí ani se správně nasazeným filtrem, snímač může potřebovat opravu v servisu LG."
+ },
+ "LG|IF": {
+  "title": "Vnitřní filtr vláken nebyl rozpoznán",
+  "causes": [
+   "Magnet ve vnitřním filtru vláken chybí nebo není na místě.",
+   "Držák magnetu je poškozený."
+  ],
+  "steps": [
+   "Vyjměte vnitřní filtr vláken a zkontrolujte, zda je magnet na místě.",
+   "Filtr správně nasaďte zpět.",
+   "Pokud se magnet ztratil nebo je držák zlomený, kupte nový filtr."
+  ],
+  "technician": "Pokud chyba trvá i s dobrým filtrem, objednejte servis LG."
+ },
+ "LG|nP": {
+  "title": "Topné těleso nemá napájení",
+  "causes": [
+   "Zásuvka nedodává správné napětí.",
+   "Vypnul se jistič."
+  ],
+  "steps": [
+   "Vypněte jistič sušičky alespoň na 10 sekund a pak ho znovu zapněte.",
+   "Spusťte sušičku znovu."
+  ],
+  "technician": "Pokud sušička stále nehřeje, nechte elektrikáře zkontrolovat zásuvku a pak kontaktujte servis LG."
+ },
+ "LG|PS": {
+  "title": "Problém s napájením",
+  "causes": [
+   "Napájecí kabel je uvolněný nebo zásuvka není zapojená podle požadavků."
+  ],
+  "steps": [
+   "Resetujte jistič sušičky alespoň na 10 sekund.",
+   "Zkontrolujte, zda je zástrčka pevně zasunutá v uzemněné zásuvce se správnými parametry.",
+   "Spusťte sušičku znovu."
+  ],
+  "technician": "Pokud sušička stále nehřeje, objednejte opravu u LG."
+ },
+ "LG|gAS": {
+  "title": "Problém s přívodem plynu",
+  "causes": [
+   "Uzavírací ventil plynu je zavřený.",
+   "Plynové potrubí je zalomené."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je ventil přívodu plynu otevřený.",
+   "Zkontrolujte, zda plynové potrubí není zalomené."
+  ],
+  "technician": "Pokud je přívod plynu v pořádku a kód se vrací, zavolejte servis LG. Plynové díly sami neopravujte."
+ },
+ "LG|CL": {
+  "title": "Dětský zámek (Child Lock) je zapnutý",
+  "causes": [
+   "Dětský zámek (Child Lock) byl zapnut a zůstává zapnutý i po vypnutí napájení."
+  ],
+  "steps": [
+   "Zapněte sušičku.",
+   "Stiskněte a podržte tlačítko Child Lock na 3 až 5 sekund, dokud CL nezmizí."
+  ],
+  "technician": "Nejde o závadu. LG kontaktujte jen tehdy, pokud dětský zámek (Child Lock) nelze vypnout."
+ },
+ "LG|Add": {
+  "title": "Doplňte vodu pro páru",
+  "causes": [
+   "Během parního cyklu je zásobník páry prázdný."
+  ],
+  "steps": [
+   "Pozastavte cyklus.",
+   "Naplňte zásobník páry vodou z vodovodu po značku MAX.",
+   "Sušičku vypněte a zapněte, zvolte parní cyklus a stiskněte Start."
+  ],
+  "technician": "Pokud hlášení po doplnění nezmizí, kontaktujte servis LG."
+ },
+ "LG|E13": {
+  "title": "Problém s odvodem kondenzátu",
+  "causes": [
+   "Odtoková hadice je zalomená, zkroucená nebo ucpaná.",
+   "Prodlužovací hadice zhoršuje odtok."
+  ],
+  "steps": [
+   "Zkontrolujte, zda odtoková hadice není zalomená nebo ucpaná.",
+   "Používejte jen originální odtokovou hadici LG, bez prodloužení.",
+   "Pro opětovné spuštění stiskněte Start/Pause."
+  ],
+  "technician": "Pokud se E13 vrátí, sušička potřebuje opravu v servisu LG."
+ },
+ "Bosch|E01": {
+  "title": "Ucpaný filtr vláken",
+  "causes": [
+   "Na filtru se nahromadila vlákna.",
+   "Síťku ucpávají zbytky aviváže."
+  ],
+  "steps": [
+   "Vyjměte filtr vláken a vyprázdněte ho.",
+   "Opláchněte filtr pod teplou vodou, abyste odstranili usazeniny.",
+   "Nechte ho uschnout a nasaďte zpět.",
+   "Filtr čistěte po každém cyklu."
+  ],
+  "technician": "Pokud kód nezmizí ani s čistým filtrem, objednejte servis Bosch."
+ },
+ "Bosch|E02": {
+  "title": "Ucpaný filtr vláken nebo závada řídicího relé",
+  "causes": [
+   "Filtr vláken je ucpaný.",
+   "U některých modelů závada relé na hlavní desce."
+  ],
+  "steps": [
+   "Vyčistěte filtr vláken a opláchněte ho teplou vodou.",
+   "Vypněte napájení zástrčkou nebo jističem na 30 sekund a spusťte sušičku znovu."
+  ],
+  "technician": "Pokud se kód po vyčištění a resetu vrátí, kontaktujte zákaznický servis Bosch."
+ },
+ "Bosch|E03": {
+  "title": "Ucpaná hadice odvodu kondenzátu",
+  "causes": [
+   "Hadice odvodu kondenzátu je zalomená nebo ucpaná."
+  ],
+  "steps": [
+   "Zkontrolujte, zda odtoková hadice není zalomená.",
+   "Opatrně sejměte hadici ze sifonu a vyčistěte hadici i její přípojku.",
+   "Hadici pevně nasaďte zpět."
+  ],
+  "technician": "Pokud se kód vrací i s průchozí hadicí, objednejte technika Bosch."
+ },
+ "Bosch|E04": {
+  "title": "Sušička je přeplněná",
+  "causes": [
+   "V bubnu je příliš mnoho prádla."
+  ],
+  "steps": [
+   "Vyjměte část prádla.",
+   "Nad prádlem nechte volný prostor asi na šířku dlaně.",
+   "Spusťte program znovu."
+  ],
+  "technician": "Pokud se kód zobrazuje při běžné náplni, kontaktujte servis Bosch."
+ },
+ "Bosch|E06": {
+  "title": "Závada obvodu ohřevu",
+  "causes": [
+   "Závada v obvodu ohřevu."
+  ],
+  "steps": [
+   "Vypněte sušičku a odpojte ji ze zásuvky.",
+   "Nepokoušejte se to opravit sami."
+  ],
+  "technician": "Tuto závadu musí řešit kvalifikovaný technik. Kontaktujte zákaznický servis Bosch."
+ },
+ "Bosch|E08": {
+  "title": "Závada elektroniky",
+  "causes": [
+   "Interní závada elektroniky."
+  ],
+  "steps": [
+   "Vypněte sušičku.",
+   "Na několik minut ji odpojte ze zásuvky nebo vypněte jistič a pak ji znovu připojte.",
+   "Pokud se kód vrátí, sušičku nepoužívejte."
+  ],
+  "technician": "Opravit to může jen autorizovaný technik. Kontaktujte zákaznický servis Bosch."
+ },
+ "Bosch|E09": {
+  "title": "Závada elektroniky",
+  "causes": [
+   "Interní závada elektroniky."
+  ],
+  "steps": [
+   "Vypněte sušičku.",
+   "Na několik minut ji odpojte ze zásuvky nebo vypněte jistič a pak ji znovu připojte.",
+   "Pokud se kód vrátí, sušičku nepoužívejte."
+  ],
+  "technician": "Opravit to může jen autorizovaný technik. Kontaktujte zákaznický servis Bosch."
+ },
+ "Bosch|E24": {
+  "title": "Závada elektroniky",
+  "causes": [
+   "Interní závada elektroniky."
+  ],
+  "steps": [
+   "Vypněte sušičku.",
+   "Na několik minut ji odpojte ze zásuvky nebo vypněte jistič a pak ji znovu připojte.",
+   "Pokud se kód vrátí, sušičku nepoužívejte."
+  ],
+  "technician": "Opravit to může jen autorizovaný technik. Kontaktujte zákaznický servis Bosch."
+ },
+ "Bosch|E25": {
+  "title": "Závada elektroniky",
+  "causes": [
+   "Interní závada elektroniky."
+  ],
+  "steps": [
+   "Vypněte sušičku.",
+   "Na několik minut ji odpojte ze zásuvky nebo vypněte jistič a pak ji znovu připojte.",
+   "Pokud se kód vrátí, sušičku nepoužívejte."
+  ],
+  "technician": "Opravit to může jen autorizovaný technik. Kontaktujte zákaznický servis Bosch."
+ },
+ "Bosch|E28": {
+  "title": "Závada elektroniky",
+  "causes": [
+   "Interní závada elektroniky."
+  ],
+  "steps": [
+   "Vypněte sušičku.",
+   "Na několik minut ji odpojte ze zásuvky nebo vypněte jistič a pak ji znovu připojte.",
+   "Pokud se kód vrátí, sušičku nepoužívejte."
+  ],
+  "technician": "Opravit to může jen autorizovaný technik. Kontaktujte zákaznický servis Bosch."
+ },
+ "Bosch|E36": {
+  "title": "Závada elektroniky",
+  "causes": [
+   "Interní závada elektroniky."
+  ],
+  "steps": [
+   "Vypněte sušičku.",
+   "Na několik minut ji odpojte ze zásuvky nebo vypněte jistič a pak ji znovu připojte.",
+   "Pokud se kód vrátí, sušičku nepoužívejte."
+  ],
+  "technician": "Opravit to může jen autorizovaný technik. Kontaktujte zákaznický servis Bosch."
+ },
+ "Bosch|E90": {
+  "title": "Závada elektroniky",
+  "causes": [
+   "Interní závada elektroniky."
+  ],
+  "steps": [
+   "Vypněte sušičku.",
+   "Na několik minut ji odpojte ze zásuvky nebo vypněte jistič a pak ji znovu připojte.",
+   "Pokud se kód vrátí, sušičku nepoužívejte."
+  ],
+  "technician": "Opravit to může jen autorizovaný technik. Kontaktujte zákaznický servis Bosch."
+ },
+ "Bosch|E12": {
+  "title": "Přehřátí nebo vodní kámen v tepelném čerpadle",
+  "causes": [
+   "Proudění vzduchu je omezené a sušička se přehřívá.",
+   "U některých modelů usazený vodní kámen v tepelném čerpadle."
+  ],
+  "steps": [
+   "Vyčistěte filtr vláken.",
+   "Zkontrolujte, zda venkovní odvětrání není ucpané, ohnuté nebo zmáčknuté.",
+   "Spusťte program znovu."
+  ],
+  "technician": "Pokud se kód stále vrací, objednejte servis Bosch."
+ },
+ "Bosch|E16": {
+  "title": "Dvířka otevřena během sušení",
+  "causes": [
+   "Během cyklu byla otevřena dvířka."
+  ],
+  "steps": [
+   "Dvířka pevně zavřete.",
+   "Stisknutím Start cyklus obnovíte.",
+   "V případě potřeby použijte dětský zámek, aby dvířka nešlo otevřít."
+  ],
+  "technician": "Pokud se E16 zobrazuje při zavřených dvířkách, může být vadný spínač dvířek. Objednejte technika Bosch."
+ },
+ "Bosch|E56": {
+  "title": "Problém se snímačem vlhkosti",
+  "causes": [
+   "Na proužcích snímače vlhkosti v bubnu jsou usazeniny nebo vlákna."
+  ],
+  "steps": [
+   "Odpojte sušičku ze zásuvky.",
+   "Otřete snímač vlhkosti u filtru vláken měkkým hadříkem a jemným čisticím prostředkem.",
+   "Odstraňte usazeniny a spusťte sušičku znovu."
+  ],
+  "technician": "Pokud kód po vyčištění trvá, kontaktujte zákaznický servis Bosch."
+ },
+ "Bosch|DR": {
+  "title": "Dvířka nejsou správně zavřená",
+  "causes": [
+   "Dvířka nejsou úplně zavřená.",
+   "Dvířkům něco překáží."
+  ],
+  "steps": [
+   "Odstraňte vše, co je zachycené ve dvířkách.",
+   "Dvířka pevně zavřete, až zapadnou.",
+   "Spusťte cyklus znovu."
+  ],
+  "technician": "Pokud kód trvá, západku nebo spínač dvířek musí zkontrolovat servis Bosch."
+ },
+ "Bosch|CrE": {
+  "title": "Připomínka údržby",
+  "causes": [
+   "Sušička vám připomíná, abyste spustili program údržby. Nejde o závadu."
+  ],
+  "steps": [
+   "Spusťte základní program údržby popsaný v návodu."
+  ],
+  "technician": "Není potřeba, pokud připomínka po programu údržby nezmizí."
+ },
+ "Miele|F1": {
+  "title": "Zkrat snímače teploty chladiva",
+  "causes": [
+   "Snímač teploty chladiva je zkratovaný."
+  ],
+  "steps": [
+   "Poznamenejte si kód závady.",
+   "Vypněte sušičku a dál ji nepoužívejte.",
+   "Objednejte opravu u Miele."
+  ],
+  "technician": "Jde o technickou závadu, kterou sami neodstraníte. Objednejte technika Miele."
+ },
+ "Miele|F2": {
+  "title": "Přerušený obvod snímače teploty chladiva",
+  "causes": [
+   "Obvod snímače teploty chladiva je přerušený."
+  ],
+  "steps": [
+   "Poznamenejte si kód závady.",
+   "Vypněte sušičku a dál ji nepoužívejte.",
+   "Objednejte opravu u Miele."
+  ],
+  "technician": "Jde o technickou závadu, kterou sami neodstraníte. Objednejte technika Miele."
+ },
+ "Miele|F3": {
+  "title": "Zkrat snímače teploty sušicího vzduchu",
+  "causes": [
+   "Snímač teploty sušicího vzduchu je zkratovaný."
+  ],
+  "steps": [
+   "Poznamenejte si kód závady.",
+   "Vypněte sušičku a dál ji nepoužívejte.",
+   "Objednejte opravu u Miele."
+  ],
+  "technician": "Jde o technickou závadu, kterou sami neodstraníte. Objednejte technika Miele."
+ },
+ "Miele|F4": {
+  "title": "Přerušený obvod snímače teploty sušicího vzduchu",
+  "causes": [
+   "Obvod snímače teploty sušicího vzduchu je přerušený."
+  ],
+  "steps": [
+   "Poznamenejte si kód závady.",
+   "Vypněte sušičku a dál ji nepoužívejte.",
+   "Objednejte opravu u Miele."
+  ],
+  "technician": "Jde o technickou závadu, kterou sami neodstraníte. Objednejte technika Miele."
+ },
+ "Miele|F30": {
+  "title": "Nesoulad signálu dvířek",
+  "causes": [
+   "Dvířka a kontakt dvířek hlásí odlišný stav."
+  ],
+  "steps": [
+   "Poznamenejte si kód závady.",
+   "Vypněte sušičku a dál ji nepoužívejte.",
+   "Objednejte opravu u Miele."
+  ],
+  "technician": "Jde o technickou závadu, kterou sami neodstraníte. Objednejte technika Miele."
+ },
+ "Miele|F39": {
+  "title": "Závada elektronického modulu",
+  "causes": [
+   "Elektronický modul je vadný."
+  ],
+  "steps": [
+   "Poznamenejte si kód závady.",
+   "Vypněte sušičku a dál ji nepoužívejte.",
+   "Objednejte opravu u Miele."
+  ],
+  "technician": "Jde o technickou závadu, kterou sami neodstraníte. Objednejte technika Miele."
+ },
+ "Miele|F43": {
+  "title": "Typ modelu není naprogramován",
+  "causes": [
+   "V elektronice chybí typ modelu nebo je nastavená nesprávná varianta."
+  ],
+  "steps": [
+   "Poznamenejte si kód závady.",
+   "Vypněte sušičku a dál ji nepoužívejte.",
+   "Objednejte opravu u Miele."
+  ],
+  "technician": "Jde o technickou závadu, kterou sami neodstraníte. Objednejte technika Miele."
+ },
+ "Miele|F45": {
+  "title": "Závada elektronického modulu",
+  "causes": [
+   "Elektronický modul je vadný."
+  ],
+  "steps": [
+   "Poznamenejte si kód závady.",
+   "Vypněte sušičku a dál ji nepoužívejte.",
+   "Objednejte opravu u Miele."
+  ],
+  "technician": "Jde o technickou závadu, kterou sami neodstraníte. Objednejte technika Miele."
+ },
+ "Miele|F53": {
+  "title": "Závada hnacího motoru nebo elektroniky",
+  "causes": [
+   "Hnací motor je vadný.",
+   "Elektronický modul je vadný."
+  ],
+  "steps": [
+   "Poznamenejte si kód závady.",
+   "Vypněte sušičku a dál ji nepoužívejte.",
+   "Objednejte opravu u Miele."
+  ],
+  "technician": "Jde o technickou závadu, kterou sami neodstraníte. Objednejte technika Miele."
+ },
+ "Miele|F99": {
+  "title": "Technická závada, sušička je vyřazena z provozu",
+  "causes": [
+   "Technická závada vyřadila sušičku z provozu."
+  ],
+  "steps": [
+   "Poznamenejte si kód závady.",
+   "Vypněte sušičku a dál ji nepoužívejte.",
+   "Objednejte opravu u Miele."
+  ],
+  "technician": "Jde o technickou závadu, kterou sami neodstraníte. Objednejte technika Miele."
+ },
+ "Miele|F156": {
+  "title": "Zkrat snímače chladiva za kondenzátorem",
+  "causes": [
+   "Snímač teploty chladiva za kondenzátorem je zkratovaný."
+  ],
+  "steps": [
+   "Poznamenejte si kód závady.",
+   "Vypněte sušičku a dál ji nepoužívejte.",
+   "Objednejte opravu u Miele."
+  ],
+  "technician": "Jde o technickou závadu, kterou sami neodstraníte. Objednejte technika Miele."
+ },
+ "Miele|F206": {
+  "title": "Zkrat snímače chladiva za kompresorem",
+  "causes": [
+   "Snímač teploty chladiva za kompresorem je zkratovaný."
+  ],
+  "steps": [
+   "Poznamenejte si kód závady.",
+   "Vypněte sušičku a dál ji nepoužívejte.",
+   "Objednejte opravu u Miele."
+  ],
+  "technician": "Jde o technickou závadu, kterou sami neodstraníte. Objednejte technika Miele."
+ },
+ "Miele|F50": {
+  "title": "Přetížení nebo chyba softwaru",
+  "causes": [
+   "Buben je přeplněný.",
+   "Chyba softwaru, často krátce poté, co byla otevřena dvířka kvůli přidání prádla.",
+   "Technická závada."
+  ],
+  "steps": [
+   "Vyjměte část prádla, aby náplň odpovídala limitu programu.",
+   "Sušičku vypněte a hned znovu zapněte.",
+   "Spusťte program znovu."
+  ],
+  "technician": "Pokud se F50 stále vrací, kontaktujte zákaznický servis Miele."
+ },
+ "Miele|F55": {
+  "title": "Prádlo není suché ani po maximální době",
+  "causes": [
+   "Buben je přeplněný.",
+   "Prádlo nebylo v pračce dostatečně odstředěno.",
+   "Filtry vláken jsou znečištěné."
+  ],
+  "steps": [
+   "Snižte náplň na maximum pro daný program.",
+   "Před sušením prádlo odstřeďte při nejvyšších vhodných otáčkách.",
+   "Vyčistěte všechny filtry vláken a před nasazením je nechte úplně uschnout.",
+   "Spusťte program znovu."
+  ],
+  "technician": "Pokud závada trvá i s čistými filtry a běžnou náplní, kontaktujte zákaznický servis Miele."
+ },
+ "Miele|F66": {
+  "title": "Ucpané proudění vzduchu (filtry nebo větrání)",
+  "causes": [
+   "Filtry vláken nebo soklový filtr jsou znečištěné.",
+   "Soklový filtr je zatvrdlý, poškozený nebo zdeformovaný.",
+   "Buben je přeplněný.",
+   "Větrací mřížka je ucpaná nebo je místnost špatně větraná."
+  ],
+  "steps": [
+   "Vyčistěte filtry vláken a soklový filtr a soklový filtr vyždímejte.",
+   "Opatrně vysajte vlákna z výměníku tepla, aniž byste tlačili na lamely.",
+   "Uvolněte větrací mřížku pod dvířky.",
+   "Snižte náplň a během sušení větrejte místnost.",
+   "Poškozený soklový filtr vyměňte."
+  ],
+  "technician": "Pokud F66 nezmizí ani po důkladném vyčištění, kontaktujte zákaznický servis Miele."
+ },
+ "Miele|noC": {
+  "title": "Žádné připojení k Wi-Fi",
+  "causes": [
+   "Miele@home není nastaveno.",
+   "Sušička se nemůže připojit k vaší Wi-Fi."
+  ],
+  "steps": [
+   "Pokud jste to ještě neudělali, nastavte Miele@home.",
+   "Zkontrolujte, zda je Wi-Fi zapnutá, a restartujte router.",
+   "Pokud je signál slabý, zlepšete ho opakovačem.",
+   "Resetujte Wi-Fi sušičky a znovu ji připojte."
+  ],
+  "technician": "Jde o hlášení o připojení, ne o závadu sušičky. Pokud se po těchto krocích nepřipojí, kontaktujte Miele."
+ },
+ "AEG|E50": {
+  "title": "Motor je přetížený",
+  "causes": [
+   "Buben je přeplněný.",
+   "V bubnu je zaklíněné prádlo.",
+   "Závada motoru nebo pohonu."
+  ],
+  "steps": [
+   "Otevřete dvířka a zkontrolujte, zda něco neuvízlo.",
+   "Pokud je náplň příliš velká, vyjměte část prádla.",
+   "Zavřete dvířka a spusťte sušičku znovu.",
+   "Pokud problém trvá, vypněte napájení asi na 1 minutu a spusťte sušičku znovu."
+  ],
+  "technician": "Pokud se E50 opakovaně vrací nebo se buben neotáčí, objednejte opravu AEG."
+ },
+ "AEG|E40": {
+  "title": "Dvířka nejsou zavřená",
+  "causes": [
+   "Ve dvířkách je zachycené prádlo.",
+   "Těsnění nebo zámek dvířek je znečištěný či opotřebovaný.",
+   "Buben je přeplněný a tlačí na dvířka."
+  ],
+  "steps": [
+   "Vyjměte prádlo zachycené ve dvířkách a dvířka zavřete, až cvaknou.",
+   "Otřete těsnění dvířek vlhkým hadříkem.",
+   "Vykartáčujte vlákna ze zámku dvířek.",
+   "Snižte náplň.",
+   "Vypněte napájení na 30 sekund a spusťte sušičku znovu."
+  ],
+  "technician": "Pokud chyba trvá, může být vadný zámek nebo snímač dvířek. Objednejte servis AEG."
+ },
+ "AEG|E20": {
+  "title": "Problém s odvodem vody nebo čerpadlem",
+  "causes": [
+   "Odtoková hadice není správně připojená.",
+   "Odtoková hadice je zkroucená, ucpaná nebo tvoří smyčku."
+  ],
+  "steps": [
+   "Pokud používáte odvod do odpadu, zkontrolujte, zda je hadice správně připojená.",
+   "Odstraňte z hadice zkroucení, smyčky a ucpání.",
+   "Vypněte napájení na 30 sekund a spusťte sušičku znovu."
+  ],
+  "technician": "Pokud chyba trvá, objednejte autorizovaného technika AEG."
+ },
+ "AEG|E60": {
+  "title": "Problém s ohřevem",
+  "causes": [
+   "Sušička je vestavěná ve skříni bez větrání.",
+   "Místnost je příliš malá nebo nevětraná.",
+   "Filtr vláken, kondenzátor nebo těsnění je znečištěné.",
+   "Topné těleso je vadné."
+  ],
+  "steps": [
+   "Zajistěte, aby kolem sušičky byl volný prostor a vzduch.",
+   "Při sušení v malé místnosti otevřete okno nebo dveře.",
+   "Vyčistěte filtr vláken, kondenzátor a těsnění dvířek.",
+   "Spusťte časový program a po 30 minutách zkontrolujte, zda je teplá."
+  ],
+  "technician": "Pokud je stále studená, objednejte opravu AEG."
+ },
+ "AEG|E70": {
+  "title": "Závada snímače teploty",
+  "causes": [
+   "Snímač teploty je vadný."
+  ],
+  "steps": [
+   "Pro reset odpojte sušičku ze zásuvky na 2 hodiny.",
+   "Znovu ji zapojte a zkuste to znovu.",
+   "Pokud se kód vrátí, sušičku nepoužívejte a nechte ji odpojenou."
+  ],
+  "technician": "Kontaktujte AEG a kvůli návštěvě servisu uveďte kód."
+ },
+ "AEG|E80": {
+  "title": "Chyba voliče programů nebo softwaru",
+  "causes": [
+   "Volič programů je mezi dvěma polohami.",
+   "Chyba softwaru."
+  ],
+  "steps": [
+   "Otočte voličem tak, aby byl přesně na jednom programu.",
+   "Odpojte sušičku ze zásuvky na 30 sekund, pak ji znovu zapojte a spusťte."
+  ],
+  "technician": "Pokud E80 trvá, objednejte servisního technika AEG."
+ },
+ "AEG|EH0": {
+  "title": "Problém s napájením",
+  "causes": [
+   "Napětí je příliš nízké nebo příliš vysoké.",
+   "Napájení je nestabilní."
+  ],
+  "steps": [
+   "Vyzkoušejte zásuvku s jiným spotřebičem.",
+   "Nepoužívejte prodlužovací kabel.",
+   "Odpojte sušičku ze zásuvky na 30 sekund a spusťte ji znovu."
+  ],
+  "technician": "Pokud nefunguje i jiný spotřebič, zavolejte elektrikáře. Pokud kód hlásí jen sušička, objednejte technika AEG."
+ },
+ "AEG|EBD": {
+  "title": "Zjištěno elektrické rušení",
+  "causes": [
+   "Elektrické rušení v napájení.",
+   "Špatné uzemnění."
+  ],
+  "steps": [
+   "Vyzkoušejte sušičku v jiné, funkční zásuvce.",
+   "Ujistěte se, že zásuvka je správně uzemněná."
+  ],
+  "technician": "Pokud kód nezmizí, kontaktujte autorizované servisní středisko AEG. Elektrické opravy sami neprovádějte."
+ },
+ "AEG|CE": {
+  "title": "Závada elektroniky",
+  "causes": [
+   "Závada elektroniky sušičky."
+  ],
+  "steps": [
+   "Sušičku nepoužívejte.",
+   "Odpojte ji ze zásuvky a nechte ji odpojenou."
+  ],
+  "technician": "Objednejte autorizovaného technika AEG, aby elektroniku diagnostikoval."
+ },
+ "AEG|C8": {
+  "title": "Závada snímače teploty",
+  "causes": [
+   "Snímač teploty má problém."
+  ],
+  "steps": [
+   "Sušičku nepoužívejte.",
+   "Nechte ji odpojenou, dokud nebude zkontrolována."
+  ],
+  "technician": "Objednejte servis AEG, aby snímač zkontroloval nebo vyměnil."
+ },
+ "AEG|C6": {
+  "title": "Problém se snímačem vlhkosti",
+  "causes": [
+   "Sušička není zapojená do uzemněné zásuvky.",
+   "Systém měření vlhkosti je vadný."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je sušička zapojená do uzemněné zásuvky.",
+   "Pokud cyklus stále trvá velmi dlouho, sušičku nepoužívejte a odpojte ji ze zásuvky."
+  ],
+  "technician": "Pokud je zásuvka uzemněná a chyba trvá, objednejte opravu AEG."
+ },
+ "AEG|Err": {
+  "title": "Chyba nádržky na páru (modely Iron Aid)",
+  "causes": [
+   "V nádržce na vodu pro páru je málo vody nebo je prázdná."
+  ],
+  "steps": [
+   "Naplňte nádržku na páru po úroveň MAX.",
+   "Spusťte program znovu."
+  ],
+  "technician": "Pokud symboly po doplnění stále blikají, sušičku nepoužívejte a kontaktujte servisní středisko AEG."
+ },
+ "Hotpoint|F01": {
+  "title": "Závada řídicí desky",
+  "causes": [
+   "Závada elektronické řídicí desky."
+  ],
+  "steps": [
+   "Odpojte sušičku ze zásuvky alespoň na 2 minuty.",
+   "Znovu ji zapojte, počkejte 30 sekund a zkuste to znovu."
+  ],
+  "technician": "Pokud se F01 po resetu vrátí, zavolejte servis Hotpoint a objednejte technika."
+ },
+ "Hotpoint|F02": {
+  "title": "Závada obvodu motoru",
+  "causes": [
+   "Závada v obvodu motoru. Buben se otáčí jen občas nebo vůbec."
+  ],
+  "steps": [
+   "Vypněte sušičku a odpojte ji ze zásuvky.",
+   "Dál ji nepoužívejte."
+  ],
+  "technician": "Zavolejte servis Hotpoint a objednejte technika."
+ },
+ "Hotpoint|F03": {
+  "title": "Závada snímání teploty",
+  "causes": [
+   "Snímač teploty je vadný, proto sušička nehřeje."
+  ],
+  "steps": [
+   "Vypněte sušičku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Zavolejte servis Hotpoint a objednejte technika."
+ },
+ "Hotpoint|F05": {
+  "title": "Ucpaný odtok nebo problém s čerpadlem",
+  "causes": [
+   "Ucpaný filtr čerpadla (je-li) nebo odtoková hadice.",
+   "Ucpané odpadní potrubí.",
+   "Vadné čerpadlo."
+  ],
+  "steps": [
+   "Pokud ho váš model má, zkontrolujte a vyčistěte filtr čerpadla.",
+   "Zkontrolujte, zda odtoková hadice a odpad, ke kterému je připojená, nejsou ucpané."
+  ],
+  "technician": "Pokud je vše průchozí a závada trvá, čerpadlo může být vadné. Zavolejte servis Hotpoint."
+ },
+ "Hotpoint|F06": {
+  "title": "Závada zámku dvířek",
+  "causes": [
+   "Zámku dvířek něco překáží.",
+   "Zámek dvířek je vadný."
+  ],
+  "steps": [
+   "Zkontrolujte, zda v oblasti zámku dvířek nejsou vlákna nebo předměty, a odstraňte je.",
+   "Dvířka pevně zavřete a zkuste to znovu."
+  ],
+  "technician": "Pokud závada trvá, zavolejte servis Hotpoint."
+ },
+ "Hotpoint|F09": {
+  "title": "Chyba softwaru",
+  "causes": [
+   "Problém se softwarem. Může blikat několik kontrolek a nelze zvolit žádný program."
+  ],
+  "steps": [
+   "Odpojte sušičku na několik minut ze zásuvky a zkuste to znovu."
+  ],
+  "technician": "Zavolejte servis Hotpoint a objednejte technika."
+ },
+ "Hotpoint|F11": {
+  "title": "Závada obvodu čerpadla",
+  "causes": [
+   "Obvod čerpadla selhal, proto se voda neodčerpává."
+  ],
+  "steps": [
+   "Pokud ji váš model má, vyprázdněte nádržku na vodu.",
+   "Vypněte sušičku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Zavolejte servis Hotpoint a objednejte technika."
+ },
+ "Hotpoint|F12": {
+  "title": "Závada elektronického ovládání",
+  "causes": [
+   "Elektronické ovládání je vadné. Sušička se nemusí zapnout."
+  ],
+  "steps": [
+   "Zkontrolujte zástrčku a zásuvku.",
+   "Odpojte sušičku na několik minut ze zásuvky a zkuste to znovu."
+  ],
+  "technician": "Zavolejte servis Hotpoint a objednejte technika."
+ },
+ "Hotpoint|F18": {
+  "title": "Interní chyba dat",
+  "causes": [
+   "Poškozená interní data. Některé části displeje nebo funkce nefungují."
+  ],
+  "steps": [
+   "Odpojte sušičku ze zásuvky alespoň na 2 minuty.",
+   "Znovu ji zapojte, počkejte 30 sekund a zkuste to znovu."
+  ],
+  "technician": "Pokud F18 po resetu nezmizí, zavolejte servis Hotpoint."
+ },
+ "Indesit|F02": {
+  "title": "Závada obvodu motoru",
+  "causes": [
+   "Závada v obvodu motoru. Buben se otáčí jen občas nebo vůbec."
+  ],
+  "steps": [
+   "Vypněte sušičku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Zavolejte servis Indesit a objednejte technika."
+ },
+ "Indesit|F03": {
+  "title": "Závada snímání teploty",
+  "causes": [
+   "Snímač teploty je vadný, proto sušička nehřeje."
+  ],
+  "steps": [
+   "Vypněte sušičku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Zavolejte servis Indesit a objednejte technika."
+ },
+ "Indesit|F05": {
+  "title": "Ucpaný odtok nebo problém s čerpadlem",
+  "causes": [
+   "Ucpaný filtr čerpadla (je-li) nebo odtoková hadice.",
+   "Vadné čerpadlo."
+  ],
+  "steps": [
+   "Pokud ho váš model má, zkontrolujte a vyčistěte filtr čerpadla.",
+   "Zkontrolujte, zda odtoková hadice a odpad nejsou ucpané."
+  ],
+  "technician": "Pokud je vše průchozí a závada trvá, zavolejte servis Indesit."
+ },
+ "Indesit|F06": {
+  "title": "Závada zámku dvířek",
+  "causes": [
+   "Zámku dvířek něco překáží.",
+   "Zámek dvířek je vadný."
+  ],
+  "steps": [
+   "Zkontrolujte, zda zámku dvířek nic nepřekáží.",
+   "Dvířka pevně zavřete a zkuste to znovu."
+  ],
+  "technician": "Pokud závada trvá, zavolejte servis Indesit."
+ },
+ "Indesit|F09": {
+  "title": "Chyba softwaru",
+  "causes": [
+   "Problém se softwarem. Může blikat několik kontrolek a nelze zvolit žádný program."
+  ],
+  "steps": [
+   "Odpojte sušičku na několik minut ze zásuvky a zkuste to znovu."
+  ],
+  "technician": "Zavolejte servis Indesit a objednejte technika."
+ },
+ "Indesit|F11": {
+  "title": "Závada obvodu čerpadla",
+  "causes": [
+   "Obvod čerpadla selhal, proto se voda neodčerpává."
+  ],
+  "steps": [
+   "Pokud ji váš model má, vyprázdněte nádržku na vodu.",
+   "Vypněte sušičku a odpojte ji ze zásuvky."
+  ],
+  "technician": "Zavolejte servis Indesit a objednejte technika."
+ },
+ "Indesit|F12": {
+  "title": "Závada elektronického ovládání",
+  "causes": [
+   "Elektronické ovládání je vadné. Sušička se nemusí zapnout."
+  ],
+  "steps": [
+   "Zkontrolujte zástrčku a zásuvku.",
+   "Odpojte sušičku na několik minut ze zásuvky a zkuste to znovu."
+  ],
+  "technician": "Zavolejte servis Indesit a objednejte technika."
+ },
+ "Indesit|F18": {
+  "title": "Interní chyba dat",
+  "causes": [
+   "Poškozená interní data. Některé části displeje nebo funkce nefungují."
+  ],
+  "steps": [
+   "Odpojte sušičku ze zásuvky alespoň na 2 minuty.",
+   "Znovu ji zapojte, počkejte 30 sekund a zkuste to znovu."
+  ],
+  "technician": "Pokud F18 po resetu nezmizí, zavolejte servis Indesit."
+ },
+ "Whirlpool|AF": {
+  "title": "Omezené proudění vzduchu",
+  "causes": [
+   "Sítko na vlákna je ucpané.",
+   "Odvětrání je ucpané, zmáčknuté, zalomené nebo má příliš mnoho ohybů."
+  ],
+  "steps": [
+   "Vyčistěte sítko na vlákna.",
+   "Zkontrolujte, zda odvětrání není ucpané, zmáčknuté nebo zalomené.",
+   "Kód vymažete dotykem libovolného tlačítka."
+  ],
+  "technician": "Pokud se kód i s čistým odvětráním stále vrací, objednejte servis Whirlpool."
+ },
+ "Whirlpool|L2": {
+  "title": "Nízké nebo žádné napětí v síti",
+  "causes": [
+   "Vyhořela domácí pojistka nebo se vypnul jistič.",
+   "Napájecí kabel není správně nainstalovaný."
+  ],
+  "steps": [
+   "Zkontrolujte pojistky a jističe (elektrické sušičky používají dva) a zapněte je.",
+   "Zkontrolujte, zda je napájecí kabel nainstalovaný podle instalační příručky.",
+   "Spusťte časový cyklus s ohřevem a spusťte ho znovu."
+  ],
+  "technician": "Pokud L2 nezmizí, nechte přívod zkontrolovat kvalifikovaným elektrikářem."
+ },
+ "Whirlpool|PF": {
+  "title": "Výpadek proudu",
+  "causes": [
+   "Během cyklu byl přerušen přívod proudu."
+  ],
+  "steps": [
+   "Stiskněte a podržte Start, abyste cyklus obnovili.",
+   "Nebo stiskněte Power, abyste displej vymazali."
+  ],
+  "technician": "Nejde o závadu. Whirlpool kontaktujte jen tehdy, pokud se PF objevuje bez skutečných výpadků proudu."
+ },
+ "Whirlpool|F1E3": {
+  "title": "Problém s řídicí jednotkou nebo kabeláží",
+  "causes": [
+   "Závada řídicí jednotky nebo její kabeláže."
+  ],
+  "steps": [
+   "Stiskněte Power, zvolte cyklus a stiskněte a podržte Start.",
+   "Pokud se nespustí, odpojte sušičku ze zásuvky."
+  ],
+  "technician": "Pokud problém trvá, objednejte servis Whirlpool."
+ },
+ "Whirlpool|Loc": {
+  "title": "Zapnutý zámek ovládání",
+  "causes": [
+   "Byl zapnut zámek ovládání."
+  ],
+  "steps": [
+   "Dotkněte se tlačítka Control Lock a podržte ho 3 sekundy, dokud displej neodpočítá a nevymaže se."
+  ],
+  "technician": "Nejde o závadu. Whirlpool kontaktujte jen tehdy, pokud zámek nelze vypnout."
+ },
+ "Whirlpool|LF": {
+  "title": "Filtr vláken je vyjmutý",
+  "causes": [
+   "Filtr HybridCare není v sušičce."
+  ],
+  "steps": [
+   "Vraťte filtr zpět.",
+   "Ujistěte se, že rukojeť filtru úplně dosedla."
+  ],
+  "technician": "Pokud LF nezmizí ani s nasazeným filtrem, kontaktujte servis Whirlpool."
+ }
+}
