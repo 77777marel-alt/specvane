@@ -1,0 +1,1167 @@
+{
+ "Bosch|E16": {
+  "title": "Tür nicht geschlossen",
+  "causes": [
+   "Die Tür ist nicht ganz geschlossen.",
+   "Wäsche ist zwischen Tür und Dichtung eingeklemmt."
+  ],
+  "steps": [
+   "Öffnen Sie die Tür und prüfen Sie die Gummidichtung auf eingeklemmte Wäsche.",
+   "Drücken Sie die Tür fest zu, bis sie einrastet.",
+   "Starten Sie das Programm erneut."
+  ],
+  "technician": "Bleibt der Code bei fest geschlossener Tür, ist eventuell die Türverriegelung defekt. Vereinbaren Sie einen Termin mit dem Bosch Kundendienst."
+ },
+ "Bosch|E17": {
+  "title": "Wasserzulauf dauert zu lange",
+  "causes": [
+   "Der Wasserhahn ist zu oder nur teilweise geöffnet.",
+   "Der Zulaufschlauch ist geknickt.",
+   "Zu niedriger Wasserdruck im Haushalt."
+  ],
+  "steps": [
+   "Prüfen Sie, ob der Wasserhahn der Maschine ganz geöffnet ist.",
+   "Achten Sie darauf, dass der Zulaufschlauch nicht geknickt oder gequetscht ist.",
+   "Starten Sie das Programm neu."
+  ],
+  "technician": "Ist der Hahn offen und der Code kommt wieder, rufen Sie den Bosch Kundendienst. Das Zulaufventil oder der AquaStop-Schlauch muss eventuell geprüft werden."
+ },
+ "Bosch|E18": {
+  "title": "Wasser pumpt nicht ab",
+  "causes": [
+   "Die Laugenpumpe oder das Flusensieb ist verstopft.",
+   "Der Ablaufschlauch ist geknickt oder verstopft.",
+   "Kleine Gegenstände (Münzen, Knöpfe) stecken in der Pumpe."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus, ziehen Sie den Netzstecker und schließen Sie den Wasserhahn.",
+   "Lassen Sie heißes Wasser zuerst abkühlen.",
+   "Stellen Sie ein flaches Gefäß und Handtücher unter die Pumpenklappe, lassen Sie das Wasser über den Notentleerungsschlauch ab und reinigen Sie dann das Flusensieb.",
+   "Prüfen Sie den Ablaufschlauch auf Knicke oder Verstopfungen und legen Sie ihn gerade.",
+   "Setzen Sie das Sieb wieder fest ein, stecken Sie den Stecker ein und starten Sie ein Abpump- oder Schleuderprogramm."
+  ],
+  "technician": "Pumpt sie nach der Reinigung von Sieb und Schlauch immer noch nicht ab, ist wahrscheinlich die Laugenpumpe defekt. Rufen Sie einen Techniker."
+ },
+ "Bosch|E19": {
+  "title": "Wasser wird zu langsam aufgeheizt",
+  "causes": [
+   "Die Maschine hat die eingestellte Waschtemperatur nicht in der vorgesehenen Zeit erreicht.",
+   "Meist ein Fehler in der Heizung."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und wieder ein und starten Sie das Programm neu."
+  ],
+  "technician": "Laut Bosch kann dieser Fehler nicht selbst behoben werden. Vereinbaren Sie einen Kundendiensttermin, wenn er wieder auftritt."
+ },
+ "Bosch|E20": {
+  "title": "Heizung eingeschaltet, obwohl sie aus sein sollte",
+  "causes": [
+   "Die Maschine hat zu einem unerwarteten Zeitpunkt Heizen erkannt.",
+   "Ein Fehler in der Elektronik oder Heizungssteuerung."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie kurz den Netzstecker.",
+   "Stecken Sie den Stecker wieder ein und starten Sie das Programm neu."
+  ],
+  "technician": "Kommt der Code wieder, benutzen Sie die Maschine nicht mehr und rufen Sie den Bosch Kundendienst."
+ },
+ "Bosch|E23": {
+  "title": "AquaStop-Wasserschutz ausgelöst",
+  "causes": [
+   "Im Boden der Maschine hat sich Wasser gesammelt.",
+   "Ein Leck in der Maschine oder am AquaStop-Schlauch."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker.",
+   "Schließen Sie den Wasserhahn.",
+   "Wischen Sie Wasser vom Boden auf."
+  ],
+  "technician": "Laut Bosch kann dies nicht selbst behoben werden. Lassen Sie den Hahn geschlossen und vereinbaren Sie einen Kundendiensttermin."
+ },
+ "Bosch|E25": {
+  "title": "Fehler am Trübungssensor (Wasserklarheit)",
+  "causes": [
+   "Der Sensor, der die Verschmutzung des Wassers misst, hat ein Problem."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und wieder ein und starten Sie das Programm neu."
+  ],
+  "technician": "Kommt der Code wieder, lassen Sie den Sensor vom Bosch Kundendienst prüfen."
+ },
+ "Bosch|E26": {
+  "title": "Fehler am Wasserstandssensor (Drucksensor)",
+  "causes": [
+   "Der analoge Drucksensor, der den Wasserstand in der Trommel misst, ist defekt."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und wieder ein und starten Sie das Programm neu."
+  ],
+  "technician": "Laut Bosch ist für diesen Fehler ein Kundendiensteinsatz nötig."
+ },
+ "Bosch|F27": {
+  "title": "Fehler am Drucksensor",
+  "causes": [
+   "Der Drucksensor arbeitet nicht richtig."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und wieder ein und starten Sie das Programm neu."
+  ],
+  "technician": "Kommt der Code wieder, rufen Sie den Bosch Kundendienst."
+ },
+ "Bosch|E28": {
+  "title": "Fehler am Durchflusssensor",
+  "causes": [
+   "Der Sensor, der das zulaufende Wasser misst, meldet ein Problem."
+  ],
+  "steps": [
+   "Prüfen Sie, ob der Wasserhahn ganz geöffnet ist.",
+   "Schalten Sie die Maschine aus und wieder ein und starten Sie das Programm neu."
+  ],
+  "technician": "Kommt der Code wieder, rufen Sie den Bosch Kundendienst."
+ },
+ "Samsung|4C": {
+  "title": "Kein Wasserzulauf",
+  "causes": [
+   "Der Wasserhahn ist geschlossen.",
+   "Der Zulaufschlauch ist verstopft, geknickt oder eingefroren.",
+   "Der Wasserdruck ist zu niedrig.",
+   "Warm- und Kaltwasserschlauch sind an den falschen Hähnen angeschlossen.",
+   "Das Siebchen am Schlauchanschluss ist verschmutzt."
+  ],
+  "steps": [
+   "Öffnen Sie den Wasserhahn ganz.",
+   "Prüfen Sie den Zulaufschlauch auf Knicke, Verstopfungen oder Eis.",
+   "Prüfen Sie, ob Warm- und Kaltwasserschlauch an den richtigen Hähnen hängen.",
+   "Schließen Sie den Hahn, schrauben Sie den Schlauch ab, reinigen Sie das kleine Siebchen und setzen Sie es wieder ein.",
+   "Warten Sie 3 Minuten (nach diesem Code sind die Tasten gesperrt) und starten Sie dann neu."
+  ],
+  "technician": "Kommt bei offenem Hahn und sauberem Sieb immer noch kein Wasser, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|4C2": {
+  "title": "Zulaufwasser zu heiß",
+  "causes": [
+   "Der Kaltwasserschlauch ist an einem Warmwasserhahn angeschlossen oder nicht fest am Kaltwasserhahn angebracht."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass der Kaltwasserschlauch fest am Kaltwasserhahn sitzt.",
+   "Schalten Sie die Maschine aus und wieder ein und starten Sie neu."
+  ],
+  "technician": "Bleibt der Code trotz richtiger Anschlüsse, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|5C": {
+  "title": "Wasser pumpt nicht ab",
+  "causes": [
+   "Der Ablaufschlauch ist verstopft, geknickt oder eingefroren.",
+   "Der Ablaufschlauch ist falsch verlegt.",
+   "Das Fremdkörpersieb ist verstopft."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker.",
+   "Prüfen Sie, ob der Ablaufschlauch gerade liegt und nicht verstopft oder eingefroren ist.",
+   "Legen Sie Handtücher und eine flache Schale hin, lassen Sie das Wasser ab und reinigen Sie das Fremdkörpersieb vorne.",
+   "Setzen Sie das Sieb wieder fest ein, stecken Sie den Stecker ein und versuchen Sie Abpumpen oder Schleudern."
+  ],
+  "technician": "Pumpt sie immer noch nicht ab, ist eventuell die Laugenpumpe defekt. Wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|dC": {
+  "title": "Tür offen oder nicht richtig geschlossen",
+  "causes": [
+   "Die Maschine wurde bei offener Tür gestartet.",
+   "Wäsche ist in der Tür eingeklemmt."
+  ],
+  "steps": [
+   "Öffnen Sie die Tür und entfernen Sie Wäsche, die in der Dichtung klemmt.",
+   "Schließen Sie die Tür fest und starten Sie neu."
+  ],
+  "technician": "Bleibt der Code bei geschlossener Tür, ist eventuell die Türverriegelung defekt. Wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|dC1": {
+  "title": "Türverriegelung schließt oder öffnet nicht",
+  "causes": [
+   "Die Haupttürverriegelung funktioniert nicht wie vorgesehen."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus, warten Sie kurz und schalten Sie sie wieder ein.",
+   "Starten Sie das Programm neu."
+  ],
+  "technician": "Tritt das immer wieder auf, muss die Türverriegelung vom Kundendienst geprüft werden."
+ },
+ "Samsung|OC": {
+  "title": "Zu viel Wasser (Überlauf)",
+  "causes": [
+   "Die Maschine hat einen zu hohen Wasserstand erkannt."
+  ],
+  "steps": [
+   "Lassen Sie die Maschine fertig abpumpen und schleudern.",
+   "Starten Sie das Programm nach dem Schleudern neu.",
+   "Verwenden Sie die richtige Waschmittelmenge, damit nicht zu viel Schaum entsteht."
+  ],
+  "technician": "Kommt der Code bei jeder Wäsche, wenden Sie sich an den Samsung Kundendienst. Das Wasserventil oder der Wasserstandssensor ist eventuell defekt."
+ },
+ "Samsung|Ub": {
+  "title": "Unwucht, Schleudern nicht möglich",
+  "causes": [
+   "Die Wäsche liegt auf einer Seite der Trommel.",
+   "Nur ein einzelnes schweres Teil ist in der Trommel.",
+   "Die Maschine steht nicht waagerecht oder nicht stabil."
+  ],
+  "steps": [
+   "Unterbrechen Sie das Programm und verteilen Sie die Wäsche gleichmäßig.",
+   "Geben Sie ein paar Teile dazu, wenn Sie nur ein schweres Teil waschen.",
+   "Achten Sie darauf, dass die Maschine waagerecht auf festem Boden steht.",
+   "Starten Sie das Schleudern neu."
+  ],
+  "technician": "Tritt das bei normaler, gleichmäßiger Beladung auf, sollte die Maschine auf verschlissene Teile geprüft werden."
+ },
+ "Samsung|LC": {
+  "title": "Problem am Ablaufschlauch / Leck erkannt",
+  "causes": [
+   "Das Ende des Ablaufschlauchs liegt auf dem Boden.",
+   "Der Ablaufschlauch ist verstopft."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus.",
+   "Achten Sie darauf, dass das Schlauchende hoch liegt und nicht auf dem Boden.",
+   "Prüfen Sie den Schlauch auf Verstopfungen.",
+   "Wischen Sie Wasser auf und starten Sie neu."
+  ],
+  "technician": "Läuft weiter Wasser aus oder kommt der Code wieder, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|3C": {
+  "title": "Problem am Trommelmotor",
+  "causes": [
+   "Der Motor läuft nicht wie vorgesehen."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus, warten Sie eine Minute und schalten Sie sie wieder ein.",
+   "Prüfen Sie, ob die Beladung nicht zu groß ist, und starten Sie das Programm neu."
+  ],
+  "technician": "Kommt der Code wieder, müssen Motor oder Motorsteuerung vom Kundendienst geprüft werden."
+ },
+ "Samsung|AC": {
+  "title": "Kommunikationsfehler zwischen den Platinen",
+  "causes": [
+   "Haupt- und Nebenplatine kommunizieren nicht miteinander."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und wieder ein.",
+   "Starten Sie das Programm neu."
+  ],
+  "technician": "Kommt der Code immer wieder, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|HC": {
+  "title": "Fehler an der Heizung (zu heiß)",
+  "causes": [
+   "Die Maschine hat ein Heizproblem mit zu hoher Temperatur erkannt."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und wieder ein.",
+   "Starten Sie das Programm neu."
+  ],
+  "technician": "Kommt der Code wieder, nutzen Sie keine heißen Programme mehr und wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|1C": {
+  "title": "Fehler am Wasserstandssensor",
+  "causes": [
+   "Der Sensor, der den Wasserstand misst, arbeitet nicht richtig."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und wieder ein.",
+   "Starten Sie das Programm neu."
+  ],
+  "technician": "Kommt der Code wieder, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|UC": {
+  "title": "Problem mit der Stromversorgung (Spannung zu niedrig oder instabil)",
+  "causes": [
+   "Niedrige oder schwankende Netzspannung.",
+   "Ein kurzer Stromausfall.",
+   "Lockerer Stecker oder lockeres Verlängerungskabel."
+  ],
+  "steps": [
+   "Prüfen Sie, ob der Stecker fest in der Wandsteckdose steckt.",
+   "Verwenden Sie keine Verlängerungskabel und Adapter.",
+   "Warten Sie, bis die Stromversorgung stabil ist, und starten Sie dann neu."
+  ],
+  "technician": "Passiert das häufig, lassen Sie die Stromversorgung von einem Elektriker prüfen. Ist die Versorgung in Ordnung, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|8C": {
+  "title": "Fehler am Vibrationssensor",
+  "causes": [
+   "Der Sensor, der Unwucht erkennt, arbeitet nicht richtig."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und wieder ein.",
+   "Starten Sie das Programm neu."
+  ],
+  "technician": "Kommt der Code wieder, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|ddC": {
+  "title": "Add Door geöffnet, ohne neu zu starten",
+  "causes": [
+   "Die kleine Add Door (AddWash) wurde geöffnet und die Maschine wartet."
+  ],
+  "steps": [
+   "Schließen Sie die Add Door richtig.",
+   "Halten Sie Start/Pause gedrückt, um fortzufahren."
+  ],
+  "technician": "Normalerweise nicht nötig. Bleibt die Add Door nicht geschlossen, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "LG|OE": {
+  "title": "Wasser pumpt nicht ab",
+  "causes": [
+   "Der Ablaufschlauch ist geknickt oder verstopft.",
+   "Das Sieb der Laugenpumpe ist verstopft.",
+   "Zu viel Schaum durch zu viel Waschmittel."
+  ],
+  "steps": [
+   "Prüfen Sie den Ablaufschlauch hinter der Maschine und beseitigen Sie Knicke.",
+   "Starten Sie ein reines Schleuderprogramm und hören Sie, ob die Pumpe brummt.",
+   "Ziehen Sie den Netzstecker. Stellen Sie ein Gefäß unter die Pumpenabdeckung, lassen Sie das Wasser über den kleinen Ablassschlauch ab und reinigen Sie dann das Pumpensieb.",
+   "Verschließen Sie den Ablassschlauch fest und setzen Sie das Sieb wieder ein.",
+   "Verwenden Sie beim nächsten Mal weniger Waschmittel und starten Sie Tub Clean."
+  ],
+  "technician": "Kommt der Code nach der Reinigung von Sieb und Schlauch wieder, fordern Sie den LG Kundendienst an. Die Pumpe ist eventuell defekt."
+ },
+ "LG|IE": {
+  "title": "Wasser läuft nicht rechtzeitig ein",
+  "causes": [
+   "Der Hahn ist zu oder das Wasser ist abgestellt.",
+   "Der Zulaufschlauch ist geknickt oder nicht angeschlossen.",
+   "Das Zulaufsieb ist verstopft.",
+   "Bei Kälte eingefrorene Leitungen oder Schläuche."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass der Hahn ganz offen und der Schlauch angeschlossen ist.",
+   "Legen Sie geknickte oder gequetschte Schläuche gerade.",
+   "Schließen Sie den Hahn, nehmen Sie den Schlauch ab, reinigen Sie das Zulaufsieb und schließen Sie alles wieder an.",
+   "Tauen Sie Hahn und Schlauch bei Frost mit warmem (nicht kochendem) Wasser auf."
+  ],
+  "technician": "Fließt immer noch kein Wasser, ist eventuell das Zulaufventil defekt. Fordern Sie den Kundendienst an."
+ },
+ "LG|UE": {
+  "title": "Unwucht",
+  "causes": [
+   "Die Wäsche liegt auf einer Seite.",
+   "Zu viel oder zu wenig Wäsche.",
+   "Sperrige oder wasserdichte Teile.",
+   "Die Waschmaschine steht nicht waagerecht."
+  ],
+  "steps": [
+   "Unterbrechen Sie das Programm und verteilen Sie die Wäsche gleichmäßig.",
+   "Füllen Sie die Trommel etwa zu zwei Dritteln.",
+   "Waschen Sie sperrige Teile wie Bettdecken im passenden Programm mit mittlerer Schleuderdrehzahl.",
+   "Richten Sie die Maschine über die Füße waagerecht aus."
+  ],
+  "technician": "Tritt das bei normaler, gleichmäßiger Beladung auf ebenem Boden auf, fordern Sie den Kundendienst an."
+ },
+ "LG|LE": {
+  "title": "Motor blockiert, Trommel dreht sich nicht",
+  "causes": [
+   "Die Waschmaschine ist überladen.",
+   "Eine Münze oder ein kleiner Gegenstand blockiert die Trommel."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker und warten Sie 5 Minuten.",
+   "Nehmen Sie etwas Wäsche heraus, um die Beladung zu verringern.",
+   "Prüfen Sie bei ausgeschaltetem Strom die Trommel auf Münzen oder kleine Gegenstände und entfernen Sie diese.",
+   "Stecken Sie den Stecker ein und versuchen Sie es erneut."
+  ],
+  "technician": "Wird LE weiter angezeigt, ziehen Sie den Netzstecker und wenden Sie sich an den LG Kundendienst."
+ },
+ "LG|dE": {
+  "title": "Tür nicht geschlossen",
+  "causes": [
+   "Wäsche ist zwischen Tür und Dichtung eingeklemmt.",
+   "Die Tür ist nicht ganz geschlossen."
+  ],
+  "steps": [
+   "Öffnen Sie die Tür, befreien Sie eingeklemmte Wäsche und schließen Sie die Tür fest.",
+   "Zurücksetzen: Ziehen Sie den Netzstecker, halten Sie Start/Pause 5 Sekunden gedrückt, stecken Sie den Stecker wieder ein und versuchen Sie es erneut."
+  ],
+  "technician": "Bleibt der Code, fordern Sie den LG Kundendienst an."
+ },
+ "LG|dE2": {
+  "title": "Tür geschlossen, aber nicht verriegelt",
+  "causes": [
+   "Die Trommel ist überladen.",
+   "Etwas klemmt in der Türdichtung.",
+   "Der Türhaken ist verbogen oder gebrochen."
+  ],
+  "steps": [
+   "Entfernen Sie alles, was die Tür blockiert, und verringern Sie bei Bedarf die Beladung.",
+   "Öffnen und schließen Sie die Tür erneut.",
+   "Setzen Sie die Maschine zurück, indem Sie kurz den Netzstecker ziehen."
+  ],
+  "technician": "Verriegelt die Tür immer noch nicht, müssen Türhaken oder Türverriegelung repariert werden. Fordern Sie den Kundendienst an."
+ },
+ "LG|CE": {
+  "title": "Überstrom am Motor",
+  "causes": [
+   "Zu viel Strom im Motorkreis, zum Beispiel durch Kurzschluss, lockere Verbindung oder Überspannung."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 10 Sekunden.",
+   "Stecken Sie ihn wieder ein und starten Sie ein Programm."
+  ],
+  "technician": "Kommt CE wieder, schließen Sie den Hahn, ziehen Sie den Netzstecker und lassen Sie die Maschine reparieren."
+ },
+ "LG|FE": {
+  "title": "Zu viel Wasser (Überfüllung)",
+  "causes": [
+   "Es läuft zusätzliches Wasser ein, zum Beispiel über die Waschmittelschublade."
+  ],
+  "steps": [
+   "Prüfen Sie, ob Wasser durch die Waschmittelschublade läuft.",
+   "Ziehen Sie den Netzstecker für 60 Sekunden und starten Sie neu.",
+   "Starten Sie ein kurzes Programm und prüfen Sie, ob abgepumpt wird."
+  ],
+  "technician": "Bleibt FE, müssen Wasserventil oder Sensor geprüft werden. Fordern Sie den Kundendienst an."
+ },
+ "LG|PE": {
+  "title": "Fehler am Wasserstandssensor",
+  "causes": [
+   "Der Wasserstandssensor arbeitet nicht richtig."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 10 Sekunden.",
+   "Stecken Sie ihn wieder ein und starten Sie das Programm neu."
+  ],
+  "technician": "Kommt PE wieder, lassen Sie die Maschine reparieren."
+ },
+ "LG|AE": {
+  "title": "Leck in der Waschmaschine erkannt",
+  "causes": [
+   "In der Maschine läuft Wasser aus.",
+   "Ein beschädigter oder lockerer Zulaufschlauch.",
+   "Ein defekter Leckage-Sicherheitsschalter."
+  ],
+  "steps": [
+   "Prüfen Sie den Zulaufschlauch auf Risse oder lockere Anschlüsse.",
+   "Ziehen Sie den Netzstecker für 60 Sekunden und starten Sie neu."
+  ],
+  "technician": "Bleibt AE, schließen Sie den Hahn und vereinbaren Sie einen Kundendiensttermin."
+ },
+ "LG|tE": {
+  "title": "Fehler an Heizung / Temperatursensor",
+  "causes": [
+   "Meist ein defekter Temperatursensor (Thermistor)."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 10 Sekunden und stecken Sie ihn dann wieder ein.",
+   "Wählen Sie „ohne Schleudern“, um das Wasser abzupumpen, und starten Sie das Programm dann neu."
+  ],
+  "technician": "Kommt tE wieder, schließen Sie die Hähne, ziehen Sie den Netzstecker und lassen Sie die Maschine vom Kundendienst prüfen."
+ },
+ "LG|Sud": {
+  "title": "Zu viel Schaum",
+  "causes": [
+   "Zu viel Waschmittel.",
+   "Kein HE-Waschmittel oder falsches Waschmittel verwendet."
+  ],
+  "steps": [
+   "Lassen Sie die Maschine ihren Schaumabbau beenden.",
+   "Verwenden Sie beim nächsten Mal weniger Waschmittel und nur HE-Waschmittel (High Efficiency).",
+   "Geben Sie Pulver oder Pods dorthin, wo es die Anleitung vorgibt, nicht in das Fach für Flüssigwaschmittel."
+  ],
+  "technician": "Meist nicht nötig. Erscheint der Code bei sehr wenig Waschmittel, fordern Sie den Kundendienst an."
+ },
+ "LG|PF": {
+  "title": "Stromausfall während des Programms",
+  "causes": [
+   "Der Strom ist während des Waschgangs ausgefallen."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker oder schalten Sie die Sicherung aus.",
+   "Halten Sie bei gezogenem Stecker Start/Pause 5 Sekunden gedrückt.",
+   "Stellen Sie die Stromversorgung wieder her und starten Sie ein Programm."
+  ],
+  "technician": "Erscheint PF ohne Stromausfälle immer wieder, lassen Sie die Maschine reparieren."
+ },
+ "LG|FF": {
+  "title": "Eingefrorenes Wasser in der Waschmaschine",
+  "causes": [
+   "Die Temperatur ist unter den Gefrierpunkt gefallen und Wasser in den Schläuchen oder im Laugenbehälter ist gefroren."
+  ],
+  "steps": [
+   "Nehmen Sie die Wäsche heraus.",
+   "Gießen Sie warmes Wasser (etwa 50–60°C, niemals kochend) in die Trommel und warten Sie 1–2 Stunden.",
+   "Lassen Sie das Wasser über den Ablassschlauch ab und verschließen Sie ihn wieder.",
+   "Tauen Sie gefrorene Zulaufschläuche in warmem Wasser auf, schließen Sie sie wieder an und starten Sie einen Spülgang."
+  ],
+  "technician": "Erscheint FF, obwohl es nicht kalt ist, fordern Sie den Kundendienst an."
+ },
+ "Siemens|E16": {
+  "title": "Tür nicht verriegelt",
+  "causes": [
+   "Wäsche ist in der Tür eingeklemmt.",
+   "Die Tür ist nicht richtig geschlossen."
+  ],
+  "steps": [
+   "Öffnen Sie die Tür und schließen Sie sie wieder fest.",
+   "Nehmen Sie bei Bedarf ein paar Teile heraus und drücken Sie die Tür zu.",
+   "Drücken Sie erneut Start oder schalten Sie aus und wieder ein und starten Sie neu."
+  ],
+  "technician": "Verriegelt die Tür nicht, rufen Sie den Siemens Kundendienst."
+ },
+ "Siemens|E17": {
+  "title": "Wasserzulauf dauert zu lange",
+  "causes": [
+   "Niedriger Wasserdruck.",
+   "Ein verstopftes Sieb im Zulaufschlauch.",
+   "Ein verstopfter AquaStop-Schlauch."
+  ],
+  "steps": [
+   "Prüfen Sie, ob der Hahn ganz geöffnet ist.",
+   "Prüfen Sie den Durchfluss: Ein ganz geöffneter Hahn sollte etwa 10 Liter pro Minute liefern.",
+   "Schließen Sie den Hahn und reinigen Sie das Sieb im Zulaufschlauch.",
+   "Achten Sie darauf, dass der Schlauch nicht geknickt ist."
+  ],
+  "technician": "Ist der Druck zu niedrig, rufen Sie einen Installateur. Ist die Versorgung in Ordnung, rufen Sie den Siemens Kundendienst."
+ },
+ "Siemens|E18": {
+  "title": "Wasser pumpt nicht ab",
+  "causes": [
+   "Das Pumpensieb ist verstopft.",
+   "Der Ablaufschlauch ist verstopft oder geknickt."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker. Lassen Sie heißes Wasser abkühlen.",
+   "Legen Sie Handtücher und ein flaches Gefäß unter die Siebklappe und lassen Sie das Wasser ab.",
+   "Reinigen Sie das Pumpensieb und setzen Sie es wieder fest ein.",
+   "Legen Sie den Ablaufschlauch gerade und prüfen Sie ihn auf Verstopfungen."
+  ],
+  "technician": "Pumpt sie immer noch nicht ab, rufen Sie den Siemens Kundendienst."
+ },
+ "Siemens|E19": {
+  "title": "Wasser wird zu langsam aufgeheizt",
+  "causes": [
+   "Ein Fehler in der Heizung."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und wieder ein und starten Sie neu."
+  ],
+  "technician": "Laut Siemens kann dies nicht selbst behoben werden. Vereinbaren Sie einen Kundendiensttermin."
+ },
+ "Siemens|E20": {
+  "title": "Unerwartetes Heizen",
+  "causes": [
+   "Es wurde Heizen erkannt, obwohl die Heizung aus sein sollte."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und wieder ein."
+  ],
+  "technician": "Bleibt der Fehler, vereinbaren Sie einen Termin mit dem Siemens Kundendienst."
+ },
+ "Siemens|E23": {
+  "title": "Leck – Wasser in der Bodenwanne",
+  "causes": [
+   "Die Maschine ist undicht oder in der Bodenwanne hat sich Wasser gesammelt."
+  ],
+  "steps": [
+   "Drehen Sie sofort den Wasserhahn zu.",
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker.",
+   "Wischen Sie Wasser vom Boden auf."
+  ],
+  "technician": "Rufen Sie den Siemens Kundendienst, um das Leck finden und beheben zu lassen."
+ },
+ "Siemens|E25": {
+  "title": "Fehler am Trübungssensor",
+  "causes": [
+   "Der Sensor für die Wasserklarheit ist defekt."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und wieder ein."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit dem Siemens Kundendienst."
+ },
+ "Siemens|E26": {
+  "title": "Fehler am Wasserstandssensor",
+  "causes": [
+   "Der analoge Drucksensor ist defekt."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und wieder ein."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit dem Siemens Kundendienst."
+ },
+ "Siemens|E29": {
+  "title": "Problem beim Wasserzulauf",
+  "causes": [
+   "Niedriger Wasserdruck oder ein verstopftes Zulaufsieb bzw. AquaStop-Schlauch."
+  ],
+  "steps": [
+   "Prüfen Sie, ob der Hahn ganz geöffnet ist und etwa 10 Liter pro Minute durchfließen.",
+   "Schließen Sie den Hahn und reinigen Sie das Sieb im Zulaufschlauch.",
+   "Achten Sie darauf, dass der Schlauch nicht geknickt ist."
+  ],
+  "technician": "Ist die Versorgung in Ordnung und der Code kommt wieder, rufen Sie den Siemens Kundendienst."
+ },
+ "Siemens|E32": {
+  "title": "Unwucht – Schleudern abgebrochen",
+  "causes": [
+   "Die Wäsche ist ungleichmäßig in der Trommel verteilt. Das ist kein Defekt."
+  ],
+  "steps": [
+   "Verteilen Sie große und kleine Teile gleichmäßig in der Trommel.",
+   "Starten Sie das Schleudern erneut."
+  ],
+  "technician": "Nicht nötig, außer es passiert bei jeder normalen Beladung."
+ },
+ "Siemens|E33": {
+  "title": "Zu viel Schaum",
+  "causes": [
+   "Zu viel Waschmittel, besonders bei weichem Wasser oder leicht verschmutzter Wäsche."
+  ],
+  "steps": [
+   "Verwenden Sie beim nächsten Mal weniger Waschmittel.",
+   "Starten Sie einen Spülgang, um den Schaum zu entfernen."
+  ],
+  "technician": "Meist nicht nötig."
+ },
+ "Siemens|E34": {
+  "title": "Tür nicht verriegelt",
+  "causes": [
+   "Die Tür ist nicht ganz geschlossen, oft wegen einer sehr vollen Trommel.",
+   "Ein Teil klemmt zwischen Tür und Gehäuse."
+  ],
+  "steps": [
+   "Prüfen Sie, ob Wäsche in der Tür eingeklemmt ist.",
+   "Schließen Sie die Tür, bis sie einrastet.",
+   "Starten Sie das Programm neu."
+  ],
+  "technician": "Verriegelt die Tür immer noch nicht, rufen Sie den Siemens Kundendienst."
+ },
+ "AEG|E10": {
+  "title": "Problem mit dem Wasserzulauf",
+  "causes": [
+   "Der Wasserzulauf ist eingeschränkt oder unterbrochen, zum Beispiel durch einen geschlossenen Hahn oder einen geknickten Schlauch."
+  ],
+  "steps": [
+   "Prüfen Sie, ob der Wasserhahn ganz geöffnet ist.",
+   "Achten Sie darauf, dass der Zulaufschlauch nicht geknickt oder gequetscht ist.",
+   "Zurücksetzen: Schalten Sie die Steckdose etwa eine Minute aus, dann wieder ein und starten Sie neu."
+  ],
+  "technician": "Kommt der Code sofort wieder oder läuft immer noch kein Wasser ein, lassen Sie die Maschine reparieren."
+ },
+ "AEG|E20": {
+  "title": "Problem beim Abpumpen",
+  "causes": [
+   "Verstopftes Sieb der Laugenpumpe oder verstopfter Ablaufschlauch."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker. Lassen Sie heißes Wasser abkühlen.",
+   "Lassen Sie das Wasser in ein Gefäß ab und reinigen Sie das Sieb der Laugenpumpe.",
+   "Prüfen Sie, ob der Ablaufschlauch nicht geknickt oder verstopft ist.",
+   "Stecken Sie den Stecker ein und starten Sie Abpumpen oder Schleudern."
+  ],
+  "technician": "Pumpt das Wasser immer noch nicht ab, lassen Sie die Maschine reparieren."
+ },
+ "AEG|E30": {
+  "title": "Problem am Wasserstandssensor (Drucksensor)",
+  "causes": [
+   "Der Sensor, der den Wasserstand misst, hat einen Fehler, oder zu viel Schaum verfälscht die Messung."
+  ],
+  "steps": [
+   "Schalten Sie die Steckdose etwa eine Minute aus und dann wieder ein.",
+   "Verwenden Sie die richtige Waschmittelmenge."
+  ],
+  "technician": "Kommt der Code wieder, lassen Sie die Maschine reparieren."
+ },
+ "AEG|E40": {
+  "title": "Problem mit der Türverriegelung",
+  "causes": [
+   "Die Tür ist nicht richtig geschlossen oder die Türverriegelung hat einen Fehler."
+  ],
+  "steps": [
+   "Öffnen Sie die Tür, prüfen Sie, ob nichts in der Dichtung klemmt, und schließen Sie sie fest.",
+   "Schalten Sie die Steckdose etwa eine Minute aus und starten Sie dann neu."
+  ],
+  "technician": "Verriegelt die Tür immer noch nicht, lassen Sie die Maschine reparieren."
+ },
+ "AEG|E50": {
+  "title": "Problem am Motor",
+  "causes": [
+   "Ein Fehler am Motor oder Antrieb."
+  ],
+  "steps": [
+   "Schalten Sie die Steckdose etwa eine Minute aus und starten Sie dann neu."
+  ],
+  "technician": "Dreht sich die Trommel immer noch nicht, lassen Sie die Maschine reparieren."
+ },
+ "AEG|E60": {
+  "title": "Problem an der Heizung",
+  "causes": [
+   "Ein Fehler am Heizelement oder Temperatursensor."
+  ],
+  "steps": [
+   "Schalten Sie die Steckdose etwa eine Minute aus und starten Sie dann neu."
+  ],
+  "technician": "Kommt der Code wieder, lassen Sie die Maschine reparieren."
+ },
+ "AEG|EF0": {
+  "title": "Warnung: Leck, zu viel Schaum oder Unwucht",
+  "causes": [
+   "In der Maschine läuft Wasser aus.",
+   "Zu viel Waschmittelschaum.",
+   "Eine Unwucht in der Beladung."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus, ziehen Sie den Netzstecker und prüfen Sie, ob Wasser auf dem Boden ist.",
+   "Gibt es kein Leck, verwenden Sie weniger Waschmittel und verteilen Sie die Wäsche gleichmäßig.",
+   "Starten Sie neu, wenn sich der Schaum gesetzt hat."
+  ],
+  "technician": "Sehen Sie ein Leck oder kommt der Code immer wieder, schließen Sie den Hahn und lassen Sie die Maschine reparieren."
+ },
+ "AEG|EH0": {
+  "title": "Problem mit der Stromversorgung",
+  "causes": [
+   "Die Netzspannung ist unregelmäßig oder instabil."
+  ],
+  "steps": [
+   "Stecken Sie die Maschine direkt in eine Wandsteckdose, ohne Verlängerungskabel.",
+   "Schalten Sie etwa eine Minute aus und dann wieder ein."
+  ],
+  "technician": "Passiert das immer wieder, lassen Sie die Stromversorgung von einem Elektriker prüfen."
+ },
+ "Hotpoint|F01": {
+  "title": "Fehler an der Elektronikplatine",
+  "causes": [
+   "Ein Fehler an der Steuerplatine. Einige oder alle Funktionen arbeiten nicht."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für mindestens 2 Minuten.",
+   "Stecken Sie ihn wieder ein, warten Sie 30 Sekunden und versuchen Sie es erneut."
+  ],
+  "technician": "Bleibt der Fehler, vereinbaren Sie einen Termin mit einem Hotpoint Techniker."
+ },
+ "Hotpoint|F02": {
+  "title": "Fehler im Motorkreis",
+  "causes": [
+   "Ein Fehler im Motorkreis. Die Trommel dreht sich mit Unterbrechungen oder gar nicht."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Hotpoint Techniker."
+ },
+ "Hotpoint|F03": {
+  "title": "Fehler am Temperatursensor",
+  "causes": [
+   "Der Temperaturfühlerkreis ist defekt, daher heizt die Maschine nicht."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Hotpoint Techniker."
+ },
+ "Hotpoint|F05": {
+  "title": "Ablauf verstopft oder Problem mit der Pumpe",
+  "causes": [
+   "Ein verstopftes Pumpensieb, ein verstopfter Ablaufschlauch oder verstopfte Leitungen unter der Spüle.",
+   "Eine ausgefallene Laugenpumpe."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker. Lassen Sie heißes Wasser abkühlen.",
+   "Hat Ihr Modell ein Pumpensieb, lassen Sie das Wasser in ein Gefäß ab und reinigen Sie das Sieb.",
+   "Prüfen Sie den Ablaufschlauch und das Rohr unter der Spüle auf Verstopfungen.",
+   "Stecken Sie den Stecker ein und versuchen Sie Abpumpen oder Schleudern."
+  ],
+  "technician": "Pumpt sie immer noch nicht ab, ist die Pumpe wahrscheinlich ausgefallen. Vereinbaren Sie einen Technikertermin."
+ },
+ "Hotpoint|F06": {
+  "title": "Fehler an der Türverriegelung",
+  "causes": [
+   "Die Türverriegelung ist blockiert oder defekt."
+  ],
+  "steps": [
+   "Prüfen Sie Tür und Verriegelung auf Hindernisse.",
+   "Schließen Sie die Tür fest und starten Sie neu.",
+   "Sehen Sie auf der Sicherheitshinweis-Seite von Hotpoint nach – für einige Türverriegelungen läuft ein Rückruf."
+  ],
+  "technician": "Bleibt der Fehler, vereinbaren Sie einen Technikertermin."
+ },
+ "Hotpoint|F07": {
+  "title": "Fehler an Heizkreis / Platine",
+  "causes": [
+   "Ein Fehler im Heizkreis oder an der Steuerplatine. Der Waschgang pausiert und die Pumpe läuft eventuell weiter."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Hotpoint Techniker."
+ },
+ "Hotpoint|F08": {
+  "title": "Fehler am Heizelement",
+  "causes": [
+   "Das Heizelement ist defekt, daher pausiert das Programm mitten im Waschgang."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Hotpoint Techniker."
+ },
+ "Hotpoint|F09": {
+  "title": "Softwarefehler",
+  "causes": [
+   "Ein Softwareproblem. Die Lampen blinken und es lässt sich kein Programm wählen."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Hotpoint Techniker."
+ },
+ "Hotpoint|F11": {
+  "title": "Fehler im Pumpenkreis",
+  "causes": [
+   "Ein Fehler im Pumpenkreis. Das Wasser bleibt in der Trommel."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker.",
+   "Öffnen Sie die Tür nicht, solange Wasser in der Trommel ist."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Hotpoint Techniker."
+ },
+ "Hotpoint|F12": {
+  "title": "Fehler in der Elektroniksteuerung",
+  "causes": [
+   "Ein Fehler in der Steuerung. Die Maschine lässt sich nicht einschalten."
+  ],
+  "steps": [
+   "Prüfen Sie mit einem anderen Gerät, ob Stecker und Steckdose funktionieren."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Hotpoint Techniker."
+ },
+ "Hotpoint|F15": {
+  "title": "Fehler in der Heizungssteuerung",
+  "causes": [
+   "Ein Fehler in der Heizungssteuerung. Das Wasser wird nicht warm oder der Waschgang pausiert."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Hotpoint Techniker."
+ },
+ "Hotpoint|F18": {
+  "title": "Interner Datenfehler",
+  "causes": [
+   "Ein internes Datenproblem. Einige oder alle Anzeigefunktionen arbeiten nicht."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für mindestens 2 Minuten.",
+   "Stecken Sie ihn wieder ein, warten Sie 30 Sekunden und versuchen Sie es erneut."
+  ],
+  "technician": "Bleibt der Fehler, vereinbaren Sie einen Termin mit einem Hotpoint Techniker."
+ },
+ "Indesit|F01": {
+  "title": "Fehler an der Elektronikplatine",
+  "causes": [
+   "Ein Fehler an der Steuerplatine. Einige oder alle Funktionen lassen sich nicht wählen."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für mindestens 2 Minuten.",
+   "Stecken Sie ihn wieder ein, warten Sie 30 Sekunden und versuchen Sie es erneut."
+  ],
+  "technician": "Bleibt der Fehler, vereinbaren Sie einen Termin mit einem Indesit Techniker."
+ },
+ "Indesit|F02": {
+  "title": "Fehler im Motorkreis",
+  "causes": [
+   "Ein Fehler im Motorkreis. Die Trommel dreht sich mit Unterbrechungen oder gar nicht."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Indesit Techniker."
+ },
+ "Indesit|F03": {
+  "title": "Fehler am Temperatursensor",
+  "causes": [
+   "Der Temperaturfühlerkreis ist defekt, daher heizt die Maschine nicht."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Indesit Techniker."
+ },
+ "Indesit|F05": {
+  "title": "Ablauf verstopft oder Problem mit der Pumpe",
+  "causes": [
+   "Ein verstopftes Pumpensieb, ein verstopfter Ablaufschlauch oder verstopfte Leitungen unter der Spüle.",
+   "Eine ausgefallene Laugenpumpe."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker. Lassen Sie heißes Wasser abkühlen.",
+   "Hat Ihr Modell ein Pumpensieb, lassen Sie das Wasser in ein Gefäß ab und reinigen Sie es.",
+   "Prüfen Sie den Ablaufschlauch und das Rohr unter der Spüle auf Verstopfungen.",
+   "Stecken Sie den Stecker ein und versuchen Sie Abpumpen oder Schleudern."
+  ],
+  "technician": "Pumpt sie immer noch nicht ab, ist die Pumpe wahrscheinlich ausgefallen. Vereinbaren Sie einen Technikertermin."
+ },
+ "Indesit|F06": {
+  "title": "Fehler an der Türverriegelung",
+  "causes": [
+   "Die Türverriegelung ist blockiert oder defekt."
+  ],
+  "steps": [
+   "Prüfen Sie Tür und Verriegelung auf Hindernisse.",
+   "Schließen Sie die Tür fest und starten Sie neu.",
+   "Sehen Sie im Sicherheitshinweis der Marke nach – für einige Türverriegelungen läuft ein Rückruf."
+  ],
+  "technician": "Bleibt der Fehler, vereinbaren Sie einen Technikertermin."
+ },
+ "Indesit|F07": {
+  "title": "Fehler an Heizkreis / Platine",
+  "causes": [
+   "Ein Fehler im Heizkreis oder an der Steuerplatine. Der Waschgang pausiert und die Pumpe läuft eventuell weiter."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Indesit Techniker."
+ },
+ "Indesit|F08": {
+  "title": "Fehler am Heizelement",
+  "causes": [
+   "Das Heizelement ist defekt, daher pausiert das Programm mitten im Waschgang."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Indesit Techniker."
+ },
+ "Indesit|F09": {
+  "title": "Softwarefehler",
+  "causes": [
+   "Ein Softwareproblem. Die Lampen blinken und es lässt sich kein Programm wählen."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Indesit Techniker."
+ },
+ "Indesit|F11": {
+  "title": "Fehler im Pumpenkreis",
+  "causes": [
+   "Ein Fehler im Pumpenkreis. Das Wasser bleibt in der Trommel."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker.",
+   "Öffnen Sie die Tür nicht, solange Wasser in der Trommel ist."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Indesit Techniker."
+ },
+ "Indesit|F12": {
+  "title": "Fehler in der Elektroniksteuerung",
+  "causes": [
+   "Ein Fehler in der Steuerung. Die Maschine lässt sich nicht einschalten."
+  ],
+  "steps": [
+   "Prüfen Sie mit einem anderen Gerät, ob Stecker und Steckdose funktionieren."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Indesit Techniker."
+ },
+ "Indesit|F15": {
+  "title": "Fehler in der Heizungssteuerung",
+  "causes": [
+   "Ein Fehler in der Heizungssteuerung. Das Wasser wird nicht warm oder der Waschgang pausiert."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Indesit Techniker."
+ },
+ "Indesit|F18": {
+  "title": "Interner Datenfehler",
+  "causes": [
+   "Ein internes Datenproblem. Einige oder alle Anzeigefunktionen arbeiten nicht."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für mindestens 2 Minuten.",
+   "Stecken Sie ihn wieder ein, warten Sie 30 Sekunden und versuchen Sie es erneut."
+  ],
+  "technician": "Bleibt der Fehler, vereinbaren Sie einen Termin mit einem Indesit Techniker."
+ },
+ "Beko|E5": {
+  "title": "Pumpensieb eventuell verstopft (Problem beim Abpumpen)",
+  "causes": [
+   "Das Pumpensieb ist verstopft, daher kann das Wasser nicht ablaufen."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus und ziehen Sie den Netzstecker. Lassen Sie heißes Wasser abkühlen.",
+   "Lassen Sie das restliche Wasser in ein Gefäß ab und reinigen Sie das Pumpensieb.",
+   "Setzen Sie das Sieb wieder fest ein und starten Sie einen Schleudergang."
+  ],
+  "technician": "Bleibt das Problem, rufen Sie den Beko Kundendienst."
+ },
+ "Beko|E8": {
+  "title": "Kein Wasserzulauf",
+  "causes": [
+   "Der Hahn ist zu oder das Wasser ist abgestellt.",
+   "Der Zulaufschlauch ist geknickt oder locker.",
+   "Die vordere Siebabdeckung ist nicht geschlossen und verriegelt."
+  ],
+  "steps": [
+   "Drehen Sie den Hahn auf und prüfen Sie, ob Leitungswasser da ist.",
+   "Prüfen Sie den Anschluss des Zulaufschlauchs und beseitigen Sie Knicke.",
+   "Achten Sie darauf, dass die vordere Abdeckung geschlossen und verriegelt ist.",
+   "Starten Sie die Maschine erneut."
+  ],
+  "technician": "Bleibt das Problem, rufen Sie den Beko Kundendienst."
+ },
+ "Beko|E12": {
+  "title": "Eventuell Wasser in der Maschine (Leck)",
+  "causes": [
+   "In der Maschine hat sich Wasser gesammelt, möglicherweise durch ein Leck."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker.",
+   "Wischen Sie Wasser unter der Maschine auf.",
+   "Stecken Sie den Stecker ein und starten Sie ein kurzes Programm, während Sie die Maschine beobachten."
+  ],
+  "technician": "Tritt an einem Schlauch Wasser aus oder kommt der Code wieder, schließen Sie die Hähne und rufen Sie den Beko Kundendienst."
+ },
+ "Beko|E17": {
+  "title": "Zu viel Schaum",
+  "causes": [
+   "Zu viel Waschmittel für die Beladung.",
+   "Waschmittel ins falsche Fach gegeben oder falsch gelagert."
+  ],
+  "steps": [
+   "Passen Sie die Waschmitteldosis an Beladung und Verschmutzungsgrad an.",
+   "Verwenden Sie bei sehr saugfähigen Stoffen weniger Waschmittel.",
+   "Starten Sie das Programm Drum Cleaning (oder Cotton 90°C) mit leerer Trommel."
+  ],
+  "technician": "Bleibt das Problem, rufen Sie den Beko Kundendienst."
+ },
+ "Beko|E18": {
+  "title": "Unwucht – Schleudern nicht gestartet",
+  "causes": [
+   "Zu wenig Wäsche oder Wäsche liegt auf einer Seite."
+  ],
+  "steps": [
+   "Geben Sie Teile dazu, wenn die Beladung sehr klein ist.",
+   "Verteilen Sie die Wäsche mit der Hand gleichmäßig.",
+   "Starten Sie das Schleudern erneut."
+  ],
+  "technician": "Meist nicht nötig."
+ },
+ "Beko|E27": {
+  "title": "Problem beim Abpumpen",
+  "causes": [
+   "Der Ablaufschlauch ist nicht richtig angeschlossen."
+  ],
+  "steps": [
+   "Prüfen Sie den Anschluss des Ablaufschlauchs am Abfluss.",
+   "Achten Sie darauf, dass der Schlauch nicht geknickt oder verstopft ist."
+  ],
+  "technician": "Bleibt das Problem, rufen Sie den Beko Kundendienst."
+ },
+ "Beko|E29": {
+  "title": "Selbstschutzmodus (Versorgungsproblem)",
+  "causes": [
+   "Ein Problem mit der Netzspannung oder dem Wasserdruck."
+  ],
+  "steps": [
+   "Brechen Sie das Programm ab, indem Sie den Programmwähler auf ein anderes Programm drehen.",
+   "Starten Sie das Programm erneut."
+  ],
+  "technician": "Bleibt das Problem, rufen Sie den Beko Kundendienst."
+ },
+ "Miele|F10": {
+  "title": "Wasserzulauf blockiert oder eingeschränkt",
+  "causes": [
+   "Der Absperrhahn ist geschlossen.",
+   "Das Zulaufsieb ist verschmutzt.",
+   "Der Zulaufschlauch ist geknickt.",
+   "Der Wasserdruck ist zu niedrig."
+  ],
+  "steps": [
+   "Brechen Sie das Programm ab und öffnen Sie den Hahn ganz.",
+   "Schließen Sie den Hahn, schrauben Sie den Zulaufschlauch ab, nehmen Sie das kleine Sieb heraus, reinigen Sie es und setzen Sie es wieder ein.",
+   "Schrauben Sie den Schlauch wieder an, öffnen Sie den Hahn und prüfen Sie, ob es tropft.",
+   "Beseitigen Sie Knicke im Schlauch.",
+   "Prüfen Sie den Durchfluss: In 15 Sekunden sollten mindestens 5 Liter auslaufen."
+  ],
+  "technician": "Ist der Druck zu niedrig, rufen Sie einen Installateur. Ist der Schlauch beschädigt, kann ihn der Miele Kundendienst ersetzen."
+ },
+ "Miele|F11": {
+  "title": "Ablauf eingeschränkt",
+  "causes": [
+   "Das Ende des Ablaufschlauchs liegt höher als 1 Meter.",
+   "Der Ablaufschlauch ist geknickt.",
+   "Das Laugensieb oder die Pumpe ist durch Gegenstände wie Knöpfe oder Münzen blockiert."
+  ],
+  "steps": [
+   "Schalten Sie die Maschine aus. Lassen Sie heißes Wasser abkühlen, um Verbrühungen zu vermeiden.",
+   "Senken Sie das Schlauchende auf höchstens 1 Meter ab und beseitigen Sie Knicke.",
+   "Öffnen Sie die Klappe der Laugenpumpe, stellen Sie ein Gefäß darunter und schrauben Sie das Laugensieb langsam heraus, damit das Wasser abläuft.",
+   "Reinigen Sie das Sieb, prüfen Sie, ob sich das Pumpenflügelrad frei dreht, und schrauben Sie das Sieb wieder fest ein."
+  ],
+  "technician": "Bleibt der Fehler, wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|F15": {
+  "title": "Warmwasserzulauf blockiert oder eingeschränkt",
+  "causes": [
+   "Der Warmwasserhahn ist nicht ganz geöffnet.",
+   "Das Warmwasser-Zulaufsieb ist verschmutzt.",
+   "Der Warmwasserdruck ist zu niedrig."
+  ],
+  "steps": [
+   "Öffnen Sie den Warmwasserhahn ganz und starten Sie neu.",
+   "Schließen Sie den Hahn, schrauben Sie den Warmwasserschlauch ab, reinigen Sie das kleine Sieb und setzen Sie es wieder ein.",
+   "Prüfen Sie den Durchfluss: mindestens 5 Liter in 15 Sekunden."
+  ],
+  "technician": "Ist der Druck zu niedrig und lässt sich nicht erhöhen, wenden Sie sich an einen Installateur oder den Miele Kundendienst."
+ },
+ "Miele|F20": {
+  "title": "Fehler an der Heizung",
+  "causes": [
+   "Die eingestellte Temperatur wurde nicht rechtzeitig erreicht (Thermostop).",
+   "Ein technischer Fehler in der Heizung."
+  ],
+  "steps": [
+   "Schalten Sie an der Steckdose aus und ziehen Sie den Netzstecker oder schalten Sie die Sicherung aus.",
+   "Warten Sie mindestens 2 Minuten.",
+   "Schließen Sie die Maschine wieder an, schalten Sie sie ein und starten Sie das Programm neu."
+  ],
+  "technician": "Kommt F20 wieder, wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|F34": {
+  "title": "Tür konnte nicht verriegelt werden",
+  "causes": [
+   "Die Trommel ist überladen.",
+   "Ein technischer Fehler an der Verriegelung."
+  ],
+  "steps": [
+   "Nehmen Sie etwas Wäsche heraus, damit die Beladung im zulässigen Bereich liegt.",
+   "Schalten Sie aus und wieder ein.",
+   "Ziehen Sie bei Bedarf den Netzstecker für mindestens 2 Minuten, schließen Sie die Maschine dann wieder an und schalten Sie sie ein."
+  ],
+  "technician": "Kommt der Fehler wieder, wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|F35": {
+  "title": "Tür konnte nicht entriegelt werden",
+  "causes": [
+   "Ein technischer Fehler an der Türverriegelung."
+  ],
+  "steps": [
+   "Schalten Sie an der Steckdose aus und ziehen Sie den Netzstecker oder schalten Sie die Sicherung aus.",
+   "Warten Sie mindestens 2 Minuten, schließen Sie die Maschine dann wieder an und schalten Sie sie ein."
+  ],
+  "technician": "Lässt sich die Tür immer noch nicht öffnen, wenden Sie sich an den Miele Kundendienst. Öffnen Sie die Tür nicht mit Gewalt."
+ },
+ "Miele|Waterproof system activated": {
+  "title": "Wasserschutz ausgelöst",
+  "causes": [
+   "In der Maschine wurde wegen eines Lecks Wasser erkannt."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker.",
+   "Schließen Sie den Wasserhahn.",
+   "Wischen Sie Wasser vom Boden auf.",
+   "Benutzen Sie die Maschine nicht, bis sie repariert ist."
+  ],
+  "technician": "Laut Miele muss das Leck vom Miele Kundendienst repariert werden. Versuchen Sie nicht, es selbst zu beheben."
+ }
+}

@@ -1,0 +1,1034 @@
+{
+ "Bosch|E09": {
+  "title": "Défaut de chauffage",
+  "causes": [
+   "Un défaut de la partie chauffante de la pompe de circulation (pompe à chaleur)."
+  ],
+  "steps": [
+   "Coupez le lave-vaisselle au fusible ou au disjoncteur pendant 30 secondes.",
+   "Remettez le courant et lancez un programme."
+  ],
+  "technician": "Si le code revient, appelez le service après-vente Bosch."
+ },
+ "Bosch|E12": {
+  "title": "Calcaire sur la pompe chauffante",
+  "causes": [
+   "Du calcaire s'est déposé sur la pompe à chaleur, souvent dans les régions où l'eau est dure."
+  ],
+  "steps": [
+   "Lancez un cycle de détartrage avec un détartrant pour lave-vaisselle.",
+   "Maintenez le niveau de sel régénérant si votre modèle a un adoucisseur d'eau.",
+   "Détartrez régulièrement si votre eau est dure."
+  ],
+  "technician": "Si le code persiste après le détartrage, appelez le service après-vente Bosch."
+ },
+ "Bosch|E14": {
+  "title": "Problème de remplissage d'eau (débitmètre)",
+  "causes": [
+   "Le débitmètre est en panne ou le lave-vaisselle ne se remplit pas correctement."
+  ],
+  "steps": [
+   "Vérifiez que le robinet d'eau sous l'évier est complètement ouvert.",
+   "Coupez le disjoncteur pendant 30 secondes et réessayez."
+  ],
+  "technician": "Bosch conseille de contacter le service après-vente pour ce code."
+ },
+ "Bosch|E15": {
+  "title": "Eau dans le bac du socle (protection anti-fuite activée)",
+  "causes": [
+   "De l'eau s'est accumulée dans le socle du lave-vaisselle.",
+   "Une fuite au niveau d'un tuyau, d'un joint ou d'une pièce interne.",
+   "Trop de mousse, par exemple à cause de liquide vaisselle."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle.",
+   "Fermez le robinet d'eau du lave-vaisselle.",
+   "Essuyez l'eau au sol."
+  ],
+  "technician": "Bosch conseille de couper l'eau et d'appeler le service après-vente. Une fuite cachée doit être trouvée et réparée."
+ },
+ "Bosch|E16": {
+  "title": "L'eau n'arrive peut-être pas",
+  "causes": [
+   "Le tuyau d'arrivée est plié ou endommagé."
+  ],
+  "steps": [
+   "Vérifiez que le tuyau d'arrivée n'est ni plié, ni écrasé, ni endommagé.",
+   "Vérifiez que le robinet d'eau est ouvert."
+  ],
+  "technician": "Si le code persiste, appelez le service après-vente Bosch."
+ },
+ "Bosch|E17": {
+  "title": "L'eau n'arrive peut-être pas",
+  "causes": [
+   "Le tuyau d'arrivée est plié ou endommagé."
+  ],
+  "steps": [
+   "Vérifiez que le tuyau d'arrivée n'est ni plié, ni écrasé, ni endommagé.",
+   "Vérifiez que le robinet d'eau est ouvert."
+  ],
+  "technician": "Si le code persiste, appelez le service après-vente Bosch."
+ },
+ "Bosch|E18": {
+  "title": "Niveau d'eau trop bas",
+  "causes": [
+   "Le robinet d'eau est fermé ou partiellement fermé.",
+   "Le tuyau d'arrivée est plié.",
+   "Débit d'eau faible."
+  ],
+  "steps": [
+   "Vérifiez que l'arrivée d'eau est complètement ouverte.",
+   "Vérifiez que le tuyau d'arrivée n'est ni plié ni endommagé.",
+   "Vérifiez le débit : le robinet doit fournir environ 10 litres par minute."
+  ],
+  "technician": "Si l'alimentation est correcte et que le code revient, appelez le service après-vente Bosch."
+ },
+ "Bosch|E19": {
+  "title": "Défaut du circuit du distributeur de détergent",
+  "causes": [
+   "Un défaut électrique dans le circuit du distributeur de détergent."
+  ],
+  "steps": [
+   "Coupez le disjoncteur pendant 30 secondes, puis remettez le courant."
+  ],
+  "technician": "Si le code revient, appelez le service après-vente Bosch."
+ },
+ "Bosch|E22": {
+  "title": "Filtre bouché",
+  "causes": [
+   "Des restes alimentaires bouchent le filtre."
+  ],
+  "steps": [
+   "Éteignez le lave-vaisselle.",
+   "Retirez le panier inférieur et sortez le filtre.",
+   "Rincez le filtre sous l'eau courante avec une brosse douce et un savon doux.",
+   "Remettez le filtre en place jusqu'à ce qu'il se verrouille."
+  ],
+  "technician": "En général pas nécessaire. Si le code reste affiché après le nettoyage, appelez le service après-vente Bosch."
+ },
+ "Bosch|E23": {
+  "title": "Pompe de vidange bouchée ou défectueuse",
+  "causes": [
+   "La pompe de vidange est encrassée ou en panne."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle.",
+   "Nettoyez le filtre et vérifiez qu'il n'y a pas de débris dans le puisard."
+  ],
+  "technician": "Bosch conseille d'appeler le service après-vente pour ce code."
+ },
+ "Bosch|E24": {
+  "title": "Pas de vidange – tuyau de vidange ou filtre bouché",
+  "causes": [
+   "Le tuyau de vidange est plié ou bouché.",
+   "Le filtre est bouché.",
+   "Un broyeur ou un siphon neuf a encore son bouchon d'obturation."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle.",
+   "Vérifiez que le tuyau de vidange n'est pas plié.",
+   "Nettoyez les filtres et vérifiez que le couvercle de la pompe sous le filtre est bien en place.",
+   "Si le lave-vaisselle est raccordé à un broyeur ou à un siphon neuf, vérifiez que le bouchon d'obturation a été retiré."
+  ],
+  "technician": "Si l'eau ne s'évacue toujours pas, appelez le service après-vente Bosch."
+ },
+ "Bosch|E25": {
+  "title": "Pompe de vidange bouchée ou couvercle de pompe desserré",
+  "causes": [
+   "Des éclats de verre, des pépins ou d'autres débris bloquent la pompe de vidange.",
+   "Le couvercle de la pompe est desserré ou absent."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle.",
+   "Retirez le panier inférieur et les filtres.",
+   "Retirez l'eau stagnante avec une tasse ou une éponge.",
+   "Déclipsez le couvercle blanc de la pompe (une cuillère peut aider) et retirez les débris. Attention aux éclats de verre coupants.",
+   "Remettez le couvercle jusqu'au déclic, puis remettez les filtres."
+  ],
+  "technician": "Si le code revient après le nettoyage, appelez le service après-vente Bosch."
+ },
+ "Bosch|E27": {
+  "title": "Tension secteur trop faible",
+  "causes": [
+   "La tension du réseau électrique du logement est trop faible. Le lave-vaisselle lui-même n'est pas en panne."
+  ],
+  "steps": [
+   "Coupez le disjoncteur pendant 30 secondes, puis remettez le courant."
+  ],
+  "technician": "Si cela se reproduit, faites vérifier la tension par un électricien."
+ },
+ "Siemens|E08": {
+  "title": "Niveau d'eau trop bas pendant le lavage",
+  "causes": [
+   "Des bols ou des casseroles se sont retournés et retiennent l'eau.",
+   "De la vaisselle bloque l'aspiration d'eau."
+  ],
+  "steps": [
+   "Vérifiez le chargement et placez les bols et casseroles ouverture vers le bas.",
+   "Vérifiez que rien ne bloque les bras d'aspersion ou l'aspiration."
+  ],
+  "technician": "Si cela se répète, contactez le service après-vente Siemens."
+ },
+ "Siemens|E09": {
+  "title": "Défaut du système de chauffage",
+  "causes": [
+   "Un défaut du système de chauffage."
+  ],
+  "steps": [
+   "Éteignez, attendez quelques minutes et rallumez."
+  ],
+  "technician": "Contactez le service après-vente Siemens et indiquez le code."
+ },
+ "Siemens|E12": {
+  "title": "Résistance entartrée ou encrassée",
+  "causes": [
+   "Du calcaire ou de la saleté sur la résistance."
+  ],
+  "steps": [
+   "Lancez un cycle de détartrage comme indiqué dans la notice d'utilisation.",
+   "Nettoyez les filtres."
+  ],
+  "technician": "Si le code persiste après le détartrage, contactez le service après-vente Siemens."
+ },
+ "Siemens|E14": {
+  "title": "Défaut de remplissage – protection contre l'eau active",
+  "causes": [
+   "Un problème d'alimentation en eau ou du système de remplissage."
+  ],
+  "steps": [
+   "Vérifiez que le robinet d'eau est ouvert.",
+   "Vérifiez que le tuyau d'arrivée n'est pas plié."
+  ],
+  "technician": "Si cela se répète, contactez le service après-vente Siemens."
+ },
+ "Siemens|E15": {
+  "title": "Eau dans le socle (protection contre l'eau activée)",
+  "causes": [
+   "De l'eau s'est accumulée dans le bac du socle du lave-vaisselle."
+  ],
+  "steps": [
+   "Fermez le robinet d'eau.",
+   "Éteignez le lave-vaisselle.",
+   "Essuyez l'eau au sol."
+  ],
+  "technician": "Siemens déconseille de réparer cela vous-même. Appelez le service après-vente Siemens."
+ },
+ "Siemens|E16": {
+  "title": "Défaut de remplissage ou d'arrivée d'eau",
+  "causes": [
+   "Un problème du système de remplissage ou de l'arrivée d'eau."
+  ],
+  "steps": [
+   "Fermez le robinet.",
+   "Vérifiez que le tuyau d'arrivée n'est pas plié, puis rouvrez le robinet."
+  ],
+  "technician": "Si cela arrive souvent, l'appareil doit être vu par un technicien. Contactez le service après-vente Siemens."
+ },
+ "Siemens|E18": {
+  "title": "Défaut d'arrivée d'eau",
+  "causes": [
+   "Le tuyau d'arrivée est plié.",
+   "Le robinet est fermé, bloqué ou entartré.",
+   "Le filtre d'arrivée est encrassé."
+  ],
+  "steps": [
+   "Vérifiez que le robinet est complètement ouvert.",
+   "Vérifiez que le tuyau d'arrivée n'est pas plié.",
+   "Éteignez, fermez le robinet, retirez le tuyau et nettoyez le filtre, puis remettez tout en place et vérifiez l'absence de fuite."
+  ],
+  "technician": "Si le débit d'eau est faible, appelez un plombier. Si cela se répète, contactez le service après-vente Siemens."
+ },
+ "Siemens|E22": {
+  "title": "Filtres sales ou bouchés",
+  "causes": [
+   "Des restes alimentaires encrassent le système de filtres."
+  ],
+  "steps": [
+   "Éteignez le lave-vaisselle.",
+   "Retirez les filtres et rincez-les.",
+   "Remettez les filtres correctement en place."
+  ],
+  "technician": "En général pas nécessaire."
+ },
+ "Siemens|E23": {
+  "title": "Défaut de la pompe de vidange",
+  "causes": [
+   "Un défaut de la pompe d'évacuation des eaux usées."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle."
+  ],
+  "technician": "Selon Siemens, seul son service après-vente peut réparer ce défaut. Contactez-le et indiquez le code."
+ },
+ "Siemens|E24": {
+  "title": "Pas de vidange – pompe ou tuyau probablement bouché",
+  "causes": [
+   "La pompe de vidange ou le circuit d'évacuation est bouché."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle.",
+   "Nettoyez les filtres et vérifiez qu'il n'y a pas de débris autour de la pompe.",
+   "Vérifiez que le tuyau de vidange n'est pas plié."
+  ],
+  "technician": "Si le problème persiste, fermez le robinet et appelez le service après-vente Siemens."
+ },
+ "Siemens|E25": {
+  "title": "Pompe de vidange bouchée",
+  "causes": [
+   "Des débris comme du verre ou des pépins bloquent la pompe de vidange."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle.",
+   "Retirez les filtres et enlevez l'eau stagnante.",
+   "Retirez le couvercle de la pompe et enlevez les débris avec précaution – attention aux éclats de verre coupants.",
+   "Remettez le couvercle et les filtres."
+  ],
+  "technician": "Si le problème persiste, fermez le robinet et appelez le service après-vente Siemens."
+ },
+ "Siemens|E27": {
+  "title": "Tension secteur faible",
+  "causes": [
+   "La tension d'alimentation est trop faible. L'appareil lui-même n'est pas en panne."
+  ],
+  "steps": [
+   "Éteignez et rallumez plus tard."
+  ],
+  "technician": "Faites vérifier votre alimentation par un électricien. Si cela se reproduit, contactez le service après-vente Siemens."
+ },
+ "Samsung|4C": {
+  "title": "Peu ou pas d'arrivée d'eau",
+  "causes": [
+   "La vanne d'eau est fermée.",
+   "L'alimentation en eau est coupée.",
+   "Le tuyau d'arrivée ou la vanne est gelé ou bouché."
+  ],
+  "steps": [
+   "Vérifiez que la vanne d'eau est complètement ouverte.",
+   "Vérifiez qu'il y a de l'eau aux autres robinets.",
+   "Vérifiez que le tuyau d'arrivée n'est ni plié ni bouché."
+  ],
+  "technician": "Si l'eau n'arrive toujours pas, contactez le service après-vente Samsung."
+ },
+ "Samsung|5C": {
+  "title": "L'eau ne se vidange pas",
+  "causes": [
+   "L'évacuation ou le raccordement à l'évier est bouché.",
+   "Le filtre est encrassé.",
+   "Le tuyau de vidange est plié."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle.",
+   "Nettoyez le filtre à mailles au fond de la cuve.",
+   "Vérifiez que le tuyau de vidange et le raccordement à l'évier ne sont ni pliés ni bouchés."
+  ],
+  "technician": "Si l'eau ne s'évacue toujours pas, contactez le service après-vente Samsung."
+ },
+ "Samsung|5C2": {
+  "title": "La pompe de vidange se bloque",
+  "causes": [
+   "Des débris bloquent la pompe de vidange."
+  ],
+  "steps": [
+   "Annulez le cycle pour vidanger.",
+   "Éteignez et débranchez le lave-vaisselle.",
+   "Retirez le panier inférieur et le filtre, et vérifiez qu'il n'y a pas de débris dans le puisard."
+  ],
+  "technician": "Si la pompe se bloque toujours, contactez le service après-vente Samsung."
+ },
+ "Samsung|LC": {
+  "title": "Fuite détectée",
+  "causes": [
+   "De l'eau fuit autour de la porte ou dans le socle.",
+   "Utilisation de liquide vaisselle au lieu de détergent pour lave-vaisselle.",
+   "L'évier ou le broyeur refoule."
+  ],
+  "steps": [
+   "Éteignez le lave-vaisselle.",
+   "Utilisez uniquement du détergent pour lave-vaisselle.",
+   "Nettoyez le joint de porte et le bord inférieur de la porte.",
+   "Vérifiez s'il y a de l'eau sous le lave-vaisselle et essuyez-la.",
+   "Vérifiez que l'évacuation de l'évier ne refoule pas."
+  ],
+  "technician": "Si l'eau continue de fuir, coupez l'arrivée d'eau et contactez le service après-vente Samsung."
+ },
+ "Samsung|OC": {
+  "title": "Trop-plein ou trop de mousse",
+  "causes": [
+   "Trop de mousse de détergent.",
+   "Un filtre bouché.",
+   "Le tuyau de vidange est plié."
+  ],
+  "steps": [
+   "Éteignez le lave-vaisselle.",
+   "Vérifiez que vous utilisez le bon détergent pour lave-vaisselle, en bonne quantité.",
+   "Nettoyez le filtre et retirez l'eau stagnante au fond.",
+   "Vérifiez que le tuyau de vidange n'est pas plié."
+  ],
+  "technician": "Si le lave-vaisselle continue de se remplir, coupez l'arrivée d'eau et contactez le service après-vente Samsung."
+ },
+ "Samsung|HC": {
+  "title": "Problème de chauffage (trop chaud)",
+  "causes": [
+   "L'eau d'arrivée est très chaude.",
+   "Les filtres sont sales, l'eau circule donc mal."
+  ],
+  "steps": [
+   "Éteignez pendant au moins 5 minutes.",
+   "Nettoyez les filtres.",
+   "Lancez un cycle normal avec le lave-vaisselle vide et du détergent."
+  ],
+  "technician": "Si le code revient, contactez le service après-vente Samsung."
+ },
+ "Samsung|tC": {
+  "title": "Problème de capteur de température",
+  "causes": [
+   "Le lave-vaisselle a détecté un défaut de mesure de la température."
+  ],
+  "steps": [
+   "Coupez l'alimentation à la prise ou au disjoncteur pendant au moins 5 minutes.",
+   "Rallumez et lancez un cycle Normal."
+  ],
+  "technician": "Si le code revient, contactez le service après-vente Samsung."
+ },
+ "Samsung|DC": {
+  "title": "Porte non fermée",
+  "causes": [
+   "La porte n'est pas enclenchée.",
+   "Un ustensile ou un plat dépasse et bloque la porte."
+  ],
+  "steps": [
+   "Repoussez les objets qui dépassent.",
+   "Nettoyez la zone du loquet de porte.",
+   "Fermez la porte fermement.",
+   "Éteignez pendant 30 secondes, puis rallumez."
+  ],
+  "technician": "Si la porte ne s'enclenche pas, contactez le service après-vente Samsung."
+ },
+ "Samsung|3C": {
+  "title": "La pompe de lavage ne fonctionne pas",
+  "causes": [
+   "Le lave-vaisselle se remplit mais le moteur de lavage ne démarre pas."
+  ],
+  "steps": [
+   "Éteignez pendant une minute, puis réessayez."
+  ],
+  "technician": "S'il n'y a toujours pas d'aspersion, contactez le service après-vente Samsung."
+ },
+ "Samsung|PC": {
+  "title": "Ne démarre pas avec Zone Wash ou Half Load",
+  "causes": [
+   "Un défaut lié à la fonction Zone Wash ou Half Load."
+  ],
+  "steps": [
+   "Éteignez pendant au moins 30 secondes.",
+   "Désactivez Zone Wash ou Half Load et lancez un cycle Normal."
+  ],
+  "technician": "Si le code revient, contactez le service après-vente Samsung."
+ },
+ "Samsung|9C1": {
+  "title": "Mode de protection de tension",
+  "causes": [
+   "Une micro-coupure, une surtension ou un disjoncteur déclenché."
+  ],
+  "steps": [
+   "Vérifiez la fiche et la prise.",
+   "Coupez l'alimentation à la prise ou au disjoncteur pendant au moins 1 minute, puis réessayez.",
+   "Utilisez une prise dédiée, sans rallonge ni adaptateur."
+  ],
+  "technician": "Si cela se reproduit, faites vérifier l'alimentation par un électricien."
+ },
+ "Samsung|AC": {
+  "title": "S'allume mais ne fonctionne pas",
+  "causes": [
+   "Un défaut de commande interne."
+  ],
+  "steps": [
+   "Coupez l'alimentation à la prise ou au disjoncteur.",
+   "Attendez 1 minute, rallumez et réessayez."
+  ],
+  "technician": "Si le code revient, contactez le service après-vente Samsung."
+ },
+ "Samsung|6C1": {
+  "title": "Problème du distributeur de détergent",
+  "causes": [
+   "Le moteur du distributeur ne fonctionne pas normalement.",
+   "Une pastille est coincée dans le distributeur."
+  ],
+  "steps": [
+   "Débranchez le lave-vaisselle pendant 5 minutes.",
+   "Vérifiez qu'aucune pastille n'est coincée dans le distributeur."
+  ],
+  "technician": "Si le code revient, contactez le service après-vente Samsung."
+ },
+ "LG|AE": {
+  "title": "Fuite ou trop-plein détecté",
+  "causes": [
+   "Trop d'eau est entrée, ou une fuite a été détectée.",
+   "Du liquide vaisselle a provoqué trop de mousse.",
+   "Le lave-vaisselle n'est pas de niveau."
+  ],
+  "steps": [
+   "Utilisez uniquement du détergent pour lave-vaisselle.",
+   "Placez les grandes assiettes et les casseroles ouverture vers le bas.",
+   "Vérifiez que le lave-vaisselle est de niveau."
+  ],
+  "technician": "S'il n'y a pas de fuite mais que le code reste affiché, coupez le courant et demandez l'intervention du service après-vente LG. Ne sortez pas vous-même un appareil encastré."
+ },
+ "LG|IE": {
+  "title": "Arrivée d'eau insuffisante",
+  "causes": [
+   "Eau coupée dans le logement.",
+   "Le tuyau d'arrivée est plié ou écrasé.",
+   "La vanne d'arrivée ou la vanne sous l'évier est fermée."
+  ],
+  "steps": [
+   "Vérifiez qu'il y a de l'eau aux autres robinets.",
+   "Redressez le tuyau d'arrivée et retirez ce qui appuie dessus.",
+   "Ouvrez la vanne sous l'évier, surtout après une installation ou un déménagement."
+  ],
+  "technician": "Si le problème persiste, contactez l'installateur ou le service après-vente LG."
+ },
+ "LG|OE": {
+  "title": "Pas de vidange",
+  "causes": [
+   "Le filtre est encrassé.",
+   "Le tuyau de vidange est plié ou écrasé."
+  ],
+  "steps": [
+   "Éteignez le lave-vaisselle et laissez-le refroidir 30 minutes.",
+   "Retirez le panier inférieur, dévissez le filtre et rincez-le.",
+   "Remettez le filtre en place jusqu'au déclic.",
+   "Redressez le tuyau de vidange."
+  ],
+  "technician": "Si de l'eau reste au-dessus du filtre, demandez l'intervention du service après-vente LG."
+ },
+ "LG|bE": {
+  "title": "Trop de mousse",
+  "causes": [
+   "Du liquide vaisselle a été utilisé.",
+   "Trop de détergent."
+  ],
+  "steps": [
+   "Utilisez uniquement du détergent pour lave-vaisselle, et en moindre quantité.",
+   "Essuyez la mousse et lancez un rinçage sans détergent."
+  ],
+  "technician": "Si bE s'affiche sans mousse, demandez l'intervention du service après-vente LG."
+ },
+ "LG|nE": {
+  "title": "Problème de pompe d'aspersion (Vario)",
+  "causes": [
+   "La turbine ne tourne pas normalement.",
+   "De la vaisselle touche le système d'aspersion."
+  ],
+  "steps": [
+   "Réorganisez la vaisselle pour que rien ne bloque les bras d'aspersion.",
+   "Relancez le cycle."
+  ],
+  "technician": "Si le code persiste, demandez l'intervention du service après-vente LG."
+ },
+ "LG|HE": {
+  "title": "L'eau ne chauffe pas",
+  "causes": [
+   "Un défaut de la résistance."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle."
+  ],
+  "technician": "LG conseille de demander l'intervention du service après-vente."
+ },
+ "LG|tE": {
+  "title": "Défaut du capteur de température",
+  "causes": [
+   "Mauvais contact ou capteur de température en panne."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle."
+  ],
+  "technician": "LG conseille de demander l'intervention du service après-vente."
+ },
+ "LG|LE": {
+  "title": "Défaut du moteur de lavage",
+  "causes": [
+   "Le moteur de lavage ne fonctionne pas correctement."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle."
+  ],
+  "technician": "LG conseille de demander l'intervention du service après-vente."
+ },
+ "LG|PE": {
+  "title": "Défaut du capteur de niveau d'eau (anciens modèles)",
+  "causes": [
+   "Un défaut du capteur de niveau d'eau."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle."
+  ],
+  "technician": "LG conseille de demander l'intervention du service après-vente."
+ },
+ "LG|F37": {
+  "title": "L'ouverture automatique de la porte ne fonctionne pas",
+  "causes": [
+   "Quelque chose bloque la porte.",
+   "Un défaut des pièces d'ouverture automatique."
+  ],
+  "steps": [
+   "Dégagez tout ce qui se trouve près de la porte et relancez."
+  ],
+  "technician": "Si le problème persiste, demandez l'intervention du service après-vente LG."
+ },
+ "AEG|i10": {
+  "title": "Pas de remplissage d'eau",
+  "causes": [
+   "Le robinet d'eau est fermé.",
+   "La pression d'eau est trop faible.",
+   "Le tuyau d'arrivée est plié.",
+   "Le filtre du tuyau d'arrivée est encrassé."
+  ],
+  "steps": [
+   "Ouvrez le robinet d'eau.",
+   "Vérifiez que le tuyau d'arrivée n'est ni plié ni coudé.",
+   "Éteignez et débranchez le lave-vaisselle, fermez le robinet, retirez le tuyau et nettoyez son filtre.",
+   "Revissez le tuyau à la main, ouvrez le robinet et lancez un programme."
+  ],
+  "technician": "Si le problème persiste, contactez un service après-vente agréé."
+ },
+ "AEG|i20": {
+  "title": "Pas de vidange",
+  "causes": [
+   "L'embout ou le siphon de l'évier est bouché.",
+   "Le filtre ou le puisard est encrassé.",
+   "Le tuyau de vidange est plié, trop long ou placé à la mauvaise hauteur.",
+   "Après l'installation, le bouchon d'obturation a été laissé dans le siphon."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle.",
+   "Nettoyez le filtre et le puisard.",
+   "Vérifiez que le tuyau de vidange n'est ni plié ni tordu.",
+   "Vérifiez que l'embout du siphon est dégagé (et que le bouchon d'obturation a été retiré après une nouvelle installation).",
+   "Rebranchez et lancez un programme."
+  ],
+  "technician": "Si l'eau ne s'évacue toujours pas, contactez un service après-vente agréé."
+ },
+ "AEG|i30": {
+  "title": "Fuite détectée (anti-débordement)",
+  "causes": [
+   "Le système anti-débordement a détecté de l'eau dans le socle."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle.",
+   "Fermez le robinet d'eau.",
+   "Essuyez l'eau au sol."
+  ],
+  "technician": "Faites appel à un réparateur pour trouver et réparer la fuite."
+ },
+ "AEG|i40": {
+  "title": "Problème du capteur de niveau d'eau (pressostat)",
+  "causes": [
+   "Le niveau d'eau ne peut pas être mesuré correctement."
+  ],
+  "steps": [
+   "Coupez l'alimentation à la prise pendant environ une minute, puis relancez."
+  ],
+  "technician": "Si le code revient, faites appel à un réparateur."
+ },
+ "AEG|i50": {
+  "title": "Défaut du moteur de lavage ou de la pompe de circulation",
+  "causes": [
+   "Un défaut du moteur de lavage, de la pompe de circulation ou de sa commande."
+  ],
+  "steps": [
+   "Coupez l'alimentation à la prise pendant environ une minute, puis relancez."
+  ],
+  "technician": "Si le code revient, faites appel à un réparateur."
+ },
+ "AEG|i60": {
+  "title": "Défaut de chauffage",
+  "causes": [
+   "L'eau ne chauffe pas comme prévu."
+  ],
+  "steps": [
+   "Coupez l'alimentation à la prise pendant environ une minute, puis relancez."
+  ],
+  "technician": "Si le code revient, faites appel à un réparateur."
+ },
+ "AEG|iF0": {
+  "title": "Problème de contrôle du niveau d'eau",
+  "causes": [
+   "Le niveau de remplissage est incorrect ou anormal."
+  ],
+  "steps": [
+   "Vérifiez que le robinet d'eau est complètement ouvert.",
+   "Nettoyez les filtres.",
+   "Coupez l'alimentation à la prise pendant environ une minute, puis relancez."
+  ],
+  "technician": "Si le code revient, faites appel à un réparateur."
+ },
+ "Hotpoint|F01": {
+  "title": "Débordement – sécurité anti-inondation",
+  "causes": [
+   "De l'eau dans le socle a déclenché le flotteur anti-inondation.",
+   "Une fuite ou un interrupteur à flotteur défectueux."
+  ],
+  "steps": [
+   "Éteignez puis rallumez le lave-vaisselle pour le réinitialiser.",
+   "Fermez le robinet d'eau s'il y a de l'eau au sol."
+  ],
+  "technician": "Si le défaut revient, prenez rendez-vous avec un technicien Hotpoint."
+ },
+ "Hotpoint|F02": {
+  "title": "Défaut de l'électrovanne de remplissage",
+  "causes": [
+   "L'électrovanne laisse entrer de l'eau alors qu'elle ne devrait pas, ou elle est en panne."
+  ],
+  "steps": [
+   "Vérifiez que le tuyau de vidange ne repose pas sur le sol.",
+   "Fermez le robinet d'eau si l'eau continue d'entrer."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Hotpoint."
+ },
+ "Hotpoint|F03": {
+  "title": "Défaut de vidange / vidange trop longue",
+  "causes": [
+   "Le tuyau de vidange ou la canalisation sous l'évier est bouché.",
+   "La pompe de vidange est bloquée ou défectueuse."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle.",
+   "Nettoyez les filtres.",
+   "Vérifiez que le tuyau de vidange et la canalisation sous l'évier ne sont pas bouchés."
+  ],
+  "technician": "Si le défaut persiste, prenez rendez-vous avec un technicien."
+ },
+ "Hotpoint|F04": {
+  "title": "Défaut du capteur de température",
+  "causes": [
+   "Un défaut du thermostat ou du capteur de température."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Hotpoint."
+ },
+ "Hotpoint|F06": {
+  "title": "Remplissage trop long",
+  "causes": [
+   "Le robinet est fermé ou partiellement fermé.",
+   "Pression d'eau faible.",
+   "Le tuyau d'arrivée est plié ou son filtre est encrassé."
+  ],
+  "steps": [
+   "Vérifiez que le robinet est complètement ouvert.",
+   "Vérifiez que le tuyau d'arrivée n'est ni plié ni écrasé.",
+   "Vérifiez que la pression d'eau est normale."
+  ],
+  "technician": "Si le défaut persiste, prenez rendez-vous avec un technicien."
+ },
+ "Hotpoint|F08": {
+  "title": "L'eau chauffe trop lentement",
+  "causes": [
+   "Calcaire, trop de mousse, mauvais réglage de la dureté de l'eau ou défaut de chauffage."
+  ],
+  "steps": [
+   "Vérifiez le réglage de la dureté de l'eau.",
+   "Utilisez la bonne quantité de détergent."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Hotpoint."
+ },
+ "Hotpoint|F10": {
+  "title": "Défaut de la résistance",
+  "causes": [
+   "Le circuit de chauffage est ouvert ou la résistance est en panne."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Hotpoint."
+ },
+ "Hotpoint|F11": {
+  "title": "Défaut de la pompe de lavage",
+  "causes": [
+   "La pompe de lavage est en panne, grippée ou bloquée par des débris."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle.",
+   "Nettoyez les filtres."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Hotpoint."
+ },
+ "Hotpoint|F12": {
+  "title": "La carte principale et l'affichage ne communiquent pas",
+  "causes": [
+   "Un défaut de câblage ou de l'affichage."
+  ],
+  "steps": [
+   "Débranchez le lave-vaisselle pendant 2 minutes, puis rebranchez-le et testez."
+  ],
+  "technician": "Si le problème persiste, prenez rendez-vous avec un technicien."
+ },
+ "Hotpoint|F13": {
+  "title": "Défaut de la carte principale",
+  "causes": [
+   "La carte de commande principale est en panne."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Hotpoint."
+ },
+ "Indesit|F01": {
+  "title": "Débordement – sécurité anti-inondation",
+  "causes": [
+   "De l'eau dans le socle a déclenché le système anti-inondation."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle.",
+   "Fermez le robinet d'eau et essuyez l'eau."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Indesit."
+ },
+ "Indesit|F02": {
+  "title": "Défaut de l'électrovanne de remplissage",
+  "causes": [
+   "L'électrovanne de remplissage est en panne."
+  ],
+  "steps": [
+   "Fermez le robinet d'eau si l'eau continue d'entrer.",
+   "Éteignez et débranchez le lave-vaisselle."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Indesit."
+ },
+ "Indesit|F03": {
+  "title": "Défaut de vidange / vidange trop longue",
+  "causes": [
+   "Un bouchon dans le tuyau de vidange ou la canalisation sous l'évier."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle.",
+   "Nettoyez les filtres.",
+   "Vérifiez que le tuyau de vidange et la canalisation sous l'évier ne sont pas bouchés."
+  ],
+  "technician": "Si le défaut persiste, prenez rendez-vous avec un technicien."
+ },
+ "Indesit|F04": {
+  "title": "Défaut du capteur de température",
+  "causes": [
+   "Un défaut du thermostat ou du capteur de température."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Indesit."
+ },
+ "Indesit|F06": {
+  "title": "Remplissage trop long",
+  "causes": [
+   "Le robinet n'est pas complètement ouvert.",
+   "Pression d'eau faible.",
+   "Le débit du tuyau d'arrivée est réduit."
+  ],
+  "steps": [
+   "Vérifiez que le robinet est complètement ouvert.",
+   "Vérifiez que le tuyau d'arrivée n'est ni plié ni écrasé.",
+   "Vérifiez que la pression d'eau est normale."
+  ],
+  "technician": "Si le défaut persiste, prenez rendez-vous avec un technicien."
+ },
+ "Indesit|F08": {
+  "title": "L'eau chauffe trop lentement",
+  "causes": [
+   "La température n'a pas été atteinte à temps."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Indesit."
+ },
+ "Indesit|F10": {
+  "title": "Défaut de la résistance",
+  "causes": [
+   "Un défaut de la résistance."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Indesit."
+ },
+ "Indesit|F11": {
+  "title": "Défaut de la pompe de lavage",
+  "causes": [
+   "La pompe de lavage est en panne."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Indesit."
+ },
+ "Indesit|F12": {
+  "title": "La carte principale et l'affichage ne communiquent pas",
+  "causes": [
+   "Un défaut de communication entre les cartes de commande."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Indesit."
+ },
+ "Indesit|F13": {
+  "title": "Défaut de la carte principale",
+  "causes": [
+   "La carte de commande principale est en panne."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Indesit."
+ },
+ "Beko|E:01": {
+  "title": "Débordement d'eau ou fuite",
+  "causes": [
+   "Trop d'eau entre dans le lave-vaisselle.",
+   "Une fuite à l'intérieur de l'appareil."
+  ],
+  "steps": [
+   "Laissez le lave-vaisselle effectuer sa vidange de sécurité.",
+   "Si le code disparaît, aucune action n'est nécessaire.",
+   "S'il reste affiché, éteignez, débranchez et fermez le robinet d'eau."
+  ],
+  "technician": "Si E:01 reste affiché, le défaut est permanent. Appelez le service après-vente Beko."
+ },
+ "Beko|E:02": {
+  "title": "Arrivée d'eau coupée",
+  "causes": [
+   "L'eau du réseau est coupée.",
+   "Le robinet d'arrivée est fermé."
+  ],
+  "steps": [
+   "Vérifiez que le robinet d'eau est ouvert.",
+   "Le programme attend et vérifie l'arrivée d'eau. Il reprend dès que l'eau coule."
+  ],
+  "technician": "Si l'eau est ouverte et que le code reste affiché, appelez le service après-vente Beko."
+ },
+ "Miele|F11": {
+  "title": "L'eau n'est pas évacuée",
+  "causes": [
+   "Le clapet anti-retour ou le couvercle de la pompe de vidange n'est pas bien en place.",
+   "La pompe de vidange est bloquée par des débris."
+  ],
+  "steps": [
+   "Éteignez et débranchez le lave-vaisselle.",
+   "Retirez le bras d'aspersion inférieur (s'il y en a un) et le combiné de filtres.",
+   "Retirez l'eau stagnante avec une petite tasse.",
+   "Retirez le couvercle de la pompe / le clapet anti-retour, rincez-le et enlevez les débris. Attention aux éclats de verre.",
+   "Vérifiez que la turbine de la pompe tourne à la main, remettez le couvercle jusqu'au déclic, puis remettez les filtres."
+  ],
+  "technician": "Si F11 persiste, contactez le service après-vente Miele."
+ },
+ "Miele|F12": {
+  "title": "Arrivée d'eau bloquée ou insuffisante",
+  "causes": [
+   "Le robinet d'arrêt n'est pas ouvert.",
+   "Le filtre d'arrivée est sale.",
+   "Le tuyau d'arrivée est plié.",
+   "La pression d'eau est inférieure à 0,5 bar."
+  ],
+  "steps": [
+   "Ouvrez complètement le robinet d'arrêt.",
+   "Éteignez et débranchez, fermez le robinet d'arrêt, dévissez la vanne d'arrivée et nettoyez le petit filtre. Ne plongez jamais le boîtier de la vanne dans l'eau – il contient une pièce électrique.",
+   "Remettez le filtre et la vanne, puis ouvrez lentement le robinet d'arrêt et vérifiez qu'il n'y a pas de gouttes.",
+   "Supprimez les plis du tuyau."
+  ],
+  "technician": "Si la pression est trop faible, appelez un plombier. Si le défaut persiste, contactez le service après-vente Miele."
+ },
+ "Miele|F13": {
+  "title": "Arrivée d'eau bloquée ou insuffisante",
+  "causes": [
+   "Le robinet d'arrêt est fermé.",
+   "Le filtre d'arrivée est sale.",
+   "Le tuyau d'arrivée est plié.",
+   "La pression d'eau est inférieure à 0,5 bar."
+  ],
+  "steps": [
+   "Ouvrez complètement le robinet d'arrêt.",
+   "Éteignez et débranchez, fermez le robinet d'arrêt et nettoyez le filtre d'arrivée. Ne plongez pas le boîtier de la vanne dans l'eau.",
+   "Remontez, rouvrez lentement le robinet d'arrêt et vérifiez l'absence de fuite.",
+   "Supprimez les plis du tuyau."
+  ],
+  "technician": "Si la pression est trop faible, appelez un plombier. Si le défaut persiste, contactez le service après-vente Miele."
+ },
+ "Miele|F14": {
+  "title": "Défaut de la pompe de circulation ou de l'arrivée d'eau",
+  "causes": [
+   "La pompe de circulation a séché et s'est collée après une longue période d'inutilisation.",
+   "Un défaut technique d'un pressostat."
+  ],
+  "steps": [
+   "Retirez le bras d'aspersion inférieur et le combiné de filtres.",
+   "Versez 1 litre d'eau chaude (75°C max.) avec quelques gouttes de produit de rinçage et attendez 5 minutes.",
+   "Remettez les filtres et le bras d'aspersion, puis relancez. Répétez 2 à 3 fois si nécessaire.",
+   "Sinon, éteignez, attendez quelques secondes, rallumez et relancez."
+  ],
+  "technician": "Si F14 persiste, contactez le service après-vente Miele."
+ },
+ "Miele|F15": {
+  "title": "Arrivée d'eau bloquée ou insuffisante",
+  "causes": [
+   "Le robinet d'arrêt est fermé.",
+   "Le filtre d'arrivée est sale.",
+   "Le tuyau d'arrivée est plié.",
+   "La pression d'eau est inférieure à 0,5 bar."
+  ],
+  "steps": [
+   "Ouvrez complètement le robinet d'arrêt.",
+   "Éteignez et débranchez, fermez le robinet d'arrêt et nettoyez le filtre d'arrivée. Ne plongez pas le boîtier de la vanne dans l'eau.",
+   "Remontez, rouvrez lentement le robinet d'arrêt et vérifiez l'absence de fuite.",
+   "Supprimez les plis du tuyau."
+  ],
+  "technician": "Si la pression est trop faible, appelez un plombier. Si le défaut persiste, contactez le service après-vente Miele."
+ },
+ "Miele|F18": {
+  "title": "Vanne d'arrivée d'eau défectueuse",
+  "causes": [
+   "La vanne d'arrivée d'eau est en panne."
+  ],
+  "steps": [
+   "Éteignez le lave-vaisselle et fermez le robinet d'arrêt."
+  ],
+  "technician": "Selon Miele, vous ne pouvez pas réparer cela vous-même. Prenez rendez-vous avec un technicien Miele."
+ },
+ "Miele|F24": {
+  "title": "Défaut du relais de chauffage",
+  "causes": [
+   "Un défaut de contact du relais de chauffage."
+  ],
+  "steps": [
+   "Éteignez le lave-vaisselle."
+  ],
+  "technician": "Selon Miele, vous ne pouvez pas réparer cela vous-même. Prenez rendez-vous avec un technicien Miele."
+ },
+ "Miele|F70": {
+  "title": "Système Waterproof (protection anti-fuite) activé",
+  "causes": [
+   "La protection anti-fuite s'est déclenchée. Le programme s'arrête et la pompe de vidange fonctionne."
+  ],
+  "steps": [
+   "Fermez le robinet d'arrêt.",
+   "Éteignez le lave-vaisselle et débranchez-le.",
+   "Attendez que la pompe de vidange s'arrête."
+  ],
+  "technician": "Contactez le service après-vente Miele pour trouver et corriger la cause."
+ },
+ "Miele|F78": {
+  "title": "Pompe de circulation bloquée",
+  "causes": [
+   "La pompe a séché et s'est collée après des semaines ou des mois sans utilisation, ou lors de la première utilisation.",
+   "Plus rarement, un défaut technique."
+  ],
+  "steps": [
+   "Retirez le bras d'aspersion inférieur et le combiné de filtres.",
+   "Versez 1 litre d'eau chaude (75°C max.) avec 3 à 5 gouttes de produit de rinçage et attendez 5 minutes.",
+   "Remettez les filtres bien à plat et le bras d'aspersion, puis relancez. Répétez 2 à 3 fois si nécessaire."
+  ],
+  "technician": "Si F78 persiste, contactez le service après-vente Miele."
+ }
+}

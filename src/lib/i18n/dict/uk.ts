@@ -156,7 +156,7 @@ export const uk: Dict = {
     errTitle: "Коди помилок",
     errLead: "Що означають коди помилок пральних і посудомийних машин і що можна безпечно зробити самому.",
     errBrandTitle: "{brand} {appliance}: коди помилок",
-    errCodeTitle: "{brand} {appliance}: помилка {code}",
+    errCodeTitle: "Помилка {code} — {brand}, {appliance}",
     errCauses: "Можливі причини",
     errSteps: "Що можна зробити",
     errTech: "Коли викликати майстра",

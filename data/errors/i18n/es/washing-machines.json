@@ -1,0 +1,1167 @@
+{
+ "Bosch|E16": {
+  "title": "Puerta no cerrada",
+  "causes": [
+   "La puerta no está bien cerrada.",
+   "Hay ropa atrapada entre la puerta y la goma."
+  ],
+  "steps": [
+   "Abre la puerta y revisa que no haya ropa atrapada en la goma.",
+   "Cierra bien la puerta hasta oír un clic.",
+   "Vuelve a iniciar el programa."
+  ],
+  "technician": "Si el código sigue con la puerta bien cerrada, el bloqueo de la puerta puede estar averiado. Pide una visita del servicio técnico de Bosch."
+ },
+ "Bosch|E17": {
+  "title": "La carga de agua tarda demasiado",
+  "causes": [
+   "El grifo del agua está cerrado o solo abierto en parte.",
+   "La manguera de entrada está doblada.",
+   "La presión del agua en casa es baja."
+  ],
+  "steps": [
+   "Comprueba que el grifo que alimenta la lavadora esté abierto del todo.",
+   "Asegúrate de que la manguera de entrada no esté doblada ni aplastada.",
+   "Reinicia el programa."
+  ],
+  "technician": "Si el grifo está abierto y el código vuelve a salir, llama al servicio técnico de Bosch. Puede que haya que revisar la electroválvula de entrada o la manguera AquaStop."
+ },
+ "Bosch|E18": {
+  "title": "El agua no desagua",
+  "causes": [
+   "La bomba de desagüe o el filtro de la bomba están atascados.",
+   "La manguera de desagüe está doblada o atascada.",
+   "Hay objetos pequeños (monedas, botones) atascados en la bomba."
+  ],
+  "steps": [
+   "Apaga la lavadora, desenchúfala y cierra el grifo del agua.",
+   "Si el agua está caliente, deja que se enfríe antes de empezar.",
+   "Pon un recipiente plano y unas toallas bajo la tapa de la bomba, vacía el agua con el tubo de vaciado de emergencia y luego limpia el filtro de la bomba.",
+   "Revisa que la manguera de desagüe no esté doblada ni atascada y estírala.",
+   "Vuelve a colocar bien el filtro, enchufa la lavadora y pon un programa de desagüe o centrifugado."
+  ],
+  "technician": "Si sigue sin desaguar después de limpiar el filtro y la manguera, probablemente la bomba de desagüe esté averiada. Llama a un técnico."
+ },
+ "Bosch|E19": {
+  "title": "El agua tarda demasiado en calentarse",
+  "causes": [
+   "La lavadora no ha alcanzado la temperatura de lavado elegida en el tiempo previsto.",
+   "Normalmente es una avería del sistema de calentamiento."
+  ],
+  "steps": [
+   "Apaga y vuelve a encender la lavadora, y reinicia el programa."
+  ],
+  "technician": "Según Bosch, el usuario no puede solucionar esta avería. Si vuelve a salir, pide una visita del servicio técnico."
+ },
+ "Bosch|E20": {
+  "title": "El calentamiento se ha activado cuando no debía",
+  "causes": [
+   "La lavadora ha detectado calentamiento en un momento inesperado.",
+   "Una avería electrónica o del control del calentamiento."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala un rato.",
+   "Vuelve a enchufarla y reinicia el programa."
+  ],
+  "technician": "Si el código vuelve a salir, deja de usar la lavadora y llama al servicio técnico de Bosch."
+ },
+ "Bosch|E23": {
+  "title": "Protección antifugas AquaStop activada",
+  "causes": [
+   "Se ha acumulado agua en la base de la lavadora.",
+   "Una fuga dentro de la lavadora o en la manguera AquaStop."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala.",
+   "Cierra el grifo del agua.",
+   "Seca el agua del suelo."
+  ],
+  "technician": "Según Bosch, el usuario no puede solucionar esto. Deja el grifo cerrado y pide una visita del servicio técnico."
+ },
+ "Bosch|E25": {
+  "title": "Avería del sensor de turbidez (claridad del agua)",
+  "causes": [
+   "El sensor que comprueba lo sucia que está el agua tiene un problema."
+  ],
+  "steps": [
+   "Apaga y vuelve a encender la lavadora y reinicia el programa."
+  ],
+  "technician": "Si el código vuelve a salir, llama al servicio técnico de Bosch para que revisen el sensor."
+ },
+ "Bosch|E26": {
+  "title": "Avería del sensor de nivel de agua (presostato)",
+  "causes": [
+   "El sensor de presión analógico que mide el nivel de agua en el tambor está averiado."
+  ],
+  "steps": [
+   "Apaga y vuelve a encender la lavadora y reinicia el programa."
+  ],
+  "technician": "Según Bosch, esta avería necesita una visita del servicio técnico."
+ },
+ "Bosch|F27": {
+  "title": "Avería del sensor de presión",
+  "causes": [
+   "El sensor de presión no funciona bien."
+  ],
+  "steps": [
+   "Apaga y vuelve a encender la lavadora y reinicia el programa."
+  ],
+  "technician": "Si el código vuelve a salir, llama al servicio técnico de Bosch."
+ },
+ "Bosch|E28": {
+  "title": "Avería del sensor de caudal de agua",
+  "causes": [
+   "El sensor que mide el agua que entra indica un problema."
+  ],
+  "steps": [
+   "Comprueba que el grifo del agua esté abierto del todo.",
+   "Apaga y vuelve a encender la lavadora y reinicia el programa."
+  ],
+  "technician": "Si el código vuelve a salir, llama al servicio técnico de Bosch."
+ },
+ "Samsung|4C": {
+  "title": "No entra agua",
+  "causes": [
+   "El grifo del agua está cerrado.",
+   "La manguera de entrada está atascada, doblada o congelada.",
+   "La presión del agua es demasiado baja.",
+   "Las mangueras de agua caliente y fría están conectadas a los grifos equivocados.",
+   "El filtro de malla de la entrada de la manguera está sucio."
+  ],
+  "steps": [
+   "Abre del todo el grifo del agua.",
+   "Revisa que la manguera de entrada no esté doblada, atascada ni congelada.",
+   "Comprueba que las mangueras de agua caliente y fría vayan a los grifos correctos.",
+   "Cierra el grifo, desenrosca la manguera y limpia el pequeño filtro de malla; luego vuelve a colocarlo.",
+   "Espera 3 minutos (los botones se bloquean tras este código) y vuelve a empezar."
+  ],
+  "technician": "Si sigue sin entrar agua con el grifo abierto y el filtro limpio, contacta con el servicio técnico de Samsung."
+ },
+ "Samsung|4C2": {
+  "title": "El agua de entrada está demasiado caliente",
+  "causes": [
+   "La manguera de agua fría está conectada a un grifo de agua caliente, o no está bien sujeta al grifo de agua fría."
+  ],
+  "steps": [
+   "Asegúrate de que la manguera de agua fría esté bien conectada al grifo de agua fría.",
+   "Apaga y vuelve a encender la lavadora y vuelve a empezar."
+  ],
+  "technician": "Si el código sigue con las conexiones correctas, contacta con el servicio técnico de Samsung."
+ },
+ "Samsung|5C": {
+  "title": "El agua no desagua",
+  "causes": [
+   "La manguera de desagüe está atascada, doblada o congelada.",
+   "La manguera de desagüe está mal instalada.",
+   "El filtro de residuos está atascado."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala.",
+   "Comprueba que la manguera de desagüe esté recta y no esté atascada ni congelada.",
+   "Pon toallas y una bandeja baja, vacía el agua y limpia el filtro de residuos de la parte delantera.",
+   "Vuelve a colocar bien el filtro, enchufa la lavadora y prueba un desagüe o centrifugado."
+  ],
+  "technician": "Si sigue sin desaguar, la bomba de desagüe puede estar averiada. Contacta con el servicio técnico de Samsung."
+ },
+ "Samsung|dC": {
+  "title": "Puerta abierta o mal cerrada",
+  "causes": [
+   "La lavadora se puso en marcha con la puerta abierta.",
+   "Hay ropa atrapada en la puerta."
+  ],
+  "steps": [
+   "Abre la puerta y saca la ropa atrapada en la goma.",
+   "Cierra bien la puerta y vuelve a empezar."
+  ],
+  "technician": "Si el código sigue con la puerta cerrada, el bloqueo de la puerta puede estar averiado. Contacta con el servicio técnico de Samsung."
+ },
+ "Samsung|dC1": {
+  "title": "El bloqueo de la puerta no bloquea o no desbloquea",
+  "causes": [
+   "El bloqueo principal de la puerta no funciona como debería."
+  ],
+  "steps": [
+   "Apaga la lavadora, espera un momento y vuelve a encenderla.",
+   "Reinicia el ciclo."
+  ],
+  "technician": "Si se repite, el servicio técnico tiene que revisar el bloqueo de la puerta."
+ },
+ "Samsung|OC": {
+  "title": "Demasiada agua (desbordamiento)",
+  "causes": [
+   "La lavadora ha detectado un nivel de agua demasiado alto."
+  ],
+  "steps": [
+   "Deja que la lavadora termine de desaguar y centrifugar.",
+   "Reinicia el ciclo cuando acabe el centrifugado.",
+   "Usa la cantidad correcta de detergente para evitar demasiada espuma."
+  ],
+  "technician": "Si el código vuelve a salir en cada lavado, contacta con el servicio técnico de Samsung. La electroválvula o el sensor de nivel pueden estar averiados."
+ },
+ "Samsung|Ub": {
+  "title": "Carga desequilibrada, no puede centrifugar",
+  "causes": [
+   "La ropa está amontonada en un lado del tambor.",
+   "Solo hay una prenda pesada en el tambor.",
+   "La lavadora no está nivelada o no está estable."
+  ],
+  "steps": [
+   "Pausa la lavadora y reparte la ropa de forma uniforme.",
+   "Si solo lavas una prenda pesada, añade algunas prendas más.",
+   "Asegúrate de que la lavadora esté nivelada sobre un suelo firme.",
+   "Reinicia el centrifugado."
+  ],
+  "technician": "Si pasa con cargas normales y bien repartidas, puede que haya que revisar la lavadora por piezas desgastadas."
+ },
+ "Samsung|LC": {
+  "title": "Problema en la manguera de desagüe / fuga detectada",
+  "causes": [
+   "El extremo de la manguera de desagüe está en el suelo.",
+   "La manguera de desagüe está atascada."
+  ],
+  "steps": [
+   "Apaga la lavadora.",
+   "Asegúrate de que el extremo de la manguera de desagüe esté elevado y no en el suelo.",
+   "Revisa que la manguera no esté atascada.",
+   "Seca el agua y vuelve a empezar."
+  ],
+  "technician": "Si sigue saliendo agua o el código vuelve a salir, contacta con el servicio técnico de Samsung."
+ },
+ "Samsung|3C": {
+  "title": "Problema en el motor del tambor",
+  "causes": [
+   "El motor no funciona como debería."
+  ],
+  "steps": [
+   "Apaga la lavadora, espera un minuto y vuelve a encenderla.",
+   "Comprueba que la carga no sea excesiva y reinicia el ciclo."
+  ],
+  "technician": "Si el código vuelve a salir, el servicio técnico tiene que revisar el motor o su control."
+ },
+ "Samsung|AC": {
+  "title": "Fallo de comunicación entre placas electrónicas",
+  "causes": [
+   "La placa de control principal y la secundaria no se comunican."
+  ],
+  "steps": [
+   "Apaga la lavadora y vuelve a encenderla.",
+   "Reinicia el ciclo."
+  ],
+  "technician": "Si el código sigue saliendo, contacta con el servicio técnico de Samsung."
+ },
+ "Samsung|HC": {
+  "title": "Avería del sistema de calentamiento (demasiado caliente)",
+  "causes": [
+   "La lavadora ha detectado un problema de calentamiento a alta temperatura."
+  ],
+  "steps": [
+   "Apaga y vuelve a encender la lavadora.",
+   "Reinicia el ciclo."
+  ],
+  "technician": "Si el código vuelve a salir, deja de usar programas con agua caliente y contacta con el servicio técnico de Samsung."
+ },
+ "Samsung|1C": {
+  "title": "Avería del sensor de nivel de agua",
+  "causes": [
+   "El sensor que mide el nivel de agua no funciona bien."
+  ],
+  "steps": [
+   "Apaga y vuelve a encender la lavadora.",
+   "Reinicia el ciclo."
+  ],
+  "technician": "Si el código vuelve a salir, contacta con el servicio técnico de Samsung."
+ },
+ "Samsung|UC": {
+  "title": "Problema de alimentación (tensión demasiado baja o inestable)",
+  "causes": [
+   "Tensión de red baja o inestable.",
+   "Un corte de luz breve.",
+   "Enchufe o alargador flojo."
+  ],
+  "steps": [
+   "Comprueba que el enchufe esté bien metido en la toma de pared.",
+   "Evita alargadores y adaptadores.",
+   "Espera a que la corriente se estabilice y vuelve a empezar."
+  ],
+  "technician": "Si pasa a menudo, pide a un electricista que revise la instalación. Si la instalación está bien, contacta con el servicio técnico de Samsung."
+ },
+ "Samsung|8C": {
+  "title": "Avería del sensor de vibración",
+  "causes": [
+   "El sensor que detecta el desequilibrio no funciona bien."
+  ],
+  "steps": [
+   "Apaga y vuelve a encender la lavadora.",
+   "Reinicia el ciclo."
+  ],
+  "technician": "Si el código vuelve a salir, contacta con el servicio técnico de Samsung."
+ },
+ "Samsung|ddC": {
+  "title": "Add Door abierta sin reanudar",
+  "causes": [
+   "Se ha abierto la pequeña Add Door (AddWash) y la lavadora está esperando."
+  ],
+  "steps": [
+   "Cierra bien la Add Door.",
+   "Mantén pulsado Inicio/Pausa para continuar."
+  ],
+  "technician": "Normalmente no hace falta. Si la Add Door no se queda cerrada, contacta con el servicio técnico de Samsung."
+ },
+ "LG|OE": {
+  "title": "El agua no desagua",
+  "causes": [
+   "La manguera de desagüe está doblada o atascada.",
+   "El filtro de la bomba de desagüe está atascado.",
+   "Demasiada espuma por exceso de detergente."
+  ],
+  "steps": [
+   "Revisa la manguera de desagüe detrás de la lavadora y estira cualquier doblez.",
+   "Pon un ciclo solo de centrifugado y escucha si la bomba zumba.",
+   "Desenchufa la lavadora. Pon un recipiente bajo la tapa de la bomba de desagüe, vacía el agua con el tubo de vaciado pequeño y luego limpia el filtro de la bomba.",
+   "Cierra bien el tapón del tubo de vaciado y vuelve a colocar el filtro.",
+   "La próxima vez usa menos detergente y pon Tub Clean."
+  ],
+  "technician": "Si el código vuelve a salir después de limpiar el filtro y la manguera, pide el servicio técnico de LG. La bomba puede estar averiada."
+ },
+ "LG|IE": {
+  "title": "El agua no entra a tiempo",
+  "causes": [
+   "El grifo está cerrado o no hay agua.",
+   "La manguera de entrada está doblada o desconectada.",
+   "El filtro de entrada está atascado.",
+   "Tuberías o mangueras congeladas cuando hace frío."
+  ],
+  "steps": [
+   "Asegúrate de que el grifo esté abierto del todo y la manguera conectada.",
+   "Estira la manguera si está doblada o aplastada.",
+   "Cierra el grifo, quita la manguera y limpia el filtro de entrada; luego vuelve a colocarla.",
+   "Si hiela, descongela el grifo y la manguera con agua templada (no hirviendo)."
+  ],
+  "technician": "Si sigue sin entrar agua, la electroválvula de entrada puede estar averiada. Pide el servicio técnico."
+ },
+ "LG|UE": {
+  "title": "Carga desequilibrada",
+  "causes": [
+   "La ropa se ha amontonado en un lado.",
+   "Carga demasiado grande o demasiado pequeña.",
+   "Prendas voluminosas o impermeables.",
+   "La lavadora no está nivelada."
+  ],
+  "steps": [
+   "Pausa la lavadora y reparte la ropa de forma uniforme.",
+   "Llena el tambor hasta unos dos tercios.",
+   "Lava las prendas voluminosas, como los edredones, con el programa adecuado y centrifugado medio.",
+   "Nivela la lavadora ajustando las patas."
+  ],
+  "technician": "Si pasa con cargas normales y bien repartidas sobre un suelo nivelado, pide el servicio técnico."
+ },
+ "LG|LE": {
+  "title": "Motor bloqueado, el tambor no gira",
+  "causes": [
+   "La lavadora está sobrecargada.",
+   "Una moneda o un objeto pequeño está bloqueando el tambor."
+  ],
+  "steps": [
+   "Desenchufa la lavadora y espera 5 minutos.",
+   "Saca algo de ropa para reducir la carga.",
+   "Con la corriente desconectada, revisa si hay monedas u objetos pequeños en el tambor y sácalos.",
+   "Enchufa la lavadora y vuelve a intentarlo."
+  ],
+  "technician": "Si LE sigue apareciendo, desenchufa la lavadora y contacta con el servicio técnico de LG."
+ },
+ "LG|dE": {
+  "title": "Puerta no cerrada",
+  "causes": [
+   "Hay ropa atrapada entre la puerta y la goma.",
+   "La puerta no está bien cerrada."
+  ],
+  "steps": [
+   "Abre la puerta, libera la ropa atrapada y ciérrala bien.",
+   "Reinicio: desenchufa la lavadora, mantén pulsado Inicio/Pausa 5 segundos, vuelve a enchufarla e inténtalo de nuevo."
+  ],
+  "technician": "Si el código sigue, pide el servicio técnico de LG."
+ },
+ "LG|dE2": {
+  "title": "Puerta cerrada pero no bloqueada",
+  "causes": [
+   "El tambor está sobrecargado.",
+   "Hay algo atrapado en la goma de la puerta.",
+   "El cierre de la puerta está doblado o roto."
+  ],
+  "steps": [
+   "Quita lo que bloquee la puerta y reduce la carga si hace falta.",
+   "Abre y vuelve a cerrar la puerta.",
+   "Reinicia la lavadora desenchufándola un rato."
+  ],
+  "technician": "Si el bloqueo sigue sin activarse, hay que reparar el cierre o el bloqueo de la puerta. Pide el servicio técnico."
+ },
+ "LG|CE": {
+  "title": "Sobrecorriente en el motor",
+  "causes": [
+   "Demasiada corriente en el circuito del motor, por ejemplo por un cortocircuito, una conexión floja o una subida de tensión."
+  ],
+  "steps": [
+   "Desenchufa la lavadora durante 10 segundos.",
+   "Vuelve a enchufarla y pon un ciclo."
+  ],
+  "technician": "Si CE vuelve a salir, cierra el grifo, desenchufa la lavadora y pide una reparación."
+ },
+ "LG|FE": {
+  "title": "Demasiada agua (exceso de llenado)",
+  "causes": [
+   "Está entrando agua de más, por ejemplo por el cajetín del detergente."
+  ],
+  "steps": [
+   "Comprueba si sale agua por el cajetín del detergente.",
+   "Desenchufa la lavadora 60 segundos y vuelve a empezar.",
+   "Pon un programa corto y mira si desagua."
+  ],
+  "technician": "Si FE sigue, hay que revisar la electroválvula o el sensor. Pide el servicio técnico."
+ },
+ "LG|PE": {
+  "title": "Avería del sensor de nivel de agua",
+  "causes": [
+   "El sensor de nivel de agua no funciona bien."
+  ],
+  "steps": [
+   "Desenchufa la lavadora durante 10 segundos.",
+   "Vuelve a enchufarla y reinicia el ciclo."
+  ],
+  "technician": "Si PE vuelve a salir, pide una reparación."
+ },
+ "LG|AE": {
+  "title": "Fuga detectada dentro de la lavadora",
+  "causes": [
+   "Fuga de agua dentro de la lavadora.",
+   "Una manguera de entrada dañada o floja.",
+   "Un interruptor de seguridad antifugas averiado."
+  ],
+  "steps": [
+   "Revisa que la manguera de entrada no tenga cortes ni conexiones flojas.",
+   "Desenchufa la lavadora 60 segundos y vuelve a empezar."
+  ],
+  "technician": "Si AE sigue, cierra el grifo y pide una visita del servicio técnico."
+ },
+ "LG|tE": {
+  "title": "Error de calentamiento / sensor de temperatura",
+  "causes": [
+   "Normalmente un sensor de temperatura (termistor) averiado."
+  ],
+  "steps": [
+   "Desenchufa la lavadora 10 segundos y vuelve a enchufarla.",
+   "Selecciona sin centrifugado para vaciar el agua y luego reinicia el ciclo."
+  ],
+  "technician": "Si tE vuelve a salir, cierra los grifos, desenchufa la lavadora y pide el servicio técnico."
+ },
+ "LG|Sud": {
+  "title": "Demasiada espuma",
+  "causes": [
+   "Demasiado detergente.",
+   "Uso de detergente no HE o de un tipo incorrecto."
+  ],
+  "steps": [
+   "Deja que la lavadora termine su rutina para reducir la espuma.",
+   "La próxima vez usa menos detergente, y solo detergente de alta eficiencia (HE).",
+   "Pon el detergente en polvo o en cápsulas donde indique el manual, no en el depósito del líquido."
+  ],
+  "technician": "Normalmente no hace falta. Si aparece con muy poco detergente, pide el servicio técnico."
+ },
+ "LG|PF": {
+  "title": "Corte de luz durante un ciclo",
+  "causes": [
+   "Se cortó la luz mientras la lavadora estaba funcionando."
+  ],
+  "steps": [
+   "Desenchufa la lavadora o baja su interruptor en el cuadro eléctrico.",
+   "Con la lavadora desenchufada, mantén pulsado Inicio/Pausa 5 segundos.",
+   "Vuelve a dar la corriente y pon un ciclo."
+  ],
+  "technician": "Si PF sigue apareciendo sin cortes de luz, pide una reparación."
+ },
+ "LG|FF": {
+  "title": "Agua congelada en la lavadora",
+  "causes": [
+   "La temperatura interior bajó de cero y el agua de las mangueras o de la cuba se congeló."
+  ],
+  "steps": [
+   "Saca la ropa.",
+   "Echa agua caliente (unos 50–60°C, nunca hirviendo) en el tambor y espera 1–2 horas.",
+   "Vacía el agua por el tubo de vaciado y vuelve a ponerle el tapón.",
+   "Descongela las mangueras de entrada en agua caliente, vuelve a colocarlas y pon un aclarado."
+  ],
+  "technician": "Si FF aparece cuando no hace frío, pide el servicio técnico."
+ },
+ "Siemens|E16": {
+  "title": "Puerta no bloqueada",
+  "causes": [
+   "Hay ropa atrapada en la puerta.",
+   "La puerta no está bien cerrada."
+  ],
+  "steps": [
+   "Abre la puerta y vuelve a cerrarla bien.",
+   "Si hace falta, saca algunas prendas y empuja la puerta para cerrarla.",
+   "Pulsa Inicio otra vez, o apaga, enciende y vuelve a empezar."
+  ],
+  "technician": "Si la puerta no se bloquea, llama al servicio técnico de Siemens."
+ },
+ "Siemens|E17": {
+  "title": "La carga de agua tarda demasiado",
+  "causes": [
+   "Presión del agua baja.",
+   "Un filtro atascado en la manguera de alimentación.",
+   "Una manguera AquaStop atascada."
+  ],
+  "steps": [
+   "Comprueba que el grifo esté abierto del todo.",
+   "Comprueba el caudal: con el grifo abierto del todo deberían salir unos 10 litros por minuto.",
+   "Cierra el grifo y limpia el filtro de la manguera de alimentación.",
+   "Asegúrate de que la manguera no esté doblada."
+  ],
+  "technician": "Si la presión es demasiado baja, llama a un fontanero. Si el suministro está bien, llama al servicio técnico de Siemens."
+ },
+ "Siemens|E18": {
+  "title": "El agua no desagua",
+  "causes": [
+   "El filtro de la bomba está atascado.",
+   "La manguera de desagüe está atascada o doblada."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala. Si el agua está caliente, deja que se enfríe.",
+   "Pon toallas y un recipiente plano bajo la tapa del filtro y vacía el agua.",
+   "Limpia el filtro de la bomba y vuelve a colocarlo bien.",
+   "Estira la manguera de desagüe y comprueba que no esté atascada."
+  ],
+  "technician": "Si sigue sin desaguar, llama al servicio técnico de Siemens."
+ },
+ "Siemens|E19": {
+  "title": "El agua tarda demasiado en calentarse",
+  "causes": [
+   "Una avería en el sistema de calentamiento."
+  ],
+  "steps": [
+   "Apaga y vuelve a encender la lavadora y vuelve a empezar."
+  ],
+  "technician": "Según Siemens, el usuario no puede solucionar esto. Pide una visita del servicio técnico."
+ },
+ "Siemens|E20": {
+  "title": "Calentamiento inesperado",
+  "causes": [
+   "Se ha detectado calentamiento cuando debería estar apagado."
+  ],
+  "steps": [
+   "Apaga y vuelve a encender la lavadora."
+  ],
+  "technician": "Si continúa, pide una visita del servicio técnico de Siemens."
+ },
+ "Siemens|E23": {
+  "title": "Fuga – agua en la base",
+  "causes": [
+   "La lavadora pierde agua, o se ha acumulado agua en la bandeja de la base."
+  ],
+  "steps": [
+   "Cierra el grifo del agua enseguida.",
+   "Apaga la lavadora y desenchúfala.",
+   "Seca el agua del suelo."
+  ],
+  "technician": "Llama al servicio técnico de Siemens para que localicen y reparen la fuga."
+ },
+ "Siemens|E25": {
+  "title": "Avería del sensor de turbidez",
+  "causes": [
+   "El sensor de claridad del agua está averiado."
+  ],
+  "steps": [
+   "Apaga y vuelve a encender la lavadora."
+  ],
+  "technician": "Pide una visita del servicio técnico de Siemens."
+ },
+ "Siemens|E26": {
+  "title": "Avería del sensor de nivel de agua",
+  "causes": [
+   "El sensor de presión analógico está averiado."
+  ],
+  "steps": [
+   "Apaga y vuelve a encender la lavadora."
+  ],
+  "technician": "Pide una visita del servicio técnico de Siemens."
+ },
+ "Siemens|E29": {
+  "title": "Problema en la entrada de agua",
+  "causes": [
+   "Presión del agua baja, o filtro de alimentación o manguera AquaStop atascados."
+  ],
+  "steps": [
+   "Comprueba que el grifo esté abierto del todo y que el caudal sea de unos 10 litros por minuto.",
+   "Cierra el grifo y limpia el filtro de la manguera de alimentación.",
+   "Asegúrate de que la manguera no esté doblada."
+  ],
+  "technician": "Si el suministro está bien y el código vuelve a salir, llama al servicio técnico de Siemens."
+ },
+ "Siemens|E32": {
+  "title": "Carga desequilibrada – centrifugado detenido",
+  "causes": [
+   "La ropa no está bien repartida en el tambor. No es una avería."
+  ],
+  "steps": [
+   "Reparte de forma uniforme las prendas grandes y pequeñas en el tambor.",
+   "Vuelve a poner el centrifugado."
+  ],
+  "technician": "No hace falta, salvo que pase con todas las cargas normales."
+ },
+ "Siemens|E33": {
+  "title": "Demasiada espuma",
+  "causes": [
+   "Demasiado detergente, sobre todo con agua blanda o ropa poco sucia."
+  ],
+  "steps": [
+   "La próxima vez usa menos detergente.",
+   "Pon un aclarado para eliminar la espuma."
+  ],
+  "technician": "Normalmente no hace falta."
+ },
+ "Siemens|E34": {
+  "title": "Puerta no bloqueada",
+  "causes": [
+   "La puerta no está bien cerrada, a menudo porque el tambor está muy lleno.",
+   "Hay una prenda atrapada entre la puerta y la carcasa."
+  ],
+  "steps": [
+   "Revisa que no haya ropa atrapada en la puerta.",
+   "Cierra la puerta hasta oír un clic.",
+   "Reinicia el programa."
+  ],
+  "technician": "Si la puerta sigue sin bloquearse, llama al servicio técnico de Siemens."
+ },
+ "AEG|E10": {
+  "title": "Problema con el suministro de agua",
+  "causes": [
+   "El suministro de agua está limitado o cortado, por ejemplo por un grifo cerrado o una manguera doblada."
+  ],
+  "steps": [
+   "Comprueba que el grifo del agua esté abierto del todo.",
+   "Asegúrate de que la manguera de entrada no esté doblada ni aplastada.",
+   "Reinicio: desconecta del enchufe durante un minuto aproximadamente, vuelve a conectar y reinicia."
+  ],
+  "technician": "Si el código vuelve a salir enseguida, o la lavadora sigue sin coger agua, pide una reparación."
+ },
+ "AEG|E20": {
+  "title": "Problema de desagüe",
+  "causes": [
+   "Filtro de la bomba de desagüe o manguera de desagüe atascados."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala. Si el agua está caliente, deja que se enfríe.",
+   "Vacía el agua en un recipiente y limpia el filtro de la bomba de desagüe.",
+   "Comprueba que la manguera de desagüe no esté doblada ni atascada.",
+   "Enchufa la lavadora y pon un desagüe o centrifugado."
+  ],
+  "technician": "Si el agua sigue sin desaguar, pide una reparación."
+ },
+ "AEG|E30": {
+  "title": "Problema con el sensor de presión (nivel) de agua",
+  "causes": [
+   "El sensor que mide el nivel de agua tiene una avería, o demasiada espuma altera la lectura."
+  ],
+  "steps": [
+   "Desconecta del enchufe durante un minuto aproximadamente y vuelve a conectar.",
+   "Usa la cantidad correcta de detergente."
+  ],
+  "technician": "Si el código vuelve a salir, pide una reparación."
+ },
+ "AEG|E40": {
+  "title": "Problema con el bloqueo de la puerta",
+  "causes": [
+   "La puerta no está bien cerrada, o el bloqueo de la puerta tiene una avería."
+  ],
+  "steps": [
+   "Abre la puerta, comprueba que no haya nada atrapado en la goma y ciérrala bien.",
+   "Desconecta del enchufe durante un minuto aproximadamente y vuelve a empezar."
+  ],
+  "technician": "Si la puerta sigue sin bloquearse, pide una reparación."
+ },
+ "AEG|E50": {
+  "title": "Problema en el motor",
+  "causes": [
+   "Una avería en el motor o en el sistema de transmisión."
+  ],
+  "steps": [
+   "Desconecta del enchufe durante un minuto aproximadamente y vuelve a empezar."
+  ],
+  "technician": "Si el tambor sigue sin girar, pide una reparación."
+ },
+ "AEG|E60": {
+  "title": "Problema de calentamiento",
+  "causes": [
+   "Una avería en la resistencia o en el sensor de temperatura."
+  ],
+  "steps": [
+   "Desconecta del enchufe durante un minuto aproximadamente y vuelve a empezar."
+  ],
+  "technician": "Si el código vuelve a salir, pide una reparación."
+ },
+ "AEG|EF0": {
+  "title": "Aviso: fuga, demasiada espuma o carga desequilibrada",
+  "causes": [
+   "Fuga de agua dentro de la lavadora.",
+   "Demasiada espuma de detergente.",
+   "Una carga desequilibrada."
+  ],
+  "steps": [
+   "Apaga la lavadora, desenchúfala y mira si hay agua en el suelo.",
+   "Si no hay fuga, usa menos detergente y reparte la carga de forma uniforme.",
+   "Vuelve a empezar cuando la espuma haya bajado."
+  ],
+  "technician": "Si ves una fuga o el código sigue volviendo, cierra el grifo y pide una reparación."
+ },
+ "AEG|EH0": {
+  "title": "Problema con la alimentación eléctrica",
+  "causes": [
+   "La tensión de red es irregular o inestable."
+  ],
+  "steps": [
+   "Enchufa la lavadora directamente a una toma de pared, sin alargadores.",
+   "Apágala durante un minuto aproximadamente y vuelve a encenderla."
+  ],
+  "technician": "Si sigue pasando, pide a un electricista que revise la instalación."
+ },
+ "Hotpoint|F01": {
+  "title": "Avería de la placa electrónica",
+  "causes": [
+   "Una avería en la placa de control. Algunas o todas las funciones no van."
+  ],
+  "steps": [
+   "Desenchufa la lavadora durante al menos 2 minutos.",
+   "Vuelve a enchufarla, espera 30 segundos e inténtalo de nuevo."
+  ],
+  "technician": "Si la avería sigue, pide un técnico de Hotpoint."
+ },
+ "Hotpoint|F02": {
+  "title": "Avería en el circuito del motor",
+  "causes": [
+   "Una avería en el circuito del motor. El tambor gira a ratos o no gira."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala."
+  ],
+  "technician": "Pide un técnico de Hotpoint."
+ },
+ "Hotpoint|F03": {
+  "title": "Avería del sensor de temperatura",
+  "causes": [
+   "El circuito que mide la temperatura está averiado, así que la lavadora no calienta."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala."
+  ],
+  "technician": "Pide un técnico de Hotpoint."
+ },
+ "Hotpoint|F05": {
+  "title": "Desagüe atascado o problema en la bomba",
+  "causes": [
+   "Filtro de la bomba, manguera de desagüe o desagüe bajo el fregadero atascados.",
+   "Bomba de desagüe averiada."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala. Si el agua está caliente, deja que se enfríe.",
+   "Si tu modelo tiene filtro de bomba, vacía el agua en un recipiente y limpia el filtro.",
+   "Comprueba que la manguera de desagüe y la tubería bajo el fregadero no estén atascadas.",
+   "Enchufa la lavadora y prueba un desagüe o centrifugado."
+  ],
+  "technician": "Si sigue sin desaguar, probablemente la bomba esté averiada. Pide un técnico."
+ },
+ "Hotpoint|F06": {
+  "title": "Avería del bloqueo de la puerta",
+  "causes": [
+   "El bloqueo de la puerta está trabado o averiado."
+  ],
+  "steps": [
+   "Comprueba que no haya nada que estorbe en la puerta ni en la zona del bloqueo.",
+   "Cierra bien la puerta y vuelve a empezar.",
+   "Consulta la página de avisos de seguridad de Hotpoint: algunos bloqueos de puerta están en campaña de retirada."
+  ],
+  "technician": "Si la avería continúa, pide un técnico."
+ },
+ "Hotpoint|F07": {
+  "title": "Avería del circuito de calentamiento / placa",
+  "causes": [
+   "Una avería en el circuito de calentamiento o en la placa de control. El lavado se detiene y la bomba puede seguir funcionando."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala."
+  ],
+  "technician": "Pide un técnico de Hotpoint."
+ },
+ "Hotpoint|F08": {
+  "title": "Avería de la resistencia",
+  "causes": [
+   "La resistencia está averiada, así que el programa se detiene a mitad del lavado."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala."
+  ],
+  "technician": "Pide un técnico de Hotpoint."
+ },
+ "Hotpoint|F09": {
+  "title": "Error de software",
+  "causes": [
+   "Un problema de software. Las luces parpadean y no se puede elegir ningún programa."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala."
+  ],
+  "technician": "Pide un técnico de Hotpoint."
+ },
+ "Hotpoint|F11": {
+  "title": "Avería en el circuito de la bomba de desagüe",
+  "causes": [
+   "Una avería en el circuito de la bomba. El agua se queda en el tambor."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala.",
+   "No abras la puerta mientras haya agua en el tambor."
+  ],
+  "technician": "Pide un técnico de Hotpoint."
+ },
+ "Hotpoint|F12": {
+  "title": "Avería del control electrónico",
+  "causes": [
+   "Una avería en los mandos. La lavadora no se enciende."
+  ],
+  "steps": [
+   "Comprueba con otro aparato que el enchufe y la toma funcionan."
+  ],
+  "technician": "Pide un técnico de Hotpoint."
+ },
+ "Hotpoint|F15": {
+  "title": "Avería del control de la resistencia",
+  "causes": [
+   "Una avería en el control de la resistencia. El agua no se calienta o el lavado se detiene."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala."
+  ],
+  "technician": "Pide un técnico de Hotpoint."
+ },
+ "Hotpoint|F18": {
+  "title": "Error de datos interno",
+  "causes": [
+   "Un problema con los datos internos. Algunas o todas las funciones de la pantalla no van."
+  ],
+  "steps": [
+   "Desenchufa la lavadora durante al menos 2 minutos.",
+   "Vuelve a enchufarla, espera 30 segundos e inténtalo de nuevo."
+  ],
+  "technician": "Si sigue, pide un técnico de Hotpoint."
+ },
+ "Indesit|F01": {
+  "title": "Avería de la placa electrónica",
+  "causes": [
+   "Una avería en la placa de control. Algunas o todas las funciones no se pueden seleccionar."
+  ],
+  "steps": [
+   "Desenchufa la lavadora durante al menos 2 minutos.",
+   "Vuelve a enchufarla, espera 30 segundos e inténtalo de nuevo."
+  ],
+  "technician": "Si la avería sigue, pide un técnico de Indesit."
+ },
+ "Indesit|F02": {
+  "title": "Avería en el circuito del motor",
+  "causes": [
+   "Una avería en el circuito del motor. El tambor gira a ratos o no gira."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala."
+  ],
+  "technician": "Pide un técnico de Indesit."
+ },
+ "Indesit|F03": {
+  "title": "Avería del sensor de temperatura",
+  "causes": [
+   "El circuito que mide la temperatura está averiado, así que la lavadora no calienta."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala."
+  ],
+  "technician": "Pide un técnico de Indesit."
+ },
+ "Indesit|F05": {
+  "title": "Desagüe atascado o problema en la bomba",
+  "causes": [
+   "Filtro de la bomba, manguera de desagüe o desagüe bajo el fregadero atascados.",
+   "Bomba de desagüe averiada."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala. Si el agua está caliente, deja que se enfríe.",
+   "Si tu modelo tiene filtro de bomba, vacía el agua en un recipiente y límpialo.",
+   "Comprueba que la manguera de desagüe y la tubería bajo el fregadero no estén atascadas.",
+   "Enchufa la lavadora y prueba un desagüe o centrifugado."
+  ],
+  "technician": "Si sigue sin desaguar, probablemente la bomba esté averiada. Pide un técnico."
+ },
+ "Indesit|F06": {
+  "title": "Avería del bloqueo de la puerta",
+  "causes": [
+   "El bloqueo de la puerta está trabado o averiado."
+  ],
+  "steps": [
+   "Comprueba que no haya nada que estorbe en la puerta ni en la zona del bloqueo.",
+   "Cierra bien la puerta y vuelve a empezar.",
+   "Consulta el aviso de seguridad de la marca: algunos bloqueos de puerta están en campaña de retirada."
+  ],
+  "technician": "Si la avería continúa, pide un técnico."
+ },
+ "Indesit|F07": {
+  "title": "Avería del circuito de calentamiento / placa",
+  "causes": [
+   "Una avería en el circuito de calentamiento o en la placa de control. El lavado se detiene y la bomba puede seguir funcionando."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala."
+  ],
+  "technician": "Pide un técnico de Indesit."
+ },
+ "Indesit|F08": {
+  "title": "Avería de la resistencia",
+  "causes": [
+   "La resistencia está averiada, así que el programa se detiene a mitad del lavado."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala."
+  ],
+  "technician": "Pide un técnico de Indesit."
+ },
+ "Indesit|F09": {
+  "title": "Error de software",
+  "causes": [
+   "Un problema de software. Las luces parpadean y no se puede elegir ningún programa."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala."
+  ],
+  "technician": "Pide un técnico de Indesit."
+ },
+ "Indesit|F11": {
+  "title": "Avería en el circuito de la bomba de desagüe",
+  "causes": [
+   "Una avería en el circuito de la bomba. El agua se queda en el tambor."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala.",
+   "No abras la puerta mientras haya agua en el tambor."
+  ],
+  "technician": "Pide un técnico de Indesit."
+ },
+ "Indesit|F12": {
+  "title": "Avería del control electrónico",
+  "causes": [
+   "Una avería en los mandos. La lavadora no se enciende."
+  ],
+  "steps": [
+   "Comprueba con otro aparato que el enchufe y la toma funcionan."
+  ],
+  "technician": "Pide un técnico de Indesit."
+ },
+ "Indesit|F15": {
+  "title": "Avería del control de la resistencia",
+  "causes": [
+   "Una avería en el control de la resistencia. El agua no se calienta o el lavado se detiene."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala."
+  ],
+  "technician": "Pide un técnico de Indesit."
+ },
+ "Indesit|F18": {
+  "title": "Error de datos interno",
+  "causes": [
+   "Un problema con los datos internos. Algunas o todas las funciones de la pantalla no van."
+  ],
+  "steps": [
+   "Desenchufa la lavadora durante al menos 2 minutos.",
+   "Vuelve a enchufarla, espera 30 segundos e inténtalo de nuevo."
+  ],
+  "technician": "Si sigue, pide un técnico de Indesit."
+ },
+ "Beko|E5": {
+  "title": "Puede que el filtro de la bomba esté atascado (problema de desagüe)",
+  "causes": [
+   "El filtro de la bomba está atascado, así que el agua no puede desaguar."
+  ],
+  "steps": [
+   "Apaga la lavadora y desenchúfala. Si el agua está caliente, deja que se enfríe.",
+   "Vacía el agua que queda en un recipiente y limpia el filtro de la bomba.",
+   "Vuelve a colocar bien el filtro y pon un ciclo de centrifugado."
+  ],
+  "technician": "Si el problema continúa, llama al servicio técnico de Beko."
+ },
+ "Beko|E8": {
+  "title": "No entra agua",
+  "causes": [
+   "El grifo está cerrado o hay un corte de agua.",
+   "La manguera de entrada está doblada o suelta.",
+   "La tapa del filtro delantera no está cerrada y bloqueada."
+  ],
+  "steps": [
+   "Abre el grifo y comprueba que llega agua de la red.",
+   "Revisa la conexión de la manguera de entrada y estira cualquier doblez.",
+   "Asegúrate de que la tapa delantera esté cerrada y bloqueada.",
+   "Vuelve a poner en marcha la lavadora."
+  ],
+  "technician": "Si el problema continúa, llama al servicio técnico de Beko."
+ },
+ "Beko|E12": {
+  "title": "Puede haber agua dentro de la lavadora (fuga)",
+  "causes": [
+   "Se ha acumulado agua dentro de la lavadora, posiblemente por una fuga."
+  ],
+  "steps": [
+   "Desenchufa la lavadora.",
+   "Seca el agua que haya debajo de la lavadora.",
+   "Enchúfala y pon un ciclo corto mientras la vigilas."
+  ],
+  "technician": "Si sale agua de una manguera o el código vuelve a salir, cierra los grifos y llama al servicio técnico de Beko."
+ },
+ "Beko|E17": {
+  "title": "Demasiada espuma",
+  "causes": [
+   "Demasiado detergente para la carga.",
+   "Detergente puesto en el compartimento equivocado o mal guardado."
+  ],
+  "steps": [
+   "Ajusta la dosis de detergente al tamaño de la carga y a lo sucia que esté.",
+   "Usa menos detergente con tejidos muy absorbentes.",
+   "Pon el programa Drum Cleaning (o Algodón 90°C) con el tambor vacío."
+  ],
+  "technician": "Si el problema continúa, llama al servicio técnico de Beko."
+ },
+ "Beko|E18": {
+  "title": "Carga desequilibrada – el centrifugado no empezó",
+  "causes": [
+   "Muy poca ropa, o ropa amontonada en un lado."
+  ],
+  "steps": [
+   "Si la carga es muy pequeña, añade más prendas.",
+   "Reparte la ropa de forma uniforme con la mano.",
+   "Vuelve a poner el centrifugado."
+  ],
+  "technician": "Normalmente no hace falta."
+ },
+ "Beko|E27": {
+  "title": "Problema de desagüe",
+  "causes": [
+   "La manguera de desagüe no está bien conectada."
+  ],
+  "steps": [
+   "Revisa la conexión de la manguera de desagüe al desagüe.",
+   "Asegúrate de que la manguera no esté doblada ni atascada."
+  ],
+  "technician": "Si el problema continúa, llama al servicio técnico de Beko."
+ },
+ "Beko|E29": {
+  "title": "Modo de autoprotección (problema de suministro)",
+  "causes": [
+   "Un problema con la tensión de red o con la presión del agua."
+  ],
+  "steps": [
+   "Cancela el programa girando el selector a otro programa.",
+   "Vuelve a iniciar el programa."
+  ],
+  "technician": "Si el problema continúa, llama al servicio técnico de Beko."
+ },
+ "Miele|F10": {
+  "title": "Entrada de agua atascada o limitada",
+  "causes": [
+   "La llave de paso (grifo) está cerrada.",
+   "El filtro de entrada está sucio.",
+   "La manguera de entrada está doblada.",
+   "La presión del agua es demasiado baja."
+  ],
+  "steps": [
+   "Detén el programa y abre del todo el grifo.",
+   "Cierra el grifo, desenrosca la manguera de entrada, saca el pequeño filtro, límpialo y vuelve a ponerlo.",
+   "Vuelve a colocar la manguera, abre el grifo y comprueba que no gotee.",
+   "Estira cualquier doblez de la manguera.",
+   "Comprueba el caudal: en 15 segundos deben salir al menos 5 litros."
+  ],
+  "technician": "Si la presión es demasiado baja, llama a un fontanero. Si la manguera está dañada, el servicio técnico de Miele puede cambiarla."
+ },
+ "Miele|F11": {
+  "title": "Desagüe limitado",
+  "causes": [
+   "El extremo de la manguera de desagüe está a más de 1 metro de altura.",
+   "La manguera de desagüe está doblada.",
+   "El filtro de desagüe o la bomba están bloqueados por objetos como botones o monedas."
+  ],
+  "steps": [
+   "Apaga la lavadora. Deja que el agua caliente se enfríe para no quemarte.",
+   "Baja el extremo de la manguera de desagüe a 1 metro o menos y quita los dobleces.",
+   "Abre la tapa de la bomba de desagüe, pon un recipiente debajo y desenrosca despacio el filtro de desagüe para que salga el agua.",
+   "Limpia el filtro, comprueba que la turbina de la bomba gire libremente y vuelve a enroscar bien el filtro."
+  ],
+  "technician": "Si la avería continúa, contacta con el servicio técnico de Miele."
+ },
+ "Miele|F15": {
+  "title": "Entrada de agua caliente atascada o limitada",
+  "causes": [
+   "El grifo del agua caliente no está abierto del todo.",
+   "El filtro de entrada del agua caliente está sucio.",
+   "La presión del agua caliente es demasiado baja."
+  ],
+  "steps": [
+   "Abre del todo el grifo del agua caliente y vuelve a empezar.",
+   "Cierra el grifo, desenrosca la manguera del agua caliente, limpia el pequeño filtro y vuelve a colocarla.",
+   "Comprueba el caudal: al menos 5 litros en 15 segundos."
+  ],
+  "technician": "Si la presión es demasiado baja y no se puede aumentar, contacta con un fontanero o con el servicio técnico de Miele."
+ },
+ "Miele|F20": {
+  "title": "Avería de calentamiento",
+  "causes": [
+   "No se alcanzó a tiempo la temperatura elegida (Thermostop).",
+   "Una avería técnica en el sistema de calentamiento."
+  ],
+  "steps": [
+   "Apaga en la toma de pared y desenchufa, o baja el interruptor del cuadro eléctrico.",
+   "Espera al menos 2 minutos.",
+   "Vuelve a conectar, enciende y reinicia el programa."
+  ],
+  "technician": "Si F20 vuelve a salir, contacta con el servicio técnico de Miele."
+ },
+ "Miele|F34": {
+  "title": "No se ha podido bloquear la puerta",
+  "causes": [
+   "El tambor está sobrecargado.",
+   "Una avería técnica en el bloqueo."
+  ],
+  "steps": [
+   "Saca algo de ropa para que la carga no supere el límite.",
+   "Apaga y vuelve a encender.",
+   "Si hace falta, desenchufa al menos 2 minutos, vuelve a conectar y enciende."
+  ],
+  "technician": "Si la avería vuelve a salir, contacta con el servicio técnico de Miele."
+ },
+ "Miele|F35": {
+  "title": "No se ha podido desbloquear la puerta",
+  "causes": [
+   "Una avería técnica en el bloqueo de la puerta."
+  ],
+  "steps": [
+   "Apaga en la toma de pared y desenchufa, o baja el interruptor del cuadro eléctrico.",
+   "Espera al menos 2 minutos, vuelve a conectar y enciende."
+  ],
+  "technician": "Si la puerta sigue sin abrirse, contacta con el servicio técnico de Miele. No fuerces la puerta."
+ },
+ "Miele|Waterproof system activated": {
+  "title": "Protección antifugas activada",
+  "causes": [
+   "Se ha detectado agua dentro de la lavadora por una fuga."
+  ],
+  "steps": [
+   "Desenchufa la lavadora.",
+   "Cierra el grifo del agua.",
+   "Seca el agua del suelo.",
+   "No uses la lavadora hasta que esté reparada."
+  ],
+  "technician": "Según Miele, la fuga la tiene que reparar el servicio técnico de Miele. No intentes repararla tú."
+ }
+}

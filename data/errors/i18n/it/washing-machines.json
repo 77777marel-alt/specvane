@@ -1,0 +1,1167 @@
+{
+ "Bosch|E16": {
+  "title": "Oblò non chiuso",
+  "causes": [
+   "L'oblò non è chiuso del tutto.",
+   "Ci sono capi incastrati tra l'oblò e la guarnizione."
+  ],
+  "steps": [
+   "Apri l'oblò e controlla che non ci siano capi incastrati nella guarnizione in gomma.",
+   "Chiudi bene l'oblò finché non senti il clic.",
+   "Riavvia il programma."
+  ],
+  "technician": "Se il codice resta anche con l'oblò ben chiuso, il blocco porta potrebbe essere guasto. Prenota un intervento dell'assistenza Bosch."
+ },
+ "Bosch|E17": {
+  "title": "Carico dell'acqua troppo lento",
+  "causes": [
+   "Il rubinetto dell'acqua è chiuso o aperto solo in parte.",
+   "Il tubo di carico è piegato.",
+   "La pressione dell'acqua in casa è bassa."
+  ],
+  "steps": [
+   "Controlla che il rubinetto che alimenta la lavatrice sia aperto del tutto.",
+   "Verifica che il tubo di carico non sia piegato o schiacciato.",
+   "Riavvia il programma."
+  ],
+  "technician": "Se il rubinetto è aperto e il codice ricompare, contatta l'assistenza Bosch. Potrebbe essere necessario controllare l'elettrovalvola di carico o il tubo AquaStop."
+ },
+ "Bosch|E18": {
+  "title": "L'acqua non scarica",
+  "causes": [
+   "La pompa di scarico o il filtro della pompa sono ostruiti.",
+   "Il tubo di scarico è piegato o ostruito.",
+   "Piccoli oggetti (monete, bottoni) sono bloccati nella pompa."
+  ],
+  "steps": [
+   "Spegni la lavatrice, stacca la spina e chiudi il rubinetto dell'acqua.",
+   "Se l'acqua è calda, lasciala raffreddare prima di iniziare.",
+   "Metti un contenitore basso e degli asciugamani sotto lo sportellino della pompa, scarica l'acqua con il tubo di scarico di emergenza, poi pulisci il filtro della pompa.",
+   "Controlla che il tubo di scarico non sia piegato o ostruito e raddrizzalo.",
+   "Rimonta bene il filtro, ricollega la spina e avvia un programma di scarico o centrifuga."
+  ],
+  "technician": "Se non scarica ancora dopo aver pulito filtro e tubo, probabilmente la pompa di scarico è guasta. Chiama un tecnico."
+ },
+ "Bosch|E19": {
+  "title": "Riscaldamento dell'acqua troppo lento",
+  "causes": [
+   "La lavatrice non ha raggiunto la temperatura di lavaggio impostata nel tempo previsto.",
+   "Di solito è un guasto al sistema di riscaldamento."
+  ],
+  "steps": [
+   "Spegni e riaccendi la lavatrice, poi riavvia il programma."
+  ],
+  "technician": "Secondo Bosch questo guasto non può essere risolto dall'utente. Se ricompare, prenota un intervento dell'assistenza."
+ },
+ "Bosch|E20": {
+  "title": "Riscaldamento attivo quando non dovrebbe",
+  "causes": [
+   "La lavatrice ha rilevato il riscaldamento in un momento imprevisto.",
+   "Un guasto elettronico o del controllo del riscaldamento."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina per qualche momento.",
+   "Ricollega la spina e riavvia il programma."
+  ],
+  "technician": "Se il codice ricompare, smetti di usare la lavatrice e chiama l'assistenza Bosch."
+ },
+ "Bosch|E23": {
+  "title": "Protezione antiallagamento AquaStop attivata",
+  "causes": [
+   "Si è raccolta acqua nel fondo della lavatrice.",
+   "Una perdita all'interno della lavatrice o dal tubo AquaStop."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina.",
+   "Chiudi il rubinetto dell'acqua.",
+   "Asciuga l'acqua sul pavimento."
+  ],
+  "technician": "Secondo Bosch questo problema non può essere risolto dall'utente. Tieni chiuso il rubinetto e prenota un intervento dell'assistenza."
+ },
+ "Bosch|E25": {
+  "title": "Guasto al sensore di torbidità (limpidezza dell'acqua)",
+  "causes": [
+   "Il sensore che controlla quanto è sporca l'acqua ha un problema."
+  ],
+  "steps": [
+   "Spegni e riaccendi la lavatrice e riavvia il programma."
+  ],
+  "technician": "Se il codice ricompare, chiama l'assistenza Bosch per far controllare il sensore."
+ },
+ "Bosch|E26": {
+  "title": "Guasto al sensore di livello dell'acqua (pressostato)",
+  "causes": [
+   "Il sensore di pressione analogico che misura il livello dell'acqua nel cesto è guasto."
+  ],
+  "steps": [
+   "Spegni e riaccendi la lavatrice e riavvia il programma."
+  ],
+  "technician": "Secondo Bosch questo guasto richiede un intervento dell'assistenza."
+ },
+ "Bosch|F27": {
+  "title": "Guasto al sensore di pressione",
+  "causes": [
+   "Il sensore di pressione non funziona correttamente."
+  ],
+  "steps": [
+   "Spegni e riaccendi la lavatrice e riavvia il programma."
+  ],
+  "technician": "Se il codice ricompare, chiama l'assistenza Bosch."
+ },
+ "Bosch|E28": {
+  "title": "Guasto al sensore di flusso dell'acqua",
+  "causes": [
+   "Il sensore che misura l'acqua in entrata segnala un problema."
+  ],
+  "steps": [
+   "Controlla che il rubinetto dell'acqua sia aperto del tutto.",
+   "Spegni e riaccendi la lavatrice e riavvia il programma."
+  ],
+  "technician": "Se il codice ricompare, chiama l'assistenza Bosch."
+ },
+ "Samsung|4C": {
+  "title": "Non entra acqua",
+  "causes": [
+   "Il rubinetto dell'acqua è chiuso.",
+   "Il tubo di carico è ostruito, piegato o congelato.",
+   "La pressione dell'acqua è troppo bassa.",
+   "I tubi dell'acqua calda e fredda sono collegati ai rubinetti sbagliati.",
+   "Il filtro a rete all'ingresso del tubo è sporco."
+  ],
+  "steps": [
+   "Apri del tutto il rubinetto dell'acqua.",
+   "Controlla che il tubo di carico non sia piegato, ostruito o ghiacciato.",
+   "Verifica che i tubi dell'acqua calda e fredda siano collegati ai rubinetti giusti.",
+   "Chiudi il rubinetto, svita il tubo e pulisci il piccolo filtro a rete, poi rimontalo.",
+   "Aspetta 3 minuti (dopo questo codice i tasti sono bloccati), poi riavvia."
+  ],
+  "technician": "Se l'acqua continua a non entrare con il rubinetto aperto e il filtro pulito, contatta l'assistenza Samsung."
+ },
+ "Samsung|4C2": {
+  "title": "Acqua in entrata troppo calda",
+  "causes": [
+   "Il tubo dell'acqua fredda è collegato a un rubinetto dell'acqua calda, oppure non è fissato bene al rubinetto dell'acqua fredda."
+  ],
+  "steps": [
+   "Assicurati che il tubo dell'acqua fredda sia ben collegato al rubinetto dell'acqua fredda.",
+   "Spegni e riaccendi la lavatrice e riavvia."
+  ],
+  "technician": "Se il codice resta anche con i collegamenti corretti, contatta l'assistenza Samsung."
+ },
+ "Samsung|5C": {
+  "title": "L'acqua non scarica",
+  "causes": [
+   "Il tubo di scarico è ostruito, piegato o congelato.",
+   "Il tubo di scarico non è installato correttamente.",
+   "Il filtro dei residui è intasato."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina.",
+   "Controlla che il tubo di scarico sia dritto e non ostruito o congelato.",
+   "Stendi degli asciugamani e metti una vaschetta bassa, poi scarica l'acqua e pulisci il filtro dei residui sul davanti.",
+   "Rimonta bene il filtro, ricollega la spina e prova uno scarico o una centrifuga."
+  ],
+  "technician": "Se non scarica ancora, la pompa di scarico potrebbe essere guasta. Contatta l'assistenza Samsung."
+ },
+ "Samsung|dC": {
+  "title": "Oblò aperto o non chiuso bene",
+  "causes": [
+   "La lavatrice è stata avviata con l'oblò aperto.",
+   "Ci sono capi incastrati nell'oblò."
+  ],
+  "steps": [
+   "Apri l'oblò e togli i capi incastrati nella guarnizione.",
+   "Chiudi bene l'oblò e riavvia."
+  ],
+  "technician": "Se il codice resta con l'oblò chiuso, il blocco porta potrebbe essere guasto. Contatta l'assistenza Samsung."
+ },
+ "Samsung|dC1": {
+  "title": "Il blocco porta non si blocca o non si sblocca",
+  "causes": [
+   "Il blocco porta principale non funziona come dovrebbe."
+  ],
+  "steps": [
+   "Spegni la lavatrice, aspetta un momento e riaccendila.",
+   "Riavvia il ciclo."
+  ],
+  "technician": "Se il problema si ripete, il blocco porta deve essere controllato dall'assistenza."
+ },
+ "Samsung|OC": {
+  "title": "Troppa acqua (troppo pieno)",
+  "causes": [
+   "La lavatrice ha rilevato un livello dell'acqua troppo alto."
+  ],
+  "steps": [
+   "Lascia che la lavatrice finisca lo scarico e la centrifuga.",
+   "Riavvia il ciclo quando la centrifuga è terminata.",
+   "Usa la giusta quantità di detersivo per evitare troppa schiuma."
+  ],
+  "technician": "Se il codice ricompare a ogni lavaggio, contatta l'assistenza Samsung. L'elettrovalvola o il sensore di livello potrebbero essere guasti."
+ },
+ "Samsung|Ub": {
+  "title": "Carico sbilanciato, la centrifuga non parte",
+  "causes": [
+   "Il bucato è ammassato su un lato del cesto.",
+   "Nel cesto c'è un solo capo pesante.",
+   "La lavatrice non è in piano o non è stabile."
+  ],
+  "steps": [
+   "Metti in pausa la lavatrice e distribuisci il bucato in modo uniforme.",
+   "Se stai lavando un solo capo pesante, aggiungi qualche altro capo.",
+   "Assicurati che la lavatrice sia in piano su un pavimento solido.",
+   "Riavvia la centrifuga."
+  ],
+  "technician": "Se succede anche con carichi normali e ben distribuiti, la lavatrice potrebbe aver bisogno di un controllo per parti usurate."
+ },
+ "Samsung|LC": {
+  "title": "Problema al tubo di scarico / perdita rilevata",
+  "causes": [
+   "L'estremità del tubo di scarico è appoggiata sul pavimento.",
+   "Il tubo di scarico è intasato."
+  ],
+  "steps": [
+   "Spegni la lavatrice.",
+   "Assicurati che l'estremità del tubo di scarico sia sollevata e non a terra.",
+   "Controlla che il tubo non sia ostruito.",
+   "Asciuga l'acqua e riavvia."
+  ],
+  "technician": "Se l'acqua continua a uscire o il codice ricompare, contatta l'assistenza Samsung."
+ },
+ "Samsung|3C": {
+  "title": "Problema al motore del cesto",
+  "causes": [
+   "Il motore non funziona come dovrebbe."
+  ],
+  "steps": [
+   "Spegni la lavatrice, aspetta un minuto e riaccendila.",
+   "Controlla che il carico non sia eccessivo, poi riavvia il ciclo."
+  ],
+  "technician": "Se il codice ricompare, il motore o il suo controllo devono essere verificati dall'assistenza."
+ },
+ "Samsung|AC": {
+  "title": "Errore di comunicazione tra le schede elettroniche",
+  "causes": [
+   "La scheda di controllo principale e quella secondaria non comunicano tra loro."
+  ],
+  "steps": [
+   "Spegni la lavatrice e poi riaccendila.",
+   "Riavvia il ciclo."
+  ],
+  "technician": "Se il codice continua a ricomparire, contatta l'assistenza Samsung."
+ },
+ "Samsung|HC": {
+  "title": "Guasto al sistema di riscaldamento (temperatura troppo alta)",
+  "causes": [
+   "La lavatrice ha rilevato un problema di riscaldamento ad alta temperatura."
+  ],
+  "steps": [
+   "Spegni e riaccendi la lavatrice.",
+   "Riavvia il ciclo."
+  ],
+  "technician": "Se il codice ricompare, non usare i programmi ad alta temperatura e contatta l'assistenza Samsung."
+ },
+ "Samsung|1C": {
+  "title": "Guasto al sensore di livello dell'acqua",
+  "causes": [
+   "Il sensore che misura il livello dell'acqua non funziona correttamente."
+  ],
+  "steps": [
+   "Spegni e riaccendi la lavatrice.",
+   "Riavvia il ciclo."
+  ],
+  "technician": "Se il codice ricompare, contatta l'assistenza Samsung."
+ },
+ "Samsung|UC": {
+  "title": "Problema di alimentazione (tensione troppo bassa o instabile)",
+  "causes": [
+   "Tensione di rete bassa o instabile.",
+   "Una breve interruzione di corrente.",
+   "Spina o prolunga allentata."
+  ],
+  "steps": [
+   "Controlla che la spina sia inserita bene nella presa a muro.",
+   "Evita prolunghe e adattatori.",
+   "Aspetta che la corrente si stabilizzi, poi riavvia."
+  ],
+  "technician": "Se succede spesso, fai controllare l'impianto da un elettricista. Se l'impianto è a posto, contatta l'assistenza Samsung."
+ },
+ "Samsung|8C": {
+  "title": "Guasto al sensore di vibrazione",
+  "causes": [
+   "Il sensore che rileva lo sbilanciamento non funziona correttamente."
+  ],
+  "steps": [
+   "Spegni e riaccendi la lavatrice.",
+   "Riavvia il ciclo."
+  ],
+  "technician": "Se il codice ricompare, contatta l'assistenza Samsung."
+ },
+ "Samsung|ddC": {
+  "title": "Add Door aperta senza riavviare",
+  "causes": [
+   "La piccola Add Door (AddWash) è stata aperta e la lavatrice è in attesa."
+  ],
+  "steps": [
+   "Chiudi bene la Add Door.",
+   "Tieni premuto Start/Pausa per continuare."
+  ],
+  "technician": "Di solito non serve. Se la Add Door non resta chiusa, contatta l'assistenza Samsung."
+ },
+ "LG|OE": {
+  "title": "L'acqua non scarica",
+  "causes": [
+   "Il tubo di scarico è piegato o ostruito.",
+   "Il filtro della pompa di scarico è intasato.",
+   "Troppa schiuma per l'eccesso di detersivo."
+  ],
+  "steps": [
+   "Controlla il tubo di scarico dietro la lavatrice e raddrizza eventuali pieghe.",
+   "Avvia un ciclo di sola centrifuga e ascolta se la pompa ronza.",
+   "Stacca la spina della lavatrice. Metti un contenitore sotto lo sportellino della pompa di scarico, scarica l'acqua con il tubicino di scarico, poi pulisci il filtro della pompa.",
+   "Chiudi bene il tappo del tubicino di scarico e rimonta il filtro.",
+   "La prossima volta usa meno detersivo e avvia Tub Clean."
+  ],
+  "technician": "Se il codice ricompare dopo aver pulito filtro e tubo, richiedi l'assistenza LG. La pompa potrebbe essere guasta."
+ },
+ "LG|IE": {
+  "title": "L'acqua non entra in tempo",
+  "causes": [
+   "Il rubinetto è chiuso o manca l'acqua.",
+   "Il tubo di carico è piegato o scollegato.",
+   "Il filtro di ingresso è ostruito.",
+   "Tubi o raccordi congelati quando fa freddo."
+  ],
+  "steps": [
+   "Assicurati che il rubinetto sia aperto del tutto e il tubo sia collegato.",
+   "Raddrizza il tubo se è piegato o schiacciato.",
+   "Chiudi il rubinetto, togli il tubo e pulisci il filtro di ingresso, poi rimontalo.",
+   "Quando gela, scongela rubinetto e tubo con acqua tiepida (non bollente)."
+  ],
+  "technician": "Se l'acqua continua a non scorrere, l'elettrovalvola di carico potrebbe essere guasta. Richiedi l'assistenza."
+ },
+ "LG|UE": {
+  "title": "Carico sbilanciato",
+  "causes": [
+   "Il bucato si è ammassato su un lato.",
+   "Carico troppo grande o troppo piccolo.",
+   "Capi voluminosi o impermeabili.",
+   "La lavatrice non è in piano."
+  ],
+  "steps": [
+   "Metti in pausa la lavatrice e distribuisci il bucato in modo uniforme.",
+   "Riempi il cesto per circa due terzi.",
+   "Lava i capi voluminosi come i piumoni con il programma adatto e una centrifuga media.",
+   "Metti in piano la lavatrice regolando i piedini."
+  ],
+  "technician": "Se succede con carichi normali e ben distribuiti su un pavimento in piano, richiedi l'assistenza."
+ },
+ "LG|LE": {
+  "title": "Motore bloccato, il cesto non gira",
+  "causes": [
+   "La lavatrice è sovraccarica.",
+   "Una moneta o un piccolo oggetto blocca il cesto."
+  ],
+  "steps": [
+   "Stacca la spina della lavatrice e aspetta 5 minuti.",
+   "Togli un po' di bucato per ridurre il carico.",
+   "Con la corrente staccata, controlla che nel cesto non ci siano monete o piccoli oggetti e toglili.",
+   "Ricollega la spina e riprova."
+  ],
+  "technician": "Se LE continua a comparire, stacca la spina della lavatrice e contatta l'assistenza LG."
+ },
+ "LG|dE": {
+  "title": "Oblò non chiuso",
+  "causes": [
+   "Ci sono capi incastrati tra l'oblò e la guarnizione.",
+   "L'oblò non è chiuso del tutto."
+  ],
+  "steps": [
+   "Apri l'oblò, libera i capi incastrati e chiudilo bene.",
+   "Reset: stacca la spina, tieni premuto Start/Pausa per 5 secondi, ricollega la spina e riprova."
+  ],
+  "technician": "Se il codice resta, richiedi l'assistenza LG."
+ },
+ "LG|dE2": {
+  "title": "Oblò chiuso ma non bloccato",
+  "causes": [
+   "Il cesto è sovraccarico.",
+   "Qualcosa è incastrato nella guarnizione dell'oblò.",
+   "Il gancio dell'oblò è piegato o rotto."
+  ],
+  "steps": [
+   "Togli ciò che blocca l'oblò e, se serve, riduci il carico.",
+   "Apri e richiudi l'oblò.",
+   "Resetta la lavatrice staccando la spina per qualche momento."
+  ],
+  "technician": "Se il blocco continua a non agganciarsi, il gancio o il blocco porta vanno riparati. Richiedi l'assistenza."
+ },
+ "LG|CE": {
+  "title": "Sovracorrente del motore",
+  "causes": [
+   "Troppa corrente nel circuito del motore, per esempio per un cortocircuito, un collegamento allentato o uno sbalzo di tensione."
+  ],
+  "steps": [
+   "Stacca la spina della lavatrice per 10 secondi.",
+   "Ricollega la spina e avvia un ciclo."
+  ],
+  "technician": "Se CE ricompare, chiudi il rubinetto, stacca la spina della lavatrice e fai riparare l'apparecchio."
+ },
+ "LG|FE": {
+  "title": "Troppa acqua (troppo pieno)",
+  "causes": [
+   "Entra acqua in eccesso, per esempio dal cassetto del detersivo."
+  ],
+  "steps": [
+   "Controlla se scorre acqua nel cassetto del detersivo.",
+   "Stacca la spina della lavatrice per 60 secondi e riavvia.",
+   "Avvia un programma breve e verifica se scarica."
+  ],
+  "technician": "Se FE resta, bisogna controllare l'elettrovalvola o il sensore. Richiedi l'assistenza."
+ },
+ "LG|PE": {
+  "title": "Guasto al sensore di livello dell'acqua",
+  "causes": [
+   "Il sensore di livello dell'acqua non funziona correttamente."
+  ],
+  "steps": [
+   "Stacca la spina della lavatrice per 10 secondi.",
+   "Ricollega la spina e riavvia il ciclo."
+  ],
+  "technician": "Se PE ricompare, fai riparare l'apparecchio."
+ },
+ "LG|AE": {
+  "title": "Perdita rilevata all'interno della lavatrice",
+  "causes": [
+   "Perdita d'acqua all'interno della lavatrice.",
+   "Un tubo di carico danneggiato o allentato.",
+   "Un interruttore di sicurezza antiperdita guasto."
+  ],
+  "steps": [
+   "Controlla che il tubo di carico non sia tagliato e che i collegamenti non siano allentati.",
+   "Stacca la spina della lavatrice per 60 secondi e riavvia."
+  ],
+  "technician": "Se AE resta, chiudi il rubinetto e prenota un intervento dell'assistenza."
+ },
+ "LG|tE": {
+  "title": "Errore di riscaldamento / sensore di temperatura",
+  "causes": [
+   "Di solito un sensore di temperatura (termistore) guasto."
+  ],
+  "steps": [
+   "Stacca la spina della lavatrice per 10 secondi, poi ricollegala.",
+   "Seleziona senza centrifuga per scaricare l'acqua, poi riavvia il ciclo."
+  ],
+  "technician": "Se tE ricompare, chiudi i rubinetti, stacca la spina della lavatrice e richiedi l'assistenza."
+ },
+ "LG|Sud": {
+  "title": "Troppa schiuma",
+  "causes": [
+   "Troppo detersivo.",
+   "Uso di detersivo non HE o di tipo sbagliato."
+  ],
+  "steps": [
+   "Lascia che la lavatrice completi la fase di riduzione della schiuma.",
+   "La prossima volta usa meno detersivo, e solo detersivo ad alta efficienza (HE).",
+   "Metti polvere o capsule dove indica il manuale, non nella vaschetta per il liquido."
+  ],
+  "technician": "Di solito non serve. Se compare anche con pochissimo detersivo, richiedi l'assistenza."
+ },
+ "LG|PF": {
+  "title": "Interruzione di corrente durante un ciclo",
+  "causes": [
+   "La corrente è mancata mentre la lavatrice era in funzione."
+  ],
+  "steps": [
+   "Stacca la spina della lavatrice o abbassa il suo interruttore nel quadro elettrico.",
+   "Con la spina staccata, tieni premuto Start/Pausa per 5 secondi.",
+   "Ridai corrente e avvia un ciclo."
+  ],
+  "technician": "Se PF continua a comparire senza interruzioni di corrente, fai riparare l'apparecchio."
+ },
+ "LG|FF": {
+  "title": "Acqua ghiacciata nella lavatrice",
+  "causes": [
+   "La temperatura interna è scesa sotto zero e l'acqua nei tubi o nella vasca si è ghiacciata."
+  ],
+  "steps": [
+   "Togli il bucato.",
+   "Versa acqua calda (circa 50–60°C, mai bollente) nel cesto e aspetta 1–2 ore.",
+   "Scarica l'acqua dal tubicino di scarico e richiudi il tappo.",
+   "Scongela i tubi di carico ghiacciati in acqua calda, poi rimontali e avvia un risciacquo."
+  ],
+  "technician": "Se FF compare quando non fa freddo, richiedi l'assistenza."
+ },
+ "Siemens|E16": {
+  "title": "Oblò non bloccato",
+  "causes": [
+   "Ci sono capi incastrati nell'oblò.",
+   "L'oblò non è chiuso bene."
+  ],
+  "steps": [
+   "Apri l'oblò e richiudilo bene.",
+   "Se serve, togli qualche capo e spingi l'oblò per chiuderlo.",
+   "Premi di nuovo Start, oppure spegni, riaccendi e riavvia."
+  ],
+  "technician": "Se l'oblò non si blocca, chiama l'assistenza Siemens."
+ },
+ "Siemens|E17": {
+  "title": "Carico dell'acqua troppo lento",
+  "causes": [
+   "Pressione dell'acqua bassa.",
+   "Un filtro ostruito nel tubo di alimentazione.",
+   "Un tubo AquaStop ostruito."
+  ],
+  "steps": [
+   "Controlla che il rubinetto sia aperto del tutto.",
+   "Controlla il flusso: con il rubinetto tutto aperto dovrebbero uscire circa 10 litri al minuto.",
+   "Chiudi il rubinetto e pulisci il filtro nel tubo di alimentazione.",
+   "Assicurati che il tubo non sia piegato."
+  ],
+  "technician": "Se la pressione è troppo bassa, chiama un idraulico. Se l'alimentazione è a posto, chiama l'assistenza Siemens."
+ },
+ "Siemens|E18": {
+  "title": "L'acqua non scarica",
+  "causes": [
+   "Il filtro della pompa è ostruito.",
+   "Il tubo di scarico è ostruito o piegato."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina. Se l'acqua è calda, lasciala raffreddare.",
+   "Metti degli asciugamani e un contenitore basso sotto lo sportellino del filtro e scarica l'acqua.",
+   "Pulisci il filtro della pompa e rimontalo bene.",
+   "Raddrizza il tubo di scarico e controlla che non sia ostruito."
+  ],
+  "technician": "Se non scarica ancora, chiama l'assistenza Siemens."
+ },
+ "Siemens|E19": {
+  "title": "Riscaldamento dell'acqua troppo lento",
+  "causes": [
+   "Un guasto al sistema di riscaldamento."
+  ],
+  "steps": [
+   "Spegni e riaccendi la lavatrice e riavvia."
+  ],
+  "technician": "Secondo Siemens l'utente non può risolvere questo problema. Prenota un intervento dell'assistenza."
+ },
+ "Siemens|E20": {
+  "title": "Riscaldamento imprevisto",
+  "causes": [
+   "È stato rilevato il riscaldamento quando dovrebbe essere spento."
+  ],
+  "steps": [
+   "Spegni e riaccendi la lavatrice."
+  ],
+  "technician": "Se il problema continua, prenota un intervento dell'assistenza Siemens."
+ },
+ "Siemens|E23": {
+  "title": "Perdita – acqua nel fondo",
+  "causes": [
+   "La lavatrice perde acqua, oppure si è raccolta acqua nella vaschetta di fondo."
+  ],
+  "steps": [
+   "Chiudi subito il rubinetto dell'acqua.",
+   "Spegni la lavatrice e stacca la spina.",
+   "Asciuga l'acqua dal pavimento."
+  ],
+  "technician": "Chiama l'assistenza Siemens per trovare e riparare la perdita."
+ },
+ "Siemens|E25": {
+  "title": "Guasto al sensore di torbidità",
+  "causes": [
+   "Il sensore di limpidezza dell'acqua è guasto."
+  ],
+  "steps": [
+   "Spegni e riaccendi la lavatrice."
+  ],
+  "technician": "Prenota un intervento dell'assistenza Siemens."
+ },
+ "Siemens|E26": {
+  "title": "Guasto al sensore di livello dell'acqua",
+  "causes": [
+   "Il sensore di pressione analogico è guasto."
+  ],
+  "steps": [
+   "Spegni e riaccendi la lavatrice."
+  ],
+  "technician": "Prenota un intervento dell'assistenza Siemens."
+ },
+ "Siemens|E29": {
+  "title": "Problema di carico dell'acqua",
+  "causes": [
+   "Pressione dell'acqua bassa oppure filtro di alimentazione o tubo AquaStop ostruiti."
+  ],
+  "steps": [
+   "Controlla che il rubinetto sia aperto del tutto e che il flusso sia di circa 10 litri al minuto.",
+   "Chiudi il rubinetto e pulisci il filtro nel tubo di alimentazione.",
+   "Assicurati che il tubo non sia piegato."
+  ],
+  "technician": "Se l'alimentazione è a posto e il codice ricompare, chiama l'assistenza Siemens."
+ },
+ "Siemens|E32": {
+  "title": "Carico sbilanciato – centrifuga interrotta",
+  "causes": [
+   "Il bucato non è distribuito in modo uniforme nel cesto. Non è un guasto."
+  ],
+  "steps": [
+   "Distribuisci in modo uniforme i capi grandi e piccoli nel cesto.",
+   "Avvia di nuovo la centrifuga."
+  ],
+  "technician": "Non serve, a meno che non succeda con ogni carico normale."
+ },
+ "Siemens|E33": {
+  "title": "Troppa schiuma",
+  "causes": [
+   "Troppo detersivo, soprattutto con acqua dolce o bucato poco sporco."
+  ],
+  "steps": [
+   "La prossima volta usa meno detersivo.",
+   "Avvia un risciacquo per eliminare la schiuma."
+  ],
+  "technician": "Di solito non serve."
+ },
+ "Siemens|E34": {
+  "title": "Oblò non bloccato",
+  "causes": [
+   "L'oblò non è chiuso del tutto, spesso perché il cesto è troppo pieno.",
+   "Un capo è incastrato tra l'oblò e la scocca."
+  ],
+  "steps": [
+   "Controlla che non ci siano capi incastrati nell'oblò.",
+   "Chiudi l'oblò finché non senti il clic.",
+   "Riavvia il programma."
+  ],
+  "technician": "Se l'oblò continua a non bloccarsi, chiama l'assistenza Siemens."
+ },
+ "AEG|E10": {
+  "title": "Problema di alimentazione dell'acqua",
+  "causes": [
+   "L'alimentazione dell'acqua è ridotta o interrotta, per esempio rubinetto chiuso o tubo piegato."
+  ],
+  "steps": [
+   "Controlla che il rubinetto dell'acqua sia aperto del tutto.",
+   "Assicurati che il tubo di carico non sia piegato o schiacciato.",
+   "Reset: spegni dalla presa per circa un minuto, poi riaccendi e riavvia."
+  ],
+  "technician": "Se il codice ricompare subito, o la lavatrice continua a non caricare acqua, prenota una riparazione."
+ },
+ "AEG|E20": {
+  "title": "Problema di scarico",
+  "causes": [
+   "Filtro della pompa di scarico o tubo di scarico ostruiti."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina. Se l'acqua è calda, lasciala raffreddare.",
+   "Scarica l'acqua in un contenitore e pulisci il filtro della pompa di scarico.",
+   "Controlla che il tubo di scarico non sia piegato o ostruito.",
+   "Ricollega la spina e avvia uno scarico o una centrifuga."
+  ],
+  "technician": "Se l'acqua continua a non scaricare, prenota una riparazione."
+ },
+ "AEG|E30": {
+  "title": "Problema al sensore di pressione (livello) dell'acqua",
+  "causes": [
+   "Il sensore che misura il livello dell'acqua è guasto, oppure troppa schiuma falsa la lettura."
+  ],
+  "steps": [
+   "Spegni dalla presa per circa un minuto, poi riaccendi.",
+   "Usa la quantità di detersivo corretta."
+  ],
+  "technician": "Se il codice ricompare, prenota una riparazione."
+ },
+ "AEG|E40": {
+  "title": "Problema al blocco porta",
+  "causes": [
+   "L'oblò non è chiuso bene, oppure il blocco porta è guasto."
+  ],
+  "steps": [
+   "Apri l'oblò, controlla che non ci sia nulla incastrato nella guarnizione e chiudilo bene.",
+   "Spegni dalla presa per circa un minuto, poi riavvia."
+  ],
+  "technician": "Se l'oblò continua a non bloccarsi, prenota una riparazione."
+ },
+ "AEG|E50": {
+  "title": "Problema al motore",
+  "causes": [
+   "Un guasto al motore o al sistema di trasmissione."
+  ],
+  "steps": [
+   "Spegni dalla presa per circa un minuto, poi riavvia."
+  ],
+  "technician": "Se il cesto continua a non girare, prenota una riparazione."
+ },
+ "AEG|E60": {
+  "title": "Problema di riscaldamento",
+  "causes": [
+   "Un guasto alla resistenza o al sensore di temperatura."
+  ],
+  "steps": [
+   "Spegni dalla presa per circa un minuto, poi riavvia."
+  ],
+  "technician": "Se il codice ricompare, prenota una riparazione."
+ },
+ "AEG|EF0": {
+  "title": "Avviso: perdita, troppa schiuma o carico sbilanciato",
+  "causes": [
+   "Perdita d'acqua all'interno della lavatrice.",
+   "Troppa schiuma di detersivo.",
+   "Un carico sbilanciato."
+  ],
+  "steps": [
+   "Spegni la lavatrice, stacca la spina e controlla se c'è acqua sul pavimento.",
+   "Se non ci sono perdite, usa meno detersivo e distribuisci il carico in modo uniforme.",
+   "Riavvia quando la schiuma si è abbassata."
+  ],
+  "technician": "Se vedi una perdita o il codice continua a ricomparire, chiudi il rubinetto e prenota una riparazione."
+ },
+ "AEG|EH0": {
+  "title": "Problema di alimentazione elettrica",
+  "causes": [
+   "La tensione di rete è irregolare o instabile."
+  ],
+  "steps": [
+   "Collega la lavatrice direttamente a una presa a muro, senza prolunghe.",
+   "Spegni per circa un minuto, poi riaccendi."
+  ],
+  "technician": "Se succede ancora, fai controllare l'impianto da un elettricista."
+ },
+ "Hotpoint|F01": {
+  "title": "Guasto alla scheda elettronica",
+  "causes": [
+   "Un guasto alla scheda di controllo. Alcune o tutte le funzioni non vanno."
+  ],
+  "steps": [
+   "Stacca la spina della lavatrice per almeno 2 minuti.",
+   "Ricollega la spina, aspetta 30 secondi e riprova."
+  ],
+  "technician": "Se il guasto resta, prenota un tecnico Hotpoint."
+ },
+ "Hotpoint|F02": {
+  "title": "Guasto al circuito del motore",
+  "causes": [
+   "Un guasto al circuito del motore. Il cesto gira a intermittenza o non gira affatto."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina."
+  ],
+  "technician": "Prenota un tecnico Hotpoint."
+ },
+ "Hotpoint|F03": {
+  "title": "Guasto al sensore di temperatura",
+  "causes": [
+   "Il circuito di rilevamento della temperatura è guasto, quindi la lavatrice non scalda."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina."
+  ],
+  "technician": "Prenota un tecnico Hotpoint."
+ },
+ "Hotpoint|F05": {
+  "title": "Scarico ostruito o problema alla pompa",
+  "causes": [
+   "Filtro della pompa, tubo di scarico o scarico sotto il lavello ostruiti.",
+   "Pompa di scarico guasta."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina. Se l'acqua è calda, lasciala raffreddare.",
+   "Se il tuo modello ha un filtro della pompa, scarica l'acqua in un contenitore e pulisci il filtro.",
+   "Controlla che il tubo di scarico e il tubo sotto il lavello non siano ostruiti.",
+   "Ricollega la spina e prova uno scarico o una centrifuga."
+  ],
+  "technician": "Se non scarica ancora, probabilmente la pompa è guasta. Prenota un tecnico."
+ },
+ "Hotpoint|F06": {
+  "title": "Guasto al blocco porta",
+  "causes": [
+   "Il blocco porta è bloccato o guasto."
+  ],
+  "steps": [
+   "Controlla che non ci sia nulla che ostacoli l'oblò e la zona del blocco.",
+   "Chiudi bene l'oblò e riavvia.",
+   "Consulta la pagina degli avvisi di sicurezza Hotpoint – alcuni blocchi porta sono oggetto di richiamo."
+  ],
+  "technician": "Se il guasto continua, prenota un tecnico."
+ },
+ "Hotpoint|F07": {
+  "title": "Guasto al circuito di riscaldamento / scheda",
+  "causes": [
+   "Un guasto al circuito di riscaldamento o alla scheda di controllo. Il lavaggio si ferma e la pompa può continuare a funzionare."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina."
+  ],
+  "technician": "Prenota un tecnico Hotpoint."
+ },
+ "Hotpoint|F08": {
+  "title": "Guasto alla resistenza",
+  "causes": [
+   "La resistenza è guasta, quindi il programma si ferma a metà lavaggio."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina."
+  ],
+  "technician": "Prenota un tecnico Hotpoint."
+ },
+ "Hotpoint|F09": {
+  "title": "Errore software",
+  "causes": [
+   "Un problema software. Le spie lampeggiano e non si può scegliere nessun programma."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina."
+  ],
+  "technician": "Prenota un tecnico Hotpoint."
+ },
+ "Hotpoint|F11": {
+  "title": "Guasto al circuito della pompa di scarico",
+  "causes": [
+   "Un guasto al circuito della pompa. L'acqua resta nel cesto."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina.",
+   "Non aprire l'oblò finché c'è acqua nel cesto."
+  ],
+  "technician": "Prenota un tecnico Hotpoint."
+ },
+ "Hotpoint|F12": {
+  "title": "Guasto al controllo elettronico",
+  "causes": [
+   "Un guasto ai comandi. La lavatrice non si accende."
+  ],
+  "steps": [
+   "Verifica con un altro apparecchio che spina e presa funzionino."
+  ],
+  "technician": "Prenota un tecnico Hotpoint."
+ },
+ "Hotpoint|F15": {
+  "title": "Guasto al controllo della resistenza",
+  "causes": [
+   "Un guasto al controllo della resistenza. L'acqua non si scalda o il lavaggio si ferma."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina."
+  ],
+  "technician": "Prenota un tecnico Hotpoint."
+ },
+ "Hotpoint|F18": {
+  "title": "Errore dati interno",
+  "causes": [
+   "Un problema ai dati interni. Alcune o tutte le funzioni del display non vanno."
+  ],
+  "steps": [
+   "Stacca la spina della lavatrice per almeno 2 minuti.",
+   "Ricollega la spina, aspetta 30 secondi e riprova."
+  ],
+  "technician": "Se resta, prenota un tecnico Hotpoint."
+ },
+ "Indesit|F01": {
+  "title": "Guasto alla scheda elettronica",
+  "causes": [
+   "Un guasto alla scheda di controllo. Alcune o tutte le funzioni non si possono selezionare."
+  ],
+  "steps": [
+   "Stacca la spina della lavatrice per almeno 2 minuti.",
+   "Ricollega la spina, aspetta 30 secondi e riprova."
+  ],
+  "technician": "Se il guasto resta, prenota un tecnico Indesit."
+ },
+ "Indesit|F02": {
+  "title": "Guasto al circuito del motore",
+  "causes": [
+   "Un guasto al circuito del motore. Il cesto gira a intermittenza o non gira affatto."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina."
+  ],
+  "technician": "Prenota un tecnico Indesit."
+ },
+ "Indesit|F03": {
+  "title": "Guasto al sensore di temperatura",
+  "causes": [
+   "Il circuito di rilevamento della temperatura è guasto, quindi la lavatrice non scalda."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina."
+  ],
+  "technician": "Prenota un tecnico Indesit."
+ },
+ "Indesit|F05": {
+  "title": "Scarico ostruito o problema alla pompa",
+  "causes": [
+   "Filtro della pompa, tubo di scarico o scarico sotto il lavello ostruiti.",
+   "Pompa di scarico guasta."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina. Se l'acqua è calda, lasciala raffreddare.",
+   "Se il tuo modello ha un filtro della pompa, scarica l'acqua in un contenitore e puliscilo.",
+   "Controlla che il tubo di scarico e il tubo sotto il lavello non siano ostruiti.",
+   "Ricollega la spina e prova uno scarico o una centrifuga."
+  ],
+  "technician": "Se non scarica ancora, probabilmente la pompa è guasta. Prenota un tecnico."
+ },
+ "Indesit|F06": {
+  "title": "Guasto al blocco porta",
+  "causes": [
+   "Il blocco porta è bloccato o guasto."
+  ],
+  "steps": [
+   "Controlla che non ci sia nulla che ostacoli l'oblò e la zona del blocco.",
+   "Chiudi bene l'oblò e riavvia.",
+   "Consulta l'avviso di sicurezza del marchio – alcuni blocchi porta sono oggetto di richiamo."
+  ],
+  "technician": "Se il guasto continua, prenota un tecnico."
+ },
+ "Indesit|F07": {
+  "title": "Guasto al circuito di riscaldamento / scheda",
+  "causes": [
+   "Un guasto al circuito di riscaldamento o alla scheda di controllo. Il lavaggio si ferma e la pompa può continuare a funzionare."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina."
+  ],
+  "technician": "Prenota un tecnico Indesit."
+ },
+ "Indesit|F08": {
+  "title": "Guasto alla resistenza",
+  "causes": [
+   "La resistenza è guasta, quindi il programma si ferma a metà lavaggio."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina."
+  ],
+  "technician": "Prenota un tecnico Indesit."
+ },
+ "Indesit|F09": {
+  "title": "Errore software",
+  "causes": [
+   "Un problema software. Le spie lampeggiano e non si può scegliere nessun programma."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina."
+  ],
+  "technician": "Prenota un tecnico Indesit."
+ },
+ "Indesit|F11": {
+  "title": "Guasto al circuito della pompa di scarico",
+  "causes": [
+   "Un guasto al circuito della pompa. L'acqua resta nel cesto."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina.",
+   "Non aprire l'oblò finché c'è acqua nel cesto."
+  ],
+  "technician": "Prenota un tecnico Indesit."
+ },
+ "Indesit|F12": {
+  "title": "Guasto al controllo elettronico",
+  "causes": [
+   "Un guasto ai comandi. La lavatrice non si accende."
+  ],
+  "steps": [
+   "Verifica con un altro apparecchio che spina e presa funzionino."
+  ],
+  "technician": "Prenota un tecnico Indesit."
+ },
+ "Indesit|F15": {
+  "title": "Guasto al controllo della resistenza",
+  "causes": [
+   "Un guasto al controllo della resistenza. L'acqua non si scalda o il lavaggio si ferma."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina."
+  ],
+  "technician": "Prenota un tecnico Indesit."
+ },
+ "Indesit|F18": {
+  "title": "Errore dati interno",
+  "causes": [
+   "Un problema ai dati interni. Alcune o tutte le funzioni del display non vanno."
+  ],
+  "steps": [
+   "Stacca la spina della lavatrice per almeno 2 minuti.",
+   "Ricollega la spina, aspetta 30 secondi e riprova."
+  ],
+  "technician": "Se resta, prenota un tecnico Indesit."
+ },
+ "Beko|E5": {
+  "title": "Filtro della pompa forse intasato (problema di scarico)",
+  "causes": [
+   "Il filtro della pompa è ostruito, quindi l'acqua non può scaricare."
+  ],
+  "steps": [
+   "Spegni la lavatrice e stacca la spina. Se l'acqua è calda, lasciala raffreddare.",
+   "Scarica l'acqua rimasta in un contenitore e pulisci il filtro della pompa.",
+   "Rimonta bene il filtro e avvia un ciclo di centrifuga."
+  ],
+  "technician": "Se il problema continua, chiama l'assistenza Beko."
+ },
+ "Beko|E8": {
+  "title": "Non entra acqua",
+  "causes": [
+   "Il rubinetto è chiuso o manca l'acqua.",
+   "Il tubo di carico è piegato o allentato.",
+   "Lo sportellino del filtro sul davanti non è chiuso e bloccato."
+  ],
+  "steps": [
+   "Apri il rubinetto e controlla che arrivi acqua dalla rete.",
+   "Controlla il collegamento del tubo di carico e raddrizza eventuali pieghe.",
+   "Assicurati che lo sportellino sul davanti sia chiuso e bloccato.",
+   "Avvia di nuovo la lavatrice."
+  ],
+  "technician": "Se il problema continua, chiama l'assistenza Beko."
+ },
+ "Beko|E12": {
+  "title": "Possibile acqua all'interno della lavatrice (perdita)",
+  "causes": [
+   "Si è raccolta acqua all'interno della lavatrice, forse per una perdita."
+  ],
+  "steps": [
+   "Stacca la spina della lavatrice.",
+   "Asciuga l'acqua sotto la lavatrice.",
+   "Ricollega la spina e avvia un ciclo breve tenendola d'occhio."
+  ],
+  "technician": "Se l'acqua esce da un tubo o il codice ricompare, chiudi i rubinetti e chiama l'assistenza Beko."
+ },
+ "Beko|E17": {
+  "title": "Troppa schiuma",
+  "causes": [
+   "Troppo detersivo per il carico.",
+   "Detersivo messo nello scomparto sbagliato o conservato male."
+  ],
+  "steps": [
+   "Dosa il detersivo in base al carico e a quanto è sporco.",
+   "Usa meno detersivo per i tessuti molto assorbenti.",
+   "Avvia il programma Drum Cleaning (o Cotone 90°C) con il cesto vuoto."
+  ],
+  "technician": "Se il problema continua, chiama l'assistenza Beko."
+ },
+ "Beko|E18": {
+  "title": "Carico sbilanciato – la centrifuga non è partita",
+  "causes": [
+   "Troppo poco bucato, oppure bucato ammassato su un lato."
+  ],
+  "steps": [
+   "Se il carico è molto piccolo, aggiungi altri capi.",
+   "Distribuisci il bucato in modo uniforme a mano.",
+   "Avvia di nuovo la centrifuga."
+  ],
+  "technician": "Di solito non serve."
+ },
+ "Beko|E27": {
+  "title": "Problema di scarico",
+  "causes": [
+   "Il tubo di scarico non è collegato correttamente."
+  ],
+  "steps": [
+   "Controlla il collegamento del tubo di scarico allo scarico.",
+   "Assicurati che il tubo non sia piegato o ostruito."
+  ],
+  "technician": "Se il problema continua, chiama l'assistenza Beko."
+ },
+ "Beko|E29": {
+  "title": "Modalità di autoprotezione (problema di alimentazione)",
+  "causes": [
+   "Un problema alla tensione di rete o alla pressione dell'acqua."
+  ],
+  "steps": [
+   "Annulla il programma girando la manopola su un altro programma.",
+   "Avvia di nuovo il programma."
+  ],
+  "technician": "Se il problema continua, chiama l'assistenza Beko."
+ },
+ "Miele|F10": {
+  "title": "Carico dell'acqua ostruito o ridotto",
+  "causes": [
+   "Il rubinetto di arresto è chiuso.",
+   "Il filtro di ingresso è sporco.",
+   "Il tubo di carico è piegato.",
+   "La pressione dell'acqua è troppo bassa."
+  ],
+  "steps": [
+   "Interrompi il programma e apri del tutto il rubinetto.",
+   "Chiudi il rubinetto, svita il tubo di carico, estrai il piccolo filtro, puliscilo e rimettilo.",
+   "Rimonta il tubo, apri il rubinetto e controlla che non goccioli.",
+   "Raddrizza eventuali pieghe del tubo.",
+   "Controlla il flusso: in 15 secondi devono uscire almeno 5 litri."
+  ],
+  "technician": "Se la pressione è troppo bassa, chiama un idraulico. Se il tubo è danneggiato, l'assistenza Miele può sostituirlo."
+ },
+ "Miele|F11": {
+  "title": "Scarico ostacolato",
+  "causes": [
+   "L'estremità del tubo di scarico è più alta di 1 metro.",
+   "Il tubo di scarico è piegato.",
+   "Il filtro di scarico o la pompa sono bloccati da oggetti come bottoni o monete."
+  ],
+  "steps": [
+   "Spegni la lavatrice. Lascia raffreddare l'acqua calda per evitare scottature.",
+   "Abbassa l'estremità del tubo di scarico a 1 metro o meno ed elimina le pieghe.",
+   "Apri lo sportellino della pompa di scarico, metti un contenitore sotto e svita lentamente il filtro di scarico per far uscire l'acqua.",
+   "Pulisci il filtro, controlla che la girante della pompa giri liberamente, poi riavvita bene il filtro."
+  ],
+  "technician": "Se il guasto continua, contatta l'assistenza Miele."
+ },
+ "Miele|F15": {
+  "title": "Carico dell'acqua calda ostruito o ridotto",
+  "causes": [
+   "Il rubinetto dell'acqua calda non è aperto del tutto.",
+   "Il filtro di ingresso dell'acqua calda è sporco.",
+   "La pressione dell'acqua calda è troppo bassa."
+  ],
+  "steps": [
+   "Apri del tutto il rubinetto dell'acqua calda e riavvia.",
+   "Chiudi il rubinetto, svita il tubo dell'acqua calda, pulisci il piccolo filtro e rimontalo.",
+   "Controlla il flusso: almeno 5 litri in 15 secondi."
+  ],
+  "technician": "Se la pressione è troppo bassa e non si può aumentare, contatta un idraulico o l'assistenza Miele."
+ },
+ "Miele|F20": {
+  "title": "Guasto al riscaldamento",
+  "causes": [
+   "La temperatura impostata non è stata raggiunta in tempo (Thermostop).",
+   "Un guasto tecnico al sistema di riscaldamento."
+  ],
+  "steps": [
+   "Spegni dalla presa e stacca la spina, oppure abbassa l'interruttore nel quadro elettrico.",
+   "Aspetta almeno 2 minuti.",
+   "Ricollega, accendi e riavvia il programma."
+  ],
+  "technician": "Se F20 ricompare, contatta l'assistenza Miele."
+ },
+ "Miele|F34": {
+  "title": "Non è stato possibile bloccare l'oblò",
+  "causes": [
+   "Il cesto è sovraccarico.",
+   "Un guasto tecnico al blocco."
+  ],
+  "steps": [
+   "Togli un po' di bucato per rientrare nel carico massimo.",
+   "Spegni e riaccendi.",
+   "Se serve, stacca la spina per almeno 2 minuti, poi ricollegala e accendi."
+  ],
+  "technician": "Se il guasto ricompare, contatta l'assistenza Miele."
+ },
+ "Miele|F35": {
+  "title": "Non è stato possibile sbloccare l'oblò",
+  "causes": [
+   "Un guasto tecnico al blocco porta."
+  ],
+  "steps": [
+   "Spegni dalla presa e stacca la spina, oppure abbassa l'interruttore nel quadro elettrico.",
+   "Aspetta almeno 2 minuti, poi ricollega e accendi."
+  ],
+  "technician": "Se l'oblò continua a non aprirsi, contatta l'assistenza Miele. Non forzare l'oblò."
+ },
+ "Miele|Waterproof system activated": {
+  "title": "Protezione antiallagamento attivata",
+  "causes": [
+   "È stata rilevata acqua all'interno della lavatrice a causa di una perdita."
+  ],
+  "steps": [
+   "Stacca la spina della lavatrice.",
+   "Chiudi il rubinetto dell'acqua.",
+   "Asciuga l'acqua sul pavimento.",
+   "Non usare la lavatrice finché non è riparata."
+  ],
+  "technician": "Secondo Miele la perdita deve essere riparata dall'assistenza Miele. Non provare a ripararla da solo."
+ }
+}

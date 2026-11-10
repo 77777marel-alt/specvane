@@ -2,6 +2,18 @@ import 'server-only'
 import type { Locale } from './i18n/config'
 import washers from '../../data/errors/washing-machines.json'
 import dishwashers from '../../data/errors/dishwashers.json'
+import deW from '../../data/errors/i18n/de/washing-machines.json'
+import deD from '../../data/errors/i18n/de/dishwashers.json'
+import frW from '../../data/errors/i18n/fr/washing-machines.json'
+import frD from '../../data/errors/i18n/fr/dishwashers.json'
+import itW from '../../data/errors/i18n/it/washing-machines.json'
+import itD from '../../data/errors/i18n/it/dishwashers.json'
+import esW from '../../data/errors/i18n/es/washing-machines.json'
+import esD from '../../data/errors/i18n/es/dishwashers.json'
+import elW from '../../data/errors/i18n/el/washing-machines.json'
+import elD from '../../data/errors/i18n/el/dishwashers.json'
+import ruW from '../../data/errors/i18n/ru/washing-machines.json'
+import ruD from '../../data/errors/i18n/ru/dishwashers.json'
 
 // Коды ошибок техники: факты с официальных страниц производителей, текст — своими словами (data/errors/*.json).
 // Переводы кладутся в data/errors/i18n/<lang>/<appliance>.json — страницы языка появляются, когда перевод есть.
@@ -11,7 +23,12 @@ export const APPLIANCES = { 'washing-machines': washers as ErrorCode[], dishwash
 export type Appliance = keyof typeof APPLIANCES
 
 /** Языки, на которых раздел уже переведён. */
-const TRANSLATIONS: Partial<Record<Locale, Partial<Record<Appliance, Record<string, Pick<ErrorCode, 'title' | 'causes' | 'steps' | 'technician'>>>>>> = {}
+type Tr = Record<string, Pick<ErrorCode, 'title' | 'causes' | 'steps' | 'technician'>>
+const TRANSLATIONS: Partial<Record<Locale, Record<Appliance, Tr>>> = {
+  de: { 'washing-machines': deW, dishwashers: deD }, fr: { 'washing-machines': frW, dishwashers: frD },
+  it: { 'washing-machines': itW, dishwashers: itD }, es: { 'washing-machines': esW, dishwashers: esD },
+  el: { 'washing-machines': elW, dishwashers: elD }, ru: { 'washing-machines': ruW, dishwashers: ruD },
+}
 export const ERROR_LANGS: Locale[] = ['en', ...(Object.keys(TRANSLATIONS) as Locale[])]
 export const hasErrors = (lang: Locale) => ERROR_LANGS.includes(lang)
 

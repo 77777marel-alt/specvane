@@ -1,0 +1,1167 @@
+{
+ "Bosch|E16": {
+  "title": "Porte non fermée",
+  "causes": [
+   "La porte n'est pas bien fermée.",
+   "Du linge est coincé entre la porte et le joint."
+  ],
+  "steps": [
+   "Ouvrez la porte et vérifiez qu'aucun vêtement n'est coincé dans le joint en caoutchouc.",
+   "Fermez la porte fermement jusqu'au déclic.",
+   "Relancez le programme."
+  ],
+  "technician": "Si le code reste affiché avec la porte bien fermée, la serrure de porte est peut-être défectueuse. Prenez rendez-vous avec le service après-vente Bosch."
+ },
+ "Bosch|E17": {
+  "title": "Remplissage d'eau trop long",
+  "causes": [
+   "Le robinet d'eau est fermé ou seulement à moitié ouvert.",
+   "Le tuyau d'arrivée d'eau est plié.",
+   "Pression d'eau faible dans le logement."
+  ],
+  "steps": [
+   "Vérifiez que le robinet qui alimente l'appareil est complètement ouvert.",
+   "Vérifiez que le tuyau d'arrivée n'est ni plié ni écrasé.",
+   "Relancez le programme."
+  ],
+  "technician": "Si le robinet est ouvert et que le code revient, appelez le service après-vente Bosch. L'électrovanne ou le tuyau AquaStop doit peut-être être vérifié."
+ },
+ "Bosch|E18": {
+  "title": "L'eau ne se vidange pas",
+  "causes": [
+   "La pompe de vidange ou son filtre est bouché.",
+   "Le tuyau de vidange est plié ou bouché.",
+   "De petits objets (pièces, boutons) sont coincés dans la pompe."
+  ],
+  "steps": [
+   "Éteignez l'appareil, débranchez-le et fermez le robinet d'eau.",
+   "Laissez l'eau chaude refroidir avant de commencer.",
+   "Placez un récipient plat et des serviettes sous la trappe de la pompe, videz l'eau avec le tuyau de vidange d'urgence, puis nettoyez le filtre de la pompe.",
+   "Vérifiez que le tuyau de vidange n'est ni plié ni bouché, et remettez-le droit.",
+   "Remettez bien le filtre en place, rebranchez l'appareil et lancez un programme de vidange ou d'essorage."
+  ],
+  "technician": "Si l'eau ne s'évacue toujours pas après le nettoyage du filtre et du tuyau, la pompe de vidange est probablement défectueuse. Appelez un technicien."
+ },
+ "Bosch|E19": {
+  "title": "L'eau chauffe trop lentement",
+  "causes": [
+   "L'appareil n'a pas atteint la température de lavage réglée dans le temps prévu.",
+   "En général, un défaut du système de chauffage."
+  ],
+  "steps": [
+   "Éteignez puis rallumez l'appareil, puis relancez le programme."
+  ],
+  "technician": "Selon Bosch, ce défaut ne peut pas être réparé par l'utilisateur. Prenez rendez-vous avec le service après-vente s'il revient."
+ },
+ "Bosch|E20": {
+  "title": "Chauffage activé alors qu'il ne devrait pas l'être",
+  "causes": [
+   "L'appareil a détecté un chauffage à un moment inattendu.",
+   "Un défaut électronique ou de commande du chauffage."
+  ],
+  "steps": [
+   "Éteignez l'appareil et débranchez-le quelques instants.",
+   "Rebranchez-le et relancez le programme."
+  ],
+  "technician": "Si le code revient, n'utilisez plus l'appareil et appelez le service après-vente Bosch."
+ },
+ "Bosch|E23": {
+  "title": "Protection anti-fuite AquaStop déclenchée",
+  "causes": [
+   "De l'eau s'est accumulée dans le socle de l'appareil.",
+   "Une fuite à l'intérieur de l'appareil ou au niveau du tuyau AquaStop."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil.",
+   "Fermez le robinet d'eau.",
+   "Essuyez l'eau au sol."
+  ],
+  "technician": "Selon Bosch, ce problème ne peut pas être réparé par l'utilisateur. Laissez le robinet fermé et prenez rendez-vous avec le service après-vente."
+ },
+ "Bosch|E25": {
+  "title": "Défaut du capteur de turbidité (clarté de l'eau)",
+  "causes": [
+   "Le capteur qui mesure le degré de saleté de l'eau présente un problème."
+  ],
+  "steps": [
+   "Éteignez puis rallumez l'appareil et relancez le programme."
+  ],
+  "technician": "Si le code revient, appelez le service après-vente Bosch pour faire vérifier le capteur."
+ },
+ "Bosch|E26": {
+  "title": "Défaut du capteur de niveau d'eau (pressostat)",
+  "causes": [
+   "Le capteur de pression analogique qui mesure le niveau d'eau dans le tambour est défectueux."
+  ],
+  "steps": [
+   "Éteignez puis rallumez l'appareil et relancez le programme."
+  ],
+  "technician": "Selon Bosch, ce défaut nécessite l'intervention du service après-vente."
+ },
+ "Bosch|F27": {
+  "title": "Défaut du capteur de pression",
+  "causes": [
+   "Le capteur de pression ne fonctionne pas correctement."
+  ],
+  "steps": [
+   "Éteignez puis rallumez l'appareil et relancez le programme."
+  ],
+  "technician": "Si le code revient, appelez le service après-vente Bosch."
+ },
+ "Bosch|E28": {
+  "title": "Défaut du débitmètre",
+  "causes": [
+   "Le capteur qui mesure l'eau entrante signale un problème."
+  ],
+  "steps": [
+   "Vérifiez que le robinet d'eau est complètement ouvert.",
+   "Éteignez puis rallumez l'appareil et relancez le programme."
+  ],
+  "technician": "Si le code revient, appelez le service après-vente Bosch."
+ },
+ "Samsung|4C": {
+  "title": "Pas d'arrivée d'eau",
+  "causes": [
+   "Le robinet d'eau est fermé.",
+   "Le tuyau d'arrivée est bouché, plié ou gelé.",
+   "La pression d'eau est trop faible.",
+   "Les tuyaux d'eau chaude et d'eau froide sont branchés sur les mauvais robinets.",
+   "Le filtre à tamis à l'entrée du tuyau est sale."
+  ],
+  "steps": [
+   "Ouvrez complètement le robinet d'eau.",
+   "Vérifiez que le tuyau d'arrivée n'est ni plié, ni bouché, ni gelé.",
+   "Vérifiez que les tuyaux d'eau chaude et d'eau froide sont sur les bons robinets.",
+   "Fermez le robinet, dévissez le tuyau et nettoyez le petit filtre à tamis, puis remettez-le en place.",
+   "Attendez 3 minutes (les touches sont bloquées après ce code), puis relancez."
+  ],
+  "technician": "Si l'eau n'arrive toujours pas avec le robinet ouvert et un filtre propre, contactez le service après-vente Samsung."
+ },
+ "Samsung|4C2": {
+  "title": "Eau d'arrivée trop chaude",
+  "causes": [
+   "Le tuyau d'eau froide est branché sur un robinet d'eau chaude, ou mal fixé au robinet d'eau froide."
+  ],
+  "steps": [
+   "Vérifiez que le tuyau d'eau froide est bien fixé au robinet d'eau froide.",
+   "Éteignez puis rallumez l'appareil et relancez."
+  ],
+  "technician": "Si le code persiste alors que les branchements sont corrects, contactez le service après-vente Samsung."
+ },
+ "Samsung|5C": {
+  "title": "L'eau ne se vidange pas",
+  "causes": [
+   "Le tuyau de vidange est bouché, plié ou gelé.",
+   "Le tuyau de vidange est mal installé.",
+   "Le filtre à débris est encrassé."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil.",
+   "Vérifiez que le tuyau de vidange est droit et qu'il n'est ni bouché ni gelé.",
+   "Posez des serviettes et un bac peu profond, videz l'eau, puis nettoyez le filtre à débris à l'avant.",
+   "Remettez bien le filtre en place, rebranchez l'appareil et essayez une vidange ou un essorage."
+  ],
+  "technician": "Si l'eau ne s'évacue toujours pas, la pompe de vidange est peut-être défectueuse. Contactez le service après-vente Samsung."
+ },
+ "Samsung|dC": {
+  "title": "Porte ouverte ou mal fermée",
+  "causes": [
+   "L'appareil a été lancé avec la porte ouverte.",
+   "Du linge est coincé dans la porte."
+  ],
+  "steps": [
+   "Ouvrez la porte et retirez les vêtements coincés dans le joint.",
+   "Fermez la porte fermement et relancez."
+  ],
+  "technician": "Si le code reste affiché avec la porte fermée, la serrure de porte est peut-être défectueuse. Contactez le service après-vente Samsung."
+ },
+ "Samsung|dC1": {
+  "title": "La serrure de porte ne se verrouille pas ou ne se déverrouille pas",
+  "causes": [
+   "La serrure principale de la porte ne fonctionne pas comme prévu."
+  ],
+  "steps": [
+   "Éteignez l'appareil, attendez un moment et rallumez-le.",
+   "Relancez le cycle."
+  ],
+  "technician": "Si le problème se répète, la serrure de porte doit être vérifiée par le service après-vente."
+ },
+ "Samsung|OC": {
+  "title": "Trop d'eau (débordement)",
+  "causes": [
+   "L'appareil a détecté un niveau d'eau trop élevé."
+  ],
+  "steps": [
+   "Laissez l'appareil terminer la vidange et l'essorage.",
+   "Relancez le cycle une fois l'essorage terminé.",
+   "Utilisez la bonne dose de lessive pour éviter trop de mousse."
+  ],
+  "technician": "Si le code revient à chaque lavage, contactez le service après-vente Samsung. L'électrovanne ou le capteur de niveau est peut-être défectueux."
+ },
+ "Samsung|Ub": {
+  "title": "Charge déséquilibrée, essorage impossible",
+  "causes": [
+   "Le linge est regroupé d'un côté du tambour.",
+   "Il n'y a qu'un seul article lourd dans le tambour.",
+   "L'appareil n'est pas de niveau ou pas stable."
+  ],
+  "steps": [
+   "Mettez l'appareil en pause et répartissez le linge uniformément.",
+   "Ajoutez quelques articles si vous ne lavez qu'un seul article lourd.",
+   "Vérifiez que l'appareil est de niveau sur un sol stable.",
+   "Relancez l'essorage."
+  ],
+  "technician": "Si cela arrive avec des charges normales et bien réparties, l'appareil doit peut-être être vérifié pour des pièces usées."
+ },
+ "Samsung|LC": {
+  "title": "Problème de tuyau de vidange / fuite détectée",
+  "causes": [
+   "L'extrémité du tuyau de vidange repose sur le sol.",
+   "Le tuyau de vidange est bouché."
+  ],
+  "steps": [
+   "Éteignez l'appareil.",
+   "Vérifiez que l'extrémité du tuyau de vidange est surélevée et ne repose pas sur le sol.",
+   "Vérifiez que le tuyau n'est pas bouché.",
+   "Essuyez l'eau et relancez."
+  ],
+  "technician": "Si l'eau continue de fuir ou si le code revient, contactez le service après-vente Samsung."
+ },
+ "Samsung|3C": {
+  "title": "Problème de moteur du tambour",
+  "causes": [
+   "Le moteur ne fonctionne pas comme prévu."
+  ],
+  "steps": [
+   "Éteignez l'appareil, attendez une minute et rallumez-le.",
+   "Vérifiez que la charge n'est pas trop importante, puis relancez le cycle."
+  ],
+  "technician": "Si le code revient, le moteur ou sa commande doit être vérifié par le service après-vente."
+ },
+ "Samsung|AC": {
+  "title": "Défaut de communication entre les cartes électroniques",
+  "causes": [
+   "La carte principale et la carte secondaire ne communiquent pas entre elles."
+  ],
+  "steps": [
+   "Éteignez puis rallumez l'appareil.",
+   "Relancez le cycle."
+  ],
+  "technician": "Si le code revient sans cesse, contactez le service après-vente Samsung."
+ },
+ "Samsung|HC": {
+  "title": "Défaut du système de chauffage (trop chaud)",
+  "causes": [
+   "L'appareil a détecté un problème de chauffage à température trop élevée."
+  ],
+  "steps": [
+   "Éteignez puis rallumez l'appareil.",
+   "Relancez le cycle."
+  ],
+  "technician": "Si le code revient, n'utilisez plus les programmes à haute température et contactez le service après-vente Samsung."
+ },
+ "Samsung|1C": {
+  "title": "Défaut du capteur de niveau d'eau",
+  "causes": [
+   "Le capteur qui mesure le niveau d'eau ne fonctionne pas correctement."
+  ],
+  "steps": [
+   "Éteignez puis rallumez l'appareil.",
+   "Relancez le cycle."
+  ],
+  "technician": "Si le code revient, contactez le service après-vente Samsung."
+ },
+ "Samsung|UC": {
+  "title": "Problème d'alimentation électrique (tension trop faible ou instable)",
+  "causes": [
+   "Tension secteur faible ou instable.",
+   "Une courte coupure de courant.",
+   "Prise ou rallonge mal branchée."
+  ],
+  "steps": [
+   "Vérifiez que la fiche est bien enfoncée dans la prise murale.",
+   "Évitez les rallonges et les adaptateurs.",
+   "Attendez que le courant se stabilise, puis relancez."
+  ],
+  "technician": "Si cela arrive souvent, faites vérifier l'alimentation par un électricien. Si l'alimentation est correcte, contactez le service après-vente Samsung."
+ },
+ "Samsung|8C": {
+  "title": "Défaut du capteur de vibrations",
+  "causes": [
+   "Le capteur qui détecte le déséquilibre ne fonctionne pas correctement."
+  ],
+  "steps": [
+   "Éteignez puis rallumez l'appareil.",
+   "Relancez le cycle."
+  ],
+  "technician": "Si le code revient, contactez le service après-vente Samsung."
+ },
+ "Samsung|ddC": {
+  "title": "Add Door ouverte sans relancer",
+  "causes": [
+   "La petite Add Door (AddWash) a été ouverte et l'appareil est en attente."
+  ],
+  "steps": [
+   "Fermez correctement la Add Door.",
+   "Maintenez la touche Start/Pause enfoncée pour continuer."
+  ],
+  "technician": "Normalement pas nécessaire. Si la Add Door ne reste pas fermée, contactez le service après-vente Samsung."
+ },
+ "LG|OE": {
+  "title": "L'eau ne se vidange pas",
+  "causes": [
+   "Le tuyau de vidange est plié ou bouché.",
+   "Le filtre de la pompe de vidange est encrassé.",
+   "Trop de mousse à cause d'un excès de lessive."
+  ],
+  "steps": [
+   "Vérifiez le tuyau de vidange derrière l'appareil et supprimez les plis.",
+   "Lancez un cycle d'essorage seul et écoutez si la pompe ronronne.",
+   "Débranchez le lave-linge. Placez un récipient sous le cache de la pompe de vidange, videz l'eau avec le petit tuyau de vidange, puis nettoyez le filtre de la pompe.",
+   "Refermez bien le bouchon du petit tuyau et remettez le filtre en place.",
+   "Utilisez moins de lessive la prochaine fois et lancez Tub Clean."
+  ],
+  "technician": "Si le code revient après le nettoyage du filtre et du tuyau, demandez l'intervention du service après-vente LG. La pompe est peut-être défectueuse."
+ },
+ "LG|IE": {
+  "title": "Remplissage d'eau trop long",
+  "causes": [
+   "Le robinet est fermé ou l'eau est coupée.",
+   "Le tuyau d'arrivée est plié ou débranché.",
+   "Le filtre d'arrivée est bouché.",
+   "Canalisations ou tuyaux gelés par temps froid."
+  ],
+  "steps": [
+   "Vérifiez que le robinet est complètement ouvert et que le tuyau est branché.",
+   "Redressez tout tuyau plié ou écrasé.",
+   "Fermez le robinet, retirez le tuyau et nettoyez le filtre d'arrivée, puis remettez tout en place.",
+   "Par temps de gel, dégelez le robinet et le tuyau avec de l'eau tiède (pas bouillante)."
+  ],
+  "technician": "Si l'eau ne coule toujours pas, l'électrovanne est peut-être défectueuse. Demandez l'intervention du service après-vente."
+ },
+ "LG|UE": {
+  "title": "Charge déséquilibrée",
+  "causes": [
+   "Le linge s'est regroupé d'un côté.",
+   "Charge trop importante ou trop faible.",
+   "Articles volumineux ou imperméables.",
+   "Le lave-linge n'est pas de niveau."
+  ],
+  "steps": [
+   "Mettez le lave-linge en pause et répartissez le linge uniformément.",
+   "Remplissez le tambour aux deux tiers environ.",
+   "Lavez les articles volumineux comme les couettes avec le programme adapté et un essorage moyen.",
+   "Mettez le lave-linge de niveau en réglant les pieds."
+  ],
+  "technician": "Si cela arrive avec des charges normales et bien réparties sur un sol plat, demandez l'intervention du service après-vente."
+ },
+ "LG|LE": {
+  "title": "Moteur bloqué, le tambour ne tourne pas",
+  "causes": [
+   "Le lave-linge est surchargé.",
+   "Une pièce de monnaie ou un petit objet bloque le tambour."
+  ],
+  "steps": [
+   "Débranchez le lave-linge et attendez 5 minutes.",
+   "Retirez du linge pour réduire la charge.",
+   "Appareil hors tension, vérifiez que le tambour ne contient pas de pièces ou de petits objets et retirez-les.",
+   "Rebranchez et réessayez."
+  ],
+  "technician": "Si LE reste affiché, débranchez le lave-linge et contactez le service après-vente LG."
+ },
+ "LG|dE": {
+  "title": "Porte non fermée",
+  "causes": [
+   "Du linge est coincé entre la porte et le joint.",
+   "La porte n'est pas complètement fermée."
+  ],
+  "steps": [
+   "Ouvrez la porte, dégagez les vêtements coincés et refermez-la fermement.",
+   "Réinitialisation : débranchez le lave-linge, maintenez Start/Pause enfoncée pendant 5 secondes, rebranchez et réessayez."
+  ],
+  "technician": "Si le code persiste, demandez l'intervention du service après-vente LG."
+ },
+ "LG|dE2": {
+  "title": "Porte fermée mais non verrouillée",
+  "causes": [
+   "Le tambour est surchargé.",
+   "Quelque chose est coincé dans le joint de porte.",
+   "Le crochet de porte est tordu ou cassé."
+  ],
+  "steps": [
+   "Retirez ce qui bloque la porte et réduisez la charge si nécessaire.",
+   "Ouvrez et refermez la porte.",
+   "Réinitialisez le lave-linge en le débranchant quelques instants."
+  ],
+  "technician": "Si la porte ne se verrouille toujours pas, le crochet ou la serrure doit être réparé. Demandez l'intervention du service après-vente."
+ },
+ "LG|CE": {
+  "title": "Surintensité du moteur",
+  "causes": [
+   "Courant trop élevé dans le circuit du moteur, par exemple à cause d'un court-circuit, d'une mauvaise connexion ou d'une surtension."
+  ],
+  "steps": [
+   "Débranchez le lave-linge pendant 10 secondes.",
+   "Rebranchez-le et lancez un cycle."
+  ],
+  "technician": "Si CE revient, fermez le robinet, débranchez le lave-linge et faites-le réparer."
+ },
+ "LG|FE": {
+  "title": "Trop d'eau (sur-remplissage)",
+  "causes": [
+   "De l'eau en trop entre dans l'appareil, par exemple par le bac à lessive."
+  ],
+  "steps": [
+   "Vérifiez si de l'eau coule par le bac à lessive.",
+   "Débranchez le lave-linge pendant 60 secondes et relancez.",
+   "Lancez un programme court et vérifiez s'il vidange."
+  ],
+  "technician": "Si FE persiste, l'électrovanne ou le capteur doit être vérifié. Demandez l'intervention du service après-vente."
+ },
+ "LG|PE": {
+  "title": "Défaut du capteur de niveau d'eau",
+  "causes": [
+   "Le capteur de niveau d'eau ne fonctionne pas correctement."
+  ],
+  "steps": [
+   "Débranchez le lave-linge pendant 10 secondes.",
+   "Rebranchez-le et relancez le cycle."
+  ],
+  "technician": "Si PE revient, faites réparer l'appareil."
+ },
+ "LG|AE": {
+  "title": "Fuite détectée dans le lave-linge",
+  "causes": [
+   "De l'eau fuit à l'intérieur de l'appareil.",
+   "Un tuyau d'arrivée endommagé ou mal serré.",
+   "Un interrupteur de sécurité anti-fuite défectueux."
+  ],
+  "steps": [
+   "Vérifiez que le tuyau d'arrivée n'est pas entaillé et que ses raccords sont bien serrés.",
+   "Débranchez le lave-linge pendant 60 secondes et relancez."
+  ],
+  "technician": "Si AE persiste, fermez le robinet et prenez rendez-vous avec le service après-vente."
+ },
+ "LG|tE": {
+  "title": "Erreur de chauffage / capteur de température",
+  "causes": [
+   "En général, un capteur de température (thermistance) défectueux."
+  ],
+  "steps": [
+   "Débranchez le lave-linge pendant 10 secondes, puis rebranchez-le.",
+   "Sélectionnez « sans essorage » pour vidanger l'eau, puis relancez le cycle."
+  ],
+  "technician": "Si tE revient, fermez les robinets, débranchez le lave-linge et faites appel au service après-vente."
+ },
+ "LG|Sud": {
+  "title": "Trop de mousse",
+  "causes": [
+   "Trop de lessive.",
+   "Utilisation d'une lessive non HE ou d'un type de lessive inadapté."
+  ],
+  "steps": [
+   "Laissez le lave-linge terminer sa phase de réduction de mousse.",
+   "Utilisez moins de lessive la prochaine fois, et uniquement de la lessive haute efficacité (HE).",
+   "Mettez la poudre ou les capsules à l'endroit indiqué dans la notice, pas dans le godet à lessive liquide."
+  ],
+  "technician": "En général pas nécessaire. Si le code s'affiche avec très peu de lessive, demandez l'intervention du service après-vente."
+ },
+ "LG|PF": {
+  "title": "Coupure de courant pendant un cycle",
+  "causes": [
+   "Le courant a été coupé pendant que le lave-linge fonctionnait."
+  ],
+  "steps": [
+   "Débranchez le lave-linge ou coupez son disjoncteur.",
+   "Maintenez Start/Pause enfoncée pendant 5 secondes, appareil débranché.",
+   "Rétablissez le courant et lancez un cycle."
+  ],
+  "technician": "Si PF s'affiche régulièrement sans coupure de courant, faites réparer l'appareil."
+ },
+ "LG|FF": {
+  "title": "Eau gelée dans le lave-linge",
+  "causes": [
+   "La température est descendue sous zéro et l'eau dans les tuyaux ou la cuve a gelé."
+  ],
+  "steps": [
+   "Retirez le linge.",
+   "Versez de l'eau chaude (environ 50–60°C, jamais bouillante) dans le tambour et attendez 1 à 2 heures.",
+   "Videz l'eau par le petit tuyau de vidange et refermez son bouchon.",
+   "Dégelez les tuyaux d'arrivée gelés dans de l'eau chaude, puis remettez-les en place et lancez un rinçage."
+  ],
+  "technician": "Si FF s'affiche alors qu'il ne fait pas froid, demandez l'intervention du service après-vente."
+ },
+ "Siemens|E16": {
+  "title": "Porte non verrouillée",
+  "causes": [
+   "Du linge est coincé dans la porte.",
+   "La porte n'est pas bien fermée."
+  ],
+  "steps": [
+   "Ouvrez la porte et refermez-la fermement.",
+   "Si nécessaire, retirez quelques articles et poussez la porte pour la fermer.",
+   "Appuyez de nouveau sur Start, ou éteignez puis rallumez et relancez."
+  ],
+  "technician": "Si la porte ne se verrouille pas, appelez le service après-vente Siemens."
+ },
+ "Siemens|E17": {
+  "title": "Remplissage d'eau trop long",
+  "causes": [
+   "Pression d'eau faible.",
+   "Un filtre bouché dans le tuyau d'arrivée.",
+   "Un tuyau AquaStop bouché."
+  ],
+  "steps": [
+   "Vérifiez que le robinet est complètement ouvert.",
+   "Vérifiez le débit : un robinet grand ouvert doit fournir environ 10 litres par minute.",
+   "Fermez le robinet et nettoyez le filtre du tuyau d'arrivée.",
+   "Vérifiez que le tuyau n'est pas plié."
+  ],
+  "technician": "Si la pression est trop faible, appelez un plombier. Si l'alimentation est correcte, appelez le service après-vente Siemens."
+ },
+ "Siemens|E18": {
+  "title": "L'eau ne se vidange pas",
+  "causes": [
+   "Le filtre de la pompe est bouché.",
+   "Le tuyau de vidange est bouché ou plié."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil. Laissez l'eau chaude refroidir.",
+   "Placez des serviettes et un récipient plat sous la trappe du filtre et videz l'eau.",
+   "Nettoyez le filtre de la pompe et remettez-le bien en place.",
+   "Redressez le tuyau de vidange et vérifiez qu'il n'est pas bouché."
+  ],
+  "technician": "Si l'eau ne s'évacue toujours pas, appelez le service après-vente Siemens."
+ },
+ "Siemens|E19": {
+  "title": "L'eau chauffe trop lentement",
+  "causes": [
+   "Un défaut du système de chauffage."
+  ],
+  "steps": [
+   "Éteignez puis rallumez l'appareil et relancez."
+  ],
+  "technician": "Selon Siemens, l'utilisateur ne peut pas réparer ce défaut. Prenez rendez-vous avec le service après-vente."
+ },
+ "Siemens|E20": {
+  "title": "Chauffage inattendu",
+  "causes": [
+   "Un chauffage a été détecté alors qu'il devrait être coupé."
+  ],
+  "steps": [
+   "Éteignez puis rallumez l'appareil."
+  ],
+  "technician": "Si le problème persiste, prenez rendez-vous avec le service après-vente Siemens."
+ },
+ "Siemens|E23": {
+  "title": "Fuite – eau dans le socle",
+  "causes": [
+   "L'appareil fuit, ou de l'eau s'est accumulée dans le bac du socle."
+  ],
+  "steps": [
+   "Fermez immédiatement le robinet d'eau.",
+   "Éteignez et débranchez l'appareil.",
+   "Essuyez l'eau au sol."
+  ],
+  "technician": "Appelez le service après-vente Siemens pour trouver et réparer la fuite."
+ },
+ "Siemens|E25": {
+  "title": "Défaut du capteur de turbidité",
+  "causes": [
+   "Le capteur de clarté de l'eau est défectueux."
+  ],
+  "steps": [
+   "Éteignez puis rallumez l'appareil."
+  ],
+  "technician": "Prenez rendez-vous avec le service après-vente Siemens."
+ },
+ "Siemens|E26": {
+  "title": "Défaut du capteur de niveau d'eau",
+  "causes": [
+   "Le capteur de pression analogique est défectueux."
+  ],
+  "steps": [
+   "Éteignez puis rallumez l'appareil."
+  ],
+  "technician": "Prenez rendez-vous avec le service après-vente Siemens."
+ },
+ "Siemens|E29": {
+  "title": "Problème d'arrivée d'eau",
+  "causes": [
+   "Pression d'eau faible, ou filtre d'arrivée ou tuyau AquaStop bouché."
+  ],
+  "steps": [
+   "Vérifiez que le robinet est complètement ouvert et que le débit est d'environ 10 litres par minute.",
+   "Fermez le robinet et nettoyez le filtre du tuyau d'arrivée.",
+   "Vérifiez que le tuyau n'est pas plié."
+  ],
+  "technician": "Si l'alimentation est correcte et que le code revient, appelez le service après-vente Siemens."
+ },
+ "Siemens|E32": {
+  "title": "Charge déséquilibrée – essorage arrêté",
+  "causes": [
+   "Le linge est mal réparti dans le tambour. Ce n'est pas une panne."
+  ],
+  "steps": [
+   "Répartissez uniformément les grands et les petits articles dans le tambour.",
+   "Relancez l'essorage."
+  ],
+  "technician": "Pas nécessaire, sauf si cela arrive à chaque charge normale."
+ },
+ "Siemens|E33": {
+  "title": "Trop de mousse",
+  "causes": [
+   "Trop de lessive, surtout avec une eau douce ou du linge peu sale."
+  ],
+  "steps": [
+   "Utilisez moins de lessive la prochaine fois.",
+   "Lancez un rinçage pour éliminer la mousse."
+  ],
+  "technician": "En général pas nécessaire."
+ },
+ "Siemens|E34": {
+  "title": "Porte non verrouillée",
+  "causes": [
+   "La porte n'est pas complètement fermée, souvent à cause d'un tambour très rempli.",
+   "Un article est coincé entre la porte et la carrosserie."
+  ],
+  "steps": [
+   "Vérifiez qu'aucun vêtement n'est coincé dans la porte.",
+   "Fermez la porte jusqu'au déclic.",
+   "Relancez le programme."
+  ],
+  "technician": "Si la porte ne se verrouille toujours pas, appelez le service après-vente Siemens."
+ },
+ "AEG|E10": {
+  "title": "Problème d'arrivée d'eau",
+  "causes": [
+   "L'arrivée d'eau est réduite ou coupée, par exemple à cause d'un robinet fermé ou d'un tuyau plié."
+  ],
+  "steps": [
+   "Vérifiez que le robinet d'eau est complètement ouvert.",
+   "Vérifiez que le tuyau d'arrivée n'est ni plié ni écrasé.",
+   "Réinitialisation : coupez l'alimentation à la prise pendant environ une minute, puis rallumez et relancez."
+  ],
+  "technician": "Si le code revient aussitôt ou si l'appareil ne se remplit toujours pas, faites appel à un réparateur."
+ },
+ "AEG|E20": {
+  "title": "Problème de vidange",
+  "causes": [
+   "Filtre de la pompe de vidange ou tuyau de vidange bouché."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil. Laissez l'eau chaude refroidir.",
+   "Videz l'eau dans un récipient et nettoyez le filtre de la pompe de vidange.",
+   "Vérifiez que le tuyau de vidange n'est ni plié ni bouché.",
+   "Rebranchez et lancez une vidange ou un essorage."
+  ],
+  "technician": "Si l'eau ne s'évacue toujours pas, faites appel à un réparateur."
+ },
+ "AEG|E30": {
+  "title": "Problème du capteur de niveau d'eau (pressostat)",
+  "causes": [
+   "Le capteur qui mesure le niveau d'eau a un défaut, ou trop de mousse fausse la mesure."
+  ],
+  "steps": [
+   "Coupez l'alimentation à la prise pendant environ une minute, puis rallumez.",
+   "Utilisez la bonne dose de lessive."
+  ],
+  "technician": "Si le code revient, faites appel à un réparateur."
+ },
+ "AEG|E40": {
+  "title": "Problème de serrure de porte",
+  "causes": [
+   "La porte n'est pas bien fermée, ou la serrure de porte présente un défaut."
+  ],
+  "steps": [
+   "Ouvrez la porte, vérifiez que rien n'est coincé dans le joint et refermez-la fermement.",
+   "Coupez l'alimentation à la prise pendant environ une minute, puis relancez."
+  ],
+  "technician": "Si la porte ne se verrouille toujours pas, faites appel à un réparateur."
+ },
+ "AEG|E50": {
+  "title": "Problème de moteur",
+  "causes": [
+   "Un défaut du moteur ou du système d'entraînement."
+  ],
+  "steps": [
+   "Coupez l'alimentation à la prise pendant environ une minute, puis relancez."
+  ],
+  "technician": "Si le tambour ne tourne toujours pas, faites appel à un réparateur."
+ },
+ "AEG|E60": {
+  "title": "Problème de chauffage",
+  "causes": [
+   "Un défaut de la résistance ou du capteur de température."
+  ],
+  "steps": [
+   "Coupez l'alimentation à la prise pendant environ une minute, puis relancez."
+  ],
+  "technician": "Si le code revient, faites appel à un réparateur."
+ },
+ "AEG|EF0": {
+  "title": "Alerte : fuite, trop de mousse ou charge déséquilibrée",
+  "causes": [
+   "De l'eau fuit à l'intérieur de l'appareil.",
+   "Trop de mousse de lessive.",
+   "Une charge déséquilibrée."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil, et vérifiez s'il y a de l'eau au sol.",
+   "S'il n'y a pas de fuite, utilisez moins de lessive et répartissez le linge uniformément.",
+   "Relancez une fois la mousse retombée."
+  ],
+  "technician": "Si vous voyez une fuite ou si le code revient sans cesse, fermez le robinet et faites appel à un réparateur."
+ },
+ "AEG|EH0": {
+  "title": "Problème d'alimentation électrique",
+  "causes": [
+   "La tension secteur est irrégulière ou instable."
+  ],
+  "steps": [
+   "Branchez l'appareil directement sur une prise murale, sans rallonge.",
+   "Éteignez pendant environ une minute, puis rallumez."
+  ],
+  "technician": "Si cela se reproduit, faites vérifier l'alimentation par un électricien."
+ },
+ "Hotpoint|F01": {
+  "title": "Défaut de la carte électronique",
+  "causes": [
+   "Un défaut de la carte de commande. Certaines fonctions ou toutes ne fonctionnent pas."
+  ],
+  "steps": [
+   "Débranchez l'appareil pendant au moins 2 minutes.",
+   "Rebranchez-le, attendez 30 secondes et réessayez."
+  ],
+  "technician": "Si le défaut persiste, prenez rendez-vous avec un technicien Hotpoint."
+ },
+ "Hotpoint|F02": {
+  "title": "Défaut du circuit moteur",
+  "causes": [
+   "Un défaut du circuit moteur. Le tambour tourne par à-coups ou pas du tout."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Hotpoint."
+ },
+ "Hotpoint|F03": {
+  "title": "Défaut du capteur de température",
+  "causes": [
+   "Le circuit de mesure de la température est défectueux, l'appareil ne chauffe donc pas."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Hotpoint."
+ },
+ "Hotpoint|F05": {
+  "title": "Vidange bouchée ou problème de pompe",
+  "causes": [
+   "Un filtre de pompe, un tuyau d'évacuation ou une canalisation sous l'évier bouché.",
+   "Une pompe de vidange en panne."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil. Laissez l'eau chaude refroidir.",
+   "Si votre modèle a un filtre de pompe, videz l'eau dans un récipient et nettoyez le filtre.",
+   "Vérifiez que le tuyau d'évacuation et la canalisation sous l'évier ne sont pas bouchés.",
+   "Rebranchez et essayez une vidange ou un essorage."
+  ],
+  "technician": "Si l'eau ne s'évacue toujours pas, la pompe est probablement en panne. Prenez rendez-vous avec un technicien."
+ },
+ "Hotpoint|F06": {
+  "title": "Défaut de la serrure de porte",
+  "causes": [
+   "La serrure de porte est bloquée ou défectueuse."
+  ],
+  "steps": [
+   "Vérifiez que rien ne gêne au niveau de la porte et de la serrure.",
+   "Fermez la porte fermement et relancez.",
+   "Consultez la page d'avis de sécurité de Hotpoint – certaines serrures de porte font l'objet d'un rappel."
+  ],
+  "technician": "Si le défaut persiste, prenez rendez-vous avec un technicien."
+ },
+ "Hotpoint|F07": {
+  "title": "Défaut du circuit de chauffage / de la carte",
+  "causes": [
+   "Un défaut du circuit de chauffage ou de la carte de commande. Le lavage se met en pause et la pompe peut continuer à tourner."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Hotpoint."
+ },
+ "Hotpoint|F08": {
+  "title": "Défaut de la résistance",
+  "causes": [
+   "La résistance est défectueuse, le programme se met donc en pause en cours de lavage."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Hotpoint."
+ },
+ "Hotpoint|F09": {
+  "title": "Défaut logiciel",
+  "causes": [
+   "Un problème logiciel. Les voyants clignotent et aucun programme ne peut être choisi."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Hotpoint."
+ },
+ "Hotpoint|F11": {
+  "title": "Défaut du circuit de la pompe de vidange",
+  "causes": [
+   "Un défaut du circuit de la pompe. L'eau reste dans le tambour."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil.",
+   "N'ouvrez pas la porte tant qu'il y a de l'eau dans le tambour."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Hotpoint."
+ },
+ "Hotpoint|F12": {
+  "title": "Défaut de la commande électronique",
+  "causes": [
+   "Un défaut des commandes. L'appareil ne s'allume pas."
+  ],
+  "steps": [
+   "Vérifiez avec un autre appareil que la fiche et la prise fonctionnent."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Hotpoint."
+ },
+ "Hotpoint|F15": {
+  "title": "Défaut de la commande de chauffage",
+  "causes": [
+   "Un défaut de la commande de chauffage. L'eau ne chauffe pas ou le lavage se met en pause."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Hotpoint."
+ },
+ "Hotpoint|F18": {
+  "title": "Erreur de données interne",
+  "causes": [
+   "Un problème de données interne. Certaines fonctions de l'affichage ou toutes ne fonctionnent pas."
+  ],
+  "steps": [
+   "Débranchez l'appareil pendant au moins 2 minutes.",
+   "Rebranchez-le, attendez 30 secondes et réessayez."
+  ],
+  "technician": "Si le problème persiste, prenez rendez-vous avec un technicien Hotpoint."
+ },
+ "Indesit|F01": {
+  "title": "Défaut de la carte électronique",
+  "causes": [
+   "Un défaut de la carte de commande. Certaines fonctions ou toutes ne peuvent pas être sélectionnées."
+  ],
+  "steps": [
+   "Débranchez l'appareil pendant au moins 2 minutes.",
+   "Rebranchez-le, attendez 30 secondes et réessayez."
+  ],
+  "technician": "Si le défaut persiste, prenez rendez-vous avec un technicien Indesit."
+ },
+ "Indesit|F02": {
+  "title": "Défaut du circuit moteur",
+  "causes": [
+   "Un défaut du circuit moteur. Le tambour tourne par à-coups ou pas du tout."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Indesit."
+ },
+ "Indesit|F03": {
+  "title": "Défaut du capteur de température",
+  "causes": [
+   "Le circuit de mesure de la température est défectueux, l'appareil ne chauffe donc pas."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Indesit."
+ },
+ "Indesit|F05": {
+  "title": "Vidange bouchée ou problème de pompe",
+  "causes": [
+   "Un filtre de pompe, un tuyau d'évacuation ou une canalisation sous l'évier bouché.",
+   "Une pompe de vidange en panne."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil. Laissez l'eau chaude refroidir.",
+   "Si votre modèle a un filtre de pompe, videz l'eau dans un récipient et nettoyez-le.",
+   "Vérifiez que le tuyau d'évacuation et la canalisation sous l'évier ne sont pas bouchés.",
+   "Rebranchez et essayez une vidange ou un essorage."
+  ],
+  "technician": "Si l'eau ne s'évacue toujours pas, la pompe est probablement en panne. Prenez rendez-vous avec un technicien."
+ },
+ "Indesit|F06": {
+  "title": "Défaut de la serrure de porte",
+  "causes": [
+   "La serrure de porte est bloquée ou défectueuse."
+  ],
+  "steps": [
+   "Vérifiez que rien ne gêne au niveau de la porte et de la serrure.",
+   "Fermez la porte fermement et relancez.",
+   "Consultez l'avis de sécurité de la marque – certaines serrures de porte font l'objet d'un rappel."
+  ],
+  "technician": "Si le défaut persiste, prenez rendez-vous avec un technicien."
+ },
+ "Indesit|F07": {
+  "title": "Défaut du circuit de chauffage / de la carte",
+  "causes": [
+   "Un défaut du circuit de chauffage ou de la carte de commande. Le lavage se met en pause et la pompe peut continuer à tourner."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Indesit."
+ },
+ "Indesit|F08": {
+  "title": "Défaut de la résistance",
+  "causes": [
+   "La résistance est défectueuse, le programme se met donc en pause en cours de lavage."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Indesit."
+ },
+ "Indesit|F09": {
+  "title": "Défaut logiciel",
+  "causes": [
+   "Un problème logiciel. Les voyants clignotent et aucun programme ne peut être choisi."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Indesit."
+ },
+ "Indesit|F11": {
+  "title": "Défaut du circuit de la pompe de vidange",
+  "causes": [
+   "Un défaut du circuit de la pompe. L'eau reste dans le tambour."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil.",
+   "N'ouvrez pas la porte tant qu'il y a de l'eau dans le tambour."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Indesit."
+ },
+ "Indesit|F12": {
+  "title": "Défaut de la commande électronique",
+  "causes": [
+   "Un défaut des commandes. L'appareil ne s'allume pas."
+  ],
+  "steps": [
+   "Vérifiez avec un autre appareil que la fiche et la prise fonctionnent."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Indesit."
+ },
+ "Indesit|F15": {
+  "title": "Défaut de la commande de chauffage",
+  "causes": [
+   "Un défaut de la commande de chauffage. L'eau ne chauffe pas ou le lavage se met en pause."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Indesit."
+ },
+ "Indesit|F18": {
+  "title": "Erreur de données interne",
+  "causes": [
+   "Un problème de données interne. Certaines fonctions de l'affichage ou toutes ne fonctionnent pas."
+  ],
+  "steps": [
+   "Débranchez l'appareil pendant au moins 2 minutes.",
+   "Rebranchez-le, attendez 30 secondes et réessayez."
+  ],
+  "technician": "Si le problème persiste, prenez rendez-vous avec un technicien Indesit."
+ },
+ "Beko|E5": {
+  "title": "Filtre de pompe peut-être bouché (problème de vidange)",
+  "causes": [
+   "Le filtre de la pompe est bouché, l'eau ne peut donc pas s'évacuer."
+  ],
+  "steps": [
+   "Éteignez et débranchez l'appareil. Laissez l'eau chaude refroidir.",
+   "Videz l'eau restante dans un récipient et nettoyez le filtre de la pompe.",
+   "Remettez bien le filtre en place et lancez un essorage."
+  ],
+  "technician": "Si le problème persiste, appelez le service après-vente Beko."
+ },
+ "Beko|E8": {
+  "title": "Pas d'arrivée d'eau",
+  "causes": [
+   "Le robinet est fermé ou l'eau est coupée.",
+   "Le tuyau d'arrivée est plié ou mal fixé.",
+   "Le cache avant du filtre n'est pas fermé et verrouillé."
+  ],
+  "steps": [
+   "Ouvrez le robinet et vérifiez qu'il y a de l'eau au réseau.",
+   "Vérifiez le raccord du tuyau d'arrivée et supprimez les plis.",
+   "Vérifiez que le cache avant est fermé et verrouillé.",
+   "Relancez l'appareil."
+  ],
+  "technician": "Si le problème persiste, appelez le service après-vente Beko."
+ },
+ "Beko|E12": {
+  "title": "Présence d'eau possible dans l'appareil (fuite)",
+  "causes": [
+   "De l'eau s'est accumulée dans l'appareil, peut-être à cause d'une fuite."
+  ],
+  "steps": [
+   "Débranchez l'appareil.",
+   "Essuyez l'eau sous l'appareil.",
+   "Rebranchez et lancez un cycle court en le surveillant."
+  ],
+  "technician": "Si de l'eau fuit d'un tuyau ou si le code revient, fermez les robinets et appelez le service après-vente Beko."
+ },
+ "Beko|E17": {
+  "title": "Trop de mousse",
+  "causes": [
+   "Trop de lessive pour la charge.",
+   "Lessive mise dans le mauvais compartiment ou mal conservée."
+  ],
+  "steps": [
+   "Adaptez la dose de lessive à la taille de la charge et au degré de salissure.",
+   "Utilisez moins de lessive pour les textiles très absorbants.",
+   "Lancez le programme Drum Cleaning (ou Cotton 90°C) tambour vide."
+  ],
+  "technician": "Si le problème persiste, appelez le service après-vente Beko."
+ },
+ "Beko|E18": {
+  "title": "Charge déséquilibrée – l'essorage n'a pas démarré",
+  "causes": [
+   "Trop peu de linge, ou linge regroupé d'un côté."
+  ],
+  "steps": [
+   "Ajoutez des articles si la charge est très petite.",
+   "Répartissez le linge uniformément à la main.",
+   "Relancez l'essorage."
+  ],
+  "technician": "En général pas nécessaire."
+ },
+ "Beko|E27": {
+  "title": "Problème de vidange",
+  "causes": [
+   "Le tuyau de vidange n'est pas correctement raccordé."
+  ],
+  "steps": [
+   "Vérifiez le raccordement du tuyau de vidange à l'évacuation.",
+   "Vérifiez que le tuyau n'est ni plié ni bouché."
+  ],
+  "technician": "Si le problème persiste, appelez le service après-vente Beko."
+ },
+ "Beko|E29": {
+  "title": "Mode d'autoprotection (problème d'alimentation)",
+  "causes": [
+   "Un problème de tension secteur ou de pression d'eau."
+  ],
+  "steps": [
+   "Annulez le programme en tournant le sélecteur sur un autre programme.",
+   "Relancez le programme."
+  ],
+  "technician": "Si le problème persiste, appelez le service après-vente Beko."
+ },
+ "Miele|F10": {
+  "title": "Arrivée d'eau bloquée ou insuffisante",
+  "causes": [
+   "Le robinet d'arrêt est fermé.",
+   "Le filtre d'arrivée est sale.",
+   "Le tuyau d'arrivée est plié.",
+   "La pression d'eau est trop faible."
+  ],
+  "steps": [
+   "Arrêtez le programme et ouvrez complètement le robinet.",
+   "Fermez le robinet, dévissez le tuyau d'arrivée, retirez le petit filtre, nettoyez-le et remettez-le en place.",
+   "Revissez le tuyau, ouvrez le robinet et vérifiez qu'il n'y a pas de gouttes.",
+   "Supprimez les plis du tuyau.",
+   "Vérifiez le débit : au moins 5 litres doivent couler en 15 secondes."
+  ],
+  "technician": "Si la pression est trop faible, appelez un plombier. Si le tuyau est endommagé, le service après-vente Miele peut le remplacer."
+ },
+ "Miele|F11": {
+  "title": "Vidange insuffisante",
+  "causes": [
+   "L'extrémité du tuyau de vidange est placée à plus de 1 mètre de haut.",
+   "Le tuyau de vidange est plié.",
+   "Le filtre de vidange ou la pompe est bloqué par des objets comme des boutons ou des pièces."
+  ],
+  "steps": [
+   "Éteignez l'appareil. Laissez l'eau chaude refroidir pour éviter les brûlures.",
+   "Abaissez l'extrémité du tuyau de vidange à 1 mètre maximum et supprimez les plis.",
+   "Ouvrez la trappe de la pompe de vidange, placez un récipient dessous et dévissez lentement le filtre de vidange pour laisser sortir l'eau.",
+   "Nettoyez le filtre, vérifiez que la turbine de la pompe tourne librement, puis revissez bien le filtre."
+  ],
+  "technician": "Si le défaut persiste, contactez le service après-vente Miele."
+ },
+ "Miele|F15": {
+  "title": "Arrivée d'eau chaude bloquée ou insuffisante",
+  "causes": [
+   "Le robinet d'eau chaude n'est pas complètement ouvert.",
+   "Le filtre d'arrivée d'eau chaude est sale.",
+   "La pression d'eau chaude est trop faible."
+  ],
+  "steps": [
+   "Ouvrez complètement le robinet d'eau chaude et relancez.",
+   "Fermez le robinet, dévissez le tuyau d'eau chaude, nettoyez le petit filtre et remettez-le en place.",
+   "Vérifiez le débit : au moins 5 litres en 15 secondes."
+  ],
+  "technician": "Si la pression est trop faible et ne peut pas être augmentée, contactez un plombier ou le service après-vente Miele."
+ },
+ "Miele|F20": {
+  "title": "Défaut de chauffage",
+  "causes": [
+   "La température réglée n'a pas été atteinte à temps (Thermostop).",
+   "Un défaut technique du système de chauffage."
+  ],
+  "steps": [
+   "Coupez l'alimentation à la prise et débranchez l'appareil, ou coupez le fusible.",
+   "Attendez au moins 2 minutes.",
+   "Rebranchez, allumez et relancez le programme."
+  ],
+  "technician": "Si F20 revient, contactez le service après-vente Miele."
+ },
+ "Miele|F34": {
+  "title": "La porte n'a pas pu être verrouillée",
+  "causes": [
+   "Le tambour est surchargé.",
+   "Un défaut technique de la serrure."
+  ],
+  "steps": [
+   "Retirez du linge pour respecter la charge maximale.",
+   "Éteignez puis rallumez.",
+   "Si nécessaire, débranchez pendant au moins 2 minutes, puis rebranchez et allumez."
+  ],
+  "technician": "Si le défaut revient, contactez le service après-vente Miele."
+ },
+ "Miele|F35": {
+  "title": "La porte n'a pas pu être déverrouillée",
+  "causes": [
+   "Un défaut technique de la serrure de porte."
+  ],
+  "steps": [
+   "Coupez l'alimentation à la prise et débranchez l'appareil, ou coupez le fusible.",
+   "Attendez au moins 2 minutes, puis rebranchez et allumez."
+  ],
+  "technician": "Si la porte ne s'ouvre toujours pas, contactez le service après-vente Miele. Ne forcez pas la porte."
+ },
+ "Miele|Waterproof system activated": {
+  "title": "Protection anti-fuite déclenchée",
+  "causes": [
+   "De l'eau a été détectée dans l'appareil à cause d'une fuite."
+  ],
+  "steps": [
+   "Débranchez l'appareil.",
+   "Fermez le robinet d'eau.",
+   "Essuyez l'eau au sol.",
+   "N'utilisez pas l'appareil avant qu'il soit réparé."
+  ],
+  "technician": "Selon Miele, la fuite doit être réparée par le service après-vente Miele. N'essayez pas de la réparer vous-même."
+ }
+}

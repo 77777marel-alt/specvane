@@ -1,0 +1,1034 @@
+{
+ "Bosch|E09": {
+  "title": "Fehler an der Heizung",
+  "causes": [
+   "Ein Fehler im Heizteil der Umwälzpumpe (Heizpumpe)."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler an der Sicherung für 30 Sekunden aus.",
+   "Schalten Sie wieder ein und starten Sie ein Programm."
+  ],
+  "technician": "Kommt der Code wieder, rufen Sie den Bosch Kundendienst."
+ },
+ "Bosch|E12": {
+  "title": "Kalk an der Heizpumpe",
+  "causes": [
+   "An der Heizpumpe hat sich Kalk abgelagert, oft in Gegenden mit hartem Wasser."
+  ],
+  "steps": [
+   "Starten Sie einen Entkalkungsgang mit einem Geschirrspüler-Entkalker.",
+   "Füllen Sie regelmäßig Regeneriersalz nach, wenn Ihr Modell eine Enthärtungsanlage hat.",
+   "Entkalken Sie regelmäßig, wenn Sie hartes Wasser haben."
+  ],
+  "technician": "Bleibt der Code nach dem Entkalken, rufen Sie den Bosch Kundendienst."
+ },
+ "Bosch|E14": {
+  "title": "Problem beim Wasserzulauf (Durchflussmesser)",
+  "causes": [
+   "Der Durchflussmesser ist ausgefallen oder der Geschirrspüler füllt nicht richtig Wasser ein."
+  ],
+  "steps": [
+   "Prüfen Sie, ob der Wasserhahn unter der Spüle ganz geöffnet ist.",
+   "Schalten Sie die Sicherung für 30 Sekunden aus und versuchen Sie es erneut."
+  ],
+  "technician": "Bosch empfiehlt, sich bei diesem Code an den Kundendienst zu wenden."
+ },
+ "Bosch|E15": {
+  "title": "Wasser in der Bodenwanne (Wasserschutz ausgelöst)",
+  "causes": [
+   "Im Boden des Geschirrspülers hat sich Wasser gesammelt.",
+   "Ein Leck an einem Schlauch, einer Dichtung oder einem inneren Bauteil.",
+   "Zu viel Schaum, zum Beispiel durch Handspülmittel."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker.",
+   "Drehen Sie den Wasserhahn des Geschirrspülers zu.",
+   "Wischen Sie Wasser vom Boden auf."
+  ],
+  "technician": "Bosch empfiehlt, das Wasser abzudrehen und den Kundendienst zu rufen. Ein verdecktes Leck muss gefunden und behoben werden."
+ },
+ "Bosch|E16": {
+  "title": "Eventuell kein Wasserzulauf",
+  "causes": [
+   "Der Zulaufschlauch ist geknickt oder beschädigt."
+  ],
+  "steps": [
+   "Prüfen Sie, ob der Zulaufschlauch nicht geknickt, gequetscht oder beschädigt ist.",
+   "Achten Sie darauf, dass der Wasserhahn offen ist."
+  ],
+  "technician": "Bleibt der Code, rufen Sie den Bosch Kundendienst."
+ },
+ "Bosch|E17": {
+  "title": "Eventuell kein Wasserzulauf",
+  "causes": [
+   "Der Zulaufschlauch ist geknickt oder beschädigt."
+  ],
+  "steps": [
+   "Prüfen Sie, ob der Zulaufschlauch nicht geknickt, gequetscht oder beschädigt ist.",
+   "Achten Sie darauf, dass der Wasserhahn offen ist."
+  ],
+  "technician": "Bleibt der Code, rufen Sie den Bosch Kundendienst."
+ },
+ "Bosch|E18": {
+  "title": "Wasserstand zu niedrig",
+  "causes": [
+   "Der Wasserhahn ist geschlossen oder teilweise geschlossen.",
+   "Der Zulaufschlauch ist geknickt.",
+   "Zu geringer Wasserdurchfluss."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass die Wasserzufuhr ganz aufgedreht ist.",
+   "Prüfen Sie den Zulaufschlauch auf Knicke oder Schäden.",
+   "Prüfen Sie den Durchfluss: Der Hahn sollte etwa 10 Liter pro Minute liefern."
+  ],
+  "technician": "Ist die Versorgung in Ordnung und der Code kommt wieder, rufen Sie den Bosch Kundendienst."
+ },
+ "Bosch|E19": {
+  "title": "Fehler im Stromkreis der Reinigerdosierung",
+  "causes": [
+   "Ein elektrischer Fehler im Stromkreis der Reinigerdosierung."
+  ],
+  "steps": [
+   "Schalten Sie die Sicherung für 30 Sekunden aus und dann wieder ein."
+  ],
+  "technician": "Kommt der Code wieder, rufen Sie den Bosch Kundendienst."
+ },
+ "Bosch|E22": {
+  "title": "Sieb verstopft",
+  "causes": [
+   "Speisereste verstopfen das Sieb."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus.",
+   "Nehmen Sie den Unterkorb heraus und heben Sie das Sieb heraus.",
+   "Spülen Sie das Sieb unter fließendem Wasser mit einer weichen Bürste und milder Seife ab.",
+   "Setzen Sie das Sieb wieder ein, bis es einrastet."
+  ],
+  "technician": "Meist nicht nötig. Bleibt der Code nach der Reinigung, rufen Sie den Bosch Kundendienst."
+ },
+ "Bosch|E23": {
+  "title": "Laugenpumpe blockiert oder defekt",
+  "causes": [
+   "Die Laugenpumpe ist verstopft oder ausgefallen."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker.",
+   "Reinigen Sie das Sieb und prüfen Sie den Pumpensumpf auf lose Fremdkörper."
+  ],
+  "technician": "Bosch empfiehlt, bei diesem Code den Kundendienst zu rufen."
+ },
+ "Bosch|E24": {
+  "title": "Pumpt nicht ab – Ablaufschlauch oder Sieb verstopft",
+  "causes": [
+   "Der Ablaufschlauch ist geknickt oder verstopft.",
+   "Das Sieb ist verstopft.",
+   "In einem neuen Abfallzerkleinerer oder Siphon steckt noch der Verschlussstopfen."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker.",
+   "Prüfen Sie den Ablaufschlauch auf Knicke.",
+   "Reinigen Sie die Siebe und achten Sie darauf, dass der Pumpendeckel unter dem Sieb eingesetzt ist.",
+   "Ist der Geschirrspüler an einen Abfallzerkleinerer oder neuen Siphon angeschlossen, prüfen Sie, ob der Verschlussstopfen entfernt wurde."
+  ],
+  "technician": "Pumpt er immer noch nicht ab, rufen Sie den Bosch Kundendienst."
+ },
+ "Bosch|E25": {
+  "title": "Laugenpumpe blockiert oder Pumpendeckel locker",
+  "causes": [
+   "Glasscherben, Kerne oder andere Fremdkörper blockieren die Laugenpumpe.",
+   "Der Pumpendeckel ist locker oder fehlt."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker.",
+   "Nehmen Sie den Unterkorb und die Siebe heraus.",
+   "Schöpfen Sie stehendes Wasser mit einer Tasse oder einem Schwamm heraus.",
+   "Lösen Sie den weißen Pumpendeckel (ein Löffel hilft dabei) und entfernen Sie Fremdkörper. Achten Sie auf scharfe Glasscherben.",
+   "Setzen Sie den Deckel wieder ein, bis er einrastet, und setzen Sie dann die Siebe ein."
+  ],
+  "technician": "Kommt der Code nach der Reinigung wieder, rufen Sie den Bosch Kundendienst."
+ },
+ "Bosch|E27": {
+  "title": "Netzspannung zu niedrig",
+  "causes": [
+   "Die Spannung im Hausnetz ist zu niedrig. Der Geschirrspüler selbst ist nicht defekt."
+  ],
+  "steps": [
+   "Schalten Sie die Sicherung für 30 Sekunden aus und dann wieder ein."
+  ],
+  "technician": "Passiert das erneut, lassen Sie die Netzspannung von einem Elektriker prüfen."
+ },
+ "Siemens|E08": {
+  "title": "Wasserstand beim Spülen zu niedrig",
+  "causes": [
+   "Schüsseln oder Töpfe sind umgekippt und halten Wasser zurück.",
+   "Geschirr blockiert die Wasseransaugung."
+  ],
+  "steps": [
+   "Prüfen Sie die Beladung und stellen Sie Schüsseln und Töpfe mit der Öffnung nach unten ein.",
+   "Achten Sie darauf, dass nichts die Sprüharme oder die Ansaugung blockiert."
+  ],
+  "technician": "Wiederholt sich das, wenden Sie sich an den Siemens Kundendienst."
+ },
+ "Siemens|E09": {
+  "title": "Fehler an der Heizung",
+  "causes": [
+   "Ein Fehler in der Heizung."
+  ],
+  "steps": [
+   "Schalten Sie aus, warten Sie ein paar Minuten und schalten Sie wieder ein."
+  ],
+  "technician": "Wenden Sie sich an den Siemens Kundendienst und nennen Sie den Code."
+ },
+ "Siemens|E12": {
+  "title": "Heizung verkalkt oder verschmutzt",
+  "causes": [
+   "Kalk oder Schmutz am Heizelement."
+  ],
+  "steps": [
+   "Starten Sie einen Entkalkungsgang wie in der Gebrauchsanleitung beschrieben.",
+   "Reinigen Sie die Siebe."
+  ],
+  "technician": "Bleibt der Code nach dem Entkalken, wenden Sie sich an den Siemens Kundendienst."
+ },
+ "Siemens|E14": {
+  "title": "Fehler beim Wasserzulauf – Wasserschutz aktiv",
+  "causes": [
+   "Ein Problem mit der Wasserversorgung oder dem Zulaufsystem."
+  ],
+  "steps": [
+   "Prüfen Sie, ob der Wasserhahn offen ist.",
+   "Prüfen Sie, ob der Zulaufschlauch nicht geknickt ist."
+  ],
+  "technician": "Wiederholt sich das, wenden Sie sich an den Siemens Kundendienst."
+ },
+ "Siemens|E15": {
+  "title": "Wasser in der Bodenwanne (Wasserschutz ausgelöst)",
+  "causes": [
+   "In der Bodenwanne des Geschirrspülers hat sich Wasser gesammelt."
+  ],
+  "steps": [
+   "Schließen Sie den Wasserhahn.",
+   "Schalten Sie den Geschirrspüler aus.",
+   "Wischen Sie Wasser vom Boden auf."
+  ],
+  "technician": "Siemens rät davon ab, dies selbst zu reparieren. Rufen Sie den Siemens Kundendienst."
+ },
+ "Siemens|E16": {
+  "title": "Fehler beim Befüllen oder Wasserzulauf",
+  "causes": [
+   "Ein Problem mit dem Zulaufsystem oder dem Wasserzufluss."
+  ],
+  "steps": [
+   "Drehen Sie den Hahn zu.",
+   "Prüfen Sie den Zulaufschlauch auf Knicke und drehen Sie den Hahn dann wieder auf."
+  ],
+  "technician": "Passiert das häufig, muss ein Techniker das Gerät prüfen. Wenden Sie sich an den Siemens Kundendienst."
+ },
+ "Siemens|E18": {
+  "title": "Fehler beim Wasserzulauf",
+  "causes": [
+   "Der Zulaufschlauch ist geknickt.",
+   "Der Hahn ist zu, klemmt oder ist verkalkt.",
+   "Das Zulaufsieb ist verstopft."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass der Hahn ganz geöffnet ist.",
+   "Prüfen Sie den Zulaufschlauch auf Knicke.",
+   "Schalten Sie aus, schließen Sie den Hahn, nehmen Sie den Schlauch ab und reinigen Sie das Sieb. Schließen Sie alles wieder an und prüfen Sie auf Undichtigkeiten."
+  ],
+  "technician": "Ist der Wasserdurchfluss gering, rufen Sie einen Installateur. Wiederholt sich das, wenden Sie sich an den Siemens Kundendienst."
+ },
+ "Siemens|E22": {
+  "title": "Siebe verschmutzt oder verstopft",
+  "causes": [
+   "Speisereste verstopfen das Siebsystem."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus.",
+   "Nehmen Sie die Siebe heraus und spülen Sie sie sauber.",
+   "Setzen Sie die Siebe wieder richtig ein."
+  ],
+  "technician": "Meist nicht nötig."
+ },
+ "Siemens|E23": {
+  "title": "Fehler an der Laugenpumpe",
+  "causes": [
+   "Ein Fehler an der Abwasserpumpe."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Laut Siemens kann nur der Siemens Kundendienst dies beheben. Wenden Sie sich an ihn und nennen Sie den Code."
+ },
+ "Siemens|E24": {
+  "title": "Pumpt nicht ab – wahrscheinlich Pumpe oder Schlauch verstopft",
+  "causes": [
+   "Die Laugenpumpe oder der Ablaufweg ist verstopft."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker.",
+   "Reinigen Sie die Siebe und prüfen Sie den Pumpenbereich auf Fremdkörper.",
+   "Prüfen Sie, ob der Ablaufschlauch nicht geknickt ist."
+  ],
+  "technician": "Bleibt das Problem, schließen Sie den Hahn und rufen Sie den Siemens Kundendienst."
+ },
+ "Siemens|E25": {
+  "title": "Laugenpumpe blockiert",
+  "causes": [
+   "Fremdkörper wie Glas oder Kerne blockieren die Laugenpumpe."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker.",
+   "Nehmen Sie die Siebe heraus und schöpfen Sie stehendes Wasser ab.",
+   "Nehmen Sie den Pumpendeckel ab und entfernen Sie vorsichtig Fremdkörper – achten Sie auf scharfe Glasscherben.",
+   "Setzen Sie Deckel und Siebe wieder ein."
+  ],
+  "technician": "Bleibt das Problem, schließen Sie den Hahn und rufen Sie den Siemens Kundendienst."
+ },
+ "Siemens|E27": {
+  "title": "Niedrige Netzspannung",
+  "causes": [
+   "Die Netzspannung ist zu niedrig. Das Gerät selbst ist nicht defekt."
+  ],
+  "steps": [
+   "Schalten Sie aus und später wieder ein."
+  ],
+  "technician": "Lassen Sie Ihre Stromversorgung von einem Elektriker prüfen. Tritt es erneut auf, wenden Sie sich an den Siemens Kundendienst."
+ },
+ "Samsung|4C": {
+  "title": "Wenig oder kein Wasserzulauf",
+  "causes": [
+   "Das Wasserventil ist geschlossen.",
+   "Die Wasserversorgung ist abgestellt.",
+   "Zulaufschlauch oder Ventil ist eingefroren oder verstopft."
+  ],
+  "steps": [
+   "Prüfen Sie, ob das Wasserventil ganz geöffnet ist.",
+   "Prüfen Sie, ob an anderen Hähnen Wasser kommt.",
+   "Prüfen Sie, ob der Zulaufschlauch nicht geknickt oder verstopft ist."
+  ],
+  "technician": "Läuft immer noch kein Wasser ein, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|5C": {
+  "title": "Wasser pumpt nicht ab",
+  "causes": [
+   "Der Abfluss oder der Anschluss an der Spüle ist verstopft.",
+   "Das Sieb ist verstopft.",
+   "Der Ablaufschlauch ist geknickt."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker.",
+   "Reinigen Sie das Feinsieb im Boden.",
+   "Prüfen Sie Ablaufschlauch und Spülenanschluss auf Knicke oder Verstopfungen."
+  ],
+  "technician": "Pumpt er immer noch nicht ab, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|5C2": {
+  "title": "Laugenpumpe bleibt stehen",
+  "causes": [
+   "Fremdkörper blockieren die Laugenpumpe."
+  ],
+  "steps": [
+   "Brechen Sie das Programm ab, damit abgepumpt wird.",
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker.",
+   "Nehmen Sie Unterkorb und Sieb heraus und prüfen Sie den Pumpensumpf auf Fremdkörper."
+  ],
+  "technician": "Bleibt die Pumpe weiterhin stehen, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|LC": {
+  "title": "Leck erkannt",
+  "causes": [
+   "Wasser tritt an der Tür aus oder läuft in die Bodenwanne.",
+   "Handspülmittel statt Geschirrspülmittel verwendet.",
+   "Die Spüle oder der Abfallzerkleinerer staut zurück."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus.",
+   "Verwenden Sie nur Geschirrspülmittel für Geschirrspüler.",
+   "Reinigen Sie die Türdichtung und die Unterkante der Tür.",
+   "Prüfen Sie, ob unter dem Geschirrspüler Wasser steht, und wischen Sie es auf.",
+   "Prüfen Sie, ob der Abfluss der Spüle nicht zurückstaut."
+  ],
+  "technician": "Läuft weiter Wasser aus, drehen Sie die Wasserzufuhr ab und wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|OC": {
+  "title": "Überfüllung oder zu viel Schaum",
+  "causes": [
+   "Zu viel Reinigerschaum.",
+   "Ein verstopftes Sieb.",
+   "Der Ablaufschlauch ist geknickt."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus.",
+   "Prüfen Sie, ob Sie den richtigen Geschirrspülreiniger in der richtigen Menge verwenden.",
+   "Reinigen Sie das Sieb und entfernen Sie stehendes Wasser aus dem Boden.",
+   "Prüfen Sie den Ablaufschlauch auf Knicke."
+  ],
+  "technician": "Füllt der Geschirrspüler weiter Wasser ein, drehen Sie die Wasserzufuhr ab und wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|HC": {
+  "title": "Problem an der Heizung (zu heiß)",
+  "causes": [
+   "Das zulaufende Wasser ist sehr heiß.",
+   "Die Siebe sind verschmutzt, daher zirkuliert das Wasser schlecht."
+  ],
+  "steps": [
+   "Schalten Sie für mindestens 5 Minuten aus.",
+   "Reinigen Sie die Siebe.",
+   "Starten Sie ein normales Programm mit leerem Geschirrspüler und Reiniger."
+  ],
+  "technician": "Kommt der Code wieder, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|tC": {
+  "title": "Problem am Temperatursensor",
+  "causes": [
+   "Der Geschirrspüler hat einen Fehler bei der Temperaturmessung erkannt."
+  ],
+  "steps": [
+   "Schalten Sie an der Steckdose oder Sicherung für mindestens 5 Minuten aus.",
+   "Schalten Sie ein und starten Sie ein Normal-Programm."
+  ],
+  "technician": "Kommt der Code wieder, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|DC": {
+  "title": "Tür nicht geschlossen",
+  "causes": [
+   "Die Tür ist nicht eingerastet.",
+   "Ein Besteckteil oder Geschirr steht heraus und blockiert die Tür."
+  ],
+  "steps": [
+   "Schieben Sie herausstehende Teile hinein.",
+   "Reinigen Sie den Bereich des Türschlosses.",
+   "Schließen Sie die Tür fest.",
+   "Schalten Sie für 30 Sekunden aus und dann wieder ein."
+  ],
+  "technician": "Rastet die Tür nicht ein, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|3C": {
+  "title": "Umwälzpumpe läuft nicht",
+  "causes": [
+   "Der Geschirrspüler füllt Wasser ein, aber der Spülmotor startet nicht."
+  ],
+  "steps": [
+   "Schalten Sie für eine Minute aus und versuchen Sie es dann erneut."
+  ],
+  "technician": "Wird immer noch nicht gesprüht, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|PC": {
+  "title": "Startet nicht mit Zone Wash oder Half Load",
+  "causes": [
+   "Ein Fehler im Zusammenhang mit der Funktion Zone Wash oder Half Load."
+  ],
+  "steps": [
+   "Schalten Sie für mindestens 30 Sekunden aus.",
+   "Schalten Sie Zone Wash oder Half Load aus und starten Sie ein Normal-Programm."
+  ],
+  "technician": "Kommt der Code wieder, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|9C1": {
+  "title": "Spannungsschutzmodus",
+  "causes": [
+   "Ein kurzes Flackern, eine Überspannung oder eine ausgelöste Sicherung."
+  ],
+  "steps": [
+   "Prüfen Sie Stecker und Steckdose.",
+   "Schalten Sie an der Steckdose oder Sicherung für mindestens 1 Minute aus und versuchen Sie es dann erneut.",
+   "Verwenden Sie eine eigene Steckdose ohne Verlängerungskabel oder Adapter."
+  ],
+  "technician": "Passiert das immer wieder, lassen Sie die Stromversorgung von einem Elektriker prüfen."
+ },
+ "Samsung|AC": {
+  "title": "Lässt sich einschalten, startet aber nicht",
+  "causes": [
+   "Ein interner Steuerungsfehler."
+  ],
+  "steps": [
+   "Schalten Sie an der Steckdose oder Sicherung aus.",
+   "Warten Sie 1 Minute, schalten Sie ein und versuchen Sie es erneut."
+  ],
+  "technician": "Kommt der Code wieder, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "Samsung|6C1": {
+  "title": "Problem mit der Reinigerdosierung",
+  "causes": [
+   "Der Motor der Dosierkammer arbeitet nicht normal.",
+   "Ein Tab steckt in der Dosierkammer fest."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 5 Minuten.",
+   "Prüfen Sie, ob kein Tab in der Dosierkammer feststeckt."
+  ],
+  "technician": "Kommt der Code wieder, wenden Sie sich an den Samsung Kundendienst."
+ },
+ "LG|AE": {
+  "title": "Leck oder Überfüllung erkannt",
+  "causes": [
+   "Es ist zu viel Wasser eingelaufen oder ein Leck wurde erkannt.",
+   "Handspülmittel hat zu viel Schaum verursacht.",
+   "Der Geschirrspüler steht nicht waagerecht."
+  ],
+  "steps": [
+   "Verwenden Sie nur Geschirrspülmittel für Geschirrspüler.",
+   "Stellen Sie große Teller und Töpfe mit der Öffnung nach unten ein.",
+   "Prüfen Sie, ob der Geschirrspüler waagerecht steht."
+  ],
+  "technician": "Gibt es kein Leck, aber der Code bleibt, schalten Sie den Strom ab und fordern Sie den LG Kundendienst an. Ziehen Sie ein Einbaugerät nicht selbst heraus."
+ },
+ "LG|IE": {
+  "title": "Zu wenig Wasserzulauf",
+  "causes": [
+   "Wasser im Haus abgestellt.",
+   "Der Zulaufschlauch ist geknickt oder gequetscht.",
+   "Das Zulaufventil oder das Ventil unter der Spüle ist geschlossen."
+  ],
+  "steps": [
+   "Prüfen Sie, ob an anderen Hähnen Wasser kommt.",
+   "Legen Sie den Zulaufschlauch gerade und entfernen Sie alles, was darauf drückt.",
+   "Öffnen Sie das Ventil unter der Spüle, besonders nach der Installation oder einem Umzug."
+  ],
+  "technician": "Bleibt das Problem, wenden Sie sich an den Installateur oder den LG Kundendienst."
+ },
+ "LG|OE": {
+  "title": "Pumpt nicht ab",
+  "causes": [
+   "Das Sieb ist verstopft.",
+   "Der Ablaufschlauch ist geknickt oder gequetscht."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und lassen Sie ihn 30 Minuten abkühlen.",
+   "Nehmen Sie den Unterkorb heraus, drehen Sie das Sieb heraus und spülen Sie es ab.",
+   "Setzen Sie das Sieb wieder ein, bis es einrastet.",
+   "Legen Sie den Ablaufschlauch gerade."
+  ],
+  "technician": "Steht weiterhin Wasser über dem Sieb, fordern Sie den LG Kundendienst an."
+ },
+ "LG|bE": {
+  "title": "Zu viel Schaum",
+  "causes": [
+   "Es wurde Handspülmittel verwendet.",
+   "Zu viel Reiniger."
+  ],
+  "steps": [
+   "Verwenden Sie nur Geschirrspülmittel für Geschirrspüler, und zwar weniger davon.",
+   "Wischen Sie den Schaum aus und starten Sie einen Spülgang ohne Reiniger."
+  ],
+  "technician": "Erscheint bE ohne Schaum, fordern Sie den LG Kundendienst an."
+ },
+ "LG|nE": {
+  "title": "Problem an der Sprühpumpe (Vario)",
+  "causes": [
+   "Das Flügelrad dreht sich nicht normal.",
+   "Geschirr berührt das Sprühsystem."
+  ],
+  "steps": [
+   "Ordnen Sie das Geschirr so an, dass nichts die Sprüharme blockiert.",
+   "Starten Sie das Programm neu."
+  ],
+  "technician": "Bleibt der Code, fordern Sie den LG Kundendienst an."
+ },
+ "LG|HE": {
+  "title": "Wasser wird nicht warm",
+  "causes": [
+   "Ein Fehler an der Heizung."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "LG empfiehlt, den Kundendienst anzufordern."
+ },
+ "LG|tE": {
+  "title": "Fehler am Temperatursensor",
+  "causes": [
+   "Schlechter Kontakt oder ein ausgefallener Temperatursensor."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "LG empfiehlt, den Kundendienst anzufordern."
+ },
+ "LG|LE": {
+  "title": "Fehler am Spülmotor",
+  "causes": [
+   "Der Spülmotor arbeitet nicht richtig."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "LG empfiehlt, den Kundendienst anzufordern."
+ },
+ "LG|PE": {
+  "title": "Fehler am Wasserstandssensor (ältere Modelle)",
+  "causes": [
+   "Ein Fehler am Wasserstandssensor."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "LG empfiehlt, den Kundendienst anzufordern."
+ },
+ "LG|F37": {
+  "title": "Automatische Türöffnung funktioniert nicht",
+  "causes": [
+   "Etwas blockiert die Tür.",
+   "Ein Fehler an den Teilen der automatischen Türöffnung."
+  ],
+  "steps": [
+   "Räumen Sie alles in der Nähe der Tür weg und starten Sie neu."
+  ],
+  "technician": "Bleibt das Problem, fordern Sie den LG Kundendienst an."
+ },
+ "AEG|i10": {
+  "title": "Kein Wasserzulauf",
+  "causes": [
+   "Der Wasserhahn ist geschlossen.",
+   "Der Wasserdruck ist zu niedrig.",
+   "Der Zulaufschlauch ist geknickt.",
+   "Das Sieb im Zulaufschlauch ist verstopft."
+  ],
+  "steps": [
+   "Öffnen Sie den Wasserhahn.",
+   "Prüfen Sie den Zulaufschlauch auf Knicke oder Biegungen.",
+   "Schalten Sie den Geschirrspüler aus, ziehen Sie den Netzstecker, schließen Sie den Hahn, nehmen Sie den Schlauch ab und reinigen Sie sein Sieb.",
+   "Schrauben Sie den Schlauch handfest wieder an, öffnen Sie den Hahn und starten Sie ein Programm."
+  ],
+  "technician": "Bleibt das Problem, wenden Sie sich an einen autorisierten Kundendienst."
+ },
+ "AEG|i20": {
+  "title": "Pumpt nicht ab",
+  "causes": [
+   "Der Anschlussstutzen oder Siphon der Spüle ist verstopft.",
+   "Das Sieb oder der Pumpensumpf ist verstopft.",
+   "Der Ablaufschlauch ist geknickt, zu lang oder in falscher Höhe verlegt.",
+   "Nach der Installation wurde der Verschlussstopfen im Siphon gelassen."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker.",
+   "Reinigen Sie Sieb und Pumpensumpf.",
+   "Prüfen Sie, ob der Ablaufschlauch nicht geknickt oder verdreht ist.",
+   "Prüfen Sie, ob der Anschlussstutzen am Siphon frei ist (und der Verschlussstopfen nach einer Neuinstallation entfernt wurde).",
+   "Stecken Sie den Stecker ein und starten Sie ein Programm."
+  ],
+  "technician": "Pumpt er immer noch nicht ab, wenden Sie sich an einen autorisierten Kundendienst."
+ },
+ "AEG|i30": {
+  "title": "Leck erkannt (Überlaufschutz)",
+  "causes": [
+   "Der Überlaufschutz hat Wasser in der Bodenwanne erkannt."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker.",
+   "Schließen Sie den Wasserhahn.",
+   "Wischen Sie Wasser vom Boden auf."
+  ],
+  "technician": "Lassen Sie das Leck von einem Techniker finden und beheben."
+ },
+ "AEG|i40": {
+  "title": "Problem am Wasserstandssensor (Drucksensor)",
+  "causes": [
+   "Der Wasserstand kann nicht richtig gemessen werden."
+  ],
+  "steps": [
+   "Schalten Sie die Steckdose etwa eine Minute aus und starten Sie dann neu."
+  ],
+  "technician": "Kommt der Code wieder, lassen Sie das Gerät reparieren."
+ },
+ "AEG|i50": {
+  "title": "Fehler an Spülmotor oder Umwälzpumpe",
+  "causes": [
+   "Ein Fehler an Spülmotor, Umwälzpumpe oder deren Steuerung."
+  ],
+  "steps": [
+   "Schalten Sie die Steckdose etwa eine Minute aus und starten Sie dann neu."
+  ],
+  "technician": "Kommt der Code wieder, lassen Sie das Gerät reparieren."
+ },
+ "AEG|i60": {
+  "title": "Fehler an der Heizung",
+  "causes": [
+   "Das Wasser wird nicht wie vorgesehen erhitzt."
+  ],
+  "steps": [
+   "Schalten Sie die Steckdose etwa eine Minute aus und starten Sie dann neu."
+  ],
+  "technician": "Kommt der Code wieder, lassen Sie das Gerät reparieren."
+ },
+ "AEG|iF0": {
+  "title": "Problem bei der Wasserstandsregelung",
+  "causes": [
+   "Der Füllstand ist falsch oder ungewöhnlich."
+  ],
+  "steps": [
+   "Prüfen Sie, ob der Wasserhahn ganz geöffnet ist.",
+   "Reinigen Sie die Siebe.",
+   "Schalten Sie die Steckdose etwa eine Minute aus und starten Sie dann neu."
+  ],
+  "technician": "Kommt der Code wieder, lassen Sie das Gerät reparieren."
+ },
+ "Hotpoint|F01": {
+  "title": "Überlaufschutz ausgelöst",
+  "causes": [
+   "Wasser in der Bodenwanne hat den Schwimmer des Überlaufschutzes ausgelöst.",
+   "Ein Leck oder ein defekter Schwimmerschalter."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und wieder ein, um ihn zurückzusetzen.",
+   "Schließen Sie den Wasserhahn, wenn Wasser auf dem Boden ist."
+  ],
+  "technician": "Kommt der Fehler wieder, vereinbaren Sie einen Termin mit einem Hotpoint Techniker."
+ },
+ "Hotpoint|F02": {
+  "title": "Fehler am Zulaufventil",
+  "causes": [
+   "Das Zulaufventil lässt Wasser ein, obwohl es das nicht sollte, oder ist ausgefallen."
+  ],
+  "steps": [
+   "Prüfen Sie, ob der Ablaufschlauch nicht auf dem Boden liegt.",
+   "Schließen Sie den Wasserhahn, wenn weiter Wasser einläuft."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Hotpoint Techniker."
+ },
+ "Hotpoint|F03": {
+  "title": "Fehler beim Abpumpen / Abpumpen dauert zu lange",
+  "causes": [
+   "Der Ablaufschlauch oder die Leitungen unter der Spüle sind verstopft.",
+   "Die Laugenpumpe ist blockiert oder defekt."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker.",
+   "Reinigen Sie die Siebe.",
+   "Prüfen Sie den Ablaufschlauch und die Leitungen unter der Spüle auf Verstopfungen."
+  ],
+  "technician": "Bleibt der Fehler, vereinbaren Sie einen Technikertermin."
+ },
+ "Hotpoint|F04": {
+  "title": "Fehler am Temperatursensor",
+  "causes": [
+   "Ein Fehler am Thermostat oder Temperatursensor."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Hotpoint Techniker."
+ },
+ "Hotpoint|F06": {
+  "title": "Wasserzulauf dauert zu lange",
+  "causes": [
+   "Der Hahn ist geschlossen oder teilweise geschlossen.",
+   "Niedriger Wasserdruck.",
+   "Der Zulaufschlauch ist geknickt oder sein Sieb ist verstopft."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass der Hahn ganz geöffnet ist.",
+   "Prüfen Sie, ob der Zulaufschlauch nicht geknickt oder gequetscht ist.",
+   "Prüfen Sie, ob der Wasserdruck normal ist."
+  ],
+  "technician": "Bleibt der Fehler, vereinbaren Sie einen Technikertermin."
+ },
+ "Hotpoint|F08": {
+  "title": "Wasser wird zu langsam aufgeheizt",
+  "causes": [
+   "Kalk, zu viel Schaum, eine falsch eingestellte Wasserhärte oder ein Fehler an der Heizung."
+  ],
+  "steps": [
+   "Prüfen Sie die Einstellung der Wasserhärte.",
+   "Verwenden Sie die richtige Reinigermenge."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Hotpoint Techniker."
+ },
+ "Hotpoint|F10": {
+  "title": "Fehler am Heizelement",
+  "causes": [
+   "Der Heizkreis ist unterbrochen oder das Heizelement ist ausgefallen."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Hotpoint Techniker."
+ },
+ "Hotpoint|F11": {
+  "title": "Fehler an der Umwälzpumpe",
+  "causes": [
+   "Die Umwälzpumpe ist ausgefallen, festgefressen oder durch Fremdkörper blockiert."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker.",
+   "Reinigen Sie die Siebe."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Hotpoint Techniker."
+ },
+ "Hotpoint|F12": {
+  "title": "Keine Kommunikation zwischen Hauptplatine und Anzeige",
+  "causes": [
+   "Ein Fehler an der Verkabelung oder der Anzeige."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker für 2 Minuten, stecken Sie ihn dann wieder ein und testen Sie."
+  ],
+  "technician": "Bleibt der Fehler, vereinbaren Sie einen Technikertermin."
+ },
+ "Hotpoint|F13": {
+  "title": "Fehler an der Hauptplatine",
+  "causes": [
+   "Die Hauptsteuerplatine ist ausgefallen."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Hotpoint Techniker."
+ },
+ "Indesit|F01": {
+  "title": "Überlaufschutz ausgelöst",
+  "causes": [
+   "Wasser in der Bodenwanne hat den Überlaufschutz ausgelöst."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker.",
+   "Schließen Sie den Wasserhahn und wischen Sie Wasser auf."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Indesit Techniker."
+ },
+ "Indesit|F02": {
+  "title": "Fehler am Zulaufventil",
+  "causes": [
+   "Das Zulaufventil ist ausgefallen."
+  ],
+  "steps": [
+   "Schließen Sie den Wasserhahn, wenn weiter Wasser einläuft.",
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Indesit Techniker."
+ },
+ "Indesit|F03": {
+  "title": "Fehler beim Abpumpen / Abpumpen dauert zu lange",
+  "causes": [
+   "Eine Verstopfung im Ablaufschlauch oder in den Leitungen unter der Spüle."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker.",
+   "Reinigen Sie die Siebe.",
+   "Prüfen Sie den Ablaufschlauch und die Leitungen unter der Spüle auf Verstopfungen."
+  ],
+  "technician": "Bleibt der Fehler, vereinbaren Sie einen Technikertermin."
+ },
+ "Indesit|F04": {
+  "title": "Fehler am Temperatursensor",
+  "causes": [
+   "Ein Fehler am Thermostat oder Temperatursensor."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Indesit Techniker."
+ },
+ "Indesit|F06": {
+  "title": "Wasserzulauf dauert zu lange",
+  "causes": [
+   "Der Hahn ist nicht ganz geöffnet.",
+   "Niedriger Wasserdruck.",
+   "Der Zulaufschlauch ist eingeschränkt."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass der Hahn ganz geöffnet ist.",
+   "Prüfen Sie, ob der Zulaufschlauch nicht geknickt oder gequetscht ist.",
+   "Prüfen Sie, ob normaler Wasserdruck vorhanden ist."
+  ],
+  "technician": "Bleibt der Fehler, vereinbaren Sie einen Technikertermin."
+ },
+ "Indesit|F08": {
+  "title": "Wasser wird zu langsam aufgeheizt",
+  "causes": [
+   "Die Temperatur wurde nicht rechtzeitig erreicht."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Indesit Techniker."
+ },
+ "Indesit|F10": {
+  "title": "Fehler am Heizelement",
+  "causes": [
+   "Ein Fehler am Heizelement."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Indesit Techniker."
+ },
+ "Indesit|F11": {
+  "title": "Fehler an der Umwälzpumpe",
+  "causes": [
+   "Die Umwälzpumpe ist ausgefallen."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Indesit Techniker."
+ },
+ "Indesit|F12": {
+  "title": "Keine Kommunikation zwischen Hauptplatine und Anzeige",
+  "causes": [
+   "Ein Kommunikationsfehler zwischen den Steuerplatinen."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Indesit Techniker."
+ },
+ "Indesit|F13": {
+  "title": "Fehler an der Hauptplatine",
+  "causes": [
+   "Die Hauptsteuerplatine ist ausgefallen."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker."
+  ],
+  "technician": "Vereinbaren Sie einen Termin mit einem Indesit Techniker."
+ },
+ "Beko|E:01": {
+  "title": "Wasserüberlauf oder Leck",
+  "causes": [
+   "Es läuft zu viel Wasser in den Geschirrspüler.",
+   "Ein Leck im Gerät."
+  ],
+  "steps": [
+   "Lassen Sie den Geschirrspüler sein Sicherheits-Abpumpen durchführen.",
+   "Verschwindet der Code, ist nichts weiter zu tun.",
+   "Bleibt er, schalten Sie aus, ziehen Sie den Netzstecker und schließen Sie den Wasserhahn."
+  ],
+  "technician": "Bleibt E:01 angezeigt, ist der Fehler dauerhaft. Rufen Sie den Beko Kundendienst."
+ },
+ "Beko|E:02": {
+  "title": "Wasserzufuhr unterbrochen",
+  "causes": [
+   "Das Leitungswasser ist abgestellt.",
+   "Der Zulaufhahn ist geschlossen."
+  ],
+  "steps": [
+   "Achten Sie darauf, dass der Wasserhahn offen ist.",
+   "Das Programm wartet und prüft, ob Wasser kommt. Es läuft weiter, sobald Wasser fließt."
+  ],
+  "technician": "Ist das Wasser an und der Code bleibt, rufen Sie den Beko Kundendienst."
+ },
+ "Miele|F11": {
+  "title": "Wasser wird nicht abgepumpt",
+  "causes": [
+   "Das Rückschlagventil oder der Deckel der Laugenpumpe ist nicht richtig eingesetzt.",
+   "Die Laugenpumpe ist durch Fremdkörper blockiert."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker.",
+   "Nehmen Sie den unteren Sprüharm (falls vorhanden) und die Siebkombination heraus.",
+   "Schöpfen Sie stehendes Wasser mit einer kleinen Tasse heraus.",
+   "Nehmen Sie den Pumpendeckel / das Rückschlagventil ab, spülen Sie es ab und entfernen Sie Fremdkörper. Achten Sie auf Glassplitter.",
+   "Prüfen Sie, ob sich das Pumpenflügelrad mit der Hand drehen lässt, setzen Sie den Deckel ein, bis er einrastet, und setzen Sie dann die Siebe ein."
+  ],
+  "technician": "Bleibt F11, wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|F12": {
+  "title": "Wasserzulauf blockiert oder eingeschränkt",
+  "causes": [
+   "Der Absperrhahn ist nicht geöffnet.",
+   "Das Zulaufsieb ist verschmutzt.",
+   "Der Zulaufschlauch ist geknickt.",
+   "Der Wasserdruck liegt unter 0,5 bar."
+  ],
+  "steps": [
+   "Öffnen Sie den Absperrhahn ganz.",
+   "Schalten Sie aus, ziehen Sie den Netzstecker, schließen Sie den Absperrhahn, schrauben Sie das Zulaufventil ab und reinigen Sie das kleine Sieb. Tauchen Sie das Ventilgehäuse nie in Wasser – es enthält ein elektrisches Bauteil.",
+   "Setzen Sie Sieb und Ventil wieder ein, öffnen Sie den Absperrhahn langsam und prüfen Sie, ob es tropft.",
+   "Beseitigen Sie Knicke im Schlauch."
+  ],
+  "technician": "Ist der Druck zu niedrig, rufen Sie einen Installateur. Bleibt der Fehler, wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|F13": {
+  "title": "Wasserzulauf blockiert oder eingeschränkt",
+  "causes": [
+   "Der Absperrhahn ist geschlossen.",
+   "Das Zulaufsieb ist verschmutzt.",
+   "Der Zulaufschlauch ist geknickt.",
+   "Der Wasserdruck liegt unter 0,5 bar."
+  ],
+  "steps": [
+   "Öffnen Sie den Absperrhahn ganz.",
+   "Schalten Sie aus, ziehen Sie den Netzstecker, schließen Sie den Absperrhahn und reinigen Sie das Zulaufsieb. Tauchen Sie das Ventilgehäuse nicht in Wasser.",
+   "Bauen Sie alles wieder ein, öffnen Sie den Absperrhahn langsam und prüfen Sie auf Undichtigkeiten.",
+   "Beseitigen Sie Knicke im Schlauch."
+  ],
+  "technician": "Ist der Druck zu niedrig, rufen Sie einen Installateur. Bleibt der Fehler, wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|F14": {
+  "title": "Fehler an Umwälzpumpe oder Wasseraufnahme",
+  "causes": [
+   "Die Umwälzpumpe ist nach längerer Pause eingetrocknet und festgeklebt.",
+   "Ein technischer Fehler an einem Niveauschalter."
+  ],
+  "steps": [
+   "Nehmen Sie den unteren Sprüharm und die Siebkombination heraus.",
+   "Gießen Sie 1 Liter warmes Wasser (max. 75°C) mit ein paar Tropfen Klarspüler hinein und warten Sie 5 Minuten.",
+   "Setzen Sie Siebe und Sprüharm wieder ein und starten Sie neu. Wiederholen Sie das bei Bedarf 2–3 Mal.",
+   "Andernfalls schalten Sie aus, warten ein paar Sekunden, schalten ein und starten neu."
+  ],
+  "technician": "Bleibt F14, wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|F15": {
+  "title": "Wasserzulauf blockiert oder eingeschränkt",
+  "causes": [
+   "Der Absperrhahn ist geschlossen.",
+   "Das Zulaufsieb ist verschmutzt.",
+   "Der Zulaufschlauch ist geknickt.",
+   "Der Wasserdruck liegt unter 0,5 bar."
+  ],
+  "steps": [
+   "Öffnen Sie den Absperrhahn ganz.",
+   "Schalten Sie aus, ziehen Sie den Netzstecker, schließen Sie den Absperrhahn und reinigen Sie das Zulaufsieb. Tauchen Sie das Ventilgehäuse nicht in Wasser.",
+   "Bauen Sie alles wieder ein, öffnen Sie den Absperrhahn langsam und prüfen Sie auf Undichtigkeiten.",
+   "Beseitigen Sie Knicke im Schlauch."
+  ],
+  "technician": "Ist der Druck zu niedrig, rufen Sie einen Installateur. Bleibt der Fehler, wenden Sie sich an den Miele Kundendienst."
+ },
+ "Miele|F18": {
+  "title": "Wasserzulaufventil defekt",
+  "causes": [
+   "Das Wasserzulaufventil ist ausgefallen."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus und schließen Sie den Absperrhahn."
+  ],
+  "technician": "Laut Miele können Sie dies nicht selbst beheben. Vereinbaren Sie einen Termin mit einem Miele Techniker."
+ },
+ "Miele|F24": {
+  "title": "Fehler am Heizrelais",
+  "causes": [
+   "Ein Kontaktfehler am Heizrelais."
+  ],
+  "steps": [
+   "Schalten Sie den Geschirrspüler aus."
+  ],
+  "technician": "Laut Miele können Sie dies nicht selbst beheben. Vereinbaren Sie einen Termin mit einem Miele Techniker."
+ },
+ "Miele|F70": {
+  "title": "Waterproof-System (Wasserschutz) ausgelöst",
+  "causes": [
+   "Der Wasserschutz wurde ausgelöst. Das Programm stoppt und die Laugenpumpe läuft."
+  ],
+  "steps": [
+   "Schließen Sie den Absperrhahn.",
+   "Schalten Sie den Geschirrspüler aus und ziehen Sie den Netzstecker.",
+   "Warten Sie, bis die Laugenpumpe stoppt."
+  ],
+  "technician": "Wenden Sie sich an den Miele Kundendienst, um die Ursache finden und beheben zu lassen."
+ },
+ "Miele|F78": {
+  "title": "Umwälzpumpe blockiert",
+  "causes": [
+   "Die Pumpe ist nach Wochen oder Monaten ohne Nutzung oder bei der ersten Nutzung eingetrocknet und festgeklebt.",
+   "Seltener ein technischer Fehler."
+  ],
+  "steps": [
+   "Nehmen Sie den unteren Sprüharm und die Siebkombination heraus.",
+   "Gießen Sie 1 Liter warmes Wasser (max. 75°C) mit 3–5 Tropfen Klarspüler hinein und warten Sie 5 Minuten.",
+   "Setzen Sie die Siebe flach und den Sprüharm wieder ein und starten Sie neu. Wiederholen Sie das bei Bedarf 2–3 Mal."
+  ],
+  "technician": "Bleibt F78, wenden Sie sich an den Miele Kundendienst."
+ }
+}

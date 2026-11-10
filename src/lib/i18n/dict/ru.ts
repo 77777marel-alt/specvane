@@ -156,7 +156,7 @@ export const ru: Dict = {
     errTitle: "Коды ошибок",
     errLead: "Что значат коды ошибок стиральных и посудомоечных машин и что можно безопасно сделать самому.",
     errBrandTitle: "{brand} {appliance}: коды ошибок",
-    errCodeTitle: "{brand} {appliance}: ошибка {code}",
+    errCodeTitle: "Ошибка {code} — {brand}, {appliance}",
     errCauses: "Возможные причины",
     errSteps: "Что можно сделать",
     errTech: "Когда вызывать мастера",
