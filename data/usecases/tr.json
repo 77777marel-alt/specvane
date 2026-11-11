@@ -1,0 +1,159 @@
+{
+ "section": "Kimler için",
+ "criteria": "Seçim kriterleri",
+ "indexTitle": "{category}: her ihtiyaca göre öneriler",
+ "items": {
+  "compact-phones": {
+   "title": "Tek elle kullanılabilen küçük telefonlar",
+   "lead": "Ekranı 6,2 inç veya daha küçük telefonlar — tek elle kullanımı daha kolay, her cebe sığar."
+  },
+  "long-battery-life-phones": {
+   "title": "Şarjı en uzun giden telefonlar",
+   "lead": "5.500 mAh veya daha büyük bataryalı telefonlar — yoğun kullanımda genellikle tam bir gün, çoğu zaman iki gün yeter."
+  },
+  "gaming-phones": {
+   "title": "Oyun telefonları",
+   "lead": "120 Hz veya üzeri ekran, en az 12 GB RAM ve en az 5.000 mAh bataryaya sahip telefonlar — akıcı oyunlar ve uzun oyun seansları."
+  },
+  "zoom-camera-phones": {
+   "title": "Gerçek optik zoomlu telefonlar",
+   "lead": "En az 3x optik zoom ve 50 MP veya üzeri ana kameraya sahip telefonlar — yalnızca dijital kırpma değil, uzaktan da net fotoğraflar."
+  },
+  "phones-for-older-users": {
+   "title": "Yaşlılar için akıllı telefonlar",
+   "lead": "En az 6,5 inç büyük ekranlı ve en az 5.000 mAh bataryalı telefonlar — daha büyük yazılar ve tuşlar, daha seyrek şarj."
+  },
+  "laptops-for-students": {
+   "title": "Öğrenciler için laptoplar",
+   "lead": "En fazla 1,6 kg ağırlığında, en az 16 GB RAM ve en az 50 Wh bataryalı hafif laptoplar — derslere taşıması kolay, ders çalışmak ve çoklu görev için yeterli."
+  },
+  "gaming-laptops": {
+   "title": "Oyuncu laptopları",
+   "lead": "Harici ekran kartı, 144 Hz veya üzeri ekran ve en az 16 GB RAM'e sahip laptoplar."
+  },
+  "ultralight-laptops": {
+   "title": "Ultra hafif laptoplar",
+   "lead": "1,2 kg veya daha hafif laptoplar — bilgisayarını her gün yanında taşıyanlar için."
+  },
+  "laptops-for-programmers": {
+   "title": "Yazılımcılar için laptoplar",
+   "lead": "En az 32 GB RAM ve 1 TB depolamaya sahip laptoplar — IDE'ler, konteynerler, sanal makineler ve büyük projeler için yeterli alan."
+  },
+  "gaming-tvs": {
+   "title": "Oyun için televizyonlar",
+   "lead": "120 Hz veya üzeri panele sahip, 50 inç ve üzeri televizyonlar — konsol ve PC oyunlarında akıcı hareket."
+  },
+  "small-tvs-for-bedroom": {
+   "title": "Yatak odası veya mutfak için küçük akıllı TV'ler",
+   "lead": "43 inçe kadar akıllı televizyonlar — küçük odalar için doğru boyut, uygulamalar dahili."
+  },
+  "big-screen-tvs": {
+   "title": "Büyük ekran televizyonlar (75 inç ve üzeri)",
+   "lead": "75 inç ve üzeri televizyonlar — geniş salonlarda sinema hissi."
+  },
+  "gaming-monitors": {
+   "title": "Oyuncu monitörleri",
+   "lead": "En az 165 Hz yenileme hızına ve 1 ms veya daha düşük tepki süresine sahip monitörler."
+  },
+  "monitors-for-office": {
+   "title": "Ofis ve evden çalışma için monitörler",
+   "lead": "Yükseklik ayarlı 24–27 inç monitörler — iş günü boyunca en rahat boyut ve duruş."
+  },
+  "monitors-for-photo-editing": {
+   "title": "Fotoğraf düzenleme için monitörler",
+   "lead": "sRGB renk alanının %99'unu veya daha fazlasını kapsayan monitörler — fotoğraf ve tasarım için doğru renkler."
+  },
+  "headphones-for-travel": {
+   "title": "Seyahat ve uçak için kulaklıklar",
+   "lead": "Aktif gürültü engelleme özellikli ve en az 30 saat pil ömrüne sahip kulaklıklar."
+  },
+  "headphones-for-sport": {
+   "title": "Spor kulaklıkları",
+   "lead": "Tere ve suya dayanıklı (IPX4 veya üzeri) kulaklıklar, en hafiften başlayarak."
+  },
+  "headphones-for-calls": {
+   "title": "Görüşme ve iş için kulaklıklar",
+   "lead": "Aynı anda iki cihaza bağlanabilen (multipoint) mikrofonlu kulaklıklar — laptop ile telefon arasında kolayca geçiş yapın."
+  },
+  "watches-for-running": {
+   "title": "Koşu için akıllı saatler",
+   "lead": "Dahili GPS'li ve en az 48 saat pil ömrüne sahip saatler — koşularınızı telefon olmadan kaydedin."
+  },
+  "waterproof-speakers-for-outdoors": {
+   "title": "Plaj ve dış mekân için su geçirmez hoparlörler",
+   "lead": "IP67/IPX7 veya üzeri korumaya ve en az 10 saat pil ömrüne sahip hoparlörler."
+  },
+  "party-speakers": {
+   "title": "Parti hoparlörleri",
+   "lead": "50 W veya üzeri çıkış gücüne sahip hoparlörler."
+  },
+  "cameras-for-vlogging": {
+   "title": "Vlog kameraları",
+   "lead": "Çevrilebilir ekranlı ve en fazla 600 g ağırlığında kameralar — çekim yaparken kendinizi görün."
+  },
+  "cameras-for-travel": {
+   "title": "Seyahat kameraları",
+   "lead": "Görüntü sabitlemeli hafif kameralar (en fazla 500 g)."
+  },
+  "washing-machines-for-big-families": {
+   "title": "Kalabalık aileler için çamaşır makineleri",
+   "lead": "9 kg veya üzeri kapasiteli çamaşır makineleri — daha az yıkama, yorganlar için yer."
+  },
+  "quiet-washing-machines": {
+   "title": "Sessiz çamaşır makineleri",
+   "lead": "Sıkma sırasında ses seviyesi 72 dB veya altında olan çamaşır makineleri — apartman daireleri ve açık mutfaklar için daha uygun."
+  },
+  "energy-saving-washing-machines": {
+   "title": "Enerji ve su tasarruflu çamaşır makineleri",
+   "lead": "100 yıkamada en fazla 50 kWh ve yıkama başına en fazla 50 litre tüketen çamaşır makineleri."
+  },
+  "quiet-fridges": {
+   "title": "Sessiz buzdolapları",
+   "lead": "Ses seviyesi 35 dB veya altında olan buzdolapları — stüdyo daireler ve açık mutfaklar için."
+  },
+  "fridges-for-big-families": {
+   "title": "Kalabalık aileler için buzdolapları",
+   "lead": "Toplam hacmi 400 litre veya üzeri olan buzdolapları."
+  },
+  "energy-saving-fridges": {
+   "title": "Enerji tasarruflu buzdolapları",
+   "lead": "Yılda en fazla 150 kWh tüketen buzdolapları."
+  },
+  "quiet-tumble-dryers": {
+   "title": "Sessiz kurutma makineleri",
+   "lead": "Ses seviyesi 62 dB veya altında olan kurutma makineleri."
+  },
+  "tumble-dryers-for-big-families": {
+   "title": "Kalabalık aileler için kurutma makineleri",
+   "lead": "9 kg veya üzeri kapasiteli kurutma makineleri."
+  },
+  "bean-to-cup-with-milk": {
+   "title": "Süt sistemli tam otomatik kahve makineleri",
+   "lead": "Dahili öğütücü ve süt köpürtücüye sahip makineler — tek tuşla cappuccino ve latte."
+  },
+  "coffee-machines-for-office": {
+   "title": "Ofis için kahve makineleri",
+   "lead": "En az 1,8 litre su haznesine sahip tam otomatik makineler — yoğun günlerde daha az su doldurma."
+  },
+  "bright-projectors-for-living-room": {
+   "title": "Salon için parlak projektörler",
+   "lead": "En az 3.000 lümen parlaklığa sahip projektörler — oda tamamen karanlık olmasa bile rahatça izlenir."
+  },
+  "quiet-projectors": {
+   "title": "Sessiz projektörler",
+   "lead": "Ses seviyesi 28 dB veya altında olan projektörler."
+  },
+  "graphics-cards-for-4k-gaming": {
+   "title": "4K oyun için ekran kartları",
+   "lead": "En az 16 GB video belleğine sahip ekran kartları."
+  },
+  "compact-graphics-cards": {
+   "title": "Küçük PC'ler için kompakt ekran kartları",
+   "lead": "En fazla 200 mm uzunluğundaki ekran kartları — küçük form faktörlü (SFF) kasalara sığar."
+  },
+  "tablets-for-movies": {
+   "title": "Film ve dizi izlemek için tabletler",
+   "lead": "En az 11 inç ekranlı ve en az 8.000 mAh bataryalı tabletler."
+  }
+ }
+}

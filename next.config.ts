@@ -40,7 +40,11 @@ const nextConfig: NextConfig = {
     ],
   },
   async headers() {
-    return [{ source: '/:path*', headers: securityHeaders }]
+    // виджеты /embed/* можно вставлять на любые сайты (iframe) — без X-Frame-Options: DENY
+    return [
+      { source: '/((?!embed/).*)', headers: securityHeaders },
+      { source: '/embed/:path*', headers: securityHeaders.filter((h) => h.key !== 'X-Frame-Options' && !h.key.startsWith('Content-Security-Policy')) },
+    ]
   },
 }
 

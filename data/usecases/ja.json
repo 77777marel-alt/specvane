@@ -1,0 +1,159 @@
+{
+ "section": "目的別",
+ "criteria": "選定基準",
+ "indexTitle": "{category}：目的別のおすすめ",
+ "items": {
+  "compact-phones": {
+   "title": "片手で使えるコンパクトなスマホ",
+   "lead": "画面サイズ6.2インチ以下のスマートフォン。片手で操作しやすく、どんなポケットにも収まります。"
+  },
+  "long-battery-life-phones": {
+   "title": "バッテリー持ちが良いスマホ",
+   "lead": "バッテリー容量5,500 mAh以上のスマートフォン。ヘビーに使っても丸1日、多くの場合2日もちます。"
+  },
+  "gaming-phones": {
+   "title": "ゲーミングスマホ",
+   "lead": "120 Hz以上の画面、12 GB以上のRAM、5,000 mAh以上のバッテリーを備えたスマートフォン。ゲームが滑らかに動き、長時間プレイできます。"
+  },
+  "zoom-camera-phones": {
+   "title": "光学ズーム搭載のカメラが強いスマホ",
+   "lead": "光学3倍以上のズームと50 MP以上のメインカメラを備えたスマートフォン。デジタルの切り出しではなく、遠くの被写体もくっきり撮れます。"
+  },
+  "phones-for-older-users": {
+   "title": "シニア向けスマホ",
+   "lead": "6.5インチ以上の大画面と5,000 mAh以上のバッテリーを備えたスマートフォン。文字やボタンが大きく、充電の回数も減ります。"
+  },
+  "laptops-for-students": {
+   "title": "学生向けノートパソコン",
+   "lead": "重さ1.6 kg以下、RAM 16 GB以上、バッテリー50 Wh以上の軽量ノートパソコン。講義に持ち運びやすく、勉強やマルチタスクにも十分です。"
+  },
+  "gaming-laptops": {
+   "title": "ゲーミングノートPC",
+   "lead": "専用グラフィックス（dGPU）、144 Hz以上の画面、16 GB以上のRAMを備えたノートパソコン。"
+  },
+  "ultralight-laptops": {
+   "title": "超軽量ノートパソコン",
+   "lead": "重さ1.2 kg以下のノートパソコン。毎日持ち歩く人におすすめです。"
+  },
+  "laptops-for-programmers": {
+   "title": "プログラマー向けノートパソコン",
+   "lead": "RAM 32 GB以上、ストレージ1 TB以上のノートパソコン。IDE、コンテナ、仮想マシン、大規模なプロジェクトにも余裕があります。"
+  },
+  "gaming-tvs": {
+   "title": "ゲーミングテレビ",
+   "lead": "120 Hz以上のパネルを備えた50インチ以上のテレビ。家庭用ゲーム機やPCゲームで動きが滑らかです。"
+  },
+  "small-tvs-for-bedroom": {
+   "title": "寝室やキッチン向けの小型スマートテレビ",
+   "lead": "43インチ以下のスマートテレビ。狭い部屋にちょうどよいサイズで、アプリも内蔵しています。"
+  },
+  "big-screen-tvs": {
+   "title": "大画面テレビ（75インチ以上）",
+   "lead": "75インチ以上のテレビ。広いリビングで映画館のような迫力を楽しめます。"
+  },
+  "gaming-monitors": {
+   "title": "ゲーミングモニター",
+   "lead": "リフレッシュレート165 Hz以上、応答速度1 ms以下のモニター。"
+  },
+  "monitors-for-office": {
+   "title": "オフィス・在宅勤務向けモニター",
+   "lead": "高さ調整ができる24〜27インチのモニター。一日中作業しても疲れにくいサイズと姿勢を保てます。"
+  },
+  "monitors-for-photo-editing": {
+   "title": "写真編集向けモニター",
+   "lead": "sRGB色域を99%以上カバーするモニター。写真やデザインで正確な色を再現します。"
+  },
+  "headphones-for-travel": {
+   "title": "旅行・飛行機向けヘッドホン",
+   "lead": "アクティブノイズキャンセリングを搭載し、バッテリーが30時間以上もつヘッドホン。"
+  },
+  "headphones-for-sport": {
+   "title": "スポーツ向けイヤホン",
+   "lead": "汗や水に強い（IPX4以上）ヘッドホン・イヤホン。軽い順に表示します。"
+  },
+  "headphones-for-calls": {
+   "title": "通話・仕事向けヘッドセット",
+   "lead": "マイク付きで2台の機器に同時接続できる（マルチポイント）ヘッドホン。ノートPCとスマホをすぐに切り替えられます。"
+  },
+  "watches-for-running": {
+   "title": "ランニング向けスマートウォッチ",
+   "lead": "GPSを内蔵し、バッテリーが48時間以上もつウォッチ。スマホなしでランを記録できます。"
+  },
+  "waterproof-speakers-for-outdoors": {
+   "title": "海やアウトドア向けの防水スピーカー",
+   "lead": "IP67/IPX7以上の防水性能を持ち、バッテリーが10時間以上もつスピーカー。"
+  },
+  "party-speakers": {
+   "title": "パーティー向けスピーカー",
+   "lead": "出力50 W以上のスピーカー。"
+  },
+  "cameras-for-vlogging": {
+   "title": "Vlog向けカメラ",
+   "lead": "可動式モニターを備え、重さ600 g以下のカメラ。撮影中に自分の映り具合を確認できます。"
+  },
+  "cameras-for-travel": {
+   "title": "旅行向けカメラ",
+   "lead": "手ぶれ補正を搭載した軽量カメラ（500 g以下）。"
+  },
+  "washing-machines-for-big-families": {
+   "title": "大家族向け洗濯機",
+   "lead": "洗濯容量9 kg以上の洗濯機。洗濯の回数が減り、掛け布団も洗えます。"
+  },
+  "quiet-washing-machines": {
+   "title": "静音洗濯機",
+   "lead": "脱水時の運転音が72 dB以下の洗濯機。集合住宅やオープンキッチンに向いています。"
+  },
+  "energy-saving-washing-machines": {
+   "title": "省エネ・節水洗濯機",
+   "lead": "100回あたりの消費電力量が50 kWh以下、1回あたりの使用水量が50 L以下の洗濯機。"
+  },
+  "quiet-fridges": {
+   "title": "静音冷蔵庫",
+   "lead": "運転音が35 dB以下の冷蔵庫。ワンルームやオープンキッチンにおすすめです。"
+  },
+  "fridges-for-big-families": {
+   "title": "大家族向け冷蔵庫",
+   "lead": "総容量400 L以上の冷蔵庫。"
+  },
+  "energy-saving-fridges": {
+   "title": "省エネ冷蔵庫",
+   "lead": "年間消費電力量が150 kWh以下の冷蔵庫。"
+  },
+  "quiet-tumble-dryers": {
+   "title": "静音衣類乾燥機",
+   "lead": "運転音が62 dB以下の乾燥機。"
+  },
+  "tumble-dryers-for-big-families": {
+   "title": "大家族向け衣類乾燥機",
+   "lead": "乾燥容量9 kg以上の乾燥機。"
+  },
+  "bean-to-cup-with-milk": {
+   "title": "ミルク機能付き全自動コーヒーマシン",
+   "lead": "ミルを内蔵し、ミルクフォーマーを備えたマシン。ボタンひとつでカプチーノやラテが作れます。"
+  },
+  "coffee-machines-for-office": {
+   "title": "オフィス向けコーヒーマシン",
+   "lead": "水タンク容量1.8 L以上の全自動コーヒーマシン。忙しい日でも給水の手間が少なくて済みます。"
+  },
+  "bright-projectors-for-living-room": {
+   "title": "リビング向けの明るいプロジェクター",
+   "lead": "明るさ3,000ルーメン以上のプロジェクター。部屋を完全に暗くしなくても見やすい映像です。"
+  },
+  "quiet-projectors": {
+   "title": "静音プロジェクター",
+   "lead": "動作音が28 dB以下のプロジェクター。"
+  },
+  "graphics-cards-for-4k-gaming": {
+   "title": "4Kゲーミング向けグラフィックボード",
+   "lead": "ビデオメモリ16 GB以上のグラフィックボード。"
+  },
+  "compact-graphics-cards": {
+   "title": "小型PC向けのコンパクトなグラフィックボード",
+   "lead": "長さ200 mm以下のグラフィックボード。小型（SFF）ケースにも収まります。"
+  },
+  "tablets-for-movies": {
+   "title": "映画・ドラマ鑑賞向けタブレット",
+   "lead": "11インチ以上の画面と8,000 mAh以上のバッテリーを備えたタブレット。"
+  }
+ }
+}

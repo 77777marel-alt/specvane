@@ -4,6 +4,8 @@ import type { Dict } from '@/lib/i18n'
 import { INFO_PAGES, sectionHref } from '@/lib/routes'
 import { Logo } from './Logo'
 import { legalText } from '@/lib/legal'
+import { widgetsText } from '@/lib/widgets'
+import { reportText, REPORT_SLUG } from '@/lib/reports'
 
 export function Footer({ lang, t }: { lang: Locale; t: Dict }) {
   return (
@@ -19,6 +21,8 @@ export function Footer({ lang, t }: { lang: Locale; t: Dict }) {
             {INFO_PAGES.map((p) => (
               <li key={p}><Link href={sectionHref(lang, p)} className="text-muted hover:text-fg">{t.info[p].title}</Link></li>
             ))}
+            <li><Link href={sectionHref(lang, 'reports', REPORT_SLUG)} className="text-muted hover:text-fg">{reportText(lang).section}</Link></li>
+            <li><Link href={sectionHref(lang, 'widgets')} className="text-muted hover:text-fg">{widgetsText(lang).section}</Link></li>
           </ul>
         </nav>
         <nav id="languages" aria-label={t.nav.language}>

@@ -1,0 +1,159 @@
+{
+ "section": "Kenelle",
+ "criteria": "Valintaperusteet",
+ "indexTitle": "{category}: parhaat valinnat joka tarpeeseen",
+ "items": {
+  "compact-phones": {
+   "title": "Pienet puhelimet yhden käden käyttöön",
+   "lead": "Puhelimet, joiden näyttö on enintään 6,2 tuumaa — helpompi käyttää yhdellä kädellä, ja ne mahtuvat mihin tahansa taskuun."
+  },
+  "long-battery-life-phones": {
+   "title": "Puhelimet, joissa on paras akunkesto",
+   "lead": "Puhelimet, joissa on vähintään 5 500 mAh:n akku — riittää yleensä koko päivän raskaaseen käyttöön, usein kahdeksi."
+  },
+  "gaming-phones": {
+   "title": "Pelipuhelimet",
+   "lead": "Puhelimet, joissa on vähintään 120 Hz:n näyttö, vähintään 12 Gt RAM-muistia ja vähintään 5 000 mAh:n akku — sulavaa pelaamista ja pitkiä pelisessioita."
+  },
+  "zoom-camera-phones": {
+   "title": "Puhelimet, joissa on aito optinen zoom",
+   "lead": "Puhelimet, joissa on vähintään 3× optinen zoom ja vähintään 50 MP:n pääkamera — terävät kuvat kaukaa, ei pelkkää digitaalista rajausta."
+  },
+  "phones-for-older-users": {
+   "title": "Puhelimet ikäihmisille",
+   "lead": "Puhelimet, joissa on suuri, vähintään 6,5 tuuman näyttö ja vähintään 5 000 mAh:n akku — isompi teksti ja painikkeet, harvemmin latausta."
+  },
+  "laptops-for-students": {
+   "title": "Kannettavat tietokoneet opiskelijoille",
+   "lead": "Kevyet kannettavat (enintään 1,6 kg), joissa on vähintään 16 Gt RAM-muistia ja vähintään 50 Wh:n akku — helppo kantaa luennoille, ja teho riittää opiskeluun ja moniajoon."
+  },
+  "gaming-laptops": {
+   "title": "Pelikannettavat",
+   "lead": "Kannettavat, joissa on erillinen näytönohjain, vähintään 144 Hz:n näyttö ja vähintään 16 Gt RAM-muistia."
+  },
+  "ultralight-laptops": {
+   "title": "Ultrakevyet kannettavat",
+   "lead": "Kannettavat, jotka painavat enintään 1,2 kg — niille, jotka kantavat konetta mukanaan joka päivä."
+  },
+  "laptops-for-programmers": {
+   "title": "Kannettavat ohjelmoijille",
+   "lead": "Kannettavat, joissa on vähintään 32 Gt RAM-muistia ja 1 Tt tallennustilaa — tilaa kehitysympäristöille, konteille, virtuaalikoneille ja isoille projekteille."
+  },
+  "gaming-tvs": {
+   "title": "Televisiot pelaamiseen",
+   "lead": "Vähintään 50 tuuman televisiot, joissa on vähintään 120 Hz:n paneeli — sulava liike konsoli- ja PC-pelaamiseen."
+  },
+  "small-tvs-for-bedroom": {
+   "title": "Pienet älytelevisiot makuuhuoneeseen tai keittiöön",
+   "lead": "Enintään 43 tuuman älytelevisiot — sopiva koko pieniin huoneisiin, sovellukset valmiina."
+  },
+  "big-screen-tvs": {
+   "title": "Isot televisiot (75 tuumaa ja yli)",
+   "lead": "Vähintään 75 tuuman televisiot — elokuvateatterin tunnelma isoon olohuoneeseen."
+  },
+  "gaming-monitors": {
+   "title": "Pelinäytöt",
+   "lead": "Näytöt, joiden virkistystaajuus on vähintään 165 Hz ja vasteaika enintään 1 ms."
+  },
+  "monitors-for-office": {
+   "title": "Näytöt toimistoon ja etätöihin",
+   "lead": "24–27 tuuman näytöt korkeussäädöllä — mukavin koko ja asento koko työpäiväksi."
+  },
+  "monitors-for-photo-editing": {
+   "title": "Näytöt kuvankäsittelyyn",
+   "lead": "Näytöt, jotka kattavat vähintään 99 % sRGB-väriavaruudesta — tarkat värit valokuviin ja suunnitteluun."
+  },
+  "headphones-for-travel": {
+   "title": "Kuulokkeet matkoille ja lentoille",
+   "lead": "Kuulokkeet, joissa on aktiivinen melunvaimennus ja vähintään 30 tunnin akunkesto."
+  },
+  "headphones-for-sport": {
+   "title": "Urheilukuulokkeet",
+   "lead": "Hiki- ja vesitiiviit kuulokkeet (IPX4 tai parempi), kevyimmät ensin."
+  },
+  "headphones-for-calls": {
+   "title": "Kuulokkeet puheluihin ja työhön",
+   "lead": "Mikrofonilliset kuulokkeet, jotka yhdistyvät kahteen laitteeseen yhtä aikaa (multipoint) — vaihto läppärin ja puhelimen välillä käy kätevästi."
+  },
+  "watches-for-running": {
+   "title": "Älykellot juoksuun",
+   "lead": "Kellot, joissa on sisäänrakennettu GPS ja vähintään 48 tunnin akunkesto — lenkit tallentuvat ilman puhelinta."
+  },
+  "waterproof-speakers-for-outdoors": {
+   "title": "Vedenkestävät kaiuttimet rannalle ja ulkoiluun",
+   "lead": "Kaiuttimet, joiden suojausluokka on IP67/IPX7 tai parempi ja akunkesto vähintään 10 tuntia."
+  },
+  "party-speakers": {
+   "title": "Bilekaiuttimet",
+   "lead": "Kaiuttimet, joiden lähtöteho on vähintään 50 W."
+  },
+  "cameras-for-vlogging": {
+   "title": "Kamerat vlogaamiseen",
+   "lead": "Kamerat, joissa on käännettävä näyttö ja jotka painavat enintään 600 g — näet itsesi kuvatessasi."
+  },
+  "cameras-for-travel": {
+   "title": "Matkakamerat",
+   "lead": "Kevyet kamerat (enintään 500 g), joissa on kuvanvakain."
+  },
+  "washing-machines-for-big-families": {
+   "title": "Pesukoneet suurperheille",
+   "lead": "Pesukoneet, joiden kapasiteetti on vähintään 9 kg — vähemmän pesukertoja ja tilaa peitoille."
+  },
+  "quiet-washing-machines": {
+   "title": "Hiljaiset pesukoneet",
+   "lead": "Pesukoneet, joiden linkousmelu on enintään 72 dB — parempi valinta kerrostaloon ja avokeittiöön."
+  },
+  "energy-saving-washing-machines": {
+   "title": "Energiaa ja vettä säästävät pesukoneet",
+   "lead": "Pesukoneet, jotka kuluttavat enintään 50 kWh 100 pesukertaa kohden ja enintään 50 litraa vettä pesukertaa kohden."
+  },
+  "quiet-fridges": {
+   "title": "Hiljaiset jääkaapit",
+   "lead": "Jääkaapit, joiden melutaso on enintään 35 dB — yksiöihin ja avokeittiöihin."
+  },
+  "fridges-for-big-families": {
+   "title": "Jääkaapit suurperheille",
+   "lead": "Jääkaapit, joiden kokonaistilavuus on vähintään 400 litraa."
+  },
+  "energy-saving-fridges": {
+   "title": "Energiatehokkaat jääkaapit",
+   "lead": "Jääkaapit, jotka kuluttavat enintään 150 kWh vuodessa."
+  },
+  "quiet-tumble-dryers": {
+   "title": "Hiljaiset kuivausrummut",
+   "lead": "Kuivausrummut, joiden melutaso on enintään 62 dB."
+  },
+  "tumble-dryers-for-big-families": {
+   "title": "Kuivausrummut suurperheille",
+   "lead": "Kuivausrummut, joiden kapasiteetti on vähintään 9 kg."
+  },
+  "bean-to-cup-with-milk": {
+   "title": "Kahviautomaatit maitojärjestelmällä",
+   "lead": "Laitteet, joissa on sisäänrakennettu mylly ja maidonvaahdotin — cappuccino ja latte napin painalluksella."
+  },
+  "coffee-machines-for-office": {
+   "title": "Kahviautomaatit toimistoon",
+   "lead": "Kahviautomaatit, joissa on vähintään 1,8 litran vesisäiliö — vähemmän täyttämistä kiireisinä päivinä."
+  },
+  "bright-projectors-for-living-room": {
+   "title": "Kirkkaat projektorit olohuoneeseen",
+   "lead": "Projektorit, joiden valovoima on vähintään 3 000 lumenia — kuva näkyy, vaikka huone ei olisi täysin pimeä."
+  },
+  "quiet-projectors": {
+   "title": "Hiljaiset projektorit",
+   "lead": "Projektorit, joiden melutaso on enintään 28 dB."
+  },
+  "graphics-cards-for-4k-gaming": {
+   "title": "Näytönohjaimet 4K-pelaamiseen",
+   "lead": "Näytönohjaimet, joissa on vähintään 16 Gt videomuistia."
+  },
+  "compact-graphics-cards": {
+   "title": "Kompaktit näytönohjaimet pieniin tietokoneisiin",
+   "lead": "Enintään 200 mm pitkät näytönohjaimet — mahtuvat pieniin (SFF) koteloihin."
+  },
+  "tablets-for-movies": {
+   "title": "Tabletit elokuviin ja sarjoihin",
+   "lead": "Tabletit, joissa on vähintään 11 tuuman näyttö ja vähintään 8 000 mAh:n akku."
+  }
+ }
+}

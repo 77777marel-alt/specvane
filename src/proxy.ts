@@ -40,6 +40,6 @@ export function proxy(req: NextRequest) {
 export const config = {
   matcher: [
     // всё, кроме служебных файлов, sitemap/robots и файлов с расширением
-    '/((?!_next|api|sitemap\\.xml|sitemaps/|robots\\.txt|favicon\\.ico|icon|apple-icon|.*\\.[a-z0-9]+$).*)',
+    '/((?!_next|api|embed/|og/|sitemap\\.xml|sitemaps/|robots\\.txt|favicon\\.ico|icon|apple-icon|.*\\.[a-z0-9]+$).*)',
   ],
 }

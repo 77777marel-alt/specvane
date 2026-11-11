@@ -1,6 +1,7 @@
 import { ImageResponse } from 'next/og'
 import { isLocale } from '@/lib/i18n/config'
-import { getComparison, getCategory, getProduct, getBrandVs, getCategoryByKey } from '@/lib/catalog'
+import { getComparison, getCategory, getProduct, getBrandVs, getCategoryByKey, getTrends } from '@/lib/catalog'
+import { reportText } from '@/lib/reports'
 import { brandsText } from '@/lib/brands'
 import { guideFor, GUIDE_UI } from '@/lib/guides'
 import { APPLIANCES, applianceName, errorCode, type Appliance } from '@/lib/errors'
@@ -125,6 +126,32 @@ export async function GET(_req: Request, { params }: { params: Promise<{ parts: 
     const bt = brandsText(L)
     const sum = v.wa === v.wb ? fill(bt.tie, { a: v.a.name, b: v.b.name, n: v.wa }) : fill(bt.ahead, { brand: v.wa > v.wb ? v.a.name : v.b.name, n: Math.max(v.wa, v.wb), m: v.both })
     const el = title(`${v.a.name} vs ${v.b.name}`, cat.name, <div style={{ display: 'flex', fontSize: 38, color: GOOD, fontWeight: 700 }}>{sum}</div>)
+    return new ImageResponse(el, await opts(lang, textOf(el)))
+  }
+
+  // отчёт: /og/<lang>/report/tech-trends-2026.png
+  if (kind === 'report') {
+    const r = reportText(L)
+    const el = title(r.title, 'Specvane · 2026')
+    return new ImageResponse(el, await opts(lang, textOf(el)))
+  }
+  // график тренда: /og/<lang>/trend/<категория>/<характеристика>.png — для цитирования в СМИ и блогах
+  if (kind === 'trend' && rest.length === 2) {
+    const cat = await getCategory(L, rest[0])
+    const tr = cat ? (await getTrends(L, cat)).find((x) => x.key === last) : null
+    if (!cat || !tr) return new Response('Not found', { status: 404 })
+    const max = Math.max(...tr.years.map((y) => y.v))
+    const el = title(`${cat.name}: ${tr.label}`, 'Specvane', (
+      <div style={{ display: 'flex', alignItems: 'flex-end', gap: 24, height: 300, marginTop: 10 }}>
+        {tr.years.map((y) => (
+          <div key={y.year} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-end', flex: 1, gap: 8 }}>
+            <div style={{ display: 'flex', fontSize: 26, color: '#0d1117' }}>{y.d}</div>
+            <div style={{ display: 'flex', width: '100%', height: Math.max(10, Math.round((y.v / max) * 200)), background: ACCENT, borderRadius: 8 }} />
+            <div style={{ display: 'flex', fontSize: 24, color: '#5b6474' }}>{String(y.year)}</div>
+          </div>
+        ))}
+      </div>
+    ))
     return new ImageResponse(el, await opts(lang, textOf(el)))
   }
 

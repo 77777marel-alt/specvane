@@ -1,0 +1,694 @@
+[
+ {
+  "cat": "smartphones",
+  "slug": "compact-phones",
+  "rules": [
+   {
+    "key": "display_size",
+    "op": "lte",
+    "value": 6.2
+   }
+  ],
+  "sort": {
+   "key": "weight",
+   "dir": "asc"
+  }
+ },
+ {
+  "cat": "smartphones",
+  "slug": "long-battery-life-phones",
+  "rules": [
+   {
+    "key": "battery",
+    "op": "gte",
+    "value": 5500
+   }
+  ],
+  "sort": {
+   "key": "battery",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "smartphones",
+  "slug": "gaming-phones",
+  "rules": [
+   {
+    "key": "refresh_rate",
+    "op": "gte",
+    "value": 120
+   },
+   {
+    "key": "ram",
+    "op": "gte",
+    "value": 12
+   },
+   {
+    "key": "battery",
+    "op": "gte",
+    "value": 5000
+   }
+  ],
+  "sort": {
+   "key": "ram",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "smartphones",
+  "slug": "zoom-camera-phones",
+  "rules": [
+   {
+    "key": "optical_zoom",
+    "op": "gte",
+    "value": 3
+   },
+   {
+    "key": "main_camera",
+    "op": "gte",
+    "value": 50
+   }
+  ],
+  "sort": {
+   "key": "optical_zoom",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "smartphones",
+  "slug": "phones-for-older-users",
+  "rules": [
+   {
+    "key": "display_size",
+    "op": "gte",
+    "value": 6.5
+   },
+   {
+    "key": "battery",
+    "op": "gte",
+    "value": 5000
+   }
+  ],
+  "sort": {
+   "key": "battery",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "laptops",
+  "slug": "laptops-for-students",
+  "rules": [
+   {
+    "key": "weight_kg",
+    "op": "lte",
+    "value": 1.6
+   },
+   {
+    "key": "ram",
+    "op": "gte",
+    "value": 16
+   },
+   {
+    "key": "battery_wh",
+    "op": "gte",
+    "value": 50
+   }
+  ],
+  "sort": {
+   "key": "weight_kg",
+   "dir": "asc"
+  }
+ },
+ {
+  "cat": "laptops",
+  "slug": "gaming-laptops",
+  "rules": [
+   {
+    "key": "discrete_gpu",
+    "op": "is",
+    "value": true
+   },
+   {
+    "key": "refresh_rate",
+    "op": "gte",
+    "value": 144
+   },
+   {
+    "key": "ram",
+    "op": "gte",
+    "value": 16
+   }
+  ],
+  "sort": {
+   "key": "refresh_rate",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "laptops",
+  "slug": "ultralight-laptops",
+  "rules": [
+   {
+    "key": "weight_kg",
+    "op": "lte",
+    "value": 1.2
+   }
+  ],
+  "sort": {
+   "key": "weight_kg",
+   "dir": "asc"
+  }
+ },
+ {
+  "cat": "laptops",
+  "slug": "laptops-for-programmers",
+  "rules": [
+   {
+    "key": "ram",
+    "op": "gte",
+    "value": 32
+   },
+   {
+    "key": "storage",
+    "op": "gte",
+    "value": 1000
+   }
+  ],
+  "sort": {
+   "key": "ram",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "tvs",
+  "slug": "gaming-tvs",
+  "rules": [
+   {
+    "key": "refresh_rate",
+    "op": "gte",
+    "value": 120
+   },
+   {
+    "key": "display_size",
+    "op": "gte",
+    "value": 50
+   }
+  ],
+  "sort": {
+   "key": "refresh_rate",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "tvs",
+  "slug": "small-tvs-for-bedroom",
+  "rules": [
+   {
+    "key": "display_size",
+    "op": "lte",
+    "value": 43
+   },
+   {
+    "key": "smart_tv",
+    "op": "is",
+    "value": true
+   }
+  ],
+  "sort": {
+   "key": "display_size",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "tvs",
+  "slug": "big-screen-tvs",
+  "rules": [
+   {
+    "key": "display_size",
+    "op": "gte",
+    "value": 75
+   }
+  ],
+  "sort": {
+   "key": "display_size",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "monitors",
+  "slug": "gaming-monitors",
+  "rules": [
+   {
+    "key": "refresh_rate",
+    "op": "gte",
+    "value": 165
+   },
+   {
+    "key": "response_time",
+    "op": "lte",
+    "value": 1
+   }
+  ],
+  "sort": {
+   "key": "refresh_rate",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "monitors",
+  "slug": "monitors-for-office",
+  "rules": [
+   {
+    "key": "height_adjust",
+    "op": "is",
+    "value": true
+   },
+   {
+    "key": "display_size",
+    "op": "gte",
+    "value": 23.8
+   },
+   {
+    "key": "display_size",
+    "op": "lte",
+    "value": 27
+   }
+  ],
+  "sort": {
+   "key": "display_size",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "monitors",
+  "slug": "monitors-for-photo-editing",
+  "rules": [
+   {
+    "key": "srgb",
+    "op": "gte",
+    "value": 99
+   }
+  ],
+  "sort": {
+   "key": "srgb",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "headphones",
+  "slug": "headphones-for-travel",
+  "rules": [
+   {
+    "key": "anc",
+    "op": "is",
+    "value": true
+   },
+   {
+    "key": "battery_life",
+    "op": "gte",
+    "value": 30
+   }
+  ],
+  "sort": {
+   "key": "battery_life",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "headphones",
+  "slug": "headphones-for-sport",
+  "rules": [
+   {
+    "key": "ip_rating",
+    "op": "match",
+    "value": "IP[X0-9]?[4-8]",
+    "show": "IPX4+"
+   }
+  ],
+  "sort": {
+   "key": "weight",
+   "dir": "asc"
+  }
+ },
+ {
+  "cat": "headphones",
+  "slug": "headphones-for-calls",
+  "rules": [
+   {
+    "key": "microphone",
+    "op": "is",
+    "value": true
+   },
+   {
+    "key": "multipoint",
+    "op": "gte",
+    "value": 2
+   }
+  ],
+  "sort": {
+   "key": "battery_life",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "smartwatches",
+  "slug": "watches-for-running",
+  "rules": [
+   {
+    "key": "gps",
+    "op": "is",
+    "value": true
+   },
+   {
+    "key": "battery_life",
+    "op": "gte",
+    "value": 48
+   }
+  ],
+  "sort": {
+   "key": "battery_life",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "speakers",
+  "slug": "waterproof-speakers-for-outdoors",
+  "rules": [
+   {
+    "key": "ip_rating",
+    "op": "match",
+    "value": "IP[X0-9]?[67]",
+    "show": "IP67 / IPX7+"
+   },
+   {
+    "key": "battery_life",
+    "op": "gte",
+    "value": 10
+   }
+  ],
+  "sort": {
+   "key": "battery_life",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "speakers",
+  "slug": "party-speakers",
+  "rules": [
+   {
+    "key": "speaker_power",
+    "op": "gte",
+    "value": 50
+   }
+  ],
+  "sort": {
+   "key": "speaker_power",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "cameras",
+  "slug": "cameras-for-vlogging",
+  "rules": [
+   {
+    "key": "flip_screen",
+    "op": "is",
+    "value": true
+   },
+   {
+    "key": "weight",
+    "op": "lte",
+    "value": 600
+   }
+  ],
+  "sort": {
+   "key": "weight",
+   "dir": "asc"
+  }
+ },
+ {
+  "cat": "cameras",
+  "slug": "cameras-for-travel",
+  "rules": [
+   {
+    "key": "weight",
+    "op": "lte",
+    "value": 500
+   },
+   {
+    "key": "stabilizer",
+    "op": "is",
+    "value": true
+   }
+  ],
+  "sort": {
+   "key": "weight",
+   "dir": "asc"
+  }
+ },
+ {
+  "cat": "washing-machines",
+  "slug": "washing-machines-for-big-families",
+  "rules": [
+   {
+    "key": "capacity_kg",
+    "op": "gte",
+    "value": 9
+   }
+  ],
+  "sort": {
+   "key": "capacity_kg",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "washing-machines",
+  "slug": "quiet-washing-machines",
+  "rules": [
+   {
+    "key": "noise",
+    "op": "lte",
+    "value": 72
+   }
+  ],
+  "sort": {
+   "key": "noise",
+   "dir": "asc"
+  }
+ },
+ {
+  "cat": "washing-machines",
+  "slug": "energy-saving-washing-machines",
+  "rules": [
+   {
+    "key": "energy_100",
+    "op": "lte",
+    "value": 50
+   },
+   {
+    "key": "water_cycle",
+    "op": "lte",
+    "value": 50
+   }
+  ],
+  "sort": {
+   "key": "energy_100",
+   "dir": "asc"
+  }
+ },
+ {
+  "cat": "fridges",
+  "slug": "quiet-fridges",
+  "rules": [
+   {
+    "key": "noise",
+    "op": "lte",
+    "value": 35
+   }
+  ],
+  "sort": {
+   "key": "noise",
+   "dir": "asc"
+  }
+ },
+ {
+  "cat": "fridges",
+  "slug": "fridges-for-big-families",
+  "rules": [
+   {
+    "key": "total_capacity",
+    "op": "gte",
+    "value": 400
+   }
+  ],
+  "sort": {
+   "key": "total_capacity",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "fridges",
+  "slug": "energy-saving-fridges",
+  "rules": [
+   {
+    "key": "annual_energy",
+    "op": "lte",
+    "value": 150
+   }
+  ],
+  "sort": {
+   "key": "annual_energy",
+   "dir": "asc"
+  }
+ },
+ {
+  "cat": "tumble-dryers",
+  "slug": "quiet-tumble-dryers",
+  "rules": [
+   {
+    "key": "noise",
+    "op": "lte",
+    "value": 62
+   }
+  ],
+  "sort": {
+   "key": "noise",
+   "dir": "asc"
+  }
+ },
+ {
+  "cat": "tumble-dryers",
+  "slug": "tumble-dryers-for-big-families",
+  "rules": [
+   {
+    "key": "capacity_kg",
+    "op": "gte",
+    "value": 9
+   }
+  ],
+  "sort": {
+   "key": "capacity_kg",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "coffee-machines",
+  "slug": "bean-to-cup-with-milk",
+  "rules": [
+   {
+    "key": "grinder",
+    "op": "is",
+    "value": true
+   },
+   {
+    "key": "milk_frother",
+    "op": "is",
+    "value": true
+   }
+  ],
+  "sort": {
+   "key": "pressure",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "coffee-machines",
+  "slug": "coffee-machines-for-office",
+  "rules": [
+   {
+    "key": "water_tank",
+    "op": "gte",
+    "value": 1.8
+   },
+   {
+    "key": "grinder",
+    "op": "is",
+    "value": true
+   }
+  ],
+  "sort": {
+   "key": "water_tank",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "projectors",
+  "slug": "bright-projectors-for-living-room",
+  "rules": [
+   {
+    "key": "brightness_lm",
+    "op": "gte",
+    "value": 3000
+   }
+  ],
+  "sort": {
+   "key": "brightness_lm",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "projectors",
+  "slug": "quiet-projectors",
+  "rules": [
+   {
+    "key": "noise",
+    "op": "lte",
+    "value": 28
+   }
+  ],
+  "sort": {
+   "key": "noise",
+   "dir": "asc"
+  }
+ },
+ {
+  "cat": "graphics-cards",
+  "slug": "graphics-cards-for-4k-gaming",
+  "rules": [
+   {
+    "key": "vram",
+    "op": "gte",
+    "value": 16
+   }
+  ],
+  "sort": {
+   "key": "vram",
+   "dir": "desc"
+  }
+ },
+ {
+  "cat": "graphics-cards",
+  "slug": "compact-graphics-cards",
+  "rules": [
+   {
+    "key": "card_length",
+    "op": "lte",
+    "value": 200
+   }
+  ],
+  "sort": {
+   "key": "card_length",
+   "dir": "asc"
+  }
+ },
+ {
+  "cat": "tablets",
+  "slug": "tablets-for-movies",
+  "rules": [
+   {
+    "key": "display_size",
+    "op": "gte",
+    "value": 11
+   },
+   {
+    "key": "battery",
+    "op": "gte",
+    "value": 8000
+   }
+  ],
+  "sort": {
+   "key": "display_size",
+   "dir": "desc"
+  }
+ }
+]

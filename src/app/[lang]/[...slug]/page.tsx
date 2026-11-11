@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation'
 import { isLocale, LOCALES, type Locale } from '@/lib/i18n/config'
 import { getDict } from '@/lib/i18n'
 import { INFO_PAGES, MANUAL_SLUG, SLUGS, resolveSlug, sectionHref, type InfoPage } from '@/lib/routes'
-import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions, getPrevGeneration, getBest, getBestSpecs, getBetterAlternatives, getCrossLinks, getTrends, getCategoryByKey, getGlossaryLinks, getCategoryBrands, getBrandPairs, getBrandVs, todayMs, getLists, getListItems, getOverall } from '@/lib/catalog'
+import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions, getPrevGeneration, getBest, getBestSpecs, getBetterAlternatives, getCrossLinks, getTrends, getCategoryByKey, getGlossaryLinks, getCategoryBrands, getBrandPairs, getBrandVs, todayMs, getLists, getListItems, getOverall, getUseCases } from '@/lib/catalog'
 import { permanentRedirect } from 'next/navigation'
 import { number, fill } from '@/lib/format'
 import { alternates } from '@/lib/seo'
@@ -27,6 +27,11 @@ import { ToolCalc } from '@/components/views/ToolCalc'
 import { glossary, glossaryTerm, GLOSSARY_UI } from '@/lib/glossary'
 import { brandsText } from '@/lib/brands'
 import { listsText, listTitle } from '@/lib/lists'
+import { useCasesText, ucItem } from '@/lib/usecases'
+import { widgetsText } from '@/lib/widgets'
+import { reportText, REPORT_SLUG, REPORT_CATS, brandSupport } from '@/lib/reports'
+import { ShareEmbed } from '@/components/ShareEmbed'
+import { SITE_URL } from '@/lib/site'
 import { overallText } from '@/lib/overall'
 import { legalText } from '@/lib/legal'
 import { productFaq, faqText } from '@/lib/faq'
@@ -109,6 +114,12 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/[...slug]'
     const lt = listsText(lang)
     if (slug.length === 2) return { title: `${fill(lt.indexTitle, { category: cat.name })} · Specvane`, description: lt.indexLead,
       alternates: alternates(lang, (l) => (cat.slugs[l] ? sectionHref(l, 'lists', cat.slugs[l]!) : null)) }
+    const uc = (await getUseCases(lang, cat)).find((x) => x.uc.slug === slug[2])
+    if (uc) {
+      const it = ucItem(lang, uc.uc.slug)
+      return { title: `${it.title} · Specvane`, description: `${it.lead} ${uc.items.slice(0, 4).map((p) => `${p.brand} ${p.name}`).join(', ')}`.slice(0, 300),
+        alternates: alternates(lang, (l) => (cat.slugs[l] ? sectionHref(l, 'lists', cat.slugs[l]!, slug[2]) : null)), robots: uc.items.length >= 10 ? undefined : { index: false, follow: true } }
+    }
     const r = await getListItems(lang, cat, slug[2])
     if (!r) return {}
     const title = listTitle(lang, cat.name, r.def)
@@ -138,6 +149,16 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/[...slug]'
     if (!gd) return {}
     const segs = Object.fromEntries(await Promise.all(LOCALES.map(async (l) => [l, await guideSeg(l, gd.cat)] as const)))
     return { title: `${gd.title} · Specvane`, description: gd.lead, alternates: alternates(lang, (l) => sectionHref(l, 'guides', segs[l])), openGraph: { title: gd.title, images: [{ url: `/og/${lang}/guide/${gd.cat}.png`, width: 1200, height: 630 }] } }
+  }
+  if (key === 'reports' && slug.length <= 2) {
+    if (slug.length === 2 && slug[1] !== REPORT_SLUG) return {}
+    const r = reportText(lang)
+    return { title: `${r.title} · Specvane`, description: r.lead, alternates: alternates(lang, (l) => sectionHref(l, 'reports', REPORT_SLUG)),
+      openGraph: { title: r.title, images: [{ url: `/og/${lang}/report/${REPORT_SLUG}.png`, width: 1200, height: 630 }] } }
+  }
+  if (key === 'widgets' && slug.length === 1) {
+    const w = widgetsText(lang)
+    return { title: `${w.pageTitle} · Specvane`, description: w.pageLead, alternates: alternates(lang, (l) => sectionHref(l, 'widgets')) }
   }
   if (key === 'glossary') {
     const g = GLOSSARY_UI[lang]
@@ -251,8 +272,11 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
     const home = { name: t.ui.home, href: `/${lang}` }
     const catCrumb = { name: cat.name, href: `/${lang}/${cat.slug}` }
     const idx = { name: lt.section, href: sectionHref(lang, 'lists', cat.slug) }
-    const lists = await getLists(lang, cat)
-    if (!lists.length) notFound()
+    const [lists, ucsAll] = await Promise.all([getLists(lang, cat), getUseCases(lang, cat)])
+    const ucs = ucsAll.filter((x) => x.items.length >= 5)
+    if (!lists.length && !ucs.length) notFound()
+    const ut = useCasesText(lang)
+    const ucLinks = (skip?: string) => ucs.filter((x) => x.uc.slug !== skip).map((x) => ({ label: `${ucItem(lang, x.uc.slug).title} (${x.items.length})`, href: sectionHref(lang, 'lists', cat.slug, x.uc.slug) }))
     const links = (skip?: string) => lists.filter((x) => x.slug !== skip).map((x) => ({ label: `${listTitle(lang, cat.name, x)} (${x.n})`, href: sectionHref(lang, 'lists', cat.slug, x.slug) }))
     if (slug.length === 2) {
       return (
@@ -260,7 +284,32 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
           <Breadcrumbs items={[home, catCrumb, idx]} />
           <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{fill(lt.indexTitle, { category: cat.name })}</h1>
           <p className="mt-2 max-w-2xl text-muted">{lt.indexLead}</p>
+          {ucs.length > 0 && <>
+            <h2 className="mb-3 mt-8 text-xl font-semibold">{ut.section}</h2>
+            <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">{ucLinks().map((x) => <li key={x.href}><a href={x.href} className="flex min-h-11 items-center rounded-xl border border-border px-3 py-2 font-medium hover:border-accent hover:text-accent">{x.label}</a></li>)}</ul>
+            <h2 className="mb-3 mt-8 text-xl font-semibold">{lt.section}</h2>
+          </>}
           <ul className="mt-6 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">{links().map((x) => <li key={x.href}><a href={x.href} className="flex min-h-11 items-center rounded-xl border border-border px-3 py-2 hover:border-accent hover:text-accent">{x.label}</a></li>)}</ul>
+        </>
+      )
+    }
+    const u = ucsAll.find((x) => x.uc.slug === slug[2])
+    if (u) {
+      const it = ucItem(lang, u.uc.slug)
+      if (!u.items.length) notFound()
+      return (
+        <>
+          <CategoryView lang={lang} t={t} title={it.title} intro={`${it.lead} ${fill(lt.lead, { n: u.items.length })}`} items={u.items.slice(0, 96)}
+            crumbs={[home, catCrumb, idx, { name: it.title, href: sectionHref(lang, 'lists', cat.slug, slug[2]) }]}
+            extra={[{ label: lt.all, href: sectionHref(lang, 'lists', cat.slug) }]} />
+          <section className="mt-6 rounded-2xl border border-border p-4" aria-label={ut.criteria}>
+            <h2 className="mb-2 font-semibold">{ut.criteria}</h2>
+            <ul className="flex flex-wrap gap-2 text-sm">{u.criteria.map((c) => <li key={c.label} className="rounded-lg bg-surface px-2.5 py-1"><span className="text-muted">{c.label}:</span> <span className="num font-medium">{c.text}</span></li>)}</ul>
+          </section>
+          <nav className="mt-10" aria-label={ut.section}>
+            <h2 className="mb-3 font-semibold">{ut.section}</h2>
+            <ul className="flex flex-wrap gap-2">{ucLinks(slug[2]).map((x) => <li key={x.href}><a href={x.href} className="inline-flex min-h-11 items-center rounded-xl border border-border px-3 text-sm hover:border-accent hover:text-accent">{x.label}</a></li>)}</ul>
+          </nav>
         </>
       )
     }
@@ -354,6 +403,114 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
     )
   }
 
+  if (key === 'reports' && slug.length <= 2) {
+    if (slug.length === 1) permanentRedirect(sectionHref(lang, 'reports', REPORT_SLUG))
+    if (slug[1] !== REPORT_SLUG) notFound()
+    const r = reportText(lang)
+    const now = await todayMs()
+    const date = new Intl.DateTimeFormat(lang, { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(now))
+    const cats = (await Promise.all(REPORT_CATS.map((k) => getCategoryByKey(lang, k)))).filter((c): c is NonNullable<typeof c> => !!c)
+    const data = await Promise.all(cats.map(async (c) => ({ cat: c, trends: await getTrends(lang, c), top: (await getOverall(lang, c, 3)) })))
+    const facts = data.flatMap(({ cat, trends }) => trends.slice(0, 1).map((tr) => {
+      const a = tr.years[0], b = tr.years.at(-1)!
+      const pct = Math.round(Math.abs((b.v - a.v) / a.v) * 100)
+      return { cat, tr, pct, text: fill(b.v > a.v ? r.up : r.down, { category: cat.name, spec: tr.label, pct, y0: a.year, y1: b.year, d0: a.d, d1: b.d }), good: tr.hib ? b.v > a.v : b.v < a.v }
+    })).filter((x) => x.pct >= 3).sort((x, y) => y.pct - x.pct)
+    const support = brandSupport()
+    const url = `${SITE_URL}${sectionHref(lang, 'reports', REPORT_SLUG)}`
+    const ld = { '@context': 'https://schema.org', '@type': 'Dataset', name: r.title, description: r.lead, url, creator: { '@type': 'Organization', name: 'Specvane', url: SITE_URL },
+      license: 'https://creativecommons.org/licenses/by/4.0/', dateModified: new Date(now).toISOString().slice(0, 10), inLanguage: lang }
+    return (
+      <article className="max-w-4xl">
+        <Breadcrumbs items={[{ name: t.ui.home, href: `/${lang}` }, { name: r.section, href: sectionHref(lang, 'reports', REPORT_SLUG) }]} />
+        <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{r.title}</h1>
+        <p className="mt-3 text-lg text-muted">{r.lead}</p>
+        <p className="mt-1 text-sm text-muted">{fill(r.updated, { date })}</p>
+        <section className="mt-8">
+          <h2 className="mb-3 text-xl font-semibold">{r.keyFacts}</h2>
+          <ul className="space-y-2">{facts.map((f) => <li key={f.cat.key + f.tr.key} className="rounded-xl border border-border p-3"><span className={`me-2 inline-block rounded-md px-1.5 text-xs font-semibold ${f.good ? 'bg-good-soft text-good' : 'bg-bad-soft text-bad'}`}>{f.good ? r.better : r.worse}</span>{f.text}</li>)}</ul>
+        </section>
+        <section className="mt-10">
+          <h2 className="mb-1 text-xl font-semibold">{r.byCategory}</h2>
+          <p className="mb-4 text-sm text-muted">{r.chartNote}</p>
+          {data.filter((x) => x.trends.length).map(({ cat, trends }) => (
+            <div key={cat.key} className="mb-8">
+              <h3 className="mb-2 font-semibold"><a href={`/${lang}/${cat.slug}`} className="hover:text-accent">{cat.name}</a></h3>
+              <div className="grid gap-3 sm:grid-cols-2">{trends.map((tr) => {
+                const max = Math.max(...tr.years.map((y) => y.v))
+                return (
+                  <figure key={tr.key} className="rounded-xl border border-border p-3">
+                    <figcaption className="mb-2 text-sm font-medium">{tr.label}</figcaption>
+                    <div className="flex h-28 items-end gap-1.5">{tr.years.map((y) => (
+                      <div key={y.year} className="flex flex-1 flex-col items-center justify-end gap-1">
+                        <span className="num text-[10px] text-muted">{y.d}</span>
+                        <div className="w-full rounded-t bg-accent/70" style={{ height: `${Math.max(6, (y.v / max) * 80)}px` }} />
+                        <span className="num text-[10px] text-muted">{y.year}</span>
+                      </div>))}</div>
+                    <a href={`/og/${lang}/trend/${cat.slug}/${tr.key}.png`} className="mt-2 inline-block text-xs text-accent hover:underline">{r.chartImage}</a>
+                  </figure>
+                )
+              })}</div>
+            </div>
+          ))}
+        </section>
+        <section className="mt-10">
+          <h2 className="mb-1 text-xl font-semibold">{r.updatesTitle}</h2>
+          <p className="mb-3 text-sm text-muted">{r.updatesLead}</p>
+          <div className="overflow-x-auto rounded-2xl border border-border">
+            <table className="w-full text-sm">
+              <thead className="bg-surface"><tr><th className="px-3 py-2 text-start">{r.brand}</th><th className="px-3 py-2 text-start">{r.security}</th><th className="px-3 py-2 text-start">{r.os}</th></tr></thead>
+              <tbody>{support.map((b) => <tr key={b.brand} className="border-t border-border"><td className="px-3 py-2 font-medium">{b.brand}</td>
+                <td className="num px-3 py-2">{b.sec ? fill(r.years, { n: b.sec }) : '—'}{!b.official && <span className="block text-xs text-muted">{r.unofficial}</span>}</td>
+                <td className="num px-3 py-2">{b.os ? fill(r.years, { n: b.os }) : '—'}</td></tr>)}</tbody>
+            </table>
+          </div>
+        </section>
+        <section className="mt-10">
+          <h2 className="mb-3 text-xl font-semibold">{r.leaders}</h2>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">{data.filter((x) => x.top.length).map(({ cat, top }) => (
+            <div key={cat.key} className="rounded-xl border border-border p-3">
+              <a href={sectionHref(lang, 'best', cat.slug)} className="font-semibold hover:text-accent">{cat.name}</a>
+              <ol className="mt-1 list-decimal ps-5 text-sm">{top.map((p) => <li key={p.slug}><a href={p.href} className="hover:text-accent">{p.brand} {p.name}</a> <span className="num text-muted">· {p.score}</span></li>)}</ol>
+            </div>))}</div>
+        </section>
+        <p className="mt-8 max-w-3xl text-sm text-muted">{r.method}</p>
+        <section className="mt-8 rounded-2xl bg-surface p-4">
+          <h2 className="mb-1 font-semibold">{r.cite}</h2>
+          <p className="text-sm">{r.citeText}</p>
+          <p className="mt-2 font-mono text-sm">{r.credit} — <a href={url} className="text-accent">{url}</a></p>
+        </section>
+        <p className="mt-4 max-w-3xl text-xs text-muted">{legalText(lang).rank}</p>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
+      </article>
+    )
+  }
+
+  if (key === 'widgets' && slug.length === 1) {
+    const w = widgetsText(lang)
+    const top = (await getTopComparisons(lang, 1))[0]
+    const pair = top?.href.split('/').pop()
+    return (
+      <article className="max-w-3xl">
+        <Breadcrumbs items={[{ name: t.ui.home, href: `/${lang}` }, { name: w.section, href: sectionHref(lang, 'widgets') }]} />
+        <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{w.pageTitle}</h1>
+        <p className="mt-3 text-lg text-muted">{w.pageLead}</p>
+        <h2 className="mb-2 mt-8 text-xl font-semibold">{w.how}</h2>
+        <ol className="list-decimal space-y-1 ps-5">{w.steps.map((x, i) => <li key={i}>{x}</li>)}</ol>
+        <h2 className="mb-2 mt-8 text-xl font-semibold">{w.formats}</h2>
+        <p>{w.formatsText}</p>
+        {pair && <>
+          <h2 className="mb-2 mt-8 text-xl font-semibold">{w.example}</h2>
+          <iframe src={`/embed/${lang}/compare/${pair}`} width="100%" height={420} loading="lazy" title={top.name} className="max-w-2xl rounded-xl border-0" />
+          <p className="mt-2"><a href={top.href} className="text-accent hover:underline">{top.name} — Specvane</a></p>
+          <ShareEmbed t={widgetsText(lang)} url={`${SITE_URL}${top.href}`} embed={`${SITE_URL}/embed/${lang}/compare/${pair}`} image={`${SITE_URL}/og/${lang}/compare/${pair}.png`} name={top.name} />
+        </>}
+        <h2 className="mb-2 mt-8 text-xl font-semibold">{w.rulesTitle}</h2>
+        <ul className="list-disc space-y-1 ps-5">{w.rules.map((x, i) => <li key={i}>{x}</li>)}</ul>
+      </article>
+    )
+  }
+
   if (key === 'guides' && slug.length <= 2) {
     const g = GUIDE_UI[lang]
     const home = { name: t.ui.home, href: `/${lang}` }
@@ -384,6 +541,7 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
       cat && { name: `${g.all}: ${cat.name}`, href: `/${lang}/${cat.slug}` },
       tool && { name: toolsText(lang)[tool.key].short, href: sectionHref(lang, 'tools', tool.id) },
       isAppliance(gd.cat) && { name: t.ui.errTitle, href: sectionHref(lang, 'errors') },
+      ...(cat ? (await getUseCases(lang, cat)).filter((x) => x.items.length >= 5).slice(0, 4).map((x) => ({ name: ucItem(lang, x.uc.slug).title, href: sectionHref(lang, 'lists', cat.slug, x.uc.slug) })) : []),
     ].filter((x): x is { name: string; href: string } => !!x)
     const ld = [
       { '@context': 'https://schema.org', '@type': 'Article', headline: gd.title, description: gd.lead, inLanguage: lang, dateModified: '2026-11-11', publisher: { '@type': 'Organization', name: 'Specvane' } },
@@ -684,9 +842,14 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
     const axes = (pos[0] ?? []).filter((x) => pos.every((p) => p.some((y) => y.key === x.key))).slice(0, 8)
     const radar = axes.length >= 3 ? { axes: axes.map((x) => x.label),
       series: c.items.map((it, k) => ({ name: `${it.brand} ${it.name}`, values: axes.map((x) => pos[k].find((y) => y.key === x.key)!.better) })) } : undefined
+    const pair = c.canonical.split('/').pop()!
     return (
-      <CompareView lang={lang} t={t} items={c.items} radar={radar}
-        crumbs={[home, 'cross' in c ? { name: t.nav.compare, href: sectionHref(lang, 'compare') } : { name: c.cat.name, href: `/${lang}/${c.cat.slug}` }, { name: c.items.map((x) => x.name).join(` ${t.ui.vs} `), href: c.canonical }]} />
+      <>
+        <CompareView lang={lang} t={t} items={c.items} radar={radar}
+          crumbs={[home, 'cross' in c ? { name: t.nav.compare, href: sectionHref(lang, 'compare') } : { name: c.cat.name, href: `/${lang}/${c.cat.slug}` }, { name: c.items.map((x) => x.name).join(` ${t.ui.vs} `), href: c.canonical }]} />
+        {c.items.length === 2 && <ShareEmbed t={widgetsText(lang)} url={`${SITE_URL}${c.canonical}`} embed={`${SITE_URL}/embed/${lang}/compare/${pair}`}
+          image={`${SITE_URL}/og/${lang}/compare/${pair}.png`} name={c.items.map((x) => `${x.brand} ${x.name}`).join(' vs ')} />}
+      </>
     )
   }
 
@@ -732,7 +895,7 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
           extra={[
             guideFor(lang, cat.key) && { label: GUIDE_UI[lang].one + ': ' + cat.name, href: sectionHref(lang, 'guides', cat.slug) },
             (await getCategoryBrands(cat)).length >= 2 && { label: brandsText(lang).section, href: sectionHref(lang, 'brands', cat.slug) },
-            (await getLists(lang, cat)).length > 0 && { label: listsText(lang).section, href: sectionHref(lang, 'lists', cat.slug) },
+            ((await getLists(lang, cat)).length > 0 || (await getUseCases(lang, cat)).some((x) => x.items.length >= 5)) && { label: listsText(lang).section, href: sectionHref(lang, 'lists', cat.slug) },
             hasErrors(lang) && isAppliance(cat.key) && { label: t.ui.errTitle, href: sectionHref(lang, 'errors') },
             TOOLS.find((x) => x.cat === cat.key) && { label: toolsText(lang)[TOOLS.find((x) => x.cat === cat.key)!.key].short, href: sectionHref(lang, 'tools', TOOLS.find((x) => x.cat === cat.key)!.id) },
           ].filter((x): x is { label: string; href: string } => !!x)} />
@@ -764,6 +927,8 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
               prevGen={await getPrevGeneration(lang, cat, p.brand, p.name).then((g) => g && { name: `${g.brand} ${g.name}`, href: g.href, specs: g.specGroups.flatMap((x) => x.specs) })}
               attribution={p.source === 'icecat' ? `Database Right data-sheet ${year} Icecat. All rights reserved. Data provided “as is” without warranty.` : undefined} />
             <ProductJsonLd name={`${p.brand} ${p.name}`} brand={p.brand} image={p.images} url={p.href} />
+            <ShareEmbed t={{ ...widgetsText(lang), title: widgetsText(lang).titleProduct }} url={`${SITE_URL}${p.href}`} embed={`${SITE_URL}/embed/${lang}/p/${cat.slug}/${p.slug}`}
+              image={`${SITE_URL}/og/${lang}/p/${cat.slug}/${p.slug}.png`} name={`${p.brand} ${p.name}`} height={460} />
             {faq.length >= 3 && <ProductFaq title={fill(faqText(lang).title, { model: `${p.brand} ${p.name}` })} note={faqText(lang).note} items={faq} />}
           </>
         )

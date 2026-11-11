@@ -9,6 +9,7 @@ import { ProductCard } from '@/components/product/ProductCard'
 import { TOOLS, toolsText } from '@/lib/tools'
 import { glossary, GLOSSARY_UI } from '@/lib/glossary'
 import { GUIDE_UI } from '@/lib/guides'
+import { reportText, REPORT_SLUG } from '@/lib/reports'
 const HOME_TERMS = ['refresh-rate', 'oled', 'hdr', 'ppi', 'mah', 'fast-charging', 'esim', 'ip68-ip-rating', 'ram', 'anc-noise-cancelling', 'megapixels', 'eu-energy-label']
 import { sectionHref } from '@/lib/routes'
 import { alternates } from '@/lib/seo'
@@ -136,6 +137,11 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
       <section aria-labelledby="guides" className="py-6">
         <h2 id="guides" className="mb-3 text-xl font-semibold"><Link href={sectionHref(lang, 'guides')} className="hover:text-accent">{GUIDE_UI[lang].title}</Link></h2>
         <p className="max-w-2xl text-muted">{GUIDE_UI[lang].lead} <Link href={sectionHref(lang, 'guides')} className="font-medium text-accent hover:underline">→</Link></p>
+      </section>
+
+      <section aria-labelledby="report" className="py-6">
+        <h2 id="report" className="mb-2 text-xl font-semibold"><Link href={sectionHref(lang, 'reports', REPORT_SLUG)} className="hover:text-accent">{reportText(lang).title}</Link></h2>
+        <p className="max-w-2xl text-muted">{reportText(lang).lead}</p>
       </section>
 
       <section aria-labelledby="glossary" className="py-6">

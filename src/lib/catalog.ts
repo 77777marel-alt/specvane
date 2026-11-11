@@ -678,18 +678,18 @@ const PORTABLE = ['smartphones', 'tablets', 'laptops', 'headphones', 'smartwatch
 export type OverallItem = ProductCardData & { score: number; strengths: { label: string; p: number }[] }
 
 /** Значения числовых характеристик всех активных моделей категории (общие для всех языков, кеш на час). */
-async function getSpecValues(categoryId: number, specIds: number[]): Promise<Record<string, Record<number, number>>> {
+async function getSpecValues(categoryId: number, specIds: number[]): Promise<Record<string, Record<number, number | boolean>>> {
   'use cache'
   cacheLife('hours'); cacheTag('products')
   const s = db()
-  const out: Record<string, Record<number, number>> = {}
+  const out: Record<string, Record<number, number | boolean>> = {}
   if (!s) return out
   for (let page = 0; page < 20; page++) {
-    const { data } = await s.from('product_specs').select('spec_id, value_num, products!inner(slug, category_id, status)')
-      .eq('products.category_id', categoryId).eq('products.status', 'active').in('spec_id', specIds).not('value_num', 'is', null)
+    const { data } = await s.from('product_specs').select('spec_id, value_num, value_bool, products!inner(slug, category_id, status)')
+      .eq('products.category_id', categoryId).eq('products.status', 'active').in('spec_id', specIds).or('value_num.not.is.null,value_bool.not.is.null')
       .order('product_id').order('spec_id').range(page * 1000, page * 1000 + 999)
-    const rows = (data ?? []) as unknown as { spec_id: number; value_num: number; products: { slug: string } }[]
-    for (const r of rows) (out[r.products.slug] ??= {})[r.spec_id] = Number(r.value_num)
+    const rows = (data ?? []) as unknown as { spec_id: number; value_num: number | null; value_bool: boolean | null; products: { slug: string } }[]
+    for (const r of rows) (out[r.products.slug] ??= {})[r.spec_id] = r.value_num != null ? Number(r.value_num) : !!r.value_bool
     if (rows.length < 1000) break
   }
   return out
@@ -709,7 +709,7 @@ export async function getOverall(lang: Locale, cat: Category, limit = 20): Promi
   // значения характеристик, которых нет в карточках списка, — отдельным запросом (страницами по 1000)
   const extra = scored.filter((d) => !d.isFilter)
   const vals = extra.length ? await getSpecValues(cat.id, extra.map((d) => d.id)) : {}
-  const valueOf = (p: ProductCardData, d: Def) => { const v = p.facets?.[d.key]?.v; return typeof v === 'number' ? v : vals[p.slug]?.[d.id] }
+  const valueOf = (p: ProductCardData, d: Def) => { const v = p.facets?.[d.key]?.v; if (typeof v === 'number') return v; const w = vals[p.slug]?.[d.id]; return typeof w === 'number' ? w : undefined }
   const W = (d: Def) => (d.isKey ? 2 : 1), total = scored.reduce((a, d) => a + W(d), 0)
   // «лучше, чем у p %»: средний ранг среди равных (иначе у 8 ГБ ОЗУ или 120 Гц все получают «лучше 90 %»), от 1 до 99
   const below = (pct: number[], v: number) => { let lo = 0, hi = pct.length; while (lo < hi) { const m = (lo + hi) >> 1; if (pct[m] < v) lo = m + 1; else hi = m } return lo }
@@ -735,4 +735,51 @@ export async function getOverall(lang: Locale, cat: Category, limit = 20): Promi
   const base = (s: string) => s.toLowerCase().replace(/\b\d+\s?(gb|tb)\b.*$/i, '').replace(/[\s-]+/g, ' ').trim()
   const seen = new Set<string>()
   return out.sort((a, b) => b.score - a.score).filter((x) => { const k = `${x.brand} ${base(x.name)}`; if (seen.has(k)) return false; seen.add(k); return true }).slice(0, limit)
+}
+
+// ---------- подборки «для кого» (data/usecases/defs.json): ноутбуки для студентов, тихие стиральные машины… ----------
+import USECASES from '../../data/usecases/defs.json'
+type UseRule = { key: string; op: 'gte' | 'lte' | 'is' | 'match'; value: number | boolean | string; show?: string }
+export type UseCase = { slug: string; cat: string; rules: UseRule[]; sort: { key: string; dir: 'asc' | 'desc' } }
+export type UseCaseResult = { uc: UseCase; criteria: { label: string; text: string }[]; items: ProductCardData[] }
+
+/** Модели, подходящие под правила подборки; правила по характеристикам, которых нет в базе категории, — подборка не строится. */
+export async function getUseCases(lang: Locale, cat: Category): Promise<UseCaseResult[]> {
+  'use cache'
+  cacheLife('hours'); cacheTag('products')
+  const ucs = (USECASES as UseCase[]).filter((u) => u.cat === cat.key)
+  if (!ucs.length) return []
+  const [{ defs }, items] = await Promise.all([getDefs(cat.id, lang), getCategoryProducts(lang, cat)])
+  const byKey = new Map(defs.map((d) => [d.key, d]))
+  const need = [...new Set(ucs.flatMap((u) => [...u.rules.map((r) => r.key), u.sort.key]))].map((k) => byKey.get(k)).filter((d): d is Def => !!d && !d.isFilter)
+  const vals = need.length ? await getSpecValues(cat.id, need.map((d) => d.id)) : {}
+  const t = getDict(lang)
+  const valueOf = (p: ProductCardData, d: Def) => { const f = p.facets?.[d.key]?.v; return f != null ? f : vals[p.slug]?.[d.id] }
+  const out: UseCaseResult[] = []
+  for (const uc of ucs) {
+    const rdefs = uc.rules.map((r) => byKey.get(r.key))
+    if (rdefs.some((d) => !d)) continue
+    const ok = (p: ProductCardData) => uc.rules.every((r, i) => {
+      const v = valueOf(p, rdefs[i]!)
+      if (v == null) return false
+      if (r.op === 'is') return v === r.value
+      if (r.op === 'match') return typeof v === 'string' && new RegExp(String(r.value), 'i').test(v)
+      return typeof v === 'number' && (r.op === 'gte' ? v >= Number(r.value) : v <= Number(r.value))
+    })
+    const sd = byKey.get(uc.sort.key)
+    const sortV = (p: ProductCardData) => { const v = sd ? valueOf(p, sd) : null; return typeof v === 'number' ? v : null }
+    const list = items.filter(ok).sort((a, b) => {
+      const va = sortV(a), vb = sortV(b)
+      if (va == null || vb == null) return va == null ? 1 : -1
+      return uc.sort.dir === 'asc' ? va - vb : vb - va
+    })
+    const criteria = uc.rules.map((r, i) => {
+      const d = rdefs[i]!
+      const sign = r.op === 'gte' ? '≥ ' : r.op === 'lte' ? '≤ ' : ''
+      const text = r.op === 'is' ? (r.value ? t.ui.yes : t.ui.no) : r.op === 'match' ? (r.show ?? String(r.value)) : sign + display(lang, d, Number(r.value), t.ui.yes, t.ui.no)
+      return { label: d.label, text }
+    })
+    out.push({ uc, criteria, items: list })
+  }
+  return out
 }

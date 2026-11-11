@@ -4,7 +4,7 @@ import { INFO_PAGES, sectionHref } from '@/lib/routes'
 import { SITE_URL } from '@/lib/site'
 import { db } from '@/lib/supabase'
 import { cacheLife } from 'next/cache'
-import { getIndexableProducts, getIndexableComparisons, getCategory, getBestSpecs, getCategoryByKey, getBrandPairs, getLists } from '@/lib/catalog'
+import { getIndexableProducts, getIndexableComparisons, getCategory, getBestSpecs, getCategoryByKey, getBrandPairs, getLists, getUseCases } from '@/lib/catalog'
 import { APPLIANCES, applianceName, isThinCode, errorBrands, errorCodes, hasErrors, type Appliance } from '@/lib/errors'
 import { TOOLS } from '@/lib/tools'
 import { GLOSSARY_SLUGS } from '@/lib/glossary'
@@ -68,9 +68,10 @@ export async function entriesFor(file: string): Promise<Entry[] | null> {
       for (const sp of await getBestSpecs(lang, cat)) out.push({ loc: `${SITE_URL}${sectionHref(lang, 'best', cat.slug, sp.slug)}` })
       // сравнения брендов и подборки: только основные категории (с гидами)
       if (GUIDE_CATS.includes(cat.key)) {
-        const [pairs, lists] = await Promise.all([getBrandPairs(lang, cat, 6), getLists(lang, cat)])
+        const [pairs, lists, ucs] = await Promise.all([getBrandPairs(lang, cat, 6), getLists(lang, cat), getUseCases(lang, cat)])
+        for (const u of ucs) if (u.items.length >= 10) out.push({ loc: `${SITE_URL}${sectionHref(lang, 'lists', cat.slug, u.uc.slug)}` })
         if (pairs.length) out.push({ loc: `${SITE_URL}${sectionHref(lang, 'brands', cat.slug)}` }, ...pairs.map((x) => ({ loc: `${SITE_URL}${x.href}` })))
-        if (lists.length) out.push({ loc: `${SITE_URL}${sectionHref(lang, 'lists', cat.slug)}` }, ...lists.map((x) => ({ loc: `${SITE_URL}${sectionHref(lang, 'lists', cat.slug, x.slug)}` })))
+        if (lists.length || ucs.length) out.push({ loc: `${SITE_URL}${sectionHref(lang, 'lists', cat.slug)}` }, ...lists.map((x) => ({ loc: `${SITE_URL}${sectionHref(lang, 'lists', cat.slug, x.slug)}` })))
       }
       return out
     }))
@@ -88,7 +89,7 @@ export async function entriesFor(file: string): Promise<Entry[] | null> {
       }
     }
     const tools: Entry[] = [{ loc: `${SITE_URL}${sectionHref(lang, 'tools')}` }, ...TOOLS.map((x) => ({ loc: `${SITE_URL}${sectionHref(lang, 'tools', x.id)}` }))]
-    const gloss: Entry[] = [{ loc: `${SITE_URL}${sectionHref(lang, 'glossary')}` }, ...GLOSSARY_SLUGS.map((g) => ({ loc: `${SITE_URL}${sectionHref(lang, 'glossary', g)}` }))]
+    const gloss: Entry[] = [{ loc: `${SITE_URL}${sectionHref(lang, 'reports', 'tech-trends-2026')}` }, { loc: `${SITE_URL}${sectionHref(lang, 'widgets')}` }, { loc: `${SITE_URL}${sectionHref(lang, 'glossary')}` }, ...GLOSSARY_SLUGS.map((g) => ({ loc: `${SITE_URL}${sectionHref(lang, 'glossary', g)}` }))]
     const guidesE: Entry[] = [{ loc: `${SITE_URL}${sectionHref(lang, 'guides')}` }]
     for (const c of GUIDE_CATS) guidesE.push({ loc: `${SITE_URL}${sectionHref(lang, 'guides', (await getCategoryByKey(lang, c))?.slug ?? (c in APPLIANCES ? applianceName(lang, c as Appliance).slug : c))}` })
     return [...staticPages(lang), ...guidesE, ...cats.map((c) => ({ loc: `${SITE_URL}/${lang}/${c.slugs[lang]}` })), ...best, ...errors, ...tools, ...gloss]
