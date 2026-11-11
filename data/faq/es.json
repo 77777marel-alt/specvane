@@ -1,0 +1,23 @@
+{
+ "title": "Preguntas y respuestas sobre el {model}",
+ "qHas": "¿El {model} tiene {feature}?",
+ "aYes": "Sí, el {model} tiene {feature}.",
+ "aNo": "No, el {model} no tiene {feature}.",
+ "qVal": "{spec} del {model}: ¿cuál es el valor?",
+ "aVal": "{spec} del {model}: {value}.",
+ "qSize": "¿Cuáles son las dimensiones del {model}?",
+ "aSize": "El {model} mide {size} (ancho × alto × grosor).",
+ "qWeight": "¿Cuánto pesa el {model}?",
+ "aWeight": "El {model} pesa {value}.",
+ "qRelease": "¿Cuándo salió el {model}?",
+ "aRelease": "El {model} salió en {date}.",
+ "qUpdates": "¿Cuánto tiempo recibirá actualizaciones de software el {model}?",
+ "aSecurity": "Actualizaciones de seguridad hasta {date}.",
+ "aOs": "Actualizaciones del sistema (SO) hasta {date}.",
+ "aEstimate": "Es una estimación basada en la política de actualizaciones del fabricante.",
+ "qManual": "¿Dónde encontrar el manual del {model}?",
+ "aManual": "Los documentos oficiales de {brand} para el {model} (manual de usuario y otros PDF) están en nuestra página de manuales.",
+ "qCompare": "¿Con qué se compara a menudo el {model}?",
+ "aCompare": "Comparaciones populares: {list}.",
+ "note": "Las respuestas se generan a partir de las especificaciones del fabricante de nuestro catálogo. Comprueba la variante exacta antes de comprar."
+}

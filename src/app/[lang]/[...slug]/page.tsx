@@ -26,6 +26,7 @@ import { TOOLS, toolsText } from '@/lib/tools'
 import { ToolCalc } from '@/components/views/ToolCalc'
 import { glossary, glossaryTerm, GLOSSARY_UI } from '@/lib/glossary'
 import { brandsText } from '@/lib/brands'
+import { productFaq, faqText } from '@/lib/faq'
 import { ProductCard } from '@/components/product/ProductCard'
 import { guides, guideFor, GUIDE_CATS, GUIDE_UI, type Guide } from '@/lib/guides'
 import { ProductImage } from '@/components/product/ProductImage'
@@ -632,11 +633,15 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
         const variants = [...new Set(p.variants.filter((v) => v.storage).sort((a, b) => (a.storage ?? 0) - (b.storage ?? 0))
           .map((v) => (v.ram ? `${gb(v.ram)} / ${gb(v.storage)}` : gb(v.storage))))]
         const year = (p.updatedAt ?? '').slice(0, 4) || '2026'
+        const support = cat.key === 'smartphones' || cat.key === 'tablets' ? supportFor(p.brand, p.name, p.releaseDate ?? null) : null
+        const compareLinks = await getCompareLinks(lang, p.slug)
+        const faq = productFaq(lang, { brand: p.brand, name: p.name, releaseDate: p.releaseDate, keySpecs: p.keySpecs, specs: p.specGroups.flatMap((g) => g.specs) },
+          { support, manual: p.docs.some((d) => d.kind === 'manual'), compare: compareLinks.map((c) => c.name ?? '').filter(Boolean) })
         return (
           <>
             <ProductView lang={lang} t={t} p={p} crumbs={[home, catCrumb, { name: `${p.brand} ${p.name}`, href: p.href }]}
-              compareLinks={await getCompareLinks(lang, p.slug)} variants={variants} gallery={p.images} credits={p.credits}
-              support={cat.key === 'smartphones' || cat.key === 'tablets' ? supportFor(p.brand, p.name, p.releaseDate ?? null) : null}
+              compareLinks={compareLinks} variants={variants} gallery={p.images} credits={p.credits}
+              support={support}
               docs={p.docs} docsHref={p.docs.length ? `${p.href}/${MANUAL_SLUG[lang]}` : undefined}
               compare={{ cat: cat.key, base: sectionHref(lang, 'compare') }}
               positions={await getPositions(lang, cat, p.specGroups.flatMap((g) => g.specs))}
@@ -648,6 +653,7 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
               prevGen={await getPrevGeneration(lang, cat, p.brand, p.name).then((g) => g && { name: `${g.brand} ${g.name}`, href: g.href, specs: g.specGroups.flatMap((x) => x.specs) })}
               attribution={p.source === 'icecat' ? `Database Right data-sheet ${year} Icecat. All rights reserved. Data provided “as is” without warranty.` : undefined} />
             <ProductJsonLd name={`${p.brand} ${p.name}`} brand={p.brand} image={p.images} url={p.href} />
+            {faq.length >= 3 && <ProductFaq title={fill(faqText(lang).title, { model: `${p.brand} ${p.name}` })} note={faqText(lang).note} items={faq} />}
           </>
         )
       }
@@ -695,6 +701,23 @@ function Preview({ lang, view }: { lang: Locale; view: string }) {
 }
 
 /** Разметка Product без цен и оценок (их пока нет — не выдумываем). */
+function ProductFaq({ title, note, items }: { title: string; note: string; items: { q: string; a: string }[] }) {
+  const ld = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: items.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) }
+  return (
+    <section className="mx-auto mt-10 max-w-3xl" aria-labelledby="faq">
+      <h2 id="faq" className="mb-3 text-xl font-semibold">{title}</h2>
+      <div className="space-y-2">{items.map((f, i) => (
+        <details key={i} className="rounded-xl border border-border p-3" open={i < 2}>
+          <summary className="cursor-pointer font-medium">{f.q}</summary>
+          <p className="mt-2 leading-relaxed text-muted">{f.a}</p>
+        </details>
+      ))}</div>
+      <p className="mt-3 text-xs text-muted">{note}</p>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
+    </section>
+  )
+}
+
 function ProductJsonLd({ name, brand, image, url }: { name: string; brand: string; image: string[]; url: string }) {
   const ld = { '@context': 'https://schema.org', '@type': 'Product', name, brand: { '@type': 'Brand', name: brand }, image: image.slice(0, 3), url: `https://specvane.com${url}` }
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />

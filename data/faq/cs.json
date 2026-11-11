@@ -1,0 +1,23 @@
+{
+ "title": "Otázky a odpovědi: {model}",
+ "qHas": "Je u {model} k dispozici {feature}?",
+ "aYes": "Ano, u {model} je k dispozici {feature}.",
+ "aNo": "Ne, u {model} není k dispozici {feature}.",
+ "qVal": "{spec} u {model}: jaká je hodnota?",
+ "aVal": "{spec} u {model}: {value}.",
+ "qSize": "Jaké rozměry má {model}?",
+ "aSize": "Rozměry {model}: {size} (šířka × výška × hloubka).",
+ "qWeight": "Kolik váží {model}?",
+ "aWeight": "Hmotnost {model}: {value}.",
+ "qRelease": "Kdy vyšel {model}?",
+ "aRelease": "Datum vydání {model}: {date}.",
+ "qUpdates": "Jak dlouho bude {model} dostávat aktualizace softwaru?",
+ "aSecurity": "Konec bezpečnostních aktualizací: {date}.",
+ "aOs": "Konec aktualizací systému (OS): {date}.",
+ "aEstimate": "Jde o odhad založený na zásadách aktualizací výrobce.",
+ "qManual": "Kde najdu návod k {model}?",
+ "aManual": "Oficiální dokumenty {brand} pro {model} (uživatelská příručka a další PDF) najdete na naší stránce s návody.",
+ "qCompare": "S čím se {model} nejčastěji porovnává?",
+ "aCompare": "Oblíbená srovnání: {list}.",
+ "note": "Odpovědi vycházejí ze specifikací výrobce v našem katalogu. Před nákupem si ověřte přesnou variantu."
+}

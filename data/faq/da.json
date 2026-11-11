@@ -1,0 +1,23 @@
+{
+ "title": "Spørgsmål og svar om {model}",
+ "qHas": "Har {model} {feature}?",
+ "aYes": "Ja, {model} har {feature}.",
+ "aNo": "Nej, {model} har ikke {feature}.",
+ "qVal": "{spec} for {model}: hvilken værdi?",
+ "aVal": "{spec} for {model}: {value}.",
+ "qSize": "Hvad er målene på {model}?",
+ "aSize": "{model} måler {size} (bredde × højde × dybde).",
+ "qWeight": "Hvor meget vejer {model}?",
+ "aWeight": "{model} vejer {value}.",
+ "qRelease": "Hvornår kom {model} på markedet?",
+ "aRelease": "{model} kom på markedet i {date}.",
+ "qUpdates": "Hvor længe får {model} softwareopdateringer?",
+ "aSecurity": "Sikkerhedsopdateringer indtil {date}.",
+ "aOs": "Systemopdateringer (OS) indtil {date}.",
+ "aEstimate": "Dette er et skøn baseret på producentens opdateringspolitik.",
+ "qManual": "Hvor finder jeg manualen til {model}?",
+ "aManual": "De officielle dokumenter fra {brand} til {model} (brugervejledning og andre PDF'er) findes på vores side med manualer.",
+ "qCompare": "Hvad bliver {model} ofte sammenlignet med?",
+ "aCompare": "Populære sammenligninger: {list}.",
+ "note": "Svarene er genereret ud fra producentens specifikationer i vores katalog. Tjek den præcise variant, før du køber."
+}

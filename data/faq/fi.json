@@ -1,0 +1,23 @@
+{
+ "title": "Kysymyksiä ja vastauksia: {model}",
+ "qHas": "Onko mallissa {model} {feature}?",
+ "aYes": "Kyllä, mallissa {model} on {feature}.",
+ "aNo": "Ei, {feature} ei kuulu mallin {model} ominaisuuksiin.",
+ "qVal": "{spec} – {model}: mikä on arvo?",
+ "aVal": "{spec} – {model}: {value}.",
+ "qSize": "Mitkä ovat mallin {model} mitat?",
+ "aSize": "Mallin {model} mitat ovat {size} (leveys × korkeus × syvyys).",
+ "qWeight": "Paljonko malli {model} painaa?",
+ "aWeight": "Malli {model} painaa {value}.",
+ "qRelease": "Milloin malli {model} julkaistiin?",
+ "aRelease": "Mallin {model} julkaisuajankohta: {date}.",
+ "qUpdates": "Kuinka kauan malli {model} saa ohjelmistopäivityksiä?",
+ "aSecurity": "Tietoturvapäivitykset päättyvät: {date}.",
+ "aOs": "Järjestelmäpäivitykset (käyttöjärjestelmä) päättyvät: {date}.",
+ "aEstimate": "Tämä on arvio, joka perustuu valmistajan päivityskäytäntöön.",
+ "qManual": "Mistä löydän mallin {model} käyttöohjeen?",
+ "aManual": "Valmistajan {brand} viralliset asiakirjat mallille {model} (käyttöohje ja muut PDF-tiedostot) löytyvät ohjesivultamme.",
+ "qCompare": "Mihin mallia {model} usein verrataan?",
+ "aCompare": "Suositut vertailut: {list}.",
+ "note": "Vastaukset perustuvat luettelomme valmistajan teknisiin tietoihin. Tarkista tarkka versio ennen ostoa."
+}
