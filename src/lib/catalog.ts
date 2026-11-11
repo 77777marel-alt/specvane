@@ -5,6 +5,7 @@ import { LOCALES, MARKETS, type Locale } from './i18n/config'
 import { getDict } from './i18n'
 import { fill, number } from './format'
 import { sectionHref } from './routes'
+import { GUIDE_CATS } from './guides'
 import type { ProductCardData, ProductView, SpecGroup, SpecValue } from './types'
 
 // Каталог из Supabase. Все функции кешируются (каталог меняется ночным импортом).
@@ -430,19 +431,32 @@ export async function getTopComparisons(lang: Locale, limit = 60): Promise<Compa
 }
 
 /** Все открытые пары (для sitemap). */
+/** Пары для sitemap: не все 65 тыс., а самые осмысленные (по relevance) — равномерно по категориям, чтобы бюджет обхода Google
+ *  шёл на модели и разделы. Остальные пары доступны на сайте по ссылкам. Основные категории — до 300 пар, прочие — до 40. */
 export async function getIndexableComparisons(): Promise<{ a: string; b: string; updated: string }[]> {
   'use cache'
   cacheLife('hours'); cacheTag('comparisons')
   const s = db()
   if (!s) return []
-  const out: { a: string; b: string; updated: string }[] = []
+  const { data: cats } = await s.from('categories').select('id, key')
+  const keyOf = new Map((cats ?? []).map((c) => [c.id as number, c.key as string]))
+  const by = new Map<number, { a: string; b: string; updated: string; rel: number }[]>()
   for (let from = 0; ; from += 1000) {
-    const { data } = await s.from('comparisons').select('updated_at, a:products!comparisons_product_a_fkey(slug), b:products!comparisons_product_b_fkey(slug)')
-      .order('id').range(from, from + 999)
-    type R = { updated_at: string; a: { slug: string }; b: { slug: string } }
+    const { data } = await s.from('comparisons').select('updated_at, relevance, category_id, a:products!comparisons_product_a_fkey(slug), b:products!comparisons_product_b_fkey(slug)')
+      .eq('is_indexable', true).order('id').range(from, from + 999)
+    type R = { updated_at: string; relevance: number | null; category_id: number; a: { slug: string }; b: { slug: string } }
     // модель могла уйти из каталога (скрыта RLS) — такую пару пропускаем
-    out.push(...((data ?? []) as unknown as R[]).filter((r) => r.a && r.b).map((r) => ({ a: r.a.slug, b: r.b.slug, updated: r.updated_at })))
+    for (const r of (data ?? []) as unknown as R[]) {
+      if (!r.a || !r.b) continue
+      const l = by.get(r.category_id) ?? []
+      l.push({ a: r.a.slug, b: r.b.slug, updated: r.updated_at, rel: Number(r.relevance ?? 0) }); by.set(r.category_id, l)
+    }
     if (!data || data.length < 1000) break
+  }
+  const out: { a: string; b: string; updated: string }[] = []
+  for (const [cid, l] of by) {
+    const cap = GUIDE_CATS.includes(keyOf.get(cid) ?? '') ? 300 : 40
+    out.push(...l.sort((x, y) => y.rel - x.rel).slice(0, cap).map(({ a, b, updated }) => ({ a, b, updated })))
   }
   return out
 }
