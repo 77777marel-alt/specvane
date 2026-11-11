@@ -1,6 +1,7 @@
 import type { Locale } from './i18n/config'
 import { fill } from './format'
 import type { ListDef } from './catalog'
+import { inline } from './faq'
 import en from '../../data/lists/en.json'
 import de from '../../data/lists/de.json'
 import fr from '../../data/lists/fr.json'
@@ -28,5 +29,5 @@ const T = { en, de, fr, it, es, nl, pl, sv, 'pt-br': ptbr, ja, tr, el, cs, ro, d
 export const listsText = (l: Locale): ListsText => T[l] ?? en
 export function listTitle(lang: Locale, category: string, d: ListDef): string {
   const t = listsText(lang)
-  return d.kind === 'with' ? fill(t.with, { category, feature: d.label }) : fill(d.kind === 'min' ? t.min : t.max, { category, spec: d.label, value: d.valueText ?? '' })
+  return d.kind === 'with' ? fill(t.with, { category, feature: inline(lang, d.label) }) : fill(d.kind === 'min' ? t.min : t.max, { category, spec: inline(lang, d.label), value: d.valueText ?? '' })
 }

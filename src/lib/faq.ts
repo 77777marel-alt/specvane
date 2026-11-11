@@ -30,7 +30,7 @@ export const faqText = (l: Locale): FaqText => T[l] ?? en
 
 const DIM_W = ['width'], DIM_H = ['height'], DIM_D = ['depth', 'depth_mm', 'thickness'], WEIGHT = ['weight', 'weight_kg']
 // подпись характеристики внутри фразы: «Wireless charging» → «wireless charging» (аббревиатуры и немецкие существительные не трогаем)
-const inline = (lang: Locale, s: string) => (lang === 'de' || /^[A-Z0-9]{2}/.test(s) || /^[A-Z][a-z]*[A-Z]/.test(s) ? s : s.charAt(0).toLocaleLowerCase(lang) + s.slice(1))
+export const inline = (lang: Locale, s: string) => (lang === 'de' || /^[A-Z0-9]{2}/.test(s) || /^[A-Z][a-z]*[A-Z]/.test(s) ? s : s.charAt(0).toLocaleLowerCase(lang) + s.slice(1))
 
 export function productFaq(lang: Locale, p: { brand: string; name: string; releaseDate?: string | null; keySpecs: SpecValue[]; specs: SpecValue[] },
   extra: { support?: Support | null; manual?: boolean; compare?: string[] }): { q: string; a: string }[] {

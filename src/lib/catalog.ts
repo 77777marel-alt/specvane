@@ -624,7 +624,8 @@ export async function todayMs(): Promise<number> {
 
 // ---------- подборки «смартфоны с NFC», «посудомоечные машины до 45 см» (из фильтров категории, без новых запросов к базе) ----------
 export type ListDef = { slug: string; kind: 'with' | 'min' | 'max'; key: string; label: string; value?: number; valueText?: string; n: number }
-const nice = (x: number) => { const p = 10 ** Math.floor(Math.log10(Math.abs(x) || 1)); const m = x / p; return (m < 1.5 ? 1 : m < 3.5 ? 2 : m < 7.5 ? 5 : 10) * p }
+const NICE = [1, 1.2, 1.4, 1.5, 1.6, 2, 2.5, 3, 4, 5, 6, 7, 8, 10]
+const nice = (x: number) => { const p = 10 ** Math.floor(Math.log10(Math.abs(x) || 1)); const m = x / p; return NICE.reduce((a, b) => (Math.abs(b - m) < Math.abs(a - m) ? b : a)) * p }
 
 /** Подборки категории: да/нет-признаки (которые есть у 5–90 % моделей) и пороги по числам (≈ медиана и 80-й перцентиль, «красиво» округлённые). */
 export async function getLists(lang: Locale, cat: Category): Promise<ListDef[]> {
