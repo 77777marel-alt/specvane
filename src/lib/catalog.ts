@@ -292,6 +292,19 @@ export async function getProduct(lang: Locale, cat: Category, slug: string): Pro
 }
 
 /** Активные модели для sitemap (все языки используют один список). */
+/** Сколько моделей категории в sitemap — быстрым count-запросом (для индекса карт, без выгрузки всех адресов). */
+export async function countIndexableProducts(categoryKey: string): Promise<number> {
+  'use cache'
+  cacheLife('hours'); cacheTag('products')
+  const s = db()
+  if (!s) return 0
+  const { data: c } = await s.from('categories').select('id').eq('key', categoryKey).maybeSingle()
+  if (!c) return 0
+  const { count } = await s.from('products').select('id', { count: 'exact', head: true }).eq('category_id', c.id)
+    .eq('status', 'active').eq('is_indexable', true)
+  return count ?? 0
+}
+
 export async function getIndexableProducts(categoryKey: string): Promise<{ slug: string; updated: string }[]> {
   'use cache'
   cacheLife('hours'); cacheTag('products')

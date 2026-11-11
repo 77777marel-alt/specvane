@@ -97,3 +97,8 @@ jobs:
         env:
           SUPABASE_URL: https://kjjffgjsgizozleflbhw.supabase.co
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      - name: Warm sitemaps
+        if: ${{ always() && github.event.inputs.dry_run != '1' }}
+        timeout-minutes: 30
+        continue-on-error: true
+        run: node scripts/warm-sitemaps.mjs

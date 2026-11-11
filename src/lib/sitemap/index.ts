@@ -4,7 +4,7 @@ import { INFO_PAGES, sectionHref } from '@/lib/routes'
 import { SITE_URL } from '@/lib/site'
 import { db } from '@/lib/supabase'
 import { cacheLife } from 'next/cache'
-import { getIndexableProducts, getIndexableComparisons, getCategory, getBestSpecs, getCategoryByKey, getBrandPairs, getLists, getUseCases } from '@/lib/catalog'
+import { getIndexableProducts, countIndexableProducts, getIndexableComparisons, getCategory, getBestSpecs, getCategoryByKey, getBrandPairs, getLists, getUseCases } from '@/lib/catalog'
 import { APPLIANCES, applianceName, isThinCode, errorBrands, errorCodes, hasErrors, type Appliance } from '@/lib/errors'
 import { TOOLS } from '@/lib/tools'
 import { GLOSSARY_SLUGS } from '@/lib/glossary'
@@ -41,11 +41,15 @@ async function categories(): Promise<{ key: string; slugs: Record<string, string
 
 export async function listFiles(): Promise<string[]> {
   const files = LOCALES.map((l) => `pages-${l}-1.xml`)
-  for (const c of await categories()) {
-    const n = Math.ceil((await getIndexableProducts(c.key)).length / PER_FILE)
+  // индекс должен отдаваться быстро: только count-запросы, параллельно
+  const cats = await categories()
+  const counts = await Promise.all(cats.map((c) => countIndexableProducts(c.key)))
+  cats.forEach((c, k) => {
+    const n = Math.ceil(counts[k] / PER_FILE)
     for (const l of LOCALES) for (let i = 1; i <= n; i++) if (c.slugs[l]) files.push(`products-${c.key}-${l}-${i}.xml`)
-  }
-  const nc = Math.ceil((await getIndexableComparisons()).length / PER_FILE)
+  })
+  // сравнений в карте ≤ 300 × основные + 40 × прочие категории (< 10 000) — один файл на язык
+  const nc = 1
   for (const l of LOCALES) for (let i = 1; i <= nc; i++) files.push(`comparisons-${l}-${i}.xml`)
   return files
 }
