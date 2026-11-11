@@ -4,7 +4,7 @@ import { INFO_PAGES, sectionHref } from '@/lib/routes'
 import { SITE_URL } from '@/lib/site'
 import { db } from '@/lib/supabase'
 import { cacheLife } from 'next/cache'
-import { getIndexableProducts, getIndexableComparisons, getCategory, getBestSpecs, getCategoryByKey, getBrandPairs, getLists, getOverall } from '@/lib/catalog'
+import { getIndexableProducts, getIndexableComparisons, getCategory, getBestSpecs, getCategoryByKey, getBrandPairs, getLists } from '@/lib/catalog'
 import { APPLIANCES, applianceName, isThinCode, errorBrands, errorCodes, hasErrors, type Appliance } from '@/lib/errors'
 import { TOOLS } from '@/lib/tools'
 import { GLOSSARY_SLUGS } from '@/lib/glossary'
@@ -58,19 +58,23 @@ export async function entriesFor(file: string): Promise<Entry[] | null> {
     const cats = (await categories()).filter((c) => c.slugs[lang])
     // страницы «Топ-N по характеристике» для каждой категории + их индекс
     const best: Entry[] = [{ loc: `${SITE_URL}${sectionHref(lang, 'best')}` }]
-    for (const c of cats) {
+    // все категории параллельно (последовательно sitemap не укладывается в 60 с)
+    const parts = await Promise.all(cats.map(async (c) => {
+      const out: Entry[] = []
       const cat = await getCategory(lang, c.slugs[lang]!)
-      if (!cat) continue
-      if ((await getOverall(lang, cat)).length >= 5) best.push({ loc: `${SITE_URL}${sectionHref(lang, 'best', cat.slug)}` })
-      for (const sp of await getBestSpecs(lang, cat)) best.push({ loc: `${SITE_URL}${sectionHref(lang, 'best', cat.slug, sp.slug)}` })
-      // сравнения брендов: только основные категории (с гидами) и топ-6 брендов — волнами, без массы тонких страниц
+      if (!cat) return out
+      // рейтинг «Лучшие в 2026» — только основные категории (без расчёта здесь: sitemap должен собираться быстро)
+      if (GUIDE_CATS.includes(cat.key)) out.push({ loc: `${SITE_URL}${sectionHref(lang, 'best', cat.slug)}` })
+      for (const sp of await getBestSpecs(lang, cat)) out.push({ loc: `${SITE_URL}${sectionHref(lang, 'best', cat.slug, sp.slug)}` })
+      // сравнения брендов и подборки: только основные категории (с гидами)
       if (GUIDE_CATS.includes(cat.key)) {
-        const pairs = await getBrandPairs(lang, cat, 6)
-        if (pairs.length) best.push({ loc: `${SITE_URL}${sectionHref(lang, 'brands', cat.slug)}` }, ...pairs.map((x) => ({ loc: `${SITE_URL}${x.href}` })))
-        const lists = await getLists(lang, cat)
-        if (lists.length) best.push({ loc: `${SITE_URL}${sectionHref(lang, 'lists', cat.slug)}` }, ...lists.map((x) => ({ loc: `${SITE_URL}${sectionHref(lang, 'lists', cat.slug, x.slug)}` })))
+        const [pairs, lists] = await Promise.all([getBrandPairs(lang, cat, 6), getLists(lang, cat)])
+        if (pairs.length) out.push({ loc: `${SITE_URL}${sectionHref(lang, 'brands', cat.slug)}` }, ...pairs.map((x) => ({ loc: `${SITE_URL}${x.href}` })))
+        if (lists.length) out.push({ loc: `${SITE_URL}${sectionHref(lang, 'lists', cat.slug)}` }, ...lists.map((x) => ({ loc: `${SITE_URL}${sectionHref(lang, 'lists', cat.slug, x.slug)}` })))
       }
-    }
+      return out
+    }))
+    best.push(...parts.flat())
     // коды ошибок техники — только на языках с переводом
     const errors: Entry[] = []
     if (hasErrors(lang)) {

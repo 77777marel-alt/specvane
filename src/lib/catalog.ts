@@ -677,13 +677,39 @@ const DIMS = ['width', 'height', 'depth', 'depth_mm', 'thickness', 'height_adjus
 const PORTABLE = ['smartphones', 'tablets', 'laptops', 'headphones', 'smartwatches', 'cameras', 'power-banks', 'speakers']
 export type OverallItem = ProductCardData & { score: number; strengths: { label: string; p: number }[] }
 
+/** Значения числовых характеристик всех активных моделей категории (общие для всех языков, кеш на час). */
+async function getSpecValues(categoryId: number, specIds: number[]): Promise<Record<string, Record<number, number>>> {
+  'use cache'
+  cacheLife('hours'); cacheTag('products')
+  const s = db()
+  const out: Record<string, Record<number, number>> = {}
+  if (!s) return out
+  for (let page = 0; page < 20; page++) {
+    const { data } = await s.from('product_specs').select('spec_id, value_num, products!inner(slug, category_id, status)')
+      .eq('products.category_id', categoryId).eq('products.status', 'active').in('spec_id', specIds).not('value_num', 'is', null)
+      .order('product_id').order('spec_id').range(page * 1000, page * 1000 + 999)
+    const rows = (data ?? []) as unknown as { spec_id: number; value_num: number; products: { slug: string } }[]
+    for (const r of rows) (out[r.products.slug] ??= {})[r.spec_id] = Number(r.value_num)
+    if (rows.length < 1000) break
+  }
+  return out
+}
+
 export async function getOverall(lang: Locale, cat: Category, limit = 20): Promise<OverallItem[]> {
   'use cache'
   cacheLife('hours'); cacheTag('products')
+  const s = db()
+  if (!s) return []
   const [{ defs }, stats, items] = await Promise.all([getDefs(cat.id, lang), getSpecStats(cat.id), getCategoryProducts(lang, cat)])
-  const scored = defs.filter((d) => d.type === 'number' && d.hib != null && (d.isKey || d.isFilter) && (stats[d.id]?.n ?? 0) >= 30
+  // все числовые характеристики с направлением «больше/меньше — лучше» и статистикой; без габаритов; вес — только у переносной техники
+  const scored = defs.filter((d) => d.type === 'number' && d.hib != null && (stats[d.id]?.n ?? 0) >= 30
     && !DIMS.includes(d.key) && (!/^weight/.test(d.key) || PORTABLE.includes(cat.key)))
+    .sort((a, b) => Number(b.isKey) - Number(a.isKey) || Number(b.isFilter) - Number(a.isFilter) || a.sort - b.sort).slice(0, 8)
   if (scored.length < 3) return []
+  // значения характеристик, которых нет в карточках списка, — отдельным запросом (страницами по 1000)
+  const extra = scored.filter((d) => !d.isFilter)
+  const vals = extra.length ? await getSpecValues(cat.id, extra.map((d) => d.id)) : {}
+  const valueOf = (p: ProductCardData, d: Def) => { const v = p.facets?.[d.key]?.v; return typeof v === 'number' ? v : vals[p.slug]?.[d.id] }
   const W = (d: Def) => (d.isKey ? 2 : 1), total = scored.reduce((a, d) => a + W(d), 0)
   const rank = (pct: number[], v: number) => { let lo = 0, hi = pct.length; while (lo < hi) { const m = (lo + hi) >> 1; if (pct[m] <= v) lo = m + 1; else hi = m } return Math.min(100, Math.max(0, lo - 1)) }
   const since = new Date(Date.now() - 2 * 365 * 86400e3).toISOString().slice(0, 10)
@@ -694,7 +720,7 @@ export async function getOverall(lang: Locale, cat: Category, limit = 20): Promi
     let sum = 0, w = 0
     const parts: { label: string; p: number }[] = []
     for (const d of scored) {
-      const v = p.facets?.[d.key]?.v
+      const v = valueOf(p, d)
       if (typeof v !== 'number') continue
       const r = rank(stats[d.id].pct, v), q = d.hib ? r : 100 - r
       sum += q * W(d); w += W(d); parts.push({ label: d.label, p: q })
