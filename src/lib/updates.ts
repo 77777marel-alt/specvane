@@ -7,7 +7,7 @@ type Model = { brand: string; model: string; os_until: string | null; security_u
 const RULES = (data as { rules: Rule[] }).rules.map((r) => ({ ...r, re: new RegExp(r.match, 'i') }))
 const MODELS = (data as { models: Model[] }).models
 
-export type Support = { securityUntil: string | null; osUntil: string | null; osUpgrades: number | null; official: boolean; press: boolean; source: string }
+export type Support = { securityUntil: string | null; osUntil: string | null; osUpgrades: number | null; official: boolean; press: boolean; source: string; now?: number }
 
 const norm = (s: string) => s.toLowerCase().replace(/\s+/g, ' ').trim()
 // имена из каталога бывают с памятью, годом, «Dual SIM», «5G» — пробуем несколько вариантов

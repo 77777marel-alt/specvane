@@ -6,10 +6,11 @@ import type { Support } from '@/lib/updates'
 /** «Обновления ПО»: до какого месяца/года модель получает обновления безопасности и системы. */
 export function UpdatesBox({ lang, t, brand, s }: { lang: Locale; t: Dict; brand: string; s: Support }) {
   const fmt = (v: string) => (v.length === 4 ? v : new Intl.DateTimeFormat(lang, { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${v}-01T00:00:00Z`)))
+  const now = s.now ?? 0 // момент «сейчас» приходит с сервера из кеша (now во время пререндера запрещён)
   const end = s.securityUntil ?? s.osUntil
   const endDate = end ? new Date(end.length === 4 ? `${end}-12-31` : `${end}-28`) : null
-  const yearsLeft = endDate ? Math.floor((endDate.getTime() - Date.now()) / (365.25 * 86400e3)) : null
-  const status = endDate == null ? null : endDate.getTime() < Date.now() ? t.ui.updEnded : yearsLeft! >= 1 ? fill(t.ui.updLeft, { n: yearsLeft! }) : null
+  const yearsLeft = endDate ? Math.floor((endDate.getTime() - now) / (365.25 * 86400e3)) : null
+  const status = !now || endDate == null ? null : endDate.getTime() < now ? t.ui.updEnded : yearsLeft! >= 1 ? fill(t.ui.updLeft, { n: yearsLeft! }) : null
   return (
     <section className="rounded-2xl border border-border p-4">
       <h2 className="mb-3 font-semibold">{t.ui.updTitle}</h2>
@@ -22,7 +23,7 @@ export function UpdatesBox({ lang, t, brand, s }: { lang: Locale; t: Dict; brand
             <dd className="num text-end font-semibold">{s.osUntil ? fmt(s.osUntil) : ''}{s.osUpgrades ? <span className="block text-xs font-normal text-muted">{fill(t.ui.updOsCount, { n: s.osUpgrades })}</span> : null}</dd></div>
         )}
       </dl>
-      {status && <p className={`mt-3 inline-block rounded-full px-2.5 py-1 text-xs font-semibold ${endDate!.getTime() < Date.now() ? 'bg-surface-2 text-muted' : 'bg-good-soft text-good'}`}>{status}</p>}
+      {status && <p className={`mt-3 inline-block rounded-full px-2.5 py-1 text-xs font-semibold ${endDate!.getTime() < now ? 'bg-surface-2 text-muted' : 'bg-good-soft text-good'}`}>{status}</p>}
       <p className="mt-3 text-xs text-muted">
         <a href={s.source} target="_blank" rel="nofollow noopener" className="underline hover:text-accent">
           {fill(!s.official ? t.ui.updEstimate : s.press ? t.ui.updPress : t.ui.updOfficial, { brand })}
