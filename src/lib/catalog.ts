@@ -810,3 +810,46 @@ export async function getUseCases(lang: Locale, cat: Category): Promise<UseCaseR
   }
   return out
 }
+
+// ---------- «Реальный размер»: габариты моделей для сравнения в натуральную величину ----------
+export type SizeItem = { s: string; n: string; img: string | null; w: number; h: number; d: number | null; dg: number | null; ap: boolean }
+const SIZE_CATS = ['smartphones', 'tablets', 'smartwatches', 'tvs'] as const
+
+/** Ширина × высота × толщина (мм). Нет опубликованных габаритов — оценка по диагонали (флаг ap). */
+export async function getSizeData(lang: Locale, catKey: string): Promise<SizeItem[]> {
+  'use cache'
+  cacheLife('hours'); cacheTag('products')
+  if (!(SIZE_CATS as readonly string[]).includes(catKey)) return []
+  const cat = await getCategoryByKey(lang, catKey)
+  if (!cat) return []
+  const [{ defs }, items] = await Promise.all([getDefs(cat.id, lang), getCategoryProducts(lang, cat)])
+  const byKey = new Map(defs.map((d) => [d.key, d]))
+  const want = ['width', 'height', 'thickness', 'depth_mm', 'case_size', 'display_size'].map((k) => byKey.get(k)).filter((d): d is Def => !!d)
+  const vals = await getSpecValues(cat.id, want.filter((d) => !d.isFilter).map((d) => d.id))
+  const num = (p: ProductCardData, key: string) => {
+    const d = byKey.get(key); if (!d) return null
+    const f = p.facets?.[key]?.v; const v = typeof f === 'number' ? f : vals[p.slug]?.[d.id]
+    return typeof v === 'number' && v > 0 ? v : null
+  }
+  const out: SizeItem[] = []
+  for (const p of items) {
+    const dg = num(p, 'display_size')
+    let w = num(p, 'width'), h = num(p, 'height'), ap = false
+    const d = num(p, 'thickness') ?? num(p, 'depth_mm')
+    if (catKey === 'smartwatches') {
+      const cs = num(p, 'case_size')
+      if (!w || !h) { if (!cs) continue; h = cs; w = Math.round(cs * 0.86 * 10) / 10; ap = true }
+    } else if (!w || !h) {
+      if (!dg) continue
+      // оценка: экран 20:9 (телефоны), 16:10 (планшеты), 16:9 (ТВ) + рамки
+      const [ax, ay, bx, by] = catKey === 'smartphones' ? [9, 20, 7, 12] : catKey === 'tablets' ? [10, 16, 16, 16] : [16, 9, 20, 20]
+      const diag = dg * 25.4, k = diag / Math.hypot(ax, ay)
+      w = Math.round(ax * k + bx); h = Math.round(ay * k + by); ap = true
+    }
+    if (catKey === 'tvs' && w < h) [w, h] = [h, w]
+    if (catKey !== 'tvs' && w > h) [w, h] = [h, w] // телефоны и планшеты — вертикально
+    out.push({ s: p.slug, n: `${p.brand} ${p.name}`, img: p.image ?? null, w, h, d, dg, ap })
+    if (out.length >= 1500) break
+  }
+  return out
+}

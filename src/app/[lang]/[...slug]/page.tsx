@@ -24,6 +24,7 @@ import { DocsList } from '@/components/product/DocsList'
 import { supportFor } from '@/lib/updates'
 import { TOOLS, toolsText } from '@/lib/tools'
 import { ToolCalc } from '@/components/views/ToolCalc'
+import { RealSize } from '@/components/views/RealSize'
 import { glossary, glossaryTerm, GLOSSARY_UI } from '@/lib/glossary'
 import { brandsText } from '@/lib/brands'
 import { listsText, listTitle } from '@/lib/lists'
@@ -682,8 +683,10 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
         <Breadcrumbs items={[home, section, { name: tx.short, href: sectionHref(lang, 'tools', tool.id) }]} />
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{tx.title}</h1>
         <p className="mt-2 max-w-2xl text-muted">{tx.lead}</p>
-        <section className="mt-6 max-w-3xl rounded-2xl border border-border p-4 md:p-6">
-          <ToolCalc tool={tool.key} t={tt} lang={lang} imperialDefault={lang === 'en'} {...defaultTariff(lang)} />
+        <section className={`mt-6 rounded-2xl border border-border p-4 md:p-6 ${tool.key === 'size' || tool.key === 'wall' ? '' : 'max-w-3xl'}`}>
+          {tool.key === 'size' || tool.key === 'wall'
+            ? <RealSize t={tt} lang={lang} mode={tool.key} />
+            : <ToolCalc tool={tool.key} t={tt} lang={lang} imperialDefault={lang === 'en'} {...defaultTariff(lang)} />}
         </section>
         {tool.key === 'ac' || tool.key === 'boiler'
           ? <p className="mt-4"><a href={sectionHref(lang, 'errors', cat?.slug ?? applianceName(lang, tool.cat as Appliance).slug)} className="font-medium text-accent hover:underline">{tx.cta} →</a></p>
@@ -847,6 +850,10 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
       <>
         <CompareView lang={lang} t={t} items={c.items} radar={radar}
           crumbs={[home, 'cross' in c ? { name: t.nav.compare, href: sectionHref(lang, 'compare') } : { name: c.cat.name, href: `/${lang}/${c.cat.slug}` }, { name: c.items.map((x) => x.name).join(` ${t.ui.vs} `), href: c.canonical }]} />
+        {c.items.length === 2 && 'cat' in c && ['smartphones', 'tablets', 'smartwatches'].includes(c.cat.key) && !('cross' in c) && (
+          <p className="mx-auto mt-8 max-w-3xl"><a href={`${sectionHref(lang, 'tools', 'phone-size-comparison')}?cat=${c.cat.key}&a=${c.items[0].slug}&b=${c.items[1].slug}`}
+            className="inline-flex min-h-11 items-center gap-2 rounded-xl border border-border px-4 font-medium hover:border-accent hover:text-accent">📏 {toolsText(lang).size.short}: {c.items.map((x) => x.name).join(' vs ')} →</a></p>
+        )}
         {c.items.length === 2 && <ShareEmbed t={widgetsText(lang)} url={`${SITE_URL}${c.canonical}`} embed={`${SITE_URL}/embed/${lang}/compare/${pair}`}
           image={`${SITE_URL}/og/${lang}/compare/${pair}.png`} name={c.items.map((x) => `${x.brand} ${x.name}`).join(' vs ')} />}
       </>
@@ -927,6 +934,10 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
               prevGen={await getPrevGeneration(lang, cat, p.brand, p.name).then((g) => g && { name: `${g.brand} ${g.name}`, href: g.href, specs: g.specGroups.flatMap((x) => x.specs) })}
               attribution={p.source === 'icecat' ? `Database Right data-sheet ${year} Icecat. All rights reserved. Data provided “as is” without warranty.` : undefined} />
             <ProductJsonLd name={`${p.brand} ${p.name}`} brand={p.brand} image={p.images} url={p.href} />
+            {['smartphones', 'tablets', 'smartwatches', 'tvs'].includes(cat.key) && (
+              <p className="mx-auto mt-8 max-w-3xl"><a href={`${sectionHref(lang, 'tools', cat.key === 'tvs' ? 'tv-on-your-wall' : 'phone-size-comparison')}?cat=${cat.key}&a=${p.slug}`}
+                className="inline-flex min-h-11 items-center gap-2 rounded-xl border border-border px-4 font-medium hover:border-accent hover:text-accent">📏 {toolsText(lang)[cat.key === 'tvs' ? 'wall' : 'size'].short}: {p.brand} {p.name} →</a></p>
+            )}
             <ShareEmbed t={{ ...widgetsText(lang), title: widgetsText(lang).titleProduct }} url={`${SITE_URL}${p.href}`} embed={`${SITE_URL}/embed/${lang}/p/${cat.slug}/${p.slug}`}
               image={`${SITE_URL}/og/${lang}/p/${cat.slug}/${p.slug}.png`} name={`${p.brand} ${p.name}`} height={460} />
             {faq.length >= 3 && <ProductFaq title={fill(faqText(lang).title, { model: `${p.brand} ${p.name}` })} note={faqText(lang).note} items={faq} />}
