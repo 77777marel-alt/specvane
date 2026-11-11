@@ -3,6 +3,7 @@ import { LOCALES, MARKETS, type Locale } from '@/lib/i18n/config'
 import type { Dict } from '@/lib/i18n'
 import { INFO_PAGES, sectionHref } from '@/lib/routes'
 import { Logo } from './Logo'
+import { legalText } from '@/lib/legal'
 
 export function Footer({ lang, t }: { lang: Locale; t: Dict }) {
   return (
@@ -11,6 +12,7 @@ export function Footer({ lang, t }: { lang: Locale; t: Dict }) {
         <div>
           <div className="mb-3 flex items-center gap-2 font-semibold"><Logo className="h-6 w-6" /> Specvane</div>
           <p className="max-w-sm text-muted">{t.footer.disclosure}</p>
+          <p className="mt-3 max-w-sm text-xs text-muted">{legalText(lang).footer}</p>
         </div>
         <nav aria-label="Specvane">
           <ul className="space-y-2">

@@ -711,7 +711,10 @@ export async function getOverall(lang: Locale, cat: Category, limit = 20): Promi
   const vals = extra.length ? await getSpecValues(cat.id, extra.map((d) => d.id)) : {}
   const valueOf = (p: ProductCardData, d: Def) => { const v = p.facets?.[d.key]?.v; return typeof v === 'number' ? v : vals[p.slug]?.[d.id] }
   const W = (d: Def) => (d.isKey ? 2 : 1), total = scored.reduce((a, d) => a + W(d), 0)
-  const rank = (pct: number[], v: number) => { let lo = 0, hi = pct.length; while (lo < hi) { const m = (lo + hi) >> 1; if (pct[m] <= v) lo = m + 1; else hi = m } return Math.min(100, Math.max(0, lo - 1)) }
+  // «лучше, чем у p %»: средний ранг среди равных (иначе у 8 ГБ ОЗУ или 120 Гц все получают «лучше 90 %»), от 1 до 99
+  const below = (pct: number[], v: number) => { let lo = 0, hi = pct.length; while (lo < hi) { const m = (lo + hi) >> 1; if (pct[m] < v) lo = m + 1; else hi = m } return lo }
+  const upto = (pct: number[], v: number) => { let lo = 0, hi = pct.length; while (lo < hi) { const m = (lo + hi) >> 1; if (pct[m] <= v) lo = m + 1; else hi = m } return lo }
+  const rank = (pct: number[], v: number) => { const a = below(pct, v), b = upto(pct, v), n = pct.length - 1; return Math.min(99, Math.max(1, Math.round(((a + b) / 2 - 0.5) / n * 100))) }
   const since = new Date(Date.now() - 2 * 365 * 86400e3).toISOString().slice(0, 10)
   const recent = items.filter((p) => p.release && p.release >= since)
   const pool = recent.length >= 30 ? recent : items.slice(0, 600)

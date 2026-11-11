@@ -28,6 +28,7 @@ import { glossary, glossaryTerm, GLOSSARY_UI } from '@/lib/glossary'
 import { brandsText } from '@/lib/brands'
 import { listsText, listTitle } from '@/lib/lists'
 import { overallText } from '@/lib/overall'
+import { legalText } from '@/lib/legal'
 import { productFaq, faqText } from '@/lib/faq'
 import { ProductCard } from '@/components/product/ProductCard'
 import { guides, guideFor, GUIDE_CATS, GUIDE_UI, type Guide } from '@/lib/guides'
@@ -236,6 +237,9 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
         {page.body.map((p, i) => (
           <p key={i} className="mb-4 leading-relaxed text-muted">{p}</p>
         ))}
+        {key === 'legal-notice' && legalText(lang).legal.map((p, i) => (
+          <p key={`l${i}`} className="mb-4 leading-relaxed text-muted">{p}</p>
+        ))}
       </article>
     )
   }
@@ -331,6 +335,7 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
           </table>
         </div>
         <p className="mt-3 max-w-3xl text-sm text-muted">{bt.method}</p>
+        <p className="mt-2 max-w-3xl text-xs text-muted">{legalText(lang).rank}</p>
         {[[a, v.latestA], [b, v.latestB]].map(([br, items]) => (items as typeof v.latestA).length > 0 && (
           <section key={(br as typeof a).slug} className="mt-8">
             <h2 className="mb-3 text-xl font-semibold">{fill(bt.latest, { brand: (br as typeof a).name })}</h2>
@@ -564,8 +569,13 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
     const cat = await getCategoryByKey(lang, ap.key)
     const models = cat ? (await getCategoryProducts(lang, cat)).filter((p) => p.brand === brand && p.image).slice(0, 4) : []
     const title = fill(t.ui.errCodeTitle, { brand, appliance: singular(t, ap.key, lang), code: r.item.code })
-    return <ErrorsCode lang={lang} t={t} crumbs={[home, section, brandCrumb, { name: r.item.code, href: `${base}/${r.item.slug}` }]}
-      title={title} item={r.item} others={r.others} base={base} models={models} catHref={ap.href} />
+    return (
+      <>
+        <ErrorsCode lang={lang} t={t} crumbs={[home, section, brandCrumb, { name: r.item.code, href: `${base}/${r.item.slug}` }]}
+          title={title} item={r.item} others={r.others} base={base} models={models} catHref={ap.href} />
+        <p className="mx-auto mt-8 max-w-3xl text-xs text-muted">{legalText(lang).errors}</p>
+      </>
+    )
   }
 
   if (key === 'best' && slug.length <= 3) {
@@ -624,6 +634,7 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
             ))}
           </ol>
           <p className="mt-4 max-w-3xl text-sm text-muted">{ot.method}</p>
+          <p className="mt-2 max-w-3xl text-xs text-muted">{legalText(lang).rank}</p>
           {specs.length > 0 && (
             <nav className="mt-8" aria-label={ot.bySpec}>
               <h2 className="mb-3 font-semibold">{ot.bySpec}</h2>
