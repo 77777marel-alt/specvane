@@ -4,7 +4,7 @@ import { INFO_PAGES, sectionHref } from '@/lib/routes'
 import { SITE_URL } from '@/lib/site'
 import { db } from '@/lib/supabase'
 import { cacheLife } from 'next/cache'
-import { getIndexableProducts, getIndexableComparisons, getCategory, getBestSpecs, getCategoryByKey, getBrandPairs, getLists } from '@/lib/catalog'
+import { getIndexableProducts, getIndexableComparisons, getCategory, getBestSpecs, getCategoryByKey, getBrandPairs, getLists, getOverall } from '@/lib/catalog'
 import { APPLIANCES, applianceName, isThinCode, errorBrands, errorCodes, hasErrors, type Appliance } from '@/lib/errors'
 import { TOOLS } from '@/lib/tools'
 import { GLOSSARY_SLUGS } from '@/lib/glossary'
@@ -61,6 +61,7 @@ export async function entriesFor(file: string): Promise<Entry[] | null> {
     for (const c of cats) {
       const cat = await getCategory(lang, c.slugs[lang]!)
       if (!cat) continue
+      if ((await getOverall(lang, cat)).length >= 5) best.push({ loc: `${SITE_URL}${sectionHref(lang, 'best', cat.slug)}` })
       for (const sp of await getBestSpecs(lang, cat)) best.push({ loc: `${SITE_URL}${sectionHref(lang, 'best', cat.slug, sp.slug)}` })
       // сравнения брендов: только основные категории (с гидами) и топ-6 брендов — волнами, без массы тонких страниц
       if (GUIDE_CATS.includes(cat.key)) {

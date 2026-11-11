@@ -670,3 +670,39 @@ export async function getListItems(lang: Locale, cat: Category, slug: string) {
   })
   return { def, items }
 }
+
+// ---------- «Лучшие в 2026» по общей оценке: средневзвешенный перцентиль по важным характеристикам ----------
+const DIMS = ['width', 'height', 'depth', 'depth_mm', 'thickness', 'height_adjust']
+const PORTABLE = ['smartphones', 'tablets', 'laptops', 'headphones', 'smartwatches', 'cameras', 'power-banks', 'speakers']
+export type OverallItem = ProductCardData & { score: number; strengths: { label: string; p: number }[] }
+
+export async function getOverall(lang: Locale, cat: Category, limit = 20): Promise<OverallItem[]> {
+  'use cache'
+  cacheLife('hours'); cacheTag('products')
+  const [{ defs }, stats, items] = await Promise.all([getDefs(cat.id, lang), getSpecStats(cat.id), getCategoryProducts(lang, cat)])
+  const scored = defs.filter((d) => d.type === 'number' && d.hib != null && (d.isKey || d.isFilter) && (stats[d.id]?.n ?? 0) >= 30
+    && !DIMS.includes(d.key) && (!/^weight/.test(d.key) || PORTABLE.includes(cat.key)))
+  if (scored.length < 3) return []
+  const W = (d: Def) => (d.isKey ? 2 : 1), total = scored.reduce((a, d) => a + W(d), 0)
+  const rank = (pct: number[], v: number) => { let lo = 0, hi = pct.length; while (lo < hi) { const m = (lo + hi) >> 1; if (pct[m] <= v) lo = m + 1; else hi = m } return Math.min(100, Math.max(0, lo - 1)) }
+  const since = new Date(Date.now() - 2 * 365 * 86400e3).toISOString().slice(0, 10)
+  const recent = items.filter((p) => p.release && p.release >= since)
+  const pool = recent.length >= 30 ? recent : items.slice(0, 600)
+  const out: OverallItem[] = []
+  for (const p of pool) {
+    let sum = 0, w = 0
+    const parts: { label: string; p: number }[] = []
+    for (const d of scored) {
+      const v = p.facets?.[d.key]?.v
+      if (typeof v !== 'number') continue
+      const r = rank(stats[d.id].pct, v), q = d.hib ? r : 100 - r
+      sum += q * W(d); w += W(d); parts.push({ label: d.label, p: q })
+    }
+    if (w < total * 0.6) continue
+    out.push({ ...p, score: Math.round(sum / w), strengths: parts.sort((a, b) => b.p - a.p).slice(0, 3) })
+  }
+  // один представитель на модель: убираем варианты с тем же названием до объёма памяти/цвета
+  const base = (s: string) => s.toLowerCase().replace(/\b\d+\s?(gb|tb)\b.*$/i, '').replace(/[\s-]+/g, ' ').trim()
+  const seen = new Set<string>()
+  return out.sort((a, b) => b.score - a.score).filter((x) => { const k = `${x.brand} ${base(x.name)}`; if (seen.has(k)) return false; seen.add(k); return true }).slice(0, limit)
+}

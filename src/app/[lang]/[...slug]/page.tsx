@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation'
 import { isLocale, LOCALES, type Locale } from '@/lib/i18n/config'
 import { getDict } from '@/lib/i18n'
 import { INFO_PAGES, MANUAL_SLUG, SLUGS, resolveSlug, sectionHref, type InfoPage } from '@/lib/routes'
-import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions, getPrevGeneration, getBest, getBestSpecs, getBetterAlternatives, getCrossLinks, getTrends, getCategoryByKey, getGlossaryLinks, getCategoryBrands, getBrandPairs, getBrandVs, todayMs, getLists, getListItems } from '@/lib/catalog'
+import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions, getPrevGeneration, getBest, getBestSpecs, getBetterAlternatives, getCrossLinks, getTrends, getCategoryByKey, getGlossaryLinks, getCategoryBrands, getBrandPairs, getBrandVs, todayMs, getLists, getListItems, getOverall } from '@/lib/catalog'
 import { permanentRedirect } from 'next/navigation'
 import { number, fill } from '@/lib/format'
 import { alternates } from '@/lib/seo'
@@ -27,6 +27,7 @@ import { ToolCalc } from '@/components/views/ToolCalc'
 import { glossary, glossaryTerm, GLOSSARY_UI } from '@/lib/glossary'
 import { brandsText } from '@/lib/brands'
 import { listsText, listTitle } from '@/lib/lists'
+import { overallText } from '@/lib/overall'
 import { productFaq, faqText } from '@/lib/faq'
 import { ProductCard } from '@/components/product/ProductCard'
 import { guides, guideFor, GUIDE_CATS, GUIDE_UI, type Guide } from '@/lib/guides'
@@ -154,6 +155,14 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/[...slug]'
   if (key === 'best') {
     const t = getDict(lang)
     if (slug.length === 1) return { title: `${t.ui.bestIndexTitle} · Specvane`, alternates: alternates(lang, (l) => sectionHref(l, 'best')) }
+    if (slug.length === 2) {
+      const c = await getCategory(lang, slug[1])
+      const top = c ? await getOverall(lang, c) : []
+      if (!c || top.length < 5) return {}
+      const ot = overallText(lang)
+      return { title: `${fill(ot.title, { category: c.name, n: top.length })} · Specvane`, description: `${top.slice(0, 5).map((x, i) => `${i + 1}. ${x.brand} ${x.name}`).join(', ')}`.slice(0, 300),
+        alternates: alternates(lang, (l) => (c.slugs[l] ? sectionHref(l, 'best', c.slugs[l]!) : null)) }
+    }
     const cat = slug.length === 3 ? await getCategory(lang, slug[1]) : null
     const b = cat && await getBest(lang, cat, slug[2])
     if (!cat || !b) return {}
@@ -577,12 +586,52 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
               <section key={x!.cat.key} className="rounded-2xl border border-border p-4">
                 <h2 className="mb-2 font-semibold"><a href={`/${lang}/${x!.cat.slug}`} className="hover:text-accent">{x!.cat.name}</a></h2>
                 <ul className="space-y-1 text-sm">
+                  <li><a href={sectionHref(lang, 'best', x!.cat.slug)} className="font-semibold text-accent hover:underline">{overallText(lang).short}</a></li>
                   {x!.specs.map((sp) => <li key={sp.slug}><a href={sectionHref(lang, 'best', x!.cat.slug, sp.slug)} className="text-accent hover:underline">{sp.label}</a></li>)}
                 </ul>
               </section>
             ))}
           </div>
         </>
+      )
+    }
+    if (slug.length === 2) {
+      const c = await getCategory(lang, slug[1])
+      if (!c) notFound()
+      const top = await getOverall(lang, c)
+      if (top.length < 5) notFound()
+      const ot = overallText(lang)
+      const title = fill(ot.title, { category: c.name, n: top.length })
+      const specs = await getBestSpecs(lang, c)
+      const ld = { '@context': 'https://schema.org', '@type': 'ItemList', name: title, itemListElement: top.map((x, i) => ({ '@type': 'ListItem', position: i + 1, url: `https://specvane.com${x.href}`, name: `${x.brand} ${x.name}` })) }
+      return (
+        <article>
+          <Breadcrumbs items={[home, section, { name: c.name, href: `/${lang}/${c.slug}` }, { name: ot.short, href: sectionHref(lang, 'best', c.slug) }]} />
+          <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{title}</h1>
+          <p className="mt-2 max-w-3xl text-muted">{fill(ot.lead, { category: c.name })}</p>
+          <ol className="mt-6 space-y-3">
+            {top.map((x, i) => (
+              <li key={x.slug} className="flex items-center gap-3 rounded-2xl border border-border p-3">
+                <span className="num w-8 shrink-0 text-center text-xl font-bold text-muted">{i + 1}</span>
+                {x.image ? <img src={x.image} alt="" width={64} height={64} loading="lazy" className="h-16 w-16 shrink-0 rounded-xl bg-surface object-contain" /> : <span className="h-16 w-16 shrink-0 rounded-xl bg-surface" />}
+                <div className="min-w-0 flex-1">
+                  <a href={x.href} className="font-semibold hover:text-accent">{x.brand} {x.name}</a>
+                  <p className="mt-1 hidden text-xs text-muted sm:block">{x.strengths.map((s2) => fill(ot.better, { spec: s2.label, p: s2.p })).join(' · ')}</p>
+                  {x.strengths[0] && <p className="mt-1 text-xs text-muted sm:hidden">{fill(ot.better, { spec: x.strengths[0].label, p: x.strengths[0].p })}</p>}
+                </div>
+                <span className="shrink-0 text-end"><span className="num block text-2xl font-bold text-good">{x.score}</span><span className="text-xs text-muted">{ot.score}</span></span>
+              </li>
+            ))}
+          </ol>
+          <p className="mt-4 max-w-3xl text-sm text-muted">{ot.method}</p>
+          {specs.length > 0 && (
+            <nav className="mt-8" aria-label={ot.bySpec}>
+              <h2 className="mb-3 font-semibold">{ot.bySpec}</h2>
+              <ul className="flex flex-wrap gap-2">{specs.map((sp) => <li key={sp.slug}><a href={sectionHref(lang, 'best', c.slug, sp.slug)} className="inline-flex min-h-11 items-center rounded-xl border border-border px-3 hover:border-accent hover:text-accent">{sp.label}</a></li>)}</ul>
+            </nav>
+          )}
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
+        </article>
       )
     }
     const cat = slug.length === 3 ? await getCategory(lang, slug[1]) : null
@@ -666,6 +715,7 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
         const brands = [...count.keys()].sort((a, b) => count.get(b)! - count.get(a)!)
         const filters = await getFilterDefs(lang, cat)
         const tops = (await getBestSpecs(lang, cat)).map((x) => ({ label: x.label, href: sectionHref(lang, 'best', cat.slug, x.slug) }))
+        if ((await getOverall(lang, cat)).length >= 5) tops.unshift({ label: overallText(lang).short, href: sectionHref(lang, 'best', cat.slug) })
         return <CategoryView lang={lang} t={t} title={cat.name} items={items} brands={brands} crumbs={[home, catCrumb]} tops={tops} trends={await getTrends(lang, cat)}
           browser={{ filters, compare: { cat: cat.key, base: sectionHref(lang, 'compare') } }}
           extra={[
