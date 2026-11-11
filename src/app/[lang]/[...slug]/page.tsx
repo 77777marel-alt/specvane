@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation'
 import { isLocale, LOCALES, type Locale } from '@/lib/i18n/config'
 import { getDict } from '@/lib/i18n'
 import { INFO_PAGES, MANUAL_SLUG, SLUGS, resolveSlug, sectionHref, type InfoPage } from '@/lib/routes'
-import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions, getPrevGeneration, getBest, getBestSpecs, getBetterAlternatives, getCrossLinks, getTrends, getCategoryByKey, getGlossaryLinks, getCategoryBrands, getBrandPairs, getBrandVs, todayMs } from '@/lib/catalog'
+import { getCategory, getCategoryProducts, getProduct, getComparison, getCompareLinks, getTopComparisons, getFilterDefs, getPositions, getPrevGeneration, getBest, getBestSpecs, getBetterAlternatives, getCrossLinks, getTrends, getCategoryByKey, getGlossaryLinks, getCategoryBrands, getBrandPairs, getBrandVs, todayMs, getLists, getListItems } from '@/lib/catalog'
 import { permanentRedirect } from 'next/navigation'
 import { number, fill } from '@/lib/format'
 import { alternates } from '@/lib/seo'
@@ -26,6 +26,7 @@ import { TOOLS, toolsText } from '@/lib/tools'
 import { ToolCalc } from '@/components/views/ToolCalc'
 import { glossary, glossaryTerm, GLOSSARY_UI } from '@/lib/glossary'
 import { brandsText } from '@/lib/brands'
+import { listsText, listTitle } from '@/lib/lists'
 import { productFaq, faqText } from '@/lib/faq'
 import { ProductCard } from '@/components/product/ProductCard'
 import { guides, guideFor, GUIDE_CATS, GUIDE_UI, type Guide } from '@/lib/guides'
@@ -100,6 +101,18 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/[...slug]'
     return { title: `${t.info[key].title} · Specvane`, alternates: alternates(lang, (l: Locale) => sectionHref(l, key)), robots }
   }
   if (key === 'errors') return errorsMeta(lang, slug)
+  if (key === 'lists' && (slug.length === 2 || slug.length === 3)) {
+    const cat = await getCategory(lang, slug[1])
+    if (!cat) return {}
+    const lt = listsText(lang)
+    if (slug.length === 2) return { title: `${fill(lt.indexTitle, { category: cat.name })} · Specvane`, description: lt.indexLead,
+      alternates: alternates(lang, (l) => (cat.slugs[l] ? sectionHref(l, 'lists', cat.slugs[l]!) : null)) }
+    const r = await getListItems(lang, cat, slug[2])
+    if (!r) return {}
+    const title = listTitle(lang, cat.name, r.def)
+    return { title: `${title} · Specvane`, description: `${fill(lt.lead, { n: r.items.length })} ${r.items.slice(0, 5).map((p) => `${p.brand} ${p.name}`).join(', ')}`.slice(0, 300),
+      alternates: alternates(lang, (l) => (cat.slugs[l] ? sectionHref(l, 'lists', cat.slugs[l]!, slug[2]) : null)) }
+  }
   if (key === 'brands' && (slug.length === 2 || slug.length === 3)) {
     const cat = await getCategory(lang, slug[1])
     if (!cat) return {}
@@ -215,6 +228,41 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
           <p key={i} className="mb-4 leading-relaxed text-muted">{p}</p>
         ))}
       </article>
+    )
+  }
+
+  if (key === 'lists' && (slug.length === 2 || slug.length === 3)) {
+    const cat = await getCategory(lang, slug[1])
+    if (!cat) notFound()
+    const lt = listsText(lang)
+    const home = { name: t.ui.home, href: `/${lang}` }
+    const catCrumb = { name: cat.name, href: `/${lang}/${cat.slug}` }
+    const idx = { name: lt.section, href: sectionHref(lang, 'lists', cat.slug) }
+    const lists = await getLists(lang, cat)
+    if (!lists.length) notFound()
+    const links = (skip?: string) => lists.filter((x) => x.slug !== skip).map((x) => ({ label: `${listTitle(lang, cat.name, x)} (${x.n})`, href: sectionHref(lang, 'lists', cat.slug, x.slug) }))
+    if (slug.length === 2) {
+      return (
+        <>
+          <Breadcrumbs items={[home, catCrumb, idx]} />
+          <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{fill(lt.indexTitle, { category: cat.name })}</h1>
+          <p className="mt-2 max-w-2xl text-muted">{lt.indexLead}</p>
+          <ul className="mt-6 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">{links().map((x) => <li key={x.href}><a href={x.href} className="flex min-h-11 items-center rounded-xl border border-border px-3 py-2 hover:border-accent hover:text-accent">{x.label}</a></li>)}</ul>
+        </>
+      )
+    }
+    const r = await getListItems(lang, cat, slug[2])
+    if (!r) notFound()
+    const title = listTitle(lang, cat.name, r.def)
+    return (
+      <>
+        <CategoryView lang={lang} t={t} title={title} intro={fill(lt.lead, { n: r.items.length })} items={r.items.slice(0, 96)} crumbs={[home, catCrumb, idx, { name: title, href: sectionHref(lang, 'lists', cat.slug, slug[2]) }]}
+          extra={[{ label: lt.all, href: sectionHref(lang, 'lists', cat.slug) }]} />
+        <nav className="mt-10" aria-label={lt.more}>
+          <h2 className="mb-3 font-semibold">{lt.more}</h2>
+          <ul className="flex flex-wrap gap-2">{links(slug[2]).slice(0, 16).map((x) => <li key={x.href}><a href={x.href} className="inline-flex min-h-11 items-center rounded-xl border border-border px-3 text-sm hover:border-accent hover:text-accent">{x.label}</a></li>)}</ul>
+        </nav>
+      </>
     )
   }
 
@@ -623,6 +671,7 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
           extra={[
             guideFor(lang, cat.key) && { label: GUIDE_UI[lang].one + ': ' + cat.name, href: sectionHref(lang, 'guides', cat.slug) },
             (await getCategoryBrands(cat)).length >= 2 && { label: brandsText(lang).section, href: sectionHref(lang, 'brands', cat.slug) },
+            (await getLists(lang, cat)).length > 0 && { label: listsText(lang).section, href: sectionHref(lang, 'lists', cat.slug) },
             hasErrors(lang) && isAppliance(cat.key) && { label: t.ui.errTitle, href: sectionHref(lang, 'errors') },
             TOOLS.find((x) => x.cat === cat.key) && { label: toolsText(lang)[TOOLS.find((x) => x.cat === cat.key)!.key].short, href: sectionHref(lang, 'tools', TOOLS.find((x) => x.cat === cat.key)!.id) },
           ].filter((x): x is { label: string; href: string } => !!x)} />

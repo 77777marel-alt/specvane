@@ -621,3 +621,52 @@ export async function todayMs(): Promise<number> {
   cacheLife('days')
   return Date.now()
 }
+
+// ---------- подборки «смартфоны с NFC», «посудомоечные машины до 45 см» (из фильтров категории, без новых запросов к базе) ----------
+export type ListDef = { slug: string; kind: 'with' | 'min' | 'max'; key: string; label: string; value?: number; valueText?: string; n: number }
+const nice = (x: number) => { const p = 10 ** Math.floor(Math.log10(Math.abs(x) || 1)); const m = x / p; return (m < 1.5 ? 1 : m < 3.5 ? 2 : m < 7.5 ? 5 : 10) * p }
+
+/** Подборки категории: да/нет-признаки (которые есть у 5–90 % моделей) и пороги по числам (≈ медиана и 80-й перцентиль, «красиво» округлённые). */
+export async function getLists(lang: Locale, cat: Category): Promise<ListDef[]> {
+  'use cache'
+  cacheLife('hours'); cacheTag('products')
+  const [defsAll, items] = await Promise.all([getDefs(cat.id, lang), getCategoryProducts(lang, cat)])
+  const defs = defsAll.defs.filter((d) => d.isFilter)
+  const total = items.length
+  if (total < 20) return []
+  const t = getDict(lang)
+  const out: ListDef[] = []
+  for (const d of defs) {
+    const vals = items.map((p) => p.facets?.[d.key]?.v).filter((v) => v != null)
+    if (d.type === 'bool') {
+      const n = vals.filter((v) => v === true).length
+      if (n >= 10 && n <= total * 0.9) out.push({ slug: `with-${d.key.replace(/_/g, '-')}`, kind: 'with', key: d.key, label: d.label, n })
+    } else if (d.type === 'number' && d.hib != null) {
+      const nums = (vals as number[]).filter((v) => typeof v === 'number').sort((a, b) => a - b)
+      if (nums.length < 30) continue
+      const seen = new Set<number>()
+      for (const q of [0.5, 0.8]) {
+        const raw = d.hib ? nums[Math.floor(nums.length * q)] : nums[Math.floor(nums.length * (1 - q))]
+        const v = Math.round(nice(raw) * 100) / 100
+        if (seen.has(v) || !(v > 0)) continue
+        seen.add(v)
+        const n = nums.filter((x) => (d.hib ? x >= v : x <= v)).length
+        if (n < 10 || n > total * 0.95) continue
+        const kind = d.hib ? 'min' : 'max'
+        out.push({ slug: `${d.key.replace(/_/g, '-')}-${kind}-${String(v).replace('.', '-')}`, kind, key: d.key, label: d.label, value: v, valueText: display(lang, d, v, t.ui.yes, t.ui.no), n })
+      }
+    }
+  }
+  return out.sort((a, b) => b.n - a.n).slice(0, 40)
+}
+
+/** Модели подборки (сначала новые и с фото). */
+export async function getListItems(lang: Locale, cat: Category, slug: string) {
+  const def = (await getLists(lang, cat)).find((x) => x.slug === slug)
+  if (!def) return null
+  const items = (await getCategoryProducts(lang, cat)).filter((p) => {
+    const v = p.facets?.[def.key]?.v
+    return def.kind === 'with' ? v === true : typeof v === 'number' && (def.kind === 'min' ? v >= def.value! : v <= def.value!)
+  })
+  return { def, items }
+}
