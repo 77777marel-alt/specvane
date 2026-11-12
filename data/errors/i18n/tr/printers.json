@@ -1,0 +1,1365 @@
+{
+ "Canon|B200": {
+  "title": "Yazıcıda onarım gerektiren arıza",
+  "causes": [
+   "Yazıcı, kendi başına gideremediği ciddi bir arıza tespit etti.",
+   "Canon bunu onarım gerektiren bir hata olarak listeliyor."
+  ],
+  "steps": [
+   "Yazıcıyı kapatın.",
+   "Güç kablosunu prizden çıkarın.",
+   "Sürekli yeniden başlatmayın. Onarım için Canon desteğiyle iletişime geçin."
+  ],
+  "technician": "Kod yazıcının teknisyene ihtiyacı olduğu anlamına geldiğinden onarım için Canon servisini arayın."
+ },
+ "Canon|B203": {
+  "title": "Yazıcıda onarım gerektiren arıza",
+  "causes": [
+   "Yazıcı onarım gerektiren bir hata bildiriyor.",
+   "Bazı modellerde kod P10 ile birlikte gösterilir."
+  ],
+  "steps": [
+   "Yazıcıyı kapatın.",
+   "Güç kablosunu prizden çekin.",
+   "Canon desteğiyle iletişime geçin ve kodu bildirin."
+  ],
+  "technician": "Yazıcının onarıma ihtiyacı olduğundan Canon servisini arayın."
+ },
+ "Canon|5100": {
+  "title": "Yazıcı hatası, taşıyıcı veya yazıcı kafası sorunu",
+  "causes": [
+   "Yazıcıda dahili bir hata oluştu. Canon tek bir neden belirtmiyor.",
+   "Kâğıt veya ambalaj malzemesi gibi bir şey yazıcı kafası taşıyıcısını engelliyor olabilir."
+  ],
+  "steps": [
+   "Yazdırma işini iptal edin ve yazıcıyı kapatın.",
+   "Kapağı açın ve taşıyıcıyı hiçbir şeyin engellemediğini kontrol edin. Kâğıt, bant veya diğer kalıntıları nazikçe çıkarın.",
+   "Yazıcı kafasının veya kartuşların klik sesi gelene kadar itildiğini kontrol edin.",
+   "Yazıcıyı yeniden açın."
+  ],
+  "technician": "Hata sürerse onarım için bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|5200": {
+  "title": "Genel yazıcı hatası",
+  "causes": [
+   "Yazıcı, belirli bir nedeni olmayan dahili bir hata bildiriyor."
+  ],
+  "steps": [
+   "Yazıcıyı kapatın ve fişini çekin.",
+   "Biraz bekleyin, ardından fişi tekrar takıp yazıcıyı açın.",
+   "Hata geri gelirse destek hattını aramadan önce kodu not edin."
+  ],
+  "technician": "Hata sürerse onarım için bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|5011": {
+  "title": "Genel yazıcı hatası",
+  "causes": [
+   "Yazıcıda dahili bir hata var. Canon başka ayrıntı vermiyor."
+  ],
+  "steps": [
+   "Yazıcıyı kapatın ve fişini çekin.",
+   "Fişi tekrar takın ve yazıcıyı açın.",
+   "İçeride kâğıt sıkışmadığını kontrol edin."
+  ],
+  "technician": "Hata sürerse bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|6800": {
+  "title": "Genel yazıcı hatası",
+  "causes": [
+   "Yazıcı dahili bir hata bildiriyor. Tek bir neden belirtilmiyor."
+  ],
+  "steps": [
+   "Yazıcıyı kapatın ve fişini çekin.",
+   "Fişi tekrar takın ve yazıcıyı açın.",
+   "İçeride kâğıt veya başka bir cisim sıkışmadığını kontrol edin."
+  ],
+  "technician": "Hata sürerse bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|6000": {
+  "title": "Genel yazıcı hatası",
+  "causes": [
+   "Genel bir yazıcı hatası oluştu. Canon belirli bir neden vermiyor.",
+   "Kâğıt sıkışması da bu koda yol açabilir."
+  ],
+  "steps": [
+   "Görebildiğiniz sıkışmış kâğıtları çıkarın.",
+   "Yazıcıyı kapatın ve fişini çekin.",
+   "Fişi tekrar takın ve yazıcıyı açın."
+  ],
+  "technician": "Hata sürerse onarım için bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|5B00": {
+  "title": "Servis gerektiren yazıcı hatası",
+  "causes": [
+   "Canon bunu genel bir yazıcı hatası olarak listeliyor; bazı modellerde P07 olarak görünür.",
+   "Canon, sayfasında evde uygulanabilecek bir çözüm vermiyor."
+  ],
+  "steps": [
+   "Yazıcıyı bir kez kapatıp açın.",
+   "Görünen kodu not edin.",
+   "Hata geri gelirse yazdırmaya devam etmeyin."
+  ],
+  "technician": "Onarım ayarlamak için bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|5B01": {
+  "title": "Servis gerektiren yazıcı hatası",
+  "causes": [
+   "Yazıcı, belirli bir nedeni olmayan bir hata bildiriyor.",
+   "Canon, onarımın servis üzerinden yapılması gerektiğini belirtiyor."
+  ],
+  "steps": [
+   "Yazıcıyı bir kez kapatıp açın.",
+   "Kodu not edin.",
+   "Kod geri gelirse yazdırmayı bırakın."
+  ],
+  "technician": "Onarım talep etmek için bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|1700": {
+  "title": "Atık mürekkep emicisi neredeyse dolu",
+  "causes": [
+   "Atık mürekkebi toplayan dahili ped neredeyse dolu."
+  ],
+  "steps": [
+   "Yazdırmaya devam etmek için yazıcıdaki OK düğmesine basın.",
+   "Emicinin servis tarafından ele alınması gerektiğinden onarım planlayın.",
+   "Yazıcıyı kendiniz açıp değiştirmeye çalışmayın."
+  ],
+  "technician": "Mürekkep emicisinin bakımı için bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|1701": {
+  "title": "Atık mürekkep emicisi neredeyse dolu",
+  "causes": [
+   "Yazıcının atık mürekkep pedi neredeyse dolu."
+  ],
+  "steps": [
+   "Yazdırmaya devam etmek için yazıcıdaki OK düğmesine basın.",
+   "Yakın zamanda onarım ayarlayın.",
+   "Yazıcıyı kendiniz açmayın.",
+   "Kartuşları kenarlarından tutun ve kontaklara veya memelere dokunmayın."
+  ],
+  "technician": "Onarım talep etmek için bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|1300": {
+  "title": "Arka tepsiden beslenirken kâğıt sıkıştı",
+  "causes": [
+   "Arka tepsiden beslenirken kâğıt sıkıştı."
+  ],
+  "steps": [
+   "Kâğıdı iki elinizle, çıkış yuvasından veya arka tepsiden yavaşça çekin.",
+   "Çıkmıyorsa yazıcıyı kapatıp açın; sayfayı dışarı atabilir.",
+   "Uygun kâğıdı yeniden yükleyin ve OK düğmesine basın.",
+   "Hata veren sayfayı yeniden yazdırın."
+  ],
+  "technician": "Sıkışmalar sürekli oluyorsa veya kâğıt içeride yırtılıyorsa bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|1203": {
+  "title": "Yazdırma sırasında kapak açıldı",
+  "causes": [
+   "Yazıcı çalışırken kapak açıldı."
+  ],
+  "steps": [
+   "Kâğıt yolunda sıkışmış kâğıt varsa çıkarın.",
+   "Kapağı kapatın.",
+   "Hatayı gidermek için OK düğmesine basın.",
+   "Sayfayı yeniden yazdırın; kendiliğinden tekrar yazdırılmaz."
+  ],
+  "technician": "Kapak kapalıyken hata geri gelirse bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|1000": {
+  "title": "Arka tepsi boş veya kâğıt yanlış yüklenmiş",
+  "causes": [
+   "Arka tepside kâğıt yok.",
+   "Kâğıt doğru yüklenmemiş."
+  ],
+  "steps": [
+   "Arka tepsiye kâğıt yükleyin.",
+   "Kılavuzları kâğıdın her iki kenarına dayayın.",
+   "Kâğıt boyutu yanıp sönüyorsa yüklediğiniz boyutu seçin.",
+   "OK düğmesine basın."
+  ],
+  "technician": "Kâğıt yüklü olduğu halde yazıcı kâğıt yok diyorsa bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|1890": {
+  "title": "Kartuş tutucusunda koruyucu bant kalmış",
+  "causes": [
+   "Kartuş tutucusunda nakliye bandı veya ambalaj malzemesi kalmış olabilir."
+  ],
+  "steps": [
+   "Çıkış tepsisini kapatın ve kapağı açın.",
+   "Tutucudaki bant veya koruyucu malzemeleri çıkarın.",
+   "Kapağı kapatın."
+  ],
+  "technician": "Tüm ambalaj malzemesini çıkardıktan sonra hata sürerse bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|1401": {
+  "title": "Kartuş algılanmadı",
+  "causes": [
+   "Yazıcı bir FINE kartuşunu algılamıyor."
+  ],
+  "steps": [
+   "FINE kartuşunu takın.",
+   "Kilitlenene kadar bastırın.",
+   "Kapağı kapatın.",
+   "Kartuşları kenarlarından tutun ve kontaklara veya memelere dokunmayın."
+  ],
+  "technician": "Hata sürerse kartuş hasarlı olabileceğinden bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|1403": {
+  "title": "Kartuş hatası",
+  "causes": [
+   "Yazıcı FINE kartuşuyla ilgili bir hata bildiriyor."
+  ],
+  "steps": [
+   "Kartuşu çıkarıp yeniden takın.",
+   "Hata sürerse kartuşu yenisiyle değiştirin."
+  ],
+  "technician": "Yeni kartuşla da hata devam ederse bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|1682": {
+  "title": "Kartuş tanınamıyor",
+  "causes": [
+   "Yazıcı FINE kartuşunu tanıyamıyor."
+  ],
+  "steps": [
+   "FINE kartuşunu değiştirin.",
+   "Tam oturduğunu kontrol edin.",
+   "Kartuşları kenarlarından tutun ve kontaklara veya memelere dokunmayın."
+  ],
+  "technician": "Hata sürerse kartuş hasarlı olabileceğinden bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|1684": {
+  "title": "Mürekkep kartuşu tanınmadı",
+  "causes": [
+   "Kartuş yanlış takılmış veya bu yazıcıyla uyumlu değil."
+  ],
+  "steps": [
+   "Kartuşu doğru şekilde yeniden takın.",
+   "Veya uyumlu bir kartuşla değiştirin.",
+   "Yazdırma işini iptal etmek için Stop düğmesine basın."
+  ],
+  "technician": "Doğru kartuşla da mesaj sürerse bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|1686": {
+  "title": "Mürekkep bitmiş olabilir",
+  "causes": [
+   "Kartuştaki mürekkep bitmiş olabilir."
+  ],
+  "steps": [
+   "Boş kartuşu yeni bir Canon kartuşuyla değiştirin.",
+   "Bir işi bitirmek için Stop düğmesini 5 saniye basılı tutun. Yazdırma, mürekkep algılama olmadan devam eder."
+  ],
+  "technician": "Mürekkebi değiştirdikten sonra hata sürerse bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|1688": {
+  "title": "Yazıcının mürekkebi bitti",
+  "causes": [
+   "Yazıcının mürekkebi bitti."
+  ],
+  "steps": [
+   "Boş mürekkep kartuşunu değiştirin.",
+   "Kapağı kapatın.",
+   "Bir işi bitirmek için Stop düğmesini en az 5 saniye basılı tutun. Baskı kalitesi düşebilir. Hemen ardından kartuşu değiştirin."
+  ],
+  "technician": "Dolu kartuşla da hata sürerse bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|168A": {
+  "title": "Kartuş yok veya yanlış tip",
+  "causes": [
+   "Hiçbir FINE kartuşu algılanmıyor.",
+   "Bir kartuş yanlış takılmış veya bu yazıcıya uymuyor."
+  ],
+  "steps": [
+   "Kapağı açın ve kartuşları çıkarın.",
+   "Yazıcınıza uygun kartuşlar olduğunu kontrol edin.",
+   "Her birini kilitlenene kadar yukarı itin, ardından kapağı kapatın."
+  ],
+  "technician": "Yeniden taktıktan sonra hata sürerse bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|4100": {
+  "title": "Veriler yazdırılamıyor",
+  "causes": [
+   "Yazıcı belirtilen verileri yazdıramıyor."
+  ],
+  "steps": [
+   "Bilgisayardaki mesajı okuyun.",
+   "Her renk için orijinal Canon kartuşlarının takılı olduğunu kontrol edin.",
+   "Yeniden yazdırmayı deneyin."
+  ],
+  "technician": "Hata sürerse bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|3446": {
+  "title": "IP adresi ve alt ağ maskesi çakışması",
+  "causes": [
+   "Yazıcının Wireless Direct ve Wi-Fi ayarları çakışan ağ aralıkları kullanıyor."
+  ],
+  "steps": [
+   "Yazıcıdaki OK düğmesine basın.",
+   "Wireless Direct'i kapatın veya Wi-Fi ile Wireless Direct için farklı alt ağ aralıkları ayarlayın.",
+   "Yönlendirici ayarlarını değiştirirseniz yönlendiricinizin kılavuzuna bakın."
+  ],
+  "technician": "Ağ ayarlarını değiştirdikten sonra da hata sürerse Canon desteğiyle iletişime geçin."
+ },
+ "Canon|3440": {
+  "title": "Easy Wireless Connect başarısız oldu",
+  "causes": [
+   "Easy Wireless Connect ile yapılan Wi-Fi kurulumu tamamlanmadı."
+  ],
+  "steps": [
+   "Yazıcıdaki OK düğmesine basın.",
+   "Easy Wireless Connect'i tekrar deneyin.",
+   "Yine başarısız olursa başka bir Wi-Fi kurulum yöntemi kullanın."
+  ],
+  "technician": "Yazıcı hiçbir ağa bağlanmıyorsa Canon desteğiyle iletişime geçin."
+ },
+ "Canon|2900": {
+  "title": "Hizalama sayfası taranamadı",
+  "causes": [
+   "Yazıcı, yazıcı kafası hizalama sayfasını tarayamadı."
+  ],
+  "steps": [
+   "OK düğmesine basın.",
+   "Sayfanın yüzü aşağı bakacak şekilde doğru yerleştirildiğini ve camın temiz olduğunu kontrol edin.",
+   "Arka tepsiye düz A4 veya Letter kâğıt yükleyin.",
+   "Bir meme kontrolü yazdırın, ardından hizalamayı tekrarlayın. Başarısız olursa manuel hizalama yapın."
+  ],
+  "technician": "Meme kontrolü temizlikle giderilemeyen tıkalı bir kafa gösteriyorsa bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Canon|3412": {
+  "title": "Orijinal taranamadı",
+  "causes": [
+   "Yazıcı camdaki orijinali tarayamadı."
+  ],
+  "steps": [
+   "OK düğmesine basın.",
+   "Orijinali cama doğru şekilde yerleştirin.",
+   "Taramayı veya kopyalamayı yeniden deneyin.",
+   "Sorun sürerse orijinalin boyutunu elle ayarlayın."
+  ],
+  "technician": "Tarama sürekli başarısız oluyorsa bir Canon servis merkeziyle iletişime geçin."
+ },
+ "Epson|Service required": {
+  "title": "Mürekkep pedlerinin ömrü doldu",
+  "causes": [
+   "Dahili atık mürekkep pedleri dolu. Bu normal aşınmadır, ani bir arıza değildir.",
+   "Yoğun kullanım, çok sayıda kafa temizliği ve kenarlıksız baskı pedleri daha hızlı doldurur."
+  ],
+  "steps": [
+   "İfadeyi kontrol edin. Maintenance Box adı geçiyorsa bu, kullanıcının değiştirebileceği farklı bir parçadır.",
+   "Yazıcıyı açmayın ve pedleri kendiniz onarmaya çalışmayın.",
+   "Onarım seçeneklerini sormak için Epson ile iletişime geçin."
+  ],
+  "technician": "Mürekkep pedleri yetkili bir servis sağlayıcı tarafından değiştirilmesi gerektiğinden Epson ile iletişime geçin."
+ },
+ "Epson|Ink pad at end of life": {
+  "title": "Atık mürekkep pedi aşınmış",
+  "causes": [
+   "Kullanılmayan mürekkebi toplayan ped dolu."
+  ],
+  "steps": [
+   "Yazıcıyı kapatın.",
+   "Açmaya çalışmayın.",
+   "Epson desteğiyle iletişime geçin.",
+   "Kartuşları kenarlarından tutun ve kontaklara veya memelere dokunmayın."
+  ],
+  "technician": "Mürekkep pedleri kullanıcı tarafından değiştirilemediğinden Epson ile iletişime geçin."
+ },
+ "Epson|Ink pad nearing end of life": {
+  "title": "Atık mürekkep pedi neredeyse dolu",
+  "causes": [
+   "Mürekkep pedi ömrünün sonuna yaklaşıyor.",
+   "Mesaj, ped değiştirilene kadar ekranda kalır."
+  ],
+  "steps": [
+   "Şimdilik yazdırmaya devam etmek için OK seçeneğini seçin.",
+   "Değişim planlamak için Epson desteğiyle iletişime geçin."
+  ],
+  "technician": "Ped servis tarafından değiştirilmesi gerektiğinden yakında Epson ile iletişime geçin."
+ },
+ "Epson|Borderless ink pad at end of life": {
+  "title": "Kenarlıksız baskı mürekkep pedi aşınmış",
+  "causes": [
+   "Kenarlıksız baskıda kullanılan ped dolu.",
+   "Epson, kullanıcı tarafından değiştirilemediğini belirtiyor."
+  ],
+  "steps": [
+   "Cihazı kapatın.",
+   "Epson desteğiyle iletişime geçin.",
+   "Tarama ve mürekkep kullanmayan diğer işlemler hâlâ çalışabilir."
+  ],
+  "technician": "Kenarlıksız baskı mürekkep pedini değiştirtmek için Epson ile iletişime geçin."
+ },
+ "Epson|E-01": {
+  "title": "Yazıcı hatası",
+  "causes": [
+   "Yazıcıda genel bir arıza var.",
+   "İçeride kâğıt sıkışması buna neden olabilir."
+  ],
+  "steps": [
+   "Cihazı kapatıp açın.",
+   "İçeride kâğıt sıkışması olup olmadığını kontrol edin ve kâğıtları çıkarın.",
+   "Yeniden açın."
+  ],
+  "technician": "Hata geri gelirse ve sıkışma yoksa Epson ile iletişime geçin."
+ },
+ "Epson|E-02": {
+  "title": "Tarayıcı hatası",
+  "causes": [
+   "Tarayıcı bölümünde bir arıza var."
+  ],
+  "steps": [
+   "Cihazı kapatıp açın.",
+   "Tarayıcı kapağının kapalı olduğunu kontrol edin.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın."
+  ],
+  "technician": "Hata geri gelirse Epson ile iletişime geçin."
+ },
+ "Epson|E-12": {
+  "title": "Kenarlıksız baskı mürekkep pedinin değiştirilmesi gerekiyor",
+  "causes": [
+   "Kenarlıksız baskı mürekkep pedi dolu."
+  ],
+  "steps": [
+   "Kendiniz değiştiremeyeceğiniz için Epson ile iletişime geçin.",
+   "Kenarlıklı yazdırmaya devam edebilirsiniz.",
+   "Kartuşları kenarlarından tutun ve kontaklara veya memelere dokunmayın."
+  ],
+  "technician": "Pedi değiştirtmek için Epson ile iletişime geçin."
+ },
+ "Epson|W-14": {
+  "title": "Kenarlıksız baskı mürekkep pedi neredeyse dolu",
+  "causes": [
+   "Kenarlıksız baskı mürekkep pedi ömrünün sonuna yaklaşıyor."
+  ],
+  "steps": [
+   "Yazdırmaya devam etmek için başlat düğmesine basın.",
+   "Değişim planlamak için Epson ile iletişime geçin.",
+   "Uyarı, ped değiştirilene kadar sürer."
+  ],
+  "technician": "Ped değişimi için Epson ile iletişime geçin."
+ },
+ "Epson|W-01": {
+  "title": "Kâğıt sıkışması",
+  "causes": [
+   "Cihazın içinde kâğıt sıkıştı."
+  ],
+  "steps": [
+   "Sıkışan kâğıdı dikkatlice çıkarın.",
+   "Hatayı gidermek için ekranda gösterilen düğmeye basın.",
+   "Devam ederse cihazı kapatıp açın."
+  ],
+  "technician": "Sıkışmalar tekrar tekrar oluyorsa Epson ile iletişime geçin."
+ },
+ "Epson|W-12": {
+  "title": "Mürekkep kartuşu düzgün oturmamış",
+  "causes": [
+   "Bir mürekkep kartuşu tam itilmemiş."
+  ],
+  "steps": [
+   "Her mürekkep kartuşuna klik sesi gelene kadar bastırın.",
+   "Tüm kartuşların eşit oturduğunu kontrol edin.",
+   "Kartuşları kenarlarından tutun ve kontaklara veya memelere dokunmayın."
+  ],
+  "technician": "Yeniden taktıktan sonra mesaj sürerse Epson ile iletişime geçin."
+ },
+ "Epson|W-13": {
+  "title": "Mürekkep kartuşu tanınmadı",
+  "causes": [
+   "Kartuş yazıcı tarafından tanınmıyor."
+  ],
+  "steps": [
+   "Orijinal Epson kartuşları taktığınızdan emin olun.",
+   "Kartuşu çıkarıp yeniden takın.",
+   "Kartuşları kenarlarından tutun ve kontaklara veya memelere dokunmayın."
+  ],
+  "technician": "Orijinal kartuşlar tanınmıyorsa Epson ile iletişime geçin."
+ },
+ "Epson|Printer error. Turn on the printer again": {
+  "title": "Ölümcül yazıcı hatası",
+  "causes": [
+   "Yazıcıda ciddi bir hata oluştu."
+  ],
+  "steps": [
+   "Cihazı kapatın, ardından açın.",
+   "İçeride kâğıt sıkışması veya koruyucu malzeme olup olmadığını kontrol edin.",
+   "Bulduklarınızı çıkarın.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın."
+  ],
+  "technician": "Mesaj geri gelirse ve sıkışma yoksa Epson ile iletişime geçin."
+ },
+ "Epson|Recovery mode": {
+  "title": "Yazılım güncellemesi başarısız oldu",
+  "causes": [
+   "Bir yazılım (firmware) güncellemesi tamamlanmadı."
+  ],
+  "steps": [
+   "Cihazı bilgisayara USB kablosuyla bağlayın.",
+   "Yazılım güncellemesini yeniden çalıştırın.",
+   "Kapağın kapanmasını engelleyen kâğıt veya başka bir cisim olmadığını kontrol edin."
+  ],
+  "technician": "Kurtarma modu açık kalırsa Epson ile iletişime geçin."
+ },
+ "Epson|W-10": {
+  "title": "Mürekkep kartuşu boş veya yanlış takılmış",
+  "causes": [
+   "Bir kartuş bitmiş veya doğru takılmamış."
+  ],
+  "steps": [
+   "Boş kartuşu değiştirin.",
+   "Yeni kartuşla da hata sürerse Start düğmesine basarak kartuşların hareket etmesini sağlayın, her birine bastırın, ardından yeniden Start düğmesine basın."
+  ],
+  "technician": "Mesaj sürerse Epson ile iletişime geçin."
+ },
+ "Epson|Print head adjustment canceled": {
+  "title": "Yazıcı kafası sorunu",
+  "causes": [
+   "Yazıcı kafasında bir sorun var."
+  ],
+  "steps": [
+   "Yazıcı kafasını temizleyin.",
+   "İki temizlikten sonra kalite hâlâ kötüyse yazıcıyı en az altı saat kapalı bırakın.",
+   "Meme kontrolü yapın ve gerekirse yeniden temizleyin."
+  ],
+  "technician": "Baskı kalitesi hâlâ kötüyse Epson ile iletişime geçin."
+ },
+ "Brother|Ink Absorber Full": {
+  "title": "Mürekkep emici kutusu dolu",
+  "causes": [
+   "Yoğun temizlik sonrasında mürekkep emicisi veya yıkama kutusu doldu."
+  ],
+  "steps": [
+   "Yoğun temizlik döngülerini durdurun.",
+   "Emiciyi değiştirmek için Brother servisiyle iletişime geçin.",
+   "Değişim garanti kapsamında değildir."
+  ],
+  "technician": "Emici kutusunun değiştirilmesi gerektiğinden Brother müşteri hizmetleriyle iletişime geçin."
+ },
+ "Brother|Absorber NearFull": {
+  "title": "Mürekkep emici kutusu neredeyse dolu",
+  "causes": [
+   "Mürekkep emici kutusu neredeyse dolu."
+  ],
+  "steps": [
+   "Şimdilik yazdırmaya devam edin.",
+   "Brother'dan veya bir bayiden yedek sipariş edin.",
+   "Kartuşları kenarlarından tutun ve kontaklara veya memelere dokunmayın."
+  ],
+  "technician": "Emiciyi değiştirmek için Brother servisiyle iletişime geçin."
+ },
+ "Brother|Cannot Print ##": {
+  "title": "Mekanik arıza veya içeride yabancı cisim",
+  "causes": [
+   "Makinenin içinde mekanik bir sorun veya yabancı bir cisim var."
+  ],
+  "steps": [
+   "İçeride ataş veya yırtılmış kâğıt olup olmadığına bakın.",
+   "Kalıntıları çıkarın.",
+   "Makineyi kapatın, birkaç dakika bekleyin, ardından açın."
+  ],
+  "technician": "Kod geri gelirse Brother ile iletişime geçin."
+ },
+ "Brother|Cannot Clean ##": {
+  "title": "Temizlik sırasında mekanik arıza",
+  "causes": [
+   "İçeride mekanik bir sorun veya yabancı bir cisim var."
+  ],
+  "steps": [
+   "Görebildiğiniz kalıntıları çıkarın.",
+   "Birkaç dakika kapalı tutun, ardından açın.",
+   "Mümkünse önce hafızadaki faksları başka yere aktarın."
+  ],
+  "technician": "Kod geri gelirse Brother ile iletişime geçin."
+ },
+ "Brother|Cannot Scan ##": {
+  "title": "Taramada mekanik arıza",
+  "causes": [
+   "Tarayıcıda mekanik bir sorun var."
+  ],
+  "steps": [
+   "Makineyi birkaç dakika kapalı tutun.",
+   "Yeniden açın.",
+   "Mümkünse önce hafızadaki faksları başka yere aktarın."
+  ],
+  "technician": "Kod geri gelirse Brother ile iletişime geçin."
+ },
+ "Brother|Cannot Detect": {
+  "title": "Mürekkep kartuşu algılanmadı",
+  "causes": [
+   "Kartuş yerine oturmamış.",
+   "Yanlış model takılmış."
+  ],
+  "steps": [
+   "Kartuşu sıkıca itin.",
+   "Doğru model olduğunu kontrol edin.",
+   "Kartuşları kenarlarından tutun ve kontaklara veya memelere dokunmayın."
+  ],
+  "technician": "Mesaj sürerse Brother ile iletişime geçin."
+ },
+ "Brother|No Ink Cartridge": {
+  "title": "Kartuş yerine oturmamış",
+  "causes": [
+   "Kartuş yuvasına oturmamış."
+  ],
+  "steps": [
+   "Kartuşu çıkarın.",
+   "Sıkıca yeniden takın.",
+   "Kartuşları kenarlarından tutun ve kontaklara veya memelere dokunmayın."
+  ],
+  "technician": "Mesaj sürerse Brother ile iletişime geçin."
+ },
+ "Brother|Wrong Ink Cartridge": {
+  "title": "Uyumsuz mürekkep kartuşu",
+  "causes": [
+   "Kartuş modeli bu makineye uymuyor."
+  ],
+  "steps": [
+   "Model numarasını makinenizle karşılaştırın.",
+   "Doğru bir kartuş takın.",
+   "Kartuşları kenarlarından tutun ve kontaklara veya memelere dokunmayın."
+  ],
+  "technician": "Doğru kartuş reddediliyorsa Brother ile iletişime geçin."
+ },
+ "Brother|Wrong Ink Colour": {
+  "title": "Kartuş yanlış yuvada",
+  "causes": [
+   "Bir kartuş yanlış renk konumunda duruyor."
+  ],
+  "steps": [
+   "Her kartuşu aynı renkteki yuvaya taşıyın.",
+   "Kartuşları kenarlarından tutun ve kontaklara veya memelere dokunmayın."
+  ],
+  "technician": "Mesaj sürerse Brother ile iletişime geçin."
+ },
+ "Brother|Replace Ink": {
+  "title": "Kartuş boş",
+  "causes": [
+   "Bir veya daha fazla kartuş boş."
+  ],
+  "steps": [
+   "Boş kartuşları değiştirin.",
+   "Tarama hâlâ çalışır.",
+   "Kartuşları kenarlarından tutun ve kontaklara veya memelere dokunmayın."
+  ],
+  "technician": "Değiştirdikten sonra mesaj sürerse Brother ile iletişime geçin."
+ },
+ "Brother|Ink Low": {
+  "title": "Kartuşta mürekkep azalıyor",
+  "causes": [
+   "Mürekkep azalıyor."
+  ],
+  "steps": [
+   "Yeni bir kartuş hazırlayın.",
+   "Replace Ink mesajı görünene kadar yazdırma devam eder.",
+   "Kartuşları kenarlarından tutun ve kontaklara veya memelere dokunmayın."
+  ],
+  "technician": "Uyarı dolu kartuşla da görünüyorsa Brother ile iletişime geçin."
+ },
+ "Brother|B&W Print Only": {
+  "title": "Renkli kartuş boş",
+  "causes": [
+   "Bir veya daha fazla renkli kartuş boş."
+  ],
+  "steps": [
+   "Renkli kartuşları değiştirin.",
+   "Siyah-beyaz yazdırma yaklaşık dört hafta çalışır.",
+   "Kartuşları kenarlarından tutun ve kontaklara veya memelere dokunmayın."
+  ],
+  "technician": "Değiştirdikten sonra mesaj sürerse Brother ile iletişime geçin."
+ },
+ "Brother|Jam Front": {
+  "title": "Kâğıt ön tarafta sıkıştı",
+  "causes": [
+   "Kâğıt makinenin ön tarafında sıkıştı."
+  ],
+  "steps": [
+   "Sıkışan kâğıdı çıkarın.",
+   "Kılavuzları kontrol edin.",
+   "A5 veya daha küçük kâğıtlar için tepsiyi uzatmayın.",
+   "İçeri uzanmadan önce yazıcıyı kapatın ve kâğıdı yırtılmaması için yavaşça çekin."
+  ],
+  "technician": "Sıkışmalar sürekli oluyorsa Brother ile iletişime geçin."
+ },
+ "Brother|Jam Rear": {
+  "title": "Kâğıt arka tarafta sıkıştı",
+  "causes": [
+   "Kâğıt arka tarafta sıkıştı veya besleme makaraları tozlu."
+  ],
+  "steps": [
+   "Kâğıdı çıkarın.",
+   "Besleme makaralarını temizleyin.",
+   "Kılavuzları kontrol edin.",
+   "İçeri uzanmadan önce yazıcıyı kapatın ve kâğıdı yırtılmaması için yavaşça çekin."
+  ],
+  "technician": "Sıkışmalar sürekli oluyorsa Brother ile iletişime geçin."
+ },
+ "Brother|No Paper Fed": {
+  "title": "Kâğıt alınmıyor",
+  "causes": [
+   "Tepsi boş veya yanlış yüklenmiş.",
+   "Besleme makaraları tozlu."
+  ],
+  "steps": [
+   "Tepsiyi yeniden doldurun.",
+   "Jam Clear Cover kapağını kapatın.",
+   "Makaraları temizleyin.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın."
+  ],
+  "technician": "Kâğıt hâlâ alınmıyorsa Brother ile iletişime geçin."
+ },
+ "Brother|Cover is Open": {
+  "title": "Kapak kapalı değil",
+  "causes": [
+   "Bir kapak kilitli değil.",
+   "Kablo kendi kanalına yerleştirilmemiş."
+  ],
+  "steps": [
+   "Kapakları sıkıca kapatın.",
+   "Kabloyu kanaldan geçirin.",
+   "Kapağın kapanmasını engelleyen kâğıt veya başka bir cisim olmadığını kontrol edin."
+  ],
+  "technician": "Mesaj sürerse Brother ile iletişime geçin."
+ },
+ "Brother|High Temperature": {
+  "title": "Oda çok sıcak",
+  "causes": [
+   "Oda çok sıcak."
+  ],
+  "steps": [
+   "Odayı serinletin.",
+   "Tekrar kullanmadan önce makinenin soğumasını bekleyin.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın.",
+   "Makineyi doğrudan duvar prizine takın ve kablonun sıkıca bağlı olduğunu kontrol edin."
+  ],
+  "technician": "Serin bir odada da mesaj çıkıyorsa Brother ile iletişime geçin."
+ },
+ "Brother|Out of Memory": {
+  "title": "Makine belleği dolu",
+  "causes": [
+   "Makine belleği dolu."
+  ],
+  "steps": [
+   "Diğer işlerin bitmesini bekleyin.",
+   "Hafızadaki faksları yazdırın.",
+   "Taranan sayfalar için kısmi yazdırmayı kullanın.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın."
+  ],
+  "technician": "Mesaj sürerse Brother ile iletişime geçin."
+ },
+ "Brother|Cannot Print Refill": {
+  "title": "Mürekkep tankı azaldı, yazdırma durdu",
+  "causes": [
+   "Bir veya daha fazla tankta mürekkep azaldı."
+  ],
+  "steps": [
+   "Tankı üst çizgiye kadar doldurun.",
+   "Doldurmayı ekranda onaylayın.",
+   "Tarama hâlâ çalışır.",
+   "Kartuşları kenarlarından tutun ve kontaklara veya memelere dokunmayın."
+  ],
+  "technician": "Doldurduktan sonra mesaj sürerse Brother ile iletişime geçin."
+ },
+ "Brother|Drum !": {
+  "title": "Drum ünitesi dikkat gerektiriyor",
+  "causes": [
+   "Drum korona teli kirli.",
+   "Drum veya toner ünitesi yanlış oturmuş."
+  ],
+  "steps": [
+   "Korona telini temizleyin.",
+   "Toner kartuşunu drum ünitesine yeniden oturtun ve geri takın.",
+   "Sorun sürerse drum ünitesini değiştirin."
+  ],
+  "technician": "Drum değiştirildikten sonra mesaj sürerse Brother ile iletişime geçin."
+ },
+ "Brother|Replace Drum": {
+  "title": "Drum ünitesinin ömrü doldu",
+  "causes": [
+   "Drum ünitesi aşınmış.",
+   "Değişimden sonra drum sayacı sıfırlanmamış."
+  ],
+  "steps": [
+   "Drum ünitesini değiştirin.",
+   "Yeni değiştirdiyseniz drum sayacını sıfırlayın.",
+   "Toner ve drum ünitesini dikkatli tutun ve doğrudan ışıktan uzak tutun."
+  ],
+  "technician": "Yeni drum ile de görünüyorsa Brother ile iletişime geçin."
+ },
+ "Brother|Replace Toner": {
+  "title": "Toner kartuşunun ömrü doldu",
+  "causes": [
+   "Toner kartuşu bitti."
+  ],
+  "steps": [
+   "Toner kartuşunu değiştirin.",
+   "Toner ve drum ünitesini dikkatli tutun ve doğrudan ışıktan uzak tutun.",
+   "Tam olarak yazıcı modelinize uygun sarf malzemeleri kullanın."
+  ],
+  "technician": "Yeni kartuşla da görünüyorsa Brother ile iletişime geçin."
+ },
+ "Brother|Toner Low": {
+  "title": "Toner neredeyse bitti",
+  "causes": [
+   "Toner ömrünün sonuna yaklaşıyor."
+  ],
+  "steps": [
+   "Şimdi yeni bir toner kartuşu sipariş edin.",
+   "Yazdırma hâlâ mümkün.",
+   "Toner ve drum ünitesini dikkatli tutun ve doğrudan ışıktan uzak tutun."
+  ],
+  "technician": "Dolu kartuşla da görünüyorsa Brother ile iletişime geçin."
+ },
+ "Brother|No Toner": {
+  "title": "Toner kartuşu algılanmadı",
+  "causes": [
+   "Kartuş doğru takılmamış."
+  ],
+  "steps": [
+   "Drum ve toner ünitesini çıkarın.",
+   "Toneri drum ünitesine yeniden oturtun.",
+   "Üniteyi geri takın. Sorun sürerse toneri değiştirin."
+  ],
+  "technician": "Mesaj sürerse Brother ile iletişime geçin."
+ },
+ "Brother|Cartridge Error": {
+  "title": "Toner kartuşu doğru takılmamış",
+  "causes": [
+   "Toner kartuşu doğru takılmamış."
+  ],
+  "steps": [
+   "Üniteyi çıkarın.",
+   "Toner kartuşunu drum ünitesine yeniden oturtun.",
+   "Üniteyi geri takın.",
+   "Toner ve drum ünitesini dikkatli tutun ve doğrudan ışıktan uzak tutun."
+  ],
+  "technician": "Mesaj sürerse Brother ile iletişime geçin."
+ },
+ "Brother|Self-Diagnostic": {
+  "title": "Fırın (fuser) ünitesi sorunu",
+  "causes": [
+   "Fuser çalışmıyor veya aşırı ısınmış."
+  ],
+  "steps": [
+   "Makineyi kapatın, birkaç saniye bekleyin, ardından açın.",
+   "Açık ve boşta 15 dakika bekletin.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın."
+  ],
+  "technician": "Geri gelirse Brother ile iletişime geçin."
+ },
+ "Brother|Cooling Down": {
+  "title": "Makine çok sıcak, yazdırma duraklatıldı",
+  "causes": [
+   "Dahili sıcaklık çok yüksek."
+  ],
+  "steps": [
+   "Makinenin soğumasını bekleyin.",
+   "Tıkalı havalandırma deliklerini açın.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın."
+  ],
+  "technician": "Sürekli oluyorsa Brother ile iletişime geçin."
+ },
+ "HP|E0": {
+  "title": "Kartuş sorunu",
+  "causes": [
+   "Yanıp sönen mürekkep simgesinin altındaki kartuşta arıza var."
+  ],
+  "steps": [
+   "HP uygulamasındaki veya yazılımdaki mesajı kontrol edin.",
+   "Kartuşu yeniden oturtun ve varsa bandı çıkarın.",
+   "Kontakları temizleyin veya kartuşu değiştirin."
+  ],
+  "technician": "Yeni kartuşla da kod sürerse HP ile iletişime geçin."
+ },
+ "HP|E1": {
+  "title": "Kâğıt boyutu uyuşmazlığı",
+  "causes": [
+   "Yüklenen kâğıt yazdırma işiyle uyuşmuyor."
+  ],
+  "steps": [
+   "Yine de yazdırmak için Resume düğmesine, vazgeçmek için Cancel düğmesine basın.",
+   "Uygun kâğıt yükleyin veya kâğıt boyutu ayarını değiştirin.",
+   "Tekrar yazdırın."
+  ],
+  "technician": "Uygun kâğıtla da kod sürerse HP ile iletişime geçin."
+ },
+ "HP|E2": {
+  "title": "Kâğıt uzunluğu uyuşmazlığı",
+  "causes": [
+   "Kâğıt uzunluğu işle uyuşmuyor."
+  ],
+  "steps": [
+   "Yine de devam etmek için Resume düğmesine, vazgeçmek için Cancel düğmesine basın.",
+   "Uygun kâğıt yükleyin veya ayarı değiştirin.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın."
+  ],
+  "technician": "Kod sürerse HP ile iletişime geçin."
+ },
+ "HP|E3": {
+  "title": "Taşıyıcı takıldı veya sıkıştı",
+  "causes": [
+   "Yazdırma taşıyıcısı hareket edemiyor.",
+   "Kâğıt veya bir cisim engelliyor olabilir."
+  ],
+  "steps": [
+   "Mürekkep erişim kapağını açın.",
+   "Yazıcı kafası kapağının kapalı olduğundan ve taşıyıcıyı hiçbir şeyin engellemediğinden emin olun.",
+   "Kâğıdı veya cisimleri çıkarın, kapağı kapatın, ardından Resume veya Cancel düğmesine basın."
+  ],
+  "technician": "E3 hatası sürerse HP ile iletişime geçin."
+ },
+ "HP|E4": {
+  "title": "Kâğıt sıkışması",
+  "causes": [
+   "Yazıcının içinde kâğıt sıkıştı."
+  ],
+  "steps": [
+   "Sıkışmayı etkilenen bölgeden giderin.",
+   "Resume düğmesine basın.",
+   "Yazıcı kafası kapağını açmayın.",
+   "İçeri uzanmadan önce yazıcıyı kapatın ve kâğıdı yırtılmaması için yavaşça çekin."
+  ],
+  "technician": "Sıkışmalar sürekli oluyorsa HP ile iletişime geçin."
+ },
+ "HP|E5": {
+  "title": "Tarayıcı çalışmıyor",
+  "causes": [
+   "Tarayıcıda bir arıza var."
+  ],
+  "steps": [
+   "Cancel düğmesine basın ve taramayı yeniden deneyin.",
+   "Yazıcıyı kapatıp açın.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın."
+  ],
+  "technician": "Sorun sürerse HP ile iletişime geçin. Yazdırma hâlâ çalışır."
+ },
+ "HP|E6": {
+  "title": "Yazıcı hata durumunda",
+  "causes": [
+   "Yazıcı hata durumunda."
+  ],
+  "steps": [
+   "Yazıcıyı kapatın.",
+   "Güç kablosunu çekin ve bir dakika bekleyin.",
+   "Fişi takın ve yazıcıyı açın.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın."
+  ],
+  "technician": "Sorun sürerse HP ile iletişime geçin."
+ },
+ "HP|E7": {
+  "title": "Mürekkep tankı boş",
+  "causes": [
+   "Bir veya daha fazla mürekkep tankında mürekkep bitti."
+  ],
+  "steps": [
+   "Belirtilen tankı doldurun.",
+   "Kartuşları kenarlarından tutun ve kontaklara veya memelere dokunmayın.",
+   "Tam olarak yazıcı modelinize uygun kartuşlar kullanın."
+  ],
+  "technician": "Doldurduktan sonra kod sürerse HP ile iletişime geçin."
+ },
+ "HP|E8": {
+  "title": "Ölümcül hata",
+  "causes": [
+   "Yazıcı ölümcül bir hata bildiriyor."
+  ],
+  "steps": [
+   "Yazıcıyı kapatıp açın.",
+   "Hiçbir şeyin engellemediğini kontrol edin.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın."
+  ],
+  "technician": "Sorun sürerse HP ile iletişime geçin."
+ },
+ "HP|E9": {
+  "title": "Yazılım güncelleme hatası",
+  "causes": [
+   "Bir yazılım (firmware) güncellemesi başarısız oldu."
+  ],
+  "steps": [
+   "Yazıcıyı kapatıp açın.",
+   "Güncellemeyi tekrar deneyin.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın.",
+   "Makineyi doğrudan duvar prizine takın ve kablonun sıkıca bağlı olduğunu kontrol edin."
+  ],
+  "technician": "Sorun sürerse HP ile iletişime geçin."
+ },
+ "HP|Printhead problem": {
+  "title": "Yazıcı kafası yok veya arızalı",
+  "causes": [
+   "Bir yazıcı kafası yok, yanlış takılmış veya hasarlı.",
+   "Üzerinde hâlâ turuncu tıpa veya bant olabilir."
+  ],
+  "steps": [
+   "Eksik olan yazıcı kafasını takın.",
+   "Belirtilen kafayı çıkarın, tıpa veya bant olup olmadığına bakın ve yeniden takın.",
+   "Doğru HP yazıcı kafalarını kullanın. Talimat verilmedikçe kapağı açmayın."
+  ],
+  "technician": "Yazıcı kafası hatası sürerse HP ile iletişime geçin."
+ },
+ "HP|49 Error": {
+  "title": "Dahili ürün hatası",
+  "causes": [
+   "Yazıcıda dahili bir hata var."
+  ],
+  "steps": [
+   "Kapatın ve 30 saniye bekleyin.",
+   "Doğrudan duvar prizine takın; akım koruyucuya takmayın.",
+   "Açın.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın."
+  ],
+  "technician": "Sorun sürerse HP desteğiyle iletişime geçin."
+ },
+ "HP|50.x Fuser Error": {
+  "title": "Fuser sorunu",
+  "causes": [
+   "Fuser'da bir sorun var."
+  ],
+  "steps": [
+   "Kapatın, 30 saniye bekleyin, ardından açın.",
+   "Sorun sürerse 25 dakika kapalı bırakın.",
+   "Akım koruyucu kullanmayın.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın."
+  ],
+  "technician": "Sorun sürerse HP desteğiyle iletişime geçin."
+ },
+ "HP|79 Error": {
+  "title": "Dahili yazılım (firmware) hatası",
+  "causes": [
+   "Dahili bir yazılım hatası."
+  ],
+  "steps": [
+   "Kapatıp açın.",
+   "Doğrudan duvar prizine takın.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın.",
+   "Makineyi doğrudan duvar prizine takın ve kablonun sıkıca bağlı olduğunu kontrol edin."
+  ],
+  "technician": "Sorun sürerse HP desteğiyle iletişime geçin."
+ },
+ "Samsung|Fuser failure": {
+  "title": "Fuser arızası",
+  "causes": [
+   "Fuser'da bir arıza var."
+  ],
+  "steps": [
+   "Kapatıp açın.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın.",
+   "Makineyi doğrudan duvar prizine takın ve kablonun sıkıca bağlı olduğunu kontrol edin."
+  ],
+  "technician": "Sorun sürerse servisi arayın."
+ },
+ "Samsung|Engine system failure": {
+  "title": "Motor ünitesi arızası",
+  "causes": [
+   "Motor ünitesinde bir arıza var."
+  ],
+  "steps": [
+   "Güç kablosunu çekip tekrar takın.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın.",
+   "Makineyi doğrudan duvar prizine takın ve kablonun sıkıca bağlı olduğunu kontrol edin."
+  ],
+  "technician": "Sorun sürerse servisi arayın."
+ },
+ "Samsung|Motor failure": {
+  "title": "Motor arızası",
+  "causes": [
+   "Bir motor arızası."
+  ],
+  "steps": [
+   "Kapatıp açın.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın.",
+   "Makineyi doğrudan duvar prizine takın ve kablonun sıkıca bağlı olduğunu kontrol edin."
+  ],
+  "technician": "Sorun sürerse servisi arayın."
+ },
+ "Samsung|LSU failure": {
+  "title": "Lazer tarama ünitesi arızası",
+  "causes": [
+   "Lazer tarama ünitesinde bir arıza var."
+  ],
+  "steps": [
+   "Kapatıp açın.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın.",
+   "Makineyi doğrudan duvar prizine takın ve kablonun sıkıca bağlı olduğunu kontrol edin."
+  ],
+  "technician": "Sorun sürerse servisi arayın."
+ },
+ "Samsung|Fan failure": {
+  "title": "Fan arızası",
+  "causes": [
+   "Bir fan arızası."
+  ],
+  "steps": [
+   "Kapatıp açın.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın.",
+   "Makineyi doğrudan duvar prizine takın ve kablonun sıkıca bağlı olduğunu kontrol edin."
+  ],
+  "technician": "Sorun sürerse servisi arayın."
+ },
+ "Samsung|Replace new toner": {
+  "title": "Toner kartuşunun ömrü doldu",
+  "causes": [
+   "Toner bitti."
+  ],
+  "steps": [
+   "Orijinal bir Samsung kartuşu takın.",
+   "Toner ve drum ünitesini dikkatli tutun ve doğrudan ışıktan uzak tutun.",
+   "Tam olarak yazıcı modelinize uygun sarf malzemeleri kullanın."
+  ],
+  "technician": "Sorun sürerse servisi arayın."
+ },
+ "Samsung|Toner cartridge failure": {
+  "title": "Toner kartuşu arızası",
+  "causes": [
+   "Kartuş yerine oturmamış."
+  ],
+  "steps": [
+   "Yeniden takın.",
+   "Sorun sürerse kapatıp açın.",
+   "Toner ve drum ünitesini dikkatli tutun ve doğrudan ışıktan uzak tutun.",
+   "Tam olarak yazıcı modelinize uygun sarf malzemeleri kullanın."
+  ],
+  "technician": "Sorun sürerse servisi arayın."
+ },
+ "Samsung|Toner not installed": {
+  "title": "Toner yok",
+  "causes": [
+   "Toner takılı değil."
+  ],
+  "steps": [
+   "Toner kartuşunu yeniden takın.",
+   "Toner ve drum ünitesini dikkatli tutun ve doğrudan ışıktan uzak tutun.",
+   "Tam olarak yazıcı modelinize uygun sarf malzemeleri kullanın."
+  ],
+  "technician": "Sorun sürerse servisi arayın."
+ },
+ "Samsung|Remove seal tape": {
+  "title": "Kartuşta mühür bandı var",
+  "causes": [
+   "Kartuşun üzerinde hâlâ mühür bandı var."
+  ],
+  "steps": [
+   "Çıkarın veya kartuşu sallayın.",
+   "Toner ve drum ünitesini dikkatli tutun ve doğrudan ışıktan uzak tutun.",
+   "Tam olarak yazıcı modelinize uygun sarf malzemeleri kullanın."
+  ],
+  "technician": "Sorun sürerse servisi arayın."
+ },
+ "Samsung|Jam inside of machine": {
+  "title": "İçeride kâğıt sıkışması",
+  "causes": [
+   "İçeride kâğıt sıkıştı."
+  ],
+  "steps": [
+   "Makinenin içini temizleyin.",
+   "İçeri uzanmadan önce yazıcıyı kapatın ve kâğıdı yırtılmaması için yavaşça çekin."
+  ],
+  "technician": "Sıkışmalar tekrar ederse servisi arayın."
+ },
+ "Samsung|Front door is open": {
+  "title": "Kapak açık",
+  "causes": [
+   "Bir kapak kilitlenmemiş."
+  ],
+  "steps": [
+   "Kilitlenene kadar kapatın.",
+   "Kapağın kapanmasını engelleyen kâğıt veya başka bir cisim olmadığını kontrol edin.",
+   "Kapağı kilitlenme sesini duyana kadar bastırın."
+  ],
+  "technician": "Sorun sürerse servisi arayın."
+ },
+ "Samsung|Output bin is full": {
+  "title": "Çıkış tepsisi dolu",
+  "causes": [
+   "Çıkış tepsisi dolu."
+  ],
+  "steps": [
+   "Basılan kâğıtları alın.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın.",
+   "Makineyi doğrudan duvar prizine takın ve kablonun sıkıca bağlı olduğunu kontrol edin."
+  ],
+  "technician": "Sorun sürerse servisi arayın."
+ },
+ "Kyocera|Check toner/Low toner": {
+  "title": "Toner az veya algılanmıyor",
+  "causes": [
+   "Toner azalmış veya yazıcı algılayamıyor.",
+   "Toner orijinal olmayabilir veya yanlış oturmuş olabilir."
+  ],
+  "steps": [
+   "Tonerin orijinal Kyocera olduğunu kontrol edin.",
+   "Toner haznesini çıkarın, sallayın ve geri takın.",
+   "Üst kapağı tamamen kapatın."
+  ],
+  "technician": "Yeni tonerle de mesaj sürerse Kyocera servisiyle iletişime geçin."
+ },
+ "Kyocera|Paper jam at Cassette": {
+  "title": "Kâğıt kaset 1'de sıkıştı",
+  "causes": [
+   "Kâğıt kaset 1'de sıkıştı."
+  ],
+  "steps": [
+   "Kaset 1'i dışarı çekin.",
+   "Sıkışan kâğıdı çıkarın.",
+   "Kaseti sonuna kadar geri itin.",
+   "İçeri uzanmadan önce yazıcıyı kapatın ve kâğıdı yırtılmaması için yavaşça çekin."
+  ],
+  "technician": "Sıkışmalar tekrar ederse Kyocera servisiyle iletişime geçin."
+ },
+ "Kyocera|Paper jam at Rear Cover": {
+  "title": "Kâğıt arka kapağın arkasında sıkıştı",
+  "causes": [
+   "Kâğıt arka kapak 1'in arkasında sıkıştı."
+  ],
+  "steps": [
+   "Arka kapak 1'i ve iç kapağı açın.",
+   "Kâğıdı çıkarın.",
+   "Kapakları kapatın.",
+   "İçeri uzanmadan önce yazıcıyı kapatın ve kâğıdı yırtılmaması için yavaşça çekin."
+  ],
+  "technician": "Sıkışmalar tekrar ederse Kyocera servisiyle iletişime geçin."
+ },
+ "Kyocera|Paper jam inside machine": {
+  "title": "Kâğıt yazıcının içinde sıkıştı",
+  "causes": [
+   "Kâğıt içeride sıkıştı."
+  ],
+  "steps": [
+   "Ön kapağı açın.",
+   "Developer ve drum ünitelerini çıkarın ve besleme kapağındaki kâğıdı temizleyin.",
+   "Üniteleri geri takın. Sıcak fuser'a dokunmayın."
+  ],
+  "technician": "Sıkışmalar tekrar ederse Kyocera servisiyle iletişime geçin."
+ },
+ "Kyocera|Paper jam at MP Tray": {
+  "title": "Kâğıt çok amaçlı tepside sıkıştı",
+  "causes": [
+   "Kâğıt MP tepsisinde sıkıştı."
+  ],
+  "steps": [
+   "Tepsideki tüm kâğıtları çıkarın.",
+   "Sıkışan sayfaları atın.",
+   "Kâğıdı yeniden yükleyin.",
+   "İçeri uzanmadan önce yazıcıyı kapatın ve kâğıdı yırtılmaması için yavaşça çekin."
+  ],
+  "technician": "Sıkışmalar tekrar ederse Kyocera servisiyle iletişime geçin."
+ },
+ "Kyocera|Call service": {
+  "title": "Yazıcının teknisyene ihtiyacı var",
+  "causes": [
+   "Yazıcı kendi kendine gideremediği bir arıza tespit etti.",
+   "Kaset kaldırma hatası tekrarlanırsa da görünür."
+  ],
+  "steps": [
+   "Yazıcıyı kapatın ve fişini çekin.",
+   "Düzelip düzelmediğini görmek için fişi takıp açın.",
+   "Düzelmezse kapatın, fişini çekin ve servisle iletişime geçin."
+  ],
+  "technician": "Yetkili bir Kyocera servis merkeziyle iletişime geçin."
+ },
+ "Kyocera|Close top cover": {
+  "title": "Üst kapak açık",
+  "causes": [
+   "Üst kapak kapalı değil."
+  ],
+  "steps": [
+   "Üst kapağı sıkıca kapatın.",
+   "Kapağın kapanmasını engelleyen kâğıt veya başka bir cisim olmadığını kontrol edin.",
+   "Kapağı kilitlenme sesini duyana kadar bastırın."
+  ],
+  "technician": "Kapak kapalıyken de sürerse Kyocera servisiyle iletişime geçin."
+ },
+ "Kyocera|Check the toner container": {
+  "title": "Toner haznesi doğru takılmamış",
+  "causes": [
+   "Toner haznesi doğru takılmamış."
+  ],
+  "steps": [
+   "Üst kapağı açın.",
+   "Toner haznesini doğru şekilde yeniden takın.",
+   "Toner ve drum ünitesini dikkatli tutun ve doğrudan ışıktan uzak tutun."
+  ],
+  "technician": "Sorun sürerse Kyocera servisiyle iletişime geçin."
+ },
+ "Kyocera|Check waste toner box": {
+  "title": "Atık toner kutusu yok veya dolu",
+  "causes": [
+   "Atık toner kutusu takılı değil veya dolu."
+  ],
+  "steps": [
+   "Yeni bir atık toner kutusu takın.",
+   "Toner ve drum ünitesini dikkatli tutun ve doğrudan ışıktan uzak tutun."
+  ],
+  "technician": "Sorun sürerse Kyocera servisiyle iletişime geçin."
+ },
+ "Kyocera|Add paper MPTray": {
+  "title": "Kâğıt kaynağı boş",
+  "causes": [
+   "Gösterilen kâğıt kaynağında kâğıt bitti."
+  ],
+  "steps": [
+   "Gösterilen kaynağa kâğıt yükleyin.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın.",
+   "Makineyi doğrudan duvar prizine takın ve kablonun sıkıca bağlı olduğunu kontrol edin."
+  ],
+  "technician": "Sorun sürerse Kyocera servisiyle iletişime geçin."
+ },
+ "Xerox|Red status LED on (major error)": {
+  "title": "Makine büyük bir hata nedeniyle durdu",
+  "causes": [
+   "Makine büyük bir hata nedeniyle durdu."
+  ],
+  "steps": [
+   "Makineyi yeniden başlatın.",
+   "İşi yeniden deneyin.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın.",
+   "Makineyi doğrudan duvar prizine takın ve kablonun sıkıca bağlı olduğunu kontrol edin."
+  ],
+  "technician": "Sorun sürerse Xerox servisini arayın."
+ },
+ "Xerox|Orange status LED on": {
+  "title": "Kâğıt sıkışması",
+  "causes": [
+   "Kâğıt sıkıştı."
+  ],
+  "steps": [
+   "Sıkışmayı giderin.",
+   "İçeri uzanmadan önce yazıcıyı kapatın ve kâğıdı yırtılmaması için yavaşça çekin.",
+   "Kâğıt kılavuzlarını kontrol edin ve doğru boyut ve gramajda kâğıt kullanın."
+  ],
+  "technician": "Sıkışmalar tekrar ederse Xerox servisini arayın."
+ },
+ "Xerox|Red status LED on (cover open)": {
+  "title": "Kapak açık",
+  "causes": [
+   "Bir kapak açık.",
+   "Destekle iletişime geçmeden önce görünen ifadeyi veya kodu aynen not edin."
+  ],
+  "steps": [
+   "Kapağı kapatın.",
+   "Kapağın kapanmasını engelleyen kâğıt veya başka bir cisim olmadığını kontrol edin.",
+   "Kapağı kilitlenme sesini duyana kadar bastırın."
+  ],
+  "technician": "Sorun sürerse Xerox servisini arayın."
+ },
+ "Xerox|Toner LED blinking orange": {
+  "title": "Toner az",
+  "causes": [
+   "Toner az."
+  ],
+  "steps": [
+   "Yeni bir kartuş hazırlayın.",
+   "Şimdilik kaliteyi artırmak için toneri yeniden dağıtın.",
+   "Toner ve drum ünitesini dikkatli tutun ve doğrudan ışıktan uzak tutun."
+  ],
+  "technician": "Sorun sürerse Xerox servisini arayın."
+ },
+ "Xerox|010-351": {
+  "title": "Fuser arızası",
+  "causes": [
+   "Phaser 6500'de fuser arızası."
+  ],
+  "steps": [
+   "Tonerin orijinal Xerox olduğunu kontrol edin.",
+   "Kapatıp açın: 10 saniye kapalı bırakıp ardından açın.",
+   "Cihazı kapatın, yaklaşık bir dakika bekleyin, ardından yeniden açın."
+  ],
+  "technician": "Arıza sürerse Xerox servisini arayın."
+ }
+}

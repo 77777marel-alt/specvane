@@ -1,0 +1,654 @@
+{
+ "Roku|Error 009": {
+  "title": "Conectada ao roteador, mas sem internet",
+  "causes": [
+   "O roteador está acessível, mas sem internet.",
+   "O serviço de internet está fora do ar."
+  ],
+  "steps": [
+   "Verifique se um celular ou notebook consegue acessar a internet na mesma rede.",
+   "Se nada estiver online, ligue para o seu provedor de internet.",
+   "Se os outros aparelhos funcionarem, reinicie a TV.",
+   "Reinicie o roteador e o modem e conecte novamente."
+  ],
+  "technician": "Se o erro continuar voltando depois dessas etapas, entre em contato com o suporte da Roku ou com o seu provedor de internet."
+ },
+ "Roku|Error 012": {
+  "title": "Problema na conexão de rede cabeada",
+  "causes": [
+   "O cabo Ethernet está solto ou com defeito.",
+   "A porta do roteador não está funcionando."
+  ],
+  "steps": [
+   "Encaixe bem o cabo Ethernet na TV e no roteador.",
+   "Teste outro cabo ou outra porta do roteador.",
+   "Reinicie a TV e depois o roteador e o modem.",
+   "Teste o Wi-Fi rapidamente para ver se a internet em si está funcionando."
+  ],
+  "technician": "Se o erro continuar voltando depois dessas etapas, entre em contato com o suporte da Roku ou com o seu provedor de internet."
+ },
+ "Roku|Error 013": {
+  "title": "Conexão cabeada sem acesso à internet",
+  "causes": [
+   "O roteador está sem internet.",
+   "O cabo Ethernet não está bem encaixado."
+  ],
+  "steps": [
+   "Verifique se outro aparelho está online.",
+   "Se estiver, reinicie a TV.",
+   "Se não estiver, desconecte e conecte o cabo Ethernet nas duas pontas.",
+   "Reinicie o roteador antes de ligar para o seu provedor."
+  ],
+  "technician": "Se o erro continuar voltando depois dessas etapas, entre em contato com o suporte da Roku ou com o seu provedor de internet."
+ },
+ "Roku|Error 014": {
+  "title": "Não foi possível conectar à rede sem fio",
+  "causes": [
+   "Nome de rede errado selecionado.",
+   "Senha digitada incorretamente.",
+   "O roteador ou a TV precisa ser reiniciado."
+  ],
+  "steps": [
+   "Verifique se você escolheu o nome de rede correto.",
+   "Digite a senha novamente; ela diferencia maiúsculas de minúsculas.",
+   "Reinicie a TV e o roteador.",
+   "Tente conectar novamente."
+  ],
+  "technician": "Se o erro continuar voltando depois dessas etapas, entre em contato com o suporte da Roku ou com o seu provedor de internet."
+ },
+ "Roku|Error 014.20": {
+  "title": "Sinal de Wi-Fi fraco impede a conexão",
+  "causes": [
+   "A TV está longe demais do roteador.",
+   "Paredes ou objetos enfraquecem o sinal."
+  ],
+  "steps": [
+   "Aproxime a TV ou o roteador, ou coloque o roteador em um lugar mais alto.",
+   "Reinicie o roteador e a TV.",
+   "Se o roteador tiver duas bandas, tente a outra.",
+   "Conecte-se novamente à rede."
+  ],
+  "technician": "Se o erro continuar voltando depois dessas etapas, entre em contato com o suporte da Roku ou com o seu provedor de internet."
+ },
+ "Roku|Error 014.30": {
+  "title": "Falha na conexão Wi-Fi, sinal fraco",
+  "causes": [
+   "Sinal de Wi-Fi fraco.",
+   "Falha temporária no roteador ou na TV."
+  ],
+  "steps": [
+   "Reinicie o roteador e a TV.",
+   "Aproxime a TV do roteador.",
+   "Conecte-se novamente ao Wi-Fi.",
+   "Se disponível, tente a outra banda do roteador."
+  ],
+  "technician": "Se o erro continuar voltando depois dessas etapas, entre em contato com o suporte da Roku ou com o seu provedor de internet."
+ },
+ "Roku|Error 014.40": {
+  "title": "Senha incorreta ou restrição do roteador",
+  "causes": [
+   "A senha do Wi-Fi foi digitada incorretamente.",
+   "O roteador bloqueia dispositivos desconhecidos."
+  ],
+  "steps": [
+   "Verifique o nome da rede e digite a senha novamente.",
+   "Se o roteador filtra dispositivos, adicione o endereço MAC sem fio da TV.",
+   "Reinicie a TV e o roteador.",
+   "Tente novamente."
+  ],
+  "technician": "Se o erro continuar voltando depois dessas etapas, entre em contato com o suporte da Roku ou com o seu provedor de internet."
+ },
+ "Roku|Error 014.41": {
+  "title": "Senha incorreta ou restrição do roteador",
+  "causes": [
+   "A senha do Wi-Fi foi digitada incorretamente.",
+   "O roteador bloqueia dispositivos desconhecidos."
+  ],
+  "steps": [
+   "Verifique o nome da rede e digite a senha novamente com atenção.",
+   "Se o roteador filtra dispositivos, libere o endereço MAC sem fio da TV.",
+   "Reinicie a TV e o roteador.",
+   "Tente novamente."
+  ],
+  "technician": "Se o erro continuar voltando depois dessas etapas, entre em contato com o suporte da Roku ou com o seu provedor de internet."
+ },
+ "Roku|Error 014.50": {
+  "title": "Falha na conexão Wi-Fi, sinal fraco",
+  "causes": [
+   "Sinal de Wi-Fi fraco.",
+   "Falha temporária no roteador ou na TV."
+  ],
+  "steps": [
+   "Reinicie o roteador e a TV.",
+   "Aproxime a TV do roteador.",
+   "Conecte-se novamente ao Wi-Fi.",
+   "Se disponível, tente a outra banda do roteador."
+  ],
+  "technician": "Se o erro continuar voltando depois dessas etapas, entre em contato com o suporte da Roku ou com o seu provedor de internet."
+ },
+ "Roku|Error 016": {
+  "title": "Conexão perdida ao abrir um canal",
+  "causes": [
+   "A rede caiu enquanto um aplicativo iniciava.",
+   "Sinal de Wi-Fi fraco."
+  ],
+  "steps": [
+   "Escolha Set up connection na tela e siga as instruções.",
+   "Reinicie a TV e o roteador.",
+   "Verifique a intensidade do sinal de Wi-Fi.",
+   "Aproxime a TV e o roteador."
+  ],
+  "technician": "Se o erro continuar voltando depois dessas etapas, entre em contato com o suporte da Roku ou com o seu provedor de internet."
+ },
+ "Roku|Error 017": {
+  "title": "Intensidade do sinal sem fio ruim",
+  "causes": [
+   "Sinal de Wi-Fi fraco na TV.",
+   "Obstáculos entre a TV e o roteador."
+  ],
+  "steps": [
+   "Aproxime a TV e o roteador.",
+   "Retire os obstáculos entre eles.",
+   "Reinicie a TV e o roteador.",
+   "Use um cabo Ethernet se a TV tiver porta para isso."
+  ],
+  "technician": "Se o erro continuar voltando depois dessas etapas, entre em contato com o suporte da Roku ou com o seu provedor de internet."
+ },
+ "Roku|Error 018": {
+  "title": "Velocidade da internet muito baixa",
+  "causes": [
+   "Seu plano ou sua linha de internet é lento.",
+   "Outros aparelhos estão consumindo a banda."
+  ],
+  "steps": [
+   "Pause downloads e transmissões nos outros aparelhos.",
+   "Reinicie o modem e o roteador.",
+   "Pergunte ao seu provedor qual velocidade você recebe.",
+   "Considere um plano mais rápido."
+  ],
+  "technician": "Se o erro continuar voltando depois dessas etapas, entre em contato com o suporte da Roku ou com o seu provedor de internet."
+ },
+ "Roku|Error 14.10": {
+  "title": "Falha na conexão sem fio",
+  "causes": [
+   "Falha temporária de Wi-Fi entre a TV e o roteador."
+  ],
+  "steps": [
+   "Reinicie o roteador e espere ele voltar a ficar online.",
+   "Reinicie a Roku TV.",
+   "Tente conectar à rede novamente.",
+   "Aproxime a TV se o sinal estiver fraco."
+  ],
+  "technician": "Se o erro continuar voltando depois dessas etapas, entre em contato com o suporte da Roku ou com o seu provedor de internet."
+ },
+ "Roku|Error 14.11": {
+  "title": "Falha na conexão sem fio",
+  "causes": [
+   "Falha temporária de Wi-Fi entre a TV e o roteador."
+  ],
+  "steps": [
+   "Reinicie o roteador e espere ele voltar a ficar online.",
+   "Reinicie a Roku TV.",
+   "Tente conectar à rede novamente.",
+   "Aproxime a TV se o sinal estiver fraco."
+  ],
+  "technician": "Se o erro continuar voltando depois dessas etapas, entre em contato com o suporte da Roku ou com o seu provedor de internet."
+ },
+ "Roku|Error 14.62": {
+  "title": "Problema na conexão sem fio, sinal fraco",
+  "causes": [
+   "Sinal de Wi-Fi fraco na TV."
+  ],
+  "steps": [
+   "Veja a intensidade do sinal mostrada na tela.",
+   "Aproxime a TV e o roteador.",
+   "Reinicie o roteador e a TV.",
+   "Conecte-se novamente à rede."
+  ],
+  "technician": "Se o erro continuar voltando depois dessas etapas, entre em contato com o suporte da Roku ou com o seu provedor de internet."
+ },
+ "Roku|Error 14.64": {
+  "title": "Problema na conexão sem fio, sinal fraco",
+  "causes": [
+   "Sinal de Wi-Fi fraco na TV."
+  ],
+  "steps": [
+   "Veja a intensidade do sinal mostrada na tela.",
+   "Aproxime a TV e o roteador.",
+   "Reinicie o roteador e a TV.",
+   "Conecte-se novamente à rede."
+  ],
+  "technician": "Se o erro continuar voltando depois dessas etapas, entre em contato com o suporte da Roku ou com o seu provedor de internet."
+ },
+ "TCL|Error 009": {
+  "title": "Conectada ao roteador, mas sem internet",
+  "causes": [
+   "O roteador está acessível, mas sem internet.",
+   "O serviço de internet está fora do ar."
+  ],
+  "steps": [
+   "Verifique se um celular ou notebook consegue acessar a internet na mesma rede.",
+   "Se nada estiver online, ligue para o seu provedor de internet.",
+   "Se os outros aparelhos funcionarem, reinicie a TV.",
+   "Reinicie o roteador e o modem e conecte novamente."
+  ],
+  "technician": "Se o erro voltar depois de redefinir a rede, entre em contato com o suporte da TCL para a sua Roku TV."
+ },
+ "TCL|Error 012": {
+  "title": "Problema na conexão de rede cabeada",
+  "causes": [
+   "O cabo Ethernet está solto ou com defeito.",
+   "A porta do roteador não está funcionando."
+  ],
+  "steps": [
+   "Encaixe bem o cabo Ethernet na TV e no roteador.",
+   "Teste outro cabo ou outra porta do roteador.",
+   "Reinicie a TV e depois o roteador e o modem.",
+   "Teste o Wi-Fi rapidamente para ver se a internet em si está funcionando."
+  ],
+  "technician": "Se o erro voltar depois de redefinir a rede, entre em contato com o suporte da TCL para a sua Roku TV."
+ },
+ "TCL|Error 013": {
+  "title": "Conexão cabeada sem acesso à internet",
+  "causes": [
+   "O roteador está sem internet.",
+   "O cabo Ethernet não está bem encaixado."
+  ],
+  "steps": [
+   "Verifique se outro aparelho está online.",
+   "Se estiver, reinicie a TV.",
+   "Se não estiver, desconecte e conecte o cabo Ethernet nas duas pontas.",
+   "Reinicie o roteador antes de ligar para o seu provedor."
+  ],
+  "technician": "Se o erro voltar depois de redefinir a rede, entre em contato com o suporte da TCL para a sua Roku TV."
+ },
+ "TCL|Error 014": {
+  "title": "Não foi possível conectar à rede sem fio",
+  "causes": [
+   "Nome de rede errado selecionado.",
+   "Senha digitada incorretamente.",
+   "O roteador ou a TV precisa ser reiniciado."
+  ],
+  "steps": [
+   "Verifique se você escolheu o nome de rede correto.",
+   "Digite a senha novamente; ela diferencia maiúsculas de minúsculas.",
+   "Reinicie a TV e o roteador.",
+   "Tente conectar novamente."
+  ],
+  "technician": "Se o erro voltar depois de redefinir a rede, entre em contato com o suporte da TCL para a sua Roku TV."
+ },
+ "TCL|Error 014.20": {
+  "title": "Sinal de Wi-Fi fraco impede a conexão",
+  "causes": [
+   "A TV está longe demais do roteador.",
+   "Paredes ou objetos enfraquecem o sinal."
+  ],
+  "steps": [
+   "Aproxime a TV ou o roteador, ou coloque o roteador em um lugar mais alto.",
+   "Reinicie o roteador e a TV.",
+   "Se o roteador tiver duas bandas, tente a outra.",
+   "Conecte-se novamente à rede."
+  ],
+  "technician": "Se o erro voltar depois de redefinir a rede, entre em contato com o suporte da TCL para a sua Roku TV."
+ },
+ "TCL|Error 014.30": {
+  "title": "Falha na conexão Wi-Fi, sinal fraco",
+  "causes": [
+   "Sinal de Wi-Fi fraco.",
+   "Falha temporária no roteador ou na TV."
+  ],
+  "steps": [
+   "Reinicie o roteador e a TV.",
+   "Aproxime a TV do roteador.",
+   "Conecte-se novamente ao Wi-Fi.",
+   "Se disponível, tente a outra banda do roteador."
+  ],
+  "technician": "Se o erro voltar depois de redefinir a rede, entre em contato com o suporte da TCL para a sua Roku TV."
+ },
+ "TCL|Error 014.40": {
+  "title": "Senha incorreta ou restrição do roteador",
+  "causes": [
+   "A senha do Wi-Fi foi digitada incorretamente.",
+   "O roteador bloqueia dispositivos desconhecidos."
+  ],
+  "steps": [
+   "Verifique o nome da rede e digite a senha novamente.",
+   "Se o roteador filtra dispositivos, adicione o endereço MAC sem fio da TV.",
+   "Reinicie a TV e o roteador.",
+   "Tente novamente."
+  ],
+  "technician": "Se o erro voltar depois de redefinir a rede, entre em contato com o suporte da TCL para a sua Roku TV."
+ },
+ "TCL|Error 014.41": {
+  "title": "Senha incorreta ou restrição do roteador",
+  "causes": [
+   "A senha do Wi-Fi foi digitada incorretamente.",
+   "O roteador bloqueia dispositivos desconhecidos."
+  ],
+  "steps": [
+   "Verifique o nome da rede e digite a senha novamente com atenção.",
+   "Se o roteador filtra dispositivos, libere o endereço MAC sem fio da TV.",
+   "Reinicie a TV e o roteador.",
+   "Tente novamente."
+  ],
+  "technician": "Se o erro voltar depois de redefinir a rede, entre em contato com o suporte da TCL para a sua Roku TV."
+ },
+ "TCL|Error 014.50": {
+  "title": "Falha na conexão Wi-Fi, sinal fraco",
+  "causes": [
+   "Sinal de Wi-Fi fraco.",
+   "Falha temporária no roteador ou na TV."
+  ],
+  "steps": [
+   "Reinicie o roteador e a TV.",
+   "Aproxime a TV do roteador.",
+   "Conecte-se novamente ao Wi-Fi.",
+   "Se disponível, tente a outra banda do roteador."
+  ],
+  "technician": "Se o erro voltar depois de redefinir a rede, entre em contato com o suporte da TCL para a sua Roku TV."
+ },
+ "TCL|Error 016": {
+  "title": "Conexão perdida ao abrir um canal",
+  "causes": [
+   "A rede caiu enquanto um aplicativo iniciava.",
+   "Sinal de Wi-Fi fraco."
+  ],
+  "steps": [
+   "Escolha Set up connection na tela e siga as instruções.",
+   "Reinicie a TV e o roteador.",
+   "Verifique a intensidade do sinal de Wi-Fi.",
+   "Aproxime a TV e o roteador."
+  ],
+  "technician": "Se o erro voltar depois de redefinir a rede, entre em contato com o suporte da TCL para a sua Roku TV."
+ },
+ "TCL|Error 017": {
+  "title": "Intensidade do sinal sem fio ruim",
+  "causes": [
+   "Sinal de Wi-Fi fraco na TV.",
+   "Obstáculos entre a TV e o roteador."
+  ],
+  "steps": [
+   "Aproxime a TV e o roteador.",
+   "Retire os obstáculos entre eles.",
+   "Reinicie a TV e o roteador.",
+   "Use um cabo Ethernet se a TV tiver porta para isso."
+  ],
+  "technician": "Se o erro voltar depois de redefinir a rede, entre em contato com o suporte da TCL para a sua Roku TV."
+ },
+ "TCL|Error 018": {
+  "title": "Velocidade da internet muito baixa",
+  "causes": [
+   "Seu plano ou sua linha de internet é lento.",
+   "Outros aparelhos estão consumindo a banda."
+  ],
+  "steps": [
+   "Pause downloads e transmissões nos outros aparelhos.",
+   "Reinicie o modem e o roteador.",
+   "Pergunte ao seu provedor qual velocidade você recebe.",
+   "Considere um plano mais rápido."
+  ],
+  "technician": "Se o erro voltar depois de redefinir a rede, entre em contato com o suporte da TCL para a sua Roku TV."
+ },
+ "Sony|Red LED blinks 2 times": {
+  "title": "A TV Sony detectou uma falha (2 piscadas)",
+  "causes": [
+   "A TV encontrou uma falha interna.",
+   "O significado do número de piscadas varia conforme o modelo."
+  ],
+  "steps": [
+   "Desligue a TV e tire da tomada por 1 minuto, sem usar régua de tomadas.",
+   "Desobstrua as aberturas de ventilação para o ar circular.",
+   "Desconecte todos os aparelhos ligados e ligue novamente.",
+   "Atualize o software da TV se ela iniciar.",
+   "Anote o número de piscadas e entre em contato com a Sony."
+  ],
+  "technician": "A maioria das falhas indicadas por LED vermelho piscando exige assistência técnica; entre em contato com o suporte da Sony informando o número de piscadas."
+ },
+ "Sony|Red LED blinks 3 times": {
+  "title": "A TV Sony detectou uma falha (3 piscadas)",
+  "causes": [
+   "A TV encontrou uma falha interna.",
+   "O significado do número de piscadas varia conforme o modelo."
+  ],
+  "steps": [
+   "Desligue a TV e tire da tomada por 1 minuto, sem usar régua de tomadas.",
+   "Desobstrua as aberturas de ventilação para o ar circular.",
+   "Desconecte todos os aparelhos ligados e ligue novamente.",
+   "Atualize o software da TV se ela iniciar.",
+   "Anote o número de piscadas e entre em contato com a Sony."
+  ],
+  "technician": "A maioria das falhas indicadas por LED vermelho piscando exige assistência técnica; entre em contato com o suporte da Sony informando o número de piscadas."
+ },
+ "Sony|Red LED blinks 4 times": {
+  "title": "A TV Sony detectou uma falha (4 piscadas)",
+  "causes": [
+   "A TV encontrou uma falha interna.",
+   "O significado do número de piscadas varia conforme o modelo."
+  ],
+  "steps": [
+   "Desligue a TV e tire da tomada por 1 minuto, sem usar régua de tomadas.",
+   "Desobstrua as aberturas de ventilação para o ar circular.",
+   "Desconecte todos os aparelhos ligados e ligue novamente.",
+   "Atualize o software da TV se ela iniciar.",
+   "Anote o número de piscadas e entre em contato com a Sony."
+  ],
+  "technician": "A maioria das falhas indicadas por LED vermelho piscando exige assistência técnica; entre em contato com o suporte da Sony informando o número de piscadas."
+ },
+ "Sony|Red LED blinks 5 times": {
+  "title": "A TV Sony detectou uma falha (5 piscadas)",
+  "causes": [
+   "A TV encontrou uma falha interna.",
+   "O significado do número de piscadas varia conforme o modelo."
+  ],
+  "steps": [
+   "Desligue a TV e tire da tomada por 1 minuto, sem usar régua de tomadas.",
+   "Desobstrua as aberturas de ventilação para o ar circular.",
+   "Desconecte todos os aparelhos ligados e ligue novamente.",
+   "Atualize o software da TV se ela iniciar.",
+   "Anote o número de piscadas e entre em contato com a Sony."
+  ],
+  "technician": "A maioria das falhas indicadas por LED vermelho piscando exige assistência técnica; entre em contato com o suporte da Sony informando o número de piscadas."
+ },
+ "Sony|Red LED blinks 6 times": {
+  "title": "A TV Sony detectou uma falha (6 piscadas)",
+  "causes": [
+   "A TV encontrou uma falha interna.",
+   "O significado do número de piscadas varia conforme o modelo."
+  ],
+  "steps": [
+   "Desligue a TV e tire da tomada por 1 minuto, sem usar régua de tomadas.",
+   "Desobstrua as aberturas de ventilação para o ar circular.",
+   "Desconecte todos os aparelhos ligados e ligue novamente.",
+   "Atualize o software da TV se ela iniciar.",
+   "Anote o número de piscadas e entre em contato com a Sony."
+  ],
+  "technician": "A maioria das falhas indicadas por LED vermelho piscando exige assistência técnica; entre em contato com o suporte da Sony informando o número de piscadas."
+ },
+ "Sony|Red LED blinks 7 times": {
+  "title": "A TV Sony detectou uma falha (7 piscadas)",
+  "causes": [
+   "A TV encontrou uma falha interna.",
+   "O significado do número de piscadas varia conforme o modelo."
+  ],
+  "steps": [
+   "Desligue a TV e tire da tomada por 1 minuto, sem usar régua de tomadas.",
+   "Desobstrua as aberturas de ventilação para o ar circular.",
+   "Desconecte todos os aparelhos ligados e ligue novamente.",
+   "Atualize o software da TV se ela iniciar.",
+   "Anote o número de piscadas e entre em contato com a Sony."
+  ],
+  "technician": "A maioria das falhas indicadas por LED vermelho piscando exige assistência técnica; entre em contato com o suporte da Sony informando o número de piscadas."
+ },
+ "Sony|Red LED blinks 8 times": {
+  "title": "A TV Sony detectou uma falha (8 piscadas)",
+  "causes": [
+   "A TV encontrou uma falha interna.",
+   "O significado do número de piscadas varia conforme o modelo."
+  ],
+  "steps": [
+   "Desligue a TV e tire da tomada por 1 minuto, sem usar régua de tomadas.",
+   "Desobstrua as aberturas de ventilação para o ar circular.",
+   "Desconecte todos os aparelhos ligados e ligue novamente.",
+   "Atualize o software da TV se ela iniciar.",
+   "Anote o número de piscadas e entre em contato com a Sony."
+  ],
+  "technician": "A maioria das falhas indicadas por LED vermelho piscando exige assistência técnica; entre em contato com o suporte da Sony informando o número de piscadas."
+ },
+ "Sony|Orange LED solid": {
+  "title": "O timer de desligamento ou de liga/desliga está ativo",
+  "causes": [
+   "Há um timer de desligamento ou de liga/desliga configurado na TV."
+  ],
+  "steps": [
+   "Abra o menu Configurações da TV.",
+   "Encontre o timer de desligamento ou de liga/desliga.",
+   "Desative o timer ou altere o horário.",
+   "Confira se a luz apaga."
+  ],
+  "technician": "Não é necessária assistência técnica, a menos que a luz continue acesa sem nenhum timer configurado."
+ },
+ "Sony|Orange LED blinking": {
+  "title": "Atualização de software em andamento ou cabo solto",
+  "causes": [
+   "Uma atualização de software está em andamento.",
+   "Em modelos com caixa de mídia separada, o cabo entre as unidades pode estar solto."
+  ],
+  "steps": [
+   "Não desligue nem tire a TV da tomada; espere alguns minutos.",
+   "O controle remoto não funciona durante a atualização.",
+   "Em modelos com caixa de mídia, verifique se o cabo entre as unidades está bem encaixado."
+  ],
+  "technician": "Se a luz piscar por muito tempo, entre em contato com o suporte da Sony."
+ },
+ "Sony|Green LED blinking": {
+  "title": "Inicialização normal ou a TV não liga",
+  "causes": [
+   "É normal enquanto a TV está ligando.",
+   "Pode ser uma falha se nunca parar ou se a TV ligar e desligar repetidamente."
+  ],
+  "steps": [
+   "Espere a TV terminar de iniciar; a luz deve parar de piscar.",
+   "Se continuar piscando, tire a TV da tomada por 3 minutos.",
+   "Ligue na tomada e tente novamente."
+  ],
+  "technician": "Se a TV ainda não ligar, ela precisa de assistência técnica da Sony."
+ },
+ "Sony|White LED blinking": {
+  "title": "A lâmpada da TV de projeção precisa ser trocada",
+  "causes": [
+   "A lâmpada queimou (apenas TVs de projeção e projetores).",
+   "A tampa da lâmpada pode estar aberta."
+  ],
+  "steps": [
+   "Desligue e espere a lâmpada esfriar.",
+   "Verifique se as tampas da lâmpada estão fechadas e firmes.",
+   "Não toque no vidro da lâmpada; se tocar, limpe com um lenço com álcool.",
+   "Providencie a troca da lâmpada."
+  ],
+  "technician": "Entre em contato com o suporte da Sony para obter uma lâmpada de reposição."
+ },
+ "Sony|Red LED blinking with 3-second pause": {
+  "title": "Falha indicada por piscadas vermelhas repetidas",
+  "causes": [
+   "A TV encontrou uma falha e mostra a contagem de piscadas."
+  ],
+  "steps": [
+   "Conte as piscadas entre cada pausa.",
+   "Tire a TV da tomada, espere 2 minutos, ligue na tomada e ligue a TV.",
+   "Se se repetir, desconecte e ligue para a Sony informando a contagem de piscadas."
+  ],
+  "technician": "Informe a contagem de piscadas ao suporte da Sony."
+ },
+ "Panasonic|Red LED blinking": {
+  "title": "A TV detectou um erro (SOS)",
+  "causes": [
+   "A TV encontrou um erro interno.",
+   "Vale para modelos Panasonic Fire TV."
+  ],
+  "steps": [
+   "Tire a TV da tomada por alguns minutos.",
+   "Ligue-a novamente e ligue a TV.",
+   "Se ainda piscar, envie uma solicitação de reparo à Panasonic."
+  ],
+  "technician": "Se continuar piscando, envie uma solicitação de suporte para reparo à Panasonic."
+ },
+ "Panasonic|Orange LED solid": {
+  "title": "Em espera durante manutenção do painel ou tarefa de rede",
+  "causes": [
+   "A manutenção do painel ou uma função de rede está em andamento."
+  ],
+  "steps": [
+   "Não toque nem pressione a tela durante a manutenção do painel.",
+   "Espere a tarefa terminar.",
+   "Leia o artigo da Panasonic sobre manutenção do painel se isso se repetir."
+  ],
+  "technician": "Se a luz ficar laranja por muito tempo, entre em contato com o suporte da Panasonic."
+ },
+ "Panasonic|Orange LED blinking": {
+  "title": "Manutenção do painel ou atualização de rede em andamento",
+  "causes": [
+   "A manutenção do painel está em andamento.",
+   "Uma conexão de rede ou atualização de configurações está em andamento."
+  ],
+  "steps": [
+   "Deixe a TV na tomada e espere terminar.",
+   "Se o LED ficar laranja de novo depois de ligar ou desligar a TV, a manutenção não terminou.",
+   "Deixe concluir antes de desligar."
+  ],
+  "technician": "Se nunca parar, entre em contato com o suporte da Panasonic."
+ },
+ "Panasonic|Green LED blinking": {
+  "title": "TV iniciando ou aguardando pareamento Bluetooth",
+  "causes": [
+   "A TV está iniciando.",
+   "Ela está aguardando o pareamento de um dispositivo Bluetooth."
+  ],
+  "steps": [
+   "Espere a inicialização terminar.",
+   "Se estiver pareando, conclua o pareamento no outro aparelho.",
+   "Tire da tomada por um instante e tente de novo se nunca parar."
+  ],
+  "technician": "Se a TV nunca terminar de iniciar, entre em contato com o suporte da Panasonic."
+ },
+ "Philips|Standby light blinks red": {
+  "title": "A TV Philips informa uma falha",
+  "causes": [
+   "A TV detectou uma falha.",
+   "A TV pode ter superaquecido."
+  ],
+  "steps": [
+   "Tire a TV da tomada.",
+   "Deixe esfriar completamente.",
+   "Ligue o cabo de energia novamente.",
+   "Ligue a TV outra vez."
+  ],
+  "technician": "Se a luz vermelha piscar de novo, entre em contato com o Philips Consumer Care."
+ },
+ "Philips|Front LED blinks in a repeating pattern": {
+  "title": "A TV não liga e o LED pisca repetidamente",
+  "causes": [
+   "A TV não inicia e não mostra imagem nem som.",
+   "Uma falha temporária de energia."
+  ],
+  "steps": [
+   "Faça um ciclo de energia: tire a TV da tomada e espere alguns minutos.",
+   "Ligue e tente novamente.",
+   "Teste outra tomada na parede."
+  ],
+  "technician": "Se ainda piscar, entre em contato com o suporte de TV da Philips."
+ },
+ "LG|Error 106": {
+  "title": "TV não conectada à rede",
+  "causes": [
+   "A TV não tem conexão de internet funcionando.",
+   "O adaptador Wi-Fi ou as configurações do roteador não são adequados."
+  ],
+  "steps": [
+   "Teste outro aparelho na mesma rede.",
+   "Reinicie o roteador e a TV e digite a senha do Wi-Fi novamente.",
+   "Nas configurações avançadas de Wi-Fi, defina o DNS manualmente como 8.8.8.8.",
+   "Use 5 GHz se a TV tiver suporte e aproxime o roteador."
+  ],
+  "technician": "Se nada funcionar, o módulo Wi-Fi pode precisar ser trocado; entre em contato com a assistência da LG."
+ }
+}

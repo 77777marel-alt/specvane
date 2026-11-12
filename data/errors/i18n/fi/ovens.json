@@ -1,0 +1,1373 @@
+{
+ "Samsung|C-d0": {
+  "title": "Painike jumissa tai painettu liian pitkään",
+  "causes": [
+   "Ohjauspainiketta on pidetty painettuna liian pitkään.",
+   "Ohjauspaneelissa on kosteutta tai rasvaa."
+  ],
+  "steps": [
+   "Pyyhi painikkeet kostealla liinalla ja kuivaa paneeli.",
+   "Tarkista, ettei ohjainten päällä tai ympärillä ole vettä.",
+   "Sammuta uuni ja yritä sitten uudelleen."
+  ],
+  "technician": "Soita Samsungin huoltoon, jos koodi palaa täydellisen virran katkaisun jälkeen."
+ },
+ "Samsung|S-01": {
+  "title": "Turvasammutus pitkän käytön jälkeen",
+  "causes": [
+   "Uuni oli käynnissä samassa lämpötilassa liian monta tuntia, joten se sammui itsestään turvallisuussyistä.",
+   "Tämä ei ole vika."
+  ],
+  "steps": [
+   "Sammuta uuni.",
+   "Ota ruoka pois.",
+   "Aloita normaali kypsennysjakso uudelleen."
+  ],
+  "technician": "Huoltoa ei tarvita, ellei koodi tule näkyviin lyhyen kypsennyksen jälkeen."
+ },
+ "Samsung|dC": {
+  "title": "Jakaja asennettu väärin kypsennystilaan nähden",
+  "causes": [
+   "Jakaja otettiin pois kaksoiskypsennystilan aikana.",
+   "Tai jakaja asetettiin paikalleen yksittäiskypsennystilan aikana."
+  ],
+  "steps": [
+   "Asenna jakaja kaksoiskypsennystä varten ja poista se yksittäiskypsennystä varten.",
+   "Sammuta uuni ja käynnistä se uudelleen.",
+   "Jos ongelma pysyy, katkaise virta vähintään 30 sekunniksi ja kytke se sitten takaisin."
+  ],
+  "technician": "Soita Samsungin huoltoon, jos koodi palaa täydellisen virran katkaisun jälkeen."
+ },
+ "Samsung|dE": {
+  "title": "Jakaja asennettu väärin kypsennystilaan nähden",
+  "causes": [
+   "Jakaja otettiin pois kaksoiskypsennystilan aikana.",
+   "Tai se asetettiin paikalleen yksittäiskypsennystilassa."
+  ],
+  "steps": [
+   "Pidä jakaja paikallaan kaksoiskypsennyksessä ja poista se yksittäiskypsennyksessä.",
+   "Sammuta uuni ja käynnistä uudelleen.",
+   "Jos ongelma pysyy, katkaise virta sulakkeesta vähintään 30 sekunniksi ja kytke se takaisin."
+  ],
+  "technician": "Soita Samsungin huoltoon, jos koodi palaa täydellisen virran katkaisun jälkeen."
+ },
+ "Samsung|C-d1": {
+  "title": "Luukun lukon vika",
+  "causes": [
+   "Uuni havaitsee ongelman luukun lukossa."
+  ],
+  "steps": [
+   "Sammuta uuni ja käynnistä se uudelleen.",
+   "Jos koodi pysyy, katkaise virta sulakkeesta vähintään 30 sekunniksi ja kytke se sitten takaisin.",
+   "Älä väännä luukkua auki, jos se on lukittu."
+  ],
+  "technician": "Soita Samsungin huoltoon, jos koodi palaa täydellisen virran katkaisun jälkeen."
+ },
+ "Samsung|C-20": {
+  "title": "Uunin anturin vika",
+  "causes": [
+   "Uuni ilmoittaa lämpötila-anturin ongelmasta."
+  ],
+  "steps": [
+   "Sammuta uuni ja käynnistä se uudelleen.",
+   "Jos koodi pysyy, katkaise virta sulakkeesta vähintään 30 sekunniksi ja kytke se sitten takaisin."
+  ],
+  "technician": "Soita Samsungin huoltoon, jos koodi palaa täydellisen virran katkaisun jälkeen."
+ },
+ "Samsung|C-21": {
+  "title": "Uunin anturin vika",
+  "causes": [
+   "Uuni ilmoittaa lämpötila-anturin ongelmasta."
+  ],
+  "steps": [
+   "Sammuta uuni ja käynnistä se uudelleen.",
+   "Jos koodi pysyy, katkaise virta sulakkeesta vähintään 30 sekunniksi ja kytke se sitten takaisin."
+  ],
+  "technician": "Soita Samsungin huoltoon, jos koodi palaa täydellisen virran katkaisun jälkeen."
+ },
+ "Samsung|C-22": {
+  "title": "Uunin anturin vika",
+  "causes": [
+   "Uuni ilmoittaa lämpötila-anturin ongelmasta."
+  ],
+  "steps": [
+   "Sammuta uuni ja käynnistä se uudelleen.",
+   "Jos koodi pysyy, katkaise virta sulakkeesta vähintään 30 sekunniksi ja kytke se sitten takaisin."
+  ],
+  "technician": "Soita Samsungin huoltoon, jos koodi palaa täydellisen virran katkaisun jälkeen."
+ },
+ "Samsung|C-F1": {
+  "title": "Muistin luku- tai kirjoitusvirhe",
+  "causes": [
+   "Ohjauskortin muistin (EEPROM) luvussa tai kirjoituksessa tapahtui virhe."
+  ],
+  "steps": [
+   "Sammuta uuni ja käynnistä se uudelleen.",
+   "Jos koodi pysyy, katkaise virta sulakkeesta vähintään 30 sekunniksi ja kytke se sitten takaisin."
+  ],
+  "technician": "Soita Samsungin huoltoon, jos koodi palaa täydellisen virran katkaisun jälkeen."
+ },
+ "Samsung|C-F0": {
+  "title": "Pääkortti ja alakortti eivät kommunikoi",
+  "causes": [
+   "Pääpiirilevy ja alakortti eivät saa yhteyttä toisiinsa."
+  ],
+  "steps": [
+   "Sammuta uuni ja käynnistä se uudelleen.",
+   "Jos koodi pysyy, katkaise virta sulakkeesta vähintään 30 sekunniksi ja kytke se sitten takaisin."
+  ],
+  "technician": "Soita Samsungin huoltoon, jos koodi palaa täydellisen virran katkaisun jälkeen."
+ },
+ "Samsung|C-F2": {
+  "title": "Kosketusohjaimen tiedonsiirto-ongelma",
+  "causes": [
+   "Kosketusohjain menettää toistuvasti yhteyden pää- tai alakorttiin."
+  ],
+  "steps": [
+   "Sammuta uuni ja käynnistä se uudelleen.",
+   "Jos koodi pysyy, katkaise virta sulakkeesta vähintään 30 sekunniksi ja kytke se sitten takaisin."
+  ],
+  "technician": "Soita Samsungin huoltoon, jos koodi palaa täydellisen virran katkaisun jälkeen."
+ },
+ "Samsung|Pr E": {
+  "title": "Uuni esilämpenee, normaali ilmoitus",
+  "causes": [
+   "Uuni lämpenee yhä asetettuun lämpötilaan.",
+   "Tämä on normaali ilmoitus, ei vika."
+  ],
+  "steps": [
+   "Pidä luukku suljettuna.",
+   "Odota, että uuni saavuttaa asetetun lämpötilan.",
+   "Koodi poistuu itsestään."
+  ],
+  "technician": "Huoltoa ei tarvita."
+ },
+ "Bosch|E011": {
+  "title": "Ohjauspainike on jumissa",
+  "causes": [
+   "Painiketta on painettu liian pitkään tai se on juuttunut.",
+   "Painikkeen ympärillä on likaa tai kosteutta."
+  ],
+  "steps": [
+   "Paina jokaista painiketta yksi kerrallaan ja tarkista, että se liikkuu vapaasti.",
+   "Puhdista ohjausalue ja kuivaa se.",
+   "Sammuta uuni ja kytke se uudelleen päälle."
+  ],
+  "technician": "Soita Boschin huoltoon, jos E011 pysyy ohjainten puhdistuksen jälkeen."
+ },
+ "Bosch|E115": {
+  "title": "Uunin tila liian kuuma, luukku lukittu",
+  "causes": [
+   "Uunin sisäpuoli on liian kuuma, joten luukun lukko pysyy kiinni."
+  ],
+  "steps": [
+   "Odota, että uuni on jäähtynyt.",
+   "Poista ilmoitus 0-painikkeella.",
+   "Älä väännä luukkua auki."
+  ],
+  "technician": "Soita Boschin huoltoon, jos E115 palaa uunin ollessa kylmä."
+ },
+ "Bosch|e005": {
+  "title": "Ohjaus- ja tehokortti eivät kommunikoi",
+  "causes": [
+   "Ohjauspaneelin ja tehokortin yhteys katkesi."
+  ],
+  "steps": [
+   "Katkaise liesi sulakkeesta.",
+   "Odota viisi minuuttia ja kytke sitten sulake takaisin.",
+   "Tarkista, palaako koodi."
+  ],
+  "technician": "Soita Boschin tukeen, jos koodi palaa virran katkaisun jälkeen."
+ },
+ "Bosch|E100": {
+  "title": "Elektroniikkavika",
+  "causes": [
+   "Uuni on havainnut elektroniikkavian."
+  ],
+  "steps": [
+   "Katkaise liesi sulakkeesta.",
+   "Odota viisi minuuttia ja kytke sitten sulake takaisin.",
+   "Testaa uuni uudelleen."
+  ],
+  "technician": "Soita Boschin tukeen, jos koodi palaa virran katkaisun jälkeen."
+ },
+ "Bosch|e101": {
+  "title": "Uunin lämpötila-anturin vika",
+  "causes": [
+   "Lämpötila-anturi ei toimi odotetulla tavalla."
+  ],
+  "steps": [
+   "Katkaise liesi sulakkeesta.",
+   "Odota viisi minuuttia ja kytke sitten sulake takaisin.",
+   "Jos uuni asennettiin juuri, pyydä asentajaa tarkistamaan virtajohdon johdotus."
+  ],
+  "technician": "Soita Boschin tukeen, jos koodi palaa virran katkaisun jälkeen."
+ },
+ "Bosch|e126": {
+  "title": "Uunin luukun lukon vika",
+  "causes": [
+   "Luukun lukko ei toimi oikein, mikä näkyy usein itsepuhdistuksen aikana."
+  ],
+  "steps": [
+   "Peruuta itsepuhdistusjakso.",
+   "Odota, että luukku vapautuu.",
+   "Aloita itsepuhdistus uudelleen."
+  ],
+  "technician": "Soita Boschin tukeen, jos koodi palaa virran katkaisun jälkeen."
+ },
+ "Bosch|E302": {
+  "title": "Ohjauspaneeli ylikuumentunut",
+  "causes": [
+   "Ohjauspaneeli on liian kuuma, minkä voivat aiheuttaa keittotason padat.",
+   "Korkea huonelämpötila."
+  ],
+  "steps": [
+   "Tarkista huonelämpötila ja patojen sijoitus.",
+   "Anna laitteen jäähtyä.",
+   "Tee viiden minuutin virran katkaisu sulakkeesta."
+  ],
+  "technician": "Soita Boschin tukeen, jos koodi palaa virran katkaisun jälkeen."
+ },
+ "Bosch|e310": {
+  "title": "Virransyöttövika",
+  "causes": [
+   "Syöttöjännite voi olla väärä tai epävakaa."
+  ],
+  "steps": [
+   "Katkaise liesi sulakkeesta.",
+   "Odota viisi minuuttia ja kytke sitten sulake takaisin.",
+   "Pyydä sähköasentajaa varmistamaan kotisi jännite, jos koodi palaa."
+  ],
+  "technician": "Soita Boschin tukeen, jos koodi palaa virran katkaisun jälkeen."
+ },
+ "Bosch|ERR/toP": {
+  "title": "Keittotasoa käytetty itsepuhdistuksen aikana",
+  "causes": [
+   "Keittoalue kytkettiin päälle uunin itsepuhdistuksen aikana."
+  ],
+  "steps": [
+   "Kytke kaikki päällä olevat keittoalueet pois.",
+   "Aloita itsepuhdistusjakso uudelleen.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Huoltoa ei tarvita, ellei koodi tule näkyviin kaikkien keittoalueiden ollessa pois päältä."
+ },
+ "Bosch|dE": {
+  "title": "Demotila on päällä, alueet eivät lämpene",
+  "causes": [
+   "Demotila on aktiivinen, joten keittoalueet pysyvät kylminä."
+  ],
+  "steps": [
+   "Katkaise keittotason sulake 30 sekunniksi.",
+   "Kytke se takaisin päälle.",
+   "Kosketa mitä tahansa ohjainta kolmen minuutin kuluessa."
+  ],
+  "technician": "Soita Boschin tukeen, jos koodi palaa virran katkaisun jälkeen."
+ },
+ "Bosch|F1": {
+  "title": "Keittoalue ylikuumeni ja sammui",
+  "causes": [
+   "Keittoalue ylikuumeni ja sammui suojatakseen työtasoa."
+  ],
+  "steps": [
+   "Anna elektroniikan jäähtyä.",
+   "Kytke keittoalue uudelleen päälle.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Soita Boschin tukeen, jos koodi palaa virran katkaisun jälkeen."
+ },
+ "Bosch|F6": {
+  "title": "Keittoalue ylikuumeni ja sammui",
+  "causes": [
+   "Keittoalue ylikuumeni ja sammui suojatakseen työtasoa."
+  ],
+  "steps": [
+   "Anna elektroniikan jäähtyä.",
+   "Kytke keittoalue uudelleen päälle.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Soita Boschin tukeen, jos koodi palaa virran katkaisun jälkeen."
+ },
+ "Bosch|F2": {
+  "title": "Elektroniikka ylikuumentunut, alue pois päältä",
+  "causes": [
+   "Elektroniikka on liian kuuma, joten keittoalue sammui."
+  ],
+  "steps": [
+   "Anna keittotason jäähtyä.",
+   "Kosketa mitä tahansa ohjainta.",
+   "Jatka kypsennystä, kun ilmoitus on poistunut.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Soita Boschin tukeen, jos koodi palaa virran katkaisun jälkeen."
+ },
+ "Bosch|F4": {
+  "title": "Elektroniikka ylikuumentunut",
+  "causes": [
+   "Elektroniikka on liian kuuma."
+  ],
+  "steps": [
+   "Anna keittotason jäähtyä.",
+   "Kosketa mitä tahansa ohjainta.",
+   "Jatka kypsennystä, kun ilmoitus on poistunut.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Soita Boschin tukeen, jos koodi palaa virran katkaisun jälkeen."
+ },
+ "Bosch|F5": {
+  "title": "Kuuma pannu ohjauspaneelin lähellä",
+  "causes": [
+   "Kuuma keittoastia on lähellä kosketusohjaimia.",
+   "Elektroniikka voi ylikuumentua."
+  ],
+  "steps": [
+   "Siirrä keittoastia pois ohjauspaneelin luota.",
+   "Odota muutama sekunti ja kosketa mitä tahansa ohjainta.",
+   "Jatka kypsennystä, kun ilmoitus on poistunut."
+  ],
+  "technician": "Soita Boschin tukeen, jos koodi palaa virran katkaisun jälkeen."
+ },
+ "Bosch|F8": {
+  "title": "Keittoalue oli päällä liian pitkään, aikaraja täyttyi",
+  "causes": [
+   "Keittoalue jätettiin päälle ilman mitään syötettä pitkäksi aikaa."
+  ],
+  "steps": [
+   "Kosketa mitä tahansa ohjainta.",
+   "Aseta keittoalue uudelleen.",
+   "Jatka kypsennystä.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Soita Boschin tukeen, jos koodi palaa virran katkaisun jälkeen."
+ },
+ "Bosch|E7010": {
+  "title": "Keittotaso ei saa yhteyttä verkkoon tai liesituulettimeen",
+  "causes": [
+   "Keittotaso menetti yhteyden kotiverkkoosi tai liesituulettimeen."
+  ],
+  "steps": [
+   "Sammuta keittotaso ja kytke se uudelleen päälle.",
+   "Tarkista, että Wi-Fi toimii.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Soita Boschin tukeen, jos koodi palaa virran katkaisun jälkeen."
+ },
+ "Bosch|E9000": {
+  "title": "Syöttöjännite normaalin alueen ulkopuolella",
+  "causes": [
+   "Sähkön syöttöjännite on liian korkea tai liian matala."
+  ],
+  "steps": [
+   "Sammuta keittotaso ja kytke se uudelleen päälle.",
+   "Pyydä sähköyhtiötäsi tarkistamaan syöttöjännite."
+  ],
+  "technician": "Soita Boschin tukeen, jos sähköyhtiösi ei löydä mitään vikaa."
+ },
+ "Bosch|E9010": {
+  "title": "Syöttöjännite normaalin alueen ulkopuolella",
+  "causes": [
+   "Sähkön syöttöjännite on liian korkea tai liian matala."
+  ],
+  "steps": [
+   "Sammuta keittotaso ja kytke se uudelleen päälle.",
+   "Pyydä sähköyhtiötäsi tarkistamaan syöttöjännite."
+  ],
+  "technician": "Soita Boschin tukeen, jos sähköyhtiösi ei löydä mitään vikaa."
+ },
+ "Bosch|E9011": {
+  "title": "Keittotasoa ei ole liitetty oikein",
+  "causes": [
+   "Johdotus ei vastaa kytkentäkaaviota."
+  ],
+  "steps": [
+   "Katkaise virta sulakkeesta.",
+   "Pyydä pätevää sähköasentajaa tarkistamaan johdotus kaaviota vasten."
+  ],
+  "technician": "Soita pätevälle sähköasentajalle tai Boschin tukeen."
+ },
+ "Bosch|U400": {
+  "title": "Syöttöjännite normaalin alueen ulkopuolella",
+  "causes": [
+   "Syöttöjännite on normaalien rajojen ulkopuolella."
+  ],
+  "steps": [
+   "Sammuta keittotaso ja kytke se uudelleen päälle.",
+   "Ota yhteys sähköyhtiöösi jännitteen tarkistamiseksi.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Soita Boschin tukeen, jos syöttö testataan normaaliksi."
+ },
+ "Siemens|E0111": {
+  "title": "Elektroniikkavian ilmoitus",
+  "causes": [
+   "Uunin elektroniikka on havainnut vian.",
+   "Se voi olla kertaluonteinen häiriö."
+  ],
+  "steps": [
+   "Sammuta uuni ja kytke se uudelleen päälle.",
+   "Jos ilmoitus katoaa, se oli kertaluonteinen.",
+   "Jos se palaa, kirjoita täsmällinen koodi muistiin."
+  ],
+  "technician": "Soita Siemensin asiakaspalveluun ja kerro täsmällinen koodi, jos se palaa."
+ },
+ "Neff|E011": {
+  "title": "Painike pysyvästi määritetty",
+  "causes": [
+   "Painike on pysyvästi painettuna tai määritettynä."
+  ],
+  "steps": [
+   "Peruuta painikkeen pysyvä määritys.",
+   "Paina sitten kellotoiminnon painiketta.",
+   "Puhdista painikkeiden ympäristö.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Soita Neffin huoltoon, jos E011 ei poistu."
+ },
+ "Neff|E300": {
+  "title": "Sisäinen elektroniikkavika",
+  "causes": [
+   "Uunin elektroniikassa on sisäinen vika."
+  ],
+  "steps": [
+   "Paina kellotoiminnon painiketta.",
+   "Jos koodi pysyy, irrota uuni sähköstä.",
+   "Odota noin 10 sekuntia ja kytke se takaisin.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Soita Neffin huoltoon, jos koodi palaa."
+ },
+ "Neff|rrr": {
+  "title": "Virta katkesi käytön aikana",
+  "causes": [
+   "Virransyöttö katkesi uunin ollessa käynnissä."
+  ],
+  "steps": [
+   "Paina kellonaikapainiketta.",
+   "Nollaa kello.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Huoltoa ei tarvita, ellei koodi toistu ilman sähkökatkoa."
+ },
+ "Miele|E0-E5": {
+  "title": "Kalkinpoisto-ohjelman edistymiskoodit",
+  "causes": [
+   "Nämä koodit näyttävät, mikä kalkinpoisto-ohjelman vaihe on käynnissä.",
+   "E0 on liuoksen imu, E1 aktivointi, E2–E4 huuhtelut, E5 haihdutus."
+  ],
+  "steps": [
+   "Anna ohjelman edetä loppuun.",
+   "Älä sammuta uunia kalkinpoiston aikana."
+  ],
+  "technician": "Huoltoa ei tarvita, ellei ohjelma pysähdy."
+ },
+ "Miele|F23": {
+  "title": "Pyrolyysipuhdistus ei saavuttanut lämpötilaa",
+  "causes": [
+   "Uuni ei lämmennyt tarpeeksi itsepuhdistusta varten.",
+   "Sisällä on paljon ruokajäämiä."
+  ],
+  "steps": [
+   "Sammuta uuni.",
+   "Pyyhi pois suuret kerrostumat ja runsas lika.",
+   "Aloita pyrolyysipuhdistus uudelleen."
+  ],
+  "technician": "Ota yhteys Mielen asiakaspalveluun tai varaa korjaus, jos vika palaa."
+ },
+ "Miele|F32": {
+  "title": "Pyrolyysin luukun lukko ei sulkeudu",
+  "causes": [
+   "Itsepuhdistuksen luukun lukko ei lukitu.",
+   "Jokin voi estää luukun."
+  ],
+  "steps": [
+   "Tarkista, ettei luukun ja tiivisteen alueella ole esineitä tai roskia.",
+   "Sammuta uuni.",
+   "Aloita pyrolyysipuhdistus uudelleen."
+  ],
+  "technician": "Ota yhteys Mielen asiakaspalveluun tai varaa korjaus, jos vika palaa."
+ },
+ "Miele|F33": {
+  "title": "Pyrolyysin luukun lukko ei aukea",
+  "causes": [
+   "Itsepuhdistuksen luukun lukko ei ole vapautunut."
+  ],
+  "steps": [
+   "Sammuta uuni pysäyttääksesi puhdistusjakson.",
+   "Yritä avata luukku.",
+   "Älä väännä sitä väkisin.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Soita Mielen asiakaspalveluun, jos luukku pysyy lukittuna."
+ },
+ "Miele|F38": {
+  "title": "Elektroniikkamoduulin vika",
+  "causes": [
+   "Uunin elektroniikkamoduulissa on tekninen vika."
+  ],
+  "steps": [
+   "Älä yritä korjata sitä itse.",
+   "Kirjoita muistiin koodi ja mallinumero.",
+   "Varaa korjaus.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Varaa Mielen huoltomies, sillä tätä ei voi korjata kotona."
+ },
+ "Miele|F44": {
+  "title": "Tekninen vika havaittu",
+  "causes": [
+   "Uuni on havainnut teknisen vian."
+  ],
+  "steps": [
+   "Katkaise virta sulakkeesta tai irrota uuni sähköstä.",
+   "Pidä se pois päältä 20 sekuntia.",
+   "Palauta virta ja testaa.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Ota yhteys Mielen asiakaspalveluun tai varaa korjaus, jos vika palaa."
+ },
+ "Miele|F54": {
+  "title": "Ruokamittari on viallinen",
+  "causes": [
+   "Ruokamittari tai sen liitäntä on viallinen."
+  ],
+  "steps": [
+   "Vedä mittari ulos liitännästään.",
+   "Vikailmoituksen pitäisi poistua.",
+   "Kypsennä toistaiseksi ilman mittaria.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Ota yhteys Mielen asiakaspalveluun ostaaksesi uuden mittarin."
+ },
+ "Miele|F55": {
+  "title": "Uuni sammui oltuaan käynnissä liian pitkään",
+  "causes": [
+   "Uuni oli käynnissä poikkeuksellisen pitkään, joten se sammui turvallisuussyistä.",
+   "Raja on 6 tuntia grillitoiminnoissa ja 12 tuntia muissa."
+  ],
+  "steps": [
+   "Sammuta uuni ja kytke se sitten uudelleen päälle.",
+   "Aloita uusi kypsennys."
+  ],
+  "technician": "Huoltoa ei tarvita, ellei tämä toistu lyhyillä kypsennyksillä."
+ },
+ "Miele|F60": {
+  "title": "Uunin ilmanvaihto ei riitä",
+  "causes": [
+   "Ilmakanava on tukossa tai peitetty."
+  ],
+  "steps": [
+   "Tarkista, ettei mikään peitä uunin ilmakanavaa.",
+   "Irrota uuni sähköstä ja kytke se sitten takaisin.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Ota yhteys Mielen asiakaspalveluun tai varaa korjaus, jos vika palaa."
+ },
+ "Miele|F134": {
+  "title": "Uunin tila liian kuuma",
+  "causes": [
+   "Lämpötila-anturi ilmoittaa, että kypsennystila on liian kuuma."
+  ],
+  "steps": [
+   "Sammuta uuni ja anna sen jäähtyä.",
+   "Älä yritä korjata sitä itse.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Varaa Mielen korjaus, sillä tämä vaatii huoltomiehen."
+ },
+ "Miele|MES": {
+  "title": "Demotila päällä, uuni ei lämpene",
+  "causes": [
+   "Myymälän demotila on kytketty päälle."
+  ],
+  "steps": [
+   "Vahvista ilmoitus OK-painikkeella.",
+   "Käännä toimintovalitsin asentoon 0.",
+   "Avaa Settings, siirry kohtaan P 9 ja aseta S 0.",
+   "Pidä OK painettuna 4 sekuntia."
+  ],
+  "technician": "Ota yhteys Mieleen, jos demotila palaa."
+ },
+ "Miele|F1": {
+  "title": "Vesisäiliötä ei ole työnnetty paikalleen",
+  "causes": [
+   "Jäännösveden poistoon tarkoitettu vesisäiliö puuttuu tai sitä ei ole työnnetty kokonaan paikalleen."
+  ],
+  "steps": [
+   "Työnnä vesisäiliö kokonaan uuniin.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Ota yhteys Mielen asiakaspalveluun tai varaa korjaus, jos vika palaa."
+ },
+ "Miele|F04": {
+  "title": "Sähkökatko kypsennyksen aikana",
+  "causes": [
+   "Uunista katkesi virta kypsennysohjelman aikana."
+  ],
+  "steps": [
+   "Tarkista, kuinka pitkälle kypsennys on ehtinyt.",
+   "Aseta tarvittaessa uusi kypsennysaika.",
+   "Jatka painamalla Start/Stop.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Ota yhteys Mielen asiakaspalveluun tai varaa korjaus, jos vika palaa."
+ },
+ "Miele|F05": {
+  "title": "Vesi ei pääse höyryuuniin",
+  "causes": [
+   "Veden sisääntulon venttiili ei ole kokonaan auki.",
+   "Vesisuutin on tukossa kalkista."
+  ],
+  "steps": [
+   "Avaa veden sisääntulon venttiili kokonaan ja käynnistä uudelleen.",
+   "Poista vesisuuttimen kalkki uunikintaita käyttäen, jos ongelma palaa.",
+   "Huuhtele vesiosat."
+  ],
+  "technician": "Ota yhteys Mielen asiakaspalveluun tai varaa korjaus, jos vika palaa."
+ },
+ "Miele|F10": {
+  "title": "Höyryuunin vedensyöttövika",
+  "causes": [
+   "Syöttöpumppu on kuiva pitkän käyttämättömyyden jälkeen.",
+   "Musta imuletku on löysällä tai vaurioitunut.",
+   "Osmoosivesi on liian puhdasta anturille."
+  ],
+  "steps": [
+   "Asenna musta imuletku takaisin pystyyn säiliöön.",
+   "Sammuta osmoosijärjestelmä, jos voit.",
+   "Tai lisää veteen ripaus suolaa."
+  ],
+  "technician": "Ota yhteys Mielen asiakaspalveluun tai varaa korjaus, jos vika palaa."
+ },
+ "Miele|F11": {
+  "title": "Höyrystin ei saa tyhjennettyä vettä",
+  "causes": [
+   "Poistossa tai elektrodissa on kalkkia.",
+   "Letkut ovat tukossa tai jumissa."
+  ],
+  "steps": [
+   "Poista uunin kalkki käyttöohjeessa kuvatulla tavalla.",
+   "Aseta veden kovuus maksimiin 6000- ja 7000-sarjoissa.",
+   "Älä toista kalkinpoistoa vahvemmalla liuoksella."
+  ],
+  "technician": "Ota yhteys Mielen asiakaspalveluun tai varaa korjaus, jos vika palaa."
+ },
+ "Miele|F12": {
+  "title": "Höyryuuni ei saa vettä",
+  "causes": [
+   "Veden sisääntulon venttiili on kiinni.",
+   "Veden sisääntulon suodatin on tukossa."
+  ],
+  "steps": [
+   "Avaa vesiventtiili ja käynnistä uudelleen.",
+   "Puhdista veden sisääntulon suodatin.",
+   "Sammuta uuni ja sulje venttiili, jos epäilet letkun olevan viallinen."
+  ],
+  "technician": "Soita Mielelle tai putkimiehelle, jos letku näyttää vialliselta."
+ },
+ "Miele|F13": {
+  "title": "Höyryuunin tila liian kuuma",
+  "causes": [
+   "Veden sisääntulon venttiili voi olla kiinni.",
+   "Vesisuutin voi tarvita kalkinpoistoa."
+  ],
+  "steps": [
+   "Avaa veden sisääntulon venttiili kokonaan.",
+   "Poista suuttimen kalkki ja huuhtele se, jos ongelma palaa.",
+   "Käytä uunikintaita."
+  ],
+  "technician": "Ota yhteys Mielen asiakaspalveluun tai varaa korjaus, jos vika palaa."
+ },
+ "Miele|F14": {
+  "title": "Höyrystimessä ei ole tarpeeksi vettä",
+  "causes": [
+   "Höyrystimeen ei tule tarpeeksi vettä."
+  ],
+  "steps": [
+   "Sammuta uuni ja kytke se uudelleen päälle.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Sammuta ja ota yhteys Mieleen, jos F14 tulee uudelleen näkyviin."
+ },
+ "Miele|F20": {
+  "title": "Höyryuuni ei lämpene",
+  "causes": [
+   "Lämpötila ei noussut 2 astetta 5 minuutissa.",
+   "Suuri määrä pakasteruokaa voi aiheuttaa tämän."
+  ],
+  "steps": [
+   "Sammuta uuni, kytke se päälle ja käynnistä uudelleen.",
+   "Työnnä vesisäiliö paikalleen, kunnes se napsahtaa.",
+   "Käytä tiivisteessä vain mukana toimitettua silikonirasvaa."
+  ],
+  "technician": "Soita Mielelle, jos liittimen tiiviste näyttää halkeilleelta tai siihen kertyy vettä."
+ },
+ "Miele|F27": {
+  "title": "Sähkökatko kypsennyksen tai kalkinpoiston aikana",
+  "causes": [
+   "Virta katkesi kypsennysohjelman aikana (F27).",
+   "E04 tarkoittaa, että virta katkesi kalkinpoiston aikana."
+  ],
+  "steps": [
+   "F27:ssä aseta uusi aika ja paina Start/Stop.",
+   "E04:ssä odota, kunnes näyttö laskee alaspäin lukemasta 0:06.",
+   "Sammuta uuni ja kytke se uudelleen päälle."
+  ],
+  "technician": "Ota yhteys Mielen asiakaspalveluun tai varaa korjaus, jos vika palaa."
+ },
+ "Miele|F74": {
+  "title": "Höyryuunin tekninen vika",
+  "causes": [
+   "Tekninen vika, jota ei voi korjata kotona."
+  ],
+  "steps": [
+   "Älä yritä korjata sitä itse.",
+   "Kirjoita muistiin koodi ja mallinumero.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Varaa Mielen huoltomiehen käynti."
+ },
+ "Miele|F95": {
+  "title": "Kalkki tukkii vedenpinnan kytkimen",
+  "causes": [
+   "Kalkki tukkii vedenpinnan kytkimen."
+  ],
+  "steps": [
+   "Poista uunin kalkki käyttöohjeen mukaisesti.",
+   "Käytä Mielen hoitotuotteita.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Ota yhteys Mielen asiakaspalveluun tai varaa korjaus, jos vika palaa."
+ },
+ "Miele|F235": {
+  "title": "Elektroniikkamoduulin vika",
+  "causes": [
+   "Elektroniikkamoduuli on viallinen."
+  ],
+  "steps": [
+   "Älä yritä korjata itse.",
+   "Kirjoita koodi muistiin.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Varaa Mielen korjaus."
+ },
+ "Electrolux|F1": {
+  "title": "Uunin luukku ei lukitu",
+  "causes": [
+   "Pyrolyysimallit: puhdistustoiminto on päällä eikä luukku sulkeudu.",
+   "Muut mallit: elektroniikkavika."
+  ],
+  "steps": [
+   "Tarkista, että luukun yläosa on ehjä.",
+   "Noudata käyttöohjetta, jos luukku on poistettu.",
+   "Ota yhteys huoltoon, jos ongelma pysyy."
+  ],
+  "technician": "Varaa Electroluxin korjaus, jos koodi palaa."
+ },
+ "Electrolux|F102": {
+  "title": "Luukun lukon anturin vika",
+  "causes": [
+   "Luukku ei ole kokonaan kiinni.",
+   "Luukun lukko tai elektroniikka on viallinen."
+  ],
+  "steps": [
+   "Sulje luukku tiukasti.",
+   "Katkaise virta muutamaksi minuutiksi ja kytke se sitten takaisin.",
+   "Tarkista talon sulake tai vikavirtasuoja."
+  ],
+  "technician": "Varaa Electroluxin korjaus, jos koodi palaa."
+ },
+ "Electrolux|F111": {
+  "title": "Ruokamittari viallinen tai ei liitetty",
+  "causes": [
+   "Mittaria ei ole työnnetty kokonaan liitäntään.",
+   "Mittari tai sen johto on vaurioitunut."
+  ],
+  "steps": [
+   "Irrota mittari ja liitä se uudelleen tiukasti.",
+   "Tarkista, onko kontakteissa taipumia tai johdossa vaurioita.",
+   "Katkaise uunin virta verkkovirrasta 30 sekunniksi."
+  ],
+  "technician": "Varaa Electroluxin korjaus, jos koodi palaa."
+ },
+ "Electrolux|F104": {
+  "title": "Lämpötila-anturi alueensa ulkopuolella",
+  "causes": [
+   "Uunin lämpötila-anturi on alueensa ulkopuolella.",
+   "Uuni ei ehkä lämpene tai se voi pysähtyä."
+  ],
+  "steps": [
+   "Katkaise uunin virta verkkovirrasta 30 sekunniksi.",
+   "Kytke se takaisin päälle.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Ota yhteys valtuutettuun huoltoliikkeeseen."
+ },
+ "Electrolux|F105": {
+  "title": "Lämpötila-anturin liian korkean lämpötilan hälytys",
+  "causes": [
+   "Anturi havaitsi odotettua korkeamman lämpötilan."
+  ],
+  "steps": [
+   "Sammuta uuni ja anna sen jäähtyä.",
+   "Katkaise virta 30 sekunniksi ja palauta se sitten.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Ota yhteys valtuutettuun huoltoliikkeeseen."
+ },
+ "Electrolux|F215": {
+  "title": "Verkkoon liitetyn uunin ohjelmistovika",
+  "causes": [
+   "Verkkoon liitetyn uunin ohjelmisto-ongelma."
+  ],
+  "steps": [
+   "Asenna sovellus uudelleen ja yhdistä uuni uudelleen.",
+   "Irrota uuni sähköstä 30 minuutiksi ja kytke se sitten takaisin.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Varaa korjaus, jos näytössä näkyy F215."
+ },
+ "Electrolux|F601": {
+  "title": "Uunin Wi-Fi-signaalin ongelma",
+  "causes": [
+   "Wi-Fi-signaalissa on ongelma."
+  ],
+  "steps": [
+   "Tarkista verkkoyhteytesi.",
+   "Siirrä reititin lähemmäs.",
+   "Nollaa uunin Wi-Fi-asetukset ja tee asetukset uudelleen.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Varaa korjaus, jos se ei yhdisty."
+ },
+ "Electrolux|F604": {
+  "title": "Ensimmäinen Wi-Fi-yhteysyritys epäonnistui",
+  "causes": [
+   "Ensimmäinen yritys yhdistää Wi-Fi-verkkoon epäonnistui."
+  ],
+  "steps": [
+   "Sammuta uuni ja kytke se uudelleen päälle.",
+   "Yritä yhdistää uudelleen.",
+   "Tarkista internetyhteytesi.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Varaa korjaus, jos se ei yhdisty."
+ },
+ "Electrolux|E0020": {
+  "title": "Uunin valo ei toimi",
+  "causes": [
+   "Uunin polttimo on viallinen."
+  ],
+  "steps": [
+   "Sammuta uuni ja anna sen jäähtyä.",
+   "Tarkista polttimo ja vaihda se, jos se on viallinen.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Ota yhteys huoltoliikkeeseen, jos polttimo on kunnossa."
+ },
+ "Electrolux|C1": {
+  "title": "Pyrolyysipuhdistus estynyt teleskooppikiskojen vuoksi",
+  "causes": [
+   "Uunissa on teleskooppikiskot."
+  ],
+  "steps": [
+   "Poista kiskot, hyllyt ja sivukiskot.",
+   "Aloita Pyro Clean uudelleen.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Ota yhteys huoltoon, jos ongelma pysyy."
+ },
+ "Electrolux|C2": {
+  "title": "Pyrolyysipuhdistus estynyt ruokamittarin vuoksi",
+  "causes": [
+   "Ruokamittari on kytketty liitäntään."
+  ],
+  "steps": [
+   "Irrota mittari liitännästään.",
+   "Aloita Pyro Clean uudelleen.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Ota yhteys huoltoon, jos ongelma pysyy."
+ },
+ "Electrolux|C3": {
+  "title": "Pyrolyysipuhdistus estynyt avoimen luukun vuoksi",
+  "causes": [
+   "Luukku on auki tai ei ole kokonaan kiinni."
+  ],
+  "steps": [
+   "Sulje luukku kokonaan.",
+   "Aloita Pyro Clean uudelleen.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Ota yhteys huoltoon, jos ongelma pysyy."
+ },
+ "Electrolux|C4": {
+  "title": "Pyrolyysipuhdistus estynyt Steam Bake -toiminnon vuoksi",
+  "causes": [
+   "Steam Bake on yhä aktiivinen."
+  ],
+  "steps": [
+   "Paina Steam Bake -painiketta, kunnes sen valo sammuu.",
+   "Aloita Pyro Clean uudelleen.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Ota yhteys huoltoon, jos ongelma pysyy."
+ },
+ "AEG|F": {
+  "title": "Keittoastiaa ei havaita tai keittotason vika",
+  "causes": [
+   "Sopimaton pannu tai pannu nostettu pois.",
+   "Uudessa asennuksessa kyse on asennusongelmasta."
+  ],
+  "steps": [
+   "Tarkista, että magneetti tarttuu pannun pohjaan.",
+   "Aseta pannu keskelle keittoaluetta.",
+   "Pidä keittotaso ja pannu kuivina.",
+   "Katkaise virta verkkovirrasta 30 sekunniksi."
+  ],
+  "technician": "Varaa asentaja, jos F pysyy tai siinä on numero."
+ },
+ "AEG|F2": {
+  "title": "SenseBoil: tyhjä kattila tai öljy",
+  "causes": [
+   "Kattila on tyhjä tai siinä on öljyä tai muuta nestettä kuin vettä."
+  ],
+  "steps": [
+   "Kuivaa keittotason pinta.",
+   "Älä lämmitä tyhjää kattilaa.",
+   "Käytä SenseBoilia vain veden kanssa.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Ei vika, jos ilmoitus poistuu."
+ },
+ "AEG|F3": {
+  "title": "SenseBoil: väärä vesimäärä",
+  "causes": [
+   "Kattilassa on liikaa tai liian vähän vettä.",
+   "Muuta ruokaa kuin vettä tai perunoita."
+  ],
+  "steps": [
+   "Kuivaa keittotason pinta.",
+   "Täytä kattila puoliksi tai kolme neljäsosaa, 1–5 litraa.",
+   "Keitä vain vettä ja perunoita."
+  ],
+  "technician": "Ei vika, jos ilmoitus poistuu."
+ },
+ "AEG|E2": {
+  "title": "Keittotason LED- tai anturivirhe",
+  "causes": [
+   "Induktiokeittotasoilla LED-valaistuksen virhe.",
+   "Teppanyakissa lämpötila-anturin virhe."
+  ],
+  "steps": [
+   "Katkaise virta 30 sekunniksi.",
+   "Kytke virta takaisin.",
+   "Kirjoita muistiin täsmällinen koodi.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Varaa AEG:n korjaus, jos koodi palaa."
+ },
+ "AEG|E3": {
+  "title": "Keittotaso liitetty väärään jännitteeseen",
+  "causes": [
+   "Mahdollinen ylijännite tai virheellinen johdotus."
+  ],
+  "steps": [
+   "Lopeta keittotason käyttö.",
+   "Pyydä asentajaa tarkistamaan syöttö ja johdotus.",
+   "Älä korjaa sähkölaitteita itse.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Soita pätevälle sähköasentajalle tai AEG:n huoltoon."
+ },
+ "AEG|E4": {
+  "title": "Keittotason ylikuumenemissuoja aktiivinen",
+  "causes": [
+   "Keittotaso ylikuumeni.",
+   "Sopimaton keittoastia tai huono asennus."
+  ],
+  "steps": [
+   "Sammuta ja poista keittoastiat.",
+   "Testaa pannu magneetilla.",
+   "Katkaise virta 30 sekunniksi.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Varaa AEG:n korjaus, jos koodi palaa."
+ },
+ "AEG|E5": {
+  "title": "Keittotason vaihe- tai jänniteongelma",
+  "causes": [
+   "Virransyötössä on vaihe- tai jänniteongelma."
+  ],
+  "steps": [
+   "Katkaise erotuskytkin 30 sekunniksi.",
+   "Kytke virta takaisin ja testaa.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Varaa AEG:n korjaus, jos koodi palaa."
+ },
+ "AEG|E6": {
+  "title": "Keittotason virransyöttöongelma",
+  "causes": [
+   "Usein virheellinen asennus, esimerkiksi 13 A:n pistorasia 16 A:n keittotasolle."
+  ],
+  "steps": [
+   "Sammuta keittotaso ja kytke se uudelleen päälle.",
+   "Irrota se sähköstä 30 sekunniksi.",
+   "Tarkistuta syöttö."
+  ],
+  "technician": "Varaa AEG:n korjaus, jos koodi palaa."
+ },
+ "AEG|E7": {
+  "title": "Keittotason jäähdytystuulettimen vika",
+  "causes": [
+   "Tuuletin tukossa tai viallinen uudemmissa malleissa."
+  ],
+  "steps": [
+   "Tarkista, ettei mikään tuki tuuletinta keittotason alla.",
+   "Katkaise virta 30 sekunniksi.",
+   "Kytke virta uudelleen päälle.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Varaa AEG:n korjaus, jos koodi palaa."
+ },
+ "AEG|E8": {
+  "title": "Keittotason elektroniikka- tai vaihevika",
+  "causes": [
+   "Vaihe puuttuu asennuksen jälkeen.",
+   "Elektroniikan tiedonsiirtovirhe."
+  ],
+  "steps": [
+   "Tarkista johdotus käyttöohjetta vasten.",
+   "Katkaise virta 30 sekunniksi.",
+   "Lopeta käyttö, jos ongelma pysyy."
+  ],
+  "technician": "Varaa AEG:n korjaus, jos koodi palaa."
+ },
+ "AEG|E9": {
+  "title": "Keittotason elektroniikkamoduulin vika",
+  "causes": [
+   "Elektroniikkamoduulissa on vika."
+  ],
+  "steps": [
+   "Katkaise virta verkkovirrasta 30 sekunniksi.",
+   "Älä käytä keittotasoa, jos vika palaa.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Varaa AEG:n korjaus, jos koodi palaa."
+ },
+ "Whirlpool|F0 E0": {
+  "title": "Uunin ohjauksen tunnistamaton vika",
+  "causes": [
+   "Ohjaus ei pysty tunnistamaan vikaa."
+  ],
+  "steps": [
+   "Katkaise lieden sulake minuutiksi.",
+   "Kytke se takaisin päälle.",
+   "Seuraa uunia minuutin ajan nähdäksesi, palaako koodi."
+  ],
+  "technician": "Ota yhteys Whirlpoolin huoltoon, jos koodi palaa."
+ },
+ "Whirlpool|F1": {
+  "title": "Mahdollinen anturi-, ohjaus- tai johdotusvika",
+  "causes": [
+   "Uunin lämpötila-anturin, ohjauksen tai johdotuksen ongelma."
+  ],
+  "steps": [
+   "Katkaise lieden sulake minuutiksi.",
+   "Kytke se takaisin päälle.",
+   "Seuraa uunia minuutin ajan nähdäksesi, palaako koodi."
+  ],
+  "technician": "Ota yhteys Whirlpoolin huoltoon, jos koodi palaa."
+ },
+ "Whirlpool|F2": {
+  "title": "Mahdollinen anturi-, ohjaus- tai johdotusvika",
+  "causes": [
+   "Uunin lämpötila-anturin, ohjauksen tai johdotuksen ongelma."
+  ],
+  "steps": [
+   "Katkaise lieden sulake minuutiksi.",
+   "Kytke se takaisin päälle.",
+   "Seuraa uunia minuutin ajan nähdäksesi, palaako koodi."
+  ],
+  "technician": "Ota yhteys Whirlpoolin huoltoon, jos koodi palaa."
+ },
+ "Whirlpool|F2 E1": {
+  "title": "Näppäimistön tai ohjauksen ongelma",
+  "causes": [
+   "Näppäimistön, ohjauksen tai johdotuksen ongelma.",
+   "Ritilä voi olla huonosti paikallaan."
+  ],
+  "steps": [
+   "Tarkista, että ritilät ovat suorassa.",
+   "Vaihda niiden paikkaa, jos ne huojuvat.",
+   "Katkaise sulake minuutiksi."
+  ],
+  "technician": "Ota yhteys Whirlpoolin huoltoon, jos koodi palaa."
+ },
+ "Whirlpool|F3": {
+  "title": "Mahdollinen uunin ohjauksen tai johdotuksen vika",
+  "causes": [
+   "Uunin ohjauksen tai johdotuksen ongelma."
+  ],
+  "steps": [
+   "Katkaise lieden sulake minuutiksi.",
+   "Kytke se takaisin päälle.",
+   "Seuraa uunia minuutin ajan nähdäksesi, palaako koodi."
+  ],
+  "technician": "Ota yhteys Whirlpoolin huoltoon, jos koodi palaa."
+ },
+ "Whirlpool|F5": {
+  "title": "Uunin luukun salvan ongelma",
+  "causes": [
+   "Luukun salvan, kytkimen tai johdotuksen ongelma."
+  ],
+  "steps": [
+   "Katkaise lieden sulake minuutiksi.",
+   "Kytke se takaisin päälle.",
+   "Seuraa uunia minuutin ajan nähdäksesi, palaako koodi."
+  ],
+  "technician": "Ota yhteys Whirlpoolin huoltoon, jos koodi palaa."
+ },
+ "Whirlpool|F5 E0": {
+  "title": "Uunin luukun salvan ongelma",
+  "causes": [
+   "Luukun salvan, kytkimen tai johdotuksen ongelma."
+  ],
+  "steps": [
+   "Katkaise lieden sulake minuutiksi.",
+   "Kytke se takaisin päälle.",
+   "Seuraa uunia minuutin ajan nähdäksesi, palaako koodi."
+  ],
+  "technician": "Ota yhteys Whirlpoolin huoltoon, jos koodi palaa."
+ },
+ "Whirlpool|F6": {
+  "title": "Mahdollinen uunin ohjauksen tai johdotuksen vika",
+  "causes": [
+   "Uunin ohjauksen tai johdotuksen ongelma."
+  ],
+  "steps": [
+   "Katkaise lieden sulake minuutiksi.",
+   "Kytke se takaisin päälle.",
+   "Seuraa uunia minuutin ajan nähdäksesi, palaako koodi."
+  ],
+  "technician": "Ota yhteys Whirlpoolin huoltoon, jos koodi palaa."
+ },
+ "Whirlpool|F7 E0": {
+  "title": "Luukun salpakokoonpanon ongelma",
+  "causes": [
+   "Luukun salpakokoonpanon tai johdotuksen ongelma."
+  ],
+  "steps": [
+   "Katkaise lieden sulake minuutiksi.",
+   "Kytke se takaisin päälle.",
+   "Seuraa uunia minuutin ajan nähdäksesi, palaako koodi."
+  ],
+  "technician": "Ota yhteys Whirlpoolin huoltoon, jos koodi palaa."
+ },
+ "Whirlpool|F8 E0": {
+  "title": "Uunin jäähdytystuuletin pyörii hitaasti",
+  "causes": [
+   "Ilmavirran rajoitus.",
+   "Viallinen jäähdytystuuletin tai johdotus."
+  ],
+  "steps": [
+   "Katkaise lieden sulake minuutiksi.",
+   "Kytke se takaisin päälle.",
+   "Seuraa uunia minuutin ajan nähdäksesi, palaako koodi."
+  ],
+  "technician": "Ota yhteys Whirlpoolin huoltoon, jos koodi palaa."
+ },
+ "Whirlpool|F9-1": {
+  "title": "Luukun salvan tai lukituskytkimen ongelma",
+  "causes": [
+   "Luukun salvan, lukituskytkimen tai johdotuksen ongelma."
+  ],
+  "steps": [
+   "Katkaise lieden sulake minuutiksi.",
+   "Kytke se takaisin päälle.",
+   "Seuraa uunia minuutin ajan nähdäksesi, palaako koodi."
+  ],
+  "technician": "Ota yhteys Whirlpoolin huoltoon, jos koodi palaa."
+ },
+ "LG|F1": {
+  "title": "Ylemmän uunin termistorivirhe",
+  "causes": [
+   "Ylemmän uunin lämpötila-anturin vika."
+  ],
+  "steps": [
+   "Paina CLEAR/OFF ja yritä toimintoa uudelleen.",
+   "Katkaise lieden sulake 30 sekunniksi.",
+   "Kytke se takaisin päälle.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Pyydä LG:n korjausta, jos virhe palaa toistuvasti."
+ },
+ "LG|F2": {
+  "title": "Ylemmän uunin termistorivirhe",
+  "causes": [
+   "Ylemmän uunin lämpötila-anturin vika."
+  ],
+  "steps": [
+   "Paina CLEAR/OFF ja yritä toimintoa uudelleen.",
+   "Katkaise lieden sulake 30 sekunniksi.",
+   "Kytke se takaisin päälle.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Pyydä LG:n korjausta, jos virhe palaa toistuvasti."
+ },
+ "LG|F3": {
+  "title": "Kosketuspaneelin anturinäppäimen virhe",
+  "causes": [
+   "Kosketuspaneelin näppäinanturin vika."
+  ],
+  "steps": [
+   "Paina CLEAR/OFF ja yritä toimintoa uudelleen.",
+   "Katkaise lieden sulake 30 sekunniksi.",
+   "Kytke se takaisin päälle.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Pyydä LG:n korjausta, jos virhe palaa toistuvasti."
+ },
+ "LG|F6": {
+  "title": "Ylemmän uunin lämmitysvirhe",
+  "causes": [
+   "Ylemmän uunin lämmitysvika."
+  ],
+  "steps": [
+   "Paina CLEAR/OFF ja yritä toimintoa uudelleen.",
+   "Katkaise lieden sulake 30 sekunniksi.",
+   "Kytke se takaisin päälle.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Pyydä LG:n korjausta, jos virhe palaa toistuvasti."
+ },
+ "LG|F7": {
+  "title": "Ylemmän uunin kiertoilmatuulettimen virhe",
+  "causes": [
+   "Kiertoilmatuulettimen vika."
+  ],
+  "steps": [
+   "Paina CLEAR/OFF ja yritä toimintoa uudelleen.",
+   "Katkaise lieden sulake 30 sekunniksi.",
+   "Kytke se takaisin päälle.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Pyydä LG:n korjausta, jos virhe palaa toistuvasti."
+ },
+ "LG|F9": {
+  "title": "Ylempi uuni ei lämpene kunnolla",
+  "causes": [
+   "Ylempi uuni ei lämpene."
+  ],
+  "steps": [
+   "Paina CLEAR/OFF ja yritä toimintoa uudelleen.",
+   "Katkaise lieden sulake 30 sekunniksi.",
+   "Kytke se takaisin päälle.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Pyydä LG:n korjausta, jos virhe palaa toistuvasti."
+ },
+ "LG|F10": {
+  "title": "Ylemmän uunin luukun lukitusvika",
+  "causes": [
+   "Luukun lukitusjärjestelmän vika."
+  ],
+  "steps": [
+   "Paina CLEAR/OFF ja yritä toimintoa uudelleen.",
+   "Katkaise lieden sulake 30 sekunniksi.",
+   "Kytke se takaisin päälle.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Pyydä LG:n korjausta, jos virhe palaa toistuvasti."
+ },
+ "LG|F11": {
+  "title": "Tiedonsiirtovirhe",
+  "causes": [
+   "Kortit eivät kommunikoi."
+  ],
+  "steps": [
+   "Paina CLEAR/OFF ja yritä toimintoa uudelleen.",
+   "Katkaise lieden sulake 30 sekunniksi.",
+   "Kytke se takaisin päälle.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Pyydä LG:n korjausta, jos virhe palaa toistuvasti."
+ },
+ "LG|F20": {
+  "title": "Alemman uunin luukun lukitusvika",
+  "causes": [
+   "Luukun lukitusjärjestelmän vika."
+  ],
+  "steps": [
+   "Paina CLEAR/OFF ja yritä toimintoa uudelleen.",
+   "Katkaise lieden sulake 30 sekunniksi.",
+   "Kytke se takaisin päälle.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Pyydä LG:n korjausta, jos virhe palaa toistuvasti."
+ },
+ "LG|F27": {
+  "title": "Jäähdytystuuletin juuttui itsepuhdistuksessa",
+  "causes": [
+   "Tuuletin juuttui itsepuhdistuksen aikana."
+  ],
+  "steps": [
+   "Paina CLEAR/OFF ja yritä toimintoa uudelleen.",
+   "Katkaise lieden sulake 30 sekunniksi.",
+   "Kytke se takaisin päälle.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Pyydä LG:n korjausta, jos virhe palaa toistuvasti."
+ },
+ "LG|PF": {
+  "title": "Virta katkesi",
+  "causes": [
+   "Laitteen virransyöttö katkesi."
+  ],
+  "steps": [
+   "Paina CLEAR/OFF ja yritä toimintoa uudelleen.",
+   "Katkaise lieden sulake 30 sekunniksi.",
+   "Kytke se takaisin päälle.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Pyydä LG:n korjausta, jos virhe palaa toistuvasti."
+ },
+ "Beko|Er 5": {
+  "title": "Lihamittarin tiedonsiirtovirhe",
+  "causes": [
+   "Uuni ei pysty kommunikoimaan lihamittarin kanssa."
+  ],
+  "steps": [
+   "Irrota lihamittari.",
+   "Käännä valitsin pois-asentoon (0).",
+   "Kypsennä ilman mittaria.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Ota yhteys valtuutettuun huoltoon, jotta voit käyttää mittaria uudelleen."
+ },
+ "Beko|Er 1 - Er 7": {
+  "title": "Uunin tiedonsiirtovirheet",
+  "causes": [
+   "Sisäiset tiedonsiirtovirheet."
+  ],
+  "steps": [
+   "Sammuta uuni.",
+   "Kirjoita muistiin täsmällinen numero.",
+   "Älä käytä uunia.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Ota yhteys valtuutettuun Beko-huoltoon."
+ },
+ "Beko|Er 8 - Er 27": {
+  "title": "Uunin anturivirheet",
+  "causes": [
+   "Uunin anturi on viallinen."
+  ],
+  "steps": [
+   "Sammuta uuni.",
+   "Kirjoita muistiin täsmällinen numero.",
+   "Kirjoita muistiin täsmällinen koodi ja mallinumero arvokilvestä, ennen kuin otat yhteyttä kehenkään."
+  ],
+  "technician": "Ota yhteys valtuutettuun Beko-huoltoon."
+ }
+}

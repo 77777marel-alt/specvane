@@ -35,5 +35,6 @@ export const TOOLS = [
   { id: 'electricity-cost', key: 'energy', cat: 'washing-machines' },
   { id: 'phone-size-comparison', key: 'size', cat: 'smartphones' },
   { id: 'tv-on-your-wall', key: 'wall', cat: 'tvs' },
+  { id: 'will-it-fit', key: 'fit', cat: 'tvs' },
 ] as const
 export type ToolKey = (typeof TOOLS)[number]['key']

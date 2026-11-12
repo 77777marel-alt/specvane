@@ -1,0 +1,1373 @@
+{
+ "Samsung|C-d0": {
+  "title": "Botão preso ou pressionado por tempo demais",
+  "causes": [
+   "Um botão de controle foi mantido pressionado por tempo demais.",
+   "Umidade ou gordura no painel de controle."
+  ],
+  "steps": [
+   "Limpe os botões com um pano úmido e seque o painel.",
+   "Verifique se não há água sobre os controles ou em volta deles.",
+   "Desligue o forno e tente de novo."
+  ],
+  "technician": "Chame a assistência da Samsung se o código voltar depois de um reset completo da energia."
+ },
+ "Samsung|S-01": {
+  "title": "Desligamento de segurança após uso prolongado",
+  "causes": [
+   "O forno funcionou em uma única temperatura por horas demais e se desligou por segurança.",
+   "Isso não é uma falha."
+  ],
+  "steps": [
+   "Desligue o forno.",
+   "Retire os alimentos.",
+   "Inicie um ciclo de cozimento normal de novo."
+  ],
+  "technician": "Não é necessária assistência, a menos que apareça depois de pouco tempo de cozimento."
+ },
+ "Samsung|dC": {
+  "title": "Divisória instalada errada para o modo de cozimento",
+  "causes": [
+   "A divisória foi retirada durante o modo de cozimento duplo.",
+   "Ou a divisória foi colocada durante o modo de cozimento simples."
+  ],
+  "steps": [
+   "Coloque a divisória para o cozimento duplo e retire-a para o cozimento simples.",
+   "Desligue o forno e reinicie-o.",
+   "Se continuar, corte a energia por 30 segundos ou mais e depois restabeleça."
+  ],
+  "technician": "Chame a assistência da Samsung se o código voltar depois de um reset completo da energia."
+ },
+ "Samsung|dE": {
+  "title": "Divisória instalada errada para o modo de cozimento",
+  "causes": [
+   "A divisória foi retirada durante o modo de cozimento duplo.",
+   "Ou foi colocada durante o uso do modo de cozimento simples."
+  ],
+  "steps": [
+   "Mantenha a divisória no cozimento duplo e retire-a no cozimento simples.",
+   "Desligue o forno e reinicie.",
+   "Se continuar, desligue o disjuntor por 30 segundos ou mais e religue."
+  ],
+  "technician": "Chame a assistência da Samsung se o código voltar depois de um reset completo da energia."
+ },
+ "Samsung|C-d1": {
+  "title": "Falha na trava da porta",
+  "causes": [
+   "O forno detecta um problema na trava da porta."
+  ],
+  "steps": [
+   "Desligue o forno e ligue-o de novo.",
+   "Se o código continuar, corte a energia no disjuntor por pelo menos 30 segundos e depois religue.",
+   "Não force a porta se ela estiver travada."
+  ],
+  "technician": "Chame a assistência da Samsung se o código voltar depois de um reset completo da energia."
+ },
+ "Samsung|C-20": {
+  "title": "Falha no sensor do forno",
+  "causes": [
+   "O forno informa um problema em um sensor de temperatura."
+  ],
+  "steps": [
+   "Desligue o forno e ligue-o novamente.",
+   "Se o código continuar, corte a energia no disjuntor por pelo menos 30 segundos e depois religue."
+  ],
+  "technician": "Chame a assistência da Samsung se o código voltar depois de um reset completo da energia."
+ },
+ "Samsung|C-21": {
+  "title": "Falha no sensor do forno",
+  "causes": [
+   "O forno informa um problema em um sensor de temperatura."
+  ],
+  "steps": [
+   "Desligue o forno e ligue-o novamente.",
+   "Se o código continuar, corte a energia no disjuntor por pelo menos 30 segundos e depois religue."
+  ],
+  "technician": "Chame a assistência da Samsung se o código voltar depois de um reset completo da energia."
+ },
+ "Samsung|C-22": {
+  "title": "Falha no sensor do forno",
+  "causes": [
+   "O forno informa um problema em um sensor de temperatura."
+  ],
+  "steps": [
+   "Desligue o forno e ligue-o novamente.",
+   "Se o código continuar, corte a energia no disjuntor por pelo menos 30 segundos e depois religue."
+  ],
+  "technician": "Chame a assistência da Samsung se o código voltar depois de um reset completo da energia."
+ },
+ "Samsung|C-F1": {
+  "title": "Erro de leitura ou gravação da memória",
+  "causes": [
+   "Ocorreu um erro quando a placa de controle leu ou gravou a memória (EEPROM)."
+  ],
+  "steps": [
+   "Desligue o forno e ligue-o novamente.",
+   "Se o código continuar, corte a energia no disjuntor por pelo menos 30 segundos e depois religue."
+  ],
+  "technician": "Chame a assistência da Samsung se o código voltar depois de um reset completo da energia."
+ },
+ "Samsung|C-F0": {
+  "title": "As placas principal e secundária não se comunicam",
+  "causes": [
+   "A placa de circuito principal e a placa secundária não conseguem se comunicar."
+  ],
+  "steps": [
+   "Desligue o forno e ligue-o novamente.",
+   "Se o código continuar, corte a energia no disjuntor por pelo menos 30 segundos e depois religue."
+  ],
+  "technician": "Chame a assistência da Samsung se o código voltar depois de um reset completo da energia."
+ },
+ "Samsung|C-F2": {
+  "title": "Problema de comunicação do controlador touch",
+  "causes": [
+   "O controlador touch perde o contato com a placa principal ou secundária o tempo todo."
+  ],
+  "steps": [
+   "Desligue o forno e ligue-o novamente.",
+   "Se o código continuar, corte a energia no disjuntor por pelo menos 30 segundos e depois religue."
+  ],
+  "technician": "Chame a assistência da Samsung se o código voltar depois de um reset completo da energia."
+ },
+ "Samsung|Pr E": {
+  "title": "O forno está pré-aquecendo, mensagem normal",
+  "causes": [
+   "O forno ainda está esquentando até a temperatura definida.",
+   "É uma mensagem normal, não uma falha."
+  ],
+  "steps": [
+   "Mantenha a porta fechada.",
+   "Espere o forno chegar à temperatura definida.",
+   "O código some sozinho."
+  ],
+  "technician": "Não é necessária assistência."
+ },
+ "Bosch|E011": {
+  "title": "Um botão de controle está preso",
+  "causes": [
+   "Um botão foi pressionado por tempo demais ou travou.",
+   "Sujeira ou umidade em volta de um botão."
+  ],
+  "steps": [
+   "Pressione cada botão, um de cada vez, e verifique se ele se move livremente.",
+   "Limpe a área dos controles e seque-a.",
+   "Desligue o forno e ligue-o de novo."
+  ],
+  "technician": "Chame a assistência da Bosch se o E011 continuar depois de limpar os controles."
+ },
+ "Bosch|E115": {
+  "title": "Interior do forno quente demais, porta travada",
+  "causes": [
+   "O interior do forno está quente demais, por isso a trava da porta continua fechada."
+  ],
+  "steps": [
+   "Espere o forno esfriar.",
+   "Apague a mensagem com o botão 0.",
+   "Não force a porta."
+  ],
+  "technician": "Chame a assistência da Bosch se o E115 continuar voltando com o forno frio."
+ },
+ "Bosch|e005": {
+  "title": "A placa de controle e a placa de potência não se comunicam",
+  "causes": [
+   "O painel de controle e a placa de potência perderam a ligação."
+  ],
+  "steps": [
+   "Desligue o fogão no disjuntor.",
+   "Espere cinco minutos e religue o disjuntor.",
+   "Verifique se o código volta."
+  ],
+  "technician": "Chame o suporte da Bosch se o código voltar depois de um reset da energia."
+ },
+ "Bosch|E100": {
+  "title": "Falha na parte eletrônica",
+  "causes": [
+   "O forno detectou uma falha na parte eletrônica."
+  ],
+  "steps": [
+   "Desligue o fogão no disjuntor.",
+   "Espere cinco minutos e religue o disjuntor.",
+   "Teste o forno de novo."
+  ],
+  "technician": "Chame o suporte da Bosch se o código voltar depois de um reset da energia."
+ },
+ "Bosch|e101": {
+  "title": "Falha no sensor de temperatura do forno",
+  "causes": [
+   "O sensor de temperatura não está funcionando como esperado."
+  ],
+  "steps": [
+   "Desligue o fogão no disjuntor.",
+   "Espere cinco minutos e religue o disjuntor.",
+   "Se o forno acabou de ser instalado, peça ao instalador que verifique a fiação do cabo de energia."
+  ],
+  "technician": "Chame o suporte da Bosch se o código voltar depois de um reset da energia."
+ },
+ "Bosch|e126": {
+  "title": "Falha na trava da porta do forno",
+  "causes": [
+   "A trava da porta não está funcionando corretamente, o que costuma ocorrer durante a autolimpeza."
+  ],
+  "steps": [
+   "Cancele o ciclo de autolimpeza.",
+   "Espere a porta destravar.",
+   "Inicie a autolimpeza de novo."
+  ],
+  "technician": "Chame o suporte da Bosch se o código voltar depois de um reset da energia."
+ },
+ "Bosch|E302": {
+  "title": "Painel de controle superaquecido",
+  "causes": [
+   "O painel de controle está quente demais, o que pode ser causado por panelas sobre o cooktop.",
+   "Temperatura ambiente alta."
+  ],
+  "steps": [
+   "Verifique a temperatura do ambiente e onde as panelas estão.",
+   "Deixe o aparelho esfriar.",
+   "Faça um reset da energia de cinco minutos no disjuntor."
+  ],
+  "technician": "Chame o suporte da Bosch se o código voltar depois de um reset da energia."
+ },
+ "Bosch|e310": {
+  "title": "Falha na alimentação elétrica",
+  "causes": [
+   "A tensão da rede pode estar errada ou instável."
+  ],
+  "steps": [
+   "Desligue o fogão no disjuntor.",
+   "Espere cinco minutos e religue o disjuntor.",
+   "Peça a um eletricista que confirme a tensão da sua casa se voltar."
+  ],
+  "technician": "Chame o suporte da Bosch se o código voltar depois de um reset da energia."
+ },
+ "Bosch|ERR/toP": {
+  "title": "Cooktop usado durante a autolimpeza",
+  "causes": [
+   "Uma zona de cozimento foi ligada enquanto o forno fazia a autolimpeza."
+  ],
+  "steps": [
+   "Desligue qualquer zona de cozimento ativa.",
+   "Reinicie o ciclo de autolimpeza.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Não é necessária assistência, a menos que apareça com todas as zonas desligadas."
+ },
+ "Bosch|dE": {
+  "title": "Modo demo ligado, as zonas não aquecem",
+  "causes": [
+   "O modo demo está ativo, por isso as zonas de cozimento ficam frias."
+  ],
+  "steps": [
+   "Desligue o disjuntor ou o fusível do cooktop por 30 segundos.",
+   "Ligue-o novamente.",
+   "Toque em qualquer controle em até três minutos."
+  ],
+  "technician": "Chame o suporte da Bosch se o código voltar depois de um reset da energia."
+ },
+ "Bosch|F1": {
+  "title": "Zona de cozimento superaqueceu e desligou",
+  "causes": [
+   "Uma zona superaqueceu e se desligou para proteger a bancada."
+  ],
+  "steps": [
+   "Deixe a parte eletrônica esfriar.",
+   "Ligue a zona de novo.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Chame o suporte da Bosch se o código voltar depois de um reset da energia."
+ },
+ "Bosch|F6": {
+  "title": "Zona de cozimento superaqueceu e desligou",
+  "causes": [
+   "Uma zona superaqueceu e se desligou para proteger a bancada."
+  ],
+  "steps": [
+   "Deixe a parte eletrônica esfriar.",
+   "Ligue a zona de novo.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Chame o suporte da Bosch se o código voltar depois de um reset da energia."
+ },
+ "Bosch|F2": {
+  "title": "Parte eletrônica superaquecida, zona desligada",
+  "causes": [
+   "A parte eletrônica está quente demais, por isso a zona desligou."
+  ],
+  "steps": [
+   "Deixe o cooktop esfriar.",
+   "Toque em qualquer controle.",
+   "Volte a cozinhar quando a mensagem sumir.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Chame o suporte da Bosch se o código voltar depois de um reset da energia."
+ },
+ "Bosch|F4": {
+  "title": "Parte eletrônica superaquecida",
+  "causes": [
+   "A parte eletrônica está quente demais."
+  ],
+  "steps": [
+   "Deixe o cooktop esfriar.",
+   "Toque em qualquer controle.",
+   "Retome o cozimento quando a mensagem sumir.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Chame o suporte da Bosch se o código voltar depois de um reset da energia."
+ },
+ "Bosch|F5": {
+  "title": "Panela quente perto do painel de controle",
+  "causes": [
+   "Uma panela quente está perto dos controles touch.",
+   "A parte eletrônica corre risco de superaquecer."
+  ],
+  "steps": [
+   "Afaste a panela do painel de controle.",
+   "Espere alguns segundos e toque em qualquer controle.",
+   "Retome o cozimento quando a mensagem sumir."
+  ],
+  "technician": "Chame o suporte da Bosch se o código voltar depois de um reset da energia."
+ },
+ "Bosch|F8": {
+  "title": "A zona funcionou por tempo demais, limite de tempo atingido",
+  "causes": [
+   "Uma zona ficou ligada por muito tempo sem nenhum comando."
+  ],
+  "steps": [
+   "Toque em qualquer controle.",
+   "Configure a zona de novo.",
+   "Continue cozinhando.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Chame o suporte da Bosch se o código voltar depois de um reset da energia."
+ },
+ "Bosch|E7010": {
+  "title": "O cooktop não consegue se conectar à rede ou à coifa",
+  "causes": [
+   "O cooktop perdeu a conexão com a sua rede doméstica ou com a coifa."
+  ],
+  "steps": [
+   "Desligue e ligue o cooktop.",
+   "Verifique se o seu Wi-Fi está funcionando.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Chame o suporte da Bosch se o código voltar depois de um reset da energia."
+ },
+ "Bosch|E9000": {
+  "title": "Tensão da rede fora da faixa normal",
+  "causes": [
+   "A tensão da rede elétrica está alta ou baixa demais."
+  ],
+  "steps": [
+   "Desligue e ligue o cooktop de novo.",
+   "Peça à sua concessionária de energia que verifique a tensão da rede."
+  ],
+  "technician": "Chame a assistência da Bosch se a sua concessionária não encontrar nenhum problema."
+ },
+ "Bosch|E9010": {
+  "title": "Tensão da rede fora da faixa normal",
+  "causes": [
+   "A tensão da rede elétrica está alta ou baixa demais."
+  ],
+  "steps": [
+   "Desligue e ligue o cooktop de novo.",
+   "Peça à sua concessionária de energia que verifique a tensão da rede."
+  ],
+  "technician": "Chame a assistência da Bosch se a sua concessionária não encontrar nenhum problema."
+ },
+ "Bosch|E9011": {
+  "title": "Cooktop não está ligado corretamente",
+  "causes": [
+   "A fiação não corresponde ao diagrama do circuito."
+  ],
+  "steps": [
+   "Desligue a energia no disjuntor.",
+   "Peça a um eletricista qualificado que confira a fiação com o diagrama."
+  ],
+  "technician": "Chame um eletricista qualificado ou o suporte da Bosch."
+ },
+ "Bosch|U400": {
+  "title": "Tensão da rede fora da faixa normal",
+  "causes": [
+   "A tensão da rede está fora dos limites normais."
+  ],
+  "steps": [
+   "Desligue e ligue o cooktop de novo.",
+   "Entre em contato com a sua concessionária de energia para verificar a tensão.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Chame a assistência da Bosch se a rede estiver normal nos testes."
+ },
+ "Siemens|E0111": {
+  "title": "Mensagem de falha eletrônica",
+  "causes": [
+   "A parte eletrônica do forno detectou uma falha.",
+   "Pode ser uma falha pontual."
+  ],
+  "steps": [
+   "Desligue o forno e ligue-o de novo.",
+   "Se a mensagem sumir, foi algo pontual.",
+   "Se voltar, anote o código exato."
+  ],
+  "technician": "Chame a assistência pós-venda da Siemens com o código exato se voltar."
+ },
+ "Neff|E011": {
+  "title": "Botão atribuído de forma permanente",
+  "causes": [
+   "Um botão está pressionado ou atribuído de forma permanente."
+  ],
+  "steps": [
+   "Cancele a atribuição permanente do botão.",
+   "Depois pressione o botão da função de relógio.",
+   "Limpe em volta dos botões.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Chame a assistência da Neff se o E011 não sumir."
+ },
+ "Neff|E300": {
+  "title": "Falha interna na parte eletrônica",
+  "causes": [
+   "Uma falha interna na parte eletrônica do forno."
+  ],
+  "steps": [
+   "Pressione o botão da função de relógio.",
+   "Se continuar, tire o forno da tomada.",
+   "Espere cerca de 10 segundos e ligue de novo.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Chame a assistência da Neff se o código voltar."
+ },
+ "Neff|rrr": {
+  "title": "A energia foi cortada durante o funcionamento",
+  "causes": [
+   "A alimentação elétrica foi interrompida enquanto o forno funcionava."
+  ],
+  "steps": [
+   "Pressione o botão da hora.",
+   "Acerte o relógio de novo.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Não é necessária assistência, a menos que se repita sem queda de energia."
+ },
+ "Miele|E0-E5": {
+  "title": "Códigos de andamento do programa de descalcificação",
+  "causes": [
+   "Esses códigos mostram em qual etapa do programa de descalcificação o forno está.",
+   "E0 é a aspiração da solução, E1 a ativação, E2 a E4 os enxágues, E5 a evaporação."
+  ],
+  "steps": [
+   "Deixe o programa rodar até o fim.",
+   "Não desligue o forno durante a descalcificação."
+  ],
+  "technician": "Não é necessária assistência, a menos que o programa pare."
+ },
+ "Miele|F23": {
+  "title": "A limpeza pirolítica não atingiu a temperatura",
+  "causes": [
+   "O forno não conseguiu esquentar o suficiente para a autolimpeza.",
+   "Há muito resíduo de comida lá dentro."
+  ],
+  "steps": [
+   "Desligue o forno.",
+   "Limpe os depósitos grandes e a sujeira pesada.",
+   "Inicie a limpeza pirolítica de novo."
+  ],
+  "technician": "Entre em contato com o Atendimento ao Cliente da Miele ou agende um reparo se a falha voltar."
+ },
+ "Miele|F32": {
+  "title": "A trava da porta da pirólise não fecha",
+  "causes": [
+   "A trava da porta da autolimpeza não está encaixando.",
+   "Algo pode estar bloqueando a porta."
+  ],
+  "steps": [
+   "Verifique a porta e a área da vedação em busca de objetos ou resíduos.",
+   "Desligue o forno.",
+   "Inicie a limpeza pirolítica de novo."
+  ],
+  "technician": "Entre em contato com o Atendimento ao Cliente da Miele ou agende um reparo se a falha voltar."
+ },
+ "Miele|F33": {
+  "title": "A trava da porta da pirólise não abre",
+  "causes": [
+   "A trava da porta da autolimpeza não foi liberada."
+  ],
+  "steps": [
+   "Desligue o forno para interromper o ciclo de limpeza.",
+   "Tente abrir a porta.",
+   "Não force.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Chame o Atendimento ao Cliente da Miele se a porta continuar travada."
+ },
+ "Miele|F38": {
+  "title": "Falha no módulo eletrônico",
+  "causes": [
+   "O módulo eletrônico do forno tem uma falha técnica."
+  ],
+  "steps": [
+   "Não tente consertar por conta própria.",
+   "Anote o código e o número do seu modelo.",
+   "Agende um reparo.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Agende um técnico da Miele, pois isso não pode ser resolvido em casa."
+ },
+ "Miele|F44": {
+  "title": "Falha técnica detectada",
+  "causes": [
+   "O forno detectou uma falha técnica."
+  ],
+  "steps": [
+   "Desligue no disjuntor ou tire o forno da tomada.",
+   "Deixe-o desligado por 20 segundos.",
+   "Restabeleça a energia e teste.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Entre em contato com o Atendimento ao Cliente da Miele ou agende um reparo se a falha voltar."
+ },
+ "Miele|F54": {
+  "title": "O sensor de temperatura dos alimentos está com defeito",
+  "causes": [
+   "O sensor de temperatura dos alimentos ou a conexão dele está com defeito."
+  ],
+  "steps": [
+   "Retire o sensor da entrada dele.",
+   "A mensagem de falha deve sumir.",
+   "Cozinhe sem o sensor por enquanto.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Entre em contato com o Atendimento ao Cliente da Miele para comprar um sensor novo."
+ },
+ "Miele|F55": {
+  "title": "Forno desligado depois de funcionar por tempo demais",
+  "causes": [
+   "O forno funcionou por um tempo incomum e se desligou por segurança.",
+   "O limite é de 6 horas nos modos grill e de 12 horas nos demais."
+  ],
+  "steps": [
+   "Desligue o forno e ligue-o de novo.",
+   "Inicie um novo processo de cozimento."
+  ],
+  "technician": "Não é necessária assistência, a menos que continue acontecendo em cozimentos curtos."
+ },
+ "Miele|F60": {
+  "title": "Ventilação do forno insuficiente",
+  "causes": [
+   "O duto de ar está bloqueado ou coberto."
+  ],
+  "steps": [
+   "Verifique se nada cobre o duto de ar do forno.",
+   "Desligue o forno da energia e religue.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Entre em contato com o Atendimento ao Cliente da Miele ou agende um reparo se a falha voltar."
+ },
+ "Miele|F134": {
+  "title": "Interior do forno quente demais",
+  "causes": [
+   "O sensor de temperatura informa que o espaço de cozimento está quente demais."
+  ],
+  "steps": [
+   "Desligue o forno e deixe-o esfriar.",
+   "Não tente consertar por conta própria.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Agende um reparo da Miele, pois isso exige um técnico."
+ },
+ "Miele|MES": {
+  "title": "Modo demo ligado, o forno não aquece",
+  "causes": [
+   "O modo demo de showroom está ligado."
+  ],
+  "steps": [
+   "Confirme a mensagem com OK.",
+   "Gire o seletor de modo para 0.",
+   "Abra Configurações, vá até P 9 e defina S 0.",
+   "Mantenha OK pressionado por 4 segundos."
+  ],
+  "technician": "Entre em contato com a Miele se o modo demo voltar."
+ },
+ "Miele|F1": {
+  "title": "Reservatório de água não encaixado",
+  "causes": [
+   "O reservatório de água para bombear a água restante está ausente ou não foi totalmente inserido."
+  ],
+  "steps": [
+   "Empurre o reservatório de água até o fim no forno.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Entre em contato com o Atendimento ao Cliente da Miele ou agende um reparo se a falha voltar."
+ },
+ "Miele|F04": {
+  "title": "Queda de energia durante o cozimento",
+  "causes": [
+   "O forno ficou sem energia durante um programa de cozimento."
+  ],
+  "steps": [
+   "Verifique até onde o cozimento chegou.",
+   "Defina um novo tempo de cozimento, se necessário.",
+   "Pressione Start/Stop para retomar.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Entre em contato com o Atendimento ao Cliente da Miele ou agende um reparo se a falha voltar."
+ },
+ "Miele|F05": {
+  "title": "A água não chega ao forno a vapor",
+  "causes": [
+   "A válvula de entrada de água não está totalmente aberta.",
+   "O bico de água está entupido por calcário."
+  ],
+  "steps": [
+   "Abra totalmente a válvula de entrada de água e reinicie.",
+   "Se voltar, descalcifique o bico de água, usando luvas térmicas.",
+   "Enxágue as partes de água."
+  ],
+  "technician": "Entre em contato com o Atendimento ao Cliente da Miele ou agende um reparo se a falha voltar."
+ },
+ "Miele|F10": {
+  "title": "Falha na entrada de água do forno a vapor",
+  "causes": [
+   "A bomba de alimentação está seca depois de muito tempo sem uso.",
+   "A mangueira de sucção preta está solta ou danificada.",
+   "A água de osmose é pura demais para o sensor."
+  ],
+  "steps": [
+   "Recoloque a mangueira de sucção preta na vertical dentro do reservatório.",
+   "Desligue o sistema de osmose, se puder.",
+   "Ou acrescente uma pitada de sal à água."
+  ],
+  "technician": "Entre em contato com o Atendimento ao Cliente da Miele ou agende um reparo se a falha voltar."
+ },
+ "Miele|F11": {
+  "title": "O gerador de vapor não consegue drenar a água",
+  "causes": [
+   "Calcário no dreno ou no eletrodo.",
+   "Mangueiras entupidas ou presas."
+  ],
+  "steps": [
+   "Descalcifique o forno como descrito no manual.",
+   "Defina a dureza da água no máximo nas séries 6000 e 7000.",
+   "Não repita a descalcificação com uma solução mais forte."
+  ],
+  "technician": "Entre em contato com o Atendimento ao Cliente da Miele ou agende um reparo se a falha voltar."
+ },
+ "Miele|F12": {
+  "title": "O forno a vapor não recebe água",
+  "causes": [
+   "A válvula de entrada de água está fechada.",
+   "O filtro da entrada de água está entupido."
+  ],
+  "steps": [
+   "Abra a válvula de água e reinicie.",
+   "Limpe o filtro da entrada de água.",
+   "Desligue o forno e feche a válvula se suspeitar de uma mangueira com defeito."
+  ],
+  "technician": "Chame a Miele ou um encanador se a mangueira parecer com defeito."
+ },
+ "Miele|F13": {
+  "title": "Compartimento do forno a vapor quente demais",
+  "causes": [
+   "A válvula de entrada de água pode estar fechada.",
+   "O bico de água pode precisar de descalcificação."
+  ],
+  "steps": [
+   "Abra totalmente a válvula de entrada de água.",
+   "Descalcifique e enxágue o bico se voltar.",
+   "Use luvas térmicas."
+  ],
+  "technician": "Entre em contato com o Atendimento ao Cliente da Miele ou agende um reparo se a falha voltar."
+ },
+ "Miele|F14": {
+  "title": "Pouca água no gerador de vapor",
+  "causes": [
+   "Não está chegando água suficiente ao gerador de vapor."
+  ],
+  "steps": [
+   "Desligue o forno e ligue-o de novo.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Desligue e entre em contato com a Miele se o F14 aparecer de novo."
+ },
+ "Miele|F20": {
+  "title": "O forno a vapor não aquece",
+  "causes": [
+   "A temperatura não subiu 2 graus em 5 minutos.",
+   "Grandes quantidades de alimentos congelados podem causar isso."
+  ],
+  "steps": [
+   "Desligue o forno, ligue e reinicie.",
+   "Empurre o reservatório de água até ouvir o clique.",
+   "Use apenas a graxa de silicone fornecida na vedação."
+  ],
+  "technician": "Chame a Miele se a vedação do acoplamento parecer rachada ou se juntar água."
+ },
+ "Miele|F27": {
+  "title": "Queda de energia durante o cozimento ou a descalcificação",
+  "causes": [
+   "A energia foi cortada durante um programa de cozimento (F27).",
+   "E04 significa que a energia foi cortada durante a descalcificação."
+  ],
+  "steps": [
+   "No F27, defina um novo tempo e pressione Start/Stop.",
+   "No E04, espere o visor fazer a contagem regressiva a partir de 0:06.",
+   "Desligue o forno e ligue-o de novo."
+  ],
+  "technician": "Entre em contato com o Atendimento ao Cliente da Miele ou agende um reparo se a falha voltar."
+ },
+ "Miele|F74": {
+  "title": "Falha técnica no forno a vapor",
+  "causes": [
+   "Uma falha técnica que não pode ser resolvida em casa."
+  ],
+  "steps": [
+   "Não tente consertar por conta própria.",
+   "Anote o código e o número do modelo.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Agende uma visita de um técnico da Miele."
+ },
+ "Miele|F95": {
+  "title": "Interruptor de nível de água bloqueado por calcário",
+  "causes": [
+   "O calcário bloqueia o interruptor de nível."
+  ],
+  "steps": [
+   "Descalcifique o forno como no manual.",
+   "Use os produtos de cuidado da Miele.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Entre em contato com o Atendimento ao Cliente da Miele ou agende um reparo se a falha voltar."
+ },
+ "Miele|F235": {
+  "title": "Falha no módulo eletrônico",
+  "causes": [
+   "O módulo eletrônico está com defeito."
+  ],
+  "steps": [
+   "Não tente consertar por conta própria.",
+   "Anote o código.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Agende um reparo da Miele."
+ },
+ "Electrolux|F1": {
+  "title": "A porta do forno não consegue travar",
+  "causes": [
+   "Modelos pirolíticos: a função de limpeza está ligada e a porta não fecha.",
+   "Outros modelos: uma falha eletrônica."
+  ],
+  "steps": [
+   "Verifique se a parte superior da porta está intacta.",
+   "Siga o manual se a porta foi retirada.",
+   "Entre em contato com a assistência se persistir."
+  ],
+  "technician": "Agende um reparo da Electrolux se o código voltar."
+ },
+ "Electrolux|F102": {
+  "title": "Falha no sensor da trava da porta",
+  "causes": [
+   "A porta não está totalmente fechada.",
+   "Trava da porta ou parte eletrônica com defeito."
+  ],
+  "steps": [
+   "Feche a porta com firmeza.",
+   "Corte a energia por alguns minutos e restabeleça.",
+   "Verifique o fusível ou o DR da casa."
+  ],
+  "technician": "Agende um reparo da Electrolux se o código voltar."
+ },
+ "Electrolux|F111": {
+  "title": "Sensor de temperatura dos alimentos com defeito ou desconectado",
+  "causes": [
+   "O sensor não está totalmente encaixado.",
+   "O sensor ou o cabo dele está danificado."
+  ],
+  "steps": [
+   "Desconecte o sensor e conecte-o de novo com firmeza.",
+   "Verifique se há contatos tortos ou fio danificado.",
+   "Desligue o forno na rede elétrica por 30 segundos."
+  ],
+  "technician": "Agende um reparo da Electrolux se o código voltar."
+ },
+ "Electrolux|F104": {
+  "title": "Sensor de temperatura fora da faixa",
+  "causes": [
+   "O sensor de temperatura do forno está fora da faixa.",
+   "O forno pode não aquecer ou pode parar."
+  ],
+  "steps": [
+   "Desligue o forno na rede elétrica por 30 segundos.",
+   "Ligue-o novamente.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Entre em contato com uma Assistência Técnica Autorizada."
+ },
+ "Electrolux|F105": {
+  "title": "Alarme de temperatura alta do sensor",
+  "causes": [
+   "O sensor detectou uma temperatura acima do nível esperado."
+  ],
+  "steps": [
+   "Desligue o forno e deixe-o esfriar.",
+   "Desligue a energia por 30 segundos e restabeleça.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Entre em contato com uma Assistência Técnica Autorizada."
+ },
+ "Electrolux|F215": {
+  "title": "Falha de software no forno conectado",
+  "causes": [
+   "Um problema de software em um forno conectado."
+  ],
+  "steps": [
+   "Reinstale o aplicativo e conecte o forno de novo.",
+   "Tire o forno da tomada por 30 minutos e ligue de novo.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Agende um reparo se o F215 aparecer no visor."
+ },
+ "Electrolux|F601": {
+  "title": "Problema no sinal de Wi-Fi do forno",
+  "causes": [
+   "Há um problema com o sinal de Wi-Fi."
+  ],
+  "steps": [
+   "Verifique a conexão da sua rede.",
+   "Aproxime o roteador.",
+   "Redefina as configurações de Wi-Fi do forno e configure de novo.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Agende um reparo se ele não se conectar."
+ },
+ "Electrolux|F604": {
+  "title": "A primeira tentativa de conexão Wi-Fi falhou",
+  "causes": [
+   "A primeira tentativa de conectar ao Wi-Fi falhou."
+  ],
+  "steps": [
+   "Desligue e ligue o forno.",
+   "Tente conectar de novo.",
+   "Verifique a sua conexão com a internet.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Agende um reparo se ele não se conectar."
+ },
+ "Electrolux|E0020": {
+  "title": "A luz do forno não funciona",
+  "causes": [
+   "A lâmpada do forno está com defeito."
+  ],
+  "steps": [
+   "Desligue o forno e deixe-o esfriar.",
+   "Verifique a lâmpada e troque-a se estiver com defeito.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Entre em contato com uma assistência técnica se a lâmpada estiver boa."
+ },
+ "Electrolux|C1": {
+  "title": "Limpeza pirolítica bloqueada pelos trilhos telescópicos",
+  "causes": [
+   "Há trilhos telescópicos no forno."
+  ],
+  "steps": [
+   "Retire os trilhos, as grades e os suportes laterais.",
+   "Inicie a Pyro Clean de novo.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Entre em contato com a assistência se persistir."
+ },
+ "Electrolux|C2": {
+  "title": "Limpeza pirolítica bloqueada pelo sensor de temperatura dos alimentos",
+  "causes": [
+   "O sensor de temperatura dos alimentos está conectado."
+  ],
+  "steps": [
+   "Desconecte o sensor da entrada dele.",
+   "Inicie a Pyro Clean de novo.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Entre em contato com a assistência se persistir."
+ },
+ "Electrolux|C3": {
+  "title": "Limpeza pirolítica bloqueada pela porta aberta",
+  "causes": [
+   "A porta está aberta ou não está totalmente fechada."
+  ],
+  "steps": [
+   "Feche a porta por completo.",
+   "Inicie a Pyro Clean de novo.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Entre em contato com a assistência se persistir."
+ },
+ "Electrolux|C4": {
+  "title": "Limpeza pirolítica bloqueada pelo Steam Bake",
+  "causes": [
+   "O Steam Bake ainda está ativo."
+  ],
+  "steps": [
+   "Pressione Steam Bake até a luz dele apagar.",
+   "Inicie a Pyro Clean de novo.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Entre em contato com a assistência se persistir."
+ },
+ "AEG|F": {
+  "title": "Panela não detectada ou falha na placa",
+  "causes": [
+   "Panela inadequada ou levantada da placa.",
+   "Em uma instalação nova, um problema de instalação."
+  ],
+  "steps": [
+   "Verifique se um ímã gruda no fundo da panela.",
+   "Centralize a panela na zona.",
+   "Mantenha a placa e a panela secas.",
+   "Desligue na rede elétrica por 30 segundos."
+  ],
+  "technician": "Chame um técnico se o F continuar ou tiver um dígito."
+ },
+ "AEG|F2": {
+  "title": "SenseBoil: panela vazia ou com óleo",
+  "causes": [
+   "A panela está vazia ou contém óleo ou outro líquido que não seja água."
+  ],
+  "steps": [
+   "Seque a superfície da placa.",
+   "Não aqueça uma panela vazia.",
+   "Use o SenseBoil somente com água.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Não é uma falha se o código sumir."
+ },
+ "AEG|F3": {
+  "title": "SenseBoil: quantidade de água errada",
+  "causes": [
+   "Água demais ou de menos na panela.",
+   "Alimentos que não sejam água ou batatas."
+  ],
+  "steps": [
+   "Seque a superfície da placa.",
+   "Encha a panela até a metade ou três quartos, de 1 a 5 litros.",
+   "Ferva apenas água e batatas."
+  ],
+  "technician": "Não é uma falha se o código sumir."
+ },
+ "AEG|E2": {
+  "title": "Erro de LED ou de sensor na placa",
+  "causes": [
+   "Em placas de indução, um erro na iluminação por LED.",
+   "Em teppanyaki, um erro no sensor de temperatura."
+  ],
+  "steps": [
+   "Corte a energia por 30 segundos.",
+   "Ligue de novo.",
+   "Anote o código exato.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Agende um reparo da AEG se o código voltar."
+ },
+ "AEG|E3": {
+  "title": "Placa ligada na tensão errada",
+  "causes": [
+   "Possível sobretensão ou fiação incorreta."
+  ],
+  "steps": [
+   "Pare de usar a placa.",
+   "Peça ao instalador que verifique a alimentação e a fiação.",
+   "Não conserte a parte elétrica por conta própria.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Chame um eletricista qualificado ou a assistência da AEG."
+ },
+ "AEG|E4": {
+  "title": "Proteção contra superaquecimento da placa ativa",
+  "causes": [
+   "A placa superaqueceu.",
+   "Panelas inadequadas ou instalação ruim."
+  ],
+  "steps": [
+   "Desligue e retire as panelas.",
+   "Teste a panela com um ímã.",
+   "Corte a energia por 30 segundos.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Agende um reparo da AEG se o código voltar."
+ },
+ "AEG|E5": {
+  "title": "Problema de fase ou de tensão na placa",
+  "causes": [
+   "Um problema de fase ou de tensão na alimentação elétrica."
+  ],
+  "steps": [
+   "Desligue a chave seccionadora por 30 segundos.",
+   "Ligue e teste.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Agende um reparo da AEG se o código voltar."
+ },
+ "AEG|E6": {
+  "title": "Problema na alimentação elétrica da placa",
+  "causes": [
+   "Costuma ser instalação incorreta, como uma tomada de 13 A para uma placa de 16 A."
+  ],
+  "steps": [
+   "Desligue e ligue a placa.",
+   "Desconecte por 30 segundos.",
+   "Mande verificar a alimentação elétrica."
+  ],
+  "technician": "Agende um reparo da AEG se o código voltar."
+ },
+ "AEG|E7": {
+  "title": "Falha no ventilador de resfriamento da placa",
+  "causes": [
+   "Ventilador bloqueado ou com defeito em modelos mais novos."
+  ],
+  "steps": [
+   "Verifique se nada bloqueia o ventilador embaixo da placa.",
+   "Corte a energia por 30 segundos.",
+   "Ligue de novo.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Agende um reparo da AEG se o código voltar."
+ },
+ "AEG|E8": {
+  "title": "Falha na parte eletrônica ou de fase da placa",
+  "causes": [
+   "Uma fase ausente depois da instalação.",
+   "Erro de comunicação da parte eletrônica."
+  ],
+  "steps": [
+   "Confira a fiação com o manual.",
+   "Corte a energia por 30 segundos.",
+   "Pare de usar se persistir."
+  ],
+  "technician": "Agende um reparo da AEG se o código voltar."
+ },
+ "AEG|E9": {
+  "title": "Falha no módulo eletrônico da placa",
+  "causes": [
+   "Uma falha no módulo eletrônico."
+  ],
+  "steps": [
+   "Desligue na rede elétrica por 30 segundos.",
+   "Não use a placa se voltar.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Agende um reparo da AEG se o código voltar."
+ },
+ "Whirlpool|F0 E0": {
+  "title": "Falha no controle do forno não identificada",
+  "causes": [
+   "O controle não consegue identificar a falha."
+  ],
+  "steps": [
+   "Desligue o disjuntor do fogão por um minuto.",
+   "Ligue-o novamente.",
+   "Observe o forno por um minuto para ver se o código volta."
+  ],
+  "technician": "Entre em contato com a assistência da Whirlpool se o código voltar."
+ },
+ "Whirlpool|F1": {
+  "title": "Possível falha de sensor, controle ou fiação",
+  "causes": [
+   "Problema no sensor de temperatura do forno, no controle ou na fiação."
+  ],
+  "steps": [
+   "Desligue o disjuntor do fogão por um minuto.",
+   "Ligue-o novamente.",
+   "Observe o forno por um minuto para ver se o código volta."
+  ],
+  "technician": "Entre em contato com a assistência da Whirlpool se o código voltar."
+ },
+ "Whirlpool|F2": {
+  "title": "Possível falha de sensor, controle ou fiação",
+  "causes": [
+   "Problema no sensor de temperatura do forno, no controle ou na fiação."
+  ],
+  "steps": [
+   "Desligue o disjuntor do fogão por um minuto.",
+   "Ligue-o novamente.",
+   "Observe o forno por um minuto para ver se o código volta."
+  ],
+  "technician": "Entre em contato com a assistência da Whirlpool se o código voltar."
+ },
+ "Whirlpool|F2 E1": {
+  "title": "Problema no teclado ou no controle",
+  "causes": [
+   "Problema no teclado, no controle ou na fiação.",
+   "Uma grade pode estar mal encaixada."
+  ],
+  "steps": [
+   "Verifique se as grades estão niveladas.",
+   "Troque-as de lugar se balançarem.",
+   "Desligue o disjuntor por um minuto."
+  ],
+  "technician": "Entre em contato com a assistência da Whirlpool se o código voltar."
+ },
+ "Whirlpool|F3": {
+  "title": "Possível falha no controle ou na fiação do forno",
+  "causes": [
+   "Problema no controle ou na fiação do forno."
+  ],
+  "steps": [
+   "Desligue o disjuntor do fogão por um minuto.",
+   "Ligue-o novamente.",
+   "Observe o forno por um minuto para ver se o código volta."
+  ],
+  "technician": "Entre em contato com a assistência da Whirlpool se o código voltar."
+ },
+ "Whirlpool|F5": {
+  "title": "Problema na trava da porta do forno",
+  "causes": [
+   "Problema na trava da porta, no interruptor ou na fiação."
+  ],
+  "steps": [
+   "Desligue o disjuntor do fogão por um minuto.",
+   "Ligue-o novamente.",
+   "Observe o forno por um minuto para ver se o código volta."
+  ],
+  "technician": "Entre em contato com a assistência da Whirlpool se o código voltar."
+ },
+ "Whirlpool|F5 E0": {
+  "title": "Problema na trava da porta do forno",
+  "causes": [
+   "Problema na trava da porta, no interruptor ou na fiação."
+  ],
+  "steps": [
+   "Desligue o disjuntor do fogão por um minuto.",
+   "Ligue-o novamente.",
+   "Observe o forno por um minuto para ver se o código volta."
+  ],
+  "technician": "Entre em contato com a assistência da Whirlpool se o código voltar."
+ },
+ "Whirlpool|F6": {
+  "title": "Possível falha no controle ou na fiação do forno",
+  "causes": [
+   "Problema no controle ou na fiação do forno."
+  ],
+  "steps": [
+   "Desligue o disjuntor do fogão por um minuto.",
+   "Ligue-o novamente.",
+   "Observe o forno por um minuto para ver se o código volta."
+  ],
+  "technician": "Entre em contato com a assistência da Whirlpool se o código voltar."
+ },
+ "Whirlpool|F7 E0": {
+  "title": "Problema no conjunto da trava da porta",
+  "causes": [
+   "Problema no conjunto da trava da porta ou na fiação."
+  ],
+  "steps": [
+   "Desligue o disjuntor do fogão por um minuto.",
+   "Ligue-o novamente.",
+   "Observe o forno por um minuto para ver se o código volta."
+  ],
+  "technician": "Entre em contato com a assistência da Whirlpool se o código voltar."
+ },
+ "Whirlpool|F8 E0": {
+  "title": "Ventilador de resfriamento do forno girando devagar",
+  "causes": [
+   "Restrição no fluxo de ar.",
+   "Ventilador de resfriamento ou fiação com defeito."
+  ],
+  "steps": [
+   "Desligue o disjuntor do fogão por um minuto.",
+   "Ligue-o novamente.",
+   "Observe o forno por um minuto para ver se o código volta."
+  ],
+  "technician": "Entre em contato com a assistência da Whirlpool se o código voltar."
+ },
+ "Whirlpool|F9-1": {
+  "title": "Problema na trava da porta ou no interruptor de travamento",
+  "causes": [
+   "Problema na trava da porta, no interruptor de travamento ou na fiação."
+  ],
+  "steps": [
+   "Desligue o disjuntor do fogão por um minuto.",
+   "Ligue-o novamente.",
+   "Observe o forno por um minuto para ver se o código volta."
+  ],
+  "technician": "Entre em contato com a assistência da Whirlpool se o código voltar."
+ },
+ "LG|F1": {
+  "title": "Erro no termistor do forno superior",
+  "causes": [
+   "Falha no sensor de temperatura do forno superior."
+  ],
+  "steps": [
+   "Pressione CLEAR/OFF e tente a função novamente.",
+   "Desligue o disjuntor do fogão por 30 segundos.",
+   "Ligue-o novamente.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Solicite um reparo da LG se o erro continuar voltando."
+ },
+ "LG|F2": {
+  "title": "Erro no termistor do forno superior",
+  "causes": [
+   "Falha no sensor de temperatura do forno superior."
+  ],
+  "steps": [
+   "Pressione CLEAR/OFF e tente a função novamente.",
+   "Desligue o disjuntor do fogão por 30 segundos.",
+   "Ligue-o novamente.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Solicite um reparo da LG se o erro continuar voltando."
+ },
+ "LG|F3": {
+  "title": "Erro na tecla sensível ao toque do painel",
+  "causes": [
+   "Falha no sensor de uma tecla do painel touch."
+  ],
+  "steps": [
+   "Pressione CLEAR/OFF e tente a função novamente.",
+   "Desligue o disjuntor do fogão por 30 segundos.",
+   "Ligue-o novamente.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Solicite um reparo da LG se o erro continuar voltando."
+ },
+ "LG|F6": {
+  "title": "Erro de aquecimento do forno superior",
+  "causes": [
+   "Falha no aquecimento do forno superior."
+  ],
+  "steps": [
+   "Pressione CLEAR/OFF e tente a função novamente.",
+   "Desligue o disjuntor do fogão por 30 segundos.",
+   "Ligue-o novamente.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Solicite um reparo da LG se o erro continuar voltando."
+ },
+ "LG|F7": {
+  "title": "Erro no ventilador de convecção superior",
+  "causes": [
+   "Falha no ventilador de convecção."
+  ],
+  "steps": [
+   "Pressione CLEAR/OFF e tente a função novamente.",
+   "Desligue o disjuntor do fogão por 30 segundos.",
+   "Ligue-o novamente.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Solicite um reparo da LG se o erro continuar voltando."
+ },
+ "LG|F9": {
+  "title": "O forno superior não aquece direito",
+  "causes": [
+   "O forno superior não está aquecendo."
+  ],
+  "steps": [
+   "Pressione CLEAR/OFF e tente a função novamente.",
+   "Desligue o disjuntor do fogão por 30 segundos.",
+   "Ligue-o novamente.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Solicite um reparo da LG se o erro continuar voltando."
+ },
+ "LG|F10": {
+  "title": "Falha na trava da porta do forno superior",
+  "causes": [
+   "Falha no sistema de travamento da porta."
+  ],
+  "steps": [
+   "Pressione CLEAR/OFF e tente a função novamente.",
+   "Desligue o disjuntor do fogão por 30 segundos.",
+   "Ligue-o novamente.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Solicite um reparo da LG se o erro continuar voltando."
+ },
+ "LG|F11": {
+  "title": "Erro de comunicação",
+  "causes": [
+   "As placas não se comunicam."
+  ],
+  "steps": [
+   "Pressione CLEAR/OFF e tente a função novamente.",
+   "Desligue o disjuntor do fogão por 30 segundos.",
+   "Ligue-o novamente.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Solicite um reparo da LG se o erro continuar voltando."
+ },
+ "LG|F20": {
+  "title": "Falha na trava da porta do forno inferior",
+  "causes": [
+   "Falha no sistema de travamento da porta."
+  ],
+  "steps": [
+   "Pressione CLEAR/OFF e tente a função novamente.",
+   "Desligue o disjuntor do fogão por 30 segundos.",
+   "Ligue-o novamente.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Solicite um reparo da LG se o erro continuar voltando."
+ },
+ "LG|F27": {
+  "title": "Ventilador de resfriamento parado na autolimpeza",
+  "causes": [
+   "O ventilador parou durante a autolimpeza."
+  ],
+  "steps": [
+   "Pressione CLEAR/OFF e tente a função novamente.",
+   "Desligue o disjuntor do fogão por 30 segundos.",
+   "Ligue-o novamente.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Solicite um reparo da LG se o erro continuar voltando."
+ },
+ "LG|PF": {
+  "title": "A energia foi interrompida",
+  "causes": [
+   "A alimentação elétrica do aparelho foi interrompida."
+  ],
+  "steps": [
+   "Pressione CLEAR/OFF e tente a função novamente.",
+   "Desligue o disjuntor do fogão por 30 segundos.",
+   "Ligue-o novamente.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Solicite um reparo da LG se o erro continuar voltando."
+ },
+ "Beko|Er 5": {
+  "title": "Erro de comunicação com o sensor de carne",
+  "causes": [
+   "O forno não consegue se comunicar com o sensor de carne."
+  ],
+  "steps": [
+   "Retire o sensor de carne.",
+   "Coloque o botão na posição desligado (0).",
+   "Cozinhe sem o sensor.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Entre em contato com uma assistência autorizada para voltar a usar o sensor."
+ },
+ "Beko|Er 1 - Er 7": {
+  "title": "Erros de comunicação do forno",
+  "causes": [
+   "Erros de comunicação interna."
+  ],
+  "steps": [
+   "Desligue o forno.",
+   "Anote o número exato.",
+   "Não use o forno.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Consulte uma assistência técnica autorizada da Beko."
+ },
+ "Beko|Er 8 - Er 27": {
+  "title": "Erros de sensor do forno",
+  "causes": [
+   "Um sensor do forno está com defeito."
+  ],
+  "steps": [
+   "Desligue o forno.",
+   "Anote o número exato.",
+   "Anote o código exato e o número do modelo da placa de identificação antes de entrar em contato com alguém."
+  ],
+  "technician": "Consulte uma assistência técnica autorizada da Beko."
+ }
+}

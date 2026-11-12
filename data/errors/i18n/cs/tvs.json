@@ -1,0 +1,654 @@
+{
+ "Roku|Error 009": {
+  "title": "Připojeno k routeru, ale bez internetu",
+  "causes": [
+   "Router je dostupný, ale nemá internet.",
+   "Internetová služba nefunguje."
+  ],
+  "steps": [
+   "Zkontrolujte, zda se na stejné síti dostane online telefon nebo notebook.",
+   "Pokud není online nic, zavolejte svému poskytovateli internetu.",
+   "Pokud ostatní zařízení fungují, restartujte televizor.",
+   "Restartujte router a modem a poté se znovu připojte."
+  ],
+  "technician": "Pokud se chyba po těchto krocích stále vrací, kontaktujte podporu Roku nebo svého poskytovatele internetu."
+ },
+ "Roku|Error 012": {
+  "title": "Problém s kabelovým síťovým připojením",
+  "causes": [
+   "Ethernetový kabel je uvolněný nebo vadný.",
+   "Port routeru nefunguje."
+  ],
+  "steps": [
+   "Zasuňte ethernetový kabel pevně do televizoru i do routeru.",
+   "Zkuste jiný kabel nebo jiný port routeru.",
+   "Restartujte televizor, poté router a modem.",
+   "Zkuste krátce Wi-Fi, abyste zjistili, zda funguje samotný internet."
+  ],
+  "technician": "Pokud se chyba po těchto krocích stále vrací, kontaktujte podporu Roku nebo svého poskytovatele internetu."
+ },
+ "Roku|Error 013": {
+  "title": "Kabelové připojení nemá přístup k internetu",
+  "causes": [
+   "Router nemá internet.",
+   "Ethernetový kabel není dobře zasunutý."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je online jiné zařízení.",
+   "Pokud ano, restartujte televizor.",
+   "Pokud ne, odpojte a znovu zapojte ethernetový kabel na obou koncích.",
+   "Před voláním poskytovateli restartujte router."
+  ],
+  "technician": "Pokud se chyba po těchto krocích stále vrací, kontaktujte podporu Roku nebo svého poskytovatele internetu."
+ },
+ "Roku|Error 014": {
+  "title": "Nelze se připojit k bezdrátové síti",
+  "causes": [
+   "Byl zvolen špatný název sítě.",
+   "Bylo zadáno špatné heslo.",
+   "Router nebo televizor je třeba restartovat."
+  ],
+  "steps": [
+   "Zkontrolujte, zda jste zvolili správný název sítě.",
+   "Zadejte heslo znovu; rozlišují se velká a malá písmena.",
+   "Restartujte televizor a router.",
+   "Zkuste se připojit znovu."
+  ],
+  "technician": "Pokud se chyba po těchto krocích stále vrací, kontaktujte podporu Roku nebo svého poskytovatele internetu."
+ },
+ "Roku|Error 014.20": {
+  "title": "Slabý signál Wi-Fi brání připojení",
+  "causes": [
+   "Televizor je příliš daleko od routeru.",
+   "Stěny nebo předměty signál zeslabují."
+  ],
+  "steps": [
+   "Přesuňte televizor nebo router blíže, nebo router umístěte výše.",
+   "Restartujte router a televizor.",
+   "Pokud má váš router dvě pásma, zkuste druhé.",
+   "Znovu se připojte k síti."
+  ],
+  "technician": "Pokud se chyba po těchto krocích stále vrací, kontaktujte podporu Roku nebo svého poskytovatele internetu."
+ },
+ "Roku|Error 014.30": {
+  "title": "Připojení k Wi-Fi selhalo, slabý signál",
+  "causes": [
+   "Slabý signál Wi-Fi.",
+   "Dočasná porucha routeru nebo televizoru."
+  ],
+  "steps": [
+   "Restartujte router a televizor.",
+   "Přesuňte televizor blíže k routeru.",
+   "Znovu se připojte k Wi-Fi.",
+   "Pokud je k dispozici, zkuste druhé pásmo routeru."
+  ],
+  "technician": "Pokud se chyba po těchto krocích stále vrací, kontaktujte podporu Roku nebo svého poskytovatele internetu."
+ },
+ "Roku|Error 014.40": {
+  "title": "Špatné heslo nebo omezení routeru",
+  "causes": [
+   "Heslo k Wi-Fi bylo zadáno chybně.",
+   "Router blokuje neznámá zařízení."
+  ],
+  "steps": [
+   "Zkontrolujte název sítě a zadejte heslo znovu.",
+   "Pokud router filtruje zařízení, přidejte bezdrátovou adresu MAC televizoru.",
+   "Restartujte televizor a router.",
+   "Zkuste to znovu."
+  ],
+  "technician": "Pokud se chyba po těchto krocích stále vrací, kontaktujte podporu Roku nebo svého poskytovatele internetu."
+ },
+ "Roku|Error 014.41": {
+  "title": "Špatné heslo nebo omezení routeru",
+  "causes": [
+   "Heslo k Wi-Fi bylo zadáno chybně.",
+   "Router blokuje neznámá zařízení."
+  ],
+  "steps": [
+   "Zkontrolujte název sítě a heslo zadejte znovu pečlivě.",
+   "Pokud router filtruje zařízení, povolte bezdrátovou adresu MAC televizoru.",
+   "Restartujte televizor a router.",
+   "Zkuste to znovu."
+  ],
+  "technician": "Pokud se chyba po těchto krocích stále vrací, kontaktujte podporu Roku nebo svého poskytovatele internetu."
+ },
+ "Roku|Error 014.50": {
+  "title": "Připojení k Wi-Fi selhalo, slabý signál",
+  "causes": [
+   "Slabý signál Wi-Fi.",
+   "Dočasná porucha routeru nebo televizoru."
+  ],
+  "steps": [
+   "Restartujte router a televizor.",
+   "Přesuňte televizor blíže k routeru.",
+   "Znovu se připojte k Wi-Fi.",
+   "Pokud je k dispozici, zkuste druhé pásmo routeru."
+  ],
+  "technician": "Pokud se chyba po těchto krocích stále vrací, kontaktujte podporu Roku nebo svého poskytovatele internetu."
+ },
+ "Roku|Error 016": {
+  "title": "Při otevírání kanálu se přerušilo připojení",
+  "causes": [
+   "Síť vypadla během spouštění aplikace.",
+   "Slabý signál Wi-Fi."
+  ],
+  "steps": [
+   "Na obrazovce zvolte Set up connection a řiďte se pokyny.",
+   "Restartujte televizor a router.",
+   "Zkontrolujte sílu signálu Wi-Fi.",
+   "Přesuňte televizor a router blíže k sobě."
+  ],
+  "technician": "Pokud se chyba po těchto krocích stále vrací, kontaktujte podporu Roku nebo svého poskytovatele internetu."
+ },
+ "Roku|Error 017": {
+  "title": "Špatná síla bezdrátového signálu",
+  "causes": [
+   "Slabý signál Wi-Fi u televizoru.",
+   "Mezi televizorem a routerem jsou překážky."
+  ],
+  "steps": [
+   "Přesuňte televizor a router blíže k sobě.",
+   "Odstraňte překážky mezi nimi.",
+   "Restartujte televizor a router.",
+   "Pokud má televizor port, použijte ethernetový kabel."
+  ],
+  "technician": "Pokud se chyba po těchto krocích stále vrací, kontaktujte podporu Roku nebo svého poskytovatele internetu."
+ },
+ "Roku|Error 018": {
+  "title": "Příliš pomalý internet",
+  "causes": [
+   "Váš internetový tarif nebo linka je pomalá.",
+   "Šířku pásma využívají jiná zařízení."
+  ],
+  "steps": [
+   "Pozastavte stahování a streamování na ostatních zařízeních.",
+   "Restartujte modem a router.",
+   "Zeptejte se poskytovatele, jakou rychlost skutečně máte.",
+   "Zvažte rychlejší tarif."
+  ],
+  "technician": "Pokud se chyba po těchto krocích stále vrací, kontaktujte podporu Roku nebo svého poskytovatele internetu."
+ },
+ "Roku|Error 14.10": {
+  "title": "Selhání bezdrátového připojení",
+  "causes": [
+   "Dočasná porucha Wi-Fi mezi televizorem a routerem."
+  ],
+  "steps": [
+   "Restartujte router a počkejte, až se vrátí online.",
+   "Restartujte televizor Roku TV.",
+   "Zkuste se k síti připojit znovu.",
+   "Pokud je signál slabý, přesuňte televizor blíže."
+  ],
+  "technician": "Pokud se chyba po těchto krocích stále vrací, kontaktujte podporu Roku nebo svého poskytovatele internetu."
+ },
+ "Roku|Error 14.11": {
+  "title": "Selhání bezdrátového připojení",
+  "causes": [
+   "Dočasná porucha Wi-Fi mezi televizorem a routerem."
+  ],
+  "steps": [
+   "Restartujte router a počkejte, až se vrátí online.",
+   "Restartujte televizor Roku TV.",
+   "Zkuste se k síti připojit znovu.",
+   "Pokud je signál slabý, přesuňte televizor blíže."
+  ],
+  "technician": "Pokud se chyba po těchto krocích stále vrací, kontaktujte podporu Roku nebo svého poskytovatele internetu."
+ },
+ "Roku|Error 14.62": {
+  "title": "Problém s bezdrátovým připojením, slabý signál",
+  "causes": [
+   "Slabý signál Wi-Fi u televizoru."
+  ],
+  "steps": [
+   "Zkontrolujte sílu signálu zobrazenou na obrazovce.",
+   "Přesuňte televizor nebo router blíže k sobě.",
+   "Restartujte router a televizor.",
+   "Znovu se připojte k síti."
+  ],
+  "technician": "Pokud se chyba po těchto krocích stále vrací, kontaktujte podporu Roku nebo svého poskytovatele internetu."
+ },
+ "Roku|Error 14.64": {
+  "title": "Problém s bezdrátovým připojením, slabý signál",
+  "causes": [
+   "Slabý signál Wi-Fi u televizoru."
+  ],
+  "steps": [
+   "Zkontrolujte sílu signálu zobrazenou na obrazovce.",
+   "Přesuňte televizor nebo router blíže k sobě.",
+   "Restartujte router a televizor.",
+   "Znovu se připojte k síti."
+  ],
+  "technician": "Pokud se chyba po těchto krocích stále vrací, kontaktujte podporu Roku nebo svého poskytovatele internetu."
+ },
+ "TCL|Error 009": {
+  "title": "Připojeno k routeru, ale bez internetu",
+  "causes": [
+   "Router je dostupný, ale nemá internet.",
+   "Internetová služba nefunguje."
+  ],
+  "steps": [
+   "Zkontrolujte, zda se na stejné síti dostane online telefon nebo notebook.",
+   "Pokud není online nic, zavolejte svému poskytovateli internetu.",
+   "Pokud ostatní zařízení fungují, restartujte televizor.",
+   "Restartujte router a modem a poté se znovu připojte."
+  ],
+  "technician": "Pokud se chyba po resetu sítě vrací, kontaktujte podporu TCL pro váš televizor Roku TV."
+ },
+ "TCL|Error 012": {
+  "title": "Problém s kabelovým síťovým připojením",
+  "causes": [
+   "Ethernetový kabel je uvolněný nebo vadný.",
+   "Port routeru nefunguje."
+  ],
+  "steps": [
+   "Zasuňte ethernetový kabel pevně do televizoru i do routeru.",
+   "Zkuste jiný kabel nebo jiný port routeru.",
+   "Restartujte televizor, poté router a modem.",
+   "Zkuste krátce Wi-Fi, abyste zjistili, zda funguje samotný internet."
+  ],
+  "technician": "Pokud se chyba po resetu sítě vrací, kontaktujte podporu TCL pro váš televizor Roku TV."
+ },
+ "TCL|Error 013": {
+  "title": "Kabelové připojení nemá přístup k internetu",
+  "causes": [
+   "Router nemá internet.",
+   "Ethernetový kabel není dobře zasunutý."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je online jiné zařízení.",
+   "Pokud ano, restartujte televizor.",
+   "Pokud ne, odpojte a znovu zapojte ethernetový kabel na obou koncích.",
+   "Před voláním poskytovateli restartujte router."
+  ],
+  "technician": "Pokud se chyba po resetu sítě vrací, kontaktujte podporu TCL pro váš televizor Roku TV."
+ },
+ "TCL|Error 014": {
+  "title": "Nelze se připojit k bezdrátové síti",
+  "causes": [
+   "Byl zvolen špatný název sítě.",
+   "Bylo zadáno špatné heslo.",
+   "Router nebo televizor je třeba restartovat."
+  ],
+  "steps": [
+   "Zkontrolujte, zda jste zvolili správný název sítě.",
+   "Zadejte heslo znovu; rozlišují se velká a malá písmena.",
+   "Restartujte televizor a router.",
+   "Zkuste se připojit znovu."
+  ],
+  "technician": "Pokud se chyba po resetu sítě vrací, kontaktujte podporu TCL pro váš televizor Roku TV."
+ },
+ "TCL|Error 014.20": {
+  "title": "Slabý signál Wi-Fi brání připojení",
+  "causes": [
+   "Televizor je příliš daleko od routeru.",
+   "Stěny nebo předměty signál zeslabují."
+  ],
+  "steps": [
+   "Přesuňte televizor nebo router blíže, nebo router umístěte výše.",
+   "Restartujte router a televizor.",
+   "Pokud má váš router dvě pásma, zkuste druhé.",
+   "Znovu se připojte k síti."
+  ],
+  "technician": "Pokud se chyba po resetu sítě vrací, kontaktujte podporu TCL pro váš televizor Roku TV."
+ },
+ "TCL|Error 014.30": {
+  "title": "Připojení k Wi-Fi selhalo, slabý signál",
+  "causes": [
+   "Slabý signál Wi-Fi.",
+   "Dočasná porucha routeru nebo televizoru."
+  ],
+  "steps": [
+   "Restartujte router a televizor.",
+   "Přesuňte televizor blíže k routeru.",
+   "Znovu se připojte k Wi-Fi.",
+   "Pokud je k dispozici, zkuste druhé pásmo routeru."
+  ],
+  "technician": "Pokud se chyba po resetu sítě vrací, kontaktujte podporu TCL pro váš televizor Roku TV."
+ },
+ "TCL|Error 014.40": {
+  "title": "Špatné heslo nebo omezení routeru",
+  "causes": [
+   "Heslo k Wi-Fi bylo zadáno chybně.",
+   "Router blokuje neznámá zařízení."
+  ],
+  "steps": [
+   "Zkontrolujte název sítě a zadejte heslo znovu.",
+   "Pokud router filtruje zařízení, přidejte bezdrátovou adresu MAC televizoru.",
+   "Restartujte televizor a router.",
+   "Zkuste to znovu."
+  ],
+  "technician": "Pokud se chyba po resetu sítě vrací, kontaktujte podporu TCL pro váš televizor Roku TV."
+ },
+ "TCL|Error 014.41": {
+  "title": "Špatné heslo nebo omezení routeru",
+  "causes": [
+   "Heslo k Wi-Fi bylo zadáno chybně.",
+   "Router blokuje neznámá zařízení."
+  ],
+  "steps": [
+   "Zkontrolujte název sítě a heslo zadejte znovu pečlivě.",
+   "Pokud router filtruje zařízení, povolte bezdrátovou adresu MAC televizoru.",
+   "Restartujte televizor a router.",
+   "Zkuste to znovu."
+  ],
+  "technician": "Pokud se chyba po resetu sítě vrací, kontaktujte podporu TCL pro váš televizor Roku TV."
+ },
+ "TCL|Error 014.50": {
+  "title": "Připojení k Wi-Fi selhalo, slabý signál",
+  "causes": [
+   "Slabý signál Wi-Fi.",
+   "Dočasná porucha routeru nebo televizoru."
+  ],
+  "steps": [
+   "Restartujte router a televizor.",
+   "Přesuňte televizor blíže k routeru.",
+   "Znovu se připojte k Wi-Fi.",
+   "Pokud je k dispozici, zkuste druhé pásmo routeru."
+  ],
+  "technician": "Pokud se chyba po resetu sítě vrací, kontaktujte podporu TCL pro váš televizor Roku TV."
+ },
+ "TCL|Error 016": {
+  "title": "Při otevírání kanálu se přerušilo připojení",
+  "causes": [
+   "Síť vypadla během spouštění aplikace.",
+   "Slabý signál Wi-Fi."
+  ],
+  "steps": [
+   "Na obrazovce zvolte Set up connection a řiďte se pokyny.",
+   "Restartujte televizor a router.",
+   "Zkontrolujte sílu signálu Wi-Fi.",
+   "Přesuňte televizor a router blíže k sobě."
+  ],
+  "technician": "Pokud se chyba po resetu sítě vrací, kontaktujte podporu TCL pro váš televizor Roku TV."
+ },
+ "TCL|Error 017": {
+  "title": "Špatná síla bezdrátového signálu",
+  "causes": [
+   "Slabý signál Wi-Fi u televizoru.",
+   "Mezi televizorem a routerem jsou překážky."
+  ],
+  "steps": [
+   "Přesuňte televizor a router blíže k sobě.",
+   "Odstraňte překážky mezi nimi.",
+   "Restartujte televizor a router.",
+   "Pokud má televizor port, použijte ethernetový kabel."
+  ],
+  "technician": "Pokud se chyba po resetu sítě vrací, kontaktujte podporu TCL pro váš televizor Roku TV."
+ },
+ "TCL|Error 018": {
+  "title": "Příliš pomalý internet",
+  "causes": [
+   "Váš internetový tarif nebo linka je pomalá.",
+   "Šířku pásma využívají jiná zařízení."
+  ],
+  "steps": [
+   "Pozastavte stahování a streamování na ostatních zařízeních.",
+   "Restartujte modem a router.",
+   "Zeptejte se poskytovatele, jakou rychlost skutečně máte.",
+   "Zvažte rychlejší tarif."
+  ],
+  "technician": "Pokud se chyba po resetu sítě vrací, kontaktujte podporu TCL pro váš televizor Roku TV."
+ },
+ "Sony|Red LED blinks 2 times": {
+  "title": "Televizor Sony zjistil závadu (2 bliknutí)",
+  "causes": [
+   "Televizor zjistil vnitřní závadu.",
+   "Význam počtu bliknutí se u jednotlivých modelů liší."
+  ],
+  "steps": [
+   "Televizor vypněte a odpojte na 1 minutu, mimo rozbočovač.",
+   "Uvolněte větrací otvory, aby mohl proudit vzduch.",
+   "Odpojte všechna připojená zařízení a znovu zapněte.",
+   "Pokud se spustí, aktualizujte software televizoru.",
+   "Poznamenejte si počet bliknutí a kontaktujte Sony."
+  ],
+  "technician": "Většina závad signalizovaných červeným blikáním vyžaduje servis, proto kontaktujte podporu Sony a sdělte počet bliknutí."
+ },
+ "Sony|Red LED blinks 3 times": {
+  "title": "Televizor Sony zjistil závadu (3 bliknutí)",
+  "causes": [
+   "Televizor zjistil vnitřní závadu.",
+   "Význam počtu bliknutí se u jednotlivých modelů liší."
+  ],
+  "steps": [
+   "Televizor vypněte a odpojte na 1 minutu, mimo rozbočovač.",
+   "Uvolněte větrací otvory, aby mohl proudit vzduch.",
+   "Odpojte všechna připojená zařízení a znovu zapněte.",
+   "Pokud se spustí, aktualizujte software televizoru.",
+   "Poznamenejte si počet bliknutí a kontaktujte Sony."
+  ],
+  "technician": "Většina závad signalizovaných červeným blikáním vyžaduje servis, proto kontaktujte podporu Sony a sdělte počet bliknutí."
+ },
+ "Sony|Red LED blinks 4 times": {
+  "title": "Televizor Sony zjistil závadu (4 bliknutí)",
+  "causes": [
+   "Televizor zjistil vnitřní závadu.",
+   "Význam počtu bliknutí se u jednotlivých modelů liší."
+  ],
+  "steps": [
+   "Televizor vypněte a odpojte na 1 minutu, mimo rozbočovač.",
+   "Uvolněte větrací otvory, aby mohl proudit vzduch.",
+   "Odpojte všechna připojená zařízení a znovu zapněte.",
+   "Pokud se spustí, aktualizujte software televizoru.",
+   "Poznamenejte si počet bliknutí a kontaktujte Sony."
+  ],
+  "technician": "Většina závad signalizovaných červeným blikáním vyžaduje servis, proto kontaktujte podporu Sony a sdělte počet bliknutí."
+ },
+ "Sony|Red LED blinks 5 times": {
+  "title": "Televizor Sony zjistil závadu (5 bliknutí)",
+  "causes": [
+   "Televizor zjistil vnitřní závadu.",
+   "Význam počtu bliknutí se u jednotlivých modelů liší."
+  ],
+  "steps": [
+   "Televizor vypněte a odpojte na 1 minutu, mimo rozbočovač.",
+   "Uvolněte větrací otvory, aby mohl proudit vzduch.",
+   "Odpojte všechna připojená zařízení a znovu zapněte.",
+   "Pokud se spustí, aktualizujte software televizoru.",
+   "Poznamenejte si počet bliknutí a kontaktujte Sony."
+  ],
+  "technician": "Většina závad signalizovaných červeným blikáním vyžaduje servis, proto kontaktujte podporu Sony a sdělte počet bliknutí."
+ },
+ "Sony|Red LED blinks 6 times": {
+  "title": "Televizor Sony zjistil závadu (6 bliknutí)",
+  "causes": [
+   "Televizor zjistil vnitřní závadu.",
+   "Význam počtu bliknutí se u jednotlivých modelů liší."
+  ],
+  "steps": [
+   "Televizor vypněte a odpojte na 1 minutu, mimo rozbočovač.",
+   "Uvolněte větrací otvory, aby mohl proudit vzduch.",
+   "Odpojte všechna připojená zařízení a znovu zapněte.",
+   "Pokud se spustí, aktualizujte software televizoru.",
+   "Poznamenejte si počet bliknutí a kontaktujte Sony."
+  ],
+  "technician": "Většina závad signalizovaných červeným blikáním vyžaduje servis, proto kontaktujte podporu Sony a sdělte počet bliknutí."
+ },
+ "Sony|Red LED blinks 7 times": {
+  "title": "Televizor Sony zjistil závadu (7 bliknutí)",
+  "causes": [
+   "Televizor zjistil vnitřní závadu.",
+   "Význam počtu bliknutí se u jednotlivých modelů liší."
+  ],
+  "steps": [
+   "Televizor vypněte a odpojte na 1 minutu, mimo rozbočovač.",
+   "Uvolněte větrací otvory, aby mohl proudit vzduch.",
+   "Odpojte všechna připojená zařízení a znovu zapněte.",
+   "Pokud se spustí, aktualizujte software televizoru.",
+   "Poznamenejte si počet bliknutí a kontaktujte Sony."
+  ],
+  "technician": "Většina závad signalizovaných červeným blikáním vyžaduje servis, proto kontaktujte podporu Sony a sdělte počet bliknutí."
+ },
+ "Sony|Red LED blinks 8 times": {
+  "title": "Televizor Sony zjistil závadu (8 bliknutí)",
+  "causes": [
+   "Televizor zjistil vnitřní závadu.",
+   "Význam počtu bliknutí se u jednotlivých modelů liší."
+  ],
+  "steps": [
+   "Televizor vypněte a odpojte na 1 minutu, mimo rozbočovač.",
+   "Uvolněte větrací otvory, aby mohl proudit vzduch.",
+   "Odpojte všechna připojená zařízení a znovu zapněte.",
+   "Pokud se spustí, aktualizujte software televizoru.",
+   "Poznamenejte si počet bliknutí a kontaktujte Sony."
+  ],
+  "technician": "Většina závad signalizovaných červeným blikáním vyžaduje servis, proto kontaktujte podporu Sony a sdělte počet bliknutí."
+ },
+ "Sony|Orange LED solid": {
+  "title": "Je aktivní časovač vypnutí nebo zapnutí",
+  "causes": [
+   "V televizoru je nastaven časovač spánku nebo časovač zapnutí/vypnutí."
+  ],
+  "steps": [
+   "Otevřete nabídku Settings televizoru.",
+   "Najděte časovač spánku nebo časovač zapnutí/vypnutí.",
+   "Časovač vypněte nebo změňte čas.",
+   "Zkontrolujte, zda kontrolka zhasne."
+  ],
+  "technician": "Servis není potřeba, pokud kontrolka nesvítí dál i bez nastaveného časovače."
+ },
+ "Sony|Orange LED blinking": {
+  "title": "Probíhá aktualizace softwaru nebo je uvolněný kabel",
+  "causes": [
+   "Probíhá aktualizace softwaru.",
+   "U sad s oddělenou multimediální skříňkou může být uvolněný kabel mezi jednotkami."
+  ],
+  "steps": [
+   "Televizor nevypínejte ani neodpojujte; počkejte několik minut.",
+   "Během aktualizace dálkový ovladač nefunguje.",
+   "U sad s multimediální skříňkou zkontrolujte, zda je kabel mezi jednotkami pevně zapojený."
+  ],
+  "technician": "Pokud bliká dlouho, kontaktujte podporu Sony."
+ },
+ "Sony|Green LED blinking": {
+  "title": "Běžné spouštění nebo se televizor nespustí",
+  "causes": [
+   "Při zapínání televizoru je to normální.",
+   "Možná závada, pokud blikání nikdy nepřestane nebo se televizor neustále zapíná a vypíná."
+  ],
+  "steps": [
+   "Počkejte, až se televizor dokončí spouštění; blikání by mělo přestat.",
+   "Pokud stále bliká, odpojte televizor na 3 minuty.",
+   "Zapojte jej a zkuste to znovu."
+  ],
+  "technician": "Pokud se televizor stále nespustí, potřebuje servis od Sony."
+ },
+ "Sony|White LED blinking": {
+  "title": "Je třeba vyměnit lampu projekčního televizoru",
+  "causes": [
+   "Lampa se vypálila (pouze projekční televizory a projektory).",
+   "Kryt lampy může být otevřený."
+  ],
+  "steps": [
+   "Vypněte a nechte lampu vychladnout.",
+   "Ujistěte se, že jsou kryty lampy zavřené a zajištěné.",
+   "Nedotýkejte se skla lampy; pokud jste se jej dotkli, otřete je alkoholovým ubrouskem.",
+   "Zajistěte výměnu lampy."
+  ],
+  "technician": "Kontaktujte podporu Sony kvůli náhradní lampě."
+ },
+ "Sony|Red LED blinking with 3-second pause": {
+  "title": "Závada signalizovaná opakovaným červeným blikáním",
+  "causes": [
+   "Televizor zjistil závadu a zobrazuje počet bliknutí."
+  ],
+  "steps": [
+   "Počítejte bliknutí mezi jednotlivými pauzami.",
+   "Odpojte televizor, počkejte 2 minuty, zapojte a zapněte.",
+   "Pokud se to opakuje, odpojte jej a zavolejte Sony s počtem bliknutí."
+  ],
+  "technician": "Sdělte počet bliknutí podpoře Sony."
+ },
+ "Panasonic|Red LED blinking": {
+  "title": "Televizor zjistil chybu (SOS)",
+  "causes": [
+   "Televizor zjistil vnitřní chybu.",
+   "Týká se modelů Panasonic Fire TV."
+  ],
+  "steps": [
+   "Odpojte televizor na několik minut.",
+   "Znovu jej zapojte a zapněte.",
+   "Pokud stále bliká, pošlete společnosti Panasonic žádost o opravu."
+  ],
+  "technician": "Pokud blikání pokračuje, odešlete společnosti Panasonic žádost o podporu při opravě."
+ },
+ "Panasonic|Orange LED solid": {
+  "title": "Pohotovostní režim při údržbě panelu nebo síťové úloze",
+  "causes": [
+   "Probíhá údržba panelu nebo síťová funkce."
+  ],
+  "steps": [
+   "Během údržby panelu se obrazovky nedotýkejte ani na ni netlačte.",
+   "Počkejte, až úloha skončí.",
+   "Pokud se to opakuje, přečtěte si článek Panasonic o údržbě panelu."
+  ],
+  "technician": "Pokud kontrolka svítí oranžově dlouho, kontaktujte podporu Panasonic."
+ },
+ "Panasonic|Orange LED blinking": {
+  "title": "Probíhá údržba panelu nebo síťová aktualizace",
+  "causes": [
+   "Probíhá údržba panelu.",
+   "Probíhá síťové připojení nebo aktualizace nastavení."
+  ],
+  "steps": [
+   "Nechte televizor zapojený a počkejte na dokončení.",
+   "Pokud kontrolka po zapnutí nebo vypnutí televizoru znovu svítí oranžově, údržba není dokončena.",
+   "Nechte ji dokončit, než televizor vypnete."
+  ],
+  "technician": "Pokud nikdy nepřestane, kontaktujte podporu Panasonic."
+ },
+ "Panasonic|Green LED blinking": {
+  "title": "Televizor se spouští nebo čeká na spárování Bluetooth",
+  "causes": [
+   "Televizor se spouští.",
+   "Čeká na spárování zařízení Bluetooth."
+  ],
+  "steps": [
+   "Počkejte na dokončení spouštění.",
+   "Pokud probíhá párování, dokončete je na druhém zařízení.",
+   "Pokud nikdy nepřestane, krátce odpojte a zkuste to znovu."
+  ],
+  "technician": "Pokud se televizor nikdy nedokončí spouštět, kontaktujte podporu Panasonic."
+ },
+ "Philips|Standby light blinks red": {
+  "title": "Televizor Philips hlásí závadu",
+  "causes": [
+   "Televizor zjistil závadu.",
+   "Televizor se mohl přehřát."
+  ],
+  "steps": [
+   "Odpojte televizor od elektrické zásuvky.",
+   "Nechte jej úplně vychladnout.",
+   "Znovu zapojte napájecí kabel.",
+   "Znovu jej zapněte."
+  ],
+  "technician": "Pokud červená kontrolka znovu bliká, kontaktujte zákaznickou péči Philips."
+ },
+ "Philips|Front LED blinks in a repeating pattern": {
+  "title": "Televizor se nespustí, kontrolka opakovaně bliká",
+  "causes": [
+   "Televizor se nespustí a nezobrazuje obraz ani zvuk.",
+   "Dočasná porucha napájení."
+  ],
+  "steps": [
+   "Proveďte vypnutí napájení: odpojte televizor a počkejte několik minut.",
+   "Zapojte jej a zkuste to znovu.",
+   "Zkuste jinou zásuvku."
+  ],
+  "technician": "Pokud stále bliká, kontaktujte podporu televizorů Philips."
+ },
+ "LG|Error 106": {
+  "title": "Televizor není připojen k síti",
+  "causes": [
+   "Televizor nemá funkční připojení k internetu.",
+   "Adaptér Wi-Fi nebo nastavení routeru nejsou vhodné."
+  ],
+  "steps": [
+   "Vyzkoušejte jiné zařízení na stejné síti.",
+   "Restartujte router a televizor a znovu zadejte heslo k Wi-Fi.",
+   "V pokročilých nastaveních Wi-Fi nastavte DNS ručně na 8.8.8.8.",
+   "Pokud to televizor podporuje, použijte 5 GHz a přesuňte router blíže."
+  ],
+  "technician": "Pokud nic nepomůže, může být nutné vyměnit modul Wi-Fi, proto kontaktujte servis LG."
+ }
+}

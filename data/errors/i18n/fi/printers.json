@@ -1,0 +1,1365 @@
+{
+ "Canon|B200": {
+  "title": "Tulostimen vika, joka vaatii korjausta",
+  "causes": [
+   "Tulostin havaitsi vakavan vian, jota se ei pysty korjaamaan itse.",
+   "Canon luokittelee tämän virheeksi, joka vaatii korjausta."
+  ],
+  "steps": [
+   "Sammuta tulostin.",
+   "Irrota virtajohto pistorasiasta.",
+   "Älä käynnistä sitä toistuvasti uudelleen. Ota yhteys Canonin tukeen korjausta varten."
+  ],
+  "technician": "Soita Canonin huoltoon korjausta varten, sillä koodi tarkoittaa, että tulostin tarvitsee huoltomiehen."
+ },
+ "Canon|B203": {
+  "title": "Tulostimen vika, joka vaatii korjausta",
+  "causes": [
+   "Tulostin ilmoittaa virheestä, joka vaatii korjausta.",
+   "Joissakin malleissa koodi näkyy yhdessä P10:n kanssa."
+  ],
+  "steps": [
+   "Sammuta tulostin.",
+   "Irrota virtajohto.",
+   "Ota yhteys Canonin tukeen ja kerro koodi."
+  ],
+  "technician": "Soita Canonin huoltoon, sillä tulostin tarvitsee korjausta."
+ },
+ "Canon|5100": {
+  "title": "Tulostinvirhe, kelkan tai tulostuspään ongelma",
+  "causes": [
+   "Tulostimessa tapahtui sisäinen virhe. Canon ei nimeä yhtä ainoaa syytä.",
+   "Jokin voi estää tulostuspään kelkan liikkeen, esimerkiksi paperi tai pakkausmateriaali."
+  ],
+  "steps": [
+   "Peruuta tulostustyö ja sammuta tulostin.",
+   "Avaa kansi ja tarkista, ettei mikään estä kelkkaa. Poista paperi, teippi tai muu roska varovasti.",
+   "Tarkista, että tulostuspää tai kasetit on painettu paikalleen napsahdukseen asti.",
+   "Kytke tulostin uudelleen päälle."
+  ],
+  "technician": "Jos virhe pysyy, ota yhteys Canonin huoltoliikkeeseen korjausta varten."
+ },
+ "Canon|5200": {
+  "title": "Yleinen tulostinvirhe",
+  "causes": [
+   "Tulostin ilmoittaa sisäisestä virheestä ilman tiettyä syytä."
+  ],
+  "steps": [
+   "Sammuta tulostin ja irrota se sähköstä.",
+   "Odota hetki, kytke se sitten takaisin sähköön ja käynnistä.",
+   "Jos virhe palaa, kirjoita koodi muistiin, ennen kuin soitat tukeen."
+  ],
+  "technician": "Jos virhe pysyy, ota yhteys Canonin huoltoliikkeeseen korjausta varten."
+ },
+ "Canon|5011": {
+  "title": "Yleinen tulostinvirhe",
+  "causes": [
+   "Tulostimessa on sisäinen virhe. Canon ei anna tarkempaa tietoa."
+  ],
+  "steps": [
+   "Sammuta tulostin ja irrota se sähköstä.",
+   "Kytke virta takaisin ja käynnistä tulostin.",
+   "Tarkista, ettei sisällä ole juuttunutta paperia."
+  ],
+  "technician": "Jos virhe pysyy, ota yhteys Canonin huoltoliikkeeseen."
+ },
+ "Canon|6800": {
+  "title": "Yleinen tulostinvirhe",
+  "causes": [
+   "Tulostin ilmoittaa sisäisestä virheestä. Yhtä ainoaa syytä ei ole annettu."
+  ],
+  "steps": [
+   "Sammuta tulostin ja irrota se sähköstä.",
+   "Kytke virta takaisin ja käynnistä tulostin.",
+   "Tarkista, ettei sisällä ole juuttunutta paperia tai esinettä."
+  ],
+  "technician": "Jos virhe pysyy, ota yhteys Canonin huoltoliikkeeseen."
+ },
+ "Canon|6000": {
+  "title": "Yleinen tulostinvirhe",
+  "causes": [
+   "Tapahtui yleinen tulostinvirhe. Canon ei anna tiettyä syytä.",
+   "Myös paperitukos voi aiheuttaa tämän koodin."
+  ],
+  "steps": [
+   "Poista kaikki näkyvissä oleva juuttunut paperi.",
+   "Sammuta tulostin ja irrota se sähköstä.",
+   "Kytke virta takaisin ja käynnistä tulostin."
+  ],
+  "technician": "Jos virhe pysyy, ota yhteys Canonin huoltoliikkeeseen korjausta varten."
+ },
+ "Canon|5B00": {
+  "title": "Tulostinvirhe, joka vaatii huoltoa",
+  "causes": [
+   "Canon luokittelee tämän yleiseksi tulostinvirheeksi, joka näkyy joissakin malleissa koodina P07.",
+   "Canon ei anna sivullaan kotikonstia vian korjaamiseen."
+  ],
+  "steps": [
+   "Sammuta tulostin ja käynnistä se uudelleen kerran.",
+   "Merkitse muistiin näkyvä koodi.",
+   "Älä jatka tulostamista, jos virhe palaa."
+  ],
+  "technician": "Ota yhteys Canonin huoltoliikkeeseen korjauksen sopimiseksi."
+ },
+ "Canon|5B01": {
+  "title": "Tulostinvirhe, joka vaatii huoltoa",
+  "causes": [
+   "Tulostin ilmoittaa virheestä ilman tiettyä syytä.",
+   "Canonin mukaan korjaus tehdään huollossa."
+  ],
+  "steps": [
+   "Sammuta tulostin ja käynnistä se kerran uudelleen.",
+   "Kirjoita koodi muistiin.",
+   "Lopeta tulostus, jos koodi palaa."
+  ],
+  "technician": "Ota yhteys Canonin huoltoliikkeeseen ja pyydä korjausta."
+ },
+ "Canon|1700": {
+  "title": "Hukkamustetyyny melkein täynnä",
+  "causes": [
+   "Hukkamusteen keräävä sisäinen tyyny on melkein täynnä."
+  ],
+  "steps": [
+   "Jatka tulostusta painamalla tulostimen OK-painiketta.",
+   "Suunnittele korjaus, sillä tyynyn käsittely kuuluu huollolle.",
+   "Älä avaa tulostinta vaihtaaksesi sitä itse."
+  ],
+  "technician": "Ota yhteys Canonin huoltoliikkeeseen mustetyynyn huoltoa varten."
+ },
+ "Canon|1701": {
+  "title": "Hukkamustetyyny melkein täynnä",
+  "causes": [
+   "Tulostimen hukkamustetyyny on melkein täynnä."
+  ],
+  "steps": [
+   "Jatka tulostusta painamalla tulostimen OK-painiketta.",
+   "Sovi korjauksesta pian.",
+   "Älä avaa tulostinta itse.",
+   "Pidä kasetteja reunoista äläkä koske kontakteihin tai suuttimiin."
+  ],
+  "technician": "Ota yhteys Canonin huoltoliikkeeseen ja pyydä korjausta."
+ },
+ "Canon|1300": {
+  "title": "Paperi juuttui takalokerosta syötettäessä",
+  "causes": [
+   "Paperi juuttui takalokerosta syötettäessä."
+  ],
+  "steps": [
+   "Vedä paperi hitaasti ulos kahdella kädellä ulostuloaukon tai takalokeron kautta.",
+   "Jos se ei irtoa, sammuta tulostin ja käynnistä se uudelleen, jolloin se voi poistaa arkin.",
+   "Lataa sopivaa paperia uudelleen ja paina OK.",
+   "Tulosta epäonnistunut sivu uudelleen."
+  ],
+  "technician": "Ota yhteys Canonin huoltoliikkeeseen, jos tukoksia tulee toistuvasti tai paperi repeytyy sisälle."
+ },
+ "Canon|1203": {
+  "title": "Kansi avattiin tulostuksen aikana",
+  "causes": [
+   "Kansi avattiin tulostimen ollessa toiminnassa."
+  ],
+  "steps": [
+   "Poista paperi paperireitiltä, jos sinne on juuttunut jotain.",
+   "Sulje kansi.",
+   "Poista virhe painamalla OK.",
+   "Tulosta sivu uudelleen, sillä se ei toistu itsestään."
+  ],
+  "technician": "Ota yhteys Canonin huoltoliikkeeseen, jos virhe palaa kannen ollessa kiinni."
+ },
+ "Canon|1000": {
+  "title": "Takalokero tyhjä tai paperi ladattu väärin",
+  "causes": [
+   "Takalokerossa ei ole paperia.",
+   "Paperia ei ole ladattu oikein."
+  ],
+  "steps": [
+   "Lataa paperia takalokeroon.",
+   "Liu'uta ohjaimet paperin molempia reunoja vasten.",
+   "Jos paperikoko vilkkuu, valitse ladattu koko.",
+   "Paina OK."
+  ],
+  "technician": "Ota yhteys Canonin huoltoliikkeeseen, jos tulostin ilmoittaa paperin puuttuvan, vaikka paperia on ladattu."
+ },
+ "Canon|1890": {
+  "title": "Suojateippi unohtunut kasettipitimeen",
+  "causes": [
+   "Kuljetusteippi tai pakkausmateriaali voi olla yhä kasettipitimessä."
+  ],
+  "steps": [
+   "Sulje ulostulolokero ja avaa kansi.",
+   "Poista teippi tai suojamateriaali pitimestä.",
+   "Sulje kansi."
+  ],
+  "technician": "Ota yhteys Canonin huoltoliikkeeseen, jos virhe pysyy kaiken pakkausmateriaalin poistamisen jälkeen."
+ },
+ "Canon|1401": {
+  "title": "Kasettia ei tunnisteta",
+  "causes": [
+   "Tulostin ei tunnista FINE-kasettia."
+  ],
+  "steps": [
+   "Asenna FINE-kasetti.",
+   "Paina sitä, kunnes se lukittuu.",
+   "Sulje kansi.",
+   "Pidä kasetteja reunoista äläkä koske kontakteihin tai suuttimiin."
+  ],
+  "technician": "Ota yhteys Canonin huoltoliikkeeseen, jos virhe pysyy, sillä kasetti voi olla vaurioitunut."
+ },
+ "Canon|1403": {
+  "title": "Kasettivirhe",
+  "causes": [
+   "Tulostin ilmoittaa virheestä FINE-kasetissa."
+  ],
+  "steps": [
+   "Ota kasetti pois ja laita se takaisin.",
+   "Jos virhe pysyy, vaihda kasetti uuteen."
+  ],
+  "technician": "Ota yhteys Canonin huoltoliikkeeseen, jos uusikin kasetti antaa virheen."
+ },
+ "Canon|1682": {
+  "title": "Kasettia ei voida tunnistaa",
+  "causes": [
+   "Tulostin ei pysty tunnistamaan FINE-kasettia."
+  ],
+  "steps": [
+   "Vaihda FINE-kasetti.",
+   "Tarkista, että se on kunnolla paikallaan.",
+   "Pidä kasetteja reunoista äläkä koske kontakteihin tai suuttimiin."
+  ],
+  "technician": "Ota yhteys Canonin huoltoliikkeeseen, jos virhe pysyy, sillä kasetti voi olla vaurioitunut."
+ },
+ "Canon|1684": {
+  "title": "Mustekasettia ei tunnisteta",
+  "causes": [
+   "Kasetti on asennettu väärin tai se ei sovi tähän tulostimeen."
+  ],
+  "steps": [
+   "Asenna kasetti uudelleen kunnolla.",
+   "Tai vaihda se yhteensopivaan.",
+   "Peruuta tulostustyö painamalla Stop."
+  ],
+  "technician": "Ota yhteys Canonin huoltoliikkeeseen, jos ilmoitus pysyy oikealla kasetilla."
+ },
+ "Canon|1686": {
+  "title": "Muste on voinut loppua",
+  "causes": [
+   "Kasetin muste voi olla loppu."
+  ],
+  "steps": [
+   "Vaihda tyhjä kasetti uuteen Canon-kasettiin.",
+   "Voit viimeistellä työn pitämällä Stop-painiketta painettuna 5 sekuntia. Tulostus jatkuu silloin ilman musteen tunnistusta."
+  ],
+  "technician": "Ota yhteys Canonin huoltoliikkeeseen, jos virhe pysyy musteen vaihdon jälkeen."
+ },
+ "Canon|1688": {
+  "title": "Tulostimesta on muste loppu",
+  "causes": [
+   "Tulostimesta on muste loppu."
+  ],
+  "steps": [
+   "Vaihda tyhjä mustekasetti.",
+   "Sulje kansi.",
+   "Voit viimeistellä työn pitämällä Stop-painiketta painettuna vähintään 5 sekuntia. Laatu voi kärsiä. Vaihda kasetti heti sen jälkeen."
+  ],
+  "technician": "Ota yhteys Canonin huoltoliikkeeseen, jos virhe pysyy täydellä kasetilla."
+ },
+ "Canon|168A": {
+  "title": "Kasetti puuttuu tai väärää tyyppiä",
+  "causes": [
+   "FINE-kasettia ei havaita.",
+   "Yksi on asennettu väärin tai se ei sovi tähän tulostimeen."
+  ],
+  "steps": [
+   "Avaa kansi ja ota kasetit pois.",
+   "Tarkista, että ne ovat oikeat tulostimeesi.",
+   "Paina kukin ylös, kunnes se lukittuu, ja sulje sitten kansi."
+  ],
+  "technician": "Ota yhteys Canonin huoltoliikkeeseen, jos virhe pysyy uudelleenasennuksen jälkeen."
+ },
+ "Canon|4100": {
+  "title": "Tietoja ei voida tulostaa",
+  "causes": [
+   "Tulostin ei voi tulostaa määritettyjä tietoja."
+  ],
+  "steps": [
+   "Lue tietokoneen näytöllä oleva viesti.",
+   "Tarkista, että jokaiselle värille on asennettu aito Canon-kasetti.",
+   "Yritä tulostaa uudelleen."
+  ],
+  "technician": "Ota yhteys Canonin huoltoliikkeeseen, jos virhe pysyy."
+ },
+ "Canon|3446": {
+  "title": "IP-osoitteen ja aliverkon peitteen ristiriita",
+  "causes": [
+   "Tulostimen Wireless Direct- ja Wi-Fi-asetukset käyttävät päällekkäisiä verkkoalueita."
+  ],
+  "steps": [
+   "Paina tulostimen OK-painiketta.",
+   "Kytke Wireless Direct pois tai aseta Wi-Fi ja Wireless Direct eri aliverkkoalueille.",
+   "Katso reitittimen ohjeesta, jos muutat reitittimen asetuksia."
+  ],
+  "technician": "Ota yhteys Canonin tukeen, jos ongelma pysyy verkkoasetusten muuttamisen jälkeen."
+ },
+ "Canon|3440": {
+  "title": "Easy Wireless Connect epäonnistui",
+  "causes": [
+   "Wi-Fi-asennus Easy Wireless Connectilla ei valmistunut."
+  ],
+  "steps": [
+   "Paina tulostimen OK-painiketta.",
+   "Yritä Easy Wireless Connectia uudelleen.",
+   "Jos se epäonnistuu uudelleen, käytä jotakin toista Wi-Fi-asennustapaa."
+  ],
+  "technician": "Ota yhteys Canonin tukeen, jos tulostin ei liity mihinkään verkkoon."
+ },
+ "Canon|2900": {
+  "title": "Kohdistusarkin skannaus epäonnistui",
+  "causes": [
+   "Tulostin ei pystynyt skannaamaan tulostuspään kohdistusarkkia."
+  ],
+  "steps": [
+   "Paina OK.",
+   "Tarkista, että arkki on tekstipuoli alaspäin ja oikein asetettu ja että lasi on puhdas.",
+   "Lataa takalokeroon tavallista A4- tai Letter-paperia.",
+   "Tulosta suutintesti ja toista sitten kohdistus. Jos se epäonnistuu, tee kohdistus käsin."
+  ],
+  "technician": "Ota yhteys Canonin huoltoliikkeeseen, jos suutintesti osoittaa tukkeutuneen pään, jota puhdistus ei saa auki."
+ },
+ "Canon|3412": {
+  "title": "Alkuperäistä ei voitu skannata",
+  "causes": [
+   "Tulostin ei pystynyt skannaamaan lasilla olevaa alkuperäistä."
+  ],
+  "steps": [
+   "Paina OK.",
+   "Aseta alkuperäinen oikein lasille.",
+   "Yritä skannausta tai kopiointia uudelleen.",
+   "Jos ongelma pysyy, aseta alkuperäisen koko käsin."
+  ],
+  "technician": "Ota yhteys Canonin huoltoliikkeeseen, jos skannaus epäonnistuu jatkuvasti."
+ },
+ "Epson|Service required": {
+  "title": "Mustetyynyjen käyttöikä on täynnä",
+  "causes": [
+   "Sisäiset hukkamustetyynyt ovat täynnä. Tämä on normaalia kulumista eikä äkillinen vika.",
+   "Runsas käyttö, usein toistuvat pään puhdistukset ja reunaton tulostus täyttävät ne nopeammin."
+  ],
+  "steps": [
+   "Tarkista sanamuoto. Jos siinä mainitaan Maintenance Box, kyse on eri osasta, jonka käyttäjä voi vaihtaa itse.",
+   "Älä avaa tulostinta äläkä yritä korjata tyynyjä itse.",
+   "Ota yhteys Epsoniin ja kysy korjausvaihtoehdoista."
+  ],
+  "technician": "Ota yhteys Epsoniin, sillä mustetyynyt on vaihdettava valtuutetussa huollossa."
+ },
+ "Epson|Ink pad at end of life": {
+  "title": "Hukkamustetyyny on kulunut loppuun",
+  "causes": [
+   "Käyttämättömän musteen keräävä mustetyyny on täynnä."
+  ],
+  "steps": [
+   "Sammuta tulostin.",
+   "Älä yritä avata sitä.",
+   "Ota yhteys Epsonin tukeen.",
+   "Pidä kasetteja reunoista äläkä koske kontakteihin tai suuttimiin."
+  ],
+  "technician": "Ota yhteys Epsoniin, sillä mustetyynyjä ei voi vaihtaa itse."
+ },
+ "Epson|Ink pad nearing end of life": {
+  "title": "Hukkamustetyyny melkein täynnä",
+  "causes": [
+   "Mustetyyny on lähellä käyttöikänsä loppua.",
+   "Ilmoitus pysyy näkyvissä, kunnes tyyny on vaihdettu."
+  ],
+  "steps": [
+   "Jatka tulostusta toistaiseksi valitsemalla OK.",
+   "Ota yhteys Epsonin tukeen vaihdon sopimiseksi."
+  ],
+  "technician": "Ota yhteys Epsoniin pian, sillä tyyny on vaihdettava huollossa."
+ },
+ "Epson|Borderless ink pad at end of life": {
+  "title": "Reunattoman tulostuksen mustetyyny kulunut loppuun",
+  "causes": [
+   "Reunattomaan tulostukseen käytettävä tyyny on täynnä.",
+   "Epsonin mukaan käyttäjä ei voi vaihtaa sitä itse."
+  ],
+  "steps": [
+   "Sammuta laite.",
+   "Ota yhteys Epsonin tukeen.",
+   "Skannaus ja muut musteettomat toiminnot voivat yhä toimia."
+  ],
+  "technician": "Ota yhteys Epsoniin reunattoman tulostuksen mustetyynyn vaihtamiseksi."
+ },
+ "Epson|E-01": {
+  "title": "Tulostinvirhe",
+  "causes": [
+   "Tulostimessa on yleinen vika.",
+   "Sisällä oleva paperitukos voi aiheuttaa sen."
+  ],
+  "steps": [
+   "Sammuta laite ja käynnistä se uudelleen.",
+   "Tarkista, onko sisällä paperitukos, ja poista kaikki paperi.",
+   "Kytke virta uudelleen päälle."
+  ],
+  "technician": "Ota yhteys Epsoniin, jos virhe palaa eikä paperitukosta ole."
+ },
+ "Epson|E-02": {
+  "title": "Skannerivirhe",
+  "causes": [
+   "Skannerin osassa on vika."
+  ],
+  "steps": [
+   "Sammuta laite ja käynnistä se uudelleen.",
+   "Tarkista, että skannerin kansi on kiinni.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen."
+  ],
+  "technician": "Ota yhteys Epsoniin, jos virhe palaa."
+ },
+ "Epson|E-12": {
+  "title": "Reunattoman tulostuksen mustetyyny on vaihdettava",
+  "causes": [
+   "Reunattoman tulostuksen mustetyyny on täynnä."
+  ],
+  "steps": [
+   "Ota yhteys Epsoniin, sillä et voi vaihtaa sitä itse.",
+   "Voit yhä tulostaa reunoilla.",
+   "Pidä kasetteja reunoista äläkä koske kontakteihin tai suuttimiin."
+  ],
+  "technician": "Ota yhteys Epsoniin tyynyn vaihtamiseksi."
+ },
+ "Epson|W-14": {
+  "title": "Reunattoman tulostuksen mustetyyny melkein täynnä",
+  "causes": [
+   "Reunattoman tulostuksen mustetyyny on lähellä käyttöikänsä loppua."
+  ],
+  "steps": [
+   "Jatka tulostusta painamalla aloituspainiketta.",
+   "Ota yhteys Epsoniin vaihdon sopimiseksi.",
+   "Varoitus pysyy, kunnes tyyny on vaihdettu."
+  ],
+  "technician": "Ota yhteys Epsoniin tyynyn vaihtoa varten."
+ },
+ "Epson|W-01": {
+  "title": "Paperitukos",
+  "causes": [
+   "Paperi on juuttunut laitteeseen."
+  ],
+  "steps": [
+   "Poista juuttunut paperi varovasti.",
+   "Poista virhe painamalla näytössä näkyvää painiketta.",
+   "Jos virhe jatkuu, sammuta laite ja käynnistä se uudelleen."
+  ],
+  "technician": "Ota yhteys Epsoniin, jos tukoksia tulee toistuvasti."
+ },
+ "Epson|W-12": {
+  "title": "Mustekasetti ei ole kunnolla paikallaan",
+  "causes": [
+   "Mustekasettia ei ole painettu kokonaan paikalleen."
+  ],
+  "steps": [
+   "Paina jokaista mustekasettia alas, kunnes se napsahtaa.",
+   "Tarkista, että kaikki kasetit ovat tasaisesti paikallaan.",
+   "Pidä kasetteja reunoista äläkä koske kontakteihin tai suuttimiin."
+  ],
+  "technician": "Ota yhteys Epsoniin, jos ilmoitus pysyy uudelleenasennuksen jälkeen."
+ },
+ "Epson|W-13": {
+  "title": "Mustekasettia ei tunnisteta",
+  "causes": [
+   "Tulostin ei tunnista kasettia."
+  ],
+  "steps": [
+   "Tarkista, että olet asentanut aidot Epson-kasetit.",
+   "Poista kasetti ja aseta se uudelleen.",
+   "Pidä kasetteja reunoista äläkä koske kontakteihin tai suuttimiin."
+  ],
+  "technician": "Ota yhteys Epsoniin, jos aitoja kasetteja ei tunnisteta."
+ },
+ "Epson|Printer error. Turn on the printer again": {
+  "title": "Vakava tulostinvirhe",
+  "causes": [
+   "Tulostimessa tapahtui vakava virhe."
+  ],
+  "steps": [
+   "Sammuta laite ja käynnistä se sitten uudelleen.",
+   "Tarkista, onko sisällä paperitukos tai suojamateriaalia.",
+   "Poista kaikki löytämäsi.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen."
+  ],
+  "technician": "Ota yhteys Epsoniin, jos ilmoitus palaa eikä paperitukosta ole."
+ },
+ "Epson|Recovery mode": {
+  "title": "Laiteohjelmiston päivitys epäonnistui",
+  "causes": [
+   "Laiteohjelmiston päivitys ei valmistunut."
+  ],
+  "steps": [
+   "Yhdistä laite tietokoneeseen USB-kaapelilla.",
+   "Suorita laiteohjelmiston päivitys uudelleen.",
+   "Tarkista, ettei paperi tai esine estä kantta sulkeutumasta."
+  ],
+  "technician": "Ota yhteys Epsoniin, jos palautustila pysyy päällä."
+ },
+ "Epson|W-10": {
+  "title": "Mustekasetti tyhjä tai asennettu väärin",
+  "causes": [
+   "Kasetti on käytetty loppuun tai sitä ei ole asennettu oikein."
+  ],
+  "steps": [
+   "Vaihda tyhjä kasetti.",
+   "Jos virhe pysyy uudellakin kasetilla, paina Start, jotta kasetit siirtyvät, paina jokainen kasetti alas ja paina sitten Start."
+  ],
+  "technician": "Ota yhteys Epsoniin, jos ilmoitus pysyy."
+ },
+ "Epson|Print head adjustment canceled": {
+  "title": "Tulostuspään ongelma",
+  "causes": [
+   "Tulostuspäässä on ongelma."
+  ],
+  "steps": [
+   "Puhdista tulostuspää.",
+   "Jos laatu on yhä huono kahden puhdistuksen jälkeen, sammuta tulostin vähintään kuudeksi tunniksi.",
+   "Tee suutintesti ja puhdista tarvittaessa uudelleen."
+  ],
+  "technician": "Ota yhteys Epsoniin, jos tulostuslaatu on yhä huono."
+ },
+ "Brother|Ink Absorber Full": {
+  "title": "Mustetta imevä laatikko on täynnä",
+  "causes": [
+   "Mustetta imevä tai huuhtelulaatikko on täynnä runsaiden puhdistusten jälkeen."
+  ],
+  "steps": [
+   "Lopeta runsaat puhdistusjaksot.",
+   "Ota yhteys Brotherin huoltoon imulaatikon vaihtamiseksi.",
+   "Takuu ei kata vaihtoa."
+  ],
+  "technician": "Ota yhteys Brotherin asiakaspalveluun, sillä imulaatikko on vaihdettava."
+ },
+ "Brother|Absorber NearFull": {
+  "title": "Mustetta imevä laatikko melkein täynnä",
+  "causes": [
+   "Mustetta imevä laatikko on melkein täynnä."
+  ],
+  "steps": [
+   "Jatka toistaiseksi tulostamista.",
+   "Tilaa vaihtolaatikko Brotherilta tai jälleenmyyjältä.",
+   "Pidä kasetteja reunoista äläkä koske kontakteihin tai suuttimiin."
+  ],
+  "technician": "Ota yhteys Brotherin huoltoon imulaatikon vaihtamiseksi."
+ },
+ "Brother|Cannot Print ##": {
+  "title": "Mekaaninen vika tai esine sisällä",
+  "causes": [
+   "Laitteen sisällä on mekaaninen ongelma tai vieras esine."
+  ],
+  "steps": [
+   "Tarkista sisältä, onko siellä paperiliittimiä tai repeytynyttä paperia.",
+   "Poista kaikki roskat.",
+   "Sammuta laite, odota muutama minuutti ja kytke se sitten päälle."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos koodi palaa."
+ },
+ "Brother|Cannot Clean ##": {
+  "title": "Mekaaninen vika puhdistuksen aikana",
+  "causes": [
+   "Sisällä on mekaaninen ongelma tai vieras esine."
+  ],
+  "steps": [
+   "Poista kaikki näkyvät roskat.",
+   "Sammuta laite muutamaksi minuutiksi ja kytke se sitten päälle.",
+   "Siirrä ensin mahdolliset tallennetut faksit muualle."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos koodi palaa."
+ },
+ "Brother|Cannot Scan ##": {
+  "title": "Mekaaninen vika skannauksessa",
+  "causes": [
+   "Skannerissa on mekaaninen ongelma."
+  ],
+  "steps": [
+   "Sammuta laite muutamaksi minuutiksi.",
+   "Kytke se uudelleen päälle.",
+   "Siirrä ensin mahdolliset tallennetut faksit muualle, jos mahdollista."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos koodi palaa."
+ },
+ "Brother|Cannot Detect": {
+  "title": "Mustekasettia ei havaita",
+  "causes": [
+   "Kasetti ei ole paikallaan.",
+   "Asennettu väärä malli."
+  ],
+  "steps": [
+   "Paina kasetti tiukasti paikalleen.",
+   "Tarkista, että malli on oikea.",
+   "Pidä kasetteja reunoista äläkä koske kontakteihin tai suuttimiin."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos ilmoitus pysyy."
+ },
+ "Brother|No Ink Cartridge": {
+  "title": "Kasetti ei ole kunnolla paikallaan",
+  "causes": [
+   "Kasetti ei ole kunnolla paikassaan."
+  ],
+  "steps": [
+   "Poista kasetti.",
+   "Asenna se uudelleen tiukasti.",
+   "Pidä kasetteja reunoista äläkä koske kontakteihin tai suuttimiin."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos ilmoitus pysyy."
+ },
+ "Brother|Wrong Ink Cartridge": {
+  "title": "Yhteensopimaton mustekasetti",
+  "causes": [
+   "Kasetin malli ei sovi tähän laitteeseen."
+  ],
+  "steps": [
+   "Tarkista mallinumero laitteesi tietoja vasten.",
+   "Asenna oikea kasetti.",
+   "Pidä kasetteja reunoista äläkä koske kontakteihin tai suuttimiin."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos oikea kasetti hylätään."
+ },
+ "Brother|Wrong Ink Colour": {
+  "title": "Kasetti väärässä paikassa",
+  "causes": [
+   "Kasetti on väärän värin paikassa."
+  ],
+  "steps": [
+   "Siirrä jokainen kasetti samanväriseen paikkaan.",
+   "Pidä kasetteja reunoista äläkä koske kontakteihin tai suuttimiin."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos ilmoitus pysyy."
+ },
+ "Brother|Replace Ink": {
+  "title": "Kasetti on tyhjä",
+  "causes": [
+   "Yksi tai useampi kasetti on tyhjä."
+  ],
+  "steps": [
+   "Vaihda tyhjät kasetit.",
+   "Skannaus toimii yhä.",
+   "Pidä kasetteja reunoista äläkä koske kontakteihin tai suuttimiin."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos ilmoitus pysyy vaihdon jälkeen."
+ },
+ "Brother|Ink Low": {
+  "title": "Kasetin muste on vähissä",
+  "causes": [
+   "Muste on vähissä."
+  ],
+  "steps": [
+   "Valmistele uusi kasetti.",
+   "Tulostus jatkuu, kunnes näkyviin tulee Replace Ink.",
+   "Pidä kasetteja reunoista äläkä koske kontakteihin tai suuttimiin."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos varoitus näkyy täydellä kasetilla."
+ },
+ "Brother|B&W Print Only": {
+  "title": "Värikasetti tyhjä",
+  "causes": [
+   "Yksi tai useampi värikasetti on tyhjä."
+  ],
+  "steps": [
+   "Vaihda värikasetit.",
+   "Mustavalkotulostus toimii noin neljä viikkoa.",
+   "Pidä kasetteja reunoista äläkä koske kontakteihin tai suuttimiin."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos ilmoitus pysyy vaihdon jälkeen."
+ },
+ "Brother|Jam Front": {
+  "title": "Paperitukos edessä",
+  "causes": [
+   "Paperi on juuttunut laitteen etuosaan."
+  ],
+  "steps": [
+   "Poista juuttunut paperi.",
+   "Tarkista ohjaimet.",
+   "Älä vedä lokeroa ulos A5-kokoista tai sitä pienempää paperia varten.",
+   "Sammuta tulostin, ennen kuin kurotat sisään, ja vedä paperi hitaasti ulos, jotta se ei repeä."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos tukoksia tulee toistuvasti."
+ },
+ "Brother|Jam Rear": {
+  "title": "Paperitukos takana",
+  "causes": [
+   "Paperi on juuttunut taakse tai syöttötelat ovat pölyiset."
+  ],
+  "steps": [
+   "Poista paperi.",
+   "Puhdista syöttötelat.",
+   "Tarkista ohjaimet.",
+   "Sammuta tulostin, ennen kuin kurotat sisään, ja vedä paperi hitaasti ulos, jotta se ei repeä."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos tukoksia tulee toistuvasti."
+ },
+ "Brother|No Paper Fed": {
+  "title": "Paperia ei oteta syöttöön",
+  "causes": [
+   "Lokero on tyhjä tai ladattu väärin.",
+   "Syöttötelat ovat pölyiset."
+  ],
+  "steps": [
+   "Lataa lokero uudelleen.",
+   "Sulje Jam Clear Cover.",
+   "Puhdista telat.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos paperia ei edelleenkään oteta syöttöön."
+ },
+ "Brother|Cover is Open": {
+  "title": "Kansi ei ole kiinni",
+  "causes": [
+   "Kansi ei ole lukittunut.",
+   "Kaapelia ei ole ohjattu sille tarkoitettuun uraan."
+  ],
+  "steps": [
+   "Sulje kannet tiukasti.",
+   "Ohjaa kaapeli uran kautta.",
+   "Tarkista, ettei paperi tai esine estä kantta sulkeutumasta."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos ilmoitus pysyy."
+ },
+ "Brother|High Temperature": {
+  "title": "Huone on liian lämmin",
+  "causes": [
+   "Huone on liian kuuma."
+  ],
+  "steps": [
+   "Viilennä huonetta.",
+   "Anna laitteen jäähtyä, ennen kuin käytät sitä uudelleen.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen.",
+   "Kytke se suoraan seinäpistorasiaan ja tarkista, että kaapeli on tiukasti kiinni."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos ilmoitus tulee viileässä huoneessa."
+ },
+ "Brother|Out of Memory": {
+  "title": "Laitteen muisti on täynnä",
+  "causes": [
+   "Laitteen muisti on täynnä."
+  ],
+  "steps": [
+   "Odota, että muut työt valmistuvat.",
+   "Tulosta tallennetut faksit.",
+   "Käytä osittaistulostusta skannatuille sivuille.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos ilmoitus pysyy."
+ },
+ "Brother|Cannot Print Refill": {
+  "title": "Mustetta vähän, tulostus pysähtyi",
+  "causes": [
+   "Mustetta on vähän yhdessä tai useammassa säiliössä."
+  ],
+  "steps": [
+   "Täytä säiliö ylärajaan asti.",
+   "Vahvista täyttö näytöllä.",
+   "Skannaus toimii yhä.",
+   "Pidä kasetteja reunoista äläkä koske kontakteihin tai suuttimiin."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos ilmoitus pysyy täytön jälkeen."
+ },
+ "Brother|Drum !": {
+  "title": "Rumuyksikkö vaatii huomiota",
+  "causes": [
+   "Rummun koronalanka on likainen.",
+   "Rumpu tai väriainekasetti on asennettu väärin."
+  ],
+  "steps": [
+   "Puhdista koronalanka.",
+   "Aseta väriainekasetti uudelleen rumpuyksikköön ja asenna yksikkö takaisin.",
+   "Jos ongelma pysyy, vaihda rumpuyksikkö."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos ilmoitus pysyy rummun vaihdon jälkeen."
+ },
+ "Brother|Replace Drum": {
+  "title": "Rumpuyksikön käyttöikä on lopussa",
+  "causes": [
+   "Rumpuyksikkö on kulunut loppuun.",
+   "Rummun laskuria ei nollattu vaihdon jälkeen."
+  ],
+  "steps": [
+   "Vaihda rumpuyksikkö.",
+   "Nollaa rummun laskuri, jos juuri vaihdoit rummun.",
+   "Käsittele väriainetta ja rumpua varovasti ja pidä ne poissa suoralta valolta."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos ilmoitus näkyy uudella rummulla."
+ },
+ "Brother|Replace Toner": {
+  "title": "Väriainekasetin käyttöikä on lopussa",
+  "causes": [
+   "Väriainekasetti on käytetty loppuun."
+  ],
+  "steps": [
+   "Vaihda väriainekasetti.",
+   "Käsittele väriainetta ja rumpua varovasti ja pidä ne poissa suoralta valolta.",
+   "Käytä juuri tulostimesi malliin tarkoitettuja tarvikkeita."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos ilmoitus näkyy uudella kasetilla."
+ },
+ "Brother|Toner Low": {
+  "title": "Väriaine melkein lopussa",
+  "causes": [
+   "Väriaine on käyttöikänsä lopussa."
+  ],
+  "steps": [
+   "Tilaa uusi väriainekasetti nyt.",
+   "Tulostus on vielä mahdollista.",
+   "Käsittele väriainetta ja rumpua varovasti ja pidä ne poissa suoralta valolta."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos ilmoitus näkyy täydellä kasetilla."
+ },
+ "Brother|No Toner": {
+  "title": "Väriainekasettia ei havaita",
+  "causes": [
+   "Kasettia ei ole asennettu oikein."
+  ],
+  "steps": [
+   "Poista rumpu- ja väriaineyksikkö.",
+   "Aseta väriaine uudelleen rumpuun.",
+   "Asenna yksikkö takaisin. Vaihda väriainekasetti, jos ongelma pysyy."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos ilmoitus pysyy."
+ },
+ "Brother|Cartridge Error": {
+  "title": "Väriainekasettia ei ole asennettu oikein",
+  "causes": [
+   "Väriainekasettia ei ole asennettu oikein."
+  ],
+  "steps": [
+   "Poista yksikkö.",
+   "Aseta väriainekasetti uudelleen rumpuun.",
+   "Asenna yksikkö takaisin.",
+   "Käsittele väriainetta ja rumpua varovasti ja pidä ne poissa suoralta valolta."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos ilmoitus pysyy."
+ },
+ "Brother|Self-Diagnostic": {
+  "title": "Kiinnitysyksikön ongelma",
+  "causes": [
+   "Kiinnitysyksikkö ei toimi tai se on ylikuumentunut."
+  ],
+  "steps": [
+   "Sammuta laite, odota muutama sekunti ja käynnistä se.",
+   "Jätä se päälle ja käyttämättömäksi 15 minuutiksi.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos ongelma palaa."
+ },
+ "Brother|Cooling Down": {
+  "title": "Laite liian kuuma, tulostus keskeytetty",
+  "causes": [
+   "Sisälämpötila on liian korkea."
+  ],
+  "steps": [
+   "Odota, että laite jäähtyy.",
+   "Poista tukkeutuneet ilma-aukkojen esteet.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen."
+  ],
+  "technician": "Ota yhteys Brotheriin, jos tämä toistuu."
+ },
+ "HP|E0": {
+  "title": "Kasettiongelma",
+  "causes": [
+   "Vilkkuvan mustekuvakkeen kohdalla oleva kasetti on viallinen."
+  ],
+  "steps": [
+   "Tarkista HP-sovelluksen tai ohjelmiston viesti.",
+   "Aseta kasetti uudelleen ja poista mahdollinen teippi.",
+   "Puhdista kontaktit tai vaihda kasetti."
+  ],
+  "technician": "Ota yhteys HP:hen, jos koodi pysyy uudellakin kasetilla."
+ },
+ "HP|E1": {
+  "title": "Paperikoko ei täsmää",
+  "causes": [
+   "Ladattu paperi ei vastaa tulostustyötä."
+  ],
+  "steps": [
+   "Tulosta silti painamalla Resume tai peruuta painamalla Cancel.",
+   "Lataa sopivaa paperia tai muuta paperikoon asetusta.",
+   "Tulosta uudelleen."
+  ],
+  "technician": "Ota yhteys HP:hen, jos koodi pysyy sopivalla paperilla."
+ },
+ "HP|E2": {
+  "title": "Paperin pituus ei täsmää",
+  "causes": [
+   "Paperin pituus ei vastaa tulostustyötä."
+  ],
+  "steps": [
+   "Jatka silti painamalla Resume tai peruuta painamalla Cancel.",
+   "Lataa sopivaa paperia tai muuta asetusta.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen."
+  ],
+  "technician": "Ota yhteys HP:hen, jos koodi pysyy."
+ },
+ "HP|E3": {
+  "title": "Kelkka jumissa tai juuttunut",
+  "causes": [
+   "Tulostuskelkka ei pysty liikkumaan.",
+   "Paperi tai esine voi estää sen."
+  ],
+  "steps": [
+   "Avaa mustekasettien luukku.",
+   "Varmista, että tulostuspään kansi on kiinni eikä mikään estä kelkkaa.",
+   "Poista paperi tai esineet, sulje luukku ja paina sitten Resume tai Cancel."
+  ],
+  "technician": "Ota yhteys HP:hen, jos E3-virhe pysyy."
+ },
+ "HP|E4": {
+  "title": "Paperitukos",
+  "causes": [
+   "Paperi on juuttunut tulostimeen."
+  ],
+  "steps": [
+   "Poista tukos kyseiseltä alueelta.",
+   "Paina Resume.",
+   "Älä avaa tulostuspään kantta.",
+   "Sammuta tulostin, ennen kuin kurotat sisään, ja vedä paperi hitaasti ulos, jotta se ei repeä."
+  ],
+  "technician": "Ota yhteys HP:hen, jos tukoksia tulee toistuvasti."
+ },
+ "HP|E5": {
+  "title": "Skanneri ei toimi",
+  "causes": [
+   "Skannerissa on vika."
+  ],
+  "steps": [
+   "Paina Cancel ja yritä skannata uudelleen.",
+   "Sammuta tulostin ja käynnistä se uudelleen.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen."
+  ],
+  "technician": "Ota yhteys HP:hen, jos ongelma pysyy. Tulostus toimii edelleen."
+ },
+ "HP|E6": {
+  "title": "Tulostin on virhetilassa",
+  "causes": [
+   "Tulostin on virhetilassa."
+  ],
+  "steps": [
+   "Sammuta tulostin.",
+   "Irrota virtajohto ja odota minuutti.",
+   "Kytke virta takaisin ja käynnistä tulostin.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen."
+  ],
+  "technician": "Ota yhteys HP:hen, jos ongelma pysyy."
+ },
+ "HP|E7": {
+  "title": "Mustesäiliö tyhjä",
+  "causes": [
+   "Yksi tai useampi mustesäiliö on tyhjä."
+  ],
+  "steps": [
+   "Täytä ilmoitettu säiliö.",
+   "Pidä kasetteja reunoista äläkä koske kontakteihin tai suuttimiin.",
+   "Käytä juuri tulostimesi malliin tarkoitettuja kasetteja."
+  ],
+  "technician": "Ota yhteys HP:hen, jos koodi pysyy täytön jälkeen."
+ },
+ "HP|E8": {
+  "title": "Vakava virhe",
+  "causes": [
+   "Tulostin ilmoittaa vakavasta virheestä."
+  ],
+  "steps": [
+   "Sammuta tulostin ja käynnistä se uudelleen.",
+   "Tarkista, ettei mikään estä sitä.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen."
+  ],
+  "technician": "Ota yhteys HP:hen, jos ongelma pysyy."
+ },
+ "HP|E9": {
+  "title": "Laiteohjelmistopäivityksen virhe",
+  "causes": [
+   "Laiteohjelmiston päivitys epäonnistui."
+  ],
+  "steps": [
+   "Sammuta tulostin ja käynnistä se uudelleen.",
+   "Yritä päivitystä uudelleen.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen.",
+   "Kytke se suoraan seinäpistorasiaan ja tarkista, että kaapeli on tiukasti kiinni."
+  ],
+  "technician": "Ota yhteys HP:hen, jos ongelma pysyy."
+ },
+ "HP|Printhead problem": {
+  "title": "Tulostuspää puuttuu tai on viallinen",
+  "causes": [
+   "Tulostuspää puuttuu, on asennettu väärin tai on vaurioitunut.",
+   "Siinä voi yhä olla oranssi tulppa tai teippi."
+  ],
+  "steps": [
+   "Asenna puuttuva tulostuspää.",
+   "Poista ilmoitettu pää, tarkista tulpan tai teipin varalta ja aseta se uudelleen.",
+   "Käytä oikeita HP-tulostuspäitä. Älä avaa kantta, ellei sitä ohjeisteta."
+  ],
+  "technician": "Ota yhteys HP:hen, jos tulostuspään virhe pysyy."
+ },
+ "HP|49 Error": {
+  "title": "Laitteen sisäinen virhe",
+  "causes": [
+   "Tulostimessa on sisäinen virhe."
+  ],
+  "steps": [
+   "Katkaise virta ja odota 30 sekuntia.",
+   "Kytke suoraan seinäpistorasiaan, ei ylijännitesuojaan.",
+   "Kytke virta päälle.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen."
+  ],
+  "technician": "Ota yhteys HP:n tukeen, jos ongelma pysyy."
+ },
+ "HP|50.x Fuser Error": {
+  "title": "Kiinnitysyksikön ongelma",
+  "causes": [
+   "Kiinnitysyksikössä on ongelma."
+  ],
+  "steps": [
+   "Katkaise virta, odota 30 sekuntia ja kytke virta päälle.",
+   "Jos ongelma pysyy, katkaise virta 25 minuutiksi.",
+   "Ohita ylijännitesuoja.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen."
+  ],
+  "technician": "Ota yhteys HP:n tukeen, jos ongelma pysyy."
+ },
+ "HP|79 Error": {
+  "title": "Sisäinen laiteohjelmistovirhe",
+  "causes": [
+   "Sisäinen laiteohjelmistovirhe."
+  ],
+  "steps": [
+   "Katkaise virta ja kytke se uudelleen.",
+   "Kytke suoraan seinäpistorasiaan.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen.",
+   "Kytke se suoraan seinäpistorasiaan ja tarkista, että kaapeli on tiukasti kiinni."
+  ],
+  "technician": "Ota yhteys HP:n tukeen, jos ongelma pysyy."
+ },
+ "Samsung|Fuser failure": {
+  "title": "Kiinnitysyksikön vika",
+  "causes": [
+   "Kiinnitysyksikössä on vika."
+  ],
+  "steps": [
+   "Katkaise virta ja kytke se uudelleen.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen.",
+   "Kytke se suoraan seinäpistorasiaan ja tarkista, että kaapeli on tiukasti kiinni."
+  ],
+  "technician": "Soita huoltoon, jos ongelma pysyy."
+ },
+ "Samsung|Engine system failure": {
+  "title": "Moottoriyksikön vika",
+  "causes": [
+   "Moottoriyksikössä on vika."
+  ],
+  "steps": [
+   "Irrota virtajohto ja kytke se takaisin.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen.",
+   "Kytke se suoraan seinäpistorasiaan ja tarkista, että kaapeli on tiukasti kiinni."
+  ],
+  "technician": "Soita huoltoon, jos ongelma pysyy."
+ },
+ "Samsung|Motor failure": {
+  "title": "Moottorivika",
+  "causes": [
+   "Moottorivika."
+  ],
+  "steps": [
+   "Katkaise virta ja kytke se uudelleen.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen.",
+   "Kytke se suoraan seinäpistorasiaan ja tarkista, että kaapeli on tiukasti kiinni."
+  ],
+  "technician": "Soita huoltoon, jos ongelma pysyy."
+ },
+ "Samsung|LSU failure": {
+  "title": "Laserskannausyksikön vika",
+  "causes": [
+   "Laserskannausyksikössä on vika."
+  ],
+  "steps": [
+   "Katkaise virta ja kytke se uudelleen.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen.",
+   "Kytke se suoraan seinäpistorasiaan ja tarkista, että kaapeli on tiukasti kiinni."
+  ],
+  "technician": "Soita huoltoon, jos ongelma pysyy."
+ },
+ "Samsung|Fan failure": {
+  "title": "Tuulettimen vika",
+  "causes": [
+   "Tuulettimessa on vika."
+  ],
+  "steps": [
+   "Katkaise virta ja kytke se uudelleen.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen.",
+   "Kytke se suoraan seinäpistorasiaan ja tarkista, että kaapeli on tiukasti kiinni."
+  ],
+  "technician": "Soita huoltoon, jos ongelma pysyy."
+ },
+ "Samsung|Replace new toner": {
+  "title": "Väriainekasetin käyttöikä on lopussa",
+  "causes": [
+   "Väriaine on käytetty loppuun."
+  ],
+  "steps": [
+   "Asenna aito Samsung-kasetti.",
+   "Käsittele väriainetta ja rumpua varovasti ja pidä ne poissa suoralta valolta.",
+   "Käytä juuri tulostimesi malliin tarkoitettuja tarvikkeita."
+  ],
+  "technician": "Soita huoltoon, jos ongelma pysyy."
+ },
+ "Samsung|Toner cartridge failure": {
+  "title": "Väriainekasetin vika",
+  "causes": [
+   "Kasetti ei ole paikallaan."
+  ],
+  "steps": [
+   "Asenna se uudelleen.",
+   "Katkaise virta ja kytke se uudelleen, jos ongelma pysyy.",
+   "Käsittele väriainetta ja rumpua varovasti ja pidä ne poissa suoralta valolta.",
+   "Käytä juuri tulostimesi malliin tarkoitettuja tarvikkeita."
+  ],
+  "technician": "Soita huoltoon, jos ongelma pysyy."
+ },
+ "Samsung|Toner not installed": {
+  "title": "Väriainekasetti puuttuu",
+  "causes": [
+   "Väriainekasettia ei ole asennettu."
+  ],
+  "steps": [
+   "Asenna väriainekasetti uudelleen.",
+   "Käsittele väriainetta ja rumpua varovasti ja pidä ne poissa suoralta valolta.",
+   "Käytä juuri tulostimesi malliin tarkoitettuja tarvikkeita."
+  ],
+  "technician": "Soita huoltoon, jos ongelma pysyy."
+ },
+ "Samsung|Remove seal tape": {
+  "title": "Suojateippi kasetissa",
+  "causes": [
+   "Suojateippi on yhä kasetissa."
+  ],
+  "steps": [
+   "Poista se tai ravista kasettia.",
+   "Käsittele väriainetta ja rumpua varovasti ja pidä ne poissa suoralta valolta.",
+   "Käytä juuri tulostimesi malliin tarkoitettuja tarvikkeita."
+  ],
+  "technician": "Soita huoltoon, jos ongelma pysyy."
+ },
+ "Samsung|Jam inside of machine": {
+  "title": "Paperitukos sisällä",
+  "causes": [
+   "Paperi on juuttunut sisälle."
+  ],
+  "steps": [
+   "Poista tukos laitteen sisältä.",
+   "Sammuta tulostin, ennen kuin kurotat sisään, ja vedä paperi hitaasti ulos, jotta se ei repeä."
+  ],
+  "technician": "Soita huoltoon, jos tukoksia tulee toistuvasti."
+ },
+ "Samsung|Front door is open": {
+  "title": "Luukku auki",
+  "causes": [
+   "Luukku ei ole lukittunut."
+  ],
+  "steps": [
+   "Sulje se, kunnes se lukittuu.",
+   "Tarkista, ettei paperi tai esine estä kantta sulkeutumasta.",
+   "Paina kantta alas, kunnes kuulet sen lukittuvan."
+  ],
+  "technician": "Soita huoltoon, jos ongelma pysyy."
+ },
+ "Samsung|Output bin is full": {
+  "title": "Ulostulolokero täynnä",
+  "causes": [
+   "Ulostulolokero on täynnä."
+  ],
+  "steps": [
+   "Poista tulostetut paperit.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen.",
+   "Kytke se suoraan seinäpistorasiaan ja tarkista, että kaapeli on tiukasti kiinni."
+  ],
+  "technician": "Soita huoltoon, jos ongelma pysyy."
+ },
+ "Kyocera|Check toner/Low toner": {
+  "title": "Väriaine vähissä tai sitä ei havaita",
+  "causes": [
+   "Väriaine on vähissä tai tulostin ei havaitse sitä.",
+   "Väriaine ei välttämättä ole aitoa tai se on asennettu väärin."
+  ],
+  "steps": [
+   "Tarkista, että väriaine on aitoa Kyoceraa.",
+   "Ota väriainesäiliö pois, ravista sitä ja laita se takaisin.",
+   "Sulje yläkansi kokonaan."
+  ],
+  "technician": "Ota yhteys Kyoceran huoltoon, jos ilmoitus pysyy uudella väriaineella."
+ },
+ "Kyocera|Paper jam at Cassette": {
+  "title": "Paperitukos kasetissa 1",
+  "causes": [
+   "Paperi on juuttunut kasettiin 1."
+  ],
+  "steps": [
+   "Vedä kasetti 1 ulos.",
+   "Poista juuttunut paperi.",
+   "Työnnä kasetti kokonaan takaisin.",
+   "Sammuta tulostin, ennen kuin kurotat sisään, ja vedä paperi hitaasti ulos, jotta se ei repeä."
+  ],
+  "technician": "Ota yhteys Kyoceran huoltoon, jos tukoksia tulee toistuvasti."
+ },
+ "Kyocera|Paper jam at Rear Cover": {
+  "title": "Paperitukos takakannen takana",
+  "causes": [
+   "Paperi on juuttunut takakannen 1 taakse."
+  ],
+  "steps": [
+   "Avaa takakansi 1 ja sisäkansi.",
+   "Poista paperi.",
+   "Sulje kannet.",
+   "Sammuta tulostin, ennen kuin kurotat sisään, ja vedä paperi hitaasti ulos, jotta se ei repeä."
+  ],
+  "technician": "Ota yhteys Kyoceran huoltoon, jos tukoksia tulee toistuvasti."
+ },
+ "Kyocera|Paper jam inside machine": {
+  "title": "Paperitukos tulostimen sisällä",
+  "causes": [
+   "Paperi on juuttunut sisälle."
+  ],
+  "steps": [
+   "Avaa etukansi.",
+   "Poista kehitin- ja rumpuyksiköt ja poista paperi syöttökannen kohdalta.",
+   "Aseta yksiköt takaisin. Älä koske kuumaan kiinnitysyksikköön."
+  ],
+  "technician": "Ota yhteys Kyoceran huoltoon, jos tukoksia tulee toistuvasti."
+ },
+ "Kyocera|Paper jam at MP Tray": {
+  "title": "Paperitukos monitoimilokerossa",
+  "causes": [
+   "Paperi on juuttunut MP-lokeroon."
+  ],
+  "steps": [
+   "Poista kaikki paperi lokerosta.",
+   "Heitä juuttuneet arkit pois.",
+   "Lataa paperi uudelleen.",
+   "Sammuta tulostin, ennen kuin kurotat sisään, ja vedä paperi hitaasti ulos, jotta se ei repeä."
+  ],
+  "technician": "Ota yhteys Kyoceran huoltoon, jos tukoksia tulee toistuvasti."
+ },
+ "Kyocera|Call service": {
+  "title": "Tulostin tarvitsee huoltomiehen",
+  "causes": [
+   "Tulostin havaitsi vian, jota se ei pysty poistamaan itse.",
+   "Se näkyy myös, jos kasetin nostovirhe toistuu."
+  ],
+  "steps": [
+   "Sammuta tulostin ja irrota se sähköstä.",
+   "Kytke virta takaisin ja käynnistä tulostin nähdäksesi, palautuuko se.",
+   "Jos ei, sammuta tulostin, irrota se sähköstä ja ota yhteys huoltoon."
+  ],
+  "technician": "Ota yhteys valtuutettuun Kyoceran huoltoliikkeeseen."
+ },
+ "Kyocera|Close top cover": {
+  "title": "Yläkansi on auki",
+  "causes": [
+   "Yläkansi ei ole kiinni."
+  ],
+  "steps": [
+   "Sulje yläkansi tiukasti.",
+   "Tarkista, ettei paperi tai esine estä kantta sulkeutumasta.",
+   "Paina kantta alas, kunnes kuulet sen lukittuvan."
+  ],
+  "technician": "Ota yhteys Kyoceran huoltoon, jos ilmoitus pysyy kannen ollessa kiinni."
+ },
+ "Kyocera|Check the toner container": {
+  "title": "Väriainesäiliötä ei ole asennettu oikein",
+  "causes": [
+   "Väriainesäiliö ei ole asennettu oikein."
+  ],
+  "steps": [
+   "Avaa yläkansi.",
+   "Asenna väriainesäiliö uudelleen oikein.",
+   "Käsittele väriainetta ja rumpua varovasti ja pidä ne poissa suoralta valolta."
+  ],
+  "technician": "Ota yhteys Kyoceran huoltoon, jos ilmoitus pysyy."
+ },
+ "Kyocera|Check waste toner box": {
+  "title": "Hukkaväriainelaatikko puuttuu tai on täynnä",
+  "causes": [
+   "Hukkaväriainelaatikkoa ei ole asennettu tai se on täynnä."
+  ],
+  "steps": [
+   "Asenna uusi hukkaväriainelaatikko.",
+   "Käsittele väriainetta ja rumpua varovasti ja pidä ne poissa suoralta valolta."
+  ],
+  "technician": "Ota yhteys Kyoceran huoltoon, jos ilmoitus pysyy."
+ },
+ "Kyocera|Add paper MPTray": {
+  "title": "Paperilähde on tyhjä",
+  "causes": [
+   "Näytetyn paperilähteen paperi on loppunut."
+  ],
+  "steps": [
+   "Lataa paperia näytettyyn lähteeseen.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen.",
+   "Kytke se suoraan seinäpistorasiaan ja tarkista, että kaapeli on tiukasti kiinni."
+  ],
+  "technician": "Ota yhteys Kyoceran huoltoon, jos ilmoitus pysyy."
+ },
+ "Xerox|Red status LED on (major error)": {
+  "title": "Laite pysähtyi vakavan virheen vuoksi",
+  "causes": [
+   "Laite pysähtyi vakavan virheen vuoksi."
+  ],
+  "steps": [
+   "Käynnistä laite uudelleen.",
+   "Yritä työtä uudelleen.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen.",
+   "Kytke se suoraan seinäpistorasiaan ja tarkista, että kaapeli on tiukasti kiinni."
+  ],
+  "technician": "Soita Xeroxin huoltoon, jos ongelma pysyy."
+ },
+ "Xerox|Orange status LED on": {
+  "title": "Paperitukos",
+  "causes": [
+   "Paperi on juuttunut."
+  ],
+  "steps": [
+   "Poista tukos.",
+   "Sammuta tulostin, ennen kuin kurotat sisään, ja vedä paperi hitaasti ulos, jotta se ei repeä.",
+   "Tarkista paperiohjaimet ja käytä oikeankokoista ja -painoista paperia."
+  ],
+  "technician": "Soita Xeroxin huoltoon, jos tukoksia tulee toistuvasti."
+ },
+ "Xerox|Red status LED on (cover open)": {
+  "title": "Kansi on auki",
+  "causes": [
+   "Kansi on auki.",
+   "Kirjoita muistiin täsmällinen teksti tai koodi, ennen kuin otat yhteyttä tukeen."
+  ],
+  "steps": [
+   "Sulje kansi.",
+   "Tarkista, ettei paperi tai esine estä kantta sulkeutumasta.",
+   "Paina kantta alas, kunnes kuulet sen lukittuvan."
+  ],
+  "technician": "Soita Xeroxin huoltoon, jos ilmoitus pysyy."
+ },
+ "Xerox|Toner LED blinking orange": {
+  "title": "Väriaine on vähissä",
+  "causes": [
+   "Väriaine on vähissä."
+  ],
+  "steps": [
+   "Valmistele uusi kasetti.",
+   "Jaa väriaine uudelleen laadun parantamiseksi toistaiseksi.",
+   "Käsittele väriainetta ja rumpua varovasti ja pidä ne poissa suoralta valolta."
+  ],
+  "technician": "Soita Xeroxin huoltoon, jos ilmoitus pysyy."
+ },
+ "Xerox|010-351": {
+  "title": "Kiinnitysyksikön vika",
+  "causes": [
+   "Kiinnitysyksikön vika Phaser 6500 -mallissa."
+  ],
+  "steps": [
+   "Tarkista, että väriaine on aitoa Xeroxia.",
+   "Katkaise virta 10 sekunniksi ja kytke se sitten uudelleen.",
+   "Sammuta laite, odota noin minuutti ja käynnistä se sitten uudelleen."
+  ],
+  "technician": "Soita Xeroxin huoltoon, jos vika pysyy."
+ }
+}

@@ -1,0 +1,1365 @@
+{
+ "Canon|B200": {
+  "title": "Guasto della stampante che richiede una riparazione",
+  "causes": [
+   "La stampante ha rilevato un guasto grave che non riesce a risolvere da sola.",
+   "Canon indica questo errore come un problema che richiede una riparazione."
+  ],
+  "steps": [
+   "Spegni la stampante.",
+   "Scollega il cavo di alimentazione dalla presa a muro.",
+   "Non continuare a riavviarla. Contatta l'assistenza Canon per la riparazione."
+  ],
+  "technician": "Chiama l'assistenza Canon per una riparazione, perché il codice indica che serve un tecnico."
+ },
+ "Canon|B203": {
+  "title": "Guasto della stampante che richiede una riparazione",
+  "causes": [
+   "La stampante segnala un errore che richiede una riparazione.",
+   "Su alcuni modelli il codice compare insieme a P10."
+  ],
+  "steps": [
+   "Spegni la stampante.",
+   "Scollega il cavo di alimentazione.",
+   "Contatta l'assistenza Canon e comunica il codice."
+  ],
+  "technician": "Chiama l'assistenza Canon, perché la stampante ha bisogno di una riparazione."
+ },
+ "Canon|5100": {
+  "title": "Errore della stampante, problema al carrello o alla testina di stampa",
+  "causes": [
+   "La stampante ha riscontrato un errore interno. Canon non indica una causa precisa.",
+   "Qualcosa potrebbe bloccare il carrello della testina, ad esempio carta o materiale d'imballaggio."
+  ],
+  "steps": [
+   "Annulla il lavoro di stampa e spegni la stampante.",
+   "Apri il coperchio e controlla che nulla blocchi il carrello. Rimuovi con delicatezza carta, nastro adesivo o altri residui.",
+   "Controlla che la testina di stampa o le cartucce siano inserite a fondo fino allo scatto.",
+   "Riaccendi la stampante."
+  ],
+  "technician": "Se l'errore resta, rivolgiti a un centro assistenza Canon per la riparazione."
+ },
+ "Canon|5200": {
+  "title": "Errore generico della stampante",
+  "causes": [
+   "La stampante segnala un errore interno senza una causa specifica."
+  ],
+  "steps": [
+   "Spegni la stampante e scollegala dalla presa.",
+   "Attendi un po', poi ricollegala e riaccendila.",
+   "Se l'errore ricompare, annota il codice prima di chiamare l'assistenza."
+  ],
+  "technician": "Se l'errore resta, rivolgiti a un centro assistenza Canon per la riparazione."
+ },
+ "Canon|5011": {
+  "title": "Errore generico della stampante",
+  "causes": [
+   "La stampante ha un errore interno. Canon non fornisce ulteriori dettagli."
+  ],
+  "steps": [
+   "Spegni la stampante e scollegala dalla presa.",
+   "Ricollegala e riaccendila.",
+   "Controlla che non ci sia carta incastrata all'interno."
+  ],
+  "technician": "Se l'errore persiste, rivolgiti a un centro assistenza Canon."
+ },
+ "Canon|6800": {
+  "title": "Errore generico della stampante",
+  "causes": [
+   "La stampante segnala un errore interno. Non viene indicata una causa precisa."
+  ],
+  "steps": [
+   "Spegni la stampante e scollegala dalla presa.",
+   "Ricollegala e accendila.",
+   "Controlla che non ci siano carta o oggetti incastrati all'interno."
+  ],
+  "technician": "Se l'errore persiste, rivolgiti a un centro assistenza Canon."
+ },
+ "Canon|6000": {
+  "title": "Errore generico della stampante",
+  "causes": [
+   "Si è verificato un errore generico della stampante. Canon non indica una causa specifica.",
+   "Anche un inceppamento della carta può provocare questo codice."
+  ],
+  "steps": [
+   "Rimuovi la carta inceppata che riesci a vedere.",
+   "Spegni la stampante e scollegala dalla presa.",
+   "Ricollegala e riaccendila."
+  ],
+  "technician": "Se l'errore resta, rivolgiti a un centro assistenza Canon per la riparazione."
+ },
+ "Canon|5B00": {
+  "title": "Errore della stampante che richiede assistenza",
+  "causes": [
+   "Canon lo classifica come errore generico della stampante, mostrato come P07 su alcuni modelli.",
+   "Nella pagina Canon non è indicata una soluzione da fare a casa."
+  ],
+  "steps": [
+   "Spegni e riaccendi la stampante una sola volta.",
+   "Annota il codice visualizzato.",
+   "Se ricompare, non continuare a stampare."
+  ],
+  "technician": "Rivolgiti a un centro assistenza Canon per organizzare la riparazione."
+ },
+ "Canon|5B01": {
+  "title": "Errore della stampante che richiede assistenza",
+  "causes": [
+   "La stampante segnala un errore senza una causa specifica.",
+   "Canon indica che serve una riparazione tramite assistenza."
+  ],
+  "steps": [
+   "Spegni e riaccendi la stampante una sola volta.",
+   "Annota il codice.",
+   "Se il codice ricompare, smetti di stampare."
+  ],
+  "technician": "Rivolgiti a un centro assistenza Canon per richiedere una riparazione."
+ },
+ "Canon|1700": {
+  "title": "Assorbitore dell'inchiostro di scarto quasi pieno",
+  "causes": [
+   "Il tampone interno che raccoglie l'inchiostro di scarto è quasi pieno."
+  ],
+  "steps": [
+   "Premi il tasto OK sulla stampante per continuare a stampare.",
+   "Programma una riparazione, perché l'assorbitore deve essere gestito dall'assistenza.",
+   "Non aprire la stampante per sostituirlo da solo."
+  ],
+  "technician": "Rivolgiti a un centro assistenza Canon per far sostituire l'assorbitore dell'inchiostro."
+ },
+ "Canon|1701": {
+  "title": "Assorbitore dell'inchiostro di scarto quasi pieno",
+  "causes": [
+   "Il tampone dell'inchiostro di scarto della stampante è quasi pieno."
+  ],
+  "steps": [
+   "Premi OK sulla stampante per continuare a stampare.",
+   "Organizza presto una riparazione.",
+   "Non aprire la stampante da solo.",
+   "Maneggia le cartucce dai bordi e non toccare i contatti né gli ugelli."
+  ],
+  "technician": "Rivolgiti a un centro assistenza Canon per richiedere una riparazione."
+ },
+ "Canon|1300": {
+  "title": "Carta inceppata durante l'alimentazione dal vassoio posteriore",
+  "causes": [
+   "La carta si è bloccata durante l'alimentazione dal vassoio posteriore."
+  ],
+  "steps": [
+   "Estrai lentamente la carta con entrambe le mani, dalla fessura di uscita o dal vassoio posteriore.",
+   "Se non esce, spegni e riaccendi la stampante: potrebbe espellere il foglio.",
+   "Ricarica carta adatta e premi OK.",
+   "Ristampa la pagina non riuscita."
+  ],
+  "technician": "Rivolgiti a un centro assistenza Canon se gli inceppamenti si ripetono o la carta si strappa all'interno."
+ },
+ "Canon|1203": {
+  "title": "Coperchio aperto durante la stampa",
+  "causes": [
+   "Il coperchio è stato aperto mentre la stampante era in funzione."
+  ],
+  "steps": [
+   "Rimuovi la carta dal percorso, se è incastrata.",
+   "Chiudi il coperchio.",
+   "Premi OK per cancellare l'errore.",
+   "Ristampa la pagina, perché non verrà ripetuta automaticamente."
+  ],
+  "technician": "Rivolgiti a un centro assistenza Canon se l'errore ricompare con il coperchio chiuso."
+ },
+ "Canon|1000": {
+  "title": "Vassoio posteriore vuoto o carta caricata male",
+  "causes": [
+   "Nel vassoio posteriore non c'è carta.",
+   "La carta non è caricata correttamente."
+  ],
+  "steps": [
+   "Carica la carta nel vassoio posteriore.",
+   "Fai scorrere le guide fino ai due bordi della carta.",
+   "Se il formato della carta lampeggia, scegli il formato caricato.",
+   "Premi OK."
+  ],
+  "technician": "Rivolgiti a un centro assistenza Canon se la stampante segnala carta assente anche con la carta caricata."
+ },
+ "Canon|1890": {
+  "title": "Nastro protettivo rimasto nel supporto delle cartucce",
+  "causes": [
+   "Il nastro di spedizione o il materiale d'imballaggio potrebbero essere ancora sul supporto delle cartucce."
+  ],
+  "steps": [
+   "Chiudi il vassoio di uscita e apri il coperchio.",
+   "Rimuovi dal supporto ogni residuo di nastro o materiale protettivo.",
+   "Chiudi il coperchio."
+  ],
+  "technician": "Rivolgiti a un centro assistenza Canon se l'errore resta dopo aver rimosso tutto il materiale d'imballaggio."
+ },
+ "Canon|1401": {
+  "title": "Cartuccia non rilevata",
+  "causes": [
+   "La stampante non rileva una cartuccia FINE."
+  ],
+  "steps": [
+   "Installa la cartuccia FINE.",
+   "Premila fino a quando si blocca.",
+   "Chiudi il coperchio.",
+   "Maneggia le cartucce dai bordi e non toccare i contatti né gli ugelli."
+  ],
+  "technician": "Rivolgiti a un centro assistenza Canon se l'errore persiste, perché la cartuccia potrebbe essere danneggiata."
+ },
+ "Canon|1403": {
+  "title": "Errore della cartuccia",
+  "causes": [
+   "La stampante segnala un errore con la cartuccia FINE."
+  ],
+  "steps": [
+   "Estrai la cartuccia e rimettila al suo posto.",
+   "Se l'errore resta, sostituisci la cartuccia con una nuova."
+  ],
+  "technician": "Rivolgiti a un centro assistenza Canon se anche con una cartuccia nuova compare l'errore."
+ },
+ "Canon|1682": {
+  "title": "Cartuccia non riconosciuta",
+  "causes": [
+   "La stampante non riconosce la cartuccia FINE."
+  ],
+  "steps": [
+   "Sostituisci la cartuccia FINE.",
+   "Controlla che sia inserita a fondo.",
+   "Maneggia le cartucce dai bordi e non toccare i contatti né gli ugelli."
+  ],
+  "technician": "Rivolgiti a un centro assistenza Canon se l'errore resta, perché la cartuccia potrebbe essere danneggiata."
+ },
+ "Canon|1684": {
+  "title": "Cartuccia d'inchiostro non riconosciuta",
+  "causes": [
+   "La cartuccia è installata male o non è compatibile con questa stampante."
+  ],
+  "steps": [
+   "Reinstalla correttamente la cartuccia.",
+   "Oppure sostituiscila con una compatibile.",
+   "Premi Stop per annullare il lavoro di stampa."
+  ],
+  "technician": "Rivolgiti a un centro assistenza Canon se il messaggio resta con una cartuccia corretta."
+ },
+ "Canon|1686": {
+  "title": "L'inchiostro potrebbe essere esaurito",
+  "causes": [
+   "L'inchiostro nella cartuccia potrebbe essere finito."
+  ],
+  "steps": [
+   "Sostituisci la cartuccia vuota con una nuova Canon.",
+   "Per terminare un lavoro, tieni premuto il tasto Stop per 5 secondi. La stampa continua poi senza il rilevamento dell'inchiostro."
+  ],
+  "technician": "Rivolgiti a un centro assistenza Canon se l'errore resta dopo aver sostituito l'inchiostro."
+ },
+ "Canon|1688": {
+  "title": "Inchiostro esaurito",
+  "causes": [
+   "La stampante ha finito l'inchiostro."
+  ],
+  "steps": [
+   "Sostituisci la cartuccia d'inchiostro vuota.",
+   "Chiudi il coperchio.",
+   "Per terminare un lavoro, tieni premuto il tasto Stop per almeno 5 secondi. La qualità potrebbe peggiorare. Sostituisci la cartuccia subito dopo."
+  ],
+  "technician": "Rivolgiti a un centro assistenza Canon se l'errore persiste con una cartuccia piena."
+ },
+ "Canon|168A": {
+  "title": "Cartuccia mancante o di tipo sbagliato",
+  "causes": [
+   "Non viene rilevata nessuna cartuccia FINE.",
+   "Una cartuccia è installata male o non è adatta a questa stampante."
+  ],
+  "steps": [
+   "Apri il coperchio ed estrai le cartucce.",
+   "Controlla che siano quelle giuste per la tua stampante.",
+   "Spingi ogni cartuccia verso l'alto fino a quando si blocca, poi chiudi il coperchio."
+  ],
+  "technician": "Rivolgiti a un centro assistenza Canon se l'errore resta dopo aver reinserito le cartucce."
+ },
+ "Canon|4100": {
+  "title": "Impossibile stampare i dati",
+  "causes": [
+   "La stampante non riesce a stampare i dati specificati."
+  ],
+  "steps": [
+   "Leggi il messaggio sul computer.",
+   "Controlla che siano installate cartucce Canon originali per ogni colore.",
+   "Prova a stampare di nuovo."
+  ],
+  "technician": "Rivolgiti a un centro assistenza Canon se l'errore resta."
+ },
+ "Canon|3446": {
+  "title": "Conflitto tra indirizzo IP e subnet mask",
+  "causes": [
+   "Le impostazioni Wireless Direct e Wi-Fi della stampante usano intervalli di rete in conflitto."
+  ],
+  "steps": [
+   "Premi OK sulla stampante.",
+   "Disattiva Wireless Direct, oppure imposta intervalli di subnet diversi per Wi-Fi e Wireless Direct.",
+   "Consulta la guida del router se modifichi le impostazioni del router."
+  ],
+  "technician": "Rivolgiti all'assistenza Canon se il problema resta dopo aver cambiato la configurazione di rete."
+ },
+ "Canon|3440": {
+  "title": "Easy Wireless Connect non riuscito",
+  "causes": [
+   "La configurazione del Wi-Fi con Easy Wireless Connect non è stata completata."
+  ],
+  "steps": [
+   "Premi OK sulla stampante.",
+   "Riprova con Easy Wireless Connect.",
+   "Se fallisce di nuovo, usa un altro metodo di configurazione del Wi-Fi."
+  ],
+  "technician": "Rivolgiti all'assistenza Canon se la stampante non riesce a collegarsi a nessuna rete."
+ },
+ "Canon|2900": {
+  "title": "Scansione del foglio di allineamento non riuscita",
+  "causes": [
+   "La stampante non è riuscita a scansionare il foglio di allineamento della testina di stampa."
+  ],
+  "steps": [
+   "Premi OK.",
+   "Controlla che il foglio sia a faccia in giù e posizionato correttamente e che il vetro sia pulito.",
+   "Carica carta comune A4 o Letter nel vassoio posteriore.",
+   "Stampa un controllo degli ugelli, poi ripeti l'allineamento. Se fallisce, esegui l'allineamento manuale."
+  ],
+  "technician": "Rivolgiti a un centro assistenza Canon se il controllo degli ugelli mostra una testina ostruita che la pulizia non riesce a liberare."
+ },
+ "Canon|3412": {
+  "title": "Impossibile scansionare l'originale",
+  "causes": [
+   "La stampante non è riuscita a scansionare l'originale sul vetro."
+  ],
+  "steps": [
+   "Premi OK.",
+   "Posiziona correttamente l'originale sul vetro.",
+   "Riprova la scansione o la copia.",
+   "Se persiste, imposta manualmente il formato dell'originale."
+  ],
+  "technician": "Rivolgiti a un centro assistenza Canon se la scansione continua a non riuscire."
+ },
+ "Epson|Service required": {
+  "title": "I tamponi dell'inchiostro hanno raggiunto fine vita",
+  "causes": [
+   "I tamponi interni dell'inchiostro di scarto sono pieni. È una normale usura e non un guasto improvviso.",
+   "L'uso intenso, molte pulizie della testina e la stampa senza bordi li riempiono più in fretta."
+  ],
+  "steps": [
+   "Controlla il testo del messaggio. Se cita un Maintenance Box, si tratta di un'altra parte, sostituibile dall'utente.",
+   "Non aprire la stampante e non provare a riparare i tamponi da solo.",
+   "Contatta Epson per chiedere le opzioni di riparazione."
+  ],
+  "technician": "Contatta Epson, perché i tamponi dell'inchiostro devono essere sostituiti da un centro di assistenza autorizzato."
+ },
+ "Epson|Ink pad at end of life": {
+  "title": "Tampone dell'inchiostro di scarto esaurito",
+  "causes": [
+   "Il tampone che raccoglie l'inchiostro non utilizzato è pieno."
+  ],
+  "steps": [
+   "Spegni la stampante.",
+   "Non provare ad aprirla.",
+   "Contatta l'assistenza Epson.",
+   "Maneggia le cartucce dai bordi e non toccare i contatti né gli ugelli."
+  ],
+  "technician": "Contatta Epson, perché i tamponi dell'inchiostro non sono sostituibili dall'utente."
+ },
+ "Epson|Ink pad nearing end of life": {
+  "title": "Tampone dell'inchiostro di scarto quasi pieno",
+  "causes": [
+   "Il tampone dell'inchiostro è vicino a fine vita.",
+   "Il messaggio resta visualizzato finché il tampone non viene sostituito."
+  ],
+  "steps": [
+   "Seleziona OK per continuare a stampare per ora.",
+   "Contatta l'assistenza Epson per programmare la sostituzione."
+  ],
+  "technician": "Contatta presto Epson, perché il tampone deve essere sostituito dall'assistenza."
+ },
+ "Epson|Borderless ink pad at end of life": {
+  "title": "Tampone per la stampa senza bordi esaurito",
+  "causes": [
+   "Il tampone usato per la stampa senza bordi è pieno.",
+   "Epson indica che non è sostituibile dall'utente."
+  ],
+  "steps": [
+   "Spegni il prodotto.",
+   "Contatta l'assistenza Epson.",
+   "La scansione e le altre operazioni che non usano inchiostro potrebbero funzionare ancora."
+  ],
+  "technician": "Contatta Epson per far sostituire il tampone per la stampa senza bordi."
+ },
+ "Epson|E-01": {
+  "title": "Errore della stampante",
+  "causes": [
+   "La stampante ha un guasto generico.",
+   "Può essere causato da un inceppamento della carta all'interno."
+  ],
+  "steps": [
+   "Spegni e riaccendi il prodotto.",
+   "Controlla se c'è un inceppamento all'interno e rimuovi la carta.",
+   "Riaccendi."
+  ],
+  "technician": "Contatta Epson se l'errore ricompare e non ci sono inceppamenti."
+ },
+ "Epson|E-02": {
+  "title": "Errore dello scanner",
+  "causes": [
+   "La parte dello scanner ha un guasto."
+  ],
+  "steps": [
+   "Spegni e riaccendi il prodotto.",
+   "Controlla che il coperchio dello scanner sia chiuso.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo."
+  ],
+  "technician": "Contatta Epson se l'errore ricompare."
+ },
+ "Epson|E-12": {
+  "title": "Il tampone per la stampa senza bordi va sostituito",
+  "causes": [
+   "Il tampone dell'inchiostro per la stampa senza bordi è pieno."
+  ],
+  "steps": [
+   "Contatta Epson, perché non puoi sostituirlo da solo.",
+   "Puoi comunque stampare con i bordi.",
+   "Maneggia le cartucce dai bordi e non toccare i contatti né gli ugelli."
+  ],
+  "technician": "Contatta Epson per sostituire il tampone."
+ },
+ "Epson|W-14": {
+  "title": "Tampone per la stampa senza bordi quasi pieno",
+  "causes": [
+   "Il tampone dell'inchiostro per la stampa senza bordi è vicino a fine vita."
+  ],
+  "steps": [
+   "Premi il tasto di avvio per continuare a stampare.",
+   "Contatta Epson per programmare la sostituzione.",
+   "L'avviso resta finché il tampone non viene sostituito."
+  ],
+  "technician": "Contatta Epson per la sostituzione del tampone."
+ },
+ "Epson|W-01": {
+  "title": "Carta inceppata",
+  "causes": [
+   "La carta è bloccata nel prodotto."
+  ],
+  "steps": [
+   "Rimuovi con cautela la carta inceppata.",
+   "Premi il tasto indicato sullo schermo per cancellare l'errore.",
+   "Se continua, spegni e riaccendi il prodotto."
+  ],
+  "technician": "Contatta Epson se gli inceppamenti si ripetono."
+ },
+ "Epson|W-12": {
+  "title": "Cartuccia d'inchiostro non inserita correttamente",
+  "causes": [
+   "Una cartuccia d'inchiostro non è inserita a fondo."
+  ],
+  "steps": [
+   "Premi ogni cartuccia d'inchiostro fino allo scatto.",
+   "Controlla che tutte le cartucce siano alla stessa altezza.",
+   "Maneggia le cartucce dai bordi e non toccare i contatti né gli ugelli."
+  ],
+  "technician": "Contatta Epson se il messaggio resta dopo aver reinserito le cartucce."
+ },
+ "Epson|W-13": {
+  "title": "Cartuccia d'inchiostro non riconosciuta",
+  "causes": [
+   "La cartuccia non è riconosciuta dalla stampante."
+  ],
+  "steps": [
+   "Controlla di aver installato cartucce Epson originali.",
+   "Estrai e reinserisci la cartuccia.",
+   "Maneggia le cartucce dai bordi e non toccare i contatti né gli ugelli."
+  ],
+  "technician": "Contatta Epson se le cartucce originali non vengono riconosciute."
+ },
+ "Epson|Printer error. Turn on the printer again": {
+  "title": "Errore grave della stampante",
+  "causes": [
+   "La stampante ha riscontrato un errore grave."
+  ],
+  "steps": [
+   "Spegni il prodotto, poi riaccendilo.",
+   "Controlla se ci sono inceppamenti o materiale protettivo all'interno.",
+   "Rimuovi quello che trovi.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo."
+  ],
+  "technician": "Contatta Epson se il messaggio ricompare e non ci sono inceppamenti."
+ },
+ "Epson|Recovery mode": {
+  "title": "Aggiornamento del firmware non riuscito",
+  "causes": [
+   "Un aggiornamento del firmware non è stato completato."
+  ],
+  "steps": [
+   "Collega il prodotto al computer con un cavo USB.",
+   "Esegui di nuovo l'aggiornamento del firmware.",
+   "Controlla che nessuna carta o oggetto impedisca la chiusura del coperchio."
+  ],
+  "technician": "Contatta Epson se la modalità di ripristino resta attiva."
+ },
+ "Epson|W-10": {
+  "title": "Cartuccia d'inchiostro vuota o installata male",
+  "causes": [
+   "Una cartuccia è esaurita o non è installata correttamente."
+  ],
+  "steps": [
+   "Sostituisci la cartuccia vuota.",
+   "Se l'errore resta con una cartuccia nuova, premi Start in modo che le cartucce si muovano, premi ciascuna verso il basso, poi premi Start."
+  ],
+  "technician": "Contatta Epson se il messaggio resta."
+ },
+ "Epson|Print head adjustment canceled": {
+  "title": "Problema alla testina di stampa",
+  "causes": [
+   "C'è un problema alla testina di stampa."
+  ],
+  "steps": [
+   "Pulisci la testina di stampa.",
+   "Se la qualità resta scarsa dopo due pulizie, spegni la stampante per almeno sei ore.",
+   "Esegui un controllo degli ugelli e pulisci di nuovo, se necessario."
+  ],
+  "technician": "Contatta Epson se la qualità di stampa resta scarsa."
+ },
+ "Brother|Ink Absorber Full": {
+  "title": "Contenitore assorbente dell'inchiostro pieno",
+  "causes": [
+   "Il contenitore assorbente o di lavaggio dell'inchiostro è pieno dopo molte pulizie intensive."
+  ],
+  "steps": [
+   "Evita ulteriori cicli di pulizia intensiva.",
+   "Contatta l'assistenza Brother per sostituire l'assorbitore.",
+   "La sostituzione non è coperta dalla garanzia."
+  ],
+  "technician": "Contatta il servizio clienti Brother, perché il contenitore assorbente va sostituito."
+ },
+ "Brother|Absorber NearFull": {
+  "title": "Contenitore assorbente dell'inchiostro quasi pieno",
+  "causes": [
+   "Il contenitore assorbente dell'inchiostro è quasi pieno."
+  ],
+  "steps": [
+   "Per ora continua a stampare.",
+   "Ordina un ricambio tramite Brother o un rivenditore.",
+   "Maneggia le cartucce dai bordi e non toccare i contatti né gli ugelli."
+  ],
+  "technician": "Contatta l'assistenza Brother per sostituire l'assorbitore."
+ },
+ "Brother|Cannot Print ##": {
+  "title": "Guasto meccanico o oggetto all'interno",
+  "causes": [
+   "Un problema meccanico o un corpo estraneo si trova all'interno dell'apparecchio."
+  ],
+  "steps": [
+   "Controlla all'interno se ci sono graffette o carta strappata.",
+   "Rimuovi ogni residuo.",
+   "Spegni l'apparecchio, attendi qualche minuto, poi riaccendilo."
+  ],
+  "technician": "Contatta Brother se il codice ricompare."
+ },
+ "Brother|Cannot Clean ##": {
+  "title": "Guasto meccanico durante la pulizia",
+  "causes": [
+   "Un problema meccanico o un corpo estraneo si trova all'interno."
+  ],
+  "steps": [
+   "Rimuovi i residui che riesci a vedere.",
+   "Spegni per alcuni minuti, poi riaccendi.",
+   "Se possibile, sposta prima gli eventuali fax memorizzati."
+  ],
+  "technician": "Contatta Brother se il codice ricompare."
+ },
+ "Brother|Cannot Scan ##": {
+  "title": "Guasto meccanico durante la scansione",
+  "causes": [
+   "Problema meccanico nello scanner."
+  ],
+  "steps": [
+   "Spegni l'apparecchio per alcuni minuti.",
+   "Riaccendilo.",
+   "Se possibile, sposta prima altrove gli eventuali fax memorizzati."
+  ],
+  "technician": "Contatta Brother se il codice ricompare."
+ },
+ "Brother|Cannot Detect": {
+  "title": "Cartuccia d'inchiostro non rilevata",
+  "causes": [
+   "La cartuccia non è inserita correttamente.",
+   "È installato il modello sbagliato."
+  ],
+  "steps": [
+   "Spingi con decisione la cartuccia a fondo.",
+   "Controlla che sia il modello corretto.",
+   "Maneggia le cartucce dai bordi e non toccare i contatti né gli ugelli."
+  ],
+  "technician": "Contatta Brother se il messaggio resta."
+ },
+ "Brother|No Ink Cartridge": {
+  "title": "Cartuccia non inserita correttamente",
+  "causes": [
+   "La cartuccia non è inserita nel suo alloggiamento."
+  ],
+  "steps": [
+   "Estrai la cartuccia.",
+   "Reinstallala con decisione.",
+   "Maneggia le cartucce dai bordi e non toccare i contatti né gli ugelli."
+  ],
+  "technician": "Contatta Brother se il messaggio resta."
+ },
+ "Brother|Wrong Ink Cartridge": {
+  "title": "Cartuccia d'inchiostro non compatibile",
+  "causes": [
+   "Il modello della cartuccia non è adatto a questo apparecchio."
+  ],
+  "steps": [
+   "Confronta il numero di modello con quello del tuo apparecchio.",
+   "Inserisci una cartuccia corretta.",
+   "Maneggia le cartucce dai bordi e non toccare i contatti né gli ugelli."
+  ],
+  "technician": "Contatta Brother se la cartuccia corretta viene rifiutata."
+ },
+ "Brother|Wrong Ink Colour": {
+  "title": "Cartuccia nell'alloggiamento sbagliato",
+  "causes": [
+   "Una cartuccia si trova nella posizione di un altro colore."
+  ],
+  "steps": [
+   "Sposta ogni cartuccia nell'alloggiamento dello stesso colore.",
+   "Maneggia le cartucce dai bordi e non toccare i contatti né gli ugelli."
+  ],
+  "technician": "Contatta Brother se il messaggio resta."
+ },
+ "Brother|Replace Ink": {
+  "title": "Cartuccia vuota",
+  "causes": [
+   "Una o più cartucce sono vuote."
+  ],
+  "steps": [
+   "Sostituisci le cartucce vuote.",
+   "La scansione funziona ancora.",
+   "Maneggia le cartucce dai bordi e non toccare i contatti né gli ugelli."
+  ],
+  "technician": "Contatta Brother se il messaggio resta dopo la sostituzione."
+ },
+ "Brother|Ink Low": {
+  "title": "Cartuccia in esaurimento",
+  "causes": [
+   "L'inchiostro sta per finire."
+  ],
+  "steps": [
+   "Tieni pronta una cartuccia nuova.",
+   "La stampa continua finché non compare Replace Ink.",
+   "Maneggia le cartucce dai bordi e non toccare i contatti né gli ugelli."
+  ],
+  "technician": "Contatta Brother se l'avviso compare con una cartuccia piena."
+ },
+ "Brother|B&W Print Only": {
+  "title": "Cartuccia a colori vuota",
+  "causes": [
+   "Una o più cartucce a colori sono vuote."
+  ],
+  "steps": [
+   "Sostituisci le cartucce a colori.",
+   "La stampa in bianco e nero funziona per circa quattro settimane.",
+   "Maneggia le cartucce dai bordi e non toccare i contatti né gli ugelli."
+  ],
+  "technician": "Contatta Brother se il messaggio resta dopo la sostituzione."
+ },
+ "Brother|Jam Front": {
+  "title": "Carta inceppata nella parte anteriore",
+  "causes": [
+   "La carta è bloccata nella parte anteriore dell'apparecchio."
+  ],
+  "steps": [
+   "Rimuovi la carta inceppata.",
+   "Controlla le guide.",
+   "Non estendere il vassoio per carta in formato A5 o più piccola.",
+   "Spegni la stampante prima di infilare la mano all'interno ed estrai la carta lentamente per non strapparla."
+  ],
+  "technician": "Contatta Brother se gli inceppamenti si ripetono."
+ },
+ "Brother|Jam Rear": {
+  "title": "Carta inceppata nella parte posteriore",
+  "causes": [
+   "La carta è bloccata nella parte posteriore, oppure i rulli di presa sono impolverati."
+  ],
+  "steps": [
+   "Rimuovi la carta.",
+   "Pulisci i rulli di presa.",
+   "Controlla le guide.",
+   "Spegni la stampante prima di infilare la mano all'interno ed estrai la carta lentamente per non strapparla."
+  ],
+  "technician": "Contatta Brother se gli inceppamenti si ripetono."
+ },
+ "Brother|No Paper Fed": {
+  "title": "Carta non prelevata",
+  "causes": [
+   "Il vassoio è vuoto o caricato male.",
+   "I rulli di presa sono impolverati."
+  ],
+  "steps": [
+   "Ricarica il vassoio.",
+   "Chiudi il Jam Clear Cover.",
+   "Pulisci i rulli.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo."
+  ],
+  "technician": "Contatta Brother se la carta continua a non essere prelevata."
+ },
+ "Brother|Cover is Open": {
+  "title": "Coperchio non chiuso",
+  "causes": [
+   "Un coperchio non è bloccato.",
+   "Il cavo non passa nella sua guida."
+  ],
+  "steps": [
+   "Chiudi bene i coperchi.",
+   "Fai passare il cavo nella guida.",
+   "Controlla che nessuna carta o oggetto impedisca la chiusura del coperchio."
+  ],
+  "technician": "Contatta Brother se il messaggio resta."
+ },
+ "Brother|High Temperature": {
+  "title": "Ambiente troppo caldo",
+  "causes": [
+   "La stanza è troppo calda."
+  ],
+  "steps": [
+   "Raffredda la stanza.",
+   "Lascia raffreddare l'apparecchio prima di usarlo di nuovo.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo.",
+   "Collegalo direttamente a una presa a muro e controlla che il cavo sia ben inserito."
+  ],
+  "technician": "Contatta Brother se il messaggio compare in una stanza fresca."
+ },
+ "Brother|Out of Memory": {
+  "title": "Memoria dell'apparecchio piena",
+  "causes": [
+   "La memoria dell'apparecchio è piena."
+  ],
+  "steps": [
+   "Attendi la fine degli altri lavori.",
+   "Stampa i fax memorizzati.",
+   "Usa la stampa parziale per le pagine scansionate.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo."
+  ],
+  "technician": "Contatta Brother se il messaggio resta."
+ },
+ "Brother|Cannot Print Refill": {
+  "title": "Serbatoio d'inchiostro in esaurimento, stampa interrotta",
+  "causes": [
+   "L'inchiostro è scarso in uno o più serbatoi."
+  ],
+  "steps": [
+   "Riempi il serbatoio fino alla linea superiore.",
+   "Conferma il rifornimento sullo schermo.",
+   "La scansione funziona ancora.",
+   "Maneggia le cartucce dai bordi e non toccare i contatti né gli ugelli."
+  ],
+  "technician": "Contatta Brother se il messaggio resta dopo il rifornimento."
+ },
+ "Brother|Drum !": {
+  "title": "L'unità tamburo richiede attenzione",
+  "causes": [
+   "Il filo corona del tamburo è sporco.",
+   "Il tamburo o l'unità toner non è inserito correttamente."
+  ],
+  "steps": [
+   "Pulisci il filo corona.",
+   "Reinserisci la cartuccia del toner nell'unità tamburo e reinstalla il tutto.",
+   "Se persiste, sostituisci l'unità tamburo."
+  ],
+  "technician": "Contatta Brother se il messaggio resta dopo aver sostituito il tamburo."
+ },
+ "Brother|Replace Drum": {
+  "title": "Unità tamburo a fine vita",
+  "causes": [
+   "L'unità tamburo è usurata.",
+   "Il contatore del tamburo non è stato azzerato dopo la sostituzione."
+  ],
+  "steps": [
+   "Sostituisci l'unità tamburo.",
+   "Azzera il contatore del tamburo se l'hai appena sostituito.",
+   "Maneggia il toner e il tamburo con delicatezza e tienili lontani dalla luce diretta."
+  ],
+  "technician": "Contatta Brother se compare con un tamburo nuovo."
+ },
+ "Brother|Replace Toner": {
+  "title": "Cartuccia del toner a fine vita",
+  "causes": [
+   "La cartuccia del toner è esaurita."
+  ],
+  "steps": [
+   "Sostituisci la cartuccia del toner.",
+   "Maneggia il toner e il tamburo con delicatezza e tienili lontani dalla luce diretta.",
+   "Usa materiali di consumo adatti al modello esatto della tua stampante."
+  ],
+  "technician": "Contatta Brother se compare con una cartuccia nuova."
+ },
+ "Brother|Toner Low": {
+  "title": "Toner quasi esaurito",
+  "causes": [
+   "Il toner sta per finire."
+  ],
+  "steps": [
+   "Ordina subito una nuova cartuccia di toner.",
+   "Puoi ancora stampare.",
+   "Maneggia il toner e il tamburo con delicatezza e tienili lontani dalla luce diretta."
+  ],
+  "technician": "Contatta Brother se compare con una cartuccia piena."
+ },
+ "Brother|No Toner": {
+  "title": "Cartuccia del toner non rilevata",
+  "causes": [
+   "La cartuccia non è installata correttamente."
+  ],
+  "steps": [
+   "Estrai il gruppo tamburo e toner.",
+   "Reinserisci il toner nel tamburo.",
+   "Reinstalla il gruppo. Se persiste, sostituisci il toner."
+  ],
+  "technician": "Contatta Brother se il messaggio resta."
+ },
+ "Brother|Cartridge Error": {
+  "title": "Cartuccia del toner non installata correttamente",
+  "causes": [
+   "La cartuccia del toner non è installata correttamente."
+  ],
+  "steps": [
+   "Estrai il gruppo.",
+   "Reinserisci la cartuccia del toner nel tamburo.",
+   "Reinstalla il gruppo.",
+   "Maneggia il toner e il tamburo con delicatezza e tienili lontani dalla luce diretta."
+  ],
+  "technician": "Contatta Brother se il messaggio resta."
+ },
+ "Brother|Self-Diagnostic": {
+  "title": "Problema all'unità di fusione",
+  "causes": [
+   "L'unità di fusione non funziona o si è surriscaldata."
+  ],
+  "steps": [
+   "Spegni l'apparecchio, attendi qualche secondo, poi riaccendilo.",
+   "Lascialo acceso e inattivo per 15 minuti.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo."
+  ],
+  "technician": "Contatta Brother se ricompare."
+ },
+ "Brother|Cooling Down": {
+  "title": "Apparecchio troppo caldo, stampa in pausa",
+  "causes": [
+   "La temperatura interna è troppo alta."
+  ],
+  "steps": [
+   "Attendi che l'apparecchio si raffreddi.",
+   "Libera eventuali prese d'aria ostruite.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo."
+  ],
+  "technician": "Contatta Brother se continua a ripetersi."
+ },
+ "HP|E0": {
+  "title": "Problema alla cartuccia",
+  "causes": [
+   "La cartuccia indicata dall'icona dell'inchiostro lampeggiante ha un guasto."
+  ],
+  "steps": [
+   "Controlla il messaggio nell'app o nel software HP.",
+   "Reinserisci la cartuccia e rimuovi eventuale nastro adesivo.",
+   "Pulisci i contatti o sostituisci la cartuccia."
+  ],
+  "technician": "Contatta HP se il codice resta con una cartuccia nuova."
+ },
+ "HP|E1": {
+  "title": "Formato carta non corrispondente",
+  "causes": [
+   "La carta caricata non corrisponde al lavoro di stampa."
+  ],
+  "steps": [
+   "Premi Resume per stampare comunque, oppure Cancel.",
+   "Carica la carta corretta o cambia l'impostazione del formato carta.",
+   "Stampa di nuovo."
+  ],
+  "technician": "Contatta HP se il codice resta con la carta corretta."
+ },
+ "HP|E2": {
+  "title": "Lunghezza della carta non corrispondente",
+  "causes": [
+   "La lunghezza della carta non corrisponde al lavoro."
+  ],
+  "steps": [
+   "Premi Resume per continuare comunque, oppure Cancel.",
+   "Carica la carta corretta o cambia l'impostazione.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo."
+  ],
+  "technician": "Contatta HP se il codice persiste."
+ },
+ "HP|E3": {
+  "title": "Carrello bloccato o inceppato",
+  "causes": [
+   "Il carrello di stampa non riesce a muoversi.",
+   "Carta o un oggetto potrebbero bloccarlo."
+  ],
+  "steps": [
+   "Apri lo sportello di accesso all'inchiostro.",
+   "Controlla che il coperchio della testina sia chiuso e che nulla blocchi il carrello.",
+   "Rimuovi carta o oggetti, chiudi lo sportello, poi premi Resume o Cancel."
+  ],
+  "technician": "Contatta HP se l'errore E3 persiste."
+ },
+ "HP|E4": {
+  "title": "Carta inceppata",
+  "causes": [
+   "La carta è bloccata nella stampante."
+  ],
+  "steps": [
+   "Elimina l'inceppamento nella zona interessata.",
+   "Premi Resume.",
+   "Non aprire il coperchio della testina di stampa.",
+   "Spegni la stampante prima di infilare la mano all'interno ed estrai la carta lentamente per non strapparla."
+  ],
+  "technician": "Contatta HP se gli inceppamenti si ripetono."
+ },
+ "HP|E5": {
+  "title": "Scanner non funzionante",
+  "causes": [
+   "Lo scanner ha un guasto."
+  ],
+  "steps": [
+   "Premi Cancel e riprova la scansione.",
+   "Spegni e riaccendi la stampante.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo."
+  ],
+  "technician": "Contatta HP se persiste. La stampa funziona ancora."
+ },
+ "HP|E6": {
+  "title": "Stampante in stato di errore",
+  "causes": [
+   "La stampante è in stato di errore."
+  ],
+  "steps": [
+   "Spegni la stampante.",
+   "Scollega il cavo di alimentazione e attendi un minuto.",
+   "Ricollegalo e accendi.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo."
+  ],
+  "technician": "Contatta HP se persiste."
+ },
+ "HP|E7": {
+  "title": "Serbatoio d'inchiostro vuoto",
+  "causes": [
+   "Uno o più serbatoi d'inchiostro sono vuoti."
+  ],
+  "steps": [
+   "Riempi il serbatoio indicato.",
+   "Maneggia le cartucce dai bordi e non toccare i contatti né gli ugelli.",
+   "Usa cartucce adatte al modello esatto della tua stampante."
+  ],
+  "technician": "Contatta HP se il codice resta dopo il rifornimento."
+ },
+ "HP|E8": {
+  "title": "Errore fatale",
+  "causes": [
+   "La stampante segnala un errore fatale."
+  ],
+  "steps": [
+   "Spegni e riaccendi la stampante.",
+   "Controlla che nulla la blocchi.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo."
+  ],
+  "technician": "Contatta HP se persiste."
+ },
+ "HP|E9": {
+  "title": "Errore di aggiornamento del firmware",
+  "causes": [
+   "Un aggiornamento del firmware non è riuscito."
+  ],
+  "steps": [
+   "Spegni e riaccendi la stampante.",
+   "Riprova l'aggiornamento.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo.",
+   "Collegalo direttamente a una presa a muro e controlla che il cavo sia ben inserito."
+  ],
+  "technician": "Contatta HP se persiste."
+ },
+ "HP|Printhead problem": {
+  "title": "Testina di stampa mancante o difettosa",
+  "causes": [
+   "Una testina di stampa manca, è installata male o è danneggiata.",
+   "Potrebbe avere ancora il tappo arancione o il nastro adesivo."
+  ],
+  "steps": [
+   "Installa l'eventuale testina mancante.",
+   "Estrai quella indicata, controlla se c'è il tappo o il nastro adesivo e reinseriscila.",
+   "Usa testine HP corrette. Non aprire il coperchio se non richiesto."
+  ],
+  "technician": "Contatta HP se l'errore della testina di stampa persiste."
+ },
+ "HP|49 Error": {
+  "title": "Errore interno del prodotto",
+  "causes": [
+   "La stampante ha un errore interno."
+  ],
+  "steps": [
+   "Spegni e attendi 30 secondi.",
+   "Collegala direttamente alla presa a muro, non a una ciabatta con protezione.",
+   "Accendi.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo."
+  ],
+  "technician": "Contatta l'assistenza HP se persiste."
+ },
+ "HP|50.x Fuser Error": {
+  "title": "Problema all'unità di fusione",
+  "causes": [
+   "L'unità di fusione ha un problema."
+  ],
+  "steps": [
+   "Spegni, attendi 30 secondi, poi accendi.",
+   "Se persiste, tieni spento per 25 minuti.",
+   "Evita ciabatte con protezione.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo."
+  ],
+  "technician": "Contatta l'assistenza HP se persiste."
+ },
+ "HP|79 Error": {
+  "title": "Errore interno del firmware",
+  "causes": [
+   "Errore interno del firmware."
+  ],
+  "steps": [
+   "Spegni e riaccendi.",
+   "Collegala direttamente alla presa a muro.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo.",
+   "Collegalo direttamente a una presa a muro e controlla che il cavo sia ben inserito."
+  ],
+  "technician": "Contatta l'assistenza HP se persiste."
+ },
+ "Samsung|Fuser failure": {
+  "title": "Guasto all'unità di fusione",
+  "causes": [
+   "L'unità di fusione ha un guasto."
+  ],
+  "steps": [
+   "Spegni e riaccendi.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo.",
+   "Collegalo direttamente a una presa a muro e controlla che il cavo sia ben inserito."
+  ],
+  "technician": "Chiama l'assistenza se il problema persiste."
+ },
+ "Samsung|Engine system failure": {
+  "title": "Guasto al motore di stampa",
+  "causes": [
+   "Il motore di stampa ha un guasto."
+  ],
+  "steps": [
+   "Scollega il cavo di alimentazione e ricollegalo.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo.",
+   "Collegalo direttamente a una presa a muro e controlla che il cavo sia ben inserito."
+  ],
+  "technician": "Chiama l'assistenza se il problema persiste."
+ },
+ "Samsung|Motor failure": {
+  "title": "Guasto al motorino",
+  "causes": [
+   "Guasto a un motorino."
+  ],
+  "steps": [
+   "Spegni e riaccendi.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo.",
+   "Collegalo direttamente a una presa a muro e controlla che il cavo sia ben inserito."
+  ],
+  "technician": "Chiama l'assistenza se il problema persiste."
+ },
+ "Samsung|LSU failure": {
+  "title": "Guasto all'unità di scansione laser",
+  "causes": [
+   "L'unità di scansione laser ha un guasto."
+  ],
+  "steps": [
+   "Spegni e riaccendi.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo.",
+   "Collegalo direttamente a una presa a muro e controlla che il cavo sia ben inserito."
+  ],
+  "technician": "Chiama l'assistenza se il problema persiste."
+ },
+ "Samsung|Fan failure": {
+  "title": "Guasto alla ventola",
+  "causes": [
+   "Guasto a una ventola."
+  ],
+  "steps": [
+   "Spegni e riaccendi.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo.",
+   "Collegalo direttamente a una presa a muro e controlla che il cavo sia ben inserito."
+  ],
+  "technician": "Chiama l'assistenza se il problema persiste."
+ },
+ "Samsung|Replace new toner": {
+  "title": "Cartuccia del toner a fine vita",
+  "causes": [
+   "Il toner è esaurito."
+  ],
+  "steps": [
+   "Installa una cartuccia Samsung originale.",
+   "Maneggia il toner e il tamburo con delicatezza e tienili lontani dalla luce diretta.",
+   "Usa materiali di consumo adatti al modello esatto della tua stampante."
+  ],
+  "technician": "Chiama l'assistenza se il problema persiste."
+ },
+ "Samsung|Toner cartridge failure": {
+  "title": "Guasto alla cartuccia del toner",
+  "causes": [
+   "La cartuccia non è inserita correttamente."
+  ],
+  "steps": [
+   "Reinstallala.",
+   "Se persiste, spegni e riaccendi.",
+   "Maneggia il toner e il tamburo con delicatezza e tienili lontani dalla luce diretta.",
+   "Usa materiali di consumo adatti al modello esatto della tua stampante."
+  ],
+  "technician": "Chiama l'assistenza se il problema persiste."
+ },
+ "Samsung|Toner not installed": {
+  "title": "Toner mancante",
+  "causes": [
+   "Il toner non è installato."
+  ],
+  "steps": [
+   "Reinstalla la cartuccia del toner.",
+   "Maneggia il toner e il tamburo con delicatezza e tienili lontani dalla luce diretta.",
+   "Usa materiali di consumo adatti al modello esatto della tua stampante."
+  ],
+  "technician": "Chiama l'assistenza se il problema persiste."
+ },
+ "Samsung|Remove seal tape": {
+  "title": "Sigillo adesivo sulla cartuccia",
+  "causes": [
+   "Sulla cartuccia c'è ancora il nastro sigillante."
+  ],
+  "steps": [
+   "Rimuovilo oppure agita la cartuccia.",
+   "Maneggia il toner e il tamburo con delicatezza e tienili lontani dalla luce diretta.",
+   "Usa materiali di consumo adatti al modello esatto della tua stampante."
+  ],
+  "technician": "Chiama l'assistenza se il problema persiste."
+ },
+ "Samsung|Jam inside of machine": {
+  "title": "Carta inceppata all'interno",
+  "causes": [
+   "La carta è inceppata all'interno."
+  ],
+  "steps": [
+   "Libera l'interno dell'apparecchio.",
+   "Spegni la stampante prima di infilare la mano all'interno ed estrai la carta lentamente per non strapparla."
+  ],
+  "technician": "Chiama l'assistenza se gli inceppamenti si ripetono."
+ },
+ "Samsung|Front door is open": {
+  "title": "Sportello aperto",
+  "causes": [
+   "Uno sportello non è agganciato."
+  ],
+  "steps": [
+   "Chiudilo fino a quando si blocca.",
+   "Controlla che nessuna carta o oggetto impedisca la chiusura del coperchio.",
+   "Premi il coperchio verso il basso finché senti lo scatto."
+  ],
+  "technician": "Chiama l'assistenza se il problema persiste."
+ },
+ "Samsung|Output bin is full": {
+  "title": "Vassoio di uscita pieno",
+  "causes": [
+   "Il vassoio di uscita è pieno."
+  ],
+  "steps": [
+   "Rimuovi la carta stampata.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo.",
+   "Collegalo direttamente a una presa a muro e controlla che il cavo sia ben inserito."
+  ],
+  "technician": "Chiama l'assistenza se il problema persiste."
+ },
+ "Kyocera|Check toner/Low toner": {
+  "title": "Toner in esaurimento o non rilevato",
+  "causes": [
+   "Il toner sta per finire oppure la stampante non lo rileva.",
+   "Il toner potrebbe non essere originale o essere inserito male."
+  ],
+  "steps": [
+   "Controlla che il toner sia originale Kyocera.",
+   "Estrai il contenitore del toner, agitalo e rimettilo al suo posto.",
+   "Chiudi bene il coperchio superiore."
+  ],
+  "technician": "Contatta l'assistenza Kyocera se il messaggio resta con un toner nuovo."
+ },
+ "Kyocera|Paper jam at Cassette": {
+  "title": "Carta inceppata nel cassetto 1",
+  "causes": [
+   "La carta è bloccata nel cassetto 1."
+  ],
+  "steps": [
+   "Estrai il cassetto 1.",
+   "Rimuovi la carta inceppata.",
+   "Rimetti il cassetto a fondo.",
+   "Spegni la stampante prima di infilare la mano all'interno ed estrai la carta lentamente per non strapparla."
+  ],
+  "technician": "Contatta l'assistenza Kyocera se gli inceppamenti si ripetono."
+ },
+ "Kyocera|Paper jam at Rear Cover": {
+  "title": "Carta inceppata dietro il coperchio posteriore",
+  "causes": [
+   "La carta è bloccata dietro il coperchio posteriore 1."
+  ],
+  "steps": [
+   "Apri il coperchio posteriore 1 e il coperchio interno.",
+   "Rimuovi la carta.",
+   "Chiudi i coperchi.",
+   "Spegni la stampante prima di infilare la mano all'interno ed estrai la carta lentamente per non strapparla."
+  ],
+  "technician": "Contatta l'assistenza Kyocera se gli inceppamenti si ripetono."
+ },
+ "Kyocera|Paper jam inside machine": {
+  "title": "Carta inceppata all'interno della stampante",
+  "causes": [
+   "La carta è bloccata all'interno."
+  ],
+  "steps": [
+   "Apri il coperchio anteriore.",
+   "Estrai le unità developer e tamburo e libera la carta dal coperchio di alimentazione.",
+   "Rimetti a posto le unità. Non toccare l'unità di fusione, che è calda."
+  ],
+  "technician": "Contatta l'assistenza Kyocera se gli inceppamenti si ripetono."
+ },
+ "Kyocera|Paper jam at MP Tray": {
+  "title": "Carta inceppata nel vassoio multifunzione",
+  "causes": [
+   "La carta è bloccata nel vassoio MP."
+  ],
+  "steps": [
+   "Togli tutta la carta dal vassoio.",
+   "Getta i fogli inceppati.",
+   "Ricarica la carta.",
+   "Spegni la stampante prima di infilare la mano all'interno ed estrai la carta lentamente per non strapparla."
+  ],
+  "technician": "Contatta l'assistenza Kyocera se gli inceppamenti si ripetono."
+ },
+ "Kyocera|Call service": {
+  "title": "La stampante richiede un tecnico",
+  "causes": [
+   "La stampante ha rilevato un guasto che non riesce a eliminare da sola.",
+   "Compare anche se un errore di sollevamento del cassetto si ripete."
+  ],
+  "steps": [
+   "Spegni la stampante e scollegala dalla presa.",
+   "Ricollegala e accendila per vedere se si riprende.",
+   "Altrimenti spegni, scollega e contatta l'assistenza."
+  ],
+  "technician": "Contatta un centro assistenza Kyocera autorizzato."
+ },
+ "Kyocera|Close top cover": {
+  "title": "Coperchio superiore aperto",
+  "causes": [
+   "Il coperchio superiore non è chiuso."
+  ],
+  "steps": [
+   "Chiudi bene il coperchio superiore.",
+   "Controlla che nessuna carta o oggetto impedisca la chiusura del coperchio.",
+   "Premi il coperchio verso il basso finché senti lo scatto."
+  ],
+  "technician": "Contatta l'assistenza Kyocera se resta con il coperchio chiuso."
+ },
+ "Kyocera|Check the toner container": {
+  "title": "Contenitore del toner non installato correttamente",
+  "causes": [
+   "Il contenitore del toner non è installato correttamente."
+  ],
+  "steps": [
+   "Apri il coperchio superiore.",
+   "Reinstalla correttamente il contenitore del toner.",
+   "Maneggia il toner e il tamburo con delicatezza e tienili lontani dalla luce diretta."
+  ],
+  "technician": "Contatta l'assistenza Kyocera se resta."
+ },
+ "Kyocera|Check waste toner box": {
+  "title": "Contenitore del toner di scarto mancante o pieno",
+  "causes": [
+   "Il contenitore del toner di scarto non è installato oppure è pieno."
+  ],
+  "steps": [
+   "Installa un nuovo contenitore del toner di scarto.",
+   "Maneggia il toner e il tamburo con delicatezza e tienili lontani dalla luce diretta."
+  ],
+  "technician": "Contatta l'assistenza Kyocera se resta."
+ },
+ "Kyocera|Add paper MPTray": {
+  "title": "Alimentazione carta vuota",
+  "causes": [
+   "L'alimentazione carta indicata è esaurita."
+  ],
+  "steps": [
+   "Carica la carta nell'alimentazione indicata.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo.",
+   "Collegalo direttamente a una presa a muro e controlla che il cavo sia ben inserito."
+  ],
+  "technician": "Contatta l'assistenza Kyocera se resta."
+ },
+ "Xerox|Red status LED on (major error)": {
+  "title": "Apparecchio fermo per un errore grave",
+  "causes": [
+   "L'apparecchio si è fermato a causa di un errore grave."
+  ],
+  "steps": [
+   "Riavvia l'apparecchio.",
+   "Riprova il lavoro.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo.",
+   "Collegalo direttamente a una presa a muro e controlla che il cavo sia ben inserito."
+  ],
+  "technician": "Chiama l'assistenza Xerox se persiste."
+ },
+ "Xerox|Orange status LED on": {
+  "title": "Carta inceppata",
+  "causes": [
+   "La carta è inceppata."
+  ],
+  "steps": [
+   "Elimina l'inceppamento.",
+   "Spegni la stampante prima di infilare la mano all'interno ed estrai la carta lentamente per non strapparla.",
+   "Controlla le guide della carta e usa carta del formato e della grammatura giusti."
+  ],
+  "technician": "Chiama l'assistenza Xerox se gli inceppamenti si ripetono."
+ },
+ "Xerox|Red status LED on (cover open)": {
+  "title": "Coperchio aperto",
+  "causes": [
+   "Un coperchio è aperto.",
+   "Annota il testo o il codice esatto mostrato prima di contattare l'assistenza."
+  ],
+  "steps": [
+   "Chiudi il coperchio.",
+   "Controlla che nessuna carta o oggetto impedisca la chiusura del coperchio.",
+   "Premi il coperchio verso il basso finché senti lo scatto."
+  ],
+  "technician": "Chiama l'assistenza Xerox se resta."
+ },
+ "Xerox|Toner LED blinking orange": {
+  "title": "Toner in esaurimento",
+  "causes": [
+   "Il toner sta per finire."
+  ],
+  "steps": [
+   "Tieni pronta una cartuccia nuova.",
+   "Ridistribuisci il toner per migliorare per ora la qualità.",
+   "Maneggia il toner e il tamburo con delicatezza e tienili lontani dalla luce diretta."
+  ],
+  "technician": "Chiama l'assistenza Xerox se resta."
+ },
+ "Xerox|010-351": {
+  "title": "Guasto all'unità di fusione",
+  "causes": [
+   "Guasto all'unità di fusione sulla Phaser 6500."
+  ],
+  "steps": [
+   "Controlla che il toner sia originale Xerox.",
+   "Spegni e riaccendi: spenta per 10 secondi, poi accendi.",
+   "Spegni il dispositivo, attendi circa un minuto, poi riaccendilo."
+  ],
+  "technician": "Chiama l'assistenza Xerox se il guasto resta."
+ }
+}

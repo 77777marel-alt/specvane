@@ -18,13 +18,17 @@ import { getCategories } from '@/lib/data'
 import { Breadcrumbs } from '@/components/Breadcrumbs'
 import { costInput, defaultTariff } from '@/lib/costs'
 import { ComparePicker } from '@/components/compare/ComparePicker'
-import { APPLIANCES, errorBrands, errorCode, errorCodes, hasErrors, ERROR_LANGS, slugify, isAppliance, applianceName, isThinCode, type Appliance } from '@/lib/errors'
+import { APPLIANCES, errorBrands, errorCode, errorCodes, hasErrors, ERROR_LANGS, slugify, isAppliance, applianceFor, applianceName, isThinCode, type Appliance } from '@/lib/errors'
 import { ErrorsBrand, ErrorsCode, ErrorsIndex } from '@/components/views/ErrorsView'
 import { DocsList } from '@/components/product/DocsList'
 import { supportFor } from '@/lib/updates'
 import { TOOLS, toolsText } from '@/lib/tools'
 import { ToolCalc } from '@/components/views/ToolCalc'
 import { RealSize } from '@/components/views/RealSize'
+import { FitFinder } from '@/components/views/FitFinder'
+import { lifeFacts, lifeText } from '@/lib/life'
+import { Duel } from '@/components/views/Duel'
+import { duelGroups, duelText } from '@/lib/duel'
 import { glossary, glossaryTerm, GLOSSARY_UI } from '@/lib/glossary'
 import { brandsText } from '@/lib/brands'
 import { listsText, listTitle } from '@/lib/lists'
@@ -683,9 +687,10 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
         <Breadcrumbs items={[home, section, { name: tx.short, href: sectionHref(lang, 'tools', tool.id) }]} />
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{tx.title}</h1>
         <p className="mt-2 max-w-2xl text-muted">{tx.lead}</p>
-        <section className={`mt-6 rounded-2xl border border-border p-4 md:p-6 ${tool.key === 'size' || tool.key === 'wall' ? '' : 'max-w-3xl'}`}>
+        <section className={`mt-6 rounded-2xl border border-border p-4 md:p-6 ${tool.key === 'size' || tool.key === 'wall' || tool.key === 'fit' ? '' : 'max-w-3xl'}`}>
           {tool.key === 'size' || tool.key === 'wall'
             ? <RealSize t={tt} lang={lang} mode={tool.key} />
+            : tool.key === 'fit' ? <FitFinder t={tt} lang={lang} imperialDefault={lang === 'en'} />
             : <ToolCalc tool={tool.key} t={tt} lang={lang} imperialDefault={lang === 'en'} {...defaultTariff(lang)} />}
         </section>
         {tool.key === 'ac' || tool.key === 'boiler'
@@ -850,6 +855,10 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
       <>
         <CompareView lang={lang} t={t} items={c.items} radar={radar}
           crumbs={[home, 'cross' in c ? { name: t.nav.compare, href: sectionHref(lang, 'compare') } : { name: c.cat.name, href: `/${lang}/${c.cat.slug}` }, { name: c.items.map((x) => x.name).join(` ${t.ui.vs} `), href: c.canonical }]} />
+        {c.items.length === 2 && !('cross' in c) && pos.length === 2 && (() => {
+          const groups = duelGroups(c.items[0].specGroups, [pos[0], pos[1]])
+          return groups.length >= 2 && <Duel t={duelText(lang)} names={[`${c.items[0].brand} ${c.items[0].name}`, `${c.items[1].brand} ${c.items[1].name}`]} groups={groups} />
+        })()}
         {c.items.length === 2 && 'cat' in c && ['smartphones', 'tablets', 'smartwatches'].includes(c.cat.key) && !('cross' in c) && (
           <p className="mx-auto mt-8 max-w-3xl"><a href={`${sectionHref(lang, 'tools', 'phone-size-comparison')}?cat=${c.cat.key}&a=${c.items[0].slug}&b=${c.items[1].slug}`}
             className="inline-flex min-h-11 items-center gap-2 rounded-xl border border-border px-4 font-medium hover:border-accent hover:text-accent">📏 {toolsText(lang).size.short}: {c.items.map((x) => x.name).join(' vs ')} →</a></p>
@@ -903,7 +912,7 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
             guideFor(lang, cat.key) && { label: GUIDE_UI[lang].one + ': ' + cat.name, href: sectionHref(lang, 'guides', cat.slug) },
             (await getCategoryBrands(cat)).length >= 2 && { label: brandsText(lang).section, href: sectionHref(lang, 'brands', cat.slug) },
             ((await getLists(lang, cat)).length > 0 || (await getUseCases(lang, cat)).some((x) => x.items.length >= 5)) && { label: listsText(lang).section, href: sectionHref(lang, 'lists', cat.slug) },
-            hasErrors(lang) && isAppliance(cat.key) && { label: t.ui.errTitle, href: sectionHref(lang, 'errors') },
+            hasErrors(lang) && applianceFor(cat.key) && { label: t.ui.errTitle, href: sectionHref(lang, 'errors', await guideSeg(lang, applianceFor(cat.key)!)) },
             TOOLS.find((x) => x.cat === cat.key) && { label: toolsText(lang)[TOOLS.find((x) => x.cat === cat.key)!.key].short, href: sectionHref(lang, 'tools', TOOLS.find((x) => x.cat === cat.key)!.id) },
           ].filter((x): x is { label: string; href: string } => !!x)} />
       }
@@ -929,14 +938,29 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
               cost={costInput(lang, cat.key, p.specGroups.flatMap((g) => g.specs))}
               better={await getBetterAlternatives(lang, cat, { slug: p.slug, release: p.releaseDate, keySpecs: p.keySpecs })}
               cross={await getCrossLinks(lang, cat, { slug: p.slug, brand: p.brand })}
-              extra={hasErrors(lang) && isAppliance(cat.key) && errorCodes(lang, cat.key, slugify(p.brand)).length
-                ? { title: t.ui.errTitle, links: [{ name: fill(t.ui.errBrandTitle, { brand: p.brand, appliance: applianceName(lang, cat.key).one }), href: sectionHref(lang, 'errors', cat.slug, slugify(p.brand)) }] } : undefined}
+              extra={hasErrors(lang) && applianceFor(cat.key) && errorCodes(lang, applianceFor(cat.key)!, slugify(p.brand)).length
+                ? { title: t.ui.errTitle, links: [{ name: fill(t.ui.errBrandTitle, { brand: p.brand, appliance: applianceName(lang, applianceFor(cat.key)!).one }), href: sectionHref(lang, 'errors', await guideSeg(lang, applianceFor(cat.key)!), slugify(p.brand)) }] } : undefined}
               prevGen={await getPrevGeneration(lang, cat, p.brand, p.name).then((g) => g && { name: `${g.brand} ${g.name}`, href: g.href, specs: g.specGroups.flatMap((x) => x.specs) })}
               attribution={p.source === 'icecat' ? `Database Right data-sheet ${year} Icecat. All rights reserved. Data provided “as is” without warranty.` : undefined} />
+            {(() => {
+              const life = lifeFacts(lang, cat.key, p.specGroups.flatMap((g) => g.specs))
+              const lt = lifeText(lang)
+              return life.length > 0 && (
+                <section className="mx-auto mt-10 max-w-3xl rounded-2xl border border-border bg-surface/50 p-5" aria-labelledby="life-h">
+                  <h2 id="life-h" className="text-xl font-bold">💡 {lt.title}</h2>
+                  <ul className="mt-3 space-y-2">{life.map((x, i) => <li key={i} className="flex gap-2"><span aria-hidden="true" className="text-accent">•</span><span>{x}</span></li>)}</ul>
+                  <p className="mt-3 text-xs text-muted">{lt.note}</p>
+                </section>
+              )
+            })()}
             <ProductJsonLd name={`${p.brand} ${p.name}`} brand={p.brand} image={p.images} url={p.href} />
             {['smartphones', 'tablets', 'smartwatches', 'tvs'].includes(cat.key) && (
               <p className="mx-auto mt-8 max-w-3xl"><a href={`${sectionHref(lang, 'tools', cat.key === 'tvs' ? 'tv-on-your-wall' : 'phone-size-comparison')}?cat=${cat.key}&a=${p.slug}`}
                 className="inline-flex min-h-11 items-center gap-2 rounded-xl border border-border px-4 font-medium hover:border-accent hover:text-accent">📏 {toolsText(lang)[cat.key === 'tvs' ? 'wall' : 'size'].short}: {p.brand} {p.name} →</a></p>
+            )}
+            {(cat.key === 'tvs' || cat.key === 'monitors') && (
+              <p className="mx-auto mt-4 max-w-3xl"><a href={`${sectionHref(lang, 'tools', 'will-it-fit')}?cat=${cat.key}`}
+                className="inline-flex min-h-11 items-center gap-2 rounded-xl border border-border px-4 font-medium hover:border-accent hover:text-accent">📐 {toolsText(lang).fit.short} →</a></p>
             )}
             <ShareEmbed t={{ ...widgetsText(lang), title: widgetsText(lang).titleProduct }} url={`${SITE_URL}${p.href}`} embed={`${SITE_URL}/embed/${lang}/p/${cat.slug}/${p.slug}`}
               image={`${SITE_URL}/og/${lang}/p/${cat.slug}/${p.slug}.png`} name={`${p.brand} ${p.name}`} height={460} />

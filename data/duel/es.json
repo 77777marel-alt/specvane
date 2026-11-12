@@ -1,0 +1,15 @@
+{
+ "title": "Duelo de 30 segundos: ¿cuál es mejor para ti?",
+ "lead": "Toca para indicar lo que te importa de cada cosa. Ponderamos cómo se sitúa cada modelo entre todos los de nuestro catálogo en esas especificaciones y te decimos cuál te conviene.",
+ "levels": [
+  "No importa",
+  "Importa",
+  "Muy importante"
+ ],
+ "result": "Para ti: {name}",
+ "tie": "Empate: los dos te convienen más o menos por igual; elige por precio o diseño.",
+ "wins": "Por delante en {n} de las {m} cosas que te importan.",
+ "basis": "Puntuación = proporción de modelos del catálogo a los que supera cada uno en estas especificaciones, ponderada según tus respuestas. No se incluyen el precio, el diseño ni las reseñas.",
+ "none": "Elige al menos una cosa que te importe.",
+ "specs": "Basado en: {list}"
+}

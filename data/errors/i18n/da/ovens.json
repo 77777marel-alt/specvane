@@ -1,0 +1,1373 @@
+{
+ "Samsung|C-d0": {
+  "title": "Knap sidder fast eller er trykket for længe",
+  "causes": [
+   "En betjeningsknap har været holdt nede for længe.",
+   "Fugt eller fedt på betjeningspanelet."
+  ],
+  "steps": [
+   "Tør knapperne af med en fugtig klud, og tør panelet.",
+   "Tjek, at der ikke er vand på eller omkring betjeningen.",
+   "Sluk ovnen, og prøv derefter igen."
+  ],
+  "technician": "Ring til Samsung-service, hvis koden kommer igen efter en fuld strømnulstilling."
+ },
+ "Samsung|S-01": {
+  "title": "Sikkerhedsafbrydelse efter lang tids brug",
+  "causes": [
+   "Ovnen kørte på én temperatur i for mange timer og slukkede derfor sig selv af sikkerhedshensyn.",
+   "Det er ikke en fejl."
+  ],
+  "steps": [
+   "Sluk ovnen.",
+   "Tag maden ud.",
+   "Start en normal tilberedningscyklus igen."
+  ],
+  "technician": "Service er ikke nødvendig, medmindre den vises efter kort tids tilberedning."
+ },
+ "Samsung|dC": {
+  "title": "Skillevæggen er sat forkert i forhold til tilberedningstilstanden",
+  "causes": [
+   "Skillevæggen blev taget ud under dobbelt tilberedning.",
+   "Eller skillevæggen blev sat i under enkelt tilberedning."
+  ],
+  "steps": [
+   "Sæt skillevæggen i til dobbelt tilberedning, og tag den ud til enkelt tilberedning.",
+   "Sluk ovnen, og start den igen.",
+   "Hvis det fortsætter, så afbryd strømmen i 30 sekunder eller mere, og tilslut den igen."
+  ],
+  "technician": "Ring til Samsung-service, hvis koden kommer igen efter en fuld strømnulstilling."
+ },
+ "Samsung|dE": {
+  "title": "Skillevæggen er sat forkert i forhold til tilberedningstilstanden",
+  "causes": [
+   "Skillevæggen blev taget ud under dobbelt tilberedning.",
+   "Eller den blev sat i under brug af enkelt tilberedning."
+  ],
+  "steps": [
+   "Lad skillevæggen sidde til dobbelt tilberedning, og tag den ud til enkelt tilberedning.",
+   "Sluk ovnen, og start igen.",
+   "Hvis det fortsætter, så slå afbryderen fra i 30 sekunder eller mere, og slå den til igen."
+  ],
+  "technician": "Ring til Samsung-service, hvis koden kommer igen efter en fuld strømnulstilling."
+ },
+ "Samsung|C-d1": {
+  "title": "Fejl i dørlåsen",
+  "causes": [
+   "Ovnen registrerer et problem med dørlåsen."
+  ],
+  "steps": [
+   "Sluk ovnen, og start den igen.",
+   "Hvis koden bliver ved, så afbryd strømmen ved afbryderen i mindst 30 sekunder, og slå den derefter til igen.",
+   "Tving ikke døren op, hvis den er låst."
+  ],
+  "technician": "Ring til Samsung-service, hvis koden kommer igen efter en fuld strømnulstilling."
+ },
+ "Samsung|C-20": {
+  "title": "Fejl i ovnens sensor",
+  "causes": [
+   "Ovnen melder et problem med en temperatursensor."
+  ],
+  "steps": [
+   "Sluk ovnen, og start den igen.",
+   "Hvis koden bliver ved, så afbryd strømmen ved afbryderen i mindst 30 sekunder, og slå den derefter til igen."
+  ],
+  "technician": "Ring til Samsung-service, hvis koden kommer igen efter en fuld strømnulstilling."
+ },
+ "Samsung|C-21": {
+  "title": "Fejl i ovnens sensor",
+  "causes": [
+   "Ovnen melder et problem med en temperatursensor."
+  ],
+  "steps": [
+   "Sluk ovnen, og start den igen.",
+   "Hvis koden bliver ved, så afbryd strømmen ved afbryderen i mindst 30 sekunder, og slå den derefter til igen."
+  ],
+  "technician": "Ring til Samsung-service, hvis koden kommer igen efter en fuld strømnulstilling."
+ },
+ "Samsung|C-22": {
+  "title": "Fejl i ovnens sensor",
+  "causes": [
+   "Ovnen melder et problem med en temperatursensor."
+  ],
+  "steps": [
+   "Sluk ovnen, og start den igen.",
+   "Hvis koden bliver ved, så afbryd strømmen ved afbryderen i mindst 30 sekunder, og slå den derefter til igen."
+  ],
+  "technician": "Ring til Samsung-service, hvis koden kommer igen efter en fuld strømnulstilling."
+ },
+ "Samsung|C-F1": {
+  "title": "Fejl ved læsning eller skrivning af hukommelsen",
+  "causes": [
+   "Der opstod en fejl, mens kontrolpanelet læste eller skrev sin hukommelse (EEPROM)."
+  ],
+  "steps": [
+   "Sluk ovnen, og start den igen.",
+   "Hvis koden bliver ved, så afbryd strømmen ved afbryderen i mindst 30 sekunder, og slå den derefter til igen."
+  ],
+  "technician": "Ring til Samsung-service, hvis koden kommer igen efter en fuld strømnulstilling."
+ },
+ "Samsung|C-F0": {
+  "title": "Hovedprintet og underprintet kommunikerer ikke",
+  "causes": [
+   "Hovedprintkortet og underprintet kan ikke kommunikere med hinanden."
+  ],
+  "steps": [
+   "Sluk ovnen, og start den igen.",
+   "Hvis koden bliver ved, så afbryd strømmen ved afbryderen i mindst 30 sekunder, og slå den derefter til igen."
+  ],
+  "technician": "Ring til Samsung-service, hvis koden kommer igen efter en fuld strømnulstilling."
+ },
+ "Samsung|C-F2": {
+  "title": "Kommunikationsproblem med touch-controlleren",
+  "causes": [
+   "Touch-controlleren mister hele tiden kontakten til hoved- eller underprintet."
+  ],
+  "steps": [
+   "Sluk ovnen, og start den igen.",
+   "Hvis koden bliver ved, så afbryd strømmen ved afbryderen i mindst 30 sekunder, og slå den derefter til igen."
+  ],
+  "technician": "Ring til Samsung-service, hvis koden kommer igen efter en fuld strømnulstilling."
+ },
+ "Samsung|Pr E": {
+  "title": "Ovnen forvarmer, normal meddelelse",
+  "causes": [
+   "Ovnen er stadig ved at varme op til den indstillede temperatur.",
+   "Det er en normal meddelelse, ikke en fejl."
+  ],
+  "steps": [
+   "Hold døren lukket.",
+   "Vent, til ovnen har nået den indstillede temperatur.",
+   "Koden forsvinder af sig selv."
+  ],
+  "technician": "Service er ikke nødvendig."
+ },
+ "Bosch|E011": {
+  "title": "En betjeningsknap sidder fast",
+  "causes": [
+   "En knap blev trykket for længe eller er kilet fast.",
+   "Snavs eller fugt omkring en knap."
+  ],
+  "steps": [
+   "Tryk på hver knap for sig, og tjek, at den bevæger sig frit.",
+   "Rengør betjeningsområdet, og tør det.",
+   "Sluk ovnen, og tænd den igen."
+  ],
+  "technician": "Ring til Bosch-service, hvis E011 bliver ved, efter at du har rengjort betjeningen."
+ },
+ "Bosch|E115": {
+  "title": "Ovnrummet er for varmt, døren er låst",
+  "causes": [
+   "Det indvendige af ovnen er for varmt, så dørlåsen forbliver lukket."
+  ],
+  "steps": [
+   "Vent, til ovnen er kølet af.",
+   "Ryd meddelelsen med knappen 0.",
+   "Tving ikke døren."
+  ],
+  "technician": "Ring til Bosch-service, hvis E115 bliver ved med at vende tilbage, når ovnen er kold."
+ },
+ "Bosch|e005": {
+  "title": "Styre- og effektprintet kommunikerer ikke",
+  "causes": [
+   "Betjeningspanelet og effektprintet har mistet forbindelsen."
+  ],
+  "steps": [
+   "Sluk komfuret ved sikringsafbryderen.",
+   "Vent fem minutter, og slå derefter afbryderen til igen.",
+   "Tjek, om koden vender tilbage."
+  ],
+  "technician": "Ring til Bosch-support, hvis koden vender tilbage efter en strømnulstilling."
+ },
+ "Bosch|E100": {
+  "title": "Fejl i elektronikken",
+  "causes": [
+   "Ovnen har registreret en fejl i elektronikken."
+  ],
+  "steps": [
+   "Sluk komfuret ved sikringsafbryderen.",
+   "Vent fem minutter, og slå derefter afbryderen til igen.",
+   "Test ovnen igen."
+  ],
+  "technician": "Ring til Bosch-support, hvis koden vender tilbage efter en strømnulstilling."
+ },
+ "Bosch|e101": {
+  "title": "Fejl i ovnens temperatursensor",
+  "causes": [
+   "Temperatursensoren virker ikke som forventet."
+  ],
+  "steps": [
+   "Sluk komfuret ved sikringsafbryderen.",
+   "Vent fem minutter, og slå derefter afbryderen til igen.",
+   "Hvis ovnen netop er installeret, så bed installatøren om at tjekke ledningsføringen i netledningen."
+  ],
+  "technician": "Ring til Bosch-support, hvis koden vender tilbage efter en strømnulstilling."
+ },
+ "Bosch|e126": {
+  "title": "Fejl i ovnens dørlås",
+  "causes": [
+   "Dørlåsen virker ikke korrekt, ses ofte under selvrensning."
+  ],
+  "steps": [
+   "Annuller selvrensningscyklussen.",
+   "Vent, til døren låses op.",
+   "Start selvrensning igen."
+  ],
+  "technician": "Ring til Bosch-support, hvis koden vender tilbage efter en strømnulstilling."
+ },
+ "Bosch|E302": {
+  "title": "Betjeningspanelet er overophedet",
+  "causes": [
+   "Betjeningspanelet er for varmt, hvilket gryder på kogepladen kan forårsage.",
+   "Høj rumtemperatur."
+  ],
+  "steps": [
+   "Tjek rumtemperaturen og placeringen af gryderne.",
+   "Lad apparatet køle af.",
+   "Foretag en strømnulstilling på fem minutter ved afbryderen."
+  ],
+  "technician": "Ring til Bosch-support, hvis koden vender tilbage efter en strømnulstilling."
+ },
+ "Bosch|e310": {
+  "title": "Fejl i strømforsyningen",
+  "causes": [
+   "Forsyningsspændingen kan være forkert eller ustabil."
+  ],
+  "steps": [
+   "Sluk komfuret ved sikringsafbryderen.",
+   "Vent fem minutter, og slå derefter afbryderen til igen.",
+   "Bed en elektriker bekræfte spændingen i dit hjem, hvis det vender tilbage."
+  ],
+  "technician": "Ring til Bosch-support, hvis koden vender tilbage efter en strømnulstilling."
+ },
+ "Bosch|ERR/toP": {
+  "title": "Kogepladen blev brugt under selvrensning",
+  "causes": [
+   "En kogezone blev tændt, mens ovnen selvrensede."
+  ],
+  "steps": [
+   "Sluk alle aktive kogezoner.",
+   "Start selvrensningscyklussen igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Service er ikke nødvendig, medmindre den vises, når alle zoner er slukket."
+ },
+ "Bosch|dE": {
+  "title": "Demotilstand er slået til, zonerne varmer ikke",
+  "causes": [
+   "Demotilstand er aktiv, så kogezonerne forbliver kolde."
+  ],
+  "steps": [
+   "Slå kogepladens afbryder eller sikring fra i 30 sekunder.",
+   "Slå den til igen.",
+   "Rør ved en vilkårlig betjening inden for tre minutter."
+  ],
+  "technician": "Ring til Bosch-support, hvis koden vender tilbage efter en strømnulstilling."
+ },
+ "Bosch|F1": {
+  "title": "Kogezonen blev overophedet og slukkede",
+  "causes": [
+   "En zone blev overophedet og slukkede for at beskytte bordpladen."
+  ],
+  "steps": [
+   "Lad elektronikken køle af.",
+   "Tænd zonen igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Ring til Bosch-support, hvis koden vender tilbage efter en strømnulstilling."
+ },
+ "Bosch|F6": {
+  "title": "Kogezonen blev overophedet og slukkede",
+  "causes": [
+   "En zone blev overophedet og slukkede for at beskytte bordpladen."
+  ],
+  "steps": [
+   "Lad elektronikken køle af.",
+   "Tænd zonen igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Ring til Bosch-support, hvis koden vender tilbage efter en strømnulstilling."
+ },
+ "Bosch|F2": {
+  "title": "Elektronikken er overophedet, zonen er slukket",
+  "causes": [
+   "Elektronikken er for varm, så zonen slukkede."
+  ],
+  "steps": [
+   "Lad kogepladen køle af.",
+   "Rør ved en vilkårlig betjening.",
+   "Kog igen, når meddelelsen er forsvundet.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Ring til Bosch-support, hvis koden vender tilbage efter en strømnulstilling."
+ },
+ "Bosch|F4": {
+  "title": "Elektronikken er overophedet",
+  "causes": [
+   "Elektronikken er for varm."
+  ],
+  "steps": [
+   "Lad kogepladen køle af.",
+   "Rør ved en vilkårlig betjening.",
+   "Fortsæt tilberedningen, når meddelelsen er forsvundet.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Ring til Bosch-support, hvis koden vender tilbage efter en strømnulstilling."
+ },
+ "Bosch|F5": {
+  "title": "Varm pande tæt på betjeningspanelet",
+  "causes": [
+   "Varmt køkkengrej står tæt på touch-betjeningen.",
+   "Der er risiko for, at elektronikken overophedes."
+  ],
+  "steps": [
+   "Flyt køkkengrejet væk fra betjeningspanelet.",
+   "Vent et par sekunder, og rør ved en vilkårlig betjening.",
+   "Fortsæt tilberedningen, når meddelelsen forsvinder."
+  ],
+  "technician": "Ring til Bosch-support, hvis koden vender tilbage efter en strømnulstilling."
+ },
+ "Bosch|F8": {
+  "title": "Zonen kørte for længe, tidsgrænsen er nået",
+  "causes": [
+   "En zone blev ladet tændt uden nogen betjening i lang tid."
+  ],
+  "steps": [
+   "Rør ved en vilkårlig betjening.",
+   "Indstil zonen igen.",
+   "Fortsæt tilberedningen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Ring til Bosch-support, hvis koden vender tilbage efter en strømnulstilling."
+ },
+ "Bosch|E7010": {
+  "title": "Kogepladen kan ikke oprette forbindelse til netværket eller emhætten",
+  "causes": [
+   "Kogepladen mistede forbindelsen til dit hjemmenetværk eller din emhætte."
+  ],
+  "steps": [
+   "Sluk kogepladen, og tænd den igen.",
+   "Tjek, at dit Wi-Fi fungerer.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Ring til Bosch-support, hvis koden vender tilbage efter en strømnulstilling."
+ },
+ "Bosch|E9000": {
+  "title": "Forsyningsspændingen er uden for det normale område",
+  "causes": [
+   "Strømforsyningens spænding er for høj eller for lav."
+  ],
+  "steps": [
+   "Sluk kogepladen, og tænd den igen.",
+   "Bed din elleverandør om at tjekke forsyningsspændingen."
+  ],
+  "technician": "Ring til Bosch-support, hvis din forsyningsleverandør ikke finder noget galt."
+ },
+ "Bosch|E9010": {
+  "title": "Forsyningsspændingen er uden for det normale område",
+  "causes": [
+   "Strømforsyningens spænding er for høj eller for lav."
+  ],
+  "steps": [
+   "Sluk kogepladen, og tænd den igen.",
+   "Bed din elleverandør om at tjekke forsyningsspændingen."
+  ],
+  "technician": "Ring til Bosch-support, hvis din forsyningsleverandør ikke finder noget galt."
+ },
+ "Bosch|E9011": {
+  "title": "Kogepladen er ikke tilsluttet korrekt",
+  "causes": [
+   "Ledningsføringen svarer ikke til el-diagrammet."
+  ],
+  "steps": [
+   "Slå strømmen fra ved afbryderen.",
+   "Lad en autoriseret elektriker tjekke ledningsføringen op mod diagrammet."
+  ],
+  "technician": "Ring til en autoriseret elektriker eller Bosch-support."
+ },
+ "Bosch|U400": {
+  "title": "Forsyningsspændingen er uden for det normale område",
+  "causes": [
+   "Forsyningsspændingen er uden for de normale grænser."
+  ],
+  "steps": [
+   "Sluk kogepladen, og tænd den igen.",
+   "Kontakt din elleverandør for at få tjekket spændingen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Ring til Bosch-support, hvis forsyningen viser sig at være normal."
+ },
+ "Siemens|E0111": {
+  "title": "Meddelelse om fejl i elektronikken",
+  "causes": [
+   "Ovnens elektronik har registreret en fejl.",
+   "Det kan være en enkeltstående fejl."
+  ],
+  "steps": [
+   "Sluk ovnen, og tænd den igen.",
+   "Hvis meddelelsen forsvinder, var det en enkeltstående fejl.",
+   "Hvis den kommer igen, så skriv den præcise kode ned."
+  ],
+  "technician": "Ring til Siemens' eftersalgsservice med den præcise kode, hvis den vender tilbage."
+ },
+ "Neff|E011": {
+  "title": "Knap permanent tildelt",
+  "causes": [
+   "En knap er permanent trykket ind eller tildelt."
+  ],
+  "steps": [
+   "Annuller den permanente knaptildeling.",
+   "Tryk derefter på knappen til urfunktionen.",
+   "Rengør omkring knapperne.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Ring til Neff-service, hvis E011 ikke forsvinder."
+ },
+ "Neff|E300": {
+  "title": "Intern fejl i elektronikken",
+  "causes": [
+   "En intern fejl i ovnens elektronik."
+  ],
+  "steps": [
+   "Tryk på knappen til urfunktionen.",
+   "Hvis den bliver ved, så tag stikket ud til ovnen.",
+   "Vent omkring 10 sekunder, og sæt stikket i igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Ring til Neff-service, hvis koden vender tilbage."
+ },
+ "Neff|rrr": {
+  "title": "Strømmen blev afbrudt under drift",
+  "causes": [
+   "Strømforsyningen blev afbrudt, mens ovnen kørte."
+  ],
+  "steps": [
+   "Tryk på knappen til klokkeslæt.",
+   "Indstil uret igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Service er ikke nødvendig, medmindre det gentager sig uden strømafbrydelse."
+ },
+ "Miele|E0-E5": {
+  "title": "Statuskoder for afkalkningsprogrammet",
+  "causes": [
+   "Disse koder viser, hvilket trin i afkalkningsprogrammet der kører.",
+   "E0 er indsugning af opløsning, E1 aktivering, E2 til E4 skylninger, E5 fordampning."
+  ],
+  "steps": [
+   "Lad programmet køre til ende.",
+   "Sluk ikke ovnen under afkalkning."
+  ],
+  "technician": "Service er ikke nødvendig, medmindre programmet stopper."
+ },
+ "Miele|F23": {
+  "title": "Pyrolyserensningen kunne ikke nå temperaturen",
+  "causes": [
+   "Ovnen kunne ikke blive varm nok til selvrensning.",
+   "Der er mange madrester indeni."
+  ],
+  "steps": [
+   "Sluk ovnen.",
+   "Tør store aflejringer og kraftig tilsmudsning af.",
+   "Start pyrolyserensningen igen."
+  ],
+  "technician": "Kontakt Miele Kundeservice eller bestil en reparation, hvis fejlen vender tilbage."
+ },
+ "Miele|F32": {
+  "title": "Pyrolysedørlåsen lukker ikke",
+  "causes": [
+   "Dørlåsen til selvrensning går ikke i indgreb.",
+   "Noget kan blokere døren."
+  ],
+  "steps": [
+   "Tjek dør- og pakningsområdet for genstande eller snavs.",
+   "Sluk ovnen.",
+   "Start pyrolyserensningen igen."
+  ],
+  "technician": "Kontakt Miele Kundeservice eller bestil en reparation, hvis fejlen vender tilbage."
+ },
+ "Miele|F33": {
+  "title": "Pyrolysedørlåsen vil ikke åbne",
+  "causes": [
+   "Dørlåsen til selvrensning har ikke løsnet sig."
+  ],
+  "steps": [
+   "Sluk ovnen for at stoppe rensningscyklussen.",
+   "Prøv at åbne døren.",
+   "Tving den ikke.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Ring til Miele Kundeservice, hvis lågen forbliver låst."
+ },
+ "Miele|F38": {
+  "title": "Fejl i det elektroniske modul",
+  "causes": [
+   "Ovnens elektroniske modul har en teknisk fejl."
+  ],
+  "steps": [
+   "Forsøg ikke selv at reparere det.",
+   "Notér koden og dit modelnummer.",
+   "Bestil en reparation.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en Miele-tekniker, da dette ikke kan rettes derhjemme."
+ },
+ "Miele|F44": {
+  "title": "Teknisk fejl registreret",
+  "causes": [
+   "Ovnen har registreret en teknisk fejl."
+  ],
+  "steps": [
+   "Slå strømmen fra ved afbryderen, eller tag stikket ud til ovnen.",
+   "Lad den være slukket i 20 sekunder.",
+   "Tilslut strømmen igen, og test.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Kontakt Miele Kundeservice eller bestil en reparation, hvis fejlen vender tilbage."
+ },
+ "Miele|F54": {
+  "title": "Stegetermometeret er defekt",
+  "causes": [
+   "Stegetermometeret eller dets tilslutning er defekt."
+  ],
+  "steps": [
+   "Træk proben ud af stikket.",
+   "Fejlmeddelelsen bør forsvinde.",
+   "Tilbered maden uden proben for nu.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Kontakt Miele Kundeservice for at købe en ny stegetermometer-probe."
+ },
+ "Miele|F55": {
+  "title": "Ovnen slukkede efter at have kørt for længe",
+  "causes": [
+   "Ovnen kørte usædvanligt længe og slukkede derfor af sikkerhedshensyn.",
+   "Grænsen er 6 timer i grilltilstande og 12 timer ellers."
+  ],
+  "steps": [
+   "Sluk ovnen, og tænd den igen.",
+   "Start en ny tilberedning."
+  ],
+  "technician": "Service er ikke nødvendig, medmindre det bliver ved med at ske ved korte tilberedninger."
+ },
+ "Miele|F60": {
+  "title": "Utilstrækkelig ventilation af ovnen",
+  "causes": [
+   "Luftkanalen er blokeret eller tildækket."
+  ],
+  "steps": [
+   "Tjek, at intet dækker ovnens luftkanal.",
+   "Afbryd ovnen fra strømmen, og tilslut den igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Kontakt Miele Kundeservice eller bestil en reparation, hvis fejlen vender tilbage."
+ },
+ "Miele|F134": {
+  "title": "Ovnrummet er for varmt",
+  "causes": [
+   "Temperatursensoren melder, at tilberedningsrummet er for varmt."
+  ],
+  "steps": [
+   "Sluk ovnen, og lad den køle af.",
+   "Forsøg ikke selv at reparere den.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en Miele-reparation, da dette kræver en tekniker."
+ },
+ "Miele|MES": {
+  "title": "Demotilstand er slået til, ovnen varmer ikke",
+  "causes": [
+   "Demotilstand til udstilling er slået til."
+  ],
+  "steps": [
+   "Bekræft meddelelsen med OK.",
+   "Drej funktionsvælgeren til 0.",
+   "Åbn Settings, gå til P 9, og indstil S 0.",
+   "Hold OK inde i 4 sekunder."
+  ],
+  "technician": "Kontakt Miele, hvis demotilstanden vender tilbage."
+ },
+ "Miele|F1": {
+  "title": "Vandbeholderen er ikke skubbet ind",
+  "causes": [
+   "Vandbeholderen til udpumpning af restvand mangler eller er ikke sat helt i."
+  ],
+  "steps": [
+   "Skub vandbeholderen helt ind i ovnen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Kontakt Miele Kundeservice eller bestil en reparation, hvis fejlen vender tilbage."
+ },
+ "Miele|F04": {
+  "title": "Strømafbrydelse under tilberedning",
+  "causes": [
+   "Ovnen mistede strømmen under et tilberedningsprogram."
+  ],
+  "steps": [
+   "Tjek, hvor langt tilberedningen er nået.",
+   "Indstil en ny tilberedningstid, hvis det er nødvendigt.",
+   "Tryk på Start/Stop for at fortsætte.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Kontakt Miele Kundeservice eller bestil en reparation, hvis fejlen vender tilbage."
+ },
+ "Miele|F05": {
+  "title": "Vand når ikke frem til dampovnen",
+  "causes": [
+   "Vandindtagsventilen er ikke helt åben.",
+   "Vanddysen er blokeret af kalk."
+  ],
+  "steps": [
+   "Åbn vandindtagsventilen helt, og start igen.",
+   "Afkalk vanddysen, hvis det kommer igen, og brug ovnhandsker.",
+   "Skyl vanddelene igennem."
+  ],
+  "technician": "Kontakt Miele Kundeservice eller bestil en reparation, hvis fejlen vender tilbage."
+ },
+ "Miele|F10": {
+  "title": "Fejl i vandindtag i dampovn",
+  "causes": [
+   "Fødepumpen er tør efter lang tids ubrug.",
+   "Den sorte sugeslange sidder løst eller er beskadiget.",
+   "Osmosevand er for rent til sensoren."
+  ],
+  "steps": [
+   "Sæt den sorte sugeslange lodret i beholderen igen.",
+   "Sluk osmosesystemet, hvis du kan.",
+   "Eller tilsæt en knivspids salt til vandet."
+  ],
+  "technician": "Kontakt Miele Kundeservice eller bestil en reparation, hvis fejlen vender tilbage."
+ },
+ "Miele|F11": {
+  "title": "Dampgeneratoren kan ikke tømme vand ud",
+  "causes": [
+   "Kalk i afløbet eller på elektroden.",
+   "Slanger er blokeret eller sidder fast."
+  ],
+  "steps": [
+   "Afkalk ovnen som beskrevet i vejledningen.",
+   "Indstil vandhårdheden til maksimum på 6000- og 7000-serien.",
+   "Gentag ikke afkalkningen med en stærkere opløsning."
+  ],
+  "technician": "Kontakt Miele Kundeservice eller bestil en reparation, hvis fejlen vender tilbage."
+ },
+ "Miele|F12": {
+  "title": "Dampovnen får ikke vand",
+  "causes": [
+   "Vandindtagsventilen er lukket.",
+   "Vandindtagets filter er blokeret."
+  ],
+  "steps": [
+   "Åbn vandventilen, og start igen.",
+   "Rengør filteret i vandindtaget.",
+   "Sluk ovnen, og luk ventilen, hvis du har mistanke om en defekt slange."
+  ],
+  "technician": "Ring til Miele eller en blikkenslager, hvis slangen ser defekt ud."
+ },
+ "Miele|F13": {
+  "title": "Dampovnens rum er for varmt",
+  "causes": [
+   "Vandindtagsventilen kan være lukket.",
+   "Vanddysen skal muligvis afkalkes."
+  ],
+  "steps": [
+   "Åbn vandindtagsventilen helt.",
+   "Afkalk og skyl dysen, hvis det kommer igen.",
+   "Brug ovnhandsker."
+  ],
+  "technician": "Kontakt Miele Kundeservice eller bestil en reparation, hvis fejlen vender tilbage."
+ },
+ "Miele|F14": {
+  "title": "For lidt vand i dampgeneratoren",
+  "causes": [
+   "Der kommer ikke nok vand til dampgeneratoren."
+  ],
+  "steps": [
+   "Sluk ovnen, og tænd den igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Sluk, og kontakt Miele, hvis F14 vises igen."
+ },
+ "Miele|F20": {
+  "title": "Dampovnen varmer ikke",
+  "causes": [
+   "Temperaturen steg ikke 2 grader på 5 minutter.",
+   "Store mængder frostvarer kan forårsage dette."
+  ],
+  "steps": [
+   "Sluk ovnen, tænd den igen, og start forfra.",
+   "Skub vandbeholderen ind, til den klikker.",
+   "Brug kun det medfølgende silikonefedt på tætningen."
+  ],
+  "technician": "Ring til Miele, hvis koblingstætningen ser revnet ud, eller der samler sig vand."
+ },
+ "Miele|F27": {
+  "title": "Strømafbrydelse under tilberedning eller afkalkning",
+  "causes": [
+   "Strømmen blev afbrudt under et tilberedningsprogram (F27).",
+   "E04 betyder, at strømmen blev afbrudt under afkalkning."
+  ],
+  "steps": [
+   "Ved F27 skal du indstille en ny tid og trykke på Start/Stop.",
+   "Ved E04 skal du vente, til displayet tæller ned fra 0:06.",
+   "Sluk ovnen, og tænd den igen."
+  ],
+  "technician": "Kontakt Miele Kundeservice eller bestil en reparation, hvis fejlen vender tilbage."
+ },
+ "Miele|F74": {
+  "title": "Teknisk fejl i dampovn",
+  "causes": [
+   "En teknisk fejl, som ikke kan rettes derhjemme."
+  ],
+  "steps": [
+   "Forsøg ikke selv at reparere det.",
+   "Notér koden og modelnummeret.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil et besøg af en Miele-tekniker."
+ },
+ "Miele|F95": {
+  "title": "Vandniveaukontakten er blokeret af kalk",
+  "causes": [
+   "Kalk blokerer niveaukontakten."
+  ],
+  "steps": [
+   "Afkalk ovnen som i vejledningen.",
+   "Brug Mieles plejeprodukter.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Kontakt Miele Kundeservice eller bestil en reparation, hvis fejlen vender tilbage."
+ },
+ "Miele|F235": {
+  "title": "Fejl i det elektroniske modul",
+  "causes": [
+   "Det elektroniske modul er defekt."
+  ],
+  "steps": [
+   "Forsøg ikke at rette det selv.",
+   "Notér koden.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en Miele-reparation."
+ },
+ "Electrolux|F1": {
+  "title": "Ovnlågen kan ikke låses",
+  "causes": [
+   "Pyrolysemodeller: Rensefunktionen er slået til, og døren vil ikke lukke.",
+   "Andre modeller: En elektronikfejl."
+  ],
+  "steps": [
+   "Tjek, at den øverste dørdel er intakt.",
+   "Følg vejledningen, hvis døren er blevet taget af.",
+   "Kontakt service, hvis det fortsætter."
+  ],
+  "technician": "Bestil en Electrolux-reparation, hvis koden vender tilbage."
+ },
+ "Electrolux|F102": {
+  "title": "Fejl i dørlåsens sensor",
+  "causes": [
+   "Døren er ikke helt lukket.",
+   "En defekt dørlås eller elektronik."
+  ],
+  "steps": [
+   "Luk døren godt.",
+   "Afbryd strømmen i et par minutter, og tilslut den derefter igen.",
+   "Tjek husets sikring eller fejlstrømsafbryder."
+  ],
+  "technician": "Bestil en Electrolux-reparation, hvis koden vender tilbage."
+ },
+ "Electrolux|F111": {
+  "title": "Stegetermometeret er defekt eller ikke tilsluttet",
+  "causes": [
+   "Proben er ikke sat helt i.",
+   "Proben eller dens kabel er beskadiget."
+  ],
+  "steps": [
+   "Tag proben ud, og sæt den godt i igen.",
+   "Tjek for bøjede kontakter eller beskadiget ledning.",
+   "Sluk ovnen ved hovedafbryderen i 30 sekunder."
+  ],
+  "technician": "Bestil en Electrolux-reparation, hvis koden vender tilbage."
+ },
+ "Electrolux|F104": {
+  "title": "Temperatursensoren er uden for området",
+  "causes": [
+   "Ovnens temperatursensor er uden for området.",
+   "Ovnen varmer måske ikke eller stopper måske."
+  ],
+  "steps": [
+   "Sluk ovnen ved hovedafbryderen i 30 sekunder.",
+   "Slå den til igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Kontakt et autoriseret servicecenter."
+ },
+ "Electrolux|F105": {
+  "title": "Alarm for for høj temperatur i temperatursensoren",
+  "causes": [
+   "Sensoren registrerede en temperatur over det forventede niveau."
+  ],
+  "steps": [
+   "Sluk ovnen, og lad den køle af.",
+   "Slå strømmen fra i 30 sekunder, og tilslut den derefter igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Kontakt et autoriseret servicecenter."
+ },
+ "Electrolux|F215": {
+  "title": "Softwarefejl i tilsluttet ovn",
+  "causes": [
+   "Et softwareproblem på en tilsluttet ovn."
+  ],
+  "steps": [
+   "Installer appen igen, og tilslut ovnen igen.",
+   "Tag stikket ud til ovnen i 30 minutter, og tilslut den derefter igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en reparation, hvis F215 vises på displayet."
+ },
+ "Electrolux|F601": {
+  "title": "Problem med ovnens Wi-Fi-signal",
+  "causes": [
+   "Der er et problem med Wi-Fi-signalet."
+  ],
+  "steps": [
+   "Tjek din netværksforbindelse.",
+   "Flyt routeren tættere på.",
+   "Nulstil ovnens Wi-Fi-indstillinger, og sæt det op igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en reparation, hvis den ikke vil oprette forbindelse."
+ },
+ "Electrolux|F604": {
+  "title": "Første forsøg på Wi-Fi-forbindelse mislykkedes",
+  "causes": [
+   "Det første forsøg på at oprette forbindelse til Wi-Fi mislykkedes."
+  ],
+  "steps": [
+   "Sluk ovnen, og tænd den igen.",
+   "Prøv at oprette forbindelse igen.",
+   "Tjek din internetforbindelse.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en reparation, hvis den ikke vil oprette forbindelse."
+ },
+ "Electrolux|E0020": {
+  "title": "Ovnlyset virker ikke",
+  "causes": [
+   "Ovnpæren er defekt."
+  ],
+  "steps": [
+   "Sluk ovnen, og lad den køle af.",
+   "Tjek pæren, og udskift den, hvis den er defekt.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Kontakt et servicecenter, hvis pæren er i orden."
+ },
+ "Electrolux|C1": {
+  "title": "Pyrorensning blokeret af teleskopskinner",
+  "causes": [
+   "Der sidder teleskopskinner i ovnen."
+  ],
+  "steps": [
+   "Fjern skinner, riste og sideskinner.",
+   "Start Pyro Clean igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Kontakt service, hvis den fortsætter."
+ },
+ "Electrolux|C2": {
+  "title": "Pyrorensning blokeret af stegetermometer",
+  "causes": [
+   "Stegetermometeret er sat i."
+  ],
+  "steps": [
+   "Tag proben ud af stikket.",
+   "Start Pyro Clean igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Kontakt service, hvis den fortsætter."
+ },
+ "Electrolux|C3": {
+  "title": "Pyrorensning blokeret af åben dør",
+  "causes": [
+   "Døren er åben eller ikke helt lukket."
+  ],
+  "steps": [
+   "Luk døren helt.",
+   "Start Pyro Clean igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Kontakt service, hvis den fortsætter."
+ },
+ "Electrolux|C4": {
+  "title": "Pyrorensning blokeret af Steam Bake",
+  "causes": [
+   "Steam Bake er stadig aktiv."
+  ],
+  "steps": [
+   "Tryk på Steam Bake, til lyset slukker.",
+   "Start Pyro Clean igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Kontakt service, hvis den fortsætter."
+ },
+ "AEG|F": {
+  "title": "Køkkengrej registreres ikke, eller fejl på kogepladen",
+  "causes": [
+   "Uegnet pande, eller panden er løftet af.",
+   "Ved en ny installation et installationsproblem."
+  ],
+  "steps": [
+   "Tjek, at en magnet sidder fast på pandens bund.",
+   "Placer panden midt på zonen.",
+   "Hold kogepladen og panden tørre.",
+   "Sluk ved hovedafbryderen i 30 sekunder."
+  ],
+  "technician": "Bestil en tekniker, hvis F bliver ved eller har et ciffer."
+ },
+ "AEG|F2": {
+  "title": "SenseBoil: tom gryde eller olie",
+  "causes": [
+   "Gryden er tom eller indeholder olie eller en anden væske end vand."
+  ],
+  "steps": [
+   "Tør kogepladens overflade.",
+   "Opvarm ikke en tom gryde.",
+   "Brug kun SenseBoil med vand.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Ikke en fejl, hvis den er forsvundet."
+ },
+ "AEG|F3": {
+  "title": "SenseBoil: forkert vandmængde",
+  "causes": [
+   "For meget eller for lidt vand i gryden.",
+   "Anden mad end vand eller kartofler."
+  ],
+  "steps": [
+   "Tør kogepladens overflade.",
+   "Fyld gryden halvt til tre fjerdedele op, 1 til 5 liter.",
+   "Kog kun vand og kartofler."
+  ],
+  "technician": "Ikke en fejl, hvis den er forsvundet."
+ },
+ "AEG|E2": {
+  "title": "Fejl i kogepladens LED eller sensor",
+  "causes": [
+   "På induktionskogeplader en fejl i LED-belysningen.",
+   "På teppanyaki en fejl i temperatursensoren."
+  ],
+  "steps": [
+   "Afbryd strømmen i 30 sekunder.",
+   "Tænd igen.",
+   "Notér den præcise kode.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en AEG-reparation, hvis koden vender tilbage."
+ },
+ "AEG|E3": {
+  "title": "Kogepladen er tilsluttet forkert spænding",
+  "causes": [
+   "Mulig overspænding eller forkert ledningsføring."
+  ],
+  "steps": [
+   "Stop med at bruge kogepladen.",
+   "Bed installatøren om at tjekke forsyningen og ledningsføringen.",
+   "Ret ikke elektriske fejl selv.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Ring til en autoriseret elektriker eller AEG-service."
+ },
+ "AEG|E4": {
+  "title": "Kogepladens overophedningsbeskyttelse er aktiv",
+  "causes": [
+   "Kogepladen blev overophedet.",
+   "Uegnet køkkengrej eller dårlig installation."
+  ],
+  "steps": [
+   "Sluk, og fjern køkkengrejet.",
+   "Test panden med en magnet.",
+   "Afbryd strømmen i 30 sekunder.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en AEG-reparation, hvis koden vender tilbage."
+ },
+ "AEG|E5": {
+  "title": "Problem med kogepladens fase eller spænding",
+  "causes": [
+   "Et problem med fase eller spænding i strømforsyningen."
+  ],
+  "steps": [
+   "Slå adskillelseskontakten fra i 30 sekunder.",
+   "Slå til, og test.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en AEG-reparation, hvis koden vender tilbage."
+ },
+ "AEG|E6": {
+  "title": "Problem med kogepladens strømforsyning",
+  "causes": [
+   "Ofte forkert installation, for eksempel en 13 A-stikkontakt til en 16 A-kogeplade."
+  ],
+  "steps": [
+   "Sluk kogepladen, og tænd den igen.",
+   "Afbryd i 30 sekunder.",
+   "Få forsyningen tjekket."
+  ],
+  "technician": "Bestil en AEG-reparation, hvis koden vender tilbage."
+ },
+ "AEG|E7": {
+  "title": "Fejl i kogepladens kølevifte",
+  "causes": [
+   "Viften er blokeret eller defekt på nyere modeller."
+  ],
+  "steps": [
+   "Tjek, at intet blokerer viften under kogepladen.",
+   "Afbryd strømmen i 30 sekunder.",
+   "Tænd igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en AEG-reparation, hvis koden vender tilbage."
+ },
+ "AEG|E8": {
+  "title": "Fejl i kogepladens elektronik eller fase",
+  "causes": [
+   "En manglende fase efter installationen.",
+   "Kommunikationsfejl i elektronikken."
+  ],
+  "steps": [
+   "Tjek ledningsføringen op mod vejledningen.",
+   "Afbryd strømmen i 30 sekunder.",
+   "Stop med at bruge den, hvis det fortsætter."
+  ],
+  "technician": "Bestil en AEG-reparation, hvis koden vender tilbage."
+ },
+ "AEG|E9": {
+  "title": "Fejl i kogepladens elektroniske modul",
+  "causes": [
+   "En fejl i det elektroniske modul."
+  ],
+  "steps": [
+   "Sluk ved hovedafbryderen i 30 sekunder.",
+   "Brug ikke kogepladen, hvis det kommer igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en AEG-reparation, hvis koden vender tilbage."
+ },
+ "Whirlpool|F0 E0": {
+  "title": "Uidentificeret fejl i ovnens styring",
+  "causes": [
+   "Styringen kan ikke identificere fejlen."
+  ],
+  "steps": [
+   "Slå komfurets afbryder fra i ét minut.",
+   "Slå den til igen.",
+   "Hold øje med ovnen i et minut for at se, om koden kommer igen."
+  ],
+  "technician": "Kontakt Whirlpool-service, hvis koden vender tilbage."
+ },
+ "Whirlpool|F1": {
+  "title": "Mulig fejl i sensor, styring eller ledningsføring",
+  "causes": [
+   "Problem med ovnens temperatursensor, styring eller ledningsføring."
+  ],
+  "steps": [
+   "Slå komfurets afbryder fra i ét minut.",
+   "Slå den til igen.",
+   "Hold øje med ovnen i et minut for at se, om koden kommer igen."
+  ],
+  "technician": "Kontakt Whirlpool-service, hvis koden vender tilbage."
+ },
+ "Whirlpool|F2": {
+  "title": "Mulig fejl i sensor, styring eller ledningsføring",
+  "causes": [
+   "Problem med ovnens temperatursensor, styring eller ledningsføring."
+  ],
+  "steps": [
+   "Slå komfurets afbryder fra i ét minut.",
+   "Slå den til igen.",
+   "Hold øje med ovnen i et minut for at se, om koden kommer igen."
+  ],
+  "technician": "Kontakt Whirlpool-service, hvis koden vender tilbage."
+ },
+ "Whirlpool|F2 E1": {
+  "title": "Problem med tastatur eller styring",
+  "causes": [
+   "Problem med tastatur, styring eller ledningsføring.",
+   "Et gitter kan sidde dårligt."
+  ],
+  "steps": [
+   "Tjek, at gitrene sidder plant.",
+   "Byt dem om, hvis de vipper.",
+   "Slå afbryderen fra i et minut."
+  ],
+  "technician": "Kontakt Whirlpool-service, hvis koden vender tilbage."
+ },
+ "Whirlpool|F3": {
+  "title": "Mulig fejl i ovnens styring eller ledningsføring",
+  "causes": [
+   "Problem med ovnens styring eller ledningsføring."
+  ],
+  "steps": [
+   "Slå komfurets afbryder fra i ét minut.",
+   "Slå den til igen.",
+   "Hold øje med ovnen i et minut for at se, om koden kommer igen."
+  ],
+  "technician": "Kontakt Whirlpool-service, hvis koden vender tilbage."
+ },
+ "Whirlpool|F5": {
+  "title": "Problem med ovnlågens lås",
+  "causes": [
+   "Problem med dørlås, kontakt eller ledningsføring."
+  ],
+  "steps": [
+   "Slå komfurets afbryder fra i ét minut.",
+   "Slå den til igen.",
+   "Hold øje med ovnen i et minut for at se, om koden kommer igen."
+  ],
+  "technician": "Kontakt Whirlpool-service, hvis koden vender tilbage."
+ },
+ "Whirlpool|F5 E0": {
+  "title": "Problem med ovnlågens lås",
+  "causes": [
+   "Problem med dørlås, kontakt eller ledningsføring."
+  ],
+  "steps": [
+   "Slå komfurets afbryder fra i ét minut.",
+   "Slå den til igen.",
+   "Hold øje med ovnen i et minut for at se, om koden kommer igen."
+  ],
+  "technician": "Kontakt Whirlpool-service, hvis koden vender tilbage."
+ },
+ "Whirlpool|F6": {
+  "title": "Mulig fejl i ovnens styring eller ledningsføring",
+  "causes": [
+   "Problem med ovnens styring eller ledningsføring."
+  ],
+  "steps": [
+   "Slå komfurets afbryder fra i ét minut.",
+   "Slå den til igen.",
+   "Hold øje med ovnen i et minut for at se, om koden kommer igen."
+  ],
+  "technician": "Kontakt Whirlpool-service, hvis koden vender tilbage."
+ },
+ "Whirlpool|F7 E0": {
+  "title": "Problem med dørlåsens samling",
+  "causes": [
+   "Problem med dørlåsens samling eller ledningsføring."
+  ],
+  "steps": [
+   "Slå komfurets afbryder fra i ét minut.",
+   "Slå den til igen.",
+   "Hold øje med ovnen i et minut for at se, om koden kommer igen."
+  ],
+  "technician": "Kontakt Whirlpool-service, hvis koden vender tilbage."
+ },
+ "Whirlpool|F8 E0": {
+  "title": "Ovnens kølevifte kører langsomt",
+  "causes": [
+   "Begrænset luftstrøm.",
+   "Defekt kølevifte eller ledningsføring."
+  ],
+  "steps": [
+   "Slå komfurets afbryder fra i ét minut.",
+   "Slå den til igen.",
+   "Hold øje med ovnen i et minut for at se, om koden kommer igen."
+  ],
+  "technician": "Kontakt Whirlpool-service, hvis koden vender tilbage."
+ },
+ "Whirlpool|F9-1": {
+  "title": "Problem med dørlås eller låsekontakt",
+  "causes": [
+   "Problem med dørlås, låsekontakt eller ledningsføring."
+  ],
+  "steps": [
+   "Slå komfurets afbryder fra i ét minut.",
+   "Slå den til igen.",
+   "Hold øje med ovnen i et minut for at se, om koden kommer igen."
+  ],
+  "technician": "Kontakt Whirlpool-service, hvis koden vender tilbage."
+ },
+ "LG|F1": {
+  "title": "Fejl i den øvre ovns termistor",
+  "causes": [
+   "Fejl i den øvre ovns temperatursensor."
+  ],
+  "steps": [
+   "Tryk på CLEAR/OFF, og prøv funktionen igen.",
+   "Slå komfurets afbryder fra i 30 sekunder.",
+   "Slå den til igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en LG-reparation, hvis den bliver ved med at vende tilbage."
+ },
+ "LG|F2": {
+  "title": "Fejl i den øvre ovns termistor",
+  "causes": [
+   "Fejl i den øvre ovns temperatursensor."
+  ],
+  "steps": [
+   "Tryk på CLEAR/OFF, og prøv funktionen igen.",
+   "Slå komfurets afbryder fra i 30 sekunder.",
+   "Slå den til igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en LG-reparation, hvis den bliver ved med at vende tilbage."
+ },
+ "LG|F3": {
+  "title": "Fejl i touchpanelets sensortast",
+  "causes": [
+   "En fejl i en sensortast på touchpanelet."
+  ],
+  "steps": [
+   "Tryk på CLEAR/OFF, og prøv funktionen igen.",
+   "Slå komfurets afbryder fra i 30 sekunder.",
+   "Slå den til igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en LG-reparation, hvis den bliver ved med at vende tilbage."
+ },
+ "LG|F6": {
+  "title": "Fejl i den øvre ovns opvarmning",
+  "causes": [
+   "Fejl i den øvre ovns opvarmning."
+  ],
+  "steps": [
+   "Tryk på CLEAR/OFF, og prøv funktionen igen.",
+   "Slå komfurets afbryder fra i 30 sekunder.",
+   "Slå den til igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en LG-reparation, hvis den bliver ved med at vende tilbage."
+ },
+ "LG|F7": {
+  "title": "Fejl i den øvre ovns ventilator",
+  "causes": [
+   "Fejl i varmluftsventilatoren."
+  ],
+  "steps": [
+   "Tryk på CLEAR/OFF, og prøv funktionen igen.",
+   "Slå komfurets afbryder fra i 30 sekunder.",
+   "Slå den til igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en LG-reparation, hvis den bliver ved med at vende tilbage."
+ },
+ "LG|F9": {
+  "title": "Den øvre ovn varmer ikke korrekt",
+  "causes": [
+   "Den øvre ovn varmer ikke."
+  ],
+  "steps": [
+   "Tryk på CLEAR/OFF, og prøv funktionen igen.",
+   "Slå komfurets afbryder fra i 30 sekunder.",
+   "Slå den til igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en LG-reparation, hvis den bliver ved med at vende tilbage."
+ },
+ "LG|F10": {
+  "title": "Fejl i den øvre ovns dørlås",
+  "causes": [
+   "Fejl i dørlåsesystemet."
+  ],
+  "steps": [
+   "Tryk på CLEAR/OFF, og prøv funktionen igen.",
+   "Slå komfurets afbryder fra i 30 sekunder.",
+   "Slå den til igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en LG-reparation, hvis den bliver ved med at vende tilbage."
+ },
+ "LG|F11": {
+  "title": "Kommunikationsfejl",
+  "causes": [
+   "Printene kommunikerer ikke."
+  ],
+  "steps": [
+   "Tryk på CLEAR/OFF, og prøv funktionen igen.",
+   "Slå komfurets afbryder fra i 30 sekunder.",
+   "Slå den til igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en LG-reparation, hvis den bliver ved med at vende tilbage."
+ },
+ "LG|F20": {
+  "title": "Fejl i den nedre ovns dørlås",
+  "causes": [
+   "Fejl i dørlåsesystemet."
+  ],
+  "steps": [
+   "Tryk på CLEAR/OFF, og prøv funktionen igen.",
+   "Slå komfurets afbryder fra i 30 sekunder.",
+   "Slå den til igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en LG-reparation, hvis den bliver ved med at vende tilbage."
+ },
+ "LG|F27": {
+  "title": "Kølevifte gået i stå under selvrensning",
+  "causes": [
+   "Viften gik i stå under selvrensning."
+  ],
+  "steps": [
+   "Tryk på CLEAR/OFF, og prøv funktionen igen.",
+   "Slå komfurets afbryder fra i 30 sekunder.",
+   "Slå den til igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en LG-reparation, hvis den bliver ved med at vende tilbage."
+ },
+ "LG|PF": {
+  "title": "Strømmen blev afbrudt",
+  "causes": [
+   "Strømmen til apparatet blev afbrudt."
+  ],
+  "steps": [
+   "Tryk på CLEAR/OFF, og prøv funktionen igen.",
+   "Slå komfurets afbryder fra i 30 sekunder.",
+   "Slå den til igen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Bestil en LG-reparation, hvis den bliver ved med at vende tilbage."
+ },
+ "Beko|Er 5": {
+  "title": "Kommunikationsfejl med stegetermometeret",
+  "causes": [
+   "Ovnen kan ikke kommunikere med stegetermometeret."
+  ],
+  "steps": [
+   "Fjern stegetermometeret.",
+   "Drej knappen til slukket (0).",
+   "Tilbered maden uden proben.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Kontakt autoriseret service for at kunne bruge proben igen."
+ },
+ "Beko|Er 1 - Er 7": {
+  "title": "Kommunikationsfejl i ovnen",
+  "causes": [
+   "Interne kommunikationsfejl."
+  ],
+  "steps": [
+   "Sluk ovnen.",
+   "Notér det præcise nummer.",
+   "Brug ikke ovnen.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Kontakt et autoriseret Beko-servicecenter."
+ },
+ "Beko|Er 8 - Er 27": {
+  "title": "Sensorfejl i ovnen",
+  "causes": [
+   "En sensor i ovnen er defekt."
+  ],
+  "steps": [
+   "Sluk ovnen.",
+   "Notér det præcise nummer.",
+   "Skriv den præcise kode og modelnummeret fra typepladen ned, før du kontakter nogen."
+  ],
+  "technician": "Kontakt et autoriseret Beko-servicecenter."
+ }
+}

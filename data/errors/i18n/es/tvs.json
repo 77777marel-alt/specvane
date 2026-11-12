@@ -1,0 +1,654 @@
+{
+ "Roku|Error 009": {
+  "title": " Conectado al router pero sin internet",
+  "causes": [
+   " El router es accesible pero no tiene internet.",
+   " El servicio de internet no funciona."
+  ],
+  "steps": [
+   " Compruebe si un móvil o un portátil se conecta a internet en la misma red.",
+   " Si ningún dispositivo tiene conexión, llame a su proveedor de internet.",
+   " Si los demás dispositivos funcionan, reinicie el televisor.",
+   " Reinicie el router y el módem y vuelva a conectar."
+  ],
+  "technician": " Si el error sigue apareciendo después de estos pasos, póngase en contacto con el servicio de asistencia de Roku o con su proveedor de internet."
+ },
+ "Roku|Error 012": {
+  "title": " Problema de conexión de red por cable",
+  "causes": [
+   " El cable Ethernet está suelto o defectuoso.",
+   " El puerto del router no funciona."
+  ],
+  "steps": [
+   " Empuje el cable Ethernet con firmeza en el televisor y en el router.",
+   " Pruebe con otro cable o con otro puerto del router.",
+   " Reinicie el televisor y después el router y el módem.",
+   " Pruebe un momento con Wi-Fi para ver si internet funciona."
+  ],
+  "technician": " Si el error sigue apareciendo después de estos pasos, póngase en contacto con el servicio de asistencia de Roku o con su proveedor de internet."
+ },
+ "Roku|Error 013": {
+  "title": " La conexión por cable no llega a internet",
+  "causes": [
+   " El router no tiene internet.",
+   " El cable Ethernet no está bien conectado."
+  ],
+  "steps": [
+   " Compruebe que otro dispositivo tiene conexión.",
+   " Si es así, reinicie el televisor.",
+   " Si no, desconecte y vuelva a conectar el cable Ethernet por ambos extremos.",
+   " Reinicie el router antes de llamar a su proveedor."
+  ],
+  "technician": " Si el error sigue apareciendo después de estos pasos, póngase en contacto con el servicio de asistencia de Roku o con su proveedor de internet."
+ },
+ "Roku|Error 014": {
+  "title": " No se puede conectar a la red inalámbrica",
+  "causes": [
+   " Se ha elegido un nombre de red equivocado.",
+   " Se ha escrito mal la contraseña.",
+   " Hay que reiniciar el router o el televisor."
+  ],
+  "steps": [
+   " Compruebe que ha elegido el nombre de red correcto.",
+   " Vuelva a escribir la contraseña; distingue entre mayúsculas y minúsculas.",
+   " Reinicie el televisor y el router.",
+   " Intente conectarse de nuevo."
+  ],
+  "technician": " Si el error sigue apareciendo después de estos pasos, póngase en contacto con el servicio de asistencia de Roku o con su proveedor de internet."
+ },
+ "Roku|Error 014.20": {
+  "title": " Una señal Wi-Fi débil impide la conexión",
+  "causes": [
+   " El televisor está demasiado lejos del router.",
+   " Las paredes u objetos debilitan la señal."
+  ],
+  "steps": [
+   " Acerque el televisor o el router, o suba el router a un lugar más alto.",
+   " Reinicie el router y el televisor.",
+   " Si su router tiene dos bandas, pruebe con la otra.",
+   " Vuelva a conectarse a la red."
+  ],
+  "technician": " Si el error sigue apareciendo después de estos pasos, póngase en contacto con el servicio de asistencia de Roku o con su proveedor de internet."
+ },
+ "Roku|Error 014.30": {
+  "title": " Ha fallado la conexión Wi-Fi, señal débil",
+  "causes": [
+   " Señal Wi-Fi débil.",
+   " Fallo temporal del router o del televisor."
+  ],
+  "steps": [
+   " Reinicie el router y el televisor.",
+   " Acerque el televisor al router.",
+   " Vuelva a conectarse a la Wi-Fi.",
+   " Pruebe la otra banda del router si está disponible."
+  ],
+  "technician": " Si el error sigue apareciendo después de estos pasos, póngase en contacto con el servicio de asistencia de Roku o con su proveedor de internet."
+ },
+ "Roku|Error 014.40": {
+  "title": " Contraseña incorrecta o restricción del router",
+  "causes": [
+   " La contraseña de la Wi-Fi se ha escrito mal.",
+   " El router bloquea los dispositivos desconocidos."
+  ],
+  "steps": [
+   " Compruebe el nombre de la red y vuelva a introducir la contraseña.",
+   " Si el router filtra dispositivos, añada la dirección MAC inalámbrica del televisor.",
+   " Reinicie el televisor y el router.",
+   " Inténtelo de nuevo."
+  ],
+  "technician": " Si el error sigue apareciendo después de estos pasos, póngase en contacto con el servicio de asistencia de Roku o con su proveedor de internet."
+ },
+ "Roku|Error 014.41": {
+  "title": " Contraseña incorrecta o restricción del router",
+  "causes": [
+   " La contraseña de la Wi-Fi se ha escrito mal.",
+   " El router bloquea los dispositivos desconocidos."
+  ],
+  "steps": [
+   " Compruebe el nombre de la red y vuelva a introducir la contraseña con cuidado.",
+   " Si el router filtra dispositivos, permita la dirección MAC inalámbrica del televisor.",
+   " Reinicie el televisor y el router.",
+   " Inténtelo de nuevo."
+  ],
+  "technician": " Si el error sigue apareciendo después de estos pasos, póngase en contacto con el servicio de asistencia de Roku o con su proveedor de internet."
+ },
+ "Roku|Error 014.50": {
+  "title": " Ha fallado la conexión Wi-Fi, señal débil",
+  "causes": [
+   " Señal Wi-Fi débil.",
+   " Fallo temporal del router o del televisor."
+  ],
+  "steps": [
+   " Reinicie el router y el televisor.",
+   " Acerque el televisor al router.",
+   " Vuelva a conectarse a la Wi-Fi.",
+   " Pruebe la otra banda del router si está disponible."
+  ],
+  "technician": " Si el error sigue apareciendo después de estos pasos, póngase en contacto con el servicio de asistencia de Roku o con su proveedor de internet."
+ },
+ "Roku|Error 016": {
+  "title": " Conexión perdida al abrir un canal",
+  "causes": [
+   " La red se cayó mientras se iniciaba una aplicación.",
+   " Señal Wi-Fi débil."
+  ],
+  "steps": [
+   " Elija Set up connection en la pantalla y siga las indicaciones.",
+   " Reinicie el televisor y el router.",
+   " Compruebe la intensidad de la señal Wi-Fi.",
+   " Acerque el televisor y el router."
+  ],
+  "technician": " Si el error sigue apareciendo después de estos pasos, póngase en contacto con el servicio de asistencia de Roku o con su proveedor de internet."
+ },
+ "Roku|Error 017": {
+  "title": " Intensidad de la señal inalámbrica insuficiente",
+  "causes": [
+   " Señal Wi-Fi débil en el televisor.",
+   " Hay obstáculos entre el televisor y el router."
+  ],
+  "steps": [
+   " Acerque el televisor y el router.",
+   " Retire los obstáculos que haya entre ellos.",
+   " Reinicie el televisor y el router.",
+   " Use un cable Ethernet si el televisor tiene puerto."
+  ],
+  "technician": " Si el error sigue apareciendo después de estos pasos, póngase en contacto con el servicio de asistencia de Roku o con su proveedor de internet."
+ },
+ "Roku|Error 018": {
+  "title": " Velocidad de internet demasiado lenta",
+  "causes": [
+   " Su tarifa o su línea de internet es lenta.",
+   " Otros dispositivos usan el ancho de banda."
+  ],
+  "steps": [
+   " Pause las descargas y las reproducciones en otros dispositivos.",
+   " Reinicie el módem y el router.",
+   " Pregunte a su proveedor qué velocidad tiene.",
+   " Valore contratar una tarifa más rápida."
+  ],
+  "technician": " Si el error sigue apareciendo después de estos pasos, póngase en contacto con el servicio de asistencia de Roku o con su proveedor de internet."
+ },
+ "Roku|Error 14.10": {
+  "title": " Fallo de la conexión inalámbrica",
+  "causes": [
+   " Fallo temporal de la Wi-Fi entre el televisor y el router."
+  ],
+  "steps": [
+   " Reinicie el router y espere a que vuelva a estar en línea.",
+   " Reinicie el Roku TV.",
+   " Intente conectarse de nuevo a la red.",
+   " Acerque el televisor si la señal es débil."
+  ],
+  "technician": " Si el error sigue apareciendo después de estos pasos, póngase en contacto con el servicio de asistencia de Roku o con su proveedor de internet."
+ },
+ "Roku|Error 14.11": {
+  "title": " Fallo de la conexión inalámbrica",
+  "causes": [
+   " Fallo temporal de la Wi-Fi entre el televisor y el router."
+  ],
+  "steps": [
+   " Reinicie el router y espere a que vuelva a estar en línea.",
+   " Reinicie el Roku TV.",
+   " Intente conectarse de nuevo a la red.",
+   " Acerque el televisor si la señal es débil."
+  ],
+  "technician": " Si el error sigue apareciendo después de estos pasos, póngase en contacto con el servicio de asistencia de Roku o con su proveedor de internet."
+ },
+ "Roku|Error 14.62": {
+  "title": " Problema de conexión inalámbrica, señal débil",
+  "causes": [
+   " Señal Wi-Fi débil en el televisor."
+  ],
+  "steps": [
+   " Compruebe la intensidad de la señal que aparece en la pantalla.",
+   " Acerque el televisor y el router.",
+   " Reinicie el router y el televisor.",
+   " Vuelva a conectarse a la red."
+  ],
+  "technician": " Si el error sigue apareciendo después de estos pasos, póngase en contacto con el servicio de asistencia de Roku o con su proveedor de internet."
+ },
+ "Roku|Error 14.64": {
+  "title": " Problema de conexión inalámbrica, señal débil",
+  "causes": [
+   " Señal Wi-Fi débil en el televisor."
+  ],
+  "steps": [
+   " Compruebe la intensidad de la señal que aparece en la pantalla.",
+   " Acerque el televisor y el router.",
+   " Reinicie el router y el televisor.",
+   " Vuelva a conectarse a la red."
+  ],
+  "technician": " Si el error sigue apareciendo después de estos pasos, póngase en contacto con el servicio de asistencia de Roku o con su proveedor de internet."
+ },
+ "TCL|Error 009": {
+  "title": " Conectado al router pero sin internet",
+  "causes": [
+   " El router es accesible pero no tiene internet.",
+   " El servicio de internet no funciona."
+  ],
+  "steps": [
+   " Compruebe si un móvil o un portátil se conecta a internet en la misma red.",
+   " Si ningún dispositivo tiene conexión, llame a su proveedor de internet.",
+   " Si los demás dispositivos funcionan, reinicie el televisor.",
+   " Reinicie el router y el módem y vuelva a conectar."
+  ],
+  "technician": " Si el error vuelve a aparecer tras restablecer la red, póngase en contacto con el servicio de asistencia de TCL para su Roku TV."
+ },
+ "TCL|Error 012": {
+  "title": " Problema de conexión de red por cable",
+  "causes": [
+   " El cable Ethernet está suelto o defectuoso.",
+   " El puerto del router no funciona."
+  ],
+  "steps": [
+   " Empuje el cable Ethernet con firmeza en el televisor y en el router.",
+   " Pruebe con otro cable o con otro puerto del router.",
+   " Reinicie el televisor y después el router y el módem.",
+   " Pruebe un momento con Wi-Fi para ver si internet funciona."
+  ],
+  "technician": " Si el error vuelve a aparecer tras restablecer la red, póngase en contacto con el servicio de asistencia de TCL para su Roku TV."
+ },
+ "TCL|Error 013": {
+  "title": " La conexión por cable no llega a internet",
+  "causes": [
+   " El router no tiene internet.",
+   " El cable Ethernet no está bien conectado."
+  ],
+  "steps": [
+   " Compruebe que otro dispositivo tiene conexión.",
+   " Si es así, reinicie el televisor.",
+   " Si no, desconecte y vuelva a conectar el cable Ethernet por ambos extremos.",
+   " Reinicie el router antes de llamar a su proveedor."
+  ],
+  "technician": " Si el error vuelve a aparecer tras restablecer la red, póngase en contacto con el servicio de asistencia de TCL para su Roku TV."
+ },
+ "TCL|Error 014": {
+  "title": " No se puede conectar a la red inalámbrica",
+  "causes": [
+   " Se ha elegido un nombre de red equivocado.",
+   " Se ha escrito mal la contraseña.",
+   " Hay que reiniciar el router o el televisor."
+  ],
+  "steps": [
+   " Compruebe que ha elegido el nombre de red correcto.",
+   " Vuelva a escribir la contraseña; distingue entre mayúsculas y minúsculas.",
+   " Reinicie el televisor y el router.",
+   " Intente conectarse de nuevo."
+  ],
+  "technician": " Si el error vuelve a aparecer tras restablecer la red, póngase en contacto con el servicio de asistencia de TCL para su Roku TV."
+ },
+ "TCL|Error 014.20": {
+  "title": " Una señal Wi-Fi débil impide la conexión",
+  "causes": [
+   " El televisor está demasiado lejos del router.",
+   " Las paredes u objetos debilitan la señal."
+  ],
+  "steps": [
+   " Acerque el televisor o el router, o suba el router a un lugar más alto.",
+   " Reinicie el router y el televisor.",
+   " Si su router tiene dos bandas, pruebe con la otra.",
+   " Vuelva a conectarse a la red."
+  ],
+  "technician": " Si el error vuelve a aparecer tras restablecer la red, póngase en contacto con el servicio de asistencia de TCL para su Roku TV."
+ },
+ "TCL|Error 014.30": {
+  "title": " Ha fallado la conexión Wi-Fi, señal débil",
+  "causes": [
+   " Señal Wi-Fi débil.",
+   " Fallo temporal del router o del televisor."
+  ],
+  "steps": [
+   " Reinicie el router y el televisor.",
+   " Acerque el televisor al router.",
+   " Vuelva a conectarse a la Wi-Fi.",
+   " Pruebe la otra banda del router si está disponible."
+  ],
+  "technician": " Si el error vuelve a aparecer tras restablecer la red, póngase en contacto con el servicio de asistencia de TCL para su Roku TV."
+ },
+ "TCL|Error 014.40": {
+  "title": " Contraseña incorrecta o restricción del router",
+  "causes": [
+   " La contraseña de la Wi-Fi se ha escrito mal.",
+   " El router bloquea los dispositivos desconocidos."
+  ],
+  "steps": [
+   " Compruebe el nombre de la red y vuelva a introducir la contraseña.",
+   " Si el router filtra dispositivos, añada la dirección MAC inalámbrica del televisor.",
+   " Reinicie el televisor y el router.",
+   " Inténtelo de nuevo."
+  ],
+  "technician": " Si el error vuelve a aparecer tras restablecer la red, póngase en contacto con el servicio de asistencia de TCL para su Roku TV."
+ },
+ "TCL|Error 014.41": {
+  "title": " Contraseña incorrecta o restricción del router",
+  "causes": [
+   " La contraseña de la Wi-Fi se ha escrito mal.",
+   " El router bloquea los dispositivos desconocidos."
+  ],
+  "steps": [
+   " Compruebe el nombre de la red y vuelva a introducir la contraseña con cuidado.",
+   " Si el router filtra dispositivos, permita la dirección MAC inalámbrica del televisor.",
+   " Reinicie el televisor y el router.",
+   " Inténtelo de nuevo."
+  ],
+  "technician": " Si el error vuelve a aparecer tras restablecer la red, póngase en contacto con el servicio de asistencia de TCL para su Roku TV."
+ },
+ "TCL|Error 014.50": {
+  "title": " Ha fallado la conexión Wi-Fi, señal débil",
+  "causes": [
+   " Señal Wi-Fi débil.",
+   " Fallo temporal del router o del televisor."
+  ],
+  "steps": [
+   " Reinicie el router y el televisor.",
+   " Acerque el televisor al router.",
+   " Vuelva a conectarse a la Wi-Fi.",
+   " Pruebe la otra banda del router si está disponible."
+  ],
+  "technician": " Si el error vuelve a aparecer tras restablecer la red, póngase en contacto con el servicio de asistencia de TCL para su Roku TV."
+ },
+ "TCL|Error 016": {
+  "title": " Conexión perdida al abrir un canal",
+  "causes": [
+   " La red se cayó mientras se iniciaba una aplicación.",
+   " Señal Wi-Fi débil."
+  ],
+  "steps": [
+   " Elija Set up connection en la pantalla y siga las indicaciones.",
+   " Reinicie el televisor y el router.",
+   " Compruebe la intensidad de la señal Wi-Fi.",
+   " Acerque el televisor y el router."
+  ],
+  "technician": " Si el error vuelve a aparecer tras restablecer la red, póngase en contacto con el servicio de asistencia de TCL para su Roku TV."
+ },
+ "TCL|Error 017": {
+  "title": " Intensidad de la señal inalámbrica insuficiente",
+  "causes": [
+   " Señal Wi-Fi débil en el televisor.",
+   " Hay obstáculos entre el televisor y el router."
+  ],
+  "steps": [
+   " Acerque el televisor y el router.",
+   " Retire los obstáculos que haya entre ellos.",
+   " Reinicie el televisor y el router.",
+   " Use un cable Ethernet si el televisor tiene puerto."
+  ],
+  "technician": " Si el error vuelve a aparecer tras restablecer la red, póngase en contacto con el servicio de asistencia de TCL para su Roku TV."
+ },
+ "TCL|Error 018": {
+  "title": " Velocidad de internet demasiado lenta",
+  "causes": [
+   " Su tarifa o su línea de internet es lenta.",
+   " Otros dispositivos usan el ancho de banda."
+  ],
+  "steps": [
+   " Pause las descargas y las reproducciones en otros dispositivos.",
+   " Reinicie el módem y el router.",
+   " Pregunte a su proveedor qué velocidad tiene.",
+   " Valore contratar una tarifa más rápida."
+  ],
+  "technician": " Si el error vuelve a aparecer tras restablecer la red, póngase en contacto con el servicio de asistencia de TCL para su Roku TV."
+ },
+ "Sony|Red LED blinks 2 times": {
+  "title": " El televisor Sony ha detectado un fallo (2 parpadeos)",
+  "causes": [
+   " El televisor ha encontrado un fallo interno.",
+   " El significado del número de parpadeos varía según el modelo."
+  ],
+  "steps": [
+   " Apague y desenchufe el televisor durante 1 minuto, sin usar regleta.",
+   " Despeje las rejillas de ventilación para que circule el aire.",
+   " Desconecte todos los dispositivos conectados y vuelva a encenderlo.",
+   " Actualice el software del televisor si se enciende.",
+   " Anote el número de parpadeos y póngase en contacto con Sony."
+  ],
+  "technician": " La mayoría de los fallos de parpadeo rojo requieren servicio técnico, así que póngase en contacto con el servicio de asistencia de Sony e indique el número de parpadeos."
+ },
+ "Sony|Red LED blinks 3 times": {
+  "title": " El televisor Sony ha detectado un fallo (3 parpadeos)",
+  "causes": [
+   " El televisor ha encontrado un fallo interno.",
+   " El significado del número de parpadeos varía según el modelo."
+  ],
+  "steps": [
+   " Apague y desenchufe el televisor durante 1 minuto, sin usar regleta.",
+   " Despeje las rejillas de ventilación para que circule el aire.",
+   " Desconecte todos los dispositivos conectados y vuelva a encenderlo.",
+   " Actualice el software del televisor si se enciende.",
+   " Anote el número de parpadeos y póngase en contacto con Sony."
+  ],
+  "technician": " La mayoría de los fallos de parpadeo rojo requieren servicio técnico, así que póngase en contacto con el servicio de asistencia de Sony e indique el número de parpadeos."
+ },
+ "Sony|Red LED blinks 4 times": {
+  "title": " El televisor Sony ha detectado un fallo (4 parpadeos)",
+  "causes": [
+   " El televisor ha encontrado un fallo interno.",
+   " El significado del número de parpadeos varía según el modelo."
+  ],
+  "steps": [
+   " Apague y desenchufe el televisor durante 1 minuto, sin usar regleta.",
+   " Despeje las rejillas de ventilación para que circule el aire.",
+   " Desconecte todos los dispositivos conectados y vuelva a encenderlo.",
+   " Actualice el software del televisor si se enciende.",
+   " Anote el número de parpadeos y póngase en contacto con Sony."
+  ],
+  "technician": " La mayoría de los fallos de parpadeo rojo requieren servicio técnico, así que póngase en contacto con el servicio de asistencia de Sony e indique el número de parpadeos."
+ },
+ "Sony|Red LED blinks 5 times": {
+  "title": " El televisor Sony ha detectado un fallo (5 parpadeos)",
+  "causes": [
+   " El televisor ha encontrado un fallo interno.",
+   " El significado del número de parpadeos varía según el modelo."
+  ],
+  "steps": [
+   " Apague y desenchufe el televisor durante 1 minuto, sin usar regleta.",
+   " Despeje las rejillas de ventilación para que circule el aire.",
+   " Desconecte todos los dispositivos conectados y vuelva a encenderlo.",
+   " Actualice el software del televisor si se enciende.",
+   " Anote el número de parpadeos y póngase en contacto con Sony."
+  ],
+  "technician": " La mayoría de los fallos de parpadeo rojo requieren servicio técnico, así que póngase en contacto con el servicio de asistencia de Sony e indique el número de parpadeos."
+ },
+ "Sony|Red LED blinks 6 times": {
+  "title": " El televisor Sony ha detectado un fallo (6 parpadeos)",
+  "causes": [
+   " El televisor ha encontrado un fallo interno.",
+   " El significado del número de parpadeos varía según el modelo."
+  ],
+  "steps": [
+   " Apague y desenchufe el televisor durante 1 minuto, sin usar regleta.",
+   " Despeje las rejillas de ventilación para que circule el aire.",
+   " Desconecte todos los dispositivos conectados y vuelva a encenderlo.",
+   " Actualice el software del televisor si se enciende.",
+   " Anote el número de parpadeos y póngase en contacto con Sony."
+  ],
+  "technician": " La mayoría de los fallos de parpadeo rojo requieren servicio técnico, así que póngase en contacto con el servicio de asistencia de Sony e indique el número de parpadeos."
+ },
+ "Sony|Red LED blinks 7 times": {
+  "title": " El televisor Sony ha detectado un fallo (7 parpadeos)",
+  "causes": [
+   " El televisor ha encontrado un fallo interno.",
+   " El significado del número de parpadeos varía según el modelo."
+  ],
+  "steps": [
+   " Apague y desenchufe el televisor durante 1 minuto, sin usar regleta.",
+   " Despeje las rejillas de ventilación para que circule el aire.",
+   " Desconecte todos los dispositivos conectados y vuelva a encenderlo.",
+   " Actualice el software del televisor si se enciende.",
+   " Anote el número de parpadeos y póngase en contacto con Sony."
+  ],
+  "technician": " La mayoría de los fallos de parpadeo rojo requieren servicio técnico, así que póngase en contacto con el servicio de asistencia de Sony e indique el número de parpadeos."
+ },
+ "Sony|Red LED blinks 8 times": {
+  "title": " El televisor Sony ha detectado un fallo (8 parpadeos)",
+  "causes": [
+   " El televisor ha encontrado un fallo interno.",
+   " El significado del número de parpadeos varía según el modelo."
+  ],
+  "steps": [
+   " Apague y desenchufe el televisor durante 1 minuto, sin usar regleta.",
+   " Despeje las rejillas de ventilación para que circule el aire.",
+   " Desconecte todos los dispositivos conectados y vuelva a encenderlo.",
+   " Actualice el software del televisor si se enciende.",
+   " Anote el número de parpadeos y póngase en contacto con Sony."
+  ],
+  "technician": " La mayoría de los fallos de parpadeo rojo requieren servicio técnico, así que póngase en contacto con el servicio de asistencia de Sony e indique el número de parpadeos."
+ },
+ "Sony|Orange LED solid": {
+  "title": " Temporizador de apagado o de encendido/apagado activo",
+  "causes": [
+   " Hay un temporizador de apagado o de encendido/apagado configurado en el televisor."
+  ],
+  "steps": [
+   " Abra el menú de Ajustes del televisor.",
+   " Busque el temporizador de apagado o de encendido/apagado.",
+   " Desactive el temporizador o cambie la hora.",
+   " Compruebe que la luz se apaga."
+  ],
+  "technician": " No hace falta servicio técnico, salvo que la luz siga encendida sin ningún temporizador configurado."
+ },
+ "Sony|Orange LED blinking": {
+  "title": " Actualización de software en curso o cable suelto",
+  "causes": [
+   " Hay una actualización de software en curso.",
+   " En los equipos con una caja multimedia independiente, el cable entre las unidades puede estar suelto."
+  ],
+  "steps": [
+   " No apague ni desenchufe el televisor; espere unos minutos.",
+   " El mando a distancia no funcionará durante la actualización.",
+   " En los equipos con caja multimedia, compruebe que el cable entre las unidades está bien conectado."
+  ],
+  "technician": " Si parpadea durante mucho tiempo, póngase en contacto con el servicio de asistencia de Sony."
+ },
+ "Sony|Green LED blinking": {
+  "title": " Inicio normal o el televisor no arranca",
+  "causes": [
+   " Es normal mientras el televisor se enciende.",
+   " Posible fallo si no deja de parpadear o si el televisor se enciende y se apaga en bucle."
+  ],
+  "steps": [
+   " Espere a que el televisor termine de arrancar; el parpadeo debería detenerse.",
+   " Si sigue parpadeando, desenchufe el televisor durante 3 minutos.",
+   " Vuelva a enchufarlo e inténtelo de nuevo."
+  ],
+  "technician": " Si el televisor sigue sin arrancar, necesita servicio técnico de Sony."
+ },
+ "Sony|White LED blinking": {
+  "title": " Hay que sustituir la lámpara del televisor de proyección",
+  "causes": [
+   " La lámpara se ha fundido (solo televisores de proyección y proyectores).",
+   " Puede que la tapa de la lámpara esté abierta."
+  ],
+  "steps": [
+   " Apague el televisor y deje que la lámpara se enfríe.",
+   " Compruebe que las tapas de la lámpara están cerradas y bien sujetas.",
+   " No toque el cristal de la lámpara; si lo toca, límpielo con una toallita con alcohol.",
+   " Organice la sustitución de la lámpara."
+  ],
+  "technician": " Póngase en contacto con el servicio de asistencia de Sony para conseguir una lámpara de repuesto."
+ },
+ "Sony|Red LED blinking with 3-second pause": {
+  "title": " Fallo indicado por parpadeos rojos repetidos",
+  "causes": [
+   " El televisor ha encontrado un fallo y muestra un número de destellos."
+  ],
+  "steps": [
+   " Cuente los destellos entre cada pausa.",
+   " Desenchufe el televisor, espere 2 minutos, vuelva a enchufarlo y enciéndalo.",
+   " Si se repite, desenchúfelo y llame a Sony indicando el número de destellos."
+  ],
+  "technician": " Indique el número de destellos al servicio de asistencia de Sony."
+ },
+ "Panasonic|Red LED blinking": {
+  "title": " El televisor ha detectado un error (SOS)",
+  "causes": [
+   " El televisor ha encontrado un error interno.",
+   " Se aplica a los modelos Panasonic Fire TV."
+  ],
+  "steps": [
+   " Desenchufe el televisor durante unos minutos.",
+   " Vuelva a enchufarlo y enciéndalo.",
+   " Si sigue parpadeando, envíe una solicitud de reparación a Panasonic."
+  ],
+  "technician": " Si el parpadeo continúa, envíe una solicitud de asistencia para reparación a Panasonic."
+ },
+ "Panasonic|Orange LED solid": {
+  "title": " En espera mientras se realiza el mantenimiento del panel o una tarea de red",
+  "causes": [
+   " Se está realizando el mantenimiento del panel o una función de red."
+  ],
+  "steps": [
+   " No toque ni presione la pantalla durante el mantenimiento del panel.",
+   " Espere a que termine la tarea.",
+   " Si se repite, lea el artículo de Panasonic sobre el mantenimiento del panel."
+  ],
+  "technician": " Si la luz permanece naranja durante mucho tiempo, póngase en contacto con el servicio de asistencia de Panasonic."
+ },
+ "Panasonic|Orange LED blinking": {
+  "title": " Mantenimiento del panel o actualización de red en curso",
+  "causes": [
+   " Se está realizando el mantenimiento del panel.",
+   " Hay una conexión de red o una actualización de ajustes en curso."
+  ],
+  "steps": [
+   " Deje el televisor enchufado y espere a que termine.",
+   " Si el LED vuelve a ponerse naranja después de encender o apagar el televisor, el mantenimiento no ha terminado.",
+   " Deje que se complete antes de apagarlo."
+  ],
+  "technician": " Si nunca se detiene, póngase en contacto con el servicio de asistencia de Panasonic."
+ },
+ "Panasonic|Green LED blinking": {
+  "title": " El televisor se está iniciando o espera el emparejamiento Bluetooth",
+  "causes": [
+   " El televisor se está iniciando.",
+   " Está esperando a que se empareje un dispositivo Bluetooth."
+  ],
+  "steps": [
+   " Espere a que termine el inicio.",
+   " Si está emparejando, complete el emparejamiento en el otro dispositivo.",
+   " Si no se detiene nunca, desenchúfelo un momento y vuelva a intentarlo."
+  ],
+  "technician": " Si el televisor nunca termina de arrancar, póngase en contacto con el servicio de asistencia de Panasonic."
+ },
+ "Philips|Standby light blinks red": {
+  "title": " El televisor Philips indica un fallo",
+  "causes": [
+   " El televisor ha detectado un fallo.",
+   " Es posible que el televisor se haya sobrecalentado."
+  ],
+  "steps": [
+   " Desenchufe el televisor de la toma de pared.",
+   " Deje que se enfríe por completo.",
+   " Vuelva a conectar el cable de alimentación.",
+   " Vuelva a encenderlo."
+  ],
+  "technician": " Si la luz roja vuelve a parpadear, póngase en contacto con Philips Consumer Care."
+ },
+ "Philips|Front LED blinks in a repeating pattern": {
+  "title": " El televisor no arranca, el LED parpadea repetidamente",
+  "causes": [
+   " El televisor no arranca y no muestra imagen ni sonido.",
+   " Fallo temporal de la alimentación."
+  ],
+  "steps": [
+   " Haga un ciclo de encendido: desenchufe el televisor y espere unos minutos.",
+   " Vuelva a enchufarlo e inténtelo de nuevo.",
+   " Pruebe con otra toma de pared."
+  ],
+  "technician": " Si sigue parpadeando, póngase en contacto con el servicio de asistencia de televisores de Philips."
+ },
+ "LG|Error 106": {
+  "title": " El televisor no está conectado a la red",
+  "causes": [
+   " El televisor no tiene una conexión a internet que funcione.",
+   " El adaptador Wi-Fi o los ajustes del router no son adecuados."
+  ],
+  "steps": [
+   " Pruebe otro dispositivo en la misma red.",
+   " Reinicie el router y el televisor y vuelva a introducir la contraseña de la Wi-Fi.",
+   " En los ajustes avanzados de Wi-Fi, configure el DNS manualmente como 8.8.8.8.",
+   " Use 5 GHz si el televisor lo admite y acerque el router."
+  ],
+  "technician": " Si nada funciona, puede que haya que sustituir el módulo Wi-Fi, así que póngase en contacto con el servicio técnico de LG."
+ }
+}

@@ -1,0 +1,1394 @@
+{
+ "iRobot|Error 1": {
+  "title": "Roomba coincé ou roue qui pend dans le vide",
+  "causes": [
+   "Le robot est coincé sur un obstacle.",
+   "Une roue latérale pend dans le vide ou est bloquée."
+  ],
+  "steps": [
+   "Soulevez le robot et posez-le à un autre endroit.",
+   "Appuyez sur CLEAN pour relancer le nettoyage.",
+   "Faites tourner les deux roues latérales à la main et secouez les débris éventuels."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Error 2": {
+  "title": "Les extracteurs ne tournent pas",
+  "causes": [
+   "Des cheveux ou des débris bloquent les extracteurs (brosses)."
+  ],
+  "steps": [
+   "Sortez le bac et ouvrez le cadre des extracteurs.",
+   "Retirez les extracteurs et coupez les cheveux et les fils.",
+   "Remettez-les en place et appuyez sur CLEAN."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Error 5": {
+  "title": "Roue latérale bloquée",
+  "causes": [
+   "Une roue latérale ne tourne pas librement à cause de saletés ou de cheveux."
+  ],
+  "steps": [
+   "Retournez le robot.",
+   "Faites tourner chaque roue latérale et retirez les débris du logement de la roue.",
+   "Posez le robot au sol et appuyez sur CLEAN."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Error 6": {
+  "title": "Capteurs de vide sales ou robot au-dessus d'un vide",
+  "causes": [
+   "Les capteurs de vide situés sous le robot sont sales.",
+   "Le robot est au-dessus d'un vide ou sur un sol très foncé."
+  ],
+  "steps": [
+   "Déplacez le robot à un autre endroit.",
+   "Essuyez les capteurs de vide situés sous le robot avec un chiffon sec.",
+   "Appuyez sur CLEAN pour redémarrer."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Error 7": {
+  "title": "Roue latérale bloquée",
+  "causes": [
+   "Une roue latérale est bloquée par des débris ou des cheveux."
+  ],
+  "steps": [
+   "Retournez le robot et faites tourner chaque roue latérale.",
+   "Retirez les cheveux ou la saleté des logements des roues.",
+   "Reposez-le et appuyez sur CLEAN."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Error 9": {
+  "title": "Pare-chocs enfoncé ou capteur du pare-chocs sale",
+  "causes": [
+   "Le pare-chocs est enfoncé ou coincé.",
+   "Le capteur du pare-chocs est sale."
+  ],
+  "steps": [
+   "Tapotez plusieurs fois le pare-chocs pour déloger la saleté.",
+   "Essuyez le pourtour du pare-chocs avec un chiffon sec.",
+   "Redémarrez le robot."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Error 10": {
+  "title": "Roue latérale bloquée ou pare-chocs qui ne réagit pas",
+  "causes": [
+   "Une roue latérale est bloquée.",
+   "Le pare-chocs ne détecte pas les obstacles."
+  ],
+  "steps": [
+   "Faites tourner les roues latérales et nettoyez leurs logements.",
+   "Tapotez le pare-chocs pour retirer les débris.",
+   "Appuyez sur CLEAN pour réessayer."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Error 11": {
+  "title": "Erreur du système d'aspiration du Roomba",
+  "causes": [
+   "Le système d'aspiration ou le bac a une anomalie."
+  ],
+  "steps": [
+   "Retirez le bac et videz-le.",
+   "Nettoyez le filtre et vérifiez que le bac est bien en place.",
+   "Redémarrez le robot et, sur les modèles Wi-Fi, consultez l'application iRobot HOME pour obtenir de l'aide."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Error 14": {
+  "title": "Le Roomba ne détecte pas le bac",
+  "causes": [
+   "Le bac n'est pas correctement installé.",
+   "Les contacts du bac sont sales."
+  ],
+  "steps": [
+   "Vérifiez que le bac est complètement installé.",
+   "Essuyez les contacts du bac et du robot avec une éponge en mousse de mélamine légèrement humide.",
+   "Si le problème persiste, il faudra peut-être un nouveau bac."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Error 18": {
+  "title": "Le Roomba ne peut pas retourner à la base ni à son point de départ",
+  "causes": [
+   "La base n'est pas alimentée ou a été déplacée.",
+   "Contacts de charge ou capteurs sales, ou roues bloquées."
+  ],
+  "steps": [
+   "Vérifiez que la base est alimentée et que son voyant est allumé.",
+   "Dégagez la zone et essuyez les contacts et les capteurs avec un chiffon sec ou légèrement humide.",
+   "Faites tourner les roues, puis redémarrez le robot et la base.",
+   "Rapprochez la base de la zone de nettoyage si elle est hors de portée."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Error 1010": {
+  "title": "Le Roomba ne trouve pas sa base ou ne peut pas l'atteindre",
+  "causes": [
+   "Un passage bloqué ou une porte fermée.",
+   "La base a été déplacée ou débranchée.",
+   "La lumière ou des reflets perturbent les capteurs d'accostage."
+  ],
+  "steps": [
+   "Dégagez le passage et ouvrez les portes.",
+   "Maintenez le bouton d'alimentation enfoncé pendant 10 secondes pour redémarrer, puis relancez le nettoyage.",
+   "Nettoyez les brosses, les roues et les capteurs du robot et de la base.",
+   "Si le problème persiste, supprimez la carte et laissez le robot la recréer."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Charging error 1": {
+  "title": "Le Roomba ne détecte pas la batterie",
+  "causes": [
+   "La batterie n'est pas bien en place ou n'est pas détectée."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Retirez la batterie.",
+   "Réinstallez-la fermement.",
+   "Essayez de la recharger à nouveau."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Charging error 2": {
+  "title": "Surintensité de charge de la batterie",
+  "causes": [
+   "La batterie n'est peut-être pas une batterie iRobot d'origine.",
+   "Il peut y avoir des dégâts dus à un liquide."
+  ],
+  "steps": [
+   "Vérifiez que vous utilisez une batterie lithium-ion iRobot d'origine.",
+   "Recherchez des traces de dégâts dus à un liquide.",
+   "Ne la chargez pas si elle semble endommagée."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Charging error 3": {
+  "title": "Panne du système de charge",
+  "causes": [
+   "Une panne du système de charge, éventuellement due à un liquide."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Essayez de la recharger à nouveau.",
+   "Vérifiez s'il y a des dégâts dus à un liquide.",
+   "Gardez la base et le robot au sec."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Charging error 4": {
+  "title": "Courant de charge faible ou nul",
+  "causes": [
+   "Les contacts de charge du robot ou de la base sont sales."
+  ],
+  "steps": [
+   "Débranchez la base.",
+   "Essuyez les contacts de charge des deux éléments avec une éponge en mousse de mélamine légèrement humide.",
+   "Essayez de la recharger à nouveau."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Charging error 6": {
+  "title": "Batterie trop chaude ou trop froide pour être chargée",
+  "causes": [
+   "La batterie est en dehors de sa plage de température de charge sûre."
+  ],
+  "steps": [
+   "Placez le robot dans un endroit à température ambiante.",
+   "Attendez qu'il atteigne la température ambiante.",
+   "Essayez de la recharger à nouveau."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Charging error 8": {
+  "title": "Le robot ne communique pas avec la batterie",
+  "causes": [
+   "La batterie n'est peut-être pas d'origine ou est mal installée."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Vérifiez qu'il s'agit bien d'une batterie iRobot d'origine.",
+   "Retirez-la et réinstallez-la.",
+   "Essayez de la recharger à nouveau."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Charging error 9": {
+  "title": "Défaillance de la batterie",
+  "causes": [
+   "La batterie est défaillante ou n'est pas d'origine."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Vérifiez que la batterie est d'origine.",
+   "Retirez-la et réinstallez-la.",
+   "Si l'erreur se reproduit, prévoyez de remplacer la batterie."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Charging error 11": {
+  "title": "Panne matérielle de la batterie",
+  "causes": [
+   "La batterie a une panne matérielle ou n'est pas d'origine."
+  ],
+  "steps": [
+   "Vérifiez que la batterie est d'origine.",
+   "Retirez-la et réinstallez-la.",
+   "Remplacez la batterie si l'erreur revient."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Charging error 20": {
+  "title": "Batterie défectueuse ou prête à ne pas se recharger",
+  "causes": [
+   "La batterie a une anomalie ou ne peut pas démarrer la charge."
+  ],
+  "steps": [
+   "Retirez la batterie pendant 15 minutes.",
+   "Réinstallez-la et essayez de la recharger.",
+   "Remplacez la batterie si le problème persiste."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Charging error 21": {
+  "title": "Posé sur la base, mais la charge n'a pas pu démarrer",
+  "causes": [
+   "Les contacts de charge sont sales."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Débranchez la base.",
+   "Essuyez les contacts du robot et de la base avec une éponge en mousse de mélamine légèrement humide.",
+   "Replacez le robot sur la base."
+  ],
+  "technician": "Si l'erreur revient après ces vérifications, contactez le service client iRobot en indiquant le numéro de série du robot."
+ },
+ "iRobot|Error 453": {
+  "title": "La base ne parvient pas à s'aligner avec le robot",
+  "causes": [
+   "Le rouleau de lavage des lingettes ou le bac n'est pas bien en place.",
+   "Un objet bloque la buse de la base."
+  ],
+  "steps": [
+   "Réinstallez le rouleau de lavage des lingettes.",
+   "Assurez-vous que le bac est installé et dégagez le logement de la buse.",
+   "Vérifiez que les boutons des contacts de charge bougent librement, puis redémarrez le robot et la base."
+  ],
+  "technician": "Si l'erreur de la base revient après ces étapes, contactez le service client iRobot ; la base nécessite peut-être une réparation."
+ },
+ "iRobot|Error 511": {
+  "title": "Problème du capteur du réservoir d'eau sale",
+  "causes": [
+   "Le réservoir d'eau sale n'est pas bien en place."
+  ],
+  "steps": [
+   "Retirez le réservoir d'eau sale et réinsérez-le.",
+   "Débranchez la base quelques secondes, puis rebranchez-la.",
+   "Réessayez."
+  ],
+  "technician": "Si l'erreur de la base revient après ces étapes, contactez le service client iRobot ; la base nécessite peut-être une réparation."
+ },
+ "iRobot|Error 512": {
+  "title": "Évacuation de l'eau sale obstruée",
+  "causes": [
+   "Des débris bouchent l'évacuation des bacs de lavage."
+  ],
+  "steps": [
+   "Essuyez les deux bacs avec un chiffon sec.",
+   "Dégagez l'orifice d'évacuation.",
+   "Utilisez un savon doux et une éponge pour la saleté tenace."
+  ],
+  "technician": "Si l'erreur de la base revient après ces étapes, contactez le service client iRobot ; la base nécessite peut-être une réparation."
+ },
+ "iRobot|Error 516": {
+  "title": "Rouleau de lavage des lingettes bloqué",
+  "causes": [
+   "Un objet bloque le rouleau."
+  ],
+  "steps": [
+   "Sortez le rouleau et retirez tout ce qui le bloque.",
+   "Remettez-le en place.",
+   "Éteignez puis rallumez la base en la débranchant quelques secondes."
+  ],
+  "technician": "Si l'erreur de la base revient après ces étapes, contactez le service client iRobot ; la base nécessite peut-être une réparation."
+ },
+ "iRobot|Error 517": {
+  "title": "Débordement du bac de lavage",
+  "causes": [
+   "Il y a trop d'eau sale dans le bac."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Videz le bac de débordement et essuyez-le avec un chiffon sec.",
+   "Nettoyez les deux bacs.",
+   "Réessayez."
+  ],
+  "technician": "Si l'erreur de la base revient après ces étapes, contactez le service client iRobot ; la base nécessite peut-être une réparation."
+ },
+ "iRobot|Error 518": {
+  "title": "Rouleau de lavage des lingettes absent",
+  "causes": [
+   "Le rouleau n'est pas dans la base."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Placez le rouleau dans la base.",
+   "S'il y est déjà, retirez-le et remettez-le en place.",
+   "Éteignez puis rallumez la base et relancez le lavage."
+  ],
+  "technician": "Si l'erreur de la base revient après ces étapes, contactez le service client iRobot ; la base nécessite peut-être une réparation."
+ },
+ "iRobot|Error 650": {
+  "title": "Réservoir d'eau propre absent",
+  "causes": [
+   "Le réservoir d'eau propre n'est pas bien en place ou est obstrué."
+  ],
+  "steps": [
+   "Replacez le robot sur la base et vérifiez l'anneau lumineux.",
+   "Retirez tout ce qui bloque le réservoir.",
+   "Remplissez le réservoir et réinstallez-le, puis éteignez et rallumez la base."
+  ],
+  "technician": "Si l'erreur de la base revient après ces étapes, contactez le service client iRobot ; la base nécessite peut-être une réparation."
+ },
+ "iRobot|Error 651": {
+  "title": "Niveau du réservoir d'eau propre trop bas",
+  "causes": [
+   "Le réservoir d'eau propre est vide ou n'est pas lu correctement."
+  ],
+  "steps": [
+   "Remplissez le réservoir d'eau propre et réinsérez-le.",
+   "S'il était plein, videz-le et remplissez-le quand même.",
+   "Vérifiez que le robot est correctement placé sur la base."
+  ],
+  "technician": "Si l'erreur de la base revient après ces étapes, contactez le service client iRobot ; la base nécessite peut-être une réparation."
+ },
+ "iRobot|Error 653": {
+  "title": "Réservoir d'eau sale absent",
+  "causes": [
+   "Le réservoir d'eau sale n'est pas en place ou est obstrué."
+  ],
+  "steps": [
+   "Vérifiez que le robot est sur la base.",
+   "Retirez le réservoir d'eau sale et recherchez d'éventuels obstacles.",
+   "Remettez le réservoir vide en place, puis éteignez et rallumez la base."
+  ],
+  "technician": "Si l'erreur de la base revient après ces étapes, contactez le service client iRobot ; la base nécessite peut-être une réparation."
+ },
+ "iRobot|Error 654": {
+  "title": "Réservoir d'eau sale trop plein",
+  "causes": [
+   "Le réservoir d'eau sale doit être vidé."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Videz et nettoyez le réservoir d'eau sale.",
+   "Réinsérez-le.",
+   "Vérifiez que le robot est sur la base et réessayez."
+  ],
+  "technician": "Si l'erreur de la base revient après ces étapes, contactez le service client iRobot ; la base nécessite peut-être une réparation."
+ },
+ "iRobot|Error 663": {
+  "title": "Niveau d'eau propre en baisse, fuite possible",
+  "causes": [
+   "De l'eau fuit peut-être de la base."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Débranchez la base.",
+   "Retirez les deux réservoirs.",
+   "Inclinez la base pour vérifier s'il y a de l'eau en dessous et déplacez-la dans un endroit sec."
+  ],
+  "technician": "Si l'erreur de la base revient après ces étapes, contactez le service client iRobot ; la base nécessite peut-être une réparation."
+ },
+ "iRobot|Error 668": {
+  "title": "Aucune lingette de nettoyage fixée",
+  "causes": [
+   "La lingette est absente ou n'est pas détectée."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Fixez une lingette.",
+   "Si une lingette est en place, retirez-la, séchez-la et remettez-la.",
+   "Essayez une autre lingette."
+  ],
+  "technician": "Si l'erreur de la base revient après ces étapes, contactez le service client iRobot ; la base nécessite peut-être une réparation."
+ },
+ "Roborock|Error 1": {
+  "title": "Tourelle LiDAR ou laser bloquée",
+  "causes": [
+   "Un objet bloque ou coince la tourelle laser située sur le dessus."
+  ],
+  "steps": [
+   "Éteignez le robot.",
+   "Vérifiez qu'aucun objet n'est coincé autour de la tourelle et tournez-la doucement à la main.",
+   "Redémarrez et réessayez."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Roborock|Error 2": {
+  "title": "Pare-chocs bloqué",
+  "causes": [
+   "De la saleté ou des débris maintiennent le pare-chocs enfoncé."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Nettoyez le pourtour du pare-chocs.",
+   "Tapotez-le doucement pour le débloquer.",
+   "Redémarrez le robot."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Roborock|Error 3": {
+  "title": "Roues suspendues",
+  "causes": [
+   "Le robot est soulevé ou ses roues pendent dans le vide."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Posez le robot au sol.",
+   "Vérifiez qu'aucune roue ne pend au-dessus d'un rebord.",
+   "Relancez le nettoyage."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Roborock|Error 4": {
+  "title": "Erreur du capteur de vide",
+  "causes": [
+   "Un capteur de vide est sale ou le robot est près d'un vide."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Essuyez les capteurs de vide situés sous le robot.",
+   "Éloignez le robot des rebords.",
+   "Redémarrez-le."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Roborock|Error 5": {
+  "title": "Brosse principale bloquée",
+  "causes": [
+   "Des cheveux ou des débris sont enroulés autour de la brosse principale."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Retirez la brosse principale.",
+   "Coupez les cheveux emmêlés et nettoyez les paliers.",
+   "Remettez la brosse en place et redémarrez."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Roborock|Error 6": {
+  "title": "Brosse latérale bloquée",
+  "causes": [
+   "Des cheveux ou des débris sont enroulés autour de la brosse latérale."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Retirez la brosse latérale.",
+   "Retirez les cheveux et la saleté.",
+   "Remettez-la en place et redémarrez."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Roborock|Error 7": {
+  "title": "Roues bloquées",
+  "causes": [
+   "Un objet coince une roue motrice."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Déplacez le robot à un endroit dégagé.",
+   "Vérifiez que les roues ne comportent ni cheveux ni débris.",
+   "Redémarrez le robot."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Roborock|Error 8": {
+  "title": "Robot coincé",
+  "causes": [
+   "Le robot est piégé par des meubles ou des câbles."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Dégagez les obstacles près du robot.",
+   "Déplacez-le dans un espace dégagé.",
+   "Relancez le nettoyage."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Roborock|Error 9": {
+  "title": "Bac à poussière absent",
+  "causes": [
+   "Le bac à poussière ou le filtre n'est pas installé."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Installez le bac à poussière.",
+   "Assurez-vous que le filtre est en place.",
+   "Redémarrez."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Roborock|Error 12": {
+  "title": "Batterie faible",
+  "causes": [
+   "La batterie est trop faible pour continuer."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Placez le robot sur la base.",
+   "Laissez-le se recharger.",
+   "Relancez le nettoyage."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Roborock|Error 13": {
+  "title": "Erreur de charge",
+  "causes": [
+   "Les contacts de charge du robot ou de la base sont sales."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Essuyez les contacts de charge.",
+   "Vérifiez que la base est alimentée.",
+   "Replacez le robot sur la base."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Roborock|Error 14": {
+  "title": "Erreur de batterie",
+  "causes": [
+   "La batterie est peut-être défectueuse ou en dehors de sa plage de température de sécurité."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Laissez le robot atteindre la température ambiante.",
+   "Essayez de la recharger à nouveau.",
+   "Redémarrez-le."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Roborock|Error 15": {
+  "title": "Capteur mural sale",
+  "causes": [
+   "De la poussière recouvre le capteur mural."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Essuyez le capteur mural avec un chiffon sec.",
+   "Redémarrez le robot.",
+   "Lancez un court nettoyage d'essai."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Roborock|Error 16": {
+  "title": "Robot incliné",
+  "causes": [
+   "Le robot est sur une pente ou est incliné."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Placez-le sur un sol plat.",
+   "Vérifiez qu'il n'est pas sur le bord d'un tapis ou sur une marche.",
+   "Redémarrez."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Roborock|Error 17": {
+  "title": "Erreur de la brosse latérale",
+  "causes": [
+   "Le système de la brosse latérale a une anomalie."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Réinitialisez le robot.",
+   "Vérifiez que la brosse latérale tourne librement.",
+   "Réessayez."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Roborock|Error 18": {
+  "title": "Erreur du ventilateur",
+  "causes": [
+   "Le ventilateur d'aspiration a une anomalie."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Réinitialisez le robot.",
+   "Videz le bac et nettoyez le filtre.",
+   "Réessayez."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Roborock|Error 21": {
+  "title": "Pare-chocs vertical enfoncé",
+  "causes": [
+   "Le pare-chocs supérieur est enfoncé ou coincé."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Déplacez le robot à un autre endroit.",
+   "Vérifiez que rien n'appuie sur le pare-chocs.",
+   "Réessayez."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Roborock|Error 22": {
+  "title": "Erreur du localisateur de base",
+  "causes": [
+   "Le capteur qui repère la base est sale ou bloqué."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Nettoyez le localisateur de base.",
+   "Dégagez la zone autour de la base.",
+   "Réessayez."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Roborock|Error 23": {
+  "title": "Retour à la base impossible",
+  "causes": [
+   "Le voyant indicateur de la base est sale ou bloqué."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Nettoyez le voyant indicateur de position de la base.",
+   "Dégagez les obstacles près de la base.",
+   "Réessayez."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Roborock|Error 27": {
+  "title": "Système VibraRise bloqué",
+  "causes": [
+   "Le système de relevage de la serpillière est bloqué."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Vérifiez qu'aucun obstacle ne se trouve autour du plateau de la serpillière.",
+   "Retirez les débris.",
+   "Redémarrez."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Roborock|Error 28": {
+  "title": "Robot sur un tapis",
+  "causes": [
+   "La serpillière est en place et le robot est sur un tapis."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Déplacez le robot sur un sol dur.",
+   "Retirez la serpillière si vous voulez nettoyer le tapis.",
+   "Réessayez."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et la réinitialisation, contactez l'assistance client Roborock."
+ },
+ "Xiaomi|Error 1": {
+  "title": "Pare-chocs bloqué ou sale",
+  "causes": [
+   "Des débris retiennent le pare-chocs."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Nettoyez le pare-chocs.",
+   "Tapotez-le doucement pour déloger les débris.",
+   "Si le problème persiste, déplacez le robot ailleurs et redémarrez."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et une réinitialisation, contactez le service après-vente Xiaomi."
+ },
+ "Xiaomi|Error 2": {
+  "title": "Roue décollée du sol",
+  "causes": [
+   "Une roue pend dans le vide."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Posez le robot sur un sol plat.",
+   "Redémarrez-le.",
+   "Vérifiez qu'il n'est pas au bord d'un rebord."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et une réinitialisation, contactez le service après-vente Xiaomi."
+ },
+ "Xiaomi|Error 3": {
+  "title": "Capteur de vide sale ou robot soulevé",
+  "causes": [
+   "Le capteur de vide est sale ou le robot est en partie soulevé."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Nettoyez le capteur de vide.",
+   "Posez-le sur un sol plat.",
+   "Redémarrez-le."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et une réinitialisation, contactez le service après-vente Xiaomi."
+ },
+ "Xiaomi|Error 4": {
+  "title": "Brosse principale coincée",
+  "causes": [
+   "Des débris sont coincés dans la brosse principale."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Retirez la brosse principale.",
+   "Nettoyez les poils et les paliers.",
+   "Remettez-la en place et redémarrez."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et une réinitialisation, contactez le service après-vente Xiaomi."
+ },
+ "Xiaomi|Error 5": {
+  "title": "Brosse latérale coincée",
+  "causes": [
+   "Des débris sont coincés dans la brosse latérale."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Retirez la brosse latérale.",
+   "Nettoyez-la.",
+   "Remettez-la en place et redémarrez."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et une réinitialisation, contactez le service après-vente Xiaomi."
+ },
+ "Xiaomi|Error 6": {
+  "title": "Débris autour de la roue principale",
+  "causes": [
+   "Des cheveux ou des débris sont enroulés autour d'une roue principale."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Vérifiez les deux roues.",
+   "Retirez ce qui est emmêlé.",
+   "Déplacez le robot à un autre endroit et redémarrez."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et une réinitialisation, contactez le service après-vente Xiaomi."
+ },
+ "Xiaomi|Error 7": {
+  "title": "Robot accroché ou coincé",
+  "causes": [
+   "Le robot est piégé sur un obstacle."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Dégagez les obstacles autour de lui.",
+   "Déplacez-le sur un sol dégagé.",
+   "Redémarrez."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et une réinitialisation, contactez le service après-vente Xiaomi."
+ },
+ "Xiaomi|Error 8": {
+  "title": "Bac à poussière ou filtre mal installé",
+  "causes": [
+   "Le compartiment à poussière ou le filtre est mal installé."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Réinstallez correctement le bac à poussière et le filtre.",
+   "Si le problème persiste, remplacez le filtre.",
+   "Redémarrez."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et une réinitialisation, contactez le service après-vente Xiaomi."
+ },
+ "Xiaomi|Error 9": {
+  "title": "Champ magnétique fort détecté",
+  "causes": [
+   "Le robot est près d'une bande de mur virtuel."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Éloignez le robot du mur virtuel.",
+   "Redémarrez-le.",
+   "Vérifiez la position de la bande."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et une réinitialisation, contactez le service après-vente Xiaomi."
+ },
+ "Xiaomi|Error 10": {
+  "title": "Problème de charge",
+  "causes": [
+   "Les contacts de charge sont sales."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Essuyez les contacts de la base et du robot avec un chiffon sec.",
+   "Replacez le robot sur la base.",
+   "Vérifiez que la base est alimentée."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et une réinitialisation, contactez le service après-vente Xiaomi."
+ },
+ "Xiaomi|Error 11": {
+  "title": "Batterie trop chaude ou trop froide",
+  "causes": [
+   "La température de la batterie est hors plage."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Attendez que la batterie revienne à une température normale.",
+   "Éloignez le robot de toute source de chaleur ou de froid.",
+   "Réessayez."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et une réinitialisation, contactez le service après-vente Xiaomi."
+ },
+ "Xiaomi|Error 12": {
+  "title": "Zone interdite ou mur virtuel détecté",
+  "causes": [
+   "Le robot est entré dans une zone interdite."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Éloignez-le de la zone délimitée par le ruban.",
+   "Redémarrez-le.",
+   "Vérifiez la position du ruban."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et une réinitialisation, contactez le service après-vente Xiaomi."
+ },
+ "Xiaomi|Error 13": {
+  "title": "Capteur de navigation visuelle sale",
+  "causes": [
+   "Le capteur de navigation est sale."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Essuyez le capteur avec un chiffon doux et sec.",
+   "Redémarrez le robot.",
+   "Lancez un court nettoyage."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et une réinitialisation, contactez le service après-vente Xiaomi."
+ },
+ "Xiaomi|Error 14": {
+  "title": "Erreur interne",
+  "causes": [
+   "Le système a une anomalie interne."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Réinitialisez le système.",
+   "Redémarrez le robot.",
+   "Relancez le nettoyage."
+  ],
+  "technician": "Si l'erreur revient après le nettoyage et une réinitialisation, contactez le service après-vente Xiaomi."
+ },
+ "eufy|Error 1": {
+  "title": "Pare-chocs avant bloqué",
+  "causes": [
+   "De la saleté ou un objet retient le pare-chocs."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Tapotez le pare-chocs pour vérifier qu'il bouge.",
+   "S'il est bloqué, retirez-le et réinstallez-le.",
+   "Redémarrez."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 2": {
+  "title": "Roue bloquée",
+  "causes": [
+   "Une roue est bloquée."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Retirez les débris entre la roue et le châssis.",
+   "Faites tourner la roue à la main.",
+   "Déplacez le robot et réessayez."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 3": {
+  "title": "Brosse latérale bloquée",
+  "causes": [
+   "Un objet est coincé dans la brosse latérale."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Retirez l'objet.",
+   "Vérifiez que la brosse tourne librement.",
+   "Réessayez."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 4": {
+  "title": "Brosse à rouleau coincée",
+  "causes": [
+   "Des cheveux ou des débris sont enroulés autour de la brosse à rouleau."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Retirez la brosse à rouleau.",
+   "Retirez les débris.",
+   "Augmentez la puissance d'aspiration sur les sols où il y a beaucoup de cheveux."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 5": {
+  "title": "Robot piégé, dégagez les obstacles",
+  "causes": [
+   "Des obstacles bloquent le robot."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Dégagez la zone autour de lui.",
+   "Déplacez-le à un endroit dégagé.",
+   "Redémarrez."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 6": {
+  "title": "Robot piégé, déplacez-le dans un espace dégagé",
+  "causes": [
+   "Le robot est accroché à un obstacle."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Déplacez-le dans un espace dégagé.",
+   "Relancez le nettoyage.",
+   "Définissez une zone interdite (No-Go Zone) s'il se coince toujours au même endroit."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 7": {
+  "title": "Le robot ne touche pas le sol",
+  "causes": [
+   "Le robot est soulevé ou au bord d'un rebord."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Posez-le au sol à un autre endroit.",
+   "Vérifiez que les capteurs de chute sont propres.",
+   "Redémarrez."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 8": {
+  "title": "Batterie faible, arrêt du robot",
+  "causes": [
+   "La batterie est trop faible."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Déplacez le robot jusqu'à la station.",
+   "Laissez-le se recharger.",
+   "Réessayez.",
+   "Lancez un court nettoyage d'essai près de la base pour vérifier que le code a disparu."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 13": {
+  "title": "Robot incliné",
+  "causes": [
+   "Le robot est sur une pente."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Posez-le sur un sol plat.",
+   "Relancez le nettoyage.",
+   "Vérifiez qu'il n'est pas sur un seuil."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 14": {
+  "title": "Bac à poussière ou filtre absent",
+  "causes": [
+   "Le bac à poussière ou le filtre n'est pas installé."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Ouvrez le capot.",
+   "Réinstallez le bac à poussière et le filtre.",
+   "Assurez-vous que le filtre est bien en place."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 17": {
+  "title": "Entrée par erreur dans une zone interdite",
+  "causes": [
+   "Le robot se trouve dans une zone interdite (No-Go Zone)."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Déplacez-le hors de la zone.",
+   "Relancez le nettoyage.",
+   "Vérifiez les zones dans l'application."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 18": {
+  "title": "Le capot du capteur laser est peut-être coincé",
+  "causes": [
+   "Le capot du laser est obstrué."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Retirez tout ce qui bloque le capot.",
+   "Appuyez sur le capot jusqu'au déclic.",
+   "Redémarrez."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 19": {
+  "title": "Le capteur laser est peut-être coincé",
+  "causes": [
+   "Le capteur ne peut pas tourner librement."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Éteignez le robot.",
+   "Retirez tout ce qui empêche la rotation.",
+   "Redémarrez."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 20": {
+  "title": "Le capteur laser est peut-être bloqué",
+  "causes": [
+   "Des débris se trouvent sur le capteur."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Retirez les débris sur le dessus du capteur.",
+   "Essuyez délicatement avec un chiffon sec.",
+   "Redémarrez."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 21": {
+  "title": "Échec du retour à la station",
+  "causes": [
+   "Le robot voit la station mais ne peut pas y entrer."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Dégagez les obstacles autour de la station.",
+   "Vérifiez que la station est alimentée.",
+   "Renvoyez le robot à la station."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 23": {
+  "title": "Point de départ introuvable",
+  "causes": [
+   "Le nettoyage n'a pas démarré depuis la station."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Lancez le nettoyage depuis la station.",
+   "Gardez la station au même endroit.",
+   "Réessayez."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 26": {
+  "title": "Batterie faible, échec du nettoyage programmé",
+  "causes": [
+   "La batterie était trop faible pour le nettoyage programmé."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Rechargez le robot.",
+   "Relancez la programmation.",
+   "Gardez-le sur la station."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 27": {
+  "title": "Niveau d'eau anormal dans le bac de nettoyage de la station",
+  "causes": [
+   "Il y a de l'eau dans le bac de nettoyage."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Séchez le bac avec un chiffon sec.",
+   "Vérifiez qu'il n'y a pas de gouttes d'eau sur le détecteur métallique.",
+   "Réinstallez le bac."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 28": {
+  "title": "Bac de nettoyage de la station non installé",
+  "causes": [
+   "Le bac est absent ou mal fixé."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Installez correctement le bac.",
+   "Appuyez jusqu'à ce qu'il soit bien à plat.",
+   "Réessayez."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 29": {
+  "title": "Couvercle de la station non fermé",
+  "causes": [
+   "Le couvercle est ouvert."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Fermez complètement le couvercle de la station.",
+   "Vérifiez que rien ne le bloque.",
+   "Réessayez.",
+   "Lancez un court nettoyage d'essai près de la base pour vérifier que le code a disparu."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 30": {
+  "title": "Tension d'entrée de la station anormale",
+  "causes": [
+   "La tension de la station ne correspond pas à votre prise."
+  ],
+  "steps": [
+   "Vérifiez que la station a la bonne tension (220 V ou 110 V).",
+   "Utilisez une prise adaptée.",
+   "Contactez l'assistance en cas d'incompatibilité."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 31": {
+  "title": "Corps étranger dans l'entrée d'aspiration",
+  "causes": [
+   "Des débris bloquent l'entrée d'aspiration."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Retirez la brosse.",
+   "Dégagez le logement de la brosse.",
+   "Videz le bac à poussière."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 32": {
+  "title": "Support de la lingette de lavage bloqué",
+  "causes": [
+   "Des débris se trouvent dans le support de la serpillière."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Retirez les débris.",
+   "Nettoyez le support.",
+   "Réessayez.",
+   "Lancez un court nettoyage d'essai près de la base pour vérifier que le code a disparu."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "eufy|Error 34": {
+  "title": "La serpillière est tombée",
+  "causes": [
+   "Une lingette de lavage est absente ou mal fixée."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Réinstallez correctement la serpillière.",
+   "Vérifiez qu'elle s'enclenche bien.",
+   "Redémarrez."
+  ],
+  "technician": "Si l'alerte persiste après ces étapes, contactez l'assistance eufy via le formulaire par e-mail ou le chat en direct."
+ },
+ "Shark|Error 2": {
+  "title": "Brosse rouleau, brosse latérale ou roue bloquée",
+  "causes": [
+   "La brosse rouleau est bloquée (CLEAN et ! rouges).",
+   "Une brosse latérale est bloquée (DOCK et ! rouges).",
+   "Une roue motrice est bloquée (les trois voyants rouges)."
+  ],
+  "steps": [
+   "Éteignez le robot.",
+   "Retirez les débris de la brosse rouleau, des brosses latérales ou des roues selon les voyants.",
+   "Vérifiez que les roues tournent librement, puis redémarrez."
+  ],
+  "technician": "Si la même combinaison de voyants revient, contactez le service client Shark."
+ },
+ "Shark|Error 6": {
+  "title": "Le pare-chocs avant est peut-être coincé",
+  "causes": [
+   "De la saleté retient le pare-chocs (DOCK rouge clignotant)."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Nettoyez le pourtour du pare-chocs.",
+   "Appuyez dessus pour vérifier qu'il bouge librement.",
+   "Redémarrez."
+  ],
+  "technician": "Si la même combinaison de voyants revient, contactez le service client Shark."
+ },
+ "Shark|Error 7": {
+  "title": "Erreur du capteur de vide",
+  "causes": [
+   "Les capteurs de vide sont sales ou le robot est près d'un vide."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Déplacez le robot à un autre endroit.",
+   "Essuyez les capteurs de vide.",
+   "Redémarrez."
+  ],
+  "technician": "Si la même combinaison de voyants revient, contactez le service client Shark."
+ },
+ "Shark|Error 10": {
+  "title": "Robot bloqué sur un obstacle",
+  "causes": [
+   "Le robot est peut-être coincé (CLEAN rouge clignotant)."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Déplacez-le sur un endroit plat.",
+   "Dégagez les obstacles à proximité.",
+   "Redémarrez."
+  ],
+  "technician": "Si la même combinaison de voyants revient, contactez le service client Shark."
+ },
+ "Shark|Error 24": {
+  "title": "Batterie critique",
+  "causes": [
+   "La batterie est presque vide."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Placez le robot sur la base.",
+   "Vérifiez que le voyant de charge de la base est allumé.",
+   "Laissez-le se recharger."
+  ],
+  "technician": "Si la même combinaison de voyants revient, contactez le service client Shark."
+ },
+ "Shark|Error 26": {
+  "title": "Bac à poussière obstrué",
+  "causes": [
+   "Une obstruction dans le bac à poussière de la base ou du robot."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Vérifiez que les deux bacs ne sont pas obstrués.",
+   "Retirez les débris.",
+   "Réinstallez le bac jusqu'au déclic."
+  ],
+  "technician": "Si la même combinaison de voyants revient, contactez le service client Shark."
+ },
+ "Ecovacs|Bumper stuck": {
+  "title": "Alerte vocale : pare-chocs bloqué",
+  "causes": [
+   "Des débris ou la bande de protection retiennent le pare-chocs."
+  ],
+  "steps": [
+   "Retirez la bande de protection contre les collisions.",
+   "Appuyez sur le pare-chocs à gauche, au centre et à droite pour vérifier qu'il revient en place.",
+   "Éteignez, redémarrez et testez."
+  ],
+  "technician": "Si l'alerte revient, contactez le service après-vente Ecovacs."
+ },
+ "Ecovacs|Laser sensor malfunction": {
+  "title": "Capteur laser hors service",
+  "causes": [
+   "L'ensemble laser est sale ou coincé."
+  ],
+  "steps": [
+   "Poussez doucement l'ensemble laser.",
+   "Tournez la lentille vers l'avant et essuyez-la avec un chiffon propre.",
+   "Éteignez, redémarrez et testez."
+  ],
+  "technician": "Si l'alerte revient, contactez le service après-vente Ecovacs."
+ },
+ "Ecovacs|Dust bag installation error": {
+  "title": "Sac à poussière mal installé",
+  "causes": [
+   "Le sac à poussière n'est pas bien en place."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Éteignez et ouvrez le capot du bac à poussière.",
+   "Retirez le sac à poussière et réinstallez-le.",
+   "Fermez le capot et testez la collecte de la poussière."
+  ],
+  "technician": "Si l'alerte revient, contactez le service après-vente Ecovacs."
+ },
+ "Ecovacs|Rotating mop tangled": {
+  "title": "La serpillière rotative est bloquée",
+  "causes": [
+   "Des débris ou des cheveux bloquent la serpillière rotative."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Déployez la serpillière et retirez-la.",
+   "Nettoyez la serpillière et dégagez son logement.",
+   "Remettez-la en place jusqu'au déclic et redémarrez."
+  ],
+  "technician": "Si l'alerte revient, contactez le service après-vente Ecovacs."
+ },
+ "Ecovacs|Water tank not installed or low water": {
+  "title": "Réservoir d'eau propre absent ou presque vide",
+  "causes": [
+   "Le réservoir est vide, absent ou le flotteur est coincé."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Retirez le réservoir et vérifiez que le flotteur bouge.",
+   "Remplissez jusqu'au trait maximum.",
+   "Fermez le couvercle et réinstallez le réservoir."
+  ],
+  "technician": "Si l'alerte revient, contactez le service après-vente Ecovacs."
+ },
+ "Ecovacs|Dirty water tank not installed": {
+  "title": "Réservoir d'eau sale absent ou mal installé",
+  "causes": [
+   "Le réservoir n'est pas bien en place ou n'est pas détecté."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Videz et rincez le réservoir d'eau sale.",
+   "Vérifiez le flotteur et les loquets.",
+   "Réinstallez-le."
+  ],
+  "technician": "Si l'alerte revient, contactez le service après-vente Ecovacs."
+ },
+ "Ecovacs|Cleaning sink anomaly": {
+  "title": "Le bac de lavage de la serpillière ne se vide pas",
+  "causes": [
+   "Des débris bloquent le flotteur ou l'évacuation."
+  ],
+  "steps": [
+   "Vérifiez que le bac est bien en place.",
+   "Nettoyez le flotteur de trop-plein.",
+   "Lancez la fonction de vidange dans l'application, puis éteignez et rallumez la station."
+  ],
+  "technician": "Si l'alerte revient, contactez le service après-vente Ecovacs."
+ },
+ "Ecovacs|Dirty water tank anomaly": {
+  "title": "Problème du réservoir d'eau sale ou de l'évacuation",
+  "causes": [
+   "Le joint ou l'orifice d'évacuation est bouché."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Videz le réservoir et nettoyez le filtre.",
+   "Fermez fermement le couvercle.",
+   "Dégagez l'orifice d'évacuation avec une brosse."
+  ],
+  "technician": "Si l'alerte revient, contactez le service après-vente Ecovacs."
+ },
+ "Dreame|Dust box error": {
+  "title": "Alarme du bac à poussière",
+  "causes": [
+   "Le bac à poussière est mal fixé.",
+   "Le filtre est monté à l'envers ou est défectueux."
+  ],
+  "steps": [
+   "Enfoncez fermement le bac à poussière.",
+   "Redémarrez le robot.",
+   "Vérifiez que le filtre est monté dans le bon sens et remplacez-le s'il semble anormal."
+  ],
+  "technician": "Si l'erreur continue, contactez le service client Dreame."
+ },
+ "Dreame|Laser sensor error": {
+  "title": "Panne du capteur de distance laser",
+  "causes": [
+   "Le capteur laser est poussiéreux ou dur à tourner."
+  ],
+  "steps": [
+   "Éteignez le robot et tenez-le éloigné de l'eau avant de le vérifier.",
+   "Mettez à jour le firmware dans l'application.",
+   "Tapotez doucement le capot et retirez la poussière.",
+   "Faites tourner le capteur à la main pour vérifier qu'il tourne."
+  ],
+  "technician": "Si l'erreur continue, contactez le service client Dreame."
+ }
+}

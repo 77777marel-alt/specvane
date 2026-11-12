@@ -1,0 +1,15 @@
+{
+ "title": "Pojedynek w 30 sekund: który jest lepszy dla Ciebie?",
+ "lead": "Dotknij, aby pokazać, jak ważna jest dla Ciebie każda cecha. Ważymy, jak każdy model wypada na tle wszystkich modeli z naszego katalogu pod względem tych parametrów, i mówimy, który do Ciebie pasuje.",
+ "levels": [
+  "Nie ma znaczenia",
+  "Ważne",
+  "Bardzo ważne"
+ ],
+ "result": "Dla Ciebie: {name}",
+ "tie": "Remis: oba pasują do Ciebie mniej więcej tak samo — wybierz według ceny lub wyglądu.",
+ "wins": "Wygrywa w {n} z {m} cech, na których Ci zależy.",
+ "basis": "Wynik = odsetek modeli z katalogu, które dany model przewyższa pod względem tych parametrów, ważony Twoimi odpowiedziami. Cena, wygląd i opinie nie są uwzględniane.",
+ "none": "Wybierz co najmniej jedną cechę, która jest dla Ciebie ważna.",
+ "specs": "Na podstawie: {list}"
+}

@@ -1,0 +1,15 @@
+{
+ "title": "Duel en 30 secondes : lequel vous convient le mieux ?",
+ "lead": "Indiquez l'importance de chaque critère pour vous. Nous pondérons le classement de chaque modèle parmi tous ceux de notre catalogue sur ces caractéristiques et vous disons lequel vous convient.",
+ "levels": [
+  "Peu importe",
+  "Important",
+  "Très important"
+ ],
+ "result": "Pour vous : {name}",
+ "tie": "Égalité : les deux vous conviennent à peu près autant — choisissez selon le prix ou le design.",
+ "wins": "Devant sur {n} des {m} critères qui comptent pour vous.",
+ "basis": "Score = part des modèles du catalogue que chacun surpasse sur ces caractéristiques, pondérée par vos réponses. Le prix, le design et les avis ne sont pas pris en compte.",
+ "none": "Choisissez au moins un critère qui compte pour vous.",
+ "specs": "Basé sur : {list}"
+}

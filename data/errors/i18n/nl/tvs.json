@@ -1,0 +1,654 @@
+{
+ "Roku|Error 009": {
+  "title": "Verbonden met router maar geen internet",
+  "causes": [
+   "De router is bereikbaar maar heeft geen internet.",
+   "De internetdienst is uitgevallen."
+  ],
+  "steps": [
+   "Controleer of een telefoon of laptop op hetzelfde netwerk online kan.",
+   "Is niets online, bel dan uw internetprovider.",
+   "Werken andere apparaten wel, start dan de tv opnieuw op.",
+   "Start de router en de modem opnieuw op en maak daarna opnieuw verbinding."
+  ],
+  "technician": "Blijft de fout na deze stappen terugkomen, neem dan contact op met Roku support of uw internetprovider."
+ },
+ "Roku|Error 012": {
+  "title": "Probleem met de bekabelde netwerkverbinding",
+  "causes": [
+   "De ethernetkabel zit los of is defect.",
+   "De poort van de router werkt niet."
+  ],
+  "steps": [
+   "Duw de ethernetkabel stevig in de tv en in de router.",
+   "Probeer een andere kabel of een andere routerpoort.",
+   "Start de tv opnieuw op, daarna de router en de modem.",
+   "Probeer even wifi om te zien of het internet zelf werkt."
+  ],
+  "technician": "Blijft de fout na deze stappen terugkomen, neem dan contact op met Roku support of uw internetprovider."
+ },
+ "Roku|Error 013": {
+  "title": "Bekabelde verbinding heeft geen internet",
+  "causes": [
+   "De router heeft geen internet.",
+   "De ethernetkabel zit niet goed."
+  ],
+  "steps": [
+   "Controleer of een ander apparaat online is.",
+   "Zo ja, start dan de tv opnieuw op.",
+   "Zo niet, haal de ethernetkabel aan beide kanten los en steek hem er weer in.",
+   "Start de router opnieuw op voordat u uw provider belt."
+  ],
+  "technician": "Blijft de fout na deze stappen terugkomen, neem dan contact op met Roku support of uw internetprovider."
+ },
+ "Roku|Error 014": {
+  "title": "Kan geen verbinding maken met het draadloze netwerk",
+  "causes": [
+   "Verkeerde netwerknaam gekozen.",
+   "Verkeerd wachtwoord getypt.",
+   "Router of tv moet opnieuw worden opgestart."
+  ],
+  "steps": [
+   "Controleer of u de juiste netwerknaam hebt gekozen.",
+   "Typ het wachtwoord opnieuw; het is hoofdlettergevoelig.",
+   "Start de tv en de router opnieuw op.",
+   "Probeer opnieuw verbinding te maken."
+  ],
+  "technician": "Blijft de fout na deze stappen terugkomen, neem dan contact op met Roku support of uw internetprovider."
+ },
+ "Roku|Error 014.20": {
+  "title": "Zwak wifi-signaal verhindert verbinding",
+  "causes": [
+   "De tv staat te ver van de router.",
+   "Muren of voorwerpen verzwakken het signaal."
+  ],
+  "steps": [
+   "Zet de tv of router dichter bij elkaar, of zet de router hoger.",
+   "Start de router en de tv opnieuw op.",
+   "Heeft uw router twee banden, probeer dan de andere.",
+   "Maak opnieuw verbinding met het netwerk."
+  ],
+  "technician": "Blijft de fout na deze stappen terugkomen, neem dan contact op met Roku support of uw internetprovider."
+ },
+ "Roku|Error 014.30": {
+  "title": "Wifi-verbinding mislukt, zwak signaal",
+  "causes": [
+   "Zwak wifi-signaal.",
+   "Tijdelijke storing van router of tv."
+  ],
+  "steps": [
+   "Start de router en de tv opnieuw op.",
+   "Zet de tv dichter bij de router.",
+   "Maak opnieuw verbinding met wifi.",
+   "Probeer de andere band van de router als die er is."
+  ],
+  "technician": "Blijft de fout na deze stappen terugkomen, neem dan contact op met Roku support of uw internetprovider."
+ },
+ "Roku|Error 014.40": {
+  "title": "Verkeerd wachtwoord of beperking van de router",
+  "causes": [
+   "Het wifi-wachtwoord is verkeerd getypt.",
+   "De router blokkeert onbekende apparaten."
+  ],
+  "steps": [
+   "Controleer de netwerknaam en voer het wachtwoord opnieuw in.",
+   "Filtert de router apparaten, voeg dan het draadloze MAC-adres van de tv toe.",
+   "Start de tv en de router opnieuw op.",
+   "Probeer het opnieuw."
+  ],
+  "technician": "Blijft de fout na deze stappen terugkomen, neem dan contact op met Roku support of uw internetprovider."
+ },
+ "Roku|Error 014.41": {
+  "title": "Verkeerd wachtwoord of beperking van de router",
+  "causes": [
+   "Het wifi-wachtwoord is verkeerd getypt.",
+   "De router blokkeert onbekende apparaten."
+  ],
+  "steps": [
+   "Controleer de netwerknaam en voer het wachtwoord zorgvuldig opnieuw in.",
+   "Filtert de router apparaten, sta dan het draadloze MAC-adres van de tv toe.",
+   "Start de tv en de router opnieuw op.",
+   "Probeer het opnieuw."
+  ],
+  "technician": "Blijft de fout na deze stappen terugkomen, neem dan contact op met Roku support of uw internetprovider."
+ },
+ "Roku|Error 014.50": {
+  "title": "Wifi-verbinding mislukt, zwak signaal",
+  "causes": [
+   "Zwak wifi-signaal.",
+   "Tijdelijke storing van router of tv."
+  ],
+  "steps": [
+   "Start de router en de tv opnieuw op.",
+   "Zet de tv dichter bij de router.",
+   "Maak opnieuw verbinding met wifi.",
+   "Probeer de andere band van de router als die er is."
+  ],
+  "technician": "Blijft de fout na deze stappen terugkomen, neem dan contact op met Roku support of uw internetprovider."
+ },
+ "Roku|Error 016": {
+  "title": "Verbinding verbroken bij het openen van een kanaal",
+  "causes": [
+   "Het netwerk viel weg terwijl een app opstartte.",
+   "Zwak wifi-signaal."
+  ],
+  "steps": [
+   "Kies op het scherm Set up connection en volg de aanwijzingen.",
+   "Start de tv en de router opnieuw op.",
+   "Controleer de sterkte van het wifi-signaal.",
+   "Zet de tv en de router dichter bij elkaar."
+  ],
+  "technician": "Blijft de fout na deze stappen terugkomen, neem dan contact op met Roku support of uw internetprovider."
+ },
+ "Roku|Error 017": {
+  "title": "Zwakke draadloze signaalsterkte",
+  "causes": [
+   "Zwak wifi-signaal bij de tv.",
+   "Obstakels tussen tv en router."
+  ],
+  "steps": [
+   "Zet de tv en de router dichter bij elkaar.",
+   "Verwijder obstakels tussen beide.",
+   "Start de tv en de router opnieuw op.",
+   "Gebruik een ethernetkabel als de tv een poort heeft."
+  ],
+  "technician": "Blijft de fout na deze stappen terugkomen, neem dan contact op met Roku support of uw internetprovider."
+ },
+ "Roku|Error 018": {
+  "title": "Internetsnelheid te laag",
+  "causes": [
+   "Uw internetabonnement of lijn is traag.",
+   "Andere apparaten gebruiken de bandbreedte."
+  ],
+  "steps": [
+   "Pauzeer downloads en streams op andere apparaten.",
+   "Start de modem en de router opnieuw op.",
+   "Vraag uw provider welke snelheid u krijgt.",
+   "Overweeg een sneller abonnement."
+  ],
+  "technician": "Blijft de fout na deze stappen terugkomen, neem dan contact op met Roku support of uw internetprovider."
+ },
+ "Roku|Error 14.10": {
+  "title": "Draadloze verbinding mislukt",
+  "causes": [
+   "Tijdelijke wifi-storing tussen de tv en de router."
+  ],
+  "steps": [
+   "Start de router opnieuw op en wacht tot hij weer online is.",
+   "Start de Roku TV opnieuw op.",
+   "Probeer opnieuw verbinding te maken met het netwerk.",
+   "Zet de tv dichterbij als het signaal zwak is."
+  ],
+  "technician": "Blijft de fout na deze stappen terugkomen, neem dan contact op met Roku support of uw internetprovider."
+ },
+ "Roku|Error 14.11": {
+  "title": "Draadloze verbinding mislukt",
+  "causes": [
+   "Tijdelijke wifi-storing tussen de tv en de router."
+  ],
+  "steps": [
+   "Start de router opnieuw op en wacht tot hij weer online is.",
+   "Start de Roku TV opnieuw op.",
+   "Probeer opnieuw verbinding te maken met het netwerk.",
+   "Zet de tv dichterbij als het signaal zwak is."
+  ],
+  "technician": "Blijft de fout na deze stappen terugkomen, neem dan contact op met Roku support of uw internetprovider."
+ },
+ "Roku|Error 14.62": {
+  "title": "Probleem met draadloze verbinding, zwak signaal",
+  "causes": [
+   "Zwak wifi-signaal bij de tv."
+  ],
+  "steps": [
+   "Controleer de signaalsterkte die op het scherm wordt getoond.",
+   "Zet de tv en de router dichter bij elkaar.",
+   "Start de router en de tv opnieuw op.",
+   "Maak opnieuw verbinding met het netwerk."
+  ],
+  "technician": "Blijft de fout na deze stappen terugkomen, neem dan contact op met Roku support of uw internetprovider."
+ },
+ "Roku|Error 14.64": {
+  "title": "Probleem met draadloze verbinding, zwak signaal",
+  "causes": [
+   "Zwak wifi-signaal bij de tv."
+  ],
+  "steps": [
+   "Controleer de signaalsterkte die op het scherm wordt getoond.",
+   "Zet de tv en de router dichter bij elkaar.",
+   "Start de router en de tv opnieuw op.",
+   "Maak opnieuw verbinding met het netwerk."
+  ],
+  "technician": "Blijft de fout na deze stappen terugkomen, neem dan contact op met Roku support of uw internetprovider."
+ },
+ "TCL|Error 009": {
+  "title": "Verbonden met router maar geen internet",
+  "causes": [
+   "De router is bereikbaar maar heeft geen internet.",
+   "De internetdienst is uitgevallen."
+  ],
+  "steps": [
+   "Controleer of een telefoon of laptop op hetzelfde netwerk online kan.",
+   "Is niets online, bel dan uw internetprovider.",
+   "Werken andere apparaten wel, start dan de tv opnieuw op.",
+   "Start de router en de modem opnieuw op en maak daarna opnieuw verbinding."
+  ],
+  "technician": "Komt de fout terug na een netwerkreset, neem dan contact op met de support van TCL voor uw Roku TV."
+ },
+ "TCL|Error 012": {
+  "title": "Probleem met de bekabelde netwerkverbinding",
+  "causes": [
+   "De ethernetkabel zit los of is defect.",
+   "De poort van de router werkt niet."
+  ],
+  "steps": [
+   "Duw de ethernetkabel stevig in de tv en in de router.",
+   "Probeer een andere kabel of een andere routerpoort.",
+   "Start de tv opnieuw op, daarna de router en de modem.",
+   "Probeer even wifi om te zien of het internet zelf werkt."
+  ],
+  "technician": "Komt de fout terug na een netwerkreset, neem dan contact op met de support van TCL voor uw Roku TV."
+ },
+ "TCL|Error 013": {
+  "title": "Bekabelde verbinding heeft geen internet",
+  "causes": [
+   "De router heeft geen internet.",
+   "De ethernetkabel zit niet goed."
+  ],
+  "steps": [
+   "Controleer of een ander apparaat online is.",
+   "Zo ja, start dan de tv opnieuw op.",
+   "Zo niet, haal de ethernetkabel aan beide kanten los en steek hem er weer in.",
+   "Start de router opnieuw op voordat u uw provider belt."
+  ],
+  "technician": "Komt de fout terug na een netwerkreset, neem dan contact op met de support van TCL voor uw Roku TV."
+ },
+ "TCL|Error 014": {
+  "title": "Kan geen verbinding maken met het draadloze netwerk",
+  "causes": [
+   "Verkeerde netwerknaam gekozen.",
+   "Verkeerd wachtwoord getypt.",
+   "Router of tv moet opnieuw worden opgestart."
+  ],
+  "steps": [
+   "Controleer of u de juiste netwerknaam hebt gekozen.",
+   "Typ het wachtwoord opnieuw; het is hoofdlettergevoelig.",
+   "Start de tv en de router opnieuw op.",
+   "Probeer opnieuw verbinding te maken."
+  ],
+  "technician": "Komt de fout terug na een netwerkreset, neem dan contact op met de support van TCL voor uw Roku TV."
+ },
+ "TCL|Error 014.20": {
+  "title": "Zwak wifi-signaal verhindert verbinding",
+  "causes": [
+   "De tv staat te ver van de router.",
+   "Muren of voorwerpen verzwakken het signaal."
+  ],
+  "steps": [
+   "Zet de tv of router dichter bij elkaar, of zet de router hoger.",
+   "Start de router en de tv opnieuw op.",
+   "Heeft uw router twee banden, probeer dan de andere.",
+   "Maak opnieuw verbinding met het netwerk."
+  ],
+  "technician": "Komt de fout terug na een netwerkreset, neem dan contact op met de support van TCL voor uw Roku TV."
+ },
+ "TCL|Error 014.30": {
+  "title": "Wifi-verbinding mislukt, zwak signaal",
+  "causes": [
+   "Zwak wifi-signaal.",
+   "Tijdelijke storing van router of tv."
+  ],
+  "steps": [
+   "Start de router en de tv opnieuw op.",
+   "Zet de tv dichter bij de router.",
+   "Maak opnieuw verbinding met wifi.",
+   "Probeer de andere band van de router als die er is."
+  ],
+  "technician": "Komt de fout terug na een netwerkreset, neem dan contact op met de support van TCL voor uw Roku TV."
+ },
+ "TCL|Error 014.40": {
+  "title": "Verkeerd wachtwoord of beperking van de router",
+  "causes": [
+   "Het wifi-wachtwoord is verkeerd getypt.",
+   "De router blokkeert onbekende apparaten."
+  ],
+  "steps": [
+   "Controleer de netwerknaam en voer het wachtwoord opnieuw in.",
+   "Filtert de router apparaten, voeg dan het draadloze MAC-adres van de tv toe.",
+   "Start de tv en de router opnieuw op.",
+   "Probeer het opnieuw."
+  ],
+  "technician": "Komt de fout terug na een netwerkreset, neem dan contact op met de support van TCL voor uw Roku TV."
+ },
+ "TCL|Error 014.41": {
+  "title": "Verkeerd wachtwoord of beperking van de router",
+  "causes": [
+   "Het wifi-wachtwoord is verkeerd getypt.",
+   "De router blokkeert onbekende apparaten."
+  ],
+  "steps": [
+   "Controleer de netwerknaam en voer het wachtwoord zorgvuldig opnieuw in.",
+   "Filtert de router apparaten, sta dan het draadloze MAC-adres van de tv toe.",
+   "Start de tv en de router opnieuw op.",
+   "Probeer het opnieuw."
+  ],
+  "technician": "Komt de fout terug na een netwerkreset, neem dan contact op met de support van TCL voor uw Roku TV."
+ },
+ "TCL|Error 014.50": {
+  "title": "Wifi-verbinding mislukt, zwak signaal",
+  "causes": [
+   "Zwak wifi-signaal.",
+   "Tijdelijke storing van router of tv."
+  ],
+  "steps": [
+   "Start de router en de tv opnieuw op.",
+   "Zet de tv dichter bij de router.",
+   "Maak opnieuw verbinding met wifi.",
+   "Probeer de andere band van de router als die er is."
+  ],
+  "technician": "Komt de fout terug na een netwerkreset, neem dan contact op met de support van TCL voor uw Roku TV."
+ },
+ "TCL|Error 016": {
+  "title": "Verbinding verbroken bij het openen van een kanaal",
+  "causes": [
+   "Het netwerk viel weg terwijl een app opstartte.",
+   "Zwak wifi-signaal."
+  ],
+  "steps": [
+   "Kies op het scherm Set up connection en volg de aanwijzingen.",
+   "Start de tv en de router opnieuw op.",
+   "Controleer de sterkte van het wifi-signaal.",
+   "Zet de tv en de router dichter bij elkaar."
+  ],
+  "technician": "Komt de fout terug na een netwerkreset, neem dan contact op met de support van TCL voor uw Roku TV."
+ },
+ "TCL|Error 017": {
+  "title": "Zwakke draadloze signaalsterkte",
+  "causes": [
+   "Zwak wifi-signaal bij de tv.",
+   "Obstakels tussen tv en router."
+  ],
+  "steps": [
+   "Zet de tv en de router dichter bij elkaar.",
+   "Verwijder obstakels tussen beide.",
+   "Start de tv en de router opnieuw op.",
+   "Gebruik een ethernetkabel als de tv een poort heeft."
+  ],
+  "technician": "Komt de fout terug na een netwerkreset, neem dan contact op met de support van TCL voor uw Roku TV."
+ },
+ "TCL|Error 018": {
+  "title": "Internetsnelheid te laag",
+  "causes": [
+   "Uw internetabonnement of lijn is traag.",
+   "Andere apparaten gebruiken de bandbreedte."
+  ],
+  "steps": [
+   "Pauzeer downloads en streams op andere apparaten.",
+   "Start de modem en de router opnieuw op.",
+   "Vraag uw provider welke snelheid u krijgt.",
+   "Overweeg een sneller abonnement."
+  ],
+  "technician": "Komt de fout terug na een netwerkreset, neem dan contact op met de support van TCL voor uw Roku TV."
+ },
+ "Sony|Red LED blinks 2 times": {
+  "title": "Sony-tv heeft een storing gedetecteerd (2 keer knipperen)",
+  "causes": [
+   "De tv heeft een interne storing gevonden.",
+   "De betekenis van het aantal keer knipperen verschilt per model."
+  ],
+  "steps": [
+   "Zet de tv uit en haal de stekker 1 minuut uit het stopcontact, zonder stekkerdoos.",
+   "Maak de ventilatieopeningen vrij zodat er lucht kan stromen.",
+   "Koppel alle aangesloten apparaten los en zet de tv weer aan.",
+   "Werk de tv-software bij als hij opstart.",
+   "Noteer hoe vaak het lampje knippert en neem contact op met Sony."
+  ],
+  "technician": "De meeste storingen met rood knipperen vereisen service, neem dus contact op met Sony support en geef het aantal keer knipperen door."
+ },
+ "Sony|Red LED blinks 3 times": {
+  "title": "Sony-tv heeft een storing gedetecteerd (3 keer knipperen)",
+  "causes": [
+   "De tv heeft een interne storing gevonden.",
+   "De betekenis van het aantal keer knipperen verschilt per model."
+  ],
+  "steps": [
+   "Zet de tv uit en haal de stekker 1 minuut uit het stopcontact, zonder stekkerdoos.",
+   "Maak de ventilatieopeningen vrij zodat er lucht kan stromen.",
+   "Koppel alle aangesloten apparaten los en zet de tv weer aan.",
+   "Werk de tv-software bij als hij opstart.",
+   "Noteer hoe vaak het lampje knippert en neem contact op met Sony."
+  ],
+  "technician": "De meeste storingen met rood knipperen vereisen service, neem dus contact op met Sony support en geef het aantal keer knipperen door."
+ },
+ "Sony|Red LED blinks 4 times": {
+  "title": "Sony-tv heeft een storing gedetecteerd (4 keer knipperen)",
+  "causes": [
+   "De tv heeft een interne storing gevonden.",
+   "De betekenis van het aantal keer knipperen verschilt per model."
+  ],
+  "steps": [
+   "Zet de tv uit en haal de stekker 1 minuut uit het stopcontact, zonder stekkerdoos.",
+   "Maak de ventilatieopeningen vrij zodat er lucht kan stromen.",
+   "Koppel alle aangesloten apparaten los en zet de tv weer aan.",
+   "Werk de tv-software bij als hij opstart.",
+   "Noteer hoe vaak het lampje knippert en neem contact op met Sony."
+  ],
+  "technician": "De meeste storingen met rood knipperen vereisen service, neem dus contact op met Sony support en geef het aantal keer knipperen door."
+ },
+ "Sony|Red LED blinks 5 times": {
+  "title": "Sony-tv heeft een storing gedetecteerd (5 keer knipperen)",
+  "causes": [
+   "De tv heeft een interne storing gevonden.",
+   "De betekenis van het aantal keer knipperen verschilt per model."
+  ],
+  "steps": [
+   "Zet de tv uit en haal de stekker 1 minuut uit het stopcontact, zonder stekkerdoos.",
+   "Maak de ventilatieopeningen vrij zodat er lucht kan stromen.",
+   "Koppel alle aangesloten apparaten los en zet de tv weer aan.",
+   "Werk de tv-software bij als hij opstart.",
+   "Noteer hoe vaak het lampje knippert en neem contact op met Sony."
+  ],
+  "technician": "De meeste storingen met rood knipperen vereisen service, neem dus contact op met Sony support en geef het aantal keer knipperen door."
+ },
+ "Sony|Red LED blinks 6 times": {
+  "title": "Sony-tv heeft een storing gedetecteerd (6 keer knipperen)",
+  "causes": [
+   "De tv heeft een interne storing gevonden.",
+   "De betekenis van het aantal keer knipperen verschilt per model."
+  ],
+  "steps": [
+   "Zet de tv uit en haal de stekker 1 minuut uit het stopcontact, zonder stekkerdoos.",
+   "Maak de ventilatieopeningen vrij zodat er lucht kan stromen.",
+   "Koppel alle aangesloten apparaten los en zet de tv weer aan.",
+   "Werk de tv-software bij als hij opstart.",
+   "Noteer hoe vaak het lampje knippert en neem contact op met Sony."
+  ],
+  "technician": "De meeste storingen met rood knipperen vereisen service, neem dus contact op met Sony support en geef het aantal keer knipperen door."
+ },
+ "Sony|Red LED blinks 7 times": {
+  "title": "Sony-tv heeft een storing gedetecteerd (7 keer knipperen)",
+  "causes": [
+   "De tv heeft een interne storing gevonden.",
+   "De betekenis van het aantal keer knipperen verschilt per model."
+  ],
+  "steps": [
+   "Zet de tv uit en haal de stekker 1 minuut uit het stopcontact, zonder stekkerdoos.",
+   "Maak de ventilatieopeningen vrij zodat er lucht kan stromen.",
+   "Koppel alle aangesloten apparaten los en zet de tv weer aan.",
+   "Werk de tv-software bij als hij opstart.",
+   "Noteer hoe vaak het lampje knippert en neem contact op met Sony."
+  ],
+  "technician": "De meeste storingen met rood knipperen vereisen service, neem dus contact op met Sony support en geef het aantal keer knipperen door."
+ },
+ "Sony|Red LED blinks 8 times": {
+  "title": "Sony-tv heeft een storing gedetecteerd (8 keer knipperen)",
+  "causes": [
+   "De tv heeft een interne storing gevonden.",
+   "De betekenis van het aantal keer knipperen verschilt per model."
+  ],
+  "steps": [
+   "Zet de tv uit en haal de stekker 1 minuut uit het stopcontact, zonder stekkerdoos.",
+   "Maak de ventilatieopeningen vrij zodat er lucht kan stromen.",
+   "Koppel alle aangesloten apparaten los en zet de tv weer aan.",
+   "Werk de tv-software bij als hij opstart.",
+   "Noteer hoe vaak het lampje knippert en neem contact op met Sony."
+  ],
+  "technician": "De meeste storingen met rood knipperen vereisen service, neem dus contact op met Sony support en geef het aantal keer knipperen door."
+ },
+ "Sony|Orange LED solid": {
+  "title": "Slaaptimer of aan/uit-timer is actief",
+  "causes": [
+   "Er is een slaaptimer of aan/uit-timer ingesteld op de tv."
+  ],
+  "steps": [
+   "Open het menu Instellingen van de tv.",
+   "Zoek de slaaptimer of de aan/uit-timer.",
+   "Zet de timer uit of wijzig de tijd.",
+   "Controleer of het lampje uitgaat."
+  ],
+  "technician": "Service is niet nodig, tenzij het lampje blijft branden terwijl er geen timer is ingesteld."
+ },
+ "Sony|Orange LED blinking": {
+  "title": "Software-update bezig of kabel los",
+  "causes": [
+   "Er wordt een software-update uitgevoerd.",
+   "Bij toestellen met een aparte mediabox kan de kabel tussen de eenheden los zitten."
+  ],
+  "steps": [
+   "Zet de tv niet uit en haal de stekker er niet uit; wacht een paar minuten.",
+   "De afstandsbediening werkt niet tijdens de update.",
+   "Controleer bij toestellen met mediabox of de kabel tussen de eenheden stevig zit."
+  ],
+  "technician": "Knippert het lang, neem dan contact op met Sony support."
+ },
+ "Sony|Green LED blinking": {
+  "title": "Normale opstart of tv start niet",
+  "causes": [
+   "Normaal terwijl de tv opstart.",
+   "Mogelijk een storing als het nooit ophoudt of de tv steeds aan en uit gaat."
+  ],
+  "steps": [
+   "Wacht tot de tv klaar is met opstarten; het knipperen zou moeten stoppen.",
+   "Blijft het knipperen, haal dan de stekker van de tv 3 minuten uit het stopcontact.",
+   "Steek de stekker erin en probeer opnieuw."
+  ],
+  "technician": "Start de tv nog steeds niet, dan moet Sony hem nakijken."
+ },
+ "Sony|White LED blinking": {
+  "title": "Lamp van de projectietv moet worden vervangen",
+  "causes": [
+   "De lamp is doorgebrand (alleen projectietv's en projectors).",
+   "De lampklep staat mogelijk open."
+  ],
+  "steps": [
+   "Zet de tv uit en laat de lamp afkoelen.",
+   "Zorg dat de lampkleppen dicht en goed vastzitten.",
+   "Raak het glas van de lamp niet aan; veeg het schoon met een alcoholdoekje als u het hebt aangeraakt.",
+   "Regel een vervanging van de lamp."
+  ],
+  "technician": "Neem contact op met Sony support om een vervangende lamp te krijgen."
+ },
+ "Sony|Red LED blinking with 3-second pause": {
+  "title": "Storing aangegeven door herhaald rood knipperen",
+  "causes": [
+   "De tv heeft een storing gevonden en toont het aantal keer knipperen."
+  ],
+  "steps": [
+   "Tel het aantal keer knipperen tussen elke pauze.",
+   "Haal de stekker uit het stopcontact, wacht 2 minuten, steek hem erin en zet de tv aan.",
+   "Herhaalt het zich, haal dan de stekker eruit en bel Sony met het aantal keer knipperen."
+  ],
+  "technician": "Geef het aantal keer knipperen door aan Sony support."
+ },
+ "Panasonic|Red LED blinking": {
+  "title": "Tv heeft een fout gedetecteerd (SOS)",
+  "causes": [
+   "De tv heeft een interne fout gevonden.",
+   "Geldt voor Panasonic Fire TV-modellen."
+  ],
+  "steps": [
+   "Haal de stekker van de tv enkele minuten uit het stopcontact.",
+   "Steek hem er weer in en zet de tv aan.",
+   "Blijft het knipperen, dien dan een reparatieverzoek in bij Panasonic."
+  ],
+  "technician": "Blijft het knipperen, dien dan een reparatieverzoek in bij de support van Panasonic."
+ },
+ "Panasonic|Orange LED solid": {
+  "title": "Stand-by tijdens paneelonderhoud of netwerktaak",
+  "causes": [
+   "Er is paneelonderhoud of een netwerkfunctie bezig."
+  ],
+  "steps": [
+   "Raak het scherm niet aan en druk er niet op tijdens het paneelonderhoud.",
+   "Wacht tot de taak klaar is.",
+   "Lees het Panasonic-artikel over paneelonderhoud als het zich herhaalt."
+  ],
+  "technician": "Blijft het lampje lang oranje, neem dan contact op met Panasonic support."
+ },
+ "Panasonic|Orange LED blinking": {
+  "title": "Paneelonderhoud of netwerkupdate bezig",
+  "causes": [
+   "Paneelonderhoud wordt uitgevoerd.",
+   "Er is een netwerkverbinding of update van instellingen bezig."
+  ],
+  "steps": [
+   "Laat de stekker van de tv erin zitten en wacht tot het klaar is.",
+   "Wordt de led weer oranje nadat u de tv aan of uit hebt gezet, dan is het onderhoud niet klaar.",
+   "Laat het eerst voltooien voordat u de tv uitzet."
+  ],
+  "technician": "Houdt het nooit op, neem dan contact op met Panasonic support."
+ },
+ "Panasonic|Green LED blinking": {
+  "title": "Tv start op of wacht op Bluetooth-koppeling",
+  "causes": [
+   "De tv is aan het opstarten.",
+   "Hij wacht tot een Bluetooth-apparaat wordt gekoppeld."
+  ],
+  "steps": [
+   "Wacht tot het opstarten klaar is.",
+   "Bij koppelen: voltooi het koppelen op het andere apparaat.",
+   "Haal de stekker even uit het stopcontact en probeer opnieuw als het nooit ophoudt."
+  ],
+  "technician": "Is de tv nooit klaar met opstarten, neem dan contact op met Panasonic support."
+ },
+ "Philips|Standby light blinks red": {
+  "title": "Philips-tv meldt een storing",
+  "causes": [
+   "De tv heeft een storing gedetecteerd.",
+   "De tv is mogelijk oververhit."
+  ],
+  "steps": [
+   "Haal de stekker van de tv uit het stopcontact.",
+   "Laat hem helemaal afkoelen.",
+   "Steek de stekker weer in het stopcontact.",
+   "Zet hem weer aan."
+  ],
+  "technician": "Knippert het rode lampje opnieuw, neem dan contact op met Philips Consumer Care."
+ },
+ "Philips|Front LED blinks in a repeating pattern": {
+  "title": "Tv start niet, led knippert herhaaldelijk",
+  "causes": [
+   "De tv start niet en toont geen beeld of geluid.",
+   "Een tijdelijke stroomstoring."
+  ],
+  "steps": [
+   "Zet de stroom uit en aan: haal de stekker van de tv uit het stopcontact en wacht een paar minuten.",
+   "Steek de stekker erin en probeer opnieuw.",
+   "Probeer een ander stopcontact."
+  ],
+  "technician": "Blijft het knipperen, neem dan contact op met de tv-support van Philips."
+ },
+ "LG|Error 106": {
+  "title": "Tv is niet met het netwerk verbonden",
+  "causes": [
+   "De tv heeft geen werkende internetverbinding.",
+   "De wifi-adapter of de routerinstellingen zijn niet geschikt."
+  ],
+  "steps": [
+   "Test een ander apparaat op hetzelfde netwerk.",
+   "Start de router en de tv opnieuw op en voer het wifi-wachtwoord opnieuw in.",
+   "Stel in de geavanceerde wifi-instellingen de DNS handmatig in op 8.8.8.8.",
+   "Gebruik 5 GHz als de tv dat ondersteunt en zet de router dichterbij."
+  ],
+  "technician": "Helpt niets, dan moet de wifi-module mogelijk worden vervangen, neem dus contact op met de LG-service."
+ }
+}

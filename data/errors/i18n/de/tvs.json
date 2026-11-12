@@ -1,0 +1,654 @@
+{
+ "Roku|Error 009": {
+  "title": "Mit Router verbunden, aber kein Internet",
+  "causes": [
+   "Der Router ist erreichbar, hat aber keinen Internetzugang.",
+   "Der Internetdienst ist ausgefallen."
+  ],
+  "steps": [
+   "Prüfen Sie, ob ein Smartphone oder Laptop im selben Netzwerk online gehen kann.",
+   "Wenn nichts online ist, rufen Sie Ihren Internetanbieter an.",
+   "Wenn andere Geräte funktionieren, starten Sie den Fernseher neu.",
+   "Starten Sie Router und Modem neu und verbinden Sie sich dann erneut."
+  ],
+  "technician": "Wenn der Fehler nach diesen Schritten weiter auftritt, wenden Sie sich an den Roku-Support oder Ihren Internetanbieter."
+ },
+ "Roku|Error 012": {
+  "title": "Problem mit der Netzwerkverbindung per Kabel",
+  "causes": [
+   "Das Ethernet-Kabel sitzt locker oder ist defekt.",
+   "Der Router-Anschluss funktioniert nicht."
+  ],
+  "steps": [
+   "Stecken Sie das Ethernet-Kabel fest in den Fernseher und den Router.",
+   "Probieren Sie ein anderes Kabel oder einen anderen Router-Anschluss.",
+   "Starten Sie zuerst den Fernseher, dann Router und Modem neu.",
+   "Testen Sie kurz WLAN, um zu sehen, ob das Internet selbst funktioniert."
+  ],
+  "technician": "Wenn der Fehler nach diesen Schritten weiter auftritt, wenden Sie sich an den Roku-Support oder Ihren Internetanbieter."
+ },
+ "Roku|Error 013": {
+  "title": "Kabelverbindung erreicht das Internet nicht",
+  "causes": [
+   "Der Router hat kein Internet.",
+   "Das Ethernet-Kabel sitzt nicht richtig."
+  ],
+  "steps": [
+   "Prüfen Sie, ob ein anderes Gerät online ist.",
+   "Wenn ja, starten Sie den Fernseher neu.",
+   "Wenn nicht, ziehen Sie das Ethernet-Kabel an beiden Enden ab und stecken Sie es wieder ein.",
+   "Starten Sie den Router neu, bevor Sie Ihren Anbieter anrufen."
+  ],
+  "technician": "Wenn der Fehler nach diesen Schritten weiter auftritt, wenden Sie sich an den Roku-Support oder Ihren Internetanbieter."
+ },
+ "Roku|Error 014": {
+  "title": "Verbindung zum WLAN nicht möglich",
+  "causes": [
+   "Falscher Netzwerkname gewählt.",
+   "Falsches Passwort eingegeben.",
+   "Router oder Fernseher müssen neu gestartet werden."
+  ],
+  "steps": [
+   "Prüfen Sie, ob Sie den richtigen Netzwerknamen gewählt haben.",
+   "Geben Sie das Passwort erneut ein; Groß- und Kleinschreibung wird beachtet.",
+   "Starten Sie den Fernseher und den Router neu.",
+   "Versuchen Sie die Verbindung erneut."
+  ],
+  "technician": "Wenn der Fehler nach diesen Schritten weiter auftritt, wenden Sie sich an den Roku-Support oder Ihren Internetanbieter."
+ },
+ "Roku|Error 014.20": {
+  "title": "Schwaches WLAN-Signal verhindert die Verbindung",
+  "causes": [
+   "Der Fernseher ist zu weit vom Router entfernt.",
+   "Wände oder Gegenstände schwächen das Signal."
+  ],
+  "steps": [
+   "Stellen Sie Fernseher oder Router näher zusammen oder den Router höher.",
+   "Starten Sie Router und Fernseher neu.",
+   "Wenn Ihr Router zwei Frequenzbänder hat, probieren Sie das andere.",
+   "Verbinden Sie sich erneut mit dem Netzwerk."
+  ],
+  "technician": "Wenn der Fehler nach diesen Schritten weiter auftritt, wenden Sie sich an den Roku-Support oder Ihren Internetanbieter."
+ },
+ "Roku|Error 014.30": {
+  "title": "WLAN-Verbindung fehlgeschlagen, schwaches Signal",
+  "causes": [
+   "Schwaches WLAN-Signal.",
+   "Vorübergehende Störung bei Router oder Fernseher."
+  ],
+  "steps": [
+   "Starten Sie Router und Fernseher neu.",
+   "Stellen Sie den Fernseher näher an den Router.",
+   "Verbinden Sie sich erneut mit dem WLAN.",
+   "Probieren Sie, falls vorhanden, das andere Frequenzband des Routers."
+  ],
+  "technician": "Wenn der Fehler nach diesen Schritten weiter auftritt, wenden Sie sich an den Roku-Support oder Ihren Internetanbieter."
+ },
+ "Roku|Error 014.40": {
+  "title": "Falsches Passwort oder Router-Beschränkung",
+  "causes": [
+   "Das WLAN-Passwort wurde falsch eingegeben.",
+   "Der Router blockiert unbekannte Geräte."
+  ],
+  "steps": [
+   "Prüfen Sie den Netzwerknamen und geben Sie das Passwort erneut ein.",
+   "Wenn der Router Geräte filtert, fügen Sie die WLAN-MAC-Adresse des Fernsehers hinzu.",
+   "Starten Sie den Fernseher und den Router neu.",
+   "Versuchen Sie es erneut."
+  ],
+  "technician": "Wenn der Fehler nach diesen Schritten weiter auftritt, wenden Sie sich an den Roku-Support oder Ihren Internetanbieter."
+ },
+ "Roku|Error 014.41": {
+  "title": "Falsches Passwort oder Router-Beschränkung",
+  "causes": [
+   "Das WLAN-Passwort wurde falsch eingegeben.",
+   "Der Router blockiert unbekannte Geräte."
+  ],
+  "steps": [
+   "Prüfen Sie den Netzwerknamen und geben Sie das Passwort sorgfältig erneut ein.",
+   "Wenn der Router Geräte filtert, erlauben Sie die WLAN-MAC-Adresse des Fernsehers.",
+   "Starten Sie den Fernseher und den Router neu.",
+   "Versuchen Sie es erneut."
+  ],
+  "technician": "Wenn der Fehler nach diesen Schritten weiter auftritt, wenden Sie sich an den Roku-Support oder Ihren Internetanbieter."
+ },
+ "Roku|Error 014.50": {
+  "title": "WLAN-Verbindung fehlgeschlagen, schwaches Signal",
+  "causes": [
+   "Schwaches WLAN-Signal.",
+   "Vorübergehende Störung bei Router oder Fernseher."
+  ],
+  "steps": [
+   "Starten Sie Router und Fernseher neu.",
+   "Stellen Sie den Fernseher näher an den Router.",
+   "Verbinden Sie sich erneut mit dem WLAN.",
+   "Probieren Sie, falls vorhanden, das andere Frequenzband des Routers."
+  ],
+  "technician": "Wenn der Fehler nach diesen Schritten weiter auftritt, wenden Sie sich an den Roku-Support oder Ihren Internetanbieter."
+ },
+ "Roku|Error 016": {
+  "title": "Verbindung beim Öffnen eines Kanals verloren",
+  "causes": [
+   "Das Netzwerk ist beim Start einer App ausgefallen.",
+   "Schwaches WLAN-Signal."
+  ],
+  "steps": [
+   "Wählen Sie auf dem Bildschirm Set up connection und folgen Sie den Anweisungen.",
+   "Starten Sie den Fernseher und den Router neu.",
+   "Prüfen Sie die Stärke des WLAN-Signals.",
+   "Stellen Sie Fernseher und Router näher zusammen."
+  ],
+  "technician": "Wenn der Fehler nach diesen Schritten weiter auftritt, wenden Sie sich an den Roku-Support oder Ihren Internetanbieter."
+ },
+ "Roku|Error 017": {
+  "title": "Schlechte WLAN-Signalstärke",
+  "causes": [
+   "Schwaches WLAN-Signal am Fernseher.",
+   "Hindernisse zwischen Fernseher und Router."
+  ],
+  "steps": [
+   "Stellen Sie Fernseher und Router näher zusammen.",
+   "Räumen Sie Hindernisse zwischen beiden aus dem Weg.",
+   "Starten Sie den Fernseher und den Router neu.",
+   "Verwenden Sie ein Ethernet-Kabel, wenn der Fernseher einen Anschluss hat."
+  ],
+  "technician": "Wenn der Fehler nach diesen Schritten weiter auftritt, wenden Sie sich an den Roku-Support oder Ihren Internetanbieter."
+ },
+ "Roku|Error 018": {
+  "title": "Internetgeschwindigkeit zu langsam",
+  "causes": [
+   "Ihr Internettarif oder Ihre Leitung ist langsam.",
+   "Andere Geräte belegen die Bandbreite."
+  ],
+  "steps": [
+   "Pausieren Sie Downloads und Streams auf anderen Geräten.",
+   "Starten Sie Modem und Router neu.",
+   "Fragen Sie Ihren Anbieter, welche Geschwindigkeit Sie erhalten.",
+   "Erwägen Sie einen schnelleren Tarif."
+  ],
+  "technician": "Wenn der Fehler nach diesen Schritten weiter auftritt, wenden Sie sich an den Roku-Support oder Ihren Internetanbieter."
+ },
+ "Roku|Error 14.10": {
+  "title": "Fehler bei der WLAN-Verbindung",
+  "causes": [
+   "Vorübergehende WLAN-Störung zwischen Fernseher und Router."
+  ],
+  "steps": [
+   "Starten Sie den Router neu und warten Sie, bis er wieder online ist.",
+   "Starten Sie den Roku TV neu.",
+   "Versuchen Sie erneut, sich mit dem Netzwerk zu verbinden.",
+   "Stellen Sie den Fernseher näher, wenn das Signal schwach ist."
+  ],
+  "technician": "Wenn der Fehler nach diesen Schritten weiter auftritt, wenden Sie sich an den Roku-Support oder Ihren Internetanbieter."
+ },
+ "Roku|Error 14.11": {
+  "title": "Fehler bei der WLAN-Verbindung",
+  "causes": [
+   "Vorübergehende WLAN-Störung zwischen Fernseher und Router."
+  ],
+  "steps": [
+   "Starten Sie den Router neu und warten Sie, bis er wieder online ist.",
+   "Starten Sie den Roku TV neu.",
+   "Versuchen Sie erneut, sich mit dem Netzwerk zu verbinden.",
+   "Stellen Sie den Fernseher näher, wenn das Signal schwach ist."
+  ],
+  "technician": "Wenn der Fehler nach diesen Schritten weiter auftritt, wenden Sie sich an den Roku-Support oder Ihren Internetanbieter."
+ },
+ "Roku|Error 14.62": {
+  "title": "Problem mit der WLAN-Verbindung, schwaches Signal",
+  "causes": [
+   "Schwaches WLAN-Signal am Fernseher."
+  ],
+  "steps": [
+   "Prüfen Sie die auf dem Bildschirm angezeigte Signalstärke.",
+   "Stellen Sie Fernseher oder Router näher zusammen.",
+   "Starten Sie Router und Fernseher neu.",
+   "Verbinden Sie sich erneut mit dem Netzwerk."
+  ],
+  "technician": "Wenn der Fehler nach diesen Schritten weiter auftritt, wenden Sie sich an den Roku-Support oder Ihren Internetanbieter."
+ },
+ "Roku|Error 14.64": {
+  "title": "Problem mit der WLAN-Verbindung, schwaches Signal",
+  "causes": [
+   "Schwaches WLAN-Signal am Fernseher."
+  ],
+  "steps": [
+   "Prüfen Sie die auf dem Bildschirm angezeigte Signalstärke.",
+   "Stellen Sie Fernseher oder Router näher zusammen.",
+   "Starten Sie Router und Fernseher neu.",
+   "Verbinden Sie sich erneut mit dem Netzwerk."
+  ],
+  "technician": "Wenn der Fehler nach diesen Schritten weiter auftritt, wenden Sie sich an den Roku-Support oder Ihren Internetanbieter."
+ },
+ "TCL|Error 009": {
+  "title": "Mit Router verbunden, aber kein Internet",
+  "causes": [
+   "Der Router ist erreichbar, hat aber keinen Internetzugang.",
+   "Der Internetdienst ist ausgefallen."
+  ],
+  "steps": [
+   "Prüfen Sie, ob ein Smartphone oder Laptop im selben Netzwerk online gehen kann.",
+   "Wenn nichts online ist, rufen Sie Ihren Internetanbieter an.",
+   "Wenn andere Geräte funktionieren, starten Sie den Fernseher neu.",
+   "Starten Sie Router und Modem neu und verbinden Sie sich dann erneut."
+  ],
+  "technician": "Wenn der Fehler nach einem Netzwerk-Reset erneut auftritt, wenden Sie sich für Ihren Roku TV an den TCL-Support."
+ },
+ "TCL|Error 012": {
+  "title": "Problem mit der Netzwerkverbindung per Kabel",
+  "causes": [
+   "Das Ethernet-Kabel sitzt locker oder ist defekt.",
+   "Der Router-Anschluss funktioniert nicht."
+  ],
+  "steps": [
+   "Stecken Sie das Ethernet-Kabel fest in den Fernseher und den Router.",
+   "Probieren Sie ein anderes Kabel oder einen anderen Router-Anschluss.",
+   "Starten Sie zuerst den Fernseher, dann Router und Modem neu.",
+   "Testen Sie kurz WLAN, um zu sehen, ob das Internet selbst funktioniert."
+  ],
+  "technician": "Wenn der Fehler nach einem Netzwerk-Reset erneut auftritt, wenden Sie sich für Ihren Roku TV an den TCL-Support."
+ },
+ "TCL|Error 013": {
+  "title": "Kabelverbindung erreicht das Internet nicht",
+  "causes": [
+   "Der Router hat kein Internet.",
+   "Das Ethernet-Kabel sitzt nicht richtig."
+  ],
+  "steps": [
+   "Prüfen Sie, ob ein anderes Gerät online ist.",
+   "Wenn ja, starten Sie den Fernseher neu.",
+   "Wenn nicht, ziehen Sie das Ethernet-Kabel an beiden Enden ab und stecken Sie es wieder ein.",
+   "Starten Sie den Router neu, bevor Sie Ihren Anbieter anrufen."
+  ],
+  "technician": "Wenn der Fehler nach einem Netzwerk-Reset erneut auftritt, wenden Sie sich für Ihren Roku TV an den TCL-Support."
+ },
+ "TCL|Error 014": {
+  "title": "Verbindung zum WLAN nicht möglich",
+  "causes": [
+   "Falscher Netzwerkname gewählt.",
+   "Falsches Passwort eingegeben.",
+   "Router oder Fernseher müssen neu gestartet werden."
+  ],
+  "steps": [
+   "Prüfen Sie, ob Sie den richtigen Netzwerknamen gewählt haben.",
+   "Geben Sie das Passwort erneut ein; Groß- und Kleinschreibung wird beachtet.",
+   "Starten Sie den Fernseher und den Router neu.",
+   "Versuchen Sie die Verbindung erneut."
+  ],
+  "technician": "Wenn der Fehler nach einem Netzwerk-Reset erneut auftritt, wenden Sie sich für Ihren Roku TV an den TCL-Support."
+ },
+ "TCL|Error 014.20": {
+  "title": "Schwaches WLAN-Signal verhindert die Verbindung",
+  "causes": [
+   "Der Fernseher ist zu weit vom Router entfernt.",
+   "Wände oder Gegenstände schwächen das Signal."
+  ],
+  "steps": [
+   "Stellen Sie Fernseher oder Router näher zusammen oder den Router höher.",
+   "Starten Sie Router und Fernseher neu.",
+   "Wenn Ihr Router zwei Frequenzbänder hat, probieren Sie das andere.",
+   "Verbinden Sie sich erneut mit dem Netzwerk."
+  ],
+  "technician": "Wenn der Fehler nach einem Netzwerk-Reset erneut auftritt, wenden Sie sich für Ihren Roku TV an den TCL-Support."
+ },
+ "TCL|Error 014.30": {
+  "title": "WLAN-Verbindung fehlgeschlagen, schwaches Signal",
+  "causes": [
+   "Schwaches WLAN-Signal.",
+   "Vorübergehende Störung bei Router oder Fernseher."
+  ],
+  "steps": [
+   "Starten Sie Router und Fernseher neu.",
+   "Stellen Sie den Fernseher näher an den Router.",
+   "Verbinden Sie sich erneut mit dem WLAN.",
+   "Probieren Sie, falls vorhanden, das andere Frequenzband des Routers."
+  ],
+  "technician": "Wenn der Fehler nach einem Netzwerk-Reset erneut auftritt, wenden Sie sich für Ihren Roku TV an den TCL-Support."
+ },
+ "TCL|Error 014.40": {
+  "title": "Falsches Passwort oder Router-Beschränkung",
+  "causes": [
+   "Das WLAN-Passwort wurde falsch eingegeben.",
+   "Der Router blockiert unbekannte Geräte."
+  ],
+  "steps": [
+   "Prüfen Sie den Netzwerknamen und geben Sie das Passwort erneut ein.",
+   "Wenn der Router Geräte filtert, fügen Sie die WLAN-MAC-Adresse des Fernsehers hinzu.",
+   "Starten Sie den Fernseher und den Router neu.",
+   "Versuchen Sie es erneut."
+  ],
+  "technician": "Wenn der Fehler nach einem Netzwerk-Reset erneut auftritt, wenden Sie sich für Ihren Roku TV an den TCL-Support."
+ },
+ "TCL|Error 014.41": {
+  "title": "Falsches Passwort oder Router-Beschränkung",
+  "causes": [
+   "Das WLAN-Passwort wurde falsch eingegeben.",
+   "Der Router blockiert unbekannte Geräte."
+  ],
+  "steps": [
+   "Prüfen Sie den Netzwerknamen und geben Sie das Passwort sorgfältig erneut ein.",
+   "Wenn der Router Geräte filtert, erlauben Sie die WLAN-MAC-Adresse des Fernsehers.",
+   "Starten Sie den Fernseher und den Router neu.",
+   "Versuchen Sie es erneut."
+  ],
+  "technician": "Wenn der Fehler nach einem Netzwerk-Reset erneut auftritt, wenden Sie sich für Ihren Roku TV an den TCL-Support."
+ },
+ "TCL|Error 014.50": {
+  "title": "WLAN-Verbindung fehlgeschlagen, schwaches Signal",
+  "causes": [
+   "Schwaches WLAN-Signal.",
+   "Vorübergehende Störung bei Router oder Fernseher."
+  ],
+  "steps": [
+   "Starten Sie Router und Fernseher neu.",
+   "Stellen Sie den Fernseher näher an den Router.",
+   "Verbinden Sie sich erneut mit dem WLAN.",
+   "Probieren Sie, falls vorhanden, das andere Frequenzband des Routers."
+  ],
+  "technician": "Wenn der Fehler nach einem Netzwerk-Reset erneut auftritt, wenden Sie sich für Ihren Roku TV an den TCL-Support."
+ },
+ "TCL|Error 016": {
+  "title": "Verbindung beim Öffnen eines Kanals verloren",
+  "causes": [
+   "Das Netzwerk ist beim Start einer App ausgefallen.",
+   "Schwaches WLAN-Signal."
+  ],
+  "steps": [
+   "Wählen Sie auf dem Bildschirm Set up connection und folgen Sie den Anweisungen.",
+   "Starten Sie den Fernseher und den Router neu.",
+   "Prüfen Sie die Stärke des WLAN-Signals.",
+   "Stellen Sie Fernseher und Router näher zusammen."
+  ],
+  "technician": "Wenn der Fehler nach einem Netzwerk-Reset erneut auftritt, wenden Sie sich für Ihren Roku TV an den TCL-Support."
+ },
+ "TCL|Error 017": {
+  "title": "Schlechte WLAN-Signalstärke",
+  "causes": [
+   "Schwaches WLAN-Signal am Fernseher.",
+   "Hindernisse zwischen Fernseher und Router."
+  ],
+  "steps": [
+   "Stellen Sie Fernseher und Router näher zusammen.",
+   "Räumen Sie Hindernisse zwischen beiden aus dem Weg.",
+   "Starten Sie den Fernseher und den Router neu.",
+   "Verwenden Sie ein Ethernet-Kabel, wenn der Fernseher einen Anschluss hat."
+  ],
+  "technician": "Wenn der Fehler nach einem Netzwerk-Reset erneut auftritt, wenden Sie sich für Ihren Roku TV an den TCL-Support."
+ },
+ "TCL|Error 018": {
+  "title": "Internetgeschwindigkeit zu langsam",
+  "causes": [
+   "Ihr Internettarif oder Ihre Leitung ist langsam.",
+   "Andere Geräte belegen die Bandbreite."
+  ],
+  "steps": [
+   "Pausieren Sie Downloads und Streams auf anderen Geräten.",
+   "Starten Sie Modem und Router neu.",
+   "Fragen Sie Ihren Anbieter, welche Geschwindigkeit Sie erhalten.",
+   "Erwägen Sie einen schnelleren Tarif."
+  ],
+  "technician": "Wenn der Fehler nach einem Netzwerk-Reset erneut auftritt, wenden Sie sich für Ihren Roku TV an den TCL-Support."
+ },
+ "Sony|Red LED blinks 2 times": {
+  "title": "Sony-Fernseher hat einen Fehler erkannt (2-mal Blinken)",
+  "causes": [
+   "Der Fernseher hat einen internen Fehler festgestellt.",
+   "Die Bedeutung der Blinkanzahl unterscheidet sich je nach Modell."
+  ],
+  "steps": [
+   "Schalten Sie den Fernseher aus und ziehen Sie den Netzstecker für 1 Minute, nicht an einer Steckdosenleiste.",
+   "Halten Sie die Lüftungsöffnungen frei, damit Luft strömen kann.",
+   "Trennen Sie alle angeschlossenen Geräte und schalten Sie den Fernseher wieder ein.",
+   "Aktualisieren Sie die Fernseher-Software, falls das Gerät startet.",
+   "Notieren Sie die Blinkanzahl und wenden Sie sich an Sony."
+  ],
+  "technician": "Die meisten Fehler mit rotem Blinken erfordern eine Reparatur. Wenden Sie sich mit der Blinkanzahl an den Sony-Support."
+ },
+ "Sony|Red LED blinks 3 times": {
+  "title": "Sony-Fernseher hat einen Fehler erkannt (3-mal Blinken)",
+  "causes": [
+   "Der Fernseher hat einen internen Fehler festgestellt.",
+   "Die Bedeutung der Blinkanzahl unterscheidet sich je nach Modell."
+  ],
+  "steps": [
+   "Schalten Sie den Fernseher aus und ziehen Sie den Netzstecker für 1 Minute, nicht an einer Steckdosenleiste.",
+   "Halten Sie die Lüftungsöffnungen frei, damit Luft strömen kann.",
+   "Trennen Sie alle angeschlossenen Geräte und schalten Sie den Fernseher wieder ein.",
+   "Aktualisieren Sie die Fernseher-Software, falls das Gerät startet.",
+   "Notieren Sie die Blinkanzahl und wenden Sie sich an Sony."
+  ],
+  "technician": "Die meisten Fehler mit rotem Blinken erfordern eine Reparatur. Wenden Sie sich mit der Blinkanzahl an den Sony-Support."
+ },
+ "Sony|Red LED blinks 4 times": {
+  "title": "Sony-Fernseher hat einen Fehler erkannt (4-mal Blinken)",
+  "causes": [
+   "Der Fernseher hat einen internen Fehler festgestellt.",
+   "Die Bedeutung der Blinkanzahl unterscheidet sich je nach Modell."
+  ],
+  "steps": [
+   "Schalten Sie den Fernseher aus und ziehen Sie den Netzstecker für 1 Minute, nicht an einer Steckdosenleiste.",
+   "Halten Sie die Lüftungsöffnungen frei, damit Luft strömen kann.",
+   "Trennen Sie alle angeschlossenen Geräte und schalten Sie den Fernseher wieder ein.",
+   "Aktualisieren Sie die Fernseher-Software, falls das Gerät startet.",
+   "Notieren Sie die Blinkanzahl und wenden Sie sich an Sony."
+  ],
+  "technician": "Die meisten Fehler mit rotem Blinken erfordern eine Reparatur. Wenden Sie sich mit der Blinkanzahl an den Sony-Support."
+ },
+ "Sony|Red LED blinks 5 times": {
+  "title": "Sony-Fernseher hat einen Fehler erkannt (5-mal Blinken)",
+  "causes": [
+   "Der Fernseher hat einen internen Fehler festgestellt.",
+   "Die Bedeutung der Blinkanzahl unterscheidet sich je nach Modell."
+  ],
+  "steps": [
+   "Schalten Sie den Fernseher aus und ziehen Sie den Netzstecker für 1 Minute, nicht an einer Steckdosenleiste.",
+   "Halten Sie die Lüftungsöffnungen frei, damit Luft strömen kann.",
+   "Trennen Sie alle angeschlossenen Geräte und schalten Sie den Fernseher wieder ein.",
+   "Aktualisieren Sie die Fernseher-Software, falls das Gerät startet.",
+   "Notieren Sie die Blinkanzahl und wenden Sie sich an Sony."
+  ],
+  "technician": "Die meisten Fehler mit rotem Blinken erfordern eine Reparatur. Wenden Sie sich mit der Blinkanzahl an den Sony-Support."
+ },
+ "Sony|Red LED blinks 6 times": {
+  "title": "Sony-Fernseher hat einen Fehler erkannt (6-mal Blinken)",
+  "causes": [
+   "Der Fernseher hat einen internen Fehler festgestellt.",
+   "Die Bedeutung der Blinkanzahl unterscheidet sich je nach Modell."
+  ],
+  "steps": [
+   "Schalten Sie den Fernseher aus und ziehen Sie den Netzstecker für 1 Minute, nicht an einer Steckdosenleiste.",
+   "Halten Sie die Lüftungsöffnungen frei, damit Luft strömen kann.",
+   "Trennen Sie alle angeschlossenen Geräte und schalten Sie den Fernseher wieder ein.",
+   "Aktualisieren Sie die Fernseher-Software, falls das Gerät startet.",
+   "Notieren Sie die Blinkanzahl und wenden Sie sich an Sony."
+  ],
+  "technician": "Die meisten Fehler mit rotem Blinken erfordern eine Reparatur. Wenden Sie sich mit der Blinkanzahl an den Sony-Support."
+ },
+ "Sony|Red LED blinks 7 times": {
+  "title": "Sony-Fernseher hat einen Fehler erkannt (7-mal Blinken)",
+  "causes": [
+   "Der Fernseher hat einen internen Fehler festgestellt.",
+   "Die Bedeutung der Blinkanzahl unterscheidet sich je nach Modell."
+  ],
+  "steps": [
+   "Schalten Sie den Fernseher aus und ziehen Sie den Netzstecker für 1 Minute, nicht an einer Steckdosenleiste.",
+   "Halten Sie die Lüftungsöffnungen frei, damit Luft strömen kann.",
+   "Trennen Sie alle angeschlossenen Geräte und schalten Sie den Fernseher wieder ein.",
+   "Aktualisieren Sie die Fernseher-Software, falls das Gerät startet.",
+   "Notieren Sie die Blinkanzahl und wenden Sie sich an Sony."
+  ],
+  "technician": "Die meisten Fehler mit rotem Blinken erfordern eine Reparatur. Wenden Sie sich mit der Blinkanzahl an den Sony-Support."
+ },
+ "Sony|Red LED blinks 8 times": {
+  "title": "Sony-Fernseher hat einen Fehler erkannt (8-mal Blinken)",
+  "causes": [
+   "Der Fernseher hat einen internen Fehler festgestellt.",
+   "Die Bedeutung der Blinkanzahl unterscheidet sich je nach Modell."
+  ],
+  "steps": [
+   "Schalten Sie den Fernseher aus und ziehen Sie den Netzstecker für 1 Minute, nicht an einer Steckdosenleiste.",
+   "Halten Sie die Lüftungsöffnungen frei, damit Luft strömen kann.",
+   "Trennen Sie alle angeschlossenen Geräte und schalten Sie den Fernseher wieder ein.",
+   "Aktualisieren Sie die Fernseher-Software, falls das Gerät startet.",
+   "Notieren Sie die Blinkanzahl und wenden Sie sich an Sony."
+  ],
+  "technician": "Die meisten Fehler mit rotem Blinken erfordern eine Reparatur. Wenden Sie sich mit der Blinkanzahl an den Sony-Support."
+ },
+ "Sony|Orange LED solid": {
+  "title": "Schlaf- oder Ein-/Ausschalt-Timer ist aktiv",
+  "causes": [
+   "Am Fernseher ist ein Schlaf-Timer oder Ein-/Ausschalt-Timer eingestellt."
+  ],
+  "steps": [
+   "Öffnen Sie das Einstellungsmenü des Fernsehers.",
+   "Suchen Sie den Schlaf-Timer oder Ein-/Ausschalt-Timer.",
+   "Schalten Sie den Timer aus oder ändern Sie die Zeit.",
+   "Prüfen Sie, ob die Leuchte erlischt."
+  ],
+  "technician": "Eine Reparatur ist nicht nötig, außer die Leuchte bleibt an, obwohl kein Timer eingestellt ist."
+ },
+ "Sony|Orange LED blinking": {
+  "title": "Software-Update läuft oder Kabel locker",
+  "causes": [
+   "Ein Software-Update läuft gerade.",
+   "Bei Geräten mit separater Media Box kann das Kabel zwischen den Einheiten locker sein."
+  ],
+  "steps": [
+   "Schalten Sie den Fernseher nicht aus und ziehen Sie den Stecker nicht; warten Sie einige Minuten.",
+   "Die Fernbedienung funktioniert während des Updates nicht.",
+   "Bei Geräten mit Media Box prüfen Sie, ob das Kabel zwischen den Einheiten fest sitzt."
+  ],
+  "technician": "Wenn es lange blinkt, wenden Sie sich an den Sony-Support."
+ },
+ "Sony|Green LED blinking": {
+  "title": "Normaler Start oder Fernseher startet nicht",
+  "causes": [
+   "Normal, solange der Fernseher hochfährt.",
+   "Möglicher Defekt, wenn es nie aufhört oder der Fernseher sich ständig ein- und ausschaltet."
+  ],
+  "steps": [
+   "Warten Sie, bis der Fernseher fertig gestartet ist; das Blinken sollte aufhören.",
+   "Wenn es weiter blinkt, ziehen Sie den Netzstecker für 3 Minuten.",
+   "Stecken Sie ihn wieder ein und versuchen Sie es erneut."
+  ],
+  "technician": "Wenn der Fernseher weiterhin nicht startet, muss er von Sony repariert werden."
+ },
+ "Sony|White LED blinking": {
+  "title": "Lampe des Projektionsfernsehers muss ersetzt werden",
+  "causes": [
+   "Die Lampe ist durchgebrannt (nur bei Projektionsfernsehern und Projektoren).",
+   "Die Lampenabdeckung ist möglicherweise offen."
+  ],
+  "steps": [
+   "Schalten Sie das Gerät aus und lassen Sie die Lampe abkühlen.",
+   "Achten Sie darauf, dass die Lampenabdeckungen geschlossen und fest sitzen.",
+   "Berühren Sie das Lampenglas nicht; wischen Sie es mit einem Alkoholtuch ab, falls Sie es berührt haben.",
+   "Veranlassen Sie einen Lampenwechsel."
+  ],
+  "technician": "Wenden Sie sich an den Sony-Support, um eine Ersatzlampe zu erhalten."
+ },
+ "Sony|Red LED blinking with 3-second pause": {
+  "title": "Fehler durch wiederholtes rotes Blinken angezeigt",
+  "causes": [
+   "Der Fernseher hat einen Fehler festgestellt und zeigt eine Blinkanzahl an."
+  ],
+  "steps": [
+   "Zählen Sie die Blinkzeichen zwischen den einzelnen Pausen.",
+   "Ziehen Sie den Netzstecker, warten Sie 2 Minuten, stecken Sie ihn wieder ein und schalten Sie den Fernseher ein.",
+   "Wenn es sich wiederholt, ziehen Sie den Netzstecker und rufen Sie Sony mit der Blinkanzahl an."
+  ],
+  "technician": "Nennen Sie dem Sony-Support die Blinkanzahl."
+ },
+ "Panasonic|Red LED blinking": {
+  "title": "Fernseher hat einen Fehler erkannt (SOS)",
+  "causes": [
+   "Der Fernseher hat einen internen Fehler festgestellt.",
+   "Gilt für Panasonic-Fire-TV-Modelle."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker des Fernsehers für einige Minuten.",
+   "Stecken Sie ihn wieder ein und schalten Sie den Fernseher ein.",
+   "Wenn es weiter blinkt, senden Sie eine Reparaturanfrage an Panasonic."
+  ],
+  "technician": "Wenn das Blinken anhält, senden Sie eine Reparaturanfrage an den Panasonic-Support."
+ },
+ "Panasonic|Orange LED solid": {
+  "title": "Standby während Panel-Wartung oder Netzwerkvorgang",
+  "causes": [
+   "Eine Panel-Wartung oder eine Netzwerkfunktion läuft gerade."
+  ],
+  "steps": [
+   "Berühren Sie den Bildschirm während der Panel-Wartung nicht und drücken Sie nicht darauf.",
+   "Warten Sie, bis der Vorgang abgeschlossen ist.",
+   "Lesen Sie den Panasonic-Artikel zur Panel-Wartung, wenn es sich wiederholt."
+  ],
+  "technician": "Wenn die Leuchte lange orange bleibt, wenden Sie sich an den Panasonic-Support."
+ },
+ "Panasonic|Orange LED blinking": {
+  "title": "Panel-Wartung oder Netzwerk-Update läuft",
+  "causes": [
+   "Die Panel-Wartung läuft.",
+   "Eine Netzwerkverbindung oder ein Einstellungs-Update läuft gerade."
+  ],
+  "steps": [
+   "Lassen Sie den Fernseher angesteckt und warten Sie, bis der Vorgang beendet ist.",
+   "Wenn die LED nach dem Ein- oder Ausschalten des Fernsehers wieder orange leuchtet, ist die Wartung noch nicht abgeschlossen.",
+   "Lassen Sie den Vorgang abschließen, bevor Sie ausschalten."
+  ],
+  "technician": "Wenn es nie aufhört, wenden Sie sich an den Panasonic-Support."
+ },
+ "Panasonic|Green LED blinking": {
+  "title": "Fernseher startet oder wartet auf Bluetooth-Kopplung",
+  "causes": [
+   "Der Fernseher fährt gerade hoch.",
+   "Er wartet darauf, dass sich ein Bluetooth-Gerät koppelt."
+  ],
+  "steps": [
+   "Warten Sie, bis der Start abgeschlossen ist.",
+   "Bei einer Kopplung schließen Sie diese am anderen Gerät ab.",
+   "Ziehen Sie kurz den Netzstecker und versuchen Sie es erneut, wenn es nie aufhört."
+  ],
+  "technician": "Wenn der Fernseher nie fertig startet, wenden Sie sich an den Panasonic-Support."
+ },
+ "Philips|Standby light blinks red": {
+  "title": "Philips-Fernseher meldet einen Fehler",
+  "causes": [
+   "Der Fernseher hat einen Fehler erkannt.",
+   "Der Fernseher ist möglicherweise überhitzt."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker des Fernsehers aus der Steckdose.",
+   "Lassen Sie ihn vollständig abkühlen.",
+   "Stecken Sie das Netzkabel wieder ein.",
+   "Schalten Sie ihn wieder ein."
+  ],
+  "technician": "Wenn die rote Leuchte erneut blinkt, wenden Sie sich an Philips Consumer Care."
+ },
+ "Philips|Front LED blinks in a repeating pattern": {
+  "title": "Fernseher startet nicht, LED blinkt wiederholt",
+  "causes": [
+   "Der Fernseher startet nicht und zeigt weder Bild noch Ton.",
+   "Eine vorübergehende Stromstörung."
+  ],
+  "steps": [
+   "Führen Sie einen Power-Cycle durch: Ziehen Sie den Netzstecker und warten Sie einige Minuten.",
+   "Stecken Sie ihn wieder ein und versuchen Sie es erneut.",
+   "Probieren Sie eine andere Steckdose."
+  ],
+  "technician": "Wenn es weiter blinkt, wenden Sie sich an den Philips-TV-Support."
+ },
+ "LG|Error 106": {
+  "title": "Fernseher nicht mit dem Netzwerk verbunden",
+  "causes": [
+   "Der Fernseher hat keine funktionierende Internetverbindung.",
+   "Der WLAN-Adapter oder die Router-Einstellungen sind nicht geeignet."
+  ],
+  "steps": [
+   "Testen Sie ein anderes Gerät im selben Netzwerk.",
+   "Starten Sie Router und Fernseher neu und geben Sie das WLAN-Passwort erneut ein.",
+   "Stellen Sie in den erweiterten WLAN-Einstellungen den DNS manuell auf 8.8.8.8.",
+   "Verwenden Sie 5 GHz, wenn der Fernseher es unterstützt, und stellen Sie den Router näher."
+  ],
+  "technician": "Wenn nichts hilft, muss möglicherweise das WLAN-Modul ersetzt werden. Wenden Sie sich dann an den LG-Service."
+ }
+}

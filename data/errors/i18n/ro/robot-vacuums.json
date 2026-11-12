@@ -1,0 +1,1394 @@
+{
+ "iRobot|Error 1": {
+  "title": "Roomba blocat sau cu o roată atârnând",
+  "causes": [
+   "Robotul s-a blocat de ceva.",
+   "O roată laterală atârnă sau este blocată."
+  ],
+  "steps": [
+   "Ridicați robotul și puneți-l în alt loc.",
+   "Apăsați CLEAN pentru a porni din nou.",
+   "Rotiți cu mâna ambele roți laterale și scuturați resturile."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Error 2": {
+  "title": "Extractoarele nu se pot roti",
+  "causes": [
+   "Părul sau resturile blochează extractoarele (periile)."
+  ],
+  "steps": [
+   "Scoateți recipientul și deschideți cadrul extractoarelor.",
+   "Scoateți extractoarele și tăiați părul și firele.",
+   "Puneți-le la loc și apăsați CLEAN."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Error 5": {
+  "title": "Roată laterală blocată",
+  "causes": [
+   "O roată laterală nu se poate roti liber din cauza murdăriei sau a părului."
+  ],
+  "steps": [
+   "Întoarceți robotul cu fața în jos.",
+   "Rotiți fiecare roată laterală și curățați resturile din locașul roții.",
+   "Așezați robotul pe podea și apăsați CLEAN."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Error 6": {
+  "title": "Senzori de cădere murdari sau robot deasupra unei diferențe de nivel",
+  "causes": [
+   "Senzorii de cădere de pe partea de jos sunt murdari.",
+   "Robotul se află deasupra unei diferențe de nivel sau pe o podea foarte închisă la culoare."
+  ],
+  "steps": [
+   "Mutați robotul în alt loc.",
+   "Ștergeți cu o lavetă uscată senzorii de cădere de pe partea de jos.",
+   "Apăsați CLEAN pentru a reporni."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Error 7": {
+  "title": "Roată laterală blocată",
+  "causes": [
+   "O roată laterală este blocată de resturi sau păr."
+  ],
+  "steps": [
+   "Întoarceți robotul și rotiți fiecare roată laterală.",
+   "Îndepărtați părul sau murdăria din locașurile roților.",
+   "Puneți-l jos și apăsați CLEAN."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Error 9": {
+  "title": "Bară de protecție apăsată sau senzor murdar",
+  "causes": [
+   "Bara de protecție este împinsă înăuntru sau blocată.",
+   "Senzorul barei de protecție este murdar."
+  ],
+  "steps": [
+   "Loviți ușor de mai multe ori bara de protecție pentru a elibera murdăria.",
+   "Ștergeți cu o lavetă uscată în jurul marginilor barei de protecție.",
+   "Reporniți robotul."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Error 10": {
+  "title": "Roată laterală blocată sau bara de protecție nu înregistrează",
+  "causes": [
+   "O roată laterală este blocată.",
+   "Bara de protecție nu detectează obstacolele."
+  ],
+  "steps": [
+   "Rotiți roțile laterale și curățați locașurile roților.",
+   "Loviți ușor bara de protecție pentru a elimina resturile.",
+   "Apăsați CLEAN pentru a încerca din nou."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Error 11": {
+  "title": "Eroare a sistemului de aspirare Roomba",
+  "causes": [
+   "Sistemul de aspirare sau recipientul are o defecțiune."
+  ],
+  "steps": [
+   "Scoateți recipientul și goliți-l.",
+   "Curățați filtrul și verificați dacă recipientul este bine fixat.",
+   "Reporniți robotul și, la modelele cu Wi-Fi, consultați aplicația iRobot HOME pentru ajutor."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Error 14": {
+  "title": "Roomba nu detectează recipientul",
+  "causes": [
+   "Recipientul nu este montat corect.",
+   "Contactele recipientului sunt murdare."
+  ],
+  "steps": [
+   "Verificați dacă recipientul este montat complet.",
+   "Ștergeți contactele de pe recipient și de pe robot cu un burete de melamină ușor umed.",
+   "Dacă persistă, este posibil să aveți nevoie de un recipient nou."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Error 18": {
+  "title": "Roomba nu se poate întoarce la stație sau la punctul de pornire",
+  "causes": [
+   "Stația nu are alimentare sau a fost mutată.",
+   "Contacte de încărcare sau senzori murdari ori roți blocate."
+  ],
+  "steps": [
+   "Verificați dacă stația are alimentare și lumină.",
+   "Eliberați zona și ștergeți contactele și senzorii cu o lavetă uscată sau ușor umedă.",
+   "Rotiți roțile, apoi reporniți robotul și stația.",
+   "Mutați stația mai aproape de zona de curățare, dacă este în afara razei."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Error 1010": {
+  "title": "Roomba nu își găsește sau nu își poate atinge stația",
+  "causes": [
+   "Un traseu blocat sau o ușă închisă.",
+   "Stația a fost mutată sau scoasă din priză.",
+   "Lumina sau reflexiile încurcă senzorii de andocare."
+  ],
+  "steps": [
+   "Eliberați traseul și deschideți ușile.",
+   "Țineți apăsat butonul de pornire 10 secunde pentru a reporni, apoi rulați din nou.",
+   "Curățați periile, roțile și senzorii de pe robot și de pe stație.",
+   "Dacă persistă, ștergeți harta și lăsați robotul să o refacă."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Charging error 1": {
+  "title": "Roomba nu detectează bateria",
+  "causes": [
+   "Bateria nu este fixată sau nu este detectată."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Scoateți bateria.",
+   "Montați-o la loc ferm.",
+   "Încercați din nou încărcarea."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Charging error 2": {
+  "title": "Eroare de încărcare cu supracurent a bateriei",
+  "causes": [
+   "Este posibil ca bateria să nu fie una originală iRobot.",
+   "Pot exista daune cauzate de lichide."
+  ],
+  "steps": [
+   "Verificați dacă folosiți o baterie litiu-ion iRobot originală.",
+   "Căutați semne de daune cauzate de lichide.",
+   "Nu încărcați dacă bateria pare deteriorată."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Charging error 3": {
+  "title": "Defecțiune a sistemului de încărcare",
+  "causes": [
+   "O defecțiune a sistemului de încărcare, posibil din cauza lichidelor."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Încercați din nou încărcarea.",
+   "Verificați dacă există daune cauzate de lichide.",
+   "Țineți stația și robotul uscate."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Charging error 4": {
+  "title": "Curent de încărcare slab sau inexistent",
+  "causes": [
+   "Contacte de încărcare murdare pe robot sau pe stație."
+  ],
+  "steps": [
+   "Scoateți stația din priză.",
+   "Ștergeți contactele de încărcare de pe ambele cu un burete de melamină ușor umed.",
+   "Încercați din nou încărcarea."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Charging error 6": {
+  "title": "Bateria este prea caldă sau prea rece pentru încărcare",
+  "causes": [
+   "Bateria este în afara temperaturii sigure de încărcare."
+  ],
+  "steps": [
+   "Mutați robotul într-un loc cu temperatură camerei.",
+   "Așteptați până ajunge la temperatura camerei.",
+   "Încercați din nou încărcarea."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Charging error 8": {
+  "title": "Robotul nu poate comunica cu bateria",
+  "causes": [
+   "Este posibil ca bateria să nu fie originală sau să fie prost fixată."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Confirmați că bateria este una originală iRobot.",
+   "Scoateți-o și montați-o la loc.",
+   "Încercați din nou încărcarea."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Charging error 9": {
+  "title": "Defectarea bateriei",
+  "causes": [
+   "Bateria s-a defectat sau nu este originală."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Confirmați că bateria este originală.",
+   "Scoateți-o și montați-o la loc.",
+   "Dacă eroarea apare din nou, planificați înlocuirea bateriei."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Charging error 11": {
+  "title": "Defecțiune hardware a bateriei",
+  "causes": [
+   "Bateria are o defecțiune hardware sau nu este originală."
+  ],
+  "steps": [
+   "Confirmați că bateria este originală.",
+   "Scoateți-o și montați-o la loc.",
+   "Înlocuiți bateria dacă eroarea reapare."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Charging error 20": {
+  "title": "Defecțiune a bateriei sau încărcare imposibilă",
+  "causes": [
+   "Bateria are o defecțiune sau nu poate începe încărcarea."
+  ],
+  "steps": [
+   "Scoateți bateria timp de 15 minute.",
+   "Montați-o la loc și încercați să o încărcați.",
+   "Înlocuiți bateria dacă persistă."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Charging error 21": {
+  "title": "Andocat, dar nu s-a putut încărca",
+  "causes": [
+   "Contacte de încărcare murdare."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Scoateți stația din priză.",
+   "Ștergeți contactele de pe robot și de pe stație cu un burete de melamină ușor umed.",
+   "Andocați din nou robotul."
+  ],
+  "technician": "Dacă eroarea reapare după aceste verificări, contactați iRobot Customer Care și comunicați numărul de serie al robotului."
+ },
+ "iRobot|Error 453": {
+  "title": "Stația nu se poate alinia cu robotul",
+  "causes": [
+   "Rola de spălare a mopurilor sau recipientul nu este fixat.",
+   "Ceva blochează duza stației."
+  ],
+  "steps": [
+   "Montați din nou rola de spălare a mopurilor.",
+   "Asigurați-vă că recipientul este montat și eliberați carcasa duzei.",
+   "Verificați dacă butoanele contactelor de încărcare se mișcă liber, apoi reporniți robotul și stația."
+  ],
+  "technician": "Dacă eroarea stației reapare după acești pași, contactați iRobot Customer Care; stația poate necesita service."
+ },
+ "iRobot|Error 511": {
+  "title": "Problemă la senzorul rezervorului de apă murdară",
+  "causes": [
+   "Rezervorul de apă murdară nu este fixat corect."
+  ],
+  "steps": [
+   "Scoateți rezervorul de apă murdară și reintroduceți-l.",
+   "Scoateți stația din priză pentru câteva secunde și conectați-o la loc.",
+   "Încercați din nou."
+  ],
+  "technician": "Dacă eroarea stației reapare după acești pași, contactați iRobot Customer Care; stația poate necesita service."
+ },
+ "iRobot|Error 512": {
+  "title": "Scurgerea apei murdare este înfundată",
+  "causes": [
+   "Resturile blochează scurgerea din cuvele de spălare."
+  ],
+  "steps": [
+   "Ștergeți ambele cuve cu o lavetă uscată.",
+   "Eliberați orificiul de scurgere.",
+   "Folosiți săpun delicat și un burete pentru murdăria persistentă."
+  ],
+  "technician": "Dacă eroarea stației reapare după acești pași, contactați iRobot Customer Care; stația poate necesita service."
+ },
+ "iRobot|Error 516": {
+  "title": "Rola de spălare a mopurilor s-a oprit",
+  "causes": [
+   "Ceva blochează rola."
+  ],
+  "steps": [
+   "Scoateți rola și îndepărtați orice obstrucție.",
+   "Puneți-o la loc.",
+   "Opriți și porniți alimentarea stației, scoțând-o din priză pentru câteva secunde."
+  ],
+  "technician": "Dacă eroarea stației reapare după acești pași, contactați iRobot Customer Care; stația poate necesita service."
+ },
+ "iRobot|Error 517": {
+  "title": "Cuva de spălare a dat pe dinafară",
+  "causes": [
+   "Prea multă apă murdară în cuvă."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Goliți cuva de preaplin cu o lavetă uscată.",
+   "Curățați ambele cuve.",
+   "Încercați din nou."
+  ],
+  "technician": "Dacă eroarea stației reapare după acești pași, contactați iRobot Customer Care; stația poate necesita service."
+ },
+ "iRobot|Error 518": {
+  "title": "Rola de spălare a mopurilor lipsește",
+  "causes": [
+   "Rola nu este în stație."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Așezați rola în stație.",
+   "Dacă este acolo, scoateți-o și montați-o la loc.",
+   "Opriți și porniți alimentarea stației și reîncercați spălarea."
+  ],
+  "technician": "Dacă eroarea stației reapare după acești pași, contactați iRobot Customer Care; stația poate necesita service."
+ },
+ "iRobot|Error 650": {
+  "title": "Rezervorul de apă curată lipsește",
+  "causes": [
+   "Rezervorul de apă curată nu este fixat sau este blocat."
+  ],
+  "steps": [
+   "Andocați robotul și verificați inelul luminos.",
+   "Îndepărtați tot ce blochează rezervorul.",
+   "Umpleți și remontați rezervorul, apoi opriți și porniți alimentarea stației."
+  ],
+  "technician": "Dacă eroarea stației reapare după acești pași, contactați iRobot Customer Care; stația poate necesita service."
+ },
+ "iRobot|Error 651": {
+  "title": "Nivelul apei curate din rezervor este prea scăzut",
+  "causes": [
+   "Rezervorul de apă curată este gol sau nu este citit corect."
+  ],
+  "steps": [
+   "Umpleți rezervorul de apă curată și reintroduceți-l.",
+   "Dacă era plin, goliți-l și umpleți-l oricum.",
+   "Verificați dacă robotul este andocat corect."
+  ],
+  "technician": "Dacă eroarea stației reapare după acești pași, contactați iRobot Customer Care; stația poate necesita service."
+ },
+ "iRobot|Error 653": {
+  "title": "Rezervorul de apă murdară lipsește",
+  "causes": [
+   "Rezervorul de apă murdară nu este la locul lui sau este blocat."
+  ],
+  "steps": [
+   "Verificați dacă robotul este andocat.",
+   "Scoateți rezervorul de apă murdară și căutați obstrucții.",
+   "Puneți rezervorul gol la loc și opriți și porniți alimentarea stației."
+  ],
+  "technician": "Dacă eroarea stației reapare după acești pași, contactați iRobot Customer Care; stația poate necesita service."
+ },
+ "iRobot|Error 654": {
+  "title": "Rezervorul de apă murdară este prea plin",
+  "causes": [
+   "Rezervorul de apă murdară trebuie golit."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Goliți și curățați rezervorul de apă murdară.",
+   "Reintroduceți-l.",
+   "Verificați dacă robotul este andocat și încercați din nou."
+  ],
+  "technician": "Dacă eroarea stației reapare după acești pași, contactați iRobot Customer Care; stația poate necesita service."
+ },
+ "iRobot|Error 663": {
+  "title": "Nivelul apei curate scade, posibilă scurgere",
+  "causes": [
+   "Este posibil ca apa să se scurgă din stație."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Scoateți stația din priză.",
+   "Scoateți ambele rezervoare.",
+   "Înclinați stația pentru a verifica dacă este apă dedesubt și mutați-o într-o zonă uscată."
+  ],
+  "technician": "Dacă eroarea stației reapare după acești pași, contactați iRobot Customer Care; stația poate necesita service."
+ },
+ "iRobot|Error 668": {
+  "title": "Niciun mop atașat",
+  "causes": [
+   "Mopul lipsește sau nu este detectat."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Atașați un mop.",
+   "Dacă este montat unul, scoateți-l, uscați-l și montați-l la loc.",
+   "Încercați cu alt mop."
+  ],
+  "technician": "Dacă eroarea stației reapare după acești pași, contactați iRobot Customer Care; stația poate necesita service."
+ },
+ "Roborock|Error 1": {
+  "title": "Turela LiDAR sau laserul este blocat",
+  "causes": [
+   "Ceva blochează sau înțepenește turela laser de deasupra."
+  ],
+  "steps": [
+   "Opriți robotul.",
+   "Verificați dacă nu este ceva blocat în jurul turelei și rotiți-o ușor cu mâna.",
+   "Reporniți și încercați din nou."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Roborock|Error 2": {
+  "title": "Bara de protecție este blocată",
+  "causes": [
+   "Murdăria sau resturile țin bara de protecție înăuntru."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Curățați în jurul barei de protecție.",
+   "Loviți-o ușor pentru a o elibera.",
+   "Reporniți robotul."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Roborock|Error 3": {
+  "title": "Roți suspendate",
+  "causes": [
+   "Robotul este ridicat sau roțile îi atârnă."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Așezați robotul pe podea.",
+   "Verificați dacă nicio roată nu atârnă peste o margine.",
+   "Reporniți curățarea."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Roborock|Error 4": {
+  "title": "Eroare a senzorului de cădere",
+  "causes": [
+   "Un senzor de cădere este murdar sau robotul este lângă o diferență de nivel."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Ștergeți senzorii de cădere de pe partea de jos.",
+   "Îndepărtați robotul de margini.",
+   "Reporniți-l."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Roborock|Error 5": {
+  "title": "Peria principală este blocată",
+  "causes": [
+   "Părul sau resturile sunt încolăcite pe peria principală."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Scoateți peria principală.",
+   "Tăiați părul încâlcit și curățați lagărele.",
+   "Montați peria la loc și reporniți."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Roborock|Error 6": {
+  "title": "Peria laterală este blocată",
+  "causes": [
+   "Părul sau resturile sunt încolăcite pe peria laterală."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Scoateți peria laterală.",
+   "Îndepărtați părul și murdăria.",
+   "Montați-o la loc și reporniți."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Roborock|Error 7": {
+  "title": "Roți blocate",
+  "causes": [
+   "Ceva blochează o roată de antrenare."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Mutați robotul într-un loc degajat.",
+   "Verificați dacă roțile au păr sau resturi.",
+   "Reporniți robotul."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Roborock|Error 8": {
+  "title": "Robot blocat",
+  "causes": [
+   "Robotul este prins de mobilă sau de cabluri."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Îndepărtați obstacolele din jurul robotului.",
+   "Mutați-l într-o zonă deschisă.",
+   "Reporniți curățarea."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Roborock|Error 9": {
+  "title": "Recipientul de praf lipsește",
+  "causes": [
+   "Recipientul de praf sau filtrul nu este montat."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Montați recipientul de praf.",
+   "Asigurați-vă că filtrul este montat.",
+   "Reporniți."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Roborock|Error 12": {
+  "title": "Baterie slabă",
+  "causes": [
+   "Bateria este prea slabă pentru a continua."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Puneți robotul pe stație.",
+   "Lăsați-l să se încarce.",
+   "Încercați din nou curățarea."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Roborock|Error 13": {
+  "title": "Eroare de încărcare",
+  "causes": [
+   "Contacte de încărcare murdare pe robot sau pe stație."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Ștergeți contactele de încărcare.",
+   "Verificați dacă stația are alimentare.",
+   "Andocați din nou robotul."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Roborock|Error 14": {
+  "title": "Eroare a bateriei",
+  "causes": [
+   "Bateria poate fi defectă sau în afara intervalului sigur de temperatură."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Lăsați robotul să ajungă la temperatura camerei.",
+   "Încercați din nou încărcarea.",
+   "Reporniți-l."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Roborock|Error 15": {
+  "title": "Senzorul de perete este murdar",
+  "causes": [
+   "Praful acoperă senzorul de perete."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Ștergeți senzorul de perete cu o lavetă uscată.",
+   "Reporniți robotul.",
+   "Faceți o scurtă curățare de test."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Roborock|Error 16": {
+  "title": "Robot înclinat",
+  "causes": [
+   "Robotul se află pe o pantă sau este înclinat."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Mutați-l pe o podea plană.",
+   "Verificați dacă nu este pe marginea unui covor sau pe o treaptă.",
+   "Reporniți."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Roborock|Error 17": {
+  "title": "Eroare a periei laterale",
+  "causes": [
+   "Sistemul periei laterale are o defecțiune."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Resetați robotul.",
+   "Verificați dacă peria laterală se rotește liber.",
+   "Încercați din nou."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Roborock|Error 18": {
+  "title": "Eroare a ventilatorului",
+  "causes": [
+   "Ventilatorul de aspirație are o defecțiune."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Resetați robotul.",
+   "Goliți recipientul și curățați filtrul.",
+   "Încercați din nou."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Roborock|Error 21": {
+  "title": "Bara de protecție verticală este apăsată",
+  "causes": [
+   "Bara de protecție de sus este apăsată sau blocată."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Mutați robotul în alt loc.",
+   "Verificați dacă nimic nu apasă pe bara de protecție.",
+   "Reîncercați."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Roborock|Error 22": {
+  "title": "Eroare a localizatorului de bază",
+  "causes": [
+   "Senzorul care găsește stația este murdar sau blocat."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Curățați localizatorul de bază.",
+   "Eliberați zona din jurul stației.",
+   "Încercați din nou."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Roborock|Error 23": {
+  "title": "Nu s-a putut reveni la bază",
+  "causes": [
+   "Lumina indicatoare a stației este murdară sau blocată."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Curățați lumina indicatoare a locației bazei.",
+   "Îndepărtați obstacolele din apropierea stației.",
+   "Încercați din nou."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Roborock|Error 27": {
+  "title": "Sistemul VibraRise este blocat",
+  "causes": [
+   "Sistemul de ridicare a mopului este blocat."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Verificați dacă nu există obstrucții în jurul plăcii mopului.",
+   "Îndepărtați resturile.",
+   "Reporniți."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Roborock|Error 28": {
+  "title": "Robot pe covor",
+  "causes": [
+   "Mopul este montat, iar robotul se află pe covor."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Mutați robotul pe o podea dură.",
+   "Scoateți mopul dacă doriți să curățați covorul.",
+   "Încercați din nou."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați asistența clienți Roborock."
+ },
+ "Xiaomi|Error 1": {
+  "title": "Bara de protecție blocată sau murdară",
+  "causes": [
+   "Resturile țin bara de protecție."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Curățați bara de protecție.",
+   "Loviți-o ușor pentru a elibera resturile.",
+   "Dacă persistă, mutați robotul în alt loc și reporniți."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați serviciul post-vânzare Xiaomi."
+ },
+ "Xiaomi|Error 2": {
+  "title": "Roată ridicată de la sol",
+  "causes": [
+   "O roată atârnă."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Așezați robotul pe o suprafață plană.",
+   "Reporniți-l.",
+   "Verificați dacă nu se află la o margine."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați serviciul post-vânzare Xiaomi."
+ },
+ "Xiaomi|Error 3": {
+  "title": "Senzor de cădere murdar sau robot ridicat",
+  "causes": [
+   "Senzorul de cădere este murdar sau robotul este parțial ridicat."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Curățați senzorul de cădere.",
+   "Așezați-l pe o suprafață plană.",
+   "Reporniți-l."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați serviciul post-vânzare Xiaomi."
+ },
+ "Xiaomi|Error 4": {
+  "title": "Peria principală este prinsă",
+  "causes": [
+   "Resturile sunt blocate în peria principală."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Scoateți peria principală.",
+   "Curățați perii și lagărele.",
+   "Montați la loc și reporniți."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați serviciul post-vânzare Xiaomi."
+ },
+ "Xiaomi|Error 5": {
+  "title": "Peria laterală este prinsă",
+  "causes": [
+   "Resturile sunt blocate în peria laterală."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Scoateți peria laterală.",
+   "Curățați-o.",
+   "Montați la loc și reporniți."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați serviciul post-vânzare Xiaomi."
+ },
+ "Xiaomi|Error 6": {
+  "title": "Resturi în jurul roții principale",
+  "causes": [
+   "Părul sau resturile sunt încolăcite pe o roată principală."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Verificați ambele roți.",
+   "Îndepărtați materialul încâlcit.",
+   "Mutați robotul în alt loc și reporniți."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați serviciul post-vânzare Xiaomi."
+ },
+ "Xiaomi|Error 7": {
+  "title": "Robot prins sau blocat",
+  "causes": [
+   "Robotul este blocat de un obstacol."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Îndepărtați obstrucțiile din jurul lui.",
+   "Mutați-l pe o podea liberă.",
+   "Reporniți."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați serviciul post-vânzare Xiaomi."
+ },
+ "Xiaomi|Error 8": {
+  "title": "Cutia de praf sau filtrul nu este montat corect",
+  "causes": [
+   "Compartimentul de praf sau filtrul este montat greșit."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Remontați corect cutia de praf și filtrul.",
+   "Dacă persistă, înlocuiți filtrul.",
+   "Reporniți."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați serviciul post-vânzare Xiaomi."
+ },
+ "Xiaomi|Error 9": {
+  "title": "S-a detectat un câmp magnetic puternic",
+  "causes": [
+   "Robotul se află lângă banda de perete virtual."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Îndepărtați robotul de peretele virtual.",
+   "Reporniți-l.",
+   "Verificați poziția benzii."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați serviciul post-vânzare Xiaomi."
+ },
+ "Xiaomi|Error 10": {
+  "title": "Defecțiune de încărcare",
+  "causes": [
+   "Contacte de încărcare murdare."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Ștergeți contactele de pe stație și de pe robot cu o lavetă uscată.",
+   "Așezați din nou robotul pe stație.",
+   "Verificați dacă stația are alimentare."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați serviciul post-vânzare Xiaomi."
+ },
+ "Xiaomi|Error 11": {
+  "title": "Bateria este prea fierbinte sau prea rece",
+  "causes": [
+   "Temperatura bateriei este în afara intervalului admis."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Așteptați ca bateria să revină la o temperatură normală.",
+   "Țineți robotul departe de căldură sau de frig.",
+   "Încercați din nou."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați serviciul post-vânzare Xiaomi."
+ },
+ "Xiaomi|Error 12": {
+  "title": "Zonă restricționată sau perete virtual detectat",
+  "causes": [
+   "Robotul a intrat într-o zonă restricționată."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Îndepărtați-l de zona benzii de delimitare.",
+   "Reporniți-l.",
+   "Verificați poziția benzii."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați serviciul post-vânzare Xiaomi."
+ },
+ "Xiaomi|Error 13": {
+  "title": "Senzorul de navigație vizuală este murdar",
+  "causes": [
+   "Senzorul de navigație este murdar."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Ștergeți senzorul cu o lavetă moale și uscată.",
+   "Reporniți robotul.",
+   "Faceți o scurtă curățare."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați serviciul post-vânzare Xiaomi."
+ },
+ "Xiaomi|Error 14": {
+  "title": "Eroare internă",
+  "causes": [
+   "Sistemul are o defecțiune internă."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Resetați sistemul.",
+   "Reporniți robotul.",
+   "Încercați din nou curățarea."
+  ],
+  "technician": "Dacă eroarea reapare după curățare și resetare, contactați serviciul post-vânzare Xiaomi."
+ },
+ "eufy|Error 1": {
+  "title": "Bara de protecție din față este blocată",
+  "causes": [
+   "Murdăria sau un obiect țin bara de protecție."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Loviți bara de protecție pentru a verifica dacă se mișcă.",
+   "Dacă este blocată, scoateți-o și montați-o la loc.",
+   "Reporniți."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 2": {
+  "title": "Roată blocată",
+  "causes": [
+   "O roată este blocată."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Îndepărtați resturile dintre roată și corp.",
+   "Rotiți roata cu mâna.",
+   "Mutați robotul și reîncercați."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 3": {
+  "title": "Peria laterală este blocată",
+  "causes": [
+   "Ceva este prins în peria laterală."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Scoateți obiectul.",
+   "Verificați dacă peria se rotește liber.",
+   "Reîncercați."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 4": {
+  "title": "Peria cu rolă este blocată",
+  "causes": [
+   "Părul sau resturile sunt încolăcite pe peria cu rolă."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Scoateți peria cu rolă.",
+   "Îndepărtați resturile.",
+   "Măriți puterea de aspirare pe podelele cu mult păr."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 5": {
+  "title": "Robot blocat, îndepărtați obstacolele",
+  "causes": [
+   "Obstacolele blochează robotul."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Eliberați zona din jurul lui.",
+   "Mutați-l într-un loc deschis.",
+   "Reporniți."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 6": {
+  "title": "Robot blocat, mutați-l într-o zonă deschisă",
+  "causes": [
+   "Robotul este prins de un obstacol."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Mutați-l într-o zonă deschisă.",
+   "Reporniți curățarea.",
+   "Setați o zonă No-Go dacă se blochează mereu în același loc."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 7": {
+  "title": "Robotul nu atinge solul",
+  "causes": [
+   "Robotul este ridicat sau se află la o margine."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Așezați-l pe podea, în alt loc.",
+   "Verificați dacă senzorii de cădere sunt curați.",
+   "Reporniți."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 8": {
+  "title": "Baterie slabă, se oprește",
+  "causes": [
+   "Bateria este prea slabă."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Mutați robotul la stație.",
+   "Lăsați-l să se încarce.",
+   "Reîncercați.",
+   "Faceți o scurtă curățare de test lângă stație pentru a confirma că a dispărut codul."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 13": {
+  "title": "Robot înclinat",
+  "causes": [
+   "Robotul se află pe o pantă."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Așezați-l pe o suprafață plană.",
+   "Reporniți curățarea.",
+   "Verificați dacă nu este pe un prag."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 14": {
+  "title": "Recipientul de praf sau filtrul lipsește",
+  "causes": [
+   "Recipientul de praf sau filtrul nu este montat."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Deschideți capacul.",
+   "Remontați recipientul de praf și filtrul.",
+   "Asigurați-vă că filtrul este bine fixat."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 17": {
+  "title": "A intrat din greșeală într-o zonă No-Go",
+  "causes": [
+   "Robotul se află într-o zonă No-Go."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Mutați-l în afara zonei.",
+   "Reporniți curățarea.",
+   "Verificați zonele în aplicație."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 18": {
+  "title": "Capacul senzorului laser poate fi blocat",
+  "causes": [
+   "Capacul laserului este obstrucționat."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Îndepărtați tot ce blochează capacul.",
+   "Apăsați capacul până auziți un clic.",
+   "Reporniți."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 19": {
+  "title": "Senzorul laser poate fi blocat",
+  "causes": [
+   "Senzorul nu se poate roti liber."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Opriți robotul.",
+   "Îndepărtați tot ce oprește rotirea.",
+   "Reporniți."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 20": {
+  "title": "Senzorul laser poate fi acoperit",
+  "causes": [
+   "Resturi se află pe senzor."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Îndepărtați resturile de pe partea de sus a senzorului.",
+   "Ștergeți ușor cu o lavetă uscată.",
+   "Reporniți."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 21": {
+  "title": "Revenirea la stație a eșuat",
+  "causes": [
+   "Robotul vede stația, dar nu poate intra."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Îndepărtați obstacolele din jurul stației.",
+   "Verificați dacă stația are alimentare.",
+   "Trimiteți din nou robotul la stație."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 23": {
+  "title": "Nu se poate găsi punctul de pornire",
+  "causes": [
+   "Curățarea nu a început de la stație."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Porniți curățarea de la stație.",
+   "Țineți stația în același loc.",
+   "Reîncercați."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 26": {
+  "title": "Baterie slabă, curățarea programată a eșuat",
+  "causes": [
+   "Bateria a fost prea slabă pentru ciclul programat."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Încărcați robotul.",
+   "Reîncercați programarea.",
+   "Țineți-l pe stație."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 27": {
+  "title": "Nivel anormal al apei în tava de curățare a stației",
+  "causes": [
+   "Este apă în tava de curățare."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Uscați tava cu o lavetă uscată.",
+   "Verificați dacă pe detectorul metalic sunt picături de apă.",
+   "Montați tava la loc."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 28": {
+  "title": "Tava de curățare a stației nu este montată",
+  "causes": [
+   "Tava lipsește sau este slab fixată."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Montați corect tava.",
+   "Apăsați până se așază plat.",
+   "Reîncercați."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 29": {
+  "title": "Capacul stației nu este închis",
+  "causes": [
+   "Capacul este deschis."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Închideți complet capacul stației.",
+   "Verificați dacă nimic nu îl blochează.",
+   "Reîncercați.",
+   "Faceți o scurtă curățare de test lângă stație pentru a confirma că a dispărut codul."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 30": {
+  "title": "Tensiune de intrare anormală la stație",
+  "causes": [
+   "Tensiunea stației nu corespunde prizei dumneavoastră."
+  ],
+  "steps": [
+   "Verificați dacă stația are tensiunea potrivită (220V sau 110V).",
+   "Folosiți o priză corespunzătoare.",
+   "Contactați asistența dacă nu corespund."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 31": {
+  "title": "Corp străin în gura de aspirare",
+  "causes": [
+   "Resturile blochează admisia."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Scoateți peria.",
+   "Eliberați locașul periei.",
+   "Goliți recipientul de praf."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 32": {
+  "title": "Suportul mopului este blocat",
+  "causes": [
+   "Sunt resturi în suportul mopului."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Îndepărtați resturile.",
+   "Curățați suportul.",
+   "Reîncercați.",
+   "Faceți o scurtă curățare de test lângă stație pentru a confirma că a dispărut codul."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "eufy|Error 34": {
+  "title": "Mopul a căzut",
+  "causes": [
+   "Un mop lipsește sau este slab fixat."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Montați corect mopul.",
+   "Verificați dacă se prinde la locul lui.",
+   "Reporniți."
+  ],
+  "technician": "Dacă alerta persistă după acești pași, contactați asistența eufy prin formularul de e-mail sau prin chat live."
+ },
+ "Shark|Error 2": {
+  "title": "Peria cu rolă, peria laterală sau o roată este blocată",
+  "causes": [
+   "Peria cu rolă este blocată (CLEAN și ! roșii).",
+   "O perie laterală este blocată (DOCK și ! roșii).",
+   "O roată de antrenare este blocată (toate cele trei roșii)."
+  ],
+  "steps": [
+   "Opriți robotul.",
+   "Îndepărtați resturile de pe peria cu rolă, de pe periile laterale sau de pe roți, conform indicațiilor luminilor.",
+   "Verificați dacă roțile se rotesc liber, apoi reporniți."
+  ],
+  "technician": "Dacă modelul de lumini reapare, contactați serviciul clienți Shark."
+ },
+ "Shark|Error 6": {
+  "title": "Bara de protecție din față poate fi blocată",
+  "causes": [
+   "Murdăria ține bara de protecție (DOCK roșu, clipește)."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Curățați în jurul barei de protecție.",
+   "Apăsați-o pentru a verifica dacă se mișcă liber.",
+   "Reporniți."
+  ],
+  "technician": "Dacă modelul de lumini reapare, contactați serviciul clienți Shark."
+ },
+ "Shark|Error 7": {
+  "title": "Eroare a senzorului de cădere",
+  "causes": [
+   "Senzorii de cădere sunt murdari sau robotul este lângă o diferență de nivel."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Mutați robotul în alt loc.",
+   "Ștergeți senzorii de cădere.",
+   "Reporniți."
+  ],
+  "technician": "Dacă modelul de lumini reapare, contactați serviciul clienți Shark."
+ },
+ "Shark|Error 10": {
+  "title": "Robot blocat de un obstacol",
+  "causes": [
+   "Este posibil ca robotul să fie blocat (CLEAN roșu, clipește)."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Mutați-l pe un loc plan.",
+   "Îndepărtați obstacolele din apropiere.",
+   "Reporniți."
+  ],
+  "technician": "Dacă modelul de lumini reapare, contactați serviciul clienți Shark."
+ },
+ "Shark|Error 24": {
+  "title": "Baterie extrem de slabă",
+  "causes": [
+   "Bateria este aproape goală."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Așezați robotul pe bază.",
+   "Verificați dacă lumina de încărcare a bazei este aprinsă.",
+   "Lăsați-l să se încarce."
+  ],
+  "technician": "Dacă modelul de lumini reapare, contactați serviciul clienți Shark."
+ },
+ "Shark|Error 26": {
+  "title": "Recipientul de praf este blocat",
+  "causes": [
+   "O înfundare în recipientul de praf al bazei sau al robotului."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Verificați dacă ambele recipiente sunt înfundate.",
+   "Îndepărtați resturile.",
+   "Montați recipientul la loc până se aude un clic."
+  ],
+  "technician": "Dacă modelul de lumini reapare, contactați serviciul clienți Shark."
+ },
+ "Ecovacs|Bumper stuck": {
+  "title": "Alertă vocală: bara de protecție blocată",
+  "causes": [
+   "Resturile sau banda de protecție țin bara de protecție."
+  ],
+  "steps": [
+   "Scoateți banda de protecție împotriva coliziunilor.",
+   "Apăsați bara de protecție în stânga, la mijloc și în dreapta, pentru a verifica dacă revine la loc.",
+   "Opriți, reporniți și testați."
+  ],
+  "technician": "Dacă alerta reapare, contactați serviciul post-vânzare Ecovacs."
+ },
+ "Ecovacs|Laser sensor malfunction": {
+  "title": "Senzorul laser nu funcționează",
+  "causes": [
+   "Ansamblul laser este murdar sau blocat."
+  ],
+  "steps": [
+   "Împingeți ușor ansamblul laser.",
+   "Rotiți lentila spre față și ștergeți-o cu o lavetă curată.",
+   "Opriți, reporniți și testați."
+  ],
+  "technician": "Dacă alerta reapare, contactați serviciul post-vânzare Ecovacs."
+ },
+ "Ecovacs|Dust bag installation error": {
+  "title": "Punga de praf nu este montată corect",
+  "causes": [
+   "Punga de praf nu este fixată."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Opriți aparatul și deschideți capacul recipientului de praf.",
+   "Scoateți punga de praf și montați-o la loc.",
+   "Închideți capacul și testați colectarea prafului."
+  ],
+  "technician": "Dacă alerta reapare, contactați serviciul post-vânzare Ecovacs."
+ },
+ "Ecovacs|Rotating mop tangled": {
+  "title": "Mopul rotativ este blocat",
+  "causes": [
+   "Resturile sau părul blochează mopul rotativ."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Extindeți mopul și scoateți-l.",
+   "Curățați mopul și eliberați locașul.",
+   "Montați-l la loc până se aude un clic și reporniți."
+  ],
+  "technician": "Dacă alerta reapare, contactați serviciul post-vânzare Ecovacs."
+ },
+ "Ecovacs|Water tank not installed or low water": {
+  "title": "Rezervorul de apă curată lipsește sau este gol",
+  "causes": [
+   "Rezervorul este gol, lipsește sau flotorul este blocat."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Scoateți rezervorul și verificați dacă flotorul se mișcă.",
+   "Umpleți până la linia maximă.",
+   "Închideți capacul și montați la loc."
+  ],
+  "technician": "Dacă alerta reapare, contactați serviciul post-vânzare Ecovacs."
+ },
+ "Ecovacs|Dirty water tank not installed": {
+  "title": "Rezervorul de apă murdară lipsește sau este montat greșit",
+  "causes": [
+   "Rezervorul nu este fixat sau nu este detectat."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Goliți și clătiți rezervorul de apă murdară.",
+   "Verificați flotorul și zăvoarele.",
+   "Montați-l la loc."
+  ],
+  "technician": "Dacă alerta reapare, contactați serviciul post-vânzare Ecovacs."
+ },
+ "Ecovacs|Cleaning sink anomaly": {
+  "title": "Tava de spălare a mopurilor nu se golește",
+  "causes": [
+   "Resturile blochează flotorul sau scurgerea."
+  ],
+  "steps": [
+   "Verificați dacă tava este bine fixată.",
+   "Curățați flotorul de preaplin.",
+   "Rulați funcția de golire din aplicație, apoi opriți și porniți alimentarea stației."
+  ],
+  "technician": "Dacă alerta reapare, contactați serviciul post-vânzare Ecovacs."
+ },
+ "Ecovacs|Dirty water tank anomaly": {
+  "title": "Problemă la rezervorul de apă murdară sau la scurgere",
+  "causes": [
+   "Garnitura sau orificiul de scurgere este blocat."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Goliți rezervorul și curățați filtrul.",
+   "Închideți strâns capacul.",
+   "Eliberați orificiul de scurgere cu o perie."
+  ],
+  "technician": "Dacă alerta reapare, contactați serviciul post-vânzare Ecovacs."
+ },
+ "Dreame|Dust box error": {
+  "title": "Alarmă pentru cutia de praf",
+  "causes": [
+   "Cutia de praf este slab fixată.",
+   "Filtrul este montat invers sau este defect."
+  ],
+  "steps": [
+   "Fixați ferm cutia de praf.",
+   "Reporniți robotul.",
+   "Verificați dacă filtrul este montat în sensul corect și înlocuiți-l dacă arată ciudat."
+  ],
+  "technician": "Dacă eroarea continuă, contactați serviciul clienți Dreame."
+ },
+ "Dreame|Laser sensor error": {
+  "title": "Defecțiune a senzorului laser de distanță",
+  "causes": [
+   "Senzorul laser este prăfuit sau înțepenit."
+  ],
+  "steps": [
+   "Opriți robotul și țineți-l departe de apă înainte de a-l verifica.",
+   "Actualizați firmware-ul din aplicație.",
+   "Loviți ușor capacul și îndepărtați praful.",
+   "Rotiți senzorul cu mâna pentru a verifica dacă se învârte."
+  ],
+  "technician": "Dacă eroarea continuă, contactați serviciul clienți Dreame."
+ }
+}

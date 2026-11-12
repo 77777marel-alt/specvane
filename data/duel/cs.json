@@ -1,0 +1,15 @@
+{
+ "title": "Souboj na 30 sekund: který je lepší pro vás?",
+ "lead": "Klepnutím určete, jak moc vám na čem záleží. Zvážíme, jak si každý model stojí mezi všemi modely v našem katalogu v těchto parametrech, a řekneme vám, který se hodí pro vás.",
+ "levels": [
+  "Nezáleží mi na tom",
+  "Záleží",
+  "Velmi důležité"
+ ],
+ "result": "Pro vás: {name}",
+ "tie": "Remíza: oba se vám hodí zhruba stejně – vyberte podle ceny nebo designu.",
+ "wins": "Vede v {n} z {m} věcí, na kterých vám záleží.",
+ "basis": "Skóre = podíl modelů z katalogu, které každý z nich v těchto parametrech překonává, vážený vašimi odpověďmi. Cena, design a recenze se nezapočítávají.",
+ "none": "Vyberte alespoň jednu věc, na které vám záleží.",
+ "specs": "Na základě: {list}"
+}

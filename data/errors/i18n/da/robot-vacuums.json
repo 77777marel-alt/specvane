@@ -1,0 +1,1394 @@
+{
+ "iRobot|Error 1": {
+  "title": "Roomba sidder fast, eller et hjul hænger ned",
+  "causes": [
+   "Robotten sidder fast på noget.",
+   "Et sidehjul hænger ned eller er blokeret."
+  ],
+  "steps": [
+   "Løft robotten, og sæt den på et nyt sted.",
+   "Tryk på CLEAN for at starte igen.",
+   "Drej begge sidehjul rundt i hånden, og ryst eventuelt snavs ud."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Error 2": {
+  "title": "Extractors kan ikke dreje",
+  "causes": [
+   "Hår eller snavs sidder fast i extractors (børsterne)."
+  ],
+  "steps": [
+   "Tag beholderen ud, og åbn rammen om extractors.",
+   "Tag extractors ud, og klip hår og snor væk.",
+   "Sæt dem i igen, og tryk på CLEAN."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Error 5": {
+  "title": "Sidehjul sidder fast",
+  "causes": [
+   "Et sidehjul kan ikke dreje frit på grund af snavs eller hår."
+  ],
+  "steps": [
+   "Vend robotten om.",
+   "Drej hvert sidehjul rundt, og fjern snavs fra hjulbrønden.",
+   "Sæt robotten på gulvet, og tryk på CLEAN."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Error 6": {
+  "title": "Faldsensorer er snavsede, eller robotten er over en kant",
+  "causes": [
+   "Faldsensorerne på undersiden er snavsede.",
+   "Robotten er over en kant eller på et meget mørkt gulv."
+  ],
+  "steps": [
+   "Flyt robotten til et nyt sted.",
+   "Tør faldsensorerne på undersiden af med en tør klud.",
+   "Tryk på CLEAN for at starte igen."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Error 7": {
+  "title": "Sidehjul sidder fast",
+  "causes": [
+   "Et sidehjul er blokeret af snavs eller hår."
+  ],
+  "steps": [
+   "Vend robotten om, og drej hvert sidehjul rundt.",
+   "Fjern hår og snavs fra hjulbrøndene.",
+   "Sæt den ned, og tryk på CLEAN."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Error 9": {
+  "title": "Kofangeren er trykket ind, eller kofangersensoren er snavset",
+  "causes": [
+   "Kofangeren er trykket ind eller sidder fast.",
+   "Kofangersensoren er snavset."
+  ],
+  "steps": [
+   "Bank flere gange på kofangeren for at løsne snavs.",
+   "Tør rundt om kofangerens kanter med en tør klud.",
+   "Genstart robotten."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Error 10": {
+  "title": "Sidehjul sidder fast, eller kofangeren registrerer ikke",
+  "causes": [
+   "Et sidehjul sidder fast.",
+   "Kofangeren registrerer ikke forhindringer."
+  ],
+  "steps": [
+   "Drej sidehjulene rundt, og rengør hjulbrøndene.",
+   "Bank på kofangeren for at fjerne snavs.",
+   "Tryk på CLEAN for at prøve igen."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Error 11": {
+  "title": "Fejl i Roombas sugesystem",
+  "causes": [
+   "Suge- eller beholdersystemet har en fejl."
+  ],
+  "steps": [
+   "Tag beholderen ud, og tøm den.",
+   "Rengør filteret, og tjek, at beholderen sidder rigtigt.",
+   "Genstart robotten, og se hjælpen i iRobot HOME-appen på modeller med Wi-Fi."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Error 14": {
+  "title": "Roomba kan ikke registrere beholderen",
+  "causes": [
+   "Beholderen er ikke sat rigtigt i.",
+   "Beholderens kontakter er snavsede."
+  ],
+  "steps": [
+   "Tjek, at beholderen er sat helt i.",
+   "Tør kontakterne på beholderen og robotten af med en let fugtet svamp af melaminskum.",
+   "Hvis det fortsætter, skal du muligvis have en ny beholder."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Error 18": {
+  "title": "Roomba kan ikke vende tilbage til dockingstationen eller startpunktet",
+  "causes": [
+   "Dockingstationen har ingen strøm eller blev flyttet.",
+   "Snavsede ladekontakter eller sensorer, eller hjul, der sidder fast."
+  ],
+  "steps": [
+   "Tjek, at dockingstationen har strøm og lyser.",
+   "Ryd området, og tør kontakter og sensorer af med en tør eller let fugtet klud.",
+   "Drej hjulene rundt, og genstart derefter robotten og dockingstationen.",
+   "Flyt dockingstationen tættere på rengøringsområdet, hvis den er uden for rækkevidde."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Error 1010": {
+  "title": "Roomba kan ikke finde eller nå sin dockingstation",
+  "causes": [
+   "En spærret vej eller en lukket dør.",
+   "Dockingstationen blev flyttet eller taget ud af stikkontakten.",
+   "Lys eller refleksioner forvirrer dockingsensorerne."
+  ],
+  "steps": [
+   "Ryd vejen, og åbn dørene.",
+   "Hold tænd/sluk-knappen inde i 10 sekunder for at genstarte, og kør derefter igen.",
+   "Rengør børster, hjul og sensorer på robotten og dockingstationen.",
+   "Hvis det fortsætter, så slet kortet, og lad robotten kortlægge igen."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Charging error 1": {
+  "title": "Roomba registrerer ikke batteriet",
+  "causes": [
+   "Batteriet sidder ikke rigtigt eller registreres ikke."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tag batteriet ud.",
+   "Sæt det godt fast igen.",
+   "Prøv at lade igen."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Charging error 2": {
+  "title": "Overstrømsfejl under opladning af batteriet",
+  "causes": [
+   "Batteriet er måske ikke et originalt iRobot-batteri.",
+   "Der kan være væskeskade."
+  ],
+  "steps": [
+   "Tjek, at du bruger et originalt iRobot lithium-ion-batteri.",
+   "Se efter tegn på væskeskade.",
+   "Oplad ikke, hvis batteriet ser beskadiget ud."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Charging error 3": {
+  "title": "Fejl i opladningssystemet",
+  "causes": [
+   "En fejl i opladningssystemet, muligvis på grund af væskeskade."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Prøv at lade igen.",
+   "Tjek for væskeskade.",
+   "Hold dockingstationen og robotten tørre."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Charging error 4": {
+  "title": "Lav eller ingen ladestrøm",
+  "causes": [
+   "Snavsede ladekontakter på robotten eller dockingstationen."
+  ],
+  "steps": [
+   "Tag dockingstationens stik ud.",
+   "Tør ladekontakterne på begge af med en let fugtet pude af melaminskum.",
+   "Prøv at lade igen."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Charging error 6": {
+  "title": "Batteriet er for varmt eller for koldt til opladning",
+  "causes": [
+   "Batteriet er uden for sit sikre opladningstemperaturområde."
+  ],
+  "steps": [
+   "Flyt robotten til et sted med stuetemperatur.",
+   "Vent, til den har nået stuetemperatur.",
+   "Prøv at lade igen."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Charging error 8": {
+  "title": "Robotten kan ikke kommunikere med batteriet",
+  "causes": [
+   "Batteriet er måske ikke originalt eller sidder dårligt."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tjek, at batteriet er et originalt iRobot-batteri.",
+   "Tag det ud, og sæt det i igen.",
+   "Prøv at lade igen."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Charging error 9": {
+  "title": "Batterifejl",
+  "causes": [
+   "Batteriet er svigtet eller er ikke originalt."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tjek, at batteriet er originalt.",
+   "Tag det ud, og sæt det i igen.",
+   "Hvis det svigter igen, så planlæg at udskifte batteriet."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Charging error 11": {
+  "title": "Hardwarefejl i batteriet",
+  "causes": [
+   "Batteriet har en hardwarefejl eller er ikke originalt."
+  ],
+  "steps": [
+   "Tjek, at batteriet er originalt.",
+   "Tag det ud, og sæt det i igen.",
+   "Udskift batteriet, hvis fejlen vender tilbage."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Charging error 20": {
+  "title": "Batterifejl, eller batteriet er ikke klar til opladning",
+  "causes": [
+   "Batteriet har en fejl eller kan ikke begynde at lade."
+  ],
+  "steps": [
+   "Tag batteriet ud i 15 minutter.",
+   "Sæt det i igen, og prøv at lade.",
+   "Udskift batteriet, hvis det fortsætter."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Charging error 21": {
+  "title": "Placeret i dockingstationen, men kunne ikke lade",
+  "causes": [
+   "Snavsede ladekontakter."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tag dockingstationens stik ud.",
+   "Tør kontakterne på robotten og dockingstationen af med en let fugtet pude af melaminskum.",
+   "Sæt robotten i dockingstationen igen."
+  ],
+  "technician": "Hvis fejlen bliver ved med at vende tilbage efter disse kontroller, så kontakt iRobot Customer Care med robottens serienummer."
+ },
+ "iRobot|Error 453": {
+  "title": "Dockingstationen kan ikke justere sig efter robotten",
+  "causes": [
+   "Valsen til vask af pads eller beholderen sidder ikke rigtigt.",
+   "Noget blokerer dockingstationens dyse."
+  ],
+  "steps": [
+   "Sæt valsen til vask af pads i igen.",
+   "Sørg for, at beholderen er sat i, og fjern det, der blokerer dyseholderen.",
+   "Tjek, at ladekontaktknapperne bevæger sig frit, og genstart derefter robotten og dockingstationen."
+  ],
+  "technician": "Hvis dockingfejlen vender tilbage efter disse trin, så kontakt iRobot Customer Care; dockingstationen skal muligvis serviceres."
+ },
+ "iRobot|Error 511": {
+  "title": "Problem med sensoren i tanken til snavset vand",
+  "causes": [
+   "Tanken til snavset vand sidder ikke rigtigt."
+  ],
+  "steps": [
+   "Tag tanken til snavset vand ud, og sæt den i igen.",
+   "Tag dockingstationens stik ud et par sekunder, og sæt det i igen.",
+   "Prøv igen."
+  ],
+  "technician": "Hvis dockingfejlen vender tilbage efter disse trin, så kontakt iRobot Customer Care; dockingstationen skal muligvis serviceres."
+ },
+ "iRobot|Error 512": {
+  "title": "Afløbet til snavset vand er tilstoppet",
+  "causes": [
+   "Snavs blokerer afløbet i vaskebakkerne."
+  ],
+  "steps": [
+   "Tør begge bakker af med en tør klud.",
+   "Fjern det, der blokerer afløbsåbningen.",
+   "Brug mild sæbe og en svamp til genstridigt snavs."
+  ],
+  "technician": "Hvis dockingfejlen vender tilbage efter disse trin, så kontakt iRobot Customer Care; dockingstationen skal muligvis serviceres."
+ },
+ "iRobot|Error 516": {
+  "title": "Valsen til vask af pads er gået i stå",
+  "causes": [
+   "Noget blokerer valsen."
+  ],
+  "steps": [
+   "Tag valsen ud, og fjern det, der blokerer.",
+   "Sæt den i igen.",
+   "Foretag en strømcyklus på dockingstationen ved at tage stikket ud i et par sekunder."
+  ],
+  "technician": "Hvis dockingfejlen vender tilbage efter disse trin, så kontakt iRobot Customer Care; dockingstationen skal muligvis serviceres."
+ },
+ "iRobot|Error 517": {
+  "title": "Vaskebakken løber over",
+  "causes": [
+   "For meget snavset vand i bakken."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tøm overløbsbakken med en tør klud.",
+   "Rengør begge bakker.",
+   "Prøv igen."
+  ],
+  "technician": "Hvis dockingfejlen vender tilbage efter disse trin, så kontakt iRobot Customer Care; dockingstationen skal muligvis serviceres."
+ },
+ "iRobot|Error 518": {
+  "title": "Valsen til vask af pads mangler",
+  "causes": [
+   "Valsen sidder ikke i dockingstationen."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Sæt valsen i dockingstationen.",
+   "Hvis den sidder der, så tag den ud, og sæt den i igen.",
+   "Foretag en strømcyklus på dockingstationen, og prøv at vaske igen."
+  ],
+  "technician": "Hvis dockingfejlen vender tilbage efter disse trin, så kontakt iRobot Customer Care; dockingstationen skal muligvis serviceres."
+ },
+ "iRobot|Error 650": {
+  "title": "Tanken til rent vand mangler",
+  "causes": [
+   "Tanken til rent vand sidder ikke rigtigt eller er blokeret."
+  ],
+  "steps": [
+   "Sæt robotten i dockingstationen, og tjek lysringen.",
+   "Fjern alt, der blokerer tanken.",
+   "Fyld tanken op, og sæt den i igen, og foretag derefter en strømcyklus på dockingstationen."
+  ],
+  "technician": "Hvis dockingfejlen vender tilbage efter disse trin, så kontakt iRobot Customer Care; dockingstationen skal muligvis serviceres."
+ },
+ "iRobot|Error 651": {
+  "title": "Vandstanden i tanken til rent vand er for lav",
+  "causes": [
+   "Tanken til rent vand er tom eller aflæses ikke korrekt."
+  ],
+  "steps": [
+   "Fyld tanken til rent vand op, og sæt den i igen.",
+   "Hvis den var fuld, så tøm den og fyld den alligevel op igen.",
+   "Tjek, at robotten står rigtigt i dockingstationen."
+  ],
+  "technician": "Hvis dockingfejlen vender tilbage efter disse trin, så kontakt iRobot Customer Care; dockingstationen skal muligvis serviceres."
+ },
+ "iRobot|Error 653": {
+  "title": "Tanken til snavset vand mangler",
+  "causes": [
+   "Tanken til snavset vand sidder ikke på plads eller er blokeret."
+  ],
+  "steps": [
+   "Tjek, at robotten står i dockingstationen.",
+   "Tag tanken til snavset vand ud, og se efter forhindringer.",
+   "Sæt den tomme tank tilbage, og foretag en strømcyklus på dockingstationen."
+  ],
+  "technician": "Hvis dockingfejlen vender tilbage efter disse trin, så kontakt iRobot Customer Care; dockingstationen skal muligvis serviceres."
+ },
+ "iRobot|Error 654": {
+  "title": "Tanken til snavset vand er for fuld",
+  "causes": [
+   "Tanken til snavset vand skal tømmes."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tøm og rengør tanken til snavset vand.",
+   "Sæt den i igen.",
+   "Tjek, at robotten står i dockingstationen, og prøv igen."
+  ],
+  "technician": "Hvis dockingfejlen vender tilbage efter disse trin, så kontakt iRobot Customer Care; dockingstationen skal muligvis serviceres."
+ },
+ "iRobot|Error 663": {
+  "title": "Vandstanden i tanken til rent vand falder, mulig lækage",
+  "causes": [
+   "Der kan lække vand fra dockingstationen."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tag dockingstationens stik ud.",
+   "Tag begge tanke ud.",
+   "Vip dockingstationen for at se, om der er vand under den, og flyt den til et tørt sted."
+  ],
+  "technician": "Hvis dockingfejlen vender tilbage efter disse trin, så kontakt iRobot Customer Care; dockingstationen skal muligvis serviceres."
+ },
+ "iRobot|Error 668": {
+  "title": "Ingen rengøringspad monteret",
+  "causes": [
+   "Puden mangler eller registreres ikke."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Sæt en pad på.",
+   "Hvis der sidder en, så tag den af, tør den, og sæt den på igen.",
+   "Prøv en anden pad."
+  ],
+  "technician": "Hvis dockingfejlen vender tilbage efter disse trin, så kontakt iRobot Customer Care; dockingstationen skal muligvis serviceres."
+ },
+ "Roborock|Error 1": {
+  "title": "LiDAR-tårn eller laser blokeret",
+  "causes": [
+   "Noget blokerer eller fastklemmer lasertårnet øverst."
+  ],
+  "steps": [
+   "Sluk robotten.",
+   "Tjek, om noget sidder fast omkring tårnet, og drej det forsigtigt rundt i hånden.",
+   "Genstart, og prøv igen."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Roborock|Error 2": {
+  "title": "Kofanger sidder fast",
+  "causes": [
+   "Snavs eller affald holder kofangeren inde."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Rengør omkring kofangeren.",
+   "Bank forsigtigt på den for at løsne den.",
+   "Genstart robotten."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Roborock|Error 3": {
+  "title": "Hjulene hænger i luften",
+  "causes": [
+   "Robotten er løftet, eller hjulene hænger ned."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Sæt robotten på gulvet.",
+   "Tjek, at intet hjul hænger ud over en kant.",
+   "Genstart rengøringen."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Roborock|Error 4": {
+  "title": "Fejl i faldsensor",
+  "causes": [
+   "En faldsensor er snavset, eller robotten er tæt på en kant."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tør faldsensorerne på undersiden af.",
+   "Flyt robotten væk fra kanter.",
+   "Genstart den."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Roborock|Error 5": {
+  "title": "Hovedbørsten sidder fast",
+  "causes": [
+   "Hår eller snavs har viklet sig om hovedbørsten."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tag hovedbørsten af.",
+   "Klip sammenfiltret hår væk, og rengør lejerne.",
+   "Sæt børsten på igen, og genstart."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Roborock|Error 6": {
+  "title": "Sidebørsten sidder fast",
+  "causes": [
+   "Hår eller snavs har viklet sig om sidebørsten."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tag sidebørsten af.",
+   "Fjern hår og snavs.",
+   "Sæt den på igen, og genstart."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Roborock|Error 7": {
+  "title": "Hjul sidder fast",
+  "causes": [
+   "Noget blokerer et drivhjul."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Flyt robotten til et frit sted.",
+   "Tjek hjulene for hår eller snavs.",
+   "Genstart robotten."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Roborock|Error 8": {
+  "title": "Robotten sidder fast",
+  "causes": [
+   "Robotten er fanget af møbler eller kabler."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Fjern forhindringer i nærheden af robotten.",
+   "Flyt den til et åbent område.",
+   "Genstart rengøringen."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Roborock|Error 9": {
+  "title": "Støvbeholderen mangler",
+  "causes": [
+   "Støvbeholderen eller filteret er ikke sat i."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Sæt støvbeholderen i.",
+   "Sørg for, at filteret er sat i.",
+   "Genstart."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Roborock|Error 12": {
+  "title": "Lavt batteriniveau",
+  "causes": [
+   "Batteriet er for lavt til at fortsætte."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Sæt robotten i dockingstationen.",
+   "Lad den lade op.",
+   "Prøv at gøre rent igen."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Roborock|Error 13": {
+  "title": "Opladningsfejl",
+  "causes": [
+   "Snavsede ladekontakter på robotten eller dockingstationen."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tør ladekontakterne af.",
+   "Tjek, at dockingstationen har strøm.",
+   "Sæt robotten i dockingstationen igen."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Roborock|Error 14": {
+  "title": "Batterifejl",
+  "causes": [
+   "Batteriet kan være defekt eller uden for sit sikre temperaturområde."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Lad robotten nå stuetemperatur.",
+   "Prøv at lade igen.",
+   "Genstart den."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Roborock|Error 15": {
+  "title": "Vægsensoren er snavset",
+  "causes": [
+   "Støv dækker vægsensoren."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tør vægsensoren af med en tør klud.",
+   "Genstart robotten.",
+   "Kør en kort test af rengøringen."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Roborock|Error 16": {
+  "title": "Robotten hælder",
+  "causes": [
+   "Robotten står på en skråning eller hælder."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Flyt den til et plant gulv.",
+   "Tjek, at den ikke står på kanten af et tæppe eller en trappetrin.",
+   "Genstart."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Roborock|Error 17": {
+  "title": "Fejl i sidebørsten",
+  "causes": [
+   "Sidebørstesystemet har en fejl."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Nulstil robotten.",
+   "Tjek, at sidebørsten drejer frit.",
+   "Prøv igen."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Roborock|Error 18": {
+  "title": "Blæserfejl",
+  "causes": [
+   "Sugeblæseren har en fejl."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Nulstil robotten.",
+   "Tøm beholderen, og rengør filteret.",
+   "Prøv igen."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Roborock|Error 21": {
+  "title": "Lodret kofanger trykket ind",
+  "causes": [
+   "Den øverste kofanger er trykket ind eller sidder fast."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Flyt robotten til et nyt sted.",
+   "Tjek, at intet trykker på kofangeren.",
+   "Prøv igen."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Roborock|Error 22": {
+  "title": "Fejl i basefinderen",
+  "causes": [
+   "Sensoren, der finder dockingstationen, er snavset eller blokeret."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Rengør basefinderen.",
+   "Ryd området omkring dockingstationen.",
+   "Prøv igen."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Roborock|Error 23": {
+  "title": "Kunne ikke vende tilbage til basen",
+  "causes": [
+   "Dockingstationens indikatorlys er snavset eller blokeret."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Rengør indikatorlyset til basens placering.",
+   "Fjern forhindringer i nærheden af dockingstationen.",
+   "Prøv igen."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Roborock|Error 27": {
+  "title": "VibraRise-systemet sidder fast",
+  "causes": [
+   "Systemet, der løfter moppen, er blokeret."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tjek for forhindringer omkring moppepladen.",
+   "Fjern snavs.",
+   "Genstart."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Roborock|Error 28": {
+  "title": "Robotten står på tæppe",
+  "causes": [
+   "Moppen er på, og robotten står på tæppe."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Flyt robotten over på et hårdt gulv.",
+   "Tag moppen af, hvis du vil gøre rent på tæppe.",
+   "Prøv igen."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Roborocks kundesupport."
+ },
+ "Xiaomi|Error 1": {
+  "title": "Kofanger sidder fast eller er snavset",
+  "causes": [
+   "Snavs holder kofangeren fast."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Rengør kofangeren.",
+   "Bank forsigtigt på den for at løsne snavs.",
+   "Hvis det fortsætter, så flyt robotten et andet sted hen, og genstart."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Xiaomis eftersalgssupport."
+ },
+ "Xiaomi|Error 2": {
+  "title": "Hjul uden jordkontakt",
+  "causes": [
+   "Et hjul hænger ned."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Sæt robotten på plant underlag.",
+   "Genstart den.",
+   "Tjek, at den ikke står på en kant."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Xiaomis eftersalgssupport."
+ },
+ "Xiaomi|Error 3": {
+  "title": "Faldsensoren er snavset, eller robotten er delvist løftet",
+  "causes": [
+   "Faldsensoren er snavset, eller robotten er delvist løftet."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Rengør faldsensoren.",
+   "Sæt den på plant underlag.",
+   "Genstart den."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Xiaomis eftersalgssupport."
+ },
+ "Xiaomi|Error 4": {
+  "title": "Hovedbørsten er blokeret",
+  "causes": [
+   "Der sidder snavs fast i hovedbørsten."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tag hovedbørsten af.",
+   "Rengør børsterne og lejerne.",
+   "Sæt den på igen, og genstart."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Xiaomis eftersalgssupport."
+ },
+ "Xiaomi|Error 5": {
+  "title": "Sidebørsten er blokeret",
+  "causes": [
+   "Der sidder snavs fast i sidebørsten."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tag sidebørsten af.",
+   "Rengør den.",
+   "Sæt den på igen, og genstart."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Xiaomis eftersalgssupport."
+ },
+ "Xiaomi|Error 6": {
+  "title": "Snavs omkring hovedhjulet",
+  "causes": [
+   "Hår eller snavs har viklet sig om et hovedhjul."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tjek begge hjul.",
+   "Fjern det sammenfiltrede materiale.",
+   "Flyt robotten til et nyt sted, og genstart."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Xiaomis eftersalgssupport."
+ },
+ "Xiaomi|Error 7": {
+  "title": "Robotten er blevet fanget eller sidder fast",
+  "causes": [
+   "Robotten er fanget af en forhindring."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Fjern forhindringer omkring den.",
+   "Flyt den til åbent gulv.",
+   "Genstart."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Xiaomis eftersalgssupport."
+ },
+ "Xiaomi|Error 8": {
+  "title": "Støvbeholderen eller filteret sidder ikke rigtigt",
+  "causes": [
+   "Støvrummet eller filteret er sat forkert i."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Sæt støvbeholderen og filteret korrekt i igen.",
+   "Hvis det fortsætter, så udskift filteret.",
+   "Genstart."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Xiaomis eftersalgssupport."
+ },
+ "Xiaomi|Error 9": {
+  "title": "Stærkt magnetfelt registreret",
+  "causes": [
+   "Robotten er tæt på en virtuel væg-strimmel."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Flyt robotten væk fra den virtuelle væg.",
+   "Genstart den.",
+   "Tjek strimlens placering."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Xiaomis eftersalgssupport."
+ },
+ "Xiaomi|Error 10": {
+  "title": "Opladningsfejl",
+  "causes": [
+   "Snavsede ladekontakter."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tør kontakterne på dockingstationen og robotten af med en tør klud.",
+   "Sæt robotten i dockingstationen igen.",
+   "Tjek, at dockingstationen har strøm."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Xiaomis eftersalgssupport."
+ },
+ "Xiaomi|Error 11": {
+  "title": "Batteriet er for varmt eller for koldt",
+  "causes": [
+   "Batteriets temperatur er uden for området."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Vent, til batteriet er tilbage på en normal temperatur.",
+   "Hold robotten væk fra varme eller kulde.",
+   "Prøv igen."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Xiaomis eftersalgssupport."
+ },
+ "Xiaomi|Error 12": {
+  "title": "Forbudt område eller virtuel væg registreret",
+  "causes": [
+   "Robotten er kommet ind i en forbudt zone."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Flyt den væk fra området med afspærringstape.",
+   "Genstart den.",
+   "Tjek tapens placering."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Xiaomis eftersalgssupport."
+ },
+ "Xiaomi|Error 13": {
+  "title": "Den visuelle navigationssensor er snavset",
+  "causes": [
+   "Navigationssensoren er snavset."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tør sensoren af med en blød, tør klud.",
+   "Genstart robotten.",
+   "Kør en kort rengøring."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Xiaomis eftersalgssupport."
+ },
+ "Xiaomi|Error 14": {
+  "title": "Intern fejl",
+  "causes": [
+   "Systemet har en intern fejl."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Nulstil systemet.",
+   "Genstart robotten.",
+   "Prøv at gøre rent igen."
+  ],
+  "technician": "Hvis fejlen vender tilbage efter rengøring og nulstilling, så kontakt Xiaomis eftersalgssupport."
+ },
+ "eufy|Error 1": {
+  "title": "Den forreste kofanger sidder fast",
+  "causes": [
+   "Snavs eller en genstand holder kofangeren fast."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Bank på kofangeren for at tjekke, at den bevæger sig.",
+   "Hvis den sidder fast, så tag den af, og sæt den på igen.",
+   "Genstart."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 2": {
+  "title": "Hjul sidder fast",
+  "causes": [
+   "Et hjul er blokeret."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Fjern snavs mellem hjulet og kabinettet.",
+   "Drej hjulet rundt i hånden.",
+   "Flyt robotten, og prøv igen."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 3": {
+  "title": "Sidebørsten sidder fast",
+  "causes": [
+   "Noget har sat sig fast i sidebørsten."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Fjern genstanden.",
+   "Tjek, at børsten drejer frit.",
+   "Prøv igen."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 4": {
+  "title": "Rullebørsten sidder fast",
+  "causes": [
+   "Hår eller snavs har viklet sig om rullebørsten."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tag rullebørsten af.",
+   "Fjern snavset.",
+   "Øg sugestyrken på gulve med meget hår."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 5": {
+  "title": "Robotten er fanget, fjern forhindringer",
+  "causes": [
+   "Forhindringer blokerer robotten."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Ryd området omkring den.",
+   "Flyt den til et åbent sted.",
+   "Genstart."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 6": {
+  "title": "Robotten er fanget, flyt den til et åbent område",
+  "causes": [
+   "Robotten sidder fast på en forhindring."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Flyt den til et åbent område.",
+   "Genstart rengøringen.",
+   "Opret en No-Go Zone, hvis den altid sidder fast der."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 7": {
+  "title": "Robotten har ikke kontakt med gulvet",
+  "causes": [
+   "Robotten er løftet eller står på en kant."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Sæt den på gulvet et nyt sted.",
+   "Tjek, at faldsensorerne er rene.",
+   "Genstart."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 8": {
+  "title": "Lavt batteriniveau, lukker ned",
+  "causes": [
+   "Batteriet er for lavt."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Flyt robotten til stationen.",
+   "Lad den lade op.",
+   "Prøv igen.",
+   "Kør en kort testrengøring i nærheden af dockingstationen for at bekræfte, at koden er væk."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 13": {
+  "title": "Robotten hælder",
+  "causes": [
+   "Robotten står på en skråning."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Sæt den på plant underlag.",
+   "Genstart rengøringen.",
+   "Tjek, at den ikke står på en dørtærskel."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 14": {
+  "title": "Støvbeholder eller filter mangler",
+  "causes": [
+   "Støvbeholderen eller filteret er ikke sat i."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Åbn dækslet.",
+   "Sæt støvbeholderen og filteret i igen.",
+   "Sørg for, at filteret sidder rigtigt."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 17": {
+  "title": "Er kommet ind i en No-Go Zone ved en fejl",
+  "causes": [
+   "Robotten er inde i en No-Go Zone."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Flyt den uden for zonen.",
+   "Genstart rengøringen.",
+   "Tjek zonerne i appen."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 18": {
+  "title": "Dækslet til lasersensoren kan sidde fast",
+  "causes": [
+   "Lasersensorens dæksel er blokeret."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Fjern alt, der blokerer dækslet.",
+   "Tryk på dækslet, til du hører et klik.",
+   "Genstart."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 19": {
+  "title": "Lasersensoren kan sidde fast",
+  "causes": [
+   "Sensoren kan ikke dreje frit."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Sluk robotten.",
+   "Fjern alt, der forhindrer rotationen.",
+   "Genstart."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 20": {
+  "title": "Lasersensoren kan være blokeret",
+  "causes": [
+   "Der sidder snavs på sensoren."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Fjern snavs fra toppen af sensoren.",
+   "Tør forsigtigt af med en tør klud.",
+   "Genstart."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 21": {
+  "title": "Kunne ikke vende tilbage til stationen",
+  "causes": [
+   "Robotten kan se stationen, men kan ikke køre ind i den."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Fjern forhindringer omkring stationen.",
+   "Tjek, at stationen har strøm.",
+   "Send robotten hjem igen."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 23": {
+  "title": "Kan ikke finde startpunktet",
+  "causes": [
+   "Rengøringen startede ikke fra stationen."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Start rengøringen fra stationen.",
+   "Lad stationen stå på samme sted.",
+   "Prøv igen."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 26": {
+  "title": "Lavt batteriniveau, planlagt rengøring mislykkedes",
+  "causes": [
+   "Batteriet var for lavt til den planlagte kørsel."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Oplad robotten.",
+   "Prøv tidsplanen igen.",
+   "Lad den stå på stationen."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 27": {
+  "title": "Unormalt vandniveau i stationens rengøringsbakke",
+  "causes": [
+   "Der er vand i rengøringsbakken."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tør bakken med en tør klud.",
+   "Tjek metaldetektoren for vanddråber.",
+   "Sæt bakken i igen."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 28": {
+  "title": "Stationens rengøringsbakke er ikke sat i",
+  "causes": [
+   "Bakken mangler eller sidder løst."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Sæt bakken rigtigt i.",
+   "Tryk, til den sidder fladt.",
+   "Prøv igen."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 29": {
+  "title": "Stationens låg er ikke lukket",
+  "causes": [
+   "Låget er åbent."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Luk stationens låg helt.",
+   "Tjek, at intet blokerer det.",
+   "Prøv igen.",
+   "Kør en kort testrengøring i nærheden af dockingstationen for at bekræfte, at koden er væk."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 30": {
+  "title": "Unormal indgangsspænding til stationen",
+  "causes": [
+   "Stationens spænding passer ikke til din stikkontakt."
+  ],
+  "steps": [
+   "Tjek, at stationen har den rigtige spænding (220V eller 110V).",
+   "Brug en passende stikkontakt.",
+   "Kontakt support, hvis de ikke passer sammen."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 31": {
+  "title": "Fremmedlegeme i sugeåbningen",
+  "causes": [
+   "Snavs blokerer indsugningen."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tag børsten af.",
+   "Rens børstehulrummet.",
+   "Tøm støvbeholderen."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 32": {
+  "title": "Moppepadholderen sidder fast",
+  "causes": [
+   "Der er snavs i moppeholderen."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Fjern snavset.",
+   "Rengør holderen.",
+   "Prøv igen.",
+   "Kør en kort testrengøring i nærheden af dockingstationen for at bekræfte, at koden er væk."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "eufy|Error 34": {
+  "title": "Moppen er faldet af",
+  "causes": [
+   "En moppepad mangler eller sidder løst."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Sæt moppen korrekt på igen.",
+   "Tjek, at den klikker på plads.",
+   "Genstart."
+  ],
+  "technician": "Hvis advarslen fortsætter efter disse trin, så kontakt eufy-support via e-mailformularen eller livechatten."
+ },
+ "Shark|Error 2": {
+  "title": "Børsterulle, sidebørste eller hjul sidder fast",
+  "causes": [
+   "Børsterullen er blokeret (CLEAN og ! rød).",
+   "En sidebørste sidder fast (DOCK og ! rød).",
+   "Et drivhjul sidder fast (alle tre røde)."
+  ],
+  "steps": [
+   "Sluk robotten.",
+   "Fjern snavs fra børsterullen, sidebørsterne eller hjulene, som lysene viser.",
+   "Tjek, at hjulene drejer frit, og genstart derefter."
+  ],
+  "technician": "Hvis lysmønsteret bliver ved med at vende tilbage, så kontakt Shark customer care."
+ },
+ "Shark|Error 6": {
+  "title": "Den forreste kofanger kan sidde fast",
+  "causes": [
+   "Snavs holder kofangeren inde (DOCK blinker rødt)."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Rengør omkring kofangeren.",
+   "Tryk på den for at tjekke, at den bevæger sig frit.",
+   "Genstart."
+  ],
+  "technician": "Hvis lysmønsteret bliver ved med at vende tilbage, så kontakt Shark customer care."
+ },
+ "Shark|Error 7": {
+  "title": "Fejl i faldsensor",
+  "causes": [
+   "Faldsensorerne er snavsede, eller robotten er tæt på en kant."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Flyt robotten til et nyt sted.",
+   "Tør faldsensorerne af.",
+   "Genstart."
+  ],
+  "technician": "Hvis lysmønsteret bliver ved med at vende tilbage, så kontakt Shark customer care."
+ },
+ "Shark|Error 10": {
+  "title": "Robotten sidder fast på en forhindring",
+  "causes": [
+   "Robotten kan sidde fast (CLEAN blinker rødt)."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Flyt den til et plant sted.",
+   "Fjern forhindringer i nærheden.",
+   "Genstart."
+  ],
+  "technician": "Hvis lysmønsteret bliver ved med at vende tilbage, så kontakt Shark customer care."
+ },
+ "Shark|Error 24": {
+  "title": "Kritisk lavt batteriniveau",
+  "causes": [
+   "Batteriet er næsten tomt."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Sæt robotten på basen.",
+   "Tjek, at basens ladelys er tændt.",
+   "Lad den lade op."
+  ],
+  "technician": "Hvis lysmønsteret bliver ved med at vende tilbage, så kontakt Shark customer care."
+ },
+ "Shark|Error 26": {
+  "title": "Støvbeholderen er blokeret",
+  "causes": [
+   "En blokering i basens eller robottens støvbeholder."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tjek begge beholdere for tilstopning.",
+   "Fjern snavset.",
+   "Sæt beholderen i igen, til den klikker."
+  ],
+  "technician": "Hvis lysmønsteret bliver ved med at vende tilbage, så kontakt Shark customer care."
+ },
+ "Ecovacs|Bumper stuck": {
+  "title": "Stemmemeddelelse om kofanger, der sidder fast",
+  "causes": [
+   "Snavs eller beskyttelsesstrimlen holder kofangeren fast."
+  ],
+  "steps": [
+   "Fjern kollisionsbeskyttelsesstrimlen.",
+   "Tryk på venstre, midterste og højre del af kofangeren for at tjekke, at den fjedrer tilbage.",
+   "Sluk, genstart, og test."
+  ],
+  "technician": "Hvis advarslen vender tilbage, så kontakt Ecovacs' eftersalgssupport."
+ },
+ "Ecovacs|Laser sensor malfunction": {
+  "title": "Lasersensoren virker ikke",
+  "causes": [
+   "Laserenheden er snavset eller sidder fast."
+  ],
+  "steps": [
+   "Skub forsigtigt til laserenheden.",
+   "Drej linsen, så den vender fremad, og tør den af med en ren klud.",
+   "Sluk, genstart, og test."
+  ],
+  "technician": "Hvis advarslen vender tilbage, så kontakt Ecovacs' eftersalgssupport."
+ },
+ "Ecovacs|Dust bag installation error": {
+  "title": "Støvposen er ikke sat korrekt i",
+  "causes": [
+   "Støvposen sidder ikke rigtigt."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Sluk, og åbn dækslet til støvbeholderen.",
+   "Tag støvposen ud, og sæt den i igen.",
+   "Luk dækslet, og test støvopsamlingen."
+  ],
+  "technician": "Hvis advarslen vender tilbage, så kontakt Ecovacs' eftersalgssupport."
+ },
+ "Ecovacs|Rotating mop tangled": {
+  "title": "Den roterende mop er blokeret",
+  "causes": [
+   "Snavs eller hår blokerer den roterende mop."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Træk moppen ud, og tag den af.",
+   "Rengør moppen, og rens hulrummet.",
+   "Sæt den på igen, til den klikker, og genstart."
+  ],
+  "technician": "Hvis advarslen vender tilbage, så kontakt Ecovacs' eftersalgssupport."
+ },
+ "Ecovacs|Water tank not installed or low water": {
+  "title": "Tanken til rent vand mangler eller er næsten tom",
+  "causes": [
+   "Tanken er tom eller mangler, eller flyderen sidder fast."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tag tanken ud, og tjek, at flyderen bevæger sig.",
+   "Fyld op til maksimumstregen.",
+   "Luk låget, og sæt den i igen."
+  ],
+  "technician": "Hvis advarslen vender tilbage, så kontakt Ecovacs' eftersalgssupport."
+ },
+ "Ecovacs|Dirty water tank not installed": {
+  "title": "Tanken til snavset vand mangler eller sidder forkert",
+  "causes": [
+   "Tanken sidder ikke rigtigt eller registreres ikke."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tøm og skyl tanken til snavset vand.",
+   "Tjek flyderen og låsene.",
+   "Sæt den i igen."
+  ],
+  "technician": "Hvis advarslen vender tilbage, så kontakt Ecovacs' eftersalgssupport."
+ },
+ "Ecovacs|Cleaning sink anomaly": {
+  "title": "Moppevaskebakken tømmes ikke",
+  "causes": [
+   "Snavs blokerer flyderen eller afløbet."
+  ],
+  "steps": [
+   "Tjek, at bakken sidder rigtigt.",
+   "Rengør overløbsflyderen.",
+   "Kør afløbsfunktionen i appen, og foretag derefter en strømcyklus på stationen."
+  ],
+  "technician": "Hvis advarslen vender tilbage, så kontakt Ecovacs' eftersalgssupport."
+ },
+ "Ecovacs|Dirty water tank anomaly": {
+  "title": "Problem med tanken til snavset vand eller afløbet",
+  "causes": [
+   "Tætningen eller afløbsåbningen er blokeret."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Tøm tanken, og rengør filteret.",
+   "Luk låget tæt.",
+   "Rens afløbsåbningen med en børste."
+  ],
+  "technician": "Hvis advarslen vender tilbage, så kontakt Ecovacs' eftersalgssupport."
+ },
+ "Dreame|Dust box error": {
+  "title": "Alarm for støvbeholder",
+  "causes": [
+   "Støvbeholderen sidder løst.",
+   "Filteret vender forkert, eller det er defekt."
+  ],
+  "steps": [
+   "Sæt støvbeholderen godt fast.",
+   "Genstart robotten.",
+   "Tjek, at filteret vender rigtigt, og udskift det, hvis det ser mærkeligt ud."
+  ],
+  "technician": "Hvis fejlen fortsætter, så kontakt Dreames kundeservice."
+ },
+ "Dreame|Laser sensor error": {
+  "title": "Fejl i laserafstandssensoren",
+  "causes": [
+   "Lasersensoren er støvet eller kører tungt."
+  ],
+  "steps": [
+   "Sluk robotten, og hold den væk fra vand, før du tjekker den.",
+   "Opdater firmwaren i appen.",
+   "Bank forsigtigt på dækslet, og fjern støv.",
+   "Drej sensoren rundt i hånden for at tjekke, at den drejer."
+  ],
+  "technician": "Hvis fejlen fortsætter, så kontakt Dreames kundeservice."
+ }
+}

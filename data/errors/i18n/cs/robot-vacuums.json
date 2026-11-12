@@ -1,0 +1,1394 @@
+{
+ "iRobot|Error 1": {
+  "title": "Roomba uvízla nebo visí kolo",
+  "causes": [
+   "Robot na něčem uvízl.",
+   "Boční kolo visí dolů nebo je zablokované."
+  ],
+  "steps": [
+   "Zvedněte robota a postavte jej na jiné místo.",
+   "Stisknutím CLEAN spusťte úklid znovu.",
+   "Obě boční kola protočte rukou a vytřepejte případné nečistoty."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Error 2": {
+  "title": "Extraktory se nemohou otáčet",
+  "causes": [
+   "Extraktory (kartáče) blokují vlasy nebo nečistoty."
+  ],
+  "steps": [
+   "Vyjměte nádobku a otevřete rám extraktorů.",
+   "Vyjměte extraktory a odstřihněte vlasy a provázky.",
+   "Vraťte je zpět a stiskněte CLEAN."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Error 5": {
+  "title": "Boční kolo uvízlo",
+  "causes": [
+   "Boční kolo se nemůže volně otáčet kvůli nečistotám nebo vlasům."
+  ],
+  "steps": [
+   "Robota otočte.",
+   "Každé boční kolo protočte a vyčistěte prostor kola od nečistot.",
+   "Postavte robota na podlahu a stiskněte CLEAN."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Error 6": {
+  "title": "Špinavé senzory pádu nebo robot nad schodem",
+  "causes": [
+   "Senzory pádu na spodní straně jsou špinavé.",
+   "Robot je nad schodem nebo na velmi tmavé podlaze."
+  ],
+  "steps": [
+   "Přemístěte robota na jiné místo.",
+   "Senzory pádu na spodní straně otřete suchým hadříkem.",
+   "Stisknutím CLEAN spusťte úklid znovu."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Error 7": {
+  "title": "Boční kolo uvízlo",
+  "causes": [
+   "Boční kolo je zablokované nečistotami nebo vlasy."
+  ],
+  "steps": [
+   "Robota otočte a každé boční kolo protočte.",
+   "Odstraňte vlasy a nečistoty z prostorů kol.",
+   "Postavte jej na podlahu a stiskněte CLEAN."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Error 9": {
+  "title": "Nárazník je stisknutý nebo je špinavý senzor nárazníku",
+  "causes": [
+   "Nárazník je zatlačený nebo zaseknutý.",
+   "Senzor nárazníku je špinavý."
+  ],
+  "steps": [
+   "Několikrát na nárazník poklepejte, aby se uvolnily nečistoty.",
+   "Okraje kolem nárazníku otřete suchým hadříkem.",
+   "Robota restartujte."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Error 10": {
+  "title": "Boční kolo uvízlo nebo nárazník nereaguje",
+  "causes": [
+   "Boční kolo uvízlo.",
+   "Nárazník nezaznamenává překážky."
+  ],
+  "steps": [
+   "Protočte boční kola a vyčistěte prostory kol.",
+   "Poklepáním na nárazník uvolněte nečistoty.",
+   "Stisknutím CLEAN to zkuste znovu."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Error 11": {
+  "title": "Chyba sacího systému Roomby",
+  "causes": [
+   "Sací systém nebo nádobka má závadu."
+  ],
+  "steps": [
+   "Vyjměte nádobku a vyprázdněte ji.",
+   "Vyčistěte filtr a zkontrolujte, zda je nádobka správně usazena.",
+   "Robota restartujte a u modelů s Wi-Fi nahlédněte do aplikace iRobot HOME."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Error 14": {
+  "title": "Roomba nezjistí nádobku",
+  "causes": [
+   "Nádobka není správně nasazena.",
+   "Kontakty nádobky jsou špinavé."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je nádobka úplně nasazena.",
+   "Kontakty na nádobce a na robotovi otřete mírně navlhčenou melaminovou houbičkou.",
+   "Pokud problém trvá, možná budete potřebovat novou nádobku."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Error 18": {
+  "title": "Roomba se nemůže vrátit do stanice nebo na výchozí bod",
+  "causes": [
+   "Stanice není napájena nebo byla přesunuta.",
+   "Špinavé nabíjecí kontakty nebo senzory, případně zablokovaná kola."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je stanice napájena a svítí.",
+   "Uvolněte okolní prostor a kontakty a senzory otřete suchým nebo mírně navlhčeným hadříkem.",
+   "Protočte kola, poté restartujte robota i stanici.",
+   "Pokud je stanice mimo dosah, přesuňte ji blíže k místu úklidu."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Error 1010": {
+  "title": "Roomba nemůže najít stanici nebo se k ní dostat",
+  "causes": [
+   "Cestu blokuje překážka nebo zavřené dveře.",
+   "Stanice byla přesunuta nebo odpojena.",
+   "Světlo nebo odrazy matou dokovací senzory."
+  ],
+  "steps": [
+   "Uvolněte cestu a otevřete dveře.",
+   "Restartujte podržením tlačítka napájení na 10 sekund a úklid spusťte znovu.",
+   "Vyčistěte kartáče, kola a senzory na robotovi i na stanici.",
+   "Pokud problém trvá, smažte mapu a nechte robota mapovat znovu."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Charging error 1": {
+  "title": "Roomba nezjistí baterii",
+  "causes": [
+   "Baterie není správně usazena nebo ji robot nezjistil."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Vyjměte baterii.",
+   "Pevně ji znovu nasaďte.",
+   "Zkuste nabíjení znovu."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Charging error 2": {
+  "title": "Chyba nabíjení způsobená nadproudem baterie",
+  "causes": [
+   "Baterie nemusí být originální iRobot.",
+   "Může jít o poškození kapalinou."
+  ],
+  "steps": [
+   "Zkontrolujte, zda používáte originální lithium-iontovou baterii iRobot.",
+   "Zkontrolujte, zda nejsou patrné stopy poškození kapalinou.",
+   "Nenabíjejte, pokud baterie vypadá poškozeně."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Charging error 3": {
+  "title": "Závada nabíjecího systému",
+  "causes": [
+   "Závada nabíjecího systému, případně způsobená poškozením kapalinou."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Zkuste nabíjení znovu.",
+   "Zkontrolujte, zda nejsou patrné stopy poškození kapalinou.",
+   "Stanici i robota udržujte v suchu."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Charging error 4": {
+  "title": "Nízký nebo žádný nabíjecí proud",
+  "causes": [
+   "Špinavé nabíjecí kontakty na robotovi nebo na stanici."
+  ],
+  "steps": [
+   "Odpojte stanici ze zásuvky.",
+   "Nabíjecí kontakty na obou zařízeních otřete mírně navlhčenou melaminovou houbičkou.",
+   "Zkuste nabíjení znovu."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Charging error 6": {
+  "title": "Baterie je příliš teplá nebo studená pro nabíjení",
+  "causes": [
+   "Baterie je mimo bezpečný rozsah teploty pro nabíjení."
+  ],
+  "steps": [
+   "Přemístěte robota na místo s pokojovou teplotou.",
+   "Počkejte, až dosáhne pokojové teploty.",
+   "Zkuste nabíjení znovu."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Charging error 8": {
+  "title": "Robot nekomunikuje s baterií",
+  "causes": [
+   "Baterie nemusí být originální nebo je špatně usazena."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Ověřte, že jde o originální baterii iRobot.",
+   "Vyjměte ji a znovu nasaďte.",
+   "Zkuste nabíjení znovu."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Charging error 9": {
+  "title": "Porucha baterie",
+  "causes": [
+   "Baterie selhala nebo není originální."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Ověřte, že baterie je originální.",
+   "Vyjměte ji a znovu nasaďte.",
+   "Pokud se to opakuje, počítejte s výměnou baterie."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Charging error 11": {
+  "title": "Hardwarová závada baterie",
+  "causes": [
+   "Baterie má hardwarovou závadu nebo není originální."
+  ],
+  "steps": [
+   "Ověřte, že baterie je originální.",
+   "Vyjměte ji a znovu nasaďte.",
+   "Pokud se chyba vrátí, baterii vyměňte."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Charging error 20": {
+  "title": "Závada baterie nebo baterie není připravena k nabíjení",
+  "causes": [
+   "Baterie má závadu nebo nemůže zahájit nabíjení."
+  ],
+  "steps": [
+   "Vyjměte baterii na 15 minut.",
+   "Znovu ji nasaďte a zkuste nabíjet.",
+   "Pokud problém trvá, baterii vyměňte."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Charging error 21": {
+  "title": "Robot je ve stanici, ale nenabil se",
+  "causes": [
+   "Špinavé nabíjecí kontakty."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Odpojte stanici ze zásuvky.",
+   "Kontakty na robotovi i na stanici otřete mírně navlhčenou melaminovou houbičkou.",
+   "Robota znovu umístěte do stanice."
+  ],
+  "technician": "Pokud chyba po těchto kontrolách přetrvává, kontaktujte zákaznickou péči iRobot a uveďte sériové číslo robota."
+ },
+ "iRobot|Error 453": {
+  "title": "Stanice se nemůže zarovnat s robotem",
+  "causes": [
+   "Válec pro praní mopů nebo nádobka nejsou správně usazeny.",
+   "Něco blokuje trysku stanice."
+  ],
+  "steps": [
+   "Válec pro praní mopů nasaďte znovu.",
+   "Ujistěte se, že je nádobka nasazena, a vyčistěte pouzdro trysky.",
+   "Zkontrolujte, zda se tlačítka nabíjecích kontaktů volně pohybují, poté restartujte robota i stanici."
+  ],
+  "technician": "Pokud chyba dokovací stanice po těchto krocích přetrvává, kontaktujte zákaznickou péči iRobot; stanice může vyžadovat servis."
+ },
+ "iRobot|Error 511": {
+  "title": "Problém se senzorem nádrže na špinavou vodu",
+  "causes": [
+   "Nádrž na špinavou vodu není správně usazena."
+  ],
+  "steps": [
+   "Nádrž na špinavou vodu vyjměte a znovu vložte.",
+   "Stanici na několik sekund odpojte a znovu zapojte.",
+   "Zkuste to znovu."
+  ],
+  "technician": "Pokud chyba dokovací stanice po těchto krocích přetrvává, kontaktujte zákaznickou péči iRobot; stanice může vyžadovat servis."
+ },
+ "iRobot|Error 512": {
+  "title": "Ucpaný odtok špinavé vody",
+  "causes": [
+   "Nečistoty blokují odtok v mycích vaničkách."
+  ],
+  "steps": [
+   "Obě vaničky otřete suchým hadříkem.",
+   "Vyčistěte odtokový otvor.",
+   "Na odolné nečistoty použijte jemné mýdlo a houbičku."
+  ],
+  "technician": "Pokud chyba dokovací stanice po těchto krocích přetrvává, kontaktujte zákaznickou péči iRobot; stanice může vyžadovat servis."
+ },
+ "iRobot|Error 516": {
+  "title": "Válec pro praní mopů se zasekl",
+  "causes": [
+   "Něco blokuje válec."
+  ],
+  "steps": [
+   "Vyjměte válec a odstraňte překážku.",
+   "Vložte jej zpět.",
+   "Stanici restartujte jejím odpojením na několik sekund."
+  ],
+  "technician": "Pokud chyba dokovací stanice po těchto krocích přetrvává, kontaktujte zákaznickou péči iRobot; stanice může vyžadovat servis."
+ },
+ "iRobot|Error 517": {
+  "title": "Přetečení mycí vaničky",
+  "causes": [
+   "Ve vaničce je příliš mnoho špinavé vody."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Přepadovou vaničku vyprázdněte suchým hadříkem.",
+   "Vyčistěte obě vaničky.",
+   "Zkuste to znovu."
+  ],
+  "technician": "Pokud chyba dokovací stanice po těchto krocích přetrvává, kontaktujte zákaznickou péči iRobot; stanice může vyžadovat servis."
+ },
+ "iRobot|Error 518": {
+  "title": "Chybí válec pro praní mopů",
+  "causes": [
+   "Válec není ve stanici."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Vložte válec do stanice.",
+   "Pokud tam je, vyjměte jej a znovu nasaďte.",
+   "Stanici restartujte a zkuste praní znovu."
+  ],
+  "technician": "Pokud chyba dokovací stanice po těchto krocích přetrvává, kontaktujte zákaznickou péči iRobot; stanice může vyžadovat servis."
+ },
+ "iRobot|Error 650": {
+  "title": "Chybí nádrž na čistou vodu",
+  "causes": [
+   "Nádrž na čistou vodu není správně usazena nebo je zablokovaná."
+  ],
+  "steps": [
+   "Umístěte robota do stanice a zkontrolujte světelný kroužek.",
+   "Odstraňte vše, co blokuje nádrž.",
+   "Nádrž doplňte a znovu vložte, poté stanici restartujte."
+  ],
+  "technician": "Pokud chyba dokovací stanice po těchto krocích přetrvává, kontaktujte zákaznickou péči iRobot; stanice může vyžadovat servis."
+ },
+ "iRobot|Error 651": {
+  "title": "Příliš nízká hladina čisté vody",
+  "causes": [
+   "Nádrž na čistou vodu je prázdná nebo se hladina nečte správně."
+  ],
+  "steps": [
+   "Nádrž na čistou vodu doplňte a znovu vložte.",
+   "I když byla plná, vyprázdněte ji a doplňte znovu.",
+   "Zkontrolujte, zda je robot správně umístěn ve stanici."
+  ],
+  "technician": "Pokud chyba dokovací stanice po těchto krocích přetrvává, kontaktujte zákaznickou péči iRobot; stanice může vyžadovat servis."
+ },
+ "iRobot|Error 653": {
+  "title": "Chybí nádrž na špinavou vodu",
+  "causes": [
+   "Nádrž na špinavou vodu není na místě nebo je zablokovaná."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je robot ve stanici.",
+   "Vyjměte nádrž na špinavou vodu a zkontrolujte, zda v ní není překážka.",
+   "Vraťte prázdnou nádrž a stanici restartujte."
+  ],
+  "technician": "Pokud chyba dokovací stanice po těchto krocích přetrvává, kontaktujte zákaznickou péči iRobot; stanice může vyžadovat servis."
+ },
+ "iRobot|Error 654": {
+  "title": "Nádrž na špinavou vodu je příliš plná",
+  "causes": [
+   "Nádrž na špinavou vodu je třeba vyprázdnit."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Nádrž na špinavou vodu vyprázdněte a vyčistěte.",
+   "Vložte ji zpět.",
+   "Zkontrolujte, zda je robot ve stanici, a zkuste to znovu."
+  ],
+  "technician": "Pokud chyba dokovací stanice po těchto krocích přetrvává, kontaktujte zákaznickou péči iRobot; stanice může vyžadovat servis."
+ },
+ "iRobot|Error 663": {
+  "title": "Klesá hladina čisté vody, možná netěsnost",
+  "causes": [
+   "Ze stanice může unikat voda."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Odpojte stanici ze zásuvky.",
+   "Vyjměte obě nádrže.",
+   "Stanici nakloněním zkontrolujte, zda pod ní není voda, a přesuňte ji na suché místo."
+  ],
+  "technician": "Pokud chyba dokovací stanice po těchto krocích přetrvává, kontaktujte zákaznickou péči iRobot; stanice může vyžadovat servis."
+ },
+ "iRobot|Error 668": {
+  "title": "Není nasazen čisticí mop",
+  "causes": [
+   "Mop chybí nebo jej robot nezjistil."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Nasaďte mop.",
+   "Pokud je nasazen, sundejte jej, osušte a nasaďte znovu.",
+   "Zkuste jiný mop."
+  ],
+  "technician": "Pokud chyba dokovací stanice po těchto krocích přetrvává, kontaktujte zákaznickou péči iRobot; stanice může vyžadovat servis."
+ },
+ "Roborock|Error 1": {
+  "title": "LiDAR věž nebo laser jsou zablokované",
+  "causes": [
+   "Něco blokuje nebo zasekává laserovou věžičku nahoře."
+  ],
+  "steps": [
+   "Robota vypněte.",
+   "Zkontrolujte, zda kolem věžičky nic nevězí, a jemně jí otočte rukou.",
+   "Restartujte a zkuste to znovu."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Roborock|Error 2": {
+  "title": "Nárazník se zasekl",
+  "causes": [
+   "Nečistoty drží nárazník zatlačený."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Vyčistěte okolí nárazníku.",
+   "Jemně na něj poklepejte, aby se uvolnil.",
+   "Robota restartujte."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Roborock|Error 3": {
+  "title": "Kola jsou zavěšená",
+  "causes": [
+   "Robot je zvednutý nebo mu kola visí dolů."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Postavte robota na podlahu.",
+   "Zkontrolujte, zda žádné kolo nevisí přes hranu.",
+   "Spusťte úklid znovu."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Roborock|Error 4": {
+  "title": "Chyba senzoru pádu",
+  "causes": [
+   "Senzor pádu je špinavý nebo je robot poblíž schodu."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Senzory pádu na spodní straně otřete.",
+   "Odsuňte robota od hran.",
+   "Restartujte jej."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Roborock|Error 5": {
+  "title": "Zasekl se hlavní kartáč",
+  "causes": [
+   "Kolem hlavního kartáče jsou namotané vlasy nebo nečistoty."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Vyjměte hlavní kartáč.",
+   "Odstřihněte zapletené vlasy a vyčistěte ložiska.",
+   "Kartáč nasaďte zpět a restartujte."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Roborock|Error 6": {
+  "title": "Zasekl se boční kartáč",
+  "causes": [
+   "Kolem bočního kartáče jsou namotané vlasy nebo nečistoty."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Vyjměte boční kartáč.",
+   "Očistěte jej od vlasů a nečistot.",
+   "Nasaďte jej zpět a restartujte."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Roborock|Error 7": {
+  "title": "Zasekla se kola",
+  "causes": [
+   "Něco blokuje hnací kolo."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Přemístěte robota na volné místo.",
+   "Zkontrolujte, zda na kolech nejsou vlasy nebo nečistoty.",
+   "Robota restartujte."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Roborock|Error 8": {
+  "title": "Robot uvízl",
+  "causes": [
+   "Robota zadržuje nábytek nebo kabely."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Odstraňte překážky v okolí robota.",
+   "Přemístěte jej na volné prostranství.",
+   "Spusťte úklid znovu."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Roborock|Error 9": {
+  "title": "Chybí nádoba na prach",
+  "causes": [
+   "Nádoba na prach nebo filtr nejsou nainstalovány."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Nainstalujte nádobu na prach.",
+   "Ujistěte se, že je nasazen filtr.",
+   "Restartujte."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Roborock|Error 12": {
+  "title": "Slabá baterie",
+  "causes": [
+   "Baterie je příliš vybitá, aby robot mohl pokračovat."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Umístěte robota do stanice.",
+   "Nechte jej nabít.",
+   "Zkuste úklid znovu."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Roborock|Error 13": {
+  "title": "Chyba nabíjení",
+  "causes": [
+   "Špinavé nabíjecí kontakty na robotovi nebo na stanici."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Otřete nabíjecí kontakty.",
+   "Zkontrolujte, zda je stanice napájena.",
+   "Robota znovu umístěte do stanice."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Roborock|Error 14": {
+  "title": "Chyba baterie",
+  "causes": [
+   "Baterie může být vadná nebo mimo bezpečný rozsah teploty."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Nechte robota dosáhnout pokojové teploty.",
+   "Zkuste nabíjení znovu.",
+   "Restartujte jej."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Roborock|Error 15": {
+  "title": "Špinavý senzor stěny",
+  "causes": [
+   "Senzor stěny je pokrytý prachem."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Senzor stěny otřete suchým hadříkem.",
+   "Robota restartujte.",
+   "Spusťte krátký zkušební úklid."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Roborock|Error 16": {
+  "title": "Robot je nakloněný",
+  "causes": [
+   "Robot stojí na svahu nebo je nakloněný."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Přemístěte jej na rovnou podlahu.",
+   "Zkontrolujte, zda nestojí na okraji koberce nebo na schodu.",
+   "Restartujte."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Roborock|Error 17": {
+  "title": "Chyba bočního kartáče",
+  "causes": [
+   "Systém bočního kartáče má závadu."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Robota resetujte.",
+   "Zkontrolujte, zda se boční kartáč volně otáčí.",
+   "Zkuste to znovu."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Roborock|Error 18": {
+  "title": "Chyba ventilátoru",
+  "causes": [
+   "Sací ventilátor má závadu."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Robota resetujte.",
+   "Vyprázdněte nádobku a vyčistěte filtr.",
+   "Zkuste to znovu."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Roborock|Error 21": {
+  "title": "Stisknutý svislý nárazník",
+  "causes": [
+   "Horní nárazník je stisknutý nebo zaseknutý."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Přemístěte robota na nové místo.",
+   "Zkontrolujte, zda nic netlačí na nárazník.",
+   "Zkuste to znovu."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Roborock|Error 22": {
+  "title": "Chyba lokátoru stanice",
+  "causes": [
+   "Senzor, který hledá stanici, je špinavý nebo zablokovaný."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Vyčistěte lokátor stanice.",
+   "Uvolněte prostor kolem stanice.",
+   "Zkuste to znovu."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Roborock|Error 23": {
+  "title": "Návrat do stanice se nezdařil",
+  "causes": [
+   "Kontrolka polohy stanice je špinavá nebo zablokovaná."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Vyčistěte kontrolku polohy stanice.",
+   "Odstraňte překážky v blízkosti stanice.",
+   "Zkuste to znovu."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Roborock|Error 27": {
+  "title": "Zasekl se systém VibraRise",
+  "causes": [
+   "Systém zvedání mopu je zablokovaný."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Zkontrolujte, zda kolem desky mopu nejsou překážky.",
+   "Odstraňte nečistoty.",
+   "Restartujte."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Roborock|Error 28": {
+  "title": "Robot je na koberci",
+  "causes": [
+   "Mop je nasazen a robot je na koberci."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Přemístěte robota na tvrdou podlahu.",
+   "Chcete-li čistit koberec, sundejte mop.",
+   "Zkuste to znovu."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte zákaznickou podporu Roborock."
+ },
+ "Xiaomi|Error 1": {
+  "title": "Nárazník se zasekl nebo je špinavý",
+  "causes": [
+   "Nárazník drží nečistoty."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Vyčistěte nárazník.",
+   "Jemně na něj poklepejte, aby se nečistoty uvolnily.",
+   "Pokud problém trvá, přemístěte robota jinam a restartujte."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte poprodejní podporu Xiaomi."
+ },
+ "Xiaomi|Error 2": {
+  "title": "Kolo se nedotýká země",
+  "causes": [
+   "Některé kolo visí dolů."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Postavte robota na rovnou zem.",
+   "Restartujte jej.",
+   "Zkontrolujte, zda nestojí na hraně."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte poprodejní podporu Xiaomi."
+ },
+ "Xiaomi|Error 3": {
+  "title": "Špinavý senzor pádu nebo zvednutý robot",
+  "causes": [
+   "Senzor pádu je špinavý nebo je robot částečně zvednutý."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Vyčistěte senzor pádu.",
+   "Postavte jej na rovnou zem.",
+   "Restartujte jej."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte poprodejní podporu Xiaomi."
+ },
+ "Xiaomi|Error 4": {
+  "title": "Zachycený hlavní kartáč",
+  "causes": [
+   "V hlavním kartáči uvízly nečistoty."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Vyjměte hlavní kartáč.",
+   "Vyčistěte štětiny a ložiska.",
+   "Nasaďte zpět a restartujte."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte poprodejní podporu Xiaomi."
+ },
+ "Xiaomi|Error 5": {
+  "title": "Zachycený boční kartáč",
+  "causes": [
+   "V bočním kartáči uvízly nečistoty."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Vyjměte boční kartáč.",
+   "Vyčistěte jej.",
+   "Nasaďte zpět a restartujte."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte poprodejní podporu Xiaomi."
+ },
+ "Xiaomi|Error 6": {
+  "title": "Nečistoty kolem hlavního kola",
+  "causes": [
+   "Kolem hlavního kola jsou namotané vlasy nebo nečistoty."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Zkontrolujte obě kola.",
+   "Odstraňte zapletený materiál.",
+   "Přemístěte robota na nové místo a restartujte."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte poprodejní podporu Xiaomi."
+ },
+ "Xiaomi|Error 7": {
+  "title": "Robot uvízl nebo se zachytil",
+  "causes": [
+   "Robot je zachycen o překážku."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Odstraňte překážky v okolí.",
+   "Přemístěte jej na volnou podlahu.",
+   "Restartujte."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte poprodejní podporu Xiaomi."
+ },
+ "Xiaomi|Error 8": {
+  "title": "Nádoba na prach nebo filtr nejsou správně nasazeny",
+  "causes": [
+   "Prachová schránka nebo filtr jsou nainstalovány špatně."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Nádobu na prach a filtr znovu správně nainstalujte.",
+   "Pokud problém trvá, filtr vyměňte.",
+   "Restartujte."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte poprodejní podporu Xiaomi."
+ },
+ "Xiaomi|Error 9": {
+  "title": "Zjištěno silné magnetické pole",
+  "causes": [
+   "Robot je poblíž pásku virtuální zdi."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Odsuňte robota od virtuální zdi.",
+   "Restartujte jej.",
+   "Zkontrolujte polohu pásku."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte poprodejní podporu Xiaomi."
+ },
+ "Xiaomi|Error 10": {
+  "title": "Závada nabíjení",
+  "causes": [
+   "Špinavé nabíjecí kontakty."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Kontakty na stanici i na robotovi otřete suchým hadříkem.",
+   "Robota znovu umístěte do stanice.",
+   "Zkontrolujte, zda je stanice napájena."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte poprodejní podporu Xiaomi."
+ },
+ "Xiaomi|Error 11": {
+  "title": "Baterie je příliš horká nebo studená",
+  "causes": [
+   "Teplota baterie je mimo rozsah."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Počkejte, až se baterie vrátí na běžnou teplotu.",
+   "Držte robota mimo zdroje tepla nebo chladu.",
+   "Zkuste to znovu."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte poprodejní podporu Xiaomi."
+ },
+ "Xiaomi|Error 12": {
+  "title": "Zjištěna zakázaná oblast nebo virtuální zeď",
+  "causes": [
+   "Robot vjel do zakázané zóny."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Odsuňte jej od oblasti vyznačené páskem.",
+   "Restartujte jej.",
+   "Zkontrolujte polohu pásku."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte poprodejní podporu Xiaomi."
+ },
+ "Xiaomi|Error 13": {
+  "title": "Špinavý senzor vizuální navigace",
+  "causes": [
+   "Navigační senzor je špinavý."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Senzor otřete měkkým suchým hadříkem.",
+   "Robota restartujte.",
+   "Spusťte krátký úklid."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte poprodejní podporu Xiaomi."
+ },
+ "Xiaomi|Error 14": {
+  "title": "Vnitřní chyba",
+  "causes": [
+   "Systém má vnitřní závadu."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Resetujte systém.",
+   "Robota restartujte.",
+   "Zkuste úklid znovu."
+  ],
+  "technician": "Pokud se chyba po vyčištění a resetu vrací, kontaktujte poprodejní podporu Xiaomi."
+ },
+ "eufy|Error 1": {
+  "title": "Zasekl se přední nárazník",
+  "causes": [
+   "Nečistoty nebo předmět drží nárazník."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Poklepáním na nárazník ověřte, že se pohybuje.",
+   "Pokud je zaseknutý, vyjměte jej a znovu nasaďte.",
+   "Restartujte."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 2": {
+  "title": "Zasekla se kola",
+  "causes": [
+   "Některé kolo je zablokované."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Odstraňte nečistoty mezi kolem a tělem robota.",
+   "Otočte kolem rukou.",
+   "Přemístěte robota a zkuste to znovu."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 3": {
+  "title": "Zasekl se boční kartáč",
+  "causes": [
+   "Na bočním kartáči se něco zachytilo."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Odstraňte předmět.",
+   "Zkontrolujte, zda se kartáč volně otáčí.",
+   "Zkuste to znovu."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 4": {
+  "title": "Zasekl se válcový kartáč",
+  "causes": [
+   "Kolem válcového kartáče jsou namotané vlasy nebo nečistoty."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Vyjměte válcový kartáč.",
+   "Odstraňte nečistoty.",
+   "Na podlahách s mnoha vlasy zvyšte sací výkon."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 5": {
+  "title": "Robot uvízl, odstraňte překážky",
+  "causes": [
+   "Robota blokují překážky."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Uvolněte prostor kolem něj.",
+   "Přemístěte jej na volné místo.",
+   "Restartujte."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 6": {
+  "title": "Robot uvízl, přemístěte jej na volné prostranství",
+  "causes": [
+   "Robot se zachytil o překážku."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Přemístěte jej na volné prostranství.",
+   "Spusťte úklid znovu.",
+   "Pokud tam vždy uvízne, nastavte zónu No-Go Zone."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 7": {
+  "title": "Robot se nedotýká země",
+  "causes": [
+   "Robot je zvednutý nebo stojí na hraně."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Postavte jej na podlahu na nové místo.",
+   "Zkontrolujte, zda jsou senzory pádu čisté.",
+   "Restartujte."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 8": {
+  "title": "Slabá baterie, robot se vypíná",
+  "causes": [
+   "Baterie je příliš vybitá."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Přemístěte robota do stanice.",
+   "Nechte jej nabít.",
+   "Zkuste to znovu.",
+   "Spusťte krátký zkušební úklid poblíž stanice, abyste ověřili, že kód zmizel."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 13": {
+  "title": "Robot je nakloněný",
+  "causes": [
+   "Robot stojí na svahu."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Postavte jej na rovnou zem.",
+   "Spusťte úklid znovu.",
+   "Zkontrolujte, zda nestojí na prahu."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 14": {
+  "title": "Chybí nádobka na prach nebo filtr",
+  "causes": [
+   "Nádobka na prach nebo filtr nejsou nainstalovány."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Otevřete kryt.",
+   "Nádobku na prach a filtr znovu nainstalujte.",
+   "Ujistěte se, že je filtr správně usazen."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 17": {
+  "title": "Robot omylem vjel do zóny No-Go Zone",
+  "causes": [
+   "Robot je uvnitř zóny No-Go Zone."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Přemístěte jej mimo zónu.",
+   "Spusťte úklid znovu.",
+   "Zkontrolujte zóny v aplikaci."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 18": {
+  "title": "Kryt laserového senzoru může být zaseknutý",
+  "causes": [
+   "Kryt laseru je zablokovaný."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Odstraňte vše, co kryt blokuje.",
+   "Kryt zatlačte, dokud neuslyšíte cvaknutí.",
+   "Restartujte."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 19": {
+  "title": "Laserový senzor může být zaseknutý",
+  "causes": [
+   "Senzor se nemůže volně otáčet."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Robota vypněte.",
+   "Odstraňte vše, co brání otáčení.",
+   "Restartujte."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 20": {
+  "title": "Laserový senzor může být zablokovaný",
+  "causes": [
+   "Na senzoru jsou nečistoty."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Odstraňte nečistoty z horní části senzoru.",
+   "Jemně otřete suchým hadříkem.",
+   "Restartujte."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 21": {
+  "title": "Návrat do stanice se nezdařil",
+  "causes": [
+   "Robot stanici vidí, ale nemůže do ní najet."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Odstraňte překážky kolem stanice.",
+   "Zkontrolujte, zda je stanice napájena.",
+   "Pošlete robota domů znovu."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 23": {
+  "title": "Nelze najít výchozí bod",
+  "causes": [
+   "Úklid nezačal ze stanice."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Spusťte úklid ze stanice.",
+   "Stanici ponechte na stejném místě.",
+   "Zkuste to znovu."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 26": {
+  "title": "Slabá baterie, plánovaný úklid se nezdařil",
+  "causes": [
+   "Baterie byla pro plánovaný úklid příliš vybitá."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Robota nabijte.",
+   "Zkuste plán znovu.",
+   "Ponechte jej ve stanici."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 27": {
+  "title": "Neobvyklá hladina vody v čisticí vaničce stanice",
+  "causes": [
+   "V čisticí vaničce je voda."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Vaničku osušte suchým hadříkem.",
+   "Zkontrolujte, zda na kovovém detektoru nejsou kapky vody.",
+   "Vaničku znovu nasaďte."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 28": {
+  "title": "Čisticí vanička stanice není nasazena",
+  "causes": [
+   "Vanička chybí nebo je uvolněná."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Vaničku správně nasaďte.",
+   "Zatlačte, až leží rovně.",
+   "Zkuste to znovu."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 29": {
+  "title": "Víko stanice není zavřené",
+  "causes": [
+   "Víko je otevřené."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Víko stanice úplně zavřete.",
+   "Zkontrolujte, zda mu nic nebrání.",
+   "Zkuste to znovu.",
+   "Spusťte krátký zkušební úklid poblíž stanice, abyste ověřili, že kód zmizel."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 30": {
+  "title": "Neobvyklé vstupní napětí stanice",
+  "causes": [
+   "Napětí stanice neodpovídá vaší zásuvce."
+  ],
+  "steps": [
+   "Zkontrolujte, zda má stanice správné napětí (220V nebo 110V).",
+   "Použijte odpovídající zásuvku.",
+   "Pokud napětí nesouhlasí, kontaktujte podporu."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 31": {
+  "title": "Cizí předmět v sacím otvoru",
+  "causes": [
+   "Nečistoty blokují sání."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Vyjměte kartáč.",
+   "Vyčistěte prostor kartáče.",
+   "Vyprázdněte nádobku na prach."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 32": {
+  "title": "Zasekl se držák mopu",
+  "causes": [
+   "V držáku mopu jsou nečistoty."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Odstraňte nečistoty.",
+   "Vyčistěte držák.",
+   "Zkuste to znovu.",
+   "Spusťte krátký zkušební úklid poblíž stanice, abyste ověřili, že kód zmizel."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "eufy|Error 34": {
+  "title": "Mop spadl",
+  "causes": [
+   "Mop chybí nebo je uvolněný."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Mop správně nasaďte.",
+   "Zkontrolujte, zda zacvakl na místo.",
+   "Restartujte."
+  ],
+  "technician": "Pokud upozornění po těchto krocích přetrvává, kontaktujte podporu eufy prostřednictvím e-mailového formuláře nebo živého chatu."
+ },
+ "Shark|Error 2": {
+  "title": "Zasekl se válcový kartáč, boční kartáč nebo kolo",
+  "causes": [
+   "Válcový kartáč je zablokovaný (CLEAN a ! svítí červeně).",
+   "Zasekl se boční kartáč (DOCK a ! svítí červeně).",
+   "Zasekl se hnací kolo (všechny tři svítí červeně)."
+  ],
+  "steps": [
+   "Robota vypněte.",
+   "Podle kontrolek odstraňte nečistoty z válcového kartáče, bočních kartáčů nebo kol.",
+   "Zkontrolujte, zda se kola volně otáčejí, a restartujte."
+  ],
+  "technician": "Pokud se stejná kombinace kontrolek vrací, kontaktujte zákaznickou péči Shark."
+ },
+ "Shark|Error 6": {
+  "title": "Přední nárazník může být zaseknutý",
+  "causes": [
+   "Nečistoty drží nárazník zatlačený (DOCK červeně bliká)."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Vyčistěte okolí nárazníku.",
+   "Zatlačte na něj, abyste ověřili, že se volně pohybuje.",
+   "Restartujte."
+  ],
+  "technician": "Pokud se stejná kombinace kontrolek vrací, kontaktujte zákaznickou péči Shark."
+ },
+ "Shark|Error 7": {
+  "title": "Chyba senzoru pádu",
+  "causes": [
+   "Senzory pádu jsou špinavé nebo je robot poblíž schodu."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Přemístěte robota na jiné místo.",
+   "Otřete senzory pádu.",
+   "Restartujte."
+  ],
+  "technician": "Pokud se stejná kombinace kontrolek vrací, kontaktujte zákaznickou péči Shark."
+ },
+ "Shark|Error 10": {
+  "title": "Robot uvízl o překážku",
+  "causes": [
+   "Robot může být uvízlý (CLEAN červeně bliká)."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Přemístěte jej na rovné místo.",
+   "Odstraňte překážky v okolí.",
+   "Restartujte."
+  ],
+  "technician": "Pokud se stejná kombinace kontrolek vrací, kontaktujte zákaznickou péči Shark."
+ },
+ "Shark|Error 24": {
+  "title": "Kriticky slabá baterie",
+  "causes": [
+   "Baterie je téměř vybitá."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Umístěte robota na základnu.",
+   "Zkontrolujte, zda svítí kontrolka nabíjení základny.",
+   "Nechte jej nabít."
+  ],
+  "technician": "Pokud se stejná kombinace kontrolek vrací, kontaktujte zákaznickou péči Shark."
+ },
+ "Shark|Error 26": {
+  "title": "Zablokovaná nádobka na prach",
+  "causes": [
+   "Ucpání v nádobce na prach základny nebo robota."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Zkontrolujte, zda nejsou obě nádobky ucpané.",
+   "Odstraňte nečistoty.",
+   "Nádobku znovu nasaďte, až zacvakne."
+  ],
+  "technician": "Pokud se stejná kombinace kontrolek vrací, kontaktujte zákaznickou péči Shark."
+ },
+ "Ecovacs|Bumper stuck": {
+  "title": "Hlasové upozornění na zaseknutý nárazník",
+  "causes": [
+   "Nárazník drží nečistoty nebo ochranný pásek."
+  ],
+  "steps": [
+   "Odstraňte ochranný pásek proti nárazu.",
+   "Stiskněte levou, střední a pravou část nárazníku a ověřte, že se vrací zpět.",
+   "Vypněte, restartujte a vyzkoušejte."
+  ],
+  "technician": "Pokud se upozornění vrací, kontaktujte poprodejní podporu Ecovacs."
+ },
+ "Ecovacs|Laser sensor malfunction": {
+  "title": "Laserový senzor nefunguje",
+  "causes": [
+   "Laserová jednotka je špinavá nebo zaseknutá."
+  ],
+  "steps": [
+   "Jemně zatlačte na laserovou jednotku.",
+   "Čočku natočte dopředu a otřete čistým hadříkem.",
+   "Vypněte, restartujte a vyzkoušejte."
+  ],
+  "technician": "Pokud se upozornění vrací, kontaktujte poprodejní podporu Ecovacs."
+ },
+ "Ecovacs|Dust bag installation error": {
+  "title": "Prachový sáček není správně nasazen",
+  "causes": [
+   "Prachový sáček není správně usazen."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Vypněte jej a otevřete kryt nádobky na prach.",
+   "Prachový sáček vyjměte a znovu nasaďte.",
+   "Zavřete kryt a vyzkoušejte sběr prachu."
+  ],
+  "technician": "Pokud se upozornění vrací, kontaktujte poprodejní podporu Ecovacs."
+ },
+ "Ecovacs|Rotating mop tangled": {
+  "title": "Zamotaný rotační mop",
+  "causes": [
+   "Rotující mop je zablokovaný."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Mop vysuňte a sundejte.",
+   "Vyčistěte mop a prostor pod ním.",
+   "Nasaďte zpět, až zacvakne, a restartujte."
+  ],
+  "technician": "Pokud se upozornění vrací, kontaktujte poprodejní podporu Ecovacs."
+ },
+ "Ecovacs|Water tank not installed or low water": {
+  "title": "Nádrž na čistou vodu chybí nebo je v ní málo vody",
+  "causes": [
+   "Nádrž je prázdná, chybí nebo je zaseknutý plovák."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Vyjměte nádrž a zkontrolujte, zda se plovák pohybuje.",
+   "Doplňte po maximální rysku.",
+   "Zavřete víko a nádrž znovu vložte."
+  ],
+  "technician": "Pokud se upozornění vrací, kontaktujte poprodejní podporu Ecovacs."
+ },
+ "Ecovacs|Dirty water tank not installed": {
+  "title": "Nádrž na špinavou vodu chybí nebo není správně usazena",
+  "causes": [
+   "Nádrž není správně usazena nebo ji robot nezjistil."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Nádrž na špinavou vodu vyprázdněte a vypláchněte.",
+   "Zkontrolujte plovák a západky.",
+   "Nádrž znovu vložte."
+  ],
+  "technician": "Pokud se upozornění vrací, kontaktujte poprodejní podporu Ecovacs."
+ },
+ "Ecovacs|Cleaning sink anomaly": {
+  "title": "Vanička na praní mopů nevypouští vodu",
+  "causes": [
+   "Nečistoty blokují plovák nebo odtok."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je vanička správně usazena.",
+   "Vyčistěte přepadový plovák.",
+   "V aplikaci spusťte funkci vypouštění a poté stanici restartujte."
+  ],
+  "technician": "Pokud se upozornění vrací, kontaktujte poprodejní podporu Ecovacs."
+ },
+ "Ecovacs|Dirty water tank anomaly": {
+  "title": "Problém s nádrží na špinavou vodu nebo odtokem",
+  "causes": [
+   "Těsnění nebo odtokový otvor je zablokovaný."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "Nádrž vyprázdněte a vyčistěte filtr.",
+   "Pevně zavřete víko.",
+   "Odtokový otvor vyčistěte kartáčkem."
+  ],
+  "technician": "Pokud se upozornění vrací, kontaktujte poprodejní podporu Ecovacs."
+ },
+ "Dreame|Dust box error": {
+  "title": "Alarm prachové schránky",
+  "causes": [
+   "Prachová schránka je uvolněná.",
+   "Filtr je otočený nesprávně nebo je vadný."
+  ],
+  "steps": [
+   "Prachovou schránku pevně nasaďte.",
+   "Robota restartujte.",
+   "Zkontrolujte, zda je filtr nasazen správnou stranou, a pokud vypadá poškozeně, vyměňte jej."
+  ],
+  "technician": "Pokud chyba trvá, kontaktujte zákaznický servis Dreame."
+ },
+ "Dreame|Laser sensor error": {
+  "title": "Závada laserového senzoru vzdálenosti",
+  "causes": [
+   "Laserový senzor je zaprášený nebo tuhý."
+  ],
+  "steps": [
+   "Robota vypněte a před kontrolou jej chraňte před vodou.",
+   "V aplikaci aktualizujte firmware.",
+   "Jemně poklepejte na kryt a odstraňte prach.",
+   "Rukou otočte senzorem a zkontrolujte, zda se otáčí."
+  ],
+  "technician": "Pokud chyba trvá, kontaktujte zákaznický servis Dreame."
+ }
+}

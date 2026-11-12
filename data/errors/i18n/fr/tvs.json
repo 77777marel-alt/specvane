@@ -1,0 +1,654 @@
+{
+ "Roku|Error 009": {
+  "title": "Connecté au routeur, mais sans accès à Internet",
+  "causes": [
+   "Le routeur est joignable, mais il n'a pas accès à Internet.",
+   "Le service Internet est en panne."
+  ],
+  "steps": [
+   "Vérifiez si un téléphone ou un ordinateur portable peut accéder à Internet sur le même réseau.",
+   "Si aucun appareil n'est en ligne, appelez votre fournisseur d'accès à Internet.",
+   "Si les autres appareils fonctionnent, redémarrez le téléviseur.",
+   "Redémarrez le routeur et le modem, puis reconnectez-vous."
+  ],
+  "technician": "Si l'erreur revient après ces étapes, contactez l'assistance Roku ou votre fournisseur d'accès à Internet."
+ },
+ "Roku|Error 012": {
+  "title": "Problème de connexion au réseau filaire",
+  "causes": [
+   "Le câble Ethernet est mal branché ou défectueux.",
+   "Le port du routeur ne fonctionne pas."
+  ],
+  "steps": [
+   "Enfoncez bien le câble Ethernet dans le téléviseur et dans le routeur.",
+   "Essayez un autre câble ou un autre port du routeur.",
+   "Redémarrez le téléviseur, puis le routeur et le modem.",
+   "Essayez brièvement le Wi-Fi pour voir si Internet fonctionne."
+  ],
+  "technician": "Si l'erreur revient après ces étapes, contactez l'assistance Roku ou votre fournisseur d'accès à Internet."
+ },
+ "Roku|Error 013": {
+  "title": "La connexion filaire n'accède pas à Internet",
+  "causes": [
+   "Le routeur n'a pas accès à Internet.",
+   "Le câble Ethernet n'est pas bien enfoncé."
+  ],
+  "steps": [
+   "Vérifiez qu'un autre appareil est en ligne.",
+   "Si oui, redémarrez le téléviseur.",
+   "Sinon, débranchez puis rebranchez le câble Ethernet aux deux extrémités.",
+   "Redémarrez le routeur avant d'appeler votre fournisseur d'accès."
+  ],
+  "technician": "Si l'erreur revient après ces étapes, contactez l'assistance Roku ou votre fournisseur d'accès à Internet."
+ },
+ "Roku|Error 014": {
+  "title": "Connexion au réseau sans fil impossible",
+  "causes": [
+   "Le mauvais nom de réseau a été choisi.",
+   "Le mot de passe saisi est incorrect.",
+   "Le routeur ou le téléviseur doit être redémarré."
+  ],
+  "steps": [
+   "Vérifiez que vous avez choisi le bon nom de réseau.",
+   "Saisissez à nouveau le mot de passe ; il est sensible à la casse.",
+   "Redémarrez le téléviseur et le routeur.",
+   "Essayez de vous reconnecter."
+  ],
+  "technician": "Si l'erreur revient après ces étapes, contactez l'assistance Roku ou votre fournisseur d'accès à Internet."
+ },
+ "Roku|Error 014.20": {
+  "title": "Un signal Wi-Fi faible empêche la connexion",
+  "causes": [
+   "Le téléviseur est trop loin du routeur.",
+   "Des murs ou des objets affaiblissent le signal."
+  ],
+  "steps": [
+   "Rapprochez le téléviseur ou le routeur, ou placez le routeur plus haut.",
+   "Redémarrez le routeur et le téléviseur.",
+   "Si votre routeur a deux bandes, essayez l'autre.",
+   "Reconnectez-vous au réseau."
+  ],
+  "technician": "Si l'erreur revient après ces étapes, contactez l'assistance Roku ou votre fournisseur d'accès à Internet."
+ },
+ "Roku|Error 014.30": {
+  "title": "Échec de la connexion Wi-Fi, signal faible",
+  "causes": [
+   "Signal Wi-Fi faible.",
+   "Dysfonctionnement temporaire du routeur ou du téléviseur."
+  ],
+  "steps": [
+   "Redémarrez le routeur et le téléviseur.",
+   "Rapprochez le téléviseur du routeur.",
+   "Reconnectez-vous au Wi-Fi.",
+   "Essayez l'autre bande du routeur si elle est disponible."
+  ],
+  "technician": "Si l'erreur revient après ces étapes, contactez l'assistance Roku ou votre fournisseur d'accès à Internet."
+ },
+ "Roku|Error 014.40": {
+  "title": "Mot de passe incorrect ou restriction du routeur",
+  "causes": [
+   "Le mot de passe Wi-Fi a été mal saisi.",
+   "Le routeur bloque les appareils inconnus."
+  ],
+  "steps": [
+   "Vérifiez le nom du réseau et saisissez à nouveau le mot de passe.",
+   "Si le routeur filtre les appareils, ajoutez l'adresse MAC Wi-Fi du téléviseur.",
+   "Redémarrez le téléviseur et le routeur.",
+   "Réessayez."
+  ],
+  "technician": "Si l'erreur revient après ces étapes, contactez l'assistance Roku ou votre fournisseur d'accès à Internet."
+ },
+ "Roku|Error 014.41": {
+  "title": "Mot de passe incorrect ou restriction du routeur",
+  "causes": [
+   "Le mot de passe Wi-Fi a été mal saisi.",
+   "Le routeur bloque les appareils inconnus."
+  ],
+  "steps": [
+   "Vérifiez le nom du réseau et saisissez à nouveau le mot de passe avec soin.",
+   "Si le routeur filtre les appareils, autorisez l'adresse MAC Wi-Fi du téléviseur.",
+   "Redémarrez le téléviseur et le routeur.",
+   "Réessayez."
+  ],
+  "technician": "Si l'erreur revient après ces étapes, contactez l'assistance Roku ou votre fournisseur d'accès à Internet."
+ },
+ "Roku|Error 014.50": {
+  "title": "Échec de la connexion Wi-Fi, signal faible",
+  "causes": [
+   "Signal Wi-Fi faible.",
+   "Dysfonctionnement temporaire du routeur ou du téléviseur."
+  ],
+  "steps": [
+   "Redémarrez le routeur et le téléviseur.",
+   "Rapprochez le téléviseur du routeur.",
+   "Reconnectez-vous au Wi-Fi.",
+   "Essayez l'autre bande du routeur si elle est disponible."
+  ],
+  "technician": "Si l'erreur revient après ces étapes, contactez l'assistance Roku ou votre fournisseur d'accès à Internet."
+ },
+ "Roku|Error 016": {
+  "title": "Connexion perdue à l'ouverture d'une chaîne",
+  "causes": [
+   "Le réseau s'est coupé pendant le lancement d'une application.",
+   "Signal Wi-Fi faible."
+  ],
+  "steps": [
+   "Choisissez Set up connection à l'écran et suivez les instructions.",
+   "Redémarrez le téléviseur et le routeur.",
+   "Vérifiez la puissance du signal Wi-Fi.",
+   "Rapprochez le téléviseur et le routeur."
+  ],
+  "technician": "Si l'erreur revient après ces étapes, contactez l'assistance Roku ou votre fournisseur d'accès à Internet."
+ },
+ "Roku|Error 017": {
+  "title": "Signal sans fil trop faible",
+  "causes": [
+   "Signal Wi-Fi faible au niveau du téléviseur.",
+   "Des obstacles se trouvent entre le téléviseur et le routeur."
+  ],
+  "steps": [
+   "Rapprochez le téléviseur et le routeur.",
+   "Dégagez les obstacles entre les deux.",
+   "Redémarrez le téléviseur et le routeur.",
+   "Utilisez un câble Ethernet si le téléviseur possède un port."
+  ],
+  "technician": "Si l'erreur revient après ces étapes, contactez l'assistance Roku ou votre fournisseur d'accès à Internet."
+ },
+ "Roku|Error 018": {
+  "title": "Débit Internet trop lent",
+  "causes": [
+   "Votre abonnement ou votre ligne Internet est lent.",
+   "D'autres appareils utilisent la bande passante."
+  ],
+  "steps": [
+   "Mettez en pause les téléchargements et les lectures en continu sur les autres appareils.",
+   "Redémarrez le modem et le routeur.",
+   "Demandez à votre fournisseur quel débit vous obtenez.",
+   "Envisagez un abonnement plus rapide."
+  ],
+  "technician": "Si l'erreur revient après ces étapes, contactez l'assistance Roku ou votre fournisseur d'accès à Internet."
+ },
+ "Roku|Error 14.10": {
+  "title": "Échec de la connexion sans fil",
+  "causes": [
+   "Défaut Wi-Fi temporaire entre le téléviseur et le routeur."
+  ],
+  "steps": [
+   "Redémarrez le routeur et attendez qu'il soit de nouveau en ligne.",
+   "Redémarrez le téléviseur Roku.",
+   "Essayez de vous reconnecter au réseau.",
+   "Rapprochez le téléviseur si le signal est faible."
+  ],
+  "technician": "Si l'erreur revient après ces étapes, contactez l'assistance Roku ou votre fournisseur d'accès à Internet."
+ },
+ "Roku|Error 14.11": {
+  "title": "Échec de la connexion sans fil",
+  "causes": [
+   "Défaut Wi-Fi temporaire entre le téléviseur et le routeur."
+  ],
+  "steps": [
+   "Redémarrez le routeur et attendez qu'il soit de nouveau en ligne.",
+   "Redémarrez le téléviseur Roku.",
+   "Essayez de vous reconnecter au réseau.",
+   "Rapprochez le téléviseur si le signal est faible."
+  ],
+  "technician": "Si l'erreur revient après ces étapes, contactez l'assistance Roku ou votre fournisseur d'accès à Internet."
+ },
+ "Roku|Error 14.62": {
+  "title": "Problème de connexion sans fil, signal faible",
+  "causes": [
+   "Signal Wi-Fi faible au niveau du téléviseur."
+  ],
+  "steps": [
+   "Vérifiez la puissance du signal affichée à l'écran.",
+   "Rapprochez le téléviseur et le routeur.",
+   "Redémarrez le routeur et le téléviseur.",
+   "Reconnectez-vous au réseau."
+  ],
+  "technician": "Si l'erreur revient après ces étapes, contactez l'assistance Roku ou votre fournisseur d'accès à Internet."
+ },
+ "Roku|Error 14.64": {
+  "title": "Problème de connexion sans fil, signal faible",
+  "causes": [
+   "Signal Wi-Fi faible au niveau du téléviseur."
+  ],
+  "steps": [
+   "Vérifiez la puissance du signal affichée à l'écran.",
+   "Rapprochez le téléviseur et le routeur.",
+   "Redémarrez le routeur et le téléviseur.",
+   "Reconnectez-vous au réseau."
+  ],
+  "technician": "Si l'erreur revient après ces étapes, contactez l'assistance Roku ou votre fournisseur d'accès à Internet."
+ },
+ "TCL|Error 009": {
+  "title": "Connecté au routeur, mais sans accès à Internet",
+  "causes": [
+   "Le routeur est joignable, mais il n'a pas accès à Internet.",
+   "Le service Internet est en panne."
+  ],
+  "steps": [
+   "Vérifiez si un téléphone ou un ordinateur portable peut accéder à Internet sur le même réseau.",
+   "Si aucun appareil n'est en ligne, appelez votre fournisseur d'accès à Internet.",
+   "Si les autres appareils fonctionnent, redémarrez le téléviseur.",
+   "Redémarrez le routeur et le modem, puis reconnectez-vous."
+  ],
+  "technician": "Si l'erreur revient après une réinitialisation du réseau, contactez l'assistance TCL pour votre téléviseur Roku."
+ },
+ "TCL|Error 012": {
+  "title": "Problème de connexion au réseau filaire",
+  "causes": [
+   "Le câble Ethernet est mal branché ou défectueux.",
+   "Le port du routeur ne fonctionne pas."
+  ],
+  "steps": [
+   "Enfoncez bien le câble Ethernet dans le téléviseur et dans le routeur.",
+   "Essayez un autre câble ou un autre port du routeur.",
+   "Redémarrez le téléviseur, puis le routeur et le modem.",
+   "Essayez brièvement le Wi-Fi pour voir si Internet fonctionne."
+  ],
+  "technician": "Si l'erreur revient après une réinitialisation du réseau, contactez l'assistance TCL pour votre téléviseur Roku."
+ },
+ "TCL|Error 013": {
+  "title": "La connexion filaire n'accède pas à Internet",
+  "causes": [
+   "Le routeur n'a pas accès à Internet.",
+   "Le câble Ethernet n'est pas bien enfoncé."
+  ],
+  "steps": [
+   "Vérifiez qu'un autre appareil est en ligne.",
+   "Si oui, redémarrez le téléviseur.",
+   "Sinon, débranchez puis rebranchez le câble Ethernet aux deux extrémités.",
+   "Redémarrez le routeur avant d'appeler votre fournisseur d'accès."
+  ],
+  "technician": "Si l'erreur revient après une réinitialisation du réseau, contactez l'assistance TCL pour votre téléviseur Roku."
+ },
+ "TCL|Error 014": {
+  "title": "Connexion au réseau sans fil impossible",
+  "causes": [
+   "Le mauvais nom de réseau a été choisi.",
+   "Le mot de passe saisi est incorrect.",
+   "Le routeur ou le téléviseur doit être redémarré."
+  ],
+  "steps": [
+   "Vérifiez que vous avez choisi le bon nom de réseau.",
+   "Saisissez à nouveau le mot de passe ; il est sensible à la casse.",
+   "Redémarrez le téléviseur et le routeur.",
+   "Essayez de vous reconnecter."
+  ],
+  "technician": "Si l'erreur revient après une réinitialisation du réseau, contactez l'assistance TCL pour votre téléviseur Roku."
+ },
+ "TCL|Error 014.20": {
+  "title": "Un signal Wi-Fi faible empêche la connexion",
+  "causes": [
+   "Le téléviseur est trop loin du routeur.",
+   "Des murs ou des objets affaiblissent le signal."
+  ],
+  "steps": [
+   "Rapprochez le téléviseur ou le routeur, ou placez le routeur plus haut.",
+   "Redémarrez le routeur et le téléviseur.",
+   "Si votre routeur a deux bandes, essayez l'autre.",
+   "Reconnectez-vous au réseau."
+  ],
+  "technician": "Si l'erreur revient après une réinitialisation du réseau, contactez l'assistance TCL pour votre téléviseur Roku."
+ },
+ "TCL|Error 014.30": {
+  "title": "Échec de la connexion Wi-Fi, signal faible",
+  "causes": [
+   "Signal Wi-Fi faible.",
+   "Dysfonctionnement temporaire du routeur ou du téléviseur."
+  ],
+  "steps": [
+   "Redémarrez le routeur et le téléviseur.",
+   "Rapprochez le téléviseur du routeur.",
+   "Reconnectez-vous au Wi-Fi.",
+   "Essayez l'autre bande du routeur si elle est disponible."
+  ],
+  "technician": "Si l'erreur revient après une réinitialisation du réseau, contactez l'assistance TCL pour votre téléviseur Roku."
+ },
+ "TCL|Error 014.40": {
+  "title": "Mot de passe incorrect ou restriction du routeur",
+  "causes": [
+   "Le mot de passe Wi-Fi a été mal saisi.",
+   "Le routeur bloque les appareils inconnus."
+  ],
+  "steps": [
+   "Vérifiez le nom du réseau et saisissez à nouveau le mot de passe.",
+   "Si le routeur filtre les appareils, ajoutez l'adresse MAC Wi-Fi du téléviseur.",
+   "Redémarrez le téléviseur et le routeur.",
+   "Réessayez."
+  ],
+  "technician": "Si l'erreur revient après une réinitialisation du réseau, contactez l'assistance TCL pour votre téléviseur Roku."
+ },
+ "TCL|Error 014.41": {
+  "title": "Mot de passe incorrect ou restriction du routeur",
+  "causes": [
+   "Le mot de passe Wi-Fi a été mal saisi.",
+   "Le routeur bloque les appareils inconnus."
+  ],
+  "steps": [
+   "Vérifiez le nom du réseau et saisissez à nouveau le mot de passe avec soin.",
+   "Si le routeur filtre les appareils, autorisez l'adresse MAC Wi-Fi du téléviseur.",
+   "Redémarrez le téléviseur et le routeur.",
+   "Réessayez."
+  ],
+  "technician": "Si l'erreur revient après une réinitialisation du réseau, contactez l'assistance TCL pour votre téléviseur Roku."
+ },
+ "TCL|Error 014.50": {
+  "title": "Échec de la connexion Wi-Fi, signal faible",
+  "causes": [
+   "Signal Wi-Fi faible.",
+   "Dysfonctionnement temporaire du routeur ou du téléviseur."
+  ],
+  "steps": [
+   "Redémarrez le routeur et le téléviseur.",
+   "Rapprochez le téléviseur du routeur.",
+   "Reconnectez-vous au Wi-Fi.",
+   "Essayez l'autre bande du routeur si elle est disponible."
+  ],
+  "technician": "Si l'erreur revient après une réinitialisation du réseau, contactez l'assistance TCL pour votre téléviseur Roku."
+ },
+ "TCL|Error 016": {
+  "title": "Connexion perdue à l'ouverture d'une chaîne",
+  "causes": [
+   "Le réseau s'est coupé pendant le lancement d'une application.",
+   "Signal Wi-Fi faible."
+  ],
+  "steps": [
+   "Choisissez Set up connection à l'écran et suivez les instructions.",
+   "Redémarrez le téléviseur et le routeur.",
+   "Vérifiez la puissance du signal Wi-Fi.",
+   "Rapprochez le téléviseur et le routeur."
+  ],
+  "technician": "Si l'erreur revient après une réinitialisation du réseau, contactez l'assistance TCL pour votre téléviseur Roku."
+ },
+ "TCL|Error 017": {
+  "title": "Signal sans fil trop faible",
+  "causes": [
+   "Signal Wi-Fi faible au niveau du téléviseur.",
+   "Des obstacles se trouvent entre le téléviseur et le routeur."
+  ],
+  "steps": [
+   "Rapprochez le téléviseur et le routeur.",
+   "Dégagez les obstacles entre les deux.",
+   "Redémarrez le téléviseur et le routeur.",
+   "Utilisez un câble Ethernet si le téléviseur possède un port."
+  ],
+  "technician": "Si l'erreur revient après une réinitialisation du réseau, contactez l'assistance TCL pour votre téléviseur Roku."
+ },
+ "TCL|Error 018": {
+  "title": "Débit Internet trop lent",
+  "causes": [
+   "Votre abonnement ou votre ligne Internet est lent.",
+   "D'autres appareils utilisent la bande passante."
+  ],
+  "steps": [
+   "Mettez en pause les téléchargements et les lectures en continu sur les autres appareils.",
+   "Redémarrez le modem et le routeur.",
+   "Demandez à votre fournisseur quel débit vous obtenez.",
+   "Envisagez un abonnement plus rapide."
+  ],
+  "technician": "Si l'erreur revient après une réinitialisation du réseau, contactez l'assistance TCL pour votre téléviseur Roku."
+ },
+ "Sony|Red LED blinks 2 times": {
+  "title": "Le téléviseur Sony a détecté une panne (2 clignotements)",
+  "causes": [
+   "Le téléviseur a détecté une panne interne.",
+   "La signification du nombre de clignotements varie selon les modèles."
+  ],
+  "steps": [
+   "Éteignez le téléviseur et débranchez-le pendant 1 minute, sans le brancher sur une multiprise.",
+   "Dégagez les aérations pour que l'air circule.",
+   "Débranchez tous les appareils connectés, puis rallumez le téléviseur.",
+   "Mettez à jour le logiciel du téléviseur s'il démarre.",
+   "Notez le nombre de clignotements et contactez Sony."
+  ],
+  "technician": "La plupart des pannes signalées par un clignotement rouge nécessitent une réparation ; contactez l'assistance Sony en indiquant le nombre de clignotements."
+ },
+ "Sony|Red LED blinks 3 times": {
+  "title": "Le téléviseur Sony a détecté une panne (3 clignotements)",
+  "causes": [
+   "Le téléviseur a détecté une panne interne.",
+   "La signification du nombre de clignotements varie selon les modèles."
+  ],
+  "steps": [
+   "Éteignez le téléviseur et débranchez-le pendant 1 minute, sans le brancher sur une multiprise.",
+   "Dégagez les aérations pour que l'air circule.",
+   "Débranchez tous les appareils connectés, puis rallumez le téléviseur.",
+   "Mettez à jour le logiciel du téléviseur s'il démarre.",
+   "Notez le nombre de clignotements et contactez Sony."
+  ],
+  "technician": "La plupart des pannes signalées par un clignotement rouge nécessitent une réparation ; contactez l'assistance Sony en indiquant le nombre de clignotements."
+ },
+ "Sony|Red LED blinks 4 times": {
+  "title": "Le téléviseur Sony a détecté une panne (4 clignotements)",
+  "causes": [
+   "Le téléviseur a détecté une panne interne.",
+   "La signification du nombre de clignotements varie selon les modèles."
+  ],
+  "steps": [
+   "Éteignez le téléviseur et débranchez-le pendant 1 minute, sans le brancher sur une multiprise.",
+   "Dégagez les aérations pour que l'air circule.",
+   "Débranchez tous les appareils connectés, puis rallumez le téléviseur.",
+   "Mettez à jour le logiciel du téléviseur s'il démarre.",
+   "Notez le nombre de clignotements et contactez Sony."
+  ],
+  "technician": "La plupart des pannes signalées par un clignotement rouge nécessitent une réparation ; contactez l'assistance Sony en indiquant le nombre de clignotements."
+ },
+ "Sony|Red LED blinks 5 times": {
+  "title": "Le téléviseur Sony a détecté une panne (5 clignotements)",
+  "causes": [
+   "Le téléviseur a détecté une panne interne.",
+   "La signification du nombre de clignotements varie selon les modèles."
+  ],
+  "steps": [
+   "Éteignez le téléviseur et débranchez-le pendant 1 minute, sans le brancher sur une multiprise.",
+   "Dégagez les aérations pour que l'air circule.",
+   "Débranchez tous les appareils connectés, puis rallumez le téléviseur.",
+   "Mettez à jour le logiciel du téléviseur s'il démarre.",
+   "Notez le nombre de clignotements et contactez Sony."
+  ],
+  "technician": "La plupart des pannes signalées par un clignotement rouge nécessitent une réparation ; contactez l'assistance Sony en indiquant le nombre de clignotements."
+ },
+ "Sony|Red LED blinks 6 times": {
+  "title": "Le téléviseur Sony a détecté une panne (6 clignotements)",
+  "causes": [
+   "Le téléviseur a détecté une panne interne.",
+   "La signification du nombre de clignotements varie selon les modèles."
+  ],
+  "steps": [
+   "Éteignez le téléviseur et débranchez-le pendant 1 minute, sans le brancher sur une multiprise.",
+   "Dégagez les aérations pour que l'air circule.",
+   "Débranchez tous les appareils connectés, puis rallumez le téléviseur.",
+   "Mettez à jour le logiciel du téléviseur s'il démarre.",
+   "Notez le nombre de clignotements et contactez Sony."
+  ],
+  "technician": "La plupart des pannes signalées par un clignotement rouge nécessitent une réparation ; contactez l'assistance Sony en indiquant le nombre de clignotements."
+ },
+ "Sony|Red LED blinks 7 times": {
+  "title": "Le téléviseur Sony a détecté une panne (7 clignotements)",
+  "causes": [
+   "Le téléviseur a détecté une panne interne.",
+   "La signification du nombre de clignotements varie selon les modèles."
+  ],
+  "steps": [
+   "Éteignez le téléviseur et débranchez-le pendant 1 minute, sans le brancher sur une multiprise.",
+   "Dégagez les aérations pour que l'air circule.",
+   "Débranchez tous les appareils connectés, puis rallumez le téléviseur.",
+   "Mettez à jour le logiciel du téléviseur s'il démarre.",
+   "Notez le nombre de clignotements et contactez Sony."
+  ],
+  "technician": "La plupart des pannes signalées par un clignotement rouge nécessitent une réparation ; contactez l'assistance Sony en indiquant le nombre de clignotements."
+ },
+ "Sony|Red LED blinks 8 times": {
+  "title": "Le téléviseur Sony a détecté une panne (8 clignotements)",
+  "causes": [
+   "Le téléviseur a détecté une panne interne.",
+   "La signification du nombre de clignotements varie selon les modèles."
+  ],
+  "steps": [
+   "Éteignez le téléviseur et débranchez-le pendant 1 minute, sans le brancher sur une multiprise.",
+   "Dégagez les aérations pour que l'air circule.",
+   "Débranchez tous les appareils connectés, puis rallumez le téléviseur.",
+   "Mettez à jour le logiciel du téléviseur s'il démarre.",
+   "Notez le nombre de clignotements et contactez Sony."
+  ],
+  "technician": "La plupart des pannes signalées par un clignotement rouge nécessitent une réparation ; contactez l'assistance Sony en indiquant le nombre de clignotements."
+ },
+ "Sony|Orange LED solid": {
+  "title": "La minuterie de veille ou de marche/arrêt est active",
+  "causes": [
+   "Une minuterie de veille ou de marche/arrêt est réglée sur le téléviseur."
+  ],
+  "steps": [
+   "Ouvrez le menu Réglages du téléviseur.",
+   "Repérez la minuterie de veille ou de marche/arrêt.",
+   "Désactivez la minuterie ou modifiez l'heure.",
+   "Vérifiez que le voyant s'éteint."
+  ],
+  "technician": "Aucune réparation n'est nécessaire, sauf si le voyant reste allumé alors qu'aucune minuterie n'est réglée."
+ },
+ "Sony|Orange LED blinking": {
+  "title": "Mise à jour logicielle en cours ou câble mal branché",
+  "causes": [
+   "Une mise à jour logicielle est en cours.",
+   "Sur les modèles avec boîtier multimédia séparé, le câble entre les deux éléments peut être mal branché."
+  ],
+  "steps": [
+   "N'éteignez pas et ne débranchez pas le téléviseur ; patientez quelques minutes.",
+   "La télécommande ne fonctionne pas pendant la mise à jour.",
+   "Sur les modèles avec boîtier multimédia, vérifiez que le câble entre les deux éléments est bien enfoncé."
+  ],
+  "technician": "Si le voyant clignote longtemps, contactez l'assistance Sony."
+ },
+ "Sony|Green LED blinking": {
+  "title": "Démarrage normal ou le téléviseur ne démarre pas",
+  "causes": [
+   "Normal pendant l'allumage du téléviseur.",
+   "Panne possible si le clignotement ne s'arrête jamais ou si le téléviseur s'allume et s'éteint en boucle."
+  ],
+  "steps": [
+   "Attendez que le téléviseur ait fini de démarrer ; le clignotement doit s'arrêter.",
+   "S'il continue de clignoter, débranchez le téléviseur pendant 3 minutes.",
+   "Rebranchez-le et réessayez."
+  ],
+  "technician": "Si le téléviseur ne démarre toujours pas, il doit être réparé par Sony."
+ },
+ "Sony|White LED blinking": {
+  "title": "La lampe du téléviseur à projection doit être remplacée",
+  "causes": [
+   "La lampe est grillée (téléviseurs à projection et projecteurs uniquement).",
+   "Le capot de la lampe est peut-être ouvert."
+  ],
+  "steps": [
+   "Éteignez l'appareil et laissez la lampe refroidir.",
+   "Assurez-vous que les capots de la lampe sont fermés et bien fixés.",
+   "Ne touchez pas le verre de la lampe ; si vous l'avez touché, essuyez-le avec une lingette imbibée d'alcool.",
+   "Faites remplacer la lampe."
+  ],
+  "technician": "Contactez l'assistance Sony pour obtenir une lampe de rechange."
+ },
+ "Sony|Red LED blinking with 3-second pause": {
+  "title": "Panne signalée par des clignotements rouges répétés",
+  "causes": [
+   "Le téléviseur a détecté une panne et indique un nombre de clignotements."
+  ],
+  "steps": [
+   "Comptez les clignotements entre chaque pause.",
+   "Débranchez le téléviseur, attendez 2 minutes, rebranchez-le et allumez-le.",
+   "Si cela recommence, débranchez-le et appelez Sony en indiquant le nombre de clignotements."
+  ],
+  "technician": "Communiquez le nombre de clignotements à l'assistance Sony."
+ },
+ "Panasonic|Red LED blinking": {
+  "title": "Le téléviseur a détecté une erreur (SOS)",
+  "causes": [
+   "Le téléviseur a détecté une erreur interne.",
+   "Concerne les modèles Panasonic Fire TV."
+  ],
+  "steps": [
+   "Débranchez le téléviseur pendant quelques minutes.",
+   "Rebranchez-le et allumez-le.",
+   "S'il clignote toujours, envoyez une demande de réparation à Panasonic."
+  ],
+  "technician": "Si le clignotement continue, envoyez une demande de réparation à l'assistance Panasonic."
+ },
+ "Panasonic|Orange LED solid": {
+  "title": "Veille pendant une maintenance de l'écran ou une tâche réseau",
+  "causes": [
+   "Une maintenance de l'écran ou une fonction réseau est en cours."
+  ],
+  "steps": [
+   "Ne touchez pas l'écran et n'appuyez pas dessus pendant la maintenance de l'écran.",
+   "Attendez la fin de la tâche.",
+   "Si cela se répète, lisez l'article Panasonic sur la maintenance de l'écran."
+  ],
+  "technician": "Si le voyant reste orange longtemps, contactez l'assistance Panasonic."
+ },
+ "Panasonic|Orange LED blinking": {
+  "title": "Maintenance de l'écran ou mise à jour réseau en cours",
+  "causes": [
+   "Une maintenance de l'écran est en cours.",
+   "Une connexion réseau ou une mise à jour des réglages est en cours."
+  ],
+  "steps": [
+   "Laissez le téléviseur branché et attendez la fin de l'opération.",
+   "Si le voyant redevient orange après l'allumage ou l'extinction du téléviseur, la maintenance n'est pas terminée.",
+   "Laissez-la se terminer avant d'éteindre."
+  ],
+  "technician": "Si cela ne s'arrête jamais, contactez l'assistance Panasonic."
+ },
+ "Panasonic|Green LED blinking": {
+  "title": "Le téléviseur démarre ou attend un appairage Bluetooth",
+  "causes": [
+   "Le téléviseur est en cours de démarrage.",
+   "Il attend l'appairage d'un appareil Bluetooth."
+  ],
+  "steps": [
+   "Attendez la fin du démarrage.",
+   "S'il s'agit d'un appairage, terminez-le sur l'autre appareil.",
+   "Si cela ne s'arrête jamais, débranchez brièvement l'appareil et réessayez."
+  ],
+  "technician": "Si le téléviseur ne finit jamais de démarrer, contactez l'assistance Panasonic."
+ },
+ "Philips|Standby light blinks red": {
+  "title": "Le téléviseur Philips signale une panne",
+  "causes": [
+   "Le téléviseur a détecté une panne.",
+   "Le téléviseur a peut-être surchauffé."
+  ],
+  "steps": [
+   "Débranchez le téléviseur de la prise murale.",
+   "Laissez-le refroidir complètement.",
+   "Rebranchez le câble d'alimentation.",
+   "Rallumez-le."
+  ],
+  "technician": "Si le voyant rouge clignote de nouveau, contactez le service client Philips."
+ },
+ "Philips|Front LED blinks in a repeating pattern": {
+  "title": "Le téléviseur ne démarre pas, le voyant clignote en continu",
+  "causes": [
+   "Le téléviseur ne démarre pas et n'affiche ni image ni son.",
+   "Un problème d'alimentation temporaire."
+  ],
+  "steps": [
+   "Coupez l'alimentation : débranchez le téléviseur et attendez quelques minutes.",
+   "Rebranchez-le et réessayez.",
+   "Essayez une autre prise murale."
+  ],
+  "technician": "S'il clignote toujours, contactez l'assistance TV de Philips."
+ },
+ "LG|Error 106": {
+  "title": "Téléviseur non connecté au réseau",
+  "causes": [
+   "Le téléviseur n'a pas de connexion Internet fonctionnelle.",
+   "L'adaptateur Wi-Fi ou les réglages du routeur ne conviennent pas."
+  ],
+  "steps": [
+   "Testez un autre appareil sur le même réseau.",
+   "Redémarrez le routeur et le téléviseur, puis saisissez à nouveau le mot de passe Wi-Fi.",
+   "Dans les réglages avancés du Wi-Fi, saisissez manuellement le DNS 8.8.8.8.",
+   "Utilisez le 5 GHz si le téléviseur le prend en charge et rapprochez le routeur."
+  ],
+  "technician": "Si rien ne fonctionne, le module Wi-Fi doit peut-être être remplacé ; contactez le service LG."
+ }
+}

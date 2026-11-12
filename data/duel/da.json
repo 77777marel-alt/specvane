@@ -1,0 +1,15 @@
+{
+ "title": "30-sekunders duel: hvilken er bedst for dig?",
+ "lead": "Tryk på, hvor meget hver ting betyder for dig. Vi vægter, hvordan hver model placerer sig blandt alle modeller i vores katalog på disse specifikationer, og fortæller dig, hvilken der passer til dig.",
+ "levels": [
+  "Er ligegyldigt",
+  "Betyder noget",
+  "Meget vigtigt"
+ ],
+ "result": "Til dig: {name}",
+ "tie": "Uafgjort: begge passer omtrent lige godt til dig — vælg efter pris eller design.",
+ "wins": "Foran på {n} af de {m} ting, du går op i.",
+ "basis": "Score = andelen af katalogets modeller, som hver model slår på disse specifikationer, vægtet efter dine svar. Pris, design og anmeldelser indgår ikke.",
+ "none": "Vælg mindst én ting, der betyder noget for dig.",
+ "specs": "Baseret på: {list}"
+}

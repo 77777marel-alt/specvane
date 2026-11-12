@@ -1,0 +1,1373 @@
+{
+ "Samsung|C-d0": {
+  "title": "Przycisk zablokowany lub wciśnięty zbyt długo",
+  "causes": [
+   "Przycisk sterowania był przytrzymany zbyt długo.",
+   "Wilgoć lub tłuszcz na panelu sterowania."
+  ],
+  "steps": [
+   "Przetrzyj przyciski wilgotną ściereczką i osusz panel.",
+   "Sprawdź, czy na przyciskach i wokół nich nie ma wody.",
+   "Wyłącz piekarnik, a potem spróbuj ponownie."
+  ],
+  "technician": "Jeśli kod wraca po całkowitym odłączeniu zasilania, zadzwoń do serwisu Samsung."
+ },
+ "Samsung|S-01": {
+  "title": "Wyłączenie zabezpieczające po długim użytkowaniu",
+  "causes": [
+   "Piekarnik pracował zbyt wiele godzin na jednej temperaturze, więc wyłączył się ze względów bezpieczeństwa.",
+   "To nie jest usterka."
+  ],
+  "steps": [
+   "Wyłącz piekarnik.",
+   "Wyjmij jedzenie.",
+   "Uruchom zwykły cykl pieczenia ponownie."
+  ],
+  "technician": "Serwis nie jest potrzebny, chyba że kod pojawia się po krótkim czasie pieczenia."
+ },
+ "Samsung|dC": {
+  "title": "Przegroda założona niewłaściwie dla trybu pieczenia",
+  "causes": [
+   "Przegroda została wyjęta podczas trybu podwójnego pieczenia (dual cook).",
+   "Albo przegroda została włożona podczas trybu pojedynczego pieczenia (single cook)."
+  ],
+  "steps": [
+   "Załóż przegrodę do pieczenia podwójnego (dual cook) i wyjmij ją do pieczenia pojedynczego (single cook).",
+   "Wyłącz piekarnik i uruchom go ponownie.",
+   "Jeśli problem się utrzymuje, odetnij zasilanie na 30 sekund lub dłużej, a potem przywróć je."
+  ],
+  "technician": "Jeśli kod wraca po całkowitym odłączeniu zasilania, zadzwoń do serwisu Samsung."
+ },
+ "Samsung|dE": {
+  "title": "Przegroda założona niewłaściwie dla trybu pieczenia",
+  "causes": [
+   "Przegroda została wyjęta podczas trybu podwójnego pieczenia (dual cook).",
+   "Albo została włożona podczas korzystania z trybu pojedynczego pieczenia (single cook)."
+  ],
+  "steps": [
+   "Przy pieczeniu podwójnym (dual cook) zostaw przegrodę w piekarniku, a przy pojedynczym (single cook) ją wyjmij.",
+   "Wyłącz piekarnik i uruchom go ponownie.",
+   "Jeśli problem się utrzymuje, wyłącz bezpiecznik na 30 sekund lub dłużej, a potem włącz go ponownie."
+  ],
+  "technician": "Jeśli kod wraca po całkowitym odłączeniu zasilania, zadzwoń do serwisu Samsung."
+ },
+ "Samsung|C-d1": {
+  "title": "Usterka zamka drzwi",
+  "causes": [
+   "Piekarnik wykrywa problem z zamkiem drzwi."
+  ],
+  "steps": [
+   "Wyłącz piekarnik i włącz go ponownie.",
+   "Jeśli kod nie znika, odetnij zasilanie bezpiecznikiem na co najmniej 30 sekund, a potem włącz je ponownie.",
+   "Nie otwieraj drzwi na siłę, jeśli są zablokowane."
+  ],
+  "technician": "Jeśli kod wraca po całkowitym odłączeniu zasilania, zadzwoń do serwisu Samsung."
+ },
+ "Samsung|C-20": {
+  "title": "Usterka czujnika piekarnika",
+  "causes": [
+   "Piekarnik zgłasza problem z czujnikiem temperatury."
+  ],
+  "steps": [
+   "Wyłącz piekarnik i włącz go ponownie.",
+   "Jeśli kod nie znika, odetnij zasilanie bezpiecznikiem na co najmniej 30 sekund, a potem włącz je ponownie."
+  ],
+  "technician": "Jeśli kod wraca po całkowitym odłączeniu zasilania, zadzwoń do serwisu Samsung."
+ },
+ "Samsung|C-21": {
+  "title": "Usterka czujnika piekarnika",
+  "causes": [
+   "Piekarnik zgłasza problem z czujnikiem temperatury."
+  ],
+  "steps": [
+   "Wyłącz piekarnik i włącz go ponownie.",
+   "Jeśli kod nie znika, odetnij zasilanie bezpiecznikiem na co najmniej 30 sekund, a potem włącz je ponownie."
+  ],
+  "technician": "Jeśli kod wraca po całkowitym odłączeniu zasilania, zadzwoń do serwisu Samsung."
+ },
+ "Samsung|C-22": {
+  "title": "Usterka czujnika piekarnika",
+  "causes": [
+   "Piekarnik zgłasza problem z czujnikiem temperatury."
+  ],
+  "steps": [
+   "Wyłącz piekarnik i włącz go ponownie.",
+   "Jeśli kod nie znika, odetnij zasilanie bezpiecznikiem na co najmniej 30 sekund, a potem włącz je ponownie."
+  ],
+  "technician": "Jeśli kod wraca po całkowitym odłączeniu zasilania, zadzwoń do serwisu Samsung."
+ },
+ "Samsung|C-F1": {
+  "title": "Błąd odczytu lub zapisu pamięci",
+  "causes": [
+   "Wystąpił błąd podczas odczytu lub zapisu pamięci (EEPROM) przez płytę sterującą."
+  ],
+  "steps": [
+   "Wyłącz piekarnik i włącz go ponownie.",
+   "Jeśli kod nie znika, odetnij zasilanie bezpiecznikiem na co najmniej 30 sekund, a potem włącz je ponownie."
+  ],
+  "technician": "Jeśli kod wraca po całkowitym odłączeniu zasilania, zadzwoń do serwisu Samsung."
+ },
+ "Samsung|C-F0": {
+  "title": "Brak komunikacji między płytą główną a płytą dodatkową",
+  "causes": [
+   "Płyta główna i płyta dodatkowa nie mogą się ze sobą komunikować."
+  ],
+  "steps": [
+   "Wyłącz piekarnik i włącz go ponownie.",
+   "Jeśli kod nie znika, odetnij zasilanie bezpiecznikiem na co najmniej 30 sekund, a potem włącz je ponownie."
+  ],
+  "technician": "Jeśli kod wraca po całkowitym odłączeniu zasilania, zadzwoń do serwisu Samsung."
+ },
+ "Samsung|C-F2": {
+  "title": "Problem z komunikacją sterownika dotykowego",
+  "causes": [
+   "Sterownik dotykowy wciąż traci łączność z płytą główną lub dodatkową."
+  ],
+  "steps": [
+   "Wyłącz piekarnik i włącz go ponownie.",
+   "Jeśli kod nie znika, odetnij zasilanie bezpiecznikiem na co najmniej 30 sekund, a potem włącz je ponownie."
+  ],
+  "technician": "Jeśli kod wraca po całkowitym odłączeniu zasilania, zadzwoń do serwisu Samsung."
+ },
+ "Samsung|Pr E": {
+  "title": "Piekarnik się nagrzewa, normalny komunikat",
+  "causes": [
+   "Piekarnik wciąż nagrzewa się do ustawionej temperatury.",
+   "To normalny komunikat, a nie usterka."
+  ],
+  "steps": [
+   "Nie otwieraj drzwi.",
+   "Poczekaj, aż piekarnik osiągnie ustawioną temperaturę.",
+   "Kod zniknie sam."
+  ],
+  "technician": "Serwis nie jest potrzebny."
+ },
+ "Bosch|E011": {
+  "title": "Przycisk sterowania jest zablokowany",
+  "causes": [
+   "Przycisk był wciśnięty zbyt długo lub się zaciął.",
+   "Brud lub wilgoć wokół przycisku."
+  ],
+  "steps": [
+   "Naciśnij kolejno każdy przycisk i sprawdź, czy porusza się swobodnie.",
+   "Wyczyść i osusz okolice przycisków sterowania.",
+   "Wyłącz piekarnik i włącz go ponownie."
+  ],
+  "technician": "Jeśli E011 nie znika po wyczyszczeniu przycisków, zadzwoń do serwisu Bosch."
+ },
+ "Bosch|E115": {
+  "title": "Komora piekarnika zbyt gorąca, drzwi zablokowane",
+  "causes": [
+   "Wnętrze piekarnika jest zbyt gorące, więc zamek drzwi pozostaje zamknięty."
+  ],
+  "steps": [
+   "Poczekaj, aż piekarnik ostygnie.",
+   "Skasuj komunikat przyciskiem 0.",
+   "Nie otwieraj drzwi na siłę."
+  ],
+  "technician": "Jeśli E115 wciąż wraca, gdy piekarnik jest zimny, zadzwoń do serwisu Bosch."
+ },
+ "Bosch|e005": {
+  "title": "Brak komunikacji między płytą sterującą a płytą zasilania",
+  "causes": [
+   "Panel sterowania i płyta zasilania utraciły połączenie."
+  ],
+  "steps": [
+   "Wyłącz kuchenkę bezpiecznikiem w skrzynce.",
+   "Odczekaj pięć minut, a potem włącz bezpiecznik z powrotem.",
+   "Sprawdź, czy kod wraca."
+  ],
+  "technician": "Jeśli kod wraca po odłączeniu zasilania, zadzwoń do pomocy technicznej Bosch."
+ },
+ "Bosch|E100": {
+  "title": "Usterka elektroniki",
+  "causes": [
+   "Piekarnik wykrył usterkę elektroniki."
+  ],
+  "steps": [
+   "Wyłącz kuchenkę bezpiecznikiem w skrzynce.",
+   "Odczekaj pięć minut, a potem włącz bezpiecznik z powrotem.",
+   "Sprawdź piekarnik ponownie."
+  ],
+  "technician": "Jeśli kod wraca po odłączeniu zasilania, zadzwoń do pomocy technicznej Bosch."
+ },
+ "Bosch|e101": {
+  "title": "Usterka czujnika temperatury piekarnika",
+  "causes": [
+   "Czujnik temperatury nie działa prawidłowo."
+  ],
+  "steps": [
+   "Wyłącz kuchenkę bezpiecznikiem w skrzynce.",
+   "Odczekaj pięć minut, a potem włącz bezpiecznik z powrotem.",
+   "Jeśli piekarnik został dopiero co zainstalowany, poproś instalatora o sprawdzenie okablowania kabla zasilającego."
+  ],
+  "technician": "Jeśli kod wraca po odłączeniu zasilania, zadzwoń do pomocy technicznej Bosch."
+ },
+ "Bosch|e126": {
+  "title": "Usterka zamka drzwi piekarnika",
+  "causes": [
+   "Zamek drzwi nie działa prawidłowo, co często zdarza się podczas samoczyszczenia."
+  ],
+  "steps": [
+   "Anuluj cykl samoczyszczenia.",
+   "Poczekaj, aż drzwi się odblokują.",
+   "Uruchom samoczyszczenie ponownie."
+  ],
+  "technician": "Jeśli kod wraca po odłączeniu zasilania, zadzwoń do pomocy technicznej Bosch."
+ },
+ "Bosch|E302": {
+  "title": "Przegrzany panel sterowania",
+  "causes": [
+   "Panel sterowania jest zbyt gorący, co mogą powodować garnki stojące na płycie grzewczej.",
+   "Wysoka temperatura w pomieszczeniu."
+  ],
+  "steps": [
+   "Sprawdź temperaturę w pomieszczeniu i miejsce, w którym stoją garnki.",
+   "Poczekaj, aż urządzenie ostygnie.",
+   "Odetnij zasilanie bezpiecznikiem na pięć minut."
+  ],
+  "technician": "Jeśli kod wraca po odłączeniu zasilania, zadzwoń do pomocy technicznej Bosch."
+ },
+ "Bosch|e310": {
+  "title": "Usterka zasilania",
+  "causes": [
+   "Napięcie zasilania może być nieprawidłowe lub niestabilne."
+  ],
+  "steps": [
+   "Wyłącz kuchenkę bezpiecznikiem w skrzynce.",
+   "Odczekaj pięć minut, a potem włącz bezpiecznik z powrotem.",
+   "Jeśli problem wróci, poproś elektryka o sprawdzenie napięcia w domu."
+  ],
+  "technician": "Jeśli kod wraca po odłączeniu zasilania, zadzwoń do pomocy technicznej Bosch."
+ },
+ "Bosch|ERR/toP": {
+  "title": "Użycie płyty grzewczej podczas samoczyszczenia",
+  "causes": [
+   "Pole grzejne zostało włączone, gdy piekarnik wykonywał samoczyszczenie."
+  ],
+  "steps": [
+   "Wyłącz wszystkie włączone pola grzejne.",
+   "Uruchom cykl samoczyszczenia ponownie.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Serwis nie jest potrzebny, chyba że kod pojawia się przy wyłączonych wszystkich polach grzejnych."
+ },
+ "Bosch|dE": {
+  "title": "Tryb demo jest włączony, pola grzejne się nie nagrzewają",
+  "causes": [
+   "Tryb demo jest aktywny, dlatego pola grzejne pozostają zimne."
+  ],
+  "steps": [
+   "Wyłącz bezpiecznik płyty grzewczej na 30 sekund.",
+   "Włącz go z powrotem.",
+   "W ciągu trzech minut dotknij dowolnego przycisku sterowania."
+  ],
+  "technician": "Jeśli kod wraca po odłączeniu zasilania, zadzwoń do pomocy technicznej Bosch."
+ },
+ "Bosch|F1": {
+  "title": "Pole grzejne przegrzało się i wyłączyło",
+  "causes": [
+   "Pole grzejne przegrzało się i wyłączyło, aby chronić blat."
+  ],
+  "steps": [
+   "Poczekaj, aż elektronika ostygnie.",
+   "Włącz pole grzejne ponownie.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli kod wraca po odłączeniu zasilania, zadzwoń do pomocy technicznej Bosch."
+ },
+ "Bosch|F6": {
+  "title": "Pole grzejne przegrzało się i wyłączyło",
+  "causes": [
+   "Pole grzejne przegrzało się i wyłączyło, aby chronić blat."
+  ],
+  "steps": [
+   "Poczekaj, aż elektronika ostygnie.",
+   "Włącz pole grzejne ponownie.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli kod wraca po odłączeniu zasilania, zadzwoń do pomocy technicznej Bosch."
+ },
+ "Bosch|F2": {
+  "title": "Elektronika przegrzana, pole grzejne wyłączone",
+  "causes": [
+   "Elektronika jest zbyt gorąca, więc pole grzejne się wyłączyło."
+  ],
+  "steps": [
+   "Poczekaj, aż płyta grzewcza ostygnie.",
+   "Dotknij dowolnego przycisku sterowania.",
+   "Gotuj dalej, gdy komunikat zniknie.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli kod wraca po odłączeniu zasilania, zadzwoń do pomocy technicznej Bosch."
+ },
+ "Bosch|F4": {
+  "title": "Elektronika przegrzana",
+  "causes": [
+   "Elektronika jest zbyt gorąca."
+  ],
+  "steps": [
+   "Poczekaj, aż płyta grzewcza ostygnie.",
+   "Dotknij dowolnego przycisku sterowania.",
+   "Wznów gotowanie, gdy komunikat zniknie.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli kod wraca po odłączeniu zasilania, zadzwoń do pomocy technicznej Bosch."
+ },
+ "Bosch|F5": {
+  "title": "Gorące naczynie blisko panelu sterowania",
+  "causes": [
+   "Gorące naczynia stoją blisko przycisków dotykowych.",
+   "Elektronika może się przegrzać."
+  ],
+  "steps": [
+   "Odsuń naczynia od panelu sterowania.",
+   "Poczekaj kilka sekund i dotknij dowolnego przycisku sterowania.",
+   "Wznów gotowanie, gdy komunikat zniknie."
+  ],
+  "technician": "Jeśli kod wraca po odłączeniu zasilania, zadzwoń do pomocy technicznej Bosch."
+ },
+ "Bosch|F8": {
+  "title": "Pole grzejne pracowało zbyt długo, osiągnięto limit czasu",
+  "causes": [
+   "Pole grzejne zostało włączone i przez długi czas nie wykonano żadnej czynności."
+  ],
+  "steps": [
+   "Dotknij dowolnego przycisku sterowania.",
+   "Ustaw pole grzejne ponownie.",
+   "Kontynuuj gotowanie.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli kod wraca po odłączeniu zasilania, zadzwoń do pomocy technicznej Bosch."
+ },
+ "Bosch|E7010": {
+  "title": "Płyta grzewcza nie może połączyć się z siecią ani z okapem",
+  "causes": [
+   "Płyta grzewcza utraciła połączenie z domową siecią lub okapem."
+  ],
+  "steps": [
+   "Wyłącz płytę grzewczą i włącz ją ponownie.",
+   "Sprawdź, czy Wi-Fi działa.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli kod wraca po odłączeniu zasilania, zadzwoń do pomocy technicznej Bosch."
+ },
+ "Bosch|E9000": {
+  "title": "Napięcie zasilania poza normalnym zakresem",
+  "causes": [
+   "Napięcie zasilania jest zbyt wysokie lub zbyt niskie."
+  ],
+  "steps": [
+   "Wyłącz płytę grzewczą i włącz ją ponownie.",
+   "Poproś dostawcę prądu o sprawdzenie napięcia zasilania."
+  ],
+  "technician": "Jeśli dostawca nie znajdzie żadnej nieprawidłowości, zadzwoń do pomocy technicznej Bosch."
+ },
+ "Bosch|E9010": {
+  "title": "Napięcie zasilania poza normalnym zakresem",
+  "causes": [
+   "Napięcie zasilania jest zbyt wysokie lub zbyt niskie."
+  ],
+  "steps": [
+   "Wyłącz płytę grzewczą i włącz ją ponownie.",
+   "Poproś dostawcę prądu o sprawdzenie napięcia zasilania."
+  ],
+  "technician": "Jeśli dostawca nie znajdzie żadnej nieprawidłowości, zadzwoń do pomocy technicznej Bosch."
+ },
+ "Bosch|E9011": {
+  "title": "Płyta grzewcza nie jest prawidłowo podłączona",
+  "causes": [
+   "Okablowanie nie odpowiada schematowi połączeń."
+  ],
+  "steps": [
+   "Wyłącz zasilanie bezpiecznikiem.",
+   "Poproś wykwalifikowanego elektryka o sprawdzenie okablowania ze schematem."
+  ],
+  "technician": "Zadzwoń do wykwalifikowanego elektryka lub do pomocy technicznej Bosch."
+ },
+ "Bosch|U400": {
+  "title": "Napięcie zasilania poza normalnym zakresem",
+  "causes": [
+   "Napięcie zasilania jest poza normalnymi granicami."
+  ],
+  "steps": [
+   "Wyłącz płytę grzewczą i włącz ją ponownie.",
+   "Skontaktuj się z dostawcą prądu, aby sprawdził napięcie.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli napięcie okaże się prawidłowe, zadzwoń do pomocy technicznej Bosch."
+ },
+ "Siemens|E0111": {
+  "title": "Komunikat o usterce elektroniki",
+  "causes": [
+   "Elektronika piekarnika wykryła usterkę.",
+   "Może to być jednorazowa usterka."
+  ],
+  "steps": [
+   "Wyłącz piekarnik i włącz go ponownie.",
+   "Jeśli komunikat zniknie, była to jednorazowa usterka.",
+   "Jeśli komunikat wróci, zapisz dokładny kod."
+  ],
+  "technician": "Jeśli komunikat wróci, zadzwoń do serwisu posprzedażnego Siemens i podaj dokładny kod."
+ },
+ "Neff|E011": {
+  "title": "Przycisk na stałe wciśnięty lub przypisany",
+  "causes": [
+   "Przycisk jest na stałe wciśnięty lub przypisany."
+  ],
+  "steps": [
+   "Anuluj stałe przypisanie przycisku.",
+   "Następnie naciśnij przycisk funkcji zegara.",
+   "Wyczyść okolice przycisków.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli E011 nie znika, zadzwoń do serwisu Neff."
+ },
+ "Neff|E300": {
+  "title": "Wewnętrzna usterka elektroniki",
+  "causes": [
+   "Wewnętrzna usterka elektroniki piekarnika."
+  ],
+  "steps": [
+   "Naciśnij przycisk funkcji zegara.",
+   "Jeśli kod nie znika, odłącz piekarnik od prądu.",
+   "Odczekaj około 10 sekund i podłącz go ponownie.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli kod wraca, zadzwoń do serwisu Neff."
+ },
+ "Neff|rrr": {
+  "title": "Zasilanie zostało odcięte podczas pracy",
+  "causes": [
+   "Zasilanie zostało przerwane, gdy piekarnik pracował."
+  ],
+  "steps": [
+   "Naciśnij przycisk godziny.",
+   "Ustaw zegar od nowa.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Serwis nie jest potrzebny, chyba że kod powtarza się bez przerwy w zasilaniu."
+ },
+ "Miele|E0-E5": {
+  "title": "Kody postępu programu odkamieniania",
+  "causes": [
+   "Te kody pokazują, który etap programu odkamieniania jest w toku.",
+   "E0 oznacza pobieranie roztworu, E1 aktywację, od E2 do E4 płukanie, a E5 odparowywanie."
+  ],
+  "steps": [
+   "Poczekaj, aż program dobiegnie końca.",
+   "Nie wyłączaj piekarnika podczas odkamieniania."
+  ],
+  "technician": "Serwis nie jest potrzebny, chyba że program się zatrzyma."
+ },
+ "Miele|F23": {
+  "title": "Czyszczenie pirolityczne nie osiągnęło temperatury",
+  "causes": [
+   "Piekarnik nie mógł się nagrzać dostatecznie do samoczyszczenia.",
+   "W środku jest dużo resztek jedzenia."
+  ],
+  "steps": [
+   "Wyłącz piekarnik.",
+   "Wytrzyj duże osady i mocne zabrudzenia.",
+   "Uruchom czyszczenie pirolityczne ponownie."
+  ],
+  "technician": "Jeśli usterka wraca, skontaktuj się z obsługą klienta Miele lub umów naprawę."
+ },
+ "Miele|F32": {
+  "title": "Zamek drzwi przy czyszczeniu pirolitycznym się nie zamyka",
+  "causes": [
+   "Zamek drzwi samoczyszczenia nie zaskakuje.",
+   "Coś może blokować drzwi."
+  ],
+  "steps": [
+   "Sprawdź okolice drzwi i uszczelki pod kątem przedmiotów lub zanieczyszczeń.",
+   "Wyłącz piekarnik.",
+   "Uruchom czyszczenie pirolityczne ponownie."
+  ],
+  "technician": "Jeśli usterka wraca, skontaktuj się z obsługą klienta Miele lub umów naprawę."
+ },
+ "Miele|F33": {
+  "title": "Zamek drzwi przy czyszczeniu pirolitycznym się nie otwiera",
+  "causes": [
+   "Zamek drzwi samoczyszczenia nie zwolnił blokady."
+  ],
+  "steps": [
+   "Wyłącz piekarnik, aby przerwać cykl czyszczenia.",
+   "Spróbuj otworzyć drzwi.",
+   "Nie otwieraj ich na siłę.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli drzwi pozostają zablokowane, zadzwoń do obsługi klienta Miele."
+ },
+ "Miele|F38": {
+  "title": "Usterka modułu elektronicznego",
+  "causes": [
+   "Moduł elektroniczny piekarnika ma usterkę techniczną."
+  ],
+  "steps": [
+   "Nie próbuj naprawiać go samodzielnie.",
+   "Zanotuj kod i numer modelu.",
+   "Umów naprawę.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Umów technika Miele, ponieważ tej usterki nie da się usunąć w domu."
+ },
+ "Miele|F44": {
+  "title": "Wykryto usterkę techniczną",
+  "causes": [
+   "Piekarnik wykrył usterkę techniczną."
+  ],
+  "steps": [
+   "Wyłącz bezpiecznik lub odłącz piekarnik od prądu.",
+   "Pozostaw go wyłączonego na 20 sekund.",
+   "Przywróć zasilanie i sprawdź.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli usterka wraca, skontaktuj się z obsługą klienta Miele lub umów naprawę."
+ },
+ "Miele|F54": {
+  "title": "Sonda do żywności jest uszkodzona",
+  "causes": [
+   "Sonda do żywności lub jej złącze jest uszkodzone."
+  ],
+  "steps": [
+   "Wyjmij sondę z gniazda.",
+   "Komunikat o usterce powinien zniknąć.",
+   "Na razie piecz bez sondy.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Skontaktuj się z obsługą klienta Miele, aby kupić nową sondę."
+ },
+ "Miele|F55": {
+  "title": "Piekarnik wyłączył się po zbyt długiej pracy",
+  "causes": [
+   "Piekarnik pracował wyjątkowo długo, więc wyłączył się ze względów bezpieczeństwa.",
+   "Limit wynosi 6 godzin w trybach grilla i 12 godzin w pozostałych trybach."
+  ],
+  "steps": [
+   "Wyłącz piekarnik, a potem włącz go ponownie.",
+   "Rozpocznij nowy proces pieczenia."
+  ],
+  "technician": "Serwis nie jest potrzebny, chyba że kod wciąż pojawia się przy krótkim pieczeniu."
+ },
+ "Miele|F60": {
+  "title": "Zbyt słaba wentylacja piekarnika",
+  "causes": [
+   "Kanał powietrzny jest zablokowany lub zasłonięty."
+  ],
+  "steps": [
+   "Sprawdź, czy nic nie zasłania kanału powietrznego piekarnika.",
+   "Odłącz piekarnik od zasilania, a potem podłącz go ponownie.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli usterka wraca, skontaktuj się z obsługą klienta Miele lub umów naprawę."
+ },
+ "Miele|F134": {
+  "title": "Komora piekarnika zbyt gorąca",
+  "causes": [
+   "Czujnik temperatury zgłasza, że komora jest zbyt gorąca."
+  ],
+  "steps": [
+   "Wyłącz piekarnik i poczekaj, aż ostygnie.",
+   "Nie próbuj naprawiać go samodzielnie.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Umów naprawę Miele, ponieważ potrzebny jest technik."
+ },
+ "Miele|MES": {
+  "title": "Tryb demo włączony, piekarnik się nie nagrzewa",
+  "causes": [
+   "Włączony jest tryb demonstracyjny dla salonów sprzedaży."
+  ],
+  "steps": [
+   "Potwierdź komunikat przyciskiem OK.",
+   "Ustaw pokrętło trybów na 0.",
+   "Otwórz Settings, przejdź do P 9 i ustaw S 0.",
+   "Przytrzymaj OK przez 4 sekundy."
+  ],
+  "technician": "Jeśli tryb demo wraca, skontaktuj się z firmą Miele."
+ },
+ "Miele|F1": {
+  "title": "Pojemnik na wodę nie jest wsunięty",
+  "causes": [
+   "Pojemnik na wodę do odpompowania resztek wody nie jest włożony lub nie jest wsunięty do końca."
+  ],
+  "steps": [
+   "Wsuń pojemnik na wodę do końca do piekarnika.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli usterka wraca, skontaktuj się z obsługą klienta Miele lub umów naprawę."
+ },
+ "Miele|F04": {
+  "title": "Przerwa w zasilaniu podczas pieczenia",
+  "causes": [
+   "Piekarnik stracił zasilanie podczas programu pieczenia."
+  ],
+  "steps": [
+   "Sprawdź, jak daleko zaszło pieczenie.",
+   "W razie potrzeby ustaw nowy czas pieczenia.",
+   "Naciśnij Start/Stop, aby wznowić.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli usterka wraca, skontaktuj się z obsługą klienta Miele lub umów naprawę."
+ },
+ "Miele|F05": {
+  "title": "Woda nie dociera do piekarnika parowego",
+  "causes": [
+   "Zawór doprowadzania wody nie jest całkowicie otwarty.",
+   "Dysza wody jest zatkana kamieniem."
+  ],
+  "steps": [
+   "Otwórz zawór doprowadzania wody do końca i uruchom ponownie.",
+   "Jeśli problem wróci, odkamień dyszę wody, używając rękawic kuchennych.",
+   "Przepłucz elementy z wodą."
+  ],
+  "technician": "Jeśli usterka wraca, skontaktuj się z obsługą klienta Miele lub umów naprawę."
+ },
+ "Miele|F10": {
+  "title": "Usterka dopływu wody w piekarniku parowym",
+  "causes": [
+   "Pompa zasilająca jest sucha po długim nieużywaniu.",
+   "Czarny wąż ssący jest poluzowany lub uszkodzony.",
+   "Woda z odwróconej osmozy jest zbyt czysta dla czujnika."
+  ],
+  "steps": [
+   "Załóż czarny wąż ssący z powrotem, ustawiając go pionowo w pojemniku.",
+   "Jeśli możesz, wyłącz system odwróconej osmozy.",
+   "Albo dodaj do wody szczyptę soli."
+  ],
+  "technician": "Jeśli usterka wraca, skontaktuj się z obsługą klienta Miele lub umów naprawę."
+ },
+ "Miele|F11": {
+  "title": "Wytwornica pary nie może odprowadzić wody",
+  "causes": [
+   "Kamień w odpływie lub na elektrodzie.",
+   "Zablokowane lub zaciśnięte węże."
+  ],
+  "steps": [
+   "Odkamień piekarnik zgodnie z opisem w instrukcji.",
+   "W seriach 6000 i 7000 ustaw twardość wody na maksimum.",
+   "Nie powtarzaj odkamieniania mocniejszym roztworem."
+  ],
+  "technician": "Jeśli usterka wraca, skontaktuj się z obsługą klienta Miele lub umów naprawę."
+ },
+ "Miele|F12": {
+  "title": "Piekarnik parowy nie otrzymuje wody",
+  "causes": [
+   "Zawór doprowadzania wody jest zamknięty.",
+   "Filtr wlotu wody jest zatkany."
+  ],
+  "steps": [
+   "Otwórz zawór wody i uruchom ponownie.",
+   "Wyczyść filtr we wlocie wody.",
+   "Jeśli podejrzewasz uszkodzony wąż, wyłącz piekarnik i zamknij zawór."
+  ],
+  "technician": "Jeśli wąż wygląda na uszkodzony, zadzwoń do Miele lub do hydraulika."
+ },
+ "Miele|F13": {
+  "title": "Komora piekarnika parowego jest zbyt gorąca",
+  "causes": [
+   "Zawór doprowadzania wody może być zamknięty.",
+   "Dysza wody może wymagać odkamienienia."
+  ],
+  "steps": [
+   "Otwórz zawór doprowadzania wody do końca.",
+   "Jeśli problem wróci, odkamień i przepłucz dyszę.",
+   "Załóż rękawice kuchenne."
+  ],
+  "technician": "Jeśli usterka wraca, skontaktuj się z obsługą klienta Miele lub umów naprawę."
+ },
+ "Miele|F14": {
+  "title": "Za mało wody w wytwornicy pary",
+  "causes": [
+   "Do wytwornicy pary dociera zbyt mało wody."
+  ],
+  "steps": [
+   "Wyłącz piekarnik i włącz go ponownie.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli F14 pojawi się ponownie, wyłącz piekarnik i skontaktuj się z firmą Miele."
+ },
+ "Miele|F20": {
+  "title": "Piekarnik parowy się nie nagrzewa",
+  "causes": [
+   "Temperatura nie wzrosła o 2 stopnie w ciągu 5 minut.",
+   "Może to być spowodowane dużą ilością mrożonek."
+  ],
+  "steps": [
+   "Wyłącz piekarnik, włącz go ponownie i uruchom program jeszcze raz.",
+   "Wsuń pojemnik na wodę, aż zaskoczy z kliknięciem.",
+   "Na uszczelkę używaj wyłącznie dołączonego smaru silikonowego."
+  ],
+  "technician": "Jeśli uszczelka złącza wygląda na pękniętą lub gromadzi się woda, zadzwoń do Miele."
+ },
+ "Miele|F27": {
+  "title": "Przerwa w zasilaniu podczas pieczenia lub odkamieniania",
+  "causes": [
+   "Zasilanie zostało odcięte podczas programu pieczenia (F27).",
+   "E04 oznacza, że zasilanie zostało odcięte podczas odkamieniania."
+  ],
+  "steps": [
+   "W przypadku F27 ustaw nowy czas i naciśnij Start/Stop.",
+   "W przypadku E04 poczekaj, aż wyświetlacz odliczy od 0:06.",
+   "Wyłącz piekarnik i włącz go ponownie."
+  ],
+  "technician": "Jeśli usterka wraca, skontaktuj się z obsługą klienta Miele lub umów naprawę."
+ },
+ "Miele|F74": {
+  "title": "Usterka techniczna piekarnika parowego",
+  "causes": [
+   "Usterka techniczna, której nie da się usunąć w domu."
+  ],
+  "steps": [
+   "Nie próbuj naprawiać go samodzielnie.",
+   "Zanotuj kod i numer modelu.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Umów wizytę technika Miele."
+ },
+ "Miele|F95": {
+  "title": "Przełącznik poziomu wody zablokowany kamieniem",
+  "causes": [
+   "Kamień blokuje przełącznik poziomu."
+  ],
+  "steps": [
+   "Odkamień piekarnik zgodnie z instrukcją.",
+   "Używaj środków do pielęgnacji Miele.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli usterka wraca, skontaktuj się z obsługą klienta Miele lub umów naprawę."
+ },
+ "Miele|F235": {
+  "title": "Usterka modułu elektronicznego",
+  "causes": [
+   "Moduł elektroniczny jest uszkodzony."
+  ],
+  "steps": [
+   "Nie próbuj naprawiać go na własną rękę.",
+   "Zanotuj kod.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Umów naprawę Miele."
+ },
+ "Electrolux|F1": {
+  "title": "Drzwi piekarnika nie mogą się zablokować",
+  "causes": [
+   "Modele pirolityczne: funkcja czyszczenia jest włączona, a drzwi nie zamykają się.",
+   "Inne modele: usterka elektroniki."
+  ],
+  "steps": [
+   "Sprawdź, czy górna część drzwi jest nienaruszona.",
+   "Jeśli drzwi były zdejmowane, postępuj zgodnie z instrukcją.",
+   "Jeśli problem się utrzymuje, skontaktuj się z serwisem."
+  ],
+  "technician": "Jeśli kod wraca, umów naprawę Electrolux."
+ },
+ "Electrolux|F102": {
+  "title": "Usterka czujnika zamka drzwi",
+  "causes": [
+   "Drzwi nie są całkowicie zamknięte.",
+   "Uszkodzony zamek drzwi lub elektronika."
+  ],
+  "steps": [
+   "Mocno zamknij drzwi.",
+   "Odetnij zasilanie na kilka minut, a potem przywróć je.",
+   "Sprawdź domowy bezpiecznik lub wyłącznik różnicowoprądowy."
+  ],
+  "technician": "Jeśli kod wraca, umów naprawę Electrolux."
+ },
+ "Electrolux|F111": {
+  "title": "Sonda do żywności uszkodzona lub niepodłączona",
+  "causes": [
+   "Sonda nie jest włożona do końca.",
+   "Sonda lub jej przewód jest uszkodzony."
+  ],
+  "steps": [
+   "Wyjmij sondę i podłącz ją ponownie, mocno wsuwając.",
+   "Sprawdź, czy styki nie są wygięte, a przewód nie jest uszkodzony.",
+   "Odłącz piekarnik od zasilania sieciowego na 30 sekund."
+  ],
+  "technician": "Jeśli kod wraca, umów naprawę Electrolux."
+ },
+ "Electrolux|F104": {
+  "title": "Czujnik temperatury poza zakresem",
+  "causes": [
+   "Czujnik temperatury piekarnika jest poza zakresem.",
+   "Piekarnik może się nie nagrzewać lub może się zatrzymać."
+  ],
+  "steps": [
+   "Odłącz piekarnik od zasilania sieciowego na 30 sekund.",
+   "Włącz go z powrotem.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Skontaktuj się z autoryzowanym serwisem."
+ },
+ "Electrolux|F105": {
+  "title": "Alarm zbyt wysokiej temperatury z czujnika",
+  "causes": [
+   "Czujnik wykrył temperaturę wyższą od oczekiwanej."
+  ],
+  "steps": [
+   "Wyłącz piekarnik i poczekaj, aż ostygnie.",
+   "Wyłącz zasilanie na 30 sekund, a potem je przywróć.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Skontaktuj się z autoryzowanym serwisem."
+ },
+ "Electrolux|F215": {
+  "title": "Usterka oprogramowania piekarnika z funkcją połączenia",
+  "causes": [
+   "Problem z oprogramowaniem w piekarniku z funkcją połączenia z siecią."
+  ],
+  "steps": [
+   "Zainstaluj aplikację ponownie i połącz piekarnik jeszcze raz.",
+   "Odłącz piekarnik od prądu na 30 minut, a potem podłącz go ponownie.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli na wyświetlaczu pojawia się F215, umów naprawę."
+ },
+ "Electrolux|F601": {
+  "title": "Problem z sygnałem Wi-Fi piekarnika",
+  "causes": [
+   "Wystąpił problem z sygnałem Wi-Fi."
+  ],
+  "steps": [
+   "Sprawdź połączenie z siecią.",
+   "Przybliż router.",
+   "Zresetuj ustawienia Wi-Fi piekarnika i skonfiguruj połączenie od nowa.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli nie łączy się z siecią, umów naprawę."
+ },
+ "Electrolux|F604": {
+  "title": "Pierwsza próba połączenia z Wi-Fi nie powiodła się",
+  "causes": [
+   "Pierwsza próba połączenia z Wi-Fi nie powiodła się."
+  ],
+  "steps": [
+   "Wyłącz zasilanie piekarnika i włącz je ponownie.",
+   "Spróbuj połączyć się ponownie.",
+   "Sprawdź połączenie z internetem.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli nie łączy się z siecią, umów naprawę."
+ },
+ "Electrolux|E0020": {
+  "title": "Oświetlenie piekarnika nie działa",
+  "causes": [
+   "Żarówka piekarnika jest uszkodzona."
+  ],
+  "steps": [
+   "Wyłącz piekarnik i poczekaj, aż ostygnie.",
+   "Sprawdź żarówkę i wymień ją, jeśli jest uszkodzona.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli żarówka jest sprawna, skontaktuj się z serwisem."
+ },
+ "Electrolux|C1": {
+  "title": "Czyszczenie pirolityczne zablokowane przez prowadnice teleskopowe",
+  "causes": [
+   "W piekarniku znajdują się prowadnice teleskopowe."
+  ],
+  "steps": [
+   "Wyjmij prowadnice, półki i boczne szyny.",
+   "Uruchom Pyro Clean ponownie.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli problem się utrzymuje, skontaktuj się z serwisem."
+ },
+ "Electrolux|C2": {
+  "title": "Czyszczenie pirolityczne zablokowane przez sondę do żywności",
+  "causes": [
+   "Sonda do żywności jest włożona do gniazda."
+  ],
+  "steps": [
+   "Wyjmij sondę z gniazda.",
+   "Uruchom Pyro Clean ponownie.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli problem się utrzymuje, skontaktuj się z serwisem."
+ },
+ "Electrolux|C3": {
+  "title": "Czyszczenie pirolityczne zablokowane przez otwarte drzwi",
+  "causes": [
+   "Drzwi są otwarte lub nie są całkowicie zamknięte."
+  ],
+  "steps": [
+   "Zamknij drzwi całkowicie.",
+   "Uruchom Pyro Clean ponownie.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli problem się utrzymuje, skontaktuj się z serwisem."
+ },
+ "Electrolux|C4": {
+  "title": "Czyszczenie pirolityczne zablokowane przez Steam Bake",
+  "causes": [
+   "Funkcja Steam Bake jest nadal aktywna."
+  ],
+  "steps": [
+   "Naciskaj Steam Bake, aż zgaśnie jego dioda.",
+   "Uruchom Pyro Clean ponownie.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli problem się utrzymuje, skontaktuj się z serwisem."
+ },
+ "AEG|F": {
+  "title": "Nie wykryto naczynia lub usterka płyty grzewczej",
+  "causes": [
+   "Nieodpowiednie naczynie lub naczynie zostało uniesione.",
+   "W nowo zainstalowanej płycie możliwy jest problem z instalacją."
+  ],
+  "steps": [
+   "Sprawdź, czy magnes przykleja się do dna naczynia.",
+   "Ustaw naczynie na środku pola grzejnego.",
+   "Utrzymuj płytę grzewczą i naczynie w stanie suchym.",
+   "Odłącz zasilanie sieciowe na 30 sekund."
+  ],
+  "technician": "Jeśli F nie znika lub pojawia się z cyfrą, umów wizytę technika."
+ },
+ "AEG|F2": {
+  "title": "SenseBoil: pusty garnek lub olej",
+  "causes": [
+   "Garnek jest pusty lub zawiera olej albo inny płyn niż woda."
+  ],
+  "steps": [
+   "Osusz powierzchnię płyty grzewczej.",
+   "Nie podgrzewaj pustego garnka.",
+   "Używaj SenseBoil wyłącznie z wodą.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli komunikat zniknie, to nie jest usterka."
+ },
+ "AEG|F3": {
+  "title": "SenseBoil: nieprawidłowa ilość wody",
+  "causes": [
+   "W garnku jest za dużo lub za mało wody.",
+   "W garnku jest coś innego niż woda lub ziemniaki."
+  ],
+  "steps": [
+   "Osusz powierzchnię płyty grzewczej.",
+   "Napełnij garnek do połowy lub do trzech czwartych, od 1 do 5 litrów.",
+   "Gotuj tylko wodę i ziemniaki."
+  ],
+  "technician": "Jeśli komunikat zniknie, to nie jest usterka."
+ },
+ "AEG|E2": {
+  "title": "Błąd diody LED lub czujnika płyty grzewczej",
+  "causes": [
+   "W płytach indukcyjnych błąd podświetlenia LED.",
+   "W płytach teppanyaki błąd czujnika temperatury."
+  ],
+  "steps": [
+   "Odetnij zasilanie na 30 sekund.",
+   "Włącz je z powrotem.",
+   "Zanotuj dokładny kod.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli kod wraca, umów naprawę AEG."
+ },
+ "AEG|E3": {
+  "title": "Płyta grzewcza podłączona do niewłaściwego napięcia",
+  "causes": [
+   "Możliwe przepięcie lub nieprawidłowe okablowanie."
+  ],
+  "steps": [
+   "Przestań używać płyty grzewczej.",
+   "Poproś instalatora o sprawdzenie zasilania i okablowania.",
+   "Nie naprawiaj instalacji elektrycznej samodzielnie.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Zadzwoń do wykwalifikowanego elektryka lub do serwisu AEG."
+ },
+ "AEG|E4": {
+  "title": "Aktywna ochrona płyty grzewczej przed przegrzaniem",
+  "causes": [
+   "Płyta grzewcza się przegrzała.",
+   "Nieodpowiednie naczynia lub błędna instalacja."
+  ],
+  "steps": [
+   "Wyłącz płytę i zdejmij naczynia.",
+   "Sprawdź naczynie magnesem.",
+   "Odetnij zasilanie na 30 sekund.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli kod wraca, umów naprawę AEG."
+ },
+ "AEG|E5": {
+  "title": "Problem z fazą lub napięciem płyty grzewczej",
+  "causes": [
+   "Problem z fazą lub napięciem w zasilaniu."
+  ],
+  "steps": [
+   "Wyłącz wyłącznik izolacyjny na 30 sekund.",
+   "Włącz i sprawdź.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli kod wraca, umów naprawę AEG."
+ },
+ "AEG|E6": {
+  "title": "Problem z zasilaniem płyty grzewczej",
+  "causes": [
+   "Najczęściej błędna instalacja, na przykład gniazdko 13 A dla płyty 16 A."
+  ],
+  "steps": [
+   "Wyłącz płytę grzewczą i włącz ją ponownie.",
+   "Odłącz zasilanie na 30 sekund.",
+   "Zleć sprawdzenie zasilania."
+  ],
+  "technician": "Jeśli kod wraca, umów naprawę AEG."
+ },
+ "AEG|E7": {
+  "title": "Usterka wentylatora chłodzącego płyty grzewczej",
+  "causes": [
+   "Wentylator zablokowany lub uszkodzony w nowszych modelach."
+  ],
+  "steps": [
+   "Sprawdź, czy nic nie blokuje wentylatora pod płytą grzewczą.",
+   "Odetnij zasilanie na 30 sekund.",
+   "Włącz ponownie.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli kod wraca, umów naprawę AEG."
+ },
+ "AEG|E8": {
+  "title": "Usterka elektroniki lub fazy płyty grzewczej",
+  "causes": [
+   "Brak fazy po instalacji.",
+   "Błąd komunikacji elektroniki."
+  ],
+  "steps": [
+   "Sprawdź okablowanie według instrukcji.",
+   "Odetnij zasilanie na 30 sekund.",
+   "Jeśli problem się utrzymuje, przestań jej używać."
+  ],
+  "technician": "Jeśli kod wraca, umów naprawę AEG."
+ },
+ "AEG|E9": {
+  "title": "Usterka modułu elektronicznego płyty grzewczej",
+  "causes": [
+   "Usterka modułu elektronicznego."
+  ],
+  "steps": [
+   "Odłącz zasilanie sieciowe na 30 sekund.",
+   "Jeśli problem wraca, nie używaj płyty grzewczej.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli kod wraca, umów naprawę AEG."
+ },
+ "Whirlpool|F0 E0": {
+  "title": "Nierozpoznana usterka sterowania piekarnika",
+  "causes": [
+   "Sterownik nie może rozpoznać usterki."
+  ],
+  "steps": [
+   "Wyłącz bezpiecznik kuchenki na jedną minutę.",
+   "Włącz go z powrotem.",
+   "Obserwuj piekarnik przez minutę, aby sprawdzić, czy kod wraca."
+  ],
+  "technician": "Jeśli kod wraca, skontaktuj się z serwisem Whirlpool."
+ },
+ "Whirlpool|F1": {
+  "title": "Możliwa usterka czujnika, sterowania lub okablowania",
+  "causes": [
+   "Problem z czujnikiem temperatury piekarnika, sterowaniem lub okablowaniem."
+  ],
+  "steps": [
+   "Wyłącz bezpiecznik kuchenki na jedną minutę.",
+   "Włącz go z powrotem.",
+   "Obserwuj piekarnik przez minutę, aby sprawdzić, czy kod wraca."
+  ],
+  "technician": "Jeśli kod wraca, skontaktuj się z serwisem Whirlpool."
+ },
+ "Whirlpool|F2": {
+  "title": "Możliwa usterka czujnika, sterowania lub okablowania",
+  "causes": [
+   "Problem z czujnikiem temperatury piekarnika, sterowaniem lub okablowaniem."
+  ],
+  "steps": [
+   "Wyłącz bezpiecznik kuchenki na jedną minutę.",
+   "Włącz go z powrotem.",
+   "Obserwuj piekarnik przez minutę, aby sprawdzić, czy kod wraca."
+  ],
+  "technician": "Jeśli kod wraca, skontaktuj się z serwisem Whirlpool."
+ },
+ "Whirlpool|F2 E1": {
+  "title": "Problem z klawiaturą lub sterowaniem",
+  "causes": [
+   "Problem z klawiaturą, sterowaniem lub okablowaniem.",
+   "Ruszt może być źle ułożony."
+  ],
+  "steps": [
+   "Sprawdź, czy ruszty leżą równo.",
+   "Jeśli się chwieją, zamień je miejscami.",
+   "Wyłącz bezpiecznik na minutę."
+  ],
+  "technician": "Jeśli kod wraca, skontaktuj się z serwisem Whirlpool."
+ },
+ "Whirlpool|F3": {
+  "title": "Możliwa usterka sterowania piekarnika lub okablowania",
+  "causes": [
+   "Problem ze sterowaniem piekarnika lub okablowaniem."
+  ],
+  "steps": [
+   "Wyłącz bezpiecznik kuchenki na jedną minutę.",
+   "Włącz go z powrotem.",
+   "Obserwuj piekarnik przez minutę, aby sprawdzić, czy kod wraca."
+  ],
+  "technician": "Jeśli kod wraca, skontaktuj się z serwisem Whirlpool."
+ },
+ "Whirlpool|F5": {
+  "title": "Problem z zatrzaskiem drzwi piekarnika",
+  "causes": [
+   "Problem z zatrzaskiem drzwi, przełącznikiem lub okablowaniem."
+  ],
+  "steps": [
+   "Wyłącz bezpiecznik kuchenki na jedną minutę.",
+   "Włącz go z powrotem.",
+   "Obserwuj piekarnik przez minutę, aby sprawdzić, czy kod wraca."
+  ],
+  "technician": "Jeśli kod wraca, skontaktuj się z serwisem Whirlpool."
+ },
+ "Whirlpool|F5 E0": {
+  "title": "Problem z zatrzaskiem drzwi piekarnika",
+  "causes": [
+   "Problem z zatrzaskiem drzwi, przełącznikiem lub okablowaniem."
+  ],
+  "steps": [
+   "Wyłącz bezpiecznik kuchenki na jedną minutę.",
+   "Włącz go z powrotem.",
+   "Obserwuj piekarnik przez minutę, aby sprawdzić, czy kod wraca."
+  ],
+  "technician": "Jeśli kod wraca, skontaktuj się z serwisem Whirlpool."
+ },
+ "Whirlpool|F6": {
+  "title": "Możliwa usterka sterowania piekarnika lub okablowania",
+  "causes": [
+   "Problem ze sterowaniem piekarnika lub okablowaniem."
+  ],
+  "steps": [
+   "Wyłącz bezpiecznik kuchenki na jedną minutę.",
+   "Włącz go z powrotem.",
+   "Obserwuj piekarnik przez minutę, aby sprawdzić, czy kod wraca."
+  ],
+  "technician": "Jeśli kod wraca, skontaktuj się z serwisem Whirlpool."
+ },
+ "Whirlpool|F7 E0": {
+  "title": "Problem z zespołem zatrzasku drzwi",
+  "causes": [
+   "Problem z zespołem zatrzasku drzwi lub okablowaniem."
+  ],
+  "steps": [
+   "Wyłącz bezpiecznik kuchenki na jedną minutę.",
+   "Włącz go z powrotem.",
+   "Obserwuj piekarnik przez minutę, aby sprawdzić, czy kod wraca."
+  ],
+  "technician": "Jeśli kod wraca, skontaktuj się z serwisem Whirlpool."
+ },
+ "Whirlpool|F8 E0": {
+  "title": "Wentylator chłodzący piekarnika pracuje wolno",
+  "causes": [
+   "Ograniczony przepływ powietrza.",
+   "Uszkodzony wentylator chłodzący lub okablowanie."
+  ],
+  "steps": [
+   "Wyłącz bezpiecznik kuchenki na jedną minutę.",
+   "Włącz go z powrotem.",
+   "Obserwuj piekarnik przez minutę, aby sprawdzić, czy kod wraca."
+  ],
+  "technician": "Jeśli kod wraca, skontaktuj się z serwisem Whirlpool."
+ },
+ "Whirlpool|F9-1": {
+  "title": "Problem z zatrzaskiem drzwi lub przełącznikiem blokady",
+  "causes": [
+   "Problem z zatrzaskiem drzwi, przełącznikiem blokady lub okablowaniem."
+  ],
+  "steps": [
+   "Wyłącz bezpiecznik kuchenki na jedną minutę.",
+   "Włącz go z powrotem.",
+   "Obserwuj piekarnik przez minutę, aby sprawdzić, czy kod wraca."
+  ],
+  "technician": "Jeśli kod wraca, skontaktuj się z serwisem Whirlpool."
+ },
+ "LG|F1": {
+  "title": "Błąd termistora górnego piekarnika",
+  "causes": [
+   "Usterka czujnika temperatury górnego piekarnika."
+  ],
+  "steps": [
+   "Naciśnij CLEAR/OFF i spróbuj użyć funkcji ponownie.",
+   "Wyłącz bezpiecznik kuchenki na 30 sekund.",
+   "Włącz go z powrotem.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli problem wciąż wraca, zgłoś naprawę LG."
+ },
+ "LG|F2": {
+  "title": "Błąd termistora górnego piekarnika",
+  "causes": [
+   "Usterka czujnika temperatury górnego piekarnika."
+  ],
+  "steps": [
+   "Naciśnij CLEAR/OFF i spróbuj użyć funkcji ponownie.",
+   "Wyłącz bezpiecznik kuchenki na 30 sekund.",
+   "Włącz go z powrotem.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli problem wciąż wraca, zgłoś naprawę LG."
+ },
+ "LG|F3": {
+  "title": "Błąd klawisza czujnika panelu dotykowego",
+  "causes": [
+   "Usterka czujnika klawisza panelu dotykowego."
+  ],
+  "steps": [
+   "Naciśnij CLEAR/OFF i spróbuj użyć funkcji ponownie.",
+   "Wyłącz bezpiecznik kuchenki na 30 sekund.",
+   "Włącz go z powrotem.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli problem wciąż wraca, zgłoś naprawę LG."
+ },
+ "LG|F6": {
+  "title": "Błąd nagrzewania górnego piekarnika",
+  "causes": [
+   "Usterka nagrzewania górnego piekarnika."
+  ],
+  "steps": [
+   "Naciśnij CLEAR/OFF i spróbuj użyć funkcji ponownie.",
+   "Wyłącz bezpiecznik kuchenki na 30 sekund.",
+   "Włącz go z powrotem.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli problem wciąż wraca, zgłoś naprawę LG."
+ },
+ "LG|F7": {
+  "title": "Błąd wentylatora termoobiegu górnego piekarnika",
+  "causes": [
+   "Usterka wentylatora termoobiegu."
+  ],
+  "steps": [
+   "Naciśnij CLEAR/OFF i spróbuj użyć funkcji ponownie.",
+   "Wyłącz bezpiecznik kuchenki na 30 sekund.",
+   "Włącz go z powrotem.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli problem wciąż wraca, zgłoś naprawę LG."
+ },
+ "LG|F9": {
+  "title": "Górny piekarnik nie nagrzewa się prawidłowo",
+  "causes": [
+   "Górny piekarnik się nie nagrzewa."
+  ],
+  "steps": [
+   "Naciśnij CLEAR/OFF i spróbuj użyć funkcji ponownie.",
+   "Wyłącz bezpiecznik kuchenki na 30 sekund.",
+   "Włącz go z powrotem.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli problem wciąż wraca, zgłoś naprawę LG."
+ },
+ "LG|F10": {
+  "title": "Awaria zamka drzwi górnego piekarnika",
+  "causes": [
+   "Awaria systemu blokady drzwi."
+  ],
+  "steps": [
+   "Naciśnij CLEAR/OFF i spróbuj użyć funkcji ponownie.",
+   "Wyłącz bezpiecznik kuchenki na 30 sekund.",
+   "Włącz go z powrotem.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli problem wciąż wraca, zgłoś naprawę LG."
+ },
+ "LG|F11": {
+  "title": "Błąd komunikacji",
+  "causes": [
+   "Płyty nie komunikują się ze sobą."
+  ],
+  "steps": [
+   "Naciśnij CLEAR/OFF i spróbuj użyć funkcji ponownie.",
+   "Wyłącz bezpiecznik kuchenki na 30 sekund.",
+   "Włącz go z powrotem.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli problem wciąż wraca, zgłoś naprawę LG."
+ },
+ "LG|F20": {
+  "title": "Awaria zamka drzwi dolnego piekarnika",
+  "causes": [
+   "Awaria systemu blokady drzwi."
+  ],
+  "steps": [
+   "Naciśnij CLEAR/OFF i spróbuj użyć funkcji ponownie.",
+   "Wyłącz bezpiecznik kuchenki na 30 sekund.",
+   "Włącz go z powrotem.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli problem wciąż wraca, zgłoś naprawę LG."
+ },
+ "LG|F27": {
+  "title": "Wentylator chłodzący zatrzymał się podczas samoczyszczenia",
+  "causes": [
+   "Wentylator zatrzymał się podczas samoczyszczenia."
+  ],
+  "steps": [
+   "Naciśnij CLEAR/OFF i spróbuj użyć funkcji ponownie.",
+   "Wyłącz bezpiecznik kuchenki na 30 sekund.",
+   "Włącz go z powrotem.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli problem wciąż wraca, zgłoś naprawę LG."
+ },
+ "LG|PF": {
+  "title": "Zasilanie zostało przerwane",
+  "causes": [
+   "Zasilanie urządzenia zostało przerwane."
+  ],
+  "steps": [
+   "Naciśnij CLEAR/OFF i spróbuj użyć funkcji ponownie.",
+   "Wyłącz bezpiecznik kuchenki na 30 sekund.",
+   "Włącz go z powrotem.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Jeśli problem wciąż wraca, zgłoś naprawę LG."
+ },
+ "Beko|Er 5": {
+  "title": "Błąd komunikacji z sondą do mięsa",
+  "causes": [
+   "Piekarnik nie może się komunikować z sondą do mięsa."
+  ],
+  "steps": [
+   "Wyjmij sondę do mięsa.",
+   "Ustaw pokrętło na wyłączone (0).",
+   "Piecz bez sondy.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Aby znów używać sondy, skontaktuj się z autoryzowanym serwisem."
+ },
+ "Beko|Er 1 - Er 7": {
+  "title": "Błędy komunikacji piekarnika",
+  "causes": [
+   "Wewnętrzne błędy komunikacji."
+  ],
+  "steps": [
+   "Wyłącz piekarnik.",
+   "Zanotuj dokładny numer.",
+   "Nie używaj piekarnika.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Skontaktuj się z autoryzowanym serwisem Beko."
+ },
+ "Beko|Er 8 - Er 27": {
+  "title": "Błędy czujników piekarnika",
+  "causes": [
+   "Czujnik w piekarniku jest uszkodzony."
+  ],
+  "steps": [
+   "Wyłącz piekarnik.",
+   "Zanotuj dokładny numer.",
+   "Zanim się z kimkolwiek skontaktujesz, zapisz dokładny kod oraz numer modelu z tabliczki znamionowej."
+  ],
+  "technician": "Skontaktuj się z autoryzowanym serwisem Beko."
+ }
+}

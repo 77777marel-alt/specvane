@@ -1,0 +1,1394 @@
+{
+ "iRobot|Error 1": {
+  "title": "Roomba sıkıştı veya tekerlek aşağı sarkıyor",
+  "causes": [
+   "Robot bir şeye takılmış.",
+   "Yan tekerleklerden biri aşağı sarkıyor veya sıkışmış."
+  ],
+  "steps": [
+   "Robotu kaldırıp başka bir noktaya koyun.",
+   "Yeniden başlatmak için CLEAN düğmesine basın.",
+   "İki yan tekerleği elinizle çevirin ve içlerindeki kirleri silkeleyin."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Error 2": {
+  "title": "Fırçalar dönemiyor",
+  "causes": [
+   "Saç veya kir fırçaları (extractor) sıkıştırıyor."
+  ],
+  "steps": [
+   "Hazneyi çıkarın ve fırça çerçevesini açın.",
+   "Fırçaları çıkarın, dolanmış saç ve ipleri kesip temizleyin.",
+   "Fırçaları geri takın ve CLEAN düğmesine basın."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Error 5": {
+  "title": "Yan tekerlek sıkıştı",
+  "causes": [
+   "Kir veya saç yüzünden yan tekerlek serbestçe dönemiyor."
+  ],
+  "steps": [
+   "Robotu ters çevirin.",
+   "Her yan tekerleği çevirin ve tekerlek yuvasındaki kirleri temizleyin.",
+   "Robotu yere koyun ve CLEAN düğmesine basın."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Error 6": {
+  "title": "Düşüş sensörleri kirli veya robot bir boşluğun üzerinde",
+  "causes": [
+   "Alt taraftaki düşüş sensörleri kirli.",
+   "Robot bir boşluğun üzerinde veya çok koyu bir zeminde."
+  ],
+  "steps": [
+   "Robotu başka bir yere taşıyın.",
+   "Alt taraftaki düşüş sensörlerini kuru bir bezle silin.",
+   "Yeniden başlatmak için CLEAN düğmesine basın."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Error 7": {
+  "title": "Yan tekerlek sıkıştı",
+  "causes": [
+   "Yan tekerlek kir veya saç yüzünden sıkışmış."
+  ],
+  "steps": [
+   "Robotu ters çevirin ve her yan tekerleği çevirin.",
+   "Tekerlek yuvalarındaki saç ve kirleri temizleyin.",
+   "Robotu yere bırakın ve CLEAN düğmesine basın."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Error 9": {
+  "title": "Tampon içeri basılmış veya tampon sensörü kirli",
+  "causes": [
+   "Tampon içeri itilmiş veya sıkışmış.",
+   "Tampon sensörü kirli."
+  ],
+  "steps": [
+   "Kiri gevşetmek için tampona birkaç kez hafifçe vurun.",
+   "Tamponun kenarlarını kuru bir bezle silin.",
+   "Robotu yeniden başlatın."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Error 10": {
+  "title": "Yan tekerlek sıkıştı veya tampon algılamıyor",
+  "causes": [
+   "Yan tekerleklerden biri sıkışmış.",
+   "Tampon engelleri algılamıyor."
+  ],
+  "steps": [
+   "Yan tekerlekleri çevirin ve tekerlek yuvalarını temizleyin.",
+   "Kiri gidermek için tampona hafifçe vurun.",
+   "Tekrar denemek için CLEAN düğmesine basın."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Error 11": {
+  "title": "Roomba vakum sistemi hatası",
+  "causes": [
+   "Vakum veya toz haznesi sisteminde bir arıza var."
+  ],
+  "steps": [
+   "Hazneyi çıkarın ve boşaltın.",
+   "Filtreyi temizleyin ve haznenin yerine oturduğunu kontrol edin.",
+   "Robotu yeniden başlatın; Wi-Fi'li modellerde yardım için iRobot HOME uygulamasına bakın."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Error 14": {
+  "title": "Roomba hazneyi algılayamıyor",
+  "causes": [
+   "Hazne doğru takılmamış.",
+   "Hazne kontakları kirli."
+  ],
+  "steps": [
+   "Haznenin tam olarak takıldığını kontrol edin.",
+   "Hazne ve robot üzerindeki kontakları hafif nemli bir melamin sünger ile silin.",
+   "Sorun sürerse yeni bir hazne gerekebilir."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Error 18": {
+  "title": "Roomba şarj istasyonuna veya başlangıç noktasına dönemiyor",
+  "causes": [
+   "İstasyonda elektrik yok veya istasyon yerinden oynatılmış.",
+   "Şarj kontakları veya sensörler kirli ya da tekerlekler sıkışmış."
+  ],
+  "steps": [
+   "İstasyonda elektrik olduğunu ve ışığının yandığını kontrol edin.",
+   "Alanı temizleyin; kontakları ve sensörleri kuru veya hafif nemli bir bezle silin.",
+   "Tekerlekleri çevirin, ardından robotu ve istasyonu yeniden başlatın.",
+   "İstasyon menzil dışındaysa temizlik alanına daha yakın bir yere taşıyın."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Error 1010": {
+  "title": "Roomba şarj istasyonunu bulamıyor veya ulaşamıyor",
+  "causes": [
+   "Yol tıkalı veya kapı kapalı.",
+   "İstasyon yerinden oynatılmış veya fişi çekilmiş.",
+   "Işık veya yansımalar istasyona yanaşma sensörlerini şaşırtıyor."
+  ],
+  "steps": [
+   "Yolu açın ve kapıları açın.",
+   "Yeniden başlatmak için güç düğmesini 10 saniye basılı tutun, sonra tekrar çalıştırın.",
+   "Robotun ve istasyonun fırçalarını, tekerleklerini ve sensörlerini temizleyin.",
+   "Sorun sürerse haritayı silin ve robotun yeniden harita çıkarmasını sağlayın."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Charging error 1": {
+  "title": "Roomba pili algılamıyor",
+  "causes": [
+   "Pil yerine oturmamış veya algılanmıyor."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Pili çıkarın.",
+   "Sıkıca geri takın.",
+   "Tekrar şarj etmeyi deneyin."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Charging error 2": {
+  "title": "Pil aşırı akım şarj hatası",
+  "causes": [
+   "Pil orijinal bir iRobot pili olmayabilir.",
+   "Sıvı hasarı olabilir."
+  ],
+  "steps": [
+   "Orijinal bir iRobot lityum iyon pil kullandığınızdan emin olun.",
+   "Sıvı hasarı belirtisi olup olmadığına bakın.",
+   "Pil hasarlı görünüyorsa şarj etmeyin."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Charging error 3": {
+  "title": "Şarj sistemi arızası",
+  "causes": [
+   "Şarj sisteminde, muhtemelen sıvı hasarından kaynaklanan bir arıza var."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Tekrar şarj etmeyi deneyin.",
+   "Sıvı hasarı olup olmadığını kontrol edin.",
+   "İstasyonu ve robotu kuru tutun."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Charging error 4": {
+  "title": "Şarj akımı düşük veya yok",
+  "causes": [
+   "Robotun veya istasyonun şarj kontakları kirli."
+  ],
+  "steps": [
+   "İstasyonun fişini çekin.",
+   "İkisindeki şarj kontaklarını da hafif nemli bir melamin süngerle silin.",
+   "Tekrar şarj etmeyi deneyin."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Charging error 6": {
+  "title": "Pil şarj için fazla sıcak veya fazla soğuk",
+  "causes": [
+   "Pil, güvenli şarj sıcaklığı aralığının dışında."
+  ],
+  "steps": [
+   "Robotu oda sıcaklığındaki bir yere taşıyın.",
+   "Oda sıcaklığına gelmesini bekleyin.",
+   "Tekrar şarj etmeyi deneyin."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Charging error 8": {
+  "title": "Robot pille iletişim kuramıyor",
+  "causes": [
+   "Pil orijinal olmayabilir veya düzgün oturmamış."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Pilin orijinal bir iRobot pili olduğundan emin olun.",
+   "Pili çıkarıp yeniden takın.",
+   "Tekrar şarj etmeyi deneyin."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Charging error 9": {
+  "title": "Pil arızası",
+  "causes": [
+   "Pil arızalanmış veya orijinal değil."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Pilin orijinal olduğundan emin olun.",
+   "Pili çıkarıp yeniden takın.",
+   "Tekrar arıza verirse pili değiştirmeyi planlayın."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Charging error 11": {
+  "title": "Pil donanım arızası",
+  "causes": [
+   "Pilde donanım arızası var veya pil orijinal değil."
+  ],
+  "steps": [
+   "Pilin orijinal olduğundan emin olun.",
+   "Pili çıkarıp yeniden takın.",
+   "Hata tekrar ederse pili değiştirin."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Charging error 20": {
+  "title": "Pil arızalı veya şarja hazır değil",
+  "causes": [
+   "Pilde arıza var veya şarj başlayamıyor."
+  ],
+  "steps": [
+   "Pili 15 dakika boyunca çıkarılmış halde bekletin.",
+   "Pili geri takın ve şarj etmeyi deneyin.",
+   "Sorun sürerse pili değiştirin."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Charging error 21": {
+  "title": "İstasyona oturdu ama şarj olamadı",
+  "causes": [
+   "Şarj kontakları kirli."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "İstasyonun fişini çekin.",
+   "Robotun ve istasyonun kontaklarını hafif nemli bir melamin süngerle silin.",
+   "Robotu tekrar istasyona yerleştirin."
+  ],
+  "technician": "Bu kontrollerden sonra hata tekrar ederse robotun seri numarasıyla iRobot Müşteri Hizmetleri'ne başvurun."
+ },
+ "iRobot|Error 453": {
+  "title": "İstasyon robotla hizalanamıyor",
+  "causes": [
+   "Ped yıkama silindiri veya hazne yerine oturmamış.",
+   "İstasyonun ağzını bir şey tıkıyor."
+  ],
+  "steps": [
+   "Ped yıkama silindirini yeniden takın.",
+   "Haznenin takılı olduğundan emin olun ve ağız yuvasını temizleyin.",
+   "Şarj kontak düğmelerinin serbestçe hareket ettiğini kontrol edin, ardından robotu ve istasyonu yeniden başlatın."
+  ],
+  "technician": "Bu adımlardan sonra istasyon hatası tekrar ederse iRobot Müşteri Hizmetleri ile iletişime geçin; istasyonun servise ihtiyacı olabilir."
+ },
+ "iRobot|Error 511": {
+  "title": "Kirli su deposu sensörü sorunu",
+  "causes": [
+   "Kirli su deposu düzgün oturmamış."
+  ],
+  "steps": [
+   "Kirli su deposunu çıkarıp yeniden takın.",
+   "İstasyonun fişini birkaç saniye çekip tekrar takın.",
+   "Tekrar deneyin."
+  ],
+  "technician": "Bu adımlardan sonra istasyon hatası tekrar ederse iRobot Müşteri Hizmetleri ile iletişime geçin; istasyonun servise ihtiyacı olabilir."
+ },
+ "iRobot|Error 512": {
+  "title": "Kirli su gideri tıkalı",
+  "causes": [
+   "Yıkama haznelerindeki giderin önünde kir birikmiş."
+  ],
+  "steps": [
+   "Her iki haznenin içini kuru bir bezle silin.",
+   "Gider ağzını temizleyin.",
+   "İnatçı kirler için hafif sabun ve sünger kullanın."
+  ],
+  "technician": "Bu adımlardan sonra istasyon hatası tekrar ederse iRobot Müşteri Hizmetleri ile iletişime geçin; istasyonun servise ihtiyacı olabilir."
+ },
+ "iRobot|Error 516": {
+  "title": "Ped yıkama silindiri takıldı",
+  "causes": [
+   "Silindiri bir şey engelliyor."
+  ],
+  "steps": [
+   "Silindiri çıkarın ve engeli temizleyin.",
+   "Geri takın.",
+   "İstasyonun fişini birkaç saniye çekerek yeniden başlatın."
+  ],
+  "technician": "Bu adımlardan sonra istasyon hatası tekrar ederse iRobot Müşteri Hizmetleri ile iletişime geçin; istasyonun servise ihtiyacı olabilir."
+ },
+ "iRobot|Error 517": {
+  "title": "Yıkama haznesi taştı",
+  "causes": [
+   "Haznede çok fazla kirli su var."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Taşma haznesini kuru bir bezle boşaltın.",
+   "Her iki haznenin içini temizleyin.",
+   "Tekrar deneyin."
+  ],
+  "technician": "Bu adımlardan sonra istasyon hatası tekrar ederse iRobot Müşteri Hizmetleri ile iletişime geçin; istasyonun servise ihtiyacı olabilir."
+ },
+ "iRobot|Error 518": {
+  "title": "Ped yıkama silindiri yok",
+  "causes": [
+   "Silindir istasyonda değil."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Silindiri istasyona yerleştirin.",
+   "Yerindeyse çıkarıp yeniden takın.",
+   "İstasyonu yeniden başlatın ve yıkamayı tekrar deneyin."
+  ],
+  "technician": "Bu adımlardan sonra istasyon hatası tekrar ederse iRobot Müşteri Hizmetleri ile iletişime geçin; istasyonun servise ihtiyacı olabilir."
+ },
+ "iRobot|Error 650": {
+  "title": "Temiz su deposu yok",
+  "causes": [
+   "Temiz su deposu yerine oturmamış veya tıkalı."
+  ],
+  "steps": [
+   "Robotu istasyona yerleştirin ve ışık halkasını kontrol edin.",
+   "Deposunu engelleyen her şeyi kaldırın.",
+   "Depoyu doldurup yeniden takın, ardından istasyonu yeniden başlatın."
+  ],
+  "technician": "Bu adımlardan sonra istasyon hatası tekrar ederse iRobot Müşteri Hizmetleri ile iletişime geçin; istasyonun servise ihtiyacı olabilir."
+ },
+ "iRobot|Error 651": {
+  "title": "Temiz su deposu seviyesi çok düşük",
+  "causes": [
+   "Temiz su deposu boş veya doğru algılanmıyor."
+  ],
+  "steps": [
+   "Temiz su deposunu doldurup yeniden takın.",
+   "Dolu olsa bile boşaltıp yeniden doldurun.",
+   "Robotun istasyona düzgün oturduğunu kontrol edin."
+  ],
+  "technician": "Bu adımlardan sonra istasyon hatası tekrar ederse iRobot Müşteri Hizmetleri ile iletişime geçin; istasyonun servise ihtiyacı olabilir."
+ },
+ "iRobot|Error 653": {
+  "title": "Kirli su deposu yok",
+  "causes": [
+   "Kirli su deposu yerinde değil veya tıkalı."
+  ],
+  "steps": [
+   "Robotun istasyonda olduğunu kontrol edin.",
+   "Kirli su deposunu çıkarın ve tıkanıklık olup olmadığına bakın.",
+   "Boş depoyu geri takın ve istasyonu yeniden başlatın."
+  ],
+  "technician": "Bu adımlardan sonra istasyon hatası tekrar ederse iRobot Müşteri Hizmetleri ile iletişime geçin; istasyonun servise ihtiyacı olabilir."
+ },
+ "iRobot|Error 654": {
+  "title": "Kirli su deposu çok dolu",
+  "causes": [
+   "Kirli su deposunun boşaltılması gerekiyor."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Kirli su deposunu boşaltıp temizleyin.",
+   "Yeniden takın.",
+   "Robotun istasyonda olduğunu kontrol edin ve tekrar deneyin."
+  ],
+  "technician": "Bu adımlardan sonra istasyon hatası tekrar ederse iRobot Müşteri Hizmetleri ile iletişime geçin; istasyonun servise ihtiyacı olabilir."
+ },
+ "iRobot|Error 663": {
+  "title": "Temiz su seviyesi düşüyor, olası sızıntı",
+  "causes": [
+   "İstasyondan su sızıyor olabilir."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "İstasyonun fişini çekin.",
+   "Her iki depoyu da çıkarın.",
+   "Altında su olup olmadığına bakmak için istasyonu yatırın ve kuru bir yere taşıyın."
+  ],
+  "technician": "Bu adımlardan sonra istasyon hatası tekrar ederse iRobot Müşteri Hizmetleri ile iletişime geçin; istasyonun servise ihtiyacı olabilir."
+ },
+ "iRobot|Error 668": {
+  "title": "Temizlik pedi takılı değil",
+  "causes": [
+   "Ped yok veya algılanmıyor."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Bir ped takın.",
+   "Ped takılıysa çıkarın, kurulayın ve yeniden takın.",
+   "Başka bir ped deneyin."
+  ],
+  "technician": "Bu adımlardan sonra istasyon hatası tekrar ederse iRobot Müşteri Hizmetleri ile iletişime geçin; istasyonun servise ihtiyacı olabilir."
+ },
+ "Roborock|Error 1": {
+  "title": "LiDAR kulesi veya lazer engellenmiş",
+  "causes": [
+   "Üstteki lazer kulesini bir şey engelliyor veya sıkıştırıyor."
+  ],
+  "steps": [
+   "Robotu kapatın.",
+   "Kule çevresinde sıkışmış bir şey olup olmadığına bakın ve kuleyi elinizle yavaşça çevirin.",
+   "Yeniden başlatın ve tekrar deneyin."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Roborock|Error 2": {
+  "title": "Tampon sıkıştı",
+  "causes": [
+   "Kir veya döküntü tamponu içeride tutuyor."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Tamponun çevresini temizleyin.",
+   "Serbest kalması için hafifçe vurun.",
+   "Robotu yeniden başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Roborock|Error 3": {
+  "title": "Tekerlekler havada",
+  "causes": [
+   "Robot kaldırılmış veya tekerlekleri aşağı sarkıyor."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu yere koyun.",
+   "Hiçbir tekerleğin kenardan sarkmadığını kontrol edin.",
+   "Temizliği yeniden başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Roborock|Error 4": {
+  "title": "Düşüş sensörü hatası",
+  "causes": [
+   "Bir düşüş sensörü kirli veya robot bir boşluğun yakınında."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Alt taraftaki düşüş sensörlerini silin.",
+   "Robotu kenarlardan uzaklaştırın.",
+   "Yeniden başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Roborock|Error 5": {
+  "title": "Ana fırça sıkıştı",
+  "causes": [
+   "Ana fırçaya saç veya kir dolanmış."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Ana fırçayı çıkarın.",
+   "Dolanmış saçları kesin ve yatakları temizleyin.",
+   "Fırçayı geri takın ve yeniden başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Roborock|Error 6": {
+  "title": "Yan fırça sıkıştı",
+  "causes": [
+   "Yan fırçaya saç veya kir dolanmış."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Yan fırçayı çıkarın.",
+   "Saç ve kirleri temizleyin.",
+   "Geri takın ve yeniden başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Roborock|Error 7": {
+  "title": "Tekerlekler sıkıştı",
+  "causes": [
+   "Bir tahrik tekerleği sıkışmış."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu boş bir yere taşıyın.",
+   "Tekerleklerde saç veya kir olup olmadığına bakın.",
+   "Robotu yeniden başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Roborock|Error 8": {
+  "title": "Robot sıkıştı",
+  "causes": [
+   "Robot mobilya veya kablolar arasında sıkışmış."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotun yakınındaki engelleri kaldırın.",
+   "Robotu açık bir alana taşıyın.",
+   "Temizliği yeniden başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Roborock|Error 9": {
+  "title": "Toz haznesi yok",
+  "causes": [
+   "Toz haznesi veya filtre takılı değil."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Toz haznesini takın.",
+   "Filtrenin takılı olduğundan emin olun.",
+   "Yeniden başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Roborock|Error 12": {
+  "title": "Pil seviyesi düşük",
+  "causes": [
+   "Pil devam etmek için çok zayıf."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu istasyona yerleştirin.",
+   "Şarj olmasını bekleyin.",
+   "Temizliği tekrar deneyin."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Roborock|Error 13": {
+  "title": "Şarj hatası",
+  "causes": [
+   "Robotun veya istasyonun şarj kontakları kirli."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Şarj kontaklarını silin.",
+   "İstasyonda elektrik olduğunu kontrol edin.",
+   "Robotu tekrar istasyona yerleştirin."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Roborock|Error 14": {
+  "title": "Pil hatası",
+  "causes": [
+   "Pil arızalı olabilir veya güvenli sıcaklık aralığının dışında olabilir."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotun oda sıcaklığına gelmesini bekleyin.",
+   "Tekrar şarj etmeyi deneyin.",
+   "Yeniden başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Roborock|Error 15": {
+  "title": "Duvar sensörü kirli",
+  "causes": [
+   "Toz duvar sensörünü kaplıyor."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Duvar sensörünü kuru bir bezle silin.",
+   "Robotu yeniden başlatın.",
+   "Kısa bir deneme temizliği başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Roborock|Error 16": {
+  "title": "Robot eğik duruyor",
+  "causes": [
+   "Robot bir eğimde veya yan duruyor."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu düz zemine taşıyın.",
+   "Halı kenarında veya basamakta olmadığını kontrol edin.",
+   "Yeniden başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Roborock|Error 17": {
+  "title": "Yan fırça hatası",
+  "causes": [
+   "Yan fırça sisteminde bir arıza var."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu sıfırlayın.",
+   "Yan fırçanın serbestçe döndüğünü kontrol edin.",
+   "Tekrar deneyin."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Roborock|Error 18": {
+  "title": "Fan hatası",
+  "causes": [
+   "Emiş fanında bir arıza var."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu sıfırlayın.",
+   "Hazneyi boşaltın ve filtreyi temizleyin.",
+   "Tekrar deneyin."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Roborock|Error 21": {
+  "title": "Üst tampon basılı",
+  "causes": [
+   "Üst tampon basılmış veya sıkışmış."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu başka bir noktaya taşıyın.",
+   "Tampona hiçbir şeyin bastırmadığını kontrol edin.",
+   "Tekrar deneyin."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Roborock|Error 22": {
+  "title": "Baz bulucu hatası",
+  "causes": [
+   "İstasyonu bulan sensör kirli veya engellenmiş."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Baz bulucuyu temizleyin.",
+   "İstasyonun çevresini temizleyin.",
+   "Tekrar deneyin."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Roborock|Error 23": {
+  "title": "İstasyona dönülemedi",
+  "causes": [
+   "İstasyonun gösterge ışığı kirli veya engellenmiş."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "İstasyon konum gösterge ışığını temizleyin.",
+   "İstasyonun yakınındaki engelleri kaldırın.",
+   "Tekrar deneyin."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Roborock|Error 27": {
+  "title": "VibraRise sistemi sıkıştı",
+  "causes": [
+   "Paspas kaldırma sistemi engellenmiş."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Paspas plakasının çevresinde engel olup olmadığına bakın.",
+   "Kirleri temizleyin.",
+   "Yeniden başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Roborock|Error 28": {
+  "title": "Robot halının üzerinde",
+  "causes": [
+   "Paspas takılı ve robot halının üzerinde."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu sert zemine taşıyın.",
+   "Halıyı temizlemek istiyorsanız paspası çıkarın.",
+   "Tekrar deneyin."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Roborock müşteri desteğiyle iletişime geçin."
+ },
+ "Xiaomi|Error 1": {
+  "title": "Tampon sıkıştı veya kirli",
+  "causes": [
+   "Kir tamponu tutuyor."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Tamponu temizleyin.",
+   "Kiri gidermek için hafifçe vurun.",
+   "Sorun sürerse robotu başka bir yere taşıyıp yeniden başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Xiaomi satış sonrası desteğiyle iletişime geçin."
+ },
+ "Xiaomi|Error 2": {
+  "title": "Tekerlek yerden havada",
+  "causes": [
+   "Bir tekerlek aşağı sarkıyor."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu düz zemine yerleştirin.",
+   "Yeniden başlatın.",
+   "Kenarda olmadığını kontrol edin."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Xiaomi satış sonrası desteğiyle iletişime geçin."
+ },
+ "Xiaomi|Error 3": {
+  "title": "Düşüş sensörü kirli veya robot kaldırılmış",
+  "causes": [
+   "Düşüş sensörü kirli veya robot kısmen kaldırılmış."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Düşüş sensörünü temizleyin.",
+   "Düz zemine yerleştirin.",
+   "Yeniden başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Xiaomi satış sonrası desteğiyle iletişime geçin."
+ },
+ "Xiaomi|Error 4": {
+  "title": "Ana fırça takıldı",
+  "causes": [
+   "Ana fırçaya kir sıkışmış."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Ana fırçayı çıkarın.",
+   "Kılları ve yatakları temizleyin.",
+   "Geri takın ve yeniden başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Xiaomi satış sonrası desteğiyle iletişime geçin."
+ },
+ "Xiaomi|Error 5": {
+  "title": "Yan fırça takıldı",
+  "causes": [
+   "Yan fırçaya kir sıkışmış."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Yan fırçayı çıkarın.",
+   "Temizleyin.",
+   "Geri takın ve yeniden başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Xiaomi satış sonrası desteğiyle iletişime geçin."
+ },
+ "Xiaomi|Error 6": {
+  "title": "Ana tekerleğin çevresinde kir var",
+  "causes": [
+   "Bir ana tekerleğe saç veya kir dolanmış."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Her iki tekerleği kontrol edin.",
+   "Dolanmış malzemeyi temizleyin.",
+   "Robotu başka bir yere taşıyın ve yeniden başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Xiaomi satış sonrası desteğiyle iletişime geçin."
+ },
+ "Xiaomi|Error 7": {
+  "title": "Robot takıldı veya sıkıştı",
+  "causes": [
+   "Robot bir engelin üzerinde sıkışmış."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Çevresindeki engelleri kaldırın.",
+   "Robotu açık zemine taşıyın.",
+   "Yeniden başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Xiaomi satış sonrası desteğiyle iletişime geçin."
+ },
+ "Xiaomi|Error 8": {
+  "title": "Toz kutusu veya filtre düzgün takılmamış",
+  "causes": [
+   "Toz bölmesi veya filtre yanlış takılmış."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Toz kutusunu ve filtreyi doğru şekilde yeniden takın.",
+   "Sorun sürerse filtreyi değiştirin.",
+   "Yeniden başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Xiaomi satış sonrası desteğiyle iletişime geçin."
+ },
+ "Xiaomi|Error 9": {
+  "title": "Güçlü manyetik alan algılandı",
+  "causes": [
+   "Robot sanal duvar şeridinin yakınında."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu sanal duvardan uzaklaştırın.",
+   "Yeniden başlatın.",
+   "Şeridin konumunu kontrol edin."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Xiaomi satış sonrası desteğiyle iletişime geçin."
+ },
+ "Xiaomi|Error 10": {
+  "title": "Şarj arızası",
+  "causes": [
+   "Şarj kontakları kirli."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "İstasyondaki ve robottaki kontakları kuru bir bezle silin.",
+   "Robotu tekrar istasyona yerleştirin.",
+   "İstasyonda elektrik olduğunu kontrol edin."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Xiaomi satış sonrası desteğiyle iletişime geçin."
+ },
+ "Xiaomi|Error 11": {
+  "title": "Pil çok sıcak veya çok soğuk",
+  "causes": [
+   "Pil sıcaklığı izin verilen aralığın dışında."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Pilin normal sıcaklığa dönmesini bekleyin.",
+   "Robotu sıcaktan veya soğuktan uzak tutun.",
+   "Tekrar deneyin."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Xiaomi satış sonrası desteğiyle iletişime geçin."
+ },
+ "Xiaomi|Error 12": {
+  "title": "Yasak bölge veya sanal duvar algılandı",
+  "causes": [
+   "Robot yasak bölgeye girdi."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu bariyer bandı alanından uzaklaştırın.",
+   "Yeniden başlatın.",
+   "Bandın konumunu kontrol edin."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Xiaomi satış sonrası desteğiyle iletişime geçin."
+ },
+ "Xiaomi|Error 13": {
+  "title": "Görsel navigasyon sensörü kirli",
+  "causes": [
+   "Navigasyon sensörü kirli."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Sensörü yumuşak, kuru bir bezle silin.",
+   "Robotu yeniden başlatın.",
+   "Kısa bir temizlik başlatın."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Xiaomi satış sonrası desteğiyle iletişime geçin."
+ },
+ "Xiaomi|Error 14": {
+  "title": "Dahili hata",
+  "causes": [
+   "Sistemde dahili bir arıza var."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Sistemi sıfırlayın.",
+   "Robotu yeniden başlatın.",
+   "Temizliği tekrar deneyin."
+  ],
+  "technician": "Temizlik ve sıfırlamadan sonra hata tekrar ederse Xiaomi satış sonrası desteğiyle iletişime geçin."
+ },
+ "eufy|Error 1": {
+  "title": "Ön tampon sıkıştı",
+  "causes": [
+   "Kir veya bir cisim tamponu tutuyor."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Tamponun hareket ettiğini kontrol etmek için hafifçe vurun.",
+   "Sıkışmışsa çıkarıp yeniden takın.",
+   "Yeniden başlatın."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 2": {
+  "title": "Tekerlek sıkıştı",
+  "causes": [
+   "Bir tekerlek engellenmiş."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Tekerlek ile gövde arasındaki kirleri temizleyin.",
+   "Tekerleği elinizle çevirin.",
+   "Robotu başka yere taşıyın ve tekrar deneyin."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 3": {
+  "title": "Yan fırça sıkıştı",
+  "causes": [
+   "Yan fırçaya bir şey takılmış."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Cismi çıkarın.",
+   "Fırçanın serbestçe döndüğünü kontrol edin.",
+   "Tekrar deneyin."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 4": {
+  "title": "Silindir fırça sıkıştı",
+  "causes": [
+   "Silindir fırçaya saç veya kir dolanmış."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Silindir fırçayı çıkarın.",
+   "Kirleri temizleyin.",
+   "Saçın çok olduğu zeminlerde emiş gücünü artırın."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 5": {
+  "title": "Robot sıkıştı, engelleri kaldırın",
+  "causes": [
+   "Engeller robotun yolunu kapatıyor."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Çevresini temizleyin.",
+   "Robotu açık bir noktaya taşıyın.",
+   "Yeniden başlatın."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 6": {
+  "title": "Robot sıkıştı, açık alana taşıyın",
+  "causes": [
+   "Robot bir engele takılmış."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu açık bir alana taşıyın.",
+   "Temizliği yeniden başlatın.",
+   "Hep aynı yerde sıkışıyorsa bir No-Go Zone belirleyin."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 7": {
+  "title": "Robot zemine değmiyor",
+  "causes": [
+   "Robot kaldırılmış veya bir kenarda."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu zemine, başka bir noktaya yerleştirin.",
+   "Düşüş sensörlerinin temiz olduğunu kontrol edin.",
+   "Yeniden başlatın."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 8": {
+  "title": "Pil seviyesi düşük, kapanıyor",
+  "causes": [
+   "Pil çok zayıf."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu istasyona taşıyın.",
+   "Şarj olmasını bekleyin.",
+   "Tekrar deneyin.",
+   "Kodun kaybolduğunu doğrulamak için istasyonun yakınında kısa bir deneme temizliği yapın."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 13": {
+  "title": "Robot eğik duruyor",
+  "causes": [
+   "Robot bir eğimde."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Düz zemine yerleştirin.",
+   "Temizliği yeniden başlatın.",
+   "Eşikte olmadığını kontrol edin."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 14": {
+  "title": "Toz haznesi veya filtre yok",
+  "causes": [
+   "Toz haznesi veya filtre takılı değil."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Kapağı açın.",
+   "Toz haznesini ve filtreyi yeniden takın.",
+   "Filtrenin yerine oturduğundan emin olun."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 17": {
+  "title": "Yanlışlıkla No-Go Zone'a girdi",
+  "causes": [
+   "Robot bir No-Go Zone'un içinde."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu bölgenin dışına taşıyın.",
+   "Temizliği yeniden başlatın.",
+   "Bölgeleri uygulamadan kontrol edin."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 18": {
+  "title": "Lazer sensörü kapağı sıkışmış olabilir",
+  "causes": [
+   "Lazer kapağı engellenmiş."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Kapağı engelleyen her şeyi kaldırın.",
+   "Klik sesi duyana kadar kapağa bastırın.",
+   "Yeniden başlatın."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 19": {
+  "title": "Lazer sensörü sıkışmış olabilir",
+  "causes": [
+   "Sensör serbestçe dönemiyor."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu kapatın.",
+   "Dönmeyi engelleyen her şeyi kaldırın.",
+   "Yeniden başlatın."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 20": {
+  "title": "Lazer sensörü engellenmiş olabilir",
+  "causes": [
+   "Sensörün üzerinde kir var."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Sensörün üstündeki kirleri temizleyin.",
+   "Kuru bir bezle hafifçe silin.",
+   "Yeniden başlatın."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 21": {
+  "title": "İstasyona dönüş başarısız",
+  "causes": [
+   "Robot istasyonu görüyor ama giremiyor."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "İstasyonun çevresindeki engelleri kaldırın.",
+   "İstasyonda elektrik olduğunu kontrol edin.",
+   "Robotu tekrar eve gönderin."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 23": {
+  "title": "Başlangıç noktası bulunamıyor",
+  "causes": [
+   "Temizlik istasyondan başlamadı."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Temizliği istasyondan başlatın.",
+   "İstasyonu aynı yerde tutun.",
+   "Tekrar deneyin."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 26": {
+  "title": "Pil seviyesi düşük, zamanlanmış temizlik başarısız",
+  "causes": [
+   "Pil zamanlanmış çalışma için çok zayıftı."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu şarj edin.",
+   "Zamanlamayı yeniden deneyin.",
+   "Robotu istasyonda tutun."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 27": {
+  "title": "İstasyon temizlik tepsisinde su seviyesi anormal",
+  "causes": [
+   "Temizlik tepsisinde su var."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Tepsiyi kuru bir bezle kurulayın.",
+   "Metal dedektörde su damlası olup olmadığına bakın.",
+   "Tepsiyi yeniden takın."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 28": {
+  "title": "İstasyon temizlik tepsisi takılı değil",
+  "causes": [
+   "Tepsi yok veya gevşek."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Tepsiyi düzgün şekilde takın.",
+   "Düz oturana kadar bastırın.",
+   "Tekrar deneyin."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 29": {
+  "title": "İstasyon kapağı kapalı değil",
+  "causes": [
+   "Kapak açık."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "İstasyon kapağını tamamen kapatın.",
+   "Hiçbir şeyin engellemediğini kontrol edin.",
+   "Tekrar deneyin.",
+   "Kodun kaybolduğunu doğrulamak için istasyonun yakınında kısa bir deneme temizliği yapın."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 30": {
+  "title": "İstasyon giriş voltajı anormal",
+  "causes": [
+   "İstasyonun voltajı prizinizle uyuşmuyor."
+  ],
+  "steps": [
+   "İstasyonun doğru voltajda (220V veya 110V) olduğunu kontrol edin.",
+   "Uyumlu bir priz kullanın.",
+   "Uyuşmazlık varsa destekle iletişime geçin."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 31": {
+  "title": "Emiş girişinde yabancı cisim var",
+  "causes": [
+   "Kir giriş ağzını tıkıyor."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Fırçayı çıkarın.",
+   "Fırça yuvasını temizleyin.",
+   "Toz haznesini boşaltın."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 32": {
+  "title": "Paspas ped tutucusu sıkıştı",
+  "causes": [
+   "Paspas tutucusunda kir var."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Kirleri temizleyin.",
+   "Tutucuyu temizleyin.",
+   "Tekrar deneyin.",
+   "Kodun kaybolduğunu doğrulamak için istasyonun yakınında kısa bir deneme temizliği yapın."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "eufy|Error 34": {
+  "title": "Paspas düştü",
+  "causes": [
+   "Bir paspas pedi yok veya gevşek."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Paspası doğru şekilde yeniden takın.",
+   "Yerine oturduğunu kontrol edin.",
+   "Yeniden başlatın."
+  ],
+  "technician": "Bu adımlardan sonra uyarı sürerse e-posta formu veya canlı sohbet üzerinden eufy desteğiyle iletişime geçin."
+ },
+ "Shark|Error 2": {
+  "title": "Fırça silindiri, yan fırça veya tekerlek sıkıştı",
+  "causes": [
+   "Fırça silindiri engellenmiş (CLEAN ve ! kırmızı).",
+   "Bir yan fırça sıkışmış (DOCK ve ! kırmızı).",
+   "Bir tahrik tekerleği sıkışmış (üçü de kırmızı)."
+  ],
+  "steps": [
+   "Robotu kapatın.",
+   "Işıkların gösterdiği şekilde fırça silindirindeki, yan fırçalardaki veya tekerleklerdeki kirleri temizleyin.",
+   "Tekerleklerin serbestçe döndüğünü kontrol edin, ardından yeniden başlatın."
+  ],
+  "technician": "Işık düzeni tekrar ederse Shark müşteri hizmetleriyle iletişime geçin."
+ },
+ "Shark|Error 6": {
+  "title": "Ön tampon sıkışmış olabilir",
+  "causes": [
+   "Kir tamponu içeride tutuyor (DOCK kırmızı yanıp sönüyor)."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Tamponun çevresini temizleyin.",
+   "Serbestçe hareket ettiğini kontrol etmek için tampona bastırın.",
+   "Yeniden başlatın."
+  ],
+  "technician": "Işık düzeni tekrar ederse Shark müşteri hizmetleriyle iletişime geçin."
+ },
+ "Shark|Error 7": {
+  "title": "Düşüş sensörü hatası",
+  "causes": [
+   "Düşüş sensörleri kirli veya robot bir boşluğun yakınında."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu başka bir yere taşıyın.",
+   "Düşüş sensörlerini silin.",
+   "Yeniden başlatın."
+  ],
+  "technician": "Işık düzeni tekrar ederse Shark müşteri hizmetleriyle iletişime geçin."
+ },
+ "Shark|Error 10": {
+  "title": "Robot bir engelde takıldı",
+  "causes": [
+   "Robot sıkışmış olabilir (CLEAN kırmızı yanıp sönüyor)."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu düz bir noktaya taşıyın.",
+   "Yakındaki engelleri kaldırın.",
+   "Yeniden başlatın."
+  ],
+  "technician": "Işık düzeni tekrar ederse Shark müşteri hizmetleriyle iletişime geçin."
+ },
+ "Shark|Error 24": {
+  "title": "Pil kritik seviyede düşük",
+  "causes": [
+   "Pil neredeyse bitmiş."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu istasyona yerleştirin.",
+   "İstasyonun şarj ışığının yandığını kontrol edin.",
+   "Şarj olmasını bekleyin."
+  ],
+  "technician": "Işık düzeni tekrar ederse Shark müşteri hizmetleriyle iletişime geçin."
+ },
+ "Shark|Error 26": {
+  "title": "Toz haznesi tıkalı",
+  "causes": [
+   "İstasyonun veya robotun toz haznesinde tıkanıklık var."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Her iki hazneyi de tıkanıklık açısından kontrol edin.",
+   "Kirleri temizleyin.",
+   "Haznenin klik sesiyle oturduğundan emin olarak yeniden takın."
+  ],
+  "technician": "Işık düzeni tekrar ederse Shark müşteri hizmetleriyle iletişime geçin."
+ },
+ "Ecovacs|Bumper stuck": {
+  "title": "Tampon sıkıştı sesli uyarısı",
+  "causes": [
+   "Kir veya koruma şeridi tamponu tutuyor."
+  ],
+  "steps": [
+   "Çarpma koruma şeridini çıkarın.",
+   "Sol, orta ve sağ tampona basarak geri yaylandığını kontrol edin.",
+   "Kapatın, yeniden başlatın ve deneyin."
+  ],
+  "technician": "Uyarı tekrar ederse Ecovacs satış sonrası desteğiyle iletişime geçin."
+ },
+ "Ecovacs|Laser sensor malfunction": {
+  "title": "Lazer sensörü çalışmıyor",
+  "causes": [
+   "Lazer ünitesi kirli veya sıkışmış."
+  ],
+  "steps": [
+   "Lazer ünitesini hafifçe itin.",
+   "Lensi öne bakacak şekilde çevirin ve temiz bir bezle silin.",
+   "Kapatın, yeniden başlatın ve deneyin."
+  ],
+  "technician": "Uyarı tekrar ederse Ecovacs satış sonrası desteğiyle iletişime geçin."
+ },
+ "Ecovacs|Dust bag installation error": {
+  "title": "Toz torbası doğru takılmamış",
+  "causes": [
+   "Toz torbası yerine oturmamış."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Robotu kapatın ve toz haznesi kapağını açın.",
+   "Toz torbasını çıkarıp yeniden takın.",
+   "Kapağı kapatın ve toz toplamayı deneyin."
+  ],
+  "technician": "Uyarı tekrar ederse Ecovacs satış sonrası desteğiyle iletişime geçin."
+ },
+ "Ecovacs|Rotating mop tangled": {
+  "title": "Dönen paspas engellenmiş",
+  "causes": [
+   "Kir veya saç dönen paspası engelliyor."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Paspası uzatın ve çıkarın.",
+   "Paspası temizleyin ve yuvasını boşaltın.",
+   "Klik sesiyle oturana kadar takın ve yeniden başlatın."
+  ],
+  "technician": "Uyarı tekrar ederse Ecovacs satış sonrası desteğiyle iletişime geçin."
+ },
+ "Ecovacs|Water tank not installed or low water": {
+  "title": "Temiz su deposu yok veya su az",
+  "causes": [
+   "Depo boş, yok veya şamandıra sıkışmış."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Depoyu çıkarın ve şamandıranın hareket ettiğini kontrol edin.",
+   "Maksimum çizgisine kadar doldurun.",
+   "Kapağı kapatın ve yeniden takın."
+  ],
+  "technician": "Uyarı tekrar ederse Ecovacs satış sonrası desteğiyle iletişime geçin."
+ },
+ "Ecovacs|Dirty water tank not installed": {
+  "title": "Kirli su deposu yok veya yanlış oturmuş",
+  "causes": [
+   "Depo yerine oturmamış veya algılanmıyor."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Kirli su deposunu boşaltıp durulayın.",
+   "Şamandırayı ve mandalları kontrol edin.",
+   "Yeniden takın."
+  ],
+  "technician": "Uyarı tekrar ederse Ecovacs satış sonrası desteğiyle iletişime geçin."
+ },
+ "Ecovacs|Cleaning sink anomaly": {
+  "title": "Paspas yıkama tepsisi boşalmıyor",
+  "causes": [
+   "Kir şamandırayı veya gideri tıkıyor."
+  ],
+  "steps": [
+   "Tepsinin yerine oturduğunu kontrol edin.",
+   "Taşma şamandırasını temizleyin.",
+   "Uygulamadan boşaltma işlevini çalıştırın, ardından istasyonu yeniden başlatın."
+  ],
+  "technician": "Uyarı tekrar ederse Ecovacs satış sonrası desteğiyle iletişime geçin."
+ },
+ "Ecovacs|Dirty water tank anomaly": {
+  "title": "Kirli su deposu veya gider sorunu",
+  "causes": [
+   "Conta veya gider ağzı tıkalı."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Depoyu boşaltın ve filtreyi temizleyin.",
+   "Kapağı sıkıca kapatın.",
+   "Gider ağzını bir fırçayla temizleyin."
+  ],
+  "technician": "Uyarı tekrar ederse Ecovacs satış sonrası desteğiyle iletişime geçin."
+ },
+ "Dreame|Dust box error": {
+  "title": "Toz kutusu alarmı",
+  "causes": [
+   "Toz kutusu gevşek.",
+   "Filtre ters takılmış veya arızalı."
+  ],
+  "steps": [
+   "Toz kutusunu sıkıca yerine oturtun.",
+   "Robotu yeniden başlatın.",
+   "Filtrenin doğru yönde takıldığını kontrol edin; tuhaf görünüyorsa değiştirin."
+  ],
+  "technician": "Hata sürerse Dreame müşteri hizmetleriyle iletişime geçin."
+ },
+ "Dreame|Laser sensor error": {
+  "title": "Lazer mesafe sensörü arızası",
+  "causes": [
+   "Lazer sensörü tozlu veya sert dönüyor."
+  ],
+  "steps": [
+   "Kontrol etmeden önce robotu kapatın ve sudan uzak tutun.",
+   "Uygulamadan yazılımı güncelleyin.",
+   "Kapağa hafifçe vurun ve tozu temizleyin.",
+   "Sensörü elinizle çevirerek döndüğünden emin olun."
+  ],
+  "technician": "Hata sürerse Dreame müşteri hizmetleriyle iletişime geçin."
+ }
+}

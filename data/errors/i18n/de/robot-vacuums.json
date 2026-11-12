@@ -1,0 +1,1394 @@
+{
+ "iRobot|Error 1": {
+  "title": "Roomba steckt fest oder Rad hängt herunter",
+  "causes": [
+   "Der Roboter steckt irgendwo fest.",
+   "Ein seitliches Rad hängt herunter oder ist blockiert."
+  ],
+  "steps": [
+   "Heben Sie den Roboter an und setzen Sie ihn an eine andere Stelle.",
+   "Drücken Sie CLEAN, um neu zu starten.",
+   "Drehen Sie beide Seitenräder von Hand und schütteln Sie Schmutz heraus."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Error 2": {
+  "title": "Extraktoren drehen sich nicht",
+  "causes": [
+   "Haare oder Schmutz blockieren die Extraktoren (Bürsten)."
+  ],
+  "steps": [
+   "Nehmen Sie den Behälter heraus und öffnen Sie den Extraktorrahmen.",
+   "Nehmen Sie die Extraktoren heraus und schneiden Sie Haare und Fäden ab.",
+   "Setzen Sie sie wieder ein und drücken Sie CLEAN."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Error 5": {
+  "title": "Seitenrad klemmt",
+  "causes": [
+   "Ein Seitenrad kann sich wegen Schmutz oder Haaren nicht frei drehen."
+  ],
+  "steps": [
+   "Drehen Sie den Roboter um.",
+   "Drehen Sie jedes Seitenrad und entfernen Sie Schmutz aus dem Radkasten.",
+   "Stellen Sie den Roboter auf den Boden und drücken Sie CLEAN."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Error 6": {
+  "title": "Absturzsensoren verschmutzt oder Roboter über einer Kante",
+  "causes": [
+   "Die Absturzsensoren an der Unterseite sind verschmutzt.",
+   "Der Roboter steht über einer Kante oder auf einem sehr dunklen Boden."
+  ],
+  "steps": [
+   "Stellen Sie den Roboter an eine andere Stelle.",
+   "Wischen Sie die Absturzsensoren an der Unterseite mit einem trockenen Tuch ab.",
+   "Drücken Sie CLEAN, um neu zu starten."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Error 7": {
+  "title": "Seitenrad klemmt",
+  "causes": [
+   "Ein Seitenrad ist durch Schmutz oder Haare blockiert."
+  ],
+  "steps": [
+   "Drehen Sie den Roboter um und drehen Sie jedes Seitenrad.",
+   "Entfernen Sie Haare und Schmutz aus den Radkästen.",
+   "Stellen Sie ihn ab und drücken Sie CLEAN."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Error 9": {
+  "title": "Stoßfänger eingedrückt oder Stoßfängersensor verschmutzt",
+  "causes": [
+   "Der Stoßfänger ist eingedrückt oder klemmt.",
+   "Der Stoßfängersensor ist verschmutzt."
+  ],
+  "steps": [
+   "Klopfen Sie mehrmals auf den Stoßfänger, um Schmutz zu lösen.",
+   "Wischen Sie die Ränder des Stoßfängers mit einem trockenen Tuch ab.",
+   "Starten Sie den Roboter neu."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Error 10": {
+  "title": "Seitenrad klemmt oder Stoßfänger reagiert nicht",
+  "causes": [
+   "Ein Seitenrad klemmt.",
+   "Der Stoßfänger erkennt keine Hindernisse."
+  ],
+  "steps": [
+   "Drehen Sie die Seitenräder und reinigen Sie die Radkästen.",
+   "Klopfen Sie auf den Stoßfänger, um Schmutz zu lösen.",
+   "Drücken Sie CLEAN, um es erneut zu versuchen."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Error 11": {
+  "title": "Roomba-Saugsystemfehler",
+  "causes": [
+   "Das Saugsystem oder der Behälter hat eine Störung."
+  ],
+  "steps": [
+   "Nehmen Sie den Behälter heraus und leeren Sie ihn.",
+   "Reinigen Sie den Filter und prüfen Sie, ob der Behälter richtig sitzt.",
+   "Starten Sie den Roboter neu und sehen Sie bei WLAN-Modellen in der iRobot-HOME-App nach Hilfe."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Error 14": {
+  "title": "Roomba erkennt den Behälter nicht",
+  "causes": [
+   "Der Behälter ist nicht richtig eingesetzt.",
+   "Die Kontakte des Behälters sind verschmutzt."
+  ],
+  "steps": [
+   "Prüfen Sie, ob der Behälter vollständig eingesetzt ist.",
+   "Wischen Sie die Kontakte an Behälter und Roboter mit einem leicht feuchten Melaminschwamm ab.",
+   "Wenn der Fehler bleibt, benötigen Sie eventuell einen neuen Behälter."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Error 18": {
+  "title": "Roomba findet nicht zur Station oder zum Startpunkt zurück",
+  "causes": [
+   "Die Station hat keinen Strom oder wurde verschoben.",
+   "Verschmutzte Ladekontakte oder Sensoren oder blockierte Räder."
+  ],
+  "steps": [
+   "Prüfen Sie, ob die Station Strom hat und leuchtet.",
+   "Räumen Sie den Bereich frei und wischen Sie Kontakte und Sensoren mit einem trockenen oder leicht feuchten Tuch ab.",
+   "Drehen Sie die Räder und starten Sie dann Roboter und Station neu.",
+   "Stellen Sie die Station näher an den Reinigungsbereich, wenn sie außer Reichweite ist."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Error 1010": {
+  "title": "Roomba findet seine Station nicht oder erreicht sie nicht",
+  "causes": [
+   "Ein versperrter Weg oder eine geschlossene Tür.",
+   "Die Station wurde verschoben oder ausgesteckt.",
+   "Licht oder Spiegelungen irritieren die Andocksensoren."
+  ],
+  "steps": [
+   "Räumen Sie den Weg frei und öffnen Sie Türen.",
+   "Halten Sie die Power-Taste 10 Sekunden gedrückt, um neu zu starten, und starten Sie dann erneut.",
+   "Reinigen Sie Bürsten, Räder und Sensoren an Roboter und Station.",
+   "Wenn der Fehler bleibt, löschen Sie die Karte und lassen Sie den Roboter neu kartieren."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Charging error 1": {
+  "title": "Roomba erkennt den Akku nicht",
+  "causes": [
+   "Der Akku sitzt nicht richtig oder wird nicht erkannt."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Nehmen Sie den Akku heraus.",
+   "Setzen Sie ihn fest wieder ein.",
+   "Versuchen Sie erneut zu laden."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Charging error 2": {
+  "title": "Akku-Überstromfehler beim Laden",
+  "causes": [
+   "Der Akku ist möglicherweise kein Original-iRobot-Akku.",
+   "Möglicherweise liegt ein Flüssigkeitsschaden vor."
+  ],
+  "steps": [
+   "Prüfen Sie, ob Sie einen originalen iRobot-Lithium-Ionen-Akku verwenden.",
+   "Suchen Sie nach Anzeichen eines Flüssigkeitsschadens.",
+   "Laden Sie nicht, wenn der Akku beschädigt aussieht."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Charging error 3": {
+  "title": "Fehler im Ladesystem",
+  "causes": [
+   "Ein Fehler im Ladesystem, möglicherweise durch einen Flüssigkeitsschaden."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Versuchen Sie erneut zu laden.",
+   "Prüfen Sie auf Flüssigkeitsschäden.",
+   "Halten Sie Station und Roboter trocken."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Charging error 4": {
+  "title": "Geringer oder kein Ladestrom",
+  "causes": [
+   "Verschmutzte Ladekontakte an Roboter oder Station."
+  ],
+  "steps": [
+   "Ziehen Sie den Netzstecker der Station.",
+   "Wischen Sie die Ladekontakte an beiden mit einem leicht feuchten Melaminschwamm ab.",
+   "Versuchen Sie erneut zu laden."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Charging error 6": {
+  "title": "Akku zu warm oder zu kalt zum Laden",
+  "causes": [
+   "Der Akku liegt außerhalb seiner sicheren Ladetemperatur."
+  ],
+  "steps": [
+   "Stellen Sie den Roboter an einen Ort mit Raumtemperatur.",
+   "Warten Sie, bis er Raumtemperatur erreicht hat.",
+   "Versuchen Sie erneut zu laden."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Charging error 8": {
+  "title": "Roboter kann nicht mit dem Akku kommunizieren",
+  "causes": [
+   "Der Akku ist möglicherweise nicht original oder sitzt schlecht."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Vergewissern Sie sich, dass es ein echter iRobot-Akku ist.",
+   "Nehmen Sie ihn heraus und setzen Sie ihn wieder ein.",
+   "Versuchen Sie erneut zu laden."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Charging error 9": {
+  "title": "Akkuausfall",
+  "causes": [
+   "Der Akku ist ausgefallen oder nicht original."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Vergewissern Sie sich, dass der Akku original ist.",
+   "Nehmen Sie ihn heraus und setzen Sie ihn wieder ein.",
+   "Wenn der Fehler erneut auftritt, planen Sie einen Akkuwechsel ein."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Charging error 11": {
+  "title": "Akku-Hardwarefehler",
+  "causes": [
+   "Der Akku hat einen Hardwarefehler oder ist nicht original."
+  ],
+  "steps": [
+   "Vergewissern Sie sich, dass der Akku original ist.",
+   "Nehmen Sie ihn heraus und setzen Sie ihn wieder ein.",
+   "Ersetzen Sie den Akku, wenn der Fehler erneut auftritt."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Charging error 20": {
+  "title": "Akkufehler oder Akku nicht ladebereit",
+  "causes": [
+   "Der Akku hat einen Fehler oder kann das Laden nicht starten."
+  ],
+  "steps": [
+   "Nehmen Sie den Akku für 15 Minuten heraus.",
+   "Setzen Sie ihn wieder ein und versuchen Sie zu laden.",
+   "Ersetzen Sie den Akku, wenn der Fehler bleibt."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Charging error 21": {
+  "title": "Angedockt, aber Laden nicht möglich",
+  "causes": [
+   "Verschmutzte Ladekontakte."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Ziehen Sie den Netzstecker der Station.",
+   "Wischen Sie die Kontakte an Roboter und Station mit einem leicht feuchten Melaminschwamm ab.",
+   "Docken Sie den Roboter erneut an."
+  ],
+  "technician": "Wenn der Fehler nach diesen Prüfungen weiter auftritt, wenden Sie sich mit der Seriennummer des Roboters an den iRobot-Kundendienst."
+ },
+ "iRobot|Error 453": {
+  "title": "Station kann sich nicht am Roboter ausrichten",
+  "causes": [
+   "Die Wischpad-Waschwalze oder der Behälter sitzt nicht richtig.",
+   "Etwas blockiert die Düse der Station."
+  ],
+  "steps": [
+   "Setzen Sie die Wischpad-Waschwalze neu ein.",
+   "Achten Sie darauf, dass der Behälter eingesetzt ist, und räumen Sie das Düsengehäuse frei.",
+   "Prüfen Sie, ob sich die Ladekontakt-Tasten frei bewegen, und starten Sie dann Roboter und Station neu."
+  ],
+  "technician": "Wenn der Stationsfehler nach diesen Schritten erneut auftritt, wenden Sie sich an den iRobot-Kundendienst; die Station muss eventuell repariert werden."
+ },
+ "iRobot|Error 511": {
+  "title": "Problem mit dem Sensor des Schmutzwassertanks",
+  "causes": [
+   "Der Schmutzwassertank sitzt nicht richtig."
+  ],
+  "steps": [
+   "Nehmen Sie den Schmutzwassertank heraus und setzen Sie ihn wieder ein.",
+   "Ziehen Sie den Netzstecker der Station für einige Sekunden und stecken Sie ihn wieder ein.",
+   "Versuchen Sie es erneut."
+  ],
+  "technician": "Wenn der Stationsfehler nach diesen Schritten erneut auftritt, wenden Sie sich an den iRobot-Kundendienst; die Station muss eventuell repariert werden."
+ },
+ "iRobot|Error 512": {
+  "title": "Schmutzwasserabfluss verstopft",
+  "causes": [
+   "Schmutz blockiert den Abfluss in den Waschwannen."
+  ],
+  "steps": [
+   "Wischen Sie beide Wannen mit einem trockenen Tuch aus.",
+   "Reinigen Sie die Abflussöffnung.",
+   "Verwenden Sie bei hartnäckigem Schmutz milde Seife und einen Schwamm."
+  ],
+  "technician": "Wenn der Stationsfehler nach diesen Schritten erneut auftritt, wenden Sie sich an den iRobot-Kundendienst; die Station muss eventuell repariert werden."
+ },
+ "iRobot|Error 516": {
+  "title": "Wischpad-Waschwalze blockiert",
+  "causes": [
+   "Etwas blockiert die Walze."
+  ],
+  "steps": [
+   "Nehmen Sie die Walze heraus und entfernen Sie alle Hindernisse.",
+   "Setzen Sie sie wieder ein.",
+   "Starten Sie die Station neu, indem Sie den Netzstecker für einige Sekunden ziehen."
+  ],
+  "technician": "Wenn der Stationsfehler nach diesen Schritten erneut auftritt, wenden Sie sich an den iRobot-Kundendienst; die Station muss eventuell repariert werden."
+ },
+ "iRobot|Error 517": {
+  "title": "Überlauf der Waschwanne",
+  "causes": [
+   "Zu viel Schmutzwasser in der Wanne."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Leeren Sie die Überlaufwanne mit einem trockenen Tuch.",
+   "Reinigen Sie beide Wannen.",
+   "Versuchen Sie es erneut."
+  ],
+  "technician": "Wenn der Stationsfehler nach diesen Schritten erneut auftritt, wenden Sie sich an den iRobot-Kundendienst; die Station muss eventuell repariert werden."
+ },
+ "iRobot|Error 518": {
+  "title": "Wischpad-Waschwalze fehlt",
+  "causes": [
+   "Die Walze befindet sich nicht in der Station."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Setzen Sie die Walze in die Station ein.",
+   "Wenn sie drin ist, nehmen Sie sie heraus und setzen Sie sie neu ein.",
+   "Starten Sie die Station neu und versuchen Sie das Waschen erneut."
+  ],
+  "technician": "Wenn der Stationsfehler nach diesen Schritten erneut auftritt, wenden Sie sich an den iRobot-Kundendienst; die Station muss eventuell repariert werden."
+ },
+ "iRobot|Error 650": {
+  "title": "Frischwassertank fehlt",
+  "causes": [
+   "Der Frischwassertank sitzt nicht richtig oder ist blockiert."
+  ],
+  "steps": [
+   "Docken Sie den Roboter an und prüfen Sie den Leuchtring.",
+   "Entfernen Sie alles, was den Tank blockiert.",
+   "Füllen Sie den Tank auf, setzen Sie ihn wieder ein und starten Sie dann die Station neu."
+  ],
+  "technician": "Wenn der Stationsfehler nach diesen Schritten erneut auftritt, wenden Sie sich an den iRobot-Kundendienst; die Station muss eventuell repariert werden."
+ },
+ "iRobot|Error 651": {
+  "title": "Füllstand des Frischwassertanks zu niedrig",
+  "causes": [
+   "Der Frischwassertank ist leer oder wird nicht richtig erkannt."
+  ],
+  "steps": [
+   "Füllen Sie den Frischwassertank auf und setzen Sie ihn wieder ein.",
+   "Wenn er voll war, leeren Sie ihn trotzdem und füllen Sie ihn neu.",
+   "Prüfen Sie, ob der Roboter richtig angedockt ist."
+  ],
+  "technician": "Wenn der Stationsfehler nach diesen Schritten erneut auftritt, wenden Sie sich an den iRobot-Kundendienst; die Station muss eventuell repariert werden."
+ },
+ "iRobot|Error 653": {
+  "title": "Schmutzwassertank fehlt",
+  "causes": [
+   "Der Schmutzwassertank sitzt nicht richtig oder ist blockiert."
+  ],
+  "steps": [
+   "Prüfen Sie, ob der Roboter angedockt ist.",
+   "Nehmen Sie den Schmutzwassertank heraus und suchen Sie nach Hindernissen.",
+   "Setzen Sie den leeren Tank wieder ein und starten Sie die Station neu."
+  ],
+  "technician": "Wenn der Stationsfehler nach diesen Schritten erneut auftritt, wenden Sie sich an den iRobot-Kundendienst; die Station muss eventuell repariert werden."
+ },
+ "iRobot|Error 654": {
+  "title": "Schmutzwassertank zu voll",
+  "causes": [
+   "Der Schmutzwassertank muss geleert werden."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Leeren und reinigen Sie den Schmutzwassertank.",
+   "Setzen Sie ihn wieder ein.",
+   "Prüfen Sie, ob der Roboter angedockt ist, und versuchen Sie es erneut."
+  ],
+  "technician": "Wenn der Stationsfehler nach diesen Schritten erneut auftritt, wenden Sie sich an den iRobot-Kundendienst; die Station muss eventuell repariert werden."
+ },
+ "iRobot|Error 663": {
+  "title": "Frischwasserstand sinkt, möglicherweise Leck",
+  "causes": [
+   "Möglicherweise läuft Wasser aus der Station."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Ziehen Sie den Netzstecker der Station.",
+   "Nehmen Sie beide Tanks heraus.",
+   "Kippen Sie die Station, um nach Wasser darunter zu sehen, und stellen Sie sie an einen trockenen Ort."
+  ],
+  "technician": "Wenn der Stationsfehler nach diesen Schritten erneut auftritt, wenden Sie sich an den iRobot-Kundendienst; die Station muss eventuell repariert werden."
+ },
+ "iRobot|Error 668": {
+  "title": "Kein Wischpad angebracht",
+  "causes": [
+   "Das Pad fehlt oder wird nicht erkannt."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Bringen Sie ein Pad an.",
+   "Wenn eines angebracht ist, nehmen Sie es ab, trocknen Sie es und setzen Sie es neu auf.",
+   "Probieren Sie ein anderes Pad."
+  ],
+  "technician": "Wenn der Stationsfehler nach diesen Schritten erneut auftritt, wenden Sie sich an den iRobot-Kundendienst; die Station muss eventuell repariert werden."
+ },
+ "Roborock|Error 1": {
+  "title": "LiDAR-Turm oder Laser blockiert",
+  "causes": [
+   "Etwas blockiert oder klemmt den Laserturm oben."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus.",
+   "Prüfen Sie, ob etwas um den Turm herum festsitzt, und drehen Sie ihn vorsichtig von Hand.",
+   "Starten Sie neu und versuchen Sie es erneut."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Roborock|Error 2": {
+  "title": "Stoßfänger klemmt",
+  "causes": [
+   "Schmutz oder Fremdkörper halten den Stoßfänger fest."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Reinigen Sie die Umgebung des Stoßfängers.",
+   "Klopfen Sie vorsichtig darauf, um ihn zu lösen.",
+   "Starten Sie den Roboter neu."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Roborock|Error 3": {
+  "title": "Räder hängen in der Luft",
+  "causes": [
+   "Der Roboter ist angehoben oder seine Räder hängen herunter."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Stellen Sie den Roboter auf den Boden.",
+   "Prüfen Sie, dass kein Rad über eine Kante hängt.",
+   "Starten Sie die Reinigung neu."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Roborock|Error 4": {
+  "title": "Absturzsensor-Fehler",
+  "causes": [
+   "Ein Absturzsensor ist verschmutzt oder der Roboter steht nahe an einer Kante."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Wischen Sie die Absturzsensoren an der Unterseite ab.",
+   "Stellen Sie den Roboter von Kanten weg.",
+   "Starten Sie ihn neu."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Roborock|Error 5": {
+  "title": "Hauptbürste blockiert",
+  "causes": [
+   "Haare oder Schmutz haben sich um die Hauptbürste gewickelt."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Nehmen Sie die Hauptbürste heraus.",
+   "Schneiden Sie verfangene Haare ab und reinigen Sie die Lager.",
+   "Setzen Sie die Bürste wieder ein und starten Sie neu."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Roborock|Error 6": {
+  "title": "Seitenbürste blockiert",
+  "causes": [
+   "Haare oder Schmutz haben sich um die Seitenbürste gewickelt."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Nehmen Sie die Seitenbürste ab.",
+   "Entfernen Sie Haare und Schmutz.",
+   "Setzen Sie sie wieder auf und starten Sie neu."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Roborock|Error 7": {
+  "title": "Räder blockiert",
+  "causes": [
+   "Etwas klemmt ein Antriebsrad."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Stellen Sie den Roboter an eine freie Stelle.",
+   "Prüfen Sie die Räder auf Haare oder Schmutz.",
+   "Starten Sie den Roboter neu."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Roborock|Error 8": {
+  "title": "Roboter steckt fest",
+  "causes": [
+   "Der Roboter ist durch Möbel oder Kabel eingeklemmt."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Entfernen Sie Hindernisse in der Nähe des Roboters.",
+   "Stellen Sie ihn in einen offenen Bereich.",
+   "Starten Sie die Reinigung neu."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Roborock|Error 9": {
+  "title": "Staubbehälter fehlt",
+  "causes": [
+   "Der Staubbehälter oder der Filter ist nicht eingesetzt."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Setzen Sie den Staubbehälter ein.",
+   "Achten Sie darauf, dass der Filter eingesetzt ist.",
+   "Starten Sie neu."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Roborock|Error 12": {
+  "title": "Akku schwach",
+  "causes": [
+   "Der Akku ist zu schwach, um weiterzumachen."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Setzen Sie den Roboter auf die Station.",
+   "Lassen Sie ihn laden.",
+   "Versuchen Sie die Reinigung erneut."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Roborock|Error 13": {
+  "title": "Ladefehler",
+  "causes": [
+   "Verschmutzte Ladekontakte an Roboter oder Station."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Wischen Sie die Ladekontakte ab.",
+   "Prüfen Sie, ob die Station Strom hat.",
+   "Docken Sie den Roboter erneut an."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Roborock|Error 14": {
+  "title": "Akkufehler",
+  "causes": [
+   "Der Akku ist möglicherweise defekt oder außerhalb seines sicheren Temperaturbereichs."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Lassen Sie den Roboter Raumtemperatur erreichen.",
+   "Versuchen Sie erneut zu laden.",
+   "Starten Sie ihn neu."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Roborock|Error 15": {
+  "title": "Wandsensor verschmutzt",
+  "causes": [
+   "Staub bedeckt den Wandsensor."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Wischen Sie den Wandsensor mit einem trockenen Tuch ab.",
+   "Starten Sie den Roboter neu.",
+   "Starten Sie eine kurze Testreinigung."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Roborock|Error 16": {
+  "title": "Roboter steht schief",
+  "causes": [
+   "Der Roboter steht auf einer Schräge oder ist gekippt."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Stellen Sie ihn auf ebenen Boden.",
+   "Prüfen Sie, dass er nicht auf einer Teppichkante oder Stufe steht.",
+   "Starten Sie neu."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Roborock|Error 17": {
+  "title": "Seitenbürsten-Fehler",
+  "causes": [
+   "Das Seitenbürstensystem hat eine Störung."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Setzen Sie den Roboter zurück.",
+   "Prüfen Sie, ob sich die Seitenbürste frei dreht.",
+   "Versuchen Sie es erneut."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Roborock|Error 18": {
+  "title": "Lüfterfehler",
+  "causes": [
+   "Der Sauglüfter hat eine Störung."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Setzen Sie den Roboter zurück.",
+   "Leeren Sie den Behälter und reinigen Sie den Filter.",
+   "Versuchen Sie es erneut."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Roborock|Error 21": {
+  "title": "Vertikaler Stoßfänger gedrückt",
+  "causes": [
+   "Der obere Stoßfänger ist gedrückt oder klemmt."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Stellen Sie den Roboter an eine andere Stelle.",
+   "Prüfen Sie, dass nichts auf den Stoßfänger drückt.",
+   "Versuchen Sie es erneut."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Roborock|Error 22": {
+  "title": "Fehler am Stationssucher",
+  "causes": [
+   "Der Sensor, der die Station findet, ist verschmutzt oder blockiert."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Reinigen Sie den Stationssucher.",
+   "Räumen Sie den Bereich um die Station frei.",
+   "Versuchen Sie es erneut."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Roborock|Error 23": {
+  "title": "Rückkehr zur Station nicht möglich",
+  "causes": [
+   "Die Anzeigeleuchte der Station ist verschmutzt oder blockiert."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Reinigen Sie die Positionsanzeigeleuchte der Station.",
+   "Entfernen Sie Hindernisse in der Nähe der Station.",
+   "Versuchen Sie es erneut."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Roborock|Error 27": {
+  "title": "VibraRise-System klemmt",
+  "causes": [
+   "Das Wischmopp-Hebesystem ist blockiert."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Prüfen Sie, ob etwas die Wischplatte blockiert.",
+   "Entfernen Sie Schmutz.",
+   "Starten Sie neu."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Roborock|Error 28": {
+  "title": "Roboter auf Teppich",
+  "causes": [
+   "Der Wischmopp ist angebracht und der Roboter steht auf Teppich."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Stellen Sie den Roboter auf einen Hartboden.",
+   "Nehmen Sie den Wischmopp ab, wenn Sie Teppich reinigen möchten.",
+   "Versuchen Sie es erneut."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Roborock-Kundendienst."
+ },
+ "Xiaomi|Error 1": {
+  "title": "Stoßfänger klemmt oder ist verschmutzt",
+  "causes": [
+   "Schmutz hält den Stoßfänger fest."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Reinigen Sie den Stoßfänger.",
+   "Klopfen Sie vorsichtig darauf, um Schmutz zu lösen.",
+   "Wenn der Fehler bleibt, stellen Sie den Roboter woanders hin und starten Sie neu."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Xiaomi-Kundendienst."
+ },
+ "Xiaomi|Error 2": {
+  "title": "Rad ohne Bodenkontakt",
+  "causes": [
+   "Ein Rad hängt herunter."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Stellen Sie den Roboter auf ebenen Boden.",
+   "Starten Sie ihn neu.",
+   "Prüfen Sie, dass er nicht an einer Kante steht."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Xiaomi-Kundendienst."
+ },
+ "Xiaomi|Error 3": {
+  "title": "Absturzsensor verschmutzt oder Roboter angehoben",
+  "causes": [
+   "Der Absturzsensor ist verschmutzt oder der Roboter ist teilweise angehoben."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Reinigen Sie den Absturzsensor.",
+   "Stellen Sie ihn auf ebenen Boden.",
+   "Starten Sie ihn neu."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Xiaomi-Kundendienst."
+ },
+ "Xiaomi|Error 4": {
+  "title": "Hauptbürste verfangen",
+  "causes": [
+   "Schmutz steckt in der Hauptbürste fest."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Nehmen Sie die Hauptbürste heraus.",
+   "Reinigen Sie Borsten und Lager.",
+   "Setzen Sie sie wieder ein und starten Sie neu."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Xiaomi-Kundendienst."
+ },
+ "Xiaomi|Error 5": {
+  "title": "Seitenbürste verfangen",
+  "causes": [
+   "Schmutz steckt in der Seitenbürste fest."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Nehmen Sie die Seitenbürste ab.",
+   "Reinigen Sie sie.",
+   "Setzen Sie sie wieder ein und starten Sie neu."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Xiaomi-Kundendienst."
+ },
+ "Xiaomi|Error 6": {
+  "title": "Schmutz um das Hauptrad",
+  "causes": [
+   "Haare oder Schmutz haben sich um ein Hauptrad gewickelt."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Prüfen Sie beide Räder.",
+   "Entfernen Sie verfangenes Material.",
+   "Stellen Sie den Roboter an eine andere Stelle und starten Sie neu."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Xiaomi-Kundendienst."
+ },
+ "Xiaomi|Error 7": {
+  "title": "Roboter verfangen oder festgefahren",
+  "causes": [
+   "Der Roboter hängt an einem Hindernis fest."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Entfernen Sie Hindernisse um ihn herum.",
+   "Stellen Sie ihn auf freien Boden.",
+   "Starten Sie neu."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Xiaomi-Kundendienst."
+ },
+ "Xiaomi|Error 8": {
+  "title": "Staubbehälter oder Filter nicht richtig eingesetzt",
+  "causes": [
+   "Das Staubfach oder der Filter ist falsch eingesetzt."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Setzen Sie Staubbehälter und Filter richtig ein.",
+   "Wenn der Fehler bleibt, ersetzen Sie den Filter.",
+   "Starten Sie neu."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Xiaomi-Kundendienst."
+ },
+ "Xiaomi|Error 9": {
+  "title": "Starkes Magnetfeld erkannt",
+  "causes": [
+   "Der Roboter befindet sich nahe an einem Virtual-Wall-Streifen."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Entfernen Sie den Roboter von der virtuellen Wand.",
+   "Starten Sie ihn neu.",
+   "Prüfen Sie die Lage des Streifens."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Xiaomi-Kundendienst."
+ },
+ "Xiaomi|Error 10": {
+  "title": "Ladefehler",
+  "causes": [
+   "Verschmutzte Ladekontakte."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Wischen Sie die Kontakte an Station und Roboter mit einem trockenen Tuch ab.",
+   "Setzen Sie den Roboter erneut auf die Station.",
+   "Prüfen Sie, ob die Station Strom hat."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Xiaomi-Kundendienst."
+ },
+ "Xiaomi|Error 11": {
+  "title": "Akku zu heiß oder zu kalt",
+  "causes": [
+   "Die Akkutemperatur liegt außerhalb des zulässigen Bereichs."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Warten Sie, bis der Akku wieder eine normale Temperatur hat.",
+   "Halten Sie den Roboter von Hitze oder Kälte fern.",
+   "Versuchen Sie es erneut."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Xiaomi-Kundendienst."
+ },
+ "Xiaomi|Error 12": {
+  "title": "Sperrbereich oder virtuelle Wand erkannt",
+  "causes": [
+   "Der Roboter ist in eine Sperrzone gefahren."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Stellen Sie ihn weg vom Bereich mit dem Absperrband.",
+   "Starten Sie ihn neu.",
+   "Prüfen Sie die Lage des Bandes."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Xiaomi-Kundendienst."
+ },
+ "Xiaomi|Error 13": {
+  "title": "Sensor für visuelle Navigation verschmutzt",
+  "causes": [
+   "Der Navigationssensor ist verschmutzt."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Wischen Sie den Sensor mit einem weichen, trockenen Tuch ab.",
+   "Starten Sie den Roboter neu.",
+   "Starten Sie eine kurze Reinigung."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Xiaomi-Kundendienst."
+ },
+ "Xiaomi|Error 14": {
+  "title": "Interner Fehler",
+  "causes": [
+   "Das System hat eine interne Störung."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Setzen Sie das System zurück.",
+   "Starten Sie den Roboter neu.",
+   "Versuchen Sie die Reinigung erneut."
+  ],
+  "technician": "Wenn der Fehler nach Reinigung und Zurücksetzen erneut auftritt, wenden Sie sich an den Xiaomi-Kundendienst."
+ },
+ "eufy|Error 1": {
+  "title": "Vorderer Stoßfänger klemmt",
+  "causes": [
+   "Schmutz oder ein Gegenstand hält den Stoßfänger fest."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Klopfen Sie auf den Stoßfänger, um zu prüfen, ob er sich bewegt.",
+   "Wenn er klemmt, nehmen Sie ihn ab und setzen Sie ihn wieder ein.",
+   "Starten Sie neu."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 2": {
+  "title": "Rad blockiert",
+  "causes": [
+   "Ein Rad ist blockiert."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Entfernen Sie Schmutz zwischen Rad und Gehäuse.",
+   "Drehen Sie das Rad von Hand.",
+   "Stellen Sie den Roboter um und versuchen Sie es erneut."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 3": {
+  "title": "Seitenbürste blockiert",
+  "causes": [
+   "Etwas hat sich in der Seitenbürste verfangen."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Entfernen Sie den Gegenstand.",
+   "Prüfen Sie, ob sich die Bürste frei dreht.",
+   "Versuchen Sie es erneut."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 4": {
+  "title": "Walzenbürste blockiert",
+  "causes": [
+   "Haare oder Schmutz haben sich um die Walzenbürste gewickelt."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Nehmen Sie die Walzenbürste heraus.",
+   "Entfernen Sie den Schmutz.",
+   "Erhöhen Sie die Saugstärke auf Böden mit vielen Haaren."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 5": {
+  "title": "Roboter eingeklemmt, Hindernisse entfernen",
+  "causes": [
+   "Hindernisse blockieren den Roboter."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Räumen Sie den Bereich um ihn herum frei.",
+   "Stellen Sie ihn an eine freie Stelle.",
+   "Starten Sie neu."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 6": {
+  "title": "Roboter eingeklemmt, in offenen Bereich stellen",
+  "causes": [
+   "Der Roboter hängt an einem Hindernis fest."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Stellen Sie ihn in einen offenen Bereich.",
+   "Starten Sie die Reinigung neu.",
+   "Richten Sie eine No-Go-Zone ein, wenn er dort immer wieder steckenbleibt."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 7": {
+  "title": "Roboter hat keinen Bodenkontakt",
+  "causes": [
+   "Der Roboter ist angehoben oder steht an einer Kante."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Stellen Sie ihn an einer anderen Stelle auf den Boden.",
+   "Prüfen Sie, ob die Absturzsensoren sauber sind.",
+   "Starten Sie neu."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 8": {
+  "title": "Akku schwach, Roboter schaltet sich aus",
+  "causes": [
+   "Der Akku ist zu schwach."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Stellen Sie den Roboter zur Station.",
+   "Lassen Sie ihn laden.",
+   "Versuchen Sie es erneut.",
+   "Starten Sie eine kurze Testreinigung in der Nähe der Station, um zu prüfen, ob der Code verschwunden ist."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 13": {
+  "title": "Roboter steht schief",
+  "causes": [
+   "Der Roboter steht auf einer Schräge."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Stellen Sie ihn auf ebenen Boden.",
+   "Starten Sie die Reinigung neu.",
+   "Prüfen Sie, dass er nicht auf einer Türschwelle steht."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 14": {
+  "title": "Staubbehälter oder Filter fehlt",
+  "causes": [
+   "Der Staubbehälter oder der Filter ist nicht eingesetzt."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Öffnen Sie die Abdeckung.",
+   "Setzen Sie Staubbehälter und Filter wieder ein.",
+   "Achten Sie darauf, dass der Filter richtig sitzt."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 17": {
+  "title": "Versehentlich in eine No-Go-Zone gefahren",
+  "causes": [
+   "Der Roboter befindet sich in einer No-Go-Zone."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Stellen Sie ihn außerhalb der Zone ab.",
+   "Starten Sie die Reinigung neu.",
+   "Prüfen Sie die Zonen in der App."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 18": {
+  "title": "Abdeckung des Lasersensors klemmt möglicherweise",
+  "causes": [
+   "Die Laserabdeckung ist blockiert."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Entfernen Sie alles, was die Abdeckung blockiert.",
+   "Drücken Sie die Abdeckung, bis sie hörbar einrastet.",
+   "Starten Sie neu."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 19": {
+  "title": "Lasersensor klemmt möglicherweise",
+  "causes": [
+   "Der Sensor kann sich nicht frei drehen."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Schalten Sie den Roboter aus.",
+   "Entfernen Sie alles, was die Drehung verhindert.",
+   "Starten Sie neu."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 20": {
+  "title": "Lasersensor ist möglicherweise blockiert",
+  "causes": [
+   "Schmutz liegt auf dem Sensor."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Entfernen Sie Schmutz von der Oberseite des Sensors.",
+   "Wischen Sie vorsichtig mit einem trockenen Tuch ab.",
+   "Starten Sie neu."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 21": {
+  "title": "Rückkehr zur Station fehlgeschlagen",
+  "causes": [
+   "Der Roboter sieht die Station, kann aber nicht hineinfahren."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Räumen Sie Hindernisse um die Station frei.",
+   "Prüfen Sie, ob die Station Strom hat.",
+   "Schicken Sie den Roboter erneut zur Station."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 23": {
+  "title": "Startpunkt nicht gefunden",
+  "causes": [
+   "Die Reinigung wurde nicht von der Station aus gestartet."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Starten Sie die Reinigung von der Station aus.",
+   "Lassen Sie die Station an derselben Stelle stehen.",
+   "Versuchen Sie es erneut."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 26": {
+  "title": "Akku schwach, geplante Reinigung fehlgeschlagen",
+  "causes": [
+   "Der Akku war für den geplanten Durchgang zu schwach."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Laden Sie den Roboter.",
+   "Versuchen Sie den Zeitplan erneut.",
+   "Lassen Sie ihn auf der Station."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 27": {
+  "title": "Wasserstand in der Reinigungsschale der Station abnormal",
+  "causes": [
+   "In der Reinigungsschale steht Wasser."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Trocknen Sie die Schale mit einem trockenen Tuch.",
+   "Prüfen Sie den Metalldetektor auf Wassertropfen.",
+   "Setzen Sie die Schale wieder ein."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 28": {
+  "title": "Reinigungsschale der Station nicht eingesetzt",
+  "causes": [
+   "Die Schale fehlt oder sitzt locker."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Setzen Sie die Schale richtig ein.",
+   "Drücken Sie, bis sie flach aufliegt.",
+   "Versuchen Sie es erneut."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 29": {
+  "title": "Deckel der Station nicht geschlossen",
+  "causes": [
+   "Der Deckel ist offen."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Schließen Sie den Deckel der Station vollständig.",
+   "Prüfen Sie, dass nichts ihn blockiert.",
+   "Versuchen Sie es erneut.",
+   "Starten Sie eine kurze Testreinigung in der Nähe der Station, um zu prüfen, ob der Code verschwunden ist."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 30": {
+  "title": "Eingangsspannung der Station abnormal",
+  "causes": [
+   "Die Spannung der Station passt nicht zu Ihrer Steckdose."
+  ],
+  "steps": [
+   "Prüfen Sie, ob die Station die richtige Spannung hat (220V oder 110V).",
+   "Verwenden Sie eine passende Steckdose.",
+   "Wenden Sie sich an den Support, wenn die Spannung nicht passt."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 31": {
+  "title": "Fremdkörper in der Saugöffnung",
+  "causes": [
+   "Schmutz blockiert die Ansaugöffnung."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Nehmen Sie die Bürste heraus.",
+   "Reinigen Sie den Bürstenraum.",
+   "Leeren Sie den Staubbehälter."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 32": {
+  "title": "Wischpad-Halterung klemmt",
+  "causes": [
+   "Schmutz steckt in der Wischpad-Halterung."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Entfernen Sie den Schmutz.",
+   "Reinigen Sie die Halterung.",
+   "Versuchen Sie es erneut.",
+   "Starten Sie eine kurze Testreinigung in der Nähe der Station, um zu prüfen, ob der Code verschwunden ist."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "eufy|Error 34": {
+  "title": "Wischmopp abgefallen",
+  "causes": [
+   "Ein Wischpad fehlt oder sitzt locker."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Setzen Sie den Wischmopp richtig wieder ein.",
+   "Prüfen Sie, ob er einrastet.",
+   "Starten Sie neu."
+  ],
+  "technician": "Wenn die Meldung nach diesen Schritten bleibt, wenden Sie sich über das E-Mail-Formular oder den Live-Chat an den eufy-Support."
+ },
+ "Shark|Error 2": {
+  "title": "Bürstenwalze, Seitenbürste oder Rad blockiert",
+  "causes": [
+   "Die Bürstenwalze ist blockiert (CLEAN und ! rot).",
+   "Eine Seitenbürste klemmt (DOCK und ! rot).",
+   "Ein Antriebsrad klemmt (alle drei rot)."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus.",
+   "Entfernen Sie Schmutz von Bürstenwalze, Seitenbürsten oder Rädern, je nachdem, was die Lichter anzeigen.",
+   "Prüfen Sie, ob sich die Räder frei drehen, und starten Sie dann neu."
+  ],
+  "technician": "Wenn das Lichtmuster weiter auftritt, wenden Sie sich an den Shark-Kundendienst."
+ },
+ "Shark|Error 6": {
+  "title": "Vorderer Stoßfänger klemmt möglicherweise",
+  "causes": [
+   "Schmutz hält den Stoßfänger fest (DOCK rot blinkend)."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Reinigen Sie die Umgebung des Stoßfängers.",
+   "Drücken Sie ihn, um zu prüfen, ob er sich frei bewegt.",
+   "Starten Sie neu."
+  ],
+  "technician": "Wenn das Lichtmuster weiter auftritt, wenden Sie sich an den Shark-Kundendienst."
+ },
+ "Shark|Error 7": {
+  "title": "Absturzsensor-Fehler",
+  "causes": [
+   "Die Absturzsensoren sind verschmutzt oder der Roboter steht nahe an einer Kante."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Stellen Sie den Roboter an eine andere Stelle.",
+   "Wischen Sie die Absturzsensoren ab.",
+   "Starten Sie neu."
+  ],
+  "technician": "Wenn das Lichtmuster weiter auftritt, wenden Sie sich an den Shark-Kundendienst."
+ },
+ "Shark|Error 10": {
+  "title": "Roboter steckt an einem Hindernis fest",
+  "causes": [
+   "Der Roboter steckt möglicherweise fest (CLEAN rot blinkend)."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Stellen Sie ihn an eine ebene Stelle.",
+   "Entfernen Sie Hindernisse in der Nähe.",
+   "Starten Sie neu."
+  ],
+  "technician": "Wenn das Lichtmuster weiter auftritt, wenden Sie sich an den Shark-Kundendienst."
+ },
+ "Shark|Error 24": {
+  "title": "Akku kritisch schwach",
+  "causes": [
+   "Der Akku ist fast leer."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Setzen Sie den Roboter auf die Station.",
+   "Prüfen Sie, ob die Ladeanzeige der Station leuchtet.",
+   "Lassen Sie ihn laden."
+  ],
+  "technician": "Wenn das Lichtmuster weiter auftritt, wenden Sie sich an den Shark-Kundendienst."
+ },
+ "Shark|Error 26": {
+  "title": "Staubbehälter verstopft",
+  "causes": [
+   "Eine Verstopfung im Staubbehälter der Station oder des Roboters."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Prüfen Sie beide Behälter auf Verstopfungen.",
+   "Entfernen Sie den Schmutz.",
+   "Setzen Sie den Behälter wieder ein, bis er einrastet."
+  ],
+  "technician": "Wenn das Lichtmuster weiter auftritt, wenden Sie sich an den Shark-Kundendienst."
+ },
+ "Ecovacs|Bumper stuck": {
+  "title": "Sprachmeldung: Stoßfänger klemmt",
+  "causes": [
+   "Schmutz oder der Schutzstreifen hält den Stoßfänger fest."
+  ],
+  "steps": [
+   "Entfernen Sie den Kollisionsschutzstreifen.",
+   "Drücken Sie den linken, mittleren und rechten Stoßfänger, um zu prüfen, ob er zurückfedert.",
+   "Schalten Sie aus, starten Sie neu und testen Sie."
+  ],
+  "technician": "Wenn die Meldung erneut auftritt, wenden Sie sich an den Ecovacs-Kundendienst."
+ },
+ "Ecovacs|Laser sensor malfunction": {
+  "title": "Lasersensor funktioniert nicht",
+  "causes": [
+   "Die Lasereinheit ist verschmutzt oder klemmt."
+  ],
+  "steps": [
+   "Drücken Sie die Lasereinheit vorsichtig.",
+   "Drehen Sie die Linse nach vorne und wischen Sie sie mit einem sauberen Tuch ab.",
+   "Schalten Sie aus, starten Sie neu und testen Sie."
+  ],
+  "technician": "Wenn die Meldung erneut auftritt, wenden Sie sich an den Ecovacs-Kundendienst."
+ },
+ "Ecovacs|Dust bag installation error": {
+  "title": "Staubbeutel nicht richtig eingesetzt",
+  "causes": [
+   "Der Staubbeutel sitzt nicht richtig."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Schalten Sie aus und öffnen Sie die Abdeckung des Staubbehälters.",
+   "Nehmen Sie den Staubbeutel heraus und setzen Sie ihn wieder ein.",
+   "Schließen Sie die Abdeckung und testen Sie die Staubabsaugung."
+  ],
+  "technician": "Wenn die Meldung erneut auftritt, wenden Sie sich an den Ecovacs-Kundendienst."
+ },
+ "Ecovacs|Rotating mop tangled": {
+  "title": "Rotierender Wischmopp blockiert",
+  "causes": [
+   "Schmutz oder Haare blockieren den rotierenden Wischmopp."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Fahren Sie den Wischmopp aus und nehmen Sie ihn ab.",
+   "Reinigen Sie den Wischmopp und den Aufnahmeraum.",
+   "Setzen Sie ihn ein, bis er einrastet, und starten Sie neu."
+  ],
+  "technician": "Wenn die Meldung erneut auftritt, wenden Sie sich an den Ecovacs-Kundendienst."
+ },
+ "Ecovacs|Water tank not installed or low water": {
+  "title": "Frischwassertank fehlt oder ist leer",
+  "causes": [
+   "Der Tank ist leer, fehlt oder der Schwimmer klemmt."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Nehmen Sie den Tank heraus und prüfen Sie, ob sich der Schwimmer bewegt.",
+   "Füllen Sie bis zur Max-Markierung auf.",
+   "Schließen Sie den Deckel und setzen Sie den Tank wieder ein."
+  ],
+  "technician": "Wenn die Meldung erneut auftritt, wenden Sie sich an den Ecovacs-Kundendienst."
+ },
+ "Ecovacs|Dirty water tank not installed": {
+  "title": "Schmutzwassertank fehlt oder sitzt falsch",
+  "causes": [
+   "Der Tank sitzt nicht richtig oder wird nicht erkannt."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Leeren und spülen Sie den Schmutzwassertank.",
+   "Prüfen Sie Schwimmer und Verriegelungen.",
+   "Setzen Sie ihn wieder ein."
+  ],
+  "technician": "Wenn die Meldung erneut auftritt, wenden Sie sich an den Ecovacs-Kundendienst."
+ },
+ "Ecovacs|Cleaning sink anomaly": {
+  "title": "Wischmopp-Waschschale läuft nicht ab",
+  "causes": [
+   "Schmutz blockiert den Schwimmer oder den Abfluss."
+  ],
+  "steps": [
+   "Prüfen Sie, ob die Schale richtig sitzt.",
+   "Reinigen Sie den Überlaufschwimmer.",
+   "Starten Sie die Abflussfunktion in der App und starten Sie dann die Station neu."
+  ],
+  "technician": "Wenn die Meldung erneut auftritt, wenden Sie sich an den Ecovacs-Kundendienst."
+ },
+ "Ecovacs|Dirty water tank anomaly": {
+  "title": "Problem mit Schmutzwassertank oder Abfluss",
+  "causes": [
+   "Die Dichtung oder die Abflussöffnung ist blockiert."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Leeren Sie den Tank und reinigen Sie den Filter.",
+   "Schließen Sie den Deckel fest.",
+   "Reinigen Sie die Abflussöffnung mit einer Bürste."
+  ],
+  "technician": "Wenn die Meldung erneut auftritt, wenden Sie sich an den Ecovacs-Kundendienst."
+ },
+ "Dreame|Dust box error": {
+  "title": "Staubbehälter-Alarm",
+  "causes": [
+   "Der Staubbehälter sitzt locker.",
+   "Der Filter ist falsch herum eingesetzt oder defekt."
+  ],
+  "steps": [
+   "Setzen Sie den Staubbehälter fest ein.",
+   "Starten Sie den Roboter neu.",
+   "Prüfen Sie, ob der Filter richtig herum eingesetzt ist, und ersetzen Sie ihn, wenn er auffällig aussieht."
+  ],
+  "technician": "Wenn der Fehler weiter auftritt, wenden Sie sich an den Dreame-Kundendienst."
+ },
+ "Dreame|Laser sensor error": {
+  "title": "Fehler am Laser-Entfernungssensor",
+  "causes": [
+   "Der Lasersensor ist staubig oder schwergängig."
+  ],
+  "steps": [
+   "Schalten Sie den Roboter aus und halten Sie ihn von Wasser fern, bevor Sie ihn prüfen.",
+   "Aktualisieren Sie die Firmware in der App.",
+   "Klopfen Sie vorsichtig auf die Abdeckung und entfernen Sie Staub.",
+   "Drehen Sie den Sensor von Hand, um zu prüfen, ob er sich dreht."
+  ],
+  "technician": "Wenn der Fehler weiter auftritt, wenden Sie sich an den Dreame-Kundendienst."
+ }
+}

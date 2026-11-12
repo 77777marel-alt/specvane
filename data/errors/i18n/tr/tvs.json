@@ -1,0 +1,654 @@
+{
+ "Roku|Error 009": {
+  "title": "Yönlendiriciye bağlı ama internet yok",
+  "causes": [
+   "Yönlendiriciye ulaşılabiliyor ancak internet bağlantısı yok.",
+   "İnternet hizmeti kesilmiş."
+  ],
+  "steps": [
+   "Aynı ağdaki bir telefonun veya dizüstü bilgisayarın internete çıkıp çıkamadığını kontrol edin.",
+   "Hiçbir cihaz internete çıkamıyorsa internet sağlayıcınızı arayın.",
+   "Diğer cihazlar çalışıyorsa televizyonu yeniden başlatın.",
+   "Yönlendiriciyi ve modemi yeniden başlatın, ardından tekrar bağlanın."
+  ],
+  "technician": "Bu adımlardan sonra hata tekrar ederse Roku desteğiyle veya internet sağlayıcınızla iletişime geçin."
+ },
+ "Roku|Error 012": {
+  "title": "Kablolu ağ bağlantısı sorunu",
+  "causes": [
+   "Ethernet kablosu gevşek veya arızalı.",
+   "Yönlendiricideki port çalışmıyor."
+  ],
+  "steps": [
+   "Ethernet kablosunu televizyona ve yönlendiriciye sıkıca takın.",
+   "Başka bir kablo veya yönlendirici portu deneyin.",
+   "Önce televizyonu, ardından yönlendiriciyi ve modemi yeniden başlatın.",
+   "İnternetin kendisinin çalışıp çalışmadığını görmek için kısa süre Wi-Fi'yi deneyin."
+  ],
+  "technician": "Bu adımlardan sonra hata tekrar ederse Roku desteğiyle veya internet sağlayıcınızla iletişime geçin."
+ },
+ "Roku|Error 013": {
+  "title": "Kablolu bağlantı internete ulaşamıyor",
+  "causes": [
+   "Yönlendiricide internet yok.",
+   "Ethernet kablosu tam oturmamış."
+  ],
+  "steps": [
+   "Başka bir cihazın internete bağlı olup olmadığını kontrol edin.",
+   "Bağlıysa televizyonu yeniden başlatın.",
+   "Bağlı değilse Ethernet kablosunu her iki uçtan çıkarıp yeniden takın.",
+   "Sağlayıcınızı aramadan önce yönlendiriciyi yeniden başlatın."
+  ],
+  "technician": "Bu adımlardan sonra hata tekrar ederse Roku desteğiyle veya internet sağlayıcınızla iletişime geçin."
+ },
+ "Roku|Error 014": {
+  "title": "Kablosuz ağa bağlanılamıyor",
+  "causes": [
+   "Yanlış ağ adı seçilmiş.",
+   "Şifre yanlış girilmiş.",
+   "Yönlendirici veya televizyonun yeniden başlatılması gerekiyor."
+  ],
+  "steps": [
+   "Doğru ağ adını seçtiğinizden emin olun.",
+   "Şifreyi yeniden girin; büyük/küçük harf duyarlıdır.",
+   "Televizyonu ve yönlendiriciyi yeniden başlatın.",
+   "Tekrar bağlanmayı deneyin."
+  ],
+  "technician": "Bu adımlardan sonra hata tekrar ederse Roku desteğiyle veya internet sağlayıcınızla iletişime geçin."
+ },
+ "Roku|Error 014.20": {
+  "title": "Zayıf Wi-Fi sinyali bağlantıyı engelliyor",
+  "causes": [
+   "Televizyon yönlendiriciden çok uzakta.",
+   "Duvarlar veya eşyalar sinyali zayıflatıyor."
+  ],
+  "steps": [
+   "Televizyonu veya yönlendiriciyi birbirine yaklaştırın ya da yönlendiriciyi daha yükseğe koyun.",
+   "Yönlendiriciyi ve televizyonu yeniden başlatın.",
+   "Yönlendiricinizde iki bant varsa diğerini deneyin.",
+   "Ağa yeniden bağlanın."
+  ],
+  "technician": "Bu adımlardan sonra hata tekrar ederse Roku desteğiyle veya internet sağlayıcınızla iletişime geçin."
+ },
+ "Roku|Error 014.30": {
+  "title": "Wi-Fi bağlantısı kurulamadı, sinyal zayıf",
+  "causes": [
+   "Wi-Fi sinyali zayıf.",
+   "Yönlendiricide veya televizyonda geçici bir aksaklık var."
+  ],
+  "steps": [
+   "Yönlendiriciyi ve televizyonu yeniden başlatın.",
+   "Televizyonu yönlendiriciye yaklaştırın.",
+   "Wi-Fi'ye yeniden bağlanın.",
+   "Varsa yönlendiricinin diğer bandını deneyin."
+  ],
+  "technician": "Bu adımlardan sonra hata tekrar ederse Roku desteğiyle veya internet sağlayıcınızla iletişime geçin."
+ },
+ "Roku|Error 014.40": {
+  "title": "Yanlış şifre veya yönlendirici kısıtlaması",
+  "causes": [
+   "Wi-Fi şifresi yanlış girilmiş.",
+   "Yönlendirici bilinmeyen cihazları engelliyor."
+  ],
+  "steps": [
+   "Ağ adını kontrol edin ve şifreyi yeniden girin.",
+   "Yönlendirici cihaz filtreliyorsa televizyonun kablosuz MAC adresini ekleyin.",
+   "Televizyonu ve yönlendiriciyi yeniden başlatın.",
+   "Tekrar deneyin."
+  ],
+  "technician": "Bu adımlardan sonra hata tekrar ederse Roku desteğiyle veya internet sağlayıcınızla iletişime geçin."
+ },
+ "Roku|Error 014.41": {
+  "title": "Yanlış şifre veya yönlendirici kısıtlaması",
+  "causes": [
+   "Wi-Fi şifresi yanlış girilmiş.",
+   "Yönlendirici bilinmeyen cihazları engelliyor."
+  ],
+  "steps": [
+   "Ağ adını kontrol edin ve şifreyi dikkatle yeniden girin.",
+   "Yönlendirici cihaz filtreliyorsa televizyonun kablosuz MAC adresine izin verin.",
+   "Televizyonu ve yönlendiriciyi yeniden başlatın.",
+   "Tekrar deneyin."
+  ],
+  "technician": "Bu adımlardan sonra hata tekrar ederse Roku desteğiyle veya internet sağlayıcınızla iletişime geçin."
+ },
+ "Roku|Error 014.50": {
+  "title": "Wi-Fi bağlantısı kurulamadı, sinyal zayıf",
+  "causes": [
+   "Wi-Fi sinyali zayıf.",
+   "Yönlendiricide veya televizyonda geçici bir aksaklık var."
+  ],
+  "steps": [
+   "Yönlendiriciyi ve televizyonu yeniden başlatın.",
+   "Televizyonu yönlendiriciye yaklaştırın.",
+   "Wi-Fi'ye yeniden bağlanın.",
+   "Varsa yönlendiricinin diğer bandını deneyin."
+  ],
+  "technician": "Bu adımlardan sonra hata tekrar ederse Roku desteğiyle veya internet sağlayıcınızla iletişime geçin."
+ },
+ "Roku|Error 016": {
+  "title": "Kanal açılırken bağlantı koptu",
+  "causes": [
+   "Bir uygulama başlarken ağ bağlantısı kesildi.",
+   "Wi-Fi sinyali zayıf."
+  ],
+  "steps": [
+   "Ekranda Set up connection seçeneğini seçin ve yönergeleri izleyin.",
+   "Televizyonu ve yönlendiriciyi yeniden başlatın.",
+   "Wi-Fi sinyal gücünü kontrol edin.",
+   "Televizyonu ve yönlendiriciyi birbirine yaklaştırın."
+  ],
+  "technician": "Bu adımlardan sonra hata tekrar ederse Roku desteğiyle veya internet sağlayıcınızla iletişime geçin."
+ },
+ "Roku|Error 017": {
+  "title": "Kablosuz sinyal gücü zayıf",
+  "causes": [
+   "Televizyonda Wi-Fi sinyali zayıf.",
+   "Televizyon ile yönlendirici arasında engeller var."
+  ],
+  "steps": [
+   "Televizyonu ve yönlendiriciyi birbirine yaklaştırın.",
+   "Aralarındaki engelleri kaldırın.",
+   "Televizyonu ve yönlendiriciyi yeniden başlatın.",
+   "Televizyonda port varsa Ethernet kablosu kullanın."
+  ],
+  "technician": "Bu adımlardan sonra hata tekrar ederse Roku desteğiyle veya internet sağlayıcınızla iletişime geçin."
+ },
+ "Roku|Error 018": {
+  "title": "İnternet hızı çok düşük",
+  "causes": [
+   "İnternet paketiniz veya hattınız yavaş.",
+   "Diğer cihazlar bant genişliğini kullanıyor."
+  ],
+  "steps": [
+   "Diğer cihazlardaki indirmeleri ve yayınları duraklatın.",
+   "Modemi ve yönlendiriciyi yeniden başlatın.",
+   "Sağlayıcınıza ne kadar hız aldığınızı sorun.",
+   "Daha hızlı bir pakete geçmeyi düşünün."
+  ],
+  "technician": "Bu adımlardan sonra hata tekrar ederse Roku desteğiyle veya internet sağlayıcınızla iletişime geçin."
+ },
+ "Roku|Error 14.10": {
+  "title": "Kablosuz bağlantı hatası",
+  "causes": [
+   "Televizyon ile yönlendirici arasında geçici bir Wi-Fi arızası var."
+  ],
+  "steps": [
+   "Yönlendiriciyi yeniden başlatın ve yeniden çevrimiçi olmasını bekleyin.",
+   "Roku TV'yi yeniden başlatın.",
+   "Ağa tekrar bağlanmayı deneyin.",
+   "Sinyal zayıfsa televizyonu yönlendiriciye yaklaştırın."
+  ],
+  "technician": "Bu adımlardan sonra hata tekrar ederse Roku desteğiyle veya internet sağlayıcınızla iletişime geçin."
+ },
+ "Roku|Error 14.11": {
+  "title": "Kablosuz bağlantı hatası",
+  "causes": [
+   "Televizyon ile yönlendirici arasında geçici bir Wi-Fi arızası var."
+  ],
+  "steps": [
+   "Yönlendiriciyi yeniden başlatın ve yeniden çevrimiçi olmasını bekleyin.",
+   "Roku TV'yi yeniden başlatın.",
+   "Ağa tekrar bağlanmayı deneyin.",
+   "Sinyal zayıfsa televizyonu yönlendiriciye yaklaştırın."
+  ],
+  "technician": "Bu adımlardan sonra hata tekrar ederse Roku desteğiyle veya internet sağlayıcınızla iletişime geçin."
+ },
+ "Roku|Error 14.62": {
+  "title": "Kablosuz bağlantı sorunu, zayıf sinyal",
+  "causes": [
+   "Televizyonda Wi-Fi sinyali zayıf."
+  ],
+  "steps": [
+   "Ekranda gösterilen sinyal gücünü kontrol edin.",
+   "Televizyonu veya yönlendiriciyi birbirine yaklaştırın.",
+   "Yönlendiriciyi ve televizyonu yeniden başlatın.",
+   "Ağa yeniden bağlanın."
+  ],
+  "technician": "Bu adımlardan sonra hata tekrar ederse Roku desteğiyle veya internet sağlayıcınızla iletişime geçin."
+ },
+ "Roku|Error 14.64": {
+  "title": "Kablosuz bağlantı sorunu, zayıf sinyal",
+  "causes": [
+   "Televizyonda Wi-Fi sinyali zayıf."
+  ],
+  "steps": [
+   "Ekranda gösterilen sinyal gücünü kontrol edin.",
+   "Televizyonu veya yönlendiriciyi birbirine yaklaştırın.",
+   "Yönlendiriciyi ve televizyonu yeniden başlatın.",
+   "Ağa yeniden bağlanın."
+  ],
+  "technician": "Bu adımlardan sonra hata tekrar ederse Roku desteğiyle veya internet sağlayıcınızla iletişime geçin."
+ },
+ "TCL|Error 009": {
+  "title": "Yönlendiriciye bağlı ama internet yok",
+  "causes": [
+   "Yönlendiriciye ulaşılabiliyor ancak internet bağlantısı yok.",
+   "İnternet hizmeti kesilmiş."
+  ],
+  "steps": [
+   "Aynı ağdaki bir telefonun veya dizüstü bilgisayarın internete çıkıp çıkamadığını kontrol edin.",
+   "Hiçbir cihaz internete çıkamıyorsa internet sağlayıcınızı arayın.",
+   "Diğer cihazlar çalışıyorsa televizyonu yeniden başlatın.",
+   "Yönlendiriciyi ve modemi yeniden başlatın, ardından tekrar bağlanın."
+  ],
+  "technician": "Ağ sıfırlamasından sonra hata tekrar ederse Roku TV'niz için TCL desteğiyle iletişime geçin."
+ },
+ "TCL|Error 012": {
+  "title": "Kablolu ağ bağlantısı sorunu",
+  "causes": [
+   "Ethernet kablosu gevşek veya arızalı.",
+   "Yönlendiricideki port çalışmıyor."
+  ],
+  "steps": [
+   "Ethernet kablosunu televizyona ve yönlendiriciye sıkıca takın.",
+   "Başka bir kablo veya yönlendirici portu deneyin.",
+   "Önce televizyonu, ardından yönlendiriciyi ve modemi yeniden başlatın.",
+   "İnternetin kendisinin çalışıp çalışmadığını görmek için kısa süre Wi-Fi'yi deneyin."
+  ],
+  "technician": "Ağ sıfırlamasından sonra hata tekrar ederse Roku TV'niz için TCL desteğiyle iletişime geçin."
+ },
+ "TCL|Error 013": {
+  "title": "Kablolu bağlantı internete ulaşamıyor",
+  "causes": [
+   "Yönlendiricide internet yok.",
+   "Ethernet kablosu tam oturmamış."
+  ],
+  "steps": [
+   "Başka bir cihazın internete bağlı olup olmadığını kontrol edin.",
+   "Bağlıysa televizyonu yeniden başlatın.",
+   "Bağlı değilse Ethernet kablosunu her iki uçtan çıkarıp yeniden takın.",
+   "Sağlayıcınızı aramadan önce yönlendiriciyi yeniden başlatın."
+  ],
+  "technician": "Ağ sıfırlamasından sonra hata tekrar ederse Roku TV'niz için TCL desteğiyle iletişime geçin."
+ },
+ "TCL|Error 014": {
+  "title": "Kablosuz ağa bağlanılamıyor",
+  "causes": [
+   "Yanlış ağ adı seçilmiş.",
+   "Şifre yanlış girilmiş.",
+   "Yönlendirici veya televizyonun yeniden başlatılması gerekiyor."
+  ],
+  "steps": [
+   "Doğru ağ adını seçtiğinizden emin olun.",
+   "Şifreyi yeniden girin; büyük/küçük harf duyarlıdır.",
+   "Televizyonu ve yönlendiriciyi yeniden başlatın.",
+   "Tekrar bağlanmayı deneyin."
+  ],
+  "technician": "Ağ sıfırlamasından sonra hata tekrar ederse Roku TV'niz için TCL desteğiyle iletişime geçin."
+ },
+ "TCL|Error 014.20": {
+  "title": "Zayıf Wi-Fi sinyali bağlantıyı engelliyor",
+  "causes": [
+   "Televizyon yönlendiriciden çok uzakta.",
+   "Duvarlar veya eşyalar sinyali zayıflatıyor."
+  ],
+  "steps": [
+   "Televizyonu veya yönlendiriciyi birbirine yaklaştırın ya da yönlendiriciyi daha yükseğe koyun.",
+   "Yönlendiriciyi ve televizyonu yeniden başlatın.",
+   "Yönlendiricinizde iki bant varsa diğerini deneyin.",
+   "Ağa yeniden bağlanın."
+  ],
+  "technician": "Ağ sıfırlamasından sonra hata tekrar ederse Roku TV'niz için TCL desteğiyle iletişime geçin."
+ },
+ "TCL|Error 014.30": {
+  "title": "Wi-Fi bağlantısı kurulamadı, sinyal zayıf",
+  "causes": [
+   "Wi-Fi sinyali zayıf.",
+   "Yönlendiricide veya televizyonda geçici bir aksaklık var."
+  ],
+  "steps": [
+   "Yönlendiriciyi ve televizyonu yeniden başlatın.",
+   "Televizyonu yönlendiriciye yaklaştırın.",
+   "Wi-Fi'ye yeniden bağlanın.",
+   "Varsa yönlendiricinin diğer bandını deneyin."
+  ],
+  "technician": "Ağ sıfırlamasından sonra hata tekrar ederse Roku TV'niz için TCL desteğiyle iletişime geçin."
+ },
+ "TCL|Error 014.40": {
+  "title": "Yanlış şifre veya yönlendirici kısıtlaması",
+  "causes": [
+   "Wi-Fi şifresi yanlış girilmiş.",
+   "Yönlendirici bilinmeyen cihazları engelliyor."
+  ],
+  "steps": [
+   "Ağ adını kontrol edin ve şifreyi yeniden girin.",
+   "Yönlendirici cihaz filtreliyorsa televizyonun kablosuz MAC adresini ekleyin.",
+   "Televizyonu ve yönlendiriciyi yeniden başlatın.",
+   "Tekrar deneyin."
+  ],
+  "technician": "Ağ sıfırlamasından sonra hata tekrar ederse Roku TV'niz için TCL desteğiyle iletişime geçin."
+ },
+ "TCL|Error 014.41": {
+  "title": "Yanlış şifre veya yönlendirici kısıtlaması",
+  "causes": [
+   "Wi-Fi şifresi yanlış girilmiş.",
+   "Yönlendirici bilinmeyen cihazları engelliyor."
+  ],
+  "steps": [
+   "Ağ adını kontrol edin ve şifreyi dikkatle yeniden girin.",
+   "Yönlendirici cihaz filtreliyorsa televizyonun kablosuz MAC adresine izin verin.",
+   "Televizyonu ve yönlendiriciyi yeniden başlatın.",
+   "Tekrar deneyin."
+  ],
+  "technician": "Ağ sıfırlamasından sonra hata tekrar ederse Roku TV'niz için TCL desteğiyle iletişime geçin."
+ },
+ "TCL|Error 014.50": {
+  "title": "Wi-Fi bağlantısı kurulamadı, sinyal zayıf",
+  "causes": [
+   "Wi-Fi sinyali zayıf.",
+   "Yönlendiricide veya televizyonda geçici bir aksaklık var."
+  ],
+  "steps": [
+   "Yönlendiriciyi ve televizyonu yeniden başlatın.",
+   "Televizyonu yönlendiriciye yaklaştırın.",
+   "Wi-Fi'ye yeniden bağlanın.",
+   "Varsa yönlendiricinin diğer bandını deneyin."
+  ],
+  "technician": "Ağ sıfırlamasından sonra hata tekrar ederse Roku TV'niz için TCL desteğiyle iletişime geçin."
+ },
+ "TCL|Error 016": {
+  "title": "Kanal açılırken bağlantı koptu",
+  "causes": [
+   "Bir uygulama başlarken ağ bağlantısı kesildi.",
+   "Wi-Fi sinyali zayıf."
+  ],
+  "steps": [
+   "Ekranda Set up connection seçeneğini seçin ve yönergeleri izleyin.",
+   "Televizyonu ve yönlendiriciyi yeniden başlatın.",
+   "Wi-Fi sinyal gücünü kontrol edin.",
+   "Televizyonu ve yönlendiriciyi birbirine yaklaştırın."
+  ],
+  "technician": "Ağ sıfırlamasından sonra hata tekrar ederse Roku TV'niz için TCL desteğiyle iletişime geçin."
+ },
+ "TCL|Error 017": {
+  "title": "Kablosuz sinyal gücü zayıf",
+  "causes": [
+   "Televizyonda Wi-Fi sinyali zayıf.",
+   "Televizyon ile yönlendirici arasında engeller var."
+  ],
+  "steps": [
+   "Televizyonu ve yönlendiriciyi birbirine yaklaştırın.",
+   "Aralarındaki engelleri kaldırın.",
+   "Televizyonu ve yönlendiriciyi yeniden başlatın.",
+   "Televizyonda port varsa Ethernet kablosu kullanın."
+  ],
+  "technician": "Ağ sıfırlamasından sonra hata tekrar ederse Roku TV'niz için TCL desteğiyle iletişime geçin."
+ },
+ "TCL|Error 018": {
+  "title": "İnternet hızı çok düşük",
+  "causes": [
+   "İnternet paketiniz veya hattınız yavaş.",
+   "Diğer cihazlar bant genişliğini kullanıyor."
+  ],
+  "steps": [
+   "Diğer cihazlardaki indirmeleri ve yayınları duraklatın.",
+   "Modemi ve yönlendiriciyi yeniden başlatın.",
+   "Sağlayıcınıza ne kadar hız aldığınızı sorun.",
+   "Daha hızlı bir pakete geçmeyi düşünün."
+  ],
+  "technician": "Ağ sıfırlamasından sonra hata tekrar ederse Roku TV'niz için TCL desteğiyle iletişime geçin."
+ },
+ "Sony|Red LED blinks 2 times": {
+  "title": "Sony TV bir arıza algıladı (2 yanıp sönme)",
+  "causes": [
+   "Televizyon dahili bir arıza tespit etti.",
+   "Yanıp sönme sayısının anlamı modele göre değişir."
+  ],
+  "steps": [
+   "Televizyonu kapatın ve fişini 1 dakika boyunca, prize bağlı çoklu priz olmadan çekili tutun.",
+   "Havalandırma deliklerini açın, hava akışı sağlansın.",
+   "Bağlı tüm cihazları çıkarın ve televizyonu yeniden açın.",
+   "Televizyon açılırsa yazılımını güncelleyin.",
+   "Yanıp sönme sayısını not edin ve Sony ile iletişime geçin."
+  ],
+  "technician": "Kırmızı ışıklı arızaların çoğu servis gerektirir; yanıp sönme sayısıyla birlikte Sony desteğiyle iletişime geçin."
+ },
+ "Sony|Red LED blinks 3 times": {
+  "title": "Sony TV bir arıza algıladı (3 yanıp sönme)",
+  "causes": [
+   "Televizyon dahili bir arıza tespit etti.",
+   "Yanıp sönme sayısının anlamı modele göre değişir."
+  ],
+  "steps": [
+   "Televizyonu kapatın ve fişini 1 dakika boyunca, prize bağlı çoklu priz olmadan çekili tutun.",
+   "Havalandırma deliklerini açın, hava akışı sağlansın.",
+   "Bağlı tüm cihazları çıkarın ve televizyonu yeniden açın.",
+   "Televizyon açılırsa yazılımını güncelleyin.",
+   "Yanıp sönme sayısını not edin ve Sony ile iletişime geçin."
+  ],
+  "technician": "Kırmızı ışıklı arızaların çoğu servis gerektirir; yanıp sönme sayısıyla birlikte Sony desteğiyle iletişime geçin."
+ },
+ "Sony|Red LED blinks 4 times": {
+  "title": "Sony TV bir arıza algıladı (4 yanıp sönme)",
+  "causes": [
+   "Televizyon dahili bir arıza tespit etti.",
+   "Yanıp sönme sayısının anlamı modele göre değişir."
+  ],
+  "steps": [
+   "Televizyonu kapatın ve fişini 1 dakika boyunca, prize bağlı çoklu priz olmadan çekili tutun.",
+   "Havalandırma deliklerini açın, hava akışı sağlansın.",
+   "Bağlı tüm cihazları çıkarın ve televizyonu yeniden açın.",
+   "Televizyon açılırsa yazılımını güncelleyin.",
+   "Yanıp sönme sayısını not edin ve Sony ile iletişime geçin."
+  ],
+  "technician": "Kırmızı ışıklı arızaların çoğu servis gerektirir; yanıp sönme sayısıyla birlikte Sony desteğiyle iletişime geçin."
+ },
+ "Sony|Red LED blinks 5 times": {
+  "title": "Sony TV bir arıza algıladı (5 yanıp sönme)",
+  "causes": [
+   "Televizyon dahili bir arıza tespit etti.",
+   "Yanıp sönme sayısının anlamı modele göre değişir."
+  ],
+  "steps": [
+   "Televizyonu kapatın ve fişini 1 dakika boyunca, prize bağlı çoklu priz olmadan çekili tutun.",
+   "Havalandırma deliklerini açın, hava akışı sağlansın.",
+   "Bağlı tüm cihazları çıkarın ve televizyonu yeniden açın.",
+   "Televizyon açılırsa yazılımını güncelleyin.",
+   "Yanıp sönme sayısını not edin ve Sony ile iletişime geçin."
+  ],
+  "technician": "Kırmızı ışıklı arızaların çoğu servis gerektirir; yanıp sönme sayısıyla birlikte Sony desteğiyle iletişime geçin."
+ },
+ "Sony|Red LED blinks 6 times": {
+  "title": "Sony TV bir arıza algıladı (6 yanıp sönme)",
+  "causes": [
+   "Televizyon dahili bir arıza tespit etti.",
+   "Yanıp sönme sayısının anlamı modele göre değişir."
+  ],
+  "steps": [
+   "Televizyonu kapatın ve fişini 1 dakika boyunca, prize bağlı çoklu priz olmadan çekili tutun.",
+   "Havalandırma deliklerini açın, hava akışı sağlansın.",
+   "Bağlı tüm cihazları çıkarın ve televizyonu yeniden açın.",
+   "Televizyon açılırsa yazılımını güncelleyin.",
+   "Yanıp sönme sayısını not edin ve Sony ile iletişime geçin."
+  ],
+  "technician": "Kırmızı ışıklı arızaların çoğu servis gerektirir; yanıp sönme sayısıyla birlikte Sony desteğiyle iletişime geçin."
+ },
+ "Sony|Red LED blinks 7 times": {
+  "title": "Sony TV bir arıza algıladı (7 yanıp sönme)",
+  "causes": [
+   "Televizyon dahili bir arıza tespit etti.",
+   "Yanıp sönme sayısının anlamı modele göre değişir."
+  ],
+  "steps": [
+   "Televizyonu kapatın ve fişini 1 dakika boyunca, prize bağlı çoklu priz olmadan çekili tutun.",
+   "Havalandırma deliklerini açın, hava akışı sağlansın.",
+   "Bağlı tüm cihazları çıkarın ve televizyonu yeniden açın.",
+   "Televizyon açılırsa yazılımını güncelleyin.",
+   "Yanıp sönme sayısını not edin ve Sony ile iletişime geçin."
+  ],
+  "technician": "Kırmızı ışıklı arızaların çoğu servis gerektirir; yanıp sönme sayısıyla birlikte Sony desteğiyle iletişime geçin."
+ },
+ "Sony|Red LED blinks 8 times": {
+  "title": "Sony TV bir arıza algıladı (8 yanıp sönme)",
+  "causes": [
+   "Televizyon dahili bir arıza tespit etti.",
+   "Yanıp sönme sayısının anlamı modele göre değişir."
+  ],
+  "steps": [
+   "Televizyonu kapatın ve fişini 1 dakika boyunca, prize bağlı çoklu priz olmadan çekili tutun.",
+   "Havalandırma deliklerini açın, hava akışı sağlansın.",
+   "Bağlı tüm cihazları çıkarın ve televizyonu yeniden açın.",
+   "Televizyon açılırsa yazılımını güncelleyin.",
+   "Yanıp sönme sayısını not edin ve Sony ile iletişime geçin."
+  ],
+  "technician": "Kırmızı ışıklı arızaların çoğu servis gerektirir; yanıp sönme sayısıyla birlikte Sony desteğiyle iletişime geçin."
+ },
+ "Sony|Orange LED solid": {
+  "title": "Uyku veya açma/kapama zamanlayıcısı etkin",
+  "causes": [
+   "Televizyonda uyku zamanlayıcısı veya açma/kapama zamanlayıcısı ayarlı."
+  ],
+  "steps": [
+   "Televizyonun Ayarlar menüsünü açın.",
+   "Uyku zamanlayıcısını veya açma/kapama zamanlayıcısını bulun.",
+   "Zamanlayıcıyı kapatın veya saati değiştirin.",
+   "Işığın sönüp sönmediğini kontrol edin."
+  ],
+  "technician": "Zamanlayıcı ayarlı değilken ışık yanık kalmıyorsa servise gerek yoktur."
+ },
+ "Sony|Orange LED blinking": {
+  "title": "Yazılım güncellemesi sürüyor veya kablo gevşek",
+  "causes": [
+   "Yazılım güncellemesi devam ediyor.",
+   "Ayrı medya kutusu bulunan modellerde cihazlar arasındaki kablo gevşemiş olabilir."
+  ],
+  "steps": [
+   "Televizyonu kapatmayın ve fişini çekmeyin; birkaç dakika bekleyin.",
+   "Güncelleme sırasında kumanda çalışmaz.",
+   "Medya kutulu modellerde cihazlar arasındaki kablonun sıkıca takılı olduğunu kontrol edin."
+  ],
+  "technician": "Uzun süre yanıp sönerse Sony desteğiyle iletişime geçin."
+ },
+ "Sony|Green LED blinking": {
+  "title": "Normal açılış veya televizyon açılmıyor",
+  "causes": [
+   "Televizyon açılırken olağandır.",
+   "Hiç durmuyorsa veya televizyon sürekli açılıp kapanıyorsa arıza olabilir."
+  ],
+  "steps": [
+   "Televizyonun açılışı bitmesini bekleyin; yanıp sönme durmalıdır.",
+   "Yanıp sönmeye devam ediyorsa televizyonun fişini 3 dakika boyunca çekin.",
+   "Fişi takın ve tekrar deneyin."
+  ],
+  "technician": "Televizyon yine açılmıyorsa Sony servisi gerekir."
+ },
+ "Sony|White LED blinking": {
+  "title": "Projeksiyon TV lambasının değiştirilmesi gerekiyor",
+  "causes": [
+   "Lamba yanmış (yalnızca projeksiyon TV'ler ve projektörler için).",
+   "Lamba kapağı açık olabilir."
+  ],
+  "steps": [
+   "Cihazı kapatın ve lambanın soğumasını bekleyin.",
+   "Lamba kapaklarının kapalı ve sağlam takılı olduğundan emin olun.",
+   "Lamba camına dokunmayın; dokunduysanız alkollü mendille silin.",
+   "Lambanın değiştirilmesini ayarlayın."
+  ],
+  "technician": "Yedek lamba almak için Sony desteğiyle iletişime geçin."
+ },
+ "Sony|Red LED blinking with 3-second pause": {
+  "title": "Tekrarlayan kırmızı yanıp sönmelerle gösterilen arıza",
+  "causes": [
+   "Televizyon bir arıza tespit etti ve yanıp sönme sayısını gösteriyor."
+  ],
+  "steps": [
+   "Her duraklama arasındaki yanıp sönmeleri sayın.",
+   "Televizyonun fişini çekin, 2 dakika bekleyin, fişi takıp televizyonu açın.",
+   "Tekrar ederse fişini çekin ve yanıp sönme sayısıyla Sony'yi arayın."
+  ],
+  "technician": "Yanıp sönme sayısını Sony desteğine bildirin."
+ },
+ "Panasonic|Red LED blinking": {
+  "title": "Televizyon bir hata algıladı (SOS)",
+  "causes": [
+   "Televizyon dahili bir hata tespit etti.",
+   "Panasonic Fire TV modelleri için geçerlidir."
+  ],
+  "steps": [
+   "Televizyonun fişini birkaç dakika boyunca çekin.",
+   "Fişi tekrar takın ve televizyonu açın.",
+   "Hâlâ yanıp sönüyorsa Panasonic'e onarım talebi gönderin."
+  ],
+  "technician": "Yanıp sönme devam ederse Panasonic'e onarım destek talebi gönderin."
+ },
+ "Panasonic|Orange LED solid": {
+  "title": "Panel bakımı veya ağ görevi sürerken bekleme modu",
+  "causes": [
+   "Panel bakımı veya bir ağ işlevi devam ediyor."
+  ],
+  "steps": [
+   "Panel bakımı sırasında ekrana dokunmayın veya basmayın.",
+   "Görev bitene kadar bekleyin.",
+   "Tekrar ederse Panasonic panel bakımı makalesini okuyun."
+  ],
+  "technician": "Işık uzun süre turuncu kalırsa Panasonic desteğiyle iletişime geçin."
+ },
+ "Panasonic|Orange LED blinking": {
+  "title": "Panel bakımı veya ağ güncellemesi sürüyor",
+  "causes": [
+   "Panel bakımı sürüyor.",
+   "Ağ bağlantısı veya ayar güncellemesi devam ediyor."
+  ],
+  "steps": [
+   "Televizyonun fişini takılı bırakın ve işlemin bitmesini bekleyin.",
+   "Televizyonu açıp kapattıktan sonra LED yine turuncu olursa bakım tamamlanmamıştır.",
+   "Kapatmadan önce işlemin tamamlanmasını bekleyin."
+  ],
+  "technician": "Hiç durmuyorsa Panasonic desteğiyle iletişime geçin."
+ },
+ "Panasonic|Green LED blinking": {
+  "title": "Televizyon başlıyor veya Bluetooth eşleştirmesi bekliyor",
+  "causes": [
+   "Televizyon açılıyor.",
+   "Eşleşecek bir Bluetooth cihazını bekliyor."
+  ],
+  "steps": [
+   "Açılışın bitmesini bekleyin.",
+   "Eşleştirme yapılıyorsa eşleştirmeyi diğer cihazda tamamlayın.",
+   "Hiç durmuyorsa fişi kısa süre çekin ve yeniden deneyin."
+  ],
+  "technician": "Televizyonun açılışı hiç tamamlanmıyorsa Panasonic desteğiyle iletişime geçin."
+ },
+ "Philips|Standby light blinks red": {
+  "title": "Philips TV bir arıza bildiriyor",
+  "causes": [
+   "Televizyon bir arıza algıladı.",
+   "Televizyon aşırı ısınmış olabilir."
+  ],
+  "steps": [
+   "Televizyonun fişini duvardaki prizden çekin.",
+   "Tamamen soğumasını bekleyin.",
+   "Güç kablosunu tekrar takın.",
+   "Televizyonu yeniden açın."
+  ],
+  "technician": "Kırmızı ışık yine yanıp sönerse Philips Müşteri Hizmetleri ile iletişime geçin."
+ },
+ "Philips|Front LED blinks in a repeating pattern": {
+  "title": "Televizyon açılmıyor, LED sürekli yanıp sönüyor",
+  "causes": [
+   "Televizyon açılmıyor; görüntü ve ses yok.",
+   "Geçici bir güç aksaklığı."
+  ],
+  "steps": [
+   "Güç döngüsü yapın: televizyonun fişini çekin ve birkaç dakika bekleyin.",
+   "Fişi takın ve tekrar deneyin.",
+   "Başka bir prize takmayı deneyin."
+  ],
+  "technician": "Hâlâ yanıp sönüyorsa Philips TV desteğiyle iletişime geçin."
+ },
+ "LG|Error 106": {
+  "title": "Televizyon ağa bağlı değil",
+  "causes": [
+   "Televizyonun çalışan bir internet bağlantısı yok.",
+   "Wi-Fi adaptörü veya yönlendirici ayarları uygun değil."
+  ],
+  "steps": [
+   "Aynı ağda başka bir cihazı deneyin.",
+   "Yönlendiriciyi ve televizyonu yeniden başlatın, ardından Wi-Fi şifresini yeniden girin.",
+   "Wi-Fi gelişmiş ayarlarında DNS'i elle 8.8.8.8 olarak ayarlayın.",
+   "Televizyon destekliyorsa 5 GHz kullanın ve yönlendiriciyi yaklaştırın."
+  ],
+  "technician": "Hiçbir şey işe yaramazsa Wi-Fi modülünün değiştirilmesi gerekebilir; LG servisiyle iletişime geçin."
+ }
+}

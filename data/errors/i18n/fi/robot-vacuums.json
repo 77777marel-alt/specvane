@@ -1,0 +1,1394 @@
+{
+ "iRobot|Error 1": {
+  "title": "Roomba jumissa tai pyörä roikkuu alhaalla",
+  "causes": [
+   "Robotti on jäänyt jumiin johonkin.",
+   "Sivupyörä roikkuu alhaalla tai on jumissa."
+  ],
+  "steps": [
+   "Nosta robotti ja aseta se uuteen paikkaan.",
+   "Aloita uudelleen painamalla CLEAN.",
+   "Pyöritä molempia sivupyöriä käsin ja ravistele pois lika."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Error 2": {
+  "title": "Harjatelat eivät pyöri",
+  "causes": [
+   "Hiukset tai lika tukkivat harjatelat (harjat)."
+  ],
+  "steps": [
+   "Ota pölysäiliö pois ja avaa harjatelojen kehys.",
+   "Irrota harjatelat ja leikkaa pois hiukset ja langat.",
+   "Aseta ne takaisin ja paina CLEAN."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Error 5": {
+  "title": "Sivupyörä jumissa",
+  "causes": [
+   "Sivupyörä ei pyöri vapaasti lian tai hiusten vuoksi."
+  ],
+  "steps": [
+   "Käännä robotti ylösalaisin.",
+   "Pyöritä kumpaakin sivupyörää ja poista lika pyörän syvennyksestä.",
+   "Aseta robotti lattialle ja paina CLEAN."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Error 6": {
+  "title": "Putoamisanturit likaiset tai robotti reunan yläpuolella",
+  "causes": [
+   "Pohjassa olevat putoamisanturit ovat likaiset.",
+   "Robotti on reunan yläpuolella tai erittäin tummalla lattialla."
+  ],
+  "steps": [
+   "Siirrä robotti toiseen paikkaan.",
+   "Pyyhi pohjassa olevat putoamisanturit kuivalla liinalla.",
+   "Käynnistä uudelleen painamalla CLEAN."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Error 7": {
+  "title": "Sivupyörä jumissa",
+  "causes": [
+   "Sivupyörä on jumissa lian tai hiusten vuoksi."
+  ],
+  "steps": [
+   "Käännä robotti ylösalaisin ja pyöritä kumpaakin sivupyörää.",
+   "Poista hiukset ja lika pyörien syvennyksistä.",
+   "Aseta robotti alas ja paina CLEAN."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Error 9": {
+  "title": "Puskuri painuksissa tai puskurianturi likainen",
+  "causes": [
+   "Puskuri on painunut sisään tai jumissa.",
+   "Puskurianturi on likainen."
+  ],
+  "steps": [
+   "Naputa puskuria useita kertoja, jotta lika irtoaa.",
+   "Pyyhi puskurin reunat kuivalla liinalla.",
+   "Käynnistä robotti uudelleen."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Error 10": {
+  "title": "Sivupyörä jumissa tai puskuri ei rekisteröi",
+  "causes": [
+   "Sivupyörä on jumissa.",
+   "Puskuri ei havaitse esteitä."
+  ],
+  "steps": [
+   "Pyöritä sivupyöriä ja puhdista pyörien syvennykset.",
+   "Naputa puskuria, jotta lika irtoaa.",
+   "Yritä uudelleen painamalla CLEAN."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Error 11": {
+  "title": "Roomban imujärjestelmän virhe",
+  "causes": [
+   "Imuri tai pölysäiliöjärjestelmä on viallinen."
+  ],
+  "steps": [
+   "Ota pölysäiliö pois ja tyhjennä se.",
+   "Puhdista suodatin ja tarkista, että säiliö on kunnolla paikallaan.",
+   "Käynnistä robotti uudelleen ja katso Wi-Fi-malleissa apua iRobot HOME -sovelluksesta."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Error 14": {
+  "title": "Roomba ei havaitse pölysäiliötä",
+  "causes": [
+   "Pölysäiliötä ei ole asennettu oikein.",
+   "Pölysäiliön kontaktit ovat likaiset."
+  ],
+  "steps": [
+   "Tarkista, että pölysäiliö on asennettu kokonaan.",
+   "Pyyhi säiliön ja robotin kontaktit kevyesti kostutetulla melamiinisienellä.",
+   "Jos ongelma pysyy, tarvitset ehkä uuden pölysäiliön."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Error 18": {
+  "title": "Roomba ei pääse takaisin telakkaan tai lähtöpisteeseen",
+  "causes": [
+   "Telakassa ei ole virtaa tai se on siirretty.",
+   "Likaiset latauskontaktit tai anturit tai jumittuneet pyörät."
+  ],
+  "steps": [
+   "Tarkista, että telakassa on virta ja merkkivalo palaa.",
+   "Vapauta alue ja pyyhi kontaktit ja anturit kuivalla tai kevyesti kostealla liinalla.",
+   "Pyöritä pyöriä ja käynnistä sitten robotti ja telakka uudelleen.",
+   "Siirrä telakka lähemmäs siivousaluetta, jos se on kantaman ulkopuolella."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Error 1010": {
+  "title": "Roomba ei löydä telakkaansa tai pääse sinne",
+  "causes": [
+   "Tie on tukossa tai ovi on kiinni.",
+   "Telakka on siirretty tai irrotettu sähköstä.",
+   "Valo tai heijastukset häiritsevät telakoitumisantureita."
+  ],
+  "steps": [
+   "Vapauta reitti ja avaa ovet.",
+   "Käynnistä uudelleen pitämällä virtapainiketta painettuna 10 sekuntia ja aja sitten uudelleen.",
+   "Puhdista robotin ja telakan harjat, pyörät ja anturit.",
+   "Jos ongelma pysyy, poista kartta ja anna robotin kartoittaa alue uudelleen."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Charging error 1": {
+  "title": "Roomba ei havaitse akkua",
+  "causes": [
+   "Akku ei ole paikallaan tai sitä ei havaita."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Ota akku pois.",
+   "Asenna se uudelleen tiukasti.",
+   "Yritä ladata uudelleen."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Charging error 2": {
+  "title": "Akun ylivirran latausvika",
+  "causes": [
+   "Akku ei ehkä ole aito iRobot-akku.",
+   "Laitteessa voi olla nestevaurio."
+  ],
+  "steps": [
+   "Tarkista, että käytät aitoa iRobotin litiumioniakkua.",
+   "Tarkista, näkyykö nestevaurion merkkejä.",
+   "Älä lataa, jos akku näyttää vaurioituneelta."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Charging error 3": {
+  "title": "Latausjärjestelmän vika",
+  "causes": [
+   "Latausjärjestelmässä on vika, mahdollisesti nestevaurion vuoksi."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Yritä ladata uudelleen.",
+   "Tarkista nestevaurion varalta.",
+   "Pidä telakka ja robotti kuivina."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Charging error 4": {
+  "title": "Latausvirta on pieni tai puuttuu",
+  "causes": [
+   "Robotin tai telakan latauskontaktit ovat likaiset."
+  ],
+  "steps": [
+   "Irrota telakka sähköstä.",
+   "Pyyhi molempien latauskontaktit kevyesti kostutetulla melamiinisienellä.",
+   "Yritä ladata uudelleen."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Charging error 6": {
+  "title": "Akku on liian lämmin tai kylmä ladattavaksi",
+  "causes": [
+   "Akku on turvallisen latauslämpötilan ulkopuolella."
+  ],
+  "steps": [
+   "Siirrä robotti huoneenlämpöiseen paikkaan.",
+   "Odota, että se saavuttaa huoneenlämmön.",
+   "Yritä ladata uudelleen."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Charging error 8": {
+  "title": "Robotti ei saa yhteyttä akkuun",
+  "causes": [
+   "Akku ei ehkä ole aito tai se on huonosti paikallaan."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Varmista, että akku on aito iRobot-akku.",
+   "Poista ja asenna se uudelleen.",
+   "Yritä ladata uudelleen."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Charging error 9": {
+  "title": "Akun vika",
+  "causes": [
+   "Akku on vioittunut tai ei ole aito."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Varmista, että akku on aito.",
+   "Poista ja asenna se uudelleen.",
+   "Jos virhe toistuu, varaudu vaihtamaan akku."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Charging error 11": {
+  "title": "Akun laitteistovika",
+  "causes": [
+   "Akussa on laitteistovika tai se ei ole aito."
+  ],
+  "steps": [
+   "Varmista, että akku on aito.",
+   "Poista ja asenna se uudelleen.",
+   "Vaihda akku, jos virhe palaa."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Charging error 20": {
+  "title": "Akkuvika tai akku ei ole valmis latautumaan",
+  "causes": [
+   "Akussa on vika tai lataus ei voi alkaa."
+  ],
+  "steps": [
+   "Pidä akku pois robotista 15 minuuttia.",
+   "Asenna se takaisin ja yritä ladata.",
+   "Vaihda akku, jos ongelma pysyy."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Charging error 21": {
+  "title": "Telakoitui, mutta ei latautunut",
+  "causes": [
+   "Latauskontaktit ovat likaiset."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Irrota telakka sähköstä.",
+   "Pyyhi robotin ja telakan kontaktit kevyesti kostutetulla melamiinisienellä.",
+   "Telakoi robotti uudelleen."
+  ],
+  "technician": "Jos virhe palaa näiden tarkistusten jälkeen, ota yhteys iRobotin asiakaspalveluun ja kerro robotin sarjanumero."
+ },
+ "iRobot|Error 453": {
+  "title": "Telakka ei pääse kohdistumaan robotin kanssa",
+  "causes": [
+   "Moppien pesutela tai pölysäiliö ei ole paikallaan.",
+   "Jokin tukkii telakan suuttimen."
+  ],
+  "steps": [
+   "Asenna moppien pesutela uudelleen.",
+   "Varmista, että pölysäiliö on asennettu, ja puhdista suutinkotelo.",
+   "Tarkista, että latauskontaktien painikkeet liikkuvat vapaasti, ja käynnistä sitten robotti ja telakka uudelleen."
+  ],
+  "technician": "Jos telakan virhe palaa näiden vaiheiden jälkeen, ota yhteys iRobotin asiakaspalveluun; telakka voi tarvita huoltoa."
+ },
+ "iRobot|Error 511": {
+  "title": "Likaisen veden säiliön anturin ongelma",
+  "causes": [
+   "Likaisen veden säiliö ei ole kunnolla paikallaan."
+  ],
+  "steps": [
+   "Poista likaisen veden säiliö ja aseta se uudelleen.",
+   "Irrota telakka sähköstä muutamaksi sekunniksi ja kytke se takaisin.",
+   "Yritä uudelleen."
+  ],
+  "technician": "Jos telakan virhe palaa näiden vaiheiden jälkeen, ota yhteys iRobotin asiakaspalveluun; telakka voi tarvita huoltoa."
+ },
+ "iRobot|Error 512": {
+  "title": "Likaisen veden poisto tukossa",
+  "causes": [
+   "Roskat tukkivat pesualtaiden poistoaukon."
+  ],
+  "steps": [
+   "Pyyhi molemmat altaat kuivalla liinalla.",
+   "Puhdista poistoaukko.",
+   "Käytä sitkeään likaan miedosti saippuaa ja sientä."
+  ],
+  "technician": "Jos telakan virhe palaa näiden vaiheiden jälkeen, ota yhteys iRobotin asiakaspalveluun; telakka voi tarvita huoltoa."
+ },
+ "iRobot|Error 516": {
+  "title": "Moppien pesutela jumissa",
+  "causes": [
+   "Jokin estää telan pyörimisen."
+  ],
+  "steps": [
+   "Ota tela pois ja poista kaikki esteet.",
+   "Aseta se takaisin.",
+   "Käynnistä telakka uudelleen irrottamalla se sähköstä muutamaksi sekunniksi."
+  ],
+  "technician": "Jos telakan virhe palaa näiden vaiheiden jälkeen, ota yhteys iRobotin asiakaspalveluun; telakka voi tarvita huoltoa."
+ },
+ "iRobot|Error 517": {
+  "title": "Pesualtaan ylivuoto",
+  "causes": [
+   "Altaassa on liikaa likaista vettä."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Tyhjennä ylivuotoallas kuivalla liinalla.",
+   "Puhdista molemmat altaat.",
+   "Yritä uudelleen."
+  ],
+  "technician": "Jos telakan virhe palaa näiden vaiheiden jälkeen, ota yhteys iRobotin asiakaspalveluun; telakka voi tarvita huoltoa."
+ },
+ "iRobot|Error 518": {
+  "title": "Moppien pesutela puuttuu",
+  "causes": [
+   "Tela ei ole telakassa."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Aseta tela telakkaan.",
+   "Jos se on paikallaan, poista se ja asenna uudelleen.",
+   "Käynnistä telakka uudelleen ja yritä pesua uudelleen."
+  ],
+  "technician": "Jos telakan virhe palaa näiden vaiheiden jälkeen, ota yhteys iRobotin asiakaspalveluun; telakka voi tarvita huoltoa."
+ },
+ "iRobot|Error 650": {
+  "title": "Puhtaan veden säiliö puuttuu",
+  "causes": [
+   "Puhtaan veden säiliö ei ole paikallaan tai se on tukossa."
+  ],
+  "steps": [
+   "Telakoi robotti ja tarkista valorengas.",
+   "Poista kaikki, mikä tukkii säiliön.",
+   "Täytä säiliö ja asenna se takaisin ja käynnistä sitten telakka uudelleen."
+  ],
+  "technician": "Jos telakan virhe palaa näiden vaiheiden jälkeen, ota yhteys iRobotin asiakaspalveluun; telakka voi tarvita huoltoa."
+ },
+ "iRobot|Error 651": {
+  "title": "Puhtaan veden säiliön vesitaso liian matala",
+  "causes": [
+   "Puhdasvesisäiliö on tyhjä tai sen tasoa ei luettu oikein."
+  ],
+  "steps": [
+   "Täytä puhdasvesisäiliö ja aseta se takaisin.",
+   "Jos se oli täynnä, tyhjennä ja täytä se silti uudelleen.",
+   "Tarkista, että robotti on telakoitunut kunnolla."
+  ],
+  "technician": "Jos telakan virhe palaa näiden vaiheiden jälkeen, ota yhteys iRobotin asiakaspalveluun; telakka voi tarvita huoltoa."
+ },
+ "iRobot|Error 653": {
+  "title": "Likaisen veden säiliö puuttuu",
+  "causes": [
+   "Likaisen veden säiliö ei ole paikallaan tai se on tukossa."
+  ],
+  "steps": [
+   "Tarkista, että robotti on telakassa.",
+   "Poista likaisen veden säiliö ja tarkista, onko siinä esteitä.",
+   "Aseta tyhjä säiliö takaisin ja käynnistä telakka uudelleen."
+  ],
+  "technician": "Jos telakan virhe palaa näiden vaiheiden jälkeen, ota yhteys iRobotin asiakaspalveluun; telakka voi tarvita huoltoa."
+ },
+ "iRobot|Error 654": {
+  "title": "Likaisen veden säiliö liian täynnä",
+  "causes": [
+   "Likaisen veden säiliö on tyhjennettävä."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Tyhjennä ja puhdista likaisen veden säiliö.",
+   "Aseta se takaisin.",
+   "Tarkista, että robotti on telakassa, ja yritä uudelleen."
+  ],
+  "technician": "Jos telakan virhe palaa näiden vaiheiden jälkeen, ota yhteys iRobotin asiakaspalveluun; telakka voi tarvita huoltoa."
+ },
+ "iRobot|Error 663": {
+  "title": "Puhtaan veden taso laskee, mahdollinen vuoto",
+  "causes": [
+   "Telakasta voi vuotaa vettä."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Irrota telakka sähköstä.",
+   "Poista molemmat säiliöt.",
+   "Kallista telakkaa tarkistaaksesi, onko sen alla vettä, ja siirrä se kuivalle alueelle."
+  ],
+  "technician": "Jos telakan virhe palaa näiden vaiheiden jälkeen, ota yhteys iRobotin asiakaspalveluun; telakka voi tarvita huoltoa."
+ },
+ "iRobot|Error 668": {
+  "title": "Moppia ei ole kiinnitetty",
+  "causes": [
+   "Mop puuttuu tai sitä ei havaita."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Kiinnitä mop.",
+   "Jos mop on paikallaan, poista se, kuivaa se ja kiinnitä uudelleen.",
+   "Kokeile toista moppia."
+  ],
+  "technician": "Jos telakan virhe palaa näiden vaiheiden jälkeen, ota yhteys iRobotin asiakaspalveluun; telakka voi tarvita huoltoa."
+ },
+ "Roborock|Error 1": {
+  "title": "LiDAR-torni tai laser tukossa",
+  "causes": [
+   "Jokin tukkii tai jumittaa päällä olevan lasertornin."
+  ],
+  "steps": [
+   "Sammuta robotti.",
+   "Tarkista, onko tornin ympärille juuttunut jotain, ja käännä sitä varovasti käsin.",
+   "Käynnistä uudelleen ja yritä uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Roborock|Error 2": {
+  "title": "Puskuri jumissa",
+  "causes": [
+   "Lika tai roskat pitävät puskurin paikallaan."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Puhdista puskurin ympäristö.",
+   "Naputa sitä varovasti, jotta se irtoaa.",
+   "Käynnistä robotti uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Roborock|Error 3": {
+  "title": "Pyörät ilmassa",
+  "causes": [
+   "Robotti on nostettu tai sen pyörät roikkuvat alhaalla."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Aseta robotti lattialle.",
+   "Tarkista, ettei mikään pyörä roiku reunan yli.",
+   "Aloita siivous uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Roborock|Error 4": {
+  "title": "Putoamisanturin virhe",
+  "causes": [
+   "Putoamisanturi on likainen tai robotti on lähellä reunaa."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Pyyhi pohjassa olevat putoamisanturit.",
+   "Siirrä robotti pois reunoilta.",
+   "Käynnistä se uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Roborock|Error 5": {
+  "title": "Pääharja jumissa",
+  "causes": [
+   "Hiukset tai roskat ovat kietoutuneet pääharjan ympärille."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Irrota pääharja.",
+   "Leikkaa pois sotkeutuneet hiukset ja puhdista laakerit.",
+   "Asenna harja takaisin ja käynnistä uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Roborock|Error 6": {
+  "title": "Sivuharja jumissa",
+  "causes": [
+   "Hiukset tai roskat ovat kietoutuneet sivuharjan ympärille."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Irrota sivuharja.",
+   "Puhdista hiukset ja lika.",
+   "Asenna se takaisin ja käynnistä uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Roborock|Error 7": {
+  "title": "Pyörät jumissa",
+  "causes": [
+   "Jokin jumittaa vetopyörän."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Siirrä robotti vapaalle paikalle.",
+   "Tarkista, onko pyörissä hiuksia tai roskia.",
+   "Käynnistä robotti uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Roborock|Error 8": {
+  "title": "Robotti jumissa",
+  "causes": [
+   "Huonekalut tai johdot ovat ansassa robotin ympärillä."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Poista esteet robotin läheltä.",
+   "Siirrä se avoimelle alueelle.",
+   "Aloita siivous uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Roborock|Error 9": {
+  "title": "Pölysäiliö puuttuu",
+  "causes": [
+   "Pölysäiliötä tai suodatinta ei ole asennettu."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Asenna pölysäiliö.",
+   "Varmista, että suodatin on paikallaan.",
+   "Käynnistä uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Roborock|Error 12": {
+  "title": "Akku lähes tyhjä",
+  "causes": [
+   "Akku on liian tyhjä jatkamiseen."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Aseta robotti telakkaan.",
+   "Anna sen latautua.",
+   "Yritä siivousta uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Roborock|Error 13": {
+  "title": "Latausvirhe",
+  "causes": [
+   "Robotin tai telakan latauskontaktit ovat likaiset."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Pyyhi latauskontaktit.",
+   "Tarkista, että telakassa on virta.",
+   "Telakoi robotti uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Roborock|Error 14": {
+  "title": "Akkuvirhe",
+  "causes": [
+   "Akku voi olla viallinen tai turvallisen lämpötila-alueen ulkopuolella."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Anna robotin saavuttaa huoneenlämpö.",
+   "Yritä ladata uudelleen.",
+   "Käynnistä se uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Roborock|Error 15": {
+  "title": "Seinäanturi likainen",
+  "causes": [
+   "Pöly peittää seinäanturin."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Pyyhi seinäanturi kuivalla liinalla.",
+   "Käynnistä robotti uudelleen.",
+   "Aja lyhyt koesiivous."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Roborock|Error 16": {
+  "title": "Robotti kallellaan",
+  "causes": [
+   "Robotti on rinteellä tai kallellaan."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Siirrä se tasaiselle lattialle.",
+   "Tarkista, ettei se ole maton reunalla tai askelmalla.",
+   "Käynnistä uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Roborock|Error 17": {
+  "title": "Sivuharjan virhe",
+  "causes": [
+   "Sivuharjajärjestelmässä on vika."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Nollaa robotti.",
+   "Tarkista, että sivuharja pyörii vapaasti.",
+   "Yritä uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Roborock|Error 18": {
+  "title": "Tuulettimen virhe",
+  "causes": [
+   "Imutuulettimessa on vika."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Nollaa robotti.",
+   "Tyhjennä pölysäiliö ja puhdista suodatin.",
+   "Yritä uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Roborock|Error 21": {
+  "title": "Pystypuskuri painettuna",
+  "causes": [
+   "Yläpuskuri on painettuna tai jumissa."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Siirrä robotti uuteen paikkaan.",
+   "Tarkista, ettei mikään paina puskuria.",
+   "Yritä uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Roborock|Error 22": {
+  "title": "Telakan paikannusanturin virhe",
+  "causes": [
+   "Telakan löytävä anturi on likainen tai tukossa."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Puhdista telakan paikannusanturi.",
+   "Vapauta alue telakan ympäriltä.",
+   "Yritä uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Roborock|Error 23": {
+  "title": "Ei päässyt takaisin telakkaan",
+  "causes": [
+   "Telakan merkkivalo on likainen tai tukossa."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Puhdista telakan paikannusmerkkivalo.",
+   "Poista esteet telakan läheltä.",
+   "Yritä uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Roborock|Error 27": {
+  "title": "VibraRise-järjestelmä jumissa",
+  "causes": [
+   "Moppien nostojärjestelmä on tukossa."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Tarkista, onko mopin levyn ympärillä esteitä.",
+   "Poista roskat.",
+   "Käynnistä uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Roborock|Error 28": {
+  "title": "Robotti matolla",
+  "causes": [
+   "Mop on päällä ja robotti on matolla."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Siirrä robotti kovalle lattialle.",
+   "Irrota mop, jos haluat siivota maton.",
+   "Yritä uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Roborockin asiakastukeen."
+ },
+ "Xiaomi|Error 1": {
+  "title": "Puskuri jumissa tai likainen",
+  "causes": [
+   "Roskat pitävät puskuria paikallaan."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Puhdista puskuri.",
+   "Naputa sitä varovasti, jotta roskat irtoavat.",
+   "Jos ongelma pysyy, siirrä robotti muualle ja käynnistä uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Xiaomin huoltoon."
+ },
+ "Xiaomi|Error 2": {
+  "title": "Pyörä irti maasta",
+  "causes": [
+   "Pyörä roikkuu alhaalla."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Aseta robotti tasaiselle alustalle.",
+   "Käynnistä se uudelleen.",
+   "Tarkista, ettei se ole reunalla."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Xiaomin huoltoon."
+ },
+ "Xiaomi|Error 3": {
+  "title": "Putoamisanturi likainen tai robotti nostettu",
+  "causes": [
+   "Putoamisanturi on likainen tai robotti on osittain nostettu."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Puhdista putoamisanturi.",
+   "Aseta se tasaiselle alustalle.",
+   "Käynnistä se uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Xiaomin huoltoon."
+ },
+ "Xiaomi|Error 4": {
+  "title": "Pääharja tukossa",
+  "causes": [
+   "Roskia on juuttunut pääharjaan."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Irrota pääharja.",
+   "Puhdista harjakset ja laakerit.",
+   "Asenna takaisin ja käynnistä uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Xiaomin huoltoon."
+ },
+ "Xiaomi|Error 5": {
+  "title": "Sivuharja tukossa",
+  "causes": [
+   "Roskia on juuttunut sivuharjaan."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Irrota sivuharja.",
+   "Puhdista se.",
+   "Asenna takaisin ja käynnistä uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Xiaomin huoltoon."
+ },
+ "Xiaomi|Error 6": {
+  "title": "Roskia pääpyörän ympärillä",
+  "causes": [
+   "Hiukset tai roskat ovat kietoutuneet pääpyörän ympärille."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Tarkista molemmat pyörät.",
+   "Poista sotkeutunut materiaali.",
+   "Siirrä robotti uuteen paikkaan ja käynnistä uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Xiaomin huoltoon."
+ },
+ "Xiaomi|Error 7": {
+  "title": "Robotti takertunut tai jumissa",
+  "causes": [
+   "Robotti on jäänyt kiinni esteeseen."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Poista esteet sen ympäriltä.",
+   "Siirrä se avoimelle lattialle.",
+   "Käynnistä uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Xiaomin huoltoon."
+ },
+ "Xiaomi|Error 8": {
+  "title": "Pölysäiliö tai suodatin ei ole kunnolla paikallaan",
+  "causes": [
+   "Pölytila tai suodatin on asennettu väärin."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Asenna pölysäiliö ja suodatin uudelleen oikein.",
+   "Jos ongelma pysyy, vaihda suodatin.",
+   "Käynnistä uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Xiaomin huoltoon."
+ },
+ "Xiaomi|Error 9": {
+  "title": "Voimakas magneettikenttä havaittu",
+  "causes": [
+   "Robotti on lähellä virtuaaliseinänauhaa."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Siirrä robotti pois virtuaaliseinältä.",
+   "Käynnistä se uudelleen.",
+   "Tarkista nauhan sijainti."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Xiaomin huoltoon."
+ },
+ "Xiaomi|Error 10": {
+  "title": "Latausvika",
+  "causes": [
+   "Latauskontaktit ovat likaiset."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Pyyhi telakan ja robotin kontaktit kuivalla liinalla.",
+   "Aseta robotti telakkaan uudelleen.",
+   "Tarkista, että telakassa on virta."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Xiaomin huoltoon."
+ },
+ "Xiaomi|Error 11": {
+  "title": "Akku liian kuuma tai kylmä",
+  "causes": [
+   "Akun lämpötila on sallitun alueen ulkopuolella."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Odota, että akun lämpötila palaa normaaliksi.",
+   "Pidä robotti poissa lämmön tai kylmän läheltä.",
+   "Yritä uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Xiaomin huoltoon."
+ },
+ "Xiaomi|Error 12": {
+  "title": "Rajoitettu alue tai virtuaaliseinä havaittu",
+  "causes": [
+   "Robotti meni rajoitetulle alueelle."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Siirrä se pois rajausnauhan alueelta.",
+   "Käynnistä se uudelleen.",
+   "Tarkista nauhan sijainti."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Xiaomin huoltoon."
+ },
+ "Xiaomi|Error 13": {
+  "title": "Visuaalinen navigointianturi likainen",
+  "causes": [
+   "Navigointianturi on likainen."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Pyyhi anturi pehmeällä kuivalla liinalla.",
+   "Käynnistä robotti uudelleen.",
+   "Aja lyhyt siivous."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Xiaomin huoltoon."
+ },
+ "Xiaomi|Error 14": {
+  "title": "Sisäinen virhe",
+  "causes": [
+   "Järjestelmässä on sisäinen vika."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Nollaa järjestelmä.",
+   "Käynnistä robotti uudelleen.",
+   "Yritä siivousta uudelleen."
+  ],
+  "technician": "Jos virhe palaa puhdistuksen ja nollauksen jälkeen, ota yhteys Xiaomin huoltoon."
+ },
+ "eufy|Error 1": {
+  "title": "Etupuskuri jumissa",
+  "causes": [
+   "Lika tai esine pitää puskuria paikallaan."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Naputa puskuria ja tarkista, että se liikkuu.",
+   "Jos se on jumissa, irrota se ja asenna uudelleen.",
+   "Käynnistä uudelleen."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 2": {
+  "title": "Pyörä jumissa",
+  "causes": [
+   "Pyörä on tukossa."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Poista roskat pyörän ja rungon väliltä.",
+   "Pyöritä pyörää käsin.",
+   "Siirrä robotti ja yritä uudelleen."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 3": {
+  "title": "Sivuharja jumissa",
+  "causes": [
+   "Jokin on takertunut sivuharjaan."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Poista esine.",
+   "Tarkista, että harja pyörii vapaasti.",
+   "Yritä uudelleen."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 4": {
+  "title": "Harjatela jumissa",
+  "causes": [
+   "Hiukset tai roskat ovat kietoutuneet harjatelan ympärille."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Irrota harjatela.",
+   "Poista roskat.",
+   "Lisää imutehoa lattioilla, joilla on paljon hiuksia."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 5": {
+  "title": "Robotti jumissa, poista esteet",
+  "causes": [
+   "Esteet tukkivat robotin."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Vapauta alue sen ympäriltä.",
+   "Siirrä se avoimelle paikalle.",
+   "Käynnistä uudelleen."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 6": {
+  "title": "Robotti jumissa, siirrä avoimelle alueelle",
+  "causes": [
+   "Robotti on takertunut esteeseen."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Siirrä se avoimelle alueelle.",
+   "Aloita siivous uudelleen.",
+   "Aseta No-Go Zone, jos se jää aina jumiin samaan paikkaan."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 7": {
+  "title": "Robotti ei kosketa maata",
+  "causes": [
+   "Robotti on nostettu tai reunalla."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Aseta se lattialle uuteen paikkaan.",
+   "Tarkista, että putoamisanturit ovat puhtaat.",
+   "Käynnistä uudelleen."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 8": {
+  "title": "Akku lähes tyhjä, sammuu",
+  "causes": [
+   "Akku on liian tyhjä."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Siirrä robotti asemalle.",
+   "Anna sen latautua.",
+   "Yritä uudelleen.",
+   "Aja lyhyt koesiivous telakan lähellä varmistaaksesi, että koodi on poistunut."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 13": {
+  "title": "Robotti kallellaan",
+  "causes": [
+   "Robotti on rinteellä."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Aseta se tasaiselle alustalle.",
+   "Aloita siivous uudelleen.",
+   "Tarkista, ettei se ole kynnyksellä."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 14": {
+  "title": "Pölysäiliö tai suodatin puuttuu",
+  "causes": [
+   "Pölysäiliötä tai suodatinta ei ole asennettu."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Avaa kansi.",
+   "Asenna pölysäiliö ja suodatin uudelleen.",
+   "Varmista, että suodatin on paikallaan."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 17": {
+  "title": "Meni vahingossa No-Go Zone -alueelle",
+  "causes": [
+   "Robotti on No-Go Zone -alueen sisällä."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Siirrä se alueen ulkopuolelle.",
+   "Aloita siivous uudelleen.",
+   "Tarkista alueet sovelluksesta."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 18": {
+  "title": "Laseranturin kansi voi olla jumissa",
+  "causes": [
+   "Laserin kansi on tukossa."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Poista kaikki, mikä tukkii kannen.",
+   "Paina kantta, kunnes kuulet napsahduksen.",
+   "Käynnistä uudelleen."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 19": {
+  "title": "Laseranturi voi olla jumissa",
+  "causes": [
+   "Anturi ei pääse pyörimään vapaasti."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Sammuta robotti.",
+   "Poista kaikki, mikä estää pyörimisen.",
+   "Käynnistä uudelleen."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 20": {
+  "title": "Laseranturi voi olla tukossa",
+  "causes": [
+   "Anturin päällä on roskia."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Poista roskat anturin päältä.",
+   "Pyyhi varovasti kuivalla liinalla.",
+   "Käynnistä uudelleen."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 21": {
+  "title": "Asemalle paluu epäonnistui",
+  "causes": [
+   "Robotti näkee aseman mutta ei pääse sinne."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Poista esteet aseman ympäriltä.",
+   "Tarkista, että asemassa on virta.",
+   "Lähetä robotti kotiin uudelleen."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 23": {
+  "title": "Lähtöpistettä ei löydy",
+  "causes": [
+   "Siivous ei alkanut asemalta."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Aloita siivous asemalta.",
+   "Pidä asema samassa paikassa.",
+   "Yritä uudelleen."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 26": {
+  "title": "Akku lähes tyhjä, ajastettu siivous epäonnistui",
+  "causes": [
+   "Akku oli liian tyhjä ajastettua ajoa varten."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Lataa robotti.",
+   "Yritä ajastusta uudelleen.",
+   "Pidä se asemalla."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 27": {
+  "title": "Aseman puhdistusalustan vesitaso poikkeava",
+  "causes": [
+   "Puhdistusalustassa on vettä."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Kuivaa alusta kuivalla liinalla.",
+   "Tarkista, onko metallinpaljastimessa vesipisaroita.",
+   "Asenna alusta uudelleen."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 28": {
+  "title": "Aseman puhdistusalustaa ei ole asennettu",
+  "causes": [
+   "Alusta puuttuu tai on löysällä."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Asenna alusta kunnolla.",
+   "Paina, kunnes se on tasaisesti paikallaan.",
+   "Yritä uudelleen."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 29": {
+  "title": "Aseman kansi ei ole kiinni",
+  "causes": [
+   "Kansi on auki."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Sulje aseman kansi kokonaan.",
+   "Tarkista, ettei mikään estä sitä.",
+   "Yritä uudelleen.",
+   "Aja lyhyt koesiivous telakan lähellä varmistaaksesi, että koodi on poistunut."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 30": {
+  "title": "Aseman tulojännite poikkeava",
+  "causes": [
+   "Aseman jännite ei vastaa pistorasiaasi."
+  ],
+  "steps": [
+   "Tarkista, että aseman jännite on oikea (220V tai 110V).",
+   "Käytä sopivaa pistorasiaa.",
+   "Ota yhteys tukeen, jos jännite ei täsmää."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 31": {
+  "title": "Vieras esine imuaukossa",
+  "causes": [
+   "Roskat tukkivat imuaukon."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Irrota harja.",
+   "Puhdista harjan kotelo.",
+   "Tyhjennä pölysäiliö."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 32": {
+  "title": "Moppilevyn pidike jumissa",
+  "causes": [
+   "Moppipidikkeessä on roskia."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Poista roskat.",
+   "Puhdista pidike.",
+   "Yritä uudelleen.",
+   "Aja lyhyt koesiivous telakan lähellä varmistaaksesi, että koodi on poistunut."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "eufy|Error 34": {
+  "title": "Mop on pudonnut",
+  "causes": [
+   "Moppilevy puuttuu tai on löysällä."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Asenna mop uudelleen oikein.",
+   "Tarkista, että se napsahtaa paikalleen.",
+   "Käynnistä uudelleen."
+  ],
+  "technician": "Jos hälytys pysyy näiden vaiheiden jälkeen, ota yhteys eufyn tukeen sähköpostilomakkeella tai live-chatissa."
+ },
+ "Shark|Error 2": {
+  "title": "Harjatela, sivuharja tai pyörä jumissa",
+  "causes": [
+   "Harjatela on tukossa (CLEAN ja ! punaisena).",
+   "Sivuharja on jumissa (DOCK ja ! punaisena).",
+   "Vetopyörä on jumissa (kaikki kolme punaisina)."
+  ],
+  "steps": [
+   "Sammuta robotti.",
+   "Poista roskat harjatelasta, sivuharjoista tai pyöristä valojen osoittamalla tavalla.",
+   "Tarkista, että pyörät pyörivät vapaasti, ja käynnistä sitten uudelleen."
+  ],
+  "technician": "Jos valokuvio palaa, ota yhteys Sharkin asiakaspalveluun."
+ },
+ "Shark|Error 6": {
+  "title": "Etupuskuri voi olla jumissa",
+  "causes": [
+   "Lika pitää puskuria paikallaan (DOCK punaisena vilkkuen)."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Puhdista puskurin ympäristö.",
+   "Paina sitä ja tarkista, että se liikkuu vapaasti.",
+   "Käynnistä uudelleen."
+  ],
+  "technician": "Jos valokuvio palaa, ota yhteys Sharkin asiakaspalveluun."
+ },
+ "Shark|Error 7": {
+  "title": "Putoamisanturin virhe",
+  "causes": [
+   "Putoamisanturit ovat likaiset tai robotti on lähellä reunaa."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Siirrä robotti toiseen paikkaan.",
+   "Pyyhi putoamisanturit.",
+   "Käynnistä uudelleen."
+  ],
+  "technician": "Jos valokuvio palaa, ota yhteys Sharkin asiakaspalveluun."
+ },
+ "Shark|Error 10": {
+  "title": "Robotti jumissa esteessä",
+  "causes": [
+   "Robotti voi olla jumissa (CLEAN punaisena vilkkuen)."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Siirrä se tasaiselle paikalle.",
+   "Poista lähellä olevat esteet.",
+   "Käynnistä uudelleen."
+  ],
+  "technician": "Jos valokuvio palaa, ota yhteys Sharkin asiakaspalveluun."
+ },
+ "Shark|Error 24": {
+  "title": "Akku kriittisen vähissä",
+  "causes": [
+   "Akku on melkein tyhjä."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Aseta robotti telakkaan.",
+   "Tarkista, että telakan latausvalo palaa.",
+   "Anna sen latautua."
+  ],
+  "technician": "Jos valokuvio palaa, ota yhteys Sharkin asiakaspalveluun."
+ },
+ "Shark|Error 26": {
+  "title": "Pölysäiliö tukossa",
+  "causes": [
+   "Telakan tai robotin pölysäiliössä on tukos."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Tarkista molemmat säiliöt tukosten varalta.",
+   "Poista roskat.",
+   "Asenna säiliö takaisin, kunnes se napsahtaa."
+  ],
+  "technician": "Jos valokuvio palaa, ota yhteys Sharkin asiakaspalveluun."
+ },
+ "Ecovacs|Bumper stuck": {
+  "title": "Puskurin jumiutumisen ääni-ilmoitus",
+  "causes": [
+   "Roskat tai suojanauha pitävät puskuria paikallaan."
+  ],
+  "steps": [
+   "Poista törmäyssuojanauha.",
+   "Paina vasenta, keskimmäistä ja oikeaa puskuria ja tarkista, että ne palautuvat.",
+   "Sammuta, käynnistä uudelleen ja testaa."
+  ],
+  "technician": "Jos hälytys palaa, ota yhteys Ecovacsin huoltoon."
+ },
+ "Ecovacs|Laser sensor malfunction": {
+  "title": "Laseranturi ei toimi",
+  "causes": [
+   "Laseryksikkö on likainen tai jumissa."
+  ],
+  "steps": [
+   "Työnnä laseryksikköä varovasti.",
+   "Käännä linssi eteenpäin ja pyyhi puhtaalla liinalla.",
+   "Sammuta, käynnistä uudelleen ja testaa."
+  ],
+  "technician": "Jos hälytys palaa, ota yhteys Ecovacsin huoltoon."
+ },
+ "Ecovacs|Dust bag installation error": {
+  "title": "Pölypussi ei ole oikein paikallaan",
+  "causes": [
+   "Pölypussi ei ole kunnolla paikallaan."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Sammuta ja avaa pölysäiliön kansi.",
+   "Poista pölypussi ja asenna se uudelleen.",
+   "Sulje kansi ja testaa pölynkeräys."
+  ],
+  "technician": "Jos hälytys palaa, ota yhteys Ecovacsin huoltoon."
+ },
+ "Ecovacs|Rotating mop tangled": {
+  "title": "Pyörivä mop on tukossa",
+  "causes": [
+   "Roskat tai hiukset tukkivat pyörivän mopin."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Vedä mop ulos ja irrota se.",
+   "Puhdista mop ja poista roskat kotelosta.",
+   "Asenna takaisin, kunnes se napsahtaa, ja käynnistä uudelleen."
+  ],
+  "technician": "Jos hälytys palaa, ota yhteys Ecovacsin huoltoon."
+ },
+ "Ecovacs|Water tank not installed or low water": {
+  "title": "Puhtaan veden säiliö puuttuu tai on tyhjä",
+  "causes": [
+   "Säiliö on tyhjä, puuttuu tai uimuri on jumissa."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Poista säiliö ja tarkista, että uimuri liikkuu.",
+   "Täytä enimmäisrajaan asti.",
+   "Sulje kansi ja asenna säiliö takaisin."
+  ],
+  "technician": "Jos hälytys palaa, ota yhteys Ecovacsin huoltoon."
+ },
+ "Ecovacs|Dirty water tank not installed": {
+  "title": "Likaisen veden säiliö puuttuu tai ei ole oikein paikallaan",
+  "causes": [
+   "Säiliö ei ole paikallaan tai sitä ei havaita."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Tyhjennä ja huuhtele likaisen veden säiliö.",
+   "Tarkista uimuri ja salvat.",
+   "Asenna se takaisin."
+  ],
+  "technician": "Jos hälytys palaa, ota yhteys Ecovacsin huoltoon."
+ },
+ "Ecovacs|Cleaning sink anomaly": {
+  "title": "Moppien pesualusta ei tyhjene",
+  "causes": [
+   "Roskat tukkivat uimurin tai poistoaukon."
+  ],
+  "steps": [
+   "Tarkista, että alusta on paikallaan.",
+   "Puhdista ylivuotouimuri.",
+   "Suorita tyhjennystoiminto sovelluksessa ja käynnistä sitten asema uudelleen."
+  ],
+  "technician": "Jos hälytys palaa, ota yhteys Ecovacsin huoltoon."
+ },
+ "Ecovacs|Dirty water tank anomaly": {
+  "title": "Likaisen veden säiliön tai poiston ongelma",
+  "causes": [
+   "Tiiviste tai poistoaukko on tukossa."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Tyhjennä säiliö ja puhdista suodatin.",
+   "Sulje kansi tiukasti.",
+   "Puhdista poistoaukko harjalla."
+  ],
+  "technician": "Jos hälytys palaa, ota yhteys Ecovacsin huoltoon."
+ },
+ "Dreame|Dust box error": {
+  "title": "Pölysäiliön hälytys",
+  "causes": [
+   "Pölysäiliö on löysällä.",
+   "Suodatin on väärin päin tai viallinen."
+  ],
+  "steps": [
+   "Aseta pölysäiliö tiukasti paikalleen.",
+   "Käynnistä robotti uudelleen.",
+   "Tarkista, että suodatin on oikein päin, ja vaihda se, jos se näyttää oudolta."
+  ],
+  "technician": "Jos virhe jatkuu, ota yhteys Dreamen asiakaspalveluun."
+ },
+ "Dreame|Laser sensor error": {
+  "title": "Laseretäisyysanturin vika",
+  "causes": [
+   "Laseranturi on pölyinen tai jäykkä."
+  ],
+  "steps": [
+   "Sammuta robotti ja pidä se poissa vedestä, ennen kuin tarkistat sen.",
+   "Päivitä laiteohjelmisto sovelluksessa.",
+   "Naputa kantta varovasti ja poista pöly.",
+   "Pyöritä anturia käsin ja tarkista, että se pyörii."
+  ],
+  "technician": "Jos virhe jatkuu, ota yhteys Dreamen asiakaspalveluun."
+ }
+}

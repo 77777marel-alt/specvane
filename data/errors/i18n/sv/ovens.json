@@ -1,0 +1,1373 @@
+{
+ "Samsung|C-d0": {
+  "title": "Knappen har fastnat eller varit intryckt för länge",
+  "causes": [
+   "En manöverknapp har hållits intryckt för länge.",
+   "Fukt eller fett på manöverpanelen."
+  ],
+  "steps": [
+   "Torka knapparna med en fuktig trasa och torka panelen torr.",
+   "Kontrollera att det inte finns vatten på eller runt reglagen.",
+   "Stäng av ugnen och försök sedan igen."
+  ],
+  "technician": "Ring Samsungs service om koden kommer tillbaka efter en fullständig strömåterställning."
+ },
+ "Samsung|S-01": {
+  "title": "Säkerhetsavstängning efter lång användning",
+  "causes": [
+   "Ugnen har varit igång på en och samma temperatur under för många timmar och stängde därför av sig själv av säkerhetsskäl.",
+   "Detta är inget fel."
+  ],
+  "steps": [
+   "Stäng av ugnen.",
+   "Ta ut maten.",
+   "Starta en vanlig tillagningscykel igen."
+  ],
+  "technician": "Ingen service behövs, såvida det inte visas efter kort tillagningstid."
+ },
+ "Samsung|dC": {
+  "title": "Avskiljaren är felaktigt isatt för tillagningsläget",
+  "causes": [
+   "Avskiljaren togs ut under dubbelt tillagningsläge.",
+   "Eller så sattes avskiljaren i under enkelt tillagningsläge."
+  ],
+  "steps": [
+   "Sätt i avskiljaren för dubbel tillagning och ta ut den för enkel tillagning.",
+   "Stäng av ugnen och starta om den.",
+   "Om det kvarstår, bryt strömmen i 30 sekunder eller mer och slå sedan på den igen."
+  ],
+  "technician": "Ring Samsungs service om koden kommer tillbaka efter en fullständig strömåterställning."
+ },
+ "Samsung|dE": {
+  "title": "Avskiljaren är felaktigt isatt för tillagningsläget",
+  "causes": [
+   "Avskiljaren togs ut under dubbelt tillagningsläge.",
+   "Eller så sattes den i när enkelt tillagningsläge användes."
+  ],
+  "steps": [
+   "Låt avskiljaren sitta i för dubbel tillagning och ta ut den för enkel tillagning.",
+   "Stäng av ugnen och starta om.",
+   "Om det kvarstår, slå av säkringen i 30 sekunder eller mer och koppla in igen."
+  ],
+  "technician": "Ring Samsungs service om koden kommer tillbaka efter en fullständig strömåterställning."
+ },
+ "Samsung|C-d1": {
+  "title": "Fel på dörrlåset",
+  "causes": [
+   "Ugnen upptäcker ett problem med dörrlåset."
+  ],
+  "steps": [
+   "Stäng av ugnen och starta den igen.",
+   "Om koden kvarstår, bryt strömmen vid säkringen i minst 30 sekunder och slå sedan på den igen.",
+   "Tvinga inte upp dörren om den är låst."
+  ],
+  "technician": "Ring Samsungs service om koden kommer tillbaka efter en fullständig strömåterställning."
+ },
+ "Samsung|C-20": {
+  "title": "Fel på ugnens sensor",
+  "causes": [
+   "Ugnen rapporterar ett problem med en temperatursensor."
+  ],
+  "steps": [
+   "Stäng av ugnen och starta den igen.",
+   "Om koden kvarstår, bryt strömmen vid säkringen i minst 30 sekunder och slå sedan på den igen."
+  ],
+  "technician": "Ring Samsungs service om koden kommer tillbaka efter en fullständig strömåterställning."
+ },
+ "Samsung|C-21": {
+  "title": "Fel på ugnens sensor",
+  "causes": [
+   "Ugnen rapporterar ett problem med en temperatursensor."
+  ],
+  "steps": [
+   "Stäng av ugnen och starta den igen.",
+   "Om koden kvarstår, bryt strömmen vid säkringen i minst 30 sekunder och slå sedan på den igen."
+  ],
+  "technician": "Ring Samsungs service om koden kommer tillbaka efter en fullständig strömåterställning."
+ },
+ "Samsung|C-22": {
+  "title": "Fel på ugnens sensor",
+  "causes": [
+   "Ugnen rapporterar ett problem med en temperatursensor."
+  ],
+  "steps": [
+   "Stäng av ugnen och starta den igen.",
+   "Om koden kvarstår, bryt strömmen vid säkringen i minst 30 sekunder och slå sedan på den igen."
+  ],
+  "technician": "Ring Samsungs service om koden kommer tillbaka efter en fullständig strömåterställning."
+ },
+ "Samsung|C-F1": {
+  "title": "Fel vid läsning eller skrivning av minnet",
+  "causes": [
+   "Ett fel uppstod när styrkortet läste eller skrev till sitt minne (EEPROM)."
+  ],
+  "steps": [
+   "Stäng av ugnen och starta den igen.",
+   "Om koden kvarstår, bryt strömmen vid säkringen i minst 30 sekunder och slå sedan på den igen."
+  ],
+  "technician": "Ring Samsungs service om koden kommer tillbaka efter en fullständig strömåterställning."
+ },
+ "Samsung|C-F0": {
+  "title": "Huvudkortet och underkortet kommunicerar inte",
+  "causes": [
+   "Huvudkretskortet och underkortet kan inte kommunicera med varandra."
+  ],
+  "steps": [
+   "Stäng av ugnen och starta den igen.",
+   "Om koden kvarstår, bryt strömmen vid säkringen i minst 30 sekunder och slå sedan på den igen."
+  ],
+  "technician": "Ring Samsungs service om koden kommer tillbaka efter en fullständig strömåterställning."
+ },
+ "Samsung|C-F2": {
+  "title": "Problem med kommunikationen till pekstyrningen",
+  "causes": [
+   "Pekstyrningen tappar hela tiden kontakten med huvudkortet eller underkortet."
+  ],
+  "steps": [
+   "Stäng av ugnen och starta den igen.",
+   "Om koden kvarstår, bryt strömmen vid säkringen i minst 30 sekunder och slå sedan på den igen."
+  ],
+  "technician": "Ring Samsungs service om koden kommer tillbaka efter en fullständig strömåterställning."
+ },
+ "Samsung|Pr E": {
+  "title": "Ugnen förvärms, normalt meddelande",
+  "causes": [
+   "Ugnen värms fortfarande upp till den inställda temperaturen.",
+   "Detta är ett normalt meddelande, inte ett fel."
+  ],
+  "steps": [
+   "Håll dörren stängd.",
+   "Vänta tills ugnen har nått den inställda temperaturen.",
+   "Koden försvinner av sig själv."
+  ],
+  "technician": "Ingen service behövs."
+ },
+ "Bosch|E011": {
+  "title": "En manöverknapp har fastnat",
+  "causes": [
+   "En knapp har hållits intryckt för länge eller har fastnat.",
+   "Smuts eller fukt runt en knapp."
+  ],
+  "steps": [
+   "Tryck på varje knapp en i taget och kontrollera att den rör sig fritt.",
+   "Rengör manöverområdet och torka det.",
+   "Stäng av ugnen och slå på den igen."
+  ],
+  "technician": "Ring Boschs service om E011 kvarstår efter att reglagen har rengjorts."
+ },
+ "Bosch|E115": {
+  "title": "Ugnsutrymmet är för hett, dörren är låst",
+  "causes": [
+   "Insidan av ugnen är för het, så dörrlåset förblir stängt."
+  ],
+  "steps": [
+   "Vänta tills ugnen har svalnat.",
+   "Rensa meddelandet med knappen 0.",
+   "Tvinga inte dörren."
+  ],
+  "technician": "Ring Boschs service om E115 fortsätter komma tillbaka när ugnen är kall."
+ },
+ "Bosch|e005": {
+  "title": "Styr- och effektkortet kommunicerar inte",
+  "causes": [
+   "Manöverpanelen och effektkortet har tappat kontakten."
+  ],
+  "steps": [
+   "Stäng av spisen vid proppskåpet.",
+   "Vänta fem minuter och slå sedan på säkringen igen.",
+   "Kontrollera om koden kommer tillbaka."
+  ],
+  "technician": "Ring Boschs support om koden kommer tillbaka efter en strömåterställning."
+ },
+ "Bosch|E100": {
+  "title": "Fel i elektroniken",
+  "causes": [
+   "Ugnen har upptäckt ett fel i elektroniken."
+  ],
+  "steps": [
+   "Stäng av spisen vid proppskåpet.",
+   "Vänta fem minuter och slå sedan på säkringen igen.",
+   "Testa ugnen igen."
+  ],
+  "technician": "Ring Boschs support om koden kommer tillbaka efter en strömåterställning."
+ },
+ "Bosch|e101": {
+  "title": "Fel på ugnens temperatursensor",
+  "causes": [
+   "Temperatursensorn fungerar inte som den ska."
+  ],
+  "steps": [
+   "Stäng av spisen vid proppskåpet.",
+   "Vänta fem minuter och slå sedan på säkringen igen.",
+   "Om ugnen nyss har installerats, be installatören kontrollera kopplingen av nätkabeln."
+  ],
+  "technician": "Ring Boschs support om koden kommer tillbaka efter en strömåterställning."
+ },
+ "Bosch|e126": {
+  "title": "Fel på ugnens dörrlås",
+  "causes": [
+   "Dörrlåset fungerar inte korrekt, vilket ofta syns under självrengöring."
+  ],
+  "steps": [
+   "Avbryt självrengöringen.",
+   "Vänta tills dörren låses upp.",
+   "Starta självrengöringen igen."
+  ],
+  "technician": "Ring Boschs support om koden kommer tillbaka efter en strömåterställning."
+ },
+ "Bosch|E302": {
+  "title": "Manöverpanelen är överhettad",
+  "causes": [
+   "Manöverpanelen är för het, vilket kan orsakas av kastruller på hällen.",
+   "Hög rumstemperatur."
+  ],
+  "steps": [
+   "Kontrollera rumstemperaturen och var kastrullerna står.",
+   "Låt apparaten svalna.",
+   "Gör en strömåterställning vid säkringen i fem minuter."
+  ],
+  "technician": "Ring Boschs support om koden kommer tillbaka efter en strömåterställning."
+ },
+ "Bosch|e310": {
+  "title": "Fel på strömförsörjningen",
+  "causes": [
+   "Matningsspänningen kan vara fel eller instabil."
+  ],
+  "steps": [
+   "Stäng av spisen vid proppskåpet.",
+   "Vänta fem minuter och slå sedan på säkringen igen.",
+   "Be en elektriker bekräfta spänningen i ditt hem om det kommer tillbaka."
+  ],
+  "technician": "Ring Boschs support om koden kommer tillbaka efter en strömåterställning."
+ },
+ "Bosch|ERR/toP": {
+  "title": "Hällen användes under självrengöring",
+  "causes": [
+   "En värmezon slogs på medan ugnen självrengjordes."
+  ],
+  "steps": [
+   "Stäng av alla aktiva värmezoner.",
+   "Starta om självrengöringen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Ingen service behövs, såvida det inte visas när alla zoner är avstängda."
+ },
+ "Bosch|dE": {
+  "title": "Demoläge är på, zonerna värms inte",
+  "causes": [
+   "Demoläge är aktivt, så värmezonerna förblir kalla."
+  ],
+  "steps": [
+   "Slå av hällens säkring i 30 sekunder.",
+   "Slå på den igen.",
+   "Rör vid något reglage inom tre minuter."
+  ],
+  "technician": "Ring Boschs support om koden kommer tillbaka efter en strömåterställning."
+ },
+ "Bosch|F1": {
+  "title": "Värmezonen överhettades och stängdes av",
+  "causes": [
+   "En zon överhettades och stängdes av för att skydda bänkskivan."
+  ],
+  "steps": [
+   "Låt elektroniken svalna.",
+   "Slå på zonen igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Ring Boschs support om koden kommer tillbaka efter en strömåterställning."
+ },
+ "Bosch|F6": {
+  "title": "Värmezonen överhettades och stängdes av",
+  "causes": [
+   "En zon överhettades och stängdes av för att skydda bänkskivan."
+  ],
+  "steps": [
+   "Låt elektroniken svalna.",
+   "Slå på zonen igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Ring Boschs support om koden kommer tillbaka efter en strömåterställning."
+ },
+ "Bosch|F2": {
+  "title": "Elektroniken är överhettad, zonen är avstängd",
+  "causes": [
+   "Elektroniken är för het, så zonen stängdes av."
+  ],
+  "steps": [
+   "Låt hällen svalna.",
+   "Rör vid något reglage.",
+   "Laga mat igen när meddelandet har försvunnit.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Ring Boschs support om koden kommer tillbaka efter en strömåterställning."
+ },
+ "Bosch|F4": {
+  "title": "Elektroniken är överhettad",
+  "causes": [
+   "Elektroniken är för het."
+  ],
+  "steps": [
+   "Låt hällen svalna.",
+   "Rör vid något reglage.",
+   "Fortsätt laga mat när meddelandet har försvunnit.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Ring Boschs support om koden kommer tillbaka efter en strömåterställning."
+ },
+ "Bosch|F5": {
+  "title": "Het panna nära manöverpanelen",
+  "causes": [
+   "Het kokkärl står nära pekreglagen.",
+   "Elektroniken riskerar att överhettas."
+  ],
+  "steps": [
+   "Flytta kokkärlet bort från manöverpanelen.",
+   "Vänta några sekunder och rör vid något reglage.",
+   "Fortsätt laga mat när meddelandet försvinner."
+  ],
+  "technician": "Ring Boschs support om koden kommer tillbaka efter en strömåterställning."
+ },
+ "Bosch|F8": {
+  "title": "Zonen har varit på för länge, tidsgränsen nådd",
+  "causes": [
+   "En zon har lämnats på utan någon inmatning under lång tid."
+  ],
+  "steps": [
+   "Rör vid något reglage.",
+   "Ställ in zonen igen.",
+   "Fortsätt laga mat.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Ring Boschs support om koden kommer tillbaka efter en strömåterställning."
+ },
+ "Bosch|E7010": {
+  "title": "Hällen kan inte ansluta till nätverket eller fläkten",
+  "causes": [
+   "Hällen har tappat kontakten med ditt hemmanätverk eller din köksfläkt."
+  ],
+  "steps": [
+   "Stäng av hällen och slå på den igen.",
+   "Kontrollera att ditt Wi-Fi fungerar.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Ring Boschs support om koden kommer tillbaka efter en strömåterställning."
+ },
+ "Bosch|E9000": {
+  "title": "Matningsspänningen är utanför normalt intervall",
+  "causes": [
+   "Matningsspänningen är för hög eller för låg."
+  ],
+  "steps": [
+   "Stäng av hällen och slå på den igen.",
+   "Be din elleverantör kontrollera matningsspänningen."
+  ],
+  "technician": "Ring Boschs support om din elleverantör inte hittar något fel."
+ },
+ "Bosch|E9010": {
+  "title": "Matningsspänningen är utanför normalt intervall",
+  "causes": [
+   "Matningsspänningen är för hög eller för låg."
+  ],
+  "steps": [
+   "Stäng av hällen och slå på den igen.",
+   "Be din elleverantör kontrollera matningsspänningen."
+  ],
+  "technician": "Ring Boschs support om din elleverantör inte hittar något fel."
+ },
+ "Bosch|E9011": {
+  "title": "Hällen är inte rätt ansluten",
+  "causes": [
+   "Kopplingen stämmer inte med kopplingsschemat."
+  ],
+  "steps": [
+   "Slå av strömmen vid säkringen.",
+   "Låt en behörig elektriker kontrollera kopplingen mot schemat."
+  ],
+  "technician": "Ring en behörig elektriker eller Boschs support."
+ },
+ "Bosch|U400": {
+  "title": "Matningsspänningen är utanför normalt intervall",
+  "causes": [
+   "Matningsspänningen är utanför normala gränser."
+  ],
+  "steps": [
+   "Stäng av hällen och slå på den igen.",
+   "Kontakta din elleverantör för att kontrollera spänningen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Ring Boschs support om matningen visar sig vara normal."
+ },
+ "Siemens|E0111": {
+  "title": "Meddelande om fel i elektroniken",
+  "causes": [
+   "Ugnens elektronik har upptäckt ett fel.",
+   "Det kan vara ett engångsfel."
+  ],
+  "steps": [
+   "Stäng av ugnen och slå på den igen.",
+   "Om meddelandet försvinner var det ett engångsfel.",
+   "Om det kommer tillbaka, skriv ned exakt kod."
+  ],
+  "technician": "Ring Siemens kundtjänst med exakt kod om det kommer tillbaka."
+ },
+ "Neff|E011": {
+  "title": "Knappen är permanent tilldelad",
+  "causes": [
+   "En knapp är permanent intryckt eller tilldelad."
+  ],
+  "steps": [
+   "Avbryt den permanenta knapptilldelningen.",
+   "Tryck sedan på klockfunktionsknappen.",
+   "Rengör runt knapparna.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Ring Neffs service om E011 inte försvinner."
+ },
+ "Neff|E300": {
+  "title": "Internt fel i elektroniken",
+  "causes": [
+   "Ett internt fel i ugnens elektronik."
+  ],
+  "steps": [
+   "Tryck på klockfunktionsknappen.",
+   "Om det kvarstår, dra ur ugnens kontakt.",
+   "Vänta ungefär 10 sekunder och sätt i kontakten igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Ring Neffs service om koden kommer tillbaka."
+ },
+ "Neff|rrr": {
+  "title": "Strömmen bröts under drift",
+  "causes": [
+   "Strömförsörjningen avbröts medan ugnen var igång."
+  ],
+  "steps": [
+   "Tryck på knappen för tid på dygnet.",
+   "Ställ in klockan igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Ingen service behövs, såvida det inte upprepas utan strömavbrott."
+ },
+ "Miele|E0-E5": {
+  "title": "Förloppskoder för avkalkningsprogrammet",
+  "causes": [
+   "Dessa koder visar vilket steg i avkalkningsprogrammet som pågår.",
+   "E0 är intag av lösning, E1 aktivering, E2 till E4 sköljningar, E5 avdunstning."
+  ],
+  "steps": [
+   "Låt programmet köra klart.",
+   "Stäng inte av ugnen under avkalkningen."
+  ],
+  "technician": "Ingen service behövs, såvida inte programmet stannar."
+ },
+ "Miele|F23": {
+  "title": "Pyrolytisk rengöring nådde inte rätt temperatur",
+  "causes": [
+   "Ugnen kunde inte bli tillräckligt varm för självrengöring.",
+   "Det finns mycket matrester inuti."
+  ],
+  "steps": [
+   "Stäng av ugnen.",
+   "Torka ur stora avlagringar och kraftig smuts.",
+   "Starta den pyrolytiska rengöringen igen."
+  ],
+  "technician": "Kontakta Mieles kundtjänst eller boka reparation om felet kommer tillbaka."
+ },
+ "Miele|F32": {
+  "title": "Dörrlåset för pyrolytisk rengöring stängs inte",
+  "causes": [
+   "Dörrlåset för självrengöring går inte i.",
+   "Något kan blockera dörren."
+  ],
+  "steps": [
+   "Kontrollera dörren och tätningsområdet efter föremål eller skräp.",
+   "Stäng av ugnen.",
+   "Starta den pyrolytiska rengöringen igen."
+  ],
+  "technician": "Kontakta Mieles kundtjänst eller boka reparation om felet kommer tillbaka."
+ },
+ "Miele|F33": {
+  "title": "Dörrlåset för pyrolytisk rengöring går inte att öppna",
+  "causes": [
+   "Dörrlåset för självrengöring har inte släppt."
+  ],
+  "steps": [
+   "Stäng av ugnen för att avbryta rengöringscykeln.",
+   "Försök öppna dörren.",
+   "Tvinga den inte.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Ring Mieles kundtjänst om dörren förblir låst."
+ },
+ "Miele|F38": {
+  "title": "Fel på elektronikmodulen",
+  "causes": [
+   "Ugnens elektronikmodul har ett tekniskt fel."
+  ],
+  "steps": [
+   "Försök inte reparera den själv.",
+   "Notera koden och ditt modellnummer.",
+   "Boka en reparation.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Boka en Miele-tekniker, eftersom detta inte kan åtgärdas hemma."
+ },
+ "Miele|F44": {
+  "title": "Tekniskt fel upptäckt",
+  "causes": [
+   "Ugnen har upptäckt ett tekniskt fel."
+  ],
+  "steps": [
+   "Stäng av vid säkringen eller dra ur ugnens kontakt.",
+   "Låt den vara avstängd i 20 sekunder.",
+   "Återställ strömmen och testa.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Kontakta Mieles kundtjänst eller boka reparation om felet kommer tillbaka."
+ },
+ "Miele|F54": {
+  "title": "Stektermometern är defekt",
+  "causes": [
+   "Stektermometern eller dess anslutning är defekt."
+  ],
+  "steps": [
+   "Dra ut termometern ur uttaget.",
+   "Felmeddelandet bör försvinna.",
+   "Laga maten utan termometern tills vidare.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Kontakta Mieles kundtjänst för att köpa en ny termometer."
+ },
+ "Miele|F55": {
+  "title": "Ugnen stängdes av efter för lång drifttid",
+  "causes": [
+   "Ugnen var igång ovanligt länge och stängdes därför av av säkerhetsskäl.",
+   "Gränsen är 6 timmar i grillägen och 12 timmar i övriga lägen."
+  ],
+  "steps": [
+   "Stäng av ugnen och slå sedan på den igen.",
+   "Starta en ny tillagning."
+  ],
+  "technician": "Ingen service behövs, såvida det inte fortsätter hända vid korta tillagningar."
+ },
+ "Miele|F60": {
+  "title": "Otillräcklig ventilation i ugnen",
+  "causes": [
+   "Luftkanalen är blockerad eller övertäckt."
+  ],
+  "steps": [
+   "Kontrollera att inget täcker ugnens luftkanal.",
+   "Koppla bort ugnen från strömmen och anslut den sedan igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Kontakta Mieles kundtjänst eller boka reparation om felet kommer tillbaka."
+ },
+ "Miele|F134": {
+  "title": "Ugnsutrymmet är för hett",
+  "causes": [
+   "Temperatursensorn rapporterar att tillagningsutrymmet är för hett."
+  ],
+  "steps": [
+   "Stäng av ugnen och låt den svalna.",
+   "Försök inte reparera den själv.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Boka en Miele-reparation, eftersom detta kräver en tekniker."
+ },
+ "Miele|MES": {
+  "title": "Demoläge på, ugnen värms inte",
+  "causes": [
+   "Demoläget för utställning är påslaget."
+  ],
+  "steps": [
+   "Bekräfta meddelandet med OK.",
+   "Vrid funktionsväljaren till 0.",
+   "Öppna Settings, gå till P 9 och ställ in S 0.",
+   "Håll OK intryckt i 4 sekunder."
+  ],
+  "technician": "Kontakta Miele om demoläget kommer tillbaka."
+ },
+ "Miele|F1": {
+  "title": "Vattenbehållaren är inte intryckt",
+  "causes": [
+   "Vattenbehållaren för utpumpning av kvarvarande vatten saknas eller är inte helt isatt."
+  ],
+  "steps": [
+   "Tryck in vattenbehållaren helt i ugnen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Kontakta Mieles kundtjänst eller boka reparation om felet kommer tillbaka."
+ },
+ "Miele|F04": {
+  "title": "Strömavbrott under tillagning",
+  "causes": [
+   "Ugnen förlorade strömmen under ett tillagningsprogram."
+  ],
+  "steps": [
+   "Kontrollera hur långt tillagningen har kommit.",
+   "Ställ in en ny tillagningstid vid behov.",
+   "Tryck på Start/Stop för att fortsätta.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Kontakta Mieles kundtjänst eller boka reparation om felet kommer tillbaka."
+ },
+ "Miele|F05": {
+  "title": "Vatten når inte ångugnen",
+  "causes": [
+   "Vattenintagsventilen är inte helt öppen.",
+   "Vattenmunstycket är igensatt av kalk."
+  ],
+  "steps": [
+   "Öppna vattenintagsventilen helt och starta om.",
+   "Avkalka vattenmunstycket om det kommer tillbaka och använd grytvantar.",
+   "Spola igenom vattendelarna."
+  ],
+  "technician": "Kontakta Mieles kundtjänst eller boka reparation om felet kommer tillbaka."
+ },
+ "Miele|F10": {
+  "title": "Fel på vatteninloppet i ångugnen",
+  "causes": [
+   "Matarpumpen är torr efter lång tids obrukbarhet.",
+   "Den svarta sugslangen sitter löst eller är skadad.",
+   "Osmosvatten är för rent för sensorn."
+  ],
+  "steps": [
+   "Sätt tillbaka den svarta sugslangen upprätt i behållaren.",
+   "Stäng av osmossystemet om du kan.",
+   "Eller tillsätt en nypa salt i vattnet."
+  ],
+  "technician": "Kontakta Mieles kundtjänst eller boka reparation om felet kommer tillbaka."
+ },
+ "Miele|F11": {
+  "title": "Ånggeneratorn kan inte tömma vatten",
+  "causes": [
+   "Kalk i avloppet eller på elektroden.",
+   "Blockerade eller fastklämda slangar."
+  ],
+  "steps": [
+   "Avkalka ugnen enligt beskrivningen i manualen.",
+   "Ställ in vattnets hårdhet på maximalt på 6000- och 7000-serierna.",
+   "Upprepa inte avkalkningen med starkare lösning."
+  ],
+  "technician": "Kontakta Mieles kundtjänst eller boka reparation om felet kommer tillbaka."
+ },
+ "Miele|F12": {
+  "title": "Ångugnen får inget vatten",
+  "causes": [
+   "Vattenintagsventilen är stängd.",
+   "Vatteninloppets filter är igensatt."
+  ],
+  "steps": [
+   "Öppna vattenventilen och starta om.",
+   "Rengör filtret i vatteninloppet.",
+   "Stäng av ugnen och stäng ventilen om du misstänker en trasig slang."
+  ],
+  "technician": "Ring Miele eller en rörmokare om slangen verkar felaktig."
+ },
+ "Miele|F13": {
+  "title": "Ångugnens utrymme är för hett",
+  "causes": [
+   "Vattenintagsventilen kan vara stängd.",
+   "Vattenmunstycket kan behöva avkalkas."
+  ],
+  "steps": [
+   "Öppna vattenintagsventilen helt.",
+   "Avkalka och skölj munstycket om det kommer tillbaka.",
+   "Använd grytvantar."
+  ],
+  "technician": "Kontakta Mieles kundtjänst eller boka reparation om felet kommer tillbaka."
+ },
+ "Miele|F14": {
+  "title": "För lite vatten i ånggeneratorn",
+  "causes": [
+   "Det kommer inte tillräckligt med vatten till ånggeneratorn."
+  ],
+  "steps": [
+   "Stäng av ugnen och slå på den igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Stäng av och kontakta Miele om F14 visas igen."
+ },
+ "Miele|F20": {
+  "title": "Ångugnen värms inte",
+  "causes": [
+   "Temperaturen steg inte 2 grader på 5 minuter.",
+   "Stora mängder fryst mat kan orsaka detta."
+  ],
+  "steps": [
+   "Stäng av ugnen och slå på den igen och starta om.",
+   "Tryck in vattenbehållaren tills den klickar.",
+   "Använd endast det medföljande silikonfettet på tätningen."
+  ],
+  "technician": "Ring Miele om kopplingstätningen ser sprucken ut eller om vatten samlas."
+ },
+ "Miele|F27": {
+  "title": "Strömavbrott under tillagning eller avkalkning",
+  "causes": [
+   "Strömmen bröts under ett tillagningsprogram (F27).",
+   "E04 betyder att strömmen bröts under avkalkning."
+  ],
+  "steps": [
+   "Vid F27, ställ in en ny tid och tryck på Start/Stop.",
+   "Vid E04, vänta tills displayen räknar ned från 0:06.",
+   "Stäng av ugnen och slå på den igen."
+  ],
+  "technician": "Kontakta Mieles kundtjänst eller boka reparation om felet kommer tillbaka."
+ },
+ "Miele|F74": {
+  "title": "Tekniskt fel i ångugnen",
+  "causes": [
+   "Ett tekniskt fel som inte kan åtgärdas hemma."
+  ],
+  "steps": [
+   "Försök inte reparera den själv.",
+   "Notera koden och modellnumret.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Boka ett besök av en Miele-tekniker."
+ },
+ "Miele|F95": {
+  "title": "Nivåbrytaren blockeras av kalk",
+  "causes": [
+   "Kalk blockerar nivåbrytaren."
+  ],
+  "steps": [
+   "Avkalka ugnen enligt manualen.",
+   "Använd Mieles skötselprodukter.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Kontakta Mieles kundtjänst eller boka reparation om felet kommer tillbaka."
+ },
+ "Miele|F235": {
+  "title": "Fel på elektronikmodulen",
+  "causes": [
+   "Elektronikmodulen är defekt."
+  ],
+  "steps": [
+   "Försök inte åtgärda det själv.",
+   "Notera koden.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Boka en Miele-reparation."
+ },
+ "Electrolux|F1": {
+  "title": "Ugnsdörren går inte att låsa",
+  "causes": [
+   "Pyrolytiska modeller: rengöringsfunktionen är på och dörren stängs inte.",
+   "Andra modeller: ett elektroniskt fel."
+  ],
+  "steps": [
+   "Kontrollera att dörrens övre del är hel.",
+   "Följ manualen om dörren har tagits av.",
+   "Kontakta service om det kvarstår."
+  ],
+  "technician": "Boka en Electrolux-reparation om koden kommer tillbaka."
+ },
+ "Electrolux|F102": {
+  "title": "Fel på dörrlåssensorn",
+  "causes": [
+   "Dörren är inte helt stängd.",
+   "Ett defekt dörrlås eller defekt elektronik."
+  ],
+  "steps": [
+   "Stäng dörren ordentligt.",
+   "Bryt strömmen i några minuter och slå sedan på den igen.",
+   "Kontrollera husets säkring eller jordfelsbrytare."
+  ],
+  "technician": "Boka en Electrolux-reparation om koden kommer tillbaka."
+ },
+ "Electrolux|F111": {
+  "title": "Stektermometern är defekt eller inte ansluten",
+  "causes": [
+   "Termometern är inte helt isatt.",
+   "Termometern eller dess kabel är skadad."
+  ],
+  "steps": [
+   "Dra ur termometern och sätt i den ordentligt igen.",
+   "Kontrollera om det finns böjda kontakter eller skadad ledning.",
+   "Stäng av ugnen vid huvudströmbrytaren i 30 sekunder."
+  ],
+  "technician": "Boka en Electrolux-reparation om koden kommer tillbaka."
+ },
+ "Electrolux|F104": {
+  "title": "Temperatursensorn är utanför mätområdet",
+  "causes": [
+   "Ugnens temperatursensor är utanför mätområdet.",
+   "Ugnen kanske inte värms eller kan stanna."
+  ],
+  "steps": [
+   "Stäng av ugnen vid huvudströmbrytaren i 30 sekunder.",
+   "Slå på den igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Kontakta ett auktoriserat servicecenter."
+ },
+ "Electrolux|F105": {
+  "title": "Larm för för hög temperatur på sensorn",
+  "causes": [
+   "Sensorn registrerade en temperatur över den förväntade nivån."
+  ],
+  "steps": [
+   "Stäng av ugnen och låt den svalna.",
+   "Slå av strömmen i 30 sekunder och slå sedan på den igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Kontakta ett auktoriserat servicecenter."
+ },
+ "Electrolux|F215": {
+  "title": "Programvarufel i ansluten ugn",
+  "causes": [
+   "Ett programvaruproblem på en ansluten ugn."
+  ],
+  "steps": [
+   "Installera om appen och anslut ugnen igen.",
+   "Dra ur ugnens kontakt i 30 minuter och anslut den sedan igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Boka en reparation om F215 visas på displayen."
+ },
+ "Electrolux|F601": {
+  "title": "Problem med ugnens Wi-Fi-signal",
+  "causes": [
+   "Det är ett problem med Wi-Fi-signalen."
+  ],
+  "steps": [
+   "Kontrollera din nätverksanslutning.",
+   "Flytta routern närmare.",
+   "Återställ ugnens Wi-Fi-inställningar och ställ in på nytt.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Boka en reparation om den inte ansluter."
+ },
+ "Electrolux|F604": {
+  "title": "Första Wi-Fi-anslutningsförsöket misslyckades",
+  "causes": [
+   "Det första försöket att ansluta till Wi-Fi misslyckades."
+  ],
+  "steps": [
+   "Stäng av ugnen och slå på den igen.",
+   "Försök ansluta igen.",
+   "Kontrollera din internetanslutning.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Boka en reparation om den inte ansluter."
+ },
+ "Electrolux|E0020": {
+  "title": "Ugnslampan fungerar inte",
+  "causes": [
+   "Ugnslampan är defekt."
+  ],
+  "steps": [
+   "Stäng av ugnen och låt den svalna.",
+   "Kontrollera lampan och byt den om den är defekt.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Kontakta ett servicecenter om lampan är hel."
+ },
+ "Electrolux|C1": {
+  "title": "Pyrolytisk rengöring blockeras av teleskopskenor",
+  "causes": [
+   "Det sitter teleskopskenor i ugnen."
+  ],
+  "steps": [
+   "Ta ut skenor, galler och sidoskenor.",
+   "Starta Pyro Clean igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Kontakta service om det kvarstår."
+ },
+ "Electrolux|C2": {
+  "title": "Pyrolytisk rengöring blockeras av stektermometern",
+  "causes": [
+   "Stektermometern är ansluten."
+  ],
+  "steps": [
+   "Dra ur termometern ur uttaget.",
+   "Starta Pyro Clean igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Kontakta service om det kvarstår."
+ },
+ "Electrolux|C3": {
+  "title": "Pyrolytisk rengöring blockeras av öppen dörr",
+  "causes": [
+   "Dörren är öppen eller inte helt stängd."
+  ],
+  "steps": [
+   "Stäng dörren helt.",
+   "Starta Pyro Clean igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Kontakta service om det kvarstår."
+ },
+ "Electrolux|C4": {
+  "title": "Pyrolytisk rengöring blockeras av Steam Bake",
+  "causes": [
+   "Steam Bake är fortfarande aktivt."
+  ],
+  "steps": [
+   "Tryck på Steam Bake tills lampan släcks.",
+   "Starta Pyro Clean igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Kontakta service om det kvarstår."
+ },
+ "AEG|F": {
+  "title": "Kokkärl känns inte av eller fel på hällen",
+  "causes": [
+   "Olämplig kastrull eller kastrull som lyfts bort.",
+   "Vid ny installation, ett installationsproblem."
+  ],
+  "steps": [
+   "Kontrollera att en magnet fastnar på kastrullens botten.",
+   "Centrera kastrullen på zonen.",
+   "Håll hällen och kastrullen torra.",
+   "Stäng av vid huvudströmbrytaren i 30 sekunder."
+  ],
+  "technician": "Boka en tekniker om F kvarstår eller har en siffra."
+ },
+ "AEG|F2": {
+  "title": "SenseBoil: tom kastrull eller olja",
+  "causes": [
+   "Kastrullen är tom eller innehåller olja eller en annan vätska än vatten."
+  ],
+  "steps": [
+   "Torka hällens yta.",
+   "Värm inte en tom kastrull.",
+   "Använd SenseBoil endast med vatten.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Inget fel om det försvinner."
+ },
+ "AEG|F3": {
+  "title": "SenseBoil: fel mängd vatten",
+  "causes": [
+   "För mycket eller för lite vatten i kastrullen.",
+   "Annan mat än vatten eller potatis."
+  ],
+  "steps": [
+   "Torka hällens yta.",
+   "Fyll kastrullen till hälften upp till tre fjärdedelar, 1 till 5 liter.",
+   "Koka endast vatten och potatis."
+  ],
+  "technician": "Inget fel om det försvinner."
+ },
+ "AEG|E2": {
+  "title": "Fel på hällens LED eller sensor",
+  "causes": [
+   "På induktionshällar ett fel i LED-belysningen.",
+   "På teppanyaki ett fel på temperatursensorn."
+  ],
+  "steps": [
+   "Bryt strömmen i 30 sekunder.",
+   "Slå på igen.",
+   "Notera exakt kod.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Boka en AEG-reparation om koden kommer tillbaka."
+ },
+ "AEG|E3": {
+  "title": "Hällen är ansluten till fel spänning",
+  "causes": [
+   "Möjlig överspänning eller felaktig koppling."
+  ],
+  "steps": [
+   "Sluta använda hällen.",
+   "Be installatören kontrollera matning och koppling.",
+   "Åtgärda inte elektriska fel själv.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Ring en behörig elektriker eller AEG:s service."
+ },
+ "AEG|E4": {
+  "title": "Hällens överhettningsskydd är aktivt",
+  "causes": [
+   "Hällen överhettades.",
+   "Olämpliga kokkärl eller dålig installation."
+  ],
+  "steps": [
+   "Stäng av och ta bort kokkärlen.",
+   "Testa kastrullen med en magnet.",
+   "Bryt strömmen i 30 sekunder.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Boka en AEG-reparation om koden kommer tillbaka."
+ },
+ "AEG|E5": {
+  "title": "Problem med fas eller spänning på hällen",
+  "causes": [
+   "Ett problem med fas eller spänning i strömförsörjningen."
+  ],
+  "steps": [
+   "Slå av frånskiljaren i 30 sekunder.",
+   "Slå på och testa.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Boka en AEG-reparation om koden kommer tillbaka."
+ },
+ "AEG|E6": {
+  "title": "Problem med hällens strömförsörjning",
+  "causes": [
+   "Ofta felaktig installation, till exempel ett 13 A-uttag för en 16 A-häll."
+  ],
+  "steps": [
+   "Stäng av hällen och slå på den igen.",
+   "Koppla bort den i 30 sekunder.",
+   "Låt kontrollera strömförsörjningen."
+  ],
+  "technician": "Boka en AEG-reparation om koden kommer tillbaka."
+ },
+ "AEG|E7": {
+  "title": "Fel på hällens kylfläkt",
+  "causes": [
+   "Fläkten är blockerad eller defekt på nyare modeller."
+  ],
+  "steps": [
+   "Kontrollera att inget blockerar fläkten under hällen.",
+   "Bryt strömmen i 30 sekunder.",
+   "Slå på igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Boka en AEG-reparation om koden kommer tillbaka."
+ },
+ "AEG|E8": {
+  "title": "Fel på hällens elektronik eller fas",
+  "causes": [
+   "En fas saknas efter installationen.",
+   "Kommunikationsfel i elektroniken."
+  ],
+  "steps": [
+   "Kontrollera kopplingen mot manualen.",
+   "Bryt strömmen i 30 sekunder.",
+   "Sluta använda den om det kvarstår."
+  ],
+  "technician": "Boka en AEG-reparation om koden kommer tillbaka."
+ },
+ "AEG|E9": {
+  "title": "Fel på hällens elektronikmodul",
+  "causes": [
+   "Ett fel i elektronikmodulen."
+  ],
+  "steps": [
+   "Stäng av vid huvudströmbrytaren i 30 sekunder.",
+   "Använd inte hällen om det kommer tillbaka.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Boka en AEG-reparation om koden kommer tillbaka."
+ },
+ "Whirlpool|F0 E0": {
+  "title": "Okänt fel i ugnens styrning",
+  "causes": [
+   "Styrningen kan inte identifiera felet."
+  ],
+  "steps": [
+   "Slå av spisens säkring i en minut.",
+   "Slå på den igen.",
+   "Titta på ugnen i en minut för att se om koden kommer tillbaka."
+  ],
+  "technician": "Kontakta Whirlpools service om koden kommer tillbaka."
+ },
+ "Whirlpool|F1": {
+  "title": "Möjligt fel på sensor, styrning eller koppling",
+  "causes": [
+   "Problem med ugnens temperatursensor, styrning eller koppling."
+  ],
+  "steps": [
+   "Slå av spisens säkring i en minut.",
+   "Slå på den igen.",
+   "Titta på ugnen i en minut för att se om koden kommer tillbaka."
+  ],
+  "technician": "Kontakta Whirlpools service om koden kommer tillbaka."
+ },
+ "Whirlpool|F2": {
+  "title": "Möjligt fel på sensor, styrning eller koppling",
+  "causes": [
+   "Problem med ugnens temperatursensor, styrning eller koppling."
+  ],
+  "steps": [
+   "Slå av spisens säkring i en minut.",
+   "Slå på den igen.",
+   "Titta på ugnen i en minut för att se om koden kommer tillbaka."
+  ],
+  "technician": "Kontakta Whirlpools service om koden kommer tillbaka."
+ },
+ "Whirlpool|F2 E1": {
+  "title": "Problem med knappsats eller styrning",
+  "causes": [
+   "Problem med knappsats, styrning eller koppling.",
+   "Ett galler kan sitta dåligt."
+  ],
+  "steps": [
+   "Kontrollera att gallren ligger plant.",
+   "Byt plats på dem om de vickar.",
+   "Slå av säkringen i en minut."
+  ],
+  "technician": "Kontakta Whirlpools service om koden kommer tillbaka."
+ },
+ "Whirlpool|F3": {
+  "title": "Möjligt fel på ugnens styrning eller koppling",
+  "causes": [
+   "Problem med ugnens styrning eller koppling."
+  ],
+  "steps": [
+   "Slå av spisens säkring i en minut.",
+   "Slå på den igen.",
+   "Titta på ugnen i en minut för att se om koden kommer tillbaka."
+  ],
+  "technician": "Kontakta Whirlpools service om koden kommer tillbaka."
+ },
+ "Whirlpool|F5": {
+  "title": "Problem med ugnens dörrlås",
+  "causes": [
+   "Problem med dörrlås, brytare eller koppling."
+  ],
+  "steps": [
+   "Slå av spisens säkring i en minut.",
+   "Slå på den igen.",
+   "Titta på ugnen i en minut för att se om koden kommer tillbaka."
+  ],
+  "technician": "Kontakta Whirlpools service om koden kommer tillbaka."
+ },
+ "Whirlpool|F5 E0": {
+  "title": "Problem med ugnens dörrlås",
+  "causes": [
+   "Problem med dörrlås, brytare eller koppling."
+  ],
+  "steps": [
+   "Slå av spisens säkring i en minut.",
+   "Slå på den igen.",
+   "Titta på ugnen i en minut för att se om koden kommer tillbaka."
+  ],
+  "technician": "Kontakta Whirlpools service om koden kommer tillbaka."
+ },
+ "Whirlpool|F6": {
+  "title": "Möjligt fel på ugnens styrning eller koppling",
+  "causes": [
+   "Problem med ugnens styrning eller koppling."
+  ],
+  "steps": [
+   "Slå av spisens säkring i en minut.",
+   "Slå på den igen.",
+   "Titta på ugnen i en minut för att se om koden kommer tillbaka."
+  ],
+  "technician": "Kontakta Whirlpools service om koden kommer tillbaka."
+ },
+ "Whirlpool|F7 E0": {
+  "title": "Problem med dörrlåsets enhet",
+  "causes": [
+   "Problem med dörrlåsenheten eller kopplingen."
+  ],
+  "steps": [
+   "Slå av spisens säkring i en minut.",
+   "Slå på den igen.",
+   "Titta på ugnen i en minut för att se om koden kommer tillbaka."
+  ],
+  "technician": "Kontakta Whirlpools service om koden kommer tillbaka."
+ },
+ "Whirlpool|F8 E0": {
+  "title": "Ugnens kylfläkt går långsamt",
+  "causes": [
+   "Begränsat luftflöde.",
+   "Felaktig kylfläkt eller koppling."
+  ],
+  "steps": [
+   "Slå av spisens säkring i en minut.",
+   "Slå på den igen.",
+   "Titta på ugnen i en minut för att se om koden kommer tillbaka."
+  ],
+  "technician": "Kontakta Whirlpools service om koden kommer tillbaka."
+ },
+ "Whirlpool|F9-1": {
+  "title": "Problem med dörrlås eller låsbrytare",
+  "causes": [
+   "Problem med dörrlås, låsbrytare eller koppling."
+  ],
+  "steps": [
+   "Slå av spisens säkring i en minut.",
+   "Slå på den igen.",
+   "Titta på ugnen i en minut för att se om koden kommer tillbaka."
+  ],
+  "technician": "Kontakta Whirlpools service om koden kommer tillbaka."
+ },
+ "LG|F1": {
+  "title": "Fel på övre ugnens termistor",
+  "causes": [
+   "Fel på temperatursensorn i övre ugnen."
+  ],
+  "steps": [
+   "Tryck på CLEAR/OFF och prova funktionen igen.",
+   "Slå av spisens säkring i 30 sekunder.",
+   "Slå på den igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Begär en LG-reparation om det fortsätter komma tillbaka."
+ },
+ "LG|F2": {
+  "title": "Fel på övre ugnens termistor",
+  "causes": [
+   "Fel på temperatursensorn i övre ugnen."
+  ],
+  "steps": [
+   "Tryck på CLEAR/OFF och prova funktionen igen.",
+   "Slå av spisens säkring i 30 sekunder.",
+   "Slå på den igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Begär en LG-reparation om det fortsätter komma tillbaka."
+ },
+ "LG|F3": {
+  "title": "Fel på pekpanelens sensorknapp",
+  "causes": [
+   "Ett fel på en pekpanelsknapps sensor."
+  ],
+  "steps": [
+   "Tryck på CLEAR/OFF och prova funktionen igen.",
+   "Slå av spisens säkring i 30 sekunder.",
+   "Slå på den igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Begär en LG-reparation om det fortsätter komma tillbaka."
+ },
+ "LG|F6": {
+  "title": "Fel på värmen i övre ugnen",
+  "causes": [
+   "Värmefel i övre ugnen."
+  ],
+  "steps": [
+   "Tryck på CLEAR/OFF och prova funktionen igen.",
+   "Slå av spisens säkring i 30 sekunder.",
+   "Slå på den igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Begär en LG-reparation om det fortsätter komma tillbaka."
+ },
+ "LG|F7": {
+  "title": "Fel på övre konvektionsfläkten",
+  "causes": [
+   "Fel på konvektionsfläkten."
+  ],
+  "steps": [
+   "Tryck på CLEAR/OFF och prova funktionen igen.",
+   "Slå av spisens säkring i 30 sekunder.",
+   "Slå på den igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Begär en LG-reparation om det fortsätter komma tillbaka."
+ },
+ "LG|F9": {
+  "title": "Övre ugnen värms inte ordentligt",
+  "causes": [
+   "Övre ugnen värms inte."
+  ],
+  "steps": [
+   "Tryck på CLEAR/OFF och prova funktionen igen.",
+   "Slå av spisens säkring i 30 sekunder.",
+   "Slå på den igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Begär en LG-reparation om det fortsätter komma tillbaka."
+ },
+ "LG|F10": {
+  "title": "Fel på dörrlåset i övre ugnen",
+  "causes": [
+   "Fel på dörrlåssystemet."
+  ],
+  "steps": [
+   "Tryck på CLEAR/OFF och prova funktionen igen.",
+   "Slå av spisens säkring i 30 sekunder.",
+   "Slå på den igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Begär en LG-reparation om det fortsätter komma tillbaka."
+ },
+ "LG|F11": {
+  "title": "Kommunikationsfel",
+  "causes": [
+   "Korten kommunicerar inte."
+  ],
+  "steps": [
+   "Tryck på CLEAR/OFF och prova funktionen igen.",
+   "Slå av spisens säkring i 30 sekunder.",
+   "Slå på den igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Begär en LG-reparation om det fortsätter komma tillbaka."
+ },
+ "LG|F20": {
+  "title": "Fel på dörrlåset i nedre ugnen",
+  "causes": [
+   "Fel på dörrlåssystemet."
+  ],
+  "steps": [
+   "Tryck på CLEAR/OFF och prova funktionen igen.",
+   "Slå av spisens säkring i 30 sekunder.",
+   "Slå på den igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Begär en LG-reparation om det fortsätter komma tillbaka."
+ },
+ "LG|F27": {
+  "title": "Kylfläkten har stannat vid självrengöring",
+  "causes": [
+   "Fläkten stannade under självrengöring."
+  ],
+  "steps": [
+   "Tryck på CLEAR/OFF och prova funktionen igen.",
+   "Slå av spisens säkring i 30 sekunder.",
+   "Slå på den igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Begär en LG-reparation om det fortsätter komma tillbaka."
+ },
+ "LG|PF": {
+  "title": "Strömmen avbröts",
+  "causes": [
+   "Strömmen till apparaten avbröts."
+  ],
+  "steps": [
+   "Tryck på CLEAR/OFF och prova funktionen igen.",
+   "Slå av spisens säkring i 30 sekunder.",
+   "Slå på den igen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Begär en LG-reparation om det fortsätter komma tillbaka."
+ },
+ "Beko|Er 5": {
+  "title": "Kommunikationsfel med stektermometern",
+  "causes": [
+   "Ugnen kan inte kommunicera med stektermometern."
+  ],
+  "steps": [
+   "Ta bort stektermometern.",
+   "Ställ vredet på av (0).",
+   "Laga maten utan termometern.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Kontakta auktoriserad service för att kunna använda termometern igen."
+ },
+ "Beko|Er 1 - Er 7": {
+  "title": "Kommunikationsfel i ugnen",
+  "causes": [
+   "Interna kommunikationsfel."
+  ],
+  "steps": [
+   "Stäng av ugnen.",
+   "Notera det exakta numret.",
+   "Använd inte ugnen.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Kontakta en auktoriserad Beko-service."
+ },
+ "Beko|Er 8 - Er 27": {
+  "title": "Fel på ugnens sensorer",
+  "causes": [
+   "En sensor i ugnen är defekt."
+  ],
+  "steps": [
+   "Stäng av ugnen.",
+   "Notera det exakta numret.",
+   "Skriv ned exakt kod och modellnummer från typskylten innan du kontaktar någon."
+  ],
+  "technician": "Kontakta en auktoriserad Beko-service."
+ }
+}

@@ -1,0 +1,654 @@
+{
+ "Roku|Error 009": {
+  "title": "Conectat la router, dar fără internet",
+  "causes": [
+   "Routerul este accesibil, dar nu are internet.",
+   "Serviciul de internet este căzut."
+  ],
+  "steps": [
+   "Verificați dacă un telefon sau un laptop se poate conecta la internet în aceeași rețea.",
+   "Dacă nimic nu are internet, sunați la furnizorul de internet.",
+   "Dacă celelalte dispozitive funcționează, reporniți televizorul.",
+   "Reporniți routerul și modemul, apoi reconectați-vă."
+  ],
+  "technician": "Dacă eroarea reapare după acești pași, contactați asistența Roku sau furnizorul de internet."
+ },
+ "Roku|Error 012": {
+  "title": "Problemă la conexiunea de rețea prin cablu",
+  "causes": [
+   "Cablul Ethernet este slab conectat sau defect.",
+   "Portul routerului nu funcționează."
+  ],
+  "steps": [
+   "Introduceți ferm cablul Ethernet în televizor și în router.",
+   "Încercați alt cablu sau alt port al routerului.",
+   "Reporniți televizorul, apoi routerul și modemul.",
+   "Încercați scurt Wi-Fi, ca să vedeți dacă internetul în sine funcționează."
+  ],
+  "technician": "Dacă eroarea reapare după acești pași, contactați asistența Roku sau furnizorul de internet."
+ },
+ "Roku|Error 013": {
+  "title": "Conexiunea prin cablu nu ajunge la internet",
+  "causes": [
+   "Routerul nu are internet.",
+   "Cablul Ethernet nu este bine introdus."
+  ],
+  "steps": [
+   "Verificați dacă un alt dispozitiv are internet.",
+   "Dacă da, reporniți televizorul.",
+   "Dacă nu, scoateți și reintroduceți cablul Ethernet la ambele capete.",
+   "Reporniți routerul înainte de a suna furnizorul."
+  ],
+  "technician": "Dacă eroarea reapare după acești pași, contactați asistența Roku sau furnizorul de internet."
+ },
+ "Roku|Error 014": {
+  "title": "Nu se poate conecta la rețeaua wireless",
+  "causes": [
+   "A fost aleasă o rețea greșită.",
+   "Parola a fost introdusă greșit.",
+   "Routerul sau televizorul trebuie repornit."
+  ],
+  "steps": [
+   "Verificați dacă ați ales numele corect al rețelei.",
+   "Introduceți din nou parola; ține cont de majuscule și minuscule.",
+   "Reporniți televizorul și routerul.",
+   "Încercați din nou să vă conectați."
+  ],
+  "technician": "Dacă eroarea reapare după acești pași, contactați asistența Roku sau furnizorul de internet."
+ },
+ "Roku|Error 014.20": {
+  "title": "Semnalul Wi-Fi slab împiedică conectarea",
+  "causes": [
+   "Televizorul este prea departe de router.",
+   "Pereții sau obiectele slăbesc semnalul."
+  ],
+  "steps": [
+   "Apropiați televizorul sau routerul ori ridicați routerul mai sus.",
+   "Reporniți routerul și televizorul.",
+   "Dacă routerul are două benzi, încercați-o pe cealaltă.",
+   "Reconectați-vă la rețea."
+  ],
+  "technician": "Dacă eroarea reapare după acești pași, contactați asistența Roku sau furnizorul de internet."
+ },
+ "Roku|Error 014.30": {
+  "title": "Conectarea Wi-Fi a eșuat, semnal slab",
+  "causes": [
+   "Semnal Wi-Fi slab.",
+   "Defecțiune temporară a routerului sau a televizorului."
+  ],
+  "steps": [
+   "Reporniți routerul și televizorul.",
+   "Apropiați televizorul de router.",
+   "Reconectați-vă la Wi-Fi.",
+   "Încercați cealaltă bandă a routerului, dacă există."
+  ],
+  "technician": "Dacă eroarea reapare după acești pași, contactați asistența Roku sau furnizorul de internet."
+ },
+ "Roku|Error 014.40": {
+  "title": "Parolă greșită sau restricție a routerului",
+  "causes": [
+   "Parola Wi-Fi a fost introdusă greșit.",
+   "Routerul blochează dispozitivele necunoscute."
+  ],
+  "steps": [
+   "Verificați numele rețelei și introduceți din nou parola.",
+   "Dacă routerul filtrează dispozitivele, adăugați adresa MAC wireless a televizorului.",
+   "Reporniți televizorul și routerul.",
+   "Încercați din nou."
+  ],
+  "technician": "Dacă eroarea reapare după acești pași, contactați asistența Roku sau furnizorul de internet."
+ },
+ "Roku|Error 014.41": {
+  "title": "Parolă greșită sau restricție a routerului",
+  "causes": [
+   "Parola Wi-Fi a fost introdusă greșit.",
+   "Routerul blochează dispozitivele necunoscute."
+  ],
+  "steps": [
+   "Verificați numele rețelei și introduceți din nou parola, cu atenție.",
+   "Dacă routerul filtrează dispozitivele, permiteți adresa MAC wireless a televizorului.",
+   "Reporniți televizorul și routerul.",
+   "Încercați din nou."
+  ],
+  "technician": "Dacă eroarea reapare după acești pași, contactați asistența Roku sau furnizorul de internet."
+ },
+ "Roku|Error 014.50": {
+  "title": "Conectarea Wi-Fi a eșuat, semnal slab",
+  "causes": [
+   "Semnal Wi-Fi slab.",
+   "Defecțiune temporară a routerului sau a televizorului."
+  ],
+  "steps": [
+   "Reporniți routerul și televizorul.",
+   "Apropiați televizorul de router.",
+   "Reconectați-vă la Wi-Fi.",
+   "Încercați cealaltă bandă a routerului, dacă există."
+  ],
+  "technician": "Dacă eroarea reapare după acești pași, contactați asistența Roku sau furnizorul de internet."
+ },
+ "Roku|Error 016": {
+  "title": "Conexiune pierdută la deschiderea unui canal",
+  "causes": [
+   "Rețeaua s-a întrerupt în timp ce pornea o aplicație.",
+   "Semnal Wi-Fi slab."
+  ],
+  "steps": [
+   "Alegeți pe ecran Set up connection și urmați indicațiile.",
+   "Reporniți televizorul și routerul.",
+   "Verificați intensitatea semnalului Wi-Fi.",
+   "Apropiați televizorul și routerul."
+  ],
+  "technician": "Dacă eroarea reapare după acești pași, contactați asistența Roku sau furnizorul de internet."
+ },
+ "Roku|Error 017": {
+  "title": "Intensitate slabă a semnalului wireless",
+  "causes": [
+   "Semnal Wi-Fi slab la televizor.",
+   "Obstacole între televizor și router."
+  ],
+  "steps": [
+   "Apropiați televizorul și routerul unul de celălalt.",
+   "Îndepărtați obstacolele dintre ele.",
+   "Reporniți televizorul și routerul.",
+   "Folosiți un cablu Ethernet dacă televizorul are port."
+  ],
+  "technician": "Dacă eroarea reapare după acești pași, contactați asistența Roku sau furnizorul de internet."
+ },
+ "Roku|Error 018": {
+  "title": "Viteza internetului este prea mică",
+  "causes": [
+   "Abonamentul sau linia de internet este lentă.",
+   "Alte dispozitive consumă din lățimea de bandă."
+  ],
+  "steps": [
+   "Opriți descărcările și transmisiile de pe celelalte dispozitive.",
+   "Reporniți modemul și routerul.",
+   "Întrebați furnizorul ce viteză primiți.",
+   "Luați în calcul un abonament mai rapid."
+  ],
+  "technician": "Dacă eroarea reapare după acești pași, contactați asistența Roku sau furnizorul de internet."
+ },
+ "Roku|Error 14.10": {
+  "title": "Eșec al conexiunii wireless",
+  "causes": [
+   "Defecțiune temporară a Wi-Fi între televizor și router."
+  ],
+  "steps": [
+   "Reporniți routerul și așteptați să revină online.",
+   "Reporniți televizorul Roku.",
+   "Încercați din nou să vă conectați la rețea.",
+   "Apropiați televizorul dacă semnalul este slab."
+  ],
+  "technician": "Dacă eroarea reapare după acești pași, contactați asistența Roku sau furnizorul de internet."
+ },
+ "Roku|Error 14.11": {
+  "title": "Eșec al conexiunii wireless",
+  "causes": [
+   "Defecțiune temporară a Wi-Fi între televizor și router."
+  ],
+  "steps": [
+   "Reporniți routerul și așteptați să revină online.",
+   "Reporniți televizorul Roku.",
+   "Încercați din nou să vă conectați la rețea.",
+   "Apropiați televizorul dacă semnalul este slab."
+  ],
+  "technician": "Dacă eroarea reapare după acești pași, contactați asistența Roku sau furnizorul de internet."
+ },
+ "Roku|Error 14.62": {
+  "title": "Problemă de conexiune wireless, semnal slab",
+  "causes": [
+   "Semnal Wi-Fi slab la televizor."
+  ],
+  "steps": [
+   "Verificați intensitatea semnalului afișată pe ecran.",
+   "Apropiați televizorul sau routerul unul de celălalt.",
+   "Reporniți routerul și televizorul.",
+   "Reconectați-vă la rețea."
+  ],
+  "technician": "Dacă eroarea reapare după acești pași, contactați asistența Roku sau furnizorul de internet."
+ },
+ "Roku|Error 14.64": {
+  "title": "Problemă de conexiune wireless, semnal slab",
+  "causes": [
+   "Semnal Wi-Fi slab la televizor."
+  ],
+  "steps": [
+   "Verificați intensitatea semnalului afișată pe ecran.",
+   "Apropiați televizorul sau routerul unul de celălalt.",
+   "Reporniți routerul și televizorul.",
+   "Reconectați-vă la rețea."
+  ],
+  "technician": "Dacă eroarea reapare după acești pași, contactați asistența Roku sau furnizorul de internet."
+ },
+ "TCL|Error 009": {
+  "title": "Conectat la router, dar fără internet",
+  "causes": [
+   "Routerul este accesibil, dar nu are internet.",
+   "Serviciul de internet este căzut."
+  ],
+  "steps": [
+   "Verificați dacă un telefon sau un laptop se poate conecta la internet în aceeași rețea.",
+   "Dacă nimic nu are internet, sunați la furnizorul de internet.",
+   "Dacă celelalte dispozitive funcționează, reporniți televizorul.",
+   "Reporniți routerul și modemul, apoi reconectați-vă."
+  ],
+  "technician": "Dacă eroarea reapare după resetarea rețelei, contactați asistența TCL pentru televizorul Roku."
+ },
+ "TCL|Error 012": {
+  "title": "Problemă la conexiunea de rețea prin cablu",
+  "causes": [
+   "Cablul Ethernet este slab conectat sau defect.",
+   "Portul routerului nu funcționează."
+  ],
+  "steps": [
+   "Introduceți ferm cablul Ethernet în televizor și în router.",
+   "Încercați alt cablu sau alt port al routerului.",
+   "Reporniți televizorul, apoi routerul și modemul.",
+   "Încercați scurt Wi-Fi, ca să vedeți dacă internetul în sine funcționează."
+  ],
+  "technician": "Dacă eroarea reapare după resetarea rețelei, contactați asistența TCL pentru televizorul Roku."
+ },
+ "TCL|Error 013": {
+  "title": "Conexiunea prin cablu nu ajunge la internet",
+  "causes": [
+   "Routerul nu are internet.",
+   "Cablul Ethernet nu este bine introdus."
+  ],
+  "steps": [
+   "Verificați dacă un alt dispozitiv are internet.",
+   "Dacă da, reporniți televizorul.",
+   "Dacă nu, scoateți și reintroduceți cablul Ethernet la ambele capete.",
+   "Reporniți routerul înainte de a suna furnizorul."
+  ],
+  "technician": "Dacă eroarea reapare după resetarea rețelei, contactați asistența TCL pentru televizorul Roku."
+ },
+ "TCL|Error 014": {
+  "title": "Nu se poate conecta la rețeaua wireless",
+  "causes": [
+   "A fost aleasă o rețea greșită.",
+   "Parola a fost introdusă greșit.",
+   "Routerul sau televizorul trebuie repornit."
+  ],
+  "steps": [
+   "Verificați dacă ați ales numele corect al rețelei.",
+   "Introduceți din nou parola; ține cont de majuscule și minuscule.",
+   "Reporniți televizorul și routerul.",
+   "Încercați din nou să vă conectați."
+  ],
+  "technician": "Dacă eroarea reapare după resetarea rețelei, contactați asistența TCL pentru televizorul Roku."
+ },
+ "TCL|Error 014.20": {
+  "title": "Semnalul Wi-Fi slab împiedică conectarea",
+  "causes": [
+   "Televizorul este prea departe de router.",
+   "Pereții sau obiectele slăbesc semnalul."
+  ],
+  "steps": [
+   "Apropiați televizorul sau routerul ori ridicați routerul mai sus.",
+   "Reporniți routerul și televizorul.",
+   "Dacă routerul are două benzi, încercați-o pe cealaltă.",
+   "Reconectați-vă la rețea."
+  ],
+  "technician": "Dacă eroarea reapare după resetarea rețelei, contactați asistența TCL pentru televizorul Roku."
+ },
+ "TCL|Error 014.30": {
+  "title": "Conectarea Wi-Fi a eșuat, semnal slab",
+  "causes": [
+   "Semnal Wi-Fi slab.",
+   "Defecțiune temporară a routerului sau a televizorului."
+  ],
+  "steps": [
+   "Reporniți routerul și televizorul.",
+   "Apropiați televizorul de router.",
+   "Reconectați-vă la Wi-Fi.",
+   "Încercați cealaltă bandă a routerului, dacă există."
+  ],
+  "technician": "Dacă eroarea reapare după resetarea rețelei, contactați asistența TCL pentru televizorul Roku."
+ },
+ "TCL|Error 014.40": {
+  "title": "Parolă greșită sau restricție a routerului",
+  "causes": [
+   "Parola Wi-Fi a fost introdusă greșit.",
+   "Routerul blochează dispozitivele necunoscute."
+  ],
+  "steps": [
+   "Verificați numele rețelei și introduceți din nou parola.",
+   "Dacă routerul filtrează dispozitivele, adăugați adresa MAC wireless a televizorului.",
+   "Reporniți televizorul și routerul.",
+   "Încercați din nou."
+  ],
+  "technician": "Dacă eroarea reapare după resetarea rețelei, contactați asistența TCL pentru televizorul Roku."
+ },
+ "TCL|Error 014.41": {
+  "title": "Parolă greșită sau restricție a routerului",
+  "causes": [
+   "Parola Wi-Fi a fost introdusă greșit.",
+   "Routerul blochează dispozitivele necunoscute."
+  ],
+  "steps": [
+   "Verificați numele rețelei și introduceți din nou parola, cu atenție.",
+   "Dacă routerul filtrează dispozitivele, permiteți adresa MAC wireless a televizorului.",
+   "Reporniți televizorul și routerul.",
+   "Încercați din nou."
+  ],
+  "technician": "Dacă eroarea reapare după resetarea rețelei, contactați asistența TCL pentru televizorul Roku."
+ },
+ "TCL|Error 014.50": {
+  "title": "Conectarea Wi-Fi a eșuat, semnal slab",
+  "causes": [
+   "Semnal Wi-Fi slab.",
+   "Defecțiune temporară a routerului sau a televizorului."
+  ],
+  "steps": [
+   "Reporniți routerul și televizorul.",
+   "Apropiați televizorul de router.",
+   "Reconectați-vă la Wi-Fi.",
+   "Încercați cealaltă bandă a routerului, dacă există."
+  ],
+  "technician": "Dacă eroarea reapare după resetarea rețelei, contactați asistența TCL pentru televizorul Roku."
+ },
+ "TCL|Error 016": {
+  "title": "Conexiune pierdută la deschiderea unui canal",
+  "causes": [
+   "Rețeaua s-a întrerupt în timp ce pornea o aplicație.",
+   "Semnal Wi-Fi slab."
+  ],
+  "steps": [
+   "Alegeți pe ecran Set up connection și urmați indicațiile.",
+   "Reporniți televizorul și routerul.",
+   "Verificați intensitatea semnalului Wi-Fi.",
+   "Apropiați televizorul și routerul."
+  ],
+  "technician": "Dacă eroarea reapare după resetarea rețelei, contactați asistența TCL pentru televizorul Roku."
+ },
+ "TCL|Error 017": {
+  "title": "Intensitate slabă a semnalului wireless",
+  "causes": [
+   "Semnal Wi-Fi slab la televizor.",
+   "Obstacole între televizor și router."
+  ],
+  "steps": [
+   "Apropiați televizorul și routerul unul de celălalt.",
+   "Îndepărtați obstacolele dintre ele.",
+   "Reporniți televizorul și routerul.",
+   "Folosiți un cablu Ethernet dacă televizorul are port."
+  ],
+  "technician": "Dacă eroarea reapare după resetarea rețelei, contactați asistența TCL pentru televizorul Roku."
+ },
+ "TCL|Error 018": {
+  "title": "Viteza internetului este prea mică",
+  "causes": [
+   "Abonamentul sau linia de internet este lentă.",
+   "Alte dispozitive consumă din lățimea de bandă."
+  ],
+  "steps": [
+   "Opriți descărcările și transmisiile de pe celelalte dispozitive.",
+   "Reporniți modemul și routerul.",
+   "Întrebați furnizorul ce viteză primiți.",
+   "Luați în calcul un abonament mai rapid."
+  ],
+  "technician": "Dacă eroarea reapare după resetarea rețelei, contactați asistența TCL pentru televizorul Roku."
+ },
+ "Sony|Red LED blinks 2 times": {
+  "title": "Televizorul Sony a detectat o defecțiune (2 clipiri)",
+  "causes": [
+   "Televizorul a găsit o defecțiune internă.",
+   "Semnificația numărului de clipiri diferă de la un model la altul."
+  ],
+  "steps": [
+   "Opriți și scoateți televizorul din priză timp de 1 minut, departe de orice prelungitor.",
+   "Eliberați fantele de ventilație pentru ca aerul să circule.",
+   "Deconectați toate dispozitivele conectate și porniți din nou.",
+   "Actualizați software-ul televizorului dacă pornește.",
+   "Notați numărul de clipiri și contactați Sony."
+  ],
+  "technician": "Majoritatea defecțiunilor indicate prin clipiri roșii necesită service, așa că contactați asistența Sony și comunicați numărul de clipiri."
+ },
+ "Sony|Red LED blinks 3 times": {
+  "title": "Televizorul Sony a detectat o defecțiune (3 clipiri)",
+  "causes": [
+   "Televizorul a găsit o defecțiune internă.",
+   "Semnificația numărului de clipiri diferă de la un model la altul."
+  ],
+  "steps": [
+   "Opriți și scoateți televizorul din priză timp de 1 minut, departe de orice prelungitor.",
+   "Eliberați fantele de ventilație pentru ca aerul să circule.",
+   "Deconectați toate dispozitivele conectate și porniți din nou.",
+   "Actualizați software-ul televizorului dacă pornește.",
+   "Notați numărul de clipiri și contactați Sony."
+  ],
+  "technician": "Majoritatea defecțiunilor indicate prin clipiri roșii necesită service, așa că contactați asistența Sony și comunicați numărul de clipiri."
+ },
+ "Sony|Red LED blinks 4 times": {
+  "title": "Televizorul Sony a detectat o defecțiune (4 clipiri)",
+  "causes": [
+   "Televizorul a găsit o defecțiune internă.",
+   "Semnificația numărului de clipiri diferă de la un model la altul."
+  ],
+  "steps": [
+   "Opriți și scoateți televizorul din priză timp de 1 minut, departe de orice prelungitor.",
+   "Eliberați fantele de ventilație pentru ca aerul să circule.",
+   "Deconectați toate dispozitivele conectate și porniți din nou.",
+   "Actualizați software-ul televizorului dacă pornește.",
+   "Notați numărul de clipiri și contactați Sony."
+  ],
+  "technician": "Majoritatea defecțiunilor indicate prin clipiri roșii necesită service, așa că contactați asistența Sony și comunicați numărul de clipiri."
+ },
+ "Sony|Red LED blinks 5 times": {
+  "title": "Televizorul Sony a detectat o defecțiune (5 clipiri)",
+  "causes": [
+   "Televizorul a găsit o defecțiune internă.",
+   "Semnificația numărului de clipiri diferă de la un model la altul."
+  ],
+  "steps": [
+   "Opriți și scoateți televizorul din priză timp de 1 minut, departe de orice prelungitor.",
+   "Eliberați fantele de ventilație pentru ca aerul să circule.",
+   "Deconectați toate dispozitivele conectate și porniți din nou.",
+   "Actualizați software-ul televizorului dacă pornește.",
+   "Notați numărul de clipiri și contactați Sony."
+  ],
+  "technician": "Majoritatea defecțiunilor indicate prin clipiri roșii necesită service, așa că contactați asistența Sony și comunicați numărul de clipiri."
+ },
+ "Sony|Red LED blinks 6 times": {
+  "title": "Televizorul Sony a detectat o defecțiune (6 clipiri)",
+  "causes": [
+   "Televizorul a găsit o defecțiune internă.",
+   "Semnificația numărului de clipiri diferă de la un model la altul."
+  ],
+  "steps": [
+   "Opriți și scoateți televizorul din priză timp de 1 minut, departe de orice prelungitor.",
+   "Eliberați fantele de ventilație pentru ca aerul să circule.",
+   "Deconectați toate dispozitivele conectate și porniți din nou.",
+   "Actualizați software-ul televizorului dacă pornește.",
+   "Notați numărul de clipiri și contactați Sony."
+  ],
+  "technician": "Majoritatea defecțiunilor indicate prin clipiri roșii necesită service, așa că contactați asistența Sony și comunicați numărul de clipiri."
+ },
+ "Sony|Red LED blinks 7 times": {
+  "title": "Televizorul Sony a detectat o defecțiune (7 clipiri)",
+  "causes": [
+   "Televizorul a găsit o defecțiune internă.",
+   "Semnificația numărului de clipiri diferă de la un model la altul."
+  ],
+  "steps": [
+   "Opriți și scoateți televizorul din priză timp de 1 minut, departe de orice prelungitor.",
+   "Eliberați fantele de ventilație pentru ca aerul să circule.",
+   "Deconectați toate dispozitivele conectate și porniți din nou.",
+   "Actualizați software-ul televizorului dacă pornește.",
+   "Notați numărul de clipiri și contactați Sony."
+  ],
+  "technician": "Majoritatea defecțiunilor indicate prin clipiri roșii necesită service, așa că contactați asistența Sony și comunicați numărul de clipiri."
+ },
+ "Sony|Red LED blinks 8 times": {
+  "title": "Televizorul Sony a detectat o defecțiune (8 clipiri)",
+  "causes": [
+   "Televizorul a găsit o defecțiune internă.",
+   "Semnificația numărului de clipiri diferă de la un model la altul."
+  ],
+  "steps": [
+   "Opriți și scoateți televizorul din priză timp de 1 minut, departe de orice prelungitor.",
+   "Eliberați fantele de ventilație pentru ca aerul să circule.",
+   "Deconectați toate dispozitivele conectate și porniți din nou.",
+   "Actualizați software-ul televizorului dacă pornește.",
+   "Notați numărul de clipiri și contactați Sony."
+  ],
+  "technician": "Majoritatea defecțiunilor indicate prin clipiri roșii necesită service, așa că contactați asistența Sony și comunicați numărul de clipiri."
+ },
+ "Sony|Orange LED solid": {
+  "title": "Temporizatorul de oprire sau de pornire/oprire este activ",
+  "causes": [
+   "Pe televizor este setat un temporizator de oprire sau de pornire/oprire."
+  ],
+  "steps": [
+   "Deschideți meniul Settings al televizorului.",
+   "Găsiți temporizatorul de oprire sau de pornire/oprire.",
+   "Dezactivați temporizatorul sau schimbați ora.",
+   "Verificați dacă se stinge lumina."
+  ],
+  "technician": "Nu este nevoie de service, decât dacă lumina rămâne aprinsă fără niciun temporizator setat."
+ },
+ "Sony|Orange LED blinking": {
+  "title": "Actualizare de software în curs sau cablu slab conectat",
+  "causes": [
+   "O actualizare de software este în desfășurare.",
+   "La televizoarele cu cutie media separată, cablul dintre unități poate fi slab conectat."
+  ],
+  "steps": [
+   "Nu opriți și nu scoateți televizorul din priză; așteptați câteva minute.",
+   "Telecomanda nu va funcționa în timpul actualizării.",
+   "La modelele cu cutie media, verificați dacă cablul dintre unități este bine fixat."
+  ],
+  "technician": "Dacă clipește mult timp, contactați asistența Sony."
+ },
+ "Sony|Green LED blinking": {
+  "title": "Pornire normală sau televizorul nu pornește",
+  "causes": [
+   "Normal cât timp televizorul pornește.",
+   "Posibilă defecțiune dacă nu se oprește niciodată sau dacă televizorul se pornește și se oprește singur."
+  ],
+  "steps": [
+   "Așteptați ca televizorul să termine pornirea; clipirea ar trebui să se oprească.",
+   "Dacă tot clipește, scoateți televizorul din priză pentru 3 minute.",
+   "Conectați-l la priză și încercați din nou."
+  ],
+  "technician": "Dacă televizorul tot nu pornește, are nevoie de service de la Sony."
+ },
+ "Sony|White LED blinking": {
+  "title": "Lampa televizorului cu proiecție trebuie înlocuită",
+  "causes": [
+   "Lampa s-a ars (doar la televizoarele cu proiecție și la proiectoare).",
+   "Capacul lămpii poate fi deschis."
+  ],
+  "steps": [
+   "Opriți aparatul și lăsați lampa să se răcească.",
+   "Asigurați-vă că capacele lămpii sunt închise și fixate.",
+   "Nu atingeți sticla lămpii; dacă ați atins-o, ștergeți-o cu un șervețel cu alcool.",
+   "Aranjați înlocuirea lămpii."
+  ],
+  "technician": "Contactați asistența Sony pentru a obține o lampă de schimb."
+ },
+ "Sony|Red LED blinking with 3-second pause": {
+  "title": "Defecțiune indicată prin clipiri roșii repetate",
+  "causes": [
+   "Televizorul a găsit o defecțiune și afișează un număr de clipiri."
+  ],
+  "steps": [
+   "Numărați clipirile dintre pauze.",
+   "Scoateți televizorul din priză, așteptați 2 minute, apoi conectați-l și porniți-l.",
+   "Dacă se repetă, scoateți-l din priză și sunați la Sony, comunicând numărul de clipiri."
+  ],
+  "technician": "Comunicați numărul de clipiri asistenței Sony."
+ },
+ "Panasonic|Red LED blinking": {
+  "title": "Televizorul a detectat o eroare (SOS)",
+  "causes": [
+   "Televizorul a găsit o eroare internă.",
+   "Se aplică modelelor Panasonic Fire TV."
+  ],
+  "steps": [
+   "Scoateți televizorul din priză pentru câteva minute.",
+   "Conectați-l la loc și porniți-l.",
+   "Dacă tot clipește, trimiteți o solicitare de reparație către Panasonic."
+  ],
+  "technician": "Dacă clipirea continuă, trimiteți o solicitare de asistență pentru reparație către Panasonic."
+ },
+ "Panasonic|Orange LED solid": {
+  "title": "Standby în timpul întreținerii panoului sau al unei sarcini de rețea",
+  "causes": [
+   "Este în curs întreținerea panoului sau o funcție de rețea."
+  ],
+  "steps": [
+   "Nu atingeți și nu apăsați ecranul în timpul întreținerii panoului.",
+   "Așteptați până se termină sarcina.",
+   "Dacă se repetă, citiți articolul Panasonic despre întreținerea panoului."
+  ],
+  "technician": "Dacă lumina rămâne portocalie mult timp, contactați asistența Panasonic."
+ },
+ "Panasonic|Orange LED blinking": {
+  "title": "Întreținerea panoului sau actualizarea rețelei este în curs",
+  "causes": [
+   "Întreținerea panoului este în curs.",
+   "O conexiune de rețea sau o actualizare a setărilor este în desfășurare."
+  ],
+  "steps": [
+   "Lăsați televizorul în priză și așteptați să termine.",
+   "Dacă LED-ul devine din nou portocaliu după ce porniți sau opriți televizorul, întreținerea nu s-a terminat.",
+   "Lăsați-o să se încheie înainte de a opri aparatul."
+  ],
+  "technician": "Dacă nu se oprește niciodată, contactați asistența Panasonic."
+ },
+ "Panasonic|Green LED blinking": {
+  "title": "Televizorul pornește sau așteaptă asocierea Bluetooth",
+  "causes": [
+   "Televizorul pornește.",
+   "Așteaptă asocierea unui dispozitiv Bluetooth."
+  ],
+  "steps": [
+   "Așteptați să se termine pornirea.",
+   "Dacă este vorba de asociere, finalizați asocierea pe celălalt dispozitiv.",
+   "Dacă nu se oprește niciodată, scoateți-l scurt din priză și încercați din nou."
+  ],
+  "technician": "Dacă televizorul nu termină niciodată pornirea, contactați asistența Panasonic."
+ },
+ "Philips|Standby light blinks red": {
+  "title": "Televizorul Philips raportează o defecțiune",
+  "causes": [
+   "Televizorul a detectat o defecțiune.",
+   "Televizorul s-ar putea să se fi supraîncălzit."
+  ],
+  "steps": [
+   "Scoateți televizorul din priza de perete.",
+   "Lăsați-l să se răcească complet.",
+   "Conectați la loc cablul de alimentare.",
+   "Porniți-l din nou."
+  ],
+  "technician": "Dacă lumina roșie clipește din nou, contactați Philips Consumer Care."
+ },
+ "Philips|Front LED blinks in a repeating pattern": {
+  "title": "Televizorul nu pornește, LED-ul clipește repetat",
+  "causes": [
+   "Televizorul nu pornește și nu afișează imagine sau sunet.",
+   "O defecțiune temporară de alimentare."
+  ],
+  "steps": [
+   "Faceți o repornire completă: scoateți televizorul din priză și așteptați câteva minute.",
+   "Conectați-l la priză și încercați din nou.",
+   "Încercați altă priză de perete."
+  ],
+  "technician": "Dacă tot clipește, contactați asistența Philips pentru televizoare."
+ },
+ "LG|Error 106": {
+  "title": "Televizorul nu este conectat la rețea",
+  "causes": [
+   "Televizorul nu are o conexiune la internet funcțională.",
+   "Adaptorul Wi-Fi sau setările routerului nu sunt potrivite."
+  ],
+  "steps": [
+   "Testați un alt dispozitiv în aceeași rețea.",
+   "Reporniți routerul și televizorul, apoi introduceți din nou parola Wi-Fi.",
+   "În setările avansate Wi-Fi, setați manual DNS la 8.8.8.8.",
+   "Folosiți 5 GHz dacă televizorul îl acceptă și apropiați routerul."
+  ],
+  "technician": "Dacă nimic nu ajută, modulul Wi-Fi poate necesita înlocuire, deci contactați service-ul LG."
+ }
+}

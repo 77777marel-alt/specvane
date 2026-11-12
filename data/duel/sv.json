@@ -1,0 +1,15 @@
+{
+ "title": "Duell på 30 sekunder: vilken passar dig bäst?",
+ "lead": "Tryck på hur viktigt varje sak är för dig. Vi väger hur varje modell placerar sig bland alla modeller i vår katalog på de specifikationerna och berättar vilken som passar dig.",
+ "levels": [
+  "Spelar ingen roll",
+  "Viktigt",
+  "Mycket viktigt"
+ ],
+ "result": "För dig: {name}",
+ "tie": "Oavgjort: båda passar dig ungefär lika bra – välj efter pris eller design.",
+ "wins": "Före på {n} av de {m} sakerna du bryr dig om.",
+ "basis": "Poäng = andelen katalogmodeller som var och en slår på dessa specifikationer, viktad efter dina svar. Pris, design och recensioner ingår inte.",
+ "none": "Välj minst en sak som är viktig för dig.",
+ "specs": "Baserat på: {list}"
+}

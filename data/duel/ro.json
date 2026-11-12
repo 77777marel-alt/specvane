@@ -1,0 +1,15 @@
+{
+ "title": "Duel de 30 de secunde: care este mai bun pentru tine?",
+ "lead": "Atinge cât de important este pentru tine fiecare lucru. Cântărim locul pe care îl ocupă fiecare model printre toate modelele din catalogul nostru la aceste specificații și îți spunem care ți se potrivește.",
+ "levels": [
+  "Nu contează",
+  "Contează",
+  "Foarte important"
+ ],
+ "result": "Pentru tine: {name}",
+ "tie": "Egalitate: ambele ți se potrivesc aproximativ la fel — alege după preț sau design.",
+ "wins": "În față la {n} dintre cele {m} lucruri care contează pentru tine.",
+ "basis": "Scor = ponderea modelelor din catalog pe care le depășește fiecare la aceste specificații, ponderată după răspunsurile tale. Prețul, designul și recenziile nu sunt incluse.",
+ "none": "Alege cel puțin un lucru care contează pentru tine.",
+ "specs": "Pe baza: {list}"
+}

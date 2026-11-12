@@ -1,0 +1,15 @@
+{
+ "title": "Duello in 30 secondi: qual è meglio per te?",
+ "lead": "Tocca per indicare quanto conta ogni aspetto per te. Valutiamo come ciascun modello si posiziona tra tutti quelli del nostro catalogo su queste specifiche e ti diciamo quale fa per te.",
+ "levels": [
+  "Non importa",
+  "Conta",
+  "Molto importante"
+ ],
+ "result": "Per te: {name}",
+ "tie": "Pareggio: entrambi vanno bene più o meno allo stesso modo — scegli in base a prezzo o design.",
+ "wins": "In vantaggio su {n} dei {m} aspetti che ti stanno a cuore.",
+ "basis": "Punteggio = quota dei modelli del catalogo che ciascuno supera su queste specifiche, ponderata in base alle tue risposte. Prezzo, design e recensioni non sono inclusi.",
+ "none": "Scegli almeno un aspetto che conta per te.",
+ "specs": "In base a: {list}"
+}

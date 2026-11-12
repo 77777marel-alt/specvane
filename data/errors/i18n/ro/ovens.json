@@ -1,0 +1,1373 @@
+{
+ "Samsung|C-d0": {
+  "title": "Buton blocat sau apăsat prea mult timp",
+  "causes": [
+   "Un buton de comandă a fost ținut apăsat prea mult timp.",
+   "Umezeală sau grăsime pe panoul de comandă."
+  ],
+  "steps": [
+   "Ștergeți butoanele cu o cârpă umedă și uscați panoul.",
+   "Verificați să nu fie apă pe comenzi sau în jurul lor.",
+   "Opriți cuptorul, apoi încercați din nou."
+  ],
+  "technician": "Sunați la service-ul Samsung dacă codul reapare după o resetare completă a alimentării."
+ },
+ "Samsung|S-01": {
+  "title": "Oprire de siguranță după utilizare îndelungată",
+  "causes": [
+   "Cuptorul a funcționat prea multe ore la aceeași temperatură, așa că s-a oprit singur din motive de siguranță.",
+   "Aceasta nu este o defecțiune."
+  ],
+  "steps": [
+   "Opriți cuptorul.",
+   "Scoateți mâncarea.",
+   "Porniți din nou un ciclu normal de gătit."
+  ],
+  "technician": "Nu este nevoie de service, decât dacă apare după un timp scurt de gătit."
+ },
+ "Samsung|dC": {
+  "title": "Separator montat greșit pentru modul de gătit",
+  "causes": [
+   "Separatorul a fost scos în timpul modului de gătit dublu.",
+   "Sau separatorul a fost pus în timpul modului de gătit simplu."
+  ],
+  "steps": [
+   "Montați separatorul pentru gătit dublu și scoateți-l pentru gătit simplu.",
+   "Opriți cuptorul și reporniți-l.",
+   "Dacă persistă, întrerupeți alimentarea timp de cel puțin 30 de secunde, apoi restabiliți-o."
+  ],
+  "technician": "Sunați la service-ul Samsung dacă codul reapare după o resetare completă a alimentării."
+ },
+ "Samsung|dE": {
+  "title": "Separator montat greșit pentru modul de gătit",
+  "causes": [
+   "Separatorul a fost scos în timpul modului de gătit dublu.",
+   "Sau a fost introdus în timp ce se folosea modul de gătit simplu."
+  ],
+  "steps": [
+   "Lăsați separatorul montat pentru gătit dublu și scoateți-l pentru gătit simplu.",
+   "Opriți cuptorul și reporniți.",
+   "Dacă persistă, opriți siguranța automată timp de cel puțin 30 de secunde și reconectați-o."
+  ],
+  "technician": "Sunați la service-ul Samsung dacă codul reapare după o resetare completă a alimentării."
+ },
+ "Samsung|C-d1": {
+  "title": "Defecțiune a încuietorii ușii",
+  "causes": [
+   "Cuptorul detectează o problemă la încuietoarea ușii."
+  ],
+  "steps": [
+   "Opriți cuptorul și porniți-l din nou.",
+   "Dacă codul rămâne, întrerupeți alimentarea de la siguranța automată cel puțin 30 de secunde, apoi reconectați-o.",
+   "Nu forțați deschiderea ușii dacă este blocată."
+  ],
+  "technician": "Sunați la service-ul Samsung dacă codul reapare după o resetare completă a alimentării."
+ },
+ "Samsung|C-20": {
+  "title": "Defecțiune a senzorului cuptorului",
+  "causes": [
+   "Cuptorul raportează o problemă la un senzor de temperatură."
+  ],
+  "steps": [
+   "Opriți cuptorul și porniți-l din nou.",
+   "Dacă codul rămâne, întrerupeți alimentarea de la siguranța automată cel puțin 30 de secunde, apoi reconectați-o."
+  ],
+  "technician": "Sunați la service-ul Samsung dacă codul reapare după o resetare completă a alimentării."
+ },
+ "Samsung|C-21": {
+  "title": "Defecțiune a senzorului cuptorului",
+  "causes": [
+   "Cuptorul raportează o problemă la un senzor de temperatură."
+  ],
+  "steps": [
+   "Opriți cuptorul și porniți-l din nou.",
+   "Dacă codul rămâne, întrerupeți alimentarea de la siguranța automată cel puțin 30 de secunde, apoi reconectați-o."
+  ],
+  "technician": "Sunați la service-ul Samsung dacă codul reapare după o resetare completă a alimentării."
+ },
+ "Samsung|C-22": {
+  "title": "Defecțiune a senzorului cuptorului",
+  "causes": [
+   "Cuptorul raportează o problemă la un senzor de temperatură."
+  ],
+  "steps": [
+   "Opriți cuptorul și porniți-l din nou.",
+   "Dacă codul rămâne, întrerupeți alimentarea de la siguranța automată cel puțin 30 de secunde, apoi reconectați-o."
+  ],
+  "technician": "Sunați la service-ul Samsung dacă codul reapare după o resetare completă a alimentării."
+ },
+ "Samsung|C-F1": {
+  "title": "Eroare de citire sau scriere a memoriei",
+  "causes": [
+   "A apărut o eroare în timp ce placa de comandă citea sau scria în memorie (EEPROM)."
+  ],
+  "steps": [
+   "Opriți cuptorul și porniți-l din nou.",
+   "Dacă codul rămâne, întrerupeți alimentarea de la siguranța automată cel puțin 30 de secunde, apoi reconectați-o."
+  ],
+  "technician": "Sunați la service-ul Samsung dacă codul reapare după o resetare completă a alimentării."
+ },
+ "Samsung|C-F0": {
+  "title": "Placa principală și placa secundară nu comunică",
+  "causes": [
+   "Placa de circuite principală și placa secundară nu pot comunica între ele."
+  ],
+  "steps": [
+   "Opriți cuptorul și porniți-l din nou.",
+   "Dacă codul rămâne, întrerupeți alimentarea de la siguranța automată cel puțin 30 de secunde, apoi reconectați-o."
+  ],
+  "technician": "Sunați la service-ul Samsung dacă codul reapare după o resetare completă a alimentării."
+ },
+ "Samsung|C-F2": {
+  "title": "Problemă de comunicare a controlerului tactil",
+  "causes": [
+   "Controlerul tactil pierde în mod repetat legătura cu placa principală sau cu cea secundară."
+  ],
+  "steps": [
+   "Opriți cuptorul și porniți-l din nou.",
+   "Dacă codul rămâne, întrerupeți alimentarea de la siguranța automată cel puțin 30 de secunde, apoi reconectați-o."
+  ],
+  "technician": "Sunați la service-ul Samsung dacă codul reapare după o resetare completă a alimentării."
+ },
+ "Samsung|Pr E": {
+  "title": "Cuptorul se preîncălzește, mesaj normal",
+  "causes": [
+   "Cuptorul încă se încălzește până la temperatura setată.",
+   "Acesta este un mesaj normal, nu o defecțiune."
+  ],
+  "steps": [
+   "Țineți ușa închisă.",
+   "Așteptați ca cuptorul să atingă temperatura setată.",
+   "Codul dispare de la sine."
+  ],
+  "technician": "Nu este nevoie de service."
+ },
+ "Bosch|E011": {
+  "title": "Un buton de comandă este blocat",
+  "causes": [
+   "Un buton a fost apăsat prea mult timp sau s-a blocat.",
+   "Murdărie sau umezeală în jurul unui buton."
+  ],
+  "steps": [
+   "Apăsați fiecare buton pe rând și verificați dacă se mișcă liber.",
+   "Curățați zona comenzilor și uscați-o.",
+   "Opriți cuptorul și porniți-l din nou."
+  ],
+  "technician": "Sunați la service-ul Bosch dacă E011 rămâne după curățarea comenzilor."
+ },
+ "Bosch|E115": {
+  "title": "Cavitatea cuptorului este prea fierbinte, ușa este blocată",
+  "causes": [
+   "Interiorul cuptorului este prea fierbinte, de aceea încuietoarea ușii rămâne închisă."
+  ],
+  "steps": [
+   "Așteptați până se răcește cuptorul.",
+   "Ștergeți mesajul cu butonul 0.",
+   "Nu forțați ușa."
+  ],
+  "technician": "Sunați la service-ul Bosch dacă E115 reapare când cuptorul este rece."
+ },
+ "Bosch|e005": {
+  "title": "Placa de comandă și placa de putere nu comunică",
+  "causes": [
+   "Panoul de comandă și placa de putere au pierdut legătura."
+  ],
+  "steps": [
+   "Opriți aragazul de la siguranța automată.",
+   "Așteptați cinci minute, apoi porniți la loc siguranța automată.",
+   "Verificați dacă codul reapare."
+  ],
+  "technician": "Sunați la asistența Bosch dacă codul reapare după resetarea alimentării."
+ },
+ "Bosch|E100": {
+  "title": "Defecțiune electronică",
+  "causes": [
+   "Cuptorul a detectat o defecțiune electronică."
+  ],
+  "steps": [
+   "Opriți aragazul de la siguranța automată.",
+   "Așteptați cinci minute, apoi porniți la loc siguranța automată.",
+   "Testați din nou cuptorul."
+  ],
+  "technician": "Sunați la asistența Bosch dacă codul reapare după resetarea alimentării."
+ },
+ "Bosch|e101": {
+  "title": "Defecțiune a senzorului de temperatură al cuptorului",
+  "causes": [
+   "Senzorul de temperatură nu funcționează cum ar trebui."
+  ],
+  "steps": [
+   "Opriți aragazul de la siguranța automată.",
+   "Așteptați cinci minute, apoi porniți la loc siguranța automată.",
+   "Dacă cuptorul tocmai a fost instalat, rugați instalatorul să verifice cablarea cablului de alimentare."
+  ],
+  "technician": "Sunați la asistența Bosch dacă codul reapare după resetarea alimentării."
+ },
+ "Bosch|e126": {
+  "title": "Defecțiune a încuietorii ușii cuptorului",
+  "causes": [
+   "Încuietoarea ușii nu funcționează corect, lucru întâlnit adesea în timpul autocurățării."
+  ],
+  "steps": [
+   "Anulați ciclul de autocurățare.",
+   "Așteptați să se deblocheze ușa.",
+   "Porniți din nou autocurățarea."
+  ],
+  "technician": "Sunați la asistența Bosch dacă codul reapare după resetarea alimentării."
+ },
+ "Bosch|E302": {
+  "title": "Panoul de comandă s-a supraîncălzit",
+  "causes": [
+   "Panoul de comandă este prea fierbinte, ceea ce pot cauza oalele de pe plită.",
+   "Temperatură ridicată în cameră."
+  ],
+  "steps": [
+   "Verificați temperatura din cameră și locul în care sunt puse oalele.",
+   "Lăsați aparatul să se răcească.",
+   "Faceți o resetare a alimentării de cinci minute de la siguranța automată."
+  ],
+  "technician": "Sunați la asistența Bosch dacă codul reapare după resetarea alimentării."
+ },
+ "Bosch|e310": {
+  "title": "Defecțiune a alimentării electrice",
+  "causes": [
+   "Tensiunea de alimentare poate fi greșită sau instabilă."
+  ],
+  "steps": [
+   "Opriți aragazul de la siguranța automată.",
+   "Așteptați cinci minute, apoi porniți la loc siguranța automată.",
+   "Dacă reapare, rugați un electrician să confirme tensiunea din locuința dumneavoastră."
+  ],
+  "technician": "Sunați la asistența Bosch dacă codul reapare după resetarea alimentării."
+ },
+ "Bosch|ERR/toP": {
+  "title": "Plita a fost folosită în timpul autocurățării",
+  "causes": [
+   "O zonă de gătit a fost pornită în timp ce cuptorul se autocurăța."
+  ],
+  "steps": [
+   "Opriți orice zonă de gătit activă.",
+   "Reporniți ciclul de autocurățare.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Nu este nevoie de service, decât dacă apare cu toate zonele oprite."
+ },
+ "Bosch|dE": {
+  "title": "Modul demo este activ, zonele nu se încălzesc",
+  "causes": [
+   "Modul demo este activ, așa că zonele de gătit rămân reci."
+  ],
+  "steps": [
+   "Opriți siguranța automată sau siguranța fuzibilă a plitei timp de 30 de secunde.",
+   "Porniți-o la loc.",
+   "Atingeți orice comandă în termen de trei minute."
+  ],
+  "technician": "Sunați la asistența Bosch dacă codul reapare după resetarea alimentării."
+ },
+ "Bosch|F1": {
+  "title": "Zona de gătit s-a supraîncălzit și s-a oprit",
+  "causes": [
+   "O zonă s-a supraîncălzit și s-a oprit pentru a proteja blatul."
+  ],
+  "steps": [
+   "Lăsați componentele electronice să se răcească.",
+   "Porniți din nou zona.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Sunați la asistența Bosch dacă codul reapare după resetarea alimentării."
+ },
+ "Bosch|F6": {
+  "title": "Zona de gătit s-a supraîncălzit și s-a oprit",
+  "causes": [
+   "O zonă s-a supraîncălzit și s-a oprit pentru a proteja blatul."
+  ],
+  "steps": [
+   "Lăsați componentele electronice să se răcească.",
+   "Porniți din nou zona.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Sunați la asistența Bosch dacă codul reapare după resetarea alimentării."
+ },
+ "Bosch|F2": {
+  "title": "Componentele electronice s-au supraîncălzit, zona este oprită",
+  "causes": [
+   "Componentele electronice sunt prea fierbinți, așa că zona s-a oprit."
+  ],
+  "steps": [
+   "Lăsați plita să se răcească.",
+   "Atingeți orice comandă.",
+   "Gătiți din nou după ce dispare mesajul.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Sunați la asistența Bosch dacă codul reapare după resetarea alimentării."
+ },
+ "Bosch|F4": {
+  "title": "Componentele electronice s-au supraîncălzit",
+  "causes": [
+   "Componentele electronice sunt prea fierbinți."
+  ],
+  "steps": [
+   "Lăsați plita să se răcească.",
+   "Atingeți orice comandă.",
+   "Reluați gătitul după ce dispare mesajul.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Sunați la asistența Bosch dacă codul reapare după resetarea alimentării."
+ },
+ "Bosch|F5": {
+  "title": "Tigaie fierbinte lângă panoul de comandă",
+  "causes": [
+   "Vasele fierbinți se află aproape de comenzile tactile.",
+   "Componentele electronice riscă să se supraîncălzească."
+  ],
+  "steps": [
+   "Mutați vasele departe de panoul de comandă.",
+   "Așteptați câteva secunde și atingeți orice comandă.",
+   "Reluați gătitul când dispare mesajul."
+  ],
+  "technician": "Sunați la asistența Bosch dacă codul reapare după resetarea alimentării."
+ },
+ "Bosch|F8": {
+  "title": "Zona a funcționat prea mult, s-a atins limita de timp",
+  "causes": [
+   "O zonă a fost lăsată pornită, fără nicio intervenție, timp îndelungat."
+  ],
+  "steps": [
+   "Atingeți orice comandă.",
+   "Setați din nou zona.",
+   "Continuați gătitul.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Sunați la asistența Bosch dacă codul reapare după resetarea alimentării."
+ },
+ "Bosch|E7010": {
+  "title": "Plita nu se poate conecta la rețea sau la hotă",
+  "causes": [
+   "Plita a pierdut legătura cu rețeaua de acasă sau cu hota."
+  ],
+  "steps": [
+   "Opriți plita și porniți-o din nou.",
+   "Verificați dacă Wi-Fi-ul funcționează.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Sunați la asistența Bosch dacă codul reapare după resetarea alimentării."
+ },
+ "Bosch|E9000": {
+  "title": "Tensiunea de alimentare în afara intervalului normal",
+  "causes": [
+   "Tensiunea de alimentare cu electricitate este prea mare sau prea mică."
+  ],
+  "steps": [
+   "Opriți plita și porniți-o din nou.",
+   "Rugați furnizorul de electricitate să verifice tensiunea de alimentare."
+  ],
+  "technician": "Sunați la asistența Bosch dacă furnizorul nu găsește nicio problemă."
+ },
+ "Bosch|E9010": {
+  "title": "Tensiunea de alimentare în afara intervalului normal",
+  "causes": [
+   "Tensiunea de alimentare cu electricitate este prea mare sau prea mică."
+  ],
+  "steps": [
+   "Opriți plita și porniți-o din nou.",
+   "Rugați furnizorul de electricitate să verifice tensiunea de alimentare."
+  ],
+  "technician": "Sunați la asistența Bosch dacă furnizorul nu găsește nicio problemă."
+ },
+ "Bosch|E9011": {
+  "title": "Plita nu este conectată corect",
+  "causes": [
+   "Cablarea nu corespunde schemei circuitului."
+  ],
+  "steps": [
+   "Opriți alimentarea de la siguranța automată.",
+   "Rugați un electrician calificat să verifice cablarea în raport cu schema."
+  ],
+  "technician": "Apelați la un electrician calificat sau la asistența Bosch."
+ },
+ "Bosch|U400": {
+  "title": "Tensiunea de alimentare în afara intervalului normal",
+  "causes": [
+   "Tensiunea de alimentare este în afara limitelor normale."
+  ],
+  "steps": [
+   "Opriți plita și porniți-o din nou.",
+   "Contactați furnizorul de electricitate pentru a verifica tensiunea.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Sunați la asistența Bosch dacă alimentarea se dovedește normală."
+ },
+ "Siemens|E0111": {
+  "title": "Mesaj de defecțiune electronică",
+  "causes": [
+   "Componentele electronice ale cuptorului au detectat o defecțiune.",
+   "Poate fi o defecțiune izolată."
+  ],
+  "steps": [
+   "Opriți cuptorul și porniți-l din nou.",
+   "Dacă mesajul dispare, a fost o defecțiune izolată.",
+   "Dacă reapare, notați exact codul."
+  ],
+  "technician": "Dacă reapare, sunați la service-ul post-vânzare Siemens și comunicați codul exact."
+ },
+ "Neff|E011": {
+  "title": "Buton alocat permanent",
+  "causes": [
+   "Un buton este apăsat sau alocat permanent."
+  ],
+  "steps": [
+   "Anulați alocarea permanentă a butonului.",
+   "Apoi apăsați butonul funcției ceas.",
+   "Curățați în jurul butoanelor.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Sunați la service-ul Neff dacă E011 nu dispare."
+ },
+ "Neff|E300": {
+  "title": "Defecțiune electronică internă",
+  "causes": [
+   "O defecțiune internă a componentelor electronice ale cuptorului."
+  ],
+  "steps": [
+   "Apăsați butonul funcției ceas.",
+   "Dacă rămâne, scoateți cuptorul din priză.",
+   "Așteptați aproximativ 10 secunde și conectați-l din nou.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Sunați la service-ul Neff dacă codul reapare."
+ },
+ "Neff|rrr": {
+  "title": "Alimentarea a fost întreruptă în timpul funcționării",
+  "causes": [
+   "Alimentarea electrică a fost întreruptă cât timp cuptorul funcționa."
+  ],
+  "steps": [
+   "Apăsați butonul pentru ora zilei.",
+   "Resetați ceasul.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Nu este nevoie de service, decât dacă se repetă fără o pană de curent."
+ },
+ "Miele|E0-E5": {
+  "title": "Coduri de progres ale programului de detartrare",
+  "causes": [
+   "Aceste coduri arată ce etapă a programului de detartrare este în curs.",
+   "E0 înseamnă aspirarea soluției, E1 activare, E2 până la E4 clătiri, E5 evaporare."
+  ],
+  "steps": [
+   "Lăsați programul să ruleze până la capăt.",
+   "Nu opriți cuptorul în timpul detartrării."
+  ],
+  "technician": "Nu este nevoie de service, decât dacă programul se oprește."
+ },
+ "Miele|F23": {
+  "title": "Curățarea pirolitică nu a putut atinge temperatura",
+  "causes": [
+   "Cuptorul nu s-a putut încălzi suficient pentru autocurățare.",
+   "În interior sunt multe resturi de mâncare."
+  ],
+  "steps": [
+   "Opriți cuptorul.",
+   "Ștergeți depunerile mari și murdăria groasă.",
+   "Porniți din nou curățarea pirolitică."
+  ],
+  "technician": "Contactați serviciul clienți Miele sau programați o reparație dacă defecțiunea reapare."
+ },
+ "Miele|F32": {
+  "title": "Încuietoarea pirolitică a ușii nu se închide",
+  "causes": [
+   "Încuietoarea ușii pentru autocurățare nu se cuplează.",
+   "Ceva poate bloca ușa."
+  ],
+  "steps": [
+   "Verificați dacă în zona ușii și a garniturii nu sunt obiecte sau resturi.",
+   "Opriți cuptorul.",
+   "Porniți din nou curățarea pirolitică."
+  ],
+  "technician": "Contactați serviciul clienți Miele sau programați o reparație dacă defecțiunea reapare."
+ },
+ "Miele|F33": {
+  "title": "Încuietoarea pirolitică a ușii nu se deschide",
+  "causes": [
+   "Încuietoarea ușii pentru autocurățare nu s-a eliberat."
+  ],
+  "steps": [
+   "Opriți cuptorul pentru a opri ciclul de curățare.",
+   "Încercați să deschideți ușa.",
+   "Nu o forțați.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Sunați la serviciul clienți Miele dacă ușa rămâne blocată."
+ },
+ "Miele|F38": {
+  "title": "Defecțiune a modulului electronic",
+  "causes": [
+   "Modulul electronic al cuptorului are o defecțiune tehnică."
+  ],
+  "steps": [
+   "Nu încercați să o reparați singur.",
+   "Notați codul și numărul modelului.",
+   "Programați o reparație.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Programați un tehnician Miele, deoarece nu se poate remedia acasă."
+ },
+ "Miele|F44": {
+  "title": "S-a detectat o defecțiune tehnică",
+  "causes": [
+   "Cuptorul a detectat o defecțiune tehnică."
+  ],
+  "steps": [
+   "Opriți de la siguranța automată sau scoateți cuptorul din priză.",
+   "Lăsați-l oprit 20 de secunde.",
+   "Restabiliți alimentarea și testați.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Contactați serviciul clienți Miele sau programați o reparație dacă defecțiunea reapare."
+ },
+ "Miele|F54": {
+  "title": "Sonda pentru alimente este defectă",
+  "causes": [
+   "Sonda pentru alimente sau conexiunea ei este defectă."
+  ],
+  "steps": [
+   "Scoateți sonda din mufă.",
+   "Mesajul de defecțiune ar trebui să dispară.",
+   "Deocamdată gătiți fără sondă.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Contactați serviciul clienți Miele pentru a cumpăra o sondă de schimb."
+ },
+ "Miele|F55": {
+  "title": "Cuptorul s-a oprit după ce a funcționat prea mult",
+  "causes": [
+   "Cuptorul a funcționat neobișnuit de mult, așa că s-a oprit din motive de siguranță.",
+   "Limita este de 6 ore în modurile grill și de 12 ore în celelalte moduri."
+  ],
+  "steps": [
+   "Opriți cuptorul, apoi porniți-l din nou.",
+   "Începeți un nou proces de gătit."
+  ],
+  "technician": "Nu este nevoie de service, decât dacă se repetă la gătiri scurte."
+ },
+ "Miele|F60": {
+  "title": "Ventilație insuficientă a cuptorului",
+  "causes": [
+   "Canalul de aer este blocat sau acoperit."
+  ],
+  "steps": [
+   "Verificați dacă nimic nu acoperă canalul de aer al cuptorului.",
+   "Deconectați cuptorul de la alimentare, apoi reconectați-l.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Contactați serviciul clienți Miele sau programați o reparație dacă defecțiunea reapare."
+ },
+ "Miele|F134": {
+  "title": "Cavitatea cuptorului este prea fierbinte",
+  "causes": [
+   "Senzorul de temperatură raportează că spațiul de gătit este prea fierbinte."
+  ],
+  "steps": [
+   "Opriți cuptorul și lăsați-l să se răcească.",
+   "Nu încercați să-l reparați singur.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Programați o reparație Miele, deoarece este nevoie de un tehnician."
+ },
+ "Miele|MES": {
+  "title": "Mod demo activ, cuptorul nu se încălzește",
+  "causes": [
+   "Modul demo de expoziție este activat."
+  ],
+  "steps": [
+   "Confirmați mesajul cu OK.",
+   "Rotiți selectorul de moduri pe 0.",
+   "Deschideți Settings, mergeți la P 9 și setați S 0.",
+   "Țineți apăsat OK timp de 4 secunde."
+  ],
+  "technician": "Contactați Miele dacă modul demo reapare."
+ },
+ "Miele|F1": {
+  "title": "Recipientul de apă nu este împins la loc",
+  "causes": [
+   "Recipientul de apă pentru pomparea apei rămase lipsește sau nu este introdus complet."
+  ],
+  "steps": [
+   "Împingeți complet recipientul de apă în cuptor.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Contactați serviciul clienți Miele sau programați o reparație dacă defecțiunea reapare."
+ },
+ "Miele|F04": {
+  "title": "Pană de curent în timpul gătitului",
+  "causes": [
+   "Cuptorul a rămas fără curent în timpul unui program de gătit."
+  ],
+  "steps": [
+   "Verificați cât de avansat este gătitul.",
+   "Setați un nou timp de gătit, dacă este nevoie.",
+   "Apăsați Start/Stop pentru a relua.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Contactați serviciul clienți Miele sau programați o reparație dacă defecțiunea reapare."
+ },
+ "Miele|F05": {
+  "title": "Apa nu ajunge la cuptorul cu abur",
+  "causes": [
+   "Supapa de admisie a apei nu este complet deschisă.",
+   "Duza de apă este blocată de calcar."
+  ],
+  "steps": [
+   "Deschideți complet supapa de admisie a apei și reporniți.",
+   "Dacă reapare, detartrați duza de apă, folosind mănuși de bucătărie.",
+   "Clătiți componentele pentru apă."
+  ],
+  "technician": "Contactați serviciul clienți Miele sau programați o reparație dacă defecțiunea reapare."
+ },
+ "Miele|F10": {
+  "title": "Defecțiune la admisia apei în cuptorul cu abur",
+  "causes": [
+   "Pompa de alimentare este uscată după o perioadă lungă de nefolosire.",
+   "Furtunul negru de aspirație este slăbit sau deteriorat.",
+   "Apa de osmoză este prea pură pentru senzor."
+  ],
+  "steps": [
+   "Montați furtunul negru de aspirație în poziție verticală în recipient.",
+   "Opriți sistemul de osmoză, dacă puteți.",
+   "Sau adăugați un vârf de sare în apă."
+  ],
+  "technician": "Contactați serviciul clienți Miele sau programați o reparație dacă defecțiunea reapare."
+ },
+ "Miele|F11": {
+  "title": "Generatorul de abur nu poate evacua apa",
+  "causes": [
+   "Calcar în scurgere sau pe electrod.",
+   "Furtunuri blocate sau înțepenite."
+  ],
+  "steps": [
+   "Detartrați cuptorul conform manualului.",
+   "La seriile 6000 și 7000, setați duritatea apei la maximum.",
+   "Nu repetați detartrarea cu o soluție mai concentrată."
+  ],
+  "technician": "Contactați serviciul clienți Miele sau programați o reparație dacă defecțiunea reapare."
+ },
+ "Miele|F12": {
+  "title": "Cuptorul cu abur nu primește apă",
+  "causes": [
+   "Supapa de admisie a apei este închisă.",
+   "Filtrul de admisie a apei este blocat."
+  ],
+  "steps": [
+   "Deschideți supapa de apă și reporniți.",
+   "Curățați filtrul din admisia apei.",
+   "Opriți cuptorul și închideți supapa dacă bănuiți un furtun defect."
+  ],
+  "technician": "Sunați la Miele sau la un instalator dacă furtunul pare defect."
+ },
+ "Miele|F13": {
+  "title": "Compartimentul cuptorului cu abur este prea fierbinte",
+  "causes": [
+   "Supapa de admisie a apei poate fi închisă.",
+   "Duza de apă poate necesita detartrare."
+  ],
+  "steps": [
+   "Deschideți complet supapa de admisie a apei.",
+   "Dacă reapare, detartrați și clătiți duza.",
+   "Purtați mănuși de bucătărie."
+  ],
+  "technician": "Contactați serviciul clienți Miele sau programați o reparație dacă defecțiunea reapare."
+ },
+ "Miele|F14": {
+  "title": "Apă insuficientă în generatorul de abur",
+  "causes": [
+   "Generatorul de abur nu primește suficientă apă."
+  ],
+  "steps": [
+   "Opriți cuptorul și porniți-l din nou.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Opriți și contactați Miele dacă F14 apare din nou."
+ },
+ "Miele|F20": {
+  "title": "Cuptorul cu abur nu se încălzește",
+  "causes": [
+   "Temperatura nu a crescut cu 2 grade în 5 minute.",
+   "Cantități mari de alimente congelate pot provoca acest lucru."
+  ],
+  "steps": [
+   "Opriți cuptorul, porniți-l și reporniți programul.",
+   "Împingeți recipientul de apă până se aude un clic.",
+   "Folosiți pe garnitură doar vaselina de silicon furnizată."
+  ],
+  "technician": "Sunați la Miele dacă garnitura cuplajului pare crăpată sau se adună apă."
+ },
+ "Miele|F27": {
+  "title": "Pană de curent în timpul gătitului sau al detartrării",
+  "causes": [
+   "Curentul a fost întrerupt în timpul unui program de gătit (F27).",
+   "E04 înseamnă că a fost o pană de curent în timpul detartrării."
+  ],
+  "steps": [
+   "Pentru F27 setați un nou timp și apăsați Start/Stop.",
+   "Pentru E04 așteptați până când afișajul numără invers de la 0:06.",
+   "Opriți cuptorul și porniți-l."
+  ],
+  "technician": "Contactați serviciul clienți Miele sau programați o reparație dacă defecțiunea reapare."
+ },
+ "Miele|F74": {
+  "title": "Defecțiune tehnică la cuptorul cu abur",
+  "causes": [
+   "O defecțiune tehnică care nu poate fi remediată acasă."
+  ],
+  "steps": [
+   "Nu încercați să o reparați singur.",
+   "Notați codul și numărul modelului.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Programați vizita unui tehnician Miele."
+ },
+ "Miele|F95": {
+  "title": "Comutatorul nivelului de apă este blocat de calcar",
+  "causes": [
+   "Calcarul blochează comutatorul de nivel."
+  ],
+  "steps": [
+   "Detartrați cuptorul conform manualului.",
+   "Folosiți produse de întreținere Miele.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Contactați serviciul clienți Miele sau programați o reparație dacă defecțiunea reapare."
+ },
+ "Miele|F235": {
+  "title": "Defecțiune a modulului electronic",
+  "causes": [
+   "Modulul electronic este defect."
+  ],
+  "steps": [
+   "Nu încercați să-l reparați singur.",
+   "Notați codul.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Programați o reparație Miele."
+ },
+ "Electrolux|F1": {
+  "title": "Ușa cuptorului nu se poate bloca",
+  "causes": [
+   "Modelele pirolitice: funcția de curățare este pornită și ușa nu se închide.",
+   "Alte modele: o defecțiune electronică."
+  ],
+  "steps": [
+   "Verificați dacă partea superioară a ușii este intactă.",
+   "Urmați manualul dacă ușa a fost demontată.",
+   "Contactați service-ul dacă persistă."
+  ],
+  "technician": "Programați o reparație Electrolux dacă codul reapare."
+ },
+ "Electrolux|F102": {
+  "title": "Defecțiune a senzorului încuietorii ușii",
+  "causes": [
+   "Ușa nu este complet închisă.",
+   "O încuietoare a ușii defectă sau componente electronice defecte."
+  ],
+  "steps": [
+   "Închideți ferm ușa.",
+   "Întrerupeți alimentarea câteva minute, apoi restabiliți-o.",
+   "Verificați siguranța din locuință sau dispozitivul diferențial (RCD)."
+  ],
+  "technician": "Programați o reparație Electrolux dacă codul reapare."
+ },
+ "Electrolux|F111": {
+  "title": "Sonda pentru alimente este defectă sau neconectată",
+  "causes": [
+   "Sonda nu este introdusă complet în mufă.",
+   "Sonda sau cablul ei este deteriorat."
+  ],
+  "steps": [
+   "Scoateți sonda și reconectați-o ferm.",
+   "Verificați dacă există contacte îndoite sau fire deteriorate.",
+   "Opriți cuptorul de la rețea timp de 30 de secunde."
+  ],
+  "technician": "Programați o reparație Electrolux dacă codul reapare."
+ },
+ "Electrolux|F104": {
+  "title": "Senzorul de temperatură este în afara intervalului",
+  "causes": [
+   "Senzorul de temperatură al cuptorului este în afara intervalului.",
+   "Este posibil ca cuptorul să nu se încălzească sau să se oprească."
+  ],
+  "steps": [
+   "Opriți cuptorul de la rețea timp de 30 de secunde.",
+   "Porniți-o la loc.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Contactați un centru de service autorizat."
+ },
+ "Electrolux|F105": {
+  "title": "Alarmă de temperatură prea mare la senzor",
+  "causes": [
+   "Senzorul a detectat o temperatură peste nivelul așteptat."
+  ],
+  "steps": [
+   "Opriți cuptorul și lăsați-l să se răcească.",
+   "Opriți alimentarea timp de 30 de secunde, apoi restabiliți-o.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Contactați un centru de service autorizat."
+ },
+ "Electrolux|F215": {
+  "title": "Defecțiune software a cuptorului conectat",
+  "causes": [
+   "O problemă software la un cuptor conectat."
+  ],
+  "steps": [
+   "Reinstalați aplicația și reconectați cuptorul.",
+   "Scoateți cuptorul din priză timp de 30 de minute, apoi reconectați-l.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Programați o reparație dacă F215 apare pe afișaj."
+ },
+ "Electrolux|F601": {
+  "title": "Problemă cu semnalul Wi-Fi al cuptorului",
+  "causes": [
+   "Există o problemă cu semnalul Wi-Fi."
+  ],
+  "steps": [
+   "Verificați conexiunea la rețea.",
+   "Apropiați routerul.",
+   "Resetați setările Wi-Fi ale cuptorului și configurați din nou.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Programați o reparație dacă nu se conectează."
+ },
+ "Electrolux|F604": {
+  "title": "Prima încercare de conectare la Wi-Fi a eșuat",
+  "causes": [
+   "Prima încercare de conectare la Wi-Fi a eșuat."
+  ],
+  "steps": [
+   "Opriți și porniți cuptorul.",
+   "Încercați din nou să vă conectați.",
+   "Verificați conexiunea la internet.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Programați o reparație dacă nu se conectează."
+ },
+ "Electrolux|E0020": {
+  "title": "Lumina cuptorului nu funcționează",
+  "causes": [
+   "Becul cuptorului este defect."
+  ],
+  "steps": [
+   "Opriți cuptorul și lăsați-l să se răcească.",
+   "Verificați becul și înlocuiți-l dacă este defect.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Contactați un centru de service dacă becul este în regulă."
+ },
+ "Electrolux|C1": {
+  "title": "Curățarea pirolitică este blocată de șinele telescopice",
+  "causes": [
+   "În cuptor se află șine telescopice."
+  ],
+  "steps": [
+   "Scoateți șinele, grătarele și suporturile laterale.",
+   "Porniți din nou Pyro Clean.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Contactați service-ul dacă persistă."
+ },
+ "Electrolux|C2": {
+  "title": "Curățarea pirolitică este blocată de sonda pentru alimente",
+  "causes": [
+   "Sonda pentru alimente este conectată."
+  ],
+  "steps": [
+   "Scoateți sonda din mufă.",
+   "Porniți din nou Pyro Clean.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Contactați service-ul dacă persistă."
+ },
+ "Electrolux|C3": {
+  "title": "Curățarea pirolitică este blocată de ușa deschisă",
+  "causes": [
+   "Ușa este deschisă sau nu este complet închisă."
+  ],
+  "steps": [
+   "Închideți complet ușa.",
+   "Porniți din nou Pyro Clean.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Contactați service-ul dacă persistă."
+ },
+ "Electrolux|C4": {
+  "title": "Curățarea pirolitică este blocată de Steam Bake",
+  "causes": [
+   "Steam Bake este încă activ."
+  ],
+  "steps": [
+   "Apăsați Steam Bake până se stinge lumina.",
+   "Porniți din nou Pyro Clean.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Contactați service-ul dacă persistă."
+ },
+ "AEG|F": {
+  "title": "Vas nedetectat sau defecțiune a plitei",
+  "causes": [
+   "Vas nepotrivit sau vas ridicat de pe plită.",
+   "La o instalare nouă, o problemă de instalare."
+  ],
+  "steps": [
+   "Verificați dacă un magnet se lipește de baza vasului.",
+   "Centrați vasul pe zonă.",
+   "Țineți plita și vasul uscate.",
+   "Opriți de la rețea timp de 30 de secunde."
+  ],
+  "technician": "Chemați un tehnician dacă F rămâne sau are o cifră."
+ },
+ "AEG|F2": {
+  "title": "SenseBoil: oală goală sau cu ulei",
+  "causes": [
+   "Oala este goală sau conține ulei ori alt lichid decât apă."
+  ],
+  "steps": [
+   "Uscați suprafața plitei.",
+   "Nu încălziți o oală goală.",
+   "Folosiți SenseBoil doar cu apă.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Nu este o defecțiune dacă dispare."
+ },
+ "AEG|F3": {
+  "title": "SenseBoil: cantitate greșită de apă",
+  "causes": [
+   "Prea multă sau prea puțină apă în oală.",
+   "Alimente altele decât apa sau cartofii."
+  ],
+  "steps": [
+   "Uscați suprafața plitei.",
+   "Umpleți oala între jumătate și trei sferturi, 1 până la 5 litri.",
+   "Fierbeți doar apă și cartofi."
+  ],
+  "technician": "Nu este o defecțiune dacă dispare."
+ },
+ "AEG|E2": {
+  "title": "Eroare LED sau senzor la plită",
+  "causes": [
+   "La plitele cu inducție, o eroare a iluminării LED.",
+   "La teppanyaki, o eroare a senzorului de temperatură."
+  ],
+  "steps": [
+   "Întrerupeți alimentarea timp de 30 de secunde.",
+   "Porniți din nou.",
+   "Notați exact codul.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Programați o reparație AEG dacă codul reapare."
+ },
+ "AEG|E3": {
+  "title": "Plită conectată la o tensiune greșită",
+  "causes": [
+   "Posibilă supratensiune sau cablare incorectă."
+  ],
+  "steps": [
+   "Nu mai folosiți plita.",
+   "Rugați instalatorul să verifice alimentarea și cablarea.",
+   "Nu reparați singur instalația electrică.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Apelați la un electrician calificat sau la service-ul AEG."
+ },
+ "AEG|E4": {
+  "title": "Protecția la supraîncălzire a plitei este activă",
+  "causes": [
+   "Plita s-a supraîncălzit.",
+   "Vase nepotrivite sau instalare defectuoasă."
+  ],
+  "steps": [
+   "Opriți și îndepărtați vasele.",
+   "Testați vasul cu un magnet.",
+   "Întrerupeți alimentarea timp de 30 de secunde.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Programați o reparație AEG dacă codul reapare."
+ },
+ "AEG|E5": {
+  "title": "Problemă de fază sau de tensiune la plită",
+  "causes": [
+   "O problemă de fază sau de tensiune în alimentarea electrică."
+  ],
+  "steps": [
+   "Opriți întrerupătorul de separare timp de 30 de secunde.",
+   "Porniți și testați.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Programați o reparație AEG dacă codul reapare."
+ },
+ "AEG|E6": {
+  "title": "Problemă la alimentarea electrică a plitei",
+  "causes": [
+   "Adesea o instalare incorectă, de exemplu o priză de 13 A pentru o plită de 16 A."
+  ],
+  "steps": [
+   "Opriți plita și porniți-o din nou.",
+   "Deconectați-o timp de 30 de secunde.",
+   "Verificați alimentarea."
+  ],
+  "technician": "Programați o reparație AEG dacă codul reapare."
+ },
+ "AEG|E7": {
+  "title": "Defecțiune a ventilatorului de răcire al plitei",
+  "causes": [
+   "Ventilator blocat sau defect la modelele mai noi."
+  ],
+  "steps": [
+   "Verificați dacă nimic nu blochează ventilatorul de sub plită.",
+   "Întrerupeți alimentarea timp de 30 de secunde.",
+   "Porniți din nou.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Programați o reparație AEG dacă codul reapare."
+ },
+ "AEG|E8": {
+  "title": "Defecțiune electronică sau de fază a plitei",
+  "causes": [
+   "O fază lipsă după instalare.",
+   "Eroare de comunicare a componentelor electronice."
+  ],
+  "steps": [
+   "Verificați cablarea în raport cu manualul.",
+   "Întrerupeți alimentarea timp de 30 de secunde.",
+   "Nu o mai folosiți dacă persistă."
+  ],
+  "technician": "Programați o reparație AEG dacă codul reapare."
+ },
+ "AEG|E9": {
+  "title": "Defecțiune a modulului electronic al plitei",
+  "causes": [
+   "O defecțiune a modulului electronic."
+  ],
+  "steps": [
+   "Opriți de la rețea timp de 30 de secunde.",
+   "Nu folosiți plita dacă reapare.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Programați o reparație AEG dacă codul reapare."
+ },
+ "Whirlpool|F0 E0": {
+  "title": "Defecțiune neidentificată a comenzii cuptorului",
+  "causes": [
+   "Comanda nu poate identifica defecțiunea."
+  ],
+  "steps": [
+   "Opriți siguranța automată a aragazului timp de un minut.",
+   "Porniți-o la loc.",
+   "Urmăriți cuptorul un minut, ca să vedeți dacă reapare codul."
+  ],
+  "technician": "Contactați service-ul Whirlpool dacă codul reapare."
+ },
+ "Whirlpool|F1": {
+  "title": "Posibilă defecțiune a senzorului, a comenzii sau a cablajului",
+  "causes": [
+   "Problemă la senzorul de temperatură, la comanda sau la cablajul cuptorului."
+  ],
+  "steps": [
+   "Opriți siguranța automată a aragazului timp de un minut.",
+   "Porniți-o la loc.",
+   "Urmăriți cuptorul un minut, ca să vedeți dacă reapare codul."
+  ],
+  "technician": "Contactați service-ul Whirlpool dacă codul reapare."
+ },
+ "Whirlpool|F2": {
+  "title": "Posibilă defecțiune a senzorului, a comenzii sau a cablajului",
+  "causes": [
+   "Problemă la senzorul de temperatură, la comanda sau la cablajul cuptorului."
+  ],
+  "steps": [
+   "Opriți siguranța automată a aragazului timp de un minut.",
+   "Porniți-o la loc.",
+   "Urmăriți cuptorul un minut, ca să vedeți dacă reapare codul."
+  ],
+  "technician": "Contactați service-ul Whirlpool dacă codul reapare."
+ },
+ "Whirlpool|F2 E1": {
+  "title": "Problemă la tastatură sau la comandă",
+  "causes": [
+   "Problemă la tastatură, la comandă sau la cablaj.",
+   "Este posibil ca un grătar să fie așezat prost."
+  ],
+  "steps": [
+   "Verificați dacă grătarele stau drept.",
+   "Schimbați-le între ele dacă se clatină.",
+   "Opriți siguranța automată timp de un minut."
+  ],
+  "technician": "Contactați service-ul Whirlpool dacă codul reapare."
+ },
+ "Whirlpool|F3": {
+  "title": "Posibilă defecțiune a comenzii sau a cablajului cuptorului",
+  "causes": [
+   "Problemă la comanda sau la cablajul cuptorului."
+  ],
+  "steps": [
+   "Opriți siguranța automată a aragazului timp de un minut.",
+   "Porniți-o la loc.",
+   "Urmăriți cuptorul un minut, ca să vedeți dacă reapare codul."
+  ],
+  "technician": "Contactați service-ul Whirlpool dacă codul reapare."
+ },
+ "Whirlpool|F5": {
+  "title": "Problemă la zăvorul ușii cuptorului",
+  "causes": [
+   "Problemă la zăvorul ușii, la întrerupător sau la cablaj."
+  ],
+  "steps": [
+   "Opriți siguranța automată a aragazului timp de un minut.",
+   "Porniți-o la loc.",
+   "Urmăriți cuptorul un minut, ca să vedeți dacă reapare codul."
+  ],
+  "technician": "Contactați service-ul Whirlpool dacă codul reapare."
+ },
+ "Whirlpool|F5 E0": {
+  "title": "Problemă la zăvorul ușii cuptorului",
+  "causes": [
+   "Problemă la zăvorul ușii, la întrerupător sau la cablaj."
+  ],
+  "steps": [
+   "Opriți siguranța automată a aragazului timp de un minut.",
+   "Porniți-o la loc.",
+   "Urmăriți cuptorul un minut, ca să vedeți dacă reapare codul."
+  ],
+  "technician": "Contactați service-ul Whirlpool dacă codul reapare."
+ },
+ "Whirlpool|F6": {
+  "title": "Posibilă defecțiune a comenzii sau a cablajului cuptorului",
+  "causes": [
+   "Problemă la comanda sau la cablajul cuptorului."
+  ],
+  "steps": [
+   "Opriți siguranța automată a aragazului timp de un minut.",
+   "Porniți-o la loc.",
+   "Urmăriți cuptorul un minut, ca să vedeți dacă reapare codul."
+  ],
+  "technician": "Contactați service-ul Whirlpool dacă codul reapare."
+ },
+ "Whirlpool|F7 E0": {
+  "title": "Problemă la ansamblul zăvorului ușii",
+  "causes": [
+   "Problemă la ansamblul zăvorului ușii sau la cablaj."
+  ],
+  "steps": [
+   "Opriți siguranța automată a aragazului timp de un minut.",
+   "Porniți-o la loc.",
+   "Urmăriți cuptorul un minut, ca să vedeți dacă reapare codul."
+  ],
+  "technician": "Contactați service-ul Whirlpool dacă codul reapare."
+ },
+ "Whirlpool|F8 E0": {
+  "title": "Ventilatorul de răcire al cuptorului funcționează lent",
+  "causes": [
+   "Restricție a fluxului de aer.",
+   "Ventilator de răcire sau cablaj defect."
+  ],
+  "steps": [
+   "Opriți siguranța automată a aragazului timp de un minut.",
+   "Porniți-o la loc.",
+   "Urmăriți cuptorul un minut, ca să vedeți dacă reapare codul."
+  ],
+  "technician": "Contactați service-ul Whirlpool dacă codul reapare."
+ },
+ "Whirlpool|F9-1": {
+  "title": "Problemă la zăvorul ușii sau la întrerupătorul de blocare",
+  "causes": [
+   "Problemă la zăvorul ușii, la întrerupătorul de blocare sau la cablaj."
+  ],
+  "steps": [
+   "Opriți siguranța automată a aragazului timp de un minut.",
+   "Porniți-o la loc.",
+   "Urmăriți cuptorul un minut, ca să vedeți dacă reapare codul."
+  ],
+  "technician": "Contactați service-ul Whirlpool dacă codul reapare."
+ },
+ "LG|F1": {
+  "title": "Eroare a termistorului cuptorului superior",
+  "causes": [
+   "Defecțiune a senzorului de temperatură al cuptorului superior."
+  ],
+  "steps": [
+   "Apăsați CLEAR/OFF și încercați din nou funcția.",
+   "Opriți siguranța automată a aragazului timp de 30 de secunde.",
+   "Porniți-o la loc.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Solicitați o reparație LG dacă reapare în continuare."
+ },
+ "LG|F2": {
+  "title": "Eroare a termistorului cuptorului superior",
+  "causes": [
+   "Defecțiune a senzorului de temperatură al cuptorului superior."
+  ],
+  "steps": [
+   "Apăsați CLEAR/OFF și încercați din nou funcția.",
+   "Opriți siguranța automată a aragazului timp de 30 de secunde.",
+   "Porniți-o la loc.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Solicitați o reparație LG dacă reapare în continuare."
+ },
+ "LG|F3": {
+  "title": "Eroare a senzorului unei taste de pe panoul tactil",
+  "causes": [
+   "O defecțiune a senzorului unei taste de pe panoul tactil."
+  ],
+  "steps": [
+   "Apăsați CLEAR/OFF și încercați din nou funcția.",
+   "Opriți siguranța automată a aragazului timp de 30 de secunde.",
+   "Porniți-o la loc.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Solicitați o reparație LG dacă reapare în continuare."
+ },
+ "LG|F6": {
+  "title": "Eroare de încălzire a cuptorului superior",
+  "causes": [
+   "Defecțiune de încălzire a cuptorului superior."
+  ],
+  "steps": [
+   "Apăsați CLEAR/OFF și încercați din nou funcția.",
+   "Opriți siguranța automată a aragazului timp de 30 de secunde.",
+   "Porniți-o la loc.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Solicitați o reparație LG dacă reapare în continuare."
+ },
+ "LG|F7": {
+  "title": "Eroare a ventilatorului de convecție superior",
+  "causes": [
+   "Defecțiune a ventilatorului de convecție."
+  ],
+  "steps": [
+   "Apăsați CLEAR/OFF și încercați din nou funcția.",
+   "Opriți siguranța automată a aragazului timp de 30 de secunde.",
+   "Porniți-o la loc.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Solicitați o reparație LG dacă reapare în continuare."
+ },
+ "LG|F9": {
+  "title": "Cuptorul superior nu se încălzește corect",
+  "causes": [
+   "Cuptorul superior nu se încălzește."
+  ],
+  "steps": [
+   "Apăsați CLEAR/OFF și încercați din nou funcția.",
+   "Opriți siguranța automată a aragazului timp de 30 de secunde.",
+   "Porniți-o la loc.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Solicitați o reparație LG dacă reapare în continuare."
+ },
+ "LG|F10": {
+  "title": "Defecțiune a încuietorii ușii cuptorului superior",
+  "causes": [
+   "Defecțiune a sistemului de blocare a ușii."
+  ],
+  "steps": [
+   "Apăsați CLEAR/OFF și încercați din nou funcția.",
+   "Opriți siguranța automată a aragazului timp de 30 de secunde.",
+   "Porniți-o la loc.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Solicitați o reparație LG dacă reapare în continuare."
+ },
+ "LG|F11": {
+  "title": "Eroare de comunicare",
+  "causes": [
+   "Plăcile nu comunică."
+  ],
+  "steps": [
+   "Apăsați CLEAR/OFF și încercați din nou funcția.",
+   "Opriți siguranța automată a aragazului timp de 30 de secunde.",
+   "Porniți-o la loc.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Solicitați o reparație LG dacă reapare în continuare."
+ },
+ "LG|F20": {
+  "title": "Defecțiune a încuietorii ușii cuptorului inferior",
+  "causes": [
+   "Defecțiune a sistemului de blocare a ușii."
+  ],
+  "steps": [
+   "Apăsați CLEAR/OFF și încercați din nou funcția.",
+   "Opriți siguranța automată a aragazului timp de 30 de secunde.",
+   "Porniți-o la loc.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Solicitați o reparație LG dacă reapare în continuare."
+ },
+ "LG|F27": {
+  "title": "Ventilatorul de răcire s-a blocat în timpul autocurățării",
+  "causes": [
+   "Ventilatorul s-a blocat în timpul autocurățării."
+  ],
+  "steps": [
+   "Apăsați CLEAR/OFF și încercați din nou funcția.",
+   "Opriți siguranța automată a aragazului timp de 30 de secunde.",
+   "Porniți-o la loc.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Solicitați o reparație LG dacă reapare în continuare."
+ },
+ "LG|PF": {
+  "title": "Alimentarea a fost întreruptă",
+  "causes": [
+   "Alimentarea aparatului a fost întreruptă."
+  ],
+  "steps": [
+   "Apăsați CLEAR/OFF și încercați din nou funcția.",
+   "Opriți siguranța automată a aragazului timp de 30 de secunde.",
+   "Porniți-o la loc.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Solicitați o reparație LG dacă reapare în continuare."
+ },
+ "Beko|Er 5": {
+  "title": "Eroare de comunicare cu sonda pentru carne",
+  "causes": [
+   "Cuptorul nu poate comunica cu sonda pentru carne."
+  ],
+  "steps": [
+   "Scoateți sonda pentru carne.",
+   "Setați butonul pe oprit (0).",
+   "Gătiți fără sondă.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Contactați un service autorizat pentru a folosi din nou sonda."
+ },
+ "Beko|Er 1 - Er 7": {
+  "title": "Erori de comunicare ale cuptorului",
+  "causes": [
+   "Erori interne de comunicare."
+  ],
+  "steps": [
+   "Opriți cuptorul.",
+   "Notați exact numărul.",
+   "Nu folosiți cuptorul.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Consultați un service Beko autorizat."
+ },
+ "Beko|Er 8 - Er 27": {
+  "title": "Erori ale senzorilor cuptorului",
+  "causes": [
+   "Un senzor din cuptor este defect."
+  ],
+  "steps": [
+   "Opriți cuptorul.",
+   "Notați exact numărul.",
+   "Notați exact codul și numărul modelului de pe plăcuța cu date înainte de a contacta pe cineva."
+  ],
+  "technician": "Consultați un service Beko autorizat."
+ }
+}

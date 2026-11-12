@@ -1,0 +1,1373 @@
+{
+ "Samsung|C-d0": {
+  "title": "Touche bloquée ou enfoncée trop longtemps",
+  "causes": [
+   "Une touche de commande est restée enfoncée trop longtemps.",
+   "De l'humidité ou de la graisse sur le bandeau de commande."
+  ],
+  "steps": [
+   "Essuyez les touches avec un chiffon humide et séchez le bandeau.",
+   "Vérifiez qu'il n'y a pas d'eau sur les commandes ni autour.",
+   "Éteignez le four, puis réessayez."
+  ],
+  "technician": "Appelez le service Samsung si le code revient après une coupure d'alimentation complète."
+ },
+ "Samsung|S-01": {
+  "title": "Arrêt de sécurité après une longue utilisation",
+  "causes": [
+   "Le four a fonctionné trop d'heures à la même température, il s'est donc éteint par sécurité.",
+   "Ce n'est pas une panne."
+  ],
+  "steps": [
+   "Éteignez le four.",
+   "Retirez les aliments.",
+   "Relancez un cycle de cuisson normal."
+  ],
+  "technician": "Aucune intervention n'est nécessaire, sauf si le code apparaît après une courte durée de cuisson."
+ },
+ "Samsung|dC": {
+  "title": "Séparateur mal installé pour le mode de cuisson",
+  "causes": [
+   "Le séparateur a été retiré pendant le mode double cuisson.",
+   "Ou le séparateur a été mis en place pendant le mode cuisson simple."
+  ],
+  "steps": [
+   "Installez le séparateur pour la double cuisson et retirez-le pour la cuisson simple.",
+   "Éteignez le four et redémarrez-le.",
+   "Si le problème persiste, coupez l'alimentation pendant 30 secondes ou plus, puis rétablissez-la."
+  ],
+  "technician": "Appelez le service Samsung si le code revient après une coupure d'alimentation complète."
+ },
+ "Samsung|dE": {
+  "title": "Séparateur mal installé pour le mode de cuisson",
+  "causes": [
+   "Le séparateur a été retiré pendant le mode double cuisson.",
+   "Ou il a été inséré pendant l'utilisation du mode cuisson simple."
+  ],
+  "steps": [
+   "Laissez le séparateur en place pour la double cuisson et retirez-le pour la cuisson simple.",
+   "Éteignez le four et redémarrez.",
+   "Si le problème persiste, coupez le disjoncteur pendant 30 secondes ou plus, puis rebranchez."
+  ],
+  "technician": "Appelez le service Samsung si le code revient après une coupure d'alimentation complète."
+ },
+ "Samsung|C-d1": {
+  "title": "Défaut du verrouillage de porte",
+  "causes": [
+   "Le four détecte un problème avec le verrouillage de la porte."
+  ],
+  "steps": [
+   "Éteignez le four et relancez-le.",
+   "Si le code persiste, coupez l'alimentation au disjoncteur pendant au moins 30 secondes, puis rétablissez-la.",
+   "Ne forcez pas l'ouverture de la porte si elle est verrouillée."
+  ],
+  "technician": "Appelez le service Samsung si le code revient après une coupure d'alimentation complète."
+ },
+ "Samsung|C-20": {
+  "title": "Défaut de sonde du four",
+  "causes": [
+   "Le four signale un problème avec une sonde de température."
+  ],
+  "steps": [
+   "Éteignez le four et relancez-le.",
+   "Si le code persiste, coupez l'alimentation au disjoncteur pendant au moins 30 secondes, puis rétablissez-la."
+  ],
+  "technician": "Appelez le service Samsung si le code revient après une coupure d'alimentation complète."
+ },
+ "Samsung|C-21": {
+  "title": "Défaut de sonde du four",
+  "causes": [
+   "Le four signale un problème avec une sonde de température."
+  ],
+  "steps": [
+   "Éteignez le four et relancez-le.",
+   "Si le code persiste, coupez l'alimentation au disjoncteur pendant au moins 30 secondes, puis rétablissez-la."
+  ],
+  "technician": "Appelez le service Samsung si le code revient après une coupure d'alimentation complète."
+ },
+ "Samsung|C-22": {
+  "title": "Défaut de sonde du four",
+  "causes": [
+   "Le four signale un problème avec une sonde de température."
+  ],
+  "steps": [
+   "Éteignez le four et relancez-le.",
+   "Si le code persiste, coupez l'alimentation au disjoncteur pendant au moins 30 secondes, puis rétablissez-la."
+  ],
+  "technician": "Appelez le service Samsung si le code revient après une coupure d'alimentation complète."
+ },
+ "Samsung|C-F1": {
+  "title": "Erreur de lecture ou d'écriture de la mémoire",
+  "causes": [
+   "Une erreur s'est produite pendant que la carte de commande lisait ou écrivait sa mémoire (EEPROM)."
+  ],
+  "steps": [
+   "Éteignez le four et relancez-le.",
+   "Si le code persiste, coupez l'alimentation au disjoncteur pendant au moins 30 secondes, puis rétablissez-la."
+  ],
+  "technician": "Appelez le service Samsung si le code revient après une coupure d'alimentation complète."
+ },
+ "Samsung|C-F0": {
+  "title": "La carte principale et la carte secondaire ne communiquent pas",
+  "causes": [
+   "La carte électronique principale et la carte secondaire ne peuvent pas communiquer entre elles."
+  ],
+  "steps": [
+   "Éteignez le four et relancez-le.",
+   "Si le code persiste, coupez l'alimentation au disjoncteur pendant au moins 30 secondes, puis rétablissez-la."
+  ],
+  "technician": "Appelez le service Samsung si le code revient après une coupure d'alimentation complète."
+ },
+ "Samsung|C-F2": {
+  "title": "Problème de communication du contrôleur tactile",
+  "causes": [
+   "Le contrôleur tactile perd sans cesse le contact avec la carte principale ou secondaire."
+  ],
+  "steps": [
+   "Éteignez le four et relancez-le.",
+   "Si le code persiste, coupez l'alimentation au disjoncteur pendant au moins 30 secondes, puis rétablissez-la."
+  ],
+  "technician": "Appelez le service Samsung si le code revient après une coupure d'alimentation complète."
+ },
+ "Samsung|Pr E": {
+  "title": "Le four préchauffe, message normal",
+  "causes": [
+   "Le four est encore en train de chauffer jusqu'à la température réglée.",
+   "C'est un message normal, pas une panne."
+  ],
+  "steps": [
+   "Gardez la porte fermée.",
+   "Attendez que le four atteigne la température réglée.",
+   "Le code disparaît de lui-même."
+  ],
+  "technician": "Aucune intervention n'est nécessaire."
+ },
+ "Bosch|E011": {
+  "title": "Une touche de commande est bloquée",
+  "causes": [
+   "Une touche a été enfoncée trop longtemps ou s'est coincée.",
+   "De la saleté ou de l'humidité autour d'une touche."
+  ],
+  "steps": [
+   "Appuyez sur chaque touche, une par une, et vérifiez qu'elle bouge librement.",
+   "Nettoyez la zone des commandes et séchez-la.",
+   "Éteignez le four puis rallumez-le."
+  ],
+  "technician": "Appelez le service Bosch si E011 persiste après le nettoyage des commandes."
+ },
+ "Bosch|E115": {
+  "title": "Cavité du four trop chaude, porte verrouillée",
+  "causes": [
+   "L'intérieur du four est trop chaud, c'est pourquoi le verrouillage de la porte reste fermé."
+  ],
+  "steps": [
+   "Attendez que le four ait refroidi.",
+   "Effacez le message avec la touche 0.",
+   "Ne forcez pas la porte."
+  ],
+  "technician": "Appelez le service Bosch si E115 revient alors que le four est froid."
+ },
+ "Bosch|e005": {
+  "title": "La commande et la carte de puissance ne communiquent pas",
+  "causes": [
+   "Le bandeau de commande et la carte de puissance ont perdu leur liaison."
+  ],
+  "steps": [
+   "Éteignez la cuisinière au disjoncteur.",
+   "Attendez cinq minutes, puis remettez le disjoncteur.",
+   "Vérifiez si le code revient."
+  ],
+  "technician": "Appelez l'assistance Bosch si le code revient après une coupure d'alimentation."
+ },
+ "Bosch|E100": {
+  "title": "Défaut de l'électronique",
+  "causes": [
+   "Le four a détecté un défaut de l'électronique."
+  ],
+  "steps": [
+   "Éteignez la cuisinière au disjoncteur.",
+   "Attendez cinq minutes, puis remettez le disjoncteur.",
+   "Testez à nouveau le four."
+  ],
+  "technician": "Appelez l'assistance Bosch si le code revient après une coupure d'alimentation."
+ },
+ "Bosch|e101": {
+  "title": "Défaut de la sonde de température du four",
+  "causes": [
+   "La sonde de température ne fonctionne pas comme prévu."
+  ],
+  "steps": [
+   "Éteignez la cuisinière au disjoncteur.",
+   "Attendez cinq minutes, puis remettez le disjoncteur.",
+   "Si le four vient d'être installé, demandez à l'installateur de vérifier le câblage du cordon d'alimentation."
+  ],
+  "technician": "Appelez l'assistance Bosch si le code revient après une coupure d'alimentation."
+ },
+ "Bosch|e126": {
+  "title": "Défaut du verrouillage de porte du four",
+  "causes": [
+   "Le verrouillage de la porte ne fonctionne pas correctement, souvent pendant l'autonettoyage."
+  ],
+  "steps": [
+   "Annulez le cycle d'autonettoyage.",
+   "Attendez que la porte se déverrouille.",
+   "Relancez l'autonettoyage."
+  ],
+  "technician": "Appelez l'assistance Bosch si le code revient après une coupure d'alimentation."
+ },
+ "Bosch|E302": {
+  "title": "Bandeau de commande en surchauffe",
+  "causes": [
+   "Le bandeau de commande est trop chaud, ce que peuvent provoquer des casseroles sur la table de cuisson.",
+   "Température ambiante élevée."
+  ],
+  "steps": [
+   "Vérifiez la température de la pièce et l'emplacement des casseroles.",
+   "Laissez l'appareil refroidir.",
+   "Effectuez une coupure d'alimentation de cinq minutes au disjoncteur."
+  ],
+  "technician": "Appelez l'assistance Bosch si le code revient après une coupure d'alimentation."
+ },
+ "Bosch|e310": {
+  "title": "Défaut d'alimentation électrique",
+  "causes": [
+   "La tension d'alimentation est peut-être incorrecte ou instable."
+  ],
+  "steps": [
+   "Éteignez la cuisinière au disjoncteur.",
+   "Attendez cinq minutes, puis remettez le disjoncteur.",
+   "Si le code revient, demandez à un électricien de vérifier la tension de votre logement."
+  ],
+  "technician": "Appelez l'assistance Bosch si le code revient après une coupure d'alimentation."
+ },
+ "Bosch|ERR/toP": {
+  "title": "Table de cuisson utilisée pendant l'autonettoyage",
+  "causes": [
+   "Une zone de cuisson a été allumée pendant l'autonettoyage du four."
+  ],
+  "steps": [
+   "Éteignez toute zone de cuisson active.",
+   "Relancez le cycle d'autonettoyage.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Aucune intervention n'est nécessaire, sauf si le code apparaît alors que toutes les zones sont éteintes."
+ },
+ "Bosch|dE": {
+  "title": "Mode démo activé, les zones ne chauffent pas",
+  "causes": [
+   "Le mode démo est actif, les zones de cuisson restent donc froides."
+  ],
+  "steps": [
+   "Coupez le disjoncteur ou le fusible de la table de cuisson pendant 30 secondes.",
+   "Rétablissez-le.",
+   "Touchez une commande dans les trois minutes."
+  ],
+  "technician": "Appelez l'assistance Bosch si le code revient après une coupure d'alimentation."
+ },
+ "Bosch|F1": {
+  "title": "Zone de cuisson en surchauffe et arrêtée",
+  "causes": [
+   "Une zone a surchauffé et s'est éteinte pour protéger le plan de travail."
+  ],
+  "steps": [
+   "Laissez l'électronique refroidir.",
+   "Rallumez la zone.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Appelez l'assistance Bosch si le code revient après une coupure d'alimentation."
+ },
+ "Bosch|F6": {
+  "title": "Zone de cuisson en surchauffe et arrêtée",
+  "causes": [
+   "Une zone a surchauffé et s'est éteinte pour protéger le plan de travail."
+  ],
+  "steps": [
+   "Laissez l'électronique refroidir.",
+   "Rallumez la zone.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Appelez l'assistance Bosch si le code revient après une coupure d'alimentation."
+ },
+ "Bosch|F2": {
+  "title": "Électronique en surchauffe, zone éteinte",
+  "causes": [
+   "L'électronique est trop chaude, la zone s'est donc éteinte."
+  ],
+  "steps": [
+   "Laissez la table de cuisson refroidir.",
+   "Touchez une commande.",
+   "Recommencez à cuisiner quand le message disparaît.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Appelez l'assistance Bosch si le code revient après une coupure d'alimentation."
+ },
+ "Bosch|F4": {
+  "title": "Électronique en surchauffe",
+  "causes": [
+   "L'électronique est trop chaude."
+  ],
+  "steps": [
+   "Laissez la table de cuisson refroidir.",
+   "Touchez une commande.",
+   "Reprenez la cuisson quand le message disparaît.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Appelez l'assistance Bosch si le code revient après une coupure d'alimentation."
+ },
+ "Bosch|F5": {
+  "title": "Poêle chaude près du bandeau de commande",
+  "causes": [
+   "Un ustensile chaud se trouve près des commandes tactiles.",
+   "L'électronique risque de surchauffer."
+  ],
+  "steps": [
+   "Éloignez l'ustensile du bandeau de commande.",
+   "Attendez quelques secondes et touchez une commande.",
+   "Reprenez la cuisson quand le message disparaît."
+  ],
+  "technician": "Appelez l'assistance Bosch si le code revient après une coupure d'alimentation."
+ },
+ "Bosch|F8": {
+  "title": "Zone restée allumée trop longtemps, limite de durée atteinte",
+  "causes": [
+   "Une zone est restée allumée longtemps sans aucune action."
+  ],
+  "steps": [
+   "Touchez une commande.",
+   "Réglez de nouveau la zone.",
+   "Poursuivez la cuisson.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Appelez l'assistance Bosch si le code revient après une coupure d'alimentation."
+ },
+ "Bosch|E7010": {
+  "title": "La table de cuisson ne peut pas se connecter au réseau ou à la hotte",
+  "causes": [
+   "La table de cuisson a perdu sa liaison avec votre réseau domestique ou votre hotte."
+  ],
+  "steps": [
+   "Éteignez la table de cuisson puis rallumez-la.",
+   "Vérifiez que votre Wi-Fi fonctionne.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Appelez l'assistance Bosch si le code revient après une coupure d'alimentation."
+ },
+ "Bosch|E9000": {
+  "title": "Tension d'alimentation hors de la plage normale",
+  "causes": [
+   "La tension d'alimentation électrique est trop haute ou trop basse."
+  ],
+  "steps": [
+   "Éteignez la table de cuisson puis rallumez-la.",
+   "Demandez à votre fournisseur d'électricité de vérifier la tension d'alimentation."
+  ],
+  "technician": "Appelez l'assistance Bosch si votre fournisseur ne trouve rien d'anormal."
+ },
+ "Bosch|E9010": {
+  "title": "Tension d'alimentation hors de la plage normale",
+  "causes": [
+   "La tension d'alimentation électrique est trop haute ou trop basse."
+  ],
+  "steps": [
+   "Éteignez la table de cuisson puis rallumez-la.",
+   "Demandez à votre fournisseur d'électricité de vérifier la tension d'alimentation."
+  ],
+  "technician": "Appelez l'assistance Bosch si votre fournisseur ne trouve rien d'anormal."
+ },
+ "Bosch|E9011": {
+  "title": "Table de cuisson mal raccordée",
+  "causes": [
+   "Le câblage ne correspond pas au schéma électrique."
+  ],
+  "steps": [
+   "Coupez l'alimentation au disjoncteur.",
+   "Faites vérifier le câblage par un électricien qualifié en le comparant au schéma."
+  ],
+  "technician": "Appelez un électricien qualifié ou l'assistance Bosch."
+ },
+ "Bosch|U400": {
+  "title": "Tension d'alimentation hors de la plage normale",
+  "causes": [
+   "La tension d'alimentation est hors des limites normales."
+  ],
+  "steps": [
+   "Éteignez la table de cuisson puis rallumez-la.",
+   "Contactez votre fournisseur d'électricité pour faire vérifier la tension.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Appelez l'assistance Bosch si l'alimentation est normale."
+ },
+ "Siemens|E0111": {
+  "title": "Message de défaut de l'électronique",
+  "causes": [
+   "L'électronique du four a détecté un défaut.",
+   "Il peut s'agir d'un incident ponctuel."
+  ],
+  "steps": [
+   "Éteignez le four puis rallumez-le.",
+   "Si le message disparaît, c'était un incident ponctuel.",
+   "S'il revient, notez le code exact."
+  ],
+  "technician": "Si le code revient, appelez le service après-vente Siemens en indiquant le code exact."
+ },
+ "Neff|E011": {
+  "title": "Touche affectée en permanence",
+  "causes": [
+   "Une touche est enfoncée ou affectée en permanence."
+  ],
+  "steps": [
+   "Annulez l'affectation permanente de la touche.",
+   "Appuyez ensuite sur la touche de la fonction horloge.",
+   "Nettoyez autour des touches.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Appelez le service Neff si E011 ne disparaît pas."
+ },
+ "Neff|E300": {
+  "title": "Défaut interne de l'électronique",
+  "causes": [
+   "Un défaut interne de l'électronique du four."
+  ],
+  "steps": [
+   "Appuyez sur la touche de la fonction horloge.",
+   "Si le défaut persiste, débranchez le four.",
+   "Attendez environ 10 secondes et rebranchez-le.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Appelez le service Neff si le code revient."
+ },
+ "Neff|rrr": {
+  "title": "Coupure de courant pendant le fonctionnement",
+  "causes": [
+   "L'alimentation électrique a été interrompue pendant que le four fonctionnait."
+  ],
+  "steps": [
+   "Appuyez sur la touche de l'heure.",
+   "Remettez l'horloge à l'heure.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Aucune intervention n'est nécessaire, sauf si le code se répète sans coupure de courant."
+ },
+ "Miele|E0-E5": {
+  "title": "Codes de progression du programme de détartrage",
+  "causes": [
+   "Ces codes indiquent l'étape du programme de détartrage en cours.",
+   "E0 correspond à l'aspiration de la solution, E1 à l'activation, E2 à E4 aux rinçages, E5 à l'évaporation."
+  ],
+  "steps": [
+   "Laissez le programme aller jusqu'au bout.",
+   "N'éteignez pas le four pendant le détartrage."
+  ],
+  "technician": "Aucune intervention n'est nécessaire, sauf si le programme s'arrête."
+ },
+ "Miele|F23": {
+  "title": "Le nettoyage pyrolytique n'a pas atteint la température",
+  "causes": [
+   "Le four n'a pas pu chauffer assez pour l'autonettoyage.",
+   "Beaucoup de résidus alimentaires se trouvent à l'intérieur."
+  ],
+  "steps": [
+   "Éteignez le four.",
+   "Essuyez les gros dépôts et la saleté épaisse.",
+   "Relancez le nettoyage pyrolytique."
+  ],
+  "technician": "Contactez le service client Miele ou prenez rendez-vous pour une réparation si le défaut revient."
+ },
+ "Miele|F32": {
+  "title": "Le verrouillage de porte pyrolytique ne se ferme pas",
+  "causes": [
+   "Le verrouillage de porte de l'autonettoyage ne s'enclenche pas.",
+   "Quelque chose bloque peut-être la porte."
+  ],
+  "steps": [
+   "Vérifiez qu'il n'y a ni objet ni débris au niveau de la porte et du joint.",
+   "Éteignez le four.",
+   "Relancez le nettoyage pyrolytique."
+  ],
+  "technician": "Contactez le service client Miele ou prenez rendez-vous pour une réparation si le défaut revient."
+ },
+ "Miele|F33": {
+  "title": "Le verrouillage de porte pyrolytique ne s'ouvre pas",
+  "causes": [
+   "Le verrouillage de porte de l'autonettoyage ne s'est pas libéré."
+  ],
+  "steps": [
+   "Éteignez le four pour arrêter le cycle de nettoyage.",
+   "Essayez d'ouvrir la porte.",
+   "Ne la forcez pas.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Appelez le service client Miele si la porte reste verrouillée."
+ },
+ "Miele|F38": {
+  "title": "Défaut du module électronique",
+  "causes": [
+   "Le module électronique du four a un défaut technique."
+  ],
+  "steps": [
+   "N'essayez pas de le réparer vous-même.",
+   "Notez le code et la référence de votre modèle.",
+   "Prenez rendez-vous pour une réparation.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Faites appel à un technicien Miele, car cela ne peut pas être réparé à la maison."
+ },
+ "Miele|F44": {
+  "title": "Défaut technique détecté",
+  "causes": [
+   "Le four a détecté un défaut technique."
+  ],
+  "steps": [
+   "Coupez le disjoncteur ou débranchez le four.",
+   "Laissez-le éteint pendant 20 secondes.",
+   "Rétablissez l'alimentation et testez.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Contactez le service client Miele ou prenez rendez-vous pour une réparation si le défaut revient."
+ },
+ "Miele|F54": {
+  "title": "Sonde de cuisson défectueuse",
+  "causes": [
+   "La sonde de cuisson ou son branchement est défectueux."
+  ],
+  "steps": [
+   "Retirez la sonde de sa prise.",
+   "Le message de défaut devrait disparaître.",
+   "Cuisinez sans la sonde pour le moment.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Contactez le service client Miele pour acheter une sonde de remplacement."
+ },
+ "Miele|F55": {
+  "title": "Four éteint après un fonctionnement trop long",
+  "causes": [
+   "Le four a fonctionné anormalement longtemps, il s'est donc éteint par sécurité.",
+   "La limite est de 6 heures dans les modes gril et de 12 heures dans les autres cas."
+  ],
+  "steps": [
+   "Éteignez le four puis rallumez-le.",
+   "Lancez un nouveau programme de cuisson."
+  ],
+  "technician": "Aucune intervention n'est nécessaire, sauf si le problème se répète lors de cuissons courtes."
+ },
+ "Miele|F60": {
+  "title": "Ventilation du four insuffisante",
+  "causes": [
+   "Le conduit d'air est obstrué ou recouvert."
+  ],
+  "steps": [
+   "Vérifiez que rien ne recouvre le conduit d'air du four.",
+   "Débranchez le four de l'alimentation, puis rebranchez-le.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Contactez le service client Miele ou prenez rendez-vous pour une réparation si le défaut revient."
+ },
+ "Miele|F134": {
+  "title": "Cavité du four trop chaude",
+  "causes": [
+   "La sonde de température indique que l'enceinte de cuisson est trop chaude."
+  ],
+  "steps": [
+   "Éteignez le four et laissez-le refroidir.",
+   "N'essayez pas de le réparer vous-même.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Prenez rendez-vous pour une réparation Miele, car l'intervention d'un technicien est nécessaire."
+ },
+ "Miele|MES": {
+  "title": "Mode démo activé, le four ne chauffe pas",
+  "causes": [
+   "Le mode démo de présentation en magasin est activé."
+  ],
+  "steps": [
+   "Confirmez le message avec OK.",
+   "Tournez le sélecteur de mode sur 0.",
+   "Ouvrez Settings, allez à P 9 et réglez S 0.",
+   "Maintenez OK pendant 4 secondes."
+  ],
+  "technician": "Contactez Miele si le mode démo revient."
+ },
+ "Miele|F1": {
+  "title": "Réservoir d'eau non enfoncé",
+  "causes": [
+   "Le réservoir d'eau servant à évacuer l'eau résiduelle est absent ou pas complètement inséré."
+  ],
+  "steps": [
+   "Enfoncez complètement le réservoir d'eau dans le four.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Contactez le service client Miele ou prenez rendez-vous pour une réparation si le défaut revient."
+ },
+ "Miele|F04": {
+  "title": "Coupure de courant pendant la cuisson",
+  "causes": [
+   "Le four a perdu l'alimentation pendant un programme de cuisson."
+  ],
+  "steps": [
+   "Vérifiez où en est la cuisson.",
+   "Réglez une nouvelle durée de cuisson si nécessaire.",
+   "Appuyez sur Start/Stop pour reprendre.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Contactez le service client Miele ou prenez rendez-vous pour une réparation si le défaut revient."
+ },
+ "Miele|F05": {
+  "title": "L'eau n'arrive pas dans le four vapeur",
+  "causes": [
+   "La vanne d'arrivée d'eau n'est pas complètement ouverte.",
+   "La buse d'eau est bouchée par du calcaire."
+  ],
+  "steps": [
+   "Ouvrez complètement la vanne d'arrivée d'eau et redémarrez.",
+   "Si le code revient, détartrez la buse d'eau en portant des gants de cuisine.",
+   "Rincez les éléments d'eau."
+  ],
+  "technician": "Contactez le service client Miele ou prenez rendez-vous pour une réparation si le défaut revient."
+ },
+ "Miele|F10": {
+  "title": "Défaut d'arrivée d'eau dans le four vapeur",
+  "causes": [
+   "La pompe d'alimentation est à sec après une longue inutilisation.",
+   "Le tuyau d'aspiration noir est desserré ou endommagé.",
+   "L'eau osmosée est trop pure pour le capteur."
+  ],
+  "steps": [
+   "Remettez le tuyau d'aspiration noir bien droit dans le réservoir.",
+   "Éteignez le système d'osmose si vous le pouvez.",
+   "Ou ajoutez une pincée de sel dans l'eau."
+  ],
+  "technician": "Contactez le service client Miele ou prenez rendez-vous pour une réparation si le défaut revient."
+ },
+ "Miele|F11": {
+  "title": "Le générateur de vapeur ne peut pas évacuer l'eau",
+  "causes": [
+   "Du calcaire dans l'évacuation ou sur l'électrode.",
+   "Des tuyaux bouchés ou coincés."
+  ],
+  "steps": [
+   "Détartrez le four comme indiqué dans le mode d'emploi.",
+   "Réglez la dureté de l'eau au maximum sur les séries 6000 et 7000.",
+   "Ne répétez pas le détartrage avec une solution plus forte."
+  ],
+  "technician": "Contactez le service client Miele ou prenez rendez-vous pour une réparation si le défaut revient."
+ },
+ "Miele|F12": {
+  "title": "Le four vapeur ne reçoit pas d'eau",
+  "causes": [
+   "La vanne d'arrivée d'eau est fermée.",
+   "Le filtre d'arrivée d'eau est bouché."
+  ],
+  "steps": [
+   "Ouvrez la vanne d'eau et redémarrez.",
+   "Nettoyez le filtre de l'arrivée d'eau.",
+   "Éteignez le four et fermez la vanne si vous soupçonnez un tuyau défectueux."
+  ],
+  "technician": "Appelez Miele ou un plombier si le tuyau semble défectueux."
+ },
+ "Miele|F13": {
+  "title": "Compartiment du four vapeur trop chaud",
+  "causes": [
+   "La vanne d'arrivée d'eau est peut-être fermée.",
+   "La buse d'eau a peut-être besoin d'un détartrage."
+  ],
+  "steps": [
+   "Ouvrez complètement la vanne d'arrivée d'eau.",
+   "Si le code revient, détartrez et rincez la buse.",
+   "Portez des gants de cuisine."
+  ],
+  "technician": "Contactez le service client Miele ou prenez rendez-vous pour une réparation si le défaut revient."
+ },
+ "Miele|F14": {
+  "title": "Pas assez d'eau dans le générateur de vapeur",
+  "causes": [
+   "L'eau n'arrive pas en quantité suffisante dans le générateur de vapeur."
+  ],
+  "steps": [
+   "Éteignez le four puis rallumez-le.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Éteignez et contactez Miele si F14 apparaît de nouveau."
+ },
+ "Miele|F20": {
+  "title": "Le four vapeur ne chauffe pas",
+  "causes": [
+   "La température n'a pas augmenté de 2 degrés en 5 minutes.",
+   "De grandes quantités d'aliments surgelés peuvent en être la cause."
+  ],
+  "steps": [
+   "Éteignez le four puis rallumez-le et redémarrez.",
+   "Enfoncez le réservoir d'eau jusqu'au déclic.",
+   "Utilisez uniquement la graisse silicone fournie sur le joint."
+  ],
+  "technician": "Appelez Miele si le joint du raccord semble fissuré ou si de l'eau s'accumule."
+ },
+ "Miele|F27": {
+  "title": "Coupure de courant pendant la cuisson ou le détartrage",
+  "causes": [
+   "Le courant a été coupé pendant un programme de cuisson (F27).",
+   "E04 signifie que le courant a été coupé pendant le détartrage."
+  ],
+  "steps": [
+   "Pour F27, réglez une nouvelle durée et appuyez sur Start/Stop.",
+   "Pour E04, attendez que l'écran décompte à partir de 0:06.",
+   "Éteignez puis rallumez le four."
+  ],
+  "technician": "Contactez le service client Miele ou prenez rendez-vous pour une réparation si le défaut revient."
+ },
+ "Miele|F74": {
+  "title": "Défaut technique du four vapeur",
+  "causes": [
+   "Un défaut technique qui ne peut pas être réparé à la maison."
+  ],
+  "steps": [
+   "N'essayez pas de le réparer vous-même.",
+   "Notez le code et la référence du modèle.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Prenez rendez-vous avec un technicien Miele."
+ },
+ "Miele|F95": {
+  "title": "Contacteur de niveau d'eau bloqué par du calcaire",
+  "causes": [
+   "Le calcaire bloque le contacteur de niveau."
+  ],
+  "steps": [
+   "Détartrez le four comme indiqué dans le mode d'emploi.",
+   "Utilisez les produits d'entretien Miele.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Contactez le service client Miele ou prenez rendez-vous pour une réparation si le défaut revient."
+ },
+ "Miele|F235": {
+  "title": "Défaut du module électronique",
+  "causes": [
+   "Le module électronique est défectueux."
+  ],
+  "steps": [
+   "N'essayez pas de le réparer vous-même.",
+   "Notez le code.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Prenez rendez-vous pour une réparation Miele."
+ },
+ "Electrolux|F1": {
+  "title": "La porte du four ne peut pas se verrouiller",
+  "causes": [
+   "Modèles pyrolytiques : la fonction de nettoyage est activée et la porte ne se ferme pas.",
+   "Autres modèles : un défaut électronique."
+  ],
+  "steps": [
+   "Vérifiez que la partie supérieure de la porte est intacte.",
+   "Suivez le mode d'emploi si la porte a été démontée.",
+   "Contactez le service après-vente si le problème persiste."
+  ],
+  "technician": "Prenez rendez-vous pour une réparation Electrolux si le code revient."
+ },
+ "Electrolux|F102": {
+  "title": "Défaut du capteur de verrouillage de la porte",
+  "causes": [
+   "La porte n'est pas complètement fermée.",
+   "Un verrouillage de porte ou une électronique défectueux."
+  ],
+  "steps": [
+   "Fermez fermement la porte.",
+   "Coupez l'alimentation pendant quelques minutes, puis rétablissez-la.",
+   "Vérifiez le fusible ou le disjoncteur différentiel de la maison."
+  ],
+  "technician": "Prenez rendez-vous pour une réparation Electrolux si le code revient."
+ },
+ "Electrolux|F111": {
+  "title": "Sonde de cuisson défectueuse ou non connectée",
+  "causes": [
+   "La sonde n'est pas complètement branchée.",
+   "La sonde ou son câble est endommagé."
+  ],
+  "steps": [
+   "Débranchez la sonde et rebranchez-la fermement.",
+   "Vérifiez qu'il n'y a ni contacts tordus ni fil endommagé.",
+   "Coupez l'alimentation du four au secteur pendant 30 secondes."
+  ],
+  "technician": "Prenez rendez-vous pour une réparation Electrolux si le code revient."
+ },
+ "Electrolux|F104": {
+  "title": "Sonde de température hors plage",
+  "causes": [
+   "La sonde de température du four est hors plage.",
+   "Le four risque de ne pas chauffer ou de s'arrêter."
+  ],
+  "steps": [
+   "Coupez l'alimentation du four au secteur pendant 30 secondes.",
+   "Rétablissez-le.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Contactez un centre de service agréé."
+ },
+ "Electrolux|F105": {
+  "title": "Alarme de température trop élevée détectée par la sonde",
+  "causes": [
+   "La sonde a détecté une température supérieure au niveau attendu."
+  ],
+  "steps": [
+   "Éteignez le four et laissez-le refroidir.",
+   "Coupez l'alimentation pendant 30 secondes, puis rétablissez-la.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Contactez un centre de service agréé."
+ },
+ "Electrolux|F215": {
+  "title": "Défaut logiciel du four connecté",
+  "causes": [
+   "Un problème logiciel sur un four connecté."
+  ],
+  "steps": [
+   "Réinstallez l'application et reconnectez le four.",
+   "Débranchez le four pendant 30 minutes, puis rebranchez-le.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Prenez rendez-vous pour une réparation si F215 s'affiche à l'écran."
+ },
+ "Electrolux|F601": {
+  "title": "Problème de signal Wi-Fi du four",
+  "causes": [
+   "Il y a un problème avec le signal Wi-Fi."
+  ],
+  "steps": [
+   "Vérifiez votre connexion réseau.",
+   "Rapprochez le routeur.",
+   "Réinitialisez les réglages Wi-Fi du four et configurez-le de nouveau.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Prenez rendez-vous pour une réparation s'il ne se connecte pas."
+ },
+ "Electrolux|F604": {
+  "title": "Échec de la première tentative de connexion Wi-Fi",
+  "causes": [
+   "La première tentative de connexion au Wi-Fi a échoué."
+  ],
+  "steps": [
+   "Éteignez puis rallumez le four.",
+   "Essayez de vous reconnecter.",
+   "Vérifiez votre connexion Internet.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Prenez rendez-vous pour une réparation s'il ne se connecte pas."
+ },
+ "Electrolux|E0020": {
+  "title": "Éclairage du four en panne",
+  "causes": [
+   "L'ampoule du four est défectueuse."
+  ],
+  "steps": [
+   "Éteignez le four et laissez-le refroidir.",
+   "Vérifiez l'ampoule et remplacez-la si elle est défectueuse.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Contactez un centre de service si l'ampoule est en bon état."
+ },
+ "Electrolux|C1": {
+  "title": "Nettoyage pyrolytique bloqué par les glissières télescopiques",
+  "causes": [
+   "Des glissières télescopiques se trouvent dans le four."
+  ],
+  "steps": [
+   "Retirez les glissières, les grilles et les supports latéraux.",
+   "Relancez Pyro Clean.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Contactez le service après-vente si le problème persiste."
+ },
+ "Electrolux|C2": {
+  "title": "Nettoyage pyrolytique bloqué par la sonde de cuisson",
+  "causes": [
+   "La sonde de cuisson est branchée."
+  ],
+  "steps": [
+   "Débranchez la sonde de sa prise.",
+   "Relancez Pyro Clean.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Contactez le service après-vente si le problème persiste."
+ },
+ "Electrolux|C3": {
+  "title": "Nettoyage pyrolytique bloqué par la porte ouverte",
+  "causes": [
+   "La porte est ouverte ou pas complètement fermée."
+  ],
+  "steps": [
+   "Fermez complètement la porte.",
+   "Relancez Pyro Clean.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Contactez le service après-vente si le problème persiste."
+ },
+ "Electrolux|C4": {
+  "title": "Nettoyage pyrolytique bloqué par Steam Bake",
+  "causes": [
+   "Steam Bake est toujours actif."
+  ],
+  "steps": [
+   "Appuyez sur Steam Bake jusqu'à ce que son voyant s'éteigne.",
+   "Relancez Pyro Clean.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Contactez le service après-vente si le problème persiste."
+ },
+ "AEG|F": {
+  "title": "Récipient non détecté ou défaut de la plaque",
+  "causes": [
+   "Casserole inadaptée ou retirée de la zone.",
+   "Sur une installation neuve, un problème d'installation."
+  ],
+  "steps": [
+   "Vérifiez qu'un aimant adhère au fond de la casserole.",
+   "Centrez la casserole sur la zone.",
+   "Gardez la plaque et la casserole au sec.",
+   "Coupez l'alimentation au secteur pendant 30 secondes."
+  ],
+  "technician": "Faites appel à un technicien si F persiste ou est suivi d'un chiffre."
+ },
+ "AEG|F2": {
+  "title": "SenseBoil : casserole vide ou huile",
+  "causes": [
+   "La casserole est vide ou contient de l'huile ou un liquide autre que de l'eau."
+  ],
+  "steps": [
+   "Séchez la surface de la plaque.",
+   "Ne chauffez pas une casserole vide.",
+   "Utilisez SenseBoil uniquement avec de l'eau.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Ce n'est pas une panne si le message disparaît."
+ },
+ "AEG|F3": {
+  "title": "SenseBoil : quantité d'eau incorrecte",
+  "causes": [
+   "Trop ou trop peu d'eau dans la casserole.",
+   "Aliments autres que de l'eau ou des pommes de terre."
+  ],
+  "steps": [
+   "Séchez la surface de la plaque.",
+   "Remplissez la casserole entre la moitié et les trois quarts, soit de 1 à 5 litres.",
+   "Faites bouillir uniquement de l'eau et des pommes de terre."
+  ],
+  "technician": "Ce n'est pas une panne si le message disparaît."
+ },
+ "AEG|E2": {
+  "title": "Erreur de LED ou de capteur de la plaque",
+  "causes": [
+   "Sur les plaques à induction, une erreur d'éclairage des LED.",
+   "Sur les teppanyaki, une erreur de capteur de température."
+  ],
+  "steps": [
+   "Coupez l'alimentation pendant 30 secondes.",
+   "Rallumez.",
+   "Notez le code exact.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Prenez rendez-vous pour une réparation AEG si le code revient."
+ },
+ "AEG|E3": {
+  "title": "Plaque raccordée à une mauvaise tension",
+  "causes": [
+   "Surtension possible ou câblage incorrect."
+  ],
+  "steps": [
+   "Arrêtez d'utiliser la plaque.",
+   "Demandez à l'installateur de vérifier l'alimentation et le câblage.",
+   "Ne réparez pas vous-même l'installation électrique.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Appelez un électricien qualifié ou le service AEG."
+ },
+ "AEG|E4": {
+  "title": "Protection contre la surchauffe de la plaque activée",
+  "causes": [
+   "La plaque a surchauffé.",
+   "Récipients inadaptés ou mauvaise installation."
+  ],
+  "steps": [
+   "Éteignez et retirez les récipients.",
+   "Testez la casserole avec un aimant.",
+   "Coupez l'alimentation pendant 30 secondes.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Prenez rendez-vous pour une réparation AEG si le code revient."
+ },
+ "AEG|E5": {
+  "title": "Problème de phase ou de tension de la plaque",
+  "causes": [
+   "Un problème de phase ou de tension dans l'alimentation électrique."
+  ],
+  "steps": [
+   "Coupez l'interrupteur d'isolement pendant 30 secondes.",
+   "Rallumez et testez.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Prenez rendez-vous pour une réparation AEG si le code revient."
+ },
+ "AEG|E6": {
+  "title": "Problème d'alimentation électrique de la plaque",
+  "causes": [
+   "Souvent une installation incorrecte, par exemple une prise 13 A pour une plaque de 16 A."
+  ],
+  "steps": [
+   "Éteignez la plaque puis rallumez-la.",
+   "Débranchez-la pendant 30 secondes.",
+   "Faites vérifier l'alimentation."
+  ],
+  "technician": "Prenez rendez-vous pour une réparation AEG si le code revient."
+ },
+ "AEG|E7": {
+  "title": "Défaut du ventilateur de refroidissement de la plaque",
+  "causes": [
+   "Ventilateur bloqué ou défectueux sur les modèles récents."
+  ],
+  "steps": [
+   "Vérifiez que rien ne bloque le ventilateur sous la plaque.",
+   "Coupez l'alimentation pendant 30 secondes.",
+   "Rallumez.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Prenez rendez-vous pour une réparation AEG si le code revient."
+ },
+ "AEG|E8": {
+  "title": "Défaut de l'électronique ou de phase de la plaque",
+  "causes": [
+   "Une phase manquante après l'installation.",
+   "Erreur de communication de l'électronique."
+  ],
+  "steps": [
+   "Vérifiez le câblage d'après le mode d'emploi.",
+   "Coupez l'alimentation pendant 30 secondes.",
+   "Arrêtez de l'utiliser si le problème persiste."
+  ],
+  "technician": "Prenez rendez-vous pour une réparation AEG si le code revient."
+ },
+ "AEG|E9": {
+  "title": "Défaut du module électronique de la plaque",
+  "causes": [
+   "Un défaut du module électronique."
+  ],
+  "steps": [
+   "Coupez l'alimentation au secteur pendant 30 secondes.",
+   "N'utilisez pas la plaque si le code revient.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Prenez rendez-vous pour une réparation AEG si le code revient."
+ },
+ "Whirlpool|F0 E0": {
+  "title": "Défaut de commande du four non identifié",
+  "causes": [
+   "La commande ne peut pas identifier le défaut."
+  ],
+  "steps": [
+   "Coupez le disjoncteur de la cuisinière pendant une minute.",
+   "Rétablissez-le.",
+   "Surveillez le four pendant une minute pour voir si le code revient."
+  ],
+  "technician": "Contactez le service Whirlpool si le code revient."
+ },
+ "Whirlpool|F1": {
+  "title": "Défaut possible de sonde, de commande ou de câblage",
+  "causes": [
+   "Problème de sonde de température du four, de commande ou de câblage."
+  ],
+  "steps": [
+   "Coupez le disjoncteur de la cuisinière pendant une minute.",
+   "Rétablissez-le.",
+   "Surveillez le four pendant une minute pour voir si le code revient."
+  ],
+  "technician": "Contactez le service Whirlpool si le code revient."
+ },
+ "Whirlpool|F2": {
+  "title": "Défaut possible de sonde, de commande ou de câblage",
+  "causes": [
+   "Problème de sonde de température du four, de commande ou de câblage."
+  ],
+  "steps": [
+   "Coupez le disjoncteur de la cuisinière pendant une minute.",
+   "Rétablissez-le.",
+   "Surveillez le four pendant une minute pour voir si le code revient."
+  ],
+  "technician": "Contactez le service Whirlpool si le code revient."
+ },
+ "Whirlpool|F2 E1": {
+  "title": "Problème de clavier ou de commande",
+  "causes": [
+   "Problème de clavier, de commande ou de câblage.",
+   "Une grille est peut-être mal installée."
+  ],
+  "steps": [
+   "Vérifiez que les grilles sont bien à plat.",
+   "Échangez-les si elles bougent.",
+   "Coupez le disjoncteur pendant une minute."
+  ],
+  "technician": "Contactez le service Whirlpool si le code revient."
+ },
+ "Whirlpool|F3": {
+  "title": "Défaut possible de la commande ou du câblage du four",
+  "causes": [
+   "Problème de commande ou de câblage du four."
+  ],
+  "steps": [
+   "Coupez le disjoncteur de la cuisinière pendant une minute.",
+   "Rétablissez-le.",
+   "Surveillez le four pendant une minute pour voir si le code revient."
+  ],
+  "technician": "Contactez le service Whirlpool si le code revient."
+ },
+ "Whirlpool|F5": {
+  "title": "Problème de loquet de porte du four",
+  "causes": [
+   "Problème de loquet de porte, de contacteur ou de câblage."
+  ],
+  "steps": [
+   "Coupez le disjoncteur de la cuisinière pendant une minute.",
+   "Rétablissez-le.",
+   "Surveillez le four pendant une minute pour voir si le code revient."
+  ],
+  "technician": "Contactez le service Whirlpool si le code revient."
+ },
+ "Whirlpool|F5 E0": {
+  "title": "Problème de loquet de porte du four",
+  "causes": [
+   "Problème de loquet de porte, de contacteur ou de câblage."
+  ],
+  "steps": [
+   "Coupez le disjoncteur de la cuisinière pendant une minute.",
+   "Rétablissez-le.",
+   "Surveillez le four pendant une minute pour voir si le code revient."
+  ],
+  "technician": "Contactez le service Whirlpool si le code revient."
+ },
+ "Whirlpool|F6": {
+  "title": "Défaut possible de la commande ou du câblage du four",
+  "causes": [
+   "Problème de commande ou de câblage du four."
+  ],
+  "steps": [
+   "Coupez le disjoncteur de la cuisinière pendant une minute.",
+   "Rétablissez-le.",
+   "Surveillez le four pendant une minute pour voir si le code revient."
+  ],
+  "technician": "Contactez le service Whirlpool si le code revient."
+ },
+ "Whirlpool|F7 E0": {
+  "title": "Problème d'ensemble loquet de porte",
+  "causes": [
+   "Problème d'ensemble loquet de porte ou de câblage."
+  ],
+  "steps": [
+   "Coupez le disjoncteur de la cuisinière pendant une minute.",
+   "Rétablissez-le.",
+   "Surveillez le four pendant une minute pour voir si le code revient."
+  ],
+  "technician": "Contactez le service Whirlpool si le code revient."
+ },
+ "Whirlpool|F8 E0": {
+  "title": "Le ventilateur de refroidissement du four tourne lentement",
+  "causes": [
+   "Restriction du flux d'air.",
+   "Ventilateur de refroidissement ou câblage défectueux."
+  ],
+  "steps": [
+   "Coupez le disjoncteur de la cuisinière pendant une minute.",
+   "Rétablissez-le.",
+   "Surveillez le four pendant une minute pour voir si le code revient."
+  ],
+  "technician": "Contactez le service Whirlpool si le code revient."
+ },
+ "Whirlpool|F9-1": {
+  "title": "Problème de loquet de porte ou de contacteur de verrouillage",
+  "causes": [
+   "Problème de loquet de porte, de contacteur de verrouillage ou de câblage."
+  ],
+  "steps": [
+   "Coupez le disjoncteur de la cuisinière pendant une minute.",
+   "Rétablissez-le.",
+   "Surveillez le four pendant une minute pour voir si le code revient."
+  ],
+  "technician": "Contactez le service Whirlpool si le code revient."
+ },
+ "LG|F1": {
+  "title": "Erreur de thermistance du four supérieur",
+  "causes": [
+   "Défaut de la sonde de température du four supérieur."
+  ],
+  "steps": [
+   "Appuyez sur CLEAR/OFF et essayez de nouveau la fonction.",
+   "Coupez le disjoncteur de la cuisinière pendant 30 secondes.",
+   "Rétablissez-le.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Demandez une réparation LG si le problème revient."
+ },
+ "LG|F2": {
+  "title": "Erreur de thermistance du four supérieur",
+  "causes": [
+   "Défaut de la sonde de température du four supérieur."
+  ],
+  "steps": [
+   "Appuyez sur CLEAR/OFF et essayez de nouveau la fonction.",
+   "Coupez le disjoncteur de la cuisinière pendant 30 secondes.",
+   "Rétablissez-le.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Demandez une réparation LG si le problème revient."
+ },
+ "LG|F3": {
+  "title": "Erreur de la touche sensitive du panneau tactile",
+  "causes": [
+   "Un défaut du capteur d'une touche du panneau tactile."
+  ],
+  "steps": [
+   "Appuyez sur CLEAR/OFF et essayez de nouveau la fonction.",
+   "Coupez le disjoncteur de la cuisinière pendant 30 secondes.",
+   "Rétablissez-le.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Demandez une réparation LG si le problème revient."
+ },
+ "LG|F6": {
+  "title": "Erreur de chauffage du four supérieur",
+  "causes": [
+   "Défaut de chauffage du four supérieur."
+  ],
+  "steps": [
+   "Appuyez sur CLEAR/OFF et essayez de nouveau la fonction.",
+   "Coupez le disjoncteur de la cuisinière pendant 30 secondes.",
+   "Rétablissez-le.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Demandez une réparation LG si le problème revient."
+ },
+ "LG|F7": {
+  "title": "Erreur du ventilateur de convection supérieur",
+  "causes": [
+   "Défaut du ventilateur de convection."
+  ],
+  "steps": [
+   "Appuyez sur CLEAR/OFF et essayez de nouveau la fonction.",
+   "Coupez le disjoncteur de la cuisinière pendant 30 secondes.",
+   "Rétablissez-le.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Demandez une réparation LG si le problème revient."
+ },
+ "LG|F9": {
+  "title": "Le four supérieur ne chauffe pas correctement",
+  "causes": [
+   "Le four supérieur ne chauffe pas."
+  ],
+  "steps": [
+   "Appuyez sur CLEAR/OFF et essayez de nouveau la fonction.",
+   "Coupez le disjoncteur de la cuisinière pendant 30 secondes.",
+   "Rétablissez-le.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Demandez une réparation LG si le problème revient."
+ },
+ "LG|F10": {
+  "title": "Défaillance du verrouillage de la porte du four supérieur",
+  "causes": [
+   "Défaillance du système de verrouillage de la porte."
+  ],
+  "steps": [
+   "Appuyez sur CLEAR/OFF et essayez de nouveau la fonction.",
+   "Coupez le disjoncteur de la cuisinière pendant 30 secondes.",
+   "Rétablissez-le.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Demandez une réparation LG si le problème revient."
+ },
+ "LG|F11": {
+  "title": "Erreur de communication",
+  "causes": [
+   "Les cartes ne communiquent pas."
+  ],
+  "steps": [
+   "Appuyez sur CLEAR/OFF et essayez de nouveau la fonction.",
+   "Coupez le disjoncteur de la cuisinière pendant 30 secondes.",
+   "Rétablissez-le.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Demandez une réparation LG si le problème revient."
+ },
+ "LG|F20": {
+  "title": "Défaillance du verrouillage de la porte du four inférieur",
+  "causes": [
+   "Défaillance du système de verrouillage de la porte."
+  ],
+  "steps": [
+   "Appuyez sur CLEAR/OFF et essayez de nouveau la fonction.",
+   "Coupez le disjoncteur de la cuisinière pendant 30 secondes.",
+   "Rétablissez-le.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Demandez une réparation LG si le problème revient."
+ },
+ "LG|F27": {
+  "title": "Ventilateur de refroidissement bloqué pendant l'autonettoyage",
+  "causes": [
+   "Ventilateur bloqué pendant l'autonettoyage."
+  ],
+  "steps": [
+   "Appuyez sur CLEAR/OFF et essayez de nouveau la fonction.",
+   "Coupez le disjoncteur de la cuisinière pendant 30 secondes.",
+   "Rétablissez-le.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Demandez une réparation LG si le problème revient."
+ },
+ "LG|PF": {
+  "title": "L'alimentation a été interrompue",
+  "causes": [
+   "L'alimentation de l'appareil a été interrompue."
+  ],
+  "steps": [
+   "Appuyez sur CLEAR/OFF et essayez de nouveau la fonction.",
+   "Coupez le disjoncteur de la cuisinière pendant 30 secondes.",
+   "Rétablissez-le.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Demandez une réparation LG si le problème revient."
+ },
+ "Beko|Er 5": {
+  "title": "Erreur de communication de la sonde à viande",
+  "causes": [
+   "Le four ne peut pas communiquer avec la sonde à viande."
+  ],
+  "steps": [
+   "Retirez la sonde à viande.",
+   "Réglez le bouton sur arrêt (0).",
+   "Cuisinez sans la sonde.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Contactez un service agréé pour pouvoir réutiliser la sonde."
+ },
+ "Beko|Er 1 - Er 7": {
+  "title": "Erreurs de communication du four",
+  "causes": [
+   "Erreurs de communication internes."
+  ],
+  "steps": [
+   "Éteignez le four.",
+   "Notez le numéro exact.",
+   "N'utilisez pas le four.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Consultez un service agréé Beko."
+ },
+ "Beko|Er 8 - Er 27": {
+  "title": "Erreurs de sonde du four",
+  "causes": [
+   "Une sonde du four est défectueuse."
+  ],
+  "steps": [
+   "Éteignez le four.",
+   "Notez le numéro exact.",
+   "Notez le code exact et la référence du modèle figurant sur la plaque signalétique avant de contacter qui que ce soit."
+  ],
+  "technician": "Consultez un service agréé Beko."
+ }
+}

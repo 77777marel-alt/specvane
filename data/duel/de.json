@@ -1,0 +1,15 @@
+{
+ "title": "Das 30-Sekunden-Duell: Welches ist besser für Sie?",
+ "lead": "Tippen Sie an, wie wichtig Ihnen jeder Punkt ist. Wir gewichten, wie jedes Modell bei diesen Merkmalen im Vergleich zu allen Modellen unseres Katalogs abschneidet, und sagen Ihnen, welches zu Ihnen passt.",
+ "levels": [
+  "Egal",
+  "Wichtig",
+  "Sehr wichtig"
+ ],
+ "result": "Für Sie: {name}",
+ "tie": "Unentschieden: Beide passen etwa gleich gut zu Ihnen – entscheiden Sie nach Preis oder Design.",
+ "wins": "Vorn bei {n} von {m} Punkten, die Ihnen wichtig sind.",
+ "basis": "Punktzahl = Anteil der Katalogmodelle, die das jeweilige Modell bei diesen Merkmalen übertrifft, gewichtet nach Ihren Angaben. Preis, Design und Testberichte sind nicht enthalten.",
+ "none": "Wählen Sie mindestens einen Punkt, der Ihnen wichtig ist.",
+ "specs": "Grundlage: {list}"
+}

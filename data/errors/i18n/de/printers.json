@@ -1,0 +1,1365 @@
+{
+ "Canon|B200": {
+  "title": "Druckerfehler, der eine Reparatur erfordert",
+  "causes": [
+   "Der Drucker hat einen schwerwiegenden Fehler erkannt, den er nicht selbst beheben kann.",
+   "Canon führt dies als Fehler auf, der eine Reparatur erfordert."
+  ],
+  "steps": [
+   "Schalten Sie den Drucker aus.",
+   "Ziehen Sie das Netzkabel aus der Steckdose.",
+   "Starten Sie ihn nicht ständig neu. Wenden Sie sich für eine Reparatur an den Canon-Support."
+  ],
+  "technician": "Rufen Sie den Canon-Service für eine Reparatur an, denn der Code bedeutet, dass der Drucker einen Techniker benötigt."
+ },
+ "Canon|B203": {
+  "title": "Druckerfehler, der eine Reparatur erfordert",
+  "causes": [
+   "Der Drucker meldet einen Fehler, der eine Reparatur erfordert.",
+   "Bei manchen Modellen wird der Code zusammen mit P10 angezeigt."
+  ],
+  "steps": [
+   "Schalten Sie den Drucker aus.",
+   "Ziehen Sie das Netzkabel ab.",
+   "Wenden Sie sich an den Canon-Support und nennen Sie den Code."
+  ],
+  "technician": "Rufen Sie den Canon-Service an, denn der Drucker muss repariert werden."
+ },
+ "Canon|5100": {
+  "title": "Druckerfehler, Problem mit Wagen oder Druckkopf",
+  "causes": [
+   "Im Drucker ist ein interner Fehler aufgetreten. Canon nennt keine einzelne Ursache.",
+   "Möglicherweise blockiert etwas den Druckkopfwagen, zum Beispiel Papier oder Verpackungsmaterial."
+  ],
+  "steps": [
+   "Brechen Sie den Druckauftrag ab und schalten Sie den Drucker aus.",
+   "Öffnen Sie die Abdeckung und prüfen Sie, ob etwas den Wagen blockiert. Entfernen Sie Papier, Klebeband oder andere Fremdkörper vorsichtig.",
+   "Prüfen Sie, ob Druckkopf oder Patronen bis zum Einrasten eingedrückt sind.",
+   "Schalten Sie den Drucker wieder ein."
+  ],
+  "technician": "Wenn der Fehler bleibt, wenden Sie sich für eine Reparatur an ein Canon-Servicezentrum."
+ },
+ "Canon|5200": {
+  "title": "Allgemeiner Druckerfehler",
+  "causes": [
+   "Der Drucker meldet einen internen Fehler ohne bestimmte Ursache."
+  ],
+  "steps": [
+   "Schalten Sie den Drucker aus und ziehen Sie den Netzstecker.",
+   "Warten Sie kurz, stecken Sie ihn dann wieder ein und schalten Sie ihn ein.",
+   "Wenn der Fehler wiederkommt, notieren Sie den Code, bevor Sie den Support anrufen."
+  ],
+  "technician": "Wenn der Fehler bleibt, wenden Sie sich für eine Reparatur an ein Canon-Servicezentrum."
+ },
+ "Canon|5011": {
+  "title": "Allgemeiner Druckerfehler",
+  "causes": [
+   "Der Drucker hat einen internen Fehler. Canon nennt keine weiteren Details."
+  ],
+  "steps": [
+   "Schalten Sie den Drucker aus und ziehen Sie den Netzstecker.",
+   "Stecken Sie ihn wieder ein und schalten Sie ihn ein.",
+   "Prüfen Sie, ob im Inneren Papier feststeckt."
+  ],
+  "technician": "Wenn der Fehler bleibt, wenden Sie sich an ein Canon-Servicezentrum."
+ },
+ "Canon|6800": {
+  "title": "Allgemeiner Druckerfehler",
+  "causes": [
+   "Der Drucker meldet einen internen Fehler. Es wird keine einzelne Ursache genannt."
+  ],
+  "steps": [
+   "Schalten Sie den Drucker aus und ziehen Sie den Netzstecker.",
+   "Stecken Sie ihn wieder ein und schalten Sie ihn ein.",
+   "Prüfen Sie, ob im Inneren Papier oder ein Gegenstand feststeckt."
+  ],
+  "technician": "Wenn der Fehler bleibt, wenden Sie sich an ein Canon-Servicezentrum."
+ },
+ "Canon|6000": {
+  "title": "Allgemeiner Druckerfehler",
+  "causes": [
+   "Es ist ein allgemeiner Druckerfehler aufgetreten. Canon nennt keine bestimmte Ursache.",
+   "Auch ein Papierstau kann zu diesem Code führen."
+  ],
+  "steps": [
+   "Entfernen Sie sichtbares gestautes Papier.",
+   "Schalten Sie den Drucker aus und ziehen Sie den Netzstecker.",
+   "Stecken Sie ihn wieder ein und schalten Sie ihn ein."
+  ],
+  "technician": "Wenn der Fehler bleibt, wenden Sie sich für eine Reparatur an ein Canon-Servicezentrum."
+ },
+ "Canon|5B00": {
+  "title": "Druckerfehler, der Service erfordert",
+  "causes": [
+   "Canon führt dies als allgemeinen Druckerfehler auf, der bei manchen Modellen als P07 angezeigt wird.",
+   "Canon nennt auf der Seite keine Lösung für zu Hause."
+  ],
+  "steps": [
+   "Schalten Sie den Drucker einmal aus und wieder ein.",
+   "Notieren Sie den angezeigten Code.",
+   "Drucken Sie nicht weiter, wenn der Fehler wiederkommt."
+  ],
+  "technician": "Wenden Sie sich an ein Canon-Servicezentrum, um eine Reparatur zu vereinbaren."
+ },
+ "Canon|5B01": {
+  "title": "Druckerfehler, der Service erfordert",
+  "causes": [
+   "Der Drucker meldet einen Fehler ohne bestimmte Ursache.",
+   "Canon sagt, dass eine Reparatur über den Service nötig ist."
+  ],
+  "steps": [
+   "Schalten Sie den Drucker einmal aus und wieder ein.",
+   "Notieren Sie den Code.",
+   "Beenden Sie das Drucken, wenn der Code wiederkommt."
+  ],
+  "technician": "Wenden Sie sich an ein Canon-Servicezentrum, um eine Reparatur anzufordern."
+ },
+ "Canon|1700": {
+  "title": "Resttintenpolster fast voll",
+  "causes": [
+   "Das interne Polster, das Resttinte aufnimmt, ist fast voll."
+  ],
+  "steps": [
+   "Drücken Sie die Taste OK am Drucker, um weiterzudrucken.",
+   "Planen Sie eine Reparatur, denn das Polster muss vom Service behandelt werden.",
+   "Öffnen Sie den Drucker nicht, um es selbst auszutauschen."
+  ],
+  "technician": "Wenden Sie sich an ein Canon-Servicezentrum, damit das Tintenpolster gewartet wird."
+ },
+ "Canon|1701": {
+  "title": "Resttintenpolster fast voll",
+  "causes": [
+   "Das Resttintenpolster des Druckers ist fast voll."
+  ],
+  "steps": [
+   "Drücken Sie OK am Drucker, um weiterzudrucken.",
+   "Vereinbaren Sie bald eine Reparatur.",
+   "Öffnen Sie den Drucker nicht selbst.",
+   "Fassen Sie Patronen an den Kanten an und berühren Sie weder die Kontakte noch die Düsen."
+  ],
+  "technician": "Wenden Sie sich an ein Canon-Servicezentrum, um eine Reparatur anzufordern."
+ },
+ "Canon|1300": {
+  "title": "Papierstau beim Einzug aus dem hinteren Fach",
+  "causes": [
+   "Das Papier ist beim Einzug aus dem hinteren Fach hängengeblieben."
+  ],
+  "steps": [
+   "Ziehen Sie das Papier langsam mit beiden Händen heraus, durch den Ausgabeschacht oder das hintere Fach.",
+   "Wenn es sich nicht herausziehen lässt, schalten Sie den Drucker aus und wieder ein, damit er das Blatt eventuell auswirft.",
+   "Legen Sie passendes Papier neu ein und drücken Sie OK.",
+   "Drucken Sie die fehlgeschlagene Seite erneut."
+  ],
+  "technician": "Wenn es immer wieder zu Staus kommt oder Papier im Inneren reißt, wenden Sie sich an ein Canon-Servicezentrum."
+ },
+ "Canon|1203": {
+  "title": "Abdeckung während des Druckens geöffnet",
+  "causes": [
+   "Die Abdeckung wurde geöffnet, während der Drucker arbeitete."
+  ],
+  "steps": [
+   "Entfernen Sie Papier aus dem Papierweg, falls etwas feststeckt.",
+   "Schließen Sie die Abdeckung.",
+   "Drücken Sie OK, um den Fehler zu löschen.",
+   "Drucken Sie die Seite erneut, denn das geschieht nicht von selbst."
+  ],
+  "technician": "Wenn der Fehler bei geschlossener Abdeckung erneut auftritt, wenden Sie sich an ein Canon-Servicezentrum."
+ },
+ "Canon|1000": {
+  "title": "Hinteres Fach leer oder Papier falsch eingelegt",
+  "causes": [
+   "Im hinteren Fach ist kein Papier.",
+   "Das Papier ist nicht richtig eingelegt."
+  ],
+  "steps": [
+   "Legen Sie Papier in das hintere Fach ein.",
+   "Schieben Sie die Führungen an beide Papierkanten.",
+   "Wenn das Papierformat blinkt, wählen Sie das eingelegte Format.",
+   "Drücken Sie OK."
+  ],
+  "technician": "Wenn der Drucker trotz eingelegtem Papier meldet, es sei keines da, wenden Sie sich an ein Canon-Servicezentrum."
+ },
+ "Canon|1890": {
+  "title": "Schutzband im Patronenhalter vergessen",
+  "causes": [
+   "Am Patronenhalter befindet sich möglicherweise noch Transportband oder Verpackungsmaterial."
+  ],
+  "steps": [
+   "Schließen Sie das Ausgabefach und öffnen Sie die Abdeckung.",
+   "Entfernen Sie Klebeband oder Schutzmaterial vom Halter.",
+   "Schließen Sie die Abdeckung."
+  ],
+  "technician": "Wenn der Fehler nach dem Entfernen des gesamten Verpackungsmaterials bleibt, wenden Sie sich an ein Canon-Servicezentrum."
+ },
+ "Canon|1401": {
+  "title": "Patrone nicht erkannt",
+  "causes": [
+   "Der Drucker erkennt eine FINE-Patrone nicht."
+  ],
+  "steps": [
+   "Setzen Sie die FINE-Patrone ein.",
+   "Drücken Sie sie hinein, bis sie einrastet.",
+   "Schließen Sie die Abdeckung.",
+   "Fassen Sie Patronen an den Kanten an und berühren Sie weder die Kontakte noch die Düsen."
+  ],
+  "technician": "Wenn der Fehler bleibt, wenden Sie sich an ein Canon-Servicezentrum, da die Patrone beschädigt sein könnte."
+ },
+ "Canon|1403": {
+  "title": "Patronenfehler",
+  "causes": [
+   "Der Drucker meldet einen Fehler mit der FINE-Patrone."
+  ],
+  "steps": [
+   "Nehmen Sie die Patrone heraus und setzen Sie sie wieder ein.",
+   "Wenn der Fehler bleibt, ersetzen Sie die Patrone durch eine neue."
+  ],
+  "technician": "Wenn auch eine neue Patrone den Fehler auslöst, wenden Sie sich an ein Canon-Servicezentrum."
+ },
+ "Canon|1682": {
+  "title": "Patrone kann nicht erkannt werden",
+  "causes": [
+   "Der Drucker kann die FINE-Patrone nicht erkennen."
+  ],
+  "steps": [
+   "Ersetzen Sie die FINE-Patrone.",
+   "Prüfen Sie, ob sie vollständig eingesetzt ist.",
+   "Fassen Sie Patronen an den Kanten an und berühren Sie weder die Kontakte noch die Düsen."
+  ],
+  "technician": "Wenn der Fehler bleibt, wenden Sie sich an ein Canon-Servicezentrum, da die Patrone beschädigt sein könnte."
+ },
+ "Canon|1684": {
+  "title": "Tintenpatrone nicht erkannt",
+  "causes": [
+   "Die Patrone ist falsch eingesetzt oder nicht mit diesem Drucker kompatibel."
+  ],
+  "steps": [
+   "Setzen Sie die Patrone richtig neu ein.",
+   "Oder ersetzen Sie sie durch eine kompatible.",
+   "Drücken Sie Stop, um den Druckauftrag abzubrechen."
+  ],
+  "technician": "Wenn die Meldung trotz korrekter Patrone bleibt, wenden Sie sich an ein Canon-Servicezentrum."
+ },
+ "Canon|1686": {
+  "title": "Die Tinte ist möglicherweise aufgebraucht",
+  "causes": [
+   "Die Tinte in der Patrone ist möglicherweise leer."
+  ],
+  "steps": [
+   "Ersetzen Sie die leere Patrone durch eine neue Canon-Patrone.",
+   "Um einen Auftrag abzuschließen, halten Sie die Taste Stop 5 Sekunden gedrückt. Der Druck läuft dann ohne Tintenerkennung weiter."
+  ],
+  "technician": "Wenn der Fehler nach dem Tintenwechsel bleibt, wenden Sie sich an ein Canon-Servicezentrum."
+ },
+ "Canon|1688": {
+  "title": "Drucker hat keine Tinte mehr",
+  "causes": [
+   "Dem Drucker ist die Tinte ausgegangen."
+  ],
+  "steps": [
+   "Ersetzen Sie die leere Tintenpatrone.",
+   "Schließen Sie die Abdeckung.",
+   "Um einen Auftrag abzuschließen, halten Sie die Taste Stop mindestens 5 Sekunden gedrückt. Die Qualität kann darunter leiden. Wechseln Sie die Patrone gleich danach."
+  ],
+  "technician": "Wenn der Fehler mit voller Patrone bleibt, wenden Sie sich an ein Canon-Servicezentrum."
+ },
+ "Canon|168A": {
+  "title": "Patrone fehlt oder falscher Typ",
+  "causes": [
+   "Es wird keine FINE-Patrone erkannt.",
+   "Eine ist falsch eingesetzt oder passt nicht zu diesem Drucker."
+  ],
+  "steps": [
+   "Öffnen Sie die Abdeckung und nehmen Sie die Patronen heraus.",
+   "Prüfen Sie, ob es die richtigen für Ihren Drucker sind.",
+   "Drücken Sie jede nach oben, bis sie einrastet, und schließen Sie dann die Abdeckung."
+  ],
+  "technician": "Wenn der Fehler nach dem erneuten Einsetzen bleibt, wenden Sie sich an ein Canon-Servicezentrum."
+ },
+ "Canon|4100": {
+  "title": "Daten können nicht gedruckt werden",
+  "causes": [
+   "Der Drucker kann die angegebenen Daten nicht drucken."
+  ],
+  "steps": [
+   "Lesen Sie die Meldung am Computer.",
+   "Prüfen Sie, ob für jede Farbe Original-Canon-Patronen eingesetzt sind.",
+   "Versuchen Sie erneut zu drucken."
+  ],
+  "technician": "Wenn der Fehler bleibt, wenden Sie sich an ein Canon-Servicezentrum."
+ },
+ "Canon|3446": {
+  "title": "Konflikt bei IP-Adresse und Subnetzmaske",
+  "causes": [
+   "Die Einstellungen für Wireless Direct und WLAN des Druckers verwenden sich überschneidende Netzwerkbereiche."
+  ],
+  "steps": [
+   "Drücken Sie OK am Drucker.",
+   "Schalten Sie Wireless Direct aus oder stellen Sie für WLAN und Wireless Direct unterschiedliche Subnetzbereiche ein.",
+   "Lesen Sie die Anleitung Ihres Routers, wenn Sie Router-Einstellungen ändern."
+  ],
+  "technician": "Wenn der Fehler nach der Änderung der Netzwerkeinrichtung bleibt, wenden Sie sich an den Canon-Support."
+ },
+ "Canon|3440": {
+  "title": "Easy Wireless Connect fehlgeschlagen",
+  "causes": [
+   "Die WLAN-Einrichtung mit Easy Wireless Connect wurde nicht abgeschlossen."
+  ],
+  "steps": [
+   "Drücken Sie OK am Drucker.",
+   "Versuchen Sie Easy Wireless Connect erneut.",
+   "Wenn es wieder fehlschlägt, verwenden Sie eine andere WLAN-Einrichtungsmethode."
+  ],
+  "technician": "Wenn der Drucker keinem Netzwerk beitritt, wenden Sie sich an den Canon-Support."
+ },
+ "Canon|2900": {
+  "title": "Scan des Ausrichtungsblatts fehlgeschlagen",
+  "causes": [
+   "Der Drucker konnte das Blatt zur Druckkopfausrichtung nicht scannen."
+  ],
+  "steps": [
+   "Drücken Sie OK.",
+   "Prüfen Sie, ob das Blatt mit der bedruckten Seite nach unten richtig aufgelegt ist und das Glas sauber ist.",
+   "Legen Sie normales A4- oder Letter-Papier in das hintere Fach ein.",
+   "Drucken Sie ein Düsenprüfmuster und wiederholen Sie dann die Ausrichtung. Wenn es fehlschlägt, richten Sie manuell aus."
+  ],
+  "technician": "Wenn das Düsenprüfmuster einen verstopften Druckkopf zeigt, den die Reinigung nicht frei bekommt, wenden Sie sich an ein Canon-Servicezentrum."
+ },
+ "Canon|3412": {
+  "title": "Vorlage konnte nicht gescannt werden",
+  "causes": [
+   "Der Drucker konnte die Vorlage auf dem Glas nicht scannen."
+  ],
+  "steps": [
+   "Drücken Sie OK.",
+   "Legen Sie die Vorlage richtig auf das Glas.",
+   "Versuchen Sie das Scannen oder Kopieren erneut.",
+   "Wenn der Fehler bleibt, stellen Sie das Format der Vorlage manuell ein."
+  ],
+  "technician": "Wenn das Scannen immer wieder fehlschlägt, wenden Sie sich an ein Canon-Servicezentrum."
+ },
+ "Epson|Service required": {
+  "title": "Tintenpolster am Ende der Lebensdauer",
+  "causes": [
+   "Die internen Resttintenpolster sind voll. Das ist normaler Verschleiß und kein plötzlicher Defekt.",
+   "Starke Nutzung, viele Druckkopfreinigungen und randloses Drucken füllen sie schneller."
+  ],
+  "steps": [
+   "Prüfen Sie den Wortlaut. Wenn eine Maintenance Box genannt wird, ist das ein anderes, vom Nutzer austauschbares Teil.",
+   "Öffnen Sie den Drucker nicht und versuchen Sie nicht, die Polster selbst zu reparieren.",
+   "Wenden Sie sich an Epson und fragen Sie nach Reparaturmöglichkeiten."
+  ],
+  "technician": "Wenden Sie sich an Epson, da die Tintenpolster von einem autorisierten Servicepartner ersetzt werden müssen."
+ },
+ "Epson|Ink pad at end of life": {
+  "title": "Resttintenpolster verbraucht",
+  "causes": [
+   "Das Polster, das nicht verwendete Tinte aufnimmt, ist voll."
+  ],
+  "steps": [
+   "Schalten Sie den Drucker aus.",
+   "Versuchen Sie nicht, ihn zu öffnen.",
+   "Wenden Sie sich an den Epson-Support.",
+   "Fassen Sie Patronen an den Kanten an und berühren Sie weder die Kontakte noch die Düsen."
+  ],
+  "technician": "Wenden Sie sich an Epson, da Tintenpolster nicht vom Nutzer ausgetauscht werden können."
+ },
+ "Epson|Ink pad nearing end of life": {
+  "title": "Resttintenpolster fast voll",
+  "causes": [
+   "Das Tintenpolster nähert sich dem Ende seiner Lebensdauer.",
+   "Die Meldung bleibt, bis das Polster ersetzt wird."
+  ],
+  "steps": [
+   "Wählen Sie OK, um vorerst weiterzudrucken.",
+   "Wenden Sie sich an den Epson-Support, um einen Austausch zu planen."
+  ],
+  "technician": "Wenden Sie sich bald an Epson, da das Polster vom Service ersetzt werden muss."
+ },
+ "Epson|Borderless ink pad at end of life": {
+  "title": "Polster für randlosen Druck verbraucht",
+  "causes": [
+   "Das Polster für den randlosen Druck ist voll.",
+   "Epson sagt, dass es nicht vom Nutzer ausgetauscht werden kann."
+  ],
+  "steps": [
+   "Schalten Sie das Gerät aus.",
+   "Wenden Sie sich an den Epson-Support.",
+   "Scannen und andere Vorgänge ohne Tinte funktionieren möglicherweise weiterhin."
+  ],
+  "technician": "Wenden Sie sich an Epson, um das Polster für randlosen Druck ersetzen zu lassen."
+ },
+ "Epson|E-01": {
+  "title": "Druckerfehler",
+  "causes": [
+   "Der Drucker hat einen allgemeinen Fehler.",
+   "Ein Papierstau im Inneren kann die Ursache sein."
+  ],
+  "steps": [
+   "Schalten Sie das Gerät aus und wieder ein.",
+   "Prüfen Sie, ob im Inneren ein Papierstau vorliegt, und entfernen Sie das Papier.",
+   "Schalten Sie es wieder ein."
+  ],
+  "technician": "Wenn der Fehler wiederkommt und kein Papierstau vorliegt, wenden Sie sich an Epson."
+ },
+ "Epson|E-02": {
+  "title": "Scannerfehler",
+  "causes": [
+   "Der Scannerteil hat eine Störung."
+  ],
+  "steps": [
+   "Schalten Sie das Gerät aus und wieder ein.",
+   "Prüfen Sie, ob die Scannerabdeckung geschlossen ist.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Wenn der Fehler wiederkommt, wenden Sie sich an Epson."
+ },
+ "Epson|E-12": {
+  "title": "Polster für randlosen Druck muss ersetzt werden",
+  "causes": [
+   "Das Tintenpolster für den randlosen Druck ist voll."
+  ],
+  "steps": [
+   "Wenden Sie sich an Epson, da Sie es nicht selbst ersetzen können.",
+   "Sie können weiterhin mit Rand drucken.",
+   "Fassen Sie Patronen an den Kanten an und berühren Sie weder die Kontakte noch die Düsen."
+  ],
+  "technician": "Wenden Sie sich an Epson, um das Polster ersetzen zu lassen."
+ },
+ "Epson|W-14": {
+  "title": "Polster für randlosen Druck fast voll",
+  "causes": [
+   "Das Tintenpolster für den randlosen Druck nähert sich dem Ende seiner Lebensdauer."
+  ],
+  "steps": [
+   "Drücken Sie die Starttaste, um weiterzudrucken.",
+   "Wenden Sie sich an Epson, um einen Austausch zu planen.",
+   "Die Warnung bleibt, bis das Polster ersetzt wird."
+  ],
+  "technician": "Wenden Sie sich an Epson, um das Polster ersetzen zu lassen."
+ },
+ "Epson|W-01": {
+  "title": "Papierstau",
+  "causes": [
+   "Im Gerät steckt Papier fest."
+  ],
+  "steps": [
+   "Entfernen Sie das gestaute Papier vorsichtig.",
+   "Drücken Sie die auf dem Display angezeigte Taste, um den Fehler zu löschen.",
+   "Wenn der Fehler bleibt, schalten Sie das Gerät aus und wieder ein."
+  ],
+  "technician": "Wenn es wiederholt zu Staus kommt, wenden Sie sich an Epson."
+ },
+ "Epson|W-12": {
+  "title": "Tintenpatrone sitzt nicht richtig",
+  "causes": [
+   "Eine Tintenpatrone ist nicht vollständig eingedrückt."
+  ],
+  "steps": [
+   "Drücken Sie jede Tintenpatrone nach unten, bis sie einrastet.",
+   "Prüfen Sie, ob alle Patronen gleichmäßig sitzen.",
+   "Fassen Sie Patronen an den Kanten an und berühren Sie weder die Kontakte noch die Düsen."
+  ],
+  "technician": "Wenn die Meldung nach dem erneuten Einsetzen bleibt, wenden Sie sich an Epson."
+ },
+ "Epson|W-13": {
+  "title": "Tintenpatrone nicht erkannt",
+  "causes": [
+   "Die Patrone wird vom Drucker nicht erkannt."
+  ],
+  "steps": [
+   "Prüfen Sie, ob Sie Original-Epson-Patronen eingesetzt haben.",
+   "Nehmen Sie die Patrone heraus und setzen Sie sie wieder ein.",
+   "Fassen Sie Patronen an den Kanten an und berühren Sie weder die Kontakte noch die Düsen."
+  ],
+  "technician": "Wenn Original-Patronen nicht erkannt werden, wenden Sie sich an Epson."
+ },
+ "Epson|Printer error. Turn on the printer again": {
+  "title": "Schwerwiegender Druckerfehler",
+  "causes": [
+   "Im Drucker ist ein schwerwiegender Fehler aufgetreten."
+  ],
+  "steps": [
+   "Schalten Sie das Gerät aus und dann wieder ein.",
+   "Prüfen Sie, ob im Inneren ein Papierstau oder Schutzmaterial vorhanden ist.",
+   "Entfernen Sie alles, was Sie finden.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Wenn die Meldung wiederkommt und kein Papierstau vorliegt, wenden Sie sich an Epson."
+ },
+ "Epson|Recovery mode": {
+  "title": "Firmware-Update fehlgeschlagen",
+  "causes": [
+   "Ein Firmware-Update wurde nicht abgeschlossen."
+  ],
+  "steps": [
+   "Verbinden Sie das Gerät per USB-Kabel mit dem Computer.",
+   "Führen Sie das Firmware-Update erneut aus.",
+   "Prüfen Sie, ob Papier oder ein Gegenstand das Schließen der Abdeckung verhindert."
+  ],
+  "technician": "Wenn der Wiederherstellungsmodus aktiv bleibt, wenden Sie sich an Epson."
+ },
+ "Epson|W-10": {
+  "title": "Tintenpatrone leer oder falsch eingesetzt",
+  "causes": [
+   "Eine Patrone ist aufgebraucht oder nicht richtig eingesetzt."
+  ],
+  "steps": [
+   "Ersetzen Sie die leere Patrone.",
+   "Wenn der Fehler mit einer neuen Patrone bleibt, drücken Sie Start, damit sich die Patronen bewegen, drücken Sie jede nach unten und drücken Sie dann Start."
+  ],
+  "technician": "Wenn die Meldung bleibt, wenden Sie sich an Epson."
+ },
+ "Epson|Print head adjustment canceled": {
+  "title": "Problem mit dem Druckkopf",
+  "causes": [
+   "Es gibt ein Problem mit dem Druckkopf."
+  ],
+  "steps": [
+   "Reinigen Sie den Druckkopf.",
+   "Wenn die Qualität nach zwei Reinigungen immer noch schlecht ist, schalten Sie den Drucker mindestens sechs Stunden aus.",
+   "Führen Sie eine Düsenprüfung durch und reinigen Sie bei Bedarf erneut."
+  ],
+  "technician": "Wenn die Druckqualität weiterhin schlecht ist, wenden Sie sich an Epson."
+ },
+ "Brother|Ink Absorber Full": {
+  "title": "Tintenabsorber-Box ist voll",
+  "causes": [
+   "Der Tintenabsorber oder die Spülbox ist nach intensiver Reinigung voll."
+  ],
+  "steps": [
+   "Vermeiden Sie intensive Reinigungszyklen.",
+   "Wenden Sie sich an den Brother-Service, um den Absorber ersetzen zu lassen.",
+   "Der Austausch ist von der Garantie nicht abgedeckt."
+  ],
+  "technician": "Wenden Sie sich an den Brother-Kundendienst, da die Absorber-Box ersetzt werden muss."
+ },
+ "Brother|Absorber NearFull": {
+  "title": "Tintenabsorber-Box fast voll",
+  "causes": [
+   "Die Tintenabsorber-Box ist fast voll."
+  ],
+  "steps": [
+   "Drucken Sie vorerst weiter.",
+   "Bestellen Sie einen Ersatz über Brother oder einen Händler.",
+   "Fassen Sie Patronen an den Kanten an und berühren Sie weder die Kontakte noch die Düsen."
+  ],
+  "technician": "Wenden Sie sich an den Brother-Service, um den Absorber ersetzen zu lassen."
+ },
+ "Brother|Cannot Print ##": {
+  "title": "Mechanischer Fehler oder Fremdkörper im Inneren",
+  "causes": [
+   "Im Gerät liegt ein mechanisches Problem oder ein Fremdkörper vor."
+  ],
+  "steps": [
+   "Suchen Sie im Inneren nach Büroklammern oder abgerissenem Papier.",
+   "Entfernen Sie alle Fremdkörper.",
+   "Schalten Sie das Gerät aus, warten Sie einige Minuten und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Wenn der Code wiederkommt, wenden Sie sich an Brother."
+ },
+ "Brother|Cannot Clean ##": {
+  "title": "Mechanischer Fehler während der Reinigung",
+  "causes": [
+   "Im Inneren liegt ein mechanisches Problem oder ein Fremdkörper vor."
+  ],
+  "steps": [
+   "Entfernen Sie sichtbare Fremdkörper.",
+   "Schalten Sie das Gerät einige Minuten aus und dann wieder ein.",
+   "Sichern Sie zuerst gespeicherte Faxe, wenn Sie können."
+  ],
+  "technician": "Wenn der Code wiederkommt, wenden Sie sich an Brother."
+ },
+ "Brother|Cannot Scan ##": {
+  "title": "Mechanischer Fehler beim Scannen",
+  "causes": [
+   "Ein mechanisches Problem im Scanner."
+  ],
+  "steps": [
+   "Schalten Sie das Gerät einige Minuten aus.",
+   "Schalten Sie es wieder ein.",
+   "Übertragen Sie gespeicherte Faxe nach Möglichkeit zuvor anderswohin."
+  ],
+  "technician": "Wenn der Code wiederkommt, wenden Sie sich an Brother."
+ },
+ "Brother|Cannot Detect": {
+  "title": "Tintenpatrone nicht erkannt",
+  "causes": [
+   "Die Patrone sitzt nicht richtig.",
+   "Es ist das falsche Modell eingesetzt."
+  ],
+  "steps": [
+   "Drücken Sie die Patrone fest hinein.",
+   "Prüfen Sie, ob es das richtige Modell ist.",
+   "Fassen Sie Patronen an den Kanten an und berühren Sie weder die Kontakte noch die Düsen."
+  ],
+  "technician": "Wenn die Meldung bleibt, wenden Sie sich an Brother."
+ },
+ "Brother|No Ink Cartridge": {
+  "title": "Patrone sitzt nicht richtig",
+  "causes": [
+   "Die Patrone sitzt nicht richtig in ihrem Schacht."
+  ],
+  "steps": [
+   "Nehmen Sie die Patrone heraus.",
+   "Setzen Sie sie fest wieder ein.",
+   "Fassen Sie Patronen an den Kanten an und berühren Sie weder die Kontakte noch die Düsen."
+  ],
+  "technician": "Wenn die Meldung bleibt, wenden Sie sich an Brother."
+ },
+ "Brother|Wrong Ink Cartridge": {
+  "title": "Nicht kompatible Tintenpatrone",
+  "causes": [
+   "Das Patronenmodell passt nicht zu diesem Gerät."
+  ],
+  "steps": [
+   "Vergleichen Sie die Modellnummer mit Ihrem Gerät.",
+   "Setzen Sie eine passende Patrone ein.",
+   "Fassen Sie Patronen an den Kanten an und berühren Sie weder die Kontakte noch die Düsen."
+  ],
+  "technician": "Wenn die richtige Patrone abgelehnt wird, wenden Sie sich an Brother."
+ },
+ "Brother|Wrong Ink Colour": {
+  "title": "Patrone im falschen Schacht",
+  "causes": [
+   "Eine Patrone steckt auf der Position einer anderen Farbe."
+  ],
+  "steps": [
+   "Setzen Sie jede Patrone in den Schacht derselben Farbe.",
+   "Fassen Sie Patronen an den Kanten an und berühren Sie weder die Kontakte noch die Düsen."
+  ],
+  "technician": "Wenn die Meldung bleibt, wenden Sie sich an Brother."
+ },
+ "Brother|Replace Ink": {
+  "title": "Patrone ist leer",
+  "causes": [
+   "Eine oder mehrere Patronen sind leer."
+  ],
+  "steps": [
+   "Ersetzen Sie die leeren Patronen.",
+   "Scannen funktioniert weiterhin.",
+   "Fassen Sie Patronen an den Kanten an und berühren Sie weder die Kontakte noch die Düsen."
+  ],
+  "technician": "Wenn die Meldung nach dem Austausch bleibt, wenden Sie sich an Brother."
+ },
+ "Brother|Ink Low": {
+  "title": "Patrone fast leer",
+  "causes": [
+   "Die Tinte geht zur Neige."
+  ],
+  "steps": [
+   "Halten Sie eine neue Patrone bereit.",
+   "Der Druck läuft weiter, bis Replace Ink angezeigt wird.",
+   "Fassen Sie Patronen an den Kanten an und berühren Sie weder die Kontakte noch die Düsen."
+  ],
+  "technician": "Wenn die Warnung bei voller Patrone erscheint, wenden Sie sich an Brother."
+ },
+ "Brother|B&W Print Only": {
+  "title": "Farbpatrone leer",
+  "causes": [
+   "Eine oder mehrere Farbpatronen sind leer."
+  ],
+  "steps": [
+   "Ersetzen Sie die Farbpatronen.",
+   "Schwarzweißdruck funktioniert noch etwa vier Wochen.",
+   "Fassen Sie Patronen an den Kanten an und berühren Sie weder die Kontakte noch die Düsen."
+  ],
+  "technician": "Wenn die Meldung nach dem Austausch bleibt, wenden Sie sich an Brother."
+ },
+ "Brother|Jam Front": {
+  "title": "Papierstau vorne",
+  "causes": [
+   "Vorne im Gerät steckt Papier fest."
+  ],
+  "steps": [
+   "Entfernen Sie das gestaute Papier.",
+   "Prüfen Sie die Führungen.",
+   "Ziehen Sie das Fach für Papier im Format A5 oder kleiner nicht aus.",
+   "Schalten Sie den Drucker aus, bevor Sie hineingreifen, und ziehen Sie das Papier langsam heraus, damit es nicht reißt."
+  ],
+  "technician": "Wenn es immer wieder zu Staus kommt, wenden Sie sich an Brother."
+ },
+ "Brother|Jam Rear": {
+  "title": "Papierstau hinten",
+  "causes": [
+   "Hinten steckt Papier fest oder die Einzugswalzen sind staubig."
+  ],
+  "steps": [
+   "Entfernen Sie das Papier.",
+   "Reinigen Sie die Einzugswalzen.",
+   "Prüfen Sie die Führungen.",
+   "Schalten Sie den Drucker aus, bevor Sie hineingreifen, und ziehen Sie das Papier langsam heraus, damit es nicht reißt."
+  ],
+  "technician": "Wenn es immer wieder zu Staus kommt, wenden Sie sich an Brother."
+ },
+ "Brother|No Paper Fed": {
+  "title": "Papier wird nicht eingezogen",
+  "causes": [
+   "Das Fach ist leer oder falsch befüllt.",
+   "Die Einzugswalzen sind staubig."
+  ],
+  "steps": [
+   "Legen Sie das Papier im Fach neu ein.",
+   "Schließen Sie die Jam Clear Cover.",
+   "Reinigen Sie die Walzen.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Wenn das Papier weiterhin nicht eingezogen wird, wenden Sie sich an Brother."
+ },
+ "Brother|Cover is Open": {
+  "title": "Abdeckung nicht geschlossen",
+  "causes": [
+   "Eine Abdeckung ist nicht verriegelt.",
+   "Das Kabel liegt nicht in seinem Kanal."
+  ],
+  "steps": [
+   "Schließen Sie die Abdeckungen fest.",
+   "Verlegen Sie das Kabel durch den Kanal.",
+   "Prüfen Sie, ob Papier oder ein Gegenstand das Schließen der Abdeckung verhindert."
+  ],
+  "technician": "Wenn die Meldung bleibt, wenden Sie sich an Brother."
+ },
+ "Brother|High Temperature": {
+  "title": "Raum zu warm",
+  "causes": [
+   "Der Raum ist zu heiß."
+  ],
+  "steps": [
+   "Kühlen Sie den Raum ab.",
+   "Lassen Sie das Gerät abkühlen, bevor Sie es wieder benutzen.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein.",
+   "Stecken Sie es direkt in eine Wandsteckdose und prüfen Sie, ob das Kabel fest angeschlossen ist."
+  ],
+  "technician": "Wenn die Meldung in einem kühlen Raum erscheint, wenden Sie sich an Brother."
+ },
+ "Brother|Out of Memory": {
+  "title": "Gerätespeicher ist voll",
+  "causes": [
+   "Der Gerätespeicher ist voll."
+  ],
+  "steps": [
+   "Warten Sie, bis andere Aufträge abgeschlossen sind.",
+   "Drucken Sie gespeicherte Faxe aus.",
+   "Verwenden Sie den Teildruck für gescannte Seiten.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Wenn die Meldung bleibt, wenden Sie sich an Brother."
+ },
+ "Brother|Cannot Print Refill": {
+  "title": "Tintentank fast leer, Druck angehalten",
+  "causes": [
+   "In einem oder mehreren Tanks ist die Tinte knapp."
+  ],
+  "steps": [
+   "Füllen Sie den Tank bis zur oberen Markierung auf.",
+   "Bestätigen Sie das Nachfüllen auf dem Display.",
+   "Scannen funktioniert weiterhin.",
+   "Fassen Sie Patronen an den Kanten an und berühren Sie weder die Kontakte noch die Düsen."
+  ],
+  "technician": "Wenn die Meldung nach dem Nachfüllen bleibt, wenden Sie sich an Brother."
+ },
+ "Brother|Drum !": {
+  "title": "Trommeleinheit braucht Aufmerksamkeit",
+  "causes": [
+   "Der Koronadraht der Trommel ist verschmutzt.",
+   "Die Trommel- oder Tonereinheit sitzt falsch."
+  ],
+  "steps": [
+   "Reinigen Sie den Koronadraht.",
+   "Setzen Sie die Tonerkartusche neu in die Trommeleinheit ein und bauen Sie sie wieder ein.",
+   "Wenn der Fehler bleibt, ersetzen Sie die Trommeleinheit."
+  ],
+  "technician": "Wenn die Meldung nach dem Austausch der Trommel bleibt, wenden Sie sich an Brother."
+ },
+ "Brother|Replace Drum": {
+  "title": "Trommeleinheit am Ende der Lebensdauer",
+  "causes": [
+   "Die Trommeleinheit ist verbraucht.",
+   "Der Trommelzähler wurde nach dem Austausch nicht zurückgesetzt."
+  ],
+  "steps": [
+   "Ersetzen Sie die Trommeleinheit.",
+   "Setzen Sie den Trommelzähler zurück, wenn Sie sie gerade ersetzt haben.",
+   "Gehen Sie vorsichtig mit Toner und Trommel um und halten Sie sie von direktem Licht fern."
+  ],
+  "technician": "Wenn die Meldung mit einer neuen Trommel erscheint, wenden Sie sich an Brother."
+ },
+ "Brother|Replace Toner": {
+  "title": "Tonerkartusche am Ende der Lebensdauer",
+  "causes": [
+   "Die Tonerkartusche ist aufgebraucht."
+  ],
+  "steps": [
+   "Ersetzen Sie die Tonerkartusche.",
+   "Gehen Sie vorsichtig mit Toner und Trommel um und halten Sie sie von direktem Licht fern.",
+   "Verwenden Sie Verbrauchsmaterial für Ihr genaues Druckermodell."
+  ],
+  "technician": "Wenn die Meldung mit einer neuen Kartusche erscheint, wenden Sie sich an Brother."
+ },
+ "Brother|Toner Low": {
+  "title": "Toner fast leer",
+  "causes": [
+   "Der Toner nähert sich dem Ende seiner Lebensdauer."
+  ],
+  "steps": [
+   "Bestellen Sie jetzt eine neue Tonerkartusche.",
+   "Drucken ist weiterhin möglich.",
+   "Gehen Sie vorsichtig mit Toner und Trommel um und halten Sie sie von direktem Licht fern."
+  ],
+  "technician": "Wenn die Meldung mit voller Kartusche erscheint, wenden Sie sich an Brother."
+ },
+ "Brother|No Toner": {
+  "title": "Tonerkartusche nicht erkannt",
+  "causes": [
+   "Die Kartusche ist nicht richtig eingesetzt."
+  ],
+  "steps": [
+   "Nehmen Sie die Einheit aus Trommel und Toner heraus.",
+   "Setzen Sie den Toner neu in die Trommel ein.",
+   "Setzen Sie die Einheit wieder ein. Ersetzen Sie den Toner, wenn der Fehler bleibt."
+  ],
+  "technician": "Wenn die Meldung bleibt, wenden Sie sich an Brother."
+ },
+ "Brother|Cartridge Error": {
+  "title": "Tonerkartusche nicht richtig eingesetzt",
+  "causes": [
+   "Die Tonerkartusche ist nicht richtig eingesetzt."
+  ],
+  "steps": [
+   "Nehmen Sie die Einheit heraus.",
+   "Setzen Sie die Tonerkartusche neu in die Trommel ein.",
+   "Setzen Sie die Einheit wieder ein.",
+   "Gehen Sie vorsichtig mit Toner und Trommel um und halten Sie sie von direktem Licht fern."
+  ],
+  "technician": "Wenn die Meldung bleibt, wenden Sie sich an Brother."
+ },
+ "Brother|Self-Diagnostic": {
+  "title": "Problem mit der Fixiereinheit",
+  "causes": [
+   "Die Fixiereinheit funktioniert nicht oder ist überhitzt."
+  ],
+  "steps": [
+   "Schalten Sie das Gerät aus, warten Sie einige Sekunden und schalten Sie es wieder ein.",
+   "Lassen Sie es 15 Minuten eingeschaltet und im Leerlauf.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Wenn der Fehler wiederkommt, wenden Sie sich an Brother."
+ },
+ "Brother|Cooling Down": {
+  "title": "Gerät zu heiß, Druck pausiert",
+  "causes": [
+   "Die Innentemperatur ist zu hoch."
+  ],
+  "steps": [
+   "Warten Sie, bis das Gerät abgekühlt ist.",
+   "Räumen Sie blockierte Lüftungsöffnungen frei.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Wenn es immer wieder passiert, wenden Sie sich an Brother."
+ },
+ "HP|E0": {
+  "title": "Patronenproblem",
+  "causes": [
+   "Die Patrone unter dem blinkenden Tintensymbol hat einen Fehler."
+  ],
+  "steps": [
+   "Prüfen Sie die Meldung in der HP-App oder -Software.",
+   "Setzen Sie die Patrone neu ein und entfernen Sie Klebeband.",
+   "Reinigen Sie die Kontakte oder ersetzen Sie die Patrone."
+  ],
+  "technician": "Wenn der Code mit einer neuen Patrone bleibt, wenden Sie sich an HP."
+ },
+ "HP|E1": {
+  "title": "Papierformat stimmt nicht überein",
+  "causes": [
+   "Das eingelegte Papier passt nicht zum Druckauftrag."
+  ],
+  "steps": [
+   "Drücken Sie Resume, um trotzdem zu drucken, oder Cancel.",
+   "Legen Sie passendes Papier ein oder ändern Sie die Papierformat-Einstellung.",
+   "Drucken Sie erneut."
+  ],
+  "technician": "Wenn der Code mit passendem Papier bleibt, wenden Sie sich an HP."
+ },
+ "HP|E2": {
+  "title": "Papierlänge stimmt nicht überein",
+  "causes": [
+   "Die Papierlänge passt nicht zum Auftrag."
+  ],
+  "steps": [
+   "Drücken Sie Resume, um trotzdem fortzufahren, oder Cancel.",
+   "Legen Sie passendes Papier ein oder ändern Sie die Einstellung.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Wenn der Code bleibt, wenden Sie sich an HP."
+ },
+ "HP|E3": {
+  "title": "Wagen blockiert oder verklemmt",
+  "causes": [
+   "Der Druckwagen kann sich nicht bewegen.",
+   "Papier oder ein Gegenstand blockiert ihn möglicherweise."
+  ],
+  "steps": [
+   "Öffnen Sie die Tintenzugangsklappe.",
+   "Achten Sie darauf, dass die Druckkopfabdeckung geschlossen ist und nichts den Wagen blockiert.",
+   "Entfernen Sie Papier oder Gegenstände, schließen Sie die Klappe und drücken Sie dann Resume oder Cancel."
+  ],
+  "technician": "Wenn der Fehler E3 bleibt, wenden Sie sich an HP."
+ },
+ "HP|E4": {
+  "title": "Papierstau",
+  "causes": [
+   "Im Drucker steckt Papier fest."
+  ],
+  "steps": [
+   "Beseitigen Sie den Stau im betroffenen Bereich.",
+   "Drücken Sie Resume.",
+   "Öffnen Sie die Druckkopfabdeckung nicht.",
+   "Schalten Sie den Drucker aus, bevor Sie hineingreifen, und ziehen Sie das Papier langsam heraus, damit es nicht reißt."
+  ],
+  "technician": "Wenn es immer wieder zu Staus kommt, wenden Sie sich an HP."
+ },
+ "HP|E5": {
+  "title": "Scanner funktioniert nicht",
+  "causes": [
+   "Der Scanner hat eine Störung."
+  ],
+  "steps": [
+   "Drücken Sie Cancel und versuchen Sie das Scannen erneut.",
+   "Schalten Sie den Drucker aus und wieder ein.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Wenn der Fehler bleibt, wenden Sie sich an HP. Das Drucken funktioniert weiterhin."
+ },
+ "HP|E6": {
+  "title": "Drucker im Fehlerzustand",
+  "causes": [
+   "Der Drucker befindet sich im Fehlerzustand."
+  ],
+  "steps": [
+   "Schalten Sie den Drucker aus.",
+   "Ziehen Sie das Netzkabel ab und warten Sie eine Minute.",
+   "Stecken Sie es wieder ein und schalten Sie den Drucker ein.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Wenn der Fehler bleibt, wenden Sie sich an HP."
+ },
+ "HP|E7": {
+  "title": "Tintentank leer",
+  "causes": [
+   "Ein oder mehrere Tintentanks haben keine Tinte mehr."
+  ],
+  "steps": [
+   "Füllen Sie den angezeigten Tank nach.",
+   "Fassen Sie Patronen an den Kanten an und berühren Sie weder die Kontakte noch die Düsen.",
+   "Verwenden Sie Patronen für Ihr genaues Druckermodell."
+  ],
+  "technician": "Wenn der Code nach dem Nachfüllen bleibt, wenden Sie sich an HP."
+ },
+ "HP|E8": {
+  "title": "Schwerwiegender Fehler",
+  "causes": [
+   "Der Drucker meldet einen schwerwiegenden Fehler."
+  ],
+  "steps": [
+   "Schalten Sie den Drucker aus und wieder ein.",
+   "Prüfen Sie, ob etwas ihn blockiert.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Wenn der Fehler bleibt, wenden Sie sich an HP."
+ },
+ "HP|E9": {
+  "title": "Fehler beim Firmware-Update",
+  "causes": [
+   "Ein Firmware-Update ist fehlgeschlagen."
+  ],
+  "steps": [
+   "Schalten Sie den Drucker aus und wieder ein.",
+   "Versuchen Sie das Update erneut.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein.",
+   "Stecken Sie es direkt in eine Wandsteckdose und prüfen Sie, ob das Kabel fest angeschlossen ist."
+  ],
+  "technician": "Wenn der Fehler bleibt, wenden Sie sich an HP."
+ },
+ "HP|Printhead problem": {
+  "title": "Druckkopf fehlt oder ist defekt",
+  "causes": [
+   "Ein Druckkopf fehlt, ist falsch eingesetzt oder beschädigt.",
+   "Möglicherweise sitzt noch ein oranger Stopfen oder Klebeband darauf."
+  ],
+  "steps": [
+   "Setzen Sie jeden fehlenden Druckkopf ein.",
+   "Nehmen Sie den angezeigten heraus, prüfen Sie auf Stopfen oder Klebeband und setzen Sie ihn wieder ein.",
+   "Verwenden Sie die richtigen HP-Druckköpfe. Öffnen Sie die Abdeckung nicht, solange Sie nicht dazu aufgefordert werden."
+  ],
+  "technician": "Wenn der Druckkopffehler bleibt, wenden Sie sich an HP."
+ },
+ "HP|49 Error": {
+  "title": "Interner Produktfehler",
+  "causes": [
+   "Der Drucker hat einen internen Fehler."
+  ],
+  "steps": [
+   "Schalten Sie ihn aus und warten Sie 30 Sekunden.",
+   "Stecken Sie ihn direkt in die Wandsteckdose, nicht in einen Überspannungsschutz.",
+   "Schalten Sie ihn ein.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Wenn der Fehler bleibt, wenden Sie sich an den HP-Support."
+ },
+ "HP|50.x Fuser Error": {
+  "title": "Problem mit der Fixiereinheit",
+  "causes": [
+   "Die Fixiereinheit hat ein Problem."
+  ],
+  "steps": [
+   "Schalten Sie aus, warten Sie 30 Sekunden und schalten Sie wieder ein.",
+   "Wenn der Fehler bleibt, schalten Sie das Gerät 25 Minuten aus.",
+   "Umgehen Sie einen Überspannungsschutz.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Wenn der Fehler bleibt, wenden Sie sich an den HP-Support."
+ },
+ "HP|79 Error": {
+  "title": "Interner Firmware-Fehler",
+  "causes": [
+   "Ein interner Firmware-Fehler."
+  ],
+  "steps": [
+   "Schalten Sie aus und wieder ein.",
+   "Stecken Sie direkt in die Wandsteckdose.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein.",
+   "Stecken Sie es direkt in eine Wandsteckdose und prüfen Sie, ob das Kabel fest angeschlossen ist."
+  ],
+  "technician": "Wenn der Fehler bleibt, wenden Sie sich an den HP-Support."
+ },
+ "Samsung|Fuser failure": {
+  "title": "Fehler der Fixiereinheit",
+  "causes": [
+   "Die Fixiereinheit hat einen Fehler."
+  ],
+  "steps": [
+   "Schalten Sie aus und wieder ein.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein.",
+   "Stecken Sie es direkt in eine Wandsteckdose und prüfen Sie, ob das Kabel fest angeschlossen ist."
+  ],
+  "technician": "Rufen Sie den Service an, wenn der Fehler bleibt."
+ },
+ "Samsung|Engine system failure": {
+  "title": "Fehler des Druckwerks",
+  "causes": [
+   "Das Druckwerk hat einen Fehler."
+  ],
+  "steps": [
+   "Ziehen Sie das Netzkabel ab und stecken Sie es wieder ein.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein.",
+   "Stecken Sie es direkt in eine Wandsteckdose und prüfen Sie, ob das Kabel fest angeschlossen ist."
+  ],
+  "technician": "Rufen Sie den Service an, wenn der Fehler bleibt."
+ },
+ "Samsung|Motor failure": {
+  "title": "Motorfehler",
+  "causes": [
+   "Ein Motorfehler."
+  ],
+  "steps": [
+   "Schalten Sie aus und wieder ein.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein.",
+   "Stecken Sie es direkt in eine Wandsteckdose und prüfen Sie, ob das Kabel fest angeschlossen ist."
+  ],
+  "technician": "Rufen Sie den Service an, wenn der Fehler bleibt."
+ },
+ "Samsung|LSU failure": {
+  "title": "Fehler der Laser-Scaneinheit",
+  "causes": [
+   "Die Laser-Scaneinheit hat einen Fehler."
+  ],
+  "steps": [
+   "Schalten Sie aus und wieder ein.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein.",
+   "Stecken Sie es direkt in eine Wandsteckdose und prüfen Sie, ob das Kabel fest angeschlossen ist."
+  ],
+  "technician": "Rufen Sie den Service an, wenn der Fehler bleibt."
+ },
+ "Samsung|Fan failure": {
+  "title": "Lüfterfehler",
+  "causes": [
+   "Ein Lüfterfehler."
+  ],
+  "steps": [
+   "Schalten Sie aus und wieder ein.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein.",
+   "Stecken Sie es direkt in eine Wandsteckdose und prüfen Sie, ob das Kabel fest angeschlossen ist."
+  ],
+  "technician": "Rufen Sie den Service an, wenn der Fehler bleibt."
+ },
+ "Samsung|Replace new toner": {
+  "title": "Tonerkartusche am Ende der Lebensdauer",
+  "causes": [
+   "Der Toner ist aufgebraucht."
+  ],
+  "steps": [
+   "Setzen Sie eine Original-Samsung-Kartusche ein.",
+   "Gehen Sie vorsichtig mit Toner und Trommel um und halten Sie sie von direktem Licht fern.",
+   "Verwenden Sie Verbrauchsmaterial für Ihr genaues Druckermodell."
+  ],
+  "technician": "Rufen Sie den Service an, wenn der Fehler bleibt."
+ },
+ "Samsung|Toner cartridge failure": {
+  "title": "Fehler der Tonerkartusche",
+  "causes": [
+   "Die Patrone sitzt nicht richtig."
+  ],
+  "steps": [
+   "Setzen Sie sie neu ein.",
+   "Schalten Sie aus und wieder ein, wenn der Fehler bleibt.",
+   "Gehen Sie vorsichtig mit Toner und Trommel um und halten Sie sie von direktem Licht fern.",
+   "Verwenden Sie Verbrauchsmaterial für Ihr genaues Druckermodell."
+  ],
+  "technician": "Rufen Sie den Service an, wenn der Fehler bleibt."
+ },
+ "Samsung|Toner not installed": {
+  "title": "Toner fehlt",
+  "causes": [
+   "Der Toner ist nicht eingesetzt."
+  ],
+  "steps": [
+   "Setzen Sie die Tonerkartusche wieder ein.",
+   "Gehen Sie vorsichtig mit Toner und Trommel um und halten Sie sie von direktem Licht fern.",
+   "Verwenden Sie Verbrauchsmaterial für Ihr genaues Druckermodell."
+  ],
+  "technician": "Rufen Sie den Service an, wenn der Fehler bleibt."
+ },
+ "Samsung|Remove seal tape": {
+  "title": "Siegelband auf der Kartusche",
+  "causes": [
+   "Das Siegelband befindet sich noch auf der Kartusche."
+  ],
+  "steps": [
+   "Entfernen Sie es oder schütteln Sie die Kartusche.",
+   "Gehen Sie vorsichtig mit Toner und Trommel um und halten Sie sie von direktem Licht fern.",
+   "Verwenden Sie Verbrauchsmaterial für Ihr genaues Druckermodell."
+  ],
+  "technician": "Rufen Sie den Service an, wenn der Fehler bleibt."
+ },
+ "Samsung|Jam inside of machine": {
+  "title": "Papierstau im Inneren",
+  "causes": [
+   "Im Inneren hat sich Papier gestaut."
+  ],
+  "steps": [
+   "Räumen Sie das Innere des Geräts frei.",
+   "Schalten Sie den Drucker aus, bevor Sie hineingreifen, und ziehen Sie das Papier langsam heraus, damit es nicht reißt."
+  ],
+  "technician": "Rufen Sie den Service an, wenn sich Staus wiederholen."
+ },
+ "Samsung|Front door is open": {
+  "title": "Klappe offen",
+  "causes": [
+   "Eine Klappe ist nicht eingerastet."
+  ],
+  "steps": [
+   "Schließen Sie sie, bis sie verriegelt.",
+   "Prüfen Sie, ob Papier oder ein Gegenstand das Schließen der Abdeckung verhindert.",
+   "Drücken Sie die Abdeckung nach unten, bis sie hörbar einrastet."
+  ],
+  "technician": "Rufen Sie den Service an, wenn der Fehler bleibt."
+ },
+ "Samsung|Output bin is full": {
+  "title": "Ausgabefach voll",
+  "causes": [
+   "Das Ausgabefach ist voll."
+  ],
+  "steps": [
+   "Entnehmen Sie das bedruckte Papier.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein.",
+   "Stecken Sie es direkt in eine Wandsteckdose und prüfen Sie, ob das Kabel fest angeschlossen ist."
+  ],
+  "technician": "Rufen Sie den Service an, wenn der Fehler bleibt."
+ },
+ "Kyocera|Check toner/Low toner": {
+  "title": "Toner fast leer oder nicht erkannt",
+  "causes": [
+   "Der Toner ist fast leer oder der Drucker erkennt ihn nicht.",
+   "Der Toner ist möglicherweise nicht original oder sitzt falsch."
+  ],
+  "steps": [
+   "Prüfen Sie, ob es Original-Kyocera-Toner ist.",
+   "Nehmen Sie den Tonerbehälter heraus, schütteln Sie ihn und setzen Sie ihn wieder ein.",
+   "Schließen Sie die obere Abdeckung vollständig."
+  ],
+  "technician": "Wenn die Meldung mit neuem Toner bleibt, wenden Sie sich an den Kyocera-Service."
+ },
+ "Kyocera|Paper jam at Cassette": {
+  "title": "Papierstau in Kassette 1",
+  "causes": [
+   "In Kassette 1 steckt Papier fest."
+  ],
+  "steps": [
+   "Ziehen Sie Kassette 1 heraus.",
+   "Entfernen Sie das gestaute Papier.",
+   "Schieben Sie die Kassette vollständig wieder hinein.",
+   "Schalten Sie den Drucker aus, bevor Sie hineingreifen, und ziehen Sie das Papier langsam heraus, damit es nicht reißt."
+  ],
+  "technician": "Wenn sich Staus wiederholen, wenden Sie sich an den Kyocera-Service."
+ },
+ "Kyocera|Paper jam at Rear Cover": {
+  "title": "Papierstau hinter der hinteren Abdeckung",
+  "causes": [
+   "Hinter der hinteren Abdeckung 1 steckt Papier fest."
+  ],
+  "steps": [
+   "Öffnen Sie die hintere Abdeckung 1 und die innere Abdeckung.",
+   "Entfernen Sie das Papier.",
+   "Schließen Sie die Abdeckungen.",
+   "Schalten Sie den Drucker aus, bevor Sie hineingreifen, und ziehen Sie das Papier langsam heraus, damit es nicht reißt."
+  ],
+  "technician": "Wenn sich Staus wiederholen, wenden Sie sich an den Kyocera-Service."
+ },
+ "Kyocera|Paper jam inside machine": {
+  "title": "Papierstau im Drucker",
+  "causes": [
+   "Im Inneren steckt Papier fest."
+  ],
+  "steps": [
+   "Öffnen Sie die vordere Abdeckung.",
+   "Nehmen Sie Entwickler- und Trommeleinheit heraus und entfernen Sie das Papier an der Einzugsabdeckung.",
+   "Setzen Sie die Einheiten wieder ein. Berühren Sie die heiße Fixiereinheit nicht."
+  ],
+  "technician": "Wenn sich Staus wiederholen, wenden Sie sich an den Kyocera-Service."
+ },
+ "Kyocera|Paper jam at MP Tray": {
+  "title": "Papierstau im Mehrzweckfach",
+  "causes": [
+   "Im MP-Fach steckt Papier fest."
+  ],
+  "steps": [
+   "Nehmen Sie das gesamte Papier aus dem Fach.",
+   "Entsorgen Sie gestaute Blätter.",
+   "Legen Sie das Papier neu ein.",
+   "Schalten Sie den Drucker aus, bevor Sie hineingreifen, und ziehen Sie das Papier langsam heraus, damit es nicht reißt."
+  ],
+  "technician": "Wenn sich Staus wiederholen, wenden Sie sich an den Kyocera-Service."
+ },
+ "Kyocera|Call service": {
+  "title": "Drucker benötigt einen Techniker",
+  "causes": [
+   "Der Drucker hat einen Fehler erkannt, den er nicht selbst beheben kann.",
+   "Er erscheint auch, wenn sich ein Fehler des Kassettenhebers wiederholt."
+  ],
+  "steps": [
+   "Schalten Sie den Drucker aus und ziehen Sie den Netzstecker.",
+   "Stecken Sie ihn ein und schalten Sie ihn ein, um zu sehen, ob er sich erholt.",
+   "Wenn nicht, schalten Sie ihn aus, ziehen Sie den Netzstecker und wenden Sie sich an den Service."
+  ],
+  "technician": "Wenden Sie sich an ein autorisiertes Kyocera-Servicezentrum."
+ },
+ "Kyocera|Close top cover": {
+  "title": "Obere Abdeckung ist offen",
+  "causes": [
+   "Die obere Abdeckung ist nicht geschlossen."
+  ],
+  "steps": [
+   "Schließen Sie die obere Abdeckung fest.",
+   "Prüfen Sie, ob Papier oder ein Gegenstand das Schließen der Abdeckung verhindert.",
+   "Drücken Sie die Abdeckung nach unten, bis sie hörbar einrastet."
+  ],
+  "technician": "Wenn der Fehler bei geschlossener Abdeckung bleibt, wenden Sie sich an den Kyocera-Service."
+ },
+ "Kyocera|Check the toner container": {
+  "title": "Tonerbehälter nicht richtig eingesetzt",
+  "causes": [
+   "Der Tonerbehälter ist nicht richtig eingesetzt."
+  ],
+  "steps": [
+   "Öffnen Sie die obere Abdeckung.",
+   "Setzen Sie den Tonerbehälter richtig wieder ein.",
+   "Gehen Sie vorsichtig mit Toner und Trommel um und halten Sie sie von direktem Licht fern."
+  ],
+  "technician": "Wenn der Fehler bleibt, wenden Sie sich an den Kyocera-Service."
+ },
+ "Kyocera|Check waste toner box": {
+  "title": "Resttonerbehälter fehlt oder ist voll",
+  "causes": [
+   "Der Resttonerbehälter ist nicht eingesetzt oder voll."
+  ],
+  "steps": [
+   "Setzen Sie einen neuen Resttonerbehälter ein.",
+   "Gehen Sie vorsichtig mit Toner und Trommel um und halten Sie sie von direktem Licht fern."
+  ],
+  "technician": "Wenn der Fehler bleibt, wenden Sie sich an den Kyocera-Service."
+ },
+ "Kyocera|Add paper MPTray": {
+  "title": "Papierquelle ist leer",
+  "causes": [
+   "Die angezeigte Papierquelle ist leer."
+  ],
+  "steps": [
+   "Legen Sie Papier in die angezeigte Quelle ein.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein.",
+   "Stecken Sie es direkt in eine Wandsteckdose und prüfen Sie, ob das Kabel fest angeschlossen ist."
+  ],
+  "technician": "Wenn der Fehler bleibt, wenden Sie sich an den Kyocera-Service."
+ },
+ "Xerox|Red status LED on (major error)": {
+  "title": "Gerät durch schwerwiegenden Fehler gestoppt",
+  "causes": [
+   "Das Gerät wurde wegen eines schwerwiegenden Fehlers angehalten."
+  ],
+  "steps": [
+   "Starten Sie das Gerät neu.",
+   "Wiederholen Sie den Auftrag.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein.",
+   "Stecken Sie es direkt in eine Wandsteckdose und prüfen Sie, ob das Kabel fest angeschlossen ist."
+  ],
+  "technician": "Rufen Sie den Xerox-Service an, wenn der Fehler bleibt."
+ },
+ "Xerox|Orange status LED on": {
+  "title": "Papierstau",
+  "causes": [
+   "Es liegt ein Papierstau vor."
+  ],
+  "steps": [
+   "Beseitigen Sie den Stau.",
+   "Schalten Sie den Drucker aus, bevor Sie hineingreifen, und ziehen Sie das Papier langsam heraus, damit es nicht reißt.",
+   "Prüfen Sie die Papierführungen und verwenden Sie Papier im richtigen Format und mit dem richtigen Gewicht."
+  ],
+  "technician": "Rufen Sie den Xerox-Service an, wenn sich Staus wiederholen."
+ },
+ "Xerox|Red status LED on (cover open)": {
+  "title": "Abdeckung ist offen",
+  "causes": [
+   "Eine Abdeckung ist offen.",
+   "Notieren Sie den genauen Wortlaut oder Code, bevor Sie sich an den Support wenden."
+  ],
+  "steps": [
+   "Schließen Sie die Abdeckung.",
+   "Prüfen Sie, ob Papier oder ein Gegenstand das Schließen der Abdeckung verhindert.",
+   "Drücken Sie die Abdeckung nach unten, bis sie hörbar einrastet."
+  ],
+  "technician": "Rufen Sie den Xerox-Service an, wenn der Fehler bleibt."
+ },
+ "Xerox|Toner LED blinking orange": {
+  "title": "Toner ist knapp",
+  "causes": [
+   "Der Toner ist knapp."
+  ],
+  "steps": [
+   "Halten Sie eine neue Patrone bereit.",
+   "Verteilen Sie den Toner neu, um die Qualität vorerst zu verbessern.",
+   "Gehen Sie vorsichtig mit Toner und Trommel um und halten Sie sie von direktem Licht fern."
+  ],
+  "technician": "Rufen Sie den Xerox-Service an, wenn der Fehler bleibt."
+ },
+ "Xerox|010-351": {
+  "title": "Fehler der Fixiereinheit",
+  "causes": [
+   "Ein Fixiereinheit-Fehler beim Phaser 6500."
+  ],
+  "steps": [
+   "Prüfen Sie, ob es Original-Xerox-Toner ist.",
+   "Aus- und wieder einschalten: 10 Sekunden aus, dann ein.",
+   "Schalten Sie das Gerät aus, warten Sie etwa eine Minute und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Rufen Sie den Xerox-Service an, wenn der Fehler bleibt."
+ }
+}

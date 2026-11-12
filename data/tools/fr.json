@@ -154,5 +154,27 @@
   "privacy": "Votre photo reste sur votre appareil — elle n'est jamais envoyée.",
   "scaleHint": "Cadre = feuille A4",
   "cta": "Tous les téléviseurs"
+ },
+ "fit": {
+  "title": "Est-ce que ça rentre ? Trouvez le plus grand téléviseur ou écran pour votre niche, mur ou bureau",
+  "short": "Est-ce que ça rentre ? TV et écran selon l'espace",
+  "lead": "Indiquez la largeur et la hauteur de l'espace : une niche pour le téléviseur, le mur entre deux fenêtres ou le vide sous une étagère. Nous vérifions chaque modèle de notre catalogue d'après ses dimensions publiées et montrons ce qui rentre, les plus grands écrans d'abord.",
+  "tv": "TV",
+  "monitor": "Écran",
+  "width": "Largeur de l'espace",
+  "height": "Hauteur de l'espace",
+  "depth": "Profondeur (facultatif)",
+  "gap": "Espace libre de chaque côté",
+  "noteTv": "Les dimensions des TV s'entendent sans le pied, telles que publiées par le fabricant. Sur son pied, un téléviseur est plus haut et il faut prévoir la place des pieds : laissez de la marge au-dessus.",
+  "noteMonitor": "Les dimensions des écrans sont généralement publiées avec le pied. Faute de dimensions exactes, nous les estimons à partir de la diagonale et du format d'image (signalé par ≈).",
+  "result": "{n} modèles rentrent. Plus grand écran qui rentre : {size}″.",
+  "best": "Le plus grand qui rentre",
+  "sizes": "Tailles d'écran qui rentrent",
+  "all": "Tous",
+  "spare": "Espace restant : {w} en largeur, {h} en hauteur",
+  "more": "Afficher plus",
+  "none": "Aucun modèle de notre catalogue ne rentre dans ces dimensions. Vérifiez vos mesures ou réduisez l'espace libre autour de l'écran.",
+  "noteEst": "≈ : estimé d'après la diagonale de l'écran, car le fabricant n'a pas publié les dimensions exactes.",
+  "cta": "Toutes les TV"
  }
 }

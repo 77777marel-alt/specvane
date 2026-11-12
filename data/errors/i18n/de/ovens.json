@@ -1,0 +1,1373 @@
+{
+ "Samsung|C-d0": {
+  "title": "Taste klemmt oder wurde zu lange gedrückt",
+  "causes": [
+   "Eine Bedientaste wurde zu lange gedrückt gehalten.",
+   "Feuchtigkeit oder Fett auf dem Bedienfeld."
+  ],
+  "steps": [
+   "Wischen Sie die Tasten mit einem feuchten Tuch ab und trocknen Sie das Bedienfeld.",
+   "Prüfen Sie, dass auf oder um die Bedienelemente kein Wasser ist.",
+   "Schalten Sie den Backofen aus und versuchen Sie es dann erneut."
+  ],
+  "technician": "Wenn der Code nach einem vollständigen Strom-Reset wiederkommt, rufen Sie den Samsung-Service an."
+ },
+ "Samsung|S-01": {
+  "title": "Sicherheitsabschaltung nach langem Betrieb",
+  "causes": [
+   "Der Backofen lief zu viele Stunden mit einer Temperatur und hat sich zur Sicherheit selbst abgeschaltet.",
+   "Das ist kein Defekt."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen aus.",
+   "Nehmen Sie das Gargut heraus.",
+   "Starten Sie wieder einen normalen Garvorgang."
+  ],
+  "technician": "Kein Service nötig, außer der Code erscheint nach kurzer Garzeit."
+ },
+ "Samsung|dC": {
+  "title": "Trennwand passt nicht zum Garmodus",
+  "causes": [
+   "Die Trennwand wurde im Dual-Cook-Modus entfernt.",
+   "Oder die Trennwand wurde im Single-Cook-Modus eingesetzt."
+  ],
+  "steps": [
+   "Setzen Sie die Trennwand für Dual Cook ein und nehmen Sie sie für Single Cook heraus.",
+   "Schalten Sie den Backofen aus und starten Sie ihn neu.",
+   "Wenn der Fehler bleibt, trennen Sie das Gerät 30 Sekunden oder länger vom Strom und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Wenn der Code nach einem vollständigen Strom-Reset wiederkommt, rufen Sie den Samsung-Service an."
+ },
+ "Samsung|dE": {
+  "title": "Trennwand passt nicht zum Garmodus",
+  "causes": [
+   "Die Trennwand wurde im Dual-Cook-Modus entfernt.",
+   "Oder sie wurde im Single-Cook-Modus eingesetzt."
+  ],
+  "steps": [
+   "Lassen Sie die Trennwand für Dual Cook drin und nehmen Sie sie für Single Cook heraus.",
+   "Schalten Sie den Backofen aus und starten Sie neu.",
+   "Wenn der Fehler bleibt, schalten Sie den Sicherungsautomaten 30 Sekunden oder länger aus und wieder ein."
+  ],
+  "technician": "Wenn der Code nach einem vollständigen Strom-Reset wiederkommt, rufen Sie den Samsung-Service an."
+ },
+ "Samsung|C-d1": {
+  "title": "Fehler an der Türverriegelung",
+  "causes": [
+   "Der Backofen erkennt ein Problem mit der Türverriegelung."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen aus und starten Sie ihn erneut.",
+   "Wenn der Code bleibt, trennen Sie das Gerät am Sicherungsautomaten mindestens 30 Sekunden vom Strom und schalten Sie es dann wieder ein.",
+   "Zwingen Sie die Tür nicht auf, wenn sie verriegelt ist."
+  ],
+  "technician": "Wenn der Code nach einem vollständigen Strom-Reset wiederkommt, rufen Sie den Samsung-Service an."
+ },
+ "Samsung|C-20": {
+  "title": "Fehler am Backofensensor",
+  "causes": [
+   "Der Backofen meldet ein Problem mit einem Temperatursensor."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen aus und starten Sie ihn erneut.",
+   "Wenn der Code bleibt, trennen Sie das Gerät am Sicherungsautomaten mindestens 30 Sekunden vom Strom und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Wenn der Code nach einem vollständigen Strom-Reset wiederkommt, rufen Sie den Samsung-Service an."
+ },
+ "Samsung|C-21": {
+  "title": "Fehler am Backofensensor",
+  "causes": [
+   "Der Backofen meldet ein Problem mit einem Temperatursensor."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen aus und starten Sie ihn erneut.",
+   "Wenn der Code bleibt, trennen Sie das Gerät am Sicherungsautomaten mindestens 30 Sekunden vom Strom und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Wenn der Code nach einem vollständigen Strom-Reset wiederkommt, rufen Sie den Samsung-Service an."
+ },
+ "Samsung|C-22": {
+  "title": "Fehler am Backofensensor",
+  "causes": [
+   "Der Backofen meldet ein Problem mit einem Temperatursensor."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen aus und starten Sie ihn erneut.",
+   "Wenn der Code bleibt, trennen Sie das Gerät am Sicherungsautomaten mindestens 30 Sekunden vom Strom und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Wenn der Code nach einem vollständigen Strom-Reset wiederkommt, rufen Sie den Samsung-Service an."
+ },
+ "Samsung|C-F1": {
+  "title": "Fehler beim Lesen oder Schreiben des Speichers",
+  "causes": [
+   "Beim Lesen oder Schreiben des Speichers (EEPROM) durch die Steuerplatine ist ein Fehler aufgetreten."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen aus und starten Sie ihn erneut.",
+   "Wenn der Code bleibt, trennen Sie das Gerät am Sicherungsautomaten mindestens 30 Sekunden vom Strom und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Wenn der Code nach einem vollständigen Strom-Reset wiederkommt, rufen Sie den Samsung-Service an."
+ },
+ "Samsung|C-F0": {
+  "title": "Haupt- und Unterplatine kommunizieren nicht",
+  "causes": [
+   "Die Hauptplatine und die Unterplatine können nicht miteinander kommunizieren."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen aus und starten Sie ihn erneut.",
+   "Wenn der Code bleibt, trennen Sie das Gerät am Sicherungsautomaten mindestens 30 Sekunden vom Strom und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Wenn der Code nach einem vollständigen Strom-Reset wiederkommt, rufen Sie den Samsung-Service an."
+ },
+ "Samsung|C-F2": {
+  "title": "Kommunikationsproblem des Touch-Controllers",
+  "causes": [
+   "Der Touch-Controller verliert immer wieder die Verbindung zur Haupt- oder Unterplatine."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen aus und starten Sie ihn erneut.",
+   "Wenn der Code bleibt, trennen Sie das Gerät am Sicherungsautomaten mindestens 30 Sekunden vom Strom und schalten Sie es dann wieder ein."
+  ],
+  "technician": "Wenn der Code nach einem vollständigen Strom-Reset wiederkommt, rufen Sie den Samsung-Service an."
+ },
+ "Samsung|Pr E": {
+  "title": "Backofen heizt vor, normale Meldung",
+  "causes": [
+   "Der Backofen heizt noch auf die eingestellte Temperatur auf.",
+   "Das ist eine normale Meldung, kein Fehler."
+  ],
+  "steps": [
+   "Lassen Sie die Tür geschlossen.",
+   "Warten Sie, bis der Backofen die eingestellte Temperatur erreicht hat.",
+   "Der Code verschwindet von selbst."
+  ],
+  "technician": "Kein Service nötig."
+ },
+ "Bosch|E011": {
+  "title": "Eine Bedientaste klemmt",
+  "causes": [
+   "Eine Taste wurde zu lange gedrückt oder hat sich verklemmt.",
+   "Schmutz oder Feuchtigkeit um eine Taste."
+  ],
+  "steps": [
+   "Drücken Sie jede Taste einzeln und prüfen Sie, ob sie sich frei bewegt.",
+   "Reinigen Sie den Bedienbereich und trocknen Sie ihn.",
+   "Schalten Sie den Backofen aus und wieder ein."
+  ],
+  "technician": "Wenn E011 nach der Reinigung der Bedienelemente bleibt, rufen Sie den Bosch-Service an."
+ },
+ "Bosch|E115": {
+  "title": "Backofeninnenraum zu heiß, Tür verriegelt",
+  "causes": [
+   "Der Innenraum des Backofens ist zu heiß, deshalb bleibt die Türverriegelung geschlossen."
+  ],
+  "steps": [
+   "Warten Sie, bis der Backofen abgekühlt ist.",
+   "Löschen Sie die Meldung mit der Taste 0.",
+   "Zwingen Sie die Tür nicht auf."
+  ],
+  "technician": "Wenn E115 bei kaltem Backofen immer wiederkommt, rufen Sie den Bosch-Service an."
+ },
+ "Bosch|e005": {
+  "title": "Steuer- und Leistungsplatine kommunizieren nicht",
+  "causes": [
+   "Bedienfeld und Leistungsplatine haben ihre Verbindung verloren."
+  ],
+  "steps": [
+   "Schalten Sie den Herd am Sicherungsautomaten aus.",
+   "Warten Sie fünf Minuten und schalten Sie den Sicherungsautomaten dann wieder ein.",
+   "Prüfen Sie, ob der Code wiederkommt."
+  ],
+  "technician": "Wenn der Code nach einem Strom-Reset wiederkommt, wenden Sie sich an den Bosch-Support."
+ },
+ "Bosch|E100": {
+  "title": "Elektronikfehler",
+  "causes": [
+   "Der Backofen hat einen Elektronikfehler erkannt."
+  ],
+  "steps": [
+   "Schalten Sie den Herd am Sicherungsautomaten aus.",
+   "Warten Sie fünf Minuten und schalten Sie den Sicherungsautomaten dann wieder ein.",
+   "Testen Sie den Backofen erneut."
+  ],
+  "technician": "Wenn der Code nach einem Strom-Reset wiederkommt, wenden Sie sich an den Bosch-Support."
+ },
+ "Bosch|e101": {
+  "title": "Fehler am Backofen-Temperatursensor",
+  "causes": [
+   "Der Temperatursensor funktioniert nicht wie erwartet."
+  ],
+  "steps": [
+   "Schalten Sie den Herd am Sicherungsautomaten aus.",
+   "Warten Sie fünf Minuten und schalten Sie den Sicherungsautomaten dann wieder ein.",
+   "Wenn der Backofen gerade erst installiert wurde, bitten Sie den Installateur, die Verdrahtung des Netzkabels zu prüfen."
+  ],
+  "technician": "Wenn der Code nach einem Strom-Reset wiederkommt, wenden Sie sich an den Bosch-Support."
+ },
+ "Bosch|e126": {
+  "title": "Fehler an der Backofen-Türverriegelung",
+  "causes": [
+   "Die Türverriegelung funktioniert nicht richtig, häufig bei der Selbstreinigung zu sehen."
+  ],
+  "steps": [
+   "Brechen Sie den Selbstreinigungszyklus ab.",
+   "Warten Sie, bis sich die Tür entriegelt.",
+   "Starten Sie die Selbstreinigung erneut."
+  ],
+  "technician": "Wenn der Code nach einem Strom-Reset wiederkommt, wenden Sie sich an den Bosch-Support."
+ },
+ "Bosch|E302": {
+  "title": "Bedienfeld überhitzt",
+  "causes": [
+   "Das Bedienfeld ist zu heiß, was durch Töpfe auf dem Kochfeld verursacht werden kann.",
+   "Hohe Raumtemperatur."
+  ],
+  "steps": [
+   "Prüfen Sie die Raumtemperatur und die Position der Töpfe.",
+   "Lassen Sie das Gerät abkühlen.",
+   "Führen Sie am Sicherungsautomaten einen fünfminütigen Strom-Reset durch."
+  ],
+  "technician": "Wenn der Code nach einem Strom-Reset wiederkommt, wenden Sie sich an den Bosch-Support."
+ },
+ "Bosch|e310": {
+  "title": "Fehler in der Stromversorgung",
+  "causes": [
+   "Die Versorgungsspannung ist möglicherweise falsch oder instabil."
+  ],
+  "steps": [
+   "Schalten Sie den Herd am Sicherungsautomaten aus.",
+   "Warten Sie fünf Minuten und schalten Sie den Sicherungsautomaten dann wieder ein.",
+   "Wenn der Fehler wiederkommt, lassen Sie die Spannung in Ihrem Haushalt von einem Elektriker prüfen."
+  ],
+  "technician": "Wenn der Code nach einem Strom-Reset wiederkommt, wenden Sie sich an den Bosch-Support."
+ },
+ "Bosch|ERR/toP": {
+  "title": "Kochfeld während der Selbstreinigung benutzt",
+  "causes": [
+   "Eine Kochzone wurde eingeschaltet, während sich der Backofen selbst reinigte."
+  ],
+  "steps": [
+   "Schalten Sie alle aktiven Kochzonen aus.",
+   "Starten Sie den Selbstreinigungszyklus neu.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Kein Service nötig, außer der Code erscheint bei ausgeschalteten Kochzonen."
+ },
+ "Bosch|dE": {
+  "title": "Demo-Modus ist an, Zonen heizen nicht",
+  "causes": [
+   "Der Demo-Modus ist aktiv, deshalb bleiben die Kochzonen kalt."
+  ],
+  "steps": [
+   "Schalten Sie den Sicherungsautomaten oder die Sicherung des Kochfelds 30 Sekunden aus.",
+   "Schalten Sie es wieder ein.",
+   "Berühren Sie innerhalb von drei Minuten ein beliebiges Bedienelement."
+  ],
+  "technician": "Wenn der Code nach einem Strom-Reset wiederkommt, wenden Sie sich an den Bosch-Support."
+ },
+ "Bosch|F1": {
+  "title": "Kochzone überhitzt und abgeschaltet",
+  "causes": [
+   "Eine Zone hat sich überhitzt und zum Schutz der Arbeitsplatte abgeschaltet."
+  ],
+  "steps": [
+   "Lassen Sie die Elektronik abkühlen.",
+   "Schalten Sie die Zone wieder ein.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn der Code nach einem Strom-Reset wiederkommt, wenden Sie sich an den Bosch-Support."
+ },
+ "Bosch|F6": {
+  "title": "Kochzone überhitzt und abgeschaltet",
+  "causes": [
+   "Eine Zone hat sich überhitzt und zum Schutz der Arbeitsplatte abgeschaltet."
+  ],
+  "steps": [
+   "Lassen Sie die Elektronik abkühlen.",
+   "Schalten Sie die Zone wieder ein.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn der Code nach einem Strom-Reset wiederkommt, wenden Sie sich an den Bosch-Support."
+ },
+ "Bosch|F2": {
+  "title": "Elektronik überhitzt, Zone aus",
+  "causes": [
+   "Die Elektronik ist zu heiß, deshalb hat sich die Zone abgeschaltet."
+  ],
+  "steps": [
+   "Lassen Sie das Kochfeld abkühlen.",
+   "Berühren Sie ein beliebiges Bedienelement.",
+   "Kochen Sie weiter, sobald die Meldung verschwunden ist.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn der Code nach einem Strom-Reset wiederkommt, wenden Sie sich an den Bosch-Support."
+ },
+ "Bosch|F4": {
+  "title": "Elektronik überhitzt",
+  "causes": [
+   "Die Elektronik ist zu heiß."
+  ],
+  "steps": [
+   "Lassen Sie das Kochfeld abkühlen.",
+   "Berühren Sie ein beliebiges Bedienelement.",
+   "Setzen Sie das Kochen fort, sobald die Meldung verschwunden ist.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn der Code nach einem Strom-Reset wiederkommt, wenden Sie sich an den Bosch-Support."
+ },
+ "Bosch|F5": {
+  "title": "Heißer Topf neben dem Bedienfeld",
+  "causes": [
+   "Heißes Kochgeschirr steht nahe an den Touch-Bedienelementen.",
+   "Die Elektronik könnte überhitzen."
+  ],
+  "steps": [
+   "Stellen Sie das Kochgeschirr vom Bedienfeld weg.",
+   "Warten Sie einige Sekunden und berühren Sie ein beliebiges Bedienelement.",
+   "Setzen Sie das Kochen fort, wenn die Meldung verschwindet."
+  ],
+  "technician": "Wenn der Code nach einem Strom-Reset wiederkommt, wenden Sie sich an den Bosch-Support."
+ },
+ "Bosch|F8": {
+  "title": "Zone zu lange in Betrieb, Zeitlimit erreicht",
+  "causes": [
+   "Eine Zone blieb lange ohne Eingabe eingeschaltet."
+  ],
+  "steps": [
+   "Berühren Sie ein beliebiges Bedienelement.",
+   "Stellen Sie die Zone neu ein.",
+   "Kochen Sie weiter.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn der Code nach einem Strom-Reset wiederkommt, wenden Sie sich an den Bosch-Support."
+ },
+ "Bosch|E7010": {
+  "title": "Kochfeld kann sich nicht mit Netzwerk oder Dunstabzugshaube verbinden",
+  "causes": [
+   "Das Kochfeld hat die Verbindung zu Ihrem Heimnetzwerk oder zur Dunstabzugshaube verloren."
+  ],
+  "steps": [
+   "Schalten Sie das Kochfeld aus und wieder ein.",
+   "Prüfen Sie, ob Ihr WLAN funktioniert.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn der Code nach einem Strom-Reset wiederkommt, wenden Sie sich an den Bosch-Support."
+ },
+ "Bosch|E9000": {
+  "title": "Versorgungsspannung außerhalb des Normalbereichs",
+  "causes": [
+   "Die Versorgungsspannung ist zu hoch oder zu niedrig."
+  ],
+  "steps": [
+   "Schalten Sie das Kochfeld aus und wieder ein.",
+   "Bitten Sie Ihren Stromanbieter, die Versorgungsspannung zu prüfen."
+  ],
+  "technician": "Wenn Ihr Anbieter nichts Auffälliges findet, wenden Sie sich an den Bosch-Support."
+ },
+ "Bosch|E9010": {
+  "title": "Versorgungsspannung außerhalb des Normalbereichs",
+  "causes": [
+   "Die Versorgungsspannung ist zu hoch oder zu niedrig."
+  ],
+  "steps": [
+   "Schalten Sie das Kochfeld aus und wieder ein.",
+   "Bitten Sie Ihren Stromanbieter, die Versorgungsspannung zu prüfen."
+  ],
+  "technician": "Wenn Ihr Anbieter nichts Auffälliges findet, wenden Sie sich an den Bosch-Support."
+ },
+ "Bosch|E9011": {
+  "title": "Kochfeld nicht richtig angeschlossen",
+  "causes": [
+   "Die Verdrahtung entspricht nicht dem Schaltplan."
+  ],
+  "steps": [
+   "Schalten Sie den Strom am Sicherungsautomaten aus.",
+   "Lassen Sie die Verdrahtung von einem qualifizierten Elektriker anhand des Schaltplans prüfen."
+  ],
+  "technician": "Rufen Sie einen qualifizierten Elektriker oder den Bosch-Support an."
+ },
+ "Bosch|U400": {
+  "title": "Versorgungsspannung außerhalb des Normalbereichs",
+  "causes": [
+   "Die Versorgungsspannung liegt außerhalb der normalen Grenzen."
+  ],
+  "steps": [
+   "Schalten Sie das Kochfeld aus und wieder ein.",
+   "Wenden Sie sich an Ihren Stromanbieter, um die Spannung prüfen zu lassen.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn die Versorgung normal ist, wenden Sie sich an den Bosch-Support."
+ },
+ "Siemens|E0111": {
+  "title": "Meldung zu einem Elektronikfehler",
+  "causes": [
+   "Die Backofenelektronik hat einen Fehler erkannt.",
+   "Es kann sich um eine einmalige Störung handeln."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen aus und wieder ein.",
+   "Wenn die Meldung verschwindet, war es eine einmalige Störung.",
+   "Wenn sie wiederkommt, notieren Sie den genauen Code."
+  ],
+  "technician": "Wenn sie wiederkommt, rufen Sie den Siemens-Kundendienst mit dem genauen Code an."
+ },
+ "Neff|E011": {
+  "title": "Taste dauerhaft belegt",
+  "causes": [
+   "Eine Taste ist dauerhaft gedrückt oder belegt."
+  ],
+  "steps": [
+   "Heben Sie die dauerhafte Tastenbelegung auf.",
+   "Drücken Sie dann die Taste der Uhrfunktion.",
+   "Reinigen Sie den Bereich um die Tasten.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn E011 nicht verschwindet, rufen Sie den Neff-Service an."
+ },
+ "Neff|E300": {
+  "title": "Interner Elektronikfehler",
+  "causes": [
+   "Ein interner Fehler in der Backofenelektronik."
+  ],
+  "steps": [
+   "Drücken Sie die Taste der Uhrfunktion.",
+   "Wenn der Fehler bleibt, ziehen Sie den Netzstecker des Backofens.",
+   "Warten Sie etwa 10 Sekunden und stecken Sie ihn wieder ein.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn der Code wiederkommt, rufen Sie den Neff-Service an."
+ },
+ "Neff|rrr": {
+  "title": "Strom während des Betriebs unterbrochen",
+  "causes": [
+   "Die Stromversorgung wurde unterbrochen, während der Backofen lief."
+  ],
+  "steps": [
+   "Drücken Sie die Taste für die Uhrzeit.",
+   "Stellen Sie die Uhr neu ein.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Kein Service nötig, außer der Fehler wiederholt sich ohne Stromausfall."
+ },
+ "Miele|E0-E5": {
+  "title": "Fortschrittscodes des Entkalkungsprogramms",
+  "causes": [
+   "Diese Codes zeigen, welcher Schritt des Entkalkungsprogramms läuft.",
+   "E0 ist das Ansaugen der Lösung, E1 Aktivierung, E2 bis E4 Spülungen, E5 Verdampfen."
+  ],
+  "steps": [
+   "Lassen Sie das Programm bis zum Ende laufen.",
+   "Schalten Sie den Backofen während der Entkalkung nicht aus."
+  ],
+  "technician": "Kein Service nötig, außer das Programm bricht ab."
+ },
+ "Miele|F23": {
+  "title": "Pyrolytische Reinigung hat die Temperatur nicht erreicht",
+  "causes": [
+   "Der Backofen wurde für die Selbstreinigung nicht heiß genug.",
+   "Im Inneren befinden sich viele Speisereste."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen aus.",
+   "Wischen Sie große Ablagerungen und groben Schmutz aus.",
+   "Starten Sie die pyrolytische Reinigung erneut."
+  ],
+  "technician": "Wenn der Fehler wiederkommt, wenden Sie sich an den Miele-Kundendienst oder buchen Sie eine Reparatur."
+ },
+ "Miele|F32": {
+  "title": "Pyrolyse-Türverriegelung schließt nicht",
+  "causes": [
+   "Die Türverriegelung für die Selbstreinigung greift nicht ein.",
+   "Möglicherweise blockiert etwas die Tür."
+  ],
+  "steps": [
+   "Prüfen Sie Tür und Dichtungsbereich auf Gegenstände oder Schmutz.",
+   "Schalten Sie den Backofen aus.",
+   "Starten Sie die pyrolytische Reinigung erneut."
+  ],
+  "technician": "Wenn der Fehler wiederkommt, wenden Sie sich an den Miele-Kundendienst oder buchen Sie eine Reparatur."
+ },
+ "Miele|F33": {
+  "title": "Pyrolyse-Türverriegelung öffnet nicht",
+  "causes": [
+   "Die Türverriegelung der Selbstreinigung hat sich nicht gelöst."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen aus, um den Reinigungszyklus zu beenden.",
+   "Versuchen Sie, die Tür zu öffnen.",
+   "Wenden Sie keine Gewalt an.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn die Tür verriegelt bleibt, wenden Sie sich an den Miele-Kundendienst."
+ },
+ "Miele|F38": {
+  "title": "Fehler am Elektronikmodul",
+  "causes": [
+   "Das Elektronikmodul des Backofens hat einen technischen Fehler."
+  ],
+  "steps": [
+   "Versuchen Sie nicht, es selbst zu reparieren.",
+   "Notieren Sie den Code und Ihre Modellnummer.",
+   "Buchen Sie eine Reparatur.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Buchen Sie einen Miele-Techniker, denn das lässt sich zu Hause nicht beheben."
+ },
+ "Miele|F44": {
+  "title": "Technischer Fehler erkannt",
+  "causes": [
+   "Der Backofen hat einen technischen Fehler erkannt."
+  ],
+  "steps": [
+   "Schalten Sie am Sicherungsautomaten aus oder ziehen Sie den Netzstecker des Backofens.",
+   "Lassen Sie ihn 20 Sekunden ausgeschaltet.",
+   "Stellen Sie die Stromversorgung wieder her und testen Sie.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn der Fehler wiederkommt, wenden Sie sich an den Miele-Kundendienst oder buchen Sie eine Reparatur."
+ },
+ "Miele|F54": {
+  "title": "Bratenthermometer defekt",
+  "causes": [
+   "Das Bratenthermometer oder sein Anschluss ist defekt."
+  ],
+  "steps": [
+   "Ziehen Sie das Thermometer aus der Buchse.",
+   "Die Fehlermeldung sollte verschwinden.",
+   "Garen Sie vorerst ohne Thermometer.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenden Sie sich an den Miele-Kundendienst, um ein Ersatzthermometer zu kaufen."
+ },
+ "Miele|F55": {
+  "title": "Backofen nach zu langem Betrieb abgeschaltet",
+  "causes": [
+   "Der Backofen lief ungewöhnlich lange und hat sich deshalb zur Sicherheit abgeschaltet.",
+   "Die Grenze liegt bei 6 Stunden in den Grillfunktionen und bei 12 Stunden sonst."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen aus und wieder ein.",
+   "Starten Sie einen neuen Garvorgang."
+  ],
+  "technician": "Kein Service nötig, außer es passiert wiederholt bei kurzen Garzeiten."
+ },
+ "Miele|F60": {
+  "title": "Nicht genügend Belüftung des Backofens",
+  "causes": [
+   "Der Luftkanal ist blockiert oder abgedeckt."
+  ],
+  "steps": [
+   "Prüfen Sie, dass nichts den Luftkanal des Backofens abdeckt.",
+   "Trennen Sie den Backofen vom Strom und schließen Sie ihn dann wieder an.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn der Fehler wiederkommt, wenden Sie sich an den Miele-Kundendienst oder buchen Sie eine Reparatur."
+ },
+ "Miele|F134": {
+  "title": "Backofeninnenraum zu heiß",
+  "causes": [
+   "Der Temperatursensor meldet, dass der Garraum zu heiß ist."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen aus und lassen Sie ihn abkühlen.",
+   "Versuchen Sie nicht, ihn selbst zu reparieren.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Buchen Sie eine Miele-Reparatur, denn dafür ist ein Techniker nötig."
+ },
+ "Miele|MES": {
+  "title": "Demo-Modus an, Backofen heizt nicht",
+  "causes": [
+   "Der Vorführmodus für das Ausstellungsgerät ist eingeschaltet."
+  ],
+  "steps": [
+   "Bestätigen Sie die Meldung mit OK.",
+   "Drehen Sie den Betriebsartenwähler auf 0.",
+   "Öffnen Sie die Einstellungen, gehen Sie zu P 9 und stellen Sie S 0 ein.",
+   "Halten Sie OK 4 Sekunden gedrückt."
+  ],
+  "technician": "Wenn der Demo-Modus wiederkommt, wenden Sie sich an Miele."
+ },
+ "Miele|F1": {
+  "title": "Wasserbehälter nicht eingeschoben",
+  "causes": [
+   "Der Wasserbehälter zum Abpumpen von Restwasser fehlt oder ist nicht vollständig eingesetzt."
+  ],
+  "steps": [
+   "Schieben Sie den Wasserbehälter vollständig in den Backofen.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn der Fehler wiederkommt, wenden Sie sich an den Miele-Kundendienst oder buchen Sie eine Reparatur."
+ },
+ "Miele|F04": {
+  "title": "Stromausfall während des Garens",
+  "causes": [
+   "Der Backofen hatte während eines Garprogramms keinen Strom."
+  ],
+  "steps": [
+   "Prüfen Sie, wie weit der Garvorgang fortgeschritten ist.",
+   "Stellen Sie bei Bedarf eine neue Garzeit ein.",
+   "Drücken Sie Start/Stop, um fortzufahren.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn der Fehler wiederkommt, wenden Sie sich an den Miele-Kundendienst oder buchen Sie eine Reparatur."
+ },
+ "Miele|F05": {
+  "title": "Wasser erreicht den Dampfgarer nicht",
+  "causes": [
+   "Das Wassereinlassventil ist nicht vollständig geöffnet.",
+   "Die Wasserdüse ist durch Kalk verstopft."
+  ],
+  "steps": [
+   "Öffnen Sie das Wassereinlassventil vollständig und starten Sie neu.",
+   "Wenn der Fehler wiederkommt, entkalken Sie die Wasserdüse und tragen Sie dabei Backofenhandschuhe.",
+   "Spülen Sie die wasserführenden Teile."
+  ],
+  "technician": "Wenn der Fehler wiederkommt, wenden Sie sich an den Miele-Kundendienst oder buchen Sie eine Reparatur."
+ },
+ "Miele|F10": {
+  "title": "Wassereinlassfehler im Dampfgarer",
+  "causes": [
+   "Die Förderpumpe ist nach langer Nichtbenutzung trocken.",
+   "Der schwarze Saugschlauch sitzt locker oder ist beschädigt.",
+   "Osmosewasser ist für den Sensor zu rein."
+  ],
+  "steps": [
+   "Setzen Sie den schwarzen Saugschlauch aufrecht in den Behälter.",
+   "Schalten Sie die Osmoseanlage aus, wenn möglich.",
+   "Oder geben Sie eine Prise Salz ins Wasser."
+  ],
+  "technician": "Wenn der Fehler wiederkommt, wenden Sie sich an den Miele-Kundendienst oder buchen Sie eine Reparatur."
+ },
+ "Miele|F11": {
+  "title": "Dampferzeuger kann kein Wasser ablassen",
+  "causes": [
+   "Kalk im Ablauf oder an der Elektrode.",
+   "Verstopfte oder eingeklemmte Schläuche."
+  ],
+  "steps": [
+   "Entkalken Sie den Backofen wie in der Anleitung beschrieben.",
+   "Stellen Sie bei den Serien 6000 und 7000 die Wasserhärte auf Maximum.",
+   "Wiederholen Sie die Entkalkung nicht mit stärkerer Lösung."
+  ],
+  "technician": "Wenn der Fehler wiederkommt, wenden Sie sich an den Miele-Kundendienst oder buchen Sie eine Reparatur."
+ },
+ "Miele|F12": {
+  "title": "Dampfgarer bekommt kein Wasser",
+  "causes": [
+   "Das Wassereinlassventil ist geschlossen.",
+   "Der Wassereinlassfilter ist verstopft."
+  ],
+  "steps": [
+   "Öffnen Sie das Wasserventil und starten Sie neu.",
+   "Reinigen Sie den Filter im Wassereinlass.",
+   "Schalten Sie den Backofen aus und schließen Sie das Ventil, wenn Sie einen defekten Schlauch vermuten."
+  ],
+  "technician": "Rufen Sie Miele oder einen Klempner an, wenn der Schlauch defekt aussieht."
+ },
+ "Miele|F13": {
+  "title": "Garraum des Dampfgarers zu heiß",
+  "causes": [
+   "Das Wassereinlassventil ist möglicherweise geschlossen.",
+   "Die Wasserdüse muss möglicherweise entkalkt werden."
+  ],
+  "steps": [
+   "Öffnen Sie das Wassereinlassventil vollständig.",
+   "Wenn der Fehler wiederkommt, entkalken und spülen Sie die Düse.",
+   "Tragen Sie Backofenhandschuhe."
+  ],
+  "technician": "Wenn der Fehler wiederkommt, wenden Sie sich an den Miele-Kundendienst oder buchen Sie eine Reparatur."
+ },
+ "Miele|F14": {
+  "title": "Zu wenig Wasser im Dampferzeuger",
+  "causes": [
+   "Es gelangt nicht genug Wasser in den Dampferzeuger."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen aus und wieder ein.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Schalten Sie aus und wenden Sie sich an Miele, wenn F14 erneut erscheint."
+ },
+ "Miele|F20": {
+  "title": "Dampfgarer heizt nicht",
+  "causes": [
+   "Die Temperatur ist in 5 Minuten nicht um 2 Grad gestiegen.",
+   "Große Mengen gefrorener Speisen können das verursachen."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen aus und wieder ein und starten Sie neu.",
+   "Schieben Sie den Wasserbehälter hinein, bis er einrastet.",
+   "Verwenden Sie für die Dichtung nur das mitgelieferte Silikonfett."
+  ],
+  "technician": "Rufen Sie Miele an, wenn die Kupplungsdichtung rissig aussieht oder sich Wasser sammelt."
+ },
+ "Miele|F27": {
+  "title": "Stromausfall während des Garens oder Entkalkens",
+  "causes": [
+   "Während eines Garprogramms fiel der Strom aus (F27).",
+   "E04 bedeutet, dass beim Entkalken der Strom ausgefallen ist."
+  ],
+  "steps": [
+   "Stellen Sie bei F27 eine neue Zeit ein und drücken Sie Start/Stop.",
+   "Warten Sie bei E04, bis die Anzeige von 0:06 herunterzählt.",
+   "Schalten Sie den Backofen aus und wieder ein."
+  ],
+  "technician": "Wenn der Fehler wiederkommt, wenden Sie sich an den Miele-Kundendienst oder buchen Sie eine Reparatur."
+ },
+ "Miele|F74": {
+  "title": "Technischer Fehler im Dampfgarer",
+  "causes": [
+   "Ein technischer Fehler, der sich zu Hause nicht beheben lässt."
+  ],
+  "steps": [
+   "Versuchen Sie nicht, es selbst zu reparieren.",
+   "Notieren Sie Code und Modellnummer.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Buchen Sie einen Besuch eines Miele-Technikers."
+ },
+ "Miele|F95": {
+  "title": "Wasserstandsschalter durch Kalk blockiert",
+  "causes": [
+   "Kalk blockiert den Wasserstandsschalter."
+  ],
+  "steps": [
+   "Entkalken Sie den Backofen wie in der Anleitung.",
+   "Verwenden Sie Miele-Pflegeprodukte.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn der Fehler wiederkommt, wenden Sie sich an den Miele-Kundendienst oder buchen Sie eine Reparatur."
+ },
+ "Miele|F235": {
+  "title": "Fehler am Elektronikmodul",
+  "causes": [
+   "Das Elektronikmodul ist defekt."
+  ],
+  "steps": [
+   "Versuchen Sie nicht, es selbst zu reparieren.",
+   "Notieren Sie den Code.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Buchen Sie eine Miele-Reparatur."
+ },
+ "Electrolux|F1": {
+  "title": "Backofentür lässt sich nicht verriegeln",
+  "causes": [
+   "Pyrolyse-Modelle: Die Reinigungsfunktion ist an und die Tür schließt nicht.",
+   "Andere Modelle: ein Elektronikfehler."
+  ],
+  "steps": [
+   "Prüfen Sie, ob der obere Türteil intakt ist.",
+   "Folgen Sie der Anleitung, wenn die Tür ausgebaut wurde.",
+   "Wenden Sie sich an den Service, wenn der Fehler bleibt."
+  ],
+  "technician": "Buchen Sie eine Electrolux-Reparatur, wenn der Code wiederkommt."
+ },
+ "Electrolux|F102": {
+  "title": "Fehler am Türverriegelungssensor",
+  "causes": [
+   "Die Tür ist nicht vollständig geschlossen.",
+   "Eine defekte Türverriegelung oder Elektronik."
+  ],
+  "steps": [
+   "Schließen Sie die Tür fest.",
+   "Trennen Sie das Gerät einige Minuten vom Strom und schalten Sie es dann wieder ein.",
+   "Prüfen Sie die Hausicherung oder den FI-Schutzschalter."
+  ],
+  "technician": "Buchen Sie eine Electrolux-Reparatur, wenn der Code wiederkommt."
+ },
+ "Electrolux|F111": {
+  "title": "Bratenthermometer defekt oder nicht angeschlossen",
+  "causes": [
+   "Das Thermometer ist nicht vollständig eingesteckt.",
+   "Das Thermometer oder sein Kabel ist beschädigt."
+  ],
+  "steps": [
+   "Ziehen Sie das Thermometer ab und stecken Sie es fest wieder ein.",
+   "Prüfen Sie auf verbogene Kontakte oder beschädigte Drähte.",
+   "Schalten Sie den Backofen 30 Sekunden am Netz aus."
+  ],
+  "technician": "Buchen Sie eine Electrolux-Reparatur, wenn der Code wiederkommt."
+ },
+ "Electrolux|F104": {
+  "title": "Temperatursensor außerhalb des Bereichs",
+  "causes": [
+   "Der Temperatursensor des Backofens liegt außerhalb des Bereichs.",
+   "Der Backofen heizt möglicherweise nicht oder bleibt stehen."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen 30 Sekunden am Netz aus.",
+   "Schalten Sie es wieder ein.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenden Sie sich an ein autorisiertes Servicezentrum."
+ },
+ "Electrolux|F105": {
+  "title": "Alarm: Temperatursensor meldet zu hohe Temperatur",
+  "causes": [
+   "Der Sensor hat eine Temperatur über dem erwarteten Wert erkannt."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen aus und lassen Sie ihn abkühlen.",
+   "Schalten Sie den Strom 30 Sekunden aus und dann wieder ein.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenden Sie sich an ein autorisiertes Servicezentrum."
+ },
+ "Electrolux|F215": {
+  "title": "Softwarefehler beim vernetzten Backofen",
+  "causes": [
+   "Ein Softwareproblem bei einem vernetzten Backofen."
+  ],
+  "steps": [
+   "Installieren Sie die App neu und verbinden Sie den Backofen erneut.",
+   "Ziehen Sie den Netzstecker des Backofens für 30 Minuten und schließen Sie ihn dann wieder an.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Buchen Sie eine Reparatur, wenn F215 auf dem Display erscheint."
+ },
+ "Electrolux|F601": {
+  "title": "WLAN-Signalproblem des Backofens",
+  "causes": [
+   "Es gibt ein Problem mit dem WLAN-Signal."
+  ],
+  "steps": [
+   "Prüfen Sie Ihre Netzwerkverbindung.",
+   "Stellen Sie den Router näher.",
+   "Setzen Sie die WLAN-Einstellungen des Backofens zurück und richten Sie ihn neu ein.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Buchen Sie eine Reparatur, wenn er sich nicht verbinden lässt."
+ },
+ "Electrolux|F604": {
+  "title": "Erster WLAN-Verbindungsversuch fehlgeschlagen",
+  "causes": [
+   "Der erste Versuch, sich mit dem WLAN zu verbinden, ist fehlgeschlagen."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen aus und wieder ein.",
+   "Versuchen Sie erneut, die Verbindung herzustellen.",
+   "Prüfen Sie Ihre Internetverbindung.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Buchen Sie eine Reparatur, wenn er sich nicht verbinden lässt."
+ },
+ "Electrolux|E0020": {
+  "title": "Backofenbeleuchtung funktioniert nicht",
+  "causes": [
+   "Die Backofenlampe ist defekt."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen aus und lassen Sie ihn abkühlen.",
+   "Prüfen Sie die Lampe und ersetzen Sie sie, wenn sie defekt ist.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn die Lampe in Ordnung ist, wenden Sie sich an ein Servicezentrum."
+ },
+ "Electrolux|C1": {
+  "title": "Pyro-Reinigung durch Teleskopschienen blockiert",
+  "causes": [
+   "Im Backofen befinden sich Teleskopschienen."
+  ],
+  "steps": [
+   "Entfernen Sie Schienen, Roste und Seitengitter.",
+   "Starten Sie Pyro Clean erneut.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenden Sie sich an den Service, wenn der Fehler bleibt."
+ },
+ "Electrolux|C2": {
+  "title": "Pyro-Reinigung durch Bratenthermometer blockiert",
+  "causes": [
+   "Das Bratenthermometer ist eingesteckt."
+  ],
+  "steps": [
+   "Ziehen Sie das Thermometer aus der Buchse.",
+   "Starten Sie Pyro Clean erneut.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenden Sie sich an den Service, wenn der Fehler bleibt."
+ },
+ "Electrolux|C3": {
+  "title": "Pyro-Reinigung durch offene Tür blockiert",
+  "causes": [
+   "Die Tür ist offen oder nicht vollständig geschlossen."
+  ],
+  "steps": [
+   "Schließen Sie die Tür vollständig.",
+   "Starten Sie Pyro Clean erneut.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenden Sie sich an den Service, wenn der Fehler bleibt."
+ },
+ "Electrolux|C4": {
+  "title": "Pyro-Reinigung durch Steam Bake blockiert",
+  "causes": [
+   "Steam Bake ist noch aktiv."
+  ],
+  "steps": [
+   "Drücken Sie Steam Bake, bis die Anzeige erlischt.",
+   "Starten Sie Pyro Clean erneut.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenden Sie sich an den Service, wenn der Fehler bleibt."
+ },
+ "AEG|F": {
+  "title": "Kochgeschirr nicht erkannt oder Kochfeldfehler",
+  "causes": [
+   "Ungeeigneter Topf oder Topf abgehoben.",
+   "Bei einer Neuinstallation ein Installationsproblem."
+  ],
+  "steps": [
+   "Prüfen Sie, ob ein Magnet am Topfboden haftet.",
+   "Stellen Sie den Topf mittig auf die Zone.",
+   "Halten Sie Kochfeld und Topf trocken.",
+   "Schalten Sie 30 Sekunden am Netz aus."
+  ],
+  "technician": "Rufen Sie einen Techniker, wenn F bleibt oder eine Ziffer hat."
+ },
+ "AEG|F2": {
+  "title": "SenseBoil: leerer Topf oder Öl",
+  "causes": [
+   "Der Topf ist leer oder enthält Öl oder eine andere Flüssigkeit als Wasser."
+  ],
+  "steps": [
+   "Trocknen Sie die Kochfeldoberfläche.",
+   "Erhitzen Sie keinen leeren Topf.",
+   "Verwenden Sie SenseBoil nur mit Wasser.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Kein Fehler, wenn die Meldung verschwunden ist."
+ },
+ "AEG|F3": {
+  "title": "SenseBoil: falsche Wassermenge",
+  "causes": [
+   "Zu viel oder zu wenig Wasser im Topf.",
+   "Andere Lebensmittel als Wasser oder Kartoffeln."
+  ],
+  "steps": [
+   "Trocknen Sie die Kochfeldoberfläche.",
+   "Füllen Sie den Topf halb bis drei Viertel voll, 1 bis 5 Liter.",
+   "Kochen Sie nur Wasser und Kartoffeln."
+  ],
+  "technician": "Kein Fehler, wenn die Meldung verschwunden ist."
+ },
+ "AEG|E2": {
+  "title": "LED- oder Sensorfehler am Kochfeld",
+  "causes": [
+   "Bei Induktionskochfeldern ein Fehler der LED-Beleuchtung.",
+   "Bei Teppanyaki ein Fehler des Temperatursensors."
+  ],
+  "steps": [
+   "Trennen Sie das Gerät 30 Sekunden vom Strom.",
+   "Schalten Sie wieder ein.",
+   "Notieren Sie den genauen Code.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn der Code wiederkommt, buchen Sie eine AEG-Reparatur."
+ },
+ "AEG|E3": {
+  "title": "Kochfeld an falscher Spannung angeschlossen",
+  "causes": [
+   "Mögliche Überspannung oder falsche Verdrahtung."
+  ],
+  "steps": [
+   "Benutzen Sie das Kochfeld nicht mehr.",
+   "Bitten Sie den Installateur, Versorgung und Verdrahtung zu prüfen.",
+   "Reparieren Sie elektrische Teile nicht selbst.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Rufen Sie einen qualifizierten Elektriker oder den AEG-Service an."
+ },
+ "AEG|E4": {
+  "title": "Überhitzungsschutz des Kochfelds aktiv",
+  "causes": [
+   "Das Kochfeld hat sich überhitzt.",
+   "Ungeeignetes Kochgeschirr oder mangelhafte Installation."
+  ],
+  "steps": [
+   "Schalten Sie aus und nehmen Sie das Kochgeschirr weg.",
+   "Testen Sie den Topf mit einem Magneten.",
+   "Trennen Sie das Gerät 30 Sekunden vom Strom.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn der Code wiederkommt, buchen Sie eine AEG-Reparatur."
+ },
+ "AEG|E5": {
+  "title": "Phasen- oder Spannungsproblem am Kochfeld",
+  "causes": [
+   "Ein Phasen- oder Spannungsproblem in der Stromversorgung."
+  ],
+  "steps": [
+   "Schalten Sie den Trennschalter 30 Sekunden aus.",
+   "Schalten Sie ein und testen Sie.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn der Code wiederkommt, buchen Sie eine AEG-Reparatur."
+ },
+ "AEG|E6": {
+  "title": "Problem mit der Stromversorgung des Kochfelds",
+  "causes": [
+   "Häufig eine falsche Installation, etwa eine 13-Ampere-Steckdose für ein 16-Ampere-Kochfeld."
+  ],
+  "steps": [
+   "Schalten Sie das Kochfeld aus und wieder ein.",
+   "Trennen Sie es für 30 Sekunden vom Strom.",
+   "Lassen Sie die Stromversorgung prüfen."
+  ],
+  "technician": "Wenn der Code wiederkommt, buchen Sie eine AEG-Reparatur."
+ },
+ "AEG|E7": {
+  "title": "Fehler am Kühlgebläse des Kochfelds",
+  "causes": [
+   "Bei neueren Modellen ist das Gebläse blockiert oder defekt."
+  ],
+  "steps": [
+   "Prüfen Sie, dass nichts das Gebläse unter dem Kochfeld blockiert.",
+   "Trennen Sie das Gerät 30 Sekunden vom Strom.",
+   "Schalten Sie wieder ein.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn der Code wiederkommt, buchen Sie eine AEG-Reparatur."
+ },
+ "AEG|E8": {
+  "title": "Elektronik- oder Phasenfehler am Kochfeld",
+  "causes": [
+   "Nach der Installation fehlt eine Phase.",
+   "Kommunikationsfehler der Elektronik."
+  ],
+  "steps": [
+   "Prüfen Sie die Verdrahtung anhand der Anleitung.",
+   "Trennen Sie das Gerät 30 Sekunden vom Strom.",
+   "Benutzen Sie es nicht mehr, wenn der Fehler bleibt."
+  ],
+  "technician": "Wenn der Code wiederkommt, buchen Sie eine AEG-Reparatur."
+ },
+ "AEG|E9": {
+  "title": "Fehler am Elektronikmodul des Kochfelds",
+  "causes": [
+   "Ein Fehler im Elektronikmodul."
+  ],
+  "steps": [
+   "Schalten Sie 30 Sekunden am Netz aus.",
+   "Benutzen Sie das Kochfeld nicht, wenn der Fehler wiederkommt.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenn der Code wiederkommt, buchen Sie eine AEG-Reparatur."
+ },
+ "Whirlpool|F0 E0": {
+  "title": "Backofen-Steuerungsfehler nicht identifiziert",
+  "causes": [
+   "Die Steuerung kann den Fehler nicht identifizieren."
+  ],
+  "steps": [
+   "Schalten Sie den Sicherungsautomaten des Herds eine Minute aus.",
+   "Schalten Sie es wieder ein.",
+   "Beobachten Sie den Backofen eine Minute lang, ob der Code wiederkommt."
+  ],
+  "technician": "Wenn der Code wiederkommt, wenden Sie sich an den Whirlpool-Service."
+ },
+ "Whirlpool|F1": {
+  "title": "Möglicher Sensor-, Steuerungs- oder Verdrahtungsfehler",
+  "causes": [
+   "Problem mit Temperatursensor, Steuerung oder Verdrahtung des Backofens."
+  ],
+  "steps": [
+   "Schalten Sie den Sicherungsautomaten des Herds eine Minute aus.",
+   "Schalten Sie es wieder ein.",
+   "Beobachten Sie den Backofen eine Minute lang, ob der Code wiederkommt."
+  ],
+  "technician": "Wenn der Code wiederkommt, wenden Sie sich an den Whirlpool-Service."
+ },
+ "Whirlpool|F2": {
+  "title": "Möglicher Sensor-, Steuerungs- oder Verdrahtungsfehler",
+  "causes": [
+   "Problem mit Temperatursensor, Steuerung oder Verdrahtung des Backofens."
+  ],
+  "steps": [
+   "Schalten Sie den Sicherungsautomaten des Herds eine Minute aus.",
+   "Schalten Sie es wieder ein.",
+   "Beobachten Sie den Backofen eine Minute lang, ob der Code wiederkommt."
+  ],
+  "technician": "Wenn der Code wiederkommt, wenden Sie sich an den Whirlpool-Service."
+ },
+ "Whirlpool|F2 E1": {
+  "title": "Problem mit Tastenfeld oder Steuerung",
+  "causes": [
+   "Problem mit Tastenfeld, Steuerung oder Verdrahtung.",
+   "Ein Rost sitzt möglicherweise schlecht."
+  ],
+  "steps": [
+   "Prüfen Sie, ob die Roste eben liegen.",
+   "Tauschen Sie sie aus, wenn sie wackeln.",
+   "Schalten Sie den Sicherungsautomaten eine Minute aus."
+  ],
+  "technician": "Wenn der Code wiederkommt, wenden Sie sich an den Whirlpool-Service."
+ },
+ "Whirlpool|F3": {
+  "title": "Möglicher Fehler an Backofensteuerung oder Verdrahtung",
+  "causes": [
+   "Problem mit Backofensteuerung oder Verdrahtung."
+  ],
+  "steps": [
+   "Schalten Sie den Sicherungsautomaten des Herds eine Minute aus.",
+   "Schalten Sie es wieder ein.",
+   "Beobachten Sie den Backofen eine Minute lang, ob der Code wiederkommt."
+  ],
+  "technician": "Wenn der Code wiederkommt, wenden Sie sich an den Whirlpool-Service."
+ },
+ "Whirlpool|F5": {
+  "title": "Problem mit der Türverriegelung des Backofens",
+  "causes": [
+   "Problem mit Türverriegelung, Schalter oder Verdrahtung."
+  ],
+  "steps": [
+   "Schalten Sie den Sicherungsautomaten des Herds eine Minute aus.",
+   "Schalten Sie es wieder ein.",
+   "Beobachten Sie den Backofen eine Minute lang, ob der Code wiederkommt."
+  ],
+  "technician": "Wenn der Code wiederkommt, wenden Sie sich an den Whirlpool-Service."
+ },
+ "Whirlpool|F5 E0": {
+  "title": "Problem mit der Türverriegelung des Backofens",
+  "causes": [
+   "Problem mit Türverriegelung, Schalter oder Verdrahtung."
+  ],
+  "steps": [
+   "Schalten Sie den Sicherungsautomaten des Herds eine Minute aus.",
+   "Schalten Sie es wieder ein.",
+   "Beobachten Sie den Backofen eine Minute lang, ob der Code wiederkommt."
+  ],
+  "technician": "Wenn der Code wiederkommt, wenden Sie sich an den Whirlpool-Service."
+ },
+ "Whirlpool|F6": {
+  "title": "Möglicher Fehler an Backofensteuerung oder Verdrahtung",
+  "causes": [
+   "Problem mit Backofensteuerung oder Verdrahtung."
+  ],
+  "steps": [
+   "Schalten Sie den Sicherungsautomaten des Herds eine Minute aus.",
+   "Schalten Sie es wieder ein.",
+   "Beobachten Sie den Backofen eine Minute lang, ob der Code wiederkommt."
+  ],
+  "technician": "Wenn der Code wiederkommt, wenden Sie sich an den Whirlpool-Service."
+ },
+ "Whirlpool|F7 E0": {
+  "title": "Problem mit der Türverriegelungseinheit",
+  "causes": [
+   "Problem mit der Türverriegelungseinheit oder Verdrahtung."
+  ],
+  "steps": [
+   "Schalten Sie den Sicherungsautomaten des Herds eine Minute aus.",
+   "Schalten Sie es wieder ein.",
+   "Beobachten Sie den Backofen eine Minute lang, ob der Code wiederkommt."
+  ],
+  "technician": "Wenn der Code wiederkommt, wenden Sie sich an den Whirlpool-Service."
+ },
+ "Whirlpool|F8 E0": {
+  "title": "Kühlgebläse des Backofens läuft langsam",
+  "causes": [
+   "Eingeschränkter Luftstrom.",
+   "Defektes Kühlgebläse oder defekte Verdrahtung."
+  ],
+  "steps": [
+   "Schalten Sie den Sicherungsautomaten des Herds eine Minute aus.",
+   "Schalten Sie es wieder ein.",
+   "Beobachten Sie den Backofen eine Minute lang, ob der Code wiederkommt."
+  ],
+  "technician": "Wenn der Code wiederkommt, wenden Sie sich an den Whirlpool-Service."
+ },
+ "Whirlpool|F9-1": {
+  "title": "Problem mit Türverriegelung oder Verriegelungsschalter",
+  "causes": [
+   "Problem mit Türverriegelung, Verriegelungsschalter oder Verdrahtung."
+  ],
+  "steps": [
+   "Schalten Sie den Sicherungsautomaten des Herds eine Minute aus.",
+   "Schalten Sie es wieder ein.",
+   "Beobachten Sie den Backofen eine Minute lang, ob der Code wiederkommt."
+  ],
+  "technician": "Wenn der Code wiederkommt, wenden Sie sich an den Whirlpool-Service."
+ },
+ "LG|F1": {
+  "title": "Fehler am Thermistor des oberen Backofens",
+  "causes": [
+   "Fehler am Temperatursensor des oberen Backofens."
+  ],
+  "steps": [
+   "Drücken Sie CLEAR/OFF und versuchen Sie die Funktion erneut.",
+   "Schalten Sie den Sicherungsautomaten des Herds 30 Sekunden aus.",
+   "Schalten Sie es wieder ein.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Fordern Sie eine LG-Reparatur an, wenn der Fehler immer wiederkommt."
+ },
+ "LG|F2": {
+  "title": "Fehler am Thermistor des oberen Backofens",
+  "causes": [
+   "Fehler am Temperatursensor des oberen Backofens."
+  ],
+  "steps": [
+   "Drücken Sie CLEAR/OFF und versuchen Sie die Funktion erneut.",
+   "Schalten Sie den Sicherungsautomaten des Herds 30 Sekunden aus.",
+   "Schalten Sie es wieder ein.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Fordern Sie eine LG-Reparatur an, wenn der Fehler immer wiederkommt."
+ },
+ "LG|F3": {
+  "title": "Fehler am Sensortaster des Bedienfelds",
+  "causes": [
+   "Ein Fehler am Sensor einer Taste des Bedienfelds."
+  ],
+  "steps": [
+   "Drücken Sie CLEAR/OFF und versuchen Sie die Funktion erneut.",
+   "Schalten Sie den Sicherungsautomaten des Herds 30 Sekunden aus.",
+   "Schalten Sie es wieder ein.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Fordern Sie eine LG-Reparatur an, wenn der Fehler immer wiederkommt."
+ },
+ "LG|F6": {
+  "title": "Heizfehler im oberen Backofen",
+  "causes": [
+   "Heizungsfehler im oberen Backofen."
+  ],
+  "steps": [
+   "Drücken Sie CLEAR/OFF und versuchen Sie die Funktion erneut.",
+   "Schalten Sie den Sicherungsautomaten des Herds 30 Sekunden aus.",
+   "Schalten Sie es wieder ein.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Fordern Sie eine LG-Reparatur an, wenn der Fehler immer wiederkommt."
+ },
+ "LG|F7": {
+  "title": "Fehler am oberen Umluftgebläse",
+  "causes": [
+   "Fehler am Umluftgebläse."
+  ],
+  "steps": [
+   "Drücken Sie CLEAR/OFF und versuchen Sie die Funktion erneut.",
+   "Schalten Sie den Sicherungsautomaten des Herds 30 Sekunden aus.",
+   "Schalten Sie es wieder ein.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Fordern Sie eine LG-Reparatur an, wenn der Fehler immer wiederkommt."
+ },
+ "LG|F9": {
+  "title": "Oberer Backofen heizt nicht richtig",
+  "causes": [
+   "Oberer Backofen heizt nicht."
+  ],
+  "steps": [
+   "Drücken Sie CLEAR/OFF und versuchen Sie die Funktion erneut.",
+   "Schalten Sie den Sicherungsautomaten des Herds 30 Sekunden aus.",
+   "Schalten Sie es wieder ein.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Fordern Sie eine LG-Reparatur an, wenn der Fehler immer wiederkommt."
+ },
+ "LG|F10": {
+  "title": "Türverriegelung des oberen Backofens defekt",
+  "causes": [
+   "Ausfall des Türverriegelungssystems."
+  ],
+  "steps": [
+   "Drücken Sie CLEAR/OFF und versuchen Sie die Funktion erneut.",
+   "Schalten Sie den Sicherungsautomaten des Herds 30 Sekunden aus.",
+   "Schalten Sie es wieder ein.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Fordern Sie eine LG-Reparatur an, wenn der Fehler immer wiederkommt."
+ },
+ "LG|F11": {
+  "title": "Kommunikationsfehler",
+  "causes": [
+   "Platinen kommunizieren nicht."
+  ],
+  "steps": [
+   "Drücken Sie CLEAR/OFF und versuchen Sie die Funktion erneut.",
+   "Schalten Sie den Sicherungsautomaten des Herds 30 Sekunden aus.",
+   "Schalten Sie es wieder ein.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Fordern Sie eine LG-Reparatur an, wenn der Fehler immer wiederkommt."
+ },
+ "LG|F20": {
+  "title": "Türverriegelung des unteren Backofens defekt",
+  "causes": [
+   "Ausfall des Türverriegelungssystems."
+  ],
+  "steps": [
+   "Drücken Sie CLEAR/OFF und versuchen Sie die Funktion erneut.",
+   "Schalten Sie den Sicherungsautomaten des Herds 30 Sekunden aus.",
+   "Schalten Sie es wieder ein.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Fordern Sie eine LG-Reparatur an, wenn der Fehler immer wiederkommt."
+ },
+ "LG|F27": {
+  "title": "Kühlgebläse blockiert bei Selbstreinigung",
+  "causes": [
+   "Gebläse blockierte während der Selbstreinigung."
+  ],
+  "steps": [
+   "Drücken Sie CLEAR/OFF und versuchen Sie die Funktion erneut.",
+   "Schalten Sie den Sicherungsautomaten des Herds 30 Sekunden aus.",
+   "Schalten Sie es wieder ein.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Fordern Sie eine LG-Reparatur an, wenn der Fehler immer wiederkommt."
+ },
+ "LG|PF": {
+  "title": "Stromversorgung wurde unterbrochen",
+  "causes": [
+   "Die Stromversorgung des Geräts wurde unterbrochen."
+  ],
+  "steps": [
+   "Drücken Sie CLEAR/OFF und versuchen Sie die Funktion erneut.",
+   "Schalten Sie den Sicherungsautomaten des Herds 30 Sekunden aus.",
+   "Schalten Sie es wieder ein.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Fordern Sie eine LG-Reparatur an, wenn der Fehler immer wiederkommt."
+ },
+ "Beko|Er 5": {
+  "title": "Kommunikationsfehler beim Fleischthermometer",
+  "causes": [
+   "Der Backofen kann nicht mit dem Fleischthermometer kommunizieren."
+  ],
+  "steps": [
+   "Entfernen Sie das Fleischthermometer.",
+   "Stellen Sie den Drehknopf auf Aus (0).",
+   "Garen Sie ohne Thermometer.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenden Sie sich an den autorisierten Service, um das Thermometer wieder zu verwenden."
+ },
+ "Beko|Er 1 - Er 7": {
+  "title": "Kommunikationsfehler des Backofens",
+  "causes": [
+   "Interne Kommunikationsfehler."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen aus.",
+   "Notieren Sie die genaue Nummer.",
+   "Benutzen Sie den Backofen nicht.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenden Sie sich an einen autorisierten Beko-Service."
+ },
+ "Beko|Er 8 - Er 27": {
+  "title": "Sensorfehler des Backofens",
+  "causes": [
+   "Ein Sensor im Backofen ist defekt."
+  ],
+  "steps": [
+   "Schalten Sie den Backofen aus.",
+   "Notieren Sie die genaue Nummer.",
+   "Notieren Sie den genauen Code und die Modellnummer vom Typenschild, bevor Sie sich an jemanden wenden."
+  ],
+  "technician": "Wenden Sie sich an einen autorisierten Beko-Service."
+ }
+}

@@ -1,0 +1,959 @@
+[
+ {
+  "brand": "Roku",
+  "code": "Error 009",
+  "aliases": [
+   "009",
+   "error code 009"
+  ],
+  "title": "Connected to router but no internet",
+  "causes": [
+   "The router is reachable but has no internet.",
+   "Internet service is down."
+  ],
+  "steps": [
+   "Check if a phone or laptop can get online on the same network.",
+   "If nothing is online, call your internet provider.",
+   "If other devices work, restart the TV.",
+   "Restart the router and modem, then reconnect."
+  ],
+  "technician": "If the error keeps returning after these steps, contact Roku support or your internet provider.",
+  "source": "https://support.roku.com/en-gb/article/208755728"
+ },
+ {
+  "brand": "Roku",
+  "code": "Error 012",
+  "aliases": [
+   "012",
+   "error code 012"
+  ],
+  "title": "Wired network connection problem",
+  "causes": [
+   "The Ethernet cable is loose or faulty.",
+   "The router port is not working."
+  ],
+  "steps": [
+   "Push the Ethernet cable firmly into the TV and the router.",
+   "Try a different cable or router port.",
+   "Restart the TV, then the router and modem.",
+   "Try Wi-Fi briefly to see if the internet itself works."
+  ],
+  "technician": "If the error keeps returning after these steps, contact Roku support or your internet provider.",
+  "source": "https://support.roku.com/en-gb/article/208755728"
+ },
+ {
+  "brand": "Roku",
+  "code": "Error 013",
+  "aliases": [
+   "013",
+   "error code 013"
+  ],
+  "title": "Wired connection cannot reach internet",
+  "causes": [
+   "The router has no internet.",
+   "The Ethernet cable is not seated well."
+  ],
+  "steps": [
+   "Check that another device is online.",
+   "If yes, restart the TV.",
+   "If not, unplug and replug the Ethernet cable at both ends.",
+   "Restart the router before calling your provider."
+  ],
+  "technician": "If the error keeps returning after these steps, contact Roku support or your internet provider.",
+  "source": "https://support.roku.com/en-gb/article/208755728"
+ },
+ {
+  "brand": "Roku",
+  "code": "Error 014",
+  "aliases": [
+   "014",
+   "error code 014",
+   "14"
+  ],
+  "title": "Cannot connect to the wireless network",
+  "causes": [
+   "Wrong network name chosen.",
+   "Wrong password typed.",
+   "Router or TV needs a restart."
+  ],
+  "steps": [
+   "Check you picked the right network name.",
+   "Re-type the password; it is case-sensitive.",
+   "Restart the TV and the router.",
+   "Try connecting again."
+  ],
+  "technician": "If the error keeps returning after these steps, contact Roku support or your internet provider.",
+  "source": "https://support.roku.com/en-gb/article/208755728"
+ },
+ {
+  "brand": "Roku",
+  "code": "Error 014.20",
+  "aliases": [
+   "14.20"
+  ],
+  "title": "Weak Wi-Fi signal blocks connection",
+  "causes": [
+   "The TV is too far from the router.",
+   "Walls or objects weaken the signal."
+  ],
+  "steps": [
+   "Move the TV or router closer, or raise the router.",
+   "Restart the router and the TV.",
+   "If your router has two bands, try the other one.",
+   "Reconnect to the network."
+  ],
+  "technician": "If the error keeps returning after these steps, contact Roku support or your internet provider.",
+  "source": "https://support.roku.com/en-gb/article/208755728"
+ },
+ {
+  "brand": "Roku",
+  "code": "Error 014.30",
+  "aliases": [
+   "14.30"
+  ],
+  "title": "Wi-Fi connection failed, weak signal",
+  "causes": [
+   "Weak Wi-Fi signal.",
+   "Temporary router or TV glitch."
+  ],
+  "steps": [
+   "Restart the router and the TV.",
+   "Move the TV closer to the router.",
+   "Reconnect to Wi-Fi.",
+   "Try the other router band if available."
+  ],
+  "technician": "If the error keeps returning after these steps, contact Roku support or your internet provider.",
+  "source": "https://support.roku.com/en-gb/article/208755728"
+ },
+ {
+  "brand": "Roku",
+  "code": "Error 014.40",
+  "aliases": [
+   "14.40"
+  ],
+  "title": "Wrong password or router restriction",
+  "causes": [
+   "The Wi-Fi password was typed wrongly.",
+   "The router blocks unknown devices."
+  ],
+  "steps": [
+   "Check the network name and re-enter the password.",
+   "If the router filters devices, add the TV's wireless MAC address.",
+   "Restart the TV and the router.",
+   "Try again."
+  ],
+  "technician": "If the error keeps returning after these steps, contact Roku support or your internet provider.",
+  "source": "https://support.roku.com/en-gb/article/208755728"
+ },
+ {
+  "brand": "Roku",
+  "code": "Error 014.41",
+  "aliases": [
+   "14.41"
+  ],
+  "title": "Wrong password or router restriction",
+  "causes": [
+   "The Wi-Fi password was typed wrongly.",
+   "The router blocks unknown devices."
+  ],
+  "steps": [
+   "Check the network name and re-enter the password carefully.",
+   "If the router filters devices, allow the TV's wireless MAC address.",
+   "Restart the TV and the router.",
+   "Try again."
+  ],
+  "technician": "If the error keeps returning after these steps, contact Roku support or your internet provider.",
+  "source": "https://support.roku.com/en-gb/article/208755728"
+ },
+ {
+  "brand": "Roku",
+  "code": "Error 014.50",
+  "aliases": [
+   "14.50"
+  ],
+  "title": "Wi-Fi connection failed, weak signal",
+  "causes": [
+   "Weak Wi-Fi signal.",
+   "Temporary router or TV glitch."
+  ],
+  "steps": [
+   "Restart the router and the TV.",
+   "Move the TV closer to the router.",
+   "Reconnect to Wi-Fi.",
+   "Try the other router band if available."
+  ],
+  "technician": "If the error keeps returning after these steps, contact Roku support or your internet provider.",
+  "source": "https://support.roku.com/en-gb/article/208755728"
+ },
+ {
+  "brand": "Roku",
+  "code": "Error 016",
+  "aliases": [
+   "016",
+   "error code 016"
+  ],
+  "title": "Connection lost while opening a channel",
+  "causes": [
+   "The network dropped while an app was starting.",
+   "Weak Wi-Fi signal."
+  ],
+  "steps": [
+   "Choose Set up connection on screen and follow the prompts.",
+   "Restart the TV and the router.",
+   "Check the Wi-Fi signal strength.",
+   "Move the TV and router closer."
+  ],
+  "technician": "If the error keeps returning after these steps, contact Roku support or your internet provider.",
+  "source": "https://support.roku.com/en-gb/article/208755728"
+ },
+ {
+  "brand": "Roku",
+  "code": "Error 017",
+  "aliases": [
+   "017",
+   "error code 017"
+  ],
+  "title": "Poor wireless signal strength",
+  "causes": [
+   "Weak Wi-Fi signal at the TV.",
+   "Obstacles between TV and router."
+  ],
+  "steps": [
+   "Move the TV and router closer together.",
+   "Clear obstacles between them.",
+   "Restart the TV and the router.",
+   "Use an Ethernet cable if the TV has a port."
+  ],
+  "technician": "If the error keeps returning after these steps, contact Roku support or your internet provider.",
+  "source": "https://support.roku.com/en-gb/article/208755728"
+ },
+ {
+  "brand": "Roku",
+  "code": "Error 018",
+  "aliases": [
+   "018",
+   "error code 018"
+  ],
+  "title": "Internet speed too slow",
+  "causes": [
+   "Your internet plan or line is slow.",
+   "Other devices use the bandwidth."
+  ],
+  "steps": [
+   "Pause downloads and streams on other devices.",
+   "Restart the modem and router.",
+   "Ask your provider what speed you get.",
+   "Consider a faster plan."
+  ],
+  "technician": "If the error keeps returning after these steps, contact Roku support or your internet provider.",
+  "source": "https://support.roku.com/en-gb/article/208755728"
+ },
+ {
+  "brand": "Roku",
+  "code": "Error 14.10",
+  "aliases": [
+   "14.10",
+   "014.10"
+  ],
+  "title": "Wireless connection failure",
+  "causes": [
+   "Temporary Wi-Fi fault between the TV and the router."
+  ],
+  "steps": [
+   "Restart the router and wait for it to come back online.",
+   "Restart the Roku TV.",
+   "Try connecting to the network again.",
+   "Move the TV closer if the signal is weak."
+  ],
+  "technician": "If the error keeps returning after these steps, contact Roku support or your internet provider.",
+  "source": "https://support.roku.com/en-gb/article/208755728"
+ },
+ {
+  "brand": "Roku",
+  "code": "Error 14.11",
+  "aliases": [
+   "14.11",
+   "014.11"
+  ],
+  "title": "Wireless connection failure",
+  "causes": [
+   "Temporary Wi-Fi fault between the TV and the router."
+  ],
+  "steps": [
+   "Restart the router and wait for it to come back online.",
+   "Restart the Roku TV.",
+   "Try connecting to the network again.",
+   "Move the TV closer if the signal is weak."
+  ],
+  "technician": "If the error keeps returning after these steps, contact Roku support or your internet provider.",
+  "source": "https://support.roku.com/en-gb/article/208755728"
+ },
+ {
+  "brand": "Roku",
+  "code": "Error 14.62",
+  "aliases": [
+   "14.62",
+   "014.62"
+  ],
+  "title": "Wireless connection problem, weak signal",
+  "causes": [
+   "Weak Wi-Fi signal at the TV."
+  ],
+  "steps": [
+   "Check the signal strength shown on screen.",
+   "Move the TV or router closer together.",
+   "Restart the router and the TV.",
+   "Reconnect to the network."
+  ],
+  "technician": "If the error keeps returning after these steps, contact Roku support or your internet provider.",
+  "source": "https://support.roku.com/en-gb/article/208755728"
+ },
+ {
+  "brand": "Roku",
+  "code": "Error 14.64",
+  "aliases": [
+   "14.64",
+   "014.64"
+  ],
+  "title": "Wireless connection problem, weak signal",
+  "causes": [
+   "Weak Wi-Fi signal at the TV."
+  ],
+  "steps": [
+   "Check the signal strength shown on screen.",
+   "Move the TV or router closer together.",
+   "Restart the router and the TV.",
+   "Reconnect to the network."
+  ],
+  "technician": "If the error keeps returning after these steps, contact Roku support or your internet provider.",
+  "source": "https://support.roku.com/en-gb/article/208755728"
+ },
+ {
+  "brand": "TCL",
+  "code": "Error 009",
+  "aliases": [
+   "009",
+   "error code 009"
+  ],
+  "title": "Connected to router but no internet",
+  "causes": [
+   "The router is reachable but has no internet.",
+   "Internet service is down."
+  ],
+  "steps": [
+   "Check if a phone or laptop can get online on the same network.",
+   "If nothing is online, call your internet provider.",
+   "If other devices work, restart the TV.",
+   "Restart the router and modem, then reconnect."
+  ],
+  "technician": "If the error returns after a network reset, contact TCL support for your Roku TV.",
+  "source": "https://support.tcl.com/en_US/01-getting-error-codes-when-connecting-to-your-wireless-network"
+ },
+ {
+  "brand": "TCL",
+  "code": "Error 012",
+  "aliases": [
+   "012",
+   "error code 012"
+  ],
+  "title": "Wired network connection problem",
+  "causes": [
+   "The Ethernet cable is loose or faulty.",
+   "The router port is not working."
+  ],
+  "steps": [
+   "Push the Ethernet cable firmly into the TV and the router.",
+   "Try a different cable or router port.",
+   "Restart the TV, then the router and modem.",
+   "Try Wi-Fi briefly to see if the internet itself works."
+  ],
+  "technician": "If the error returns after a network reset, contact TCL support for your Roku TV.",
+  "source": "https://support.tcl.com/en_US/01-getting-error-codes-when-connecting-to-your-wireless-network"
+ },
+ {
+  "brand": "TCL",
+  "code": "Error 013",
+  "aliases": [
+   "013",
+   "error code 013"
+  ],
+  "title": "Wired connection cannot reach internet",
+  "causes": [
+   "The router has no internet.",
+   "The Ethernet cable is not seated well."
+  ],
+  "steps": [
+   "Check that another device is online.",
+   "If yes, restart the TV.",
+   "If not, unplug and replug the Ethernet cable at both ends.",
+   "Restart the router before calling your provider."
+  ],
+  "technician": "If the error returns after a network reset, contact TCL support for your Roku TV.",
+  "source": "https://support.tcl.com/en_US/01-getting-error-codes-when-connecting-to-your-wireless-network"
+ },
+ {
+  "brand": "TCL",
+  "code": "Error 014",
+  "aliases": [
+   "014",
+   "error code 014",
+   "14"
+  ],
+  "title": "Cannot connect to the wireless network",
+  "causes": [
+   "Wrong network name chosen.",
+   "Wrong password typed.",
+   "Router or TV needs a restart."
+  ],
+  "steps": [
+   "Check you picked the right network name.",
+   "Re-type the password; it is case-sensitive.",
+   "Restart the TV and the router.",
+   "Try connecting again."
+  ],
+  "technician": "If the error returns after a network reset, contact TCL support for your Roku TV.",
+  "source": "https://support.tcl.com/en_US/01-getting-error-codes-when-connecting-to-your-wireless-network"
+ },
+ {
+  "brand": "TCL",
+  "code": "Error 014.20",
+  "aliases": [
+   "14.20"
+  ],
+  "title": "Weak Wi-Fi signal blocks connection",
+  "causes": [
+   "The TV is too far from the router.",
+   "Walls or objects weaken the signal."
+  ],
+  "steps": [
+   "Move the TV or router closer, or raise the router.",
+   "Restart the router and the TV.",
+   "If your router has two bands, try the other one.",
+   "Reconnect to the network."
+  ],
+  "technician": "If the error returns after a network reset, contact TCL support for your Roku TV.",
+  "source": "https://support.tcl.com/en_US/01-getting-error-codes-when-connecting-to-your-wireless-network"
+ },
+ {
+  "brand": "TCL",
+  "code": "Error 014.30",
+  "aliases": [
+   "14.30"
+  ],
+  "title": "Wi-Fi connection failed, weak signal",
+  "causes": [
+   "Weak Wi-Fi signal.",
+   "Temporary router or TV glitch."
+  ],
+  "steps": [
+   "Restart the router and the TV.",
+   "Move the TV closer to the router.",
+   "Reconnect to Wi-Fi.",
+   "Try the other router band if available."
+  ],
+  "technician": "If the error returns after a network reset, contact TCL support for your Roku TV.",
+  "source": "https://support.tcl.com/en_US/01-getting-error-codes-when-connecting-to-your-wireless-network"
+ },
+ {
+  "brand": "TCL",
+  "code": "Error 014.40",
+  "aliases": [
+   "14.40"
+  ],
+  "title": "Wrong password or router restriction",
+  "causes": [
+   "The Wi-Fi password was typed wrongly.",
+   "The router blocks unknown devices."
+  ],
+  "steps": [
+   "Check the network name and re-enter the password.",
+   "If the router filters devices, add the TV's wireless MAC address.",
+   "Restart the TV and the router.",
+   "Try again."
+  ],
+  "technician": "If the error returns after a network reset, contact TCL support for your Roku TV.",
+  "source": "https://support.tcl.com/en_US/01-getting-error-codes-when-connecting-to-your-wireless-network"
+ },
+ {
+  "brand": "TCL",
+  "code": "Error 014.41",
+  "aliases": [
+   "14.41"
+  ],
+  "title": "Wrong password or router restriction",
+  "causes": [
+   "The Wi-Fi password was typed wrongly.",
+   "The router blocks unknown devices."
+  ],
+  "steps": [
+   "Check the network name and re-enter the password carefully.",
+   "If the router filters devices, allow the TV's wireless MAC address.",
+   "Restart the TV and the router.",
+   "Try again."
+  ],
+  "technician": "If the error returns after a network reset, contact TCL support for your Roku TV.",
+  "source": "https://support.tcl.com/en_US/01-getting-error-codes-when-connecting-to-your-wireless-network"
+ },
+ {
+  "brand": "TCL",
+  "code": "Error 014.50",
+  "aliases": [
+   "14.50"
+  ],
+  "title": "Wi-Fi connection failed, weak signal",
+  "causes": [
+   "Weak Wi-Fi signal.",
+   "Temporary router or TV glitch."
+  ],
+  "steps": [
+   "Restart the router and the TV.",
+   "Move the TV closer to the router.",
+   "Reconnect to Wi-Fi.",
+   "Try the other router band if available."
+  ],
+  "technician": "If the error returns after a network reset, contact TCL support for your Roku TV.",
+  "source": "https://support.tcl.com/en_US/01-getting-error-codes-when-connecting-to-your-wireless-network"
+ },
+ {
+  "brand": "TCL",
+  "code": "Error 016",
+  "aliases": [
+   "016",
+   "error code 016"
+  ],
+  "title": "Connection lost while opening a channel",
+  "causes": [
+   "The network dropped while an app was starting.",
+   "Weak Wi-Fi signal."
+  ],
+  "steps": [
+   "Choose Set up connection on screen and follow the prompts.",
+   "Restart the TV and the router.",
+   "Check the Wi-Fi signal strength.",
+   "Move the TV and router closer."
+  ],
+  "technician": "If the error returns after a network reset, contact TCL support for your Roku TV.",
+  "source": "https://support.tcl.com/en_US/01-getting-error-codes-when-connecting-to-your-wireless-network"
+ },
+ {
+  "brand": "TCL",
+  "code": "Error 017",
+  "aliases": [
+   "017",
+   "error code 017"
+  ],
+  "title": "Poor wireless signal strength",
+  "causes": [
+   "Weak Wi-Fi signal at the TV.",
+   "Obstacles between TV and router."
+  ],
+  "steps": [
+   "Move the TV and router closer together.",
+   "Clear obstacles between them.",
+   "Restart the TV and the router.",
+   "Use an Ethernet cable if the TV has a port."
+  ],
+  "technician": "If the error returns after a network reset, contact TCL support for your Roku TV.",
+  "source": "https://support.tcl.com/en_US/01-getting-error-codes-when-connecting-to-your-wireless-network"
+ },
+ {
+  "brand": "TCL",
+  "code": "Error 018",
+  "aliases": [
+   "018",
+   "error code 018"
+  ],
+  "title": "Internet speed too slow",
+  "causes": [
+   "Your internet plan or line is slow.",
+   "Other devices use the bandwidth."
+  ],
+  "steps": [
+   "Pause downloads and streams on other devices.",
+   "Restart the modem and router.",
+   "Ask your provider what speed you get.",
+   "Consider a faster plan."
+  ],
+  "technician": "If the error returns after a network reset, contact TCL support for your Roku TV.",
+  "source": "https://support.tcl.com/en_US/01-getting-error-codes-when-connecting-to-your-wireless-network"
+ },
+ {
+  "brand": "Sony",
+  "code": "Red LED blinks 2 times",
+  "aliases": [
+   "2 red blinks",
+   "red light blinks twice"
+  ],
+  "title": "Sony TV detected a fault (2 blinks)",
+  "causes": [
+   "The TV found an internal fault.",
+   "The meaning of the blink count differs between models."
+  ],
+  "steps": [
+   "Switch off and unplug the TV for 1 minute, away from any power strip.",
+   "Clear the vents so air can flow.",
+   "Unplug all connected devices and switch on again.",
+   "Update the TV software if it starts.",
+   "Note the blink count and contact Sony."
+  ],
+  "technician": "Most red blink faults need service, so contact Sony support with the blink count.",
+  "source": "https://www.sony.ie/electronics/support/articles/00011057"
+ },
+ {
+  "brand": "Sony",
+  "code": "Red LED blinks 3 times",
+  "aliases": [
+   "3 red blinks"
+  ],
+  "title": "Sony TV detected a fault (3 blinks)",
+  "causes": [
+   "The TV found an internal fault.",
+   "The meaning of the blink count differs between models."
+  ],
+  "steps": [
+   "Switch off and unplug the TV for 1 minute, away from any power strip.",
+   "Clear the vents so air can flow.",
+   "Unplug all connected devices and switch on again.",
+   "Update the TV software if it starts.",
+   "Note the blink count and contact Sony."
+  ],
+  "technician": "Most red blink faults need service, so contact Sony support with the blink count.",
+  "source": "https://www.sony.ie/electronics/support/articles/00011057"
+ },
+ {
+  "brand": "Sony",
+  "code": "Red LED blinks 4 times",
+  "aliases": [
+   "4 red blinks"
+  ],
+  "title": "Sony TV detected a fault (4 blinks)",
+  "causes": [
+   "The TV found an internal fault.",
+   "The meaning of the blink count differs between models."
+  ],
+  "steps": [
+   "Switch off and unplug the TV for 1 minute, away from any power strip.",
+   "Clear the vents so air can flow.",
+   "Unplug all connected devices and switch on again.",
+   "Update the TV software if it starts.",
+   "Note the blink count and contact Sony."
+  ],
+  "technician": "Most red blink faults need service, so contact Sony support with the blink count.",
+  "source": "https://www.sony.ie/electronics/support/articles/00011057"
+ },
+ {
+  "brand": "Sony",
+  "code": "Red LED blinks 5 times",
+  "aliases": [
+   "5 red blinks"
+  ],
+  "title": "Sony TV detected a fault (5 blinks)",
+  "causes": [
+   "The TV found an internal fault.",
+   "The meaning of the blink count differs between models."
+  ],
+  "steps": [
+   "Switch off and unplug the TV for 1 minute, away from any power strip.",
+   "Clear the vents so air can flow.",
+   "Unplug all connected devices and switch on again.",
+   "Update the TV software if it starts.",
+   "Note the blink count and contact Sony."
+  ],
+  "technician": "Most red blink faults need service, so contact Sony support with the blink count.",
+  "source": "https://www.sony.ie/electronics/support/articles/00011057"
+ },
+ {
+  "brand": "Sony",
+  "code": "Red LED blinks 6 times",
+  "aliases": [
+   "6 red blinks"
+  ],
+  "title": "Sony TV detected a fault (6 blinks)",
+  "causes": [
+   "The TV found an internal fault.",
+   "The meaning of the blink count differs between models."
+  ],
+  "steps": [
+   "Switch off and unplug the TV for 1 minute, away from any power strip.",
+   "Clear the vents so air can flow.",
+   "Unplug all connected devices and switch on again.",
+   "Update the TV software if it starts.",
+   "Note the blink count and contact Sony."
+  ],
+  "technician": "Most red blink faults need service, so contact Sony support with the blink count.",
+  "source": "https://www.sony.ie/electronics/support/articles/00011057"
+ },
+ {
+  "brand": "Sony",
+  "code": "Red LED blinks 7 times",
+  "aliases": [
+   "7 red blinks"
+  ],
+  "title": "Sony TV detected a fault (7 blinks)",
+  "causes": [
+   "The TV found an internal fault.",
+   "The meaning of the blink count differs between models."
+  ],
+  "steps": [
+   "Switch off and unplug the TV for 1 minute, away from any power strip.",
+   "Clear the vents so air can flow.",
+   "Unplug all connected devices and switch on again.",
+   "Update the TV software if it starts.",
+   "Note the blink count and contact Sony."
+  ],
+  "technician": "Most red blink faults need service, so contact Sony support with the blink count.",
+  "source": "https://www.sony.ie/electronics/support/articles/00011057"
+ },
+ {
+  "brand": "Sony",
+  "code": "Red LED blinks 8 times",
+  "aliases": [
+   "8 red blinks"
+  ],
+  "title": "Sony TV detected a fault (8 blinks)",
+  "causes": [
+   "The TV found an internal fault.",
+   "The meaning of the blink count differs between models."
+  ],
+  "steps": [
+   "Switch off and unplug the TV for 1 minute, away from any power strip.",
+   "Clear the vents so air can flow.",
+   "Unplug all connected devices and switch on again.",
+   "Update the TV software if it starts.",
+   "Note the blink count and contact Sony."
+  ],
+  "technician": "Most red blink faults need service, so contact Sony support with the blink count.",
+  "source": "https://www.sony.ie/electronics/support/articles/00011057"
+ },
+ {
+  "brand": "Sony",
+  "code": "Orange LED solid",
+  "aliases": [
+   "amber light on"
+  ],
+  "title": "Sleep or on/off timer is active",
+  "causes": [
+   "A sleep timer or on/off timer is set on the TV."
+  ],
+  "steps": [
+   "Open the TV Settings menu.",
+   "Find the sleep timer or on/off timer.",
+   "Turn the timer off or change the time.",
+   "Check the light goes out."
+  ],
+  "technician": "No service is needed unless the light stays on with no timer set.",
+  "source": "https://www.sony.ie/electronics/support/articles/00011057"
+ },
+ {
+  "brand": "Sony",
+  "code": "Orange LED blinking",
+  "aliases": [
+   "amber light blinking"
+  ],
+  "title": "Software update running or cable loose",
+  "causes": [
+   "A software update is in progress.",
+   "On sets with a separate media box, the cable between the units may be loose."
+  ],
+  "steps": [
+   "Do not switch off or unplug the TV; wait a few minutes.",
+   "The remote will not work during the update.",
+   "On media box sets, check the cable between the units is firm."
+  ],
+  "technician": "If it blinks for a long time, contact Sony support.",
+  "source": "https://www.sony.ie/electronics/support/articles/00011057"
+ },
+ {
+  "brand": "Sony",
+  "code": "Green LED blinking",
+  "aliases": [
+   "green light blinks at start"
+  ],
+  "title": "Normal start-up or TV will not start",
+  "causes": [
+   "Normal while the TV powers on.",
+   "Possible fault if it never stops or the TV cycles on and off."
+  ],
+  "steps": [
+   "Wait for the TV to finish starting; the blinking should stop.",
+   "If it keeps blinking, unplug the TV for 3 minutes.",
+   "Plug in and try again."
+  ],
+  "technician": "If the TV still will not start, it needs service from Sony.",
+  "source": "https://www.sony.ie/electronics/support/articles/00011057"
+ },
+ {
+  "brand": "Sony",
+  "code": "White LED blinking",
+  "aliases": [
+   "lamp light blinking"
+  ],
+  "title": "Projection TV lamp needs replacing",
+  "causes": [
+   "The lamp has burned out (projection TVs and projectors only).",
+   "The lamp cover may be open."
+  ],
+  "steps": [
+   "Switch off and let the lamp cool.",
+   "Make sure the lamp covers are closed and secure.",
+   "Do not touch the lamp glass; wipe it with an alcohol wipe if touched.",
+   "Arrange a lamp replacement."
+  ],
+  "technician": "Contact Sony support to get a replacement lamp.",
+  "source": "https://www.sony.ie/electronics/support/articles/00011057"
+ },
+ {
+  "brand": "Sony",
+  "code": "Red LED blinking with 3-second pause",
+  "aliases": [
+   "operational response LED red"
+  ],
+  "title": "Fault shown by repeating red blinks",
+  "causes": [
+   "The TV found a fault and shows a flash count."
+  ],
+  "steps": [
+   "Count the flashes between each pause.",
+   "Unplug the TV, wait 2 minutes, plug in and switch on.",
+   "If it repeats, unplug and call Sony with the flash count."
+  ],
+  "technician": "Give the flash count to Sony support.",
+  "source": "https://helpguide.sony.net/tv/hga2/v1/af/08-10_07.html"
+ },
+ {
+  "brand": "Panasonic",
+  "code": "Red LED blinking",
+  "aliases": [
+   "red power light flashing",
+   "SOS error"
+  ],
+  "title": "TV detected an error (SOS)",
+  "causes": [
+   "The TV found an internal error.",
+   "Applies to Panasonic Fire TV models."
+  ],
+  "steps": [
+   "Unplug the TV for a few minutes.",
+   "Plug it back in and switch on.",
+   "If it still blinks, send a repair request to Panasonic."
+  ],
+  "technician": "If blinking continues, submit a repair support request to Panasonic.",
+  "source": "https://help.na.panasonic.com/answers/understanding-and-resolving-led-blinking-issues-on-your-amazon-fire-tv/"
+ },
+ {
+  "brand": "Panasonic",
+  "code": "Orange LED solid",
+  "aliases": [
+   "amber power light on"
+  ],
+  "title": "Standby while panel maintenance or network task runs",
+  "causes": [
+   "Panel maintenance or a network function is in progress."
+  ],
+  "steps": [
+   "Do not touch or press the screen during panel maintenance.",
+   "Wait until the task finishes.",
+   "Read the Panasonic panel maintenance article if it repeats."
+  ],
+  "technician": "If the light stays orange for a long time, contact Panasonic support.",
+  "source": "https://help.na.panasonic.com/answers/understanding-and-resolving-led-blinking-issues-on-your-amazon-fire-tv/"
+ },
+ {
+  "brand": "Panasonic",
+  "code": "Orange LED blinking",
+  "aliases": [
+   "amber power light flashing"
+  ],
+  "title": "Panel maintenance or network update running",
+  "causes": [
+   "Panel maintenance is running.",
+   "A network connection or settings update is in progress."
+  ],
+  "steps": [
+   "Leave the TV plugged in and wait for it to finish.",
+   "If the LED turns orange again after you switch the TV on or off, maintenance is not done.",
+   "Let it complete before switching off."
+  ],
+  "technician": "If it never stops, contact Panasonic support.",
+  "source": "https://help.na.panasonic.com/answers/understanding-and-resolving-led-blinking-issues-on-your-amazon-fire-tv/"
+ },
+ {
+  "brand": "Panasonic",
+  "code": "Green LED blinking",
+  "aliases": [
+   "green power light flashing"
+  ],
+  "title": "TV starting or waiting for Bluetooth pairing",
+  "causes": [
+   "The TV is starting up.",
+   "It is waiting for a Bluetooth device to pair."
+  ],
+  "steps": [
+   "Wait for start-up to finish.",
+   "If pairing, complete pairing on the other device.",
+   "Unplug briefly and retry if it never stops."
+  ],
+  "technician": "If the TV never finishes starting, contact Panasonic support.",
+  "source": "https://help.na.panasonic.com/answers/understanding-and-resolving-led-blinking-issues-on-your-amazon-fire-tv/"
+ },
+ {
+  "brand": "Philips",
+  "code": "Standby light blinks red",
+  "aliases": [
+   "red standby LED flashing"
+  ],
+  "title": "Philips TV reports a fault",
+  "causes": [
+   "The TV has detected a fault.",
+   "The TV may have overheated."
+  ],
+  "steps": [
+   "Unplug the TV from the wall outlet.",
+   "Let it cool down fully.",
+   "Plug the power cable back in.",
+   "Switch it on again."
+  ],
+  "technician": "If the red light blinks again, contact Philips Consumer Care.",
+  "source": "https://www.philips.ca/c-t/XC000007491/the-standby-light-on-the-tv-blinks-red"
+ },
+ {
+  "brand": "Philips",
+  "code": "Front LED blinks in a repeating pattern",
+  "aliases": [
+   "standby light blinking pattern"
+  ],
+  "title": "TV will not start, LED blinks repeatedly",
+  "causes": [
+   "The TV does not start and shows no picture or sound.",
+   "A temporary power glitch."
+  ],
+  "steps": [
+   "Do a power cycle: unplug the TV and wait a few minutes.",
+   "Plug in and try again.",
+   "Try a different wall socket."
+  ],
+  "technician": "If it still blinks, contact Philips TV support.",
+  "source": "https://www.philips.ie/c-f/XC000012783/what-to-do-if-the-front-led-light-blinks-in-a-repeating-pattern"
+ },
+ {
+  "brand": "LG",
+  "code": "Error 106",
+  "aliases": [
+   "106",
+   "error code 106"
+  ],
+  "title": "TV not connected to the network",
+  "causes": [
+   "The TV has no working internet connection.",
+   "The Wi-Fi adapter or router settings are not suitable."
+  ],
+  "steps": [
+   "Test another device on the same network.",
+   "Restart the router and the TV, then re-enter the Wi-Fi password.",
+   "In Wi-Fi advanced settings, set DNS manually to 8.8.8.8.",
+   "Use 5 GHz if the TV supports it and move the router closer."
+  ],
+  "technician": "If nothing works, the Wi-Fi module may need replacing, so contact LG service.",
+  "source": "https://www.lg.com/ru/lg-magazine/what-is/kod-oshibki-106-na-televizore-lg"
+ }
+]

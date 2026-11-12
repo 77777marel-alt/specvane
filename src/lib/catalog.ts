@@ -813,7 +813,7 @@ export async function getUseCases(lang: Locale, cat: Category): Promise<UseCaseR
 
 // ---------- «Реальный размер»: габариты моделей для сравнения в натуральную величину ----------
 export type SizeItem = { s: string; n: string; img: string | null; w: number; h: number; d: number | null; dg: number | null; ap: boolean }
-const SIZE_CATS = ['smartphones', 'tablets', 'smartwatches', 'tvs'] as const
+const SIZE_CATS = ['smartphones', 'tablets', 'smartwatches', 'tvs', 'monitors'] as const
 
 /** Ширина × высота × толщина (мм). Нет опубликованных габаритов — оценка по диагонали (флаг ap). */
 export async function getSizeData(lang: Locale, catKey: string): Promise<SizeItem[]> {
@@ -842,12 +842,15 @@ export async function getSizeData(lang: Locale, catKey: string): Promise<SizeIte
     } else if (!w || !h) {
       if (!dg) continue
       // оценка: экран 20:9 (телефоны), 16:10 (планшеты), 16:9 (ТВ) + рамки
-      const [ax, ay, bx, by] = catKey === 'smartphones' ? [9, 20, 7, 12] : catKey === 'tablets' ? [10, 16, 16, 16] : [16, 9, 20, 20]
+      // мониторы: соотношение сторон из характеристики (21:9, 16:10, 32:9…), рамка ~15 мм
+      const ar = catKey === 'monitors' ? /(\d+(?:[.,]\d+)?)\s*:\s*(\d+(?:[.,]\d+)?)/.exec(String(p.facets?.aspect_ratio?.v ?? '')) : null
+      const [ax, ay, bx, by] = catKey === 'smartphones' ? [9, 20, 7, 12] : catKey === 'tablets' ? [10, 16, 16, 16]
+        : catKey === 'monitors' ? [ar ? Number(ar[1].replace(',', '.')) : 16, ar ? Number(ar[2].replace(',', '.')) : 9, 15, 15] : [16, 9, 20, 20]
       const diag = dg * 25.4, k = diag / Math.hypot(ax, ay)
       w = Math.round(ax * k + bx); h = Math.round(ay * k + by); ap = true
     }
-    if (catKey === 'tvs' && w < h) [w, h] = [h, w]
-    if (catKey !== 'tvs' && w > h) [w, h] = [h, w] // телефоны и планшеты — вертикально
+    if ((catKey === 'tvs' || catKey === 'monitors') && w < h) [w, h] = [h, w]
+    if (catKey !== 'tvs' && catKey !== 'monitors' && w > h) [w, h] = [h, w] // телефоны и планшеты — вертикально
     out.push({ s: p.slug, n: `${p.brand} ${p.name}`, img: p.image ?? null, w, h, d, dg, ap })
     if (out.length >= 1500) break
   }

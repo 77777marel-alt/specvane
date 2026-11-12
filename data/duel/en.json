@@ -1,0 +1,11 @@
+{
+ "title": "30-second duel: which one is better for you?",
+ "lead": "Tap how much each thing matters to you. We weigh how each model ranks among all models in our catalogue on those specifications and tell you which one fits you.",
+ "levels": ["Doesn't matter", "Matters", "Very important"],
+ "result": "For you: {name}",
+ "tie": "A draw: both suit you about equally — pick by price or design.",
+ "wins": "Ahead on {n} of the {m} things you care about.",
+ "basis": "Score = the share of catalogue models each one beats on these specifications, weighted by your answers. Price, design and reviews are not included.",
+ "none": "Choose at least one thing that matters to you.",
+ "specs": "Based on: {list}"
+}

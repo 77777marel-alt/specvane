@@ -1,0 +1,1394 @@
+{
+ "iRobot|Error 1": {
+  "title": "Roomba utknął lub koło zwisa",
+  "causes": [
+   "Robot na czymś utknął.",
+   "Boczne koło zwisa lub jest zablokowane."
+  ],
+  "steps": [
+   "Podnieś robota i postaw go w innym miejscu.",
+   "Naciśnij CLEAN, aby zacząć od nowa.",
+   "Obróć oba boczne koła ręką i wytrząśnij zanieczyszczenia."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Error 2": {
+  "title": "Szczotki ekstraktorów nie mogą się obracać",
+  "causes": [
+   "Włosy lub zanieczyszczenia blokują ekstraktory (szczotki)."
+  ],
+  "steps": [
+   "Wyjmij pojemnik i otwórz ramę ekstraktorów.",
+   "Wyjmij ekstraktory i usuń włosy oraz nitki.",
+   "Załóż je z powrotem i naciśnij CLEAN."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Error 5": {
+  "title": "Boczne koło zablokowane",
+  "causes": [
+   "Boczne koło nie obraca się swobodnie z powodu brudu lub włosów."
+  ],
+  "steps": [
+   "Odwróć robota.",
+   "Obróć każde boczne koło i usuń zanieczyszczenia z komory koła.",
+   "Postaw robota na podłodze i naciśnij CLEAN."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Error 6": {
+  "title": "Brudne czujniki krawędzi lub robot nad uskokiem",
+  "causes": [
+   "Czujniki krawędzi na spodzie są brudne.",
+   "Robot znajduje się nad uskokiem lub na bardzo ciemnej podłodze."
+  ],
+  "steps": [
+   "Przenieś robota w inne miejsce.",
+   "Przetrzyj czujniki krawędzi na spodzie suchą szmatką.",
+   "Naciśnij CLEAN, aby uruchomić ponownie."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Error 7": {
+  "title": "Boczne koło zablokowane",
+  "causes": [
+   "Boczne koło jest zablokowane przez zanieczyszczenia lub włosy."
+  ],
+  "steps": [
+   "Odwróć robota i obróć każde boczne koło.",
+   "Usuń włosy i brud z komór kół.",
+   "Postaw go na podłodze i naciśnij CLEAN."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Error 9": {
+  "title": "Zderzak wciśnięty lub brudny czujnik zderzaka",
+  "causes": [
+   "Zderzak jest wciśnięty lub zablokowany.",
+   "Czujnik zderzaka jest brudny."
+  ],
+  "steps": [
+   "Stuknij kilka razy w zderzak, aby uwolnić brud.",
+   "Przetrzyj krawędzie zderzaka suchą szmatką.",
+   "Uruchom robota ponownie."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Error 10": {
+  "title": "Boczne koło zablokowane lub zderzak nie reaguje",
+  "causes": [
+   "Boczne koło jest zablokowane.",
+   "Zderzak nie wykrywa przeszkód."
+  ],
+  "steps": [
+   "Obróć boczne koła i wyczyść komory kół.",
+   "Stuknij w zderzak, aby usunąć zanieczyszczenia.",
+   "Naciśnij CLEAN, aby spróbować ponownie."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Error 11": {
+  "title": "Błąd układu ssącego Roomby",
+  "causes": [
+   "Układ ssący lub pojemnik ma usterkę."
+  ],
+  "steps": [
+   "Wyjmij pojemnik i opróżnij go.",
+   "Wyczyść filtr i sprawdź, czy pojemnik jest dobrze osadzony.",
+   "Uruchom robota ponownie, a w modelach z Wi-Fi sprawdź pomoc w aplikacji iRobot HOME."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Error 14": {
+  "title": "Roomba nie wykrywa pojemnika",
+  "causes": [
+   "Pojemnik nie jest prawidłowo zamontowany.",
+   "Styki pojemnika są brudne."
+  ],
+  "steps": [
+   "Sprawdź, czy pojemnik jest wsunięty do końca.",
+   "Przetrzyj styki na pojemniku i na robocie lekko wilgotną gąbką z pianki melaminowej.",
+   "Jeśli problem się utrzymuje, może być potrzebny nowy pojemnik."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Error 18": {
+  "title": "Roomba nie może wrócić do stacji ładującej ani do punktu startu",
+  "causes": [
+   "Stacja nie ma zasilania lub została przesunięta.",
+   "Brudne styki ładowania lub czujniki albo zablokowane koła."
+  ],
+  "steps": [
+   "Sprawdź, czy stacja ma zasilanie i czy świeci się jej dioda.",
+   "Uprzątnij otoczenie i przetrzyj styki oraz czujniki suchą lub lekko wilgotną szmatką.",
+   "Obróć koła, a potem uruchom ponownie robota i stację.",
+   "Jeśli stacja jest poza zasięgiem, przesuń ją bliżej sprzątanego obszaru."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Error 1010": {
+  "title": "Roomba nie może znaleźć stacji ładującej lub do niej dojechać",
+  "causes": [
+   "Zablokowana droga lub zamknięte drzwi.",
+   "Stacja została przesunięta lub odłączona od prądu.",
+   "Światło lub odblaski wprowadzają w błąd czujniki dokowania."
+  ],
+  "steps": [
+   "Udrożnij drogę i otwórz drzwi.",
+   "Przytrzymaj przycisk zasilania przez 10 sekund, aby uruchomić robota ponownie, a potem włącz sprzątanie jeszcze raz.",
+   "Wyczyść szczotki, koła i czujniki na robocie i na stacji.",
+   "Jeśli problem się utrzymuje, usuń mapę i pozwól robotowi stworzyć ją od nowa."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Charging error 1": {
+  "title": "Roomba nie wykrywa baterii",
+  "causes": [
+   "Bateria nie jest osadzona lub nie została wykryta."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Wyjmij baterię.",
+   "Zainstaluj ją ponownie, mocno dociskając.",
+   "Spróbuj naładować ponownie."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Charging error 2": {
+  "title": "Usterka ładowania baterii: zbyt duży prąd",
+  "causes": [
+   "Bateria może nie być oryginalną baterią iRobot.",
+   "Może występować uszkodzenie przez ciecz."
+  ],
+  "steps": [
+   "Sprawdź, czy używasz oryginalnej baterii litowo-jonowej iRobot.",
+   "Poszukaj śladów uszkodzenia przez ciecz.",
+   "Nie ładuj baterii, jeśli wygląda na uszkodzoną."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Charging error 3": {
+  "title": "Usterka układu ładowania",
+  "causes": [
+   "Usterka układu ładowania, prawdopodobnie spowodowana uszkodzeniem przez ciecz."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Spróbuj naładować ponownie.",
+   "Sprawdź, czy nie ma uszkodzeń przez ciecz.",
+   "Utrzymuj stację i robota w stanie suchym."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Charging error 4": {
+  "title": "Niski prąd ładowania lub jego brak",
+  "causes": [
+   "Brudne styki ładowania na robocie lub na stacji."
+  ],
+  "steps": [
+   "Odłącz stację od prądu.",
+   "Przetrzyj styki ładowania na obu urządzeniach lekko wilgotną gąbką z pianki melaminowej.",
+   "Spróbuj naładować ponownie."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Charging error 6": {
+  "title": "Bateria jest za ciepła lub za zimna do ładowania",
+  "causes": [
+   "Temperatura baterii jest poza bezpiecznym zakresem ładowania."
+  ],
+  "steps": [
+   "Przenieś robota w miejsce o temperaturze pokojowej.",
+   "Poczekaj, aż osiągnie temperaturę pokojową.",
+   "Spróbuj naładować ponownie."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Charging error 8": {
+  "title": "Robot nie może się komunikować z baterią",
+  "causes": [
+   "Bateria może nie być oryginalna lub jest źle osadzona."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Upewnij się, że bateria jest oryginalną baterią iRobot.",
+   "Wyjmij ją i zainstaluj ponownie.",
+   "Spróbuj naładować ponownie."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Charging error 9": {
+  "title": "Awaria baterii",
+  "causes": [
+   "Bateria uległa awarii lub nie jest oryginalna."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Upewnij się, że bateria jest oryginalna.",
+   "Wyjmij ją i zainstaluj ponownie.",
+   "Jeśli awaria się powtórzy, zaplanuj wymianę baterii."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Charging error 11": {
+  "title": "Usterka sprzętowa baterii",
+  "causes": [
+   "Bateria ma usterkę sprzętową lub nie jest oryginalna."
+  ],
+  "steps": [
+   "Upewnij się, że bateria jest oryginalna.",
+   "Wyjmij ją i zainstaluj ponownie.",
+   "Jeśli błąd wróci, wymień baterię."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Charging error 20": {
+  "title": "Usterka baterii lub bateria niegotowa do ładowania",
+  "causes": [
+   "Bateria ma usterkę lub nie może rozpocząć ładowania."
+  ],
+  "steps": [
+   "Wyjmij baterię na 15 minut.",
+   "Zainstaluj ją ponownie i spróbuj naładować.",
+   "Jeśli problem się utrzymuje, wymień baterię."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Charging error 21": {
+  "title": "Robot na stacji, ale nie może się ładować",
+  "causes": [
+   "Brudne styki ładowania."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Odłącz stację od prądu.",
+   "Przetrzyj styki na robocie i na stacji lekko wilgotną gąbką z pianki melaminowej.",
+   "Ustaw robota na stacji jeszcze raz."
+  ],
+  "technician": "Jeśli błąd wciąż wraca po tych sprawdzeniach, skontaktuj się z obsługą klienta iRobot (Customer Care) i podaj numer seryjny robota."
+ },
+ "iRobot|Error 453": {
+  "title": "Stacja nie może ustawić się względem robota",
+  "causes": [
+   "Wałek do mycia padów lub pojemnik nie jest dobrze osadzony.",
+   "Coś blokuje dyszę stacji."
+  ],
+  "steps": [
+   "Zainstaluj wałek do mycia padów ponownie.",
+   "Upewnij się, że pojemnik jest zainstalowany, i wyczyść obudowę dyszy.",
+   "Sprawdź, czy przyciski styków ładowania poruszają się swobodnie, a potem uruchom ponownie robota i stację."
+  ],
+  "technician": "Jeśli błąd stacji wraca po tych krokach, skontaktuj się z obsługą klienta iRobot (Customer Care); stacja może wymagać serwisu."
+ },
+ "iRobot|Error 511": {
+  "title": "Problem z czujnikiem zbiornika na brudną wodę",
+  "causes": [
+   "Zbiornik na brudną wodę nie jest dobrze osadzony."
+  ],
+  "steps": [
+   "Wyjmij zbiornik na brudną wodę i włóż go ponownie.",
+   "Odłącz stację od prądu na kilka sekund, a potem podłącz ją z powrotem.",
+   "Spróbuj ponownie."
+  ],
+  "technician": "Jeśli błąd stacji wraca po tych krokach, skontaktuj się z obsługą klienta iRobot (Customer Care); stacja może wymagać serwisu."
+ },
+ "iRobot|Error 512": {
+  "title": "Zatkany odpływ brudnej wody",
+  "causes": [
+   "Zanieczyszczenia blokują odpływ w misach do mycia."
+  ],
+  "steps": [
+   "Przetrzyj obie misy suchą szmatką.",
+   "Udrożnij otwór odpływu.",
+   "Uporczywy brud usuń łagodnym mydłem i gąbką."
+  ],
+  "technician": "Jeśli błąd stacji wraca po tych krokach, skontaktuj się z obsługą klienta iRobot (Customer Care); stacja może wymagać serwisu."
+ },
+ "iRobot|Error 516": {
+  "title": "Wałek do mycia padów zatrzymany",
+  "causes": [
+   "Coś blokuje wałek."
+  ],
+  "steps": [
+   "Wyjmij wałek i usuń wszystko, co go blokuje.",
+   "Włóż go z powrotem.",
+   "Zrestartuj zasilanie stacji, odłączając ją od prądu na kilka sekund."
+  ],
+  "technician": "Jeśli błąd stacji wraca po tych krokach, skontaktuj się z obsługą klienta iRobot (Customer Care); stacja może wymagać serwisu."
+ },
+ "iRobot|Error 517": {
+  "title": "Przepełnienie misy do mycia",
+  "causes": [
+   "W misie jest za dużo brudnej wody."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Osusz przepełnioną misę suchą szmatką.",
+   "Wyczyść obie misy.",
+   "Spróbuj ponownie."
+  ],
+  "technician": "Jeśli błąd stacji wraca po tych krokach, skontaktuj się z obsługą klienta iRobot (Customer Care); stacja może wymagać serwisu."
+ },
+ "iRobot|Error 518": {
+  "title": "Brak wałka do mycia padów",
+  "causes": [
+   "Wałka nie ma w stacji."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Włóż wałek do stacji.",
+   "Jeśli jest na miejscu, wyjmij go i zamontuj ponownie.",
+   "Zrestartuj zasilanie stacji i spróbuj ponownie umyć pady."
+  ],
+  "technician": "Jeśli błąd stacji wraca po tych krokach, skontaktuj się z obsługą klienta iRobot (Customer Care); stacja może wymagać serwisu."
+ },
+ "iRobot|Error 650": {
+  "title": "Brak zbiornika na czystą wodę",
+  "causes": [
+   "Zbiornik na czystą wodę nie jest osadzony lub jest zablokowany."
+  ],
+  "steps": [
+   "Ustaw robota na stacji i sprawdź pierścień świetlny.",
+   "Usuń wszystko, co blokuje zbiornik.",
+   "Napełnij zbiornik, zainstaluj go ponownie, a potem zrestartuj zasilanie stacji."
+  ],
+  "technician": "Jeśli błąd stacji wraca po tych krokach, skontaktuj się z obsługą klienta iRobot (Customer Care); stacja może wymagać serwisu."
+ },
+ "iRobot|Error 651": {
+  "title": "Zbyt niski poziom wody w zbiorniku na czystą wodę",
+  "causes": [
+   "Zbiornik na czystą wodę jest pusty lub jego poziom nie jest prawidłowo odczytywany."
+  ],
+  "steps": [
+   "Napełnij zbiornik na czystą wodę i włóż go ponownie.",
+   "Jeśli był pełny, mimo to opróżnij go i napełnij jeszcze raz.",
+   "Sprawdź, czy robot jest prawidłowo ustawiony na stacji."
+  ],
+  "technician": "Jeśli błąd stacji wraca po tych krokach, skontaktuj się z obsługą klienta iRobot (Customer Care); stacja może wymagać serwisu."
+ },
+ "iRobot|Error 653": {
+  "title": "Brak zbiornika na brudną wodę",
+  "causes": [
+   "Zbiornik na brudną wodę nie jest na miejscu lub jest zablokowany."
+  ],
+  "steps": [
+   "Sprawdź, czy robot stoi na stacji.",
+   "Wyjmij zbiornik na brudną wodę i sprawdź, czy nic go nie blokuje.",
+   "Włóż pusty zbiornik z powrotem i zrestartuj zasilanie stacji."
+  ],
+  "technician": "Jeśli błąd stacji wraca po tych krokach, skontaktuj się z obsługą klienta iRobot (Customer Care); stacja może wymagać serwisu."
+ },
+ "iRobot|Error 654": {
+  "title": "Zbiornik na brudną wodę jest zbyt pełny",
+  "causes": [
+   "Zbiornik na brudną wodę trzeba opróżnić."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Opróżnij i wyczyść zbiornik na brudną wodę.",
+   "Włóż go ponownie.",
+   "Sprawdź, czy robot stoi na stacji, i spróbuj ponownie."
+  ],
+  "technician": "Jeśli błąd stacji wraca po tych krokach, skontaktuj się z obsługą klienta iRobot (Customer Care); stacja może wymagać serwisu."
+ },
+ "iRobot|Error 663": {
+  "title": "Spada poziom czystej wody, możliwy wyciek",
+  "causes": [
+   "Woda może wyciekać ze stacji."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Odłącz stację od prądu.",
+   "Wyjmij oba zbiorniki.",
+   "Przechyl stację, aby sprawdzić, czy pod spodem nie ma wody, i przenieś ją w suche miejsce."
+  ],
+  "technician": "Jeśli błąd stacji wraca po tych krokach, skontaktuj się z obsługą klienta iRobot (Customer Care); stacja może wymagać serwisu."
+ },
+ "iRobot|Error 668": {
+  "title": "Nie zamocowano padu czyszczącego",
+  "causes": [
+   "Brakuje padu lub nie został wykryty."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Zamocuj pad.",
+   "Jeśli pad jest zamocowany, zdejmij go, osusz i załóż ponownie.",
+   "Spróbuj użyć innego padu."
+  ],
+  "technician": "Jeśli błąd stacji wraca po tych krokach, skontaktuj się z obsługą klienta iRobot (Customer Care); stacja może wymagać serwisu."
+ },
+ "Roborock|Error 1": {
+  "title": "Zablokowana wieżyczka LiDAR lub laser",
+  "causes": [
+   "Coś blokuje wieżyczkę lasera na górze."
+  ],
+  "steps": [
+   "Wyłącz robota.",
+   "Sprawdź, czy wokół wieżyczki nic nie utkwiło, i delikatnie obróć ją ręką.",
+   "Uruchom ponownie i spróbuj jeszcze raz."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Roborock|Error 2": {
+  "title": "Zderzak zablokowany",
+  "causes": [
+   "Brud lub zanieczyszczenia blokują zderzak."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Wyczyść okolice zderzaka.",
+   "Delikatnie w niego stuknij, aby go uwolnić.",
+   "Uruchom robota ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Roborock|Error 3": {
+  "title": "Koła w powietrzu",
+  "causes": [
+   "Robot jest uniesiony lub jego koła zwisają."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Postaw robota na podłodze.",
+   "Sprawdź, czy żadne koło nie zwisa nad krawędzią.",
+   "Uruchom sprzątanie ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Roborock|Error 4": {
+  "title": "Błąd czujnika krawędzi",
+  "causes": [
+   "Czujnik krawędzi jest brudny lub robot znajduje się w pobliżu uskoku."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Przetrzyj czujniki krawędzi na spodzie.",
+   "Odsuń robota od krawędzi.",
+   "Uruchom go ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Roborock|Error 5": {
+  "title": "Główna szczotka zablokowana",
+  "causes": [
+   "Włosy lub zanieczyszczenia owinęły się wokół głównej szczotki."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Wyjmij główną szczotkę.",
+   "Wytnij splątane włosy i wyczyść łożyska.",
+   "Załóż szczotkę z powrotem i uruchom ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Roborock|Error 6": {
+  "title": "Boczna szczotka zablokowana",
+  "causes": [
+   "Włosy lub zanieczyszczenia owinęły się wokół bocznej szczotki."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Wyjmij boczną szczotkę.",
+   "Usuń włosy i brud.",
+   "Załóż ją z powrotem i uruchom ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Roborock|Error 7": {
+  "title": "Koła zablokowane",
+  "causes": [
+   "Coś blokuje koło napędowe."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Przenieś robota w wolne miejsce.",
+   "Sprawdź, czy na kołach nie ma włosów lub zanieczyszczeń.",
+   "Uruchom robota ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Roborock|Error 8": {
+  "title": "Robot utknął",
+  "causes": [
+   "Robot został uwięziony przez meble lub kable."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Usuń przeszkody w pobliżu robota.",
+   "Przenieś go na otwartą przestrzeń.",
+   "Uruchom sprzątanie ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Roborock|Error 9": {
+  "title": "Brak pojemnika na kurz",
+  "causes": [
+   "Pojemnik na kurz lub filtr nie jest zainstalowany."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Zainstaluj pojemnik na kurz.",
+   "Upewnij się, że filtr jest założony.",
+   "Uruchom ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Roborock|Error 12": {
+  "title": "Niski poziom baterii",
+  "causes": [
+   "Poziom baterii jest zbyt niski, aby kontynuować."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Postaw robota na stacji.",
+   "Poczekaj, aż się naładuje.",
+   "Spróbuj ponownie uruchomić sprzątanie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Roborock|Error 13": {
+  "title": "Błąd ładowania",
+  "causes": [
+   "Brudne styki ładowania na robocie lub na stacji."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Przetrzyj styki ładowania.",
+   "Sprawdź, czy stacja ma zasilanie.",
+   "Ustaw robota na stacji jeszcze raz."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Roborock|Error 14": {
+  "title": "Błąd baterii",
+  "causes": [
+   "Bateria może być uszkodzona lub jej temperatura jest poza bezpiecznym zakresem."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Poczekaj, aż robot osiągnie temperaturę pokojową.",
+   "Spróbuj naładować ponownie.",
+   "Uruchom go ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Roborock|Error 15": {
+  "title": "Brudny czujnik ściany",
+  "causes": [
+   "Kurz pokrywa czujnik ściany."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Przetrzyj czujnik ściany suchą szmatką.",
+   "Uruchom robota ponownie.",
+   "Uruchom krótkie sprzątanie testowe."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Roborock|Error 16": {
+  "title": "Robot przechylony",
+  "causes": [
+   "Robot stoi na pochyłości lub jest przechylony."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Przenieś go na równą podłogę.",
+   "Sprawdź, czy nie stoi na krawędzi dywanu lub na stopniu.",
+   "Uruchom ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Roborock|Error 17": {
+  "title": "Błąd bocznej szczotki",
+  "causes": [
+   "Układ bocznej szczotki ma usterkę."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Zresetuj robota.",
+   "Sprawdź, czy boczna szczotka obraca się swobodnie.",
+   "Spróbuj ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Roborock|Error 18": {
+  "title": "Błąd wentylatora",
+  "causes": [
+   "Wentylator ssący ma usterkę."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Zresetuj robota.",
+   "Opróżnij pojemnik i wyczyść filtr.",
+   "Spróbuj ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Roborock|Error 21": {
+  "title": "Wciśnięty górny zderzak",
+  "causes": [
+   "Górny zderzak jest wciśnięty lub zablokowany."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Przenieś robota w inne miejsce.",
+   "Sprawdź, czy nic nie naciska na zderzak.",
+   "Spróbuj ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Roborock|Error 22": {
+  "title": "Błąd lokalizatora stacji",
+  "causes": [
+   "Czujnik, który wyszukuje stację, jest brudny lub zablokowany."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Wyczyść lokalizator stacji.",
+   "Uprzątnij otoczenie stacji.",
+   "Spróbuj ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Roborock|Error 23": {
+  "title": "Nie udało się wrócić do stacji",
+  "causes": [
+   "Dioda wskaźnika stacji jest brudna lub zasłonięta."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Wyczyść diodę wskaźnika położenia stacji.",
+   "Usuń przeszkody w pobliżu stacji.",
+   "Spróbuj ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Roborock|Error 27": {
+  "title": "Zablokowany system VibraRise",
+  "causes": [
+   "System unoszenia mopa jest zablokowany."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Sprawdź, czy nic nie blokuje okolic płyty mopa.",
+   "Usuń zanieczyszczenia.",
+   "Uruchom ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Roborock|Error 28": {
+  "title": "Robot na dywanie",
+  "causes": [
+   "Mop jest założony, a robot znajduje się na dywanie."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Przenieś robota na twardą podłogę.",
+   "Jeśli chcesz sprzątać dywan, zdejmij mop.",
+   "Spróbuj ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą klienta Roborock."
+ },
+ "Xiaomi|Error 1": {
+  "title": "Zderzak zablokowany lub brudny",
+  "causes": [
+   "Zanieczyszczenia blokują zderzak."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Wyczyść zderzak.",
+   "Delikatnie w niego stuknij, aby uwolnić zanieczyszczenia.",
+   "Jeśli problem się utrzymuje, przenieś robota gdzie indziej i uruchom go ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą posprzedażną Xiaomi."
+ },
+ "Xiaomi|Error 2": {
+  "title": "Koło nie dotyka podłoża",
+  "causes": [
+   "Jedno z kół zwisa."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Postaw robota na równym podłożu.",
+   "Uruchom go ponownie.",
+   "Sprawdź, czy nie stoi na krawędzi."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą posprzedażną Xiaomi."
+ },
+ "Xiaomi|Error 3": {
+  "title": "Brudny czujnik krawędzi lub robot uniesiony",
+  "causes": [
+   "Czujnik krawędzi jest brudny lub robot jest częściowo uniesiony."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Wyczyść czujnik krawędzi.",
+   "Postaw go na równym podłożu.",
+   "Uruchom go ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą posprzedażną Xiaomi."
+ },
+ "Xiaomi|Error 4": {
+  "title": "Główna szczotka zaplątana",
+  "causes": [
+   "W głównej szczotce utkwiły zanieczyszczenia."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Wyjmij główną szczotkę.",
+   "Wyczyść włosie i łożyska.",
+   "Załóż z powrotem i uruchom ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą posprzedażną Xiaomi."
+ },
+ "Xiaomi|Error 5": {
+  "title": "Boczna szczotka zaplątana",
+  "causes": [
+   "W bocznej szczotce utkwiły zanieczyszczenia."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Wyjmij boczną szczotkę.",
+   "Wyczyść ją.",
+   "Załóż z powrotem i uruchom ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą posprzedażną Xiaomi."
+ },
+ "Xiaomi|Error 6": {
+  "title": "Zanieczyszczenia wokół głównego koła",
+  "causes": [
+   "Włosy lub zanieczyszczenia owinęły się wokół głównego koła."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Sprawdź oba koła.",
+   "Usuń zaplątane materiały.",
+   "Przenieś robota w inne miejsce i uruchom go ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą posprzedażną Xiaomi."
+ },
+ "Xiaomi|Error 7": {
+  "title": "Robot zaczepił się lub utknął",
+  "causes": [
+   "Robot utknął na przeszkodzie."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Usuń przeszkody wokół niego.",
+   "Przenieś go na wolną podłogę.",
+   "Uruchom ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą posprzedażną Xiaomi."
+ },
+ "Xiaomi|Error 8": {
+  "title": "Pojemnik na kurz lub filtr nie jest prawidłowo zamontowany",
+  "causes": [
+   "Pojemnik na kurz lub filtr jest źle zainstalowany."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Zainstaluj pojemnik na kurz i filtr ponownie, prawidłowo.",
+   "Jeśli problem się utrzymuje, wymień filtr.",
+   "Uruchom ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą posprzedażną Xiaomi."
+ },
+ "Xiaomi|Error 9": {
+  "title": "Wykryto silne pole magnetyczne",
+  "causes": [
+   "Robot znajduje się w pobliżu taśmy wirtualnej ściany."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Odsuń robota od wirtualnej ściany.",
+   "Uruchom go ponownie.",
+   "Sprawdź położenie taśmy."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą posprzedażną Xiaomi."
+ },
+ "Xiaomi|Error 10": {
+  "title": "Usterka ładowania",
+  "causes": [
+   "Brudne styki ładowania."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Przetrzyj styki na stacji i na robocie suchą szmatką.",
+   "Postaw robota na stacji jeszcze raz.",
+   "Sprawdź, czy stacja ma zasilanie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą posprzedażną Xiaomi."
+ },
+ "Xiaomi|Error 11": {
+  "title": "Bateria jest za gorąca lub za zimna",
+  "causes": [
+   "Temperatura baterii jest poza dopuszczalnym zakresem."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Poczekaj, aż temperatura baterii wróci do normy.",
+   "Trzymaj robota z dala od źródeł ciepła i zimna.",
+   "Spróbuj ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą posprzedażną Xiaomi."
+ },
+ "Xiaomi|Error 12": {
+  "title": "Wykryto strefę zakazaną lub wirtualną ścianę",
+  "causes": [
+   "Robot wjechał do strefy zakazanej."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Odsuń go od obszaru z taśmą ograniczającą.",
+   "Uruchom go ponownie.",
+   "Sprawdź położenie taśmy."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą posprzedażną Xiaomi."
+ },
+ "Xiaomi|Error 13": {
+  "title": "Brudny wizualny czujnik nawigacji",
+  "causes": [
+   "Czujnik nawigacji jest brudny."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Przetrzyj czujnik miękką, suchą szmatką.",
+   "Uruchom robota ponownie.",
+   "Uruchom krótkie sprzątanie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą posprzedażną Xiaomi."
+ },
+ "Xiaomi|Error 14": {
+  "title": "Błąd wewnętrzny",
+  "causes": [
+   "W systemie wystąpiła usterka wewnętrzna."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Zresetuj system.",
+   "Uruchom robota ponownie.",
+   "Spróbuj ponownie uruchomić sprzątanie."
+  ],
+  "technician": "Jeśli błąd wraca po czyszczeniu i zresetowaniu, skontaktuj się z obsługą posprzedażną Xiaomi."
+ },
+ "eufy|Error 1": {
+  "title": "Przedni zderzak zablokowany",
+  "causes": [
+   "Brud lub jakiś przedmiot blokuje zderzak."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Stuknij w zderzak, aby sprawdzić, czy się porusza.",
+   "Jeśli jest zablokowany, zdejmij go i zamontuj ponownie.",
+   "Uruchom ponownie."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 2": {
+  "title": "Koło zablokowane",
+  "causes": [
+   "Koło jest zablokowane."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Usuń zanieczyszczenia między kołem a obudową.",
+   "Obróć koło ręką.",
+   "Przenieś robota i spróbuj ponownie."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 3": {
+  "title": "Boczna szczotka zablokowana",
+  "causes": [
+   "Coś zaplątało się w bocznej szczotce."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Usuń ten przedmiot.",
+   "Sprawdź, czy szczotka obraca się swobodnie.",
+   "Spróbuj ponownie."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 4": {
+  "title": "Szczotka rolkowa zablokowana",
+  "causes": [
+   "Włosy lub zanieczyszczenia owinęły się wokół szczotki rolkowej."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Wyjmij szczotkę rolkową.",
+   "Usuń zanieczyszczenia.",
+   "Na podłogach z dużą ilością włosów zwiększ moc ssania."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 5": {
+  "title": "Robot uwięziony, usuń przeszkody",
+  "causes": [
+   "Przeszkody blokują robota."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Uprzątnij otoczenie robota.",
+   "Przenieś go w wolne miejsce.",
+   "Uruchom ponownie."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 6": {
+  "title": "Robot uwięziony, przenieś go na otwartą przestrzeń",
+  "causes": [
+   "Robot zahaczył o przeszkodę."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Przenieś go na otwartą przestrzeń.",
+   "Uruchom sprzątanie ponownie.",
+   "Jeśli robot zawsze tam utyka, ustaw strefę zakazaną (No-Go Zone)."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 7": {
+  "title": "Robot nie dotyka podłoża",
+  "causes": [
+   "Robot jest uniesiony lub stoi na krawędzi."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Postaw go na podłodze w innym miejscu.",
+   "Sprawdź, czy czujniki krawędzi są czyste.",
+   "Uruchom ponownie."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 8": {
+  "title": "Niski poziom baterii, wyłączanie",
+  "causes": [
+   "Poziom baterii jest zbyt niski."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Przenieś robota do stacji.",
+   "Poczekaj, aż się naładuje.",
+   "Spróbuj ponownie.",
+   "Uruchom krótkie sprzątanie testowe w pobliżu stacji, aby upewnić się, że kod zniknął."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 13": {
+  "title": "Robot przechylony",
+  "causes": [
+   "Robot stoi na pochyłości."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Postaw go na równym podłożu.",
+   "Uruchom sprzątanie ponownie.",
+   "Sprawdź, czy nie stoi na progu."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 14": {
+  "title": "Brak pojemnika na kurz lub filtra",
+  "causes": [
+   "Pojemnik na kurz lub filtr nie jest zainstalowany."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Otwórz pokrywę.",
+   "Zainstaluj pojemnik na kurz i filtr ponownie.",
+   "Upewnij się, że filtr jest dobrze osadzony."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 17": {
+  "title": "Wjazd do strefy zakazanej przez pomyłkę",
+  "causes": [
+   "Robot znajduje się w strefie zakazanej (No-Go Zone)."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Przenieś go poza strefę.",
+   "Uruchom sprzątanie ponownie.",
+   "Sprawdź strefy w aplikacji."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 18": {
+  "title": "Osłona czujnika laserowego może być zablokowana",
+  "causes": [
+   "Osłona lasera jest zablokowana."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Usuń wszystko, co blokuje osłonę.",
+   "Dociśnij osłonę, aż usłyszysz kliknięcie.",
+   "Uruchom ponownie."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 19": {
+  "title": "Czujnik laserowy może być zablokowany",
+  "causes": [
+   "Czujnik nie może się swobodnie obracać."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Wyłącz robota.",
+   "Usuń wszystko, co blokuje obrót.",
+   "Uruchom ponownie."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 20": {
+  "title": "Czujnik laserowy może być zasłonięty",
+  "causes": [
+   "Na czujniku leżą zanieczyszczenia."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Usuń zanieczyszczenia z górnej części czujnika.",
+   "Delikatnie przetrzyj suchą szmatką.",
+   "Uruchom ponownie."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 21": {
+  "title": "Nie udało się wrócić do stacji",
+  "causes": [
+   "Robot widzi stację, ale nie może na nią wjechać."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Usuń przeszkody wokół stacji.",
+   "Sprawdź, czy stacja ma zasilanie.",
+   "Wyślij robota do stacji jeszcze raz."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 23": {
+  "title": "Nie można znaleźć punktu startu",
+  "causes": [
+   "Sprzątanie nie rozpoczęło się od stacji."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Rozpocznij sprzątanie od stacji.",
+   "Nie przestawiaj stacji z miejsca.",
+   "Spróbuj ponownie."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 26": {
+  "title": "Niski poziom baterii, zaplanowane sprzątanie nie powiodło się",
+  "causes": [
+   "Poziom baterii był zbyt niski na zaplanowane sprzątanie."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Naładuj robota.",
+   "Spróbuj ponownie uruchomić harmonogram.",
+   "Zostaw go na stacji."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 27": {
+  "title": "Nieprawidłowy poziom wody w tacy czyszczącej stacji",
+  "causes": [
+   "W tacy czyszczącej jest woda."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Osusz tacę suchą szmatką.",
+   "Sprawdź, czy na metalowym czujniku nie ma kropel wody.",
+   "Zainstaluj tacę ponownie."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 28": {
+  "title": "Taca czyszcząca stacji nie jest zainstalowana",
+  "causes": [
+   "Brakuje tacy lub jest luźna."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Zainstaluj tacę prawidłowo.",
+   "Dociśnij, aż ułoży się płasko.",
+   "Spróbuj ponownie."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 29": {
+  "title": "Pokrywa stacji nie jest zamknięta",
+  "causes": [
+   "Pokrywa jest otwarta."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Zamknij pokrywę stacji do końca.",
+   "Sprawdź, czy nic jej nie blokuje.",
+   "Spróbuj ponownie.",
+   "Uruchom krótkie sprzątanie testowe w pobliżu stacji, aby upewnić się, że kod zniknął."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 30": {
+  "title": "Nieprawidłowe napięcie zasilania stacji",
+  "causes": [
+   "Napięcie stacji nie pasuje do Twojego gniazdka."
+  ],
+  "steps": [
+   "Sprawdź, czy stacja ma właściwe napięcie (220V lub 110V).",
+   "Użyj odpowiedniego gniazdka.",
+   "Jeśli napięcia się nie zgadzają, skontaktuj się z pomocą techniczną."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 31": {
+  "title": "Ciało obce w otworze ssącym",
+  "causes": [
+   "Zanieczyszczenia blokują wlot."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Wyjmij szczotkę.",
+   "Oczyść komorę szczotki.",
+   "Opróżnij pojemnik na kurz."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 32": {
+  "title": "Uchwyt padu mopa zablokowany",
+  "causes": [
+   "W uchwycie mopa są zanieczyszczenia."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Usuń zanieczyszczenia.",
+   "Wyczyść uchwyt.",
+   "Spróbuj ponownie.",
+   "Uruchom krótkie sprzątanie testowe w pobliżu stacji, aby upewnić się, że kod zniknął."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "eufy|Error 34": {
+  "title": "Mop odpadł",
+  "causes": [
+   "Brakuje padu mopa lub jest luźny."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Zamontuj mop ponownie, prawidłowo.",
+   "Sprawdź, czy zatrzasnął się na miejscu.",
+   "Uruchom ponownie."
+  ],
+  "technician": "Jeśli alert nie znika po tych krokach, skontaktuj się z pomocą techniczną eufy przez formularz e-mail lub czat na żywo."
+ },
+ "Shark|Error 2": {
+  "title": "Zablokowana szczotka rolkowa, boczna szczotka lub koło",
+  "causes": [
+   "Szczotka rolkowa jest zablokowana (CLEAN i ! świecą na czerwono).",
+   "Boczna szczotka jest zablokowana (DOCK i ! świecą na czerwono).",
+   "Koło napędowe jest zablokowane (wszystkie trzy diody świecą na czerwono)."
+  ],
+  "steps": [
+   "Wyłącz robota.",
+   "Usuń zanieczyszczenia ze szczotki rolkowej, bocznych szczotek lub kół, zgodnie ze wskazaniem diod.",
+   "Sprawdź, czy koła obracają się swobodnie, a potem uruchom ponownie."
+  ],
+  "technician": "Jeśli ten sam układ diod wciąż wraca, skontaktuj się z obsługą klienta Shark."
+ },
+ "Shark|Error 6": {
+  "title": "Przedni zderzak może być zablokowany",
+  "causes": [
+   "Brud blokuje zderzak (DOCK miga na czerwono)."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Wyczyść okolice zderzaka.",
+   "Naciśnij go, aby sprawdzić, czy porusza się swobodnie.",
+   "Uruchom ponownie."
+  ],
+  "technician": "Jeśli ten sam układ diod wciąż wraca, skontaktuj się z obsługą klienta Shark."
+ },
+ "Shark|Error 7": {
+  "title": "Błąd czujnika krawędzi",
+  "causes": [
+   "Czujniki krawędzi są brudne lub robot znajduje się w pobliżu uskoku."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Przenieś robota w inne miejsce.",
+   "Przetrzyj czujniki krawędzi.",
+   "Uruchom ponownie."
+  ],
+  "technician": "Jeśli ten sam układ diod wciąż wraca, skontaktuj się z obsługą klienta Shark."
+ },
+ "Shark|Error 10": {
+  "title": "Robot utknął na przeszkodzie",
+  "causes": [
+   "Robot może być uwięziony (CLEAN miga na czerwono)."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Przenieś go w równe miejsce.",
+   "Usuń przeszkody w pobliżu.",
+   "Uruchom ponownie."
+  ],
+  "technician": "Jeśli ten sam układ diod wciąż wraca, skontaktuj się z obsługą klienta Shark."
+ },
+ "Shark|Error 24": {
+  "title": "Krytycznie niski poziom baterii",
+  "causes": [
+   "Bateria jest prawie rozładowana."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Postaw robota na stacji.",
+   "Sprawdź, czy świeci się dioda ładowania stacji.",
+   "Poczekaj, aż się naładuje."
+  ],
+  "technician": "Jeśli ten sam układ diod wciąż wraca, skontaktuj się z obsługą klienta Shark."
+ },
+ "Shark|Error 26": {
+  "title": "Zablokowany pojemnik na kurz",
+  "causes": [
+   "Zator w pojemniku na kurz stacji lub robota."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Sprawdź oba pojemniki pod kątem zatorów.",
+   "Usuń zanieczyszczenia.",
+   "Zainstaluj pojemnik ponownie, aż zatrzaśnie się z kliknięciem."
+  ],
+  "technician": "Jeśli ten sam układ diod wciąż wraca, skontaktuj się z obsługą klienta Shark."
+ },
+ "Ecovacs|Bumper stuck": {
+  "title": "Komunikat głosowy o zablokowanym zderzaku",
+  "causes": [
+   "Zanieczyszczenia lub listwa ochronna blokują zderzak."
+  ],
+  "steps": [
+   "Zdejmij listwę ochronną przed kolizjami.",
+   "Naciśnij zderzak z lewej strony, na środku i z prawej strony, aby sprawdzić, czy wraca na miejsce.",
+   "Wyłącz robota, uruchom go ponownie i sprawdź."
+  ],
+  "technician": "Jeśli alert wraca, skontaktuj się z obsługą posprzedażną Ecovacs."
+ },
+ "Ecovacs|Laser sensor malfunction": {
+  "title": "Czujnik laserowy nie działa",
+  "causes": [
+   "Moduł lasera jest brudny lub zablokowany."
+  ],
+  "steps": [
+   "Delikatnie naciśnij moduł lasera.",
+   "Obróć soczewkę do przodu i przetrzyj ją czystą szmatką.",
+   "Wyłącz robota, uruchom go ponownie i sprawdź."
+  ],
+  "technician": "Jeśli alert wraca, skontaktuj się z obsługą posprzedażną Ecovacs."
+ },
+ "Ecovacs|Dust bag installation error": {
+  "title": "Worek na kurz nie jest prawidłowo założony",
+  "causes": [
+   "Worek na kurz nie jest dobrze osadzony."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Wyłącz robota i otwórz pokrywę pojemnika na kurz.",
+   "Wyjmij worek na kurz i załóż go ponownie.",
+   "Zamknij pokrywę i sprawdź zbieranie kurzu."
+  ],
+  "technician": "Jeśli alert wraca, skontaktuj się z obsługą posprzedażną Ecovacs."
+ },
+ "Ecovacs|Rotating mop tangled": {
+  "title": "Obrotowy mop jest zablokowany",
+  "causes": [
+   "Zanieczyszczenia lub włosy blokują obrotowy mop."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Wysuń mop i zdejmij go.",
+   "Wyczyść mop i oczyść komorę.",
+   "Załóż go z powrotem, aż zatrzaśnie się z kliknięciem, i uruchom ponownie."
+  ],
+  "technician": "Jeśli alert wraca, skontaktuj się z obsługą posprzedażną Ecovacs."
+ },
+ "Ecovacs|Water tank not installed or low water": {
+  "title": "Brak zbiornika na czystą wodę lub mało wody",
+  "causes": [
+   "Zbiornik jest pusty, brakuje go lub pływak się zaciął."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Wyjmij zbiornik i sprawdź, czy pływak się porusza.",
+   "Napełnij do linii maksimum.",
+   "Zamknij pokrywę i zainstaluj zbiornik ponownie."
+  ],
+  "technician": "Jeśli alert wraca, skontaktuj się z obsługą posprzedażną Ecovacs."
+ },
+ "Ecovacs|Dirty water tank not installed": {
+  "title": "Brak zbiornika na brudną wodę lub jest źle osadzony",
+  "causes": [
+   "Zbiornik nie jest osadzony lub nie został wykryty."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Opróżnij i przepłucz zbiornik na brudną wodę.",
+   "Sprawdź pływak i zatrzaski.",
+   "Zainstaluj go ponownie."
+  ],
+  "technician": "Jeśli alert wraca, skontaktuj się z obsługą posprzedażną Ecovacs."
+ },
+ "Ecovacs|Cleaning sink anomaly": {
+  "title": "Taca do mycia mopów nie odpływa",
+  "causes": [
+   "Zanieczyszczenia blokują pływak lub odpływ."
+  ],
+  "steps": [
+   "Sprawdź, czy taca jest dobrze osadzona.",
+   "Wyczyść pływak przelewu.",
+   "Uruchom funkcję odprowadzania wody w aplikacji, a potem zrestartuj zasilanie stacji."
+  ],
+  "technician": "Jeśli alert wraca, skontaktuj się z obsługą posprzedażną Ecovacs."
+ },
+ "Ecovacs|Dirty water tank anomaly": {
+  "title": "Problem ze zbiornikiem na brudną wodę lub odpływem",
+  "causes": [
+   "Uszczelka lub otwór odpływu jest zablokowany."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Opróżnij zbiornik i wyczyść filtr.",
+   "Szczelnie zamknij pokrywę.",
+   "Oczyść otwór odpływu szczotką."
+  ],
+  "technician": "Jeśli alert wraca, skontaktuj się z obsługą posprzedażną Ecovacs."
+ },
+ "Dreame|Dust box error": {
+  "title": "Alarm pojemnika na kurz",
+  "causes": [
+   "Pojemnik na kurz jest luźny.",
+   "Filtr jest założony odwrotnie lub jest uszkodzony."
+  ],
+  "steps": [
+   "Mocno osadź pojemnik na kurz.",
+   "Uruchom robota ponownie.",
+   "Sprawdź, czy filtr jest założony właściwą stroną, a jeśli wygląda nietypowo, wymień go."
+  ],
+  "technician": "Jeśli błąd nie znika, skontaktuj się z obsługą klienta Dreame."
+ },
+ "Dreame|Laser sensor error": {
+  "title": "Usterka laserowego czujnika odległości",
+  "causes": [
+   "Czujnik laserowy jest zakurzony lub zacina się."
+  ],
+  "steps": [
+   "Zanim zaczniesz sprawdzać robota, wyłącz go i trzymaj z dala od wody.",
+   "Zaktualizuj oprogramowanie sprzętowe w aplikacji.",
+   "Delikatnie stuknij w osłonę i usuń kurz.",
+   "Obróć czujnik ręką, aby sprawdzić, czy się obraca."
+  ],
+  "technician": "Jeśli błąd nie znika, skontaktuj się z obsługą klienta Dreame."
+ }
+}

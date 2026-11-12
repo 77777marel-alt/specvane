@@ -1,0 +1,1365 @@
+{
+ "Canon|B200": {
+  "title": "Skrivarfel som kräver reparation",
+  "causes": [
+   "Skrivaren har hittat ett allvarligt fel som den inte kan åtgärda själv.",
+   "Canon anger detta som ett fel som kräver reparation."
+  ],
+  "steps": [
+   "Stäng av skrivaren.",
+   "Dra ut nätkabeln ur vägguttaget.",
+   "Fortsätt inte att starta om den. Kontakta Canons support för en reparation."
+  ],
+  "technician": "Ring Canons service för en reparation, eftersom koden betyder att skrivaren behöver en tekniker."
+ },
+ "Canon|B203": {
+  "title": "Skrivarfel som kräver reparation",
+  "causes": [
+   "Skrivaren rapporterar ett fel som kräver reparation.",
+   "Koden visas tillsammans med P10 på vissa modeller."
+  ],
+  "steps": [
+   "Stäng av skrivaren.",
+   "Dra ur nätkabeln.",
+   "Kontakta Canons support och uppge koden."
+  ],
+  "technician": "Ring Canons service, eftersom skrivaren behöver repareras."
+ },
+ "Canon|5100": {
+  "title": "Skrivarfel, problem med vagnen eller skrivhuvudet",
+  "causes": [
+   "Skrivaren har fått ett internt fel. Canon anger ingen enskild orsak.",
+   "Något kan blockera skrivhuvudets vagn, till exempel papper eller förpackningsmaterial."
+  ],
+  "steps": [
+   "Avbryt utskriften och stäng av skrivaren.",
+   "Öppna luckan och kontrollera att inget blockerar vagnen. Ta försiktigt bort papper, tejp eller annat skräp.",
+   "Kontrollera att skrivhuvudet eller patronerna är intryckta tills de klickar på plats.",
+   "Slå på skrivaren igen."
+  ],
+  "technician": "Om felet kvarstår, kontakta ett Canon-servicecenter för reparation."
+ },
+ "Canon|5200": {
+  "title": "Allmänt skrivarfel",
+  "causes": [
+   "Skrivaren rapporterar ett internt fel utan någon särskild orsak."
+  ],
+  "steps": [
+   "Stäng av skrivaren och dra ur kontakten.",
+   "Vänta en liten stund, sätt sedan i kontakten igen och slå på den.",
+   "Om det kommer tillbaka, skriv ned koden innan du ringer supporten."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter för reparation om felet kvarstår."
+ },
+ "Canon|5011": {
+  "title": "Allmänt skrivarfel",
+  "causes": [
+   "Skrivaren har ett internt fel. Canon ger inga fler detaljer."
+  ],
+  "steps": [
+   "Stäng av skrivaren och dra ur kontakten.",
+   "Sätt i kontakten igen och slå på den.",
+   "Kontrollera att inget papper sitter fast inuti."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter om felet fortsätter."
+ },
+ "Canon|6800": {
+  "title": "Allmänt skrivarfel",
+  "causes": [
+   "Skrivaren rapporterar ett internt fel. Ingen enskild orsak anges."
+  ],
+  "steps": [
+   "Stäng av skrivaren och dra ur kontakten.",
+   "Sätt i kontakten igen och slå på den.",
+   "Kontrollera att inget papper eller föremål sitter fast inuti."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter om felet fortsätter."
+ },
+ "Canon|6000": {
+  "title": "Allmänt skrivarfel",
+  "causes": [
+   "Ett allmänt skrivarfel har uppstått. Canon anger ingen särskild orsak.",
+   "Ett papperstrassel kan också ge den här koden."
+  ],
+  "steps": [
+   "Ta bort allt papper som har fastnat och som du kan se.",
+   "Stäng av skrivaren och dra ur kontakten.",
+   "Sätt i kontakten igen och slå på den."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter för reparation om felet kvarstår."
+ },
+ "Canon|5B00": {
+  "title": "Skrivarfel som kräver service",
+  "causes": [
+   "Canon anger detta som ett allmänt skrivarfel som visas som P07 på vissa modeller.",
+   "Canon anger ingen åtgärd som man kan göra hemma på sin sida."
+  ],
+  "steps": [
+   "Stäng av skrivaren och slå på den igen en gång.",
+   "Notera koden som visas.",
+   "Fortsätt inte skriva ut om den kommer tillbaka."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter för att ordna en reparation."
+ },
+ "Canon|5B01": {
+  "title": "Skrivarfel som kräver service",
+  "causes": [
+   "Skrivaren rapporterar ett fel utan någon särskild orsak.",
+   "Canon säger att reparation krävs via service."
+  ],
+  "steps": [
+   "Stäng av skrivaren och slå på den igen en gång.",
+   "Skriv ned koden.",
+   "Sluta skriva ut om koden kommer tillbaka."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter för att begära en reparation."
+ },
+ "Canon|1700": {
+  "title": "Spillbläckabsorbatorn är nästan full",
+  "causes": [
+   "Den inre dynan som samlar upp spillbläck är nästan full."
+  ],
+  "steps": [
+   "Tryck på OK-knappen på skrivaren för att fortsätta skriva ut.",
+   "Planera en reparation, eftersom absorbatorn måste hanteras av service.",
+   "Öppna inte skrivaren för att byta den själv."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter för att få bläckabsorbatorn servad."
+ },
+ "Canon|1701": {
+  "title": "Spillbläckabsorbatorn är nästan full",
+  "causes": [
+   "Skrivarens dyna för spillbläck är nästan full."
+  ],
+  "steps": [
+   "Tryck på OK på skrivaren för att fortsätta skriva ut.",
+   "Ordna en reparation snart.",
+   "Öppna inte skrivaren själv.",
+   "Håll patronerna i kanterna och rör inte kontakterna eller munstyckena."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter för att begära en reparation."
+ },
+ "Canon|1300": {
+  "title": "Papper har fastnat vid matning från bakre facket",
+  "causes": [
+   "Papper har fastnat vid matning från bakre facket."
+  ],
+  "steps": [
+   "Dra ut papperet långsamt med båda händerna, genom utmatningsöppningen eller det bakre facket.",
+   "Om det inte går att få ut, stäng av skrivaren och slå på den igen så att den kanske matar ut arket.",
+   "Fyll på lämpligt papper igen och tryck på OK.",
+   "Skriv ut sidan som misslyckades igen."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter om papperstrassel fortsätter att uppstå eller om papper rivs sönder inuti."
+ },
+ "Canon|1203": {
+  "title": "Luckan öppnades under utskrift",
+  "causes": [
+   "Luckan öppnades medan skrivaren arbetade."
+  ],
+  "steps": [
+   "Ta bort papper från pappersvägen om något har fastnat.",
+   "Stäng luckan.",
+   "Tryck på OK för att rensa felet.",
+   "Skriv ut sidan igen, eftersom det inte upprepas av sig självt."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter om felet kommer tillbaka när luckan är stängd."
+ },
+ "Canon|1000": {
+  "title": "Bakre facket är tomt eller papperet är felaktigt ilagt",
+  "causes": [
+   "Det finns inget papper i bakre facket.",
+   "Papperet är inte korrekt ilagt."
+  ],
+  "steps": [
+   "Lägg i papper i bakre facket.",
+   "Skjut pappersguiderna mot papperets båda kanter.",
+   "Om pappersstorleken blinkar, välj den storlek som ligger i.",
+   "Tryck på OK."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter om skrivaren meddelar att papper saknas trots att det ligger papper i."
+ },
+ "Canon|1890": {
+  "title": "Skyddstejp kvar i patronhållaren",
+  "causes": [
+   "Fraktstejp eller förpackningsmaterial kan fortfarande sitta kvar på patronhållaren."
+  ],
+  "steps": [
+   "Stäng utmatningsfacket och öppna luckan.",
+   "Ta bort all tejp eller allt skyddsmaterial från hållaren.",
+   "Stäng luckan."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter om felet kvarstår efter att allt förpackningsmaterial har tagits bort."
+ },
+ "Canon|1401": {
+  "title": "Patronen hittas inte",
+  "causes": [
+   "Skrivaren hittar ingen FINE-patron."
+  ],
+  "steps": [
+   "Sätt i FINE-patronen.",
+   "Tryck in den tills den låses.",
+   "Stäng luckan.",
+   "Håll patronerna i kanterna och rör inte kontakterna eller munstyckena."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter om felet kvarstår, eftersom patronen kan vara skadad."
+ },
+ "Canon|1403": {
+  "title": "Patronfel",
+  "causes": [
+   "Skrivaren rapporterar ett fel med FINE-patronen."
+  ],
+  "steps": [
+   "Ta ut patronen och sätt tillbaka den.",
+   "Om felet kvarstår, byt ut patronen mot en ny."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter om en ny patron fortfarande ger felet."
+ },
+ "Canon|1682": {
+  "title": "Patronen kan inte kännas igen",
+  "causes": [
+   "Skrivaren kan inte känna igen FINE-patronen."
+  ],
+  "steps": [
+   "Byt ut FINE-patronen.",
+   "Kontrollera att den sitter helt på plats.",
+   "Håll patronerna i kanterna och rör inte kontakterna eller munstyckena."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter om felet kvarstår, eftersom patronen kan vara skadad."
+ },
+ "Canon|1684": {
+  "title": "Bläckpatronen känns inte igen",
+  "causes": [
+   "Patronen är felaktigt installerad eller är inte kompatibel med den här skrivaren."
+  ],
+  "steps": [
+   "Sätt i patronen ordentligt igen.",
+   "Eller byt ut den mot en kompatibel.",
+   "Tryck på Stop för att avbryta utskriften."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter om meddelandet kvarstår med en korrekt patron."
+ },
+ "Canon|1686": {
+  "title": "Bläcket kan ha tagit slut",
+  "causes": [
+   "Bläcket i patronen kan vara slut."
+  ],
+  "steps": [
+   "Byt ut den tomma patronen mot en ny från Canon.",
+   "För att slutföra ett jobb, håll in Stop-knappen i 5 sekunder. Utskriften fortsätter då utan bläckavkänning."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter om felet kvarstår efter att bläcket har bytts."
+ },
+ "Canon|1688": {
+  "title": "Skrivaren har slut på bläck",
+  "causes": [
+   "Skrivaren har slut på bläck."
+  ],
+  "steps": [
+   "Byt ut den tomma bläckpatronen.",
+   "Stäng luckan.",
+   "För att slutföra ett jobb, håll in Stop-knappen i minst 5 sekunder. Kvaliteten kan bli sämre. Byt patronen direkt efteråt."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter om felet kvarstår med en full patron."
+ },
+ "Canon|168A": {
+  "title": "Patron saknas eller är av fel typ",
+  "causes": [
+   "Ingen FINE-patron hittas.",
+   "En är felaktigt installerad eller passar inte den här skrivaren."
+  ],
+  "steps": [
+   "Öppna luckan och ta ut patronerna.",
+   "Kontrollera att de är rätt patroner för din skrivare.",
+   "Tryck in varje patron uppåt tills den låses och stäng sedan luckan."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter om felet kvarstår efter att patronerna har satts i igen."
+ },
+ "Canon|4100": {
+  "title": "Data kan inte skrivas ut",
+  "causes": [
+   "Skrivaren kan inte skriva ut angivna data."
+  ],
+  "steps": [
+   "Läs meddelandet på datorn.",
+   "Kontrollera att äkta Canon-patroner är installerade för alla färger.",
+   "Försök skriva ut igen."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter om felet kvarstår."
+ },
+ "Canon|3446": {
+  "title": "Konflikt mellan IP-adress och subnätmask",
+  "causes": [
+   "Skrivarens inställningar för Wireless Direct och Wi-Fi använder nätverksintervall som krockar."
+  ],
+  "steps": [
+   "Tryck på OK på skrivaren.",
+   "Stäng av Wireless Direct, eller ställ in Wi-Fi och Wireless Direct på olika subnätintervall.",
+   "Se routerns manual om du ändrar routerinställningar."
+  ],
+  "technician": "Kontakta Canons support om felet kvarstår efter att nätverksinställningarna har ändrats."
+ },
+ "Canon|3440": {
+  "title": "Easy Wireless Connect misslyckades",
+  "causes": [
+   "Wi-Fi-installationen med Easy Wireless Connect blev inte klar."
+  ],
+  "steps": [
+   "Tryck på OK på skrivaren.",
+   "Försök med Easy Wireless Connect igen.",
+   "Om det misslyckas igen, använd en annan metod för Wi-Fi-installation."
+  ],
+  "technician": "Kontakta Canons support om skrivaren inte kan ansluta till något nätverk."
+ },
+ "Canon|2900": {
+  "title": "Skanningen av justeringsarket misslyckades",
+  "causes": [
+   "Skrivaren kunde inte skanna skrivhuvudets justeringsark."
+  ],
+  "steps": [
+   "Tryck på OK.",
+   "Kontrollera att arket ligger med framsidan nedåt och rätt placerat, och att glasskivan är ren.",
+   "Lägg i vanligt A4- eller Letter-papper i bakre facket.",
+   "Skriv ut ett munstyckstest och upprepa sedan justeringen. Om det misslyckas, gör en manuell justering."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter om munstyckstestet visar ett blockerat skrivhuvud som rengöring inte kan åtgärda."
+ },
+ "Canon|3412": {
+  "title": "Originalet kunde inte skannas",
+  "causes": [
+   "Skrivaren kunde inte skanna originalet på glasskivan."
+  ],
+  "steps": [
+   "Tryck på OK.",
+   "Lägg originalet rätt på glasskivan.",
+   "Försök skanna eller kopiera igen.",
+   "Om det kvarstår, ange originalets storlek manuellt."
+  ],
+  "technician": "Kontakta ett Canon-servicecenter om skanningen fortsätter att misslyckas."
+ },
+ "Epson|Service required": {
+  "title": "Bläckdynorna har nått slutet av sin livslängd",
+  "causes": [
+   "De inre dynorna för spillbläck är fulla. Det är normalt slitage och inget plötsligt fel.",
+   "Intensiv användning, många rengöringar av skrivhuvudet och kantlös utskrift fyller dem snabbare."
+  ],
+  "steps": [
+   "Kontrollera ordalydelsen. Om där står Maintenance Box är det en annan del som användaren kan byta själv.",
+   "Öppna inte skrivaren och försök inte reparera dynorna själv.",
+   "Kontakta Epson för att fråga om reparationsalternativ."
+  ],
+  "technician": "Kontakta Epson, eftersom bläckdynorna måste bytas av en auktoriserad serviceleverantör."
+ },
+ "Epson|Ink pad at end of life": {
+  "title": "Dynan för spillbläck är utsliten",
+  "causes": [
+   "Bläckdynan som samlar upp oanvänt bläck är full."
+  ],
+  "steps": [
+   "Stäng av skrivaren.",
+   "Försök inte öppna den.",
+   "Kontakta Epsons support.",
+   "Håll patronerna i kanterna och rör inte kontakterna eller munstyckena."
+  ],
+  "technician": "Kontakta Epson, eftersom bläckdynorna inte kan bytas av användaren."
+ },
+ "Epson|Ink pad nearing end of life": {
+  "title": "Dynan för spillbläck är nästan full",
+  "causes": [
+   "Bläckdynan närmar sig slutet av sin livslängd.",
+   "Meddelandet visas tills dynan har bytts."
+  ],
+  "steps": [
+   "Välj OK för att tills vidare fortsätta skriva ut.",
+   "Kontakta Epsons support för att planera ett byte."
+  ],
+  "technician": "Kontakta Epson snart, eftersom dynan måste bytas av service."
+ },
+ "Epson|Borderless ink pad at end of life": {
+  "title": "Dynan för kantlös utskrift är utsliten",
+  "causes": [
+   "Dynan som används vid kantlös utskrift är full.",
+   "Epson anger att den inte kan bytas av användaren."
+  ],
+  "steps": [
+   "Stäng av produkten.",
+   "Kontakta Epsons support.",
+   "Skanning och andra uppgifter utan bläck kan fortfarande fungera."
+  ],
+  "technician": "Kontakta Epson för att få dynan för kantlös utskrift bytt."
+ },
+ "Epson|E-01": {
+  "title": "Skrivarfel",
+  "causes": [
+   "Skrivaren har ett allmänt fel.",
+   "Ett papperstrassel inuti kan orsaka det."
+  ],
+  "steps": [
+   "Stäng av produkten och slå på den igen.",
+   "Kontrollera om det finns ett papperstrassel inuti och ta bort allt papper.",
+   "Slå på igen."
+  ],
+  "technician": "Kontakta Epson om felet kommer tillbaka och det inte finns något papperstrassel."
+ },
+ "Epson|E-02": {
+  "title": "Skannerfel",
+  "causes": [
+   "Skannerdelen har ett fel."
+  ],
+  "steps": [
+   "Stäng av produkten och slå på den igen.",
+   "Kontrollera att skannerlocket är stängt.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen."
+  ],
+  "technician": "Kontakta Epson om felet kommer tillbaka."
+ },
+ "Epson|E-12": {
+  "title": "Dynan för kantlös utskrift behöver bytas",
+  "causes": [
+   "Bläckdynan för kantlös utskrift är full."
+  ],
+  "steps": [
+   "Kontakta Epson, eftersom du inte kan byta den själv.",
+   "Du kan fortfarande skriva ut med kanter.",
+   "Håll patronerna i kanterna och rör inte kontakterna eller munstyckena."
+  ],
+  "technician": "Kontakta Epson för att byta dynan."
+ },
+ "Epson|W-14": {
+  "title": "Dynan för kantlös utskrift är nästan full",
+  "causes": [
+   "Bläckdynan för kantlös utskrift närmar sig slutet av sin livslängd."
+  ],
+  "steps": [
+   "Tryck på startknappen för att fortsätta skriva ut.",
+   "Kontakta Epson för att planera ett byte.",
+   "Varningen visas tills dynan har bytts."
+  ],
+  "technician": "Kontakta Epson för att få dynan bytt."
+ },
+ "Epson|W-01": {
+  "title": "Papperstrassel",
+  "causes": [
+   "Papper har fastnat i produkten."
+  ],
+  "steps": [
+   "Ta försiktigt bort det papper som har fastnat.",
+   "Tryck på knappen som visas på skärmen för att rensa felet.",
+   "Om det fortsätter, stäng av produkten och slå på den igen."
+  ],
+  "technician": "Kontakta Epson om papperstrassel uppstår upprepade gånger."
+ },
+ "Epson|W-12": {
+  "title": "Bläckpatronen sitter inte ordentligt",
+  "causes": [
+   "En bläckpatron är inte helt intryckt."
+  ],
+  "steps": [
+   "Tryck ned varje bläckpatron tills den klickar.",
+   "Kontrollera att alla patroner sitter jämnt.",
+   "Håll patronerna i kanterna och rör inte kontakterna eller munstyckena."
+  ],
+  "technician": "Kontakta Epson om meddelandet kvarstår efter att patronen har satts i igen."
+ },
+ "Epson|W-13": {
+  "title": "Bläckpatronen känns inte igen",
+  "causes": [
+   "Patronen känns inte igen av skrivaren."
+  ],
+  "steps": [
+   "Kontrollera att du har installerat äkta Epson-patroner.",
+   "Ta ut patronen och sätt i den igen.",
+   "Håll patronerna i kanterna och rör inte kontakterna eller munstyckena."
+  ],
+  "technician": "Kontakta Epson om äkta patroner inte känns igen."
+ },
+ "Epson|Printer error. Turn on the printer again": {
+  "title": "Allvarligt skrivarfel",
+  "causes": [
+   "Skrivaren har fått ett allvarligt fel."
+  ],
+  "steps": [
+   "Stäng av produkten och slå sedan på den.",
+   "Kontrollera om det finns ett papperstrassel eller skyddsmaterial inuti.",
+   "Ta bort allt du hittar.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen."
+  ],
+  "technician": "Kontakta Epson om meddelandet kommer tillbaka och det inte finns något papperstrassel."
+ },
+ "Epson|Recovery mode": {
+  "title": "Uppdateringen av firmware misslyckades",
+  "causes": [
+   "En firmwareuppdatering blev inte klar."
+  ],
+  "steps": [
+   "Anslut produkten till datorn med en USB-kabel.",
+   "Kör firmwareuppdateringen igen.",
+   "Kontrollera att inget papper eller föremål hindrar luckan från att stängas."
+  ],
+  "technician": "Kontakta Epson om återställningsläget fortsätter vara aktivt."
+ },
+ "Epson|W-10": {
+  "title": "Bläckpatronen är tom eller felaktigt installerad",
+  "causes": [
+   "En patron är slut eller inte korrekt installerad."
+  ],
+  "steps": [
+   "Byt ut den tomma patronen.",
+   "Om felet kvarstår med en ny, tryck på Start så att patronerna flyttar sig, tryck ned varje patron och tryck sedan på Start."
+  ],
+  "technician": "Kontakta Epson om meddelandet kvarstår."
+ },
+ "Epson|Print head adjustment canceled": {
+  "title": "Problem med skrivhuvudet",
+  "causes": [
+   "Det är ett problem med skrivhuvudet."
+  ],
+  "steps": [
+   "Rengör skrivhuvudet.",
+   "Om kvaliteten fortfarande är dålig efter två rengöringar, stäng av skrivaren i minst sex timmar.",
+   "Kör ett munstyckstest och rengör igen vid behov."
+  ],
+  "technician": "Kontakta Epson om utskriftskvaliteten fortfarande är dålig."
+ },
+ "Brother|Ink Absorber Full": {
+  "title": "Absorbatorboxen för bläck är full",
+  "causes": [
+   "Bläckabsorbatorn eller spolboxen är full efter kraftig rengöring."
+  ],
+  "steps": [
+   "Undvik kraftiga rengöringscykler.",
+   "Kontakta Brothers service för att byta absorbatorn.",
+   "Utbytet omfattas inte av garantin."
+  ],
+  "technician": "Kontakta Brothers kundtjänst, eftersom absorbatorboxen behöver bytas."
+ },
+ "Brother|Absorber NearFull": {
+  "title": "Absorbatorboxen för bläck är nästan full",
+  "causes": [
+   "Absorbatorboxen för bläck är nästan full."
+  ],
+  "steps": [
+   "Fortsätt skriva ut tills vidare.",
+   "Beställ en ersättning via Brother eller en återförsäljare.",
+   "Håll patronerna i kanterna och rör inte kontakterna eller munstyckena."
+  ],
+  "technician": "Kontakta Brothers service för att byta absorbatorn."
+ },
+ "Brother|Cannot Print ##": {
+  "title": "Mekaniskt fel eller föremål inuti",
+  "causes": [
+   "Ett mekaniskt problem eller ett främmande föremål finns inuti maskinen."
+  ],
+  "steps": [
+   "Titta inuti efter gem eller sönderrivet papper.",
+   "Ta bort allt skräp.",
+   "Stäng av maskinen, vänta några minuter och slå sedan på den."
+  ],
+  "technician": "Kontakta Brother om koden kommer tillbaka."
+ },
+ "Brother|Cannot Clean ##": {
+  "title": "Mekaniskt fel under rengöring",
+  "causes": [
+   "Ett mekaniskt problem eller ett främmande föremål finns inuti."
+  ],
+  "steps": [
+   "Ta bort allt skräp som du kan se.",
+   "Stäng av i flera minuter och slå sedan på.",
+   "Flytta först eventuella lagrade fax om du kan."
+  ],
+  "technician": "Kontakta Brother om koden kommer tillbaka."
+ },
+ "Brother|Cannot Scan ##": {
+  "title": "Mekaniskt fel vid skanning",
+  "causes": [
+   "Ett mekaniskt problem i skannern."
+  ],
+  "steps": [
+   "Stäng av maskinen i flera minuter.",
+   "Slå på den igen.",
+   "Flytta först eventuella lagrade fax någon annanstans om möjligt."
+  ],
+  "technician": "Kontakta Brother om koden kommer tillbaka."
+ },
+ "Brother|Cannot Detect": {
+  "title": "Bläckpatronen hittas inte",
+  "causes": [
+   "Patronen sitter inte på plats.",
+   "Fel modell är installerad."
+  ],
+  "steps": [
+   "Tryck in patronen ordentligt.",
+   "Kontrollera att det är rätt modell.",
+   "Håll patronerna i kanterna och rör inte kontakterna eller munstyckena."
+  ],
+  "technician": "Kontakta Brother om meddelandet kvarstår."
+ },
+ "Brother|No Ink Cartridge": {
+  "title": "Patronen sitter inte på plats",
+  "causes": [
+   "Patronen sitter inte på plats i sitt fack."
+  ],
+  "steps": [
+   "Ta ut patronen.",
+   "Sätt i den ordentligt igen.",
+   "Håll patronerna i kanterna och rör inte kontakterna eller munstyckena."
+  ],
+  "technician": "Kontakta Brother om meddelandet kvarstår."
+ },
+ "Brother|Wrong Ink Cartridge": {
+  "title": "Inkompatibel bläckpatron",
+  "causes": [
+   "Patronens modell passar inte den här maskinen."
+  ],
+  "steps": [
+   "Kontrollera modellnumret mot din maskin.",
+   "Sätt i en korrekt patron.",
+   "Håll patronerna i kanterna och rör inte kontakterna eller munstyckena."
+  ],
+  "technician": "Kontakta Brother om rätt patron nekas."
+ },
+ "Brother|Wrong Ink Colour": {
+  "title": "Patron i fel fack",
+  "causes": [
+   "En patron sitter på fel färgplats."
+  ],
+  "steps": [
+   "Flytta varje patron till facket med samma färg.",
+   "Håll patronerna i kanterna och rör inte kontakterna eller munstyckena."
+  ],
+  "technician": "Kontakta Brother om meddelandet kvarstår."
+ },
+ "Brother|Replace Ink": {
+  "title": "Patronen är tom",
+  "causes": [
+   "En eller flera patroner är tomma."
+  ],
+  "steps": [
+   "Byt ut de tomma patronerna.",
+   "Skanning fungerar fortfarande.",
+   "Håll patronerna i kanterna och rör inte kontakterna eller munstyckena."
+  ],
+  "technician": "Kontakta Brother om meddelandet kvarstår efter bytet."
+ },
+ "Brother|Ink Low": {
+  "title": "Patronen börjar ta slut",
+  "causes": [
+   "Bläcket börjar ta slut."
+  ],
+  "steps": [
+   "Förbered en ny patron.",
+   "Utskriften fortsätter tills Replace Ink visas.",
+   "Håll patronerna i kanterna och rör inte kontakterna eller munstyckena."
+  ],
+  "technician": "Kontakta Brother om varningen visas med en full patron."
+ },
+ "Brother|B&W Print Only": {
+  "title": "Färgpatronen är tom",
+  "causes": [
+   "En eller flera färgpatroner är tomma."
+  ],
+  "steps": [
+   "Byt ut färgpatronerna.",
+   "Svartvit utskrift fungerar i ungefär fyra veckor.",
+   "Håll patronerna i kanterna och rör inte kontakterna eller munstyckena."
+  ],
+  "technician": "Kontakta Brother om meddelandet kvarstår efter bytet."
+ },
+ "Brother|Jam Front": {
+  "title": "Papper har fastnat framtill",
+  "causes": [
+   "Papper har fastnat framtill i maskinen."
+  ],
+  "steps": [
+   "Ta bort det papper som har fastnat.",
+   "Kontrollera pappersguiderna.",
+   "Dra inte ut facket för papper i A5 eller mindre.",
+   "Stäng av skrivaren innan du sträcker dig in, och dra ut papperet långsamt så att det inte rivs sönder."
+  ],
+  "technician": "Kontakta Brother om papperstrassel fortsätter att uppstå."
+ },
+ "Brother|Jam Rear": {
+  "title": "Papper har fastnat baktill",
+  "causes": [
+   "Papper har fastnat baktill, eller så är inmatningsrullarna dammiga."
+  ],
+  "steps": [
+   "Ta bort papperet.",
+   "Rengör inmatningsrullarna.",
+   "Kontrollera pappersguiderna.",
+   "Stäng av skrivaren innan du sträcker dig in, och dra ut papperet långsamt så att det inte rivs sönder."
+  ],
+  "technician": "Kontakta Brother om papperstrassel fortsätter att uppstå."
+ },
+ "Brother|No Paper Fed": {
+  "title": "Papperet matas inte in",
+  "causes": [
+   "Facket är tomt eller felaktigt fyllt.",
+   "Inmatningsrullarna är dammiga."
+  ],
+  "steps": [
+   "Fyll på facket igen.",
+   "Stäng Jam Clear Cover.",
+   "Rengör rullarna.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen."
+  ],
+  "technician": "Kontakta Brother om papperet fortfarande inte matas in."
+ },
+ "Brother|Cover is Open": {
+  "title": "Luckan är inte stängd",
+  "causes": [
+   "En lucka är inte låst.",
+   "Kabeln ligger inte i sin kanal."
+  ],
+  "steps": [
+   "Stäng luckorna ordentligt.",
+   "Dra kabeln genom kanalen.",
+   "Kontrollera att inget papper eller föremål hindrar luckan från att stängas."
+  ],
+  "technician": "Kontakta Brother om meddelandet kvarstår."
+ },
+ "Brother|High Temperature": {
+  "title": "Rummet är för varmt",
+  "causes": [
+   "Rummet är för varmt."
+  ],
+  "steps": [
+   "Kyl ned rummet.",
+   "Låt maskinen svalna innan du använder den igen.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen.",
+   "Sätt i kontakten direkt i ett vägguttag och kontrollera att kabeln sitter fast ordentligt."
+  ],
+  "technician": "Kontakta Brother om meddelandet visas i ett svalt rum."
+ },
+ "Brother|Out of Memory": {
+  "title": "Maskinens minne är fullt",
+  "causes": [
+   "Maskinens minne är fullt."
+  ],
+  "steps": [
+   "Vänta tills andra jobb är klara.",
+   "Skriv ut lagrade fax.",
+   "Använd delvis utskrift för skannade sidor.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen."
+  ],
+  "technician": "Kontakta Brother om meddelandet kvarstår."
+ },
+ "Brother|Cannot Print Refill": {
+  "title": "Bläcktanken är nästan tom, utskriften har stoppats",
+  "causes": [
+   "Bläcket håller på att ta slut i en eller flera tankar."
+  ],
+  "steps": [
+   "Fyll på tanken till den övre linjen.",
+   "Bekräfta påfyllningen på skärmen.",
+   "Skanning fungerar fortfarande.",
+   "Håll patronerna i kanterna och rör inte kontakterna eller munstyckena."
+  ],
+  "technician": "Kontakta Brother om meddelandet kvarstår efter påfyllning."
+ },
+ "Brother|Drum !": {
+  "title": "Trumenheten behöver åtgärdas",
+  "causes": [
+   "Trummans koronatråd är smutsig.",
+   "Trumman eller tonerenheten sitter fel."
+  ],
+  "steps": [
+   "Rengör koronatråden.",
+   "Sätt tillbaka tonerpatronen i trumenheten och installera den igen.",
+   "Om det kvarstår, byt trumenheten."
+  ],
+  "technician": "Kontakta Brother om meddelandet kvarstår efter att trumman har bytts."
+ },
+ "Brother|Replace Drum": {
+  "title": "Trumenheten har nått slutet av sin livslängd",
+  "causes": [
+   "Trumenheten är utsliten.",
+   "Trumräknaren återställdes inte efter bytet."
+  ],
+  "steps": [
+   "Byt trumenheten.",
+   "Återställ trumräknaren om du nyss har bytt trumman.",
+   "Hantera tonern och trumman försiktigt och skydda dem från direkt ljus."
+  ],
+  "technician": "Kontakta Brother om det visas med en ny trumma."
+ },
+ "Brother|Replace Toner": {
+  "title": "Tonerpatronen har nått slutet av sin livslängd",
+  "causes": [
+   "Tonerpatronen är slut."
+  ],
+  "steps": [
+   "Byt tonerpatronen.",
+   "Hantera tonern och trumman försiktigt och skydda dem från direkt ljus.",
+   "Använd förbrukningsmaterial som är gjort för just din skrivarmodell."
+  ],
+  "technician": "Kontakta Brother om det visas med en ny patron."
+ },
+ "Brother|Toner Low": {
+  "title": "Tonern är nästan slut",
+  "causes": [
+   "Tonern närmar sig slutet av sin livslängd."
+  ],
+  "steps": [
+   "Beställ en ny tonerpatron nu.",
+   "Det går fortfarande att skriva ut.",
+   "Hantera tonern och trumman försiktigt och skydda dem från direkt ljus."
+  ],
+  "technician": "Kontakta Brother om det visas med en full patron."
+ },
+ "Brother|No Toner": {
+  "title": "Tonerpatronen hittas inte",
+  "causes": [
+   "Patronen är inte korrekt installerad."
+  ],
+  "steps": [
+   "Ta ut trum- och tonerenheten.",
+   "Sätt tillbaka tonern i trumman.",
+   "Installera enheten igen. Byt tonern om felet kvarstår."
+  ],
+  "technician": "Kontakta Brother om meddelandet kvarstår."
+ },
+ "Brother|Cartridge Error": {
+  "title": "Tonerpatronen är inte korrekt installerad",
+  "causes": [
+   "Tonerpatronen är inte korrekt installerad."
+  ],
+  "steps": [
+   "Ta ut enheten.",
+   "Sätt tillbaka tonerpatronen i trumman.",
+   "Installera enheten igen.",
+   "Hantera tonern och trumman försiktigt och skydda dem från direkt ljus."
+  ],
+  "technician": "Kontakta Brother om meddelandet kvarstår."
+ },
+ "Brother|Self-Diagnostic": {
+  "title": "Problem med fixeringsenheten",
+  "causes": [
+   "Fixeringsenheten fungerar inte eller har överhettats."
+  ],
+  "steps": [
+   "Stäng av maskinen, vänta några sekunder och slå sedan på den.",
+   "Låt den vara påslagen och inaktiv i 15 minuter.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen."
+  ],
+  "technician": "Kontakta Brother om det kommer tillbaka."
+ },
+ "Brother|Cooling Down": {
+  "title": "Maskinen är för varm, utskriften har pausats",
+  "causes": [
+   "Den inre temperaturen är för hög."
+  ],
+  "steps": [
+   "Vänta tills maskinen har svalnat.",
+   "Frigör eventuellt blockerade ventilationsöppningar.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen."
+  ],
+  "technician": "Kontakta Brother om det fortsätter att hända."
+ },
+ "HP|E0": {
+  "title": "Patronproblem",
+  "causes": [
+   "Patronen under den blinkande bläckikonen har ett fel."
+  ],
+  "steps": [
+   "Kontrollera meddelandet i HP-appen eller programvaran.",
+   "Sätt i patronen igen och ta bort eventuell tejp.",
+   "Rengör kontakterna eller byt patronen."
+  ],
+  "technician": "Kontakta HP om koden kvarstår med en ny patron."
+ },
+ "HP|E1": {
+  "title": "Pappersstorleken stämmer inte",
+  "causes": [
+   "Det ilagda papperet stämmer inte med utskriftsjobbet."
+  ],
+  "steps": [
+   "Tryck på Resume för att skriva ut ändå, eller på Cancel.",
+   "Lägg i matchande papper eller ändra inställningen för pappersstorlek.",
+   "Skriv ut igen."
+  ],
+  "technician": "Kontakta HP om koden kvarstår med matchande papper."
+ },
+ "HP|E2": {
+  "title": "Papperslängden stämmer inte",
+  "causes": [
+   "Papperslängden stämmer inte med jobbet."
+  ],
+  "steps": [
+   "Tryck på Resume för att fortsätta ändå, eller på Cancel.",
+   "Lägg i matchande papper eller ändra inställningen.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen."
+  ],
+  "technician": "Kontakta HP om koden kvarstår."
+ },
+ "HP|E3": {
+  "title": "Vagnen har stannat eller fastnat",
+  "causes": [
+   "Skrivarvagnen kan inte röra sig.",
+   "Papper eller ett föremål kan blockera den."
+  ],
+  "steps": [
+   "Öppna luckan till bläckfacket.",
+   "Kontrollera att skrivhuvudets lock är stängt och att inget blockerar vagnen.",
+   "Ta bort papper eller föremål, stäng luckan och tryck sedan på Resume eller Cancel."
+  ],
+  "technician": "Kontakta HP om felet E3 kvarstår."
+ },
+ "HP|E4": {
+  "title": "Papperstrassel",
+  "causes": [
+   "Papper har fastnat i skrivaren."
+  ],
+  "steps": [
+   "Åtgärda trasslet i det berörda området.",
+   "Tryck på Resume.",
+   "Öppna inte skrivhuvudets lock.",
+   "Stäng av skrivaren innan du sträcker dig in, och dra ut papperet långsamt så att det inte rivs sönder."
+  ],
+  "technician": "Kontakta HP om papperstrassel fortsätter att uppstå."
+ },
+ "HP|E5": {
+  "title": "Skannern fungerar inte",
+  "causes": [
+   "Skannern har ett fel."
+  ],
+  "steps": [
+   "Tryck på Cancel och försök skanna igen.",
+   "Stäng av skrivaren och slå på den igen.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen."
+  ],
+  "technician": "Kontakta HP om det kvarstår. Utskrift fungerar fortfarande."
+ },
+ "HP|E6": {
+  "title": "Skrivaren är i felläge",
+  "causes": [
+   "Skrivaren är i felläge."
+  ],
+  "steps": [
+   "Stäng av skrivaren.",
+   "Dra ur nätsladden och vänta en minut.",
+   "Sätt i kontakten och slå på.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen."
+  ],
+  "technician": "Kontakta HP om det kvarstår."
+ },
+ "HP|E7": {
+  "title": "Bläcktanken är tom",
+  "causes": [
+   "En eller flera bläcktankar har slut på bläck."
+  ],
+  "steps": [
+   "Fyll på den angivna tanken.",
+   "Håll patronerna i kanterna och rör inte kontakterna eller munstyckena.",
+   "Använd patroner som är gjorda för just din skrivarmodell."
+  ],
+  "technician": "Kontakta HP om koden kvarstår efter påfyllning."
+ },
+ "HP|E8": {
+  "title": "Allvarligt fel",
+  "causes": [
+   "Skrivaren rapporterar ett allvarligt fel."
+  ],
+  "steps": [
+   "Stäng av skrivaren och slå på den igen.",
+   "Kontrollera att inget blockerar den.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen."
+  ],
+  "technician": "Kontakta HP om det kvarstår."
+ },
+ "HP|E9": {
+  "title": "Fel vid firmwareuppdatering",
+  "causes": [
+   "En firmwareuppdatering misslyckades."
+  ],
+  "steps": [
+   "Stäng av skrivaren och slå på den igen.",
+   "Försök med uppdateringen igen.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen.",
+   "Sätt i kontakten direkt i ett vägguttag och kontrollera att kabeln sitter fast ordentligt."
+  ],
+  "technician": "Kontakta HP om det kvarstår."
+ },
+ "HP|Printhead problem": {
+  "title": "Skrivhuvud saknas eller är defekt",
+  "causes": [
+   "Ett skrivhuvud saknas, är felaktigt installerat eller skadat.",
+   "Det kan fortfarande sitta en orange plugg eller tejp på det."
+  ],
+  "steps": [
+   "Installera eventuella saknade skrivhuvuden.",
+   "Ta ut det angivna, kontrollera om det finns plugg eller tejp och sätt i det igen.",
+   "Använd rätt HP-skrivhuvuden. Öppna inte luckan om du inte uppmanas."
+  ],
+  "technician": "Kontakta HP om felet med skrivhuvudet kvarstår."
+ },
+ "HP|49 Error": {
+  "title": "Internt produktfel",
+  "causes": [
+   "Skrivaren har ett internt fel."
+  ],
+  "steps": [
+   "Stäng av och vänta 30 sekunder.",
+   "Sätt i kontakten direkt i väggen, inte i ett överspänningsskydd.",
+   "Slå på.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen."
+  ],
+  "technician": "Kontakta HP:s support om det kvarstår."
+ },
+ "HP|50.x Fuser Error": {
+  "title": "Problem med fixeringsenheten",
+  "causes": [
+   "Fixeringsenheten har ett problem."
+  ],
+  "steps": [
+   "Stäng av, vänta 30 sekunder och slå på.",
+   "Om det kvarstår, stäng av i 25 minuter.",
+   "Gå förbi eventuellt överspänningsskydd.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen."
+  ],
+  "technician": "Kontakta HP:s support om det kvarstår."
+ },
+ "HP|79 Error": {
+  "title": "Internt firmwarefel",
+  "causes": [
+   "Ett internt firmwarefel."
+  ],
+  "steps": [
+   "Stäng av och slå på igen.",
+   "Sätt i kontakten direkt i väggen.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen.",
+   "Sätt i kontakten direkt i ett vägguttag och kontrollera att kabeln sitter fast ordentligt."
+  ],
+  "technician": "Kontakta HP:s support om det kvarstår."
+ },
+ "Samsung|Fuser failure": {
+  "title": "Fel på fixeringsenheten",
+  "causes": [
+   "Fixeringsenheten har ett fel."
+  ],
+  "steps": [
+   "Stäng av och slå på.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen.",
+   "Sätt i kontakten direkt i ett vägguttag och kontrollera att kabeln sitter fast ordentligt."
+  ],
+  "technician": "Ring service om det kvarstår."
+ },
+ "Samsung|Engine system failure": {
+  "title": "Motorfel",
+  "causes": [
+   "Motorn har ett fel."
+  ],
+  "steps": [
+   "Dra ur nätsladden och sätt i den igen.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen.",
+   "Sätt i kontakten direkt i ett vägguttag och kontrollera att kabeln sitter fast ordentligt."
+  ],
+  "technician": "Ring service om det kvarstår."
+ },
+ "Samsung|Motor failure": {
+  "title": "Motorfel",
+  "causes": [
+   "Ett motorfel."
+  ],
+  "steps": [
+   "Stäng av och slå på igen.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen.",
+   "Sätt i kontakten direkt i ett vägguttag och kontrollera att kabeln sitter fast ordentligt."
+  ],
+  "technician": "Ring service om det kvarstår."
+ },
+ "Samsung|LSU failure": {
+  "title": "Fel på laserskannerenheten",
+  "causes": [
+   "Laserskannerenheten har ett fel."
+  ],
+  "steps": [
+   "Stäng av och slå på igen.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen.",
+   "Sätt i kontakten direkt i ett vägguttag och kontrollera att kabeln sitter fast ordentligt."
+  ],
+  "technician": "Ring service om det kvarstår."
+ },
+ "Samsung|Fan failure": {
+  "title": "Fläktfel",
+  "causes": [
+   "Ett fläktfel."
+  ],
+  "steps": [
+   "Stäng av och slå på igen.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen.",
+   "Sätt i kontakten direkt i ett vägguttag och kontrollera att kabeln sitter fast ordentligt."
+  ],
+  "technician": "Ring service om det kvarstår."
+ },
+ "Samsung|Replace new toner": {
+  "title": "Tonerpatronen har nått slutet av sin livslängd",
+  "causes": [
+   "Tonern är slut."
+  ],
+  "steps": [
+   "Installera en äkta Samsung-patron.",
+   "Hantera tonern och trumman försiktigt och skydda dem från direkt ljus.",
+   "Använd förbrukningsmaterial som är gjort för just din skrivarmodell."
+  ],
+  "technician": "Ring service om det kvarstår."
+ },
+ "Samsung|Toner cartridge failure": {
+  "title": "Fel på tonerpatronen",
+  "causes": [
+   "Patronen sitter inte på plats."
+  ],
+  "steps": [
+   "Installera den igen.",
+   "Stäng av och slå på igen om det kvarstår.",
+   "Hantera tonern och trumman försiktigt och skydda dem från direkt ljus.",
+   "Använd förbrukningsmaterial som är gjort för just din skrivarmodell."
+  ],
+  "technician": "Ring service om det kvarstår."
+ },
+ "Samsung|Toner not installed": {
+  "title": "Toner saknas",
+  "causes": [
+   "Tonern är inte installerad."
+  ],
+  "steps": [
+   "Installera tonerpatronen igen.",
+   "Hantera tonern och trumman försiktigt och skydda dem från direkt ljus.",
+   "Använd förbrukningsmaterial som är gjort för just din skrivarmodell."
+  ],
+  "technician": "Ring service om det kvarstår."
+ },
+ "Samsung|Remove seal tape": {
+  "title": "Förseglingstejp på patronen",
+  "causes": [
+   "Förseglingstejp sitter fortfarande kvar på patronen."
+  ],
+  "steps": [
+   "Ta bort den eller skaka patronen.",
+   "Hantera tonern och trumman försiktigt och skydda dem från direkt ljus.",
+   "Använd förbrukningsmaterial som är gjort för just din skrivarmodell."
+  ],
+  "technician": "Ring service om det kvarstår."
+ },
+ "Samsung|Jam inside of machine": {
+  "title": "Papperstrassel inuti",
+  "causes": [
+   "Papper har fastnat inuti."
+  ],
+  "steps": [
+   "Rensa maskinens insida.",
+   "Stäng av skrivaren innan du sträcker dig in, och dra ut papperet långsamt så att det inte rivs sönder."
+  ],
+  "technician": "Ring service om papperstrassel upprepas."
+ },
+ "Samsung|Front door is open": {
+  "title": "Luckan är öppen",
+  "causes": [
+   "En lucka är inte stängd."
+  ],
+  "steps": [
+   "Stäng den tills den låses.",
+   "Kontrollera att inget papper eller föremål hindrar luckan från att stängas.",
+   "Tryck ned luckan tills du hör att den fäster."
+  ],
+  "technician": "Ring service om det kvarstår."
+ },
+ "Samsung|Output bin is full": {
+  "title": "Utmatningsfacket är fullt",
+  "causes": [
+   "Utmatningsfacket är fullt."
+  ],
+  "steps": [
+   "Ta bort utskrivet papper.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen.",
+   "Sätt i kontakten direkt i ett vägguttag och kontrollera att kabeln sitter fast ordentligt."
+  ],
+  "technician": "Ring service om det kvarstår."
+ },
+ "Kyocera|Check toner/Low toner": {
+  "title": "Tonern är nästan slut eller hittas inte",
+  "causes": [
+   "Tonern är nästan slut eller så kan skrivaren inte hitta den.",
+   "Tonern kanske inte är äkta eller sitter fel."
+  ],
+  "steps": [
+   "Kontrollera att tonern är äkta från Kyocera.",
+   "Ta ut tonerbehållaren, skaka den och sätt tillbaka den.",
+   "Stäng den övre luckan helt."
+  ],
+  "technician": "Kontakta Kyoceras service om meddelandet kvarstår med ny toner."
+ },
+ "Kyocera|Paper jam at Cassette": {
+  "title": "Papper har fastnat i kassett 1",
+  "causes": [
+   "Papper har fastnat i kassett 1."
+  ],
+  "steps": [
+   "Dra ut kassett 1.",
+   "Ta bort det papper som har fastnat.",
+   "Tryck in kassetten helt igen.",
+   "Stäng av skrivaren innan du sträcker dig in, och dra ut papperet långsamt så att det inte rivs sönder."
+  ],
+  "technician": "Kontakta Kyoceras service om papperstrassel upprepas."
+ },
+ "Kyocera|Paper jam at Rear Cover": {
+  "title": "Papper har fastnat bakom bakre luckan",
+  "causes": [
+   "Papper har fastnat bakom bakre luckan 1."
+  ],
+  "steps": [
+   "Öppna bakre luckan 1 och den inre luckan.",
+   "Ta bort papperet.",
+   "Stäng luckorna.",
+   "Stäng av skrivaren innan du sträcker dig in, och dra ut papperet långsamt så att det inte rivs sönder."
+  ],
+  "technician": "Kontakta Kyoceras service om papperstrassel upprepas."
+ },
+ "Kyocera|Paper jam inside machine": {
+  "title": "Papper har fastnat inuti skrivaren",
+  "causes": [
+   "Papper har fastnat inuti."
+  ],
+  "steps": [
+   "Öppna främre luckan.",
+   "Ta ut framkallar- och trumenheterna och ta bort papperet vid matarluckan.",
+   "Sätt tillbaka enheterna. Rör inte den heta fixeringsenheten."
+  ],
+  "technician": "Kontakta Kyoceras service om papperstrassel upprepas."
+ },
+ "Kyocera|Paper jam at MP Tray": {
+  "title": "Papper har fastnat i flerfunktionsfacket",
+  "causes": [
+   "Papper har fastnat i MP-facket."
+  ],
+  "steps": [
+   "Ta bort allt papper från facket.",
+   "Kasta de ark som har fastnat.",
+   "Fyll på papper igen.",
+   "Stäng av skrivaren innan du sträcker dig in, och dra ut papperet långsamt så att det inte rivs sönder."
+  ],
+  "technician": "Kontakta Kyoceras service om papperstrassel upprepas."
+ },
+ "Kyocera|Call service": {
+  "title": "Skrivaren behöver en tekniker",
+  "causes": [
+   "Skrivaren har hittat ett fel som den inte kan åtgärda själv.",
+   "Det visas också om ett fel på kassettens lyftmekanism upprepas."
+  ],
+  "steps": [
+   "Stäng av skrivaren och dra ur kontakten.",
+   "Sätt i kontakten och slå på för att se om den återhämtar sig.",
+   "Om inte, stäng av, dra ur kontakten och kontakta service."
+  ],
+  "technician": "Kontakta ett auktoriserat Kyocera-servicecenter."
+ },
+ "Kyocera|Close top cover": {
+  "title": "Övre luckan är öppen",
+  "causes": [
+   "Övre luckan är inte stängd."
+  ],
+  "steps": [
+   "Stäng den övre luckan ordentligt.",
+   "Kontrollera att inget papper eller föremål hindrar luckan från att stängas.",
+   "Tryck ned luckan tills du hör att den fäster."
+  ],
+  "technician": "Kontakta Kyoceras service om det kvarstår med stängd lucka."
+ },
+ "Kyocera|Check the toner container": {
+  "title": "Tonerbehållaren är inte korrekt installerad",
+  "causes": [
+   "Tonerbehållaren är inte korrekt installerad."
+  ],
+  "steps": [
+   "Öppna den övre luckan.",
+   "Installera tonerbehållaren korrekt igen.",
+   "Hantera tonern och trumman försiktigt och skydda dem från direkt ljus."
+  ],
+  "technician": "Kontakta Kyoceras service om det kvarstår."
+ },
+ "Kyocera|Check waste toner box": {
+  "title": "Behållaren för spilltoner saknas eller är full",
+  "causes": [
+   "Behållaren för spilltoner är inte installerad eller är full."
+  ],
+  "steps": [
+   "Installera en ny behållare för spilltoner.",
+   "Hantera tonern och trumman försiktigt och skydda dem från direkt ljus."
+  ],
+  "technician": "Kontakta Kyoceras service om det kvarstår."
+ },
+ "Kyocera|Add paper MPTray": {
+  "title": "Papperskällan är tom",
+  "causes": [
+   "Den angivna papperskällan har tagit slut."
+  ],
+  "steps": [
+   "Lägg i papper i den angivna källan.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen.",
+   "Sätt i kontakten direkt i ett vägguttag och kontrollera att kabeln sitter fast ordentligt."
+  ],
+  "technician": "Kontakta Kyoceras service om det kvarstår."
+ },
+ "Xerox|Red status LED on (major error)": {
+  "title": "Maskinen stoppades av ett allvarligt fel",
+  "causes": [
+   "Maskinen stoppades på grund av ett allvarligt fel."
+  ],
+  "steps": [
+   "Starta om maskinen.",
+   "Försök med jobbet igen.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen.",
+   "Sätt i kontakten direkt i ett vägguttag och kontrollera att kabeln sitter fast ordentligt."
+  ],
+  "technician": "Ring Xeroxs service om det kvarstår."
+ },
+ "Xerox|Orange status LED on": {
+  "title": "Papperstrassel",
+  "causes": [
+   "Papper har fastnat."
+  ],
+  "steps": [
+   "Åtgärda papperstrasslet.",
+   "Stäng av skrivaren innan du sträcker dig in, och dra ut papperet långsamt så att det inte rivs sönder.",
+   "Kontrollera pappersguiderna och använd papper med rätt storlek och vikt."
+  ],
+  "technician": "Ring Xeroxs service om papperstrassel upprepas."
+ },
+ "Xerox|Red status LED on (cover open)": {
+  "title": "Luckan är öppen",
+  "causes": [
+   "En lucka är öppen.",
+   "Skriv ned den exakta ordalydelsen eller koden som visas innan du kontaktar supporten."
+  ],
+  "steps": [
+   "Stäng luckan.",
+   "Kontrollera att inget papper eller föremål hindrar luckan från att stängas.",
+   "Tryck ned luckan tills du hör att den fäster."
+  ],
+  "technician": "Ring Xeroxs service om det kvarstår."
+ },
+ "Xerox|Toner LED blinking orange": {
+  "title": "Tonern håller på att ta slut",
+  "causes": [
+   "Tonern håller på att ta slut."
+  ],
+  "steps": [
+   "Förbered en ny patron.",
+   "Fördela om tonern för att tills vidare förbättra kvaliteten.",
+   "Hantera tonern och trumman försiktigt och skydda dem från direkt ljus."
+  ],
+  "technician": "Ring Xeroxs service om det kvarstår."
+ },
+ "Xerox|010-351": {
+  "title": "Fel på fixeringsenheten",
+  "causes": [
+   "Ett fel på fixeringsenheten på Phaser 6500."
+  ],
+  "steps": [
+   "Kontrollera att tonern är äkta från Xerox.",
+   "Strömcykel: stäng av i 10 sekunder och slå sedan på.",
+   "Stäng av enheten, vänta ungefär en minut och slå sedan på den igen."
+  ],
+  "technician": "Ring Xeroxs service om felet kvarstår."
+ }
+}

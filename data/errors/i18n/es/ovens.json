@@ -1,0 +1,1373 @@
+{
+ "Samsung|C-d0": {
+  "title": " Botón atascado o pulsado demasiado tiempo",
+  "causes": [
+   " Se ha mantenido pulsado un botón de control durante demasiado tiempo.",
+   " Hay humedad o grasa en el panel de control."
+  ],
+  "steps": [
+   " Limpie los botones con un paño húmedo y seque el panel.",
+   " Compruebe que no hay agua sobre los controles ni a su alrededor.",
+   " Apague el horno e inténtelo de nuevo."
+  ],
+  "technician": " Llame al servicio técnico de Samsung si el código vuelve a aparecer tras un reinicio completo de la corriente."
+ },
+ "Samsung|S-01": {
+  "title": " Apagado de seguridad tras un uso prolongado",
+  "causes": [
+   " El horno ha funcionado a una misma temperatura durante demasiadas horas y se ha apagado solo por seguridad.",
+   " No es una avería."
+  ],
+  "steps": [
+   " Apague el horno.",
+   " Saque la comida.",
+   " Inicie de nuevo un ciclo de cocinado normal."
+  ],
+  "technician": " No hace falta servicio técnico, salvo que aparezca tras un tiempo de cocinado corto."
+ },
+ "Samsung|dC": {
+  "title": " Separador mal colocado para el modo de cocción",
+  "causes": [
+   " Se retiró el separador durante el modo de cocción doble.",
+   " O se puso el separador durante el modo de cocción simple."
+  ],
+  "steps": [
+   " Coloque el separador para la cocción doble y retírelo para la cocción simple.",
+   " Apague el horno y vuelva a ponerlo en marcha.",
+   " Si persiste, corte la corriente durante 30 segundos o más y vuelva a conectarla."
+  ],
+  "technician": " Llame al servicio técnico de Samsung si el código vuelve a aparecer tras un reinicio completo de la corriente."
+ },
+ "Samsung|dE": {
+  "title": " Separador mal colocado para el modo de cocción",
+  "causes": [
+   " Se retiró el separador durante el modo de cocción doble.",
+   " O se colocó mientras se usaba el modo de cocción simple."
+  ],
+  "steps": [
+   " Deje el separador puesto para la cocción doble y retírelo para la cocción simple.",
+   " Apague el horno y vuelva a ponerlo en marcha.",
+   " Si persiste, apague el interruptor automático durante 30 segundos o más y vuelva a conectarlo."
+  ],
+  "technician": " Llame al servicio técnico de Samsung si el código vuelve a aparecer tras un reinicio completo de la corriente."
+ },
+ "Samsung|C-d1": {
+  "title": " Fallo del bloqueo de la puerta",
+  "causes": [
+   " El horno detecta un problema con el bloqueo de la puerta."
+  ],
+  "steps": [
+   " Apague el horno y vuelva a ponerlo en marcha.",
+   " Si el código continúa, corte la corriente en el cuadro eléctrico durante al menos 30 segundos y vuelva a conectarla.",
+   " No fuerce la puerta si está bloqueada."
+  ],
+  "technician": " Llame al servicio técnico de Samsung si el código vuelve a aparecer tras un reinicio completo de la corriente."
+ },
+ "Samsung|C-20": {
+  "title": " Fallo del sensor del horno",
+  "causes": [
+   " El horno indica un problema con un sensor de temperatura."
+  ],
+  "steps": [
+   " Apague el horno y vuelva a ponerlo en marcha.",
+   " Si el código continúa, corte la corriente en el cuadro eléctrico durante al menos 30 segundos y vuelva a conectarla."
+  ],
+  "technician": " Llame al servicio técnico de Samsung si el código vuelve a aparecer tras un reinicio completo de la corriente."
+ },
+ "Samsung|C-21": {
+  "title": " Fallo del sensor del horno",
+  "causes": [
+   " El horno indica un problema con un sensor de temperatura."
+  ],
+  "steps": [
+   " Apague el horno y vuelva a ponerlo en marcha.",
+   " Si el código continúa, corte la corriente en el cuadro eléctrico durante al menos 30 segundos y vuelva a conectarla."
+  ],
+  "technician": " Llame al servicio técnico de Samsung si el código vuelve a aparecer tras un reinicio completo de la corriente."
+ },
+ "Samsung|C-22": {
+  "title": " Fallo del sensor del horno",
+  "causes": [
+   " El horno indica un problema con un sensor de temperatura."
+  ],
+  "steps": [
+   " Apague el horno y vuelva a ponerlo en marcha.",
+   " Si el código continúa, corte la corriente en el cuadro eléctrico durante al menos 30 segundos y vuelva a conectarla."
+  ],
+  "technician": " Llame al servicio técnico de Samsung si el código vuelve a aparecer tras un reinicio completo de la corriente."
+ },
+ "Samsung|C-F1": {
+  "title": " Error de lectura o escritura de memoria",
+  "causes": [
+   " Se ha producido un error cuando la placa de control leía o escribía en su memoria (EEPROM)."
+  ],
+  "steps": [
+   " Apague el horno y vuelva a ponerlo en marcha.",
+   " Si el código continúa, corte la corriente en el cuadro eléctrico durante al menos 30 segundos y vuelva a conectarla."
+  ],
+  "technician": " Llame al servicio técnico de Samsung si el código vuelve a aparecer tras un reinicio completo de la corriente."
+ },
+ "Samsung|C-F0": {
+  "title": " La placa principal y la secundaria no se comunican",
+  "causes": [
+   " La placa de circuito principal y la placa secundaria no pueden comunicarse entre sí."
+  ],
+  "steps": [
+   " Apague el horno y vuelva a ponerlo en marcha.",
+   " Si el código continúa, corte la corriente en el cuadro eléctrico durante al menos 30 segundos y vuelva a conectarla."
+  ],
+  "technician": " Llame al servicio técnico de Samsung si el código vuelve a aparecer tras un reinicio completo de la corriente."
+ },
+ "Samsung|C-F2": {
+  "title": " Problema de comunicación del controlador táctil",
+  "causes": [
+   " El controlador táctil pierde repetidamente el contacto con la placa principal o secundaria."
+  ],
+  "steps": [
+   " Apague el horno y vuelva a ponerlo en marcha.",
+   " Si el código continúa, corte la corriente en el cuadro eléctrico durante al menos 30 segundos y vuelva a conectarla."
+  ],
+  "technician": " Llame al servicio técnico de Samsung si el código vuelve a aparecer tras un reinicio completo de la corriente."
+ },
+ "Samsung|Pr E": {
+  "title": " El horno se está precalentando, mensaje normal",
+  "causes": [
+   " El horno todavía se está calentando hasta la temperatura programada.",
+   " Es un mensaje normal, no una avería."
+  ],
+  "steps": [
+   " Mantenga la puerta cerrada.",
+   " Espere a que el horno alcance la temperatura programada.",
+   " El código desaparece solo."
+  ],
+  "technician": " No hace falta servicio técnico."
+ },
+ "Bosch|E011": {
+  "title": " Un botón de control está atascado",
+  "causes": [
+   " Se ha pulsado un botón durante demasiado tiempo o se ha atascado.",
+   " Hay suciedad o humedad alrededor de un botón."
+  ],
+  "steps": [
+   " Pulse cada botón por separado y compruebe que se mueve con libertad.",
+   " Limpie la zona de control y séquela.",
+   " Apague el horno y vuelva a encenderlo."
+  ],
+  "technician": " Llame al servicio técnico de Bosch si E011 continúa después de limpiar los controles."
+ },
+ "Bosch|E115": {
+  "title": " Cavidad del horno demasiado caliente, puerta bloqueada",
+  "causes": [
+   " El interior del horno está demasiado caliente, por lo que el bloqueo de la puerta permanece cerrado."
+  ],
+  "steps": [
+   " Espere a que el horno se haya enfriado.",
+   " Borre el mensaje con el botón 0.",
+   " No fuerce la puerta."
+  ],
+  "technician": " Llame al servicio técnico de Bosch si E115 sigue apareciendo con el horno frío."
+ },
+ "Bosch|e005": {
+  "title": " El control y la placa de potencia no se comunican",
+  "causes": [
+   " El panel de control y la placa de potencia han perdido la conexión."
+  ],
+  "steps": [
+   " Apague la cocina en el interruptor automático.",
+   " Espere cinco minutos y vuelva a conectar el interruptor.",
+   " Compruebe si el código vuelve a aparecer."
+  ],
+  "technician": " Llame al servicio de asistencia de Bosch si el código vuelve a aparecer tras un reinicio de la corriente."
+ },
+ "Bosch|E100": {
+  "title": " Fallo de la electrónica",
+  "causes": [
+   " El horno ha detectado un fallo de la electrónica."
+  ],
+  "steps": [
+   " Apague la cocina en el interruptor automático.",
+   " Espere cinco minutos y vuelva a conectar el interruptor.",
+   " Pruebe el horno de nuevo."
+  ],
+  "technician": " Llame al servicio de asistencia de Bosch si el código vuelve a aparecer tras un reinicio de la corriente."
+ },
+ "Bosch|e101": {
+  "title": " Fallo del sensor de temperatura del horno",
+  "causes": [
+   " El sensor de temperatura no funciona como debería."
+  ],
+  "steps": [
+   " Apague la cocina en el interruptor automático.",
+   " Espere cinco minutos y vuelva a conectar el interruptor.",
+   " Si el horno se acaba de instalar, pida al instalador que revise el cableado del cable de alimentación."
+  ],
+  "technician": " Llame al servicio de asistencia de Bosch si el código vuelve a aparecer tras un reinicio de la corriente."
+ },
+ "Bosch|e126": {
+  "title": " Fallo del bloqueo de la puerta del horno",
+  "causes": [
+   " El bloqueo de la puerta no funciona correctamente, algo habitual durante la autolimpieza."
+  ],
+  "steps": [
+   " Cancele el ciclo de autolimpieza.",
+   " Espere a que se desbloquee la puerta.",
+   " Vuelva a iniciar la autolimpieza."
+  ],
+  "technician": " Llame al servicio de asistencia de Bosch si el código vuelve a aparecer tras un reinicio de la corriente."
+ },
+ "Bosch|E302": {
+  "title": " Panel de control sobrecalentado",
+  "causes": [
+   " El panel de control está demasiado caliente, lo que pueden provocar las ollas sobre la encimera.",
+   " Temperatura ambiente elevada."
+  ],
+  "steps": [
+   " Compruebe la temperatura de la habitación y dónde están colocadas las ollas.",
+   " Deje que el aparato se enfríe.",
+   " Haga un reinicio de la corriente de cinco minutos en el interruptor automático."
+  ],
+  "technician": " Llame al servicio de asistencia de Bosch si el código vuelve a aparecer tras un reinicio de la corriente."
+ },
+ "Bosch|e310": {
+  "title": " Fallo de la alimentación eléctrica",
+  "causes": [
+   " Puede que la tensión de alimentación sea incorrecta o inestable."
+  ],
+  "steps": [
+   " Apague la cocina en el interruptor automático.",
+   " Espere cinco minutos y vuelva a conectar el interruptor.",
+   " Si vuelve a aparecer, pida a un electricista que confirme la tensión de su vivienda."
+  ],
+  "technician": " Llame al servicio de asistencia de Bosch si el código vuelve a aparecer tras un reinicio de la corriente."
+ },
+ "Bosch|ERR/toP": {
+  "title": " Zona de cocción usada durante la autolimpieza",
+  "causes": [
+   " Se ha encendido una zona de cocción mientras el horno se autolimpiaba."
+  ],
+  "steps": [
+   " Apague cualquier zona de cocción activa.",
+   " Vuelva a iniciar el ciclo de autolimpieza.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " No hace falta servicio técnico, salvo que aparezca con todas las zonas apagadas."
+ },
+ "Bosch|dE": {
+  "title": " El modo demo está activado, las zonas no calientan",
+  "causes": [
+   " El modo demo está activo, por lo que las zonas de cocción permanecen frías."
+  ],
+  "steps": [
+   " Apague el interruptor automático o el fusible de la placa durante 30 segundos.",
+   " Vuelva a conectarlo.",
+   " Toque cualquier control en un plazo de tres minutos."
+  ],
+  "technician": " Llame al servicio de asistencia de Bosch si el código vuelve a aparecer tras un reinicio de la corriente."
+ },
+ "Bosch|F1": {
+  "title": " Zona de cocción sobrecalentada y apagada",
+  "causes": [
+   " Una zona se ha sobrecalentado y se ha apagado para proteger la encimera."
+  ],
+  "steps": [
+   " Deje que la electrónica se enfríe.",
+   " Vuelva a encender la zona.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Llame al servicio de asistencia de Bosch si el código vuelve a aparecer tras un reinicio de la corriente."
+ },
+ "Bosch|F6": {
+  "title": " Zona de cocción sobrecalentada y apagada",
+  "causes": [
+   " Una zona se ha sobrecalentado y se ha apagado para proteger la encimera."
+  ],
+  "steps": [
+   " Deje que la electrónica se enfríe.",
+   " Vuelva a encender la zona.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Llame al servicio de asistencia de Bosch si el código vuelve a aparecer tras un reinicio de la corriente."
+ },
+ "Bosch|F2": {
+  "title": " Electrónica sobrecalentada, zona apagada",
+  "causes": [
+   " La electrónica está demasiado caliente, por lo que la zona se ha apagado."
+  ],
+  "steps": [
+   " Deje que la placa se enfríe.",
+   " Toque cualquier control.",
+   " Vuelva a cocinar cuando desaparezca el mensaje.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Llame al servicio de asistencia de Bosch si el código vuelve a aparecer tras un reinicio de la corriente."
+ },
+ "Bosch|F4": {
+  "title": " Electrónica sobrecalentada",
+  "causes": [
+   " La electrónica está demasiado caliente."
+  ],
+  "steps": [
+   " Deje que la placa se enfríe.",
+   " Toque cualquier control.",
+   " Reanude la cocción cuando desaparezca el mensaje.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Llame al servicio de asistencia de Bosch si el código vuelve a aparecer tras un reinicio de la corriente."
+ },
+ "Bosch|F5": {
+  "title": " Recipiente caliente cerca del panel de control",
+  "causes": [
+   " Hay un recipiente caliente cerca de los controles táctiles.",
+   " La electrónica corre el riesgo de sobrecalentarse."
+  ],
+  "steps": [
+   " Aparte el recipiente del panel de control.",
+   " Espere unos segundos y toque cualquier control.",
+   " Reanude la cocción cuando desaparezca el mensaje."
+  ],
+  "technician": " Llame al servicio de asistencia de Bosch si el código vuelve a aparecer tras un reinicio de la corriente."
+ },
+ "Bosch|F8": {
+  "title": " La zona ha funcionado demasiado tiempo, límite de tiempo alcanzado",
+  "causes": [
+   " Se ha dejado una zona encendida durante mucho tiempo sin ninguna acción."
+  ],
+  "steps": [
+   " Toque cualquier control.",
+   " Vuelva a configurar la zona.",
+   " Continúe cocinando.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Llame al servicio de asistencia de Bosch si el código vuelve a aparecer tras un reinicio de la corriente."
+ },
+ "Bosch|E7010": {
+  "title": " La placa no puede conectarse a la red ni a la campana",
+  "causes": [
+   " La placa ha perdido la conexión con la red doméstica o con la campana extractora."
+  ],
+  "steps": [
+   " Apague y encienda la placa.",
+   " Compruebe que su Wi-Fi funciona.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Llame al servicio de asistencia de Bosch si el código vuelve a aparecer tras un reinicio de la corriente."
+ },
+ "Bosch|E9000": {
+  "title": " Tensión de alimentación fuera del rango normal",
+  "causes": [
+   " La tensión de la red eléctrica es demasiado alta o demasiado baja."
+  ],
+  "steps": [
+   " Apague y vuelva a encender la placa.",
+   " Pida a su compañía eléctrica que compruebe la tensión de suministro."
+  ],
+  "technician": " Llame al servicio de asistencia de Bosch si su compañía no encuentra ningún problema."
+ },
+ "Bosch|E9010": {
+  "title": " Tensión de alimentación fuera del rango normal",
+  "causes": [
+   " La tensión de la red eléctrica es demasiado alta o demasiado baja."
+  ],
+  "steps": [
+   " Apague y vuelva a encender la placa.",
+   " Pida a su compañía eléctrica que compruebe la tensión de suministro."
+  ],
+  "technician": " Llame al servicio de asistencia de Bosch si su compañía no encuentra ningún problema."
+ },
+ "Bosch|E9011": {
+  "title": " Placa mal conectada",
+  "causes": [
+   " El cableado no coincide con el esquema eléctrico."
+  ],
+  "steps": [
+   " Corte la corriente en el interruptor automático.",
+   " Pida a un electricista cualificado que revise el cableado según el esquema."
+  ],
+  "technician": " Llame a un electricista cualificado o al servicio de asistencia de Bosch."
+ },
+ "Bosch|U400": {
+  "title": " Tensión de alimentación fuera del rango normal",
+  "causes": [
+   " La tensión de alimentación está fuera de los límites normales."
+  ],
+  "steps": [
+   " Apague y vuelva a encender la placa.",
+   " Póngase en contacto con su compañía eléctrica para que compruebe la tensión.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Llame al servicio de asistencia de Bosch si el suministro resulta normal."
+ },
+ "Siemens|E0111": {
+  "title": " Mensaje de fallo de la electrónica",
+  "causes": [
+   " La electrónica del horno ha detectado un fallo.",
+   " Puede tratarse de un fallo puntual."
+  ],
+  "steps": [
+   " Apague el horno y vuelva a encenderlo.",
+   " Si el mensaje desaparece, fue algo puntual.",
+   " Si vuelve a aparecer, anote el código exacto."
+  ],
+  "technician": " Llame al servicio posventa de Siemens con el código exacto si vuelve a aparecer."
+ },
+ "Neff|E011": {
+  "title": " Botón asignado de forma permanente",
+  "causes": [
+   " Un botón está pulsado o asignado de forma permanente."
+  ],
+  "steps": [
+   " Cancele la asignación permanente del botón.",
+   " Después pulse el botón de la función de reloj.",
+   " Limpie alrededor de los botones.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Llame al servicio técnico de Neff si E011 no desaparece."
+ },
+ "Neff|E300": {
+  "title": " Fallo interno de la electrónica",
+  "causes": [
+   " Fallo interno en la electrónica del horno."
+  ],
+  "steps": [
+   " Pulse el botón de la función de reloj.",
+   " Si continúa, desenchufe el horno.",
+   " Espere unos 10 segundos y vuelva a enchufarlo.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Llame al servicio técnico de Neff si el código vuelve a aparecer."
+ },
+ "Neff|rrr": {
+  "title": " Se ha cortado la corriente durante el funcionamiento",
+  "causes": [
+   " Se interrumpió el suministro eléctrico mientras el horno estaba funcionando."
+  ],
+  "steps": [
+   " Pulse el botón de la hora.",
+   " Vuelva a ajustar el reloj.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " No hace falta servicio técnico, salvo que se repita sin corte de corriente."
+ },
+ "Miele|E0-E5": {
+  "title": " Códigos de progreso del programa de descalcificación",
+  "causes": [
+   " Estos códigos indican en qué paso del programa de descalcificación se encuentra el horno.",
+   " E0 es la aspiración de la solución, E1 la activación, E2 a E4 los aclarados y E5 la evaporación."
+  ],
+  "steps": [
+   " Deje que el programa termine.",
+   " No apague el horno durante la descalcificación."
+  ],
+  "technician": " No hace falta servicio técnico, salvo que el programa se detenga."
+ },
+ "Miele|F23": {
+  "title": " La limpieza pirolítica no ha alcanzado la temperatura",
+  "causes": [
+   " El horno no ha podido calentarse lo suficiente para la autolimpieza.",
+   " Hay muchos restos de comida en el interior."
+  ],
+  "steps": [
+   " Apague el horno.",
+   " Limpie los depósitos grandes y la suciedad abundante.",
+   " Vuelva a iniciar la limpieza pirolítica."
+  ],
+  "technician": " Póngase en contacto con el servicio de atención al cliente de Miele o solicite una reparación si el fallo vuelve a aparecer."
+ },
+ "Miele|F32": {
+  "title": " El bloqueo de la puerta pirolítico no cierra",
+  "causes": [
+   " El bloqueo de la puerta de la autolimpieza no engancha.",
+   " Puede que algo bloquee la puerta."
+  ],
+  "steps": [
+   " Compruebe la puerta y la zona de la junta por si hay objetos o restos.",
+   " Apague el horno.",
+   " Vuelva a iniciar la limpieza pirolítica."
+  ],
+  "technician": " Póngase en contacto con el servicio de atención al cliente de Miele o solicite una reparación si el fallo vuelve a aparecer."
+ },
+ "Miele|F33": {
+  "title": " El bloqueo de la puerta pirolítico no se abre",
+  "causes": [
+   " El bloqueo de la puerta de la autolimpieza no se ha liberado."
+  ],
+  "steps": [
+   " Apague el horno para detener el ciclo de limpieza.",
+   " Intente abrir la puerta.",
+   " No la fuerce.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Llame al servicio de atención al cliente de Miele si la puerta sigue bloqueada."
+ },
+ "Miele|F38": {
+  "title": " Fallo del módulo electrónico",
+  "causes": [
+   " El módulo electrónico del horno tiene un fallo técnico."
+  ],
+  "steps": [
+   " No intente repararlo usted mismo.",
+   " Anote el código y el número de modelo.",
+   " Solicite una reparación.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite un técnico de Miele, ya que no se puede solucionar en casa."
+ },
+ "Miele|F44": {
+  "title": " Fallo técnico detectado",
+  "causes": [
+   " El horno ha detectado un fallo técnico."
+  ],
+  "steps": [
+   " Apague el interruptor automático o desenchufe el horno.",
+   " Déjelo apagado durante 20 segundos.",
+   " Restablezca la corriente y pruebe.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Póngase en contacto con el servicio de atención al cliente de Miele o solicite una reparación si el fallo vuelve a aparecer."
+ },
+ "Miele|F54": {
+  "title": " La sonda de alimentos está defectuosa",
+  "causes": [
+   " La sonda de alimentos o su conexión están defectuosas."
+  ],
+  "steps": [
+   " Saque la sonda de su toma.",
+   " El mensaje de fallo debería desaparecer.",
+   " Cocine sin la sonda por ahora.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Póngase en contacto con el servicio de atención al cliente de Miele para comprar una sonda de repuesto."
+ },
+ "Miele|F55": {
+  "title": " Horno apagado tras funcionar demasiado tiempo",
+  "causes": [
+   " El horno ha funcionado durante un tiempo inusualmente largo, por lo que se ha apagado por seguridad.",
+   " El límite es de 6 horas en los modos de grill y de 12 horas en los demás."
+  ],
+  "steps": [
+   " Apague el horno y vuelva a encenderlo.",
+   " Inicie un nuevo proceso de cocinado."
+  ],
+  "technician": " No hace falta servicio técnico, salvo que siga ocurriendo con cocinados cortos."
+ },
+ "Miele|F60": {
+  "title": " Ventilación del horno insuficiente",
+  "causes": [
+   " El conducto de aire está bloqueado o tapado."
+  ],
+  "steps": [
+   " Compruebe que nada tapa el conducto de aire del horno.",
+   " Desconecte el horno de la corriente y vuelva a conectarlo.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Póngase en contacto con el servicio de atención al cliente de Miele o solicite una reparación si el fallo vuelve a aparecer."
+ },
+ "Miele|F134": {
+  "title": " Cavidad del horno demasiado caliente",
+  "causes": [
+   " El sensor de temperatura indica que el espacio de cocción está demasiado caliente."
+  ],
+  "steps": [
+   " Apague el horno y deje que se enfríe.",
+   " No intente repararlo usted mismo.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación de Miele, ya que hace falta un técnico."
+ },
+ "Miele|MES": {
+  "title": " Modo demo activado, el horno no calienta",
+  "causes": [
+   " El modo demo de exposición está activado."
+  ],
+  "steps": [
+   " Confirme el mensaje con OK.",
+   " Gire el selector de modo a 0.",
+   " Abra Ajustes, vaya a P 9 y configure S 0.",
+   " Mantenga pulsado OK durante 4 segundos."
+  ],
+  "technician": " Póngase en contacto con Miele si el modo demo vuelve a aparecer."
+ },
+ "Miele|F1": {
+  "title": " Depósito de agua sin introducir del todo",
+  "causes": [
+   " El depósito de agua para bombear el agua sobrante falta o no está completamente introducido."
+  ],
+  "steps": [
+   " Empuje el depósito de agua hasta el fondo del horno.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Póngase en contacto con el servicio de atención al cliente de Miele o solicite una reparación si el fallo vuelve a aparecer."
+ },
+ "Miele|F04": {
+  "title": " Corte de corriente durante el cocinado",
+  "causes": [
+   " El horno perdió la corriente durante un programa de cocinado."
+  ],
+  "steps": [
+   " Compruebe cuánto ha avanzado el cocinado.",
+   " Ajuste un nuevo tiempo de cocinado si es necesario.",
+   " Pulse Start/Stop para reanudar.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Póngase en contacto con el servicio de atención al cliente de Miele o solicite una reparación si el fallo vuelve a aparecer."
+ },
+ "Miele|F05": {
+  "title": " El agua no llega al horno de vapor",
+  "causes": [
+   " La válvula de entrada de agua no está completamente abierta.",
+   " La boquilla de agua está obstruida por la cal."
+  ],
+  "steps": [
+   " Abra completamente la válvula de entrada de agua y reinicie.",
+   " Si vuelve a aparecer, descalcifique la boquilla de agua con guantes de horno.",
+   " Aclare las piezas de agua."
+  ],
+  "technician": " Póngase en contacto con el servicio de atención al cliente de Miele o solicite una reparación si el fallo vuelve a aparecer."
+ },
+ "Miele|F10": {
+  "title": " Fallo de entrada de agua en el horno de vapor",
+  "causes": [
+   " La bomba de alimentación está seca tras un largo periodo sin uso.",
+   " El tubo de aspiración negro está suelto o dañado.",
+   " El agua de ósmosis es demasiado pura para el sensor."
+  ],
+  "steps": [
+   " Vuelva a colocar el tubo de aspiración negro en posición vertical en el depósito.",
+   " Apague el sistema de ósmosis si puede.",
+   " O añada una pizca de sal al agua."
+  ],
+  "technician": " Póngase en contacto con el servicio de atención al cliente de Miele o solicite una reparación si el fallo vuelve a aparecer."
+ },
+ "Miele|F11": {
+  "title": " El generador de vapor no puede drenar el agua",
+  "causes": [
+   " Hay cal en el desagüe o en el electrodo.",
+   " Los tubos están bloqueados o atascados."
+  ],
+  "steps": [
+   " Descalcifique el horno como se describe en el manual.",
+   " Ajuste la dureza del agua al máximo en las series 6000 y 7000.",
+   " No repita la descalcificación con una solución más fuerte."
+  ],
+  "technician": " Póngase en contacto con el servicio de atención al cliente de Miele o solicite una reparación si el fallo vuelve a aparecer."
+ },
+ "Miele|F12": {
+  "title": " El horno de vapor no recibe agua",
+  "causes": [
+   " La válvula de entrada de agua está cerrada.",
+   " El filtro de entrada de agua está obstruido."
+  ],
+  "steps": [
+   " Abra la válvula de agua y reinicie.",
+   " Limpie el filtro de la entrada de agua.",
+   " Apague el horno y cierre la válvula si sospecha que el tubo está en mal estado."
+  ],
+  "technician": " Llame a Miele o a un fontanero si el tubo parece defectuoso."
+ },
+ "Miele|F13": {
+  "title": " Compartimento del horno de vapor demasiado caliente",
+  "causes": [
+   " Puede que la válvula de entrada de agua esté cerrada.",
+   " Puede que la boquilla de agua necesite descalcificarse."
+  ],
+  "steps": [
+   " Abra completamente la válvula de entrada de agua.",
+   " Si vuelve a aparecer, descalcifique y aclare la boquilla.",
+   " Use guantes de horno."
+  ],
+  "technician": " Póngase en contacto con el servicio de atención al cliente de Miele o solicite una reparación si el fallo vuelve a aparecer."
+ },
+ "Whirlpool|F0 E0": {
+  "title": " Fallo del control del horno sin identificar",
+  "causes": [
+   " El control no puede identificar el fallo."
+  ],
+  "steps": [
+   " Apague el interruptor automático de la cocina durante un minuto.",
+   " Vuelva a conectarlo.",
+   " Observe el horno durante un minuto para ver si el código vuelve a aparecer."
+  ],
+  "technician": " Póngase en contacto con el servicio técnico de Whirlpool si el código vuelve a aparecer."
+ },
+ "Whirlpool|F1": {
+  "title": " Posible fallo del sensor, del control o del cableado",
+  "causes": [
+   " Problema del sensor de temperatura del horno, del control o del cableado."
+  ],
+  "steps": [
+   " Apague el interruptor automático de la cocina durante un minuto.",
+   " Vuelva a conectarlo.",
+   " Observe el horno durante un minuto para ver si el código vuelve a aparecer."
+  ],
+  "technician": " Póngase en contacto con el servicio técnico de Whirlpool si el código vuelve a aparecer."
+ },
+ "Whirlpool|F2": {
+  "title": " Posible fallo del sensor, del control o del cableado",
+  "causes": [
+   " Problema del sensor de temperatura del horno, del control o del cableado."
+  ],
+  "steps": [
+   " Apague el interruptor automático de la cocina durante un minuto.",
+   " Vuelva a conectarlo.",
+   " Observe el horno durante un minuto para ver si el código vuelve a aparecer."
+  ],
+  "technician": " Póngase en contacto con el servicio técnico de Whirlpool si el código vuelve a aparecer."
+ },
+ "Whirlpool|F3": {
+  "title": " Posible fallo del control o del cableado del horno",
+  "causes": [
+   " Problema del control o del cableado del horno."
+  ],
+  "steps": [
+   " Apague el interruptor automático de la cocina durante un minuto.",
+   " Vuelva a conectarlo.",
+   " Observe el horno durante un minuto para ver si el código vuelve a aparecer."
+  ],
+  "technician": " Póngase en contacto con el servicio técnico de Whirlpool si el código vuelve a aparecer."
+ },
+ "Whirlpool|F5": {
+  "title": " Problema del cierre de la puerta del horno",
+  "causes": [
+   " Problema del cierre de la puerta, del interruptor o del cableado."
+  ],
+  "steps": [
+   " Apague el interruptor automático de la cocina durante un minuto.",
+   " Vuelva a conectarlo.",
+   " Observe el horno durante un minuto para ver si el código vuelve a aparecer."
+  ],
+  "technician": " Póngase en contacto con el servicio técnico de Whirlpool si el código vuelve a aparecer."
+ },
+ "Whirlpool|F5 E0": {
+  "title": " Problema del cierre de la puerta del horno",
+  "causes": [
+   " Problema del cierre de la puerta, del interruptor o del cableado."
+  ],
+  "steps": [
+   " Apague el interruptor automático de la cocina durante un minuto.",
+   " Vuelva a conectarlo.",
+   " Observe el horno durante un minuto para ver si el código vuelve a aparecer."
+  ],
+  "technician": " Póngase en contacto con el servicio técnico de Whirlpool si el código vuelve a aparecer."
+ },
+ "Whirlpool|F6": {
+  "title": " Posible fallo del control o del cableado del horno",
+  "causes": [
+   " Problema del control o del cableado del horno."
+  ],
+  "steps": [
+   " Apague el interruptor automático de la cocina durante un minuto.",
+   " Vuelva a conectarlo.",
+   " Observe el horno durante un minuto para ver si el código vuelve a aparecer."
+  ],
+  "technician": " Póngase en contacto con el servicio técnico de Whirlpool si el código vuelve a aparecer."
+ },
+ "Whirlpool|F7 E0": {
+  "title": " Problema del conjunto del cierre de la puerta",
+  "causes": [
+   " Problema del conjunto del cierre de la puerta o del cableado."
+  ],
+  "steps": [
+   " Apague el interruptor automático de la cocina durante un minuto.",
+   " Vuelva a conectarlo.",
+   " Observe el horno durante un minuto para ver si el código vuelve a aparecer."
+  ],
+  "technician": " Póngase en contacto con el servicio técnico de Whirlpool si el código vuelve a aparecer."
+ },
+ "Whirlpool|F8 E0": {
+  "title": " Ventilador de refrigeración del horno lento",
+  "causes": [
+   " Restricción del flujo de aire.",
+   " Ventilador de refrigeración o cableado defectuoso."
+  ],
+  "steps": [
+   " Apague el interruptor automático de la cocina durante un minuto.",
+   " Vuelva a conectarlo.",
+   " Observe el horno durante un minuto para ver si el código vuelve a aparecer."
+  ],
+  "technician": " Póngase en contacto con el servicio técnico de Whirlpool si el código vuelve a aparecer."
+ },
+ "Whirlpool|F9-1": {
+  "title": " Problema del cierre de la puerta o del interruptor de bloqueo",
+  "causes": [
+   " Problema del cierre de la puerta, del interruptor de bloqueo o del cableado."
+  ],
+  "steps": [
+   " Apague el interruptor automático de la cocina durante un minuto.",
+   " Vuelva a conectarlo.",
+   " Observe el horno durante un minuto para ver si el código vuelve a aparecer."
+  ],
+  "technician": " Póngase en contacto con el servicio técnico de Whirlpool si el código vuelve a aparecer."
+ },
+ "Whirlpool|F2 E1": {
+  "title": " Problema del teclado o del control",
+  "causes": [
+   " Problema del teclado, del control o del cableado.",
+   " Puede que una parrilla esté mal colocada."
+  ],
+  "steps": [
+   " Compruebe que las parrillas están niveladas.",
+   " Cámbielas de sitio si se tambalean.",
+   " Apague el interruptor automático durante un minuto."
+  ],
+  "technician": " Póngase en contacto con el servicio técnico de Whirlpool si el código vuelve a aparecer."
+ },
+ "LG|F1": {
+  "title": " Error del termistor del horno superior",
+  "causes": [
+   " Fallo del sensor de temperatura del horno superior."
+  ],
+  "steps": [
+   " Pulse CLEAR/OFF e inténtelo de nuevo con la función.",
+   " Apague el interruptor automático de la cocina durante 30 segundos.",
+   " Vuelva a conectarlo.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación de LG si sigue apareciendo."
+ },
+ "LG|F2": {
+  "title": " Error del termistor del horno superior",
+  "causes": [
+   " Fallo del sensor de temperatura del horno superior."
+  ],
+  "steps": [
+   " Pulse CLEAR/OFF e inténtelo de nuevo con la función.",
+   " Apague el interruptor automático de la cocina durante 30 segundos.",
+   " Vuelva a conectarlo.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación de LG si sigue apareciendo."
+ },
+ "LG|F3": {
+  "title": " Error de una tecla del panel táctil",
+  "causes": [
+   " Fallo del sensor de una tecla del panel táctil."
+  ],
+  "steps": [
+   " Pulse CLEAR/OFF e inténtelo de nuevo con la función.",
+   " Apague el interruptor automático de la cocina durante 30 segundos.",
+   " Vuelva a conectarlo.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación de LG si sigue apareciendo."
+ },
+ "LG|F6": {
+  "title": " Error de calentamiento del horno superior",
+  "causes": [
+   " Fallo de calentamiento del horno superior."
+  ],
+  "steps": [
+   " Pulse CLEAR/OFF e inténtelo de nuevo con la función.",
+   " Apague el interruptor automático de la cocina durante 30 segundos.",
+   " Vuelva a conectarlo.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación de LG si sigue apareciendo."
+ },
+ "LG|F7": {
+  "title": " Error del ventilador de convección superior",
+  "causes": [
+   " Fallo del ventilador de convección."
+  ],
+  "steps": [
+   " Pulse CLEAR/OFF e inténtelo de nuevo con la función.",
+   " Apague el interruptor automático de la cocina durante 30 segundos.",
+   " Vuelva a conectarlo.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación de LG si sigue apareciendo."
+ },
+ "LG|F9": {
+  "title": " El horno superior no calienta correctamente",
+  "causes": [
+   " El horno superior no calienta."
+  ],
+  "steps": [
+   " Pulse CLEAR/OFF e inténtelo de nuevo con la función.",
+   " Apague el interruptor automático de la cocina durante 30 segundos.",
+   " Vuelva a conectarlo.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación de LG si sigue apareciendo."
+ },
+ "LG|F10": {
+  "title": " Fallo del bloqueo de la puerta del horno superior",
+  "causes": [
+   " Fallo del sistema de bloqueo de la puerta."
+  ],
+  "steps": [
+   " Pulse CLEAR/OFF e inténtelo de nuevo con la función.",
+   " Apague el interruptor automático de la cocina durante 30 segundos.",
+   " Vuelva a conectarlo.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación de LG si sigue apareciendo."
+ },
+ "LG|F11": {
+  "title": " Error de comunicación",
+  "causes": [
+   " Las placas no se comunican."
+  ],
+  "steps": [
+   " Pulse CLEAR/OFF e inténtelo de nuevo con la función.",
+   " Apague el interruptor automático de la cocina durante 30 segundos.",
+   " Vuelva a conectarlo.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación de LG si sigue apareciendo."
+ },
+ "LG|F20": {
+  "title": " Fallo del bloqueo de la puerta del horno inferior",
+  "causes": [
+   " Fallo del sistema de bloqueo de la puerta."
+  ],
+  "steps": [
+   " Pulse CLEAR/OFF e inténtelo de nuevo con la función.",
+   " Apague el interruptor automático de la cocina durante 30 segundos.",
+   " Vuelva a conectarlo.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación de LG si sigue apareciendo."
+ },
+ "LG|F27": {
+  "title": " Ventilador de refrigeración bloqueado durante la autolimpieza",
+  "causes": [
+   " El ventilador se ha bloqueado durante la autolimpieza."
+  ],
+  "steps": [
+   " Pulse CLEAR/OFF e inténtelo de nuevo con la función.",
+   " Apague el interruptor automático de la cocina durante 30 segundos.",
+   " Vuelva a conectarlo.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación de LG si sigue apareciendo."
+ },
+ "LG|PF": {
+  "title": " Se ha interrumpido la corriente",
+  "causes": [
+   " Se ha interrumpido la alimentación eléctrica del aparato."
+  ],
+  "steps": [
+   " Pulse CLEAR/OFF e inténtelo de nuevo con la función.",
+   " Apague el interruptor automático de la cocina durante 30 segundos.",
+   " Vuelva a conectarlo.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación de LG si sigue apareciendo."
+ },
+ "Miele|F14": {
+  "title": " Agua insuficiente en el generador de vapor",
+  "causes": [
+   " No llega suficiente agua al generador de vapor."
+  ],
+  "steps": [
+   " Apague el horno y vuelva a encenderlo.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Apáguelo y póngase en contacto con Miele si F14 vuelve a aparecer."
+ },
+ "Miele|F20": {
+  "title": " El horno de vapor no calienta",
+  "causes": [
+   " La temperatura no ha subido 2 grados en 5 minutos.",
+   " Una gran cantidad de alimentos congelados puede provocarlo."
+  ],
+  "steps": [
+   " Apague y encienda el horno y vuelva a iniciar el cocinado.",
+   " Empuje el depósito de agua hasta que haga clic.",
+   " Utilice solo la grasa de silicona suministrada en la junta."
+  ],
+  "technician": " Llame a Miele si la junta del acoplamiento parece agrietada o se acumula agua."
+ },
+ "Miele|F27": {
+  "title": " Corte de corriente durante el cocinado o la descalcificación",
+  "causes": [
+   " Se cortó la corriente durante un programa de cocinado (F27).",
+   " E04 significa que se cortó la corriente durante la descalcificación."
+  ],
+  "steps": [
+   " Para F27, ajuste un nuevo tiempo y pulse Start/Stop.",
+   " Para E04, espere a que la pantalla haga la cuenta atrás desde 0:06.",
+   " Apague y encienda el horno."
+  ],
+  "technician": " Póngase en contacto con el servicio de atención al cliente de Miele o solicite una reparación si el fallo vuelve a aparecer."
+ },
+ "Miele|F74": {
+  "title": " Fallo técnico en el horno de vapor",
+  "causes": [
+   " Fallo técnico que no se puede solucionar en casa."
+  ],
+  "steps": [
+   " No intente repararlo usted mismo.",
+   " Anote el código y el número de modelo.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite la visita de un técnico de Miele."
+ },
+ "Miele|F95": {
+  "title": " Interruptor de nivel de agua bloqueado por la cal",
+  "causes": [
+   " La cal bloquea el interruptor de nivel."
+  ],
+  "steps": [
+   " Descalcifique el horno como se indica en el manual.",
+   " Utilice productos de cuidado Miele.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Póngase en contacto con el servicio de atención al cliente de Miele o solicite una reparación si el fallo vuelve a aparecer."
+ },
+ "Miele|F235": {
+  "title": " Fallo del módulo electrónico",
+  "causes": [
+   " El módulo electrónico está defectuoso."
+  ],
+  "steps": [
+   " No intente repararlo por su cuenta.",
+   " Anote el código.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación de Miele."
+ },
+ "Electrolux|F1": {
+  "title": " La puerta del horno no puede bloquearse",
+  "causes": [
+   " Modelos pirolíticos: la función de limpieza está activada y la puerta no cierra.",
+   " Otros modelos: fallo electrónico."
+  ],
+  "steps": [
+   " Compruebe que la parte superior de la puerta está intacta.",
+   " Siga el manual si se ha desmontado la puerta.",
+   " Póngase en contacto con el servicio técnico si persiste."
+  ],
+  "technician": " Solicite una reparación de Electrolux si el código vuelve a aparecer."
+ },
+ "Electrolux|F102": {
+  "title": " Fallo del sensor de bloqueo de la puerta",
+  "causes": [
+   " La puerta no está completamente cerrada.",
+   " Bloqueo de la puerta o electrónica defectuosos."
+  ],
+  "steps": [
+   " Cierre la puerta con firmeza.",
+   " Corte la corriente durante unos minutos y vuelva a conectarla.",
+   " Compruebe el fusible de la vivienda o el diferencial."
+  ],
+  "technician": " Solicite una reparación de Electrolux si el código vuelve a aparecer."
+ },
+ "Electrolux|F111": {
+  "title": " Sonda de alimentos defectuosa o desconectada",
+  "causes": [
+   " La sonda no está completamente enchufada.",
+   " La sonda o su cable están dañados."
+  ],
+  "steps": [
+   " Desenchufe la sonda y vuelva a conectarla con firmeza.",
+   " Compruebe si hay contactos doblados o el cable está dañado.",
+   " Apague el horno en la red eléctrica durante 30 segundos."
+  ],
+  "technician": " Solicite una reparación de Electrolux si el código vuelve a aparecer."
+ },
+ "Electrolux|F104": {
+  "title": " Sensor de temperatura fuera de rango",
+  "causes": [
+   " El sensor de temperatura del horno está fuera de rango.",
+   " Puede que el horno no caliente o que se detenga."
+  ],
+  "steps": [
+   " Apague el horno en la red eléctrica durante 30 segundos.",
+   " Vuelva a encenderlo.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Póngase en contacto con un centro de servicio autorizado."
+ },
+ "Electrolux|F105": {
+  "title": " Alarma de temperatura demasiado alta del sensor",
+  "causes": [
+   " El sensor ha detectado una temperatura superior al nivel esperado."
+  ],
+  "steps": [
+   " Apague el horno y deje que se enfríe.",
+   " Corte la corriente durante 30 segundos y vuelva a conectarla.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Póngase en contacto con un centro de servicio autorizado."
+ },
+ "Electrolux|F215": {
+  "title": " Fallo de software del horno conectado",
+  "causes": [
+   " Problema de software en un horno conectado."
+  ],
+  "steps": [
+   " Vuelva a instalar la aplicación y reconecte el horno.",
+   " Desenchufe el horno durante 30 minutos y vuelva a conectarlo.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación si F215 aparece en la pantalla."
+ },
+ "Electrolux|F601": {
+  "title": " Problema de señal Wi-Fi del horno",
+  "causes": [
+   " Hay un problema con la señal Wi-Fi."
+  ],
+  "steps": [
+   " Compruebe su conexión de red.",
+   " Acerque el router.",
+   " Restablezca los ajustes Wi-Fi del horno y vuelva a configurarlo.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación si no se conecta."
+ },
+ "Electrolux|F604": {
+  "title": " Ha fallado el primer intento de conexión Wi-Fi",
+  "causes": [
+   " Ha fallado el primer intento de conectarse a la Wi-Fi."
+  ],
+  "steps": [
+   " Apague y encienda el horno.",
+   " Intente conectarse de nuevo.",
+   " Compruebe su conexión a internet.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación si no se conecta."
+ },
+ "Electrolux|E0020": {
+  "title": " La luz del horno no funciona",
+  "causes": [
+   " La bombilla del horno está defectuosa."
+  ],
+  "steps": [
+   " Apague el horno y deje que se enfríe.",
+   " Compruebe la bombilla y sustitúyala si está defectuosa.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Póngase en contacto con un centro de servicio si la bombilla está bien."
+ },
+ "Electrolux|C1": {
+  "title": " Limpieza pirolítica bloqueada por los carriles telescópicos",
+  "causes": [
+   " Hay carriles telescópicos en el horno."
+  ],
+  "steps": [
+   " Retire los carriles, las bandejas y los soportes laterales.",
+   " Vuelva a iniciar Pyro Clean.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Póngase en contacto con el servicio técnico si persiste."
+ },
+ "Electrolux|C2": {
+  "title": " Limpieza pirolítica bloqueada por la sonda de alimentos",
+  "causes": [
+   " La sonda de alimentos está enchufada."
+  ],
+  "steps": [
+   " Desenchufe la sonda de su toma.",
+   " Vuelva a iniciar Pyro Clean.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Póngase en contacto con el servicio técnico si persiste."
+ },
+ "Electrolux|C3": {
+  "title": " Limpieza pirolítica bloqueada por la puerta abierta",
+  "causes": [
+   " La puerta está abierta o no está completamente cerrada."
+  ],
+  "steps": [
+   " Cierre completamente la puerta.",
+   " Vuelva a iniciar Pyro Clean.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Póngase en contacto con el servicio técnico si persiste."
+ },
+ "Electrolux|C4": {
+  "title": " Limpieza pirolítica bloqueada por Steam Bake",
+  "causes": [
+   " Steam Bake sigue activo."
+  ],
+  "steps": [
+   " Pulse Steam Bake hasta que se apague su luz.",
+   " Vuelva a iniciar Pyro Clean.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Póngase en contacto con el servicio técnico si persiste."
+ },
+ "AEG|F": {
+  "title": " Recipiente no detectado o fallo de la placa",
+  "causes": [
+   " Recipiente inadecuado o recipiente retirado de la placa.",
+   " En una instalación nueva, un problema de instalación."
+  ],
+  "steps": [
+   " Compruebe que un imán se pega a la base del recipiente.",
+   " Centre el recipiente en la zona.",
+   " Mantenga secas la placa y el recipiente.",
+   " Corte la corriente en la red durante 30 segundos."
+  ],
+  "technician": " Solicite un técnico si F permanece o aparece con un dígito."
+ },
+ "AEG|F2": {
+  "title": " SenseBoil: olla vacía o con aceite",
+  "causes": [
+   " La olla está vacía o contiene aceite u otro líquido que no es agua."
+  ],
+  "steps": [
+   " Seque la superficie de la placa.",
+   " No caliente una olla vacía.",
+   " Use SenseBoil solo con agua.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " No es una avería si desaparece."
+ },
+ "AEG|F3": {
+  "title": " SenseBoil: cantidad de agua incorrecta",
+  "causes": [
+   " Hay demasiada agua o muy poca en la olla.",
+   " Alimentos distintos del agua o las patatas."
+  ],
+  "steps": [
+   " Seque la superficie de la placa.",
+   " Llene la olla entre la mitad y tres cuartas partes, de 1 a 5 litros.",
+   " Hierva únicamente agua y patatas."
+  ],
+  "technician": " No es una avería si desaparece."
+ },
+ "AEG|E2": {
+  "title": " Error del LED o del sensor de la placa",
+  "causes": [
+   " En las placas de inducción, un error de iluminación LED.",
+   " En las teppanyaki, un error del sensor de temperatura."
+  ],
+  "steps": [
+   " Corte la corriente durante 30 segundos.",
+   " Vuelva a encender.",
+   " Anote el código exacto.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación de AEG si el código vuelve a aparecer."
+ },
+ "AEG|E3": {
+  "title": " Placa conectada a una tensión incorrecta",
+  "causes": [
+   " Posible sobretensión o cableado incorrecto."
+  ],
+  "steps": [
+   " Deje de usar la placa.",
+   " Pida al instalador que revise el suministro y el cableado.",
+   " No arregle usted mismo la instalación eléctrica.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Llame a un electricista cualificado o al servicio técnico de AEG."
+ },
+ "AEG|E4": {
+  "title": " Protección contra sobrecalentamiento de la placa activa",
+  "causes": [
+   " La placa se ha sobrecalentado.",
+   " Recipientes inadecuados o mala instalación."
+  ],
+  "steps": [
+   " Apague y retire los recipientes.",
+   " Compruebe el recipiente con un imán.",
+   " Corte la corriente durante 30 segundos.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación de AEG si el código vuelve a aparecer."
+ },
+ "AEG|E5": {
+  "title": " Problema de fase o de tensión de la placa",
+  "causes": [
+   " Problema de fase o de tensión en la alimentación eléctrica."
+  ],
+  "steps": [
+   " Apague el interruptor de aislamiento durante 30 segundos.",
+   " Enciéndalo y pruebe.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación de AEG si el código vuelve a aparecer."
+ },
+ "AEG|E6": {
+  "title": " Problema de alimentación eléctrica de la placa",
+  "causes": [
+   " Suele deberse a una instalación incorrecta, como un enchufe de 13 amperios para una placa de 16 amperios."
+  ],
+  "steps": [
+   " Apague y encienda la placa.",
+   " Desconéctela durante 30 segundos.",
+   " Pida que revisen el suministro eléctrico."
+  ],
+  "technician": " Solicite una reparación de AEG si el código vuelve a aparecer."
+ },
+ "AEG|E7": {
+  "title": " Fallo del ventilador de refrigeración de la placa",
+  "causes": [
+   " Ventilador bloqueado o defectuoso en los modelos más recientes."
+  ],
+  "steps": [
+   " Compruebe que nada bloquea el ventilador bajo la placa.",
+   " Corte la corriente durante 30 segundos.",
+   " Vuelva a encenderla.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación de AEG si el código vuelve a aparecer."
+ },
+ "AEG|E8": {
+  "title": " Fallo de la electrónica o de una fase de la placa",
+  "causes": [
+   " Falta una fase tras la instalación.",
+   " Error de comunicación de la electrónica."
+  ],
+  "steps": [
+   " Compruebe el cableado según el manual.",
+   " Corte la corriente durante 30 segundos.",
+   " Deje de usarla si persiste."
+  ],
+  "technician": " Solicite una reparación de AEG si el código vuelve a aparecer."
+ },
+ "AEG|E9": {
+  "title": " Fallo del módulo electrónico de la placa",
+  "causes": [
+   " Fallo en el módulo electrónico."
+  ],
+  "steps": [
+   " Apague en la red eléctrica durante 30 segundos.",
+   " No use la placa si vuelve a aparecer.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Solicite una reparación de AEG si el código vuelve a aparecer."
+ },
+ "Beko|Er 5": {
+  "title": " Error de comunicación de la sonda de carne",
+  "causes": [
+   " El horno no puede comunicarse con la sonda de carne."
+  ],
+  "steps": [
+   " Retire la sonda de carne.",
+   " Ponga el mando en apagado (0).",
+   " Cocine sin la sonda.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Póngase en contacto con un servicio técnico autorizado para volver a usar la sonda."
+ },
+ "Beko|Er 1 - Er 7": {
+  "title": " Errores de comunicación del horno",
+  "causes": [
+   " Errores de comunicación internos."
+  ],
+  "steps": [
+   " Apague el horno.",
+   " Anote el número exacto.",
+   " No use el horno.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Consulte con un servicio técnico autorizado de Beko."
+ },
+ "Beko|Er 8 - Er 27": {
+  "title": " Errores de sensor del horno",
+  "causes": [
+   " Un sensor del horno está defectuoso."
+  ],
+  "steps": [
+   " Apague el horno.",
+   " Anote el número exacto.",
+   " Anote el código exacto y el número de modelo de la placa de características antes de ponerse en contacto con nadie."
+  ],
+  "technician": " Consulte con un servicio técnico autorizado de Beko."
+ }
+}

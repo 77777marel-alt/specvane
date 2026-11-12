@@ -1,0 +1,654 @@
+{
+ "Roku|Error 009": {
+  "title": "Połączono z routerem, ale brak internetu",
+  "causes": [
+   "Router jest osiągalny, ale nie ma dostępu do internetu.",
+   "Usługa internetowa nie działa."
+  ],
+  "steps": [
+   "Sprawdź, czy telefon lub laptop ma dostęp do internetu w tej samej sieci.",
+   "Jeśli żadne urządzenie nie ma internetu, zadzwoń do dostawcy internetu.",
+   "Jeśli inne urządzenia działają, uruchom telewizor ponownie.",
+   "Uruchom ponownie router i modem, a potem połącz się ponownie."
+  ],
+  "technician": "Jeśli błąd wciąż się powtarza po wykonaniu tych kroków, skontaktuj się z pomocą techniczną Roku lub dostawcą internetu."
+ },
+ "Roku|Error 012": {
+  "title": "Problem z połączeniem przewodowym z siecią",
+  "causes": [
+   "Kabel Ethernet jest poluzowany lub uszkodzony.",
+   "Port routera nie działa."
+  ],
+  "steps": [
+   "Wciśnij mocno kabel Ethernet w telewizorze i w routerze.",
+   "Spróbuj użyć innego kabla lub innego portu routera.",
+   "Uruchom ponownie telewizor, a potem router i modem.",
+   "Na chwilę spróbuj połączyć się przez Wi-Fi, aby sprawdzić, czy sam internet działa."
+  ],
+  "technician": "Jeśli błąd wciąż się powtarza po wykonaniu tych kroków, skontaktuj się z pomocą techniczną Roku lub dostawcą internetu."
+ },
+ "Roku|Error 013": {
+  "title": "Połączenie przewodowe nie ma dostępu do internetu",
+  "causes": [
+   "Router nie ma internetu.",
+   "Kabel Ethernet nie jest dobrze wpięty."
+  ],
+  "steps": [
+   "Sprawdź, czy inne urządzenie ma dostęp do internetu.",
+   "Jeśli tak, uruchom telewizor ponownie.",
+   "Jeśli nie, wyjmij i ponownie włóż kabel Ethernet po obu stronach.",
+   "Zanim zadzwonisz do dostawcy, uruchom ponownie router."
+  ],
+  "technician": "Jeśli błąd wciąż się powtarza po wykonaniu tych kroków, skontaktuj się z pomocą techniczną Roku lub dostawcą internetu."
+ },
+ "Roku|Error 014": {
+  "title": "Nie można połączyć się z siecią bezprzewodową",
+  "causes": [
+   "Wybrano złą nazwę sieci.",
+   "Wpisano złe hasło.",
+   "Router lub telewizor wymaga ponownego uruchomienia."
+  ],
+  "steps": [
+   "Sprawdź, czy wybrano właściwą nazwę sieci.",
+   "Wpisz hasło jeszcze raz; wielkość liter ma znaczenie.",
+   "Uruchom ponownie telewizor i router.",
+   "Spróbuj połączyć się ponownie."
+  ],
+  "technician": "Jeśli błąd wciąż się powtarza po wykonaniu tych kroków, skontaktuj się z pomocą techniczną Roku lub dostawcą internetu."
+ },
+ "Roku|Error 014.20": {
+  "title": "Słaby sygnał Wi-Fi uniemożliwia połączenie",
+  "causes": [
+   "Telewizor jest zbyt daleko od routera.",
+   "Ściany lub przedmioty osłabiają sygnał."
+  ],
+  "steps": [
+   "Przybliż telewizor lub router albo ustaw router wyżej.",
+   "Uruchom ponownie router i telewizor.",
+   "Jeśli router ma dwa pasma, spróbuj użyć drugiego.",
+   "Połącz się z siecią ponownie."
+  ],
+  "technician": "Jeśli błąd wciąż się powtarza po wykonaniu tych kroków, skontaktuj się z pomocą techniczną Roku lub dostawcą internetu."
+ },
+ "Roku|Error 014.30": {
+  "title": "Połączenie Wi-Fi nie powiodło się, słaby sygnał",
+  "causes": [
+   "Słaby sygnał Wi-Fi.",
+   "Chwilowa usterka routera lub telewizora."
+  ],
+  "steps": [
+   "Uruchom ponownie router i telewizor.",
+   "Przybliż telewizor do routera.",
+   "Połącz się z Wi-Fi ponownie.",
+   "Jeśli to możliwe, spróbuj użyć drugiego pasma routera."
+  ],
+  "technician": "Jeśli błąd wciąż się powtarza po wykonaniu tych kroków, skontaktuj się z pomocą techniczną Roku lub dostawcą internetu."
+ },
+ "Roku|Error 014.40": {
+  "title": "Złe hasło lub ograniczenie w routerze",
+  "causes": [
+   "Hasło Wi-Fi zostało wpisane błędnie.",
+   "Router blokuje nieznane urządzenia."
+  ],
+  "steps": [
+   "Sprawdź nazwę sieci i wpisz hasło jeszcze raz.",
+   "Jeśli router filtruje urządzenia, dodaj bezprzewodowy adres MAC telewizora.",
+   "Uruchom ponownie telewizor i router.",
+   "Spróbuj ponownie."
+  ],
+  "technician": "Jeśli błąd wciąż się powtarza po wykonaniu tych kroków, skontaktuj się z pomocą techniczną Roku lub dostawcą internetu."
+ },
+ "Roku|Error 014.41": {
+  "title": "Złe hasło lub ograniczenie w routerze",
+  "causes": [
+   "Hasło Wi-Fi zostało wpisane błędnie.",
+   "Router blokuje nieznane urządzenia."
+  ],
+  "steps": [
+   "Sprawdź nazwę sieci i uważnie wpisz hasło jeszcze raz.",
+   "Jeśli router filtruje urządzenia, zezwól na bezprzewodowy adres MAC telewizora.",
+   "Uruchom ponownie telewizor i router.",
+   "Spróbuj ponownie."
+  ],
+  "technician": "Jeśli błąd wciąż się powtarza po wykonaniu tych kroków, skontaktuj się z pomocą techniczną Roku lub dostawcą internetu."
+ },
+ "Roku|Error 014.50": {
+  "title": "Połączenie Wi-Fi nie powiodło się, słaby sygnał",
+  "causes": [
+   "Słaby sygnał Wi-Fi.",
+   "Chwilowa usterka routera lub telewizora."
+  ],
+  "steps": [
+   "Uruchom ponownie router i telewizor.",
+   "Przybliż telewizor do routera.",
+   "Połącz się z Wi-Fi ponownie.",
+   "Jeśli to możliwe, spróbuj użyć drugiego pasma routera."
+  ],
+  "technician": "Jeśli błąd wciąż się powtarza po wykonaniu tych kroków, skontaktuj się z pomocą techniczną Roku lub dostawcą internetu."
+ },
+ "Roku|Error 016": {
+  "title": "Utrata połączenia podczas otwierania kanału",
+  "causes": [
+   "Sieć przestała działać podczas uruchamiania aplikacji.",
+   "Słaby sygnał Wi-Fi."
+  ],
+  "steps": [
+   "Wybierz na ekranie opcję Set up connection i postępuj zgodnie z instrukcjami.",
+   "Uruchom ponownie telewizor i router.",
+   "Sprawdź siłę sygnału Wi-Fi.",
+   "Przybliż telewizor i router do siebie."
+  ],
+  "technician": "Jeśli błąd wciąż się powtarza po wykonaniu tych kroków, skontaktuj się z pomocą techniczną Roku lub dostawcą internetu."
+ },
+ "Roku|Error 017": {
+  "title": "Słaby sygnał sieci bezprzewodowej",
+  "causes": [
+   "Słaby sygnał Wi-Fi przy telewizorze.",
+   "Przeszkody między telewizorem a routerem."
+  ],
+  "steps": [
+   "Przybliż telewizor i router do siebie.",
+   "Usuń przeszkody między nimi.",
+   "Uruchom ponownie telewizor i router.",
+   "Jeśli telewizor ma port Ethernet, użyj kabla."
+  ],
+  "technician": "Jeśli błąd wciąż się powtarza po wykonaniu tych kroków, skontaktuj się z pomocą techniczną Roku lub dostawcą internetu."
+ },
+ "Roku|Error 018": {
+  "title": "Zbyt wolny internet",
+  "causes": [
+   "Twój abonament lub łącze internetowe jest wolne.",
+   "Inne urządzenia zajmują przepustowość."
+  ],
+  "steps": [
+   "Wstrzymaj pobieranie i strumieniowanie na innych urządzeniach.",
+   "Uruchom ponownie modem i router.",
+   "Zapytaj dostawcę, jaką prędkość otrzymujesz.",
+   "Rozważ szybszy abonament."
+  ],
+  "technician": "Jeśli błąd wciąż się powtarza po wykonaniu tych kroków, skontaktuj się z pomocą techniczną Roku lub dostawcą internetu."
+ },
+ "Roku|Error 14.10": {
+  "title": "Awaria połączenia bezprzewodowego",
+  "causes": [
+   "Chwilowa usterka Wi-Fi między telewizorem a routerem."
+  ],
+  "steps": [
+   "Uruchom ponownie router i poczekaj, aż znów będzie online.",
+   "Uruchom ponownie telewizor Roku TV.",
+   "Spróbuj połączyć się z siecią ponownie.",
+   "Jeśli sygnał jest słaby, przybliż telewizor."
+  ],
+  "technician": "Jeśli błąd wciąż się powtarza po wykonaniu tych kroków, skontaktuj się z pomocą techniczną Roku lub dostawcą internetu."
+ },
+ "Roku|Error 14.11": {
+  "title": "Awaria połączenia bezprzewodowego",
+  "causes": [
+   "Chwilowa usterka Wi-Fi między telewizorem a routerem."
+  ],
+  "steps": [
+   "Uruchom ponownie router i poczekaj, aż znów będzie online.",
+   "Uruchom ponownie telewizor Roku TV.",
+   "Spróbuj połączyć się z siecią ponownie.",
+   "Jeśli sygnał jest słaby, przybliż telewizor."
+  ],
+  "technician": "Jeśli błąd wciąż się powtarza po wykonaniu tych kroków, skontaktuj się z pomocą techniczną Roku lub dostawcą internetu."
+ },
+ "Roku|Error 14.62": {
+  "title": "Problem z połączeniem bezprzewodowym, słaby sygnał",
+  "causes": [
+   "Słaby sygnał Wi-Fi przy telewizorze."
+  ],
+  "steps": [
+   "Sprawdź siłę sygnału pokazaną na ekranie.",
+   "Przybliż telewizor lub router do siebie.",
+   "Uruchom ponownie router i telewizor.",
+   "Połącz się z siecią ponownie."
+  ],
+  "technician": "Jeśli błąd wciąż się powtarza po wykonaniu tych kroków, skontaktuj się z pomocą techniczną Roku lub dostawcą internetu."
+ },
+ "Roku|Error 14.64": {
+  "title": "Problem z połączeniem bezprzewodowym, słaby sygnał",
+  "causes": [
+   "Słaby sygnał Wi-Fi przy telewizorze."
+  ],
+  "steps": [
+   "Sprawdź siłę sygnału pokazaną na ekranie.",
+   "Przybliż telewizor lub router do siebie.",
+   "Uruchom ponownie router i telewizor.",
+   "Połącz się z siecią ponownie."
+  ],
+  "technician": "Jeśli błąd wciąż się powtarza po wykonaniu tych kroków, skontaktuj się z pomocą techniczną Roku lub dostawcą internetu."
+ },
+ "TCL|Error 009": {
+  "title": "Połączono z routerem, ale brak internetu",
+  "causes": [
+   "Router jest osiągalny, ale nie ma dostępu do internetu.",
+   "Usługa internetowa nie działa."
+  ],
+  "steps": [
+   "Sprawdź, czy telefon lub laptop ma dostęp do internetu w tej samej sieci.",
+   "Jeśli żadne urządzenie nie ma internetu, zadzwoń do dostawcy internetu.",
+   "Jeśli inne urządzenia działają, uruchom telewizor ponownie.",
+   "Uruchom ponownie router i modem, a potem połącz się ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po zresetowaniu sieci, skontaktuj się z pomocą techniczną TCL w sprawie telewizora Roku TV."
+ },
+ "TCL|Error 012": {
+  "title": "Problem z połączeniem przewodowym z siecią",
+  "causes": [
+   "Kabel Ethernet jest poluzowany lub uszkodzony.",
+   "Port routera nie działa."
+  ],
+  "steps": [
+   "Wciśnij mocno kabel Ethernet w telewizorze i w routerze.",
+   "Spróbuj użyć innego kabla lub innego portu routera.",
+   "Uruchom ponownie telewizor, a potem router i modem.",
+   "Na chwilę spróbuj połączyć się przez Wi-Fi, aby sprawdzić, czy sam internet działa."
+  ],
+  "technician": "Jeśli błąd wraca po zresetowaniu sieci, skontaktuj się z pomocą techniczną TCL w sprawie telewizora Roku TV."
+ },
+ "TCL|Error 013": {
+  "title": "Połączenie przewodowe nie ma dostępu do internetu",
+  "causes": [
+   "Router nie ma internetu.",
+   "Kabel Ethernet nie jest dobrze wpięty."
+  ],
+  "steps": [
+   "Sprawdź, czy inne urządzenie ma dostęp do internetu.",
+   "Jeśli tak, uruchom telewizor ponownie.",
+   "Jeśli nie, wyjmij i ponownie włóż kabel Ethernet po obu stronach.",
+   "Zanim zadzwonisz do dostawcy, uruchom ponownie router."
+  ],
+  "technician": "Jeśli błąd wraca po zresetowaniu sieci, skontaktuj się z pomocą techniczną TCL w sprawie telewizora Roku TV."
+ },
+ "TCL|Error 014": {
+  "title": "Nie można połączyć się z siecią bezprzewodową",
+  "causes": [
+   "Wybrano złą nazwę sieci.",
+   "Wpisano złe hasło.",
+   "Router lub telewizor wymaga ponownego uruchomienia."
+  ],
+  "steps": [
+   "Sprawdź, czy wybrano właściwą nazwę sieci.",
+   "Wpisz hasło jeszcze raz; wielkość liter ma znaczenie.",
+   "Uruchom ponownie telewizor i router.",
+   "Spróbuj połączyć się ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po zresetowaniu sieci, skontaktuj się z pomocą techniczną TCL w sprawie telewizora Roku TV."
+ },
+ "TCL|Error 014.20": {
+  "title": "Słaby sygnał Wi-Fi uniemożliwia połączenie",
+  "causes": [
+   "Telewizor jest zbyt daleko od routera.",
+   "Ściany lub przedmioty osłabiają sygnał."
+  ],
+  "steps": [
+   "Przybliż telewizor lub router albo ustaw router wyżej.",
+   "Uruchom ponownie router i telewizor.",
+   "Jeśli router ma dwa pasma, spróbuj użyć drugiego.",
+   "Połącz się z siecią ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po zresetowaniu sieci, skontaktuj się z pomocą techniczną TCL w sprawie telewizora Roku TV."
+ },
+ "TCL|Error 014.30": {
+  "title": "Połączenie Wi-Fi nie powiodło się, słaby sygnał",
+  "causes": [
+   "Słaby sygnał Wi-Fi.",
+   "Chwilowa usterka routera lub telewizora."
+  ],
+  "steps": [
+   "Uruchom ponownie router i telewizor.",
+   "Przybliż telewizor do routera.",
+   "Połącz się z Wi-Fi ponownie.",
+   "Jeśli to możliwe, spróbuj użyć drugiego pasma routera."
+  ],
+  "technician": "Jeśli błąd wraca po zresetowaniu sieci, skontaktuj się z pomocą techniczną TCL w sprawie telewizora Roku TV."
+ },
+ "TCL|Error 014.40": {
+  "title": "Złe hasło lub ograniczenie w routerze",
+  "causes": [
+   "Hasło Wi-Fi zostało wpisane błędnie.",
+   "Router blokuje nieznane urządzenia."
+  ],
+  "steps": [
+   "Sprawdź nazwę sieci i wpisz hasło jeszcze raz.",
+   "Jeśli router filtruje urządzenia, dodaj bezprzewodowy adres MAC telewizora.",
+   "Uruchom ponownie telewizor i router.",
+   "Spróbuj ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po zresetowaniu sieci, skontaktuj się z pomocą techniczną TCL w sprawie telewizora Roku TV."
+ },
+ "TCL|Error 014.41": {
+  "title": "Złe hasło lub ograniczenie w routerze",
+  "causes": [
+   "Hasło Wi-Fi zostało wpisane błędnie.",
+   "Router blokuje nieznane urządzenia."
+  ],
+  "steps": [
+   "Sprawdź nazwę sieci i uważnie wpisz hasło jeszcze raz.",
+   "Jeśli router filtruje urządzenia, zezwól na bezprzewodowy adres MAC telewizora.",
+   "Uruchom ponownie telewizor i router.",
+   "Spróbuj ponownie."
+  ],
+  "technician": "Jeśli błąd wraca po zresetowaniu sieci, skontaktuj się z pomocą techniczną TCL w sprawie telewizora Roku TV."
+ },
+ "TCL|Error 014.50": {
+  "title": "Połączenie Wi-Fi nie powiodło się, słaby sygnał",
+  "causes": [
+   "Słaby sygnał Wi-Fi.",
+   "Chwilowa usterka routera lub telewizora."
+  ],
+  "steps": [
+   "Uruchom ponownie router i telewizor.",
+   "Przybliż telewizor do routera.",
+   "Połącz się z Wi-Fi ponownie.",
+   "Jeśli to możliwe, spróbuj użyć drugiego pasma routera."
+  ],
+  "technician": "Jeśli błąd wraca po zresetowaniu sieci, skontaktuj się z pomocą techniczną TCL w sprawie telewizora Roku TV."
+ },
+ "TCL|Error 016": {
+  "title": "Utrata połączenia podczas otwierania kanału",
+  "causes": [
+   "Sieć przestała działać podczas uruchamiania aplikacji.",
+   "Słaby sygnał Wi-Fi."
+  ],
+  "steps": [
+   "Wybierz na ekranie opcję Set up connection i postępuj zgodnie z instrukcjami.",
+   "Uruchom ponownie telewizor i router.",
+   "Sprawdź siłę sygnału Wi-Fi.",
+   "Przybliż telewizor i router do siebie."
+  ],
+  "technician": "Jeśli błąd wraca po zresetowaniu sieci, skontaktuj się z pomocą techniczną TCL w sprawie telewizora Roku TV."
+ },
+ "TCL|Error 017": {
+  "title": "Słaby sygnał sieci bezprzewodowej",
+  "causes": [
+   "Słaby sygnał Wi-Fi przy telewizorze.",
+   "Przeszkody między telewizorem a routerem."
+  ],
+  "steps": [
+   "Przybliż telewizor i router do siebie.",
+   "Usuń przeszkody między nimi.",
+   "Uruchom ponownie telewizor i router.",
+   "Jeśli telewizor ma port Ethernet, użyj kabla."
+  ],
+  "technician": "Jeśli błąd wraca po zresetowaniu sieci, skontaktuj się z pomocą techniczną TCL w sprawie telewizora Roku TV."
+ },
+ "TCL|Error 018": {
+  "title": "Zbyt wolny internet",
+  "causes": [
+   "Twój abonament lub łącze internetowe jest wolne.",
+   "Inne urządzenia zajmują przepustowość."
+  ],
+  "steps": [
+   "Wstrzymaj pobieranie i strumieniowanie na innych urządzeniach.",
+   "Uruchom ponownie modem i router.",
+   "Zapytaj dostawcę, jaką prędkość otrzymujesz.",
+   "Rozważ szybszy abonament."
+  ],
+  "technician": "Jeśli błąd wraca po zresetowaniu sieci, skontaktuj się z pomocą techniczną TCL w sprawie telewizora Roku TV."
+ },
+ "Sony|Red LED blinks 2 times": {
+  "title": "Telewizor Sony wykrył usterkę (2 mrugnięcia)",
+  "causes": [
+   "Telewizor wykrył wewnętrzną usterkę.",
+   "Znaczenie liczby mrugnięć różni się w zależności od modelu."
+  ],
+  "steps": [
+   "Wyłącz telewizor i odłącz go od prądu na 1 minutę; nie podłączaj go przez listwę zasilającą.",
+   "Odsłoń otwory wentylacyjne, aby powietrze mogło swobodnie przepływać.",
+   "Odłącz wszystkie podłączone urządzenia i włącz telewizor ponownie.",
+   "Jeśli telewizor się uruchomi, zaktualizuj jego oprogramowanie.",
+   "Zanotuj liczbę mrugnięć i skontaktuj się z firmą Sony."
+  ],
+  "technician": "Większość usterek sygnalizowanych czerwonym mruganiem wymaga serwisu, więc skontaktuj się z pomocą techniczną Sony i podaj liczbę mrugnięć."
+ },
+ "Sony|Red LED blinks 3 times": {
+  "title": "Telewizor Sony wykrył usterkę (3 mrugnięcia)",
+  "causes": [
+   "Telewizor wykrył wewnętrzną usterkę.",
+   "Znaczenie liczby mrugnięć różni się w zależności od modelu."
+  ],
+  "steps": [
+   "Wyłącz telewizor i odłącz go od prądu na 1 minutę; nie podłączaj go przez listwę zasilającą.",
+   "Odsłoń otwory wentylacyjne, aby powietrze mogło swobodnie przepływać.",
+   "Odłącz wszystkie podłączone urządzenia i włącz telewizor ponownie.",
+   "Jeśli telewizor się uruchomi, zaktualizuj jego oprogramowanie.",
+   "Zanotuj liczbę mrugnięć i skontaktuj się z firmą Sony."
+  ],
+  "technician": "Większość usterek sygnalizowanych czerwonym mruganiem wymaga serwisu, więc skontaktuj się z pomocą techniczną Sony i podaj liczbę mrugnięć."
+ },
+ "Sony|Red LED blinks 4 times": {
+  "title": "Telewizor Sony wykrył usterkę (4 mrugnięcia)",
+  "causes": [
+   "Telewizor wykrył wewnętrzną usterkę.",
+   "Znaczenie liczby mrugnięć różni się w zależności od modelu."
+  ],
+  "steps": [
+   "Wyłącz telewizor i odłącz go od prądu na 1 minutę; nie podłączaj go przez listwę zasilającą.",
+   "Odsłoń otwory wentylacyjne, aby powietrze mogło swobodnie przepływać.",
+   "Odłącz wszystkie podłączone urządzenia i włącz telewizor ponownie.",
+   "Jeśli telewizor się uruchomi, zaktualizuj jego oprogramowanie.",
+   "Zanotuj liczbę mrugnięć i skontaktuj się z firmą Sony."
+  ],
+  "technician": "Większość usterek sygnalizowanych czerwonym mruganiem wymaga serwisu, więc skontaktuj się z pomocą techniczną Sony i podaj liczbę mrugnięć."
+ },
+ "Sony|Red LED blinks 5 times": {
+  "title": "Telewizor Sony wykrył usterkę (5 mrugnięć)",
+  "causes": [
+   "Telewizor wykrył wewnętrzną usterkę.",
+   "Znaczenie liczby mrugnięć różni się w zależności od modelu."
+  ],
+  "steps": [
+   "Wyłącz telewizor i odłącz go od prądu na 1 minutę; nie podłączaj go przez listwę zasilającą.",
+   "Odsłoń otwory wentylacyjne, aby powietrze mogło swobodnie przepływać.",
+   "Odłącz wszystkie podłączone urządzenia i włącz telewizor ponownie.",
+   "Jeśli telewizor się uruchomi, zaktualizuj jego oprogramowanie.",
+   "Zanotuj liczbę mrugnięć i skontaktuj się z firmą Sony."
+  ],
+  "technician": "Większość usterek sygnalizowanych czerwonym mruganiem wymaga serwisu, więc skontaktuj się z pomocą techniczną Sony i podaj liczbę mrugnięć."
+ },
+ "Sony|Red LED blinks 6 times": {
+  "title": "Telewizor Sony wykrył usterkę (6 mrugnięć)",
+  "causes": [
+   "Telewizor wykrył wewnętrzną usterkę.",
+   "Znaczenie liczby mrugnięć różni się w zależności od modelu."
+  ],
+  "steps": [
+   "Wyłącz telewizor i odłącz go od prądu na 1 minutę; nie podłączaj go przez listwę zasilającą.",
+   "Odsłoń otwory wentylacyjne, aby powietrze mogło swobodnie przepływać.",
+   "Odłącz wszystkie podłączone urządzenia i włącz telewizor ponownie.",
+   "Jeśli telewizor się uruchomi, zaktualizuj jego oprogramowanie.",
+   "Zanotuj liczbę mrugnięć i skontaktuj się z firmą Sony."
+  ],
+  "technician": "Większość usterek sygnalizowanych czerwonym mruganiem wymaga serwisu, więc skontaktuj się z pomocą techniczną Sony i podaj liczbę mrugnięć."
+ },
+ "Sony|Red LED blinks 7 times": {
+  "title": "Telewizor Sony wykrył usterkę (7 mrugnięć)",
+  "causes": [
+   "Telewizor wykrył wewnętrzną usterkę.",
+   "Znaczenie liczby mrugnięć różni się w zależności od modelu."
+  ],
+  "steps": [
+   "Wyłącz telewizor i odłącz go od prądu na 1 minutę; nie podłączaj go przez listwę zasilającą.",
+   "Odsłoń otwory wentylacyjne, aby powietrze mogło swobodnie przepływać.",
+   "Odłącz wszystkie podłączone urządzenia i włącz telewizor ponownie.",
+   "Jeśli telewizor się uruchomi, zaktualizuj jego oprogramowanie.",
+   "Zanotuj liczbę mrugnięć i skontaktuj się z firmą Sony."
+  ],
+  "technician": "Większość usterek sygnalizowanych czerwonym mruganiem wymaga serwisu, więc skontaktuj się z pomocą techniczną Sony i podaj liczbę mrugnięć."
+ },
+ "Sony|Red LED blinks 8 times": {
+  "title": "Telewizor Sony wykrył usterkę (8 mrugnięć)",
+  "causes": [
+   "Telewizor wykrył wewnętrzną usterkę.",
+   "Znaczenie liczby mrugnięć różni się w zależności od modelu."
+  ],
+  "steps": [
+   "Wyłącz telewizor i odłącz go od prądu na 1 minutę; nie podłączaj go przez listwę zasilającą.",
+   "Odsłoń otwory wentylacyjne, aby powietrze mogło swobodnie przepływać.",
+   "Odłącz wszystkie podłączone urządzenia i włącz telewizor ponownie.",
+   "Jeśli telewizor się uruchomi, zaktualizuj jego oprogramowanie.",
+   "Zanotuj liczbę mrugnięć i skontaktuj się z firmą Sony."
+  ],
+  "technician": "Większość usterek sygnalizowanych czerwonym mruganiem wymaga serwisu, więc skontaktuj się z pomocą techniczną Sony i podaj liczbę mrugnięć."
+ },
+ "Sony|Orange LED solid": {
+  "title": "Aktywny wyłącznik czasowy lub timer włączania/wyłączania",
+  "causes": [
+   "W telewizorze ustawiono wyłącznik czasowy lub timer włączania/wyłączania."
+  ],
+  "steps": [
+   "Otwórz menu ustawień telewizora.",
+   "Znajdź wyłącznik czasowy lub timer włączania/wyłączania.",
+   "Wyłącz timer lub zmień godzinę.",
+   "Sprawdź, czy dioda gaśnie."
+  ],
+  "technician": "Serwis nie jest potrzebny, chyba że dioda świeci, a żaden timer nie jest ustawiony."
+ },
+ "Sony|Orange LED blinking": {
+  "title": "Trwa aktualizacja oprogramowania lub kabel jest poluzowany",
+  "causes": [
+   "Trwa aktualizacja oprogramowania.",
+   "W zestawach z osobnym modułem multimedialnym kabel między urządzeniami może być poluzowany."
+  ],
+  "steps": [
+   "Nie wyłączaj telewizora ani nie odłączaj go od prądu; poczekaj kilka minut.",
+   "Podczas aktualizacji pilot nie działa.",
+   "W zestawach z modułem multimedialnym sprawdź, czy kabel między urządzeniami jest mocno wpięty."
+  ],
+  "technician": "Jeśli dioda mruga przez długi czas, skontaktuj się z pomocą techniczną Sony."
+ },
+ "Sony|Green LED blinking": {
+  "title": "Normalne uruchamianie lub telewizor się nie włącza",
+  "causes": [
+   "To normalne, gdy telewizor się włącza.",
+   "Możliwa usterka, jeśli dioda nie przestaje mrugać lub telewizor włącza się i wyłącza w kółko."
+  ],
+  "steps": [
+   "Poczekaj, aż telewizor się uruchomi; mruganie powinno ustać.",
+   "Jeśli dioda nadal mruga, odłącz telewizor od prądu na 3 minuty.",
+   "Podłącz telewizor i spróbuj ponownie."
+  ],
+  "technician": "Jeśli telewizor nadal się nie włącza, wymaga naprawy w serwisie Sony."
+ },
+ "Sony|White LED blinking": {
+  "title": "Lampa telewizora projekcyjnego wymaga wymiany",
+  "causes": [
+   "Lampa się przepaliła (dotyczy tylko telewizorów projekcyjnych i projektorów).",
+   "Osłona lampy może być otwarta."
+  ],
+  "steps": [
+   "Wyłącz urządzenie i poczekaj, aż lampa ostygnie.",
+   "Upewnij się, że osłony lampy są zamknięte i dobrze zamocowane.",
+   "Nie dotykaj szkła lampy; jeśli go dotkniesz, przetrzyj je chusteczką nasączoną alkoholem.",
+   "Zorganizuj wymianę lampy."
+  ],
+  "technician": "Skontaktuj się z pomocą techniczną Sony, aby otrzymać nową lampę."
+ },
+ "Sony|Red LED blinking with 3-second pause": {
+  "title": "Usterka sygnalizowana powtarzającym się czerwonym mruganiem",
+  "causes": [
+   "Telewizor wykrył usterkę i pokazuje ją liczbą mrugnięć."
+  ],
+  "steps": [
+   "Policz mrugnięcia między kolejnymi przerwami.",
+   "Odłącz telewizor od prądu, odczekaj 2 minuty, podłącz go i włącz.",
+   "Jeśli problem się powtarza, odłącz telewizor od prądu i zadzwoń do Sony, podając liczbę mrugnięć."
+  ],
+  "technician": "Podaj pomocy technicznej Sony liczbę mrugnięć."
+ },
+ "Panasonic|Red LED blinking": {
+  "title": "Telewizor wykrył błąd (SOS)",
+  "causes": [
+   "Telewizor wykrył wewnętrzny błąd.",
+   "Dotyczy modeli Panasonic Fire TV."
+  ],
+  "steps": [
+   "Odłącz telewizor od prądu na kilka minut.",
+   "Podłącz go ponownie i włącz.",
+   "Jeśli dioda nadal mruga, wyślij do firmy Panasonic zgłoszenie naprawy."
+  ],
+  "technician": "Jeśli mruganie trwa nadal, wyślij do firmy Panasonic zgłoszenie naprawy."
+ },
+ "Panasonic|Orange LED solid": {
+  "title": "Tryb czuwania podczas konserwacji panelu lub zadania sieciowego",
+  "causes": [
+   "Trwa konserwacja panelu lub funkcja sieciowa."
+  ],
+  "steps": [
+   "Nie dotykaj ekranu ani go nie naciskaj podczas konserwacji panelu.",
+   "Poczekaj, aż zadanie się zakończy.",
+   "Jeśli sytuacja się powtarza, przeczytaj artykuł Panasonic o konserwacji panelu."
+  ],
+  "technician": "Jeśli dioda świeci na pomarańczowo przez długi czas, skontaktuj się z pomocą techniczną Panasonic."
+ },
+ "Panasonic|Orange LED blinking": {
+  "title": "Trwa konserwacja panelu lub aktualizacja sieciowa",
+  "causes": [
+   "Trwa konserwacja panelu.",
+   "Trwa połączenie z siecią lub aktualizacja ustawień."
+  ],
+  "steps": [
+   "Nie odłączaj telewizora od prądu i poczekaj na zakończenie.",
+   "Jeśli po włączeniu lub wyłączeniu telewizora dioda znów zaświeci się na pomarańczowo, konserwacja nie została zakończona.",
+   "Poczekaj na jej zakończenie, zanim wyłączysz telewizor."
+  ],
+  "technician": "Jeśli dioda nie przestaje mrugać, skontaktuj się z pomocą techniczną Panasonic."
+ },
+ "Panasonic|Green LED blinking": {
+  "title": "Telewizor się uruchamia lub czeka na sparowanie Bluetooth",
+  "causes": [
+   "Telewizor się uruchamia.",
+   "Czeka na sparowanie urządzenia Bluetooth."
+  ],
+  "steps": [
+   "Poczekaj, aż uruchamianie się zakończy.",
+   "Jeśli trwa parowanie, dokończ je na drugim urządzeniu.",
+   "Jeśli dioda nie przestaje mrugać, na chwilę odłącz telewizor od prądu i spróbuj ponownie."
+  ],
+  "technician": "Jeśli telewizor nigdy nie kończy uruchamiania, skontaktuj się z pomocą techniczną Panasonic."
+ },
+ "Philips|Standby light blinks red": {
+  "title": "Telewizor Philips zgłasza usterkę",
+  "causes": [
+   "Telewizor wykrył usterkę.",
+   "Telewizor mógł się przegrzać."
+  ],
+  "steps": [
+   "Wyjmij wtyczkę telewizora z gniazdka.",
+   "Poczekaj, aż całkowicie ostygnie.",
+   "Podłącz kabel zasilający z powrotem.",
+   "Włącz telewizor ponownie."
+  ],
+  "technician": "Jeśli czerwona dioda znów mruga, skontaktuj się z obsługą klienta Philips (Consumer Care)."
+ },
+ "Philips|Front LED blinks in a repeating pattern": {
+  "title": "Telewizor się nie włącza, dioda mruga w kółko",
+  "causes": [
+   "Telewizor się nie włącza i nie pokazuje obrazu ani nie odtwarza dźwięku.",
+   "Chwilowa usterka zasilania."
+  ],
+  "steps": [
+   "Wykonaj reset zasilania: odłącz telewizor od prądu i poczekaj kilka minut.",
+   "Podłącz telewizor i spróbuj ponownie.",
+   "Spróbuj użyć innego gniazdka."
+  ],
+  "technician": "Jeśli dioda nadal mruga, skontaktuj się z pomocą techniczną telewizorów Philips."
+ },
+ "LG|Error 106": {
+  "title": "Telewizor nie jest połączony z siecią",
+  "causes": [
+   "Telewizor nie ma działającego połączenia z internetem.",
+   "Adapter Wi-Fi lub ustawienia routera są nieodpowiednie."
+  ],
+  "steps": [
+   "Sprawdź inne urządzenie w tej samej sieci.",
+   "Uruchom ponownie router i telewizor, a potem wpisz hasło Wi-Fi jeszcze raz.",
+   "W zaawansowanych ustawieniach Wi-Fi ustaw ręcznie DNS na 8.8.8.8.",
+   "Jeśli telewizor obsługuje pasmo 5 GHz, użyj go i przybliż router."
+  ],
+  "technician": "Jeśli nic nie pomaga, może być konieczna wymiana modułu Wi-Fi, więc skontaktuj się z serwisem LG."
+ }
+}

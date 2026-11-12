@@ -1,0 +1,654 @@
+{
+ "Roku|Error 009": {
+  "title": "Ansluten till routern men ingen internetåtkomst",
+  "causes": [
+   "Routern går att nå men har ingen internetanslutning.",
+   "Internettjänsten ligger nere."
+  ],
+  "steps": [
+   "Kontrollera om en mobil eller dator kommer ut på nätet via samma nätverk.",
+   "Om ingenting kommer ut på nätet, ring din internetleverantör.",
+   "Om andra enheter fungerar, starta om TV:n.",
+   "Starta om routern och modemet och anslut sedan igen."
+  ],
+  "technician": "Om felet fortsätter att komma tillbaka efter dessa steg, kontakta Rokus support eller din internetleverantör."
+ },
+ "Roku|Error 012": {
+  "title": "Problem med den kabelanslutna nätverksanslutningen",
+  "causes": [
+   "Ethernetkabeln sitter löst eller är trasig.",
+   "Porten på routern fungerar inte."
+  ],
+  "steps": [
+   "Tryck in Ethernetkabeln ordentligt i TV:n och i routern.",
+   "Prova en annan kabel eller en annan port på routern.",
+   "Starta om TV:n och därefter routern och modemet.",
+   "Prova Wi-Fi en kort stund för att se om själva internetanslutningen fungerar."
+  ],
+  "technician": "Om felet fortsätter att komma tillbaka efter dessa steg, kontakta Rokus support eller din internetleverantör."
+ },
+ "Roku|Error 013": {
+  "title": "Kabelanslutningen når inte internet",
+  "causes": [
+   "Routern har ingen internetanslutning.",
+   "Ethernetkabeln sitter inte ordentligt."
+  ],
+  "steps": [
+   "Kontrollera att en annan enhet kommer ut på nätet.",
+   "Om ja, starta om TV:n.",
+   "Om inte, dra ut Ethernetkabeln och sätt tillbaka den i båda ändar.",
+   "Starta om routern innan du ringer din leverantör."
+  ],
+  "technician": "Om felet fortsätter att komma tillbaka efter dessa steg, kontakta Rokus support eller din internetleverantör."
+ },
+ "Roku|Error 014": {
+  "title": "Kan inte ansluta till det trådlösa nätverket",
+  "causes": [
+   "Fel nätverksnamn har valts.",
+   "Fel lösenord har angetts.",
+   "Routern eller TV:n behöver startas om."
+  ],
+  "steps": [
+   "Kontrollera att du har valt rätt nätverksnamn.",
+   "Skriv in lösenordet igen. Det är skiftlägeskänsligt.",
+   "Starta om TV:n och routern.",
+   "Försök ansluta igen."
+  ],
+  "technician": "Om felet fortsätter att komma tillbaka efter dessa steg, kontakta Rokus support eller din internetleverantör."
+ },
+ "Roku|Error 014.20": {
+  "title": "Svag Wi-Fi-signal hindrar anslutningen",
+  "causes": [
+   "TV:n står för långt från routern.",
+   "Väggar eller föremål försvagar signalen."
+  ],
+  "steps": [
+   "Flytta TV:n eller routern närmare varandra, eller placera routern högre.",
+   "Starta om routern och TV:n.",
+   "Om routern har två frekvensband, prova det andra.",
+   "Anslut till nätverket igen."
+  ],
+  "technician": "Om felet fortsätter att komma tillbaka efter dessa steg, kontakta Rokus support eller din internetleverantör."
+ },
+ "Roku|Error 014.30": {
+  "title": "Wi-Fi-anslutningen misslyckades, svag signal",
+  "causes": [
+   "Svag Wi-Fi-signal.",
+   "Tillfälligt fel i routern eller TV:n."
+  ],
+  "steps": [
+   "Starta om routern och TV:n.",
+   "Flytta TV:n närmare routern.",
+   "Anslut till Wi-Fi igen.",
+   "Prova routerns andra frekvensband om det finns."
+  ],
+  "technician": "Om felet fortsätter att komma tillbaka efter dessa steg, kontakta Rokus support eller din internetleverantör."
+ },
+ "Roku|Error 014.40": {
+  "title": "Fel lösenord eller begränsning i routern",
+  "causes": [
+   "Wi-Fi-lösenordet har skrivits in fel.",
+   "Routern blockerar okända enheter."
+  ],
+  "steps": [
+   "Kontrollera nätverksnamnet och ange lösenordet igen.",
+   "Om routern filtrerar enheter, lägg till TV:ns trådlösa MAC-adress.",
+   "Starta om TV:n och routern.",
+   "Försök igen."
+  ],
+  "technician": "Om felet fortsätter att komma tillbaka efter dessa steg, kontakta Rokus support eller din internetleverantör."
+ },
+ "Roku|Error 014.41": {
+  "title": "Fel lösenord eller begränsning i routern",
+  "causes": [
+   "Wi-Fi-lösenordet har skrivits in fel.",
+   "Routern blockerar okända enheter."
+  ],
+  "steps": [
+   "Kontrollera nätverksnamnet och ange lösenordet igen, noggrant.",
+   "Om routern filtrerar enheter, tillåt TV:ns trådlösa MAC-adress.",
+   "Starta om TV:n och routern.",
+   "Försök igen."
+  ],
+  "technician": "Om felet fortsätter att komma tillbaka efter dessa steg, kontakta Rokus support eller din internetleverantör."
+ },
+ "Roku|Error 014.50": {
+  "title": "Wi-Fi-anslutningen misslyckades, svag signal",
+  "causes": [
+   "Svag Wi-Fi-signal.",
+   "Tillfälligt fel i routern eller TV:n."
+  ],
+  "steps": [
+   "Starta om routern och TV:n.",
+   "Flytta TV:n närmare routern.",
+   "Anslut till Wi-Fi igen.",
+   "Prova routerns andra frekvensband om det finns."
+  ],
+  "technician": "Om felet fortsätter att komma tillbaka efter dessa steg, kontakta Rokus support eller din internetleverantör."
+ },
+ "Roku|Error 016": {
+  "title": "Anslutningen bröts när en kanal öppnades",
+  "causes": [
+   "Nätverket föll bort medan en app startade.",
+   "Svag Wi-Fi-signal."
+  ],
+  "steps": [
+   "Välj Set up connection på skärmen och följ anvisningarna.",
+   "Starta om TV:n och routern.",
+   "Kontrollera Wi-Fi-signalens styrka.",
+   "Flytta TV:n och routern närmare varandra."
+  ],
+  "technician": "Om felet fortsätter att komma tillbaka efter dessa steg, kontakta Rokus support eller din internetleverantör."
+ },
+ "Roku|Error 017": {
+  "title": "Dålig trådlös signalstyrka",
+  "causes": [
+   "Svag Wi-Fi-signal vid TV:n.",
+   "Hinder mellan TV:n och routern."
+  ],
+  "steps": [
+   "Flytta TV:n och routern närmare varandra.",
+   "Ta bort hinder mellan dem.",
+   "Starta om TV:n och routern.",
+   "Använd en Ethernetkabel om TV:n har en port."
+  ],
+  "technician": "Om felet fortsätter att komma tillbaka efter dessa steg, kontakta Rokus support eller din internetleverantör."
+ },
+ "Roku|Error 018": {
+  "title": "Internethastigheten är för låg",
+  "causes": [
+   "Ditt internetabonnemang eller din anslutning är långsam.",
+   "Andra enheter använder bandbredden."
+  ],
+  "steps": [
+   "Pausa nedladdningar och strömmar på andra enheter.",
+   "Starta om modemet och routern.",
+   "Fråga din leverantör vilken hastighet du får.",
+   "Överväg ett snabbare abonnemang."
+  ],
+  "technician": "Om felet fortsätter att komma tillbaka efter dessa steg, kontakta Rokus support eller din internetleverantör."
+ },
+ "Roku|Error 14.10": {
+  "title": "Fel på den trådlösa anslutningen",
+  "causes": [
+   "Tillfälligt Wi-Fi-fel mellan TV:n och routern."
+  ],
+  "steps": [
+   "Starta om routern och vänta tills den är online igen.",
+   "Starta om Roku TV.",
+   "Försök ansluta till nätverket igen.",
+   "Flytta TV:n närmare om signalen är svag."
+  ],
+  "technician": "Om felet fortsätter att komma tillbaka efter dessa steg, kontakta Rokus support eller din internetleverantör."
+ },
+ "Roku|Error 14.11": {
+  "title": "Fel på den trådlösa anslutningen",
+  "causes": [
+   "Tillfälligt Wi-Fi-fel mellan TV:n och routern."
+  ],
+  "steps": [
+   "Starta om routern och vänta tills den är online igen.",
+   "Starta om Roku TV.",
+   "Försök ansluta till nätverket igen.",
+   "Flytta TV:n närmare om signalen är svag."
+  ],
+  "technician": "Om felet fortsätter att komma tillbaka efter dessa steg, kontakta Rokus support eller din internetleverantör."
+ },
+ "Roku|Error 14.62": {
+  "title": "Problem med den trådlösa anslutningen, svag signal",
+  "causes": [
+   "Svag Wi-Fi-signal vid TV:n."
+  ],
+  "steps": [
+   "Kontrollera signalstyrkan som visas på skärmen.",
+   "Flytta TV:n eller routern närmare varandra.",
+   "Starta om routern och TV:n.",
+   "Anslut till nätverket igen."
+  ],
+  "technician": "Om felet fortsätter att komma tillbaka efter dessa steg, kontakta Rokus support eller din internetleverantör."
+ },
+ "Roku|Error 14.64": {
+  "title": "Problem med den trådlösa anslutningen, svag signal",
+  "causes": [
+   "Svag Wi-Fi-signal vid TV:n."
+  ],
+  "steps": [
+   "Kontrollera signalstyrkan som visas på skärmen.",
+   "Flytta TV:n eller routern närmare varandra.",
+   "Starta om routern och TV:n.",
+   "Anslut till nätverket igen."
+  ],
+  "technician": "Om felet fortsätter att komma tillbaka efter dessa steg, kontakta Rokus support eller din internetleverantör."
+ },
+ "TCL|Error 009": {
+  "title": "Ansluten till routern men ingen internetåtkomst",
+  "causes": [
+   "Routern går att nå men har ingen internetanslutning.",
+   "Internettjänsten ligger nere."
+  ],
+  "steps": [
+   "Kontrollera om en mobil eller dator kommer ut på nätet via samma nätverk.",
+   "Om ingenting kommer ut på nätet, ring din internetleverantör.",
+   "Om andra enheter fungerar, starta om TV:n.",
+   "Starta om routern och modemet och anslut sedan igen."
+  ],
+  "technician": "Om felet kommer tillbaka efter en nätverksåterställning, kontakta TCL:s support för din Roku TV."
+ },
+ "TCL|Error 012": {
+  "title": "Problem med den kabelanslutna nätverksanslutningen",
+  "causes": [
+   "Ethernetkabeln sitter löst eller är trasig.",
+   "Porten på routern fungerar inte."
+  ],
+  "steps": [
+   "Tryck in Ethernetkabeln ordentligt i TV:n och i routern.",
+   "Prova en annan kabel eller en annan port på routern.",
+   "Starta om TV:n och därefter routern och modemet.",
+   "Prova Wi-Fi en kort stund för att se om själva internetanslutningen fungerar."
+  ],
+  "technician": "Om felet kommer tillbaka efter en nätverksåterställning, kontakta TCL:s support för din Roku TV."
+ },
+ "TCL|Error 013": {
+  "title": "Kabelanslutningen når inte internet",
+  "causes": [
+   "Routern har ingen internetanslutning.",
+   "Ethernetkabeln sitter inte ordentligt."
+  ],
+  "steps": [
+   "Kontrollera att en annan enhet kommer ut på nätet.",
+   "Om ja, starta om TV:n.",
+   "Om inte, dra ut Ethernetkabeln och sätt tillbaka den i båda ändar.",
+   "Starta om routern innan du ringer din leverantör."
+  ],
+  "technician": "Om felet kommer tillbaka efter en nätverksåterställning, kontakta TCL:s support för din Roku TV."
+ },
+ "TCL|Error 014": {
+  "title": "Kan inte ansluta till det trådlösa nätverket",
+  "causes": [
+   "Fel nätverksnamn har valts.",
+   "Fel lösenord har angetts.",
+   "Routern eller TV:n behöver startas om."
+  ],
+  "steps": [
+   "Kontrollera att du har valt rätt nätverksnamn.",
+   "Skriv in lösenordet igen. Det är skiftlägeskänsligt.",
+   "Starta om TV:n och routern.",
+   "Försök ansluta igen."
+  ],
+  "technician": "Om felet kommer tillbaka efter en nätverksåterställning, kontakta TCL:s support för din Roku TV."
+ },
+ "TCL|Error 014.20": {
+  "title": "Svag Wi-Fi-signal hindrar anslutningen",
+  "causes": [
+   "TV:n står för långt från routern.",
+   "Väggar eller föremål försvagar signalen."
+  ],
+  "steps": [
+   "Flytta TV:n eller routern närmare varandra, eller placera routern högre.",
+   "Starta om routern och TV:n.",
+   "Om routern har två frekvensband, prova det andra.",
+   "Anslut till nätverket igen."
+  ],
+  "technician": "Om felet kommer tillbaka efter en nätverksåterställning, kontakta TCL:s support för din Roku TV."
+ },
+ "TCL|Error 014.30": {
+  "title": "Wi-Fi-anslutningen misslyckades, svag signal",
+  "causes": [
+   "Svag Wi-Fi-signal.",
+   "Tillfälligt fel i routern eller TV:n."
+  ],
+  "steps": [
+   "Starta om routern och TV:n.",
+   "Flytta TV:n närmare routern.",
+   "Anslut till Wi-Fi igen.",
+   "Prova routerns andra frekvensband om det finns."
+  ],
+  "technician": "Om felet kommer tillbaka efter en nätverksåterställning, kontakta TCL:s support för din Roku TV."
+ },
+ "TCL|Error 014.40": {
+  "title": "Fel lösenord eller begränsning i routern",
+  "causes": [
+   "Wi-Fi-lösenordet har skrivits in fel.",
+   "Routern blockerar okända enheter."
+  ],
+  "steps": [
+   "Kontrollera nätverksnamnet och ange lösenordet igen.",
+   "Om routern filtrerar enheter, lägg till TV:ns trådlösa MAC-adress.",
+   "Starta om TV:n och routern.",
+   "Försök igen."
+  ],
+  "technician": "Om felet kommer tillbaka efter en nätverksåterställning, kontakta TCL:s support för din Roku TV."
+ },
+ "TCL|Error 014.41": {
+  "title": "Fel lösenord eller begränsning i routern",
+  "causes": [
+   "Wi-Fi-lösenordet har skrivits in fel.",
+   "Routern blockerar okända enheter."
+  ],
+  "steps": [
+   "Kontrollera nätverksnamnet och ange lösenordet igen, noggrant.",
+   "Om routern filtrerar enheter, tillåt TV:ns trådlösa MAC-adress.",
+   "Starta om TV:n och routern.",
+   "Försök igen."
+  ],
+  "technician": "Om felet kommer tillbaka efter en nätverksåterställning, kontakta TCL:s support för din Roku TV."
+ },
+ "TCL|Error 014.50": {
+  "title": "Wi-Fi-anslutningen misslyckades, svag signal",
+  "causes": [
+   "Svag Wi-Fi-signal.",
+   "Tillfälligt fel i routern eller TV:n."
+  ],
+  "steps": [
+   "Starta om routern och TV:n.",
+   "Flytta TV:n närmare routern.",
+   "Anslut till Wi-Fi igen.",
+   "Prova routerns andra frekvensband om det finns."
+  ],
+  "technician": "Om felet kommer tillbaka efter en nätverksåterställning, kontakta TCL:s support för din Roku TV."
+ },
+ "TCL|Error 016": {
+  "title": "Anslutningen bröts när en kanal öppnades",
+  "causes": [
+   "Nätverket föll bort medan en app startade.",
+   "Svag Wi-Fi-signal."
+  ],
+  "steps": [
+   "Välj Set up connection på skärmen och följ anvisningarna.",
+   "Starta om TV:n och routern.",
+   "Kontrollera Wi-Fi-signalens styrka.",
+   "Flytta TV:n och routern närmare varandra."
+  ],
+  "technician": "Om felet kommer tillbaka efter en nätverksåterställning, kontakta TCL:s support för din Roku TV."
+ },
+ "TCL|Error 017": {
+  "title": "Dålig trådlös signalstyrka",
+  "causes": [
+   "Svag Wi-Fi-signal vid TV:n.",
+   "Hinder mellan TV:n och routern."
+  ],
+  "steps": [
+   "Flytta TV:n och routern närmare varandra.",
+   "Ta bort hinder mellan dem.",
+   "Starta om TV:n och routern.",
+   "Använd en Ethernetkabel om TV:n har en port."
+  ],
+  "technician": "Om felet kommer tillbaka efter en nätverksåterställning, kontakta TCL:s support för din Roku TV."
+ },
+ "TCL|Error 018": {
+  "title": "Internethastigheten är för låg",
+  "causes": [
+   "Ditt internetabonnemang eller din anslutning är långsam.",
+   "Andra enheter använder bandbredden."
+  ],
+  "steps": [
+   "Pausa nedladdningar och strömmar på andra enheter.",
+   "Starta om modemet och routern.",
+   "Fråga din leverantör vilken hastighet du får.",
+   "Överväg ett snabbare abonnemang."
+  ],
+  "technician": "Om felet kommer tillbaka efter en nätverksåterställning, kontakta TCL:s support för din Roku TV."
+ },
+ "Sony|Red LED blinks 2 times": {
+  "title": "Sony-TV:n har upptäckt ett fel (2 blinkningar)",
+  "causes": [
+   "TV:n har hittat ett internt fel.",
+   "Vad antalet blinkningar betyder skiljer sig mellan modeller."
+  ],
+  "steps": [
+   "Stäng av TV:n och dra ut kontakten i 1 minut, utan att använda grenuttag.",
+   "Frigör ventilationsöppningarna så att luften kan cirkulera.",
+   "Koppla bort alla anslutna enheter och slå på igen.",
+   "Uppdatera TV:ns programvara om den startar.",
+   "Notera antalet blinkningar och kontakta Sony."
+  ],
+  "technician": "De flesta fel med röd blinkning kräver service, så kontakta Sonys support och uppge antalet blinkningar."
+ },
+ "Sony|Red LED blinks 3 times": {
+  "title": "Sony-TV:n har upptäckt ett fel (3 blinkningar)",
+  "causes": [
+   "TV:n har hittat ett internt fel.",
+   "Vad antalet blinkningar betyder skiljer sig mellan modeller."
+  ],
+  "steps": [
+   "Stäng av TV:n och dra ut kontakten i 1 minut, utan att använda grenuttag.",
+   "Frigör ventilationsöppningarna så att luften kan cirkulera.",
+   "Koppla bort alla anslutna enheter och slå på igen.",
+   "Uppdatera TV:ns programvara om den startar.",
+   "Notera antalet blinkningar och kontakta Sony."
+  ],
+  "technician": "De flesta fel med röd blinkning kräver service, så kontakta Sonys support och uppge antalet blinkningar."
+ },
+ "Sony|Red LED blinks 4 times": {
+  "title": "Sony-TV:n har upptäckt ett fel (4 blinkningar)",
+  "causes": [
+   "TV:n har hittat ett internt fel.",
+   "Vad antalet blinkningar betyder skiljer sig mellan modeller."
+  ],
+  "steps": [
+   "Stäng av TV:n och dra ut kontakten i 1 minut, utan att använda grenuttag.",
+   "Frigör ventilationsöppningarna så att luften kan cirkulera.",
+   "Koppla bort alla anslutna enheter och slå på igen.",
+   "Uppdatera TV:ns programvara om den startar.",
+   "Notera antalet blinkningar och kontakta Sony."
+  ],
+  "technician": "De flesta fel med röd blinkning kräver service, så kontakta Sonys support och uppge antalet blinkningar."
+ },
+ "Sony|Red LED blinks 5 times": {
+  "title": "Sony-TV:n har upptäckt ett fel (5 blinkningar)",
+  "causes": [
+   "TV:n har hittat ett internt fel.",
+   "Vad antalet blinkningar betyder skiljer sig mellan modeller."
+  ],
+  "steps": [
+   "Stäng av TV:n och dra ut kontakten i 1 minut, utan att använda grenuttag.",
+   "Frigör ventilationsöppningarna så att luften kan cirkulera.",
+   "Koppla bort alla anslutna enheter och slå på igen.",
+   "Uppdatera TV:ns programvara om den startar.",
+   "Notera antalet blinkningar och kontakta Sony."
+  ],
+  "technician": "De flesta fel med röd blinkning kräver service, så kontakta Sonys support och uppge antalet blinkningar."
+ },
+ "Sony|Red LED blinks 6 times": {
+  "title": "Sony-TV:n har upptäckt ett fel (6 blinkningar)",
+  "causes": [
+   "TV:n har hittat ett internt fel.",
+   "Vad antalet blinkningar betyder skiljer sig mellan modeller."
+  ],
+  "steps": [
+   "Stäng av TV:n och dra ut kontakten i 1 minut, utan att använda grenuttag.",
+   "Frigör ventilationsöppningarna så att luften kan cirkulera.",
+   "Koppla bort alla anslutna enheter och slå på igen.",
+   "Uppdatera TV:ns programvara om den startar.",
+   "Notera antalet blinkningar och kontakta Sony."
+  ],
+  "technician": "De flesta fel med röd blinkning kräver service, så kontakta Sonys support och uppge antalet blinkningar."
+ },
+ "Sony|Red LED blinks 7 times": {
+  "title": "Sony-TV:n har upptäckt ett fel (7 blinkningar)",
+  "causes": [
+   "TV:n har hittat ett internt fel.",
+   "Vad antalet blinkningar betyder skiljer sig mellan modeller."
+  ],
+  "steps": [
+   "Stäng av TV:n och dra ut kontakten i 1 minut, utan att använda grenuttag.",
+   "Frigör ventilationsöppningarna så att luften kan cirkulera.",
+   "Koppla bort alla anslutna enheter och slå på igen.",
+   "Uppdatera TV:ns programvara om den startar.",
+   "Notera antalet blinkningar och kontakta Sony."
+  ],
+  "technician": "De flesta fel med röd blinkning kräver service, så kontakta Sonys support och uppge antalet blinkningar."
+ },
+ "Sony|Red LED blinks 8 times": {
+  "title": "Sony-TV:n har upptäckt ett fel (8 blinkningar)",
+  "causes": [
+   "TV:n har hittat ett internt fel.",
+   "Vad antalet blinkningar betyder skiljer sig mellan modeller."
+  ],
+  "steps": [
+   "Stäng av TV:n och dra ut kontakten i 1 minut, utan att använda grenuttag.",
+   "Frigör ventilationsöppningarna så att luften kan cirkulera.",
+   "Koppla bort alla anslutna enheter och slå på igen.",
+   "Uppdatera TV:ns programvara om den startar.",
+   "Notera antalet blinkningar och kontakta Sony."
+  ],
+  "technician": "De flesta fel med röd blinkning kräver service, så kontakta Sonys support och uppge antalet blinkningar."
+ },
+ "Sony|Orange LED solid": {
+  "title": "Insomningstimer eller på/av-timer är aktiv",
+  "causes": [
+   "En insomningstimer eller på/av-timer är inställd på TV:n."
+  ],
+  "steps": [
+   "Öppna TV:ns inställningsmeny.",
+   "Hitta insomningstimern eller på/av-timern.",
+   "Stäng av timern eller ändra tiden.",
+   "Kontrollera att lampan slocknar."
+  ],
+  "technician": "Ingen service behövs, såvida inte lampan fortsätter lysa utan att någon timer är inställd."
+ },
+ "Sony|Orange LED blinking": {
+  "title": "Programuppdatering pågår eller kabel sitter löst",
+  "causes": [
+   "En programuppdatering pågår.",
+   "På apparater med separat mediabox kan kabeln mellan enheterna sitta löst."
+  ],
+  "steps": [
+   "Stäng inte av TV:n och dra inte ut kontakten. Vänta några minuter.",
+   "Fjärrkontrollen fungerar inte under uppdateringen.",
+   "På apparater med mediabox, kontrollera att kabeln mellan enheterna sitter fast."
+  ],
+  "technician": "Om den blinkar länge, kontakta Sonys support."
+ },
+ "Sony|Green LED blinking": {
+  "title": "Normal uppstart eller så startar inte TV:n",
+  "causes": [
+   "Normalt medan TV:n startar.",
+   "Möjligt fel om det aldrig upphör eller om TV:n slår på och av om och om igen."
+  ],
+  "steps": [
+   "Vänta tills TV:n har startat klart. Blinkandet bör upphöra.",
+   "Om den fortsätter blinka, dra ut TV:ns kontakt i 3 minuter.",
+   "Sätt i kontakten och försök igen."
+  ],
+  "technician": "Om TV:n fortfarande inte startar behöver den service från Sony."
+ },
+ "Sony|White LED blinking": {
+  "title": "Lampan i projektions-TV:n behöver bytas",
+  "causes": [
+   "Lampan har gått sönder (gäller endast projektions-TV och projektorer).",
+   "Lampluckan kan vara öppen."
+  ],
+  "steps": [
+   "Stäng av och låt lampan svalna.",
+   "Kontrollera att lamplockena är stängda och sitter fast.",
+   "Rör inte lampans glas. Om du har rört det, torka av det med en alkoholduk.",
+   "Ordna ett lampbyte."
+  ],
+  "technician": "Kontakta Sonys support för att få en ersättningslampa."
+ },
+ "Sony|Red LED blinking with 3-second pause": {
+  "title": "Fel som visas med upprepade röda blinkningar",
+  "causes": [
+   "TV:n har hittat ett fel och visar ett antal blinkningar."
+  ],
+  "steps": [
+   "Räkna blinkningarna mellan varje paus.",
+   "Dra ut TV:ns kontakt, vänta 2 minuter, sätt i den och slå på.",
+   "Om det upprepas, dra ut kontakten och ring Sony med antalet blinkningar."
+  ],
+  "technician": "Uppge antalet blinkningar till Sonys support."
+ },
+ "Panasonic|Red LED blinking": {
+  "title": "TV:n har upptäckt ett fel (SOS)",
+  "causes": [
+   "TV:n har hittat ett internt fel.",
+   "Gäller Panasonic Fire TV-modeller."
+  ],
+  "steps": [
+   "Dra ut TV:ns kontakt i några minuter.",
+   "Sätt i kontakten igen och slå på.",
+   "Om den fortfarande blinkar, skicka en reparationsförfrågan till Panasonic."
+  ],
+  "technician": "Om blinkandet fortsätter, skicka en reparationsförfrågan till Panasonics support."
+ },
+ "Panasonic|Orange LED solid": {
+  "title": "Standby medan panelunderhåll eller en nätverksuppgift pågår",
+  "causes": [
+   "Panelunderhåll eller en nätverksfunktion pågår."
+  ],
+  "steps": [
+   "Rör eller tryck inte på skärmen under panelunderhållet.",
+   "Vänta tills uppgiften är klar.",
+   "Läs Panasonics artikel om panelunderhåll om det upprepas."
+  ],
+  "technician": "Om lampan förblir orange under lång tid, kontakta Panasonics support."
+ },
+ "Panasonic|Orange LED blinking": {
+  "title": "Panelunderhåll eller nätverksuppdatering pågår",
+  "causes": [
+   "Panelunderhåll pågår.",
+   "En nätverksanslutning eller en inställningsuppdatering pågår."
+  ],
+  "steps": [
+   "Låt TV:n sitta i vägguttaget och vänta tills det är klart.",
+   "Om lampan blir orange igen när du slår på eller av TV:n är underhållet inte klart.",
+   "Låt det bli klart innan du stänger av."
+  ],
+  "technician": "Om det aldrig upphör, kontakta Panasonics support."
+ },
+ "Panasonic|Green LED blinking": {
+  "title": "TV:n startar eller väntar på Bluetooth-parkoppling",
+  "causes": [
+   "TV:n startar.",
+   "Den väntar på att en Bluetooth-enhet ska parkopplas."
+  ],
+  "steps": [
+   "Vänta tills uppstarten är klar.",
+   "Om du parkopplar, slutför parkopplingen på den andra enheten.",
+   "Dra ut kontakten en kort stund och försök igen om det aldrig upphör."
+  ],
+  "technician": "Om TV:n aldrig blir klar med uppstarten, kontakta Panasonics support."
+ },
+ "Philips|Standby light blinks red": {
+  "title": "Philips-TV:n rapporterar ett fel",
+  "causes": [
+   "TV:n har upptäckt ett fel.",
+   "TV:n kan ha överhettats."
+  ],
+  "steps": [
+   "Dra ut TV:ns kontakt ur vägguttaget.",
+   "Låt den svalna helt.",
+   "Sätt i nätkabeln igen.",
+   "Slå på den igen."
+  ],
+  "technician": "Om den röda lampan blinkar igen, kontakta Philips kundtjänst."
+ },
+ "Philips|Front LED blinks in a repeating pattern": {
+  "title": "TV:n startar inte och lampan blinkar upprepat",
+  "causes": [
+   "TV:n startar inte och visar ingen bild eller ger inget ljud.",
+   "Ett tillfälligt strömfel."
+  ],
+  "steps": [
+   "Gör en strömcykel: dra ut TV:ns kontakt och vänta några minuter.",
+   "Sätt i kontakten och försök igen.",
+   "Prova ett annat vägguttag."
+  ],
+  "technician": "Om den fortfarande blinkar, kontakta Philips TV-support."
+ },
+ "LG|Error 106": {
+  "title": "TV:n är inte ansluten till nätverket",
+  "causes": [
+   "TV:n har ingen fungerande internetanslutning.",
+   "Wi-Fi-adaptern eller routerns inställningar är inte lämpliga."
+  ],
+  "steps": [
+   "Testa en annan enhet i samma nätverk.",
+   "Starta om routern och TV:n och ange sedan Wi-Fi-lösenordet igen.",
+   "I Wi-Fi:s avancerade inställningar, ange DNS manuellt till 8.8.8.8.",
+   "Använd 5 GHz om TV:n stöder det och flytta routern närmare."
+  ],
+  "technician": "Om inget fungerar kan Wi-Fi-modulen behöva bytas, så kontakta LG:s service."
+ }
+}

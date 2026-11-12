@@ -1,0 +1,654 @@
+{
+ "Roku|Error 009": {
+  "title": "Yhdistetty reitittimeen, mutta ei internetyhteyttä",
+  "causes": [
+   "Reititin löytyy, mutta siinä ei ole internetyhteyttä.",
+   "Internetpalvelussa on katkos."
+  ],
+  "steps": [
+   "Tarkista, pääseekö puhelimella tai kannettavalla verkkoon samassa verkossa.",
+   "Jos mikään laite ei pääse verkkoon, soita internetoperaattorillesi.",
+   "Jos muut laitteet toimivat, käynnistä televisio uudelleen.",
+   "Käynnistä reititin ja modeemi uudelleen ja yhdistä sitten uudelleen."
+  ],
+  "technician": "Jos virhe palaa näiden vaiheiden jälkeen, ota yhteys Rokun tukeen tai internetoperaattoriisi."
+ },
+ "Roku|Error 012": {
+  "title": "Langallisen verkkoyhteyden ongelma",
+  "causes": [
+   "Ethernet-kaapeli on löysällä tai viallinen.",
+   "Reitittimen portti ei toimi."
+  ],
+  "steps": [
+   "Työnnä Ethernet-kaapeli tiukasti television ja reitittimen liittimeen.",
+   "Kokeile toista kaapelia tai reitittimen toista porttia.",
+   "Käynnistä televisio uudelleen ja sen jälkeen reititin ja modeemi.",
+   "Kokeile hetken Wi-Fi-yhteyttä nähdäksesi, toimiiko internet itse."
+  ],
+  "technician": "Jos virhe palaa näiden vaiheiden jälkeen, ota yhteys Rokun tukeen tai internetoperaattoriisi."
+ },
+ "Roku|Error 013": {
+  "title": "Langallinen yhteys ei pääse internetiin",
+  "causes": [
+   "Reitittimessä ei ole internetyhteyttä.",
+   "Ethernet-kaapeli ei ole kunnolla paikallaan."
+  ],
+  "steps": [
+   "Tarkista, että toinen laite pääsee verkkoon.",
+   "Jos pääsee, käynnistä televisio uudelleen.",
+   "Jos ei, irrota Ethernet-kaapeli ja kytke se takaisin molemmista päistä.",
+   "Käynnistä reititin uudelleen, ennen kuin soitat operaattorillesi."
+  ],
+  "technician": "Jos virhe palaa näiden vaiheiden jälkeen, ota yhteys Rokun tukeen tai internetoperaattoriisi."
+ },
+ "Roku|Error 014": {
+  "title": "Langattomaan verkkoon ei saa yhteyttä",
+  "causes": [
+   "Valittu väärä verkon nimi.",
+   "Salasana on kirjoitettu väärin.",
+   "Reititin tai televisio tarvitsee uudelleenkäynnistyksen."
+  ],
+  "steps": [
+   "Tarkista, että valitsit oikean verkon nimen.",
+   "Kirjoita salasana uudelleen; isot ja pienet kirjaimet ovat eri merkkejä.",
+   "Käynnistä televisio ja reititin uudelleen.",
+   "Yritä yhdistää uudelleen."
+  ],
+  "technician": "Jos virhe palaa näiden vaiheiden jälkeen, ota yhteys Rokun tukeen tai internetoperaattoriisi."
+ },
+ "Roku|Error 014.20": {
+  "title": "Heikko Wi-Fi-signaali estää yhteyden",
+  "causes": [
+   "Televisio on liian kaukana reitittimestä.",
+   "Seinät tai esineet heikentävät signaalia."
+  ],
+  "steps": [
+   "Siirrä televisiota tai reititintä lähemmäs tai nosta reititin korkeammalle.",
+   "Käynnistä reititin ja televisio uudelleen.",
+   "Jos reitittimessäsi on kaksi taajuuskaistaa, kokeile toista.",
+   "Yhdistä verkkoon uudelleen."
+  ],
+  "technician": "Jos virhe palaa näiden vaiheiden jälkeen, ota yhteys Rokun tukeen tai internetoperaattoriisi."
+ },
+ "Roku|Error 014.30": {
+  "title": "Wi-Fi-yhteys epäonnistui, heikko signaali",
+  "causes": [
+   "Heikko Wi-Fi-signaali.",
+   "Tilapäinen häiriö reitittimessä tai televisiossa."
+  ],
+  "steps": [
+   "Käynnistä reititin ja televisio uudelleen.",
+   "Siirrä televisio lähemmäs reititintä.",
+   "Yhdistä Wi-Fi-verkkoon uudelleen.",
+   "Kokeile reitittimen toista taajuuskaistaa, jos mahdollista."
+  ],
+  "technician": "Jos virhe palaa näiden vaiheiden jälkeen, ota yhteys Rokun tukeen tai internetoperaattoriisi."
+ },
+ "Roku|Error 014.40": {
+  "title": "Väärä salasana tai reitittimen rajoitus",
+  "causes": [
+   "Wi-Fi-salasana on kirjoitettu väärin.",
+   "Reititin estää tuntemattomat laitteet."
+  ],
+  "steps": [
+   "Tarkista verkon nimi ja kirjoita salasana uudelleen.",
+   "Jos reititin suodattaa laitteita, lisää television langaton MAC-osoite.",
+   "Käynnistä televisio ja reititin uudelleen.",
+   "Yritä uudelleen."
+  ],
+  "technician": "Jos virhe palaa näiden vaiheiden jälkeen, ota yhteys Rokun tukeen tai internetoperaattoriisi."
+ },
+ "Roku|Error 014.41": {
+  "title": "Väärä salasana tai reitittimen rajoitus",
+  "causes": [
+   "Wi-Fi-salasana on kirjoitettu väärin.",
+   "Reititin estää tuntemattomat laitteet."
+  ],
+  "steps": [
+   "Tarkista verkon nimi ja kirjoita salasana uudelleen huolellisesti.",
+   "Jos reititin suodattaa laitteita, salli television langaton MAC-osoite.",
+   "Käynnistä televisio ja reititin uudelleen.",
+   "Yritä uudelleen."
+  ],
+  "technician": "Jos virhe palaa näiden vaiheiden jälkeen, ota yhteys Rokun tukeen tai internetoperaattoriisi."
+ },
+ "Roku|Error 014.50": {
+  "title": "Wi-Fi-yhteys epäonnistui, heikko signaali",
+  "causes": [
+   "Heikko Wi-Fi-signaali.",
+   "Tilapäinen häiriö reitittimessä tai televisiossa."
+  ],
+  "steps": [
+   "Käynnistä reititin ja televisio uudelleen.",
+   "Siirrä televisio lähemmäs reititintä.",
+   "Yhdistä Wi-Fi-verkkoon uudelleen.",
+   "Kokeile reitittimen toista taajuuskaistaa, jos mahdollista."
+  ],
+  "technician": "Jos virhe palaa näiden vaiheiden jälkeen, ota yhteys Rokun tukeen tai internetoperaattoriisi."
+ },
+ "Roku|Error 016": {
+  "title": "Yhteys katkesi kanavaa avattaessa",
+  "causes": [
+   "Verkkoyhteys katkesi sovelluksen käynnistyessä.",
+   "Heikko Wi-Fi-signaali."
+  ],
+  "steps": [
+   "Valitse ruudulta Set up connection ja seuraa ohjeita.",
+   "Käynnistä televisio ja reititin uudelleen.",
+   "Tarkista Wi-Fi-signaalin voimakkuus.",
+   "Siirrä televisio ja reititin lähemmäs toisiaan."
+  ],
+  "technician": "Jos virhe palaa näiden vaiheiden jälkeen, ota yhteys Rokun tukeen tai internetoperaattoriisi."
+ },
+ "Roku|Error 017": {
+  "title": "Heikko langaton signaali",
+  "causes": [
+   "Wi-Fi-signaali on heikko television kohdalla.",
+   "Television ja reitittimen välissä on esteitä."
+  ],
+  "steps": [
+   "Siirrä televisio ja reititin lähemmäs toisiaan.",
+   "Poista esteet niiden välistä.",
+   "Käynnistä televisio ja reititin uudelleen.",
+   "Käytä Ethernet-kaapelia, jos televisiossa on liitäntä."
+  ],
+  "technician": "Jos virhe palaa näiden vaiheiden jälkeen, ota yhteys Rokun tukeen tai internetoperaattoriisi."
+ },
+ "Roku|Error 018": {
+  "title": "Internetyhteys on liian hidas",
+  "causes": [
+   "Internet-liittymäsi tai linjasi on hidas.",
+   "Muut laitteet käyttävät kaistaa."
+  ],
+  "steps": [
+   "Keskeytä lataukset ja suoratoistot muilla laitteilla.",
+   "Käynnistä modeemi ja reititin uudelleen.",
+   "Kysy operaattoriltasi, mikä nopeus sinulla on.",
+   "Harkitse nopeampaa liittymää."
+  ],
+  "technician": "Jos virhe palaa näiden vaiheiden jälkeen, ota yhteys Rokun tukeen tai internetoperaattoriisi."
+ },
+ "Roku|Error 14.10": {
+  "title": "Langattoman yhteyden häiriö",
+  "causes": [
+   "Tilapäinen Wi-Fi-häiriö television ja reitittimen välillä."
+  ],
+  "steps": [
+   "Käynnistä reititin uudelleen ja odota, että se on taas verkossa.",
+   "Käynnistä Roku TV uudelleen.",
+   "Yritä yhdistää verkkoon uudelleen.",
+   "Siirrä televisio lähemmäs, jos signaali on heikko."
+  ],
+  "technician": "Jos virhe palaa näiden vaiheiden jälkeen, ota yhteys Rokun tukeen tai internetoperaattoriisi."
+ },
+ "Roku|Error 14.11": {
+  "title": "Langattoman yhteyden häiriö",
+  "causes": [
+   "Tilapäinen Wi-Fi-häiriö television ja reitittimen välillä."
+  ],
+  "steps": [
+   "Käynnistä reititin uudelleen ja odota, että se on taas verkossa.",
+   "Käynnistä Roku TV uudelleen.",
+   "Yritä yhdistää verkkoon uudelleen.",
+   "Siirrä televisio lähemmäs, jos signaali on heikko."
+  ],
+  "technician": "Jos virhe palaa näiden vaiheiden jälkeen, ota yhteys Rokun tukeen tai internetoperaattoriisi."
+ },
+ "Roku|Error 14.62": {
+  "title": "Langattoman yhteyden ongelma, heikko signaali",
+  "causes": [
+   "Wi-Fi-signaali on heikko television kohdalla."
+  ],
+  "steps": [
+   "Tarkista ruudulla näkyvä signaalin voimakkuus.",
+   "Siirrä televisio ja reititin lähemmäs toisiaan.",
+   "Käynnistä reititin ja televisio uudelleen.",
+   "Yhdistä verkkoon uudelleen."
+  ],
+  "technician": "Jos virhe palaa näiden vaiheiden jälkeen, ota yhteys Rokun tukeen tai internetoperaattoriisi."
+ },
+ "Roku|Error 14.64": {
+  "title": "Langattoman yhteyden ongelma, heikko signaali",
+  "causes": [
+   "Wi-Fi-signaali on heikko television kohdalla."
+  ],
+  "steps": [
+   "Tarkista ruudulla näkyvä signaalin voimakkuus.",
+   "Siirrä televisio ja reititin lähemmäs toisiaan.",
+   "Käynnistä reititin ja televisio uudelleen.",
+   "Yhdistä verkkoon uudelleen."
+  ],
+  "technician": "Jos virhe palaa näiden vaiheiden jälkeen, ota yhteys Rokun tukeen tai internetoperaattoriisi."
+ },
+ "TCL|Error 009": {
+  "title": "Yhdistetty reitittimeen, mutta ei internetyhteyttä",
+  "causes": [
+   "Reititin löytyy, mutta siinä ei ole internetyhteyttä.",
+   "Internetpalvelussa on katkos."
+  ],
+  "steps": [
+   "Tarkista, pääseekö puhelimella tai kannettavalla verkkoon samassa verkossa.",
+   "Jos mikään laite ei pääse verkkoon, soita internetoperaattorillesi.",
+   "Jos muut laitteet toimivat, käynnistä televisio uudelleen.",
+   "Käynnistä reititin ja modeemi uudelleen ja yhdistä sitten uudelleen."
+  ],
+  "technician": "Jos virhe palaa verkon nollauksen jälkeen, ota yhteys TCL:n tukeen Roku TV:tä koskien."
+ },
+ "TCL|Error 012": {
+  "title": "Langallisen verkkoyhteyden ongelma",
+  "causes": [
+   "Ethernet-kaapeli on löysällä tai viallinen.",
+   "Reitittimen portti ei toimi."
+  ],
+  "steps": [
+   "Työnnä Ethernet-kaapeli tiukasti television ja reitittimen liittimeen.",
+   "Kokeile toista kaapelia tai reitittimen toista porttia.",
+   "Käynnistä televisio uudelleen ja sen jälkeen reititin ja modeemi.",
+   "Kokeile hetken Wi-Fi-yhteyttä nähdäksesi, toimiiko internet itse."
+  ],
+  "technician": "Jos virhe palaa verkon nollauksen jälkeen, ota yhteys TCL:n tukeen Roku TV:tä koskien."
+ },
+ "TCL|Error 013": {
+  "title": "Langallinen yhteys ei pääse internetiin",
+  "causes": [
+   "Reitittimessä ei ole internetyhteyttä.",
+   "Ethernet-kaapeli ei ole kunnolla paikallaan."
+  ],
+  "steps": [
+   "Tarkista, että toinen laite pääsee verkkoon.",
+   "Jos pääsee, käynnistä televisio uudelleen.",
+   "Jos ei, irrota Ethernet-kaapeli ja kytke se takaisin molemmista päistä.",
+   "Käynnistä reititin uudelleen, ennen kuin soitat operaattorillesi."
+  ],
+  "technician": "Jos virhe palaa verkon nollauksen jälkeen, ota yhteys TCL:n tukeen Roku TV:tä koskien."
+ },
+ "TCL|Error 014": {
+  "title": "Langattomaan verkkoon ei saa yhteyttä",
+  "causes": [
+   "Valittu väärä verkon nimi.",
+   "Salasana on kirjoitettu väärin.",
+   "Reititin tai televisio tarvitsee uudelleenkäynnistyksen."
+  ],
+  "steps": [
+   "Tarkista, että valitsit oikean verkon nimen.",
+   "Kirjoita salasana uudelleen; isot ja pienet kirjaimet ovat eri merkkejä.",
+   "Käynnistä televisio ja reititin uudelleen.",
+   "Yritä yhdistää uudelleen."
+  ],
+  "technician": "Jos virhe palaa verkon nollauksen jälkeen, ota yhteys TCL:n tukeen Roku TV:tä koskien."
+ },
+ "TCL|Error 014.20": {
+  "title": "Heikko Wi-Fi-signaali estää yhteyden",
+  "causes": [
+   "Televisio on liian kaukana reitittimestä.",
+   "Seinät tai esineet heikentävät signaalia."
+  ],
+  "steps": [
+   "Siirrä televisiota tai reititintä lähemmäs tai nosta reititin korkeammalle.",
+   "Käynnistä reititin ja televisio uudelleen.",
+   "Jos reitittimessäsi on kaksi taajuuskaistaa, kokeile toista.",
+   "Yhdistä verkkoon uudelleen."
+  ],
+  "technician": "Jos virhe palaa verkon nollauksen jälkeen, ota yhteys TCL:n tukeen Roku TV:tä koskien."
+ },
+ "TCL|Error 014.30": {
+  "title": "Wi-Fi-yhteys epäonnistui, heikko signaali",
+  "causes": [
+   "Heikko Wi-Fi-signaali.",
+   "Tilapäinen häiriö reitittimessä tai televisiossa."
+  ],
+  "steps": [
+   "Käynnistä reititin ja televisio uudelleen.",
+   "Siirrä televisio lähemmäs reititintä.",
+   "Yhdistä Wi-Fi-verkkoon uudelleen.",
+   "Kokeile reitittimen toista taajuuskaistaa, jos mahdollista."
+  ],
+  "technician": "Jos virhe palaa verkon nollauksen jälkeen, ota yhteys TCL:n tukeen Roku TV:tä koskien."
+ },
+ "TCL|Error 014.40": {
+  "title": "Väärä salasana tai reitittimen rajoitus",
+  "causes": [
+   "Wi-Fi-salasana on kirjoitettu väärin.",
+   "Reititin estää tuntemattomat laitteet."
+  ],
+  "steps": [
+   "Tarkista verkon nimi ja kirjoita salasana uudelleen.",
+   "Jos reititin suodattaa laitteita, lisää television langaton MAC-osoite.",
+   "Käynnistä televisio ja reititin uudelleen.",
+   "Yritä uudelleen."
+  ],
+  "technician": "Jos virhe palaa verkon nollauksen jälkeen, ota yhteys TCL:n tukeen Roku TV:tä koskien."
+ },
+ "TCL|Error 014.41": {
+  "title": "Väärä salasana tai reitittimen rajoitus",
+  "causes": [
+   "Wi-Fi-salasana on kirjoitettu väärin.",
+   "Reititin estää tuntemattomat laitteet."
+  ],
+  "steps": [
+   "Tarkista verkon nimi ja kirjoita salasana uudelleen huolellisesti.",
+   "Jos reititin suodattaa laitteita, salli television langaton MAC-osoite.",
+   "Käynnistä televisio ja reititin uudelleen.",
+   "Yritä uudelleen."
+  ],
+  "technician": "Jos virhe palaa verkon nollauksen jälkeen, ota yhteys TCL:n tukeen Roku TV:tä koskien."
+ },
+ "TCL|Error 014.50": {
+  "title": "Wi-Fi-yhteys epäonnistui, heikko signaali",
+  "causes": [
+   "Heikko Wi-Fi-signaali.",
+   "Tilapäinen häiriö reitittimessä tai televisiossa."
+  ],
+  "steps": [
+   "Käynnistä reititin ja televisio uudelleen.",
+   "Siirrä televisio lähemmäs reititintä.",
+   "Yhdistä Wi-Fi-verkkoon uudelleen.",
+   "Kokeile reitittimen toista taajuuskaistaa, jos mahdollista."
+  ],
+  "technician": "Jos virhe palaa verkon nollauksen jälkeen, ota yhteys TCL:n tukeen Roku TV:tä koskien."
+ },
+ "TCL|Error 016": {
+  "title": "Yhteys katkesi kanavaa avattaessa",
+  "causes": [
+   "Verkkoyhteys katkesi sovelluksen käynnistyessä.",
+   "Heikko Wi-Fi-signaali."
+  ],
+  "steps": [
+   "Valitse ruudulta Set up connection ja seuraa ohjeita.",
+   "Käynnistä televisio ja reititin uudelleen.",
+   "Tarkista Wi-Fi-signaalin voimakkuus.",
+   "Siirrä televisio ja reititin lähemmäs toisiaan."
+  ],
+  "technician": "Jos virhe palaa verkon nollauksen jälkeen, ota yhteys TCL:n tukeen Roku TV:tä koskien."
+ },
+ "TCL|Error 017": {
+  "title": "Heikko langaton signaali",
+  "causes": [
+   "Wi-Fi-signaali on heikko television kohdalla.",
+   "Television ja reitittimen välissä on esteitä."
+  ],
+  "steps": [
+   "Siirrä televisio ja reititin lähemmäs toisiaan.",
+   "Poista esteet niiden välistä.",
+   "Käynnistä televisio ja reititin uudelleen.",
+   "Käytä Ethernet-kaapelia, jos televisiossa on liitäntä."
+  ],
+  "technician": "Jos virhe palaa verkon nollauksen jälkeen, ota yhteys TCL:n tukeen Roku TV:tä koskien."
+ },
+ "TCL|Error 018": {
+  "title": "Internetyhteys on liian hidas",
+  "causes": [
+   "Internet-liittymäsi tai linjasi on hidas.",
+   "Muut laitteet käyttävät kaistaa."
+  ],
+  "steps": [
+   "Keskeytä lataukset ja suoratoistot muilla laitteilla.",
+   "Käynnistä modeemi ja reititin uudelleen.",
+   "Kysy operaattoriltasi, mikä nopeus sinulla on.",
+   "Harkitse nopeampaa liittymää."
+  ],
+  "technician": "Jos virhe palaa verkon nollauksen jälkeen, ota yhteys TCL:n tukeen Roku TV:tä koskien."
+ },
+ "Sony|Red LED blinks 2 times": {
+  "title": "Sony-televisio havaitsi vian (2 vilkahdusta)",
+  "causes": [
+   "Televisio havaitsi sisäisen vian.",
+   "Vilkkumiskertojen merkitys vaihtelee malleittain."
+  ],
+  "steps": [
+   "Sammuta televisio ja irrota se sähköstä 1 minuutiksi, myös jatkojohdosta.",
+   "Pidä tuuletusaukot vapaina, jotta ilma pääsee kiertämään.",
+   "Irrota kaikki liitetyt laitteet ja kytke televisio uudelleen päälle.",
+   "Päivitä television ohjelmisto, jos televisio käynnistyy.",
+   "Merkitse muistiin vilkkumiskerrat ja ota yhteys Sonyyn."
+  ],
+  "technician": "Useimmat punaisen valon vilkkumisvirheet vaativat huoltoa, joten ota yhteys Sonyn tukeen ja kerro vilkkumiskerrat."
+ },
+ "Sony|Red LED blinks 3 times": {
+  "title": "Sony-televisio havaitsi vian (3 vilkahdusta)",
+  "causes": [
+   "Televisio havaitsi sisäisen vian.",
+   "Vilkkumiskertojen merkitys vaihtelee malleittain."
+  ],
+  "steps": [
+   "Sammuta televisio ja irrota se sähköstä 1 minuutiksi, myös jatkojohdosta.",
+   "Pidä tuuletusaukot vapaina, jotta ilma pääsee kiertämään.",
+   "Irrota kaikki liitetyt laitteet ja kytke televisio uudelleen päälle.",
+   "Päivitä television ohjelmisto, jos televisio käynnistyy.",
+   "Merkitse muistiin vilkkumiskerrat ja ota yhteys Sonyyn."
+  ],
+  "technician": "Useimmat punaisen valon vilkkumisvirheet vaativat huoltoa, joten ota yhteys Sonyn tukeen ja kerro vilkkumiskerrat."
+ },
+ "Sony|Red LED blinks 4 times": {
+  "title": "Sony-televisio havaitsi vian (4 vilkahdusta)",
+  "causes": [
+   "Televisio havaitsi sisäisen vian.",
+   "Vilkkumiskertojen merkitys vaihtelee malleittain."
+  ],
+  "steps": [
+   "Sammuta televisio ja irrota se sähköstä 1 minuutiksi, myös jatkojohdosta.",
+   "Pidä tuuletusaukot vapaina, jotta ilma pääsee kiertämään.",
+   "Irrota kaikki liitetyt laitteet ja kytke televisio uudelleen päälle.",
+   "Päivitä television ohjelmisto, jos televisio käynnistyy.",
+   "Merkitse muistiin vilkkumiskerrat ja ota yhteys Sonyyn."
+  ],
+  "technician": "Useimmat punaisen valon vilkkumisvirheet vaativat huoltoa, joten ota yhteys Sonyn tukeen ja kerro vilkkumiskerrat."
+ },
+ "Sony|Red LED blinks 5 times": {
+  "title": "Sony-televisio havaitsi vian (5 vilkahdusta)",
+  "causes": [
+   "Televisio havaitsi sisäisen vian.",
+   "Vilkkumiskertojen merkitys vaihtelee malleittain."
+  ],
+  "steps": [
+   "Sammuta televisio ja irrota se sähköstä 1 minuutiksi, myös jatkojohdosta.",
+   "Pidä tuuletusaukot vapaina, jotta ilma pääsee kiertämään.",
+   "Irrota kaikki liitetyt laitteet ja kytke televisio uudelleen päälle.",
+   "Päivitä television ohjelmisto, jos televisio käynnistyy.",
+   "Merkitse muistiin vilkkumiskerrat ja ota yhteys Sonyyn."
+  ],
+  "technician": "Useimmat punaisen valon vilkkumisvirheet vaativat huoltoa, joten ota yhteys Sonyn tukeen ja kerro vilkkumiskerrat."
+ },
+ "Sony|Red LED blinks 6 times": {
+  "title": "Sony-televisio havaitsi vian (6 vilkahdusta)",
+  "causes": [
+   "Televisio havaitsi sisäisen vian.",
+   "Vilkkumiskertojen merkitys vaihtelee malleittain."
+  ],
+  "steps": [
+   "Sammuta televisio ja irrota se sähköstä 1 minuutiksi, myös jatkojohdosta.",
+   "Pidä tuuletusaukot vapaina, jotta ilma pääsee kiertämään.",
+   "Irrota kaikki liitetyt laitteet ja kytke televisio uudelleen päälle.",
+   "Päivitä television ohjelmisto, jos televisio käynnistyy.",
+   "Merkitse muistiin vilkkumiskerrat ja ota yhteys Sonyyn."
+  ],
+  "technician": "Useimmat punaisen valon vilkkumisvirheet vaativat huoltoa, joten ota yhteys Sonyn tukeen ja kerro vilkkumiskerrat."
+ },
+ "Sony|Red LED blinks 7 times": {
+  "title": "Sony-televisio havaitsi vian (7 vilkahdusta)",
+  "causes": [
+   "Televisio havaitsi sisäisen vian.",
+   "Vilkkumiskertojen merkitys vaihtelee malleittain."
+  ],
+  "steps": [
+   "Sammuta televisio ja irrota se sähköstä 1 minuutiksi, myös jatkojohdosta.",
+   "Pidä tuuletusaukot vapaina, jotta ilma pääsee kiertämään.",
+   "Irrota kaikki liitetyt laitteet ja kytke televisio uudelleen päälle.",
+   "Päivitä television ohjelmisto, jos televisio käynnistyy.",
+   "Merkitse muistiin vilkkumiskerrat ja ota yhteys Sonyyn."
+  ],
+  "technician": "Useimmat punaisen valon vilkkumisvirheet vaativat huoltoa, joten ota yhteys Sonyn tukeen ja kerro vilkkumiskerrat."
+ },
+ "Sony|Red LED blinks 8 times": {
+  "title": "Sony-televisio havaitsi vian (8 vilkahdusta)",
+  "causes": [
+   "Televisio havaitsi sisäisen vian.",
+   "Vilkkumiskertojen merkitys vaihtelee malleittain."
+  ],
+  "steps": [
+   "Sammuta televisio ja irrota se sähköstä 1 minuutiksi, myös jatkojohdosta.",
+   "Pidä tuuletusaukot vapaina, jotta ilma pääsee kiertämään.",
+   "Irrota kaikki liitetyt laitteet ja kytke televisio uudelleen päälle.",
+   "Päivitä television ohjelmisto, jos televisio käynnistyy.",
+   "Merkitse muistiin vilkkumiskerrat ja ota yhteys Sonyyn."
+  ],
+  "technician": "Useimmat punaisen valon vilkkumisvirheet vaativat huoltoa, joten ota yhteys Sonyn tukeen ja kerro vilkkumiskerrat."
+ },
+ "Sony|Orange LED solid": {
+  "title": "Uni- tai päälle/pois-ajastin on käytössä",
+  "causes": [
+   "Televisioon on asetettu uniajastin tai päälle/pois-ajastin."
+  ],
+  "steps": [
+   "Avaa television Asetukset-valikko.",
+   "Etsi uniajastin tai päälle/pois-ajastin.",
+   "Kytke ajastin pois tai muuta aikaa.",
+   "Tarkista, että valo sammuu."
+  ],
+  "technician": "Huoltoa ei tarvita, ellei valo pala ilman asetettua ajastinta."
+ },
+ "Sony|Orange LED blinking": {
+  "title": "Ohjelmistopäivitys käynnissä tai kaapeli löysällä",
+  "causes": [
+   "Ohjelmistopäivitys on käynnissä.",
+   "Laitteissa, joissa on erillinen mediaboksi, laitteiden välinen kaapeli voi olla löysällä."
+  ],
+  "steps": [
+   "Älä sammuta televisiota äläkä irrota sitä sähköstä; odota muutama minuutti.",
+   "Kaukosäädin ei toimi päivityksen aikana.",
+   "Mediaboksilla varustetuissa laitteissa tarkista, että laitteiden välinen kaapeli on tiukasti kiinni."
+  ],
+  "technician": "Jos vilkkuminen jatkuu pitkään, ota yhteys Sonyn tukeen."
+ },
+ "Sony|Green LED blinking": {
+  "title": "Normaali käynnistys tai televisio ei käynnisty",
+  "causes": [
+   "Normaalia television käynnistyessä.",
+   "Mahdollinen vika, jos vilkkuminen ei lopu tai televisio sammuu ja käynnistyy toistuvasti."
+  ],
+  "steps": [
+   "Odota, että televisio on käynnistynyt; vilkkumisen pitäisi loppua.",
+   "Jos vilkkuminen jatkuu, irrota televisio sähköstä 3 minuutiksi.",
+   "Kytke virta takaisin ja yritä uudelleen."
+  ],
+  "technician": "Jos televisio ei vieläkään käynnisty, se tarvitsee Sonyn huollon."
+ },
+ "Sony|White LED blinking": {
+  "title": "Projektiotelevision lamppu on vaihdettava",
+  "causes": [
+   "Lamppu on palanut loppuun (vain projektiotelevisiot ja projektorit).",
+   "Lampun kansi voi olla auki."
+  ],
+  "steps": [
+   "Sammuta laite ja anna lampun jäähtyä.",
+   "Varmista, että lampun kannet ovat kiinni ja tiukasti paikallaan.",
+   "Älä koske lampun lasiin; jos kosketit, pyyhi se alkoholipyyhkeellä.",
+   "Järjestä lampun vaihto."
+  ],
+  "technician": "Ota yhteys Sonyn tukeen saadaksesi vaihtolampun."
+ },
+ "Sony|Red LED blinking with 3-second pause": {
+  "title": "Toistuvat punaiset vilkahdukset ilmaisevat vian",
+  "causes": [
+   "Televisio havaitsi vian ja näyttää sen vilkahdusten määränä."
+  ],
+  "steps": [
+   "Laske vilkahdukset kunkin tauon välillä.",
+   "Irrota televisio sähköstä, odota 2 minuuttia, kytke takaisin ja käynnistä.",
+   "Jos toistuu, irrota televisio sähköstä ja soita Sonylle kertoen vilkahdusten määrä."
+  ],
+  "technician": "Kerro vilkahdusten määrä Sonyn tukeen."
+ },
+ "Panasonic|Red LED blinking": {
+  "title": "Televisio havaitsi virheen (SOS)",
+  "causes": [
+   "Televisio havaitsi sisäisen virheen.",
+   "Koskee Panasonic Fire TV -malleja."
+  ],
+  "steps": [
+   "Irrota televisio sähköstä muutamaksi minuutiksi.",
+   "Kytke virta takaisin ja käynnistä televisio.",
+   "Jos se vilkkuu edelleen, lähetä Panasonicille korjauspyyntö."
+  ],
+  "technician": "Jos vilkkuminen jatkuu, lähetä Panasonicille korjauspyyntö."
+ },
+ "Panasonic|Orange LED solid": {
+  "title": "Valmiustila paneelin huollon tai verkkotehtävän ajan",
+  "causes": [
+   "Paneelin huolto tai verkkotoiminto on käynnissä."
+  ],
+  "steps": [
+   "Älä koske näyttöön äläkä paina sitä paneelin huollon aikana.",
+   "Odota, kunnes tehtävä päättyy.",
+   "Lue Panasonicin paneelin huoltoa käsittelevä ohje, jos tilanne toistuu."
+  ],
+  "technician": "Jos valo pysyy oranssina pitkään, ota yhteys Panasonicin tukeen."
+ },
+ "Panasonic|Orange LED blinking": {
+  "title": "Paneelin huolto tai verkkopäivitys käynnissä",
+  "causes": [
+   "Paneelin huolto on käynnissä.",
+   "Verkkoyhteyden tai asetusten päivitys on käynnissä."
+  ],
+  "steps": [
+   "Jätä televisio kytkettynä sähköön ja odota, että se valmistuu.",
+   "Jos merkkivalo muuttuu uudelleen oranssiksi, kun kytket television päälle tai pois, huolto ei ole valmis.",
+   "Anna sen valmistua, ennen kuin sammutat television."
+  ],
+  "technician": "Jos vilkkuminen ei lopu, ota yhteys Panasonicin tukeen."
+ },
+ "Panasonic|Green LED blinking": {
+  "title": "Televisio käynnistyy tai odottaa Bluetooth-paritusta",
+  "causes": [
+   "Televisio käynnistyy.",
+   "Se odottaa Bluetooth-laitteen paritusta."
+  ],
+  "steps": [
+   "Odota, että käynnistys päättyy.",
+   "Jos kyse on parituksesta, suorita pariutus loppuun toisella laitteella.",
+   "Irrota hetkeksi sähköstä ja yritä uudelleen, jos vilkkuminen ei lopu."
+  ],
+  "technician": "Jos televisio ei koskaan käynnisty loppuun, ota yhteys Panasonicin tukeen."
+ },
+ "Philips|Standby light blinks red": {
+  "title": "Philips-televisio ilmoittaa viasta",
+  "causes": [
+   "Televisio on havainnut vian.",
+   "Televisio on voinut ylikuumentua."
+  ],
+  "steps": [
+   "Irrota televisio pistorasiasta.",
+   "Anna sen jäähtyä kokonaan.",
+   "Kytke virtajohto takaisin.",
+   "Käynnistä televisio uudelleen."
+  ],
+  "technician": "Jos punainen valo vilkkuu uudelleen, ota yhteys Philipsin asiakaspalveluun."
+ },
+ "Philips|Front LED blinks in a repeating pattern": {
+  "title": "Televisio ei käynnisty, merkkivalo vilkkuu toistuvasti",
+  "causes": [
+   "Televisio ei käynnisty eikä siitä tule kuvaa tai ääntä.",
+   "Tilapäinen virtahäiriö."
+  ],
+  "steps": [
+   "Tee virran katkaisu: irrota televisio sähköstä ja odota muutama minuutti.",
+   "Kytke virta takaisin ja yritä uudelleen.",
+   "Kokeile toista pistorasiaa."
+  ],
+  "technician": "Jos se vilkkuu edelleen, ota yhteys Philipsin televisiotukeen."
+ },
+ "LG|Error 106": {
+  "title": "Televisio ei ole yhteydessä verkkoon",
+  "causes": [
+   "Televisiossa ei ole toimivaa internetyhteyttä.",
+   "Wi-Fi-sovitin tai reitittimen asetukset eivät sovi."
+  ],
+  "steps": [
+   "Kokeile toista laitetta samassa verkossa.",
+   "Käynnistä reititin ja televisio uudelleen ja kirjoita sitten Wi-Fi-salasana uudelleen.",
+   "Aseta Wi-Fi:n lisäasetuksissa DNS käsin arvoon 8.8.8.8.",
+   "Käytä 5 GHz:n kaistaa, jos televisio tukee sitä, ja siirrä reititin lähemmäs."
+  ],
+  "technician": "Jos mikään ei auta, Wi-Fi-moduuli voi tarvita vaihtoa, joten ota yhteys LG:n huoltoon."
+ }
+}

@@ -1,0 +1,1373 @@
+{
+ "Samsung|C-d0": {
+  "title": "Düğme sıkıştı veya çok uzun süre basıldı",
+  "causes": [
+   "Bir kontrol düğmesi çok uzun süre basılı kalmış.",
+   "Kontrol panelinde nem veya yağ var."
+  ],
+  "steps": [
+   "Düğmeleri nemli bir bezle silin ve paneli kurulayın.",
+   "Kontrollerin üzerinde veya çevresinde su olmadığını kontrol edin.",
+   "Fırını kapatın, ardından tekrar deneyin."
+  ],
+  "technician": "Tam güç sıfırlamasından sonra kod geri gelirse Samsung servisini arayın."
+ },
+ "Samsung|S-01": {
+  "title": "Uzun kullanım sonrası güvenlik kapanması",
+  "causes": [
+   "Fırın çok uzun süre aynı sıcaklıkta çalıştığı için güvenlik amacıyla kendini kapattı.",
+   "Bu bir arıza değildir."
+  ],
+  "steps": [
+   "Fırını kapatın.",
+   "Yemeği çıkarın.",
+   "Normal bir pişirme programını yeniden başlatın."
+  ],
+  "technician": "Kısa bir pişirme süresinden sonra görünmedikçe servis gerekmez."
+ },
+ "Samsung|dC": {
+  "title": "Ayırıcı pişirme moduna göre yanlış takılmış",
+  "causes": [
+   "Çift pişirme modunda ayırıcı çıkarılmış.",
+   "Veya tekli pişirme modunda ayırıcı takılmış."
+  ],
+  "steps": [
+   "Çift pişirme için ayırıcıyı takın, tekli pişirme için çıkarın.",
+   "Fırını kapatıp yeniden başlatın.",
+   "Sorun sürerse elektriği 30 saniye veya daha uzun süre kesin, ardından yeniden verin."
+  ],
+  "technician": "Tam güç sıfırlamasından sonra kod geri gelirse Samsung servisini arayın."
+ },
+ "Samsung|dE": {
+  "title": "Ayırıcı pişirme moduna göre yanlış takılmış",
+  "causes": [
+   "Çift pişirme modunda ayırıcı çıkarılmış.",
+   "Veya tekli pişirme modundayken takılmış."
+  ],
+  "steps": [
+   "Çift pişirme için ayırıcıyı takılı bırakın, tekli pişirme için çıkarın.",
+   "Fırını kapatıp yeniden başlatın.",
+   "Sorun sürerse sigortayı 30 saniye veya daha uzun süre kapatın ve yeniden açın."
+  ],
+  "technician": "Tam güç sıfırlamasından sonra kod geri gelirse Samsung servisini arayın."
+ },
+ "Samsung|C-d1": {
+  "title": "Kapı kilidi arızası",
+  "causes": [
+   "Fırın, kapı kilidinde bir sorun algılıyor."
+  ],
+  "steps": [
+   "Fırını kapatın ve yeniden başlatın.",
+   "Kod sürerse sigortadan elektriği en az 30 saniye kesin, ardından yeniden açın.",
+   "Kilitliyse kapıyı zorla açmayın."
+  ],
+  "technician": "Tam güç sıfırlamasından sonra kod geri gelirse Samsung servisini arayın."
+ },
+ "Samsung|C-20": {
+  "title": "Fırın sensörü arızası",
+  "causes": [
+   "Fırın bir sıcaklık sensöründe sorun bildiriyor."
+  ],
+  "steps": [
+   "Fırını kapatın ve yeniden başlatın.",
+   "Kod sürerse sigortadan elektriği en az 30 saniye kesin, ardından yeniden açın."
+  ],
+  "technician": "Tam güç sıfırlamasından sonra kod geri gelirse Samsung servisini arayın."
+ },
+ "Samsung|C-21": {
+  "title": "Fırın sensörü arızası",
+  "causes": [
+   "Fırın bir sıcaklık sensöründe sorun bildiriyor."
+  ],
+  "steps": [
+   "Fırını kapatın ve yeniden başlatın.",
+   "Kod sürerse sigortadan elektriği en az 30 saniye kesin, ardından yeniden açın."
+  ],
+  "technician": "Tam güç sıfırlamasından sonra kod geri gelirse Samsung servisini arayın."
+ },
+ "Samsung|C-22": {
+  "title": "Fırın sensörü arızası",
+  "causes": [
+   "Fırın bir sıcaklık sensöründe sorun bildiriyor."
+  ],
+  "steps": [
+   "Fırını kapatın ve yeniden başlatın.",
+   "Kod sürerse sigortadan elektriği en az 30 saniye kesin, ardından yeniden açın."
+  ],
+  "technician": "Tam güç sıfırlamasından sonra kod geri gelirse Samsung servisini arayın."
+ },
+ "Samsung|C-F1": {
+  "title": "Bellek okuma veya yazma hatası",
+  "causes": [
+   "Kontrol kartı belleğini (EEPROM) okurken veya yazarken bir hata oluştu."
+  ],
+  "steps": [
+   "Fırını kapatın ve yeniden başlatın.",
+   "Kod sürerse sigortadan elektriği en az 30 saniye kesin, ardından yeniden açın."
+  ],
+  "technician": "Tam güç sıfırlamasından sonra kod geri gelirse Samsung servisini arayın."
+ },
+ "Samsung|C-F0": {
+  "title": "Ana kart ve alt kart iletişim kurmuyor",
+  "causes": [
+   "Ana devre kartı ile alt kart birbiriyle iletişim kuramıyor."
+  ],
+  "steps": [
+   "Fırını kapatın ve yeniden başlatın.",
+   "Kod sürerse sigortadan elektriği en az 30 saniye kesin, ardından yeniden açın."
+  ],
+  "technician": "Tam güç sıfırlamasından sonra kod geri gelirse Samsung servisini arayın."
+ },
+ "Samsung|C-F2": {
+  "title": "Dokunmatik kontrolcü iletişim sorunu",
+  "causes": [
+   "Dokunmatik kontrolcü ana kart veya alt kartla bağlantıyı sürekli kaybediyor."
+  ],
+  "steps": [
+   "Fırını kapatın ve yeniden başlatın.",
+   "Kod sürerse sigortadan elektriği en az 30 saniye kesin, ardından yeniden açın."
+  ],
+  "technician": "Tam güç sıfırlamasından sonra kod geri gelirse Samsung servisini arayın."
+ },
+ "Samsung|Pr E": {
+  "title": "Fırın ön ısıtma yapıyor, normal mesaj",
+  "causes": [
+   "Fırın hâlâ ayarlanan sıcaklığa ısınıyor.",
+   "Bu normal bir mesajdır, arıza değildir."
+  ],
+  "steps": [
+   "Kapıyı kapalı tutun.",
+   "Fırının ayarlanan sıcaklığa ulaşmasını bekleyin.",
+   "Kod kendiliğinden kaybolur."
+  ],
+  "technician": "Servis gerekmez."
+ },
+ "Bosch|E011": {
+  "title": "Bir kontrol düğmesi sıkışmış",
+  "causes": [
+   "Bir düğmeye çok uzun süre basılmış veya düğme sıkışmış.",
+   "Düğmenin çevresinde kir veya nem var."
+  ],
+  "steps": [
+   "Her düğmeye tek tek basın ve serbestçe hareket ettiğini kontrol edin.",
+   "Kontrol alanını temizleyin ve kurulayın.",
+   "Fırını kapatıp yeniden açın."
+  ],
+  "technician": "Kontrolleri temizledikten sonra E011 sürerse Bosch servisini arayın."
+ },
+ "Bosch|E115": {
+  "title": "Fırın içi çok sıcak, kapı kilitli",
+  "causes": [
+   "Fırının içi çok sıcak olduğundan kapı kilidi kapalı kalıyor."
+  ],
+  "steps": [
+   "Fırının soğumasını bekleyin.",
+   "Mesajı 0 düğmesiyle silin.",
+   "Kapıyı zorlamayın."
+  ],
+  "technician": "Fırın soğukken E115 sürekli geri geliyorsa Bosch servisini arayın."
+ },
+ "Bosch|e005": {
+  "title": "Kontrol ve güç kartı iletişim kurmuyor",
+  "causes": [
+   "Kontrol paneli ile güç kartı arasındaki bağlantı koptu."
+  ],
+  "steps": [
+   "Ocağı ve fırını sigortadan kapatın.",
+   "Beş dakika bekleyin, ardından sigortayı yeniden açın.",
+   "Kodun geri gelip gelmediğini kontrol edin."
+  ],
+  "technician": "Güç sıfırlamasından sonra kod geri gelirse Bosch desteğini arayın."
+ },
+ "Bosch|E100": {
+  "title": "Elektronik arıza",
+  "causes": [
+   "Fırın bir elektronik arıza algıladı."
+  ],
+  "steps": [
+   "Ocağı ve fırını sigortadan kapatın.",
+   "Beş dakika bekleyin, ardından sigortayı yeniden açın.",
+   "Fırını tekrar deneyin."
+  ],
+  "technician": "Güç sıfırlamasından sonra kod geri gelirse Bosch desteğini arayın."
+ },
+ "Bosch|e101": {
+  "title": "Fırın sıcaklık sensörü arızası",
+  "causes": [
+   "Sıcaklık sensörü beklendiği gibi çalışmıyor."
+  ],
+  "steps": [
+   "Ocağı ve fırını sigortadan kapatın.",
+   "Beş dakika bekleyin, ardından sigortayı yeniden açın.",
+   "Fırın yeni kurulduysa montajı yapan kişiden güç kablosu bağlantısını kontrol etmesini isteyin."
+  ],
+  "technician": "Güç sıfırlamasından sonra kod geri gelirse Bosch desteğini arayın."
+ },
+ "Bosch|e126": {
+  "title": "Fırın kapı kilidi arızası",
+  "causes": [
+   "Kapı kilidi doğru çalışmıyor; genellikle kendi kendini temizleme sırasında görülür."
+  ],
+  "steps": [
+   "Kendi kendini temizleme programını iptal edin.",
+   "Kapının kilidinin açılmasını bekleyin.",
+   "Kendi kendini temizlemeyi yeniden başlatın."
+  ],
+  "technician": "Güç sıfırlamasından sonra kod geri gelirse Bosch desteğini arayın."
+ },
+ "Bosch|E302": {
+  "title": "Kontrol paneli aşırı ısındı",
+  "causes": [
+   "Kontrol paneli çok sıcak; ocaktaki tencereler buna neden olabilir.",
+   "Oda sıcaklığı yüksek."
+  ],
+  "steps": [
+   "Oda sıcaklığını ve tencerelerin yerini kontrol edin.",
+   "Cihazın soğumasını bekleyin.",
+   "Sigortadan beş dakikalık güç sıfırlaması yapın."
+  ],
+  "technician": "Güç sıfırlamasından sonra kod geri gelirse Bosch desteğini arayın."
+ },
+ "Bosch|e310": {
+  "title": "Güç kaynağı arızası",
+  "causes": [
+   "Şebeke gerilimi yanlış veya dengesiz olabilir."
+  ],
+  "steps": [
+   "Ocağı ve fırını sigortadan kapatın.",
+   "Beş dakika bekleyin, ardından sigortayı yeniden açın.",
+   "Tekrar ederse bir elektrikçiden evinizin gerilimini doğrulamasını isteyin."
+  ],
+  "technician": "Güç sıfırlamasından sonra kod geri gelirse Bosch desteğini arayın."
+ },
+ "Bosch|ERR/toP": {
+  "title": "Kendi kendini temizleme sırasında ocak kullanıldı",
+  "causes": [
+   "Fırın kendini temizlerken bir pişirme bölgesi açıldı."
+  ],
+  "steps": [
+   "Açık olan tüm pişirme bölgelerini kapatın.",
+   "Kendi kendini temizleme programını yeniden başlatın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Tüm bölgeler kapalıyken görünmedikçe servis gerekmez."
+ },
+ "Bosch|dE": {
+  "title": "Demo modu açık, bölgeler ısınmıyor",
+  "causes": [
+   "Demo modu etkin olduğundan pişirme bölgeleri soğuk kalıyor."
+  ],
+  "steps": [
+   "Ocağın sigortasını 30 saniye kapatın.",
+   "Yeniden açın.",
+   "Üç dakika içinde herhangi bir kontrole dokunun."
+  ],
+  "technician": "Güç sıfırlamasından sonra kod geri gelirse Bosch desteğini arayın."
+ },
+ "Bosch|F1": {
+  "title": "Pişirme bölgesi aşırı ısındı ve kapandı",
+  "causes": [
+   "Bir bölge aşırı ısındı ve tezgâhı korumak için kapandı."
+  ],
+  "steps": [
+   "Elektroniğin soğumasını bekleyin.",
+   "Bölgeyi yeniden açın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Güç sıfırlamasından sonra kod geri gelirse Bosch desteğini arayın."
+ },
+ "Bosch|F6": {
+  "title": "Pişirme bölgesi aşırı ısındı ve kapandı",
+  "causes": [
+   "Bir bölge aşırı ısındı ve tezgâhı korumak için kapandı."
+  ],
+  "steps": [
+   "Elektroniğin soğumasını bekleyin.",
+   "Bölgeyi yeniden açın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Güç sıfırlamasından sonra kod geri gelirse Bosch desteğini arayın."
+ },
+ "Bosch|F2": {
+  "title": "Elektronik aşırı ısındı, bölge kapalı",
+  "causes": [
+   "Elektronik çok sıcak olduğundan bölge kapandı."
+  ],
+  "steps": [
+   "Ocağın soğumasını bekleyin.",
+   "Herhangi bir kontrole dokunun.",
+   "Mesaj silindikten sonra yeniden pişirin.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Güç sıfırlamasından sonra kod geri gelirse Bosch desteğini arayın."
+ },
+ "Bosch|F4": {
+  "title": "Elektronik aşırı ısındı",
+  "causes": [
+   "Elektronik çok sıcak."
+  ],
+  "steps": [
+   "Ocağın soğumasını bekleyin.",
+   "Herhangi bir kontrole dokunun.",
+   "Mesaj silindikten sonra pişirmeye devam edin.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Güç sıfırlamasından sonra kod geri gelirse Bosch desteğini arayın."
+ },
+ "Bosch|F5": {
+  "title": "Kontrol panelinin yanında sıcak tava",
+  "causes": [
+   "Sıcak mutfak kabı dokunmatik kontrollere yakın.",
+   "Elektroniğin aşırı ısınma riski var."
+  ],
+  "steps": [
+   "Mutfak kabını kontrol panelinden uzaklaştırın.",
+   "Birkaç saniye bekleyin ve herhangi bir kontrole dokunun.",
+   "Mesaj silindiğinde pişirmeye devam edin."
+  ],
+  "technician": "Güç sıfırlamasından sonra kod geri gelirse Bosch desteğini arayın."
+ },
+ "Bosch|F8": {
+  "title": "Bölge çok uzun çalıştı, süre sınırına ulaşıldı",
+  "causes": [
+   "Bir bölge uzun süre hiçbir işlem yapılmadan açık bırakıldı."
+  ],
+  "steps": [
+   "Herhangi bir kontrole dokunun.",
+   "Bölgeyi yeniden ayarlayın.",
+   "Pişirmeye devam edin.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Güç sıfırlamasından sonra kod geri gelirse Bosch desteğini arayın."
+ },
+ "Bosch|E7010": {
+  "title": "Ocak ağa veya davlumbaza bağlanamıyor",
+  "causes": [
+   "Ocak, ev ağınızla veya davlumbazla bağlantısını kaybetti."
+  ],
+  "steps": [
+   "Ocağı kapatıp açın.",
+   "Wi-Fi'nizin çalıştığını kontrol edin.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Güç sıfırlamasından sonra kod geri gelirse Bosch desteğini arayın."
+ },
+ "Bosch|E9000": {
+  "title": "Şebeke gerilimi normal aralığın dışında",
+  "causes": [
+   "Elektrik şebekesi gerilimi çok yüksek veya çok düşük."
+  ],
+  "steps": [
+   "Ocağı kapatıp yeniden açın.",
+   "Elektrik sağlayıcınızdan şebeke gerilimini kontrol etmesini isteyin."
+  ],
+  "technician": "Sağlayıcınız bir sorun bulamazsa Bosch desteğini arayın."
+ },
+ "Bosch|E9010": {
+  "title": "Şebeke gerilimi normal aralığın dışında",
+  "causes": [
+   "Elektrik şebekesi gerilimi çok yüksek veya çok düşük."
+  ],
+  "steps": [
+   "Ocağı kapatıp yeniden açın.",
+   "Elektrik sağlayıcınızdan şebeke gerilimini kontrol etmesini isteyin."
+  ],
+  "technician": "Sağlayıcınız bir sorun bulamazsa Bosch desteğini arayın."
+ },
+ "Bosch|E9011": {
+  "title": "Ocak doğru bağlanmamış",
+  "causes": [
+   "Kablolama devre şemasına uymuyor."
+  ],
+  "steps": [
+   "Sigortadan elektriği kapatın.",
+   "Kablolamayı şemaya göre yetkili bir elektrikçiye kontrol ettirin."
+  ],
+  "technician": "Yetkili bir elektrikçiyi veya Bosch desteğini arayın."
+ },
+ "Bosch|U400": {
+  "title": "Şebeke gerilimi normal aralığın dışında",
+  "causes": [
+   "Şebeke gerilimi normal sınırların dışında."
+  ],
+  "steps": [
+   "Ocağı kapatıp yeniden açın.",
+   "Gerilimi kontrol etmesi için elektrik sağlayıcınızla iletişime geçin.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Şebeke normal çıkarsa Bosch desteğini arayın."
+ },
+ "Siemens|E0111": {
+  "title": "Elektronik arıza mesajı",
+  "causes": [
+   "Fırın elektroniği bir arıza algıladı.",
+   "Tek seferlik bir aksaklık olabilir."
+  ],
+  "steps": [
+   "Fırını kapatıp yeniden açın.",
+   "Mesaj kaybolursa tek seferlik bir durumdu.",
+   "Geri gelirse tam kodu not edin."
+  ],
+  "technician": "Geri gelirse tam kodla birlikte Siemens satış sonrası servisini arayın."
+ },
+ "Neff|E011": {
+  "title": "Düğmeye sürekli atama yapılmış",
+  "causes": [
+   "Bir düğmeye sürekli basılıyor veya düğme sürekli atanmış."
+  ],
+  "steps": [
+   "Düğmenin sürekli atamasını iptal edin.",
+   "Ardından saat işlevi düğmesine basın.",
+   "Düğmelerin çevresini temizleyin.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "E011 silinmezse Neff servisini arayın."
+ },
+ "Neff|E300": {
+  "title": "Dahili elektronik arıza",
+  "causes": [
+   "Fırın elektroniğinde dahili bir arıza."
+  ],
+  "steps": [
+   "Saat işlevi düğmesine basın.",
+   "Sürerse fırının fişini çekin.",
+   "Yaklaşık 10 saniye bekleyin ve tekrar takın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Kod geri gelirse Neff servisini arayın."
+ },
+ "Neff|rrr": {
+  "title": "Çalışma sırasında elektrik kesildi",
+  "causes": [
+   "Fırın çalışırken elektrik kesintiye uğradı."
+  ],
+  "steps": [
+   "Günün saati düğmesine basın.",
+   "Saati yeniden ayarlayın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Elektrik kesintisi olmadan tekrar etmedikçe servis gerekmez."
+ },
+ "Miele|E0-E5": {
+  "title": "Kireç çözme programı ilerleme kodları",
+  "causes": [
+   "Bu kodlar kireç çözme programının hangi adımda olduğunu gösterir.",
+   "E0 çözeltinin çekilmesi, E1 etkinleştirme, E2 ile E4 durulama, E5 buharlaştırma anlamına gelir."
+  ],
+  "steps": [
+   "Programın sonuna kadar çalışmasına izin verin.",
+   "Kireç çözme sırasında fırını kapatmayın."
+  ],
+  "technician": "Program durmadıkça servis gerekmez."
+ },
+ "Miele|F23": {
+  "title": "Piroliz temizliği sıcaklığa ulaşamadı",
+  "causes": [
+   "Fırın kendi kendini temizleme için yeterince ısınamadı.",
+   "İçeride çok fazla yemek artığı var."
+  ],
+  "steps": [
+   "Fırını kapatın.",
+   "Büyük birikintileri ve yoğun kiri silin.",
+   "Piroliz temizliğini yeniden başlatın."
+  ],
+  "technician": "Arıza geri gelirse Miele Müşteri Hizmetleri ile iletişime geçin veya onarım randevusu alın."
+ },
+ "Miele|F32": {
+  "title": "Piroliz kapı kilidi kapanmıyor",
+  "causes": [
+   "Kendi kendini temizleme kapı kilidi devreye girmiyor.",
+   "Kapıyı bir şey engelliyor olabilir."
+  ],
+  "steps": [
+   "Kapı ve conta bölgesinde cisim veya kalıntı olup olmadığına bakın.",
+   "Fırını kapatın.",
+   "Piroliz temizliğini yeniden başlatın."
+  ],
+  "technician": "Arıza geri gelirse Miele Müşteri Hizmetleri ile iletişime geçin veya onarım randevusu alın."
+ },
+ "Miele|F33": {
+  "title": "Piroliz kapı kilidi açılmıyor",
+  "causes": [
+   "Kendi kendini temizleme kapı kilidi serbest kalmadı."
+  ],
+  "steps": [
+   "Temizlik programını durdurmak için fırını kapatın.",
+   "Kapıyı açmayı deneyin.",
+   "Zorlamayın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Kapı kilitli kalırsa Miele Müşteri Hizmetleri'ni arayın."
+ },
+ "Miele|F38": {
+  "title": "Elektronik modül arızası",
+  "causes": [
+   "Fırının elektronik modülünde teknik bir arıza var."
+  ],
+  "steps": [
+   "Kendiniz onarmaya çalışmayın.",
+   "Kodu ve model numaranızı not edin.",
+   "Onarım randevusu alın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Evde giderilemeyeceğinden bir Miele teknisyeni çağırın."
+ },
+ "Miele|F44": {
+  "title": "Teknik arıza algılandı",
+  "causes": [
+   "Fırın teknik bir arıza algıladı."
+  ],
+  "steps": [
+   "Sigortadan kapatın veya fırının fişini çekin.",
+   "20 saniye kapalı bırakın.",
+   "Elektriği geri verin ve deneyin.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Arıza geri gelirse Miele Müşteri Hizmetleri ile iletişime geçin veya onarım randevusu alın."
+ },
+ "Miele|F54": {
+  "title": "Et probu arızalı",
+  "causes": [
+   "Et probu veya bağlantısı arızalı."
+  ],
+  "steps": [
+   "Probu yuvasından çekin.",
+   "Arıza mesajı silinmelidir.",
+   "Şimdilik probsuz pişirin.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Yedek prob satın almak için Miele Müşteri Hizmetleri ile iletişime geçin."
+ },
+ "Miele|F55": {
+  "title": "Fırın çok uzun çalıştıktan sonra kapandı",
+  "causes": [
+   "Fırın alışılmadık derecede uzun süre çalıştığı için güvenlik amacıyla kapandı.",
+   "Sınır, ızgara modlarında 6 saat, diğer modlarda 12 saattir."
+  ],
+  "steps": [
+   "Fırını kapatıp yeniden açın.",
+   "Yeni bir pişirme işlemi başlatın."
+  ],
+  "technician": "Kısa pişirmelerde de sürekli oluyorsa servis gerekir, aksi halde gerekmez."
+ },
+ "Miele|F60": {
+  "title": "Fırın havalandırması yetersiz",
+  "causes": [
+   "Hava kanalı tıkalı veya kapalı."
+  ],
+  "steps": [
+   "Fırının hava kanalını hiçbir şeyin kapatmadığını kontrol edin.",
+   "Fırının elektrik bağlantısını kesin, ardından yeniden bağlayın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Arıza geri gelirse Miele Müşteri Hizmetleri ile iletişime geçin veya onarım randevusu alın."
+ },
+ "Miele|F134": {
+  "title": "Fırın içi çok sıcak",
+  "causes": [
+   "Sıcaklık sensörü pişirme bölmesinin çok sıcak olduğunu bildiriyor."
+  ],
+  "steps": [
+   "Fırını kapatın ve soğumasını bekleyin.",
+   "Kendiniz onarmaya çalışmayın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Teknisyen gerektirdiğinden Miele onarımı için randevu alın."
+ },
+ "Miele|MES": {
+  "title": "Demo modu açık, fırın ısıtmıyor",
+  "causes": [
+   "Mağaza demo modu açık."
+  ],
+  "steps": [
+   "Mesajı OK ile onaylayın.",
+   "Mod seçiciyi 0'a getirin.",
+   "Settings menüsünü açın, P 9'a gidin ve S 0 olarak ayarlayın.",
+   "OK düğmesini 4 saniye basılı tutun."
+  ],
+  "technician": "Demo modu geri gelirse Miele ile iletişime geçin."
+ },
+ "Miele|F1": {
+  "title": "Su haznesi itilmemiş",
+  "causes": [
+   "Artık suyu boşaltan su haznesi yok veya tam takılmamış."
+  ],
+  "steps": [
+   "Su haznesini fırına sonuna kadar itin.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Arıza geri gelirse Miele Müşteri Hizmetleri ile iletişime geçin veya onarım randevusu alın."
+ },
+ "Miele|F04": {
+  "title": "Pişirme sırasında elektrik kesildi",
+  "causes": [
+   "Fırın bir pişirme programı sırasında elektriğini kaybetti."
+  ],
+  "steps": [
+   "Pişirmenin ne kadar ilerlediğini kontrol edin.",
+   "Gerekirse yeni bir pişirme süresi ayarlayın.",
+   "Devam etmek için Start/Stop düğmesine basın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Arıza geri gelirse Miele Müşteri Hizmetleri ile iletişime geçin veya onarım randevusu alın."
+ },
+ "Miele|F05": {
+  "title": "Su buharlı fırına ulaşmıyor",
+  "causes": [
+   "Su giriş vanası tam açık değil.",
+   "Su memesi kireçle tıkanmış."
+  ],
+  "steps": [
+   "Su giriş vanasını sonuna kadar açın ve yeniden başlatın.",
+   "Tekrar ederse fırın eldivenleriyle su memesinin kirecini çözün.",
+   "Su parçalarını durulayın."
+  ],
+  "technician": "Arıza geri gelirse Miele Müşteri Hizmetleri ile iletişime geçin veya onarım randevusu alın."
+ },
+ "Miele|F10": {
+  "title": "Buharlı fırında su giriş arızası",
+  "causes": [
+   "Uzun süre kullanılmadığı için besleme pompası kuru.",
+   "Siyah emme hortumu gevşek veya hasarlı.",
+   "Ozmoz suyu sensör için fazla saf."
+  ],
+  "steps": [
+   "Siyah emme hortumunu kabın içine dik şekilde yeniden takın.",
+   "Mümkünse ozmoz sistemini kapatın.",
+   "Veya suya bir tutam tuz ekleyin."
+  ],
+  "technician": "Arıza geri gelirse Miele Müşteri Hizmetleri ile iletişime geçin veya onarım randevusu alın."
+ },
+ "Miele|F11": {
+  "title": "Buhar jeneratörü suyu boşaltamıyor",
+  "causes": [
+   "Giderde veya elektrotta kireç var.",
+   "Hortumlar tıkalı veya sıkışmış."
+  ],
+  "steps": [
+   "Fırının kirecini kılavuzda anlatıldığı gibi çözün.",
+   "6000 ve 7000 serilerinde su sertliğini maksimuma ayarlayın.",
+   "Kireç çözmeyi daha güçlü çözeltiyle tekrarlamayın."
+  ],
+  "technician": "Arıza geri gelirse Miele Müşteri Hizmetleri ile iletişime geçin veya onarım randevusu alın."
+ },
+ "Miele|F12": {
+  "title": "Buharlı fırın su almıyor",
+  "causes": [
+   "Su giriş vanası kapalı.",
+   "Su giriş filtresi tıkalı."
+  ],
+  "steps": [
+   "Su vanasını açın ve yeniden başlatın.",
+   "Su girişindeki filtreyi temizleyin.",
+   "Hortumdan şüphelenirseniz fırını kapatın ve vanayı kapatın."
+  ],
+  "technician": "Hortum arızalı görünüyorsa Miele'yi veya bir tesisatçıyı arayın."
+ },
+ "Miele|F13": {
+  "title": "Buharlı fırın bölmesi çok sıcak",
+  "causes": [
+   "Su giriş vanası kapalı olabilir.",
+   "Su memesinin kirecinin çözülmesi gerekebilir."
+  ],
+  "steps": [
+   "Su giriş vanasını sonuna kadar açın.",
+   "Tekrar ederse memenin kirecini çözüp durulayın.",
+   "Fırın eldivenleri giyin."
+  ],
+  "technician": "Arıza geri gelirse Miele Müşteri Hizmetleri ile iletişime geçin veya onarım randevusu alın."
+ },
+ "Miele|F14": {
+  "title": "Buhar jeneratöründe yeterli su yok",
+  "causes": [
+   "Buhar jeneratörüne yeterli su ulaşmıyor."
+  ],
+  "steps": [
+   "Fırını kapatıp yeniden açın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "F14 tekrar görünürse fırını kapatın ve Miele ile iletişime geçin."
+ },
+ "Miele|F20": {
+  "title": "Buharlı fırın ısıtmıyor",
+  "causes": [
+   "Sıcaklık 5 dakikada 2 derece yükselmedi.",
+   "Çok miktarda dondurulmuş yiyecek buna neden olabilir."
+  ],
+  "steps": [
+   "Fırını kapatıp açın ve yeniden başlatın.",
+   "Su haznesini klik sesi gelene kadar itin.",
+   "Contada yalnızca birlikte verilen silikon gresi kullanın."
+  ],
+  "technician": "Bağlantı contası çatlak görünüyorsa veya su birikiyorsa Miele'yi arayın."
+ },
+ "Miele|F27": {
+  "title": "Pişirme veya kireç çözme sırasında elektrik kesildi",
+  "causes": [
+   "Bir pişirme programı sırasında elektrik kesildi (F27).",
+   "E04, kireç çözme sırasında elektriğin kesildiği anlamına gelir."
+  ],
+  "steps": [
+   "F27 için yeni bir süre ayarlayın ve Start/Stop düğmesine basın.",
+   "E04 için ekranın 0:06'dan geri saymasını bekleyin.",
+   "Fırını kapatıp açın."
+  ],
+  "technician": "Arıza geri gelirse Miele Müşteri Hizmetleri ile iletişime geçin veya onarım randevusu alın."
+ },
+ "Miele|F74": {
+  "title": "Buharlı fırında teknik arıza",
+  "causes": [
+   "Evde giderilemeyen teknik bir arıza."
+  ],
+  "steps": [
+   "Kendiniz onarmaya çalışmayın.",
+   "Kodu ve model numarasını not edin.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Bir Miele teknisyeni ziyareti için randevu alın."
+ },
+ "Miele|F95": {
+  "title": "Su seviyesi anahtarı kireçle tıkandı",
+  "causes": [
+   "Kireç seviye anahtarını tıkıyor."
+  ],
+  "steps": [
+   "Fırının kirecini kılavuzdaki gibi çözün.",
+   "Miele bakım ürünlerini kullanın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Arıza geri gelirse Miele Müşteri Hizmetleri ile iletişime geçin veya onarım randevusu alın."
+ },
+ "Miele|F235": {
+  "title": "Elektronik modül arızası",
+  "causes": [
+   "Elektronik modül arızalı."
+  ],
+  "steps": [
+   "Kendiniz çözmeye çalışmayın.",
+   "Kodu not edin.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Miele onarımı için randevu alın."
+ },
+ "Electrolux|F1": {
+  "title": "Fırın kapısı kilitlenemiyor",
+  "causes": [
+   "Piroliz modellerinde: temizleme işlevi açık ve kapı kapanmıyor.",
+   "Diğer modellerde: elektronik arıza."
+  ],
+  "steps": [
+   "Kapının üst bölümünün sağlam olduğunu kontrol edin.",
+   "Kapı çıkarıldıysa kılavuzu izleyin.",
+   "Sorun sürerse servisle iletişime geçin."
+  ],
+  "technician": "Kod geri gelirse Electrolux onarımı için randevu alın."
+ },
+ "Electrolux|F102": {
+  "title": "Kapı kilidi sensörü arızası",
+  "causes": [
+   "Kapı tam kapalı değil.",
+   "Kapı kilidi veya elektronik arızalı."
+  ],
+  "steps": [
+   "Kapıyı sıkıca kapatın.",
+   "Elektriği birkaç dakika kesin, ardından yeniden verin.",
+   "Evin sigortasını veya kaçak akım rölesini (RCD) kontrol edin."
+  ],
+  "technician": "Kod geri gelirse Electrolux onarımı için randevu alın."
+ },
+ "Electrolux|F111": {
+  "title": "Et probu arızalı veya bağlı değil",
+  "causes": [
+   "Prob tam takılmamış.",
+   "Prob veya kablosu hasarlı."
+  ],
+  "steps": [
+   "Probu çıkarıp sıkıca yeniden takın.",
+   "Eğilmiş kontak veya hasarlı kablo olup olmadığına bakın.",
+   "Fırını elektrik şebekesinden 30 saniye kapatın."
+  ],
+  "technician": "Kod geri gelirse Electrolux onarımı için randevu alın."
+ },
+ "Electrolux|F104": {
+  "title": "Sıcaklık sensörü aralık dışı",
+  "causes": [
+   "Fırın sıcaklık sensörü aralık dışında.",
+   "Fırın ısınmayabilir veya durabilir."
+  ],
+  "steps": [
+   "Fırını elektrik şebekesinden 30 saniye kapatın.",
+   "Yeniden açın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Yetkili bir Servis Merkeziyle iletişime geçin."
+ },
+ "Electrolux|F105": {
+  "title": "Sıcaklık sensörü aşırı yüksek alarmı",
+  "causes": [
+   "Sensör beklenen seviyenin üzerinde bir sıcaklık algıladı."
+  ],
+  "steps": [
+   "Fırını kapatın ve soğumasını bekleyin.",
+   "Elektriği 30 saniye kesin, ardından yeniden verin.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Yetkili bir Servis Merkeziyle iletişime geçin."
+ },
+ "Electrolux|F215": {
+  "title": "Bağlantılı fırın yazılım arızası",
+  "causes": [
+   "Bağlantılı bir fırında yazılım sorunu."
+  ],
+  "steps": [
+   "Uygulamayı yeniden yükleyin ve fırını yeniden bağlayın.",
+   "Fırının fişini 30 dakika çekin, ardından yeniden bağlayın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Ekranda F215 görünüyorsa onarım randevusu alın."
+ },
+ "Electrolux|F601": {
+  "title": "Fırın Wi-Fi sinyali sorunu",
+  "causes": [
+   "Wi-Fi sinyalinde bir sorun var."
+  ],
+  "steps": [
+   "Ağ bağlantınızı kontrol edin.",
+   "Yönlendiriciyi yaklaştırın.",
+   "Fırının Wi-Fi ayarlarını sıfırlayın ve yeniden kurun.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Bağlanmıyorsa onarım randevusu alın."
+ },
+ "Electrolux|F604": {
+  "title": "İlk Wi-Fi bağlantı denemesi başarısız oldu",
+  "causes": [
+   "Wi-Fi'ye bağlanmak için yapılan ilk deneme başarısız oldu."
+  ],
+  "steps": [
+   "Fırını kapatıp açın.",
+   "Tekrar bağlanmayı deneyin.",
+   "İnternet bağlantınızı kontrol edin.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Bağlanmıyorsa onarım randevusu alın."
+ },
+ "Electrolux|E0020": {
+  "title": "Fırın lambası çalışmıyor",
+  "causes": [
+   "Fırın ampulü arızalı."
+  ],
+  "steps": [
+   "Fırını kapatın ve soğumasını bekleyin.",
+   "Ampulü kontrol edin ve arızalıysa değiştirin.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Ampul sağlamsa bir servis merkeziyle iletişime geçin."
+ },
+ "Electrolux|C1": {
+  "title": "Piro temizliği teleskopik raylar nedeniyle engellendi",
+  "causes": [
+   "Fırında teleskopik raylar var."
+  ],
+  "steps": [
+   "Rayları, rafları ve yan kılavuzları çıkarın.",
+   "Pyro Clean'i yeniden başlatın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Sorun sürerse servisle iletişime geçin."
+ },
+ "Electrolux|C2": {
+  "title": "Piro temizliği et probu nedeniyle engellendi",
+  "causes": [
+   "Et probu takılı."
+  ],
+  "steps": [
+   "Probu yuvasından çıkarın.",
+   "Pyro Clean'i yeniden başlatın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Sorun sürerse servisle iletişime geçin."
+ },
+ "Electrolux|C3": {
+  "title": "Piro temizliği açık kapı nedeniyle engellendi",
+  "causes": [
+   "Kapı açık veya tam kapalı değil."
+  ],
+  "steps": [
+   "Kapıyı tamamen kapatın.",
+   "Pyro Clean'i yeniden başlatın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Sorun sürerse servisle iletişime geçin."
+ },
+ "Electrolux|C4": {
+  "title": "Piro temizliği Steam Bake nedeniyle engellendi",
+  "causes": [
+   "Steam Bake hâlâ etkin."
+  ],
+  "steps": [
+   "Işığı sönene kadar Steam Bake düğmesine basın.",
+   "Pyro Clean'i yeniden başlatın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Sorun sürerse servisle iletişime geçin."
+ },
+ "AEG|F": {
+  "title": "Mutfak kabı algılanmadı veya ocak arızası",
+  "causes": [
+   "Uygunsuz tava veya tava kaldırılmış.",
+   "Yeni kurulumda bir montaj sorunu."
+  ],
+  "steps": [
+   "Tava tabanına mıknatısın yapışıp yapışmadığını kontrol edin.",
+   "Tavayı bölgenin ortasına yerleştirin.",
+   "Ocağı ve tavayı kuru tutun.",
+   "Elektrik şebekesinden 30 saniye kapatın."
+  ],
+  "technician": "F sürerse veya yanında rakam varsa teknisyen çağırın."
+ },
+ "AEG|F2": {
+  "title": "SenseBoil: boş tencere veya yağ",
+  "causes": [
+   "Tencere boş veya içinde yağ ya da su dışında bir sıvı var."
+  ],
+  "steps": [
+   "Ocak yüzeyini kurulayın.",
+   "Boş tencereyi ısıtmayın.",
+   "SenseBoil'i yalnızca su ile kullanın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Silindiyse arıza değildir."
+ },
+ "AEG|F3": {
+  "title": "SenseBoil: yanlış su miktarı",
+  "causes": [
+   "Tencerede çok fazla veya çok az su var.",
+   "Su veya patates dışında yiyecek var."
+  ],
+  "steps": [
+   "Ocak yüzeyini kurulayın.",
+   "Tencereyi yarıdan dörtte üçe kadar, 1 ila 5 litre doldurun.",
+   "Yalnızca su ve patates kaynatın."
+  ],
+  "technician": "Silindiyse arıza değildir."
+ },
+ "AEG|E2": {
+  "title": "Ocak LED veya sensör hatası",
+  "causes": [
+   "İndüksiyonlu ocaklarda LED aydınlatma hatası.",
+   "Teppanyaki'de sıcaklık sensörü hatası."
+  ],
+  "steps": [
+   "Elektriği 30 saniye kesin.",
+   "Yeniden açın.",
+   "Tam kodu not edin.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Kod geri gelirse AEG onarımı için randevu alın."
+ },
+ "AEG|E3": {
+  "title": "Ocak yanlış gerilime bağlı",
+  "causes": [
+   "Olası aşırı gerilim veya hatalı kablolama."
+  ],
+  "steps": [
+   "Ocağı kullanmayı bırakın.",
+   "Montajı yapan kişiden şebeke ve kablolamayı kontrol etmesini isteyin.",
+   "Elektrik tesisatını kendiniz onarmaya çalışmayın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Yetkili bir elektrikçiyi veya AEG servisini arayın."
+ },
+ "AEG|E4": {
+  "title": "Ocak aşırı ısınma koruması etkin",
+  "causes": [
+   "Ocak aşırı ısındı.",
+   "Uygunsuz mutfak kabı veya kötü montaj."
+  ],
+  "steps": [
+   "Kapatın ve mutfak kaplarını kaldırın.",
+   "Tavayı mıknatısla test edin.",
+   "Elektriği 30 saniye kesin.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Kod geri gelirse AEG onarımı için randevu alın."
+ },
+ "AEG|E5": {
+  "title": "Ocakta faz veya gerilim sorunu",
+  "causes": [
+   "Güç kaynağında faz veya gerilim sorunu."
+  ],
+  "steps": [
+   "Ayırıcı şalteri 30 saniye kapatın.",
+   "Açın ve test edin.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Kod geri gelirse AEG onarımı için randevu alın."
+ },
+ "AEG|E6": {
+  "title": "Ocak güç kaynağı sorunu",
+  "causes": [
+   "Çoğunlukla hatalı montajdan kaynaklanır; örneğin 16 amperlik ocak için 13 amperlik priz."
+  ],
+  "steps": [
+   "Ocağı kapatıp açın.",
+   "30 saniye boyunca bağlantıyı kesin.",
+   "Güç kaynağını kontrol ettirin."
+  ],
+  "technician": "Kod geri gelirse AEG onarımı için randevu alın."
+ },
+ "AEG|E7": {
+  "title": "Ocak soğutma fanı arızası",
+  "causes": [
+   "Yeni modellerde fan tıkalı veya arızalı."
+  ],
+  "steps": [
+   "Ocağın altındaki fanı hiçbir şeyin engellemediğini kontrol edin.",
+   "Elektriği 30 saniye kesin.",
+   "Yeniden açın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Kod geri gelirse AEG onarımı için randevu alın."
+ },
+ "AEG|E8": {
+  "title": "Ocak elektroniği veya faz arızası",
+  "causes": [
+   "Montajdan sonra eksik faz.",
+   "Elektronik iletişim hatası."
+  ],
+  "steps": [
+   "Kablolamayı kılavuza göre kontrol edin.",
+   "Elektriği 30 saniye kesin.",
+   "Sürerse kullanmayı bırakın."
+  ],
+  "technician": "Kod geri gelirse AEG onarımı için randevu alın."
+ },
+ "AEG|E9": {
+  "title": "Ocak elektronik modül arızası",
+  "causes": [
+   "Elektronik modülde bir arıza."
+  ],
+  "steps": [
+   "Elektrik şebekesinden 30 saniye kapatın.",
+   "Geri gelirse ocağı kullanmayın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Kod geri gelirse AEG onarımı için randevu alın."
+ },
+ "Whirlpool|F0 E0": {
+  "title": "Fırın kontrol arızası tanımlanamadı",
+  "causes": [
+   "Kontrol ünitesi arızayı tanımlayamıyor."
+  ],
+  "steps": [
+   "Ocağın sigortasını bir dakika kapatın.",
+   "Yeniden açın.",
+   "Kodun geri gelip gelmediğini görmek için fırını bir dakika izleyin."
+  ],
+  "technician": "Kod geri gelirse Whirlpool servisiyle iletişime geçin."
+ },
+ "Whirlpool|F1": {
+  "title": "Olası sensör, kontrol veya kablo arızası",
+  "causes": [
+   "Fırın sıcaklık sensörü, kontrol veya kablolama sorunu."
+  ],
+  "steps": [
+   "Ocağın sigortasını bir dakika kapatın.",
+   "Yeniden açın.",
+   "Kodun geri gelip gelmediğini görmek için fırını bir dakika izleyin."
+  ],
+  "technician": "Kod geri gelirse Whirlpool servisiyle iletişime geçin."
+ },
+ "Whirlpool|F2": {
+  "title": "Olası sensör, kontrol veya kablo arızası",
+  "causes": [
+   "Fırın sıcaklık sensörü, kontrol veya kablolama sorunu."
+  ],
+  "steps": [
+   "Ocağın sigortasını bir dakika kapatın.",
+   "Yeniden açın.",
+   "Kodun geri gelip gelmediğini görmek için fırını bir dakika izleyin."
+  ],
+  "technician": "Kod geri gelirse Whirlpool servisiyle iletişime geçin."
+ },
+ "Whirlpool|F2 E1": {
+  "title": "Tuş takımı veya kontrol sorunu",
+  "causes": [
+   "Tuş takımı, kontrol veya kablolama sorunu.",
+   "Bir ızgara düzgün oturmamış olabilir."
+  ],
+  "steps": [
+   "Izgaraların düz oturduğunu kontrol edin.",
+   "Sallanıyorlarsa yerlerini değiştirin.",
+   "Sigortayı bir dakika kapatın."
+  ],
+  "technician": "Kod geri gelirse Whirlpool servisiyle iletişime geçin."
+ },
+ "Whirlpool|F3": {
+  "title": "Olası fırın kontrol veya kablo arızası",
+  "causes": [
+   "Fırın kontrol veya kablolama sorunu."
+  ],
+  "steps": [
+   "Ocağın sigortasını bir dakika kapatın.",
+   "Yeniden açın.",
+   "Kodun geri gelip gelmediğini görmek için fırını bir dakika izleyin."
+  ],
+  "technician": "Kod geri gelirse Whirlpool servisiyle iletişime geçin."
+ },
+ "Whirlpool|F5": {
+  "title": "Fırın kapı mandalı sorunu",
+  "causes": [
+   "Kapı mandalı, şalter veya kablolama sorunu."
+  ],
+  "steps": [
+   "Ocağın sigortasını bir dakika kapatın.",
+   "Yeniden açın.",
+   "Kodun geri gelip gelmediğini görmek için fırını bir dakika izleyin."
+  ],
+  "technician": "Kod geri gelirse Whirlpool servisiyle iletişime geçin."
+ },
+ "Whirlpool|F5 E0": {
+  "title": "Fırın kapı mandalı sorunu",
+  "causes": [
+   "Kapı mandalı, şalter veya kablolama sorunu."
+  ],
+  "steps": [
+   "Ocağın sigortasını bir dakika kapatın.",
+   "Yeniden açın.",
+   "Kodun geri gelip gelmediğini görmek için fırını bir dakika izleyin."
+  ],
+  "technician": "Kod geri gelirse Whirlpool servisiyle iletişime geçin."
+ },
+ "Whirlpool|F6": {
+  "title": "Olası fırın kontrol veya kablo arızası",
+  "causes": [
+   "Fırın kontrol veya kablolama sorunu."
+  ],
+  "steps": [
+   "Ocağın sigortasını bir dakika kapatın.",
+   "Yeniden açın.",
+   "Kodun geri gelip gelmediğini görmek için fırını bir dakika izleyin."
+  ],
+  "technician": "Kod geri gelirse Whirlpool servisiyle iletişime geçin."
+ },
+ "Whirlpool|F7 E0": {
+  "title": "Kapı mandalı grubu sorunu",
+  "causes": [
+   "Kapı mandalı grubu veya kablolama sorunu."
+  ],
+  "steps": [
+   "Ocağın sigortasını bir dakika kapatın.",
+   "Yeniden açın.",
+   "Kodun geri gelip gelmediğini görmek için fırını bir dakika izleyin."
+  ],
+  "technician": "Kod geri gelirse Whirlpool servisiyle iletişime geçin."
+ },
+ "Whirlpool|F8 E0": {
+  "title": "Fırın soğutma fanı yavaş çalışıyor",
+  "causes": [
+   "Hava akışında kısıtlama.",
+   "Soğutma fanı veya kablolama arızalı."
+  ],
+  "steps": [
+   "Ocağın sigortasını bir dakika kapatın.",
+   "Yeniden açın.",
+   "Kodun geri gelip gelmediğini görmek için fırını bir dakika izleyin."
+  ],
+  "technician": "Kod geri gelirse Whirlpool servisiyle iletişime geçin."
+ },
+ "Whirlpool|F9-1": {
+  "title": "Kapı mandalı veya kilit şalteri sorunu",
+  "causes": [
+   "Kapı mandalı, kilit şalteri veya kablolama sorunu."
+  ],
+  "steps": [
+   "Ocağın sigortasını bir dakika kapatın.",
+   "Yeniden açın.",
+   "Kodun geri gelip gelmediğini görmek için fırını bir dakika izleyin."
+  ],
+  "technician": "Kod geri gelirse Whirlpool servisiyle iletişime geçin."
+ },
+ "LG|F1": {
+  "title": "Üst fırın termistör hatası",
+  "causes": [
+   "Üst fırın sıcaklık sensörü arızası."
+  ],
+  "steps": [
+   "CLEAR/OFF düğmesine basın ve işlevi tekrar deneyin.",
+   "Ocağın sigortasını 30 saniye kapatın.",
+   "Yeniden açın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Sürekli geri geliyorsa LG onarımı talep edin."
+ },
+ "LG|F2": {
+  "title": "Üst fırın termistör hatası",
+  "causes": [
+   "Üst fırın sıcaklık sensörü arızası."
+  ],
+  "steps": [
+   "CLEAR/OFF düğmesine basın ve işlevi tekrar deneyin.",
+   "Ocağın sigortasını 30 saniye kapatın.",
+   "Yeniden açın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Sürekli geri geliyorsa LG onarımı talep edin."
+ },
+ "LG|F3": {
+  "title": "Dokunmatik panel sensör tuşu hatası",
+  "causes": [
+   "Dokunmatik paneldeki bir tuş sensöründe arıza."
+  ],
+  "steps": [
+   "CLEAR/OFF düğmesine basın ve işlevi tekrar deneyin.",
+   "Ocağın sigortasını 30 saniye kapatın.",
+   "Yeniden açın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Sürekli geri geliyorsa LG onarımı talep edin."
+ },
+ "LG|F6": {
+  "title": "Üst fırın ısıtma hatası",
+  "causes": [
+   "Üst fırın ısıtma arızası."
+  ],
+  "steps": [
+   "CLEAR/OFF düğmesine basın ve işlevi tekrar deneyin.",
+   "Ocağın sigortasını 30 saniye kapatın.",
+   "Yeniden açın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Sürekli geri geliyorsa LG onarımı talep edin."
+ },
+ "LG|F7": {
+  "title": "Üst konveksiyon fanı hatası",
+  "causes": [
+   "Konveksiyon fanı arızası."
+  ],
+  "steps": [
+   "CLEAR/OFF düğmesine basın ve işlevi tekrar deneyin.",
+   "Ocağın sigortasını 30 saniye kapatın.",
+   "Yeniden açın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Sürekli geri geliyorsa LG onarımı talep edin."
+ },
+ "LG|F9": {
+  "title": "Üst fırın düzgün ısıtmıyor",
+  "causes": [
+   "Üst fırın ısıtmıyor."
+  ],
+  "steps": [
+   "CLEAR/OFF düğmesine basın ve işlevi tekrar deneyin.",
+   "Ocağın sigortasını 30 saniye kapatın.",
+   "Yeniden açın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Sürekli geri geliyorsa LG onarımı talep edin."
+ },
+ "LG|F10": {
+  "title": "Üst fırın kapı kilidi arızası",
+  "causes": [
+   "Kapı kilit sistemi arızası."
+  ],
+  "steps": [
+   "CLEAR/OFF düğmesine basın ve işlevi tekrar deneyin.",
+   "Ocağın sigortasını 30 saniye kapatın.",
+   "Yeniden açın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Sürekli geri geliyorsa LG onarımı talep edin."
+ },
+ "LG|F11": {
+  "title": "İletişim hatası",
+  "causes": [
+   "Kartlar iletişim kurmuyor."
+  ],
+  "steps": [
+   "CLEAR/OFF düğmesine basın ve işlevi tekrar deneyin.",
+   "Ocağın sigortasını 30 saniye kapatın.",
+   "Yeniden açın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Sürekli geri geliyorsa LG onarımı talep edin."
+ },
+ "LG|F20": {
+  "title": "Alt fırın kapı kilidi arızası",
+  "causes": [
+   "Kapı kilit sistemi arızası."
+  ],
+  "steps": [
+   "CLEAR/OFF düğmesine basın ve işlevi tekrar deneyin.",
+   "Ocağın sigortasını 30 saniye kapatın.",
+   "Yeniden açın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Sürekli geri geliyorsa LG onarımı talep edin."
+ },
+ "LG|F27": {
+  "title": "Kendi kendini temizlemede soğutma fanı durdu",
+  "causes": [
+   "Kendi kendini temizleme sırasında fan durdu."
+  ],
+  "steps": [
+   "CLEAR/OFF düğmesine basın ve işlevi tekrar deneyin.",
+   "Ocağın sigortasını 30 saniye kapatın.",
+   "Yeniden açın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Sürekli geri geliyorsa LG onarımı talep edin."
+ },
+ "LG|PF": {
+  "title": "Elektrik kesintiye uğradı",
+  "causes": [
+   "Cihazın elektriği kesintiye uğradı."
+  ],
+  "steps": [
+   "CLEAR/OFF düğmesine basın ve işlevi tekrar deneyin.",
+   "Ocağın sigortasını 30 saniye kapatın.",
+   "Yeniden açın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Sürekli geri geliyorsa LG onarımı talep edin."
+ },
+ "Beko|Er 5": {
+  "title": "Et probu iletişim hatası",
+  "causes": [
+   "Fırın et probuyla iletişim kuramıyor."
+  ],
+  "steps": [
+   "Et probunu çıkarın.",
+   "Düğmeyi kapalı (0) konumuna getirin.",
+   "Probsuz pişirin.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Probu tekrar kullanmak için yetkili servisle iletişime geçin."
+ },
+ "Beko|Er 1 - Er 7": {
+  "title": "Fırın iletişim hataları",
+  "causes": [
+   "Dahili iletişim hataları."
+  ],
+  "steps": [
+   "Fırını kapatın.",
+   "Tam numarayı not edin.",
+   "Fırını kullanmayın.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Yetkili bir Beko servisine danışın."
+ },
+ "Beko|Er 8 - Er 27": {
+  "title": "Fırın sensör hataları",
+  "causes": [
+   "Fırındaki bir sensör arızalı."
+  ],
+  "steps": [
+   "Fırını kapatın.",
+   "Tam numarayı not edin.",
+   "Kimseyle iletişime geçmeden önce tam kodu ve cihazın etiketindeki model numarasını not edin."
+  ],
+  "technician": "Yetkili bir Beko servisine danışın."
+ }
+}

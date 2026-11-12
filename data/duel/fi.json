@@ -1,0 +1,15 @@
+{
+ "title": "30 sekunnin kaksintaistelu: kumpi sopii sinulle paremmin?",
+ "lead": "Napauta, kuinka tärkeä kukin asia on sinulle. Punnitsemme, miten kukin malli sijoittuu kaikkien luettelomme mallien joukossa näiden teknisten tietojen osalta, ja kerromme, kumpi sopii sinulle.",
+ "levels": [
+  "Ei väliä",
+  "Tärkeä",
+  "Erittäin tärkeä"
+ ],
+ "result": "Sinulle: {name}",
+ "tie": "Tasapeli: molemmat sopivat sinulle suunnilleen yhtä hyvin — valitse hinnan tai muotoilun mukaan.",
+ "wins": "Edellä: {n} / {m} sinulle tärkeästä asiasta.",
+ "basis": "Pisteet = osuus luettelon malleista, jotka kukin malli ylittää näissä teknisissä tiedoissa, painotettuna vastauksillasi. Hinta, muotoilu ja arvostelut eivät ole mukana.",
+ "none": "Valitse vähintään yksi sinulle tärkeä asia.",
+ "specs": "Perusteena: {list}"
+}

@@ -1,0 +1,1373 @@
+{
+ "Samsung|C-d0": {
+  "title": "Tlačítko je zaseklé nebo bylo stisknuto příliš dlouho",
+  "causes": [
+   "Některé ovládací tlačítko bylo drženo příliš dlouho.",
+   "Na ovládacím panelu je vlhkost nebo mastnota."
+  ],
+  "steps": [
+   "Tlačítka otřete vlhkým hadříkem a panel osušte.",
+   "Zkontrolujte, zda na ovládacích prvcích ani kolem nich není voda.",
+   "Troubu vypněte a zkuste to znovu."
+  ],
+  "technician": "Pokud se kód po úplném resetu napájení vrací, zavolejte servis Samsung."
+ },
+ "Samsung|S-01": {
+  "title": "Bezpečnostní vypnutí po dlouhém provozu",
+  "causes": [
+   "Trouba pracovala příliš mnoho hodin na jedné teplotě, a proto se z bezpečnostních důvodů sama vypnula.",
+   "Nejde o závadu."
+  ],
+  "steps": [
+   "Troubu vypněte.",
+   "Vyjměte jídlo.",
+   "Spusťte znovu běžný cyklus pečení."
+  ],
+  "technician": "Servis není potřeba, pokud se kód nezobrazí po krátké době pečení."
+ },
+ "Samsung|dC": {
+  "title": "Přepážka je pro režim pečení nasazena špatně",
+  "causes": [
+   "Přepážka byla vyjmuta během režimu dvojitého pečení.",
+   "Nebo byla přepážka vložena během režimu jednoduchého pečení."
+  ],
+  "steps": [
+   "Pro dvojité pečení přepážku nasaďte a pro jednoduché ji vyjměte.",
+   "Troubu vypněte a znovu spusťte.",
+   "Pokud problém trvá, odpojte napájení na 30 sekund nebo déle a poté je obnovte."
+  ],
+  "technician": "Pokud se kód po úplném resetu napájení vrací, zavolejte servis Samsung."
+ },
+ "Samsung|dE": {
+  "title": "Přepážka je pro režim pečení nasazena špatně",
+  "causes": [
+   "Přepážka byla vyjmuta během režimu dvojitého pečení.",
+   "Nebo byla vložena při použití režimu jednoduchého pečení."
+  ],
+  "steps": [
+   "Pro dvojité pečení nechte přepážku vloženou a pro jednoduché ji vyjměte.",
+   "Troubu vypněte a znovu spusťte.",
+   "Pokud problém trvá, vypněte jistič na 30 sekund nebo déle a znovu jej zapněte."
+  ],
+  "technician": "Pokud se kód po úplném resetu napájení vrací, zavolejte servis Samsung."
+ },
+ "Samsung|C-d1": {
+  "title": "Závada zámku dvířek",
+  "causes": [
+   "Trouba zjistila problém se zámkem dvířek."
+  ],
+  "steps": [
+   "Troubu vypněte a znovu spusťte.",
+   "Pokud kód zůstává, odpojte napájení na jističi alespoň na 30 sekund a poté je znovu zapněte.",
+   "Pokud jsou dvířka zamčená, nenuťte je otevřít silou."
+  ],
+  "technician": "Pokud se kód po úplném resetu napájení vrací, zavolejte servis Samsung."
+ },
+ "Samsung|C-20": {
+  "title": "Závada senzoru trouby",
+  "causes": [
+   "Trouba hlásí problém s teplotním senzorem."
+  ],
+  "steps": [
+   "Troubu vypněte a znovu spusťte.",
+   "Pokud kód zůstává, odpojte napájení na jističi alespoň na 30 sekund a poté je znovu zapněte."
+  ],
+  "technician": "Pokud se kód po úplném resetu napájení vrací, zavolejte servis Samsung."
+ },
+ "Samsung|C-21": {
+  "title": "Závada senzoru trouby",
+  "causes": [
+   "Trouba hlásí problém s teplotním senzorem."
+  ],
+  "steps": [
+   "Troubu vypněte a znovu spusťte.",
+   "Pokud kód zůstává, odpojte napájení na jističi alespoň na 30 sekund a poté je znovu zapněte."
+  ],
+  "technician": "Pokud se kód po úplném resetu napájení vrací, zavolejte servis Samsung."
+ },
+ "Samsung|C-22": {
+  "title": "Závada senzoru trouby",
+  "causes": [
+   "Trouba hlásí problém s teplotním senzorem."
+  ],
+  "steps": [
+   "Troubu vypněte a znovu spusťte.",
+   "Pokud kód zůstává, odpojte napájení na jističi alespoň na 30 sekund a poté je znovu zapněte."
+  ],
+  "technician": "Pokud se kód po úplném resetu napájení vrací, zavolejte servis Samsung."
+ },
+ "Samsung|C-F1": {
+  "title": "Chyba čtení nebo zápisu paměti",
+  "causes": [
+   "Při čtení nebo zápisu do paměti (EEPROM) řídicí desky došlo k chybě."
+  ],
+  "steps": [
+   "Troubu vypněte a znovu spusťte.",
+   "Pokud kód zůstává, odpojte napájení na jističi alespoň na 30 sekund a poté je znovu zapněte."
+  ],
+  "technician": "Pokud se kód po úplném resetu napájení vrací, zavolejte servis Samsung."
+ },
+ "Samsung|C-F0": {
+  "title": "Hlavní a vedlejší deska spolu nekomunikují",
+  "causes": [
+   "Hlavní deska plošných spojů a vedlejší deska spolu nemohou komunikovat."
+  ],
+  "steps": [
+   "Troubu vypněte a znovu spusťte.",
+   "Pokud kód zůstává, odpojte napájení na jističi alespoň na 30 sekund a poté je znovu zapněte."
+  ],
+  "technician": "Pokud se kód po úplném resetu napájení vrací, zavolejte servis Samsung."
+ },
+ "Samsung|C-F2": {
+  "title": "Problém s komunikací dotykového ovladače",
+  "causes": [
+   "Dotykový ovladač neustále ztrácí spojení s hlavní nebo vedlejší deskou."
+  ],
+  "steps": [
+   "Troubu vypněte a znovu spusťte.",
+   "Pokud kód zůstává, odpojte napájení na jističi alespoň na 30 sekund a poté je znovu zapněte."
+  ],
+  "technician": "Pokud se kód po úplném resetu napájení vrací, zavolejte servis Samsung."
+ },
+ "Samsung|Pr E": {
+  "title": "Trouba se předehřívá, běžná zpráva",
+  "causes": [
+   "Trouba se stále zahřívá na nastavenou teplotu.",
+   "Jde o běžnou zprávu, nikoli o závadu."
+  ],
+  "steps": [
+   "Nechte dvířka zavřená.",
+   "Počkejte, až trouba dosáhne nastavené teploty.",
+   "Kód zmizí sám."
+  ],
+  "technician": "Servis není potřeba."
+ },
+ "Bosch|E011": {
+  "title": "Některé ovládací tlačítko je zaseklé",
+  "causes": [
+   "Tlačítko bylo stisknuto příliš dlouho nebo se zaseklo.",
+   "Nečistoty nebo vlhkost kolem tlačítka."
+  ],
+  "steps": [
+   "Stiskněte každé tlačítko zvlášť a zkontrolujte, zda se volně pohybuje.",
+   "Ovládací část vyčistěte a osušte.",
+   "Troubu vypněte a znovu zapněte."
+  ],
+  "technician": "Pokud E011 zůstává i po vyčištění ovládacích prvků, zavolejte servis Bosch."
+ },
+ "Bosch|E115": {
+  "title": "Vnitřek trouby je příliš horký, dvířka jsou zamčená",
+  "causes": [
+   "Vnitřek trouby je příliš horký, proto zůstává zámek dvířek zavřený."
+  ],
+  "steps": [
+   "Počkejte, až trouba vychladne.",
+   "Zprávu vymažte tlačítkem 0.",
+   "Dvířka nenuťte otevřít silou."
+  ],
+  "technician": "Pokud se E115 vrací i při vychladlé troubě, zavolejte servis Bosch."
+ },
+ "Bosch|e005": {
+  "title": "Řídicí a výkonová deska spolu nekomunikují",
+  "causes": [
+   "Ovládací panel a výkonová deska ztratily spojení."
+  ],
+  "steps": [
+   "Sporák vypněte na jističi.",
+   "Počkejte pět minut a poté jistič znovu zapněte.",
+   "Zkontrolujte, zda se kód vrací."
+  ],
+  "technician": "Pokud se kód po resetu napájení vrací, zavolejte podporu Bosch."
+ },
+ "Bosch|E100": {
+  "title": "Závada elektroniky",
+  "causes": [
+   "Trouba zjistila závadu elektroniky."
+  ],
+  "steps": [
+   "Sporák vypněte na jističi.",
+   "Počkejte pět minut a poté jistič znovu zapněte.",
+   "Troubu znovu vyzkoušejte."
+  ],
+  "technician": "Pokud se kód po resetu napájení vrací, zavolejte podporu Bosch."
+ },
+ "Bosch|e101": {
+  "title": "Závada teplotního senzoru trouby",
+  "causes": [
+   "Teplotní senzor nefunguje tak, jak má."
+  ],
+  "steps": [
+   "Sporák vypněte na jističi.",
+   "Počkejte pět minut a poté jistič znovu zapněte.",
+   "Pokud byla trouba právě nainstalována, požádejte instalatéra o kontrolu zapojení napájecího kabelu."
+  ],
+  "technician": "Pokud se kód po resetu napájení vrací, zavolejte podporu Bosch."
+ },
+ "Bosch|e126": {
+  "title": "Závada zámku dvířek trouby",
+  "causes": [
+   "Zámek dvířek nepracuje správně, což se často projeví při samočištění."
+  ],
+  "steps": [
+   "Zrušte cyklus samočištění.",
+   "Počkejte, až se dvířka odemknou.",
+   "Spusťte samočištění znovu."
+  ],
+  "technician": "Pokud se kód po resetu napájení vrací, zavolejte podporu Bosch."
+ },
+ "Bosch|E302": {
+  "title": "Přehřátý ovládací panel",
+  "causes": [
+   "Ovládací panel je příliš horký, což mohou způsobit hrnce na varné desce.",
+   "Vysoká teplota v místnosti."
+  ],
+  "steps": [
+   "Zkontrolujte teplotu v místnosti a umístění hrnců.",
+   "Nechte spotřebič vychladnout.",
+   "Proveďte pětiminutový reset napájení na jističi."
+  ],
+  "technician": "Pokud se kód po resetu napájení vrací, zavolejte podporu Bosch."
+ },
+ "Bosch|e310": {
+  "title": "Závada napájení",
+  "causes": [
+   "Napájecí napětí může být nesprávné nebo nestabilní."
+  ],
+  "steps": [
+   "Sporák vypněte na jističi.",
+   "Počkejte pět minut a poté jistič znovu zapněte.",
+   "Pokud se kód vrátí, požádejte elektrikáře, aby ověřil napětí ve vaší domácnosti."
+  ],
+  "technician": "Pokud se kód po resetu napájení vrací, zavolejte podporu Bosch."
+ },
+ "Bosch|ERR/toP": {
+  "title": "Varná deska použita během samočištění",
+  "causes": [
+   "Během samočištění trouby byla zapnuta varná zóna."
+  ],
+  "steps": [
+   "Vypněte všechny aktivní varné zóny.",
+   "Cyklus samočištění spusťte znovu.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Servis není potřeba, pokud se kód nezobrazí při vypnutých všech zónách."
+ },
+ "Bosch|dE": {
+  "title": "Je zapnutý demo režim, zóny nehřejí",
+  "causes": [
+   "Demo režim je aktivní, proto varné zóny zůstávají studené."
+  ],
+  "steps": [
+   "Vypněte jistič nebo pojistku varné desky na 30 sekund.",
+   "Znovu je zapněte.",
+   "Do tří minut se dotkněte libovolného ovládacího prvku."
+  ],
+  "technician": "Pokud se kód po resetu napájení vrací, zavolejte podporu Bosch."
+ },
+ "Bosch|F1": {
+  "title": "Varná zóna se přehřála a vypnula",
+  "causes": [
+   "Zóna se přehřála a vypnula se, aby chránila pracovní desku."
+  ],
+  "steps": [
+   "Nechte elektroniku vychladnout.",
+   "Zónu znovu zapněte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se kód po resetu napájení vrací, zavolejte podporu Bosch."
+ },
+ "Bosch|F6": {
+  "title": "Varná zóna se přehřála a vypnula",
+  "causes": [
+   "Zóna se přehřála a vypnula se, aby chránila pracovní desku."
+  ],
+  "steps": [
+   "Nechte elektroniku vychladnout.",
+   "Zónu znovu zapněte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se kód po resetu napájení vrací, zavolejte podporu Bosch."
+ },
+ "Bosch|F2": {
+  "title": "Přehřátá elektronika, zóna vypnuta",
+  "causes": [
+   "Elektronika je příliš horká, proto se zóna vypnula."
+  ],
+  "steps": [
+   "Nechte varnou desku vychladnout.",
+   "Dotkněte se libovolného ovládacího prvku.",
+   "Jakmile zpráva zmizí, vařte znovu.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se kód po resetu napájení vrací, zavolejte podporu Bosch."
+ },
+ "Bosch|F4": {
+  "title": "Přehřátá elektronika",
+  "causes": [
+   "Elektronika je příliš horká."
+  ],
+  "steps": [
+   "Nechte varnou desku vychladnout.",
+   "Dotkněte se libovolného ovládacího prvku.",
+   "Jakmile zpráva zmizí, pokračujte ve vaření.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se kód po resetu napájení vrací, zavolejte podporu Bosch."
+ },
+ "Bosch|F5": {
+  "title": "Horká pánev poblíž ovládacího panelu",
+  "causes": [
+   "Horké nádobí je blízko dotykových ovládacích prvků.",
+   "Hrozí přehřátí elektroniky."
+  ],
+  "steps": [
+   "Odsuňte nádobí od ovládacího panelu.",
+   "Počkejte několik sekund a dotkněte se libovolného ovládacího prvku.",
+   "Jakmile zpráva zmizí, pokračujte ve vaření."
+  ],
+  "technician": "Pokud se kód po resetu napájení vrací, zavolejte podporu Bosch."
+ },
+ "Bosch|F8": {
+  "title": "Zóna běžela příliš dlouho, dosažen časový limit",
+  "causes": [
+   "Zóna byla dlouho zapnutá bez jakéhokoli zásahu."
+  ],
+  "steps": [
+   "Dotkněte se libovolného ovládacího prvku.",
+   "Zónu nastavte znovu.",
+   "Pokračujte ve vaření.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se kód po resetu napájení vrací, zavolejte podporu Bosch."
+ },
+ "Bosch|E7010": {
+  "title": "Varná deska se nemůže připojit k síti nebo odsavači",
+  "causes": [
+   "Varná deska ztratila spojení s vaší domácí sítí nebo odsavačem par."
+  ],
+  "steps": [
+   "Varnou desku vypněte a zapněte.",
+   "Zkontrolujte, zda funguje vaše Wi-Fi.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se kód po resetu napájení vrací, zavolejte podporu Bosch."
+ },
+ "Bosch|E9000": {
+  "title": "Napájecí napětí mimo běžný rozsah",
+  "causes": [
+   "Napájecí napětí je příliš vysoké nebo příliš nízké."
+  ],
+  "steps": [
+   "Varnou desku vypněte a znovu zapněte.",
+   "Požádejte dodavatele elektřiny o kontrolu napájecího napětí."
+  ],
+  "technician": "Pokud dodavatel nenajde žádný problém, zavolejte podporu Bosch."
+ },
+ "Bosch|E9010": {
+  "title": "Napájecí napětí mimo běžný rozsah",
+  "causes": [
+   "Napájecí napětí je příliš vysoké nebo příliš nízké."
+  ],
+  "steps": [
+   "Varnou desku vypněte a znovu zapněte.",
+   "Požádejte dodavatele elektřiny o kontrolu napájecího napětí."
+  ],
+  "technician": "Pokud dodavatel nenajde žádný problém, zavolejte podporu Bosch."
+ },
+ "Bosch|E9011": {
+  "title": "Varná deska není správně připojena",
+  "causes": [
+   "Zapojení neodpovídá schématu zapojení."
+  ],
+  "steps": [
+   "Vypněte napájení na jističi.",
+   "Nechte kvalifikovaného elektrikáře zkontrolovat zapojení podle schématu."
+  ],
+  "technician": "Zavolejte kvalifikovaného elektrikáře nebo podporu Bosch."
+ },
+ "Bosch|U400": {
+  "title": "Napájecí napětí mimo běžný rozsah",
+  "causes": [
+   "Napájecí napětí je mimo běžné meze."
+  ],
+  "steps": [
+   "Varnou desku vypněte a znovu zapněte.",
+   "Kontaktujte dodavatele elektřiny kvůli kontrole napětí.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud je napájení v pořádku, zavolejte podporu Bosch."
+ },
+ "Siemens|E0111": {
+  "title": "Zpráva o závadě elektroniky",
+  "causes": [
+   "Elektronika trouby zjistila závadu.",
+   "Může jít o jednorázovou poruchu."
+  ],
+  "steps": [
+   "Troubu vypněte a znovu zapněte.",
+   "Pokud zpráva zmizí, šlo o jednorázovou poruchu.",
+   "Pokud se vrátí, zapište si přesný kód."
+  ],
+  "technician": "Pokud se zpráva vrátí, zavolejte poprodejní servis Siemens a uveďte přesný kód."
+ },
+ "Neff|E011": {
+  "title": "Tlačítko je trvale přiřazeno",
+  "causes": [
+   "Tlačítko je trvale stisknuté nebo přiřazené."
+  ],
+  "steps": [
+   "Zrušte trvalé přiřazení tlačítka.",
+   "Poté stiskněte tlačítko funkce hodin.",
+   "Vyčistěte okolí tlačítek.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud E011 nezmizí, zavolejte servis Neff."
+ },
+ "Neff|E300": {
+  "title": "Vnitřní závada elektroniky",
+  "causes": [
+   "Vnitřní závada elektroniky trouby."
+  ],
+  "steps": [
+   "Stiskněte tlačítko funkce hodin.",
+   "Pokud zpráva zůstává, odpojte troubu ze zásuvky.",
+   "Počkejte asi 10 sekund a znovu ji zapojte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se kód vrací, zavolejte servis Neff."
+ },
+ "Neff|rrr": {
+  "title": "Během provozu bylo přerušeno napájení",
+  "causes": [
+   "Napájení bylo přerušeno, když trouba pracovala."
+  ],
+  "steps": [
+   "Stiskněte tlačítko času.",
+   "Nastavte hodiny znovu.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Servis není potřeba, pokud se to neopakuje bez výpadku proudu."
+ },
+ "Miele|E0-E5": {
+  "title": "Kódy průběhu programu odvápnění",
+  "causes": [
+   "Tyto kódy ukazují, který krok programu odvápnění právě probíhá.",
+   "E0 je nasávání roztoku, E1 aktivace, E2 až E4 oplachy, E5 odpařování."
+  ],
+  "steps": [
+   "Nechte program doběhnout do konce.",
+   "Troubu během odvápnění nevypínejte."
+  ],
+  "technician": "Servis není potřeba, pokud se program nezastaví."
+ },
+ "Miele|F23": {
+  "title": "Pyrolytické čištění nedosáhlo teploty",
+  "causes": [
+   "Trouba se nemohla zahřát dostatečně pro samočištění.",
+   "Uvnitř je mnoho zbytků jídla."
+  ],
+  "steps": [
+   "Troubu vypněte.",
+   "Vytřete velké nánosy a silné znečištění.",
+   "Spusťte pyrolytické čištění znovu."
+  ],
+  "technician": "Pokud se závada vrací, kontaktujte zákaznický servis Miele nebo si objednejte opravu."
+ },
+ "Miele|F32": {
+  "title": "Zámek dvířek pyrolýzy se nezavírá",
+  "causes": [
+   "Zámek dvířek pro samočištění nezapadá.",
+   "Dvířka může blokovat nějaký předmět."
+  ],
+  "steps": [
+   "Zkontrolujte, zda v oblasti dvířek a těsnění nejsou předměty nebo nečistoty.",
+   "Troubu vypněte.",
+   "Spusťte pyrolytické čištění znovu."
+  ],
+  "technician": "Pokud se závada vrací, kontaktujte zákaznický servis Miele nebo si objednejte opravu."
+ },
+ "Miele|F33": {
+  "title": "Zámek dvířek pyrolýzy se neotevře",
+  "causes": [
+   "Zámek dvířek pro samočištění se neuvolnil."
+  ],
+  "steps": [
+   "Troubu vypněte, čímž ukončíte cyklus čištění.",
+   "Zkuste dvířka otevřít.",
+   "Nenuťte je silou.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud zůstanou dvířka zamčená, zavolejte zákaznický servis Miele."
+ },
+ "Miele|F38": {
+  "title": "Závada elektronického modulu",
+  "causes": [
+   "Elektronický modul trouby má technickou závadu."
+  ],
+  "steps": [
+   "Nepokoušejte se jej opravit sami.",
+   "Poznamenejte si kód a číslo svého modelu.",
+   "Objednejte opravu.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Objednejte technika Miele, protože to doma opravit nelze."
+ },
+ "Miele|F44": {
+  "title": "Zjištěna technická závada",
+  "causes": [
+   "Trouba zjistila technickou závadu."
+  ],
+  "steps": [
+   "Vypněte jistič nebo troubu odpojte ze zásuvky.",
+   "Nechte ji vypnutou 20 sekund.",
+   "Obnovte napájení a vyzkoušejte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se závada vrací, kontaktujte zákaznický servis Miele nebo si objednejte opravu."
+ },
+ "Miele|F54": {
+  "title": "Teplotní sonda je vadná",
+  "causes": [
+   "Teplotní sonda do jídla nebo její připojení je vadné."
+  ],
+  "steps": [
+   "Vytáhněte sondu ze zdířky.",
+   "Zpráva o závadě by měla zmizet.",
+   "Zatím pečte bez sondy.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Kontaktujte zákaznický servis Miele kvůli koupi náhradní sondy."
+ },
+ "Miele|F55": {
+  "title": "Trouba se vypnula po příliš dlouhém provozu",
+  "causes": [
+   "Trouba pracovala neobvykle dlouho, proto se z bezpečnostních důvodů vypnula.",
+   "Limit je 6 hodin v režimech grilu a jinak 12 hodin."
+  ],
+  "steps": [
+   "Troubu vypněte a znovu zapněte.",
+   "Spusťte nový proces pečení."
+  ],
+  "technician": "Servis není potřeba, pokud se to neustále opakuje při krátkém pečení."
+ },
+ "Miele|F60": {
+  "title": "Nedostatečné větrání trouby",
+  "causes": [
+   "Vzduchový kanál je zablokovaný nebo zakrytý."
+  ],
+  "steps": [
+   "Zkontrolujte, zda vzduchový kanál trouby nic nezakrývá.",
+   "Troubu odpojte od napájení a znovu připojte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se závada vrací, kontaktujte zákaznický servis Miele nebo si objednejte opravu."
+ },
+ "Miele|F134": {
+  "title": "Prostor trouby je příliš horký",
+  "causes": [
+   "Teplotní senzor hlásí, že je prostor pro pečení příliš horký."
+  ],
+  "steps": [
+   "Troubu vypněte a nechte vychladnout.",
+   "Nepokoušejte se o opravu sami.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Objednejte opravu Miele, protože je potřeba technik."
+ },
+ "Miele|MES": {
+  "title": "Demo režim je zapnutý, trouba nehřeje",
+  "causes": [
+   "Je zapnutý předváděcí režim pro showroom."
+  ],
+  "steps": [
+   "Zprávu potvrďte tlačítkem OK.",
+   "Otočte volič režimů na 0.",
+   "Otevřete Settings, přejděte na P 9 a nastavte S 0.",
+   "Podržte OK po dobu 4 sekund."
+  ],
+  "technician": "Pokud se demo režim vrací, kontaktujte Miele."
+ },
+ "Miele|F1": {
+  "title": "Nádoba na vodu není zasunuta",
+  "causes": [
+   "Nádoba na vodu pro odčerpání zbylé vody chybí nebo není úplně zasunuta."
+  ],
+  "steps": [
+   "Nádobu na vodu zasuňte úplně do trouby.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se závada vrací, kontaktujte zákaznický servis Miele nebo si objednejte opravu."
+ },
+ "Miele|F04": {
+  "title": "Výpadek proudu během pečení",
+  "causes": [
+   "Trouba ztratila napájení během programu pečení."
+  ],
+  "steps": [
+   "Zkontrolujte, jak daleko pečení pokročilo.",
+   "V případě potřeby nastavte nový čas pečení.",
+   "Stisknutím Start/Stop pokračujte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se závada vrací, kontaktujte zákaznický servis Miele nebo si objednejte opravu."
+ },
+ "Miele|F05": {
+  "title": "Voda nepřichází do parní trouby",
+  "causes": [
+   "Ventil přívodu vody není zcela otevřený.",
+   "Vodní tryska je ucpaná vodním kamenem."
+  ],
+  "steps": [
+   "Zcela otevřete ventil přívodu vody a spusťte znovu.",
+   "Pokud se zpráva vrátí, odvápněte vodní trysku, přičemž používejte chňapky.",
+   "Propláchněte vodní součásti."
+  ],
+  "technician": "Pokud se závada vrací, kontaktujte zákaznický servis Miele nebo si objednejte opravu."
+ },
+ "Miele|F10": {
+  "title": "Závada přívodu vody v parní troubě",
+  "causes": [
+   "Podávací čerpadlo je po dlouhém nepoužívání suché.",
+   "Černá sací hadice je uvolněná nebo poškozená.",
+   "Osmotická voda je pro senzor příliš čistá."
+  ],
+  "steps": [
+   "Černou sací hadici znovu usaďte svisle v nádobě.",
+   "Pokud můžete, vypněte osmotický systém.",
+   "Nebo do vody přidejte špetku soli."
+  ],
+  "technician": "Pokud se závada vrací, kontaktujte zákaznický servis Miele nebo si objednejte opravu."
+ },
+ "Miele|F11": {
+  "title": "Parní generátor nemůže odvést vodu",
+  "causes": [
+   "Vodní kámen v odtoku nebo na elektrodě.",
+   "Ucpané nebo zaseknuté hadice."
+  ],
+  "steps": [
+   "Troubu odvápněte podle návodu.",
+   "U řad 6000 a 7000 nastavte tvrdost vody na maximum.",
+   "Odvápnění neopakujte silnějším roztokem."
+  ],
+  "technician": "Pokud se závada vrací, kontaktujte zákaznický servis Miele nebo si objednejte opravu."
+ },
+ "Miele|F12": {
+  "title": "Parní trouba nedostává vodu",
+  "causes": [
+   "Ventil přívodu vody je zavřený.",
+   "Filtr přívodu vody je ucpaný."
+  ],
+  "steps": [
+   "Otevřete vodní ventil a spusťte znovu.",
+   "Vyčistěte filtr v přívodu vody.",
+   "Pokud máte podezření na vadnou hadici, troubu vypněte a uzavřete ventil."
+  ],
+  "technician": "Pokud hadice vypadá poškozeně, zavolejte Miele nebo instalatéra."
+ },
+ "Miele|F13": {
+  "title": "Prostor parní trouby je příliš horký",
+  "causes": [
+   "Ventil přívodu vody může být zavřený.",
+   "Vodní tryska může potřebovat odvápnění."
+  ],
+  "steps": [
+   "Zcela otevřete ventil přívodu vody.",
+   "Pokud se zpráva vrátí, trysku odvápněte a propláchněte.",
+   "Používejte chňapky."
+  ],
+  "technician": "Pokud se závada vrací, kontaktujte zákaznický servis Miele nebo si objednejte opravu."
+ },
+ "Miele|F14": {
+  "title": "Do parního generátoru přichází málo vody",
+  "causes": [
+   "Do parního generátoru se nedostává dostatek vody."
+  ],
+  "steps": [
+   "Troubu vypněte a znovu zapněte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se F14 objeví znovu, vypněte troubu a kontaktujte Miele."
+ },
+ "Miele|F20": {
+  "title": "Parní trouba nehřeje",
+  "causes": [
+   "Teplota nestoupla o 2 stupně za 5 minut.",
+   "Může to způsobit velké množství zmrazených potravin."
+  ],
+  "steps": [
+   "Troubu vypněte a zapněte a spusťte znovu.",
+   "Nádobu na vodu zatlačte, až zacvakne.",
+   "Na těsnění používejte pouze dodaný silikonový tuk."
+  ],
+  "technician": "Pokud těsnění spojky vypadá popraskaně nebo se hromadí voda, zavolejte Miele."
+ },
+ "Miele|F27": {
+  "title": "Výpadek proudu během pečení nebo odvápnění",
+  "causes": [
+   "Napájení bylo přerušeno během programu pečení (F27).",
+   "E04 znamená, že napájení bylo přerušeno během odvápnění."
+  ],
+  "steps": [
+   "U F27 nastavte nový čas a stiskněte Start/Stop.",
+   "U E04 počkejte, až displej odpočítá od 0:06.",
+   "Troubu vypněte a zapněte."
+  ],
+  "technician": "Pokud se závada vrací, kontaktujte zákaznický servis Miele nebo si objednejte opravu."
+ },
+ "Miele|F74": {
+  "title": "Technická závada parní trouby",
+  "causes": [
+   "Technická závada, kterou nelze odstranit doma."
+  ],
+  "steps": [
+   "Nepokoušejte se ji opravit sami.",
+   "Poznamenejte si kód a číslo modelu.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Objednejte návštěvu technika Miele."
+ },
+ "Miele|F95": {
+  "title": "Spínač hladiny vody je zablokovaný vodním kamenem",
+  "causes": [
+   "Vodní kámen blokuje spínač hladiny."
+  ],
+  "steps": [
+   "Troubu odvápněte podle návodu.",
+   "Používejte čisticí prostředky Miele.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se závada vrací, kontaktujte zákaznický servis Miele nebo si objednejte opravu."
+ },
+ "Miele|F235": {
+  "title": "Závada elektronického modulu",
+  "causes": [
+   "Elektronický modul je vadný."
+  ],
+  "steps": [
+   "Nepokoušejte se o opravu svépomocí.",
+   "Poznamenejte si kód.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Objednejte opravu Miele."
+ },
+ "Electrolux|F1": {
+  "title": "Dvířka trouby se nemohou zamknout",
+  "causes": [
+   "Pyrolytické modely: funkce čištění je zapnutá a dvířka se nezavřou.",
+   "Ostatní modely: elektronická závada."
+  ],
+  "steps": [
+   "Zkontrolujte, zda je horní část dvířek neporušená.",
+   "Pokud byla dvířka demontována, postupujte podle návodu.",
+   "Pokud problém trvá, kontaktujte servis."
+  ],
+  "technician": "Pokud se kód vrací, objednejte opravu Electrolux."
+ },
+ "Electrolux|F102": {
+  "title": "Závada senzoru zámku dvířek",
+  "causes": [
+   "Dvířka nejsou úplně zavřená.",
+   "Vadný zámek dvířek nebo elektronika."
+  ],
+  "steps": [
+   "Dvířka pevně zavřete.",
+   "Na několik minut odpojte napájení a poté je obnovte.",
+   "Zkontrolujte domovní pojistku nebo proudový chránič."
+  ],
+  "technician": "Pokud se kód vrací, objednejte opravu Electrolux."
+ },
+ "Electrolux|F111": {
+  "title": "Sonda do jídla je vadná nebo není připojena",
+  "causes": [
+   "Sonda není zcela zapojena.",
+   "Sonda nebo její kabel jsou poškozeny."
+  ],
+  "steps": [
+   "Sondu odpojte a pevně znovu připojte.",
+   "Zkontrolujte, zda nejsou ohnuté kontakty nebo poškozený vodič.",
+   "Troubu na 30 sekund vypněte v síti."
+  ],
+  "technician": "Pokud se kód vrací, objednejte opravu Electrolux."
+ },
+ "Electrolux|F104": {
+  "title": "Teplotní senzor mimo rozsah",
+  "causes": [
+   "Teplotní senzor trouby je mimo rozsah.",
+   "Trouba nemusí hřát nebo se může zastavit."
+  ],
+  "steps": [
+   "Troubu na 30 sekund vypněte v síti.",
+   "Znovu ji zapněte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Obraťte se na autorizované servisní středisko."
+ },
+ "Electrolux|F105": {
+  "title": "Alarm příliš vysoké teploty senzoru",
+  "causes": [
+   "Senzor zjistil teplotu nad očekávanou úrovní."
+  ],
+  "steps": [
+   "Troubu vypněte a nechte vychladnout.",
+   "Vypněte napájení na 30 sekund a poté je obnovte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Obraťte se na autorizované servisní středisko."
+ },
+ "Electrolux|F215": {
+  "title": "Softwarová závada připojené trouby",
+  "causes": [
+   "Softwarový problém u připojené trouby."
+  ],
+  "steps": [
+   "Znovu nainstalujte aplikaci a troubu znovu připojte.",
+   "Troubu odpojte na 30 minut a poté ji znovu připojte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se na displeji zobrazí F215, objednejte opravu."
+ },
+ "Electrolux|F601": {
+  "title": "Problém se signálem Wi-Fi trouby",
+  "causes": [
+   "Je problém se signálem Wi-Fi."
+  ],
+  "steps": [
+   "Zkontrolujte připojení k síti.",
+   "Přesuňte router blíže.",
+   "Obnovte nastavení Wi-Fi trouby a nastavte ji znovu.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se nepřipojí, objednejte opravu."
+ },
+ "Electrolux|F604": {
+  "title": "První pokus o připojení k Wi-Fi selhal",
+  "causes": [
+   "První pokus o připojení k Wi-Fi se nezdařil."
+  ],
+  "steps": [
+   "Troubu vypněte a zapněte.",
+   "Zkuste se připojit znovu.",
+   "Zkontrolujte připojení k internetu.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se nepřipojí, objednejte opravu."
+ },
+ "Electrolux|E0020": {
+  "title": "Osvětlení trouby nefunguje",
+  "causes": [
+   "Žárovka trouby je vadná."
+  ],
+  "steps": [
+   "Troubu vypněte a nechte vychladnout.",
+   "Zkontrolujte žárovku a pokud je vadná, vyměňte ji.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud je žárovka v pořádku, obraťte se na servisní středisko."
+ },
+ "Electrolux|C1": {
+  "title": "Pyrolytické čištění blokují teleskopické lišty",
+  "causes": [
+   "V troubě jsou teleskopické lišty."
+  ],
+  "steps": [
+   "Vyjměte lišty, plechy a boční vodicí lišty.",
+   "Spusťte Pyro Clean znovu.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud problém trvá, kontaktujte servis."
+ },
+ "Electrolux|C2": {
+  "title": "Pyrolytické čištění blokuje sonda do jídla",
+  "causes": [
+   "Sonda do jídla je zapojená."
+  ],
+  "steps": [
+   "Odpojte sondu ze zdířky.",
+   "Spusťte Pyro Clean znovu.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud problém trvá, kontaktujte servis."
+ },
+ "Electrolux|C3": {
+  "title": "Pyrolytické čištění blokují otevřená dvířka",
+  "causes": [
+   "Dvířka jsou otevřená nebo není úplně zavřená."
+  ],
+  "steps": [
+   "Dvířka úplně zavřete.",
+   "Spusťte Pyro Clean znovu.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud problém trvá, kontaktujte servis."
+ },
+ "Electrolux|C4": {
+  "title": "Pyrolytické čištění blokuje funkce Steam Bake",
+  "causes": [
+   "Funkce Steam Bake je stále aktivní."
+  ],
+  "steps": [
+   "Stiskněte Steam Bake, dokud kontrolka nezhasne.",
+   "Spusťte Pyro Clean znovu.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud problém trvá, kontaktujte servis."
+ },
+ "AEG|F": {
+  "title": "Nádobí nebylo zjištěno nebo závada varné desky",
+  "causes": [
+   "Nevhodná pánev nebo byla pánev sundána.",
+   "U nové instalace problém s instalací."
+  ],
+  "steps": [
+   "Zkontrolujte, zda k dnu pánve přilne magnet.",
+   "Pánev vystředěte na zónu.",
+   "Varnou desku i pánev udržujte suché.",
+   "Na 30 sekund vypněte v síti."
+  ],
+  "technician": "Pokud F zůstává nebo je za ním číslice, objednejte technika."
+ },
+ "AEG|F2": {
+  "title": "SenseBoil: prázdný hrnec nebo olej",
+  "causes": [
+   "Hrnec je prázdný nebo obsahuje olej či jinou tekutinu než vodu."
+  ],
+  "steps": [
+   "Osušte povrch varné desky.",
+   "Neohřívejte prázdný hrnec.",
+   "SenseBoil používejte pouze s vodou.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud zpráva zmizela, nejde o závadu."
+ },
+ "AEG|F3": {
+  "title": "SenseBoil: nesprávné množství vody",
+  "causes": [
+   "V hrnci je příliš mnoho nebo příliš málo vody.",
+   "Jiné jídlo než voda nebo brambory."
+  ],
+  "steps": [
+   "Osušte povrch varné desky.",
+   "Hrnec naplňte od poloviny do tří čtvrtin, 1 až 5 litrů.",
+   "Vařte pouze vodu a brambory."
+  ],
+  "technician": "Pokud zpráva zmizela, nejde o závadu."
+ },
+ "AEG|E2": {
+  "title": "Chyba LED nebo senzoru varné desky",
+  "causes": [
+   "U indukčních desek chyba osvětlení LED.",
+   "U teppanyaki chyba teplotního senzoru."
+  ],
+  "steps": [
+   "Odpojte napájení na 30 sekund.",
+   "Znovu zapněte.",
+   "Poznamenejte si přesný kód.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se kód vrací, objednejte opravu AEG."
+ },
+ "AEG|E3": {
+  "title": "Varná deska je připojena k nesprávnému napětí",
+  "causes": [
+   "Možné přepětí nebo nesprávné zapojení."
+  ],
+  "steps": [
+   "Varnou desku přestaňte používat.",
+   "Požádejte instalatéra o kontrolu přívodu a zapojení.",
+   "Elektrickou instalaci neopravujte sami.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Zavolejte kvalifikovaného elektrikáře nebo servis AEG."
+ },
+ "AEG|E4": {
+  "title": "Aktivní ochrana varné desky proti přehřátí",
+  "causes": [
+   "Varná deska se přehřála.",
+   "Nevhodné nádobí nebo špatná instalace."
+  ],
+  "steps": [
+   "Vypněte a odstraňte nádobí.",
+   "Pánev vyzkoušejte magnetem.",
+   "Odpojte napájení na 30 sekund.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se kód vrací, objednejte opravu AEG."
+ },
+ "AEG|E5": {
+  "title": "Problém s fází nebo napětím varné desky",
+  "causes": [
+   "Problém s fází nebo napětím v napájení."
+  ],
+  "steps": [
+   "Vypněte odpojovací spínač na 30 sekund.",
+   "Zapněte a vyzkoušejte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se kód vrací, objednejte opravu AEG."
+ },
+ "AEG|E6": {
+  "title": "Problém s napájením varné desky",
+  "causes": [
+   "Často nesprávná instalace, například zásuvka 13 A pro varnou desku 16 A."
+  ],
+  "steps": [
+   "Varnou desku vypněte a zapněte.",
+   "Odpojte ji na 30 sekund.",
+   "Nechte zkontrolovat přívod."
+  ],
+  "technician": "Pokud se kód vrací, objednejte opravu AEG."
+ },
+ "AEG|E7": {
+  "title": "Závada chladicího ventilátoru varné desky",
+  "causes": [
+   "Ventilátor je zablokovaný nebo vadný u novějších modelů."
+  ],
+  "steps": [
+   "Zkontrolujte, zda nic neblokuje ventilátor pod varnou deskou.",
+   "Odpojte napájení na 30 sekund.",
+   "Znovu zapněte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se kód vrací, objednejte opravu AEG."
+ },
+ "AEG|E8": {
+  "title": "Závada elektroniky nebo fáze varné desky",
+  "causes": [
+   "Po instalaci chybí fáze.",
+   "Chyba komunikace elektroniky."
+  ],
+  "steps": [
+   "Zkontrolujte zapojení podle návodu.",
+   "Odpojte napájení na 30 sekund.",
+   "Pokud problém trvá, přestaňte desku používat."
+  ],
+  "technician": "Pokud se kód vrací, objednejte opravu AEG."
+ },
+ "AEG|E9": {
+  "title": "Závada elektronického modulu varné desky",
+  "causes": [
+   "Závada elektronického modulu."
+  ],
+  "steps": [
+   "Na 30 sekund vypněte v síti.",
+   "Pokud se vrátí, varnou desku nepoužívejte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se kód vrací, objednejte opravu AEG."
+ },
+ "Whirlpool|F0 E0": {
+  "title": "Neurčená závada ovládání trouby",
+  "causes": [
+   "Ovládání nedokáže závadu určit."
+  ],
+  "steps": [
+   "Vypněte jistič sporáku na jednu minutu.",
+   "Znovu jej zapněte.",
+   "Minutu troubu sledujte, zda se kód vrací."
+  ],
+  "technician": "Pokud se kód vrací, kontaktujte servis Whirlpool."
+ },
+ "Whirlpool|F1": {
+  "title": "Možná závada senzoru, ovládání nebo zapojení",
+  "causes": [
+   "Problém s teplotním senzorem trouby, ovládáním nebo zapojením."
+  ],
+  "steps": [
+   "Vypněte jistič sporáku na jednu minutu.",
+   "Znovu jej zapněte.",
+   "Minutu troubu sledujte, zda se kód vrací."
+  ],
+  "technician": "Pokud se kód vrací, kontaktujte servis Whirlpool."
+ },
+ "Whirlpool|F2": {
+  "title": "Možná závada senzoru, ovládání nebo zapojení",
+  "causes": [
+   "Problém s teplotním senzorem trouby, ovládáním nebo zapojením."
+  ],
+  "steps": [
+   "Vypněte jistič sporáku na jednu minutu.",
+   "Znovu jej zapněte.",
+   "Minutu troubu sledujte, zda se kód vrací."
+  ],
+  "technician": "Pokud se kód vrací, kontaktujte servis Whirlpool."
+ },
+ "Whirlpool|F2 E1": {
+  "title": "Problém s klávesnicí nebo ovládáním",
+  "causes": [
+   "Problém s klávesnicí, ovládáním nebo zapojením.",
+   "Některý rošt může být špatně usazen."
+  ],
+  "steps": [
+   "Zkontrolujte, zda rošty leží rovně.",
+   "Pokud se viklají, vyměňte je mezi sebou.",
+   "Vypněte jistič na jednu minutu."
+  ],
+  "technician": "Pokud se kód vrací, kontaktujte servis Whirlpool."
+ },
+ "Whirlpool|F3": {
+  "title": "Možná závada ovládání trouby nebo zapojení",
+  "causes": [
+   "Problém s ovládáním trouby nebo zapojením."
+  ],
+  "steps": [
+   "Vypněte jistič sporáku na jednu minutu.",
+   "Znovu jej zapněte.",
+   "Minutu troubu sledujte, zda se kód vrací."
+  ],
+  "technician": "Pokud se kód vrací, kontaktujte servis Whirlpool."
+ },
+ "Whirlpool|F5": {
+  "title": "Problém se zámkem dvířek trouby",
+  "causes": [
+   "Problém se západkou dvířek, spínačem nebo zapojením."
+  ],
+  "steps": [
+   "Vypněte jistič sporáku na jednu minutu.",
+   "Znovu jej zapněte.",
+   "Minutu troubu sledujte, zda se kód vrací."
+  ],
+  "technician": "Pokud se kód vrací, kontaktujte servis Whirlpool."
+ },
+ "Whirlpool|F5 E0": {
+  "title": "Problém se zámkem dvířek trouby",
+  "causes": [
+   "Problém se západkou dvířek, spínačem nebo zapojením."
+  ],
+  "steps": [
+   "Vypněte jistič sporáku na jednu minutu.",
+   "Znovu jej zapněte.",
+   "Minutu troubu sledujte, zda se kód vrací."
+  ],
+  "technician": "Pokud se kód vrací, kontaktujte servis Whirlpool."
+ },
+ "Whirlpool|F6": {
+  "title": "Možná závada ovládání trouby nebo zapojení",
+  "causes": [
+   "Problém s ovládáním trouby nebo zapojením."
+  ],
+  "steps": [
+   "Vypněte jistič sporáku na jednu minutu.",
+   "Znovu jej zapněte.",
+   "Minutu troubu sledujte, zda se kód vrací."
+  ],
+  "technician": "Pokud se kód vrací, kontaktujte servis Whirlpool."
+ },
+ "Whirlpool|F7 E0": {
+  "title": "Problém s jednotkou západky dvířek",
+  "causes": [
+   "Problém s jednotkou západky dvířek nebo zapojením."
+  ],
+  "steps": [
+   "Vypněte jistič sporáku na jednu minutu.",
+   "Znovu jej zapněte.",
+   "Minutu troubu sledujte, zda se kód vrací."
+  ],
+  "technician": "Pokud se kód vrací, kontaktujte servis Whirlpool."
+ },
+ "Whirlpool|F8 E0": {
+  "title": "Chladicí ventilátor trouby běží pomalu",
+  "causes": [
+   "Omezení proudění vzduchu.",
+   "Vadný chladicí ventilátor nebo zapojení."
+  ],
+  "steps": [
+   "Vypněte jistič sporáku na jednu minutu.",
+   "Znovu jej zapněte.",
+   "Minutu troubu sledujte, zda se kód vrací."
+  ],
+  "technician": "Pokud se kód vrací, kontaktujte servis Whirlpool."
+ },
+ "Whirlpool|F9-1": {
+  "title": "Problém se západkou dvířek nebo spínačem zámku",
+  "causes": [
+   "Problém se západkou dvířek, spínačem zámku nebo zapojením."
+  ],
+  "steps": [
+   "Vypněte jistič sporáku na jednu minutu.",
+   "Znovu jej zapněte.",
+   "Minutu troubu sledujte, zda se kód vrací."
+  ],
+  "technician": "Pokud se kód vrací, kontaktujte servis Whirlpool."
+ },
+ "LG|F1": {
+  "title": "Chyba termistoru horní trouby",
+  "causes": [
+   "Závada teplotního senzoru horní trouby."
+  ],
+  "steps": [
+   "Stiskněte CLEAR/OFF a zkuste funkci znovu.",
+   "Vypněte jistič sporáku na 30 sekund.",
+   "Znovu jej zapněte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se to neustále vrací, požádejte o opravu LG."
+ },
+ "LG|F2": {
+  "title": "Chyba termistoru horní trouby",
+  "causes": [
+   "Závada teplotního senzoru horní trouby."
+  ],
+  "steps": [
+   "Stiskněte CLEAR/OFF a zkuste funkci znovu.",
+   "Vypněte jistič sporáku na 30 sekund.",
+   "Znovu jej zapněte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se to neustále vrací, požádejte o opravu LG."
+ },
+ "LG|F3": {
+  "title": "Chyba klávesy dotykového panelu",
+  "causes": [
+   "Závada senzoru klávesy dotykového panelu."
+  ],
+  "steps": [
+   "Stiskněte CLEAR/OFF a zkuste funkci znovu.",
+   "Vypněte jistič sporáku na 30 sekund.",
+   "Znovu jej zapněte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se to neustále vrací, požádejte o opravu LG."
+ },
+ "LG|F6": {
+  "title": "Chyba ohřevu horní trouby",
+  "causes": [
+   "Závada ohřevu horní trouby."
+  ],
+  "steps": [
+   "Stiskněte CLEAR/OFF a zkuste funkci znovu.",
+   "Vypněte jistič sporáku na 30 sekund.",
+   "Znovu jej zapněte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se to neustále vrací, požádejte o opravu LG."
+ },
+ "LG|F7": {
+  "title": "Chyba horního horkovzdušného ventilátoru",
+  "causes": [
+   "Závada horkovzdušného ventilátoru."
+  ],
+  "steps": [
+   "Stiskněte CLEAR/OFF a zkuste funkci znovu.",
+   "Vypněte jistič sporáku na 30 sekund.",
+   "Znovu jej zapněte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se to neustále vrací, požádejte o opravu LG."
+ },
+ "LG|F9": {
+  "title": "Horní trouba nehřeje správně",
+  "causes": [
+   "Horní trouba nehřeje."
+  ],
+  "steps": [
+   "Stiskněte CLEAR/OFF a zkuste funkci znovu.",
+   "Vypněte jistič sporáku na 30 sekund.",
+   "Znovu jej zapněte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se to neustále vrací, požádejte o opravu LG."
+ },
+ "LG|F10": {
+  "title": "Selhání zámku dvířek horní trouby",
+  "causes": [
+   "Selhání systému zamykání dvířek."
+  ],
+  "steps": [
+   "Stiskněte CLEAR/OFF a zkuste funkci znovu.",
+   "Vypněte jistič sporáku na 30 sekund.",
+   "Znovu jej zapněte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se to neustále vrací, požádejte o opravu LG."
+ },
+ "LG|F11": {
+  "title": "Chyba komunikace",
+  "causes": [
+   "Desky spolu nekomunikují."
+  ],
+  "steps": [
+   "Stiskněte CLEAR/OFF a zkuste funkci znovu.",
+   "Vypněte jistič sporáku na 30 sekund.",
+   "Znovu jej zapněte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se to neustále vrací, požádejte o opravu LG."
+ },
+ "LG|F20": {
+  "title": "Selhání zámku dvířek spodní trouby",
+  "causes": [
+   "Selhání systému zamykání dvířek."
+  ],
+  "steps": [
+   "Stiskněte CLEAR/OFF a zkuste funkci znovu.",
+   "Vypněte jistič sporáku na 30 sekund.",
+   "Znovu jej zapněte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se to neustále vrací, požádejte o opravu LG."
+ },
+ "LG|F27": {
+  "title": "Zastavení chladicího ventilátoru při samočištění",
+  "causes": [
+   "Ventilátor se zastavil během samočištění."
+  ],
+  "steps": [
+   "Stiskněte CLEAR/OFF a zkuste funkci znovu.",
+   "Vypněte jistič sporáku na 30 sekund.",
+   "Znovu jej zapněte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se to neustále vrací, požádejte o opravu LG."
+ },
+ "LG|PF": {
+  "title": "Napájení bylo přerušeno",
+  "causes": [
+   "Napájení spotřebiče bylo přerušeno."
+  ],
+  "steps": [
+   "Stiskněte CLEAR/OFF a zkuste funkci znovu.",
+   "Vypněte jistič sporáku na 30 sekund.",
+   "Znovu jej zapněte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Pokud se to neustále vrací, požádejte o opravu LG."
+ },
+ "Beko|Er 5": {
+  "title": "Chyba komunikace s teplotní sondou na maso",
+  "causes": [
+   "Trouba nekomunikuje s teplotní sondou na maso."
+  ],
+  "steps": [
+   "Vyjměte sondu na maso.",
+   "Otočný volič nastavte na vypnuto (0).",
+   "Pečte bez sondy.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Chcete-li sondu znovu používat, kontaktujte autorizovaný servis."
+ },
+ "Beko|Er 1 - Er 7": {
+  "title": "Chyby komunikace trouby",
+  "causes": [
+   "Vnitřní chyby komunikace."
+  ],
+  "steps": [
+   "Troubu vypněte.",
+   "Poznamenejte si přesné číslo.",
+   "Troubu nepoužívejte.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Obraťte se na autorizovaný servis Beko."
+ },
+ "Beko|Er 8 - Er 27": {
+  "title": "Chyby senzorů trouby",
+  "causes": [
+   "Některý senzor v troubě je vadný."
+  ],
+  "steps": [
+   "Troubu vypněte.",
+   "Poznamenejte si přesné číslo.",
+   "Před kontaktováním kohokoli si zapište přesný kód a číslo modelu z typového štítku."
+  ],
+  "technician": "Obraťte se na autorizovaný servis Beko."
+ }
+}
