@@ -28,6 +28,7 @@ import { RealSize } from '@/components/views/RealSize'
 import { FitFinder } from '@/components/views/FitFinder'
 import { lifeFacts, lifeText } from '@/lib/life'
 import { rightsFor } from '@/lib/rights'
+import { osUi, osList, osEntry, osName, osForProduct, slugCandidates } from '@/lib/osupdates'
 import { Duel } from '@/components/views/Duel'
 import { duelGroups, duelText } from '@/lib/duel'
 import { glossary, glossaryTerm, GLOSSARY_UI } from '@/lib/glossary'
@@ -35,6 +36,7 @@ import { brandsText } from '@/lib/brands'
 import { listsText, listTitle } from '@/lib/lists'
 import { useCasesText, ucItem } from '@/lib/usecases'
 import { widgetsText } from '@/lib/widgets'
+import { productHrefsBySlugs } from '@/lib/catalog'
 import { reportText, REPORT_SLUG, REPORT_CATS, brandSupport } from '@/lib/reports'
 import { ShareEmbed } from '@/components/ShareEmbed'
 import { SITE_URL } from '@/lib/site'
@@ -155,6 +157,14 @@ export async function generateMetadata({ params }: PageProps<'/[lang]/[...slug]'
     if (!gd) return {}
     const segs = Object.fromEntries(await Promise.all(LOCALES.map(async (l) => [l, await guideSeg(l, gd.cat)] as const)))
     return { title: `${gd.title} · Specvane`, description: gd.lead, alternates: alternates(lang, (l) => sectionHref(l, 'guides', segs[l])), openGraph: { title: gd.title, images: [{ url: `/og/${lang}/guide/${gd.cat}.png`, width: 1200, height: 630 }] } }
+  }
+  if (key === 'updates' && slug.length <= 2) {
+    const u = osUi(lang)
+    if (slug.length === 1) return { title: `${u.indexTitle} · Specvane`, description: u.indexLead, alternates: alternates(lang, (l) => sectionHref(l, 'updates')) }
+    const e = osEntry(lang, slug[1])
+    if (!e) return {}
+    const os = osName(e)
+    return { title: `${fill(u.title, { os })} · Specvane`, description: fill(u.metaDesc, { os, n: e.devices.length }), alternates: alternates(lang, (l) => sectionHref(l, 'updates', e.slug)) }
   }
   if (key === 'reports' && slug.length <= 2) {
     if (slug.length === 2 && slug[1] !== REPORT_SLUG) return {}
@@ -405,6 +415,80 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
           <a href={`/${lang}/${cat.slug}`} className="font-medium text-accent hover:underline">{fill(bt.seeAll, { category: cat.name })} →</a>
           {g && <a href={sectionHref(lang, 'guides', cat.slug)} className="font-medium text-accent hover:underline">{g.title} →</a>}
         </p>
+      </article>
+    )
+  }
+
+  if (key === 'updates' && slug.length <= 2) {
+    const u = osUi(lang)
+    const section = { name: u.section, href: sectionHref(lang, 'updates') }
+    const fmt = (d: string) => new Intl.DateTimeFormat(lang, { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(d))
+    const all = osList(lang)
+    if (slug.length === 1) {
+      const vendors = [...new Set(all.map((x) => x.vendor))]
+      return (
+        <>
+          <Breadcrumbs items={[{ name: t.ui.home, href: `/${lang}` }, section]} />
+          <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{u.indexTitle}</h1>
+          <p className="mt-2 max-w-2xl text-muted">{u.indexLead}</p>
+          <div className="mt-8 grid gap-6 md:grid-cols-2">{vendors.map((v) => (
+            <section key={v} className="rounded-2xl border border-border p-4">
+              <h2 className="mb-2 text-lg font-semibold">{v}</h2>
+              <ul className="space-y-1">{all.filter((x) => x.vendor === v).map((x) => (
+                <li key={x.slug}><a href={sectionHref(lang, 'updates', x.slug)} className="flex min-h-11 items-center justify-between gap-2 rounded-lg px-2 hover:bg-surface">
+                  <span className="font-medium">{osName(x)}</span><span className="num text-sm text-muted">{x.devices.length}{x.released ? ` · ${x.released.slice(0, 4)}` : ''}</span></a></li>
+              ))}</ul>
+            </section>
+          ))}</div>
+        </>
+      )
+    }
+    const e = osEntry(lang, slug[1])
+    if (!e) notFound()
+    const os = osName(e)
+    const hrefs = await productHrefsBySlugs(lang, e.devices.flatMap((d) => slugCandidates(e, d)))
+    const link = (d: string) => slugCandidates(e, d).map((c) => hrefs[c]).find(Boolean)
+    const others = all.filter((x) => x.slug !== e.slug && (x.vendor === e.vendor || x.os === e.os)).concat(all.filter((x) => x.vendor !== e.vendor && x.os !== e.os)).slice(0, 10)
+    const url = `${SITE_URL}${sectionHref(lang, 'updates', e.slug)}`
+    const ld = { '@context': 'https://schema.org', '@type': 'ItemList', name: fill(u.title, { os }), url, numberOfItems: e.devices.length,
+      itemListElement: e.devices.map((d, i) => ({ '@type': 'ListItem', position: i + 1, name: d })) }
+    return (
+      <article className="max-w-4xl">
+        <Breadcrumbs items={[{ name: t.ui.home, href: `/${lang}` }, section, { name: os, href: sectionHref(lang, 'updates', e.slug) }]} />
+        <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{fill(u.title, { os })}</h1>
+        <p className="mt-3 text-lg text-muted">{e.summary}</p>
+        <p className="mt-2 flex flex-wrap gap-2 text-sm">
+          {e.released ? <span className="rounded-lg bg-surface px-2 py-1">{fill(u.released, { date: fmt(e.released) })}</span> : <span className="rounded-lg bg-surface px-2 py-1">{u.rolling}</span>}
+          {e.announced && <span className="rounded-lg bg-surface px-2 py-1">{fill(u.announced, { date: fmt(e.announced) })}</span>}
+        </p>
+        <section className="mt-8">
+          <h2 className="mb-3 text-xl font-semibold">✅ {fill(u.devices, { n: e.devices.length })}</h2>
+          <ul className="grid gap-2 sm:grid-cols-2 md:grid-cols-3">{e.devices.map((d) => {
+            const h = link(d)
+            return <li key={d} className="flex min-h-11 items-center justify-between gap-2 rounded-xl border border-border px-3 py-2">
+              <span>{d}</span>{h && <a href={h} className="shrink-0 text-sm text-accent hover:underline">{u.specs} →</a>}</li>
+          })}</ul>
+          <p className="mt-3 text-sm"><a href={e.source} target="_blank" rel="noopener nofollow" className="font-medium text-accent hover:underline">{u.source} ↗</a>
+            {e.source2 && <> · <a href={e.source2} target="_blank" rel="noopener nofollow" className="text-accent hover:underline">{u.source2} ↗</a></>}</p>
+        </section>
+        {e.dropped.length > 0 && (
+          <section className="mt-8">
+            <h2 className="mb-3 text-xl font-semibold">{u.dropped}</h2>
+            <ul className="flex flex-wrap gap-2">{e.dropped.map((d) => <li key={d} className="rounded-lg bg-surface px-3 py-1.5 text-sm">{d}</li>)}</ul>
+          </section>
+        )}
+        {e.highlights.length > 0 && (
+          <section className="mt-8">
+            <h2 className="mb-3 text-xl font-semibold">{u.highlights}</h2>
+            <ul className="list-disc space-y-1 ps-5">{e.highlights.map((h) => <li key={h}>{h}</li>)}</ul>
+          </section>
+        )}
+        <p className="mt-8 rounded-xl bg-surface p-3 text-sm text-muted">{u.note}</p>
+        <nav className="mt-10" aria-label={u.other}>
+          <h2 className="mb-3 font-semibold">{u.other}</h2>
+          <ul className="flex flex-wrap gap-2">{others.map((x) => <li key={x.slug}><a href={sectionHref(lang, 'updates', x.slug)} className="inline-flex min-h-11 items-center rounded-xl border border-border px-3 hover:border-accent hover:text-accent">{osName(x)}</a></li>)}</ul>
+        </nav>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       </article>
     )
   }
@@ -954,6 +1038,10 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
                 </section>
               )
             })()}
+            {(cat.key === 'smartphones' || cat.key === 'tablets') && osForProduct(p.brand, p.name).length > 0 && (
+              <p className="mx-auto mt-8 max-w-3xl text-sm"><span className="font-medium">📲 {osUi(lang).onProduct}:</span>{' '}
+                {osForProduct(p.brand, p.name).map((x, i) => <span key={x.slug}>{i > 0 && ' · '}<a href={sectionHref(lang, 'updates', x.slug)} className="text-accent hover:underline">{osName(x)} ✓</a></span>)}</p>
+            )}
             {(() => {
               const r = rightsFor(lang, cat.key)
               return r && (

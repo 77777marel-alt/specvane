@@ -6,6 +6,7 @@ import { Logo } from './Logo'
 import { legalText } from '@/lib/legal'
 import { widgetsText } from '@/lib/widgets'
 import { reportText, REPORT_SLUG } from '@/lib/reports'
+import { osUi } from '@/lib/osupdates'
 
 export function Footer({ lang, t }: { lang: Locale; t: Dict }) {
   return (
@@ -23,6 +24,7 @@ export function Footer({ lang, t }: { lang: Locale; t: Dict }) {
             ))}
             <li><Link href={sectionHref(lang, 'reports', REPORT_SLUG)} className="text-muted hover:text-fg">{reportText(lang).section}</Link></li>
             <li><Link href={sectionHref(lang, 'widgets')} className="text-muted hover:text-fg">{widgetsText(lang).section}</Link></li>
+            <li><Link href={sectionHref(lang, 'updates')} className="text-muted hover:text-fg">{osUi(lang).section}</Link></li>
           </ul>
         </nav>
         <nav id="languages" aria-label={t.nav.language}>

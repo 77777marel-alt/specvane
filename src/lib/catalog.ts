@@ -856,3 +856,18 @@ export async function getSizeData(lang: Locale, catKey: string): Promise<SizeIte
   }
   return out
 }
+
+/** Адреса моделей по списку возможных slug (для официальных списков обновлений ОС). */
+export async function productHrefsBySlugs(lang: Locale, slugs: string[]): Promise<Record<string, string>> {
+  'use cache'
+  cacheLife('hours'); cacheTag('products')
+  const s = db()
+  if (!s || !slugs.length) return {}
+  const { data } = await s.from('products').select('slug, category_id').in('slug', slugs.slice(0, 400)).eq('status', 'active')
+  const out: Record<string, string> = {}
+  for (const r of (data ?? []) as { slug: string; category_id: number }[]) {
+    const c = await categoryById(lang, r.category_id)
+    if (c) out[r.slug] = `/${lang}/${c.slug}/${r.slug}`
+  }
+  return out
+}

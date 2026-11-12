@@ -7,6 +7,7 @@ import { cacheLife } from 'next/cache'
 import { getIndexableProducts, countIndexableProducts, getIndexableComparisons, getCategory, getBestSpecs, getCategoryByKey, getBrandPairs, getLists, getUseCases } from '@/lib/catalog'
 import { APPLIANCES, applianceName, isThinCode, errorBrands, errorCodes, hasErrors, type Appliance } from '@/lib/errors'
 import { TOOLS } from '@/lib/tools'
+import { OS_SLUGS } from '@/lib/osupdates'
 import { GLOSSARY_SLUGS } from '@/lib/glossary'
 import { GUIDE_CATS } from '@/lib/guides'
 
@@ -93,6 +94,7 @@ export async function entriesFor(file: string): Promise<Entry[] | null> {
       }
     }
     const tools: Entry[] = [{ loc: `${SITE_URL}${sectionHref(lang, 'tools')}` }, ...TOOLS.map((x) => ({ loc: `${SITE_URL}${sectionHref(lang, 'tools', x.id)}` }))]
+    tools.push({ loc: `${SITE_URL}${sectionHref(lang, 'updates')}` }, ...OS_SLUGS.map((x) => ({ loc: `${SITE_URL}${sectionHref(lang, 'updates', x)}` })))
     const gloss: Entry[] = [{ loc: `${SITE_URL}${sectionHref(lang, 'reports', 'tech-trends-2026')}` }, { loc: `${SITE_URL}${sectionHref(lang, 'widgets')}` }, { loc: `${SITE_URL}${sectionHref(lang, 'glossary')}` }, ...GLOSSARY_SLUGS.map((g) => ({ loc: `${SITE_URL}${sectionHref(lang, 'glossary', g)}` }))]
     const guidesE: Entry[] = [{ loc: `${SITE_URL}${sectionHref(lang, 'guides')}` }]
     for (const c of GUIDE_CATS) guidesE.push({ loc: `${SITE_URL}${sectionHref(lang, 'guides', (await getCategoryByKey(lang, c))?.slug ?? (c in APPLIANCES ? applianceName(lang, c as Appliance).slug : c))}` })
