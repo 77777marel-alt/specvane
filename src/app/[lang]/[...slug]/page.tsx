@@ -27,6 +27,7 @@ import { ToolCalc } from '@/components/views/ToolCalc'
 import { RealSize } from '@/components/views/RealSize'
 import { FitFinder } from '@/components/views/FitFinder'
 import { lifeFacts, lifeText } from '@/lib/life'
+import { rightsFor } from '@/lib/rights'
 import { Duel } from '@/components/views/Duel'
 import { duelGroups, duelText } from '@/lib/duel'
 import { glossary, glossaryTerm, GLOSSARY_UI } from '@/lib/glossary'
@@ -950,6 +951,20 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
                   <h2 id="life-h" className="text-xl font-bold">💡 {lt.title}</h2>
                   <ul className="mt-3 space-y-2">{life.map((x, i) => <li key={i} className="flex gap-2"><span aria-hidden="true" className="text-accent">•</span><span>{x}</span></li>)}</ul>
                   <p className="mt-3 text-xs text-muted">{lt.note}</p>
+                </section>
+              )
+            })()}
+            {(() => {
+              const r = rightsFor(lang, cat.key)
+              return r && (
+                <section className="mx-auto mt-8 max-w-3xl rounded-2xl border border-border p-5" aria-labelledby="rights-h">
+                  <h2 id="rights-h" className="text-xl font-bold">🇪🇺 {r.t.title}</h2>
+                  <p className="mt-1 text-sm text-muted">{r.t.lead}</p>
+                  <ul className="mt-3 space-y-2">{r.items.map((x, i) => (
+                    <li key={i} className="flex gap-2"><span aria-hidden="true" className="text-accent">•</span>
+                      <span>{x.text} <a href={x.href} target="_blank" rel="noopener nofollow" className="whitespace-nowrap text-sm text-accent hover:underline">{r.t.source} ↗</a></span></li>
+                  ))}</ul>
+                  <p className="mt-3 text-xs text-muted">{r.t.note}</p>
                 </section>
               )
             })()}
