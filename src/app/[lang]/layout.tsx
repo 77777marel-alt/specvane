@@ -8,6 +8,7 @@ import { Footer } from '@/components/Footer'
 import { BottomNav } from '@/components/BottomNav'
 import { sectionHref } from '@/lib/routes'
 import { themeScript } from '@/components/theme-script'
+import Script from 'next/script'
 import '../globals.css'
 
 export async function generateStaticParams() {
@@ -46,6 +47,8 @@ export default async function RootLayout({ children, params }: LayoutProps<'/[la
           left={[{ href: `/${lang}`, label: t.ui.home, icon: 'home' }, { href: `/${lang}#categories`, label: t.ui.categories, icon: 'grid' }]}
           right={[{ href: sectionHref(lang, 'compare'), label: t.nav.compare, icon: 'compare' }, { href: '#languages', label: t.nav.language, icon: 'globe' }]}
         />
+        {/* Cloudflare Web Analytics: без cookie, без личных данных (аккаунт 777marel@gmail.com) */}
+        <Script src="https://static.cloudflareinsights.com/beacon.min.js" strategy="afterInteractive" data-cf-beacon='{"token": "fb274123798643588745bf28e7943857"}' />
       </body>
     </html>
   )
