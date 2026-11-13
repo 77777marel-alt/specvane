@@ -33,6 +33,7 @@ export const de: Dict = {
       'Als Amazon-Partner verdienen wir an qualifizierten Verkäufen.',
     ] },
     privacy: { title: 'Datenschutzerklärung', body: [
+      'Besuche zählen wir mit Cloudflare Web Analytics: Es setzt keine Cookies, verfolgt keine einzelnen Besucher und erfasst nur anonyme technische Daten (Seite, Land, Browser, verweisende Website).',
       'Ein Konto ist nicht nötig, und wir verkaufen keine personenbezogenen Daten.',
       'Analyse- und Affiliate-Cookies setzen wir erst nach Ihrer Einwilligung. Ihr Land wird nur zur Auswahl des passenden Shops für den „Kaufen“-Button aus der Anfrage ermittelt und nicht gespeichert.',
       'Fragen zum Datenschutz oder zu Ihren Rechten nach DSGVO: info@specvane.com.',

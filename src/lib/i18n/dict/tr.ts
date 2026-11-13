@@ -33,6 +33,7 @@ export const tr: Dict = {
       "Bir Amazon Associate olarak uygun satın alımlardan kazanç elde ediyoruz.",
     ] },
     privacy: { title: "Gizlilik politikası", body: [
+      'Ziyaretleri Cloudflare Web Analytics ile sayıyoruz: çerez kullanmaz, ziyaretçileri tek tek izlemez ve yalnızca anonim teknik veriler (sayfa, ülke, tarayıcı, yönlendiren site) toplar.',
       "Hesap açmanızı istemiyoruz ve kişisel verileri satmıyoruz.",
       "Analiz ve ortaklık çerezleri yalnızca onay vermenizden sonra kullanılır. Ülkeniz, yalnızca “Satın al” düğmesi için doğru mağazayı seçmek amacıyla istekten belirlenir; bu bilgiyi saklamıyoruz.",
       "Gizlilikle ilgili her türlü soru veya GDPR kapsamındaki haklarınızı kullanmak için info@specvane.com adresinden bize ulaşın.",

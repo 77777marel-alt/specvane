@@ -33,6 +33,7 @@ export const ro: Dict = {
       "În calitate de asociat Amazon, câștigăm din achizițiile eligibile.",
     ] },
     privacy: { title: "Politica de confidențialitate", body: [
+      'Numărăm vizitele cu Cloudflare Web Analytics: nu folosește cookie-uri, nu urmărește vizitatorii individual și colectează doar date tehnice anonime (pagină, țară, browser, site de proveniență).',
       "Nu cerem un cont și nu vindem date personale.",
       "Cookie-urile de analiză și de afiliere sunt folosite doar după ce îți dai consimțământul. Țara ta este detectată din cerere doar pentru a alege magazinul potrivit pentru butonul „Cumpără”; nu o stocăm.",
       "Scrie-ne la info@specvane.com pentru orice întrebare despre confidențialitate sau pentru a-ți exercita drepturile conform GDPR.",

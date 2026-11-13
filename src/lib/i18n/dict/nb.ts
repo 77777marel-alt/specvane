@@ -33,6 +33,7 @@ export const nb: Dict = {
       "Som Amazon Associate tjener vi penger på kvalifiserte kjøp.",
     ] },
     privacy: { title: "Personvernerklæring", body: [
+      'Vi teller besøk med Cloudflare Web Analytics: ingen informasjonskapsler, ingen sporing av enkeltbesøkende, bare anonyme tekniske data (side, land, nettleser, henvisende nettsted).',
       "Vi krever ingen konto og selger ikke personopplysninger.",
       "Analyse- og affiliate-informasjonskapsler brukes først etter at du har gitt samtykke. Landet ditt fastslås ut fra forespørselen kun for å velge riktig butikk for «Kjøp»-knappen; vi lagrer det ikke.",
       "Kontakt oss på info@specvane.com med spørsmål om personvern eller for å bruke rettighetene dine etter GDPR.",

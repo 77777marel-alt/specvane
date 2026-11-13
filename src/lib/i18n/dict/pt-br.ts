@@ -33,6 +33,7 @@ export const ptBr: Dict = {
       'Como Associado da Amazon, recebemos por compras qualificadas.',
     ] },
     privacy: { title: 'Política de privacidade', body: [
+      'Contamos as visitas com o Cloudflare Web Analytics: ele não usa cookies, não rastreia visitantes individualmente e coleta apenas dados técnicos anônimos (página, país, navegador, site de origem).',
       'Não é preciso criar conta e não vendemos dados pessoais.',
       'Cookies de análise e de afiliados só são usados após o seu consentimento. Seu país é identificado a partir da requisição apenas para escolher a loja certa no botão “Comprar” e não é armazenado.',
       'Dúvidas sobre privacidade ou seus direitos (LGPD/GDPR): info@specvane.com.',

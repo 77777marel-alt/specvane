@@ -33,6 +33,7 @@ export const cs: Dict = {
       "Jako partner programu Amazon Associates vyděláváme na kvalifikovaných nákupech.",
     ] },
     privacy: { title: "Zásady ochrany osobních údajů", body: [
+      'Návštěvy počítáme pomocí Cloudflare Web Analytics: nepoužívá cookies, nesleduje jednotlivé návštěvníky a sbírá jen anonymní technická data (stránka, země, prohlížeč, odkazující web).',
       "Nevyžadujeme registraci a osobní údaje neprodáváme.",
       "Analytické a affiliate cookies používáme až po vašem souhlasu. Vaši zemi zjišťujeme z požadavku jen proto, abychom pro tlačítko „Koupit“ vybrali správný obchod; neukládáme ji.",
       "S jakýmkoli dotazem k ochraně soukromí nebo k uplatnění vašich práv podle GDPR nám pište na info@specvane.com.",

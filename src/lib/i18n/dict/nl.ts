@@ -33,6 +33,7 @@ export const nl: Dict = {
       'Als Amazon-partner verdienen we aan kwalificerende aankopen.',
     ] },
     privacy: { title: 'Privacybeleid', body: [
+      'We tellen bezoeken met Cloudflare Web Analytics: het plaatst geen cookies, volgt geen individuele bezoekers en verzamelt alleen anonieme technische gegevens (pagina, land, browser, verwijzende site).',
       'Je hebt geen account nodig en we verkopen geen persoonsgegevens.',
       'Analytische en affiliatecookies gebruiken we pas na jouw toestemming. Je land wordt uit het verzoek afgeleid, alleen om de juiste winkel voor de knop “Kopen” te kiezen, en wordt niet opgeslagen.',
       'Vragen over privacy of je AVG-rechten: info@specvane.com.',

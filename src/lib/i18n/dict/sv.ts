@@ -33,6 +33,7 @@ export const sv: Dict = {
       'Som Amazon-partner tjänar vi pengar på kvalificerade köp.',
     ] },
     privacy: { title: 'Integritetspolicy', body: [
+      'Vi räknar besök med Cloudflare Web Analytics: inga cookies, ingen spårning av enskilda besökare, bara anonyma tekniska data (sida, land, webbläsare, hänvisande webbplats).',
       'Du behöver inget konto och vi säljer inga personuppgifter.',
       'Analys- och affiliatecookies används först efter ditt samtycke. Ditt land avläses ur förfrågan enbart för att välja rätt butik till knappen ”Köp” och sparas inte.',
       'Frågor om integritet eller dina rättigheter enligt GDPR: info@specvane.com.',

@@ -34,6 +34,7 @@ export const en = {
       'As an Amazon Associate we earn from qualifying purchases.',
     ] },
     privacy: { title: 'Privacy policy', body: [
+      'We count visits with Cloudflare Web Analytics: it sets no cookies, does not track individual visitors and only collects anonymous technical data (page, country, browser, referring site).',
       'We do not require an account and do not sell personal data.',
       'Analytics and affiliate cookies are only used after you give consent. Your country is detected from the request only to choose the right shop for the “Buy” button; we do not store it.',
       'Contact us at info@specvane.com for any privacy question or to exercise your GDPR rights.',

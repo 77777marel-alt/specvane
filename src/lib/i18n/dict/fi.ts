@@ -33,6 +33,7 @@ export const fi: Dict = {
       "Amazon Associate -kumppanina ansaitsemme tuloja ehdot täyttävistä ostoksista.",
     ] },
     privacy: { title: "Tietosuojakäytäntö", body: [
+      'Laskemme käynnit Cloudflare Web Analyticsilla: se ei käytä evästeitä eikä seuraa yksittäisiä kävijöitä, vaan kerää vain anonyymejä teknisiä tietoja (sivu, maa, selain, viittaava sivusto).',
       "Emme vaadi tiliä emmekä myy henkilötietoja.",
       "Analytiikka- ja kumppanievästeitä käytetään vasta suostumuksesi jälkeen. Maasi tunnistetaan pyynnöstä vain, jotta ”Osta”-painikkeeseen valitaan oikea kauppa; emme tallenna sitä.",
       "Ota yhteyttä osoitteeseen info@specvane.com, jos sinulla on kysyttävää tietosuojasta tai haluat käyttää GDPR:n mukaisia oikeuksiasi.",

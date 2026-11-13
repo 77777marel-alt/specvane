@@ -33,6 +33,7 @@ export const fr: Dict = {
       'En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises.',
     ] },
     privacy: { title: 'Politique de confidentialité', body: [
+      "Nous comptons les visites avec Cloudflare Web Analytics : aucun cookie, aucun suivi individuel des visiteurs, uniquement des données techniques anonymes (page, pays, navigateur, site d'origine).",
       'Aucun compte n’est nécessaire et nous ne vendons pas de données personnelles.',
       'Les cookies de mesure d’audience et d’affiliation ne sont utilisés qu’après votre consentement. Votre pays est déterminé à partir de la requête uniquement pour choisir la bonne boutique du bouton « Acheter » ; il n’est pas conservé.',
       'Pour toute question sur vos données ou vos droits RGPD : info@specvane.com.',
