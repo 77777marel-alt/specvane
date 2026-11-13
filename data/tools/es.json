@@ -176,5 +176,27 @@
   "none": "Ningún modelo de nuestro catálogo cabe en estas dimensiones. Revisa las medidas o reduce el espacio libre alrededor de la pantalla.",
   "noteEst": "≈ — estimado a partir de la diagonal de la pantalla porque el fabricante no ha publicado las dimensiones exactas.",
   "cta": "Todos los televisores"
+ },
+ "noise": {
+  "title": "Mapa de ruido del hogar: ¿cuánto suenan todos tus electrodomésticos juntos?",
+  "short": "Mapa de ruido del hogar",
+  "lead": "Añade los electrodomésticos de tu casa: elige el modelo exacto o escribe su nivel de ruido de la etiqueta energética. Sumamos el sonido como lo hace la física (los decibelios no se suman sin más) y te mostramos qué es lo más ruidoso y qué sustituir para que tu casa sea más silenciosa.",
+  "device": "Electrodoméstico",
+  "kinds": [
+   "Frigorífico",
+   "Lavadora (centrifugado)",
+   "Secadora"
+  ],
+  "other": "Otro electrodoméstico",
+  "otherHint": "Escribe los dB de la etiqueta o del manual",
+  "search": "Buscar modelo…",
+  "remove": "Quitar",
+  "add": "Añadir electrodoméstico",
+  "median": "No has elegido modelo: usamos el valor típico de {n} modelos de nuestro catálogo.",
+  "total": "Todo junto:",
+  "loudest": "El más ruidoso: {name}. Determina la mayor parte del total; los aparatos más silenciosos apenas lo cambian.",
+  "tip": "Mayor mejora: sustituye {what}; el total baja {db} dB. El más silencioso de nuestro catálogo:",
+  "note": "Los valores son los niveles de ruido que los fabricantes declaran en la etiqueta energética (medidos en laboratorio; en una lavadora, en su momento más ruidoso, el centrifugado). Los decibelios se suman de forma logarítmica: dos aparatos igual de ruidosos suenan solo 3 dB más que uno. Cada 10 dB menos suena aproximadamente la mitad de fuerte. En una habitación real depende de la distancia, las paredes y el mobiliario.",
+  "cta": "Todas las lavadoras"
  }
 }

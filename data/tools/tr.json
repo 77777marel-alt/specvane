@@ -176,5 +176,27 @@
   "none": "Kataloğumuzdaki hiçbir model bu ölçülere sığmıyor. Ölçüleri kontrol edin veya ekranın çevresindeki boşluğu azaltın.",
   "noteEst": "≈ — üretici kesin ölçüleri yayımlamadığı için ekran köşegeninden tahmin edilmiştir.",
   "cta": "Tüm TV'ler"
+ },
+ "noise": {
+  "title": "Ev gürültü haritası: tüm cihazlarınız birlikte ne kadar gürültülü?",
+  "short": "Ev gürültü haritası",
+  "lead": "Evinizdeki cihazları ekleyin: tam modeli seçin ya da enerji etiketindeki gürültü seviyesini yazın. Sesi fiziğin yaptığı gibi topluyoruz (desibeller doğrudan toplanmaz) ve en gürültülü olanı ile evi daha sessiz yapmak için neyi değiştirmeniz gerektiğini gösteriyoruz.",
+  "device": "Cihaz",
+  "kinds": [
+   "Buzdolabı",
+   "Çamaşır makinesi (sıkma)",
+   "Kurutma makinesi"
+  ],
+  "other": "Diğer cihaz",
+  "otherHint": "Etiketteki veya kılavuzdaki dB değerini yazın",
+  "search": "Model ara…",
+  "remove": "Kaldır",
+  "add": "Cihaz ekle",
+  "median": "Model seçilmedi: kataloğumuzdaki {n} modelin tipik değeri kullanılıyor.",
+  "total": "Hepsi birlikte:",
+  "loudest": "En gürültülü: {name}. Toplamın büyük kısmını bu belirler; daha sessiz cihazlar toplamı neredeyse değiştirmez.",
+  "tip": "En büyük kazanç: {what} cihazını değiştirin, toplam {db} dB düşer. Kataloğumuzdaki en sessiz model:",
+  "note": "Değerler, üreticilerin enerji etiketinde beyan ettiği gürültü seviyeleridir (laboratuvarda ölçülür; çamaşır makinesinde en gürültülü aşama olan sıkma sırasında). Desibeller logaritmik olarak toplanır: aynı gürültüdeki iki cihaz, tek cihazdan yalnızca 3 dB daha yüksektir. Her 10 dB azalma, kulağa yaklaşık yarı kadar yüksek gelir. Gerçek bir odada sonuç mesafeye, duvarlara ve eşyalara bağlıdır.",
+  "cta": "Tüm çamaşır makineleri"
  }
 }

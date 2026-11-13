@@ -176,5 +176,27 @@
   "none": "Aucun modèle de notre catalogue ne rentre dans ces dimensions. Vérifiez vos mesures ou réduisez l'espace libre autour de l'écran.",
   "noteEst": "≈ : estimé d'après la diagonale de l'écran, car le fabricant n'a pas publié les dimensions exactes.",
   "cta": "Toutes les TV"
+ },
+ "noise": {
+  "title": "Carte du bruit de la maison : quel niveau sonore pour tous vos appareils réunis ?",
+  "short": "Carte du bruit de la maison",
+  "lead": "Ajoutez les appareils de votre logement — choisissez le modèle exact ou saisissez son niveau sonore indiqué sur l'étiquette énergie. Nous additionnons le bruit comme le fait la physique (les décibels ne s'additionnent pas simplement) et nous montrons ce qui est le plus bruyant et ce qu'il faut remplacer pour rendre la maison plus silencieuse.",
+  "device": "Appareil",
+  "kinds": [
+   "Réfrigérateur",
+   "Lave-linge (essorage)",
+   "Sèche-linge"
+  ],
+  "other": "Autre appareil",
+  "otherHint": "Saisissez la valeur en dB de l'étiquette ou de la notice",
+  "search": "Rechercher un modèle…",
+  "remove": "Supprimer",
+  "add": "Ajouter un appareil",
+  "median": "Aucun modèle choisi — nous utilisons la valeur typique de {n} modèles de notre catalogue.",
+  "total": "Tous ensemble :",
+  "loudest": "Le plus bruyant : {name}. C'est lui qui détermine l'essentiel du total — des appareils plus silencieux le changent à peine.",
+  "tip": "Gain maximal : remplacez {what} — le total baisse de {db} dB. Le plus silencieux de notre catalogue :",
+  "note": "Les valeurs sont les niveaux sonores déclarés par les fabricants sur l'étiquette énergie (mesurés en laboratoire ; pour un lave-linge, au plus fort du cycle, pendant l'essorage). Les décibels s'additionnent de façon logarithmique : deux appareils aussi bruyants ne sont que 3 dB plus forts qu'un seul. Chaque baisse de 10 dB donne l'impression d'un bruit deux fois plus faible. Dans une vraie pièce, cela dépend de la distance, des murs et de l'ameublement.",
+  "cta": "Tous les lave-linge"
  }
 }

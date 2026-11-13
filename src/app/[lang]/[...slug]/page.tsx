@@ -26,6 +26,7 @@ import { TOOLS, toolsText } from '@/lib/tools'
 import { ToolCalc } from '@/components/views/ToolCalc'
 import { RealSize } from '@/components/views/RealSize'
 import { FitFinder } from '@/components/views/FitFinder'
+import { NoiseMap } from '@/components/views/NoiseMap'
 import { lifeFacts, lifeText } from '@/lib/life'
 import { rightsFor } from '@/lib/rights'
 import { osUi, osList, osEntry, osName, osForProduct, slugCandidates } from '@/lib/osupdates'
@@ -772,10 +773,11 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
         <Breadcrumbs items={[home, section, { name: tx.short, href: sectionHref(lang, 'tools', tool.id) }]} />
         <h1 className="text-3xl font-bold tracking-tight md:text-4xl">{tx.title}</h1>
         <p className="mt-2 max-w-2xl text-muted">{tx.lead}</p>
-        <section className={`mt-6 rounded-2xl border border-border p-4 md:p-6 ${tool.key === 'size' || tool.key === 'wall' || tool.key === 'fit' ? '' : 'max-w-3xl'}`}>
+        <section className={`mt-6 rounded-2xl border border-border p-4 md:p-6 ${tool.key === 'size' || tool.key === 'wall' || tool.key === 'fit' || tool.key === 'noise' ? '' : 'max-w-3xl'}`}>
           {tool.key === 'size' || tool.key === 'wall'
             ? <RealSize t={tt} lang={lang} mode={tool.key} />
             : tool.key === 'fit' ? <FitFinder t={tt} lang={lang} imperialDefault={lang === 'en'} />
+            : tool.key === 'noise' ? <NoiseMap t={tt} lang={lang} />
             : <ToolCalc tool={tool.key} t={tt} lang={lang} imperialDefault={lang === 'en'} {...defaultTariff(lang)} />}
         </section>
         {tool.key === 'ac' || tool.key === 'boiler'
@@ -1060,6 +1062,10 @@ export default async function Dispatch({ params }: PageProps<'/[lang]/[...slug]'
             {['smartphones', 'tablets', 'smartwatches', 'tvs'].includes(cat.key) && (
               <p className="mx-auto mt-8 max-w-3xl"><a href={`${sectionHref(lang, 'tools', cat.key === 'tvs' ? 'tv-on-your-wall' : 'phone-size-comparison')}?cat=${cat.key}&a=${p.slug}`}
                 className="inline-flex min-h-11 items-center gap-2 rounded-xl border border-border px-4 font-medium hover:border-accent hover:text-accent">📏 {toolsText(lang)[cat.key === 'tvs' ? 'wall' : 'size'].short}: {p.brand} {p.name} →</a></p>
+            )}
+            {['fridges', 'washing-machines', 'tumble-dryers'].includes(cat.key) && (
+              <p className="mx-auto mt-4 max-w-3xl"><a href={sectionHref(lang, 'tools', 'home-noise')}
+                className="inline-flex min-h-11 items-center gap-2 rounded-xl border border-border px-4 font-medium hover:border-accent hover:text-accent">🔇 {toolsText(lang).noise.short} →</a></p>
             )}
             {(cat.key === 'tvs' || cat.key === 'monitors') && (
               <p className="mx-auto mt-4 max-w-3xl"><a href={`${sectionHref(lang, 'tools', 'will-it-fit')}?cat=${cat.key}`}

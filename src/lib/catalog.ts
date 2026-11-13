@@ -871,3 +871,26 @@ export async function productHrefsBySlugs(lang: Locale, slugs: string[]): Promis
   }
   return out
 }
+
+export type NoiseItem = { s: string; n: string; db: number }
+const NOISE_CATS = ['washing-machines', 'tumble-dryers', 'fridges'] as const
+/** Шум по этикетке (дБ) моделей категории — для «Карты шума дома». */
+export async function getNoiseData(lang: Locale, catKey: string): Promise<{ items: NoiseItem[]; base: string | null }> {
+  'use cache'
+  cacheLife('hours'); cacheTag('products')
+  if (!(NOISE_CATS as readonly string[]).includes(catKey)) return { items: [], base: null }
+  const cat = await getCategoryByKey(lang, catKey)
+  if (!cat) return { items: [], base: null }
+  const [{ defs }, items] = await Promise.all([getDefs(cat.id, lang), getCategoryProducts(lang, cat)])
+  const d = defs.find((x) => x.key === 'noise')
+  if (!d) return { items: [], base: `/${lang}/${cat.slug}` }
+  const vals = d.isFilter ? {} : await getSpecValues(cat.id, [d.id])
+  const out: NoiseItem[] = []
+  for (const p of items) {
+    const f = p.facets?.noise?.v
+    const v = typeof f === 'number' ? f : vals[p.slug]?.[d.id]
+    if (typeof v === 'number' && v >= 20 && v <= 100) out.push({ s: p.slug, n: `${p.brand} ${p.name}`, db: v })
+    if (out.length >= 2000) break
+  }
+  return { items: out, base: `/${lang}/${cat.slug}` }
+}

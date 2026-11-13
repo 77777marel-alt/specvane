@@ -176,5 +176,27 @@
   "none": "Żaden model z naszego katalogu nie mieści się w tych wymiarach. Sprawdź pomiary lub zmniejsz wolne miejsce wokół ekranu.",
   "noteEst": "≈ — oszacowano na podstawie przekątnej ekranu, ponieważ producent nie podał dokładnych wymiarów.",
   "cta": "Wszystkie telewizory"
+ },
+ "noise": {
+  "title": "Mapa hałasu w domu: jak głośny jest cały Twój sprzęt razem?",
+  "short": "Mapa hałasu w domu",
+  "lead": "Dodaj sprzęty ze swojego domu: wybierz dokładny model albo wpisz poziom hałasu z etykiety energetycznej. Dodajemy dźwięk tak, jak robi to fizyka (decybele nie sumują się zwyczajnie), i pokazujemy, co jest najgłośniejsze i co wymienić, żeby w domu było ciszej.",
+  "device": "Sprzęt",
+  "kinds": [
+   "Lodówka",
+   "Pralka (wirowanie)",
+   "Suszarka"
+  ],
+  "other": "Inny sprzęt",
+  "otherHint": "Wpisz wartość dB z etykiety lub instrukcji",
+  "search": "Szukaj modelu…",
+  "remove": "Usuń",
+  "add": "Dodaj sprzęt",
+  "median": "Nie wybrano modelu: używamy typowej wartości dla {n} modeli z naszego katalogu.",
+  "total": "Razem:",
+  "loudest": "Najgłośniejszy: {name}. To on decyduje o większości łącznego hałasu, a cichsze urządzenia prawie go nie zmieniają.",
+  "tip": "Największa korzyść: wymień {what}, a łączny hałas spadnie o {db} dB. Najcichszy w naszym katalogu:",
+  "note": "Wartości to poziomy hałasu deklarowane przez producentów na etykiecie energetycznej (mierzone w laboratorium; w pralce w najgłośniejszej fazie, podczas wirowania). Decybele sumują się logarytmicznie: dwa równie głośne urządzenia są tylko o 3 dB głośniejsze niż jedno. Każde 10 dB mniej brzmi mniej więcej o połowę ciszej. W prawdziwym pokoju zależy to od odległości, ścian i wyposażenia.",
+  "cta": "Wszystkie pralki"
  }
 }

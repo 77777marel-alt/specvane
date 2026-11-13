@@ -176,5 +176,27 @@
   "none": "Geen enkel model in onze catalogus past in deze afmetingen. Controleer de metingen of verklein de vrije ruimte rond het scherm.",
   "noteEst": "≈ — geschat op basis van de schermdiagonaal, omdat de fabrikant de exacte afmetingen niet heeft gepubliceerd.",
   "cta": "Alle tv's"
+ },
+ "noise": {
+  "title": "Geluidskaart van je huis: hoe luid zijn al je apparaten samen?",
+  "short": "Geluidskaart van je huis",
+  "lead": "Voeg de apparaten in je huis toe: kies het exacte model of vul het geluidsniveau van het energielabel in. We tellen het geluid op zoals de natuurkunde het doet (decibels tel je niet gewoon bij elkaar op) en laten zien wat het luidst is en wat je kunt vervangen om het thuis stiller te maken.",
+  "device": "Apparaat",
+  "kinds": [
+   "Koelkast",
+   "Wasmachine (centrifugeren)",
+   "Droger"
+  ],
+  "other": "Ander apparaat",
+  "otherHint": "Vul de dB-waarde van het label of de handleiding in",
+  "search": "Model zoeken…",
+  "remove": "Verwijderen",
+  "add": "Apparaat toevoegen",
+  "median": "Geen model gekozen: we gebruiken de typische waarde van {n} modellen uit onze catalogus.",
+  "total": "Alles samen:",
+  "loudest": "Het luidst: {name}. Dit bepaalt het grootste deel van het totaal; stillere apparaten veranderen er nauwelijks iets aan.",
+  "tip": "Grootste winst: vervang {what}; het totaal daalt met {db} dB. Het stilste uit onze catalogus:",
+  "note": "De waarden zijn de geluidsniveaus die fabrikanten op het energielabel vermelden (in een lab gemeten; bij een wasmachine op het luidste moment, tijdens het centrifugeren). Decibels tellen logaritmisch op: twee even luide apparaten zijn slechts 3 dB luider dan één. Elke 10 dB minder klinkt ongeveer half zo luid. In een echte kamer hangt het af van afstand, muren en inrichting.",
+  "cta": "Alle wasmachines"
  }
 }

@@ -176,5 +176,27 @@
   "none": "Nenhum modelo do nosso catálogo cabe nessas dimensões. Confira as medidas ou reduza a folga ao redor da tela.",
   "noteEst": "≈ — estimado a partir da diagonal da tela, porque o fabricante não publicou as dimensões exatas.",
   "cta": "Todas as TVs"
+ },
+ "noise": {
+  "title": "Mapa de ruído da casa: qual o barulho de todos os seus eletrodomésticos juntos?",
+  "short": "Mapa de ruído da casa",
+  "lead": "Adicione os eletrodomésticos da sua casa: escolha o modelo exato ou digite o nível de ruído da etiqueta de eficiência energética. Somamos o som como a física faz (decibéis não se somam de forma simples) e mostramos o que é mais barulhento e o que trocar para deixar a casa mais silenciosa.",
+  "device": "Eletrodoméstico",
+  "kinds": [
+   "Geladeira",
+   "Máquina de lavar (centrifugação)",
+   "Secadora de roupas"
+  ],
+  "other": "Outro eletrodoméstico",
+  "otherHint": "Digite o valor em dB da etiqueta ou do manual",
+  "search": "Buscar modelo…",
+  "remove": "Remover",
+  "add": "Adicionar eletrodoméstico",
+  "median": "Nenhum modelo escolhido: usamos o valor típico de {n} modelos do nosso catálogo.",
+  "total": "Tudo junto:",
+  "loudest": "Mais barulhento: {name}. Ele define a maior parte do total; aparelhos mais silenciosos quase não mudam o resultado.",
+  "tip": "Maior ganho: troque {what}, e o total cai {db} dB. O mais silencioso do nosso catálogo:",
+  "note": "Os valores são os níveis de ruído que os fabricantes declaram na etiqueta de eficiência energética (medidos em laboratório; numa máquina de lavar, no momento mais barulhento, a centrifugação). Os decibéis se somam de forma logarítmica: dois aparelhos igualmente barulhentos são só 3 dB mais altos que um. Cada 10 dB a menos soa cerca de metade do volume. Num cômodo real, depende da distância, das paredes e da mobília.",
+  "cta": "Todas as máquinas de lavar"
  }
 }

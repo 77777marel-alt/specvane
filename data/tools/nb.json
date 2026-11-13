@@ -176,5 +176,27 @@
   "none": "Ingen modell i katalogen vår passer til disse målene. Sjekk målene eller reduser den frie plassen rundt skjermen.",
   "noteEst": "≈ — anslått ut fra skjermens diagonal fordi produsenten ikke har oppgitt nøyaktige mål.",
   "cta": "Alle TV-er"
+ },
+ "noise": {
+  "title": "Støykart for hjemmet: hvor høyt låter alle apparatene dine til sammen?",
+  "short": "Støykart for hjemmet",
+  "lead": "Legg til apparatene i hjemmet ditt: velg nøyaktig modell, eller skriv inn støynivået fra energimerket. Vi legger sammen lyden slik fysikken gjør det (desibel kan ikke bare legges sammen) og viser hva som låter mest, og hva du bør bytte ut for å få det stillere hjemme.",
+  "device": "Apparat",
+  "kinds": [
+   "Kjøleskap",
+   "Vaskemaskin (sentrifugering)",
+   "Tørketrommel"
+  ],
+  "other": "Annet apparat",
+  "otherHint": "Skriv inn dB-verdien fra etiketten eller bruksanvisningen",
+  "search": "Søk etter modell…",
+  "remove": "Fjern",
+  "add": "Legg til apparat",
+  "median": "Ingen modell valgt: vi bruker typisk verdi for {n} modeller i katalogen vår.",
+  "total": "Alt sammen:",
+  "loudest": "Høyest: {name}. Det avgjør mesteparten av totalen, og stillere apparater endrer den knapt.",
+  "tip": "Størst gevinst: bytt ut {what}, så synker totalen med {db} dB. Stillest i katalogen vår:",
+  "note": "Verdiene er støynivåene produsentene oppgir på energimerket (målt i laboratorium; for en vaskemaskin i den høyeste fasen, under sentrifugering). Desibel legges sammen logaritmisk: to like høye apparater er bare 3 dB høyere enn ett. Hver 10 dB lavere høres omtrent halvparten så høyt ut. I et ekte rom avhenger det av avstand, vegger og innredning.",
+  "cta": "Alle vaskemaskiner"
  }
 }

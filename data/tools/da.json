@@ -176,5 +176,27 @@
   "none": "Ingen model i vores katalog passer til disse mål. Tjek målene, eller gør den frie plads omkring skærmen mindre.",
   "noteEst": "≈ — estimeret ud fra skærmens diagonal, fordi producenten ikke har oplyst de nøjagtige mål.",
   "cta": "Alle tv"
+ },
+ "noise": {
+  "title": "Støjkort over hjemmet: hvor højt larmer alle dine apparater tilsammen?",
+  "short": "Støjkort over hjemmet",
+  "lead": "Tilføj apparaterne i dit hjem: vælg den præcise model, eller skriv støjniveauet fra energimærket. Vi lægger lyden sammen, som fysikken gør det (decibel kan ikke bare lægges sammen), og viser, hvad der larmer mest, og hvad du bør udskifte for at få mere ro derhjemme.",
+  "device": "Apparat",
+  "kinds": [
+   "Køleskab",
+   "Vaskemaskine (centrifugering)",
+   "Tørretumbler"
+  ],
+  "other": "Andet apparat",
+  "otherHint": "Skriv dB-værdien fra mærkatet eller manualen",
+  "search": "Søg model…",
+  "remove": "Fjern",
+  "add": "Tilføj apparat",
+  "median": "Ingen model valgt: vi bruger den typiske værdi for {n} modeller i vores katalog.",
+  "total": "Alt sammen:",
+  "loudest": "Højest: {name}. Det bestemmer det meste af totalen, og mere støjsvage apparater ændrer den næsten ikke.",
+  "tip": "Største gevinst: udskift {what}, så falder totalen med {db} dB. Mest støjsvage i vores katalog:",
+  "note": "Værdierne er de støjniveauer, producenterne opgiver på energimærket (målt i laboratorium; for en vaskemaskine på det højeste tidspunkt, under centrifugering). Decibel lægges sammen logaritmisk: to lige høje apparater er kun 3 dB højere end ét. Hver 10 dB lavere lyder cirka halvt så højt. I et rigtigt rum afhænger det af afstand, vægge og indretning.",
+  "cta": "Alle vaskemaskiner"
  }
 }

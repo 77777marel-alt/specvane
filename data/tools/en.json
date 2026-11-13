@@ -176,5 +176,27 @@
   "none": "No model in our catalogue fits these dimensions. Check the measurements or reduce the free space around the screen.",
   "noteEst": "≈ — estimated from the screen diagonal because the manufacturer has not published the exact dimensions.",
   "cta": "All TVs"
+ },
+ "noise": {
+  "title": "Home noise map: how loud is all your appliances together?",
+  "short": "Home noise map",
+  "lead": "Add the appliances in your home — pick the exact model or type its noise level from the energy label. We add up the sound the way physics does (decibels don't simply add) and show what is loudest and what to replace to make home quieter.",
+  "device": "Appliance",
+  "kinds": [
+   "Fridge",
+   "Washing machine (spin)",
+   "Tumble dryer"
+  ],
+  "other": "Other appliance",
+  "otherHint": "Type the dB value from its label or manual",
+  "search": "Search model…",
+  "remove": "Remove",
+  "add": "Add appliance",
+  "median": "No model chosen — using the typical value of {n} models in our catalogue.",
+  "total": "All together:",
+  "loudest": "Loudest: {name}. It decides most of the total — quieter appliances barely change it.",
+  "tip": "Biggest gain: replace {what} — the total drops by {db} dB. Quietest in our catalogue:",
+  "note": "Values are the noise levels manufacturers declare on the energy label (measured in a lab; a washing machine at its loudest, during spin). Decibels add up logarithmically: two equally loud appliances are only 3 dB louder than one. Every 10 dB less sounds about half as loud. In a real room it depends on distance, walls and furnishings.",
+  "cta": "All washing machines"
  }
 }

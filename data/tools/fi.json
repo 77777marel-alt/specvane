@@ -176,5 +176,27 @@
   "none": "Luettelomme mikään malli ei mahdu näihin mittoihin. Tarkista mitat tai pienennä näytön ympärille jätettävää vapaata tilaa.",
   "noteEst": "≈ — arvioitu näytön lävistäjästä, koska valmistaja ei ole julkaissut tarkkoja mittoja.",
   "cta": "Kaikki televisiot"
+ },
+ "noise": {
+  "title": "Kodin melukartta: kuinka kovaa kaikki laitteesi pitävät yhdessä?",
+  "short": "Kodin melukartta",
+  "lead": "Lisää kotisi laitteet: valitse tarkka malli tai kirjoita melutaso energiamerkinnästä. Laskemme äänen yhteen fysiikan tavoin (desibelit eivät summaudu suoraan) ja näytämme, mikä on äänekkäin ja mitä vaihtamalla kotona on hiljaisempaa.",
+  "device": "Laite",
+  "kinds": [
+   "Jääkaappi",
+   "Pyykinpesukone (linkous)",
+   "Kuivausrumpu"
+  ],
+  "other": "Muu laite",
+  "otherHint": "Kirjoita dB-arvo tarrasta tai ohjekirjasta",
+  "search": "Hae mallia…",
+  "remove": "Poista",
+  "add": "Lisää laite",
+  "median": "Mallia ei ole valittu: käytämme luettelomme {n} mallin tyypillistä arvoa.",
+  "total": "Kaikki yhteensä:",
+  "loudest": "Äänekkäin: {name}. Se määrää suurimman osan kokonaisuudesta, hiljaisemmat laitteet muuttavat sitä tuskin lainkaan.",
+  "tip": "Suurin hyöty: vaihda {what}, jolloin kokonaismelu laskee {db} dB. Luettelomme hiljaisin:",
+  "note": "Arvot ovat melutasoja, jotka valmistajat ilmoittavat energiamerkinnässä (mitattu laboratoriossa; pesukoneella kovaäänisimmässä vaiheessa eli linkouksessa). Desibelit summautuvat logaritmisesti: kaksi yhtä äänekästä laitetta on vain 3 dB äänekkäämpi kuin yksi. Jokainen 10 dB:n lasku kuulostaa noin puolta hiljaisemmalta. Todellisessa huoneessa tulos riippuu etäisyydestä, seinistä ja kalusteista.",
+  "cta": "Kaikki pyykinpesukoneet"
  }
 }

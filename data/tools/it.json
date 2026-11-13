@@ -176,5 +176,27 @@
   "none": "Nessun modello del nostro catalogo ci sta in queste dimensioni. Controlla le misure o riduci lo spazio libero attorno allo schermo.",
   "noteEst": "≈ — stimato dalla diagonale dello schermo perché il produttore non ha pubblicato le dimensioni esatte.",
   "cta": "Tutte le TV"
+ },
+ "noise": {
+  "title": "Mappa del rumore di casa: quanto rumore fanno tutti i tuoi elettrodomestici insieme?",
+  "short": "Mappa del rumore di casa",
+  "lead": "Aggiungi gli elettrodomestici di casa tua: scegli il modello esatto oppure inserisci il livello di rumorosità riportato sull'etichetta energetica. Sommiamo il rumore come fa la fisica (i decibel non si sommano semplicemente) e mostriamo qual è il più rumoroso e cosa sostituire per rendere la casa più silenziosa.",
+  "device": "Elettrodomestico",
+  "kinds": [
+   "Frigorifero",
+   "Lavatrice (centrifuga)",
+   "Asciugatrice"
+  ],
+  "other": "Altro elettrodomestico",
+  "otherHint": "Inserisci il valore in dB dall'etichetta o dal manuale",
+  "search": "Cerca modello…",
+  "remove": "Rimuovi",
+  "add": "Aggiungi elettrodomestico",
+  "median": "Nessun modello scelto: usiamo il valore tipico di {n} modelli del nostro catalogo.",
+  "total": "Tutti insieme:",
+  "loudest": "Il più rumoroso: {name}. Determina gran parte del totale: gli apparecchi più silenziosi lo cambiano appena.",
+  "tip": "Il miglioramento maggiore: sostituisci {what}: il totale scende di {db} dB. Il più silenzioso del nostro catalogo:",
+  "note": "I valori sono i livelli di rumorosità dichiarati dai produttori sull'etichetta energetica (misurati in laboratorio; per la lavatrice nella fase più rumorosa, durante la centrifuga). I decibel si sommano in modo logaritmico: due apparecchi ugualmente rumorosi sono solo 3 dB più forti di uno. Ogni 10 dB in meno si percepisce un rumore circa dimezzato. In una stanza reale dipende da distanza, pareti e arredamento.",
+  "cta": "Tutte le lavatrici"
  }
 }

@@ -176,5 +176,27 @@
   "none": "Ingen modell i vår katalog får plats med dessa mått. Kontrollera måtten eller minska det fria utrymmet runt skärmen.",
   "noteEst": "≈ – uppskattat utifrån skärmens diagonal eftersom tillverkaren inte har publicerat exakta mått.",
   "cta": "Alla TV-apparater"
+ },
+ "noise": {
+  "title": "Bullerkarta för hemmet: hur högljudda är alla dina apparater tillsammans?",
+  "short": "Bullerkarta för hemmet",
+  "lead": "Lägg till apparaterna i ditt hem: välj exakt modell eller skriv in bullernivån från energimärkningen. Vi lägger ihop ljudet som fysiken gör det (decibel går inte bara att addera) och visar vad som låter mest och vad du kan byta ut för att få det tystare hemma.",
+  "device": "Apparat",
+  "kinds": [
+   "Kylskåp",
+   "Tvättmaskin (centrifugering)",
+   "Torktumlare"
+  ],
+  "other": "Annan apparat",
+  "otherHint": "Skriv in dB-värdet från etiketten eller manualen",
+  "search": "Sök modell…",
+  "remove": "Ta bort",
+  "add": "Lägg till apparat",
+  "median": "Ingen modell vald: vi använder det typiska värdet för {n} modeller i vår katalog.",
+  "total": "Allt tillsammans:",
+  "loudest": "Högljuddast: {name}. Den avgör det mesta av totalen; tystare apparater ändrar den knappt.",
+  "tip": "Största vinsten: byt ut {what}, så sjunker totalen med {db} dB. Tystast i vår katalog:",
+  "note": "Värdena är de bullernivåer som tillverkarna anger på energimärkningen (uppmätta i labb; för en tvättmaskin när den låter mest, vid centrifugering). Decibel adderas logaritmiskt: två lika högljudda apparater är bara 3 dB högre än en. Varje 10 dB lägre låter ungefär hälften så högt. I ett verkligt rum beror det på avstånd, väggar och inredning.",
+  "cta": "Alla tvättmaskiner"
  }
 }

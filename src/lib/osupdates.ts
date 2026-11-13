@@ -64,7 +64,8 @@ export function osForProduct(brand: string, name: string): OsEntry[] {
 }
 /** Кандидаты адресов модели в каталоге для имени из официального списка. */
 export function slugCandidates(e: OsEntry, device: string): string[] {
-  const s = (x: string) => x.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+  // как в импорте каталога (scripts/icecat/map.mjs): «+» → «-plus»
+  const s = (x: string) => x.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\+/g, '-plus').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
   const vb = VENDOR_BRAND[e.vendor] ?? ''
   const d = device.replace(/\s+5G$/i, '')
   return [...new Set([s(device), s(d), s(`${vb} ${device}`), s(`${vb} ${d}`)])]

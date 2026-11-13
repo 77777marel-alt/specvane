@@ -176,5 +176,27 @@
   "none": "Niciun model din catalogul nostru nu încape în aceste dimensiuni. Verifică măsurătorile sau micșorează spațiul liber din jurul ecranului.",
   "noteEst": "≈ — estimat din diagonala ecranului, deoarece producătorul nu a publicat dimensiunile exacte.",
   "cta": "Toate televizoarele"
+ },
+ "noise": {
+  "title": "Harta zgomotului din casă: cât de zgomotoase sunt toate aparatele tale la un loc?",
+  "short": "Harta zgomotului din casă",
+  "lead": "Adaugă aparatele din casa ta: alege modelul exact sau introdu nivelul de zgomot de pe eticheta energetică. Adunăm sunetul așa cum o face fizica (decibelii nu se adună simplu) și arătăm ce este cel mai zgomotos și ce să înlocuiești ca să fie mai liniște în casă.",
+  "device": "Aparat",
+  "kinds": [
+   "Frigider",
+   "Mașină de spălat (centrifugare)",
+   "Uscător de rufe"
+  ],
+  "other": "Alt aparat",
+  "otherHint": "Introdu valoarea în dB de pe etichetă sau din manual",
+  "search": "Caută model…",
+  "remove": "Elimină",
+  "add": "Adaugă aparat",
+  "median": "Niciun model ales: folosim valoarea tipică pentru {n} modele din catalogul nostru.",
+  "total": "Toate la un loc:",
+  "loudest": "Cel mai zgomotos: {name}. Decide cea mai mare parte din total, iar aparatele mai silențioase îl schimbă foarte puțin.",
+  "tip": "Cel mai mare câștig: înlocuiește {what}, iar totalul scade cu {db} dB. Cel mai silențios din catalogul nostru:",
+  "note": "Valorile sunt nivelurile de zgomot declarate de producători pe eticheta energetică (măsurate în laborator; la o mașină de spălat, în momentul cel mai zgomotos, la centrifugare). Decibelii se adună logaritmic: două aparate la fel de zgomotoase sunt doar cu 3 dB mai tari decât unul. Fiecare scădere cu 10 dB se aude aproximativ de două ori mai încet. Într-o cameră reală depinde de distanță, pereți și mobilier.",
+  "cta": "Toate mașinile de spălat"
  }
 }

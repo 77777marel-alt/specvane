@@ -176,5 +176,27 @@
   "none": "Kein Modell in unserem Katalog passt in diese Maße. Prüfen Sie die Messungen oder verringern Sie den freien Platz um den Bildschirm.",
   "noteEst": "≈ – aus der Bilddiagonale geschätzt, weil der Hersteller die genauen Maße nicht veröffentlicht hat.",
   "cta": "Alle Fernseher"
+ },
+ "noise": {
+  "title": "Lärmkarte für zu Hause: Wie laut sind alle Geräte zusammen?",
+  "short": "Lärmkarte für zu Hause",
+  "lead": "Fügen Sie die Geräte in Ihrem Haushalt hinzu – wählen Sie das genaue Modell oder geben Sie den Geräuschpegel vom Energielabel ein. Wir addieren den Schall so, wie es die Physik vorsieht (Dezibel lassen sich nicht einfach addieren), und zeigen, was am lautesten ist und was Sie ersetzen sollten, damit es zu Hause leiser wird.",
+  "device": "Gerät",
+  "kinds": [
+   "Kühlschrank",
+   "Waschmaschine (Schleudern)",
+   "Wäschetrockner"
+  ],
+  "other": "Anderes Gerät",
+  "otherHint": "Geben Sie den dB-Wert vom Etikett oder aus der Anleitung ein",
+  "search": "Modell suchen…",
+  "remove": "Entfernen",
+  "add": "Gerät hinzufügen",
+  "median": "Kein Modell gewählt – wir verwenden den typischen Wert von {n} Modellen in unserem Katalog.",
+  "total": "Alles zusammen:",
+  "loudest": "Am lautesten: {name}. Es bestimmt den Großteil des Gesamtpegels – leisere Geräte ändern kaum etwas.",
+  "tip": "Größter Gewinn: Ersetzen Sie {what} – der Gesamtpegel sinkt um {db} dB. Das leiseste Gerät in unserem Katalog:",
+  "note": "Die Werte sind die Geräuschpegel, die Hersteller auf dem Energielabel angeben (im Labor gemessen; bei einer Waschmaschine in der lautesten Phase, dem Schleudern). Dezibel addieren sich logarithmisch: Zwei gleich laute Geräte sind nur 3 dB lauter als eines. Jede Verringerung um 10 dB klingt etwa halb so laut. In einem echten Raum hängt es von Entfernung, Wänden und Einrichtung ab.",
+  "cta": "Alle Waschmaschinen"
  }
 }

@@ -176,5 +176,27 @@
   "none": "Do těchto rozměrů se nevejde žádný model z našeho katalogu. Zkontrolujte rozměry nebo zmenšete volné místo kolem obrazovky.",
   "noteEst": "≈ – odhad z úhlopříčky obrazovky, protože výrobce nezveřejnil přesné rozměry.",
   "cta": "Všechny televize"
+ },
+ "noise": {
+  "title": "Mapa hluku v domácnosti: jak hlasité jsou všechny vaše spotřebiče dohromady?",
+  "short": "Mapa hluku v domácnosti",
+  "lead": "Přidejte spotřebiče, které máte doma: vyberte přesný model nebo zadejte hladinu hluku z energetického štítku. Hluk sčítáme tak, jak to dělá fyzika (decibely se prostě nesčítají), a ukážeme, co je nejhlasitější a co vyměnit, aby bylo doma ticho.",
+  "device": "Spotřebič",
+  "kinds": [
+   "Lednice",
+   "Pračka (odstřeďování)",
+   "Sušička prádla"
+  ],
+  "other": "Jiný spotřebič",
+  "otherHint": "Zadejte hodnotu v dB ze štítku nebo z návodu",
+  "search": "Hledat model…",
+  "remove": "Odebrat",
+  "add": "Přidat spotřebič",
+  "median": "Není vybrán žádný model: použijeme typickou hodnotu z {n} modelů v našem katalogu.",
+  "total": "Dohromady:",
+  "loudest": "Nejhlasitější: {name}. Rozhoduje o největší části celku, tišší spotřebiče ho téměř nezmění.",
+  "tip": "Největší přínos: vyměňte {what}, celkový hluk klesne o {db} dB. Nejtišší v našem katalogu:",
+  "note": "Hodnoty jsou hladiny hluku, které výrobci uvádějí na energetickém štítku (změřené v laboratoři; u pračky v nejhlasitější fázi, při odstřeďování). Decibely se sčítají logaritmicky: dva stejně hlasité spotřebiče jsou jen o 3 dB hlasitější než jeden. Každých 10 dB méně zní zhruba poloviční hlasitost. V reálné místnosti záleží na vzdálenosti, stěnách a zařízení.",
+  "cta": "Všechny pračky"
  }
 }
