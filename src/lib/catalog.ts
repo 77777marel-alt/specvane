@@ -16,7 +16,7 @@ type Def = { id: number; key: string; group: string; type: string; unit: string 
 
 export async function getCategory(lang: Locale, slug: string): Promise<Category | null> {
   'use cache'
-  cacheLife('hours'); cacheTag('categories')
+  cacheLife('days'); cacheTag('categories')
   const s = db()
   if (!s) return null
   const { data } = await s.from('category_i18n').select('category_id, slug, name, categories!inner(key)').eq('lang', lang).eq('slug', slug).maybeSingle()
@@ -28,7 +28,7 @@ export async function getCategory(lang: Locale, slug: string): Promise<Category 
 
 async function getDefs(categoryId: number, lang: Locale): Promise<{ defs: Def[]; groups: Record<string, string> }> {
   'use cache'
-  cacheLife('hours'); cacheTag('specs')
+  cacheLife('days'); cacheTag('specs')
   const s = db()!
   const [d, g] = await Promise.all([
     s.from('spec_definitions').select('id, key, group_key, data_type, unit, higher_is_better, is_key_spec, is_filter, sort, spec_definition_i18n(lang, label)').eq('category_id', categoryId).order('sort'),
@@ -89,7 +89,7 @@ export async function getFilterDefs(lang: Locale, cat: Category): Promise<Filter
 /** Все активные модели категории (для списка, альтернатив и sitemap). */
 export async function getCategoryProducts(lang: Locale, cat: Category): Promise<(ProductCardData & { release: string | null })[]> {
   'use cache'
-  cacheLife('hours'); cacheTag('products')
+  cacheLife('days'); cacheTag('products')
   const s = db()
   if (!s) return []
   const { defs } = await getDefs(cat.id, lang)
@@ -138,7 +138,7 @@ export async function getBestSpecs(lang: Locale, cat: Category): Promise<{ key: 
 /** Топ-20 моделей категории по характеристике: сначала модели последних 3 лет. */
 export async function getBest(lang: Locale, cat: Category, specSlug: string): Promise<{ label: string; total: number; items: (ProductCardData & { value: string })[] } | null> {
   'use cache'
-  cacheLife('hours'); cacheTag('products')
+  cacheLife('days'); cacheTag('products')
   const s = db()
   if (!s) return null
   const spec = (await getBestSpecs(lang, cat)).find((x) => x.slug === specSlug)
@@ -200,7 +200,7 @@ export async function getBetterAlternatives(lang: Locale, cat: Category, cur: { 
 type Stats = { n: number; pct: number[]; hist: number[]; lo: number | null; hi: number | null }
 async function getSpecStats(categoryId: number): Promise<Record<number, Stats>> {
   'use cache'
-  cacheLife('hours'); cacheTag('stats')
+  cacheLife('days'); cacheTag('stats')
   const s = db()
   if (!s) return {}
   const { data } = await s.from('spec_stats').select('spec_id, n, pct, hist, lo, hi').eq('category_id', categoryId)
@@ -238,7 +238,7 @@ export async function getPositions(lang: Locale, cat: Category, specs: SpecValue
 
 export async function getProduct(lang: Locale, cat: Category, slug: string): Promise<(ProductView & { images: string[]; docs: { kind: string; url: string }[]; credits: { author: string; license: string; file: string }[]; source: string; variants: { ram: number | null; storage: number | null; colour: string | null }[] }) | null> {
   'use cache'
-  cacheLife('hours'); cacheTag('products')
+  cacheLife('days'); cacheTag('products')
   const s = db()
   if (!s) return null
   const { data } = await s.from('products')
@@ -295,7 +295,7 @@ export async function getProduct(lang: Locale, cat: Category, slug: string): Pro
 /** Сколько моделей категории в sitemap — быстрым count-запросом (для индекса карт, без выгрузки всех адресов). */
 export async function countIndexableProducts(categoryKey: string): Promise<number> {
   'use cache'
-  cacheLife('hours'); cacheTag('products')
+  cacheLife('days'); cacheTag('products')
   const s = db()
   if (!s) return 0
   const { data: c } = await s.from('categories').select('id').eq('key', categoryKey).maybeSingle()
@@ -307,7 +307,7 @@ export async function countIndexableProducts(categoryKey: string): Promise<numbe
 
 export async function getIndexableProducts(categoryKey: string): Promise<{ slug: string; updated: string }[]> {
   'use cache'
-  cacheLife('hours'); cacheTag('products')
+  cacheLife('days'); cacheTag('products')
   const s = db()
   if (!s) return []
   const out: { slug: string; updated: string }[] = []
@@ -326,7 +326,7 @@ export type CompareLink = { name: string; href: string }
 
 async function categoryById(lang: Locale, id: number): Promise<Category | null> {
   'use cache'
-  cacheLife('hours'); cacheTag('categories')
+  cacheLife('days'); cacheTag('categories')
   const s = db()
   if (!s) return null
   const { data } = await s.from('category_i18n').select('slug').eq('category_id', id).eq('lang', lang).maybeSingle()
@@ -336,7 +336,7 @@ async function categoryById(lang: Locale, id: number): Promise<Category | null> 
 /** Ссылки «Сравнить с…» для страницы модели. */
 export async function getCompareLinks(lang: Locale, productSlug: string, limit = 8): Promise<CompareLink[]> {
   'use cache'
-  cacheLife('hours'); cacheTag('comparisons')
+  cacheLife('days'); cacheTag('comparisons')
   const s = db()
   if (!s) return []
   const { data: p } = await s.from('products').select('id').eq('slug', productSlug).maybeSingle()
@@ -362,7 +362,7 @@ export const crossOf = (key: string) => CROSS.flatMap(([a, b]) => (a === key ? [
 /** «Сравнить с ноутбуком / телевизором…»: по 3 модели из соседней категории — сначала тот же бренд, потом новинки. */
 export async function getCrossLinks(lang: Locale, cat: Category, me: { slug: string; brand: string }) {
   'use cache'
-  cacheLife('hours'); cacheTag('products')
+  cacheLife('days'); cacheTag('products')
   const out: { cat: string; links: CompareLink[] }[] = []
   for (const key of crossOf(cat.key)) {
     const s = db(); if (!s) break
@@ -379,7 +379,7 @@ export async function getCrossLinks(lang: Locale, cat: Category, me: { slug: str
 /** Пара по адресу «a-vs-b». Возвращает обе модели и канонический порядок (как в базе). */
 export async function getComparison(lang: Locale, pairSlug: string) {
   'use cache'
-  cacheLife('hours'); cacheTag('comparisons')
+  cacheLife('days'); cacheTag('comparisons')
   const s = db()
   if (!s) return null
   const parts = pairSlug.split('-vs-')
@@ -429,7 +429,7 @@ export async function getComparison(lang: Locale, pairSlug: string) {
 /** Популярные сравнения (для раздела «Сравнения»). */
 export async function getTopComparisons(lang: Locale, limit = 60): Promise<CompareLink[]> {
   'use cache'
-  cacheLife('hours'); cacheTag('comparisons')
+  cacheLife('days'); cacheTag('comparisons')
   const s = db()
   if (!s) return []
   const { data } = await s.from('comparisons')
@@ -448,7 +448,7 @@ export async function getTopComparisons(lang: Locale, limit = 60): Promise<Compa
  *  шёл на модели и разделы. Остальные пары доступны на сайте по ссылкам. Основные категории — до 300 пар, прочие — до 40. */
 export async function getIndexableComparisons(): Promise<{ a: string; b: string; updated: string }[]> {
   'use cache'
-  cacheLife('hours'); cacheTag('comparisons')
+  cacheLife('days'); cacheTag('comparisons')
   const s = db()
   if (!s) return []
   const { data: cats } = await s.from('categories').select('id, key')
@@ -477,7 +477,7 @@ export async function getIndexableComparisons(): Promise<{ a: string; b: string;
 /** Хронология категории: медиана характеристики у моделей каждого года выпуска (только из наших данных). */
 export async function getTrends(lang: Locale, cat: Category) {
   'use cache'
-  cacheLife('hours'); cacheTag('products')
+  cacheLife('days'); cacheTag('products')
   const [items, filters] = await Promise.all([getCategoryProducts(lang, cat), getFilterDefs(lang, cat)])
   const out: { key: string; label: string; hib: boolean; years: { year: number; n: number; v: number; d: string }[] }[] = []
   for (const f of filters) {
@@ -506,7 +506,7 @@ const POPULAR_BRANDS = new Set(['Apple', 'Samsung', 'Google', 'Xiaomi', 'OnePlus
  */
 export async function getHomeShowcase(lang: Locale) {
   'use cache'
-  cacheLife('hours'); cacheTag('products'); cacheTag('comparisons')
+  cacheLife('days'); cacheTag('products'); cacheTag('comparisons')
   const s = db()
   if (!s) return []
   const t = getDict(lang)
@@ -560,7 +560,7 @@ export async function getHomeShowcase(lang: Locale) {
 /** Категория по ключу (smartphones, dishwashers…) на нужном языке. */
 export async function getCategoryByKey(lang: Locale, key: string): Promise<Category | null> {
   'use cache'
-  cacheLife('hours'); cacheTag('categories')
+  cacheLife('days'); cacheTag('categories')
   const s = db()
   if (!s) return null
   const { data } = await s.from('categories').select('id').eq('key', key).maybeSingle()
@@ -570,7 +570,7 @@ export async function getCategoryByKey(lang: Locale, key: string): Promise<Categ
 /** Словарь: ссылки термина на категории и «топ-20 по характеристике» (только если такая страница есть). */
 export async function getGlossaryLinks(lang: Locale, specs: { cat: string; key?: string }[]): Promise<{ name: string; href: string }[]> {
   'use cache'
-  cacheLife('hours'); cacheTag('products')
+  cacheLife('days'); cacheTag('products')
   const t = getDict(lang)
   const out: { name: string; href: string }[] = []
   for (const sp of specs) {
@@ -589,7 +589,7 @@ export type BrandRow = { id: number; slug: string; name: string; n: number; rece
 /** Бренды категории с ≥5 моделями — по числу моделей. */
 export async function getCategoryBrands(cat: Category): Promise<BrandRow[]> {
   'use cache'
-  cacheLife('hours'); cacheTag('products')
+  cacheLife('days'); cacheTag('products')
   const s = db()
   if (!s) return []
   const { data } = await s.from('brand_stats').select('n, n_recent, newest, brands!inner(id, slug, name)').eq('category_id', cat.id).order('n', { ascending: false }).limit(60)
@@ -612,7 +612,7 @@ export type BrandVsRow = { key: string; label: string; a: { med: string; top: st
 /** Сравнение двух брендов по медиане и лучшим 10 % моделей. */
 export async function getBrandVs(lang: Locale, cat: Category, aSlug: string, bSlug: string) {
   'use cache'
-  cacheLife('hours'); cacheTag('products')
+  cacheLife('days'); cacheTag('products')
   const s = db()
   if (!s) return null
   const brands = await getCategoryBrands(cat)
@@ -657,7 +657,7 @@ const nice = (x: number) => { const p = 10 ** Math.floor(Math.log10(Math.abs(x) 
 /** Подборки категории: да/нет-признаки (которые есть у 5–90 % моделей) и пороги по числам (≈ медиана и 80-й перцентиль, «красиво» округлённые). */
 export async function getLists(lang: Locale, cat: Category): Promise<ListDef[]> {
   'use cache'
-  cacheLife('hours'); cacheTag('products')
+  cacheLife('days'); cacheTag('products')
   const [defsAll, items] = await Promise.all([getDefs(cat.id, lang), getCategoryProducts(lang, cat)])
   const defs = defsAll.defs.filter((d) => d.isFilter)
   const total = items.length
@@ -707,7 +707,7 @@ export type OverallItem = ProductCardData & { score: number; strengths: { label:
 /** Значения числовых характеристик всех активных моделей категории (общие для всех языков, кеш на час). */
 async function getSpecValues(categoryId: number, specIds: number[]): Promise<Record<string, Record<number, number | boolean>>> {
   'use cache'
-  cacheLife('hours'); cacheTag('products')
+  cacheLife('days'); cacheTag('products')
   const s = db()
   const out: Record<string, Record<number, number | boolean>> = {}
   if (!s) return out
@@ -724,7 +724,7 @@ async function getSpecValues(categoryId: number, specIds: number[]): Promise<Rec
 
 export async function getOverall(lang: Locale, cat: Category, limit = 20): Promise<OverallItem[]> {
   'use cache'
-  cacheLife('hours'); cacheTag('products')
+  cacheLife('days'); cacheTag('products')
   const s = db()
   if (!s) return []
   const [{ defs }, stats, items] = await Promise.all([getDefs(cat.id, lang), getSpecStats(cat.id), getCategoryProducts(lang, cat)])
@@ -773,7 +773,7 @@ export type UseCaseResult = { uc: UseCase; criteria: { label: string; text: stri
 /** Модели, подходящие под правила подборки; правила по характеристикам, которых нет в базе категории, — подборка не строится. */
 export async function getUseCases(lang: Locale, cat: Category): Promise<UseCaseResult[]> {
   'use cache'
-  cacheLife('hours'); cacheTag('products')
+  cacheLife('days'); cacheTag('products')
   const ucs = (USECASES as UseCase[]).filter((u) => u.cat === cat.key)
   if (!ucs.length) return []
   const [{ defs }, items] = await Promise.all([getDefs(cat.id, lang), getCategoryProducts(lang, cat)])
@@ -818,7 +818,7 @@ const SIZE_CATS = ['smartphones', 'tablets', 'smartwatches', 'tvs', 'monitors'] 
 /** Ширина × высота × толщина (мм). Нет опубликованных габаритов — оценка по диагонали (флаг ap). */
 export async function getSizeData(lang: Locale, catKey: string): Promise<SizeItem[]> {
   'use cache'
-  cacheLife('hours'); cacheTag('products')
+  cacheLife('days'); cacheTag('products')
   if (!(SIZE_CATS as readonly string[]).includes(catKey)) return []
   const cat = await getCategoryByKey(lang, catKey)
   if (!cat) return []
@@ -860,7 +860,7 @@ export async function getSizeData(lang: Locale, catKey: string): Promise<SizeIte
 /** Адреса моделей по списку возможных slug (для официальных списков обновлений ОС). */
 export async function productHrefsBySlugs(lang: Locale, slugs: string[]): Promise<Record<string, string>> {
   'use cache'
-  cacheLife('hours'); cacheTag('products')
+  cacheLife('days'); cacheTag('products')
   const s = db()
   if (!s || !slugs.length) return {}
   const { data } = await s.from('products').select('slug, category_id').in('slug', slugs.slice(0, 400)).eq('status', 'active')
@@ -877,7 +877,7 @@ const NOISE_CATS = ['washing-machines', 'tumble-dryers', 'fridges'] as const
 /** Шум по этикетке (дБ) моделей категории — для «Карты шума дома». */
 export async function getNoiseData(lang: Locale, catKey: string): Promise<{ items: NoiseItem[]; base: string | null }> {
   'use cache'
-  cacheLife('hours'); cacheTag('products')
+  cacheLife('days'); cacheTag('products')
   if (!(NOISE_CATS as readonly string[]).includes(catKey)) return { items: [], base: null }
   const cat = await getCategoryByKey(lang, catKey)
   if (!cat) return { items: [], base: null }

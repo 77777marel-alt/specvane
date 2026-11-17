@@ -8,7 +8,7 @@ export type CategoryCard = { key: string; slug: string; name: string }
 /** Активные категории на языке. Кеш: сутки (каталог обновляется ночным импортом). */
 export async function getCategories(lang: Locale): Promise<CategoryCard[]> {
   'use cache'
-  cacheLife('hours')
+  cacheLife('days')
   cacheTag('categories')
   const s = db()
   if (!s) return []
@@ -26,7 +26,7 @@ export async function getCategories(lang: Locale): Promise<CategoryCard[]> {
 
 export async function getCategoryBySlug(lang: Locale, slug: string): Promise<CategoryCard | null> {
   'use cache'
-  cacheLife('hours')
+  cacheLife('days')
   cacheTag('categories')
   const all = await getCategories(lang)
   return all.find((c) => c.slug === slug) ?? null

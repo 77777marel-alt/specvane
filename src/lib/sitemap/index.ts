@@ -3,7 +3,7 @@ import { LOCALES, isLocale, type Locale } from '@/lib/i18n/config'
 import { INFO_PAGES, sectionHref } from '@/lib/routes'
 import { SITE_URL } from '@/lib/site'
 import { db } from '@/lib/supabase'
-import { cacheLife } from 'next/cache'
+import { cacheLife, cacheTag } from 'next/cache'
 import { getIndexableProducts, countIndexableProducts, getIndexableComparisons, getCategory, getBestSpecs, getCategoryByKey, getBrandPairs, getLists, getUseCases } from '@/lib/catalog'
 import { APPLIANCES, applianceName, isThinCode, errorBrands, errorCodes, hasErrors, type Appliance } from '@/lib/errors'
 import { TOOLS } from '@/lib/tools'
@@ -27,7 +27,8 @@ function staticPages(lang: Locale): Entry[] {
 /** Активные категории и их адреса на каждом языке. */
 async function categories(): Promise<{ key: string; slugs: Record<string, string> }[]> {
   'use cache'
-  cacheLife('hours')
+  cacheLife('days')
+  cacheTag('categories')
   const s = db()
   if (!s) return []
   const { data } = await s.from('category_i18n').select('lang, slug, categories!inner(key)')
