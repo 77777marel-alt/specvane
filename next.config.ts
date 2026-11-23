@@ -23,6 +23,8 @@ const securityHeaders = [
 ]
 
 const nextConfig: NextConfig = {
+  // Свой сервер (Fornex): сборка в GitHub Actions, на сервер едет только готовый .next/standalone
+  output: 'standalone',
   cacheComponents: true,
   // Выключено намеренно: неизвестный адрес должен отдавать настоящий 404, а первый ответ — полный HTML (SEO).
   partialPrefetching: false,

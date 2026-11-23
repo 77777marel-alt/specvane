@@ -1,0 +1,52 @@
+name: Deploy to Fornex
+
+# Секреты репозитория (вводит Максим): FORNEX_SSH_KEY, SUPABASE_ANON_KEY.
+on:
+  workflow_dispatch:
+
+concurrency: deploy-fornex
+
+env:
+  HOST: 5.187.7.227
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      NEXT_PUBLIC_SITE_URL: https://specvane.com
+      SUPABASE_URL: https://kjjffgjsgizozleflbhw.supabase.co
+      SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+      NEXT_TELEMETRY_DISABLED: 1
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Package standalone
+        run: |
+          cp -r .next/static .next/standalone/.next/static
+          if [ -d public ]; then cp -r public .next/standalone/public; fi
+          tar -C .next/standalone -czf release.tgz .
+          ls -lh release.tgz
+      - name: SSH key
+        env:
+          SSH_KEY: ${{ secrets.FORNEX_SSH_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -T 15 -H "$HOST" >> ~/.ssh/known_hosts
+      - name: Server env file
+        run: |
+          printf 'SUPABASE_URL=%s\nSUPABASE_ANON_KEY=%s\nNEXT_PUBLIC_SITE_URL=%s\n' "$SUPABASE_URL" "$SUPABASE_ANON_KEY" "$NEXT_PUBLIC_SITE_URL" \
+            | ssh -o BatchMode=yes root@"$HOST" 'mkdir -p /srv/specvane/shared && umask 077 && cat > /srv/specvane/shared/env && chown app:app /srv/specvane/shared/env'
+      - name: Upload and switch
+        run: |
+          REL="$(date -u +%Y%m%d%H%M%S)-${GITHUB_SHA::7}"
+          scp -o BatchMode=yes release.tgz root@"$HOST":/tmp/specvane-$REL.tgz
+          scp -o BatchMode=yes deploy/specvane.service deploy/Caddyfile deploy/server-deploy.sh root@"$HOST":/tmp/
+          ssh -o BatchMode=yes root@"$HOST" "bash /tmp/server-deploy.sh $REL"

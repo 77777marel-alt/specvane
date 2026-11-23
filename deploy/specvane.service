@@ -1,0 +1,16 @@
+[Unit]
+Description=Specvane (Next.js standalone)
+After=network.target
+
+[Service]
+User=app
+WorkingDirectory=/srv/specvane/current
+EnvironmentFile=/srv/specvane/shared/env
+Environment=NODE_ENV=production PORT=3000 HOSTNAME=127.0.0.1 NEXT_TELEMETRY_DISABLED=1 NODE_OPTIONS=--max-old-space-size=1200
+ExecStart=/usr/bin/node server.js
+Restart=always
+RestartSec=3
+MemoryMax=1800M
+
+[Install]
+WantedBy=multi-user.target

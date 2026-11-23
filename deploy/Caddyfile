@@ -1,0 +1,16 @@
+# Cloudflare (SSL: Full) -> Caddy -> Next.js на 127.0.0.1:3000
+specvane.com, www.specvane.com {
+	tls internal
+	encode zstd gzip
+	@www host www.specvane.com
+	redir @www https://specvane.com{uri} 308
+	reverse_proxy 127.0.0.1:3000
+}
+
+# Проверка по IP до переключения домена. Не для поисковиков.
+http://5.187.7.227 {
+	header X-Robots-Tag "noindex, nofollow"
+	reverse_proxy 127.0.0.1:3000 {
+		header_up Host specvane.com
+	}
+}
