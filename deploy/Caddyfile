@@ -1,21 +1,8 @@
-# Cloudflare (SSL: Full) -> Caddy -> Next.js на 127.0.0.1:3000
-# Сертификат Let's Encrypt (HTTP-01 на порту 80). В Cloudflare "Always Use HTTPS" выключен:
-# на https перенаправляет сам Caddy, а /.well-known/acme-challenge/ остаётся доступным по http.
+# ОБЩИЙ файл сервера 5.187.7.227 (одинаковый во всех проектах).
+# Каждый сайт кладёт свой блок в /etc/caddy/sites/<имя>.caddy при своей выкладке.
+# Сертификаты Let's Encrypt (HTTP-01 на порту 80). В Cloudflare "Always Use HTTPS" выключен.
 {
 	email info@specvane.com
 }
 
-specvane.com, www.specvane.com {
-	encode zstd gzip
-	@www host www.specvane.com
-	redir @www https://specvane.com{uri} 308
-	reverse_proxy 127.0.0.1:3000
-}
-
-# Проверка по IP. Не для поисковиков.
-http://5.187.7.227 {
-	header X-Robots-Tag "noindex, nofollow"
-	reverse_proxy 127.0.0.1:3000 {
-		header_up Host specvane.com
-	}
-}
+import /etc/caddy/sites/*.caddy

@@ -9,7 +9,9 @@ rm -f "/tmp/specvane-$REL.tgz"
 chown -R app:app "$BASE/releases/$REL"
 
 install -m 644 /tmp/specvane.service /etc/systemd/system/specvane.service
+mkdir -p /etc/caddy/sites
 install -m 644 /tmp/Caddyfile /etc/caddy/Caddyfile
+install -m 644 /tmp/specvane.caddy /etc/caddy/sites/specvane.caddy
 
 # старый кеш страниц (> 3 дней) чистим каждую ночь, чтобы не забить диск
 echo '17 4 * * * root find /srv/specvane/releases -path "*/.next/cache/*" -type f -mmin +4320 -delete' > /etc/cron.d/specvane-cache

@@ -48,5 +48,5 @@ jobs:
         run: |
           REL="$(date -u +%Y%m%d%H%M%S)-${GITHUB_SHA::7}"
           scp -o BatchMode=yes release.tgz root@"$HOST":/tmp/specvane-$REL.tgz
-          scp -o BatchMode=yes deploy/specvane.service deploy/Caddyfile deploy/server-deploy.sh root@"$HOST":/tmp/
+          scp -o BatchMode=yes deploy/specvane.service deploy/Caddyfile deploy/specvane.caddy deploy/server-deploy.sh root@"$HOST":/tmp/
           ssh -o BatchMode=yes root@"$HOST" "bash /tmp/server-deploy.sh $REL"
