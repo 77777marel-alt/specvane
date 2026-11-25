@@ -3,9 +3,10 @@ import { SITE_URL } from '@/lib/site'
 
 // Те же боты, что закрыты в Vercel Firewall. Firewall отбивает их в любом случае,
 // но послушный бот, прочитав robots.txt, просто не придёт — это экономит и запросы к CDN.
-// Google и Bing НЕ трогаем: с них идёт поиск.
+// Google, Bing и Яндекс НЕ трогаем: с них идёт поиск (Яндекс открыт 25.11.2026 ради ru/uk-аудитории).
+// Поддельный «YandexBot» (AS Edge Technology Plus, Белград) режется в Cloudflare WAF, не здесь.
 const BLOCKED = [
-  'YandexBot', 'AhrefsBot', 'SemrushBot', 'SERanking', 'MJ12bot', 'DotBot', 'DataForSeoBot',
+  'AhrefsBot', 'SemrushBot', 'SERanking', 'MJ12bot', 'DotBot', 'DataForSeoBot',
   'BLEXBot', 'Barkrowler', 'serpstat', 'PetalBot', 'Bytespider', 'Amazonbot',
   'GPTBot', 'ChatGPT-User', 'OAI-SearchBot', 'ClaudeBot', 'Claude-Web', 'anthropic-ai',
   'CCBot', 'PerplexityBot', 'Reflectionbot', 'GoogleOther', 'meta-externalagent',
