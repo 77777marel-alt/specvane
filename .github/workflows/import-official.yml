@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
     inputs:
       category:
-        description: 'Категория (имя файла в data/official)'
-        default: 'smartphones'
+        description: 'Категория (имя файла в data/official); пусто — все файлы'
+        default: ''
 
 concurrency:
   group: import-icecat
@@ -17,7 +17,7 @@ concurrency:
 jobs:
   import:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -29,8 +29,15 @@ jobs:
         env:
           SUPABASE_URL: https://kjjffgjsgizozleflbhw.supabase.co
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-          CATEGORY: ${{ inputs.category || 'smartphones' }}
-        run: node scripts/official/import.mjs
+          ONLY: ${{ inputs.category }}
+        # без категории — все data/official/*.json (кроме photos.json); raw/ — исходные таблицы производителей, не импортируются
+        run: |
+          for f in data/official/*.json; do
+            c=$(basename "$f" .json)
+            [ "$c" = photos ] && continue
+            [ -n "$ONLY" ] && [ "$c" != "$ONLY" ] && continue
+            echo "== $c"; CATEGORY="$c" node scripts/official/import.mjs
+          done
       - name: IndexNow
         run: node scripts/indexnow.mjs
         env:
