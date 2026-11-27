@@ -7,6 +7,9 @@ import { labelFor, groupLabel, categoryI18n, EXTRA_GROUP_KEYS } from './labels.m
 
 const db = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY, { auth: { persistSession: false } })
 const must = ({ data, error }, what) => { if (error) throw new Error(`${what}: ${error.message}`); return data }
+// Процессоры и видеокарты — только факты производителя, без «лучше/хуже» (решение Максима 26.11.2026, миграция 0013):
+// направление «больше — лучше» не записываем, иначе ночной импорт вернёт оценки на сайт.
+const NEUTRAL = new Set(['processors', 'graphics-cards'])
 
 must(await db.from('spec_group_i18n').upsert(
   [...new Set([...Object.keys(GROUP_LABELS), ...EXTRA_GROUP_KEYS])].flatMap((g) => ALL_LANGS
@@ -20,7 +23,7 @@ for (const [key, c] of Object.entries(CATEGORIES)) {
   must(await db.from('category_i18n').upsert(ALL_LANGS.filter((lang) => categoryI18n(key, lang)).map((lang) => ({ category_id: cat.id, lang, slug: categoryI18n(key, lang)[0], name: categoryI18n(key, lang)[1] })),
     { onConflict: 'category_id,lang' }), `i18n ${key}`)
   const defs = must(await db.from('spec_definitions').upsert(c.specs.map((s, i) => ({
-    category_id: cat.id, key: s.key, group_key: s.group, data_type: s.type, unit: s.unit, higher_is_better: s.hib,
+    category_id: cat.id, key: s.key, group_key: s.group, data_type: s.type, unit: s.unit, higher_is_better: NEUTRAL.has(key) ? null : s.hib,
     is_key_spec: s.isKey, is_filter: s.isFilter, sort: (i + 1) * 10 })), { onConflict: 'category_id,key' }).select('id, key'), `defs ${key}`)
   must(await db.from('spec_definition_i18n').upsert(defs.flatMap((d) => ALL_LANGS.map((lang) => ({ spec_id: d.id, lang, label: labelFor(d.key, lang) }))),
     { onConflict: 'spec_id,lang' }), `labels ${key}`)
