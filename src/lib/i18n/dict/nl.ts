@@ -148,6 +148,7 @@ export const nl: Dict = {
     sizeNote: "De contouren zijn op dezelfde schaal getekend op basis van de afmetingen van de fabrikant (breedte × hoogte).",
     positionTitle: "Vergeleken met andere modellen",
     betterThan: "Beter dan {p}% van de modellen in de categorie",
+    moreThan: "Meer dan {p}% van de modellen in de categorie",
     radarTitle: "Sterke punten in één oogopslag",
     radarNote: "Positie tussen alle modellen in de categorie: verder naar buiten = beter.",
     trendTitle: "Hoe de specificaties per jaar veranderden",

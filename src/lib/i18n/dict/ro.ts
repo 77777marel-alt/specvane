@@ -148,6 +148,7 @@ export const ro: Dict = {
     sizeNote: "Contururile sunt desenate la aceeași scară pe baza dimensiunilor declarate de producători (lățime × înălțime).",
     positionTitle: "Comparativ cu alte modele",
     betterThan: "Mai bun decât {p}% dintre modelele din categorie",
+    moreThan: "Mai mult decât {p}% dintre modelele din categorie",
     radarTitle: "Punctele forte dintr-o privire",
     radarNote: "Poziția între toate modelele din categorie: cu cât mai spre exterior, cu atât mai bine.",
     trendTitle: "Cum s-au schimbat specificațiile de la an la an",

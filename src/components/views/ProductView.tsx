@@ -74,7 +74,7 @@ export function ProductView({ lang, t, p, crumbs, compareLinks, variants, galler
           )}
           {p.offers.length > 0 && <OfferList lang={lang} t={t} offers={p.offers} />}
           <PriceHistory lang={lang} t={t} points={p.priceHistory} currency={p.currency} />
-          {positions && <SpecPositions items={positions} title={t.ui.positionTitle} betterThan={t.ui.betterThan} />}
+          {positions && <SpecPositions items={positions} title={t.ui.positionTitle} betterThan={t.ui.betterThan} moreThan={t.ui.moreThan} />}
           {cost && <CostBox c={cost} s={t.ui} />}
           {prevGen && <GenChanges prev={prevGen.specs} prevName={prevGen.name} prevHref={prevGen.href} cur={p.specGroups.flatMap((g) => g.specs)} title={t.ui.genTitle} />}
           <SpecTable groups={p.specGroups} title={t.ui.allSpecs} />

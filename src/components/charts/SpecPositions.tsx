@@ -3,9 +3,9 @@ import { fill } from '@/lib/format'
 
 /**
  * «Где модель среди всех моделей категории»: по каждой числовой характеристике — гистограмма
- * значений категории (слева хуже, справа лучше), отметка модели и «лучше, чем у N%». Чистый SVG, без JS.
+ * значений категории (слева хуже, справа лучше; в нейтральных категориях — слева меньше, справа больше), отметка модели и «лучше, чем у N%». Чистый SVG, без JS.
  */
-export function SpecPositions({ items, title, betterThan }: { items: SpecPosition[]; title: string; betterThan: string }) {
+export function SpecPositions({ items, title, betterThan, moreThan }: { items: SpecPosition[]; title: string; betterThan: string; moreThan: string }) {
   if (items.length < 2) return null
   return (
     <section aria-labelledby="pos" className="space-y-3">
@@ -13,14 +13,17 @@ export function SpecPositions({ items, title, betterThan }: { items: SpecPositio
       <ul className="grid gap-3 sm:grid-cols-2">
         {items.map((p) => {
           const max = Math.max(...p.hist, 1)
-          const tone = p.better >= 75 ? 'text-good' : p.better >= 40 ? 'text-accent' : 'text-muted'
+          // нейтральные категории (процессоры, видеокарты): «больше, чем у N%», без цвета «хорошо/плохо»
+          const more = p.mode === 'more'
+          const tone = more ? 'text-muted' : p.better >= 75 ? 'text-good' : p.better >= 40 ? 'text-accent' : 'text-muted'
+          const text = fill(more ? moreThan : betterThan, { p: p.better })
           return (
             <li key={p.key} className="rounded-2xl border border-border p-3">
               <div className="flex items-baseline justify-between gap-2">
                 <span className="text-sm text-muted">{p.label}</span>
                 <span className="num font-semibold">{p.display}</span>
               </div>
-              <svg viewBox="0 0 200 40" className="mt-2 h-10 w-full" role="img" aria-label={`${p.label}: ${fill(betterThan, { p: p.better })}`} preserveAspectRatio="none">
+              <svg viewBox="0 0 200 40" className="mt-2 h-10 w-full" role="img" aria-label={`${p.label}: ${text}`} preserveAspectRatio="none">
                 {p.hist.map((c, i) => {
                   const h = (c / max) * 34
                   const on = Math.min(19, Math.floor(p.at * 20)) === i
@@ -29,7 +32,7 @@ export function SpecPositions({ items, title, betterThan }: { items: SpecPositio
                 })}
                 <line x1={p.at * 200} x2={p.at * 200} y1={0} y2={40} className="stroke-accent" strokeWidth={1.5} strokeDasharray="2 2" />
               </svg>
-              <p className={`mt-1 text-xs font-medium ${tone}`}>{fill(betterThan, { p: p.better })}</p>
+              <p className={`mt-1 text-xs font-medium ${tone}`}>{text}</p>
             </li>
           )
         })}

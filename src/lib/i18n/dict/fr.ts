@@ -148,6 +148,7 @@ export const fr: Dict = {
     sizeNote: "Les contours sont tracés à la même échelle d’après les dimensions des fabricants (largeur × hauteur).",
     positionTitle: "Comparé aux autres modèles",
     betterThan: "Meilleur que {p} % des modèles de la catégorie",
+    moreThan: "Plus que {p} % des modèles de la catégorie",
     radarTitle: "Points forts en un coup d’œil",
     radarNote: "Classement parmi tous les modèles de la catégorie : plus c’est à l’extérieur, mieux c’est.",
     trendTitle: "L’évolution des caractéristiques par année",

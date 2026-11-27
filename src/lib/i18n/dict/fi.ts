@@ -148,6 +148,7 @@ export const fi: Dict = {
     sizeNote: "Ääriviivat on piirretty samassa mittakaavassa valmistajien ilmoittamien mittojen (leveys × korkeus) mukaan.",
     positionTitle: "Verrattuna muihin malleihin",
     betterThan: "Parempi kuin {p} % luokan malleista",
+    moreThan: "Enemmän kuin {p} %:lla luokan malleista",
     radarTitle: "Vahvuudet yhdellä silmäyksellä",
     radarNote: "Sijoitus kaikkien luokan mallien joukossa: mitä ulompana, sitä parempi.",
     trendTitle: "Miten ominaisuudet ovat muuttuneet vuosittain",

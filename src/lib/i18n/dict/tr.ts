@@ -148,6 +148,7 @@ export const tr: Dict = {
     sizeNote: "Dış hatlar, üreticilerin verdiği ölçülere (genişlik × yükseklik) göre aynı ölçekte çizilmiştir.",
     positionTitle: "Diğer modellerle karşılaştırma",
     betterThan: "Kategorideki modellerin %{p} kadarından daha iyi",
+    moreThan: "Kategorideki modellerin %{p} kadarından fazla",
     radarTitle: "Bir bakışta güçlü yönler",
     radarNote: "Kategorideki tüm modeller arasındaki sıralama: dışa doğru = daha iyi.",
     trendTitle: "Özellikler yıllara göre nasıl değişti",

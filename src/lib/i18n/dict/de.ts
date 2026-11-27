@@ -149,6 +149,7 @@ export const de: Dict = {
     sizeNote: "Die Umrisse sind im gleichen Maßstab nach den Herstellerangaben (Breite × Höhe) gezeichnet.",
     positionTitle: "Im Vergleich zu anderen Modellen",
     betterThan: "Besser als {p} % der Modelle der Kategorie",
+    moreThan: "Mehr als bei {p} % der Modelle der Kategorie",
     radarTitle: "Stärken auf einen Blick",
     radarNote: "Rang unter allen Modellen der Kategorie: weiter außen = besser.",
     trendTitle: "Wie sich die Werte über die Jahre verändert haben",

@@ -148,6 +148,7 @@ export const ptBr: Dict = {
     sizeNote: "Os contornos são desenhados na mesma escala com base nas dimensões dos fabricantes (largura × altura).",
     positionTitle: "Comparado a outros modelos",
     betterThan: "Melhor que {p}% dos modelos da categoria",
+    moreThan: "Mais que {p}% dos modelos da categoria",
     radarTitle: "Pontos fortes num relance",
     radarNote: "Posição entre todos os modelos da categoria: quanto mais para fora, melhor.",
     trendTitle: "Como as especificações mudaram por ano",

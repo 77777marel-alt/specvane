@@ -148,6 +148,7 @@ export const sv: Dict = {
     sizeNote: "Konturerna är ritade i samma skala utifrån tillverkarnas mått (bredd × höjd).",
     positionTitle: "Jämfört med andra modeller",
     betterThan: "Bättre än {p} % av modellerna i kategorin",
+    moreThan: "Mer än {p} % av modellerna i kategorin",
     radarTitle: "Styrkor i korthet",
     radarNote: "Placering bland alla modeller i kategorin: längre ut = bättre.",
     trendTitle: "Så har specifikationerna ändrats över åren",

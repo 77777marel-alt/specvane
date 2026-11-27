@@ -148,6 +148,7 @@ export const it: Dict = {
     sizeNote: "I contorni sono disegnati in scala in base alle dimensioni dichiarate dai produttori (larghezza × altezza).",
     positionTitle: "Rispetto agli altri modelli",
     betterThan: "Meglio del {p}% dei modelli della categoria",
+    moreThan: "Più del {p}% dei modelli della categoria",
     radarTitle: "Punti di forza a colpo d’occhio",
     radarNote: "Posizione tra tutti i modelli della categoria: più all’esterno = meglio.",
     trendTitle: "Come sono cambiate le specifiche negli anni",

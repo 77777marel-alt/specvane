@@ -148,6 +148,7 @@ export const da: Dict = {
     sizeNote: "Omridsene er tegnet i samme skala ud fra producenternes mål (bredde × højde).",
     positionTitle: "Sammenlignet med andre modeller",
     betterThan: "Bedre end {p} % af modellerne i kategorien",
+    moreThan: "Mere end {p} % af modellerne i kategorien",
     radarTitle: "Styrker på et øjeblik",
     radarNote: "Placering blandt alle modeller i kategorien: længere ude = bedre.",
     trendTitle: "Sådan har specifikationerne ændret sig over årene",

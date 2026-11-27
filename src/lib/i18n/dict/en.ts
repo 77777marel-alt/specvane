@@ -149,6 +149,7 @@ export const en = {
     sizeNote: "Outlines are drawn to the same scale from the manufacturers’ dimensions (width × height).",
     positionTitle: "How it compares with other models",
     betterThan: "Better than {p}% of models in the category",
+    moreThan: "More than {p}% of models in the category",
     radarTitle: "Strengths at a glance",
     radarNote: "Rank among all models in the category: further out = better.",
     trendTitle: "How specs changed by year",

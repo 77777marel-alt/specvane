@@ -209,20 +209,45 @@ async function getSpecStats(categoryId: number): Promise<Record<number, Stats>> 
 
 export type SpecPosition = {
   key: string; label: string; display: string
-  /** лучше, чем у N% моделей категории (0..100) */
+  /** лучше, чем у N% моделей категории (0..100); в нейтральных категориях — «больше, чем у N%» */
   better: number
+  /** 'more' — нейтральная категория: только «больше, чем у N%», без «лучше» и без цвета */
+  mode?: 'better' | 'more'
   /** гистограмма значений категории и где на ней эта модель (0..1); по оси — от худшего к лучшему */
   hist: number[]; at: number; n: number
 }
 
 /** Положение модели среди всех моделей категории по числовым характеристикам (из нашей статистики, без ИИ). */
+/**
+ * Процессоры и видеокарты — только факты производителя (решение Максима 26–27.11.2026): без «лучше/хуже»,
+ * общих оценок и «похожие, но лучше» (higher_is_better = null, миграция 0013). Для наглядности оставляем
+ * «больше, чем у N% моделей» по характеристикам, где «больше» — просто больше; TDP, блок питания,
+ * длина, температура — без направления и без процентов.
+ */
+export const NEUTRAL_CATS = new Set(['processors', 'graphics-cards'])
+const NEUTRAL_MORE: Record<string, string[]> = {
+  processors: ['f6089', 'f7337', 'f42412', 'f7978', 'f10041', 'f21987', 'f20905'], // ядра, потоки, частоты, кеш, макс. память, линии PCIe
+  'graphics-cards': ['vram', 'memory_bus', 'gpu_clock', 'cuda_cores', 'max_displays'],
+}
+
 export async function getPositions(lang: Locale, cat: Category, specs: SpecValue[], max = 8): Promise<SpecPosition[]> {
   const [{ defs }, stats] = await Promise.all([getDefs(cat.id, lang), getSpecStats(cat.id)])
+  const neutral = NEUTRAL_CATS.has(cat.key)
   const out: (SpecPosition & { isKey: boolean; sort: number })[] = []
   for (const sv of specs) {
     const d = defs.find((x) => x.key === sv.key)
     const st = d && stats[d.id]
-    if (!d || !st || d.hib == null || typeof sv.value !== 'number' || st.n < 20) continue
+    if (!d || !st || typeof sv.value !== 'number' || st.n < 20) continue
+    if (neutral) {
+      if (!NEUTRAL_MORE[cat.key]?.includes(d.key)) continue
+      const v = sv.value
+      const more = Math.round((st.pct.filter((q) => q < v).length / st.pct.length) * 100)
+      const lo = st.lo ?? st.pct[0], hi = st.hi ?? st.pct[st.pct.length - 1]
+      const at = hi > lo ? Math.min(1, Math.max(0, (v - lo) / (hi - lo))) : 0.5
+      out.push({ key: d.key, label: d.label, display: sv.display, better: more, mode: 'more', hist: st.hist, at, n: st.n, isKey: d.isKey, sort: d.sort })
+      continue
+    }
+    if (d.hib == null) continue
     const v = sv.value
     const below = st.pct.filter((q) => q < v).length, above = st.pct.filter((q) => q > v).length
     const better = Math.round(((d.hib ? below : above) / st.pct.length) * 100)

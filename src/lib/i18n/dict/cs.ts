@@ -148,6 +148,7 @@ export const cs: Dict = {
     sizeNote: "Obrysy jsou nakresleny ve stejném měřítku podle rozměrů výrobců (šířka × výška).",
     positionTitle: "Ve srovnání s ostatními modely",
     betterThan: "Lepší než {p} % modelů v kategorii",
+    moreThan: "Více než u {p} % modelů v kategorii",
     radarTitle: "Silné stránky na první pohled",
     radarNote: "Pořadí mezi všemi modely v kategorii: čím dál od středu, tím lépe.",
     trendTitle: "Jak se parametry měnily v čase",

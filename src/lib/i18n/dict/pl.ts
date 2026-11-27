@@ -148,6 +148,7 @@ export const pl: Dict = {
     sizeNote: "Obrysy narysowano w tej samej skali na podstawie wymiarów podanych przez producentów (szerokość × wysokość).",
     positionTitle: "Na tle innych modeli",
     betterThan: "Lepszy niż {p}% modeli w kategorii",
+    moreThan: "Więcej niż w {p}% modeli w kategorii",
     radarTitle: "Mocne strony w skrócie",
     radarNote: "Pozycja wśród wszystkich modeli w kategorii: im dalej od środka, tym lepiej.",
     trendTitle: "Jak zmieniały się parametry z roku na rok",

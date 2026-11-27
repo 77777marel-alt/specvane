@@ -148,6 +148,7 @@ export const ja: Dict = {
     sizeNote: "外形はメーカー公表の寸法（幅×高さ）をもとに同じ縮尺で描いています。",
     positionTitle: "他のモデルとの比較",
     betterThan: "カテゴリー内の{p}%のモデルより優れています",
+    moreThan: "カテゴリー内の{p}%のモデルより多い",
     radarTitle: "強みが一目でわかる",
     radarNote: "カテゴリー内の全モデル中の順位：外側ほど優れています。",
     trendTitle: "年ごとのスペックの変化",
