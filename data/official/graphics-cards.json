@@ -1,0 +1,2878 @@
+[
+ {
+  "brand": "Intel",
+  "name": "Arc Pro B65",
+  "release_date": "2026-01-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/245796/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc Pro B65",
+   "gpu_brand": "Intel",
+   "vram": 32,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 2400,
+   "interface": "PCI Express 5.0 x16",
+   "hdmi_version": "2.1",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc Pro B70",
+  "release_date": "2026-01-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/245797/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc Pro B70",
+   "gpu_brand": "Intel",
+   "vram": 32,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 2280,
+   "interface": "PCI Express 5.0 x16",
+   "displayport": "2.1",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc Pro B50",
+  "release_date": "2025-07-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/242615/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc Pro B50",
+   "gpu_brand": "Intel",
+   "vram": 16,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 1700,
+   "interface": "PCI Express 5.0 x8",
+   "displayport": "2.1",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc Pro B60",
+  "release_date": "2025-04-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/243916/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc Pro B60",
+   "gpu_brand": "Intel",
+   "vram": 24,
+   "vram_type": "GDDR6",
+   "memory_bus": 192,
+   "gpu_clock": 2400,
+   "interface": "PCI Express 5.0 x8",
+   "hdmi_version": "2.1",
+   "displayport": "2.1",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc B570",
+  "release_date": "2024-10-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/241676/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc B570",
+   "gpu_brand": "Intel",
+   "vram": 10,
+   "vram_type": "GDDR6",
+   "memory_bus": 160,
+   "gpu_clock": 2500,
+   "interface": "PCI Express 4.0 x8",
+   "hdmi_version": "2.1",
+   "displayport": "2.1",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc B580",
+  "release_date": "2024-10-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/241598/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc B580",
+   "gpu_brand": "Intel",
+   "vram": 12,
+   "vram_type": "GDDR6",
+   "memory_bus": 192,
+   "gpu_clock": 2670,
+   "interface": "PCI Express 4.0 x8",
+   "hdmi_version": "2.1",
+   "displayport": "2.1",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc A580E",
+  "release_date": "2024-07-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/240446/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc A580E",
+   "gpu_brand": "Intel",
+   "vram": 16,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 1700,
+   "interface": "PCI Express 4.0 x16",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc A750E",
+  "release_date": "2024-07-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/240447/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc A750E",
+   "gpu_brand": "Intel",
+   "vram": 16,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 2050,
+   "interface": "PCI Express 4.0 x16",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc A310E",
+  "release_date": "2024-04-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/237552/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc A310E",
+   "gpu_brand": "Intel",
+   "vram": 4,
+   "vram_type": "GDDR6",
+   "memory_bus": 64,
+   "gpu_clock": 2000,
+   "interface": "PCI Express 4.0 x8",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc A350E",
+  "release_date": "2024-04-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/237551/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc A350E",
+   "gpu_brand": "Intel",
+   "vram": 4,
+   "vram_type": "GDDR6",
+   "memory_bus": 64,
+   "gpu_clock": 1150,
+   "interface": "PCI Express 4.0 x8",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc A370E",
+  "release_date": "2024-04-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/237550/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc A370E",
+   "gpu_brand": "Intel",
+   "vram": 4,
+   "vram_type": "GDDR6",
+   "memory_bus": 64,
+   "gpu_clock": 1550,
+   "interface": "PCI Express 4.0 x8",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc A380E",
+  "release_date": "2024-04-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/237549/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc A380E",
+   "gpu_brand": "Intel",
+   "vram": 6,
+   "vram_type": "GDDR6",
+   "memory_bus": 96,
+   "gpu_clock": 2000,
+   "interface": "PCI Express 4.0 x8",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 7900M",
+  "release_date": "2023-10-19",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-7000-series/amd-radeon-rx-7900m.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 7900M",
+   "gpu_brand": "AMD",
+   "vram": 16,
+   "vram_type": "GDDR6",
+   "gpu_clock": 1825
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc A580",
+  "release_date": "2023-10-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/227961/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc A580",
+   "gpu_brand": "Intel",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 1700,
+   "interface": "PCI Express 4.0 x16",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 7900 GRE",
+  "release_date": "2023-07-27",
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7900-gre.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 7900 GRE",
+   "gpu_brand": "AMD",
+   "vram": 16,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 2245,
+   "hdmi_version": "2.1",
+   "displayport": "2.1",
+   "power_connectors": "2x8-Pin"
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc A530M",
+  "release_date": "2023-07-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/232776/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc A530M",
+   "gpu_brand": "Intel",
+   "memory_bus": 128,
+   "gpu_clock": 1200,
+   "interface": "PCI Express 4.0 x16",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc A570M",
+  "release_date": "2023-07-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/232777/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc A570M",
+   "gpu_brand": "Intel",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 1300,
+   "interface": "PCI Express 4.0 x16",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc Pro A60",
+  "release_date": "2023-04-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/235979/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc Pro A60",
+   "gpu_brand": "Intel",
+   "vram": 12,
+   "vram_type": "GDDR6",
+   "memory_bus": 192,
+   "gpu_clock": 2000,
+   "interface": "PCI Express 4.0 x16",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc Pro A60M",
+  "release_date": "2023-04-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/232778/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc Pro A60M",
+   "gpu_brand": "Intel",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 1300,
+   "interface": "PCI Express 4.0 x16",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6450M",
+  "release_date": "2023-01-04",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6450m.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6450M",
+   "gpu_brand": "AMD",
+   "vram": 4,
+   "vram_type": "GDDR6",
+   "memory_bus": 64,
+   "gpu_clock": 2220
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6550M",
+  "release_date": "2023-01-04",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6550m.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6550M",
+   "gpu_brand": "AMD",
+   "vram": 4,
+   "vram_type": "GDDR6",
+   "memory_bus": 64,
+   "gpu_clock": 2560
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6550S",
+  "release_date": "2023-01-04",
+  "source_url": "",
+  "specs": {
+   "gpu_chip": "Radeon RX 6550S",
+   "gpu_brand": "AMD",
+   "vram": 4,
+   "vram_type": "GDDR6",
+   "memory_bus": 64,
+   "gpu_clock": 2170
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 7600M",
+  "release_date": "2023-01-04",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-7000-series/amd-radeon-rx-7600m.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 7600M",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 2070
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 7600M XT",
+  "release_date": "2023-01-04",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-7000-series/amd-radeon-rx-7600m-xt.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 7600M XT",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 2300
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 7600S",
+  "release_date": "2023-01-04",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-7000-series/amd-radeon-rx-7600s.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 7600S",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 1865
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 7700S",
+  "release_date": "2023-01-04",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-7000-series/amd-radeon-rx-7700s.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 7700S",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 2200
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 7900 XT",
+  "release_date": "2022-12-13",
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7900xt.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 7900 XT",
+   "gpu_brand": "AMD",
+   "vram": 20,
+   "vram_type": "GDDR6",
+   "gpu_clock": 2400,
+   "hdmi_version": "2.1",
+   "displayport": "2.1",
+   "psu_min": 750,
+   "power_connectors": "2x8-Pin",
+   "card_length": 276
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 7900 XTX",
+  "release_date": "2022-12-13",
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7900xtx.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 7900 XTX",
+   "gpu_brand": "AMD",
+   "vram": 24,
+   "vram_type": "GDDR6",
+   "gpu_clock": 2500,
+   "hdmi_version": "2.1",
+   "displayport": "2.1",
+   "psu_min": 800,
+   "power_connectors": "2x8-Pin",
+   "card_length": 287
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc A310",
+  "release_date": "2022-07-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/227958/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc A310",
+   "gpu_brand": "Intel",
+   "vram": 4,
+   "vram_type": "GDDR6",
+   "memory_bus": 64,
+   "gpu_clock": 2000,
+   "interface": "PCI Express 4.0 x8",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc A750",
+  "release_date": "2022-07-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/227954/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc A750",
+   "gpu_brand": "Intel",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 2050,
+   "interface": "PCI Express 4.0 x16",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc A770 (16 GB)",
+  "release_date": "2022-07-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/229151/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc A770",
+   "gpu_brand": "Intel",
+   "vram": 16,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 2100,
+   "interface": "PCI Express 4.0 x16",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc A770 (8 GB)",
+  "release_date": "2022-07-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/227955/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc A770",
+   "gpu_brand": "Intel",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 2100,
+   "interface": "PCI Express 4.0 x16",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc Pro A30M",
+  "release_date": "2022-07-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/216962/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc Pro A30M",
+   "gpu_brand": "Intel",
+   "vram": 4,
+   "vram_type": "GDDR6",
+   "memory_bus": 64,
+   "gpu_clock": 1550,
+   "interface": "PCI Express 4.0 x8",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc Pro A40",
+  "release_date": "2022-07-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/230317/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc Pro A40",
+   "gpu_brand": "Intel",
+   "vram": 6,
+   "vram_type": "GDDR6",
+   "memory_bus": 96,
+   "gpu_clock": 1550,
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc Pro A50",
+  "release_date": "2022-07-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/230316/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc Pro A50",
+   "gpu_brand": "Intel",
+   "vram": 6,
+   "vram_type": "GDDR6",
+   "memory_bus": 96,
+   "gpu_clock": 2050,
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6650 XT",
+  "release_date": "2022-05-10",
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6650-xt.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6650 XT",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 2635,
+   "psu_min": 500,
+   "power_connectors": "1x8-Pin"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6750 XT",
+  "release_date": "2022-05-10",
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6750-xt.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6750 XT",
+   "gpu_brand": "AMD",
+   "vram": 12,
+   "vram_type": "GDDR6",
+   "memory_bus": 192,
+   "gpu_clock": 2600,
+   "displayport": "1.4a",
+   "psu_min": 650,
+   "power_connectors": "1x8-Pin, 1x6-Pin",
+   "card_length": 267
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6950 XT",
+  "release_date": "2022-05-10",
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6950-xt.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6950 XT",
+   "gpu_brand": "AMD",
+   "vram": 16,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 2310,
+   "psu_min": 850,
+   "power_connectors": "2x8-Pin"
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc A380",
+  "release_date": "2022-04-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/227959/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc A380",
+   "gpu_brand": "Intel",
+   "vram": 6,
+   "vram_type": "GDDR6",
+   "memory_bus": 96,
+   "gpu_clock": 2000,
+   "interface": "PCI Express 4.0 x8",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc A550M",
+  "release_date": "2022-04-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/228343/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc A550M",
+   "gpu_brand": "Intel",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 900,
+   "interface": "PCI Express 4.0 x16",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc A730M",
+  "release_date": "2022-04-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/228340/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc A730M",
+   "gpu_brand": "Intel",
+   "vram": 12,
+   "vram_type": "GDDR6",
+   "memory_bus": 192,
+   "gpu_clock": 1100,
+   "interface": "PCI Express 4.0 x16",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc A770M",
+  "release_date": "2022-04-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/228341/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc A770M",
+   "gpu_brand": "Intel",
+   "vram": 16,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 1650,
+   "interface": "PCI Express 4.0 x16",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6400",
+  "release_date": "2022-01-19",
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6400.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6400",
+   "gpu_brand": "AMD",
+   "vram": 4,
+   "vram_type": "GDDR6",
+   "memory_bus": 64,
+   "gpu_clock": 2321,
+   "displayport": "1.4a",
+   "psu_min": 350,
+   "power_connectors": "PCIe Powered"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6500 XT",
+  "release_date": "2022-01-19",
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6500-xt.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6500 XT",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 64,
+   "gpu_clock": 2815,
+   "displayport": "1.4a",
+   "psu_min": 400,
+   "power_connectors": "1x6-Pin"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6500 XT (4GB)",
+  "release_date": "2022-01-19",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6500-xt.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6500 XT",
+   "gpu_brand": "AMD",
+   "vram": 4,
+   "vram_type": "GDDR6",
+   "memory_bus": 64,
+   "gpu_clock": 2815,
+   "displayport": "1.4a",
+   "psu_min": 400,
+   "power_connectors": "1x6-Pin"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6300M",
+  "release_date": "2022-01-04",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6300m.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6300M",
+   "gpu_brand": "AMD",
+   "vram": 2,
+   "vram_type": "GDDR6",
+   "gpu_clock": 1512
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6500M",
+  "release_date": "2022-01-04",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6500m.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6500M",
+   "gpu_brand": "AMD",
+   "vram": 4,
+   "vram_type": "GDDR6",
+   "memory_bus": 64,
+   "gpu_clock": 2191
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6600S",
+  "release_date": "2022-01-04",
+  "source_url": "",
+  "specs": {
+   "gpu_chip": "Radeon RX 6600S",
+   "gpu_brand": "AMD",
+   "vram": 4,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 1881
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6650M",
+  "release_date": "2022-01-04",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6650m.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6650M",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 2222
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6650M XT",
+  "release_date": "2022-01-04",
+  "source_url": "",
+  "specs": {
+   "gpu_chip": "Radeon RX 6650M XT",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 2162
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6700S",
+  "release_date": "2022-01-04",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6700s.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6700S",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 1890
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6800S",
+  "release_date": "2022-01-04",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6800s.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6800S",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 1975
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6850M XT",
+  "release_date": "2022-01-04",
+  "source_url": "",
+  "specs": {
+   "gpu_chip": "Radeon RX 6850M XT",
+   "gpu_brand": "AMD",
+   "vram": 12,
+   "vram_type": "GDDR6",
+   "memory_bus": 192,
+   "gpu_clock": 2463
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc A350M",
+  "release_date": "2022-01-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/228338/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc A350M",
+   "gpu_brand": "Intel",
+   "vram": 4,
+   "vram_type": "GDDR6",
+   "memory_bus": 64,
+   "gpu_clock": 1150,
+   "interface": "PCI Express 4.0 x8",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "Intel",
+  "name": "Arc A370M",
+  "release_date": "2022-01-01",
+  "source_url": "https://www.intel.com/content/www/us/en/products/sku/228342/specifications.html",
+  "specs": {
+   "gpu_chip": "Arc A370M",
+   "gpu_brand": "Intel",
+   "vram": 4,
+   "vram_type": "GDDR6",
+   "memory_bus": 64,
+   "gpu_clock": 1550,
+   "interface": "PCI Express 4.0 x8",
+   "hdmi_version": "2.1",
+   "displayport": "2.0",
+   "max_displays": 4
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6600",
+  "release_date": "2021-10-13",
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6600.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6600",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 2491,
+   "displayport": "1.4a",
+   "psu_min": 450,
+   "power_connectors": "1x8-Pin"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6600 XT",
+  "release_date": "2021-08-11",
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6600-xt.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6600 XT",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 2589,
+   "displayport": "1.4a",
+   "psu_min": 500,
+   "power_connectors": "1x8-Pin"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6700",
+  "release_date": "2021-06-09",
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6700.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6700",
+   "gpu_brand": "AMD",
+   "vram": 10,
+   "vram_type": "GDDR6",
+   "memory_bus": 160,
+   "gpu_clock": 2450,
+   "displayport": "1.4a",
+   "psu_min": 600,
+   "power_connectors": "1x8-Pin",
+   "card_length": 267
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6600M",
+  "release_date": "2021-05-31",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6600m.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6600M",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 2177
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6700M",
+  "release_date": "2021-05-31",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6700m.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6700M",
+   "gpu_brand": "AMD",
+   "vram": 10,
+   "vram_type": "GDDR6",
+   "memory_bus": 160,
+   "gpu_clock": 2300
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6800M",
+  "release_date": "2021-05-31",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-6000-series/amd-radeon-rx-6800m.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6800M",
+   "gpu_brand": "AMD",
+   "vram": 12,
+   "vram_type": "GDDR6",
+   "memory_bus": 192,
+   "gpu_clock": 2300
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6800 XT Midnight Black",
+  "release_date": "2021-04-07",
+  "source_url": "",
+  "specs": {
+   "gpu_chip": "Radeon RX 6800 XT",
+   "gpu_brand": "AMD",
+   "vram": 16,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 2250,
+   "displayport": "1.4a",
+   "psu_min": 750,
+   "power_connectors": "2x8-Pin",
+   "card_length": 267
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6700 XT",
+  "release_date": "2021-03-01",
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6700-xt.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6700 XT",
+   "gpu_brand": "AMD",
+   "vram": 12,
+   "vram_type": "GDDR6",
+   "memory_bus": 192,
+   "gpu_clock": 2581,
+   "displayport": "1.4a",
+   "psu_min": 650,
+   "power_connectors": "1x8-Pin, 1x6-Pin",
+   "card_length": 267
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6900 XT",
+  "release_date": "2020-12-08",
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6900-xt.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6900 XT",
+   "gpu_brand": "AMD",
+   "vram": 16,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 2250,
+   "displayport": "1.4a",
+   "psu_min": 850,
+   "power_connectors": "2x8-Pin",
+   "card_length": 267
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6800",
+  "release_date": "2020-11-18",
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6800.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6800",
+   "gpu_brand": "AMD",
+   "vram": 16,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 2105,
+   "displayport": "1.4a",
+   "psu_min": 650,
+   "power_connectors": "2x8-Pin",
+   "card_length": 267
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 6800 XT",
+  "release_date": "2020-11-18",
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/6000-series/amd-radeon-rx-6800-xt.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 6800 XT",
+   "gpu_brand": "AMD",
+   "vram": 16,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 2250,
+   "displayport": "1.4a",
+   "psu_min": 750,
+   "power_connectors": "2x8-Pin",
+   "card_length": 267
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 5500 XT",
+  "release_date": "2019-12-12",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-5000-series/amd-radeon-rx-5500-xt.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 5500 XT",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "gpu_clock": 1845,
+   "displayport": "1.4a",
+   "psu_min": 450,
+   "power_connectors": "1x8-Pin"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 5300M",
+  "release_date": "2019-11-13",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-5000-series/amd-radeon-rx-5300m.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 5300M",
+   "gpu_brand": "AMD",
+   "vram": 3,
+   "vram_type": "GDDR6",
+   "memory_bus": 96,
+   "gpu_clock": 1445
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 5500",
+  "release_date": "2019-10-07",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-5000-series/amd-radeon-rx-5500.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 5500",
+   "gpu_brand": "AMD",
+   "vram": 4,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 1845,
+   "psu_min": 550,
+   "power_connectors": "1x8-Pin"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 5500M",
+  "release_date": "2019-10-07",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-5000-series/amd-radeon-rx-5500m.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 5500M",
+   "gpu_brand": "AMD",
+   "vram": 4,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 1645
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 5700",
+  "release_date": "2019-07-07",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-5000-series/amd-radeon-rx-5700.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 5700",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 1725,
+   "displayport": "1.4a",
+   "psu_min": 600,
+   "power_connectors": "1x8-Pin, 1x6-Pin"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 5700 XT",
+  "release_date": "2019-07-07",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-5000-series/amd-radeon-rx-5700-xt.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 5700 XT",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 1905,
+   "displayport": "1.4a",
+   "psu_min": 600,
+   "power_connectors": "1x8-Pin, 1x6-Pin"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 5700 XT 50th Anniversary",
+  "release_date": "2019-07-07",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-5000-series/amd-radeon-rx-5700-xt-50th-anniversary.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 5700 XT",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 1980,
+   "displayport": "1.4a",
+   "psu_min": 600,
+   "power_connectors": "1x8-Pin, 1x6-Pin"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 590",
+  "release_date": "2018-11-15",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-500-series/radeon-rx-590.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 590",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR5",
+   "memory_bus": 256,
+   "gpu_clock": 1545,
+   "displayport": "1.4"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 580 (OEM)",
+  "release_date": "2018-04-18",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-500-series/radeon-rx-580.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 580",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR5",
+   "memory_bus": 256,
+   "gpu_clock": 1266,
+   "displayport": "1.4",
+   "psu_min": 500
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 540X",
+  "release_date": "2018-04-03",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-500x-series/radeon-rx-540x.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 540X",
+   "gpu_brand": "AMD",
+   "vram": 4,
+   "vram_type": "GDDR5",
+   "memory_bus": 128,
+   "gpu_clock": 1219,
+   "displayport": "1.4"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 550X",
+  "release_date": "2018-04-03",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-500x-series/radeon-rx-550x.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 550X",
+   "gpu_brand": "AMD",
+   "vram": 4,
+   "vram_type": "GDDR5",
+   "memory_bus": 128,
+   "gpu_clock": 1287,
+   "displayport": "1.4"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 560X",
+  "release_date": "2018-04-03",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-500x-series/radeon-rx-560x.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 560X",
+   "gpu_brand": "AMD",
+   "vram": 4,
+   "vram_type": "GDDR5",
+   "memory_bus": 128,
+   "gpu_clock": 1275,
+   "displayport": "1.4"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 570X",
+  "release_date": "2018-04-03",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-500x-series/radeon-rx-570x.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 570X",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR5",
+   "memory_bus": 256,
+   "gpu_clock": 1244,
+   "displayport": "1.4"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 580X",
+  "release_date": "2018-04-03",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-500x-series/radeon-rx-580x.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 580X",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR5",
+   "memory_bus": 256,
+   "gpu_clock": 1340,
+   "displayport": "1.4"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 540",
+  "release_date": "2017-04-18",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-500-series/radeon-rx-540.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 540",
+   "gpu_brand": "AMD",
+   "vram": 4,
+   "vram_type": "GDDR5",
+   "memory_bus": 128,
+   "gpu_clock": 1219,
+   "displayport": "1.4"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 550",
+  "release_date": "2017-04-18",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-500-series/radeon-rx-550.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 550",
+   "gpu_brand": "AMD",
+   "vram": 4,
+   "vram_type": "GDDR5",
+   "memory_bus": 128,
+   "gpu_clock": 1183,
+   "displayport": "1.4",
+   "psu_min": 400
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 560",
+  "release_date": "2017-04-18",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-500-series/radeon-rx-560.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 560",
+   "gpu_brand": "AMD",
+   "vram": 4,
+   "vram_type": "GDDR5",
+   "memory_bus": 128,
+   "gpu_clock": 1275,
+   "displayport": "1.4",
+   "psu_min": 450
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 560 (OEM)",
+  "release_date": "2017-04-18",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-500-series/radeon-rx-560.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 560",
+   "gpu_brand": "AMD",
+   "vram": 4,
+   "vram_type": "GDDR5",
+   "memory_bus": 128,
+   "gpu_clock": 1200,
+   "displayport": "1.4",
+   "psu_min": 450
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 570",
+  "release_date": "2017-04-18",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-500-series/radeon-rx-570.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 570",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR5",
+   "memory_bus": 256,
+   "gpu_clock": 1244,
+   "displayport": "1.4",
+   "psu_min": 450
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 570 (OEM)",
+  "release_date": "2017-04-18",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-500-series/radeon-rx-570.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 570",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR5",
+   "memory_bus": 256,
+   "gpu_clock": 1206,
+   "displayport": "1.4",
+   "psu_min": 450
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 580",
+  "release_date": "2017-04-18",
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-500-series/radeon-rx-580.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 580",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR5",
+   "memory_bus": 256,
+   "gpu_clock": 1340,
+   "displayport": "1.4",
+   "psu_min": 500
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce GTX 1630",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce GTX 1630",
+   "gpu_brand": "NVIDIA",
+   "vram": 4,
+   "vram_type": "GDDR6",
+   "memory_bus": 64,
+   "gpu_clock": 1785,
+   "cuda_cores": 512,
+   "interface": "PCI Express 3.0",
+   "hdmi_version": "2.0b",
+   "directx": "12",
+   "psu_min": 300,
+   "power_connectors": "6-pin",
+   "card_length": 145
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce GTX 1650 (GDDR5)",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce GTX 1650",
+   "gpu_brand": "NVIDIA",
+   "vram": 4,
+   "vram_type": "GDDR5",
+   "memory_bus": 128,
+   "gpu_clock": 1665,
+   "cuda_cores": 896,
+   "interface": "PCI Express 3.0",
+   "hdmi_version": "2.0b",
+   "directx": "12",
+   "psu_min": 300,
+   "power_connectors": "6-pin",
+   "card_length": 130
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce GTX 1650 (GDDR6)",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce GTX 1650",
+   "gpu_brand": "NVIDIA",
+   "vram": 4,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 1590,
+   "cuda_cores": 896,
+   "interface": "PCI Express 3.0",
+   "hdmi_version": "2.0b",
+   "directx": "12",
+   "psu_min": 300,
+   "power_connectors": "6-pin",
+   "card_length": 145
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce GTX 1650 Super",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce GTX 1650 Super",
+   "gpu_brand": "NVIDIA",
+   "vram": 4,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 1725,
+   "cuda_cores": 1280,
+   "interface": "PCI Express 3.0",
+   "hdmi_version": "2.0b",
+   "directx": "12",
+   "psu_min": 350,
+   "power_connectors": "6-pin",
+   "card_length": 160
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce GTX 1660",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce GTX 1660",
+   "gpu_brand": "NVIDIA",
+   "vram": 6,
+   "vram_type": "GDDR5",
+   "memory_bus": 192,
+   "gpu_clock": 1785,
+   "cuda_cores": 1408,
+   "interface": "PCI Express 3.0",
+   "hdmi_version": "2.0b",
+   "directx": "12",
+   "psu_min": 450,
+   "power_connectors": "8-pin",
+   "card_length": 145
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce GTX 1660 Super",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce GTX 1660 Super",
+   "gpu_brand": "NVIDIA",
+   "vram": 6,
+   "vram_type": "GDDR6",
+   "memory_bus": 192,
+   "gpu_clock": 1785,
+   "cuda_cores": 1408,
+   "interface": "PCI Express 3.0",
+   "hdmi_version": "2.0b",
+   "directx": "12",
+   "psu_min": 450,
+   "power_connectors": "8-pin",
+   "card_length": 145
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce GTX 1660 Ti",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce GTX 1660 Ti",
+   "gpu_brand": "NVIDIA",
+   "vram": 6,
+   "vram_type": "GDDR6",
+   "memory_bus": 192,
+   "gpu_clock": 1770,
+   "cuda_cores": 1536,
+   "interface": "PCI Express 3.0",
+   "hdmi_version": "2.0b",
+   "directx": "12",
+   "psu_min": 450,
+   "power_connectors": "8-pin",
+   "card_length": 145
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 2060 (12 GB)",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 2060",
+   "gpu_brand": "NVIDIA",
+   "vram": 12,
+   "vram_type": "GDDR6",
+   "memory_bus": 192,
+   "gpu_clock": 1650,
+   "cuda_cores": 2176,
+   "interface": "PCI Express 3.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 550,
+   "power_connectors": "1x PCIe 8-pin",
+   "card_length": 60
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 2060 (6 GB)",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 2060",
+   "gpu_brand": "NVIDIA",
+   "vram": 6,
+   "vram_type": "GDDR6",
+   "memory_bus": 192,
+   "gpu_clock": 1650,
+   "cuda_cores": 2176,
+   "interface": "PCI Express 3.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 550,
+   "power_connectors": "1x PCIe 8-pin",
+   "card_length": 60
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 2060 Super",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 2060 Super",
+   "gpu_brand": "NVIDIA",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 1650,
+   "cuda_cores": 2176,
+   "interface": "PCI Express 3.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 550,
+   "power_connectors": "1x PCIe 8-pin",
+   "card_length": 60
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 2070",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 2070",
+   "gpu_brand": "NVIDIA",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 1710,
+   "cuda_cores": 2304,
+   "interface": "PCI Express 3.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 550,
+   "power_connectors": "1x PCIe 8-pin",
+   "card_length": 60
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 2070 Super",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 2070 Super",
+   "gpu_brand": "NVIDIA",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 1770,
+   "cuda_cores": 2560,
+   "interface": "PCI Express 3.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 650,
+   "power_connectors": "1x PCIe 6-pin + 1x PCIe 8-pin",
+   "card_length": 74
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 2080",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 2080",
+   "gpu_brand": "NVIDIA",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 1800,
+   "cuda_cores": 2944,
+   "interface": "PCI Express 3.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 650,
+   "power_connectors": "1x PCIe 6-pin + 1x PCIe 8-pin",
+   "card_length": 74
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 2080 Super",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 2080 Super",
+   "gpu_brand": "NVIDIA",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 1820,
+   "cuda_cores": 3072,
+   "interface": "PCI Express 3.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 650,
+   "power_connectors": "1x PCIe 6-pin + 1x PCIe 8-pin",
+   "card_length": 74
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 2080 Ti",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 2080 Ti",
+   "gpu_brand": "NVIDIA",
+   "vram": 11,
+   "vram_type": "GDDR6",
+   "memory_bus": 352,
+   "gpu_clock": 1640,
+   "cuda_cores": 4352,
+   "interface": "PCI Express 3.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 650,
+   "power_connectors": "2x PCIe 8-pin",
+   "card_length": 74
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 3050 (6 GB)",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 3050",
+   "gpu_brand": "NVIDIA",
+   "vram": 6,
+   "vram_type": "GDDR6",
+   "memory_bus": 96,
+   "gpu_clock": 1470,
+   "cuda_cores": 2304,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 300
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 3050 (8 GB)",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 3050",
+   "gpu_brand": "NVIDIA",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 1780,
+   "cuda_cores": 2560,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 550,
+   "power_connectors": "1x PCIe 8-pin"
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 3060 (12 GB)",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 3060",
+   "gpu_brand": "NVIDIA",
+   "vram": 12,
+   "vram_type": "GDDR6",
+   "memory_bus": 192,
+   "gpu_clock": 1780,
+   "cuda_cores": 3584,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 550,
+   "power_connectors": "1x PCIe 8-pin"
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 3060 (8 GB)",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 3060",
+   "gpu_brand": "NVIDIA",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 1780,
+   "cuda_cores": 3584,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 550,
+   "power_connectors": "1x PCIe 8-pin"
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 3060 Ti (GDDR6)",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 3060 Ti",
+   "gpu_brand": "NVIDIA",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 1670,
+   "cuda_cores": 4864,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 600,
+   "power_connectors": "1x PCIe 8-pin (adapter to 1x 12-pin included)",
+   "card_length": 242
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 3060 Ti (GDDR6X)",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 3060 Ti",
+   "gpu_brand": "NVIDIA",
+   "vram": 8,
+   "vram_type": "GDDR6X",
+   "memory_bus": 256,
+   "gpu_clock": 1670,
+   "cuda_cores": 4864,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 600,
+   "power_connectors": "1x PCIe 8-pin (adapter to 1x 12-pin included)",
+   "card_length": 242
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 3070",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 3070",
+   "gpu_brand": "NVIDIA",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 1730,
+   "cuda_cores": 5888,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 650,
+   "power_connectors": "1x PCIe 8-pin (adapter to 1x 12-pin included)",
+   "card_length": 242
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 3070 Ti",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 3070 Ti",
+   "gpu_brand": "NVIDIA",
+   "vram": 8,
+   "vram_type": "GDDR6X",
+   "memory_bus": 256,
+   "gpu_clock": 1770,
+   "cuda_cores": 6144,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 750,
+   "power_connectors": "2x PCIe 8-pin (adapter to 1x 12-pin included)",
+   "card_length": 267
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 3080 (10 GB)",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 3080",
+   "gpu_brand": "NVIDIA",
+   "vram": 10,
+   "vram_type": "GDDR6X",
+   "memory_bus": 320,
+   "gpu_clock": 1710,
+   "cuda_cores": 8960,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 750,
+   "power_connectors": "2x PCIe 8-pin (adapter to 1x 12-pin included)",
+   "card_length": 285
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 3080 (12 GB)",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 3080",
+   "gpu_brand": "NVIDIA",
+   "vram": 12,
+   "vram_type": "GDDR6X",
+   "memory_bus": 384,
+   "gpu_clock": 1710,
+   "cuda_cores": 8960,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 750,
+   "power_connectors": "2x PCIe 8-pin (adapter to 1x 12-pin included)",
+   "card_length": 285
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 3080 Ti",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 3080 Ti",
+   "gpu_brand": "NVIDIA",
+   "vram": 12,
+   "vram_type": "GDDR6X",
+   "memory_bus": 384,
+   "gpu_clock": 1670,
+   "cuda_cores": 10240,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 750,
+   "power_connectors": "2x PCIe 8-pin (adapter to 1x 12-pin included)",
+   "card_length": 285
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 3090",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 3090",
+   "gpu_brand": "NVIDIA",
+   "vram": 24,
+   "vram_type": "GDDR6X",
+   "memory_bus": 384,
+   "gpu_clock": 1700,
+   "cuda_cores": 10496,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 750,
+   "power_connectors": "2x PCIe 8-pin (adapter to 1x 12-pin included)",
+   "card_length": 313
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 3090 Ti",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 3090 Ti",
+   "gpu_brand": "NVIDIA",
+   "vram": 24,
+   "vram_type": "GDDR6X",
+   "memory_bus": 384,
+   "gpu_clock": 1860,
+   "cuda_cores": 10752,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 850,
+   "power_connectors": "3x PCIe 8-pin cables (adapter in box) OR 450W or greater PCIe Gen 5 cable",
+   "card_length": 313
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 4060",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 4060",
+   "gpu_brand": "NVIDIA",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 2460,
+   "cuda_cores": 3072,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 550,
+   "power_connectors": "1x PCIe 8-pin cables (adapter in box) OR 300 W or greater PCIe Gen 5 cable. Certain manufacturer models may use 1x PCIe 6-pin cable or 1x PCIe 8-pin cable"
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 4060 Ti (16 GB)",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 4060 Ti",
+   "gpu_brand": "NVIDIA",
+   "vram": 16,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 2540,
+   "cuda_cores": 4352,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 550,
+   "power_connectors": "1x PCIe 8-pin cables (adapter in box) OR 300 W or greater PCIe Gen 5 cable. Certain manufacturer models may use 1x PCIe 8-pin cable",
+   "card_length": 244
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 4060 Ti (8 GB)",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 4060 Ti",
+   "gpu_brand": "NVIDIA",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 2540,
+   "cuda_cores": 4352,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 550,
+   "power_connectors": "1x PCIe 8-pin cables (adapter in box) OR 300 W or greater PCIe Gen 5 cable. Certain manufacturer models may use 1x PCIe 8-pin cable",
+   "card_length": 244
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 4070 (GDDR6)",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 4070",
+   "gpu_brand": "NVIDIA",
+   "vram": 12,
+   "vram_type": "GDDR6",
+   "memory_bus": 192,
+   "gpu_clock": 2480,
+   "cuda_cores": 5888,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 650,
+   "power_connectors": "2x PCIe 8-pin cables (adapter in box) OR 300 W or greater PCIe Gen 5 cable Certain manufacturer models may use 1x PCIe 8-pin cable",
+   "card_length": 244
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 4070 (GDDR6X)",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 4070",
+   "gpu_brand": "NVIDIA",
+   "vram": 12,
+   "vram_type": "GDDR6X",
+   "memory_bus": 192,
+   "gpu_clock": 2480,
+   "cuda_cores": 5888,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 650,
+   "power_connectors": "2x PCIe 8-pin cables (adapter in box) OR 300 W or greater PCIe Gen 5 cable Certain manufacturer models may use 1x PCIe 8-pin cable",
+   "card_length": 244
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 4070 SUPER",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 4070 SUPER",
+   "gpu_brand": "NVIDIA",
+   "vram": 12,
+   "vram_type": "GDDR6X",
+   "memory_bus": 192,
+   "gpu_clock": 2480,
+   "cuda_cores": 7168,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 650,
+   "power_connectors": "2x PCIe 8-pin cables (adapter in box) OR 300 W or greater PCIe Gen 5 cable. Certain manufacturer models may use 1x PCIe 8-pin cable",
+   "card_length": 244
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 4070 Ti",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 4070 Ti",
+   "gpu_brand": "NVIDIA",
+   "vram": 12,
+   "vram_type": "GDDR6X",
+   "memory_bus": 192,
+   "gpu_clock": 2610,
+   "cuda_cores": 7680,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 700,
+   "power_connectors": "2x PCIe 8-pin cables (adapter in box) OR 300 W or greater PCIe Gen 5 cable"
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 4070 Ti SUPER",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 4070 Ti SUPER",
+   "gpu_brand": "NVIDIA",
+   "vram": 16,
+   "vram_type": "GDDR6X",
+   "memory_bus": 256,
+   "gpu_clock": 2610,
+   "cuda_cores": 8448,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 700,
+   "power_connectors": "2x PCIe 8-pin cables (adapter in box) OR 300 W or greater PCIe Gen 5 cable"
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 4080",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 4080",
+   "gpu_brand": "NVIDIA",
+   "vram": 16,
+   "vram_type": "GDDR6X",
+   "memory_bus": 256,
+   "gpu_clock": 2510,
+   "cuda_cores": 9728,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 750,
+   "power_connectors": "3x PCIe 8-pin cables (adapter in box) OR 1x 450 W or greater PCIe Gen 5 cable",
+   "card_length": 304
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 4080 SUPER",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 4080 SUPER",
+   "gpu_brand": "NVIDIA",
+   "vram": 16,
+   "vram_type": "GDDR6X",
+   "memory_bus": 256,
+   "gpu_clock": 2550,
+   "cuda_cores": 10240,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 750,
+   "power_connectors": "3x PCIe 8-pin cables (adapter in box) OR 1x 450 W or greater PCIe Gen 5 cable",
+   "card_length": 304
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 4090",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 4090",
+   "gpu_brand": "NVIDIA",
+   "vram": 24,
+   "vram_type": "GDDR6X",
+   "memory_bus": 384,
+   "gpu_clock": 2520,
+   "cuda_cores": 16384,
+   "interface": "PCI Express 4.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 850,
+   "power_connectors": "3x PCIe 8-pin cables (adapter in box) OR 1x 450 W or greater PCIe Gen 5 cable",
+   "card_length": 304
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 5050",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 5050",
+   "gpu_brand": "NVIDIA",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 2570,
+   "cuda_cores": 2560,
+   "interface": "PCI Express 5.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 550,
+   "power_connectors": "1x PCIe 8-pin cables OR 300 W or greater PCIe Gen 5 cable (adapter in box)"
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 5060",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 5060",
+   "gpu_brand": "NVIDIA",
+   "vram": 8,
+   "vram_type": "GDDR7",
+   "memory_bus": 128,
+   "gpu_clock": 2500,
+   "cuda_cores": 3840,
+   "interface": "PCI Express 5.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 550,
+   "power_connectors": "1x PCIe 8-pin cables OR 300 W or greater PCIe Gen 5 cable (adapter in box)"
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 5060 Ti (16 GB)",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 5060 Ti",
+   "gpu_brand": "NVIDIA",
+   "vram": 16,
+   "vram_type": "GDDR7",
+   "memory_bus": 128,
+   "gpu_clock": 2570,
+   "cuda_cores": 4608,
+   "interface": "PCI Express 5.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 600,
+   "power_connectors": "1x PCIe 8-pin cables OR 300 W or greater PCIe Gen 5 cable (adapter in box)"
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 5060 Ti (8 GB)",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 5060 Ti",
+   "gpu_brand": "NVIDIA",
+   "vram": 8,
+   "vram_type": "GDDR7",
+   "memory_bus": 128,
+   "gpu_clock": 2570,
+   "cuda_cores": 4608,
+   "interface": "PCI Express 5.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 600,
+   "power_connectors": "1x PCIe 8-pin cables OR 300 W or greater PCIe Gen 5 cable (adapter in box)"
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 5070",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 5070",
+   "gpu_brand": "NVIDIA",
+   "vram": 12,
+   "vram_type": "GDDR7",
+   "memory_bus": 192,
+   "gpu_clock": 2510,
+   "cuda_cores": 6144,
+   "interface": "PCI Express 5.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 650,
+   "power_connectors": "2x PCIe 8-pin cables (adapter in box) OR 300 W or greater PCIe Gen 5 cable",
+   "card_length": 242
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 5070 Ti",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 5070 Ti",
+   "gpu_brand": "NVIDIA",
+   "vram": 16,
+   "vram_type": "GDDR7",
+   "memory_bus": 256,
+   "gpu_clock": 2450,
+   "cuda_cores": 8960,
+   "interface": "PCI Express 5.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 750,
+   "power_connectors": "2x PCIe 8-pin cables (adapter in box) OR 300 W or greater PCIe Gen 5 cable"
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 5080",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 5080",
+   "gpu_brand": "NVIDIA",
+   "vram": 16,
+   "vram_type": "GDDR7",
+   "memory_bus": 256,
+   "gpu_clock": 2620,
+   "cuda_cores": 10752,
+   "interface": "PCI Express 5.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 850,
+   "power_connectors": "3x PCIe 8-pin cables (adapter in box) OR 1x 450 W or greater PCIe Gen 5 cable",
+   "card_length": 304
+  }
+ },
+ {
+  "brand": "NVIDIA",
+  "name": "GeForce RTX 5090",
+  "release_date": null,
+  "source_url": "https://www.nvidia.com/en-us/geforce/graphics-cards/compare/",
+  "specs": {
+   "gpu_chip": "GeForce RTX 5090",
+   "gpu_brand": "NVIDIA",
+   "vram": 32,
+   "vram_type": "GDDR7",
+   "memory_bus": 512,
+   "gpu_clock": 2410,
+   "cuda_cores": 21760,
+   "interface": "PCI Express 5.0",
+   "max_displays": 4,
+   "directx": "12 Ultimate",
+   "psu_min": 1000,
+   "power_connectors": "4x PCIe 8-pin cables (adapter in box) OR 1x 600 W PCIe Gen 5 cable",
+   "card_length": 304
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 460",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-400-series/radeon-rx-460.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 460",
+   "gpu_brand": "AMD",
+   "vram": 2,
+   "vram_type": "GDDR5",
+   "memory_bus": 128,
+   "gpu_clock": 1200,
+   "displayport": "1.4",
+   "psu_min": 400
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 470",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-400-series/radeon-rx-470.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 470",
+   "gpu_brand": "AMD",
+   "vram": 4,
+   "vram_type": "GDDR5",
+   "memory_bus": 256,
+   "gpu_clock": 1206,
+   "displayport": "1.4",
+   "psu_min": 450
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 480",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-400-series/radeon-rx-480.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 480",
+   "gpu_brand": "AMD",
+   "vram": 4,
+   "vram_type": "GDDR5",
+   "memory_bus": 256,
+   "gpu_clock": 1266,
+   "displayport": "1.4",
+   "psu_min": 500
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 5300",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-5000-series/amd-radeon-rx-5300.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 5300",
+   "gpu_brand": "AMD",
+   "vram": 3,
+   "vram_type": "GDDR6",
+   "memory_bus": 96,
+   "gpu_clock": 1645,
+   "displayport": "1.4a"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 5600",
+  "release_date": null,
+  "source_url": "",
+  "specs": {
+   "gpu_chip": "Radeon RX 5600",
+   "gpu_brand": "AMD",
+   "vram": 6,
+   "vram_type": "GDDR6",
+   "memory_bus": 192,
+   "gpu_clock": 1560,
+   "displayport": "1.4a",
+   "psu_min": 550
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 5600 XT",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-5000-series/amd-radeon-rx-5600-xt.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 5600 XT",
+   "gpu_brand": "AMD",
+   "vram": 6,
+   "vram_type": "GDDR6",
+   "memory_bus": 192,
+   "gpu_clock": 1560,
+   "displayport": "1.4a",
+   "psu_min": 550
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 5600M",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-5000-series/amd-radeon-rx-5600m.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 5600M",
+   "gpu_brand": "AMD",
+   "vram": 6,
+   "vram_type": "GDDR6",
+   "memory_bus": 192,
+   "gpu_clock": 1265
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 5700M",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-5000-series/amd-radeon-rx-5700m.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 5700M",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 1720,
+   "displayport": "1.4a"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 7400",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7400.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 7400",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "hdmi_version": "2.1",
+   "displayport": "2.1",
+   "psu_min": 450,
+   "card_length": 167
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 7600",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7600.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 7600",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 2655,
+   "hdmi_version": "2.1",
+   "psu_min": 550,
+   "power_connectors": "1x8-Pin",
+   "card_length": 204
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 7600 XT",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7600-xt.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 7600 XT",
+   "gpu_brand": "AMD",
+   "vram": 16,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 2755,
+   "hdmi_version": "2.1",
+   "displayport": "2.1",
+   "psu_min": 600,
+   "power_connectors": "2x8-Pin",
+   "card_length": 241
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 7700",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7700.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 7700",
+   "gpu_brand": "AMD",
+   "vram": 16,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "hdmi_version": "2.1",
+   "displayport": "2.1",
+   "psu_min": 700,
+   "power_connectors": "2x8-Pin",
+   "card_length": 267
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 7700 XT",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7700-xt.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 7700 XT",
+   "gpu_brand": "AMD",
+   "vram": 12,
+   "vram_type": "GDDR6",
+   "memory_bus": 192,
+   "gpu_clock": 2544,
+   "hdmi_version": "2.1",
+   "displayport": "2.1",
+   "psu_min": 700,
+   "power_connectors": "2x8-Pin",
+   "card_length": 267
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 7800 XT",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/7000-series/amd-radeon-rx-7800-xt.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 7800 XT",
+   "gpu_brand": "AMD",
+   "vram": 16,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 2430,
+   "hdmi_version": "2.1",
+   "displayport": "2.1",
+   "psu_min": 700,
+   "power_connectors": "2x8-Pin",
+   "card_length": 267
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 7800M",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/products/graphics/laptops/radeon/7000-series/amd-radeon-rx-7800m.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 7800M",
+   "gpu_brand": "AMD",
+   "vram": 12,
+   "vram_type": "GDDR6",
+   "gpu_clock": 2145
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 9050",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9050.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 9050",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 2600,
+   "interface": "PCI Express 5.0 x16",
+   "hdmi_version": "2.1b",
+   "displayport": "2.1a",
+   "psu_min": 450,
+   "power_connectors": "1x8-Pin"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 9050 (4GB)",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9050-4gb.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 9050",
+   "gpu_brand": "AMD",
+   "vram": 4,
+   "vram_type": "GDDR6",
+   "memory_bus": 64,
+   "gpu_clock": 2600,
+   "interface": "PCI Express 5.0 x16",
+   "hdmi_version": "2.1b",
+   "displayport": "2.1a",
+   "psu_min": 450,
+   "power_connectors": "1x8-Pin"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 9060",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 9060",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 2990,
+   "interface": "PCI Express 5.0 x16",
+   "hdmi_version": "2.1b",
+   "displayport": "2.1a",
+   "psu_min": 450,
+   "power_connectors": "1x8-Pin"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 9060 XT",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 9060 XT",
+   "gpu_brand": "AMD",
+   "vram": 16,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 3130,
+   "interface": "PCI Express 5.0 x16",
+   "hdmi_version": "2.1b",
+   "displayport": "2.1a",
+   "psu_min": 450,
+   "power_connectors": "1x8-Pin"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 9060 XT (8GB)",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt-8gb.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 9060 XT",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "gpu_clock": 3130,
+   "interface": "PCI Express 5.0 x16",
+   "hdmi_version": "2.1b",
+   "displayport": "2.1a",
+   "psu_min": 450,
+   "power_connectors": "1x8-Pin"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 9060 XT LP",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9060xt-lp.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 9060 XT",
+   "gpu_brand": "AMD",
+   "vram": 16,
+   "vram_type": "GDDR6",
+   "memory_bus": 128,
+   "interface": "PCI Express 5.0 x16",
+   "hdmi_version": "2.1b",
+   "displayport": "2.1a",
+   "psu_min": 450,
+   "power_connectors": "1x8-Pin"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 9070",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 9070",
+   "gpu_brand": "AMD",
+   "vram": 16,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 2520,
+   "interface": "PCI Express 5.0 x16",
+   "hdmi_version": "2.1b",
+   "displayport": "2.1a",
+   "psu_min": 650,
+   "power_connectors": "2x8-Pin"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 9070 GRE",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070-gre.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 9070 GRE",
+   "gpu_brand": "AMD",
+   "vram": 12,
+   "vram_type": "GDDR6",
+   "memory_bus": 192,
+   "gpu_clock": 2790,
+   "interface": "PCI Express 5.0 x16",
+   "hdmi_version": "2.1b",
+   "displayport": "2.1a",
+   "psu_min": 650,
+   "power_connectors": "2x8-Pin"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX 9070 XT",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/products/graphics/desktops/radeon/9000-series/amd-radeon-rx-9070xt.html",
+  "specs": {
+   "gpu_chip": "Radeon RX 9070 XT",
+   "gpu_brand": "AMD",
+   "vram": 16,
+   "vram_type": "GDDR6",
+   "memory_bus": 256,
+   "gpu_clock": 2970,
+   "interface": "PCI Express 5.0 x16",
+   "hdmi_version": "2.1b",
+   "displayport": "2.1a",
+   "psu_min": 750,
+   "power_connectors": "2x8-Pin"
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX Vega 56",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-vega-series/radeon-rx-vega-56.html",
+  "specs": {
+   "gpu_chip": "Radeon RX Vega 56",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "HBM2",
+   "memory_bus": 2048,
+   "gpu_clock": 1471,
+   "displayport": "1.4",
+   "psu_min": 650
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX Vega 64",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-vega-series/radeon-rx-vega-64.html",
+  "specs": {
+   "gpu_chip": "Radeon RX Vega 64",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "HBM2",
+   "memory_bus": 2048,
+   "gpu_clock": 1546,
+   "displayport": "1.4",
+   "psu_min": 750
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon RX Vega 64 Liquid Cooled",
+  "release_date": null,
+  "source_url": "",
+  "specs": {
+   "gpu_chip": "Radeon RX Vega 64 Liquid Cooled",
+   "gpu_brand": "AMD",
+   "vram": 8,
+   "vram_type": "HBM2",
+   "memory_bus": 2048,
+   "gpu_clock": 1677,
+   "displayport": "1.4",
+   "psu_min": 1000
+  }
+ },
+ {
+  "brand": "AMD",
+  "name": "Radeon VII",
+  "release_date": null,
+  "source_url": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-vega-series/amd-radeon-vii.html",
+  "specs": {
+   "gpu_chip": "Radeon VII",
+   "gpu_brand": "AMD",
+   "vram": 16,
+   "vram_type": "HBM2",
+   "memory_bus": 4096,
+   "gpu_clock": 1750,
+   "displayport": "1.4",
+   "psu_min": 750
+  }
+ }
+]
